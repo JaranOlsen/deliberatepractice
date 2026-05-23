@@ -1,12 +1,12 @@
 # Content Acceptance Checklist
 
 Revision: 2026-03-07-v1
-Generated: 2026-03-24T19:01:40.638Z
+Generated: 2026-05-21T14:44:00.547Z
 
 ## Gate
 - Approved items: 954/954
 - Norwegian coverage: 954/954
-- QA clean: no
+- QA clean: yes
 
 ## Manual Spot-Check
 - Open each listed anchor item in the app in English and Norwegian.

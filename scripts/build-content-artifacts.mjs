@@ -214,7 +214,8 @@ function buildRegistry() {
 }
 
 function parseBenchmarkBank() {
-  const extract = fs.readFileSync(path.join(mdDir, "EFT_Exercises_Extracted.md"), "utf8");
+  const extractPath = path.join(mdDir, "EFT_Exercises_Extracted.md");
+  const extract = fs.readFileSync(extractPath, "utf8");
   const lines = extract.split(/\r?\n/);
 
   const exerciseMetaByNumber = Object.fromEntries(
@@ -871,7 +872,11 @@ const artifactPaths = {
   acceptanceChecklistPath: path.join(dataDir, "contentAcceptanceChecklist.md")
 };
 
-const acceptanceSummary = buildAcceptanceSummary(inventory, qualityReport, artifactPaths);
+const artifactSummaryPaths = Object.fromEntries(
+  Object.entries(artifactPaths).map(([key, targetPath]) => [key, path.relative(rootDir, targetPath)])
+);
+
+const acceptanceSummary = buildAcceptanceSummary(inventory, qualityReport, artifactSummaryPaths);
 const acceptanceChecklist = buildAcceptanceChecklist(
   spotCheckPacket,
   blindCaseVoiceReview,
