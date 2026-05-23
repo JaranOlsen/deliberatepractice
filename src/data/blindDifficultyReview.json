@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T19:01:40.638Z",
+  "generatedAt": "2026-05-21T14:44:00.547Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -18,12 +18,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "I shouldn't still be this upset—can we just move on?",
-            "response": "[Internal] Lengthen exhale; soften chest; notice urge to redirect. [Meta] It makes sense this still hurts—let's slow for a moment and give that hurt a little room."
+            "statement": "I keep thinking I should be over him by now—can we skip the crying part?",
+            "response": "[Internal] Notice the pull to agree and move on; lengthen exhale. [Meta] A part of you is trying hard to outrun the crying; I want to slow enough to hear what still hurts."
           },
           "no": {
-            "statement": "Jeg burde ikke fortsatt være så opprørt – kan vi bare gå videre?",
-            "response": "[Internt] Forleng utpusten; mykne brystet; legg merke til trangen til å bytte tema. [Meta] Det gir mening at dette fortsatt gjør så vondt – la oss senke tempoet litt og gi den smerten litt rom."
+            "statement": "Jeg tenker hele tiden at jeg burde vært over ham nå – kan vi hoppe over gråtingen?",
+            "response": "[Internt] Legg merke til draget mot å være enig og gå videre; forleng utpusten. [Meta] En del av deg prøver hardt å løpe fra gråten; jeg vil senke tempoet nok til å høre hva som fortsatt gjør vondt."
           }
         },
         {
@@ -31,12 +31,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "I feel nothing—please don't push me to go there.",
-            "response": "[Internal] Titrate; soften voice; drop agenda. [Meta] We won’t push—maybe we just notice the edges of ‘nothing’ together for a breath."
+            "statement": "I feel nothing, and I am scared you will push until I disappear.",
+            "response": "[Internal] Drop agenda; slow your voice; titrate. [Meta] I will not push past the numbness. We can let it show us the edge of what feels safe."
           },
           "no": {
-            "statement": "Jeg kjenner ingenting – vær så snill, ikke press meg dit.",
-            "response": "[Internt] Titrér; mykne stemmen; slipp agenda. [Meta] Vi presser ikke – kanskje vi bare legger merke til kanten av ‘ingenting’ sammen i ett pust."
+            "statement": "Jeg kjenner ingenting, og jeg er redd du presser til jeg forsvinner.",
+            "response": "[Internt] Slipp agendaen; senk stemmen; titrer. [Meta] Jeg presser ikke forbi nummenheten. Vi kan la den vise oss kanten av det som kjennes trygt."
           }
         },
         {
@@ -44,12 +44,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "You didn't reply fast and I felt abandoned.",
-            "response": "[Internal] Anchor feet/seat; lengthen exhale; steady gaze; notice urge to promise. [Meta] I’m here with you now—let’s breathe together and feel a little of how scary that was."
+            "statement": "You did not reply fast, and I felt abandoned and stupid for caring that much.",
+            "response": "[Internal] Anchor feet/seat; lengthen exhale; steady gaze; notice urge to promise. [Meta] I am here with you now; let's breathe together and feel a little of how scary and exposing that was."
           },
           "no": {
-            "statement": "Du svarte ikke med en gang, og jeg følte meg forlatt.",
-            "response": "[Internt] Forankre føtter/sete; forleng utpusten; stødig blikk; merk trangen til å love. [Meta] Jeg er her med deg nå – la oss puste sammen og kjenne litt på hvor skummelt det var."
+            "statement": "Du svarte ikke med en gang, og jeg følte meg forlatt og dum for at det betydde så mye.",
+            "response": "[Internt] Forankre føtter/sete; forleng utpusten; stødig blikk; merk trangen til å love. [Meta] Jeg er her med deg nå; vi puster sammen og kjenner litt på hvor skummelt og blottstilt det var."
           }
         }
       ]
@@ -65,12 +65,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "If I don't know an answer, I feel small.",
-            "response": "Not knowing makes you feel small and exposed."
+            "statement": "When someone asks a question I cannot answer, the room feels bigger and I feel small.",
+            "response": "Not knowing leaves you feeling small and exposed in front of everyone."
           },
           "no": {
-            "statement": "Hvis jeg ikke kan svaret, føler jeg meg liten.",
-            "response": "Det å ikke vite gjør at du føler deg liten og blottstilt."
+            "statement": "Når noen spør om noe jeg ikke kan svare på, blir rommet større og jeg føler meg liten.",
+            "response": "Det å ikke vite gjør at du føler deg liten og blottstilt foran alle."
           }
         },
         {
@@ -78,12 +78,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "I hate admitting I'm wrong.",
-            "response": "Admitting wrong feels exposing and small."
+            "statement": "When I admit I am wrong, I feel stripped down and small.",
+            "response": "Owning a mistake feels exposing, as if status and protection drop at once."
           },
           "no": {
-            "statement": "Jeg hater å innrømme at jeg tar feil.",
-            "response": "Å innrømme at du tar feil kjennes utleverende og gjør deg liten."
+            "statement": "Når jeg innrømmer at jeg tar feil, føler jeg meg ribbet og liten.",
+            "response": "Å eie en feil kjennes utleverende, som om status og beskyttelse faller samtidig."
           }
         },
         {
@@ -91,12 +91,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "After I blow up, I feel ashamed.",
-            "response": "After the blast, shame comes in and weighs on you."
+            "statement": "After I blow up, I feel ashamed when everyone goes quiet and careful.",
+            "response": "After the blast, their careful quiet brings shame and regret."
           },
           "no": {
-            "statement": "Etter at jeg eksploderer, skammer jeg meg.",
-            "response": "Etter smellet kommer skammen og tynger deg."
+            "statement": "Etter at jeg eksploderer, skammer jeg meg når alle blir stille og forsiktige.",
+            "response": "Etter smellet bringer den forsiktige stillheten deres skam og anger."
           }
         }
       ]
@@ -112,12 +112,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "I feel panic when someone seems disappointed in me.",
-            "response": "It makes sense disappointment feels scary when love has felt conditional."
+            "statement": "If someone seems disappointed, I panic like I have ruined the relationship.",
+            "response": "No wonder disappointment feels frightening when love has felt tied to keeping people pleased."
           },
           "no": {
-            "statement": "Jeg får panikk når noen virker skuffet over meg.",
-            "response": "Det gir mening at skuffelse kjennes skremmende når kjærlighet har føltes betinget."
+            "statement": "Hvis noen virker skuffet, får jeg panikk som om jeg har ødelagt forholdet.",
+            "response": "Ikke rart skuffelse kjennes skremmende når kjærlighet har virket knyttet til å holde folk fornøyde."
           }
         },
         {
@@ -125,12 +125,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "My voice trembles when I introduce myself.",
-            "response": "A trembling voice makes sense when your body is bracing for judgment."
+            "statement": "My voice trembles when I introduce myself, and then I feel ashamed that everyone can hear it.",
+            "response": "Understandably, with so much fear of being judged, the trembling shows how exposed that moment feels."
           },
           "no": {
-            "statement": "Stemmen skjelver når jeg presenterer meg.",
-            "response": "En skjelvende stemme gir mening når kroppen spenner seg for å bli vurdert."
+            "statement": "Stemmen skjelver når jeg presenterer meg, og etterpå skammer jeg meg over at alle kan høre det.",
+            "response": "Forståelig nok viser skjelvingen hvor blottstilt det øyeblikket kjennes, med så mye frykt for å bli dømt."
           }
         },
         {
@@ -138,12 +138,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "I don't want to need anyone.",
-            "response": "Given what you've lived, it makes sense needing others feels dangerous."
+            "statement": "I do not want to need anyone, because needing people has usually meant losing control.",
+            "response": "Given what closeness has cost you, no wonder not needing anyone feels like protection rather than coldness."
           },
           "no": {
-            "statement": "Jeg vil ikke trenge noen.",
-            "response": "Med det du har levd, gir det mening at det føles farlig å trenge andre."
+            "statement": "Jeg vil ikke trenge noen, fordi det å trenge folk som regel har betydd å miste kontroll.",
+            "response": "Gitt hva nærhet har kostet deg, er det ikke rart at det å klare seg uten noen kjennes som beskyttelse, ikke kulde."
           }
         }
       ]
@@ -159,12 +159,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "Most days feel muted, like I am behind glass.",
-            "response": "As you notice that 'behind glass' feeling now, where do you feel the distance most in your body?"
+            "statement": "Most days feel muted, like I am watching life from behind thick glass.",
+            "response": "As you notice the thick glass between you and life, where is the distance strongest?"
           },
           "no": {
-            "statement": "De fleste dager føles dempet, som om jeg er bak glass.",
-            "response": "Når du legger merke til den «bak glass»-følelsen nå, hvor kjenner du avstanden sterkest i kroppen?"
+            "statement": "De fleste dager føles dempet, som om jeg ser på livet bak tykt glass.",
+            "response": "Når du legger merke til det tykke glasset mellom deg og livet, hvor er avstanden sterkest?"
           }
         },
         {
@@ -172,12 +172,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "If a reply does not come, I feel like I am falling.",
-            "response": "As the falling starts, where do you notice it first, and what is it like—drop, spin, emptiness?"
+            "statement": "If a reply does not come after I open up, I feel like I am falling.",
+            "response": "As the falling starts, where do you first feel the drop?"
           },
           "no": {
-            "statement": "Hvis et svar ikke kommer, føles det som om jeg faller.",
-            "response": "Når fallet starter, hvor merker du det først, og hvordan kjennes det – fall, svimmelhet, tomhet?"
+            "statement": "Hvis et svar ikke kommer etter at jeg har åpnet meg, føles det som om jeg faller.",
+            "response": "Når fallet begynner, hvor merker du det først?"
           }
         },
         {
@@ -186,11 +186,11 @@
           "riskFlags": [],
           "en": {
             "statement": "When I see his name pop up anywhere, my stomach drops and I feel small.",
-            "response": "As you notice that drop right now, where do you feel it most and what is the quality—tight, heavy, hollow?"
+            "response": "When your stomach drops, what quality does that feeling have - heavy, hollow, or tight?"
           },
           "no": {
             "statement": "Når jeg ser navnet hans dukke opp hvor som helst, synker magen og jeg føler meg liten.",
-            "response": "Når du kjenner at det synker nå, hvor i kroppen merker du det sterkest, og hvordan kjennes det – stramt, tungt, hult?"
+            "response": "Når magen synker, hvilken kvalitet har følelsen - tung, hul eller stram?"
           }
         }
       ]
@@ -206,12 +206,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "I hate feeling small when I am wrong.",
-            "response": "We will help you tolerate that burn for seconds because that is what lets you own it quickly and move forward with strength."
+            "statement": "I hate feeling small when I am wrong; how does sitting with that help?",
+            "response": "If you can tolerate that burn for a few seconds, it lets you own the mistake before defensiveness takes over. That is what makes repair faster and leadership steadier."
           },
           "no": {
-            "statement": "Jeg hater å føle meg liten når jeg tar feil.",
-            "response": "Vi skal hjelpe deg å tåle den brenningen i noen sekunder, fordi det gjør det mulig å eie det raskt og gå videre med styrke."
+            "statement": "Jeg hater å føle meg liten når jeg tar feil; hvordan hjelper det å sitte med det?",
+            "response": "Hvis du kan tåle den brenningen i noen sekunder, hjelper det deg å eie feilen før forsvaret tar over. Det er det som gjør reparasjon raskere og lederskapet stødigere."
           }
         },
         {
@@ -219,12 +219,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "Can you just give me tools?",
-            "response": "We will. Tools land best when they are tuned to your flashpoints, because the emotion work shows us exactly when and how to use them."
+            "statement": "Can we skip the feelings and just build a tool for when my chest gets hot?",
+            "response": "We can build the tool around that heat. Feeling work tells us exactly what the tool must interrupt: shame, threat, or the urge to prove yourself."
           },
           "no": {
-            "statement": "Kan du bare gi meg verktøy?",
-            "response": "Det skal vi. Verktøy lander best når de er tilpasset tennpunktene dine, fordi følelsesarbeidet viser oss akkurat når og hvordan de skal brukes."
+            "statement": "Kan vi hoppe over følelsene og bare lage et verktøy for når brystet blir varmt?",
+            "response": "Vi kan bygge verktøyet rundt den varmen. Følelsesarbeidet forteller oss nøyaktig hva verktøyet må avbryte: skam, trussel eller trangen til å bevise deg."
           }
         },
         {
@@ -232,12 +232,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "What if I blow up anyway?",
-            "response": "Then we learn from it. Each blowup refines the map so the next time you catch it sooner and repair faster."
+            "statement": "What if I blow up anyway after we talk about all this?",
+            "response": "Then we learn from the exact moment it happened. Each blowup refines the map so you catch it sooner and repair faster next time."
           },
           "no": {
-            "statement": "Hva om jeg eksploderer uansett?",
-            "response": "Da lærer vi av det. Hvert utbrudd finjusterer kartet, så du fanger det tidligere neste gang og reparerer raskere."
+            "statement": "Hva om jeg eksploderer uansett etter at vi har snakket om alt dette?",
+            "response": "Da lærer vi av akkurat øyeblikket der det skjedde. Hvert utbrudd finjusterer kartet, så du fanger det tidligere og reparerer raskere neste gang."
           }
         }
       ]
@@ -266,12 +266,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "I compare myself to other moms, and I shrink inside.",
-            "response": "Comparison shrinks you quickly, touching that small not-enough place."
+            "statement": "Next to other moms I shrink, like they all know a rule I missed.",
+            "response": "Comparison makes you smaller, and there may be an old fear of being the one who somehow failed the rules."
           },
           "no": {
-            "statement": "Jeg sammenligner meg med andre mødre, og jeg krymper inni meg.",
-            "response": "Sammenligning krymper deg raskt og treffer det lille ikke-god-nok-stedet."
+            "statement": "Ved siden av andre mødre krymper jeg, som om de alle kan en regel jeg gikk glipp av.",
+            "response": "Sammenligning gjør deg mindre, og kanskje ligger det en gammel frykt der for å være den som på en eller annen måte mislyktes med reglene."
           }
         },
         {
@@ -279,12 +279,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "Sometimes I pretend to text to avoid small talk.",
-            "response": "Small talk sounds simple, yet for you it seems to open right onto fear of exposure."
+            "statement": "Sometimes I pretend to text so small talk cannot expose how blank I feel.",
+            "response": "The phone gives you cover, while the blankness underneath seems to carry the fear of being seen."
           },
           "no": {
-            "statement": "Noen ganger later jeg som jeg tekster for å slippe småprat.",
-            "response": "Småprat høres enkelt ut, men for deg ser det ut til å åpne rett inn i frykten for å bli eksponert."
+            "statement": "Noen ganger later jeg som jeg skriver melding, så småprat ikke avslører hvor blank jeg blir.",
+            "response": "Telefonen gir deg dekning, mens blankheten under ser ut til å bære frykten for å bli sett."
           }
         }
       ]
@@ -300,12 +300,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "Evenings stretch out and the apartment feels too big for just me.",
-            "response": "Nights stretch long and the rooms feel too big, echoing with alone."
+            "statement": "After dinner the evening stretches out, and the apartment feels too big for one person.",
+            "response": "After dinner the rooms seem to stretch, too much space around one lonely body."
           },
           "no": {
-            "statement": "Kveldene blir lange, og leiligheten føles for stor når jeg er alene.",
-            "response": "Nettene blir lange, og rommene kjennes for store – med ekko av ensomhet."
+            "statement": "Etter middag drar kvelden seg ut, og leiligheten kjennes for stor for én person.",
+            "response": "Etter middag virker rommene som om de strekker seg, med altfor mye plass rundt én ensom kropp."
           }
         },
         {
@@ -313,12 +313,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "Most mornings feel flat, like colors are washed out.",
-            "response": "It's all washed‑out tones, like the color's been drained."
+            "statement": "Most mornings feel flat, like someone washed the color out before I woke up.",
+            "response": "The morning arrives in drained-out color, everything pale before the day even starts."
           },
           "no": {
-            "statement": "De fleste morgener føles flate, som om fargene er vasket ut.",
-            "response": "Alt går i utvaskede toner, som om fargene er tappet ut."
+            "statement": "De fleste morgener føles flate, som om noen har vasket ut fargene før jeg våknet.",
+            "response": "Morgenen kommer i avblekede farger, alt er blekt før dagen engang har startet."
           }
         },
         {
@@ -326,12 +326,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "When you look at the clock, my stomach drops.",
-            "response": "One glance at the clock and your stomach drops out."
+            "statement": "When you look at the clock, my stomach drops like the room is already leaving me.",
+            "response": "One glance at the clock and the room drops away, abandonment opening under your feet."
           },
           "no": {
-            "statement": "Når du ser på klokka, synker magen.",
-            "response": "Ett blikk på klokka, og magen synker helt ned."
+            "statement": "Når du ser på klokka, synker magen som om rommet allerede er på vei bort fra meg.",
+            "response": "Ett blikk på klokka, og rommet faller bort, som om forlattheten åpner seg under føttene dine."
           }
         }
       ]
@@ -347,12 +347,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "Apologizing feels like giving up ground.",
-            "response": "It feels risky; I wonder if it touches a small, ashamed place you'd rather not show."
+            "statement": "Apologizing feels like giving up ground, like everyone can see I lost.",
+            "response": "It feels risky; I wonder if apologizing touches a small, ashamed place that cannot bear being seen as defeated."
           },
           "no": {
-            "statement": "Å be om unnskyldning kjennes som å gi fra seg terreng.",
-            "response": "Det kjennes risikabelt; jeg lurer på om det berører et lite, skamfullt sted du helst vil skjule."
+            "statement": "Å be om unnskyldning kjennes som å gi fra seg terreng, som om alle kan se at jeg tapte.",
+            "response": "Det kjennes risikabelt; jeg lurer på om det å beklage berører et lite, skamfullt sted som ikke tåler å bli sett som beseiret."
           }
         },
         {
@@ -360,12 +360,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "Apologizing makes me cringe.",
-            "response": "It feels humiliating; I wonder if it touches an old shame of being wrong."
+            "statement": "Apologizing makes me cringe, like everyone in the room can watch my status drop.",
+            "response": "It feels humiliating; I wonder if admitting wrong touches the old shame of being reduced to failure."
           },
           "no": {
-            "statement": "Å be om unnskyldning får meg til å krympe meg.",
-            "response": "Det kjennes ydmykende; jeg lurer på om det treffer en gammel skam over å ta feil."
+            "statement": "Å be om unnskyldning får meg til å krympe meg, som om alle i rommet ser statusen min falle.",
+            "response": "Det kjennes ydmykende; jeg lurer på om det å innrømme feil treffer den gamle skammen over å bli redusert til mislykket."
           }
         },
         {
@@ -373,12 +373,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "After a fight, I can't look at my wife.",
-            "response": "You avoid her eyes; I wonder if seeing her face touches regret and tenderness."
+            "statement": "After a fight, my wife gets quiet, and I cannot look at her face.",
+            "response": "Her quiet seems to reach past the anger; I wonder if looking at her would bring up regret, tenderness, and the fear that you scared her."
           },
           "no": {
-            "statement": "Etter en krangel klarer jeg ikke å se kona i øynene.",
-            "response": "Du unngår blikket hennes; jeg lurer på om det berører anger og ømhet."
+            "statement": "Etter en krangel blir kona mi stille, og jeg klarer ikke å se ansiktet hennes.",
+            "response": "Stillheten hennes ser ut til å nå forbi sinnet; jeg lurer på om blikket hennes ville vekke anger, ømhet og frykten for at du skremte henne."
           }
         }
       ]
@@ -394,12 +394,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "I cannot catch my breath.",
-            "response": "Let us lengthen the exhale together and feel the back of the chair. We will take this in sips."
+            "statement": "I cannot catch my breath when I stop taking care of everyone.",
+            "response": "For this second, no one else gets assigned to you. Let the chair take your back, lengthen one out-breath, and give your own breath the room usually taken by everyone else."
           },
           "no": {
-            "statement": "Jeg får ikke tak i pusten.",
-            "response": "La oss forlenge utpusten sammen og kjenne ryggen mot stolen. Vi tar dette i små slurker."
+            "statement": "Jeg får ikke tak i pusten når jeg slutter å ta vare på alle.",
+            "response": "I dette sekundet skal ingen andres behov legges på deg. La stolen bære ryggen din, forleng ett utpust, og gi din egen pust rommet som vanligvis går til alle andre."
           }
         },
         {
@@ -407,12 +407,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "I feel like crying and it is embarrassing.",
-            "response": "Tears are welcome here. We will keep breathing slow and let a little of the feeling be here with us."
+            "statement": "I feel like crying, and I am embarrassed you will notice.",
+            "response": "Tears are welcome here. Keep breathing slowly with me and let a little of the feeling be here between us."
           },
           "no": {
-            "statement": "Jeg kjenner at jeg vil gråte, og det er flaut.",
-            "response": "Tårer er velkomne her. Vi fortsetter å puste rolig og lar litt av følelsen få være her sammen med oss."
+            "statement": "Jeg kjenner at jeg vil gråte, og jeg blir flau for at du ser det.",
+            "response": "Tårer er velkomne her. Fortsett å puste rolig med meg og la litt av følelsen få være her mellom oss."
           }
         },
         {
@@ -420,12 +420,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "I want to disappear.",
-            "response": "I am here with you. Feel the chair and your feet while we stay with one small breath of how badly you want out of this pain, then we come back together."
+            "statement": "I want to disappear when the memories crowd in and the room stops feeling real.",
+            "response": "I am here with you, and we take that urge seriously. Press your feet down, feel the chair, and name the wish to vanish while we keep you oriented here."
           },
           "no": {
-            "statement": "Jeg vil forsvinne.",
-            "response": "Jeg er her sammen med deg. Kjenn stolen og føttene dine mens vi blir ved ett lite pust av hvor sterkt du vil ut av denne smerten, og så kommer vi tilbake sammen."
+            "statement": "Jeg vil forsvinne når minnene presser seg på og rommet slutter å kjennes virkelig.",
+            "response": "Jeg er her sammen med deg, og vi tar den trangen på alvor. Press føttene ned, kjenn stolen, og sett navn på ønsket om å forsvinne mens vi holder orienteringen her."
           }
         }
       ]
@@ -441,12 +441,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "Does this make you uncomfortable—me feeling nothing?",
-            "response": "I am not uncomfortable with the nothing. I feel patient and careful with it. What happens in you hearing that?"
+            "statement": "When I feel nothing, do you get uncomfortable or think I am unreachable?",
+            "response": "I do not feel uncomfortable with the numbness, and I do not see you as unreachable. I feel careful and patient with it, and I want you to have room here without performing feeling for me."
           },
           "no": {
-            "statement": "Blir du utilpass av dette—at jeg ikke føler noe?",
-            "response": "Jeg blir ikke utilpass av tomheten. Jeg kjenner meg tålmodig og varsom med den. Hva skjer i deg når du hører det?"
+            "statement": "Når jeg ikke føler noe, blir du utilpass eller tenker at jeg er utilgjengelig?",
+            "response": "Jeg blir ikke utilpass av nummenheten, og jeg ser deg ikke som utilgjengelig. Jeg kjenner meg varsom og tålmodig med den, og jeg vil at du får rom her uten å prestere følelse for meg."
           }
         },
         {
@@ -455,11 +455,11 @@
           "riskFlags": [],
           "en": {
             "statement": "Do you actually care about me or are you paid to?",
-            "response": "I do care about you, and I feel that care right here with you. What happens inside as you hear me say it?"
+            "response": "I do care about you, and I feel that care here with you. Let the part that doubts care hear me without having to believe it all at once."
           },
           "no": {
             "statement": "Bryr du deg egentlig om meg, eller får du betalt for det?",
-            "response": "Jeg bryr meg om deg, og jeg kjenner den omsorgen her sammen med deg. Hva skjer inni deg når du hører meg si det?"
+            "response": "Jeg bryr meg om deg, og jeg kjenner den omsorgen her sammen med deg. La delen som tviler på omsorg høre meg uten å måtte tro helt på det med en gang."
           }
         },
         {
@@ -467,12 +467,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "Do you think I am being ridiculous still missing him?",
-            "response": "I do not see you as ridiculous. I feel touched by how much he mattered. What is it like to hear me say that?"
+            "statement": "When I say I still miss him, do you secretly think I sound ridiculous?",
+            "response": "No. I do not hear ridiculous; I hear grief for someone who mattered. I feel moved by how carefully you are trying to survive this loss, and I want to know what it is like to hear that."
           },
           "no": {
-            "statement": "Synes du jeg er latterlig som fortsatt savner ham?",
-            "response": "Jeg ser deg ikke som latterlig. Jeg blir berørt av hvor mye han betydde. Hvordan er det å høre meg si det?"
+            "statement": "Når jeg sier at jeg fortsatt savner ham, tenker du egentlig at jeg høres latterlig ut?",
+            "response": "Nei. Jeg hører ikke noe latterlig; jeg hører sorg over en som betydde noe. Jeg blir beveget av hvor varsomt du prøver å overleve dette tapet, og jeg vil vite hvordan det er å høre det."
           }
         }
       ]
@@ -488,11 +488,11 @@
           "order": 2,
           "riskFlags": [],
           "en": {
-            "statement": "I still want to tell my father that I was more than my results.",
+            "statement": "I still want to tell my father, I needed love, not just applause for results.",
             "response": "I hear unfinished business with your father around being valued only for results. We could use the empty chair and let you say what never got said to him."
           },
           "no": {
-            "statement": "Jeg vil fortsatt si til faren min at jeg var mer enn bare resultatene mine.",
+            "statement": "Jeg vil fortsatt si til faren min: «Jeg trengte kjærlighet, ikke bare applaus for resultater.»",
             "response": "Jeg hører uavsluttet oppgjør med faren din rundt det å bli verdsatt bare for resultater. Vi kan bruke den tomme stolen og la deg si det som aldri fikk bli sagt til ham."
           }
         },
@@ -501,12 +501,12 @@
           "order": 2,
           "riskFlags": [],
           "en": {
-            "statement": "In my head I say, Get control, you are pathetic.",
-            "response": "That is a harsh self-attack. Let us put the voice that says 'pathetic' in one chair and the part it shames in the other, and let them speak one turn each."
+            "statement": "The voice in my head says, Get control, you pathetic little boy.",
+            "response": "That is a harsh self-attack. We can put the voice that says 'pathetic little boy' in one chair and the part it shames in the other, and let them speak one turn each."
           },
           "no": {
-            "statement": "I hodet sier jeg: «Få kontroll, du er patetisk.»",
-            "response": "Det er et hardt selvangrep. La oss sette stemmen som sier «patetisk» i én stol og delen den skammer i den andre, og la dem ta én runde hver."
+            "statement": "Stemmen i hodet sier: «Få kontroll, din patetiske lille gutt.»",
+            "response": "Det er et hardt selvangrep. Vi kan sette stemmen som sier «patetiske lille gutt» i én stol og delen den skammer i den andre, og la dem ta én runde hver."
           }
         },
         {
@@ -514,12 +514,12 @@
           "order": 2,
           "riskFlags": [],
           "en": {
-            "statement": "I wish I could tell my father what his belt did to me.",
-            "response": "I hear unfinished business with your father and what his belt taught you. If you are willing, put him in this chair and say what that did to you, a few strong lines at a time."
+            "statement": "I want to tell my father, Your belt taught me fear was respect.",
+            "response": "There is unfinished business with your father and what his belt taught you. If you are willing, put him in this chair and say what that did to you, a few strong lines at a time."
           },
           "no": {
-            "statement": "Jeg skulle ønske jeg kunne si til faren min hva beltet hans gjorde med meg.",
-            "response": "Jeg hører uavsluttet oppgjør med faren din og det beltet lærte deg. Hvis du vil, kan du sette ham i denne stolen og si hva det gjorde med deg, noen sterke linjer om gangen."
+            "statement": "Jeg vil si til faren min: «Beltet ditt lærte meg at frykt var respekt.»",
+            "response": "Det ligger uavsluttet oppgjør med faren din her og med det beltet lærte deg. Hvis du vil, kan du sette ham i denne stolen og si hva det gjorde med deg, noen sterke linjer om gangen."
           }
         }
       ]
@@ -537,12 +537,12 @@
             "trauma"
           ],
           "en": {
-            "statement": "When you asked about nightmares, I felt pressured.",
-            "response": "I hear that the nightmare question felt like pressure, and I am sorry. What would help trauma topics feel more optional and less imposed?"
+            "statement": "When you asked about nightmares before I was ready, I felt pressured.",
+            "response": "I hear that the nightmare question came before you were ready and felt like pressure, and I am sorry. How should I ask permission before trauma topics so they feel optional rather than imposed?"
           },
           "no": {
-            "statement": "Da du spurte om marerittene, følte jeg meg presset.",
-            "response": "Jeg hører at marerittspørsmålet føltes som press, og det beklager jeg. Hva ville hjulpet traumetematikken til å kjennes mer valgfri og mindre påtvunget?"
+            "statement": "Da du spurte om marerittene før jeg var klar, følte jeg meg presset.",
+            "response": "Jeg hører at marerittspørsmålet kom før du var klar og føltes som press, og det beklager jeg. Hvordan bør jeg be om lov før traumetemaer, så de kjennes valgfrie heller enn påtvunget?"
           }
         },
         {
@@ -550,12 +550,12 @@
           "order": 3,
           "riskFlags": [],
           "en": {
-            "statement": "I worry I am wasting your time.",
-            "response": "I am glad you said that. If I gave the sense that this time was not worth taking, I want to own it. What helps therapy feel most purposeful for you?"
+            "statement": "When I asked if this mattered, your quiet made me worry I was wasting your time.",
+            "response": "Thank you for telling me. My quiet made the work feel uncertain and maybe not worth the time, and I am sorry for leaving you there. What would make the purpose of our work feel clearer today?"
           },
           "no": {
-            "statement": "Jeg er redd jeg kaster bort tiden din.",
-            "response": "Jeg er glad du sa det. Hvis jeg ga inntrykk av at denne tiden ikke var verdt å ta, vil jeg eie det. Hva hjelper terapi til å kjennes mest meningsfull for deg?"
+            "statement": "Da jeg spurte om dette betydde noe, gjorde stillheten din meg redd for at jeg kastet bort tiden din.",
+            "response": "Takk for at du sier det. Stillheten min gjorde arbeidet usikkert og kanskje ikke verdt tiden, og jeg beklager at jeg lot deg bli der. Hva ville gjort formålet med arbeidet tydeligere i dag?"
           }
         },
         {
@@ -564,11 +564,11 @@
           "riskFlags": [],
           "en": {
             "statement": "I felt pushed when you asked about my body right away.",
-            "response": "You are right, I moved too quickly into body focus. I am sorry. What would make it feel safer to approach things one step at a time?"
+            "response": "I went inward too quickly before enough safety was there. I am sorry. Would you rather start with words, the room, or a small signal from you before I ask about sensations?"
           },
           "no": {
             "statement": "Jeg følte meg presset da du spurte om kroppen med en gang.",
-            "response": "Du har rett, jeg gikk for fort inn i kroppen. Det beklager jeg. Hva ville gjort det tryggere å nærme seg dette ett lite steg av gangen?"
+            "response": "Jeg gikk innover for raskt før det var nok trygghet. Det beklager jeg. Vil du heller starte med ord, med rommet, eller med et lite signal fra deg før jeg spør om fornemmelser?"
           }
         }
       ]

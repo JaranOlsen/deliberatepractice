@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-03-24T19:01:40.615Z"
+  "generatedAt": "2026-05-21T14:44:00.539Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -1232,7 +1232,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-carlos"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "violence"
+        ],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -7051,7 +7053,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Affirmation and Validation",
           "caseId": "case-aisha"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "trauma"
+        ],
         "criteriaTags": [
           "validate_context",
           "legacy_matrix_item"
@@ -16868,7 +16872,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Evocations",
           "caseId": "case-carlos"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "trauma"
+        ],
         "criteriaTags": [
           "evoke_image",
           "heighten_felt_sense",
@@ -17071,7 +17077,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Evocations",
           "caseId": "case-carlos"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "substance_use"
+        ],
         "criteriaTags": [
           "evoke_image",
           "heighten_felt_sense",
@@ -22784,9 +22792,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-aisha"
         },
-        "riskFlags": [
-          "self_harm"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
@@ -26242,7 +26248,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Self-Disclosure",
           "caseId": "case-marcus"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "trauma"
+        ],
         "criteriaTags": [
           "judicious_transparency",
           "return_to_client",

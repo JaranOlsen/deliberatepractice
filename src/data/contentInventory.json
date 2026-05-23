@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T19:01:40.622Z",
+  "generatedAt": "2026-05-21T14:44:00.544Z",
   "revision": "2026-03-07-v1",
   "caseBibleCount": 9,
   "caseMatrixSummary": {
@@ -16,7 +16,7 @@
       "too_generic",
       "duplicate_pattern"
     ],
-    "generatedAt": "2026-03-24T19:01:40.615Z"
+    "generatedAt": "2026-05-21T14:44:00.539Z"
   },
   "benchmarkSummary": {
     "revision": "2026-03-07-v1",
@@ -24,7 +24,7 @@
     "totalResponses": 175,
     "sourceResponseCount": 160,
     "derivedResponseCount": 15,
-    "generatedAt": "2026-03-24T19:01:40.621Z"
+    "generatedAt": "2026-05-21T14:44:00.544Z"
   },
   "inventory": [
     {
@@ -1154,7 +1154,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "violence"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 1,
@@ -6676,7 +6678,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "trauma"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 3,
@@ -15770,7 +15774,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "trauma"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 7,
@@ -15959,7 +15965,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "substance_use"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 7,
@@ -21181,9 +21189,7 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [
-        "self_harm"
-      ],
+      "riskFlags": [],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 9,
@@ -24352,7 +24358,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "trauma"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 10,
