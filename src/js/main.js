@@ -28,6 +28,9 @@ const sections = {
   practice: document.getElementById("practice-area")
 };
 
+const APP_VERSION = typeof __APP_VERSION__ === "string" ? __APP_VERSION__ : "0.0.0";
+const BUILD_REF = typeof __BUILD_REF__ === "string" ? __BUILD_REF__ : "";
+
 const elements = {
   appTitle: document.getElementById("app-title"),
   appTagline: document.getElementById("app-tagline"),
@@ -89,6 +92,7 @@ const elements = {
   skillsBackButton: document.getElementById("back-to-skills"),
   casesBackButton: document.getElementById("back-to-cases"),
   footerNote: document.getElementById("footer-note"),
+  appVersion: document.getElementById("app-version"),
   statementPanel: document.querySelector(".statement-panel"),
   suggestionPanel: document.querySelector(".suggestion-panel"),
   suggestionToggle: document.getElementById("toggle-suggestion"),
@@ -204,6 +208,12 @@ function saveAccessLevel(level, expiresAt = null) {
 
 function hasProAccess() {
   return (state.accessLevel === "pro" || state.accessLevel === "all") && !isAccessExpired(state.accessExpiresAt);
+}
+
+function renderAppVersion() {
+  if (!elements.appVersion) return;
+  const buildSuffix = BUILD_REF ? ` · ${BUILD_REF}` : "";
+  elements.appVersion.textContent = `v${APP_VERSION}${buildSuffix}`;
 }
 
 function isCaseLocked(caseItem) {
@@ -1540,6 +1550,7 @@ function initialize() {
   const accessState = loadAccessState();
   state.accessLevel = accessState.accessLevel;
   state.accessExpiresAt = accessState.accessExpiresAt;
+  renderAppVersion();
   applyLanguageStrings("en");
   renderLanguageOptions();
   elements.statementText.textContent = getUIStrings("en").emptyPrompt;
