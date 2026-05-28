@@ -1,11 +1,25 @@
 "use strict";
 
 // Lightweight helpers to talk to Supabase REST without extra deps.
-const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL ?? "";
-const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY ?? "";
+const SUPABASE_URL = normalizeSupabaseUrl(import.meta.env?.VITE_SUPABASE_URL ?? "");
+const SUPABASE_ANON_KEY = import.meta.env?.VITE_SUPABASE_ANON_KEY ?? "";
+
+function normalizeSupabaseUrl(value) {
+  return String(value ?? "").trim().replace(/\/+$/, "");
+}
 
 function hasSupabaseConfig() {
   return Boolean(SUPABASE_URL && SUPABASE_ANON_KEY);
+}
+
+function normalizeAccessLevel(value) {
+  return value === "pro" || value === "all" ? value : null;
+}
+
+export function isAccessExpired(expiresAt) {
+  if (!expiresAt) return false;
+  const expiresMs = Date.parse(expiresAt);
+  return Number.isFinite(expiresMs) && expiresMs <= Date.now();
 }
 
 async function postJson(path, payload) {
@@ -65,14 +79,21 @@ export async function submitFeedback(payload) {
  * and an RLS policy that permits selecting by access_code using the anon key.
  */
 export async function redeemAccessCode(code) {
-  const encoded = encodeURIComponent(code);
+  const encoded = encodeURIComponent(String(code ?? "").trim());
   const data = await getJson(`/rest/v1/entitlements?access_code=eq.${encoded}&select=access_level,expires_at`);
   if (!Array.isArray(data) || data.length === 0) {
     throw new Error("invalid_code");
   }
   const entry = data[0];
+  const accessLevel = normalizeAccessLevel(entry.access_level);
+  if (!accessLevel) {
+    throw new Error("invalid_code");
+  }
+  if (isAccessExpired(entry.expires_at)) {
+    throw new Error("expired_code");
+  }
   return {
-    accessLevel: entry.access_level ?? "free",
+    accessLevel,
     expiresAt: entry.expires_at ?? null
   };
 }

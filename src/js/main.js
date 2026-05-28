@@ -17,6 +17,7 @@ import {
   submitFeedback,
   redeemAccessCode,
   isSupabaseReady,
+  isAccessExpired,
   logAccessCodeAttempt
 } from "./backend.js";
 
@@ -121,6 +122,7 @@ const state = {
   suggestionVisible: false,
   view: "brief",
   accessLevel: "free",
+  accessExpiresAt: null,
   currentStatement: null,
   unlocking: false,
   feedbackCollapsed: true,
@@ -153,20 +155,47 @@ const SKILL_PHASE_LABELS = {
   beta: "Beta"
 };
 
-function loadAccessLevel() {
+function normalizeAccessLevel(level) {
+  return level === "pro" || level === "all" ? level : "free";
+}
+
+function loadAccessState() {
   try {
     const stored = localStorage.getItem(ACCESS_STORAGE_KEY);
-    if (stored) return stored;
+    if (!stored) {
+      return { accessLevel: "free", accessExpiresAt: null };
+    }
+    if (stored.trim().startsWith("{")) {
+      const parsed = JSON.parse(stored);
+      const accessLevel = normalizeAccessLevel(parsed.accessLevel);
+      const accessExpiresAt = typeof parsed.expiresAt === "string" ? parsed.expiresAt : null;
+      if (accessLevel !== "free" && isAccessExpired(accessExpiresAt)) {
+        localStorage.removeItem(ACCESS_STORAGE_KEY);
+        return { accessLevel: "free", accessExpiresAt: null };
+      }
+      return { accessLevel, accessExpiresAt };
+    }
+    const accessLevel = normalizeAccessLevel(stored);
+    if (accessLevel !== "free") {
+      return { accessLevel, accessExpiresAt: null };
+    }
   } catch (err) {
     // ignore storage errors
   }
-  return "free";
+  return { accessLevel: "free", accessExpiresAt: null };
 }
 
-function saveAccessLevel(level) {
-  state.accessLevel = level;
+function saveAccessLevel(level, expiresAt = null) {
+  state.accessLevel = normalizeAccessLevel(level);
+  state.accessExpiresAt = typeof expiresAt === "string" ? expiresAt : null;
   try {
-    localStorage.setItem(ACCESS_STORAGE_KEY, level);
+    localStorage.setItem(
+      ACCESS_STORAGE_KEY,
+      JSON.stringify({
+        accessLevel: state.accessLevel,
+        expiresAt: state.accessExpiresAt
+      })
+    );
   } catch (err) {
     // ignore storage errors
   }
@@ -174,7 +203,7 @@ function saveAccessLevel(level) {
 }
 
 function hasProAccess() {
-  return state.accessLevel === "pro" || state.accessLevel === "all";
+  return (state.accessLevel === "pro" || state.accessLevel === "all") && !isAccessExpired(state.accessExpiresAt);
 }
 
 function isCaseLocked(caseItem) {
@@ -1113,6 +1142,17 @@ function setFeedbackStatus(message) {
   elements.feedbackStatus.textContent = message ?? "";
 }
 
+function getStableStatementOrderIndex(statement) {
+  if (Number.isInteger(statement?.orderIndex)) {
+    return statement.orderIndex;
+  }
+  const match = String(statement?.id ?? "").match(/_(\d{2})$/);
+  if (match) {
+    return Number(match[1]) - 1;
+  }
+  return state.index;
+}
+
 function updateFeedbackVisibility() {
   if (!elements.feedbackForm || !elements.feedbackToggle) return;
   const strings = getUIStrings();
@@ -1193,7 +1233,7 @@ async function handleFeedbackSubmit(event) {
     skill_id: state.skillId,
     case_id: state.caseId,
     language_id: state.languageId ?? "en",
-    order_index: state.index,
+    order_index: getStableStatementOrderIndex(state.currentStatement),
     reason,
     details,
     user_agent: navigator.userAgent ?? "",
@@ -1247,7 +1287,7 @@ async function handleUnlockSubmit(event) {
   try {
     const result = await redeemAccessCode(code);
     logAccessCodeAttempt({ code, status: "success", languageId }).catch(() => {});
-    saveAccessLevel(result.accessLevel ?? "pro");
+    saveAccessLevel(result.accessLevel ?? "pro", result.expiresAt ?? null);
     if (elements.unlockStatus) {
       elements.unlockStatus.textContent = strings.unlockSuccess ?? "";
     }
@@ -1255,12 +1295,16 @@ async function handleUnlockSubmit(event) {
     renderCaseOptions();
     hydratePracticeView();
   } catch (err) {
-    const status = err?.message === "invalid_code" ? "invalid" : "error";
+    const status =
+      err?.message === "invalid_code" || err?.message === "expired_code" ? "invalid" : "error";
     logAccessCodeAttempt({ code, status, languageId }).catch(() => {});
     if (elements.unlockStatus) {
-      const msg = err?.message === "invalid_code"
-        ? strings.unlockInvalid ?? ""
-        : strings.unlockError ?? err.message ?? "";
+      let msg = strings.unlockError ?? err.message ?? "";
+      if (err?.message === "expired_code") {
+        msg = strings.unlockExpired ?? strings.unlockInvalid ?? "";
+      } else if (err?.message === "invalid_code") {
+        msg = strings.unlockInvalid ?? "";
+      }
       elements.unlockStatus.textContent = msg;
     }
   } finally {
@@ -1493,7 +1537,9 @@ function registerEventListeners() {
 }
 
 function initialize() {
-  state.accessLevel = loadAccessLevel();
+  const accessState = loadAccessState();
+  state.accessLevel = accessState.accessLevel;
+  state.accessExpiresAt = accessState.accessExpiresAt;
   applyLanguageStrings("en");
   renderLanguageOptions();
   elements.statementText.textContent = getUIStrings("en").emptyPrompt;
