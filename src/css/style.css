@@ -774,6 +774,14 @@ input[type="text"] {
   text-align: center;
   font-size: 0.85rem;
   color: var(--color-muted);
+  display: grid;
+  gap: 0.35rem;
+}
+
+.app-version {
+  color: color-mix(in srgb, var(--color-muted), transparent 22%);
+  font-size: 0.72rem;
+  letter-spacing: 0;
 }
 
 /* Larger screen enhancements */
