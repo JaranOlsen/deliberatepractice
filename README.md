@@ -9,6 +9,13 @@ npm install
 npm run dev
 ```
 
+Optional Supabase-backed feedback and access-code features are enabled at build time when these variables are present. For local branch testing, put them in `.env.local`:
+
+```sh
+VITE_SUPABASE_URL=https://your-project-ref.supabase.co
+VITE_SUPABASE_ANON_KEY=your-anon-key
+```
+
 ## Checks
 
 ```sh
@@ -25,4 +32,14 @@ The optional Supabase-backed feedback and access-code features read these reposi
 - `VITE_SUPABASE_URL`
 - `VITE_SUPABASE_ANON_KEY`
 
-The generated runtime data is committed. The ignored `src/md/` source texts from the original parent repository are not included here.
+GitHub secrets are scoped to a repository. If this app was split out or moved, recreate those secrets in `JaranOlsen/deliberatepractice`; secrets from the old parent repository are not inherited. Branches do not deploy through the current workflow unless run manually, so branch builds need local `.env.local` values when testing Supabase behavior.
+
+The deploy workflow now fails before building if either required Supabase secret is missing, so `main` cannot silently publish a build where access-code unlock and statement flagging are disabled.
+
+Supabase expectations:
+
+- `feedback` allows anon inserts for statement flags.
+- `entitlements` allows anon selects by `access_code` and returns `access_level` plus optional `expires_at`.
+- `access_code_usage` allows anon inserts for unlock attempts.
+
+The generated runtime data and restored `src/md/` source/reference texts are committed.

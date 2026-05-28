@@ -32,6 +32,12 @@ jobs:
       - name: Test
         run: npm test --if-present
 
+      - name: Verify Supabase build environment
+        run: node -e "const required = ['VITE_SUPABASE_URL', 'VITE_SUPABASE_ANON_KEY']; const missing = required.filter((key) => !process.env[key]); if (missing.length) { console.error('Missing required GitHub Actions secrets: ' + missing.join(', ')); process.exit(1); }"
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+
       - name: Build
         run: npm run build
         env:
