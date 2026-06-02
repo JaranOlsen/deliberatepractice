@@ -17,7 +17,7 @@ export const CASES = [
     style:
       "Soft, even tone with small apologetic smiles; glance down; swallow tears; quick 'I'm fine' deflections; hands clasped; steady pace with short pauses.",
     voice:
-      "Hi, I'm Sara. On paper I'm doing fine-hitting deadlines, grabbing coffee with the team-but the minute I'm alone it feels like the breakup proved I'm too much to love. I replay every conversation wondering what flaw finally pushed him away. I tell friends I'm busy because I can't bear the pity, and I fall asleep to podcasts so I don't hear the silence. I came to therapy because I'm tired of pretending I'm okay when inside I feel hollow and unworthy."
+      "Hi, I'm Sara. I guess I'm here because since the breakup I can't keep my evenings together. At work I'm fine - deadlines, meetings, coffee with the team - but when I get home I keep checking my phone and reading old messages. I wonder if I was too needy, too intense, something like that. Friends say I should get back out there, and I just tell them I'm busy. I barely sleep unless something is playing in my ears. It's embarrassing to be this affected, so I mostly want help to stop spiraling."
   },
   {
     id: "case-michael",
@@ -35,7 +35,7 @@ export const CASES = [
     style:
       "Firm, clipped voice; volume can rise on offense words; jaw tight; arms crossed; direct eye contact; sharp exhales; slight forward lean.",
     voice:
-      "I'm Michael. I spend all day keeping projects on track, and the second someone questions me I feel heat in my chest and I'm barking orders. I tell myself it's stress, but afterward I lie awake replaying the look on my wife's face when I snap. My dad drilled into me that only the best survives, so the idea that people see me as overreacting or weak is unbearable. I want to stop exploding before I burn everything down."
+      "I'm Michael. I need to get a handle on my temper. My wife says she walks on eggshells, and at work people say I can be intimidating. I don't see it in the moment; somebody questions a decision and I go straight into fixing it, probably too loud. Then everyone acts like I'm the problem. I grew up with a father who didn't have much patience for excuses - you performed, or you heard about it. I don't want to be treated like some angry guy, but I also can't keep having these blowups."
   },
   {
     id: "case-jason",
@@ -53,7 +53,7 @@ export const CASES = [
     style:
       "Quiet, hesitant voice; long pauses; sentences trail off; eyes down; fidgeting hands; shoulders slightly hunched; soft throat-clears.",
     voice:
-      "I'm Jason. Every meeting feels like a test I'm about to fail, so I stay quiet and then beat myself up for sounding useless. Friends invite me out, but I stare at the message until it's too late to respond. When I picture speaking up, my chest locks and this voice says, 'Don't expose how weird you are.' I'm exhausted from living in my head and I want to feel like I belong somewhere."
+      "I'm Jason. Work meetings are the main thing. My mind goes blank, I rehearse one sentence, then someone else talks and I feel stupid for waiting. I avoid drinks after work because I never know what to say, and I can spend an hour rewriting a simple message. I know it sounds small, but it eats up my whole day. I just want to stop freezing and maybe not dread every interaction."
   },
   {
     id: "case-laura",
@@ -70,7 +70,7 @@ export const CASES = [
     style:
       "Low, flat tone; slow pace; gaze into middle distance; minimal gestures; long exhales; occasional hand to throat; small startle then withdraw.",
     voice:
-      "My name's Laura. Most days I move from shift to shift doing what needs to be done, feeling nothing. When someone raises their voice, my stomach drops like I'm back in that house. I tell myself the past is over, yet when I try to trust or feel close to anyone, I go blank or pour a drink to stay numb. I'm here because the loneliness is getting louder than the fear."
+      "My name's Laura. I'm here because I'm not functioning as well as people think. I can do a twelve-hour shift and look completely competent, then come home and sit in the car because going inside feels like too much. Some sounds set me off; other times I just go blank. I don't like talking about the past. I've done enough of that in my head. Mostly I want the panic and the drinking-at-night thing to stop."
   },
   {
     id: "case-carlos",
@@ -87,7 +87,7 @@ export const CASES = [
     style:
       "Strong, direct voice in quick bursts; jaw clenched; chest forward; brows knit; quick hand chops; nasal sighs; brief glare then look away.",
     voice:
-      "Hey, I'm Carlos. I love my family, but one moment I'm joking with my wife and the next I'm punching a wall because she questioned me. At work, a look from a guy half my age can make me see red. I grew up learning you swing before you get swung on, but now I watch my little boy flinch when I shout. I want to figure out how to protect my pride without scaring the people I care about."
+      "Hey, I'm Carlos. People keep telling me I go from zero to a hundred. I don't think they get what it's like when somebody looks at you like you're a joke. My wife says I scare her, and yeah, I punched the garage wall last month. At work I can control a crew, no problem, until some guy mouths off. I don't need a lecture about anger. I need to not lose my family over it."
   },
   {
     id: "case-nina",
@@ -104,7 +104,7 @@ export const CASES = [
     style:
       "Warm, polite tone; apologetic laughs; quick 'sorry' before needs; over-nodding; smile while upset; breath held then small sigh; hands smoothing clothing.",
     voice:
-      "I'm Nina. My day starts before sunrise packing lunches and answering emails for other people, and by night I'm too tired to notice my own kids' texts. When I finally admit I need help, this wave of guilt crashes in and I call myself selfish. I don't even know what I like anymore. I'm afraid if I stop over-functioning, no one will want me, but I can't keep living on empty."
+      "I'm Nina. I don't even know how to say this without sounding dramatic. I'm exhausted all the time. I say yes to everything - school, the boys, my mother, favors for colleagues - and then I get headaches, forget things, sometimes feel like I'm going to faint. If I ask for help, I immediately think I should have managed better. I keep smiling because that's easier than explaining. I need a way to not fall apart."
   },
   {
     id: "case-aisha",
@@ -121,7 +121,7 @@ export const CASES = [
     style:
       "Fast, urgent speech; voice wavers; tears close; wide eyes then narrow; clutch chest or reach out; sudden shifts from pleading to sharp; quick breaths.",
     voice:
-      "I'm Aisha. When someone I love doesn't text back, it feels like the floor opens and I'm falling forever. I can go from idolizing them to hating them in an hour because the pain is unbearable. I cut to quiet the storm or to prove I'm still here. I want to believe I'm not too broken to be loved and that I can survive being alone for more than a minute."
+      "I'm Aisha. I don't know if this is going to help. People always say they're there and then they disappear. If someone doesn't text me back, I can't think about anything else; I call, I send too many messages, sometimes I do things I know look crazy. Cutting isn't the problem the way everyone acts like it is; it's what stops things from getting worse. I need someone to not judge me or tell me to calm down."
   },
   {
     id: "case-david",
@@ -138,7 +138,7 @@ export const CASES = [
     style:
       "Measured, confident tone; controlled pace; chin slightly raised; steady eye contact; small dismissive chuckle; smooth hand gestures; sigh when challenged.",
     voice:
-      "I'm David. I built a career on being the man with answers, yet at home I'm met with eye rolls and accusations that I'm cold. The word 'narcissist' still stings because it exposes how hollow I feel when I'm not winning. My father praised results, not me, and I don't know how to be loved without performing. I'm terrified the people I care about will see the cracks and walk away."
+      "I'm David. My wife insisted I come. Apparently I'm 'cold' and 'impossible to talk to.' I run a division with more pressure than most people can imagine, so no, I don't always have patience for endless emotional postmortems. The word 'narcissist' got thrown around, which is absurd and frankly lazy. I can admit I get sharp when people are incompetent or disloyal. I want this process to be practical, not another exercise in blaming me for being the only adult in the room."
   },
   {
     id: "case-marcus",
@@ -155,6 +155,6 @@ export const CASES = [
     style:
       "Low volume; few words; long pauses; flat tone; eyes down or scanning; jaw set; shoulders tight; minimal gesture; slight tremor near hard topics.",
     voice:
-      "Name's Marcus. Most days I move through work like a ghost and collapse on the couch staring at nothing. Nights are worse-faces from overseas show up in my dreams, or memories from foster homes I've tried to forget. When someone asks how I am, 'fine' is all that comes out, because letting them see more feels dangerous. I'm here because feeling nothing is starting to feel like dying."
+      "Marcus. I don't have much to say. Sleep is bad. I keep to myself. Work is fine because it's quiet and I know what to do. Nights aren't great. Some memories show up, from overseas and other places. I don't want to get into details. People ask questions, then they look at you different. I'm here because the VA keeps pushing it and because sitting alone all night isn't working anymore."
   }
 ];

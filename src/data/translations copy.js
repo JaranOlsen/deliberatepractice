@@ -167,7 +167,7 @@ const NO_CASE_OVERRIDES = {
     style:
       "Myk, jevn tone med små, unnskyldende smil; blikket ned; svelger gråt; raske «det går bra»-avledninger; foldede hender; jevnt tempo med korte pauser.",
     voice:
-      "Hei, jeg er Sara. På papiret går det fint – jeg leverer frister og tar kaffe med teamet – men idet jeg er alene, føles det som om bruddet beviser at jeg er for mye å elske. Jeg spiller samtaler om og om igjen og lurer på hvilken feil som til slutt dyttet ham bort. Jeg sier til venner at jeg er opptatt fordi jeg ikke orker blikkene, og jeg sovner til podkaster for å slippe stillheten. Jeg kom i terapi fordi jeg er lei av å late som om det går bra når jeg inni meg føler meg tom og uverdig.",
+      "Hei, jeg heter Sara. Jeg er vel her fordi kveldene ikke henger sammen etter bruddet. På jobb fungerer jeg - frister, møter, kaffe med kollegaer - men når jeg kommer hjem, sjekker jeg mobilen hele tiden og leser gamle meldinger om igjen. Jeg lurer på om jeg var for masete, for intens, et eller annet. Venner sier jeg burde komme meg ut, og jeg sier bare at jeg er opptatt. Jeg sover nesten ikke uten noe på øret. Det er flaut å være så satt ut, så jeg vil egentlig bare lære å slutte å spinne.",
   },
   "case-michael": {
     label: "Michael (Lett)",
@@ -178,7 +178,7 @@ const NO_CASE_OVERRIDES = {
     style:
       "Fast, kort tone; volumet kan stige ved krenkende ord; stram kjeve; armene i kors; direkte blikk; skarpe utpust; lett fremoverlent.",
     voice:
-      "Jeg er Michael. Jeg holder prosjektene på skinner hele dagen, og idet noen stiller spørsmål, kjenner jeg varme i brystet og jeg bjeffer ordre. Jeg sier til meg selv at det er stress, men senere ligger jeg våken og ser for meg ansiktet til kona når jeg smeller. Pappa lærte meg at bare de beste overlever, så tanken på at folk ser meg som overreagerende eller svak er uutholdelig. Jeg vil slutte å eksplodere før jeg ødelegger det som betyr noe."
+      "Jeg heter Michael. Jeg må få kontroll på temperamentet. Kona sier hun går på nåler, og på jobb sier folk at jeg virker skremmende. Jeg merker det ikke der og da; noen stiller spørsmål ved en beslutning, og så går jeg rett i å rydde opp, sikkert litt for høyt. Etterpå oppfører alle seg som om jeg er problemet. Jeg vokste opp med en far som ikke hadde mye tålmodighet for unnskyldninger - man leverte, ellers fikk man høre det. Jeg vil ikke bli behandlet som en eller annen sint fyr, men jeg kan ikke fortsette med disse eksplosjonene."
   },
   "case-jason": {
     label: "Jason (Lett)",
@@ -189,7 +189,7 @@ const NO_CASE_OVERRIDES = {
     style:
       "Stille, nølende stemme; lange pauser; setninger som toner ut; blikket ned; fikler med hendene; lett krummet i skuldrene; stille halsrensing.",
     voice:
-      "Jeg er Jason. Hvert møte føles som en prøve jeg er i ferd med å stryke, så jeg holder kjeft og klandrer meg selv etterpå. Venner inviterer meg ut, men jeg stirrer på meldingen til det er for sent å svare. Når jeg ser for meg å si noe høyt, låser brystet seg og en stemme sier: «Avslør ikke hvor rar du er.» Jeg er utslitt av å leve i hodet mitt og vil kjenne at jeg hører til et sted.",
+      "Jeg heter Jason. Det er mest møtene på jobb. Hodet blir helt blankt, jeg øver på én setning, og så rekker noen andre å si noe før meg, og da føler jeg meg dum som ventet. Jeg dropper lønningspils og sånt fordi jeg ikke vet hva jeg skal si, og jeg kan bruke en time på å skrive om en enkel melding. Jeg vet at det høres lite ut, men det tar hele dagen min. Jeg vil bare slutte å fryse fast, og kanskje slippe å grue meg til alle samtaler.",
   },
   "case-laura": {
     label: "Laura (Moderat)",
@@ -200,7 +200,7 @@ const NO_CASE_OVERRIDES = {
     style:
       "Lav, flat tone; sakte tempo; fjernt blikk; få gester; lange utpust; en hånd mot halsen; skvetter litt og trekker seg så tilbake.",
     voice:
-      "Jeg heter Laura. De fleste dager går jeg fra vakt til vakt og gjør det som må gjøres, uten å kjenne noe særlig. Når noen hever stemmen, synker magen som om jeg er tilbake i det huset. Jeg sier til meg selv at fortiden er over, men når jeg prøver å stole på noen eller være nær, blir jeg blank eller heller i et glass for å bli nummen. Jeg er her fordi ensomheten har blitt høyere enn frykten.",
+      "Jeg heter Laura. Jeg er her fordi jeg ikke fungerer så bra som folk tror. Jeg kan gå en tolv timers vakt og virke helt profesjonell, og så sitte i bilen utenfor hjemme fordi det føles for mye å gå inn. Enkelte lyder setter meg ut; andre ganger blir jeg bare helt blank. Jeg liker ikke å snakke om fortiden. Jeg har nok av den i hodet. Jeg vil først og fremst at panikken og det med å drikke om kveldene skal stoppe.",
   },
   "case-carlos": {
     label: "Carlos (Moderat)",
@@ -211,7 +211,7 @@ const NO_CASE_OVERRIDES = {
     style:
       "Kraftig, direkte stemme i korte utbrudd; stram kjeve; brystet fram; rynkede bryn; raske håndbevegelser; snøft; kort glaning før blikket viker.",
     voice:
-      "Hei, jeg er Carlos. Jeg elsker familien min, men ett øyeblikk spøker jeg med kona, og det neste slår jeg i veggen fordi hun stilte meg spørsmål. På jobben kan et blikk fra en yngre fyr få meg til å se rødt. Jeg lærte at du slår først så du ikke blir slått, men nå ser jeg sønnen min skvette når jeg roper. Jeg vil finne en måte å verne stoltheten på uten å skremme dem jeg er glad i."
+      "Hei, jeg heter Carlos. Folk sier hele tiden at jeg går fra null til hundre. Jeg tror ikke de skjønner hvordan det er når noen ser på deg som om du er en vits. Kona sier jeg skremmer henne, og ja, jeg slo hull i garasjeveggen forrige måned. På jobb kan jeg styre et helt lag uten problem, helt til en fyr begynner å kjekke seg. Jeg trenger ikke en preken om sinne. Jeg trenger å ikke miste familien min på grunn av det."
   },
   "case-nina": {
     label: "Nina (Moderat)",
@@ -222,7 +222,7 @@ const NO_CASE_OVERRIDES = {
     style:
       "Varm, høflig tone; unnskyldende latter; raske «beklager» før hun uttrykker behov; overdreven nikking; smiler mens hun er opprørt; holder pusten og slipper et lite sukk; stryker hendene over klærne.",
     voice:
-      "Jeg er Nina. Dagen starter før soloppgang med matpakker og e-poster for andre, og om kvelden er jeg for sliten til å svare mine egne barn. Når jeg endelig ber om hjelp, skyller skyld inn og jeg kaller meg egoistisk. Jeg vet knapt hva jeg liker lenger. Jeg er redd for at hvis jeg slutter å overprestere, vil ingen ha meg, men jeg kan ikke fortsette på tomgang."
+      "Jeg heter Nina. Jeg vet ikke engang hvordan jeg skal si dette uten å høres dramatisk ut. Jeg er utslitt hele tiden. Jeg sier ja til alt - skolen, guttene, moren min, tjenester for kollegaer - og så får jeg hodepine, glemmer ting, og noen ganger føles det som om jeg skal besvime. Hvis jeg ber om hjelp, tenker jeg med én gang at jeg burde klart mer selv. Jeg smiler videre fordi det er enklere enn å forklare. Jeg trenger en måte å ikke gå helt i oppløsning på."
   },
   "case-aisha": {
     label: "Aisha (Krevende)",
@@ -233,7 +233,7 @@ const NO_CASE_OVERRIDES = {
     style:
       "Rask, hektisk tale; stemmen skjelver; tårer nær; øynene vide og så smale; holder seg til brystet eller strekker seg ut; brå skifter fra bønnfallende til skarp; korte, raske åndedrag.",
     voice:
-      "Jeg er Aisha. Når noen jeg elsker ikke svarer raskt, føles det som om gulvet åpner seg og jeg faller. Jeg kan gå fra å idealisere til å hate på en time fordi smerten er uutholdelig. Jeg kutter for å dempe stormen eller kjenne at jeg finnes. Jeg vil tro at jeg ikke er for ødelagt til å bli elsket, og at jeg kan overleve å være alene litt.",
+      "Jeg heter Aisha. Jeg vet ikke om dette kommer til å hjelpe. Folk sier alltid at de er der, og så blir de borte. Hvis noen ikke svarer på en melding, klarer jeg ikke å tenke på noe annet; jeg ringer, sender altfor mange meldinger, gjør ting jeg vet ser helt sykt ut. Kuttingen er ikke problemet sånn alle skal ha det til; det er det som stopper ting fra å bli verre. Jeg trenger at noen ikke dømmer meg eller bare sier at jeg må roe meg.",
   },
   "case-david": {
     label: "David (Krevende)",
@@ -244,7 +244,7 @@ const NO_CASE_OVERRIDES = {
     style:
       "Målt, selvsikker tone; kontrollert tempo; haken lett hevet; rolig øyekontakt; liten, hånlig latter; jevne håndbevegelser; sukk når han blir utfordret.",
     voice:
-      "Jeg er David. Jeg har bygget en karriere på å ha svarene, men hjemme møter jeg himlende blikk og anklager om at jeg er kald. Ordet «narsissist» svir fordi det avslører hvor hul jeg føler meg når jeg ikke vinner. Faren min roste resultater, ikke meg, og jeg vet ikke hvordan jeg blir elsket uten å prestere. Jeg er redd for at de jeg bryr meg om vil se sprekkene og gå.",
+      "David. Kona mi mente jeg måtte komme. Visstnok er jeg «kald» og «umulig å snakke med». Jeg leder en avdeling med et press de fleste ikke aner noe om, så nei, jeg har ikke alltid tålmodighet til endeløse følelsesrapporter. Ordet narsissist ble kastet ut, noe jeg synes er både absurd og temmelig lat. Jeg kan innrømme at jeg blir skarp når folk er inkompetente eller illojale. Jeg vil at dette skal være praktisk, ikke enda en runde med å legge skylden på meg fordi jeg er den eneste voksne i rommet.",
   },
   "case-marcus": {
     label: "Marcus (Krevende)",
@@ -255,7 +255,7 @@ const NO_CASE_OVERRIDES = {
     style:
       "Lavt volum; få ord; lange pauser; flat tone; blikket ned eller rastløs skanning; stram kjeve; spente skuldre; minimale gester; lett skjelv når temaet er vanskelig.",
     voice:
-      "Jeg heter Marcus. De fleste dager beveger jeg meg gjennom jobben som et spøkelse og synker ned på sofaen og stirrer i veggen. Nettene er verre – ansikter fra utenlandsoppdrag eller barndommen dukker opp i drømmene. Når noen spør hvordan jeg har det, sier jeg «bra», fordi det føles farlig å vise mer. Jeg er her fordi det å ikke føle noe begynner å kjennes som å forsvinne.",
+      "Marcus. Jeg har ikke så mye å si. Søvnen er dårlig. Jeg holder meg for meg selv. Jobben går greit fordi det er stille og jeg vet hva jeg skal gjøre. Nettene er verre. Det dukker opp minner, både fra utenlands og andre steder. Jeg vil ikke gå inn i detaljer. Folk stiller spørsmål, og så ser de annerledes på deg. Jeg er her fordi veterantjenesten maser, og fordi det å sitte alene hele natten ikke funker lenger.",
   }
 };
 
