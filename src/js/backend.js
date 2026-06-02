@@ -43,17 +43,43 @@ async function postJson(path, payload) {
   return true;
 }
 
-async function getJson(path) {
+async function rpcJson(functionName, payload) {
   if (!hasSupabaseConfig()) {
     throw new Error("Missing Supabase configuration");
   }
-  const response = await fetch(`${SUPABASE_URL}${path}`, {
-    method: "GET",
+  const response = await fetch(`${SUPABASE_URL}/rest/v1/rpc/${functionName}`, {
+    method: "POST",
     headers: {
+      "Content-Type": "application/json",
       apikey: SUPABASE_ANON_KEY,
       Authorization: `Bearer ${SUPABASE_ANON_KEY}`
-    }
+    },
+    body: JSON.stringify(payload)
   });
+  const text = await response.text();
+  if (!response.ok) {
+    throw new Error(text || `Request failed with ${response.status}`);
+  }
+  return text ? JSON.parse(text) : null;
+}
+
+function isMissingRpcError(err) {
+  const message = String(err?.message ?? "");
+  return message.includes("PGRST202") || message.includes("Could not find the function");
+}
+
+async function getLegacyEntitlementRows(code) {
+  const encoded = encodeURIComponent(code);
+  const response = await fetch(
+    `${SUPABASE_URL}/rest/v1/entitlements?access_code=eq.${encoded}&select=access_level,expires_at`,
+    {
+      method: "GET",
+      headers: {
+        apikey: SUPABASE_ANON_KEY,
+        Authorization: `Bearer ${SUPABASE_ANON_KEY}`
+      }
+    }
+  );
   if (!response.ok) {
     const text = await response.text();
     throw new Error(text || `Request failed with ${response.status}`);
@@ -74,17 +100,25 @@ export async function submitFeedback(payload) {
 
 /**
  * Redeem an access code to unlock paid content.
- * Expects a Supabase table `entitlements` with columns:
- *   access_code (text, primary key), access_level (text), expires_at (timestamptz)
- * and an RLS policy that permits selecting by access_code using the anon key.
+ * Expects a security-definer Supabase RPC `redeem_access_code(input_code text)`
+ * that returns access_level and expires_at without exposing the entitlements table.
  */
 export async function redeemAccessCode(code) {
-  const encoded = encodeURIComponent(String(code ?? "").trim());
-  const data = await getJson(`/rest/v1/entitlements?access_code=eq.${encoded}&select=access_level,expires_at`);
-  if (!Array.isArray(data) || data.length === 0) {
+  const normalizedCode = String(code ?? "").trim();
+  let data;
+  try {
+    data = await rpcJson("redeem_access_code", { input_code: normalizedCode });
+  } catch (err) {
+    if (!isMissingRpcError(err)) {
+      throw err;
+    }
+    data = await getLegacyEntitlementRows(normalizedCode);
+  }
+  const rows = Array.isArray(data) ? data : data ? [data] : [];
+  if (rows.length === 0) {
     throw new Error("invalid_code");
   }
-  const entry = data[0];
+  const entry = rows[0];
   const accessLevel = normalizeAccessLevel(entry.access_level);
   if (!accessLevel) {
     throw new Error("invalid_code");

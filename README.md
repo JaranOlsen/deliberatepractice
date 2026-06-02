@@ -39,7 +39,10 @@ The deploy workflow now fails if either required Supabase secret is missing or i
 Supabase expectations:
 
 - `feedback` allows anon inserts for statement flags.
-- `entitlements` allows anon selects by `access_code` and returns `access_level` plus optional `expires_at`.
-- `access_code_usage` allows anon inserts for unlock attempts.
+- `redeem_access_code(input_code text)` allows anon access-code redemption without exposing the `entitlements` table.
+- `entitlements` should not allow direct anon selects.
+- `access_code_usage` allows anon inserts for unlock attempts with `success`, `invalid`, or `error` status.
+
+Run `supabase/access-code-security.sql` in the Supabase SQL editor to create the access-code RPC, lock direct entitlement reads, and configure access-code usage logging.
 
 The generated runtime data and restored `src/md/` source/reference texts are committed.
