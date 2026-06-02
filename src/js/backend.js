@@ -1,8 +1,8 @@
 "use strict";
 
 // Lightweight helpers to talk to Supabase REST without extra deps.
-const SUPABASE_URL = normalizeSupabaseUrl(import.meta.env?.VITE_SUPABASE_URL ?? "");
-const SUPABASE_ANON_KEY = import.meta.env?.VITE_SUPABASE_ANON_KEY ?? "";
+const SUPABASE_URL = normalizeSupabaseUrl(import.meta.env.VITE_SUPABASE_URL ?? "");
+const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY ?? "";
 
 function normalizeSupabaseUrl(value) {
   return String(value ?? "").trim().replace(/\/+$/, "");

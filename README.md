@@ -34,7 +34,7 @@ The optional Supabase-backed feedback and access-code features read these reposi
 
 GitHub secrets are scoped to a repository. If this app was split out or moved, recreate those secrets in `JaranOlsen/deliberatepractice`; secrets from the old parent repository are not inherited. Branches do not deploy through the current workflow unless run manually, so branch builds need local `.env.local` values when testing Supabase behavior.
 
-The deploy workflow now fails before building if either required Supabase secret is missing, so `main` cannot silently publish a build where access-code unlock and statement flagging are disabled.
+The deploy workflow now fails if either required Supabase secret is missing or if the built JavaScript assets do not contain the configured values, so `main` cannot silently publish a build where access-code unlock and statement flagging are disabled.
 
 Supabase expectations:
 
