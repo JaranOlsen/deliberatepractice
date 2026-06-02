@@ -1,13 +1,17 @@
 /* Base reset and variables */
 :root {
   color-scheme: light;
-  --color-bg: #f9fafb;
+  --color-bg: #f6f8f7;
   --color-panel: #ffffff;
   --color-text: #111827;
   --color-muted: #6b7280;
-  --color-accent: #2563eb;
-  --color-accent-soft: #dbeafe;
+  --color-accent: #315f5b;
+  --color-accent-soft: #e6efed;
   --color-border: #e5e7eb;
+  --card-accent: var(--color-accent);
+  --card-accent-soft: var(--color-accent-soft);
+  --card-accent-faint: #f8fbfa;
+  --card-accent-strong: #2a4946;
   --shadow-soft: 0 12px 24px -16px rgba(15, 23, 42, 0.25);
   font-size: 16px;
 }
@@ -60,10 +64,12 @@ button {
 .app-header {
   padding: 2.5rem 1.25rem 1.5rem;
   text-align: center;
-  background: linear-gradient(155deg, #1f3c88 0%, #4c51bf 45%, #7c3aed 100%);
+  background:
+    linear-gradient(140deg, rgba(255, 255, 255, 0.12), transparent 42%),
+    linear-gradient(135deg, #315f5b 0%, #41515c 100%);
   color: #f8fafc;
-  border-bottom-left-radius: 28px;
-  border-bottom-right-radius: 28px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
   box-shadow: 0 24px 48px -32px rgba(15, 23, 42, 0.45);
 }
 
@@ -87,17 +93,20 @@ button {
   gap: 1.5rem;
   padding: 1.5rem 1.25rem 3.5rem;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 720px;
+  width: 100%;
 }
 
 .panel {
   background-color: var(--color-panel);
-  border-radius: 20px;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  border-radius: 14px;
   box-shadow: var(--shadow-soft);
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+  min-width: 0;
 }
 
 .panel-subtitle {
@@ -110,9 +119,10 @@ button {
 .skill-context {
   margin-top: 0.25rem;
   padding: 1rem 1.15rem;
-  border-radius: 18px;
-  background-color: hsl(216 100% 97%);
-  border: 1px solid hsl(216 90% 90%);
+  border-radius: 10px;
+  background-color: color-mix(in srgb, var(--card-accent-faint), white 24%);
+  border: 1px solid color-mix(in srgb, var(--card-accent), white 72%);
+  border-left: 3px solid color-mix(in srgb, var(--card-accent), white 8%);
   display: flex;
   flex-direction: column;
   gap: 0.85rem;
@@ -126,7 +136,7 @@ button {
   margin: 0;
   font-size: 1.05rem;
   font-weight: 600;
-  color: #1f3c88;
+  color: var(--card-accent-strong);
 }
 
 .skill-context-header {
@@ -138,9 +148,9 @@ button {
 
 .skill-context-toggle {
   border-radius: 999px;
-  border: 1px solid rgba(37, 99, 235, 0.35);
-  background-color: rgba(37, 99, 235, 0.12);
-  color: #1f3c88;
+  border: 1px solid color-mix(in srgb, var(--card-accent), white 58%);
+  background-color: var(--card-accent-soft);
+  color: var(--card-accent-strong);
   font-weight: 600;
   padding: 0.35rem 0.8rem;
   font-size: 0.85rem;
@@ -148,8 +158,8 @@ button {
 }
 
 .skill-context-toggle:hover {
-  background-color: rgba(37, 99, 235, 0.25);
-  border-color: rgba(37, 99, 235, 0.55);
+  background-color: color-mix(in srgb, var(--card-accent-soft), var(--card-accent) 12%);
+  border-color: color-mix(in srgb, var(--card-accent), white 38%);
   transform: translateY(-1px);
 }
 
@@ -194,7 +204,7 @@ button {
 .glossary-panel {
   margin-top: 0.35rem;
   padding-top: 0.5rem;
-  border-top: 1px dashed rgba(37, 99, 235, 0.25);
+  border-top: 1px dashed color-mix(in srgb, var(--card-accent), white 62%);
 }
 
 .glossary-panel.is-hidden {
@@ -204,15 +214,15 @@ button {
 .glossary-hint {
   margin: 0;
   font-size: 0.88rem;
-  color: #1f3c88;
+  color: var(--card-accent-strong);
 }
 
 .glossary-card {
   margin-top: 0.55rem;
   padding: 0.85rem 0.95rem;
   border-radius: 14px;
-  background: #f8fafc;
-  border: 1px solid rgba(37, 99, 235, 0.15);
+  background: color-mix(in srgb, var(--card-accent-faint), white 26%);
+  border: 1px solid color-mix(in srgb, var(--card-accent), white 70%);
   box-shadow: 0 6px 14px -10px rgba(15, 23, 42, 0.35);
   position: relative;
   z-index: 5;
@@ -272,13 +282,13 @@ button {
   height: 28px;
   font-size: 1.15rem;
   line-height: 1;
-  color: #1f3c88;
+  color: var(--card-accent-strong);
   display: grid;
   place-items: center;
 }
 
 .glossary-close:hover {
-  background: rgba(37, 99, 235, 0.08);
+  background: var(--card-accent-faint);
 }
 
 .glossary-close:active {
@@ -291,9 +301,9 @@ button {
   margin: 0;
   border: none;
   background: none;
-  color: rgb(25, 67, 157);
+  color: var(--card-accent-strong);
   font: inherit;
-  text-decoration: underline dotted rgba(37, 99, 235, 0.6);
+  text-decoration: underline dotted color-mix(in srgb, var(--card-accent), white 22%);
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
   cursor: pointer;
@@ -301,15 +311,15 @@ button {
 }
 
 .glossary-chip:hover {
-  color: #1f3c88;
-  text-decoration-color: rgba(37, 99, 235, 0.9);
+  color: color-mix(in srgb, var(--card-accent-strong), black 14%);
+  text-decoration-color: var(--card-accent);
 }
 
 .glossary-chip:active,
 .glossary-chip.is-active {
-  color: #1f3c88;
-  text-decoration-color: rgba(37, 99, 235, 0.9);
-  background: rgba(37, 99, 235, 0.06);
+  color: color-mix(in srgb, var(--card-accent-strong), black 14%);
+  text-decoration-color: var(--card-accent);
+  background: var(--card-accent-faint);
 }
 
 .panel.is-hidden {
@@ -341,19 +351,19 @@ button {
 .back-button {
   border-radius: 999px;
   padding: 0.4rem 0.85rem;
-  background-color: var(--color-accent-soft);
-  color: var(--color-accent);
+  background-color: var(--card-accent-soft, var(--color-accent-soft));
+  color: var(--card-accent-strong, var(--color-accent));
   font-weight: 600;
   transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .back-button:hover {
-  background-color: rgba(37, 99, 235, 0.25);
+  background-color: color-mix(in srgb, var(--card-accent-soft, var(--color-accent-soft)), var(--card-accent, var(--color-accent)) 12%);
   transform: translateY(-1px);
 }
 
 .back-button:active {
-  background-color: rgba(37, 99, 235, 0.2);
+  background-color: color-mix(in srgb, var(--card-accent-soft, var(--color-accent-soft)), var(--card-accent, var(--color-accent)) 16%);
   transform: translateY(0);
 }
 
@@ -363,25 +373,27 @@ button {
 }
 
 #language-list {
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-template-columns: 1fr;
 }
 
 .card-button {
-  background-color: hsl(210 60% 98%);
+  background: linear-gradient(135deg, #ffffff 0%, color-mix(in srgb, var(--card-accent-faint), white 22%) 100%);
   border: 1px solid var(--color-border);
-  border-radius: 18px;
+  border-left: 3px solid color-mix(in srgb, var(--card-accent), white 24%);
+  border-radius: 8px;
   padding: 1rem 1.1rem;
   text-align: left;
   display: grid;
-  gap: 0.35rem;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  gap: 0.55rem;
+  min-height: 100%;
+  min-width: 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
 }
 
 .card-header {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 0.5rem;
+  align-items: center;
+  gap: 0.75rem;
 }
 
 .card-header .card-title {
@@ -389,14 +401,16 @@ button {
 }
 
 .card-button[aria-selected="true"] {
-  border-color: rgba(37, 99, 235, 0.6);
-  background-color: var(--color-accent-soft);
-  box-shadow: 0 16px 24px -18px rgba(37, 99, 235, 0.55);
+  border-color: color-mix(in srgb, var(--card-accent), white 32%);
+  border-left-color: var(--card-accent);
+  background: color-mix(in srgb, var(--card-accent-soft), white 42%);
+  box-shadow: 0 14px 22px -18px rgba(15, 23, 42, 0.32);
 }
 
 .card-button:hover {
-  border-color: rgba(37, 99, 235, 0.45);
-  box-shadow: 0 18px 32px -20px rgba(37, 99, 235, 0.55);
+  border-color: color-mix(in srgb, var(--card-accent), white 48%);
+  border-left-color: color-mix(in srgb, var(--card-accent), white 10%);
+  box-shadow: 0 16px 28px -22px rgba(15, 23, 42, 0.28);
   transform: translateY(-1px);
 }
 
@@ -405,58 +419,78 @@ button {
 }
 
 .card-button:focus-visible {
-  outline: 3px solid rgba(37, 99, 235, 0.4);
+  outline: 3px solid color-mix(in srgb, var(--card-accent), transparent 62%);
   outline-offset: 2px;
 }
 
 .card-title {
   font-weight: 600;
   font-size: 1.05rem;
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 
 .card-body {
   color: var(--color-muted);
   font-size: 0.95rem;
   line-height: 1.4;
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 
-.skill-tag {
-  font-size: 0.72rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  border-radius: 999px;
-  padding: 0.1rem 0.45rem;
-  font-weight: 600;
-  background-color: rgba(15, 23, 42, 0.08);
-  color: rgba(15, 23, 42, 0.8);
-  white-space: nowrap;
+.skill-mark {
+  width: 2.05rem;
+  height: 2.05rem;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--card-accent-soft), white 38%);
+  border: 1px solid color-mix(in srgb, var(--card-accent), white 62%);
+  color: var(--card-accent-strong);
+  display: inline-grid;
+  place-items: center;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.64);
 }
 
-.skill-tag--alpha {
-  background-color: rgba(37, 99, 235, 0.12);
-  color: #1e3a8a;
-}
-
-.skill-tag--beta {
-  background-color: rgba(16, 185, 129, 0.15);
-  color: #047857;
+.skill-mark svg {
+  width: 1.12rem;
+  height: 1.12rem;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
 }
 
 .case-title {
   margin: 0;
   font-size: 1.05rem;
   font-weight: 600;
-  color: #1e3a8a;
+  color: var(--card-accent-strong);
+}
+
+.case-teaser {
+  margin: 0.25rem 0 0;
+  color: var(--color-muted);
+  font-size: 0.95rem;
+  line-height: 1.45;
 }
 
 .case-brief-screen {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  background-color: hsl(216 100% 97%);
-  border-radius: 18px;
-  border: 1px solid hsl(216 90% 90%);
+  background:
+    linear-gradient(135deg, #ffffff 0%, color-mix(in srgb, var(--card-accent-faint), white 18%) 100%);
+  border-radius: 10px;
+  border: 1px solid color-mix(in srgb, var(--card-accent), white 72%);
+  border-left: 3px solid color-mix(in srgb, var(--card-accent), white 8%);
   padding: 1.2rem 1.25rem 1.5rem;
+}
+
+.case-brief-identity {
+  min-width: 0;
+  display: grid;
+  gap: 0.25rem;
 }
 
 .case-section-title {
@@ -514,7 +548,7 @@ button {
   position: relative;
   margin-top: 0.5rem;
   padding-top: 1.5rem;
-  border-top: 1px solid rgba(37, 99, 235, 0.12);
+  border-top: 1px solid color-mix(in srgb, var(--card-accent), white 76%);
 }
 
 .statement-workspace::before {
@@ -524,7 +558,7 @@ button {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(37, 99, 235, 0.25), transparent);
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--card-accent), white 52%), transparent);
 }
 
 .workspace-header {
@@ -537,20 +571,20 @@ button {
 .shuffle-button {
   padding: 0.5rem 0.9rem;
   border-radius: 12px;
-  background-color: hsl(210 60% 98%);
+  background-color: color-mix(in srgb, var(--card-accent-faint), white 30%);
   border: 1px solid var(--color-border);
   font-weight: 600;
   transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
 .shuffle-button:hover {
-  background-color: hsl(210 60% 96%);
-  border-color: rgba(37, 99, 235, 0.35);
+  background-color: color-mix(in srgb, var(--card-accent-soft), white 44%);
+  border-color: color-mix(in srgb, var(--card-accent), white 54%);
   transform: translateY(-1px);
 }
 
 .shuffle-button:active {
-  background-color: hsl(210 60% 95%);
+  background-color: color-mix(in srgb, var(--card-accent-soft), white 32%);
   transform: translateY(0);
 }
 
@@ -559,9 +593,10 @@ button {
   flex-direction: column;
   gap: 1.25rem;
   padding: 1.25rem;
-  border-radius: 18px;
-  background: linear-gradient(155deg, #f8fafc, #eef2ff);
-  border: 1px solid rgba(37, 99, 235, 0.2);
+  border-radius: 10px;
+  background: linear-gradient(155deg, #ffffff, color-mix(in srgb, var(--card-accent-faint), white 16%));
+  border: 1px solid color-mix(in srgb, var(--card-accent), white 72%);
+  border-left: 3px solid color-mix(in srgb, var(--card-accent), white 8%);
 }
 
 .statement-text {
@@ -594,12 +629,12 @@ button {
   align-items: center;
   justify-content: center;
   font-size: 1.2rem;
-  background-color: hsl(215 40% 97%);
+  background-color: color-mix(in srgb, var(--card-accent-faint), white 30%);
   color: var(--color-muted);
 }
 
 .shuffle-button--icon:hover {
-  background-color: hsl(215 50% 95%);
+  background-color: color-mix(in srgb, var(--card-accent-soft), white 44%);
 }
 
 .shuffle-button--icon img {
@@ -614,16 +649,16 @@ button {
 .primary-button {
   padding: 0.65rem 1.5rem;
   border-radius: 999px;
-  background-color: var(--color-accent);
+  background-color: var(--card-accent, var(--color-accent));
   color: #f9fafb;
   font-weight: 600;
-  box-shadow: 0 12px 20px -12px rgba(37, 99, 235, 0.55);
+  box-shadow: 0 12px 20px -12px color-mix(in srgb, var(--card-accent, var(--color-accent)), black 28%);
   transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .primary-button:hover {
-  background-color: #1e4ed8;
-  box-shadow: 0 14px 26px -14px rgba(30, 78, 216, 0.6);
+  background-color: var(--card-accent-strong, #254c49);
+  box-shadow: 0 14px 26px -14px color-mix(in srgb, var(--card-accent, var(--color-accent)), black 34%);
   transform: translateY(-1px);
 }
 
@@ -649,29 +684,29 @@ button {
   padding: 0.55rem 1.25rem;
   border-radius: 999px;
   border: 1px solid var(--color-border);
-  background-color: hsl(215 40% 97%);
+  background-color: color-mix(in srgb, var(--card-accent-faint), white 30%);
   font-weight: 600;
-  color: var(--color-accent);
+  color: var(--card-accent-strong, var(--color-accent));
   transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
 .ghost-button:hover {
-  background-color: hsl(215 50% 95%);
-  border-color: rgba(37, 99, 235, 0.35);
+  background-color: color-mix(in srgb, var(--card-accent-soft), white 44%);
+  border-color: color-mix(in srgb, var(--card-accent, var(--color-accent)), white 54%);
   transform: translateY(-1px);
 }
 
 .ghost-button:active {
-  background-color: hsl(215 60% 93%);
+  background-color: color-mix(in srgb, var(--card-accent-soft), white 32%);
   transform: translateY(0);
 }
 
 .suggestion-text {
   margin: 0;
   padding: 0.85rem 1rem;
-  border-radius: 12px;
-  background-color: hsl(222 100% 96%);
-  border: 1px solid rgba(37, 99, 235, 0.2);
+  border-radius: 8px;
+  background-color: color-mix(in srgb, var(--card-accent-faint), white 20%);
+  border: 1px solid color-mix(in srgb, var(--card-accent), white 66%);
   font-size: 1.08rem;
   line-height: 1.6;
   color: var(--color-text);
@@ -740,7 +775,35 @@ input[type="text"] {
 }
 
 .lock-tag {
-  font-size: 0.9rem;
+  width: 0.82rem;
+  height: 0.82rem;
+  display: inline-block;
+  position: relative;
+  margin-left: 0.25rem;
+  vertical-align: -0.08rem;
+}
+
+.lock-tag::before {
+  content: "";
+  position: absolute;
+  left: 0.14rem;
+  right: 0.14rem;
+  bottom: 0.08rem;
+  height: 0.44rem;
+  border-radius: 2px;
+  background: color-mix(in srgb, var(--card-accent-strong), black 10%);
+}
+
+.lock-tag::after {
+  content: "";
+  position: absolute;
+  left: 0.22rem;
+  top: 0.08rem;
+  width: 0.38rem;
+  height: 0.42rem;
+  border: 2px solid color-mix(in srgb, var(--card-accent-strong), black 10%);
+  border-bottom: 0;
+  border-radius: 999px 999px 0 0;
 }
 
 .card-button.is-locked {
@@ -782,6 +845,12 @@ input[type="text"] {
   color: color-mix(in srgb, var(--color-muted), transparent 22%);
   font-size: 0.72rem;
   letter-spacing: 0;
+}
+
+@media (min-width: 520px) {
+  #language-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 /* Larger screen enhancements */

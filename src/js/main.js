@@ -45,6 +45,7 @@ const elements = {
   caseList: document.getElementById("case-list"),
   practiceSkill: document.getElementById("practice-skill"),
   caseName: document.getElementById("case-name"),
+  caseTeaser: document.getElementById("case-teaser"),
   caseSchema: document.getElementById("case-schema"),
   caseCorePainItem: document.getElementById("case-core-pain-item"),
   caseCorePain: document.getElementById("case-core-pain"),
@@ -143,21 +144,255 @@ let activeGlossaryChip = null;
 
 const ACCESS_STORAGE_KEY = "dp_access_level";
 
-const SKILL_PHASE_MAP = {
-  "therapist-self-awareness": "beta",
-  "providing-treatment-rationale": "beta",
-  "exploratory-questions": "beta",
-  "staying-in-contact-intense-affect": "beta",
-  "self-disclosure": "beta",
-  "marker-recognition-chairwork": "alpha",
-  "alliance-repair": "alpha",
-  "empathic-refocusing": "alpha"
+const DEFAULT_VISUAL = {
+  accent: "#47756f",
+  icon: "target"
 };
 
-const SKILL_PHASE_LABELS = {
-  alpha: "Alpha",
-  beta: "Beta"
+const SKILL_VISUALS = {
+  "therapist-self-awareness": {
+    accent: "#47756f",
+    icon: "target"
+  },
+  "empathic-understanding": {
+    accent: "#4a7184",
+    icon: "dialogue"
+  },
+  "empathic-affirmation-validation": {
+    accent: "#587a5e",
+    icon: "check"
+  },
+  "exploratory-questions": {
+    accent: "#516c8f",
+    icon: "search"
+  },
+  "providing-treatment-rationale": {
+    accent: "#78734f",
+    icon: "map"
+  },
+  "empathic-explorations": {
+    accent: "#6d6386",
+    icon: "path"
+  },
+  "empathic-evocations": {
+    accent: "#836057",
+    icon: "spark"
+  },
+  "empathic-conjectures": {
+    accent: "#785d80",
+    icon: "thought"
+  },
+  "staying-in-contact-intense-affect": {
+    accent: "#806957",
+    icon: "anchor"
+  },
+  "self-disclosure": {
+    accent: "#856373",
+    icon: "heartBubble"
+  },
+  "marker-recognition-chairwork": {
+    accent: "#5f688d",
+    icon: "chairs"
+  },
+  "alliance-repair": {
+    accent: "#5b7859",
+    icon: "link"
+  },
+  "empathic-refocusing": {
+    accent: "#676f7d",
+    icon: "return"
+  }
 };
+
+const BASE_VISUAL_PROFILE = {
+  accentMixColor: "#ffffff",
+  accentMixRatio: 0,
+  softWhiteRatio: 0.78,
+  faintWhiteRatio: 0.94,
+  strongDarkRatio: 0.26
+};
+
+const DIFFICULTY_VISUAL_PROFILES = {
+  easy: {
+    accentMixColor: "#ffffff",
+    accentMixRatio: 0.18,
+    softWhiteRatio: 0.82,
+    faintWhiteRatio: 0.96,
+    strongDarkRatio: 0.18
+  },
+  moderate: {
+    accentMixColor: "#ffffff",
+    accentMixRatio: 0,
+    softWhiteRatio: 0.7,
+    faintWhiteRatio: 0.91,
+    strongDarkRatio: 0.3
+  },
+  hard: {
+    accentMixColor: "#111827",
+    accentMixRatio: 0.16,
+    softWhiteRatio: 0.6,
+    faintWhiteRatio: 0.86,
+    strongDarkRatio: 0.42
+  }
+};
+
+function normalizeHexColor(hex, fallback = DEFAULT_VISUAL.accent) {
+  const value = typeof hex === "string" ? hex.trim() : "";
+  if (/^#[0-9a-f]{6}$/i.test(value)) {
+    return value.toLowerCase();
+  }
+  return fallback;
+}
+
+function hexToRgb(hex) {
+  const value = normalizeHexColor(hex).slice(1);
+  return {
+    r: Number.parseInt(value.slice(0, 2), 16),
+    g: Number.parseInt(value.slice(2, 4), 16),
+    b: Number.parseInt(value.slice(4, 6), 16)
+  };
+}
+
+function rgbToHex({ r, g, b }) {
+  return `#${[r, g, b]
+    .map((channel) => Math.round(Math.min(255, Math.max(0, channel))).toString(16).padStart(2, "0"))
+    .join("")}`;
+}
+
+function mixHexColors(baseHex, mixHex, ratio) {
+  const base = hexToRgb(baseHex);
+  const mix = hexToRgb(mixHex);
+  const amount = Math.min(1, Math.max(0, Number.isFinite(ratio) ? ratio : 0));
+  return rgbToHex({
+    r: base.r + (mix.r - base.r) * amount,
+    g: base.g + (mix.g - base.g) * amount,
+    b: base.b + (mix.b - base.b) * amount
+  });
+}
+
+function buildVisual(baseVisual, profile = BASE_VISUAL_PROFILE) {
+  const source = baseVisual ?? DEFAULT_VISUAL;
+  const accent = mixHexColors(
+    source.accent ?? DEFAULT_VISUAL.accent,
+    profile.accentMixColor ?? "#ffffff",
+    profile.accentMixRatio ?? 0
+  );
+  return {
+    accent,
+    accentSoft: mixHexColors(accent, "#ffffff", profile.softWhiteRatio ?? 0.82),
+    accentFaint: mixHexColors(accent, "#ffffff", profile.faintWhiteRatio ?? 0.96),
+    accentStrong: mixHexColors(accent, "#111827", profile.strongDarkRatio ?? 0.24),
+    icon: source.icon ?? DEFAULT_VISUAL.icon
+  };
+}
+
+function getSkillVisual(skillId) {
+  return buildVisual(SKILL_VISUALS[skillId] ?? DEFAULT_VISUAL);
+}
+
+function getCaseVisual(skillId, difficulty) {
+  const baseVisual = SKILL_VISUALS[skillId] ?? DEFAULT_VISUAL;
+  const profile = DIFFICULTY_VISUAL_PROFILES[difficulty] ?? BASE_VISUAL_PROFILE;
+  return buildVisual(baseVisual, profile);
+}
+
+function getSkillIcon(iconName) {
+  const icons = {
+    target: `
+      <circle cx="12" cy="12" r="7"></circle>
+      <circle cx="12" cy="12" r="3"></circle>
+      <path d="M12 3v2"></path>
+      <path d="M12 19v2"></path>
+      <path d="M3 12h2"></path>
+      <path d="M19 12h2"></path>
+    `,
+    dialogue: `
+      <path d="M6.5 15.5h-.7a2.8 2.8 0 0 1-2.8-2.8V7.8A2.8 2.8 0 0 1 5.8 5h7.4A2.8 2.8 0 0 1 16 7.8v3.9a2.8 2.8 0 0 1-2.8 2.8H10l-3.5 3v-2z"></path>
+      <path d="M14.5 11h3.7a2.8 2.8 0 0 1 2.8 2.8v2.4a2.8 2.8 0 0 1-2.8 2.8h-.7v2l-2.7-2H12"></path>
+    `,
+    check: `
+      <circle cx="12" cy="12" r="8"></circle>
+      <path d="m8.5 12 2.4 2.4 4.8-5"></path>
+    `,
+    search: `
+      <circle cx="10.5" cy="10.5" r="5.5"></circle>
+      <path d="m15 15 4.5 4.5"></path>
+      <path d="M8.8 9c.3-.8 1-1.3 2-1.3 1.1 0 1.9.7 1.9 1.6 0 1.4-1.9 1.4-1.9 2.6v.2"></path>
+      <path d="M10.8 14.2h.01"></path>
+    `,
+    map: `
+      <path d="M5 6.5 10 4l5 2.5 4-2v13l-4 2-5-2.5-5 2.5v-13z"></path>
+      <path d="M10 4v13"></path>
+      <path d="M15 6.5v13"></path>
+    `,
+    path: `
+      <circle cx="6" cy="17" r="2"></circle>
+      <circle cx="18" cy="7" r="2"></circle>
+      <path d="M8 17c4 0 2-10 8-10"></path>
+    `,
+    spark: `
+      <path d="M12 3.5 13.7 9l5.3 1.7-5.3 1.7L12 18l-1.7-5.6L5 10.7 10.3 9 12 3.5z"></path>
+      <path d="M18 16.5v3"></path>
+      <path d="M16.5 18h3"></path>
+    `,
+    thought: `
+      <path d="M7 15.5a4.2 4.2 0 0 1-.9-8.3A5.3 5.3 0 0 1 16 6.6a4.4 4.4 0 0 1 1 8.7h-4.2L9 18.5v-3H7z"></path>
+      <path d="M12 12.5v-.4c0-1.5 2-1.4 2-3 0-1-.8-1.7-2-1.7-1 0-1.7.5-2.1 1.3"></path>
+      <path d="M12 15h.01"></path>
+    `,
+    anchor: `
+      <circle cx="12" cy="5" r="2"></circle>
+      <path d="M12 7v11"></path>
+      <path d="M7 11h10"></path>
+      <path d="M6 16c1.3 2 3.3 3 6 3s4.7-1 6-3"></path>
+      <path d="m5 16 1-3"></path>
+      <path d="m19 16-1-3"></path>
+    `,
+    heartBubble: `
+      <path d="M5.8 16.2h-.3A2.5 2.5 0 0 1 3 13.7V7.8A2.8 2.8 0 0 1 5.8 5h12.4A2.8 2.8 0 0 1 21 7.8v5.9a2.5 2.5 0 0 1-2.5 2.5H13l-4 3v-3H5.8z"></path>
+      <circle cx="12" cy="9.2" r="1.3"></circle>
+      <path d="M9.5 13.1c.5-1.1 1.4-1.7 2.5-1.7s2 .6 2.5 1.7"></path>
+    `,
+    chairs: `
+      <path d="M7 7h4v7H6V8a1 1 0 0 1 1-1z"></path>
+      <path d="M8 14v4"></path>
+      <path d="M16 7h1a1 1 0 0 1 1 1v6h-5V7h3z"></path>
+      <path d="M16 14v4"></path>
+      <path d="M10.8 11h2.4"></path>
+    `,
+    link: `
+      <path d="M9.5 14.5 8 16a3.2 3.2 0 0 1-4.5-4.5l2.4-2.4a3.2 3.2 0 0 1 4.5 0"></path>
+      <path d="M14.5 9.5 16 8a3.2 3.2 0 0 1 4.5 4.5l-2.4 2.4a3.2 3.2 0 0 1-4.5 0"></path>
+      <path d="m9 15 6-6"></path>
+    `,
+    return: `
+      <path d="M8 7 4 11l4 4"></path>
+      <path d="M5 11h9a5 5 0 0 1 0 10h-2"></path>
+      <circle cx="16" cy="7" r="2.2"></circle>
+    `
+  };
+  return `
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      ${icons[iconName] ?? icons.target}
+    </svg>
+  `;
+}
+
+function applyVisualProperties(element, visual) {
+  if (!element || !visual) return;
+  if (visual.accent) {
+    element.style.setProperty("--card-accent", visual.accent);
+  }
+  if (visual.accentSoft) {
+    element.style.setProperty("--card-accent-soft", visual.accentSoft);
+  }
+  if (visual.accentFaint) {
+    element.style.setProperty("--card-accent-faint", visual.accentFaint);
+  }
+  if (visual.accentStrong) {
+    element.style.setProperty("--card-accent-strong", visual.accentStrong);
+  }
+}
 
 function normalizeAccessLevel(level) {
   return level === "pro" || level === "all" ? level : "free";
@@ -669,15 +904,12 @@ function renderSkillOptions() {
     button.setAttribute("role", "option");
     const isSelected = state.skillId === skillId;
     button.setAttribute("aria-selected", isSelected ? "true" : "false");
-    const phase = SKILL_PHASE_MAP[skillId];
-    const phaseLabel = phase ? SKILL_PHASE_LABELS[phase] ?? phase : "";
-    const phaseTag = phaseLabel
-      ? `<span class="skill-tag skill-tag--${phase}" aria-label="${phaseLabel} exercise">${phaseLabel}</span>`
-      : "";
+    const visual = getSkillVisual(skillId);
+    applyVisualProperties(button, visual);
     button.innerHTML = `
       <div class="card-header">
+        <span class="skill-mark" aria-hidden="true">${getSkillIcon(visual.icon)}</span>
         <span class="card-title">${skill.name}</span>
-        ${phaseTag}
       </div>
       <span class="card-body">${skill.description}</span>
     `;
@@ -700,11 +932,13 @@ function renderCaseOptions() {
   const skill = getCurrentSkill();
   updateCaseSkillContext(skill);
   if (!skill) return;
+  applyVisualProperties(sections.case, getSkillVisual(skill.id));
 
   skill.cases.forEach((caseItem) => {
     const button = document.createElement("button");
     button.className = "card-button";
     button.dataset.caseId = caseItem.id;
+    button.dataset.difficulty = caseItem.difficulty ?? "";
     button.setAttribute("role", "option");
     const isSelected = state.caseId === caseItem.id;
     button.setAttribute("aria-selected", isSelected ? "true" : "false");
@@ -712,7 +946,8 @@ function renderCaseOptions() {
     if (locked) {
       button.classList.add("is-locked");
     }
-    const lockTag = locked ? `<span class="lock-tag" aria-label="${getUIStrings().lockedLabel}">🔒</span>` : "";
+    applyVisualProperties(button, getCaseVisual(skill.id, caseItem.difficulty));
+    const lockTag = locked ? `<span class="lock-tag" aria-label="${getUIStrings().lockedLabel}"></span>` : "";
     button.innerHTML = `
       <span class="card-title">${caseItem.label} ${lockTag}</span>
       <span class="card-body">${caseItem.teaser}</span>
@@ -888,6 +1123,7 @@ function updateCaseSkillContext(skill) {
   if (!skill) {
     elements.caseSkillContext.hidden = true;
     elements.caseSkillContext.classList.add("is-hidden");
+    elements.caseSkillContext.removeAttribute("data-skill-id");
     elements.caseSkillName.textContent = "";
     elements.caseSkillMarker.textContent = "";
     elements.caseSkillSummary.textContent = "";
@@ -899,6 +1135,9 @@ function updateCaseSkillContext(skill) {
     return;
   }
 
+  const visual = getSkillVisual(skill.id);
+  elements.caseSkillContext.dataset.skillId = skill.id;
+  applyVisualProperties(elements.caseSkillContext, visual);
   elements.caseSkillContext.hidden = false;
   elements.caseSkillContext.classList.remove("is-hidden");
   elements.caseSkillName.textContent = skill.name ?? "";
@@ -999,6 +1238,9 @@ function hydratePracticeView() {
   if (!skill || !caseData) {
     elements.practiceSkill.textContent = "";
     elements.caseName.textContent = "";
+    if (elements.caseTeaser) {
+      elements.caseTeaser.textContent = "";
+    }
     if (elements.statementCaseName) {
       elements.statementCaseName.textContent = "";
     }
@@ -1041,8 +1283,12 @@ function hydratePracticeView() {
     return;
   }
 
+  applyVisualProperties(sections.practice, getCaseVisual(skill.id, caseData.difficulty));
   elements.practiceSkill.textContent = skill.name;
   elements.caseName.textContent = caseData.label;
+  if (elements.caseTeaser) {
+    elements.caseTeaser.textContent = caseData.teaser ?? "";
+  }
   if (elements.statementCaseName) {
     elements.statementCaseName.textContent = caseData.label;
   }
