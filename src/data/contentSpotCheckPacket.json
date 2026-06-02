@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T14:44:00.546Z",
+  "generatedAt": "2026-06-02T19:27:19.973Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1213,12 +1213,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "After dinner the evening stretches out, and the apartment feels too big for one person.",
-                "response": "After dinner the rooms seem to stretch, too much space around one lonely body."
+                "statement": "After dinner I notice the apartment is quiet, and I start checking my phone again.",
+                "response": "The quiet settles around you after dinner, and the phone becomes the one small place where he might still appear."
               },
               "no": {
-                "statement": "Etter middag drar kvelden seg ut, og leiligheten kjennes for stor for én person.",
-                "response": "Etter middag virker rommene som om de strekker seg, med altfor mye plass rundt én ensom kropp."
+                "statement": "Etter middag merker jeg hvor stille leiligheten er, og så begynner jeg å sjekke mobilen igjen.",
+                "response": "Stillheten legger seg rundt deg etter middag, og mobilen blir det lille stedet der han fortsatt kanskje kan dukke opp."
               }
             },
             {
@@ -1230,12 +1230,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "When friends ask how I am, I shrug, but my throat tightens before I can answer.",
-                "response": "The shrug says fine while your throat closes around the answer."
+                "statement": "When friends ask how I am, I give a short answer and change the subject.",
+                "response": "The short answer closes the door quickly, while the real answer waits tight in your throat."
               },
               "no": {
-                "statement": "Når venner spør hvordan det går, trekker jeg på skuldrene, men halsen snører seg før jeg rekker å svare.",
-                "response": "Skuldertrekket sier at det går fint, mens halsen lukker seg rundt svaret."
+                "statement": "Når venner spør hvordan det går, svarer jeg kort og bytter tema.",
+                "response": "Det korte svaret lukker døra raskt, mens det egentlige svaret står trangt i halsen."
               }
             },
             {
@@ -1247,12 +1247,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "Sometimes I sit on the floor and hug my knees just to feel held.",
-                "response": "Curled around yourself, making a small circle of warmth in a cold room."
+                "statement": "Sometimes I sit on the floor instead of getting into bed.",
+                "response": "The floor becomes the place you fold into when the bed feels too exposed and wide."
               },
               "no": {
-                "statement": "Noen ganger sitter jeg på gulvet og holder rundt knærne bare for å føle meg holdt.",
-                "response": "Krøllet rundt deg selv, en liten sirkel av varme i et kaldt rom."
+                "statement": "Noen ganger setter jeg meg på gulvet i stedet for å legge meg.",
+                "response": "Gulvet blir stedet du folder deg sammen når senga kjennes for åpen og for bred."
               }
             }
           ]
@@ -1276,12 +1276,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "Most mornings feel flat, like someone washed the color out before I woke up.",
-                "response": "The morning arrives in drained-out color, everything pale before the day even starts."
+                "statement": "Most mornings I wake up and don't feel much of anything.",
+                "response": "The day arrives washed out, as if the color has been taken from it before you even sit up."
               },
               "no": {
-                "statement": "De fleste morgener føles flate, som om noen har vasket ut fargene før jeg våknet.",
-                "response": "Morgenen kommer i avblekede farger, alt er blekt før dagen engang har startet."
+                "statement": "De fleste morgener våkner jeg uten å kjenne særlig mye.",
+                "response": "Dagen kommer avbleket, som om fargen er tatt ut av den før du engang setter deg opp."
               }
             },
             {
@@ -1293,12 +1293,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "Wine helps me flip the switch when the noise in my head gets too loud.",
-                "response": "The wine becomes a dimmer switch, turning the inner volume down until the room goes blurry and quiet."
+                "statement": "Wine helps me turn things off at night.",
+                "response": "The wine works like a dimmer, lowering the inner volume until the sharp edges of the evening blur."
               },
               "no": {
-                "statement": "Vinen hjelper meg å trykke på av-knappen når støyen i hodet blir for høy.",
-                "response": "Vinen blir som en dimmer som skrur ned volumet inni til rommet blir uklart og stille."
+                "statement": "Vin hjelper meg å skru av om kvelden.",
+                "response": "Vinen virker som en dimmer, senker volumet inni til de skarpe kantene i kvelden blir uklare."
               }
             },
             {
@@ -1310,12 +1310,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "Kind words make my throat ache, like they are touching a place I keep locked.",
-                "response": "The warmth brushes that locked place and the ache rises in your throat before the words can get in."
+                "statement": "Kind words make my throat hurt, and I don't know why.",
+                "response": "The kindness touches a locked place, and the ache rises in your throat before any words can answer."
               },
               "no": {
-                "statement": "Vennlige ord får halsen til å verke, som om de berører et sted jeg holder låst.",
-                "response": "Varmen stryker borti det låste stedet, og verken stiger i halsen før ordene slipper inn."
+                "statement": "Vennlige ord gjør at jeg får vondt i halsen, og jeg vet ikke hvorfor.",
+                "response": "Vennligheten berører et låst sted, og verken stiger i halsen før ordene kan svare."
               }
             }
           ]
@@ -1339,12 +1339,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "When you look at the clock, my stomach drops like the room is already leaving me.",
-                "response": "One glance at the clock and the room drops away, abandonment opening under your feet."
+                "statement": "When you look at the clock, I immediately think you want me gone.",
+                "response": "One glance at the clock turns into a leaving signal, and the room starts dropping away under your feet."
               },
               "no": {
-                "statement": "Når du ser på klokka, synker magen som om rommet allerede er på vei bort fra meg.",
-                "response": "Ett blikk på klokka, og rommet faller bort, som om forlattheten åpner seg under føttene dine."
+                "statement": "Når du ser på klokka, tenker jeg med en gang at du vil ha meg ut.",
+                "response": "Ett blikk på klokka blir et tegn på at du skal forlates, og rommet begynner å falle bort under føttene."
               }
             },
             {
@@ -1356,12 +1356,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "When the typing dots appear and disappear, it feels like contact gets snatched away.",
-                "response": "Those dots vanish and your breath goes with them, like contact gets yanked out of the room."
+                "statement": "When the typing dots disappear, I feel panicky right away.",
+                "response": "Those disappearing dots yank the thread of contact out of your hands, and your breath goes with it."
               },
               "no": {
-                "statement": "Når skriveprikkene dukker opp og forsvinner igjen, kjennes det som om kontakten blir revet bort.",
-                "response": "Prikkene forsvinner, og pusten går med dem, som om kontakten rives ut av rommet."
+                "statement": "Når skriveprikkene forsvinner, får jeg panikk med en gang.",
+                "response": "Prikkene som forsvinner, river kontakttråden ut av hendene dine, og pusten blir med den."
               }
             },
             {
@@ -1373,12 +1373,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "A little warmth makes tears spill out of nowhere, like a dam breaks before I agree.",
-                "response": "Warmth touches the wall and suddenly the tears pour through, too fast for permission."
+                "statement": "When someone is gentle with me, I cry before I understand why.",
+                "response": "Gentleness touches the wall and tears rush through before permission can catch up."
               },
               "no": {
-                "statement": "Litt varme får tårene til å renne ut av ingenting, som om en demning brister før jeg rekker å si ja.",
-                "response": "Varmen treffer veggen, og plutselig strømmer tårene gjennom, for raskt til at du rekker å gi lov."
+                "statement": "Når noen er milde med meg, gråter jeg før jeg skjønner hvorfor.",
+                "response": "Mildheten berører veggen, og tårene strømmer gjennom før tillatelsen rekker fram."
               }
             }
           ]

@@ -2285,380 +2285,380 @@ export const STATEMENT_SETS = {
   "empathic-evocations": {
     "case-sara": [
       {
-        text: "Evenings stretch out and the apartment feels too big for just me.",
-        suggestion: "Nights stretch long and the rooms feel too big, echoing with alone."
+        "text": "After dinner I notice the apartment is quiet, and I start checking my phone again.",
+        "suggestion": "The quiet settles around you after dinner, and the phone becomes the one small place where he might still appear."
       },
       {
-        text: "I keep that cheerful voice on, and underneath my chest feels hollow.",
-        suggestion: "A bright voice on top of a hollowed‑out chest, like a smile over an ache."
+        "text": "I tell people I'm fine, but I feel flat when I say it.",
+        "suggestion": "Fine comes out smooth, while something underneath has gone pale and still."
       },
       {
-        text: "Seeing his jacket in the closet hits me like a wave.",
-        suggestion: "It crashes in like a wave the moment your eyes catch that jacket."
+        "text": "I found his jacket in the closet and stood there longer than made sense.",
+        "suggestion": "That jacket stops you in the doorway, a small piece of him pulling the whole loss back into the room."
       },
       {
-        text: "I wake up and for a second I forget, then it slams back.",
-        suggestion: "That second of light, then the weight slams back down like a door."
+        "text": "Some mornings I forget for a second, and then I remember we are not together.",
+        "suggestion": "There is that one clear second, then the breakup drops back onto you like weight returning to the bed."
       },
       {
-        text: "When friends ask, I shrug it off, but my throat tightens.",
-        suggestion: "A casual shrug on the outside while your throat cinches tight inside."
+        "text": "When friends ask how I am, I give a short answer and change the subject.",
+        "suggestion": "The short answer closes the door quickly, while the real answer waits tight in your throat."
       },
       {
-        text: "I scroll late at night until my eyes burn.",
-        suggestion: "Late‑night scrolling, eyes burning as you try to outrun the ache."
+        "text": "I stay on my phone late because going to sleep feels hard now.",
+        "suggestion": "The screen becomes a little night-light against the empty side of the bed, keeping the dark feeling just outside reach."
       },
       {
-        text: "Hearing our song in a store made my knees go weak.",
-        suggestion: "The first notes take your legs out from under you."
+        "text": "A song came on in a store, and I had to leave before I cried.",
+        "suggestion": "The first notes find you in the aisle, and suddenly grief is right there under the fluorescent lights."
       },
       {
-        text: "I keep thinking maybe if I were different, I wouldn't be alone.",
-        suggestion: "It lands like a verdict on your worth, heavy and unforgiving."
+        "text": "I keep thinking maybe I did something wrong, but I can't pin down what.",
+        "suggestion": "The mind keeps searching for the flaw, like if it can find the loose thread, the whole leaving might make sense."
       },
       {
-        text: "Sometimes I sit on the floor and hug my knees just to feel held.",
-        suggestion: "Curled around yourself, making a small circle of warmth in a cold room."
+        "text": "Sometimes I sit on the floor instead of getting into bed.",
+        "suggestion": "The floor becomes the place you fold into when the bed feels too exposed and wide."
       },
       {
-        text: "When you're kind to me, I want to look away.",
-        suggestion: "Kindness feels bright, almost too bright, and you turn your eyes from the light."
+        "text": "When you are kind to me, I feel awkward and look away.",
+        "suggestion": "Kindness comes close, and it is almost too warm to take in, so your eyes drop to safer ground."
       }
     ],
     "case-michael": [
       {
-        text: "A correction in front of the team makes my face burn.",
-        suggestion: "Your face burns hot, like all eyes are a spotlight on a flaw."
+        "text": "When someone corrects me in front of the team, I get hot and stop listening.",
+        "suggestion": "The heat rushes up fast, as if the room has narrowed to one bright mark on you."
       },
       {
-        text: "I walk in already braced for someone to mess up.",
-        suggestion: "You hit the doorway in armor, jaw set, scanning for the next hit."
+        "text": "I go into meetings expecting people to mess up, and I hate that I do that.",
+        "suggestion": "You arrive already braced, like part of you is standing guard at the door before anyone speaks."
       },
       {
-        text: "My jaw aches from clenching by the end of the day.",
-        suggestion: "That ache tells how hard you've been biting down on the hurt."
+        "text": "By the end of the day my jaw hurts, and I realize I've been holding back comments.",
+        "suggestion": "Your jaw carries the whole day, locked around every sharp sentence you had to swallow."
       },
       {
-        text: "I snap, and then the shame hangs like a weight.",
-        suggestion: "The shame settles on you like a heavy coat you can't take off."
+        "text": "After I snap, I feel embarrassed, but I mostly try not to think about it.",
+        "suggestion": "The embarrassment sits there afterward, heavy and damp, while you try to step around it."
       },
       {
-        text: "When my wife sighs, it feels like a slap.",
-        suggestion: "A small sigh landing like a stinging slap across your chest."
+        "text": "When my wife sighs, I assume she is judging me.",
+        "suggestion": "That small sigh can cross the room like a charge, and your system braces before she has even spoken."
       },
       {
-        text: "I hear 'calm down' and it explodes something in me.",
-        suggestion: "Those words spark a flash fire that rushes up before you can catch it."
+        "text": "If someone says calm down, I get angrier immediately.",
+        "suggestion": "Those two words strike the match, and the fire is moving before you can even name what got lit."
       },
       {
-        text: "If I don't know, my stomach drops.",
-        suggestion: "Not knowing drops your stomach like an elevator falling too fast."
+        "text": "When I don't know the answer, I feel exposed.",
+        "suggestion": "Not knowing opens a bare place, like all the competence you rely on has lost its cover for a second."
       },
       {
-        text: "I slam doors because it feels better than feeling small.",
-        suggestion: "The slam is big and loud to cover the small sting inside."
+        "text": "I slam doors sometimes because I don't know what else to do with the feeling.",
+        "suggestion": "The door takes the feeling for you, loud enough to cover the smaller sting underneath."
       },
       {
-        text: "Apologizing tastes like rust in my mouth.",
-        suggestion: "An apology feels metallic and bitter on your tongue."
+        "text": "Thinking about apologizing first makes me feel weak.",
+        "suggestion": "The apology feels like stepping onto lower ground, with everyone suddenly taller around you."
       },
       {
-        text: "At night, I replay it and I can't unclench.",
-        suggestion: "You lie there wound tight, replaying the scene like a loop you can't stop."
+        "text": "At night I replay the argument and hear how sharp I sounded.",
+        "suggestion": "The house goes quiet, but your own voice keeps echoing in the kitchen, still cutting after the fight is over."
       }
     ],
     "case-jason": [
       {
-        text: "When it's my turn, my name sounds far away and my lips go numb.",
-        suggestion: "As your name lands, your lips go numb and the room pulls back."
+        "text": "When it's my turn in a meeting, I lose track of what I was going to say.",
+        "suggestion": "The moment turns toward you, and the sentence slips out of reach as if the room has pulled it away."
       },
       {
-        text: "My hands sweat so much I hide them under the table.",
-        suggestion: "Sweaty hands tucked away, like you're trying to make yourself smaller."
+        "text": "My hands sweat under the table, so I hide them.",
+        "suggestion": "Even your hands feel like they could expose you, so they disappear under the table before anyone can see."
       },
       {
-        text: "I practice in the mirror and still freeze.",
-        suggestion: "All that practice, and then the freeze locks you like ice."
+        "text": "I practice what to say, but when people look at me, I freeze.",
+        "suggestion": "All the practiced words line up, then the eyes land on you and everything locks behind a sheet of ice."
       },
       {
-        text: "If someone laughs, my stomach jolts.",
-        suggestion: "A laugh nearby jolts your stomach like a quick electric shock."
+        "text": "If people laugh nearby, I assume I did something strange.",
+        "suggestion": "The laugh travels across the room and points itself at you, even before you know what it was about."
       },
       {
-        text: "I shrink in my chair when the spotlight moves near me.",
-        suggestion: "You fold in on yourself as the light sweeps toward you."
+        "text": "When attention turns to me, I try to take up less space.",
+        "suggestion": "Your body starts making itself smaller, searching for a way to be present without being seen."
       },
       {
-        text: "Compliments slide off; I can't grab them.",
-        suggestion: "Praise slides right off like rain on glass."
+        "text": "When someone compliments me, I don't really believe it.",
+        "suggestion": "The compliment touches the surface and slides away before it can reach the place that needs it."
       },
       {
-        text: "Sunday nights, the room feels gray and too quiet.",
-        suggestion: "A gray quiet drifts in and settles over everything."
+        "text": "Sunday night I start feeling low, but I mostly just scroll.",
+        "suggestion": "The week arrives early in the room, and scrolling becomes a small moving light against the heaviness."
       },
       {
-        text: "When I text, I type and erase until my fingers ache.",
-        suggestion: "Typing and erasing, fingers aching, as the worry circles."
+        "text": "I rewrite simple messages over and over, then sometimes don't send them.",
+        "suggestion": "One small message becomes a narrow doorway, and every rewrite is another step back from being seen."
       },
       {
-        text: "My voice shakes at hello.",
-        suggestion: "Even 'hello' comes out on a shaky thread."
+        "text": "Even saying hello can sound wrong to me afterward.",
+        "suggestion": "That tiny hello keeps ringing in your ears, as if one ordinary word has become evidence against you."
       },
       {
-        text: "I stare at the exit like a lifeline.",
-        suggestion: "The door feels like a lifeline your eyes keep holding onto."
+        "text": "In groups, I keep track of where the exit is.",
+        "suggestion": "The exit becomes the safest part of the room, the place your eyes hold onto when attention feels too close."
       }
     ],
     "case-laura": [
       {
-        text: "Most mornings feel flat, like colors are washed out.",
-        suggestion: "It's all washed‑out tones, like the color's been drained."
+        "text": "Most mornings I wake up and don't feel much of anything.",
+        "suggestion": "The day arrives washed out, as if the color has been taken from it before you even sit up."
       },
       {
-        text: "A slammed door makes my skin go cold.",
-        suggestion: "That sound sends a cold ripple over your skin."
+        "text": "A door slams and I know it's just a door, but my body reacts first.",
+        "suggestion": "The sound reaches your body before your mind can explain it, sending the old alarm through the present room."
       },
       {
-        text: "When someone sits close, I drift a few feet back inside.",
-        suggestion: "You float back behind a pane of glass inside yourself."
+        "text": "When someone sits close, I stay polite, but I feel myself pull back.",
+        "suggestion": "The polite face stays in front while another part of you retreats behind a pane of glass."
       },
       {
-        text: "I forget what happy feels like in my body.",
-        suggestion: "Happy feels like a far‑off memory your body can't quite reach."
+        "text": "I see people laughing and I can't relate to it.",
+        "suggestion": "Their laughter is visible in front of you, but joy feels like a language from a country you cannot enter."
       },
       {
-        text: "Wine helps me switch off the noise.",
-        suggestion: "The wine flips a switch and dims the whole room inside."
+        "text": "Wine helps me turn things off at night.",
+        "suggestion": "The wine works like a dimmer, lowering the inner volume until the sharp edges of the evening blur."
       },
       {
-        text: "I lie awake feeling like I'm on watch.",
-        suggestion: "On watch even in bed, body posted at the door."
+        "text": "I lie awake listening for sounds, even when nothing is happening.",
+        "suggestion": "Even in bed, some part of you is posted on watch, listening through the dark for proof of danger."
       },
       {
-        text: "Sometimes a sad song cracks me open for a minute.",
-        suggestion: "One note slips in and a small crack opens in the numb."
+        "text": "Sometimes music makes me tear up, and then I shut it down.",
+        "suggestion": "A few notes open a narrow crack in the numbness, and you close it before too much feeling can come through."
       },
       {
-        text: "I walk the aisles just to avoid going home.",
-        suggestion: "Wandering aisles like floating through safe, neutral space."
+        "text": "I spend extra time in stores because going home feels difficult.",
+        "suggestion": "The bright aisles become a neutral hallway, buying time before the silence of home has to be entered."
       },
       {
-        text: "Kind words make my throat ache.",
-        suggestion: "Warmth brushes you and your throat aches with the touch."
+        "text": "Kind words make my throat hurt, and I don't know why.",
+        "suggestion": "The kindness touches a locked place, and the ache rises in your throat before any words can answer."
       },
       {
-        text: "I keep a small bag packed just in case.",
-        suggestion: "A bag by the door, like your body never fully comes off alert."
+        "text": "I keep a bag packed by the door, even though I know that sounds odd.",
+        "suggestion": "The bag waits by the door like a quiet exit plan, a sign that some part of you never fully stands down."
       }
     ],
     "case-carlos": [
       {
-        text: "A smirk across the table makes my hands buzz.",
-        suggestion: "That smirk sets your hands buzzing like live wires."
+        "text": "When someone smirks at me, my hands start buzzing.",
+        "suggestion": "The smirk sends current into your hands, heat looking for somewhere to go before words can catch up."
       },
       {
-        text: "My chest feels tight like a drum before I pop.",
-        suggestion: "Tight like a drumhead stretched to bursting."
+        "text": "When someone gets in my face, my chest gets tight and I want it to stop.",
+        "suggestion": "Your chest pulls tight like a drum, every next word hitting against the skin of it."
       },
       {
-        text: "I pace the kitchen to burn it off.",
-        suggestion: "You walk hard lines in the kitchen, trying to shake the heat out."
+        "text": "I pace around the kitchen after fights because sitting still makes it worse.",
+        "suggestion": "You walk hard lines across the kitchen, trying to grind the charge out before it comes through your hands or mouth."
       },
       {
-        text: "My boy looking scared punched a hole in me.",
-        suggestion: "His scared face punched a hole straight through you."
+        "text": "I keep remembering the look on my son's face after I yelled.",
+        "suggestion": "His face stays with you like a bruise under the anger, a mark you cannot shove away."
       },
       {
-        text: "Calm people look soft to me.",
-        suggestion: "Calm reads as soft, like no armor—dangerous in your world."
+        "text": "Calm people make me nervous. I don't trust it.",
+        "suggestion": "Calm looks too unprotected, like someone standing in the open without armor and calling it safe."
       },
       {
-        text: "After I blow, the room feels smaller.",
-        suggestion: "After the blast, the house feels small and airless."
+        "text": "After I blow up, everyone gets quiet, and I hate the room.",
+        "suggestion": "After the blast, the room goes small and careful, like everyone is moving around broken glass."
       },
       {
-        text: "I clench my teeth so hard my head throbs.",
-        suggestion: "Teeth locked so tight the pain drums at your temples."
+        "text": "I clench my teeth until my head hurts.",
+        "suggestion": "Your teeth lock down like a vise, holding the words and heat in until pain starts pounding."
       },
       {
-        text: "If I back down, I feel like I'm disappearing.",
-        suggestion: "Backing down feels like fading out, losing your outline."
+        "text": "Backing down in front of my son feels wrong.",
+        "suggestion": "Backing down feels like your outline fades in the room, as if respect might leave with it."
       },
       {
-        text: "I grip the steering wheel until my knuckles whiten.",
-        suggestion: "White‑knuckled on the wheel, holding yourself together."
+        "text": "I grip the steering wheel hard when I'm trying not to react.",
+        "suggestion": "Your hands clamp the wheel like a lid on a boiling pot, holding the heat in with white-knuckle force."
       },
       {
-        text: "I don't want my kid to remember me like this.",
-        suggestion: "You can feel the ache—like a bruise—wanting to be a safer man in his eyes."
+        "text": "I worry my son is learning to be careful around me.",
+        "suggestion": "That worry lands deep, the fear that your loudness could become the weather he learns to live under."
       }
     ],
     "case-nina": [
       {
-        text: "Guilt zaps me the second I sit down.",
-        suggestion: "It zaps you like a buzzer the moment you rest."
+        "text": "The second I sit down, I feel guilty.",
+        "suggestion": "Rest sets off an alarm inside you, guilt shooting through before the chair can even hold your weight."
       },
       {
-        text: "It's like I'm carrying everyone's bags and mine too.",
-        suggestion: "Arms full of everyone's bags, shoulders burning."
+        "text": "I feel responsible for too much, but I don't know what to stop doing.",
+        "suggestion": "Your arms are full of everyone else's weight, and there is no free hand left for your own."
       },
       {
-        text: "My stomach twists when I ask for help.",
-        suggestion: "Asking turns your stomach in a tight twist."
+        "text": "When I ask for help, my stomach feels tight.",
+        "suggestion": "The request gets knotted in your stomach before it can reach anyone else."
       },
       {
-        text: "I smile through headaches and keep moving.",
-        suggestion: "A smile stretched over a pounding head as you keep going."
+        "text": "I smile through headaches because people need me to keep going.",
+        "suggestion": "The smile stretches over the pain, trying to hold the whole day upright by a thin thread."
       },
       {
-        text: "By evening, my bones feel heavy.",
-        suggestion: "Bones heavy, like you're wading through wet concrete."
+        "text": "By evening I feel heavy all over.",
+        "suggestion": "The tiredness settles into your bones, each step thick and slow by the end of the day."
       },
       {
-        text: "When I say no, my heart pounds like I've done something wrong.",
-        suggestion: "A pounding heart like an alarm for just saying no."
+        "text": "Saying no makes my heart race.",
+        "suggestion": "The no sets off a chest alarm, as if one small boundary could threaten love itself."
       },
       {
-        text: "I clean the counter at midnight because I can't rest.",
-        suggestion: "Midnight wiping, as if a clean counter could quiet the noise."
+        "text": "I clean late at night even when I am exhausted.",
+        "suggestion": "The counter gets wiped again, a midnight ritual against the fear that stopping would leave everyone uncovered."
       },
       {
-        text: "If the house is messy, shame crawls up my neck.",
-        suggestion: "Shame crawls warm up your neck just seeing a dish out."
+        "text": "If the house is messy, I feel ashamed before anyone says anything.",
+        "suggestion": "Shame is already climbing your neck before a single comment arrives."
       },
       {
-        text: "I cry quietly in the pantry so no one hears.",
-        suggestion: "Tears tucked in the pantry, muffled behind a door."
+        "text": "I cry in the kitchen where no one will notice.",
+        "suggestion": "The tears get folded into ordinary kitchen sounds, hidden where cupboards and running water can cover them."
       },
       {
-        text: "Sometimes I dream of a day where I do nothing and don't feel bad.",
-        suggestion: "You imagine a soft day, no doing, and your body loosens at the thought."
+        "text": "I imagine a day with no one needing anything, and then I feel selfish.",
+        "suggestion": "For one moment a quiet day opens, and then guilt steps into the doorway before you can rest there."
       }
     ],
     "case-aisha": [
       {
-        text: "When you look at the clock, my stomach drops.",
-        suggestion: "One glance at the clock and your stomach drops out."
+        "text": "When you look at the clock, I immediately think you want me gone.",
+        "suggestion": "One glance at the clock turns into a leaving signal, and the room starts dropping away under your feet."
       },
       {
-        text: "I go from 'please don't go' to 'leave me alone' in seconds.",
-        suggestion: "It flips like a switch—from pleading to fire in a blink."
+        "text": "I can go from begging someone to stay to telling them to leave me alone in seconds.",
+        "suggestion": "The feeling flips from reaching hands to fire, a switch thrown faster than you can steady yourself."
       },
       {
-        text: "The emptiness burns like a hole in my chest.",
-        suggestion: "A burning hole in your chest that seems bottomless."
+        "text": "The empty feeling gets so bad that I can't think straight.",
+        "suggestion": "The emptiness opens wide inside, so big it pulls thought and ground away with it."
       },
       {
-        text: "I scratch at my skin so I can feel something real.",
-        suggestion: "Scratching to find something real through the numb and hurt."
+        "text": "I scratch my arm when I start feeling unreal.",
+        "suggestion": "The sting cuts through the fog, a sharp little proof that you are still here."
       },
       {
-        text: "If a text bubbles then disappears, I can't breathe.",
-        suggestion: "Those three dots vanish and your breath locks up."
+        "text": "When the typing dots disappear, I feel panicky right away.",
+        "suggestion": "Those disappearing dots yank the thread of contact out of your hands, and your breath goes with it."
       },
       {
-        text: "Goodbye makes me dizzy.",
-        suggestion: "A goodbye makes the room tilt and spin."
+        "text": "When someone says goodbye, I know it's normal, but I feel out of control.",
+        "suggestion": "Goodbye tips the room before logic can help, and everything in you reaches for a floor."
       },
       {
-        text: "When you cancel, it feels like the floor opens.",
-        suggestion: "A cancel and the floor opens under your feet."
+        "text": "When you cancel, I want to stop coming before you can do it again.",
+        "suggestion": "The cancellation opens an old drop, and leaving first feels like the only railing you can grab."
       },
       {
-        text: "I hear 'too much' in my head like a stamp.",
-        suggestion: "The words 'too much' stamped across your heart."
+        "text": "When someone calls me too much, I keep hearing it afterward.",
+        "suggestion": "Too much stamps itself across you, red and loud, as if it will not wash off."
       },
       {
-        text: "Warmth makes tears spill out of nowhere.",
-        suggestion: "A bit of warmth and the tears spill like a sudden rain."
+        "text": "When someone is gentle with me, I cry before I understand why.",
+        "suggestion": "Gentleness touches the wall and tears rush through before permission can catch up."
       },
       {
-        text: "I stare at the door to make sure you're still here.",
-        suggestion: "Eyes locked on the door, guarding against vanishing."
+        "text": "I keep checking the door while we talk.",
+        "suggestion": "Your eyes keep returning to the door, guarding against the blink where I might disappear."
       }
     ],
     "case-david": [
       {
-        text: "When she calls me cold, my jaw turns to stone.",
-        suggestion: "Jaw set like stone as the word 'cold' burns in."
+        "text": "When my wife calls me cold, I get quiet and then make a sharp comment.",
+        "suggestion": "Cold burns behind your teeth, and the sharp comment comes out like armor snapping shut."
       },
       {
-        text: "If I'm not winning, my chest feels hollow.",
-        suggestion: "Without the win, your chest feels like an empty room."
+        "text": "If I'm not clearly doing well, I feel empty for a while.",
+        "suggestion": "Without the win, the inside goes echoing and bare, like the room has emptied after applause."
       },
       {
-        text: "I puff up when I feel small.",
-        suggestion: "You puff up big to cover the small sting inside."
+        "text": "When I feel small, I start talking about what I've achieved.",
+        "suggestion": "The achievements rush in like a taller version of you, standing around the small, stung place."
       },
       {
-        text: "I smooth my shirt and list my accomplishments when I'm cornered.",
-        suggestion: "Straightening the shirt, reciting the resume like armor plates."
+        "text": "When I feel cornered, I fix my shirt and explain my record.",
+        "suggestion": "The shirt and the record become armor pieces, fastened before the hit can land."
       },
       {
-        text: "Praise feels good for a minute then leaks out.",
-        suggestion: "Admiration fills you for a moment and then leaks away like water through a sieve."
+        "text": "Praise helps for a minute, but it doesn't last.",
+        "suggestion": "Admiration pours in and drains away quickly, never quite reaching the hollow place underneath."
       },
       {
-        text: "I hate the look on my kids' faces when I snap.",
-        suggestion: "That look hits you like a punch you wish you could pull back."
+        "text": "My kid's face after I snap bothers me more than I expected.",
+        "suggestion": "That careful face lands past every argument, a hit you cannot win your way out of."
       },
       {
-        text: "I check out of hard talks by looking at my phone.",
-        suggestion: "Eyes drop to the screen like a shield you hide behind."
+        "text": "In hard talks, I check my phone when it gets too personal.",
+        "suggestion": "The phone becomes a trapdoor under the table, a clean exit before feeling can corner you."
       },
       {
-        text: "Saying 'I'm wrong' makes my face burn.",
-        suggestion: "The words make your face burn hot with exposed skin."
+        "text": "Saying I was wrong feels humiliating.",
+        "suggestion": "Those words strip the armor in an instant, leaving your face hot and exposed."
       },
       {
-        text: "I pace the house at night when I feel judged.",
-        suggestion: "Night pacing, trying to walk off the sting of judgment."
+        "text": "At night I walk around because I can't settle after everyone has gone quiet.",
+        "suggestion": "The hallway becomes a track for outrunning the feeling that the house has seen too much."
       },
       {
-        text: "After the affair, the house feels colder.",
-        suggestion: "The house feels colder, like the heat slipped out through a crack."
+        "text": "Since the affair came out, home feels different and I don't know what to do with that.",
+        "suggestion": "The house feels colder now, as if warmth has leaked out through a crack nobody can point to."
       }
     ],
     "case-marcus": [
       {
-        text: "I move through the day like a ghost.",
-        suggestion: "Ghosting through the day, barely leaving footprints."
+        "text": "Most days I go through the motions and don't feel connected to people.",
+        "suggestion": "You move through the day half-transparent, close to people and still not touching the world."
       },
       {
-        text: "Crowds make my shoulders rise to my ears.",
-        suggestion: "Shoulders climbing up to your ears, muscles on sentry duty."
+        "text": "Crowds make me tense before anything has happened.",
+        "suggestion": "Your body stands guard before the crowd reaches you, shoulders rising toward the hit that has not come."
       },
       {
-        text: "I sit with my back to the wall.",
-        suggestion: "Back to the wall, eyes scanning exits."
+        "text": "I sit where I can see the door. It just feels better.",
+        "suggestion": "Back to the wall, eyes on the exits, the whole room quietly arranged around threat."
       },
       {
-        text: "Nightmares yank me awake and leave me buzzing.",
-        suggestion: "Pulled out of sleep, buzzing like a live wire."
+        "text": "Nightmares wake me up, and then the room doesn't feel normal for a while.",
+        "suggestion": "Sleep throws you back into the room charged and buzzing, as if danger followed you out."
       },
       {
-        text: "Silence in my place feels like a weight on my chest.",
-        suggestion: "Silence pressing on your chest like a heavy plate."
+        "text": "When the apartment is quiet, it gets hard to breathe.",
+        "suggestion": "The quiet lowers itself onto your chest, heavy enough to crowd the air."
       },
       {
-        text: "Good moments feel far away, like they're behind glass.",
-        suggestion: "Goodness behind glass, close and untouchable."
+        "text": "Good moments feel distant and don't quite reach me.",
+        "suggestion": "Goodness is right there and still behind glass, blurred before it can get to you."
       },
       {
-        text: "I keep the lights low so I don't have to see much.",
-        suggestion: "Dim lights, keeping the world soft and far."
+        "text": "I keep the lights low at home because bright light bothers me.",
+        "suggestion": "The dim light softens the edges, keeping the room from coming at you too clearly."
       },
       {
-        text: "If someone knocks, my heart hammers.",
-        suggestion: "A knock at the door sets your heart hammering hard."
+        "text": "If someone knocks unexpectedly, my heart starts hammering.",
+        "suggestion": "A knock turns the door into a threat, and your heart starts pounding from the inside."
       },
       {
-        text: "I hold my breath when I talk about it.",
-        suggestion: "Holding your breath as if air might let the pain in."
+        "text": "When I talk about it, I notice I stop breathing.",
+        "suggestion": "Your breath goes still, as if one inhale could pull the memory fully back into the room."
       },
       {
-        text: "Some nights I sit in the car so I don't have to go upstairs.",
-        suggestion: "Lingering in the car like a quiet bunker before the climb."
+        "text": "Some nights I sit in the car before going upstairs.",
+        "suggestion": "The quiet car becomes a last small shelter before the empty apartment has to be entered."
       }
     ]
   },
