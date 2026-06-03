@@ -3575,364 +3575,364 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Det å være alene høres beskyttende ut, som om det prøver å spare deg for fallet som kommer etter håp."
     },
     "dp_empathic-evocations_case-sara_01": {
-      "text": "Etter middag drar kvelden seg ut, og leiligheten kjennes for stor for én person.",
-      "suggestion": "Etter middag virker rommene som om de strekker seg, med altfor mye plass rundt én ensom kropp."
+      "text": "Etter middag merker jeg hvor stille leiligheten er, og så begynner jeg å sjekke mobilen igjen.",
+      "suggestion": "Stillheten legger seg rundt deg etter middag, og mobilen blir det lille stedet der han fortsatt kanskje kan dukke opp."
     },
     "dp_empathic-evocations_case-sara_02": {
-      "text": "Jeg holder den muntre stemmen gående, men under kjennes brystet hult.",
-      "suggestion": "En lys stemme lagt over et hult bryst, som et smil over en vond klump i brystet."
+      "text": "Jeg sier til folk at det går bra, men jeg kjenner meg flat når jeg sier det.",
+      "suggestion": "Det går bra kommer glatt ut, mens noe under har blitt blekt og stille."
     },
     "dp_empathic-evocations_case-sara_03": {
-      "text": "Jeg åpnet skapet for å hente en genser, og jakken hans kom mot meg som en bølge.",
-      "suggestion": "Blikket fester seg i jakken, og hele bølgen av ham skyller tilbake."
+      "text": "Jeg fant jakken hans i skapet og ble stående der lenger enn det ga mening.",
+      "suggestion": "Den jakken stopper deg i døråpningen, en liten bit av ham som trekker hele tapet tilbake i rommet."
     },
     "dp_empathic-evocations_case-sara_04": {
-      "text": "Jeg våkner og glemmer det et sekund, så smeller det tilbake.",
-      "suggestion": "Det ene lyse sekundet, og så slår tyngden igjen som en dør."
+      "text": "Noen morgener glemmer jeg det et sekund, og så husker jeg at vi ikke er sammen lenger.",
+      "suggestion": "Det er det ene klare sekundet, og så lander bruddet tilbake på deg som en tyngde i senga."
     },
     "dp_empathic-evocations_case-sara_05": {
-      "text": "Når venner spør hvordan det går, trekker jeg på skuldrene, men halsen snører seg før jeg rekker å svare.",
-      "suggestion": "Skuldertrekket sier at det går fint, mens halsen lukker seg rundt svaret."
+      "text": "Når venner spør hvordan det går, svarer jeg kort og bytter tema.",
+      "suggestion": "Det korte svaret lukker døra raskt, mens det egentlige svaret står trangt i halsen."
     },
     "dp_empathic-evocations_case-sara_06": {
-      "text": "Jeg scroller sent på kvelden til øynene brenner, som om lyset kan holde den tomme siden av senga unna.",
-      "suggestion": "Det blå lyset holder den tomme senga unna en stund, øynene brenner mens ensomheten venter rett utenfor skjermen."
+      "text": "Jeg blir sittende på mobilen sent fordi det er vanskelig å legge seg nå.",
+      "suggestion": "Skjermen blir et lite nattlys mot den tomme siden av senga, og holder den mørke følelsen akkurat utenfor rekkevidde."
     },
     "dp_empathic-evocations_case-sara_07": {
-      "text": "Sangen vår kom på i en butikk, og plutselig ble knærne myke midt i gangen.",
-      "suggestion": "De første tonene treffer midt i butikkgangen, og beina svikter under deg."
+      "text": "En sang kom på i en butikk, og jeg måtte gå ut før jeg begynte å gråte.",
+      "suggestion": "De første tonene finner deg midt i butikkgangen, og plutselig står sorgen der under butikklyset."
     },
     "dp_empathic-evocations_case-sara_08": {
-      "text": "Jeg tenker stadig at hvis jeg var annerledes, ville jeg ikke vært alene.",
-      "suggestion": "Det lander som en dom over verdien din – tung og ubarmhjertig."
+      "text": "Jeg tenker stadig at jeg kanskje gjorde noe galt, men jeg finner ikke ut hva.",
+      "suggestion": "Tankene leter etter feilen, som om de bare kan finne den løse tråden, vil hele bruddet gi mening."
     },
     "dp_empathic-evocations_case-sara_09": {
-      "text": "Noen ganger sitter jeg på gulvet og holder rundt knærne bare for å føle meg holdt.",
-      "suggestion": "Krøllet rundt deg selv, en liten sirkel av varme i et kaldt rom."
+      "text": "Noen ganger setter jeg meg på gulvet i stedet for å legge meg.",
+      "suggestion": "Gulvet blir stedet du folder deg sammen når senga kjennes for åpen og for bred."
     },
     "dp_empathic-evocations_case-sara_10": {
-      "text": "Når du er snill, stirrer jeg ned i teppet fordi varme kjennes for sterkt.",
-      "suggestion": "Vennligheten kommer inn som skarpt lys, og blikket faller ned i teppet for å dempe det."
+      "text": "Når du er snill mot meg, blir jeg brydd og ser bort.",
+      "suggestion": "Vennligheten kommer nær, nesten for varm å ta inn, så blikket faller til tryggere grunn."
     },
     "dp_empathic-evocations_case-michael_01": {
-      "text": "En korrigering foran teamet får varmen til å krype opp i ansiktet før jeg rekker å si noe.",
-      "suggestion": "Varmen kryper opp i ansiktet, som om hvert blikk blir et søkelys på feilen."
+      "text": "Når noen korrigerer meg foran teamet, blir jeg varm og slutter å høre etter.",
+      "suggestion": "Varmen skyter opp, som om rommet snevrer seg inn til ett skarpt merke på deg."
     },
     "dp_empathic-evocations_case-michael_02": {
-      "text": "Jeg går inn i møter allerede spent, og venter på den første feilen som beviser at jeg er omgitt av idioter.",
-      "suggestion": "Du går inn rustet og skannende, klar for feilen som skal bekrefte at faren allerede er i rommet."
+      "text": "Jeg går inn i møter og forventer at folk skal rote det til, og jeg hater at jeg gjør det.",
+      "suggestion": "Du kommer inn allerede i spenn, som om en del av deg står vakt ved døra før noen har sagt noe."
     },
     "dp_empathic-evocations_case-michael_03": {
-      "text": "Klokka fem verker kjeven etter å ha bitt tilbake alt det skarpe jeg ville si.",
-      "suggestion": "Verken bærer en hel dag med skarpe ord holdt bak tennene."
+      "text": "På slutten av dagen verker kjeven, og da skjønner jeg at jeg har holdt tilbake kommentarer.",
+      "suggestion": "Kjeven bærer hele dagen, låst rundt hver skarpe setning du måtte svelge."
     },
     "dp_empathic-evocations_case-michael_04": {
-      "text": "Jeg smeller, og etterpå sitter skammen på skuldrene som våt sement.",
-      "suggestion": "Etter smellet legger skammen seg over skuldrene, våt og tung, og stivner der."
+      "text": "Når jeg har smelt, blir jeg flau etterpå, men jeg prøver mest å ikke tenke på det.",
+      "suggestion": "Flauheten blir liggende der etterpå, tung og våt, mens du prøver å gå utenom den."
     },
     "dp_empathic-evocations_case-michael_05": {
-      "text": "Når kona mi sukker, treffer det som en lusing jeg burde ha sett komme.",
-      "suggestion": "Det lille sukket lander med svien fra en lusing, som en dom som krysser rommet før ordene kommer."
+      "text": "Når kona mi sukker, går jeg ut fra at hun dømmer meg.",
+      "suggestion": "Det lille sukket kan krysse rommet som en anklage, og systemet ditt spenner seg før hun har sagt et ord."
     },
     "dp_empathic-evocations_case-michael_06": {
-      "text": "Når noen sier «ro deg ned», tenner det en lunte før jeg skjønner at jeg holder den.",
-      "suggestion": "De ordene treffer lunten, og smellet er allerede på vei gjennom deg før du rekker å se det."
+      "text": "Hvis noen sier ro deg ned, blir jeg sintere med en gang.",
+      "suggestion": "De to ordene tenner fyrstikken, og ilden er i gang før du rekker å vite hva som ble antent."
     },
     "dp_empathic-evocations_case-michael_07": {
-      "text": "Når jeg ikke vet svaret, synker magen som om jeg er i ferd med å bli avslørt.",
-      "suggestion": "Å ikke vite sender magen i fritt fall, som om gulvet svikter under følelsen av å være kompetent."
+      "text": "Når jeg ikke vet svaret, føler jeg meg blottstilt.",
+      "suggestion": "Å ikke vite åpner et nakent sted, som om all kompetansen du støtter deg på mister dekning et øyeblikk."
     },
     "dp_empathic-evocations_case-michael_08": {
-      "text": "Jeg smeller igjen dører fordi det føles bedre enn å la meg kjenne meg liten.",
-      "suggestion": "Det store smellet er der for å dekke over det lille stikket inni."
+      "text": "Noen ganger smeller jeg med dører fordi jeg ikke vet hva annet jeg skal gjøre med følelsen.",
+      "suggestion": "Døra tar følelsen for deg, høyt nok til å dekke det mindre stikket under."
     },
     "dp_empathic-evocations_case-michael_09": {
-      "text": "Når jeg ser for meg å be om unnskyldning først, smaker det rust i munnen.",
-      "suggestion": "Unnskyldningen blir metallisk og bitter, som å svelge en munnfull nederlag."
+      "text": "Å tenke på å si unnskyld først får meg til å føle meg svak.",
+      "suggestion": "Unnskyldningen kjennes som å gå ned på lavere grunn, med alle andre plutselig høyere rundt deg."
     },
     "dp_empathic-evocations_case-michael_10": {
-      "text": "Om natten spiller jeg av min egen stemme på kjøkkenet, og kjeven slipper ikke taket.",
-      "suggestion": "Huset er stille, men kjeven din er fortsatt i kampen, låst rundt det som skjedde."
+      "text": "Om natten spiller jeg av krangelen og hører hvor skarp jeg hørtes ut.",
+      "suggestion": "Huset blir stille, men din egen stemme fortsetter å runge på kjøkkenet, fortsatt skarp etter at krangelen er over."
     },
     "dp_empathic-evocations_case-jason_01": {
-      "text": "Når det er min tur, høres navnet mitt fjernt ut, og leppene blir numne.",
-      "suggestion": "Idet navnet lander, blir leppene numne og rommet trekker seg unna."
+      "text": "Når det er min tur i et møte, mister jeg tråden i det jeg skulle si.",
+      "suggestion": "Øyeblikket vender seg mot deg, og setningen glipper unna som om rommet trekker den bort."
     },
     "dp_empathic-evocations_case-jason_02": {
-      "text": "Hendene svetter under bordet, og jeg klemmer dem mellom knærne så ingen skal se det.",
-      "suggestion": "De svette hendene klemmes ut av syne, som om til og med hendene kan avsløre deg."
+      "text": "Hendene mine svetter under bordet, så jeg skjuler dem.",
+      "suggestion": "Til og med hendene kjennes som om de kan avsløre deg, så de forsvinner under bordet før noen ser."
     },
     "dp_empathic-evocations_case-jason_03": {
-      "text": "Jeg øver foran speilet til ordene høres greie ut, og så fryser jeg likevel.",
-      "suggestion": "Alle de innøvde ordene, og så legger isen seg over hele setningen før den slipper ut."
+      "text": "Jeg øver på hva jeg skal si, men når folk ser på meg, fryser jeg.",
+      "suggestion": "Alle de innøvde ordene står klare, og så lander blikkene på deg og alt låser seg bak et lag is."
     },
     "dp_empathic-evocations_case-jason_04": {
-      "text": "Hvis noen ler på andre siden av rommet, rykker magen til som om de har tatt meg i å gjøre noe galt.",
-      "suggestion": "Latteren lander som et lite støt, og plutselig kjennes rommet rettet mot deg."
+      "text": "Hvis folk ler i nærheten, antar jeg at jeg gjorde noe rart.",
+      "suggestion": "Latteren går gjennom rommet og peker seg mot deg før du vet hva den handlet om."
     },
     "dp_empathic-evocations_case-jason_05": {
-      "text": "Når oppmerksomheten svinger mot meg, synker jeg ned i stolen som om jeg kan forsvinne inn i stoffet.",
-      "suggestion": "Stolen blir noe du kan forsvinne inn i idet søkelyset svinger mot deg."
+      "text": "Når oppmerksomheten vender seg mot meg, prøver jeg å ta mindre plass.",
+      "suggestion": "Kroppen begynner å gjøre seg mindre, leter etter en måte å være til stede på uten å bli sett."
     },
     "dp_empathic-evocations_case-jason_06": {
-      "text": "Komplimenter glir av meg før jeg får tak i dem, som regn på et vindu.",
-      "suggestion": "Rosen renner ned glasset, synlig et sekund og borte før den rekker å varme deg."
+      "text": "Når noen gir meg et kompliment, tror jeg egentlig ikke på det.",
+      "suggestion": "Komplimentet berører overflaten og glir av før det når stedet som trenger det."
     },
     "dp_empathic-evocations_case-jason_07": {
-      "text": "På søndagskvelder blir rommet grått, og stillheten begynner å presse på brystet.",
-      "suggestion": "Den grå stillheten presser ned og gjør rommet tungt før uka i det hele tatt har begynt."
+      "text": "Søndag kveld begynner jeg å bli nedstemt, men jeg scroller mest.",
+      "suggestion": "Uka kommer tidlig inn i rommet, og scrollingen blir et lite bevegelig lys mot tyngden."
     },
     "dp_empathic-evocations_case-jason_08": {
-      "text": "Jeg skriver én ufarlig melding på ti forskjellige måter til fingrene verker.",
-      "suggestion": "Én liten melding blir til verkende fingre, hver versjon visket ut av frykt."
+      "text": "Jeg skriver enkle meldinger om og om igjen, og noen ganger sender jeg dem ikke.",
+      "suggestion": "Én liten melding blir en smal døråpning, og hver omskriving er et nytt skritt tilbake fra å bli sett."
     },
     "dp_empathic-evocations_case-jason_09": {
-      "text": "Selv et raskt hei kommer skjelvende ut, og så hører jeg det gi gjenlyd i timevis.",
-      "suggestion": "Det lille hei-et skjelver ut i rommet og fortsetter å runge i deg lenge etterpå."
+      "text": "Selv det å si hei kan høres feil ut for meg etterpå.",
+      "suggestion": "Det lille hei-et blir hengende i ørene dine, som om ett vanlig ord har blitt bevis mot deg."
     },
     "dp_empathic-evocations_case-jason_10": {
-      "text": "Jeg stirrer på utgangen som en livline når rommet begynner å følge med på meg.",
-      "suggestion": "Døra blir en livline blikket klamrer seg til, en vei ut før søkelyset finner deg."
+      "text": "I grupper følger jeg med på hvor utgangen er.",
+      "suggestion": "Utgangen blir det tryggeste stedet i rommet, stedet blikket holder fast i når oppmerksomheten kommer for nær."
     },
     "dp_empathic-evocations_case-laura_01": {
-      "text": "De fleste morgener føles flate, som om noen har vasket ut fargene før jeg våknet.",
-      "suggestion": "Morgenen kommer i avblekede farger, alt er blekt før dagen engang har startet."
+      "text": "De fleste morgener våkner jeg uten å kjenne særlig mye.",
+      "suggestion": "Dagen kommer avbleket, som om fargen er tatt ut av den før du engang setter deg opp."
     },
     "dp_empathic-evocations_case-laura_02": {
-      "text": "En dør som smeller får huden min til å bli kald før jeg rekker å si at det bare er en dør.",
-      "suggestion": "Lyden sender kulde gjennom huden, som om fortiden kommer før nåtiden rekker å si noe."
+      "text": "En dør smeller, og jeg vet at det bare er en dør, men kroppen reagerer først.",
+      "suggestion": "Lyden når kroppen før hodet rekker å forklare, og den gamle alarmen går gjennom rommet her og nå."
     },
     "dp_empathic-evocations_case-laura_03": {
-      "text": "Når noen setter seg nær, holder jeg masken, men en del av meg glir bakover bak glass.",
-      "suggestion": "Du holder det høflige ansiktet fremme, mens en annen del glir tilbake bak glass."
+      "text": "Når noen sitter nær meg, er jeg høflig, men jeg kjenner at jeg trekker meg tilbake.",
+      "suggestion": "Det høflige ansiktet blir værende foran, mens en annen del av deg trekker seg bak et glass."
     },
     "dp_empathic-evocations_case-laura_04": {
-      "text": "Jeg ser andre le og skjønner at jeg ikke husker hvor glede bor i meg.",
-      "suggestion": "Glede blir som et språk du har mistet, kjent i andres ansikter, men vanskelig å finne inni deg."
+      "text": "Jeg ser folk le, og jeg klarer ikke å kjenne meg igjen i det.",
+      "suggestion": "Latteren deres er synlig rett foran deg, men glede kjennes som et språk fra et land du ikke kommer inn i."
     },
     "dp_empathic-evocations_case-laura_05": {
-      "text": "Vinen hjelper meg å trykke på av-knappen når støyen i hodet blir for høy.",
-      "suggestion": "Vinen blir som en dimmer som skrur ned volumet inni til rommet blir uklart og stille."
+      "text": "Vin hjelper meg å skru av om kvelden.",
+      "suggestion": "Vinen virker som en dimmer, senker volumet inni til de skarpe kantene i kvelden blir uklare."
     },
     "dp_empathic-evocations_case-laura_06": {
-      "text": "Jeg ligger våken og føler at jeg står vakt, mens jeg venter på neste lyd.",
-      "suggestion": "Selv i senga står en del av deg postert ved døra og lytter gjennom mørket."
+      "text": "Jeg ligger våken og lytter etter lyder, selv når ingenting skjer.",
+      "suggestion": "Selv i senga står en del av deg vakt, lytter gjennom mørket etter bevis på fare."
     },
     "dp_empathic-evocations_case-laura_07": {
-      "text": "En trist sang kan åpne en sprekk i meg før jeg klarer å lukke den igjen.",
-      "suggestion": "Én trist tone finner sprekken og åpner nummenheten før du rekker å lukke den."
+      "text": "Noen ganger får musikk meg til å gråte, og så stenger jeg det av.",
+      "suggestion": "Noen få toner åpner en smal sprekk i nummenheten, og du lukker den før for mye følelse slipper gjennom."
     },
     "dp_empathic-evocations_case-laura_08": {
-      "text": "Jeg går mellom butikkhyllene under det sterke lyset fordi hjem kjennes som å gå inn i et lukket rom.",
-      "suggestion": "De lyse hyllene blir en nøytral korridor som utsetter følelsen av å gå hjem til det lukkede rommet."
+      "text": "Jeg bruker ekstra tid i butikker fordi det er vanskelig å dra hjem.",
+      "suggestion": "De lyse gangene blir en nøytral korridor, litt mer tid før stillheten hjemme må inn."
     },
     "dp_empathic-evocations_case-laura_09": {
-      "text": "Vennlige ord får halsen til å verke, som om de berører et sted jeg holder låst.",
-      "suggestion": "Varmen stryker borti det låste stedet, og verken stiger i halsen før ordene slipper inn."
+      "text": "Vennlige ord gjør at jeg får vondt i halsen, og jeg vet ikke hvorfor.",
+      "suggestion": "Vennligheten berører et låst sted, og verken stiger i halsen før ordene kan svare."
     },
     "dp_empathic-evocations_case-laura_10": {
-      "text": "Jeg har en liten bag pakket ved døra, som om livet fortsatt trenger en nødutgang.",
-      "suggestion": "Bagen venter som en nødutgang, et stille tegn på at beredskapen ikke har lagt seg."
+      "text": "Jeg har en bag pakket ved døra, selv om jeg vet det høres rart ut.",
+      "suggestion": "Bagen venter ved døra som en stille utgangsplan, et tegn på at en del av deg aldri helt legger beredskapen ned."
     },
     "dp_empathic-evocations_case-carlos_01": {
-      "text": "Et skjevt glis over bordet sender dirring ut i hendene, som av avisolerte ledninger.",
-      "suggestion": "Det gliset elektrifiserer hendene dine, bar ledningsvarme som leter etter et sted å gå."
+      "text": "Når noen smiler skjevt til meg, begynner hendene å dirre.",
+      "suggestion": "Det skjeve smilet sender strøm ut i hendene, varme som leter etter et sted å gå før ordene rekker fram."
     },
     "dp_empathic-evocations_case-carlos_02": {
-      "text": "Brystet strammes som et trommeskinn når noen ypper; ett ord til, så sprekker jeg.",
-      "suggestion": "Brystet er spent som et trommeskinn, og hvert neste ord slår mot det."
+      "text": "Når noen kommer opp i ansiktet mitt, strammer brystet seg og jeg vil bare få det til å stoppe.",
+      "suggestion": "Brystet trekker seg stramt som en tromme, og hvert neste ord slår mot skinnet."
     },
     "dp_empathic-evocations_case-carlos_03": {
-      "text": "Jeg går frem og tilbake på kjøkkenet for å brenne det av før det kommer ut av hendene eller munnen.",
-      "suggestion": "Du går harde streker over kjøkkengulvet, prøver å tråkke varmen ut før den blir til skade."
+      "text": "Jeg går rundt på kjøkkenet etter krangler, fordi det blir verre hvis jeg sitter stille.",
+      "suggestion": "Du går harde streker over kjøkkengulvet, prøver å tråkke ladningen ut før den kommer gjennom hender eller munn."
     },
     "dp_empathic-evocations_case-carlos_04": {
-      "text": "Det redde blikket til gutten min slo et hull i meg som jeg fortsatt kjenner.",
-      "suggestion": "De redde øynene hans går gjennom deg som en knyttneve og etterlater et hult sted sinnet ikke kan dekke."
+      "text": "Jeg husker stadig ansiktet til sønnen min etter at jeg ropte.",
+      "suggestion": "Ansiktet hans blir værende som et blåmerke under sinnet, et merke du ikke klarer å skyve unna."
     },
     "dp_empathic-evocations_case-carlos_05": {
-      "text": "Når folk holder seg rolige, ser jeg ingen rustning på dem, og det ser farlig ut.",
-      "suggestion": "Ro ser ut som å stå ubeskyttet i en kamp, uten skjold mellom deg og slaget."
+      "text": "Rolige folk gjør meg nervøs. Jeg stoler ikke på det.",
+      "suggestion": "Ro ser for ubeskyttet ut, som noen som står åpent uten rustning og kaller det trygt."
     },
     "dp_empathic-evocations_case-carlos_06": {
-      "text": "Etter at jeg smeller, kjennes rommet mindre, og alle puster rundt knust glass.",
-      "suggestion": "Etter smellet blir huset lite og luftløst, som om alle trår varsomt rundt skår."
+      "text": "Etter at jeg smeller, blir alle stille, og jeg hater rommet.",
+      "suggestion": "Etter eksplosjonen blir rommet lite og forsiktig, som om alle beveger seg rundt knust glass."
     },
     "dp_empathic-evocations_case-carlos_07": {
-      "text": "Jeg biter tennene sammen til hodet dunker og ordene gnisser bak dem.",
-      "suggestion": "Tennene låst som i en skrustikke, smerten trommer mens de usagte ordene gnisser bak dem."
+      "text": "Jeg biter tennene sammen til hodet gjør vondt.",
+      "suggestion": "Tennene låser seg som en skrustikke, holder ordene og varmen inne til smerten begynner å dunke."
     },
     "dp_empathic-evocations_case-carlos_08": {
-      "text": "Hvis jeg trekker meg foran sønnen min, kjennes det som om jeg forsvinner fra rommet.",
-      "suggestion": "Å trekke seg kjennes som om konturene dine viskes ut, som om respekten forsvinner ut av rommet sammen med dem."
+      "text": "Å trekke meg foran sønnen min kjennes feil.",
+      "suggestion": "Å trekke seg kjennes som om konturene dine blir svakere i rommet, som om respekten kan forsvinne sammen med dem."
     },
     "dp_empathic-evocations_case-carlos_09": {
-      "text": "Jeg klemmer rundt rattet til knokene blir hvite, og prøver å holde varmen unna andre.",
-      "suggestion": "Hvite knoker låser seg rundt rattet og holder varmen inne som et lokk på en kokende gryte."
+      "text": "Jeg holder hardt i rattet når jeg prøver å ikke reagere.",
+      "suggestion": "Hendene klemmer rattet som et lokk over en kokende gryte, og holder varmen inne med hvite knoker."
     },
     "dp_empathic-evocations_case-carlos_10": {
-      "text": "Når sønnen min blir forsiktig rundt meg, ser jeg for meg at han husker meg som den høye stemmen i huset.",
-      "suggestion": "Det forsiktige blikket hans legger igjen et blåmerke, frykten for at den høye stemmen din blir minnet han bærer."
+      "text": "Jeg er redd sønnen min lærer å være forsiktig rundt meg.",
+      "suggestion": "Den frykten treffer dypt, at stemmen din kan bli været han lærer å leve i."
     },
     "dp_empathic-evocations_case-nina_01": {
-      "text": "Skylden slår til idet jeg setter meg ned, som om hvile utløser en alarm.",
-      "suggestion": "Hvilen trykker på alarmen; skyld skyter gjennom deg før stolen engang får holde deg."
+      "text": "Idet jeg setter meg ned, får jeg skyldfølelse.",
+      "suggestion": "Hvile setter i gang en alarm inni deg, skyld som skyter gjennom før stolen rekker å bære vekten din."
     },
     "dp_empathic-evocations_case-nina_02": {
-      "text": "Det er som om jeg bærer alles poser, og min egen skjærer inn i skulderen.",
-      "suggestion": "Armene fulle av alle andres tyngde, og din egen rem skjærer dypere fordi ingen strekker seg etter den."
+      "text": "Jeg føler ansvar for altfor mye, men jeg vet ikke hva jeg kan slutte å gjøre.",
+      "suggestion": "Armene er fulle av alle andres tyngde, og det finnes ingen ledig hånd til ditt eget."
     },
     "dp_empathic-evocations_case-nina_03": {
-      "text": "Magen vrir seg når jeg ber om hjelp, som om jeg svelger hele forespørselen.",
-      "suggestion": "Forespørselen knyter seg i magen, stram og vridd før den rekker fram til noen."
+      "text": "Når jeg ber om hjelp, strammer magen seg.",
+      "suggestion": "Forespørselen knyter seg i magen før den rekker fram til noen andre."
     },
     "dp_empathic-evocations_case-nina_04": {
-      "text": "Jeg smiler gjennom hodepinen og fortsetter så ingen ser hvor nær jeg er ved å falle sammen.",
-      "suggestion": "Et smil strukket stramt over et dunkende hode, som holder hele dagen oppe i en tynn tråd."
+      "text": "Jeg smiler gjennom hodepiner fordi folk trenger at jeg fortsetter.",
+      "suggestion": "Smilet strekkes over smerten og prøver å holde hele dagen oppe i en tynn tråd."
     },
     "dp_empathic-evocations_case-nina_05": {
-      "text": "Utover kvelden kjennes knoklene tunge, som om selv det å stå er å gå gjennom våt sement.",
-      "suggestion": "Tyngden legger seg helt inn i knoklene, hvert steg tykt og sakte som våt betong."
+      "text": "Utover kvelden kjennes hele kroppen tung.",
+      "suggestion": "Trettheten legger seg inn i knoklene, hvert steg tykt og langsomt mot slutten av dagen."
     },
     "dp_empathic-evocations_case-nina_06": {
-      "text": "Når jeg sier nei, banker hjertet som om jeg har brutt en regel for kjærlighet.",
-      "suggestion": "Nei-et setter i gang en alarm i brystet, som om selve kjærligheten har regler du nettopp brøt."
+      "text": "Å si nei får hjertet til å rase.",
+      "suggestion": "Nei-et setter i gang en alarm i brystet, som om én liten grense kan true selve kjærligheten."
     },
     "dp_empathic-evocations_case-nina_07": {
-      "text": "Ved midnatt tørker jeg av benken igjen, fordi hvile kjennes som å la alle stå ubeskyttet.",
-      "suggestion": "Benken tørkes av igjen, som en midnattsbesvergelse mot frykten for at hvile lar alle stå udekket."
+      "text": "Jeg vasker sent på kvelden selv om jeg er helt utslitt.",
+      "suggestion": "Benken tørkes av igjen, et midnattsritual mot frykten for at det å stoppe lar alle stå udekket."
     },
     "dp_empathic-evocations_case-nina_08": {
-      "text": "Ett rotete rom, og skammen kryper varm oppover halsen før noen engang kommenterer.",
-      "suggestion": "Før ett ord er sagt, kryper skammen allerede varm oppover halsen fra rotet."
+      "text": "Hvis huset er rotete, skammer jeg meg før noen sier noe.",
+      "suggestion": "Skammen er allerede på vei oppover halsen før en eneste kommentar kommer."
     },
     "dp_empathic-evocations_case-nina_09": {
-      "text": "Jeg gråter i et kjøkkenhåndkle så barna bare hører skapdører som åpnes.",
-      "suggestion": "Tårer presset inn i et kjøkkenhåndkle, skjult i den vanlige lyden av skap."
+      "text": "Jeg gråter på kjøkkenet der ingen legger merke til det.",
+      "suggestion": "Tårene pakkes inn i vanlige kjøkkenlyder, skjult der skapdører og rennende vann kan dekke dem."
     },
     "dp_empathic-evocations_case-nina_10": {
-      "text": "Noen ganger drømmer jeg om en stille dag uten ærender og uten skyld som venter i døra.",
-      "suggestion": "En stille dag åpner seg i tankene dine, og noe i deg løsner før skylden rekker å komme inn."
+      "text": "Jeg ser for meg en dag der ingen trenger noe, og så føler jeg meg egoistisk.",
+      "suggestion": "Et øyeblikk åpner en stille dag seg, og så stiller skylden seg i døråpningen før du rekker å hvile der."
     },
     "dp_empathic-evocations_case-aisha_01": {
-      "text": "Når du ser på klokka, synker magen som om rommet allerede er på vei bort fra meg.",
-      "suggestion": "Ett blikk på klokka, og rommet faller bort, som om forlattheten åpner seg under føttene dine."
+      "text": "Når du ser på klokka, tenker jeg med en gang at du vil ha meg ut.",
+      "suggestion": "Ett blikk på klokka blir et tegn på at du skal forlates, og rommet begynner å falle bort under føttene."
     },
     "dp_empathic-evocations_case-aisha_02": {
-      "text": "Jeg går fra «ikke gå» til «la meg være i fred» på sekunder.",
-      "suggestion": "Det snur som en bryter – fra bønn til brann i et blunk."
+      "text": "Jeg kan gå fra å be noen bli til å be dem la meg være i fred på sekunder.",
+      "suggestion": "Følelsen snur fra utstrakte hender til brann, en bryter som slås om raskere enn du klarer å roe deg."
     },
     "dp_empathic-evocations_case-aisha_03": {
-      "text": "Tomheten brenner som et hull i brystet, og jeg faller stadig ned i det.",
-      "suggestion": "Et brennende hulrom åpner seg i brystet, så bunnløst at du fortsetter å falle gjennom det."
+      "text": "Tomhetsfølelsen blir så sterk at jeg ikke klarer å tenke klart.",
+      "suggestion": "Tomheten åpner seg stort inni deg, så stor at den drar med seg både tanker og feste."
     },
     "dp_empathic-evocations_case-aisha_04": {
-      "text": "Jeg klorer meg på armen til sviingen skjærer gjennom den uvirkelige følelsen.",
-      "suggestion": "Sviingen skjærer gjennom den uvirkelige tåken, et skarpt bevis på at du fortsatt er her."
+      "text": "Jeg klorer meg på armen når jeg begynner å føle meg uvirkelig.",
+      "suggestion": "Sviingen skjærer gjennom tåken, et lite skarpt bevis på at du fortsatt er her."
     },
     "dp_empathic-evocations_case-aisha_05": {
-      "text": "Når skriveprikkene dukker opp og forsvinner igjen, kjennes det som om kontakten blir revet bort.",
-      "suggestion": "Prikkene forsvinner, og pusten går med dem, som om kontakten rives ut av rommet."
+      "text": "Når skriveprikkene forsvinner, får jeg panikk med en gang.",
+      "suggestion": "Prikkene som forsvinner, river kontakttråden ut av hendene dine, og pusten blir med den."
     },
     "dp_empathic-evocations_case-aisha_06": {
-      "text": "Når noen sier farvel, tipper rommet og jeg mister gulvet.",
-      "suggestion": "Farvel, og gulvet heller bort; alt spinner mens du leter etter feste."
+      "text": "Når noen sier ha det, vet jeg at det er normalt, men jeg mister kontrollen.",
+      "suggestion": "Ha det får rommet til å tippe før logikken rekker å hjelpe, og alt i deg leter etter et gulv."
     },
     "dp_empathic-evocations_case-aisha_07": {
-      "text": "Når du avlyser, føles det som om gulvet åpner seg og jeg plutselig ikke er noe sted.",
-      "suggestion": "En avlysning spjærer gulvet, og alt som var fast forsvinner under deg."
+      "text": "Når du avlyser, får jeg lyst til å slutte før du kan gjøre det igjen.",
+      "suggestion": "Avlysningen åpner et gammelt fall, og det å gå først kjennes som det eneste rekkverket du kan gripe."
     },
     "dp_empathic-evocations_case-aisha_08": {
-      "text": "Ordene «for mye» lander i brystet som et rødt stempel som ikke lar seg vaske bort.",
-      "suggestion": "«For mye» stemples over brystet, rødt og nesten permanent."
+      "text": "Når noen kaller meg for mye, hører jeg det om og om igjen etterpå.",
+      "suggestion": "For mye stemples over deg, rødt og høyt, som om det ikke lar seg vaske bort."
     },
     "dp_empathic-evocations_case-aisha_09": {
-      "text": "Litt varme får tårene til å renne ut av ingenting, som om en demning brister før jeg rekker å si ja.",
-      "suggestion": "Varmen treffer veggen, og plutselig strømmer tårene gjennom, for raskt til at du rekker å gi lov."
+      "text": "Når noen er milde med meg, gråter jeg før jeg skjønner hvorfor.",
+      "suggestion": "Mildheten berører veggen, og tårene strømmer gjennom før tillatelsen rekker fram."
     },
     "dp_empathic-evocations_case-aisha_10": {
-      "text": "Jeg sjekker døra mens vi snakker, som om du kan forsvinne hvis jeg blunker.",
-      "suggestion": "Blikket vender stadig tilbake til døra, på vakt mot blunket der jeg kan forsvinne."
+      "text": "Jeg sjekker døra mens vi snakker.",
+      "suggestion": "Blikket vender tilbake til døra, på vakt mot blinket der jeg kan forsvinne."
     },
     "dp_empathic-evocations_case-david_01": {
-      "text": "Når hun kaller meg kald, låser kjeven seg og ordet brenner bak tennene.",
-      "suggestion": "Ordet «kald» brenner bak tennene mens kjeven låser seg rundt det."
+      "text": "Når kona mi kaller meg kald, blir jeg stille og kommer med en skarp kommentar.",
+      "suggestion": "Kald brenner bak tennene, og den skarpe kommentaren kommer ut som en rustning som smekker igjen."
     },
     "dp_empathic-evocations_case-david_02": {
-      "text": "Hvis jeg ikke vinner, føles brystet hult, som om rommet er tømt.",
-      "suggestion": "Uten seieren blir brystet et tomt rom, bare ekko og ikke noe feste."
+      "text": "Hvis det ikke er tydelig at jeg gjør det bra, kjenner jeg meg tom en stund.",
+      "suggestion": "Uten seieren blir det ekko og barhet inni, som et rom som er tømt etter applausen."
     },
     "dp_empathic-evocations_case-david_03": {
-      "text": "Når jeg føler meg liten, blåser jeg meg raskt opp så ingen ser stikket.",
-      "suggestion": "Du blåser deg raskt opp, gjør deg større rundt det lille, såre stedet."
+      "text": "Når jeg føler meg liten, begynner jeg å snakke om det jeg har oppnådd.",
+      "suggestion": "Prestasjonene skynder seg inn som en høyere versjon av deg og stiller seg rundt det lille, såre stedet."
     },
     "dp_empathic-evocations_case-david_04": {
-      "text": "Jeg glatter skjorta og ramser opp prestasjonene når jeg føler meg presset opp i et hjørne.",
-      "suggestion": "Du retter på skjorta og lister opp prestasjonene, som om du spenner på deg rustning før slaget treffer."
+      "text": "Når jeg føler meg presset opp i et hjørne, retter jeg på skjorta og forklarer merittene mine.",
+      "suggestion": "Skjorta og merittene blir rustningsdeler, festet på plass før slaget kan lande."
     },
     "dp_empathic-evocations_case-david_05": {
-      "text": "Ros kjennes godt et øyeblikk, og så renner den ut før den når det hule stedet.",
-      "suggestion": "Beundring strømmer inn og renner bort før den rekker å berøre det hule rommet under."
+      "text": "Ros hjelper et øyeblikk, men det varer ikke.",
+      "suggestion": "Beundringen strømmer inn og renner raskt bort, uten helt å nå det hule stedet under."
     },
     "dp_empathic-evocations_case-david_06": {
-      "text": "Det forsiktige ansiktet til barnet mitt etter at jeg smeller, treffer hardere enn alt hun sier.",
-      "suggestion": "Det forsiktige ansiktet lander hardere enn ord, et treff du ikke kan argumentere bort."
+      "text": "Ansiktet til barnet mitt etter at jeg smeller, plager meg mer enn jeg hadde ventet.",
+      "suggestion": "Det forsiktige ansiktet treffer forbi alle argumenter, et slag du ikke kan vinne deg ut av."
     },
     "dp_empathic-evocations_case-david_07": {
-      "text": "I vanskelige samtaler griper jeg etter telefonen som en falluke under bordet.",
-      "suggestion": "Telefonen blir en falluke under bordet, en vei ut før følelsen får presset deg opp i et hjørne."
+      "text": "I vanskelige samtaler sjekker jeg telefonen når det blir for personlig.",
+      "suggestion": "Telefonen blir en falluke under bordet, en ryddig utgang før følelsen kan presse deg opp i et hjørne."
     },
     "dp_empathic-evocations_case-david_08": {
-      "text": "Å si «jeg tar feil» får ansiktet til å brenne som om jeg står avkledd foran alle.",
-      "suggestion": "De ordene river av rustningen på et øyeblikk og etterlater varme og blottstillelse i ansiktet."
+      "text": "Å si at jeg tok feil, kjennes ydmykende.",
+      "suggestion": "De ordene river av rustningen på et øyeblikk og etterlater ansiktet varmt og blottet."
     },
     "dp_empathic-evocations_case-david_09": {
-      "text": "Om natten går jeg fram og tilbake i gangen og prøver å gå fra følelsen av at alle ser tvers gjennom meg.",
-      "suggestion": "Gangen blir en bane for å løpe fra blottstillelsen, steg etter steg mot følelsen av å bli gjennomskuet."
+      "text": "Om natten går jeg rundt fordi jeg ikke klarer å roe meg når alle har blitt stille.",
+      "suggestion": "Gangen blir en bane for å løpe fra følelsen av at huset har sett for mye."
     },
     "dp_empathic-evocations_case-david_10": {
-      "text": "Etter affæren kjennes huset kaldere, som om varmen lekket ut mens ingen så det.",
-      "suggestion": "Huset holder på kulden, varmen borte gjennom en usynlig sprekk, og hvert rom kjennes kaldere og mer nakent."
+      "text": "Etter at affæren kom fram, kjennes hjemmet annerledes, og jeg vet ikke hva jeg skal gjøre med det.",
+      "suggestion": "Huset kjennes kaldere nå, som om varmen har lekket ut gjennom en sprekk ingen klarer å peke på."
     },
     "dp_empathic-evocations_case-marcus_01": {
-      "text": "Jeg beveger meg gjennom dagen som et spøkelse, mens folk går rett gjennom meg.",
-      "suggestion": "Du driver gjennom dagen halvt gjennomsiktig, uten at noen ser deg, nesten uten å berøre verden."
+      "text": "De fleste dager går jeg bare gjennom rutinene og kjenner meg ikke knyttet til folk.",
+      "suggestion": "Du beveger deg gjennom dagen halvt gjennomsiktig, nær folk og likevel uten helt å berøre verden."
     },
     "dp_empathic-evocations_case-marcus_02": {
-      "text": "Folkemengder får skuldrene opp til ørene før jeg engang har valgt retning.",
-      "suggestion": "Skuldrene klatrer mot ørene, musklene står vakt før folkemengden engang har nådd deg."
+      "text": "Folkemengder gjør meg anspent før det har skjedd noe.",
+      "suggestion": "Kroppen står vakt før folkemengden når deg, skuldrene på vei opp mot slaget som ikke har kommet."
     },
     "dp_empathic-evocations_case-marcus_03": {
-      "text": "Jeg sitter med ryggen mot veggen så ingenting kan komme bakfra.",
-      "suggestion": "Ryggen presset mot veggen, blikket på utgangene, hele rommet ordnet rundt trussel."
+      "text": "Jeg sitter der jeg kan se døra. Det føles bare bedre.",
+      "suggestion": "Ryggen mot veggen, blikket på utgangene, hele rommet stille ordnet rundt trussel."
     },
     "dp_empathic-evocations_case-marcus_04": {
-      "text": "Mareritt røsker meg våken og etterlater meg summende, som om rommet fortsatt er farlig.",
-      "suggestion": "Søvnen kaster deg ut igjen, summende som en strømførende ledning mens rommet fortsatt kjennes ladet."
+      "text": "Mareritt vekker meg, og så kjennes ikke rommet normalt på en stund.",
+      "suggestion": "Søvnen kaster deg tilbake til et rom som fortsatt er ladet og summende, som om faren fulgte med ut."
     },
     "dp_empathic-evocations_case-marcus_05": {
-      "text": "Når leiligheten blir stille, legger stillheten seg på brystet som en tung plate.",
-      "suggestion": "Stillheten senker seg over brystet, en tung plate som gjør selv pusten trang."
+      "text": "Når leiligheten er stille, blir det vanskelig å puste.",
+      "suggestion": "Stillheten senker seg over brystet, tung nok til å gjøre luften trang."
     },
     "dp_empathic-evocations_case-marcus_06": {
-      "text": "Selv gode øyeblikk føles langt borte, som om jeg ser dem gjennom tykt glass.",
-      "suggestion": "Det gode er rett der og likevel utilgjengelig, uklart bak glass du ikke får hendene gjennom."
+      "text": "Gode øyeblikk kjennes fjerne og når meg ikke helt.",
+      "suggestion": "Det gode er rett der og likevel bak glass, uklart før det rekker fram til deg."
     },
     "dp_empathic-evocations_case-marcus_07": {
-      "text": "Jeg holder lyset dempet så rommet blir uklart og ingenting får skarpe kanter.",
-      "suggestion": "Det dempede lyset gjør rommet uklart, myker opp hver kant så verden ikke kommer så tydelig mot deg."
+      "text": "Jeg holder lyset dempet hjemme fordi sterkt lys plager meg.",
+      "suggestion": "Det dempede lyset myker opp kantene og hindrer rommet i å komme for tydelig mot deg."
     },
     "dp_empathic-evocations_case-marcus_08": {
-      "text": "Hvis noen banker uventet på, hamrer hjertet som om døren er i ferd med å bli brutt opp.",
-      "suggestion": "Et bank gjør døren til en trussel, og hjertet begynner å hamre mot den fra innsiden."
+      "text": "Hvis noen banker på uventet, begynner hjertet å hamre.",
+      "suggestion": "Et bank gjør døra til en trussel, og hjertet begynner å slå fra innsiden."
     },
     "dp_empathic-evocations_case-marcus_09": {
-      "text": "Jeg holder pusten når jeg snakker om det, som om luft kan trekke minnet nærmere.",
-      "suggestion": "Pusten holdes stramt, som om ett innpust kunne dra minnet tilbake inn i rommet."
+      "text": "Når jeg snakker om det, merker jeg at jeg slutter å puste.",
+      "suggestion": "Pusten går i ro, som om ett innpust kan trekke minnet helt tilbake inn i rommet."
     },
     "dp_empathic-evocations_case-marcus_10": {
-      "text": "Noen netter blir jeg sittende i bilen med motoren av, fordi leiligheten ovenpå kjennes for tom til å gå inn i.",
-      "suggestion": "Den stille bilen blir et siste lite ly før den tomme leiligheten ber deg gå inn."
+      "text": "Noen kvelder sitter jeg i bilen før jeg går opp.",
+      "suggestion": "Den stille bilen blir et siste lite ly før den tomme leiligheten må gås inn i."
     },
     "dp_empathic-conjectures_case-sara_01": {
       "text": "Jeg sier hele tiden til vennene mine at det går bra, så de ikke skal lene seg inn og se hvor mye jeg trenger dem.",

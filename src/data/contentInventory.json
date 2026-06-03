@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T06:30:28.085Z",
+  "generatedAt": "2026-06-03T07:27:03.569Z",
   "revision": "2026-03-07-v1",
   "caseBibleCount": 9,
   "caseMatrixSummary": {
@@ -16,7 +16,7 @@
       "too_generic",
       "duplicate_pattern"
     ],
-    "generatedAt": "2026-06-03T06:30:28.064Z"
+    "generatedAt": "2026-06-03T07:27:03.561Z"
   },
   "benchmarkSummary": {
     "revision": "2026-03-07-v1",
@@ -24,7 +24,7 @@
     "totalResponses": 175,
     "sourceResponseCount": 160,
     "derivedResponseCount": 15,
-    "generatedAt": "2026-06-03T06:30:28.084Z"
+    "generatedAt": "2026-06-03T07:27:03.568Z"
   },
   "inventory": [
     {
@@ -15774,9 +15774,7 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [
-        "trauma"
-      ],
+      "riskFlags": [],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 7,
