@@ -12,12 +12,12 @@ export const STATEMENT_SETS = {
         "suggestion": "[Internal] Ease the urge to reassure; keep the comparison in view. [Meta] You are already shrinking your place here; let's notice what happens when your pain has room without competing."
       },
       {
-        "text": "I keep smiling so it does not get awkward, but then I feel fake and alone.",
-        "suggestion": "[Internal] Sense face; soften eyes; slow pace. [Meta] The smile works hard to protect both of us from awkwardness; let's gently check what feels too risky to show underneath."
+        "text": "My dog climbs onto the bed when I cry, and sometimes I think he loves me better than people do.",
+        "suggestion": "[Internal] Notice tenderness and rescue impulse; let warmth inform you without taking over. [Meta] He has been a steady companion through pain; let's notice what it is like to receive that kind of simple presence."
       },
       {
-        "text": "When I hear myself talk about the breakup, I imagine you thinking I am dramatic.",
-        "suggestion": "[Internal] Notice any wish to prove acceptance; keep tone warm. [Meta] You are listening for judgment in my face; let's make room for how exposed it feels to let this matter."
+        "text": "Last night I dreamed you were in my old apartment helping me pack boxes, and I woke up embarrassed that you were in the dream.",
+        "suggestion": "[Internal] Notice any embarrassment, flattery, or wish to interpret too fast; stay grounded. [Meta] The dream brings me close to an old place in your life, and it makes sense that saying that here feels exposing."
       },
       {
         "text": "I can power through; I don't need to feel all of this.",
@@ -50,8 +50,8 @@ export const STATEMENT_SETS = {
         "suggestion": "[Internal] Feel feet; notice any defensive tightening; keep voice steady. [Meta] I hear how quickly disrespect would end the room for you; let's slow the first signal that tells you I am talking down."
       },
       {
-        "text": "Do not start with feelings; if this is therapy talk, I need tools I can actually use.",
-        "suggestion": "[Internal] Notice urge to prove the method; re-center. [Meta] We can stay practical, and I want the tools tied to the exact moments that take you over."
+        "text": "My last coach gave me breathing tools in two sessions; I hope this is not just childhood talk.",
+        "suggestion": "[Internal] Notice the pull to compete with the previous helper or prove your method; re-center. [Meta] It matters that this feels useful. We can keep practical tools in view while checking whether they reach the moments that take you over."
       },
       {
         "text": "My wife makes me sound dangerous, but she knows exactly how to push my buttons.",
@@ -104,8 +104,8 @@ export const STATEMENT_SETS = {
         "suggestion": "[Internal] Notice the urge to rescue; keep warmth. [Meta] The apology tells me silence feels exposed, as if you have to protect me from it."
       },
       {
-        "text": "Can we just talk strategies so I know exactly what to do?",
-        "suggestion": "[Internal] Notice fixing impulse; re-attune. [Meta] We can add strategies; first I want to understand the freeze the strategy has to help with."
+        "text": "I do not really know how therapy is supposed to work; what if talking about this just makes me worse?",
+        "suggestion": "[Internal] Notice the urge to explain or reassure too quickly; slow down. [Meta] It makes sense to want to know what you are stepping into. We can make the process clearer and go slowly enough to notice if talking starts to feel like too much."
       },
       {
         "text": "I skipped the exercises again, so I probably messed this up.",
@@ -142,8 +142,8 @@ export const STATEMENT_SETS = {
         "suggestion": "[Internal] Respect the boundary; release pressure. [Meta] We can stay in the present and use the shutdown as the signal for how slowly we need to go."
       },
       {
-        "text": "I drink enough to sleep because otherwise the night gets too loud inside.",
-        "suggestion": "[Internal] Notice concern without shaming; stay warm. [Meta] The drinking has been a way to turn the volume down; we can look carefully at what gets too loud at night."
+        "text": "I had two glasses of wine before coming here because otherwise I knew I would not talk.",
+        "suggestion": "[Internal] Notice concern without shaming or becoming controlling; stay warm and clear. [Meta] The wine helped you get through the door, and we also need to notice how it affects safety and contact here."
       },
       {
         "text": "When you sound kind, part of me looks for the catch.",
@@ -196,8 +196,8 @@ export const STATEMENT_SETS = {
         "suggestion": "[Internal] Notice minimization without confronting it. [Meta] Firm is the word that fits for you, and we can also notice what others see when they start backing away."
       },
       {
-        "text": "Where I am from, you hit first or people learn they can take from you.",
-        "suggestion": "[Internal] Respect history; reduce judgment. [Meta] That code protected you there; let's see what it is still trying to protect in you here."
+        "text": "After I lost the promotion, I pictured walking into the trailer and punching my supervisor hard enough that he would finally shut up.",
+        "suggestion": "[Internal] Notice alarm or judgment; stay steady and assess without panic. [Meta] That image shows how unbearable being dismissed gets. We need to take it seriously and understand the moment before it takes over."
       },
       {
         "text": "Therapy is for people who cannot handle life, and I have handled plenty.",
@@ -222,8 +222,8 @@ export const STATEMENT_SETS = {
         "suggestion": "[Internal] Breathe low; soften tone; do not rush to absolve. [Meta] The guilt pulls you out of the room toward everyone else; let’s notice what it is like to return to you."
       },
       {
-        "text": "I tell myself I should not be angry because good people do not resent anyone.",
-        "suggestion": "[Internal] Bracket the urge to correct the belief; keep warmth. [Meta] That rule leaves no room for your hurt; maybe we name what got wounded before judging the anger."
+        "text": "At church I learned resentment means I am failing as a good person; if you do not believe that, I worry you will just tell me to be selfish.",
+        "suggestion": "[Internal] Notice assumptions about faith or the pull to debate the rule; keep respect. [Meta] Your faith and values matter here. I do not want to strip them away; I want us to understand the hurt and resentment inside that moral pressure."
       },
       {
         "text": "If I rest while someone needs me, I feel lazy and selfish.",
@@ -234,8 +234,8 @@ export const STATEMENT_SETS = {
         "suggestion": "[Internal] Notice being protected by the client; soften the rescuing impulse. [Meta] Even your tears arrive with care for me; let's give them room without making you manage my comfort."
       },
       {
-        "text": "Can we talk about helping my husband instead, so this session is at least useful?",
-        "suggestion": "[Internal] Notice pull to collude; re-attune. [Meta] We can include him, and first I want to be with what is heavy for you before usefulness pulls us away from you."
+        "text": "In my family, women keep everyone together; I worry you will not understand why saying no feels wrong.",
+        "suggestion": "[Internal] Notice cultural assumptions or the urge to liberate too quickly; stay humble. [Meta] That family rule has weight. I want to understand what belonging and responsibility mean there before we work with saying no."
       },
       {
         "text": "I should be grateful; saying I am unhappy makes me feel spoiled.",
@@ -284,8 +284,8 @@ export const STATEMENT_SETS = {
         "suggestion": "[Internal] Stay present; warm eye contact; slow pace. [Meta] Being seen matters here; let's notice what settles as you feel me with you."
       },
       {
-        "text": "Do you actually want me here, or are you just being professional?",
-        "suggestion": "[Internal] Notice sting and the wish to prove care; steady tone. [Meta] I do want to be here with you, and it matters that professional care can still feel uncertain."
+        "text": "Sometimes I imagine what it would be like if you met me outside therapy and actually wanted me.",
+        "suggestion": "[Internal] Notice any alarm, attraction, flattery, or wish to retreat; hold the boundary warmly. [Meta] That is important to say. We can talk about the longing and what it is like to bring it to me, while keeping this clearly as therapy."
       },
       {
         "text": "I feel disgusting because of what was done to me.",
@@ -334,8 +334,8 @@ export const STATEMENT_SETS = {
         "suggestion": "[Internal] Notice comparison pull; stay present. [Meta] It sounds like you felt let down by therapy before; what would you want different here?"
       },
       {
-        "text": "Can we keep this focused on fixing my wife? She is the one who keeps escalating.",
-        "suggestion": "[Internal] Avoid collusion; re-align to client. [Meta] We can talk about the relationship, and I also want to help you have more choice in the moments you feel pulled into escalation."
+        "text": "My wife says I drink too much, but she nags me into it; women do not understand pressure like mine.",
+        "suggestion": "[Internal] Notice judgment, irritation, or pressure to confront; stay accountable without shaming. [Meta] We can look at the pressure and the drinking directly without putting all of it on her or turning this into blame."
       }
     ],
     "case-marcus": [
@@ -372,8 +372,8 @@ export const STATEMENT_SETS = {
         "suggestion": "[Internal] Align with the need for structure; avoid arguing for depth. [Meta] Practical structure matters here. Let's tie any feeling work to exact moments and keep it contained enough to feel safe."
       },
       {
-        "text": "I do not see the point if tomorrow morning still feels exactly the same.",
-        "suggestion": "[Internal] Feel the hopeless pull; keep expectations honest. [Meta] We do not need to pretend tomorrow is fixed; let's define one small sign that would make the work worth continuing."
+        "text": "On the drive here I saw a truck and thought, If I turned into it, at least the noise would stop.",
+        "suggestion": "[Internal] Notice fear and urgency; steady yourself and orient to safety. [Meta] Thank you for telling me directly. We need first to make sure you are safe today, and then we can stay with the noise in a way you do not have to handle alone."
       },
       {
         "text": "I can handle it alone; that's how I've made it this far.",

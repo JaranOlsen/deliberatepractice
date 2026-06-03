@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T11:03:23.661Z",
+  "generatedAt": "2026-06-03T12:21:45.565Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -103,14 +103,16 @@
         {
           "blindLabel": "B",
           "order": 9,
-          "riskFlags": [],
+          "riskFlags": [
+            "suicide"
+          ],
           "en": {
-            "statement": "I do not see the point if tomorrow morning still feels exactly the same.",
-            "response": "[Internal] Feel the hopeless pull; keep expectations honest. [Meta] We do not need to pretend tomorrow is fixed; let's define one small sign that would make the work worth continuing."
+            "statement": "On the drive here I saw a truck and thought, If I turned into it, at least the noise would stop.",
+            "response": "[Internal] Notice fear and urgency; steady yourself and orient to safety. [Meta] Thank you for telling me directly. We need first to make sure you are safe today, and then we can stay with the noise in a way you do not have to handle alone."
           },
           "no": {
-            "statement": "Jeg ser ikke poenget hvis morgenen i morgen kjennes helt lik.",
-            "response": "[Internt] Kjenn draget mot håpløshet; hold forventningene ærlige. [Meta] Vi trenger ikke late som morgendagen er fikset; ett lite tegn kan hjelpe oss å vite om arbeidet er verdt å fortsette."
+            "statement": "På vei hit så jeg en lastebil og tenkte: Hvis jeg svingte inn i den, ville i det minste bråket stoppe.",
+            "response": "[Internt] Legg merke til frykt og hastverk; gjør deg stødig og orienter mot sikkerhet. [Meta] Takk for at du sier det direkte. Først må vi sikre at du er trygg i dag, og så kan vi være med bråket på en måte du ikke må håndtere alene."
           }
         }
       ]

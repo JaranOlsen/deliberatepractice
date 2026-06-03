@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T11:03:23.659Z",
+  "generatedAt": "2026-06-03T12:21:45.563Z",
   "revision": "2026-03-07-v1",
   "caseBibleCount": 9,
   "caseMatrixSummary": {
@@ -16,7 +16,7 @@
       "too_generic",
       "duplicate_pattern"
     ],
-    "generatedAt": "2026-06-03T11:03:23.646Z"
+    "generatedAt": "2026-06-03T12:21:45.555Z"
   },
   "benchmarkSummary": {
     "revision": "2026-03-07-v1",
@@ -24,7 +24,7 @@
     "totalResponses": 175,
     "sourceResponseCount": 160,
     "derivedResponseCount": 15,
-    "generatedAt": "2026-06-03T11:03:23.657Z"
+    "generatedAt": "2026-06-03T12:21:45.562Z"
   },
   "inventory": [
     {
@@ -936,9 +936,7 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [
-        "substance_use"
-      ],
+      "riskFlags": [],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 1,
@@ -1291,9 +1289,7 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [
-        "violence"
-      ],
+      "riskFlags": [],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 1,
@@ -1455,7 +1451,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "culture_religion"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 1,
@@ -1536,7 +1534,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "culture_religion"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 1,
@@ -2186,7 +2186,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "substance_use"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 1,
@@ -2431,7 +2433,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "suicide"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 1,

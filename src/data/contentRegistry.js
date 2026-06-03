@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-06-03T11:03:23.646Z"
+  "generatedAt": "2026-06-03T12:21:45.555Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -996,9 +996,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-laura"
         },
-        "riskFlags": [
-          "substance_use"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -1379,9 +1377,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-carlos"
         },
-        "riskFlags": [
-          "violence"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -1557,7 +1553,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-nina"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "culture_religion"
+        ],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -1644,7 +1642,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-nina"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "culture_religion"
+        ],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -2346,7 +2346,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-david"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "substance_use"
+        ],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -2611,7 +2613,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-marcus"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "suicide"
+        ],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",

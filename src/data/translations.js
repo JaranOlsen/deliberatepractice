@@ -1423,12 +1423,12 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Mykne trangen til å forsikre; ha sammenligningen i sikte. [Meta] Du gjør allerede plassen din her mindre; legg merke til hva som skjer når smerten din får rom uten å konkurrere."
     },
     "dp_therapist-self-awareness_case-sara_03": {
-      "text": "Jeg smiler hele tiden så det ikke blir pinlig, men da føler jeg meg falsk og alene.",
-      "suggestion": "[Internt] Kjenn ansiktet; mykne blikket; senk tempoet. [Meta] Smilet jobber hardt for å beskytte oss begge mot pinlighet; vi undersøker forsiktig hva som kjennes for risikabelt å vise under det."
+      "text": "Hunden min kryper opp i sengen når jeg gråter, og noen ganger tenker jeg at han elsker meg bedre enn mennesker gjør.",
+      "suggestion": "[Internt] Legg merke til ømhet og redningstrang; la varmen informere deg uten å ta over. [Meta] Han har vært en stødig følgesvenn gjennom smerte; vi kan legge merke til hvordan det er å ta imot en så enkel form for nærvær."
     },
     "dp_therapist-self-awareness_case-sara_04": {
-      "text": "Når jeg hører meg selv snakke om bruddet, ser jeg for meg at du tenker at jeg er dramatisk.",
-      "suggestion": "[Internt] Legg merke til ønsket om å bevise aksept; hold tonen varm. [Meta] Du lytter etter dom i ansiktet mitt; jeg vil gi rom til hvor utsatt det kjennes å la dette bety noe."
+      "text": "I natt drømte jeg at du var i den gamle leiligheten min og hjalp meg å pakke esker, og jeg våknet flau over at du var med i drømmen.",
+      "suggestion": "[Internt] Legg merke til eventuell flauhet, smiger eller trang til å tolke for raskt; hold deg forankret. [Meta] Drømmen tar meg tett inn i et gammelt sted i livet ditt, og det gir mening at det kjennes utsatt å si det her."
     },
     "dp_therapist-self-awareness_case-sara_05": {
       "text": "Jeg kan bare bite tennene sammen; jeg trenger ikke å kjenne på alt dette.",
@@ -1459,8 +1459,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Kjenn føttene; legg merke til eventuell defensiv stramming; hold stemmen stødig. [Meta] Jeg hører hvor raskt respektløshet ville avsluttet rommet for deg; jeg vil bremse sammen med deg ved det første signalet som sier at jeg snakker ned til deg."
     },
     "dp_therapist-self-awareness_case-michael_02": {
-      "text": "Ikke start med følelser; hvis dette bare blir terapiprat, trenger jeg verktøy jeg faktisk kan bruke.",
-      "suggestion": "[Internt] Legg merke til trangen til å bevise metoden; finn tilbake til deg selv. [Meta] Vi kan holde det praktisk, og jeg vil knytte verktøyene til de nøyaktige øyeblikkene som tar overhånd."
+      "text": "Den forrige coachen min ga meg pusteverktøy på to timer; jeg håper ikke dette bare blir barndomsprat.",
+      "suggestion": "[Internt] Legg merke til draget mot å konkurrere med den forrige hjelperen eller bevise metoden din; finn tilbake til deg selv. [Meta] Det betyr noe at dette kjennes nyttig. Vi kan holde praktiske verktøy i sikte samtidig som vi sjekker om de når øyeblikkene som tar overhånd."
     },
     "dp_therapist-self-awareness_case-michael_03": {
       "text": "Kona mi får meg til å høres farlig ut, men hun vet akkurat hvilke knapper hun skal trykke på.",
@@ -1511,8 +1511,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Legg merke til trangen til å redde; hold varmen. [Meta] Beklagelsen forteller meg at stillhet kjennes blottstilt, som om du må beskytte meg mot den."
     },
     "dp_therapist-self-awareness_case-jason_05": {
-      "text": "Kan vi bare snakke strategier, så jeg vet nøyaktig hva jeg skal gjøre?",
-      "suggestion": "[Internt] Legg merke til fiksetrang; stem inn igjen. [Meta] Vi kan legge til strategier; først vil jeg forstå frysingen strategien faktisk skal hjelpe med."
+      "text": "Jeg vet egentlig ikke hvordan terapi skal fungere; hva om det bare blir verre av å snakke om dette?",
+      "suggestion": "[Internt] Legg merke til trangen til å forklare eller berolige for raskt; senk tempoet. [Meta] Det gir mening at du vil vite hva du går inn i. Vi kan gjøre prosessen tydeligere og gå sakte nok til å merke om det å snakke begynner å bli for mye."
     },
     "dp_therapist-self-awareness_case-jason_06": {
       "text": "Jeg hoppet over øvelsene igjen, så jeg har sikkert ødelagt dette.",
@@ -1547,8 +1547,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Respekter grensen; slipp trykket. [Meta] Vi kan holde oss i nåtiden og bruke avstengningen som signal for hvor sakte vi må gå."
     },
     "dp_therapist-self-awareness_case-laura_04": {
-      "text": "Jeg drikker nok til å få sove, for ellers blir det for mye støy inni meg om natten.",
-      "suggestion": "[Internt] Legg merke til bekymring uten å skamme; hold varmen. [Meta] Drikkingen har vært en måte å skru ned volumet på; vi kan se varsomt på hva som blir for høyt om natten."
+      "text": "Jeg drakk to glass vin før jeg kom hit, for ellers visste jeg at jeg ikke kom til å snakke.",
+      "suggestion": "[Internt] Legg merke til bekymring uten å skamme eller bli kontrollerende; hold deg varm og tydelig. [Meta] Vinen hjalp deg inn døren, og samtidig må vi legge merke til hvordan den påvirker trygghet og kontakt her."
     },
     "dp_therapist-self-awareness_case-laura_05": {
       "text": "Når du høres vennlig ut, leter en del av meg etter haken.",
@@ -1599,8 +1599,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Merk bagatelliseringen uten å konfrontere den. [Meta] Bestemt er ordet som passer for deg, og vi kan også legge merke til hva andre ser når de begynner å trekke seg unna."
     },
     "dp_therapist-self-awareness_case-carlos_07": {
-      "text": "Der jeg kommer fra, slår du først, ellers lærer folk at de kan ta fra deg.",
-      "suggestion": "[Internt] Respekter historien; demp dømming. [Meta] Den koden beskyttet deg der; vi ser hva den fortsatt prøver å beskytte i deg her."
+      "text": "Etter at jeg ikke fikk forfremmelsen, så jeg for meg at jeg gikk inn i brakka og slo sjefen så hardt at han endelig holdt kjeft.",
+      "suggestion": "[Internt] Legg merke til alarm eller dømming; hold deg stødig og vurder uten panikk. [Meta] Det bildet viser hvor uutholdelig det blir å føle seg oversett. Vi må ta det på alvor og forstå øyeblikket før det tar over."
     },
     "dp_therapist-self-awareness_case-carlos_08": {
       "text": "Terapi er for folk som ikke tåler livet, og jeg har tålt mer enn nok.",
@@ -1623,8 +1623,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Pust lavt; mykne tonen; ikke skynd deg å frikjenne. [Meta] Den dårlige samvittigheten trekker deg ut av rommet og mot alle andre; vi merker hvordan det er å vende tilbake til deg."
     },
     "dp_therapist-self-awareness_case-nina_03": {
-      "text": "Jeg sier til meg selv at jeg ikke burde være sint, for gode mennesker bærer ikke nag.",
-      "suggestion": "[Internt] Sett parentes rundt trangen til å korrigere regelen; hold varme. [Meta] Den regelen gir ikke rom for smerten din; kanskje vi kan navngi det som ble såret før vi dømmer sinnet."
+      "text": "I kirken lærte jeg at bitterhet betyr at jeg svikter som et godt menneske; hvis du ikke tror på det, er jeg redd du bare vil be meg være egoistisk.",
+      "suggestion": "[Internt] Legg merke til antakelser om tro eller draget mot å diskutere regelen; hold respekt. [Meta] Troen og verdiene dine betyr noe her. Jeg vil ikke ta dem fra deg; jeg vil forstå smerten og bitterheten inni det moralske presset."
     },
     "dp_therapist-self-awareness_case-nina_04": {
       "text": "Hvis jeg hviler mens noen trenger meg, føler jeg meg lat og egoistisk.",
@@ -1635,8 +1635,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Legg merke til at klienten beskytter deg; mykne redningstrangen. [Meta] Selv tårene dine kommer med omsorg for meg; vi gir dem rom uten at du må passe på komforten min."
     },
     "dp_therapist-self-awareness_case-nina_06": {
-      "text": "Kan vi heller snakke om hvordan jeg kan hjelpe mannen min, så timen i det minste blir nyttig?",
-      "suggestion": "[Internt] Legg merke til draget mot å kolludere; stem inn igjen. [Meta] Vi kan inkludere ham, og først vil jeg være med det som er tungt for deg før nyttighet trekker oss bort fra deg."
+      "text": "I familien min holder kvinnene alle samlet; jeg er redd du ikke forstår hvorfor det føles galt å si nei.",
+      "suggestion": "[Internt] Legg merke til kulturelle antakelser eller trangen til å frigjøre for raskt; vær ydmyk. [Meta] Den familieregelen har tyngde. Jeg vil forstå hva tilhørighet og ansvar betyr der før vi arbeider med å si nei."
     },
     "dp_therapist-self-awareness_case-nina_07": {
       "text": "Jeg burde være takknemlig; å si at jeg er ulykkelig får meg til å føle meg bortskjemt.",
@@ -1683,8 +1683,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Vær til stede; varmt blikk; rolig tempo. [Meta] Å bli sett betyr mye her; vi merker hva som roer seg når du kjenner meg sammen med deg."
     },
     "dp_therapist-self-awareness_case-aisha_08": {
-      "text": "Vil du egentlig ha meg her, eller er du bare profesjonell?",
-      "suggestion": "[Internt] Legg merke til stikket og ønsket om å bevise omsorg; hold tonen stødig. [Meta] Jeg vil være her med deg, og det betyr noe at profesjonell omsorg fortsatt kan kjennes usikker."
+      "text": "Noen ganger ser jeg for meg hvordan det ville vært hvis du møtte meg utenfor terapi og faktisk ville ha meg.",
+      "suggestion": "[Internt] Legg merke til eventuell alarm, tiltrekning, smiger eller trang til å trekke deg unna; hold grensen varmt. [Meta] Det er viktig at du sier dette. Vi kan snakke om lengselen og hvordan det er å ta den med til meg, samtidig som dette tydelig forblir terapi."
     },
     "dp_therapist-self-awareness_case-aisha_09": {
       "text": "Jeg føler meg skitten på grunn av det som ble gjort mot meg.",
@@ -1731,8 +1731,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Legg merke til sammenligning; hold nærvær. [Meta] Det høres ut som terapi skuffet deg før; hva vil du ha annerledes her?"
     },
     "dp_therapist-self-awareness_case-david_10": {
-      "text": "Kan vi holde fokuset på å fikse kona mi? Det er hun som stadig eskalerer.",
-      "suggestion": "[Internt] Unngå kollusjon; allier deg på nytt med klienten. [Meta] Vi kan snakke om relasjonen, og jeg vil også hjelpe deg å få mer valgfrihet i øyeblikkene der du trekkes inn i eskalering."
+      "text": "Kona mi sier at jeg drikker for mye, men det er hun som maser meg til det; kvinner forstår ikke press som mitt.",
+      "suggestion": "[Internt] Legg merke til dømming, irritasjon eller press mot å konfrontere; hold ansvar uten å skamme. [Meta] Vi kan se direkte på presset og drikkingen uten å legge alt på henne eller gjøre dette til skyldplassering."
     },
     "dp_therapist-self-awareness_case-marcus_01": {
       "text": "Jeg sier at det går bra fordi jeg ikke vet hva annet du vil ha fra meg.",
@@ -1767,8 +1767,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Allier deg med behovet for struktur; ikke argumenter for dybde. [Meta] Praktisk struktur betyr noe her. Vi knytter følelsesarbeid til presise øyeblikk og holder det avgrenset nok til å kjennes trygt."
     },
     "dp_therapist-self-awareness_case-marcus_09": {
-      "text": "Jeg ser ikke poenget hvis morgenen i morgen kjennes helt lik.",
-      "suggestion": "[Internt] Kjenn draget mot håpløshet; hold forventningene ærlige. [Meta] Vi trenger ikke late som morgendagen er fikset; ett lite tegn kan hjelpe oss å vite om arbeidet er verdt å fortsette."
+      "text": "På vei hit så jeg en lastebil og tenkte: Hvis jeg svingte inn i den, ville i det minste bråket stoppe.",
+      "suggestion": "[Internt] Legg merke til frykt og hastverk; gjør deg stødig og orienter mot sikkerhet. [Meta] Takk for at du sier det direkte. Først må vi sikre at du er trygg i dag, og så kan vi være med bråket på en måte du ikke må håndtere alene."
     },
     "dp_therapist-self-awareness_case-marcus_10": {
       "text": "Jeg klarer meg alene; det er sånn jeg har kommet meg hit.",
