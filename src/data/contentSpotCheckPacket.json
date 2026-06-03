@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T07:27:03.571Z",
+  "generatedAt": "2026-06-03T07:34:28.847Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1997,12 +1997,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "I want to tell my father, Calling hurt weakness is why I still attack first.",
-                "response": "That points to unfinished business with your father. If you are willing, put him in this chair and tell him what it cost you to have hurt treated as weakness. I will keep it structured and brief."
+                "statement": "Whenever I feel hurt, my father's words come back: Stop being weak and get control.",
+                "response": "It sounds like you are carrying a harsh message from your father that now turns on you. We can put that message in one chair and the part of you it shames in the other, and let them speak one turn each."
               },
               "no": {
-                "statement": "Jeg vil si til faren min: «Det at du kalte sårhet svakhet, er grunnen til at jeg fortsatt angriper først.»",
-                "response": "Det peker mot et uavsluttet oppgjør med faren din. Hvis du vil, kan du sette ham i denne stolen og si hva det kostet å få sårethet behandlet som svakhet. Jeg holder det strukturert og kort."
+                "statement": "Hver gang jeg kjenner meg såret, kommer ordene til faren min tilbake: Slutt å være svak og få kontroll.",
+                "response": "Det høres ut som du bærer på et hardt budskap fra faren din som nå vender seg mot deg. Vi kan sette det budskapet i én stol og den siden av deg som blir skammet av det i den andre, og la dem få én runde hver."
               }
             },
             {
@@ -2014,12 +2014,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "The voice in my head says, Get control, you pathetic little boy.",
-                "response": "That is a harsh self-attack. We can put the voice that says 'pathetic little boy' in one chair and the part it shames in the other, and let them speak one turn each."
+                "statement": "I still want to tell my father what it cost me when he called every feeling weakness.",
+                "response": "That points to unfinished business with your father. If you are willing, put him in this chair and tell him what it cost you to have hurt treated as weakness. I will keep it structured and brief."
               },
               "no": {
-                "statement": "Stemmen i hodet sier: «Få kontroll, din patetiske lille gutt.»",
-                "response": "Det er et hardt selvangrep. Vi kan sette stemmen som sier «patetiske lille gutt» i én stol og delen den skammer i den andre, og la dem ta én runde hver."
+                "statement": "Jeg vil fortsatt fortelle faren min hva det kostet meg at han kalte hver følelse for svakhet.",
+                "response": "Det peker mot et uavsluttet oppgjør med faren din. Hvis du vil, kan du sette ham i denne stolen og si hva det kostet å få sårhet behandlet som svakhet. Jeg holder det strukturert og kort."
               }
             },
             {
@@ -2031,12 +2031,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "One part demands perfection before anyone can criticize me; another part is exhausted.",
-                "response": "That is a clear split between the demanding part and the exhausted part. We could give each one a chair and let them speak directly to each other while I guide the turns."
+                "statement": "The second I soften, I clamp down and start listing what I should have done better.",
+                "response": "That sounds like a demanding side that interrupts softness by attacking your performance. We could give that demanding side one chair and the softer, exhausted side the other, and let them speak directly to each other while I guide the turns."
               },
               "no": {
-                "statement": "En del krever perfeksjon før noen kan kritisere meg; en annen del er utslitt.",
-                "response": "Det er en tydelig splitt mellom den krevende delen og den utslitte delen. Vi kan gi hver av dem en stol og la dem snakke direkte til hverandre mens jeg guider rundene."
+                "statement": "I det sekundet jeg mykner, strammer jeg meg til og begynner å ramse opp alt jeg burde gjort bedre.",
+                "response": "Det høres ut som en krevende side som avbryter mykheten ved å angripe prestasjonen din. Vi kan gi den krevende siden én stol og den mykere, utslitte siden den andre, og la dem snakke direkte til hverandre mens jeg guider rundene."
               }
             }
           ]
@@ -2060,12 +2060,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "A voice says, Get on top first, or they will make you nothing.",
-                "response": "That 'get on top or be nothing' voice is a strong critic marker. We can put that voice in one chair and the part that ends up feeling small in the other, and let each speak plainly."
+                "statement": "If I do not get on top first, I tell myself they will make me look like nothing.",
+                "response": "That 'get on top or be nothing' pressure is a strong self-evaluative marker. We can put that pressure in one chair and the side that ends up feeling small in the other, and let each speak plainly."
               },
               "no": {
-                "statement": "En stemme sier: «Kom deg øverst først, ellers gjør de deg til ingenting.»",
-                "response": "Den «øverst eller ingenting»-stemmen er en tydelig kritikermarkør. Vi kan sette den stemmen i én stol og delen som ender med å føle seg liten i den andre, og la hver side snakke rett fram."
+                "statement": "Hvis jeg ikke kommer meg øverst først, sier jeg til meg selv at de får meg til å se ut som ingenting.",
+                "response": "Det «øverst eller ingenting»-presset er en tydelig selvvurderende markør. Vi kan sette det presset i én stol og siden som ender med å føle seg liten i den andre, og la hver side snakke rett fram."
               }
             },
             {
@@ -2077,11 +2077,11 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "I want to tell my father, Your belt taught me fear was respect.",
+                "statement": "I still want to tell my father that the belt made me fear him; it did not make me respect him.",
                 "response": "There is unfinished business with your father and what his belt taught you. If you are willing, put him in this chair and say what that did to you, a few strong lines at a time."
               },
               "no": {
-                "statement": "Jeg vil si til faren min: «Beltet ditt lærte meg at frykt var respekt.»",
+                "statement": "Jeg vil fortsatt si til faren min at beltet gjorde meg redd for ham; det fikk meg ikke til å respektere ham.",
                 "response": "Det ligger uavsluttet oppgjør med faren din her og med det beltet lærte deg. Hvis du vil, kan du sette ham i denne stolen og si hva det gjorde med deg, noen sterke linjer om gangen."
               }
             },
@@ -2094,12 +2094,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "One part lunges to protect; another sees my son's face and feels ashamed.",
-                "response": "That sounds like a split between the part that comes out fighting and the part that feels ashamed afterward. We could give each one a chair and let them speak directly."
+                "statement": "Right before I back down, something in me surges forward, and then I see my son's face afterward.",
+                "response": "That sounds like a split between the side that surges forward to fight and the side that feels ashamed afterward. We could give each one a chair and let them speak directly."
               },
               "no": {
-                "statement": "En del kaster seg fram for å beskytte; en annen ser ansiktet til sønnen min og skammer seg.",
-                "response": "Det høres ut som en splitt mellom delen som går til kamp og delen som skammer seg etterpå. Vi kan gi hver av dem en stol og la dem snakke direkte."
+                "statement": "Rett før jeg kunne ha roet meg, skyter noe i meg fram, og etterpå ser jeg ansiktet til sønnen min.",
+                "response": "Det høres ut som en splitt mellom siden som skyter fram for å slåss og siden som skammer seg etterpå. Vi kan gi hver av dem en stol og la dem snakke direkte."
               }
             }
           ]
@@ -2123,12 +2123,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "A voice says, Be exceptional or you are nothing to anyone.",
-                "response": "That sounds like a demanding driver. We could put 'be exceptional or be nothing' in one chair and the part that pays the price in the other, and let them speak directly."
+                "statement": "If I am not exceptional, I tell myself there is no reason anyone would stay.",
+                "response": "That sounds like a demanding driver that makes your worth depend on being exceptional. We could put that demand in one chair and the side that pays the price in the other, and let them speak directly."
               },
               "no": {
-                "statement": "En stemme sier: «Vær eksepsjonell, ellers er du ingenting for noen.»",
-                "response": "Det høres ut som en krevende driver. Vi kan sette «vær eksepsjonell eller vær ingenting» i én stol og delen som betaler prisen i den andre, og la dem snakke direkte."
+                "statement": "Hvis jeg ikke er eksepsjonell, sier jeg til meg selv at det ikke finnes noen grunn til at noen skulle bli.",
+                "response": "Det høres ut som en krevende driver som gjør verdien din avhengig av å være eksepsjonell. Vi kan sette det kravet i én stol og siden som betaler prisen i den andre, og la dem snakke direkte."
               }
             },
             {
@@ -2140,11 +2140,11 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "I still want to tell my father, I needed love, not just applause for results.",
+                "statement": "I still want my father to hear that applause for results was not the same as love.",
                 "response": "I hear unfinished business with your father around being valued only for results. We could use the empty chair and let you say what never got said to him."
               },
               "no": {
-                "statement": "Jeg vil fortsatt si til faren min: «Jeg trengte kjærlighet, ikke bare applaus for resultater.»",
+                "statement": "Jeg vil fortsatt at faren min skal høre at applaus for resultater ikke var det samme som kjærlighet.",
                 "response": "Jeg hører uavsluttet oppgjør med faren din rundt det å bli verdsatt bare for resultater. Vi kan bruke den tomme stolen og la deg si det som aldri fikk bli sagt til ham."
               }
             },
@@ -2157,12 +2157,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "One part reaches for closeness; another shuts the door before anyone sees need.",
-                "response": "That is a split between the part that wants closeness and the part that shuts it down. We can give each side a chair and let them tell us what they are protecting."
+                "statement": "When I want closeness, I make a cold remark before anyone can see the need.",
+                "response": "That is a split between the side that wants closeness and the side that shuts it down before anyone sees need. We can give each side a chair and let them tell us what they are protecting."
               },
               "no": {
-                "statement": "En del strekker seg etter nærhet; en annen stenger døra før noen ser behovet.",
-                "response": "Det er en splitt mellom delen som vil ha nærhet og delen som stenger den ned. Vi kan gi hver side en stol og la dem fortelle hva de beskytter."
+                "statement": "Når jeg vil ha nærhet, kommer jeg med en kald kommentar før noen kan se behovet.",
+                "response": "Det er en splitt mellom siden som vil ha nærhet og siden som stenger den ned før noen ser behovet. Vi kan gi hver side en stol og la dem fortelle hva de beskytter."
               }
             }
           ]

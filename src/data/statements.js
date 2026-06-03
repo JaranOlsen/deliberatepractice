@@ -3804,128 +3804,128 @@ export const STATEMENT_SETS = {
   "marker-recognition-chairwork": {
     "case-sara": [
       {
-        "text": "The voice says, Stop needing him; if you were stronger, you would be over this.",
-        "suggestion": "That sounds like a self-critical split. If you are willing, we can put the 'stop needing him' critic in one chair and the hurting side in the other. Let the critic speak first in a few direct lines, then switch and answer from the hurt side while I guide the pace."
+        "text": "I keep telling myself that if I were stronger, I would be over him by now.",
+        "suggestion": "It sounds like you are coming down hard on yourself for still needing him. If you are willing, we can put that demanding side in one chair and the hurting side in the other. Let the demanding side speak first in a few direct lines, then switch and answer from the hurt side while I guide the pace."
       },
       {
-        "text": "I keep imagining my ex in front of me and wanting to say, You made me feel disposable.",
-        "suggestion": "There is unfinished business with your ex, especially around feeling disposable. We could put him in the empty chair and let you say what still lives inside you, a few lines at a time, with me slowing it if needed."
+        "text": "Sometimes I picture my ex across from me, and all I want to say is, You made me feel disposable.",
+        "suggestion": "There is unfinished business with your ex, especially around being made to feel disposable. We could put him in the empty chair and let you say what still lives inside you, a few lines at a time, with me slowing it if needed."
       },
       {
-        "text": "Tears come up, and another part snaps, Do not be pathetic.",
-        "suggestion": "That is a critic interrupting the tears. We can give 'do not be pathetic' one chair and the tearful part the other, then let each side speak briefly so the tender side is no longer only silenced."
+        "text": "When I start to cry, I swallow it fast and tell myself not to be pathetic.",
+        "suggestion": "That sounds like you tighten and stop the tears as they come. We can give the stopping side one chair and the tearful side the other, then let each side speak briefly so the tender side is no longer only silenced."
       }
     ],
     "case-michael": [
       {
-        "text": "I want to tell my father, Calling hurt weakness is why I still attack first.",
+        "text": "Whenever I feel hurt, my father's words come back: Stop being weak and get control.",
+        "suggestion": "It sounds like you are carrying a harsh message from your father that now turns on you. We can put that message in one chair and the part of you it shames in the other, and let them speak one turn each."
+      },
+      {
+        "text": "I still want to tell my father what it cost me when he called every feeling weakness.",
         "suggestion": "That points to unfinished business with your father. If you are willing, put him in this chair and tell him what it cost you to have hurt treated as weakness. I will keep it structured and brief."
       },
       {
-        "text": "The voice in my head says, Get control, you pathetic little boy.",
-        "suggestion": "That is a harsh self-attack. We can put the voice that says 'pathetic little boy' in one chair and the part it shames in the other, and let them speak one turn each."
-      },
-      {
-        "text": "One part demands perfection before anyone can criticize me; another part is exhausted.",
-        "suggestion": "That is a clear split between the demanding part and the exhausted part. We could give each one a chair and let them speak directly to each other while I guide the turns."
+        "text": "The second I soften, I clamp down and start listing what I should have done better.",
+        "suggestion": "That sounds like a demanding side that interrupts softness by attacking your performance. We could give that demanding side one chair and the softer, exhausted side the other, and let them speak directly to each other while I guide the turns."
       }
     ],
     "case-jason": [
       {
-        "text": "A voice says, Hide your face; if they see you, they will laugh.",
-        "suggestion": "I hear a critic trying to hide you. We can give that voice one chair and your quieter, exposed side the other, and let each speak in short turns."
+        "text": "I tell myself to keep my head down, because if people really see me they will laugh.",
+        "suggestion": "I hear you using a harsh warning to hide yourself before anyone can laugh. We can give that warning side one chair and your quieter, exposed side the other, and let each speak in short turns."
       },
       {
-        "text": "I still want to ask that high-school friend why he stopped talking to me.",
+        "text": "I still wonder what I would say to that friend from school who just stopped talking to me.",
         "suggestion": "That sounds like unfinished business with that friend. We could put him in the empty chair and let you ask what got left unasked back then, just a few lines at a time."
       },
       {
-        "text": "One part wants to join in; another grabs my throat and says, Stay invisible.",
-        "suggestion": "That is a split between the part that wants connection and the part that shuts you down. We can give each part a chair and let them say what they fear."
+        "text": "When I want to join a conversation, my throat tightens and I make myself stay quiet.",
+        "suggestion": "That is a split between the side that wants connection and the side that shuts you down. We can give each side a chair and let them show us what they fear."
       }
     ],
     "case-laura": [
       {
-        "text": "When someone is kind, a protector says, Back away; kindness turns dangerous.",
-        "suggestion": "That sounds like a protector marker. If it feels safe enough, we can put the mistrusting protector in one chair and the part that longs for kindness in the other, and keep the turns very short."
+        "text": "When someone is kind, I tell myself to back away before I get fooled.",
+        "suggestion": "That sounds like a mistrusting side that moves in fast to protect you from kindness. If it feels safe enough, we can put that protective side in one chair and the side that longs for kindness in the other, and keep the turns very short."
       },
       {
-        "text": "I want to tell my mother, You saw what was happening and did not protect me.",
+        "text": "I still want to ask my mother why she kept washing dishes when she knew what was happening.",
         "suggestion": "That sounds like unfinished business with your mother around not being protected. We could use the empty chair for one careful, titrated turn so you can say what still lives there."
       },
       {
-        "text": "A numb part says, Shut it down now, or you will not survive feeling.",
-        "suggestion": "That is a split between the part that goes numb and the part that still feels. We can give each side a chair and let them tell us what they are trying to do for you."
+        "text": "When sadness comes close, I go blank and start talking like I am describing someone else's life.",
+        "suggestion": "That sounds like you shut feeling down by going blank and distant. We can give that numbing side one chair and the side that still feels the sadness the other, and let them tell us what they are trying to do for you."
       }
     ],
     "case-carlos": [
       {
-        "text": "A voice says, Get on top first, or they will make you nothing.",
-        "suggestion": "That 'get on top or be nothing' voice is a strong critic marker. We can put that voice in one chair and the part that ends up feeling small in the other, and let each speak plainly."
+        "text": "If I do not get on top first, I tell myself they will make me look like nothing.",
+        "suggestion": "That 'get on top or be nothing' pressure is a strong self-evaluative marker. We can put that pressure in one chair and the side that ends up feeling small in the other, and let each speak plainly."
       },
       {
-        "text": "I want to tell my father, Your belt taught me fear was respect.",
+        "text": "I still want to tell my father that the belt made me fear him; it did not make me respect him.",
         "suggestion": "There is unfinished business with your father and what his belt taught you. If you are willing, put him in this chair and say what that did to you, a few strong lines at a time."
       },
       {
-        "text": "One part lunges to protect; another sees my son's face and feels ashamed.",
-        "suggestion": "That sounds like a split between the part that comes out fighting and the part that feels ashamed afterward. We could give each one a chair and let them speak directly."
+        "text": "Right before I back down, something in me surges forward, and then I see my son's face afterward.",
+        "suggestion": "That sounds like a split between the side that surges forward to fight and the side that feels ashamed afterward. We could give each one a chair and let them speak directly."
       }
     ],
     "case-nina": [
       {
-        "text": "The voice says, If you ask for help, you are selfish and weak.",
-        "suggestion": "That is a clear critic. We can put the 'selfish and weak' voice in one chair and the needing part in the other, and let each speak for a short turn while I guide you."
+        "text": "The second I think about asking for help, I hear how selfish that sounds.",
+        "suggestion": "That is a clear self-critical move against your need for help. We can put the 'selfish' message in one chair and the needing side in the other, and let each speak for a short turn while I guide you."
       },
       {
-        "text": "I want to tell my ex, You left me with the chores and then blamed me.",
+        "text": "I still want to tell my ex that he left me carrying everything and then blamed me for being tired.",
         "suggestion": "I hear unfinished business with your ex around blame, chores, and carrying too much alone. We could use the empty chair so you can say what you had to swallow back then."
       },
       {
-        "text": "One part says, Keep everyone pleased; another wants to finally speak up.",
-        "suggestion": "That sounds like a split between the pleasing side and the side that wants to speak up. We can give each one a chair and let each say what it fears will happen."
+        "text": "When I want to say no, I smile and hear myself offering to do it anyway.",
+        "suggestion": "That sounds like a split between the pleasing side and the side that wants to speak up. We can give each one a chair and let each show what it fears will happen."
       }
     ],
     "case-aisha": [
       {
-        "text": "A protector screams, Push them away now before they leave you first.",
-        "suggestion": "I hear a strong protector trying to push away before it gets left. If it feels safe enough, we can put the pushing-away part in one chair and the longing part in the other, and keep the turns short and anchored."
+        "text": "If someone does not answer, I run through every way they are leaving, and I tell myself to end it first.",
+        "suggestion": "That sounds like a catastrophizing worry split: one side floods you with abandonment scenarios and then pushes you to act. If it feels safe enough, we can put the worrying side in one chair and the side being overwhelmed in the other, and keep the turns short and anchored."
       },
       {
-        "text": "I want to put my mother in front of me and ask, Why did you leave?",
-        "suggestion": "That sounds like unfinished business with your mother. We could use the empty chair for a few lines at a time so you can ask what has never had a place to be asked."
+        "text": "I still want to scream at my mother, How could you leave and then act like I was too much?",
+        "suggestion": "That sounds like unfinished business with your mother around being abandoned and then blamed for needing care. We could use the empty chair for a few lines at a time so you can say the rage and hurt that never had a place."
       },
       {
-        "text": "Inside I hear, You are too much; no one can love you and stay.",
-        "suggestion": "That is a harsh critic message. We can put 'too much to love and stay' in one chair and the part that carries the pain in the other, and let each side speak briefly."
+        "text": "When I start needing someone, I attack myself for being too much to love.",
+        "suggestion": "That is a harsh self-attack. We can put 'too much to love' in one chair and the side that carries the need in the other, and let each side speak briefly."
       }
     ],
     "case-david": [
       {
-        "text": "A voice says, Be exceptional or you are nothing to anyone.",
-        "suggestion": "That sounds like a demanding driver. We could put 'be exceptional or be nothing' in one chair and the part that pays the price in the other, and let them speak directly."
+        "text": "If I am not exceptional, I tell myself there is no reason anyone would stay.",
+        "suggestion": "That sounds like a demanding driver that makes your worth depend on being exceptional. We could put that demand in one chair and the side that pays the price in the other, and let them speak directly."
       },
       {
-        "text": "I still want to tell my father, I needed love, not just applause for results.",
+        "text": "I still want my father to hear that applause for results was not the same as love.",
         "suggestion": "I hear unfinished business with your father around being valued only for results. We could use the empty chair and let you say what never got said to him."
       },
       {
-        "text": "One part reaches for closeness; another shuts the door before anyone sees need.",
-        "suggestion": "That is a split between the part that wants closeness and the part that shuts it down. We can give each side a chair and let them tell us what they are protecting."
+        "text": "When I want closeness, I make a cold remark before anyone can see the need.",
+        "suggestion": "That is a split between the side that wants closeness and the side that shuts it down before anyone sees need. We can give each side a chair and let them tell us what they are protecting."
       }
     ],
     "case-marcus": [
       {
-        "text": "A guard part says, Do not feel; stay armed and watch the exits.",
-        "suggestion": "I hear a strong guard part. If it feels workable, we can put the guard in one chair and the lonely part it protects in the other, and keep the turns slow and short."
+        "text": "If I feel anything, I tell myself I will lose control, so I stay on watch instead.",
+        "suggestion": "I hear a strong guarding move that keeps watch instead of feeling. If it feels workable, we can put that guard in one chair and the lonely side it protects in the other, and keep the turns slow and short."
       },
       {
-        "text": "I want to tell my younger self, None of what happened was your fault.",
+        "text": "Sometimes I want to tell the younger version of me that none of what happened was his fault.",
         "suggestion": "That sounds like unfinished business with your younger self. We could use the empty chair and let you say directly to him what he never heard, one or two lines at a time."
       },
       {
-        "text": "When someone reaches out, one part wants contact and another orders, Back away.",
-        "suggestion": "That is a split between the part that wants safety through distance and the part that still wants contact. We can give each one a chair and let them say what they are afraid of."
+        "text": "I can describe what happened like a report, but if anger at the people in charge starts coming up, I shut it down.",
+        "suggestion": "That sounds like a self-interruptive split: the reporting side keeps you controlled while anger gets shut down. We can give the shutting-down side one chair and the angry side the other, and let them speak slowly enough that you stay oriented."
       }
     ]
   },

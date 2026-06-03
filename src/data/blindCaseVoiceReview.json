@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T07:27:03.571Z",
+  "generatedAt": "2026-06-03T07:34:28.847Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -1104,12 +1104,12 @@
           "order": 2,
           "riskFlags": [],
           "en": {
-            "statement": "I keep imagining my ex in front of me and wanting to say, You made me feel disposable.",
-            "response": "There is unfinished business with your ex, especially around feeling disposable. We could put him in the empty chair and let you say what still lives inside you, a few lines at a time, with me slowing it if needed."
+            "statement": "Sometimes I picture my ex across from me, and all I want to say is, You made me feel disposable.",
+            "response": "There is unfinished business with your ex, especially around being made to feel disposable. We could put him in the empty chair and let you say what still lives inside you, a few lines at a time, with me slowing it if needed."
           },
           "no": {
-            "statement": "Jeg ser for meg eksen min foran meg og vil si: «Du fikk meg til å føle meg kastet bort.»",
-            "response": "Det ligger et uavsluttet oppgjør med eksen din her, særlig rundt følelsen av å bli kastet bort. Vi kan sette ham i den tomme stolen og la deg si det som fortsatt lever i deg, noen linjer om gangen, mens jeg bremser hvis det trengs."
+            "statement": "Noen ganger ser jeg for meg eksen min rett foran meg, og alt jeg vil si er: «Du fikk meg til å føle meg verdiløs.»",
+            "response": "Det ligger et uavsluttet oppgjør med eksen din her, særlig rundt følelsen av å bli gjort verdiløs. Vi kan sette ham i den tomme stolen og la deg si det som fortsatt sitter fast, noen linjer om gangen, mens jeg bremser hvis det trengs."
           }
         },
         {
@@ -1117,11 +1117,11 @@
           "order": 2,
           "riskFlags": [],
           "en": {
-            "statement": "I want to tell my ex, You left me with the chores and then blamed me.",
+            "statement": "I still want to tell my ex that he left me carrying everything and then blamed me for being tired.",
             "response": "I hear unfinished business with your ex around blame, chores, and carrying too much alone. We could use the empty chair so you can say what you had to swallow back then."
           },
           "no": {
-            "statement": "Jeg vil si til eksen: «Du lot meg sitte med husarbeidet og skyldte på meg etterpå.»",
+            "statement": "Jeg vil fortsatt si til eksen min at han lot meg bære alt og så skyldte på meg for at jeg var sliten.",
             "response": "Jeg hører uavsluttet oppgjør med eksen din rundt skyld, husarbeid og det å bære for mye alene. Vi kan bruke den tomme stolen så du kan si det du måtte svelge den gangen."
           }
         }
@@ -1140,12 +1140,12 @@
           "order": 3,
           "riskFlags": [],
           "en": {
-            "statement": "One part lunges to protect; another sees my son's face and feels ashamed.",
-            "response": "That sounds like a split between the part that comes out fighting and the part that feels ashamed afterward. We could give each one a chair and let them speak directly."
+            "statement": "Right before I back down, something in me surges forward, and then I see my son's face afterward.",
+            "response": "That sounds like a split between the side that surges forward to fight and the side that feels ashamed afterward. We could give each one a chair and let them speak directly."
           },
           "no": {
-            "statement": "En del kaster seg fram for å beskytte; en annen ser ansiktet til sønnen min og skammer seg.",
-            "response": "Det høres ut som en splitt mellom delen som går til kamp og delen som skammer seg etterpå. Vi kan gi hver av dem en stol og la dem snakke direkte."
+            "statement": "Rett før jeg kunne ha roet meg, skyter noe i meg fram, og etterpå ser jeg ansiktet til sønnen min.",
+            "response": "Det høres ut som en splitt mellom siden som skyter fram for å slåss og siden som skammer seg etterpå. Vi kan gi hver av dem en stol og la dem snakke direkte."
           }
         },
         {
@@ -1153,12 +1153,12 @@
           "order": 3,
           "riskFlags": [],
           "en": {
-            "statement": "One part demands perfection before anyone can criticize me; another part is exhausted.",
-            "response": "That is a clear split between the demanding part and the exhausted part. We could give each one a chair and let them speak directly to each other while I guide the turns."
+            "statement": "The second I soften, I clamp down and start listing what I should have done better.",
+            "response": "That sounds like a demanding side that interrupts softness by attacking your performance. We could give that demanding side one chair and the softer, exhausted side the other, and let them speak directly to each other while I guide the turns."
           },
           "no": {
-            "statement": "En del krever perfeksjon før noen kan kritisere meg; en annen del er utslitt.",
-            "response": "Det er en tydelig splitt mellom den krevende delen og den utslitte delen. Vi kan gi hver av dem en stol og la dem snakke direkte til hverandre mens jeg guider rundene."
+            "statement": "I det sekundet jeg mykner, strammer jeg meg til og begynner å ramse opp alt jeg burde gjort bedre.",
+            "response": "Det høres ut som en krevende side som avbryter mykheten ved å angripe prestasjonen din. Vi kan gi den krevende siden én stol og den mykere, utslitte siden den andre, og la dem snakke direkte til hverandre mens jeg guider rundene."
           }
         }
       ]
@@ -1176,12 +1176,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "When someone is kind, a protector says, Back away; kindness turns dangerous.",
-            "response": "That sounds like a protector marker. If it feels safe enough, we can put the mistrusting protector in one chair and the part that longs for kindness in the other, and keep the turns very short."
+            "statement": "When someone is kind, I tell myself to back away before I get fooled.",
+            "response": "That sounds like a mistrusting side that moves in fast to protect you from kindness. If it feels safe enough, we can put that protective side in one chair and the side that longs for kindness in the other, and keep the turns very short."
           },
           "no": {
-            "statement": "Når noen er snill, sier en beskytter: «Trekk deg unna; vennlighet blir farlig.»",
-            "response": "Det høres ut som en beskyttermarkør. Hvis det kjennes trygt nok, setter vi den mistroiske beskytteren i én stol og delen som lengter etter vennlighet i den andre, og holder rundene veldig korte."
+            "statement": "Når noen er snill, sier jeg til meg selv at jeg må trekke meg unna før jeg lar meg lure.",
+            "response": "Det høres ut som en mistroisk side som kommer raskt inn for å beskytte deg mot vennlighet. Hvis det kjennes trygt nok, setter vi den beskyttende siden i én stol og siden som lengter etter vennlighet i den andre, og holder rundene veldig korte."
           }
         },
         {
@@ -1189,12 +1189,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "A guard part says, Do not feel; stay armed and watch the exits.",
-            "response": "I hear a strong guard part. If it feels workable, we can put the guard in one chair and the lonely part it protects in the other, and keep the turns slow and short."
+            "statement": "If I feel anything, I tell myself I will lose control, so I stay on watch instead.",
+            "response": "I hear a strong guarding move that keeps watch instead of feeling. If it feels workable, we can put that guard in one chair and the lonely side it protects in the other, and keep the turns slow and short."
           },
           "no": {
-            "statement": "En vaktdel sier: «Ikke kjenn; hold deg bevæpnet og følg med på utgangene.»",
-            "response": "Jeg hører en sterk vaktdel. Hvis det kjennes mulig, setter vi vakten i én stol og den ensomme delen den beskytter i den andre, og holder rundene langsomme og korte."
+            "statement": "Hvis jeg kjenner noe, sier jeg til meg selv at jeg kommer til å miste kontrollen, så jeg holder vakt i stedet.",
+            "response": "Jeg hører et sterkt vakthold som passer på i stedet for å kjenne. Hvis det kjennes mulig, setter vi vakten i én stol og den ensomme siden den beskytter i den andre, og holder rundene langsomme og korte."
           }
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T07:27:03.571Z",
+  "generatedAt": "2026-06-03T07:34:28.847Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -488,11 +488,11 @@
           "order": 2,
           "riskFlags": [],
           "en": {
-            "statement": "I still want to tell my father, I needed love, not just applause for results.",
+            "statement": "I still want my father to hear that applause for results was not the same as love.",
             "response": "I hear unfinished business with your father around being valued only for results. We could use the empty chair and let you say what never got said to him."
           },
           "no": {
-            "statement": "Jeg vil fortsatt si til faren min: «Jeg trengte kjærlighet, ikke bare applaus for resultater.»",
+            "statement": "Jeg vil fortsatt at faren min skal høre at applaus for resultater ikke var det samme som kjærlighet.",
             "response": "Jeg hører uavsluttet oppgjør med faren din rundt det å bli verdsatt bare for resultater. Vi kan bruke den tomme stolen og la deg si det som aldri fikk bli sagt til ham."
           }
         },
@@ -501,12 +501,12 @@
           "order": 2,
           "riskFlags": [],
           "en": {
-            "statement": "The voice in my head says, Get control, you pathetic little boy.",
-            "response": "That is a harsh self-attack. We can put the voice that says 'pathetic little boy' in one chair and the part it shames in the other, and let them speak one turn each."
+            "statement": "I still want to tell my father what it cost me when he called every feeling weakness.",
+            "response": "That points to unfinished business with your father. If you are willing, put him in this chair and tell him what it cost you to have hurt treated as weakness. I will keep it structured and brief."
           },
           "no": {
-            "statement": "Stemmen i hodet sier: «Få kontroll, din patetiske lille gutt.»",
-            "response": "Det er et hardt selvangrep. Vi kan sette stemmen som sier «patetiske lille gutt» i én stol og delen den skammer i den andre, og la dem ta én runde hver."
+            "statement": "Jeg vil fortsatt fortelle faren min hva det kostet meg at han kalte hver følelse for svakhet.",
+            "response": "Det peker mot et uavsluttet oppgjør med faren din. Hvis du vil, kan du sette ham i denne stolen og si hva det kostet å få sårhet behandlet som svakhet. Jeg holder det strukturert og kort."
           }
         },
         {
@@ -514,11 +514,11 @@
           "order": 2,
           "riskFlags": [],
           "en": {
-            "statement": "I want to tell my father, Your belt taught me fear was respect.",
+            "statement": "I still want to tell my father that the belt made me fear him; it did not make me respect him.",
             "response": "There is unfinished business with your father and what his belt taught you. If you are willing, put him in this chair and say what that did to you, a few strong lines at a time."
           },
           "no": {
-            "statement": "Jeg vil si til faren min: «Beltet ditt lærte meg at frykt var respekt.»",
+            "statement": "Jeg vil fortsatt si til faren min at beltet gjorde meg redd for ham; det fikk meg ikke til å respektere ham.",
             "response": "Det ligger uavsluttet oppgjør med faren din her og med det beltet lærte deg. Hvis du vil, kan du sette ham i denne stolen og si hva det gjorde med deg, noen sterke linjer om gangen."
           }
         }

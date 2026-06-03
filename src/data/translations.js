@@ -5015,112 +5015,112 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Jeg er komfortabel med stillhet. Jeg kjenner ofte nærvær i stillhet, ikke avstand. Du kan la stillheten teste det langsomt, i stedet for å svare med en gang."
     },
     "dp_marker-recognition-chairwork_case-sara_01": {
-      "text": "Stemmen sier: «Slutt å trenge ham; hvis du var sterkere, ville du vært over dette.»",
-      "suggestion": "Det høres ut som en selvkritisk splittelse. Hvis du vil, setter vi «slutt å trenge ham»-kritikeren i én stol og den sårede siden i den andre. La kritikeren snakke først i noen korte, direkte linjer, og så bytter du stol og svarer fra den sårede siden mens jeg hjelper oss med tempoet."
+      "text": "Jeg sier til meg selv at hvis jeg bare var sterkere, ville jeg vært over ham nå.",
+      "suggestion": "Det høres ut som du går hardt løs på deg selv for at du fortsatt trenger ham. Hvis du vil, kan vi sette den krevende siden i én stol og den sårede siden i den andre. La den krevende siden snakke først i noen direkte linjer, og så bytter du stol og svarer fra den sårede siden mens jeg hjelper oss med tempoet."
     },
     "dp_marker-recognition-chairwork_case-sara_02": {
-      "text": "Jeg ser for meg eksen min foran meg og vil si: «Du fikk meg til å føle meg kastet bort.»",
-      "suggestion": "Det ligger et uavsluttet oppgjør med eksen din her, særlig rundt følelsen av å bli kastet bort. Vi kan sette ham i den tomme stolen og la deg si det som fortsatt lever i deg, noen linjer om gangen, mens jeg bremser hvis det trengs."
+      "text": "Noen ganger ser jeg for meg eksen min rett foran meg, og alt jeg vil si er: «Du fikk meg til å føle meg verdiløs.»",
+      "suggestion": "Det ligger et uavsluttet oppgjør med eksen din her, særlig rundt følelsen av å bli gjort verdiløs. Vi kan sette ham i den tomme stolen og la deg si det som fortsatt sitter fast, noen linjer om gangen, mens jeg bremser hvis det trengs."
     },
     "dp_marker-recognition-chairwork_case-sara_03": {
-      "text": "Tårene kommer opp, og en annen del bjeffer: «Ikke vær patetisk.»",
-      "suggestion": "Det er en kritiker som avbryter tårene. Vi kan gi «ikke vær patetisk» én stol og den gråtende delen den andre. Vi kan la hver side snakke kort, så den sårbare delen ikke bare blir tiet ned."
+      "text": "Når jeg begynner å gråte, svelger jeg det fort og sier til meg selv at jeg ikke skal være patetisk.",
+      "suggestion": "Det høres ut som du strammer til og stopper tårene når de kommer. Vi kan gi den stoppende siden én stol og den gråtende siden den andre. Vi kan la hver side snakke kort, så den sårbare siden ikke bare blir tiet ned."
     },
     "dp_marker-recognition-chairwork_case-michael_01": {
-      "text": "Jeg vil si til faren min: «Det at du kalte sårhet svakhet, er grunnen til at jeg fortsatt angriper først.»",
-      "suggestion": "Det peker mot et uavsluttet oppgjør med faren din. Hvis du vil, kan du sette ham i denne stolen og si hva det kostet å få sårethet behandlet som svakhet. Jeg holder det strukturert og kort."
+      "text": "Hver gang jeg kjenner meg såret, kommer ordene til faren min tilbake: Slutt å være svak og få kontroll.",
+      "suggestion": "Det høres ut som du bærer på et hardt budskap fra faren din som nå vender seg mot deg. Vi kan sette det budskapet i én stol og den siden av deg som blir skammet av det i den andre, og la dem få én runde hver."
     },
     "dp_marker-recognition-chairwork_case-michael_02": {
-      "text": "Stemmen i hodet sier: «Få kontroll, din patetiske lille gutt.»",
-      "suggestion": "Det er et hardt selvangrep. Vi kan sette stemmen som sier «patetiske lille gutt» i én stol og delen den skammer i den andre, og la dem ta én runde hver."
+      "text": "Jeg vil fortsatt fortelle faren min hva det kostet meg at han kalte hver følelse for svakhet.",
+      "suggestion": "Det peker mot et uavsluttet oppgjør med faren din. Hvis du vil, kan du sette ham i denne stolen og si hva det kostet å få sårhet behandlet som svakhet. Jeg holder det strukturert og kort."
     },
     "dp_marker-recognition-chairwork_case-michael_03": {
-      "text": "En del krever perfeksjon før noen kan kritisere meg; en annen del er utslitt.",
-      "suggestion": "Det er en tydelig splitt mellom den krevende delen og den utslitte delen. Vi kan gi hver av dem en stol og la dem snakke direkte til hverandre mens jeg guider rundene."
+      "text": "I det sekundet jeg mykner, strammer jeg meg til og begynner å ramse opp alt jeg burde gjort bedre.",
+      "suggestion": "Det høres ut som en krevende side som avbryter mykheten ved å angripe prestasjonen din. Vi kan gi den krevende siden én stol og den mykere, utslitte siden den andre, og la dem snakke direkte til hverandre mens jeg guider rundene."
     },
     "dp_marker-recognition-chairwork_case-jason_01": {
-      "text": "En stemme sier: «Skjul ansiktet; hvis de ser deg, kommer de til å le.»",
-      "suggestion": "Jeg hører en kritiker som prøver å gjemme deg. Vi kan gi den stemmen én stol og den mer stille, utsatte delen av deg den andre, og la hver side snakke i korte runder."
+      "text": "Jeg sier til meg selv at jeg må holde hodet nede, for hvis folk virkelig ser meg, kommer de til å le.",
+      "suggestion": "Jeg hører at du bruker en hard advarsel for å gjemme deg før noen kan le. Vi kan gi den advarende siden én stol og den stillere, utsatte siden av deg den andre, og la hver side snakke i korte runder."
     },
     "dp_marker-recognition-chairwork_case-jason_02": {
-      "text": "Jeg vil fortsatt spørre den vennen fra videregående hvorfor han sluttet å snakke med meg.",
+      "text": "Jeg lurer fortsatt på hva jeg ville sagt til den vennen fra skolen som bare sluttet å snakke med meg.",
       "suggestion": "Det høres ut som uavsluttet oppgjør med den vennen. Vi kan sette ham i den tomme stolen og la deg spørre om det som aldri fikk bli spurt den gangen, bare noen linjer om gangen."
     },
     "dp_marker-recognition-chairwork_case-jason_03": {
-      "text": "En del vil bli med; en annen griper meg i halsen og sier: «Hold deg usynlig.»",
-      "suggestion": "Det er en splitt mellom delen som vil ha kontakt og delen som stenger deg ned. Vi kan gi hver del en stol og la dem si hva de er redde for."
+      "text": "Når jeg vil bli med i en samtale, strammer halsen seg og jeg får meg selv til å tie.",
+      "suggestion": "Det er en splitt mellom siden som vil ha kontakt og siden som stenger deg ned. Vi kan gi hver side en stol og la dem vise oss hva de er redde for."
     },
     "dp_marker-recognition-chairwork_case-laura_01": {
-      "text": "Når noen er snill, sier en beskytter: «Trekk deg unna; vennlighet blir farlig.»",
-      "suggestion": "Det høres ut som en beskyttermarkør. Hvis det kjennes trygt nok, setter vi den mistroiske beskytteren i én stol og delen som lengter etter vennlighet i den andre, og holder rundene veldig korte."
+      "text": "Når noen er snill, sier jeg til meg selv at jeg må trekke meg unna før jeg lar meg lure.",
+      "suggestion": "Det høres ut som en mistroisk side som kommer raskt inn for å beskytte deg mot vennlighet. Hvis det kjennes trygt nok, setter vi den beskyttende siden i én stol og siden som lengter etter vennlighet i den andre, og holder rundene veldig korte."
     },
     "dp_marker-recognition-chairwork_case-laura_02": {
-      "text": "Jeg vil si til moren min: «Du så hva som skjedde, og du beskyttet meg ikke.»",
+      "text": "Jeg vil fortsatt spørre moren min hvorfor hun bare fortsatte å vaske opp når hun visste hva som skjedde.",
       "suggestion": "Det høres ut som uavsluttet oppgjør med moren din rundt det å ikke bli beskyttet. Vi kan bruke den tomme stolen i en forsiktig, dosert runde, så du kan si det som fortsatt lever der."
     },
     "dp_marker-recognition-chairwork_case-laura_03": {
-      "text": "En nummen del sier: «Steng det ned nå, ellers overlever du ikke å føle.»",
-      "suggestion": "Det er en splitt mellom delen som blir nummen og delen som fortsatt kjenner. Vi kan gi hver side en stol og la dem fortelle hva de prøver å gjøre for deg."
+      "text": "Når tristheten kommer nær, blir jeg blank og begynner å snakke som om jeg beskriver livet til noen andre.",
+      "suggestion": "Det høres ut som du stenger følelsene ved å bli blank og fjern. Vi kan gi den nummende siden én stol og siden som fortsatt kjenner tristheten den andre, og la dem fortelle hva de prøver å gjøre for deg."
     },
     "dp_marker-recognition-chairwork_case-carlos_01": {
-      "text": "En stemme sier: «Kom deg øverst først, ellers gjør de deg til ingenting.»",
-      "suggestion": "Den «øverst eller ingenting»-stemmen er en tydelig kritikermarkør. Vi kan sette den stemmen i én stol og delen som ender med å føle seg liten i den andre, og la hver side snakke rett fram."
+      "text": "Hvis jeg ikke kommer meg øverst først, sier jeg til meg selv at de får meg til å se ut som ingenting.",
+      "suggestion": "Det «øverst eller ingenting»-presset er en tydelig selvvurderende markør. Vi kan sette det presset i én stol og siden som ender med å føle seg liten i den andre, og la hver side snakke rett fram."
     },
     "dp_marker-recognition-chairwork_case-carlos_02": {
-      "text": "Jeg vil si til faren min: «Beltet ditt lærte meg at frykt var respekt.»",
+      "text": "Jeg vil fortsatt si til faren min at beltet gjorde meg redd for ham; det fikk meg ikke til å respektere ham.",
       "suggestion": "Det ligger uavsluttet oppgjør med faren din her og med det beltet lærte deg. Hvis du vil, kan du sette ham i denne stolen og si hva det gjorde med deg, noen sterke linjer om gangen."
     },
     "dp_marker-recognition-chairwork_case-carlos_03": {
-      "text": "En del kaster seg fram for å beskytte; en annen ser ansiktet til sønnen min og skammer seg.",
-      "suggestion": "Det høres ut som en splitt mellom delen som går til kamp og delen som skammer seg etterpå. Vi kan gi hver av dem en stol og la dem snakke direkte."
+      "text": "Rett før jeg kunne ha roet meg, skyter noe i meg fram, og etterpå ser jeg ansiktet til sønnen min.",
+      "suggestion": "Det høres ut som en splitt mellom siden som skyter fram for å slåss og siden som skammer seg etterpå. Vi kan gi hver av dem en stol og la dem snakke direkte."
     },
     "dp_marker-recognition-chairwork_case-nina_01": {
-      "text": "Stemmen sier: «Hvis du ber om hjelp, er du egoistisk og svak.»",
-      "suggestion": "Det er en tydelig kritiker. Vi kan sette «egoistisk og svak»-stemmen i én stol og den trengende delen i den andre, og la hver side snakke en kort runde mens jeg guider deg."
+      "text": "I det øyeblikket jeg tenker på å be om hjelp, hører jeg hvor egoistisk det høres ut.",
+      "suggestion": "Det er et tydelig selvkritisk angrep på behovet ditt for hjelp. Vi kan sette «egoistisk»-budskapet i én stol og den siden som trenger hjelp i den andre, og la hver side snakke en kort runde mens jeg guider deg."
     },
     "dp_marker-recognition-chairwork_case-nina_02": {
-      "text": "Jeg vil si til eksen: «Du lot meg sitte med husarbeidet og skyldte på meg etterpå.»",
+      "text": "Jeg vil fortsatt si til eksen min at han lot meg bære alt og så skyldte på meg for at jeg var sliten.",
       "suggestion": "Jeg hører uavsluttet oppgjør med eksen din rundt skyld, husarbeid og det å bære for mye alene. Vi kan bruke den tomme stolen så du kan si det du måtte svelge den gangen."
     },
     "dp_marker-recognition-chairwork_case-nina_03": {
-      "text": "En del sier: «Hold alle fornøyde»; en annen vil endelig si fra.",
-      "suggestion": "Det høres ut som en splitt mellom delen som gjør andre til lags og delen som vil si fra. Vi kan gi hver av dem en stol og la dem si hva de frykter vil skje."
+      "text": "Når jeg vil si nei, smiler jeg og hører meg selv tilby å gjøre det likevel.",
+      "suggestion": "Det høres ut som en splitt mellom siden som gjør andre til lags og siden som vil si fra. Vi kan gi hver av dem en stol og la dem vise hva de frykter vil skje."
     },
     "dp_marker-recognition-chairwork_case-aisha_01": {
-      "text": "En beskytter skriker: «Skyv dem bort nå før de forlater deg først.»",
-      "suggestion": "Jeg hører en sterk beskytter som prøver å skyve bort før den blir forlatt. Hvis det kjennes trygt nok, kan vi sette den bortskyvende delen i én stol og den lengtende delen i den andre, og holde rundene korte og forankrede."
+      "text": "Hvis noen ikke svarer, går jeg gjennom alle måtene de kan være på vei bort på, og sier til meg selv at jeg må avslutte det først.",
+      "suggestion": "Det høres ut som en katastrofetanke- eller bekymringssplittelse: én side oversvømmer deg med bilder av å bli forlatt og presser deg til å handle. Hvis det kjennes trygt nok, kan vi sette den bekymrede siden i én stol og siden som blir overveldet i den andre, og holde rundene korte og forankrede."
     },
     "dp_marker-recognition-chairwork_case-aisha_02": {
-      "text": "Jeg vil sette moren min foran meg og spørre: «Hvorfor dro du?»",
-      "suggestion": "Det høres ut som uavsluttet oppgjør med moren din. Vi kan bruke den tomme stolen i noen få linjer om gangen, så du kan spørre det som aldri har fått en plass."
+      "text": "Jeg vil fortsatt skrike til moren min: «Hvordan kunne du dra og så oppføre deg som om jeg var for mye?»",
+      "suggestion": "Det høres ut som uavsluttet oppgjør med moren din rundt å bli forlatt og så få skylden for å trenge omsorg. Vi kan bruke den tomme stolen i noen få linjer om gangen, så du kan si raseriet og smerten som aldri fikk en plass."
     },
     "dp_marker-recognition-chairwork_case-aisha_03": {
-      "text": "Inni meg hører jeg: «Du er for mye; ingen kan elske deg og bli.»",
-      "suggestion": "Det er en hard kritikerbeskjed. Vi kan sette «for mye til å bli elsket og bli hos» i én stol og delen som bærer smerten i den andre, og la hver side snakke kort."
+      "text": "Når jeg begynner å trenge noen, angriper jeg meg selv for å være for mye til å elske.",
+      "suggestion": "Det er et hardt selvangrep. Vi kan sette «for mye til å elske» i én stol og siden som bærer behovet i den andre, og la hver side snakke kort."
     },
     "dp_marker-recognition-chairwork_case-david_01": {
-      "text": "En stemme sier: «Vær eksepsjonell, ellers er du ingenting for noen.»",
-      "suggestion": "Det høres ut som en krevende driver. Vi kan sette «vær eksepsjonell eller vær ingenting» i én stol og delen som betaler prisen i den andre, og la dem snakke direkte."
+      "text": "Hvis jeg ikke er eksepsjonell, sier jeg til meg selv at det ikke finnes noen grunn til at noen skulle bli.",
+      "suggestion": "Det høres ut som en krevende driver som gjør verdien din avhengig av å være eksepsjonell. Vi kan sette det kravet i én stol og siden som betaler prisen i den andre, og la dem snakke direkte."
     },
     "dp_marker-recognition-chairwork_case-david_02": {
-      "text": "Jeg vil fortsatt si til faren min: «Jeg trengte kjærlighet, ikke bare applaus for resultater.»",
+      "text": "Jeg vil fortsatt at faren min skal høre at applaus for resultater ikke var det samme som kjærlighet.",
       "suggestion": "Jeg hører uavsluttet oppgjør med faren din rundt det å bli verdsatt bare for resultater. Vi kan bruke den tomme stolen og la deg si det som aldri fikk bli sagt til ham."
     },
     "dp_marker-recognition-chairwork_case-david_03": {
-      "text": "En del strekker seg etter nærhet; en annen stenger døra før noen ser behovet.",
-      "suggestion": "Det er en splitt mellom delen som vil ha nærhet og delen som stenger den ned. Vi kan gi hver side en stol og la dem fortelle hva de beskytter."
+      "text": "Når jeg vil ha nærhet, kommer jeg med en kald kommentar før noen kan se behovet.",
+      "suggestion": "Det er en splitt mellom siden som vil ha nærhet og siden som stenger den ned før noen ser behovet. Vi kan gi hver side en stol og la dem fortelle hva de beskytter."
     },
     "dp_marker-recognition-chairwork_case-marcus_01": {
-      "text": "En vaktdel sier: «Ikke kjenn; hold deg bevæpnet og følg med på utgangene.»",
-      "suggestion": "Jeg hører en sterk vaktdel. Hvis det kjennes mulig, setter vi vakten i én stol og den ensomme delen den beskytter i den andre, og holder rundene langsomme og korte."
+      "text": "Hvis jeg kjenner noe, sier jeg til meg selv at jeg kommer til å miste kontrollen, så jeg holder vakt i stedet.",
+      "suggestion": "Jeg hører et sterkt vakthold som passer på i stedet for å kjenne. Hvis det kjennes mulig, setter vi vakten i én stol og den ensomme siden den beskytter i den andre, og holder rundene langsomme og korte."
     },
     "dp_marker-recognition-chairwork_case-marcus_02": {
-      "text": "Jeg vil si til den yngre utgaven av meg: «Ingenting av det som skjedde var din skyld.»",
+      "text": "Noen ganger vil jeg si til den yngre utgaven av meg at ingenting av det som skjedde var hans skyld.",
       "suggestion": "Det høres ut som uavsluttet oppgjør med den yngre deg. Vi kan bruke den tomme stolen og la deg si direkte til ham det han aldri fikk høre, én eller to linjer om gangen."
     },
     "dp_marker-recognition-chairwork_case-marcus_03": {
-      "text": "Når noen strekker seg mot meg, vil én del ha kontakt og en annen kommanderer: «Trekk deg unna.»",
-      "suggestion": "Det er en splitt mellom delen som søker trygghet gjennom avstand og delen som fortsatt vil ha kontakt. Vi kan gi hver av dem en stol og la dem si hva de er redde for."
+      "text": "Jeg kan beskrive det som skjedde som en rapport, men hvis sinne mot de ansvarlige begynner å komme opp, stenger jeg det ned.",
+      "suggestion": "Det høres ut som en selvavbrytende splittelse: rapport-siden holder deg kontrollert mens sinnet blir stengt ned. Vi kan gi den stengende siden én stol og den sinte siden den andre, og la dem snakke langsomt nok til at du holder deg orientert."
     },
     "dp_alliance-repair_case-sara_01": {
       "text": "Forrige uke da jeg gråt, føltes det som du gikk videre for fort.",
