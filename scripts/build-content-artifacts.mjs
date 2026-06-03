@@ -126,6 +126,26 @@ function buildSourceRef(skillId, caseId) {
   };
 }
 
+function cleanBenchmarkContent(content) {
+  let cleanContent = content.replace(/\s+/g, " ").trim();
+
+  cleanContent = cleanContent.replace(/\s+---$/g, "").trim();
+  cleanContent = cleanContent
+    .replace(/\s+\d{2,3}Preparation\s+1\.\s+R ead(?: the)? instructions in$/i, "")
+    .trim();
+  cleanContent = cleanContent
+    .replace(/\s+\d{2,3}\s+Deliberate Practice Exercises for Emotion-Focused Therapy Skills$/i, "")
+    .trim();
+  cleanContent = cleanContent
+    .replace(
+      /\s+\d+\.\s+(?:Expr essions|Expressions|T rainees|Trainees|The ther apist|The therapist|The catastr|The catastrophizing).*$/i,
+      ""
+    )
+    .trim();
+
+  return cleanContent;
+}
+
 function inferRiskFlags(text, suggestion) {
   const haystack = `${text}\n${suggestion}`.toLowerCase();
   const flags = [];
@@ -240,11 +260,11 @@ function parseBenchmarkBank() {
       return;
     }
     let emotionLabel = null;
-    let content = joined;
+    let content = cleanBenchmarkContent(joined);
     const emotionMatch = joined.match(/^\[([^\]]+)\]\s*(.*)$/);
     if (emotionMatch) {
       emotionLabel = emotionMatch[1].trim();
-      content = emotionMatch[2].trim();
+      content = cleanBenchmarkContent(emotionMatch[2]);
     }
     bucket[currentEntry.number] = {
       number: currentEntry.number,
@@ -288,6 +308,11 @@ function parseBenchmarkBank() {
       };
       const trailing = itemMatch[3]?.trim();
       if (trailing) currentEntry.buffer.push(trailing);
+      return;
+    }
+
+    if (/^-{3,}$/.test(line)) {
+      flushCurrentEntry();
       return;
     }
 
