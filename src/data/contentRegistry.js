@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-06-03T13:19:21.033Z"
+  "generatedAt": "2026-06-03T13:40:28.625Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -22340,7 +22340,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-carlos"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "violence"
+        ],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
@@ -22764,7 +22766,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-aisha"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "sexual_boundary"
+        ],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
@@ -22854,7 +22858,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-aisha"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "self_harm"
+        ],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
@@ -23156,7 +23162,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-david"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "sexual_boundary"
+        ],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
@@ -23276,7 +23284,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-david"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "sexual_boundary"
+        ],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
@@ -23336,7 +23346,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-david"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "violence"
+        ],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
@@ -23640,7 +23652,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-marcus"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "suicide"
+        ],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
