@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T07:34:28.847Z",
+  "generatedAt": "2026-06-03T11:03:23.660Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -2193,12 +2193,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "When it was quiet for so long, I felt like I was failing.",
-                "response": "I am taking that in. My silence became a test you felt you were failing, and I am sorry. Would it help if I name the pause sooner, so you know I am with you in it?"
+                "statement": "When I freeze and say I do not know, I worry I am doing therapy wrong and wasting the session.",
+                "response": "I am glad you said that. My silence may have made freezing feel like failure, and I am sorry. You are not doing therapy wrong; freezing is part of what we need to understand. What would help you know I am with you when words disappear?"
               },
               "no": {
-                "statement": "Da det var stille så lenge, følte jeg at jeg feilet.",
-                "response": "Jeg tar det inn. Stillheten min ble til en test du følte at du strøk på, og det beklager jeg. Ville det hjulpet om jeg navngir pausen tidligere, så du vet at jeg er med deg i den?"
+                "statement": "Når jeg fryser og sier at jeg ikke vet, blir jeg redd for at jeg gjør terapi feil og kaster bort timen.",
+                "response": "Jeg er glad for at du sier det. Stillheten min kan ha fått frysingen til å kjennes som et nederlag, og det beklager jeg. Du gjør ikke terapi feil; frysingen er en del av det vi trenger å forstå. Hva ville hjulpet deg å vite at jeg er med deg når ordene forsvinner?"
               }
             },
             {
@@ -2227,12 +2227,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "I felt pushed when you asked about my body right away.",
-                "response": "I went inward too quickly before enough safety was there. I am sorry. Would you rather start with words, the room, or a small signal from you before I ask about sensations?"
+                "statement": "A previous therapist pushed me to talk about feelings until I panicked and ended up in the ER; when you asked about my body right away, I got scared this would be the same.",
+                "response": "Thank you for telling me. That history makes my body question much more loaded, and I am sorry I moved there without enough safety. We can agree that you can stop me, and I will ask permission before going into feelings or sensations. What pace would help this feel different from that earlier therapy?"
               },
               "no": {
-                "statement": "Jeg følte meg presset da du spurte om kroppen med en gang.",
-                "response": "Jeg gikk innover for raskt før det var nok trygghet. Det beklager jeg. Vil du heller starte med ord, med rommet, eller med et lite signal fra deg før jeg spør om fornemmelser?"
+                "statement": "En tidligere terapeut presset meg til å snakke om følelser til jeg fikk panikk og endte på legevakten; da du spurte om kroppen med en gang, ble jeg redd for at dette skulle bli likt.",
+                "response": "Takk for at du forteller meg det. Den historien gjør spørsmålet mitt om kroppen mye mer ladet, og jeg beklager at jeg gikk dit før det var nok trygghet. Vi kan avtale at du kan stoppe meg, og at jeg spør om lov før vi går inn i følelser eller fornemmelser. Hvilket tempo ville hjulpet dette å kjennes annerledes enn den tidligere terapien?"
               }
             }
           ]
@@ -2290,12 +2290,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "When I asked if this mattered, your quiet made me worry I was wasting your time.",
-                "response": "Thank you for telling me. My quiet made the work feel uncertain and maybe not worth the time, and I am sorry for leaving you there. What would make the purpose of our work feel clearer today?"
+                "statement": "Sometimes when I talk about chores and the kids, I see you look tired and wonder if even you are sick of this.",
+                "response": "Thank you for naming that. If tiredness showed on my face, I can see how it would confirm the fear that your daily load is too much for people. I am sorry for that impact. I am interested in this. What helps you feel I am still with you in the ordinary details?"
               },
               "no": {
-                "statement": "Da jeg spurte om dette betydde noe, gjorde stillheten din meg redd for at jeg kastet bort tiden din.",
-                "response": "Takk for at du sier det. Stillheten min gjorde arbeidet usikkert og kanskje ikke verdt tiden, og jeg beklager at jeg lot deg bli der. Hva ville gjort formålet med arbeidet tydeligere i dag?"
+                "statement": "Noen ganger når jeg snakker om husarbeid og barna, ser jeg at du virker trøtt, og da lurer jeg på om selv du er lei av dette.",
+                "response": "Takk for at du setter ord på det. Hvis trøtthet syntes i ansiktet mitt, skjønner jeg at det kunne bekrefte frykten for at hverdagsbyrdene dine blir for mye for folk. Jeg beklager den virkningen. Jeg er interessert i dette. Hva hjelper deg å kjenne at jeg fortsatt er med deg i de vanlige detaljene?"
               }
             }
           ]
@@ -2355,12 +2355,12 @@
                 "trauma"
               ],
               "en": {
-                "statement": "When you asked about nightmares before I was ready, I felt pressured.",
-                "response": "I hear that the nightmare question came before you were ready and felt like pressure, and I am sorry. How should I ask permission before trauma topics so they feel optional rather than imposed?"
+                "statement": "When you ask about nightmares, I wonder if you actually know what to do with this or if it is too much for you.",
+                "response": "Thank you for naming that. If I ask into trauma without showing steadiness and consent, I can see why you would doubt whether I can handle it. I am sorry for moving before readiness was clear. I do have training and support for trauma work, and I want to earn trust by going at a pace you can stop. What would show you I am not pushing past my competence or your limits?"
               },
               "no": {
-                "statement": "Da du spurte om marerittene før jeg var klar, følte jeg meg presset.",
-                "response": "Jeg hører at marerittspørsmålet kom før du var klar og føltes som press, og det beklager jeg. Hvordan bør jeg be om lov før traumetemaer, så de kjennes valgfrie heller enn påtvunget?"
+                "statement": "Når du spør om marerittene, lurer jeg på om du faktisk vet hva du skal gjøre med dette, eller om det er for mye for deg.",
+                "response": "Takk for at du sier det. Hvis jeg spør inn i traumer uten å vise stødighet og samtykke, skjønner jeg at du kan tvile på om jeg tåler det. Jeg beklager at jeg gikk videre før beredskapen din var tydelig. Jeg har trening og støtte i traumearbeid, og jeg vil gjøre meg fortjent til tillit ved å gå i et tempo du kan stoppe. Hva ville vist deg at jeg ikke presser forbi min kompetanse eller dine grenser?"
               }
             }
           ]

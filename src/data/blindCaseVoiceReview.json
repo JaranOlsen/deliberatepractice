@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T07:34:28.847Z",
+  "generatedAt": "2026-06-03T11:03:23.661Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -1212,12 +1212,12 @@
           "order": 3,
           "riskFlags": [],
           "en": {
-            "statement": "When I asked if this mattered, your quiet made me worry I was wasting your time.",
-            "response": "Thank you for telling me. My quiet made the work feel uncertain and maybe not worth the time, and I am sorry for leaving you there. What would make the purpose of our work feel clearer today?"
+            "statement": "Sometimes when I talk about chores and the kids, I see you look tired and wonder if even you are sick of this.",
+            "response": "Thank you for naming that. If tiredness showed on my face, I can see how it would confirm the fear that your daily load is too much for people. I am sorry for that impact. I am interested in this. What helps you feel I am still with you in the ordinary details?"
           },
           "no": {
-            "statement": "Da jeg spurte om dette betydde noe, gjorde stillheten din meg redd for at jeg kastet bort tiden din.",
-            "response": "Takk for at du sier det. Stillheten min gjorde arbeidet usikkert og kanskje ikke verdt tiden, og jeg beklager at jeg lot deg bli der. Hva ville gjort formålet med arbeidet tydeligere i dag?"
+            "statement": "Noen ganger når jeg snakker om husarbeid og barna, ser jeg at du virker trøtt, og da lurer jeg på om selv du er lei av dette.",
+            "response": "Takk for at du setter ord på det. Hvis trøtthet syntes i ansiktet mitt, skjønner jeg at det kunne bekrefte frykten for at hverdagsbyrdene dine blir for mye for folk. Jeg beklager den virkningen. Jeg er interessert i dette. Hva hjelper deg å kjenne at jeg fortsatt er med deg i de vanlige detaljene?"
           }
         },
         {
@@ -1261,12 +1261,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "When you called it a burn in my chest, it felt like you were judging my anger.",
-            "response": "I hear that my words felt judging, and I apologize for that. I want to understand your anger without looking down on it. What words would let me track it with more respect?"
+            "statement": "Sometimes it feels like you hear respect as just ego, like you do not get what it meant where I grew up.",
+            "response": "Thank you for saying that. If I made respect sound like ego, I missed something important about your world and I am sorry. I want to understand what respect protected and cost you, not look down on it. What do I need to understand before we keep working with that word?"
           },
           "no": {
-            "statement": "Da du kalte det «brenning i brystet», føltes det som du dømte sinnet mitt.",
-            "response": "Jeg hører at ordene mine føltes dømmende, og det vil jeg beklage. Jeg vil forstå sinnet ditt uten å se ned på det. Hvilke ord ville latt meg følge det med mer respekt?"
+            "statement": "Noen ganger kjennes det som om du hører «respekt» som bare ego, som om du ikke skjønner hva det betydde der jeg vokste opp.",
+            "response": "Takk for at du sier det. Hvis jeg fikk respekt til å høres ut som ego, bommet jeg på noe viktig i din verden, og det beklager jeg. Jeg vil forstå hva respekt beskyttet deg mot og hva det kostet deg, ikke se ned på det. Hva trenger jeg å forstå før vi fortsetter å jobbe med det ordet?"
           }
         }
       ]
@@ -1297,12 +1297,12 @@
           "order": 2,
           "riskFlags": [],
           "en": {
-            "statement": "When the door slammed outside, I went blank and you kept talking.",
-            "response": "I kept talking when the door slam took you away. I apologize for missing that cue. What signal can we set up so I stop with you immediately if something pulls you out of the room?"
+            "statement": "When I told you about my mother at the sink and you smiled for a second, I thought you were laughing at me.",
+            "response": "Thank you for telling me. If my face looked amused in that moment, I can understand why it felt humiliating and unsafe. I am sorry for that impact. I was not laughing at you, and I want to know what would help you feel that I grasp the seriousness of what you told me."
           },
           "no": {
-            "statement": "Da døra smalt ute, ble jeg blank og du fortsatte å snakke.",
-            "response": "Jeg fortsatte å snakke da dørsmellet tok deg bort. Jeg beklager at jeg overså det signalet. Hvilket signal kan vi avtale så jeg stopper sammen med deg med en gang noe trekker deg ut av rommet?"
+            "statement": "Da jeg fortalte om moren min ved oppvaskbenken og du smilte et øyeblikk, trodde jeg at du lo av meg.",
+            "response": "Takk for at du sier det. Hvis ansiktet mitt så moret ut i det øyeblikket, skjønner jeg at det kunne kjennes ydmykende og utrygt. Jeg beklager den virkningen. Jeg lo ikke av deg, og jeg vil vite hva som ville hjulpet deg å kjenne at jeg forstår alvoret i det du fortalte."
           }
         }
       ]

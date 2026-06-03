@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T07:34:28.845Z",
+  "generatedAt": "2026-06-03T11:03:23.659Z",
   "revision": "2026-03-07-v1",
   "caseBibleCount": 9,
   "caseMatrixSummary": {
@@ -16,7 +16,7 @@
       "too_generic",
       "duplicate_pattern"
     ],
-    "generatedAt": "2026-06-03T07:34:28.837Z"
+    "generatedAt": "2026-06-03T11:03:23.646Z"
   },
   "benchmarkSummary": {
     "revision": "2026-03-07-v1",
@@ -24,7 +24,7 @@
     "totalResponses": 175,
     "sourceResponseCount": 160,
     "derivedResponseCount": 15,
-    "generatedAt": "2026-06-03T07:34:28.844Z"
+    "generatedAt": "2026-06-03T11:03:23.657Z"
   },
   "inventory": [
     {
@@ -25681,7 +25681,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "sexual_boundary"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 12,

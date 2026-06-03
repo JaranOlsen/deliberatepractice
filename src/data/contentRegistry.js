@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-06-03T07:34:28.837Z"
+  "generatedAt": "2026-06-03T11:03:23.646Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -27705,7 +27705,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
           "caseId": "case-aisha"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "sexual_boundary"
+        ],
         "criteriaTags": [
           "repair_rupture",
           "own_impact",
