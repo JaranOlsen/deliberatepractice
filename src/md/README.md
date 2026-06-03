@@ -12,6 +12,7 @@ This directory is editorial/reference material, not runtime app data. The app im
 - `instructions/1.md` through `instructions/12.md`: curated instruction notes aligned to Goldman Exercises 1-12.
 - `instructions/13.md`: local note for the experimental `empathic-refocusing` skill. This skill is not in the production benchmark order.
 - `dossiers.md`: case formulation and voice source. Use this when revising `src/data/cases.js`, `src/data/caseBibles.js`, and case-specific statements/translations.
+- `gold-standard-content-comparison.md`: current audit comparing app client-statement markers against the Goldman benchmark by skill and difficulty tier.
 
 ## Secondary References
 
