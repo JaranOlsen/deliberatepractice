@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T12:21:45.565Z",
+  "generatedAt": "2026-06-03T13:19:21.043Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -227,12 +227,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "When someone points out a mistake, I feel humiliated and I snap.",
-                "response": "A correction hits as humiliating, and the anger comes fast."
+                "statement": "I spent the whole morning dealing with problems at work, and I am fed up.",
+                "response": "You are worn out and frustrated after a morning full of problems."
               },
               "no": {
-                "statement": "Når noen påpeker en feil, føler jeg meg ydmyket og smeller.",
-                "response": "En korrigering treffer som ydmykelse, og sinnet kommer fort."
+                "statement": "Jeg brukte hele formiddagen på problemer på jobb, og jeg er lei.",
+                "response": "Du er sliten og frustrert etter en formiddag full av problemer."
               }
             },
             {
@@ -459,12 +459,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "My voice trembles when I introduce myself, and then I feel ashamed that everyone can hear it.",
-                "response": "Understandably, with so much fear of being judged, the trembling shows how exposed that moment feels."
+                "statement": "My hands shake when I introduce myself, and I feel stupid for not controlling it.",
+                "response": "No wonder the shaking leaves you feeling exposed; it is anxiety, not stupidity, and it shows how much that moment matters."
               },
               "no": {
-                "statement": "Stemmen skjelver når jeg presenterer meg, og etterpå skammer jeg meg over at alle kan høre det.",
-                "response": "Forståelig nok viser skjelvingen hvor blottstilt det øyeblikket kjennes, med så mye frykt for å bli dømt."
+                "statement": "Hendene mine skjelver når jeg presenterer meg, og jeg føler meg dum som ikke klarer å kontrollere det.",
+                "response": "Ikke rart skjelvingen gjør at du føler deg blottstilt; det handler om angst, ikke dumhet, og viser hvor mye det øyeblikket betyr."
               }
             }
           ]

@@ -384,12 +384,12 @@ export const STATEMENT_SETS = {
   "empathic-understanding": {
     "case-sara": [
       {
-        "text": "After dinner I look around the apartment and it feels huge, like the quiet has swallowed me.",
-        "suggestion": "After dinner the quiet makes the apartment feel huge, and you feel swallowed by loneliness."
+        "text": "I feel really down today. I keep thinking about the breakup and I miss him.",
+        "suggestion": "You feel down and miss him a lot today."
       },
       {
-        "text": "I tell friends I am fine at brunch, then go home exhausted from performing okay.",
-        "suggestion": "You spend your energy sounding okay for them, and then come home worn out and sad."
+        "text": "I would like to feel better about myself, and I think I am ready to work on that here.",
+        "suggestion": "You want to feel better about yourself, and you feel ready to begin that work."
       },
       {
         "text": "When his name pops up in a shared photo, my stomach drops before I can breathe.",
@@ -426,12 +426,12 @@ export const STATEMENT_SETS = {
     ],
     "case-michael": [
       {
-        "text": "When someone points out a mistake, I feel humiliated and I snap.",
-        "suggestion": "A correction hits as humiliating, and the anger comes fast."
+        "text": "I spent the whole morning dealing with problems at work, and I am fed up.",
+        "suggestion": "You are worn out and frustrated after a morning full of problems."
       },
       {
-        "text": "When she says \"calm down,\" it feels like she is treating me like a problem.",
-        "suggestion": "Those words land as being managed or dismissed, and the anger comes up fast."
+        "text": "My wife says she is tired of my temper, and I feel ashamed hearing that.",
+        "suggestion": "Hearing that your wife is tired of your temper leaves you ashamed."
       },
       {
         "text": "After I yell, I feel sick with shame when I see her face.",
@@ -468,12 +468,12 @@ export const STATEMENT_SETS = {
     ],
     "case-jason": [
       {
-        "text": "When it's my turn, my mind goes blank and my throat tightens.",
-        "suggestion": "Being in the spotlight blanks your mind and tightens your throat."
+        "text": "I am tired of being nervous in meetings, and I want to feel more confident.",
+        "suggestion": "You are tired of the meeting anxiety and want more confidence."
       },
       {
-        "text": "Before I speak, I am already sure people can see how awkward I am.",
-        "suggestion": "You feel judged before you have even had a chance to be known."
+        "text": "I had lunch alone again, and it made me sad.",
+        "suggestion": "Eating lunch alone again left you sad."
       },
       {
         "text": "I want to say yes to plans, then the fear builds and I cancel.",
@@ -792,12 +792,12 @@ export const STATEMENT_SETS = {
         "suggestion": "No wonder you worry about taking room when you have learned to keep pain manageable for others; your sadness belongs here."
       },
       {
-        "text": "I stare at food and feel ashamed that even eating is hard.",
-        "suggestion": "Understandably, appetite can disappear under grief; the shame about it adds another burden you do not deserve."
+        "text": "I feel guilty for being so upset when other people have bigger problems.",
+        "suggestion": "Of course guilt comes up when you compare your pain to everyone else's; the breakup still hurts, and your hurt deserves room too."
       },
       {
-        "text": "Friends invite me out and I make excuses because I don't want to cry in public.",
-        "suggestion": "Understandably, you protect yourself from more hurt even while another part wants connection."
+        "text": "My friends say I should go out, but I am scared I will cry in front of everyone.",
+        "suggestion": "It makes sense that going out feels risky when the sadness is so close to the surface."
       },
       {
         "text": "After this breakup, part of me thinks love must be for other people, not me.",
@@ -826,8 +826,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Of course you track everything when feeling one-down has carried so much threat."
       },
       {
-        "text": "When my kid asks why I'm angry, I feel ashamed and stuck.",
-        "suggestion": "Of course shame hits there; it shows how much you care about being the dad you want to be."
+        "text": "When my kid asks why I am angry, I feel like the worst father.",
+        "suggestion": "Of course that hurts; the shame shows how much you care about not frightening your child."
       },
       {
         "text": "Slamming a door feels awful later, but in the moment it keeps me from feeling small.",
@@ -838,8 +838,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Given how threatening it feels to be one‑down, no wonder digging in can feel like protection."
       },
       {
-        "text": "I hate that I need therapy; it feels like proof I could not handle my own house.",
-        "suggestion": "Given how much strength has meant handling things alone, of course needing help can feel exposed rather than relieving."
+        "text": "I hate that I need help with this; it makes me feel weak.",
+        "suggestion": "Given how much strength has meant handling things alone, it makes sense that needing help feels exposed."
       },
       {
         "text": "After I blow up at home, I lie awake replaying their faces and hating myself.",
@@ -872,16 +872,16 @@ export const STATEMENT_SETS = {
         "suggestion": "No wonder you replay it when belonging feels so fragile; the shame is trying to keep you from being hurt again."
       },
       {
-        "text": "Crowded rooms make my chest tight and I look for the door.",
-        "suggestion": "No wonder crowded rooms send you scanning for exits when attention feels unsafe."
+        "text": "I skipped another team lunch and then felt pathetic for hiding.",
+        "suggestion": "No wonder you feel ashamed afterward; avoiding lunch is trying to protect you from a fear that feels very real."
       },
       {
         "text": "I scan every room for who is doing better than me, then feel defective.",
         "suggestion": "Comparison makes sense as an attempt to locate your place, and it hurts because shame always puts you at the bottom."
       },
       {
-        "text": "My voice trembles when I introduce myself, and then I feel ashamed that everyone can hear it.",
-        "suggestion": "Understandably, with so much fear of being judged, the trembling shows how exposed that moment feels."
+        "text": "My hands shake when I introduce myself, and I feel stupid for not controlling it.",
+        "suggestion": "No wonder the shaking leaves you feeling exposed; it is anxiety, not stupidity, and it shows how much that moment matters."
       },
       {
         "text": "Some nights I lie there certain I will always be alone because I am too awkward to love.",
@@ -1152,12 +1152,12 @@ export const STATEMENT_SETS = {
         "suggestion": "When your throat tightens before the answer is out, what feeling is trying not to be heard?"
       },
       {
-        "text": "Evenings stretch out after dinner, and I clean the same counter so the silence does not catch me.",
-        "suggestion": "When you imagine that quiet after dinner, where does the silence first register inside?"
+        "text": "I was angry he forgot my birthday, and then I felt silly for caring.",
+        "suggestion": "When you call yourself silly for caring, what feeling is underneath that?"
       },
       {
-        "text": "I almost texted him sorry at midnight, even though I still cannot name what I did wrong.",
-        "suggestion": "As that apologizing part reaches for the phone, what is it most afraid would happen if it stayed quiet?"
+        "text": "I want to ask him why he stopped trying, but I keep telling myself it is pointless.",
+        "suggestion": "When you imagine asking him that, what feeling comes up first?"
       },
       {
         "text": "Sometimes I delete old photos and then search for them again before the panic settles.",
@@ -1194,8 +1194,8 @@ export const STATEMENT_SETS = {
         "suggestion": "When that sigh lands as judgment, where do you first feel the bristle inside?"
       },
       {
-        "text": "After I blow up at home, there is a pit in my stomach I pretend not to notice.",
-        "suggestion": "If that pit had a size, shape, or a few words, what would it be like?"
+        "text": "My boss praised the team but not me, and I could not stop thinking about it.",
+        "suggestion": "When you replay not being named, what feeling keeps coming back?"
       },
       {
         "text": "I scan meeting rooms for disrespect before I even know who has walked in.",
@@ -1210,8 +1210,8 @@ export const STATEMENT_SETS = {
         "suggestion": "If that chest tightness could speak, what would it say it is protecting you from?"
       },
       {
-        "text": "I double-check every email so no one can catch a mistake and make me look stupid.",
-        "suggestion": "As you picture checking it again, what feeling is under the fear of looking stupid?"
+        "text": "I told my wife I was fine, but I was still angry hours later.",
+        "suggestion": "When the anger stays for hours, where do you notice it most?"
       },
       {
         "text": "I slam doors at home so no one hears me say I was hurt.",
@@ -1236,8 +1236,8 @@ export const STATEMENT_SETS = {
         "suggestion": "When you hear the shake in your voice, what feeling comes toward you first?"
       },
       {
-        "text": "I write a normal text, read it ten times, and delete it before I can look needy.",
-        "suggestion": "In the moment before you delete it, what are you afraid the text would reveal about you?"
+        "text": "A friend did not reply, and I kept wondering what I did wrong.",
+        "suggestion": "When you wonder what you did wrong, what feeling comes with that question?"
       },
       {
         "text": "If someone laughs across the room, I feel pinned like the joke has found me.",
@@ -1256,8 +1256,8 @@ export const STATEMENT_SETS = {
         "suggestion": "When your attention goes to the exit, what are you sensing might happen to you?"
       },
       {
-        "text": "When someone compliments me, I laugh it off before it can touch anything.",
-        "suggestion": "As the compliment starts to reach you, what blocks it from landing inside?"
+        "text": "Someone smiled at me in the hallway, and I could not tell if it was friendly or awkward.",
+        "suggestion": "When you cannot tell what the smile means, what do you notice inside?"
       },
       {
         "text": "I say I am busy before small talk can show how awkward I am.",
@@ -1912,8 +1912,8 @@ export const STATEMENT_SETS = {
         "suggestion": "The tightness carries the words you keep from them, maybe the grief that cannot safely come out as 'not fine.'"
       },
       {
-        "text": "Evenings stretch out after dinner, and I start cleaning things that are already clean.",
-        "suggestion": "The cleaning gives your hands something to do while the empty hours open, maybe keeping the loneliness from settling in too close."
+        "text": "I feel lost after the breakup, like I do not know what to do with the evenings.",
+        "suggestion": "You feel lost in the evenings now. Let's slow down around the empty time and notice what feels hardest there."
       },
       {
         "text": "I wrote 'sorry' to him three times, then realized I don't even know what I was apologizing for.",
@@ -1932,8 +1932,8 @@ export const STATEMENT_SETS = {
         "suggestion": "That drop carries the moment the loss returns, as if you have to learn the ending again each morning."
       },
       {
-        "text": "I feel embarrassed that I still tear up when everyone else thinks I should be moving on.",
-        "suggestion": "The embarrassment sits over a grief that has not caught up with everyone else's timetable."
+        "text": "I am sad, and then I get embarrassed that I am still talking about it.",
+        "suggestion": "Sadness is here, and embarrassment comes right on top. We can give both a little room and see which one is closer."
       },
       {
         "text": "When I see couples holding hands, my chest aches and I suddenly feel childish for wanting that.",
@@ -1958,8 +1958,8 @@ export const STATEMENT_SETS = {
         "suggestion": "That pit in your stomach seems to hold something hard to face after the anger passes."
       },
       {
-        "text": "When I think about apologizing, I feel myself shrinking before I have even said the words.",
-        "suggestion": "The apology does not just mean repair; it seems to tangle repair with being made small."
+        "text": "Sometimes I want to throw my phone after a work message, and then I feel ridiculous.",
+        "suggestion": "The message brings a fast urge to throw something, and then shame follows. Let's slow the first hit down and notice what it felt like."
       },
       {
         "text": "A small sigh from my wife hits like she already has the verdict, and I flare before I know why.",
@@ -1982,8 +1982,8 @@ export const STATEMENT_SETS = {
         "suggestion": "The replay seems to search for the moment you could have stopped it, with shame still awake beside you."
       },
       {
-        "text": "When I hear my own voice get sharp, I panic that I am turning into my dad.",
-        "suggestion": "Hearing that sharpness seems to bring fear and grief right into the anger."
+        "text": "I want my son to feel safe around me, and saying that makes my throat tight.",
+        "suggestion": "Wanting your son to feel safe really matters, and your throat tightens as you say it. Let that tightness have a little space and see what it is holding."
       }
     ],
     "case-jason": [
@@ -1996,8 +1996,8 @@ export const STATEMENT_SETS = {
         "suggestion": "The wish to reach out is there, and then humiliation seems to rush in and erase it."
       },
       {
-        "text": "When someone compliments me, I shrug like it is nothing, but I think about it for hours.",
-        "suggestion": "The shrug protects you from letting it matter, while another part keeps circling the possibility that it might."
+        "text": "I got invited to a birthday party, and I felt both excited and scared.",
+        "suggestion": "There is excitement and fear together. We can hold both for a moment and notice which one is easier to allow."
       },
       {
         "text": "If I meet someone's eyes too long, I feel them spotting everything awkward in me.",
@@ -2024,8 +2024,8 @@ export const STATEMENT_SETS = {
         "suggestion": "The phone gives you cover, while the blankness underneath seems to carry the fear of being seen."
       },
       {
-        "text": "On Sunday nights I delay replying to friends until it feels too late to matter.",
-        "suggestion": "The delay seems to hold both wanting contact and expecting it to slip away before you can reach for it."
+        "text": "I felt lonely on Sunday, but I also ignored two messages.",
+        "suggestion": "The loneliness is there, and so is pulling away from the messages. Let's stay near that tension and notice what each side is trying to do."
       }
     ],
     "case-laura": [

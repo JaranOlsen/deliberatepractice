@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T12:21:45.565Z",
+  "generatedAt": "2026-06-03T13:19:21.044Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -240,12 +240,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "Friends invite me out and I make excuses because I don't want to cry in public.",
-            "response": "Understandably, you protect yourself from more hurt even while another part wants connection."
+            "statement": "My friends say I should go out, but I am scared I will cry in front of everyone.",
+            "response": "It makes sense that going out feels risky when the sadness is so close to the surface."
           },
           "no": {
-            "statement": "Venner inviterer meg ut, og jeg finner unnskyldninger fordi jeg ikke vil gråte offentlig.",
-            "response": "Det er forståelig at du beskytter deg mot mer smerte, samtidig som en annen del lengter etter kontakt."
+            "statement": "Vennene mine sier at jeg burde bli med ut, men jeg er redd jeg kommer til å gråte foran alle.",
+            "response": "Det gir mening at det kjennes risikabelt å gå ut når tristheten ligger så nær overflaten."
           }
         },
         {

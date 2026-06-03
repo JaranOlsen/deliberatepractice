@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T12:21:45.565Z",
+  "generatedAt": "2026-06-03T13:19:21.044Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -125,12 +125,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "My voice trembles when I introduce myself, and then I feel ashamed that everyone can hear it.",
-            "response": "Understandably, with so much fear of being judged, the trembling shows how exposed that moment feels."
+            "statement": "My hands shake when I introduce myself, and I feel stupid for not controlling it.",
+            "response": "No wonder the shaking leaves you feeling exposed; it is anxiety, not stupidity, and it shows how much that moment matters."
           },
           "no": {
-            "statement": "Stemmen skjelver når jeg presenterer meg, og etterpå skammer jeg meg over at alle kan høre det.",
-            "response": "Forståelig nok viser skjelvingen hvor blottstilt det øyeblikket kjennes, med så mye frykt for å bli dømt."
+            "statement": "Hendene mine skjelver når jeg presenterer meg, og jeg føler meg dum som ikke klarer å kontrollere det.",
+            "response": "Ikke rart skjelvingen gjør at du føler deg blottstilt; det handler om angst, ikke dumhet, og viser hvor mye det øyeblikket betyr."
           }
         },
         {
