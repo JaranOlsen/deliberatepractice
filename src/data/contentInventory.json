@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T13:40:28.637Z",
+  "generatedAt": "2026-06-04T06:57:21.165Z",
   "revision": "2026-03-07-v1",
   "caseBibleCount": 9,
   "caseMatrixSummary": {
@@ -16,7 +16,7 @@
       "too_generic",
       "duplicate_pattern"
     ],
-    "generatedAt": "2026-06-03T13:40:28.625Z"
+    "generatedAt": "2026-06-04T06:57:21.156Z"
   },
   "benchmarkSummary": {
     "revision": "2026-03-07-v1",
@@ -24,7 +24,7 @@
     "totalResponses": 175,
     "sourceResponseCount": 160,
     "derivedResponseCount": 15,
-    "generatedAt": "2026-06-03T13:40:28.636Z"
+    "generatedAt": "2026-06-04T06:57:21.164Z"
   },
   "inventory": [
     {
@@ -12017,7 +12017,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "substance_use"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 5,
@@ -17512,7 +17514,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "substance_use"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 8,
@@ -18810,7 +18814,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "suicide"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 8,
@@ -24073,7 +24079,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "sexual_boundary"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 10,

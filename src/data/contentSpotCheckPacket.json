@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T13:40:28.639Z",
+  "generatedAt": "2026-06-04T06:57:21.166Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -901,12 +901,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "What if I blow up anyway after we talk about all this?",
-                "response": "Then we learn from the exact moment it happened. Each blowup refines the map so you catch it sooner and repair faster next time."
+                "statement": "If anger is what protects me, why would I spend therapy trying to feel what is underneath it?",
+                "response": "Anger has protected you, and it has also scared the people you love. We look underneath because that helps you keep the protective clarity without the explosion deciding for you."
               },
               "no": {
-                "statement": "Hva om jeg eksploderer uansett etter at vi har snakket om alt dette?",
-                "response": "Da lærer vi av akkurat øyeblikket der det skjedde. Hvert utbrudd finjusterer kartet, så du fanger det tidligere og reparerer raskere neste gang."
+                "statement": "Hvis sinne er det som beskytter meg, hvorfor skal jeg bruke terapi på å kjenne det som ligger under?",
+                "response": "Sinne har beskyttet deg, og det har også skremt folk du er glad i. Vi ser under sinnet fordi det hjelper deg å beholde den beskyttende klarheten uten at eksplosjonen bestemmer for deg."
               }
             },
             {
@@ -964,12 +964,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "I hate feeling small when I am wrong; how does sitting with that help?",
-                "response": "If you can tolerate that burn for a few seconds, it lets you own the mistake before defensiveness takes over. That is what makes repair faster and leadership steadier."
+                "statement": "My emotions are the problem. Why would we focus on the thing that keeps messing everything up?",
+                "response": "The reactions are causing damage, and that is exactly why we slow them down. Catching shame or threat before it drives your tone helps emotion become information you can use instead of a force running the room."
               },
               "no": {
-                "statement": "Jeg hater å føle meg liten når jeg tar feil; hvordan hjelper det å sitte med det?",
-                "response": "Hvis du kan tåle den brenningen i noen sekunder, hjelper det deg å eie feilen før forsvaret tar over. Det er det som gjør reparasjon raskere og lederskapet stødigere."
+                "statement": "Følelsene mine er problemet. Hvorfor skal vi fokusere på det som ødelegger alt?",
+                "response": "Reaksjonene gjør skade, og nettopp derfor senker vi tempoet. Å fange skam eller trussel før det styrer tonen din hjelper følelser å bli informasjon du kan bruke, ikke en kraft som tar over rommet."
               }
             },
             {
@@ -1961,12 +1961,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "Can you promise you will not give up on me when I get intense?",
-                "response": "I cannot promise away every hard moment, and I do feel committed to this work with you. If fear shows up between us, I want to speak directly rather than disappear."
+                "statement": "You were two minutes late again. Do you even notice what that does to me, or is it just nothing to you?",
+                "response": "I did notice I was late, and I am sorry. I can imagine it landed as not mattering, and I want us to look at what happened in you when I was not here on time."
               },
               "no": {
-                "statement": "Kan du love at du ikke gir meg opp når jeg blir intens?",
-                "response": "Jeg kan ikke love bort hvert vanskelig øyeblikk, og jeg kjenner meg forpliktet til dette arbeidet med deg. Hvis frykt viser seg mellom oss, vil jeg snakke direkte heller enn å forsvinne."
+                "statement": "Du var to minutter forsinket igjen. Merker du i det hele tatt hva det gjør med meg, eller betyr det bare ingenting for deg?",
+                "response": "Jeg la merke til at jeg var forsinket, og jeg er lei for det. Jeg kan se for meg at det traff som om du ikke betydde noe, og jeg vil at vi ser på hva som skjedde i deg da jeg ikke var her presis."
               }
             }
           ]

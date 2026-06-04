@@ -1524,16 +1524,16 @@ export const STATEMENT_SETS = {
   "providing-treatment-rationale": {
     "case-sara": [
       {
-        "text": "I am worried that talking about feelings will make me spiral. Shouldn't we just keep it positive?",
-        "suggestion": "It makes sense to worry about that. In this exploration we go slowly and safely; naming a little of the feeling helps it settle so nights feel less overwhelming."
+        "text": "Shouldn't I just focus on positive thoughts instead of digging into how sad I am?",
+        "suggestion": "Positive thoughts can help for a moment, and sadness still needs somewhere to go. If we listen to it in small, steady doses, it can show what needs comfort or connection instead of returning at night with more force."
       },
       {
         "text": "Why keep asking what I feel when I just need a plan for getting through the week?",
         "suggestion": "A plan will work better when it fits the feeling that derails the week. We listen to the grief first because it tells us whether you need comfort, contact, rest, or a boundary before we choose steps."
       },
       {
-        "text": "If I start crying about him here, won't I just get stuck in it all week?",
-        "suggestion": "Not all at once. We touch a small amount and come back so sadness stays within reach. The tears show what needs comfort, which lets grief move instead of swallowing the week."
+        "text": "I feel embarrassed crying about this again. How does making room for tears help me move on?",
+        "suggestion": "The embarrassment makes sense. We are not trying to keep you crying; we use the tears as a signal of what still needs care because that helps grief move through instead of staying hidden and pulling you back."
       },
       {
         "text": "If distraction gets me through the quiet hours, why would we mess with that?",
@@ -1708,8 +1708,8 @@ export const STATEMENT_SETS = {
         "suggestion": "We are not taking away your edge. Separating protection from explosion matters because people can know your line while your son gets steadiness instead of fear."
       },
       {
-        "text": "What if I blow up anyway after we talk about all this?",
-        "suggestion": "Then we learn from the exact moment it happened. Each blowup refines the map so you catch it sooner and repair faster next time."
+        "text": "If anger is what protects me, why would I spend therapy trying to feel what is underneath it?",
+        "suggestion": "Anger has protected you, and it has also scared the people you love. We look underneath because that helps you keep the protective clarity without the explosion deciding for you."
       },
       {
         "text": "How is breathing supposed to matter when I'm already two seconds from snapping?",
@@ -1834,12 +1834,12 @@ export const STATEMENT_SETS = {
         "suggestion": "Theory helps only if it reaches the moment behavior changes. We focus on feelings because shame and threat are where your options narrow; catching them gives you more room to act differently."
       },
       {
-        "text": "I hate feeling small when I am wrong; how does sitting with that help?",
-        "suggestion": "If you can tolerate that burn for a few seconds, it lets you own the mistake before defensiveness takes over. That is what makes repair faster and leadership steadier."
+        "text": "My emotions are the problem. Why would we focus on the thing that keeps messing everything up?",
+        "suggestion": "The reactions are causing damage, and that is exactly why we slow them down. Catching shame or threat before it drives your tone helps emotion become information you can use instead of a force running the room."
       },
       {
-        "text": "How does talking about shame make me a better leader when people need decisions?",
-        "suggestion": "Shame work is practical because shame often turns feedback into threat. Catching that burn earlier helps you hear, decide, and repair from steadiness instead of defensiveness."
+        "text": "I need anger control, not a deep dive into what I feel under it.",
+        "suggestion": "Anger control works best when it starts before the explosion. Looking underneath helps you catch the first hit of shame, threat, or fear, so control begins earlier than forcing yourself to calm down after the damage is done."
       },
       {
         "text": "Can we skip childhood stuff and stay with what is happening now?",
@@ -1868,8 +1868,8 @@ export const STATEMENT_SETS = {
         "suggestion": "That is exactly why we work in small sips: ground first, touch one edge, come back. The pace helps protect control while the memories become less alone and less explosive."
       },
       {
-        "text": "I feel nothing most days, so I do not see what there is to work with.",
-        "suggestion": "Numbness is not a dead end; it is protection. We look for tiny signals around the edges because that lets feeling return in amounts you can tolerate."
+        "text": "Feelings are the problem. When I feel them, I drink, shut down, or lose days.",
+        "suggestion": "That history is exactly why we go slowly. We are not trying to open everything; we build enough safety that feelings can become signals you can survive, not emergencies you have to numb or escape."
       },
       {
         "text": "Why notice the guard signals when I am on alert all the time?",
@@ -2692,8 +2692,8 @@ export const STATEMENT_SETS = {
         "suggestion": "You minimize your pain; I guess there's a scared part that fears being dismissed if you let it show."
       },
       {
-        "text": "I almost texted him 'I'm sorry' even though I didn't do anything wrong.",
-        "suggestion": "You reach to repair; could it be you're trying to soothe a shame that says it must be your fault."
+        "text": "I keep thinking I should send him an apology, like making amends would prove I am not the kind of person people leave.",
+        "suggestion": "The apology feels like repair, and I wonder if making amends could also quiet the shame of being left."
       },
       {
         "text": "Nights are the worst; I replay what I did wrong until blame feels safer than missing him.",
@@ -2726,8 +2726,8 @@ export const STATEMENT_SETS = {
         "suggestion": "It feels risky; I wonder if apologizing touches a small, ashamed place that cannot bear being seen as defeated."
       },
       {
-        "text": "I hate feeling out of control; it makes me think I've failed.",
-        "suggestion": "Control matters; maybe underneath is a fear that losing control proves something bad about you."
+        "text": "I only pour a drink after work because my wife keeps pushing; if she would stop nagging, I would not need it.",
+        "suggestion": "You put the drinking on her pushing, and I wonder if the drink also protects you from feeling blamed, cornered, or not good enough after the day."
       },
       {
         "text": "I reread everyone's work before a presentation because one mistake would come back on me.",
@@ -2810,8 +2810,8 @@ export const STATEMENT_SETS = {
         "suggestion": "The flatness seems protective; I wonder if it keeps you away from the ache that would come if the room felt real."
       },
       {
-        "text": "I tell myself 'don't need anyone' before I can feel the ache.",
-        "suggestion": "You push needs away quickly; maybe there is a part that longs to be held and fears that ache."
+        "text": "A kind man asked me out, and I immediately listed every reason he would probably hurt me.",
+        "suggestion": "The list protects you fast; I wonder if wanting closeness and expecting betrayal arrive almost together."
       },
       {
         "text": "When someone touches my shoulder, I flinch before I know them, then feel ashamed.",
@@ -2860,8 +2860,8 @@ export const STATEMENT_SETS = {
         "suggestion": "You are trying to protect them; I guess the breaking blocks hurt for a moment, then leaves shame when you see the fear."
       },
       {
-        "text": "Calm guys seem like pushovers to me, like they are asking to get stepped on.",
-        "suggestion": "You equate calm with being unprotected; could it be calm feels dangerous because it once meant getting stepped on."
+        "text": "Feelings make men weak. I learned that early, and I do not see why I should unlearn it now.",
+        "suggestion": "That rule sounds protective; I wonder if it keeps you away from an old fear that feeling anything tender would leave you exposed or powerless."
       },
       {
         "text": "I replay disrespect for days, planning how I should have won it in the moment.",
@@ -2928,8 +2928,8 @@ export const STATEMENT_SETS = {
         "suggestion": "You want a way through the numbness; I guess there is unbearable emptiness underneath."
       },
       {
-        "text": "I beg people not to leave me, and then I explode when I hear any distance in their voice.",
-        "suggestion": "You plead and then push hard; could it be both the longing and the fear become huge when distance appears."
+        "text": "I scared everyone last week saying I might kill myself, but he texted today, so it is fine and maybe I do not need to talk about it.",
+        "suggestion": "Part of you wants to close it quickly now that contact came back; I wonder if talking about how close the edge got feels too frightening or shameful."
       },
       {
         "text": "If you cancel, a part of me wants to never come back before you can drop me again.",
@@ -2994,8 +2994,8 @@ export const STATEMENT_SETS = {
         "suggestion": "You hate that invisibility; I wonder if there is grief about not being known beneath the anger."
       },
       {
-        "text": "I avoid therapy homework and call it pointless, though part of me knows it feels exposing.",
-        "suggestion": "You dismiss it and still know it exposes something; maybe another part is afraid of what you might find if you slow down."
+        "text": "If my wife stays, I feel trapped and criticized; if she leaves, I feel humiliated. There is no winning.",
+        "suggestion": "Both options threaten you in different ways; I wonder if trapped and humiliated are circling the same fear of being seen as not enough."
       }
     ],
     "case-marcus": [
@@ -3436,8 +3436,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Your tears do not make me pull away. I feel close and careful when they come, and I want you to notice what it is like to hear that from me."
       },
       {
-        "text": "When I ask if you have felt loneliness, I am checking whether you can bear mine.",
-        "suggestion": "I have known loneliness, and I can stay with yours here. I am not pushed away by the size of it; I want us to notice what it is like to hear that from me."
+        "text": "This is my first time in therapy. Do you expect me to know where to start?",
+        "suggestion": "No. I do not expect you to know where to start. I can help us find a beginning, and I want to notice what it is like for you to not have to perform this correctly."
       },
       {
         "text": "I am embarrassed that you see me this messy and needy.",
@@ -3708,8 +3708,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Disappointment is not what I am holding. I feel grateful you are letting me see what is happening, and I want us to notice how quickly you expected disappointment from me."
       },
       {
-        "text": "Can you promise you will not give up on me when I get intense?",
-        "suggestion": "I cannot promise away every hard moment, and I do feel committed to this work with you. If fear shows up between us, I want to speak directly rather than disappear."
+        "text": "You were two minutes late again. Do you even notice what that does to me, or is it just nothing to you?",
+        "suggestion": "I did notice I was late, and I am sorry. I can imagine it landed as not mattering, and I want us to look at what happened in you when I was not here on time."
       },
       {
         "text": "Do you think I will ever feel okay, or am I too intense for that?",
@@ -3734,8 +3734,8 @@ export const STATEMENT_SETS = {
         "suggestion": "I do not hold you as the problem. I feel how quickly shame and defense come online for you, and I want us to notice that loop without making you into the problem."
       },
       {
-        "text": "Are you bored, or just waiting for me to admit I am the problem?",
-        "suggestion": "I am not bored. I feel how costly these patterns are and how much you hate feeling ordinary in them. I want to understand the shame under that question with you."
+        "text": "When you look at me like that, I wonder if you pity me. Do you?",
+        "suggestion": "I do not pity you. I do feel concern and respect for how hard it is to let these parts be seen, and I want to understand what pity would mean about you if it were there."
       },
       {
         "text": "Will you tell me if I mess up, or just sit there analyzing me?",
@@ -3746,8 +3746,8 @@ export const STATEMENT_SETS = {
         "suggestion": "I do know shame about being wrong in my own life, and that helps me respect how hot it is for you, not dismiss it as weakness. I am not above you in that struggle."
       },
       {
-        "text": "When my wife calls me cold, do you see that in me too?",
-        "suggestion": "I do not experience you as cold here. I feel how guarded you get when it hurts, and I want to respect the protection while we understand it."
+        "text": "This is awkward, but are you attracted to me, or am I just another difficult client to you?",
+        "suggestion": "I am not going to answer in a romantic or sexual way. I do experience you as a person I want to understand, and I am interested in what it is like to ask me that here."
       },
       {
         "text": "Are you married, and would that make you judge my affair?",
@@ -3792,8 +3792,8 @@ export const STATEMENT_SETS = {
         "suggestion": "I feel sorrow and care when I hear trauma stories, and I work hard to stay grounded with them. I am steady enough to hear yours at the pace you choose."
       },
       {
-        "text": "Do you know what to do with veterans who do not talk much?",
-        "suggestion": "I have worked with people who had very few words after trauma, and I am comfortable going slowly. I also feel respect for your service without needing you to perform a story for me."
+        "text": "Have you actually worked with someone like me, or are you learning on me?",
+        "suggestion": "I have worked with trauma and with people who use few words to stay safe, and I will tell you if I think we need more support. I also want to hear what it is like to wonder if I am learning on you."
       },
       {
         "text": "Are you okay with silence, or does it make you want to fill it?",

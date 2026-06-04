@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T13:40:28.639Z",
+  "generatedAt": "2026-06-04T06:57:21.167Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -1070,12 +1070,12 @@
             "trauma"
           ],
           "en": {
-            "statement": "Do you know what to do with veterans who do not talk much?",
-            "response": "I have worked with people who had very few words after trauma, and I am comfortable going slowly. I also feel respect for your service without needing you to perform a story for me."
+            "statement": "Have you actually worked with someone like me, or are you learning on me?",
+            "response": "I have worked with trauma and with people who use few words to stay safe, and I will tell you if I think we need more support. I also want to hear what it is like to wonder if I am learning on you."
           },
           "no": {
-            "statement": "Vet du hva du skal gjøre med veteraner som ikke snakker så mye?",
-            "response": "Jeg har arbeidet med mennesker som hadde svært få ord etter traumer, og jeg er komfortabel med å gå sakte. Jeg kjenner også respekt for tjenesten din uten å trenge at du fremfører en historie for meg."
+            "statement": "Har du faktisk jobbet med noen som meg, eller øver du deg på meg?",
+            "response": "Jeg har jobbet med traumer og med mennesker som bruker få ord for å holde seg trygge, og jeg vil si fra hvis jeg mener at vi trenger mer støtte. Jeg vil også høre hvordan det er å lure på om jeg øver meg på deg."
           }
         },
         {

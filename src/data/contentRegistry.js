@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-06-03T13:40:28.625Z"
+  "generatedAt": "2026-06-04T06:57:21.156Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -12805,7 +12805,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Providing Treatment Rationale for Emotion-Focused Therapy",
           "caseId": "case-marcus"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "substance_use"
+        ],
         "criteriaTags": [
           "offer_rationale",
           "normalize_experiential_work",
@@ -18752,7 +18754,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Conjectures",
           "caseId": "case-michael"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "substance_use"
+        ],
         "criteriaTags": [
           "tentative_guess",
           "name_underlying_feeling",
@@ -20156,7 +20160,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Conjectures",
           "caseId": "case-aisha"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "suicide"
+        ],
         "criteriaTags": [
           "tentative_guess",
           "name_underlying_feeling",
@@ -25939,7 +25945,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Self-Disclosure",
           "caseId": "case-david"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "sexual_boundary"
+        ],
         "criteriaTags": [
           "judicious_transparency",
           "return_to_client",

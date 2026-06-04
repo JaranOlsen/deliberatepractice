@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T13:40:28.640Z",
+  "generatedAt": "2026-06-04T06:57:21.167Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -206,12 +206,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "I hate feeling small when I am wrong; how does sitting with that help?",
-            "response": "If you can tolerate that burn for a few seconds, it lets you own the mistake before defensiveness takes over. That is what makes repair faster and leadership steadier."
+            "statement": "My emotions are the problem. Why would we focus on the thing that keeps messing everything up?",
+            "response": "The reactions are causing damage, and that is exactly why we slow them down. Catching shame or threat before it drives your tone helps emotion become information you can use instead of a force running the room."
           },
           "no": {
-            "statement": "Jeg hater å føle meg liten når jeg tar feil; hvordan hjelper det å sitte med det?",
-            "response": "Hvis du kan tåle den brenningen i noen sekunder, hjelper det deg å eie feilen før forsvaret tar over. Det er det som gjør reparasjon raskere og lederskapet stødigere."
+            "statement": "Følelsene mine er problemet. Hvorfor skal vi fokusere på det som ødelegger alt?",
+            "response": "Reaksjonene gjør skade, og nettopp derfor senker vi tempoet. Å fange skam eller trussel før det styrer tonen din hjelper følelser å bli informasjon du kan bruke, ikke en kraft som tar over rommet."
           }
         },
         {
@@ -232,12 +232,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "What if I blow up anyway after we talk about all this?",
-            "response": "Then we learn from the exact moment it happened. Each blowup refines the map so you catch it sooner and repair faster next time."
+            "statement": "If anger is what protects me, why would I spend therapy trying to feel what is underneath it?",
+            "response": "Anger has protected you, and it has also scared the people you love. We look underneath because that helps you keep the protective clarity without the explosion deciding for you."
           },
           "no": {
-            "statement": "Hva om jeg eksploderer uansett etter at vi har snakket om alt dette?",
-            "response": "Da lærer vi av akkurat øyeblikket der det skjedde. Hvert utbrudd finjusterer kartet, så du fanger det tidligere og reparerer raskere neste gang."
+            "statement": "Hvis sinne er det som beskytter meg, hvorfor skal jeg bruke terapi på å kjenne det som ligger under?",
+            "response": "Sinne har beskyttet deg, og det har også skremt folk du er glad i. Vi ser under sinnet fordi det hjelper deg å beholde den beskyttende klarheten uten at eksplosjonen bestemmer for deg."
           }
         }
       ]
