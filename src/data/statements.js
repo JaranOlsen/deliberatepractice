@@ -3738,16 +3738,16 @@ export const STATEMENT_SETS = {
         "suggestion": "I do not pity you. I do feel concern and respect for how hard it is to let these parts be seen, and I want to understand what pity would mean about you if it were there."
       },
       {
-        "text": "Will you tell me if I mess up, or just sit there analyzing me?",
-        "suggestion": "I would try to be direct and respectful if I thought you missed something. I feel invested in helping you see more choice, not in quietly analyzing you."
+        "text": "I know I am late again. Work got away from me. Anyway, where should we start?",
+        "suggestion": "I want to be direct: when you come late repeatedly and move past it quickly, I feel the work between us getting pushed aside, and I also feel a little dismissed. I want us to look at what happens for you before sessions."
       },
       {
         "text": "Do you ever feel ashamed of being wrong, or is that weakness just mine?",
         "suggestion": "I do know shame about being wrong in my own life, and that helps me respect how hot it is for you, not dismiss it as weakness. I am not above you in that struggle."
       },
       {
-        "text": "This is awkward, but are you attracted to me, or am I just another difficult client to you?",
-        "suggestion": "I am not going to answer in a romantic or sexual way. I do experience you as a person I want to understand, and I am interested in what it is like to ask me that here."
+        "text": "This is awkward, but do you find me attractive, or do you just see another difficult client?",
+        "suggestion": "I will answer carefully: I can see you as an attractive person, and I am not relating to you romantically or sexually. I also do not see you as just a difficult client; I want to notice what happens for you as I answer."
       },
       {
         "text": "Are you married, and would that make you judge my affair?",
@@ -3793,7 +3793,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "Have you actually worked with someone like me, or are you learning on me?",
-        "suggestion": "I have worked with trauma and with people who use few words to stay safe, and I will tell you if I think we need more support. I also want to hear what it is like to wonder if I am learning on you."
+        "suggestion": "I have worked with trauma and with people who use few words to stay safe. I will tell you if I think we need more support or a different resource, and I want to hear what it is like to wonder if I am learning on you."
       },
       {
         "text": "Are you okay with silence, or does it make you want to fill it?",

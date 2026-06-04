@@ -4955,16 +4955,16 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Jeg synes ikke synd på deg. Jeg kjenner bekymring og respekt for hvor vanskelig det er å la disse sidene bli sett, og jeg vil forstå hva medlidenhet ville betydd om deg hvis den var der."
     },
     "dp_self-disclosure_case-david_06": {
-      "text": "Sier du fra hvis jeg driter meg ut, eller sitter du bare og analyserer meg?",
-      "suggestion": "Jeg ville prøvd å være direkte og respektfull hvis jeg tenkte at du overså noe. Jeg kjenner meg investert i å hjelpe deg til mer valg, ikke i å analysere deg i stillhet."
+      "text": "Jeg vet at jeg er forsinket igjen. Jobben tok overhånd. Uansett, hvor skal vi begynne?",
+      "suggestion": "Jeg vil være direkte: når du kommer for sent gjentatte ganger og går raskt videre fra det, kjenner jeg at arbeidet mellom oss blir skjøvet til side, og jeg kjenner meg også litt avfeid. Jeg vil at vi ser på hva som skjer for deg før timene."
     },
     "dp_self-disclosure_case-david_07": {
       "text": "Skammer du deg noen gang over å ta feil, eller er den svakheten bare min?",
       "suggestion": "Jeg kjenner også skam rundt å ta feil i mitt eget liv, og det hjelper meg å respektere hvor hett det er for deg, ikke avfeie det som svakhet. Jeg står ikke over deg i den kampen."
     },
     "dp_self-disclosure_case-david_08": {
-      "text": "Dette er kleint, men er du tiltrukket av meg, eller er jeg bare enda en vanskelig klient for deg?",
-      "suggestion": "Jeg kommer ikke til å svare romantisk eller seksuelt på det. Jeg opplever deg som et menneske jeg ønsker å forstå, og jeg er interessert i hvordan det er for deg å spørre meg om dette her."
+      "text": "Dette er kleint, men synes du jeg er attraktiv, eller ser du bare enda en vanskelig klient?",
+      "suggestion": "Jeg vil svare varsomt: Jeg kan se deg som en attraktiv person, og jeg forholder meg ikke til deg romantisk eller seksuelt. Jeg ser deg heller ikke bare som en vanskelig klient; jeg vil legge merke til hva som skjer for deg når jeg svarer."
     },
     "dp_self-disclosure_case-david_09": {
       "text": "Er du gift, og ville det få deg til å dømme affæren min?",
@@ -5008,7 +5008,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-marcus_09": {
       "text": "Har du faktisk jobbet med noen som meg, eller øver du deg på meg?",
-      "suggestion": "Jeg har jobbet med traumer og med mennesker som bruker få ord for å holde seg trygge, og jeg vil si fra hvis jeg mener at vi trenger mer støtte. Jeg vil også høre hvordan det er å lure på om jeg øver meg på deg."
+      "suggestion": "Jeg har jobbet med traumer og med mennesker som bruker få ord for å holde seg trygge. Jeg vil si fra hvis jeg mener at vi trenger mer støtte eller en annen ressurs, og jeg vil også høre hvordan det er å lure på om jeg øver meg på deg."
     },
     "dp_self-disclosure_case-marcus_10": {
       "text": "Er du komfortabel med stillhet, eller får den deg til å ville fylle den?",
