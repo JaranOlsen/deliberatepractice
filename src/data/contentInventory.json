@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T06:57:21.165Z",
+  "generatedAt": "2026-06-04T10:14:45.152Z",
   "revision": "2026-03-07-v1",
   "caseBibleCount": 9,
   "caseMatrixSummary": {
@@ -16,7 +16,7 @@
       "too_generic",
       "duplicate_pattern"
     ],
-    "generatedAt": "2026-06-04T06:57:21.156Z"
+    "generatedAt": "2026-06-04T10:14:45.144Z"
   },
   "benchmarkSummary": {
     "revision": "2026-03-07-v1",
@@ -24,7 +24,7 @@
     "totalResponses": 175,
     "sourceResponseCount": 160,
     "derivedResponseCount": 15,
-    "generatedAt": "2026-06-04T06:57:21.164Z"
+    "generatedAt": "2026-06-04T10:14:45.151Z"
   },
   "inventory": [
     {
@@ -19845,9 +19845,7 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [
-        "violence"
-      ],
+      "riskFlags": [],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 9,
@@ -21201,7 +21199,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "self_harm"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 9,
@@ -21365,7 +21365,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "self_harm"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 9,

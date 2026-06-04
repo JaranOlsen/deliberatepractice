@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-06-04T06:57:21.156Z"
+  "generatedAt": "2026-06-04T10:14:45.144Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -21288,9 +21288,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-michael"
         },
-        "riskFlags": [
-          "violence"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
@@ -22804,7 +22802,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-aisha"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "self_harm"
+        ],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
@@ -22986,7 +22986,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-aisha"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "self_harm"
+        ],
         "criteriaTags": [
           "titrate_affect",
           "grounding",

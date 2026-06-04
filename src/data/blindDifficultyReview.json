@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T06:57:21.167Z",
+  "generatedAt": "2026-06-04T10:14:45.154Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -407,12 +407,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "I feel like crying, and I am embarrassed you will notice.",
-            "response": "Tears are welcome here. Keep breathing slowly with me and let a little of the feeling be here between us."
+            "statement": "When you remember what I said last week, I feel so relieved I could cry, and then I panic that I need this too much.",
+            "response": "That relief matters. I am here with you while the warmth and panic arrive together; we can let the need be felt in a small enough way that it does not have to become danger."
           },
           "no": {
-            "statement": "Jeg kjenner at jeg vil gråte, og jeg blir flau for at du ser det.",
-            "response": "Tårer er velkomne her. Fortsett å puste rolig med meg og la litt av følelsen få være her mellom oss."
+            "statement": "Når du husker det jeg sa forrige uke, blir jeg så lettet at jeg kunne gråte, og så får jeg panikk for at jeg trenger dette for mye.",
+            "response": "Den lettelsen betyr noe. Jeg er her sammen med deg mens varmen og panikken kommer samtidig; vi kan la behovet kjennes på en liten nok måte til at det ikke må bli farlig."
           }
         },
         {
