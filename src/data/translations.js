@@ -2167,16 +2167,16 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Det er forståelig at skyld kommer når du sammenligner smerten din med andres; bruddet gjør fortsatt vondt, og smerten din fortjener også plass."
     },
     "dp_empathic-affirmation-validation_case-sara_09": {
-      "text": "Vennene mine sier at jeg burde bli med ut, men jeg er redd jeg kommer til å gråte foran alle.",
-      "suggestion": "Det gir mening at det kjennes risikabelt å gå ut når tristheten ligger så nær overflaten."
+      "text": "Vennene mine sier at jeg burde bli med ut og spise, men jeg er redd jeg kommer til å begynne å gråte ved bordet.",
+      "suggestion": "Ikke rart middag kjennes blottstillende når tristheten fortsatt ligger så nær at den kan renne over foran alle."
     },
     "dp_empathic-affirmation-validation_case-sara_10": {
       "text": "Etter dette bruddet tenker en del av meg at kjærlighet må være for andre, ikke for meg.",
       "suggestion": "Når dette tapet treffer den gamle ensomheten, er det ikke rart at den tanken dukker opp; det høres fryktelig ensomt ut."
     },
     "dp_empathic-affirmation-validation_case-michael_01": {
-      "text": "Når trafikken er dårlig og noen skjærer meg av, blir ansiktet varmt og jeg eksploderer.",
-      "suggestion": "Ikke rart systemet ditt skyter til forsvar når du føler deg respektløst behandlet eller presset inn i et hjørne."
+      "text": "Jeg traff en syklist med bilen forrige uke. Veien var glatt, men han brakk likevel håndleddet, og jeg klarer ikke slutte å kjenne skyld.",
+      "suggestion": "Ikke rart du er rystet og kjenner skyld; selv uten å mene å skade noen, ville det å se et menneske bli skadet av bilen din satt seg fast."
     },
     "dp_empathic-affirmation-validation_case-michael_02": {
       "text": "Hvis jeg ikke har svaret, føler jeg meg avslørt og bløffer.",
@@ -2215,20 +2215,20 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Ikke rart skammen holder deg våken; å se frykten deres ville gjort vondt for enhver som ønsker å være tryggere for familien sin."
     },
     "dp_empathic-affirmation-validation_case-jason_01": {
-      "text": "Å høre navnet mitt i et møte kjennes som om en lyskaster brått skrus på.",
-      "suggestion": "Det gir mening at alarmen går når det å bli lagt merke til har kjentes mer farlig enn velkomment."
+      "text": "Hver presentasjon på jobb får hendene mine til å skjelve, og etterpå føler jeg meg patetisk for at jeg bryr meg så mye.",
+      "suggestion": "Det er forståelig at presentasjoner kjennes blottstillende når det å bli sett har båret så mye skam; skjelvingen er angst, ikke nederlag."
     },
     "dp_empathic-affirmation-validation_case-jason_02": {
       "text": "Jeg holder blikket på gulvet så ingen får en grunn til å se på meg.",
-      "suggestion": "Å holde blikket nede gir mening som et langvarig forsøk på å slippe andres granskende blikk."
+      "suggestion": "Ikke rart blikket går mot gulvet når andres blikk har kjentes så farlig; den bevegelsen har prøvd å holde deg trygg."
     },
     "dp_empathic-affirmation-validation_case-jason_03": {
       "text": "Jeg later som jeg tekster så jeg har et sted å gjemme meg under småprat.",
-      "suggestion": "Den dekningen gir mening når vanlig småprat kjennes som å bli blottstilt."
+      "suggestion": "Det er forståelig at telefonen blir et skjul når vanlig småprat kjennes som å bli blottstilt."
     },
     "dp_empathic-affirmation-validation_case-jason_04": {
       "text": "Når folk ler høflig, antar jeg at de prøver å komme seg unna meg.",
-      "suggestion": "Den mistanken gir mening i en skam som venter avvisning før kontakt får en sjanse."
+      "suggestion": "Ikke rart høflig latter kjennes utrygt når skammen forventer avvisning før kontakt får en sjanse."
     },
     "dp_empathic-affirmation-validation_case-jason_05": {
       "text": "Komplimenter preller av; en del av meg vil tro på dem, men den mistenksomme delen vinner.",
@@ -2271,8 +2271,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Selvsagt søker du liten, trygg varme når menneskelig trøst har kjentes farlig eller upålitelig."
     },
     "dp_empathic-affirmation-validation_case-laura_05": {
-      "text": "Selv på fine dager ser alt fortsatt grått ut, og jeg klandrer meg selv for at jeg ikke føler meg takknemlig.",
-      "suggestion": "Ikke rart selv gode dager ikke bare kan nå inn på kommando etter så mye avstengning for å overleve."
+      "text": "Jeg liker den nye leiligheten, men å pakke ut gamle bilder fikk meg til å sørge over hjemmet jeg egentlig aldri fikk ha.",
+      "suggestion": "Ikke rart bildene vekker sorg; å gå videre kan røre ved sorgen over det som manglet, ikke bare det som er nytt."
     },
     "dp_empathic-affirmation-validation_case-laura_06": {
       "text": "Berøring skremmer meg, selv når den er vennlig, og etterpå føler jeg meg ødelagt for å reagere sånn.",
@@ -2295,8 +2295,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Ikke rart hvile ikke kommer lett når en del av deg lærte å stå på vakt mot fare."
     },
     "dp_empathic-affirmation-validation_case-carlos_01": {
-      "text": "Ett skjevt blikk, og kjeven låser seg som om jeg må være klar.",
-      "suggestion": "Den raske beredskapen gir mening med en historie der respektløshet kunne bli til fare eller ydmykelse."
+      "text": "Å se nyheter om familier som min bli behandlet som trusler gjør meg så sint at jeg nesten ikke klarer å sitte stille.",
+      "suggestion": "Selvsagt reiser sinnet seg når nyhetene treffer verdighet, familie og den gamle frykten for å bli behandlet som mindreverdig."
     },
     "dp_empathic-affirmation-validation_case-carlos_02": {
       "text": "Hvis jeg ikke kommer inn sterk, tråkker folk over meg.",
@@ -2371,8 +2371,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Ikke rart skuffelse kjennes skremmende når kjærlighet har virket knyttet til å holde folk fornøyde."
     },
     "dp_empathic-affirmation-validation_case-nina_10": {
-      "text": "En del av meg tror at folk bare er glad i meg når jeg er nyttig for dem.",
-      "suggestion": "Forståelig nok kan kjærlighet kjennes betinget av å være nyttig når omsorg så lenge har vært knyttet til å være til nytte."
+      "text": "Sønnen min snakker om å verve seg, og jeg blir både stolt og livredd, og så får jeg skyldfølelse for at jeg ikke er modigere.",
+      "suggestion": "Selvsagt kan stolthet og frykt komme samtidig; kjærligheten til ham gjør motet hans viktig og det han risikerer nesten uutholdelig."
     },
     "dp_empathic-affirmation-validation_case-aisha_01": {
       "text": "Jeg fulgte med på døra mesteparten av timen for å være sikker på at du ikke drar.",
@@ -2400,7 +2400,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-aisha_07": {
       "text": "Når noen sier noe vennlig, hulker jeg som om jeg trenger det og får panikk som om det er en felle.",
-      "suggestion": "Hver reaksjon gir mening: Vennlighet treffer lengselen etter å bli holdt og frykten for at nærhet skal gjøre vondt."
+      "suggestion": "Det er forståelig at vennlighet treffer både lengselen etter å bli holdt og frykten for at nærhet skal gjøre vondt."
     },
     "dp_empathic-affirmation-validation_case-aisha_08": {
       "text": "Hvis du ser bort et sekund, føler jeg meg visket ut og blir rasende.",
@@ -2419,8 +2419,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Ikke rart fakta kjennes tryggere der; følelser kan svi som kritikk og få deg til å kjenne deg trengt opp i et hjørne."
     },
     "dp_empathic-affirmation-validation_case-david_02": {
-      "text": "Jeg vil ha anerkjennelse for alt jeg gjør; når jeg ikke får det, kjenner jeg raseri.",
-      "suggestion": "Selvsagt treffer det hardt når innsatsen din blir usett; sinne skyter opp der så mye av verdien din har vært knyttet til det du gjør."
+      "text": "Etter at jeg skremte kona mi, var jeg fortsatt rasende på henne for at hun presset meg, og så kom skammen fordi jeg vet hvordan det høres ut.",
+      "suggestion": "Ikke rart dette er vanskelig å si; raseriet kan være ekte uten at frykten du skapte blir noe mindre alvorlig."
     },
     "dp_empathic-affirmation-validation_case-david_03": {
       "text": "Jeg sammenligner meg med andre fedre og føler meg som en bløff.",
@@ -2459,8 +2459,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Å føle seg frakoblet gir mening etter så mye traume; nummenhet har vært en måte å holde det gående på."
     },
     "dp_empathic-affirmation-validation_case-marcus_02": {
-      "text": "Jeg lar TV-en stå på fordi stillheten slipper for mange tanker for nært innpå.",
-      "suggestion": "Å bruke lyd til å holde tankene på avstand gir mening når stillhet kan bringe altfor mye for nært innpå."
+      "text": "Jeg vet ikke hva jeg føler. Det er trykk, sinne og ingenting på samme tid, og jeg føler meg dum fordi jeg ikke har ord.",
+      "suggestion": "Det er forståelig at ordene blir vanskelige når nummenhet og trykk kommer samtidig; det å ikke vite er en del av overveldelsen, ikke et tegn på dumhet."
     },
     "dp_empathic-affirmation-validation_case-marcus_03": {
       "text": "Jeg sitter i bilen før jeg går inn fordi jeg ikke orker stillheten.",
@@ -2480,7 +2480,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-marcus_07": {
       "text": "Jeg holder leiligheten mørk fordi lyse rom kjennes som om de krever for mye av meg.",
-      "suggestion": "Å holde rommet dempet gir mening når verden allerede kjennes krevende og utrygg."
+      "suggestion": "Ikke rart det dempede rommet kjennes tryggere når verden allerede krever for mye og lyse rom kan kjennes blottstillende."
     },
     "dp_empathic-affirmation-validation_case-marcus_08": {
       "text": "Jeg husker ikke sist jeg lo og stolte på at det kunne vare.",

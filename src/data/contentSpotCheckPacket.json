@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T10:14:45.153Z",
+  "generatedAt": "2026-06-04T11:10:58.408Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -425,12 +425,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "Hearing my name in a meeting feels like a spotlight snapping on.",
-                "response": "It makes sense that being noticed sets off alarm when attention has felt more dangerous than welcoming."
+                "statement": "Every presentation at work makes my hands shake, and then I feel pathetic for caring so much.",
+                "response": "Understandably, presentations feel exposing when being seen has carried so much shame; the shaking is anxiety, not failure."
               },
               "no": {
-                "statement": "Å høre navnet mitt i et møte kjennes som om en lyskaster brått skrus på.",
-                "response": "Det gir mening at alarmen går når det å bli lagt merke til har kjentes mer farlig enn velkomment."
+                "statement": "Hver presentasjon på jobb får hendene mine til å skjelve, og etterpå føler jeg meg patetisk for at jeg bryr meg så mye.",
+                "response": "Det er forståelig at presentasjoner kjennes blottstillende når det å bli sett har båret så mye skam; skjelvingen er angst, ikke nederlag."
               }
             },
             {

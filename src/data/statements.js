@@ -796,8 +796,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Of course guilt comes up when you compare your pain to everyone else's; the breakup still hurts, and your hurt deserves room too."
       },
       {
-        "text": "My friends say I should go out, but I am scared I will cry in front of everyone.",
-        "suggestion": "It makes sense that going out feels risky when the sadness is so close to the surface."
+        "text": "My friends say I should come out for dinner, but I am scared I will cry at the table.",
+        "suggestion": "No wonder dinner feels exposed when the sadness is still close enough to spill over in front of everyone."
       },
       {
         "text": "After this breakup, part of me thinks love must be for other people, not me.",
@@ -806,8 +806,8 @@ export const STATEMENT_SETS = {
     ],
     "case-michael": [
       {
-        "text": "When traffic is bad and someone cuts me off, my face goes hot and I explode.",
-        "suggestion": "No wonder your system surges to defend when you feel disrespected or boxed in."
+        "text": "I hit a cyclist with my car last week. The road was slick, but he still broke his wrist and I cannot stop feeling guilty.",
+        "suggestion": "No wonder you feel shaken and guilty; even without intending harm, seeing someone hurt because of your car would stay with you."
       },
       {
         "text": "If I don't have the answer, I feel exposed and I bluff.",
@@ -848,20 +848,20 @@ export const STATEMENT_SETS = {
     ],
     "case-jason": [
       {
-        "text": "Hearing my name in a meeting feels like a spotlight snapping on.",
-        "suggestion": "It makes sense that being noticed sets off alarm when attention has felt more dangerous than welcoming."
+        "text": "Every presentation at work makes my hands shake, and then I feel pathetic for caring so much.",
+        "suggestion": "Understandably, presentations feel exposing when being seen has carried so much shame; the shaking is anxiety, not failure."
       },
       {
         "text": "I keep my eyes on the floor so no one has a reason to look at me.",
-        "suggestion": "Keeping your gaze down makes sense as a long effort to stay safe from scrutiny."
+        "suggestion": "No wonder your eyes go to the floor when scrutiny has felt so dangerous; that move has been trying to keep you safe."
       },
       {
         "text": "I pretend to text so I have somewhere to hide during small talk.",
-        "suggestion": "That cover makes sense when ordinary conversation feels like exposure."
+        "suggestion": "Understandably, the phone becomes cover when ordinary conversation feels like exposure."
       },
       {
         "text": "When people laugh politely, I assume they are trying to escape me.",
-        "suggestion": "That suspicion makes sense in a shame system that expects rejection before connection has a chance."
+        "suggestion": "No wonder polite laughter feels unsafe when shame expects rejection before connection has a chance."
       },
       {
         "text": "Compliments bounce off; part of me wants to believe them, but the suspicious part wins.",
@@ -906,8 +906,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Of course you reach for small, safe warmth when human comfort has felt dangerous or unreliable."
       },
       {
-        "text": "Even on nice days, everything still looks gray, and I blame myself for not feeling grateful.",
-        "suggestion": "No wonder even good days cannot simply reach you on command after so much shutting down for survival."
+        "text": "I like the new apartment, but unpacking old photos made me grieve the home I never really got to have.",
+        "suggestion": "No wonder the photos bring grief; moving forward can stir the sadness of what was missing, not just what is new."
       },
       {
         "text": "Being touched, even kindly, startles me, and then I feel broken for reacting that way.",
@@ -932,8 +932,8 @@ export const STATEMENT_SETS = {
     ],
     "case-carlos": [
       {
-        "text": "One sideways look and my jaw locks like I need to be ready.",
-        "suggestion": "That quick readiness makes sense with a history where disrespect could turn into danger or humiliation."
+        "text": "Watching the news about families like mine being treated like threats makes me so angry I can barely sit still.",
+        "suggestion": "Of course that anger rises when the news touches dignity, family, and the old fear of being treated as less than fully human."
       },
       {
         "text": "If I don't come in strong, people will walk all over me.",
@@ -1010,8 +1010,8 @@ export const STATEMENT_SETS = {
         "suggestion": "No wonder disappointment feels frightening when love has felt tied to keeping people pleased."
       },
       {
-        "text": "Some part of me thinks people love me only when I am useful to them.",
-        "suggestion": "Understandably, love can feel conditional on being useful when care has been tied to service for so long."
+        "text": "My son talks about joining the army, and I feel proud and terrified, then guilty for not being braver.",
+        "suggestion": "Of course pride and fear can arrive together; loving him makes his courage matter and his danger feel unbearable."
       }
     ],
     "case-aisha": [
@@ -1041,7 +1041,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "When someone says something kind, I sob like I need it and panic like it is a trap.",
-        "suggestion": "Each reaction makes sense: kindness touches the longing to be held and the fear that closeness will hurt."
+        "suggestion": "Understandably, kindness touches both the longing to be held and the fear that closeness will hurt."
       },
       {
         "text": "If you look away for a second, I feel erased and then furious.",
@@ -1062,8 +1062,8 @@ export const STATEMENT_SETS = {
         "suggestion": "No wonder facts feel safer there; emotions can sting like criticism and leave you feeling cornered."
       },
       {
-        "text": "I want credit for everything I do; when I don't get it, I feel rage.",
-        "suggestion": "Of course it hits hard when your effort goes unseen; anger surges where so much of your worth has been tied to what you do."
+        "text": "After I scared my wife, I still felt furious at her for pushing me, and then ashamed because I know how that sounds.",
+        "suggestion": "No wonder this is hard to say; the rage can be real without making the fear you caused any less serious."
       },
       {
         "text": "I compare myself to other dads and feel like a fraud.",
@@ -1104,8 +1104,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Feeling detached makes sense after so much trauma; numbness has been a way to keep going."
       },
       {
-        "text": "I keep the TV on because silence lets too many thoughts get close.",
-        "suggestion": "Using noise to hold the thoughts back makes sense when quiet can bring everything too near."
+        "text": "I do not know what I feel. It is pressure, anger, and nothing at the same time, and I feel stupid for not having words.",
+        "suggestion": "Understandably, words are hard when numbness and pressure arrive together; not knowing is part of the overwhelm, not stupidity."
       },
       {
         "text": "I sit in the car before going inside because I can't face the quiet.",
@@ -1125,7 +1125,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "I keep the apartment dark because bright rooms feel like they ask too much of me.",
-        "suggestion": "Keeping the space dim makes sense when the world already feels demanding and unsafe."
+        "suggestion": "No wonder the dim room feels safer when the world already asks too much and bright places can feel exposing."
       },
       {
         "text": "I cannot remember the last time I laughed and trusted it would last.",
