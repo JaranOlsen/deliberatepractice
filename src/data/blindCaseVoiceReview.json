@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T22:59:18.036Z",
+  "generatedAt": "2026-06-04T23:13:06.430Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -1189,14 +1189,16 @@
         {
           "blindLabel": "B",
           "order": 1,
-          "riskFlags": [],
+          "riskFlags": [
+            "violence"
+          ],
           "en": {
-            "statement": "If I feel anything, I tell myself I will lose control, so I stay on watch instead.",
-            "response": "I hear a strong guarding move that keeps watch instead of feeling. If it feels workable, we can put that guard in one chair and the lonely side it protects in the other, and keep the turns slow and short."
+            "statement": "My father had his own damage, I know that. But I still hate him for bringing violence into our house and leaving us to live with it.",
+            "response": "That sounds like unfinished business with your father, with both understanding of what he carried and hatred for the violence he brought into the house. If you are willing, we can bring him into the empty chair and let you say both parts directly to him, slowly and with pauses."
           },
           "no": {
-            "statement": "Hvis jeg kjenner noe, sier jeg til meg selv at jeg kommer til å miste kontrollen, så jeg holder vakt i stedet.",
-            "response": "Jeg hører et sterkt vakthold som passer på i stedet for å kjenne. Hvis det kjennes mulig, setter vi vakten i én stol og den ensomme siden den beskytter i den andre, og holder rundene langsomme og korte."
+            "statement": "Faren min hadde sine egne skader, det vet jeg. Men jeg hater ham fortsatt for å ha tatt volden med inn i huset vårt og latt oss leve med den.",
+            "response": "Det høres ut som et uavsluttet oppgjør med faren din, med både forståelse for det han bar på og hat for volden han tok inn i huset. Hvis du vil, kan vi hente ham inn i den tomme stolen og la deg si begge deler direkte til ham, sakte og med pauser."
           }
         }
       ]

@@ -5087,40 +5087,40 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Det høres ut som du avbryter neiet ditt ved å gjøre andre til lags. Vi kan bruke to stoler: Fra denne stolen viser du hvordan du smiler og tilbyr deg likevel; så bytter vi og lar neiet snakke tydelig."
     },
     "dp_marker-recognition-chairwork_case-aisha_01": {
-      "text": "Hvis noen ikke svarer, ser jeg for meg at de blokkerer meg, ler av meg, finner noen bedre, og så sier jeg til meg selv at jeg må avslutte det først.",
-      "suggestion": "Det høres ut som bekymringen oversvømmer deg med bilder av å bli forlatt og så presser deg til å handle. Hvis det kjennes trygt nok, kan vi sette bekymringsstemmen i én stol. Først lar vi den si det verste den tror kommer til å skje, og så bytter vi til siden som blir overveldet."
+      "text": "Hvis noen ikke svarer, går hodet mitt rett til at de er med noen bedre, legger det ut, og at alle ser at jeg er byttet ut. Da må jeg kutte dem ut først.",
+      "suggestion": "Det høres ut som bekymringen går rett til de verste scenene og presser deg til å handle først. Hvis du vil, kan vi bruke to stoler for å se hvordan den bekymringen virker. Sett deg her som bekymringen og si til henne alt det fryktelige du tror kommer til å skje; så bytter vi til siden som blir oversvømt."
     },
     "dp_marker-recognition-chairwork_case-aisha_02": {
-      "text": "Jeg vil fortsatt skrike til moren min: «Hvordan kunne du dra og så oppføre deg som om jeg var for mye?»",
-      "suggestion": "Det høres ut som uavsluttet oppgjør med moren din rundt å bli forlatt og så få skylden for å trenge omsorg. Vi kan bruke den tomme stolen i noen få linjer om gangen, så du kan si raseriet og smerten som aldri fikk en plass."
+      "text": "Jeg ser fortsatt for meg eksen min i seng med en annen. Jeg hater ham, og så hater jeg meg selv for at jeg fortsatt vil ha ham.",
+      "suggestion": "Det høres ut som et uavsluttet oppgjør med eksen din, der både raseriet og lengselen fortsatt er levende. Hvis du vil, kan vi sette ham i den tomme stolen og la deg si hva du fortsatt ser for deg, og hva det gjorde med deg. Begynn med: «Jeg ser deg fortsatt med henne ...»"
     },
     "dp_marker-recognition-chairwork_case-aisha_03": {
-      "text": "Når jeg begynner å trenge noen, angriper jeg meg selv for å være for mye til å elske.",
-      "suggestion": "Det er et hardt selvangrep mot det å trenge noen. Vi kan sette «for mye til å elske» i én stol. Først lar vi den stemmen si akkurat hva den sier når du trenger noen, og så bytter vi og svarer fra siden som bærer behovet."
+      "text": "Etter alt som skjedde med meg, kaller jeg meg skitten og umulig å elske.",
+      "suggestion": "Det er et alvorlig angrep på deg selv, knyttet til det som ble gjort mot deg. Hvis det kjennes trygt nok, kan vi sette den angripende stemmen i én stol og siden som bærer såret i den andre. Begynn med å si angrepet akkurat slik det kommer, og så bytter vi til siden som har båret det."
     },
     "dp_marker-recognition-chairwork_case-david_01": {
       "text": "Hvis jeg ikke er eksepsjonell, sier jeg til meg selv at det ikke finnes noen grunn til at noen skulle bli.",
       "suggestion": "Det høres ut som en krevende driver som gjør verdien din avhengig av å være eksepsjonell. Vi kan sette det kravet i én stol og siden som betaler prisen i den andre, og la dem snakke direkte."
     },
     "dp_marker-recognition-chairwork_case-david_02": {
-      "text": "Jeg vil fortsatt at faren min skal høre at applaus for resultater ikke var det samme som kjærlighet.",
-      "suggestion": "Jeg hører uavsluttet oppgjør med faren din rundt det å bli verdsatt bare for resultater. Vi kan bruke den tomme stolen og la deg si det som aldri fikk bli sagt til ham."
+      "text": "Kona mi sier at hun kanskje er ferdig, og jeg sier til meg selv at bare en idiot ødelegger sin egen familie og likevel forventer sympati.",
+      "suggestion": "Det høres ut som du slår hardt ned på deg selv for det som skjer i familien din. Kan vi arbeide litt med hvordan den skylden angriper deg? Sett deg i denne stolen og la den harde siden si til ham at han er en idiot som ødela familien; så bytter vi og hører hva det gjør med ham."
     },
     "dp_marker-recognition-chairwork_case-david_03": {
-      "text": "Når jeg vil ha nærhet, hører jeg: «Ikke se trengende ut», og så kommer det en kald kommentar i stedet.",
-      "suggestion": "Det høres ut som nærhet blir avbrutt av en kommando om ikke å se trengende ut. Vi kan bruke to stoler: Først sitter du med den kalde, beskyttende kommandoen og forteller ham hvorfor behov er farlig; så bytter vi til siden som vil ha nærhet."
+      "text": "Jeg hater hvordan faren min gjorde alt til en prestasjon, men med en gang jeg sier det, begynner jeg å forsvare ham: han presset meg jo fordi han trodde på meg.",
+      "suggestion": "Det høres ut som sinnet mot faren din blir stoppet av en side som forklarer ham og beskytter ham. Hvis du er villig, kan vi bruke to stoler: Fra denne stolen kan du forsvare ham og si til David hvorfor han ikke skal være sint; så bytter vi og gir sinnet noen ord."
     },
     "dp_marker-recognition-chairwork_case-marcus_01": {
-      "text": "Hvis jeg kjenner noe, sier jeg til meg selv at jeg kommer til å miste kontrollen, så jeg holder vakt i stedet.",
-      "suggestion": "Jeg hører et sterkt vakthold som passer på i stedet for å kjenne. Hvis det kjennes mulig, setter vi vakten i én stol og den ensomme siden den beskytter i den andre, og holder rundene langsomme og korte."
+      "text": "Faren min hadde sine egne skader, det vet jeg. Men jeg hater ham fortsatt for å ha tatt volden med inn i huset vårt og latt oss leve med den.",
+      "suggestion": "Det høres ut som et uavsluttet oppgjør med faren din, med både forståelse for det han bar på og hat for volden han tok inn i huset. Hvis du vil, kan vi hente ham inn i den tomme stolen og la deg si begge deler direkte til ham, sakte og med pauser."
     },
     "dp_marker-recognition-chairwork_case-marcus_02": {
-      "text": "Jeg har fortsatt lyst til å spørre fosterforelderen som låste meg inne i skapet, hvorfor de oppførte seg som om jeg var problemet.",
-      "suggestion": "Det høres ut som et uavsluttet oppgjør med den fosterforelderen rundt det å bli sperret inne og få skylden. Hvis du vil, kan vi hente dem inn i den tomme stolen i fantasien og la deg stille spørsmålet direkte, en eller to linjer om gangen, mens jeg bremser hvis det blir for mye."
+      "text": "De låste meg inne i skapet, og jeg tenker fortsatt at jeg må ha vært umulig, ellers hadde de vel ikke gjort det.",
+      "suggestion": "Det er en brutal selvbebreidelse etter noe som ble gjort mot deg. Hvis det kjennes mulig, kan vi bruke to stoler for å se hvordan den skylden virker. Fra denne stolen kan du si til ham at han må ha vært umulig; så bytter vi og hører fra barnet som ble låst inne."
     },
     "dp_marker-recognition-chairwork_case-marcus_03": {
-      "text": "Jeg kan beskrive det som skjedde som en rapport, men hvis sinne mot de ansvarlige begynner å komme opp, stenger jeg det ned.",
-      "suggestion": "Det høres ut som rapportstemmen stenger ned sinnet mot de ansvarlige. Vi kan bruke to stoler: Først sitter du der rapportstemmen er og forteller den sinte siden hvorfor den må holdes inne; så bytter vi og gir sinnet noen kontrollerte ord."
+      "text": "Selv her inne låser kjeven seg når jeg forestiller meg å si til den fosterfaren at jeg hater ham. Jeg hører: «Ikke si det. Ikke gjør det verre.»",
+      "suggestion": "Det høres ut som noe låser sinnet før det får en stemme. Hvis du er villig, kan vi bruke to stoler: sitt her som siden som sier «ikke si det, ikke gjør det verre», og si det direkte til ham; så bytter vi og lar sinnet få noen kontrollerte ord."
     },
     "dp_alliance-repair_case-sara_01": {
       "text": "Av og til tror jeg du blir lei når jeg forteller om bruddet igjen, og da føler jeg meg dum som fortsatt tar det opp her.",

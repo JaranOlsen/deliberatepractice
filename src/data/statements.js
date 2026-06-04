@@ -3888,16 +3888,16 @@ export const STATEMENT_SETS = {
     ],
     "case-aisha": [
       {
-        "text": "If someone does not answer, I picture them blocking me, laughing at me, finding someone better, and I tell myself to end it first.",
-        "suggestion": "That sounds like worry floods you with abandonment scenes and then pushes you to act. If it feels safe enough, we can put the worrying voice in one chair; first let it tell you the worst it thinks will happen, and then we will switch to the overwhelmed side."
+        "text": "If someone does not answer, my mind goes straight to them being with someone better, posting it, everyone seeing I got replaced. Then I have to cut them off first.",
+        "suggestion": "That sounds like worry goes straight to the worst scenes and pushes you to act first. If you are willing, we can use two chairs to see how that worry works. Sit here as the worry and tell her every terrible thing you predict; then we will switch to the side that is getting flooded."
       },
       {
-        "text": "I still want to scream at my mother, How could you leave and then act like I was too much?",
-        "suggestion": "That sounds like unfinished business with your mother around being abandoned and then blamed for needing care. We could use the empty chair for a few lines at a time so you can say the rage and hurt that never had a place."
+        "text": "I still picture my ex in bed with someone else. I hate him, and then I hate myself for still wanting him.",
+        "suggestion": "That sounds like unfinished business with your ex, where both the rage and the longing are still alive. If you are willing, we can put him in the empty chair and let you say what you keep seeing and what it did to you. Start with, 'I still see you with her...'"
       },
       {
-        "text": "When I start needing someone, I attack myself for being too much to love.",
-        "suggestion": "That is a harsh self-attack against needing. We can put 'too much to love' in one chair; first, let that voice say exactly what it says when you need someone, then switch and answer from the side carrying the need."
+        "text": "After everything that happened to me, I call myself dirty and impossible to love.",
+        "suggestion": "That is a severe self-attack tied to what was done to you. If it feels safe enough, we can put the attacking voice in one chair and the wounded side in the other. Begin by saying the attack exactly as it comes, and then we will switch to the side that has carried it."
       }
     ],
     "case-david": [
@@ -3906,26 +3906,26 @@ export const STATEMENT_SETS = {
         "suggestion": "That sounds like a demanding driver that makes your worth depend on being exceptional. We could put that demand in one chair and the side that pays the price in the other, and let them speak directly."
       },
       {
-        "text": "I still want my father to hear that applause for results was not the same as love.",
-        "suggestion": "I hear unfinished business with your father around being valued only for results. We could use the empty chair and let you say what never got said to him."
+        "text": "My wife says she might be done, and I tell myself only an idiot destroys his own family and still expects sympathy.",
+        "suggestion": "It sounds like you are coming down hard on yourself for what is happening in your family. Can we work with how that blame attacks you? Sit in this chair and let the hard side tell him he is an idiot who destroyed his family; then we will switch and hear what that does to him."
       },
       {
-        "text": "When I want closeness, I hear, Don't look needy, and a cold remark comes out instead.",
-        "suggestion": "That sounds like closeness gets interrupted by a command not to look needy. We can use two chairs: first, sit with the cold, protective command and tell him why need is dangerous; then we will switch to the side that wants closeness."
+        "text": "I hate how my father made everything a performance, but the second I say that I start defending him: he pushed me because he believed in me.",
+        "suggestion": "It sounds like the anger toward your father gets stopped by a side that explains him and protects him. If you are willing, we can use two chairs: from this chair, defend him and tell David why he should not be angry; then we will switch and give the anger some words."
       }
     ],
     "case-marcus": [
       {
-        "text": "If I feel anything, I tell myself I will lose control, so I stay on watch instead.",
-        "suggestion": "I hear a strong guarding move that keeps watch instead of feeling. If it feels workable, we can put that guard in one chair and the lonely side it protects in the other, and keep the turns slow and short."
+        "text": "My father had his own damage, I know that. But I still hate him for bringing violence into our house and leaving us to live with it.",
+        "suggestion": "That sounds like unfinished business with your father, with both understanding of what he carried and hatred for the violence he brought into the house. If you are willing, we can bring him into the empty chair and let you say both parts directly to him, slowly and with pauses."
       },
       {
-        "text": "I still want to ask the foster parent who locked me in the closet why they acted like I was the problem.",
-        "suggestion": "That sounds like unfinished business with that foster parent around being trapped and blamed. If you are willing, we can bring them into the empty chair in imagination and let you ask that question directly, one or two lines at a time, with me slowing it down if it gets too much."
+        "text": "They locked me in the closet, and I still think I must have been impossible, or they would not have done it.",
+        "suggestion": "That is a brutal self-blame after something that was done to you. If it feels possible, we can use two chairs to see how that blame works. From this chair, tell him he must have been impossible; then we will switch and hear from the child who was locked in."
       },
       {
-        "text": "I can describe what happened like a report, but if anger at the people in charge starts coming up, I shut it down.",
-        "suggestion": "That sounds like the report voice shuts down anger at the people in charge. We can use two chairs: first, sit where the report voice is and tell the angry side why it has to stay contained; then switch and give the anger a few controlled words."
+        "text": "Even in here, imagining telling that foster father I hate him makes my jaw lock. I hear, Don't say that. Don't make it worse.",
+        "suggestion": "That sounds like something locks the anger before it gets a voice. If you are willing, we can use two chairs: sit here as the side that says 'don't say it, don't make it worse,' and say that directly to him; then we will switch and let the anger have a few controlled words."
       }
     ]
   },

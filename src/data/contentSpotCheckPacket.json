@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T22:59:18.035Z",
+  "generatedAt": "2026-06-04T23:13:06.429Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -2140,12 +2140,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "I still want my father to hear that applause for results was not the same as love.",
-                "response": "I hear unfinished business with your father around being valued only for results. We could use the empty chair and let you say what never got said to him."
+                "statement": "My wife says she might be done, and I tell myself only an idiot destroys his own family and still expects sympathy.",
+                "response": "It sounds like you are coming down hard on yourself for what is happening in your family. Can we work with how that blame attacks you? Sit in this chair and let the hard side tell him he is an idiot who destroyed his family; then we will switch and hear what that does to him."
               },
               "no": {
-                "statement": "Jeg vil fortsatt at faren min skal høre at applaus for resultater ikke var det samme som kjærlighet.",
-                "response": "Jeg hører uavsluttet oppgjør med faren din rundt det å bli verdsatt bare for resultater. Vi kan bruke den tomme stolen og la deg si det som aldri fikk bli sagt til ham."
+                "statement": "Kona mi sier at hun kanskje er ferdig, og jeg sier til meg selv at bare en idiot ødelegger sin egen familie og likevel forventer sympati.",
+                "response": "Det høres ut som du slår hardt ned på deg selv for det som skjer i familien din. Kan vi arbeide litt med hvordan den skylden angriper deg? Sett deg i denne stolen og la den harde siden si til ham at han er en idiot som ødela familien; så bytter vi og hører hva det gjør med ham."
               }
             },
             {
@@ -2157,12 +2157,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "When I want closeness, I hear, Don't look needy, and a cold remark comes out instead.",
-                "response": "That sounds like closeness gets interrupted by a command not to look needy. We can use two chairs: first, sit with the cold, protective command and tell him why need is dangerous; then we will switch to the side that wants closeness."
+                "statement": "I hate how my father made everything a performance, but the second I say that I start defending him: he pushed me because he believed in me.",
+                "response": "It sounds like the anger toward your father gets stopped by a side that explains him and protects him. If you are willing, we can use two chairs: from this chair, defend him and tell David why he should not be angry; then we will switch and give the anger some words."
               },
               "no": {
-                "statement": "Når jeg vil ha nærhet, hører jeg: «Ikke se trengende ut», og så kommer det en kald kommentar i stedet.",
-                "response": "Det høres ut som nærhet blir avbrutt av en kommando om ikke å se trengende ut. Vi kan bruke to stoler: Først sitter du med den kalde, beskyttende kommandoen og forteller ham hvorfor behov er farlig; så bytter vi til siden som vil ha nærhet."
+                "statement": "Jeg hater hvordan faren min gjorde alt til en prestasjon, men med en gang jeg sier det, begynner jeg å forsvare ham: han presset meg jo fordi han trodde på meg.",
+                "response": "Det høres ut som sinnet mot faren din blir stoppet av en side som forklarer ham og beskytter ham. Hvis du er villig, kan vi bruke to stoler: Fra denne stolen kan du forsvare ham og si til David hvorfor han ikke skal være sint; så bytter vi og gir sinnet noen ord."
               }
             }
           ]

@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-06-04T22:59:18.025Z"
+  "generatedAt": "2026-06-04T23:13:06.419Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -27050,7 +27050,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
           "caseId": "case-marcus"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "violence"
+        ],
         "criteriaTags": [
           "recognize_marker",
           "offer_task_setup",
@@ -27079,9 +27081,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
           "caseId": "case-marcus"
         },
-        "riskFlags": [
-          "trauma"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "recognize_marker",
           "offer_task_setup",
@@ -27110,7 +27110,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
           "caseId": "case-marcus"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "trauma"
+        ],
         "criteriaTags": [
           "recognize_marker",
           "offer_task_setup",

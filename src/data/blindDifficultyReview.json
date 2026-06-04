@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T22:59:18.036Z",
+  "generatedAt": "2026-06-04T23:13:06.430Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -488,12 +488,12 @@
           "order": 2,
           "riskFlags": [],
           "en": {
-            "statement": "I still want my father to hear that applause for results was not the same as love.",
-            "response": "I hear unfinished business with your father around being valued only for results. We could use the empty chair and let you say what never got said to him."
+            "statement": "My wife says she might be done, and I tell myself only an idiot destroys his own family and still expects sympathy.",
+            "response": "It sounds like you are coming down hard on yourself for what is happening in your family. Can we work with how that blame attacks you? Sit in this chair and let the hard side tell him he is an idiot who destroyed his family; then we will switch and hear what that does to him."
           },
           "no": {
-            "statement": "Jeg vil fortsatt at faren min skal høre at applaus for resultater ikke var det samme som kjærlighet.",
-            "response": "Jeg hører uavsluttet oppgjør med faren din rundt det å bli verdsatt bare for resultater. Vi kan bruke den tomme stolen og la deg si det som aldri fikk bli sagt til ham."
+            "statement": "Kona mi sier at hun kanskje er ferdig, og jeg sier til meg selv at bare en idiot ødelegger sin egen familie og likevel forventer sympati.",
+            "response": "Det høres ut som du slår hardt ned på deg selv for det som skjer i familien din. Kan vi arbeide litt med hvordan den skylden angriper deg? Sett deg i denne stolen og la den harde siden si til ham at han er en idiot som ødela familien; så bytter vi og hører hva det gjør med ham."
           }
         },
         {
