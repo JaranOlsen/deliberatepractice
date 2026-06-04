@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-06-04T11:10:58.399Z"
+  "generatedAt": "2026-06-04T11:16:32.457Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -27079,7 +27079,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
           "caseId": "case-marcus"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "trauma"
+        ],
         "criteriaTags": [
           "recognize_marker",
           "offer_task_setup",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T11:10:58.408Z",
+  "generatedAt": "2026-06-04T11:16:32.467Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -2031,12 +2031,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "The second I soften, I clamp down and start listing what I should have done better.",
-                "response": "That sounds like a demanding side that interrupts softness by attacking your performance. We could give that demanding side one chair and the softer, exhausted side the other, and let them speak directly to each other while I guide the turns."
+                "statement": "The second I start to soften, I hear, Get it together, and I start listing what I should have done better.",
+                "response": "That sounds like the hard command interrupts the softer feeling. We can use two chairs to make that clearer: from this chair, say 'get it together' and list what he should have done better; then we will switch and hear from the softer side."
               },
               "no": {
-                "statement": "I det sekundet jeg mykner, strammer jeg meg til og begynner å ramse opp alt jeg burde gjort bedre.",
-                "response": "Det høres ut som en krevende side som avbryter mykheten ved å angripe prestasjonen din. Vi kan gi den krevende siden én stol og den mykere, utslitte siden den andre, og la dem snakke direkte til hverandre mens jeg guider rundene."
+                "statement": "I det sekundet jeg begynner å mykne, hører jeg: «Ta deg sammen», og så begynner jeg å ramse opp alt jeg burde gjort bedre.",
+                "response": "Det høres ut som den harde kommandoen avbryter det mykere som kommer. Vi kan bruke to stoler for å gjøre det tydeligere: Fra denne stolen sier du «ta deg sammen» og ramser opp hva han burde gjort bedre; så bytter vi og hører fra den mykere siden."
               }
             }
           ]
@@ -2061,11 +2061,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "If I do not get on top first, I tell myself they will make me look like nothing.",
-                "response": "That 'get on top or be nothing' pressure is a strong self-evaluative marker. We can put that pressure in one chair and the side that ends up feeling small in the other, and let each speak plainly."
+                "response": "I hear how hard that pressure comes at you: be on top or be nothing. We can put that pressure in one chair and the part of you that feels made small in the other; first, sit with the pressure and tell him what happens if he does not come out on top."
               },
               "no": {
                 "statement": "Hvis jeg ikke kommer meg øverst først, sier jeg til meg selv at de får meg til å se ut som ingenting.",
-                "response": "Det «øverst eller ingenting»-presset er en tydelig selvvurderende markør. Vi kan sette det presset i én stol og siden som ender med å føle seg liten i den andre, og la hver side snakke rett fram."
+                "response": "Jeg hører hvor hardt det presset kommer mot deg: øverst eller ingenting. Vi kan sette presset i én stol og den delen av deg som kjenner seg gjort liten i den andre. Først kan du sitte med presset og fortelle ham hva som skjer hvis han ikke kommer øverst."
               }
             },
             {
@@ -2094,12 +2094,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "Right before I back down, something in me surges forward, and then I see my son's face afterward.",
-                "response": "That sounds like a split between the side that surges forward to fight and the side that feels ashamed afterward. We could give each one a chair and let them speak directly."
+                "statement": "I start to say sorry to my son, then I hear, Don't grovel, and my face goes hard.",
+                "response": "That sounds like something stops the apology before the softer feeling can reach him. We can use two chairs: from this chair, say 'don't grovel' and make the case for staying hard; then we will switch and hear from the father who wants to repair."
               },
               "no": {
-                "statement": "Rett før jeg kunne ha roet meg, skyter noe i meg fram, og etterpå ser jeg ansiktet til sønnen min.",
-                "response": "Det høres ut som en splitt mellom siden som skyter fram for å slåss og siden som skammer seg etterpå. Vi kan gi hver av dem en stol og la dem snakke direkte."
+                "statement": "Jeg begynner å si unnskyld til sønnen min, så hører jeg: «Ikke kryp», og ansiktet mitt blir hardt.",
+                "response": "Det høres ut som noe stopper unnskyldningen før den mykere følelsen kan nå ham. Vi kan bruke to stoler: Fra denne stolen sier du «ikke kryp» og argumenterer for å holde deg hard; så bytter vi og hører fra faren som vil reparere."
               }
             }
           ]
@@ -2157,12 +2157,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "When I want closeness, I make a cold remark before anyone can see the need.",
-                "response": "That is a split between the side that wants closeness and the side that shuts it down before anyone sees need. We can give each side a chair and let them tell us what they are protecting."
+                "statement": "When I want closeness, I hear, Don't look needy, and a cold remark comes out instead.",
+                "response": "That sounds like closeness gets interrupted by a command not to look needy. We can use two chairs: first, sit with the cold, protective command and tell him why need is dangerous; then we will switch to the side that wants closeness."
               },
               "no": {
-                "statement": "Når jeg vil ha nærhet, kommer jeg med en kald kommentar før noen kan se behovet.",
-                "response": "Det er en splitt mellom siden som vil ha nærhet og siden som stenger den ned før noen ser behovet. Vi kan gi hver side en stol og la dem fortelle hva de beskytter."
+                "statement": "Når jeg vil ha nærhet, hører jeg: «Ikke se trengende ut», og så kommer det en kald kommentar i stedet.",
+                "response": "Det høres ut som nærhet blir avbrutt av en kommando om ikke å se trengende ut. Vi kan bruke to stoler: Først sitter du med den kalde, beskyttende kommandoen og forteller ham hvorfor behov er farlig; så bytter vi til siden som vil ha nærhet."
               }
             }
           ]

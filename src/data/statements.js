@@ -3808,12 +3808,12 @@ export const STATEMENT_SETS = {
         "suggestion": "It sounds like you are coming down hard on yourself for still needing him. If you are willing, we can put that demanding side in one chair and the hurting side in the other. Let the demanding side speak first in a few direct lines, then switch and answer from the hurt side while I guide the pace."
       },
       {
-        "text": "Sometimes I picture my ex across from me, and all I want to say is, You made me feel disposable.",
-        "suggestion": "There is unfinished business with your ex, especially around being made to feel disposable. We could put him in the empty chair and let you say what still lives inside you, a few lines at a time, with me slowing it if needed."
+        "text": "I keep replaying what I wish I had said when he left: You made me feel disposable.",
+        "suggestion": "That sounds like unfinished business with him around being made to feel disposable. If you are willing, we can place him in the empty chair and have you say that sentence directly to him, one or two lines at a time."
       },
       {
         "text": "When I start to cry, I swallow it fast and tell myself not to be pathetic.",
-        "suggestion": "That sounds like you tighten and stop the tears as they come. We can give the stopping side one chair and the tearful side the other, then let each side speak briefly so the tender side is no longer only silenced."
+        "suggestion": "That sounds like you stop the tears by shaming yourself. If you are willing, we can use two chairs: from this chair, show how you swallow the tears and tell yourself not to be pathetic; then we will switch and let the tearful side answer."
       }
     ],
     "case-michael": [
@@ -3826,8 +3826,8 @@ export const STATEMENT_SETS = {
         "suggestion": "That points to unfinished business with your father. If you are willing, put him in this chair and tell him what it cost you to have hurt treated as weakness. I will keep it structured and brief."
       },
       {
-        "text": "The second I soften, I clamp down and start listing what I should have done better.",
-        "suggestion": "That sounds like a demanding side that interrupts softness by attacking your performance. We could give that demanding side one chair and the softer, exhausted side the other, and let them speak directly to each other while I guide the turns."
+        "text": "The second I start to soften, I hear, Get it together, and I start listing what I should have done better.",
+        "suggestion": "That sounds like the hard command interrupts the softer feeling. We can use two chairs to make that clearer: from this chair, say 'get it together' and list what he should have done better; then we will switch and hear from the softer side."
       }
     ],
     "case-jason": [
@@ -3841,7 +3841,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "When I want to join a conversation, my throat tightens and I make myself stay quiet.",
-        "suggestion": "That is a split between the side that wants connection and the side that shuts you down. We can give each side a chair and let them show us what they fear."
+        "suggestion": "That sounds like you stop yourself from reaching for connection. If you are willing, move into this chair and show how you make him stay quiet; then we will switch back and hear what the side wanting to join the conversation needs."
       }
     ],
     "case-laura": [
@@ -3854,22 +3854,22 @@ export const STATEMENT_SETS = {
         "suggestion": "That sounds like unfinished business with your mother around not being protected. We could use the empty chair for one careful, titrated turn so you can say what still lives there."
       },
       {
-        "text": "When sadness comes close, I go blank and start talking like I am describing someone else's life.",
-        "suggestion": "That sounds like you shut feeling down by going blank and distant. We can give that numbing side one chair and the side that still feels the sadness the other, and let them tell us what they are trying to do for you."
+        "text": "When sadness comes close, I go blank and start listing facts like I am giving a report about someone else's life.",
+        "suggestion": "That sounds like a numbing move that interrupts sadness. If it feels safe enough, we can use two chairs: in this chair, show how you go blank and move into facts; then we will switch and give the sadness a few words."
       }
     ],
     "case-carlos": [
       {
         "text": "If I do not get on top first, I tell myself they will make me look like nothing.",
-        "suggestion": "That 'get on top or be nothing' pressure is a strong self-evaluative marker. We can put that pressure in one chair and the side that ends up feeling small in the other, and let each speak plainly."
+        "suggestion": "I hear how hard that pressure comes at you: be on top or be nothing. We can put that pressure in one chair and the part of you that feels made small in the other; first, sit with the pressure and tell him what happens if he does not come out on top."
       },
       {
         "text": "I still want to tell my father that the belt made me fear him; it did not make me respect him.",
         "suggestion": "There is unfinished business with your father and what his belt taught you. If you are willing, put him in this chair and say what that did to you, a few strong lines at a time."
       },
       {
-        "text": "Right before I back down, something in me surges forward, and then I see my son's face afterward.",
-        "suggestion": "That sounds like a split between the side that surges forward to fight and the side that feels ashamed afterward. We could give each one a chair and let them speak directly."
+        "text": "I start to say sorry to my son, then I hear, Don't grovel, and my face goes hard.",
+        "suggestion": "That sounds like something stops the apology before the softer feeling can reach him. We can use two chairs: from this chair, say 'don't grovel' and make the case for staying hard; then we will switch and hear from the father who wants to repair."
       }
     ],
     "case-nina": [
@@ -3878,18 +3878,18 @@ export const STATEMENT_SETS = {
         "suggestion": "That is a clear self-critical move against your need for help. We can put the 'selfish' message in one chair and the needing side in the other, and let each speak for a short turn while I guide you."
       },
       {
-        "text": "I still want to tell my ex that he left me carrying everything and then blamed me for being tired.",
-        "suggestion": "I hear unfinished business with your ex around blame, chores, and carrying too much alone. We could use the empty chair so you can say what you had to swallow back then."
+        "text": "I keep thinking of what I never said to my ex: You left me carrying everything and then blamed me for being tired.",
+        "suggestion": "I hear unfinished business with your ex around blame, chores, and carrying too much alone. We could use the empty chair; first, tell him that exact sentence and what it cost you to swallow it."
       },
       {
         "text": "When I want to say no, I smile and hear myself offering to do it anyway.",
-        "suggestion": "That sounds like a split between the pleasing side and the side that wants to speak up. We can give each one a chair and let each show what it fears will happen."
+        "suggestion": "That sounds like you interrupt your no by pleasing. We can use two chairs: from this chair, show how you smile and offer anyway; then we will switch and let the no speak plainly."
       }
     ],
     "case-aisha": [
       {
-        "text": "If someone does not answer, I run through every way they are leaving, and I tell myself to end it first.",
-        "suggestion": "That sounds like a catastrophizing worry split: one side floods you with abandonment scenarios and then pushes you to act. If it feels safe enough, we can put the worrying side in one chair and the side being overwhelmed in the other, and keep the turns short and anchored."
+        "text": "If someone does not answer, I picture them blocking me, laughing at me, finding someone better, and I tell myself to end it first.",
+        "suggestion": "That sounds like worry floods you with abandonment scenes and then pushes you to act. If it feels safe enough, we can put the worrying voice in one chair; first let it tell you the worst it thinks will happen, and then we will switch to the overwhelmed side."
       },
       {
         "text": "I still want to scream at my mother, How could you leave and then act like I was too much?",
@@ -3897,7 +3897,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "When I start needing someone, I attack myself for being too much to love.",
-        "suggestion": "That is a harsh self-attack. We can put 'too much to love' in one chair and the side that carries the need in the other, and let each side speak briefly."
+        "suggestion": "That is a harsh self-attack against needing. We can put 'too much to love' in one chair; first, let that voice say exactly what it says when you need someone, then switch and answer from the side carrying the need."
       }
     ],
     "case-david": [
@@ -3910,8 +3910,8 @@ export const STATEMENT_SETS = {
         "suggestion": "I hear unfinished business with your father around being valued only for results. We could use the empty chair and let you say what never got said to him."
       },
       {
-        "text": "When I want closeness, I make a cold remark before anyone can see the need.",
-        "suggestion": "That is a split between the side that wants closeness and the side that shuts it down before anyone sees need. We can give each side a chair and let them tell us what they are protecting."
+        "text": "When I want closeness, I hear, Don't look needy, and a cold remark comes out instead.",
+        "suggestion": "That sounds like closeness gets interrupted by a command not to look needy. We can use two chairs: first, sit with the cold, protective command and tell him why need is dangerous; then we will switch to the side that wants closeness."
       }
     ],
     "case-marcus": [
@@ -3920,12 +3920,12 @@ export const STATEMENT_SETS = {
         "suggestion": "I hear a strong guarding move that keeps watch instead of feeling. If it feels workable, we can put that guard in one chair and the lonely side it protects in the other, and keep the turns slow and short."
       },
       {
-        "text": "Sometimes I want to tell the younger version of me that none of what happened was his fault.",
-        "suggestion": "That sounds like unfinished business with your younger self. We could use the empty chair and let you say directly to him what he never heard, one or two lines at a time."
+        "text": "I still want to ask the foster parent who locked me in the closet why they acted like I was the problem.",
+        "suggestion": "That sounds like unfinished business with that foster parent around being trapped and blamed. If you are willing, we can bring them into the empty chair in imagination and let you ask that question directly, one or two lines at a time, with me slowing it down if it gets too much."
       },
       {
         "text": "I can describe what happened like a report, but if anger at the people in charge starts coming up, I shut it down.",
-        "suggestion": "That sounds like a self-interruptive split: the reporting side keeps you controlled while anger gets shut down. We can give the shutting-down side one chair and the angry side the other, and let them speak slowly enough that you stay oriented."
+        "suggestion": "That sounds like the report voice shuts down anger at the people in charge. We can use two chairs: first, sit where the report voice is and tell the angry side why it has to stay contained; then switch and give the anger a few controlled words."
       }
     ]
   },
