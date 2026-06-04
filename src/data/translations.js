@@ -2495,8 +2495,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Ikke rart alene kan kjennes tryggere, gitt hva nærhet har kostet deg, selv om det er ensomt."
     },
     "dp_exploratory-questions_case-sara_01": {
-      "text": "Når jeg ser navnet hans dukke opp hvor som helst, synker magen og jeg føler meg liten.",
-      "suggestion": "Når magen synker, hvilken kvalitet har følelsen - tung, hul eller stram?"
+      "text": "Du skulle sett blikket hun ga meg; jeg følte meg så liten.",
+      "suggestion": "Hvordan kjennes det inni deg når du føler deg så liten?"
     },
     "dp_exploratory-questions_case-sara_02": {
       "text": "Under brunsjen sier jeg at det går bra, men halsen strammer seg før løgnen er ferdig.",
@@ -2535,8 +2535,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du ser for deg den kafeen, hvilken følelse kommer før du bestemmer deg for å gå over gaten?"
     },
     "dp_exploratory-questions_case-michael_01": {
-      "text": "Når noen retter på én detalj, skyter varmen opp i nakken før jeg rekker å tenke.",
-      "suggestion": "Rett før varmen stiger, hvilken følelse blinker gjennom brystet eller halsen?"
+      "text": "Når noen retter på én detalj, blir jeg sint og flau samtidig.",
+      "suggestion": "Hvor merker du blandingen av sinne og flauhet akkurat nå?"
     },
     "dp_exploratory-questions_case-michael_02": {
       "text": "Et sukk fra kona får meg til å stritte imot, som om hun allerede har bestemt at jeg tar feil.",
@@ -2587,8 +2587,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du lurer på hva du har gjort feil, hvilken følelse følger med det spørsmålet?"
     },
     "dp_exploratory-questions_case-jason_04": {
-      "text": "Hvis noen ler på andre siden av rommet, føler jeg meg låst fast, som om vitsen har funnet meg.",
-      "suggestion": "Når du kjenner at latteren finner deg, hvor lander den fastlåste følelsen?"
+      "text": "Hvis noen ler på andre siden av rommet, antar jeg at det handler om meg.",
+      "suggestion": "Hva skjer inni deg når du tror latteren handler om deg?"
     },
     "dp_exploratory-questions_case-jason_05": {
       "text": "Jeg holder blikket på bordet så folk ikke skal se hvor klein jeg føler meg.",
@@ -2615,8 +2615,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når søndagstyngden kommer, hva sier den om hvor du hører til?"
     },
     "dp_exploratory-questions_case-laura_01": {
-      "text": "De fleste dager føles dempet, som om jeg ser på livet bak tykt glass.",
-      "suggestion": "Når du legger merke til det tykke glasset mellom deg og livet, hvor er avstanden sterkest?"
+      "text": "De fleste dager føles dempet, og jeg klarer ikke vite om jeg er trist eller bare nummen.",
+      "suggestion": "Når du sier dempet, hvor merker du det i deg selv?"
     },
     "dp_exploratory-questions_case-laura_02": {
       "text": "Hevede stemmer i gangen får det til å synke i magen og skuldrene til å stramme seg.",
@@ -2639,8 +2639,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du kjenner den morgenvakten, hvilket sted i deg er mest spent?"
     },
     "dp_exploratory-questions_case-laura_07": {
-      "text": "Gode nyheter lander flatt, som om de tilhører noen som faktisk kan kjenne noe.",
-      "suggestion": "Når de gode nyhetene lander flatt, hva merker du mellom deg og følelsen?"
+      "text": "Gode nyheter lander flatt, og jeg skjønner ikke hvorfor jeg ikke klarer å glede meg.",
+      "suggestion": "Hva legger du merke til inni deg når gode nyheter lander flatt?"
     },
     "dp_exploratory-questions_case-laura_08": {
       "text": "Noen ganger åpner en sang en sprekk, og tristhet kommer gjennom før jeg rekker å lukke den.",
@@ -2671,8 +2671,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du ser det rykket for deg nå, hvilken følelse er sterkest under varmen?"
     },
     "dp_exploratory-questions_case-carlos_05": {
-      "text": "Ro føles farlig, som å senke garden der folk kan slå til.",
-      "suggestion": "Når ro kjennes som å senke rustningen, hvilket sårbart sted virker det som den blottstiller?"
+      "text": "Ro føles farlig, som om noen kan utnytte det hvis jeg slapper av.",
+      "suggestion": "Hva skjer inni deg når ro begynner å føles farlig?"
     },
     "dp_exploratory-questions_case-carlos_06": {
       "text": "Jeg ødelegger ting fordi bølgen i meg kjennes for farlig til å bli igjen i hendene.",
@@ -2687,8 +2687,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når manglende respekt lander som et slag, hvilken følelse dukker opp sekundet før varmen?"
     },
     "dp_exploratory-questions_case-carlos_09": {
-      "text": "Etter en krangel klemmer jeg rattet til knokene blir hvite.",
-      "suggestion": "Hvis hendene kunne snakke fra det grepet, hva ville de sagt at de holder fast i?"
+      "text": "Etter en krangel holder jeg så hardt i rattet at jeg ikke klarer å slippe.",
+      "suggestion": "Hva legger du merke til i hendene når du holder så hardt i rattet?"
     },
     "dp_exploratory-questions_case-carlos_10": {
       "text": "Det jeg vil mest, er at familien min skal føle seg trygg med meg.",
@@ -2711,8 +2711,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når det ordet lander, hvor viser skammen seg i deg?"
     },
     "dp_exploratory-questions_case-nina_05": {
-      "text": "Jeg sier unnskyld før jeg ber om hjelp, som om behovet mitt allerede tar for mye plass.",
-      "suggestion": "Når behovet ditt kjennes for stort for rommet, hvilken følelse får du mot deg selv?"
+      "text": "Jeg sier unnskyld før jeg ber om hjelp, som om behovet mitt allerede er for mye.",
+      "suggestion": "Hvilken følelse får du mot deg selv når behovet ditt kjennes for stort?"
     },
     "dp_exploratory-questions_case-nina_06": {
       "text": "Utpå ettermiddagen hamrer hodet, og da skjønner jeg at jeg har svelget egne behov hele dagen.",
@@ -2735,8 +2735,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du ser for deg krasjet, hvilken følelse slipper endelig gjennom?"
     },
     "dp_exploratory-questions_case-aisha_01": {
-      "text": "Hvis et svar ikke kommer etter at jeg har åpnet meg, føles det som om jeg faller.",
-      "suggestion": "Når fallet begynner, hvor merker du det først?"
+      "text": "Hvis et svar ikke kommer etter at jeg har åpnet meg, får jeg panikk og sjekker telefonen om og om igjen.",
+      "suggestion": "Hvor merker du først panikken mens du fortsetter å sjekke?"
     },
     "dp_exploratory-questions_case-aisha_02": {
       "text": "Jeg går fra «ikke forlat meg» til «la meg være i fred» på sekunder.",
@@ -2759,8 +2759,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du ser for deg en avlysning, hva er det første som stikker i deg?"
     },
     "dp_exploratory-questions_case-aisha_07": {
-      "text": "Vennlighet får meg til å gråte og ville løpe før jeg rekker å stole på den.",
-      "suggestion": "Når vennlighet berører deg, hvilken retning trekker sterkest først: å bli nær eller å få avstand?"
+      "text": "Vennlighet får meg til å gråte, og så vil jeg komme meg bort fra den.",
+      "suggestion": "Hva er den første følelsen som kommer når vennlighet når inn?"
     },
     "dp_exploratory-questions_case-aisha_08": {
       "text": "Jeg tester folk etter at de kommer nær, for å se om de bryr seg nok til å bli.",
@@ -2783,12 +2783,12 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du legger merke til det hule stedet, hva virker det mest som det trenger fra deg?"
     },
     "dp_exploratory-questions_case-david_03": {
-      "text": "Jeg glatter skjorta og ramser opp prestasjoner når jeg føler meg dømt av kona mi.",
-      "suggestion": "Når du glatter skjorta og ramser opp prestasjoner, hvilken følelse prøver du å ikke vise?"
+      "text": "Jeg begynner å ramse opp prestasjoner når jeg føler meg dømt av kona mi.",
+      "suggestion": "Hvilken følelse prøver du å ikke vise når du ramser opp prestasjoner?"
     },
     "dp_exploratory-questions_case-david_04": {
-      "text": "Ros fra sjefen renner fort ut igjen, selv om en del av meg vil ha den.",
-      "suggestion": "Hvis ett kompliment ble værende et sekund lenger, hvor ville det landet?"
+      "text": "Ros fra sjefen føles godt i et sekund, og så trenger jeg mer.",
+      "suggestion": "Hva legger du merke til inni deg rett etter at rosen forsvinner?"
     },
     "dp_exploratory-questions_case-david_05": {
       "text": "Å innrømme at jeg tar feil, får ansiktet til å brenne som om alle kan se gjennom meg.",
@@ -2827,8 +2827,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du ser for deg gangene mellom hyllene, hvor samler spenningen seg først?"
     },
     "dp_exploratory-questions_case-marcus_04": {
-      "text": "Stillheten i leiligheten blir tung etter mørkets frembrudd, som om rommet holder pusten.",
-      "suggestion": "Når rommet kjennes som om det holder pusten, hvilken følelse rører seg i deg?"
+      "text": "Stillheten i leiligheten blir tung etter mørkets frembrudd.",
+      "suggestion": "Hvilken følelse kommer når leiligheten blir stille etter mørkets frembrudd?"
     },
     "dp_exploratory-questions_case-marcus_05": {
       "text": "Jeg sitter i bilen etter jobb for å slippe å gå inn i den tomme leiligheten.",
@@ -2839,8 +2839,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "I det lave lyset med telefonen ubesvart, hva beskytter avstanden i deg?"
     },
     "dp_exploratory-questions_case-marcus_07": {
-      "text": "Gode øyeblikk kjennes uvirkelige, som om jeg ser på varme gjennom et låst vindu.",
-      "suggestion": "Når varmen er der, men låst borte, hvor kjenner du hindringen inni deg?"
+      "text": "Gode øyeblikk kjennes uvirkelige, som om de ikke hører til meg.",
+      "suggestion": "Hva legger du merke til inni deg når et godt øyeblikk kjennes uvirkelig?"
     },
     "dp_exploratory-questions_case-marcus_08": {
       "text": "Plutselige lyder i trappeoppgangen får meg til å skvette, og så speider jeg etter fare.",
@@ -2851,8 +2851,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du sier at du ikke husker sist du lo ordentlig, hvilken følelse kommer nærmest overflaten?"
     },
     "dp_exploratory-questions_case-marcus_10": {
-      "text": "En del av meg sier at jeg har det best alene, fordi nærhet alltid krever betaling senere.",
-      "suggestion": "Når den delen advarer om at nærhet har en pris, hvilken fare ser den for seg?"
+      "text": "Jeg sier til meg selv at jeg har det best alene, fordi nærhet alltid koster noe.",
+      "suggestion": "Hvilken fare ser du for deg når nærhet kjennes som noe som koster?"
     },
     "dp_providing-treatment-rationale_case-sara_01": {
       "text": "Burde jeg ikke bare fokusere på positive tanker i stedet for å grave i hvor trist jeg er?",

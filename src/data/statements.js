@@ -1144,8 +1144,8 @@ export const STATEMENT_SETS = {
   "exploratory-questions": {
     "case-sara": [
       {
-        "text": "When I see his name pop up anywhere, my stomach drops and I feel small.",
-        "suggestion": "When your stomach drops, what quality does that feeling have - heavy, hollow, or tight?"
+        "text": "You should have seen the way she looked at me; I felt so small.",
+        "suggestion": "What is it like inside when you feel that small?"
       },
       {
         "text": "At brunch I say I am fine, but my throat tightens before the lie finishes.",
@@ -1186,8 +1186,8 @@ export const STATEMENT_SETS = {
     ],
     "case-michael": [
       {
-        "text": "When someone corrects one detail, heat shoots up my neck before I can think.",
-        "suggestion": "Just before the heat rises, what feeling flashes through your chest or throat?"
+        "text": "When someone corrects one detail, I get angry and embarrassed at the same time.",
+        "suggestion": "Where do you notice that mix of anger and embarrassment right now?"
       },
       {
         "text": "A sigh from my wife makes me bristle like she has already decided I am wrong.",
@@ -1240,8 +1240,8 @@ export const STATEMENT_SETS = {
         "suggestion": "When you wonder what you did wrong, what feeling comes with that question?"
       },
       {
-        "text": "If someone laughs across the room, I feel pinned like the joke has found me.",
-        "suggestion": "As you sense that laugh finding you, where does the pinned feeling land?"
+        "text": "If someone laughs across the room, I assume it is about me.",
+        "suggestion": "What happens inside when you think the laugh is about you?"
       },
       {
         "text": "I keep my eyes on the table so people will not see how awkward I feel.",
@@ -1270,8 +1270,8 @@ export const STATEMENT_SETS = {
     ],
     "case-laura": [
       {
-        "text": "Most days feel muted, like I am watching life from behind thick glass.",
-        "suggestion": "As you notice the thick glass between you and life, where is the distance strongest?"
+        "text": "Most days feel muted, and I cannot tell if I am sad or just numb.",
+        "suggestion": "When you say muted, where do you notice it in yourself?"
       },
       {
         "text": "Raised voices in the hallway make my stomach drop and my shoulders tense.",
@@ -1294,8 +1294,8 @@ export const STATEMENT_SETS = {
         "suggestion": "As you sense that morning guard, what place in you is braced the hardest?"
       },
       {
-        "text": "Good news lands flat, like it belongs to somebody who can actually feel things.",
-        "suggestion": "When the good news lands flat, what do you notice between you and the feeling?"
+        "text": "Good news lands flat, and I do not know why I cannot enjoy it.",
+        "suggestion": "What do you notice inside when good news lands flat?"
       },
       {
         "text": "Sometimes a song opens a crack, and sadness comes through before I can close it.",
@@ -1328,8 +1328,8 @@ export const STATEMENT_SETS = {
         "suggestion": "When you see that flinch now, what feeling is strongest under the heat?"
       },
       {
-        "text": "Calm feels dangerous, like letting my guard down where people can take a shot.",
-        "suggestion": "When calm feels like lowering armor, what vulnerable place does it seem to expose?"
+        "text": "Calm feels dangerous, like someone will take advantage if I relax.",
+        "suggestion": "What happens inside when calm starts to feel dangerous?"
       },
       {
         "text": "I break things because the surge in me feels too dangerous to leave in my hands.",
@@ -1344,8 +1344,8 @@ export const STATEMENT_SETS = {
         "suggestion": "When disrespect lands like a punch, what feeling appears in the second before the heat?"
       },
       {
-        "text": "After an argument, I grip the steering wheel until my knuckles go white.",
-        "suggestion": "If your hands could speak from that grip, what would they say they are holding onto?"
+        "text": "After an argument, I grip the steering wheel and cannot let it go.",
+        "suggestion": "What do you notice in your hands as you hold the wheel that tightly?"
       },
       {
         "text": "What I want most is for my family to feel safe with me.",
@@ -1370,8 +1370,8 @@ export const STATEMENT_SETS = {
         "suggestion": "When that word lands, where does the shame show up in you?"
       },
       {
-        "text": "I apologize before asking for help, like my need has already taken up too much room.",
-        "suggestion": "When your need feels too big for the room, what feeling comes up toward yourself?"
+        "text": "I apologize before asking for help, like my need is already too much.",
+        "suggestion": "What feeling comes up toward yourself when your need feels too big?"
       },
       {
         "text": "By afternoon my head pounds, and I realize I have been swallowing needs all day.",
@@ -1396,8 +1396,8 @@ export const STATEMENT_SETS = {
     ],
     "case-aisha": [
       {
-        "text": "If a reply does not come after I open up, I feel like I am falling.",
-        "suggestion": "As the falling starts, where do you first feel the drop?"
+        "text": "If a reply does not come after I open up, I panic and keep checking my phone.",
+        "suggestion": "Where do you first notice the panic as you keep checking?"
       },
       {
         "text": "I go from please do not leave to leave me alone in seconds.",
@@ -1420,8 +1420,8 @@ export const STATEMENT_SETS = {
         "suggestion": "When you imagine a cancellation, what is the first sting you notice?"
       },
       {
-        "text": "Kindness makes me cry and want to run before I can trust it.",
-        "suggestion": "When kindness touches you, which pull is stronger first: staying close or getting distance?"
+        "text": "Kindness makes me cry, and then I want to get away from it.",
+        "suggestion": "What is the first feeling that comes up when kindness reaches you?"
       },
       {
         "text": "I test people after they get close to see whether they care enough to stay.",
@@ -1446,12 +1446,12 @@ export const STATEMENT_SETS = {
         "suggestion": "As you notice that hollow place, what does it most seem to need from you?"
       },
       {
-        "text": "I smooth my shirt and list achievements when I feel judged by my wife.",
-        "suggestion": "When you smooth your shirt and list achievements, what feeling are you trying not to show?"
+        "text": "I start listing achievements when I feel judged by my wife.",
+        "suggestion": "What feeling are you trying not to show when you list achievements?"
       },
       {
-        "text": "Praise from my boss leaks out fast, even when part of me wants it.",
-        "suggestion": "If one compliment stayed one second longer, where would it land?"
+        "text": "Praise from my boss feels good for a second, and then I need more.",
+        "suggestion": "What do you notice inside right after the praise fades?"
       },
       {
         "text": "Admitting I am wrong makes my face burn like everyone can see through me.",
@@ -1492,8 +1492,8 @@ export const STATEMENT_SETS = {
         "suggestion": "As you picture those aisles, where does the tension gather first?"
       },
       {
-        "text": "The silence in my apartment gets heavy after dark, like the room is holding its breath.",
-        "suggestion": "When the room feels like it is holding its breath, what feeling stirs in you?"
+        "text": "The silence in my apartment gets heavy after dark.",
+        "suggestion": "What feeling comes up as the apartment gets quiet after dark?"
       },
       {
         "text": "I sit in the car after work to avoid going upstairs to the empty apartment.",
@@ -1504,8 +1504,8 @@ export const STATEMENT_SETS = {
         "suggestion": "In the low light with the phone unanswered, what does the distance protect in you?"
       },
       {
-        "text": "Good moments feel unreal, like I am looking at warmth through a locked window.",
-        "suggestion": "When warmth is there but locked away, where do you sense the block inside?"
+        "text": "Good moments feel unreal, like they do not belong to me.",
+        "suggestion": "What do you notice inside when a good moment feels unreal?"
       },
       {
         "text": "Sudden sounds in the stairwell make me jump and then scan for danger.",
@@ -1516,8 +1516,8 @@ export const STATEMENT_SETS = {
         "suggestion": "As you say you cannot remember laughing, what feeling comes closest to the surface?"
       },
       {
-        "text": "Part of me says I am better off alone because closeness always collects a debt.",
-        "suggestion": "When that part warns that closeness has a cost, what danger does it picture?"
+        "text": "I tell myself I am better off alone because closeness always costs something.",
+        "suggestion": "What danger do you picture when closeness feels costly?"
       }
     ]
   },

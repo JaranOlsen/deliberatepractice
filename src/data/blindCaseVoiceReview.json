@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T12:24:19.474Z",
+  "generatedAt": "2026-06-04T22:51:28.983Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -361,12 +361,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "When I see his name pop up anywhere, my stomach drops and I feel small.",
-            "response": "When your stomach drops, what quality does that feeling have - heavy, hollow, or tight?"
+            "statement": "You should have seen the way she looked at me; I felt so small.",
+            "response": "What is it like inside when you feel that small?"
           },
           "no": {
-            "statement": "Når jeg ser navnet hans dukke opp hvor som helst, synker magen og jeg føler meg liten.",
-            "response": "Når magen synker, hvilken kvalitet har følelsen - tung, hul eller stram?"
+            "statement": "Du skulle sett blikket hun ga meg; jeg følte meg så liten.",
+            "response": "Hvordan kjennes det inni deg når du føler deg så liten?"
           }
         }
       ]
@@ -397,12 +397,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "Calm feels dangerous, like letting my guard down where people can take a shot.",
-            "response": "When calm feels like lowering armor, what vulnerable place does it seem to expose?"
+            "statement": "Calm feels dangerous, like someone will take advantage if I relax.",
+            "response": "What happens inside when calm starts to feel dangerous?"
           },
           "no": {
-            "statement": "Ro føles farlig, som å senke garden der folk kan slå til.",
-            "response": "Når ro kjennes som å senke rustningen, hvilket sårbart sted virker det som den blottstiller?"
+            "statement": "Ro føles farlig, som om noen kan utnytte det hvis jeg slapper av.",
+            "response": "Hva skjer inni deg når ro begynner å føles farlig?"
           }
         }
       ]

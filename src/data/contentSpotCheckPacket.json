@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T12:24:19.474Z",
+  "generatedAt": "2026-06-04T22:51:28.982Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -623,12 +623,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "When I see his name pop up anywhere, my stomach drops and I feel small.",
-                "response": "When your stomach drops, what quality does that feeling have - heavy, hollow, or tight?"
+                "statement": "You should have seen the way she looked at me; I felt so small.",
+                "response": "What is it like inside when you feel that small?"
               },
               "no": {
-                "statement": "Når jeg ser navnet hans dukke opp hvor som helst, synker magen og jeg føler meg liten.",
-                "response": "Når magen synker, hvilken kvalitet har følelsen - tung, hul eller stram?"
+                "statement": "Du skulle sett blikket hun ga meg; jeg følte meg så liten.",
+                "response": "Hvordan kjennes det inni deg når du føler deg så liten?"
               }
             },
             {
@@ -686,12 +686,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "Most days feel muted, like I am watching life from behind thick glass.",
-                "response": "As you notice the thick glass between you and life, where is the distance strongest?"
+                "statement": "Most days feel muted, and I cannot tell if I am sad or just numb.",
+                "response": "When you say muted, where do you notice it in yourself?"
               },
               "no": {
-                "statement": "De fleste dager føles dempet, som om jeg ser på livet bak tykt glass.",
-                "response": "Når du legger merke til det tykke glasset mellom deg og livet, hvor er avstanden sterkest?"
+                "statement": "De fleste dager føles dempet, og jeg klarer ikke vite om jeg er trist eller bare nummen.",
+                "response": "Når du sier dempet, hvor merker du det i deg selv?"
               }
             },
             {
@@ -751,12 +751,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "If a reply does not come after I open up, I feel like I am falling.",
-                "response": "As the falling starts, where do you first feel the drop?"
+                "statement": "If a reply does not come after I open up, I panic and keep checking my phone.",
+                "response": "Where do you first notice the panic as you keep checking?"
               },
               "no": {
-                "statement": "Hvis et svar ikke kommer etter at jeg har åpnet meg, føles det som om jeg faller.",
-                "response": "Når fallet begynner, hvor merker du det først?"
+                "statement": "Hvis et svar ikke kommer etter at jeg har åpnet meg, får jeg panikk og sjekker telefonen om og om igjen.",
+                "response": "Hvor merker du først panikken mens du fortsetter å sjekke?"
               }
             },
             {
