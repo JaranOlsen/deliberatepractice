@@ -1783,16 +1783,16 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Du vil få det bedre med deg selv, og du kjenner deg klar til å begynne på det arbeidet."
     },
     "dp_empathic-understanding_case-sara_03": {
-      "text": "Når navnet hans dukker opp på et felles bilde, synker magen før jeg rekker å puste.",
-      "suggestion": "Navnet hans treffer først, og tapet skyller inn igjen før du rekker å samle deg."
+      "text": "Jeg så et gammelt bilde av oss i dag, og da ble jeg trist på nytt.",
+      "suggestion": "Bildet hentet tristheten tilbake i dag."
     },
     "dp_empathic-understanding_case-sara_04": {
       "text": "Jeg hater at jeg tar meg selv i å sjekke telefonen, fortsatt med håp om at navnet hans skal stå der.",
       "suggestion": "Det er fortsatt et håp som strekker seg mot ham, og det gjør vondt å oppdage det i deg selv."
     },
     "dp_empathic-understanding_case-sara_05": {
-      "text": "Å våkne er det verste — sjokket etter de første sekundene, før jeg husker.",
-      "suggestion": "Morgenen treffer hardt når minnene braser inn etter et kort øyeblikk av letthet."
+      "text": "Jeg våkner og husker at han er borte, og hele morgenen blir tung.",
+      "suggestion": "Det å huske det om morgenen gjør dagen tung helt fra starten."
     },
     "dp_empathic-understanding_case-sara_06": {
       "text": "Venner sier stadig at tid hjelper, men jeg blir flau over at jeg fortsatt er så hudløs.",
@@ -1827,12 +1827,12 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Sinnet brenner ut, og så treffer skammen når du ser smerten i ansiktet hennes."
     },
     "dp_empathic-understanding_case-michael_04": {
-      "text": "Jeg skanner hvert møterom etter respektløshet før jeg engang setter meg.",
-      "suggestion": "Du kommer inn allerede på vakt etter respektløshet, anspent før noen har sagt noe."
+      "text": "Når folk stiller spørsmål ved meg i møter, blir jeg fort sint.",
+      "suggestion": "Å bli stilt spørsmål ved i møter får sinnet raskt opp."
     },
     "dp_empathic-understanding_case-michael_05": {
-      "text": "Når noen spør om noe jeg ikke kan svare på, blir rommet større og jeg føler meg liten.",
-      "suggestion": "Det å ikke vite gjør at du føler deg liten og blottstilt foran alle."
+      "text": "Når noen spør om noe jeg ikke kan svare på, blir jeg flau foran hele rommet.",
+      "suggestion": "Det å ikke ha svaret gjør deg flau foran alle."
     },
     "dp_empathic-understanding_case-michael_06": {
       "text": "Jeg sitter oppe og overforbereder presentasjonen så ingen kan ta meg i å være usikker om morgenen.",
@@ -1871,8 +1871,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Ros berører deg et øyeblikk, før selvtvilen gjør seg klar til at den skal forsvinne."
     },
     "dp_empathic-understanding_case-jason_05": {
-      "text": "Jeg skriver om en enkel melding i en halvtime og klarer likevel ikke å trykke send.",
-      "suggestion": "Selv en enkel melding blir ladet med frykt for å gjøre feil."
+      "text": "Jeg blir engstelig av å sende selv enkle meldinger, så jeg skriver dem om og om igjen.",
+      "suggestion": "Selv en enkel melding vekker angst og tvil."
     },
     "dp_empathic-understanding_case-jason_06": {
       "text": "Jeg spiser lunsj ved pulten så jeg slipper å gå inn på pauserommet.",
@@ -1895,8 +1895,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Søndagskveldene bringer en tung ensomhet, som om uka åpner seg uten at noen venter på deg."
     },
     "dp_empathic-understanding_case-laura_01": {
-      "text": "De fleste dager føles flate, som om jeg ser på livet mitt bak glass.",
-      "suggestion": "Livet kjennes dempet og langt unna, som om du kan se det, men ikke helt nå det."
+      "text": "De fleste dager kjenner jeg meg flat og langt unna alle andre.",
+      "suggestion": "Du kjenner deg flat og fjern fra andre mennesker de fleste dager."
     },
     "dp_empathic-understanding_case-laura_02": {
       "text": "Hevede stemmer får meg til å fryse før jeg vet om noen er sinte på meg.",
@@ -1927,16 +1927,16 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Konfliktscener trekker deg inn i gammel frykt før tankene rekker å følge med."
     },
     "dp_empathic-understanding_case-laura_09": {
-      "text": "Gode nyheter når ikke inn; de kjennes dempet før jeg rekker å glede meg.",
-      "suggestion": "Gode ting lander svakt, som om tåken demper dem før de kan bli dine."
+      "text": "Selv når noe godt skjer, kjenner jeg meg ikke glad særlig lenge.",
+      "suggestion": "Gode nyheter når inn bare en kort stund før gleden forsvinner."
     },
     "dp_empathic-understanding_case-laura_10": {
       "text": "Jeg husker ikke hva jeg liker lenger; selv fritid kjennes som en ny oppgave.",
       "suggestion": "Glede kjennes langt unna når selv fritid har blitt noe du må komme deg gjennom."
     },
     "dp_empathic-understanding_case-carlos_01": {
-      "text": "Et skjevt blikk over bordet fyrer meg opp før jeg engang vet hva det traff.",
-      "suggestion": "Det blikket tenner varmen raskt, før du rekker å kjenne hvilken del av deg som ble truffet."
+      "text": "Når noen gir meg et blikk ved middagsbordet, blir jeg fort sint.",
+      "suggestion": "Et blikk ved middagsbordet kan vekke sinne veldig raskt."
     },
     "dp_empathic-understanding_case-carlos_02": {
       "text": "Jeg hater å huske øyeblikket da sønnen min så meg smelle igjen den døra.",
@@ -1955,8 +1955,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Etter smellet bringer den forsiktige stillheten deres skam og anger."
     },
     "dp_empathic-understanding_case-carlos_06": {
-      "text": "Jeg stoler ikke på ro; det kjennes som å stå der uten rustning.",
-      "suggestion": "Ro kjennes blottstilt, som om det å senke garden lar deg stå ubeskyttet."
+      "text": "Når ting blir rolige, blir jeg nervøs i stedet for avslappet.",
+      "suggestion": "Ro kjennes ikke avslappende for deg; den vekker nervøsitet."
     },
     "dp_empathic-understanding_case-carlos_07": {
       "text": "Når jeg mykner med sønnen min, hører jeg farens stemme kalle meg svak.",
@@ -1979,8 +1979,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Behov vekker skyld, særlig når utmattelsen sier at du ikke kan bære alt videre."
     },
     "dp_empathic-understanding_case-nina_02": {
-      "text": "Jeg gjør alt for alle og føler meg fortsatt usynlig på mitt eget kjøkken.",
-      "suggestion": "Du bærer så mye hjemme og kjenner deg likevel usett der du mest ønsker å bety noe."
+      "text": "Jeg gjør alt hjemme og føler meg fortsatt usett.",
+      "suggestion": "Du gjør så mye hjemme og kjenner deg likevel usett."
     },
     "dp_empathic-understanding_case-nina_03": {
       "text": "Når jeg sier nei, knyter magen seg mens jeg ser for meg at alle blir skuffet.",
@@ -1991,8 +1991,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Aktiviteten holder deg unna bitterheten og tristheten under den."
     },
     "dp_empathic-understanding_case-nina_05": {
-      "text": "Når jeg setter meg for å hvile, kaller en stemme meg lat i løpet av sekunder.",
-      "suggestion": "Hvile vekker raskt en skamfull stemme, som om det å stoppe betyr å feile."
+      "text": "Når jeg setter meg for å hvile, får jeg skyldfølelse i løpet av sekunder.",
+      "suggestion": "Hvile vekker skyldfølelse nesten med en gang."
     },
     "dp_empathic-understanding_case-nina_06": {
       "text": "Jeg unnskylder selv små forespørsler, som om behovene mine er til bry.",
@@ -2015,8 +2015,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Presset viser seg som smerte mens du fortsetter å gå forbi grensene dine."
     },
     "dp_empathic-understanding_case-aisha_01": {
-      "text": "Hvis du ser bort mens jeg snakker, slår panikken inn som om jeg har blitt sluppet.",
-      "suggestion": "Et blikk bort lander som forlatthet, og panikken skyller inn rundt følelsen av å bli sluppet."
+      "text": "Hvis du ser bort mens jeg snakker, får jeg panikk for at du mister interessen.",
+      "suggestion": "Et blikk bort vekker panikk for at jeg er i ferd med å miste interessen."
     },
     "dp_empathic-understanding_case-aisha_02": {
       "text": "Når en melding ikke kommer, låser brystet seg, og jeg får ikke puste.",
@@ -2027,8 +2027,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Bønnen om nærhet slår over i sinne når frykten for å bli forlatt skyter i været."
     },
     "dp_empathic-understanding_case-aisha_04": {
-      "text": "Tomheten kjennes som et hull i brystet som bare trekker.",
-      "suggestion": "Det er en dyp, trekkende tomhet i brystet som verker og ikke slipper taket."
+      "text": "Jeg blir tom og desperat når ingen er nær.",
+      "suggestion": "Uten nærhet kjenner du deg tom og desperat."
     },
     "dp_empathic-understanding_case-aisha_05": {
       "text": "Når jeg blir nummen, klorer jeg meg i huden fordi nummenhet kjennes skumlere enn smerte.",
@@ -2063,8 +2063,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Å ikke være på topp kjennes som å miste verdi og stå uten noe å gjemme deg bak."
     },
     "dp_empathic-understanding_case-david_03": {
-      "text": "Jeg ramser opp prestasjoner når jeg føler meg angrepet, som om merittlisten må forsvare meg.",
-      "suggestion": "Prestasjonene blir rustning når du føler deg dømt og blottstilt."
+      "text": "Når jeg føler meg kritisert, begynner jeg å ramse opp alt jeg har fått til.",
+      "suggestion": "Kritikk vekker behovet for å ramse opp det du har fått til."
     },
     "dp_empathic-understanding_case-david_04": {
       "text": "Ros føles godt, så renner det ut igjen, og jeg trenger mer bevis.",
@@ -2079,8 +2079,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Tårene deres vekker utålmodighet og selvforakt, fordi du hører hardheten i deg selv."
     },
     "dp_empathic-understanding_case-david_07": {
-      "text": "Etter at affæren kom fram, føles huset kaldt, og hvert rom minner meg om at jeg mislyktes.",
-      "suggestion": "Hjemmet føles tappet for varme nå, og kulden peker deg stadig tilbake på følelsen av å ha mislyktes."
+      "text": "Etter at affæren kom fram, får det å være hjemme meg til å føle meg mislykket.",
+      "suggestion": "Hjemme vekker nå følelsen av at du har mislyktes."
     },
     "dp_empathic-understanding_case-david_08": {
       "text": "Fars krav styrer meg fortsatt; selv når jeg lykkes, føles det som jeg så vidt holder tritt.",
@@ -2099,8 +2099,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Rutinene fortsetter mens nummenheten ligger mellom deg og dagen."
     },
     "dp_empathic-understanding_case-marcus_02": {
-      "text": "Så, helt ut av det blå, treffer en bølge meg, og jeg finner ikke tilbake til rommet.",
-      "suggestion": "Følelsen kommer brått og drar deg ut av nåtiden før du rekker å finne fotfeste."
+      "text": "Noen ganger treffer en følelse helt brått, og jeg mister oversikten over hvor jeg er et øyeblikk.",
+      "suggestion": "En brå følelse kan trekke deg bort fra rommet en stund."
     },
     "dp_empathic-understanding_case-marcus_03": {
       "text": "Mareritt gjør meg oppskrudd og tom, som om rommet ikke er trygt.",
@@ -2112,7 +2112,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-understanding_case-marcus_05": {
       "text": "Etter jobb sitter jeg i mørket fordi lys og stemmer føles som for mye.",
-      "suggestion": "Mørket gir deg et dempet sted der dagen ikke kan kreve mer av deg."
+      "suggestion": "Etter jobb kjennes mørket lettere enn mer lys og lyd."
     },
     "dp_empathic-understanding_case-marcus_06": {
       "text": "Når noe godt skjer, kjennes det langt borte, som om det tilhører noen andre.",

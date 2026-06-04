@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T11:16:32.468Z",
+  "generatedAt": "2026-06-04T12:24:19.474Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -65,12 +65,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "When someone asks a question I cannot answer, the room feels bigger and I feel small.",
-            "response": "Not knowing leaves you feeling small and exposed in front of everyone."
+            "statement": "When someone asks a question I cannot answer, I feel embarrassed in front of the room.",
+            "response": "Not having the answer leaves you embarrassed in front of everyone."
           },
           "no": {
-            "statement": "Når noen spør om noe jeg ikke kan svare på, blir rommet større og jeg føler meg liten.",
-            "response": "Det å ikke vite gjør at du føler deg liten og blottstilt foran alle."
+            "statement": "Når noen spør om noe jeg ikke kan svare på, blir jeg flau foran hele rommet.",
+            "response": "Det å ikke ha svaret gjør deg flau foran alle."
           }
         },
         {

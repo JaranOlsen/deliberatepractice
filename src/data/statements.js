@@ -392,16 +392,16 @@ export const STATEMENT_SETS = {
         "suggestion": "You want to feel better about yourself, and you feel ready to begin that work."
       },
       {
-        "text": "When his name pops up in a shared photo, my stomach drops before I can breathe.",
-        "suggestion": "His name hits first, and the loss rushes back before you can steady yourself."
+        "text": "I saw an old photo of us today, and it made me sad all over again.",
+        "suggestion": "The photo brought the sadness back today."
       },
       {
         "text": "I hate catching myself checking the phone, still hoping his name will be there.",
         "suggestion": "There is still a hopeful reach toward him, and it hurts to find it in yourself."
       },
       {
-        "text": "Waking up is the worst — the shock after those first seconds before I remember.",
-        "suggestion": "Mornings hit hard as the memory crashes in after a brief lightness."
+        "text": "I wake up and remember he is gone, and the whole morning feels heavy.",
+        "suggestion": "Remembering in the morning makes the day feel heavy from the start."
       },
       {
         "text": "Friends keep saying time helps, but I feel embarrassed that I am still this raw.",
@@ -438,12 +438,12 @@ export const STATEMENT_SETS = {
         "suggestion": "The anger burns out, and then shame hits when you see the hurt on her face."
       },
       {
-        "text": "I scan every meeting room for disrespect before I even sit down.",
-        "suggestion": "You come in already braced for disrespect, tense before anyone has said anything."
+        "text": "When people question me in meetings, I get angry fast.",
+        "suggestion": "Being questioned in meetings brings anger up quickly."
       },
       {
-        "text": "When someone asks a question I cannot answer, the room feels bigger and I feel small.",
-        "suggestion": "Not knowing leaves you feeling small and exposed in front of everyone."
+        "text": "When someone asks a question I cannot answer, I feel embarrassed in front of the room.",
+        "suggestion": "Not having the answer leaves you embarrassed in front of everyone."
       },
       {
         "text": "I stay up overpreparing slides so no one catches me unsure in the morning.",
@@ -484,8 +484,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Praise touches you briefly, then self-doubt prepares for it to disappear."
       },
       {
-        "text": "I rewrite a simple text for half an hour and still cannot press send.",
-        "suggestion": "Even a simple message becomes loaded with fear of getting it wrong."
+        "text": "I get anxious sending even simple texts, so I keep rewriting them.",
+        "suggestion": "Even a simple text brings anxiety and second-guessing."
       },
       {
         "text": "I eat lunch at my desk so I do not have to enter the break room.",
@@ -510,8 +510,8 @@ export const STATEMENT_SETS = {
     ],
     "case-laura": [
       {
-        "text": "Most days feel flat, like I am watching my life from behind glass.",
-        "suggestion": "Life feels muted and distant, as if you can see it but cannot quite reach it."
+        "text": "Most days I feel flat and far away from everyone.",
+        "suggestion": "You feel flat and distant from other people most days."
       },
       {
         "text": "Raised voices freeze me before I know whether anyone is angry at me.",
@@ -542,8 +542,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Conflict scenes pull you into old fear before thought can catch up."
       },
       {
-        "text": "Good news does not reach me; it feels muted before I can enjoy it.",
-        "suggestion": "Good things land faintly, as if the fog dulls them before they can become yours."
+        "text": "Even when something good happens, I do not feel happy for very long.",
+        "suggestion": "Good news reaches you only briefly before the happiness fades."
       },
       {
         "text": "I cannot remember what I enjoy; even free time feels like another task.",
@@ -552,8 +552,8 @@ export const STATEMENT_SETS = {
     ],
     "case-carlos": [
       {
-        "text": "A sideways look at the table lights me up before I even know what it touched.",
-        "suggestion": "That look sparks heat fast, before you can tell what part of you got hit."
+        "text": "When someone gives me a look at dinner, I get angry fast.",
+        "suggestion": "A look at dinner can bring anger up very quickly."
       },
       {
         "text": "I hate remembering the moment my son watched me slam that door.",
@@ -572,8 +572,8 @@ export const STATEMENT_SETS = {
         "suggestion": "After the blast, their careful quiet brings shame and regret."
       },
       {
-        "text": "I do not trust calm; it feels like standing there without armor.",
-        "suggestion": "Calm feels exposed, as if dropping your guard leaves you unprotected."
+        "text": "When things get calm, I feel nervous instead of relaxed.",
+        "suggestion": "Calm does not feel relaxing to you; it brings nervousness."
       },
       {
         "text": "When I soften with my son, my father's voice calls me weak.",
@@ -598,8 +598,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Need brings guilt, especially when exhaustion says you cannot keep carrying it all."
       },
       {
-        "text": "I do everything for everyone and still feel invisible in my own kitchen.",
-        "suggestion": "You carry so much at home and still feel unseen where you most want to matter."
+        "text": "I do everything at home and still feel unseen.",
+        "suggestion": "You do so much at home and still feel unseen."
       },
       {
         "text": "When I say no, my stomach knots while I picture everyone disappointed.",
@@ -610,8 +610,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Staying busy keeps you away from the resentment and the sadness underneath."
       },
       {
-        "text": "When I sit down to rest, a voice calls me lazy within seconds.",
-        "suggestion": "Rest quickly brings a shaming voice, as if stopping means failing."
+        "text": "When I sit down to rest, I feel guilty within seconds.",
+        "suggestion": "Rest brings guilt almost immediately."
       },
       {
         "text": "I apologize for even small requests, like my needs are an inconvenience.",
@@ -636,8 +636,8 @@ export const STATEMENT_SETS = {
     ],
     "case-aisha": [
       {
-        "text": "If you glance away while I am talking, panic hits like I have been dropped.",
-        "suggestion": "A glance away lands as abandonment, and panic rushes in around that dropped feeling."
+        "text": "If you look away while I am talking, I panic that you are losing interest.",
+        "suggestion": "A look away brings panic that I may be losing interest."
       },
       {
         "text": "When a text does not come, my chest locks and I cannot breathe.",
@@ -648,8 +648,8 @@ export const STATEMENT_SETS = {
         "suggestion": "The plea for closeness flips into anger when the fear of being left spikes."
       },
       {
-        "text": "The emptiness feels like a hole in my chest that keeps pulling.",
-        "suggestion": "There is a deep, pulling emptiness in your chest that aches and will not let go."
+        "text": "I feel empty and desperate when nobody is close.",
+        "suggestion": "Being without closeness leaves you empty and desperate."
       },
       {
         "text": "When I go numb, I scratch at my skin because numbness feels scarier than pain.",
@@ -686,8 +686,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Being off the top feels like losing worth and having nowhere to hide."
       },
       {
-        "text": "I list accomplishments when I feel attacked, like my record has to defend me.",
-        "suggestion": "Achievements become armor when you feel judged and exposed."
+        "text": "When I feel criticized, I start listing everything I have achieved.",
+        "suggestion": "Criticism brings up the need to list what you have achieved."
       },
       {
         "text": "Praise feels good, then it leaks out and I need more proof.",
@@ -702,8 +702,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Their tears bring up impatience and self-disgust, because you hear the hardness in yourself."
       },
       {
-        "text": "Since the affair came out, the house feels cold, and every room reminds me I failed.",
-        "suggestion": "Home feels stripped of warmth now, and the cold keeps pointing you back to failure."
+        "text": "Since the affair came out, being at home makes me feel like a failure.",
+        "suggestion": "Home now brings up the feeling that you have failed."
       },
       {
         "text": "My father's standards still run me; even success feels like barely keeping up.",
@@ -724,8 +724,8 @@ export const STATEMENT_SETS = {
         "suggestion": "The routine keeps moving while numbness sits between you and the day."
       },
       {
-        "text": "Then out of nowhere, a wave hits me and I cannot find the room.",
-        "suggestion": "The feeling arrives suddenly and pulls you out of the present before you can steady yourself."
+        "text": "Sometimes a feeling hits suddenly, and I lose track of where I am for a minute.",
+        "suggestion": "A sudden feeling can pull you away from the room for a while."
       },
       {
         "text": "Nightmares leave me wired and empty, like the room is not safe.",
@@ -737,7 +737,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "After work I sit in the dark because light and voices feel like too much.",
-        "suggestion": "The dark gives you a muted place where the day cannot demand anything more from you."
+        "suggestion": "After work, darkness feels easier than more light and sound."
       },
       {
         "text": "When something good happens, it feels far away, like it belongs to someone else.",

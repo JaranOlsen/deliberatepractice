@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T11:16:32.467Z",
+  "generatedAt": "2026-06-04T12:24:19.474Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -130,12 +130,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "When I sit down to rest, a voice calls me lazy within seconds.",
-            "response": "Rest quickly brings a shaming voice, as if stopping means failing."
+            "statement": "When I sit down to rest, I feel guilty within seconds.",
+            "response": "Rest brings guilt almost immediately."
           },
           "no": {
-            "statement": "Når jeg setter meg for å hvile, kaller en stemme meg lat i løpet av sekunder.",
-            "response": "Hvile vekker raskt en skamfull stemme, som om det å stoppe betyr å feile."
+            "statement": "Når jeg setter meg for å hvile, får jeg skyldfølelse i løpet av sekunder.",
+            "response": "Hvile vekker skyldfølelse nesten med en gang."
           }
         },
         {
@@ -143,12 +143,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "Waking up is the worst — the shock after those first seconds before I remember.",
-            "response": "Mornings hit hard as the memory crashes in after a brief lightness."
+            "statement": "I wake up and remember he is gone, and the whole morning feels heavy.",
+            "response": "Remembering in the morning makes the day feel heavy from the start."
           },
           "no": {
-            "statement": "Å våkne er det verste — sjokket etter de første sekundene, før jeg husker.",
-            "response": "Morgenen treffer hardt når minnene braser inn etter et kort øyeblikk av letthet."
+            "statement": "Jeg våkner og husker at han er borte, og hele morgenen blir tung.",
+            "response": "Det å huske det om morgenen gjør dagen tung helt fra starten."
           }
         }
       ]
@@ -217,12 +217,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "Most days feel flat, like I am watching my life from behind glass.",
-            "response": "Life feels muted and distant, as if you can see it but cannot quite reach it."
+            "statement": "Most days I feel flat and far away from everyone.",
+            "response": "You feel flat and distant from other people most days."
           },
           "no": {
-            "statement": "De fleste dager føles flate, som om jeg ser på livet mitt bak glass.",
-            "response": "Livet kjennes dempet og langt unna, som om du kan se det, men ikke helt nå det."
+            "statement": "De fleste dager kjenner jeg meg flat og langt unna alle andre.",
+            "response": "Du kjenner deg flat og fjern fra andre mennesker de fleste dager."
           }
         }
       ]

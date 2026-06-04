@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T11:16:32.467Z",
+  "generatedAt": "2026-06-04T12:24:19.474Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -244,12 +244,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "When someone asks a question I cannot answer, the room feels bigger and I feel small.",
-                "response": "Not knowing leaves you feeling small and exposed in front of everyone."
+                "statement": "When someone asks a question I cannot answer, I feel embarrassed in front of the room.",
+                "response": "Not having the answer leaves you embarrassed in front of everyone."
               },
               "no": {
-                "statement": "Når noen spør om noe jeg ikke kan svare på, blir rommet større og jeg føler meg liten.",
-                "response": "Det å ikke vite gjør at du føler deg liten og blottstilt foran alle."
+                "statement": "Når noen spør om noe jeg ikke kan svare på, blir jeg flau foran hele rommet.",
+                "response": "Det å ikke ha svaret gjør deg flau foran alle."
               }
             },
             {
@@ -290,12 +290,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "A sideways look at the table lights me up before I even know what it touched.",
-                "response": "That look sparks heat fast, before you can tell what part of you got hit."
+                "statement": "When someone gives me a look at dinner, I get angry fast.",
+                "response": "A look at dinner can bring anger up very quickly."
               },
               "no": {
-                "statement": "Et skjevt blikk over bordet fyrer meg opp før jeg engang vet hva det traff.",
-                "response": "Det blikket tenner varmen raskt, før du rekker å kjenne hvilken del av deg som ble truffet."
+                "statement": "Når noen gir meg et blikk ved middagsbordet, blir jeg fort sint.",
+                "response": "Et blikk ved middagsbordet kan vekke sinne veldig raskt."
               }
             },
             {
