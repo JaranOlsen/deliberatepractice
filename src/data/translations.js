@@ -5051,40 +5051,40 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Det høres ut som du stopper deg selv fra å søke kontakt. Hvis du vil, kan du flytte deg til denne stolen og vise hvordan du får ham til å tie; så bytter vi tilbake og hører hva siden som vil inn i samtalen trenger."
     },
     "dp_marker-recognition-chairwork_case-laura_01": {
-      "text": "Når noen er snill, sier jeg til meg selv at jeg må trekke meg unna før jeg lar meg lure.",
-      "suggestion": "Det høres ut som en mistroisk side som kommer raskt inn for å beskytte deg mot vennlighet. Hvis det kjennes trygt nok, setter vi den beskyttende siden i én stol og siden som lengter etter vennlighet i den andre, og holder rundene veldig korte."
+      "text": "Da mannen min dro, tenkte jeg: selvfølgelig gjorde han det. Hvem blir hos en som er så ødelagt?",
+      "suggestion": "Det høres ut som du gjør skilsmissen til en hard dom over deg selv. Hvis det kjennes trygt nok, kan vi bruke to stoler for å få angrepet tydeligere fram: Fra denne stolen sier du til henne at hun er for ødelagt til at noen blir; så bytter vi og hører fra siden som har båret den dommen."
     },
     "dp_marker-recognition-chairwork_case-laura_02": {
-      "text": "Jeg vil fortsatt spørre moren min hvorfor hun bare fortsatte å vaske opp når hun visste hva som skjedde.",
-      "suggestion": "Det høres ut som uavsluttet oppgjør med moren din rundt det å ikke bli beskyttet. Vi kan bruke den tomme stolen i en forsiktig, dosert runde, så du kan si det som fortsatt lever der."
+      "text": "Jeg sa aldri til moren min: «Du så hva som skjedde og fortsatte å vaske opp.» Jeg tenker fortsatt mer på det enn jeg vil.",
+      "suggestion": "Det høres ut som et uavsluttet oppgjør med moren din rundt det å bli stående uten beskyttelse. Hvis du vil, kan vi hente henne inn i den tomme stolen og la deg si den setningen direkte til henne, langsomt og bare så langt det kjennes håndterbart."
     },
     "dp_marker-recognition-chairwork_case-laura_03": {
-      "text": "Når tristheten kommer nær, blir jeg blank og begynner å liste opp fakta, som om jeg avlegger rapport om livet til noen andre.",
-      "suggestion": "Det høres ut som en nummende bevegelse som avbryter tristheten. Hvis det kjennes trygt nok, kan vi bruke to stoler: I denne stolen viser du hvordan du blir blank og går over i fakta; så bytter vi og gir tristheten noen få ord."
+      "text": "Da eksmannen min flyttet ut, gråt jeg ikke. Jeg vasket kjøkkenet og kjente ingenting, som om jeg burde vært såret, men bare var helt blank.",
+      "suggestion": "Det høres ut som nummenheten kom inn og stengte for såretheten. Hvis det kjennes trygt nok, kan vi bruke to stoler: Fra denne stolen viser du hvordan du blir blank og fortsetter å vaske; så bytter vi og gir det sårede noen få ord."
     },
     "dp_marker-recognition-chairwork_case-carlos_01": {
-      "text": "Hvis jeg ikke kommer meg øverst først, sier jeg til meg selv at de får meg til å se ut som ingenting.",
-      "suggestion": "Jeg hører hvor hardt det presset kommer mot deg: øverst eller ingenting. Vi kan sette presset i én stol og den delen av deg som kjenner seg gjort liten i den andre. Først kan du sitte med presset og fortelle ham hva som skjer hvis han ikke kommer øverst."
+      "text": "Etter at jeg slo hull i veggen, tenkte jeg hele tiden: Hva slags mann skremmer sin egen familie?",
+      "suggestion": "Det høres ut som du gir deg selv hard skyld for å ha skremt dem. Kan vi arbeide litt med den skylden? Sett deg i denne stolen og si det direkte til ham: «Hva slags mann skremmer sin egen familie?» Så bytter vi og hører hva det gjør med ham."
     },
     "dp_marker-recognition-chairwork_case-carlos_02": {
-      "text": "Jeg vil fortsatt si til faren min at beltet gjorde meg redd for ham; det fikk meg ikke til å respektere ham.",
-      "suggestion": "Det ligger uavsluttet oppgjør med faren din her og med det beltet lærte deg. Hvis du vil, kan du sette ham i denne stolen og si hva det gjorde med deg, noen sterke linjer om gangen."
+      "text": "Jeg vil fortsatt si til faren min at beltet ikke gjorde meg til mann. Det gjorde meg bare redd for ham.",
+      "suggestion": "Det høres ut som et uavsluttet oppgjør med faren din og hva disiplinen hans kostet deg. Hvis du vil, kan vi sette ham i den tomme stolen og la deg si det direkte til ham, noen sterke linjer om gangen."
     },
     "dp_marker-recognition-chairwork_case-carlos_03": {
-      "text": "Jeg begynner å si unnskyld til sønnen min, så hører jeg: «Ikke kryp», og ansiktet mitt blir hardt.",
-      "suggestion": "Det høres ut som noe stopper unnskyldningen før den mykere følelsen kan nå ham. Vi kan bruke to stoler: Fra denne stolen sier du «ikke kryp» og argumenterer for å holde deg hard; så bytter vi og hører fra faren som vil reparere."
+      "text": "Jeg begynner å si unnskyld til sønnen min, og så lukker munnen seg. Jeg tenker: ikke vis svakhet, og ansiktet mitt blir hardt.",
+      "suggestion": "Det høres ut som noe stopper unnskyldningen før den mykere følelsen kan nå ham. Vi kan bruke to stoler: Fra denne stolen sier du til ham at han ikke skal vise svakhet, og argumenterer for å holde seg hard; så bytter vi og hører fra faren som vil reparere."
     },
     "dp_marker-recognition-chairwork_case-nina_01": {
-      "text": "I det øyeblikket jeg tenker på å be om hjelp, hører jeg hvor egoistisk det høres ut.",
-      "suggestion": "Det er et tydelig selvkritisk angrep på behovet ditt for hjelp. Vi kan sette «egoistisk»-budskapet i én stol og den siden som trenger hjelp i den andre, og la hver side snakke en kort runde mens jeg guider deg."
+      "text": "Skilsmissen er sikkert min feil. Jeg burde vært søtere, roligere, enklere, mindre utslitt.",
+      "suggestion": "Det høres ut som du legger veldig hard skyld på deg selv for at ekteskapet tok slutt. Vi kan bruke to stoler for å høre den skylden tydelig: Fra denne stolen sier du til henne at hun burde vært søtere og enklere; så bytter vi og hører hva det gjør med henne."
     },
     "dp_marker-recognition-chairwork_case-nina_02": {
-      "text": "Jeg tenker fortsatt på det jeg aldri sa til eksen min: «Du lot meg bære alt og skyldte så på meg for at jeg var sliten.»",
-      "suggestion": "Jeg hører et uavsluttet oppgjør med eksen din rundt skyld, husarbeid og det å bære for mye alene. Vi kan bruke den tomme stolen. Først kan du si akkurat den setningen til ham og hva det kostet å svelge den."
+      "text": "Jeg tenker fortsatt på det jeg aldri sa til eksen min: «Du lot meg bære alt, og så skyldte du på meg for at jeg var sliten.»",
+      "suggestion": "Jeg hører et uavsluttet oppgjør med eksen din rundt det å bære for mye og så få skylden for utmattelsen. Vi kan bruke den tomme stolen. Først kan du si akkurat den setningen til ham og hva det kostet å svelge den."
     },
     "dp_marker-recognition-chairwork_case-nina_03": {
-      "text": "Når jeg vil si nei, smiler jeg og hører meg selv tilby å gjøre det likevel.",
-      "suggestion": "Det høres ut som du avbryter neiet ditt ved å gjøre andre til lags. Vi kan bruke to stoler: Fra denne stolen viser du hvordan du smiler og tilbyr deg likevel; så bytter vi og lar neiet snakke tydelig."
+      "text": "Når jeg blir sint for at folk trenger meg, tenker jeg med en gang at jeg er et dårlig menneske. Så smiler jeg og spør hva mer de trenger.",
+      "suggestion": "Det høres ut som budskapet om å være et dårlig menneske stopper sinnet og sender deg tilbake til omsorgen. Vi kan bruke to stoler: Fra denne stolen sier du til henne at hun er dårlig fordi hun blir sint; så bytter vi og lar sinnet si noen enkle ord."
     },
     "dp_marker-recognition-chairwork_case-aisha_01": {
       "text": "Hvis noen ikke svarer, går hodet mitt rett til at de er med noen bedre, legger det ut, og at alle ser at jeg er byttet ut. Da må jeg kutte dem ut først.",

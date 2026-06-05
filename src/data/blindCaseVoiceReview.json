@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T23:13:06.430Z",
+  "generatedAt": "2026-06-05T08:27:21.938Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -1119,12 +1119,12 @@
           "order": 2,
           "riskFlags": [],
           "en": {
-            "statement": "I keep thinking of what I never said to my ex: You left me carrying everything and then blamed me for being tired.",
-            "response": "I hear unfinished business with your ex around blame, chores, and carrying too much alone. We could use the empty chair; first, tell him that exact sentence and what it cost you to swallow it."
+            "statement": "I keep thinking of what I never said to my ex: You left me carrying everything, then blamed me for being tired.",
+            "response": "I hear unfinished business with your ex around carrying too much and then being blamed for exhaustion. We could use the empty chair; first, tell him that exact sentence and what it cost you to swallow it."
           },
           "no": {
-            "statement": "Jeg tenker fortsatt på det jeg aldri sa til eksen min: «Du lot meg bære alt og skyldte så på meg for at jeg var sliten.»",
-            "response": "Jeg hører et uavsluttet oppgjør med eksen din rundt skyld, husarbeid og det å bære for mye alene. Vi kan bruke den tomme stolen. Først kan du si akkurat den setningen til ham og hva det kostet å svelge den."
+            "statement": "Jeg tenker fortsatt på det jeg aldri sa til eksen min: «Du lot meg bære alt, og så skyldte du på meg for at jeg var sliten.»",
+            "response": "Jeg hører et uavsluttet oppgjør med eksen din rundt det å bære for mye og så få skylden for utmattelsen. Vi kan bruke den tomme stolen. Først kan du si akkurat den setningen til ham og hva det kostet å svelge den."
           }
         }
       ]
@@ -1142,12 +1142,12 @@
           "order": 3,
           "riskFlags": [],
           "en": {
-            "statement": "I start to say sorry to my son, then I hear, Don't grovel, and my face goes hard.",
-            "response": "That sounds like something stops the apology before the softer feeling can reach him. We can use two chairs: from this chair, say 'don't grovel' and make the case for staying hard; then we will switch and hear from the father who wants to repair."
+            "statement": "I start to say sorry to my son, and my mouth shuts. I think, don't show weakness, and my face goes hard.",
+            "response": "That sounds like something stops the apology before the softer feeling can reach him. We can use two chairs: from this chair, tell him not to show weakness and make the case for staying hard; then we will switch and hear from the father who wants to repair."
           },
           "no": {
-            "statement": "Jeg begynner å si unnskyld til sønnen min, så hører jeg: «Ikke kryp», og ansiktet mitt blir hardt.",
-            "response": "Det høres ut som noe stopper unnskyldningen før den mykere følelsen kan nå ham. Vi kan bruke to stoler: Fra denne stolen sier du «ikke kryp» og argumenterer for å holde deg hard; så bytter vi og hører fra faren som vil reparere."
+            "statement": "Jeg begynner å si unnskyld til sønnen min, og så lukker munnen seg. Jeg tenker: ikke vis svakhet, og ansiktet mitt blir hardt.",
+            "response": "Det høres ut som noe stopper unnskyldningen før den mykere følelsen kan nå ham. Vi kan bruke to stoler: Fra denne stolen sier du til ham at han ikke skal vise svakhet, og argumenterer for å holde seg hard; så bytter vi og hører fra faren som vil reparere."
           }
         },
         {
@@ -1178,12 +1178,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "When someone is kind, I tell myself to back away before I get fooled.",
-            "response": "That sounds like a mistrusting side that moves in fast to protect you from kindness. If it feels safe enough, we can put that protective side in one chair and the side that longs for kindness in the other, and keep the turns very short."
+            "statement": "When my husband left, I thought, of course he did. Who would stay with someone this damaged?",
+            "response": "It sounds like you are turning the divorce into a harsh verdict on yourself. If it feels safe enough, we can use two chairs to make that attack clearer: from this chair, tell her she is too damaged to stay with; then we will switch and hear from the side that has been carrying that verdict."
           },
           "no": {
-            "statement": "Når noen er snill, sier jeg til meg selv at jeg må trekke meg unna før jeg lar meg lure.",
-            "response": "Det høres ut som en mistroisk side som kommer raskt inn for å beskytte deg mot vennlighet. Hvis det kjennes trygt nok, setter vi den beskyttende siden i én stol og siden som lengter etter vennlighet i den andre, og holder rundene veldig korte."
+            "statement": "Da mannen min dro, tenkte jeg: selvfølgelig gjorde han det. Hvem blir hos en som er så ødelagt?",
+            "response": "Det høres ut som du gjør skilsmissen til en hard dom over deg selv. Hvis det kjennes trygt nok, kan vi bruke to stoler for å få angrepet tydeligere fram: Fra denne stolen sier du til henne at hun er for ødelagt til at noen blir; så bytter vi og hører fra siden som har båret den dommen."
           }
         },
         {

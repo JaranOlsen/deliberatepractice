@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T23:13:06.430Z",
+  "generatedAt": "2026-06-05T08:27:21.938Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -514,12 +514,12 @@
           "order": 2,
           "riskFlags": [],
           "en": {
-            "statement": "I still want to tell my father that the belt made me fear him; it did not make me respect him.",
-            "response": "There is unfinished business with your father and what his belt taught you. If you are willing, put him in this chair and say what that did to you, a few strong lines at a time."
+            "statement": "I still want to tell my father the belt did not make me a man. It just made me scared of him.",
+            "response": "That sounds like unfinished business with your father and what his discipline cost you. If you are willing, we can put him in the empty chair and have you tell him that directly, a few strong lines at a time."
           },
           "no": {
-            "statement": "Jeg vil fortsatt si til faren min at beltet gjorde meg redd for ham; det fikk meg ikke til å respektere ham.",
-            "response": "Det ligger uavsluttet oppgjør med faren din her og med det beltet lærte deg. Hvis du vil, kan du sette ham i denne stolen og si hva det gjorde med deg, noen sterke linjer om gangen."
+            "statement": "Jeg vil fortsatt si til faren min at beltet ikke gjorde meg til mann. Det gjorde meg bare redd for ham.",
+            "response": "Det høres ut som et uavsluttet oppgjør med faren din og hva disiplinen hans kostet deg. Hvis du vil, kan vi sette ham i den tomme stolen og la deg si det direkte til ham, noen sterke linjer om gangen."
           }
         }
       ]

@@ -3846,44 +3846,44 @@ export const STATEMENT_SETS = {
     ],
     "case-laura": [
       {
-        "text": "When someone is kind, I tell myself to back away before I get fooled.",
-        "suggestion": "That sounds like a mistrusting side that moves in fast to protect you from kindness. If it feels safe enough, we can put that protective side in one chair and the side that longs for kindness in the other, and keep the turns very short."
+        "text": "When my husband left, I thought, of course he did. Who would stay with someone this damaged?",
+        "suggestion": "It sounds like you are turning the divorce into a harsh verdict on yourself. If it feels safe enough, we can use two chairs to make that attack clearer: from this chair, tell her she is too damaged to stay with; then we will switch and hear from the side that has been carrying that verdict."
       },
       {
-        "text": "I still want to ask my mother why she kept washing dishes when she knew what was happening.",
-        "suggestion": "That sounds like unfinished business with your mother around not being protected. We could use the empty chair for one careful, titrated turn so you can say what still lives there."
+        "text": "I never said to my mother, You saw what was happening and kept washing dishes. I still think about that more than I want to.",
+        "suggestion": "That sounds like unfinished business with your mother around being left unprotected. If you are willing, we can bring her into the empty chair and let you say that sentence directly to her, slowly and only as far as feels manageable."
       },
       {
-        "text": "When sadness comes close, I go blank and start listing facts like I am giving a report about someone else's life.",
-        "suggestion": "That sounds like a numbing move that interrupts sadness. If it feels safe enough, we can use two chairs: in this chair, show how you go blank and move into facts; then we will switch and give the sadness a few words."
+        "text": "When my ex moved out, I did not cry. I cleaned the kitchen and felt nothing, like I should have been hurt but I was just blank.",
+        "suggestion": "That sounds like numbness came in and blocked the hurt. If it feels safe enough, we can use two chairs: from this chair, show how you go blank and keep cleaning; then we will switch and give the hurt a few words."
       }
     ],
     "case-carlos": [
       {
-        "text": "If I do not get on top first, I tell myself they will make me look like nothing.",
-        "suggestion": "I hear how hard that pressure comes at you: be on top or be nothing. We can put that pressure in one chair and the part of you that feels made small in the other; first, sit with the pressure and tell him what happens if he does not come out on top."
+        "text": "After I punched the wall, I kept thinking, What kind of man scares his own family?",
+        "suggestion": "It sounds like you are giving yourself a hard time for scaring them. Can we work with that blame for a moment? Sit in this chair and say it directly to him: 'what kind of man scares his own family?' Then we will switch and hear what that does to him."
       },
       {
-        "text": "I still want to tell my father that the belt made me fear him; it did not make me respect him.",
-        "suggestion": "There is unfinished business with your father and what his belt taught you. If you are willing, put him in this chair and say what that did to you, a few strong lines at a time."
+        "text": "I still want to tell my father the belt did not make me a man. It just made me scared of him.",
+        "suggestion": "That sounds like unfinished business with your father and what his discipline cost you. If you are willing, we can put him in the empty chair and have you tell him that directly, a few strong lines at a time."
       },
       {
-        "text": "I start to say sorry to my son, then I hear, Don't grovel, and my face goes hard.",
-        "suggestion": "That sounds like something stops the apology before the softer feeling can reach him. We can use two chairs: from this chair, say 'don't grovel' and make the case for staying hard; then we will switch and hear from the father who wants to repair."
+        "text": "I start to say sorry to my son, and my mouth shuts. I think, don't show weakness, and my face goes hard.",
+        "suggestion": "That sounds like something stops the apology before the softer feeling can reach him. We can use two chairs: from this chair, tell him not to show weakness and make the case for staying hard; then we will switch and hear from the father who wants to repair."
       }
     ],
     "case-nina": [
       {
-        "text": "The second I think about asking for help, I hear how selfish that sounds.",
-        "suggestion": "That is a clear self-critical move against your need for help. We can put the 'selfish' message in one chair and the needing side in the other, and let each speak for a short turn while I guide you."
+        "text": "The divorce is probably my fault. I should have been sweeter, calmer, easier, less exhausted.",
+        "suggestion": "It sounds like you are blaming yourself very hard for the marriage ending. We can use two chairs to hear that blame clearly: from this chair, tell her she should have been sweeter and easier; then we will switch and hear what that does to her."
       },
       {
-        "text": "I keep thinking of what I never said to my ex: You left me carrying everything and then blamed me for being tired.",
-        "suggestion": "I hear unfinished business with your ex around blame, chores, and carrying too much alone. We could use the empty chair; first, tell him that exact sentence and what it cost you to swallow it."
+        "text": "I keep thinking of what I never said to my ex: You left me carrying everything, then blamed me for being tired.",
+        "suggestion": "I hear unfinished business with your ex around carrying too much and then being blamed for exhaustion. We could use the empty chair; first, tell him that exact sentence and what it cost you to swallow it."
       },
       {
-        "text": "When I want to say no, I smile and hear myself offering to do it anyway.",
-        "suggestion": "That sounds like you interrupt your no by pleasing. We can use two chairs: from this chair, show how you smile and offer anyway; then we will switch and let the no speak plainly."
+        "text": "When I feel angry about being needed, I immediately think I am a bad person. Then I smile and ask what else they need.",
+        "suggestion": "That sounds like the bad-person message stops your anger and sends you back into caring. We can use two chairs: from this chair, tell her she is bad for feeling angry; then we will switch and let the anger say a few plain words."
       }
     ],
     "case-aisha": [
