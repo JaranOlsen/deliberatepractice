@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-05-21T14:44:00.539Z"
+  "generatedAt": "2026-06-05T11:16:02.689Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -996,9 +996,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-laura"
         },
-        "riskFlags": [
-          "substance_use"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -1379,9 +1377,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-carlos"
         },
-        "riskFlags": [
-          "violence"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -1557,7 +1553,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-nina"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "culture_religion"
+        ],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -1644,7 +1642,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-nina"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "culture_religion"
+        ],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -2346,7 +2346,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-david"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "substance_use"
+        ],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -2611,7 +2613,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-marcus"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "suicide"
+        ],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -12801,7 +12805,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Providing Treatment Rationale for Emotion-Focused Therapy",
           "caseId": "case-marcus"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "substance_use"
+        ],
         "criteriaTags": [
           "offer_rationale",
           "normalize_experiential_work",
@@ -16872,9 +16878,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Evocations",
           "caseId": "case-carlos"
         },
-        "riskFlags": [
-          "trauma"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "evoke_image",
           "heighten_felt_sense",
@@ -18750,7 +18754,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Conjectures",
           "caseId": "case-michael"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "substance_use"
+        ],
         "criteriaTags": [
           "tentative_guess",
           "name_underlying_feeling",
@@ -20154,7 +20160,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Conjectures",
           "caseId": "case-aisha"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "suicide"
+        ],
         "criteriaTags": [
           "tentative_guess",
           "name_underlying_feeling",
@@ -21280,9 +21288,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-michael"
         },
-        "riskFlags": [
-          "violence"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
@@ -22338,7 +22344,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-carlos"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "violence"
+        ],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
@@ -22762,7 +22770,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-aisha"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "sexual_boundary"
+        ],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
@@ -22792,7 +22802,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-aisha"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "self_harm"
+        ],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
@@ -22852,7 +22864,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-aisha"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "self_harm"
+        ],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
@@ -22972,7 +22986,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-aisha"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "self_harm"
+        ],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
@@ -23154,7 +23170,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-david"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "sexual_boundary"
+        ],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
@@ -23274,7 +23292,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-david"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "sexual_boundary"
+        ],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
@@ -23334,7 +23354,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-david"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "violence"
+        ],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
@@ -23638,7 +23660,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-marcus"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "suicide"
+        ],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
@@ -25923,7 +25947,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Self-Disclosure",
           "caseId": "case-david"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "sexual_boundary"
+        ],
         "criteriaTags": [
           "judicious_transparency",
           "return_to_client",
@@ -26668,7 +26694,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
           "caseId": "case-carlos"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "violence"
+        ],
         "criteriaTags": [
           "recognize_marker",
           "offer_task_setup",
@@ -27024,7 +27052,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
           "caseId": "case-marcus"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "violence"
+        ],
         "criteriaTags": [
           "recognize_marker",
           "offer_task_setup",
@@ -27082,7 +27112,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
           "caseId": "case-marcus"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "trauma"
+        ],
         "criteriaTags": [
           "recognize_marker",
           "offer_task_setup",
@@ -27707,7 +27739,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
           "caseId": "case-aisha"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "sexual_boundary"
+        ],
         "criteriaTags": [
           "repair_rupture",
           "own_impact",

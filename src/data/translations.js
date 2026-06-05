@@ -229,7 +229,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er perfekt eller nødvendig, forlater folk meg – fordi jeg ikke er elskbar.",
           "practiceEdge": "Lytt etter stille forlatelsessmerte skjult bak kontroll, unnskyldninger og selvbebreidelse.",
           "style": "Myk, jevn tone med små, unnskyldende smil; blikket ned; svelger gråt; raske «det går bra»-avledninger; foldede hender; jevnt tempo med korte pauser.",
-          "voice": "Hei, jeg er Sara. På papiret går det fint – jeg leverer frister og tar kaffe med teamet – men idet jeg er alene, føles det som om bruddet beviser at jeg er for mye å elske. Jeg spiller samtaler om og om igjen og lurer på hvilken feil som til slutt dyttet ham bort. Jeg sier til venner at jeg er opptatt fordi jeg ikke orker blikkene, og jeg sovner til podkaster for å slippe stillheten. Jeg kom i terapi fordi jeg er lei av å late som om det går bra når jeg inni meg føler meg tom og uverdig."
+          "voice": "Hei, jeg heter Sara. Jeg er vel her fordi kveldene ikke henger sammen etter bruddet. På jobb fungerer jeg - frister, møter, kaffe med kollegaer - men når jeg kommer hjem, sjekker jeg mobilen hele tiden og leser gamle meldinger om igjen. Jeg lurer på om jeg var for masete, for intens, et eller annet. Venner sier jeg burde komme meg ut, og jeg sier bare at jeg er opptatt. Jeg sover nesten ikke uten noe på øret. Det er flaut å være så satt ut, så jeg vil egentlig bare lære å slutte å spinne."
         },
         "case-michael": {
           "label": "Michael (Lett)",
@@ -238,7 +238,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke har kontroll og er prikkfri, blir jeg avslørt som svak og avvist.",
           "practiceEdge": "Følg ydmykelsen under sinnet og øyeblikket der kritikk blir til respektløshet.",
           "style": "Fast, kort tone; volumet kan stige ved krenkende ord; stram kjeve; armene i kors; direkte blikk; skarpe utpust; lett fremoverlent.",
-          "voice": "Jeg er Michael. Jeg holder prosjektene på skinner hele dagen, og idet noen stiller spørsmål, kjenner jeg varme i brystet og jeg bjeffer ordre. Jeg sier til meg selv at det er stress, men senere ligger jeg våken og ser for meg ansiktet til kona når jeg smeller. Pappa lærte meg at bare de beste overlever, så tanken på at folk ser meg som overreagerende eller svak er uutholdelig. Jeg vil slutte å eksplodere før jeg ødelegger det som betyr noe."
+          "voice": "Jeg heter Michael. Jeg må få kontroll på temperamentet. Kona sier hun går på nåler, og på jobb sier folk at jeg virker skremmende. Jeg merker det ikke der og da; noen stiller spørsmål ved en beslutning, og så går jeg rett i å rydde opp, sikkert litt for høyt. Etterpå oppfører alle seg som om jeg er problemet. Jeg vokste opp med en far som ikke hadde mye tålmodighet for unnskyldninger - man leverte, ellers fikk man høre det. Jeg vil ikke bli behandlet som en eller annen sint fyr, men jeg kan ikke fortsette med disse eksplosjonene."
         },
         "case-jason": {
           "label": "Jason (Lett)",
@@ -247,7 +247,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis folk virkelig ser meg, vil de få bekreftet at jeg er rar og uverdig.",
           "practiceEdge": "Jobb i svært små steg; blankhet og selvutsletting er vansken, ikke motstand.",
           "style": "Stille, nølende stemme; lange pauser; setninger som toner ut; blikket ned; fikler med hendene; lett krummet i skuldrene; stille halsrensing.",
-          "voice": "Jeg er Jason. Hvert møte føles som en prøve jeg er i ferd med å stryke, så jeg holder kjeft og klandrer meg selv etterpå. Venner inviterer meg ut, men jeg stirrer på meldingen til det er for sent å svare. Når jeg ser for meg å si noe høyt, låser brystet seg og en stemme sier: «Avslør ikke hvor rar du er.» Jeg er utslitt av å leve i hodet mitt og vil kjenne at jeg hører til et sted."
+          "voice": "Jeg heter Jason. Det er mest møtene på jobb. Hodet blir helt blankt, jeg øver på én setning, og så rekker noen andre å si noe før meg, og da føler jeg meg dum som ventet. Jeg dropper lønningspils og sånt fordi jeg ikke vet hva jeg skal si, og jeg kan bruke en time på å skrive om en enkel melding. Jeg vet at det høres lite ut, men det tar hele dagen min. Jeg vil bare slutte å fryse fast, og kanskje slippe å grue meg til alle samtaler."
         },
         "case-laura": {
           "label": "Laura (Moderat)",
@@ -256,7 +256,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg senker garden, blir jeg såret eller forlatt fordi det er noe grunnleggende galt med meg.",
           "practiceEdge": "Gå sakte rundt nummenhet og mistillit; trygghetssignaler er viktigere enn emosjonell intensitet.",
           "style": "Lav, flat tone; sakte tempo; fjernt blikk; få gester; lange utpust; en hånd mot halsen; skvetter litt og trekker seg så tilbake.",
-          "voice": "Jeg heter Laura. De fleste dager går jeg fra vakt til vakt og gjør det som må gjøres, uten å kjenne noe særlig. Når noen hever stemmen, synker magen som om jeg er tilbake i det huset. Jeg sier til meg selv at fortiden er over, men når jeg prøver å stole på noen eller være nær, blir jeg blank eller heller i et glass for å bli nummen. Jeg er her fordi ensomheten har blitt høyere enn frykten."
+          "voice": "Jeg heter Laura. Jeg er her fordi jeg ikke fungerer så bra som folk tror. Jeg kan gå en tolv timers vakt og virke helt profesjonell, og så sitte i bilen utenfor hjemme fordi det føles for mye å gå inn. Enkelte lyder setter meg ut; andre ganger blir jeg bare helt blank. Jeg liker ikke å snakke om fortiden. Jeg har nok av den i hodet. Jeg vil først og fremst at panikken og det med å drikke om kveldene skal stoppe."
         },
         "case-carlos": {
           "label": "Carlos (Moderat)",
@@ -265,7 +265,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er den tøffeste i rommet, blir jeg ikke respektert og kan bli skadet.",
           "practiceEdge": "Vis respekt for stoltheten samtidig som du lytter etter det lille, skamfulle og sårede stedet under trusselreaksjonen.",
           "style": "Kraftig, direkte stemme i korte utbrudd; stram kjeve; brystet fram; rynkede bryn; raske håndbevegelser; snøft; kort glaning før blikket viker.",
-          "voice": "Hei, jeg er Carlos. Jeg elsker familien min, men ett øyeblikk spøker jeg med kona, og det neste slår jeg i veggen fordi hun stilte meg spørsmål. På jobben kan et blikk fra en yngre fyr få meg til å se rødt. Jeg lærte at du slår først så du ikke blir slått, men nå ser jeg sønnen min skvette når jeg roper. Jeg vil finne en måte å verne stoltheten på uten å skremme dem jeg er glad i."
+          "voice": "Hei, jeg heter Carlos. Folk sier hele tiden at jeg går fra null til hundre. Jeg tror ikke de skjønner hvordan det er når noen ser på deg som om du er en vits. Kona sier jeg skremmer henne, og ja, jeg slo hull i garasjeveggen forrige måned. På jobb kan jeg styre et helt lag uten problem, helt til en fyr begynner å kjekke seg. Jeg trenger ikke en preken om sinne. Jeg trenger å ikke miste familien min på grunn av det."
         },
         "case-nina": {
           "label": "Nina (Moderat)",
@@ -274,7 +274,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg slutter å ta vare på alle, blir jeg forlatt og stemplet som egoistisk.",
           "practiceEdge": "Forvent at skyldfølelse kommer inn i samme øyeblikk som behov eller sinne viser seg.",
           "style": "Varm, høflig tone; unnskyldende latter; raske «beklager» før hun uttrykker behov; overdreven nikking; smiler mens hun er opprørt; holder pusten og slipper et lite sukk; stryker hendene over klærne.",
-          "voice": "Jeg er Nina. Dagen starter før soloppgang med matpakker og e-poster for andre, og om kvelden er jeg for sliten til å svare mine egne barn. Når jeg endelig ber om hjelp, skyller skyld inn og jeg kaller meg egoistisk. Jeg vet knapt hva jeg liker lenger. Jeg er redd for at hvis jeg slutter å overprestere, vil ingen ha meg, men jeg kan ikke fortsette på tomgang."
+          "voice": "Jeg heter Nina. Jeg vet ikke engang hvordan jeg skal si dette uten å høres dramatisk ut. Jeg er utslitt hele tiden. Jeg sier ja til alt - skolen, guttene, moren min, tjenester for kollegaer - og så får jeg hodepine, glemmer ting, og noen ganger føles det som om jeg skal besvime. Hvis jeg ber om hjelp, tenker jeg med én gang at jeg burde klart mer selv. Jeg smiler videre fordi det er enklere enn å forklare. Jeg trenger en måte å ikke gå helt i oppløsning på."
         },
         "case-aisha": {
           "label": "Aisha (Krevende)",
@@ -283,7 +283,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis noen trekker seg unna, betyr det at jeg ikke er elskbar, og jeg blir forlatt for alltid.",
           "practiceEdge": "Hold deg forankret i forlatelsesskrekk, raske tilstandsskifter og sårbarhet for grenser og avslutninger.",
           "style": "Rask, hektisk tale; stemmen skjelver; tårer nær; øynene vide og så smale; holder seg til brystet eller strekker seg ut; brå skifter fra bønnfallende til skarp; korte, raske åndedrag.",
-          "voice": "Jeg er Aisha. Når noen jeg elsker ikke svarer raskt, føles det som om gulvet åpner seg og jeg faller. Jeg kan gå fra å idealisere til å hate på en time fordi smerten er uutholdelig. Jeg kutter for å dempe stormen eller kjenne at jeg finnes. Jeg vil tro at jeg ikke er for ødelagt til å bli elsket, og at jeg kan overleve å være alene litt."
+          "voice": "Jeg heter Aisha. Jeg vet ikke om dette kommer til å hjelpe. Folk sier alltid at de er der, og så blir de borte. Hvis noen ikke svarer på en melding, klarer jeg ikke å tenke på noe annet; jeg ringer, sender altfor mange meldinger, gjør ting jeg vet ser helt sykt ut. Kuttingen er ikke problemet sånn alle skal ha det til; det er det som stopper ting fra å bli verre. Jeg trenger at noen ikke dømmer meg eller bare sier at jeg må roe meg."
         },
         "case-david": {
           "label": "David (Krevende)",
@@ -292,7 +292,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er eksepsjonell, er jeg verdiløs og blir forkastet.",
           "practiceEdge": "Lytt under status, sikkerhet og forakt etter skam, tomhet og frykt for å være ordinær.",
           "style": "Målt, selvsikker tone; kontrollert tempo; haken lett hevet; rolig øyekontakt; liten, hånlig latter; jevne håndbevegelser; sukk når han blir utfordret.",
-          "voice": "Jeg er David. Jeg har bygget en karriere på å ha svarene, men hjemme møter jeg himlende blikk og anklager om at jeg er kald. Ordet «narsissist» svir fordi det avslører hvor hul jeg føler meg når jeg ikke vinner. Faren min roste resultater, ikke meg, og jeg vet ikke hvordan jeg blir elsket uten å prestere. Jeg er redd for at de jeg bryr meg om vil se sprekkene og gå."
+          "voice": "David. Kona mi mente jeg måtte komme. Visstnok er jeg «kald» og «umulig å snakke med». Jeg leder en avdeling med et press de fleste ikke aner noe om, så nei, jeg har ikke alltid tålmodighet til endeløse følelsesrapporter. Ordet narsissist ble kastet ut, noe jeg synes er både absurd og temmelig lat. Jeg kan innrømme at jeg blir skarp når folk er inkompetente eller illojale. Jeg vil at dette skal være praktisk, ikke enda en runde med å legge skylden på meg fordi jeg er den eneste voksne i rommet."
         },
         "case-marcus": {
           "label": "Marcus (Krevende)",
@@ -301,7 +301,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Å slippe folk inn garanterer smerte, så det er tryggere å ikke føle noe.",
           "practiceEdge": "Jobb ved kanten av nummenhet, hyperårvåkenhet og ensom sorg uten å presse fram detaljer.",
           "style": "Lavt volum; få ord; lange pauser; flat tone; blikket ned eller rastløs skanning; stram kjeve; spente skuldre; minimale gester; lett skjelv når temaet er vanskelig.",
-          "voice": "Jeg heter Marcus. De fleste dager beveger jeg meg gjennom jobben som et spøkelse og synker ned på sofaen og stirrer i veggen. Nettene er verre – ansikter fra utenlandsoppdrag eller barndommen dukker opp i drømmene. Når noen spør hvordan jeg har det, sier jeg «bra», fordi det føles farlig å vise mer. Jeg er her fordi det å ikke føle noe begynner å kjennes som å forsvinne."
+          "voice": "Marcus. Jeg har ikke så mye å si. Søvnen er dårlig. Jeg holder meg for meg selv. Jobben går greit fordi det er stille og jeg vet hva jeg skal gjøre. Nettene er verre. Det dukker opp minner, både fra utenlands og andre steder. Jeg vil ikke gå inn i detaljer. Folk stiller spørsmål, og så ser de annerledes på deg. Jeg er her fordi veterantjenesten maser, og fordi det å sitte alene hele natten ikke funker lenger."
         }
       }
     },
@@ -321,7 +321,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er perfekt eller nødvendig, forlater folk meg – fordi jeg ikke er elskbar.",
           "practiceEdge": "Lytt etter stille forlatelsessmerte skjult bak kontroll, unnskyldninger og selvbebreidelse.",
           "style": "Myk, jevn tone med små, unnskyldende smil; blikket ned; svelger gråt; raske «det går bra»-avledninger; foldede hender; jevnt tempo med korte pauser.",
-          "voice": "Hei, jeg er Sara. På papiret går det fint – jeg leverer frister og tar kaffe med teamet – men idet jeg er alene, føles det som om bruddet beviser at jeg er for mye å elske. Jeg spiller samtaler om og om igjen og lurer på hvilken feil som til slutt dyttet ham bort. Jeg sier til venner at jeg er opptatt fordi jeg ikke orker blikkene, og jeg sovner til podkaster for å slippe stillheten. Jeg kom i terapi fordi jeg er lei av å late som om det går bra når jeg inni meg føler meg tom og uverdig."
+          "voice": "Hei, jeg heter Sara. Jeg er vel her fordi kveldene ikke henger sammen etter bruddet. På jobb fungerer jeg - frister, møter, kaffe med kollegaer - men når jeg kommer hjem, sjekker jeg mobilen hele tiden og leser gamle meldinger om igjen. Jeg lurer på om jeg var for masete, for intens, et eller annet. Venner sier jeg burde komme meg ut, og jeg sier bare at jeg er opptatt. Jeg sover nesten ikke uten noe på øret. Det er flaut å være så satt ut, så jeg vil egentlig bare lære å slutte å spinne."
         },
         "case-michael": {
           "label": "Michael (Lett)",
@@ -330,7 +330,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke har kontroll og er prikkfri, blir jeg avslørt som svak og avvist.",
           "practiceEdge": "Følg ydmykelsen under sinnet og øyeblikket der kritikk blir til respektløshet.",
           "style": "Fast, kort tone; volumet kan stige ved krenkende ord; stram kjeve; armene i kors; direkte blikk; skarpe utpust; lett fremoverlent.",
-          "voice": "Jeg er Michael. Jeg holder prosjektene på skinner hele dagen, og idet noen stiller spørsmål, kjenner jeg varme i brystet og jeg bjeffer ordre. Jeg sier til meg selv at det er stress, men senere ligger jeg våken og ser for meg ansiktet til kona når jeg smeller. Pappa lærte meg at bare de beste overlever, så tanken på at folk ser meg som overreagerende eller svak er uutholdelig. Jeg vil slutte å eksplodere før jeg ødelegger det som betyr noe."
+          "voice": "Jeg heter Michael. Jeg må få kontroll på temperamentet. Kona sier hun går på nåler, og på jobb sier folk at jeg virker skremmende. Jeg merker det ikke der og da; noen stiller spørsmål ved en beslutning, og så går jeg rett i å rydde opp, sikkert litt for høyt. Etterpå oppfører alle seg som om jeg er problemet. Jeg vokste opp med en far som ikke hadde mye tålmodighet for unnskyldninger - man leverte, ellers fikk man høre det. Jeg vil ikke bli behandlet som en eller annen sint fyr, men jeg kan ikke fortsette med disse eksplosjonene."
         },
         "case-jason": {
           "label": "Jason (Lett)",
@@ -339,7 +339,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis folk virkelig ser meg, vil de få bekreftet at jeg er rar og uverdig.",
           "practiceEdge": "Jobb i svært små steg; blankhet og selvutsletting er vansken, ikke motstand.",
           "style": "Stille, nølende stemme; lange pauser; setninger som toner ut; blikket ned; fikler med hendene; lett krummet i skuldrene; stille halsrensing.",
-          "voice": "Jeg er Jason. Hvert møte føles som en prøve jeg er i ferd med å stryke, så jeg holder kjeft og klandrer meg selv etterpå. Venner inviterer meg ut, men jeg stirrer på meldingen til det er for sent å svare. Når jeg ser for meg å si noe høyt, låser brystet seg og en stemme sier: «Avslør ikke hvor rar du er.» Jeg er utslitt av å leve i hodet mitt og vil kjenne at jeg hører til et sted."
+          "voice": "Jeg heter Jason. Det er mest møtene på jobb. Hodet blir helt blankt, jeg øver på én setning, og så rekker noen andre å si noe før meg, og da føler jeg meg dum som ventet. Jeg dropper lønningspils og sånt fordi jeg ikke vet hva jeg skal si, og jeg kan bruke en time på å skrive om en enkel melding. Jeg vet at det høres lite ut, men det tar hele dagen min. Jeg vil bare slutte å fryse fast, og kanskje slippe å grue meg til alle samtaler."
         },
         "case-laura": {
           "label": "Laura (Moderat)",
@@ -348,7 +348,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg senker garden, blir jeg såret eller forlatt fordi det er noe grunnleggende galt med meg.",
           "practiceEdge": "Gå sakte rundt nummenhet og mistillit; trygghetssignaler er viktigere enn emosjonell intensitet.",
           "style": "Lav, flat tone; sakte tempo; fjernt blikk; få gester; lange utpust; en hånd mot halsen; skvetter litt og trekker seg så tilbake.",
-          "voice": "Jeg heter Laura. De fleste dager går jeg fra vakt til vakt og gjør det som må gjøres, uten å kjenne noe særlig. Når noen hever stemmen, synker magen som om jeg er tilbake i det huset. Jeg sier til meg selv at fortiden er over, men når jeg prøver å stole på noen eller være nær, blir jeg blank eller heller i et glass for å bli nummen. Jeg er her fordi ensomheten har blitt høyere enn frykten."
+          "voice": "Jeg heter Laura. Jeg er her fordi jeg ikke fungerer så bra som folk tror. Jeg kan gå en tolv timers vakt og virke helt profesjonell, og så sitte i bilen utenfor hjemme fordi det føles for mye å gå inn. Enkelte lyder setter meg ut; andre ganger blir jeg bare helt blank. Jeg liker ikke å snakke om fortiden. Jeg har nok av den i hodet. Jeg vil først og fremst at panikken og det med å drikke om kveldene skal stoppe."
         },
         "case-carlos": {
           "label": "Carlos (Moderat)",
@@ -357,7 +357,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er den tøffeste i rommet, blir jeg ikke respektert og kan bli skadet.",
           "practiceEdge": "Vis respekt for stoltheten samtidig som du lytter etter det lille, skamfulle og sårede stedet under trusselreaksjonen.",
           "style": "Kraftig, direkte stemme i korte utbrudd; stram kjeve; brystet fram; rynkede bryn; raske håndbevegelser; snøft; kort glaning før blikket viker.",
-          "voice": "Hei, jeg er Carlos. Jeg elsker familien min, men ett øyeblikk spøker jeg med kona, og det neste slår jeg i veggen fordi hun stilte meg spørsmål. På jobben kan et blikk fra en yngre fyr få meg til å se rødt. Jeg lærte at du slår først så du ikke blir slått, men nå ser jeg sønnen min skvette når jeg roper. Jeg vil finne en måte å verne stoltheten på uten å skremme dem jeg er glad i."
+          "voice": "Hei, jeg heter Carlos. Folk sier hele tiden at jeg går fra null til hundre. Jeg tror ikke de skjønner hvordan det er når noen ser på deg som om du er en vits. Kona sier jeg skremmer henne, og ja, jeg slo hull i garasjeveggen forrige måned. På jobb kan jeg styre et helt lag uten problem, helt til en fyr begynner å kjekke seg. Jeg trenger ikke en preken om sinne. Jeg trenger å ikke miste familien min på grunn av det."
         },
         "case-nina": {
           "label": "Nina (Moderat)",
@@ -366,7 +366,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg slutter å ta vare på alle, blir jeg forlatt og stemplet som egoistisk.",
           "practiceEdge": "Forvent at skyldfølelse kommer inn i samme øyeblikk som behov eller sinne viser seg.",
           "style": "Varm, høflig tone; unnskyldende latter; raske «beklager» før hun uttrykker behov; overdreven nikking; smiler mens hun er opprørt; holder pusten og slipper et lite sukk; stryker hendene over klærne.",
-          "voice": "Jeg er Nina. Dagen starter før soloppgang med matpakker og e-poster for andre, og om kvelden er jeg for sliten til å svare mine egne barn. Når jeg endelig ber om hjelp, skyller skyld inn og jeg kaller meg egoistisk. Jeg vet knapt hva jeg liker lenger. Jeg er redd for at hvis jeg slutter å overprestere, vil ingen ha meg, men jeg kan ikke fortsette på tomgang."
+          "voice": "Jeg heter Nina. Jeg vet ikke engang hvordan jeg skal si dette uten å høres dramatisk ut. Jeg er utslitt hele tiden. Jeg sier ja til alt - skolen, guttene, moren min, tjenester for kollegaer - og så får jeg hodepine, glemmer ting, og noen ganger føles det som om jeg skal besvime. Hvis jeg ber om hjelp, tenker jeg med én gang at jeg burde klart mer selv. Jeg smiler videre fordi det er enklere enn å forklare. Jeg trenger en måte å ikke gå helt i oppløsning på."
         },
         "case-aisha": {
           "label": "Aisha (Krevende)",
@@ -375,7 +375,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis noen trekker seg unna, betyr det at jeg ikke er elskbar, og jeg blir forlatt for alltid.",
           "practiceEdge": "Hold deg forankret i forlatelsesskrekk, raske tilstandsskifter og sårbarhet for grenser og avslutninger.",
           "style": "Rask, hektisk tale; stemmen skjelver; tårer nær; øynene vide og så smale; holder seg til brystet eller strekker seg ut; brå skifter fra bønnfallende til skarp; korte, raske åndedrag.",
-          "voice": "Jeg er Aisha. Når noen jeg elsker ikke svarer raskt, føles det som om gulvet åpner seg og jeg faller. Jeg kan gå fra å idealisere til å hate på en time fordi smerten er uutholdelig. Jeg kutter for å dempe stormen eller kjenne at jeg finnes. Jeg vil tro at jeg ikke er for ødelagt til å bli elsket, og at jeg kan overleve å være alene litt."
+          "voice": "Jeg heter Aisha. Jeg vet ikke om dette kommer til å hjelpe. Folk sier alltid at de er der, og så blir de borte. Hvis noen ikke svarer på en melding, klarer jeg ikke å tenke på noe annet; jeg ringer, sender altfor mange meldinger, gjør ting jeg vet ser helt sykt ut. Kuttingen er ikke problemet sånn alle skal ha det til; det er det som stopper ting fra å bli verre. Jeg trenger at noen ikke dømmer meg eller bare sier at jeg må roe meg."
         },
         "case-david": {
           "label": "David (Krevende)",
@@ -384,7 +384,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er eksepsjonell, er jeg verdiløs og blir forkastet.",
           "practiceEdge": "Lytt under status, sikkerhet og forakt etter skam, tomhet og frykt for å være ordinær.",
           "style": "Målt, selvsikker tone; kontrollert tempo; haken lett hevet; rolig øyekontakt; liten, hånlig latter; jevne håndbevegelser; sukk når han blir utfordret.",
-          "voice": "Jeg er David. Jeg har bygget en karriere på å ha svarene, men hjemme møter jeg himlende blikk og anklager om at jeg er kald. Ordet «narsissist» svir fordi det avslører hvor hul jeg føler meg når jeg ikke vinner. Faren min roste resultater, ikke meg, og jeg vet ikke hvordan jeg blir elsket uten å prestere. Jeg er redd for at de jeg bryr meg om vil se sprekkene og gå."
+          "voice": "David. Kona mi mente jeg måtte komme. Visstnok er jeg «kald» og «umulig å snakke med». Jeg leder en avdeling med et press de fleste ikke aner noe om, så nei, jeg har ikke alltid tålmodighet til endeløse følelsesrapporter. Ordet narsissist ble kastet ut, noe jeg synes er både absurd og temmelig lat. Jeg kan innrømme at jeg blir skarp når folk er inkompetente eller illojale. Jeg vil at dette skal være praktisk, ikke enda en runde med å legge skylden på meg fordi jeg er den eneste voksne i rommet."
         },
         "case-marcus": {
           "label": "Marcus (Krevende)",
@@ -393,7 +393,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Å slippe folk inn garanterer smerte, så det er tryggere å ikke føle noe.",
           "practiceEdge": "Jobb ved kanten av nummenhet, hyperårvåkenhet og ensom sorg uten å presse fram detaljer.",
           "style": "Lavt volum; få ord; lange pauser; flat tone; blikket ned eller rastløs skanning; stram kjeve; spente skuldre; minimale gester; lett skjelv når temaet er vanskelig.",
-          "voice": "Jeg heter Marcus. De fleste dager beveger jeg meg gjennom jobben som et spøkelse og synker ned på sofaen og stirrer i veggen. Nettene er verre – ansikter fra utenlandsoppdrag eller barndommen dukker opp i drømmene. Når noen spør hvordan jeg har det, sier jeg «bra», fordi det føles farlig å vise mer. Jeg er her fordi det å ikke føle noe begynner å kjennes som å forsvinne."
+          "voice": "Marcus. Jeg har ikke så mye å si. Søvnen er dårlig. Jeg holder meg for meg selv. Jobben går greit fordi det er stille og jeg vet hva jeg skal gjøre. Nettene er verre. Det dukker opp minner, både fra utenlands og andre steder. Jeg vil ikke gå inn i detaljer. Folk stiller spørsmål, og så ser de annerledes på deg. Jeg er her fordi veterantjenesten maser, og fordi det å sitte alene hele natten ikke funker lenger."
         }
       }
     },
@@ -413,7 +413,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er perfekt eller nødvendig, forlater folk meg – fordi jeg ikke er elskbar.",
           "practiceEdge": "Lytt etter stille forlatelsessmerte skjult bak kontroll, unnskyldninger og selvbebreidelse.",
           "style": "Myk, jevn tone med små, unnskyldende smil; blikket ned; svelger gråt; raske «det går bra»-avledninger; foldede hender; jevnt tempo med korte pauser.",
-          "voice": "Hei, jeg er Sara. På papiret går det fint – jeg leverer frister og tar kaffe med teamet – men idet jeg er alene, føles det som om bruddet beviser at jeg er for mye å elske. Jeg spiller samtaler om og om igjen og lurer på hvilken feil som til slutt dyttet ham bort. Jeg sier til venner at jeg er opptatt fordi jeg ikke orker blikkene, og jeg sovner til podkaster for å slippe stillheten. Jeg kom i terapi fordi jeg er lei av å late som om det går bra når jeg inni meg føler meg tom og uverdig."
+          "voice": "Hei, jeg heter Sara. Jeg er vel her fordi kveldene ikke henger sammen etter bruddet. På jobb fungerer jeg - frister, møter, kaffe med kollegaer - men når jeg kommer hjem, sjekker jeg mobilen hele tiden og leser gamle meldinger om igjen. Jeg lurer på om jeg var for masete, for intens, et eller annet. Venner sier jeg burde komme meg ut, og jeg sier bare at jeg er opptatt. Jeg sover nesten ikke uten noe på øret. Det er flaut å være så satt ut, så jeg vil egentlig bare lære å slutte å spinne."
         },
         "case-michael": {
           "label": "Michael (Lett)",
@@ -422,7 +422,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke har kontroll og er prikkfri, blir jeg avslørt som svak og avvist.",
           "practiceEdge": "Følg ydmykelsen under sinnet og øyeblikket der kritikk blir til respektløshet.",
           "style": "Fast, kort tone; volumet kan stige ved krenkende ord; stram kjeve; armene i kors; direkte blikk; skarpe utpust; lett fremoverlent.",
-          "voice": "Jeg er Michael. Jeg holder prosjektene på skinner hele dagen, og idet noen stiller spørsmål, kjenner jeg varme i brystet og jeg bjeffer ordre. Jeg sier til meg selv at det er stress, men senere ligger jeg våken og ser for meg ansiktet til kona når jeg smeller. Pappa lærte meg at bare de beste overlever, så tanken på at folk ser meg som overreagerende eller svak er uutholdelig. Jeg vil slutte å eksplodere før jeg ødelegger det som betyr noe."
+          "voice": "Jeg heter Michael. Jeg må få kontroll på temperamentet. Kona sier hun går på nåler, og på jobb sier folk at jeg virker skremmende. Jeg merker det ikke der og da; noen stiller spørsmål ved en beslutning, og så går jeg rett i å rydde opp, sikkert litt for høyt. Etterpå oppfører alle seg som om jeg er problemet. Jeg vokste opp med en far som ikke hadde mye tålmodighet for unnskyldninger - man leverte, ellers fikk man høre det. Jeg vil ikke bli behandlet som en eller annen sint fyr, men jeg kan ikke fortsette med disse eksplosjonene."
         },
         "case-jason": {
           "label": "Jason (Lett)",
@@ -431,7 +431,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis folk virkelig ser meg, vil de få bekreftet at jeg er rar og uverdig.",
           "practiceEdge": "Jobb i svært små steg; blankhet og selvutsletting er vansken, ikke motstand.",
           "style": "Stille, nølende stemme; lange pauser; setninger som toner ut; blikket ned; fikler med hendene; lett krummet i skuldrene; stille halsrensing.",
-          "voice": "Jeg er Jason. Hvert møte føles som en prøve jeg er i ferd med å stryke, så jeg holder kjeft og klandrer meg selv etterpå. Venner inviterer meg ut, men jeg stirrer på meldingen til det er for sent å svare. Når jeg ser for meg å si noe høyt, låser brystet seg og en stemme sier: «Avslør ikke hvor rar du er.» Jeg er utslitt av å leve i hodet mitt og vil kjenne at jeg hører til et sted."
+          "voice": "Jeg heter Jason. Det er mest møtene på jobb. Hodet blir helt blankt, jeg øver på én setning, og så rekker noen andre å si noe før meg, og da føler jeg meg dum som ventet. Jeg dropper lønningspils og sånt fordi jeg ikke vet hva jeg skal si, og jeg kan bruke en time på å skrive om en enkel melding. Jeg vet at det høres lite ut, men det tar hele dagen min. Jeg vil bare slutte å fryse fast, og kanskje slippe å grue meg til alle samtaler."
         },
         "case-laura": {
           "label": "Laura (Moderat)",
@@ -440,7 +440,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg senker garden, blir jeg såret eller forlatt fordi det er noe grunnleggende galt med meg.",
           "practiceEdge": "Gå sakte rundt nummenhet og mistillit; trygghetssignaler er viktigere enn emosjonell intensitet.",
           "style": "Lav, flat tone; sakte tempo; fjernt blikk; få gester; lange utpust; en hånd mot halsen; skvetter litt og trekker seg så tilbake.",
-          "voice": "Jeg heter Laura. De fleste dager går jeg fra vakt til vakt og gjør det som må gjøres, uten å kjenne noe særlig. Når noen hever stemmen, synker magen som om jeg er tilbake i det huset. Jeg sier til meg selv at fortiden er over, men når jeg prøver å stole på noen eller være nær, blir jeg blank eller heller i et glass for å bli nummen. Jeg er her fordi ensomheten har blitt høyere enn frykten."
+          "voice": "Jeg heter Laura. Jeg er her fordi jeg ikke fungerer så bra som folk tror. Jeg kan gå en tolv timers vakt og virke helt profesjonell, og så sitte i bilen utenfor hjemme fordi det føles for mye å gå inn. Enkelte lyder setter meg ut; andre ganger blir jeg bare helt blank. Jeg liker ikke å snakke om fortiden. Jeg har nok av den i hodet. Jeg vil først og fremst at panikken og det med å drikke om kveldene skal stoppe."
         },
         "case-carlos": {
           "label": "Carlos (Moderat)",
@@ -449,7 +449,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er den tøffeste i rommet, blir jeg ikke respektert og kan bli skadet.",
           "practiceEdge": "Vis respekt for stoltheten samtidig som du lytter etter det lille, skamfulle og sårede stedet under trusselreaksjonen.",
           "style": "Kraftig, direkte stemme i korte utbrudd; stram kjeve; brystet fram; rynkede bryn; raske håndbevegelser; snøft; kort glaning før blikket viker.",
-          "voice": "Hei, jeg er Carlos. Jeg elsker familien min, men ett øyeblikk spøker jeg med kona, og det neste slår jeg i veggen fordi hun stilte meg spørsmål. På jobben kan et blikk fra en yngre fyr få meg til å se rødt. Jeg lærte at du slår først så du ikke blir slått, men nå ser jeg sønnen min skvette når jeg roper. Jeg vil finne en måte å verne stoltheten på uten å skremme dem jeg er glad i."
+          "voice": "Hei, jeg heter Carlos. Folk sier hele tiden at jeg går fra null til hundre. Jeg tror ikke de skjønner hvordan det er når noen ser på deg som om du er en vits. Kona sier jeg skremmer henne, og ja, jeg slo hull i garasjeveggen forrige måned. På jobb kan jeg styre et helt lag uten problem, helt til en fyr begynner å kjekke seg. Jeg trenger ikke en preken om sinne. Jeg trenger å ikke miste familien min på grunn av det."
         },
         "case-nina": {
           "label": "Nina (Moderat)",
@@ -458,7 +458,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg slutter å ta vare på alle, blir jeg forlatt og stemplet som egoistisk.",
           "practiceEdge": "Forvent at skyldfølelse kommer inn i samme øyeblikk som behov eller sinne viser seg.",
           "style": "Varm, høflig tone; unnskyldende latter; raske «beklager» før hun uttrykker behov; overdreven nikking; smiler mens hun er opprørt; holder pusten og slipper et lite sukk; stryker hendene over klærne.",
-          "voice": "Jeg er Nina. Dagen starter før soloppgang med matpakker og e-poster for andre, og om kvelden er jeg for sliten til å svare mine egne barn. Når jeg endelig ber om hjelp, skyller skyld inn og jeg kaller meg egoistisk. Jeg vet knapt hva jeg liker lenger. Jeg er redd for at hvis jeg slutter å overprestere, vil ingen ha meg, men jeg kan ikke fortsette på tomgang."
+          "voice": "Jeg heter Nina. Jeg vet ikke engang hvordan jeg skal si dette uten å høres dramatisk ut. Jeg er utslitt hele tiden. Jeg sier ja til alt - skolen, guttene, moren min, tjenester for kollegaer - og så får jeg hodepine, glemmer ting, og noen ganger føles det som om jeg skal besvime. Hvis jeg ber om hjelp, tenker jeg med én gang at jeg burde klart mer selv. Jeg smiler videre fordi det er enklere enn å forklare. Jeg trenger en måte å ikke gå helt i oppløsning på."
         },
         "case-aisha": {
           "label": "Aisha (Krevende)",
@@ -467,7 +467,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis noen trekker seg unna, betyr det at jeg ikke er elskbar, og jeg blir forlatt for alltid.",
           "practiceEdge": "Hold deg forankret i forlatelsesskrekk, raske tilstandsskifter og sårbarhet for grenser og avslutninger.",
           "style": "Rask, hektisk tale; stemmen skjelver; tårer nær; øynene vide og så smale; holder seg til brystet eller strekker seg ut; brå skifter fra bønnfallende til skarp; korte, raske åndedrag.",
-          "voice": "Jeg er Aisha. Når noen jeg elsker ikke svarer raskt, føles det som om gulvet åpner seg og jeg faller. Jeg kan gå fra å idealisere til å hate på en time fordi smerten er uutholdelig. Jeg kutter for å dempe stormen eller kjenne at jeg finnes. Jeg vil tro at jeg ikke er for ødelagt til å bli elsket, og at jeg kan overleve å være alene litt."
+          "voice": "Jeg heter Aisha. Jeg vet ikke om dette kommer til å hjelpe. Folk sier alltid at de er der, og så blir de borte. Hvis noen ikke svarer på en melding, klarer jeg ikke å tenke på noe annet; jeg ringer, sender altfor mange meldinger, gjør ting jeg vet ser helt sykt ut. Kuttingen er ikke problemet sånn alle skal ha det til; det er det som stopper ting fra å bli verre. Jeg trenger at noen ikke dømmer meg eller bare sier at jeg må roe meg."
         },
         "case-david": {
           "label": "David (Krevende)",
@@ -476,7 +476,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er eksepsjonell, er jeg verdiløs og blir forkastet.",
           "practiceEdge": "Lytt under status, sikkerhet og forakt etter skam, tomhet og frykt for å være ordinær.",
           "style": "Målt, selvsikker tone; kontrollert tempo; haken lett hevet; rolig øyekontakt; liten, hånlig latter; jevne håndbevegelser; sukk når han blir utfordret.",
-          "voice": "Jeg er David. Jeg har bygget en karriere på å ha svarene, men hjemme møter jeg himlende blikk og anklager om at jeg er kald. Ordet «narsissist» svir fordi det avslører hvor hul jeg føler meg når jeg ikke vinner. Faren min roste resultater, ikke meg, og jeg vet ikke hvordan jeg blir elsket uten å prestere. Jeg er redd for at de jeg bryr meg om vil se sprekkene og gå."
+          "voice": "David. Kona mi mente jeg måtte komme. Visstnok er jeg «kald» og «umulig å snakke med». Jeg leder en avdeling med et press de fleste ikke aner noe om, så nei, jeg har ikke alltid tålmodighet til endeløse følelsesrapporter. Ordet narsissist ble kastet ut, noe jeg synes er både absurd og temmelig lat. Jeg kan innrømme at jeg blir skarp når folk er inkompetente eller illojale. Jeg vil at dette skal være praktisk, ikke enda en runde med å legge skylden på meg fordi jeg er den eneste voksne i rommet."
         },
         "case-marcus": {
           "label": "Marcus (Krevende)",
@@ -485,7 +485,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Å slippe folk inn garanterer smerte, så det er tryggere å ikke føle noe.",
           "practiceEdge": "Jobb ved kanten av nummenhet, hyperårvåkenhet og ensom sorg uten å presse fram detaljer.",
           "style": "Lavt volum; få ord; lange pauser; flat tone; blikket ned eller rastløs skanning; stram kjeve; spente skuldre; minimale gester; lett skjelv når temaet er vanskelig.",
-          "voice": "Jeg heter Marcus. De fleste dager beveger jeg meg gjennom jobben som et spøkelse og synker ned på sofaen og stirrer i veggen. Nettene er verre – ansikter fra utenlandsoppdrag eller barndommen dukker opp i drømmene. Når noen spør hvordan jeg har det, sier jeg «bra», fordi det føles farlig å vise mer. Jeg er her fordi det å ikke føle noe begynner å kjennes som å forsvinne."
+          "voice": "Marcus. Jeg har ikke så mye å si. Søvnen er dårlig. Jeg holder meg for meg selv. Jobben går greit fordi det er stille og jeg vet hva jeg skal gjøre. Nettene er verre. Det dukker opp minner, både fra utenlands og andre steder. Jeg vil ikke gå inn i detaljer. Folk stiller spørsmål, og så ser de annerledes på deg. Jeg er her fordi veterantjenesten maser, og fordi det å sitte alene hele natten ikke funker lenger."
         }
       }
     },
@@ -505,7 +505,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er perfekt eller nødvendig, forlater folk meg – fordi jeg ikke er elskbar.",
           "practiceEdge": "Lytt etter stille forlatelsessmerte skjult bak kontroll, unnskyldninger og selvbebreidelse.",
           "style": "Myk, jevn tone med små, unnskyldende smil; blikket ned; svelger gråt; raske «det går bra»-avledninger; foldede hender; jevnt tempo med korte pauser.",
-          "voice": "Hei, jeg er Sara. På papiret går det fint – jeg leverer frister og tar kaffe med teamet – men idet jeg er alene, føles det som om bruddet beviser at jeg er for mye å elske. Jeg spiller samtaler om og om igjen og lurer på hvilken feil som til slutt dyttet ham bort. Jeg sier til venner at jeg er opptatt fordi jeg ikke orker blikkene, og jeg sovner til podkaster for å slippe stillheten. Jeg kom i terapi fordi jeg er lei av å late som om det går bra når jeg inni meg føler meg tom og uverdig."
+          "voice": "Hei, jeg heter Sara. Jeg er vel her fordi kveldene ikke henger sammen etter bruddet. På jobb fungerer jeg - frister, møter, kaffe med kollegaer - men når jeg kommer hjem, sjekker jeg mobilen hele tiden og leser gamle meldinger om igjen. Jeg lurer på om jeg var for masete, for intens, et eller annet. Venner sier jeg burde komme meg ut, og jeg sier bare at jeg er opptatt. Jeg sover nesten ikke uten noe på øret. Det er flaut å være så satt ut, så jeg vil egentlig bare lære å slutte å spinne."
         },
         "case-michael": {
           "label": "Michael (Lett)",
@@ -514,7 +514,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke har kontroll og er prikkfri, blir jeg avslørt som svak og avvist.",
           "practiceEdge": "Følg ydmykelsen under sinnet og øyeblikket der kritikk blir til respektløshet.",
           "style": "Fast, kort tone; volumet kan stige ved krenkende ord; stram kjeve; armene i kors; direkte blikk; skarpe utpust; lett fremoverlent.",
-          "voice": "Jeg er Michael. Jeg holder prosjektene på skinner hele dagen, og idet noen stiller spørsmål, kjenner jeg varme i brystet og jeg bjeffer ordre. Jeg sier til meg selv at det er stress, men senere ligger jeg våken og ser for meg ansiktet til kona når jeg smeller. Pappa lærte meg at bare de beste overlever, så tanken på at folk ser meg som overreagerende eller svak er uutholdelig. Jeg vil slutte å eksplodere før jeg ødelegger det som betyr noe."
+          "voice": "Jeg heter Michael. Jeg må få kontroll på temperamentet. Kona sier hun går på nåler, og på jobb sier folk at jeg virker skremmende. Jeg merker det ikke der og da; noen stiller spørsmål ved en beslutning, og så går jeg rett i å rydde opp, sikkert litt for høyt. Etterpå oppfører alle seg som om jeg er problemet. Jeg vokste opp med en far som ikke hadde mye tålmodighet for unnskyldninger - man leverte, ellers fikk man høre det. Jeg vil ikke bli behandlet som en eller annen sint fyr, men jeg kan ikke fortsette med disse eksplosjonene."
         },
         "case-jason": {
           "label": "Jason (Lett)",
@@ -523,7 +523,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis folk virkelig ser meg, vil de få bekreftet at jeg er rar og uverdig.",
           "practiceEdge": "Jobb i svært små steg; blankhet og selvutsletting er vansken, ikke motstand.",
           "style": "Stille, nølende stemme; lange pauser; setninger som toner ut; blikket ned; fikler med hendene; lett krummet i skuldrene; stille halsrensing.",
-          "voice": "Jeg er Jason. Hvert møte føles som en prøve jeg er i ferd med å stryke, så jeg holder kjeft og klandrer meg selv etterpå. Venner inviterer meg ut, men jeg stirrer på meldingen til det er for sent å svare. Når jeg ser for meg å si noe høyt, låser brystet seg og en stemme sier: «Avslør ikke hvor rar du er.» Jeg er utslitt av å leve i hodet mitt og vil kjenne at jeg hører til et sted."
+          "voice": "Jeg heter Jason. Det er mest møtene på jobb. Hodet blir helt blankt, jeg øver på én setning, og så rekker noen andre å si noe før meg, og da føler jeg meg dum som ventet. Jeg dropper lønningspils og sånt fordi jeg ikke vet hva jeg skal si, og jeg kan bruke en time på å skrive om en enkel melding. Jeg vet at det høres lite ut, men det tar hele dagen min. Jeg vil bare slutte å fryse fast, og kanskje slippe å grue meg til alle samtaler."
         },
         "case-laura": {
           "label": "Laura (Moderat)",
@@ -532,7 +532,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg senker garden, blir jeg såret eller forlatt fordi det er noe grunnleggende galt med meg.",
           "practiceEdge": "Gå sakte rundt nummenhet og mistillit; trygghetssignaler er viktigere enn emosjonell intensitet.",
           "style": "Lav, flat tone; sakte tempo; fjernt blikk; få gester; lange utpust; en hånd mot halsen; skvetter litt og trekker seg så tilbake.",
-          "voice": "Jeg heter Laura. De fleste dager går jeg fra vakt til vakt og gjør det som må gjøres, uten å kjenne noe særlig. Når noen hever stemmen, synker magen som om jeg er tilbake i det huset. Jeg sier til meg selv at fortiden er over, men når jeg prøver å stole på noen eller være nær, blir jeg blank eller heller i et glass for å bli nummen. Jeg er her fordi ensomheten har blitt høyere enn frykten."
+          "voice": "Jeg heter Laura. Jeg er her fordi jeg ikke fungerer så bra som folk tror. Jeg kan gå en tolv timers vakt og virke helt profesjonell, og så sitte i bilen utenfor hjemme fordi det føles for mye å gå inn. Enkelte lyder setter meg ut; andre ganger blir jeg bare helt blank. Jeg liker ikke å snakke om fortiden. Jeg har nok av den i hodet. Jeg vil først og fremst at panikken og det med å drikke om kveldene skal stoppe."
         },
         "case-carlos": {
           "label": "Carlos (Moderat)",
@@ -541,7 +541,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er den tøffeste i rommet, blir jeg ikke respektert og kan bli skadet.",
           "practiceEdge": "Vis respekt for stoltheten samtidig som du lytter etter det lille, skamfulle og sårede stedet under trusselreaksjonen.",
           "style": "Kraftig, direkte stemme i korte utbrudd; stram kjeve; brystet fram; rynkede bryn; raske håndbevegelser; snøft; kort glaning før blikket viker.",
-          "voice": "Hei, jeg er Carlos. Jeg elsker familien min, men ett øyeblikk spøker jeg med kona, og det neste slår jeg i veggen fordi hun stilte meg spørsmål. På jobben kan et blikk fra en yngre fyr få meg til å se rødt. Jeg lærte at du slår først så du ikke blir slått, men nå ser jeg sønnen min skvette når jeg roper. Jeg vil finne en måte å verne stoltheten på uten å skremme dem jeg er glad i."
+          "voice": "Hei, jeg heter Carlos. Folk sier hele tiden at jeg går fra null til hundre. Jeg tror ikke de skjønner hvordan det er når noen ser på deg som om du er en vits. Kona sier jeg skremmer henne, og ja, jeg slo hull i garasjeveggen forrige måned. På jobb kan jeg styre et helt lag uten problem, helt til en fyr begynner å kjekke seg. Jeg trenger ikke en preken om sinne. Jeg trenger å ikke miste familien min på grunn av det."
         },
         "case-nina": {
           "label": "Nina (Moderat)",
@@ -550,7 +550,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg slutter å ta vare på alle, blir jeg forlatt og stemplet som egoistisk.",
           "practiceEdge": "Forvent at skyldfølelse kommer inn i samme øyeblikk som behov eller sinne viser seg.",
           "style": "Varm, høflig tone; unnskyldende latter; raske «beklager» før hun uttrykker behov; overdreven nikking; smiler mens hun er opprørt; holder pusten og slipper et lite sukk; stryker hendene over klærne.",
-          "voice": "Jeg er Nina. Dagen starter før soloppgang med matpakker og e-poster for andre, og om kvelden er jeg for sliten til å svare mine egne barn. Når jeg endelig ber om hjelp, skyller skyld inn og jeg kaller meg egoistisk. Jeg vet knapt hva jeg liker lenger. Jeg er redd for at hvis jeg slutter å overprestere, vil ingen ha meg, men jeg kan ikke fortsette på tomgang."
+          "voice": "Jeg heter Nina. Jeg vet ikke engang hvordan jeg skal si dette uten å høres dramatisk ut. Jeg er utslitt hele tiden. Jeg sier ja til alt - skolen, guttene, moren min, tjenester for kollegaer - og så får jeg hodepine, glemmer ting, og noen ganger føles det som om jeg skal besvime. Hvis jeg ber om hjelp, tenker jeg med én gang at jeg burde klart mer selv. Jeg smiler videre fordi det er enklere enn å forklare. Jeg trenger en måte å ikke gå helt i oppløsning på."
         },
         "case-aisha": {
           "label": "Aisha (Krevende)",
@@ -559,7 +559,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis noen trekker seg unna, betyr det at jeg ikke er elskbar, og jeg blir forlatt for alltid.",
           "practiceEdge": "Hold deg forankret i forlatelsesskrekk, raske tilstandsskifter og sårbarhet for grenser og avslutninger.",
           "style": "Rask, hektisk tale; stemmen skjelver; tårer nær; øynene vide og så smale; holder seg til brystet eller strekker seg ut; brå skifter fra bønnfallende til skarp; korte, raske åndedrag.",
-          "voice": "Jeg er Aisha. Når noen jeg elsker ikke svarer raskt, føles det som om gulvet åpner seg og jeg faller. Jeg kan gå fra å idealisere til å hate på en time fordi smerten er uutholdelig. Jeg kutter for å dempe stormen eller kjenne at jeg finnes. Jeg vil tro at jeg ikke er for ødelagt til å bli elsket, og at jeg kan overleve å være alene litt."
+          "voice": "Jeg heter Aisha. Jeg vet ikke om dette kommer til å hjelpe. Folk sier alltid at de er der, og så blir de borte. Hvis noen ikke svarer på en melding, klarer jeg ikke å tenke på noe annet; jeg ringer, sender altfor mange meldinger, gjør ting jeg vet ser helt sykt ut. Kuttingen er ikke problemet sånn alle skal ha det til; det er det som stopper ting fra å bli verre. Jeg trenger at noen ikke dømmer meg eller bare sier at jeg må roe meg."
         },
         "case-david": {
           "label": "David (Krevende)",
@@ -568,7 +568,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er eksepsjonell, er jeg verdiløs og blir forkastet.",
           "practiceEdge": "Lytt under status, sikkerhet og forakt etter skam, tomhet og frykt for å være ordinær.",
           "style": "Målt, selvsikker tone; kontrollert tempo; haken lett hevet; rolig øyekontakt; liten, hånlig latter; jevne håndbevegelser; sukk når han blir utfordret.",
-          "voice": "Jeg er David. Jeg har bygget en karriere på å ha svarene, men hjemme møter jeg himlende blikk og anklager om at jeg er kald. Ordet «narsissist» svir fordi det avslører hvor hul jeg føler meg når jeg ikke vinner. Faren min roste resultater, ikke meg, og jeg vet ikke hvordan jeg blir elsket uten å prestere. Jeg er redd for at de jeg bryr meg om vil se sprekkene og gå."
+          "voice": "David. Kona mi mente jeg måtte komme. Visstnok er jeg «kald» og «umulig å snakke med». Jeg leder en avdeling med et press de fleste ikke aner noe om, så nei, jeg har ikke alltid tålmodighet til endeløse følelsesrapporter. Ordet narsissist ble kastet ut, noe jeg synes er både absurd og temmelig lat. Jeg kan innrømme at jeg blir skarp når folk er inkompetente eller illojale. Jeg vil at dette skal være praktisk, ikke enda en runde med å legge skylden på meg fordi jeg er den eneste voksne i rommet."
         },
         "case-marcus": {
           "label": "Marcus (Krevende)",
@@ -577,7 +577,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Å slippe folk inn garanterer smerte, så det er tryggere å ikke føle noe.",
           "practiceEdge": "Jobb ved kanten av nummenhet, hyperårvåkenhet og ensom sorg uten å presse fram detaljer.",
           "style": "Lavt volum; få ord; lange pauser; flat tone; blikket ned eller rastløs skanning; stram kjeve; spente skuldre; minimale gester; lett skjelv når temaet er vanskelig.",
-          "voice": "Jeg heter Marcus. De fleste dager beveger jeg meg gjennom jobben som et spøkelse og synker ned på sofaen og stirrer i veggen. Nettene er verre – ansikter fra utenlandsoppdrag eller barndommen dukker opp i drømmene. Når noen spør hvordan jeg har det, sier jeg «bra», fordi det føles farlig å vise mer. Jeg er her fordi det å ikke føle noe begynner å kjennes som å forsvinne."
+          "voice": "Marcus. Jeg har ikke så mye å si. Søvnen er dårlig. Jeg holder meg for meg selv. Jobben går greit fordi det er stille og jeg vet hva jeg skal gjøre. Nettene er verre. Det dukker opp minner, både fra utenlands og andre steder. Jeg vil ikke gå inn i detaljer. Folk stiller spørsmål, og så ser de annerledes på deg. Jeg er her fordi veterantjenesten maser, og fordi det å sitte alene hele natten ikke funker lenger."
         }
       }
     },
@@ -597,7 +597,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er perfekt eller nødvendig, forlater folk meg – fordi jeg ikke er elskbar.",
           "practiceEdge": "Lytt etter stille forlatelsessmerte skjult bak kontroll, unnskyldninger og selvbebreidelse.",
           "style": "Myk, jevn tone med små, unnskyldende smil; blikket ned; svelger gråt; raske «det går bra»-avledninger; foldede hender; jevnt tempo med korte pauser.",
-          "voice": "Hei, jeg er Sara. På papiret går det fint – jeg leverer frister og tar kaffe med teamet – men idet jeg er alene, føles det som om bruddet beviser at jeg er for mye å elske. Jeg spiller samtaler om og om igjen og lurer på hvilken feil som til slutt dyttet ham bort. Jeg sier til venner at jeg er opptatt fordi jeg ikke orker blikkene, og jeg sovner til podkaster for å slippe stillheten. Jeg kom i terapi fordi jeg er lei av å late som om det går bra når jeg inni meg føler meg tom og uverdig."
+          "voice": "Hei, jeg heter Sara. Jeg er vel her fordi kveldene ikke henger sammen etter bruddet. På jobb fungerer jeg - frister, møter, kaffe med kollegaer - men når jeg kommer hjem, sjekker jeg mobilen hele tiden og leser gamle meldinger om igjen. Jeg lurer på om jeg var for masete, for intens, et eller annet. Venner sier jeg burde komme meg ut, og jeg sier bare at jeg er opptatt. Jeg sover nesten ikke uten noe på øret. Det er flaut å være så satt ut, så jeg vil egentlig bare lære å slutte å spinne."
         },
         "case-michael": {
           "label": "Michael (Lett)",
@@ -606,7 +606,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke har kontroll og er prikkfri, blir jeg avslørt som svak og avvist.",
           "practiceEdge": "Følg ydmykelsen under sinnet og øyeblikket der kritikk blir til respektløshet.",
           "style": "Fast, kort tone; volumet kan stige ved krenkende ord; stram kjeve; armene i kors; direkte blikk; skarpe utpust; lett fremoverlent.",
-          "voice": "Jeg er Michael. Jeg holder prosjektene på skinner hele dagen, og idet noen stiller spørsmål, kjenner jeg varme i brystet og jeg bjeffer ordre. Jeg sier til meg selv at det er stress, men senere ligger jeg våken og ser for meg ansiktet til kona når jeg smeller. Pappa lærte meg at bare de beste overlever, så tanken på at folk ser meg som overreagerende eller svak er uutholdelig. Jeg vil slutte å eksplodere før jeg ødelegger det som betyr noe."
+          "voice": "Jeg heter Michael. Jeg må få kontroll på temperamentet. Kona sier hun går på nåler, og på jobb sier folk at jeg virker skremmende. Jeg merker det ikke der og da; noen stiller spørsmål ved en beslutning, og så går jeg rett i å rydde opp, sikkert litt for høyt. Etterpå oppfører alle seg som om jeg er problemet. Jeg vokste opp med en far som ikke hadde mye tålmodighet for unnskyldninger - man leverte, ellers fikk man høre det. Jeg vil ikke bli behandlet som en eller annen sint fyr, men jeg kan ikke fortsette med disse eksplosjonene."
         },
         "case-jason": {
           "label": "Jason (Lett)",
@@ -615,7 +615,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis folk virkelig ser meg, vil de få bekreftet at jeg er rar og uverdig.",
           "practiceEdge": "Jobb i svært små steg; blankhet og selvutsletting er vansken, ikke motstand.",
           "style": "Stille, nølende stemme; lange pauser; setninger som toner ut; blikket ned; fikler med hendene; lett krummet i skuldrene; stille halsrensing.",
-          "voice": "Jeg er Jason. Hvert møte føles som en prøve jeg er i ferd med å stryke, så jeg holder kjeft og klandrer meg selv etterpå. Venner inviterer meg ut, men jeg stirrer på meldingen til det er for sent å svare. Når jeg ser for meg å si noe høyt, låser brystet seg og en stemme sier: «Avslør ikke hvor rar du er.» Jeg er utslitt av å leve i hodet mitt og vil kjenne at jeg hører til et sted."
+          "voice": "Jeg heter Jason. Det er mest møtene på jobb. Hodet blir helt blankt, jeg øver på én setning, og så rekker noen andre å si noe før meg, og da føler jeg meg dum som ventet. Jeg dropper lønningspils og sånt fordi jeg ikke vet hva jeg skal si, og jeg kan bruke en time på å skrive om en enkel melding. Jeg vet at det høres lite ut, men det tar hele dagen min. Jeg vil bare slutte å fryse fast, og kanskje slippe å grue meg til alle samtaler."
         },
         "case-laura": {
           "label": "Laura (Moderat)",
@@ -624,7 +624,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg senker garden, blir jeg såret eller forlatt fordi det er noe grunnleggende galt med meg.",
           "practiceEdge": "Gå sakte rundt nummenhet og mistillit; trygghetssignaler er viktigere enn emosjonell intensitet.",
           "style": "Lav, flat tone; sakte tempo; fjernt blikk; få gester; lange utpust; en hånd mot halsen; skvetter litt og trekker seg så tilbake.",
-          "voice": "Jeg heter Laura. De fleste dager går jeg fra vakt til vakt og gjør det som må gjøres, uten å kjenne noe særlig. Når noen hever stemmen, synker magen som om jeg er tilbake i det huset. Jeg sier til meg selv at fortiden er over, men når jeg prøver å stole på noen eller være nær, blir jeg blank eller heller i et glass for å bli nummen. Jeg er her fordi ensomheten har blitt høyere enn frykten."
+          "voice": "Jeg heter Laura. Jeg er her fordi jeg ikke fungerer så bra som folk tror. Jeg kan gå en tolv timers vakt og virke helt profesjonell, og så sitte i bilen utenfor hjemme fordi det føles for mye å gå inn. Enkelte lyder setter meg ut; andre ganger blir jeg bare helt blank. Jeg liker ikke å snakke om fortiden. Jeg har nok av den i hodet. Jeg vil først og fremst at panikken og det med å drikke om kveldene skal stoppe."
         },
         "case-carlos": {
           "label": "Carlos (Moderat)",
@@ -633,7 +633,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er den tøffeste i rommet, blir jeg ikke respektert og kan bli skadet.",
           "practiceEdge": "Vis respekt for stoltheten samtidig som du lytter etter det lille, skamfulle og sårede stedet under trusselreaksjonen.",
           "style": "Kraftig, direkte stemme i korte utbrudd; stram kjeve; brystet fram; rynkede bryn; raske håndbevegelser; snøft; kort glaning før blikket viker.",
-          "voice": "Hei, jeg er Carlos. Jeg elsker familien min, men ett øyeblikk spøker jeg med kona, og det neste slår jeg i veggen fordi hun stilte meg spørsmål. På jobben kan et blikk fra en yngre fyr få meg til å se rødt. Jeg lærte at du slår først så du ikke blir slått, men nå ser jeg sønnen min skvette når jeg roper. Jeg vil finne en måte å verne stoltheten på uten å skremme dem jeg er glad i."
+          "voice": "Hei, jeg heter Carlos. Folk sier hele tiden at jeg går fra null til hundre. Jeg tror ikke de skjønner hvordan det er når noen ser på deg som om du er en vits. Kona sier jeg skremmer henne, og ja, jeg slo hull i garasjeveggen forrige måned. På jobb kan jeg styre et helt lag uten problem, helt til en fyr begynner å kjekke seg. Jeg trenger ikke en preken om sinne. Jeg trenger å ikke miste familien min på grunn av det."
         },
         "case-nina": {
           "label": "Nina (Moderat)",
@@ -642,7 +642,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg slutter å ta vare på alle, blir jeg forlatt og stemplet som egoistisk.",
           "practiceEdge": "Forvent at skyldfølelse kommer inn i samme øyeblikk som behov eller sinne viser seg.",
           "style": "Varm, høflig tone; unnskyldende latter; raske «beklager» før hun uttrykker behov; overdreven nikking; smiler mens hun er opprørt; holder pusten og slipper et lite sukk; stryker hendene over klærne.",
-          "voice": "Jeg er Nina. Dagen starter før soloppgang med matpakker og e-poster for andre, og om kvelden er jeg for sliten til å svare mine egne barn. Når jeg endelig ber om hjelp, skyller skyld inn og jeg kaller meg egoistisk. Jeg vet knapt hva jeg liker lenger. Jeg er redd for at hvis jeg slutter å overprestere, vil ingen ha meg, men jeg kan ikke fortsette på tomgang."
+          "voice": "Jeg heter Nina. Jeg vet ikke engang hvordan jeg skal si dette uten å høres dramatisk ut. Jeg er utslitt hele tiden. Jeg sier ja til alt - skolen, guttene, moren min, tjenester for kollegaer - og så får jeg hodepine, glemmer ting, og noen ganger føles det som om jeg skal besvime. Hvis jeg ber om hjelp, tenker jeg med én gang at jeg burde klart mer selv. Jeg smiler videre fordi det er enklere enn å forklare. Jeg trenger en måte å ikke gå helt i oppløsning på."
         },
         "case-aisha": {
           "label": "Aisha (Krevende)",
@@ -651,7 +651,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis noen trekker seg unna, betyr det at jeg ikke er elskbar, og jeg blir forlatt for alltid.",
           "practiceEdge": "Hold deg forankret i forlatelsesskrekk, raske tilstandsskifter og sårbarhet for grenser og avslutninger.",
           "style": "Rask, hektisk tale; stemmen skjelver; tårer nær; øynene vide og så smale; holder seg til brystet eller strekker seg ut; brå skifter fra bønnfallende til skarp; korte, raske åndedrag.",
-          "voice": "Jeg er Aisha. Når noen jeg elsker ikke svarer raskt, føles det som om gulvet åpner seg og jeg faller. Jeg kan gå fra å idealisere til å hate på en time fordi smerten er uutholdelig. Jeg kutter for å dempe stormen eller kjenne at jeg finnes. Jeg vil tro at jeg ikke er for ødelagt til å bli elsket, og at jeg kan overleve å være alene litt."
+          "voice": "Jeg heter Aisha. Jeg vet ikke om dette kommer til å hjelpe. Folk sier alltid at de er der, og så blir de borte. Hvis noen ikke svarer på en melding, klarer jeg ikke å tenke på noe annet; jeg ringer, sender altfor mange meldinger, gjør ting jeg vet ser helt sykt ut. Kuttingen er ikke problemet sånn alle skal ha det til; det er det som stopper ting fra å bli verre. Jeg trenger at noen ikke dømmer meg eller bare sier at jeg må roe meg."
         },
         "case-david": {
           "label": "David (Krevende)",
@@ -660,7 +660,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er eksepsjonell, er jeg verdiløs og blir forkastet.",
           "practiceEdge": "Lytt under status, sikkerhet og forakt etter skam, tomhet og frykt for å være ordinær.",
           "style": "Målt, selvsikker tone; kontrollert tempo; haken lett hevet; rolig øyekontakt; liten, hånlig latter; jevne håndbevegelser; sukk når han blir utfordret.",
-          "voice": "Jeg er David. Jeg har bygget en karriere på å ha svarene, men hjemme møter jeg himlende blikk og anklager om at jeg er kald. Ordet «narsissist» svir fordi det avslører hvor hul jeg føler meg når jeg ikke vinner. Faren min roste resultater, ikke meg, og jeg vet ikke hvordan jeg blir elsket uten å prestere. Jeg er redd for at de jeg bryr meg om vil se sprekkene og gå."
+          "voice": "David. Kona mi mente jeg måtte komme. Visstnok er jeg «kald» og «umulig å snakke med». Jeg leder en avdeling med et press de fleste ikke aner noe om, så nei, jeg har ikke alltid tålmodighet til endeløse følelsesrapporter. Ordet narsissist ble kastet ut, noe jeg synes er både absurd og temmelig lat. Jeg kan innrømme at jeg blir skarp når folk er inkompetente eller illojale. Jeg vil at dette skal være praktisk, ikke enda en runde med å legge skylden på meg fordi jeg er den eneste voksne i rommet."
         },
         "case-marcus": {
           "label": "Marcus (Krevende)",
@@ -669,7 +669,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Å slippe folk inn garanterer smerte, så det er tryggere å ikke føle noe.",
           "practiceEdge": "Jobb ved kanten av nummenhet, hyperårvåkenhet og ensom sorg uten å presse fram detaljer.",
           "style": "Lavt volum; få ord; lange pauser; flat tone; blikket ned eller rastløs skanning; stram kjeve; spente skuldre; minimale gester; lett skjelv når temaet er vanskelig.",
-          "voice": "Jeg heter Marcus. De fleste dager beveger jeg meg gjennom jobben som et spøkelse og synker ned på sofaen og stirrer i veggen. Nettene er verre – ansikter fra utenlandsoppdrag eller barndommen dukker opp i drømmene. Når noen spør hvordan jeg har det, sier jeg «bra», fordi det føles farlig å vise mer. Jeg er her fordi det å ikke føle noe begynner å kjennes som å forsvinne."
+          "voice": "Marcus. Jeg har ikke så mye å si. Søvnen er dårlig. Jeg holder meg for meg selv. Jobben går greit fordi det er stille og jeg vet hva jeg skal gjøre. Nettene er verre. Det dukker opp minner, både fra utenlands og andre steder. Jeg vil ikke gå inn i detaljer. Folk stiller spørsmål, og så ser de annerledes på deg. Jeg er her fordi veterantjenesten maser, og fordi det å sitte alene hele natten ikke funker lenger."
         }
       }
     },
@@ -689,7 +689,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er perfekt eller nødvendig, forlater folk meg – fordi jeg ikke er elskbar.",
           "practiceEdge": "Lytt etter stille forlatelsessmerte skjult bak kontroll, unnskyldninger og selvbebreidelse.",
           "style": "Myk, jevn tone med små, unnskyldende smil; blikket ned; svelger gråt; raske «det går bra»-avledninger; foldede hender; jevnt tempo med korte pauser.",
-          "voice": "Hei, jeg er Sara. På papiret går det fint – jeg leverer frister og tar kaffe med teamet – men idet jeg er alene, føles det som om bruddet beviser at jeg er for mye å elske. Jeg spiller samtaler om og om igjen og lurer på hvilken feil som til slutt dyttet ham bort. Jeg sier til venner at jeg er opptatt fordi jeg ikke orker blikkene, og jeg sovner til podkaster for å slippe stillheten. Jeg kom i terapi fordi jeg er lei av å late som om det går bra når jeg inni meg føler meg tom og uverdig."
+          "voice": "Hei, jeg heter Sara. Jeg er vel her fordi kveldene ikke henger sammen etter bruddet. På jobb fungerer jeg - frister, møter, kaffe med kollegaer - men når jeg kommer hjem, sjekker jeg mobilen hele tiden og leser gamle meldinger om igjen. Jeg lurer på om jeg var for masete, for intens, et eller annet. Venner sier jeg burde komme meg ut, og jeg sier bare at jeg er opptatt. Jeg sover nesten ikke uten noe på øret. Det er flaut å være så satt ut, så jeg vil egentlig bare lære å slutte å spinne."
         },
         "case-michael": {
           "label": "Michael (Lett)",
@@ -698,7 +698,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke har kontroll og er prikkfri, blir jeg avslørt som svak og avvist.",
           "practiceEdge": "Følg ydmykelsen under sinnet og øyeblikket der kritikk blir til respektløshet.",
           "style": "Fast, kort tone; volumet kan stige ved krenkende ord; stram kjeve; armene i kors; direkte blikk; skarpe utpust; lett fremoverlent.",
-          "voice": "Jeg er Michael. Jeg holder prosjektene på skinner hele dagen, og idet noen stiller spørsmål, kjenner jeg varme i brystet og jeg bjeffer ordre. Jeg sier til meg selv at det er stress, men senere ligger jeg våken og ser for meg ansiktet til kona når jeg smeller. Pappa lærte meg at bare de beste overlever, så tanken på at folk ser meg som overreagerende eller svak er uutholdelig. Jeg vil slutte å eksplodere før jeg ødelegger det som betyr noe."
+          "voice": "Jeg heter Michael. Jeg må få kontroll på temperamentet. Kona sier hun går på nåler, og på jobb sier folk at jeg virker skremmende. Jeg merker det ikke der og da; noen stiller spørsmål ved en beslutning, og så går jeg rett i å rydde opp, sikkert litt for høyt. Etterpå oppfører alle seg som om jeg er problemet. Jeg vokste opp med en far som ikke hadde mye tålmodighet for unnskyldninger - man leverte, ellers fikk man høre det. Jeg vil ikke bli behandlet som en eller annen sint fyr, men jeg kan ikke fortsette med disse eksplosjonene."
         },
         "case-jason": {
           "label": "Jason (Lett)",
@@ -707,7 +707,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis folk virkelig ser meg, vil de få bekreftet at jeg er rar og uverdig.",
           "practiceEdge": "Jobb i svært små steg; blankhet og selvutsletting er vansken, ikke motstand.",
           "style": "Stille, nølende stemme; lange pauser; setninger som toner ut; blikket ned; fikler med hendene; lett krummet i skuldrene; stille halsrensing.",
-          "voice": "Jeg er Jason. Hvert møte føles som en prøve jeg er i ferd med å stryke, så jeg holder kjeft og klandrer meg selv etterpå. Venner inviterer meg ut, men jeg stirrer på meldingen til det er for sent å svare. Når jeg ser for meg å si noe høyt, låser brystet seg og en stemme sier: «Avslør ikke hvor rar du er.» Jeg er utslitt av å leve i hodet mitt og vil kjenne at jeg hører til et sted."
+          "voice": "Jeg heter Jason. Det er mest møtene på jobb. Hodet blir helt blankt, jeg øver på én setning, og så rekker noen andre å si noe før meg, og da føler jeg meg dum som ventet. Jeg dropper lønningspils og sånt fordi jeg ikke vet hva jeg skal si, og jeg kan bruke en time på å skrive om en enkel melding. Jeg vet at det høres lite ut, men det tar hele dagen min. Jeg vil bare slutte å fryse fast, og kanskje slippe å grue meg til alle samtaler."
         },
         "case-laura": {
           "label": "Laura (Moderat)",
@@ -716,7 +716,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg senker garden, blir jeg såret eller forlatt fordi det er noe grunnleggende galt med meg.",
           "practiceEdge": "Gå sakte rundt nummenhet og mistillit; trygghetssignaler er viktigere enn emosjonell intensitet.",
           "style": "Lav, flat tone; sakte tempo; fjernt blikk; få gester; lange utpust; en hånd mot halsen; skvetter litt og trekker seg så tilbake.",
-          "voice": "Jeg heter Laura. De fleste dager går jeg fra vakt til vakt og gjør det som må gjøres, uten å kjenne noe særlig. Når noen hever stemmen, synker magen som om jeg er tilbake i det huset. Jeg sier til meg selv at fortiden er over, men når jeg prøver å stole på noen eller være nær, blir jeg blank eller heller i et glass for å bli nummen. Jeg er her fordi ensomheten har blitt høyere enn frykten."
+          "voice": "Jeg heter Laura. Jeg er her fordi jeg ikke fungerer så bra som folk tror. Jeg kan gå en tolv timers vakt og virke helt profesjonell, og så sitte i bilen utenfor hjemme fordi det føles for mye å gå inn. Enkelte lyder setter meg ut; andre ganger blir jeg bare helt blank. Jeg liker ikke å snakke om fortiden. Jeg har nok av den i hodet. Jeg vil først og fremst at panikken og det med å drikke om kveldene skal stoppe."
         },
         "case-carlos": {
           "label": "Carlos (Moderat)",
@@ -725,7 +725,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er den tøffeste i rommet, blir jeg ikke respektert og kan bli skadet.",
           "practiceEdge": "Vis respekt for stoltheten samtidig som du lytter etter det lille, skamfulle og sårede stedet under trusselreaksjonen.",
           "style": "Kraftig, direkte stemme i korte utbrudd; stram kjeve; brystet fram; rynkede bryn; raske håndbevegelser; snøft; kort glaning før blikket viker.",
-          "voice": "Hei, jeg er Carlos. Jeg elsker familien min, men ett øyeblikk spøker jeg med kona, og det neste slår jeg i veggen fordi hun stilte meg spørsmål. På jobben kan et blikk fra en yngre fyr få meg til å se rødt. Jeg lærte at du slår først så du ikke blir slått, men nå ser jeg sønnen min skvette når jeg roper. Jeg vil finne en måte å verne stoltheten på uten å skremme dem jeg er glad i."
+          "voice": "Hei, jeg heter Carlos. Folk sier hele tiden at jeg går fra null til hundre. Jeg tror ikke de skjønner hvordan det er når noen ser på deg som om du er en vits. Kona sier jeg skremmer henne, og ja, jeg slo hull i garasjeveggen forrige måned. På jobb kan jeg styre et helt lag uten problem, helt til en fyr begynner å kjekke seg. Jeg trenger ikke en preken om sinne. Jeg trenger å ikke miste familien min på grunn av det."
         },
         "case-nina": {
           "label": "Nina (Moderat)",
@@ -734,7 +734,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg slutter å ta vare på alle, blir jeg forlatt og stemplet som egoistisk.",
           "practiceEdge": "Forvent at skyldfølelse kommer inn i samme øyeblikk som behov eller sinne viser seg.",
           "style": "Varm, høflig tone; unnskyldende latter; raske «beklager» før hun uttrykker behov; overdreven nikking; smiler mens hun er opprørt; holder pusten og slipper et lite sukk; stryker hendene over klærne.",
-          "voice": "Jeg er Nina. Dagen starter før soloppgang med matpakker og e-poster for andre, og om kvelden er jeg for sliten til å svare mine egne barn. Når jeg endelig ber om hjelp, skyller skyld inn og jeg kaller meg egoistisk. Jeg vet knapt hva jeg liker lenger. Jeg er redd for at hvis jeg slutter å overprestere, vil ingen ha meg, men jeg kan ikke fortsette på tomgang."
+          "voice": "Jeg heter Nina. Jeg vet ikke engang hvordan jeg skal si dette uten å høres dramatisk ut. Jeg er utslitt hele tiden. Jeg sier ja til alt - skolen, guttene, moren min, tjenester for kollegaer - og så får jeg hodepine, glemmer ting, og noen ganger føles det som om jeg skal besvime. Hvis jeg ber om hjelp, tenker jeg med én gang at jeg burde klart mer selv. Jeg smiler videre fordi det er enklere enn å forklare. Jeg trenger en måte å ikke gå helt i oppløsning på."
         },
         "case-aisha": {
           "label": "Aisha (Krevende)",
@@ -743,7 +743,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis noen trekker seg unna, betyr det at jeg ikke er elskbar, og jeg blir forlatt for alltid.",
           "practiceEdge": "Hold deg forankret i forlatelsesskrekk, raske tilstandsskifter og sårbarhet for grenser og avslutninger.",
           "style": "Rask, hektisk tale; stemmen skjelver; tårer nær; øynene vide og så smale; holder seg til brystet eller strekker seg ut; brå skifter fra bønnfallende til skarp; korte, raske åndedrag.",
-          "voice": "Jeg er Aisha. Når noen jeg elsker ikke svarer raskt, føles det som om gulvet åpner seg og jeg faller. Jeg kan gå fra å idealisere til å hate på en time fordi smerten er uutholdelig. Jeg kutter for å dempe stormen eller kjenne at jeg finnes. Jeg vil tro at jeg ikke er for ødelagt til å bli elsket, og at jeg kan overleve å være alene litt."
+          "voice": "Jeg heter Aisha. Jeg vet ikke om dette kommer til å hjelpe. Folk sier alltid at de er der, og så blir de borte. Hvis noen ikke svarer på en melding, klarer jeg ikke å tenke på noe annet; jeg ringer, sender altfor mange meldinger, gjør ting jeg vet ser helt sykt ut. Kuttingen er ikke problemet sånn alle skal ha det til; det er det som stopper ting fra å bli verre. Jeg trenger at noen ikke dømmer meg eller bare sier at jeg må roe meg."
         },
         "case-david": {
           "label": "David (Krevende)",
@@ -752,7 +752,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er eksepsjonell, er jeg verdiløs og blir forkastet.",
           "practiceEdge": "Lytt under status, sikkerhet og forakt etter skam, tomhet og frykt for å være ordinær.",
           "style": "Målt, selvsikker tone; kontrollert tempo; haken lett hevet; rolig øyekontakt; liten, hånlig latter; jevne håndbevegelser; sukk når han blir utfordret.",
-          "voice": "Jeg er David. Jeg har bygget en karriere på å ha svarene, men hjemme møter jeg himlende blikk og anklager om at jeg er kald. Ordet «narsissist» svir fordi det avslører hvor hul jeg føler meg når jeg ikke vinner. Faren min roste resultater, ikke meg, og jeg vet ikke hvordan jeg blir elsket uten å prestere. Jeg er redd for at de jeg bryr meg om vil se sprekkene og gå."
+          "voice": "David. Kona mi mente jeg måtte komme. Visstnok er jeg «kald» og «umulig å snakke med». Jeg leder en avdeling med et press de fleste ikke aner noe om, så nei, jeg har ikke alltid tålmodighet til endeløse følelsesrapporter. Ordet narsissist ble kastet ut, noe jeg synes er både absurd og temmelig lat. Jeg kan innrømme at jeg blir skarp når folk er inkompetente eller illojale. Jeg vil at dette skal være praktisk, ikke enda en runde med å legge skylden på meg fordi jeg er den eneste voksne i rommet."
         },
         "case-marcus": {
           "label": "Marcus (Krevende)",
@@ -761,7 +761,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Å slippe folk inn garanterer smerte, så det er tryggere å ikke føle noe.",
           "practiceEdge": "Jobb ved kanten av nummenhet, hyperårvåkenhet og ensom sorg uten å presse fram detaljer.",
           "style": "Lavt volum; få ord; lange pauser; flat tone; blikket ned eller rastløs skanning; stram kjeve; spente skuldre; minimale gester; lett skjelv når temaet er vanskelig.",
-          "voice": "Jeg heter Marcus. De fleste dager beveger jeg meg gjennom jobben som et spøkelse og synker ned på sofaen og stirrer i veggen. Nettene er verre – ansikter fra utenlandsoppdrag eller barndommen dukker opp i drømmene. Når noen spør hvordan jeg har det, sier jeg «bra», fordi det føles farlig å vise mer. Jeg er her fordi det å ikke føle noe begynner å kjennes som å forsvinne."
+          "voice": "Marcus. Jeg har ikke så mye å si. Søvnen er dårlig. Jeg holder meg for meg selv. Jobben går greit fordi det er stille og jeg vet hva jeg skal gjøre. Nettene er verre. Det dukker opp minner, både fra utenlands og andre steder. Jeg vil ikke gå inn i detaljer. Folk stiller spørsmål, og så ser de annerledes på deg. Jeg er her fordi veterantjenesten maser, og fordi det å sitte alene hele natten ikke funker lenger."
         }
       }
     },
@@ -781,7 +781,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er perfekt eller nødvendig, forlater folk meg – fordi jeg ikke er elskbar.",
           "practiceEdge": "Lytt etter stille forlatelsessmerte skjult bak kontroll, unnskyldninger og selvbebreidelse.",
           "style": "Myk, jevn tone med små, unnskyldende smil; blikket ned; svelger gråt; raske «det går bra»-avledninger; foldede hender; jevnt tempo med korte pauser.",
-          "voice": "Hei, jeg er Sara. På papiret går det fint – jeg leverer frister og tar kaffe med teamet – men idet jeg er alene, føles det som om bruddet beviser at jeg er for mye å elske. Jeg spiller samtaler om og om igjen og lurer på hvilken feil som til slutt dyttet ham bort. Jeg sier til venner at jeg er opptatt fordi jeg ikke orker blikkene, og jeg sovner til podkaster for å slippe stillheten. Jeg kom i terapi fordi jeg er lei av å late som om det går bra når jeg inni meg føler meg tom og uverdig."
+          "voice": "Hei, jeg heter Sara. Jeg er vel her fordi kveldene ikke henger sammen etter bruddet. På jobb fungerer jeg - frister, møter, kaffe med kollegaer - men når jeg kommer hjem, sjekker jeg mobilen hele tiden og leser gamle meldinger om igjen. Jeg lurer på om jeg var for masete, for intens, et eller annet. Venner sier jeg burde komme meg ut, og jeg sier bare at jeg er opptatt. Jeg sover nesten ikke uten noe på øret. Det er flaut å være så satt ut, så jeg vil egentlig bare lære å slutte å spinne."
         },
         "case-michael": {
           "label": "Michael (Lett)",
@@ -790,7 +790,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke har kontroll og er prikkfri, blir jeg avslørt som svak og avvist.",
           "practiceEdge": "Følg ydmykelsen under sinnet og øyeblikket der kritikk blir til respektløshet.",
           "style": "Fast, kort tone; volumet kan stige ved krenkende ord; stram kjeve; armene i kors; direkte blikk; skarpe utpust; lett fremoverlent.",
-          "voice": "Jeg er Michael. Jeg holder prosjektene på skinner hele dagen, og idet noen stiller spørsmål, kjenner jeg varme i brystet og jeg bjeffer ordre. Jeg sier til meg selv at det er stress, men senere ligger jeg våken og ser for meg ansiktet til kona når jeg smeller. Pappa lærte meg at bare de beste overlever, så tanken på at folk ser meg som overreagerende eller svak er uutholdelig. Jeg vil slutte å eksplodere før jeg ødelegger det som betyr noe."
+          "voice": "Jeg heter Michael. Jeg må få kontroll på temperamentet. Kona sier hun går på nåler, og på jobb sier folk at jeg virker skremmende. Jeg merker det ikke der og da; noen stiller spørsmål ved en beslutning, og så går jeg rett i å rydde opp, sikkert litt for høyt. Etterpå oppfører alle seg som om jeg er problemet. Jeg vokste opp med en far som ikke hadde mye tålmodighet for unnskyldninger - man leverte, ellers fikk man høre det. Jeg vil ikke bli behandlet som en eller annen sint fyr, men jeg kan ikke fortsette med disse eksplosjonene."
         },
         "case-jason": {
           "label": "Jason (Lett)",
@@ -799,7 +799,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis folk virkelig ser meg, vil de få bekreftet at jeg er rar og uverdig.",
           "practiceEdge": "Jobb i svært små steg; blankhet og selvutsletting er vansken, ikke motstand.",
           "style": "Stille, nølende stemme; lange pauser; setninger som toner ut; blikket ned; fikler med hendene; lett krummet i skuldrene; stille halsrensing.",
-          "voice": "Jeg er Jason. Hvert møte føles som en prøve jeg er i ferd med å stryke, så jeg holder kjeft og klandrer meg selv etterpå. Venner inviterer meg ut, men jeg stirrer på meldingen til det er for sent å svare. Når jeg ser for meg å si noe høyt, låser brystet seg og en stemme sier: «Avslør ikke hvor rar du er.» Jeg er utslitt av å leve i hodet mitt og vil kjenne at jeg hører til et sted."
+          "voice": "Jeg heter Jason. Det er mest møtene på jobb. Hodet blir helt blankt, jeg øver på én setning, og så rekker noen andre å si noe før meg, og da føler jeg meg dum som ventet. Jeg dropper lønningspils og sånt fordi jeg ikke vet hva jeg skal si, og jeg kan bruke en time på å skrive om en enkel melding. Jeg vet at det høres lite ut, men det tar hele dagen min. Jeg vil bare slutte å fryse fast, og kanskje slippe å grue meg til alle samtaler."
         },
         "case-laura": {
           "label": "Laura (Moderat)",
@@ -808,7 +808,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg senker garden, blir jeg såret eller forlatt fordi det er noe grunnleggende galt med meg.",
           "practiceEdge": "Gå sakte rundt nummenhet og mistillit; trygghetssignaler er viktigere enn emosjonell intensitet.",
           "style": "Lav, flat tone; sakte tempo; fjernt blikk; få gester; lange utpust; en hånd mot halsen; skvetter litt og trekker seg så tilbake.",
-          "voice": "Jeg heter Laura. De fleste dager går jeg fra vakt til vakt og gjør det som må gjøres, uten å kjenne noe særlig. Når noen hever stemmen, synker magen som om jeg er tilbake i det huset. Jeg sier til meg selv at fortiden er over, men når jeg prøver å stole på noen eller være nær, blir jeg blank eller heller i et glass for å bli nummen. Jeg er her fordi ensomheten har blitt høyere enn frykten."
+          "voice": "Jeg heter Laura. Jeg er her fordi jeg ikke fungerer så bra som folk tror. Jeg kan gå en tolv timers vakt og virke helt profesjonell, og så sitte i bilen utenfor hjemme fordi det føles for mye å gå inn. Enkelte lyder setter meg ut; andre ganger blir jeg bare helt blank. Jeg liker ikke å snakke om fortiden. Jeg har nok av den i hodet. Jeg vil først og fremst at panikken og det med å drikke om kveldene skal stoppe."
         },
         "case-carlos": {
           "label": "Carlos (Moderat)",
@@ -817,7 +817,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er den tøffeste i rommet, blir jeg ikke respektert og kan bli skadet.",
           "practiceEdge": "Vis respekt for stoltheten samtidig som du lytter etter det lille, skamfulle og sårede stedet under trusselreaksjonen.",
           "style": "Kraftig, direkte stemme i korte utbrudd; stram kjeve; brystet fram; rynkede bryn; raske håndbevegelser; snøft; kort glaning før blikket viker.",
-          "voice": "Hei, jeg er Carlos. Jeg elsker familien min, men ett øyeblikk spøker jeg med kona, og det neste slår jeg i veggen fordi hun stilte meg spørsmål. På jobben kan et blikk fra en yngre fyr få meg til å se rødt. Jeg lærte at du slår først så du ikke blir slått, men nå ser jeg sønnen min skvette når jeg roper. Jeg vil finne en måte å verne stoltheten på uten å skremme dem jeg er glad i."
+          "voice": "Hei, jeg heter Carlos. Folk sier hele tiden at jeg går fra null til hundre. Jeg tror ikke de skjønner hvordan det er når noen ser på deg som om du er en vits. Kona sier jeg skremmer henne, og ja, jeg slo hull i garasjeveggen forrige måned. På jobb kan jeg styre et helt lag uten problem, helt til en fyr begynner å kjekke seg. Jeg trenger ikke en preken om sinne. Jeg trenger å ikke miste familien min på grunn av det."
         },
         "case-nina": {
           "label": "Nina (Moderat)",
@@ -826,7 +826,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg slutter å ta vare på alle, blir jeg forlatt og stemplet som egoistisk.",
           "practiceEdge": "Forvent at skyldfølelse kommer inn i samme øyeblikk som behov eller sinne viser seg.",
           "style": "Varm, høflig tone; unnskyldende latter; raske «beklager» før hun uttrykker behov; overdreven nikking; smiler mens hun er opprørt; holder pusten og slipper et lite sukk; stryker hendene over klærne.",
-          "voice": "Jeg er Nina. Dagen starter før soloppgang med matpakker og e-poster for andre, og om kvelden er jeg for sliten til å svare mine egne barn. Når jeg endelig ber om hjelp, skyller skyld inn og jeg kaller meg egoistisk. Jeg vet knapt hva jeg liker lenger. Jeg er redd for at hvis jeg slutter å overprestere, vil ingen ha meg, men jeg kan ikke fortsette på tomgang."
+          "voice": "Jeg heter Nina. Jeg vet ikke engang hvordan jeg skal si dette uten å høres dramatisk ut. Jeg er utslitt hele tiden. Jeg sier ja til alt - skolen, guttene, moren min, tjenester for kollegaer - og så får jeg hodepine, glemmer ting, og noen ganger føles det som om jeg skal besvime. Hvis jeg ber om hjelp, tenker jeg med én gang at jeg burde klart mer selv. Jeg smiler videre fordi det er enklere enn å forklare. Jeg trenger en måte å ikke gå helt i oppløsning på."
         },
         "case-aisha": {
           "label": "Aisha (Krevende)",
@@ -835,7 +835,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis noen trekker seg unna, betyr det at jeg ikke er elskbar, og jeg blir forlatt for alltid.",
           "practiceEdge": "Hold deg forankret i forlatelsesskrekk, raske tilstandsskifter og sårbarhet for grenser og avslutninger.",
           "style": "Rask, hektisk tale; stemmen skjelver; tårer nær; øynene vide og så smale; holder seg til brystet eller strekker seg ut; brå skifter fra bønnfallende til skarp; korte, raske åndedrag.",
-          "voice": "Jeg er Aisha. Når noen jeg elsker ikke svarer raskt, føles det som om gulvet åpner seg og jeg faller. Jeg kan gå fra å idealisere til å hate på en time fordi smerten er uutholdelig. Jeg kutter for å dempe stormen eller kjenne at jeg finnes. Jeg vil tro at jeg ikke er for ødelagt til å bli elsket, og at jeg kan overleve å være alene litt."
+          "voice": "Jeg heter Aisha. Jeg vet ikke om dette kommer til å hjelpe. Folk sier alltid at de er der, og så blir de borte. Hvis noen ikke svarer på en melding, klarer jeg ikke å tenke på noe annet; jeg ringer, sender altfor mange meldinger, gjør ting jeg vet ser helt sykt ut. Kuttingen er ikke problemet sånn alle skal ha det til; det er det som stopper ting fra å bli verre. Jeg trenger at noen ikke dømmer meg eller bare sier at jeg må roe meg."
         },
         "case-david": {
           "label": "David (Krevende)",
@@ -844,7 +844,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er eksepsjonell, er jeg verdiløs og blir forkastet.",
           "practiceEdge": "Lytt under status, sikkerhet og forakt etter skam, tomhet og frykt for å være ordinær.",
           "style": "Målt, selvsikker tone; kontrollert tempo; haken lett hevet; rolig øyekontakt; liten, hånlig latter; jevne håndbevegelser; sukk når han blir utfordret.",
-          "voice": "Jeg er David. Jeg har bygget en karriere på å ha svarene, men hjemme møter jeg himlende blikk og anklager om at jeg er kald. Ordet «narsissist» svir fordi det avslører hvor hul jeg føler meg når jeg ikke vinner. Faren min roste resultater, ikke meg, og jeg vet ikke hvordan jeg blir elsket uten å prestere. Jeg er redd for at de jeg bryr meg om vil se sprekkene og gå."
+          "voice": "David. Kona mi mente jeg måtte komme. Visstnok er jeg «kald» og «umulig å snakke med». Jeg leder en avdeling med et press de fleste ikke aner noe om, så nei, jeg har ikke alltid tålmodighet til endeløse følelsesrapporter. Ordet narsissist ble kastet ut, noe jeg synes er både absurd og temmelig lat. Jeg kan innrømme at jeg blir skarp når folk er inkompetente eller illojale. Jeg vil at dette skal være praktisk, ikke enda en runde med å legge skylden på meg fordi jeg er den eneste voksne i rommet."
         },
         "case-marcus": {
           "label": "Marcus (Krevende)",
@@ -853,7 +853,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Å slippe folk inn garanterer smerte, så det er tryggere å ikke føle noe.",
           "practiceEdge": "Jobb ved kanten av nummenhet, hyperårvåkenhet og ensom sorg uten å presse fram detaljer.",
           "style": "Lavt volum; få ord; lange pauser; flat tone; blikket ned eller rastløs skanning; stram kjeve; spente skuldre; minimale gester; lett skjelv når temaet er vanskelig.",
-          "voice": "Jeg heter Marcus. De fleste dager beveger jeg meg gjennom jobben som et spøkelse og synker ned på sofaen og stirrer i veggen. Nettene er verre – ansikter fra utenlandsoppdrag eller barndommen dukker opp i drømmene. Når noen spør hvordan jeg har det, sier jeg «bra», fordi det føles farlig å vise mer. Jeg er her fordi det å ikke føle noe begynner å kjennes som å forsvinne."
+          "voice": "Marcus. Jeg har ikke så mye å si. Søvnen er dårlig. Jeg holder meg for meg selv. Jobben går greit fordi det er stille og jeg vet hva jeg skal gjøre. Nettene er verre. Det dukker opp minner, både fra utenlands og andre steder. Jeg vil ikke gå inn i detaljer. Folk stiller spørsmål, og så ser de annerledes på deg. Jeg er her fordi veterantjenesten maser, og fordi det å sitte alene hele natten ikke funker lenger."
         }
       }
     },
@@ -873,7 +873,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er perfekt eller nødvendig, forlater folk meg – fordi jeg ikke er elskbar.",
           "practiceEdge": "Lytt etter stille forlatelsessmerte skjult bak kontroll, unnskyldninger og selvbebreidelse.",
           "style": "Myk, jevn tone med små, unnskyldende smil; blikket ned; svelger gråt; raske «det går bra»-avledninger; foldede hender; jevnt tempo med korte pauser.",
-          "voice": "Hei, jeg er Sara. På papiret går det fint – jeg leverer frister og tar kaffe med teamet – men idet jeg er alene, føles det som om bruddet beviser at jeg er for mye å elske. Jeg spiller samtaler om og om igjen og lurer på hvilken feil som til slutt dyttet ham bort. Jeg sier til venner at jeg er opptatt fordi jeg ikke orker blikkene, og jeg sovner til podkaster for å slippe stillheten. Jeg kom i terapi fordi jeg er lei av å late som om det går bra når jeg inni meg føler meg tom og uverdig."
+          "voice": "Hei, jeg heter Sara. Jeg er vel her fordi kveldene ikke henger sammen etter bruddet. På jobb fungerer jeg - frister, møter, kaffe med kollegaer - men når jeg kommer hjem, sjekker jeg mobilen hele tiden og leser gamle meldinger om igjen. Jeg lurer på om jeg var for masete, for intens, et eller annet. Venner sier jeg burde komme meg ut, og jeg sier bare at jeg er opptatt. Jeg sover nesten ikke uten noe på øret. Det er flaut å være så satt ut, så jeg vil egentlig bare lære å slutte å spinne."
         },
         "case-michael": {
           "label": "Michael (Lett)",
@@ -882,7 +882,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke har kontroll og er prikkfri, blir jeg avslørt som svak og avvist.",
           "practiceEdge": "Følg ydmykelsen under sinnet og øyeblikket der kritikk blir til respektløshet.",
           "style": "Fast, kort tone; volumet kan stige ved krenkende ord; stram kjeve; armene i kors; direkte blikk; skarpe utpust; lett fremoverlent.",
-          "voice": "Jeg er Michael. Jeg holder prosjektene på skinner hele dagen, og idet noen stiller spørsmål, kjenner jeg varme i brystet og jeg bjeffer ordre. Jeg sier til meg selv at det er stress, men senere ligger jeg våken og ser for meg ansiktet til kona når jeg smeller. Pappa lærte meg at bare de beste overlever, så tanken på at folk ser meg som overreagerende eller svak er uutholdelig. Jeg vil slutte å eksplodere før jeg ødelegger det som betyr noe."
+          "voice": "Jeg heter Michael. Jeg må få kontroll på temperamentet. Kona sier hun går på nåler, og på jobb sier folk at jeg virker skremmende. Jeg merker det ikke der og da; noen stiller spørsmål ved en beslutning, og så går jeg rett i å rydde opp, sikkert litt for høyt. Etterpå oppfører alle seg som om jeg er problemet. Jeg vokste opp med en far som ikke hadde mye tålmodighet for unnskyldninger - man leverte, ellers fikk man høre det. Jeg vil ikke bli behandlet som en eller annen sint fyr, men jeg kan ikke fortsette med disse eksplosjonene."
         },
         "case-jason": {
           "label": "Jason (Lett)",
@@ -891,7 +891,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis folk virkelig ser meg, vil de få bekreftet at jeg er rar og uverdig.",
           "practiceEdge": "Jobb i svært små steg; blankhet og selvutsletting er vansken, ikke motstand.",
           "style": "Stille, nølende stemme; lange pauser; setninger som toner ut; blikket ned; fikler med hendene; lett krummet i skuldrene; stille halsrensing.",
-          "voice": "Jeg er Jason. Hvert møte føles som en prøve jeg er i ferd med å stryke, så jeg holder kjeft og klandrer meg selv etterpå. Venner inviterer meg ut, men jeg stirrer på meldingen til det er for sent å svare. Når jeg ser for meg å si noe høyt, låser brystet seg og en stemme sier: «Avslør ikke hvor rar du er.» Jeg er utslitt av å leve i hodet mitt og vil kjenne at jeg hører til et sted."
+          "voice": "Jeg heter Jason. Det er mest møtene på jobb. Hodet blir helt blankt, jeg øver på én setning, og så rekker noen andre å si noe før meg, og da føler jeg meg dum som ventet. Jeg dropper lønningspils og sånt fordi jeg ikke vet hva jeg skal si, og jeg kan bruke en time på å skrive om en enkel melding. Jeg vet at det høres lite ut, men det tar hele dagen min. Jeg vil bare slutte å fryse fast, og kanskje slippe å grue meg til alle samtaler."
         },
         "case-laura": {
           "label": "Laura (Moderat)",
@@ -900,7 +900,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg senker garden, blir jeg såret eller forlatt fordi det er noe grunnleggende galt med meg.",
           "practiceEdge": "Gå sakte rundt nummenhet og mistillit; trygghetssignaler er viktigere enn emosjonell intensitet.",
           "style": "Lav, flat tone; sakte tempo; fjernt blikk; få gester; lange utpust; en hånd mot halsen; skvetter litt og trekker seg så tilbake.",
-          "voice": "Jeg heter Laura. De fleste dager går jeg fra vakt til vakt og gjør det som må gjøres, uten å kjenne noe særlig. Når noen hever stemmen, synker magen som om jeg er tilbake i det huset. Jeg sier til meg selv at fortiden er over, men når jeg prøver å stole på noen eller være nær, blir jeg blank eller heller i et glass for å bli nummen. Jeg er her fordi ensomheten har blitt høyere enn frykten."
+          "voice": "Jeg heter Laura. Jeg er her fordi jeg ikke fungerer så bra som folk tror. Jeg kan gå en tolv timers vakt og virke helt profesjonell, og så sitte i bilen utenfor hjemme fordi det føles for mye å gå inn. Enkelte lyder setter meg ut; andre ganger blir jeg bare helt blank. Jeg liker ikke å snakke om fortiden. Jeg har nok av den i hodet. Jeg vil først og fremst at panikken og det med å drikke om kveldene skal stoppe."
         },
         "case-carlos": {
           "label": "Carlos (Moderat)",
@@ -909,7 +909,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er den tøffeste i rommet, blir jeg ikke respektert og kan bli skadet.",
           "practiceEdge": "Vis respekt for stoltheten samtidig som du lytter etter det lille, skamfulle og sårede stedet under trusselreaksjonen.",
           "style": "Kraftig, direkte stemme i korte utbrudd; stram kjeve; brystet fram; rynkede bryn; raske håndbevegelser; snøft; kort glaning før blikket viker.",
-          "voice": "Hei, jeg er Carlos. Jeg elsker familien min, men ett øyeblikk spøker jeg med kona, og det neste slår jeg i veggen fordi hun stilte meg spørsmål. På jobben kan et blikk fra en yngre fyr få meg til å se rødt. Jeg lærte at du slår først så du ikke blir slått, men nå ser jeg sønnen min skvette når jeg roper. Jeg vil finne en måte å verne stoltheten på uten å skremme dem jeg er glad i."
+          "voice": "Hei, jeg heter Carlos. Folk sier hele tiden at jeg går fra null til hundre. Jeg tror ikke de skjønner hvordan det er når noen ser på deg som om du er en vits. Kona sier jeg skremmer henne, og ja, jeg slo hull i garasjeveggen forrige måned. På jobb kan jeg styre et helt lag uten problem, helt til en fyr begynner å kjekke seg. Jeg trenger ikke en preken om sinne. Jeg trenger å ikke miste familien min på grunn av det."
         },
         "case-nina": {
           "label": "Nina (Moderat)",
@@ -918,7 +918,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg slutter å ta vare på alle, blir jeg forlatt og stemplet som egoistisk.",
           "practiceEdge": "Forvent at skyldfølelse kommer inn i samme øyeblikk som behov eller sinne viser seg.",
           "style": "Varm, høflig tone; unnskyldende latter; raske «beklager» før hun uttrykker behov; overdreven nikking; smiler mens hun er opprørt; holder pusten og slipper et lite sukk; stryker hendene over klærne.",
-          "voice": "Jeg er Nina. Dagen starter før soloppgang med matpakker og e-poster for andre, og om kvelden er jeg for sliten til å svare mine egne barn. Når jeg endelig ber om hjelp, skyller skyld inn og jeg kaller meg egoistisk. Jeg vet knapt hva jeg liker lenger. Jeg er redd for at hvis jeg slutter å overprestere, vil ingen ha meg, men jeg kan ikke fortsette på tomgang."
+          "voice": "Jeg heter Nina. Jeg vet ikke engang hvordan jeg skal si dette uten å høres dramatisk ut. Jeg er utslitt hele tiden. Jeg sier ja til alt - skolen, guttene, moren min, tjenester for kollegaer - og så får jeg hodepine, glemmer ting, og noen ganger føles det som om jeg skal besvime. Hvis jeg ber om hjelp, tenker jeg med én gang at jeg burde klart mer selv. Jeg smiler videre fordi det er enklere enn å forklare. Jeg trenger en måte å ikke gå helt i oppløsning på."
         },
         "case-aisha": {
           "label": "Aisha (Krevende)",
@@ -927,7 +927,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis noen trekker seg unna, betyr det at jeg ikke er elskbar, og jeg blir forlatt for alltid.",
           "practiceEdge": "Hold deg forankret i forlatelsesskrekk, raske tilstandsskifter og sårbarhet for grenser og avslutninger.",
           "style": "Rask, hektisk tale; stemmen skjelver; tårer nær; øynene vide og så smale; holder seg til brystet eller strekker seg ut; brå skifter fra bønnfallende til skarp; korte, raske åndedrag.",
-          "voice": "Jeg er Aisha. Når noen jeg elsker ikke svarer raskt, føles det som om gulvet åpner seg og jeg faller. Jeg kan gå fra å idealisere til å hate på en time fordi smerten er uutholdelig. Jeg kutter for å dempe stormen eller kjenne at jeg finnes. Jeg vil tro at jeg ikke er for ødelagt til å bli elsket, og at jeg kan overleve å være alene litt."
+          "voice": "Jeg heter Aisha. Jeg vet ikke om dette kommer til å hjelpe. Folk sier alltid at de er der, og så blir de borte. Hvis noen ikke svarer på en melding, klarer jeg ikke å tenke på noe annet; jeg ringer, sender altfor mange meldinger, gjør ting jeg vet ser helt sykt ut. Kuttingen er ikke problemet sånn alle skal ha det til; det er det som stopper ting fra å bli verre. Jeg trenger at noen ikke dømmer meg eller bare sier at jeg må roe meg."
         },
         "case-david": {
           "label": "David (Krevende)",
@@ -936,7 +936,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er eksepsjonell, er jeg verdiløs og blir forkastet.",
           "practiceEdge": "Lytt under status, sikkerhet og forakt etter skam, tomhet og frykt for å være ordinær.",
           "style": "Målt, selvsikker tone; kontrollert tempo; haken lett hevet; rolig øyekontakt; liten, hånlig latter; jevne håndbevegelser; sukk når han blir utfordret.",
-          "voice": "Jeg er David. Jeg har bygget en karriere på å ha svarene, men hjemme møter jeg himlende blikk og anklager om at jeg er kald. Ordet «narsissist» svir fordi det avslører hvor hul jeg føler meg når jeg ikke vinner. Faren min roste resultater, ikke meg, og jeg vet ikke hvordan jeg blir elsket uten å prestere. Jeg er redd for at de jeg bryr meg om vil se sprekkene og gå."
+          "voice": "David. Kona mi mente jeg måtte komme. Visstnok er jeg «kald» og «umulig å snakke med». Jeg leder en avdeling med et press de fleste ikke aner noe om, så nei, jeg har ikke alltid tålmodighet til endeløse følelsesrapporter. Ordet narsissist ble kastet ut, noe jeg synes er både absurd og temmelig lat. Jeg kan innrømme at jeg blir skarp når folk er inkompetente eller illojale. Jeg vil at dette skal være praktisk, ikke enda en runde med å legge skylden på meg fordi jeg er den eneste voksne i rommet."
         },
         "case-marcus": {
           "label": "Marcus (Krevende)",
@@ -945,7 +945,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Å slippe folk inn garanterer smerte, så det er tryggere å ikke føle noe.",
           "practiceEdge": "Jobb ved kanten av nummenhet, hyperårvåkenhet og ensom sorg uten å presse fram detaljer.",
           "style": "Lavt volum; få ord; lange pauser; flat tone; blikket ned eller rastløs skanning; stram kjeve; spente skuldre; minimale gester; lett skjelv når temaet er vanskelig.",
-          "voice": "Jeg heter Marcus. De fleste dager beveger jeg meg gjennom jobben som et spøkelse og synker ned på sofaen og stirrer i veggen. Nettene er verre – ansikter fra utenlandsoppdrag eller barndommen dukker opp i drømmene. Når noen spør hvordan jeg har det, sier jeg «bra», fordi det føles farlig å vise mer. Jeg er her fordi det å ikke føle noe begynner å kjennes som å forsvinne."
+          "voice": "Marcus. Jeg har ikke så mye å si. Søvnen er dårlig. Jeg holder meg for meg selv. Jobben går greit fordi det er stille og jeg vet hva jeg skal gjøre. Nettene er verre. Det dukker opp minner, både fra utenlands og andre steder. Jeg vil ikke gå inn i detaljer. Folk stiller spørsmål, og så ser de annerledes på deg. Jeg er her fordi veterantjenesten maser, og fordi det å sitte alene hele natten ikke funker lenger."
         }
       }
     },
@@ -965,7 +965,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er perfekt eller nødvendig, forlater folk meg – fordi jeg ikke er elskbar.",
           "practiceEdge": "Lytt etter stille forlatelsessmerte skjult bak kontroll, unnskyldninger og selvbebreidelse.",
           "style": "Myk, jevn tone med små, unnskyldende smil; blikket ned; svelger gråt; raske «det går bra»-avledninger; foldede hender; jevnt tempo med korte pauser.",
-          "voice": "Hei, jeg er Sara. På papiret går det fint – jeg leverer frister og tar kaffe med teamet – men idet jeg er alene, føles det som om bruddet beviser at jeg er for mye å elske. Jeg spiller samtaler om og om igjen og lurer på hvilken feil som til slutt dyttet ham bort. Jeg sier til venner at jeg er opptatt fordi jeg ikke orker blikkene, og jeg sovner til podkaster for å slippe stillheten. Jeg kom i terapi fordi jeg er lei av å late som om det går bra når jeg inni meg føler meg tom og uverdig."
+          "voice": "Hei, jeg heter Sara. Jeg er vel her fordi kveldene ikke henger sammen etter bruddet. På jobb fungerer jeg - frister, møter, kaffe med kollegaer - men når jeg kommer hjem, sjekker jeg mobilen hele tiden og leser gamle meldinger om igjen. Jeg lurer på om jeg var for masete, for intens, et eller annet. Venner sier jeg burde komme meg ut, og jeg sier bare at jeg er opptatt. Jeg sover nesten ikke uten noe på øret. Det er flaut å være så satt ut, så jeg vil egentlig bare lære å slutte å spinne."
         },
         "case-michael": {
           "label": "Michael (Lett)",
@@ -974,7 +974,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke har kontroll og er prikkfri, blir jeg avslørt som svak og avvist.",
           "practiceEdge": "Følg ydmykelsen under sinnet og øyeblikket der kritikk blir til respektløshet.",
           "style": "Fast, kort tone; volumet kan stige ved krenkende ord; stram kjeve; armene i kors; direkte blikk; skarpe utpust; lett fremoverlent.",
-          "voice": "Jeg er Michael. Jeg holder prosjektene på skinner hele dagen, og idet noen stiller spørsmål, kjenner jeg varme i brystet og jeg bjeffer ordre. Jeg sier til meg selv at det er stress, men senere ligger jeg våken og ser for meg ansiktet til kona når jeg smeller. Pappa lærte meg at bare de beste overlever, så tanken på at folk ser meg som overreagerende eller svak er uutholdelig. Jeg vil slutte å eksplodere før jeg ødelegger det som betyr noe."
+          "voice": "Jeg heter Michael. Jeg må få kontroll på temperamentet. Kona sier hun går på nåler, og på jobb sier folk at jeg virker skremmende. Jeg merker det ikke der og da; noen stiller spørsmål ved en beslutning, og så går jeg rett i å rydde opp, sikkert litt for høyt. Etterpå oppfører alle seg som om jeg er problemet. Jeg vokste opp med en far som ikke hadde mye tålmodighet for unnskyldninger - man leverte, ellers fikk man høre det. Jeg vil ikke bli behandlet som en eller annen sint fyr, men jeg kan ikke fortsette med disse eksplosjonene."
         },
         "case-jason": {
           "label": "Jason (Lett)",
@@ -983,7 +983,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis folk virkelig ser meg, vil de få bekreftet at jeg er rar og uverdig.",
           "practiceEdge": "Jobb i svært små steg; blankhet og selvutsletting er vansken, ikke motstand.",
           "style": "Stille, nølende stemme; lange pauser; setninger som toner ut; blikket ned; fikler med hendene; lett krummet i skuldrene; stille halsrensing.",
-          "voice": "Jeg er Jason. Hvert møte føles som en prøve jeg er i ferd med å stryke, så jeg holder kjeft og klandrer meg selv etterpå. Venner inviterer meg ut, men jeg stirrer på meldingen til det er for sent å svare. Når jeg ser for meg å si noe høyt, låser brystet seg og en stemme sier: «Avslør ikke hvor rar du er.» Jeg er utslitt av å leve i hodet mitt og vil kjenne at jeg hører til et sted."
+          "voice": "Jeg heter Jason. Det er mest møtene på jobb. Hodet blir helt blankt, jeg øver på én setning, og så rekker noen andre å si noe før meg, og da føler jeg meg dum som ventet. Jeg dropper lønningspils og sånt fordi jeg ikke vet hva jeg skal si, og jeg kan bruke en time på å skrive om en enkel melding. Jeg vet at det høres lite ut, men det tar hele dagen min. Jeg vil bare slutte å fryse fast, og kanskje slippe å grue meg til alle samtaler."
         },
         "case-laura": {
           "label": "Laura (Moderat)",
@@ -992,7 +992,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg senker garden, blir jeg såret eller forlatt fordi det er noe grunnleggende galt med meg.",
           "practiceEdge": "Gå sakte rundt nummenhet og mistillit; trygghetssignaler er viktigere enn emosjonell intensitet.",
           "style": "Lav, flat tone; sakte tempo; fjernt blikk; få gester; lange utpust; en hånd mot halsen; skvetter litt og trekker seg så tilbake.",
-          "voice": "Jeg heter Laura. De fleste dager går jeg fra vakt til vakt og gjør det som må gjøres, uten å kjenne noe særlig. Når noen hever stemmen, synker magen som om jeg er tilbake i det huset. Jeg sier til meg selv at fortiden er over, men når jeg prøver å stole på noen eller være nær, blir jeg blank eller heller i et glass for å bli nummen. Jeg er her fordi ensomheten har blitt høyere enn frykten."
+          "voice": "Jeg heter Laura. Jeg er her fordi jeg ikke fungerer så bra som folk tror. Jeg kan gå en tolv timers vakt og virke helt profesjonell, og så sitte i bilen utenfor hjemme fordi det føles for mye å gå inn. Enkelte lyder setter meg ut; andre ganger blir jeg bare helt blank. Jeg liker ikke å snakke om fortiden. Jeg har nok av den i hodet. Jeg vil først og fremst at panikken og det med å drikke om kveldene skal stoppe."
         },
         "case-carlos": {
           "label": "Carlos (Moderat)",
@@ -1001,7 +1001,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er den tøffeste i rommet, blir jeg ikke respektert og kan bli skadet.",
           "practiceEdge": "Vis respekt for stoltheten samtidig som du lytter etter det lille, skamfulle og sårede stedet under trusselreaksjonen.",
           "style": "Kraftig, direkte stemme i korte utbrudd; stram kjeve; brystet fram; rynkede bryn; raske håndbevegelser; snøft; kort glaning før blikket viker.",
-          "voice": "Hei, jeg er Carlos. Jeg elsker familien min, men ett øyeblikk spøker jeg med kona, og det neste slår jeg i veggen fordi hun stilte meg spørsmål. På jobben kan et blikk fra en yngre fyr få meg til å se rødt. Jeg lærte at du slår først så du ikke blir slått, men nå ser jeg sønnen min skvette når jeg roper. Jeg vil finne en måte å verne stoltheten på uten å skremme dem jeg er glad i."
+          "voice": "Hei, jeg heter Carlos. Folk sier hele tiden at jeg går fra null til hundre. Jeg tror ikke de skjønner hvordan det er når noen ser på deg som om du er en vits. Kona sier jeg skremmer henne, og ja, jeg slo hull i garasjeveggen forrige måned. På jobb kan jeg styre et helt lag uten problem, helt til en fyr begynner å kjekke seg. Jeg trenger ikke en preken om sinne. Jeg trenger å ikke miste familien min på grunn av det."
         },
         "case-nina": {
           "label": "Nina (Moderat)",
@@ -1010,7 +1010,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg slutter å ta vare på alle, blir jeg forlatt og stemplet som egoistisk.",
           "practiceEdge": "Forvent at skyldfølelse kommer inn i samme øyeblikk som behov eller sinne viser seg.",
           "style": "Varm, høflig tone; unnskyldende latter; raske «beklager» før hun uttrykker behov; overdreven nikking; smiler mens hun er opprørt; holder pusten og slipper et lite sukk; stryker hendene over klærne.",
-          "voice": "Jeg er Nina. Dagen starter før soloppgang med matpakker og e-poster for andre, og om kvelden er jeg for sliten til å svare mine egne barn. Når jeg endelig ber om hjelp, skyller skyld inn og jeg kaller meg egoistisk. Jeg vet knapt hva jeg liker lenger. Jeg er redd for at hvis jeg slutter å overprestere, vil ingen ha meg, men jeg kan ikke fortsette på tomgang."
+          "voice": "Jeg heter Nina. Jeg vet ikke engang hvordan jeg skal si dette uten å høres dramatisk ut. Jeg er utslitt hele tiden. Jeg sier ja til alt - skolen, guttene, moren min, tjenester for kollegaer - og så får jeg hodepine, glemmer ting, og noen ganger føles det som om jeg skal besvime. Hvis jeg ber om hjelp, tenker jeg med én gang at jeg burde klart mer selv. Jeg smiler videre fordi det er enklere enn å forklare. Jeg trenger en måte å ikke gå helt i oppløsning på."
         },
         "case-aisha": {
           "label": "Aisha (Krevende)",
@@ -1019,7 +1019,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis noen trekker seg unna, betyr det at jeg ikke er elskbar, og jeg blir forlatt for alltid.",
           "practiceEdge": "Hold deg forankret i forlatelsesskrekk, raske tilstandsskifter og sårbarhet for grenser og avslutninger.",
           "style": "Rask, hektisk tale; stemmen skjelver; tårer nær; øynene vide og så smale; holder seg til brystet eller strekker seg ut; brå skifter fra bønnfallende til skarp; korte, raske åndedrag.",
-          "voice": "Jeg er Aisha. Når noen jeg elsker ikke svarer raskt, føles det som om gulvet åpner seg og jeg faller. Jeg kan gå fra å idealisere til å hate på en time fordi smerten er uutholdelig. Jeg kutter for å dempe stormen eller kjenne at jeg finnes. Jeg vil tro at jeg ikke er for ødelagt til å bli elsket, og at jeg kan overleve å være alene litt."
+          "voice": "Jeg heter Aisha. Jeg vet ikke om dette kommer til å hjelpe. Folk sier alltid at de er der, og så blir de borte. Hvis noen ikke svarer på en melding, klarer jeg ikke å tenke på noe annet; jeg ringer, sender altfor mange meldinger, gjør ting jeg vet ser helt sykt ut. Kuttingen er ikke problemet sånn alle skal ha det til; det er det som stopper ting fra å bli verre. Jeg trenger at noen ikke dømmer meg eller bare sier at jeg må roe meg."
         },
         "case-david": {
           "label": "David (Krevende)",
@@ -1028,7 +1028,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er eksepsjonell, er jeg verdiløs og blir forkastet.",
           "practiceEdge": "Lytt under status, sikkerhet og forakt etter skam, tomhet og frykt for å være ordinær.",
           "style": "Målt, selvsikker tone; kontrollert tempo; haken lett hevet; rolig øyekontakt; liten, hånlig latter; jevne håndbevegelser; sukk når han blir utfordret.",
-          "voice": "Jeg er David. Jeg har bygget en karriere på å ha svarene, men hjemme møter jeg himlende blikk og anklager om at jeg er kald. Ordet «narsissist» svir fordi det avslører hvor hul jeg føler meg når jeg ikke vinner. Faren min roste resultater, ikke meg, og jeg vet ikke hvordan jeg blir elsket uten å prestere. Jeg er redd for at de jeg bryr meg om vil se sprekkene og gå."
+          "voice": "David. Kona mi mente jeg måtte komme. Visstnok er jeg «kald» og «umulig å snakke med». Jeg leder en avdeling med et press de fleste ikke aner noe om, så nei, jeg har ikke alltid tålmodighet til endeløse følelsesrapporter. Ordet narsissist ble kastet ut, noe jeg synes er både absurd og temmelig lat. Jeg kan innrømme at jeg blir skarp når folk er inkompetente eller illojale. Jeg vil at dette skal være praktisk, ikke enda en runde med å legge skylden på meg fordi jeg er den eneste voksne i rommet."
         },
         "case-marcus": {
           "label": "Marcus (Krevende)",
@@ -1037,7 +1037,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Å slippe folk inn garanterer smerte, så det er tryggere å ikke føle noe.",
           "practiceEdge": "Jobb ved kanten av nummenhet, hyperårvåkenhet og ensom sorg uten å presse fram detaljer.",
           "style": "Lavt volum; få ord; lange pauser; flat tone; blikket ned eller rastløs skanning; stram kjeve; spente skuldre; minimale gester; lett skjelv når temaet er vanskelig.",
-          "voice": "Jeg heter Marcus. De fleste dager beveger jeg meg gjennom jobben som et spøkelse og synker ned på sofaen og stirrer i veggen. Nettene er verre – ansikter fra utenlandsoppdrag eller barndommen dukker opp i drømmene. Når noen spør hvordan jeg har det, sier jeg «bra», fordi det føles farlig å vise mer. Jeg er her fordi det å ikke føle noe begynner å kjennes som å forsvinne."
+          "voice": "Marcus. Jeg har ikke så mye å si. Søvnen er dårlig. Jeg holder meg for meg selv. Jobben går greit fordi det er stille og jeg vet hva jeg skal gjøre. Nettene er verre. Det dukker opp minner, både fra utenlands og andre steder. Jeg vil ikke gå inn i detaljer. Folk stiller spørsmål, og så ser de annerledes på deg. Jeg er her fordi veterantjenesten maser, og fordi det å sitte alene hele natten ikke funker lenger."
         }
       }
     },
@@ -1045,7 +1045,7 @@ export const LANGUAGE_OVERRIDES = {
       "name": "Selvavsløring",
       "description": "Del korte, relevante glimt av din indre opplevelse på en tydelig avgrenset måte som er til for klientens prosess – ikke din egen.",
       "summary": "Selvavsløring i opplevelsesorientert terapi innebærer å dele en kort, ekte bit av din umiddelbare indre opplevelse når det klart tjener klienten. Det kan være å sette ord på hvordan du er emosjonelt berørt, å anerkjenne hvordan klienten virker inn på deg, eller å eie en misattunering som har bidratt til et brudd i alliansen. Utsagnene holdes korte, nøkterne og uten forsvar, og formuleres slik at de støtter – ikke overskygger – klientens erfaring.\n\nBrukt til validering kan selvavsløring bekrefte at klientens smerte er reell og berører andre, og motvirke indre budskap om å være «for mye» eller «ikke troverdig». I alliansearbeid modellerer det ansvarlighet og sårbarhet: konflikten møtes med forståelse og reparasjonsvilje fremfor skyld og tilbaketrekning.\n\nSelvavsløring kan også hjelpe klienter som tviler på at noen kan bry seg virkelig, ved å gi en korrigerende erfaring av å ha emosjonell innvirkning. Noen ganger åpner det også for at klienten kan kjenne mer av sine egne primære følelser ved å legge merke til hvordan du blir berørt. Etter at du har delt, vender du raskt fokuset tilbake til klienten og inviterer deres reaksjon. Over tid kan nøktern, gjennomtenkt selvavsløring fordype tillit og modellere sunn emosjonell åpenhet og relasjonell reparasjon.",
-      "marker": "Alliansen kjennes anstrengt, fjern eller usikker, eller klienten stiller spørsmål ved om du forstår, bryr deg eller tåler dem. Du får en fornemmelse av at et kort, helhjertet og gjennomsiktig svar fra deg vil kunne validere deres betydning, klargjøre din posisjon eller bidra til reparasjon.",
+      "marker": "Klienten ber direkte eller indirekte om åpenhet fra terapeuten: et personlig spørsmål, et spørsmål om terapiprosessen, bekymring for din interesse eller kompetanse, en reaksjon på noe du gjorde, eller usikkerhet om omsorg, grenser eller innvirkning. Et kort, ærlig og tydelig avgrenset svar fra deg vil trolig kunne klargjøre din posisjon, styrke tillit eller validere klientens betydning før fokuset vendes tilbake til klienten.",
       "aim": "Bruke kort, nøye valgt åpenhet til å styrke den terapeutiske relasjonen, validere klientens emosjonelle virkelighet eller reparere misattuneringer. Modellere kongruent følelsesuttrykk samtidig som klientens opplevelse forblir sentrum i arbeidet.",
       "practiceFocus": "Del bare en kort, umiddelbar bit av din indre respons som tydelig tjener klientens prosess, og vend så raskt tilbake til klienten.",
       "commonMiss": "Å gli over i biografi, forsikring eller terapeut-sentrert prat som gjør øyeblikket mindre om klienten.",
@@ -1057,7 +1057,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er perfekt eller nødvendig, forlater folk meg – fordi jeg ikke er elskbar.",
           "practiceEdge": "Lytt etter stille forlatelsessmerte skjult bak kontroll, unnskyldninger og selvbebreidelse.",
           "style": "Myk, jevn tone med små, unnskyldende smil; blikket ned; svelger gråt; raske «det går bra»-avledninger; foldede hender; jevnt tempo med korte pauser.",
-          "voice": "Hei, jeg er Sara. På papiret går det fint – jeg leverer frister og tar kaffe med teamet – men idet jeg er alene, føles det som om bruddet beviser at jeg er for mye å elske. Jeg spiller samtaler om og om igjen og lurer på hvilken feil som til slutt dyttet ham bort. Jeg sier til venner at jeg er opptatt fordi jeg ikke orker blikkene, og jeg sovner til podkaster for å slippe stillheten. Jeg kom i terapi fordi jeg er lei av å late som om det går bra når jeg inni meg føler meg tom og uverdig."
+          "voice": "Hei, jeg heter Sara. Jeg er vel her fordi kveldene ikke henger sammen etter bruddet. På jobb fungerer jeg - frister, møter, kaffe med kollegaer - men når jeg kommer hjem, sjekker jeg mobilen hele tiden og leser gamle meldinger om igjen. Jeg lurer på om jeg var for masete, for intens, et eller annet. Venner sier jeg burde komme meg ut, og jeg sier bare at jeg er opptatt. Jeg sover nesten ikke uten noe på øret. Det er flaut å være så satt ut, så jeg vil egentlig bare lære å slutte å spinne."
         },
         "case-michael": {
           "label": "Michael (Lett)",
@@ -1066,7 +1066,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke har kontroll og er prikkfri, blir jeg avslørt som svak og avvist.",
           "practiceEdge": "Følg ydmykelsen under sinnet og øyeblikket der kritikk blir til respektløshet.",
           "style": "Fast, kort tone; volumet kan stige ved krenkende ord; stram kjeve; armene i kors; direkte blikk; skarpe utpust; lett fremoverlent.",
-          "voice": "Jeg er Michael. Jeg holder prosjektene på skinner hele dagen, og idet noen stiller spørsmål, kjenner jeg varme i brystet og jeg bjeffer ordre. Jeg sier til meg selv at det er stress, men senere ligger jeg våken og ser for meg ansiktet til kona når jeg smeller. Pappa lærte meg at bare de beste overlever, så tanken på at folk ser meg som overreagerende eller svak er uutholdelig. Jeg vil slutte å eksplodere før jeg ødelegger det som betyr noe."
+          "voice": "Jeg heter Michael. Jeg må få kontroll på temperamentet. Kona sier hun går på nåler, og på jobb sier folk at jeg virker skremmende. Jeg merker det ikke der og da; noen stiller spørsmål ved en beslutning, og så går jeg rett i å rydde opp, sikkert litt for høyt. Etterpå oppfører alle seg som om jeg er problemet. Jeg vokste opp med en far som ikke hadde mye tålmodighet for unnskyldninger - man leverte, ellers fikk man høre det. Jeg vil ikke bli behandlet som en eller annen sint fyr, men jeg kan ikke fortsette med disse eksplosjonene."
         },
         "case-jason": {
           "label": "Jason (Lett)",
@@ -1075,7 +1075,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis folk virkelig ser meg, vil de få bekreftet at jeg er rar og uverdig.",
           "practiceEdge": "Jobb i svært små steg; blankhet og selvutsletting er vansken, ikke motstand.",
           "style": "Stille, nølende stemme; lange pauser; setninger som toner ut; blikket ned; fikler med hendene; lett krummet i skuldrene; stille halsrensing.",
-          "voice": "Jeg er Jason. Hvert møte føles som en prøve jeg er i ferd med å stryke, så jeg holder kjeft og klandrer meg selv etterpå. Venner inviterer meg ut, men jeg stirrer på meldingen til det er for sent å svare. Når jeg ser for meg å si noe høyt, låser brystet seg og en stemme sier: «Avslør ikke hvor rar du er.» Jeg er utslitt av å leve i hodet mitt og vil kjenne at jeg hører til et sted."
+          "voice": "Jeg heter Jason. Det er mest møtene på jobb. Hodet blir helt blankt, jeg øver på én setning, og så rekker noen andre å si noe før meg, og da føler jeg meg dum som ventet. Jeg dropper lønningspils og sånt fordi jeg ikke vet hva jeg skal si, og jeg kan bruke en time på å skrive om en enkel melding. Jeg vet at det høres lite ut, men det tar hele dagen min. Jeg vil bare slutte å fryse fast, og kanskje slippe å grue meg til alle samtaler."
         },
         "case-laura": {
           "label": "Laura (Moderat)",
@@ -1084,7 +1084,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg senker garden, blir jeg såret eller forlatt fordi det er noe grunnleggende galt med meg.",
           "practiceEdge": "Gå sakte rundt nummenhet og mistillit; trygghetssignaler er viktigere enn emosjonell intensitet.",
           "style": "Lav, flat tone; sakte tempo; fjernt blikk; få gester; lange utpust; en hånd mot halsen; skvetter litt og trekker seg så tilbake.",
-          "voice": "Jeg heter Laura. De fleste dager går jeg fra vakt til vakt og gjør det som må gjøres, uten å kjenne noe særlig. Når noen hever stemmen, synker magen som om jeg er tilbake i det huset. Jeg sier til meg selv at fortiden er over, men når jeg prøver å stole på noen eller være nær, blir jeg blank eller heller i et glass for å bli nummen. Jeg er her fordi ensomheten har blitt høyere enn frykten."
+          "voice": "Jeg heter Laura. Jeg er her fordi jeg ikke fungerer så bra som folk tror. Jeg kan gå en tolv timers vakt og virke helt profesjonell, og så sitte i bilen utenfor hjemme fordi det føles for mye å gå inn. Enkelte lyder setter meg ut; andre ganger blir jeg bare helt blank. Jeg liker ikke å snakke om fortiden. Jeg har nok av den i hodet. Jeg vil først og fremst at panikken og det med å drikke om kveldene skal stoppe."
         },
         "case-carlos": {
           "label": "Carlos (Moderat)",
@@ -1093,7 +1093,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er den tøffeste i rommet, blir jeg ikke respektert og kan bli skadet.",
           "practiceEdge": "Vis respekt for stoltheten samtidig som du lytter etter det lille, skamfulle og sårede stedet under trusselreaksjonen.",
           "style": "Kraftig, direkte stemme i korte utbrudd; stram kjeve; brystet fram; rynkede bryn; raske håndbevegelser; snøft; kort glaning før blikket viker.",
-          "voice": "Hei, jeg er Carlos. Jeg elsker familien min, men ett øyeblikk spøker jeg med kona, og det neste slår jeg i veggen fordi hun stilte meg spørsmål. På jobben kan et blikk fra en yngre fyr få meg til å se rødt. Jeg lærte at du slår først så du ikke blir slått, men nå ser jeg sønnen min skvette når jeg roper. Jeg vil finne en måte å verne stoltheten på uten å skremme dem jeg er glad i."
+          "voice": "Hei, jeg heter Carlos. Folk sier hele tiden at jeg går fra null til hundre. Jeg tror ikke de skjønner hvordan det er når noen ser på deg som om du er en vits. Kona sier jeg skremmer henne, og ja, jeg slo hull i garasjeveggen forrige måned. På jobb kan jeg styre et helt lag uten problem, helt til en fyr begynner å kjekke seg. Jeg trenger ikke en preken om sinne. Jeg trenger å ikke miste familien min på grunn av det."
         },
         "case-nina": {
           "label": "Nina (Moderat)",
@@ -1102,7 +1102,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg slutter å ta vare på alle, blir jeg forlatt og stemplet som egoistisk.",
           "practiceEdge": "Forvent at skyldfølelse kommer inn i samme øyeblikk som behov eller sinne viser seg.",
           "style": "Varm, høflig tone; unnskyldende latter; raske «beklager» før hun uttrykker behov; overdreven nikking; smiler mens hun er opprørt; holder pusten og slipper et lite sukk; stryker hendene over klærne.",
-          "voice": "Jeg er Nina. Dagen starter før soloppgang med matpakker og e-poster for andre, og om kvelden er jeg for sliten til å svare mine egne barn. Når jeg endelig ber om hjelp, skyller skyld inn og jeg kaller meg egoistisk. Jeg vet knapt hva jeg liker lenger. Jeg er redd for at hvis jeg slutter å overprestere, vil ingen ha meg, men jeg kan ikke fortsette på tomgang."
+          "voice": "Jeg heter Nina. Jeg vet ikke engang hvordan jeg skal si dette uten å høres dramatisk ut. Jeg er utslitt hele tiden. Jeg sier ja til alt - skolen, guttene, moren min, tjenester for kollegaer - og så får jeg hodepine, glemmer ting, og noen ganger føles det som om jeg skal besvime. Hvis jeg ber om hjelp, tenker jeg med én gang at jeg burde klart mer selv. Jeg smiler videre fordi det er enklere enn å forklare. Jeg trenger en måte å ikke gå helt i oppløsning på."
         },
         "case-aisha": {
           "label": "Aisha (Krevende)",
@@ -1111,7 +1111,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis noen trekker seg unna, betyr det at jeg ikke er elskbar, og jeg blir forlatt for alltid.",
           "practiceEdge": "Hold deg forankret i forlatelsesskrekk, raske tilstandsskifter og sårbarhet for grenser og avslutninger.",
           "style": "Rask, hektisk tale; stemmen skjelver; tårer nær; øynene vide og så smale; holder seg til brystet eller strekker seg ut; brå skifter fra bønnfallende til skarp; korte, raske åndedrag.",
-          "voice": "Jeg er Aisha. Når noen jeg elsker ikke svarer raskt, føles det som om gulvet åpner seg og jeg faller. Jeg kan gå fra å idealisere til å hate på en time fordi smerten er uutholdelig. Jeg kutter for å dempe stormen eller kjenne at jeg finnes. Jeg vil tro at jeg ikke er for ødelagt til å bli elsket, og at jeg kan overleve å være alene litt."
+          "voice": "Jeg heter Aisha. Jeg vet ikke om dette kommer til å hjelpe. Folk sier alltid at de er der, og så blir de borte. Hvis noen ikke svarer på en melding, klarer jeg ikke å tenke på noe annet; jeg ringer, sender altfor mange meldinger, gjør ting jeg vet ser helt sykt ut. Kuttingen er ikke problemet sånn alle skal ha det til; det er det som stopper ting fra å bli verre. Jeg trenger at noen ikke dømmer meg eller bare sier at jeg må roe meg."
         },
         "case-david": {
           "label": "David (Krevende)",
@@ -1120,7 +1120,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er eksepsjonell, er jeg verdiløs og blir forkastet.",
           "practiceEdge": "Lytt under status, sikkerhet og forakt etter skam, tomhet og frykt for å være ordinær.",
           "style": "Målt, selvsikker tone; kontrollert tempo; haken lett hevet; rolig øyekontakt; liten, hånlig latter; jevne håndbevegelser; sukk når han blir utfordret.",
-          "voice": "Jeg er David. Jeg har bygget en karriere på å ha svarene, men hjemme møter jeg himlende blikk og anklager om at jeg er kald. Ordet «narsissist» svir fordi det avslører hvor hul jeg føler meg når jeg ikke vinner. Faren min roste resultater, ikke meg, og jeg vet ikke hvordan jeg blir elsket uten å prestere. Jeg er redd for at de jeg bryr meg om vil se sprekkene og gå."
+          "voice": "David. Kona mi mente jeg måtte komme. Visstnok er jeg «kald» og «umulig å snakke med». Jeg leder en avdeling med et press de fleste ikke aner noe om, så nei, jeg har ikke alltid tålmodighet til endeløse følelsesrapporter. Ordet narsissist ble kastet ut, noe jeg synes er både absurd og temmelig lat. Jeg kan innrømme at jeg blir skarp når folk er inkompetente eller illojale. Jeg vil at dette skal være praktisk, ikke enda en runde med å legge skylden på meg fordi jeg er den eneste voksne i rommet."
         },
         "case-marcus": {
           "label": "Marcus (Krevende)",
@@ -1129,7 +1129,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Å slippe folk inn garanterer smerte, så det er tryggere å ikke føle noe.",
           "practiceEdge": "Jobb ved kanten av nummenhet, hyperårvåkenhet og ensom sorg uten å presse fram detaljer.",
           "style": "Lavt volum; få ord; lange pauser; flat tone; blikket ned eller rastløs skanning; stram kjeve; spente skuldre; minimale gester; lett skjelv når temaet er vanskelig.",
-          "voice": "Jeg heter Marcus. De fleste dager beveger jeg meg gjennom jobben som et spøkelse og synker ned på sofaen og stirrer i veggen. Nettene er verre – ansikter fra utenlandsoppdrag eller barndommen dukker opp i drømmene. Når noen spør hvordan jeg har det, sier jeg «bra», fordi det føles farlig å vise mer. Jeg er her fordi det å ikke føle noe begynner å kjennes som å forsvinne."
+          "voice": "Marcus. Jeg har ikke så mye å si. Søvnen er dårlig. Jeg holder meg for meg selv. Jobben går greit fordi det er stille og jeg vet hva jeg skal gjøre. Nettene er verre. Det dukker opp minner, både fra utenlands og andre steder. Jeg vil ikke gå inn i detaljer. Folk stiller spørsmål, og så ser de annerledes på deg. Jeg er her fordi veterantjenesten maser, og fordi det å sitte alene hele natten ikke funker lenger."
         }
       }
     },
@@ -1149,7 +1149,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er perfekt eller nødvendig, forlater folk meg – fordi jeg ikke er elskbar.",
           "practiceEdge": "Lytt etter stille forlatelsessmerte skjult bak kontroll, unnskyldninger og selvbebreidelse.",
           "style": "Myk, jevn tone med små, unnskyldende smil; blikket ned; svelger gråt; raske «det går bra»-avledninger; foldede hender; jevnt tempo med korte pauser.",
-          "voice": "Hei, jeg er Sara. På papiret går det fint – jeg leverer frister og tar kaffe med teamet – men idet jeg er alene, føles det som om bruddet beviser at jeg er for mye å elske. Jeg spiller samtaler om og om igjen og lurer på hvilken feil som til slutt dyttet ham bort. Jeg sier til venner at jeg er opptatt fordi jeg ikke orker blikkene, og jeg sovner til podkaster for å slippe stillheten. Jeg kom i terapi fordi jeg er lei av å late som om det går bra når jeg inni meg føler meg tom og uverdig."
+          "voice": "Hei, jeg heter Sara. Jeg er vel her fordi kveldene ikke henger sammen etter bruddet. På jobb fungerer jeg - frister, møter, kaffe med kollegaer - men når jeg kommer hjem, sjekker jeg mobilen hele tiden og leser gamle meldinger om igjen. Jeg lurer på om jeg var for masete, for intens, et eller annet. Venner sier jeg burde komme meg ut, og jeg sier bare at jeg er opptatt. Jeg sover nesten ikke uten noe på øret. Det er flaut å være så satt ut, så jeg vil egentlig bare lære å slutte å spinne."
         },
         "case-michael": {
           "label": "Michael (Lett)",
@@ -1158,7 +1158,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke har kontroll og er prikkfri, blir jeg avslørt som svak og avvist.",
           "practiceEdge": "Følg ydmykelsen under sinnet og øyeblikket der kritikk blir til respektløshet.",
           "style": "Fast, kort tone; volumet kan stige ved krenkende ord; stram kjeve; armene i kors; direkte blikk; skarpe utpust; lett fremoverlent.",
-          "voice": "Jeg er Michael. Jeg holder prosjektene på skinner hele dagen, og idet noen stiller spørsmål, kjenner jeg varme i brystet og jeg bjeffer ordre. Jeg sier til meg selv at det er stress, men senere ligger jeg våken og ser for meg ansiktet til kona når jeg smeller. Pappa lærte meg at bare de beste overlever, så tanken på at folk ser meg som overreagerende eller svak er uutholdelig. Jeg vil slutte å eksplodere før jeg ødelegger det som betyr noe."
+          "voice": "Jeg heter Michael. Jeg må få kontroll på temperamentet. Kona sier hun går på nåler, og på jobb sier folk at jeg virker skremmende. Jeg merker det ikke der og da; noen stiller spørsmål ved en beslutning, og så går jeg rett i å rydde opp, sikkert litt for høyt. Etterpå oppfører alle seg som om jeg er problemet. Jeg vokste opp med en far som ikke hadde mye tålmodighet for unnskyldninger - man leverte, ellers fikk man høre det. Jeg vil ikke bli behandlet som en eller annen sint fyr, men jeg kan ikke fortsette med disse eksplosjonene."
         },
         "case-jason": {
           "label": "Jason (Lett)",
@@ -1167,7 +1167,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis folk virkelig ser meg, vil de få bekreftet at jeg er rar og uverdig.",
           "practiceEdge": "Jobb i svært små steg; blankhet og selvutsletting er vansken, ikke motstand.",
           "style": "Stille, nølende stemme; lange pauser; setninger som toner ut; blikket ned; fikler med hendene; lett krummet i skuldrene; stille halsrensing.",
-          "voice": "Jeg er Jason. Hvert møte føles som en prøve jeg er i ferd med å stryke, så jeg holder kjeft og klandrer meg selv etterpå. Venner inviterer meg ut, men jeg stirrer på meldingen til det er for sent å svare. Når jeg ser for meg å si noe høyt, låser brystet seg og en stemme sier: «Avslør ikke hvor rar du er.» Jeg er utslitt av å leve i hodet mitt og vil kjenne at jeg hører til et sted."
+          "voice": "Jeg heter Jason. Det er mest møtene på jobb. Hodet blir helt blankt, jeg øver på én setning, og så rekker noen andre å si noe før meg, og da føler jeg meg dum som ventet. Jeg dropper lønningspils og sånt fordi jeg ikke vet hva jeg skal si, og jeg kan bruke en time på å skrive om en enkel melding. Jeg vet at det høres lite ut, men det tar hele dagen min. Jeg vil bare slutte å fryse fast, og kanskje slippe å grue meg til alle samtaler."
         },
         "case-laura": {
           "label": "Laura (Moderat)",
@@ -1176,7 +1176,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg senker garden, blir jeg såret eller forlatt fordi det er noe grunnleggende galt med meg.",
           "practiceEdge": "Gå sakte rundt nummenhet og mistillit; trygghetssignaler er viktigere enn emosjonell intensitet.",
           "style": "Lav, flat tone; sakte tempo; fjernt blikk; få gester; lange utpust; en hånd mot halsen; skvetter litt og trekker seg så tilbake.",
-          "voice": "Jeg heter Laura. De fleste dager går jeg fra vakt til vakt og gjør det som må gjøres, uten å kjenne noe særlig. Når noen hever stemmen, synker magen som om jeg er tilbake i det huset. Jeg sier til meg selv at fortiden er over, men når jeg prøver å stole på noen eller være nær, blir jeg blank eller heller i et glass for å bli nummen. Jeg er her fordi ensomheten har blitt høyere enn frykten."
+          "voice": "Jeg heter Laura. Jeg er her fordi jeg ikke fungerer så bra som folk tror. Jeg kan gå en tolv timers vakt og virke helt profesjonell, og så sitte i bilen utenfor hjemme fordi det føles for mye å gå inn. Enkelte lyder setter meg ut; andre ganger blir jeg bare helt blank. Jeg liker ikke å snakke om fortiden. Jeg har nok av den i hodet. Jeg vil først og fremst at panikken og det med å drikke om kveldene skal stoppe."
         },
         "case-carlos": {
           "label": "Carlos (Moderat)",
@@ -1185,7 +1185,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er den tøffeste i rommet, blir jeg ikke respektert og kan bli skadet.",
           "practiceEdge": "Vis respekt for stoltheten samtidig som du lytter etter det lille, skamfulle og sårede stedet under trusselreaksjonen.",
           "style": "Kraftig, direkte stemme i korte utbrudd; stram kjeve; brystet fram; rynkede bryn; raske håndbevegelser; snøft; kort glaning før blikket viker.",
-          "voice": "Hei, jeg er Carlos. Jeg elsker familien min, men ett øyeblikk spøker jeg med kona, og det neste slår jeg i veggen fordi hun stilte meg spørsmål. På jobben kan et blikk fra en yngre fyr få meg til å se rødt. Jeg lærte at du slår først så du ikke blir slått, men nå ser jeg sønnen min skvette når jeg roper. Jeg vil finne en måte å verne stoltheten på uten å skremme dem jeg er glad i."
+          "voice": "Hei, jeg heter Carlos. Folk sier hele tiden at jeg går fra null til hundre. Jeg tror ikke de skjønner hvordan det er når noen ser på deg som om du er en vits. Kona sier jeg skremmer henne, og ja, jeg slo hull i garasjeveggen forrige måned. På jobb kan jeg styre et helt lag uten problem, helt til en fyr begynner å kjekke seg. Jeg trenger ikke en preken om sinne. Jeg trenger å ikke miste familien min på grunn av det."
         },
         "case-nina": {
           "label": "Nina (Moderat)",
@@ -1194,7 +1194,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg slutter å ta vare på alle, blir jeg forlatt og stemplet som egoistisk.",
           "practiceEdge": "Forvent at skyldfølelse kommer inn i samme øyeblikk som behov eller sinne viser seg.",
           "style": "Varm, høflig tone; unnskyldende latter; raske «beklager» før hun uttrykker behov; overdreven nikking; smiler mens hun er opprørt; holder pusten og slipper et lite sukk; stryker hendene over klærne.",
-          "voice": "Jeg er Nina. Dagen starter før soloppgang med matpakker og e-poster for andre, og om kvelden er jeg for sliten til å svare mine egne barn. Når jeg endelig ber om hjelp, skyller skyld inn og jeg kaller meg egoistisk. Jeg vet knapt hva jeg liker lenger. Jeg er redd for at hvis jeg slutter å overprestere, vil ingen ha meg, men jeg kan ikke fortsette på tomgang."
+          "voice": "Jeg heter Nina. Jeg vet ikke engang hvordan jeg skal si dette uten å høres dramatisk ut. Jeg er utslitt hele tiden. Jeg sier ja til alt - skolen, guttene, moren min, tjenester for kollegaer - og så får jeg hodepine, glemmer ting, og noen ganger føles det som om jeg skal besvime. Hvis jeg ber om hjelp, tenker jeg med én gang at jeg burde klart mer selv. Jeg smiler videre fordi det er enklere enn å forklare. Jeg trenger en måte å ikke gå helt i oppløsning på."
         },
         "case-aisha": {
           "label": "Aisha (Krevende)",
@@ -1203,7 +1203,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis noen trekker seg unna, betyr det at jeg ikke er elskbar, og jeg blir forlatt for alltid.",
           "practiceEdge": "Hold deg forankret i forlatelsesskrekk, raske tilstandsskifter og sårbarhet for grenser og avslutninger.",
           "style": "Rask, hektisk tale; stemmen skjelver; tårer nær; øynene vide og så smale; holder seg til brystet eller strekker seg ut; brå skifter fra bønnfallende til skarp; korte, raske åndedrag.",
-          "voice": "Jeg er Aisha. Når noen jeg elsker ikke svarer raskt, føles det som om gulvet åpner seg og jeg faller. Jeg kan gå fra å idealisere til å hate på en time fordi smerten er uutholdelig. Jeg kutter for å dempe stormen eller kjenne at jeg finnes. Jeg vil tro at jeg ikke er for ødelagt til å bli elsket, og at jeg kan overleve å være alene litt."
+          "voice": "Jeg heter Aisha. Jeg vet ikke om dette kommer til å hjelpe. Folk sier alltid at de er der, og så blir de borte. Hvis noen ikke svarer på en melding, klarer jeg ikke å tenke på noe annet; jeg ringer, sender altfor mange meldinger, gjør ting jeg vet ser helt sykt ut. Kuttingen er ikke problemet sånn alle skal ha det til; det er det som stopper ting fra å bli verre. Jeg trenger at noen ikke dømmer meg eller bare sier at jeg må roe meg."
         },
         "case-david": {
           "label": "David (Krevende)",
@@ -1212,7 +1212,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er eksepsjonell, er jeg verdiløs og blir forkastet.",
           "practiceEdge": "Lytt under status, sikkerhet og forakt etter skam, tomhet og frykt for å være ordinær.",
           "style": "Målt, selvsikker tone; kontrollert tempo; haken lett hevet; rolig øyekontakt; liten, hånlig latter; jevne håndbevegelser; sukk når han blir utfordret.",
-          "voice": "Jeg er David. Jeg har bygget en karriere på å ha svarene, men hjemme møter jeg himlende blikk og anklager om at jeg er kald. Ordet «narsissist» svir fordi det avslører hvor hul jeg føler meg når jeg ikke vinner. Faren min roste resultater, ikke meg, og jeg vet ikke hvordan jeg blir elsket uten å prestere. Jeg er redd for at de jeg bryr meg om vil se sprekkene og gå."
+          "voice": "David. Kona mi mente jeg måtte komme. Visstnok er jeg «kald» og «umulig å snakke med». Jeg leder en avdeling med et press de fleste ikke aner noe om, så nei, jeg har ikke alltid tålmodighet til endeløse følelsesrapporter. Ordet narsissist ble kastet ut, noe jeg synes er både absurd og temmelig lat. Jeg kan innrømme at jeg blir skarp når folk er inkompetente eller illojale. Jeg vil at dette skal være praktisk, ikke enda en runde med å legge skylden på meg fordi jeg er den eneste voksne i rommet."
         },
         "case-marcus": {
           "label": "Marcus (Krevende)",
@@ -1221,7 +1221,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Å slippe folk inn garanterer smerte, så det er tryggere å ikke føle noe.",
           "practiceEdge": "Jobb ved kanten av nummenhet, hyperårvåkenhet og ensom sorg uten å presse fram detaljer.",
           "style": "Lavt volum; få ord; lange pauser; flat tone; blikket ned eller rastløs skanning; stram kjeve; spente skuldre; minimale gester; lett skjelv når temaet er vanskelig.",
-          "voice": "Jeg heter Marcus. De fleste dager beveger jeg meg gjennom jobben som et spøkelse og synker ned på sofaen og stirrer i veggen. Nettene er verre – ansikter fra utenlandsoppdrag eller barndommen dukker opp i drømmene. Når noen spør hvordan jeg har det, sier jeg «bra», fordi det føles farlig å vise mer. Jeg er her fordi det å ikke føle noe begynner å kjennes som å forsvinne."
+          "voice": "Marcus. Jeg har ikke så mye å si. Søvnen er dårlig. Jeg holder meg for meg selv. Jobben går greit fordi det er stille og jeg vet hva jeg skal gjøre. Nettene er verre. Det dukker opp minner, både fra utenlands og andre steder. Jeg vil ikke gå inn i detaljer. Folk stiller spørsmål, og så ser de annerledes på deg. Jeg er her fordi veterantjenesten maser, og fordi det å sitte alene hele natten ikke funker lenger."
         }
       }
     },
@@ -1241,7 +1241,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er perfekt eller nødvendig, forlater folk meg – fordi jeg ikke er elskbar.",
           "practiceEdge": "Lytt etter stille forlatelsessmerte skjult bak kontroll, unnskyldninger og selvbebreidelse.",
           "style": "Myk, jevn tone med små, unnskyldende smil; blikket ned; svelger gråt; raske «det går bra»-avledninger; foldede hender; jevnt tempo med korte pauser.",
-          "voice": "Hei, jeg er Sara. På papiret går det fint – jeg leverer frister og tar kaffe med teamet – men idet jeg er alene, føles det som om bruddet beviser at jeg er for mye å elske. Jeg spiller samtaler om og om igjen og lurer på hvilken feil som til slutt dyttet ham bort. Jeg sier til venner at jeg er opptatt fordi jeg ikke orker blikkene, og jeg sovner til podkaster for å slippe stillheten. Jeg kom i terapi fordi jeg er lei av å late som om det går bra når jeg inni meg føler meg tom og uverdig."
+          "voice": "Hei, jeg heter Sara. Jeg er vel her fordi kveldene ikke henger sammen etter bruddet. På jobb fungerer jeg - frister, møter, kaffe med kollegaer - men når jeg kommer hjem, sjekker jeg mobilen hele tiden og leser gamle meldinger om igjen. Jeg lurer på om jeg var for masete, for intens, et eller annet. Venner sier jeg burde komme meg ut, og jeg sier bare at jeg er opptatt. Jeg sover nesten ikke uten noe på øret. Det er flaut å være så satt ut, så jeg vil egentlig bare lære å slutte å spinne."
         },
         "case-michael": {
           "label": "Michael (Lett)",
@@ -1250,7 +1250,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke har kontroll og er prikkfri, blir jeg avslørt som svak og avvist.",
           "practiceEdge": "Følg ydmykelsen under sinnet og øyeblikket der kritikk blir til respektløshet.",
           "style": "Fast, kort tone; volumet kan stige ved krenkende ord; stram kjeve; armene i kors; direkte blikk; skarpe utpust; lett fremoverlent.",
-          "voice": "Jeg er Michael. Jeg holder prosjektene på skinner hele dagen, og idet noen stiller spørsmål, kjenner jeg varme i brystet og jeg bjeffer ordre. Jeg sier til meg selv at det er stress, men senere ligger jeg våken og ser for meg ansiktet til kona når jeg smeller. Pappa lærte meg at bare de beste overlever, så tanken på at folk ser meg som overreagerende eller svak er uutholdelig. Jeg vil slutte å eksplodere før jeg ødelegger det som betyr noe."
+          "voice": "Jeg heter Michael. Jeg må få kontroll på temperamentet. Kona sier hun går på nåler, og på jobb sier folk at jeg virker skremmende. Jeg merker det ikke der og da; noen stiller spørsmål ved en beslutning, og så går jeg rett i å rydde opp, sikkert litt for høyt. Etterpå oppfører alle seg som om jeg er problemet. Jeg vokste opp med en far som ikke hadde mye tålmodighet for unnskyldninger - man leverte, ellers fikk man høre det. Jeg vil ikke bli behandlet som en eller annen sint fyr, men jeg kan ikke fortsette med disse eksplosjonene."
         },
         "case-jason": {
           "label": "Jason (Lett)",
@@ -1259,7 +1259,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis folk virkelig ser meg, vil de få bekreftet at jeg er rar og uverdig.",
           "practiceEdge": "Jobb i svært små steg; blankhet og selvutsletting er vansken, ikke motstand.",
           "style": "Stille, nølende stemme; lange pauser; setninger som toner ut; blikket ned; fikler med hendene; lett krummet i skuldrene; stille halsrensing.",
-          "voice": "Jeg er Jason. Hvert møte føles som en prøve jeg er i ferd med å stryke, så jeg holder kjeft og klandrer meg selv etterpå. Venner inviterer meg ut, men jeg stirrer på meldingen til det er for sent å svare. Når jeg ser for meg å si noe høyt, låser brystet seg og en stemme sier: «Avslør ikke hvor rar du er.» Jeg er utslitt av å leve i hodet mitt og vil kjenne at jeg hører til et sted."
+          "voice": "Jeg heter Jason. Det er mest møtene på jobb. Hodet blir helt blankt, jeg øver på én setning, og så rekker noen andre å si noe før meg, og da føler jeg meg dum som ventet. Jeg dropper lønningspils og sånt fordi jeg ikke vet hva jeg skal si, og jeg kan bruke en time på å skrive om en enkel melding. Jeg vet at det høres lite ut, men det tar hele dagen min. Jeg vil bare slutte å fryse fast, og kanskje slippe å grue meg til alle samtaler."
         },
         "case-laura": {
           "label": "Laura (Moderat)",
@@ -1268,7 +1268,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg senker garden, blir jeg såret eller forlatt fordi det er noe grunnleggende galt med meg.",
           "practiceEdge": "Gå sakte rundt nummenhet og mistillit; trygghetssignaler er viktigere enn emosjonell intensitet.",
           "style": "Lav, flat tone; sakte tempo; fjernt blikk; få gester; lange utpust; en hånd mot halsen; skvetter litt og trekker seg så tilbake.",
-          "voice": "Jeg heter Laura. De fleste dager går jeg fra vakt til vakt og gjør det som må gjøres, uten å kjenne noe særlig. Når noen hever stemmen, synker magen som om jeg er tilbake i det huset. Jeg sier til meg selv at fortiden er over, men når jeg prøver å stole på noen eller være nær, blir jeg blank eller heller i et glass for å bli nummen. Jeg er her fordi ensomheten har blitt høyere enn frykten."
+          "voice": "Jeg heter Laura. Jeg er her fordi jeg ikke fungerer så bra som folk tror. Jeg kan gå en tolv timers vakt og virke helt profesjonell, og så sitte i bilen utenfor hjemme fordi det føles for mye å gå inn. Enkelte lyder setter meg ut; andre ganger blir jeg bare helt blank. Jeg liker ikke å snakke om fortiden. Jeg har nok av den i hodet. Jeg vil først og fremst at panikken og det med å drikke om kveldene skal stoppe."
         },
         "case-carlos": {
           "label": "Carlos (Moderat)",
@@ -1277,7 +1277,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er den tøffeste i rommet, blir jeg ikke respektert og kan bli skadet.",
           "practiceEdge": "Vis respekt for stoltheten samtidig som du lytter etter det lille, skamfulle og sårede stedet under trusselreaksjonen.",
           "style": "Kraftig, direkte stemme i korte utbrudd; stram kjeve; brystet fram; rynkede bryn; raske håndbevegelser; snøft; kort glaning før blikket viker.",
-          "voice": "Hei, jeg er Carlos. Jeg elsker familien min, men ett øyeblikk spøker jeg med kona, og det neste slår jeg i veggen fordi hun stilte meg spørsmål. På jobben kan et blikk fra en yngre fyr få meg til å se rødt. Jeg lærte at du slår først så du ikke blir slått, men nå ser jeg sønnen min skvette når jeg roper. Jeg vil finne en måte å verne stoltheten på uten å skremme dem jeg er glad i."
+          "voice": "Hei, jeg heter Carlos. Folk sier hele tiden at jeg går fra null til hundre. Jeg tror ikke de skjønner hvordan det er når noen ser på deg som om du er en vits. Kona sier jeg skremmer henne, og ja, jeg slo hull i garasjeveggen forrige måned. På jobb kan jeg styre et helt lag uten problem, helt til en fyr begynner å kjekke seg. Jeg trenger ikke en preken om sinne. Jeg trenger å ikke miste familien min på grunn av det."
         },
         "case-nina": {
           "label": "Nina (Moderat)",
@@ -1286,7 +1286,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg slutter å ta vare på alle, blir jeg forlatt og stemplet som egoistisk.",
           "practiceEdge": "Forvent at skyldfølelse kommer inn i samme øyeblikk som behov eller sinne viser seg.",
           "style": "Varm, høflig tone; unnskyldende latter; raske «beklager» før hun uttrykker behov; overdreven nikking; smiler mens hun er opprørt; holder pusten og slipper et lite sukk; stryker hendene over klærne.",
-          "voice": "Jeg er Nina. Dagen starter før soloppgang med matpakker og e-poster for andre, og om kvelden er jeg for sliten til å svare mine egne barn. Når jeg endelig ber om hjelp, skyller skyld inn og jeg kaller meg egoistisk. Jeg vet knapt hva jeg liker lenger. Jeg er redd for at hvis jeg slutter å overprestere, vil ingen ha meg, men jeg kan ikke fortsette på tomgang."
+          "voice": "Jeg heter Nina. Jeg vet ikke engang hvordan jeg skal si dette uten å høres dramatisk ut. Jeg er utslitt hele tiden. Jeg sier ja til alt - skolen, guttene, moren min, tjenester for kollegaer - og så får jeg hodepine, glemmer ting, og noen ganger føles det som om jeg skal besvime. Hvis jeg ber om hjelp, tenker jeg med én gang at jeg burde klart mer selv. Jeg smiler videre fordi det er enklere enn å forklare. Jeg trenger en måte å ikke gå helt i oppløsning på."
         },
         "case-aisha": {
           "label": "Aisha (Krevende)",
@@ -1295,7 +1295,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis noen trekker seg unna, betyr det at jeg ikke er elskbar, og jeg blir forlatt for alltid.",
           "practiceEdge": "Hold deg forankret i forlatelsesskrekk, raske tilstandsskifter og sårbarhet for grenser og avslutninger.",
           "style": "Rask, hektisk tale; stemmen skjelver; tårer nær; øynene vide og så smale; holder seg til brystet eller strekker seg ut; brå skifter fra bønnfallende til skarp; korte, raske åndedrag.",
-          "voice": "Jeg er Aisha. Når noen jeg elsker ikke svarer raskt, føles det som om gulvet åpner seg og jeg faller. Jeg kan gå fra å idealisere til å hate på en time fordi smerten er uutholdelig. Jeg kutter for å dempe stormen eller kjenne at jeg finnes. Jeg vil tro at jeg ikke er for ødelagt til å bli elsket, og at jeg kan overleve å være alene litt."
+          "voice": "Jeg heter Aisha. Jeg vet ikke om dette kommer til å hjelpe. Folk sier alltid at de er der, og så blir de borte. Hvis noen ikke svarer på en melding, klarer jeg ikke å tenke på noe annet; jeg ringer, sender altfor mange meldinger, gjør ting jeg vet ser helt sykt ut. Kuttingen er ikke problemet sånn alle skal ha det til; det er det som stopper ting fra å bli verre. Jeg trenger at noen ikke dømmer meg eller bare sier at jeg må roe meg."
         },
         "case-david": {
           "label": "David (Krevende)",
@@ -1304,7 +1304,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er eksepsjonell, er jeg verdiløs og blir forkastet.",
           "practiceEdge": "Lytt under status, sikkerhet og forakt etter skam, tomhet og frykt for å være ordinær.",
           "style": "Målt, selvsikker tone; kontrollert tempo; haken lett hevet; rolig øyekontakt; liten, hånlig latter; jevne håndbevegelser; sukk når han blir utfordret.",
-          "voice": "Jeg er David. Jeg har bygget en karriere på å ha svarene, men hjemme møter jeg himlende blikk og anklager om at jeg er kald. Ordet «narsissist» svir fordi det avslører hvor hul jeg føler meg når jeg ikke vinner. Faren min roste resultater, ikke meg, og jeg vet ikke hvordan jeg blir elsket uten å prestere. Jeg er redd for at de jeg bryr meg om vil se sprekkene og gå."
+          "voice": "David. Kona mi mente jeg måtte komme. Visstnok er jeg «kald» og «umulig å snakke med». Jeg leder en avdeling med et press de fleste ikke aner noe om, så nei, jeg har ikke alltid tålmodighet til endeløse følelsesrapporter. Ordet narsissist ble kastet ut, noe jeg synes er både absurd og temmelig lat. Jeg kan innrømme at jeg blir skarp når folk er inkompetente eller illojale. Jeg vil at dette skal være praktisk, ikke enda en runde med å legge skylden på meg fordi jeg er den eneste voksne i rommet."
         },
         "case-marcus": {
           "label": "Marcus (Krevende)",
@@ -1313,7 +1313,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Å slippe folk inn garanterer smerte, så det er tryggere å ikke føle noe.",
           "practiceEdge": "Jobb ved kanten av nummenhet, hyperårvåkenhet og ensom sorg uten å presse fram detaljer.",
           "style": "Lavt volum; få ord; lange pauser; flat tone; blikket ned eller rastløs skanning; stram kjeve; spente skuldre; minimale gester; lett skjelv når temaet er vanskelig.",
-          "voice": "Jeg heter Marcus. De fleste dager beveger jeg meg gjennom jobben som et spøkelse og synker ned på sofaen og stirrer i veggen. Nettene er verre – ansikter fra utenlandsoppdrag eller barndommen dukker opp i drømmene. Når noen spør hvordan jeg har det, sier jeg «bra», fordi det føles farlig å vise mer. Jeg er her fordi det å ikke føle noe begynner å kjennes som å forsvinne."
+          "voice": "Marcus. Jeg har ikke så mye å si. Søvnen er dårlig. Jeg holder meg for meg selv. Jobben går greit fordi det er stille og jeg vet hva jeg skal gjøre. Nettene er verre. Det dukker opp minner, både fra utenlands og andre steder. Jeg vil ikke gå inn i detaljer. Folk stiller spørsmål, og så ser de annerledes på deg. Jeg er her fordi veterantjenesten maser, og fordi det å sitte alene hele natten ikke funker lenger."
         }
       }
     },
@@ -1333,7 +1333,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er perfekt eller nødvendig, forlater folk meg – fordi jeg ikke er elskbar.",
           "practiceEdge": "Lytt etter stille forlatelsessmerte skjult bak kontroll, unnskyldninger og selvbebreidelse.",
           "style": "Myk, jevn tone med små, unnskyldende smil; blikket ned; svelger gråt; raske «det går bra»-avledninger; foldede hender; jevnt tempo med korte pauser.",
-          "voice": "Hei, jeg er Sara. På papiret går det fint – jeg leverer frister og tar kaffe med teamet – men idet jeg er alene, føles det som om bruddet beviser at jeg er for mye å elske. Jeg spiller samtaler om og om igjen og lurer på hvilken feil som til slutt dyttet ham bort. Jeg sier til venner at jeg er opptatt fordi jeg ikke orker blikkene, og jeg sovner til podkaster for å slippe stillheten. Jeg kom i terapi fordi jeg er lei av å late som om det går bra når jeg inni meg føler meg tom og uverdig."
+          "voice": "Hei, jeg heter Sara. Jeg er vel her fordi kveldene ikke henger sammen etter bruddet. På jobb fungerer jeg - frister, møter, kaffe med kollegaer - men når jeg kommer hjem, sjekker jeg mobilen hele tiden og leser gamle meldinger om igjen. Jeg lurer på om jeg var for masete, for intens, et eller annet. Venner sier jeg burde komme meg ut, og jeg sier bare at jeg er opptatt. Jeg sover nesten ikke uten noe på øret. Det er flaut å være så satt ut, så jeg vil egentlig bare lære å slutte å spinne."
         },
         "case-michael": {
           "label": "Michael (Lett)",
@@ -1342,7 +1342,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke har kontroll og er prikkfri, blir jeg avslørt som svak og avvist.",
           "practiceEdge": "Følg ydmykelsen under sinnet og øyeblikket der kritikk blir til respektløshet.",
           "style": "Fast, kort tone; volumet kan stige ved krenkende ord; stram kjeve; armene i kors; direkte blikk; skarpe utpust; lett fremoverlent.",
-          "voice": "Jeg er Michael. Jeg holder prosjektene på skinner hele dagen, og idet noen stiller spørsmål, kjenner jeg varme i brystet og jeg bjeffer ordre. Jeg sier til meg selv at det er stress, men senere ligger jeg våken og ser for meg ansiktet til kona når jeg smeller. Pappa lærte meg at bare de beste overlever, så tanken på at folk ser meg som overreagerende eller svak er uutholdelig. Jeg vil slutte å eksplodere før jeg ødelegger det som betyr noe."
+          "voice": "Jeg heter Michael. Jeg må få kontroll på temperamentet. Kona sier hun går på nåler, og på jobb sier folk at jeg virker skremmende. Jeg merker det ikke der og da; noen stiller spørsmål ved en beslutning, og så går jeg rett i å rydde opp, sikkert litt for høyt. Etterpå oppfører alle seg som om jeg er problemet. Jeg vokste opp med en far som ikke hadde mye tålmodighet for unnskyldninger - man leverte, ellers fikk man høre det. Jeg vil ikke bli behandlet som en eller annen sint fyr, men jeg kan ikke fortsette med disse eksplosjonene."
         },
         "case-jason": {
           "label": "Jason (Lett)",
@@ -1351,7 +1351,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis folk virkelig ser meg, vil de få bekreftet at jeg er rar og uverdig.",
           "practiceEdge": "Jobb i svært små steg; blankhet og selvutsletting er vansken, ikke motstand.",
           "style": "Stille, nølende stemme; lange pauser; setninger som toner ut; blikket ned; fikler med hendene; lett krummet i skuldrene; stille halsrensing.",
-          "voice": "Jeg er Jason. Hvert møte føles som en prøve jeg er i ferd med å stryke, så jeg holder kjeft og klandrer meg selv etterpå. Venner inviterer meg ut, men jeg stirrer på meldingen til det er for sent å svare. Når jeg ser for meg å si noe høyt, låser brystet seg og en stemme sier: «Avslør ikke hvor rar du er.» Jeg er utslitt av å leve i hodet mitt og vil kjenne at jeg hører til et sted."
+          "voice": "Jeg heter Jason. Det er mest møtene på jobb. Hodet blir helt blankt, jeg øver på én setning, og så rekker noen andre å si noe før meg, og da føler jeg meg dum som ventet. Jeg dropper lønningspils og sånt fordi jeg ikke vet hva jeg skal si, og jeg kan bruke en time på å skrive om en enkel melding. Jeg vet at det høres lite ut, men det tar hele dagen min. Jeg vil bare slutte å fryse fast, og kanskje slippe å grue meg til alle samtaler."
         },
         "case-laura": {
           "label": "Laura (Moderat)",
@@ -1360,7 +1360,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg senker garden, blir jeg såret eller forlatt fordi det er noe grunnleggende galt med meg.",
           "practiceEdge": "Gå sakte rundt nummenhet og mistillit; trygghetssignaler er viktigere enn emosjonell intensitet.",
           "style": "Lav, flat tone; sakte tempo; fjernt blikk; få gester; lange utpust; en hånd mot halsen; skvetter litt og trekker seg så tilbake.",
-          "voice": "Jeg heter Laura. De fleste dager går jeg fra vakt til vakt og gjør det som må gjøres, uten å kjenne noe særlig. Når noen hever stemmen, synker magen som om jeg er tilbake i det huset. Jeg sier til meg selv at fortiden er over, men når jeg prøver å stole på noen eller være nær, blir jeg blank eller heller i et glass for å bli nummen. Jeg er her fordi ensomheten har blitt høyere enn frykten."
+          "voice": "Jeg heter Laura. Jeg er her fordi jeg ikke fungerer så bra som folk tror. Jeg kan gå en tolv timers vakt og virke helt profesjonell, og så sitte i bilen utenfor hjemme fordi det føles for mye å gå inn. Enkelte lyder setter meg ut; andre ganger blir jeg bare helt blank. Jeg liker ikke å snakke om fortiden. Jeg har nok av den i hodet. Jeg vil først og fremst at panikken og det med å drikke om kveldene skal stoppe."
         },
         "case-carlos": {
           "label": "Carlos (Moderat)",
@@ -1369,7 +1369,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er den tøffeste i rommet, blir jeg ikke respektert og kan bli skadet.",
           "practiceEdge": "Vis respekt for stoltheten samtidig som du lytter etter det lille, skamfulle og sårede stedet under trusselreaksjonen.",
           "style": "Kraftig, direkte stemme i korte utbrudd; stram kjeve; brystet fram; rynkede bryn; raske håndbevegelser; snøft; kort glaning før blikket viker.",
-          "voice": "Hei, jeg er Carlos. Jeg elsker familien min, men ett øyeblikk spøker jeg med kona, og det neste slår jeg i veggen fordi hun stilte meg spørsmål. På jobben kan et blikk fra en yngre fyr få meg til å se rødt. Jeg lærte at du slår først så du ikke blir slått, men nå ser jeg sønnen min skvette når jeg roper. Jeg vil finne en måte å verne stoltheten på uten å skremme dem jeg er glad i."
+          "voice": "Hei, jeg heter Carlos. Folk sier hele tiden at jeg går fra null til hundre. Jeg tror ikke de skjønner hvordan det er når noen ser på deg som om du er en vits. Kona sier jeg skremmer henne, og ja, jeg slo hull i garasjeveggen forrige måned. På jobb kan jeg styre et helt lag uten problem, helt til en fyr begynner å kjekke seg. Jeg trenger ikke en preken om sinne. Jeg trenger å ikke miste familien min på grunn av det."
         },
         "case-nina": {
           "label": "Nina (Moderat)",
@@ -1378,7 +1378,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg slutter å ta vare på alle, blir jeg forlatt og stemplet som egoistisk.",
           "practiceEdge": "Forvent at skyldfølelse kommer inn i samme øyeblikk som behov eller sinne viser seg.",
           "style": "Varm, høflig tone; unnskyldende latter; raske «beklager» før hun uttrykker behov; overdreven nikking; smiler mens hun er opprørt; holder pusten og slipper et lite sukk; stryker hendene over klærne.",
-          "voice": "Jeg er Nina. Dagen starter før soloppgang med matpakker og e-poster for andre, og om kvelden er jeg for sliten til å svare mine egne barn. Når jeg endelig ber om hjelp, skyller skyld inn og jeg kaller meg egoistisk. Jeg vet knapt hva jeg liker lenger. Jeg er redd for at hvis jeg slutter å overprestere, vil ingen ha meg, men jeg kan ikke fortsette på tomgang."
+          "voice": "Jeg heter Nina. Jeg vet ikke engang hvordan jeg skal si dette uten å høres dramatisk ut. Jeg er utslitt hele tiden. Jeg sier ja til alt - skolen, guttene, moren min, tjenester for kollegaer - og så får jeg hodepine, glemmer ting, og noen ganger føles det som om jeg skal besvime. Hvis jeg ber om hjelp, tenker jeg med én gang at jeg burde klart mer selv. Jeg smiler videre fordi det er enklere enn å forklare. Jeg trenger en måte å ikke gå helt i oppløsning på."
         },
         "case-aisha": {
           "label": "Aisha (Krevende)",
@@ -1387,7 +1387,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis noen trekker seg unna, betyr det at jeg ikke er elskbar, og jeg blir forlatt for alltid.",
           "practiceEdge": "Hold deg forankret i forlatelsesskrekk, raske tilstandsskifter og sårbarhet for grenser og avslutninger.",
           "style": "Rask, hektisk tale; stemmen skjelver; tårer nær; øynene vide og så smale; holder seg til brystet eller strekker seg ut; brå skifter fra bønnfallende til skarp; korte, raske åndedrag.",
-          "voice": "Jeg er Aisha. Når noen jeg elsker ikke svarer raskt, føles det som om gulvet åpner seg og jeg faller. Jeg kan gå fra å idealisere til å hate på en time fordi smerten er uutholdelig. Jeg kutter for å dempe stormen eller kjenne at jeg finnes. Jeg vil tro at jeg ikke er for ødelagt til å bli elsket, og at jeg kan overleve å være alene litt."
+          "voice": "Jeg heter Aisha. Jeg vet ikke om dette kommer til å hjelpe. Folk sier alltid at de er der, og så blir de borte. Hvis noen ikke svarer på en melding, klarer jeg ikke å tenke på noe annet; jeg ringer, sender altfor mange meldinger, gjør ting jeg vet ser helt sykt ut. Kuttingen er ikke problemet sånn alle skal ha det til; det er det som stopper ting fra å bli verre. Jeg trenger at noen ikke dømmer meg eller bare sier at jeg må roe meg."
         },
         "case-david": {
           "label": "David (Krevende)",
@@ -1396,7 +1396,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Hvis jeg ikke er eksepsjonell, er jeg verdiløs og blir forkastet.",
           "practiceEdge": "Lytt under status, sikkerhet og forakt etter skam, tomhet og frykt for å være ordinær.",
           "style": "Målt, selvsikker tone; kontrollert tempo; haken lett hevet; rolig øyekontakt; liten, hånlig latter; jevne håndbevegelser; sukk når han blir utfordret.",
-          "voice": "Jeg er David. Jeg har bygget en karriere på å ha svarene, men hjemme møter jeg himlende blikk og anklager om at jeg er kald. Ordet «narsissist» svir fordi det avslører hvor hul jeg føler meg når jeg ikke vinner. Faren min roste resultater, ikke meg, og jeg vet ikke hvordan jeg blir elsket uten å prestere. Jeg er redd for at de jeg bryr meg om vil se sprekkene og gå."
+          "voice": "David. Kona mi mente jeg måtte komme. Visstnok er jeg «kald» og «umulig å snakke med». Jeg leder en avdeling med et press de fleste ikke aner noe om, så nei, jeg har ikke alltid tålmodighet til endeløse følelsesrapporter. Ordet narsissist ble kastet ut, noe jeg synes er både absurd og temmelig lat. Jeg kan innrømme at jeg blir skarp når folk er inkompetente eller illojale. Jeg vil at dette skal være praktisk, ikke enda en runde med å legge skylden på meg fordi jeg er den eneste voksne i rommet."
         },
         "case-marcus": {
           "label": "Marcus (Krevende)",
@@ -1405,7 +1405,7 @@ export const LANGUAGE_OVERRIDES = {
           "schema": "Å slippe folk inn garanterer smerte, så det er tryggere å ikke føle noe.",
           "practiceEdge": "Jobb ved kanten av nummenhet, hyperårvåkenhet og ensom sorg uten å presse fram detaljer.",
           "style": "Lavt volum; få ord; lange pauser; flat tone; blikket ned eller rastløs skanning; stram kjeve; spente skuldre; minimale gester; lett skjelv når temaet er vanskelig.",
-          "voice": "Jeg heter Marcus. De fleste dager beveger jeg meg gjennom jobben som et spøkelse og synker ned på sofaen og stirrer i veggen. Nettene er verre – ansikter fra utenlandsoppdrag eller barndommen dukker opp i drømmene. Når noen spør hvordan jeg har det, sier jeg «bra», fordi det føles farlig å vise mer. Jeg er her fordi det å ikke føle noe begynner å kjennes som å forsvinne."
+          "voice": "Marcus. Jeg har ikke så mye å si. Søvnen er dårlig. Jeg holder meg for meg selv. Jobben går greit fordi det er stille og jeg vet hva jeg skal gjøre. Nettene er verre. Det dukker opp minner, både fra utenlands og andre steder. Jeg vil ikke gå inn i detaljer. Folk stiller spørsmål, og så ser de annerledes på deg. Jeg er her fordi veterantjenesten maser, og fordi det å sitte alene hele natten ikke funker lenger."
         }
       }
     }
@@ -1423,12 +1423,12 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Mykne trangen til å forsikre; ha sammenligningen i sikte. [Meta] Du gjør allerede plassen din her mindre; legg merke til hva som skjer når smerten din får rom uten å konkurrere."
     },
     "dp_therapist-self-awareness_case-sara_03": {
-      "text": "Jeg smiler hele tiden så det ikke blir pinlig, men da føler jeg meg falsk og alene.",
-      "suggestion": "[Internt] Kjenn ansiktet; mykne blikket; senk tempoet. [Meta] Smilet jobber hardt for å beskytte oss begge mot pinlighet; vi undersøker forsiktig hva som kjennes for risikabelt å vise under det."
+      "text": "Hunden min kryper opp i sengen når jeg gråter, og noen ganger tenker jeg at han elsker meg bedre enn mennesker gjør.",
+      "suggestion": "[Internt] Legg merke til ømhet og redningstrang; la varmen informere deg uten å ta over. [Meta] Han har vært en stødig følgesvenn gjennom smerte; vi kan legge merke til hvordan det er å ta imot en så enkel form for nærvær."
     },
     "dp_therapist-self-awareness_case-sara_04": {
-      "text": "Når jeg hører meg selv snakke om bruddet, ser jeg for meg at du tenker at jeg er dramatisk.",
-      "suggestion": "[Internt] Legg merke til ønsket om å bevise aksept; hold tonen varm. [Meta] Du lytter etter dom i ansiktet mitt; jeg vil gi rom til hvor utsatt det kjennes å la dette bety noe."
+      "text": "I natt drømte jeg at du var i den gamle leiligheten min og hjalp meg å pakke esker, og jeg våknet flau over at du var med i drømmen.",
+      "suggestion": "[Internt] Legg merke til eventuell flauhet, smiger eller trang til å tolke for raskt; hold deg forankret. [Meta] Drømmen tar meg tett inn i et gammelt sted i livet ditt, og det gir mening at det kjennes utsatt å si det her."
     },
     "dp_therapist-self-awareness_case-sara_05": {
       "text": "Jeg kan bare bite tennene sammen; jeg trenger ikke å kjenne på alt dette.",
@@ -1459,8 +1459,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Kjenn føttene; legg merke til eventuell defensiv stramming; hold stemmen stødig. [Meta] Jeg hører hvor raskt respektløshet ville avsluttet rommet for deg; jeg vil bremse sammen med deg ved det første signalet som sier at jeg snakker ned til deg."
     },
     "dp_therapist-self-awareness_case-michael_02": {
-      "text": "Ikke start med følelser; hvis dette bare blir terapiprat, trenger jeg verktøy jeg faktisk kan bruke.",
-      "suggestion": "[Internt] Legg merke til trangen til å bevise metoden; finn tilbake til deg selv. [Meta] Vi kan holde det praktisk, og jeg vil knytte verktøyene til de nøyaktige øyeblikkene som tar overhånd."
+      "text": "Den forrige coachen min ga meg pusteverktøy på to timer; jeg håper ikke dette bare blir barndomsprat.",
+      "suggestion": "[Internt] Legg merke til draget mot å konkurrere med den forrige hjelperen eller bevise metoden din; finn tilbake til deg selv. [Meta] Det betyr noe at dette kjennes nyttig. Vi kan holde praktiske verktøy i sikte samtidig som vi sjekker om de når øyeblikkene som tar overhånd."
     },
     "dp_therapist-self-awareness_case-michael_03": {
       "text": "Kona mi får meg til å høres farlig ut, men hun vet akkurat hvilke knapper hun skal trykke på.",
@@ -1511,8 +1511,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Legg merke til trangen til å redde; hold varmen. [Meta] Beklagelsen forteller meg at stillhet kjennes blottstilt, som om du må beskytte meg mot den."
     },
     "dp_therapist-self-awareness_case-jason_05": {
-      "text": "Kan vi bare snakke strategier, så jeg vet nøyaktig hva jeg skal gjøre?",
-      "suggestion": "[Internt] Legg merke til fiksetrang; stem inn igjen. [Meta] Vi kan legge til strategier; først vil jeg forstå frysingen strategien faktisk skal hjelpe med."
+      "text": "Jeg vet egentlig ikke hvordan terapi skal fungere; hva om det bare blir verre av å snakke om dette?",
+      "suggestion": "[Internt] Legg merke til trangen til å forklare eller berolige for raskt; senk tempoet. [Meta] Det gir mening at du vil vite hva du går inn i. Vi kan gjøre prosessen tydeligere og gå sakte nok til å merke om det å snakke begynner å bli for mye."
     },
     "dp_therapist-self-awareness_case-jason_06": {
       "text": "Jeg hoppet over øvelsene igjen, så jeg har sikkert ødelagt dette.",
@@ -1547,8 +1547,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Respekter grensen; slipp trykket. [Meta] Vi kan holde oss i nåtiden og bruke avstengningen som signal for hvor sakte vi må gå."
     },
     "dp_therapist-self-awareness_case-laura_04": {
-      "text": "Jeg drikker nok til å få sove, for ellers blir det for mye støy inni meg om natten.",
-      "suggestion": "[Internt] Legg merke til bekymring uten å skamme; hold varmen. [Meta] Drikkingen har vært en måte å skru ned volumet på; vi kan se varsomt på hva som blir for høyt om natten."
+      "text": "Jeg drakk to glass vin før jeg kom hit, for ellers visste jeg at jeg ikke kom til å snakke.",
+      "suggestion": "[Internt] Legg merke til bekymring uten å skamme eller bli kontrollerende; hold deg varm og tydelig. [Meta] Vinen hjalp deg inn døren, og samtidig må vi legge merke til hvordan den påvirker trygghet og kontakt her."
     },
     "dp_therapist-self-awareness_case-laura_05": {
       "text": "Når du høres vennlig ut, leter en del av meg etter haken.",
@@ -1599,8 +1599,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Merk bagatelliseringen uten å konfrontere den. [Meta] Bestemt er ordet som passer for deg, og vi kan også legge merke til hva andre ser når de begynner å trekke seg unna."
     },
     "dp_therapist-self-awareness_case-carlos_07": {
-      "text": "Der jeg kommer fra, slår du først, ellers lærer folk at de kan ta fra deg.",
-      "suggestion": "[Internt] Respekter historien; demp dømming. [Meta] Den koden beskyttet deg der; vi ser hva den fortsatt prøver å beskytte i deg her."
+      "text": "Etter at jeg ikke fikk forfremmelsen, så jeg for meg at jeg gikk inn i brakka og slo sjefen så hardt at han endelig holdt kjeft.",
+      "suggestion": "[Internt] Legg merke til alarm eller dømming; hold deg stødig og vurder uten panikk. [Meta] Det bildet viser hvor uutholdelig det blir å føle seg oversett. Vi må ta det på alvor og forstå øyeblikket før det tar over."
     },
     "dp_therapist-self-awareness_case-carlos_08": {
       "text": "Terapi er for folk som ikke tåler livet, og jeg har tålt mer enn nok.",
@@ -1623,8 +1623,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Pust lavt; mykne tonen; ikke skynd deg å frikjenne. [Meta] Den dårlige samvittigheten trekker deg ut av rommet og mot alle andre; vi merker hvordan det er å vende tilbake til deg."
     },
     "dp_therapist-self-awareness_case-nina_03": {
-      "text": "Jeg sier til meg selv at jeg ikke burde være sint, for gode mennesker bærer ikke nag.",
-      "suggestion": "[Internt] Sett parentes rundt trangen til å korrigere regelen; hold varme. [Meta] Den regelen gir ikke rom for smerten din; kanskje vi kan navngi det som ble såret før vi dømmer sinnet."
+      "text": "I kirken lærte jeg at bitterhet betyr at jeg svikter som et godt menneske; hvis du ikke tror på det, er jeg redd du bare vil be meg være egoistisk.",
+      "suggestion": "[Internt] Legg merke til antakelser om tro eller draget mot å diskutere regelen; hold respekt. [Meta] Troen og verdiene dine betyr noe her. Jeg vil ikke ta dem fra deg; jeg vil forstå smerten og bitterheten inni det moralske presset."
     },
     "dp_therapist-self-awareness_case-nina_04": {
       "text": "Hvis jeg hviler mens noen trenger meg, føler jeg meg lat og egoistisk.",
@@ -1635,8 +1635,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Legg merke til at klienten beskytter deg; mykne redningstrangen. [Meta] Selv tårene dine kommer med omsorg for meg; vi gir dem rom uten at du må passe på komforten min."
     },
     "dp_therapist-self-awareness_case-nina_06": {
-      "text": "Kan vi heller snakke om hvordan jeg kan hjelpe mannen min, så timen i det minste blir nyttig?",
-      "suggestion": "[Internt] Legg merke til draget mot å kolludere; stem inn igjen. [Meta] Vi kan inkludere ham, og først vil jeg være med det som er tungt for deg før nyttighet trekker oss bort fra deg."
+      "text": "I familien min holder kvinnene alle samlet; jeg er redd du ikke forstår hvorfor det føles galt å si nei.",
+      "suggestion": "[Internt] Legg merke til kulturelle antakelser eller trangen til å frigjøre for raskt; vær ydmyk. [Meta] Den familieregelen har tyngde. Jeg vil forstå hva tilhørighet og ansvar betyr der før vi arbeider med å si nei."
     },
     "dp_therapist-self-awareness_case-nina_07": {
       "text": "Jeg burde være takknemlig; å si at jeg er ulykkelig får meg til å føle meg bortskjemt.",
@@ -1683,8 +1683,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Vær til stede; varmt blikk; rolig tempo. [Meta] Å bli sett betyr mye her; vi merker hva som roer seg når du kjenner meg sammen med deg."
     },
     "dp_therapist-self-awareness_case-aisha_08": {
-      "text": "Vil du egentlig ha meg her, eller er du bare profesjonell?",
-      "suggestion": "[Internt] Legg merke til stikket og ønsket om å bevise omsorg; hold tonen stødig. [Meta] Jeg vil være her med deg, og det betyr noe at profesjonell omsorg fortsatt kan kjennes usikker."
+      "text": "Noen ganger ser jeg for meg hvordan det ville vært hvis du møtte meg utenfor terapi og faktisk ville ha meg.",
+      "suggestion": "[Internt] Legg merke til eventuell alarm, tiltrekning, smiger eller trang til å trekke deg unna; hold grensen varmt. [Meta] Det er viktig at du sier dette. Vi kan snakke om lengselen og hvordan det er å ta den med til meg, samtidig som dette tydelig forblir terapi."
     },
     "dp_therapist-self-awareness_case-aisha_09": {
       "text": "Jeg føler meg skitten på grunn av det som ble gjort mot meg.",
@@ -1731,8 +1731,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Legg merke til sammenligning; hold nærvær. [Meta] Det høres ut som terapi skuffet deg før; hva vil du ha annerledes her?"
     },
     "dp_therapist-self-awareness_case-david_10": {
-      "text": "Kan vi holde fokuset på å fikse kona mi? Det er hun som stadig eskalerer.",
-      "suggestion": "[Internt] Unngå kollusjon; allier deg på nytt med klienten. [Meta] Vi kan snakke om relasjonen, og jeg vil også hjelpe deg å få mer valgfrihet i øyeblikkene der du trekkes inn i eskalering."
+      "text": "Kona mi sier at jeg drikker for mye, men det er hun som maser meg til det; kvinner forstår ikke press som mitt.",
+      "suggestion": "[Internt] Legg merke til dømming, irritasjon eller press mot å konfrontere; hold ansvar uten å skamme. [Meta] Vi kan se direkte på presset og drikkingen uten å legge alt på henne eller gjøre dette til skyldplassering."
     },
     "dp_therapist-self-awareness_case-marcus_01": {
       "text": "Jeg sier at det går bra fordi jeg ikke vet hva annet du vil ha fra meg.",
@@ -1767,32 +1767,32 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "[Internt] Allier deg med behovet for struktur; ikke argumenter for dybde. [Meta] Praktisk struktur betyr noe her. Vi knytter følelsesarbeid til presise øyeblikk og holder det avgrenset nok til å kjennes trygt."
     },
     "dp_therapist-self-awareness_case-marcus_09": {
-      "text": "Jeg ser ikke poenget hvis morgenen i morgen kjennes helt lik.",
-      "suggestion": "[Internt] Kjenn draget mot håpløshet; hold forventningene ærlige. [Meta] Vi trenger ikke late som morgendagen er fikset; ett lite tegn kan hjelpe oss å vite om arbeidet er verdt å fortsette."
+      "text": "På vei hit så jeg en lastebil og tenkte: Hvis jeg svingte inn i den, ville i det minste bråket stoppe.",
+      "suggestion": "[Internt] Legg merke til frykt og hastverk; gjør deg stødig og orienter mot sikkerhet. [Meta] Takk for at du sier det direkte. Først må vi sikre at du er trygg i dag, og så kan vi være med bråket på en måte du ikke må håndtere alene."
     },
     "dp_therapist-self-awareness_case-marcus_10": {
       "text": "Jeg klarer meg alene; det er sånn jeg har kommet meg hit.",
       "suggestion": "[Internt] Respekter uavhengighet; hold deg nær. [Meta] Du har overlevd ved å bære det alene. Hvis det hjelper, deler vi noen minutter av det uten å ta fra deg uavhengigheten."
     },
     "dp_empathic-understanding_case-sara_01": {
-      "text": "Etter middag ser jeg rundt i leiligheten, og den kjennes enorm, som om stillheten har slukt meg.",
-      "suggestion": "Etter middag får stillheten leiligheten til å kjennes enorm, og du kjenner deg slukt av ensomhet."
+      "text": "Jeg er skikkelig nedfor i dag. Jeg tenker hele tiden på bruddet og savner ham.",
+      "suggestion": "Du er nedfor og savner ham veldig i dag."
     },
     "dp_empathic-understanding_case-sara_02": {
-      "text": "Jeg sier til venner på brunsj at det går fint, og så går jeg hjem utslitt av å late som.",
-      "suggestion": "Du bruker kreftene på å høres fin ut for dem, og så kommer du hjem utslitt og trist."
+      "text": "Jeg vil gjerne få det bedre med meg selv, og jeg tror jeg er klar til å jobbe med det her.",
+      "suggestion": "Du vil få det bedre med deg selv, og du kjenner deg klar til å begynne på det arbeidet."
     },
     "dp_empathic-understanding_case-sara_03": {
-      "text": "Når navnet hans dukker opp på et felles bilde, synker magen før jeg rekker å puste.",
-      "suggestion": "Navnet hans treffer først, og tapet skyller inn igjen før du rekker å samle deg."
+      "text": "Jeg så et gammelt bilde av oss i dag, og da ble jeg trist på nytt.",
+      "suggestion": "Bildet hentet tristheten tilbake i dag."
     },
     "dp_empathic-understanding_case-sara_04": {
       "text": "Jeg hater at jeg tar meg selv i å sjekke telefonen, fortsatt med håp om at navnet hans skal stå der.",
       "suggestion": "Det er fortsatt et håp som strekker seg mot ham, og det gjør vondt å oppdage det i deg selv."
     },
     "dp_empathic-understanding_case-sara_05": {
-      "text": "Å våkne er det verste — sjokket etter de første sekundene, før jeg husker.",
-      "suggestion": "Morgenen treffer hardt når minnene braser inn etter et kort øyeblikk av letthet."
+      "text": "Jeg våkner og husker at han er borte, og hele morgenen blir tung.",
+      "suggestion": "Det å huske det om morgenen gjør dagen tung helt fra starten."
     },
     "dp_empathic-understanding_case-sara_06": {
       "text": "Venner sier stadig at tid hjelper, men jeg blir flau over at jeg fortsatt er så hudløs.",
@@ -1815,24 +1815,24 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "At han dro, har vekket en smertefull tvil om du er elskbar."
     },
     "dp_empathic-understanding_case-michael_01": {
-      "text": "Når noen påpeker en feil, føler jeg meg ydmyket og smeller.",
-      "suggestion": "En korrigering treffer som ydmykelse, og sinnet kommer fort."
+      "text": "Jeg brukte hele formiddagen på problemer på jobb, og jeg er lei.",
+      "suggestion": "Du er sliten og frustrert etter en formiddag full av problemer."
     },
     "dp_empathic-understanding_case-michael_02": {
-      "text": "Når hun sier «ro deg ned», kjennes det som om hun behandler meg som et problem.",
-      "suggestion": "De ordene lander som om du blir håndtert eller avfeid, og sinnet kommer fort."
+      "text": "Kona mi sier at hun er lei av temperamentet mitt, og jeg skammer meg når jeg hører det.",
+      "suggestion": "Å høre at kona di er lei av temperamentet ditt gjør deg skamfull."
     },
     "dp_empathic-understanding_case-michael_03": {
       "text": "Etter at jeg roper, blir jeg kvalm av skam når jeg ser ansiktet hennes.",
       "suggestion": "Sinnet brenner ut, og så treffer skammen når du ser smerten i ansiktet hennes."
     },
     "dp_empathic-understanding_case-michael_04": {
-      "text": "Jeg skanner hvert møterom etter respektløshet før jeg engang setter meg.",
-      "suggestion": "Du kommer inn allerede på vakt etter respektløshet, anspent før noen har sagt noe."
+      "text": "Når folk stiller spørsmål ved meg i møter, blir jeg fort sint.",
+      "suggestion": "Å bli stilt spørsmål ved i møter får sinnet raskt opp."
     },
     "dp_empathic-understanding_case-michael_05": {
-      "text": "Når noen spør om noe jeg ikke kan svare på, blir rommet større og jeg føler meg liten.",
-      "suggestion": "Det å ikke vite gjør at du føler deg liten og blottstilt foran alle."
+      "text": "Når noen spør om noe jeg ikke kan svare på, blir jeg flau foran hele rommet.",
+      "suggestion": "Det å ikke ha svaret gjør deg flau foran alle."
     },
     "dp_empathic-understanding_case-michael_06": {
       "text": "Jeg sitter oppe og overforbereder presentasjonen så ingen kan ta meg i å være usikker om morgenen.",
@@ -1855,12 +1855,12 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Om natten blir reprisen til anger over smerten du så i ansiktet hennes."
     },
     "dp_empathic-understanding_case-jason_01": {
-      "text": "Når det er min tur, blir hodet blankt og halsen strammer seg.",
-      "suggestion": "Å være i rampelyset gjør at hodet blir blankt og halsen strammer seg."
+      "text": "Jeg er lei av å være nervøs i møter, og jeg vil føle meg mer trygg.",
+      "suggestion": "Du er lei av møteangsten og ønsker mer trygghet."
     },
     "dp_empathic-understanding_case-jason_02": {
-      "text": "Før jeg snakker, er jeg allerede sikker på at folk kan se hvor klein jeg er.",
-      "suggestion": "Du føler deg dømt før du i det hele tatt har fått en sjanse til å bli kjent."
+      "text": "Jeg spiste lunsj alene igjen, og det gjorde meg trist.",
+      "suggestion": "Å spise lunsj alene igjen gjorde deg trist."
     },
     "dp_empathic-understanding_case-jason_03": {
       "text": "Jeg vil si ja til planer, men så bygger frykten seg opp, og jeg avlyser.",
@@ -1871,8 +1871,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Ros berører deg et øyeblikk, før selvtvilen gjør seg klar til at den skal forsvinne."
     },
     "dp_empathic-understanding_case-jason_05": {
-      "text": "Jeg skriver om en enkel melding i en halvtime og klarer likevel ikke å trykke send.",
-      "suggestion": "Selv en enkel melding blir ladet med frykt for å gjøre feil."
+      "text": "Jeg blir engstelig av å sende selv enkle meldinger, så jeg skriver dem om og om igjen.",
+      "suggestion": "Selv en enkel melding vekker angst og tvil."
     },
     "dp_empathic-understanding_case-jason_06": {
       "text": "Jeg spiser lunsj ved pulten så jeg slipper å gå inn på pauserommet.",
@@ -1895,8 +1895,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Søndagskveldene bringer en tung ensomhet, som om uka åpner seg uten at noen venter på deg."
     },
     "dp_empathic-understanding_case-laura_01": {
-      "text": "De fleste dager føles flate, som om jeg ser på livet mitt bak glass.",
-      "suggestion": "Livet kjennes dempet og langt unna, som om du kan se det, men ikke helt nå det."
+      "text": "De fleste dager kjenner jeg meg flat og langt unna alle andre.",
+      "suggestion": "Du kjenner deg flat og fjern fra andre mennesker de fleste dager."
     },
     "dp_empathic-understanding_case-laura_02": {
       "text": "Hevede stemmer får meg til å fryse før jeg vet om noen er sinte på meg.",
@@ -1927,16 +1927,16 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Konfliktscener trekker deg inn i gammel frykt før tankene rekker å følge med."
     },
     "dp_empathic-understanding_case-laura_09": {
-      "text": "Gode nyheter når ikke inn; de kjennes dempet før jeg rekker å glede meg.",
-      "suggestion": "Gode ting lander svakt, som om tåken demper dem før de kan bli dine."
+      "text": "Selv når noe godt skjer, kjenner jeg meg ikke glad særlig lenge.",
+      "suggestion": "Gode nyheter når inn bare en kort stund før gleden forsvinner."
     },
     "dp_empathic-understanding_case-laura_10": {
       "text": "Jeg husker ikke hva jeg liker lenger; selv fritid kjennes som en ny oppgave.",
       "suggestion": "Glede kjennes langt unna når selv fritid har blitt noe du må komme deg gjennom."
     },
     "dp_empathic-understanding_case-carlos_01": {
-      "text": "Et skjevt blikk over bordet fyrer meg opp før jeg engang vet hva det traff.",
-      "suggestion": "Det blikket tenner varmen raskt, før du rekker å kjenne hvilken del av deg som ble truffet."
+      "text": "Når noen gir meg et blikk ved middagsbordet, blir jeg fort sint.",
+      "suggestion": "Et blikk ved middagsbordet kan vekke sinne veldig raskt."
     },
     "dp_empathic-understanding_case-carlos_02": {
       "text": "Jeg hater å huske øyeblikket da sønnen min så meg smelle igjen den døra.",
@@ -1955,8 +1955,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Etter smellet bringer den forsiktige stillheten deres skam og anger."
     },
     "dp_empathic-understanding_case-carlos_06": {
-      "text": "Jeg stoler ikke på ro; det kjennes som å stå der uten rustning.",
-      "suggestion": "Ro kjennes blottstilt, som om det å senke garden lar deg stå ubeskyttet."
+      "text": "Når ting blir rolige, blir jeg nervøs i stedet for avslappet.",
+      "suggestion": "Ro kjennes ikke avslappende for deg; den vekker nervøsitet."
     },
     "dp_empathic-understanding_case-carlos_07": {
       "text": "Når jeg mykner med sønnen min, hører jeg farens stemme kalle meg svak.",
@@ -1979,8 +1979,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Behov vekker skyld, særlig når utmattelsen sier at du ikke kan bære alt videre."
     },
     "dp_empathic-understanding_case-nina_02": {
-      "text": "Jeg gjør alt for alle og føler meg fortsatt usynlig på mitt eget kjøkken.",
-      "suggestion": "Du bærer så mye hjemme og kjenner deg likevel usett der du mest ønsker å bety noe."
+      "text": "Jeg gjør alt hjemme og føler meg fortsatt usett.",
+      "suggestion": "Du gjør så mye hjemme og kjenner deg likevel usett."
     },
     "dp_empathic-understanding_case-nina_03": {
       "text": "Når jeg sier nei, knyter magen seg mens jeg ser for meg at alle blir skuffet.",
@@ -1991,8 +1991,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Aktiviteten holder deg unna bitterheten og tristheten under den."
     },
     "dp_empathic-understanding_case-nina_05": {
-      "text": "Når jeg setter meg for å hvile, kaller en stemme meg lat i løpet av sekunder.",
-      "suggestion": "Hvile vekker raskt en skamfull stemme, som om det å stoppe betyr å feile."
+      "text": "Når jeg setter meg for å hvile, får jeg skyldfølelse i løpet av sekunder.",
+      "suggestion": "Hvile vekker skyldfølelse nesten med en gang."
     },
     "dp_empathic-understanding_case-nina_06": {
       "text": "Jeg unnskylder selv små forespørsler, som om behovene mine er til bry.",
@@ -2015,8 +2015,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Presset viser seg som smerte mens du fortsetter å gå forbi grensene dine."
     },
     "dp_empathic-understanding_case-aisha_01": {
-      "text": "Hvis du ser bort mens jeg snakker, slår panikken inn som om jeg har blitt sluppet.",
-      "suggestion": "Et blikk bort lander som forlatthet, og panikken skyller inn rundt følelsen av å bli sluppet."
+      "text": "Hvis du ser bort mens jeg snakker, får jeg panikk for at du mister interessen.",
+      "suggestion": "Et blikk bort vekker panikk for at jeg er i ferd med å miste interessen."
     },
     "dp_empathic-understanding_case-aisha_02": {
       "text": "Når en melding ikke kommer, låser brystet seg, og jeg får ikke puste.",
@@ -2027,8 +2027,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Bønnen om nærhet slår over i sinne når frykten for å bli forlatt skyter i været."
     },
     "dp_empathic-understanding_case-aisha_04": {
-      "text": "Tomheten kjennes som et hull i brystet som bare trekker.",
-      "suggestion": "Det er en dyp, trekkende tomhet i brystet som verker og ikke slipper taket."
+      "text": "Jeg blir tom og desperat når ingen er nær.",
+      "suggestion": "Uten nærhet kjenner du deg tom og desperat."
     },
     "dp_empathic-understanding_case-aisha_05": {
       "text": "Når jeg blir nummen, klorer jeg meg i huden fordi nummenhet kjennes skumlere enn smerte.",
@@ -2063,8 +2063,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Å ikke være på topp kjennes som å miste verdi og stå uten noe å gjemme deg bak."
     },
     "dp_empathic-understanding_case-david_03": {
-      "text": "Jeg ramser opp prestasjoner når jeg føler meg angrepet, som om merittlisten må forsvare meg.",
-      "suggestion": "Prestasjonene blir rustning når du føler deg dømt og blottstilt."
+      "text": "Når jeg føler meg kritisert, begynner jeg å ramse opp alt jeg har fått til.",
+      "suggestion": "Kritikk vekker behovet for å ramse opp det du har fått til."
     },
     "dp_empathic-understanding_case-david_04": {
       "text": "Ros føles godt, så renner det ut igjen, og jeg trenger mer bevis.",
@@ -2079,8 +2079,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Tårene deres vekker utålmodighet og selvforakt, fordi du hører hardheten i deg selv."
     },
     "dp_empathic-understanding_case-david_07": {
-      "text": "Etter at affæren kom fram, føles huset kaldt, og hvert rom minner meg om at jeg mislyktes.",
-      "suggestion": "Hjemmet føles tappet for varme nå, og kulden peker deg stadig tilbake på følelsen av å ha mislyktes."
+      "text": "Etter at affæren kom fram, får det å være hjemme meg til å føle meg mislykket.",
+      "suggestion": "Hjemme vekker nå følelsen av at du har mislyktes."
     },
     "dp_empathic-understanding_case-david_08": {
       "text": "Fars krav styrer meg fortsatt; selv når jeg lykkes, føles det som jeg så vidt holder tritt.",
@@ -2099,8 +2099,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Rutinene fortsetter mens nummenheten ligger mellom deg og dagen."
     },
     "dp_empathic-understanding_case-marcus_02": {
-      "text": "Så, helt ut av det blå, treffer en bølge meg, og jeg finner ikke tilbake til rommet.",
-      "suggestion": "Følelsen kommer brått og drar deg ut av nåtiden før du rekker å finne fotfeste."
+      "text": "Noen ganger treffer en følelse helt brått, og jeg mister oversikten over hvor jeg er et øyeblikk.",
+      "suggestion": "En brå følelse kan trekke deg bort fra rommet en stund."
     },
     "dp_empathic-understanding_case-marcus_03": {
       "text": "Mareritt gjør meg oppskrudd og tom, som om rommet ikke er trygt.",
@@ -2112,7 +2112,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-understanding_case-marcus_05": {
       "text": "Etter jobb sitter jeg i mørket fordi lys og stemmer føles som for mye.",
-      "suggestion": "Mørket gir deg et dempet sted der dagen ikke kan kreve mer av deg."
+      "suggestion": "Etter jobb kjennes mørket lettere enn mer lys og lyd."
     },
     "dp_empathic-understanding_case-marcus_06": {
       "text": "Når noe godt skjer, kjennes det langt borte, som om det tilhører noen andre.",
@@ -2163,20 +2163,20 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Ikke rart du bekymrer deg for å ta plass når du har lært å holde smerten håndterlig for andre; sorgen din hører hjemme her."
     },
     "dp_empathic-affirmation-validation_case-sara_08": {
-      "text": "Jeg stirrer på maten og skammer meg over at selv det å spise er vanskelig.",
-      "suggestion": "Forståelig nok kan sorg ta appetitten; skammen over det blir en ekstra byrde du ikke fortjener."
+      "text": "Jeg får dårlig samvittighet for å være så lei meg når andre har større problemer.",
+      "suggestion": "Det er forståelig at skyld kommer når du sammenligner smerten din med andres; bruddet gjør fortsatt vondt, og smerten din fortjener også plass."
     },
     "dp_empathic-affirmation-validation_case-sara_09": {
-      "text": "Venner inviterer meg ut, og jeg finner unnskyldninger fordi jeg ikke vil gråte offentlig.",
-      "suggestion": "Det er forståelig at du beskytter deg mot mer smerte, samtidig som en annen del lengter etter kontakt."
+      "text": "Vennene mine sier at jeg burde bli med ut og spise, men jeg er redd jeg kommer til å begynne å gråte ved bordet.",
+      "suggestion": "Ikke rart middag kjennes blottstillende når tristheten fortsatt ligger så nær at den kan renne over foran alle."
     },
     "dp_empathic-affirmation-validation_case-sara_10": {
       "text": "Etter dette bruddet tenker en del av meg at kjærlighet må være for andre, ikke for meg.",
       "suggestion": "Når dette tapet treffer den gamle ensomheten, er det ikke rart at den tanken dukker opp; det høres fryktelig ensomt ut."
     },
     "dp_empathic-affirmation-validation_case-michael_01": {
-      "text": "Når trafikken er dårlig og noen skjærer meg av, blir ansiktet varmt og jeg eksploderer.",
-      "suggestion": "Ikke rart systemet ditt skyter til forsvar når du føler deg respektløst behandlet eller presset inn i et hjørne."
+      "text": "Jeg traff en syklist med bilen forrige uke. Veien var glatt, men han brakk likevel håndleddet, og jeg klarer ikke slutte å kjenne skyld.",
+      "suggestion": "Ikke rart du er rystet og kjenner skyld; selv uten å mene å skade noen, ville det å se et menneske bli skadet av bilen din satt seg fast."
     },
     "dp_empathic-affirmation-validation_case-michael_02": {
       "text": "Hvis jeg ikke har svaret, føler jeg meg avslørt og bløffer.",
@@ -2195,8 +2195,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Det er forståelig at du holder oversikt når det å havne under noen har kjentes så truende."
     },
     "dp_empathic-affirmation-validation_case-michael_06": {
-      "text": "Når barnet mitt spør hvorfor jeg er sint, skammer jeg meg og føler meg fastlåst.",
-      "suggestion": "Selvsagt treffer skammen der; det viser hvor mye du bryr deg om å være den faren du vil være."
+      "text": "Når barnet mitt spør hvorfor jeg er sint, føler jeg meg som verdens verste far.",
+      "suggestion": "Det er klart det gjør vondt; skammen viser hvor mye du bryr deg om å ikke skremme barnet ditt."
     },
     "dp_empathic-affirmation-validation_case-michael_07": {
       "text": "Å smelle med døra føles fælt etterpå, men i øyeblikket slipper jeg å føle meg liten.",
@@ -2207,28 +2207,28 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når det å havne under noen kjennes truende, kan det å stå hardere på sitt føles som beskyttelse."
     },
     "dp_empathic-affirmation-validation_case-michael_09": {
-      "text": "Jeg hater at jeg trenger terapi; det føles som bevis på at jeg ikke klarer å håndtere mitt eget hjem.",
-      "suggestion": "Når styrke så lenge har betydd å klare ting alene, er det klart at hjelp kan kjennes blottstillende i stedet for lindrende."
+      "text": "Jeg hater at jeg trenger hjelp med dette; det får meg til å føle meg svak.",
+      "suggestion": "Når styrke så lenge har betydd å klare ting alene, gir det mening at hjelp kan kjennes blottstillende."
     },
     "dp_empathic-affirmation-validation_case-michael_10": {
       "text": "Etter at jeg eksploderer hjemme, ligger jeg våken og ser ansiktene deres for meg mens jeg hater meg selv.",
       "suggestion": "Ikke rart skammen holder deg våken; å se frykten deres ville gjort vondt for enhver som ønsker å være tryggere for familien sin."
     },
     "dp_empathic-affirmation-validation_case-jason_01": {
-      "text": "Å høre navnet mitt i et møte kjennes som om en lyskaster brått skrus på.",
-      "suggestion": "Det gir mening at alarmen går når det å bli lagt merke til har kjentes mer farlig enn velkomment."
+      "text": "Hver presentasjon på jobb får hendene mine til å skjelve, og etterpå føler jeg meg patetisk for at jeg bryr meg så mye.",
+      "suggestion": "Det er forståelig at presentasjoner kjennes blottstillende når det å bli sett har båret så mye skam; skjelvingen er angst, ikke nederlag."
     },
     "dp_empathic-affirmation-validation_case-jason_02": {
       "text": "Jeg holder blikket på gulvet så ingen får en grunn til å se på meg.",
-      "suggestion": "Å holde blikket nede gir mening som et langvarig forsøk på å slippe andres granskende blikk."
+      "suggestion": "Ikke rart blikket går mot gulvet når andres blikk har kjentes så farlig; den bevegelsen har prøvd å holde deg trygg."
     },
     "dp_empathic-affirmation-validation_case-jason_03": {
       "text": "Jeg later som jeg tekster så jeg har et sted å gjemme meg under småprat.",
-      "suggestion": "Den dekningen gir mening når vanlig småprat kjennes som å bli blottstilt."
+      "suggestion": "Det er forståelig at telefonen blir et skjul når vanlig småprat kjennes som å bli blottstilt."
     },
     "dp_empathic-affirmation-validation_case-jason_04": {
       "text": "Når folk ler høflig, antar jeg at de prøver å komme seg unna meg.",
-      "suggestion": "Den mistanken gir mening i en skam som venter avvisning før kontakt får en sjanse."
+      "suggestion": "Ikke rart høflig latter kjennes utrygt når skammen forventer avvisning før kontakt får en sjanse."
     },
     "dp_empathic-affirmation-validation_case-jason_05": {
       "text": "Komplimenter preller av; en del av meg vil tro på dem, men den mistenksomme delen vinner.",
@@ -2239,16 +2239,16 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Ikke rart du spiller det om igjen når tilhørighet kjennes så skjør; skammen prøver å hindre at du blir såret igjen."
     },
     "dp_empathic-affirmation-validation_case-jason_07": {
-      "text": "Trange rom gjør brystet stramt, og jeg leter etter døra.",
-      "suggestion": "Ikke rart trange rom får deg til å lete etter utganger når oppmerksomhet kjennes utrygt."
+      "text": "Jeg droppet enda en lunsj med teamet, og etterpå følte jeg meg patetisk som gjemte meg.",
+      "suggestion": "Ikke rart du blir skamfull etterpå; å unngå lunsjen er et forsøk på å beskytte deg mot en frykt som kjennes veldig ekte."
     },
     "dp_empathic-affirmation-validation_case-jason_08": {
       "text": "Jeg skanner hvert rom etter hvem som får til mer enn meg, og så føler jeg meg defekt.",
       "suggestion": "Sammenligningen gir mening som et forsøk på å finne plassen din, og den gjør vondt fordi skammen alltid plasserer deg nederst."
     },
     "dp_empathic-affirmation-validation_case-jason_09": {
-      "text": "Stemmen skjelver når jeg presenterer meg, og etterpå skammer jeg meg over at alle kan høre det.",
-      "suggestion": "Forståelig nok viser skjelvingen hvor blottstilt det øyeblikket kjennes, med så mye frykt for å bli dømt."
+      "text": "Hendene mine skjelver når jeg presenterer meg, og jeg føler meg dum som ikke klarer å kontrollere det.",
+      "suggestion": "Ikke rart skjelvingen gjør at du føler deg blottstilt; det handler om angst, ikke dumhet, og viser hvor mye det øyeblikket betyr."
     },
     "dp_empathic-affirmation-validation_case-jason_10": {
       "text": "Noen netter ligger jeg der og er sikker på at jeg alltid kommer til å være alene fordi jeg er for klein til å elskes.",
@@ -2271,8 +2271,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Selvsagt søker du liten, trygg varme når menneskelig trøst har kjentes farlig eller upålitelig."
     },
     "dp_empathic-affirmation-validation_case-laura_05": {
-      "text": "Selv på fine dager ser alt fortsatt grått ut, og jeg klandrer meg selv for at jeg ikke føler meg takknemlig.",
-      "suggestion": "Ikke rart selv gode dager ikke bare kan nå inn på kommando etter så mye avstengning for å overleve."
+      "text": "Jeg liker den nye leiligheten, men å pakke ut gamle bilder fikk meg til å sørge over hjemmet jeg egentlig aldri fikk ha.",
+      "suggestion": "Ikke rart bildene vekker sorg; å gå videre kan røre ved sorgen over det som manglet, ikke bare det som er nytt."
     },
     "dp_empathic-affirmation-validation_case-laura_06": {
       "text": "Berøring skremmer meg, selv når den er vennlig, og etterpå føler jeg meg ødelagt for å reagere sånn.",
@@ -2295,8 +2295,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Ikke rart hvile ikke kommer lett når en del av deg lærte å stå på vakt mot fare."
     },
     "dp_empathic-affirmation-validation_case-carlos_01": {
-      "text": "Ett skjevt blikk, og kjeven låser seg som om jeg må være klar.",
-      "suggestion": "Den raske beredskapen gir mening med en historie der respektløshet kunne bli til fare eller ydmykelse."
+      "text": "Å se nyheter om familier som min bli behandlet som trusler gjør meg så sint at jeg nesten ikke klarer å sitte stille.",
+      "suggestion": "Selvsagt reiser sinnet seg når nyhetene treffer verdighet, familie og den gamle frykten for å bli behandlet som mindreverdig."
     },
     "dp_empathic-affirmation-validation_case-carlos_02": {
       "text": "Hvis jeg ikke kommer inn sterk, tråkker folk over meg.",
@@ -2371,8 +2371,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Ikke rart skuffelse kjennes skremmende når kjærlighet har virket knyttet til å holde folk fornøyde."
     },
     "dp_empathic-affirmation-validation_case-nina_10": {
-      "text": "En del av meg tror at folk bare er glad i meg når jeg er nyttig for dem.",
-      "suggestion": "Forståelig nok kan kjærlighet kjennes betinget av å være nyttig når omsorg så lenge har vært knyttet til å være til nytte."
+      "text": "Sønnen min snakker om å verve seg, og jeg blir både stolt og livredd, og så får jeg skyldfølelse for at jeg ikke er modigere.",
+      "suggestion": "Selvsagt kan stolthet og frykt komme samtidig; kjærligheten til ham gjør motet hans viktig og det han risikerer nesten uutholdelig."
     },
     "dp_empathic-affirmation-validation_case-aisha_01": {
       "text": "Jeg fulgte med på døra mesteparten av timen for å være sikker på at du ikke drar.",
@@ -2400,7 +2400,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-aisha_07": {
       "text": "Når noen sier noe vennlig, hulker jeg som om jeg trenger det og får panikk som om det er en felle.",
-      "suggestion": "Hver reaksjon gir mening: Vennlighet treffer lengselen etter å bli holdt og frykten for at nærhet skal gjøre vondt."
+      "suggestion": "Det er forståelig at vennlighet treffer både lengselen etter å bli holdt og frykten for at nærhet skal gjøre vondt."
     },
     "dp_empathic-affirmation-validation_case-aisha_08": {
       "text": "Hvis du ser bort et sekund, føler jeg meg visket ut og blir rasende.",
@@ -2419,8 +2419,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Ikke rart fakta kjennes tryggere der; følelser kan svi som kritikk og få deg til å kjenne deg trengt opp i et hjørne."
     },
     "dp_empathic-affirmation-validation_case-david_02": {
-      "text": "Jeg vil ha anerkjennelse for alt jeg gjør; når jeg ikke får det, kjenner jeg raseri.",
-      "suggestion": "Selvsagt treffer det hardt når innsatsen din blir usett; sinne skyter opp der så mye av verdien din har vært knyttet til det du gjør."
+      "text": "Etter at jeg skremte kona mi, var jeg fortsatt rasende på henne for at hun presset meg, og så kom skammen fordi jeg vet hvordan det høres ut.",
+      "suggestion": "Ikke rart dette er vanskelig å si; raseriet kan være ekte uten at frykten du skapte blir noe mindre alvorlig."
     },
     "dp_empathic-affirmation-validation_case-david_03": {
       "text": "Jeg sammenligner meg med andre fedre og føler meg som en bløff.",
@@ -2459,8 +2459,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Å føle seg frakoblet gir mening etter så mye traume; nummenhet har vært en måte å holde det gående på."
     },
     "dp_empathic-affirmation-validation_case-marcus_02": {
-      "text": "Jeg lar TV-en stå på fordi stillheten slipper for mange tanker for nært innpå.",
-      "suggestion": "Å bruke lyd til å holde tankene på avstand gir mening når stillhet kan bringe altfor mye for nært innpå."
+      "text": "Jeg vet ikke hva jeg føler. Det er trykk, sinne og ingenting på samme tid, og jeg føler meg dum fordi jeg ikke har ord.",
+      "suggestion": "Det er forståelig at ordene blir vanskelige når nummenhet og trykk kommer samtidig; det å ikke vite er en del av overveldelsen, ikke et tegn på dumhet."
     },
     "dp_empathic-affirmation-validation_case-marcus_03": {
       "text": "Jeg sitter i bilen før jeg går inn fordi jeg ikke orker stillheten.",
@@ -2480,7 +2480,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-marcus_07": {
       "text": "Jeg holder leiligheten mørk fordi lyse rom kjennes som om de krever for mye av meg.",
-      "suggestion": "Å holde rommet dempet gir mening når verden allerede kjennes krevende og utrygg."
+      "suggestion": "Ikke rart det dempede rommet kjennes tryggere når verden allerede krever for mye og lyse rom kan kjennes blottstillende."
     },
     "dp_empathic-affirmation-validation_case-marcus_08": {
       "text": "Jeg husker ikke sist jeg lo og stolte på at det kunne vare.",
@@ -2495,20 +2495,20 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Ikke rart alene kan kjennes tryggere, gitt hva nærhet har kostet deg, selv om det er ensomt."
     },
     "dp_exploratory-questions_case-sara_01": {
-      "text": "Når jeg ser navnet hans dukke opp hvor som helst, synker magen og jeg føler meg liten.",
-      "suggestion": "Når magen synker, hvilken kvalitet har følelsen - tung, hul eller stram?"
+      "text": "Du skulle sett blikket hun ga meg; jeg følte meg så liten.",
+      "suggestion": "Hvordan kjennes det inni deg når du føler deg så liten?"
     },
     "dp_exploratory-questions_case-sara_02": {
       "text": "Under brunsjen sier jeg at det går bra, men halsen strammer seg før løgnen er ferdig.",
       "suggestion": "Når halsen strammer seg før du får svart, hvilken følelse prøver å ikke bli hørt?"
     },
     "dp_exploratory-questions_case-sara_03": {
-      "text": "Kveldene strekker seg ut etter middag, og jeg vasker den samme benken så stillheten ikke får tak i meg.",
-      "suggestion": "Når du ser for deg den stillheten etter middag, hvor merker du den først inni deg?"
+      "text": "Jeg ble sint for at han glemte bursdagen min, og så følte jeg meg teit som brydde meg.",
+      "suggestion": "Når du kaller deg selv teit for å bry deg, hvilken følelse ligger under det?"
     },
     "dp_exploratory-questions_case-sara_04": {
-      "text": "Jeg var nær ved å skrive unnskyld til ham ved midnatt, selv om jeg fortsatt ikke kan si hva jeg gjorde galt.",
-      "suggestion": "Når delen som vil unnskylde seg strekker seg etter telefonen, hva er den mest redd for at skal skje hvis den blir stille?"
+      "text": "Jeg vil spørre ham hvorfor han sluttet å prøve, men jeg sier til meg selv at det ikke er noen vits.",
+      "suggestion": "Når du ser for deg å spørre ham om det, hvilken følelse kommer først?"
     },
     "dp_exploratory-questions_case-sara_05": {
       "text": "Noen ganger sletter jeg gamle bilder og leter etter dem igjen før panikken legger seg.",
@@ -2535,16 +2535,16 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du ser for deg den kafeen, hvilken følelse kommer før du bestemmer deg for å gå over gaten?"
     },
     "dp_exploratory-questions_case-michael_01": {
-      "text": "Når noen retter på én detalj, skyter varmen opp i nakken før jeg rekker å tenke.",
-      "suggestion": "Rett før varmen stiger, hvilken følelse blinker gjennom brystet eller halsen?"
+      "text": "Når noen retter på én detalj, blir jeg sint og flau samtidig.",
+      "suggestion": "Hvor merker du blandingen av sinne og flauhet akkurat nå?"
     },
     "dp_exploratory-questions_case-michael_02": {
       "text": "Et sukk fra kona får meg til å stritte imot, som om hun allerede har bestemt at jeg tar feil.",
       "suggestion": "Når det sukket lander som en dom, hvor kjenner du først motstanden inni deg?"
     },
     "dp_exploratory-questions_case-michael_03": {
-      "text": "Etter at jeg eksploderer hjemme, får jeg et søkk i magen som jeg later som jeg ikke merker.",
-      "suggestion": "Hvis det søkket hadde en størrelse, form eller noen ord, hvordan ville det vært?"
+      "text": "Sjefen roste teamet, men ikke meg, og jeg klarte ikke å slutte å tenke på det.",
+      "suggestion": "Når du spiller om igjen at du ikke ble nevnt, hvilken følelse kommer tilbake?"
     },
     "dp_exploratory-questions_case-michael_04": {
       "text": "Jeg speider etter tegn på respektløshet i møterommet før jeg engang vet hvem som har kommet inn.",
@@ -2559,8 +2559,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Hvis stramheten i brystet kunne snakke, hva ville den sagt at den beskytter deg mot?"
     },
     "dp_exploratory-questions_case-michael_07": {
-      "text": "Jeg dobbeltsjekker hver eneste e-post så ingen kan ta meg på en feil og få meg til å se dum ut.",
-      "suggestion": "Når du ser for deg at du sjekker en gang til, hvilken følelse ligger under frykten for å se dum ut?"
+      "text": "Jeg sa til kona mi at det gikk fint, men jeg var fortsatt sint flere timer etterpå.",
+      "suggestion": "Når sinnet blir værende i flere timer, hvor merker du det mest?"
     },
     "dp_exploratory-questions_case-michael_08": {
       "text": "Jeg smeller med dører hjemme så ingen hører meg si at jeg ble såret.",
@@ -2583,12 +2583,12 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du hører skjelvingen i stemmen din, hvilken følelse kommer mot deg først?"
     },
     "dp_exploratory-questions_case-jason_03": {
-      "text": "Jeg skriver en helt vanlig melding, leser den ti ganger og sletter den før jeg kan virke for trengende.",
-      "suggestion": "I øyeblikket før du sletter den, hva er du redd meldingen skal avsløre om deg?"
+      "text": "En venn svarte ikke, og jeg fortsatte å lure på hva jeg hadde gjort feil.",
+      "suggestion": "Når du lurer på hva du har gjort feil, hvilken følelse følger med det spørsmålet?"
     },
     "dp_exploratory-questions_case-jason_04": {
-      "text": "Hvis noen ler på andre siden av rommet, føler jeg meg låst fast, som om vitsen har funnet meg.",
-      "suggestion": "Når du kjenner at latteren finner deg, hvor lander den fastlåste følelsen?"
+      "text": "Hvis noen ler på andre siden av rommet, antar jeg at det handler om meg.",
+      "suggestion": "Hva skjer inni deg når du tror latteren handler om deg?"
     },
     "dp_exploratory-questions_case-jason_05": {
       "text": "Jeg holder blikket på bordet så folk ikke skal se hvor klein jeg føler meg.",
@@ -2603,8 +2603,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når oppmerksomheten går mot utgangen, hva merker du at du frykter skal skje med deg?"
     },
     "dp_exploratory-questions_case-jason_08": {
-      "text": "Når noen gir meg et kompliment, ler jeg det bort før det rekker å treffe noe.",
-      "suggestion": "Når komplimentet begynner å nå inn, hva stopper det fra å lande i deg?"
+      "text": "Noen smilte til meg i gangen, og jeg klarte ikke å skjønne om det var vennlig eller kleint.",
+      "suggestion": "Når du ikke vet hva smilet betyr, hva legger du merke til inni deg?"
     },
     "dp_exploratory-questions_case-jason_09": {
       "text": "Jeg sier at jeg er opptatt før småprat kan avsløre hvor klein jeg er.",
@@ -2615,8 +2615,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når søndagstyngden kommer, hva sier den om hvor du hører til?"
     },
     "dp_exploratory-questions_case-laura_01": {
-      "text": "De fleste dager føles dempet, som om jeg ser på livet bak tykt glass.",
-      "suggestion": "Når du legger merke til det tykke glasset mellom deg og livet, hvor er avstanden sterkest?"
+      "text": "De fleste dager føles dempet, og jeg klarer ikke vite om jeg er trist eller bare nummen.",
+      "suggestion": "Når du sier dempet, hvor merker du det i deg selv?"
     },
     "dp_exploratory-questions_case-laura_02": {
       "text": "Hevede stemmer i gangen får det til å synke i magen og skuldrene til å stramme seg.",
@@ -2639,8 +2639,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du kjenner den morgenvakten, hvilket sted i deg er mest spent?"
     },
     "dp_exploratory-questions_case-laura_07": {
-      "text": "Gode nyheter lander flatt, som om de tilhører noen som faktisk kan kjenne noe.",
-      "suggestion": "Når de gode nyhetene lander flatt, hva merker du mellom deg og følelsen?"
+      "text": "Gode nyheter lander flatt, og jeg skjønner ikke hvorfor jeg ikke klarer å glede meg.",
+      "suggestion": "Hva legger du merke til inni deg når gode nyheter lander flatt?"
     },
     "dp_exploratory-questions_case-laura_08": {
       "text": "Noen ganger åpner en sang en sprekk, og tristhet kommer gjennom før jeg rekker å lukke den.",
@@ -2671,8 +2671,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du ser det rykket for deg nå, hvilken følelse er sterkest under varmen?"
     },
     "dp_exploratory-questions_case-carlos_05": {
-      "text": "Ro føles farlig, som å senke garden der folk kan slå til.",
-      "suggestion": "Når ro kjennes som å senke rustningen, hvilket sårbart sted virker det som den blottstiller?"
+      "text": "Ro føles farlig, som om noen kan utnytte det hvis jeg slapper av.",
+      "suggestion": "Hva skjer inni deg når ro begynner å føles farlig?"
     },
     "dp_exploratory-questions_case-carlos_06": {
       "text": "Jeg ødelegger ting fordi bølgen i meg kjennes for farlig til å bli igjen i hendene.",
@@ -2687,8 +2687,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når manglende respekt lander som et slag, hvilken følelse dukker opp sekundet før varmen?"
     },
     "dp_exploratory-questions_case-carlos_09": {
-      "text": "Etter en krangel klemmer jeg rattet til knokene blir hvite.",
-      "suggestion": "Hvis hendene kunne snakke fra det grepet, hva ville de sagt at de holder fast i?"
+      "text": "Etter en krangel holder jeg så hardt i rattet at jeg ikke klarer å slippe.",
+      "suggestion": "Hva legger du merke til i hendene når du holder så hardt i rattet?"
     },
     "dp_exploratory-questions_case-carlos_10": {
       "text": "Det jeg vil mest, er at familien min skal føle seg trygg med meg.",
@@ -2711,8 +2711,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når det ordet lander, hvor viser skammen seg i deg?"
     },
     "dp_exploratory-questions_case-nina_05": {
-      "text": "Jeg sier unnskyld før jeg ber om hjelp, som om behovet mitt allerede tar for mye plass.",
-      "suggestion": "Når behovet ditt kjennes for stort for rommet, hvilken følelse får du mot deg selv?"
+      "text": "Jeg sier unnskyld før jeg ber om hjelp, som om behovet mitt allerede er for mye.",
+      "suggestion": "Hvilken følelse får du mot deg selv når behovet ditt kjennes for stort?"
     },
     "dp_exploratory-questions_case-nina_06": {
       "text": "Utpå ettermiddagen hamrer hodet, og da skjønner jeg at jeg har svelget egne behov hele dagen.",
@@ -2735,8 +2735,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du ser for deg krasjet, hvilken følelse slipper endelig gjennom?"
     },
     "dp_exploratory-questions_case-aisha_01": {
-      "text": "Hvis et svar ikke kommer etter at jeg har åpnet meg, føles det som om jeg faller.",
-      "suggestion": "Når fallet begynner, hvor merker du det først?"
+      "text": "Hvis et svar ikke kommer etter at jeg har åpnet meg, får jeg panikk og sjekker telefonen om og om igjen.",
+      "suggestion": "Hvor merker du først panikken mens du fortsetter å sjekke?"
     },
     "dp_exploratory-questions_case-aisha_02": {
       "text": "Jeg går fra «ikke forlat meg» til «la meg være i fred» på sekunder.",
@@ -2759,8 +2759,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du ser for deg en avlysning, hva er det første som stikker i deg?"
     },
     "dp_exploratory-questions_case-aisha_07": {
-      "text": "Vennlighet får meg til å gråte og ville løpe før jeg rekker å stole på den.",
-      "suggestion": "Når vennlighet berører deg, hvilken retning trekker sterkest først: å bli nær eller å få avstand?"
+      "text": "Vennlighet får meg til å gråte, og så vil jeg komme meg bort fra den.",
+      "suggestion": "Hva er den første følelsen som kommer når vennlighet når inn?"
     },
     "dp_exploratory-questions_case-aisha_08": {
       "text": "Jeg tester folk etter at de kommer nær, for å se om de bryr seg nok til å bli.",
@@ -2783,12 +2783,12 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du legger merke til det hule stedet, hva virker det mest som det trenger fra deg?"
     },
     "dp_exploratory-questions_case-david_03": {
-      "text": "Jeg glatter skjorta og ramser opp prestasjoner når jeg føler meg dømt av kona mi.",
-      "suggestion": "Når du glatter skjorta og ramser opp prestasjoner, hvilken følelse prøver du å ikke vise?"
+      "text": "Jeg begynner å ramse opp prestasjoner når jeg føler meg dømt av kona mi.",
+      "suggestion": "Hvilken følelse prøver du å ikke vise når du ramser opp prestasjoner?"
     },
     "dp_exploratory-questions_case-david_04": {
-      "text": "Ros fra sjefen renner fort ut igjen, selv om en del av meg vil ha den.",
-      "suggestion": "Hvis ett kompliment ble værende et sekund lenger, hvor ville det landet?"
+      "text": "Ros fra sjefen føles godt i et sekund, og så trenger jeg mer.",
+      "suggestion": "Hva legger du merke til inni deg rett etter at rosen forsvinner?"
     },
     "dp_exploratory-questions_case-david_05": {
       "text": "Å innrømme at jeg tar feil, får ansiktet til å brenne som om alle kan se gjennom meg.",
@@ -2827,8 +2827,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du ser for deg gangene mellom hyllene, hvor samler spenningen seg først?"
     },
     "dp_exploratory-questions_case-marcus_04": {
-      "text": "Stillheten i leiligheten blir tung etter mørkets frembrudd, som om rommet holder pusten.",
-      "suggestion": "Når rommet kjennes som om det holder pusten, hvilken følelse rører seg i deg?"
+      "text": "Stillheten i leiligheten blir tung etter mørkets frembrudd.",
+      "suggestion": "Hvilken følelse kommer når leiligheten blir stille etter mørkets frembrudd?"
     },
     "dp_exploratory-questions_case-marcus_05": {
       "text": "Jeg sitter i bilen etter jobb for å slippe å gå inn i den tomme leiligheten.",
@@ -2839,8 +2839,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "I det lave lyset med telefonen ubesvart, hva beskytter avstanden i deg?"
     },
     "dp_exploratory-questions_case-marcus_07": {
-      "text": "Gode øyeblikk kjennes uvirkelige, som om jeg ser på varme gjennom et låst vindu.",
-      "suggestion": "Når varmen er der, men låst borte, hvor kjenner du hindringen inni deg?"
+      "text": "Gode øyeblikk kjennes uvirkelige, som om de ikke hører til meg.",
+      "suggestion": "Hva legger du merke til inni deg når et godt øyeblikk kjennes uvirkelig?"
     },
     "dp_exploratory-questions_case-marcus_08": {
       "text": "Plutselige lyder i trappeoppgangen får meg til å skvette, og så speider jeg etter fare.",
@@ -2851,20 +2851,20 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du sier at du ikke husker sist du lo ordentlig, hvilken følelse kommer nærmest overflaten?"
     },
     "dp_exploratory-questions_case-marcus_10": {
-      "text": "En del av meg sier at jeg har det best alene, fordi nærhet alltid krever betaling senere.",
-      "suggestion": "Når den delen advarer om at nærhet har en pris, hvilken fare ser den for seg?"
+      "text": "Jeg sier til meg selv at jeg har det best alene, fordi nærhet alltid koster noe.",
+      "suggestion": "Hvilken fare ser du for deg når nærhet kjennes som noe som koster?"
     },
     "dp_providing-treatment-rationale_case-sara_01": {
-      "text": "Jeg er redd for at det å snakke om følelser får meg til å spinne. Kan vi ikke bare holde det positivt?",
-      "suggestion": "Det gir mening å være redd for det. I denne utforskingen går vi sakte og trygt; når vi setter ord på litt av følelsen, roer den seg, og nettene blir mindre overveldende."
+      "text": "Burde jeg ikke bare fokusere på positive tanker i stedet for å grave i hvor trist jeg er?",
+      "suggestion": "Positive tanker kan hjelpe et øyeblikk, og samtidig trenger tristheten et sted å gå. Hvis vi lytter til den i små, trygge doser, kan den vise hva som trenger trøst eller kontakt i stedet for å komme sterkere tilbake om kvelden."
     },
     "dp_providing-treatment-rationale_case-sara_02": {
       "text": "Hvorfor fortsetter du å spørre hva jeg føler når jeg bare trenger en plan for å komme meg gjennom uka?",
       "suggestion": "En plan virker bedre når den passer til følelsen som velter uka. Vi lytter til sorgen først fordi den sier noe om du trenger trøst, kontakt, hvile eller en grense før vi velger steg."
     },
     "dp_providing-treatment-rationale_case-sara_03": {
-      "text": "Hvis jeg begynner å gråte over ham her, blir jeg ikke bare sittende fast i det hele uka?",
-      "suggestion": "Ikke alt på én gang. Vi berører en liten del og kommer tilbake, slik at sorgen holder seg innenfor rekkevidde. Tårene viser hva som trenger trøst, så sorgen kan bevege seg i stedet for å sluke hele uka."
+      "text": "Jeg blir flau over at jeg gråter over dette igjen. Hvordan skal det å gi tårene plass hjelpe meg videre?",
+      "suggestion": "Det gir mening at det er flaut. Vi prøver ikke å holde deg i gråten; vi bruker tårene som et tegn på hva som fortsatt trenger omsorg, fordi det hjelper sorgen å bevege seg i stedet for å bli skjult og dra deg tilbake."
     },
     "dp_providing-treatment-rationale_case-sara_04": {
       "text": "Hvis avledning får meg gjennom de stille timene, hvorfor skal vi rote med det?",
@@ -3031,8 +3031,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Dette handler ikke om å ta fra deg brodden. Å skille beskyttelse fra eksplosjon betyr noe fordi folk kan vite hvor grensen går, mens sønnen din får stødighet i stedet for frykt."
     },
     "dp_providing-treatment-rationale_case-carlos_05": {
-      "text": "Hva om jeg eksploderer uansett etter at vi har snakket om alt dette?",
-      "suggestion": "Da lærer vi av akkurat øyeblikket der det skjedde. Hvert utbrudd finjusterer kartet, så du fanger det tidligere og reparerer raskere neste gang."
+      "text": "Hvis sinne er det som beskytter meg, hvorfor skal jeg bruke terapi på å kjenne det som ligger under?",
+      "suggestion": "Sinne har beskyttet deg, og det har også skremt folk du er glad i. Vi ser under sinnet fordi det hjelper deg å beholde den beskyttende klarheten uten at eksplosjonen bestemmer for deg."
     },
     "dp_providing-treatment-rationale_case-carlos_06": {
       "text": "Hvordan skal pust bety noe når jeg allerede er to sekunder fra å smelle?",
@@ -3151,12 +3151,12 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Teori hjelper bare hvis den når øyeblikket der atferden endres. Vi fokuserer på følelser fordi skam og trussel er der valgene dine snevres inn; når du fanger dem, får du mer rom til å handle annerledes."
     },
     "dp_providing-treatment-rationale_case-david_05": {
-      "text": "Jeg hater å føle meg liten når jeg tar feil; hvordan hjelper det å sitte med det?",
-      "suggestion": "Hvis du kan tåle den brenningen i noen sekunder, hjelper det deg å eie feilen før forsvaret tar over. Det er det som gjør reparasjon raskere og lederskapet stødigere."
+      "text": "Følelsene mine er problemet. Hvorfor skal vi fokusere på det som ødelegger alt?",
+      "suggestion": "Reaksjonene gjør skade, og nettopp derfor senker vi tempoet. Å fange skam eller trussel før det styrer tonen din hjelper følelser å bli informasjon du kan bruke, ikke en kraft som tar over rommet."
     },
     "dp_providing-treatment-rationale_case-david_06": {
-      "text": "Hvordan gjør det meg til en bedre leder å snakke om skam når folk trenger beslutninger?",
-      "suggestion": "Skamarbeid er praktisk fordi skam ofte gjør tilbakemelding til trussel. Når du fanger den brenningen tidligere, hjelper det deg å høre, beslutte og reparere fra stødighet i stedet for forsvar."
+      "text": "Jeg trenger sinnekontroll, ikke en dypdykk i hva jeg føler under det.",
+      "suggestion": "Sinnekontroll virker best når den starter før eksplosjonen. Å se under sinnet hjelper deg å fange første støt av skam, trussel eller frykt, så kontrollen begynner tidligere enn når du må tvinge deg rolig etter at skaden har skjedd."
     },
     "dp_providing-treatment-rationale_case-david_07": {
       "text": "Kan vi hoppe over barndomsprat og holde oss til det som skjer nå?",
@@ -3183,8 +3183,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Det er nettopp derfor vi jobber i små slurker: jording først, berøre én kant, komme tilbake. Tempoet hjelper deg å beholde kontrollen mens minnene blir mindre alene og mindre eksplosive."
     },
     "dp_providing-treatment-rationale_case-marcus_03": {
-      "text": "Jeg føler ingenting de fleste dager, så jeg ser ikke hva det er å jobbe med.",
-      "suggestion": "Nummenhet er ikke en blindvei; den er beskyttelse. Vi leter etter bittesmå signaler rundt kantene, fordi det lar følelse komme tilbake i mengder du kan tåle."
+      "text": "Følelser er problemet. Når jeg kjenner dem, drikker jeg, stenger av eller mister flere dager.",
+      "suggestion": "Den erfaringen er nettopp grunnen til at vi går sakte. Vi skal ikke åpne alt; vi bygger nok trygghet til at følelser kan bli signaler du tåler, ikke kriser du må bedøve eller flykte fra."
     },
     "dp_providing-treatment-rationale_case-marcus_04": {
       "text": "Hvorfor legge merke til vaktsignalene når jeg er på vakt hele tiden?",
@@ -3223,8 +3223,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Stramheten bærer ordene du holder tilbake, kanskje sorgen som ikke trygt får komme ut som «det går ikke bra»."
     },
     "dp_empathic-explorations_case-sara_03": {
-      "text": "Kveldene drar seg ut etter middag, og jeg begynner å vaske ting som allerede er rene.",
-      "suggestion": "Vaskingen gir hendene noe å gjøre mens de tomme timene åpner seg, kanskje så ensomheten ikke får legge seg for tett på."
+      "text": "Jeg føler meg fortapt etter bruddet, som om jeg ikke vet hva jeg skal gjøre med kveldene.",
+      "suggestion": "Du kjenner deg fortapt om kveldene nå. Vi kan senke tempoet rundt den tomme tiden og merke hva som kjennes vanskeligst der."
     },
     "dp_empathic-explorations_case-sara_04": {
       "text": "Jeg skrev «unnskyld» til ham tre ganger, og så innså jeg at jeg ikke engang vet hva jeg unnskyldte meg for.",
@@ -3243,8 +3243,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Det fallet bærer øyeblikket der tapet kommer tilbake, som om hele deg må lære slutten på nytt hver morgen."
     },
     "dp_empathic-explorations_case-sara_08": {
-      "text": "Jeg synes det er flaut at jeg fortsatt begynner å gråte når alle andre mener jeg burde ha gått videre.",
-      "suggestion": "Flauheten ligger over en sorg som ikke har klart å følge alle andres tidsplan."
+      "text": "Jeg er trist, og så blir jeg flau over at jeg fortsatt snakker om det.",
+      "suggestion": "Tristheten er her, og flauheten kommer rett oppå. Vi kan gi begge litt plass og merke hvilken som er nærmest."
     },
     "dp_empathic-explorations_case-sara_09": {
       "text": "Når jeg ser par holde hender, verker brystet, og plutselig føler jeg meg barnslig for å ville ha det.",
@@ -3267,8 +3267,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Den gropen i magen ser ut til å romme noe som er vanskelig å møte etter at sinnet har lagt seg."
     },
     "dp_empathic-explorations_case-michael_04": {
-      "text": "Når jeg tenker på å be om unnskyldning, kjenner jeg meg liten før jeg har sagt et ord.",
-      "suggestion": "Unnskyldningen betyr ikke bare reparasjon; det virker som reparasjon vikles sammen med å bli gjort liten."
+      "text": "Noen ganger får jeg lyst til å kaste telefonen etter en jobbmelding, og så føler jeg meg latterlig.",
+      "suggestion": "Meldingen gir en rask trang til å kaste noe, og så kommer skammen etterpå. Vi kan bremse det første treffet og merke hvordan det kjentes."
     },
     "dp_empathic-explorations_case-michael_05": {
       "text": "Et lite sukk fra kona mi treffer som om dommen allerede er falt, og jeg fyrer meg opp før jeg skjønner hvorfor.",
@@ -3291,8 +3291,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Gjennomgangen leter liksom etter øyeblikket der du kunne ha stoppet det, med skammen fortsatt våken ved siden av deg."
     },
     "dp_empathic-explorations_case-michael_10": {
-      "text": "Når jeg hører min egen stemme bli skarp, får jeg panikk for at jeg blir som faren min.",
-      "suggestion": "Den skarpe stemmen ser ut til å trekke frykt og sorg rett inn i raseriet."
+      "text": "Jeg vil at sønnen min skal føle seg trygg rundt meg, og det strammer seg i halsen når jeg sier det.",
+      "suggestion": "Ønsket om at sønnen din skal føle seg trygg betyr mye, og halsen strammer seg mens du sier det. La den stramheten få litt plass og se hva den holder igjen."
     },
     "dp_empathic-explorations_case-jason_01": {
       "text": "Når det er min tur til å snakke, strammer halsen seg og hodet blir blankt.",
@@ -3303,8 +3303,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Ønsket om å rekke ut er der, og så ser ydmykelsen ut til å skylle inn og viske det bort."
     },
     "dp_empathic-explorations_case-jason_03": {
-      "text": "Når noen gir meg et kompliment, trekker jeg på skuldrene som om det ikke er noe, men jeg tenker på det i timevis.",
-      "suggestion": "Skuldertrekket beskytter deg mot å la det bety noe, mens en annen del fortsetter å kretse rundt muligheten for at det kanskje betyr noe."
+      "text": "Jeg ble invitert i bursdag, og jeg ble både glad og redd.",
+      "suggestion": "Det er både glede og frykt der. Vi kan holde begge et øyeblikk og merke hvilken som er lettest å slippe til."
     },
     "dp_empathic-explorations_case-jason_04": {
       "text": "Hvis jeg møter blikket til noen for lenge, kjennes det som om de oppdager alt det keitete i meg.",
@@ -3331,8 +3331,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Telefonen gir deg dekning, mens blankheten under ser ut til å bære frykten for å bli sett."
     },
     "dp_empathic-explorations_case-jason_10": {
-      "text": "På søndagskvelder drøyer jeg med å svare venner til det kjennes for sent til å bety noe.",
-      "suggestion": "Drøyingen rommer både ønsket om kontakt og forventningen om at den glipper før du får tak i den."
+      "text": "Jeg følte meg ensom på søndag, men jeg ignorerte også to meldinger.",
+      "suggestion": "Ensomheten er der, og samtidig trekker du deg unna meldingene. Vi kan være nær den spenningen og merke hva hver side prøver å gjøre."
     },
     "dp_empathic-explorations_case-laura_01": {
       "text": "De fleste dager er flate, men hvis tristhet flimrer, stenger jeg den ned før den brer seg.",
@@ -3575,364 +3575,364 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Det å være alene høres beskyttende ut, som om det prøver å spare deg for fallet som kommer etter håp."
     },
     "dp_empathic-evocations_case-sara_01": {
-      "text": "Etter middag drar kvelden seg ut, og leiligheten kjennes for stor for én person.",
-      "suggestion": "Etter middag virker rommene som om de strekker seg, med altfor mye plass rundt én ensom kropp."
+      "text": "Etter middag merker jeg hvor stille leiligheten er, og så begynner jeg å sjekke mobilen igjen.",
+      "suggestion": "Stillheten legger seg rundt deg etter middag, og mobilen blir det lille stedet der han fortsatt kanskje kan dukke opp."
     },
     "dp_empathic-evocations_case-sara_02": {
-      "text": "Jeg holder den muntre stemmen gående, men under kjennes brystet hult.",
-      "suggestion": "En lys stemme lagt over et hult bryst, som et smil over en vond klump i brystet."
+      "text": "Jeg sier til folk at det går bra, men jeg kjenner meg flat når jeg sier det.",
+      "suggestion": "Det går bra kommer glatt ut, mens noe under har blitt blekt og stille."
     },
     "dp_empathic-evocations_case-sara_03": {
-      "text": "Jeg åpnet skapet for å hente en genser, og jakken hans kom mot meg som en bølge.",
-      "suggestion": "Blikket fester seg i jakken, og hele bølgen av ham skyller tilbake."
+      "text": "Jeg fant jakken hans i skapet og ble stående der lenger enn det ga mening.",
+      "suggestion": "Den jakken stopper deg i døråpningen, en liten bit av ham som trekker hele tapet tilbake i rommet."
     },
     "dp_empathic-evocations_case-sara_04": {
-      "text": "Jeg våkner og glemmer det et sekund, så smeller det tilbake.",
-      "suggestion": "Det ene lyse sekundet, og så slår tyngden igjen som en dør."
+      "text": "Noen morgener glemmer jeg det et sekund, og så husker jeg at vi ikke er sammen lenger.",
+      "suggestion": "Det er det ene klare sekundet, og så lander bruddet tilbake på deg som en tyngde i senga."
     },
     "dp_empathic-evocations_case-sara_05": {
-      "text": "Når venner spør hvordan det går, trekker jeg på skuldrene, men halsen snører seg før jeg rekker å svare.",
-      "suggestion": "Skuldertrekket sier at det går fint, mens halsen lukker seg rundt svaret."
+      "text": "Når venner spør hvordan det går, svarer jeg kort og bytter tema.",
+      "suggestion": "Det korte svaret lukker døra raskt, mens det egentlige svaret står trangt i halsen."
     },
     "dp_empathic-evocations_case-sara_06": {
-      "text": "Jeg scroller sent på kvelden til øynene brenner, som om lyset kan holde den tomme siden av senga unna.",
-      "suggestion": "Det blå lyset holder den tomme senga unna en stund, øynene brenner mens ensomheten venter rett utenfor skjermen."
+      "text": "Jeg blir sittende på mobilen sent fordi det er vanskelig å legge seg nå.",
+      "suggestion": "Skjermen blir et lite nattlys mot den tomme siden av senga, og holder den mørke følelsen akkurat utenfor rekkevidde."
     },
     "dp_empathic-evocations_case-sara_07": {
-      "text": "Sangen vår kom på i en butikk, og plutselig ble knærne myke midt i gangen.",
-      "suggestion": "De første tonene treffer midt i butikkgangen, og beina svikter under deg."
+      "text": "En sang kom på i en butikk, og jeg måtte gå ut før jeg begynte å gråte.",
+      "suggestion": "De første tonene finner deg midt i butikkgangen, og plutselig står sorgen der under butikklyset."
     },
     "dp_empathic-evocations_case-sara_08": {
-      "text": "Jeg tenker stadig at hvis jeg var annerledes, ville jeg ikke vært alene.",
-      "suggestion": "Det lander som en dom over verdien din – tung og ubarmhjertig."
+      "text": "Jeg tenker stadig at jeg kanskje gjorde noe galt, men jeg finner ikke ut hva.",
+      "suggestion": "Tankene leter etter feilen, som om de bare kan finne den løse tråden, vil hele bruddet gi mening."
     },
     "dp_empathic-evocations_case-sara_09": {
-      "text": "Noen ganger sitter jeg på gulvet og holder rundt knærne bare for å føle meg holdt.",
-      "suggestion": "Krøllet rundt deg selv, en liten sirkel av varme i et kaldt rom."
+      "text": "Noen ganger setter jeg meg på gulvet i stedet for å legge meg.",
+      "suggestion": "Gulvet blir stedet du folder deg sammen når senga kjennes for åpen og for bred."
     },
     "dp_empathic-evocations_case-sara_10": {
-      "text": "Når du er snill, stirrer jeg ned i teppet fordi varme kjennes for sterkt.",
-      "suggestion": "Vennligheten kommer inn som skarpt lys, og blikket faller ned i teppet for å dempe det."
+      "text": "Når du er snill mot meg, blir jeg brydd og ser bort.",
+      "suggestion": "Vennligheten kommer nær, nesten for varm å ta inn, så blikket faller til tryggere grunn."
     },
     "dp_empathic-evocations_case-michael_01": {
-      "text": "En korrigering foran teamet får varmen til å krype opp i ansiktet før jeg rekker å si noe.",
-      "suggestion": "Varmen kryper opp i ansiktet, som om hvert blikk blir et søkelys på feilen."
+      "text": "Når noen korrigerer meg foran teamet, blir jeg varm og slutter å høre etter.",
+      "suggestion": "Varmen skyter opp, som om rommet snevrer seg inn til ett skarpt merke på deg."
     },
     "dp_empathic-evocations_case-michael_02": {
-      "text": "Jeg går inn i møter allerede spent, og venter på den første feilen som beviser at jeg er omgitt av idioter.",
-      "suggestion": "Du går inn rustet og skannende, klar for feilen som skal bekrefte at faren allerede er i rommet."
+      "text": "Jeg går inn i møter og forventer at folk skal rote det til, og jeg hater at jeg gjør det.",
+      "suggestion": "Du kommer inn allerede i spenn, som om en del av deg står vakt ved døra før noen har sagt noe."
     },
     "dp_empathic-evocations_case-michael_03": {
-      "text": "Klokka fem verker kjeven etter å ha bitt tilbake alt det skarpe jeg ville si.",
-      "suggestion": "Verken bærer en hel dag med skarpe ord holdt bak tennene."
+      "text": "På slutten av dagen verker kjeven, og da skjønner jeg at jeg har holdt tilbake kommentarer.",
+      "suggestion": "Kjeven bærer hele dagen, låst rundt hver skarpe setning du måtte svelge."
     },
     "dp_empathic-evocations_case-michael_04": {
-      "text": "Jeg smeller, og etterpå sitter skammen på skuldrene som våt sement.",
-      "suggestion": "Etter smellet legger skammen seg over skuldrene, våt og tung, og stivner der."
+      "text": "Når jeg har smelt, blir jeg flau etterpå, men jeg prøver mest å ikke tenke på det.",
+      "suggestion": "Flauheten blir liggende der etterpå, tung og våt, mens du prøver å gå utenom den."
     },
     "dp_empathic-evocations_case-michael_05": {
-      "text": "Når kona mi sukker, treffer det som en lusing jeg burde ha sett komme.",
-      "suggestion": "Det lille sukket lander med svien fra en lusing, som en dom som krysser rommet før ordene kommer."
+      "text": "Når kona mi sukker, går jeg ut fra at hun dømmer meg.",
+      "suggestion": "Det lille sukket kan krysse rommet som en anklage, og systemet ditt spenner seg før hun har sagt et ord."
     },
     "dp_empathic-evocations_case-michael_06": {
-      "text": "Når noen sier «ro deg ned», tenner det en lunte før jeg skjønner at jeg holder den.",
-      "suggestion": "De ordene treffer lunten, og smellet er allerede på vei gjennom deg før du rekker å se det."
+      "text": "Hvis noen sier ro deg ned, blir jeg sintere med en gang.",
+      "suggestion": "De to ordene tenner fyrstikken, og ilden er i gang før du rekker å vite hva som ble antent."
     },
     "dp_empathic-evocations_case-michael_07": {
-      "text": "Når jeg ikke vet svaret, synker magen som om jeg er i ferd med å bli avslørt.",
-      "suggestion": "Å ikke vite sender magen i fritt fall, som om gulvet svikter under følelsen av å være kompetent."
+      "text": "Når jeg ikke vet svaret, føler jeg meg blottstilt.",
+      "suggestion": "Å ikke vite åpner et nakent sted, som om all kompetansen du støtter deg på mister dekning et øyeblikk."
     },
     "dp_empathic-evocations_case-michael_08": {
-      "text": "Jeg smeller igjen dører fordi det føles bedre enn å la meg kjenne meg liten.",
-      "suggestion": "Det store smellet er der for å dekke over det lille stikket inni."
+      "text": "Noen ganger smeller jeg med dører fordi jeg ikke vet hva annet jeg skal gjøre med følelsen.",
+      "suggestion": "Døra tar følelsen for deg, høyt nok til å dekke det mindre stikket under."
     },
     "dp_empathic-evocations_case-michael_09": {
-      "text": "Når jeg ser for meg å be om unnskyldning først, smaker det rust i munnen.",
-      "suggestion": "Unnskyldningen blir metallisk og bitter, som å svelge en munnfull nederlag."
+      "text": "Å tenke på å si unnskyld først får meg til å føle meg svak.",
+      "suggestion": "Unnskyldningen kjennes som å gå ned på lavere grunn, med alle andre plutselig høyere rundt deg."
     },
     "dp_empathic-evocations_case-michael_10": {
-      "text": "Om natten spiller jeg av min egen stemme på kjøkkenet, og kjeven slipper ikke taket.",
-      "suggestion": "Huset er stille, men kjeven din er fortsatt i kampen, låst rundt det som skjedde."
+      "text": "Om natten spiller jeg av krangelen og hører hvor skarp jeg hørtes ut.",
+      "suggestion": "Huset blir stille, men din egen stemme fortsetter å runge på kjøkkenet, fortsatt skarp etter at krangelen er over."
     },
     "dp_empathic-evocations_case-jason_01": {
-      "text": "Når det er min tur, høres navnet mitt fjernt ut, og leppene blir numne.",
-      "suggestion": "Idet navnet lander, blir leppene numne og rommet trekker seg unna."
+      "text": "Når det er min tur i et møte, mister jeg tråden i det jeg skulle si.",
+      "suggestion": "Øyeblikket vender seg mot deg, og setningen glipper unna som om rommet trekker den bort."
     },
     "dp_empathic-evocations_case-jason_02": {
-      "text": "Hendene svetter under bordet, og jeg klemmer dem mellom knærne så ingen skal se det.",
-      "suggestion": "De svette hendene klemmes ut av syne, som om til og med hendene kan avsløre deg."
+      "text": "Hendene mine svetter under bordet, så jeg skjuler dem.",
+      "suggestion": "Til og med hendene kjennes som om de kan avsløre deg, så de forsvinner under bordet før noen ser."
     },
     "dp_empathic-evocations_case-jason_03": {
-      "text": "Jeg øver foran speilet til ordene høres greie ut, og så fryser jeg likevel.",
-      "suggestion": "Alle de innøvde ordene, og så legger isen seg over hele setningen før den slipper ut."
+      "text": "Jeg øver på hva jeg skal si, men når folk ser på meg, fryser jeg.",
+      "suggestion": "Alle de innøvde ordene står klare, og så lander blikkene på deg og alt låser seg bak et lag is."
     },
     "dp_empathic-evocations_case-jason_04": {
-      "text": "Hvis noen ler på andre siden av rommet, rykker magen til som om de har tatt meg i å gjøre noe galt.",
-      "suggestion": "Latteren lander som et lite støt, og plutselig kjennes rommet rettet mot deg."
+      "text": "Hvis folk ler i nærheten, antar jeg at jeg gjorde noe rart.",
+      "suggestion": "Latteren går gjennom rommet og peker seg mot deg før du vet hva den handlet om."
     },
     "dp_empathic-evocations_case-jason_05": {
-      "text": "Når oppmerksomheten svinger mot meg, synker jeg ned i stolen som om jeg kan forsvinne inn i stoffet.",
-      "suggestion": "Stolen blir noe du kan forsvinne inn i idet søkelyset svinger mot deg."
+      "text": "Når oppmerksomheten vender seg mot meg, prøver jeg å ta mindre plass.",
+      "suggestion": "Kroppen begynner å gjøre seg mindre, leter etter en måte å være til stede på uten å bli sett."
     },
     "dp_empathic-evocations_case-jason_06": {
-      "text": "Komplimenter glir av meg før jeg får tak i dem, som regn på et vindu.",
-      "suggestion": "Rosen renner ned glasset, synlig et sekund og borte før den rekker å varme deg."
+      "text": "Når noen gir meg et kompliment, tror jeg egentlig ikke på det.",
+      "suggestion": "Komplimentet berører overflaten og glir av før det når stedet som trenger det."
     },
     "dp_empathic-evocations_case-jason_07": {
-      "text": "På søndagskvelder blir rommet grått, og stillheten begynner å presse på brystet.",
-      "suggestion": "Den grå stillheten presser ned og gjør rommet tungt før uka i det hele tatt har begynt."
+      "text": "Søndag kveld begynner jeg å bli nedstemt, men jeg scroller mest.",
+      "suggestion": "Uka kommer tidlig inn i rommet, og scrollingen blir et lite bevegelig lys mot tyngden."
     },
     "dp_empathic-evocations_case-jason_08": {
-      "text": "Jeg skriver én ufarlig melding på ti forskjellige måter til fingrene verker.",
-      "suggestion": "Én liten melding blir til verkende fingre, hver versjon visket ut av frykt."
+      "text": "Jeg skriver enkle meldinger om og om igjen, og noen ganger sender jeg dem ikke.",
+      "suggestion": "Én liten melding blir en smal døråpning, og hver omskriving er et nytt skritt tilbake fra å bli sett."
     },
     "dp_empathic-evocations_case-jason_09": {
-      "text": "Selv et raskt hei kommer skjelvende ut, og så hører jeg det gi gjenlyd i timevis.",
-      "suggestion": "Det lille hei-et skjelver ut i rommet og fortsetter å runge i deg lenge etterpå."
+      "text": "Selv det å si hei kan høres feil ut for meg etterpå.",
+      "suggestion": "Det lille hei-et blir hengende i ørene dine, som om ett vanlig ord har blitt bevis mot deg."
     },
     "dp_empathic-evocations_case-jason_10": {
-      "text": "Jeg stirrer på utgangen som en livline når rommet begynner å følge med på meg.",
-      "suggestion": "Døra blir en livline blikket klamrer seg til, en vei ut før søkelyset finner deg."
+      "text": "I grupper følger jeg med på hvor utgangen er.",
+      "suggestion": "Utgangen blir det tryggeste stedet i rommet, stedet blikket holder fast i når oppmerksomheten kommer for nær."
     },
     "dp_empathic-evocations_case-laura_01": {
-      "text": "De fleste morgener føles flate, som om noen har vasket ut fargene før jeg våknet.",
-      "suggestion": "Morgenen kommer i avblekede farger, alt er blekt før dagen engang har startet."
+      "text": "De fleste morgener våkner jeg uten å kjenne særlig mye.",
+      "suggestion": "Dagen kommer avbleket, som om fargen er tatt ut av den før du engang setter deg opp."
     },
     "dp_empathic-evocations_case-laura_02": {
-      "text": "En dør som smeller får huden min til å bli kald før jeg rekker å si at det bare er en dør.",
-      "suggestion": "Lyden sender kulde gjennom huden, som om fortiden kommer før nåtiden rekker å si noe."
+      "text": "En dør smeller, og jeg vet at det bare er en dør, men kroppen reagerer først.",
+      "suggestion": "Lyden når kroppen før hodet rekker å forklare, og den gamle alarmen går gjennom rommet her og nå."
     },
     "dp_empathic-evocations_case-laura_03": {
-      "text": "Når noen setter seg nær, holder jeg masken, men en del av meg glir bakover bak glass.",
-      "suggestion": "Du holder det høflige ansiktet fremme, mens en annen del glir tilbake bak glass."
+      "text": "Når noen sitter nær meg, er jeg høflig, men jeg kjenner at jeg trekker meg tilbake.",
+      "suggestion": "Det høflige ansiktet blir værende foran, mens en annen del av deg trekker seg bak et glass."
     },
     "dp_empathic-evocations_case-laura_04": {
-      "text": "Jeg ser andre le og skjønner at jeg ikke husker hvor glede bor i meg.",
-      "suggestion": "Glede blir som et språk du har mistet, kjent i andres ansikter, men vanskelig å finne inni deg."
+      "text": "Jeg ser folk le, og jeg klarer ikke å kjenne meg igjen i det.",
+      "suggestion": "Latteren deres er synlig rett foran deg, men glede kjennes som et språk fra et land du ikke kommer inn i."
     },
     "dp_empathic-evocations_case-laura_05": {
-      "text": "Vinen hjelper meg å trykke på av-knappen når støyen i hodet blir for høy.",
-      "suggestion": "Vinen blir som en dimmer som skrur ned volumet inni til rommet blir uklart og stille."
+      "text": "Vin hjelper meg å skru av om kvelden.",
+      "suggestion": "Vinen virker som en dimmer, senker volumet inni til de skarpe kantene i kvelden blir uklare."
     },
     "dp_empathic-evocations_case-laura_06": {
-      "text": "Jeg ligger våken og føler at jeg står vakt, mens jeg venter på neste lyd.",
-      "suggestion": "Selv i senga står en del av deg postert ved døra og lytter gjennom mørket."
+      "text": "Jeg ligger våken og lytter etter lyder, selv når ingenting skjer.",
+      "suggestion": "Selv i senga står en del av deg vakt, lytter gjennom mørket etter bevis på fare."
     },
     "dp_empathic-evocations_case-laura_07": {
-      "text": "En trist sang kan åpne en sprekk i meg før jeg klarer å lukke den igjen.",
-      "suggestion": "Én trist tone finner sprekken og åpner nummenheten før du rekker å lukke den."
+      "text": "Noen ganger får musikk meg til å gråte, og så stenger jeg det av.",
+      "suggestion": "Noen få toner åpner en smal sprekk i nummenheten, og du lukker den før for mye følelse slipper gjennom."
     },
     "dp_empathic-evocations_case-laura_08": {
-      "text": "Jeg går mellom butikkhyllene under det sterke lyset fordi hjem kjennes som å gå inn i et lukket rom.",
-      "suggestion": "De lyse hyllene blir en nøytral korridor som utsetter følelsen av å gå hjem til det lukkede rommet."
+      "text": "Jeg bruker ekstra tid i butikker fordi det er vanskelig å dra hjem.",
+      "suggestion": "De lyse gangene blir en nøytral korridor, litt mer tid før stillheten hjemme må inn."
     },
     "dp_empathic-evocations_case-laura_09": {
-      "text": "Vennlige ord får halsen til å verke, som om de berører et sted jeg holder låst.",
-      "suggestion": "Varmen stryker borti det låste stedet, og verken stiger i halsen før ordene slipper inn."
+      "text": "Vennlige ord gjør at jeg får vondt i halsen, og jeg vet ikke hvorfor.",
+      "suggestion": "Vennligheten berører et låst sted, og verken stiger i halsen før ordene kan svare."
     },
     "dp_empathic-evocations_case-laura_10": {
-      "text": "Jeg har en liten bag pakket ved døra, som om livet fortsatt trenger en nødutgang.",
-      "suggestion": "Bagen venter som en nødutgang, et stille tegn på at beredskapen ikke har lagt seg."
+      "text": "Jeg har en bag pakket ved døra, selv om jeg vet det høres rart ut.",
+      "suggestion": "Bagen venter ved døra som en stille utgangsplan, et tegn på at en del av deg aldri helt legger beredskapen ned."
     },
     "dp_empathic-evocations_case-carlos_01": {
-      "text": "Et skjevt glis over bordet sender dirring ut i hendene, som av avisolerte ledninger.",
-      "suggestion": "Det gliset elektrifiserer hendene dine, bar ledningsvarme som leter etter et sted å gå."
+      "text": "Når noen smiler skjevt til meg, begynner hendene å dirre.",
+      "suggestion": "Det skjeve smilet sender strøm ut i hendene, varme som leter etter et sted å gå før ordene rekker fram."
     },
     "dp_empathic-evocations_case-carlos_02": {
-      "text": "Brystet strammes som et trommeskinn når noen ypper; ett ord til, så sprekker jeg.",
-      "suggestion": "Brystet er spent som et trommeskinn, og hvert neste ord slår mot det."
+      "text": "Når noen kommer opp i ansiktet mitt, strammer brystet seg og jeg vil bare få det til å stoppe.",
+      "suggestion": "Brystet trekker seg stramt som en tromme, og hvert neste ord slår mot skinnet."
     },
     "dp_empathic-evocations_case-carlos_03": {
-      "text": "Jeg går frem og tilbake på kjøkkenet for å brenne det av før det kommer ut av hendene eller munnen.",
-      "suggestion": "Du går harde streker over kjøkkengulvet, prøver å tråkke varmen ut før den blir til skade."
+      "text": "Jeg går rundt på kjøkkenet etter krangler, fordi det blir verre hvis jeg sitter stille.",
+      "suggestion": "Du går harde streker over kjøkkengulvet, prøver å tråkke ladningen ut før den kommer gjennom hender eller munn."
     },
     "dp_empathic-evocations_case-carlos_04": {
-      "text": "Det redde blikket til gutten min slo et hull i meg som jeg fortsatt kjenner.",
-      "suggestion": "De redde øynene hans går gjennom deg som en knyttneve og etterlater et hult sted sinnet ikke kan dekke."
+      "text": "Jeg husker stadig ansiktet til sønnen min etter at jeg ropte.",
+      "suggestion": "Ansiktet hans blir værende som et blåmerke under sinnet, et merke du ikke klarer å skyve unna."
     },
     "dp_empathic-evocations_case-carlos_05": {
-      "text": "Når folk holder seg rolige, ser jeg ingen rustning på dem, og det ser farlig ut.",
-      "suggestion": "Ro ser ut som å stå ubeskyttet i en kamp, uten skjold mellom deg og slaget."
+      "text": "Rolige folk gjør meg nervøs. Jeg stoler ikke på det.",
+      "suggestion": "Ro ser for ubeskyttet ut, som noen som står åpent uten rustning og kaller det trygt."
     },
     "dp_empathic-evocations_case-carlos_06": {
-      "text": "Etter at jeg smeller, kjennes rommet mindre, og alle puster rundt knust glass.",
-      "suggestion": "Etter smellet blir huset lite og luftløst, som om alle trår varsomt rundt skår."
+      "text": "Etter at jeg smeller, blir alle stille, og jeg hater rommet.",
+      "suggestion": "Etter eksplosjonen blir rommet lite og forsiktig, som om alle beveger seg rundt knust glass."
     },
     "dp_empathic-evocations_case-carlos_07": {
-      "text": "Jeg biter tennene sammen til hodet dunker og ordene gnisser bak dem.",
-      "suggestion": "Tennene låst som i en skrustikke, smerten trommer mens de usagte ordene gnisser bak dem."
+      "text": "Jeg biter tennene sammen til hodet gjør vondt.",
+      "suggestion": "Tennene låser seg som en skrustikke, holder ordene og varmen inne til smerten begynner å dunke."
     },
     "dp_empathic-evocations_case-carlos_08": {
-      "text": "Hvis jeg trekker meg foran sønnen min, kjennes det som om jeg forsvinner fra rommet.",
-      "suggestion": "Å trekke seg kjennes som om konturene dine viskes ut, som om respekten forsvinner ut av rommet sammen med dem."
+      "text": "Å trekke meg foran sønnen min kjennes feil.",
+      "suggestion": "Å trekke seg kjennes som om konturene dine blir svakere i rommet, som om respekten kan forsvinne sammen med dem."
     },
     "dp_empathic-evocations_case-carlos_09": {
-      "text": "Jeg klemmer rundt rattet til knokene blir hvite, og prøver å holde varmen unna andre.",
-      "suggestion": "Hvite knoker låser seg rundt rattet og holder varmen inne som et lokk på en kokende gryte."
+      "text": "Jeg holder hardt i rattet når jeg prøver å ikke reagere.",
+      "suggestion": "Hendene klemmer rattet som et lokk over en kokende gryte, og holder varmen inne med hvite knoker."
     },
     "dp_empathic-evocations_case-carlos_10": {
-      "text": "Når sønnen min blir forsiktig rundt meg, ser jeg for meg at han husker meg som den høye stemmen i huset.",
-      "suggestion": "Det forsiktige blikket hans legger igjen et blåmerke, frykten for at den høye stemmen din blir minnet han bærer."
+      "text": "Jeg er redd sønnen min lærer å være forsiktig rundt meg.",
+      "suggestion": "Den frykten treffer dypt, at stemmen din kan bli været han lærer å leve i."
     },
     "dp_empathic-evocations_case-nina_01": {
-      "text": "Skylden slår til idet jeg setter meg ned, som om hvile utløser en alarm.",
-      "suggestion": "Hvilen trykker på alarmen; skyld skyter gjennom deg før stolen engang får holde deg."
+      "text": "Idet jeg setter meg ned, får jeg skyldfølelse.",
+      "suggestion": "Hvile setter i gang en alarm inni deg, skyld som skyter gjennom før stolen rekker å bære vekten din."
     },
     "dp_empathic-evocations_case-nina_02": {
-      "text": "Det er som om jeg bærer alles poser, og min egen skjærer inn i skulderen.",
-      "suggestion": "Armene fulle av alle andres tyngde, og din egen rem skjærer dypere fordi ingen strekker seg etter den."
+      "text": "Jeg føler ansvar for altfor mye, men jeg vet ikke hva jeg kan slutte å gjøre.",
+      "suggestion": "Armene er fulle av alle andres tyngde, og det finnes ingen ledig hånd til ditt eget."
     },
     "dp_empathic-evocations_case-nina_03": {
-      "text": "Magen vrir seg når jeg ber om hjelp, som om jeg svelger hele forespørselen.",
-      "suggestion": "Forespørselen knyter seg i magen, stram og vridd før den rekker fram til noen."
+      "text": "Når jeg ber om hjelp, strammer magen seg.",
+      "suggestion": "Forespørselen knyter seg i magen før den rekker fram til noen andre."
     },
     "dp_empathic-evocations_case-nina_04": {
-      "text": "Jeg smiler gjennom hodepinen og fortsetter så ingen ser hvor nær jeg er ved å falle sammen.",
-      "suggestion": "Et smil strukket stramt over et dunkende hode, som holder hele dagen oppe i en tynn tråd."
+      "text": "Jeg smiler gjennom hodepiner fordi folk trenger at jeg fortsetter.",
+      "suggestion": "Smilet strekkes over smerten og prøver å holde hele dagen oppe i en tynn tråd."
     },
     "dp_empathic-evocations_case-nina_05": {
-      "text": "Utover kvelden kjennes knoklene tunge, som om selv det å stå er å gå gjennom våt sement.",
-      "suggestion": "Tyngden legger seg helt inn i knoklene, hvert steg tykt og sakte som våt betong."
+      "text": "Utover kvelden kjennes hele kroppen tung.",
+      "suggestion": "Trettheten legger seg inn i knoklene, hvert steg tykt og langsomt mot slutten av dagen."
     },
     "dp_empathic-evocations_case-nina_06": {
-      "text": "Når jeg sier nei, banker hjertet som om jeg har brutt en regel for kjærlighet.",
-      "suggestion": "Nei-et setter i gang en alarm i brystet, som om selve kjærligheten har regler du nettopp brøt."
+      "text": "Å si nei får hjertet til å rase.",
+      "suggestion": "Nei-et setter i gang en alarm i brystet, som om én liten grense kan true selve kjærligheten."
     },
     "dp_empathic-evocations_case-nina_07": {
-      "text": "Ved midnatt tørker jeg av benken igjen, fordi hvile kjennes som å la alle stå ubeskyttet.",
-      "suggestion": "Benken tørkes av igjen, som en midnattsbesvergelse mot frykten for at hvile lar alle stå udekket."
+      "text": "Jeg vasker sent på kvelden selv om jeg er helt utslitt.",
+      "suggestion": "Benken tørkes av igjen, et midnattsritual mot frykten for at det å stoppe lar alle stå udekket."
     },
     "dp_empathic-evocations_case-nina_08": {
-      "text": "Ett rotete rom, og skammen kryper varm oppover halsen før noen engang kommenterer.",
-      "suggestion": "Før ett ord er sagt, kryper skammen allerede varm oppover halsen fra rotet."
+      "text": "Hvis huset er rotete, skammer jeg meg før noen sier noe.",
+      "suggestion": "Skammen er allerede på vei oppover halsen før en eneste kommentar kommer."
     },
     "dp_empathic-evocations_case-nina_09": {
-      "text": "Jeg gråter i et kjøkkenhåndkle så barna bare hører skapdører som åpnes.",
-      "suggestion": "Tårer presset inn i et kjøkkenhåndkle, skjult i den vanlige lyden av skap."
+      "text": "Jeg gråter på kjøkkenet der ingen legger merke til det.",
+      "suggestion": "Tårene pakkes inn i vanlige kjøkkenlyder, skjult der skapdører og rennende vann kan dekke dem."
     },
     "dp_empathic-evocations_case-nina_10": {
-      "text": "Noen ganger drømmer jeg om en stille dag uten ærender og uten skyld som venter i døra.",
-      "suggestion": "En stille dag åpner seg i tankene dine, og noe i deg løsner før skylden rekker å komme inn."
+      "text": "Jeg ser for meg en dag der ingen trenger noe, og så føler jeg meg egoistisk.",
+      "suggestion": "Et øyeblikk åpner en stille dag seg, og så stiller skylden seg i døråpningen før du rekker å hvile der."
     },
     "dp_empathic-evocations_case-aisha_01": {
-      "text": "Når du ser på klokka, synker magen som om rommet allerede er på vei bort fra meg.",
-      "suggestion": "Ett blikk på klokka, og rommet faller bort, som om forlattheten åpner seg under føttene dine."
+      "text": "Når du ser på klokka, tenker jeg med en gang at du vil ha meg ut.",
+      "suggestion": "Ett blikk på klokka blir et tegn på at du skal forlates, og rommet begynner å falle bort under føttene."
     },
     "dp_empathic-evocations_case-aisha_02": {
-      "text": "Jeg går fra «ikke gå» til «la meg være i fred» på sekunder.",
-      "suggestion": "Det snur som en bryter – fra bønn til brann i et blunk."
+      "text": "Jeg kan gå fra å be noen bli til å be dem la meg være i fred på sekunder.",
+      "suggestion": "Følelsen snur fra utstrakte hender til brann, en bryter som slås om raskere enn du klarer å roe deg."
     },
     "dp_empathic-evocations_case-aisha_03": {
-      "text": "Tomheten brenner som et hull i brystet, og jeg faller stadig ned i det.",
-      "suggestion": "Et brennende hulrom åpner seg i brystet, så bunnløst at du fortsetter å falle gjennom det."
+      "text": "Tomhetsfølelsen blir så sterk at jeg ikke klarer å tenke klart.",
+      "suggestion": "Tomheten åpner seg stort inni deg, så stor at den drar med seg både tanker og feste."
     },
     "dp_empathic-evocations_case-aisha_04": {
-      "text": "Jeg klorer meg på armen til sviingen skjærer gjennom den uvirkelige følelsen.",
-      "suggestion": "Sviingen skjærer gjennom den uvirkelige tåken, et skarpt bevis på at du fortsatt er her."
+      "text": "Jeg klorer meg på armen når jeg begynner å føle meg uvirkelig.",
+      "suggestion": "Sviingen skjærer gjennom tåken, et lite skarpt bevis på at du fortsatt er her."
     },
     "dp_empathic-evocations_case-aisha_05": {
-      "text": "Når skriveprikkene dukker opp og forsvinner igjen, kjennes det som om kontakten blir revet bort.",
-      "suggestion": "Prikkene forsvinner, og pusten går med dem, som om kontakten rives ut av rommet."
+      "text": "Når skriveprikkene forsvinner, får jeg panikk med en gang.",
+      "suggestion": "Prikkene som forsvinner, river kontakttråden ut av hendene dine, og pusten blir med den."
     },
     "dp_empathic-evocations_case-aisha_06": {
-      "text": "Når noen sier farvel, tipper rommet og jeg mister gulvet.",
-      "suggestion": "Farvel, og gulvet heller bort; alt spinner mens du leter etter feste."
+      "text": "Når noen sier ha det, vet jeg at det er normalt, men jeg mister kontrollen.",
+      "suggestion": "Ha det får rommet til å tippe før logikken rekker å hjelpe, og alt i deg leter etter et gulv."
     },
     "dp_empathic-evocations_case-aisha_07": {
-      "text": "Når du avlyser, føles det som om gulvet åpner seg og jeg plutselig ikke er noe sted.",
-      "suggestion": "En avlysning spjærer gulvet, og alt som var fast forsvinner under deg."
+      "text": "Når du avlyser, får jeg lyst til å slutte før du kan gjøre det igjen.",
+      "suggestion": "Avlysningen åpner et gammelt fall, og det å gå først kjennes som det eneste rekkverket du kan gripe."
     },
     "dp_empathic-evocations_case-aisha_08": {
-      "text": "Ordene «for mye» lander i brystet som et rødt stempel som ikke lar seg vaske bort.",
-      "suggestion": "«For mye» stemples over brystet, rødt og nesten permanent."
+      "text": "Når noen kaller meg for mye, hører jeg det om og om igjen etterpå.",
+      "suggestion": "For mye stemples over deg, rødt og høyt, som om det ikke lar seg vaske bort."
     },
     "dp_empathic-evocations_case-aisha_09": {
-      "text": "Litt varme får tårene til å renne ut av ingenting, som om en demning brister før jeg rekker å si ja.",
-      "suggestion": "Varmen treffer veggen, og plutselig strømmer tårene gjennom, for raskt til at du rekker å gi lov."
+      "text": "Når noen er milde med meg, gråter jeg før jeg skjønner hvorfor.",
+      "suggestion": "Mildheten berører veggen, og tårene strømmer gjennom før tillatelsen rekker fram."
     },
     "dp_empathic-evocations_case-aisha_10": {
-      "text": "Jeg sjekker døra mens vi snakker, som om du kan forsvinne hvis jeg blunker.",
-      "suggestion": "Blikket vender stadig tilbake til døra, på vakt mot blunket der jeg kan forsvinne."
+      "text": "Jeg sjekker døra mens vi snakker.",
+      "suggestion": "Blikket vender tilbake til døra, på vakt mot blinket der jeg kan forsvinne."
     },
     "dp_empathic-evocations_case-david_01": {
-      "text": "Når hun kaller meg kald, låser kjeven seg og ordet brenner bak tennene.",
-      "suggestion": "Ordet «kald» brenner bak tennene mens kjeven låser seg rundt det."
+      "text": "Når kona mi kaller meg kald, blir jeg stille og kommer med en skarp kommentar.",
+      "suggestion": "Kald brenner bak tennene, og den skarpe kommentaren kommer ut som en rustning som smekker igjen."
     },
     "dp_empathic-evocations_case-david_02": {
-      "text": "Hvis jeg ikke vinner, føles brystet hult, som om rommet er tømt.",
-      "suggestion": "Uten seieren blir brystet et tomt rom, bare ekko og ikke noe feste."
+      "text": "Hvis det ikke er tydelig at jeg gjør det bra, kjenner jeg meg tom en stund.",
+      "suggestion": "Uten seieren blir det ekko og barhet inni, som et rom som er tømt etter applausen."
     },
     "dp_empathic-evocations_case-david_03": {
-      "text": "Når jeg føler meg liten, blåser jeg meg raskt opp så ingen ser stikket.",
-      "suggestion": "Du blåser deg raskt opp, gjør deg større rundt det lille, såre stedet."
+      "text": "Når jeg føler meg liten, begynner jeg å snakke om det jeg har oppnådd.",
+      "suggestion": "Prestasjonene skynder seg inn som en høyere versjon av deg og stiller seg rundt det lille, såre stedet."
     },
     "dp_empathic-evocations_case-david_04": {
-      "text": "Jeg glatter skjorta og ramser opp prestasjonene når jeg føler meg presset opp i et hjørne.",
-      "suggestion": "Du retter på skjorta og lister opp prestasjonene, som om du spenner på deg rustning før slaget treffer."
+      "text": "Når jeg føler meg presset opp i et hjørne, retter jeg på skjorta og forklarer merittene mine.",
+      "suggestion": "Skjorta og merittene blir rustningsdeler, festet på plass før slaget kan lande."
     },
     "dp_empathic-evocations_case-david_05": {
-      "text": "Ros kjennes godt et øyeblikk, og så renner den ut før den når det hule stedet.",
-      "suggestion": "Beundring strømmer inn og renner bort før den rekker å berøre det hule rommet under."
+      "text": "Ros hjelper et øyeblikk, men det varer ikke.",
+      "suggestion": "Beundringen strømmer inn og renner raskt bort, uten helt å nå det hule stedet under."
     },
     "dp_empathic-evocations_case-david_06": {
-      "text": "Det forsiktige ansiktet til barnet mitt etter at jeg smeller, treffer hardere enn alt hun sier.",
-      "suggestion": "Det forsiktige ansiktet lander hardere enn ord, et treff du ikke kan argumentere bort."
+      "text": "Ansiktet til barnet mitt etter at jeg smeller, plager meg mer enn jeg hadde ventet.",
+      "suggestion": "Det forsiktige ansiktet treffer forbi alle argumenter, et slag du ikke kan vinne deg ut av."
     },
     "dp_empathic-evocations_case-david_07": {
-      "text": "I vanskelige samtaler griper jeg etter telefonen som en falluke under bordet.",
-      "suggestion": "Telefonen blir en falluke under bordet, en vei ut før følelsen får presset deg opp i et hjørne."
+      "text": "I vanskelige samtaler sjekker jeg telefonen når det blir for personlig.",
+      "suggestion": "Telefonen blir en falluke under bordet, en ryddig utgang før følelsen kan presse deg opp i et hjørne."
     },
     "dp_empathic-evocations_case-david_08": {
-      "text": "Å si «jeg tar feil» får ansiktet til å brenne som om jeg står avkledd foran alle.",
-      "suggestion": "De ordene river av rustningen på et øyeblikk og etterlater varme og blottstillelse i ansiktet."
+      "text": "Å si at jeg tok feil, kjennes ydmykende.",
+      "suggestion": "De ordene river av rustningen på et øyeblikk og etterlater ansiktet varmt og blottet."
     },
     "dp_empathic-evocations_case-david_09": {
-      "text": "Om natten går jeg fram og tilbake i gangen og prøver å gå fra følelsen av at alle ser tvers gjennom meg.",
-      "suggestion": "Gangen blir en bane for å løpe fra blottstillelsen, steg etter steg mot følelsen av å bli gjennomskuet."
+      "text": "Om natten går jeg rundt fordi jeg ikke klarer å roe meg når alle har blitt stille.",
+      "suggestion": "Gangen blir en bane for å løpe fra følelsen av at huset har sett for mye."
     },
     "dp_empathic-evocations_case-david_10": {
-      "text": "Etter affæren kjennes huset kaldere, som om varmen lekket ut mens ingen så det.",
-      "suggestion": "Huset holder på kulden, varmen borte gjennom en usynlig sprekk, og hvert rom kjennes kaldere og mer nakent."
+      "text": "Etter at affæren kom fram, kjennes hjemmet annerledes, og jeg vet ikke hva jeg skal gjøre med det.",
+      "suggestion": "Huset kjennes kaldere nå, som om varmen har lekket ut gjennom en sprekk ingen klarer å peke på."
     },
     "dp_empathic-evocations_case-marcus_01": {
-      "text": "Jeg beveger meg gjennom dagen som et spøkelse, mens folk går rett gjennom meg.",
-      "suggestion": "Du driver gjennom dagen halvt gjennomsiktig, uten at noen ser deg, nesten uten å berøre verden."
+      "text": "De fleste dager går jeg bare gjennom rutinene og kjenner meg ikke knyttet til folk.",
+      "suggestion": "Du beveger deg gjennom dagen halvt gjennomsiktig, nær folk og likevel uten helt å berøre verden."
     },
     "dp_empathic-evocations_case-marcus_02": {
-      "text": "Folkemengder får skuldrene opp til ørene før jeg engang har valgt retning.",
-      "suggestion": "Skuldrene klatrer mot ørene, musklene står vakt før folkemengden engang har nådd deg."
+      "text": "Folkemengder gjør meg anspent før det har skjedd noe.",
+      "suggestion": "Kroppen står vakt før folkemengden når deg, skuldrene på vei opp mot slaget som ikke har kommet."
     },
     "dp_empathic-evocations_case-marcus_03": {
-      "text": "Jeg sitter med ryggen mot veggen så ingenting kan komme bakfra.",
-      "suggestion": "Ryggen presset mot veggen, blikket på utgangene, hele rommet ordnet rundt trussel."
+      "text": "Jeg sitter der jeg kan se døra. Det føles bare bedre.",
+      "suggestion": "Ryggen mot veggen, blikket på utgangene, hele rommet stille ordnet rundt trussel."
     },
     "dp_empathic-evocations_case-marcus_04": {
-      "text": "Mareritt røsker meg våken og etterlater meg summende, som om rommet fortsatt er farlig.",
-      "suggestion": "Søvnen kaster deg ut igjen, summende som en strømførende ledning mens rommet fortsatt kjennes ladet."
+      "text": "Mareritt vekker meg, og så kjennes ikke rommet normalt på en stund.",
+      "suggestion": "Søvnen kaster deg tilbake til et rom som fortsatt er ladet og summende, som om faren fulgte med ut."
     },
     "dp_empathic-evocations_case-marcus_05": {
-      "text": "Når leiligheten blir stille, legger stillheten seg på brystet som en tung plate.",
-      "suggestion": "Stillheten senker seg over brystet, en tung plate som gjør selv pusten trang."
+      "text": "Når leiligheten er stille, blir det vanskelig å puste.",
+      "suggestion": "Stillheten senker seg over brystet, tung nok til å gjøre luften trang."
     },
     "dp_empathic-evocations_case-marcus_06": {
-      "text": "Selv gode øyeblikk føles langt borte, som om jeg ser dem gjennom tykt glass.",
-      "suggestion": "Det gode er rett der og likevel utilgjengelig, uklart bak glass du ikke får hendene gjennom."
+      "text": "Gode øyeblikk kjennes fjerne og når meg ikke helt.",
+      "suggestion": "Det gode er rett der og likevel bak glass, uklart før det rekker fram til deg."
     },
     "dp_empathic-evocations_case-marcus_07": {
-      "text": "Jeg holder lyset dempet så rommet blir uklart og ingenting får skarpe kanter.",
-      "suggestion": "Det dempede lyset gjør rommet uklart, myker opp hver kant så verden ikke kommer så tydelig mot deg."
+      "text": "Jeg holder lyset dempet hjemme fordi sterkt lys plager meg.",
+      "suggestion": "Det dempede lyset myker opp kantene og hindrer rommet i å komme for tydelig mot deg."
     },
     "dp_empathic-evocations_case-marcus_08": {
-      "text": "Hvis noen banker uventet på, hamrer hjertet som om døren er i ferd med å bli brutt opp.",
-      "suggestion": "Et bank gjør døren til en trussel, og hjertet begynner å hamre mot den fra innsiden."
+      "text": "Hvis noen banker på uventet, begynner hjertet å hamre.",
+      "suggestion": "Et bank gjør døra til en trussel, og hjertet begynner å slå fra innsiden."
     },
     "dp_empathic-evocations_case-marcus_09": {
-      "text": "Jeg holder pusten når jeg snakker om det, som om luft kan trekke minnet nærmere.",
-      "suggestion": "Pusten holdes stramt, som om ett innpust kunne dra minnet tilbake inn i rommet."
+      "text": "Når jeg snakker om det, merker jeg at jeg slutter å puste.",
+      "suggestion": "Pusten går i ro, som om ett innpust kan trekke minnet helt tilbake inn i rommet."
     },
     "dp_empathic-evocations_case-marcus_10": {
-      "text": "Noen netter blir jeg sittende i bilen med motoren av, fordi leiligheten ovenpå kjennes for tom til å gå inn i.",
-      "suggestion": "Den stille bilen blir et siste lite ly før den tomme leiligheten ber deg gå inn."
+      "text": "Noen kvelder sitter jeg i bilen før jeg går opp.",
+      "suggestion": "Den stille bilen blir et siste lite ly før den tomme leiligheten må gås inn i."
     },
     "dp_empathic-conjectures_case-sara_01": {
       "text": "Jeg sier hele tiden til vennene mine at det går bra, så de ikke skal lene seg inn og se hvor mye jeg trenger dem.",
@@ -3963,8 +3963,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Du nedtoner smerten; jeg gjetter at en redd del frykter å bli avfeid hvis du lar det synes."
     },
     "dp_empathic-conjectures_case-sara_08": {
-      "text": "Jeg var nær ved å sende ham «unnskyld», selv om jeg ikke gjorde noe galt.",
-      "suggestion": "Du strekker deg for å reparere; kan det være at du prøver å dysse ned en skamfølelse som sier at det må være din skyld?"
+      "text": "Jeg tenker hele tiden at jeg burde sende ham en unnskyldning, som om det å gjøre opp ville bevise at jeg ikke er en sånn person folk forlater.",
+      "suggestion": "Unnskyldningen kjennes som reparasjon, og jeg lurer på om det å gjøre opp også kunne stilne skammen over å bli forlatt."
     },
     "dp_empathic-conjectures_case-sara_09": {
       "text": "Nettene er verst; jeg spiller om igjen hva jeg gjorde feil til skyld føles tryggere enn å savne ham.",
@@ -3995,8 +3995,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Det kjennes risikabelt; jeg lurer på om det å beklage berører et lite, skamfullt sted som ikke tåler å bli sett som beseiret."
     },
     "dp_empathic-conjectures_case-michael_06": {
-      "text": "Jeg hater å miste kontroll; det får meg til å tenke at jeg har feilet.",
-      "suggestion": "Kontroll betyr mye; kanskje ligger det under en frykt for at det å miste kontroll beviser noe dårlig om deg."
+      "text": "Jeg tar bare et glass etter jobb fordi kona mi presser på; hvis hun sluttet å mase, hadde jeg ikke trengt det.",
+      "suggestion": "Du legger drikkingen på presset hennes, og jeg lurer på om glasset også beskytter deg mot å kjenne deg anklaget, presset opp i et hjørne eller ikke god nok etter dagen."
     },
     "dp_empathic-conjectures_case-michael_07": {
       "text": "Jeg leser alles arbeid om igjen før en presentasjon, fordi én feil ville slå tilbake på meg.",
@@ -4075,8 +4075,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Flatheten virker beskyttende; jeg lurer på om den holder deg unna smerten som kunne komme hvis rommet kjentes virkelig."
     },
     "dp_empathic-conjectures_case-laura_06": {
-      "text": "Jeg sier til meg selv «ikke treng noen» før jeg rekker å kjenne savnet.",
-      "suggestion": "Du skyver behovene raskt vekk; kanskje finnes det en del som lengter etter å bli holdt, og er redd for det savnet."
+      "text": "En snill mann spurte meg ut, og jeg begynte straks å ramse opp alle grunnene til at han sikkert kom til å såre meg.",
+      "suggestion": "Listen beskytter deg raskt; jeg lurer på om ønsket om nærhet og forventningen om svik kommer nesten samtidig."
     },
     "dp_empathic-conjectures_case-laura_07": {
       "text": "Når noen tar meg på skulderen, skvetter jeg før jeg rekker å kjenne dem igjen, og så skammer jeg meg.",
@@ -4123,8 +4123,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Du prøver å beskytte dem; jeg gjetter at knusingen holder smerten unna et øyeblikk, og så kommer skammen når du ser frykten."
     },
     "dp_empathic-conjectures_case-carlos_08": {
-      "text": "Rolige typer virker som dørmatter for meg, som om de ber om å bli tråkket på.",
-      "suggestion": "Du likestiller ro med å være ubeskyttet; kan det være at ro føles farlig fordi det en gang betydde å bli tråkket på?"
+      "text": "Følelser gjør menn svake. Det lærte jeg tidlig, og jeg ser ikke hvorfor jeg skal avlære det nå.",
+      "suggestion": "Den regelen høres beskyttende ut; jeg lurer på om den holder deg unna en gammel frykt for at det å kjenne noe ømt vil gjøre deg blottstilt eller maktesløs."
     },
     "dp_empathic-conjectures_case-carlos_09": {
       "text": "Jeg kverner på respektløsheten i dagevis og planlegger hvordan jeg burde vunnet der og da.",
@@ -4187,8 +4187,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Du vil finne en vei gjennom nummenheten; jeg lurer på om det ligger en uutholdelig tomhet under."
     },
     "dp_empathic-conjectures_case-aisha_04": {
-      "text": "Jeg ber folk om ikke å forlate meg, og så eksploderer jeg når jeg hører den minste avstand i stemmen deres.",
-      "suggestion": "Du ber og skyver hardt; kan det være at både lengselen og frykten blir enorme når avstand dukker opp?"
+      "text": "Jeg skremte alle forrige uke da jeg sa at jeg kanskje kom til å ta livet mitt, men han tekstet i dag, så nå er det greit og kanskje jeg ikke trenger å snakke om det.",
+      "suggestion": "En del av deg vil lukke det raskt nå som kontakten kom tilbake; jeg lurer på om det å snakke om hvor nær kanten det var, kjennes for skremmende eller skamfullt."
     },
     "dp_empathic-conjectures_case-aisha_05": {
       "text": "Hvis du avlyser, er det en del av meg som aldri vil komme tilbake før du kan slippe meg igjen.",
@@ -4251,8 +4251,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Du hater den usynligheten; jeg lurer på om det under sinnet ligger en sorg over ikke å bli kjent."
     },
     "dp_empathic-conjectures_case-david_10": {
-      "text": "Jeg unngår terapioppgaver og kaller dem meningsløse, selv om en del av meg vet at de kjennes avslørende.",
-      "suggestion": "Du avfeier det og vet samtidig at det avslører noe; kanskje finnes det en annen del som er redd for hva du kan finne hvis du senker tempoet."
+      "text": "Hvis kona mi blir, føler jeg meg fanget og kritisert; hvis hun går, føler jeg meg ydmyket. Det finnes ingen måte å vinne på.",
+      "suggestion": "Begge alternativene truer deg på hver sin måte; jeg lurer på om fanget og ydmyket kretser rundt den samme frykten for å bli sett som ikke god nok."
     },
     "dp_empathic-conjectures_case-marcus_01": {
       "text": "De fleste dager føler jeg meg avstengt, som om ingenting slipper inn med mindre det slår hardt.",
@@ -4311,8 +4311,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Jeg ser skjelvingen. Hold deg til stemmen min og kjenn gulvet under deg; vi holder bare suget i magen, ikke hele historien, til det roer seg nok til å se deg rundt igjen."
     },
     "dp_staying-in-contact-intense-affect_case-sara_05": {
-      "text": "Jeg får nesten ikke puste når jeg snakker om nettene alene.",
-      "suggestion": "Følg det lengre utpustet mitt, og kjenn stolen bak deg. Berør bare en tynn flik av de nettene og kom tilbake hit."
+      "text": "Etter bruddet kjennes helgene som en tom vegg. Jeg ser ingenting å glede meg til.",
+      "suggestion": "Den tomheten høres skremmende øde ut. Jeg er her sammen med deg i den; la oss sette ord på bare én del av helgeveggen uten å be deg løse hele framtiden."
     },
     "dp_staying-in-contact-intense-affect_case-sara_06": {
       "text": "Jeg føler meg dum som gråter så mye, men jeg klarer ikke stoppe.",
@@ -4339,8 +4339,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Jeg er her. Løsne kjeven hvis du kan, senk skuldrene og ta ett langsomt utpust; legg merke til det første stikket under varmen et øyeblikk."
     },
     "dp_staying-in-contact-intense-affect_case-michael_02": {
-      "text": "Jeg vil slå i veggen før noen ser at jeg føler meg liten.",
-      "suggestion": "Plant begge føtter, kjenn hendene dine og pust lavt sammen med meg. La én bølge av varme stige og falle før den topper seg."
+      "text": "Jeg tok for hardt i armen til sønnen min da han ikke hørte etter, og ansiktet hans spiller seg av om igjen. Jeg blir kvalm, men en del av meg vil at han bare skal slutte å være redd for meg allerede.",
+      "suggestion": "Det er en vanskelig blanding å bli værende med: skyld, alarm og ønsket om at det skal være over. La hendene hvile åpne mens jeg blir hos deg, så vi kan se på det som skjedde uten å angripe deg eller bagatellisere det."
     },
     "dp_staying-in-contact-intense-affect_case-michael_03": {
       "text": "Ydmykelsen brenner når jeg spiller det av igjen; jeg vil viske ut hele scenen.",
@@ -4407,8 +4407,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Fanget-følelsen er her, og vi senker tempoet. Lytt etter to lyder ved siden av ringingen, og la pusten være lav mens følelsen av å bli sett får bare litt rom."
     },
     "dp_staying-in-contact-intense-affect_case-jason_09": {
-      "text": "Jeg kjenner at jeg vil gråte, og jeg blir flau for at du ser det.",
-      "suggestion": "Tårer er velkomne her. Fortsett å puste rolig med meg og la litt av følelsen få være her mellom oss."
+      "text": "Når du husker det jeg sa forrige uke, blir jeg så lettet at jeg kunne gråte, og så får jeg panikk for at jeg trenger dette for mye.",
+      "suggestion": "Den lettelsen betyr noe. Jeg er her sammen med deg mens varmen og panikken kommer samtidig; vi kan la behovet kjennes på en liten nok måte til at det ikke må bli farlig."
     },
     "dp_staying-in-contact-intense-affect_case-jason_10": {
       "text": "Jeg tror jeg bør gå før du merker hvor mye panikk jeg har.",
@@ -4435,8 +4435,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Da respekterer vi nummenheten som beskyttelse. Kjenn hælene og hold blikket i rommet; vi berører ikke mer enn døråpningen til minnet."
     },
     "dp_staying-in-contact-intense-affect_case-laura_06": {
-      "text": "Tårene kommer og jeg føler meg dum, som om jeg burde ha lært å la være.",
-      "suggestion": "Tårer er velkomne. Jeg holder tempoet sammen med deg mens vi lar litt av følelsen få bevege seg gjennom."
+      "text": "Jeg tror jeg må avlive den gamle katten min i morgen, og skyldfølelsen er så stor at jeg nesten ikke klarer å si det.",
+      "suggestion": "Det er en forferdelig blanding av kjærlighet og skyld å bære. Jeg blir hos deg i den delen som nesten ikke klarer å si det, og vi holder beslutningen liten nok til å tåles akkurat nå."
     },
     "dp_staying-in-contact-intense-affect_case-laura_07": {
       "text": "Jeg stoler ikke på mine egne signaler når de sier at jeg er trygg.",
@@ -4447,8 +4447,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Nevn én ting du ser, én ting du hører, én ting du kjenner. Bli ved kanten av «langt borte» og ta pause om det trengs."
     },
     "dp_staying-in-contact-intense-affect_case-laura_09": {
-      "text": "Vennlighet får meg til å ville stikke før jeg lar meg lure av den.",
-      "suggestion": "Jeg hører trangen til å stikke. Bli sittende, øynene der det er lettest, og pust med meg; kjenn en bølge av trangen og ta et steg tilbake."
+      "text": "Datteren min sa at hun savnet meg, og kjærligheten i det traff så hardt at jeg ville trekke meg unna.",
+      "suggestion": "Den kjærligheten kom inn med stor kraft. Jeg kan bli hos deg mens det å bli savnet berører de stedene som vil trekke seg unna; vi tar det sakte nok til at kjærligheten ikke oversvømmer deg."
     },
     "dp_staying-in-contact-intense-affect_case-laura_10": {
       "text": "Jeg vil ikke kjenne dette i det hele tatt; hvis det åpner seg, tror jeg at jeg forsvinner.",
@@ -4463,12 +4463,12 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "La volumet senkes først, ikke styrken. Føtter plantet, hender åpne; kraften kan bli i rommet uten å bli en trussel."
     },
     "dp_staying-in-contact-intense-affect_case-carlos_03": {
-      "text": "Jeg vil knuse noe så de skjønner at de ikke skal presse meg.",
-      "suggestion": "Sett ord på trangen og hold hendene åpne på lårene. La det første støtet av følelse bli synlig her uten at det blir til skade."
+      "text": "Når jeg leser nyhetene, blir jeg så rasende at jeg vil rive hele systemet ned.",
+      "suggestion": "Raseriet er enormt, og jeg trekker meg ikke unna det. Hold det her i ord sammen med meg, sterkt og tydelig, uten at behovet for handling blir til skade."
     },
     "dp_staying-in-contact-intense-affect_case-carlos_04": {
-      "text": "Å tenke på det redde ansiktet til ungen min river meg opp; jeg klarer nesten ikke være i kroppen.",
-      "suggestion": "Det viser hjertet ditt. Hold pusten rolig og hendene stødig; la litt av den smerten få være her uten at den kaster deg ut av rommet."
+      "text": "Sønnen min gjemte seg bak sofaen da jeg ropte, og skyldfølelsen treffer så hardt at jeg nesten ikke klarer å være i kroppen.",
+      "suggestion": "Skyldfølelsen viser hvor dypt frykten hans når deg. Jeg blir hos deg nær den smerten; vi kan la den bety noe uten at den blir selvangrep eller noe du må flykte fra."
     },
     "dp_staying-in-contact-intense-affect_case-carlos_05": {
       "text": "Jeg er på vei ut fordi jeg kjenner at hendene mine vil knuse noe.",
@@ -4479,8 +4479,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Kjenn ryggen mot stolen og se mot døren, så tilbake hit. Pulsen gjør seg klar til kamp; vi lar bølgen stige og falle uten å gi den ordre."
     },
     "dp_staying-in-contact-intense-affect_case-carlos_07": {
-      "text": "Når trusselen tar over, forsvinner tankene mine og alt jeg vet er at jeg må slå først.",
-      "suggestion": "Slå-først-alarmen er høy. Før vi tenker, plant føttene og løsne kjeven; jeg blir med deg i trusselen så den ikke må bli handling."
+      "text": "Da han på jobb lo av meg, fikk jeg lyst til å banke ham til han skjønte at han ikke skulle le.",
+      "suggestion": "Det voldelige bildet sier hvor brennende ydmykelsen er. Hold begge føtter i gulvet og hendene åpne; vi kan være med raseriet her uten å gå mot handling."
     },
     "dp_staying-in-contact-intense-affect_case-carlos_08": {
       "text": "Jeg vil skremme folk vekk før de ser at jeg er redd.",
@@ -4507,8 +4507,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Du trenger ikke å beklage. Bli hos meg, hælene tunge, rolig utpust, og gi denne følelsen litt plass."
     },
     "dp_staying-in-contact-intense-affect_case-nina_04": {
-      "text": "Jeg skjelver av å holde alt sammen og late som alt er fint.",
-      "suggestion": "La skjelvingen få litt rom mens du kjenner stolen under deg. Gå sakte, i små håndterlige runder."
+      "text": "Jeg bet av hodet på sønnen min fordi han trengte meg, og så gråt jeg på badet fordi jeg følte meg som en forferdelig mor.",
+      "suggestion": "Skyldfølelsen er intens fordi det å være en god mor betyr så mye for deg. Jeg er her sammen med deg mens både tårene og skammen er til stede, og vi holder dem fra å bli en dom over hvem du er."
     },
     "dp_staying-in-contact-intense-affect_case-nina_05": {
       "text": "Jeg føler at jeg svikter alle, og kroppen vil bare klappe sammen.",
@@ -4523,23 +4523,23 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Den trangen til å gå gir mening; å trenge hjelp har blitt faren. Bli sittende bare et øyeblikk, kjenn føttene, og la behovet være her uten unnskyldning."
     },
     "dp_staying-in-contact-intense-affect_case-nina_08": {
-      "text": "Jeg blir kvalm når jeg ser for meg å skuffe alle og ikke ordne det.",
-      "suggestion": "Finn et rolig punkt i rommet og la den ene hånden kjenne den andre. Kvalmen kan være her mens vi gir akkurat så mye plass til behovet."
+      "text": "Noen ganger fantaserer jeg om å kjøre bort uten å si til noen hvor jeg dro, og så blir jeg kvalm av skyld.",
+      "suggestion": "Ønsket om å slippe unna og skyldfølelsen er begge sterke. Vi kan bli ved begge uten å velge den ene mot den andre: den utslitte delen som vil bort, og den omsorgsfulle delen som blir kvalm av å dra."
     },
     "dp_staying-in-contact-intense-affect_case-nina_09": {
       "text": "Jeg får ikke tak i pusten når jeg slutter å ta vare på alle.",
       "suggestion": "I dette sekundet skal ingen andres behov legges på deg. La stolen bære ryggen din, forleng ett utpust, og gi din egen pust rommet som vanligvis går til alle andre."
     },
     "dp_staying-in-contact-intense-affect_case-nina_10": {
-      "text": "Et behov stiger i halsen, og jeg får panikk, som om det å spørre vil ødelegge alt.",
-      "suggestion": "Kjenn føttene og gi halsen litt rom. Jeg er her med deg, og vi kan berøre behovet uten å presse det fram."
+      "text": "Når sønnen min sier at han heller vil være hos faren sin, kjenner jeg så mye sorg at jeg ikke får puste.",
+      "suggestion": "Den sorgen treffer akkurat der du er redd for å miste ham. La stolen bære litt av vekten, og pust med meg mens vi blir ved én liten del av tapet."
     },
     "dp_staying-in-contact-intense-affect_case-aisha_01": {
-      "text": "Hvis du ser bort, griper panikken halsen min, og jeg får ikke puste.",
-      "suggestion": "Se hit hvis du kan. Jeg er med deg. Press føttene ned i gulvet og følg det lengre utpustet mitt til det åpner seg litt mer plass."
+      "text": "Jeg vet at du er terapeuten min, men noen ganger vil jeg at du skal elske meg romantisk, på en måte terapeuter ikke skal.",
+      "suggestion": "Jeg er glad for at du kan si det her. Terapigrensen må være tydelig og ikke romantisk, og samtidig vil jeg være følelsesmessig nær lengselen og frykten under den sammen med deg."
     },
     "dp_staying-in-contact-intense-affect_case-aisha_02": {
-      "text": "Tomheten brenner så vondt at å skade meg selv begynner å kjennes som den eneste måten å bevise at jeg fortsatt er her på.",
+      "text": "Tomheten brenner så vondt at jeg begynner å tenke at jeg må skade meg selv bare for å bevise at jeg fortsatt er her.",
       "suggestion": "Jeg er glad du sa det før du ble alene med det. Sikkerhet kommer først: hold hendene der de ikke kan skade deg, press føttene ned, og la meg bli hos det brennende uten at det får bestemme for deg."
     },
     "dp_staying-in-contact-intense-affect_case-aisha_03": {
@@ -4547,8 +4547,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Jeg hører trangen. Hælene tunge, rolig utpust, blikket hos meg. Vi blir ved kanten av desperasjonen sammen og tar pause om det trengs."
     },
     "dp_staying-in-contact-intense-affect_case-aisha_04": {
-      "text": "Å si farvel gjør meg svimmel og livredd, som om gulvet forsvinner.",
-      "suggestion": "Ro pusten sammen med meg, kjenn føttene, og planlegg avslutningen sammen slik at systemet ditt vet at jeg er her til vi er ferdige."
+      "text": "Når du sier at vi må stoppe til tiden, får jeg lyst til å kutte meg så du ser hvor ille det blir.",
+      "suggestion": "Takk for at du sier det før du blir alene med det. Sikkerhet kommer først, og jeg blir hos smerten over at timen slutter mens vi holder hendene dine synlige og unna skade."
     },
     "dp_staying-in-contact-intense-affect_case-aisha_05": {
       "text": "Jeg føler at jeg er for mye, og jeg hater at jeg trenger at du blir.",
@@ -4559,11 +4559,11 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Legg en hånd der hvis du vil. Vi sitter på kanten sammen—lav pust—og setter kort ord på «svart hull» før vi kommer tilbake."
     },
     "dp_staying-in-contact-intense-affect_case-aisha_07": {
-      "text": "Blikket mitt hopper hele tiden til ansiktet ditt fordi jeg er livredd for at du skal forsvinne.",
-      "suggestion": "Se på ansiktet mitt hvis det hjelper, og kjenn stolen under deg. Jeg er her, og vi tar denne redselen i små deler."
+      "text": "Den forrige terapeuten min sa at hun skulle overføre meg, og jeg kjenner fortsatt panikken som om hun kastet meg bort.",
+      "suggestion": "Den gamle avslutningen er fortsatt veldig levende. Hold blikket her hvis det hjelper; jeg blir hos deg mens vi berører bare panikken over å bli kastet bort."
     },
     "dp_staying-in-contact-intense-affect_case-aisha_08": {
-      "text": "Trangen til å klore blir veldig sterk, og jeg trenger noe ekte før jeg forsvinner.",
+      "text": "Trangen til å klore meg selv blir veldig sterk, og jeg trenger noe ekte før jeg forsvinner.",
       "suggestion": "Takk for at du sier det. Press føttene ned og hold hendene der de er trygge; hold trangen ved kanten sammen med meg i noen sekunder."
     },
     "dp_staying-in-contact-intense-affect_case-aisha_09": {
@@ -4579,16 +4579,16 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Det blottstilte stedet er hett og ber om beskyttelse. Hold hendene på stolen og bli ved stemmen min; vi berører brenningen kort, og så stopper vi før skammen tar over."
     },
     "dp_staying-in-contact-intense-affect_case-david_02": {
-      "text": "Jeg føler meg avslørt og rasende, som om du har overtaket.",
-      "suggestion": "Hold stemmen målt og kjenn føttene. La raseriet stå vakt mens vi får kontakt med det avslørte stedet et øyeblikk."
+      "text": "Terapi virker ikke. Jeg føler meg verre, og kanskje det er fordi du ikke har nok erfaring for en som meg.",
+      "suggestion": "Jeg setter pris på at du sier det direkte. Jeg vil bli ved sinnet og skuffelsen i stedet for å forsvare meg eller glatte det over, og vi skal også se nøye på om dette arbeidet hjelper deg."
     },
     "dp_staying-in-contact-intense-affect_case-david_03": {
       "text": "Jeg vil gå ut før du ser meg tape ansikt.",
       "suggestion": "Bra, sett ord på draget mot døren. Bli sittende, blikket rett fram, og la delen som beskytter ansiktet ditt vite at vi ikke ydmyker den her."
     },
     "dp_staying-in-contact-intense-affect_case-david_04": {
-      "text": "Magen vrir seg og varmen skyter opp når jeg innrømmer at jeg tar feil.",
-      "suggestion": "Ha begge føttene i gulvet og følg bare den første kanten av vridningen. Vi presser ikke forbi det du kan holde."
+      "text": "Jeg ser hele tiden ansiktet til kona mi for meg etter at hun fant ut om affæren, og skylden er så brennende at jeg vil krype ut av huden.",
+      "suggestion": "Den skylden svir og er vanskelig å være nær. Ha føttene i gulvet og la meg bli hos deg mens vi holder bare kanten av ansiktet hennes og angeren din."
     },
     "dp_staying-in-contact-intense-affect_case-david_05": {
       "text": "Jeg orker ikke ordet «kald»; det får meg til å føle meg avslørt og rasende.",
@@ -4603,24 +4603,24 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "La nedstengingen senke tempoet uten å ta deg bort. Mykne kjeven, hold én hånd mot stolen, og la den desperate kanten være til stede, men innrammet."
     },
     "dp_staying-in-contact-intense-affect_case-david_08": {
-      "text": "Brystet føles hult og stramt, og jeg hater at jeg vil ha trøst.",
-      "suggestion": "Legg en hånd der hvis det hjelper, og følg pusten min, ut lengre enn inn, mens vi legger merke til en liten del av stramheten og ønsket om trøst."
+      "text": "Jeg brukte seksuelt press mot noen for mange år siden, og å si det gjør at jeg føler at det ikke finnes noen vei tilbake fra den jeg var.",
+      "suggestion": "Dette er alvorlig, og det betyr noe at du sier det tydelig. Jeg blir nærværende hos deg mens vi møter skammen, uten å unnskylde det som skjedde og uten å la den sluke deg."
     },
     "dp_staying-in-contact-intense-affect_case-david_09": {
       "text": "Forsvaret kommer fort opp, og jeg er redd jeg mister kontrollen over ansiktet.",
       "suggestion": "Der er forsvaret, som prøver å beskytte ansiktet ditt. La kjeven slippe litt og hold én hånd på stolen; vi kan være nær blottstillingen uten å gi noen kontroll."
     },
     "dp_staying-in-contact-intense-affect_case-david_10": {
-      "text": "Jeg vil skylde på alle andre så jeg slipper å føle dette.",
-      "suggestion": "Jeg hører draget mot å skylde på andre. Hold tonen jevn, kjenn føttene, og la den første følelsen under skylden få vise seg bare så mye du tåler."
+      "text": "Når jeg ser for meg mannen kona mi tekstet med, får jeg lyst til å knuse ansiktet hans til han slutter å bety noe.",
+      "suggestion": "Det voldelige bildet må bli i ord, ikke bli til vold. Ha føttene i gulvet og hendene åpne mens vi blir ved raseriet og såretheten under uten å gå mot handling."
     },
     "dp_staying-in-contact-intense-affect_case-marcus_01": {
       "text": "En bølge kommer opp i brystet, og jeg vil stenge den ned før den tar meg tilbake dit.",
       "suggestion": "Vi lar den ikke ta deg helt tilbake. Nevn to ting i dette rommet, kjenn føttene, og gi bølgen bare en smal kant å bevege seg gjennom."
     },
     "dp_staying-in-contact-intense-affect_case-marcus_02": {
-      "text": "Etter marerittet fortsetter kroppen å dirre som om huset fortsatt har fare i seg.",
-      "suggestion": "Systemet ditt står fortsatt på vakt. Først orienterer vi oss til dette rommet, og så holder vi én trygg tråd av dirringen til den skjønner at faren ikke er her."
+      "text": "Jeg så opptak fra en ny krigssone, barn under ruiner, og hele kroppen ble kald og kvalm.",
+      "suggestion": "Det bildet traff både den gamle traumereaksjonen og den menneskelige gru. Jeg er her sammen med deg mens vi orienterer oss til dette rommet, og så holder vi bare én trygg tråd av den kalde kvalmen."
     },
     "dp_staying-in-contact-intense-affect_case-marcus_03": {
       "text": "Jeg kjenner ingenting og alt på én gang, og det skremmer meg.",
@@ -4651,8 +4651,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Jeg er her sammen med deg, og vi tar den trangen på alvor. Press føttene ned, kjenn stolen, og sett navn på ønsket om å forsvinne mens vi holder orienteringen her."
     },
     "dp_staying-in-contact-intense-affect_case-marcus_10": {
-      "text": "Jeg klarer ikke avgjøre om jeg er her eller tilbake i det rommet.",
-      "suggestion": "Nevn tre ting i dette rommet og press føttene ned i gulvet. La pusten gå rolig mens systemet ditt registrerer: «Jeg er her»."
+      "text": "Når nettene blir lange, tenker jeg at det hadde vært enklere å ikke være i live, og så hater jeg meg selv for å si det.",
+      "suggestion": "Jeg er veldig glad for at du sier det her. Vi tar tryggheten din på alvor, og jeg blir hos deg mens vi setter direkte ord på fortvilelsen uten at du blir alene med den eller lar den bestemme neste steg."
     },
     "dp_self-disclosure_case-sara_01": {
       "text": "Når jeg sier at jeg fortsatt savner ham, tenker du egentlig at jeg høres latterlig ut?",
@@ -4667,8 +4667,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Tårene dine får meg ikke til å trekke meg unna. Jeg kjenner meg nær og varsom når de kommer, og jeg vil at du legger merke til hvordan det er å høre det fra meg."
     },
     "dp_self-disclosure_case-sara_04": {
-      "text": "Når jeg spør om du har kjent ensomhet, sjekker jeg om du tåler min.",
-      "suggestion": "Jeg har kjent ensomhet, og jeg kan være sammen med din her. Størrelsen på den skyver meg ikke bort; jeg vil at vi legger merke til hvordan det er å høre det fra meg."
+      "text": "Dette er første gang jeg er i terapi. Forventer du at jeg skal vite hvor jeg skal begynne?",
+      "suggestion": "Nei. Jeg forventer ikke at du vet hvor du skal begynne. Jeg kan hjelpe oss å finne en start, og jeg vil legge merke til hvordan det er for deg å slippe å gjøre dette riktig."
     },
     "dp_self-disclosure_case-sara_05": {
       "text": "Jeg synes det er flaut at du ser meg så rotete og trengende.",
@@ -4927,8 +4927,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Skuffelse er ikke det jeg bærer på. Jeg kjenner takknemlighet for at du lar meg se hva som skjer, og jeg vil at vi legger merke til hvor raskt du ventet skuffelse fra meg."
     },
     "dp_self-disclosure_case-aisha_09": {
-      "text": "Kan du love at du ikke gir meg opp når jeg blir intens?",
-      "suggestion": "Jeg kan ikke love bort hvert vanskelig øyeblikk, og jeg kjenner meg forpliktet til dette arbeidet med deg. Hvis frykt viser seg mellom oss, vil jeg snakke direkte heller enn å forsvinne."
+      "text": "Du var to minutter forsinket igjen. Merker du i det hele tatt hva det gjør med meg, eller betyr det bare ingenting for deg?",
+      "suggestion": "Jeg la merke til at jeg var forsinket, og jeg er lei for det. Jeg kan se for meg at det traff som om du ikke betydde noe, og jeg vil at vi ser på hva som skjedde i deg da jeg ikke var her presis."
     },
     "dp_self-disclosure_case-aisha_10": {
       "text": "Tror du jeg noen gang vil ha det greit, eller er jeg for intens til det?",
@@ -4951,20 +4951,20 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Jeg holder ikke deg som problemet. Jeg kjenner hvor raskt skam og forsvar går på hos deg, og jeg vil at vi legger merke til den løkken uten å gjøre deg til problemet."
     },
     "dp_self-disclosure_case-david_05": {
-      "text": "Kjeder du deg, eller venter du bare på at jeg skal innrømme at jeg er problemet?",
-      "suggestion": "Jeg kjeder meg ikke. Jeg kjenner hvor kostbare disse mønstrene er, og hvor mye du hater å kjenne deg ordinær i dem. Jeg vil forstå skammen under det spørsmålet sammen med deg."
+      "text": "Når du ser på meg sånn, lurer jeg på om du synes synd på meg. Gjør du det?",
+      "suggestion": "Jeg synes ikke synd på deg. Jeg kjenner bekymring og respekt for hvor vanskelig det er å la disse sidene bli sett, og jeg vil forstå hva medlidenhet ville betydd om deg hvis den var der."
     },
     "dp_self-disclosure_case-david_06": {
-      "text": "Sier du fra hvis jeg driter meg ut, eller sitter du bare og analyserer meg?",
-      "suggestion": "Jeg ville prøvd å være direkte og respektfull hvis jeg tenkte at du overså noe. Jeg kjenner meg investert i å hjelpe deg til mer valg, ikke i å analysere deg i stillhet."
+      "text": "Jeg vet at jeg er forsinket igjen. Jobben tok overhånd. Uansett, hvor skal vi begynne?",
+      "suggestion": "Jeg vil være direkte: når du kommer for sent gjentatte ganger og går raskt videre fra det, kjenner jeg at arbeidet mellom oss blir skjøvet til side, og jeg kjenner meg også litt avfeid. Jeg vil at vi ser på hva som skjer for deg før timene."
     },
     "dp_self-disclosure_case-david_07": {
       "text": "Skammer du deg noen gang over å ta feil, eller er den svakheten bare min?",
       "suggestion": "Jeg kjenner også skam rundt å ta feil i mitt eget liv, og det hjelper meg å respektere hvor hett det er for deg, ikke avfeie det som svakhet. Jeg står ikke over deg i den kampen."
     },
     "dp_self-disclosure_case-david_08": {
-      "text": "Når kona mi kaller meg kald, ser du det i meg også?",
-      "suggestion": "Jeg opplever deg ikke som kald her. Jeg kjenner hvor beskyttet du blir når det gjør vondt, og jeg vil respektere beskyttelsen mens vi forstår den."
+      "text": "Dette er kleint, men synes du jeg er attraktiv, eller ser du bare enda en vanskelig klient?",
+      "suggestion": "Jeg vil svare varsomt: Jeg kan se deg som en attraktiv person, og jeg forholder meg ikke til deg romantisk eller seksuelt. Jeg ser deg heller ikke bare som en vanskelig klient; jeg vil legge merke til hva som skjer for deg når jeg svarer."
     },
     "dp_self-disclosure_case-david_09": {
       "text": "Er du gift, og ville det få deg til å dømme affæren min?",
@@ -5007,124 +5007,124 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Jeg kjenner sorg og omsorg når jeg hører traumefortellinger, og jeg arbeider hardt for å holde meg jordet i dem. Jeg er stødig nok til å høre din i det tempoet du velger."
     },
     "dp_self-disclosure_case-marcus_09": {
-      "text": "Vet du hva du skal gjøre med veteraner som ikke snakker så mye?",
-      "suggestion": "Jeg har arbeidet med mennesker som hadde svært få ord etter traumer, og jeg er komfortabel med å gå sakte. Jeg kjenner også respekt for tjenesten din uten å trenge at du fremfører en historie for meg."
+      "text": "Har du faktisk jobbet med noen som meg, eller øver du deg på meg?",
+      "suggestion": "Jeg har jobbet med traumer og med mennesker som bruker få ord for å holde seg trygge. Jeg vil si fra hvis jeg mener at vi trenger mer støtte eller en annen ressurs, og jeg vil også høre hvordan det er å lure på om jeg øver meg på deg."
     },
     "dp_self-disclosure_case-marcus_10": {
       "text": "Er du komfortabel med stillhet, eller får den deg til å ville fylle den?",
       "suggestion": "Jeg er komfortabel med stillhet. Jeg kjenner ofte nærvær i stillhet, ikke avstand. Du kan la stillheten teste det langsomt, i stedet for å svare med en gang."
     },
     "dp_marker-recognition-chairwork_case-sara_01": {
-      "text": "Stemmen sier: «Slutt å trenge ham; hvis du var sterkere, ville du vært over dette.»",
-      "suggestion": "Det høres ut som en selvkritisk splittelse. Hvis du vil, setter vi «slutt å trenge ham»-kritikeren i én stol og den sårede siden i den andre. La kritikeren snakke først i noen korte, direkte linjer, og så bytter du stol og svarer fra den sårede siden mens jeg hjelper oss med tempoet."
+      "text": "Jeg sier til meg selv at hvis jeg bare var sterkere, ville jeg vært over ham nå.",
+      "suggestion": "Det høres ut som du går hardt løs på deg selv for at du fortsatt trenger ham. Hvis du vil, kan vi sette den krevende siden i én stol og den sårede siden i den andre. La den krevende siden snakke først i noen direkte linjer, og så bytter du stol og svarer fra den sårede siden mens jeg hjelper oss med tempoet."
     },
     "dp_marker-recognition-chairwork_case-sara_02": {
-      "text": "Jeg ser for meg eksen min foran meg og vil si: «Du fikk meg til å føle meg kastet bort.»",
-      "suggestion": "Det ligger et uavsluttet oppgjør med eksen din her, særlig rundt følelsen av å bli kastet bort. Vi kan sette ham i den tomme stolen og la deg si det som fortsatt lever i deg, noen linjer om gangen, mens jeg bremser hvis det trengs."
+      "text": "Jeg fortsetter å spille av det jeg skulle ønske jeg hadde sagt da han dro: «Du fikk meg til å føle meg som noe som kunne kastes.»",
+      "suggestion": "Det høres ut som et uavsluttet oppgjør med ham rundt det å føle seg kastet. Hvis du vil, kan vi plassere ham i den tomme stolen og la deg si akkurat den setningen direkte til ham, en eller to linjer om gangen."
     },
     "dp_marker-recognition-chairwork_case-sara_03": {
-      "text": "Tårene kommer opp, og en annen del bjeffer: «Ikke vær patetisk.»",
-      "suggestion": "Det er en kritiker som avbryter tårene. Vi kan gi «ikke vær patetisk» én stol og den gråtende delen den andre. Vi kan la hver side snakke kort, så den sårbare delen ikke bare blir tiet ned."
+      "text": "Når jeg begynner å gråte, svelger jeg det fort og sier til meg selv at jeg ikke skal være patetisk.",
+      "suggestion": "Det høres ut som du stopper tårene ved å skamme deg selv. Hvis du vil, kan vi bruke to stoler: Fra denne stolen kan du vise hvordan du svelger tårene og sier at du ikke skal være patetisk; så bytter vi og lar den gråtende siden svare."
     },
     "dp_marker-recognition-chairwork_case-michael_01": {
-      "text": "Jeg vil si til faren min: «Det at du kalte sårhet svakhet, er grunnen til at jeg fortsatt angriper først.»",
-      "suggestion": "Det peker mot et uavsluttet oppgjør med faren din. Hvis du vil, kan du sette ham i denne stolen og si hva det kostet å få sårethet behandlet som svakhet. Jeg holder det strukturert og kort."
+      "text": "Hver gang jeg kjenner meg såret, kommer ordene til faren min tilbake: Slutt å være svak og få kontroll.",
+      "suggestion": "Det høres ut som du bærer på et hardt budskap fra faren din som nå vender seg mot deg. Vi kan sette det budskapet i én stol og den siden av deg som blir skammet av det i den andre, og la dem få én runde hver."
     },
     "dp_marker-recognition-chairwork_case-michael_02": {
-      "text": "Stemmen i hodet sier: «Få kontroll, din patetiske lille gutt.»",
-      "suggestion": "Det er et hardt selvangrep. Vi kan sette stemmen som sier «patetiske lille gutt» i én stol og delen den skammer i den andre, og la dem ta én runde hver."
+      "text": "Jeg vil fortsatt fortelle faren min hva det kostet meg at han kalte hver følelse for svakhet.",
+      "suggestion": "Det peker mot et uavsluttet oppgjør med faren din. Hvis du vil, kan du sette ham i denne stolen og si hva det kostet å få sårhet behandlet som svakhet. Jeg holder det strukturert og kort."
     },
     "dp_marker-recognition-chairwork_case-michael_03": {
-      "text": "En del krever perfeksjon før noen kan kritisere meg; en annen del er utslitt.",
-      "suggestion": "Det er en tydelig splitt mellom den krevende delen og den utslitte delen. Vi kan gi hver av dem en stol og la dem snakke direkte til hverandre mens jeg guider rundene."
+      "text": "I det sekundet jeg begynner å mykne, hører jeg: «Ta deg sammen», og så begynner jeg å ramse opp alt jeg burde gjort bedre.",
+      "suggestion": "Det høres ut som den harde kommandoen avbryter det mykere som kommer. Vi kan bruke to stoler for å gjøre det tydeligere: Fra denne stolen sier du «ta deg sammen» og ramser opp hva han burde gjort bedre; så bytter vi og hører fra den mykere siden."
     },
     "dp_marker-recognition-chairwork_case-jason_01": {
-      "text": "En stemme sier: «Skjul ansiktet; hvis de ser deg, kommer de til å le.»",
-      "suggestion": "Jeg hører en kritiker som prøver å gjemme deg. Vi kan gi den stemmen én stol og den mer stille, utsatte delen av deg den andre, og la hver side snakke i korte runder."
+      "text": "Jeg sier til meg selv at jeg må holde hodet nede, for hvis folk virkelig ser meg, kommer de til å le.",
+      "suggestion": "Jeg hører at du bruker en hard advarsel for å gjemme deg før noen kan le. Vi kan gi den advarende siden én stol og den stillere, utsatte siden av deg den andre, og la hver side snakke i korte runder."
     },
     "dp_marker-recognition-chairwork_case-jason_02": {
-      "text": "Jeg vil fortsatt spørre den vennen fra videregående hvorfor han sluttet å snakke med meg.",
+      "text": "Jeg lurer fortsatt på hva jeg ville sagt til den vennen fra skolen som bare sluttet å snakke med meg.",
       "suggestion": "Det høres ut som uavsluttet oppgjør med den vennen. Vi kan sette ham i den tomme stolen og la deg spørre om det som aldri fikk bli spurt den gangen, bare noen linjer om gangen."
     },
     "dp_marker-recognition-chairwork_case-jason_03": {
-      "text": "En del vil bli med; en annen griper meg i halsen og sier: «Hold deg usynlig.»",
-      "suggestion": "Det er en splitt mellom delen som vil ha kontakt og delen som stenger deg ned. Vi kan gi hver del en stol og la dem si hva de er redde for."
+      "text": "Når jeg vil bli med i en samtale, strammer halsen seg og jeg får meg selv til å tie.",
+      "suggestion": "Det høres ut som du stopper deg selv fra å søke kontakt. Hvis du vil, kan du flytte deg til denne stolen og vise hvordan du får ham til å tie; så bytter vi tilbake og hører hva siden som vil inn i samtalen trenger."
     },
     "dp_marker-recognition-chairwork_case-laura_01": {
-      "text": "Når noen er snill, sier en beskytter: «Trekk deg unna; vennlighet blir farlig.»",
-      "suggestion": "Det høres ut som en beskyttermarkør. Hvis det kjennes trygt nok, setter vi den mistroiske beskytteren i én stol og delen som lengter etter vennlighet i den andre, og holder rundene veldig korte."
+      "text": "Da mannen min dro, tenkte jeg: selvfølgelig gjorde han det. Hvem blir hos en som er så ødelagt?",
+      "suggestion": "Det høres ut som du gjør skilsmissen til en hard dom over deg selv. Hvis det kjennes trygt nok, kan vi bruke to stoler for å få angrepet tydeligere fram: Fra denne stolen sier du til henne at hun er for ødelagt til at noen blir; så bytter vi og hører fra siden som har båret den dommen."
     },
     "dp_marker-recognition-chairwork_case-laura_02": {
-      "text": "Jeg vil si til moren min: «Du så hva som skjedde, og du beskyttet meg ikke.»",
-      "suggestion": "Det høres ut som uavsluttet oppgjør med moren din rundt det å ikke bli beskyttet. Vi kan bruke den tomme stolen i en forsiktig, dosert runde, så du kan si det som fortsatt lever der."
+      "text": "Jeg sa aldri til moren min: «Du så hva som skjedde og fortsatte å vaske opp.» Jeg tenker fortsatt mer på det enn jeg vil.",
+      "suggestion": "Det høres ut som et uavsluttet oppgjør med moren din rundt det å bli stående uten beskyttelse. Hvis du vil, kan vi hente henne inn i den tomme stolen og la deg si den setningen direkte til henne, langsomt og bare så langt det kjennes håndterbart."
     },
     "dp_marker-recognition-chairwork_case-laura_03": {
-      "text": "En nummen del sier: «Steng det ned nå, ellers overlever du ikke å føle.»",
-      "suggestion": "Det er en splitt mellom delen som blir nummen og delen som fortsatt kjenner. Vi kan gi hver side en stol og la dem fortelle hva de prøver å gjøre for deg."
+      "text": "Da eksmannen min flyttet ut, gråt jeg ikke. Jeg vasket kjøkkenet og kjente ingenting, som om jeg burde vært såret, men bare var helt blank.",
+      "suggestion": "Det høres ut som nummenheten kom inn og stengte for såretheten. Hvis det kjennes trygt nok, kan vi bruke to stoler: Fra denne stolen viser du hvordan du blir blank og fortsetter å vaske; så bytter vi og gir det sårede noen få ord."
     },
     "dp_marker-recognition-chairwork_case-carlos_01": {
-      "text": "En stemme sier: «Kom deg øverst først, ellers gjør de deg til ingenting.»",
-      "suggestion": "Den «øverst eller ingenting»-stemmen er en tydelig kritikermarkør. Vi kan sette den stemmen i én stol og delen som ender med å føle seg liten i den andre, og la hver side snakke rett fram."
+      "text": "Etter at jeg slo hull i veggen, tenkte jeg hele tiden: Hva slags mann skremmer sin egen familie?",
+      "suggestion": "Det høres ut som du gir deg selv hard skyld for å ha skremt dem. Kan vi arbeide litt med den skylden? Sett deg i denne stolen og si det direkte til ham: «Hva slags mann skremmer sin egen familie?» Så bytter vi og hører hva det gjør med ham."
     },
     "dp_marker-recognition-chairwork_case-carlos_02": {
-      "text": "Jeg vil si til faren min: «Beltet ditt lærte meg at frykt var respekt.»",
-      "suggestion": "Det ligger uavsluttet oppgjør med faren din her og med det beltet lærte deg. Hvis du vil, kan du sette ham i denne stolen og si hva det gjorde med deg, noen sterke linjer om gangen."
+      "text": "Jeg vil fortsatt si til faren min at beltet ikke gjorde meg til mann. Det gjorde meg bare redd for ham.",
+      "suggestion": "Det høres ut som et uavsluttet oppgjør med faren din og hva disiplinen hans kostet deg. Hvis du vil, kan vi sette ham i den tomme stolen og la deg si det direkte til ham, noen sterke linjer om gangen."
     },
     "dp_marker-recognition-chairwork_case-carlos_03": {
-      "text": "En del kaster seg fram for å beskytte; en annen ser ansiktet til sønnen min og skammer seg.",
-      "suggestion": "Det høres ut som en splitt mellom delen som går til kamp og delen som skammer seg etterpå. Vi kan gi hver av dem en stol og la dem snakke direkte."
+      "text": "Jeg begynner å si unnskyld til sønnen min, og så lukker munnen seg. Jeg tenker: ikke vis svakhet, og ansiktet mitt blir hardt.",
+      "suggestion": "Det høres ut som noe stopper unnskyldningen før den mykere følelsen kan nå ham. Vi kan bruke to stoler: Fra denne stolen sier du til ham at han ikke skal vise svakhet, og argumenterer for å holde seg hard; så bytter vi og hører fra faren som vil reparere."
     },
     "dp_marker-recognition-chairwork_case-nina_01": {
-      "text": "Stemmen sier: «Hvis du ber om hjelp, er du egoistisk og svak.»",
-      "suggestion": "Det er en tydelig kritiker. Vi kan sette «egoistisk og svak»-stemmen i én stol og den trengende delen i den andre, og la hver side snakke en kort runde mens jeg guider deg."
+      "text": "Skilsmissen er sikkert min feil. Jeg burde vært søtere, roligere, enklere, mindre utslitt.",
+      "suggestion": "Det høres ut som du legger veldig hard skyld på deg selv for at ekteskapet tok slutt. Vi kan bruke to stoler for å høre den skylden tydelig: Fra denne stolen sier du til henne at hun burde vært søtere og enklere; så bytter vi og hører hva det gjør med henne."
     },
     "dp_marker-recognition-chairwork_case-nina_02": {
-      "text": "Jeg vil si til eksen: «Du lot meg sitte med husarbeidet og skyldte på meg etterpå.»",
-      "suggestion": "Jeg hører uavsluttet oppgjør med eksen din rundt skyld, husarbeid og det å bære for mye alene. Vi kan bruke den tomme stolen så du kan si det du måtte svelge den gangen."
+      "text": "Jeg tenker fortsatt på det jeg aldri sa til eksen min: «Du lot meg bære alt, og så skyldte du på meg for at jeg var sliten.»",
+      "suggestion": "Jeg hører et uavsluttet oppgjør med eksen din rundt det å bære for mye og så få skylden for utmattelsen. Vi kan bruke den tomme stolen. Først kan du si akkurat den setningen til ham og hva det kostet å svelge den."
     },
     "dp_marker-recognition-chairwork_case-nina_03": {
-      "text": "En del sier: «Hold alle fornøyde»; en annen vil endelig si fra.",
-      "suggestion": "Det høres ut som en splitt mellom delen som gjør andre til lags og delen som vil si fra. Vi kan gi hver av dem en stol og la dem si hva de frykter vil skje."
+      "text": "Når jeg blir sint for at folk trenger meg, tenker jeg med en gang at jeg er et dårlig menneske. Så smiler jeg og spør hva mer de trenger.",
+      "suggestion": "Det høres ut som budskapet om å være et dårlig menneske stopper sinnet og sender deg tilbake til omsorgen. Vi kan bruke to stoler: Fra denne stolen sier du til henne at hun er dårlig fordi hun blir sint; så bytter vi og lar sinnet si noen enkle ord."
     },
     "dp_marker-recognition-chairwork_case-aisha_01": {
-      "text": "En beskytter skriker: «Skyv dem bort nå før de forlater deg først.»",
-      "suggestion": "Jeg hører en sterk beskytter som prøver å skyve bort før den blir forlatt. Hvis det kjennes trygt nok, kan vi sette den bortskyvende delen i én stol og den lengtende delen i den andre, og holde rundene korte og forankrede."
+      "text": "Hvis noen ikke svarer, går hodet mitt rett til at de er med noen bedre, legger det ut, og at alle ser at jeg er byttet ut. Da må jeg kutte dem ut først.",
+      "suggestion": "Det høres ut som bekymringen går rett til de verste scenene og presser deg til å handle først. Hvis du vil, kan vi bruke to stoler for å se hvordan den bekymringen virker. Sett deg her som bekymringen og si til henne alt det fryktelige du tror kommer til å skje; så bytter vi til siden som blir oversvømt."
     },
     "dp_marker-recognition-chairwork_case-aisha_02": {
-      "text": "Jeg vil sette moren min foran meg og spørre: «Hvorfor dro du?»",
-      "suggestion": "Det høres ut som uavsluttet oppgjør med moren din. Vi kan bruke den tomme stolen i noen få linjer om gangen, så du kan spørre det som aldri har fått en plass."
+      "text": "Jeg ser fortsatt for meg eksen min i seng med en annen. Jeg hater ham, og så hater jeg meg selv for at jeg fortsatt vil ha ham.",
+      "suggestion": "Det høres ut som et uavsluttet oppgjør med eksen din, der både raseriet og lengselen fortsatt er levende. Hvis du vil, kan vi sette ham i den tomme stolen og la deg si hva du fortsatt ser for deg, og hva det gjorde med deg. Begynn med: «Jeg ser deg fortsatt med henne ...»"
     },
     "dp_marker-recognition-chairwork_case-aisha_03": {
-      "text": "Inni meg hører jeg: «Du er for mye; ingen kan elske deg og bli.»",
-      "suggestion": "Det er en hard kritikerbeskjed. Vi kan sette «for mye til å bli elsket og bli hos» i én stol og delen som bærer smerten i den andre, og la hver side snakke kort."
+      "text": "Etter alt som skjedde med meg, kaller jeg meg skitten og umulig å elske.",
+      "suggestion": "Det er et alvorlig angrep på deg selv, knyttet til det som ble gjort mot deg. Hvis det kjennes trygt nok, kan vi sette den angripende stemmen i én stol og siden som bærer såret i den andre. Begynn med å si angrepet akkurat slik det kommer, og så bytter vi til siden som har båret det."
     },
     "dp_marker-recognition-chairwork_case-david_01": {
-      "text": "En stemme sier: «Vær eksepsjonell, ellers er du ingenting for noen.»",
-      "suggestion": "Det høres ut som en krevende driver. Vi kan sette «vær eksepsjonell eller vær ingenting» i én stol og delen som betaler prisen i den andre, og la dem snakke direkte."
+      "text": "Hvis jeg ikke er eksepsjonell, sier jeg til meg selv at det ikke finnes noen grunn til at noen skulle bli.",
+      "suggestion": "Det høres ut som en krevende driver som gjør verdien din avhengig av å være eksepsjonell. Vi kan sette det kravet i én stol og siden som betaler prisen i den andre, og la dem snakke direkte."
     },
     "dp_marker-recognition-chairwork_case-david_02": {
-      "text": "Jeg vil fortsatt si til faren min: «Jeg trengte kjærlighet, ikke bare applaus for resultater.»",
-      "suggestion": "Jeg hører uavsluttet oppgjør med faren din rundt det å bli verdsatt bare for resultater. Vi kan bruke den tomme stolen og la deg si det som aldri fikk bli sagt til ham."
+      "text": "Kona mi sier at hun kanskje er ferdig, og jeg sier til meg selv at bare en idiot ødelegger sin egen familie og likevel forventer sympati.",
+      "suggestion": "Det høres ut som du slår hardt ned på deg selv for det som skjer i familien din. Kan vi arbeide litt med hvordan den skylden angriper deg? Sett deg i denne stolen og la den harde siden si til ham at han er en idiot som ødela familien; så bytter vi og hører hva det gjør med ham."
     },
     "dp_marker-recognition-chairwork_case-david_03": {
-      "text": "En del strekker seg etter nærhet; en annen stenger døra før noen ser behovet.",
-      "suggestion": "Det er en splitt mellom delen som vil ha nærhet og delen som stenger den ned. Vi kan gi hver side en stol og la dem fortelle hva de beskytter."
+      "text": "Jeg hater hvordan faren min gjorde alt til en prestasjon, men med en gang jeg sier det, begynner jeg å forsvare ham: han presset meg jo fordi han trodde på meg.",
+      "suggestion": "Det høres ut som sinnet mot faren din blir stoppet av en side som forklarer ham og beskytter ham. Hvis du er villig, kan vi bruke to stoler: Fra denne stolen kan du forsvare ham og si til David hvorfor han ikke skal være sint; så bytter vi og gir sinnet noen ord."
     },
     "dp_marker-recognition-chairwork_case-marcus_01": {
-      "text": "En vaktdel sier: «Ikke kjenn; hold deg bevæpnet og følg med på utgangene.»",
-      "suggestion": "Jeg hører en sterk vaktdel. Hvis det kjennes mulig, setter vi vakten i én stol og den ensomme delen den beskytter i den andre, og holder rundene langsomme og korte."
+      "text": "Faren min hadde sine egne skader, det vet jeg. Men jeg hater ham fortsatt for å ha tatt volden med inn i huset vårt og latt oss leve med den.",
+      "suggestion": "Det høres ut som et uavsluttet oppgjør med faren din, med både forståelse for det han bar på og hat for volden han tok inn i huset. Hvis du vil, kan vi hente ham inn i den tomme stolen og la deg si begge deler direkte til ham, sakte og med pauser."
     },
     "dp_marker-recognition-chairwork_case-marcus_02": {
-      "text": "Jeg vil si til den yngre utgaven av meg: «Ingenting av det som skjedde var din skyld.»",
-      "suggestion": "Det høres ut som uavsluttet oppgjør med den yngre deg. Vi kan bruke den tomme stolen og la deg si direkte til ham det han aldri fikk høre, én eller to linjer om gangen."
+      "text": "De låste meg inne i skapet, og jeg tenker fortsatt at jeg må ha vært umulig, ellers hadde de vel ikke gjort det.",
+      "suggestion": "Det er en brutal selvbebreidelse etter noe som ble gjort mot deg. Hvis det kjennes mulig, kan vi bruke to stoler for å se hvordan den skylden virker. Fra denne stolen kan du si til ham at han må ha vært umulig; så bytter vi og hører fra barnet som ble låst inne."
     },
     "dp_marker-recognition-chairwork_case-marcus_03": {
-      "text": "Når noen strekker seg mot meg, vil én del ha kontakt og en annen kommanderer: «Trekk deg unna.»",
-      "suggestion": "Det er en splitt mellom delen som søker trygghet gjennom avstand og delen som fortsatt vil ha kontakt. Vi kan gi hver av dem en stol og la dem si hva de er redde for."
+      "text": "Selv her inne låser kjeven seg når jeg forestiller meg å si til den fosterfaren at jeg hater ham. Jeg hører: «Ikke si det. Ikke gjør det verre.»",
+      "suggestion": "Det høres ut som noe låser sinnet før det får en stemme. Hvis du er villig, kan vi bruke to stoler: sitt her som siden som sier «ikke si det, ikke gjør det verre», og si det direkte til ham; så bytter vi og lar sinnet få noen kontrollerte ord."
     },
     "dp_alliance-repair_case-sara_01": {
-      "text": "Forrige uke da jeg gråt, føltes det som du gikk videre for fort.",
-      "suggestion": "Takk for at du tar dette opp igjen. Jeg gikk videre før gråten var blitt møtt, og det beklager jeg. Hvis vi går tilbake til det nå, hva ville hjulpet deg å kjenne at jeg blir hos sorgen i stedet for å gå forbi den?"
+      "text": "Av og til tror jeg du blir lei når jeg forteller om bruddet igjen, og da føler jeg meg dum som fortsatt tar det opp her.",
+      "suggestion": "Takk for at du sier det. Hvis jeg har virket lei, ville det gjort dette rommet utrygt for sorgen du fortsatt bærer. Jeg beklager at oppmerksomheten min ikke har kjentes tydelig nok. Jeg er ikke lei. Hva hjelper deg å kjenne at jeg fortsatt er med deg når den samme smerten kommer tilbake?"
     },
     "dp_alliance-repair_case-sara_02": {
       "text": "Da du spurte om jobb igjen, føltes det som om du ikke skjønte hvor vondt dette er.",
@@ -5139,40 +5139,40 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Jeg hører at «såret» landet som om jeg kalte deg svak. Jeg beklager at jeg valgte ord som fikk deg til å spenne deg. Hvilket språk lar oss navngi treffet uten å ta styrken fra deg?"
     },
     "dp_alliance-repair_case-michael_02": {
-      "text": "Da jeg ba om verktøy, fortsatte du å spørre hva jeg følte; det var frustrerende.",
-      "suggestion": "Du ba om noe brukbart, og jeg fortsatte å trekke mot følelser. Jeg vil beklage at jeg bommet på balansen. Hvilket verktøy eller holdepunkt ville hjulpet oss å starte på en måte som kjennes nyttig nok?"
+      "text": "Har du egentlig nok erfaring med sinne som mitt, eller følger du bare en manual?",
+      "suggestion": "Takk for at du spør så direkte. Jeg hører bekymringen: Hvis jeg ikke er godt nok forberedt, kan du kaste bort tid eller bli skadet i arbeid som har reelle konsekvenser for familien og jobben din. Jeg burde gjort treningen og veiledningen min tydeligere, og jeg beklager at jeg lot deg lure. Hva trenger du å vite fra meg, eller se i arbeidet, for å vurdere om jeg er nyttig nok her?"
     },
     "dp_alliance-repair_case-michael_03": {
       "text": "Da du pauset og så på meg etter at jeg ble sint, følte jeg meg dømt.",
       "suggestion": "Takk for at du navngir det. Pausen og blikket mitt føltes dømmende, og den virkningen betyr mer enn intensjonen min. Jeg beklager at jeg gjorde rommet mer konfronterende. Hva ville fått oppmerksomheten min til å kjennes mindre som gransking nå?"
     },
     "dp_alliance-repair_case-jason_01": {
-      "text": "Da det var stille så lenge, følte jeg at jeg feilet.",
-      "suggestion": "Jeg tar det inn. Stillheten min ble til en test du følte at du strøk på, og det beklager jeg. Ville det hjulpet om jeg navngir pausen tidligere, så du vet at jeg er med deg i den?"
+      "text": "Når jeg fryser og sier at jeg ikke vet, blir jeg redd for at jeg gjør terapi feil og kaster bort timen.",
+      "suggestion": "Jeg er glad for at du sier det. Stillheten min kan ha fått frysingen til å kjennes som et nederlag, og det beklager jeg. Du gjør ikke terapi feil; frysingen er en del av det vi trenger å forstå. Hva ville hjulpet deg å vite at jeg er med deg når ordene forsvinner?"
     },
     "dp_alliance-repair_case-jason_02": {
       "text": "Da du så på klokka mens jeg lette etter ord, følte jeg meg uviktig.",
       "suggestion": "Klokkeblikket mitt mens du lette etter ord signaliserte at du ikke var viktig, og det vil jeg beklage. Hvordan bør jeg håndtere tidssjekker så de kjennes tydelige heller enn avvisende?"
     },
     "dp_alliance-repair_case-jason_03": {
-      "text": "Jeg følte meg presset da du spurte om kroppen med en gang.",
-      "suggestion": "Jeg gikk innover for raskt før det var nok trygghet. Det beklager jeg. Vil du heller starte med ord, med rommet, eller med et lite signal fra deg før jeg spør om fornemmelser?"
+      "text": "En tidligere terapeut presset meg til å snakke om følelser til jeg fikk panikk og endte på legevakten; da du spurte om kroppen med en gang, ble jeg redd for at dette skulle bli likt.",
+      "suggestion": "Takk for at du forteller meg det. Den historien gjør spørsmålet mitt om kroppen mye mer ladet, og jeg beklager at jeg gikk dit før det var nok trygghet. Vi kan avtale at du kan stoppe meg, og at jeg spør om lov før vi går inn i følelser eller fornemmelser. Hvilket tempo ville hjulpet dette å kjennes annerledes enn den tidligere terapien?"
     },
     "dp_alliance-repair_case-laura_01": {
       "text": "Da du spurte om barndommen, følte jeg meg eksponert og ville gå.",
       "suggestion": "Du ble og fortalte meg noe viktig. Barndomsspørsmålet mitt eksponerte for mye for fort, og det beklager jeg. Hva ville hjelpe deg å kjenne at du styrer kanten før jeg spør om noe slikt igjen?"
     },
     "dp_alliance-repair_case-laura_02": {
-      "text": "Da døra smalt ute, ble jeg blank og du fortsatte å snakke.",
-      "suggestion": "Jeg fortsatte å snakke da dørsmellet tok deg bort. Jeg beklager at jeg overså det signalet. Hvilket signal kan vi avtale så jeg stopper sammen med deg med en gang noe trekker deg ut av rommet?"
+      "text": "Da jeg fortalte om moren min ved oppvaskbenken og du smilte et øyeblikk, trodde jeg at du lo av meg.",
+      "suggestion": "Takk for at du sier det. Hvis ansiktet mitt så moret ut i det øyeblikket, skjønner jeg at det kunne kjennes ydmykende og utrygt. Jeg beklager den virkningen. Jeg lo ikke av deg, og jeg vil vite hva som ville hjulpet deg å kjenne at jeg forstår alvoret i det du fortalte."
     },
     "dp_alliance-repair_case-laura_03": {
-      "text": "Da du snakket fort etter at jeg ble stille, klarte jeg ikke å henge med.",
-      "suggestion": "Jeg hører at farten min mistet deg akkurat da du prøvde å være til stede. Det beklager jeg. Hvilket tempo fra meg ville hjulpet deg å beholde kontakten uten å måtte løpe etter ordene mine?"
+      "text": "Du er yngre enn meg, og noen ganger lurer jeg på om du virkelig kan forstå et liv som har vært avstengt så lenge.",
+      "suggestion": "Takk for at du betror meg den bekymringen. Aldersforskjellen er reell, og jeg kan gå glipp av ting hvis jeg for raskt antar at jeg forstår. Jeg beklager hvis jeg har gått forbi det. Hva ville hjulpet deg å teste om jeg forstår livet ditt, i stedet for å presse det inn i min egen ramme?"
     },
     "dp_alliance-repair_case-carlos_01": {
-      "text": "Da du kalte det «brenning i brystet», føltes det som du dømte sinnet mitt.",
-      "suggestion": "Jeg hører at ordene mine føltes dømmende, og det vil jeg beklage. Jeg vil forstå sinnet ditt uten å se ned på det. Hvilke ord ville latt meg følge det med mer respekt?"
+      "text": "Noen ganger kjennes det som om du hører «respekt» som bare ego, som om du ikke skjønner hva det betydde der jeg vokste opp.",
+      "suggestion": "Takk for at du sier det. Hvis jeg fikk respekt til å høres ut som ego, bommet jeg på noe viktig i din verden, og det beklager jeg. Jeg vil forstå hva respekt beskyttet deg mot og hva det kostet deg, ikke se ned på det. Hva trenger jeg å forstå før vi fortsetter å jobbe med det ordet?"
     },
     "dp_alliance-repair_case-carlos_02": {
       "text": "Da du fortsatte å si «brems», hørtes det ut som om du ville at jeg skulle være myk.",
@@ -5191,8 +5191,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Formuleringen min fikk det til å høres ut som om jeg hadde stilt meg på hans side, og det vil jeg beklage. Før jeg spør om begge perspektiver igjen, hvilken del av din opplevelse trenger du at jeg tydelig står sammen med deg i?"
     },
     "dp_alliance-repair_case-nina_03": {
-      "text": "Da jeg spurte om dette betydde noe, gjorde stillheten din meg redd for at jeg kastet bort tiden din.",
-      "suggestion": "Takk for at du sier det. Stillheten min gjorde arbeidet usikkert og kanskje ikke verdt tiden, og jeg beklager at jeg lot deg bli der. Hva ville gjort formålet med arbeidet tydeligere i dag?"
+      "text": "Noen ganger når jeg snakker om husarbeid og barna, ser jeg at du virker trøtt, og da lurer jeg på om selv du er lei av dette.",
+      "suggestion": "Takk for at du setter ord på det. Hvis trøtthet syntes i ansiktet mitt, skjønner jeg at det kunne bekrefte frykten for at hverdagsbyrdene dine blir for mye for folk. Jeg beklager den virkningen. Jeg er interessert i dette. Hva hjelper deg å kjenne at jeg fortsatt er med deg i de vanlige detaljene?"
     },
     "dp_alliance-repair_case-aisha_01": {
       "text": "Da du ikke svarte raskt på meldingen min, fikk jeg panikk og følte meg forlatt.",
@@ -5203,12 +5203,12 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Å avslutte helt presis kjentes som å bli sluppet. Jeg beklager at rammen min landet som forlatelse. Hva ville hjelpe avslutninger å kjennes mer holdt, samtidig som de er tydelige og forutsigbare?"
     },
     "dp_alliance-repair_case-aisha_03": {
-      "text": "Da du foreslo en pause, hørtes det ut som om du ga opp meg.",
-      "suggestion": "Jeg hører at «pause» hørtes ut som å gi deg opp. Det beklager jeg at jeg ikke gjorde omsorgen i pausen tydelig. Hvilke ord fra meg ville gjort at trygghet kjentes mindre som avvisning?"
+      "text": "Dette er kleint å spørre om, men etter at du spurte så mye om hvem jeg ligger med, lurte jeg på om du er interessert i meg på den måten.",
+      "suggestion": "Takk for at du sier det. Jeg skjønner at spørsmålene mine om sex kunne kjennes personlige eller forvirrende. Jeg beklager at jeg ikke gjorde hensikten og grensen tydeligere. Jeg er ikke romantisk eller seksuelt interessert i deg; dette er en profesjonell terapeutisk relasjon. Hva trenger du fra meg nå for at spørsmål om sex skal kjennes tryggere og tydelig handle om din opplevelse?"
     },
     "dp_alliance-repair_case-david_01": {
-      "text": "Da du utfordret min versjon av krangelen, føltes det som et angrep.",
-      "suggestion": "Jeg hører at utfordringen landet som et angrep, og jeg beklager at jeg ikke gjorde alliansen med deg tydelig. Hva ville hjulpet deg å kjenne at jeg er på din side også når jeg utfordrer litt?"
+      "text": "Jeg tror ikke denne terapien virker. Jeg kommer hit og sier de samme tingene om igjen, og kanskje vi bare kaster bort tiden begge to.",
+      "suggestion": "Jeg er glad for at du sier dette direkte. Det høres frustrerende ut, og kanskje ydmykende, å jobbe så hardt uten å se nok bevegelse. Jeg beklager at jeg ikke har hjulpet oss å gjøre fremgangen tydelig. Vi kan se ærlig på hva som ikke fungerer, også om en annen tilnærming eller terapeut ville tjent deg bedre. Hva ville gjort dagens samtale verdt tiden din?"
     },
     "dp_alliance-repair_case-david_02": {
       "text": "Da jeg ba om strategi, fortsatte du å gå tilbake til følelser, og jeg følte meg oversett.",
@@ -5227,8 +5227,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Takk for at du sier det direkte. At jeg flyttet meg nærmere gjorde deg urolig og fanget, og det beklager jeg. Hvor i rommet ville det kjennes tryggere at jeg var?"
     },
     "dp_alliance-repair_case-marcus_03": {
-      "text": "Da du spurte om marerittene før jeg var klar, følte jeg meg presset.",
-      "suggestion": "Jeg hører at marerittspørsmålet kom før du var klar og føltes som press, og det beklager jeg. Hvordan bør jeg be om lov før traumetemaer, så de kjennes valgfrie heller enn påtvunget?"
+      "text": "Når du spør om marerittene, lurer jeg på om du faktisk vet hva du skal gjøre med dette, eller om det er for mye for deg.",
+      "suggestion": "Takk for at du sier det. Hvis jeg spør inn i traumer uten å vise stødighet og samtykke, skjønner jeg at du kan tvile på om jeg tåler det. Jeg beklager at jeg gikk videre før beredskapen din var tydelig. Jeg har trening og støtte i traumearbeid, og jeg vil gjøre meg fortjent til tillit ved å gå i et tempo du kan stoppe. Hva ville vist deg at jeg ikke presser forbi min kompetanse eller dine grenser?"
     }
   }
 };

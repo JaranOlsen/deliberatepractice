@@ -1,0 +1,186 @@
+# Gold-Standard Content Comparison
+
+Date: 2026-06-03
+
+## Purpose
+
+This audit compares the current case-matrix content with the Goldman benchmark material generated into `src/data/benchmarkBank.js` from `src/md/EFT_Exercises_Extracted.md`.
+
+The comparison focuses on client statements as skill markers. Suggested therapist responses were considered only where statement drift suggests an instruction or response-standard problem.
+
+## Method
+
+- Mapped app difficulty to benchmark level: easy = beginner, moderate = intermediate, hard = advanced.
+- Compared all 175 benchmark statements against same-skill, same-tier app statements.
+- Used simple token similarity as a triage tool, then manually reviewed the clinically meaningful pattern families.
+- Treated the benchmark examples as marker archetypes, not content to copy.
+
+Similarity scores are not quality scores. A low score can still mean a good case-specific marker, but it usually means the benchmark archetype is not directly represented.
+
+## Executive Summary
+
+The current content is often good as case-specific EFT role-play material: the case voices are distinct, the difficulty tiers usually feel different, and many therapist responses are skill-pure. The main gap is not general quality; it is benchmark coverage and marker calibration.
+
+The app leans heavily toward each case's core schema, often with vivid body sensations and metaphors. Goldman uses a wider range of ordinary, awkward, relational, cultural, positive, high-risk, and task-specific markers. This means several current skills train a narrower version of the target skill than the gold standard.
+
+Highest-priority divergences:
+
+1. Empathic Evocations: current statements often already contain the image/metaphor the trainee should be practicing.
+2. Marker Recognition and Chair Work: current statements cover the task types but often pre-label the marker as a "voice" or "part," reducing recognition practice.
+3. Alliance Repair: statements are clinically usable, but the benchmark's sexual-boundary and competence/age/status rupture examples are underrepresented.
+4. Therapist Self-Awareness: current markers overrepresent therapist-directed strain and underrepresent positive affection, cultural/religious mismatch, dreams, substance use, sexual boundary pressure, and therapist internal discomfort from ordinary material.
+5. Basic empathy/validation/exploration skills: current markers are often more vivid, embodied, and case-formulated than the simpler benchmark examples, so they can become too advanced or too evocative for the intended skill.
+
+Best-aligned areas:
+
+- Providing Treatment Rationale
+- Self-Disclosure
+- Empathic Conjectures
+
+Instruction-level risks:
+
+- Empathic Affirmation and Validation should be broadened beyond shame/self-criticism. Goldman validation markers include grief, fear, nervousness, guilt, anger, positive warmth, and overwhelming mixed affect.
+- Marker Recognition and Chair Work instructions should explicitly say that client statements should sound natural and should not announce the task marker too cleanly.
+- Therapist Self-Awareness instructions should name the broader range of client material that can activate the therapist, including positive, cultural, erotic, substance, violence, suicide, and competence-testing material.
+- Empathic Evocations instructions are now directionally right; the content, not the instruction, is the main mismatch on this branch.
+
+## Skill and Difficulty Overview
+
+Ratings:
+
+- Strong: generally usable markers for the skill.
+- Mixed: many usable markers, but with systematic drift.
+- Weak: the marker class does not reliably train the intended skill.
+- High/Medium/Low coverage: how well the current corpus includes benchmark-like archetypes at that tier.
+
+| Skill | Tier | Current Statement Quality | Benchmark Coverage | Main Divergence |
+| --- | --- | --- | --- | --- |
+| Therapist Self-Awareness | Easy/beginner | Mixed | Low | Good rupture/avoidance triggers, but misses positive warmth, dream material, cultural adjustment, and hopeful first-session material. |
+| Therapist Self-Awareness | Moderate/intermediate | Mixed | Low | Strong guarded/challenging case material, but missing religion/culture mismatch, direct substance-in-session disclosure, ordinary breakup grief, and promotion/violence-triggered therapist reactions. |
+| Therapist Self-Awareness | Hard/advanced | Strong-Mixed | Medium | Good attachment threat and competence-testing material; missing explicit erotic/transference pressure and sexist/substance-minimizing presentation. |
+| Empathic Understanding | Easy/beginner | Mixed | Low | Current statements are often vivid and schema-specific; benchmark beginner markers are simpler ordinary sadness, stress, readiness, and grief. |
+| Empathic Understanding | Moderate/intermediate | Mixed | Low-Medium | Case voice is strong, but markers are often more image-rich than basic understanding practice needs. Missing several everyday worry/anger examples. |
+| Empathic Understanding | Hard/advanced | Mixed | Medium | Has shame, anxiety, exposure, and relational pain, but less coverage of substance-anxiety and "guide me" confusion markers. |
+| Empathic Affirmation and Validation | Easy/beginner | Mixed | Low | Current markers emphasize breakup shame/sadness and anger; missing accident guilt, public-presentation anxiety, empty-nest grief, and broad social anger. |
+| Empathic Affirmation and Validation | Moderate/intermediate | Mixed | Low-Medium | Good trauma/numbing/guilt material, but missing benchmark variety around early romantic attachment, house/memory grief, child deployment fear, and depression/withdrawal. |
+| Empathic Affirmation and Validation | Hard/advanced | Strong | Medium-High | Closest validation tier; covers trauma shame, rage/fear, desperate longing, and positive warmth more than other tiers. |
+| Exploratory Questions | Easy/beginner | Strong-Mixed | Medium | Good inward hooks, but often body/metaphor rich; missing AA amends/disappointment and simple "used/hurt" variants. |
+| Exploratory Questions | Moderate/intermediate | Mixed | Low | Too much case-specific body imagery. Missing obsessive love, betrayal/blocked love, father resentment, and shutdown in a relationship. |
+| Exploratory Questions | Hard/advanced | Mixed | Medium | Has shame/confusion/defensiveness analogues, but hard markers often arrive already highly organized around case schema. |
+| Providing Treatment Rationale | Easy/beginner | Strong | High | Very close: many direct questions about therapy, feelings, plans, getting stuck, and history. |
+| Providing Treatment Rationale | Moderate/intermediate | Strong | High-Medium | Good skepticism/fear/numbing coverage; add more shame-about-crying and "positive thinking" archetypes if polishing. |
+| Providing Treatment Rationale | Hard/advanced | Strong | Medium-High | Good safety, overwhelm, self-harm, control, and practical skepticism markers; still could add more "emotions are the problem" and anger-control variants. |
+| Empathic Explorations | Easy/beginner | Mixed | Low | Current statements are often already embodied and vivid. Benchmark includes lostness, anger with violent impulse, child-safety guilt, bereavement, and uncertain excitement. |
+| Empathic Explorations | Moderate/intermediate | Mixed | Low-Medium | Has live emotional edges, but lacks some benchmark relational ambiguity and therapist-trust markers. |
+| Empathic Explorations | Hard/advanced | Mixed | Low-Medium | Current hard material is intense but narrow. Missing dazed/foggy process, attraction to therapist, guarded hospitalization fear, and comparison-with-therapist shame. |
+| Empathic Evocations | Easy/beginner | Weak | Low-Medium | Statement themes overlap somewhat, but many current markers already provide evocative image/body language. The trainee is not left enough room to evoke. |
+| Empathic Evocations | Moderate/intermediate | Weak | Low | Same issue, amplified: current markers often contain the metaphor already. Missing flatter obsessive, worthless, betrayed, and hopeless markers. |
+| Empathic Evocations | Hard/advanced | Weak | Low | Hard statements are vivid and relationally charged, not flat/guarded enough. Missing benchmark-like denial after suicidality, macho feeling-block, and confidentiality threat. |
+| Empathic Conjectures | Easy/beginner | Strong-Mixed | Medium | Good hints of unspoken shame/fear beneath defense; add more alcohol/blame, disrespect anger, and AA guilt variants. |
+| Empathic Conjectures | Moderate/intermediate | Strong | Medium-High | One of the better aligned tiers; still needs clearer obsessive love and blocked-love/betrayal variants. |
+| Empathic Conjectures | Hard/advanced | Strong-Mixed | Medium | Has defensive/underlying-feeling patterns, but needs denial-after-suicidality, trapped relationship, and macho anti-feeling markers. |
+| Staying in Contact with Intense Affect | Easy/beginner | Strong | Low-Medium | Strong intensity markers, but benchmark includes positive loving affect, guilt over harming children, death/loss, abuse anger, and political/system anger. |
+| Staying in Contact with Intense Affect | Moderate/intermediate | Strong | Low | Current material is emotionally intense but too narrow. Missing retired-therapist attachment, pet euthanasia guilt, political rage, affair guilt, and explicit suicidal divorce. |
+| Staying in Contact with Intense Affect | Hard/advanced | Strong | Low-Medium | Good self-harm/abandonment intensity, but missing erotic/transference pressure, Holocaust/collective trauma, sexual-offense guilt, homicidal fantasy, and therapy-not-working anger. |
+| Self-Disclosure | Easy/beginner | Strong | High | Strong coverage of therapist transparency, care, relationship, and judgment questions. Add a simpler first-session "where do I start?" marker if desired. |
+| Self-Disclosure | Moderate/intermediate | Strong | High-Medium | Good boredom/interest, discomfort, trauma competence, and therapist-impact questions. Coverage is close. |
+| Self-Disclosure | Hard/advanced | Strong | Medium-High | Strong competence/care/intensity material; missing repeated lateness, attractiveness question, and pity-in-the-therapist's-eyes markers. |
+| Marker Recognition and Chair Work | Easy/beginner | Mixed | Medium | Covers self-critical, self-interruptive, and unfinished-business markers, but often names "voice" or "part" too explicitly. |
+| Marker Recognition and Chair Work | Moderate/intermediate | Mixed | Medium | Covers the task types, but lacks enough natural guilt, numbness, bereavement, and unfinished-goodbye variants. Only 9 app items in the tier. |
+| Marker Recognition and Chair Work | Hard/advanced | Mixed-Low | Low-Medium | Too few items and too explicit. Missing intergenerational trauma, abusive-spouse self-blame, betrayal rage, catastrophizing worry, and blocked anger variants. |
+| Alliance Repair | Easy/beginner | Strong-Mixed | Medium | Good rupture markers, but missing student/experience concern, previous therapist hospitalization concern, and "am I doing therapy wrong?" guilt more directly. |
+| Alliance Repair | Moderate/intermediate | Strong-Mixed | Medium | Good pacing/misattunement markers, but missing age/graduate-status mismatch and bored/tired therapist concern more directly. |
+| Alliance Repair | Hard/advanced | Strong-Mixed | Medium-Low | Good hard rupture material, but missing the benchmark sexual-boundary concern and a more direct therapy-is-not-working/wasting-time presentation. |
+
+## Benchmark Example Coverage Map
+
+This section paraphrases benchmark example families. "Covered" means the current content has a recognizably similar marker in the same skill/tier. "Partial" means the broad clinical family is present but not the specific marker shape. "Missing" means the benchmark archetype is not meaningfully represented.
+
+### 1. Therapist Self-Awareness
+
+- Easy: partial for nervous first-session therapy concern and hopeful return to therapy; missing positive/loving attachment to a pet, cultural adjustment concern, and therapist-in-dream discomfort.
+- Moderate: partial for substance disclosure and anger/risk material; missing religion/culture match, ordinary shame/dependency, long breakup grief, and job-promotion violence fantasy.
+- Hard: partial for suicidality/self-harm, competence skepticism, and distrust of therapy; missing sexual attraction/flirtation and sexist alcohol-minimizing defensiveness.
+
+### 2. Empathic Understanding
+
+- Easy: partial for grief/loneliness and self-worth pain; missing simple everyday stress and readiness/optimism markers.
+- Moderate: partial for worry, anger, and confused depression; missing money/bills worry, friend disappointment, and mother-related anger in a simple reflection format.
+- Hard: partial for father-linked worthlessness, shame, and anxiety; missing substance-anxiety ambivalence and plain "guide me" confusion.
+
+### 3. Empathic Affirmation and Validation
+
+- Easy: partial for sadness, nervousness, fear, and anger; missing accident guilt and empty-nest/widow loneliness.
+- Moderate: partial for shame, fear, depression, and conflicted love; missing house/memory grief, child-in-army fear, and fast romantic attachment concern.
+- Hard: mostly covered in broad families: trauma shame, rage/fear, desperate longing, mixed confusion, and warm positive attachment. This tier is comparatively close.
+
+### 4. Exploratory Questions
+
+- Easy: partial for shame/smallness, anger, hurt, and overwhelm; missing AA/amends guilt.
+- Moderate: partial for worthlessness and shutdown; missing obsessive love, betrayal with blocked love, father resentment, and churning need-for-acknowledgment.
+- Hard: partial for grief, confusion, macho anti-feeling, and shame; current examples are often more case-formulated than benchmark examples.
+
+### 5. Providing Treatment Rationale
+
+- Easy: covered for approach, feelings-help, therapy process, what-to-talk-about, and history questions.
+- Moderate: covered or partial for skepticism about feelings, fear of feeling worse, irrational-feelings concern, and crying shame. Positive-thinking/social-comparison is weaker.
+- Hard: covered or partial for fear of emotions, getting lost in pain, trauma safety, self-control/weakness, and anger safety.
+
+### 6. Empathic Explorations
+
+- Easy: partial for lostness, anger, fear/guilt, and grief; missing uncertain positive excitement/dating ambiguity.
+- Moderate: partial for shame, discomfort, distrust, and detached/confused feeling; needs more natural relational ambiguity.
+- Hard: partial for dazed/foggy state, shame in comparison with therapist, confusion, and guardedness; missing direct therapist-attraction marker.
+
+### 7. Empathic Evocations
+
+- Easy: broad emotions are partially present, but marker style is weak because app statements are already vivid.
+- Moderate: broad themes are partial, but obsessive/worthless/betrayal/hopeless markers should be flatter.
+- Hard: missing or weak for denial after suicidality, confused/detached, macho anti-feeling, rotten shame, and confidentiality threat in the proper flat/guarded style.
+
+### 8. Empathic Conjectures
+
+- Easy: partial for shame, anger, blame, and disappointment/guilt; add stronger alcohol/blame and AA-disappointment variants.
+- Moderate: partial-to-covered for obsessive love, worthlessness, betrayal, and push-pull around closeness.
+- Hard: partial for hopeless shutdown, trapped relationship, denial, confusion, and macho anti-feeling; denial-after-suicidality is weak.
+
+### 9. Staying in Contact with Intense Affect
+
+- Easy: partial for depression, guilt, grief, and anger; missing warm/loving positive intensity and guilt over having harmed children.
+- Moderate: partial for unbearable sadness and rage; missing retired-therapist attachment, pet euthanasia guilt, political rage, long affair guilt, and explicit suicidal divorce.
+- Hard: partial for boundary/abandonment intensity; missing flirty admiration, Holocaust/collective trauma, sexual-offense guilt, explicit homicidal fantasy, and trainee-competence rupture under intense affect.
+
+### 10. Self-Disclosure
+
+- Easy: mostly covered for direct therapist questions, faith/values concern, "do you think I am crazy?", and vulnerable loneliness. First-session "where do I start?" is weaker.
+- Moderate: covered or partial for yawning/boredom, discomfort with therapist, crying grief, and therapist boredom/interest concern.
+- Hard: partial for lateness, attractiveness/appearance concern, pity concern, and therapist experience concern; attractiveness and pity should be made more explicit.
+
+### 11. Marker Recognition and Chair Work
+
+- Easy: task families are covered, but markers are too explicit. Natural self-criticism, self-interruption, and unfinished-business statements should be added or substituted.
+- Moderate: task families are covered, but grief/goodbye, divorce self-blame, global badness, affair guilt, and numbness are underrepresented.
+- Hard: weak coverage of the benchmark range: intergenerational trauma, abusive-spouse self-blame, cheating rage, catastrophizing worry split, and blocked anger toward father.
+
+### 12. Alliance Repair
+
+- Easy: partial for boredom, feeling pushed, and therapist not getting it; missing previous-therapist hospitalization concern, student-therapist competence concern, and "am I doing therapy wrong?" guilt.
+- Moderate: partial for painful-topic avoidance, therapist misattunement, and disinterest concern; missing age/status/graduate-school mismatch and a direct laughed-at-by-therapist rupture.
+- Hard: partial for therapy-not-working/wasting-time; missing sexual-boundary concern after therapist questions about sexual relationships.
+
+## Recommended Improvement Order
+
+1. Rewrite Empathic Evocations across all tiers first. Keep the new instruction standard: client markers should usually be flatter, more cognitive, more guarded, or more symptom/situation-focused, leaving vivid imagery to the trainee.
+2. Rework Marker Recognition and Chair Work statements. Keep the three task-marker families, but make the client utterances less pre-labeled. Add or substitute examples for natural self-critical splits, self-interruptive blocks, unfinished business, catastrophizing/worry split, betrayal rage, and trauma-linked unfinished business.
+3. Rework Alliance Repair coverage. Add direct competence/status ruptures, boredom/disinterest ruptures, previous-therapy/hospitalization concerns, and sexual-boundary concern. Preserve case voice.
+4. Broaden Therapist Self-Awareness triggers. Add positive/affectionate material, therapist-in-dream discomfort, cultural/religious mismatch, substance disclosures, sexualized/flirtatious pressure, violent fantasies, suicidal material, and sexist/minimizing defensiveness.
+5. Simplify some early-tier Empathic Understanding, Validation, Exploratory Question, and Exploration markers. Add ordinary, less metaphorical benchmark-like situations so trainees practice basic precision before moving into rich case-schema material.
+6. Add missing high-intensity benchmark families to Staying in Contact: loving transference, guilt over harm, suicidal divorce, pet euthanasia, political rage, sexual-offense guilt, homicidal fantasy, collective trauma, and therapy-not-working anger.
+7. Polish already-close skills last: Treatment Rationale, Self-Disclosure, and Empathic Conjectures. These need targeted coverage additions rather than broad rewrites.
+
+## Notes for Future Content Passes
+
+- Preserve case voice, but do not let every marker expose the case's core pain too directly.
+- Use benchmark examples to diversify marker families, not to copy surface scenarios.
+- Watch for overuse of embodied/metaphorical client language in skills where the trainee should supply the reflection, question, exploration, evocation, or conjecture.
+- For Norwegian localization, wait until English marker shape is stable, then localize natural Bokmal rather than preserving English therapy phrasing literally.
