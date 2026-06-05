@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T18:50:21.219Z",
+  "generatedAt": "2026-06-02T19:27:19.973Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -300,12 +300,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "After dinner the evening stretches out, and the apartment feels too big for one person.",
-            "response": "After dinner the rooms seem to stretch, too much space around one lonely body."
+            "statement": "After dinner I notice the apartment is quiet, and I start checking my phone again.",
+            "response": "The quiet settles around you after dinner, and the phone becomes the one small place where he might still appear."
           },
           "no": {
-            "statement": "Etter middag drar kvelden seg ut, og leiligheten kjennes for stor for én person.",
-            "response": "Etter middag virker rommene som om de strekker seg, med altfor mye plass rundt én ensom kropp."
+            "statement": "Etter middag merker jeg hvor stille leiligheten er, og så begynner jeg å sjekke mobilen igjen.",
+            "response": "Stillheten legger seg rundt deg etter middag, og mobilen blir det lille stedet der han fortsatt kanskje kan dukke opp."
           }
         },
         {
@@ -313,12 +313,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "Most mornings feel flat, like someone washed the color out before I woke up.",
-            "response": "The morning arrives in drained-out color, everything pale before the day even starts."
+            "statement": "Most mornings I wake up and don't feel much of anything.",
+            "response": "The day arrives washed out, as if the color has been taken from it before you even sit up."
           },
           "no": {
-            "statement": "De fleste morgener føles flate, som om noen har vasket ut fargene før jeg våknet.",
-            "response": "Morgenen kommer i avblekede farger, alt er blekt før dagen engang har startet."
+            "statement": "De fleste morgener våkner jeg uten å kjenne særlig mye.",
+            "response": "Dagen kommer avbleket, som om fargen er tatt ut av den før du engang setter deg opp."
           }
         },
         {
@@ -326,12 +326,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "When you look at the clock, my stomach drops like the room is already leaving me.",
-            "response": "One glance at the clock and the room drops away, abandonment opening under your feet."
+            "statement": "When you look at the clock, I immediately think you want me gone.",
+            "response": "One glance at the clock turns into a leaving signal, and the room starts dropping away under your feet."
           },
           "no": {
-            "statement": "Når du ser på klokka, synker magen som om rommet allerede er på vei bort fra meg.",
-            "response": "Ett blikk på klokka, og rommet faller bort, som om forlattheten åpner seg under føttene dine."
+            "statement": "Når du ser på klokka, tenker jeg med en gang at du vil ha meg ut.",
+            "response": "Ett blikk på klokka blir et tegn på at du skal forlates, og rommet begynner å falle bort under føttene."
           }
         }
       ]

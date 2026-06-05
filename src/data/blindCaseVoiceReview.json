@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T18:50:21.219Z",
+  "generatedAt": "2026-06-02T19:27:19.973Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -670,12 +670,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "After dinner the evening stretches out, and the apartment feels too big for one person.",
-            "response": "After dinner the rooms seem to stretch, too much space around one lonely body."
+            "statement": "After dinner I notice the apartment is quiet, and I start checking my phone again.",
+            "response": "The quiet settles around you after dinner, and the phone becomes the one small place where he might still appear."
           },
           "no": {
-            "statement": "Etter middag drar kvelden seg ut, og leiligheten kjennes for stor for én person.",
-            "response": "Etter middag virker rommene som om de strekker seg, med altfor mye plass rundt én ensom kropp."
+            "statement": "Etter middag merker jeg hvor stille leiligheten er, og så begynner jeg å sjekke mobilen igjen.",
+            "response": "Stillheten legger seg rundt deg etter middag, og mobilen blir det lille stedet der han fortsatt kanskje kan dukke opp."
           }
         },
         {
@@ -683,12 +683,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "Guilt zaps me the second I sit down, like rest sets off an alarm.",
-            "response": "Rest hits the buzzer, guilt shooting through you before the chair can even hold you."
+            "statement": "The second I sit down, I feel guilty.",
+            "response": "Rest sets off an alarm inside you, guilt shooting through before the chair can even hold your weight."
           },
           "no": {
-            "statement": "Skylden slår til idet jeg setter meg ned, som om hvile utløser en alarm.",
-            "response": "Hvilen trykker på alarmen; skyld skyter gjennom deg før stolen engang får holde deg."
+            "statement": "Idet jeg setter meg ned, får jeg skyldfølelse.",
+            "response": "Hvile setter i gang en alarm inni deg, skyld som skyter gjennom før stolen rekker å bære vekten din."
           }
         }
       ]
@@ -706,12 +706,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "When people stay calm, I see no armor on them and it looks dangerous.",
-            "response": "Calm looks like standing bare in a fight, no shield between you and the hit."
+            "statement": "Calm people make me nervous. I don't trust it.",
+            "response": "Calm looks too unprotected, like someone standing in the open without armor and calling it safe."
           },
           "no": {
-            "statement": "Når folk holder seg rolige, ser jeg ingen rustning på dem, og det ser farlig ut.",
-            "response": "Ro ser ut som å stå ubeskyttet i en kamp, uten skjold mellom deg og slaget."
+            "statement": "Rolige folk gjør meg nervøs. Jeg stoler ikke på det.",
+            "response": "Ro ser for ubeskyttet ut, som noen som står åpent uten rustning og kaller det trygt."
           }
         },
         {
@@ -719,12 +719,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "When my wife sighs, it hits like a slap I should have seen coming.",
-            "response": "That small sigh lands with a slap's sting, like judgment crossing the room before words arrive."
+            "statement": "When my wife sighs, I assume she is judging me.",
+            "response": "That small sigh can cross the room like a charge, and your system braces before she has even spoken."
           },
           "no": {
-            "statement": "Når kona mi sukker, treffer det som en lusing jeg burde ha sett komme.",
-            "response": "Det lille sukket lander med svien fra en lusing, som en dom som krysser rommet før ordene kommer."
+            "statement": "Når kona mi sukker, går jeg ut fra at hun dømmer meg.",
+            "response": "Det lille sukket kan krysse rommet som en anklage, og systemet ditt spenner seg før hun har sagt et ord."
           }
         }
       ]
@@ -742,12 +742,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "Kind words make my throat ache, like they are touching a place I keep locked.",
-            "response": "The warmth brushes that locked place and the ache rises in your throat before the words can get in."
+            "statement": "Kind words make my throat hurt, and I don't know why.",
+            "response": "The kindness touches a locked place, and the ache rises in your throat before any words can answer."
           },
           "no": {
-            "statement": "Vennlige ord får halsen til å verke, som om de berører et sted jeg holder låst.",
-            "response": "Varmen stryker borti det låste stedet, og verken stiger i halsen før ordene slipper inn."
+            "statement": "Vennlige ord gjør at jeg får vondt i halsen, og jeg vet ikke hvorfor.",
+            "response": "Vennligheten berører et låst sted, og verken stiger i halsen før ordene kan svare."
           }
         },
         {
@@ -755,12 +755,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "I hold my breath when I talk about it, like air might pull the memory closer.",
-            "response": "Breath held tight, as if one inhale could drag the memory back into the room."
+            "statement": "When I talk about it, I notice I stop breathing.",
+            "response": "Your breath goes still, as if one inhale could pull the memory fully back into the room."
           },
           "no": {
-            "statement": "Jeg holder pusten når jeg snakker om det, som om luft kan trekke minnet nærmere.",
-            "response": "Pusten holdes stramt, som om ett innpust kunne dra minnet tilbake inn i rommet."
+            "statement": "Når jeg snakker om det, merker jeg at jeg slutter å puste.",
+            "response": "Pusten går i ro, som om ett innpust kan trekke minnet helt tilbake inn i rommet."
           }
         }
       ]
