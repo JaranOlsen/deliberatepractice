@@ -7,7 +7,7 @@ export const BENCHMARK_BANK_SUMMARY = {
   "totalResponses": 175,
   "sourceResponseCount": 160,
   "derivedResponseCount": 15,
-  "generatedAt": "2026-06-02T19:27:19.970Z"
+  "generatedAt": "2026-06-05T08:27:21.935Z"
 };
 
 export const BENCHMARK_BANK = {
@@ -824,7 +824,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "advanced",
           "statementNumber": 5,
           "statement": "I have been having a great deal of anxiety lately and [pauses] I don’t know, everything is affected, my sleep, my eating. My school is shutting down, and I am just so worried that I will lose all the credits and my student loans. [pauses] Is it possible that everything I have worked toward will go up in smoke? I don’t know what to do.",
-          "response": "So, you are feeling very worried and scared about the situation with your school and somehow fearing all you have worked toward will be lost. ---",
+          "response": "So, you are feeling very worried and scared about the situation with your school and somehow fearing all you have worked toward will be lost.",
           "emotionLabel": "Scared",
           "sourceRef": {
             "type": "book_extract",
@@ -1085,7 +1085,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "intermediate",
           "statementNumber": 5,
           "statement": "Sometimes it’s just like I want to go crawl in my bed and just stay in there where nobody will bother me.",
-          "response": "Understandably, it is like [voicing the client], “I just want to shut my eyes and shut out all the pain” because the pain you are living now feels so unbearable. 50 Deliberate Practice Exercises for Emotion-Focused Therapy Skills",
+          "response": "Understandably, it is like [voicing the client], “I just want to shut my eyes and shut out all the pain” because the pain you are living now feels so unbearable.",
           "emotionLabel": "Depressed",
           "sourceRef": {
             "type": "book_extract",
@@ -1219,7 +1219,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "advanced",
           "statementNumber": 5,
           "statement": "I am so happy you got assigned as my therapist because I just feel so comfortable with you, so warm, I feel I can just be myself—it’s almost a feeling of love.",
-          "response": "Feeling so much trust and a kind of love, a wonderful sense of comfort and safety. ---",
+          "response": "Feeling so much trust and a kind of love, a wonderful sense of comfort and safety.",
           "emotionLabel": "Loving",
           "sourceRef": {
             "type": "book_extract",
@@ -1517,7 +1517,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "intermediate",
           "statementNumber": 6,
           "statement": "I just wish my father would acknowledge my feelings, or at least look at me once in a while. When he doesn’t, it just leaves me with a strong, empty, churning feeling in my stomach.",
-          "response": "Let’s just stay with the feeling and focus on it, speak from it. What does the churning, empty feeling actually say? Like I am so hurt, or what is it? 60 Deliberate Practice Exercises for Emotion-Focused Therapy Skills",
+          "response": "Let’s just stay with the feeling and focus on it, speak from it. What does the churning, empty feeling actually say? Like I am so hurt, or what is it?",
           "emotionLabel": "Unsure",
           "sourceRef": {
             "type": "book_extract",
@@ -1623,7 +1623,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "advanced",
           "statementNumber": 4,
           "statement": "I feel like nobody really knows I feel this, but deep inside, I think there is something really wrong with me, like I am rotten to the core.",
-          "response": "You feel so rotten inside. What happens as you look over at me and tell me this? 63Preparation 1. R ead instructions in ---",
+          "response": "You feel so rotten inside. What happens as you look over at me and tell me this?",
           "emotionLabel": "Ashamed",
           "sourceRef": {
             "type": "book_extract",
@@ -1762,7 +1762,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "beginner",
           "statementNumber": 5,
           "statement": "I’ve never been in therapy before. Should I tell you about my history?",
-          "response": "Maybe you can just start by telling me what brings you here and maybe even what comes up as you sit here now with me. I am interested in your history, and I am sure we will get to that. 70 Deliberate Practice Exercises for Emotion-Focused Therapy Skills",
+          "response": "Maybe you can just start by telling me what brings you here and maybe even what comes up as you sit here now with me. I am interested in your history, and I am sure we will get to that.",
           "emotionLabel": "Curious",
           "sourceRef": {
             "type": "book_extract",
@@ -2026,7 +2026,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "advanced",
           "statementNumber": 5,
           "statement": "My doctor said I have an anger problem. When I get really angry, I lose control and hit people. Is safe for me to explore my feelings? Shouldn’t I just try to get rid of my anger?",
-          "response": "I think we need to look into your anger a little further. Hitting people is not a good thing, and I agree that we need to work on it. Maybe we need to consider strategies to help you get anger under control. Also, it is important to look at what is driving that anger, what is underneath it. Sometimes it can be helpful to get, to feelings underneath your anger. This refocusing helps you actually get anger under control. 73Preparation 1. R ead the instructions in ---",
+          "response": "I think we need to look into your anger a little further. Hitting people is not a good thing, and I agree that we need to work on it. Maybe we need to consider strategies to help you get anger under control. Also, it is important to look at what is driving that anger, what is underneath it. Sometimes it can be helpful to get, to feelings underneath your anger. This refocusing helps you actually get anger under control.",
           "emotionLabel": "Confused",
           "sourceRef": {
             "type": "book_extract",
@@ -2271,7 +2271,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "intermediate",
           "statementNumber": 4,
           "statement": "I’m not very emotional and don’t really understand feelings. I am not sure what I am going to talk about.",
-          "response": "So, it is difficult for you to sort out what is even a feeling, and that leaves you unsure what it is you are going to talk about here . . . it’s like, “Where do I begin?” 80 Deliberate Practice Exercises for Emotion-Focused Therapy Skills",
+          "response": "So, it is difficult for you to sort out what is even a feeling, and that leaves you unsure what it is you are going to talk about here . . . it’s like, “Where do I begin?”",
           "emotionLabel": "Confused/detached",
           "sourceRef": {
             "type": "book_extract",
@@ -2405,7 +2405,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "advanced",
           "statementNumber": 5,
           "statement": "You’re asking me how I feel right now? I know how this works: If I tell you how I feel, you’re going to want to hospitalize me. I can’t spend another month in the hospital. So, to answer your question, I’m feeling just fine. Thanks for asking.",
-          "response": "So, I hear very strongly that you don’t want to be hospitalized, and we are going to try to avoid that if we can. And you are saying that you feel fine to stay safe, but maybe we can explore what fine feels like for you. I imagine there are a whole lot of other feelings inside as well. 83Preparation 1. R ead instructions in ---",
+          "response": "So, I hear very strongly that you don’t want to be hospitalized, and we are going to try to avoid that if we can. And you are saying that you feel fine to stay safe, but maybe we can explore what fine feels like for you. I imagine there are a whole lot of other feelings inside as well.",
           "emotionLabel": "Guarded",
           "sourceRef": {
             "type": "book_extract",
@@ -2706,7 +2706,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "intermediate",
           "statementNumber": 6,
           "statement": "I just wish my father would acknowledge my feelings, or at least look at me once in a while. When he doesn’t, it just leaves me with a strong, empty, churning feeling in my stomach.",
-          "response": "When you imagine him turning away from you, you feel a churning, buzzy feeling in the pit of your stomach. 90 Deliberate Practice Exercises for Emotion-Focused Therapy Skills",
+          "response": "When you imagine him turning away from you, you feel a churning, buzzy feeling in the pit of your stomach.",
           "emotionLabel": "Shame",
           "sourceRef": {
             "type": "book_extract",
@@ -2840,7 +2840,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "advanced",
           "statementNumber": 5,
           "statement": "I know you are required to keep our session notes private. If you betray me, I’m going to report you to the board of licensure.",
-          "response": "It sounds like you have been really hurt before, and the wound of betrayal cuts really deep. 1. Expr essions such as “I felt suicidal” may reflect an expression of a feeling and not an intent to harm one - self. However, therapists need to use a multitude of contextual client indicators to determine suicidal intent. Trainees should seek close supervision for clients who may be at risk of self-harm or suicide. If a client is at risk of suicide, therapists should consider a suicide-focused treatment, such as the Collabora - tive Assessment and Management of Suicidality (https:/ /cams-care.com). 93Preparation 1. R ead the instructions in ---",
+          "response": "It sounds like you have been really hurt before, and the wound of betrayal cuts really deep.",
           "emotionLabel": "Distrustful",
           "sourceRef": {
             "type": "book_extract",
@@ -2849,10 +2849,7 @@ export const BENCHMARK_BANK = {
             "statementNumber": 5,
             "responseOrigin": "source_example"
           },
-          "riskFlags": [
-            "suicide",
-            "self_harm"
-          ],
+          "riskFlags": [],
           "criteriaTags": [
             "evoke_image",
             "heighten_felt_sense"
@@ -3092,7 +3089,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "intermediate",
           "statementNumber": 4,
           "statement": "I love my girlfriend a lot. She’s always there for me, no matter what I do. I can even sleep with other girls! I don’t know why I want to distance myself from her.",
-          "response": "On the one hand, it feels so perfect, and yet something feels uncomfortable, I imagine almost unnerving and you just want to push her away. 100 Deliberate Practice Exercises for Emotion-Focused Therapy Skills",
+          "response": "On the one hand, it feels so perfect, and yet something feels uncomfortable, I imagine almost unnerving and you just want to push her away.",
           "emotionLabel": "Obsessed",
           "sourceRef": {
             "type": "book_extract",
@@ -3226,7 +3223,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "advanced",
           "statementNumber": 5,
           "statement": "My father was in the army, and he taught me that only weak people have feelings.",
-          "response": "So, your father taught you to feel is to be weak. That must leave you feeling very confusing and difficult, and could and perhaps leave you feeling angry? 1. Expr essions such as “I felt suicidal” may reflect an expression of a feeling and not an intent to harm one - self. On the other hand, therapists need to use a multitude of contextual client indicators to determine suicidal intent. Trainees should seek close supervision for clients who may be at risk of self-harm or suicide. If a client is at risk of suicide, therapists should consider a suicide-focused treatment, such as the Collaborative Assessment and Management of Suicidality (https:/ /cams-care.com). 103Preparation 1. R ead instructions in ---",
+          "response": "So, your father taught you to feel is to be weak. That must leave you feeling very confusing and difficult, and could and perhaps leave you feeling angry?",
           "emotionLabel": "Macho",
           "sourceRef": {
             "type": "book_extract",
@@ -3235,10 +3232,7 @@ export const BENCHMARK_BANK = {
             "statementNumber": 5,
             "responseOrigin": "source_example"
           },
-          "riskFlags": [
-            "suicide",
-            "self_harm"
-          ],
+          "riskFlags": [],
           "criteriaTags": [
             "tentative_guess",
             "name_underlying_feeling"
@@ -3511,7 +3505,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "intermediate",
           "statementNumber": 5,
           "statement": "My wife and I are getting divorced. I don’t think I can live without her. I just don’t see the point. I think I should just kill myself.",
-          "response": "It is just unimaginable to live life without her. 1. Expr essions such as “I should just kill myself” may reflect an expression of a feeling and not an intent to harm oneself. On the other hand, therapists need to use a multitude of contextual client indicators to determine suicidal intent. Trainees should seek close supervision for clients who may be at risk of selfharm or suicide. If a client is at risk of suicide, therapists should consider a suicide-focused treatment, such as the Collaborative Assessment and Management of Suicidality (https:/ /cams-care.com). 110 Deliberate Practice Exercises for Emotion-Focused Therapy Skills",
+          "response": "It is just unimaginable to live life without her.",
           "emotionLabel": "Sad",
           "sourceRef": {
             "type": "book_extract",
@@ -3656,7 +3650,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "advanced",
           "statementNumber": 5,
           "statement": "I need to tell you that therapy isn’t working. You just don’t understand me. I feel worse than when I started. I think it’s because you’re a trainee and don’t have much experience.",
-          "response": "I really appreciate you telling me how you have been feeling. And it must be difficult to feel worse than when you started. Let’s discuss this further. I am a trainee, although I have a few years of experience. I feel that I can help you and would like to find a way, but if this does not feel like a good fit for you, we can discuss alternatives. 2. T rainees should seek close supervision for clients who may be at risk of harming others. Note that although statements such as “I want to smash his face with a baseball bat” and “I want to beat him to a pulp” may be no more than strong expressions of anger and not actual statements of intent, if the therapist assesses that a client is actually homicidal, the therapist should consider breaking informed consent and notifying relevant parties or a homicide-focused treatment. If therapists are unsure what to do, it is recommended that they consult a colleague or supervisor. ---",
+          "response": "I really appreciate you telling me how you have been feeling. And it must be difficult to feel worse than when you started. Let’s discuss this further. I am a trainee, although I have a few years of experience. I feel that I can help you and would like to find a way, but if this does not feel like a good fit for you, we can discuss alternatives.",
           "emotionLabel": "Disappointed and angry",
           "sourceRef": {
             "type": "book_extract",
@@ -3665,9 +3659,7 @@ export const BENCHMARK_BANK = {
             "statementNumber": 5,
             "responseOrigin": "source_example"
           },
-          "riskFlags": [
-            "violence"
-          ],
+          "riskFlags": [],
           "criteriaTags": [
             "titrate_affect",
             "grounding",
@@ -3932,7 +3924,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "intermediate",
           "statementNumber": 5,
           "statement": "I had to put my dog to sleep this weekend. She was so sick, and I know it was the best thing to do, but my heart is just broken into a million pieces.",
-          "response": "As you’re telling me this, I just feel so sad, moved to tears. 120 Deliberate Practice Exercises for Emotion-Focused Therapy Skills",
+          "response": "As you’re telling me this, I just feel so sad, moved to tears.",
           "emotionLabel": "Very sad",
           "sourceRef": {
             "type": "book_extract",
@@ -4038,7 +4030,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "advanced",
           "statementNumber": 4,
           "statement": "I think I can tell you don’t have a lot of experience as a therapist. I wanted to work with a very experienced therapist. How can I be sure you can help me?",
-          "response": "I do understand your concern. I have 3 months of experience. I really do want to try to help you out. Perhaps we can explore what it is you are looking for in therapy and see whether this might be a good fit for you. 123Preparation 1. R ead instructions in ---",
+          "response": "I do understand your concern. I have 3 months of experience. I really do want to try to help you out. Perhaps we can explore what it is you are looking for in therapy and see whether this might be a good fit for you.",
           "emotionLabel": "Skeptical",
           "sourceRef": {
             "type": "book_extract",
@@ -4153,7 +4145,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "beginner",
           "statementNumber": 4,
           "statement": "I can feel tears coming up, but I just tighten up. It’s really hard for me to cry.",
-          "response": "So, it is hard for you to cry and you just tighten up. Would it be okay for us to work on this a little? Can you come over to this chair [points to the other chair]? [Once the client is in the interrupter’s chair] Imagine yourself over there crying [points back to the original chair]. Try telling her why she shouldn’t cry. How do you stop her from crying? What do you say or do to her to stop her? Maybe you squeeze back her tears or choke her. Imagine her over there and let’s see if you can actually do it now. 1. The ther apist trainee should remember that it may feel awkward at first to suggest that someone criticize or put themselves down. By doing chair work, however, clients gain awareness and take ownership for how they criticize themselves. Remember that the aim of the dialogue is to become aware of the critic so that clients can assert themselves back to it, softening and transforming the critic. 2. The ther apist trainee should remember that the goal of the self-interruptive dialogue is to gain awareness of how clients block or interrupt themselves so that they can take internal responsibility for the process and make choices in favor of self-expression. 132 Deliberate Practice Exercises for Emotion-Focused Therapy Skills",
+          "response": "So, it is hard for you to cry and you just tighten up. Would it be okay for us to work on this a little? Can you come over to this chair [points to the other chair]? [Once the client is in the interrupter’s chair] Imagine yourself over there crying [points back to the original chair]. Try telling her why she shouldn’t cry. How do you stop her from crying? What do you say or do to her to stop her? Maybe you squeeze back her tears or choke her. Imagine her over there and let’s see if you can actually do it now.",
           "emotionLabel": "Tense and weepy",
           "sourceRef": {
             "type": "book_extract",
@@ -4205,7 +4197,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "beginner",
           "statementNumber": 6,
           "statement": "My father used to beat us. That was his way of disciplining us. You sure knew something was wrong when he got home. Just the way he would slam the door and put his keys on the table. We would all run for cover.",
-          "response": "Wow, that sounds very scary and painful. [Pulls the chair up in front of the client] How would you feel about imagining him here now, having a dialogue with him and telling him how you felt about that? 3. The ther apist trainee should remember that the goal of the unfinished business dialogue is to stand up for the self, self-validate, hold the developmentally significant other accountable, and let go of unmet needs or forgive the other.",
+          "response": "Wow, that sounds very scary and painful. [Pulls the chair up in front of the client] How would you feel about imagining him here now, having a dialogue with him and telling him how you felt about that?",
           "emotionLabel": "Scared",
           "sourceRef": {
             "type": "book_extract",
@@ -4423,7 +4415,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "advanced",
           "statementNumber": 3,
           "statement": "You know, even though it has been a couple years and we are divorced now, I am still so angry that my wife cheated on me. I still have images of her with him in bed. I am feeling so betrayed and angry! I hate her!",
-          "response": "Yes, it does sound like you still have a lot of feelings about what happened. Perhaps we can work on this to try to get help you get through this and move forward. [Pulls the chair up in front of the client] Can we try having a dialogue with your wife so you can actually tell her about your feelings and how you feel about it what she did? 134 Deliberate Practice Exercises for Emotion-Focused Therapy Skills",
+          "response": "Yes, it does sound like you still have a lot of feelings about what happened. Perhaps we can work on this to try to get help you get through this and move forward. [Pulls the chair up in front of the client] Can we try having a dialogue with your wife so you can actually tell her about your feelings and how you feel about it what she did?",
           "emotionLabel": "Angry",
           "sourceRef": {
             "type": "book_extract",
@@ -4475,7 +4467,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "advanced",
           "statementNumber": 5,
           "statement": "I am so angry with my father. I really hate him, but I could never say that to him, even in this imaginary dialogue.",
-          "response": "So it is hard to imagine actually saying “I hate you” to your father even if you know it is an imaginary dialogue and he is not really here and you would not have to say it in real life. Let’s work on it a little though to get a sense of how you stop yourself from allowing or expressing your actual feelings to your father. [Brings the client to the chair across from the one they are sitting in] Can you look over to this chair [points back to the other chair across from the client] and imagine yourself over there and try telling yourself not to be angry? What do you say to this part of you? “Don’t be angry,” “Don’t let it out,” “You mustn’t be angry.” Really make a case for why he should not get angry with his father. 4. The catastr ophizing/worry-split is a particular form of a the self-critical/self-evaluative split that is often used with anxious clients who worry and pressure themselves very strongly. The goal of such a dialogue is to understand and take ownership for how the person creates their own worry and anxiety as a way of taking hold of it. The worry dialogue eventually evolves into a self-critical dialogue where the person becomes aware of how they are criticizing and weakening themselves. Eventually, they are able to fight back and transform the critic, leading to self-assertion, self-support, and compassionate self-soothing. For a fuller description and explanation of how to work with the catastrophizing/worry-split, see Timulak and McElvaney (2018). 137Preparation 1. R ead instructions in ---",
+          "response": "So it is hard to imagine actually saying “I hate you” to your father even if you know it is an imaginary dialogue and he is not really here and you would not have to say it in real life. Let’s work on it a little though to get a sense of how you stop yourself from allowing or expressing your actual feelings to your father. [Brings the client to the chair across from the one they are sitting in] Can you look over to this chair [points back to the other chair across from the client] and imagine yourself over there and try telling yourself not to be angry? What do you say to this part of you? “Don’t be angry,” “Don’t let it out,” “You mustn’t be angry.” Really make a case for why he should not get angry with his father.",
           "emotionLabel": "Tense and nervous",
           "sourceRef": {
             "type": "book_extract",
@@ -4694,7 +4686,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "intermediate",
           "statementNumber": 4,
           "statement": "I have a feeling that you aren’t really interested in me. You sometimes seem bored or tired. If this is true, please be honest and tell me.",
-          "response": "I am very pleased you brought this up. I am sorry that I seem tired or bored. I am not aware of feeling that, but I’m sure that’s not a pleasant experience for you. It could very naturally bring up some feelings toward me or our work. It’s really great that you told me. I want you to know that I do feel interest and concern for you. But I think you may have picked up on something important: Sometimes it feels to me that we aren’t talking about the difficult feelings that really brought you here. Does that make sense? Could we maybe talk about those feelings for a bit? 146 Deliberate Practice Exercises for Emotion-Focused Therapy Skills",
+          "response": "I am very pleased you brought this up. I am sorry that I seem tired or bored. I am not aware of feeling that, but I’m sure that’s not a pleasant experience for you. It could very naturally bring up some feelings toward me or our work. It’s really great that you told me. I want you to know that I do feel interest and concern for you. But I think you may have picked up on something important: Sometimes it feels to me that we aren’t talking about the difficult feelings that really brought you here. Does that make sense? Could we maybe talk about those feelings for a bit?",
           "emotionLabel": "Ashamed",
           "sourceRef": {
             "type": "book_extract",
@@ -4748,7 +4740,7 @@ export const BENCHMARK_BANK = {
           "difficultyTier": "advanced",
           "statementNumber": 2,
           "statement": "This is uncomfortable to ask, but I wonder if you are attracted to me romantically? Last week, when I mentioned that I hooked up with a random guy I met at a bar, you asked me a lot of questions about my sexual relationships. Are you interested in me like that?",
-          "response": "I really appreciate you bringing this up. And I’m sorry if I made you feel uncomfortable or on the spot. These are sensitive topics, and I appreciate that we can talk about them openly. I’m sure it took a lot of courage on your part to bring this up. I want to tell you directly that I do not have romantic feelings toward you and that for me, this is clearly a professional therapeutic relationship. I asked you questions about your relationship because I felt it was important for me to better understand you and your experience. How do you feel hearing this now? I’d like to talk about it. ---",
+          "response": "I really appreciate you bringing this up. And I’m sorry if I made you feel uncomfortable or on the spot. These are sensitive topics, and I appreciate that we can talk about them openly. I’m sure it took a lot of courage on your part to bring this up. I want to tell you directly that I do not have romantic feelings toward you and that for me, this is clearly a professional therapeutic relationship. I asked you questions about your relationship because I felt it was important for me to better understand you and your experience. How do you feel hearing this now? I’d like to talk about it.",
           "emotionLabel": "Very uncomfortable",
           "sourceRef": {
             "type": "book_extract",
