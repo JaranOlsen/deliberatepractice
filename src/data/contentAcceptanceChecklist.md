@@ -1,11 +1,11 @@
 # Content Acceptance Checklist
 
 Revision: 2026-03-07-v1
-Generated: 2026-06-07T21:13:10.498Z
+Generated: 2026-06-07T21:40:47.666Z
 
 ## Gate
-- Approved items: 954/954
-- Norwegian coverage: 954/954
+- Approved items: 1080/1080
+- Norwegian coverage: 1080/1080
 - QA clean: yes
 
 ## Manual Spot-Check
@@ -23,8 +23,8 @@ Generated: 2026-06-07T21:13:10.498Z
 - Empathic Conjectures: easy: Michael (Easy) [1, 5, 9] | moderate: Carlos (Moderate) [1, 5, 9] | hard: David (Hard) [1, 5, 9]
 - Staying in Contact in the Face of Intense Affect: easy: Jason (Easy) [1, 5, 9] | moderate: Nina (Moderate) [1, 5, 9] | hard: Marcus (Hard) [1, 5, 9]
 - Self-Disclosure: easy: Sara (Easy) [1, 5, 9] | moderate: Laura (Moderate) [1, 5, 9] | hard: Aisha (Hard) [1, 5, 9]
-- Marker Recognition and Chair Work Task Setup: easy: Michael (Easy) [1, 2, 3] | moderate: Carlos (Moderate) [1, 2, 3] | hard: David (Hard) [1, 2, 3]
-- Addressing Ruptures and Facilitating Repair: easy: Jason (Easy) [1, 2, 3] | moderate: Nina (Moderate) [1, 2, 3] | hard: Marcus (Hard) [1, 2, 3]
+- Marker Recognition and Chair Work Task Setup: easy: Michael (Easy) [1, 5, 9] | moderate: Carlos (Moderate) [1, 5, 9] | hard: David (Hard) [1, 5, 9]
+- Addressing Ruptures and Facilitating Repair: easy: Jason (Easy) [1, 5, 9] | moderate: Nina (Moderate) [1, 5, 9] | hard: Marcus (Hard) [1, 5, 9]
 
 ## Blind Case Voice
 - Packets: 36

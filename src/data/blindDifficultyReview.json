@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T21:13:10.497Z",
+  "generatedAt": "2026-06-07T21:40:47.665Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -485,41 +485,41 @@
       "samples": [
         {
           "blindLabel": "A",
-          "order": 2,
+          "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Dismissive] My wife says she might be done, and I tell myself only an idiot destroys his own family and still expects sympathy.",
-            "response": "It sounds like you are coming down hard on yourself for what is happening in your family. Can we work with how that blame attacks you? Sit in this chair and let the hard side tell him he is an idiot who destroyed his family; then we will switch and hear what that does to him."
+            "statement": "[Controlled] I want to tell my father, I was your son, not a project.",
+            "response": "That is unfinished business with your father around being treated like a performance project. If you are willing, we can place him in the empty chair and let you say that line directly."
           },
           "no": {
-            "statement": "[Avvisende] Kona mi sier at hun kanskje er ferdig, og jeg sier til meg selv at bare en idiot ødelegger sin egen familie og likevel forventer sympati.",
-            "response": "Det høres ut som du slår hardt ned på deg selv for det som skjer i familien din. Kan vi arbeide litt med hvordan den skylden angriper deg? Sett deg i denne stolen og la den harde siden si til ham at han er en idiot som ødela familien; så bytter vi og hører hva det gjør med ham."
+            "statement": "[Kontrollert] Jeg vil si til faren min: «Jeg var sønnen din, ikke et prosjekt.»",
+            "response": "Det er et uavsluttet oppgjør med faren din rundt å bli behandlet som et prestasjonsprosjekt. Hvis du vil, kan vi plassere ham i den tomme stolen og la deg si den linjen direkte."
           }
         },
         {
           "blindLabel": "B",
-          "order": 2,
+          "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Tense and angry] I still want to tell my father what it cost me when he called every feeling weakness.",
-            "response": "That points to unfinished business with your father. If you are willing, put him in this chair and tell him what it cost you to have hurt treated as weakness. I will keep it structured and brief."
+            "statement": "[Tense and angry] I want to tell my father, Nothing I did was ever enough for you.",
+            "response": "That points to unfinished business with your father around never measuring up. If you are willing, we can bring him into the empty chair and have you say that sentence to him directly, one line at a time."
           },
           "no": {
-            "statement": "[Anspent og sint] Jeg vil fortsatt fortelle faren min hva det kostet meg at han kalte hver følelse for svakhet.",
-            "response": "Det peker mot et uavsluttet oppgjør med faren din. Hvis du vil, kan du sette ham i denne stolen og si hva det kostet å få sårhet behandlet som svakhet. Jeg holder det strukturert og kort."
+            "statement": "[Anspent og sint] Jeg vil si til faren min: «Ingenting jeg gjorde var noen gang nok for deg.»",
+            "response": "Det peker mot et uavsluttet oppgjør med faren din rundt aldri å strekke til. Hvis du vil, kan vi hente ham inn i den tomme stolen og la deg si den setningen direkte til ham, én linje om gangen."
           }
         },
         {
           "blindLabel": "C",
-          "order": 2,
+          "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Tense and angry] I still want to tell my father the belt did not make me a man. It just made me scared of him.",
-            "response": "That sounds like unfinished business with your father and what his discipline cost you. If you are willing, we can put him in the empty chair and have you tell him that directly, a few strong lines at a time."
+            "statement": "[Tense and angry] I want to tell my father, I was a kid, not one of your soldiers.",
+            "response": "That is unfinished business with your father around how he treated you. If you are willing, we can place him in the empty chair and have you say that line directly, with me helping keep it contained."
           },
           "no": {
-            "statement": "[Anspent og sint] Jeg vil fortsatt si til faren min at beltet ikke gjorde meg til mann. Det gjorde meg bare redd for ham.",
-            "response": "Det høres ut som et uavsluttet oppgjør med faren din og hva disiplinen hans kostet deg. Hvis du vil, kan vi sette ham i den tomme stolen og la deg si det direkte til ham, noen sterke linjer om gangen."
+            "statement": "[Anspent og sint] Jeg vil si til faren min: «Jeg var et barn, ikke en av soldatene dine.»",
+            "response": "Det er et uavsluttet oppgjør med faren din rundt hvordan han behandlet deg. Hvis du vil, kan vi plassere ham i den tomme stolen og la deg si den linjen direkte, mens jeg hjelper deg å holde det avgrenset."
           }
         }
       ]
@@ -532,43 +532,41 @@
       "samples": [
         {
           "blindLabel": "A",
-          "order": 3,
-          "riskFlags": [
-            "trauma"
-          ],
+          "order": 9,
+          "riskFlags": [],
           "en": {
-            "statement": "[Hypervigilant] When you ask about nightmares, I wonder if you actually know what to do with this or if it is too much for you.",
-            "response": "Thank you for naming that. If I ask into trauma without showing steadiness and consent, I can see why you would doubt whether I can handle it. I am sorry for moving before readiness was clear. I do have training and support for trauma work, and I want to earn trust by going at a pace you can stop. What would show you I am not pushing past my competence or your limits?"
+            "statement": "[Stern] When you say, You are safe here, I feel like you do not know what safe means.",
+            "response": "I hear that 'safe here' sounded naive and disconnected from your reality. I am sorry. What would be a more accurate way for me to speak about relative safety in this room?"
           },
           "no": {
-            "statement": "[Hyperårvåken] Når du spør om marerittene, lurer jeg på om du faktisk vet hva du skal gjøre med dette, eller om det er for mye for deg.",
-            "response": "Takk for at du sier det. Hvis jeg spør inn i traumer uten å vise stødighet og samtykke, skjønner jeg at du kan tvile på om jeg tåler det. Jeg beklager at jeg gikk videre før beredskapen din var tydelig. Jeg har trening og støtte i traumearbeid, og jeg vil gjøre meg fortjent til tillit ved å gå i et tempo du kan stoppe. Hva ville vist deg at jeg ikke presser forbi min kompetanse eller dine grenser?"
+            "statement": "[Streng] Når du sier «du er trygg her», føles det som om du ikke vet hva trygg betyr.",
+            "response": "Jeg hører at «du er trygg her» hørtes naivt og frakoblet ut fra virkeligheten din. Det beklager jeg. Hva ville vært en mer presis måte for meg å snakke om relativ trygghet i dette rommet?"
           }
         },
         {
           "blindLabel": "B",
-          "order": 3,
+          "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Torn] Sometimes when I talk about chores and the kids, I see you look tired and wonder if even you are sick of this.",
-            "response": "Thank you for naming that. If tiredness showed on my face, I can see how it would confirm the fear that your daily load is too much for people. I am sorry for that impact. I am interested in this. What helps you feel I am still with you in the ordinary details?"
+            "statement": "[Apologetic] I said sorry five times and you did not notice, so I felt invisible again.",
+            "response": "I am sorry I missed the repeated apologies. That was an important signal, and missing it repeated the invisibility you are describing. What would help you feel seen in that pattern now?"
           },
           "no": {
-            "statement": "[Splittet] Noen ganger når jeg snakker om husarbeid og barna, ser jeg at du virker trøtt, og da lurer jeg på om selv du er lei av dette.",
-            "response": "Takk for at du setter ord på det. Hvis trøtthet syntes i ansiktet mitt, skjønner jeg at det kunne bekrefte frykten for at hverdagsbyrdene dine blir for mye for folk. Jeg beklager den virkningen. Jeg er interessert i dette. Hva hjelper deg å kjenne at jeg fortsatt er med deg i de vanlige detaljene?"
+            "statement": "[Unnskyldende] Jeg sa unnskyld fem ganger og du la ikke merke til det, så jeg følte meg usynlig igjen.",
+            "response": "Jeg beklager at jeg overså de gjentatte unnskyldningene. Det var et viktig signal, og da jeg gikk glipp av det, gjentok jeg usynligheten du beskriver. Hva ville hjulpet deg å føle deg sett i det mønsteret nå?"
           }
         },
         {
           "blindLabel": "C",
-          "order": 3,
+          "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Fearful] A previous therapist pushed me to talk about feelings until I panicked and ended up in the ER; when you asked about my body right away, I got scared this would be the same.",
-            "response": "Thank you for telling me. That history makes my body question much more loaded, and I am sorry I moved there without enough safety. We can agree that you can stop me, and I will ask permission before going into feelings or sensations. What pace would help this feel different from that earlier therapy?"
+            "statement": "[Fearful] When you asked me to look at you while I talked, I felt exposed.",
+            "response": "Thank you for saying that. Asking for eye contact made the moment too exposing, and I am sorry. Where would it feel safer for your eyes to rest while we talk?"
           },
           "no": {
-            "statement": "[Redd] En tidligere terapeut presset meg til å snakke om følelser til jeg fikk panikk og endte på legevakten; da du spurte om kroppen med en gang, ble jeg redd for at dette skulle bli likt.",
-            "response": "Takk for at du forteller meg det. Den historien gjør spørsmålet mitt om kroppen mye mer ladet, og jeg beklager at jeg gikk dit før det var nok trygghet. Vi kan avtale at du kan stoppe meg, og at jeg spør om lov før vi går inn i følelser eller fornemmelser. Hvilket tempo ville hjulpet dette å kjennes annerledes enn den tidligere terapien?"
+            "statement": "[Redd] Da du ba meg se på deg mens jeg snakket, følte jeg meg blottlagt.",
+            "response": "Takk for at du sier det. Å be om øyekontakt gjorde øyeblikket for eksponert, og det beklager jeg. Hvor ville det kjennes tryggere at blikket ditt hviler mens vi snakker?"
           }
         }
       ]

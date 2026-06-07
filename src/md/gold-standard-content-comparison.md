@@ -1,6 +1,6 @@
 # Gold-Standard Content Comparison
 
-Date: 2026-06-03
+Date: 2026-06-03; branch update through 2026-06-07
 
 ## Purpose
 
@@ -23,7 +23,7 @@ The current content is often good as case-specific EFT role-play material: the c
 
 The app leans heavily toward each case's core schema, often with vivid body sensations and metaphors. Goldman uses a wider range of ordinary, awkward, relational, cultural, positive, high-risk, and task-specific markers. This means several current skills train a narrower version of the target skill than the gold standard.
 
-Highest-priority divergences:
+Highest-priority divergences at the time of the original audit:
 
 1. Empathic Evocations: current statements often already contain the image/metaphor the trainee should be practicing.
 2. Marker Recognition and Chair Work: current statements cover the task types but often pre-label the marker as a "voice" or "part," reducing recognition practice.
@@ -36,6 +36,8 @@ Best-aligned areas:
 - Providing Treatment Rationale
 - Self-Disclosure
 - Empathic Conjectures
+
+Branch update: Empathic Evocations, Marker Recognition and Chair Work, and Alliance Repair have all received major repair passes since the original audit. Chair-work and alliance repair now use the full 10-per-case matrix and should be treated as regression-polish areas rather than top missing-coverage areas.
 
 Instruction-level risks:
 
@@ -85,12 +87,12 @@ Ratings:
 | Self-Disclosure | Easy/beginner | Strong | High | Strong coverage of therapist transparency, care, relationship, and judgment questions. Add a simpler first-session "where do I start?" marker if desired. |
 | Self-Disclosure | Moderate/intermediate | Strong | High-Medium | Good boredom/interest, discomfort, trauma competence, and therapist-impact questions. Coverage is close. |
 | Self-Disclosure | Hard/advanced | Strong | Medium-High | Strong competence/care/intensity material; missing repeated lateness, attractiveness question, and pity-in-the-therapist's-eyes markers. |
-| Marker Recognition and Chair Work | Easy/beginner | Mixed | Medium | Covers self-critical, self-interruptive, and unfinished-business markers, but often names "voice" or "part" too explicitly. |
-| Marker Recognition and Chair Work | Moderate/intermediate | Mixed | Medium | Covers the task types, but lacks enough natural guilt, numbness, bereavement, and unfinished-goodbye variants. Only 9 app items in the tier. |
-| Marker Recognition and Chair Work | Hard/advanced | Mixed-Low | Low-Medium | Too few items and too explicit. Missing intergenerational trauma, abusive-spouse self-blame, betrayal rage, catastrophizing worry, and blocked anger variants. |
-| Alliance Repair | Easy/beginner | Strong-Mixed | Medium | Good rupture markers, but missing student/experience concern, previous therapist hospitalization concern, and "am I doing therapy wrong?" guilt more directly. |
-| Alliance Repair | Moderate/intermediate | Strong-Mixed | Medium | Good pacing/misattunement markers, but missing age/graduate-status mismatch and bored/tired therapist concern more directly. |
-| Alliance Repair | Hard/advanced | Strong-Mixed | Medium-Low | Good hard rupture material, but missing the benchmark sexual-boundary concern and a more direct therapy-is-not-working/wasting-time presentation. |
+| Marker Recognition and Chair Work | Easy/beginner | Strong | Medium-High | Full matrix now covers natural self-critical, self-interruptive, unfinished-business, blocked protest, and worry/catastrophizing markers without announcing the chair task too cleanly. |
+| Marker Recognition and Chair Work | Moderate/intermediate | Strong | High | Full matrix now covers natural guilt, numbness, bereavement/goodbye, divorce self-blame, caregiver guilt, apology blocks, and unfinished family business. |
+| Marker Recognition and Chair Work | Hard/advanced | Strong | High | Full matrix now covers intergenerational trauma, abusive-spouse self-blame, betrayal rage, catastrophizing worry, blocked anger, and sexual-boundary shame variants. |
+| Alliance Repair | Easy/beginner | Strong | High | Full matrix now includes student/experience concern, previous therapist hospitalization concern, "am I doing therapy wrong?" guilt, boredom, disinterest, attention, and shame ruptures. |
+| Alliance Repair | Moderate/intermediate | Strong | High | Full matrix now includes age/status mismatch, bored/tired therapist concern, laughed-at rupture, trauma pacing, substance-use judgment, and siding-with-other-person rupture. |
+| Alliance Repair | Hard/advanced | Strong | High | Full matrix now includes sexual-boundary concern, therapy-is-not-working/wasting-time rupture, session-ending abandonment, trauma pacing, proximity/safety, and violence/trauma safety ruptures. |
 
 ## Benchmark Example Coverage Map
 
@@ -158,25 +160,23 @@ This section paraphrases benchmark example families. "Covered" means the current
 
 ### 11. Marker Recognition and Chair Work
 
-- Easy: task families are covered, but markers are too explicit. Natural self-criticism, self-interruption, and unfinished-business statements should be added or substituted.
-- Moderate: task families are covered, but grief/goodbye, divorce self-blame, global badness, affair guilt, and numbness are underrepresented.
-- Hard: weak coverage of the benchmark range: intergenerational trauma, abusive-spouse self-blame, cheating rage, catastrophizing worry split, and blocked anger toward father.
+- Easy: now covered for natural self-criticism, self-interruption, unfinished business, blocked protest, and worry/catastrophizing markers.
+- Moderate: now covered for grief/goodbye, divorce self-blame, global badness, affair guilt, numbness, apology blocks, and family unfinished business.
+- Hard: now covered for intergenerational trauma, abusive-spouse self-blame, cheating/betrayal rage, catastrophizing worry split, blocked anger toward father, and sexual-boundary shame.
 
 ### 12. Alliance Repair
 
-- Easy: partial for boredom, feeling pushed, and therapist not getting it; missing previous-therapist hospitalization concern, student-therapist competence concern, and "am I doing therapy wrong?" guilt.
-- Moderate: partial for painful-topic avoidance, therapist misattunement, and disinterest concern; missing age/status/graduate-school mismatch and a direct laughed-at-by-therapist rupture.
-- Hard: partial for therapy-not-working/wasting-time; missing sexual-boundary concern after therapist questions about sexual relationships.
+- Easy: now covered for boredom, feeling pushed, therapist not getting it, previous-therapist hospitalization concern, student/experience concern, "am I doing therapy wrong?" guilt, clock/attention ruptures, and shame/substance-use judgment.
+- Moderate: now covered for painful-topic avoidance, therapist misattunement, age/status mismatch, disinterest/tiredness concern, direct laughed-at rupture, substance-use judgment, and violence-language rupture.
+- Hard: now covered for therapy-not-working/wasting-time, sexual-boundary concern after therapist questions about sexual relationships, session-ending abandonment, trauma pacing, proximity/safety, and competence-with-trauma ruptures.
 
 ## Recommended Improvement Order
 
-1. Rewrite Empathic Evocations across all tiers first. Keep the new instruction standard: client markers should usually be flatter, more cognitive, more guarded, or more symptom/situation-focused, leaving vivid imagery to the trainee.
-2. Rework Marker Recognition and Chair Work statements. Keep the three task-marker families, but make the client utterances less pre-labeled. Add or substitute examples for natural self-critical splits, self-interruptive blocks, unfinished business, catastrophizing/worry split, betrayal rage, and trauma-linked unfinished business.
-3. Rework Alliance Repair coverage. Add direct competence/status ruptures, boredom/disinterest ruptures, previous-therapy/hospitalization concerns, and sexual-boundary concern. Preserve case voice.
-4. Broaden Therapist Self-Awareness triggers. Add positive/affectionate material, therapist-in-dream discomfort, cultural/religious mismatch, substance disclosures, sexualized/flirtatious pressure, violent fantasies, suicidal material, and sexist/minimizing defensiveness.
-5. Simplify some early-tier Empathic Understanding, Validation, Exploratory Question, and Exploration markers. Add ordinary, less metaphorical benchmark-like situations so trainees practice basic precision before moving into rich case-schema material.
-6. Add missing high-intensity benchmark families to Staying in Contact: loving transference, guilt over harm, suicidal divorce, pet euthanasia, political rage, sexual-offense guilt, homicidal fantasy, collective trauma, and therapy-not-working anger.
-7. Polish already-close skills last: Treatment Rationale, Self-Disclosure, and Empathic Conjectures. These need targeted coverage additions rather than broad rewrites.
+1. Continue regression-polishing Empathic Evocations so client markers stay flatter, more cognitive, more guarded, or more symptom/situation-focused, leaving vivid imagery to the trainee.
+2. Broaden Therapist Self-Awareness triggers. Add positive/affectionate material, therapist-in-dream discomfort, cultural/religious mismatch, substance disclosures, sexualized/flirtatious pressure, violent fantasies, suicidal material, and sexist/minimizing defensiveness where the cases can carry them naturally.
+3. Simplify some early-tier Empathic Understanding, Validation, Exploratory Question, and Exploration markers. Add ordinary, less metaphorical benchmark-like situations so trainees practice basic precision before moving into rich case-schema material.
+4. Add missing high-intensity benchmark families to Staying in Contact: loving transference, guilt over harm, suicidal divorce, pet euthanasia, political rage, sexual-offense guilt, homicidal fantasy, collective trauma, and therapy-not-working anger.
+5. Polish already-close skills last: Treatment Rationale, Self-Disclosure, Empathic Conjectures, Marker Recognition and Chair Work, and Alliance Repair. These need targeted regression and response-variety checks rather than broad rewrites.
 
 ## Notes for Future Content Passes
 

@@ -32,6 +32,8 @@ Branch update:
 - Staying in Contact with Intense Affect responses have received a response-variation pass, reducing repeated "stay with," "with me," "keep your," and "keep you" phrasing while preserving safety language for self-harm and violence items.
 - Empathic Evocations moderate/hard have been broadened with betrayal, worthlessness, being used, dependency shame, hopeless shutdown, macho anti-feeling, confidentiality/distrust, confused distress, and crisis-denial archetypes while keeping client markers mostly flat enough for trainee image-making.
 - Empathic Conjectures easy/moderate have been revised so more markers present behavior, situation, and defensive speech rather than naming the hidden process the trainee is meant to conjecture.
+- Marker Recognition and Chair Work has been expanded to the full 10-per-case matrix, adding natural self-critical, self-interruptive, unfinished-business, catastrophizing/worry, betrayal, and trauma-linked chair-work markers.
+- Alliance Repair has been expanded to the full 10-per-case matrix, adding competence/status, boredom/disinterest, previous-therapy, sexual-boundary, trauma-pacing, substance, and safety/boundary ruptures.
 
 The remaining gaps are more subtle:
 
@@ -80,12 +82,12 @@ The remaining gaps are more subtle:
 | Self-Disclosure | Easy | Strong | High | Strong | Low | Strong therapist-transparency markers, including first-session uncertainty, care, judgment, and personal questions. |
 | Self-Disclosure | Moderate | Strong | Medium-High | Strong | Low | Good boredom/interest, discomfort, trauma competence, therapist impact, and care questions. Pet-loss grief is absent but not essential. |
 | Self-Disclosure | Hard | Strong | High | Strong-Mixed | Low | Now covers repeated lateness, attractiveness, pity, therapist experience, care, and boundaries. Some responses overuse "I want to..." and return-to-client phrasing. |
-| Marker Recognition and Chair Work | Easy | Strong-Mixed | Medium | Strong-Mixed | Medium | Natural marker recognition improved. Still limited by only 9 items and missing ordinary fat/ugly, law-school, and parent-weight examples. |
-| Marker Recognition and Chair Work | Moderate | Strong | Medium-High | Strong-Mixed | Low-Medium | Good coverage of divorce self-blame, mother unfinished business, numbness, father discipline, apology block, caregiver guilt. Affair guilt/goodbye grief remain thin. |
-| Marker Recognition and Chair Work | Hard | Strong | Medium-High | Strong-Mixed | Low-Medium | Stronger now: catastrophizing worry, betrayal rage, trauma shame, abusive self-blame, intergenerational violence, blocked anger. Procedural response repetition is expected. |
-| Alliance Repair | Easy | Strong | High | Strong | Low | Strong coverage of boredom, not-getting-it, competence, doing-therapy-wrong, previous therapy hospitalization, and clock/attention ruptures. |
-| Alliance Repair | Moderate | Strong | High | Strong | Low | Strong coverage of childhood-topic avoidance, laughed-at rupture, age/status mismatch, boredom/tiredness, and siding-with-other-person rupture. |
-| Alliance Repair | Hard | Strong | High | Strong | Low | Strong coverage of therapy-not-working, sexual-boundary concern, session-ending abandonment, distance, chair proximity, and competence with trauma. |
+| Marker Recognition and Chair Work | Easy | Strong | Medium-High | Strong-Mixed | Low-Medium | Expanded to full matrix. Natural marker recognition now covers ordinary self-attack, self-interruption, unfinished business, blocked protest, and worry/catastrophizing without pre-labeling the chair task. |
+| Marker Recognition and Chair Work | Moderate | Strong | High | Strong-Mixed | Low-Medium | Expanded coverage of divorce self-blame, mother/father unfinished business, numbness, apology block, caregiver guilt, affair guilt, and goodbye grief. Procedural response repetition is expected. |
+| Marker Recognition and Chair Work | Hard | Strong | High | Strong-Mixed | Low-Medium | Expanded coverage of catastrophizing worry, betrayal rage, trauma shame, abusive self-blame, intergenerational violence, blocked anger, and sexual-boundary shame. Procedural response repetition is expected. |
+| Alliance Repair | Easy | Strong | High | Strong | Low | Expanded to full matrix with strong coverage of boredom, not-getting-it, competence, doing-therapy-wrong, previous therapy hospitalization, attention/clock ruptures, shame, and substance-use judgment. |
+| Alliance Repair | Moderate | Strong | High | Strong | Low | Expanded coverage of childhood-topic avoidance, laughed-at rupture, age/status mismatch, boredom/tiredness, siding-with-other-person rupture, trauma pacing, substance-use judgment, and violence-language rupture. |
+| Alliance Repair | Hard | Strong | High | Strong | Low | Expanded coverage of therapy-not-working, sexual-boundary concern, session-ending abandonment, distance, chair proximity, competence with trauma, foster-care pacing, and violence/trauma safety ruptures. |
 
 ## Branch Progress
 
@@ -98,6 +100,8 @@ Completed on the current content branch:
 - Staying in Contact with Intense Affect response variation.
 - Empathic Evocations, moderate and hard.
 - Empathic Conjectures, easy and moderate.
+- Marker Recognition and Chair Work expansion to 10 statements per case.
+- Alliance Repair expansion to 10 statements per case.
 
 These should still be reviewed in normal regression passes, but they are no longer the highest-value repair targets.
 

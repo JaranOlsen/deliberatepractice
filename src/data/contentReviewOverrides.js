@@ -194,13 +194,13 @@ export const CONTENT_ITEM_META_OVERRIDES = Object.freeze({
   ...buildSkillBatchOverrides(
     "marker-recognition-chairwork",
     CASE_MATRIX_CASE_IDS,
-    3,
+    10,
     MARKER_RECOGNITION_CHAIRWORK_PASS_1
   ),
   ...buildSkillBatchOverrides(
     "alliance-repair",
     CASE_MATRIX_CASE_IDS,
-    3,
+    10,
     ALLIANCE_REPAIR_PASS_1
   )
 });

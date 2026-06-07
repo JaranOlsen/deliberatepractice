@@ -3814,6 +3814,34 @@ export const STATEMENT_SETS = {
       {
         "text": "[Embarrassed] When I start to cry, I swallow it fast and tell myself not to be pathetic.",
         "suggestion": "That sounds like you stop the tears by shaming yourself. If you are willing, we can use two chairs: from this chair, show how you swallow the tears and tell yourself not to be pathetic; then we will switch and let the tearful side answer."
+      },
+      {
+        "text": "[Embarrassed] I look at old pictures and tell myself I was too clingy, too dramatic, too much.",
+        "suggestion": "That sounds like a harsh self-evaluative voice attacking you for wanting closeness. We can put that critic in one chair and the part that wanted love in the other. From this chair, say the attack directly; then we will switch and hear what it does to you."
+      },
+      {
+        "text": "[Angry] I still want to tell my friend to stop saying I should just move on.",
+        "suggestion": "That sounds like unfinished business with your friend around feeling hurried past your grief. If you are willing, we can place her in the empty chair and let you say, directly, what it is like when she tells you to move on."
+      },
+      {
+        "text": "[Softly] When I start to miss him, I grab my phone and scroll until the feeling goes flat.",
+        "suggestion": "That sounds like you interrupt the missing before it can fully arrive. We can use two chairs: in this chair, show how you flatten the feeling with the phone; then we will switch and let the missing side say a few words."
+      },
+      {
+        "text": "[Tearful] I keep thinking I ruined the relationship by asking for too much.",
+        "suggestion": "It sounds like you are blaming yourself for having needs. Can we work with that critic in the chair? Sit here and tell her she asked for too much; then we will switch and hear from the side that was needing him."
+      },
+      {
+        "text": "[Hesitant] I imagine telling him, You left me alone with all of this, and then I stop myself.",
+        "suggestion": "That sounds like both unfinished business with him and an interruption of your own voice. We can start with the empty chair: put him here and say the first line, 'You left me alone with all of this,' only as far as feels workable."
+      },
+      {
+        "text": "[Anxious] Before a date, I tell myself he will see the needy mess and leave too.",
+        "suggestion": "That sounds like a worry and self-attack that scares you before anything happens. We can use two chairs to hear how that voice works: from this chair, tell her all the things you predict will go wrong; then we will switch and hear from the frightened side."
+      },
+      {
+        "text": "[Tearful] I still want to tell him, You got to leave, but I had to stay in the apartment with every memory.",
+        "suggestion": "That sounds like unfinished business with him around leaving you with the memories. If you are willing, we can put him in the empty chair and let you say that line directly, then pause before anything more."
       }
     ],
     "case-michael": [
@@ -3828,6 +3856,34 @@ export const STATEMENT_SETS = {
       {
         "text": "[Tense] The second I start to soften, I hear, Get it together, and I start listing what I should have done better.",
         "suggestion": "That sounds like the hard command interrupts the softer feeling. We can use two chairs to make that clearer: from this chair, say 'get it together' and list what he should have done better; then we will switch and hear from the softer side."
+      },
+      {
+        "text": "[Ashamed] After I snap, I call myself an idiot for losing control.",
+        "suggestion": "That sounds like a self-critical attack after the anger. We can put the attacking voice in one chair and the part that lost control in the other. From this chair, say the criticism directly; then we will switch and hear what happens inside."
+      },
+      {
+        "text": "[Tense and angry] I want to tell my father, Nothing I did was ever enough for you.",
+        "suggestion": "That points to unfinished business with your father around never measuring up. If you are willing, we can bring him into the empty chair and have you say that sentence to him directly, one line at a time."
+      },
+      {
+        "text": "[Tense] When my wife reaches for me after a fight, I make a joke or start talking about what needs fixing.",
+        "suggestion": "That sounds like you interrupt a softer moment by moving into jokes or fixing. We can use two chairs: from this chair, show how you steer him away from softness; then we will switch and let the softer side respond."
+      },
+      {
+        "text": "[Worried] Before a presentation, I check the deck all night because one mistake would prove I should not be in charge.",
+        "suggestion": "That sounds like a worry-split that pressures you with catastrophe. We can put the worrying part in this chair and have it tell you exactly what it predicts if one mistake happens; then we will switch and hear from the pressured side."
+      },
+      {
+        "text": "[Ashamed] The morning after I drink too much, I tell myself I am pathetic and weak.",
+        "suggestion": "That is a harsh self-evaluative split around drinking and weakness. Can we put that critic in one chair and the ashamed part in the other, so you can hear the attack and then answer it?"
+      },
+      {
+        "text": "[Low voice] I wish I could tell my son I am scared he is learning fear from me.",
+        "suggestion": "That sounds like unfinished business with your son and what has not been said between you. We can place him in the empty chair and let you say that carefully, while we keep the pace slow enough to stay with it."
+      },
+      {
+        "text": "[Tense] I start to say sorry, and then a voice says, Do not fold.",
+        "suggestion": "That sounds like a self-interruptive voice stopping repair. We can use two chairs: sit here as the voice that says 'do not fold' and make its case; then we will switch to the side that wants to apologize."
       }
     ],
     "case-jason": [
@@ -3842,6 +3898,34 @@ export const STATEMENT_SETS = {
       {
         "text": "[Anxious] When I want to join a conversation, my throat tightens and I make myself stay quiet.",
         "suggestion": "That sounds like you stop yourself from reaching for connection. If you are willing, move into this chair and show how you make him stay quiet; then we will switch back and hear what the side wanting to join the conversation needs."
+      },
+      {
+        "text": "[Ashamed] After I say hello awkwardly, I call myself creepy for hours.",
+        "suggestion": "That sounds like a self-critical voice attacking you for a small social moment. We can put that critic in one chair and the embarrassed side in the other; first, let the critic say what it says, then we will switch."
+      },
+      {
+        "text": "[Quietly] I still want to ask those kids from school why they laughed every time I talked.",
+        "suggestion": "That sounds like unfinished business with those classmates. We can put them in the empty chair and let you ask the question that never got answered, slowly and only a few words at a time."
+      },
+      {
+        "text": "[Hesitant] When someone compliments me, I shrug and point out the awkward part before they can.",
+        "suggestion": "That sounds like you interrupt the compliment before it can reach you. We can use two chairs: from this chair, show how you deflect and point out the awkward part; then we will switch and hear from the side that might want to receive it."
+      },
+      {
+        "text": "[Worried] Before a group event, my mind lists every way I could humiliate myself.",
+        "suggestion": "That sounds like a catastrophizing worry-split. We can put the worrying voice in this chair and have it list the feared scenes directly; then we will switch and hear from the part that has to listen to it."
+      },
+      {
+        "text": "[Ashamed] When I do not get invited, I tell myself nobody wanted me there anyway.",
+        "suggestion": "That sounds like a critic turning exclusion into a verdict on you. We can put that voice in one chair and the hurt side in the other, so the hurt side has a chance to answer."
+      },
+      {
+        "text": "[Hesitant] I want to tell my old friend, You disappeared and I never knew why.",
+        "suggestion": "That is an unfinished-business marker with your old friend. If you are willing, we can place him in the empty chair and let you say that sentence directly, then pause and notice what comes."
+      },
+      {
+        "text": "[Anxious] When I want to ask a question in class, I stare at my notes until the chance passes.",
+        "suggestion": "That sounds like you stop your own voice before it can enter the room. We can use two chairs: from this chair, show how you make him stare down and stay silent; then we will switch to the side that wanted to ask."
       }
     ],
     "case-laura": [
@@ -3856,6 +3940,34 @@ export const STATEMENT_SETS = {
       {
         "text": "[Tense and tearful] When my ex moved out, I did not cry. I cleaned the kitchen and felt nothing, like I should have been hurt but I was just blank.",
         "suggestion": "That sounds like numbness came in and blocked the hurt. If it feels safe enough, we can use two chairs: from this chair, show how you go blank and keep cleaning; then we will switch and give the hurt a few words."
+      },
+      {
+        "text": "[Distant] I want to ask my ex whether he knew I would blame myself when he left.",
+        "suggestion": "That sounds like unfinished business with your ex around being left with blame. If it feels manageable, we can put him in the empty chair and let you ask that question directly."
+      },
+      {
+        "text": "[Flat and guarded] I still tell myself I am damaged goods.",
+        "suggestion": "That is a severe self-evaluative split. We can put the voice that says 'damaged goods' in one chair and the part of you that hears it in the other, and let each speak in short, supported turns."
+      },
+      {
+        "text": "[Slow and flat] When anger starts, I clean or pour a drink until it disappears.",
+        "suggestion": "That sounds like you interrupt the anger by going blank or busy. We can use two chairs: from this chair, show how you make the anger disappear; then we will switch and give the anger a few words without forcing it."
+      },
+      {
+        "text": "[Ashamed] I tell myself I should have known better than to trust him.",
+        "suggestion": "That sounds like a self-blaming critic attacking the part that trusted. Can we put the critic in this chair and have it say 'you should have known better,' then switch to the trusting part that got hurt?"
+      },
+      {
+        "text": "[Low voice] I never told the man who hurt me, You do not get to decide what I am worth.",
+        "suggestion": "That is unfinished business with the person who hurt you. If it feels safe enough and we go very slowly, we can place him in the empty chair and let you say only that sentence, with pauses and control."
+      },
+      {
+        "text": "[Tense and ashamed] When I start to say I am angry, I hear, Do not make trouble.",
+        "suggestion": "That sounds like a self-interruptive voice stopping anger. We can use two chairs: from this chair, say 'do not make trouble' and make its case; then we will switch and hear from the angry side."
+      },
+      {
+        "text": "[Distant] I still want to ask my mother why she never came to my room afterward.",
+        "suggestion": "That sounds like unfinished business with your mother around not being protected or reached. We can bring her into the empty chair and let you ask that question directly, only as far as feels tolerable."
       }
     ],
     "case-carlos": [
@@ -3870,6 +3982,34 @@ export const STATEMENT_SETS = {
       {
         "text": "[Tense and ashamed] I start to say sorry to my son, and my mouth shuts. I think, don't show weakness, and my face goes hard.",
         "suggestion": "That sounds like something stops the apology before the softer feeling can reach him. We can use two chairs: from this chair, tell him not to show weakness and make the case for staying hard; then we will switch and hear from the father who wants to repair."
+      },
+      {
+        "text": "[Ashamed] After I yell, I call myself a monster and then get angry at myself for thinking that.",
+        "suggestion": "That sounds like a harsh self-attack after the anger. We can put the voice that calls you a monster in one chair and the part that is hit by it in the other; then we will let the attacked side answer."
+      },
+      {
+        "text": "[Tense and angry] I want to tell my father, I was a kid, not one of your soldiers.",
+        "suggestion": "That is unfinished business with your father around how he treated you. If you are willing, we can place him in the empty chair and have you say that line directly, with me helping keep it contained."
+      },
+      {
+        "text": "[Tense] When my voice shakes, I cough, sit up straighter, and make my face hard.",
+        "suggestion": "That sounds like you interrupt vulnerability by hardening your body and face. We can use two chairs: from this chair, show how you shut down the shaking; then we will switch to the side that was shaking."
+      },
+      {
+        "text": "[Worried] If I let my son talk back once, I imagine losing all respect in the house.",
+        "suggestion": "That sounds like a catastrophizing worry about respect. We can put the worry in one chair and have it predict exactly what will happen if he talks back; then we will switch and hear from the father under that pressure."
+      },
+      {
+        "text": "[Defensive] I tell myself only losers need help with anger.",
+        "suggestion": "That sounds like a critic using shame to block help. Can we put that voice in this chair and let it say 'only losers need help,' then switch to the side that wants something different for your family?"
+      },
+      {
+        "text": "[Low voice] I wish I could tell my wife I get scared when she looks at me like she is afraid.",
+        "suggestion": "That sounds like unfinished business with your wife around fear and distance between you. We can place her in the empty chair and let you say that sentence to her slowly, without forcing more than one or two lines."
+      },
+      {
+        "text": "[Tense and angry] When tears come up, I turn them into heat before anyone can see.",
+        "suggestion": "That sounds like you interrupt tears by converting them into anger. We can use two chairs: from this chair, show how you turn tears into heat; then we will switch and hear from the tearful side."
       }
     ],
     "case-nina": [
@@ -3884,6 +4024,34 @@ export const STATEMENT_SETS = {
       {
         "text": "[Guilty] When I feel angry about being needed, I immediately think I am a bad person. Then I smile and ask what else they need.",
         "suggestion": "That sounds like the bad-person message stops your anger and sends you back into caring. We can use two chairs: from this chair, tell her she is bad for feeling angry; then we will switch and let the anger say a few plain words."
+      },
+      {
+        "text": "[Tired] I tell myself a good mother would not want an hour where nobody needs her.",
+        "suggestion": "That sounds like a self-critical voice attacking your need for rest. We can put that good-mother rule in one chair and the exhausted side in the other; first let the rule speak, then switch and hear the tired side."
+      },
+      {
+        "text": "[Apologetic] I want to tell my mother, I was the child; you were supposed to notice me.",
+        "suggestion": "That sounds like unfinished business with your mother around being unseen. If you are willing, we can bring her into the empty chair and let you say that line directly, just a few words at a time."
+      },
+      {
+        "text": "[Torn] When anger rises, I smile and ask what everyone wants for dinner.",
+        "suggestion": "That sounds like you interrupt anger by returning to care-taking. We can use two chairs: from this chair, show how you smile and cover the anger; then we will switch and let the anger speak plainly."
+      },
+      {
+        "text": "[Guilty] If dinner is not ready, I call myself useless.",
+        "suggestion": "That is a self-evaluative split around usefulness and care. We can put the voice that says 'useless' in one chair and the tired part in the other, and hear what each side says."
+      },
+      {
+        "text": "[Tearful] I still want to tell my ex, You left and somehow I am the one still apologizing.",
+        "suggestion": "That sounds like unfinished business with your ex around blame and apology. We can place him in the empty chair and let you say that sentence directly, then pause and notice what it brings up."
+      },
+      {
+        "text": "[Apologetic] I try to say no, then explain until the no turns into yes.",
+        "suggestion": "That sounds like you interrupt your boundary before it can hold. We can use two chairs: from this chair, show how you explain the no away; then we will switch to the side that wanted the no."
+      },
+      {
+        "text": "[Worried] When I rest, my mind lists everyone who might fall apart without me.",
+        "suggestion": "That sounds like a worry-split that pressures you back into carrying everyone. We can put the worry in this chair and have it list the feared consequences; then we will switch and hear from the exhausted side."
       }
     ],
     "case-aisha": [
@@ -3898,6 +4066,34 @@ export const STATEMENT_SETS = {
       {
         "text": "[Fearful and ashamed] After everything that happened to me, I call myself dirty and impossible to love.",
         "suggestion": "That is a severe self-attack tied to what was done to you. If it feels safe enough, we can put the attacking voice in one chair and the wounded side in the other. Begin by saying the attack exactly as it comes, and then we will switch to the side that has carried it."
+      },
+      {
+        "text": "[Ashamed] After I text someone too many times, I call myself crazy and disgusting.",
+        "suggestion": "That sounds like a brutal self-attack after contact panic. We can put that attacking voice in one chair and the frightened side in the other, and let the frightened side eventually answer back."
+      },
+      {
+        "text": "[Furious] I still want to tell my mother, You left me with people who hurt me.",
+        "suggestion": "That sounds like unfinished business with your mother around being left unprotected. If it feels safe enough, we can bring her into the empty chair and let you say that sentence directly, with pauses and choice."
+      },
+      {
+        "text": "[Panicked] When I feel myself needing someone, I start accusing them before they can leave.",
+        "suggestion": "That sounds like you interrupt the need by attacking first. We can use two chairs: from this chair, show how you accuse and push away; then we will switch and hear from the side that needed someone to stay."
+      },
+      {
+        "text": "[Worried] If you do not answer, my head shows me ten scenes where I am replaced and everyone knows.",
+        "suggestion": "That sounds like a catastrophizing worry-split. We can put the worry in one chair and have it show the scenes out loud; then we will switch to the side that gets flooded by them."
+      },
+      {
+        "text": "[Low voice] I never got to tell the person who hurt me, You do not get to make me dirty.",
+        "suggestion": "That is unfinished business with the person who hurt you. If we do this, we go very slowly: put him in the empty chair and say only that line first, while we keep your feet in the room and your choice intact."
+      },
+      {
+        "text": "[Ashamed] When I want closeness, I call myself pathetic before anyone else can.",
+        "suggestion": "That is a self-critical split around needing closeness. We can put the attacking voice in one chair and the longing side in the other, so the longing side is not left alone with the attack."
+      },
+      {
+        "text": "[Tearful] When grief starts to show, I laugh and say, Forget it, this is stupid.",
+        "suggestion": "That sounds like you interrupt grief by mocking it. We can use two chairs: from this chair, say 'forget it, this is stupid' and show how you shut it down; then we will switch and let the grieving side speak a little."
       }
     ],
     "case-david": [
@@ -3912,6 +4108,34 @@ export const STATEMENT_SETS = {
       {
         "text": "[Wounded but sharp] I hate how my father made everything a performance, but the second I say that I start defending him: he pushed me because he believed in me.",
         "suggestion": "It sounds like the anger toward your father gets stopped by a side that explains him and protects him. If you are willing, we can use two chairs: from this chair, defend him and tell David why he should not be angry; then we will switch and give the anger some words."
+      },
+      {
+        "text": "[Dismissive] I tell myself mediocre men lose their families and deserve it.",
+        "suggestion": "That sounds like a harsh self-evaluative split tying your worth to success. We can put that voice in one chair and the part of you it attacks in the other, then let the attacked side respond."
+      },
+      {
+        "text": "[Controlled] I want to tell my father, I was your son, not a project.",
+        "suggestion": "That is unfinished business with your father around being treated like a performance project. If you are willing, we can place him in the empty chair and let you say that line directly."
+      },
+      {
+        "text": "[Controlled] When shame rises, I start listing achievements until I cannot feel it.",
+        "suggestion": "That sounds like achievements interrupt the shame before it can be felt. We can use two chairs: from this chair, list the achievements and block the shame; then we will switch and hear from the shamed side."
+      },
+      {
+        "text": "[Worried] If I admit one mistake, I picture everyone deciding I am a fraud.",
+        "suggestion": "That sounds like a catastrophizing worry-split. We can put the worry in one chair and let it say exactly what it predicts if you admit one mistake; then switch to the side under that pressure."
+      },
+      {
+        "text": "[Low voice] I want to tell my wife I am terrified she finally sees the real me.",
+        "suggestion": "That sounds like unfinished business with your wife around being seen and possibly left. We can bring her into the empty chair and let you say that sentence carefully, without having to defend it."
+      },
+      {
+        "text": "[Ashamed] I tell myself the affair proves I am trash.",
+        "suggestion": "That is a severe self-attack around the affair. We can put the voice that says 'trash' in one chair and the ashamed side in the other, so you can hear and answer the attack rather than only endure it."
+      },
+      {
+        "text": "[Dismissive] When sadness comes up, I analyze everyone's tone until the feeling is gone.",
+        "suggestion": "That sounds like analysis interrupts the sadness. We can use two chairs: from this chair, analyze and move him away from sadness; then we will switch and let the sadness have a few direct words."
       }
     ],
     "case-marcus": [
@@ -3926,6 +4150,34 @@ export const STATEMENT_SETS = {
       {
         "text": "[Furious] Even in here, imagining telling that foster father I hate him makes my jaw lock. I hear, Don't say that. Don't make it worse.",
         "suggestion": "That sounds like something locks the anger before it gets a voice. If you are willing, we can use two chairs: sit here as the side that says 'don't say it, don't make it worse,' and say that directly to him; then we will switch and let the anger have a few controlled words."
+      },
+      {
+        "text": "[Flat] I tell myself I should be over it by now; other people had it worse and still function.",
+        "suggestion": "That sounds like a self-critical voice dismissing the impact of what happened. We can put that voice in one chair and the part still carrying it in the other, then let them speak in short, contained turns."
+      },
+      {
+        "text": "[Low voice] I want to ask my foster mother why nobody came when I knocked.",
+        "suggestion": "That sounds like unfinished business with your foster mother around being left alone. If you are willing, we can put her in the empty chair and let you ask that question directly, slowly."
+      },
+      {
+        "text": "[Quiet and guarded] When my voice shakes, I stop talking and stare at the floor.",
+        "suggestion": "That sounds like you interrupt the shaking voice by shutting speech down. We can use two chairs: from this chair, show how you make him stop talking; then we will switch and let the shaking voice have a few words."
+      },
+      {
+        "text": "[Worried] If I sleep deeply, I worry I will wake up back there and not know where I am.",
+        "suggestion": "That sounds like a worry-split keeping you on guard. We can put the worry in this chair and have it warn you about sleep; then we will switch and hear from the exhausted side."
+      },
+      {
+        "text": "[Furious] I still want to tell my father, You brought the war home and made us live inside it.",
+        "suggestion": "That is unfinished business with your father around violence and fear in the home. We can bring him into the empty chair and let you say that line directly, with enough pauses to keep you grounded."
+      },
+      {
+        "text": "[Ashamed] Needing help makes me tell myself I am useless.",
+        "suggestion": "That sounds like a self-evaluative split around needing help. We can put the voice that says 'useless' in one chair and the part needing help in the other, then let the needing side answer."
+      },
+      {
+        "text": "[Tense and guarded] When my sister asks about the past, I hear, Shut it down, and I change the subject.",
+        "suggestion": "That sounds like a self-interruptive voice stopping contact with the past. We can use two chairs: from this chair, say 'shut it down' and show how you change the subject; then we will switch and hear from the side that was being asked."
       }
     ]
   },
@@ -3942,6 +4194,34 @@ export const STATEMENT_SETS = {
       {
         "text": "[Anxious] When I apologized for crying, your silence made me worry I was too needy for therapy.",
         "suggestion": "Thank you for naming that. My silence after your apology may have sounded like I agreed that your need was too much, and I am sorry. When tears come again, what could I say or do so you feel welcome rather than tolerated?"
+      },
+      {
+        "text": "[Embarrassed] When you keep calling it grief, I feel like you have already decided what this is.",
+        "suggestion": "Thank you for telling me. If my word made your experience feel already decided, I moved too quickly and I am sorry. What word, if any, feels closer to what you want me to stay with?"
+      },
+      {
+        "text": "[Tearful] Last session ended while I was crying, and I went home feeling dropped.",
+        "suggestion": "I hear that the ending felt like being dropped while you were exposed. I am sorry I did not help us close that more carefully. What would make endings feel held enough when tears are still present?"
+      },
+      {
+        "text": "[Hurt] When you asked whether I had thought about dating again, it felt like you wanted me to move on already.",
+        "suggestion": "Thank you for naming that. My question sounded like pressure to move on, and I am sorry. Before any dating question belongs here, what do you need me to understand about the part that is not ready?"
+      },
+      {
+        "text": "[Quietly] You mixed up his name last week, and I felt silly for caring so much.",
+        "suggestion": "I am sorry I mixed up his name. That kind of miss can make the relationship feel less real here, and it makes sense that it mattered. What would help repair that lapse now?"
+      },
+      {
+        "text": "[Embarrassed] When I admitted I checked his profile, your face looked disappointed.",
+        "suggestion": "Thank you for telling me. If my face communicated disappointment, I am sorry; that would make it harder to be honest here. What did you need from me in that moment instead?"
+      },
+      {
+        "text": "[Anxious] When you asked who else supports me, it sounded like you were trying to pass me off to someone else.",
+        "suggestion": "I hear how that question landed as being passed off. I am sorry I did not make my intention clear. I want support around you, not distance from you. How can I ask about support without making you feel unwanted here?"
+      },
+      {
+        "text": "[Softly] When you look down at your notes while I talk about him, I feel like you leave for a second.",
+        "suggestion": "Thank you for saying that. Looking down at notes cost us contact in a tender place, and I am sorry. Would it help if I asked before writing, or paused the writing when you are in the most painful parts?"
       }
     ],
     "case-michael": [
@@ -3956,6 +4236,34 @@ export const STATEMENT_SETS = {
       {
         "text": "[Wounded but sharp] When you paused and watched me after I got angry, I felt judged.",
         "suggestion": "Thank you for naming it. My pause and gaze felt like judgment, and that impact matters more than my intention. I am sorry I made the room feel more adversarial. What would make my attention feel less like scrutiny now?"
+      },
+      {
+        "text": "[Defensive] When you asked about my wife's fear first, it felt like you took her side.",
+        "suggestion": "I hear that I led with her fear and you felt sided against. I am sorry I made your side feel smaller. What part of your experience needs to be understood before we look again at her fear?"
+      },
+      {
+        "text": "[Skeptical] When you said anger protects hurt, it sounded like something from a textbook.",
+        "suggestion": "Thank you for telling me. If I sounded textbook, I lost contact with you and I am sorry. What would make this feel less like a formula and more like I am actually with what happens in you?"
+      },
+      {
+        "text": "[Tense] You did not challenge me when I got loud, and now I wonder if you are scared of me.",
+        "suggestion": "I hear the concern that my not challenging you felt like fear or avoidance. I am sorry I left that unclear. I do not want to shrink from you or escalate with you. What would steady, direct contact from me look like when your voice gets loud?"
+      },
+      {
+        "text": "[Ashamed] When I mentioned drinking, your face changed and I felt judged.",
+        "suggestion": "Thank you for naming that. If my face communicated judgment about drinking, I am sorry; that would make honesty harder. What do you need from me so we can talk about alcohol without you feeling shamed?"
+      },
+      {
+        "text": "[Irritated] You keep asking about my father, and it feels like you are blaming him for everything.",
+        "suggestion": "I hear that my repeated father questions feel too narrow and blaming. I am sorry I kept returning there without checking the impact. Where should we place attention now so your life is not reduced to that one explanation?"
+      },
+      {
+        "text": "[Wounded but sharp] After I swore, you went quiet and I felt like you were done with me.",
+        "suggestion": "Thank you for telling me. My quiet after you swore felt like withdrawal, and I am sorry I left you with that. What would help you know I can stay in contact even when strong language is in the room?"
+      },
+      {
+        "text": "[Tense] When you say, Take a breath, it feels like you are trying to control me.",
+        "suggestion": "I hear that my breath cue landed as control. I am sorry I gave it in a way that took agency from you. What wording would make a pause feel like your choice rather than my command?"
       }
     ],
     "case-jason": [
@@ -3970,6 +4278,34 @@ export const STATEMENT_SETS = {
       {
         "text": "[Fearful] A previous therapist pushed me to talk about feelings until I panicked and ended up in the ER; when you asked about my body right away, I got scared this would be the same.",
         "suggestion": "Thank you for telling me. That history makes my body question much more loaded, and I am sorry I moved there without enough safety. We can agree that you can stop me, and I will ask permission before going into feelings or sensations. What pace would help this feel different from that earlier therapy?"
+      },
+      {
+        "text": "[Quietly] You say it is okay to pause, but when I pause, I feel watched.",
+        "suggestion": "Thank you for telling me. My attention during pauses may feel like pressure rather than support, and I am sorry. What would help a pause feel less watched and more protected?"
+      },
+      {
+        "text": "[Anxious] When you suggested practicing with a group, I felt like you did not understand how impossible that sounds.",
+        "suggestion": "I hear that my suggestion jumped too far ahead. I am sorry I missed how impossible that felt from inside your anxiety. What smaller step would show you I understand the size of this?"
+      },
+      {
+        "text": "[Hesitant] When I went quiet, you said I seemed calm, but I was panicking.",
+        "suggestion": "Thank you for correcting me. I misread quiet as calm, and I am sorry. What signs should I watch for so I do not miss panic when it goes silent?"
+      },
+      {
+        "text": "[Embarrassed] You finished my sentence for me, and I felt stupid.",
+        "suggestion": "I am sorry I finished your sentence. That took over the very place where you were trying to find words. What would help me support you without stepping into your speech?"
+      },
+      {
+        "text": "[Ashamed] When you called it avoidance, it sounded like you were criticizing me.",
+        "suggestion": "I hear that 'avoidance' landed as criticism. I am sorry I used a word that made you feel blamed. What word would help us talk about pulling back without making you wrong?"
+      },
+      {
+        "text": "[Fearful] When you asked me to look at you while I talked, I felt exposed.",
+        "suggestion": "Thank you for saying that. Asking for eye contact made the moment too exposing, and I am sorry. Where would it feel safer for your eyes to rest while we talk?"
+      },
+      {
+        "text": "[Quietly] When you asked why I did not go to the party, I heard judgment in it.",
+        "suggestion": "I hear that my 'why' question sounded judgmental. I am sorry. How can I ask about what happened in a way that feels curious rather than accusing?"
       }
     ],
     "case-laura": [
@@ -3984,6 +4320,34 @@ export const STATEMENT_SETS = {
       {
         "text": "[Slow and flat] You are younger than me, and sometimes I wonder if you can really understand a life that has been shut down for this long.",
         "suggestion": "Thank you for trusting me with that concern. The age difference is real, and I may miss things if I assume too quickly that I understand. I am sorry if I have moved past that. What would help you test whether I am understanding your life rather than fitting it into my own frame?"
+      },
+      {
+        "text": "[Flat and guarded] When you wrote notes while I talked about what happened, I felt recorded instead of met.",
+        "suggestion": "Thank you for telling me. Writing notes in that moment made you feel recorded rather than met, and I am sorry. Would it help if I paused note-taking during trauma material or asked before writing?"
+      },
+      {
+        "text": "[Wary] When you asked whether I trust you, it felt like pressure to say yes.",
+        "suggestion": "I hear that my trust question created pressure. I am sorry; trust should not be demanded from you. What would let us talk about mistrust without you having to reassure me?"
+      },
+      {
+        "text": "[Tense] When you said I am safe now, my body felt like you did not believe the danger.",
+        "suggestion": "Thank you for correcting that. Saying 'safe now' skipped over what your body still knows, and I am sorry. What would help me acknowledge the danger your body is carrying without collapsing the present into the past?"
+      },
+      {
+        "text": "[Distant] When you suggested imagining my mother here, I felt pushed toward something too big.",
+        "suggestion": "I hear that I moved too quickly toward the chair work. I am sorry I did not check the size of it first. What would be a safer edge before we consider bringing her into the room in imagination?"
+      },
+      {
+        "text": "[Flat] You moved from my ex to childhood so quickly that it felt like you were following a checklist.",
+        "suggestion": "Thank you for naming that. Moving quickly made the work feel like a checklist, and I am sorry. What connection between those places, if any, feels real enough to follow now?"
+      },
+      {
+        "text": "[Ashamed] When you asked about wine, I felt scolded.",
+        "suggestion": "I hear that my question about wine felt like scolding. I am sorry I made it harder to talk about something that may already carry shame. How can I ask about alcohol in a way that feels respectful and useful?"
+      },
+      {
+        "text": "[Low voice] When you said I survived, it sounded like you were saying I should be fine.",
+        "suggestion": "Thank you for telling me. If 'survived' sounded like 'you should be fine,' I missed the ongoing cost, and I am sorry. What do you need me to understand about surviving without being fine?"
       }
     ],
     "case-carlos": [
@@ -3998,6 +4362,34 @@ export const STATEMENT_SETS = {
       {
         "text": "[Angry] When I talked about my kid, you looked away and I felt dismissed.",
         "suggestion": "Thank you for saying that. Looking away cost contact in a really important moment, and I am sorry. Do you want me to return to what was happening when you mentioned your kid, and stay more visibly with you there?"
+      },
+      {
+        "text": "[Angry] When I got loud, you flinched, and then I felt like the dangerous guy in the room.",
+        "suggestion": "I hear that my flinch made you feel dangerous and set apart. I am sorry for that impact. What would help you know I can take your intensity seriously without treating you as a threat?"
+      },
+      {
+        "text": "[Defensive] When you asked if I was afraid, it sounded disrespectful.",
+        "suggestion": "Thank you for telling me. My question about fear landed as disrespect, and I am sorry. What language could let us approach fear without making you feel reduced or insulted?"
+      },
+      {
+        "text": "[Tense] When you talk about repair with my son, I hear you saying I am a bad father.",
+        "suggestion": "I hear that repair sounded like a verdict on you as a father. I am sorry I did not make the care in it clearer. What part of your wish to be a good father should I hold while we talk about repair?"
+      },
+      {
+        "text": "[Wounded but sharp] You glanced at the door after I got angry, and I felt like you were checking an escape route.",
+        "suggestion": "Thank you for telling me. If my glance suggested I needed escape, I can see how that would feel humiliating and alarming. I am sorry. What would help restore enough trust in my steadiness right now?"
+      },
+      {
+        "text": "[Defensive] When you brought up drinking, you sounded exactly like my wife.",
+        "suggestion": "I hear that my wording put me in the same position as your wife, and I am sorry. What is the difference between a question that helps you look honestly and one that feels like accusation?"
+      },
+      {
+        "text": "[Angry] When you used the word violence, I felt like you had already decided I am a criminal.",
+        "suggestion": "Thank you for naming that. The word landed as a total judgment of you, and I am sorry I did not frame it more carefully. How can we speak plainly about harmful behavior while keeping your whole person in view?"
+      },
+      {
+        "text": "[Defensive] When you ask about my family, it feels like you are blaming where I come from.",
+        "suggestion": "I hear that my family questions feel like blame toward your background. I am sorry I gave that impression. What do I need to respect about where you come from before we explore what hurt you there?"
       }
     ],
     "case-nina": [
@@ -4012,6 +4404,34 @@ export const STATEMENT_SETS = {
       {
         "text": "[Torn] Sometimes when I talk about chores and the kids, I see you look tired and wonder if even you are sick of this.",
         "suggestion": "Thank you for naming that. If tiredness showed on my face, I can see how it would confirm the fear that your daily load is too much for people. I am sorry for that impact. I am interested in this. What helps you feel I am still with you in the ordinary details?"
+      },
+      {
+        "text": "[Apologetic] When you say boundaries, I feel like I have failed at something basic.",
+        "suggestion": "Thank you for telling me. The way I used 'boundaries' sounded like a correction or grade, and I am sorry. What wording would help us talk about your limits without making you feel like a failure?"
+      },
+      {
+        "text": "[Tearful] When I stopped crying, you looked relieved.",
+        "suggestion": "I hear that my face seemed relieved when your tears stopped, and I am sorry. That could make your tears feel burdensome here. What would help you know I am not waiting for your feelings to be over?"
+      },
+      {
+        "text": "[Lost] When you ask what I want, I feel abandoned, like I am supposed to know alone.",
+        "suggestion": "Thank you for saying that. My question may have handed you too much responsibility too fast, and I am sorry. How can I help you find what you want without leaving you alone with the question?"
+      },
+      {
+        "text": "[Tired] When you suggested rest, it sounded like you do not understand my actual life.",
+        "suggestion": "I hear that rest sounded unrealistic and out of touch. I am sorry I offered it too simply. What do I need to understand about the load before rest can even be discussed?"
+      },
+      {
+        "text": "[Ashamed] When you called it resentment, I felt ugly.",
+        "suggestion": "Thank you for telling me. The word 'resentment' landed as if I were naming something ugly in you, and I am sorry. What word better respects the hurt and exhaustion underneath?"
+      },
+      {
+        "text": "[Apologetic] I said sorry five times and you did not notice, so I felt invisible again.",
+        "suggestion": "I am sorry I missed the repeated apologies. That was an important signal, and missing it repeated the invisibility you are describing. What would help you feel seen in that pattern now?"
+      },
+      {
+        "text": "[Torn] When you focused on my ex, I felt like the kids disappeared from the room.",
+        "suggestion": "I hear that I narrowed the focus to your ex and lost the children, who are central to this. I am sorry. Where should we bring the kids back into the conversation now?"
       }
     ],
     "case-aisha": [
@@ -4026,6 +4446,34 @@ export const STATEMENT_SETS = {
       {
         "text": "[Mistrustful] This is awkward, but after you asked so much about who I sleep with, I wondered if you were interested in me like that.",
         "suggestion": "Thank you for saying it. I can understand that my questions about sex may have felt personal or confusing. I am sorry I did not make the purpose and boundary clearer. I do not have romantic or sexual interest in you; this is a professional therapy relationship. What do you need from me now so questions about sex feel safer and clearly about your experience?"
+      },
+      {
+        "text": "[Desperate] I emailed you and did not hear back, and I spiraled all night.",
+        "suggestion": "I hear that the lack of response left you alone with a spiral, and I am sorry I did not make the email frame clearer. What agreement about messages would help you know what to expect without feeling abandoned?"
+      },
+      {
+        "text": "[Hurt] When you said boundaries, it sounded like punishment.",
+        "suggestion": "Thank you for naming that. My boundary language landed as punishment, and I am sorry. How can I make the frame clear while also making it feel caring rather than rejecting?"
+      },
+      {
+        "text": "[Ashamed] When I mentioned cutting, your eyes got wide and I felt like I scared you.",
+        "suggestion": "I am sorry my face made you feel scary or too much. I want to take cutting seriously without making you carry my alarm. What would help you feel I can stay steady and also keep safety in view?"
+      },
+      {
+        "text": "[Mistrustful] When you said you write notes, I wondered what version of me you are putting in there.",
+        "suggestion": "Thank you for telling me. I should have explained notes more clearly, and I am sorry that uncertainty made you feel misrepresented. What would you need to know about my notes to feel less exposed?"
+      },
+      {
+        "text": "[Desperate] When you said we could not add an extra session this week, it felt like rejection.",
+        "suggestion": "I hear that my no to an extra session felt like rejection, and I am sorry I did not attend to that impact. What would help you feel held by the plan even when I cannot add time?"
+      },
+      {
+        "text": "[Panicked] You sounded so calm when I was falling apart that I thought you did not care.",
+        "suggestion": "Thank you for saying that. My calm sounded like distance, and I am sorry. What kind of steadiness would feel caring rather than detached when you are panicking?"
+      },
+      {
+        "text": "[Angry] When you used a diagnosis word, I felt reduced to a problem.",
+        "suggestion": "I hear that the diagnosis word made you feel reduced and objectified. I am sorry I used language that narrowed you. What words help us talk about patterns without turning you into a label?"
       }
     ],
     "case-david": [
@@ -4040,6 +4488,34 @@ export const STATEMENT_SETS = {
       {
         "text": "[Wounded but sharp] When you named my wife's hurt first, it felt like you were siding with her.",
         "suggestion": "Naming her hurt first sounded like I had aligned with her against you, and I am sorry. What piece of your side did I miss or make too small?"
+      },
+      {
+        "text": "[Stern] When you challenged me in that tone, I felt humiliated.",
+        "suggestion": "Thank you for telling me. My tone in the challenge felt humiliating, and I am sorry. What would make challenge feel respectful enough to be useful?"
+      },
+      {
+        "text": "[Dismissive] When you called it self-protection, it sounded like a polite way of saying narcissistic.",
+        "suggestion": "I hear that my wording sounded pathologizing, even if it was dressed up. I am sorry. What language would let us examine your defenses without making you feel diagnosed or insulted?"
+      },
+      {
+        "text": "[Wounded but sharp] You took my wife's tears more seriously than mine.",
+        "suggestion": "Thank you for naming that. If I gave more weight to her tears than to your pain, I missed you and I am sorry. What did your pain need from me in that moment?"
+      },
+      {
+        "text": "[Controlled] When you asked details about the affair, I felt judged and exposed.",
+        "suggestion": "I hear that my questions felt exposing and judgmental. I am sorry I did not make the purpose and limits clearer. What details, if any, feel clinically useful rather than shaming to discuss?"
+      },
+      {
+        "text": "[Irritated] When you said there are no quick fixes, it sounded condescending.",
+        "suggestion": "Thank you for saying that. My phrase sounded like I was talking down to you, and I am sorry. How can I be honest about therapy taking time without sounding dismissive of your urgency?"
+      },
+      {
+        "text": "[Dismissive] You seemed impressed by my career, and then I felt like you missed the mess at home.",
+        "suggestion": "I hear that my attention to your career may have reinforced the polished version of you and missed the pain at home. I am sorry. Where should I look now so I do not collude with the performance?"
+      },
+      {
+        "text": "[Cold] When you mentioned referrals, it felt like you were done with me.",
+        "suggestion": "I hear that mentioning referrals felt like rejection rather than choice. I am sorry I did not frame it more carefully. What would help you know I am still willing to work with you while we also speak honestly about what helps?"
       }
     ],
     "case-marcus": [
@@ -4054,6 +4530,34 @@ export const STATEMENT_SETS = {
       {
         "text": "[Hypervigilant] When you ask about nightmares, I wonder if you actually know what to do with this or if it is too much for you.",
         "suggestion": "Thank you for naming that. If I ask into trauma without showing steadiness and consent, I can see why you would doubt whether I can handle it. I am sorry for moving before readiness was clear. I do have training and support for trauma work, and I want to earn trust by going at a pace you can stop. What would show you I am not pushing past my competence or your limits?"
+      },
+      {
+        "text": "[Tense] When you asked me to close my eyes, that felt unsafe.",
+        "suggestion": "Thank you for saying that. Asking you to close your eyes ignored what safety requires for you, and I am sorry. What grounding options keep enough orientation and control?"
+      },
+      {
+        "text": "[Flat] When you called it a trauma response, I felt like a category.",
+        "suggestion": "I hear that my language made you feel categorized rather than known. I am sorry. What words help us name what happens without making you feel filed away?"
+      },
+      {
+        "text": "[Low voice] When I mentioned violence at home, you looked uncomfortable.",
+        "suggestion": "Thank you for naming that. If my discomfort showed, I am sorry; you should not have to manage my reaction to your history. What would help you know I can hear it without turning away?"
+      },
+      {
+        "text": "[Guarded] I said I did not want to talk about nightmares, and you asked one more question anyway.",
+        "suggestion": "I hear that I crossed a limit after you had already said no. I am sorry. What should I do now to repair that and make your stop signal clearer between us?"
+      },
+      {
+        "text": "[Hypervigilant] You sat between me and the door, and I could not hear anything else.",
+        "suggestion": "Thank you for telling me. Where I sat blocked your sense of exit, and I am sorry. Let's adjust the room now; where should I sit so your body can track the door and still stay with me?"
+      },
+      {
+        "text": "[Stern] When you say, You are safe here, I feel like you do not know what safe means.",
+        "suggestion": "I hear that 'safe here' sounded naive and disconnected from your reality. I am sorry. What would be a more accurate way for me to speak about relative safety in this room?"
+      },
+      {
+        "text": "[Flat] You ask about foster care every session, and it feels like digging.",
+        "suggestion": "Thank you for telling me. Returning there repeatedly has felt like digging, and I am sorry I did not check that. What would make it feel like you control whether and when we go near that material?"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T21:13:10.497Z",
+  "generatedAt": "2026-06-07T21:40:47.665Z",
   "revision": "2026-03-07-v1",
   "packets": [
     {
@@ -311,24 +311,24 @@
           "caseId": "case-david",
           "caseLabel": "David (Hard)",
           "difficulty": "hard",
-          "itemId": "dp_marker-recognition-chairwork_case-david_02",
-          "order": 2
+          "itemId": "dp_marker-recognition-chairwork_case-david_05",
+          "order": 5
         },
         {
           "blindLabel": "B",
           "caseId": "case-michael",
           "caseLabel": "Michael (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_marker-recognition-chairwork_case-michael_02",
-          "order": 2
+          "itemId": "dp_marker-recognition-chairwork_case-michael_05",
+          "order": 5
         },
         {
           "blindLabel": "C",
           "caseId": "case-carlos",
           "caseLabel": "Carlos (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_marker-recognition-chairwork_case-carlos_02",
-          "order": 2
+          "itemId": "dp_marker-recognition-chairwork_case-carlos_05",
+          "order": 5
         }
       ]
     },
@@ -341,24 +341,24 @@
           "caseId": "case-marcus",
           "caseLabel": "Marcus (Hard)",
           "difficulty": "hard",
-          "itemId": "dp_alliance-repair_case-marcus_03",
-          "order": 3
+          "itemId": "dp_alliance-repair_case-marcus_09",
+          "order": 9
         },
         {
           "blindLabel": "B",
           "caseId": "case-nina",
           "caseLabel": "Nina (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_alliance-repair_case-nina_03",
-          "order": 3
+          "itemId": "dp_alliance-repair_case-nina_09",
+          "order": 9
         },
         {
           "blindLabel": "C",
           "caseId": "case-jason",
           "caseLabel": "Jason (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_alliance-repair_case-jason_03",
-          "order": 3
+          "itemId": "dp_alliance-repair_case-jason_09",
+          "order": 9
         }
       ]
     }

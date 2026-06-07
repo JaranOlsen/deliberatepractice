@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T21:13:10.497Z",
+  "generatedAt": "2026-06-07T21:40:47.665Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -1105,28 +1105,28 @@
       "samples": [
         {
           "blindLabel": "A",
-          "order": 2,
+          "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Angry] I keep replaying what I wish I had said when he left: You made me feel disposable.",
-            "response": "That sounds like unfinished business with him around being made to feel disposable. If you are willing, we can place him in the empty chair and have you say that sentence directly to him, one or two lines at a time."
+            "statement": "[Angry] I still want to tell my friend to stop saying I should just move on.",
+            "response": "That sounds like unfinished business with your friend around feeling hurried past your grief. If you are willing, we can place her in the empty chair and let you say, directly, what it is like when she tells you to move on."
           },
           "no": {
-            "statement": "[Sint] Jeg fortsetter å spille av det jeg skulle ønske jeg hadde sagt da han dro: «Du fikk meg til å føle meg som noe som kunne kastes.»",
-            "response": "Det høres ut som et uavsluttet oppgjør med ham rundt det å føle seg kastet. Hvis du vil, kan vi plassere ham i den tomme stolen og la deg si akkurat den setningen direkte til ham, en eller to linjer om gangen."
+            "statement": "[Sint] Jeg har fortsatt lyst til å si til venninnen min at hun må slutte å si at jeg bare bør gå videre.",
+            "response": "Det høres ut som et uavsluttet oppgjør med venninnen din rundt det å bli hastet forbi sorgen. Hvis du vil, kan vi sette henne i den tomme stolen og la deg si direkte hvordan det er når hun ber deg gå videre."
           }
         },
         {
           "blindLabel": "B",
-          "order": 2,
+          "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Apologetic] I keep thinking of what I never said to my ex: You left me carrying everything, then blamed me for being tired.",
-            "response": "I hear unfinished business with your ex around carrying too much and then being blamed for exhaustion. We could use the empty chair; first, tell him that exact sentence and what it cost you to swallow it."
+            "statement": "[Apologetic] I want to tell my mother, I was the child; you were supposed to notice me.",
+            "response": "That sounds like unfinished business with your mother around being unseen. If you are willing, we can bring her into the empty chair and let you say that line directly, just a few words at a time."
           },
           "no": {
-            "statement": "[Unnskyldende] Jeg tenker fortsatt på det jeg aldri sa til eksen min: «Du lot meg bære alt, og så skyldte du på meg for at jeg var sliten.»",
-            "response": "Jeg hører et uavsluttet oppgjør med eksen din rundt det å bære for mye og så få skylden for utmattelsen. Vi kan bruke den tomme stolen. Først kan du si akkurat den setningen til ham og hva det kostet å svelge den."
+            "statement": "[Unnskyldende] Jeg vil si til moren min: «Jeg var barnet; du skulle ha lagt merke til meg.»",
+            "response": "Det høres ut som et uavsluttet oppgjør med moren din rundt å ikke bli sett. Hvis du vil, kan vi hente henne inn i den tomme stolen og la deg si den linjen direkte, bare noen få ord om gangen."
           }
         }
       ]
@@ -1141,28 +1141,28 @@
       "samples": [
         {
           "blindLabel": "A",
-          "order": 3,
+          "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Tense and ashamed] I start to say sorry to my son, and my mouth shuts. I think, don't show weakness, and my face goes hard.",
-            "response": "That sounds like something stops the apology before the softer feeling can reach him. We can use two chairs: from this chair, tell him not to show weakness and make the case for staying hard; then we will switch and hear from the father who wants to repair."
+            "statement": "[Low voice] I wish I could tell my wife I get scared when she looks at me like she is afraid.",
+            "response": "That sounds like unfinished business with your wife around fear and distance between you. We can place her in the empty chair and let you say that sentence to her slowly, without forcing more than one or two lines."
           },
           "no": {
-            "statement": "[Anspent og skamfull] Jeg begynner å si unnskyld til sønnen min, og så lukker munnen seg. Jeg tenker: ikke vis svakhet, og ansiktet mitt blir hardt.",
-            "response": "Det høres ut som noe stopper unnskyldningen før den mykere følelsen kan nå ham. Vi kan bruke to stoler: Fra denne stolen sier du til ham at han ikke skal vise svakhet, og argumenterer for å holde seg hard; så bytter vi og hører fra faren som vil reparere."
+            "statement": "[Lav stemme] Jeg skulle ønske jeg kunne si til kona mi at jeg blir redd når hun ser på meg som om hun er redd.",
+            "response": "Det høres ut som et uavsluttet oppgjør med kona di rundt frykt og avstand mellom dere. Vi kan plassere henne i den tomme stolen og la deg si den setningen langsomt, uten å presse mer enn én eller to linjer."
           }
         },
         {
           "blindLabel": "B",
-          "order": 3,
+          "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Tense] The second I start to soften, I hear, Get it together, and I start listing what I should have done better.",
-            "response": "That sounds like the hard command interrupts the softer feeling. We can use two chairs to make that clearer: from this chair, say 'get it together' and list what he should have done better; then we will switch and hear from the softer side."
+            "statement": "[Low voice] I wish I could tell my son I am scared he is learning fear from me.",
+            "response": "That sounds like unfinished business with your son and what has not been said between you. We can place him in the empty chair and let you say that carefully, while we keep the pace slow enough to stay with it."
           },
           "no": {
-            "statement": "[Anspent] I det sekundet jeg begynner å mykne, hører jeg: «Ta deg sammen», og så begynner jeg å ramse opp alt jeg burde gjort bedre.",
-            "response": "Det høres ut som den harde kommandoen avbryter det mykere som kommer. Vi kan bruke to stoler for å gjøre det tydeligere: Fra denne stolen sier du «ta deg sammen» og ramser opp hva han burde gjort bedre; så bytter vi og hører fra den mykere siden."
+            "statement": "[Lav stemme] Jeg skulle ønske jeg kunne si til sønnen min at jeg er redd han lærer frykt av meg.",
+            "response": "Det høres ut som et uavsluttet oppgjør med sønnen din og det som ikke er sagt mellom dere. Vi kan plassere ham i den tomme stolen og la deg si det forsiktig, mens vi holder tempoet sakte nok til å være med det."
           }
         }
       ]
@@ -1215,28 +1215,28 @@
       "samples": [
         {
           "blindLabel": "A",
-          "order": 3,
+          "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Torn] Sometimes when I talk about chores and the kids, I see you look tired and wonder if even you are sick of this.",
-            "response": "Thank you for naming that. If tiredness showed on my face, I can see how it would confirm the fear that your daily load is too much for people. I am sorry for that impact. I am interested in this. What helps you feel I am still with you in the ordinary details?"
+            "statement": "[Apologetic] I said sorry five times and you did not notice, so I felt invisible again.",
+            "response": "I am sorry I missed the repeated apologies. That was an important signal, and missing it repeated the invisibility you are describing. What would help you feel seen in that pattern now?"
           },
           "no": {
-            "statement": "[Splittet] Noen ganger når jeg snakker om husarbeid og barna, ser jeg at du virker trøtt, og da lurer jeg på om selv du er lei av dette.",
-            "response": "Takk for at du setter ord på det. Hvis trøtthet syntes i ansiktet mitt, skjønner jeg at det kunne bekrefte frykten for at hverdagsbyrdene dine blir for mye for folk. Jeg beklager den virkningen. Jeg er interessert i dette. Hva hjelper deg å kjenne at jeg fortsatt er med deg i de vanlige detaljene?"
+            "statement": "[Unnskyldende] Jeg sa unnskyld fem ganger og du la ikke merke til det, så jeg følte meg usynlig igjen.",
+            "response": "Jeg beklager at jeg overså de gjentatte unnskyldningene. Det var et viktig signal, og da jeg gikk glipp av det, gjentok jeg usynligheten du beskriver. Hva ville hjulpet deg å føle deg sett i det mønsteret nå?"
           }
         },
         {
           "blindLabel": "B",
-          "order": 3,
+          "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Anxious] When I apologized for crying, your silence made me worry I was too needy for therapy.",
-            "response": "Thank you for naming that. My silence after your apology may have sounded like I agreed that your need was too much, and I am sorry. When tears come again, what could I say or do so you feel welcome rather than tolerated?"
+            "statement": "[Anxious] When you asked who else supports me, it sounded like you were trying to pass me off to someone else.",
+            "response": "I hear how that question landed as being passed off. I am sorry I did not make my intention clear. I want support around you, not distance from you. How can I ask about support without making you feel unwanted here?"
           },
           "no": {
-            "statement": "[Engstelig] Da jeg beklaget at jeg gråt, gjorde stillheten din meg redd for at jeg var for trengende for terapi.",
-            "response": "Takk for at du sier det. Stillheten min etter beklagelsen din kan ha hørtes ut som om jeg var enig i at behovet ditt var for mye, og det beklager jeg. Når tårene kommer igjen, hva kan jeg si eller gjøre så du kjenner deg velkommen, ikke bare tålt?"
+            "statement": "[Engstelig] Da du spurte hvem andre som støtter meg, hørtes det ut som om du prøvde å sende meg videre til noen andre.",
+            "response": "Jeg hører at spørsmålet landet som om du ble sendt videre. Jeg beklager at jeg ikke gjorde hensikten min tydelig. Jeg vil ha støtte rundt deg, ikke avstand fra deg. Hvordan kan jeg spørre om støtte uten at du føler deg uønsket her?"
           }
         }
       ]
@@ -1287,28 +1287,30 @@
       "samples": [
         {
           "blindLabel": "A",
-          "order": 2,
-          "riskFlags": [],
+          "order": 5,
+          "riskFlags": [
+            "trauma"
+          ],
           "en": {
-            "statement": "[Low voice] When you moved your chair closer, I felt trapped and on edge.",
-            "response": "Thank you for saying it directly. Moving closer put you on edge and felt trapping, and I am sorry. Where would it feel safer for me to be in the room?"
+            "statement": "[Flat] When you called it a trauma response, I felt like a category.",
+            "response": "I hear that my language made you feel categorized rather than known. I am sorry. What words help us name what happens without making you feel filed away?"
           },
           "no": {
-            "statement": "[Lav stemme] Da du flyttet stolen nærmere, følte jeg meg fanget og urolig.",
-            "response": "Takk for at du sier det direkte. At jeg flyttet meg nærmere gjorde deg urolig og fanget, og det beklager jeg. Hvor i rommet ville det kjennes tryggere at jeg var?"
+            "statement": "[Flatt] Da du kalte det en traumereaksjon, følte jeg meg som en kategori.",
+            "response": "Jeg hører at språket mitt fikk deg til å føle deg kategorisert heller enn kjent. Det beklager jeg. Hvilke ord hjelper oss å navngi det som skjer uten at du føler deg arkivert?"
           }
         },
         {
           "blindLabel": "B",
-          "order": 2,
+          "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Distant] When I told you about my mother at the sink and you smiled for a second, I thought you were laughing at me.",
-            "response": "Thank you for telling me. If my face looked amused in that moment, I can understand why it felt humiliating and unsafe. I am sorry for that impact. I was not laughing at you, and I want to know what would help you feel that I grasp the seriousness of what you told me."
+            "statement": "[Wary] When you asked whether I trust you, it felt like pressure to say yes.",
+            "response": "I hear that my trust question created pressure. I am sorry; trust should not be demanded from you. What would let us talk about mistrust without you having to reassure me?"
           },
           "no": {
-            "statement": "[Fjern] Da jeg fortalte om moren min ved oppvaskbenken og du smilte et øyeblikk, trodde jeg at du lo av meg.",
-            "response": "Takk for at du sier det. Hvis ansiktet mitt så moret ut i det øyeblikket, skjønner jeg at det kunne kjennes ydmykende og utrygt. Jeg beklager den virkningen. Jeg lo ikke av deg, og jeg vil vite hva som ville hjulpet deg å kjenne at jeg forstår alvoret i det du fortalte."
+            "statement": "[På vakt] Da du spurte om jeg stoler på deg, føltes det som press om å si ja.",
+            "response": "Jeg hører at spørsmålet mitt om tillit skapte press. Det beklager jeg; tillit skal ikke kreves av deg. Hva ville gjort det mulig å snakke om mistillit uten at du må berolige meg?"
           }
         }
       ]
