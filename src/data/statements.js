@@ -2034,20 +2034,20 @@ export const STATEMENT_SETS = {
         "suggestion": "The flatness protects you, and the flicker of sadness looks dangerous enough that a door closes before it can spread."
       },
       {
-        "text": "[Fearful] Raised voices make my stomach drop, and my shoulders lock up right away.",
-        "suggestion": "The stomach drop and tension seem to come as one alarm, your body warning you that something is not safe."
+        "text": "[Fearful] Raised voices do not even have to be aimed at me; I just go quiet and wait for it to pass.",
+        "suggestion": "Even when the anger is not directed at you, something in you goes quiet and waits. We can stay with that quiet place for a moment."
       },
       {
-        "text": "[Tense and guarded] When someone is kind, I float far away before I can decide whether I trust it.",
-        "suggestion": "Kindness does not simply feel warm; it seems to set off distance before trust has a chance."
+        "text": "[Tense and guarded] When someone is kind to me, I start looking for the catch before I know whether I want the kindness.",
+        "suggestion": "The kindness is there, and almost right away you are searching for the catch. Let's notice what happens in that moment between wanting it and guarding against it."
       },
       {
         "text": "[Flat and guarded] I drink wine at night because the noise in my head feels sharper when the house gets quiet.",
         "suggestion": "The wine seems to soften the sharpness that arrives when the house goes quiet."
       },
       {
-        "text": "[Distant] I wake with my shoulders tight, as if the day has already threatened me.",
-        "suggestion": "The day seems to arrive as threat before anything has happened, and your whole system is already preparing."
+        "text": "[Distant] I wake up already expecting the day to go wrong, even when nothing has happened yet.",
+        "suggestion": "You wake already braced for something to go wrong. Maybe we can stay with that expectation and see what it is preparing you for."
       },
       {
         "text": "[Ashamed] Even gentle touch makes me jump, and then I hate that my reaction is so obvious.",
@@ -2066,18 +2066,18 @@ export const STATEMENT_SETS = {
         "suggestion": "The guilt seems to turn a human need into evidence that you are asking too much."
       },
       {
-        "text": "[Slow and flat] I skip movies with fighting because a single shout can make the room disappear.",
-        "suggestion": "The shout seems to pull you out of the present so quickly that avoiding the movie becomes a way to stay here."
+        "text": "[Slow and flat] I avoid movies with fighting because I don't want to find out what a single shout will do to me.",
+        "suggestion": "Avoiding the movie protects you from having to find out what the shout might stir. Let's notice the carefulness in that choice."
       }
     ],
     "case-carlos": [
       {
-        "text": "[Defensive] A certain tone hits and my chest heats before I know what was said.",
-        "suggestion": "The heat arrives before the words, as if tone alone touches the place that expects disrespect."
+        "text": "[Defensive] My wife says she can hear my tone change before I notice anything is wrong.",
+        "suggestion": "She hears the change before you catch it yourself. Let's slow down around that moment and see what might be happening just before the tone shifts."
       },
       {
-        "text": "[Tense] I pace the room until my legs ache because sitting still feels like I might explode.",
-        "suggestion": "The pacing seems to give the heat somewhere to go, while the explosion feeling stays just under the surface."
+        "text": "[Tense] After an argument, I do not know whether to apologize or act like we are fine.",
+        "suggestion": "There are two moves available afterward: repair it or move past it. Let's stay with the unsure place between those two."
       },
       {
         "text": "[Fearful] If I back off, I feel myself disappearing, like there is no outline left.",
@@ -2088,16 +2088,16 @@ export const STATEMENT_SETS = {
         "suggestion": "The replay seems to carry both love for him and the pain of seeing fear linked to you."
       },
       {
-        "text": "[Tense] When things get calm, I feel exposed, like the next hit is just waiting.",
-        "suggestion": "Calm seems to lower the guard and leave you waiting for the next hit."
+        "text": "[Tense] When it gets calm after a fight, I start waiting for someone to bring it up again.",
+        "suggestion": "The calm does not quite feel settled; part of you is waiting for it to come back. Let's notice what that waiting is like."
       },
       {
         "text": "[Tense and angry] I break things because the force in me feels like it has to land somewhere.",
         "suggestion": "The breaking seems to give the force a place to land before it reaches anyone."
       },
       {
-        "text": "[Defensive] If I let myself be soft, I picture someone using it against me.",
-        "suggestion": "Softness seems to carry the image of being exposed, almost handing someone a place to strike."
+        "text": "[Defensive] If I let myself be soft, I don't know whether people will respect me or take advantage.",
+        "suggestion": "Softness brings uncertainty about whether you will be respected or used. We can stay near that uncertainty without forcing an answer."
       },
       {
         "text": "[Angry, clenching fists] Disrespect hits my chest like a punch, and I need them to know it hurt.",
@@ -2122,8 +2122,8 @@ export const STATEMENT_SETS = {
         "suggestion": "The doing keeps resentment moving at a distance, maybe because stopping would let the sadness underneath catch up."
       },
       {
-        "text": "[Torn] When I say no, my stomach knots and I start picturing everyone's disappointment.",
-        "suggestion": "The knot seems tied to the picture of disappointing them, as if the boundary immediately threatens belonging."
+        "text": "[Torn] When I say no, I keep explaining until the no almost disappears.",
+        "suggestion": "The no is there, and then the explaining starts to soften it. Let's notice what feels risky about letting the no stand."
       },
       {
         "text": "[Tired] Even asking for a small ride comes out with three apologies.",
@@ -2134,42 +2134,42 @@ export const STATEMENT_SETS = {
         "suggestion": "The mess becomes more than clutter; it turns into exposure, as if people could read failure in the room."
       },
       {
-        "text": "[Torn] When everyone needs me at once, the overwhelm climbs into my head until it pounds.",
-        "suggestion": "The headache seems to carry the pressure that has nowhere else to go when everyone needs you."
+        "text": "[Torn] When everyone needs me at once, I start saying yes before I know what I actually want.",
+        "suggestion": "The yes comes before your own wanting has time to appear. Let's slow down at that place where everyone else's need arrives first."
       },
       {
         "text": "[Guilty] I dream of being taken care of, and then I shame myself for wanting it.",
         "suggestion": "The wish to be cared for is there, and almost right beside it comes the shame for wanting it."
       },
       {
-        "text": "[Apologetic] I take every task before anyone can look disappointed in me.",
-        "suggestion": "Taking everything on protects you from that imagined disappointed look, while the strain lands in you."
+        "text": "[Apologetic] I take every task before anyone asks, and then I feel resentful that no one noticed.",
+        "suggestion": "You move ahead of the ask, and then resentment comes when the cost stays unseen. Let's make room for both parts."
       },
       {
         "text": "[Torn] Next to other moms I shrink, like they all know a rule I missed.",
         "suggestion": "Comparison makes you smaller, and there may be an old fear of being the one who somehow failed the rules."
       },
       {
-        "text": "[Tired] At night I collapse after performing 'fine' for everyone all day.",
-        "suggestion": "When the performance ends, the held-back feelings finally get a little space to arrive."
+        "text": "[Tired] By bedtime I can't tell if I am sad, angry, or just completely used up.",
+        "suggestion": "At the end of the day the feelings are hard to separate: sadness, anger, exhaustion. We can stay with that blurred place gently."
       }
     ],
     "case-aisha": [
       {
-        "text": "[Panicked] If a reply doesn't come, my chest feels like a hole opens and I can't breathe.",
-        "suggestion": "When the reply does not come, it is as if a hole opens in your chest and everything in you starts to fall."
+        "text": "[Panicked] If a reply doesn't come, I tell myself it shouldn't matter, but then I can't focus on anything else.",
+        "suggestion": "One part says it should not matter, and another part cannot let go of the missing reply. Let's stay with that split for a moment."
       },
       {
         "text": "[Desperate] I go from please don't leave to leave me alone in seconds.",
         "suggestion": "The swing is so fast, almost as if the fear of losing someone flips straight into pushing them away."
       },
       {
-        "text": "[Desperate] Sometimes I scratch because the emptiness gets so unreal that pain feels like proof I exist.",
-        "suggestion": "The scratching seems to come when numbness starts to erase you, as if pain becomes the fastest proof that you are still here."
+        "text": "[Desperate] When I scratch, part of me says it is not a big deal, and another part is scared you will judge me.",
+        "suggestion": "There is the part minimizing it, and another part worried about my reaction. We can slow down with both parts here."
       },
       {
-        "text": "[Desperate] If you glance at the clock, I feel dropped so fast I want to punish you for it.",
-        "suggestion": "That glance seems to become abandonment in an instant, and the dropped feeling flips quickly toward attack."
+        "text": "[Desperate] If you glance at the clock, I start wondering whether I should stop talking before you end it.",
+        "suggestion": "The clock glance starts a question about whether to pull back before I leave. Let's notice what happens in you right then."
       },
       {
         "text": "[Desperate] I test people because I need to know whether they care enough to stay.",
@@ -2188,8 +2188,8 @@ export const STATEMENT_SETS = {
         "suggestion": "That disgusting feeling sounds like something you carry in your body from what was done to you."
       },
       {
-        "text": "[Desperate] I stare at the door to make sure you won't end early.",
-        "suggestion": "Your eyes keep watch on the door, as if relaxing for even a second could mean being left."
+        "text": "[Desperate] I keep checking the door, and I can't tell if I am angry you will leave or scared you might forget me.",
+        "suggestion": "At the door there is anger and fear tangled together: leaving, being forgotten. We can stay with that tangle slowly."
       },
       {
         "text": "[Panicked] If you cancel, something in me wants to never come back.",
@@ -2198,20 +2198,20 @@ export const STATEMENT_SETS = {
     ],
     "case-david": [
       {
-        "text": "[Controlled] When she says I'm cold, my face burns and my chest goes hard.",
-        "suggestion": "When 'cold' lands, the hard chest and burning face come in right away and everything in you seems to lock down."
+        "text": "[Controlled] When she says I am cold, part of me wants to prove her wrong and another part wants to disappear.",
+        "suggestion": "One part moves toward proving, another toward disappearing. Let's stay with that split before either side takes over."
       },
       {
-        "text": "[Controlled] If I am not the best, I feel hollow, like there is nothing holding me up.",
-        "suggestion": "Not being the best seems to open that hollow place where worth starts to drain away."
+        "text": "[Controlled] You seem calm when I talk about failure, and I cannot tell if I respect that or resent it.",
+        "suggestion": "My calm lands in two ways at once: something respects it and something resents it. Let's notice what each side is responding to."
       },
       {
         "text": "[Defensive] When I feel judged, I smooth my shirt and start listing achievements.",
         "suggestion": "Straightening up and listing achievements feels like armor going on against shame."
       },
       {
-        "text": "[Controlled] Praise feels good for a second, then leaks out before I can believe it.",
-        "suggestion": "The praise touches something briefly, but it cannot stay long enough to answer the doubting part."
+        "text": "[Controlled] Praise works for maybe ten seconds; then I start looking for the part they missed.",
+        "suggestion": "The praise reaches you briefly, and then the search for what was missed takes over. Let's slow down at the place where it stops landing."
       },
       {
         "text": "[Dismissive] In hard talks, I check my phone the moment I feel cornered.",
@@ -2226,8 +2226,8 @@ export const STATEMENT_SETS = {
         "suggestion": "The burn carries more than being mistaken; it seems to expose a whole fear of failure being visible."
       },
       {
-        "text": "[Distant] Since the affair, nights feel flat and heavy, like the house is judging me.",
-        "suggestion": "The heaviness seems to hold both guilt and exposure, as if the quiet house keeps looking back at you."
+        "text": "[Distant] Since the affair, I do not know whether I want forgiveness or to be left alone.",
+        "suggestion": "There is a pull toward forgiveness and another toward being left alone. Let's stay with how those two wishes sit next to each other."
       },
       {
         "text": "[Wounded but sharp] I want credit without having to ask, because asking makes me feel pathetic.",
@@ -2244,28 +2244,28 @@ export const STATEMENT_SETS = {
         "suggestion": "Most days the numbness holds, and then the wave comes as if the feeling has broken through all at once."
       },
       {
-        "text": "[Hypervigilant] Nightmares rip me awake, and afterward I feel wired and hollow.",
-        "suggestion": "Wired and empty sit side by side, the body on alert while everything else feels far away."
+        "text": "[Hypervigilant] After nightmares, I know I should talk about them, but the details feel far away and I don't know where to start.",
+        "suggestion": "You know talking might matter, and the details still stay far away. We can begin with the not-knowing where to start."
       },
       {
         "text": "[Quiet and guarded] Crowds make my shoulders rise, and I stay near the wall without deciding to.",
         "suggestion": "Your system chooses the edge before you do, as if distance is how it keeps you oriented and safe."
       },
       {
-        "text": "[Low voice] After dark the silence in my apartment gets heavy, like something is waiting.",
-        "suggestion": "The silence seems to become a presence after dark, pressing in with what has been kept out all day."
+        "text": "[Low voice] After dark I start wondering whether being alone is safer or just making me worse.",
+        "suggestion": "Aloneness feels like protection and maybe harm at the same time. Let's stay with that question without rushing it."
       },
       {
         "text": "[Low voice] After work I sit in the car because the apartment feels too quiet to enter.",
         "suggestion": "The car becomes a holding place before the quiet upstairs, maybe delaying the loneliness that waits there."
       },
       {
-        "text": "[Quiet and guarded] I keep the lights low and let calls go silent so nothing can reach me.",
-        "suggestion": "The dim room and unanswered phone seem to create a perimeter, keeping contact far enough away to manage."
+        "text": "[Quiet and guarded] I let calls go silent because answering means explaining why I am not okay.",
+        "suggestion": "Letting the call go silent protects you from having to explain. We can notice what feels too much about being asked."
       },
       {
-        "text": "[Flat] Good moments feel unreal, like they happen on the other side of glass.",
-        "suggestion": "The good is visible but kept on the other side, close enough to see and too far to feel."
+        "text": "[Flat] Good moments happen, but I don't trust them enough to let them count.",
+        "suggestion": "The good moments are there, but letting them count feels hard to trust. Let's linger near that mistrust of the good."
       },
       {
         "text": "[Low voice] A sudden sound cuts through me, and before I think, I am scanning the room.",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T10:31:22.049Z",
+  "generatedAt": "2026-06-07T11:11:50.058Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -613,12 +613,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Defensive] A certain tone hits and my chest heats before I know what was said.",
-            "response": "The heat arrives before the words, as if tone alone touches the place that expects disrespect."
+            "statement": "[Defensive] My wife says she can hear my tone change before I notice anything is wrong.",
+            "response": "She hears the change before you catch it yourself. Let's slow down around that moment and see what might be happening just before the tone shifts."
           },
           "no": {
-            "statement": "[Defensiv] En bestemt tone treffer, og brystet blir varmt før jeg vet hva som ble sagt.",
-            "response": "Varmen kommer før ordene, som om tonefallet alene berører stedet som forventer mangel på respekt."
+            "statement": "[Defensiv] Kona mi sier at hun hører tonefallet mitt endre seg før jeg selv merker at noe er galt.",
+            "response": "Hun hører endringen før du selv fanger den. Vi kan senke tempoet rundt det øyeblikket og se hva som kan skje rett før tonefallet skifter."
           }
         }
       ]
@@ -649,12 +649,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Distant] I wake with my shoulders tight, as if the day has already threatened me.",
-            "response": "The day seems to arrive as threat before anything has happened, and your whole system is already preparing."
+            "statement": "[Distant] I wake up already expecting the day to go wrong, even when nothing has happened yet.",
+            "response": "You wake already braced for something to go wrong. Maybe we can stay with that expectation and see what it is preparing you for."
           },
           "no": {
-            "statement": "[Fjern] Jeg våkner med stramme skuldre, som om dagen allerede har truet meg.",
-            "response": "Dagen ser ut til å komme som en trussel før noe har skjedd, og hele systemet ditt gjør seg allerede klart."
+            "statement": "[Fjern] Jeg våkner og forventer allerede at dagen skal gå galt, selv om ingenting har skjedd ennå.",
+            "response": "Du våkner allerede forberedt på at noe skal gå galt. Kanskje vi kan være litt med den forventningen og se hva den prøver å gjøre deg klar for."
           }
         }
       ]

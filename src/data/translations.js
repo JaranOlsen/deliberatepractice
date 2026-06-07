@@ -3339,20 +3339,20 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Flatheten beskytter deg, og glimtet av tristhet ser farlig nok ut til at en dør lukkes før det får bre seg."
     },
     "dp_empathic-explorations_case-laura_02": {
-      "text": "[Redd] Hevede stemmer får magen til å falle, og skuldrene låser seg med en gang.",
-      "suggestion": "Magefallet og spenningen kommer som én alarm, som om kroppen varsler at noe ikke er trygt."
+      "text": "[Redd] Hevede stemmer trenger ikke engang være rettet mot meg; jeg blir bare stille og venter på at det skal gå over.",
+      "suggestion": "Selv når sinnet ikke er rettet mot deg, blir noe i deg stille og venter. Vi kan være litt med det stille stedet."
     },
     "dp_empathic-explorations_case-laura_03": {
-      "text": "[Anspent og på vakt] Når noen er snille, flyter jeg langt bort før jeg rekker å avgjøre om jeg stoler på det.",
-      "suggestion": "Vennlighet kjennes ikke bare varm; den ser ut til å sette i gang avstand før tillit får en sjanse."
+      "text": "[Anspent og på vakt] Når noen er snille mot meg, begynner jeg å lete etter hva som er haken før jeg vet om jeg vil ta imot vennligheten.",
+      "suggestion": "Vennligheten er der, og nesten med en gang leter du etter hva som er haken. Vi kan legge merke til hva som skjer i øyeblikket mellom å ville ta imot og å beskytte deg."
     },
     "dp_empathic-explorations_case-laura_04": {
       "text": "[Flatt og på vakt] Jeg drikker vin om kvelden fordi støyen i hodet blir skarpere når huset blir stille.",
       "suggestion": "Vinen ser ut til å dempe skarpheten som kommer når huset blir stille."
     },
     "dp_empathic-explorations_case-laura_05": {
-      "text": "[Fjern] Jeg våkner med stramme skuldre, som om dagen allerede har truet meg.",
-      "suggestion": "Dagen ser ut til å komme som en trussel før noe har skjedd, og hele systemet ditt gjør seg allerede klart."
+      "text": "[Fjern] Jeg våkner og forventer allerede at dagen skal gå galt, selv om ingenting har skjedd ennå.",
+      "suggestion": "Du våkner allerede forberedt på at noe skal gå galt. Kanskje vi kan være litt med den forventningen og se hva den prøver å gjøre deg klar for."
     },
     "dp_empathic-explorations_case-laura_06": {
       "text": "[Skamfull] Selv mild berøring får meg til å skvette, og etterpå hater jeg at reaksjonen min er så synlig.",
@@ -3371,16 +3371,16 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Skylden ser ut til å gjøre et menneskelig behov til bevis på at du ber om for mye."
     },
     "dp_empathic-explorations_case-laura_10": {
-      "text": "[Langsomt og flatt] Jeg hopper over filmer med slåssing fordi ett eneste rop kan få rommet til å forsvinne.",
-      "suggestion": "Ropet ser ut til å trekke deg så raskt ut av nåtiden at det å unngå filmen blir en måte å bli her på."
+      "text": "[Langsomt og flatt] Jeg unngår filmer med slåssing fordi jeg ikke vil finne ut hva ett eneste rop gjør med meg.",
+      "suggestion": "Å unngå filmen beskytter deg fra å måtte finne ut hva ropet kan sette i gang. Vi kan legge merke til varsomheten i det valget."
     },
     "dp_empathic-explorations_case-carlos_01": {
-      "text": "[Defensiv] En bestemt tone treffer, og brystet blir varmt før jeg vet hva som ble sagt.",
-      "suggestion": "Varmen kommer før ordene, som om tonefallet alene berører stedet som forventer mangel på respekt."
+      "text": "[Defensiv] Kona mi sier at hun hører tonefallet mitt endre seg før jeg selv merker at noe er galt.",
+      "suggestion": "Hun hører endringen før du selv fanger den. Vi kan senke tempoet rundt det øyeblikket og se hva som kan skje rett før tonefallet skifter."
     },
     "dp_empathic-explorations_case-carlos_02": {
-      "text": "[Anspent] Jeg går frem og tilbake til beina verker, for hvis jeg sitter stille, kjennes det som om jeg kan eksplodere.",
-      "suggestion": "Det å gå fram og tilbake ser ut til å gi varmen et sted å gå, mens eksplosjonen fortsatt ligger rett under overflaten."
+      "text": "[Anspent] Etter en krangel vet jeg ikke om jeg skal si unnskyld eller late som om alt er greit.",
+      "suggestion": "Etterpå finnes det to mulige bevegelser: reparere eller gå videre. Vi kan være litt med det usikre stedet mellom de to."
     },
     "dp_empathic-explorations_case-carlos_03": {
       "text": "[Redd] Hvis jeg trekker meg, kjenner jeg at jeg forsvinner, som om jeg ikke har noen kontur igjen.",
@@ -3391,16 +3391,16 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Den scenen ser ut til å bære både kjærligheten til ham og smerten ved at frykten peker mot deg."
     },
     "dp_empathic-explorations_case-carlos_05": {
-      "text": "[Anspent] Når det blir rolig, føler jeg meg utsatt, som om neste slag bare venter.",
-      "suggestion": "Roen ser ut til å senke vakten og etterlate deg ventende på neste slag."
+      "text": "[Anspent] Når det blir rolig etter en krangel, begynner jeg å vente på at noen skal ta det opp igjen.",
+      "suggestion": "Roen kjennes ikke helt rolig; en del av deg venter på at det skal komme tilbake. Vi kan legge merke til hvordan den ventingen kjennes."
     },
     "dp_empathic-explorations_case-carlos_06": {
       "text": "[Anspent og sint] Jeg ødelegger ting fordi kraften i meg kjennes som om den må lande et sted.",
       "suggestion": "Ødeleggelsen ser ut til å gi kraften et sted å lande før den når noen."
     },
     "dp_empathic-explorations_case-carlos_07": {
-      "text": "[Defensiv] Hvis jeg lar meg selv være myk, ser jeg for meg at noen bruker det mot meg.",
-      "suggestion": "Mykhet ser ut til å bære bildet av å være ubeskyttet, nesten som å gi noen et sted å slå."
+      "text": "[Defensiv] Hvis jeg lar meg være myk, vet jeg ikke om folk vil respektere meg eller utnytte det.",
+      "suggestion": "Mykhet bringer med seg usikkerhet om du vil bli respektert eller utnyttet. Vi kan være nær den usikkerheten uten å tvinge fram et svar."
     },
     "dp_empathic-explorations_case-carlos_08": {
       "text": "[Sint, med knyttede never] Respektløshet treffer brystet som et slag, og jeg trenger at de forstår at det gjorde vondt.",
@@ -3423,8 +3423,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Gjøringen holder bitterheten på avstand, kanskje fordi det å stoppe ville la tristheten under hente deg inn."
     },
     "dp_empathic-explorations_case-nina_03": {
-      "text": "[Splittet] Når jeg sier nei, knyter magen seg, og jeg ser straks for meg at alle blir skuffet.",
-      "suggestion": "Knuten ser ut til å henge sammen med bildet av å skuffe dem, som om grensen med en gang truer tilhørigheten."
+      "text": "[Splittet] Når jeg sier nei, forklarer jeg meg helt til neiet nesten forsvinner.",
+      "suggestion": "Neiet er der, og så begynner forklaringen å myke det opp. Vi kan legge merke til hva som kjennes risikabelt ved å la neiet stå."
     },
     "dp_empathic-explorations_case-nina_04": {
       "text": "[Sliten] Selv det å be om en liten kjøretur kommer ut med tre unnskyldninger.",
@@ -3435,40 +3435,40 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Rotet blir mer enn rot; det blir blottstillelse, som om folk kan lese nederlaget i rommet."
     },
     "dp_empathic-explorations_case-nina_06": {
-      "text": "[Splittet] Når alle trenger meg samtidig, klatrer overveldelsen opp i hodet til det dunker.",
-      "suggestion": "Hodepinen ser ut til å bære presset som ikke har noe annet sted å gå når alle trenger deg."
+      "text": "[Splittet] Når alle trenger meg samtidig, sier jeg ja før jeg vet hva jeg faktisk vil.",
+      "suggestion": "Ja-et kommer før ditt eget ønske rekker å vise seg. Vi kan senke tempoet på stedet der alle andres behov kommer først."
     },
     "dp_empathic-explorations_case-nina_07": {
       "text": "[Skyldpreget] Jeg drømmer om å bli tatt vare på, og så skammer jeg meg for at jeg vil det.",
       "suggestion": "Ønsket om å bli tatt vare på er der, og nesten rett ved siden av kommer skammen over å ønske det."
     },
     "dp_empathic-explorations_case-nina_08": {
-      "text": "[Unnskyldende] Jeg tar hver oppgave før noen rekker å se skuffet ut over meg.",
-      "suggestion": "Å ta alt beskytter deg mot det forestilte skuffede blikket, mens belastningen lander i deg."
+      "text": "[Unnskyldende] Jeg tar oppgaver før noen spør, og så blir jeg bitter for at ingen merker det.",
+      "suggestion": "Du går foran spørsmålet, og så kommer bitterheten når prisen ikke blir sett. Vi kan gi plass til begge delene."
     },
     "dp_empathic-explorations_case-nina_09": {
       "text": "[Splittet] Ved siden av andre mødre krymper jeg, som om de alle kan en regel jeg gikk glipp av.",
       "suggestion": "Sammenligning gjør deg mindre, og kanskje ligger det en gammel frykt der for å være den som på en eller annen måte mislyktes med reglene."
     },
     "dp_empathic-explorations_case-nina_10": {
-      "text": "[Sliten] Om kvelden kollapser jeg etter å ha spilt «det går fint» for alle hele dagen.",
-      "suggestion": "Når forestillingen tar slutt, får de tilbakeholdte følelsene litt rom til å komme."
+      "text": "[Sliten] Ved leggetid vet jeg ikke om jeg er trist, sint eller bare helt brukt opp.",
+      "suggestion": "På slutten av dagen er følelsene vanskelige å skille fra hverandre: tristhet, sinne, utmattelse. Vi kan være varsomt med det uklare stedet."
     },
     "dp_empathic-explorations_case-aisha_01": {
-      "text": "[Panisk] Hvis et svar ikke kommer, kjennes det som om det åpner seg et hull i brystet, og jeg får ikke puste.",
-      "suggestion": "Når svaret ikke kommer, er det som om det åpner seg et hull i brystet og alt i deg begynner å falle."
+      "text": "[Panisk] Hvis et svar ikke kommer, sier jeg til meg selv at det ikke burde bety noe, men så klarer jeg ikke å fokusere på noe annet.",
+      "suggestion": "En del sier at det ikke burde bety noe, og en annen del klarer ikke å slippe det manglende svaret. Vi kan være litt med den splittelsen."
     },
     "dp_empathic-explorations_case-aisha_02": {
       "text": "[Desperat] Jeg går fra «ikke forlat meg» til «la meg være i fred» på sekunder.",
       "suggestion": "Svingningen går så fort, nesten som om frykten for å miste noen vipper rett over i å skyve dem bort."
     },
     "dp_empathic-explorations_case-aisha_03": {
-      "text": "[Desperat] Noen ganger klorer jeg fordi tomheten blir så uvirkelig at smerte kjennes som bevis på at jeg finnes.",
-      "suggestion": "Kloringen ser ut til å komme når nummenheten begynner å viske deg ut, som om smerte blir det raskeste beviset på at du fortsatt er her."
+      "text": "[Desperat] Når jeg klorer, sier en del av meg at det ikke er så farlig, og en annen del er redd for at du skal dømme meg.",
+      "suggestion": "Det finnes en del som bagatelliserer det, og en annen del som er bekymret for reaksjonen min. Vi kan senke tempoet med begge delene her."
     },
     "dp_empathic-explorations_case-aisha_04": {
-      "text": "[Desperat] Hvis du kaster et blikk på klokka, føler jeg meg droppet så fort at jeg får lyst til å straffe deg for det.",
-      "suggestion": "Det blikket ser ut til å bli til forlatthet på et øyeblikk, og følelsen av å bli droppet vipper raskt over mot angrep."
+      "text": "[Desperat] Hvis du ser på klokka, begynner jeg å lure på om jeg bør slutte å snakke før du avslutter.",
+      "suggestion": "Blikket mot klokka starter et spørsmål om du bør trekke deg før jeg går. Vi kan legge merke til hva som skjer i deg akkurat da."
     },
     "dp_empathic-explorations_case-aisha_05": {
       "text": "[Desperat] Jeg tester folk fordi jeg må vite om de bryr seg nok til å bli.",
@@ -3487,28 +3487,28 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Den skitne følelsen høres ut som noe du bærer i kroppen fra det som ble gjort mot deg."
     },
     "dp_empathic-explorations_case-aisha_09": {
-      "text": "[Desperat] Jeg stirrer på døra for å være sikker på at du ikke avslutter tidlig.",
-      "suggestion": "Øynene dine holder vakt ved døra, som om det å slappe av bare et sekund kunne bety å bli forlatt."
+      "text": "[Desperat] Jeg fortsetter å sjekke døra, og jeg vet ikke om jeg er sint fordi du kommer til å gå, eller redd for at du skal glemme meg.",
+      "suggestion": "Ved døra er sinne og frykt filtret sammen: å bli forlatt, å bli glemt. Vi kan være langsomt med den sammenfiltringen."
     },
     "dp_empathic-explorations_case-aisha_10": {
       "text": "[Panisk] Hvis du avlyser, er det noe i meg som aldri vil komme tilbake.",
       "suggestion": "En avlysning kjennes ikke liten i det hele tatt; den lander som en skarp bekreftelse på at du kan bli droppet."
     },
     "dp_empathic-explorations_case-david_01": {
-      "text": "[Kontrollert] Når hun sier at jeg er kald, brenner det i ansiktet og brystet blir hardt.",
-      "suggestion": "Når «kald» lander, kommer det harde brystet og det brennende ansiktet inn med en gang, og alt i deg ser ut til å låse seg."
+      "text": "[Kontrollert] Når hun sier at jeg er kald, vil en del av meg bevise at hun tar feil, og en annen del vil forsvinne.",
+      "suggestion": "Én del beveger seg mot å bevise noe, en annen mot å forsvinne. Vi kan være med den splittelsen før en av sidene tar over."
     },
     "dp_empathic-explorations_case-david_02": {
-      "text": "[Kontrollert] Hvis jeg ikke er best, føler jeg meg hul, som om ingenting holder meg oppe.",
-      "suggestion": "Å ikke være best ser ut til å åpne det hule stedet der verdien begynner å renne ut."
+      "text": "[Kontrollert] Du virker rolig når jeg snakker om nederlag, og jeg vet ikke om jeg respekterer det eller misliker det.",
+      "suggestion": "Roen min lander på to måter samtidig: noe respekterer den, og noe misliker den. Vi kan legge merke til hva hver side reagerer på."
     },
     "dp_empathic-explorations_case-david_03": {
       "text": "[Defensiv] Når jeg føler meg dømt, glatter jeg skjorten og begynner å ramse opp prestasjoner.",
       "suggestion": "Å rette seg opp og ramse opp prestasjoner kjennes som å ta på rustning mot skam."
     },
     "dp_empathic-explorations_case-david_04": {
-      "text": "[Kontrollert] Ros kjennes godt et sekund, så renner den ut før jeg klarer å tro på den.",
-      "suggestion": "Rosen berører noe kort, men blir ikke lenge nok til å svare den tvilende delen."
+      "text": "[Kontrollert] Ros virker kanskje i ti sekunder; så begynner jeg å lete etter det de ikke fikk med seg.",
+      "suggestion": "Rosen når deg kort, og så tar letingen etter det som manglet over. Vi kan senke tempoet på stedet der den slutter å lande."
     },
     "dp_empathic-explorations_case-david_05": {
       "text": "[Avvisende] I vanskelige samtaler sjekker jeg telefonen i det øyeblikket jeg føler meg presset opp i et hjørne.",
@@ -3523,8 +3523,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Den brennende følelsen bærer mer enn å ha tatt feil; den ser ut til å avsløre en hel frykt for at feilen blir synlig."
     },
     "dp_empathic-explorations_case-david_08": {
-      "text": "[Fjern] Siden affæren kjennes nettene flate og tunge, som om huset dømmer meg.",
-      "suggestion": "Tyngden ser ut til å romme både skyld og blottstillelse, som om det stille huset fortsetter å se tilbake på deg."
+      "text": "[Fjern] Siden affæren vet jeg ikke om jeg vil ha tilgivelse eller bare bli latt i fred.",
+      "suggestion": "Det er et drag mot tilgivelse og et annet mot å bli latt i fred. Vi kan være med hvordan de to ønskene ligger ved siden av hverandre."
     },
     "dp_empathic-explorations_case-david_09": {
       "text": "[Såret, men skarp] Jeg vil ha anerkjennelse uten å måtte be om det, fordi det å be får meg til å føle meg ynkelig.",
@@ -3539,28 +3539,28 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "De fleste dager holder nummenheten stand, og så kommer bølgen som om følelsen bryter gjennom på én gang."
     },
     "dp_empathic-explorations_case-marcus_02": {
-      "text": "[Hyperårvåken] Mareritt river meg våken, og etterpå føler jeg meg både oppskrudd og hul.",
-      "suggestion": "Oppskrudd og tom står side om side, kroppen på vakt mens alt annet føles langt unna."
+      "text": "[Hyperårvåken] Etter mareritt vet jeg at jeg burde snakke om dem, men detaljene kjennes langt unna, og jeg vet ikke hvor jeg skal begynne.",
+      "suggestion": "Du vet at det kan bety noe å snakke, og detaljene holder seg likevel langt unna. Vi kan begynne med det å ikke vite hvor du skal starte."
     },
     "dp_empathic-explorations_case-marcus_03": {
       "text": "[Stille og på vakt] Folkemengder får skuldrene til å heve seg, og jeg holder meg ved veggen uten å bestemme det.",
       "suggestion": "Systemet velger kanten før du gjør det, som om avstand er måten det holder deg orientert og trygg på."
     },
     "dp_empathic-explorations_case-marcus_04": {
-      "text": "[Lav stemme] Etter mørkets frembrudd blir stillheten i leiligheten tung, som om noe venter.",
-      "suggestion": "Stillheten blir nærmest et nærvær etter mørkets frembrudd, og presser på med det som har blitt holdt ute hele dagen."
+      "text": "[Lav stemme] Etter mørkets frembrudd begynner jeg å lure på om det å være alene er tryggere, eller om det bare gjør meg verre.",
+      "suggestion": "Alenetilværelsen kjennes som beskyttelse og kanskje skade på samme tid. Vi kan være med det spørsmålet uten å skynde oss."
     },
     "dp_empathic-explorations_case-marcus_05": {
       "text": "[Lav stemme] Etter jobb sitter jeg i bilen fordi leiligheten kjennes for stille til å gå inn i.",
       "suggestion": "Bilen blir et holdepunkt før stillheten der oppe, kanskje en måte å utsette ensomheten som venter."
     },
     "dp_empathic-explorations_case-marcus_06": {
-      "text": "[Stille og på vakt] Jeg holder lyset dempet og lar telefonen være stille, så ingenting når inn.",
-      "suggestion": "Det dempede rommet og den ubesvarte telefonen ser ut til å lage en slags grense, så kontakt holder seg langt nok unna til å håndteres."
+      "text": "[Stille og på vakt] Jeg lar telefonen ringe ut fordi å svare betyr å forklare hvorfor jeg ikke har det bra.",
+      "suggestion": "Å la telefonen ringe ut beskytter deg fra å måtte forklare. Vi kan legge merke til hva som kjennes for mye ved å bli spurt."
     },
     "dp_empathic-explorations_case-marcus_07": {
-      "text": "[Flatt] Gode øyeblikk kjennes uvirkelige, som om de skjer på andre siden av glass.",
-      "suggestion": "Det gode er synlig, men blir på andre siden, nært nok til å se og for langt unna til å kjenne."
+      "text": "[Flatt] Gode øyeblikk skjer, men jeg stoler ikke nok på dem til å la dem telle.",
+      "suggestion": "De gode øyeblikkene er der, men det er vanskelig å stole nok på dem til å la dem telle. Vi kan bli litt ved mistilliten til det gode."
     },
     "dp_empathic-explorations_case-marcus_08": {
       "text": "[Lav stemme] En plutselig lyd skjærer gjennom meg, og før jeg rekker å tenke, skanner jeg rommet.",
@@ -4312,7 +4312,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_staying-in-contact-intense-affect_case-sara_05": {
       "text": "[Nummen] Etter bruddet kjennes helgene som en tom vegg. Jeg ser ingenting å glede meg til.",
-      "suggestion": "Den tomheten høres skremmende øde ut. Jeg er her sammen med deg i den; la oss sette ord på bare én del av helgeveggen uten å be deg løse hele framtiden."
+      "suggestion": "Den tomheten høres skremmende øde ut. Jeg er her sammen med deg i den; vi kan sette ord på bare én del av helgeveggen uten å be deg løse hele framtiden."
     },
     "dp_staying-in-contact-intense-affect_case-sara_06": {
       "text": "[Flau] Jeg føler meg dum som gråter så mye, men jeg klarer ikke stoppe.",
