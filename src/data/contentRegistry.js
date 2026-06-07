@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-06-07T12:18:53.529Z"
+  "generatedAt": "2026-06-07T12:50:09.040Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -528,7 +528,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-michael"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "culture_religion"
+        ],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -1201,7 +1203,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-carlos"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "culture_religion"
+        ],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -1230,9 +1234,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-carlos"
         },
-        "riskFlags": [
-          "violence"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",

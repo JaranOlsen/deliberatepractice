@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T12:18:53.541Z",
+  "generatedAt": "2026-06-07T12:50:09.052Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -33,12 +33,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Tired] I should not talk about myself this much; other people need me more.",
-            "response": "[Internal] Slow pace; notice over-functioning pull. [Meta] You carry a lot for others; let's give a little space to what it is like for you to matter here."
+            "statement": "[Ashamed] I burned dinner after a long day and cried in the pantry like I was not even a competent adult.",
+            "response": "[Internal] Notice the wish to absolve her quickly; stay with the shame. [Meta] One ruined dinner became evidence against you as a person, not just a hard evening."
           },
           "no": {
-            "statement": "[Sliten] Jeg burde ikke snakke så mye om meg; andre trenger meg mer.",
-            "response": "[Internt] Senk tempoet; legg merke til overansvarlighetsdraget. [Meta] Du bærer mye for andre; vi gir litt plass til hvordan det er at du betyr noe her."
+            "statement": "[Skamfull] Jeg svidde middagen etter en lang dag og gråt i spiskammeret som om jeg ikke engang var en kompetent voksen.",
+            "response": "[Internt] Legg merke til ønsket om å frikjenne henne raskt; bli ved skammen. [Meta] Én ødelagt middag ble til bevis mot deg som person, ikke bare en vanskelig kveld."
           }
         }
       ]

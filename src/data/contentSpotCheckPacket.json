@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T12:18:53.541Z",
+  "generatedAt": "2026-06-07T12:50:09.051Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -48,12 +48,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "[Embarrassed] I can power through; I don't need to feel all of this.",
-                "response": "[Internal] Notice fixing/efficiency pull; settle shoulders. [Meta] We can go at your pace—maybe we touch a small piece together and come back."
+                "statement": "[Hopeful] I booked this appointment because I keep thinking maybe I can get my life back, even if that sounds dramatic.",
+                "response": "[Internal] Notice hope and the pressure to deliver; breathe into steadiness. [Meta] There is a hopeful part reaching for life again, and I want us to hold that carefully without making you perform recovery."
               },
               "no": {
-                "statement": "[Flau] Jeg kan bare bite tennene sammen; jeg trenger ikke å kjenne på alt dette.",
-                "response": "[Internt] Merk draget mot å fikse og være effektiv; senk skuldrene. [Meta] Vi kan gå i ditt tempo – kanskje vi kan berøre en liten del sammen, og så komme tilbake."
+                "statement": "[Håpefull] Jeg bestilte denne timen fordi jeg stadig tenker at jeg kanskje kan få livet mitt tilbake, selv om det høres dramatisk ut.",
+                "response": "[Internt] Legg merke til håpet og presset om å levere; finn stødighet i pusten. [Meta] Det finnes en håpefull del som strekker seg mot livet igjen, og jeg vil at vi holder det varsomt uten at du må prestere bedring."
               }
             },
             {
@@ -94,12 +94,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "[Fearful] I feel nothing, and I am scared you will push until I disappear.",
-                "response": "[Internal] Drop agenda; slow your voice; titrate. [Meta] I will not push past the numbness. We can let it show us the edge of what feels safe."
+                "statement": "[Ashamed] I tried to cook for myself and stood there staring at the pan like I was a child who needed someone to tell me what to do.",
+                "response": "[Internal] Notice tenderness and the rescue impulse; stay with her adult shame. [Meta] That ordinary task turned into a painful feeling of being small and unable to manage."
               },
               "no": {
-                "statement": "[Redd] Jeg kjenner ingenting, og jeg er redd du presser til jeg forsvinner.",
-                "response": "[Internt] Slipp agendaen; senk stemmen; titrer. [Meta] Jeg presser ikke forbi nummenheten. Vi kan la den vise oss kanten av det som kjennes trygt."
+                "statement": "[Skamfull] Jeg prøvde å lage mat til meg selv og ble stående og se på stekepannen som et barn som trengte at noen sa hva jeg skulle gjøre.",
+                "response": "[Internt] Legg merke til ømhet og redningstrang; bli ved den voksne skammen hennes. [Meta] Den vanlige oppgaven ble til en vond følelse av å være liten og ute av stand til å klare seg."
               }
             },
             {

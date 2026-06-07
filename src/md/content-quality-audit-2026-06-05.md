@@ -28,6 +28,7 @@ Branch update:
 - Empathic Explorations moderate/hard have been revised toward flatter emotional ambiguity, distrust, direct therapist-attraction material, and less pre-formed imagery.
 - Exploratory Questions moderate/hard have been revised toward live but unclear inward edges, with fewer client-supplied body cues.
 - Empathic Understanding moderate/hard have been broadened with more ordinary practical distress, confused depression, substance/anxiety ambivalence, friend disappointment, and "guide me" uncertainty.
+- Therapist Self-Awareness easy/moderate have been broadened with ordinary therapist-activating material: hope, advice pull, rescue pull, cultural humility, dependency shame, alcohol/usefulness concerns, and grief that can pull the therapist toward comfort.
 
 The remaining gaps are more subtle:
 
@@ -46,8 +47,8 @@ The remaining gaps are more subtle:
 
 | Skill | Difficulty | Marker Quality | Benchmark Coverage | Response Quality | Priority | Main Gap |
 | --- | --- | --- | --- | --- | --- | --- |
-| Therapist Self-Awareness | Easy | Strong-Mixed | Medium-High | Strong-Mixed | Medium | Good therapist-activating material now includes dog/dream/therapy uncertainty, but still leans toward direct rupture and shame rather than ordinary adjustment/hope. |
-| Therapist Self-Awareness | Moderate | Strong-Mixed | Medium | Strong-Mixed | Medium | Covers substance, religion/culture, and violence fantasy, but ordinary shame/dependency and long breakup grief are weaker. |
+| Therapist Self-Awareness | Easy | Strong | High | Strong | Low | Recent pass broadened beyond rupture into hopefulness, advice pull, social/cultural adjustment, ordinary loneliness, and practical therapy uncertainty. |
+| Therapist Self-Awareness | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass added dependency shame, long breakup grief, cultural humility, alcohol/exposure concern, faith/family values, and violent fantasy coverage. |
 | Therapist Self-Awareness | Hard | Strong | High | Strong-Mixed | Low | Strong coverage of suicidality, competence testing, flirtation, distrust, and sexist alcohol-minimizing defensiveness; responses should remain internally focused. |
 | Empathic Understanding | Easy | Strong | Medium-High | Strong | Low-Medium | Good simple reflection markers. Some are still more case-schema specific than benchmark everyday sadness/stress/readiness examples. |
 | Empathic Understanding | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass added ordinary bills/money worry, friend disappointment, confused depression, and guide-me uncertainty. Further work is polish rather than repair. |
@@ -90,30 +91,31 @@ Completed on the current content branch:
 - Empathic Explorations, moderate and hard.
 - Exploratory Questions, moderate and hard.
 - Empathic Understanding, moderate and hard.
+- Therapist Self-Awareness, easy and moderate.
 
 These should still be reviewed in normal regression passes, but they are no longer the highest-value repair targets.
 
 ## Current Highest-Value Improvement Targets
 
-1. Therapist Self-Awareness, easy and moderate.
-   - The current material is stronger than before, but still leans toward therapist-directed rupture.
-   - Add more ordinary therapist-internal activation: hopefulness, positive affection, cultural adjustment, dependency shame, and grief that pulls for rescue.
-
-2. Staying in Contact with Intense Affect response variation.
+1. Staying in Contact with Intense Affect response variation.
    - Markers are strong; suggested responses are the limitation.
    - Reduce repeated "stay with" / "let the" phrasing while preserving grounding, pacing, and contact.
 
-3. Empathic Evocations, moderate and hard.
+2. Empathic Evocations, moderate and hard.
    - Marker shape is now much better, but benchmark breadth is still partial.
    - Add cleaner obsessive love, worthlessness, betrayal, hopeless shutdown, confidentiality threat, and macho anti-feeling archetypes where they fit the cases.
 
-4. Empathic Conjectures, easy and moderate.
+3. Empathic Conjectures, easy and moderate.
    - Good hidden-process cues, but some markers still state the underlying process too directly.
    - Make a small number of cues more indirect so the trainee has room to offer the conjecture.
 
-5. Empathic Affirmation and Validation, easy.
+4. Empathic Affirmation and Validation, easy.
    - Quality is strong enough for production, but benchmark breadth is narrower than the moderate/hard tiers.
    - Add more ordinary beginner-level legitimacy markers without overloading them with shame schema.
+
+5. Therapist Self-Awareness hard response polish.
+   - Hard markers remain strong.
+   - Continue reducing question-form and overly explanatory meta responses when encountered during normal passes.
 
 ## Case-Set Constraints
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T12:18:53.542Z",
+  "generatedAt": "2026-06-07T12:50:09.052Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -31,12 +31,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Fearful] I feel nothing, and I am scared you will push until I disappear.",
-            "response": "[Internal] Drop agenda; slow your voice; titrate. [Meta] I will not push past the numbness. We can let it show us the edge of what feels safe."
+            "statement": "[Ashamed] I tried to cook for myself and stood there staring at the pan like I was a child who needed someone to tell me what to do.",
+            "response": "[Internal] Notice tenderness and the rescue impulse; stay with her adult shame. [Meta] That ordinary task turned into a painful feeling of being small and unable to manage."
           },
           "no": {
-            "statement": "[Redd] Jeg kjenner ingenting, og jeg er redd du presser til jeg forsvinner.",
-            "response": "[Internt] Slipp agendaen; senk stemmen; titrer. [Meta] Jeg presser ikke forbi nummenheten. Vi kan la den vise oss kanten av det som kjennes trygt."
+            "statement": "[Skamfull] Jeg prøvde å lage mat til meg selv og ble stående og se på stekepannen som et barn som trengte at noen sa hva jeg skulle gjøre.",
+            "response": "[Internt] Legg merke til ømhet og redningstrang; bli ved den voksne skammen hennes. [Meta] Den vanlige oppgaven ble til en vond følelse av å være liten og ute av stand til å klare seg."
           }
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T12:18:53.539Z",
+  "generatedAt": "2026-06-07T12:50:09.050Z",
   "revision": "2026-03-07-v1",
   "caseBibleCount": 9,
   "caseMatrixSummary": {
@@ -16,7 +16,7 @@
       "too_generic",
       "duplicate_pattern"
     ],
-    "generatedAt": "2026-06-07T12:18:53.529Z"
+    "generatedAt": "2026-06-07T12:50:09.040Z"
   },
   "benchmarkSummary": {
     "revision": "2026-03-07-v1",
@@ -24,7 +24,7 @@
     "totalResponses": 175,
     "sourceResponseCount": 160,
     "derivedResponseCount": 15,
-    "generatedAt": "2026-06-07T12:18:53.538Z"
+    "generatedAt": "2026-06-07T12:50:09.049Z"
   },
   "inventory": [
     {
@@ -504,7 +504,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "culture_religion"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 1,
@@ -1125,7 +1127,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "culture_religion"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 1,
@@ -1152,9 +1156,7 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [
-        "violence"
-      ],
+      "riskFlags": [],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 1,
