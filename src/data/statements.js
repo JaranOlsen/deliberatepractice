@@ -1274,24 +1274,24 @@ export const STATEMENT_SETS = {
         "suggestion": "When you say muted, where do you notice it in yourself?"
       },
       {
-        "text": "[Fearful] Raised voices in the hallway make my stomach drop and my shoulders tense.",
-        "suggestion": "When your stomach drops in that hallway, what danger does it seem to be bracing for?"
+        "text": "[Fearful] The neighbors argued in the hallway, and I spent the rest of the night acting like it was nothing.",
+        "suggestion": "What happens inside as you try to act like it was nothing?"
       },
       {
-        "text": "[Tense and guarded] When someone is kind, I drift back behind glass before I can enjoy it.",
-        "suggestion": "As you drift behind glass, what feeling comes up around receiving kindness?"
+        "text": "[Tense and guarded] When someone is kind to me, I get suspicious and then feel bad for being suspicious.",
+        "suggestion": "What do you notice inside when kindness and suspicion arrive together?"
       },
       {
         "text": "[Flat and guarded] Even gentle touch on my shoulder startles me before I can think who it is.",
         "suggestion": "When the startle sparks, where do you first sense danger?"
       },
       {
-        "text": "[Distant] I pour a drink at night so the noise in my head blurs instead of sharpening.",
-        "suggestion": "Before the first sip, what feeling is the noise trying to drown out?"
+        "text": "[Distant] At night I pour wine before I have decided whether I actually want it.",
+        "suggestion": "What do you notice in the moment before you pour it?"
       },
       {
-        "text": "[Tense and guarded] I wake tense, like I am on guard before the day even starts.",
-        "suggestion": "As you sense that morning guard, what place in you is braced the hardest?"
+        "text": "[Tense and guarded] I wake up already planning how to get through the day without needing anyone.",
+        "suggestion": "What feeling comes up when needing someone is possible?"
       },
       {
         "text": "[Slow and flat] Good news lands flat, and I do not know why I cannot enjoy it.",
@@ -1306,18 +1306,18 @@ export const STATEMENT_SETS = {
         "suggestion": "When comfort feels dangerous to ask for, what old alarm starts up inside?"
       },
       {
-        "text": "[Flat and guarded] I avoid movies with fighting because one shout can put my whole system on alert.",
-        "suggestion": "As you picture a fight scene, which signal in you first says 'too much'?"
+        "text": "[Flat and guarded] I skip anything with fighting and tell people I just do not like those movies.",
+        "suggestion": "What happens inside when you imagine telling someone the real reason?"
       }
     ],
     "case-carlos": [
       {
-        "text": "[Defensive] When someone uses that bossy tone, I feel heat climb before I know what I am saying.",
-        "suggestion": "As that heat starts to climb, what feeling is it covering?"
+        "text": "[Defensive] When my foreman questions me in front of the crew, I laugh it off but cannot drop it.",
+        "suggestion": "What is the hardest part to feel when you cannot drop it?"
       },
       {
-        "text": "[Tense] I pace the hallway until my legs ache, trying to outrun what might come out of me.",
-        "suggestion": "When you picture pacing the hallway, what are you trying not to feel?"
+        "text": "[Tense] After an argument, I keep thinking of what I should have said, even when I know it will make things worse.",
+        "suggestion": "What feeling is there as those replies keep coming?"
       },
       {
         "text": "[Fearful] If I back down, it feels like I shrink until nobody can see me.",
@@ -1328,20 +1328,20 @@ export const STATEMENT_SETS = {
         "suggestion": "When you see that flinch now, what feeling is strongest under the heat?"
       },
       {
-        "text": "[Mistrustful] Calm feels dangerous, like someone will take advantage if I relax.",
-        "suggestion": "What happens inside when calm starts to feel dangerous?"
+        "text": "[Mistrustful] When the house gets quiet after a fight, I get more tense than when we were yelling.",
+        "suggestion": "What happens inside when quiet feels more dangerous than yelling?"
       },
       {
-        "text": "[Tense] I break things because the surge in me feels too dangerous to leave in my hands.",
-        "suggestion": "Just before the breaking, what is the surge trying to protect from being felt?"
+        "text": "[Tense] I say I do not care what people think, but one look can ruin my whole day.",
+        "suggestion": "What does that look touch in you?"
       },
       {
-        "text": "[Defensive] I do not trust being soft, because soft is when people take their shot.",
-        "suggestion": "When soft feels like being open to attack, what are you protecting most?"
+        "text": "[Defensive] My father used to say feelings make men useless, and I still hear that when my wife asks me to talk.",
+        "suggestion": "What do you feel inside as you hear that old rule now?"
       },
       {
-        "text": "[Angry, clenching fists] Disrespect from another man feels like a punch, like I disappear for a second.",
-        "suggestion": "When disrespect lands like a punch, what feeling appears in the second before the heat?"
+        "text": "[Angry, clenching fists] When another man talks down to me, I cannot tell if I am angry or embarrassed.",
+        "suggestion": "What do you notice first when anger and embarrassment show up together?"
       },
       {
         "text": "[Tense and angry] After an argument, I grip the steering wheel and cannot let it go.",
@@ -1358,12 +1358,12 @@ export const STATEMENT_SETS = {
         "suggestion": "When the guilt rushes in, what does it accuse you of?"
       },
       {
-        "text": "[Guilty] I keep folding laundry and answering messages so I do not feel resentful or sad.",
-        "suggestion": "When the busyness pauses, which feeling is first to come forward?"
+        "text": "[Guilty] I complain that no one helps, but I also redo things when they try.",
+        "suggestion": "What feeling comes up when someone helps in a way you cannot control?"
       },
       {
-        "text": "[Torn] The word no knots my stomach before I have even said it out loud.",
-        "suggestion": "If you follow that knot for a moment, what does it fear will happen after no?"
+        "text": "[Torn] When I say no, I explain so much that I almost take it back.",
+        "suggestion": "What happens inside as the no starts to disappear?"
       },
       {
         "text": "[Guilty] When I rest, a voice calls me lazy before I have even caught my breath.",
@@ -1374,8 +1374,8 @@ export const STATEMENT_SETS = {
         "suggestion": "What feeling comes up toward yourself when your need feels too big?"
       },
       {
-        "text": "[Torn] By afternoon my head pounds, and I realize I have been swallowing needs all day.",
-        "suggestion": "When you notice the pounding, what need has been waiting the longest?"
+        "text": "[Torn] By afternoon I realize I agreed to three things I never wanted to do.",
+        "suggestion": "What do you notice when you name that you did not want them?"
       },
       {
         "text": "[Tired] I compare myself to other moms and shrink inside like I failed some hidden test.",
@@ -1386,8 +1386,8 @@ export const STATEMENT_SETS = {
         "suggestion": "When you picture being cared for, what feeling comes up before the 'selfish' voice arrives?"
       },
       {
-        "text": "[Torn] I take on every family task so disappointment never gets aimed directly at me.",
-        "suggestion": "As you carry all those tasks, which part of the load feels heaviest?"
+        "text": "[Torn] I say it is easier if I do it myself, then spend the evening angry that nobody helped.",
+        "suggestion": "What is the anger asking you to notice?"
       },
       {
         "text": "[Tired] I crash on the sofa at night after holding everyone together all day.",
@@ -1396,24 +1396,24 @@ export const STATEMENT_SETS = {
     ],
     "case-aisha": [
       {
-        "text": "[Panicked] If a reply does not come after I open up, I panic and keep checking my phone.",
-        "suggestion": "Where do you first notice the panic as you keep checking?"
+        "text": "[Panicked] If a reply does not come after I open up, I start thinking I was stupid to trust them.",
+        "suggestion": "What feeling comes up as trusting starts to feel stupid?"
       },
       {
         "text": "[Desperate] I go from please do not leave to leave me alone in seconds.",
         "suggestion": "In the breath before the flip, what feeling is too painful to remain near?"
       },
       {
-        "text": "[Desperate] Sometimes the emptiness is so loud I want to do anything to stop it.",
-        "suggestion": "At the edge of that emptiness, what does it seem to be asking for?"
+        "text": "[Desperate] I do not know what I feel today; everything is too much and also kind of blank.",
+        "suggestion": "Where can you sense the too much or the blankness right now?"
       },
       {
-        "text": "[Desperate] When you look away to write notes, I feel dropped before I can tell myself it is nothing.",
-        "suggestion": "In that instant of feeling dropped, what age do you feel inside?"
+        "text": "[Desperate] When you look down to write notes, I start wondering what you are really thinking about me.",
+        "suggestion": "What happens inside as you imagine what I might be thinking?"
       },
       {
-        "text": "[Panicked] When the emptiness turns unreal, I scratch just to prove I am still here.",
-        "suggestion": "As you name the urge to scratch, what does the unreal emptiness feel like inside?"
+        "text": "[Panicked] When I talk about scratching, I want to make it sound casual so you will not overreact.",
+        "suggestion": "What feeling comes up as you try to make it sound casual?"
       },
       {
         "text": "[Desperate] If you cancel a session, I do not want to come back and be dropped twice.",
@@ -1432,14 +1432,14 @@ export const STATEMENT_SETS = {
         "suggestion": "When that self-hate hits, what hurt is it trying to bury?"
       },
       {
-        "text": "[Panicked] Saying goodbye at the end makes me dizzy, like the room is leaving too.",
-        "suggestion": "When the dizziness starts, what feeling is underneath the room tilting?"
+        "text": "[Panicked] At the end I say goodbye like it is fine, and then I leave angry for needing you.",
+        "suggestion": "What feeling is under the anger as you leave?"
       }
     ],
     "case-david": [
       {
-        "text": "[Controlled] When she calls me cold, my jaw turns to stone and my chest goes hard.",
-        "suggestion": "When your jaw turns to stone, what feeling is the stone trying to hold back?"
+        "text": "[Controlled] When she calls me cold, I want to dismiss her, but it stays with me later.",
+        "suggestion": "What feeling is there when it stays with you later?"
       },
       {
         "text": "[Controlled] If I am not winning, I feel hollow, like there is nothing solid under me.",
@@ -1450,8 +1450,8 @@ export const STATEMENT_SETS = {
         "suggestion": "What feeling are you trying not to show when you list achievements?"
       },
       {
-        "text": "[Controlled] Praise from my boss feels good for a second, and then I need more.",
-        "suggestion": "What do you notice inside right after the praise fades?"
+        "text": "[Controlled] Praise from my boss feels good for a second, and then I start wondering what he wants.",
+        "suggestion": "What do you notice as praise turns into suspicion?"
       },
       {
         "text": "[Dismissive] Admitting I am wrong makes my face burn like everyone can see through me.",
@@ -1462,12 +1462,12 @@ export const STATEMENT_SETS = {
         "suggestion": "As you reach for the phone, what feeling are you moving away from?"
       },
       {
-        "text": "[Controlled] If the kids push back at dinner, I lose it before I know why.",
-        "suggestion": "In the breath before you snap, what feeling is trying not to be seen?"
+        "text": "[Controlled] When the kids push back at dinner, I hear myself sounding like my father.",
+        "suggestion": "What feeling comes up as you hear that resemblance?"
       },
       {
-        "text": "[Distant] Since the affair, nights feel flat and heavy, like the house is holding its breath.",
-        "suggestion": "As you sit with that flat heaviness, what feeling is waiting underneath it?"
+        "text": "[Distant] Since the affair, I cannot tell whether I feel guilty or just irritated that everyone keeps bringing it up.",
+        "suggestion": "What do you notice when guilt and irritation sit that close?"
       },
       {
         "text": "[Embarrassed] I want someone to notice what I do without making me beg for credit.",
@@ -1484,28 +1484,28 @@ export const STATEMENT_SETS = {
         "suggestion": "Before the wave hits, what is the earliest signal that it is coming?"
       },
       {
-        "text": "[Hypervigilant] Nightmares yank me awake before dawn, and I feel wired and empty in the dark.",
-        "suggestion": "Between wired and empty, which one asks for attention first?"
+        "text": "[Hypervigilant] After nightmares, I do not know what is real enough to talk about and what I should leave alone.",
+        "suggestion": "What do you notice as you decide what to leave alone?"
       },
       {
         "text": "[Quiet and guarded] In the grocery store I stay near exits because every aisle feels boxed in.",
         "suggestion": "As you picture those aisles, where does the tension gather first?"
       },
       {
-        "text": "[Low voice] The silence in my apartment gets heavy after dark.",
-        "suggestion": "What feeling comes up as the apartment gets quiet after dark?"
+        "text": "[Low voice] After dark I cannot tell if the silence is peaceful or if it is closing in.",
+        "suggestion": "What happens inside as the silence shifts from peaceful to closing in?"
       },
       {
-        "text": "[Low voice] I sit in the car after work to avoid going upstairs to the empty apartment.",
-        "suggestion": "As you picture sitting there, what feeling is waiting for you upstairs?"
+        "text": "[Low voice] I sit in the car after work because going upstairs means being alone with whatever is there.",
+        "suggestion": "What feeling is waiting when you picture opening the apartment door?"
       },
       {
         "text": "[Quiet and guarded] I keep the lights low and ignore calls so the world stays far away.",
         "suggestion": "In the low light with the phone unanswered, what does the distance protect in you?"
       },
       {
-        "text": "[Flat] Good moments feel unreal, like they do not belong to me.",
-        "suggestion": "What do you notice inside when a good moment feels unreal?"
+        "text": "[Flat] When something good happens, I wait for the part where it gets taken back.",
+        "suggestion": "What feeling comes up while you wait for it to be taken back?"
       },
       {
         "text": "[Hypervigilant] Sudden sounds in the stairwell make me jump and then scan for danger.",

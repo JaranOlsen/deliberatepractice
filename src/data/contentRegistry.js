@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-06-07T11:11:50.047Z"
+  "generatedAt": "2026-06-07T11:38:52.187Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -8761,9 +8761,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Exploratory Questions",
           "caseId": "case-laura"
         },
-        "riskFlags": [
-          "substance_use"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "explore_body",
           "explore_meaning",

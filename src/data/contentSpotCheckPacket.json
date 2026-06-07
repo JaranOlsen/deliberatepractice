@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T11:11:50.058Z",
+  "generatedAt": "2026-06-07T11:38:52.199Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -701,16 +701,14 @@
               "caseLabel": "Laura (Moderate)",
               "caseName": "Laura G.",
               "difficulty": "moderate",
-              "riskFlags": [
-                "substance_use"
-              ],
+              "riskFlags": [],
               "en": {
-                "statement": "[Distant] I pour a drink at night so the noise in my head blurs instead of sharpening.",
-                "response": "Before the first sip, what feeling is the noise trying to drown out?"
+                "statement": "[Distant] At night I pour wine before I have decided whether I actually want it.",
+                "response": "What do you notice in the moment before you pour it?"
               },
               "no": {
-                "statement": "[Fjern] Jeg heller opp et glass om kvelden så støyen i hodet blir uklar i stedet for skarpere.",
-                "response": "Før første slurk, hvilken følelse prøver støyen å drukne?"
+                "statement": "[Fjern] Om kvelden heller jeg opp vin før jeg har bestemt meg for om jeg egentlig vil ha det.",
+                "response": "Hva legger du merke til i øyeblikket før du heller opp?"
               }
             },
             {
@@ -751,12 +749,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "[Panicked] If a reply does not come after I open up, I panic and keep checking my phone.",
-                "response": "Where do you first notice the panic as you keep checking?"
+                "statement": "[Panicked] If a reply does not come after I open up, I start thinking I was stupid to trust them.",
+                "response": "What feeling comes up as trusting starts to feel stupid?"
               },
               "no": {
-                "statement": "[Panisk] Hvis et svar ikke kommer etter at jeg har åpnet meg, får jeg panikk og sjekker telefonen om og om igjen.",
-                "response": "Hvor merker du først panikken mens du fortsetter å sjekke?"
+                "statement": "[Panisk] Hvis et svar ikke kommer etter at jeg har åpnet meg, begynner jeg å tenke at jeg var dum som stolte på dem.",
+                "response": "Hvilken følelse kommer opp når det å stole på noen begynner å kjennes dumt?"
               }
             },
             {
@@ -768,12 +766,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "[Panicked] When the emptiness turns unreal, I scratch just to prove I am still here.",
-                "response": "As you name the urge to scratch, what does the unreal emptiness feel like inside?"
+                "statement": "[Panicked] When I talk about scratching, I want to make it sound casual so you will not overreact.",
+                "response": "What feeling comes up as you try to make it sound casual?"
               },
               "no": {
-                "statement": "[Panisk] Når tomheten blir uvirkelig, klorer jeg bare for å bevise at jeg fortsatt er her.",
-                "response": "Når du setter ord på trangen til å klore, hvordan kjennes den uvirkelige tomheten inni deg?"
+                "statement": "[Panisk] Når jeg snakker om kloring, vil jeg få det til å høres tilfeldig ut så du ikke overreagerer.",
+                "response": "Hvilken følelse kommer opp når du prøver å få det til å høres tilfeldig ut?"
               }
             },
             {

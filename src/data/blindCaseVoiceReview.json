@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T11:11:50.058Z",
+  "generatedAt": "2026-06-07T11:38:52.200Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -397,12 +397,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Mistrustful] Calm feels dangerous, like someone will take advantage if I relax.",
-            "response": "What happens inside when calm starts to feel dangerous?"
+            "statement": "[Mistrustful] When the house gets quiet after a fight, I get more tense than when we were yelling.",
+            "response": "What happens inside when quiet feels more dangerous than yelling?"
           },
           "no": {
-            "statement": "[Mistenksom] Ro føles farlig, som om noen kan utnytte det hvis jeg slapper av.",
-            "response": "Hva skjer inni deg når ro begynner å føles farlig?"
+            "statement": "[Mistenksom] Når huset blir stille etter en krangel, blir jeg mer anspent enn da vi ropte.",
+            "response": "Hva skjer inni deg når stillhet kjennes farligere enn roping?"
           }
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T11:11:50.058Z",
+  "generatedAt": "2026-06-07T11:38:52.200Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -172,12 +172,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Panicked] If a reply does not come after I open up, I panic and keep checking my phone.",
-            "response": "Where do you first notice the panic as you keep checking?"
+            "statement": "[Panicked] If a reply does not come after I open up, I start thinking I was stupid to trust them.",
+            "response": "What feeling comes up as trusting starts to feel stupid?"
           },
           "no": {
-            "statement": "[Panisk] Hvis et svar ikke kommer etter at jeg har åpnet meg, får jeg panikk og sjekker telefonen om og om igjen.",
-            "response": "Hvor merker du først panikken mens du fortsetter å sjekke?"
+            "statement": "[Panisk] Hvis et svar ikke kommer etter at jeg har åpnet meg, begynner jeg å tenke at jeg var dum som stolte på dem.",
+            "response": "Hvilken følelse kommer opp når det å stole på noen begynner å kjennes dumt?"
           }
         },
         {
