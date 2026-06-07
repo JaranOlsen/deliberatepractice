@@ -514,24 +514,24 @@ export const STATEMENT_SETS = {
         "suggestion": "You feel flat and distant from other people most days."
       },
       {
-        "text": "[Fearful] Raised voices freeze me before I know whether anyone is angry at me.",
-        "suggestion": "Raised voices pull you into alarm before you can sort out what is happening."
+        "text": "[Worried] Since the divorce, I keep looking at bills and wondering if I can keep the house.",
+        "suggestion": "The bills leave you worried and unsure whether you can hold on to the house."
       },
       {
         "text": "[Tense and guarded] When someone is kind to me, I back away before I can trust it.",
         "suggestion": "Kindness comes close and something in you pulls back quickly, trying to stay safe before trust can form."
       },
       {
-        "text": "[Flat and guarded] I drink at night because it is the only way my mind gets quiet.",
-        "suggestion": "The drinking brings a little quiet when your mind will not let you rest."
+        "text": "[Confused] I have been feeling depressed, but nothing dramatic happened this week, so I do not know why.",
+        "suggestion": "You feel depressed and puzzled because there is no clear reason you can point to."
       },
       {
         "text": "[Slow and flat] I want closeness, and then I go numb the moment it gets real.",
         "suggestion": "The wish for closeness is there, and numbness arrives when it starts to feel real."
       },
       {
-        "text": "[Tense and guarded] I feel guilty for not feeling much, like I'm failing at being human.",
-        "suggestion": "There is guilt about the numbness, as if not feeling enough means something is wrong with you."
+        "text": "[Sad] A friend stopped inviting me over after I cancelled too many times, and I feel sad about it.",
+        "suggestion": "Losing that invitation leaves you sad and aware of how much the distance has cost."
       },
       {
         "text": "[Flat and guarded] I wake already tense, listening for trouble before the day has started.",
@@ -542,30 +542,30 @@ export const STATEMENT_SETS = {
         "suggestion": "Conflict scenes pull you into old fear before thought can catch up."
       },
       {
-        "text": "[Tense and guarded] Even when something good happens, I do not feel happy for very long.",
-        "suggestion": "Good news reaches you only briefly before the happiness fades."
+        "text": "[Tired] I keep trying to be normal at work, but by the end of a shift I am completely worn out.",
+        "suggestion": "You work hard to look normal, and it leaves you exhausted by the end of the shift."
       },
       {
-        "text": "[Flat and guarded] I cannot remember what I enjoy; even free time feels like another task.",
-        "suggestion": "Pleasure feels far away when even free time has become something to get through."
+        "text": "[Confused] I am not sure what I should talk about here; I just know I do not feel like myself.",
+        "suggestion": "You are unsure where to begin, but you know something in you feels off."
       }
     ],
     "case-carlos": [
       {
-        "text": "[Tense and angry] When someone gives me a look at dinner, I get angry fast.",
-        "suggestion": "A look at dinner can bring anger up very quickly."
+        "text": "[Hopeless] My wife and I keep having the same fight, and nothing changes no matter how hard I try.",
+        "suggestion": "The same fight keeps repeating, and it leaves you feeling worn down and hopeless."
       },
       {
         "text": "[Ashamed] I hate remembering the moment my son watched me slam that door.",
         "suggestion": "His watching brings hurt and regret, especially because he is the person you most want to protect."
       },
       {
-        "text": "[Tense and angry] If I back down in front of people, I feel like I turn into nobody.",
-        "suggestion": "Backing down feels like disappearing, as if your worth drops with your guard."
+        "text": "[Angry] My brother promised to help with the kids and then disappeared again, and I was furious.",
+        "suggestion": "You felt furious and let down when he disappeared after promising to help."
       },
       {
-        "text": "[Angry, clenching fists] I pace and clench when I'm angry, like I have to burn it out.",
-        "suggestion": "Anger surges through you and pushes you to walk it off before it explodes."
+        "text": "[Worried] I am worried that if I lose one more job over my temper, my family will not recover.",
+        "suggestion": "You are scared that another blowup at work could cost your family too much."
       },
       {
         "text": "[Ashamed] After I blow up, I feel ashamed when everyone goes quiet and careful.",
@@ -576,12 +576,12 @@ export const STATEMENT_SETS = {
         "suggestion": "Calm does not feel relaxing to you; it brings nervousness."
       },
       {
-        "text": "[Tense and ashamed] When I soften with my son, my father's voice calls me weak.",
-        "suggestion": "Softness with your son brings up that old voice calling tenderness weakness."
+        "text": "[Sad] My father is gone, and I still feel angry that he never once said he was proud of me.",
+        "suggestion": "Even after his death, you still feel hurt and angry about never getting his pride."
       },
       {
-        "text": "[Tense and angry] I want respect more than anything because without it I feel like nothing.",
-        "suggestion": "Respect feels tied to your worth, and losing it feels like becoming nothing."
+        "text": "[Confused] I know yelling scares my family, but in the moment it feels like the only way anyone hears me.",
+        "suggestion": "You know the yelling scares them, and in the moment it also feels like your only way to be heard."
       },
       {
         "text": "[Angry, clenching fists] I punch walls instead of people, and I hate that this still scares them.",
@@ -598,24 +598,24 @@ export const STATEMENT_SETS = {
         "suggestion": "Need brings guilt, especially when exhaustion says you cannot keep carrying it all."
       },
       {
-        "text": "[Apologetic] I do everything at home and still feel unseen.",
-        "suggestion": "You do so much at home and still feel unseen."
+        "text": "[Worried] The car repair bill came, and I do not know how we are going to make it through the month.",
+        "suggestion": "The repair bill leaves you worried and unsure how the month will work."
       },
       {
         "text": "[Torn] When I say no, my stomach knots while I picture everyone disappointed.",
         "suggestion": "A no brings anxiety and the fear that people will feel let down by you."
       },
       {
-        "text": "[Tired] I keep moving so I do not have to feel how resentful I am.",
-        "suggestion": "Staying busy keeps you away from the resentment and the sadness underneath."
+        "text": "[Sad] My sister forgot my birthday again, and I keep telling myself it should not matter.",
+        "suggestion": "Her forgetting hurts, even while you tell yourself it should not matter."
       },
       {
         "text": "[Apologetic] When I sit down to rest, I feel guilty within seconds.",
         "suggestion": "Rest brings guilt almost immediately."
       },
       {
-        "text": "[Torn] I apologize for even small requests, like my needs are an inconvenience.",
-        "suggestion": "Even small needs come wrapped in apology and fear of being a burden."
+        "text": "[Confused] I have been more depressed lately, but the boys are fine and work is fine, so I feel silly saying it.",
+        "suggestion": "You feel depressed and confused by it because things look fine from the outside."
       },
       {
         "text": "[Ashamed] I explode sometimes and then feel awful for becoming the angry one.",
@@ -626,12 +626,12 @@ export const STATEMENT_SETS = {
         "suggestion": "There is a quiet longing to be cared for once, tangled with guilt for needing it."
       },
       {
-        "text": "[Torn] I compare myself to other moms and walk away feeling like I am failing.",
-        "suggestion": "Comparison leaves you feeling not good enough and ashamed of how much you miss."
+        "text": "[Angry] A friend cancelled lunch at the last minute, and I felt angry even though I said it was fine.",
+        "suggestion": "You felt angry and disappointed, even while you acted like it was fine."
       },
       {
-        "text": "[Tired] My head pounds when I am overwhelmed, but I still say yes.",
-        "suggestion": "The strain shows up as pain while you keep pushing past your limits."
+        "text": "[Tired] I do not know what to talk about today; I was hoping you could help me find where to start.",
+        "suggestion": "You feel unsure where to begin and are looking to me for some direction."
       }
     ],
     "case-aisha": [
@@ -648,12 +648,12 @@ export const STATEMENT_SETS = {
         "suggestion": "The plea for closeness flips into anger when the fear of being left spikes."
       },
       {
-        "text": "[Panicked] I feel empty and desperate when nobody is close.",
-        "suggestion": "Being without closeness leaves you empty and desperate."
+        "text": "[Confused] I do not know what to talk about today; I just know I woke up feeling wrong.",
+        "suggestion": "You are not sure where to begin, but something felt wrong from the start of the day."
       },
       {
-        "text": "[Numb] When I go numb, I scratch at my skin because numbness feels scarier than pain.",
-        "suggestion": "Pain becomes a way to break through the numbness when emptiness feels unbearable."
+        "text": "[Worried] I am trying not to scratch, but I do not know what else to do when the panic gets that loud.",
+        "suggestion": "You want to stop scratching, and the panic scares you because you do not have another way through it yet."
       },
       {
         "text": "[Desperate] If someone cancels, I want to quit before they can leave again.",
@@ -672,8 +672,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Endings tilt the room and bring fear, sadness, and the feeling of being left."
       },
       {
-        "text": "[Panicked] I do not know who I am when no one is close enough to anchor me.",
-        "suggestion": "Without someone close, your sense of self feels empty and unmoored."
+        "text": "[Scared] I am scared that if I stop chasing people, there will be nothing left of me.",
+        "suggestion": "You are scared that without chasing closeness, your sense of yourself might disappear."
       }
     ],
     "case-david": [
@@ -682,8 +682,8 @@ export const STATEMENT_SETS = {
         "suggestion": "That word stings because it touches a fear that it might be true."
       },
       {
-        "text": "[Wounded but sharp] If I am not on top of everything, I feel worthless and exposed.",
-        "suggestion": "Being off the top feels like losing worth and having nowhere to hide."
+        "text": "[Frustrated] I know my father was impossible to please, but knowing that does not change how worthless I feel.",
+        "suggestion": "You can see he was impossible to please, and still the worthlessness remains."
       },
       {
         "text": "[Defensive] When I feel criticized, I start listing everything I have achieved.",
@@ -706,12 +706,12 @@ export const STATEMENT_SETS = {
         "suggestion": "Home now brings up the feeling that you have failed."
       },
       {
-        "text": "[Dismissive] My father's standards still run me; even success feels like barely keeping up.",
-        "suggestion": "Those standards still drive you from inside, leaving success feeling like temporary relief instead of enough."
+        "text": "[Worried] I have been drinking more after work because it is the only time I stop feeling anxious.",
+        "suggestion": "The drinking gives you a break from anxiety, and you are worried about relying on it."
       },
       {
-        "text": "[Torn] Sometimes I sit here thinking therapy is a waste, and then I feel superior and desperate.",
-        "suggestion": "Part of you dismisses this as pointless, while another part is desperate for something to change."
+        "text": "[Confused] I do not know what we should talk about this week; I was hoping you would guide the session.",
+        "suggestion": "You feel unsure what to bring, and you are hoping I can help give us a direction."
       },
       {
         "text": "[Wounded but sharp] If I am just ordinary at something, I feel like I disappear.",
@@ -724,8 +724,8 @@ export const STATEMENT_SETS = {
         "suggestion": "The routine keeps moving while numbness sits between you and the day."
       },
       {
-        "text": "[Low voice] Sometimes a feeling hits suddenly, and I lose track of where I am for a minute.",
-        "suggestion": "A sudden feeling can pull you away from the room for a while."
+        "text": "[Confused] I do not know what to talk about today; I thought maybe you could guide it.",
+        "suggestion": "You feel unsure where to start and are hoping I can help guide the session."
       },
       {
         "text": "[Hypervigilant] Nightmares leave me wired and empty, like the room is not safe.",
@@ -736,8 +736,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Distance protects you from the strain of explaining yourself and the risk of being pulled close."
       },
       {
-        "text": "[Low voice] After work I sit in the dark because light and voices feel like too much.",
-        "suggestion": "After work, darkness feels easier than more light and sound."
+        "text": "[Worried] I have been drinking after work so I can sleep, and now I am worried I cannot sleep without it.",
+        "suggestion": "Alcohol has helped you sleep, and now you are worried about needing it."
       },
       {
         "text": "[Quiet and guarded] When something good happens, it feels far away, like it belongs to someone else.",
@@ -748,16 +748,16 @@ export const STATEMENT_SETS = {
         "suggestion": "Sudden noise drops you into alarm before the present room is fully back."
       },
       {
-        "text": "[Low voice] When family calls, I let it ring because I cannot carry their worry too.",
-        "suggestion": "You hear the call as more weight, and letting it ring keeps their worry at a distance."
+        "text": "[Sad] A friend from the unit stopped calling, and I keep telling myself I did not want to talk anyway.",
+        "suggestion": "You tell yourself you did not want contact, and the silence still hurts."
       },
       {
         "text": "[Hopeless] Some nights I think nobody would notice if I did not wake up.",
         "suggestion": "Those nights sound deeply hopeless, like your life feels unseen and almost not counting."
       },
       {
-        "text": "[Slow and flat] I want connection, but when someone gets close I feel crowded and shut down.",
-        "suggestion": "You are caught between longing for closeness and feeling crowded the moment it comes near."
+        "text": "[Scared] I want to let people in, but every time someone gets close I start looking for the exit.",
+        "suggestion": "You want closeness and also feel scared enough to look for a way out."
       }
     ]
   },

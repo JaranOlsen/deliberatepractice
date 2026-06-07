@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T11:38:52.199Z",
+  "generatedAt": "2026-06-07T12:18:53.541Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -290,12 +290,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "[Tense and angry] When someone gives me a look at dinner, I get angry fast.",
-                "response": "A look at dinner can bring anger up very quickly."
+                "statement": "[Hopeless] My wife and I keep having the same fight, and nothing changes no matter how hard I try.",
+                "response": "The same fight keeps repeating, and it leaves you feeling worn down and hopeless."
               },
               "no": {
-                "statement": "[Anspent og sint] Når noen gir meg et blikk ved middagsbordet, blir jeg fort sint.",
-                "response": "Et blikk ved middagsbordet kan vekke sinne veldig raskt."
+                "statement": "[Håpløs] Kona mi og jeg har den samme krangelen om og om igjen, og ingenting endrer seg uansett hvor hardt jeg prøver.",
+                "response": "Den samme krangelen gjentar seg, og det gjør deg sliten og håpløs."
               }
             },
             {
@@ -389,12 +389,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "[Torn] Sometimes I sit here thinking therapy is a waste, and then I feel superior and desperate.",
-                "response": "Part of you dismisses this as pointless, while another part is desperate for something to change."
+                "statement": "[Confused] I do not know what we should talk about this week; I was hoping you would guide the session.",
+                "response": "You feel unsure what to bring, and you are hoping I can help give us a direction."
               },
               "no": {
-                "statement": "[Splittet] Noen ganger sitter jeg her og tenker at terapi er bortkastet, og så føler jeg meg både overlegen og desperat.",
-                "response": "En del av deg avfeier dette som meningsløst, mens en annen del er desperat etter at noe skal endre seg."
+                "statement": "[Forvirret] Jeg vet ikke hva vi burde snakke om denne uken; jeg håpet at du kunne styre timen.",
+                "response": "Du er usikker på hva du skal ta opp, og håper jeg kan hjelpe oss å finne en retning."
               }
             }
           ]

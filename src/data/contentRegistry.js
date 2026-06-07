@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-06-07T11:38:52.187Z"
+  "generatedAt": "2026-06-07T12:18:53.529Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -3607,9 +3607,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Understanding",
           "caseId": "case-laura"
         },
-        "riskFlags": [
-          "substance_use"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "reflect_feeling",
           "legacy_matrix_item"
@@ -4853,7 +4851,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Understanding",
           "caseId": "case-david"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "substance_use"
+        ],
         "criteriaTags": [
           "reflect_feeling",
           "legacy_matrix_item"
@@ -5053,7 +5053,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Understanding",
           "caseId": "case-marcus"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "substance_use"
+        ],
         "criteriaTags": [
           "reflect_feeling",
           "legacy_matrix_item"

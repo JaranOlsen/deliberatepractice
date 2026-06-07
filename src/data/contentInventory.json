@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T11:38:52.197Z",
+  "generatedAt": "2026-06-07T12:18:53.539Z",
   "revision": "2026-03-07-v1",
   "caseBibleCount": 9,
   "caseMatrixSummary": {
@@ -16,7 +16,7 @@
       "too_generic",
       "duplicate_pattern"
     ],
-    "generatedAt": "2026-06-07T11:38:52.187Z"
+    "generatedAt": "2026-06-07T12:18:53.529Z"
   },
   "benchmarkSummary": {
     "revision": "2026-03-07-v1",
@@ -24,7 +24,7 @@
     "totalResponses": 175,
     "sourceResponseCount": 160,
     "derivedResponseCount": 15,
-    "generatedAt": "2026-06-07T11:38:52.196Z"
+    "generatedAt": "2026-06-07T12:18:53.538Z"
   },
   "inventory": [
     {
@@ -3380,9 +3380,7 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [
-        "substance_use"
-      ],
+      "riskFlags": [],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 2,
@@ -4574,7 +4572,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "substance_use"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 2,
@@ -4765,7 +4765,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "substance_use"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 2,
