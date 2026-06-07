@@ -10,8 +10,23 @@ Use the Goldman examples as the gold standard for:
 - what the suggested therapist response should demonstrate;
 - how difficulty increases from beginner to intermediate to advanced;
 - where a skill boundary differs from neighboring skills.
+- how bracketed client delivery cues are used when tone, affect, posture, pacing, or session context is part of the marker.
 
 For app content, stable item IDs and the case/skill matrix can stay fixed, but each item should be judged by whether the client statement naturally invites the target skill and whether the suggested response stays skill-pure.
+
+## Bracketed Client Delivery Cues
+
+Goldman client statements often begin with brief bracketed cues such as `[Hesitant]`, `[Sad]`, `[Angry, clenching fists]`, or `[Beginning of first session]`. Emulate this convention in app statements when the role-player needs a tonal, affective, bodily, or contextual signal to make the marker recognizable when read aloud.
+
+Use cues as performance directions, not as answers. A cue may name observable affect, delivery, posture, pace, or therapy context; it should not name the intervention, the case formulation, the core pain, the chair-work task type, or the hidden emotion the trainee is meant to discover.
+
+Good cues:
+
+- `[Hesitant]`, `[Flat]`, `[Tense and angry]`, `[Very uncomfortable]`, `[Low voice]`, `[Arrives late]`.
+
+Avoid cues:
+
+- `[needs validation]`, `[self-interruptive split]`, `[unfinished business]`, `[attachment panic]`, `[core shame]`.
 
 ## Audit Table
 
@@ -49,8 +64,9 @@ For app content, stable item IDs and the case/skill matrix can stay fixed, but e
 ## Content QA Sequence
 
 1. Check the marker first: does this client statement naturally invite the target skill?
-2. Check the response second: does it demonstrate only that skill, without stacking tasks?
-3. Check difficulty: does the hard version add relational complexity, risk, defense, or ambiguity?
-4. Check case voice: does the statement sound like the assigned case, not a generic skill prompt?
-5. Check safety: is high-risk material held clinically without panic, avoidance, or overreach?
-6. Check translation last: Norwegian should localize the final English clinical intent in natural Bokmal.
+2. Check the bracketed cue: does it help the role-player deliver the marker without leaking the intended skill response?
+3. Check the response second: does it demonstrate only that skill, without stacking tasks?
+4. Check difficulty: does the hard version add relational complexity, risk, defense, or ambiguity?
+5. Check case voice: does the statement sound like the assigned case, not a generic skill prompt?
+6. Check safety: is high-risk material held clinically without panic, avoidance, or overreach?
+7. Check translation last: Norwegian should localize the final English clinical intent in natural Bokmal, including natural Bokmal delivery cues.
