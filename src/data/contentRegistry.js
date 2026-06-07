@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-06-07T13:39:22.294Z"
+  "generatedAt": "2026-06-07T21:13:10.485Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -19406,7 +19406,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Conjectures",
           "caseId": "case-laura"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "trauma"
+        ],
         "criteriaTags": [
           "tentative_guess",
           "name_underlying_feeling",

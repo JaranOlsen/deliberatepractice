@@ -2664,12 +2664,12 @@ export const STATEMENT_SETS = {
   "empathic-conjectures": {
     "case-sara": [
       {
-        "text": "[Embarrassed] I keep telling my friends I'm fine so they will not lean in and see how much I need them.",
-        "suggestion": "You try to protect them, and I wonder if needing them also feels dangerous, as if it could expose being too much or unworthy."
+        "text": "[Embarrassed] I keep telling my friends I'm fine, and then I get annoyed when they believe me.",
+        "suggestion": "You wave them off and then feel alone when they step back; I wonder if some part longs for them to see through the answer."
       },
       {
-        "text": "[Embarrassed] I threw myself into work after the breakup because quiet evenings feel like proof he did not stay.",
-        "suggestion": "You are staying busy to survive the evenings; maybe underneath is the fear that quiet will turn his leaving into a verdict about your worth."
+        "text": "[Embarrassed] I threw myself into work after the breakup; if I get home before dark, I just wander from room to room.",
+        "suggestion": "You keep moving until the house gets quiet; maybe the empty rooms bring you close to how final his leaving feels."
       },
       {
         "text": "[Embarrassed] I feel stupid for still crying months later, like everyone else would be over it by now.",
@@ -2692,12 +2692,12 @@ export const STATEMENT_SETS = {
         "suggestion": "You minimize your pain; I guess there's a scared part that fears being dismissed if you let it show."
       },
       {
-        "text": "[Embarrassed] I keep thinking I should send him an apology, like making amends would prove I am not the kind of person people leave.",
-        "suggestion": "The apology feels like repair, and I wonder if making amends could also quiet the shame of being left."
+        "text": "[Embarrassed] I drafted an apology to him three times this week, even though I do not know what I did wrong.",
+        "suggestion": "The apology gives you something to do; I wonder if it also tries to find a reason for being left that feels less helpless."
       },
       {
-        "text": "[Tearful] Nights are the worst; I replay what I did wrong until blame feels safer than missing him.",
-        "suggestion": "I wonder if the replay gives you something to hold, because the deeper pain of missing him and feeling left might be harder to bear."
+        "text": "[Tearful] Nights are the worst; I replay little moments until I find something I could have done differently.",
+        "suggestion": "The replay keeps searching for a handle; I wonder if blame gives you somewhere to stand when missing him feels too helpless."
       },
       {
         "text": "[Softly] When you're kind, I look down and want to change the topic.",
@@ -2706,24 +2706,24 @@ export const STATEMENT_SETS = {
     ],
     "case-michael": [
       {
-        "text": "[Firm] If someone questions me in a meeting, I bite back before they can hear that I feel cornered.",
-        "suggestion": "You come in strong fast; I wonder if under the bite is the sting of feeling cornered and seen as not enough."
+        "text": "[Firm] If someone questions me in a meeting, I answer fast and louder than I meant to.",
+        "suggestion": "You come in strong before there is time to think; I wonder if the question lands like being put on the spot and found lacking."
       },
       {
         "text": "[Defensive] When a coworker corrects me in front of the room, I laugh it off and then feel heat shoot up my neck.",
         "suggestion": "The laugh covers it fast; I wonder if the heat is carrying a flash of humiliation under the anger."
       },
       {
-        "text": "[Tense] My wife says I am harsh, and I call it honesty before it can sound like cruelty.",
-        "suggestion": "You hold on to honesty as the frame; I guess there may also be fear that softening would expose guilt or weakness."
+        "text": "[Tense] My wife says I am harsh, and I tell her I am just being honest.",
+        "suggestion": "Honesty is the part you can stand behind; I guess softening might bring you closer to guilt or a fear of being cruel."
       },
       {
-        "text": "[Furious] I make sure nobody has leverage on me, because owing anyone feels like handing them a weapon.",
-        "suggestion": "You protect your position; could it be there is an old fear of being one-down or trapped under someone else's power."
+        "text": "[Furious] I keep favors even. I do not like owing anyone.",
+        "suggestion": "You keep the balance carefully; could owing someone touch a fear of being one-down or under their power."
       },
       {
-        "text": "[Tense and ashamed] Apologizing feels like giving up ground, like everyone can see I lost.",
-        "suggestion": "It feels risky; I wonder if apologizing touches a small, ashamed place that cannot bear being seen as defeated."
+        "text": "[Tense and ashamed] When I have to apologize, my jaw tightens and I start explaining the whole situation.",
+        "suggestion": "The explanation comes in quickly; I wonder if the apology itself touches shame, almost like being defeated in front of them."
       },
       {
         "text": "[Tense] I only pour a drink after work because my wife keeps pushing; if she would stop nagging, I would not need it.",
@@ -2742,8 +2742,8 @@ export const STATEMENT_SETS = {
         "suggestion": "That phrase seems to shrink you quickly; I wonder if the anger protects against feeling dismissed and made small."
       },
       {
-        "text": "[Firm] I don't do feelings; I do solutions because feelings make me feel cornered.",
-        "suggestion": "You lean on fixing; maybe feelings feel like traps that could corner you and expose a hurt place."
+        "text": "[Firm] I do not do feelings; I ask what we are going to do about it.",
+        "suggestion": "You move toward action fast; maybe feelings seem less controllable, as if they could expose a place you would rather keep covered."
       }
     ],
     "case-jason": [
@@ -2776,16 +2776,16 @@ export const STATEMENT_SETS = {
         "suggestion": "You brace for ridicule; I guess laughter touches a raw expectation that being visible means being mocked."
       },
       {
-        "text": "[Anxious] I text and then delete before sending because being seen feels dangerous.",
-        "suggestion": "You edit yourself right out of contact; could it be a fear of being seen is fighting with a wish to connect."
+        "text": "[Anxious] I type a text, read it five times, and delete it before sending.",
+        "suggestion": "You edit yourself right out of contact; could there be both a wish to reach someone and a fear of what happens if they really see you."
       },
       {
-        "text": "[Anxious] I drink before events to loosen up because otherwise I feel trapped in my own skin.",
-        "suggestion": "You're seeking relief; I wonder if the drinking protects a softer, scared part that feels trapped and exposed."
+        "text": "[Anxious] I drink before events because otherwise I stand by the wall checking my phone.",
+        "suggestion": "The drink helps you cross the room; I wonder if it protects a scared part that expects to be exposed or left outside."
       },
       {
-        "text": "[Ashamed] I stay quiet even when I have a good idea, then hate myself for disappearing.",
-        "suggestion": "You hold back and then turn on yourself; maybe visibility feels dangerous, while disappearing feels lonely and humiliating."
+        "text": "[Ashamed] I stay quiet even when I have a good idea, and then replay it all day.",
+        "suggestion": "You stay hidden and then cannot leave it alone; maybe being visible feels risky, while disappearing leaves you ashamed and alone."
       }
     ],
     "case-laura": [
@@ -2818,16 +2818,16 @@ export const STATEMENT_SETS = {
         "suggestion": "The flinch comes before recognition; I guess touch learned to mean danger, and then shame comes for needing that protection."
       },
       {
-        "text": "[Distant] I worry I am broken in a way nobody can reach.",
-        "suggestion": "You fear being beyond reach; I wonder if the shame from what was done to you has started speaking as if it were the truth."
+        "text": "[Distant] When people say trauma survivors are strong, I want to leave the room.",
+        "suggestion": "That praise pushes you away; I wonder if it misses the shame and aloneness that still feel hard to reach."
       },
       {
-        "text": "[Slow and flat] I keep my life very small so nothing can get to me.",
-        "suggestion": "You keep it contained; I wonder if smallness is a way to control risk and avoid old pain."
+        "text": "[Slow and flat] My routine is work, groceries, home. It feels safer that way.",
+        "suggestion": "You keep the world narrow and predictable; I wonder if smallness helps control risk and keep old pain from getting too close."
       },
       {
-        "text": "[Tense and ashamed] I apologize the second I cry, like tears make me unsafe or weak.",
-        "suggestion": "The apology comes so quickly; maybe tears learned to mean danger, blame, or needing care where care was not safe."
+        "text": "[Tense and ashamed] If I cry, I apologize before anyone even reacts.",
+        "suggestion": "The apology comes before anyone has done anything; maybe tears learned to expect danger, blame, or care that was not safe."
       }
     ],
     "case-carlos": [
@@ -2836,12 +2836,12 @@ export const STATEMENT_SETS = {
         "suggestion": "It flips you fast; I wonder if under the heat is a flash of humiliation before anger takes over."
       },
       {
-        "text": "[Tense and angry] If I back down, they will think I am weak and keep taking ground.",
-        "suggestion": "You guard your status; maybe a younger part refuses to feel small, cornered, or taken over again."
+        "text": "[Tense and angry] If I back down, it sits in my chest for days.",
+        "suggestion": "It stays with you for days; maybe backing down touches something more than the argument, like feeling small or taken over."
       },
       {
-        "text": "[Tense and angry] I cannot stand being told what to do; it feels like someone is trying to own me.",
-        "suggestion": "It grates hard; I guess direction touches an old fear of being controlled or made powerless."
+        "text": "[Tense and angry] When someone tells me what to do, my first thought is, 'Who do you think you are?'",
+        "suggestion": "That question comes up fast; I guess being directed can feel like being put underneath someone else's power."
       },
       {
         "text": "[Ashamed] My son saw me slam a door, and later I could not stop seeing his face.",
@@ -2860,16 +2860,16 @@ export const STATEMENT_SETS = {
         "suggestion": "You are trying to protect them; I guess the breaking blocks hurt for a moment, then leaves shame when you see the fear."
       },
       {
-        "text": "[Defensive] Feelings make men weak. I learned that early, and I do not see why I should unlearn it now.",
-        "suggestion": "That rule sounds protective; I wonder if it keeps you away from an old fear that feeling anything tender would leave you exposed or powerless."
+        "text": "[Defensive] My father used to say feelings make men weak, and I still hear that in my head.",
+        "suggestion": "That rule is still loud; I wonder if it protects you from the risk of feeling tender, exposed, or powerless."
       },
       {
         "text": "[Tense and angry] I replay disrespect for days, planning how I should have won it in the moment.",
         "suggestion": "You keep trying to win it afterward; I wonder if the replay holds back the humiliation of feeling small right then."
       },
       {
-        "text": "[Fearful] I want to do better for my family, but part of me is scared I am already the scary one.",
-        "suggestion": "I wonder if under the determination there is fear and grief about becoming the man your family has to brace around."
+        "text": "[Fearful] I want to do better for my family, and then I hear myself sounding like the men I hated.",
+        "suggestion": "I wonder if under the determination there is fear and grief about becoming someone your family has to brace around."
       }
     ],
     "case-nina": [
@@ -2886,8 +2886,8 @@ export const STATEMENT_SETS = {
         "suggestion": "You apologize before anyone reacts; I guess there is a fear that needing help will cost you acceptance."
       },
       {
-        "text": "[Guilty] If the house is messy when people stop by, I feel exposed as a failure.",
-        "suggestion": "You feel exposed by the mess; could it be shame tied to proving you are good through doing."
+        "text": "[Guilty] If the house is messy when people stop by, I start explaining before they say anything.",
+        "suggestion": "You explain before there is even a charge; could the mess touch shame about having to prove you are good through doing."
       },
       {
         "text": "[Apologetic] If someone seems disappointed, I start fixing things before I know what I want.",
@@ -2898,16 +2898,16 @@ export const STATEMENT_SETS = {
         "suggestion": "You swallow the anger to stay kind; maybe a younger part learned that having needs would threaten love."
       },
       {
-        "text": "[Tired] I take care of everyone, and then I feel invisible for wanting anyone to notice.",
-        "suggestion": "The invisibility sounds lonely; I wonder if there is a hidden longing to be cared for without having to earn it."
+        "text": "[Tired] I take care of everyone, and when nobody notices, I get sharp with myself for caring.",
+        "suggestion": "You turn on the wish quickly; I wonder if there is a lonely longing to be cared for without having to earn it."
       },
       {
-        "text": "[Apologetic] I can't say no without feeling sick, like love is at stake.",
-        "suggestion": "You feel sick around no; could it be a protector trying to keep attachment safe."
+        "text": "[Apologetic] I try to say no and then add three explanations before they answer.",
+        "suggestion": "The explanations rush in after the no; could a part of you be trying to keep acceptance safe."
       },
       {
-        "text": "[Torn] I tell myself others have it worse so my needs stay quiet.",
-        "suggestion": "You minimize your pain; I wonder if keeping your needs quiet has been a way to stay acceptable."
+        "text": "[Torn] I tell myself others have it worse, and then I keep going.",
+        "suggestion": "You make your needs smaller and move on; I wonder if staying acceptable has meant not taking up much room."
       },
       {
         "text": "[Tired] If I slow down after everyone is asleep, a lump rises in my throat.",

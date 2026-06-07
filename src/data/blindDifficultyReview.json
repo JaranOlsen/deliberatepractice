@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T13:39:22.306Z",
+  "generatedAt": "2026-06-07T21:13:10.497Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -347,12 +347,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Tense and ashamed] Apologizing feels like giving up ground, like everyone can see I lost.",
-            "response": "It feels risky; I wonder if apologizing touches a small, ashamed place that cannot bear being seen as defeated."
+            "statement": "[Tense and ashamed] When I have to apologize, my jaw tightens and I start explaining the whole situation.",
+            "response": "The explanation comes in quickly; I wonder if the apology itself touches shame, almost like being defeated in front of them."
           },
           "no": {
-            "statement": "[Anspent og skamfull] Å be om unnskyldning kjennes som å gi fra seg terreng, som om alle kan se at jeg tapte.",
-            "response": "Det kjennes risikabelt; jeg lurer på om det å beklage berører et lite, skamfullt sted som ikke tåler å bli sett som beseiret."
+            "statement": "[Anspent og skamfull] Når jeg må be om unnskyldning, strammer kjeven seg og jeg begynner å forklare hele situasjonen.",
+            "response": "Forklaringen kommer raskt inn; jeg lurer på om selve unnskyldningen berører skam, nesten som å bli beseiret foran dem."
           }
         },
         {

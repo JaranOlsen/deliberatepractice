@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T13:39:22.306Z",
+  "generatedAt": "2026-06-07T21:13:10.496Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1407,12 +1407,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "[Firm] If someone questions me in a meeting, I bite back before they can hear that I feel cornered.",
-                "response": "You come in strong fast; I wonder if under the bite is the sting of feeling cornered and seen as not enough."
+                "statement": "[Firm] If someone questions me in a meeting, I answer fast and louder than I meant to.",
+                "response": "You come in strong before there is time to think; I wonder if the question lands like being put on the spot and found lacking."
               },
               "no": {
-                "statement": "[Fast] Hvis noen setter spørsmålstegn ved meg i et møte, biter jeg tilbake før de kan høre at jeg føler meg presset opp i et hjørne.",
-                "response": "Du kommer raskt inn hardt; jeg lurer på om det under bittet ligger et stikk av å føle seg fanget og sett som ikke bra nok."
+                "statement": "[Fast] Hvis noen stiller spørsmål ved meg i et møte, svarer jeg raskt og høyere enn jeg mente.",
+                "response": "Du kommer sterkt inn før du rekker å tenke; jeg lurer på om spørsmålet lander som å bli satt på prøve og ikke holde mål."
               }
             },
             {
@@ -1424,12 +1424,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "[Tense and ashamed] Apologizing feels like giving up ground, like everyone can see I lost.",
-                "response": "It feels risky; I wonder if apologizing touches a small, ashamed place that cannot bear being seen as defeated."
+                "statement": "[Tense and ashamed] When I have to apologize, my jaw tightens and I start explaining the whole situation.",
+                "response": "The explanation comes in quickly; I wonder if the apology itself touches shame, almost like being defeated in front of them."
               },
               "no": {
-                "statement": "[Anspent og skamfull] Å be om unnskyldning kjennes som å gi fra seg terreng, som om alle kan se at jeg tapte.",
-                "response": "Det kjennes risikabelt; jeg lurer på om det å beklage berører et lite, skamfullt sted som ikke tåler å bli sett som beseiret."
+                "statement": "[Anspent og skamfull] Når jeg må be om unnskyldning, strammer kjeven seg og jeg begynner å forklare hele situasjonen.",
+                "response": "Forklaringen kommer raskt inn; jeg lurer på om selve unnskyldningen berører skam, nesten som å bli beseiret foran dem."
               }
             },
             {
