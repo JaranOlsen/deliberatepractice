@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T10:31:22.050Z",
+  "generatedAt": "2026-06-07T21:13:10.497Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -31,12 +31,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Fearful] I feel nothing, and I am scared you will push until I disappear.",
-            "response": "[Internal] Drop agenda; slow your voice; titrate. [Meta] I will not push past the numbness. We can let it show us the edge of what feels safe."
+            "statement": "[Ashamed] I tried to cook for myself and stood there staring at the pan like I was a child who needed someone to tell me what to do.",
+            "response": "[Internal] Notice tenderness and the rescue impulse; stay with her adult shame. [Meta] That ordinary task turned into a painful feeling of being small and unable to manage."
           },
           "no": {
-            "statement": "[Redd] Jeg kjenner ingenting, og jeg er redd du presser til jeg forsvinner.",
-            "response": "[Internt] Slipp agendaen; senk stemmen; titrer. [Meta] Jeg presser ikke forbi nummenheten. Vi kan la den vise oss kanten av det som kjennes trygt."
+            "statement": "[Skamfull] Jeg prøvde å lage mat til meg selv og ble stående og se på stekepannen som et barn som trengte at noen sa hva jeg skulle gjøre.",
+            "response": "[Internt] Legg merke til ømhet og redningstrang; bli ved den voksne skammen hennes. [Meta] Den vanlige oppgaven ble til en vond følelse av å være liten og ute av stand til å klare seg."
           }
         },
         {
@@ -172,12 +172,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Panicked] If a reply does not come after I open up, I panic and keep checking my phone.",
-            "response": "Where do you first notice the panic as you keep checking?"
+            "statement": "[Panicked] If a reply does not come after I open up, I start thinking I was stupid to trust them.",
+            "response": "What feeling comes up as trusting starts to feel stupid?"
           },
           "no": {
-            "statement": "[Panisk] Hvis et svar ikke kommer etter at jeg har åpnet meg, får jeg panikk og sjekker telefonen om og om igjen.",
-            "response": "Hvor merker du først panikken mens du fortsetter å sjekke?"
+            "statement": "[Panisk] Hvis et svar ikke kommer etter at jeg har åpnet meg, begynner jeg å tenke at jeg var dum som stolte på dem.",
+            "response": "Hvilken følelse kommer opp når det å stole på noen begynner å kjennes dumt?"
           }
         },
         {
@@ -326,12 +326,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Desperate] When you look at the clock, I immediately think you want me gone.",
-            "response": "One glance at the clock turns into a leaving signal, and the room starts dropping away under your feet."
+            "statement": "[Distrustful] You say your notes are private, but if they make me sound unstable, I will feel completely betrayed.",
+            "response": "The possibility of being written wrong cuts deep, as if betrayal could happen quietly on a page after you leave."
           },
           "no": {
-            "statement": "[Desperat] Når du ser på klokka, tenker jeg med en gang at du vil ha meg ut.",
-            "response": "Ett blikk på klokka blir et tegn på at du skal forlates, og rommet begynner å falle bort under føttene."
+            "statement": "[Mistroisk] Du sier at notatene dine er private, men hvis de får meg til å høres ustabil ut, kommer jeg til å føle meg helt sviktet.",
+            "response": "Muligheten for å bli skrevet feil skjærer dypt, som om sviket kan skje stille på en side etter at du har gått."
           }
         }
       ]
@@ -347,12 +347,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Tense and ashamed] Apologizing feels like giving up ground, like everyone can see I lost.",
-            "response": "It feels risky; I wonder if apologizing touches a small, ashamed place that cannot bear being seen as defeated."
+            "statement": "[Tense and ashamed] When I have to apologize, my jaw tightens and I start explaining the whole situation.",
+            "response": "The explanation comes in quickly; I wonder if the apology itself touches shame, almost like being defeated in front of them."
           },
           "no": {
-            "statement": "[Anspent og skamfull] Å be om unnskyldning kjennes som å gi fra seg terreng, som om alle kan se at jeg tapte.",
-            "response": "Det kjennes risikabelt; jeg lurer på om det å beklage berører et lite, skamfullt sted som ikke tåler å bli sett som beseiret."
+            "statement": "[Anspent og skamfull] Når jeg må be om unnskyldning, strammer kjeven seg og jeg begynner å forklare hele situasjonen.",
+            "response": "Forklaringen kommer raskt inn; jeg lurer på om selve unnskyldningen berører skam, nesten som å bli beseiret foran dem."
           }
         },
         {
@@ -408,11 +408,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Panicked] When you remember what I said last week, I feel so relieved I could cry, and then I panic that I need this too much.",
-            "response": "That relief matters. I am here with you while the warmth and panic arrive together; we can let the need be felt in a small enough way that it does not have to become danger."
+            "response": "That relief matters. Warmth and panic can arrive together; we will keep the need small enough to feel without turning it into danger."
           },
           "no": {
             "statement": "[Panisk] Når du husker det jeg sa forrige uke, blir jeg så lettet at jeg kunne gråte, og så får jeg panikk for at jeg trenger dette for mye.",
-            "response": "Den lettelsen betyr noe. Jeg er her sammen med deg mens varmen og panikken kommer samtidig; vi kan la behovet kjennes på en liten nok måte til at det ikke må bli farlig."
+            "response": "Den lettelsen betyr noe. Varmen og panikken kan komme samtidig; vi holder behovet lite nok til at det kan kjennes uten å bli farlig."
           }
         },
         {

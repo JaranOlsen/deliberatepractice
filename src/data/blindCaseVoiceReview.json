@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T10:31:22.049Z",
+  "generatedAt": "2026-06-07T21:13:10.497Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -33,12 +33,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Tired] I should not talk about myself this much; other people need me more.",
-            "response": "[Internal] Slow pace; notice over-functioning pull. [Meta] You carry a lot for others; let's give a little space to what it is like for you to matter here."
+            "statement": "[Ashamed] I burned dinner after a long day and cried in the pantry like I was not even a competent adult.",
+            "response": "[Internal] Notice the wish to absolve her quickly; stay with the shame. [Meta] One ruined dinner became evidence against you as a person, not just a hard evening."
           },
           "no": {
-            "statement": "[Sliten] Jeg burde ikke snakke så mye om meg; andre trenger meg mer.",
-            "response": "[Internt] Senk tempoet; legg merke til overansvarlighetsdraget. [Meta] Du bærer mye for andre; vi gir litt plass til hvordan det er at du betyr noe her."
+            "statement": "[Skamfull] Jeg svidde middagen etter en lang dag og gråt i spiskammeret som om jeg ikke engang var en kompetent voksen.",
+            "response": "[Internt] Legg merke til ønsket om å frikjenne henne raskt; bli ved skammen. [Meta] Én ødelagt middag ble til bevis mot deg som person, ikke bare en vanskelig kveld."
           }
         }
       ]
@@ -397,12 +397,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Mistrustful] Calm feels dangerous, like someone will take advantage if I relax.",
-            "response": "What happens inside when calm starts to feel dangerous?"
+            "statement": "[Mistrustful] When the house gets quiet after a fight, I get more tense than when we were yelling.",
+            "response": "What happens inside when quiet feels more dangerous than yelling?"
           },
           "no": {
-            "statement": "[Mistenksom] Ro føles farlig, som om noen kan utnytte det hvis jeg slapper av.",
-            "response": "Hva skjer inni deg når ro begynner å føles farlig?"
+            "statement": "[Mistenksom] Når huset blir stille etter en krangel, blir jeg mer anspent enn da vi ropte.",
+            "response": "Hva skjer inni deg når stillhet kjennes farligere enn roping?"
           }
         }
       ]
@@ -613,12 +613,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Defensive] A certain tone hits and my chest heats before I know what was said.",
-            "response": "The heat arrives before the words, as if tone alone touches the place that expects disrespect."
+            "statement": "[Defensive] My wife says she can hear my tone change before I notice anything is wrong.",
+            "response": "She hears the change before you catch it yourself. Let's slow down around that moment and see what might be happening just before the tone shifts."
           },
           "no": {
-            "statement": "[Defensiv] En bestemt tone treffer, og brystet blir varmt før jeg vet hva som ble sagt.",
-            "response": "Varmen kommer før ordene, som om tonefallet alene berører stedet som forventer mangel på respekt."
+            "statement": "[Defensiv] Kona mi sier at hun hører tonefallet mitt endre seg før jeg selv merker at noe er galt.",
+            "response": "Hun hører endringen før du selv fanger den. Vi kan senke tempoet rundt det øyeblikket og se hva som kan skje rett før tonefallet skifter."
           }
         }
       ]
@@ -649,12 +649,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Distant] I wake with my shoulders tight, as if the day has already threatened me.",
-            "response": "The day seems to arrive as threat before anything has happened, and your whole system is already preparing."
+            "statement": "[Distant] I wake up already expecting the day to go wrong, even when nothing has happened yet.",
+            "response": "You wake already braced for something to go wrong. Maybe we can stay with that expectation and see what it is preparing you for."
           },
           "no": {
-            "statement": "[Fjern] Jeg våkner med stramme skuldre, som om dagen allerede har truet meg.",
-            "response": "Dagen ser ut til å komme som en trussel før noe har skjedd, og hele systemet ditt gjør seg allerede klart."
+            "statement": "[Fjern] Jeg våkner og forventer allerede at dagen skal gå galt, selv om ingenting har skjedd ennå.",
+            "response": "Du våkner allerede forberedt på at noe skal gå galt. Kanskje vi kan være litt med den forventningen og se hva den prøver å gjøre deg klar for."
           }
         }
       ]
@@ -706,14 +706,16 @@
         {
           "blindLabel": "A",
           "order": 5,
-          "riskFlags": [],
+          "riskFlags": [
+            "substance_use"
+          ],
           "en": {
-            "statement": "[Tense] Calm people make me nervous. I don't trust it.",
-            "response": "Calm looks too unprotected, like someone standing in the open without armor and calling it safe."
+            "statement": "[Defensive] When my wife says I drink too much, I want to prove she has no idea what she is talking about.",
+            "response": "Her accusation digs in like a knife, and proving her wrong becomes a way to pull the blade back out."
           },
           "no": {
-            "statement": "[Anspent] Rolige folk gjør meg nervøs. Jeg stoler ikke på det.",
-            "response": "Ro ser for ubeskyttet ut, som noen som står åpent uten rustning og kaller det trygt."
+            "statement": "[Defensiv] Når kona mi sier at jeg drikker for mye, vil jeg bevise at hun ikke aner hva hun snakker om.",
+            "response": "Anklagen hennes graver seg inn som en kniv, og det å motbevise henne blir en måte å trekke bladet ut igjen på."
           }
         },
         {
@@ -757,12 +759,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Quiet and guarded] When I talk about it, I notice I stop breathing.",
-            "response": "Your breath goes still, as if one inhale could pull the memory fully back into the room."
+            "statement": "[Confused] When I try to talk about it, I do not know what feeling is supposed to come first.",
+            "response": "It is like standing in mud with too many doors around you, not knowing which one opens without pulling you back there."
           },
           "no": {
-            "statement": "[Stille og på vakt] Når jeg snakker om det, merker jeg at jeg slutter å puste.",
-            "response": "Pusten går i ro, som om ett innpust kan trekke minnet helt tilbake inn i rommet."
+            "statement": "[Forvirret] Når jeg prøver å snakke om det, vet jeg ikke hvilken følelse som skal komme først.",
+            "response": "Det er som å stå i gjørme med for mange dører rundt deg, uten å vite hvilken som åpnes uten å trekke deg tilbake dit."
           }
         }
       ]
@@ -889,11 +891,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tearful] I cannot look at you when I cry; it feels too exposed.",
-            "response": "Keep your gaze wherever it feels easiest and feel your feet. I will stay with you while a little of this exposure is here."
+            "response": "You do not have to look at me. Rest your gaze somewhere tolerable and let the exposed feeling be here in a small enough dose to bear."
           },
           "no": {
             "statement": "[På gråten] Jeg klarer ikke se på deg når jeg gråter; det føles altfor blottlagt.",
-            "response": "Hold blikket der det kjennes lettest og kjenn føttene på gulvet. Jeg er med deg mens litt av denne blottstillelsen får være her."
+            "response": "Du trenger ikke se på meg. La blikket hvile et sted som er tålelig, og la den blottlagte følelsen få være her i en dose som går an å bære."
           }
         },
         {
@@ -961,11 +963,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Slow and flat] I want to go numb before the memory opens wider than I can close.",
-            "response": "Then we respect the numbness as protection. Feel your heels and keep your eyes on the room; we touch no more than the doorway of the memory."
+            "response": "Then numbness gets respected as protection. Heels on the floor, eyes in the room; today we stop at the doorway of the memory."
           },
           "no": {
             "statement": "[Langsomt og flatt] Jeg vil bli nummen før minnet åpner seg bredere enn jeg klarer å lukke.",
-            "response": "Da respekterer vi nummenheten som beskyttelse. Kjenn hælene og hold blikket i rommet; vi berører ikke mer enn døråpningen til minnet."
+            "response": "Da får nummenheten respekt som beskyttelse. Hælene i gulvet, blikket i rommet; i dag stopper vi ved døråpningen til minnet."
           }
         },
         {

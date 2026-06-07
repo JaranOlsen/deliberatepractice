@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T10:31:22.049Z",
+  "generatedAt": "2026-06-07T21:13:10.496Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -48,12 +48,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "[Embarrassed] I can power through; I don't need to feel all of this.",
-                "response": "[Internal] Notice fixing/efficiency pull; settle shoulders. [Meta] We can go at your pace—maybe we touch a small piece together and come back."
+                "statement": "[Hopeful] I booked this appointment because I keep thinking maybe I can get my life back, even if that sounds dramatic.",
+                "response": "[Internal] Notice hope and the pressure to deliver; breathe into steadiness. [Meta] There is a hopeful part reaching for life again, and I want us to hold that carefully without making you perform recovery."
               },
               "no": {
-                "statement": "[Flau] Jeg kan bare bite tennene sammen; jeg trenger ikke å kjenne på alt dette.",
-                "response": "[Internt] Merk draget mot å fikse og være effektiv; senk skuldrene. [Meta] Vi kan gå i ditt tempo – kanskje vi kan berøre en liten del sammen, og så komme tilbake."
+                "statement": "[Håpefull] Jeg bestilte denne timen fordi jeg stadig tenker at jeg kanskje kan få livet mitt tilbake, selv om det høres dramatisk ut.",
+                "response": "[Internt] Legg merke til håpet og presset om å levere; finn stødighet i pusten. [Meta] Det finnes en håpefull del som strekker seg mot livet igjen, og jeg vil at vi holder det varsomt uten at du må prestere bedring."
               }
             },
             {
@@ -94,12 +94,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "[Fearful] I feel nothing, and I am scared you will push until I disappear.",
-                "response": "[Internal] Drop agenda; slow your voice; titrate. [Meta] I will not push past the numbness. We can let it show us the edge of what feels safe."
+                "statement": "[Ashamed] I tried to cook for myself and stood there staring at the pan like I was a child who needed someone to tell me what to do.",
+                "response": "[Internal] Notice tenderness and the rescue impulse; stay with her adult shame. [Meta] That ordinary task turned into a painful feeling of being small and unable to manage."
               },
               "no": {
-                "statement": "[Redd] Jeg kjenner ingenting, og jeg er redd du presser til jeg forsvinner.",
-                "response": "[Internt] Slipp agendaen; senk stemmen; titrer. [Meta] Jeg presser ikke forbi nummenheten. Vi kan la den vise oss kanten av det som kjennes trygt."
+                "statement": "[Skamfull] Jeg prøvde å lage mat til meg selv og ble stående og se på stekepannen som et barn som trengte at noen sa hva jeg skulle gjøre.",
+                "response": "[Internt] Legg merke til ømhet og redningstrang; bli ved den voksne skammen hennes. [Meta] Den vanlige oppgaven ble til en vond følelse av å være liten og ute av stand til å klare seg."
               }
             },
             {
@@ -290,12 +290,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "[Tense and angry] When someone gives me a look at dinner, I get angry fast.",
-                "response": "A look at dinner can bring anger up very quickly."
+                "statement": "[Hopeless] My wife and I keep having the same fight, and nothing changes no matter how hard I try.",
+                "response": "The same fight keeps repeating, and it leaves you feeling worn down and hopeless."
               },
               "no": {
-                "statement": "[Anspent og sint] Når noen gir meg et blikk ved middagsbordet, blir jeg fort sint.",
-                "response": "Et blikk ved middagsbordet kan vekke sinne veldig raskt."
+                "statement": "[Håpløs] Kona mi og jeg har den samme krangelen om og om igjen, og ingenting endrer seg uansett hvor hardt jeg prøver.",
+                "response": "Den samme krangelen gjentar seg, og det gjør deg sliten og håpløs."
               }
             },
             {
@@ -389,12 +389,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "[Torn] Sometimes I sit here thinking therapy is a waste, and then I feel superior and desperate.",
-                "response": "Part of you dismisses this as pointless, while another part is desperate for something to change."
+                "statement": "[Confused] I do not know what we should talk about this week; I was hoping you would guide the session.",
+                "response": "You feel unsure what to bring, and you are hoping I can help give us a direction."
               },
               "no": {
-                "statement": "[Splittet] Noen ganger sitter jeg her og tenker at terapi er bortkastet, og så føler jeg meg både overlegen og desperat.",
-                "response": "En del av deg avfeier dette som meningsløst, mens en annen del er desperat etter at noe skal endre seg."
+                "statement": "[Forvirret] Jeg vet ikke hva vi burde snakke om denne uken; jeg håpet at du kunne styre timen.",
+                "response": "Du er usikker på hva du skal ta opp, og håper jeg kan hjelpe oss å finne en retning."
               }
             }
           ]
@@ -701,16 +701,14 @@
               "caseLabel": "Laura (Moderate)",
               "caseName": "Laura G.",
               "difficulty": "moderate",
-              "riskFlags": [
-                "substance_use"
-              ],
+              "riskFlags": [],
               "en": {
-                "statement": "[Distant] I pour a drink at night so the noise in my head blurs instead of sharpening.",
-                "response": "Before the first sip, what feeling is the noise trying to drown out?"
+                "statement": "[Distant] At night I pour wine before I have decided whether I actually want it.",
+                "response": "What do you notice in the moment before you pour it?"
               },
               "no": {
-                "statement": "[Fjern] Jeg heller opp et glass om kvelden så støyen i hodet blir uklar i stedet for skarpere.",
-                "response": "Før første slurk, hvilken følelse prøver støyen å drukne?"
+                "statement": "[Fjern] Om kvelden heller jeg opp vin før jeg har bestemt meg for om jeg egentlig vil ha det.",
+                "response": "Hva legger du merke til i øyeblikket før du heller opp?"
               }
             },
             {
@@ -751,12 +749,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "[Panicked] If a reply does not come after I open up, I panic and keep checking my phone.",
-                "response": "Where do you first notice the panic as you keep checking?"
+                "statement": "[Panicked] If a reply does not come after I open up, I start thinking I was stupid to trust them.",
+                "response": "What feeling comes up as trusting starts to feel stupid?"
               },
               "no": {
-                "statement": "[Panisk] Hvis et svar ikke kommer etter at jeg har åpnet meg, får jeg panikk og sjekker telefonen om og om igjen.",
-                "response": "Hvor merker du først panikken mens du fortsetter å sjekke?"
+                "statement": "[Panisk] Hvis et svar ikke kommer etter at jeg har åpnet meg, begynner jeg å tenke at jeg var dum som stolte på dem.",
+                "response": "Hvilken følelse kommer opp når det å stole på noen begynner å kjennes dumt?"
               }
             },
             {
@@ -768,12 +766,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "[Panicked] When the emptiness turns unreal, I scratch just to prove I am still here.",
-                "response": "As you name the urge to scratch, what does the unreal emptiness feel like inside?"
+                "statement": "[Panicked] When I talk about scratching, I want to make it sound casual so you will not overreact.",
+                "response": "What feeling comes up as you try to make it sound casual?"
               },
               "no": {
-                "statement": "[Panisk] Når tomheten blir uvirkelig, klorer jeg bare for å bevise at jeg fortsatt er her.",
-                "response": "Når du setter ord på trangen til å klore, hvordan kjennes den uvirkelige tomheten inni deg?"
+                "statement": "[Panisk] Når jeg snakker om kloring, vil jeg få det til å høres tilfeldig ut så du ikke overreagerer.",
+                "response": "Hvilken følelse kommer opp når du prøver å få det til å høres tilfeldig ut?"
               }
             },
             {
@@ -1339,12 +1337,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "[Desperate] When you look at the clock, I immediately think you want me gone.",
-                "response": "One glance at the clock turns into a leaving signal, and the room starts dropping away under your feet."
+                "statement": "[Distrustful] You say your notes are private, but if they make me sound unstable, I will feel completely betrayed.",
+                "response": "The possibility of being written wrong cuts deep, as if betrayal could happen quietly on a page after you leave."
               },
               "no": {
-                "statement": "[Desperat] Når du ser på klokka, tenker jeg med en gang at du vil ha meg ut.",
-                "response": "Ett blikk på klokka blir et tegn på at du skal forlates, og rommet begynner å falle bort under føttene."
+                "statement": "[Mistroisk] Du sier at notatene dine er private, men hvis de får meg til å høres ustabil ut, kommer jeg til å føle meg helt sviktet.",
+                "response": "Muligheten for å bli skrevet feil skjærer dypt, som om sviket kan skje stille på en side etter at du har gått."
               }
             },
             {
@@ -1409,12 +1407,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "[Firm] If someone questions me in a meeting, I bite back before they can hear that I feel cornered.",
-                "response": "You come in strong fast; I wonder if under the bite is the sting of feeling cornered and seen as not enough."
+                "statement": "[Firm] If someone questions me in a meeting, I answer fast and louder than I meant to.",
+                "response": "You come in strong before there is time to think; I wonder if the question lands like being put on the spot and found lacking."
               },
               "no": {
-                "statement": "[Fast] Hvis noen setter spørsmålstegn ved meg i et møte, biter jeg tilbake før de kan høre at jeg føler meg presset opp i et hjørne.",
-                "response": "Du kommer raskt inn hardt; jeg lurer på om det under bittet ligger et stikk av å føle seg fanget og sett som ikke bra nok."
+                "statement": "[Fast] Hvis noen stiller spørsmål ved meg i et møte, svarer jeg raskt og høyere enn jeg mente.",
+                "response": "Du kommer sterkt inn før du rekker å tenke; jeg lurer på om spørsmålet lander som å bli satt på prøve og ikke holde mål."
               }
             },
             {
@@ -1426,12 +1424,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "[Tense and ashamed] Apologizing feels like giving up ground, like everyone can see I lost.",
-                "response": "It feels risky; I wonder if apologizing touches a small, ashamed place that cannot bear being seen as defeated."
+                "statement": "[Tense and ashamed] When I have to apologize, my jaw tightens and I start explaining the whole situation.",
+                "response": "The explanation comes in quickly; I wonder if the apology itself touches shame, almost like being defeated in front of them."
               },
               "no": {
-                "statement": "[Anspent og skamfull] Å be om unnskyldning kjennes som å gi fra seg terreng, som om alle kan se at jeg tapte.",
-                "response": "Det kjennes risikabelt; jeg lurer på om det å beklage berører et lite, skamfullt sted som ikke tåler å bli sett som beseiret."
+                "statement": "[Anspent og skamfull] Når jeg må be om unnskyldning, strammer kjeven seg og jeg begynner å forklare hele situasjonen.",
+                "response": "Forklaringen kommer raskt inn; jeg lurer på om selve unnskyldningen berører skam, nesten som å bli beseiret foran dem."
               }
             },
             {
@@ -1640,11 +1638,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Panicked] When you remember what I said last week, I feel so relieved I could cry, and then I panic that I need this too much.",
-                "response": "That relief matters. I am here with you while the warmth and panic arrive together; we can let the need be felt in a small enough way that it does not have to become danger."
+                "response": "That relief matters. Warmth and panic can arrive together; we will keep the need small enough to feel without turning it into danger."
               },
               "no": {
                 "statement": "[Panisk] Når du husker det jeg sa forrige uke, blir jeg så lettet at jeg kunne gråte, og så får jeg panikk for at jeg trenger dette for mye.",
-                "response": "Den lettelsen betyr noe. Jeg er her sammen med deg mens varmen og panikken kommer samtidig; vi kan la behovet kjennes på en liten nok måte til at det ikke må bli farlig."
+                "response": "Den lettelsen betyr noe. Varmen og panikken kan komme samtidig; vi holder behovet lite nok til at det kan kjennes uten å bli farlig."
               }
             }
           ]
@@ -1686,11 +1684,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Apologetic] I feel like I am failing everyone, and my body wants to collapse.",
-                "response": "That is heavy. Keep your eyes on me if you can, let the chair take some weight, and hold the edge of collapse for a moment."
+                "response": "That is heavy. Let the chair take some of your weight, and we will notice the edge of collapse without asking your body to carry it alone."
               },
               "no": {
                 "statement": "[Unnskyldende] Jeg føler at jeg svikter alle, og kroppen vil bare klappe sammen.",
-                "response": "Det er tungt. Hold blikket hos meg hvis du kan, la stolen bære noe av vekten, og hold kanten av kollaps et øyeblikk."
+                "response": "Det er tungt. La stolen bære noe av vekten, og vi legger merke til kanten av kollaps uten å be kroppen din bære det alene."
               }
             },
             {
