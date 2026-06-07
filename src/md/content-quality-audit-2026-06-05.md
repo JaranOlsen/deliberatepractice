@@ -30,6 +30,7 @@ Branch update:
 - Empathic Understanding moderate/hard have been broadened with more ordinary practical distress, confused depression, substance/anxiety ambivalence, friend disappointment, and "guide me" uncertainty.
 - Therapist Self-Awareness easy/moderate have been broadened with ordinary therapist-activating material: hope, advice pull, rescue pull, cultural humility, dependency shame, alcohol/usefulness concerns, and grief that can pull the therapist toward comfort.
 - Staying in Contact with Intense Affect responses have received a response-variation pass, reducing repeated "stay with," "with me," "keep your," and "keep you" phrasing while preserving safety language for self-harm and violence items.
+- Empathic Evocations moderate/hard have been broadened with betrayal, worthlessness, being used, dependency shame, hopeless shutdown, macho anti-feeling, confidentiality/distrust, confused distress, and crisis-denial archetypes while keeping client markers mostly flat enough for trainee image-making.
 
 The remaining gaps are more subtle:
 
@@ -67,8 +68,8 @@ The remaining gaps are more subtle:
 | Empathic Explorations | Moderate | Strong-Mixed | Medium | Strong | Medium | Recent pass added flatter relational ambiguity, not-emotional/confused process, last-therapist distrust, and ordinary uncertainty. |
 | Empathic Explorations | Hard | Strong-Mixed | Medium | Strong | Medium | Recent pass added dazed/foggy process and direct therapist-attraction material. Some hard-case items still border intense-affect because of case severity. |
 | Empathic Evocations | Easy | Strong | Medium | Strong | Low-Medium | Marker style is now much better: flat, detached, ordinary. Benchmark archetype coverage is partial, but this is partly intentional to preserve trainee image-making. |
-| Empathic Evocations | Moderate | Strong-Mixed | Medium | Strong | Medium | Good flatter style overall; still light on obsessive love, worthlessness, betrayal, and hopeless relational shutdown archetypes. |
-| Empathic Evocations | Hard | Strong-Mixed | Medium | Strong | Medium | Good guarded/flat hard markers. Could add confidentiality threat and a cleaner macho anti-feeling marker. |
+| Empathic Evocations | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass added betrayal, worthlessness, being used, dependency shame, macho anti-feeling, and hopeless relational shutdown while preserving relatively flat markers. |
+| Empathic Evocations | Hard | Strong | Medium-High | Strong | Low-Medium | Recent pass added confidentiality threat, crisis-denial, confused distress, worthlessness, and locked-down anti-feeling archetypes. Remaining work is regression polish to prevent client-supplied imagery from creeping back in. |
 | Empathic Conjectures | Easy | Strong-Mixed | Medium | Strong | Medium | Good hints of hidden hurt/fear. Some markers state the underlying process too clearly, reducing conjecture work. |
 | Empathic Conjectures | Moderate | Strong | Medium-High | Strong | Low-Medium | Strong case-specific conjecture markers; could still add clearer obsessive love and blocked-love/betrayal variants. |
 | Empathic Conjectures | Hard | Strong-Mixed | Medium-High | Strong | Low-Medium | Good denial-after-suicidality, trapped relationship, macho anti-feeling, and hard defensiveness coverage. |
@@ -94,30 +95,31 @@ Completed on the current content branch:
 - Empathic Understanding, moderate and hard.
 - Therapist Self-Awareness, easy and moderate.
 - Staying in Contact with Intense Affect response variation.
+- Empathic Evocations, moderate and hard.
 
 These should still be reviewed in normal regression passes, but they are no longer the highest-value repair targets.
 
 ## Current Highest-Value Improvement Targets
 
-1. Empathic Evocations, moderate and hard.
-   - Marker shape is now much better, but benchmark breadth is still partial.
-   - Add cleaner obsessive love, worthlessness, betrayal, hopeless shutdown, confidentiality threat, and macho anti-feeling archetypes where they fit the cases.
-
-2. Empathic Conjectures, easy and moderate.
+1. Empathic Conjectures, easy and moderate.
    - Good hidden-process cues, but some markers still state the underlying process too directly.
    - Make a small number of cues more indirect so the trainee has room to offer the conjecture.
 
-3. Empathic Affirmation and Validation, easy.
+2. Empathic Affirmation and Validation, easy.
    - Quality is strong enough for production, but benchmark breadth is narrower than the moderate/hard tiers.
    - Add more ordinary beginner-level legitimacy markers without overloading them with shame schema.
 
-4. Therapist Self-Awareness hard response polish.
+3. Therapist Self-Awareness hard response polish.
    - Hard markers remain strong.
    - Continue reducing question-form and overly explanatory meta responses when encountered during normal passes.
 
-5. Staying in Contact with Intense Affect remaining polish.
+4. Staying in Contact with Intense Affect remaining polish.
    - Keep as a regression target rather than the next main repair area.
    - Future passes can add more positive loving affect and ordinary death/loss examples if the fixed cases can carry them naturally.
+
+5. Empathic Evocations regression polish.
+   - Keep checking that client statements remain flat, detached, or over-cognitive rather than already imagistic.
+   - Future evocation changes should be small and benchmark-driven, not a broad rewrite.
 
 ## Case-Set Constraints
 

@@ -2418,12 +2418,12 @@ export const STATEMENT_SETS = {
         "suggestion": "The sound reaches your body before your mind can explain it, sending the old alarm through the present room."
       },
       {
-        "text": "[Tense and guarded] When someone sits close, I stay polite, but I feel myself pull back.",
-        "suggestion": "The polite face stays in front while another part of you retreats behind a pane of glass."
+        "text": "[Betrayed] I found out he had been seeing someone else, and now any warmth I had for him shuts off.",
+        "suggestion": "The betrayal draws a hard line inside you, love pulled behind a bolted door before it can be hurt again."
       },
       {
-        "text": "[Flat and guarded] I see people laughing and I can't relate to it.",
-        "suggestion": "Their laughter is visible in front of you, but joy feels like a language from a country you cannot enter."
+        "text": "[Ashamed] I feel like something is wrong with me because even simple good things do not reach me.",
+        "suggestion": "It is as if a dark mark has spread across the inside, making even ordinary warmth slide off before it can soak in."
       },
       {
         "text": "[Distant] Wine helps me turn things off at night.",
@@ -2438,8 +2438,8 @@ export const STATEMENT_SETS = {
         "suggestion": "A few notes open a narrow crack in the numbness, and you close it before too much feeling can come through."
       },
       {
-        "text": "[Distant] I spend extra time in stores because going home feels difficult.",
-        "suggestion": "The bright aisles become a neutral hallway, buying time before the silence of home has to be entered."
+        "text": "[Hopeless] When my ex starts explaining why he left, I stop trying to answer.",
+        "suggestion": "You fold inward like paper under his words, the air going out of you until arguing back feels pointless."
       },
       {
         "text": "[Tense and guarded] Kind words make my throat hurt, and I don't know why.",
@@ -2456,8 +2456,8 @@ export const STATEMENT_SETS = {
         "suggestion": "The smirk sends current into your hands, heat looking for somewhere to go before words can catch up."
       },
       {
-        "text": "[Tense] When someone gets in my face, my chest gets tight and I want it to stop.",
-        "suggestion": "Your chest pulls tight like a drum, every next word hitting against the skin of it."
+        "text": "[Macho] My father used to say only weak men talk about feelings.",
+        "suggestion": "His words still ring like a command in your ears: only weak men feel, so the softer places have to stay locked away."
       },
       {
         "text": "[Tense and angry] I pace around the kitchen after fights because sitting still makes it worse.",
@@ -2468,8 +2468,8 @@ export const STATEMENT_SETS = {
         "suggestion": "His face stays with you like a bruise under the anger, a mark you cannot shove away."
       },
       {
-        "text": "[Tense] Calm people make me nervous. I don't trust it.",
-        "suggestion": "Calm looks too unprotected, like someone standing in the open without armor and calling it safe."
+        "text": "[Defensive] When my wife says I drink too much, I want to prove she has no idea what she is talking about.",
+        "suggestion": "Her accusation digs in like a knife, and proving her wrong becomes a way to pull the blade back out."
       },
       {
         "text": "[Ashamed] After I blow up, everyone gets quiet, and I hate the room.",
@@ -2480,8 +2480,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Your teeth lock down like a vise, holding the words and heat in until pain starts pounding."
       },
       {
-        "text": "[Tense] Backing down in front of my son feels wrong.",
-        "suggestion": "Backing down feels like your outline fades in the room, as if respect might leave with it."
+        "text": "[Worthless] If I back down in front of my son, I feel like I become nobody.",
+        "suggestion": "Backing down makes you feel erased, like your outline fades until there is no man left standing there."
       },
       {
         "text": "[Tense and angry] I grip the steering wheel hard when I'm trying not to react.",
@@ -2498,12 +2498,12 @@ export const STATEMENT_SETS = {
         "suggestion": "Rest sets off an alarm inside you, guilt shooting through before the chair can even hold your weight."
       },
       {
-        "text": "[Apologetic] I feel responsible for too much, but I don't know what to stop doing.",
-        "suggestion": "Your arms are full of everyone else's weight, and there is no free hand left for your own."
+        "text": "[Hurt] Sometimes I feel used, and then I hate myself for even saying that.",
+        "suggestion": "You feel wrung out like a cloth everyone keeps reaching for, and then shame comes in for naming how used you feel."
       },
       {
-        "text": "[Torn] When I ask for help, my stomach feels tight.",
-        "suggestion": "The request gets knotted in your stomach before it can reach anyone else."
+        "text": "[Worthless] When I need help, I feel like I am not really worth much.",
+        "suggestion": "Needing help makes you shrink toward the floor, as if your worth drops the moment your hands are not full."
       },
       {
         "text": "[Tired] I smile through headaches because people need me to keep going.",
@@ -2530,22 +2530,22 @@ export const STATEMENT_SETS = {
         "suggestion": "The tears get folded into ordinary kitchen sounds, hidden where cupboards and running water can cover them."
       },
       {
-        "text": "[Guilty] I imagine a day with no one needing anything, and then I feel selfish.",
-        "suggestion": "For one moment a quiet day opens, and then guilt steps into the doorway before you can rest there."
+        "text": "[Lonely] I still wait for him to notice how tired I am, even though he does not live here anymore.",
+        "suggestion": "Some part of you is still watching the doorway for him, waiting for the old life to look back and finally see you."
       }
     ],
     "case-aisha": [
       {
-        "text": "[Desperate] When you look at the clock, I immediately think you want me gone.",
-        "suggestion": "One glance at the clock turns into a leaving signal, and the room starts dropping away under your feet."
+        "text": "[Distrustful] You say your notes are private, but if they make me sound unstable, I will feel completely betrayed.",
+        "suggestion": "The possibility of being written wrong cuts deep, as if betrayal could happen quietly on a page after you leave."
       },
       {
         "text": "[Desperate] I can go from begging someone to stay to telling them to leave me alone in seconds.",
         "suggestion": "The feeling flips from reaching hands to fire, a switch thrown faster than you can steady yourself."
       },
       {
-        "text": "[Desperate] The empty feeling gets so bad that I can't think straight.",
-        "suggestion": "The emptiness opens wide inside, so big it pulls thought and ground away with it."
+        "text": "[Confused] I cannot tell if I am angry, scared, or empty; it all changes too fast.",
+        "suggestion": "It is all tangled together, like being stuck in mud with no clear door to open first."
       },
       {
         "text": "[Panicked] I scratch my arm when I start feeling unreal.",
@@ -2560,8 +2560,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Goodbye tips the room before logic can help, and everything in you reaches for a floor."
       },
       {
-        "text": "[Panicked] When you cancel, I want to stop coming before you can do it again.",
-        "suggestion": "The cancellation opens an old drop, and leaving first feels like the only railing you can grab."
+        "text": "[In denial] Last week I felt suicidal when he disappeared, but then he texted me back, so maybe I am fine now.",
+        "suggestion": "His text feels like a sudden floor under your feet, while the drop underneath is still very deep."
       },
       {
         "text": "[Hurt] When someone calls me too much, I keep hearing it afterward.",
@@ -2582,8 +2582,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Cold burns behind your teeth, and the sharp comment comes out like armor snapping shut."
       },
       {
-        "text": "[Dismissive] If I'm not clearly doing well, I feel empty for a while.",
-        "suggestion": "Without the win, the inside goes echoing and bare, like the room has emptied after applause."
+        "text": "[Worthless] If I am not the best person in the room, I feel worthless.",
+        "suggestion": "It is like the floor opens under ordinary, and you drop from impressive to nothing in one hard fall."
       },
       {
         "text": "[Defensive] When I feel small, I start talking about what I've achieved.",
@@ -2594,8 +2594,8 @@ export const STATEMENT_SETS = {
         "suggestion": "The shirt and the record become armor pieces, fastened before the hit can land."
       },
       {
-        "text": "[Dismissive] Praise helps for a minute, but it doesn't last.",
-        "suggestion": "Admiration pours in and drains away quickly, never quite reaching the hollow place underneath."
+        "text": "[Ashamed] Deep down I think there is something wrong with me that success cannot cover.",
+        "suggestion": "Success lies over it like fine linen, but underneath there is a dark stain you fear will keep spreading through."
       },
       {
         "text": "[Ashamed] My kid's face after I snap bothers me more than I expected.",
@@ -2610,8 +2610,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Those words strip the armor in an instant, leaving your face hot and exposed."
       },
       {
-        "text": "[Tense] At night I walk around because I can't settle after everyone has gone quiet.",
-        "suggestion": "The hallway becomes a track for outrunning the feeling that the house has seen too much."
+        "text": "[Confused] I do not know what I feel; I just know I cannot settle when everyone goes quiet.",
+        "suggestion": "You are tangled up in the quiet, pacing as if every door inside opens onto something you cannot name."
       },
       {
         "text": "[Controlled] Since the affair came out, home feels different and I don't know what to do with that.",
@@ -2620,16 +2620,16 @@ export const STATEMENT_SETS = {
     ],
     "case-marcus": [
       {
-        "text": "[Flat] Most days I go through the motions and don't feel connected to people.",
-        "suggestion": "You move through the day half-transparent, close to people and still not touching the world."
+        "text": "[Hopeless] Most days I go through the motions and do not see the point of talking about it.",
+        "suggestion": "The day folds down around you, flat and airless, as if words would only press against a wall."
       },
       {
         "text": "[Low voice] Crowds make me tense before anything has happened.",
         "suggestion": "Your body stands guard before the crowd reaches you, shoulders rising toward the hit that has not come."
       },
       {
-        "text": "[Quiet and guarded] I sit where I can see the door. It just feels better.",
-        "suggestion": "Back to the wall, eyes on the exits, the whole room quietly arranged around threat."
+        "text": "[Macho] In the unit, feelings got people killed, so I learned not to have them.",
+        "suggestion": "That rule still sounds like an order: feelings get people killed, so the heart goes behind a locked door."
       },
       {
         "text": "[Hypervigilant] Nightmares wake me up, and then the room doesn't feel normal for a while.",
@@ -2652,8 +2652,8 @@ export const STATEMENT_SETS = {
         "suggestion": "A knock turns the door into a threat, and your heart starts pounding from the inside."
       },
       {
-        "text": "[Quiet and guarded] When I talk about it, I notice I stop breathing.",
-        "suggestion": "Your breath goes still, as if one inhale could pull the memory fully back into the room."
+        "text": "[Confused] When I try to talk about it, I do not know what feeling is supposed to come first.",
+        "suggestion": "It is like standing in mud with too many doors around you, not knowing which one opens without pulling you back there."
       },
       {
         "text": "[Flat] Some nights I sit in the car before going upstairs.",

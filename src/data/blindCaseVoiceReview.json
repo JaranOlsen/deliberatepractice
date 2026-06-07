@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T13:11:00.073Z",
+  "generatedAt": "2026-06-07T13:39:22.306Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -706,14 +706,16 @@
         {
           "blindLabel": "A",
           "order": 5,
-          "riskFlags": [],
+          "riskFlags": [
+            "substance_use"
+          ],
           "en": {
-            "statement": "[Tense] Calm people make me nervous. I don't trust it.",
-            "response": "Calm looks too unprotected, like someone standing in the open without armor and calling it safe."
+            "statement": "[Defensive] When my wife says I drink too much, I want to prove she has no idea what she is talking about.",
+            "response": "Her accusation digs in like a knife, and proving her wrong becomes a way to pull the blade back out."
           },
           "no": {
-            "statement": "[Anspent] Rolige folk gjør meg nervøs. Jeg stoler ikke på det.",
-            "response": "Ro ser for ubeskyttet ut, som noen som står åpent uten rustning og kaller det trygt."
+            "statement": "[Defensiv] Når kona mi sier at jeg drikker for mye, vil jeg bevise at hun ikke aner hva hun snakker om.",
+            "response": "Anklagen hennes graver seg inn som en kniv, og det å motbevise henne blir en måte å trekke bladet ut igjen på."
           }
         },
         {
@@ -757,12 +759,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Quiet and guarded] When I talk about it, I notice I stop breathing.",
-            "response": "Your breath goes still, as if one inhale could pull the memory fully back into the room."
+            "statement": "[Confused] When I try to talk about it, I do not know what feeling is supposed to come first.",
+            "response": "It is like standing in mud with too many doors around you, not knowing which one opens without pulling you back there."
           },
           "no": {
-            "statement": "[Stille og på vakt] Når jeg snakker om det, merker jeg at jeg slutter å puste.",
-            "response": "Pusten går i ro, som om ett innpust kan trekke minnet helt tilbake inn i rommet."
+            "statement": "[Forvirret] Når jeg prøver å snakke om det, vet jeg ikke hvilken følelse som skal komme først.",
+            "response": "Det er som å stå i gjørme med for mange dører rundt deg, uten å vite hvilken som åpnes uten å trekke deg tilbake dit."
           }
         }
       ]

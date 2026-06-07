@@ -7,7 +7,7 @@ export const BENCHMARK_BANK_SUMMARY = {
   "totalResponses": 175,
   "sourceResponseCount": 160,
   "derivedResponseCount": 15,
-  "generatedAt": "2026-06-07T13:11:00.070Z"
+  "generatedAt": "2026-06-07T13:39:22.303Z"
 };
 
 export const BENCHMARK_BANK = {

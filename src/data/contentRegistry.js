@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-06-07T13:11:00.063Z"
+  "generatedAt": "2026-06-07T13:39:22.294Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -16967,7 +16967,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Evocations",
           "caseId": "case-carlos"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "substance_use"
+        ],
         "criteriaTags": [
           "evoke_image",
           "heighten_felt_sense",
@@ -17611,7 +17613,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Evocations",
           "caseId": "case-aisha"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "suicide"
+        ],
         "criteriaTags": [
           "evoke_image",
           "heighten_felt_sense",

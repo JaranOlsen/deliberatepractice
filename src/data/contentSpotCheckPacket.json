@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T13:11:00.072Z",
+  "generatedAt": "2026-06-07T13:39:22.306Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1337,12 +1337,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "[Desperate] When you look at the clock, I immediately think you want me gone.",
-                "response": "One glance at the clock turns into a leaving signal, and the room starts dropping away under your feet."
+                "statement": "[Distrustful] You say your notes are private, but if they make me sound unstable, I will feel completely betrayed.",
+                "response": "The possibility of being written wrong cuts deep, as if betrayal could happen quietly on a page after you leave."
               },
               "no": {
-                "statement": "[Desperat] Når du ser på klokka, tenker jeg med en gang at du vil ha meg ut.",
-                "response": "Ett blikk på klokka blir et tegn på at du skal forlates, og rommet begynner å falle bort under føttene."
+                "statement": "[Mistroisk] Du sier at notatene dine er private, men hvis de får meg til å høres ustabil ut, kommer jeg til å føle meg helt sviktet.",
+                "response": "Muligheten for å bli skrevet feil skjærer dypt, som om sviket kan skje stille på en side etter at du har gått."
               }
             },
             {
