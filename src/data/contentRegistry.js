@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-06-07T10:31:22.038Z"
+  "generatedAt": "2026-06-07T21:13:10.485Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -528,7 +528,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-michael"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "culture_religion"
+        ],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -1201,7 +1203,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-carlos"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "culture_religion"
+        ],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -1230,9 +1234,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-carlos"
         },
-        "riskFlags": [
-          "violence"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -3607,9 +3609,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Understanding",
           "caseId": "case-laura"
         },
-        "riskFlags": [
-          "substance_use"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "reflect_feeling",
           "legacy_matrix_item"
@@ -4853,7 +4853,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Understanding",
           "caseId": "case-david"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "substance_use"
+        ],
         "criteriaTags": [
           "reflect_feeling",
           "legacy_matrix_item"
@@ -5053,7 +5055,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Understanding",
           "caseId": "case-marcus"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "substance_use"
+        ],
         "criteriaTags": [
           "reflect_feeling",
           "legacy_matrix_item"
@@ -8761,9 +8765,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Exploratory Questions",
           "caseId": "case-laura"
         },
-        "riskFlags": [
-          "substance_use"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "explore_body",
           "explore_meaning",
@@ -16965,7 +16967,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Evocations",
           "caseId": "case-carlos"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "substance_use"
+        ],
         "criteriaTags": [
           "evoke_image",
           "heighten_felt_sense",
@@ -17609,7 +17613,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Evocations",
           "caseId": "case-aisha"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "suicide"
+        ],
         "criteriaTags": [
           "evoke_image",
           "heighten_felt_sense",
@@ -19400,7 +19406,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Conjectures",
           "caseId": "case-laura"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "trauma"
+        ],
         "criteriaTags": [
           "tentative_guess",
           "name_underlying_feeling",
@@ -23354,9 +23362,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Staying in Contact in the Face of Intense Affect",
           "caseId": "case-david"
         },
-        "riskFlags": [
-          "violence"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "titrate_affect",
           "grounding",
