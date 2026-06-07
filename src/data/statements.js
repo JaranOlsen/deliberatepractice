@@ -3045,7 +3045,7 @@ export const STATEMENT_SETS = {
     "case-sara": [
       {
         "text": "[Tearful] It hits me in a wave and I cannot stop sobbing.",
-        "suggestion": "I am here with you. Feel your feet on the floor and take two slow exhales with me. Let a small part of the wave move while the chair holds you."
+        "suggestion": "I am right here. Feel the floor under both feet and take two long exhales; we will make room for only the front edge of the wave while the chair supports you."
       },
       {
         "text": "[Tearful] My chest hurts like it is going to split open when I say I miss him.",
@@ -3065,7 +3065,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Embarrassed] I feel stupid for crying this hard, but I cannot stop it.",
-        "suggestion": "The crying can have some room here. Slow the breath, soften the shoulders, and let the tears move while I remain with you."
+        "suggestion": "The tears are allowed here. Let your shoulders drop a little and notice that I am still present while the crying moves through in small pieces."
       },
       {
         "text": "[Numb] My hands are going numb; I feel far away, like I might leave the room without moving.",
@@ -3077,11 +3077,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tearful] I cannot look at you when I cry; it feels too exposed.",
-        "suggestion": "Keep your gaze wherever it feels easiest and feel your feet. I will stay with you while a little of this exposure is here."
+        "suggestion": "You do not have to look at me. Rest your gaze somewhere tolerable and let the exposed feeling be here in a small enough dose to bear."
       },
       {
         "text": "[Fearful] If I let the crying start, I am scared it will take the whole night with it.",
-        "suggestion": "We can make a beginning and an ending together. Let one small wave come while I stay with you, then we deliberately return to the room before it becomes the whole night."
+        "suggestion": "We can give the crying a clear container. One small wave, then we come back to the chair, the floor, and this hour, so it does not become the whole night."
       }
     ],
     "case-michael": [
@@ -3091,7 +3091,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and ashamed] I grabbed my son's arm too hard when he would not listen, and his face keeps replaying. I feel sick, but part of me wants him to stop being scared of me already.",
-        "suggestion": "That is a hard mix to stay with: guilt, alarm, and the wish for it to be over. Keep your hands resting open while I stay with you, so we can face what happened without attacking you or minimizing it."
+        "suggestion": "That is a painful mix: guilt, alarm, and the wish for repair to happen quickly. Rest your hands open on your legs so we can face what happened without either attacking you or minimizing his fear."
       },
       {
         "text": "[Tense] Humiliation burns when I replay it; I want to erase the whole scene.",
@@ -3103,7 +3103,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Trembling] My hands are shaking, and I can hear my father calling that weak.",
-        "suggestion": "Let the shaking be here without fighting it. Feel both feet and keep your eyes on this room while we hold the heat and the shame in a very narrow band."
+        "suggestion": "The shaking does not have to be fought. Plant both feet, look around this room, and give the heat and shame only a narrow band of attention."
       },
       {
         "text": "[Tense and angry] I hate this small feeling; it makes me want to tower over someone.",
@@ -3111,7 +3111,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Defensive] Part of me wants to walk out before this turns into me looking pathetic in front of you.",
-        "suggestion": "That exit pull is trying to protect your dignity. Stay with me for a few seconds, hands on your thighs, and let the shame be named without letting it chase you out."
+        "suggestion": "The exit pull is protecting your dignity. For a few seconds, keep your hands on your thighs and let the shame be named here without letting it send you out the door."
       },
       {
         "text": "[Tense and angry] My voice is getting loud before I even decide to raise it.",
@@ -3123,7 +3123,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Firm] I do not trust myself when the heat starts looking for someone to punish.",
-        "suggestion": "Thank you for saying that before acting. Keep your hands open and your feet planted; we will hold the heat as a signal of hurt, not a command to find a target."
+        "suggestion": "Thank you for saying that before acting. Hands open, feet planted; we treat the heat as a signal of hurt, not an instruction to find a target."
       }
     ],
     "case-jason": [
@@ -3137,7 +3137,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Panicked] I feel nauseous talking about this, like I might disappear from embarrassment.",
-        "suggestion": "Okay, eyes on me if you can. Slow the breath and feel your feet; name the nausea and embarrassment for a moment, then step back."
+        "suggestion": "Okay. If looking at me helps, use that; if not, pick a spot in the room. Feel your feet, name the nausea and embarrassment briefly, then step back."
       },
       {
         "text": "[Quietly] The room feels like it is shrinking around me, and I cannot find a normal sentence.",
@@ -3157,11 +3157,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hesitant] My ears are ringing and I feel trapped, like everyone is watching.",
-        "suggestion": "The trapped feeling is here, and we slow it down. Listen for two sounds besides the ringing, then keep your breath low while the watched feeling has only a little room."
+        "suggestion": "The trapped feeling is here. Listen for two sounds besides the ringing, then let the watched feeling take only a little space while your breath drops lower."
       },
       {
         "text": "[Panicked] When you remember what I said last week, I feel so relieved I could cry, and then I panic that I need this too much.",
-        "suggestion": "That relief matters. I am here with you while the warmth and panic arrive together; we can let the need be felt in a small enough way that it does not have to become danger."
+        "suggestion": "That relief matters. Warmth and panic can arrive together; we will keep the need small enough to feel without turning it into danger."
       },
       {
         "text": "[Fearful] I think I should leave before you notice how much I am panicking.",
@@ -3187,7 +3187,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Slow and flat] I want to go numb before the memory opens wider than I can close.",
-        "suggestion": "Then we respect the numbness as protection. Feel your heels and keep your eyes on the room; we touch no more than the doorway of the memory."
+        "suggestion": "Then numbness gets respected as protection. Heels on the floor, eyes in the room; today we stop at the doorway of the memory."
       },
       {
         "text": "[Tense and guarded] I think I have to put my old cat to sleep tomorrow, and the guilt is so big I can barely say it.",
@@ -3203,11 +3203,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and guarded] My daughter said she missed me, and the love in that hit so hard I wanted to pull away.",
-        "suggestion": "That love came in with real force. I can stay with you while being missed touches the places that want to pull away; we will take it slowly enough that the love does not flood you."
+        "suggestion": "That love came in with real force. We can let being missed touch you a little, then pause, so the pull toward her does not become a flood."
       },
       {
         "text": "[Slow and flat] I do not want to feel this at all; if it opens, I think I will disappear.",
-        "suggestion": "It does not have to open all at once. Keep one foot in this room with me; touch only the smallest edge and stop before it floods you."
+        "suggestion": "It does not have to open all at once. One foot stays in this room, and we touch only the smallest edge before closing it again."
       }
     ],
     "case-carlos": [
@@ -3221,7 +3221,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Furious] When I read the news, I get so enraged I want to tear the whole system down.",
-        "suggestion": "The rage is huge, and I will not back away from it. Keep it here in words with me, strong and clear, without letting the need for action turn into damage."
+        "suggestion": "The rage is huge, and I am not backing away from it. Put the force into words, strong and clear, while we keep action out of it."
       },
       {
         "text": "[Guilty] My son hid behind the couch when I yelled, and the guilt hits so hard I can barely stay in my skin.",
@@ -3229,7 +3229,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] I am about to walk out because I can feel my hands wanting to break something.",
-        "suggestion": "Good that you named the danger point. Keep both hands visible and open, feet down; let the urge be spoken in here before you decide what your body does next."
+        "suggestion": "Good that you named the danger point. Hands visible, feet down; say the urge directly in here before your body chooses a move."
       },
       {
         "text": "[Tense and angry] My chest is pounding like I am already in a fight.",
@@ -3237,7 +3237,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Furious] When that guy at work mocked me, I wanted to beat him until he understood not to laugh at me.",
-        "suggestion": "The violent image tells us the humiliation is burning hot. Keep both feet down and hands open; we can stay with the rage here without moving toward action."
+        "suggestion": "The violent image tells us the humiliation is burning hot. Keep both feet down and hands open; the rage belongs in words here, not in action."
       },
       {
         "text": "[Fearful] I want to scare people off me before they see I am scared.",
@@ -3245,11 +3245,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and angry] If I let that disrespect pass, I feel like I am nothing.",
-        "suggestion": "That is the sting. Keep your feet planted and let the word 'nothing' be here for a few seconds while the fight impulse stays in your hands, not in action."
+        "suggestion": "That is the sting: 'nothing.' Plant your feet and let that word be here for a few seconds while the fight impulse remains contained in your hands."
       },
       {
         "text": "[Tense and angry] I feel out of control, and I hate that you can see it.",
-        "suggestion": "I will stay steady with you while you hate being seen. Slow the pace, open your hands, and let control come back through choosing not to act."
+        "suggestion": "I will keep steady while you hate being seen. Open your hands and notice control returning through one choice: not acting on the heat."
       }
     ],
     "case-nina": [
@@ -3263,7 +3263,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Torn] I keep saying sorry for feeling this much, like I am taking too much.",
-        "suggestion": "You do not need to apologize. Stay with me, heels heavy, slow exhale, and give this feeling a little space."
+        "suggestion": "No apology is needed for having this much feeling. Let your heels be heavy, take one long exhale, and give the feeling a little space."
       },
       {
         "text": "[Tired] I snapped at my son for needing me, and then I cried in the bathroom because I felt like a terrible mother.",
@@ -3271,7 +3271,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Apologetic] I feel like I am failing everyone, and my body wants to collapse.",
-        "suggestion": "That is heavy. Keep your eyes on me if you can, let the chair take some weight, and hold the edge of collapse for a moment."
+        "suggestion": "That is heavy. Let the chair take some of your weight, and we will notice the edge of collapse without asking your body to carry it alone."
       },
       {
         "text": "[Torn] If I stop doing, I will fall apart and someone will need me anyway.",
@@ -3291,7 +3291,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tearful] When my son says he would rather stay at his father's, I feel so much grief I cannot catch my breath.",
-        "suggestion": "That grief hits right where you fear losing him. Let the chair take some weight, and breathe with me while we stay with one small piece of the loss."
+        "suggestion": "That grief hits right where losing him feels possible. Let the chair hold some weight while we take in one small piece of that loss."
       }
     ],
     "case-aisha": [
@@ -3301,7 +3301,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Panicked] The emptiness is burning so badly that I start thinking I have to hurt myself just to prove I am still here.",
-        "suggestion": "I am glad you told me before being alone with it. Safety comes first: keep your hands where they cannot harm you, press your feet down, and let me stay with the burning without letting it decide for you."
+        "suggestion": "I am glad you told me before being alone with it. Safety comes first: hands away from harm, feet pressing into the floor, and the burning gets named without getting to decide what happens next."
       },
       {
         "text": "[Desperate] I want to bolt from this room before you see how desperate I am.",
@@ -3309,7 +3309,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Desperate] When you say we have to stop on time, I want to cut myself so you can see how bad it gets.",
-        "suggestion": "Thank you for saying that before being alone with it. Safety comes first, and I will stay with the hurt of ending on time while we keep your hands visible and away from harm."
+        "suggestion": "Thank you for saying that here. We handle safety first: hands visible and away from harm, while the hurt about ending on time gets room in words."
       },
       {
         "text": "[Desperate] I feel like I am too much, and I hate that I need you to stay.",
@@ -3325,7 +3325,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Panicked] The urge to scratch myself is getting loud, and I need something real before I disappear.",
-        "suggestion": "Thank you for naming it. Press your feet down and keep your hands where they are safe; hold the urge at the edge with me for a few seconds."
+        "suggestion": "Thank you for naming it. Press both feet down and place your hands somewhere safe; the urge can be at the edge for a few seconds without becoming action."
       },
       {
         "text": "[Ashamed] The crying is taking over, and I feel disgusting for needing you to see it.",
@@ -3333,7 +3333,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Desperate] If you cancel, I will fall apart and then hate myself for needing you.",
-        "suggestion": "That lands like the floor dropping out. Keep my voice and your feet with you while we hold one breath of the terror of being left, here with me."
+        "suggestion": "That lands like the floor dropping out. Use my voice as an anchor and feel your feet while we name the terror of being left without leaving you alone in it."
       }
     ],
     "case-david": [
@@ -3351,7 +3351,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] I keep seeing my wife's face after she found out about the affair, and the guilt is so hot I want to crawl out of my skin.",
-        "suggestion": "That guilt is searing and hard to stay near. Keep your feet on the floor and let me stay with you while we hold only the edge of her face and your remorse."
+        "suggestion": "That guilt is searing. Feet on the floor; we take only the edge of her face and your remorse, enough to face it without crawling out of your skin."
       },
       {
         "text": "[Furious] I cannot stand the word 'cold'; it makes me feel exposed and furious.",
@@ -3375,7 +3375,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Angry, clenching fists] When I picture the man my wife was texting, I want to smash his face until he stops mattering.",
-        "suggestion": "That violent image needs to stay in words, not become violence. Keep your feet down and your hands open while we stay with the rage and the hurt underneath without moving toward action."
+        "suggestion": "That violent image needs words, not movement. Feet down, hands open; the rage can be taken seriously while the body stays out of action."
       }
     ],
     "case-marcus": [

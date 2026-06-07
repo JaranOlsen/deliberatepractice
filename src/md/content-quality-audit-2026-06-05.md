@@ -29,6 +29,7 @@ Branch update:
 - Exploratory Questions moderate/hard have been revised toward live but unclear inward edges, with fewer client-supplied body cues.
 - Empathic Understanding moderate/hard have been broadened with more ordinary practical distress, confused depression, substance/anxiety ambivalence, friend disappointment, and "guide me" uncertainty.
 - Therapist Self-Awareness easy/moderate have been broadened with ordinary therapist-activating material: hope, advice pull, rescue pull, cultural humility, dependency shame, alcohol/usefulness concerns, and grief that can pull the therapist toward comfort.
+- Staying in Contact with Intense Affect responses have received a response-variation pass, reducing repeated "stay with," "with me," "keep your," and "keep you" phrasing while preserving safety language for self-harm and violence items.
 
 The remaining gaps are more subtle:
 
@@ -71,9 +72,9 @@ The remaining gaps are more subtle:
 | Empathic Conjectures | Easy | Strong-Mixed | Medium | Strong | Medium | Good hints of hidden hurt/fear. Some markers state the underlying process too clearly, reducing conjecture work. |
 | Empathic Conjectures | Moderate | Strong | Medium-High | Strong | Low-Medium | Strong case-specific conjecture markers; could still add clearer obsessive love and blocked-love/betrayal variants. |
 | Empathic Conjectures | Hard | Strong-Mixed | Medium-High | Strong | Low-Medium | Good denial-after-suicidality, trapped relationship, macho anti-feeling, and hard defensiveness coverage. |
-| Staying in Contact with Intense Affect | Easy | Strong-Mixed | Medium | Mixed-Strong | Medium | Strong affect markers but often very high intensity for "easy"; benchmark's positive loving affect and ordinary death/loss are less prominent. |
-| Staying in Contact with Intense Affect | Moderate | Strong | Medium-High | Mixed-Strong | Medium | Good breadth now includes pet euthanasia, political rage, child guilt, grief, and collapse; response wording overuses "stay with" and "let the." |
-| Staying in Contact with Intense Affect | Hard | Strong | High | Mixed-Strong | Medium | Strong coverage: erotic pressure, self-harm, sexual-offense guilt, homicidal fantasy, collective trauma, therapy-not-working rupture. Response variety remains the main issue. |
+| Staying in Contact with Intense Affect | Easy | Strong-Mixed | Medium | Strong-Mixed | Low-Medium | Recent response pass reduced scripted grounding language. Easy tier still runs somewhat intense compared with Goldman beginner examples. |
+| Staying in Contact with Intense Affect | Moderate | Strong | Medium-High | Strong-Mixed | Low-Medium | Good breadth includes pet euthanasia, political rage, child guilt, grief, and collapse; responses now vary contact/containment language more naturally. |
+| Staying in Contact with Intense Affect | Hard | Strong | High | Strong-Mixed | Low-Medium | Strong coverage: erotic pressure, self-harm, sexual-offense guilt, homicidal fantasy, collective trauma, therapy-not-working rupture. Safety wording remains explicit where needed. |
 | Self-Disclosure | Easy | Strong | High | Strong | Low | Strong therapist-transparency markers, including first-session uncertainty, care, judgment, and personal questions. |
 | Self-Disclosure | Moderate | Strong | Medium-High | Strong | Low | Good boredom/interest, discomfort, trauma competence, therapist impact, and care questions. Pet-loss grief is absent but not essential. |
 | Self-Disclosure | Hard | Strong | High | Strong-Mixed | Low | Now covers repeated lateness, attractiveness, pity, therapist experience, care, and boundaries. Some responses overuse "I want to..." and return-to-client phrasing. |
@@ -92,30 +93,31 @@ Completed on the current content branch:
 - Exploratory Questions, moderate and hard.
 - Empathic Understanding, moderate and hard.
 - Therapist Self-Awareness, easy and moderate.
+- Staying in Contact with Intense Affect response variation.
 
 These should still be reviewed in normal regression passes, but they are no longer the highest-value repair targets.
 
 ## Current Highest-Value Improvement Targets
 
-1. Staying in Contact with Intense Affect response variation.
-   - Markers are strong; suggested responses are the limitation.
-   - Reduce repeated "stay with" / "let the" phrasing while preserving grounding, pacing, and contact.
-
-2. Empathic Evocations, moderate and hard.
+1. Empathic Evocations, moderate and hard.
    - Marker shape is now much better, but benchmark breadth is still partial.
    - Add cleaner obsessive love, worthlessness, betrayal, hopeless shutdown, confidentiality threat, and macho anti-feeling archetypes where they fit the cases.
 
-3. Empathic Conjectures, easy and moderate.
+2. Empathic Conjectures, easy and moderate.
    - Good hidden-process cues, but some markers still state the underlying process too directly.
    - Make a small number of cues more indirect so the trainee has room to offer the conjecture.
 
-4. Empathic Affirmation and Validation, easy.
+3. Empathic Affirmation and Validation, easy.
    - Quality is strong enough for production, but benchmark breadth is narrower than the moderate/hard tiers.
    - Add more ordinary beginner-level legitimacy markers without overloading them with shame schema.
 
-5. Therapist Self-Awareness hard response polish.
+4. Therapist Self-Awareness hard response polish.
    - Hard markers remain strong.
    - Continue reducing question-form and overly explanatory meta responses when encountered during normal passes.
+
+5. Staying in Contact with Intense Affect remaining polish.
+   - Keep as a regression target rather than the next main repair area.
+   - Future passes can add more positive loving affect and ordinary death/loss examples if the fixed cases can carry them naturally.
 
 ## Case-Set Constraints
 

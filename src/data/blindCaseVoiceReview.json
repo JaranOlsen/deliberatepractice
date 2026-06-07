@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T12:50:09.052Z",
+  "generatedAt": "2026-06-07T13:11:00.073Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -889,11 +889,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tearful] I cannot look at you when I cry; it feels too exposed.",
-            "response": "Keep your gaze wherever it feels easiest and feel your feet. I will stay with you while a little of this exposure is here."
+            "response": "You do not have to look at me. Rest your gaze somewhere tolerable and let the exposed feeling be here in a small enough dose to bear."
           },
           "no": {
             "statement": "[På gråten] Jeg klarer ikke se på deg når jeg gråter; det føles altfor blottlagt.",
-            "response": "Hold blikket der det kjennes lettest og kjenn føttene på gulvet. Jeg er med deg mens litt av denne blottstillelsen får være her."
+            "response": "Du trenger ikke se på meg. La blikket hvile et sted som er tålelig, og la den blottlagte følelsen få være her i en dose som går an å bære."
           }
         },
         {
@@ -961,11 +961,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Slow and flat] I want to go numb before the memory opens wider than I can close.",
-            "response": "Then we respect the numbness as protection. Feel your heels and keep your eyes on the room; we touch no more than the doorway of the memory."
+            "response": "Then numbness gets respected as protection. Heels on the floor, eyes in the room; today we stop at the doorway of the memory."
           },
           "no": {
             "statement": "[Langsomt og flatt] Jeg vil bli nummen før minnet åpner seg bredere enn jeg klarer å lukke.",
-            "response": "Da respekterer vi nummenheten som beskyttelse. Kjenn hælene og hold blikket i rommet; vi berører ikke mer enn døråpningen til minnet."
+            "response": "Da får nummenheten respekt som beskyttelse. Hælene i gulvet, blikket i rommet; i dag stopper vi ved døråpningen til minnet."
           }
         },
         {
