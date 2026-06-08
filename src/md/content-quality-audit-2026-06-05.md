@@ -38,6 +38,8 @@ Branch update:
 - Therapist Self-Awareness hard responses have been polished to model internal regulation more clearly, reduce "let's/we can/I want" procedural drift, and keep safety/boundary responses steady under suicidality, erotic pressure, distrust, and sexist/substance-minimizing material.
 - Empathic Explorations easy has been recalibrated so markers use simpler scene-plus-affect language, reduce pre-supplied body imagery, and keep responses closer to explicit emerging feeling rather than conjecture.
 - Exploratory Questions easy has been recalibrated so client markers leave more of the inward sensing work to the trainee and suggested responses stay to one clean experiential question.
+- Exploratory Questions moderate has been tightened around one-step inward questions, with fewer client-supplied body cues and less interpretive therapist language.
+- Exploratory Questions hard has been tightened so advanced rupture, shame, dissociation, and threat markers still invite one inward question without the therapist supplying conjecture or body-process language too early.
 
 The remaining gaps are more subtle:
 
@@ -66,8 +68,8 @@ The remaining gaps are more subtle:
 | Empathic Affirmation and Validation | Moderate | Strong | Medium-High | Strong | Low-Medium | Good validation markers across trauma, politics, child-army fear, shame, and caregiver guilt. Some benchmark romance/grief variants remain thin. |
 | Empathic Affirmation and Validation | Hard | Strong | High | Strong | Low | Good range: trauma shame, rage/fear, desperate longing, confused overwhelm, positive warmth. |
 | Exploratory Questions | Easy | Strong | Medium-High | Strong | Low-Medium | Recent pass reduced client-supplied body cues and tightened responses into one inward experiential question. AA/amends guilt remains absent because the fixed easy cases do not naturally carry recovery history. |
-| Exploratory Questions | Moderate | Strong-Mixed | Medium | Strong | Medium | Recent pass reduced handed-over body cues and added relational ambiguity, blocked love, resentment, and confused distress. Remaining gap is breadth under fixed cases. |
-| Exploratory Questions | Hard | Strong-Mixed | Medium | Strong | Medium | Recent pass made hard markers less pre-organized while preserving ambiguity and rupture risk. Some case-schema gravity remains unavoidable. |
+| Exploratory Questions | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass further reduced handed-over body cues and interpretive questions, while preserving relational ambiguity, shame, anger, blocked care, and caregiver-guilt markers. Remaining gap is breadth under fixed cases. |
+| Exploratory Questions | Hard | Strong | Medium-High | Strong | Low-Medium | Recent pass reduced conjectural and body-process drift while preserving ambiguity, rupture risk, shame, dissociation, threat scanning, and hard-case defenses. Some case-schema gravity remains unavoidable. |
 | Providing Treatment Rationale | Easy | Strong | High | Strong | Low | Excellent direct rationale markers tied to client skepticism, fear, goals, and safety. |
 | Providing Treatment Rationale | Moderate | Strong | High | Strong | Low | Good skepticism/fear/numbing/practicality coverage. Shame-about-crying and positive-thinking variants could be added only as polish. |
 | Providing Treatment Rationale | Hard | Strong | High | Strong | Low | Strong safety, self-harm, control, trauma, and anger-risk rationale markers. |
@@ -110,6 +112,8 @@ Completed on the current content branch:
 - Therapist Self-Awareness hard response polish.
 - Empathic Explorations, easy.
 - Exploratory Questions, easy.
+- Exploratory Questions, moderate.
+- Exploratory Questions, hard.
 
 These should still be reviewed in normal regression passes, but they are no longer the highest-value repair targets.
 

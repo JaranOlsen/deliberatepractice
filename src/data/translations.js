@@ -2628,7 +2628,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-laura_04": {
       "text": "[Flatt og på vakt] Selv mild berøring på skulderen får meg til å skvette før jeg rekker å tenke hvem det er.",
-      "suggestion": "Når du skvetter til, hvor merker du fare først?"
+      "suggestion": "Når du skvetter før du rekker å tenke, hvilken følelse er der?"
     },
     "dp_exploratory-questions_case-laura_05": {
       "text": "[Fjern] Om kvelden heller jeg opp vin før jeg har bestemt meg for om jeg egentlig vil ha det.",
@@ -2643,12 +2643,12 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Hva legger du merke til inni deg når gode nyheter lander flatt?"
     },
     "dp_exploratory-questions_case-laura_08": {
-      "text": "[Fjern] Noen ganger åpner en sang en sprekk, og tristhet kommer gjennom før jeg rekker å lukke den.",
-      "suggestion": "Når sangen åpner den sprekken, hvordan kjennes tristheten mens den kommer gjennom?"
+      "text": "[Fjern] Noen ganger kommer det en sang fra da jeg var gift, og tristheten dukker opp før jeg rekker å slå den av.",
+      "suggestion": "Når tristheten dukker opp så fort, hvilken følelse ber om oppmerksomhet?"
     },
     "dp_exploratory-questions_case-laura_09": {
       "text": "[Anspent og på vakt] Jeg sier unnskyld for at jeg trenger trøst, som om det er noe jeg kan få kjeft for.",
-      "suggestion": "Når trøst kjennes farlig å be om, hvilken gammel alarm starter inni deg?"
+      "suggestion": "Når det å be om trøst kjennes som noe du kan få kjeft for, hvilken følelse kommer opp?"
     },
     "dp_exploratory-questions_case-laura_10": {
       "text": "[Flatt og på vakt] Jeg hopper over alt med krangling og slåssing og sier til folk at jeg bare ikke liker slike filmer.",
@@ -2663,12 +2663,12 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Hvilken følelse er der mens disse svarene fortsetter å komme?"
     },
     "dp_exploratory-questions_case-carlos_03": {
-      "text": "[Redd] Hvis jeg trekker meg, føles det som om jeg krymper til ingen kan se meg.",
-      "suggestion": "Når det å trekke seg begynner å kjennes som å krympe, hvilken del av deg føles mest truet?"
+      "text": "[Redd] Hvis jeg trekker meg, føles det som om folk slutter å respektere meg.",
+      "suggestion": "Når det å trekke seg kjennes som å miste respekt, hvilken følelse er vanskeligst å møte?"
     },
     "dp_exploratory-questions_case-carlos_04": {
-      "text": "[Skamfull] Jeg ser stadig for meg at gutten min rykket til da jeg hevet stemmen, og brystet blir varmt.",
-      "suggestion": "Når du ser det rykket for deg nå, hvilken følelse er sterkest under varmen?"
+      "text": "[Skamfull] Jeg ser stadig for meg at gutten min rykket til da jeg hevet stemmen, og jeg vil ikke se rett på det.",
+      "suggestion": "Når du lar deg selv se rykket hans, hvilken følelse kommer opp?"
     },
     "dp_exploratory-questions_case-carlos_05": {
       "text": "[Mistenksom] Når huset blir stille etter en krangel, blir jeg mer anspent enn da vi ropte.",
@@ -2687,12 +2687,12 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Hva legger du først merke til når sinne og flauhet kommer samtidig?"
     },
     "dp_exploratory-questions_case-carlos_09": {
-      "text": "[Anspent og sint] Etter en krangel holder jeg så hardt i rattet at jeg ikke klarer å slippe.",
-      "suggestion": "Hva legger du merke til i hendene når du holder så hardt i rattet?"
+      "text": "[Anspent og sint] Etter en krangel sier jeg til meg selv at jeg er ferdig med det, men jeg er fortsatt helt påskrudd i timevis.",
+      "suggestion": "Når du er så påskrudd i timevis, hvilken følelse er fortsatt der?"
     },
     "dp_exploratory-questions_case-carlos_10": {
       "text": "[Sårbar] Det jeg vil mest, er at familien min skal føle seg trygg med meg.",
-      "suggestion": "Når du holder ønsket om trygghet, hvilken følelse stiger i brystet?"
+      "suggestion": "Når du sier ønsket om trygghet høyt, hvilken følelse kommer opp?"
     },
     "dp_exploratory-questions_case-nina_01": {
       "text": "[Sliten] Når jeg ber om hjelp, skyller skyld inn og jeg vil ta det tilbake.",
@@ -2708,7 +2708,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-nina_04": {
       "text": "[Skyldpreget] Når jeg hviler, kaller en stemme meg lat før jeg har rukket å trekke pusten.",
-      "suggestion": "Når det ordet lander, hvor viser skammen seg i deg?"
+      "suggestion": "Når det ordet lander, hvilken følelse kommer opp i deg?"
     },
     "dp_exploratory-questions_case-nina_05": {
       "text": "[Unnskyldende] Jeg sier unnskyld før jeg ber om hjelp, som om behovet mitt allerede er for mye.",
@@ -2719,8 +2719,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Hva legger du merke til når du sier høyt at du ikke hadde lyst?"
     },
     "dp_exploratory-questions_case-nina_07": {
-      "text": "[Sliten] Jeg sammenligner meg med andre mødre og krymper inni meg, som om jeg stryker på en skjult prøve.",
-      "suggestion": "Når den skjulte prøven får deg til å krympe, hva trenger den lille delen mest?"
+      "text": "[Sliten] Jeg sammenligner meg med andre mødre og bestemmer meg for at jeg har strøket på en prøve alle andre forstår.",
+      "suggestion": "Når du bestemmer deg for at du har strøket på den prøven, hvilken følelse kommer opp i deg?"
     },
     "dp_exploratory-questions_case-nina_08": {
       "text": "[Skyldpreget] Jeg drømmer om å bli tatt vare på og føler meg så egoistisk fordi jeg vil det.",
@@ -2728,11 +2728,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-nina_09": {
       "text": "[Splittet] Jeg sier at det er enklere om jeg gjør det selv, og så bruker jeg kvelden på å være sint for at ingen hjalp.",
-      "suggestion": "Hva ber sinnet deg om å legge merke til?"
+      "suggestion": "Når sinnet kommer etter at du har gjort det selv, hvilken følelse ligger under?"
     },
     "dp_exploratory-questions_case-nina_10": {
       "text": "[Sliten] Jeg krasjer på sofaen om kvelden etter å ha holdt alle sammen hele dagen.",
-      "suggestion": "Når du ser for deg krasjet, hvilken følelse slipper endelig gjennom?"
+      "suggestion": "Når du slutter å holde alle sammen, hva legger du merke til inni deg?"
     },
     "dp_exploratory-questions_case-aisha_01": {
       "text": "[Panisk] Hvis et svar ikke kommer etter at jeg har åpnet meg, begynner jeg å tenke at jeg var dum som stolte på dem.",
@@ -2744,7 +2744,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-aisha_03": {
       "text": "[Desperat] Jeg vet ikke hva jeg føler i dag; alt er for mye og samtidig litt blankt.",
-      "suggestion": "Hvor kan du kjenne det som er for mye, eller det blanke, akkurat nå?"
+      "suggestion": "Når det både er for mye og blankt, hvilken følelse er lettest å merke først?"
     },
     "dp_exploratory-questions_case-aisha_04": {
       "text": "[Desperat] Når du ser ned for å skrive notater, begynner jeg å lure på hva du egentlig tenker om meg.",
@@ -2768,7 +2768,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-aisha_09": {
       "text": "[Skamfull] Etter at jeg eksploderer, hater jeg meg selv så mye at jeg nesten ikke holder ut å være i min egen kropp.",
-      "suggestion": "Når selvhatet treffer, hvilken smerte prøver det å begrave?"
+      "suggestion": "Når selvhatet treffer, hvilken følelse er vanskeligst å være nær?"
     },
     "dp_exploratory-questions_case-aisha_10": {
       "text": "[Panisk] På slutten sier jeg ha det som om alt er greit, og så går jeg herfra sint for at jeg trenger deg.",
@@ -2780,7 +2780,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-david_02": {
       "text": "[Kontrollert] Hvis jeg ikke vinner, føler jeg meg hul, som om det ikke er noe fast under meg.",
-      "suggestion": "Når du legger merke til det hule stedet, hva virker det mest som det trenger fra deg?"
+      "suggestion": "Når seieren ikke er der, hvilken følelse følger med den tomheten?"
     },
     "dp_exploratory-questions_case-david_03": {
       "text": "[Defensiv] Jeg begynner å ramse opp prestasjoner når jeg føler meg dømt av kona mi.",
@@ -2792,7 +2792,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-david_05": {
       "text": "[Avvisende] Å innrømme at jeg tar feil, får ansiktet til å brenne som om alle kan se gjennom meg.",
-      "suggestion": "Når brenningen stiger i ansiktet, hva er du redd folk skal se?"
+      "suggestion": "Når det å innrømme feil kjennes blottstillende, hvilken følelse kommer opp?"
     },
     "dp_exploratory-questions_case-david_06": {
       "text": "[Unnvikende] Når samtalen blir følelsesladet, sjekker jeg telefonen så jeg slipper å se blottstilt ut.",
@@ -2808,7 +2808,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-david_09": {
       "text": "[Flau] Jeg vil at noen skal legge merke til det jeg gjør uten at jeg må tigge om anerkjennelse.",
-      "suggestion": "Når anerkjennelsen ikke kommer, hva treffer det i deg?"
+      "suggestion": "Når anerkjennelsen ikke kommer, hvilken følelse kommer opp?"
     },
     "dp_exploratory-questions_case-david_10": {
       "text": "[Såret, men skarp] Jeg hater å være helt vanlig på jobb foran alle, som om det betyr at jeg har forsvunnet.",
@@ -2823,8 +2823,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Hva legger du merke til mens du avgjør hva du skal la ligge?"
     },
     "dp_exploratory-questions_case-marcus_03": {
-      "text": "[Stille og på vakt] I matbutikken holder jeg meg nær utgangene fordi gangene mellom hyllene kjennes innestengte.",
-      "suggestion": "Når du ser for deg gangene mellom hyllene, hvor samler spenningen seg først?"
+      "text": "[Stille og på vakt] I matbutikken holder jeg meg nær utgangene fordi gangene mellom hyllene kjennes for trange.",
+      "suggestion": "Når gangene kjennes for trange, hvilken følelse kommer opp?"
     },
     "dp_exploratory-questions_case-marcus_04": {
       "text": "[Lav stemme] Etter mørkets frembrudd vet jeg ikke om stillheten er fredelig eller om den lukker seg rundt meg.",
@@ -2836,7 +2836,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-marcus_06": {
       "text": "[Stille og på vakt] Jeg holder lyset dempet og ignorerer telefonen så verden holder seg langt unna.",
-      "suggestion": "I det lave lyset med telefonen ubesvart, hva beskytter avstanden i deg?"
+      "suggestion": "Når verden holder seg langt unna, hvilken følelse blir lettere å håndtere?"
     },
     "dp_exploratory-questions_case-marcus_07": {
       "text": "[Flatt] Når noe godt skjer, venter jeg på delen der det blir tatt tilbake.",
@@ -2844,7 +2844,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-marcus_08": {
       "text": "[Hyperårvåken] Plutselige lyder i trappeoppgangen får meg til å skvette, og så speider jeg etter fare.",
-      "suggestion": "Rett etter at du skvetter, hvilken fare merker du at du leter etter først?"
+      "suggestion": "Rett etter at du skvetter, hvilken følelse tar over?"
     },
     "dp_exploratory-questions_case-marcus_09": {
       "text": "[Stille og på vakt] Jeg husker ikke sist jeg lo ordentlig uten å stoppe meg selv.",
