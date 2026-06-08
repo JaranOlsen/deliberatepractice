@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T08:08:45.177Z",
+  "generatedAt": "2026-06-08T08:42:07.312Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -45,11 +45,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Desperate] You did not reply fast, and I felt abandoned and stupid for caring that much.",
-            "response": "[Internal] Anchor feet/seat; lengthen exhale; steady gaze; notice urge to promise. [Meta] I am here with you now; let's breathe together and feel a little of how scary and exposing that was."
+            "response": "[Internal] Anchor feet/seat; lengthen exhale; steady gaze; notice the urge to promise. [Meta] I am here with you now. The delay felt like abandonment and exposed how much this relationship matters."
           },
           "no": {
             "statement": "[Desperat] Du svarte ikke med en gang, og jeg følte meg forlatt og dum for at det betydde så mye.",
-            "response": "[Internt] Forankre føtter/sete; forleng utpusten; stødig blikk; merk trangen til å love. [Meta] Jeg er her med deg nå; vi puster sammen og kjenner litt på hvor skummelt og blottstilt det var."
+            "response": "[Internt] Forankre føtter/sete; forleng utpusten; stødig blikk; merk trangen til å love. [Meta] Jeg er her med deg nå. Forsinkelsen kjentes som å bli forlatt og viste hvor mye denne relasjonen betyr."
           }
         }
       ]

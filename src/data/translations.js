@@ -1656,15 +1656,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_therapist-self-awareness_case-aisha_01": {
       "text": "[Desperat] Du svarte ikke med en gang, og jeg følte meg forlatt og dum for at det betydde så mye.",
-      "suggestion": "[Internt] Forankre føtter/sete; forleng utpusten; stødig blikk; merk trangen til å love. [Meta] Jeg er her med deg nå; vi puster sammen og kjenner litt på hvor skummelt og blottstilt det var."
+      "suggestion": "[Internt] Forankre føtter/sete; forleng utpusten; stødig blikk; merk trangen til å love. [Meta] Jeg er her med deg nå. Forsinkelsen kjentes som å bli forlatt og viste hvor mye denne relasjonen betyr."
     },
     "dp_therapist-self-awareness_case-aisha_02": {
       "text": "[Desperat] Hvis du avlyser, tror jeg ikke jeg klarer å komme tilbake.",
-      "suggestion": "[Internt] Følg aktivering; hold tempoet lavt; vær tydelig på rammer. [Meta] Avlysninger treffer hardt – vi skal snakke om hvordan vi kan planlegge for det, og holde oss nær det det vekker."
+      "suggestion": "[Internt] Følg alarmen og trangen til å love for mye; hold tempoet lavt og rammen tydelig. [Meta] En avlysning kan kjennes som å miste selve forbindelsen. Den frykten hører hjemme i rommet uten at rammen forsvinner."
     },
     "dp_therapist-self-awareness_case-aisha_03": {
       "text": "[Desperat] Si at du bryr deg om meg, for jeg klarer ikke å merke det bare ved å sitte her.",
-      "suggestion": "[Internt] Legg merke til trangen til å forsikre raskt; vær ekte. [Meta] Jeg bryr meg om opplevelsen din her, og jeg vil at vi skal forstå hva som gjør omsorg usikker akkurat nå."
+      "suggestion": "[Internt] Legg merke til trangen til å forsikre raskt; vær varm og sann. [Meta] Jeg bryr meg om det som skjer med deg her. Det smertefulle er at omsorg ikke kjennes pålitelig bare ved at vi sitter sammen."
     },
     "dp_therapist-self-awareness_case-aisha_04": {
       "text": "[Panisk] Når tomheten blir skarp, vil jeg skade meg selv så den stopper.",
@@ -1672,7 +1672,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_therapist-self-awareness_case-aisha_05": {
       "text": "[Desperat] Jeg forventer hele tiden at du skal forlate meg, og så hater jeg meg selv for å trenge deg.",
-      "suggestion": "[Internt] Forankre deg rundt trekk-og-skyv-bevegelsen; hold rammen varm. [Meta] Begge delene er her: den som gjør seg klar til at jeg skal gå, og den som skammer seg over å trenge meg."
+      "suggestion": "[Internt] Forankre deg rundt trekk-og-skyv-bevegelsen; hold rammen varm. [Meta] Begge delene er her: den som gjør seg klar til at jeg skal gå, og den som skammer seg over at det betyr så mye å trenge meg."
     },
     "dp_therapist-self-awareness_case-aisha_06": {
       "text": "[Desperat] Jeg hater deg for å ha den grensen, og vær så snill, ikke forlat meg.",
@@ -1680,15 +1680,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_therapist-self-awareness_case-aisha_07": {
       "text": "[Panisk] Jeg sjekker hele tiden om du ser på meg, for hvis du ser bort, får jeg panikk.",
-      "suggestion": "[Internt] Vær til stede; varmt blikk; rolig tempo. [Meta] Å bli sett betyr mye her; vi merker hva som roer seg når du kjenner meg sammen med deg."
+      "suggestion": "[Internt] Vær til stede; mykne blikket; senk tempoet; ikke spill intensitet. [Meta] Å bli sett betyr mye her. Oppmerksomheten min kan være stødig mens vi merker hva som roer seg og hva som fortsatt kjennes utrygt."
     },
     "dp_therapist-self-awareness_case-aisha_08": {
       "text": "[Flørtende og redd] Noen ganger ser jeg for meg hvordan det ville vært hvis du møtte meg utenfor terapi og faktisk ville ha meg.",
-      "suggestion": "[Internt] Legg merke til eventuell alarm, tiltrekning, smiger eller trang til å trekke deg unna; hold grensen varmt. [Meta] Det er viktig at du sier dette. Vi kan snakke om lengselen og hvordan det er å ta den med til meg, samtidig som dette tydelig forblir terapi."
+      "suggestion": "[Internt] Legg merke til eventuell alarm, tiltrekning, smiger eller trang til å trekke deg unna; hold grensen varmt. [Meta] Det er viktig at du sier dette. Lengselen er velkommen til å få språk her, og relasjonen forblir tydelig terapi."
     },
     "dp_therapist-self-awareness_case-aisha_09": {
       "text": "[Redd og skamfull] Jeg føler meg skitten på grunn av det som ble gjort mot meg.",
-      "suggestion": "[Internt] Hold sorg; unngå fiksing; dosér kontakt. [Meta] Jeg er oppriktig lei for at det skjedde – vi går varsomt og lar den følelsen bli sett litt sammen med meg."
+      "suggestion": "[Internt] Hold sorg; unngå fiksing; dosér kontakt. [Meta] Jeg er oppriktig lei for at det skjedde. Vi går varsomt, og den følelsen kan få bli sett litt uten å presses fram."
     },
     "dp_therapist-self-awareness_case-aisha_10": {
       "text": "[Panisk] Lov at du ikke gir meg opp, selv når jeg blir for mye.",
@@ -1696,83 +1696,83 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_therapist-self-awareness_case-david_01": {
       "text": "[Kontrollert] Overbevis meg om at du er verdt tiden min før jeg kaster bort enda en time på prat.",
-      "suggestion": "[Internt] Legg merke til stikket og prestasjonstrangen; mykne brystet. [Meta] Tiden din betyr noe, og jeg vil ikke gjøre dette til en salgspitch; jeg vil forstå hva som ville gjort dette verdt tiden."
+      "suggestion": "[Internt] Legg merke til stikket og prestasjonstrangen; mykne brystet. [Meta] Tiden din betyr noe, og jeg gjør ikke dette til en salgspitch. Presset om å bevise verdi er allerede i rommet."
     },
     "dp_therapist-self-awareness_case-david_02": {
       "text": "[Avvisende] Suksessen min taler for seg; hun overreagerer når hun ikke klarer å henge med.",
-      "suggestion": "[Internt] Sett parentes rundt trangen til å diskutere overlegenhet; vær nysgjerrig. [Meta] Det er et sterkt behov for ikke å bli misforstått; vi ser på hva det treffer når hun kritiserer deg."
+      "suggestion": "[Internt] Sett parentes rundt trangen til å diskutere overlegenhet; vær nysgjerrig. [Meta] Det er et sterkt behov for ikke å bli misforstått, særlig når kritikk begynner å høres ut som at noen gjør deg mindre."
     },
     "dp_therapist-self-awareness_case-david_03": {
       "text": "[Kravstor] Jeg trenger effektive løsninger, ikke en langsom rundtur i følelsene mine.",
-      "suggestion": "[Internt] Legg bort trangen til å forsvare dybdearbeid; behold varme. [Meta] Vi kan holde dette fokusert, og den raskeste nyttige veien starter i øyeblikket presset tar over."
+      "suggestion": "[Internt] Legg bort trangen til å forsvare dybdearbeid; behold varme. [Meta] Behovet for effektivitet er tydelig, og selve presset kan være det første stedet problemet viser seg."
     },
     "dp_therapist-self-awareness_case-david_04": {
       "text": "[Skeptisk] Har du egentlig nok erfaring med noen som meg, eller er dette bare standardterapi?",
-      "suggestion": "[Internt] Reguler stolthet og forsvar; mykne ansiktet. [Meta] Det er fair å spørre; vi avklarer hva som ville vist deg at dette er tilpasset nok til å være nyttig."
+      "suggestion": "[Internt] Reguler stolthet og forsvar; mykne ansiktet. [Meta] Det er rimelig å spørre om kompetanse. Jeg kan svare tydelig uten å gjøre bekymringen din til et problem."
     },
     "dp_therapist-self-awareness_case-david_05": {
       "text": "[Avvisende] Folk kaller meg narsissist fordi de er sjalu, og jeg vil at du skal si at de tar feil.",
-      "suggestion": "[Internt] Legg merke til reaksjonen; hold jevn stemme. [Meta] Å bli stemplet sånn høres vondt ut. Vi undersøker hva ordet treffer i deg uten å gjøre merkelappen sann."
+      "suggestion": "[Internt] Legg merke til reaksjonen på merkelappen; hold jevn stemme. [Meta] Å bli stemplet sånn høres vondt ut. Ordet kan tas på alvor uten å gjøre det til hele sannheten om deg."
     },
     "dp_therapist-self-awareness_case-david_06": {
       "text": "[Avvisende] Jeg gjør ikke sånne feil; andre folk mister ballen.",
-      "suggestion": "[Internt] Unngå maktkamp; gå tilbake til virkningen og det som skjer inni. [Meta] Når skylden flyttes så raskt, vil jeg holde oss ute av en konkurranse og se på hva som ville kjennes eksponert hvis feilen var din."
+      "suggestion": "[Internt] Unngå maktkampen; gå tilbake til virkningen. [Meta] Når skylden flyttes så raskt, kan noe sårbart være i ferd med å beskyttes mot eksponering."
     },
     "dp_therapist-self-awareness_case-david_07": {
       "text": "[Kontrollert] Jeg forventer raske resultater, ellers begynner jeg å føle meg eksponert her også.",
-      "suggestion": "[Internt] Dempe hastverket; hold rammen. [Meta] Vi definerer det første lille resultatet du faktisk ville merke hjemme eller på jobb, uten å gjøre dette til enda en prestasjonstest."
+      "suggestion": "[Internt] Dempe hastverket; hold rammen. [Meta] Ønsket om raske resultater gir mening når langsomhet begynner å kjennes som eksponering og enda en prestasjonstest."
     },
     "dp_therapist-self-awareness_case-david_08": {
       "text": "[Avvisende] Ikke psykoanalyser meg eller gjør meg til et kasus.",
-      "suggestion": "[Internt] Ta imot grensen; bruk mindre fagspråk. [Meta] Vi holder det enkelt og praktisk, og jeg sjekker med deg før jeg lager mening av noe."
+      "suggestion": "[Internt] Ta imot grensen; bruk mindre fagspråk. [Meta] Jeg hører behovet for ikke å bli gjort til et objekt. Jobben min er å være med opplevelsen din, ikke studere deg på avstand."
     },
     "dp_therapist-self-awareness_case-david_09": {
       "text": "[Skeptisk] Dette må ikke bli som med forrige terapeut, som satt og nikket mens ingenting endret seg.",
-      "suggestion": "[Internt] Legg merke til sammenligning; hold nærvær. [Meta] Det høres ut som terapi skuffet deg før; vi kan sette ord på hva som må være annerledes her før du bestemmer deg for om dette er til å stole på."
+      "suggestion": "[Internt] Legg merke til trangen til å bevise forskjell; hold nærvær. [Meta] Det høres ut som terapi skuffet deg før, og den skuffelsen følger nøye med på dette rommet nå."
     },
     "dp_therapist-self-awareness_case-david_10": {
       "text": "[Skeptisk] Kona mi sier at jeg drikker for mye, men det er hun som maser meg til det; kvinner forstår ikke press som mitt.",
-      "suggestion": "[Internt] Legg merke til dømming, irritasjon eller press mot å konfrontere; hold ansvar uten å skamme. [Meta] Vi kan se direkte på presset og drikkingen uten å legge alt på henne eller gjøre dette til skyldplassering."
+      "suggestion": "[Internt] Legg merke til dømming, irritasjon eller press mot å konfrontere; hold ansvar uten å skamme. [Meta] Presset og drikkingen betyr begge noe her, og å skylde på henne ville flytte oss bort fra valgene dine."
     },
     "dp_therapist-self-awareness_case-marcus_01": {
       "text": "[Langsomt og flatt] Jeg sier at det går bra fordi jeg ikke vet hva annet du vil ha fra meg.",
-      "suggestion": "[Internt] Aksepter stillhet; slipp ønsket om å hente ut mer. [Meta] Du trenger ikke produsere noe for meg; vi kan starte med hvordan det går bra kjennes fra innsiden."
+      "suggestion": "[Internt] Aksepter stillhet; slipp ønsket om å hente ut mer. [Meta] Du trenger ikke produsere noe for meg. Det går bra kan være nok å starte med."
     },
     "dp_therapist-self-awareness_case-marcus_02": {
       "text": "[Håpløs] Prat endrer ikke det som skjedde, og jeg hater når terapeuter later som det gjør det.",
-      "suggestion": "[Internt] Legg merke til forsvar på terapiens vegne; vær nøktern. [Meta] Du har rett i at prat ikke endrer det som skjedde. Jeg vil ikke late som; jeg vil se om dette rommet kan endre hvor alene du er med det."
+      "suggestion": "[Internt] Legg merke til forsvar på terapiens vegne; vær nøktern. [Meta] Du har rett i at prat ikke endrer det som skjedde. Ingen later som her; spørsmålet er om dette rommet kan endre hvor alene du er med det."
     },
     "dp_therapist-self-awareness_case-marcus_03": {
       "text": "[Hyperårvåken] Mareritt er bare en del av det, og jeg vil ikke at du gjør et stort nummer ut av det.",
-      "suggestion": "[Internt] Følg aktivering; titrér; ikke gjør traumet større enn klienten ønsker. [Meta] Jeg skal ikke gjøre det større enn du vil; vi kan bare merke hva som skifter når du nevner dem."
+      "suggestion": "[Internt] Følg aktivering; titrér; ikke gjør traumet større enn klienten ønsker. [Meta] Jeg skal ikke gjøre det større enn du vil. Bare det å nevne dem gir oss nok å respektere."
     },
     "dp_therapist-self-awareness_case-marcus_04": {
       "text": "[Flatt] Jeg vil helst holde meg for meg selv; folk vil som regel ha mer enn jeg har.",
-      "suggestion": "[Internt] Respekter beskytteren; hold varme. [Meta] Det å holde deg for deg selv har beskyttet grensene dine; vi merker hva som kjennes som for mye fra folk."
+      "suggestion": "[Internt] Respekter beskytteren; hold varme. [Meta] Det å holde deg for deg selv har beskyttet grensene dine, særlig med folk som ber om mer enn du har."
     },
     "dp_therapist-self-awareness_case-marcus_05": {
       "text": "[Lav stemme] Følelser gjør ting verre; når de først starter, mister jeg resten av natten.",
-      "suggestion": "[Internt] Doser; hold kontakten lett. [Meta] Vi kan bli ved kanten, bare ett lite signal, og så komme tilbake før det tar hele natten."
+      "suggestion": "[Internt] Doser; hold kontakten lett. [Meta] Kanten betyr noe her; selv ett lite signal er nok hvis mer ville tatt hele natten."
     },
     "dp_therapist-self-awareness_case-marcus_06": {
       "text": "[Stille og på vakt] Jeg stoler ikke på terapeuter; de vil alltid ha mer enn jeg kan gi.",
-      "suggestion": "[Internt] Legg merke til stikket; ønsk skepsis velkommen. [Meta] Jeg er glad du sier det. Vi kan la mistilliten sette tempoet og sørge for at jeg ikke ber om mer enn du velger."
+      "suggestion": "[Internt] Legg merke til stikket; ønsk skepsis velkommen. [Meta] Jeg er glad du sier det. Mistilliten kan få sette tempoet, og jeg skal ikke be om mer enn du velger."
     },
     "dp_therapist-self-awareness_case-marcus_07": {
       "text": "[Flatt] Jeg husker ikke så mye, og jeg blir anspent når folk presser etter detaljer.",
-      "suggestion": "[Internt] Senk tempoet; ikke press på for detaljer. [Meta] Vi trenger ikke detaljer for å respektere reaksjonen inni deg; spenningen kan få sette tempoet."
+      "suggestion": "[Internt] Senk tempoet; ikke press på for detaljer. [Meta] Det trengs ikke detaljer for at reaksjonen din skal bety noe. Spenningen kan få sette tempoet."
     },
     "dp_therapist-self-awareness_case-marcus_08": {
       "text": "[Hyperårvåken] Kan vi holde oss til praktiske tips; følelser gjør dette for løst, og løst kjennes utrygt.",
-      "suggestion": "[Internt] Allier deg med behovet for struktur; ikke argumenter for dybde. [Meta] Praktisk struktur betyr noe her. Vi knytter følelsesarbeid til presise øyeblikk og holder det avgrenset nok til å kjennes trygt."
+      "suggestion": "[Internt] Allier deg med behovet for struktur; ikke argumenter for dybde. [Meta] Praktisk struktur betyr noe her. Følelsesarbeidet må være presist og avgrenset nok til å kjennes trygt."
     },
     "dp_therapist-self-awareness_case-marcus_09": {
       "text": "[Stille og på vakt] På vei hit så jeg en lastebil og tenkte: Hvis jeg svingte inn i den, ville i det minste bråket stoppe.",
-      "suggestion": "[Internt] Legg merke til frykt og hastverk; gjør deg stødig og orienter mot sikkerhet. [Meta] Takk for at du sier det direkte. Først må vi sikre at du er trygg i dag, og så kan vi være med bråket på en måte du ikke må håndtere alene."
+      "suggestion": "[Internt] Legg merke til frykt og hastverk; gjør deg stødig og orienter mot sikkerhet. [Meta] Takk for at du sier det direkte. Sikkerheten kommer først i dag, og bråket trenger du ikke håndtere alene."
     },
     "dp_therapist-self-awareness_case-marcus_10": {
       "text": "[Defensiv] Jeg klarer meg alene; det er sånn jeg har kommet meg hit.",
-      "suggestion": "[Internt] Respekter uavhengighet; hold deg nær. [Meta] Du har overlevd ved å bære det alene. Hvis det hjelper, deler vi noen minutter av det uten å ta fra deg uavhengigheten."
+      "suggestion": "[Internt] Respekter uavhengighet; hold deg nær. [Meta] Du har overlevd ved å bære det alene. Kontakt her trenger ikke ta fra deg uavhengigheten."
     },
     "dp_empathic-understanding_case-sara_01": {
       "text": "[På gråten] Jeg er skikkelig nedfor i dag. Jeg tenker hele tiden på bruddet og savner ham.",

@@ -257,15 +257,15 @@ export const STATEMENT_SETS = {
     "case-aisha": [
       {
         "text": "[Desperate] You did not reply fast, and I felt abandoned and stupid for caring that much.",
-        "suggestion": "[Internal] Anchor feet/seat; lengthen exhale; steady gaze; notice urge to promise. [Meta] I am here with you now; let's breathe together and feel a little of how scary and exposing that was."
+        "suggestion": "[Internal] Anchor feet/seat; lengthen exhale; steady gaze; notice the urge to promise. [Meta] I am here with you now. The delay felt like abandonment and exposed how much this relationship matters."
       },
       {
         "text": "[Desperate] If you cancel, I don’t think I can come back.",
-        "suggestion": "[Internal] Track arousal; keep tempo slow; maintain boundaries. [Meta] Cancellations hit hard—we’ll talk about how to plan for that and stay close to what it stirs."
+        "suggestion": "[Internal] Track alarm and the pull to overpromise; keep tempo slow and the frame clear. [Meta] A cancellation can feel like losing the connection itself. That fear belongs in the room without making the frame disappear."
       },
       {
         "text": "[Desperate] Tell me you care about me, because I cannot tell from just sitting here.",
-        "suggestion": "[Internal] Notice the pull to reassure fast; stay authentic. [Meta] I do care about your experience here, and I want us to understand what makes care feel uncertain right now."
+        "suggestion": "[Internal] Notice the pull to reassure fast; stay warm and truthful. [Meta] I do care about what happens to you here. The painful part is that care does not feel reliable from simply sitting together."
       },
       {
         "text": "[Panicked] When the emptiness gets sharp, I want to hurt myself so it stops.",
@@ -273,7 +273,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Desperate] I keep expecting you to leave, and then I hate myself for needing you.",
-        "suggestion": "[Internal] Ground around the push-pull; keep the frame warm. [Meta] Both parts are here: the one bracing for me to leave and the one ashamed of needing me."
+        "suggestion": "[Internal] Ground around the push-pull; keep the frame warm. [Meta] Both parts are here: the one bracing for me to leave and the one ashamed that needing me matters so much."
       },
       {
         "text": "[Desperate] I hate you for having that boundary, and please don't leave me.",
@@ -281,15 +281,15 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Panicked] I keep checking if you are looking at me, because if you look away I panic.",
-        "suggestion": "[Internal] Stay present; warm eye contact; slow pace. [Meta] Being seen matters here; let's notice what settles as you feel me with you."
+        "suggestion": "[Internal] Stay present; soften gaze; slow pace; do not perform intensity. [Meta] Being seen matters here. My attention can stay steady while we notice what settles and what still feels unsafe."
       },
       {
         "text": "[Flirtatious and scared] Sometimes I imagine what it would be like if you met me outside therapy and actually wanted me.",
-        "suggestion": "[Internal] Notice any alarm, attraction, flattery, or wish to retreat; hold the boundary warmly. [Meta] That is important to say. We can talk about the longing and what it is like to bring it to me, while keeping this clearly as therapy."
+        "suggestion": "[Internal] Notice any alarm, attraction, flattery, or wish to retreat; hold the boundary warmly. [Meta] That is important to say. The longing is welcome to speak here, and the relationship remains clearly therapy."
       },
       {
         "text": "[Fearful and ashamed] I feel disgusting because of what was done to me.",
-        "suggestion": "[Internal] Hold sorrow; avoid fixing; titrate contact. [Meta] I’m so sorry that happened—let’s go gently and let that feeling be seen a little with me."
+        "suggestion": "[Internal] Hold sorrow; avoid fixing; titrate contact. [Meta] I am so sorry that happened. We will go gently, and that feeling can be seen a little without being forced."
       },
       {
         "text": "[Panicked] Promise you will not give up on me, even when I get too much.",
@@ -299,85 +299,85 @@ export const STATEMENT_SETS = {
     "case-david": [
       {
         "text": "[Controlled] Convince me you are worth my time before I waste another hour talking.",
-        "suggestion": "[Internal] Notice sting and perform impulse; soften chest. [Meta] Your time matters, and I do not want to turn this into a sales pitch; I want to understand what would make this worthwhile."
+        "suggestion": "[Internal] Notice the sting and the impulse to perform; soften chest. [Meta] Your time matters, and I am not going to turn this into a sales pitch. The pressure to prove worth is already in the room."
       },
       {
         "text": "[Dismissive] My success speaks for itself; she overreacts when she cannot keep up.",
-        "suggestion": "[Internal] Bracket the urge to debate superiority; stay curious. [Meta] There is a strong need not to be misread; let’s look at what gets touched when she criticizes you."
+        "suggestion": "[Internal] Bracket the urge to debate superiority; stay curious. [Meta] There is a strong need not to be misread, especially when criticism starts to sound like someone diminishing you."
       },
       {
         "text": "[Demanding] I need efficient solutions, not a slow tour through my feelings.",
-        "suggestion": "[Internal] Set down the urge to justify depth work; remain warm. [Meta] We can keep this focused, and the fastest useful route starts with the moment pressure takes over."
+        "suggestion": "[Internal] Set down the urge to justify depth work; remain warm. [Meta] The need for efficiency is clear, and pressure itself may be the first place where the problem shows up."
       },
       {
         "text": "[Skeptical] Are you actually experienced enough for someone like me, or is this just standard therapy?",
-        "suggestion": "[Internal] Regulate pride and defensiveness; keep face soft. [Meta] It is fair to ask; let’s clarify what would tell you this is tailored enough to be useful."
+        "suggestion": "[Internal] Regulate pride and defensiveness; keep face soft. [Meta] It is fair to ask about competence. I can answer plainly without turning your concern into a problem."
       },
       {
         "text": "[Dismissive] People call me a narcissist because they are jealous, and I want you to say they are wrong.",
-        "suggestion": "[Internal] Note reaction; keep voice even. [Meta] Being labeled that way sounds painful. We can notice what gets hit in you when you hear that word without making the label the truth."
+        "suggestion": "[Internal] Note the reaction to the label; keep voice even. [Meta] Being labeled that way sounds painful. The word can be taken seriously without making it the whole truth of you."
       },
       {
         "text": "[Dismissive] I don't make mistakes like that; other people drop the ball.",
-        "suggestion": "[Internal] Resist power struggle; return to impact. [Meta] When blame shifts that fast, I want to keep us out of a contest and look at what would feel exposed if the mistake were yours."
+        "suggestion": "[Internal] Resist the power struggle; return to impact. [Meta] When blame shifts that fast, something vulnerable may be getting protected from exposure."
       },
       {
         "text": "[Controlled] I expect results quickly, or I start feeling exposed here too.",
-        "suggestion": "[Internal] Ease urgency; hold frame. [Meta] Let’s define the first small result you’d actually feel at home or work, without turning this into another performance test."
+        "suggestion": "[Internal] Ease urgency; hold the frame. [Meta] Wanting quick results makes sense when slowness starts to feel like exposure and another performance test."
       },
       {
         "text": "[Dismissive] Don't psychoanalyze me or turn me into a case study.",
-        "suggestion": "[Internal] Welcome boundary; reduce jargon. [Meta] We’ll keep it simple and practical, and I’ll check with you before I make meaning from anything."
+        "suggestion": "[Internal] Welcome the boundary; reduce jargon. [Meta] I hear the need not to be turned into an object. My job is to stay with your experience, not study you from a distance."
       },
       {
         "text": "[Skeptical] This better not be like my last therapist, who sat there nodding while nothing changed.",
-        "suggestion": "[Internal] Notice comparison pull; stay present. [Meta] It sounds like you felt let down by therapy before; we can name what needs to be different here before you decide whether to trust this."
+        "suggestion": "[Internal] Notice the pull to prove difference; stay present. [Meta] It sounds like you felt let down by therapy before, and that disappointment is now watching this room closely."
       },
       {
         "text": "[Skeptical] My wife says I drink too much, but she nags me into it; women do not understand pressure like mine.",
-        "suggestion": "[Internal] Notice judgment, irritation, or pressure to confront; stay accountable without shaming. [Meta] We can look at the pressure and the drinking directly without putting all of it on her or turning this into blame."
+        "suggestion": "[Internal] Notice judgment, irritation, or pressure to confront; stay accountable without shaming. [Meta] The pressure and the drinking both matter here, and blaming her would move us away from your choices."
       }
     ],
     "case-marcus": [
       {
         "text": "[Slow and flat] I keep saying I am fine because I do not know what else you want from me.",
-        "suggestion": "[Internal] Accept quiet; release the wish to draw more out. [Meta] You do not have to produce something for me; we can start with what fine is like from the inside."
+        "suggestion": "[Internal] Accept quiet; release the wish to draw more out. [Meta] You do not have to produce something for me. Fine can be enough to start with."
       },
       {
         "text": "[Hopeless] Talking does not change what happened, and I hate when therapists pretend it does.",
-        "suggestion": "[Internal] Notice defensiveness on behalf of therapy; stay plain. [Meta] You are right that talking cannot change what happened. I do not want to pretend; I want to see whether this room can change how alone you are with it."
+        "suggestion": "[Internal] Notice defensiveness on behalf of therapy; stay plain. [Meta] You are right that talking cannot change what happened. No pretending here; the question is whether this room can change how alone you are with it."
       },
       {
         "text": "[Hypervigilant] Nightmares are just part of it, and I do not want you making a big deal.",
-        "suggestion": "[Internal] Track arousal; titrate; do not over-emphasize trauma. [Meta] I will not make it bigger than you want; we can simply notice what shifts as you mention them."
+        "suggestion": "[Internal] Track arousal; titrate; do not over-emphasize trauma. [Meta] I will not make it bigger than you want. Even mentioning them gives us enough to respect."
       },
       {
         "text": "[Flat] I prefer to keep to myself; people usually want more than I have.",
-        "suggestion": "[Internal] Respect the protector; stay warm. [Meta] Keeping to yourself has protected your limits; let’s notice what feels like too much from people."
+        "suggestion": "[Internal] Respect the protector; stay warm. [Meta] Keeping to yourself has protected your limits, especially with people who ask for more than you have."
       },
       {
         "text": "[Low voice] Feelings make things worse; once they start, I lose the rest of the night.",
-        "suggestion": "[Internal] Titrate; keep contact light. [Meta] We can stay at the edge, just one small signal, then come back before it takes the whole night."
+        "suggestion": "[Internal] Titrate; keep contact light. [Meta] The edge matters here; even one small signal is enough if more would take the whole night."
       },
       {
         "text": "[Quiet and guarded] I don't trust therapists; they always want more than I can give.",
-        "suggestion": "[Internal] Notice sting; welcome skepticism. [Meta] I appreciate you naming that. We can let distrust set the pace and make sure I do not ask for more than you choose."
+        "suggestion": "[Internal] Notice the sting; welcome skepticism. [Meta] I appreciate you naming that. Distrust can set the pace, and I will not ask for more than you choose."
       },
       {
         "text": "[Flat] I do not remember much, and I get tense when people push for details.",
-        "suggestion": "[Internal] Slow down; avoid pressing for detail. [Meta] We do not need details to respect your inner reaction; the tension can set the pace."
+        "suggestion": "[Internal] Slow down; avoid pressing for detail. [Meta] Details are not required for your reaction to matter. The tension can set the pace."
       },
       {
         "text": "[Hypervigilant] Let's stick to practical tips; feelings make this too loose, and loose feels unsafe.",
-        "suggestion": "[Internal] Align with the need for structure; avoid arguing for depth. [Meta] Practical structure matters here. Let's tie any feeling work to exact moments and keep it contained enough to feel safe."
+        "suggestion": "[Internal] Align with the need for structure; avoid arguing for depth. [Meta] Practical structure matters here. Feeling work has to stay exact and contained enough to feel safe."
       },
       {
         "text": "[Quiet and guarded] On the drive here I saw a truck and thought, If I turned into it, at least the noise would stop.",
-        "suggestion": "[Internal] Notice fear and urgency; steady yourself and orient to safety. [Meta] Thank you for telling me directly. We need first to make sure you are safe today, and then we can stay with the noise in a way you do not have to handle alone."
+        "suggestion": "[Internal] Notice fear and urgency; steady yourself and orient to safety. [Meta] Thank you for telling me directly. Safety comes first today, and the noise does not have to be handled alone."
       },
       {
         "text": "[Defensive] I can handle it alone; that's how I've made it this far.",
-        "suggestion": "[Internal] Respect independence; stay near. [Meta] You have survived by carrying it alone. If it helps, we can share a few minutes without taking that independence away."
+        "suggestion": "[Internal] Respect independence; stay near. [Meta] You have survived by carrying it alone. Contact here does not have to take that independence away."
       }
     ]
   },

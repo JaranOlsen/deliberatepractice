@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T08:08:45.174Z",
+  "generatedAt": "2026-06-08T08:42:07.310Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -158,11 +158,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Desperate] You did not reply fast, and I felt abandoned and stupid for caring that much.",
-                "response": "[Internal] Anchor feet/seat; lengthen exhale; steady gaze; notice urge to promise. [Meta] I am here with you now; let's breathe together and feel a little of how scary and exposing that was."
+                "response": "[Internal] Anchor feet/seat; lengthen exhale; steady gaze; notice the urge to promise. [Meta] I am here with you now. The delay felt like abandonment and exposed how much this relationship matters."
               },
               "no": {
                 "statement": "[Desperat] Du svarte ikke med en gang, og jeg følte meg forlatt og dum for at det betydde så mye.",
-                "response": "[Internt] Forankre føtter/sete; forleng utpusten; stødig blikk; merk trangen til å love. [Meta] Jeg er her med deg nå; vi puster sammen og kjenner litt på hvor skummelt og blottstilt det var."
+                "response": "[Internt] Forankre føtter/sete; forleng utpusten; stødig blikk; merk trangen til å love. [Meta] Jeg er her med deg nå. Forsinkelsen kjentes som å bli forlatt og viste hvor mye denne relasjonen betyr."
               }
             },
             {
@@ -175,11 +175,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Desperate] I keep expecting you to leave, and then I hate myself for needing you.",
-                "response": "[Internal] Ground around the push-pull; keep the frame warm. [Meta] Both parts are here: the one bracing for me to leave and the one ashamed of needing me."
+                "response": "[Internal] Ground around the push-pull; keep the frame warm. [Meta] Both parts are here: the one bracing for me to leave and the one ashamed that needing me matters so much."
               },
               "no": {
                 "statement": "[Desperat] Jeg forventer hele tiden at du skal forlate meg, og så hater jeg meg selv for å trenge deg.",
-                "response": "[Internt] Forankre deg rundt trekk-og-skyv-bevegelsen; hold rammen varm. [Meta] Begge delene er her: den som gjør seg klar til at jeg skal gå, og den som skammer seg over å trenge meg."
+                "response": "[Internt] Forankre deg rundt trekk-og-skyv-bevegelsen; hold rammen varm. [Meta] Begge delene er her: den som gjør seg klar til at jeg skal gå, og den som skammer seg over at det betyr så mye å trenge meg."
               }
             },
             {
@@ -192,11 +192,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Fearful and ashamed] I feel disgusting because of what was done to me.",
-                "response": "[Internal] Hold sorrow; avoid fixing; titrate contact. [Meta] I’m so sorry that happened—let’s go gently and let that feeling be seen a little with me."
+                "response": "[Internal] Hold sorrow; avoid fixing; titrate contact. [Meta] I am so sorry that happened. We will go gently, and that feeling can be seen a little without being forced."
               },
               "no": {
                 "statement": "[Redd og skamfull] Jeg føler meg skitten på grunn av det som ble gjort mot meg.",
-                "response": "[Internt] Hold sorg; unngå fiksing; dosér kontakt. [Meta] Jeg er oppriktig lei for at det skjedde – vi går varsomt og lar den følelsen bli sett litt sammen med meg."
+                "response": "[Internt] Hold sorg; unngå fiksing; dosér kontakt. [Meta] Jeg er oppriktig lei for at det skjedde. Vi går varsomt, og den følelsen kan få bli sett litt uten å presses fram."
               }
             }
           ]

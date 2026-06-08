@@ -35,6 +35,7 @@ Branch update:
 - Marker Recognition and Chair Work has been expanded to the full 10-per-case matrix, adding natural self-critical, self-interruptive, unfinished-business, catastrophizing/worry, betrayal, and trauma-linked chair-work markers.
 - Alliance Repair has been expanded to the full 10-per-case matrix, adding competence/status, boredom/disinterest, previous-therapy, sexual-boundary, trauma-pacing, substance, and safety/boundary ruptures.
 - Empathic Affirmation and Validation easy has been broadened with more ordinary public-composure grief, social anger, responsibility/guilt, presentation anxiety, and positive-invitation anxiety markers, while reducing repeated "of course/no wonder" response openings.
+- Therapist Self-Awareness hard responses have been polished to model internal regulation more clearly, reduce "let's/we can/I want" procedural drift, and keep safety/boundary responses steady under suicidality, erotic pressure, distrust, and sexist/substance-minimizing material.
 
 The remaining gaps are more subtle:
 
@@ -55,7 +56,7 @@ The remaining gaps are more subtle:
 | --- | --- | --- | --- | --- | --- | --- |
 | Therapist Self-Awareness | Easy | Strong | High | Strong | Low | Recent pass broadened beyond rupture into hopefulness, advice pull, social/cultural adjustment, ordinary loneliness, and practical therapy uncertainty. |
 | Therapist Self-Awareness | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass added dependency shame, long breakup grief, cultural humility, alcohol/exposure concern, faith/family values, and violent fantasy coverage. |
-| Therapist Self-Awareness | Hard | Strong | High | Strong-Mixed | Low | Strong coverage of suicidality, competence testing, flirtation, distrust, and sexist alcohol-minimizing defensiveness; responses should remain internally focused. |
+| Therapist Self-Awareness | Hard | Strong | High | Strong | Low | Strong coverage of suicidality, competence testing, flirtation, distrust, and sexist alcohol-minimizing defensiveness. Recent pass tightened responses around internal regulation and clean client-facing contact. |
 | Empathic Understanding | Easy | Strong | Medium-High | Strong | Low-Medium | Good simple reflection markers. Some are still more case-schema specific than benchmark everyday sadness/stress/readiness examples. |
 | Empathic Understanding | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass added ordinary bills/money worry, friend disappointment, confused depression, and guide-me uncertainty. Further work is polish rather than repair. |
 | Empathic Understanding | Hard | Strong | Medium-High | Strong | Low-Medium | Recent pass added substance-anxiety ambivalence, plain session uncertainty, and more ordinary relational loss while keeping hard-case defenses. |
@@ -104,24 +105,21 @@ Completed on the current content branch:
 - Marker Recognition and Chair Work expansion to 10 statements per case.
 - Alliance Repair expansion to 10 statements per case.
 - Empathic Affirmation and Validation, easy.
+- Therapist Self-Awareness hard response polish.
 
 These should still be reviewed in normal regression passes, but they are no longer the highest-value repair targets.
 
 ## Current Highest-Value Improvement Targets
 
-1. Therapist Self-Awareness hard response polish.
-   - Hard markers remain strong.
-   - Continue reducing question-form and overly explanatory meta responses when encountered during normal passes.
-
-2. Staying in Contact with Intense Affect remaining polish.
+1. Staying in Contact with Intense Affect remaining polish.
    - Keep as a regression target rather than the next main repair area.
    - Future passes can add more positive loving affect and ordinary death/loss examples if the fixed cases can carry them naturally.
 
-3. Empathic Evocations regression polish.
+2. Empathic Evocations regression polish.
    - Keep checking that client statements remain flat, detached, or over-cognitive rather than already imagistic.
    - Future evocation changes should be small and benchmark-driven, not a broad rewrite.
 
-4. Empathic Conjectures hard regression polish.
+3. Empathic Conjectures hard regression polish.
    - Hard tier is still strong, but future passes should keep checking that high-risk or defensive markers do not become too interpretive before the trainee responds.
 
 ## Case-Set Constraints
