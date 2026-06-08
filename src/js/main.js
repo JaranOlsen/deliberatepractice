@@ -1333,6 +1333,7 @@ function renderActiveStatement() {
     if (elements.suggestionText) {
       elements.suggestionText.textContent = "";
     }
+    setDefaultFeedbackReason(state.languageId ?? "en", { force: true });
     resetSuggestionVisibility();
     updateFeedbackAvailability();
     return;
@@ -1345,6 +1346,7 @@ function renderActiveStatement() {
   if (elements.suggestionText) {
     elements.suggestionText.textContent = currentEntry?.suggestion ?? "";
   }
+  setDefaultFeedbackReason(state.languageId ?? "en", { force: true });
   resetSuggestionVisibility();
   updateFeedbackAvailability();
 }
@@ -1422,6 +1424,20 @@ function updateFeedbackVisibility() {
   elements.feedbackToggle.textContent = collapsed
     ? strings.feedbackToggleShow ?? "Show form"
     : strings.feedbackToggleHide ?? "Hide form";
+}
+
+function getDefaultFeedbackReason(languageId = state.languageId ?? "en") {
+  return languageId === "en" ? "quality" : "translation";
+}
+
+function setDefaultFeedbackReason(languageId = state.languageId ?? "en", { force = false } = {}) {
+  if (!elements.feedbackReason) return;
+  const defaultReason = getDefaultFeedbackReason(languageId);
+  const hasOption = Array.from(elements.feedbackReason.options)
+    .some((option) => option.value === defaultReason);
+  if (hasOption && (force || !elements.feedbackReason.value)) {
+    elements.feedbackReason.value = defaultReason;
+  }
 }
 
 function updateFeedbackAvailability() {
@@ -1510,6 +1526,7 @@ async function handleFeedbackSubmit(event) {
     setFeedbackStatus(strings.feedbackSuccess ?? "");
     if (elements.feedbackForm) {
       elements.feedbackForm.reset();
+      setDefaultFeedbackReason(state.languageId ?? "en", { force: true });
     }
   } catch (err) {
     const msg = err?.message === "Missing Supabase configuration"
@@ -1593,6 +1610,7 @@ function handleLanguageSelection(languageId) {
   if (elements.suggestionText) {
     elements.suggestionText.textContent = "";
   }
+  setDefaultFeedbackReason(languageId, { force: true });
   resetSuggestionVisibility();
   updateFeedbackAvailability();
   showSection("skill");

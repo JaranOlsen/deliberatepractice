@@ -10,7 +10,10 @@
     "preview": "vite preview",
     "test": "npm run validate:content",
     "build:content": "node scripts/build-content-artifacts.mjs",
-    "validate:content": "node scripts/validate-content.mjs"
+    "validate:content": "node scripts/validate-content.mjs",
+    "feedback:list": "node scripts/supabase-feedback.mjs list",
+    "feedback:resolve": "node scripts/supabase-feedback.mjs resolve",
+    "feedback:delete": "node scripts/supabase-feedback.mjs delete"
   },
   "devDependencies": {
     "vite": "^6.4.1"
