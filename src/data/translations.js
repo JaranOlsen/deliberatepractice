@@ -1788,7 +1788,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-understanding_case-sara_04": {
       "text": "[Sint] Jeg hater at jeg tar meg selv i å sjekke telefonen, fortsatt med håp om at navnet hans skal stå der.",
-      "suggestion": "Det er fortsatt et håp som strekker seg mot ham, og det gjør vondt å oppdage det i deg selv."
+      "suggestion": "Du hater at en del av deg fortsatt sjekker etter ham."
     },
     "dp_empathic-understanding_case-sara_05": {
       "text": "[Trist] Jeg våkner og husker at han er borte, og hele morgenen blir tung.",
@@ -1796,23 +1796,23 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-understanding_case-sara_06": {
       "text": "[På gråten] Venner sier stadig at tid hjelper, men jeg blir flau over at jeg fortsatt er så hudløs.",
-      "suggestion": "Du kjenner deg blottstilt av hvor hudløs sorgen fortsatt er, med flauheten liggende oppå smerten."
+      "suggestion": "Du blir flau over at sorgen fortsatt er så hudløs."
     },
     "dp_empathic-understanding_case-sara_07": {
       "text": "[Lavmælt] Jeg holder meg opptatt så jeg slipper å tenke, og så krasjer jeg om kvelden.",
-      "suggestion": "Opptattheten bedøver på dagtid, og om kvelden flommer tristheten tilbake."
+      "suggestion": "Det hjelper å holde deg opptatt på dagtid, og så treffer det deg om kvelden."
     },
     "dp_empathic-understanding_case-sara_08": {
       "text": "[Flau] Jeg vil ikke belaste noen med dette, så jeg gjør stemningen lett og går hjem enda mer ensom.",
-      "suggestion": "Du beskytter andre mot sorgen, og da blir du mer alene med den."
+      "suggestion": "Du holder stemningen lett sammen med andre, og går hjem mer ensom."
     },
     "dp_empathic-understanding_case-sara_09": {
       "text": "[På gråten] Når jeg går forbi par som holder hender, kjennes det som om alle ble valgt bortsett fra meg.",
       "suggestion": "Å se par vekker den skarpe følelsen av å være den som ikke ble valgt."
     },
     "dp_empathic-understanding_case-sara_10": {
-      "text": "[Lavmælt] En del av meg tenker at han dro fordi jeg egentlig ikke er elskbar.",
-      "suggestion": "At han dro, har vekket en smertefull tvil om du er elskbar."
+      "text": "[Lavmælt] En del av meg lurer fortsatt på hva han så som fikk ham til å dra.",
+      "suggestion": "En del av deg lurer fortsatt på hva han så i deg som fikk ham til å dra."
     },
     "dp_empathic-understanding_case-michael_01": {
       "text": "[Fast] Jeg brukte hele formiddagen på problemer på jobb, og jeg er lei.",
@@ -1824,7 +1824,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-understanding_case-michael_03": {
       "text": "[Skamfull] Etter at jeg roper, blir jeg kvalm av skam når jeg ser ansiktet hennes.",
-      "suggestion": "Sinnet brenner ut, og så treffer skammen når du ser smerten i ansiktet hennes."
+      "suggestion": "Etter at du har ropt, blir du kvalm av skam når du ser ansiktet hennes."
     },
     "dp_empathic-understanding_case-michael_04": {
       "text": "[Anspent og sint] Når folk stiller spørsmål ved meg i møter, blir jeg fort sint.",
@@ -1836,19 +1836,19 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-understanding_case-michael_06": {
       "text": "[Anspent] Jeg sitter oppe og overforbereder presentasjonen så ingen kan ta meg i å være usikker om morgenen.",
-      "suggestion": "Overforberedelsen beskytter deg mot den blottstilte følelsen av å bli tatt i å være usikker."
+      "suggestion": "Du sitter oppe og overforbereder deg så ingen ser at du er usikker."
     },
     "dp_empathic-understanding_case-michael_07": {
       "text": "[Fast] Tonefallet til kona mi kan tenne meg før jeg vet hva hun egentlig sa.",
-      "suggestion": "Tonefallet hennes kan lande som en nedvurdering før ordene helt har kommet fram."
+      "suggestion": "Tonefallet hennes kan tenne sinnet før du vet hva hun sa."
     },
     "dp_empathic-understanding_case-michael_08": {
       "text": "[Anspent og skamfull] Jeg hater å beklage, for det føles som å gi henne bevis på at jeg er svak.",
-      "suggestion": "Å beklage kjennes som å gi fra seg terreng og bli sett som svak."
+      "suggestion": "Å beklage kjennes som å gi henne bevis på at du er svak."
     },
     "dp_empathic-understanding_case-michael_09": {
       "text": "[Anspent] Jeg sier til meg selv at jeg bare holder standarden, men egentlig føler jeg meg anklaget.",
-      "suggestion": "Du rammer det inn som standarder, og under ligger stikket av å føle seg anklaget."
+      "suggestion": "Du kaller det å holde standarden, og du føler deg også anklaget."
     },
     "dp_empathic-understanding_case-michael_10": {
       "text": "[Skamfull] Jeg ligger våken og spiller om igjen det jeg sa til kona, og hater blikket hennes.",
@@ -1868,7 +1868,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-understanding_case-jason_04": {
       "text": "[Stille] Komplimenter fester seg ikke; jeg venter bare på at folk skal ta dem tilbake.",
-      "suggestion": "Ros berører deg et øyeblikk, før selvtvilen gjør seg klar til at den skal forsvinne."
+      "suggestion": "Komplimenter fester seg ikke, og du venter på at folk skal ta dem tilbake."
     },
     "dp_empathic-understanding_case-jason_05": {
       "text": "[Nølende] Jeg blir engstelig av å sende selv enkle meldinger, så jeg skriver dem om og om igjen.",
@@ -1876,11 +1876,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-understanding_case-jason_06": {
       "text": "[Engstelig] Jeg spiser lunsj ved pulten så jeg slipper å gå inn på pauserommet.",
-      "suggestion": "Å bli ved pulten holder deg unna blikkene og vurderingen du forventer der inne."
+      "suggestion": "Å spise ved pulten hjelper deg å unngå pauserommet."
     },
     "dp_empathic-understanding_case-jason_07": {
       "text": "[Stille] Etter at jeg har snakket i et møte, spiller jeg av hvert ord til jeg krymper meg.",
-      "suggestion": "Å snakke gjør deg blottstilt, og reprisen holder skammen i gang etterpå."
+      "suggestion": "Etter at du har snakket, spiller du av hvert ord til du krymper deg."
     },
     "dp_empathic-understanding_case-jason_08": {
       "text": "[Nølende] I grupper blir jeg stille og føler meg utenfor sirkelen før jeg har sagt noe.",

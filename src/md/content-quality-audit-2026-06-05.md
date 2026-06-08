@@ -1,6 +1,6 @@
 # Current Content Quality Audit
 
-Date: 2026-06-05; branch update through 2026-06-07
+Date: 2026-06-05; branch update through 2026-06-08
 
 ## Scope
 
@@ -40,6 +40,7 @@ Branch update:
 - Exploratory Questions easy has been recalibrated so client markers leave more of the inward sensing work to the trainee and suggested responses stay to one clean experiential question.
 - Exploratory Questions moderate has been tightened around one-step inward questions, with fewer client-supplied body cues and less interpretive therapist language.
 - Exploratory Questions hard has been tightened so advanced rupture, shame, dissociation, and threat markers still invite one inward question without the therapist supplying conjecture or body-process language too early.
+- Empathic Understanding easy has received regression polish: selected Sara, Michael, and Jason responses now stay closer to explicit client meaning, and one Sara marker was softened away from naming core unlovability too directly.
 
 The remaining gaps are more subtle:
 
@@ -61,7 +62,7 @@ The remaining gaps are more subtle:
 | Therapist Self-Awareness | Easy | Strong | High | Strong | Low | Recent pass broadened beyond rupture into hopefulness, advice pull, social/cultural adjustment, ordinary loneliness, and practical therapy uncertainty. |
 | Therapist Self-Awareness | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass added dependency shame, long breakup grief, cultural humility, alcohol/exposure concern, faith/family values, and violent fantasy coverage. |
 | Therapist Self-Awareness | Hard | Strong | High | Strong | Low | Strong coverage of suicidality, competence testing, flirtation, distrust, and sexist alcohol-minimizing defensiveness. Recent pass tightened responses around internal regulation and clean client-facing contact. |
-| Empathic Understanding | Easy | Strong | Medium-High | Strong | Low-Medium | Good simple reflection markers. Some are still more case-schema specific than benchmark everyday sadness/stress/readiness examples. |
+| Empathic Understanding | Easy | Strong | Medium-High | Strong | Low | Recent polish simplified selected beginner responses toward basic reflection and reduced one overly direct core-pain marker. Remaining work is ordinary regression checking. |
 | Empathic Understanding | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass added ordinary bills/money worry, friend disappointment, confused depression, and guide-me uncertainty. Further work is polish rather than repair. |
 | Empathic Understanding | Hard | Strong | Medium-High | Strong | Low-Medium | Recent pass added substance-anxiety ambivalence, plain session uncertainty, and more ordinary relational loss while keeping hard-case defenses. |
 | Empathic Affirmation and Validation | Easy | Strong | High | Strong | Low-Medium | Recent pass broadened beyond breakup shame/anger into public-composure grief, social anger, moral guilt, presentation anxiety, and positive-invitation anxiety. Continue only regression polish. |
@@ -114,6 +115,7 @@ Completed on the current content branch:
 - Exploratory Questions, easy.
 - Exploratory Questions, moderate.
 - Exploratory Questions, hard.
+- Empathic Understanding, easy regression polish.
 
 These should still be reviewed in normal regression passes, but they are no longer the highest-value repair targets.
 

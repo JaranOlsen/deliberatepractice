@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T13:48:53.426Z",
+  "generatedAt": "2026-06-08T14:04:11.448Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -167,11 +167,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tense] I tell myself I'm just holding standards, but really I feel accused.",
-            "response": "You frame it as standards, and underneath there is the sting of feeling accused."
+            "response": "You call it holding standards, and you also feel accused."
           },
           "no": {
             "statement": "[Anspent] Jeg sier til meg selv at jeg bare holder standarden, men egentlig føler jeg meg anklaget.",
-            "response": "Du rammer det inn som standarder, og under ligger stikket av å føle seg anklaget."
+            "response": "Du kaller det å holde standarden, og du føler deg også anklaget."
           }
         },
         {
