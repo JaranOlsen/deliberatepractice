@@ -4160,7 +4160,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-nina_07": {
       "text": "[Sliten] Jeg tar vare på alle, og når ingen legger merke til det, blir jeg skarp mot meg selv for at jeg bryr meg.",
-      "suggestion": "Du vender deg raskt mot ønsket; jeg lurer på om det finnes en ensom lengsel etter å bli tatt vare på uten å måtte fortjene det."
+      "suggestion": "Du blir fort hard mot deg selv for at du ønsker å bli sett; jeg lurer på om det finnes en ensom lengsel etter å bli tatt vare på uten å måtte fortjene det."
     },
     "dp_empathic-conjectures_case-nina_08": {
       "text": "[Unnskyldende] Jeg prøver å si nei og legger så til tre forklaringer før de svarer.",
