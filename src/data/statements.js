@@ -1148,8 +1148,8 @@ export const STATEMENT_SETS = {
         "suggestion": "What is it like inside when you feel that small?"
       },
       {
-        "text": "[Embarrassed] At brunch I say I am fine, but my throat tightens before the lie finishes.",
-        "suggestion": "When your throat tightens before the answer is out, what feeling is trying not to be heard?"
+        "text": "[Embarrassed] At brunch I kept saying I was fine, but I could tell I was trying too hard.",
+        "suggestion": "When you notice yourself trying that hard to seem fine, what feeling is closest?"
       },
       {
         "text": "[Angry] I was angry he forgot my birthday, and then I felt silly for caring.",
@@ -1160,24 +1160,24 @@ export const STATEMENT_SETS = {
         "suggestion": "When you imagine asking him that, what feeling comes up first?"
       },
       {
-        "text": "[Panicked] Sometimes I delete old photos and then search for them again before the panic settles.",
-        "suggestion": "When you search for the photos again, what is the panicked part hoping to feel?"
+        "text": "[Panicked] Sometimes I delete old photos and then look for them again ten minutes later.",
+        "suggestion": "When you cannot let the photos stay gone, what feeling comes up most strongly?"
       },
       {
-        "text": "[Embarrassed] When someone is kind to me, my eyes drop like I have been caught wanting too much.",
-        "suggestion": "As your eyes drop, what feeling appears around wanting kindness?"
+        "text": "[Embarrassed] When someone is kind to me, I suddenly do not know what to do with it.",
+        "suggestion": "When kindness leaves you unsure what to do, what feeling comes up?"
       },
       {
-        "text": "[Softly] I wake up reaching across the bed, and then it hits me all over again.",
-        "suggestion": "In that first moment of remembering, what feeling arrives before words do?"
+        "text": "[Softly] I wake up and forget for a second that he is gone, and then it hits me all over again.",
+        "suggestion": "In that first moment of remembering, what feeling arrives before you explain it?"
       },
       {
         "text": "[Tearful] I feel embarrassed that I am still this sad, like grief should have expired by now.",
         "suggestion": "When the embarrassment says grief should be over, what sadness is still asking to be noticed?"
       },
       {
-        "text": "[Tearful] Seeing couples at the market makes my chest ache, and I leave before I cry.",
-        "suggestion": "When that ache pulls you toward leaving, what does it most long for?"
+        "text": "[Tearful] Seeing couples at the market makes me leave before I cry.",
+        "suggestion": "When you leave before the tears come, what feeling are you trying not to show?"
       },
       {
         "text": "[Softly] I cross the street to avoid the cafe we used to call ours.",
@@ -1187,11 +1187,11 @@ export const STATEMENT_SETS = {
     "case-michael": [
       {
         "text": "[Tense and angry] When someone corrects one detail, I get angry and embarrassed at the same time.",
-        "suggestion": "Where do you notice that mix of anger and embarrassment right now?"
+        "suggestion": "What do you notice inside as anger and embarrassment show up together?"
       },
       {
-        "text": "[Defensive] A sigh from my wife makes me bristle like she has already decided I am wrong.",
-        "suggestion": "When that sigh lands as judgment, where do you first feel the bristle inside?"
+        "text": "[Defensive] A sigh from my wife makes me assume she has already decided I am wrong.",
+        "suggestion": "When that sigh lands as judgment, what feeling comes first?"
       },
       {
         "text": "[Tense] My boss praised the team but not me, and I could not stop thinking about it.",
@@ -1199,15 +1199,15 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and angry] I scan meeting rooms for disrespect before I even know who has walked in.",
-        "suggestion": "As you picture scanning the room, what is the first sign inside that you are on guard?"
+        "suggestion": "When you are already scanning for disrespect, what feeling are you bracing for?"
       },
       {
         "text": "[Defensive] When I apologize to my wife, it feels like I have handed her the win.",
-        "suggestion": "As you picture handing her the win, where does the one-down feeling land strongest?"
+        "suggestion": "When apologizing feels like losing, what feeling is hardest to stay with?"
       },
       {
-        "text": "[Tense] When I am unsure of an answer in front of the team, my chest tightens fast.",
-        "suggestion": "If that chest tightness could speak, what would it say it is protecting you from?"
+        "text": "[Tense] When I am unsure of an answer in front of the team, I start talking faster so nobody notices.",
+        "suggestion": "When nobody can see you are unsure, what feeling are you avoiding?"
       },
       {
         "text": "[Tense and angry] I told my wife I was fine, but I was still angry hours later.",
@@ -1215,25 +1215,25 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Defensive] I slam doors at home so no one hears me say I was hurt.",
-        "suggestion": "In the moment before the door slams, where does the hurt show itself inside?"
+        "suggestion": "Before the door slams, what feeling is there that is hard to say out loud?"
       },
       {
         "text": "[Tense] Being told to calm down makes me explode before I hear anything else.",
-        "suggestion": "When those words hit, where does the first surge show up in you?"
+        "suggestion": "When those words hit, what feeling comes before the explosion?"
       },
       {
         "text": "[Ashamed] I hate feeling weak in front of people, like everyone can see I failed.",
-        "suggestion": "When 'weak' shows up in front of people, what image comes with it?"
+        "suggestion": "When 'weak' shows up in front of people, what feeling comes with being seen?"
       }
     ],
     "case-jason": [
       {
-        "text": "[Quietly] When it is my turn to speak, my throat tightens and my mind goes white.",
-        "suggestion": "When the tight throat and whiteout arrive, what starts to show up underneath, even a hint?"
+        "text": "[Quietly] When it is my turn to speak, I lose the sentence and everyone seems to be waiting.",
+        "suggestion": "When everyone seems to be waiting, what feeling shows up?"
       },
       {
         "text": "[Voice shaking] My voice shakes when I say my name, and then I hear myself sounding pathetic.",
-        "suggestion": "When you hear the shake in your voice, what feeling comes toward you first?"
+        "suggestion": "When you hear the shake in your voice, what feeling comes up first?"
       },
       {
         "text": "[Anxious] A friend did not reply, and I kept wondering what I did wrong.",
@@ -1244,16 +1244,16 @@ export const STATEMENT_SETS = {
         "suggestion": "What happens inside when you think the laugh is about you?"
       },
       {
-        "text": "[Hesitant] I keep my eyes on the table so people will not see how awkward I feel.",
-        "suggestion": "As your eyes drop to the table, what feeling about being seen shows up first?"
+        "text": "[Hesitant] I keep my eyes on the table so people will not ask me anything.",
+        "suggestion": "When looking up feels risky, what feeling comes up around being seen?"
       },
       {
         "text": "[Anxious] After meetings I replay one sentence for hours and feel my face heat up.",
-        "suggestion": "If we take one replayed sentence, what feeling sits beneath the cringe?"
+        "suggestion": "If we take one replayed sentence, what feeling keeps the replay going?"
       },
       {
         "text": "[Quietly] At parties I track the exit before I even know who is in the room.",
-        "suggestion": "When your attention goes to the exit, what are you sensing might happen to you?"
+        "suggestion": "When your attention goes to the exit, what feeling are you trying to get away from?"
       },
       {
         "text": "[Hesitant] Someone smiled at me in the hallway, and I could not tell if it was friendly or awkward.",
@@ -1265,7 +1265,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quietly] Sunday nights feel heavy, like everyone else has a life waiting for them.",
-        "suggestion": "When that Sunday heaviness arrives, what does it say about where you belong?"
+        "suggestion": "When that Sunday heaviness arrives, what feeling comes with the thought of belonging?"
       }
     ],
     "case-laura": [
@@ -1904,128 +1904,128 @@ export const STATEMENT_SETS = {
   "empathic-explorations": {
     "case-sara": [
       {
-        "text": "[Softly] Even seeing his name pop up makes my stomach drop and my whole body feel small.",
-        "suggestion": "There is that drop in the stomach, and with it a smallness, almost as if part of you folds in."
+        "text": "[Softly] Seeing his name pop up still throws me, and I hate how much it matters.",
+        "suggestion": "Seeing his name still throws you, and there is something painful about how much it still matters."
       },
       {
-        "text": "[Embarrassed] I say 'I'm fine' to friends, but my throat tightens like the words are trapped.",
-        "suggestion": "The tightness carries the words you keep from them, maybe the grief that cannot safely come out as 'not fine.'"
+        "text": "[Embarrassed] I tell friends I'm fine, and then I worry they can hear that I am not.",
+        "suggestion": "You try to sound fine, and at the same time it feels risky that they might hear how not fine you are."
       },
       {
         "text": "[Tearful] I feel lost after the breakup, like I do not know what to do with the evenings.",
-        "suggestion": "You feel lost in the evenings now. Let's slow down around the empty time and notice what feels hardest there."
+        "suggestion": "The evenings leave you unsure where to put yourself, and that lostness has its own ache."
       },
       {
-        "text": "[Softly] I wrote 'sorry' to him three times, then realized I don't even know what I was apologizing for.",
-        "suggestion": "The apology seems to reach for a way back to him, and underneath it there may be a fear that the loss has to be your fault."
+        "text": "[Softly] I wrote 'sorry' to him three times, then realized I do not know what I was trying to fix.",
+        "suggestion": "You were reaching for some kind of repair, and then it became unclear what you were even apologizing for."
       },
       {
-        "text": "[Panicked] I delete photos to prove I'm done, then panic and search for them again.",
-        "suggestion": "One part tries to make the ending final, while another panics at losing the last trace of him."
+        "text": "[Panicked] I delete photos to prove I am done, then panic and look for them again.",
+        "suggestion": "One move says, 'be done,' and then the panic says this ending is not that simple."
       },
       {
         "text": "[Embarrassed] When someone is kind to me, my eyes drop before I can stop it.",
-        "suggestion": "When kindness comes close, something in you drops your eyes, maybe not quite knowing what to do with being cared for."
+        "suggestion": "Kindness arrives, and your eyes go down before you can really take it in."
       },
       {
-        "text": "[Softly] For a few seconds after I wake up I forget, then my whole chest drops.",
-        "suggestion": "That drop carries the moment the loss returns, as if you have to learn the ending again each morning."
+        "text": "[Softly] For a few seconds after I wake up, I forget he is gone, and then I remember.",
+        "suggestion": "There is that brief relief, and then the loss returns all at once."
       },
       {
         "text": "[Embarrassed] I am sad, and then I get embarrassed that I am still talking about it.",
-        "suggestion": "Sadness is here, and embarrassment comes right on top. We can give both a little room and see which one is closer."
+        "suggestion": "Sadness is here, and embarrassment comes quickly on top of it; both are part of this moment."
       },
       {
-        "text": "[Tearful] When I see couples holding hands, my chest aches and I suddenly feel childish for wanting that.",
-        "suggestion": "The ache reaches toward being chosen, and the shame seems to come right behind the longing."
+        "text": "[Tearful] When I see couples holding hands, I get upset and then feel childish for wanting that.",
+        "suggestion": "Seeing them brings up the wanting, and then shame moves in around the wanting."
       },
       {
         "text": "[Embarrassed] If I let someone see the whole mess, I imagine them quietly wishing I would stop.",
-        "suggestion": "There is a wish to be known, and a fear that your pain will become too much for people."
+        "suggestion": "You want someone to know how bad it is, and at the same time you expect them to pull away."
       }
     ],
     "case-michael": [
       {
-        "text": "[Firm] When someone corrects one detail, my ears ring and I feel the room watching me.",
-        "suggestion": "The ringing seems to mark the instant correction turns into exposure, maybe before anger has fully arrived."
+        "text": "[Firm] When someone corrects one detail, I keep hearing it afterward like I was called out.",
+        "suggestion": "The correction keeps echoing as being called out, and the anger stays close to that exposure."
       },
       {
-        "text": "[Tense and angry] I walk into meetings already checking who might disrespect me before anyone speaks.",
-        "suggestion": "The scanning happens before anything goes wrong, as if a part of you is trying to catch humiliation before it lands."
+        "text": "[Tense and angry] I walk into meetings already ready for somebody to disrespect me.",
+        "suggestion": "You are already on guard before anything happens, almost waiting for disrespect to show itself."
       },
       {
-        "text": "[Tense] After I blow up, there is a pit in my stomach I avoid.",
-        "suggestion": "That pit in your stomach seems to hold something hard to face after the anger passes."
+        "text": "[Tense] After I blow up at home, I tell myself they pushed me, but I still feel lousy.",
+        "suggestion": "Part of you argues they pushed you, and another part is left feeling lousy afterward."
       },
       {
         "text": "[Ashamed] Sometimes I want to throw my phone after a work message, and then I feel ridiculous.",
-        "suggestion": "The message brings a fast urge to throw something, and then shame follows. Let's slow the first hit down and notice what it felt like."
+        "suggestion": "The urge comes fast, and then you are left looking at yourself with shame."
       },
       {
-        "text": "[Defensive] A small sigh from my wife hits like she already has the verdict, and I flare before I know why.",
-        "suggestion": "The sigh seems to become a verdict fast, and the heat gathers around that first sting."
+        "text": "[Defensive] A small sigh from my wife can feel like she has already decided I am the problem.",
+        "suggestion": "That sigh lands as a decision about you, and then the flare comes quickly."
       },
       {
-        "text": "[Tense] When I do not know the answer, my chest locks like everyone can see I am not enough.",
-        "suggestion": "Not knowing seems to turn quickly into being seen as not enough, with the locking holding that shame in place."
+        "text": "[Tense] When I do not know the answer, I get tense and start talking like I know anyway.",
+        "suggestion": "Not knowing is hard to leave visible, so you move fast into sounding certain."
       },
       {
-        "text": "[Ashamed] I reread every message before sending because one mistake feels like being exposed.",
-        "suggestion": "The checking seems to stand guard against exposure, as if one mistake could uncover something shameful."
+        "text": "[Ashamed] I reread every message before sending because one mistake will bother me all night.",
+        "suggestion": "One possible mistake can stay with you for hours, so the checking becomes hard to stop."
       },
       {
-        "text": "[Tense and angry] The second I feel weak, I hear my father's voice and want to crush it.",
-        "suggestion": "'Weak' brings that old voice close, and the urge to crush it may be protecting the smaller feeling underneath."
+        "text": "[Tense and angry] The second I feel weak, I get angry and hear my dad saying that is exactly the problem.",
+        "suggestion": "'Weak' brings anger and your father's judgment right into the room."
       },
       {
-        "text": "[Ashamed] Some nights I replay every word I said, trying to find the exact moment I lost control.",
-        "suggestion": "The replay seems to search for the moment you could have stopped it, with shame still awake beside you."
+        "text": "[Ashamed] Some nights I replay every word I said, trying to find where I messed it up.",
+        "suggestion": "You go back over every word, searching for the point where things went wrong."
       },
       {
-        "text": "[Vulnerable] I want my son to feel safe around me, and saying that makes my throat tight.",
-        "suggestion": "Wanting your son to feel safe really matters, and your throat tightens as you say it. Let that tightness have a little space and see what it is holding."
+        "text": "[Vulnerable] I want my son to feel safe around me, and I do not know how to say that without sounding weak.",
+        "suggestion": "You want safety for him so much, and even saying it brings up the old rule about weakness."
       }
     ],
     "case-jason": [
       {
-        "text": "[Quietly] When it's my turn to speak, my throat tightens and my mind goes white.",
-        "suggestion": "The tight throat and whiteout come in together, as if your system wipes everything blank when attention turns toward you."
+        "text": "[Quietly] When it is my turn to speak, I lose track of what I was going to say.",
+        "suggestion": "Attention turns toward you, and the words disappear just when you need them."
       },
       {
         "text": "[Hesitant] I hover over send, then delete the text because wanting contact suddenly feels humiliating.",
-        "suggestion": "The wish to reach out is there, and then humiliation seems to rush in and erase it."
+        "suggestion": "The wish for contact is there, and then humiliation makes it hard to let the message exist."
       },
       {
-        "text": "[Fearful] I got invited to a birthday party, and I felt both excited and scared.",
-        "suggestion": "There is excitement and fear together. We can hold both for a moment and notice which one is easier to allow."
+        "text": "[Fearful] I got invited to a birthday party, and part of me was excited, but then I started worrying I would ruin it.",
+        "suggestion": "There is excitement about being invited, and then worry starts to crowd it."
       },
       {
-        "text": "[Quietly] If I meet someone's eyes too long, I feel them spotting everything awkward in me.",
-        "suggestion": "Eye contact seems to turn into being inspected, with awkwardness suddenly exposed."
+        "text": "[Quietly] If I meet someone's eyes too long, I assume they can tell how awkward I am.",
+        "suggestion": "Eye contact starts to feel like they can see the awkwardness you are trying to hide."
       },
       {
         "text": "[Embarrassed] After meetings, one small awkward pause can make me cringe for the rest of the day.",
-        "suggestion": "That tiny pause becomes much larger inside, almost as if it stands in for the whole fear of being judged."
+        "suggestion": "That small pause stays with you, and the cringe keeps returning long after the meeting is over."
       },
       {
-        "text": "[Anxious] When I walk into a room, I find the exit before I let myself notice anyone.",
-        "suggestion": "The exit seems to become safer to find than the people, as if connection has to wait behind escape."
+        "text": "[Anxious] When I walk into a room, I look for the exit before I decide whether to join anyone.",
+        "suggestion": "The exit gets your attention first, before you can find out whether joining might be possible."
       },
       {
-        "text": "[Quietly] Before I introduce myself, my hands sweat like everyone is about to grade me.",
-        "suggestion": "Even a simple introduction starts to feel like a test, with your whole system bracing for a grade."
+        "text": "[Quietly] Before I introduce myself, I start imagining how strange I will sound.",
+        "suggestion": "Even before you speak, the moment is already becoming a test of how you will come across."
       },
       {
-        "text": "[Hesitant] I compare myself to everyone there and always end up at the bottom.",
-        "suggestion": "Comparison quickly turns into a ranking, and somehow you are always placed where it hurts most."
+        "text": "[Hesitant] I compare myself to everyone there and always decide I am the least interesting person.",
+        "suggestion": "The comparison ends with you at the bottom, and it hurts before anyone has actually rejected you."
       },
       {
-        "text": "[Blank] Sometimes I pretend to text so small talk cannot expose how blank I feel.",
-        "suggestion": "The phone gives you cover, while the blankness underneath seems to carry the fear of being seen."
+        "text": "[Blank] Sometimes I pretend to text so small talk does not have to start.",
+        "suggestion": "The phone gives you a way to pause the contact, and a little cover from being put on the spot."
       },
       {
         "text": "[Quiet and ashamed] I felt lonely on Sunday, but I also ignored two messages.",
-        "suggestion": "The loneliness is there, and so is pulling away from the messages. Let's stay near that tension and notice what each side is trying to do."
+        "suggestion": "Loneliness and pulling back are both there, side by side."
       }
     ],
     "case-laura": [

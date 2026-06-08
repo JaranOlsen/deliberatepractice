@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T08:42:07.312Z",
+  "generatedAt": "2026-06-08T10:07:26.762Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -279,12 +279,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Blank] Sometimes I pretend to text so small talk cannot expose how blank I feel.",
-            "response": "The phone gives you cover, while the blankness underneath seems to carry the fear of being seen."
+            "statement": "[Blank] Sometimes I pretend to text so small talk does not have to start.",
+            "response": "The phone gives you a way to pause the contact, and a little cover from being put on the spot."
           },
           "no": {
-            "statement": "[Blank] Noen ganger later jeg som jeg skriver melding, så småprat ikke avslører hvor blank jeg blir.",
-            "response": "Telefonen gir deg dekning, mens blankheten under ser ut til å bære frykten for å bli sett."
+            "statement": "[Blank] Noen ganger later jeg som jeg skriver melding, så småpraten ikke trenger å begynne.",
+            "response": "Telefonen gir deg en måte å sette kontakten på pause, og litt skjul for presset ved å måtte svare der og da."
           }
         }
       ]

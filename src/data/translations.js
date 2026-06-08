@@ -2499,8 +2499,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Hvordan kjennes det inni deg når du føler deg så liten?"
     },
     "dp_exploratory-questions_case-sara_02": {
-      "text": "[Flau] Under brunsjen sier jeg at det går bra, men halsen strammer seg før løgnen er ferdig.",
-      "suggestion": "Når halsen strammer seg før du får svart, hvilken følelse prøver å ikke bli hørt?"
+      "text": "[Flau] Under brunsjen fortsatte jeg å si at det gikk bra, men jeg merket at jeg prøvde for hardt.",
+      "suggestion": "Når du merker at du prøver så hardt å virke som om det går bra, hvilken følelse er nærmest?"
     },
     "dp_exploratory-questions_case-sara_03": {
       "text": "[Sint] Jeg ble sint for at han glemte bursdagen min, og så følte jeg meg teit som brydde meg.",
@@ -2511,24 +2511,24 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du ser for deg å spørre ham om det, hvilken følelse kommer først?"
     },
     "dp_exploratory-questions_case-sara_05": {
-      "text": "[Panisk] Noen ganger sletter jeg gamle bilder og leter etter dem igjen før panikken legger seg.",
-      "suggestion": "Når du leter etter bildene igjen, hva håper den paniske delen å kjenne?"
+      "text": "[Panisk] Noen ganger sletter jeg gamle bilder og leter etter dem igjen ti minutter senere.",
+      "suggestion": "Når du ikke klarer å la bildene være borte, hvilken følelse kommer sterkest?"
     },
     "dp_exploratory-questions_case-sara_06": {
-      "text": "[Flau] Når noen er snille mot meg, faller blikket som om jeg er tatt på fersken i å ville ha for mye.",
-      "suggestion": "Når blikket faller, hvilken følelse dukker opp rundt det å ville ta imot vennlighet?"
+      "text": "[Flau] Når noen er snille mot meg, vet jeg plutselig ikke hva jeg skal gjøre med det.",
+      "suggestion": "Når vennlighet gjør deg usikker på hva du skal gjøre, hvilken følelse kommer opp?"
     },
     "dp_exploratory-questions_case-sara_07": {
-      "text": "[Lavmælt] Jeg våkner og strekker meg over sengen, og så treffer det meg på nytt.",
-      "suggestion": "I det første øyeblikket der du husker, hvilken følelse kommer før ordene?"
+      "text": "[Lavmælt] Jeg våkner og glemmer et sekund at han er borte, og så treffer det meg på nytt.",
+      "suggestion": "I det første øyeblikket der du husker, hvilken følelse kommer før du forklarer den?"
     },
     "dp_exploratory-questions_case-sara_08": {
       "text": "[På gråten] Jeg blir flau over at jeg fortsatt er så trist, som om sorgen burde hatt utløpsdato.",
       "suggestion": "Når flauheten sier at sorgen burde vært over, hvilken tristhet ber fortsatt om å bli lagt merke til?"
     },
     "dp_exploratory-questions_case-sara_09": {
-      "text": "[På gråten] Når jeg ser par på butikken, verker det i brystet, og jeg går før jeg begynner å gråte.",
-      "suggestion": "Når smerten drar deg mot døren, hva lengter den mest etter?"
+      "text": "[På gråten] Når jeg ser par på butikken, går jeg før jeg begynner å gråte.",
+      "suggestion": "Når du går før tårene kommer, hvilken følelse prøver du å ikke vise?"
     },
     "dp_exploratory-questions_case-sara_10": {
       "text": "[Lavmælt] Jeg går over gaten for å slippe å passere kafeen vi pleide å kalle vår.",
@@ -2536,11 +2536,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-michael_01": {
       "text": "[Anspent og sint] Når noen retter på én detalj, blir jeg sint og flau samtidig.",
-      "suggestion": "Hvor merker du blandingen av sinne og flauhet akkurat nå?"
+      "suggestion": "Hva merker du inni deg når sinne og flauhet kommer samtidig?"
     },
     "dp_exploratory-questions_case-michael_02": {
-      "text": "[Defensiv] Et sukk fra kona får meg til å stritte imot, som om hun allerede har bestemt at jeg tar feil.",
-      "suggestion": "Når det sukket lander som en dom, hvor kjenner du først motstanden inni deg?"
+      "text": "[Defensiv] Et sukk fra kona får meg til å anta at hun allerede har bestemt at jeg tar feil.",
+      "suggestion": "Når det sukket lander som en dom, hvilken følelse kommer først?"
     },
     "dp_exploratory-questions_case-michael_03": {
       "text": "[Anspent] Sjefen roste teamet, men ikke meg, og jeg klarte ikke å slutte å tenke på det.",
@@ -2548,15 +2548,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-michael_04": {
       "text": "[Anspent og sint] Jeg speider etter tegn på respektløshet i møterommet før jeg engang vet hvem som har kommet inn.",
-      "suggestion": "Når du ser for deg at du speider rundt i rommet, hva er det første tegnet inni deg på at du er på vakt?"
+      "suggestion": "Når du allerede speider etter respektløshet, hvilken følelse forbereder du deg på?"
     },
     "dp_exploratory-questions_case-michael_05": {
       "text": "[Defensiv] Når jeg beklager til kona mi, føles det som om jeg har gitt henne seieren.",
-      "suggestion": "Når du ser for deg at du gir henne seieren, hvor lander følelsen av å være underlegen sterkest?"
+      "suggestion": "Når det å beklage kjennes som å tape, hvilken følelse er vanskeligst å bli værende med?"
     },
     "dp_exploratory-questions_case-michael_06": {
-      "text": "[Anspent] Når jeg er usikker på et svar foran teamet, strammer brystet seg fort.",
-      "suggestion": "Hvis stramheten i brystet kunne snakke, hva ville den sagt at den beskytter deg mot?"
+      "text": "[Anspent] Når jeg er usikker på et svar foran teamet, begynner jeg å snakke fortere så ingen skal merke det.",
+      "suggestion": "Når ingen får se at du er usikker, hvilken følelse unngår du?"
     },
     "dp_exploratory-questions_case-michael_07": {
       "text": "[Anspent og sint] Jeg sa til kona mi at det gikk fint, men jeg var fortsatt sint flere timer etterpå.",
@@ -2564,23 +2564,23 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-michael_08": {
       "text": "[Defensiv] Jeg smeller med dører hjemme så ingen hører meg si at jeg ble såret.",
-      "suggestion": "I øyeblikket før døren smeller, hvor viser det såre seg inni deg?"
+      "suggestion": "Før døren smeller, hvilken følelse er der som er vanskelig å si høyt?"
     },
     "dp_exploratory-questions_case-michael_09": {
       "text": "[Anspent] Når noen ber meg roe meg ned, eksploderer jeg før jeg hører noe mer.",
-      "suggestion": "Når de ordene treffer, hvor i deg kommer den første bølgen?"
+      "suggestion": "Når de ordene treffer, hvilken følelse kommer før eksplosjonen?"
     },
     "dp_exploratory-questions_case-michael_10": {
       "text": "[Skamfull] Jeg hater å føle meg svak foran folk, som om alle kan se at jeg mislyktes.",
-      "suggestion": "Når «svak» dukker opp foran folk, hvilket bilde kommer med det?"
+      "suggestion": "Når «svak» dukker opp foran folk, hvilken følelse kommer med det å bli sett?"
     },
     "dp_exploratory-questions_case-jason_01": {
-      "text": "[Stille] Når det er min tur til å snakke, strammer halsen seg og hodet blir blankt.",
-      "suggestion": "Når halsen strammer seg og alt blir blankt, hva begynner å vise seg under, om så bare et hint?"
+      "text": "[Stille] Når det er min tur til å snakke, mister jeg setningen, og det virker som om alle venter.",
+      "suggestion": "Når det virker som om alle venter, hvilken følelse dukker opp?"
     },
     "dp_exploratory-questions_case-jason_02": {
       "text": "[Skjelvende stemme] Stemmen skjelver når jeg sier navnet mitt, og så hører jeg hvor patetisk jeg virker.",
-      "suggestion": "Når du hører skjelvingen i stemmen din, hvilken følelse kommer mot deg først?"
+      "suggestion": "Når du hører skjelvingen i stemmen din, hvilken følelse kommer først?"
     },
     "dp_exploratory-questions_case-jason_03": {
       "text": "[Engstelig] En venn svarte ikke, og jeg fortsatte å lure på hva jeg hadde gjort feil.",
@@ -2591,16 +2591,16 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Hva skjer inni deg når du tror latteren handler om deg?"
     },
     "dp_exploratory-questions_case-jason_05": {
-      "text": "[Nølende] Jeg holder blikket på bordet så folk ikke skal se hvor klein jeg føler meg.",
-      "suggestion": "Når blikket faller til bordet, hvilken følelse rundt å bli sett dukker opp først?"
+      "text": "[Nølende] Jeg holder blikket på bordet så folk ikke skal spørre meg om noe.",
+      "suggestion": "Når det kjennes risikabelt å se opp, hvilken følelse kommer rundt det å bli sett?"
     },
     "dp_exploratory-questions_case-jason_06": {
       "text": "[Engstelig] Etter møter spiller jeg av én setning i timevis og kjenner ansiktet bli varmt.",
-      "suggestion": "Hvis vi tar én av setningene du spiller av, hvilken følelse ligger under flauheten?"
+      "suggestion": "Hvis vi tar én av setningene du spiller av, hvilken følelse holder gjennomgangen i gang?"
     },
     "dp_exploratory-questions_case-jason_07": {
       "text": "[Stille] På fester følger jeg med på utgangen før jeg engang vet hvem som er i rommet.",
-      "suggestion": "Når oppmerksomheten går mot utgangen, hva merker du at du frykter skal skje med deg?"
+      "suggestion": "Når oppmerksomheten går mot utgangen, hvilken følelse prøver du å komme unna?"
     },
     "dp_exploratory-questions_case-jason_08": {
       "text": "[Nølende] Noen smilte til meg i gangen, og jeg klarte ikke å skjønne om det var vennlig eller kleint.",
@@ -2612,7 +2612,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-jason_10": {
       "text": "[Stille] Søndagskveldene kjennes tunge, som om alle andre har et liv som venter på dem.",
-      "suggestion": "Når søndagstyngden kommer, hva sier den om hvor du hører til?"
+      "suggestion": "Når søndagstyngden kommer, hvilken følelse kommer med tanken på tilhørighet?"
     },
     "dp_exploratory-questions_case-laura_01": {
       "text": "[Langsomt og flatt] De fleste dager føles dempet, og jeg klarer ikke vite om jeg er trist eller bare nummen.",
@@ -3215,124 +3215,124 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Vi jager ikke en perfekt normal. Vi bygger mot mer søvn, mindre nedstenging og trygg kontakt, som er tegn på at følelser og nærhet kan komme tilbake i doser du tåler."
     },
     "dp_empathic-explorations_case-sara_01": {
-      "text": "[Lavmælt] Bare det å se navnet hans dukke opp får magen min til å synke, og hele meg blir liten.",
-      "suggestion": "Det er det suget i magen, og med det en litenhet, nesten som om en del av deg folder seg sammen."
+      "text": "[Lavmælt] Bare det å se navnet hans dukke opp setter meg fortsatt ut, og jeg hater hvor mye det betyr.",
+      "suggestion": "Å se navnet hans setter deg fortsatt ut, og det er vondt at det fortsatt betyr så mye."
     },
     "dp_empathic-explorations_case-sara_02": {
-      "text": "[Flau] Jeg sier «det går bra» til venner, men halsen snører seg som om ordene sitter fast.",
-      "suggestion": "Stramheten bærer ordene du holder tilbake, kanskje sorgen som ikke trygt får komme ut som «det går ikke bra»."
+      "text": "[Flau] Jeg sier til venner at det går bra, og så blir jeg redd for at de hører at det ikke gjør det.",
+      "suggestion": "Du prøver å høres ut som om det går bra, samtidig som det kjennes risikabelt at de kan høre hvor lite bra det er."
     },
     "dp_empathic-explorations_case-sara_03": {
       "text": "[På gråten] Jeg føler meg fortapt etter bruddet, som om jeg ikke vet hva jeg skal gjøre med kveldene.",
-      "suggestion": "Du kjenner deg fortapt om kveldene nå. Vi kan senke tempoet rundt den tomme tiden og merke hva som kjennes vanskeligst der."
+      "suggestion": "Kveldene gjør deg usikker på hvor du skal gjøre av deg, og den fortaptheten har sin egen smerte."
     },
     "dp_empathic-explorations_case-sara_04": {
-      "text": "[Lavmælt] Jeg skrev «unnskyld» til ham tre ganger, og så innså jeg at jeg ikke engang vet hva jeg unnskyldte meg for.",
-      "suggestion": "Unnskyldningen strekker seg etter en vei tilbake til ham, og under den kan det ligge en frykt for at tapet må være din skyld."
+      "text": "[Lavmælt] Jeg skrev «unnskyld» til ham tre ganger, og så skjønte jeg at jeg ikke vet hva jeg prøvde å reparere.",
+      "suggestion": "Du strakte deg etter en slags reparasjon, og så ble det uklart hva du egentlig unnskyldte deg for."
     },
     "dp_empathic-explorations_case-sara_05": {
       "text": "[Panisk] Jeg sletter bilder for å bevise at jeg er ferdig, får panikk og leter etter dem igjen.",
-      "suggestion": "Én del prøver å gjøre slutten endelig, mens en annen får panikk over å miste det siste sporet av ham."
+      "suggestion": "Én handling sier «bli ferdig», og så sier panikken at denne slutten ikke er så enkel."
     },
     "dp_empathic-explorations_case-sara_06": {
       "text": "[Flau] Når noen er snille mot meg, faller blikket før jeg rekker å stoppe det.",
-      "suggestion": "Når vennlighet kommer nær, senker noe i deg blikket, kanskje uten helt å vite hva det skal gjøre med det å bli tatt vare på."
+      "suggestion": "Vennligheten kommer, og blikket ditt går ned før du egentlig rekker å ta den inn."
     },
     "dp_empathic-explorations_case-sara_07": {
-      "text": "[Lavmælt] I noen sekunder etter at jeg våkner, glemmer jeg det, og så faller hele brystet.",
-      "suggestion": "Det fallet bærer øyeblikket der tapet kommer tilbake, som om hele deg må lære slutten på nytt hver morgen."
+      "text": "[Lavmælt] I noen sekunder etter at jeg våkner, glemmer jeg at han er borte, og så husker jeg det.",
+      "suggestion": "Det er den korte lettelsen, og så kommer tapet tilbake på én gang."
     },
     "dp_empathic-explorations_case-sara_08": {
       "text": "[Flau] Jeg er trist, og så blir jeg flau over at jeg fortsatt snakker om det.",
-      "suggestion": "Tristheten er her, og flauheten kommer rett oppå. Vi kan gi begge litt plass og merke hvilken som er nærmest."
+      "suggestion": "Tristheten er her, og flauheten kommer raskt oppå; begge er en del av dette øyeblikket."
     },
     "dp_empathic-explorations_case-sara_09": {
-      "text": "[På gråten] Når jeg ser par holde hender, verker brystet, og plutselig føler jeg meg barnslig for å ville ha det.",
-      "suggestion": "Verken strekker seg mot å bli valgt, og skammen ser ut til å komme rett bak lengselen."
+      "text": "[På gråten] Når jeg ser par holde hender, blir jeg lei meg, og så føler jeg meg barnslig for å ville ha det.",
+      "suggestion": "Det å se dem vekker ønsket, og så kommer skammen inn rundt ønsket."
     },
     "dp_empathic-explorations_case-sara_10": {
       "text": "[Flau] Hvis jeg lar noen se hele rotet, ser jeg for meg at de stille ønsker at jeg skal slutte.",
-      "suggestion": "Det finnes et ønske om å bli kjent, og samtidig en frykt for at smerten din blir for mye for andre."
+      "suggestion": "Du vil at noen skal vite hvor vondt det er, og samtidig forventer du at de trekker seg unna."
     },
     "dp_empathic-explorations_case-michael_01": {
-      "text": "[Fast] Når noen korrigerer én detalj, ringer det i ørene og jeg kjenner at rommet ser på meg.",
-      "suggestion": "Ringingen ser ut til å markere øyeblikket der korrigering blir til blottstillelse, kanskje før sinnet har rukket helt fram."
+      "text": "[Fast] Når noen retter på én detalj, hører jeg det om igjen etterpå som om jeg ble hengt ut.",
+      "suggestion": "Korrigeringen fortsetter å høres ut som å bli hengt ut, og sinnet ligger tett på den følelsen."
     },
     "dp_empathic-explorations_case-michael_02": {
-      "text": "[Anspent og sint] Jeg går inn i møter og sjekker allerede hvem som kan komme til å vise meg manglende respekt før noen har sagt noe.",
-      "suggestion": "Skanningen skjer før noe har gått galt, som om en del av deg prøver å fange ydmykelsen før den lander."
+      "text": "[Anspent og sint] Jeg går inn i møter allerede klar for at noen skal vise meg manglende respekt.",
+      "suggestion": "Du er på vakt før noe har skjedd, nesten som om du venter på at manglende respekt skal vise seg."
     },
     "dp_empathic-explorations_case-michael_03": {
-      "text": "[Anspent] Etter et utbrudd er det en grop i magen jeg unngår.",
-      "suggestion": "Den gropen i magen ser ut til å romme noe som er vanskelig å møte etter at sinnet har lagt seg."
+      "text": "[Anspent] Etter at jeg har eksplodert hjemme, sier jeg til meg selv at de presset meg, men jeg kjenner meg fortsatt elendig.",
+      "suggestion": "En del av deg argumenterer med at de presset deg, og en annen del blir sittende igjen og kjenne seg elendig etterpå."
     },
     "dp_empathic-explorations_case-michael_04": {
       "text": "[Skamfull] Noen ganger får jeg lyst til å kaste telefonen etter en jobbmelding, og så føler jeg meg latterlig.",
-      "suggestion": "Meldingen gir en rask trang til å kaste noe, og så kommer skammen etterpå. Vi kan bremse det første treffet og merke hvordan det kjentes."
+      "suggestion": "Trangen kommer fort, og etterpå sitter du igjen og ser på deg selv med skam."
     },
     "dp_empathic-explorations_case-michael_05": {
-      "text": "[Defensiv] Et lite sukk fra kona mi treffer som om dommen allerede er falt, og jeg fyrer meg opp før jeg skjønner hvorfor.",
-      "suggestion": "Sukket ser raskt ut til å bli en dom, og varmen samler seg rundt det første stikket."
+      "text": "[Defensiv] Et lite sukk fra kona mi kan kjennes som om hun allerede har bestemt at jeg er problemet.",
+      "suggestion": "Sukket lander som en avgjørelse om deg, og så blusser det raskt opp."
     },
     "dp_empathic-explorations_case-michael_06": {
-      "text": "[Anspent] Når jeg ikke vet svaret, låser brystet seg, som om alle kan se at jeg ikke er bra nok.",
-      "suggestion": "Når du ikke vet, blir det fort som å bli avslørt som ikke bra nok, og låsningen holder skammen på plass."
+      "text": "[Anspent] Når jeg ikke vet svaret, blir jeg anspent og begynner å snakke som om jeg vet det likevel.",
+      "suggestion": "Det er vanskelig å la det synes at du ikke vet, så du går raskt inn i å høres sikker ut."
     },
     "dp_empathic-explorations_case-michael_07": {
-      "text": "[Skamfull] Jeg leser hver melding om igjen før jeg sender, fordi én feil kjennes som å bli avslørt.",
-      "suggestion": "Sjekkingen ser ut til å stå vakt mot avsløring, som om én feil kan avdekke noe skamfullt."
+      "text": "[Skamfull] Jeg leser hver melding om igjen før jeg sender, fordi én feil kan plage meg hele natten.",
+      "suggestion": "Én mulig feil kan bli værende i timevis, så det blir vanskelig å slutte å sjekke."
     },
     "dp_empathic-explorations_case-michael_08": {
-      "text": "[Anspent og sint] I det øyeblikket jeg føler meg svak, hører jeg stemmen til faren min og vil knuse den.",
-      "suggestion": "«Svak» trekker den gamle stemmen nær, og trangen til å knuse den kan beskytte den mindre følelsen under."
+      "text": "[Anspent og sint] I det øyeblikket jeg føler meg svak, blir jeg sint og hører faren min si at det nettopp er problemet.",
+      "suggestion": "«Svak» bringer sinnet og farens dom rett inn i rommet."
     },
     "dp_empathic-explorations_case-michael_09": {
-      "text": "[Skamfull] Noen netter spiller jeg av hvert ord jeg sa, og prøver å finne nøyaktig når jeg mistet kontrollen.",
-      "suggestion": "Gjennomgangen leter liksom etter øyeblikket der du kunne ha stoppet det, med skammen fortsatt våken ved siden av deg."
+      "text": "[Skamfull] Noen netter spiller jeg av hvert ord jeg sa, og prøver å finne hvor jeg rotet det til.",
+      "suggestion": "Du går gjennom hvert ord på nytt og leter etter punktet der det gikk galt."
     },
     "dp_empathic-explorations_case-michael_10": {
-      "text": "[Sårbar] Jeg vil at sønnen min skal føle seg trygg rundt meg, og det strammer seg i halsen når jeg sier det.",
-      "suggestion": "Ønsket om at sønnen din skal føle seg trygg betyr mye, og halsen strammer seg mens du sier det. La den stramheten få litt plass og se hva den holder igjen."
+      "text": "[Sårbar] Jeg vil at sønnen min skal føle seg trygg rundt meg, og jeg vet ikke hvordan jeg skal si det uten å høres svak ut.",
+      "suggestion": "Du vil så sterkt at han skal være trygg, og selv det å si det henter fram den gamle regelen om svakhet."
     },
     "dp_empathic-explorations_case-jason_01": {
-      "text": "[Stille] Når det er min tur til å snakke, strammer halsen seg og hodet blir blankt.",
-      "suggestion": "Den stramme halsen og blankheten kommer sammen, som om systemet ditt visker alt ut når oppmerksomheten vendes mot deg."
+      "text": "[Stille] Når det er min tur til å snakke, mister jeg tråden i det jeg skulle si.",
+      "suggestion": "Oppmerksomheten vendes mot deg, og ordene forsvinner akkurat når du trenger dem."
     },
     "dp_empathic-explorations_case-jason_02": {
       "text": "[Nølende] Jeg holder fingeren over «send», og så sletter jeg meldingen fordi det å ville ha kontakt plutselig kjennes ydmykende.",
-      "suggestion": "Ønsket om å rekke ut er der, og så ser ydmykelsen ut til å skylle inn og viske det bort."
+      "suggestion": "Ønsket om kontakt er der, og så gjør ydmykelsen det vanskelig å la meldingen bli stående."
     },
     "dp_empathic-explorations_case-jason_03": {
-      "text": "[Redd] Jeg ble invitert i bursdag, og jeg ble både glad og redd.",
-      "suggestion": "Det er både glede og frykt der. Vi kan holde begge et øyeblikk og merke hvilken som er lettest å slippe til."
+      "text": "[Redd] Jeg ble invitert i bursdag, og en del av meg ble glad, men så begynte jeg å bekymre meg for at jeg kom til å ødelegge det.",
+      "suggestion": "Det er glede over å bli invitert, og så begynner bekymringen å trenge seg på."
     },
     "dp_empathic-explorations_case-jason_04": {
-      "text": "[Stille] Hvis jeg møter blikket til noen for lenge, kjennes det som om de oppdager alt det keitete i meg.",
-      "suggestion": "Blikkontakt ser ut til å bli gransking, og da blir alt det keitete plutselig synlig."
+      "text": "[Stille] Hvis jeg møter blikket til noen for lenge, antar jeg at de kan se hvor klein jeg er.",
+      "suggestion": "Blikkontakten begynner å kjennes som om de kan se hvor klein du føler deg, akkurat det du prøver å skjule."
     },
     "dp_empathic-explorations_case-jason_05": {
       "text": "[Flau] Etter møter kan én liten pinlig pause få meg til å krympe meg resten av dagen.",
-      "suggestion": "Den lille pausen blir mye større inni deg, nesten som om den står for hele frykten for å bli dømt."
+      "suggestion": "Den lille pausen blir med deg, og flauheten kommer tilbake lenge etter at møtet er over."
     },
     "dp_empathic-explorations_case-jason_06": {
-      "text": "[Engstelig] Når jeg går inn i et rom, finner jeg utgangen før jeg lar meg legge merke til noen.",
-      "suggestion": "Utgangen ser ut til å bli tryggere å finne enn menneskene, som om kontakt må vente bak fluktmuligheten."
+      "text": "[Engstelig] Når jeg går inn i et rom, ser jeg etter utgangen før jeg bestemmer meg for om jeg skal prøve å delta.",
+      "suggestion": "Utgangen fanger oppmerksomheten først, før du får finne ut om det kan gå an å bli med."
     },
     "dp_empathic-explorations_case-jason_07": {
-      "text": "[Stille] Før jeg presenterer meg, svetter hendene som om alle skal vurdere meg.",
-      "suggestion": "Selv en enkel presentasjon begynner å kjennes som en prøve, med hele systemet ditt spent på en karakter."
+      "text": "[Stille] Før jeg presenterer meg, begynner jeg å se for meg hvor rar jeg kommer til å høres ut.",
+      "suggestion": "Allerede før du snakker, blir øyeblikket til en test på hvordan du kommer til å virke."
     },
     "dp_empathic-explorations_case-jason_08": {
-      "text": "[Nølende] Jeg sammenligner meg med alle der og ender alltid nederst.",
-      "suggestion": "Sammenligning blir raskt til en rangering, og på en eller annen måte havner du alltid der det gjør mest vondt."
+      "text": "[Nølende] Jeg sammenligner meg med alle der og bestemmer alltid at jeg er den minst interessante personen.",
+      "suggestion": "Sammenligningen ender med deg nederst, og det gjør vondt før noen faktisk har avvist deg."
     },
     "dp_empathic-explorations_case-jason_09": {
-      "text": "[Blank] Noen ganger later jeg som jeg skriver melding, så småprat ikke avslører hvor blank jeg blir.",
-      "suggestion": "Telefonen gir deg dekning, mens blankheten under ser ut til å bære frykten for å bli sett."
+      "text": "[Blank] Noen ganger later jeg som jeg skriver melding, så småpraten ikke trenger å begynne.",
+      "suggestion": "Telefonen gir deg en måte å sette kontakten på pause, og litt skjul for presset ved å måtte svare der og da."
     },
     "dp_empathic-explorations_case-jason_10": {
       "text": "[Stille og skamfull] Jeg følte meg ensom på søndag, men jeg ignorerte også to meldinger.",
-      "suggestion": "Ensomheten er der, og samtidig trekker du deg unna meldingene. Vi kan være nær den spenningen og merke hva hver side prøver å gjøre."
+      "suggestion": "Ensomheten og det å trekke seg unna er der samtidig, side om side."
     },
     "dp_empathic-explorations_case-laura_01": {
       "text": "[Langsomt og flatt] De fleste dager er flate, men hvis tristhet flimrer, stenger jeg den ned før den brer seg.",

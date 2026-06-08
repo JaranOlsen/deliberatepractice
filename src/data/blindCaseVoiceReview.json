@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T08:42:07.311Z",
+  "generatedAt": "2026-06-08T10:07:26.761Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -385,11 +385,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Defensive] When I apologize to my wife, it feels like I have handed her the win.",
-            "response": "As you picture handing her the win, where does the one-down feeling land strongest?"
+            "response": "When apologizing feels like losing, what feeling is hardest to stay with?"
           },
           "no": {
             "statement": "[Defensiv] Når jeg beklager til kona mi, føles det som om jeg har gitt henne seieren.",
-            "response": "Når du ser for deg at du gir henne seieren, hvor lander følelsen av å være underlegen sterkest?"
+            "response": "Når det å beklage kjennes som å tape, hvilken følelse er vanskeligst å bli værende med?"
           }
         },
         {
@@ -577,12 +577,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Tearful] When I see couples holding hands, my chest aches and I suddenly feel childish for wanting that.",
-            "response": "The ache reaches toward being chosen, and the shame seems to come right behind the longing."
+            "statement": "[Tearful] When I see couples holding hands, I get upset and then feel childish for wanting that.",
+            "response": "Seeing them brings up the wanting, and then shame moves in around the wanting."
           },
           "no": {
-            "statement": "[På gråten] Når jeg ser par holde hender, verker brystet, og plutselig føler jeg meg barnslig for å ville ha det.",
-            "response": "Verken strekker seg mot å bli valgt, og skammen ser ut til å komme rett bak lengselen."
+            "statement": "[På gråten] Når jeg ser par holde hender, blir jeg lei meg, og så føler jeg meg barnslig for å ville ha det.",
+            "response": "Det å se dem vekker ønsket, og så kommer skammen inn rundt ønsket."
           }
         }
       ]
@@ -600,12 +600,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Firm] When someone corrects one detail, my ears ring and I feel the room watching me.",
-            "response": "The ringing seems to mark the instant correction turns into exposure, maybe before anger has fully arrived."
+            "statement": "[Firm] When someone corrects one detail, I keep hearing it afterward like I was called out.",
+            "response": "The correction keeps echoing as being called out, and the anger stays close to that exposure."
           },
           "no": {
-            "statement": "[Fast] Når noen korrigerer én detalj, ringer det i ørene og jeg kjenner at rommet ser på meg.",
-            "response": "Ringingen ser ut til å markere øyeblikket der korrigering blir til blottstillelse, kanskje før sinnet har rukket helt fram."
+            "statement": "[Fast] Når noen retter på én detalj, hører jeg det om igjen etterpå som om jeg ble hengt ut.",
+            "response": "Korrigeringen fortsetter å høres ut som å bli hengt ut, og sinnet ligger tett på den følelsen."
           }
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T08:42:07.310Z",
+  "generatedAt": "2026-06-08T10:07:26.759Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -640,12 +640,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "[Panicked] Sometimes I delete old photos and then search for them again before the panic settles.",
-                "response": "When you search for the photos again, what is the panicked part hoping to feel?"
+                "statement": "[Panicked] Sometimes I delete old photos and then look for them again ten minutes later.",
+                "response": "When you cannot let the photos stay gone, what feeling comes up most strongly?"
               },
               "no": {
-                "statement": "[Panisk] Noen ganger sletter jeg gamle bilder og leter etter dem igjen før panikken legger seg.",
-                "response": "Når du leter etter bildene igjen, hva håper den paniske delen å kjenne?"
+                "statement": "[Panisk] Noen ganger sletter jeg gamle bilder og leter etter dem igjen ti minutter senere.",
+                "response": "Når du ikke klarer å la bildene være borte, hvilken følelse kommer sterkest?"
               }
             },
             {
@@ -657,12 +657,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "[Tearful] Seeing couples at the market makes my chest ache, and I leave before I cry.",
-                "response": "When that ache pulls you toward leaving, what does it most long for?"
+                "statement": "[Tearful] Seeing couples at the market makes me leave before I cry.",
+                "response": "When you leave before the tears come, what feeling are you trying not to show?"
               },
               "no": {
-                "statement": "[På gråten] Når jeg ser par på butikken, verker det i brystet, og jeg går før jeg begynner å gråte.",
-                "response": "Når smerten drar deg mot døren, hva lengter den mest etter?"
+                "statement": "[På gråten] Når jeg ser par på butikken, går jeg før jeg begynner å gråte.",
+                "response": "Når du går før tårene kommer, hvilken følelse prøver du å ikke vise?"
               }
             }
           ]
@@ -1015,12 +1015,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "[Quietly] When it's my turn to speak, my throat tightens and my mind goes white.",
-                "response": "The tight throat and whiteout come in together, as if your system wipes everything blank when attention turns toward you."
+                "statement": "[Quietly] When it is my turn to speak, I lose track of what I was going to say.",
+                "response": "Attention turns toward you, and the words disappear just when you need them."
               },
               "no": {
-                "statement": "[Stille] Når det er min tur til å snakke, strammer halsen seg og hodet blir blankt.",
-                "response": "Den stramme halsen og blankheten kommer sammen, som om systemet ditt visker alt ut når oppmerksomheten vendes mot deg."
+                "statement": "[Stille] Når det er min tur til å snakke, mister jeg tråden i det jeg skulle si.",
+                "response": "Oppmerksomheten vendes mot deg, og ordene forsvinner akkurat når du trenger dem."
               }
             },
             {
@@ -1033,11 +1033,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Embarrassed] After meetings, one small awkward pause can make me cringe for the rest of the day.",
-                "response": "That tiny pause becomes much larger inside, almost as if it stands in for the whole fear of being judged."
+                "response": "That small pause stays with you, and the cringe keeps returning long after the meeting is over."
               },
               "no": {
                 "statement": "[Flau] Etter møter kan én liten pinlig pause få meg til å krympe meg resten av dagen.",
-                "response": "Den lille pausen blir mye større inni deg, nesten som om den står for hele frykten for å bli dømt."
+                "response": "Den lille pausen blir med deg, og flauheten kommer tilbake lenge etter at møtet er over."
               }
             },
             {
@@ -1049,12 +1049,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "[Blank] Sometimes I pretend to text so small talk cannot expose how blank I feel.",
-                "response": "The phone gives you cover, while the blankness underneath seems to carry the fear of being seen."
+                "statement": "[Blank] Sometimes I pretend to text so small talk does not have to start.",
+                "response": "The phone gives you a way to pause the contact, and a little cover from being put on the spot."
               },
               "no": {
-                "statement": "[Blank] Noen ganger later jeg som jeg skriver melding, så småprat ikke avslører hvor blank jeg blir.",
-                "response": "Telefonen gir deg dekning, mens blankheten under ser ut til å bære frykten for å bli sett."
+                "statement": "[Blank] Noen ganger later jeg som jeg skriver melding, så småpraten ikke trenger å begynne.",
+                "response": "Telefonen gir deg en måte å sette kontakten på pause, og litt skjul for presset ved å måtte svare der og da."
               }
             }
           ]
