@@ -1,6 +1,6 @@
 # Gold-Standard Content Comparison
 
-Date: 2026-06-03; branch update through 2026-06-07
+Date: 2026-06-03; branch update through 2026-06-08
 
 ## Purpose
 
@@ -37,7 +37,7 @@ Best-aligned areas:
 - Self-Disclosure
 - Empathic Conjectures
 
-Branch update: Empathic Evocations, Marker Recognition and Chair Work, Alliance Repair, easy-tier Empathic Affirmation and Validation, all-tier Exploratory Questions, easy-tier Empathic Explorations, and hard-tier Therapist Self-Awareness responses have all received major repair passes since the original audit. Chair-work, alliance repair, easy validation, exploratory questions, easy exploration, and hard self-awareness responses should be treated as regression-polish areas rather than top missing-coverage areas.
+Branch update: Empathic Evocations, Marker Recognition and Chair Work, Alliance Repair, easy-tier Empathic Affirmation and Validation, all-tier Exploratory Questions, easy-tier Empathic Explorations, easy-tier Empathic Understanding regression polish, and hard-tier Therapist Self-Awareness responses have all received repair or polish passes since the original audit. Chair-work, alliance repair, easy validation, exploratory questions, easy exploration, easy understanding, and hard self-awareness responses should be treated as regression-polish areas rather than top missing-coverage areas.
 
 Instruction-level risks:
 
@@ -60,7 +60,7 @@ Ratings:
 | Therapist Self-Awareness | Easy/beginner | Mixed | Low | Good rupture/avoidance triggers, but misses positive warmth, dream material, cultural adjustment, and hopeful first-session material. |
 | Therapist Self-Awareness | Moderate/intermediate | Mixed | Low | Strong guarded/challenging case material, but missing religion/culture mismatch, direct substance-in-session disclosure, ordinary breakup grief, and promotion/violence-triggered therapist reactions. |
 | Therapist Self-Awareness | Hard/advanced | Strong | High | Now covers suicidality/self-harm, competence testing, erotic/transference pressure, distrust, trauma shame, and sexist/substance-minimizing presentation; recent response pass tightened internal regulation and client-facing steadiness. |
-| Empathic Understanding | Easy/beginner | Mixed | Low | Current statements are often vivid and schema-specific; benchmark beginner markers are simpler ordinary sadness, stress, readiness, and grief. |
+| Empathic Understanding | Easy/beginner | Strong | Medium-High | Recent polish simplified selected Sara, Michael, and Jason responses toward concise basic reflection and softened one overly direct core-pain marker. |
 | Empathic Understanding | Moderate/intermediate | Mixed | Low-Medium | Case voice is strong, but markers are often more image-rich than basic understanding practice needs. Missing several everyday worry/anger examples. |
 | Empathic Understanding | Hard/advanced | Mixed | Medium | Has shame, anxiety, exposure, and relational pain, but less coverage of substance-anxiety and "guide me" confusion markers. |
 | Empathic Affirmation and Validation | Easy/beginner | Strong | High | Recent pass now covers accident guilt, public-composure grief, presentation anxiety, broad social anger, and positive-invitation anxiety while preserving case voice. Empty-nest grief remains unsuitable for the fixed easy cases. |
@@ -174,7 +174,7 @@ This section paraphrases benchmark example families. "Covered" means the current
 
 1. Continue regression-polishing Empathic Evocations so client markers stay flatter, more cognitive, more guarded, or more symptom/situation-focused, leaving vivid imagery to the trainee.
 2. Continue regression-polishing Therapist Self-Awareness. Hard response polish is complete on this branch; future work should focus only on natural additional trigger breadth where the fixed cases can carry it.
-3. Simplify some early-tier Empathic Understanding markers. Easy validation, exploratory questions across tiers, and easy exploration have had benchmark-breadth passes and now mainly need regression checks.
+3. Continue regression-polishing early-tier Empathic Understanding markers and responses only where they drift into conjecture, core-pain formulation, or evocative language. Easy validation, exploratory questions across tiers, and easy exploration have had benchmark-breadth passes and now mainly need regression checks.
 4. Add missing high-intensity benchmark families to Staying in Contact: loving transference, guilt over harm, suicidal divorce, pet euthanasia, political rage, sexual-offense guilt, homicidal fantasy, collective trauma, and therapy-not-working anger.
 5. Polish already-close skills last: Treatment Rationale, Self-Disclosure, Empathic Conjectures, Marker Recognition and Chair Work, and Alliance Repair. These need targeted regression and response-variety checks rather than broad rewrites.
 

@@ -397,7 +397,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Angry] I hate catching myself checking the phone, still hoping his name will be there.",
-        "suggestion": "There is still a hopeful reach toward him, and it hurts to find it in yourself."
+        "suggestion": "You hate that part of you still checks for him."
       },
       {
         "text": "[Sad] I wake up and remember he is gone, and the whole morning feels heavy.",
@@ -405,23 +405,23 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tearful] Friends keep saying time helps, but I feel embarrassed that I am still this raw.",
-        "suggestion": "You feel exposed by how raw the grief still is, with embarrassment sitting on top of the hurt."
+        "suggestion": "You feel embarrassed that the grief is still this raw."
       },
       {
         "text": "[Softly] I keep busy so I don't think, and then I crash at night.",
-        "suggestion": "Busyness numbs it by day and the sadness floods back at night."
+        "suggestion": "Keeping busy helps during the day, and then it hits you at night."
       },
       {
         "text": "[Embarrassed] I don't want to burden anyone with this, so I make the room light and go home lonelier.",
-        "suggestion": "You protect other people from the grief, and it leaves you lonelier with it."
+        "suggestion": "You keep it light with others and go home lonelier."
       },
       {
         "text": "[Tearful] When I pass couples holding hands, it feels like everyone got chosen except me.",
         "suggestion": "Seeing couples brings up that sharp sense of being left unchosen."
       },
       {
-        "text": "[Softly] Part of me thinks he left because I am not actually lovable.",
-        "suggestion": "His leaving has stirred a painful doubt about whether you are lovable."
+        "text": "[Softly] Part of me keeps wondering what he saw that made him leave.",
+        "suggestion": "A part of you keeps wondering what he saw in you that made him leave."
       }
     ],
     "case-michael": [
@@ -435,7 +435,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] After I yell, I feel sick with shame when I see her face.",
-        "suggestion": "The anger burns out, and then shame hits when you see the hurt on her face."
+        "suggestion": "After yelling, seeing her face leaves you sick with shame."
       },
       {
         "text": "[Tense and angry] When people question me in meetings, I get angry fast.",
@@ -447,19 +447,19 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] I stay up overpreparing slides so no one catches me unsure in the morning.",
-        "suggestion": "Overpreparing protects you from the exposed feeling of being caught unsure."
+        "suggestion": "You stay up overpreparing so no one sees you unsure."
       },
       {
         "text": "[Firm] My wife's tone can set me off before I know what she actually said.",
-        "suggestion": "Her tone can land as a put-down before the words are fully there."
+        "suggestion": "Her tone can set off anger before you know what she said."
       },
       {
         "text": "[Tense and ashamed] I hate apologizing because it feels like handing her proof that I am weak.",
-        "suggestion": "Apologizing feels like giving up ground and being seen as weak."
+        "suggestion": "Apologizing feels like handing her proof that you are weak."
       },
       {
         "text": "[Tense] I tell myself I'm just holding standards, but really I feel accused.",
-        "suggestion": "You frame it as standards, and underneath there is the sting of feeling accused."
+        "suggestion": "You call it holding standards, and you also feel accused."
       },
       {
         "text": "[Ashamed] I lie awake replaying what I said to my wife and hating the look on her face.",
@@ -481,7 +481,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quietly] Compliments don't stick; I keep waiting for people to take them back.",
-        "suggestion": "Praise touches you briefly, then self-doubt prepares for it to disappear."
+        "suggestion": "Compliments do not stick, and you wait for people to take them back."
       },
       {
         "text": "[Hesitant] I get anxious sending even simple texts, so I keep rewriting them.",
@@ -489,11 +489,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Anxious] I eat lunch at my desk so I do not have to enter the break room.",
-        "suggestion": "Staying at your desk keeps you away from the scrutiny you expect in that room."
+        "suggestion": "Eating at your desk helps you avoid the break room."
       },
       {
         "text": "[Quietly] After I speak in a meeting, I replay every word until I cringe.",
-        "suggestion": "Speaking leaves you exposed, and the replay keeps shame going afterward."
+        "suggestion": "After you speak, you replay every word until you cringe."
       },
       {
         "text": "[Hesitant] In groups I go quiet and feel outside the circle before I have spoken.",
