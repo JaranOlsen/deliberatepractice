@@ -2031,7 +2031,7 @@ export const STATEMENT_SETS = {
     "case-laura": [
       {
         "text": "[Slow and flat] Most days are flat, but if sadness flickers I shut it down before it spreads.",
-        "suggestion": "The flatness protects you, and the flicker of sadness looks dangerous enough that a door closes before it can spread."
+        "suggestion": "Most days are flat, and when sadness starts to flicker, something in you shuts it down before it can spread."
       },
       {
         "text": "[Fearful] Raised voices do not even have to be aimed at me; I just go quiet and wait for it to pass.",
@@ -2047,7 +2047,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Distant] I wake up already expecting the day to go wrong, even when nothing has happened yet.",
-        "suggestion": "You wake already braced for something to go wrong. Maybe we can stay with that expectation and see what it is preparing you for."
+        "suggestion": "You wake already braced for something to go wrong. Let's notice what it is like to meet the day already expecting trouble."
       },
       {
         "text": "[Ashamed] Even gentle touch makes me jump, and then I hate that my reaction is so obvious.",
@@ -2055,7 +2055,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Slow and flat] When good news comes, I can say the right words, but I feel almost nothing.",
-        "suggestion": "The words know how to respond, while the feeling stays far away, as if joy cannot quite cross the distance."
+        "suggestion": "Your words can respond, while the feeling stays far away. Let's notice that almost-nothing place without pushing it."
       },
       {
         "text": "[Distant] Sometimes a song cracks something open, and for a minute I can almost feel the sadness.",
@@ -2101,7 +2101,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Angry, clenching fists] Disrespect hits my chest like a punch, and I need them to know it hurt.",
-        "suggestion": "The punch is not just anger; it carries a demand that the hurt underneath be recognized."
+        "suggestion": "Disrespect hits as hurt and anger together, and the need for them to know is right there with it."
       },
       {
         "text": "[Fearful] When I say I want them safe, I feel my anger drop and something softer scare me.",
@@ -2119,7 +2119,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Guilty] I keep folding laundry and answering messages so I do not have to feel resentful.",
-        "suggestion": "The doing keeps resentment moving at a distance, maybe because stopping would let the sadness underneath catch up."
+        "suggestion": "Keeping busy holds the resentment at a distance. Let's notice what happens when you imagine stopping for a moment."
       },
       {
         "text": "[Torn] When I say no, I keep explaining until the no almost disappears.",
@@ -2147,7 +2147,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Torn] Next to other moms I shrink, like they all know a rule I missed.",
-        "suggestion": "Comparison makes you smaller, and there may be an old fear of being the one who somehow failed the rules."
+        "suggestion": "Next to other moms, you shrink and feel outside a rule everyone else seems to know."
       },
       {
         "text": "[Tired] By bedtime I can't tell if I am sad, angry, or just completely used up.",
@@ -2176,8 +2176,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Testing people feels like a desperate way of checking whether you matter enough for them to stay."
       },
       {
-        "text": "[Desperate] When someone says goodbye, the room tilts like I am being dropped.",
-        "suggestion": "Goodbye seems to turn separation into a sudden drop, with everything inside scrambling for something to hold."
+        "text": "[Desperate] When someone says goodbye, I know it is normal, but I get scared and angry at the same time.",
+        "suggestion": "Goodbye brings fear and anger together, even while another part says it should be normal."
       },
       {
         "text": "[Panicked] Kindness makes me sob, and another part of me wants to bolt.",
@@ -2185,7 +2185,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] What was done to me makes me feel disgusting in my own skin.",
-        "suggestion": "That disgusting feeling sounds like something you carry in your body from what was done to you."
+        "suggestion": "That disgusting feeling is tied to what was done to you, and saying it brings the shame very close."
       },
       {
         "text": "[Desperate] I keep checking the door, and I can't tell if I am angry you will leave or scared you might forget me.",
@@ -2193,7 +2193,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Panicked] If you cancel, something in me wants to never come back.",
-        "suggestion": "A cancel does not feel small at all; it lands like a sharp confirmation that you might be dropped."
+        "suggestion": "A cancellation hits hard enough that one part wants to protect you by never coming back."
       }
     ],
     "case-david": [
@@ -2207,7 +2207,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Defensive] When I feel judged, I smooth my shirt and start listing achievements.",
-        "suggestion": "Straightening up and listing achievements feels like armor going on against shame."
+        "suggestion": "As judgment shows up, smoothing your shirt and listing achievements helps you stay composed. Let's notice the first moment you feel judged."
       },
       {
         "text": "[Controlled] Praise works for maybe ten seconds; then I start looking for the part they missed.",
@@ -2215,7 +2215,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Dismissive] In hard talks, I check my phone the moment I feel cornered.",
-        "suggestion": "The phone becomes a quick side door when closeness starts to feel like being trapped."
+        "suggestion": "When you feel cornered, the phone gives you a little distance. Let's stay with the moment just before you reach for it."
       },
       {
         "text": "[Irritated] When my kids cry, I get impatient before I even know why.",
@@ -2223,7 +2223,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Wounded but sharp] Admitting I am wrong makes my face burn like everyone can see the failure.",
-        "suggestion": "The burn carries more than being mistaken; it seems to expose a whole fear of failure being visible."
+        "suggestion": "Admitting you are wrong brings heat to your face, like the failure is suddenly visible."
       },
       {
         "text": "[Distant] Since the affair, I do not know whether I want forgiveness or to be left alone.",
@@ -2231,11 +2231,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Wounded but sharp] I want credit without having to ask, because asking makes me feel pathetic.",
-        "suggestion": "The wish to be noticed carries real hunger, and asking for it touches the shame of needing it so much."
+        "suggestion": "You want the credit, and asking for it immediately brings that pathetic feeling close."
       },
       {
         "text": "[Controlled] The idea of being ordinary feels unbearable, like losing the only proof I matter.",
-        "suggestion": "'Ordinary' seems to threaten the proof of worth you have been carrying for so long."
+        "suggestion": "'Ordinary' feels unbearable, as if it takes away the proof that you matter."
       }
     ],
     "case-marcus": [
@@ -2249,7 +2249,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and guarded] Crowds make my shoulders rise, and I stay near the wall without deciding to.",
-        "suggestion": "Your system chooses the edge before you do, as if distance is how it keeps you oriented and safe."
+        "suggestion": "Your shoulders rise and you move toward the wall before you decide anything. Let's notice that automatic move toward the edge."
       },
       {
         "text": "[Low voice] After dark I start wondering whether being alone is safer or just making me worse.",
@@ -2257,7 +2257,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Low voice] After work I sit in the car because the apartment feels too quiet to enter.",
-        "suggestion": "The car becomes a holding place before the quiet upstairs, maybe delaying the loneliness that waits there."
+        "suggestion": "The car gives you a pause before entering the quiet apartment. Let's stay with what you sense before you go upstairs."
       },
       {
         "text": "[Quiet and guarded] I let calls go silent because answering means explaining why I am not okay.",
@@ -2269,15 +2269,15 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Low voice] A sudden sound cuts through me, and before I think, I am scanning the room.",
-        "suggestion": "The sound seems to pull the room into threat before your mind has time to return."
+        "suggestion": "The sound cuts through, and the scanning starts before thought catches up."
       },
       {
         "text": "[Quiet and guarded] I don't pick up when family calls because I don't want to feel.",
-        "suggestion": "Not answering family seems like a way of keeping painful feeling from getting stirred."
+        "suggestion": "Letting the call go unanswered keeps feeling away for a while. Let's notice what you expect would come up if you answered."
       },
       {
         "text": "[Flat] Part of me thinks alone forever would hurt less than hoping and getting pulled under again.",
-        "suggestion": "Aloneness sounds protective, trying to spare you the drop that comes after hope."
+        "suggestion": "A part of you would rather choose aloneness than risk the pain that comes after hoping."
       }
     ]
   },

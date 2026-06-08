@@ -37,7 +37,7 @@ Best-aligned areas:
 - Self-Disclosure
 - Empathic Conjectures
 
-Branch update: Empathic Evocations, Marker Recognition and Chair Work, Alliance Repair, easy-tier Empathic Affirmation and Validation, all-tier Exploratory Questions, easy-tier Empathic Explorations, easy-tier Empathic Understanding regression polish, easy/moderate Staying in Contact with Intense Affect contact-first polish, and hard-tier Therapist Self-Awareness responses have all received repair or polish passes since the original audit. Chair-work, alliance repair, easy validation, exploratory questions, easy exploration, easy understanding, staying-in-contact, and hard self-awareness responses should be treated as regression-polish areas rather than top missing-coverage areas.
+Branch update: Empathic Evocations, Marker Recognition and Chair Work, Alliance Repair, easy-tier Empathic Affirmation and Validation, all-tier Exploratory Questions, all-tier Empathic Explorations, easy-tier Empathic Understanding regression polish, easy/moderate Staying in Contact with Intense Affect contact-first polish, and hard-tier Therapist Self-Awareness responses have all received repair or polish passes since the original audit. Chair-work, alliance repair, easy validation, exploratory questions, explorations, easy understanding, staying-in-contact, and hard self-awareness responses should be treated as regression-polish areas rather than top missing-coverage areas.
 
 Instruction-level risks:
 
@@ -73,8 +73,8 @@ Ratings:
 | Providing Treatment Rationale | Moderate/intermediate | Strong | High-Medium | Good skepticism/fear/numbing coverage; add more shame-about-crying and "positive thinking" archetypes if polishing. |
 | Providing Treatment Rationale | Hard/advanced | Strong | Medium-High | Good safety, overwhelm, self-harm, control, and practical skepticism markers; still could add more "emotions are the problem" and anger-control variants. |
 | Empathic Explorations | Easy/beginner | Strong | Medium-High | Recent pass simplified markers toward ordinary scene-plus-affect material and reduced body/metaphor language, with better coverage of lostness, anger/shame, uncertainty, and positive invitation anxiety. |
-| Empathic Explorations | Moderate/intermediate | Mixed | Low-Medium | Has live emotional edges, but lacks some benchmark relational ambiguity and therapist-trust markers. |
-| Empathic Explorations | Hard/advanced | Mixed | Low-Medium | Current hard material is intense but narrow. Missing dazed/foggy process, attraction to therapist, guarded hospitalization fear, and comparison-with-therapist shame. |
+| Empathic Explorations | Moderate/intermediate | Strong | Medium-High | Recent passes added relational ambiguity, therapist-trust/distrust, not-emotional/confused process, and ordinary uncertainty markers; selected responses were pulled back from conjecture/evocation drift. |
+| Empathic Explorations | Hard/advanced | Strong-Mixed | Medium-High | Now covers dazed/foggy process, attraction to therapist, guarded hospitalization fear, comparison-with-therapist shame, and hard-case mixed affect. Aisha and Marcus still need occasional regression checks because their case severity can pull toward intense-affect work. |
 | Empathic Evocations | Easy/beginner | Weak | Low-Medium | Statement themes overlap somewhat, but many current markers already provide evocative image/body language. The trainee is not left enough room to evoke. |
 | Empathic Evocations | Moderate/intermediate | Weak | Low | Same issue, amplified: current markers often contain the metaphor already. Missing flatter obsessive, worthless, betrayed, and hopeless markers. |
 | Empathic Evocations | Hard/advanced | Weak | Low | Hard statements are vivid and relationally charged, not flat/guarded enough. Missing benchmark-like denial after suicidality, macho feeling-block, and confidentiality threat. |
@@ -131,8 +131,8 @@ This section paraphrases benchmark example families. "Covered" means the current
 ### 6. Empathic Explorations
 
 - Easy: partial for lostness, anger, fear/guilt, and grief; missing uncertain positive excitement/dating ambiguity.
-- Moderate: partial for shame, discomfort, distrust, and detached/confused feeling; needs more natural relational ambiguity.
-- Hard: partial for dazed/foggy state, shame in comparison with therapist, confusion, and guardedness; missing direct therapist-attraction marker.
+- Moderate: covered or partial for shame, discomfort, distrust, detached/confused feeling, and natural relational ambiguity. Remaining gaps are mostly fixed-case breadth rather than marker quality.
+- Hard: covered or partial for dazed/foggy state, shame in comparison with therapist, direct therapist-attraction, guarded hospitalization fear, and confusion. Some Aisha/Marcus items remain clinically intense, so future checks should guard the exploration/intense-affect boundary.
 
 ### 7. Empathic Evocations
 

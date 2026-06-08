@@ -1,7 +1,7 @@
 {
   "name": "deliberatepractice",
   "private": true,
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://jaranolsen.github.io/deliberatepractice/",
   "type": "module",
   "scripts": {
