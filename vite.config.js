@@ -23,11 +23,23 @@ function getBuildRef() {
   }
 }
 
+function getBuildNumber() {
+  const explicitBuildNumber = process.env.VITE_APP_BUILD_NUMBER || process.env.GITHUB_RUN_NUMBER;
+  if (explicitBuildNumber) return explicitBuildNumber;
+
+  try {
+    return execSync('git rev-list --count HEAD', { encoding: 'utf8' }).trim();
+  } catch (err) {
+    return 'local';
+  }
+}
+
 export default defineConfig({
   base: '/deliberatepractice/',
   publicDir: 'public',
   define: {
     __APP_VERSION__: JSON.stringify(packageJson.version),
+    __BUILD_NUMBER__: JSON.stringify(getBuildNumber()),
     __BUILD_REF__: JSON.stringify(getBuildRef())
   },
   build: {
