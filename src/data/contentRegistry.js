@@ -4,7 +4,7 @@
 export const CONTENT_REGISTRY_SUMMARY = {
   "revision": "2026-03-07-v1",
   "track": "case_matrix",
-  "totalItems": 954,
+  "totalItems": 1080,
   "qaFlagTaxonomy": [
     "voice_off",
     "skill_miss",
@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-06-07T21:13:10.485Z"
+  "generatedAt": "2026-06-08T08:42:07.293Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -26418,6 +26418,209 @@ export const CONTENT_REGISTRY = {
           "translation_check",
           "safety"
         ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-sara_04",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-sara",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-sara"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-sara_05",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-sara",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-sara"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-sara_06",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-sara",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-sara"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-sara_07",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-sara",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-sara"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-sara_08",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-sara",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-sara"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-sara_09",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-sara",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-sara"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-sara_10",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-sara",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-sara"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
       }
     ],
     "case-michael": [
@@ -26481,6 +26684,211 @@ export const CONTENT_REGISTRY = {
       },
       {
         "id": "dp_marker-recognition-chairwork_case-michael_03",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-michael"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-michael_04",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-michael"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-michael_05",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-michael"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-michael_06",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-michael"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-michael_07",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-michael"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-michael_08",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-michael"
+        },
+        "riskFlags": [
+          "substance_use"
+        ],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-michael_09",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-michael"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-michael_10",
         "skillId": "marker-recognition-chairwork",
         "caseId": "case-michael",
         "track": "case_matrix",
@@ -26596,6 +27004,209 @@ export const CONTENT_REGISTRY = {
           "translation_check",
           "safety"
         ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-jason_04",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-jason"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-jason_05",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-jason"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-jason_06",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-jason"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-jason_07",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-jason"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-jason_08",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-jason"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-jason_09",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-jason"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-jason_10",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-jason"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
       }
     ],
     "case-laura": [
@@ -26659,6 +27270,211 @@ export const CONTENT_REGISTRY = {
       },
       {
         "id": "dp_marker-recognition-chairwork_case-laura_03",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-laura"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-laura_04",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-laura"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-laura_05",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-laura"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-laura_06",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-laura"
+        },
+        "riskFlags": [
+          "substance_use"
+        ],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-laura_07",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-laura"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-laura_08",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-laura"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-laura_09",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-laura"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-laura_10",
         "skillId": "marker-recognition-chairwork",
         "caseId": "case-laura",
         "track": "case_matrix",
@@ -26776,6 +27592,209 @@ export const CONTENT_REGISTRY = {
           "translation_check",
           "safety"
         ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-carlos_04",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-carlos"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-carlos_05",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-carlos"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-carlos_06",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-carlos"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-carlos_07",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-carlos"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-carlos_08",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-carlos"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-carlos_09",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-carlos"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-carlos_10",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-carlos"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
       }
     ],
     "case-nina": [
@@ -26839,6 +27858,209 @@ export const CONTENT_REGISTRY = {
       },
       {
         "id": "dp_marker-recognition-chairwork_case-nina_03",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-nina"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-nina_04",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-nina"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-nina_05",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-nina"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-nina_06",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-nina"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-nina_07",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-nina"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-nina_08",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-nina"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-nina_09",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-nina"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-nina_10",
         "skillId": "marker-recognition-chairwork",
         "caseId": "case-nina",
         "track": "case_matrix",
@@ -26954,6 +28176,209 @@ export const CONTENT_REGISTRY = {
           "translation_check",
           "safety"
         ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-aisha_04",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-aisha"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-aisha_05",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-aisha"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-aisha_06",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-aisha"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-aisha_07",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-aisha"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-aisha_08",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-aisha"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-aisha_09",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-aisha"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-aisha_10",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-aisha"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
       }
     ],
     "case-david": [
@@ -27017,6 +28442,211 @@ export const CONTENT_REGISTRY = {
       },
       {
         "id": "dp_marker-recognition-chairwork_case-david_03",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-david"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-david_04",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-david"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-david_05",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-david"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-david_06",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-david"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-david_07",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-david"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-david_08",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-david"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-david_09",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-david"
+        },
+        "riskFlags": [
+          "sexual_boundary"
+        ],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-david_10",
         "skillId": "marker-recognition-chairwork",
         "caseId": "case-david",
         "track": "case_matrix",
@@ -27136,6 +28766,213 @@ export const CONTENT_REGISTRY = {
           "translation_check",
           "safety"
         ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-marcus_04",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-marcus"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-marcus_05",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-marcus"
+        },
+        "riskFlags": [
+          "trauma"
+        ],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-marcus_06",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-marcus"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-marcus_07",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-marcus"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-marcus_08",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-marcus"
+        },
+        "riskFlags": [
+          "violence"
+        ],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-marcus_09",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-marcus"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_marker-recognition-chairwork_case-marcus_10",
+        "skillId": "marker-recognition-chairwork",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 11,
+          "exerciseTitle": "Marker Recognition and Chair Work Task Setup",
+          "caseId": "case-marcus"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_marker",
+          "offer_task_setup",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-marker-recognition-chairwork-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
       }
     ]
   },
@@ -27201,6 +29038,209 @@ export const CONTENT_REGISTRY = {
       },
       {
         "id": "dp_alliance-repair_case-sara_03",
+        "skillId": "alliance-repair",
+        "caseId": "case-sara",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-sara"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-sara_04",
+        "skillId": "alliance-repair",
+        "caseId": "case-sara",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-sara"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-sara_05",
+        "skillId": "alliance-repair",
+        "caseId": "case-sara",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-sara"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-sara_06",
+        "skillId": "alliance-repair",
+        "caseId": "case-sara",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-sara"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-sara_07",
+        "skillId": "alliance-repair",
+        "caseId": "case-sara",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-sara"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-sara_08",
+        "skillId": "alliance-repair",
+        "caseId": "case-sara",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-sara"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-sara_09",
+        "skillId": "alliance-repair",
+        "caseId": "case-sara",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-sara"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-sara_10",
         "skillId": "alliance-repair",
         "caseId": "case-sara",
         "track": "case_matrix",
@@ -27316,6 +29356,211 @@ export const CONTENT_REGISTRY = {
           "translation_check",
           "safety"
         ]
+      },
+      {
+        "id": "dp_alliance-repair_case-michael_04",
+        "skillId": "alliance-repair",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-michael"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-michael_05",
+        "skillId": "alliance-repair",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-michael"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-michael_06",
+        "skillId": "alliance-repair",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-michael"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-michael_07",
+        "skillId": "alliance-repair",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-michael"
+        },
+        "riskFlags": [
+          "substance_use"
+        ],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-michael_08",
+        "skillId": "alliance-repair",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-michael"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-michael_09",
+        "skillId": "alliance-repair",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-michael"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-michael_10",
+        "skillId": "alliance-repair",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-michael"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
       }
     ],
     "case-jason": [
@@ -27379,6 +29624,209 @@ export const CONTENT_REGISTRY = {
       },
       {
         "id": "dp_alliance-repair_case-jason_03",
+        "skillId": "alliance-repair",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-jason"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-jason_04",
+        "skillId": "alliance-repair",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-jason"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-jason_05",
+        "skillId": "alliance-repair",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-jason"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-jason_06",
+        "skillId": "alliance-repair",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-jason"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-jason_07",
+        "skillId": "alliance-repair",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-jason"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-jason_08",
+        "skillId": "alliance-repair",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-jason"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-jason_09",
+        "skillId": "alliance-repair",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-jason"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-jason_10",
         "skillId": "alliance-repair",
         "caseId": "case-jason",
         "track": "case_matrix",
@@ -27494,6 +29942,213 @@ export const CONTENT_REGISTRY = {
           "translation_check",
           "safety"
         ]
+      },
+      {
+        "id": "dp_alliance-repair_case-laura_04",
+        "skillId": "alliance-repair",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-laura"
+        },
+        "riskFlags": [
+          "trauma"
+        ],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-laura_05",
+        "skillId": "alliance-repair",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-laura"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-laura_06",
+        "skillId": "alliance-repair",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-laura"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-laura_07",
+        "skillId": "alliance-repair",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-laura"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-laura_08",
+        "skillId": "alliance-repair",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-laura"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-laura_09",
+        "skillId": "alliance-repair",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-laura"
+        },
+        "riskFlags": [
+          "substance_use"
+        ],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-laura_10",
+        "skillId": "alliance-repair",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-laura"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
       }
     ],
     "case-carlos": [
@@ -27583,6 +30238,213 @@ export const CONTENT_REGISTRY = {
           "translation_check",
           "safety"
         ]
+      },
+      {
+        "id": "dp_alliance-repair_case-carlos_04",
+        "skillId": "alliance-repair",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-carlos"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-carlos_05",
+        "skillId": "alliance-repair",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-carlos"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-carlos_06",
+        "skillId": "alliance-repair",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-carlos"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-carlos_07",
+        "skillId": "alliance-repair",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-carlos"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-carlos_08",
+        "skillId": "alliance-repair",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-carlos"
+        },
+        "riskFlags": [
+          "substance_use"
+        ],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-carlos_09",
+        "skillId": "alliance-repair",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-carlos"
+        },
+        "riskFlags": [
+          "violence"
+        ],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-carlos_10",
+        "skillId": "alliance-repair",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-carlos"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
       }
     ],
     "case-nina": [
@@ -27646,6 +30508,209 @@ export const CONTENT_REGISTRY = {
       },
       {
         "id": "dp_alliance-repair_case-nina_03",
+        "skillId": "alliance-repair",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-nina"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-nina_04",
+        "skillId": "alliance-repair",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-nina"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-nina_05",
+        "skillId": "alliance-repair",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-nina"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-nina_06",
+        "skillId": "alliance-repair",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-nina"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-nina_07",
+        "skillId": "alliance-repair",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-nina"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-nina_08",
+        "skillId": "alliance-repair",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-nina"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-nina_09",
+        "skillId": "alliance-repair",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-nina"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-nina_10",
         "skillId": "alliance-repair",
         "caseId": "case-nina",
         "track": "case_matrix",
@@ -27763,6 +30828,209 @@ export const CONTENT_REGISTRY = {
           "translation_check",
           "safety"
         ]
+      },
+      {
+        "id": "dp_alliance-repair_case-aisha_04",
+        "skillId": "alliance-repair",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-aisha"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-aisha_05",
+        "skillId": "alliance-repair",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-aisha"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-aisha_06",
+        "skillId": "alliance-repair",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-aisha"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-aisha_07",
+        "skillId": "alliance-repair",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-aisha"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-aisha_08",
+        "skillId": "alliance-repair",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-aisha"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-aisha_09",
+        "skillId": "alliance-repair",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-aisha"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-aisha_10",
+        "skillId": "alliance-repair",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-aisha"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
       }
     ],
     "case-david": [
@@ -27852,6 +31120,211 @@ export const CONTENT_REGISTRY = {
           "translation_check",
           "safety"
         ]
+      },
+      {
+        "id": "dp_alliance-repair_case-david_04",
+        "skillId": "alliance-repair",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-david"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-david_05",
+        "skillId": "alliance-repair",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-david"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-david_06",
+        "skillId": "alliance-repair",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-david"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-david_07",
+        "skillId": "alliance-repair",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-david"
+        },
+        "riskFlags": [
+          "sexual_boundary"
+        ],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-david_08",
+        "skillId": "alliance-repair",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-david"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-david_09",
+        "skillId": "alliance-repair",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-david"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-david_10",
+        "skillId": "alliance-repair",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-david"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
       }
     ],
     "case-marcus": [
@@ -27915,6 +31388,217 @@ export const CONTENT_REGISTRY = {
       },
       {
         "id": "dp_alliance-repair_case-marcus_03",
+        "skillId": "alliance-repair",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-marcus"
+        },
+        "riskFlags": [
+          "trauma"
+        ],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-marcus_04",
+        "skillId": "alliance-repair",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-marcus"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-marcus_05",
+        "skillId": "alliance-repair",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-marcus"
+        },
+        "riskFlags": [
+          "trauma"
+        ],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-marcus_06",
+        "skillId": "alliance-repair",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-marcus"
+        },
+        "riskFlags": [
+          "violence"
+        ],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-marcus_07",
+        "skillId": "alliance-repair",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-marcus"
+        },
+        "riskFlags": [
+          "trauma"
+        ],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-marcus_08",
+        "skillId": "alliance-repair",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-marcus"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-marcus_09",
+        "skillId": "alliance-repair",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "legacy_case_matrix",
+          "exerciseNumber": 12,
+          "exerciseTitle": "Addressing Ruptures and Facilitating Repair",
+          "caseId": "case-marcus"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "repair_rupture",
+          "own_impact",
+          "legacy_matrix_item"
+        ],
+        "reviewStatus": "approved",
+        "revision": "2026-03-07-v1",
+        "reviewPass": "2026-03-08-alliance-repair-pass-1",
+        "reviewFocus": [
+          "benchmark_alignment",
+          "case_voice",
+          "skill_purity",
+          "translation_check",
+          "safety"
+        ]
+      },
+      {
+        "id": "dp_alliance-repair_case-marcus_10",
         "skillId": "alliance-repair",
         "caseId": "case-marcus",
         "track": "case_matrix",

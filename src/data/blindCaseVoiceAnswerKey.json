@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T21:13:10.497Z",
+  "generatedAt": "2026-06-08T08:42:07.311Z",
   "revision": "2026-03-07-v1",
   "packets": [
     {
@@ -702,16 +702,16 @@
           "caseId": "case-sara",
           "caseLabel": "Sara (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_marker-recognition-chairwork_case-sara_02",
-          "order": 2
+          "itemId": "dp_marker-recognition-chairwork_case-sara_05",
+          "order": 5
         },
         {
           "blindLabel": "B",
           "caseId": "case-nina",
           "caseLabel": "Nina (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_marker-recognition-chairwork_case-nina_02",
-          "order": 2
+          "itemId": "dp_marker-recognition-chairwork_case-nina_05",
+          "order": 5
         }
       ]
     },
@@ -725,16 +725,16 @@
           "caseId": "case-carlos",
           "caseLabel": "Carlos (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_marker-recognition-chairwork_case-carlos_03",
-          "order": 3
+          "itemId": "dp_marker-recognition-chairwork_case-carlos_09",
+          "order": 9
         },
         {
           "blindLabel": "B",
           "caseId": "case-michael",
           "caseLabel": "Michael (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_marker-recognition-chairwork_case-michael_03",
-          "order": 3
+          "itemId": "dp_marker-recognition-chairwork_case-michael_09",
+          "order": 9
         }
       ]
     },
@@ -771,16 +771,16 @@
           "caseId": "case-nina",
           "caseLabel": "Nina (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_alliance-repair_case-nina_03",
-          "order": 3
+          "itemId": "dp_alliance-repair_case-nina_09",
+          "order": 9
         },
         {
           "blindLabel": "B",
           "caseId": "case-sara",
           "caseLabel": "Sara (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_alliance-repair_case-sara_03",
-          "order": 3
+          "itemId": "dp_alliance-repair_case-sara_09",
+          "order": 9
         }
       ]
     },
@@ -817,16 +817,16 @@
           "caseId": "case-marcus",
           "caseLabel": "Marcus (Hard)",
           "difficulty": "hard",
-          "itemId": "dp_alliance-repair_case-marcus_02",
-          "order": 2
+          "itemId": "dp_alliance-repair_case-marcus_05",
+          "order": 5
         },
         {
           "blindLabel": "B",
           "caseId": "case-laura",
           "caseLabel": "Laura (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_alliance-repair_case-laura_02",
-          "order": 2
+          "itemId": "dp_alliance-repair_case-laura_05",
+          "order": 5
         }
       ]
     }

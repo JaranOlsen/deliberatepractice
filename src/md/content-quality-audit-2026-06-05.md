@@ -32,6 +32,10 @@ Branch update:
 - Staying in Contact with Intense Affect responses have received a response-variation pass, reducing repeated "stay with," "with me," "keep your," and "keep you" phrasing while preserving safety language for self-harm and violence items.
 - Empathic Evocations moderate/hard have been broadened with betrayal, worthlessness, being used, dependency shame, hopeless shutdown, macho anti-feeling, confidentiality/distrust, confused distress, and crisis-denial archetypes while keeping client markers mostly flat enough for trainee image-making.
 - Empathic Conjectures easy/moderate have been revised so more markers present behavior, situation, and defensive speech rather than naming the hidden process the trainee is meant to conjecture.
+- Marker Recognition and Chair Work has been expanded to the full 10-per-case matrix, adding natural self-critical, self-interruptive, unfinished-business, catastrophizing/worry, betrayal, and trauma-linked chair-work markers.
+- Alliance Repair has been expanded to the full 10-per-case matrix, adding competence/status, boredom/disinterest, previous-therapy, sexual-boundary, trauma-pacing, substance, and safety/boundary ruptures.
+- Empathic Affirmation and Validation easy has been broadened with more ordinary public-composure grief, social anger, responsibility/guilt, presentation anxiety, and positive-invitation anxiety markers, while reducing repeated "of course/no wonder" response openings.
+- Therapist Self-Awareness hard responses have been polished to model internal regulation more clearly, reduce "let's/we can/I want" procedural drift, and keep safety/boundary responses steady under suicidality, erotic pressure, distrust, and sexist/substance-minimizing material.
 
 The remaining gaps are more subtle:
 
@@ -52,11 +56,11 @@ The remaining gaps are more subtle:
 | --- | --- | --- | --- | --- | --- | --- |
 | Therapist Self-Awareness | Easy | Strong | High | Strong | Low | Recent pass broadened beyond rupture into hopefulness, advice pull, social/cultural adjustment, ordinary loneliness, and practical therapy uncertainty. |
 | Therapist Self-Awareness | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass added dependency shame, long breakup grief, cultural humility, alcohol/exposure concern, faith/family values, and violent fantasy coverage. |
-| Therapist Self-Awareness | Hard | Strong | High | Strong-Mixed | Low | Strong coverage of suicidality, competence testing, flirtation, distrust, and sexist alcohol-minimizing defensiveness; responses should remain internally focused. |
+| Therapist Self-Awareness | Hard | Strong | High | Strong | Low | Strong coverage of suicidality, competence testing, flirtation, distrust, and sexist alcohol-minimizing defensiveness. Recent pass tightened responses around internal regulation and clean client-facing contact. |
 | Empathic Understanding | Easy | Strong | Medium-High | Strong | Low-Medium | Good simple reflection markers. Some are still more case-schema specific than benchmark everyday sadness/stress/readiness examples. |
 | Empathic Understanding | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass added ordinary bills/money worry, friend disappointment, confused depression, and guide-me uncertainty. Further work is polish rather than repair. |
 | Empathic Understanding | Hard | Strong | Medium-High | Strong | Low-Medium | Recent pass added substance-anxiety ambivalence, plain session uncertainty, and more ordinary relational loss while keeping hard-case defenses. |
-| Empathic Affirmation and Validation | Easy | Strong-Mixed | Medium-High | Strong | Medium | Now includes accident guilt and presentation anxiety, but still over-centers shame and breakup/anger schemas. |
+| Empathic Affirmation and Validation | Easy | Strong | High | Strong | Low-Medium | Recent pass broadened beyond breakup shame/anger into public-composure grief, social anger, moral guilt, presentation anxiety, and positive-invitation anxiety. Continue only regression polish. |
 | Empathic Affirmation and Validation | Moderate | Strong | Medium-High | Strong | Low-Medium | Good validation markers across trauma, politics, child-army fear, shame, and caregiver guilt. Some benchmark romance/grief variants remain thin. |
 | Empathic Affirmation and Validation | Hard | Strong | High | Strong | Low | Good range: trauma shame, rage/fear, desperate longing, confused overwhelm, positive warmth. |
 | Exploratory Questions | Easy | Strong-Mixed | Medium | Strong | Medium | Good live inward edges, but many markers already include body cues, reducing need for trainee exploration. AA/amends guilt remains absent. |
@@ -80,12 +84,12 @@ The remaining gaps are more subtle:
 | Self-Disclosure | Easy | Strong | High | Strong | Low | Strong therapist-transparency markers, including first-session uncertainty, care, judgment, and personal questions. |
 | Self-Disclosure | Moderate | Strong | Medium-High | Strong | Low | Good boredom/interest, discomfort, trauma competence, therapist impact, and care questions. Pet-loss grief is absent but not essential. |
 | Self-Disclosure | Hard | Strong | High | Strong-Mixed | Low | Now covers repeated lateness, attractiveness, pity, therapist experience, care, and boundaries. Some responses overuse "I want to..." and return-to-client phrasing. |
-| Marker Recognition and Chair Work | Easy | Strong-Mixed | Medium | Strong-Mixed | Medium | Natural marker recognition improved. Still limited by only 9 items and missing ordinary fat/ugly, law-school, and parent-weight examples. |
-| Marker Recognition and Chair Work | Moderate | Strong | Medium-High | Strong-Mixed | Low-Medium | Good coverage of divorce self-blame, mother unfinished business, numbness, father discipline, apology block, caregiver guilt. Affair guilt/goodbye grief remain thin. |
-| Marker Recognition and Chair Work | Hard | Strong | Medium-High | Strong-Mixed | Low-Medium | Stronger now: catastrophizing worry, betrayal rage, trauma shame, abusive self-blame, intergenerational violence, blocked anger. Procedural response repetition is expected. |
-| Alliance Repair | Easy | Strong | High | Strong | Low | Strong coverage of boredom, not-getting-it, competence, doing-therapy-wrong, previous therapy hospitalization, and clock/attention ruptures. |
-| Alliance Repair | Moderate | Strong | High | Strong | Low | Strong coverage of childhood-topic avoidance, laughed-at rupture, age/status mismatch, boredom/tiredness, and siding-with-other-person rupture. |
-| Alliance Repair | Hard | Strong | High | Strong | Low | Strong coverage of therapy-not-working, sexual-boundary concern, session-ending abandonment, distance, chair proximity, and competence with trauma. |
+| Marker Recognition and Chair Work | Easy | Strong | Medium-High | Strong-Mixed | Low-Medium | Expanded to full matrix. Natural marker recognition now covers ordinary self-attack, self-interruption, unfinished business, blocked protest, and worry/catastrophizing without pre-labeling the chair task. |
+| Marker Recognition and Chair Work | Moderate | Strong | High | Strong-Mixed | Low-Medium | Expanded coverage of divorce self-blame, mother/father unfinished business, numbness, apology block, caregiver guilt, affair guilt, and goodbye grief. Procedural response repetition is expected. |
+| Marker Recognition and Chair Work | Hard | Strong | High | Strong-Mixed | Low-Medium | Expanded coverage of catastrophizing worry, betrayal rage, trauma shame, abusive self-blame, intergenerational violence, blocked anger, and sexual-boundary shame. Procedural response repetition is expected. |
+| Alliance Repair | Easy | Strong | High | Strong | Low | Expanded to full matrix with strong coverage of boredom, not-getting-it, competence, doing-therapy-wrong, previous therapy hospitalization, attention/clock ruptures, shame, and substance-use judgment. |
+| Alliance Repair | Moderate | Strong | High | Strong | Low | Expanded coverage of childhood-topic avoidance, laughed-at rupture, age/status mismatch, boredom/tiredness, siding-with-other-person rupture, trauma pacing, substance-use judgment, and violence-language rupture. |
+| Alliance Repair | Hard | Strong | High | Strong | Low | Expanded coverage of therapy-not-working, sexual-boundary concern, session-ending abandonment, distance, chair proximity, competence with trauma, foster-care pacing, and violence/trauma safety ruptures. |
 
 ## Branch Progress
 
@@ -98,28 +102,24 @@ Completed on the current content branch:
 - Staying in Contact with Intense Affect response variation.
 - Empathic Evocations, moderate and hard.
 - Empathic Conjectures, easy and moderate.
+- Marker Recognition and Chair Work expansion to 10 statements per case.
+- Alliance Repair expansion to 10 statements per case.
+- Empathic Affirmation and Validation, easy.
+- Therapist Self-Awareness hard response polish.
 
 These should still be reviewed in normal regression passes, but they are no longer the highest-value repair targets.
 
 ## Current Highest-Value Improvement Targets
 
-1. Empathic Affirmation and Validation, easy.
-   - Quality is strong enough for production, but benchmark breadth is narrower than the moderate/hard tiers.
-   - Add more ordinary beginner-level legitimacy markers without overloading them with shame schema.
-
-2. Therapist Self-Awareness hard response polish.
-   - Hard markers remain strong.
-   - Continue reducing question-form and overly explanatory meta responses when encountered during normal passes.
-
-3. Staying in Contact with Intense Affect remaining polish.
+1. Staying in Contact with Intense Affect remaining polish.
    - Keep as a regression target rather than the next main repair area.
    - Future passes can add more positive loving affect and ordinary death/loss examples if the fixed cases can carry them naturally.
 
-4. Empathic Evocations regression polish.
+2. Empathic Evocations regression polish.
    - Keep checking that client statements remain flat, detached, or over-cognitive rather than already imagistic.
    - Future evocation changes should be small and benchmark-driven, not a broad rewrite.
 
-5. Empathic Conjectures hard regression polish.
+3. Empathic Conjectures hard regression polish.
    - Hard tier is still strong, but future passes should keep checking that high-risk or defensive markers do not become too interpretive before the trainee responds.
 
 ## Case-Set Constraints
