@@ -37,7 +37,7 @@ Best-aligned areas:
 - Self-Disclosure
 - Empathic Conjectures
 
-Branch update: Empathic Evocations, Marker Recognition and Chair Work, Alliance Repair, easy-tier Empathic Affirmation and Validation, easy-tier Exploratory Questions, easy-tier Empathic Explorations, and hard-tier Therapist Self-Awareness responses have all received major repair passes since the original audit. Chair-work, alliance repair, easy validation, easy exploratory questions, easy exploration, and hard self-awareness responses should be treated as regression-polish areas rather than top missing-coverage areas.
+Branch update: Empathic Evocations, Marker Recognition and Chair Work, Alliance Repair, easy-tier Empathic Affirmation and Validation, easy/moderate Exploratory Questions, easy-tier Empathic Explorations, and hard-tier Therapist Self-Awareness responses have all received major repair passes since the original audit. Chair-work, alliance repair, easy validation, easy/moderate exploratory questions, easy exploration, and hard self-awareness responses should be treated as regression-polish areas rather than top missing-coverage areas.
 
 Instruction-level risks:
 
@@ -67,7 +67,7 @@ Ratings:
 | Empathic Affirmation and Validation | Moderate/intermediate | Mixed | Low-Medium | Good trauma/numbing/guilt material, but missing benchmark variety around early romantic attachment, house/memory grief, child deployment fear, and depression/withdrawal. |
 | Empathic Affirmation and Validation | Hard/advanced | Strong | Medium-High | Closest validation tier; covers trauma shame, rage/fear, desperate longing, and positive warmth more than other tiers. |
 | Exploratory Questions | Easy/beginner | Strong | Medium-High | Recent pass reduced body/metaphor-rich markers and kept responses to one inward question. AA amends/disappointment remains unsuitable for the fixed easy cases unless a recovery-history variant is intentionally added. |
-| Exploratory Questions | Moderate/intermediate | Mixed | Low | Too much case-specific body imagery. Missing obsessive love, betrayal/blocked love, father resentment, and shutdown in a relationship. |
+| Exploratory Questions | Moderate/intermediate | Strong | Medium-High | Recent pass reduced remaining body-cue and interpretive-question drift. Fixed cases now carry workable analogues for blocked care, father-rule resentment, relational shutdown, shame, and caregiver guilt, though obsessive-love coverage remains limited by the case set. |
 | Exploratory Questions | Hard/advanced | Mixed | Medium | Has shame/confusion/defensiveness analogues, but hard markers often arrive already highly organized around case schema. |
 | Providing Treatment Rationale | Easy/beginner | Strong | High | Very close: many direct questions about therapy, feelings, plans, getting stuck, and history. |
 | Providing Treatment Rationale | Moderate/intermediate | Strong | High-Medium | Good skepticism/fear/numbing coverage; add more shame-about-crying and "positive thinking" archetypes if polishing. |
@@ -174,7 +174,7 @@ This section paraphrases benchmark example families. "Covered" means the current
 
 1. Continue regression-polishing Empathic Evocations so client markers stay flatter, more cognitive, more guarded, or more symptom/situation-focused, leaving vivid imagery to the trainee.
 2. Continue regression-polishing Therapist Self-Awareness. Hard response polish is complete on this branch; future work should focus only on natural additional trigger breadth where the fixed cases can carry it.
-3. Simplify some early-tier Empathic Understanding markers. Easy validation, easy exploratory questions, and easy exploration have had benchmark-breadth passes and now mainly need regression checks.
+3. Simplify some early-tier Empathic Understanding markers. Easy validation, easy/moderate exploratory questions, and easy exploration have had benchmark-breadth passes and now mainly need regression checks.
 4. Add missing high-intensity benchmark families to Staying in Contact: loving transference, guilt over harm, suicidal divorce, pet euthanasia, political rage, sexual-offense guilt, homicidal fantasy, collective trauma, and therapy-not-working anger.
 5. Polish already-close skills last: Treatment Rationale, Self-Disclosure, Empathic Conjectures, Marker Recognition and Chair Work, and Alliance Repair. These need targeted regression and response-variety checks rather than broad rewrites.
 

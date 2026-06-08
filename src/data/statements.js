@@ -1283,7 +1283,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Flat and guarded] Even gentle touch on my shoulder startles me before I can think who it is.",
-        "suggestion": "When the startle sparks, where do you first sense danger?"
+        "suggestion": "When the startle comes before you can think, what feeling is there?"
       },
       {
         "text": "[Distant] At night I pour wine before I have decided whether I actually want it.",
@@ -1298,12 +1298,12 @@ export const STATEMENT_SETS = {
         "suggestion": "What do you notice inside when good news lands flat?"
       },
       {
-        "text": "[Distant] Sometimes a song opens a crack, and sadness comes through before I can close it.",
-        "suggestion": "When the song opens that crack, what does the sadness feel like as it comes through?"
+        "text": "[Distant] Sometimes a song from when I was married comes on, and sadness shows up before I can turn it off.",
+        "suggestion": "When the sadness shows up that quickly, what feeling is asking for attention?"
       },
       {
         "text": "[Tense and guarded] I apologize for needing comfort, as if asking for it will get me in trouble.",
-        "suggestion": "When comfort feels dangerous to ask for, what old alarm starts up inside?"
+        "suggestion": "When asking for comfort feels like trouble, what feeling comes up?"
       },
       {
         "text": "[Flat and guarded] I skip anything with fighting and tell people I just do not like those movies.",
@@ -1320,12 +1320,12 @@ export const STATEMENT_SETS = {
         "suggestion": "What feeling is there as those replies keep coming?"
       },
       {
-        "text": "[Fearful] If I back down, it feels like I shrink until nobody can see me.",
-        "suggestion": "When backing down starts to feel like shrinking, what part of you feels most at risk?"
+        "text": "[Fearful] If I back down, it feels like people will stop respecting me.",
+        "suggestion": "When backing down feels like losing respect, what feeling is hardest to face?"
       },
       {
-        "text": "[Ashamed] I keep seeing my boy flinch when I raised my voice, and my chest goes hot.",
-        "suggestion": "When you see that flinch now, what feeling is strongest under the heat?"
+        "text": "[Ashamed] I keep seeing my boy flinch when I raised my voice, and I do not want to look straight at it.",
+        "suggestion": "When you let yourself see his flinch, what feeling comes up?"
       },
       {
         "text": "[Mistrustful] When the house gets quiet after a fight, I get more tense than when we were yelling.",
@@ -1344,12 +1344,12 @@ export const STATEMENT_SETS = {
         "suggestion": "What do you notice first when anger and embarrassment show up together?"
       },
       {
-        "text": "[Tense and angry] After an argument, I grip the steering wheel and cannot let it go.",
-        "suggestion": "What do you notice in your hands as you hold the wheel that tightly?"
+        "text": "[Tense and angry] After an argument, I tell myself I am over it, but I stay keyed up for hours.",
+        "suggestion": "When you stay keyed up for hours, what feeling is still there?"
       },
       {
         "text": "[Vulnerable] What I want most is for my family to feel safe with me.",
-        "suggestion": "As you hold that wish for safety, what feeling rises in your chest?"
+        "suggestion": "As you say that wish for safety out loud, what feeling comes up?"
       }
     ],
     "case-nina": [
@@ -1367,7 +1367,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Guilty] When I rest, a voice calls me lazy before I have even caught my breath.",
-        "suggestion": "When that word lands, where does the shame show up in you?"
+        "suggestion": "When that word lands, what feeling comes up in you?"
       },
       {
         "text": "[Apologetic] I apologize before asking for help, like my need is already too much.",
@@ -1378,8 +1378,8 @@ export const STATEMENT_SETS = {
         "suggestion": "What do you notice when you name that you did not want them?"
       },
       {
-        "text": "[Tired] I compare myself to other moms and shrink inside like I failed some hidden test.",
-        "suggestion": "When that hidden test makes you shrink, what does the small part need most?"
+        "text": "[Tired] I compare myself to other moms and decide I have failed some test everyone else understands.",
+        "suggestion": "When you decide you have failed that test, what feeling comes up in you?"
       },
       {
         "text": "[Guilty] I dream of being taken care of and then feel selfish for wanting it.",
@@ -1387,11 +1387,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Torn] I say it is easier if I do it myself, then spend the evening angry that nobody helped.",
-        "suggestion": "What is the anger asking you to notice?"
+        "suggestion": "When the anger shows up after doing it yourself, what feeling is underneath?"
       },
       {
         "text": "[Tired] I crash on the sofa at night after holding everyone together all day.",
-        "suggestion": "As you picture the crash, what feeling finally comes through?"
+        "suggestion": "When you stop holding everyone together, what do you notice inside?"
       }
     ],
     "case-aisha": [
