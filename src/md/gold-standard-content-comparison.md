@@ -37,7 +37,7 @@ Best-aligned areas:
 - Self-Disclosure
 - Empathic Conjectures
 
-Branch update: Empathic Evocations, Marker Recognition and Chair Work, and Alliance Repair have all received major repair passes since the original audit. Chair-work and alliance repair now use the full 10-per-case matrix and should be treated as regression-polish areas rather than top missing-coverage areas.
+Branch update: Empathic Evocations, Marker Recognition and Chair Work, Alliance Repair, and easy-tier Empathic Affirmation and Validation have all received major repair passes since the original audit. Chair-work, alliance repair, and easy validation should be treated as regression-polish areas rather than top missing-coverage areas.
 
 Instruction-level risks:
 
@@ -63,7 +63,7 @@ Ratings:
 | Empathic Understanding | Easy/beginner | Mixed | Low | Current statements are often vivid and schema-specific; benchmark beginner markers are simpler ordinary sadness, stress, readiness, and grief. |
 | Empathic Understanding | Moderate/intermediate | Mixed | Low-Medium | Case voice is strong, but markers are often more image-rich than basic understanding practice needs. Missing several everyday worry/anger examples. |
 | Empathic Understanding | Hard/advanced | Mixed | Medium | Has shame, anxiety, exposure, and relational pain, but less coverage of substance-anxiety and "guide me" confusion markers. |
-| Empathic Affirmation and Validation | Easy/beginner | Mixed | Low | Current markers emphasize breakup shame/sadness and anger; missing accident guilt, public-presentation anxiety, empty-nest grief, and broad social anger. |
+| Empathic Affirmation and Validation | Easy/beginner | Strong | High | Recent pass now covers accident guilt, public-composure grief, presentation anxiety, broad social anger, and positive-invitation anxiety while preserving case voice. Empty-nest grief remains unsuitable for the fixed easy cases. |
 | Empathic Affirmation and Validation | Moderate/intermediate | Mixed | Low-Medium | Good trauma/numbing/guilt material, but missing benchmark variety around early romantic attachment, house/memory grief, child deployment fear, and depression/withdrawal. |
 | Empathic Affirmation and Validation | Hard/advanced | Strong | Medium-High | Closest validation tier; covers trauma shame, rage/fear, desperate longing, and positive warmth more than other tiers. |
 | Exploratory Questions | Easy/beginner | Strong-Mixed | Medium | Good inward hooks, but often body/metaphor rich; missing AA amends/disappointment and simple "used/hurt" variants. |
@@ -112,7 +112,7 @@ This section paraphrases benchmark example families. "Covered" means the current
 
 ### 3. Empathic Affirmation and Validation
 
-- Easy: partial for sadness, nervousness, fear, and anger; missing accident guilt and empty-nest/widow loneliness.
+- Easy: now covered for sadness, nervousness, fear, anger, accident guilt, public exposure, public-composure grief, and positive social-invitation anxiety. Empty-nest/widow loneliness remains unsuitable for the fixed easy cases.
 - Moderate: partial for shame, fear, depression, and conflicted love; missing house/memory grief, child-in-army fear, and fast romantic attachment concern.
 - Hard: mostly covered in broad families: trauma shame, rage/fear, desperate longing, mixed confusion, and warm positive attachment. This tier is comparatively close.
 
@@ -174,7 +174,7 @@ This section paraphrases benchmark example families. "Covered" means the current
 
 1. Continue regression-polishing Empathic Evocations so client markers stay flatter, more cognitive, more guarded, or more symptom/situation-focused, leaving vivid imagery to the trainee.
 2. Broaden Therapist Self-Awareness triggers. Add positive/affectionate material, therapist-in-dream discomfort, cultural/religious mismatch, substance disclosures, sexualized/flirtatious pressure, violent fantasies, suicidal material, and sexist/minimizing defensiveness where the cases can carry them naturally.
-3. Simplify some early-tier Empathic Understanding, Validation, Exploratory Question, and Exploration markers. Add ordinary, less metaphorical benchmark-like situations so trainees practice basic precision before moving into rich case-schema material.
+3. Simplify some early-tier Empathic Understanding, Exploratory Question, and Exploration markers. Easy validation has had a benchmark-breadth pass and now mainly needs regression checks.
 4. Add missing high-intensity benchmark families to Staying in Contact: loving transference, guilt over harm, suicidal divorce, pet euthanasia, political rage, sexual-offense guilt, homicidal fantasy, collective trauma, and therapy-not-working anger.
 5. Polish already-close skills last: Treatment Rationale, Self-Disclosure, Empathic Conjectures, Marker Recognition and Chair Work, and Alliance Repair. These need targeted regression and response-variety checks rather than broad rewrites.
 

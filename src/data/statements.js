@@ -765,127 +765,127 @@ export const STATEMENT_SETS = {
     "case-sara": [
       {
         "text": "[Softly] I keep checking his social media even though it wrecks me.",
-        "suggestion": "Of course you keep looking; after a loss like this, anyone would keep reaching even if it hurts."
+        "suggestion": "It makes sense that you feel pulled toward his page; it is a way of reaching for someone your heart has not caught up to losing."
       },
       {
-        "text": "[Tearful] I keep saying 'I'm fine' even when my eyes are wet.",
-        "suggestion": "Of course you try to hold it together; you have carried so much on your own."
+        "text": "[Embarrassed] I smiled through the whole team meeting and then cried in the bathroom afterward.",
+        "suggestion": "It makes sense that the tears came once you were alone; holding yourself together in public can take everything when grief is still that close."
       },
       {
         "text": "[Tearful] If I had been more fun or easier, maybe he'd have stayed.",
-        "suggestion": "No wonder you search for what you could have done; self‑blame tries to make sense of the pain."
+        "suggestion": "Blaming yourself makes sense as a way to give the pain somewhere to go when the ending feels helpless."
       },
       {
         "text": "[Softly] At night it gets too quiet, and I start feeling like I was never really wanted.",
         "suggestion": "The quiet can turn absence into proof that you were not wanted; that feeling makes sense in the loneliness this loss has opened."
       },
       {
-        "text": "[Embarrassed] I started to text him and deleted it a dozen times.",
-        "suggestion": "No wonder one part reaches for contact while another protects you from more hurt."
+        "text": "[Angry, then embarrassed] A friend told me to stop checking my phone, and I snapped at her.",
+        "suggestion": "That anger makes sense when the advice landed on such a raw place; it was not just a phone, it was the last thread of contact you were trying not to lose."
       },
       {
         "text": "[Tearful] When I wake up, I forget for a second and then it slams me.",
-        "suggestion": "Anyone would feel that crash on waking; the suddenness alone can make it hit hard."
+        "suggestion": "That morning crash makes sense because the loss arrives all over again before you have any protection around it."
       },
       {
         "text": "[Tearful] I apologize when I start crying, like my sadness is taking up too much room.",
-        "suggestion": "No wonder you worry about taking room when you have learned to keep pain manageable for others; your sadness belongs here."
+        "suggestion": "It makes sense that you apologize when you have learned to manage your impact on other people so carefully; the sadness itself is not too much."
       },
       {
         "text": "[Embarrassed] I feel guilty for being so upset when other people have bigger problems.",
-        "suggestion": "Of course guilt comes up when you compare your pain to everyone else's; the breakup still hurts, and your hurt deserves room too."
+        "suggestion": "It makes sense that comparison can make your grief feel illegitimate, but the breakup is still a real loss and your pain does not need to compete for permission."
       },
       {
         "text": "[Fearful] My friends say I should come out for dinner, but I am scared I will cry at the table.",
-        "suggestion": "No wonder dinner feels exposed when the sadness is still close enough to spill over in front of everyone."
+        "suggestion": "No wonder dinner feels exposed when the sadness is still close enough to spill over in front of people who may not know how tender it is."
       },
       {
         "text": "[Softly] After this breakup, part of me thinks love must be for other people, not me.",
-        "suggestion": "Given how this loss hits the old loneliness, no wonder that belief shows up; it sounds unbearably lonely."
+        "suggestion": "After being left, it makes sense that the belief can feel painfully believable; it carries the loneliness of wondering whether love is available to you at all."
       }
     ],
     "case-michael": [
       {
         "text": "[Guilty] I hit a cyclist with my car last week. The road was slick, but he still broke his wrist and I cannot stop feeling guilty.",
-        "suggestion": "No wonder you feel shaken and guilty; even without intending harm, seeing someone hurt because of your car would stay with you."
+        "suggestion": "That guilt has a moral weight to it; you did not mean to harm him, and still someone was hurt, so it makes sense that it stays with you."
       },
       {
         "text": "[Defensive] If I don't have the answer, I feel exposed and I bluff.",
-        "suggestion": "Given how you were judged, of course not knowing can feel like being exposed."
+        "suggestion": "It makes sense that not knowing feels like standing in front of judgment with no cover, especially when mistakes have meant humiliation."
       },
       {
         "text": "[Tense] When I apologize, it feels like kneeling in front of someone who will use it against me.",
-        "suggestion": "Given how quickly weakness was punished, an apology can understandably feel like surrender instead of repair."
+        "suggestion": "If weakness has been punished, apologizing can understandably feel less like repair and more like handing someone a weapon."
       },
       {
         "text": "[Firm] At home, a sigh or eye roll sets me off before I think.",
-        "suggestion": "No wonder those small cues sting; they can land like disrespect and light up old hurt."
+        "suggestion": "It makes sense that those small cues sting when they land as disrespect before you have time to sort out what was intended."
       },
       {
-        "text": "[Furious] I keep score in my head so no one has leverage on me.",
-        "suggestion": "Of course you track everything when feeling one-down has carried so much threat."
+        "text": "[Furious] Watching the news, I get so angry at people in charge acting like consequences are optional.",
+        "suggestion": "That anger makes sense when people with power seem to dodge responsibility; for you, that can feel intolerably unfair."
       },
       {
         "text": "[Ashamed] When my kid asks why I am angry, I feel like the worst father.",
-        "suggestion": "Of course that hurts; the shame shows how much you care about not frightening your child."
+        "suggestion": "That shame makes sense because being a safe father matters to you; the pain is tied to how much you do not want anger to define you at home."
       },
       {
         "text": "[Firm] Slamming a door feels awful later, but in the moment it keeps me from feeling small.",
-        "suggestion": "The door slam makes sense as a shield against that small, humiliated feeling, even though it costs you afterward."
+        "suggestion": "The door slam makes sense as a shield against feeling small and humiliated, even though the cost shows up afterward."
       },
       {
         "text": "[Defensive] If someone challenges me in public, I double down even if I'm wrong.",
-        "suggestion": "Given how threatening it feels to be one‑down, no wonder digging in can feel like protection."
+        "suggestion": "No wonder digging in feels protective when being corrected in public lands as being put beneath someone."
       },
       {
         "text": "[Ashamed] I hate that I need help with this; it makes me feel weak.",
-        "suggestion": "Given how much strength has meant handling things alone, it makes sense that needing help feels exposed."
+        "suggestion": "Understandably, if strength has meant handling things alone, needing help can feel exposed rather than sensible."
       },
       {
         "text": "[Ashamed] After I blow up at home, I lie awake replaying their faces and hating myself.",
-        "suggestion": "No wonder the shame keeps you awake; seeing their fear would hurt anyone who wants to be safer for his family."
+        "suggestion": "No wonder the shame keeps replaying when seeing their faces cuts into the part of you that wants to be safer for them."
       }
     ],
     "case-jason": [
       {
         "text": "[Trembling] Every presentation at work makes my hands shake, and then I feel pathetic for caring so much.",
-        "suggestion": "Understandably, presentations feel exposing when being seen has carried so much shame; the shaking is anxiety, not failure."
+        "suggestion": "Presentations put you directly under other people's eyes, so the shaking makes sense as anxiety in an exposed moment, not as a personal failure."
       },
       {
         "text": "[Hesitant] I keep my eyes on the floor so no one has a reason to look at me.",
-        "suggestion": "No wonder your eyes go to the floor when scrutiny has felt so dangerous; that move has been trying to keep you safe."
+        "suggestion": "It makes sense that keeping your eyes down has been a way to reduce danger when being noticed has felt risky."
       },
       {
         "text": "[Anxious] I pretend to text so I have somewhere to hide during small talk.",
-        "suggestion": "Understandably, the phone becomes cover when ordinary conversation feels like exposure."
+        "suggestion": "It makes sense that the phone becomes cover when small talk can feel like standing without protection in front of possible judgment."
       },
       {
         "text": "[Quietly] When people laugh politely, I assume they are trying to escape me.",
-        "suggestion": "No wonder polite laughter feels unsafe when shame expects rejection before connection has a chance."
+        "suggestion": "No wonder polite laughter feels unsafe when your mind is already braced for rejection before connection has a chance."
       },
       {
         "text": "[Hesitant] Compliments bounce off; part of me wants to believe them, but the suspicious part wins.",
-        "suggestion": "No wonder praise feels hard to trust when your mind attacks you so often, even when part of you wants to take it in."
+        "suggestion": "No wonder praise is hard to let in when your mind has practiced attacking you; the suspicious part is trying to protect you from believing too quickly."
       },
       {
         "text": "[Quiet and ashamed] After I talk in a group, I replay every sentence and feel ashamed for sounding awkward.",
-        "suggestion": "No wonder you replay it when belonging feels so fragile; the shame is trying to keep you from being hurt again."
+        "suggestion": "Replaying every sentence makes sense when belonging feels fragile; shame is trying to prevent another moment of being hurt."
       },
       {
         "text": "[Quiet and ashamed] I skipped another team lunch and then felt pathetic for hiding.",
-        "suggestion": "No wonder you feel ashamed afterward; avoiding lunch is trying to protect you from a fear that feels very real."
+        "suggestion": "It makes sense that skipping lunch protects you from a fear that feels real, and the shame afterward shows how much you also want to belong."
       },
       {
         "text": "[Hesitant] I scan every room for who is doing better than me, then feel defective.",
-        "suggestion": "Comparison makes sense as an attempt to locate your place, and it hurts because shame always puts you at the bottom."
+        "suggestion": "Comparison makes sense as your mind trying to locate your place, and it hurts because shame keeps assigning you the lowest one."
       },
       {
-        "text": "[Trembling] My hands shake when I introduce myself, and I feel stupid for not controlling it.",
-        "suggestion": "No wonder the shaking leaves you feeling exposed; it is anxiety, not stupidity, and it shows how much that moment matters."
+        "text": "[Nervous, almost smiling] Someone invited me to a game night, and I wanted to go for about ten seconds before panic took over.",
+        "suggestion": "That quick swing from wanting to go to panic makes sense; the invitation touches both your longing for connection and your fear of being exposed."
       },
       {
         "text": "[Quietly] Some nights I lie there certain I will always be alone because I am too awkward to love.",
-        "suggestion": "No wonder the nights feel heavy when shame turns loneliness into a life sentence."
+        "suggestion": "No wonder the nights feel heavy when shame turns loneliness into a sentence about your whole future."
       }
     ],
     "case-laura": [

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T21:40:47.665Z",
+  "generatedAt": "2026-06-08T08:08:45.177Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -125,12 +125,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Trembling] My hands shake when I introduce myself, and I feel stupid for not controlling it.",
-            "response": "No wonder the shaking leaves you feeling exposed; it is anxiety, not stupidity, and it shows how much that moment matters."
+            "statement": "[Nervous, almost smiling] Someone invited me to a game night, and I wanted to go for about ten seconds before panic took over.",
+            "response": "That quick swing from wanting to go to panic makes sense; the invitation touches both your longing for connection and your fear of being exposed."
           },
           "no": {
-            "statement": "[Skjelvende] Hendene mine skjelver når jeg presenterer meg, og jeg føler meg dum som ikke klarer å kontrollere det.",
-            "response": "Ikke rart skjelvingen gjør at du føler deg blottstilt; det handler om angst, ikke dumhet, og viser hvor mye det øyeblikket betyr."
+            "statement": "[Nervøs, nesten smilende] Noen inviterte meg på spillkveld, og jeg hadde lyst til å gå i omtrent ti sekunder før panikken tok over.",
+            "response": "Den raske bevegelsen fra lyst til panikk gir mening; invitasjonen treffer både lengselen etter kontakt og frykten for å bli blottstilt."
           }
         },
         {

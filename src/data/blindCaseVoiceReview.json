@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T21:40:47.665Z",
+  "generatedAt": "2026-06-08T08:08:45.175Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -241,11 +241,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Fearful] My friends say I should come out for dinner, but I am scared I will cry at the table.",
-            "response": "No wonder dinner feels exposed when the sadness is still close enough to spill over in front of everyone."
+            "response": "No wonder dinner feels exposed when the sadness is still close enough to spill over in front of people who may not know how tender it is."
           },
           "no": {
             "statement": "[Redd] Vennene mine sier at jeg burde bli med ut og spise, men jeg er redd jeg kommer til å begynne å gråte ved bordet.",
-            "response": "Ikke rart middag kjennes blottstillende når tristheten fortsatt ligger så nær at den kan renne over foran alle."
+            "response": "Ikke rart middag kjennes blottstillende når tristheten fortsatt ligger så nær at den kan renne over foran folk som kanskje ikke skjønner hvor ømt det er."
           }
         },
         {
@@ -290,11 +290,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Guilty] I hit a cyclist with my car last week. The road was slick, but he still broke his wrist and I cannot stop feeling guilty.",
-            "response": "No wonder you feel shaken and guilty; even without intending harm, seeing someone hurt because of your car would stay with you."
+            "response": "That guilt has a moral weight to it; you did not mean to harm him, and still someone was hurt, so it makes sense that it stays with you."
           },
           "no": {
             "statement": "[Skyldpreget] Jeg traff en syklist med bilen forrige uke. Veien var glatt, men han brakk likevel håndleddet, og jeg klarer ikke slutte å kjenne skyld.",
-            "response": "Ikke rart du er rystet og kjenner skyld; selv uten å mene å skade noen, ville det å se et menneske bli skadet av bilen din satt seg fast."
+            "response": "Den skylden har en moralsk tyngde; du mente ikke å skade ham, og likevel ble noen skadet, så det gir mening at det blir sittende."
           }
         }
       ]

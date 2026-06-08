@@ -34,6 +34,7 @@ Branch update:
 - Empathic Conjectures easy/moderate have been revised so more markers present behavior, situation, and defensive speech rather than naming the hidden process the trainee is meant to conjecture.
 - Marker Recognition and Chair Work has been expanded to the full 10-per-case matrix, adding natural self-critical, self-interruptive, unfinished-business, catastrophizing/worry, betrayal, and trauma-linked chair-work markers.
 - Alliance Repair has been expanded to the full 10-per-case matrix, adding competence/status, boredom/disinterest, previous-therapy, sexual-boundary, trauma-pacing, substance, and safety/boundary ruptures.
+- Empathic Affirmation and Validation easy has been broadened with more ordinary public-composure grief, social anger, responsibility/guilt, presentation anxiety, and positive-invitation anxiety markers, while reducing repeated "of course/no wonder" response openings.
 
 The remaining gaps are more subtle:
 
@@ -58,7 +59,7 @@ The remaining gaps are more subtle:
 | Empathic Understanding | Easy | Strong | Medium-High | Strong | Low-Medium | Good simple reflection markers. Some are still more case-schema specific than benchmark everyday sadness/stress/readiness examples. |
 | Empathic Understanding | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass added ordinary bills/money worry, friend disappointment, confused depression, and guide-me uncertainty. Further work is polish rather than repair. |
 | Empathic Understanding | Hard | Strong | Medium-High | Strong | Low-Medium | Recent pass added substance-anxiety ambivalence, plain session uncertainty, and more ordinary relational loss while keeping hard-case defenses. |
-| Empathic Affirmation and Validation | Easy | Strong-Mixed | Medium-High | Strong | Medium | Now includes accident guilt and presentation anxiety, but still over-centers shame and breakup/anger schemas. |
+| Empathic Affirmation and Validation | Easy | Strong | High | Strong | Low-Medium | Recent pass broadened beyond breakup shame/anger into public-composure grief, social anger, moral guilt, presentation anxiety, and positive-invitation anxiety. Continue only regression polish. |
 | Empathic Affirmation and Validation | Moderate | Strong | Medium-High | Strong | Low-Medium | Good validation markers across trauma, politics, child-army fear, shame, and caregiver guilt. Some benchmark romance/grief variants remain thin. |
 | Empathic Affirmation and Validation | Hard | Strong | High | Strong | Low | Good range: trauma shame, rage/fear, desperate longing, confused overwhelm, positive warmth. |
 | Exploratory Questions | Easy | Strong-Mixed | Medium | Strong | Medium | Good live inward edges, but many markers already include body cues, reducing need for trainee exploration. AA/amends guilt remains absent. |
@@ -102,28 +103,25 @@ Completed on the current content branch:
 - Empathic Conjectures, easy and moderate.
 - Marker Recognition and Chair Work expansion to 10 statements per case.
 - Alliance Repair expansion to 10 statements per case.
+- Empathic Affirmation and Validation, easy.
 
 These should still be reviewed in normal regression passes, but they are no longer the highest-value repair targets.
 
 ## Current Highest-Value Improvement Targets
 
-1. Empathic Affirmation and Validation, easy.
-   - Quality is strong enough for production, but benchmark breadth is narrower than the moderate/hard tiers.
-   - Add more ordinary beginner-level legitimacy markers without overloading them with shame schema.
-
-2. Therapist Self-Awareness hard response polish.
+1. Therapist Self-Awareness hard response polish.
    - Hard markers remain strong.
    - Continue reducing question-form and overly explanatory meta responses when encountered during normal passes.
 
-3. Staying in Contact with Intense Affect remaining polish.
+2. Staying in Contact with Intense Affect remaining polish.
    - Keep as a regression target rather than the next main repair area.
    - Future passes can add more positive loving affect and ordinary death/loss examples if the fixed cases can carry them naturally.
 
-4. Empathic Evocations regression polish.
+3. Empathic Evocations regression polish.
    - Keep checking that client statements remain flat, detached, or over-cognitive rather than already imagistic.
    - Future evocation changes should be small and benchmark-driven, not a broad rewrite.
 
-5. Empathic Conjectures hard regression polish.
+4. Empathic Conjectures hard regression polish.
    - Hard tier is still strong, but future passes should keep checking that high-risk or defensive markers do not become too interpretive before the trainee responds.
 
 ## Case-Set Constraints
