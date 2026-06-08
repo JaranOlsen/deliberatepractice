@@ -1405,7 +1405,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Desperate] I do not know what I feel today; everything is too much and also kind of blank.",
-        "suggestion": "Where can you sense the too much or the blankness right now?"
+        "suggestion": "When it is both too much and blank, what feeling is easiest to notice first?"
       },
       {
         "text": "[Desperate] When you look down to write notes, I start wondering what you are really thinking about me.",
@@ -1429,7 +1429,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] After I lash out, I hate myself so much I can barely stand being in my own skin.",
-        "suggestion": "When that self-hate hits, what hurt is it trying to bury?"
+        "suggestion": "When that self-hate hits, what feeling is hardest to stay near?"
       },
       {
         "text": "[Panicked] At the end I say goodbye like it is fine, and then I leave angry for needing you.",
@@ -1443,7 +1443,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Controlled] If I am not winning, I feel hollow, like there is nothing solid under me.",
-        "suggestion": "As you notice that hollow place, what does it most seem to need from you?"
+        "suggestion": "When winning is not there, what feeling comes with that hollowness?"
       },
       {
         "text": "[Defensive] I start listing achievements when I feel judged by my wife.",
@@ -1455,7 +1455,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Dismissive] Admitting I am wrong makes my face burn like everyone can see through me.",
-        "suggestion": "When the burn rises in your face, what are you afraid people will see?"
+        "suggestion": "When admitting you are wrong feels exposing, what feeling comes up?"
       },
       {
         "text": "[Avoidant] When the talk gets emotional, I check my phone so I do not have to look exposed.",
@@ -1471,7 +1471,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Embarrassed] I want someone to notice what I do without making me beg for credit.",
-        "suggestion": "When the credit does not come, what does that touch in you?"
+        "suggestion": "When the credit does not come, what feeling comes up?"
       },
       {
         "text": "[Wounded but sharp] I hate being ordinary at work in front of everyone, like it means I have disappeared.",
@@ -1488,8 +1488,8 @@ export const STATEMENT_SETS = {
         "suggestion": "What do you notice as you decide what to leave alone?"
       },
       {
-        "text": "[Quiet and guarded] In the grocery store I stay near exits because every aisle feels boxed in.",
-        "suggestion": "As you picture those aisles, where does the tension gather first?"
+        "text": "[Quiet and guarded] In the grocery store I stay near exits because the aisles feel too closed in.",
+        "suggestion": "When the aisles feel closed in, what feeling comes up?"
       },
       {
         "text": "[Low voice] After dark I cannot tell if the silence is peaceful or if it is closing in.",
@@ -1501,7 +1501,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and guarded] I keep the lights low and ignore calls so the world stays far away.",
-        "suggestion": "In the low light with the phone unanswered, what does the distance protect in you?"
+        "suggestion": "When the world stays far away, what feeling becomes easier to manage?"
       },
       {
         "text": "[Flat] When something good happens, I wait for the part where it gets taken back.",
@@ -1509,7 +1509,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hypervigilant] Sudden sounds in the stairwell make me jump and then scan for danger.",
-        "suggestion": "Right after the jump, what is the first danger you find yourself scanning for?"
+        "suggestion": "Right after the jump, what feeling takes over?"
       },
       {
         "text": "[Quiet and guarded] I do not remember the last time I really laughed without checking myself.",

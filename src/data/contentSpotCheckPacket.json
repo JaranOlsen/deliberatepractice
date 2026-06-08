@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T10:37:13.215Z",
+  "generatedAt": "2026-06-08T13:48:53.424Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -784,11 +784,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Ashamed] After I lash out, I hate myself so much I can barely stand being in my own skin.",
-                "response": "When that self-hate hits, what hurt is it trying to bury?"
+                "response": "When that self-hate hits, what feeling is hardest to stay near?"
               },
               "no": {
                 "statement": "[Skamfull] Etter at jeg eksploderer, hater jeg meg selv så mye at jeg nesten ikke holder ut å være i min egen kropp.",
-                "response": "Når selvhatet treffer, hvilken smerte prøver det å begrave?"
+                "response": "Når selvhatet treffer, hvilken følelse er vanskeligst å være nær?"
               }
             }
           ]
