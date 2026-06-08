@@ -1148,8 +1148,8 @@ export const STATEMENT_SETS = {
         "suggestion": "What is it like inside when you feel that small?"
       },
       {
-        "text": "[Embarrassed] At brunch I say I am fine, but my throat tightens before the lie finishes.",
-        "suggestion": "When your throat tightens before the answer is out, what feeling is trying not to be heard?"
+        "text": "[Embarrassed] At brunch I kept saying I was fine, but I could tell I was trying too hard.",
+        "suggestion": "When you notice yourself trying that hard to seem fine, what feeling is closest?"
       },
       {
         "text": "[Angry] I was angry he forgot my birthday, and then I felt silly for caring.",
@@ -1160,24 +1160,24 @@ export const STATEMENT_SETS = {
         "suggestion": "When you imagine asking him that, what feeling comes up first?"
       },
       {
-        "text": "[Panicked] Sometimes I delete old photos and then search for them again before the panic settles.",
-        "suggestion": "When you search for the photos again, what is the panicked part hoping to feel?"
+        "text": "[Panicked] Sometimes I delete old photos and then look for them again ten minutes later.",
+        "suggestion": "When you cannot let the photos stay gone, what feeling comes up most strongly?"
       },
       {
-        "text": "[Embarrassed] When someone is kind to me, my eyes drop like I have been caught wanting too much.",
-        "suggestion": "As your eyes drop, what feeling appears around wanting kindness?"
+        "text": "[Embarrassed] When someone is kind to me, I suddenly do not know what to do with it.",
+        "suggestion": "When kindness leaves you unsure what to do, what feeling comes up?"
       },
       {
-        "text": "[Softly] I wake up reaching across the bed, and then it hits me all over again.",
-        "suggestion": "In that first moment of remembering, what feeling arrives before words do?"
+        "text": "[Softly] I wake up and forget for a second that he is gone, and then it hits me all over again.",
+        "suggestion": "In that first moment of remembering, what feeling arrives before you explain it?"
       },
       {
         "text": "[Tearful] I feel embarrassed that I am still this sad, like grief should have expired by now.",
         "suggestion": "When the embarrassment says grief should be over, what sadness is still asking to be noticed?"
       },
       {
-        "text": "[Tearful] Seeing couples at the market makes my chest ache, and I leave before I cry.",
-        "suggestion": "When that ache pulls you toward leaving, what does it most long for?"
+        "text": "[Tearful] Seeing couples at the market makes me leave before I cry.",
+        "suggestion": "When you leave before the tears come, what feeling are you trying not to show?"
       },
       {
         "text": "[Softly] I cross the street to avoid the cafe we used to call ours.",
@@ -1187,11 +1187,11 @@ export const STATEMENT_SETS = {
     "case-michael": [
       {
         "text": "[Tense and angry] When someone corrects one detail, I get angry and embarrassed at the same time.",
-        "suggestion": "Where do you notice that mix of anger and embarrassment right now?"
+        "suggestion": "What do you notice inside as anger and embarrassment show up together?"
       },
       {
-        "text": "[Defensive] A sigh from my wife makes me bristle like she has already decided I am wrong.",
-        "suggestion": "When that sigh lands as judgment, where do you first feel the bristle inside?"
+        "text": "[Defensive] A sigh from my wife makes me assume she has already decided I am wrong.",
+        "suggestion": "When that sigh lands as judgment, what feeling comes first?"
       },
       {
         "text": "[Tense] My boss praised the team but not me, and I could not stop thinking about it.",
@@ -1199,15 +1199,15 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and angry] I scan meeting rooms for disrespect before I even know who has walked in.",
-        "suggestion": "As you picture scanning the room, what is the first sign inside that you are on guard?"
+        "suggestion": "When you are already scanning for disrespect, what feeling are you bracing for?"
       },
       {
         "text": "[Defensive] When I apologize to my wife, it feels like I have handed her the win.",
-        "suggestion": "As you picture handing her the win, where does the one-down feeling land strongest?"
+        "suggestion": "When apologizing feels like losing, what feeling is hardest to stay with?"
       },
       {
-        "text": "[Tense] When I am unsure of an answer in front of the team, my chest tightens fast.",
-        "suggestion": "If that chest tightness could speak, what would it say it is protecting you from?"
+        "text": "[Tense] When I am unsure of an answer in front of the team, I start talking faster so nobody notices.",
+        "suggestion": "When nobody can see you are unsure, what feeling are you avoiding?"
       },
       {
         "text": "[Tense and angry] I told my wife I was fine, but I was still angry hours later.",
@@ -1215,25 +1215,25 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Defensive] I slam doors at home so no one hears me say I was hurt.",
-        "suggestion": "In the moment before the door slams, where does the hurt show itself inside?"
+        "suggestion": "Before the door slams, what feeling is there that is hard to say out loud?"
       },
       {
         "text": "[Tense] Being told to calm down makes me explode before I hear anything else.",
-        "suggestion": "When those words hit, where does the first surge show up in you?"
+        "suggestion": "When those words hit, what feeling comes before the explosion?"
       },
       {
         "text": "[Ashamed] I hate feeling weak in front of people, like everyone can see I failed.",
-        "suggestion": "When 'weak' shows up in front of people, what image comes with it?"
+        "suggestion": "When 'weak' shows up in front of people, what feeling comes with being seen?"
       }
     ],
     "case-jason": [
       {
-        "text": "[Quietly] When it is my turn to speak, my throat tightens and my mind goes white.",
-        "suggestion": "When the tight throat and whiteout arrive, what starts to show up underneath, even a hint?"
+        "text": "[Quietly] When it is my turn to speak, I lose the sentence and everyone seems to be waiting.",
+        "suggestion": "When everyone seems to be waiting, what feeling shows up?"
       },
       {
         "text": "[Voice shaking] My voice shakes when I say my name, and then I hear myself sounding pathetic.",
-        "suggestion": "When you hear the shake in your voice, what feeling comes toward you first?"
+        "suggestion": "When you hear the shake in your voice, what feeling comes up first?"
       },
       {
         "text": "[Anxious] A friend did not reply, and I kept wondering what I did wrong.",
@@ -1244,16 +1244,16 @@ export const STATEMENT_SETS = {
         "suggestion": "What happens inside when you think the laugh is about you?"
       },
       {
-        "text": "[Hesitant] I keep my eyes on the table so people will not see how awkward I feel.",
-        "suggestion": "As your eyes drop to the table, what feeling about being seen shows up first?"
+        "text": "[Hesitant] I keep my eyes on the table so people will not ask me anything.",
+        "suggestion": "When looking up feels risky, what feeling comes up around being seen?"
       },
       {
         "text": "[Anxious] After meetings I replay one sentence for hours and feel my face heat up.",
-        "suggestion": "If we take one replayed sentence, what feeling sits beneath the cringe?"
+        "suggestion": "If we take one replayed sentence, what feeling keeps the replay going?"
       },
       {
         "text": "[Quietly] At parties I track the exit before I even know who is in the room.",
-        "suggestion": "When your attention goes to the exit, what are you sensing might happen to you?"
+        "suggestion": "When your attention goes to the exit, what feeling are you trying to get away from?"
       },
       {
         "text": "[Hesitant] Someone smiled at me in the hallway, and I could not tell if it was friendly or awkward.",
@@ -1265,7 +1265,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quietly] Sunday nights feel heavy, like everyone else has a life waiting for them.",
-        "suggestion": "When that Sunday heaviness arrives, what does it say about where you belong?"
+        "suggestion": "When that Sunday heaviness arrives, what feeling comes with the thought of belonging?"
       }
     ],
     "case-laura": [

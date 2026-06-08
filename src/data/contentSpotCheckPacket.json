@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T09:58:18.913Z",
+  "generatedAt": "2026-06-08T10:07:26.759Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -640,12 +640,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "[Panicked] Sometimes I delete old photos and then search for them again before the panic settles.",
-                "response": "When you search for the photos again, what is the panicked part hoping to feel?"
+                "statement": "[Panicked] Sometimes I delete old photos and then look for them again ten minutes later.",
+                "response": "When you cannot let the photos stay gone, what feeling comes up most strongly?"
               },
               "no": {
-                "statement": "[Panisk] Noen ganger sletter jeg gamle bilder og leter etter dem igjen før panikken legger seg.",
-                "response": "Når du leter etter bildene igjen, hva håper den paniske delen å kjenne?"
+                "statement": "[Panisk] Noen ganger sletter jeg gamle bilder og leter etter dem igjen ti minutter senere.",
+                "response": "Når du ikke klarer å la bildene være borte, hvilken følelse kommer sterkest?"
               }
             },
             {
@@ -657,12 +657,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "[Tearful] Seeing couples at the market makes my chest ache, and I leave before I cry.",
-                "response": "When that ache pulls you toward leaving, what does it most long for?"
+                "statement": "[Tearful] Seeing couples at the market makes me leave before I cry.",
+                "response": "When you leave before the tears come, what feeling are you trying not to show?"
               },
               "no": {
-                "statement": "[På gråten] Når jeg ser par på butikken, verker det i brystet, og jeg går før jeg begynner å gråte.",
-                "response": "Når smerten drar deg mot døren, hva lengter den mest etter?"
+                "statement": "[På gråten] Når jeg ser par på butikken, går jeg før jeg begynner å gråte.",
+                "response": "Når du går før tårene kommer, hvilken følelse prøver du å ikke vise?"
               }
             }
           ]

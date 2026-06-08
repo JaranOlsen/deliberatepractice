@@ -2499,8 +2499,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Hvordan kjennes det inni deg når du føler deg så liten?"
     },
     "dp_exploratory-questions_case-sara_02": {
-      "text": "[Flau] Under brunsjen sier jeg at det går bra, men halsen strammer seg før løgnen er ferdig.",
-      "suggestion": "Når halsen strammer seg før du får svart, hvilken følelse prøver å ikke bli hørt?"
+      "text": "[Flau] Under brunsjen fortsatte jeg å si at det gikk bra, men jeg merket at jeg prøvde for hardt.",
+      "suggestion": "Når du merker at du prøver så hardt å virke som om det går bra, hvilken følelse er nærmest?"
     },
     "dp_exploratory-questions_case-sara_03": {
       "text": "[Sint] Jeg ble sint for at han glemte bursdagen min, og så følte jeg meg teit som brydde meg.",
@@ -2511,24 +2511,24 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når du ser for deg å spørre ham om det, hvilken følelse kommer først?"
     },
     "dp_exploratory-questions_case-sara_05": {
-      "text": "[Panisk] Noen ganger sletter jeg gamle bilder og leter etter dem igjen før panikken legger seg.",
-      "suggestion": "Når du leter etter bildene igjen, hva håper den paniske delen å kjenne?"
+      "text": "[Panisk] Noen ganger sletter jeg gamle bilder og leter etter dem igjen ti minutter senere.",
+      "suggestion": "Når du ikke klarer å la bildene være borte, hvilken følelse kommer sterkest?"
     },
     "dp_exploratory-questions_case-sara_06": {
-      "text": "[Flau] Når noen er snille mot meg, faller blikket som om jeg er tatt på fersken i å ville ha for mye.",
-      "suggestion": "Når blikket faller, hvilken følelse dukker opp rundt det å ville ta imot vennlighet?"
+      "text": "[Flau] Når noen er snille mot meg, vet jeg plutselig ikke hva jeg skal gjøre med det.",
+      "suggestion": "Når vennlighet gjør deg usikker på hva du skal gjøre, hvilken følelse kommer opp?"
     },
     "dp_exploratory-questions_case-sara_07": {
-      "text": "[Lavmælt] Jeg våkner og strekker meg over sengen, og så treffer det meg på nytt.",
-      "suggestion": "I det første øyeblikket der du husker, hvilken følelse kommer før ordene?"
+      "text": "[Lavmælt] Jeg våkner og glemmer et sekund at han er borte, og så treffer det meg på nytt.",
+      "suggestion": "I det første øyeblikket der du husker, hvilken følelse kommer før du forklarer den?"
     },
     "dp_exploratory-questions_case-sara_08": {
       "text": "[På gråten] Jeg blir flau over at jeg fortsatt er så trist, som om sorgen burde hatt utløpsdato.",
       "suggestion": "Når flauheten sier at sorgen burde vært over, hvilken tristhet ber fortsatt om å bli lagt merke til?"
     },
     "dp_exploratory-questions_case-sara_09": {
-      "text": "[På gråten] Når jeg ser par på butikken, verker det i brystet, og jeg går før jeg begynner å gråte.",
-      "suggestion": "Når smerten drar deg mot døren, hva lengter den mest etter?"
+      "text": "[På gråten] Når jeg ser par på butikken, går jeg før jeg begynner å gråte.",
+      "suggestion": "Når du går før tårene kommer, hvilken følelse prøver du å ikke vise?"
     },
     "dp_exploratory-questions_case-sara_10": {
       "text": "[Lavmælt] Jeg går over gaten for å slippe å passere kafeen vi pleide å kalle vår.",
@@ -2536,11 +2536,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-michael_01": {
       "text": "[Anspent og sint] Når noen retter på én detalj, blir jeg sint og flau samtidig.",
-      "suggestion": "Hvor merker du blandingen av sinne og flauhet akkurat nå?"
+      "suggestion": "Hva merker du inni deg når sinne og flauhet kommer samtidig?"
     },
     "dp_exploratory-questions_case-michael_02": {
-      "text": "[Defensiv] Et sukk fra kona får meg til å stritte imot, som om hun allerede har bestemt at jeg tar feil.",
-      "suggestion": "Når det sukket lander som en dom, hvor kjenner du først motstanden inni deg?"
+      "text": "[Defensiv] Et sukk fra kona får meg til å anta at hun allerede har bestemt at jeg tar feil.",
+      "suggestion": "Når det sukket lander som en dom, hvilken følelse kommer først?"
     },
     "dp_exploratory-questions_case-michael_03": {
       "text": "[Anspent] Sjefen roste teamet, men ikke meg, og jeg klarte ikke å slutte å tenke på det.",
@@ -2548,15 +2548,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-michael_04": {
       "text": "[Anspent og sint] Jeg speider etter tegn på respektløshet i møterommet før jeg engang vet hvem som har kommet inn.",
-      "suggestion": "Når du ser for deg at du speider rundt i rommet, hva er det første tegnet inni deg på at du er på vakt?"
+      "suggestion": "Når du allerede speider etter respektløshet, hvilken følelse forbereder du deg på?"
     },
     "dp_exploratory-questions_case-michael_05": {
       "text": "[Defensiv] Når jeg beklager til kona mi, føles det som om jeg har gitt henne seieren.",
-      "suggestion": "Når du ser for deg at du gir henne seieren, hvor lander følelsen av å være underlegen sterkest?"
+      "suggestion": "Når det å beklage kjennes som å tape, hvilken følelse er vanskeligst å bli værende med?"
     },
     "dp_exploratory-questions_case-michael_06": {
-      "text": "[Anspent] Når jeg er usikker på et svar foran teamet, strammer brystet seg fort.",
-      "suggestion": "Hvis stramheten i brystet kunne snakke, hva ville den sagt at den beskytter deg mot?"
+      "text": "[Anspent] Når jeg er usikker på et svar foran teamet, begynner jeg å snakke fortere så ingen skal merke det.",
+      "suggestion": "Når ingen får se at du er usikker, hvilken følelse unngår du?"
     },
     "dp_exploratory-questions_case-michael_07": {
       "text": "[Anspent og sint] Jeg sa til kona mi at det gikk fint, men jeg var fortsatt sint flere timer etterpå.",
@@ -2564,23 +2564,23 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-michael_08": {
       "text": "[Defensiv] Jeg smeller med dører hjemme så ingen hører meg si at jeg ble såret.",
-      "suggestion": "I øyeblikket før døren smeller, hvor viser det såre seg inni deg?"
+      "suggestion": "Før døren smeller, hvilken følelse er der som er vanskelig å si høyt?"
     },
     "dp_exploratory-questions_case-michael_09": {
       "text": "[Anspent] Når noen ber meg roe meg ned, eksploderer jeg før jeg hører noe mer.",
-      "suggestion": "Når de ordene treffer, hvor i deg kommer den første bølgen?"
+      "suggestion": "Når de ordene treffer, hvilken følelse kommer før eksplosjonen?"
     },
     "dp_exploratory-questions_case-michael_10": {
       "text": "[Skamfull] Jeg hater å føle meg svak foran folk, som om alle kan se at jeg mislyktes.",
-      "suggestion": "Når «svak» dukker opp foran folk, hvilket bilde kommer med det?"
+      "suggestion": "Når «svak» dukker opp foran folk, hvilken følelse kommer med det å bli sett?"
     },
     "dp_exploratory-questions_case-jason_01": {
-      "text": "[Stille] Når det er min tur til å snakke, strammer halsen seg og hodet blir blankt.",
-      "suggestion": "Når halsen strammer seg og alt blir blankt, hva begynner å vise seg under, om så bare et hint?"
+      "text": "[Stille] Når det er min tur til å snakke, mister jeg setningen, og det virker som om alle venter.",
+      "suggestion": "Når det virker som om alle venter, hvilken følelse dukker opp?"
     },
     "dp_exploratory-questions_case-jason_02": {
       "text": "[Skjelvende stemme] Stemmen skjelver når jeg sier navnet mitt, og så hører jeg hvor patetisk jeg virker.",
-      "suggestion": "Når du hører skjelvingen i stemmen din, hvilken følelse kommer mot deg først?"
+      "suggestion": "Når du hører skjelvingen i stemmen din, hvilken følelse kommer først?"
     },
     "dp_exploratory-questions_case-jason_03": {
       "text": "[Engstelig] En venn svarte ikke, og jeg fortsatte å lure på hva jeg hadde gjort feil.",
@@ -2591,16 +2591,16 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Hva skjer inni deg når du tror latteren handler om deg?"
     },
     "dp_exploratory-questions_case-jason_05": {
-      "text": "[Nølende] Jeg holder blikket på bordet så folk ikke skal se hvor klein jeg føler meg.",
-      "suggestion": "Når blikket faller til bordet, hvilken følelse rundt å bli sett dukker opp først?"
+      "text": "[Nølende] Jeg holder blikket på bordet så folk ikke skal spørre meg om noe.",
+      "suggestion": "Når det kjennes risikabelt å se opp, hvilken følelse kommer rundt det å bli sett?"
     },
     "dp_exploratory-questions_case-jason_06": {
       "text": "[Engstelig] Etter møter spiller jeg av én setning i timevis og kjenner ansiktet bli varmt.",
-      "suggestion": "Hvis vi tar én av setningene du spiller av, hvilken følelse ligger under flauheten?"
+      "suggestion": "Hvis vi tar én av setningene du spiller av, hvilken følelse holder gjennomgangen i gang?"
     },
     "dp_exploratory-questions_case-jason_07": {
       "text": "[Stille] På fester følger jeg med på utgangen før jeg engang vet hvem som er i rommet.",
-      "suggestion": "Når oppmerksomheten går mot utgangen, hva merker du at du frykter skal skje med deg?"
+      "suggestion": "Når oppmerksomheten går mot utgangen, hvilken følelse prøver du å komme unna?"
     },
     "dp_exploratory-questions_case-jason_08": {
       "text": "[Nølende] Noen smilte til meg i gangen, og jeg klarte ikke å skjønne om det var vennlig eller kleint.",
@@ -2612,7 +2612,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-jason_10": {
       "text": "[Stille] Søndagskveldene kjennes tunge, som om alle andre har et liv som venter på dem.",
-      "suggestion": "Når søndagstyngden kommer, hva sier den om hvor du hører til?"
+      "suggestion": "Når søndagstyngden kommer, hvilken følelse kommer med tanken på tilhørighet?"
     },
     "dp_exploratory-questions_case-laura_01": {
       "text": "[Langsomt og flatt] De fleste dager føles dempet, og jeg klarer ikke vite om jeg er trist eller bare nummen.",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T09:58:18.915Z",
+  "generatedAt": "2026-06-08T10:07:26.761Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -385,11 +385,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Defensive] When I apologize to my wife, it feels like I have handed her the win.",
-            "response": "As you picture handing her the win, where does the one-down feeling land strongest?"
+            "response": "When apologizing feels like losing, what feeling is hardest to stay with?"
           },
           "no": {
             "statement": "[Defensiv] Når jeg beklager til kona mi, føles det som om jeg har gitt henne seieren.",
-            "response": "Når du ser for deg at du gir henne seieren, hvor lander følelsen av å være underlegen sterkest?"
+            "response": "Når det å beklage kjennes som å tape, hvilken følelse er vanskeligst å bli værende med?"
           }
         },
         {
