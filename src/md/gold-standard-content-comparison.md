@@ -37,7 +37,7 @@ Best-aligned areas:
 - Self-Disclosure
 - Empathic Conjectures
 
-Branch update: Empathic Evocations, Marker Recognition and Chair Work, Alliance Repair, easy-tier Empathic Affirmation and Validation, and hard-tier Therapist Self-Awareness responses have all received major repair passes since the original audit. Chair-work, alliance repair, easy validation, and hard self-awareness responses should be treated as regression-polish areas rather than top missing-coverage areas.
+Branch update: Empathic Evocations, Marker Recognition and Chair Work, Alliance Repair, easy-tier Empathic Affirmation and Validation, easy-tier Empathic Explorations, and hard-tier Therapist Self-Awareness responses have all received major repair passes since the original audit. Chair-work, alliance repair, easy validation, easy exploration, and hard self-awareness responses should be treated as regression-polish areas rather than top missing-coverage areas.
 
 Instruction-level risks:
 
@@ -72,7 +72,7 @@ Ratings:
 | Providing Treatment Rationale | Easy/beginner | Strong | High | Very close: many direct questions about therapy, feelings, plans, getting stuck, and history. |
 | Providing Treatment Rationale | Moderate/intermediate | Strong | High-Medium | Good skepticism/fear/numbing coverage; add more shame-about-crying and "positive thinking" archetypes if polishing. |
 | Providing Treatment Rationale | Hard/advanced | Strong | Medium-High | Good safety, overwhelm, self-harm, control, and practical skepticism markers; still could add more "emotions are the problem" and anger-control variants. |
-| Empathic Explorations | Easy/beginner | Mixed | Low | Current statements are often already embodied and vivid. Benchmark includes lostness, anger with violent impulse, child-safety guilt, bereavement, and uncertain excitement. |
+| Empathic Explorations | Easy/beginner | Strong | Medium-High | Recent pass simplified markers toward ordinary scene-plus-affect material and reduced body/metaphor language, with better coverage of lostness, anger/shame, uncertainty, and positive invitation anxiety. |
 | Empathic Explorations | Moderate/intermediate | Mixed | Low-Medium | Has live emotional edges, but lacks some benchmark relational ambiguity and therapist-trust markers. |
 | Empathic Explorations | Hard/advanced | Mixed | Low-Medium | Current hard material is intense but narrow. Missing dazed/foggy process, attraction to therapist, guarded hospitalization fear, and comparison-with-therapist shame. |
 | Empathic Evocations | Easy/beginner | Weak | Low-Medium | Statement themes overlap somewhat, but many current markers already provide evocative image/body language. The trainee is not left enough room to evoke. |
@@ -174,7 +174,7 @@ This section paraphrases benchmark example families. "Covered" means the current
 
 1. Continue regression-polishing Empathic Evocations so client markers stay flatter, more cognitive, more guarded, or more symptom/situation-focused, leaving vivid imagery to the trainee.
 2. Continue regression-polishing Therapist Self-Awareness. Hard response polish is complete on this branch; future work should focus only on natural additional trigger breadth where the fixed cases can carry it.
-3. Simplify some early-tier Empathic Understanding, Exploratory Question, and Exploration markers. Easy validation has had a benchmark-breadth pass and now mainly needs regression checks.
+3. Simplify some early-tier Empathic Understanding and Exploratory Question markers. Easy validation and easy exploration have had benchmark-breadth passes and now mainly need regression checks.
 4. Add missing high-intensity benchmark families to Staying in Contact: loving transference, guilt over harm, suicidal divorce, pet euthanasia, political rage, sexual-offense guilt, homicidal fantasy, collective trauma, and therapy-not-working anger.
 5. Polish already-close skills last: Treatment Rationale, Self-Disclosure, Empathic Conjectures, Marker Recognition and Chair Work, and Alliance Repair. These need targeted regression and response-variety checks rather than broad rewrites.
 

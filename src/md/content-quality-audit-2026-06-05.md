@@ -36,6 +36,7 @@ Branch update:
 - Alliance Repair has been expanded to the full 10-per-case matrix, adding competence/status, boredom/disinterest, previous-therapy, sexual-boundary, trauma-pacing, substance, and safety/boundary ruptures.
 - Empathic Affirmation and Validation easy has been broadened with more ordinary public-composure grief, social anger, responsibility/guilt, presentation anxiety, and positive-invitation anxiety markers, while reducing repeated "of course/no wonder" response openings.
 - Therapist Self-Awareness hard responses have been polished to model internal regulation more clearly, reduce "let's/we can/I want" procedural drift, and keep safety/boundary responses steady under suicidality, erotic pressure, distrust, and sexist/substance-minimizing material.
+- Empathic Explorations easy has been recalibrated so markers use simpler scene-plus-affect language, reduce pre-supplied body imagery, and keep responses closer to explicit emerging feeling rather than conjecture.
 
 The remaining gaps are more subtle:
 
@@ -69,7 +70,7 @@ The remaining gaps are more subtle:
 | Providing Treatment Rationale | Easy | Strong | High | Strong | Low | Excellent direct rationale markers tied to client skepticism, fear, goals, and safety. |
 | Providing Treatment Rationale | Moderate | Strong | High | Strong | Low | Good skepticism/fear/numbing/practicality coverage. Shame-about-crying and positive-thinking variants could be added only as polish. |
 | Providing Treatment Rationale | Hard | Strong | High | Strong | Low | Strong safety, self-harm, control, trauma, and anger-risk rationale markers. |
-| Empathic Explorations | Easy | Strong-Mixed | Medium | Strong | Medium | Good live edges; some markers are already strongly embodied/evocative. Uncertain positive excitement/dating ambiguity remains thin. |
+| Empathic Explorations | Easy | Strong | Medium-High | Strong | Low-Medium | Recent pass reduced pre-supplied body imagery and conjectural responses, while preserving live sadness, anger/shame, guardedness, and uncertain positive invitation markers. |
 | Empathic Explorations | Moderate | Strong-Mixed | Medium | Strong | Medium | Recent pass added flatter relational ambiguity, not-emotional/confused process, last-therapist distrust, and ordinary uncertainty. |
 | Empathic Explorations | Hard | Strong-Mixed | Medium | Strong | Medium | Recent pass added dazed/foggy process and direct therapist-attraction material. Some hard-case items still border intense-affect because of case severity. |
 | Empathic Evocations | Easy | Strong | Medium | Strong | Low-Medium | Marker style is now much better: flat, detached, ordinary. Benchmark archetype coverage is partial, but this is partly intentional to preserve trainee image-making. |
@@ -106,6 +107,7 @@ Completed on the current content branch:
 - Alliance Repair expansion to 10 statements per case.
 - Empathic Affirmation and Validation, easy.
 - Therapist Self-Awareness hard response polish.
+- Empathic Explorations, easy.
 
 These should still be reviewed in normal regression passes, but they are no longer the highest-value repair targets.
 
