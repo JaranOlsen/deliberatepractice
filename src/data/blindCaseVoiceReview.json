@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T14:04:11.448Z",
+  "generatedAt": "2026-06-08T14:32:42.173Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -891,11 +891,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tearful] I cannot look at you when I cry; it feels too exposed.",
-            "response": "You do not have to look at me. Rest your gaze somewhere tolerable and let the exposed feeling be here in a small enough dose to bear."
+            "response": "You can look away and still not be alone. I will stay present while the exposed feeling has only a little room."
           },
           "no": {
             "statement": "[På gråten] Jeg klarer ikke se på deg når jeg gråter; det føles altfor blottlagt.",
-            "response": "Du trenger ikke se på meg. La blikket hvile et sted som er tålelig, og la den blottlagte følelsen få være her i en dose som går an å bære."
+            "response": "Du kan se bort og likevel ikke være alene. Jeg blir nærværende mens den blottstilte følelsen får bare litt rom."
           }
         },
         {
@@ -940,11 +940,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Firm] My jaw locks and heat blasts up my neck when someone questions me.",
-            "response": "I am here. Ease the jaw if you can, lower the shoulders, and take one slow exhale; notice the first sting under the heat for a moment."
+            "response": "The heat comes fast when you feel questioned. I will stay steady with you while we keep the anger in words and listen for the sting under it."
           },
           "no": {
             "statement": "[Fast] Kjeven låser seg og varmen skyter opp i nakken når noen stiller spørsmål ved meg.",
-            "response": "Jeg er her. Løsne kjeven hvis du kan, senk skuldrene og ta ett langsomt utpust; legg merke til det første stikket under varmen et øyeblikk."
+            "response": "Varmen kommer fort når du føler deg stilt spørsmål ved. Jeg holder meg stødig med deg mens vi lar sinnet være i ord og lytter etter stikket under det."
           }
         }
       ]

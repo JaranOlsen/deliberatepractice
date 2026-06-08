@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T14:04:11.448Z",
+  "generatedAt": "2026-06-08T14:32:42.158Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1604,11 +1604,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Quietly] Everything goes fuzzy and my heart races like I am failing out loud.",
-                "response": "I am here. Look at one thing across the room, feel the chair under you, and take two slow exhales. Touch a tiny bit of the racing, then pause."
+                "response": "I am here with you in the fuzziness. The panic can be visible without you having to perform a normal sentence."
               },
               "no": {
                 "statement": "[Stille] Alt blir uklart og hjertet hamrer, som om alle kan se at jeg ikke får det til.",
-                "response": "Jeg er her. Se på én ting på andre siden av rommet, kjenn stolen under deg, og ta to langsomme utpust. Berør en bitte liten del av farten i kroppen, og ta så pause."
+                "response": "Jeg er her med deg i uklarheten. Panikken kan være synlig uten at du må prestere en normal setning."
               }
             },
             {
@@ -1638,11 +1638,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Panicked] When you remember what I said last week, I feel so relieved I could cry, and then I panic that I need this too much.",
-                "response": "That relief matters. Warmth and panic can arrive together; we will keep the need small enough to feel without turning it into danger."
+                "response": "Being remembered touches something huge, and then need starts to feel dangerous. I will stay with both the relief and the panic without making either wrong."
               },
               "no": {
                 "statement": "[Panisk] Når du husker det jeg sa forrige uke, blir jeg så lettet at jeg kunne gråte, og så får jeg panikk for at jeg trenger dette for mye.",
-                "response": "Den lettelsen betyr noe. Varmen og panikken kan komme samtidig; vi holder behovet lite nok til at det kan kjennes uten å bli farlig."
+                "response": "Det å bli husket berører noe stort, og så begynner behovet å kjennes farlig. Jeg blir hos både lettelsen og panikken uten å gjøre noen av dem feil."
               }
             }
           ]
@@ -1667,11 +1667,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Guilty] I cannot stop crying, and then I feel ashamed for needing so much.",
-                "response": "Tears make sense here. Let us slow the breath together and feel the chair support you while we let a little of the cry move."
+                "response": "The crying and the shame about needing so much are both here. I am staying with you while the need has room without becoming something to apologize for."
               },
               "no": {
                 "statement": "[Skyldpreget] Jeg klarer ikke slutte å gråte, og så skammer jeg meg for hvor mye jeg trenger.",
-                "response": "Tårer hører hjemme her. Vi roer pusten sammen og kjenner at stolen støtter deg, mens vi lar litt av gråten få bevege seg."
+                "response": "Gråten og skammen over å trenge så mye er begge her. Jeg blir hos deg mens behovet får rom uten å bli noe du må beklage."
               }
             },
             {

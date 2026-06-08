@@ -37,7 +37,7 @@ Best-aligned areas:
 - Self-Disclosure
 - Empathic Conjectures
 
-Branch update: Empathic Evocations, Marker Recognition and Chair Work, Alliance Repair, easy-tier Empathic Affirmation and Validation, all-tier Exploratory Questions, easy-tier Empathic Explorations, easy-tier Empathic Understanding regression polish, and hard-tier Therapist Self-Awareness responses have all received repair or polish passes since the original audit. Chair-work, alliance repair, easy validation, exploratory questions, easy exploration, easy understanding, and hard self-awareness responses should be treated as regression-polish areas rather than top missing-coverage areas.
+Branch update: Empathic Evocations, Marker Recognition and Chair Work, Alliance Repair, easy-tier Empathic Affirmation and Validation, all-tier Exploratory Questions, easy-tier Empathic Explorations, easy-tier Empathic Understanding regression polish, easy/moderate Staying in Contact with Intense Affect contact-first polish, and hard-tier Therapist Self-Awareness responses have all received repair or polish passes since the original audit. Chair-work, alliance repair, easy validation, exploratory questions, easy exploration, easy understanding, staying-in-contact, and hard self-awareness responses should be treated as regression-polish areas rather than top missing-coverage areas.
 
 Instruction-level risks:
 
@@ -81,8 +81,8 @@ Ratings:
 | Empathic Conjectures | Easy/beginner | Strong-Mixed | Medium | Good hints of unspoken shame/fear beneath defense; add more alcohol/blame, disrespect anger, and AA guilt variants. |
 | Empathic Conjectures | Moderate/intermediate | Strong | Medium-High | One of the better aligned tiers; still needs clearer obsessive love and blocked-love/betrayal variants. |
 | Empathic Conjectures | Hard/advanced | Strong-Mixed | Medium | Has defensive/underlying-feeling patterns, but needs denial-after-suicidality, trapped relationship, and macho anti-feeling markers. |
-| Staying in Contact with Intense Affect | Easy/beginner | Strong | Low-Medium | Strong intensity markers, but benchmark includes positive loving affect, guilt over harming children, death/loss, abuse anger, and political/system anger. |
-| Staying in Contact with Intense Affect | Moderate/intermediate | Strong | Low | Current material is emotionally intense but too narrow. Missing retired-therapist attachment, pet euthanasia guilt, political rage, affair guilt, and explicit suicidal divorce. |
+| Staying in Contact with Intense Affect | Easy/beginner | Strong | Medium-High | Recent pass added warm positive affect and reduced procedural grounding drift. Ordinary death/loss and abuse-anger variants remain limited by the easy case set. |
+| Staying in Contact with Intense Affect | Moderate/intermediate | Strong | Medium-High | Now covers pet euthanasia guilt, political rage, child guilt, grief, collapse, and intense positive love; retired-therapist attachment and explicit suicidal divorce remain less natural with the fixed moderate cases. |
 | Staying in Contact with Intense Affect | Hard/advanced | Strong | Low-Medium | Good self-harm/abandonment intensity, but missing erotic/transference pressure, Holocaust/collective trauma, sexual-offense guilt, homicidal fantasy, and therapy-not-working anger. |
 | Self-Disclosure | Easy/beginner | Strong | High | Strong coverage of therapist transparency, care, relationship, and judgment questions. Add a simpler first-session "where do I start?" marker if desired. |
 | Self-Disclosure | Moderate/intermediate | Strong | High-Medium | Good boredom/interest, discomfort, trauma competence, and therapist-impact questions. Coverage is close. |
@@ -148,8 +148,8 @@ This section paraphrases benchmark example families. "Covered" means the current
 
 ### 9. Staying in Contact with Intense Affect
 
-- Easy: partial for depression, guilt, grief, and anger; missing warm/loving positive intensity and guilt over having harmed children.
-- Moderate: partial for unbearable sadness and rage; missing retired-therapist attachment, pet euthanasia guilt, political rage, long affair guilt, and explicit suicidal divorce.
+- Easy: now covered or partial for depression, guilt, grief, anger, and warm/loving positive intensity. Ordinary death/loss and abuse-anger variants remain partly constrained by the easy case set.
+- Moderate: now covered for pet euthanasia guilt, political rage, caregiver guilt, grief, collapse, and intense positive love. Retired-therapist attachment and explicit suicidal divorce remain less natural with the fixed moderate cases.
 - Hard: partial for boundary/abandonment intensity; missing flirty admiration, Holocaust/collective trauma, sexual-offense guilt, explicit homicidal fantasy, and trainee-competence rupture under intense affect.
 
 ### 10. Self-Disclosure
@@ -175,7 +175,7 @@ This section paraphrases benchmark example families. "Covered" means the current
 1. Continue regression-polishing Empathic Evocations so client markers stay flatter, more cognitive, more guarded, or more symptom/situation-focused, leaving vivid imagery to the trainee.
 2. Continue regression-polishing Therapist Self-Awareness. Hard response polish is complete on this branch; future work should focus only on natural additional trigger breadth where the fixed cases can carry it.
 3. Continue regression-polishing early-tier Empathic Understanding markers and responses only where they drift into conjecture, core-pain formulation, or evocative language. Easy validation, exploratory questions across tiers, and easy exploration have had benchmark-breadth passes and now mainly need regression checks.
-4. Add missing high-intensity benchmark families to Staying in Contact: loving transference, guilt over harm, suicidal divorce, pet euthanasia, political rage, sexual-offense guilt, homicidal fantasy, collective trauma, and therapy-not-working anger.
+4. Keep Staying in Contact as a regression-polish area: preserve contact-first responses and avoid letting it become a grounding-script exercise.
 5. Polish already-close skills last: Treatment Rationale, Self-Disclosure, Empathic Conjectures, Marker Recognition and Chair Work, and Alliance Repair. These need targeted regression and response-variety checks rather than broad rewrites.
 
 ## Notes for Future Content Passes

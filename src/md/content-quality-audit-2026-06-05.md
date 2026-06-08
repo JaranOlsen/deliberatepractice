@@ -41,6 +41,7 @@ Branch update:
 - Exploratory Questions moderate has been tightened around one-step inward questions, with fewer client-supplied body cues and less interpretive therapist language.
 - Exploratory Questions hard has been tightened so advanced rupture, shame, dissociation, and threat markers still invite one inward question without the therapist supplying conjecture or body-process language too early.
 - Empathic Understanding easy has received regression polish: selected Sara, Michael, and Jason responses now stay closer to explicit client meaning, and one Sara marker was softened away from naming core unlovability too directly.
+- Staying in Contact with Intense Affect easy/moderate has received a contact-over-grounding polish: selected responses now communicate steadier presence before regulation, and Sara now includes a warm positive-affect marker that is hard to stay with for different reasons than panic or grief.
 
 The remaining gaps are more subtle:
 
@@ -83,8 +84,8 @@ The remaining gaps are more subtle:
 | Empathic Conjectures | Easy | Strong | Medium-High | Strong | Low-Medium | Recent pass made markers more behavioral and less self-formulated across breakup grief, anger/defensiveness, social anxiety, alcohol use, and apology/shame material. |
 | Empathic Conjectures | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass reduced over-naming in trauma avoidance, anger/masculinity defenses, caregiver shame, and attachment-maintenance markers. |
 | Empathic Conjectures | Hard | Strong-Mixed | Medium-High | Strong | Low-Medium | Good denial-after-suicidality, trapped relationship, macho anti-feeling, and hard defensiveness coverage. |
-| Staying in Contact with Intense Affect | Easy | Strong-Mixed | Medium | Strong-Mixed | Low-Medium | Recent response pass reduced scripted grounding language. Easy tier still runs somewhat intense compared with Goldman beginner examples. |
-| Staying in Contact with Intense Affect | Moderate | Strong | Medium-High | Strong-Mixed | Low-Medium | Good breadth includes pet euthanasia, political rage, child guilt, grief, and collapse; responses now vary contact/containment language more naturally. |
+| Staying in Contact with Intense Affect | Easy | Strong | Medium-High | Strong-Mixed | Low-Medium | Recent pass added positive loving affect and shifted selected responses from procedural grounding toward explicit steady presence. Ordinary death/loss examples remain constrained by the easy case set. |
+| Staying in Contact with Intense Affect | Moderate | Strong | Medium-High | Strong | Low | Good breadth includes pet euthanasia, political rage, child guilt, grief, collapse, and positive love that pulls for withdrawal; recent pass made contact language less scripted. |
 | Staying in Contact with Intense Affect | Hard | Strong | High | Strong-Mixed | Low-Medium | Strong coverage: erotic pressure, self-harm, sexual-offense guilt, homicidal fantasy, collective trauma, therapy-not-working rupture. Safety wording remains explicit where needed. |
 | Self-Disclosure | Easy | Strong | High | Strong | Low | Strong therapist-transparency markers, including first-session uncertainty, care, judgment, and personal questions. |
 | Self-Disclosure | Moderate | Strong | Medium-High | Strong | Low | Good boredom/interest, discomfort, trauma competence, therapist impact, and care questions. Pet-loss grief is absent but not essential. |
@@ -116,14 +117,15 @@ Completed on the current content branch:
 - Exploratory Questions, moderate.
 - Exploratory Questions, hard.
 - Empathic Understanding, easy regression polish.
+- Staying in Contact with Intense Affect, easy/moderate contact-over-grounding polish.
 
 These should still be reviewed in normal regression passes, but they are no longer the highest-value repair targets.
 
 ## Current Highest-Value Improvement Targets
 
-1. Staying in Contact with Intense Affect remaining polish.
-   - Keep as a regression target rather than the next main repair area.
-   - Future passes can add more positive loving affect and ordinary death/loss examples if the fixed cases can carry them naturally.
+1. Empathic Explorations moderate/hard regression breadth.
+   - These tiers are usable but still border intense-affect in some hard-case material.
+   - Future passes should keep the markers at a live emotional edge without making them too flooded or already resolved.
 
 2. Empathic Evocations regression polish.
    - Keep checking that client statements remain flat, detached, or over-cognitive rather than already imagistic.
@@ -131,6 +133,10 @@ These should still be reviewed in normal regression passes, but they are no long
 
 3. Empathic Conjectures hard regression polish.
    - Hard tier is still strong, but future passes should keep checking that high-risk or defensive markers do not become too interpretive before the trainee responds.
+
+4. Staying in Contact with Intense Affect regression polish.
+   - Keep contact-first language from drifting back into repeated grounding scripts.
+   - Add ordinary death/loss variants only where the fixed cases can carry them without feeling grafted on.
 
 ## Case-Set Constraints
 
