@@ -12,6 +12,7 @@ import {
   STATEMENT_TRANSLATIONS,
   STATEMENT_TRANSLATION_REVISION,
   CONTENT_REVISION,
+  CONTENT_UPDATED_AT,
   GLOSSARY
 } from "./practiceData.js";
 import {
@@ -450,9 +451,9 @@ function hasProAccess() {
 function renderAppVersion() {
   if (!elements.appVersion) return;
   const buildLabel = BUILD_NUMBER && BUILD_NUMBER !== "local" ? `build ${BUILD_NUMBER}` : "local build";
-  const refLabel = BUILD_REF ? ` · ${BUILD_REF}` : "";
-  elements.appVersion.textContent = `${buildLabel}${refLabel} · content ${CONTENT_REVISION}`;
-  elements.appVersion.title = `App package v${APP_VERSION}; ${buildLabel}${refLabel}; content ${CONTENT_REVISION}`;
+  const refLabel = BUILD_REF || "local";
+  elements.appVersion.textContent = `v${APP_VERSION} · ${refLabel} · content updated ${CONTENT_UPDATED_AT}`;
+  elements.appVersion.title = `${buildLabel}; app package v${APP_VERSION}; commit ${refLabel}; content revision ${CONTENT_REVISION}; content updated ${CONTENT_UPDATED_AT}`;
 }
 
 function isCaseLocked(caseItem) {

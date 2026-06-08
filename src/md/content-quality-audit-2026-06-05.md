@@ -25,7 +25,7 @@ The corpus is now substantially stronger than the earlier audit. The two previou
 
 Branch update:
 
-- Empathic Explorations moderate/hard have been revised toward flatter emotional ambiguity, distrust, direct therapist-attraction material, and less pre-formed imagery.
+- Empathic Explorations moderate/hard have been revised toward flatter emotional ambiguity, distrust, direct therapist-attraction material, and less pre-formed imagery. A later regression pass pulled selected hard-case responses back from conjecture/evocation drift toward close reflection plus one small exploratory invitation.
 - Exploratory Questions moderate/hard have been revised toward live but unclear inward edges, with fewer client-supplied body cues.
 - Empathic Understanding moderate/hard have been broadened with more ordinary practical distress, confused depression, substance/anxiety ambivalence, friend disappointment, and "guide me" uncertainty.
 - Therapist Self-Awareness easy/moderate have been broadened with ordinary therapist-activating material: hope, advice pull, rescue pull, cultural humility, dependency shame, alcohol/usefulness concerns, and grief that can pull the therapist toward comfort.
@@ -76,8 +76,8 @@ The remaining gaps are more subtle:
 | Providing Treatment Rationale | Moderate | Strong | High | Strong | Low | Good skepticism/fear/numbing/practicality coverage. Shame-about-crying and positive-thinking variants could be added only as polish. |
 | Providing Treatment Rationale | Hard | Strong | High | Strong | Low | Strong safety, self-harm, control, trauma, and anger-risk rationale markers. |
 | Empathic Explorations | Easy | Strong | Medium-High | Strong | Low-Medium | Recent pass reduced pre-supplied body imagery and conjectural responses, while preserving live sadness, anger/shame, guardedness, and uncertain positive invitation markers. |
-| Empathic Explorations | Moderate | Strong-Mixed | Medium | Strong | Medium | Recent pass added flatter relational ambiguity, not-emotional/confused process, last-therapist distrust, and ordinary uncertainty. |
-| Empathic Explorations | Hard | Strong-Mixed | Medium | Strong | Medium | Recent pass added dazed/foggy process and direct therapist-attraction material. Some hard-case items still border intense-affect because of case severity. |
+| Empathic Explorations | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent passes added flatter relational ambiguity, not-emotional/confused process, last-therapist distrust, ordinary uncertainty, and reduced overly evocative response language. |
+| Empathic Explorations | Hard | Strong-Mixed | Medium-High | Strong | Low-Medium | Recent passes added dazed/foggy process and direct therapist-attraction material, simplified one overly imagistic abandonment marker, and pulled selected responses back from conjecture. Some hard-case items still border intense-affect because of case severity. |
 | Empathic Evocations | Easy | Strong | Medium | Strong | Low-Medium | Marker style is now much better: flat, detached, ordinary. Benchmark archetype coverage is partial, but this is partly intentional to preserve trainee image-making. |
 | Empathic Evocations | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass added betrayal, worthlessness, being used, dependency shame, macho anti-feeling, and hopeless relational shutdown while preserving relatively flat markers. |
 | Empathic Evocations | Hard | Strong | Medium-High | Strong | Low-Medium | Recent pass added confidentiality threat, crisis-denial, confused distress, worthlessness, and locked-down anti-feeling archetypes. Remaining work is regression polish to prevent client-supplied imagery from creeping back in. |
@@ -101,7 +101,7 @@ The remaining gaps are more subtle:
 
 Completed on the current content branch:
 
-- Empathic Explorations, moderate and hard.
+- Empathic Explorations, moderate and hard, including response regression polish.
 - Exploratory Questions, moderate and hard.
 - Empathic Understanding, moderate and hard.
 - Therapist Self-Awareness, easy and moderate.
@@ -123,20 +123,19 @@ These should still be reviewed in normal regression passes, but they are no long
 
 ## Current Highest-Value Improvement Targets
 
-1. Empathic Explorations moderate/hard regression breadth.
-   - These tiers are usable but still border intense-affect in some hard-case material.
-   - Future passes should keep the markers at a live emotional edge without making them too flooded or already resolved.
-
-2. Empathic Evocations regression polish.
+1. Empathic Evocations regression polish.
    - Keep checking that client statements remain flat, detached, or over-cognitive rather than already imagistic.
    - Future evocation changes should be small and benchmark-driven, not a broad rewrite.
 
-3. Empathic Conjectures hard regression polish.
+2. Empathic Conjectures hard regression polish.
    - Hard tier is still strong, but future passes should keep checking that high-risk or defensive markers do not become too interpretive before the trainee responds.
 
-4. Staying in Contact with Intense Affect regression polish.
+3. Staying in Contact with Intense Affect regression polish.
    - Keep contact-first language from drifting back into repeated grounding scripts.
    - Add ordinary death/loss variants only where the fixed cases can carry them without feeling grafted on.
+
+4. Empathic Explorations hard regression checking.
+   - The tier is no longer a leading repair target, but future passes should still watch the boundary between exploration and intense-affect work in Aisha and Marcus items.
 
 ## Case-Set Constraints
 

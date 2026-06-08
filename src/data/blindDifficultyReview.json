@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T14:32:42.173Z",
+  "generatedAt": "2026-06-08T15:07:21.982Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -254,11 +254,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Quiet and guarded] I don't pick up when family calls because I don't want to feel.",
-            "response": "Not answering family seems like a way of keeping painful feeling from getting stirred."
+            "response": "Letting the call go unanswered keeps feeling away for a while. Let's notice what you expect would come up if you answered."
           },
           "no": {
             "statement": "[Stille og på vakt] Jeg tar ikke telefonen når familien ringer, fordi jeg ikke vil kjenne på noe.",
-            "response": "Å ikke svare familien ser ut til å være en måte å hindre smertefulle følelser i å bli satt i gang."
+            "response": "Å la telefonen ringe ut holder følelsene unna en stund. Vi kan legge merke til hva du forventer ville komme hvis du svarte."
           }
         },
         {
@@ -267,11 +267,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Torn] Next to other moms I shrink, like they all know a rule I missed.",
-            "response": "Comparison makes you smaller, and there may be an old fear of being the one who somehow failed the rules."
+            "response": "Next to other moms, you shrink and feel outside a rule everyone else seems to know."
           },
           "no": {
             "statement": "[Splittet] Ved siden av andre mødre krymper jeg, som om de alle kan en regel jeg gikk glipp av.",
-            "response": "Sammenligning gjør deg mindre, og kanskje ligger det en gammel frykt der for å være den som på en eller annen måte mislyktes med reglene."
+            "response": "Ved siden av andre mødre krymper du og kjenner deg utenfor en regel alle andre ser ut til å kunne."
           }
         },
         {
