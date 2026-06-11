@@ -451,8 +451,11 @@ function lintSkillPurity(skillId, suggestion) {
   const lower = text.toLowerCase();
   const warnings = [];
 
-  if (skillId === "therapist-self-awareness" && !text.includes("[Internal]")) {
-    warnings.push("missing_internal_self_awareness_cue");
+  if (skillId === "therapist-self-awareness" && !text.includes("[Self-awareness]")) {
+    warnings.push("missing_self_awareness_disclosure_cue");
+  }
+  if (skillId === "therapist-self-awareness" && (text.includes("[Internal]") || text.includes("[Meta]"))) {
+    warnings.push("self_awareness_should_not_use_old_internal_meta_format");
   }
   if (skillId === "empathic-understanding" && text.includes("?")) {
     warnings.push("empathic_understanding_should_not_default_to_question");

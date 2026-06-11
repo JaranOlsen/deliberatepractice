@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T08:37:45.287Z",
+  "generatedAt": "2026-06-11T14:56:55.482Z",
   "revision": "2026-03-07-v1",
   "caseBibleCount": 9,
   "caseMatrixSummary": {
@@ -16,7 +16,7 @@
       "too_generic",
       "duplicate_pattern"
     ],
-    "generatedAt": "2026-06-11T08:37:45.277Z"
+    "generatedAt": "2026-06-11T14:56:55.474Z"
   },
   "benchmarkSummary": {
     "revision": "2026-03-07-v1",
@@ -24,7 +24,7 @@
     "totalResponses": 175,
     "sourceResponseCount": 160,
     "derivedResponseCount": 15,
-    "generatedAt": "2026-06-11T08:37:45.287Z"
+    "generatedAt": "2026-06-11T14:56:55.482Z"
   },
   "inventory": [
     {
@@ -504,9 +504,7 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [
-        "culture_religion"
-      ],
+      "riskFlags": [],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 1,
@@ -776,7 +774,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "culture_religion"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 1,
@@ -1318,7 +1318,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "substance_use"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 1,
@@ -1536,9 +1538,7 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [
-        "culture_religion"
-      ],
+      "riskFlags": [],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 1,
@@ -1700,7 +1700,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "self_harm"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 1,
@@ -2026,7 +2028,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "sexual_boundary"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 1,
@@ -2354,7 +2358,9 @@
         "safety"
       ],
       "revision": "2026-03-07-v1",
-      "riskFlags": [],
+      "riskFlags": [
+        "trauma"
+      ],
       "sourceRef": {
         "type": "legacy_case_matrix",
         "exerciseNumber": 1,

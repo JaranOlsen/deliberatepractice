@@ -32,7 +32,7 @@ Avoid cues:
 
 | Exercise | App Skill | Benchmark Status | Instruction Status | Main Validation Risk |
 | --- | --- | --- | --- | --- |
-| 1 | Therapist Self-Awareness | Goldman client statements only; responses inferred | Rewritten | Suggested responses must show internal regulation plus a client-facing response, not just an internal note. |
+| 1 | Therapist Self-Awareness | Goldman client statements only; responses inferred | Rewritten | Suggestions should model comfortable self-awareness disclosure, not a polished client-facing intervention. |
 | 2 | Empathic Understanding | Goldman statements and responses | Rewritten | Avoid advice, questions, validation, conjecture, or evocation. |
 | 3 | Empathic Affirmation and Validation | Goldman statements and responses | Rewritten | Validate emotion in context without endorsing harmful behavior. |
 | 4 | Exploratory Questions | Goldman statements and responses | Rewritten | Ask one inward, experiential question; avoid question chains and "why." |
