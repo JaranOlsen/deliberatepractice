@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T14:56:55.484Z",
+  "generatedAt": "2026-06-11T16:26:22.021Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -548,12 +548,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Apologetic] I said sorry five times and you did not notice, so I felt invisible again.",
-            "response": "I am sorry I missed the repeated apologies. That was an important signal, and missing it repeated the invisibility you are describing. What would help you feel seen in that pattern now?"
+            "statement": "[Apologetic] I said sorry five times and you did not notice, so I felt invisible again. It is embarrassing to say, because I know you cannot catch everything, but it felt like the whole pattern was happening right in front of us.",
+            "response": "I am sorry I missed the repeated apologies. That was an important signal, and missing it repeated the invisibility you are describing. What would help you feel seen in that pattern now, rather than having to apologize for pointing it out?"
           },
           "no": {
-            "statement": "[Unnskyldende] Jeg sa unnskyld fem ganger og du la ikke merke til det, så jeg følte meg usynlig igjen.",
-            "response": "Jeg beklager at jeg overså de gjentatte unnskyldningene. Det var et viktig signal, og da jeg gikk glipp av det, gjentok jeg usynligheten du beskriver. Hva ville hjulpet deg å føle deg sett i det mønsteret nå?"
+            "statement": "[Unnskyldende] Jeg sa unnskyld fem ganger og du la ikke merke til det, så jeg følte meg usynlig igjen. Det er flaut å si, for jeg vet at du ikke kan få med deg alt, men det kjentes som om hele mønsteret skjedde rett foran oss.",
+            "response": "Jeg beklager at jeg overså de gjentatte unnskyldningene. Det var et viktig signal, og da jeg gikk glipp av det, gjentok jeg usynligheten du beskriver. Hva ville hjulpet deg å føle deg sett i det mønsteret nå, uten at du må unnskylde at du peker det ut?"
           }
         },
         {
@@ -561,12 +561,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Fearful] When you asked me to look at you while I talked, I felt exposed.",
-            "response": "Thank you for saying that. Asking for eye contact made the moment too exposing, and I am sorry. Where would it feel safer for your eyes to rest while we talk?"
+            "statement": "[Fearful] When you asked me to look at you while I talked, I felt exposed, like I was being inspected. I know eye contact is supposed to be connection, but for me it made the words disappear.",
+            "response": "Thank you for saying that. Asking for eye contact made the moment too exposing, and I am sorry I treated connection as if it had to look one way. Where would it feel safer for your eyes to rest while we talk?"
           },
           "no": {
-            "statement": "[Redd] Da du ba meg se på deg mens jeg snakket, følte jeg meg blottlagt.",
-            "response": "Takk for at du sier det. Å be om øyekontakt gjorde øyeblikket for eksponert, og det beklager jeg. Hvor ville det kjennes tryggere at blikket ditt hviler mens vi snakker?"
+            "statement": "[Redd] Da du ba meg se på deg mens jeg snakket, følte jeg meg blottlagt, som om jeg ble undersøkt. Jeg vet at øyekontakt skal være kontakt, men for meg fikk det ordene til å forsvinne.",
+            "response": "Takk for at du sier det. Å be om øyekontakt gjorde øyeblikket for eksponert, og jeg beklager at jeg behandlet kontakt som om den måtte se ut på én bestemt måte. Hvor ville det kjennes tryggere at blikket ditt hviler mens vi snakker?"
           }
         }
       ]
