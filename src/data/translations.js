@@ -3600,11 +3600,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-sara_07": {
       "text": "[Lavmælt] En sang kom på i en butikk, og jeg måtte gå ut før jeg begynte å gråte.",
-      "suggestion": "De første tonene finner deg midt i butikkgangen, og plutselig står sorgen der under butikklyset."
+      "suggestion": "De første tonene treffer deg der i butikken, og plutselig kommer sorgen helt nær."
     },
     "dp_empathic-evocations_case-sara_08": {
       "text": "[Flau] Jeg tenker stadig at jeg kanskje gjorde noe galt, men jeg finner ikke ut hva.",
-      "suggestion": "Tankene leter etter feilen, som om de bare kan finne den løse tråden, vil hele bruddet gi mening."
+      "suggestion": "Tankene leter etter feilen, som om én løs tråd kan få hele bruddet til å gi mening."
     },
     "dp_empathic-evocations_case-sara_09": {
       "text": "[Trist] Noen ganger setter jeg meg på gulvet i stedet for å legge meg.",
@@ -3628,7 +3628,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-michael_04": {
       "text": "[Flau] Når jeg har smelt, blir jeg flau etterpå, men jeg prøver mest å ikke tenke på det.",
-      "suggestion": "Flauheten blir liggende der etterpå, tung og våt, mens du prøver å gå utenom den."
+      "suggestion": "Flauheten blir liggende der etterpå, tung og ubehagelig, mens du prøver å gå utenom den."
     },
     "dp_empathic-evocations_case-michael_05": {
       "text": "[Defensiv] Når kona mi sukker, går jeg ut fra at hun dømmer meg.",
@@ -3640,7 +3640,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-michael_07": {
       "text": "[Flau] Når jeg ikke vet svaret, føler jeg meg blottstilt.",
-      "suggestion": "Å ikke vite åpner et nakent sted, som om all kompetansen du støtter deg på mister dekning et øyeblikk."
+      "suggestion": "Å ikke vite åpner et nakent sted, som om all kompetansen du støtter deg på plutselig står uten skjold."
     },
     "dp_empathic-evocations_case-michael_08": {
       "text": "[Defensiv] Noen ganger smeller jeg med dører fordi jeg ikke vet hva annet jeg skal gjøre med følelsen.",
@@ -3680,7 +3680,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-jason_07": {
       "text": "[Stille] Søndag kveld begynner jeg å bli nedstemt, men jeg scroller mest.",
-      "suggestion": "Uka kommer tidlig inn i rommet, og scrollingen blir et lite bevegelig lys mot tyngden."
+      "suggestion": "Uka kommer for tidlig inn i rommet, og scrollingen blir et lite bevegelig lys mot tyngden."
     },
     "dp_empathic-evocations_case-jason_08": {
       "text": "[Stille og skamfull] Jeg skriver enkle meldinger om og om igjen, og noen ganger sender jeg dem ikke.",
@@ -3728,7 +3728,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-laura_09": {
       "text": "[Anspent og på vakt] Vennlige ord gjør at jeg får vondt i halsen, og jeg vet ikke hvorfor.",
-      "suggestion": "Vennligheten berører et låst sted, og verken stiger i halsen før ordene kan svare."
+      "suggestion": "Vennligheten berører et låst sted, og det snører seg i halsen før ordene rekker å komme."
     },
     "dp_empathic-evocations_case-laura_10": {
       "text": "[Flatt og på vakt] Jeg har en bag pakket ved døra, selv om jeg vet det høres rart ut.",
@@ -3744,7 +3744,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-carlos_03": {
       "text": "[Anspent og sint] Jeg går rundt på kjøkkenet etter krangler, fordi det blir verre hvis jeg sitter stille.",
-      "suggestion": "Du går harde streker over kjøkkengulvet, prøver å tråkke ladningen ut før den kommer gjennom hender eller munn."
+      "suggestion": "Du går hardt fram og tilbake over kjøkkengulvet, prøver å tråkke ladningen ut før den kommer gjennom hender eller munn."
     },
     "dp_empathic-evocations_case-carlos_04": {
       "text": "[Skamfull] Jeg husker stadig ansiktet til sønnen min etter at jeg ropte.",
@@ -3780,7 +3780,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-nina_02": {
       "text": "[Såret] Noen ganger føler jeg meg brukt, og så hater jeg meg selv for å si det.",
-      "suggestion": "Du kjenner deg vridd opp som en klut alle stadig griper etter, og så kommer skammen for å ha sagt hvor brukt du føler deg."
+      "suggestion": "Du kjenner deg vridd tom som en klut alle stadig griper etter, og så kommer skammen for å ha sagt hvor brukt du føler deg."
     },
     "dp_empathic-evocations_case-nina_03": {
       "text": "[Verdiløs] Når jeg trenger hjelp, føler jeg at jeg ikke er særlig mye verdt.",
@@ -3800,7 +3800,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-nina_07": {
       "text": "[Sliten] Jeg vasker sent på kvelden selv om jeg er helt utslitt.",
-      "suggestion": "Benken tørkes av igjen, et midnattsritual mot frykten for at det å stoppe lar alle stå udekket."
+      "suggestion": "Benken tørkes av igjen, et midnattsritual mot frykten for at noen blir stående uten det de trenger hvis du stopper."
     },
     "dp_empathic-evocations_case-nina_08": {
       "text": "[Skyldpreget] Hvis huset er rotete, skammer jeg meg før noen sier noe.",
@@ -3820,11 +3820,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-aisha_02": {
       "text": "[Desperat] Jeg kan gå fra å be noen bli til å be dem la meg være i fred på sekunder.",
-      "suggestion": "Følelsen snur fra utstrakte hender til brann, en bryter som slås om raskere enn du klarer å roe deg."
+      "suggestion": "Følelsen snur fra å rekke ut hendene til å slå gnister, raskere enn du rekker å roe deg."
     },
     "dp_empathic-evocations_case-aisha_03": {
       "text": "[Forvirret] Jeg klarer ikke si om jeg er sint, redd eller tom; alt skifter for fort.",
-      "suggestion": "Alt er viklet sammen, som å sitte fast i gjørme uten å vite hvilken dør som skal åpnes først."
+      "suggestion": "Alt er viklet sammen, som å stå fast i gjørme uten å vite hvilken vei du skal prøve først."
     },
     "dp_empathic-evocations_case-aisha_04": {
       "text": "[Panisk] Jeg klorer meg på armen når jeg begynner å føle meg uvirkelig.",
@@ -3848,7 +3848,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-aisha_09": {
       "text": "[På gråten] Når noen er milde med meg, gråter jeg før jeg skjønner hvorfor.",
-      "suggestion": "Mildheten berører veggen, og tårene strømmer gjennom før tillatelsen rekker fram."
+      "suggestion": "Mildheten rører ved veggen, og tårene strømmer gjennom før du rekker å gi dem lov."
     },
     "dp_empathic-evocations_case-aisha_10": {
       "text": "[Panisk] Jeg sjekker døra mens vi snakker.",
@@ -3860,7 +3860,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-david_02": {
       "text": "[Verdiløs] Hvis jeg ikke er den beste personen i rommet, føler jeg meg verdiløs.",
-      "suggestion": "Det er som om gulvet åpner seg under det ordinære, og du faller fra imponerende til ingenting i ett hardt dropp."
+      "suggestion": "Det er som om gulvet åpner seg under det å være vanlig, og du faller fra imponerende til ingenting på et øyeblikk."
     },
     "dp_empathic-evocations_case-david_03": {
       "text": "[Defensiv] Når jeg føler meg liten, begynner jeg å snakke om det jeg har oppnådd.",
@@ -3876,7 +3876,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-david_06": {
       "text": "[Skamfull] Ansiktet til barnet mitt etter at jeg smeller, plager meg mer enn jeg hadde ventet.",
-      "suggestion": "Det forsiktige ansiktet treffer forbi alle argumenter, et slag du ikke kan vinne deg ut av."
+      "suggestion": "Det forsiktige ansiktet treffer forbi alle argumentene, et treff du ikke kan snakke deg ut av."
     },
     "dp_empathic-evocations_case-david_07": {
       "text": "[Unnvikende] I vanskelige samtaler sjekker jeg telefonen når det blir for personlig.",
@@ -3903,8 +3903,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Kroppen står vakt før folkemengden når deg, skuldrene på vei opp mot slaget som ikke har kommet."
     },
     "dp_empathic-evocations_case-marcus_03": {
-      "text": "[Macho] I avdelingen fikk følelser folk drept, så jeg lærte å ikke ha dem.",
-      "suggestion": "Den regelen høres fortsatt ut som en ordre: følelser får folk drept, så hjertet går bak en låst dør."
+      "text": "[Macho] I avdelingen kunne følelser koste liv, så jeg lærte å ikke ha dem.",
+      "suggestion": "Den regelen høres fortsatt ut som en ordre: følelser kan koste liv, så hjertet må låses bort bak en dør."
     },
     "dp_empathic-evocations_case-marcus_04": {
       "text": "[Hyperårvåken] Mareritt vekker meg, og så kjennes ikke rommet normalt på en stund.",
@@ -3924,7 +3924,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-marcus_08": {
       "text": "[Lav stemme] Hvis noen banker på uventet, begynner hjertet å hamre.",
-      "suggestion": "Et bank gjør døra til en trussel, og hjertet begynner å slå fra innsiden."
+      "suggestion": "Et uventet bank på døra gjør døra til en trussel, og hjertet begynner å hamre fra innsiden."
     },
     "dp_empathic-evocations_case-marcus_09": {
       "text": "[Forvirret] Når jeg prøver å snakke om det, vet jeg ikke hvilken følelse som skal komme først.",
@@ -3932,7 +3932,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-marcus_10": {
       "text": "[Flatt] Noen kvelder sitter jeg i bilen før jeg går opp.",
-      "suggestion": "Den stille bilen blir et siste lite ly før den tomme leiligheten må gås inn i."
+      "suggestion": "Den stille bilen blir et siste lite ly før du må gå inn i den tomme leiligheten."
     },
     "dp_empathic-conjectures_case-sara_01": {
       "text": "[Flau] Jeg sier stadig til vennene mine at det går bra, og så blir jeg irritert når de tror på meg.",

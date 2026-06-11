@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T06:51:48.520Z",
+  "generatedAt": "2026-06-11T08:37:45.289Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1313,7 +1313,7 @@
               },
               "no": {
                 "statement": "[Anspent og på vakt] Vennlige ord gjør at jeg får vondt i halsen, og jeg vet ikke hvorfor.",
-                "response": "Vennligheten berører et låst sted, og verken stiger i halsen før ordene kan svare."
+                "response": "Vennligheten berører et låst sted, og det snører seg i halsen før ordene rekker å komme."
               }
             }
           ]
@@ -1376,7 +1376,7 @@
               },
               "no": {
                 "statement": "[På gråten] Når noen er milde med meg, gråter jeg før jeg skjønner hvorfor.",
-                "response": "Mildheten berører veggen, og tårene strømmer gjennom før tillatelsen rekker fram."
+                "response": "Mildheten rører ved veggen, og tårene strømmer gjennom før du rekker å gi dem lov."
               }
             }
           ]
