@@ -108,17 +108,18 @@ The next content pass should focus on Alliance Repair.
 
 ### Implementation Update: Alliance Repair
 
-The first alliance-repair enrichment pass has now been completed for 20 underdeveloped rupture markers.
+Two alliance-repair enrichment passes have now been completed, covering the most compressed rupture markers first.
 
-Current alliance-repair metrics after the pass:
+Current alliance-repair metrics after the second pass:
 
 - 90 total items preserved.
-- Average client marker length increased from 16.5 to 21.5 words.
-- Minimum marker length increased from 8 to 13 words.
+- Average client marker length increased from 16.5 to 28.8 words.
+- Minimum marker length increased from 8 to 17 words.
+- 47 of 90 markers now contain at least 30 words.
 - The edited items now include clearer relational context: what the therapist did, how it landed, and what became at stake in the therapy relationship or process.
 - Every edited English item has a matching Bokmal localization and a repair response that receives impact before clarifying frame or next steps.
 
-Alliance Repair should remain the next recommended pass until the remaining short rupture markers have enough relational context and response modeling.
+Alliance Repair has moved closer to the Goldman contract, but still has 25 markers below 20 words. It should remain high priority for one residual pass unless feedback or a higher-risk skill gap takes precedence.
 
 Concrete target:
 
