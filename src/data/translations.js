@@ -1428,11 +1428,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_therapist-self-awareness_case-sara_04": {
       "text": "[Lavmælt] I natt drømte jeg at du var i den gamle leiligheten min og hjalp meg å pakke esker, og jeg våknet flau over at du var med i drømmen.",
-      "suggestion": "[Internt] Legg merke til eventuell flauhet, smiger eller trang til å tolke for raskt; hold deg forankret. [Meta] Drømmen tar meg tett inn i et gammelt sted i livet ditt, og det gir mening at det kjennes utsatt å si det her."
+      "suggestion": "[Internt] Legg merke til eventuell flauhet, smiger eller trang til å tolke for raskt; hold deg forankret. [Meta] Drømmen tar meg tett inn i et gammelt sted i livet ditt, og det gir mening at det kjennes sårbart å si det her."
     },
     "dp_therapist-self-awareness_case-sara_05": {
       "text": "[Håpefull] Jeg bestilte denne timen fordi jeg stadig tenker at jeg kanskje kan få livet mitt tilbake, selv om det høres dramatisk ut.",
-      "suggestion": "[Internt] Legg merke til håpet og presset om å levere; finn stødighet i pusten. [Meta] Det finnes en håpefull del som strekker seg mot livet igjen, og jeg vil at vi holder det varsomt uten at du må prestere bedring."
+      "suggestion": "[Internt] Legg merke til håpet og presset om å levere; finn stødighet i pusten. [Meta] Det finnes en håpefull del som strekker seg mot livet igjen, og jeg vil at vi møter den varsomt uten at du må prestere bedring."
     },
     "dp_therapist-self-awareness_case-sara_06": {
       "text": "[Nølende] Vennene mine sier hele tiden at jeg burde begynne å date igjen, og jeg vil at du skal si om det er en forferdelig idé.",
@@ -1448,7 +1448,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_therapist-self-awareness_case-sara_09": {
       "text": "[Engstelig] Jeg følger med på ansiktet ditt hele tiden, for jeg vil ikke gjøre deg utilpass.",
-      "suggestion": "[Internt] Legg merke til at klienten prøver å ta vare på deg; stem inn igjen. [Meta] Du sjekker om jeg tåler deg; jeg vil være her sammen med deg uten at du må passe på meg."
+      "suggestion": "[Internt] Legg merke til at klienten prøver å ta vare på deg; tone deg inn igjen. [Meta] Du sjekker om jeg tåler deg; jeg vil være her sammen med deg uten at du må passe på meg."
     },
     "dp_therapist-self-awareness_case-sara_10": {
       "text": "[Stille] Jeg flyttet etter bruddet, og hver eske jeg pakker ut får meg til å lure på hvorfor jeg gjør alt dette alene.",
@@ -4160,7 +4160,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-nina_07": {
       "text": "[Sliten] Jeg tar vare på alle, og når ingen legger merke til det, blir jeg skarp mot meg selv for at jeg bryr meg.",
-      "suggestion": "Du vender deg raskt mot ønsket; jeg lurer på om det finnes en ensom lengsel etter å bli tatt vare på uten å måtte fortjene det."
+      "suggestion": "Du blir fort hard mot deg selv for at du ønsker å bli sett; jeg lurer på om det finnes en ensom lengsel etter å bli tatt vare på uten å måtte fortjene det."
     },
     "dp_empathic-conjectures_case-nina_08": {
       "text": "[Unnskyldende] Jeg prøver å si nei og legger så til tre forklaringer før de svarer.",
