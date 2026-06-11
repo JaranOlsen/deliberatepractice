@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T15:34:14.256Z",
+  "generatedAt": "2026-06-11T06:51:48.520Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -53,7 +53,7 @@
               },
               "no": {
                 "statement": "[Håpefull] Jeg bestilte denne timen fordi jeg stadig tenker at jeg kanskje kan få livet mitt tilbake, selv om det høres dramatisk ut.",
-                "response": "[Internt] Legg merke til håpet og presset om å levere; finn stødighet i pusten. [Meta] Det finnes en håpefull del som strekker seg mot livet igjen, og jeg vil at vi holder det varsomt uten at du må prestere bedring."
+                "response": "[Internt] Legg merke til håpet og presset om å levere; finn stødighet i pusten. [Meta] Det finnes en håpefull del som strekker seg mot livet igjen, og jeg vil at vi møter den varsomt uten at du må prestere bedring."
               }
             },
             {
@@ -70,7 +70,7 @@
               },
               "no": {
                 "statement": "[Engstelig] Jeg følger med på ansiktet ditt hele tiden, for jeg vil ikke gjøre deg utilpass.",
-                "response": "[Internt] Legg merke til at klienten prøver å ta vare på deg; stem inn igjen. [Meta] Du sjekker om jeg tåler deg; jeg vil være her sammen med deg uten at du må passe på meg."
+                "response": "[Internt] Legg merke til at klienten prøver å ta vare på deg; tone deg inn igjen. [Meta] Du sjekker om jeg tåler deg; jeg vil være her sammen med deg uten at du må passe på meg."
               }
             }
           ]
