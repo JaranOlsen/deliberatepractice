@@ -56,15 +56,15 @@ Automated averages are triage only, not quality scores. They still reveal places
 | Staying in Contact with Intense Affect | 17.4 | 35.3 | 28.0 | 22.6 | Markers may be too compressed for high-intensity contact practice. |
 | Self-Disclosure | 14.8 | 18.4 | 30.7 | 27.6 | Structurally close; targeted boundary examples only. |
 | Marker Recognition and Chair Work | 17.6 | 37.5 | 40.4 | 84.3 | Biggest remaining training-affordance gap. |
-| Alliance Repair | 16.5 | 35.0 | 37.6 | 104.8 | Strong coverage, but relational context and repair modeling may be too compressed. |
+| Alliance Repair | 34.2 | 35.0 | 44.9 | 104.8 | Now close on marker training affordance; suggestions remain intentionally briefer than Goldman scripts. |
 
 ## Skill Ranking
 
 | Rank | Skill | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
 | 1 | Marker Recognition and Chair Work | Broadly correct after expansion, but still the largest remaining gap in training affordance. Goldman gives richer markers and fuller task setup. Some app suggestions may be too compressed to model marker recognition, rationale, consent, chair placement, and first turn clearly enough. | Whole-skill enrichment pass. Lengthen selected client markers and strengthen response sequence without adding new items. |
-| 2 | Alliance Repair | Coverage is strong, but many markers are one-turn rupture reports. Goldman often gives more relational context, therapist contribution, and repair process. Suggestions should sometimes be fuller, especially for hard ruptures. | Whole-skill enrichment pass after chair work. Emphasize impact received before frame clarification. |
-| 3 | Staying in Contact with Intense Affect | Clinically useful and validation-clean, but markers are shorter than Goldman and can become grounding scripts. Needs enough affective pressure for the trainee to practice staying emotionally present, not only regulating. | Targeted high-risk and high-intensity pass. Preserve contact-first stance. |
+| 2 | Staying in Contact with Intense Affect | Clinically useful and validation-clean, but markers are shorter than Goldman and can become grounding scripts. Needs enough affective pressure for the trainee to practice staying emotionally present, not only regulating. | Targeted high-risk and high-intensity pass. Preserve contact-first stance. |
+| 3 | Alliance Repair | Now close on marker length and coverage after three enrichment passes. Residual work should judge rupture process quality, not mechanically lengthen items. | Regression and high-risk rupture scan after chair work/intense-affect. |
 | 4 | Empathic Affirmation and Validation | Strong overall, but benchmark breadth is broader than shame and self-attack. Some moderate variants should include ordinary fear, grief, guilt, conflicted positive feeling, and culturally loaded legitimacy. | Targeted moderate-tier breadth pass. |
 | 5 | Empathic Explorations | Mostly sound, but hard cases can drift toward intense-affect or conjecture because the cases are severe. | Regression pass focused on response boundary: reflect plus one small invitation. |
 | 6 | Empathic Evocations | Much improved. The main risk is regression: client statements must not start supplying the best image again. | Regression scan only unless a bad marker is found. |
@@ -108,20 +108,22 @@ The next content pass should focus on Alliance Repair.
 
 ### Implementation Update: Alliance Repair
 
-Two alliance-repair enrichment passes have now been completed, covering the most compressed rupture markers first.
+Three alliance-repair enrichment passes have now been completed, covering the most compressed rupture markers first and then the residual sub-20-word markers.
 
-Current alliance-repair metrics after the second pass:
+Current alliance-repair metrics after the third pass:
 
 - 90 total items preserved.
-- Average client marker length increased from 16.5 to 28.8 words.
-- Minimum marker length increased from 8 to 17 words.
-- 47 of 90 markers now contain at least 30 words.
+- Average client marker length increased from 16.5 to 34.2 words.
+- Average suggested response length is now 44.9 words.
+- Minimum marker length increased from 8 to 20 words.
+- 72 of 90 markers now contain at least 30 words.
+- 0 markers remain below 20 words; 10 remain below 25 words and should be judged by suitability, not automatically expanded.
 - The edited items now include clearer relational context: what the therapist did, how it landed, and what became at stake in the therapy relationship or process.
 - Every edited English item has a matching Bokmal localization and a repair response that receives impact before clarifying frame or next steps.
 
-Alliance Repair has moved closer to the Goldman contract, but still has 25 markers below 20 words. It should remain high priority for one residual pass unless feedback or a higher-risk skill gap takes precedence.
+Alliance Repair is no longer the leading contract gap. Future work here should be a regression scan for skill purity, high-risk rupture handling, and Bokmal naturalness rather than another broad lengthening pass.
 
-Concrete target:
+Completed target:
 
 - Keep all 90 IDs and the 9-case matrix.
 - Do not add features, skills, or schema.
@@ -136,7 +138,7 @@ Concrete target:
 - Immediately update Norwegian translations for changed items.
 - Regenerate artifacts and validate.
 
-After that, run a residual chair-work scan for the remaining short markers and a high-intensity affect pass with the same contract-first method.
+Next, run a residual chair-work scan for the remaining short markers, then a high-intensity affect pass with the same contract-first method.
 
 ## Why This Changes The Workflow
 
