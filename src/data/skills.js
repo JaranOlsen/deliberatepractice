@@ -4,17 +4,17 @@ export const SKILLS = [
   {
     id: "therapist-self-awareness",
     name: "Therapist Self-Awareness",
-    description: "Monitor your inner state so you remain grounded, receptive, and emotionally regulated enough to guide the work safely.",
+    description: "Notice and name your own internal reactions while listening, protecting privacy and staying present rather than performing an intervention.",
     summary:
-      "Therapist self-awareness means tracking your own body, emotions, thoughts, and impulses in real time so you can choose how to respond rather than react. You notice when your arousal rises (e.g., urgency to fix, anxiety, irritation, numbness) and recognize these as your own secondary reactions rather than information about the client.\n\nInstead of acting from those reactions, you pause, breathe, and re-center so you can be a steady, attuned presence that supports the client’s window of tolerance. You reflect internally on what is being triggered in you and gently set that aside or bracket it so that the client’s process remains foreground. This awareness helps you stay curious and empathic when clients express intense or challenging emotions, rather than becoming defensive, rescuing, or withdrawing. It also lets you recognize when your responses might be colored by your own history, schemas, or unmet needs.\n\nBy regulating yourself, you become a reliable emotional anchor, which is essential when clients access primary maladaptive emotions and core pain. This stance models healthy emotional regulation and congruence, implicitly showing clients that strong feelings can be noticed and managed without suppressing or acting them out. Over time, practicing self-awareness helps you fine-tune when to up-regulate or down-regulate emotion in the session in service of deeper but safe emotional processing.",
+      "Therapist self-awareness is an intrapersonal EFT practice: tracking your own body, emotions, thoughts, images, and action impulses while the client is speaking. In this exercise, the task is not to find the best clinical intervention. The trainee listens, notices what is happening inside, and then names only the part of that reaction they feel comfortable sharing in a training setting.\n\nThis builds the capacity to stay present when the client evokes warmth, urgency to rescue, anxiety, irritation, attraction, disgust, numbness, defensiveness, or pressure to perform. You learn to distinguish useful resonance from therapist-centered material that should stay private or be taken to supervision. The skill includes respecting your own boundaries: self-awareness does not require disclosing everything you notice.\n\nThe app keeps a suggested response for practice purposes, but it is a sample self-awareness disclosure rather than a model client-facing intervention. A good response sounds like, \"I notice...\" or \"I feel a pull to...\" and shows that the therapist can monitor activation without acting it out or shifting the work away from the client.",
     marker:
-      "You notice tension, urgency to fix, defensiveness, numbness, or strong pulls toward or away from the client, or you realize you are losing empathic curiosity. You sense that your own emotional reactions are beginning to shape the interaction more than the client’s needs.",
+      "The client material is likely to activate the therapist: warmth, rescue, anxiety, irritation, attraction, disgust, fear, defensiveness, pressure to perform, or a pull to move too quickly. The client does not ask for self-awareness; the marker is the therapist's own internal reaction while listening.",
     aim:
-      "Regulate yourself so you can remain grounded, empathic, and attuned, co-regulating the client’s arousal within a workable window. Protect the therapeutic environment so core pain and primary emotion can safely surface without being derailed by the therapist’s unprocessed reactions.",
+      "Increase the capacity to notice, symbolize, and own internal reactions while still listening to the client. Use that awareness to stay present and bounded, not to perform a polished intervention.",
     practiceFocus:
-      "Catch your own reaction first, regulate it, then answer from grounded attunement.",
+      "Listen, track your body, feelings, thoughts, images, and urges, then disclose only a comfortable slice of your internal reaction.",
     commonMiss:
-      "Turning self-awareness into a scripted intervention or moving into fixing before you have actually re-centered."
+      "Turning the suggestion into a polished client intervention, or disclosing too much instead of protecting privacy and boundaries."
   },
   {
     id: "empathic-understanding",

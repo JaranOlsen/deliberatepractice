@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T08:37:45.291Z",
+  "generatedAt": "2026-06-11T14:56:55.484Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -20,12 +20,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Tearful] I keep thinking I should be over him by now—can we skip the crying part?",
-            "response": "[Internal] Notice the pull to agree and move on; lengthen exhale. [Meta] A part of you is trying hard to outrun the crying; I want to slow enough to hear what still hurts."
+            "statement": "[Loving] I was crying on the bed last night and my dog climbed up beside me like he always does. He put his head on my leg and stayed there while I talked to him about the breakup. It sounds silly, but he is the only one who never seems tired of me being sad. I do not know where I would be without him.",
+            "response": "[Self-awareness] I notice warmth in my chest and a tender wish to comfort her; I would disclose the warmth if useful and keep the rescuing impulse for supervision."
           },
           "no": {
-            "statement": "[På gråten] Jeg tenker hele tiden at jeg burde vært over ham nå – kan vi hoppe over gråtingen?",
-            "response": "[Internt] Legg merke til draget mot å være enig og gå videre; forleng utpusten. [Meta] En del av deg prøver hardt å løpe fra gråten; jeg vil senke tempoet nok til å høre hva som fortsatt gjør vondt."
+            "statement": "[Kjærlig] Jeg lå på sengen og gråt i går kveld, og hunden min krøp opp ved siden av meg, som han alltid gjør. Han la hodet på beinet mitt og ble liggende mens jeg snakket med ham om bruddet. Det høres dumt ut, men han er den eneste som aldri virker lei av at jeg er trist. Jeg vet ikke hvor jeg hadde vært uten ham.",
+            "response": "[Selvbevissthet] Jeg merker varme i brystet og et ømt ønske om å trøste henne; jeg ville bare delt varmen hvis det var nyttig, og tatt redningstrangen med til veiledning."
           }
         },
         {
@@ -33,12 +33,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Ashamed] I burned dinner after a long day and cried in the pantry like I was not even a competent adult.",
-            "response": "[Internal] Notice the wish to absolve her quickly; stay with the shame. [Meta] One ruined dinner became evidence against you as a person, not just a hard evening."
+            "statement": "[Ashamed] I burned dinner after a long day and ended up crying in the pantry where the boys would not see me. It was such a small thing, but I kept thinking, What kind of mother cannot even manage pasta? Then I remembered my ex saying I make everything chaotic, and I felt like maybe he was right. I know it sounds dramatic.",
+            "response": "[Self-awareness] I notice a wish to absolve her quickly and protect her from shame; I would feel that tenderness without rushing to remove it."
           },
           "no": {
-            "statement": "[Skamfull] Jeg svidde middagen etter en lang dag og gråt i spiskammeret som om jeg ikke engang var en kompetent voksen.",
-            "response": "[Internt] Legg merke til ønsket om å frikjenne henne raskt; bli ved skammen. [Meta] Én ødelagt middag ble til bevis mot deg som person, ikke bare en vanskelig kveld."
+            "statement": "[Skamfull] Jeg svidde middagen etter en lang dag og endte med å gråte i spiskammeret der guttene ikke kunne se meg. Det var en så liten ting, men jeg tenkte: Hva slags mor klarer ikke engang pasta? Så husket jeg at eksen min sa at jeg gjør alt kaotisk, og jeg kjente at han kanskje hadde rett. Jeg vet det høres dramatisk ut.",
+            "response": "[Selvbevissthet] Jeg merker et ønske om å frikjenne henne raskt og beskytte henne mot skam; jeg ville kjent den ømheten uten å skynde meg å fjerne den."
           }
         }
       ]
@@ -56,12 +56,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Tense] My wife should show respect first; otherwise I am just letting her run me.",
-            "response": "[Internal] Note the blame pull; keep warmth. [Meta] I hear how much that feels like losing ground; let’s notice what gets touched in you with her."
+            "statement": "[Tense] My wife should show respect first. She knows exactly which tone gets under my skin, then when I react she acts scared and I am the bad guy. I am not saying I am proud of yelling, but I am tired of people acting like I explode out of nowhere. If I apologize first, she runs the whole house from that moment.",
+            "response": "[Self-awareness] I notice irritation at the blame and a pull to confront it; I would label that judgment privately so it does not harden my face."
           },
           "no": {
-            "statement": "[Anspent] Kona mi burde vise respekt først; ellers lar jeg henne bare kjøre over meg.",
-            "response": "[Internt] Legg merke til draget mot å skyve skylden over på andre; hold varme. [Meta] Jeg hører hvor mye det kjennes som å tape terreng; vi merker hva det treffer i deg med henne."
+            "statement": "[Anspent] Kona mi burde vise respekt først. Hun vet nøyaktig hvilken tone som går under huden på meg, og så når jeg reagerer, oppfører hun seg redd og jeg blir den slemme. Jeg sier ikke at jeg er stolt av å rope, men jeg er lei av at folk later som om jeg eksploderer ut av ingenting. Hvis jeg beklager først, styrer hun hele huset fra det øyeblikket.",
+            "response": "[Selvbevissthet] Jeg merker irritasjon over skyldplasseringen og et drag mot å konfrontere den; jeg ville navngitt den vurderingen privat så den ikke stivner i ansiktet mitt."
           }
         },
         {
@@ -69,12 +69,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Defensive] If I apologize first, she will think she won and I will look weak.",
-            "response": "[Internal] Sense jaw; release any pull to persuade. [Meta] The apology feels like surrender; maybe we slow down at what weak would mean right then."
+            "statement": "[Defensive] If I apologize first, my wife acts like that proves the whole fight was my fault. Maybe she does not say that directly, but that is how it feels. Then I look weak, and she gets to be the reasonable one again. I know that sounds petty, but I cannot stand handing someone proof that they won.",
+            "response": "[Self-awareness] I notice an urge to persuade him toward apology and a slight tightening in my chest; I would mark that urge as mine and not disclose more than feels respectful."
           },
           "no": {
-            "statement": "[Defensiv] Hvis jeg beklager først, tror hun at hun har vunnet, og jeg ser svak ut.",
-            "response": "[Internt] Kjenn kjeven; slipp trangen til å overtale. [Meta] Beklagelsen kjennes som overgivelse; kanskje vi senker tempoet ved hva svak ville bety akkurat da."
+            "statement": "[Defensiv] Hvis jeg beklager først, oppfører kona mi seg som om det beviser at hele krangelen var min feil. Kanskje hun ikke sier det direkte, men det er sånn det kjennes. Da ser jeg svak ut, og hun får være den rimelige igjen. Jeg vet det høres smålig ut, men jeg tåler ikke å gi noen bevis på at de vant.",
+            "response": "[Selvbevissthet] Jeg merker en trang til å overtale ham i retning av beklagelse og en liten stramming i brystet; jeg ville markert den trangen som min og ikke delt mer enn det som kjennes respektfullt."
           }
         }
       ]
@@ -92,12 +92,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Tense and guarded] I think I am broken in a way you will eventually get tired of.",
-            "response": "[Internal] Notice sadness and any urge to rescue; stay steady. [Meta] The broken feeling is already expecting me to tire of you; let's sit near that expectation without arguing with it."
+            "statement": "[Tense and guarded] I think I am broken in a way people eventually get tired of. At first they are patient because the story sounds sad, and then they realize I still cannot do normal things like answer messages, sleep through the night, or believe someone is not angry. I am telling you now because I would rather know early if this is too much.",
+            "response": "[Self-awareness] I notice sadness and a wish to promise endurance; I would keep the promise impulse visible to myself and disclose only what I can genuinely own."
           },
           "no": {
-            "statement": "[Anspent og på vakt] Jeg tror jeg er ødelagt på en måte du til slutt blir lei av.",
-            "response": "[Internt] Legg merke til sorg og eventuell redningstrang; hold deg stødig. [Meta] Den ødelagte følelsen forventer allerede at jeg blir lei av deg; jeg vil sitte nær den forventningen uten å krangle med den."
+            "statement": "[Anspent og på vakt] Jeg tror jeg er ødelagt på en måte folk til slutt blir lei av. Først er de tålmodige fordi historien høres trist ut, og så skjønner de at jeg fortsatt ikke klarer normale ting som å svare på meldinger, sove gjennom natten eller tro at noen ikke er sint. Jeg sier det nå fordi jeg heller vil vite tidlig om dette er for mye.",
+            "response": "[Selvbevissthet] Jeg merker tristhet og et ønske om å love utholdenhet; jeg ville holdt løfteimpulsen synlig for meg selv og bare delt det jeg faktisk kan eie."
           }
         },
         {
@@ -107,12 +107,12 @@
             "suicide"
           ],
           "en": {
-            "statement": "[Quiet and guarded] On the drive here I saw a truck and thought, If I turned into it, at least the noise would stop.",
-            "response": "[Internal] Notice fear and urgency; steady yourself and orient to safety. [Meta] Thank you for telling me directly. Safety comes first today, and the noise does not have to be handled alone."
+            "statement": "[Quiet and guarded] On the drive here I saw a truck and thought, If I turned into it, at least the noise would stop. I did not turn. I kept driving. I am saying it because pretending I did not think it seems stupid, but I do not want you to panic or start treating me like I am fragile. I have had thoughts before. I am still here.",
+            "response": "[Self-awareness] I notice fear, urgency, and a pull to take over; I would steady my body before deciding what safety information to share or ask for."
           },
           "no": {
-            "statement": "[Stille og på vakt] På vei hit så jeg en lastebil og tenkte: Hvis jeg svingte inn i den, ville i det minste bråket stoppe.",
-            "response": "[Internt] Legg merke til frykt og hastverk; gjør deg stødig og orienter mot sikkerhet. [Meta] Takk for at du sier det direkte. Sikkerheten kommer først i dag, og bråket trenger du ikke håndtere alene."
+            "statement": "[Stille og på vakt] På vei hit så jeg en lastebil og tenkte: Hvis jeg svingte inn i den, ville i det minste bråket stoppe. Jeg svingte ikke. Jeg fortsatte å kjøre. Jeg sier det fordi det virker dumt å late som jeg ikke tenkte det, men jeg vil ikke at du skal få panikk eller begynne å behandle meg som skjør. Jeg har hatt tanker før. Jeg er fortsatt her.",
+            "response": "[Selvbevissthet] Jeg merker frykt, hastverk og et drag mot å ta over; jeg ville stødiggjort kroppen før jeg bestemmer hvilken sikkerhetsinformasjon jeg skal dele eller spørre om."
           }
         }
       ]
@@ -1108,12 +1108,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Angry] I still want to tell my friend to stop saying I should just move on.",
-            "response": "That sounds like unfinished business with your friend around feeling hurried past your grief. If you are willing, we can place her in the empty chair and let you say, directly, what it is like when she tells you to move on."
+            "statement": "[Angry] I still replay lunch with my friend, when she said maybe I should just move on. I smiled like I understood, but inside I wanted to say, Stop rushing me, you are making me feel ridiculous for still loving him.",
+            "response": "That sounds like unfinished business with your friend around being hurried past grief and made to feel ridiculous. If you are willing, we can place her in the empty chair and let you say the first line directly: 'stop rushing me.' Then we will pause and see what else needs to be said."
           },
           "no": {
-            "statement": "[Sint] Jeg har fortsatt lyst til å si til venninnen min at hun må slutte å si at jeg bare bør gå videre.",
-            "response": "Det høres ut som et uavsluttet oppgjør med venninnen din rundt det å bli hastet forbi sorgen. Hvis du vil, kan vi sette henne i den tomme stolen og la deg si direkte hvordan det er når hun ber deg gå videre."
+            "statement": "[Sint] Jeg spiller fortsatt av lunsjen med venninnen min, da hun sa at jeg kanskje bare burde gå videre. Jeg smilte som om jeg forsto, men inni meg ville jeg si: Slutt å skynde på meg, du får meg til å føle meg dum fordi jeg fortsatt elsker ham.",
+            "response": "Det høres ut som et uavsluttet oppgjør med venninnen din rundt å bli skyndet forbi sorgen og føle deg latterliggjort. Hvis du vil, kan vi sette henne i den tomme stolen og la deg si den første linjen direkte: «slutt å skynde på meg». Så stopper vi opp og ser hva mer som trenger å bli sagt."
           }
         },
         {
@@ -1292,12 +1292,12 @@
             "trauma"
           ],
           "en": {
-            "statement": "[Flat] When you called it a trauma response, I felt like a category.",
-            "response": "I hear that my language made you feel categorized rather than known. I am sorry. What words help us name what happens without making you feel filed away?"
+            "statement": "[Flat] When you called it a trauma response, I felt like a category. I know that might be accurate, but I stopped feeling like you were talking to me.",
+            "response": "I hear that my language may have been accurate but still made you feel categorized rather than known, and I am sorry. What words help us name what happens without making you feel filed away or less like yourself?"
           },
           "no": {
-            "statement": "[Flatt] Da du kalte det en traumereaksjon, følte jeg meg som en kategori.",
-            "response": "Jeg hører at språket mitt fikk deg til å føle deg kategorisert heller enn kjent. Det beklager jeg. Hvilke ord hjelper oss å navngi det som skjer uten at du føler deg arkivert?"
+            "statement": "[Flatt] Da du kalte det en traumereaksjon, følte jeg meg som en kategori. Jeg vet at det kanskje stemmer, men jeg sluttet å føle at du snakket til meg.",
+            "response": "Jeg hører at språket mitt kanskje var presist, men likevel fikk deg til å føle deg kategorisert heller enn kjent, og det beklager jeg. Hvilke ord hjelper oss å navngi det som skjer uten at du føler deg arkivert eller mindre som deg selv?"
           }
         },
         {

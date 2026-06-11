@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-06-11T08:37:45.277Z"
+  "generatedAt": "2026-06-11T14:56:55.474Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -528,9 +528,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-michael"
         },
-        "riskFlags": [
-          "culture_religion"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -822,7 +820,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-jason"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "culture_religion"
+        ],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -1408,7 +1408,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-carlos"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "substance_use"
+        ],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -1644,9 +1646,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-nina"
         },
-        "riskFlags": [
-          "culture_religion"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -1822,7 +1822,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-aisha"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "self_harm"
+        ],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -2174,7 +2176,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-david"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "sexual_boundary"
+        ],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",
@@ -2528,7 +2532,9 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Therapist Self-Awareness",
           "caseId": "case-marcus"
         },
-        "riskFlags": [],
+        "riskFlags": [
+          "trauma"
+        ],
         "criteriaTags": [
           "self_regulation",
           "empathic_attunement",

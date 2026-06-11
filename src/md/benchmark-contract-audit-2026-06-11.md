@@ -1,0 +1,144 @@
+# Benchmark Contract Audit
+
+Date: 2026-06-11
+
+## Purpose
+
+This audit revises how content quality is judged after the therapist self-awareness rework exposed a failure in the earlier workflow. The previous process improved many individual statements and kept validation clean, but it did not reliably ask whether each full skill set matched the Goldman exercise contract.
+
+The new rule is: benchmark contract first, item polish second.
+
+## What Failed Before
+
+Therapist self-awareness passed ordinary checks because the items were complete, translated, skill-labeled, and clinically plausible. The set still diverged from the source exercise in two structural ways:
+
+- Goldman Exercise 1 is not a client-facing response exercise. The trainee listens and reports internal self-awareness in a training context.
+- The client statements need enough length and evocative pressure to activate therapist reactions. Short polished markers did not provide enough time for the trainee to notice their own body, feeling, thought, and impulse.
+
+The lesson is that QA-clean is not the same as content-clean. A whole skill can be valid data and still train the wrong task.
+
+## Method Going Forward
+
+For each skill, define an exercise contract before judging individual statements:
+
+- Training task: what the trainee is actually practicing.
+- Marker shape: what kind of client utterance should naturally invite the skill.
+- Suggestion role: what the app's suggested response should model for this specific exercise.
+- Difficulty movement: how easy, moderate, and hard cases should differ.
+- Prohibited drift: what would train a neighboring skill instead.
+- Benchmark coverage: which Goldman archetypes must be represented, adapted, or intentionally omitted because of case constraints.
+
+Then score the whole 90-item set on these dimensions:
+
+- Structural fidelity: does the set train the same task as the Goldman exercise?
+- Marker validity: do client statements naturally call for the target skill?
+- Training affordance: do statements give enough material, time, ambiguity, or emotional pressure to practice?
+- Response role fit: does the suggestion model the right kind of therapist action for this exercise?
+- Benchmark coverage: are the source archetypes represented across difficulty tiers?
+- Localization readiness: is the English stable enough that Bokmal polish will not be wasted?
+
+## Current Baseline
+
+This audit uses the current branch state after the therapist self-awareness rewrite.
+
+Automated averages are triage only, not quality scores. They still reveal places where the app may be more compressed than Goldman.
+
+| Skill | App Statement Avg | Benchmark Statement Avg | App Suggestion Avg | Benchmark Response Avg | Signal |
+| --- | ---: | ---: | ---: | ---: | --- |
+| Therapist Self-Awareness | 63.9 | 76.8 | 26.1 | 25.9 | Now structurally close. |
+| Empathic Understanding | 16.0 | 32.9 | 12.9 | 17.8 | App is concise; likely acceptable but needs coverage checks. |
+| Empathic Affirmation and Validation | 16.1 | 27.1 | 19.3 | 23.0 | Generally close; moderate breadth needs review. |
+| Exploratory Questions | 16.8 | 22.5 | 11.8 | 26.3 | App intentionally keeps questions cleaner than Goldman examples. |
+| Treatment Rationale | 15.5 | 20.5 | 28.8 | 54.2 | App is briefer than Goldman but usually clinically focused. |
+| Empathic Explorations | 17.0 | 26.2 | 18.2 | 30.3 | Needs periodic boundary checks against conjecture and intense-affect work. |
+| Empathic Evocations | 13.8 | 23.1 | 17.8 | 20.3 | Improved after rewrite; monitor marker flatness. |
+| Empathic Conjectures | 16.8 | 21.5 | 20.1 | 21.8 | Structurally close. |
+| Staying in Contact with Intense Affect | 17.4 | 35.3 | 28.0 | 22.6 | Markers may be too compressed for high-intensity contact practice. |
+| Self-Disclosure | 14.8 | 18.4 | 30.7 | 27.6 | Structurally close; targeted boundary examples only. |
+| Marker Recognition and Chair Work | 17.6 | 37.5 | 40.4 | 84.3 | Biggest remaining training-affordance gap. |
+| Alliance Repair | 16.5 | 35.0 | 37.6 | 104.8 | Strong coverage, but relational context and repair modeling may be too compressed. |
+
+## Skill Ranking
+
+| Rank | Skill | Current Judgment | Next Action |
+| ---: | --- | --- | --- |
+| 1 | Marker Recognition and Chair Work | Broadly correct after expansion, but still the largest remaining gap in training affordance. Goldman gives richer markers and fuller task setup. Some app suggestions may be too compressed to model marker recognition, rationale, consent, chair placement, and first turn clearly enough. | Whole-skill enrichment pass. Lengthen selected client markers and strengthen response sequence without adding new items. |
+| 2 | Alliance Repair | Coverage is strong, but many markers are one-turn rupture reports. Goldman often gives more relational context, therapist contribution, and repair process. Suggestions should sometimes be fuller, especially for hard ruptures. | Whole-skill enrichment pass after chair work. Emphasize impact received before frame clarification. |
+| 3 | Staying in Contact with Intense Affect | Clinically useful and validation-clean, but markers are shorter than Goldman and can become grounding scripts. Needs enough affective pressure for the trainee to practice staying emotionally present, not only regulating. | Targeted high-risk and high-intensity pass. Preserve contact-first stance. |
+| 4 | Empathic Affirmation and Validation | Strong overall, but benchmark breadth is broader than shame and self-attack. Some moderate variants should include ordinary fear, grief, guilt, conflicted positive feeling, and culturally loaded legitimacy. | Targeted moderate-tier breadth pass. |
+| 5 | Empathic Explorations | Mostly sound, but hard cases can drift toward intense-affect or conjecture because the cases are severe. | Regression pass focused on response boundary: reflect plus one small invitation. |
+| 6 | Empathic Evocations | Much improved. The main risk is regression: client statements must not start supplying the best image again. | Regression scan only unless a bad marker is found. |
+| 7 | Empathic Conjectures | Structurally close. Needs occasional checks that responses remain tentative and reach just beyond what is explicit. | Low-volume targeted polish. |
+| 8 | Self-Disclosure | Structurally close. Some hard examples can be sharpened around attractiveness, pity, lateness, and competence. | Targeted boundary/transparency polish. |
+| 9 | Empathic Understanding | Strong basic response contract. Some app markers are shorter and more case-specific than Goldman, but the skill does not require long prompts. | Regression and ordinary-life breadth checks. |
+| 10 | Exploratory Questions | Strong and deliberately cleaner than some Goldman examples. App questions being shorter is acceptable if they remain inward-turning and singular. | Regression checks for question chains or hidden conjecture. |
+| 11 | Treatment Rationale | Strong. App responses are shorter than Goldman but often better suited to deliberate practice because they are plain-language and client-specific. | Low priority; polish only when flagged. |
+| 12 | Therapist Self-Awareness | Now structurally corrected: long activating markers and suggestions as self-awareness disclosures rather than client interventions. | Low priority; only regression and Norwegian polish. |
+
+## Next Work Decision Rule
+
+Use this order when choosing the next pass:
+
+1. If a skill has structural mismatch with Goldman, fix the whole skill set.
+2. If no structural mismatch exists, choose the skill with the largest training-affordance gap.
+3. If two skills are close, prioritize the one with higher clinical risk or higher task complexity.
+4. Only after those are stable, use surface signals: shortness, repetition, cue-word mismatch, or translation literalness.
+5. Norwegian polish follows the English change immediately for edited items, but dedicated Bokmal-only polish should wait until the English markers are stable.
+
+## Next Recommended Pass
+
+### Implementation Update: Marker Recognition and Chair Work
+
+The first chair-work enrichment pass has now been completed for 44 underdeveloped items.
+
+Current chair-work metrics after the pass:
+
+- 90 total items preserved.
+- Average client marker length increased from 17.6 to 29.9 words.
+- Minimum marker length increased from 10 to 17 words.
+- 47 of 90 markers now contain at least 30 words.
+- 23 markers remain below 20 words, but these should now be judged by marker suitability rather than mechanically expanded.
+- Every edited English item has a matching Bokmal localization and a suggestion that explicitly launches the relevant chair task.
+
+The section is no longer the clearest structural mismatch. It still deserves residual review, but the next highest-value contract gap is now Alliance Repair.
+
+### Next Pass: Alliance Repair
+
+The next content pass should focus on Alliance Repair.
+
+### Implementation Update: Alliance Repair
+
+The first alliance-repair enrichment pass has now been completed for 20 underdeveloped rupture markers.
+
+Current alliance-repair metrics after the pass:
+
+- 90 total items preserved.
+- Average client marker length increased from 16.5 to 21.5 words.
+- Minimum marker length increased from 8 to 13 words.
+- The edited items now include clearer relational context: what the therapist did, how it landed, and what became at stake in the therapy relationship or process.
+- Every edited English item has a matching Bokmal localization and a repair response that receives impact before clarifying frame or next steps.
+
+Alliance Repair should remain the next recommended pass until the remaining short rupture markers have enough relational context and response modeling.
+
+Concrete target:
+
+- Keep all 90 IDs and the 9-case matrix.
+- Do not add features, skills, or schema.
+- Lengthen a bounded slice of 20-30 rupture markers where the therapist contribution, client impact, or relational context is underdeveloped.
+- Ensure every revised marker sounds like natural client speech in the room, not a generic complaint about therapy.
+- Strengthen suggestions so they include the repair sequence where appropriate:
+  - receive and name the impact before explaining intent;
+  - own the therapist's contribution or possible miss;
+  - invite correction about what the client needed instead;
+  - clarify frame only after the impact is received;
+  - ask what would help the client stay in contact now.
+- Immediately update Norwegian translations for changed items.
+- Regenerate artifacts and validate.
+
+After that, run a residual chair-work scan for the remaining short markers and a high-intensity affect pass with the same contract-first method.
+
+## Why This Changes The Workflow
+
+Earlier passes asked, "Which items look weakest?" The revised workflow asks, "Which full exercise set is least faithful to the task it is supposed to train?"
+
+That prevents a self-awareness-style miss from staying hidden behind polished individual items.

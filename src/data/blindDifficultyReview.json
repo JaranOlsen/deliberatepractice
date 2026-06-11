@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T08:37:45.292Z",
+  "generatedAt": "2026-06-11T14:56:55.484Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -18,12 +18,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Tearful] I keep thinking I should be over him by now—can we skip the crying part?",
-            "response": "[Internal] Notice the pull to agree and move on; lengthen exhale. [Meta] A part of you is trying hard to outrun the crying; I want to slow enough to hear what still hurts."
+            "statement": "[Loving] I was crying on the bed last night and my dog climbed up beside me like he always does. He put his head on my leg and stayed there while I talked to him about the breakup. It sounds silly, but he is the only one who never seems tired of me being sad. I do not know where I would be without him.",
+            "response": "[Self-awareness] I notice warmth in my chest and a tender wish to comfort her; I would disclose the warmth if useful and keep the rescuing impulse for supervision."
           },
           "no": {
-            "statement": "[På gråten] Jeg tenker hele tiden at jeg burde vært over ham nå – kan vi hoppe over gråtingen?",
-            "response": "[Internt] Legg merke til draget mot å være enig og gå videre; forleng utpusten. [Meta] En del av deg prøver hardt å løpe fra gråten; jeg vil senke tempoet nok til å høre hva som fortsatt gjør vondt."
+            "statement": "[Kjærlig] Jeg lå på sengen og gråt i går kveld, og hunden min krøp opp ved siden av meg, som han alltid gjør. Han la hodet på beinet mitt og ble liggende mens jeg snakket med ham om bruddet. Det høres dumt ut, men han er den eneste som aldri virker lei av at jeg er trist. Jeg vet ikke hvor jeg hadde vært uten ham.",
+            "response": "[Selvbevissthet] Jeg merker varme i brystet og et ømt ønske om å trøste henne; jeg ville bare delt varmen hvis det var nyttig, og tatt redningstrangen med til veiledning."
           }
         },
         {
@@ -31,12 +31,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Ashamed] I tried to cook for myself and stood there staring at the pan like I was a child who needed someone to tell me what to do.",
-            "response": "[Internal] Notice tenderness and the rescue impulse; stay with her adult shame. [Meta] That ordinary task turned into a painful feeling of being small and unable to manage."
+            "statement": "[Ashamed] I tried to cook for myself this week and stood there staring at the pan like I needed someone to tell me each step. It was just eggs, nothing complicated. I kept thinking, What kind of adult cannot manage dinner? Then I heard my ex's voice in my head saying I make everything harder than it needs to be, and I just shut the stove off.",
+            "response": "[Self-awareness] I notice tenderness and a rescue impulse around her adult shame; I would track the urge to make the task feel small and stay aware of my sadness."
           },
           "no": {
-            "statement": "[Skamfull] Jeg prøvde å lage mat til meg selv og ble stående og se på stekepannen som et barn som trengte at noen sa hva jeg skulle gjøre.",
-            "response": "[Internt] Legg merke til ømhet og redningstrang; bli ved den voksne skammen hennes. [Meta] Den vanlige oppgaven ble til en vond følelse av å være liten og ute av stand til å klare seg."
+            "statement": "[Skamfull] Jeg prøvde å lage mat til meg selv denne uken og ble stående og stirre på stekepannen som om jeg trengte at noen fortalte meg hvert steg. Det var bare egg, ikke noe komplisert. Jeg tenkte: Hva slags voksen klarer ikke å lage middag? Så hørte jeg stemmen til eksen min i hodet, han som sa at jeg gjør alt vanskeligere enn det trenger å være, og jeg bare slo av komfyren.",
+            "response": "[Selvbevissthet] Jeg merker ømhet og en redningstrang rundt den voksne skammen hennes; jeg ville fulgt trangen til å gjøre oppgaven liten og samtidig vært oppmerksom på min egen tristhet."
           }
         },
         {
@@ -44,12 +44,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Desperate] You did not reply fast, and I felt abandoned and stupid for caring that much.",
-            "response": "[Internal] Anchor feet/seat; lengthen exhale; steady gaze; notice the urge to promise. [Meta] I am here with you now. The delay felt like abandonment and exposed how much this relationship matters."
+            "statement": "[Desperate] You did not reply fast when I sent that message about changing the appointment, and I know you probably have rules about messages, but I felt abandoned. Then I felt stupid for caring that much. I kept checking my phone and telling myself I was pathetic. By the time you answered, I wanted to act like I did not care, but I did.",
+            "response": "[Self-awareness] I notice alarm and a pull to promise faster contact; I would ground my feet and keep any urge to over-reassure private."
           },
           "no": {
-            "statement": "[Desperat] Du svarte ikke med en gang, og jeg følte meg forlatt og dum for at det betydde så mye.",
-            "response": "[Internt] Forankre føtter/sete; forleng utpusten; stødig blikk; merk trangen til å love. [Meta] Jeg er her med deg nå. Forsinkelsen kjentes som å bli forlatt og viste hvor mye denne relasjonen betyr."
+            "statement": "[Desperat] Du svarte ikke raskt da jeg sendte meldingen om å flytte timen, og jeg vet at du sikkert har regler for meldinger, men jeg følte meg forlatt. Så følte jeg meg dum for at det betydde så mye. Jeg sjekket telefonen hele tiden og sa til meg selv at jeg var patetisk. Da du svarte, ville jeg late som om jeg ikke brydde meg, men det gjorde jeg.",
+            "response": "[Selvbevissthet] Jeg merker alarm og et drag mot å love raskere kontakt; jeg ville forankret føttene og holdt trangen til å overberolige privat."
           }
         }
       ]
@@ -488,12 +488,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Controlled] I want to tell my father, I was your son, not a project.",
-            "response": "That is unfinished business with your father around being treated like a performance project. If you are willing, we can place him in the empty chair and let you say that line directly."
+            "statement": "[Controlled] I want to tell my father, I was your son, not a project. I still hear him reviewing my grades, my posture, my handshake, like everything about me was something to optimize. I never got to ask whether he ever saw me.",
+            "response": "That is unfinished business with your father around being treated as a performance project rather than a son. If you are willing, we can place him in the empty chair and let you say the first line directly: 'I was your son, not a project.' Then we can pause and see whether the question about being seen wants to follow."
           },
           "no": {
-            "statement": "[Kontrollert] Jeg vil si til faren min: «Jeg var sønnen din, ikke et prosjekt.»",
-            "response": "Det er et uavsluttet oppgjør med faren din rundt å bli behandlet som et prestasjonsprosjekt. Hvis du vil, kan vi plassere ham i den tomme stolen og la deg si den linjen direkte."
+            "statement": "[Kontrollert] Jeg vil si til faren min: «Jeg var sønnen din, ikke et prosjekt.» Jeg hører ham fortsatt vurdere karakterene mine, holdningen min, håndtrykket mitt, som om alt ved meg var noe som skulle optimaliseres. Jeg fikk aldri spurt om han noen gang så meg.",
+            "response": "Det er et uavsluttet oppgjør med faren din rundt å bli behandlet som et prestasjonsprosjekt i stedet for som en sønn. Hvis du vil, kan vi plassere ham i den tomme stolen og la deg si den første linjen direkte: «Jeg var sønnen din, ikke et prosjekt.» Så kan vi stoppe opp og se om spørsmålet om å bli sett vil komme etterpå."
           }
         },
         {
@@ -501,12 +501,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Tense and angry] I want to tell my father, Nothing I did was ever enough for you.",
-            "response": "That points to unfinished business with your father around never measuring up. If you are willing, we can bring him into the empty chair and have you say that sentence to him directly, one line at a time."
+            "statement": "[Tense and angry] I keep imagining my father sitting there with that look on his face after I brought home another trophy. I want to tell him, Nothing I did was ever enough for you, and I am tired of still trying to win.",
+            "response": "That points to unfinished business with your father around never measuring up and still trying to win his approval. If you are willing, we can bring him into the empty chair and have you say that sentence directly, one line at a time, while we keep the contact with the anger and hurt."
           },
           "no": {
-            "statement": "[Anspent og sint] Jeg vil si til faren min: «Ingenting jeg gjorde var noen gang nok for deg.»",
-            "response": "Det peker mot et uavsluttet oppgjør med faren din rundt aldri å strekke til. Hvis du vil, kan vi hente ham inn i den tomme stolen og la deg si den setningen direkte til ham, én linje om gangen."
+            "statement": "[Anspent og sint] Jeg ser stadig for meg faren min sitte der med det blikket etter at jeg kom hjem med enda et trofé. Jeg vil si til ham: «Ingenting jeg gjorde var noen gang nok for deg, og jeg er lei av fortsatt å prøve å vinne.»",
+            "response": "Det peker mot et uavsluttet oppgjør med faren din rundt aldri å strekke til og fortsatt prøve å vinne hans godkjenning. Hvis du vil, kan vi hente ham inn i den tomme stolen og la deg si setningen direkte, én linje om gangen, mens vi holder kontakt med både sinne og sårhet."
           }
         },
         {
