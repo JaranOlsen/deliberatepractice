@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T16:53:09.686Z",
+  "generatedAt": "2026-06-12T07:00:01.608Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1995,11 +1995,11 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "[Tense and ashamed] Whenever I feel hurt, my father's words come back: Stop being weak and get control.",
+                "statement": "[Tense and ashamed] Whenever I feel hurt, especially when my wife says I look wounded, my father's words come back: Stop being weak and get control. Then I straighten up and start talking like nothing landed.",
                 "response": "It sounds like you are carrying a harsh message from your father that now turns on you. We can put that message in one chair and the part of you it shames in the other, and let them speak one turn each."
               },
               "no": {
-                "statement": "[Anspent og skamfull] Hver gang jeg kjenner meg såret, kommer ordene til faren min tilbake: Slutt å være svak og få kontroll.",
+                "statement": "[Anspent og skamfull] Hver gang jeg kjenner meg såret, særlig når kona mi sier at jeg virker såret, kommer ordene til faren min tilbake: Slutt å være svak og få kontroll. Da retter jeg meg opp og begynner å snakke som om ingenting traff.",
                 "response": "Det høres ut som du bærer på et hardt budskap fra faren din som nå vender seg mot deg. Vi kan sette det budskapet i én stol og den siden av deg som blir skammet av det i den andre, og la dem få én runde hver."
               }
             },
@@ -2029,11 +2029,11 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "[Low voice] I wish I could tell my son I am scared he is learning fear from me.",
+                "statement": "[Low voice] I wish I could tell my son I am scared he is learning fear from me. When he flinches at my voice, I want to say, I know that look, and I hate that it is now connected to me.",
                 "response": "That sounds like unfinished business with your son and what has not been said between you. We can place him in the empty chair and let you say that carefully, while we keep the pace slow enough to stay with it."
               },
               "no": {
-                "statement": "[Lav stemme] Jeg skulle ønske jeg kunne si til sønnen min at jeg er redd han lærer frykt av meg.",
+                "statement": "[Lav stemme] Jeg skulle ønske jeg kunne si til sønnen min at jeg er redd han lærer frykt av meg. Når han skvetter av stemmen min, vil jeg si: Jeg kjenner det blikket, og jeg hater at det nå henger sammen med meg.",
                 "response": "Det høres ut som et uavsluttet oppgjør med sønnen din og det som ikke er sagt mellom dere. Vi kan plassere ham i den tomme stolen og la deg si det forsiktig, mens vi holder tempoet sakte nok til å være med det."
               }
             }
@@ -2060,11 +2060,11 @@
                 "violence"
               ],
               "en": {
-                "statement": "[Angry, clenching fists] After I punched the wall, I kept thinking, What kind of man scares his own family?",
+                "statement": "[Angry, clenching fists] After I punched the wall, I kept thinking, What kind of man scares his own family? I saw my son's face and then the attack started, like there was no father left, only some dangerous man in the kitchen.",
                 "response": "It sounds like you are giving yourself a hard time for scaring them. Can we work with that blame for a moment? Sit in this chair and say it directly to him: 'what kind of man scares his own family?' Then we will switch and hear what that does to him."
               },
               "no": {
-                "statement": "[Sint, med knyttede never] Etter at jeg slo hull i veggen, tenkte jeg hele tiden: Hva slags mann skremmer sin egen familie?",
+                "statement": "[Sint, med knyttede never] Etter at jeg slo hull i veggen, tenkte jeg hele tiden: Hva slags mann skremmer sin egen familie? Jeg så ansiktet til sønnen min, og så startet angrepet, som om det ikke var noen far igjen, bare en farlig mann på kjøkkenet.",
                 "response": "Det høres ut som du gir deg selv hard skyld for å ha skremt dem. Kan vi arbeide litt med den skylden? Sett deg i denne stolen og si det direkte til ham: «Hva slags mann skremmer sin egen familie?» Så bytter vi og hører hva det gjør med ham."
               }
             },
@@ -2077,11 +2077,11 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "[Tense and angry] I want to tell my father, I was a kid, not one of your soldiers.",
+                "statement": "[Tense and angry] I want to tell my father, I was a kid, not one of your soldiers. He made me stand straight and take it, and even now I feel my back lock before I can say how scared I was.",
                 "response": "That is unfinished business with your father around how he treated you. If you are willing, we can place him in the empty chair and have you say that line directly, with me helping keep it contained."
               },
               "no": {
-                "statement": "[Anspent og sint] Jeg vil si til faren min: «Jeg var et barn, ikke en av soldatene dine.»",
+                "statement": "[Anspent og sint] Jeg vil si til faren min: «Jeg var et barn, ikke en av soldatene dine.» Han fikk meg til å stå rett og tåle det, og selv nå låser ryggen seg før jeg klarer å si hvor redd jeg var.",
                 "response": "Det er et uavsluttet oppgjør med faren din rundt hvordan han behandlet deg. Hvis du vil, kan vi plassere ham i den tomme stolen og la deg si den linjen direkte, mens jeg hjelper deg å holde det avgrenset."
               }
             },

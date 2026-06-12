@@ -55,16 +55,16 @@ Automated averages are triage only, not quality scores. They still reveal places
 | Empathic Conjectures | 16.8 | 21.5 | 20.1 | 21.8 | Structurally close. |
 | Staying in Contact with Intense Affect | 17.4 | 35.3 | 28.0 | 22.6 | Markers may be too compressed for high-intensity contact practice. |
 | Self-Disclosure | 14.8 | 18.4 | 30.7 | 27.6 | Structurally close; targeted boundary examples only. |
-| Marker Recognition and Chair Work | 17.6 | 37.5 | 40.4 | 84.3 | Biggest remaining training-affordance gap. |
+| Marker Recognition and Chair Work | 35.4 | 37.5 | 48.4 | 84.3 | Now close on marker training affordance; suggestions remain shorter but task-focused. |
 | Alliance Repair | 34.2 | 35.0 | 44.9 | 104.8 | Now close on marker training affordance; suggestions remain intentionally briefer than Goldman scripts. |
 
 ## Skill Ranking
 
 | Rank | Skill | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Marker Recognition and Chair Work | Broadly correct after expansion, but still the largest remaining gap in training affordance. Goldman gives richer markers and fuller task setup. Some app suggestions may be too compressed to model marker recognition, rationale, consent, chair placement, and first turn clearly enough. | Whole-skill enrichment pass. Lengthen selected client markers and strengthen response sequence without adding new items. |
-| 2 | Staying in Contact with Intense Affect | Clinically useful and validation-clean, but markers are shorter than Goldman and can become grounding scripts. Needs enough affective pressure for the trainee to practice staying emotionally present, not only regulating. | Targeted high-risk and high-intensity pass. Preserve contact-first stance. |
-| 3 | Alliance Repair | Now close on marker length and coverage after three enrichment passes. Residual work should judge rupture process quality, not mechanically lengthen items. | Regression and high-risk rupture scan after chair work/intense-affect. |
+| 1 | Staying in Contact with Intense Affect | Clinically useful and validation-clean, but markers are shorter than Goldman and can become grounding scripts. Needs enough affective pressure for the trainee to practice staying emotionally present, not only regulating. | Targeted high-risk and high-intensity pass. Preserve contact-first stance. |
+| 2 | Marker Recognition and Chair Work | Now close on marker training affordance after expansion and residual passes. Remaining work should judge whether suggestions model enough setup, consent, chair placement, and first enactment, not mechanically lengthen markers. | Regression and suggestion-sequence scan after intense-affect. |
+| 3 | Alliance Repair | Now close on marker length and coverage after three enrichment passes. Residual work should judge rupture process quality, not mechanically lengthen items. | Regression and high-risk rupture scan after intense-affect. |
 | 4 | Empathic Affirmation and Validation | Strong overall, but benchmark breadth is broader than shame and self-attack. Some moderate variants should include ordinary fear, grief, guilt, conflicted positive feeling, and culturally loaded legitimacy. | Targeted moderate-tier breadth pass. |
 | 5 | Empathic Explorations | Mostly sound, but hard cases can drift toward intense-affect or conjecture because the cases are severe. | Regression pass focused on response boundary: reflect plus one small invitation. |
 | 6 | Empathic Evocations | Much improved. The main risk is regression: client statements must not start supplying the best image again. | Regression scan only unless a bad marker is found. |
@@ -89,22 +89,23 @@ Use this order when choosing the next pass:
 
 ### Implementation Update: Marker Recognition and Chair Work
 
-The first chair-work enrichment pass has now been completed for 44 underdeveloped items.
+The first chair-work enrichment pass was completed for 44 underdeveloped items, followed by a residual marker pass for the remaining most compressed items.
 
-Current chair-work metrics after the pass:
+Current chair-work metrics after the residual pass:
 
 - 90 total items preserved.
-- Average client marker length increased from 17.6 to 29.9 words.
-- Minimum marker length increased from 10 to 17 words.
-- 47 of 90 markers now contain at least 30 words.
-- 23 markers remain below 20 words, but these should now be judged by marker suitability rather than mechanically expanded.
+- Average client marker length increased from 17.6 to 35.4 words.
+- Average suggested response length is now 48.4 words.
+- Minimum marker length increased from 10 to 20 words.
+- 71 of 90 markers now contain at least 30 words.
+- 0 markers remain below 20 words; 13 remain below 25 words and should now be judged by marker suitability rather than mechanically expanded.
 - Every edited English item has a matching Bokmal localization and a suggestion that explicitly launches the relevant chair task.
 
-The section is no longer the clearest structural mismatch. It still deserves residual review, but the next highest-value contract gap is now Alliance Repair.
+The section is no longer the clearest structural mismatch. It still deserves later review of the suggestion sequence, but the next highest-value contract gap is now Staying in Contact with Intense Affect.
 
-### Next Pass: Alliance Repair
+### Next Pass: Staying in Contact with Intense Affect
 
-The next content pass should focus on Alliance Repair.
+The next content pass should focus on Staying in Contact with Intense Affect.
 
 ### Implementation Update: Alliance Repair
 
@@ -138,7 +139,7 @@ Completed target:
 - Immediately update Norwegian translations for changed items.
 - Regenerate artifacts and validate.
 
-Next, run a residual chair-work scan for the remaining short markers, then a high-intensity affect pass with the same contract-first method.
+Next, run a high-intensity affect pass with the same contract-first method.
 
 ## Why This Changes The Workflow
 
