@@ -68,21 +68,21 @@ Automated averages are triage only, not quality scores. They still reveal places
 | Staying in Contact with Intense Affect | 31.3 | 35.3 | 29.1 | 22.6 | Third response-quality pass complete; now strong, with residual regression risk in high-risk items. |
 | Self-Disclosure | 14.8 | 18.4 | 30.7 | 27.6 | Structurally close; targeted boundary examples only. |
 | Marker Recognition and Chair Work | 35.4 | 37.5 | 48.4 | 84.3 | Suggestion sequencing pass complete; strong, with residual high-risk and Bokmal regression polish. |
-| Alliance Repair | 34.2 | 35.0 | 44.9 | 104.8 | Now close on marker training affordance; suggestions remain intentionally briefer than Goldman scripts. |
+| Alliance Repair | 34.2 | 35.0 | 44.9 | 104.8 | High-risk rupture response pass complete; strong, with later Bokmal and opening-variety polish. |
 
 ## Skill Ranking
 
 | Rank | Skill | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Alliance Repair | Now close on marker length and coverage after three enrichment passes. Residual work should judge rupture process quality, not mechanically lengthen items. | Regression and high-risk rupture scan is now the highest-value next pass. |
-| 2 | Staying in Contact with Intense Affect | Third pass moved the responses closer to Goldman-level presence: contact first, then safety, titration, or boundary clarity when clinically needed. Quality rating: 8.1/10. | One later regression pass should check high-risk items again, but the set is no longer the clearest active gap. |
-| 3 | Marker Recognition and Chair Work | Now strong after marker expansion, residual marker work, and a suggestion-sequencing pass across 23 easy, moderate, and hard items. Suggestions now more reliably include consent, correct chair placement, and first enactment. Quality rating: about 8.1/10. | Later regression polish only, especially high-risk chair-work setup and Norwegian naturalness. |
-| 4 | Empathic Affirmation and Validation | Targeted moderate-tier pass broadened the Goldman coverage: depressive withdrawal, conflicted positive feeling, grief about home/family, parenting shame, culturally loaded generosity guilt, and pride/fear about a child's risk. Quality rating: 8.0/10. | Regression polish only unless flagged, especially response-opening variety and Norwegian naturalness. |
-| 5 | Empathic Explorations | Mostly sound, but hard cases can drift toward intense-affect or conjecture because the cases are severe. | Regression pass focused on response boundary: reflect plus one small invitation. |
-| 6 | Empathic Evocations | Much improved. The main risk is regression: client statements must not start supplying the best image again. | Regression scan only unless a bad marker is found. |
-| 7 | Empathic Conjectures | Structurally close. Needs occasional checks that responses remain tentative and reach just beyond what is explicit. | Low-volume targeted polish. |
-| 8 | Self-Disclosure | Structurally close. Some hard examples can be sharpened around attractiveness, pity, lateness, and competence. | Targeted boundary/transparency polish. |
-| 9 | Empathic Understanding | Strong basic response contract. Some app markers are shorter and more case-specific than Goldman, but the skill does not require long prompts. | Regression and ordinary-life breadth checks. |
+| 1 | Empathic Explorations | Mostly sound, but hard cases can drift toward intense-affect, conjecture, or implicit guidance because the cases are severe. | Regression pass focused on response boundary: reflect plus one small inward invitation. |
+| 2 | Self-Disclosure | Structurally close. Some hard examples can be sharpened around attractiveness, pity, lateness, and competence. | Targeted boundary/transparency polish. |
+| 3 | Empathic Conjectures | Structurally close. Needs occasional checks that responses remain tentative and reach just beyond what is explicit. | Low-volume targeted polish. |
+| 4 | Empathic Understanding | Strong basic response contract. Some app markers are shorter and more case-specific than Goldman, but the skill does not require long prompts. | Regression and ordinary-life breadth checks. |
+| 5 | Alliance Repair | Now strong after marker enrichment and a high-risk rupture response pass across 23 items. Suggestions more reliably receive impact, own therapist contribution, clarify frame without defensiveness, and ask what helps now. Quality rating: about 8.2/10. | Later regression polish only, especially Bokmal naturalness and response-opening variety. |
+| 6 | Staying in Contact with Intense Affect | Third pass moved the responses closer to Goldman-level presence: contact first, then safety, titration, or boundary clarity when clinically needed. Quality rating: 8.1/10. | Later high-risk regression only. |
+| 7 | Marker Recognition and Chair Work | Now strong after marker expansion, residual marker work, and a suggestion-sequencing pass across 23 easy, moderate, and hard items. Suggestions now more reliably include consent, correct chair placement, and first enactment. Quality rating: about 8.1/10. | Later regression polish only, especially high-risk chair-work setup and Norwegian naturalness. |
+| 8 | Empathic Affirmation and Validation | Targeted moderate-tier pass broadened the Goldman coverage: depressive withdrawal, conflicted positive feeling, grief about home/family, parenting shame, culturally loaded generosity guilt, and pride/fear about a child's risk. Quality rating: 8.0/10. | Regression polish only unless flagged, especially response-opening variety and Norwegian naturalness. |
+| 9 | Empathic Evocations | Much improved. The main risk is regression: client statements must not start supplying the best image again. | Regression scan only unless a bad marker is found. |
 | 10 | Exploratory Questions | Strong and deliberately cleaner than some Goldman examples. App questions being shorter is acceptable if they remain inward-turning and singular. | Regression checks for question chains or hidden conjecture. |
 | 11 | Treatment Rationale | Strong. App responses are shorter than Goldman but often better suited to deliberate practice because they are plain-language and client-specific. | Low priority; polish only when flagged. |
 | 12 | Therapist Self-Awareness | Now structurally corrected: long activating markers and suggestions as self-awareness disclosures rather than client interventions. | Low priority; only regression and Norwegian polish. |
@@ -117,9 +117,9 @@ Current chair-work metrics after the residual pass:
 
 The section is no longer the clearest structural mismatch. Later review should focus on high-risk chair-work setup and Bokmal naturalness, not further broad expansion.
 
-### Next Pass: Alliance Repair
+### Next Pass: Empathic Explorations
 
-The next highest-value slice should be an Alliance Repair regression and high-risk rupture scan. The markers now mostly provide good rupture affordance, so the next pass should judge whether therapist responses consistently receive the impact, own the therapist contribution without overconfessing, and ask what would help now.
+The next highest-value slice should be an Empathic Explorations regression pass. The markers generally invite exploration, so the pass should judge whether responses stay as one reflective exploration plus a small inward invitation, without drifting into conjecture, evocation, intense-affect contact, reassurance, or advice.
 
 ### Implementation Update: Empathic Affirmation and Validation
 
@@ -156,7 +156,7 @@ This section is now strong enough to stop being the automatic next target. A lat
 
 ### Implementation Update: Alliance Repair
 
-Three alliance-repair enrichment passes have now been completed, covering the most compressed rupture markers first and then the residual sub-20-word markers.
+Three alliance-repair enrichment passes have now been completed, covering the most compressed rupture markers first and then the residual sub-20-word markers. A fourth high-risk rupture response pass revised 23 items across competence concerns, previous therapy harm, cultural respect, professional or sexual boundaries, self-harm disclosure, violence language, trauma room safety, and whole-therapy challenge.
 
 Current alliance-repair metrics after the third pass:
 
@@ -168,8 +168,10 @@ Current alliance-repair metrics after the third pass:
 - 0 markers remain below 20 words; 10 remain below 25 words and should be judged by suitability, not automatically expanded.
 - The edited items now include clearer relational context: what the therapist did, how it landed, and what became at stake in the therapy relationship or process.
 - Every edited English item has a matching Bokmal localization and a repair response that receives impact before clarifying frame or next steps.
+- The latest pass strengthened responses that were already plausible but a little too brief, abstract, or frame-focused. The revised responses more consistently receive the specific impact, own the therapist contribution, clarify frame only after impact is received, and ask what would help the client stay in contact now.
+- Current quality rating: about 8.2/10. The set is strong deliberate-practice content; remaining work is regression polish, especially Norwegian idiom and response-opening variety.
 
-Alliance Repair is no longer the leading contract gap. Future work here should be a regression scan for skill purity, high-risk rupture handling, and Bokmal naturalness rather than another broad lengthening pass.
+Alliance Repair is no longer the leading contract gap. Future work here should be Bokmal polish and light response-variety review rather than broad rewriting.
 
 Completed target:
 
@@ -186,7 +188,7 @@ Completed target:
 - Immediately update Norwegian translations for changed items.
 - Regenerate artifacts and validate.
 
-Next, run a high-intensity affect pass with the same contract-first method.
+Next, run an empathic-explorations boundary pass with the same contract-first method.
 
 ## Why This Changes The Workflow
 

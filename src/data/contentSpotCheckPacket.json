@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T15:43:09.056Z",
+  "generatedAt": "2026-06-12T15:55:39.087Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -2358,11 +2358,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Stern] When you say, You are safe here, I feel like you do not know what safe means. It sounds too clean, like a phrase from a room where nothing bad has ever happened.",
-                "response": "I hear that 'safe here' sounded naive and disconnected from your reality, and I am sorry. What would be a more accurate way for me to speak about relative safety in this room without pretending the word is simple?"
+                "response": "Thank you for saying that. 'You are safe here' sounded too clean and made me seem naive about what safety means for you, and I am sorry. I do not want my words to erase what your body knows. What wording would feel more accurate for the kind of safety we can build in this room?"
               },
               "no": {
                 "statement": "[Streng] Når du sier «du er trygg her», føles det som om du ikke vet hva trygg betyr. Det høres for rent ut, som en frase fra et rom der ingenting vondt noen gang har skjedd.",
-                "response": "Jeg hører at «du er trygg her» hørtes naivt og frakoblet ut fra virkeligheten din, og det beklager jeg. Hva ville vært en mer presis måte for meg å snakke om relativ trygghet i dette rommet uten å late som om ordet er enkelt?"
+                "response": "Takk for at du sier det. «Du er trygg her» hørtes for rent ut og fikk meg til å virke naiv om hva trygghet betyr for deg, og det beklager jeg. Jeg vil ikke at ordene mine skal viske ut det kroppen din vet. Hvilken formulering ville kjennes mer presis for den typen trygghet vi kan bygge i dette rommet?"
               }
             }
           ]

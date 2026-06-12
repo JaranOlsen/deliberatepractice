@@ -4231,7 +4231,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Skeptical] Are you actually experienced enough with anger like mine, or are you just following the training manual? I need to know whether you can handle the consequences if this goes badly at home.",
-        "suggestion": "Thank you for asking that directly. I hear the concern: if I am underprepared, you could waste time or get hurt in work that has real consequences for your family and job. I should have made my training and supervision clearer, and I am sorry I left you guessing. What would you need to know from me, or see in the work, to judge whether I am useful enough here?"
+        "suggestion": "Thank you for asking that directly. I hear that if I am just following a manual, this could cost you time and affect what happens at home. I should have been clearer about my training, supervision, and limits, and I am sorry I left you guessing. What do you need to know from me, or see in how I work, to decide whether this room is steady enough for your anger?"
       },
       {
         "text": "[Wounded but sharp] When you paused and watched me after I got angry, I felt judged, like you were waiting to see if I would explode. I stopped hearing you and started proving I was still in control.",
@@ -4247,7 +4247,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] You did not challenge me when I got loud, and now I wonder if you are scared of me.",
-        "suggestion": "I hear the concern that my not challenging you felt like fear or avoidance. I am sorry I left that unclear. I do not want to shrink from you or escalate with you. What would steady, direct contact from me look like when your voice gets loud?"
+        "suggestion": "Thank you for saying that. My silence when you got loud left you wondering whether I was scared, and that can make this room feel dishonest. I am sorry I did not make my stance clear. I do not want to shrink from you or control you. What would direct, steady contact from me look like when your voice gets loud?"
       },
       {
         "text": "[Ashamed] When I mentioned drinking, your face changed for a second. Maybe I am reading into it, but I felt judged, like you had just put me in the bad husband category.",
@@ -4273,11 +4273,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hesitant] When you looked at the clock while I was searching for words, I felt unimportant. I know sessions have time limits, but in that moment it felt like my slow words were using up too much space.",
-        "suggestion": "My clock glance while you were searching for words told you that you did not matter, and I apologize for that impact. How should I handle time checks so they feel transparent rather than dismissive or rushed?"
+        "suggestion": "Thank you for telling me. Looking at the clock while you were searching for words made your pace feel like a problem, and I am sorry for that. Time limits are real, but I need to handle them without making you feel rushed or unimportant. How should I check the time in a way that keeps you included rather than watched?"
       },
       {
         "text": "[Fearful] A previous therapist pushed me to talk about feelings until I panicked and ended up in the ER; when you asked about my body right away, I got scared this would be the same.",
-        "suggestion": "Thank you for telling me. That history makes my body question much more loaded, and I am sorry I moved there without enough safety. We can agree that you can stop me, and I will ask permission before going into feelings or sensations. What pace would help this feel different from that earlier therapy?"
+        "suggestion": "Thank you for telling me. Given what happened with the previous therapist, my body question could easily feel like the beginning of another unsafe push, and I am sorry I moved there too quickly. We can make permission explicit: you can stop me, and I will ask before going into feelings or sensations. What would show you, in the next few minutes, that this therapy will move at a different pace?"
       },
       {
         "text": "[Quietly] You say it is okay to pause, but when I pause, I feel watched. Your face is kind, but it still feels like a spotlight, and then I rush to say anything so the pause will end.",
@@ -4319,11 +4319,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Slow and flat] You are younger than me, and sometimes I wonder if you can really understand a life that has been shut down for this long.",
-        "suggestion": "Thank you for trusting me with that concern. The age difference is real, and I may miss things if I assume too quickly that I understand. I am sorry if I have moved past that. What would help you test whether I am understanding your life rather than fitting it into my own frame?"
+        "suggestion": "Thank you for trusting me with that concern. The age difference is real, and if I act as if I automatically understand, I would miss the length and loneliness of what you have lived through. I am sorry for any moments I have moved past that. What would help you test whether I am understanding your life on your terms?"
       },
       {
         "text": "[Flat and guarded] When you wrote notes while I talked about what happened, I felt recorded instead of met. I started wondering what sentence you were putting down and whether it would become the official version of me.",
-        "suggestion": "Thank you for telling me. Writing notes in that moment made you feel recorded rather than met, and I am sorry I did not protect the contact. Would it help if I paused note-taking during trauma material, explained what I write, or asked before writing?"
+        "suggestion": "Thank you for telling me. Writing notes while you described trauma made you feel recorded and defined instead of met, and I am sorry I did not protect contact. I can pause note-taking, tell you what I am writing, or ask first. Which of those, if any, would make this feel less like an official version being made of you?"
       },
       {
         "text": "[Wary] When you asked whether I trust you, it felt like pressure to say yes. If I said no, I imagined you getting hurt or thinking I was difficult, so I gave a safer answer than the real one.",
@@ -4335,7 +4335,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Distant] When you suggested imagining my mother here, I felt pushed toward something too big. I know it might be useful someday, but in that moment it felt like being pulled into deep water before I had said yes.",
-        "suggestion": "I hear that I moved too quickly toward the chair work, and I am sorry I did not check the size of it first. The fact that it might help someday does not mean it was right then. What would be a safer edge before we consider bringing her into the room in imagination?"
+        "suggestion": "Thank you for stopping me on that. I moved toward chair work before I had your consent for how big it felt, and I am sorry. The fact that it might help later does not make it right now. What would be a safer edge where you still feel in charge?"
       },
       {
         "text": "[Flat] You moved from my ex to childhood so quickly that it felt like you were following a checklist. I had barely said what happened this week before it became about the past.",
@@ -4361,11 +4361,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Angry] When I talked about my kid flinching from me, you looked away for a second. I know it might have been nothing, but it felt like even you did not want to look at what I did.",
-        "suggestion": "Thank you for saying that. Looking away cost contact in a really important and painful moment, and I am sorry. I do want to look at what happened with your kid without turning away from you. Do you want me to return there and stay more visibly with you?"
+        "suggestion": "Thank you for saying that. Looking away when you were facing your son's fear made it seem as if even I could not look at what happened, and I am sorry for that impact. I want to stay with both truths: the harm matters, and I am not turning away from you. What would help you sense that I can look steadily with you?"
       },
       {
         "text": "[Angry] When I got loud, you flinched, and then I felt like the dangerous guy in the room. I was already ashamed of scaring people; seeing you react like that made me want to quit talking.",
-        "suggestion": "I hear that my flinch made you feel dangerous and set apart, and I am sorry for that impact. What would help you know I can take your intensity seriously without treating you as a threat or making you carry my fear?"
+        "suggestion": "Thank you for naming it. My flinch made you feel like the dangerous person in the room, which touches the shame you were already carrying. I am sorry I added to that. I need to take intensity seriously without making you carry my fear. What would help you trust my steadiness enough to keep talking?"
       },
       {
         "text": "[Defensive] When you asked if I was afraid, it sounded like you were trying to make me admit I am weak. I felt my back go up, like you were taking respect from me.",
@@ -4377,7 +4377,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Wounded but sharp] You glanced at the door after I got angry, and I felt like you were checking an escape route.",
-        "suggestion": "Thank you for telling me. If my glance suggested I needed escape, I can see how that would feel humiliating and alarming. I am sorry. What would help restore enough trust in my steadiness right now?"
+        "suggestion": "Thank you for telling me. My glance at the door looked like I needed an escape route, and I can see how humiliating and alarming that would feel. I am sorry I did that. I want to be clear about safety without treating you as someone to get away from. What would help restore enough trust in my steadiness right now?"
       },
       {
         "text": "[Defensive] When you brought up drinking, you sounded exactly like my wife, like you already had the case built. I came in ready to be honest, and then I felt like I was on trial.",
@@ -4385,7 +4385,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Angry] When you used the word violence, I felt like you had already decided I am a criminal. I am not saying what I did was okay, but that word made it feel like there was no whole person left to talk to.",
-        "suggestion": "Thank you for naming that. The word landed as a total judgment of you, and I am sorry I did not frame it more carefully. How can we speak plainly about harmful behavior while keeping your whole person in view?"
+        "suggestion": "Thank you for naming that. Using the word violence without enough care made it sound like I had reduced you to a criminal, and I am sorry. We still need language that is honest about harm, but not language that erases the whole person in front of me. What wording would let us speak plainly without making you feel written off?"
       },
       {
         "text": "[Defensive] When you ask about my family, it feels like you are blaming where I come from. There are things that hurt me there, but there is pride there too, and I do not want you looking at it like a pathology.",
@@ -4437,7 +4437,7 @@ export const STATEMENT_SETS = {
     "case-aisha": [
       {
         "text": "[Desperate] When you did not reply to my message fast, I panicked and felt abandoned. I know you have other clients and a life, but in my body it was just, She is gone, I did too much.",
-        "suggestion": "The unanswered space felt like abandonment and self-blame, and I apologize for not making room for that impact sooner. What plan for message gaps would help you feel less alone in the panic while keeping the frame clear?"
+        "suggestion": "Thank you for telling me how that gap landed. Not hearing back quickly felt like abandonment and like proof you had done too much, and I am sorry I had not made the message frame clear enough before panic hit. What agreement about reply times and what to do in the waiting would help you feel less alone while keeping the frame predictable?"
       },
       {
         "text": "[Desperate] When the session ended exactly on time, it felt like you dropped me. I know there has to be a clock, but the way it happened made me feel like the connection disappeared the second the hour was over.",
@@ -4445,7 +4445,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Mistrustful] This is awkward, but after you asked so much about who I sleep with, I wondered if you were interested in me like that.",
-        "suggestion": "Thank you for saying it. I can understand that my questions about sex may have felt personal or confusing. I am sorry I did not make the purpose and boundary clearer. I do not have romantic or sexual interest in you; this is a professional therapy relationship. What do you need from me now so questions about sex feel safer and clearly about your experience?"
+        "suggestion": "Thank you for asking directly, even though it feels awkward. My questions about sex left the purpose and boundary unclear, and I am sorry I put you in that position. I do not have romantic or sexual interest in you; this is a professional therapy relationship. What would help you feel that questions about sex are for understanding your experience, not about my interest?"
       },
       {
         "text": "[Desperate] I emailed you and did not hear back, and I spiraled all night. I kept checking my phone and telling myself I had ruined the therapy too, even though part of me knew you probably had rules about email.",
@@ -4457,7 +4457,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] When I mentioned cutting, your eyes got wide and I felt like I scared you. Then I wanted to take care of you instead of tell you how bad it had been.",
-        "suggestion": "I am sorry my face made you feel scary or too much, and I do not want you taking care of my reaction. I want to take cutting seriously while staying steady. What would help you feel I can keep safety in view without making you carry my alarm?"
+        "suggestion": "Thank you for telling me. My eyes widening made you feel frightening and responsible for taking care of me, and I am sorry. I need to stay steady enough that you can talk about cutting without managing my reaction. What would help you feel I can keep safety in view and still stay with you?"
       },
       {
         "text": "[Mistrustful] When you said you write notes, I wondered what version of me you are putting in there. I started imagining a file where I sound unstable, dramatic, or worse than I mean to be.",
@@ -4465,7 +4465,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Desperate] When you said we could not add an extra session this week, it felt like rejection. I heard the scheduling limit, but underneath it I heard, Your need is too much for me.",
-        "suggestion": "I hear that my no to an extra session felt like rejection, and I am sorry I did not attend to that impact. What would help you feel held by the plan even when I cannot add time?"
+        "suggestion": "Thank you for telling me. My no to an extra session landed as rejection and as if your need was too much, and I am sorry I did not speak to that part. I cannot add time this week, and I still want the plan to feel held rather than punitive. What would help you feel connected to the work until we meet next?"
       },
       {
         "text": "[Panicked] You sounded so calm when I was falling apart that I thought you did not care. I know calm can be grounding, but it felt like you were on the other side of glass watching me lose it.",
@@ -4479,7 +4479,7 @@ export const STATEMENT_SETS = {
     "case-david": [
       {
         "text": "[Stern and angry] I do not think this therapy is working. I keep coming here, saying the same things, and maybe we are both wasting time.",
-        "suggestion": "I am glad you are bringing this directly. It sounds frustrating and maybe humiliating to work this hard and not see enough movement. I am sorry I have not helped us make progress feel clear. We can look honestly at what is not working, including whether a different approach or therapist would serve you better. What would make today's conversation worth your time?"
+        "suggestion": "Thank you for putting that so directly. It sounds frustrating and maybe humiliating to work this hard and not see enough change, and I am sorry I have not helped us make progress feel clear. We can look honestly at what is not working, including whether another approach or therapist would serve you better. For today, what would make this conversation feel worth your time rather than another repetition?"
       },
       {
         "text": "[Dismissive] When I asked for strategy, you kept returning to feelings, and I felt ignored. I came in asking for something I could actually do, and it felt like you kept taking the tool out of my hand.",
@@ -4487,7 +4487,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Wounded but sharp] When you named my wife's hurt first, it felt like you were siding with her. I know she is hurt, but I was trying to show you mine, and it felt like mine was already less important.",
-        "suggestion": "Naming her hurt first sounded like I had aligned with her against you, and I am sorry. What piece of your side did I miss or make too small when I moved there first?"
+        "suggestion": "Thank you for telling me. Naming her hurt first made it seem as if I had joined her side and made yours less important, and I am sorry. Before we talk about her pain again, what part of yours do I need to understand so you do not feel outnumbered here?"
       },
       {
         "text": "[Stern] When you challenged me in that tone, I felt humiliated, not helped. It reminded me of being dressed down in a meeting, and after that I stopped listening to the point you were making.",
@@ -4503,7 +4503,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Controlled] When you asked for details about the affair, I felt judged and exposed. I could not tell whether the questions were helping the work or whether I was being made to confess.",
-        "suggestion": "I hear that my questions felt like confession rather than therapy, and I am sorry I did not make the purpose and limits clearer. What details, if any, feel clinically useful to discuss, and where would it start to feel shaming or punitive?"
+        "suggestion": "Thank you for saying that. My questions about the affair felt like confession rather than therapy, and I am sorry I did not make the purpose and limits clear. I do not want this to become punitive. What details, if any, would serve the work, and where should I stop because it starts to feel like being judged?"
       },
       {
         "text": "[Irritated] When you said there are no quick fixes, it sounded condescending, like you were telling me I am naive for wanting movement. I am not asking for magic; I am asking whether this is actually going somewhere.",
@@ -4515,7 +4515,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Cold] When you mentioned referrals, it felt like you were done with me. I heard it as, If this is not working, maybe you should go somewhere else, and I shut down.",
-        "suggestion": "I hear that mentioning referrals felt like rejection rather than choice, and I am sorry I did not frame it more carefully. I am still willing to work with you, and I also want us to speak honestly about what helps. What would make that conversation feel like collaboration instead of dismissal?"
+        "suggestion": "Thank you for telling me. Mentioning referrals landed as if I were finished with you, and I am sorry I framed it in a way that felt like dismissal. I am willing to keep working, and I also want us to be honest if something else would help more. What would make that conversation feel like choice with me rather than being sent away?"
       }
     ],
     "case-marcus": [
@@ -4529,7 +4529,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hypervigilant] When you ask about nightmares, I wonder if you actually know what to do with this or if it is too much for you.",
-        "suggestion": "Thank you for naming that. If I ask into trauma without showing steadiness and consent, I can see why you would doubt whether I can handle it. I am sorry for moving before readiness was clear. I do have training and support for trauma work, and I want to earn trust by going at a pace you can stop. What would show you I am not pushing past my competence or your limits?"
+        "suggestion": "Thank you for naming that. If I ask about nightmares without showing steadiness, consent, and competence, it makes sense you would wonder whether this is too much for me. I am sorry I moved before readiness was clear. I do have training and support for trauma work, and I want to earn trust by going at a pace you can stop. What would you need to see from me before we go near the nightmares again?"
       },
       {
         "text": "[Tense] When you asked me to close my eyes, my body went on alert. I know it was supposed to help me focus, but for me it felt like giving up the room.",
@@ -4541,7 +4541,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Low voice] When I mentioned the violence at home, your face changed. Maybe I read it wrong, but it looked uncomfortable, and then I felt like I had to make it smaller so you could handle it.",
-        "suggestion": "Thank you for naming that. If my discomfort showed, I am sorry; you should not have to make your history smaller to manage my reaction. What would help you know I can hear it without turning away or needing you to protect me?"
+        "suggestion": "Thank you for telling me. If discomfort showed on my face, you were left making the violence smaller so I could handle it, and I am sorry. You should not have to protect me from your history. What would help you know I can hear it without turning away or needing you to manage me?"
       },
       {
         "text": "[Guarded] I said I did not want to talk about nightmares, and you asked one more question anyway. It was only one question, but it made my no feel weak in here.",
@@ -4549,11 +4549,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hypervigilant] You sat between me and the door, and I could not hear anything else. I kept nodding, but I was tracking the route out the whole time.",
-        "suggestion": "Thank you for telling me. Where I sat blocked your sense of exit, and I am sorry I did not notice how much that shaped the whole session. Let's adjust the room now; where should I sit so your body can track the door and still stay with me?"
+        "suggestion": "Thank you for telling me. Sitting between you and the door shaped the whole session before we even had words for it, and I am sorry I did not check the room with you. Let's change that now. Where should I sit so your body can track the exit and still stay in contact with me?"
       },
       {
         "text": "[Stern] When you say, You are safe here, I feel like you do not know what safe means. It sounds too clean, like a phrase from a room where nothing bad has ever happened.",
-        "suggestion": "I hear that 'safe here' sounded naive and disconnected from your reality, and I am sorry. What would be a more accurate way for me to speak about relative safety in this room without pretending the word is simple?"
+        "suggestion": "Thank you for saying that. 'You are safe here' sounded too clean and made me seem naive about what safety means for you, and I am sorry. I do not want my words to erase what your body knows. What wording would feel more accurate for the kind of safety we can build in this room?"
       },
       {
         "text": "[Flat] You ask about foster care almost every session, and after a while it feels like digging. I start wondering whether you are listening to me now, or only looking for the old story underneath everything.",
