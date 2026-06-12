@@ -1,6 +1,6 @@
 # Current Content Quality Audit
 
-Date: 2026-06-05; branch update through 2026-06-08
+Date: 2026-06-05; branch update through 2026-06-13
 
 ## Scope
 
@@ -42,6 +42,7 @@ Branch update:
 - Exploratory Questions hard has been tightened so advanced rupture, shame, dissociation, and threat markers still invite one inward question without the therapist supplying conjecture or body-process language too early.
 - Empathic Understanding easy has received regression polish: selected Sara, Michael, and Jason responses now stay closer to explicit client meaning, and one Sara marker was softened away from naming core unlovability too directly.
 - Staying in Contact with Intense Affect easy/moderate has received a contact-over-grounding polish: selected responses now communicate steadier presence before regulation, and Sara now includes a warm positive-affect marker that is hard to stay with for different reasons than panic or grief.
+- Empathic Affirmation and Validation has received a cross-tier response-variety pass: 51 English responses and their Bokmal localizations were tightened so validation remains explicit while reducing overuse of "No wonder," broad protection language, and literal Norwegian therapy-English phrasing.
 
 The remaining gaps are more subtle:
 
@@ -66,9 +67,9 @@ The remaining gaps are more subtle:
 | Empathic Understanding | Easy | Strong | Medium-High | Strong | Low | Recent polish simplified selected beginner responses toward basic reflection and reduced one overly direct core-pain marker. Remaining work is ordinary regression checking. |
 | Empathic Understanding | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass added ordinary bills/money worry, friend disappointment, confused depression, and guide-me uncertainty. Further work is polish rather than repair. |
 | Empathic Understanding | Hard | Strong | Medium-High | Strong | Low-Medium | Recent pass added substance-anxiety ambivalence, plain session uncertainty, and more ordinary relational loss while keeping hard-case defenses. |
-| Empathic Affirmation and Validation | Easy | Strong | High | Strong | Low-Medium | Recent pass broadened beyond breakup shame/anger into public-composure grief, social anger, moral guilt, presentation anxiety, and positive-invitation anxiety. Continue only regression polish. |
-| Empathic Affirmation and Validation | Moderate | Strong | Medium-High | Strong | Low-Medium | Good validation markers across trauma, politics, child-army fear, shame, and caregiver guilt. Some benchmark romance/grief variants remain thin. |
-| Empathic Affirmation and Validation | Hard | Strong | High | Strong | Low | Good range: trauma shame, rage/fear, desperate longing, confused overwhelm, positive warmth. |
+| Empathic Affirmation and Validation | Easy | Strong | High | Strong | Low | Recent regression pass kept validation explicit while making the responses less formulaic and less dependent on "No wonder." Continue only light spot checks. |
+| Empathic Affirmation and Validation | Moderate | Strong | Medium-High | Strong | Low | Good validation markers across trauma, politics, child-army fear, shame, and caregiver guilt. Recent pass improved response variety and Bokmal naturalness. Some benchmark romance/grief variants remain thin but not urgent. |
+| Empathic Affirmation and Validation | Hard | Strong | High | Strong | Low | Good range: trauma shame, rage/fear, desperate longing, confused overwhelm, positive warmth. Recent pass sharpened moral-responsibility and trauma validations without excusing harmful behavior. |
 | Exploratory Questions | Easy | Strong | Medium-High | Strong | Low-Medium | Recent pass reduced client-supplied body cues and tightened responses into one inward experiential question. AA/amends guilt remains absent because the fixed easy cases do not naturally carry recovery history. |
 | Exploratory Questions | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass further reduced handed-over body cues and interpretive questions, while preserving relational ambiguity, shame, anger, blocked care, and caregiver-guilt markers. Remaining gap is breadth under fixed cases. |
 | Exploratory Questions | Hard | Strong | Medium-High | Strong | Low-Medium | Recent pass reduced conjectural and body-process drift while preserving ambiguity, rupture risk, shame, dissociation, threat scanning, and hard-case defenses. Some case-schema gravity remains unavoidable. |
@@ -118,6 +119,7 @@ Completed on the current content branch:
 - Exploratory Questions, hard.
 - Empathic Understanding, easy regression polish.
 - Staying in Contact with Intense Affect, easy/moderate contact-over-grounding polish.
+- Empathic Affirmation and Validation cross-tier response-variety and Bokmal naturalness polish.
 
 These should still be reviewed in normal regression passes, but they are no longer the highest-value repair targets.
 

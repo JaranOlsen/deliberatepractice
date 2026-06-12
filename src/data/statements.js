@@ -765,11 +765,11 @@ export const STATEMENT_SETS = {
     "case-sara": [
       {
         "text": "[Softly] I keep checking his social media even though it wrecks me.",
-        "suggestion": "It makes sense that you feel pulled toward his page; it is a way of reaching for someone your heart has not caught up to losing."
+        "suggestion": "Of course his page pulls at you; the loss is still fresh enough that any trace of him carries emotional weight."
       },
       {
         "text": "[Embarrassed] I smiled through the whole team meeting and then cried in the bathroom afterward.",
-        "suggestion": "It makes sense that the tears came once you were alone; holding yourself together in public can take everything when grief is still that close."
+        "suggestion": "Anyone would need room for tears after holding themselves together through that meeting; the tears deserve room rather than embarrassment."
       },
       {
         "text": "[Tearful] If I had been more fun or easier, maybe he'd have stayed.",
@@ -781,23 +781,23 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Angry, then embarrassed] A friend told me to stop checking my phone, and I snapped at her.",
-        "suggestion": "That anger makes sense when the advice landed on such a raw place; it was not just a phone, it was the last thread of contact you were trying not to lose."
+        "suggestion": "It makes sense that anger came up when the moment was so raw; the phone was carrying hope, not just a habit someone told you to stop."
       },
       {
         "text": "[Tearful] When I wake up, I forget for a second and then it slams me.",
-        "suggestion": "That morning crash makes sense because the loss arrives all over again before you have any protection around it."
+        "suggestion": "Understandably, that morning crash feels cruel: the loss arrives again before you have any way to brace for it."
       },
       {
         "text": "[Tearful] I apologize when I start crying, like my sadness is taking up too much room.",
-        "suggestion": "It makes sense that you apologize when you have learned to manage your impact on other people so carefully; the sadness itself is not too much."
+        "suggestion": "Understandably, after being so careful not to burden people, even tears can feel like an intrusion; the sadness still deserves space here."
       },
       {
         "text": "[Embarrassed] I feel guilty for being so upset when other people have bigger problems.",
-        "suggestion": "It makes sense that comparison can make your grief feel illegitimate, but the breakup is still a real loss and your pain does not need to compete for permission."
+        "suggestion": "It makes sense that comparing your pain to other people's can make grief feel disallowed, but this breakup is still a real loss."
       },
       {
         "text": "[Fearful] My friends say I should come out for dinner, but I am scared I will cry at the table.",
-        "suggestion": "No wonder dinner feels exposed when the sadness is still close enough to spill over in front of people who may not know how tender it is."
+        "suggestion": "Anyone would feel exposed at dinner with sadness close enough to spill over in front of people who may not know how tender it is."
       },
       {
         "text": "[Softly] After this breakup, part of me thinks love must be for other people, not me.",
@@ -807,11 +807,11 @@ export const STATEMENT_SETS = {
     "case-michael": [
       {
         "text": "[Guilty] I hit a cyclist with my car last week. The road was slick, but he still broke his wrist and I cannot stop feeling guilty.",
-        "suggestion": "That guilt has a moral weight to it; you did not mean to harm him, and still someone was hurt, so it makes sense that it stays with you."
+        "suggestion": "That guilt makes sense as moral weight: you did not mean to harm him, and someone was still hurt."
       },
       {
         "text": "[Defensive] If I don't have the answer, I feel exposed and I bluff.",
-        "suggestion": "It makes sense that not knowing feels like standing in front of judgment with no cover, especially when mistakes have meant humiliation."
+        "suggestion": "It makes sense that not knowing leaves you exposed to judgment, especially when mistakes have meant humiliation."
       },
       {
         "text": "[Tense] When I apologize, it feels like kneeling in front of someone who will use it against me.",
@@ -831,11 +831,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Firm] Slamming a door feels awful later, but in the moment it keeps me from feeling small.",
-        "suggestion": "The door slam makes sense as a shield against feeling small and humiliated, even though the cost shows up afterward."
+        "suggestion": "It makes sense that in the moment, slamming the door gets you away from feeling small; afterward, the cost of that escape is painful."
       },
       {
         "text": "[Defensive] If someone challenges me in public, I double down even if I'm wrong.",
-        "suggestion": "No wonder digging in feels protective when being corrected in public lands as being put beneath someone."
+        "suggestion": "It makes sense that digging in can feel like preserving dignity when being corrected in public lands like being put underneath someone."
       },
       {
         "text": "[Ashamed] I hate that I need help with this; it makes me feel weak.",
@@ -843,7 +843,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] After I blow up at home, I lie awake replaying their faces and hating myself.",
-        "suggestion": "No wonder the shame keeps replaying when seeing their faces cuts into the part of you that wants to be safer for them."
+        "suggestion": "Understandably, the shame keeps replaying; their faces cut into the part of you that wants to be safer for them."
       }
     ],
     "case-jason": [
@@ -857,23 +857,23 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Anxious] I pretend to text so I have somewhere to hide during small talk.",
-        "suggestion": "It makes sense that the phone becomes cover when small talk can feel like standing without protection in front of possible judgment."
+        "suggestion": "It makes sense that the phone gives you cover in small talk; it helps you stand there when possible judgment feels too close."
       },
       {
         "text": "[Quietly] When people laugh politely, I assume they are trying to escape me.",
-        "suggestion": "No wonder polite laughter feels unsafe when your mind is already braced for rejection before connection has a chance."
+        "suggestion": "It makes sense that polite laughter can feel unsafe when your mind is already braced for rejection before connection has a chance."
       },
       {
         "text": "[Hesitant] Compliments bounce off; part of me wants to believe them, but the suspicious part wins.",
-        "suggestion": "No wonder praise is hard to let in when your mind has practiced attacking you; the suspicious part is trying to protect you from believing too quickly."
+        "suggestion": "It makes sense that praise is hard to take in when self-attack has had so much practice; suspicion is trying to spare you another hurt."
       },
       {
         "text": "[Quiet and ashamed] After I talk in a group, I replay every sentence and feel ashamed for sounding awkward.",
-        "suggestion": "Replaying every sentence makes sense when belonging feels fragile; shame is trying to prevent another moment of being hurt."
+        "suggestion": "Replaying every sentence makes sense when belonging feels this fragile; shame is working hard to prevent another hurt."
       },
       {
         "text": "[Quiet and ashamed] I skipped another team lunch and then felt pathetic for hiding.",
-        "suggestion": "It makes sense that skipping lunch protects you from a fear that feels real, and the shame afterward shows how much you also want to belong."
+        "suggestion": "It makes sense that skipping lunch kept you away from a fear that felt real, and the shame afterward shows how much you still want to belong."
       },
       {
         "text": "[Hesitant] I scan every room for who is doing better than me, then feel defective.",
@@ -885,17 +885,17 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quietly] Some nights I lie there certain I will always be alone because I am too awkward to love.",
-        "suggestion": "No wonder the nights feel heavy when shame turns loneliness into a sentence about your whole future."
+        "suggestion": "Understandably, the nights get heavy when shame turns loneliness into a sentence about your whole future."
       }
     ],
     "case-laura": [
       {
         "text": "[Flat and ashamed] On days off I can stay in bed until noon, not exactly sleeping, just not able to start. Then I tell myself I am lazy because other people manage normal mornings.",
-        "suggestion": "That withdrawal makes sense after so many years of running on alert; the bed becomes the one place no one asks anything of you, not proof that you are lazy."
+        "suggestion": "After years on alert, it makes sense that staying in bed can be the one place with no demand; that is not the same as laziness."
       },
       {
         "text": "[Fearful] If voices rise, my stomach drops and I go somewhere else in my head.",
-        "suggestion": "No wonder raised voices can send you away in your head; that response learned to protect you."
+        "suggestion": "It makes sense that raised voices can send you away in your head; your system learned to survive by leaving."
       },
       {
         "text": "[Guarded and confused] A man from work asked if I wanted coffee, and I felt a tiny bit pleased before I went completely numb. I keep telling myself that is ridiculous at my age.",
@@ -903,7 +903,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Flat and guarded] I take long showers because warm water feels safer than asking anyone for comfort.",
-        "suggestion": "Of course you reach for small, safe warmth when human comfort has felt dangerous or unreliable."
+        "suggestion": "Of course small, safe warmth has appeal when human comfort has been dangerous or unreliable."
       },
       {
         "text": "[Sad] I like the new apartment, but when I unpacked the photos from the old house, I missed the version of my family I kept hoping we would become.",
@@ -911,33 +911,33 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and guarded] Being touched, even kindly, startles me, and then I feel broken for reacting that way.",
-        "suggestion": "No wonder that startle arrives before trust can; it is protection your system learned, not brokenness."
+        "suggestion": "Understandably, your startle arrives before choice; your system learned to react first, and that is not brokenness."
       },
       {
         "text": "[Fearful] When sadness pushes through, I get scared I won't come back from it.",
-        "suggestion": "Understandably, that fear rises after feelings once came without comfort; shutting them down helped you survive."
+        "suggestion": "Understandably, if strong feelings once arrived without comfort, sadness can feel like it might swallow you."
       },
       {
         "text": "[Distant] I apologize the second I need comfort, like wanting it is already too much.",
-        "suggestion": "Of course needing comfort can feel dangerous after closeness has been unsafe; the need is human, not too much."
+        "suggestion": "Of course wanting comfort is human, even when closeness has taught you to apologize for needing it."
       },
       {
         "text": "[Flat and embarrassed] My daughter sent a song she thought I would like, and I could not make myself listen. I hate that even something kind feels like work.",
-        "suggestion": "It makes sense that even kindness can feel demanding after living behind so much protection; that does not mean you do not care about her or about music."
+        "suggestion": "It makes sense that even kindness can feel demanding after so much guarding; the effort says how hard closeness has become, not that you do not care."
       },
       {
         "text": "[Flat and guarded] Even in bed, my shoulders stay up like someone might come through the door.",
-        "suggestion": "No wonder rest does not come easily when part of you learned to keep watch for danger."
+        "suggestion": "It makes sense that rest is hard to find when part of you learned to keep watch for danger."
       }
     ],
     "case-carlos": [
       {
         "text": "[Tense and angry] Watching the news about families like mine being treated like threats makes me so angry I can barely sit still.",
-        "suggestion": "Of course that anger rises when the news touches dignity, family, and the old fear of being treated as less than fully human."
+        "suggestion": "Of course that anger is tied to dignity, family, and the old fear of being treated as less than fully human."
       },
       {
         "text": "[Tense] If I do not come in strong, I picture people seeing the scared kid I used to be, and that feels humiliating before anyone has even done anything.",
-        "suggestion": "Given how unsafe it was to look scared, coming in strong makes sense as protection; the protection makes sense even if the pressure has started to cost you."
+        "suggestion": "It makes sense that coming in strong has protected the scared part you were taught to hide; it also sounds exhausting to keep that armor up."
       },
       {
         "text": "[Ashamed] At my kid's game I yelled at the ref, and afterward my son would not look at me. I keep telling myself I am turning into exactly what I hated.",
@@ -949,27 +949,27 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Angry and ashamed] When my fists clench, I feel like the fight is already coming, and then I hate myself for looking like every man I promised I would never become.",
-        "suggestion": "It makes sense that shame rises there; the body learned fight as survival, and now the resemblance to men who hurt you feels awful."
+        "suggestion": "It makes sense that your body learned fight as survival; the clenched fists carry old learning and present shame at the same time."
       },
       {
         "text": "[Ashamed] I break things and then regret it when I see how scared everyone looks.",
-        "suggestion": "The regret matters; no wonder seeing their fear hurts when protecting your family is part of who you want to be."
+        "suggestion": "It makes sense that the regret matters; protecting your family is part of who you want to be."
       },
       {
         "text": "[Ashamed] Coworkers steer clear after I blow up, and I feel ashamed even while I act like I do not care.",
-        "suggestion": "No wonder shame and armor show up together; part of you is hurt by the distance while another part tries not to show it."
+        "suggestion": "Understandably, shame and armor show up together: part of you is hurt by the distance, while another part tries not to show it."
       },
       {
         "text": "[Torn] I leave the room so I do not explode, but then I hear my father's voice calling that weak.",
-        "suggestion": "Walking away makes sense as protection for your family, and it also hits the old rule that a man must never step back."
+        "suggestion": "Leaving makes sense as protection for your family from the explosion, while also colliding with the old rule that stepping back is weakness."
       },
       {
         "text": "[Mistrustful] Calm feels suspicious, like someone is setting me up to be walked over.",
-        "suggestion": "Understandably, calm can feel exposed rather than safe after what you learned; that suspicion has been trying to protect you."
+        "suggestion": "Understandably, calm can feel exposed after you learned to expect being walked over; suspicion has had a job for a long time."
       },
       {
         "text": "[Vulnerable] My son fell asleep against me on the couch, and I felt proud, scared, and sad all at once because I want him to feel safe with me in a way I never felt.",
-        "suggestion": "Of course that moment brings all three feelings; his trust touches your love for him and the grief of not having that kind of safety yourself."
+        "suggestion": "Of course the pride, fear, and sadness belong together; his trust touches your love for him and the grief of not having that kind of safety yourself."
       }
     ],
     "case-nina": [
@@ -1033,7 +1033,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Desperate] I send twenty texts because I need them close, then block them before they can leave.",
-        "suggestion": "No wonder you reach hard for closeness and then protect yourself when the fear of being dropped takes over."
+        "suggestion": "It makes sense that you reach hard for closeness because the need is intense, then block when the fear of being dropped takes over."
       },
       {
         "text": "[Fearful and ashamed] I know it was done to me, but I still feel dirty in my own skin.",
@@ -1059,23 +1059,23 @@ export const STATEMENT_SETS = {
     "case-david": [
       {
         "text": "[Controlled] When my wife brings up feelings, I feel cornered and want to argue the facts.",
-        "suggestion": "No wonder facts feel safer there; emotions can sting like criticism and leave you feeling cornered."
+        "suggestion": "It makes sense that facts feel safer there; emotions can sting like criticism and leave you cornered."
       },
       {
         "text": "[Furious] After I scared my wife, I still felt furious at her for pushing me, and then ashamed because I know how that sounds.",
-        "suggestion": "No wonder this is hard to say; the rage can be real without making the fear you caused any less serious."
+        "suggestion": "Understandably, this is hard to say: the rage was real, and the fear you caused also matters."
       },
       {
         "text": "[Ashamed] I compare myself to other dads and feel like a fraud.",
-        "suggestion": "No wonder comparison stirs shame when worth has been tied so tightly to performance."
+        "suggestion": "It makes sense that comparison stirs shame when worth has been tied so tightly to performance."
       },
       {
         "text": "[Ashamed] When I apologize, it feels like handing someone proof that I am small.",
-        "suggestion": "No wonder apologizing feels humiliating when being wrong has meant losing status, safety, and control."
+        "suggestion": "Understandably, apologizing feels humiliating when being wrong has meant losing status, safety, and control."
       },
       {
         "text": "[Dismissive] I plan perfect vacations so we look good from the outside.",
-        "suggestion": "Of course you strive to look put-together when image has served as protection from exposure."
+        "suggestion": "Of course looking put-together has protected you from exposure; the pressure to maintain it is heavy."
       },
       {
         "text": "[Fearful] The idea of being ordinary scares me, like I would disappear if I stopped impressing people.",
@@ -1083,7 +1083,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] I say I am fine while feeling empty, because admitting the emptiness feels humiliating.",
-        "suggestion": "No wonder you cover the emptiness when being exposed has felt like losing status and safety."
+        "suggestion": "It makes sense that you cover the emptiness when being exposed has felt like losing status and safety."
       },
       {
         "text": "[Dismissive] I brag to get respect, then sit alone feeling emptier than before.",
@@ -1101,7 +1101,7 @@ export const STATEMENT_SETS = {
     "case-marcus": [
       {
         "text": "[Flat] Most days I move through routines like I am not fully there.",
-        "suggestion": "Feeling detached makes sense after so much trauma; numbness has been a way to keep going."
+        "suggestion": "After so much trauma, numbness makes sense as the way you keep moving through the day."
       },
       {
         "text": "[Dazed] I do not know what I feel. It is pressure, anger, and nothing at the same time, and I feel stupid for not having words.",
@@ -1109,15 +1109,15 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and guarded] I sit in the car before going inside because I can't face the quiet.",
-        "suggestion": "No wonder the quiet feels hard; it can bring the weight back all at once."
+        "suggestion": "Understandably, the quiet can be hard; it brings the weight back all at once."
       },
       {
         "text": "[Tense] Loud bangs make me jump and then I get angry at myself for reacting.",
-        "suggestion": "No wonder a loud bang can throw your system into survival before choice catches up; the anger afterward is understandable."
+        "suggestion": "It makes sense that a loud bang can throw your system into survival before choice catches up, and the anger afterward is part of the pain."
       },
       {
         "text": "[Low voice] Holidays feel hollow; I don't feel anything I'm supposed to feel.",
-        "suggestion": "No wonder holidays land flat when shutting down has been part of staying safe."
+        "suggestion": "Understandably, holidays can land flat when shutting down has been part of staying safe."
       },
       {
         "text": "[Quiet and guarded] I avoid reminders of my service because they open the floodgates.",
@@ -1125,19 +1125,19 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Flat] I keep the apartment dark because bright rooms feel like they ask too much of me.",
-        "suggestion": "No wonder the dim room feels safer when the world already asks too much and bright places can feel exposing."
+        "suggestion": "It makes sense that the dim room can feel safer when the world already asks too much and bright places feel exposing."
       },
       {
         "text": "[Low voice] I cannot remember the last time I laughed and trusted it would last.",
-        "suggestion": "No wonder joy feels far away when your system has had to stay ready for pain and loss."
+        "suggestion": "Understandably, joy feels far away when your system has had to stay ready for pain and loss."
       },
       {
         "text": "[Quiet and guarded] I do not want to need anyone, because needing people has usually meant losing control.",
-        "suggestion": "Given what closeness has cost you, no wonder not needing anyone feels like protection rather than coldness."
+        "suggestion": "It makes sense that not needing anyone feels protective after closeness cost you so much; it also leaves you alone with the cost."
       },
       {
         "text": "[Flat] Sometimes I think I am better off alone forever, because closeness only gives people more ways to hurt me.",
-        "suggestion": "No wonder alone can feel safer given what closeness has cost you, even though it is lonely."
+        "suggestion": "Understandably, being alone can feel safer given what closeness has cost you, even when it is lonely."
       }
     ]
   },

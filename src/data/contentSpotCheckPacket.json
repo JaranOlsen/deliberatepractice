@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T21:50:41.884Z",
+  "generatedAt": "2026-06-12T22:16:39.406Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -443,11 +443,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Hesitant] Compliments bounce off; part of me wants to believe them, but the suspicious part wins.",
-                "response": "No wonder praise is hard to let in when your mind has practiced attacking you; the suspicious part is trying to protect you from believing too quickly."
+                "response": "It makes sense that praise is hard to take in when self-attack has had so much practice; suspicion is trying to spare you another hurt."
               },
               "no": {
                 "statement": "[Nølende] Komplimenter preller av; en del av meg vil tro på dem, men den mistenksomme delen vinner.",
-                "response": "Ikke rart ros er vanskelig å slippe inn når tankene dine har øvd så mye på å angripe deg; den mistenksomme delen prøver å beskytte deg mot å tro for fort."
+                "response": "Det gir mening at ros er vanskelig å ta inn når selvangrepet har fått så mye øvelse; mistanken prøver å spare deg for enda et sår."
               }
             },
             {
@@ -554,11 +554,11 @@
               ],
               "en": {
                 "statement": "[Flat] Most days I move through routines like I am not fully there.",
-                "response": "Feeling detached makes sense after so much trauma; numbness has been a way to keep going."
+                "response": "After so much trauma, numbness makes sense as the way you keep moving through the day."
               },
               "no": {
                 "statement": "[Flatt] De fleste dager går jeg gjennom rutinene som om jeg ikke er helt til stede.",
-                "response": "Å føle seg frakoblet gir mening etter så mye traume; nummenhet har vært en måte å holde det gående på."
+                "response": "Etter så mye traume gir nummenheten mening som måten du holder dagen i gang på."
               }
             },
             {
@@ -571,11 +571,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Low voice] Holidays feel hollow; I don't feel anything I'm supposed to feel.",
-                "response": "No wonder holidays land flat when shutting down has been part of staying safe."
+                "response": "Understandably, holidays can land flat when shutting down has been part of staying safe."
               },
               "no": {
                 "statement": "[Lav stemme] Høytider kjennes hule; jeg føler ingenting av det jeg «burde» føle.",
-                "response": "Ikke rart høytider lander flatt når nedstenging har vært en del av å holde deg trygg."
+                "response": "Det er forståelig at høytider kan lande flatt når nedstenging har vært en del av å holde deg trygg."
               }
             },
             {
@@ -588,11 +588,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Quiet and guarded] I do not want to need anyone, because needing people has usually meant losing control.",
-                "response": "Given what closeness has cost you, no wonder not needing anyone feels like protection rather than coldness."
+                "response": "It makes sense that not needing anyone feels protective after closeness cost you so much; it also leaves you alone with the cost."
               },
               "no": {
                 "statement": "[Stille og på vakt] Jeg vil ikke trenge noen, fordi det å trenge folk som regel har betydd å miste kontroll.",
-                "response": "Gitt hva nærhet har kostet deg, er det ikke rart at det å klare seg uten noen kjennes som beskyttelse, ikke kulde."
+                "response": "Det gir mening at det å ikke trenge noen kjennes beskyttende etter at nærhet kostet så mye; det lar deg også bli alene med prisen."
               }
             }
           ]
