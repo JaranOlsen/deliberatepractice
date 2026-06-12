@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T16:06:30.323Z",
+  "generatedAt": "2026-06-12T20:53:58.857Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1960,11 +1960,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Accusing] You were two minutes late again. Do you even notice what that does to me, or is it just nothing to you?",
-                "response": "I did notice I was late, and I am sorry. I can imagine it landed as not mattering, and I want us to look at what happened in you when I was not here on time."
+                "response": "I did notice I was late, and I am sorry. It was not nothing to me, and I can imagine it landed as if you did not matter. What happened in you when I was not here on time?"
               },
               "no": {
                 "statement": "[Anklagende] Du var to minutter forsinket igjen. Merker du i det hele tatt hva det gjør med meg, eller betyr det bare ingenting for deg?",
-                "response": "Jeg la merke til at jeg var forsinket, og jeg er lei for det. Jeg kan se for meg at det traff som om du ikke betydde noe, og jeg vil at vi ser på hva som skjedde i deg da jeg ikke var her presis."
+                "response": "Jeg la merke til at jeg var forsinket, og jeg beklager. Det var ikke ingenting for meg, og jeg kan se for meg at det traff som om du ikke betydde noe. Hva skjedde i deg da jeg ikke var her presis?"
               }
             }
           ]
