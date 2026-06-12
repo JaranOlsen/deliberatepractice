@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T08:40:19.855Z",
+  "generatedAt": "2026-06-12T10:02:45.414Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -926,12 +926,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Angry, clenching fists] Heat is rising; my fists want to clench before I know what got hit.",
-            "response": "Let your fingers uncurl and feel your palms on your legs. Breathe low with me; hold one wave of heat, then pause."
+            "statement": "[Angry, clenching fists] Heat is rising; my fists want to clench before I know what got hit. It is like my hands are ready to answer a threat before I can even name what felt threatening.",
+            "response": "The heat is moving into your hands fast. Let your fingers uncurl just enough to keep this in words, and I will stay with you while we hold one wave of threat and anger before we pause."
           },
           "no": {
-            "statement": "[Sint, med knyttede never] Varmen stiger; nevene vil knyte seg før jeg skjønner hva som traff.",
-            "response": "La fingrene løsne og kjenn håndflatene mot lårene. Pust lavt med meg; hold én bølge av varme, og ta så pause."
+            "statement": "[Sint, med knyttede never] Varmen stiger; nevene vil knyte seg før jeg skjønner hva som traff. Det er som om hendene er klare til å svare på en trussel før jeg engang kan si hva som kjentes truende.",
+            "response": "Varmen går raskt ut i hendene. La fingrene løsne akkurat nok til at dette kan bli i ord, og jeg blir hos deg mens vi holder én bølge av trussel og sinne før vi tar pause."
           }
         },
         {
@@ -962,11 +962,11 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Slow and flat] I want to go numb before the memory opens wider than I can close.",
+            "statement": "[Slow and flat] I want to go numb before the memory opens wider than I can close. I can feel the edge of it opening, and my first instinct is to disappear before I see too much.",
             "response": "Then numbness gets respected as protection. Heels on the floor, eyes in the room; today we stop at the doorway of the memory."
           },
           "no": {
-            "statement": "[Langsomt og flatt] Jeg vil bli nummen før minnet åpner seg bredere enn jeg klarer å lukke.",
+            "statement": "[Langsomt og flatt] Jeg vil bli nummen før minnet åpner seg bredere enn jeg klarer å lukke. Jeg kjenner kanten av det åpne seg, og første impuls er å forsvinne før jeg ser for mye.",
             "response": "Da får nummenheten respekt som beskyttelse. Hælene i gulvet, blikket i rommet; i dag stopper vi ved døråpningen til minnet."
           }
         },
@@ -975,11 +975,11 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Trembling] My hands start trembling when I try to say even one piece of what happened.",
+            "statement": "[Trembling] My hands start trembling when I try to say even one piece of what happened. The story is still behind my teeth, but my hands are already telling you it is too close.",
             "response": "The trembling can speak before the story does. Let your hands rest where you can see them, breathe low, and give the tremble a few seconds with me."
           },
           "no": {
-            "statement": "[Skjelvende] Hendene mine begynner å skjelve når jeg prøver å si bare én bit av det som skjedde.",
+            "statement": "[Skjelvende] Hendene mine begynner å skjelve når jeg prøver å si bare én bit av det som skjedde. Historien ligger fortsatt bak tennene, men hendene mine forteller deg allerede at den er for nær.",
             "response": "Skjelvingen kan snakke før historien gjør det. La hendene hvile der du kan se dem, pust lavt, og gi skjelvingen noen sekunder sammen med meg."
           }
         }
