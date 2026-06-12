@@ -62,7 +62,7 @@ Automated averages are triage only, not quality scores. They still reveal places
 | Empathic Affirmation and Validation | 17.9 | 27.1 | 20.6 | 23.0 | Moderate breadth pass complete; now strong with later regression polish needed. |
 | Exploratory Questions | 16.8 | 22.5 | 11.8 | 26.3 | App intentionally keeps questions cleaner than Goldman examples. |
 | Treatment Rationale | 15.5 | 20.5 | 28.8 | 54.2 | App is briefer than Goldman but usually clinically focused. |
-| Empathic Explorations | 17.0 | 26.2 | 18.2 | 30.3 | Needs periodic boundary checks against conjecture and intense-affect work. |
+| Empathic Explorations | 17.0 | 26.2 | 18.2 | 30.3 | Response-boundary pass complete; strong, with later marker breadth and Bokmal polish. |
 | Empathic Evocations | 13.8 | 23.1 | 17.8 | 20.3 | Improved after rewrite; monitor marker flatness. |
 | Empathic Conjectures | 16.8 | 21.5 | 20.1 | 21.8 | Structurally close. |
 | Staying in Contact with Intense Affect | 31.3 | 35.3 | 29.1 | 22.6 | Third response-quality pass complete; now strong, with residual regression risk in high-risk items. |
@@ -74,10 +74,10 @@ Automated averages are triage only, not quality scores. They still reveal places
 
 | Rank | Skill | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Empathic Explorations | Mostly sound, but hard cases can drift toward intense-affect, conjecture, or implicit guidance because the cases are severe. | Regression pass focused on response boundary: reflect plus one small inward invitation. |
-| 2 | Self-Disclosure | Structurally close. Some hard examples can be sharpened around attractiveness, pity, lateness, and competence. | Targeted boundary/transparency polish. |
-| 3 | Empathic Conjectures | Structurally close. Needs occasional checks that responses remain tentative and reach just beyond what is explicit. | Low-volume targeted polish. |
-| 4 | Empathic Understanding | Strong basic response contract. Some app markers are shorter and more case-specific than Goldman, but the skill does not require long prompts. | Regression and ordinary-life breadth checks. |
+| 1 | Self-Disclosure | Structurally close. Some hard examples can be sharpened around attractiveness, pity, lateness, and competence. | Targeted boundary/transparency polish. |
+| 2 | Empathic Conjectures | Structurally close. Needs occasional checks that responses remain tentative and reach just beyond what is explicit. | Low-volume targeted polish. |
+| 3 | Empathic Understanding | Strong basic response contract. Some app markers are shorter and more case-specific than Goldman, but the skill does not require long prompts. | Regression and ordinary-life breadth checks. |
+| 4 | Empathic Explorations | Now strong after a 25-item response-boundary pass. Suggestions more consistently stay with the shown edge and invite one manageable next moment of contact. Quality rating: about 8.1/10. | Later marker-breadth and Bokmal polish only unless flagged. |
 | 5 | Alliance Repair | Now strong after marker enrichment and a high-risk rupture response pass across 23 items. Suggestions more reliably receive impact, own therapist contribution, clarify frame without defensiveness, and ask what helps now. Quality rating: about 8.2/10. | Later regression polish only, especially Bokmal naturalness and response-opening variety. |
 | 6 | Staying in Contact with Intense Affect | Third pass moved the responses closer to Goldman-level presence: contact first, then safety, titration, or boundary clarity when clinically needed. Quality rating: 8.1/10. | Later high-risk regression only. |
 | 7 | Marker Recognition and Chair Work | Now strong after marker expansion, residual marker work, and a suggestion-sequencing pass across 23 easy, moderate, and hard items. Suggestions now more reliably include consent, correct chair placement, and first enactment. Quality rating: about 8.1/10. | Later regression polish only, especially high-risk chair-work setup and Norwegian naturalness. |
@@ -117,9 +117,23 @@ Current chair-work metrics after the residual pass:
 
 The section is no longer the clearest structural mismatch. Later review should focus on high-risk chair-work setup and Bokmal naturalness, not further broad expansion.
 
-### Next Pass: Empathic Explorations
+### Implementation Update: Empathic Explorations
 
-The next highest-value slice should be an Empathic Explorations regression pass. The markers generally invite exploration, so the pass should judge whether responses stay as one reflective exploration plus a small inward invitation, without drifting into conjecture, evocation, intense-affect contact, reassurance, or advice.
+An empathic-explorations response-boundary pass revised 25 items across moderate and hard cases.
+
+Current exploration state after this pass:
+
+- 90 total items preserved.
+- Quality rating increased to about 8.1/10.
+- The edited responses more consistently stay one small step beside the client's shown experience, then invite one manageable next moment of contact.
+- The pass reduced drift toward hidden-function conjecture, metaphor-heavy evocation, broad analytic questioning, and intense-affect style containment.
+- Every edited English item has a matching Bokmal localization.
+
+Empathic Explorations is now strong enough to leave the active-priority slot. Later work should focus on marker breadth and Bokmal naturalness rather than broad rewriting.
+
+### Next Pass: Self-Disclosure
+
+The next highest-value slice should be a self-disclosure boundary/transparency pass. The pass should judge whether responses offer brief therapist transparency in service of the client, then return focus to the client's experience, without becoming reassurance, advice, confession, or alliance repair.
 
 ### Implementation Update: Empathic Affirmation and Validation
 
