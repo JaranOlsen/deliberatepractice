@@ -3948,7 +3948,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-sara_04": {
       "text": "[Lavmælt] Når noen spør hvordan jeg har det, smiler jeg og skifter tema.",
-      "suggestion": "Du trekker deg raskt unna; kan det være at det også finnes en øm lengsel etter å bli valgt, som er vanskelig å vise?"
+      "suggestion": "Du trekker deg raskt unna; jeg lurer på om det også finnes en øm lengsel etter å bli valgt, som kjennes for utsatt å vise."
     },
     "dp_empathic-conjectures_case-sara_05": {
       "text": "[Flau] Når jeg ser par, himler jeg med øynene og sier til meg selv at kjærlighet er oppskrytt.",
@@ -3964,11 +3964,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-sara_08": {
       "text": "[Flau] Jeg har skrevet en unnskyldning til ham tre ganger denne uken, selv om jeg ikke vet hva jeg egentlig gjorde galt.",
-      "suggestion": "Unnskyldningen gir deg noe å gjøre; jeg lurer på om den også prøver å finne en grunn til at du ble forlatt som kjennes mindre hjelpeløs."
+      "suggestion": "Unnskyldningen gir deg noe å gjøre; jeg lurer på om en del av deg prøver å finne en grunn til at du ble forlatt, så det kjennes litt mindre hjelpeløst."
     },
     "dp_empathic-conjectures_case-sara_09": {
       "text": "[På gråten] Nettene er verst; jeg spiller om igjen små øyeblikk til jeg finner noe jeg kunne gjort annerledes.",
-      "suggestion": "Gjennomspillingen leter etter et håndtak; jeg lurer på om skyld gir deg et sted å stå når savnet etter ham kjennes for hjelpeløst."
+      "suggestion": "Gjennomspillingen leter etter et håndtak; jeg lurer på om det å skylde på deg selv gir deg et sted å stå når savnet etter ham kjennes for hjelpeløst."
     },
     "dp_empathic-conjectures_case-sara_10": {
       "text": "[Lavmælt] Når du er snill mot meg, ser jeg ned og vil bytte tema.",
@@ -3976,11 +3976,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-michael_01": {
       "text": "[Fast] Hvis noen stiller spørsmål ved meg i et møte, svarer jeg raskt og høyere enn jeg mente.",
-      "suggestion": "Du kommer sterkt inn før du rekker å tenke; jeg lurer på om spørsmålet lander som å bli satt på prøve og ikke holde mål."
+      "suggestion": "Du kommer sterkt inn før du rekker å tenke; jeg lurer på om spørsmålet lander nesten som å bli satt på prøve og ikke holde mål."
     },
     "dp_empathic-conjectures_case-michael_02": {
       "text": "[Defensiv] Når en kollega retter på meg foran rommet, ler jeg det bort, og så skyter varmen opp i nakken.",
-      "suggestion": "Latteren dekker det raskt; jeg lurer på om varmen bærer et glimt av ydmykelse under sinnet."
+      "suggestion": "Latteren dekker det raskt; jeg lurer på om det finnes et glimt av ydmykelse under sinnet."
     },
     "dp_empathic-conjectures_case-michael_03": {
       "text": "[Anspent] Kona mi sier at jeg er hard, og jeg sier at jeg bare er ærlig.",
@@ -3988,15 +3988,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-michael_04": {
       "text": "[Rasende] Jeg holder tjenester i balanse. Jeg liker ikke å skylde noen noe.",
-      "suggestion": "Du passer nøye på balansen; kan det å skylde noen noe berøre en frykt for å være underlegen eller under andres makt?"
+      "suggestion": "Du passer nøye på balansen; jeg lurer på om det å skylde noen noe kan berøre en frykt for å være underlegen eller under andres makt."
     },
     "dp_empathic-conjectures_case-michael_05": {
       "text": "[Anspent og skamfull] Når jeg må be om unnskyldning, strammer kjeven seg og jeg begynner å forklare hele situasjonen.",
-      "suggestion": "Forklaringen kommer raskt inn; jeg lurer på om selve unnskyldningen berører skam, nesten som å bli beseiret foran dem."
+      "suggestion": "Forklaringen kommer raskt inn; jeg lurer på om selve unnskyldningen kan berøre skam, nesten som å bli beseiret foran dem."
     },
     "dp_empathic-conjectures_case-michael_06": {
       "text": "[Anspent] Jeg tar bare et glass etter jobb fordi kona mi presser på; hvis hun sluttet å mase, hadde jeg ikke trengt det.",
-      "suggestion": "Du legger drikkingen på presset hennes, og jeg lurer på om glasset også beskytter deg mot å kjenne deg anklaget, presset opp i et hjørne eller ikke god nok etter dagen."
+      "suggestion": "Du legger drikkingen på presset hennes; jeg lurer på om glasset også kan holde unna følelsen av å være anklaget, presset opp i et hjørne eller ikke god nok etter dagen."
     },
     "dp_empathic-conjectures_case-michael_07": {
       "text": "[Fast] Jeg leser alles arbeid om igjen før en presentasjon, fordi én feil ville slå tilbake på meg.",
@@ -4008,7 +4008,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-michael_09": {
       "text": "[Anspent] Når noen sier at jeg skal roe meg ned, høres det ut som de kaller meg barnslig.",
-      "suggestion": "Den setningen ser ut til å gjøre deg liten fort; jeg lurer på om sinnet beskytter mot å kjenne seg avfeid og gjort mindre."
+      "suggestion": "Den setningen ser ut til å gjøre deg liten fort; jeg lurer på om sinnet vokter mot å kjenne seg avfeid og gjort liten."
     },
     "dp_empathic-conjectures_case-michael_10": {
       "text": "[Fast] Jeg driver ikke med følelser; jeg spør hva vi skal gjøre med det.",
@@ -4016,11 +4016,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-jason_01": {
       "text": "[Blank] Jeg øver på hver setning før et møte, og så blir hodet likevel blankt når folk vender seg mot meg.",
-      "suggestion": "Du forbereder deg så nøye; jeg lurer på om blankheten beskytter deg mot skammen ved å bli sett og vurdert."
+      "suggestion": "Du forbereder deg så nøye; jeg lurer på om blankheten kan være en måte å komme unna skammen ved å bli sett og vurdert."
     },
     "dp_empathic-conjectures_case-jason_02": {
       "text": "[Nølende] Når jeg blir invitert ut, sier jeg at jeg er opptatt før jeg rekker å kjenne om jeg vil gå.",
-      "suggestion": "«Opptatt»-svaret kommer fort; kanskje beskytter det deg mot risikoen for å bli dømt, oversett eller ikke vite hvordan du hører til."
+      "suggestion": "«Opptatt»-svaret kommer fort; jeg lurer på om det kan beskytte deg mot risikoen for å bli dømt, oversett eller ikke vite hvordan du hører til."
     },
     "dp_empathic-conjectures_case-jason_03": {
       "text": "[Engstelig] Jeg hører en stemme som sier «ikke dum deg ut» før jeg rekker å åpne munnen.",
@@ -4028,7 +4028,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-jason_04": {
       "text": "[Stille] Etter at jeg har snakket, krymper jeg meg i timevis og ser for meg at alle spiller av hvor latterlig jeg hørtes ut.",
-      "suggestion": "Jeg lurer på om krympingen ikke bare er flauhet, men også den gamle frykten for at det å bli hørt betyr å bli ledd av eller avvist."
+      "suggestion": "Jeg lurer på om krympingen ikke bare er flauhet, men også en gammel frykt for at det å bli hørt kan bety å bli ledd av eller avvist."
     },
     "dp_empathic-conjectures_case-jason_05": {
       "text": "[Nølende] Når noen gir meg et kompliment, antar jeg at de bare er høflige og har oversett den kleine delen.",
@@ -4040,15 +4040,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-jason_07": {
       "text": "[Stille] Hvis noen ler i nærheten, antar jeg at det er av meg og spiller om igjen hva jeg gjorde galt.",
-      "suggestion": "Du forbereder deg på latterliggjøring; jeg gjetter at latter berører en sår forventning om at det å være synlig betyr å bli gjort narr av."
+      "suggestion": "Du forbereder deg på latterliggjøring; jeg lurer på om latter kan berøre en sår forventning om at det å være synlig betyr å bli gjort narr av."
     },
     "dp_empathic-conjectures_case-jason_08": {
       "text": "[Engstelig] Jeg skriver en melding, leser den fem ganger og sletter den før jeg sender.",
-      "suggestion": "Du redigerer deg selv ut av kontakt; kan det finnes både et ønske om å nå noen og en frykt for hva som skjer hvis de virkelig ser deg?"
+      "suggestion": "Du redigerer deg selv ut av kontakt; jeg lurer på om det finnes både et ønske om å nå noen og en frykt for hva som skjer hvis de virkelig ser deg."
     },
     "dp_empathic-conjectures_case-jason_09": {
       "text": "[Engstelig] Jeg drikker før arrangementer, for ellers står jeg langs veggen og sjekker mobilen.",
-      "suggestion": "Drikken hjelper deg ut på gulvet; jeg lurer på om den beskytter en redd del som forventer å bli blottstilt eller stå utenfor."
+      "suggestion": "Drikken hjelper deg ut på gulvet; jeg lurer på om den også skjermer en redd del som forventer å bli blottstilt eller stå utenfor."
     },
     "dp_empathic-conjectures_case-jason_10": {
       "text": "[Skamfull] Jeg holder meg stille selv når jeg har en god idé, og så spiller jeg den om igjen hele dagen.",
@@ -4056,11 +4056,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-laura_01": {
       "text": "[Flatt og på vakt] Når noen er vennlige, blir jeg fort mistenksom, som om varme alltid har en hake.",
-      "suggestion": "Du tar avstand fra vennlighet; jeg lurer på om nærhet vekker en gammel frykt for at varme skal bli til fare eller svik."
+      "suggestion": "Du tar avstand fra vennlighet; jeg lurer på om nærhet kan vekke en gammel frykt for at varme skal bli til fare eller svik."
     },
     "dp_empathic-conjectures_case-laura_02": {
       "text": "[Redd] Når stemmer heves, fryser jeg før jeg vet om sinnet i det hele tatt er rettet mot meg.",
-      "suggestion": "Frysingen kommer før fakta; kanskje lærte frykten å bevege seg raskere enn hodet rekker å sortere hva som skjer."
+      "suggestion": "Frysingen kommer før fakta; kanskje en del av deg lærte at frykten måtte bevege seg raskere enn tanken."
     },
     "dp_empathic-conjectures_case-laura_03": {
       "text": "[Langsomt og flatt] En del av meg føler skyld over at jeg virker nummen når folk forventer at jeg skal være takknemlig.",
@@ -4068,7 +4068,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-laura_04": {
       "text": "[Flatt og på vakt] Jeg unngår filmer med familiekrangler fordi lydene følger meg hjem.",
-      "suggestion": "Du styrer unna; kan det være for å unngå å vekke gammel skrekk og skam som ikke blir igjen på skjermen?"
+      "suggestion": "Du styrer unna; jeg lurer på om lyden kan vekke gammel skrekk og skam som ikke blir igjen på skjermen."
     },
     "dp_empathic-conjectures_case-laura_05": {
       "text": "[Langsomt og flatt] Noen ganger stirrer jeg på veggen til rommet blir flatt og ingenting kan nå meg.",
@@ -4076,11 +4076,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-laura_06": {
       "text": "[Anspent og på vakt] En snill mann spurte meg ut, og jeg begynte straks å ramse opp alle grunnene til at han sikkert kom til å såre meg.",
-      "suggestion": "Listen beskytter deg raskt; jeg lurer på om ønsket om nærhet og forventningen om svik kommer nesten samtidig."
+      "suggestion": "Listen kommer fort inn; jeg lurer på om ønsket om nærhet og forventningen om svik kommer nesten samtidig."
     },
     "dp_empathic-conjectures_case-laura_07": {
       "text": "[Skamfull] Når noen tar meg på skulderen, skvetter jeg før jeg rekker å kjenne dem igjen, og så skammer jeg meg.",
-      "suggestion": "Skvetten kommer før gjenkjennelsen; jeg lurer på om berøring har lært å bety fare, og så kommer skammen over å trenge den beskyttelsen."
+      "suggestion": "Skvetten kommer før gjenkjennelsen; jeg lurer på om berøring kan bære fare så raskt, og så kommer skammen over å trenge den beskyttelsen."
     },
     "dp_empathic-conjectures_case-laura_08": {
       "text": "[Fjern] Når folk sier at traumeoverlevere er sterke, får jeg lyst til å gå ut av rommet.",
@@ -4092,7 +4092,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-laura_10": {
       "text": "[Anspent og skamfull] Hvis jeg gråter, unnskylder jeg meg før noen rekker å reagere.",
-      "suggestion": "Unnskyldningen kommer før noen har gjort noe; kanskje har tårer lært å forvente fare, skyld eller omsorg som ikke var trygg."
+      "suggestion": "Unnskyldningen kommer før noen har gjort noe; jeg lurer på om tårer bærer en gammel forventning om fare, skyld eller omsorg som ikke var trygg."
     },
     "dp_empathic-conjectures_case-carlos_01": {
       "text": "[Anspent og sint] En respektløs tone vipper en bryter i meg før jeg vet hva som ble truffet.",
@@ -4100,7 +4100,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-carlos_02": {
       "text": "[Anspent og sint] Hvis jeg gir meg, blir det sittende i brystet i dagevis.",
-      "suggestion": "Det blir værende i deg i dagevis; kanskje berører det å gi seg noe mer enn krangelen, som å kjenne seg liten eller overkjørt."
+      "suggestion": "Det blir værende i deg i dagevis; jeg lurer på om det å gi seg kan berøre noe mer enn krangelen, som å kjenne seg liten eller overkjørt."
     },
     "dp_empathic-conjectures_case-carlos_03": {
       "text": "[Anspent og sint] Når noen forteller meg hva jeg skal gjøre, er første tanke: «Hvem tror du at du er?»",
@@ -4116,19 +4116,19 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-carlos_06": {
       "text": "[Anspent og sint] Jeg blåser meg opp når noen utfordrer meg, før de kan se at det treffer.",
-      "suggestion": "Du tar på rustningen fort; kanskje den dekker over det korte øyeblikket der utfordringen faktisk treffer og får deg til å kjenne deg mindre."
+      "suggestion": "Du tar på rustningen fort; jeg lurer på om den dekker over det korte øyeblikket der utfordringen faktisk treffer og får deg til å kjenne deg mindre."
     },
     "dp_empathic-conjectures_case-carlos_07": {
       "text": "[Skamfull] Jeg knuser ting så jeg ikke skader folk, men etterpå ser jeg at alle fortsatt er redde.",
-      "suggestion": "Du prøver å beskytte dem; jeg gjetter at knusingen holder smerten unna et øyeblikk, og så kommer skammen når du ser frykten."
+      "suggestion": "Du prøver å ikke skade folk; jeg lurer på om det å knuse ting skyver smerten unna et øyeblikk, og så kommer skammen når du ser frykten."
     },
     "dp_empathic-conjectures_case-carlos_08": {
       "text": "[Defensiv] Faren min pleide å si at følelser gjør menn svake, og jeg hører det fortsatt i hodet.",
-      "suggestion": "Den regelen er fortsatt høylytt; jeg lurer på om den beskytter deg mot risikoen ved å kjenne noe ømt, eller bli blottstilt og maktesløs."
+      "suggestion": "Den regelen er fortsatt høylytt; jeg lurer på om den vokter mot risikoen ved å kjenne noe ømt, eller bli blottstilt og maktesløs."
     },
     "dp_empathic-conjectures_case-carlos_09": {
       "text": "[Anspent og sint] Jeg kverner på respektløsheten i dagevis og planlegger hvordan jeg burde vunnet der og da.",
-      "suggestion": "Du prøver fortsatt å vinne det i etterkant; jeg lurer på om gjennomspillingen holder ydmykelsen over å kjenne seg liten akkurat da på avstand."
+      "suggestion": "Du prøver fortsatt å vinne det i etterkant; jeg lurer på om gjennomspillingen hjelper med å holde ydmykelsen over å kjenne seg liten akkurat da på avstand."
     },
     "dp_empathic-conjectures_case-carlos_10": {
       "text": "[Redd] Jeg vil gjøre det bedre for familien min, og så hører jeg meg selv høres ut som mennene jeg hatet.",
@@ -4136,7 +4136,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-nina_01": {
       "text": "[Skyldpreget] Når jeg hviler, føler jeg meg egoistisk, selv når jeg er så trøtt at jeg nesten ikke klarer å stå.",
-      "suggestion": "Hvile vekker skyld; jeg lurer på om en del lærte at kjærlighet var tryggere når du fortsatte å fortjene plassen din."
+      "suggestion": "Hvile vekker skyld; jeg lurer på om en del av deg kom til å kjenne kjærlighet som tryggere når du fortsatte å fortjene plassen din."
     },
     "dp_empathic-conjectures_case-nina_02": {
       "text": "[Unnskyldende] Jeg sier ja, og så blir jeg bitter, men jeg klarer likevel ikke stoppe.",
@@ -4148,11 +4148,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-nina_04": {
       "text": "[Skyldpreget] Hvis huset er rotete når folk stikker innom, begynner jeg å forklare før de sier noe.",
-      "suggestion": "Du forklarer før det engang finnes en anklage; kan rotet berøre skam over å måtte bevise at du er god gjennom å gjøre?"
+      "suggestion": "Du forklarer før det engang finnes en anklage; jeg lurer på om rotet kan berøre skam over å måtte bevise at du er god gjennom å gjøre."
     },
     "dp_empathic-conjectures_case-nina_05": {
       "text": "[Unnskyldende] Hvis noen virker skuffet, begynner jeg å ordne opp før jeg vet hva jeg selv vil.",
-      "suggestion": "Ordningen starter raskt; jeg lurer på om skuffelse treffer en gammel frykt for at kjærlighet blir trukket tilbake."
+      "suggestion": "Ordningen starter raskt; jeg lurer på om skuffelse kan treffe en gammel frykt for at kjærlighet kunne bli trukket tilbake."
     },
     "dp_empathic-conjectures_case-nina_06": {
       "text": "[Splittet] Jeg svelger sinnet fordi det ikke er pent, og så bærer jeg bitterhet stille.",
@@ -4164,7 +4164,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-nina_08": {
       "text": "[Unnskyldende] Jeg prøver å si nei og legger så til tre forklaringer før de svarer.",
-      "suggestion": "Forklaringene skynder seg inn etter nei-et; kan en del av deg prøve å holde aksepten trygg?"
+      "suggestion": "Forklaringene skynder seg inn etter nei-et; jeg lurer på om en del av deg prøver å holde aksepten trygg."
     },
     "dp_empathic-conjectures_case-nina_09": {
       "text": "[Splittet] Jeg sier til meg selv at andre har det verre, og så fortsetter jeg.",
@@ -4176,7 +4176,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-aisha_01": {
       "text": "[Desperat] Hvis du kaster et blikk på klokka, synker magen som om du allerede er på vei bort fra meg.",
-      "suggestion": "Det blikket blir et signal om at du går; jeg lurer på om det vekker en gammel skrekk for å bli sluppet før du rekker å bety noe."
+      "suggestion": "Det blikket blir et signal om at du går; jeg lurer på om det kan vekke en gammel skrekk for å bli sluppet før du får kjenne at du betyr noe."
     },
     "dp_empathic-conjectures_case-aisha_02": {
       "text": "[Rasende] Da han ikke svarte, gikk jeg fra trist til rasende før jeg klarte å innrømme at jeg var redd.",
@@ -4204,27 +4204,27 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-aisha_08": {
       "text": "[Skamfull] Jeg tester folk for å finne ut om de virkelig bryr seg, og så hater jeg hvor trengende det høres ut.",
-      "suggestion": "Du tester og skammer deg etterpå; kan det være at du prøver å bevise at du betyr noe før du våger å stole på?"
+      "suggestion": "Du tester og skammer deg etterpå; jeg lurer på om du prøver å bevise at du betyr noe før du våger å stole på."
     },
     "dp_empathic-conjectures_case-aisha_09": {
       "text": "[Skamfull] Etter at jeg slår ut, kaller jeg meg ekkel før noen andre rekker å si det.",
-      "suggestion": "Angrepet vender raskt innover; jeg lurer på om hardheten prøver å komme avvisning i forkjøpet samtidig som den dekker sorg over å kjenne seg alene."
+      "suggestion": "Angrepet vender raskt innover; jeg lurer på om hardheten kan være et forsøk på å komme avvisning i forkjøpet, samtidig som den dekker sorg over å kjenne seg alene."
     },
     "dp_empathic-conjectures_case-aisha_10": {
       "text": "[Panisk] Jeg får panikk når jeg skal si farvel, selv når jeg vet at du kommer tilbake.",
-      "suggestion": "Farvel utløser panikk selv når hodet vet bedre; kanskje berører det den gamle frykten for at ingen kommer tilbake."
+      "suggestion": "Farvel utløser panikk selv når hodet vet bedre; jeg lurer på om avskjeder berører den gamle frykten for at ingen kommer tilbake."
     },
     "dp_empathic-conjectures_case-david_01": {
       "text": "[Håpløs] Når kona mi kaller meg kald, kommer jeg med en spydig kommentar før hun rekker å se at det såret.",
-      "suggestion": "Kommentaren kommer først; jeg lurer på om den beskytter et stikk av å bli sett som mislykket eller ikke god nok."
+      "suggestion": "Kommentaren kommer først; jeg lurer på om den vokter mot et stikk av å bli sett som mislykket eller ikke god nok."
     },
     "dp_empathic-conjectures_case-david_02": {
       "text": "[Avvisende] Jeg liker ikke å bli fortalt hva jeg skal gjøre; det kjennes som om noen får overtaket.",
-      "suggestion": "Du stritter imot styring; kanskje det lander som å bli gjort liten, håndtert eller avslørt som ute av kontroll."
+      "suggestion": "Du stritter imot styring; jeg lurer på om det kan lande som å bli gjort liten, håndtert eller avslørt som ute av kontroll."
     },
     "dp_empathic-conjectures_case-david_03": {
       "text": "[Avvisende] Hvis jeg ikke kan være best, hvorfor prøve når det å være ordinær kjennes som å forsvinne?",
-      "suggestion": "Du sikter mot toppen; jeg gjetter at det finnes en frykt for at ordinær betyr usynlig, utskiftbar eller uverdig."
+      "suggestion": "Du sikter mot toppen; jeg lurer på om ordinær kan kjennes som usynlig, utskiftbar eller uverdig."
     },
     "dp_empathic-conjectures_case-david_04": {
       "text": "[Fjern] Jeg planlegger store gester og føler meg tom etterpå, som om applausen aldri når den ensomme delen.",
@@ -4232,7 +4232,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-david_05": {
       "text": "[Avvisende] Å be om unnskyldning får meg til å krympe meg, som om alle i rommet ser statusen min falle.",
-      "suggestion": "Det kjennes ydmykende; jeg lurer på om det å innrømme feil treffer den gamle skammen over å bli redusert til mislykket."
+      "suggestion": "Det kjennes ydmykende; jeg lurer på om det å innrømme feil kan treffe en gammel skam over å bli redusert til mislykket."
     },
     "dp_empathic-conjectures_case-david_06": {
       "text": "[Unnvikende] I vanskelige samtaler griper jeg etter telefonen når praten begynner å bli personlig.",
@@ -4256,7 +4256,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-marcus_01": {
       "text": "[Langsomt og flatt] De fleste dager føler jeg meg avstengt, som om ingenting slipper inn med mindre det slår hardt.",
-      "suggestion": "Du kjenner deg avstengt; jeg lurer på om nummenheten beskytter mye smerte fra å slippe inn på én gang."
+      "suggestion": "Du kjenner deg avstengt; jeg lurer på om nummenheten kan holde mye smerte unna, så ikke alt slipper inn på én gang."
     },
     "dp_empathic-conjectures_case-marcus_02": {
       "text": "[Lav stemme] Jeg sover med TV-en på så rommet ikke blir for stille.",
@@ -4268,7 +4268,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-marcus_04": {
       "text": "[Lav stemme] Jeg svarer ikke når søsteren min ringer, fordi stemmen hennes slipper gjennom veggen jeg holder oppe.",
-      "suggestion": "Du holder avstand; kan det være at stemmen hennes slipper gjennom nummenheten og gjør følelsene vanskeligere å håndtere?"
+      "suggestion": "Du holder avstand; jeg lurer på om stemmen hennes slipper gjennom nummenheten og gjør følelsene vanskeligere å håndtere."
     },
     "dp_empathic-conjectures_case-marcus_05": {
       "text": "[Anspent] Høye lyder får meg til å skvette, og så blir jeg sint på meg selv.",
@@ -4284,7 +4284,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-marcus_08": {
       "text": "[Langsomt og flatt] Jeg holder lyset lavt hjemme så ingenting kjennes for skarpt.",
-      "suggestion": "Du holder alt dempet og mykt; kan det være at lys og klarhet føles for avslørende eller for skarpt?"
+      "suggestion": "Du holder alt dempet og mykt; jeg lurer på om lys og klarhet kjennes for avslørende eller for skarpt."
     },
     "dp_empathic-conjectures_case-marcus_09": {
       "text": "[Stille og på vakt] Jeg husker ikke sist jeg lo, og selv det å prøve kjennes falskt.",
@@ -4292,7 +4292,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-conjectures_case-marcus_10": {
       "text": "[Flatt] En del av meg tenker at jeg har det bedre alene, fordi nærhet bare gir folk måter å såre hverandre på.",
-      "suggestion": "Den delen beskytter deg; kanskje den frykter at nærhet betyr å såre noen, bli såret eller miste kontrollen igjen."
+      "suggestion": "Den delen virker beskyttende; jeg lurer på om den frykter at nærhet betyr å såre noen, bli såret eller miste kontrollen igjen."
     },
     "dp_staying-in-contact-intense-affect_case-sara_01": {
       "text": "[På gråten] Det treffer meg som en bølge når jeg ser koppen hans fortsatt stå i skapet, og så klarer jeg ikke slutte å hulke. Jeg blir flau over lyden av det, men det fortsetter å komme.",

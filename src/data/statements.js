@@ -2677,7 +2677,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Softly] When someone asks how I'm doing, I smile and change the subject.",
-        "suggestion": "You move away quickly; could it be there's also a tender longing to be chosen that's hard to show."
+        "suggestion": "You move away quickly; I wonder if there is also a tender longing to be chosen that feels too exposed to show."
       },
       {
         "text": "[Embarrassed] Seeing couples makes me roll my eyes and tell myself love is overrated.",
@@ -2693,11 +2693,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Embarrassed] I drafted an apology to him three times this week, even though I do not know what I did wrong.",
-        "suggestion": "The apology gives you something to do; I wonder if it also tries to find a reason for being left that feels less helpless."
+        "suggestion": "The apology gives you something to do; I wonder if part of you is trying to find a reason for being left that feels less helpless."
       },
       {
         "text": "[Tearful] Nights are the worst; I replay little moments until I find something I could have done differently.",
-        "suggestion": "The replay keeps searching for a handle; I wonder if blame gives you somewhere to stand when missing him feels too helpless."
+        "suggestion": "The replay keeps searching for a handle; I wonder if blaming yourself gives you somewhere to stand when missing him feels too helpless."
       },
       {
         "text": "[Softly] When you're kind, I look down and want to change the topic.",
@@ -2707,11 +2707,11 @@ export const STATEMENT_SETS = {
     "case-michael": [
       {
         "text": "[Firm] If someone questions me in a meeting, I answer fast and louder than I meant to.",
-        "suggestion": "You come in strong before there is time to think; I wonder if the question lands like being put on the spot and found lacking."
+        "suggestion": "You come in strong before there is time to think; I wonder if the question lands almost like being put on the spot and found lacking."
       },
       {
         "text": "[Defensive] When a coworker corrects me in front of the room, I laugh it off and then feel heat shoot up my neck.",
-        "suggestion": "The laugh covers it fast; I wonder if the heat is carrying a flash of humiliation under the anger."
+        "suggestion": "The laugh covers it fast; I wonder if there is a flash of humiliation under the anger."
       },
       {
         "text": "[Tense] My wife says I am harsh, and I tell her I am just being honest.",
@@ -2719,15 +2719,15 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Furious] I keep favors even. I do not like owing anyone.",
-        "suggestion": "You keep the balance carefully; could owing someone touch a fear of being one-down or under their power."
+        "suggestion": "You keep the balance carefully; I wonder if owing someone could touch a fear of being one-down or under their power."
       },
       {
         "text": "[Tense and ashamed] When I have to apologize, my jaw tightens and I start explaining the whole situation.",
-        "suggestion": "The explanation comes in quickly; I wonder if the apology itself touches shame, almost like being defeated in front of them."
+        "suggestion": "The explanation comes in quickly; I wonder if the apology itself might touch shame, almost like being defeated in front of them."
       },
       {
         "text": "[Tense] I only pour a drink after work because my wife keeps pushing; if she would stop nagging, I would not need it.",
-        "suggestion": "You put the drinking on her pushing, and I wonder if the drink also protects you from feeling blamed, cornered, or not good enough after the day."
+        "suggestion": "You put the drinking on her pushing; I wonder if the drink may also keep away feeling blamed, cornered, or not good enough after the day."
       },
       {
         "text": "[Firm] I reread everyone's work before a presentation because one mistake would come back on me.",
@@ -2739,7 +2739,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] When someone tells me to calm down, it sounds like they are calling me childish.",
-        "suggestion": "That phrase seems to shrink you quickly; I wonder if the anger protects against feeling dismissed and made small."
+        "suggestion": "That phrase seems to shrink you quickly; I wonder if the anger is guarding against feeling dismissed and made small."
       },
       {
         "text": "[Firm] I do not do feelings; I ask what we are going to do about it.",
@@ -2749,11 +2749,11 @@ export const STATEMENT_SETS = {
     "case-jason": [
       {
         "text": "[Blank] I rehearse every sentence before a meeting, and then my mind still blanks when people turn toward me.",
-        "suggestion": "You prepare so carefully; I wonder if the blankness is protecting you from the shame of being seen and evaluated."
+        "suggestion": "You prepare so carefully; I wonder if the blankness may be a way of getting away from the shame of being seen and evaluated."
       },
       {
         "text": "[Hesitant] When I get invited out, I say I am busy before I can find out whether I want to go.",
-        "suggestion": "The 'busy' answer comes in fast; maybe it protects you from the risk of being judged, ignored, or not knowing how to belong."
+        "suggestion": "The 'busy' answer comes in fast; I wonder if it may protect you from the risk of being judged, ignored, or not knowing how to belong."
       },
       {
         "text": "[Anxious] I hear a voice saying 'don't embarrass yourself' before I even open my mouth.",
@@ -2761,7 +2761,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quietly] After I speak, I cringe for hours and imagine everyone replaying how ridiculous I sounded.",
-        "suggestion": "I wonder if the cringe is not only embarrassment, but that old fear that being heard means being laughed at or rejected."
+        "suggestion": "I wonder if the cringe is not only embarrassment, but also an old fear that being heard might mean being laughed at or rejected."
       },
       {
         "text": "[Hesitant] When someone compliments me, I assume they are being polite and missed the awkward part.",
@@ -2773,15 +2773,15 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quietly] If someone laughs nearby, I assume it is about me and replay what I did wrong.",
-        "suggestion": "You brace for ridicule; I guess laughter touches a raw expectation that being visible means being mocked."
+        "suggestion": "You brace for ridicule; I wonder if laughter might touch a raw expectation that being visible means being mocked."
       },
       {
         "text": "[Anxious] I type a text, read it five times, and delete it before sending.",
-        "suggestion": "You edit yourself right out of contact; could there be both a wish to reach someone and a fear of what happens if they really see you."
+        "suggestion": "You edit yourself right out of contact; I wonder if there is both a wish to reach someone and a fear of what happens if they really see you."
       },
       {
         "text": "[Anxious] I drink before events because otherwise I stand by the wall checking my phone.",
-        "suggestion": "The drink helps you cross the room; I wonder if it protects a scared part that expects to be exposed or left outside."
+        "suggestion": "The drink helps you cross the room; I wonder if it also shields a scared part that expects to be exposed or left outside."
       },
       {
         "text": "[Ashamed] I stay quiet even when I have a good idea, and then replay it all day.",
@@ -2791,11 +2791,11 @@ export const STATEMENT_SETS = {
     "case-laura": [
       {
         "text": "[Flat and guarded] When someone is kind, I get suspicious fast, like warmth always has a catch.",
-        "suggestion": "You distance from kindness; I wonder if closeness stirs an old fear that warmth will turn into danger or betrayal."
+        "suggestion": "You distance from kindness; I wonder if closeness can stir an old fear that warmth will turn into danger or betrayal."
       },
       {
         "text": "[Fearful] When voices rise, I freeze before I know whether the anger is even aimed at me.",
-        "suggestion": "The freeze arrives before the facts; maybe fear learned to move faster than your mind can sort out what is happening."
+        "suggestion": "The freeze arrives before the facts; maybe some part of you learned that fear had to move faster than thought."
       },
       {
         "text": "[Slow and flat] Part of me feels guilty that I seem numb when people expect me to be grateful.",
@@ -2803,19 +2803,19 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Flat and guarded] I avoid movies with family fights because the sound follows me home.",
-        "suggestion": "You steer clear; could it be to avoid waking old terror and shame that do not stay on the screen."
+        "suggestion": "You steer clear; I wonder if the sound might wake old terror and shame that do not stay on the screen."
       },
       {
         "text": "[Slow and flat] Sometimes I stare at the wall until the room goes flat and nothing can reach me.",
-        "suggestion": "The flatness seems protective; I wonder if it keeps you away from the ache that would come if the room felt real."
+        "suggestion": "The flatness seems protective; I wonder if it keeps you away from the ache that might come if the room felt real."
       },
       {
         "text": "[Tense and guarded] A kind man asked me out, and I immediately listed every reason he would probably hurt me.",
-        "suggestion": "The list protects you fast; I wonder if wanting closeness and expecting betrayal arrive almost together."
+        "suggestion": "The list comes in fast; I wonder if wanting closeness and expecting betrayal arrive almost together."
       },
       {
         "text": "[Ashamed] When someone touches my shoulder, I flinch before I know them, then feel ashamed.",
-        "suggestion": "The flinch comes before recognition; I guess touch learned to mean danger, and then shame comes for needing that protection."
+        "suggestion": "The flinch comes before recognition; I wonder if touch may carry danger so quickly, and then shame comes for needing that protection."
       },
       {
         "text": "[Distant] When people say trauma survivors are strong, I want to leave the room.",
@@ -2827,7 +2827,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and ashamed] If I cry, I apologize before anyone even reacts.",
-        "suggestion": "The apology comes before anyone has done anything; maybe tears learned to expect danger, blame, or care that was not safe."
+        "suggestion": "The apology comes before anyone has done anything; I wonder if tears carry an old expectation of danger, blame, or care that was not safe."
       }
     ],
     "case-carlos": [
@@ -2837,7 +2837,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and angry] If I back down, it sits in my chest for days.",
-        "suggestion": "It stays with you for days; maybe backing down touches something more than the argument, like feeling small or taken over."
+        "suggestion": "It stays with you for days; I wonder if backing down might touch something more than the argument, like feeling small or taken over."
       },
       {
         "text": "[Tense and angry] When someone tells me what to do, my first thought is, 'Who do you think you are?'",
@@ -2853,19 +2853,19 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and angry] I puff up when someone challenges me, before they can see it lands.",
-        "suggestion": "You armor up fast; maybe it covers the split second where the challenge actually lands and makes you feel less-than."
+        "suggestion": "You armor up fast; I wonder if it covers that split second where the challenge actually lands and makes you feel less-than."
       },
       {
         "text": "[Ashamed] I break things so I do not hit people, but afterward I can see everyone is still scared.",
-        "suggestion": "You are trying to protect them; I guess the breaking blocks hurt for a moment, then leaves shame when you see the fear."
+        "suggestion": "You are trying not to hit people; I wonder if breaking things pushes hurt away for a moment, then leaves shame when you see the fear."
       },
       {
         "text": "[Defensive] My father used to say feelings make men weak, and I still hear that in my head.",
-        "suggestion": "That rule is still loud; I wonder if it protects you from the risk of feeling tender, exposed, or powerless."
+        "suggestion": "That rule is still loud; I wonder if it is guarding against the risk of feeling tender, exposed, or powerless."
       },
       {
         "text": "[Tense and angry] I replay disrespect for days, planning how I should have won it in the moment.",
-        "suggestion": "You keep trying to win it afterward; I wonder if the replay holds back the humiliation of feeling small right then."
+        "suggestion": "You keep trying to win it afterward; I wonder if the replay helps hold back the humiliation of feeling small right then."
       },
       {
         "text": "[Fearful] I want to do better for my family, and then I hear myself sounding like the men I hated.",
@@ -2875,7 +2875,7 @@ export const STATEMENT_SETS = {
     "case-nina": [
       {
         "text": "[Guilty] Resting makes me feel selfish, even when I am so tired I can barely stand.",
-        "suggestion": "Rest stirs guilt; I wonder if a part learned love was safer when you kept earning your place."
+        "suggestion": "Rest stirs guilt; I wonder if part of you came to feel that love was safer when you kept earning your place."
       },
       {
         "text": "[Apologetic] I say yes and then resent it, but I still cannot stop.",
@@ -2887,11 +2887,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Guilty] If the house is messy when people stop by, I start explaining before they say anything.",
-        "suggestion": "You explain before there is even a charge; could the mess touch shame about having to prove you are good through doing."
+        "suggestion": "You explain before there is even a charge; I wonder if the mess might touch shame about having to prove you are good through doing."
       },
       {
         "text": "[Apologetic] If someone seems disappointed, I start fixing things before I know what I want.",
-        "suggestion": "The fixing comes in fast; I wonder if disappointment touches an old fear that love will be withdrawn."
+        "suggestion": "The fixing comes in fast; I wonder if disappointment might touch an old fear that love could be withdrawn."
       },
       {
         "text": "[Torn] I swallow my anger because it is not nice, and then I resent everyone quietly.",
@@ -2903,7 +2903,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Apologetic] I try to say no and then add three explanations before they answer.",
-        "suggestion": "The explanations rush in after the no; could a part of you be trying to keep acceptance safe."
+        "suggestion": "The explanations rush in after the no; I wonder if a part of you is trying to keep acceptance safe."
       },
       {
         "text": "[Torn] I tell myself others have it worse, and then I keep going.",
@@ -2917,7 +2917,7 @@ export const STATEMENT_SETS = {
     "case-aisha": [
       {
         "text": "[Desperate] If you glance at the clock, my stomach drops like you are already leaving me.",
-        "suggestion": "That glance becomes a leaving signal; I wonder if it wakes an old terror of being dropped before you can matter."
+        "suggestion": "That glance becomes a leaving signal; I wonder if it might wake an old terror of being dropped before you can feel you matter."
       },
       {
         "text": "[Furious] When he did not text back, I went from sad to furious before I could admit I was scared.",
@@ -2925,7 +2925,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Numb] Sometimes I want to scratch my arms just to cut through the numbness.",
-        "suggestion": "You want a way through the numbness; I guess there is unbearable emptiness underneath."
+        "suggestion": "You want a way through the numbness; I wonder if there is unbearable emptiness underneath."
       },
       {
         "text": "[Desperate] I scared everyone last week saying I might kill myself, but he texted today, so it is fine and maybe I do not need to talk about it.",
@@ -2945,29 +2945,29 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] I test people to find out if they really care, then hate how needy it sounds.",
-        "suggestion": "You test and then feel ashamed; could it be you are trying to prove you matter before risking trust."
+        "suggestion": "You test and then feel ashamed; I wonder if you are trying to prove you matter before risking trust."
       },
       {
         "text": "[Ashamed] After I lash out, I call myself disgusting before anyone else can say it.",
-        "suggestion": "The attack turns inward quickly; I wonder if the harshness tries to get ahead of rejection while covering grief about feeling alone."
+        "suggestion": "The attack turns inward quickly; I wonder if the harshness may be trying to get ahead of rejection while covering grief about feeling alone."
       },
       {
         "text": "[Panicked] I panic when I say goodbye, even when I know you'll be back.",
-        "suggestion": "Goodbyes spike panic even when your mind knows better; maybe it touches that old fear that no one comes back."
+        "suggestion": "Goodbyes spike panic even when your mind knows better; I wonder if they touch that old fear that no one comes back."
       }
     ],
     "case-david": [
       {
         "text": "[Hopeless] When my wife calls me cold, I make a cutting joke before she can see it hurt.",
-        "suggestion": "The joke gets there first; I wonder if it protects a sting of being seen as failing or not enough."
+        "suggestion": "The joke gets there first; I wonder if it guards against a sting of being seen as failing or not enough."
       },
       {
         "text": "[Dismissive] I do not like being told what to do; it makes me feel like someone has the upper hand.",
-        "suggestion": "You resist direction; maybe it lands like being made small, managed, or exposed as not in control."
+        "suggestion": "You resist direction; I wonder if it may land like being made small, managed, or exposed as not in control."
       },
       {
         "text": "[Dismissive] If I cannot be the best, why try when ordinary feels like disappearing.",
-        "suggestion": "You aim for the top; I guess there is fear that ordinary means invisible, replaceable, or unworthy."
+        "suggestion": "You aim for the top; I wonder if ordinary can feel like invisible, replaceable, or unworthy."
       },
       {
         "text": "[Distant] I plan big gestures and feel empty afterward, like the applause never reaches the lonely part.",
@@ -2975,7 +2975,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Dismissive] Apologizing makes me cringe, like everyone in the room can watch my status drop.",
-        "suggestion": "It feels humiliating; I wonder if admitting wrong touches the old shame of being reduced to failure."
+        "suggestion": "It feels humiliating; I wonder if admitting wrong might touch an old shame of being reduced to failure."
       },
       {
         "text": "[Avoidant] In hard talks, I reach for my phone when the conversation starts to get personal.",
@@ -3001,7 +3001,7 @@ export const STATEMENT_SETS = {
     "case-marcus": [
       {
         "text": "[Slow and flat] Most days I feel shut down, like nothing gets through unless it hits hard.",
-        "suggestion": "You feel sealed off; I wonder if numbness is protecting a lot of pain from getting through all at once."
+        "suggestion": "You feel sealed off; I wonder if numbness may be keeping a lot of pain from getting through all at once."
       },
       {
         "text": "[Low voice] I sleep with the TV on so the room does not get too quiet.",
@@ -3013,7 +3013,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Low voice] I do not answer when my sister calls because her voice gets through the wall I keep up.",
-        "suggestion": "You keep distance; could it be her voice gets through the numbness and makes feelings harder to manage."
+        "suggestion": "You keep distance; I wonder if her voice gets through the numbness and makes feelings harder to manage."
       },
       {
         "text": "[Tense] Loud noises make me jump and then I get angry at myself.",
@@ -3029,7 +3029,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Slow and flat] I keep the lights low at home so nothing feels too sharp.",
-        "suggestion": "You keep things dim and softened; could it be brightness feels too exposing or too sharp."
+        "suggestion": "You keep things dim and softened; I wonder if brightness feels too exposing or too sharp."
       },
       {
         "text": "[Quiet and guarded] I do not remember the last time I laughed, and even trying feels fake.",
@@ -3037,7 +3037,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Flat] Part of me thinks I am better off alone because closeness just gives people ways to hurt each other.",
-        "suggestion": "That part protects you; maybe it fears that closeness means hurting someone, being hurt, or losing control again."
+        "suggestion": "That part seems protective; I wonder if it fears that closeness means hurting someone, being hurt, or losing control again."
       }
     ]
   },
