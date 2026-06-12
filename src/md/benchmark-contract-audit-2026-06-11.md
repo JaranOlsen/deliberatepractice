@@ -53,7 +53,7 @@ Automated averages are triage only, not quality scores. They still reveal places
 | Empathic Explorations | 17.0 | 26.2 | 18.2 | 30.3 | Needs periodic boundary checks against conjecture and intense-affect work. |
 | Empathic Evocations | 13.8 | 23.1 | 17.8 | 20.3 | Improved after rewrite; monitor marker flatness. |
 | Empathic Conjectures | 16.8 | 21.5 | 20.1 | 21.8 | Structurally close. |
-| Staying in Contact with Intense Affect | 17.4 | 35.3 | 28.0 | 22.6 | Markers may be too compressed for high-intensity contact practice. |
+| Staying in Contact with Intense Affect | 23.9 | 35.3 | 28.2 | 22.6 | First enrichment pass complete; still the largest remaining marker-affordance gap. |
 | Self-Disclosure | 14.8 | 18.4 | 30.7 | 27.6 | Structurally close; targeted boundary examples only. |
 | Marker Recognition and Chair Work | 35.4 | 37.5 | 48.4 | 84.3 | Now close on marker training affordance; suggestions remain shorter but task-focused. |
 | Alliance Repair | 34.2 | 35.0 | 44.9 | 104.8 | Now close on marker training affordance; suggestions remain intentionally briefer than Goldman scripts. |
@@ -62,7 +62,7 @@ Automated averages are triage only, not quality scores. They still reveal places
 
 | Rank | Skill | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Staying in Contact with Intense Affect | Clinically useful and validation-clean, but markers are shorter than Goldman and can become grounding scripts. Needs enough affective pressure for the trainee to practice staying emotionally present, not only regulating. | Targeted high-risk and high-intensity pass. Preserve contact-first stance. |
+| 1 | Staying in Contact with Intense Affect | First pass improved the shortest markers, but the set is still compressed compared with Goldman and still risks becoming grounding scripts rather than contact with live affect. | Continue targeted high-risk and high-intensity passes. Preserve contact-first stance. |
 | 2 | Marker Recognition and Chair Work | Now close on marker training affordance after expansion and residual passes. Remaining work should judge whether suggestions model enough setup, consent, chair placement, and first enactment, not mechanically lengthen markers. | Regression and suggestion-sequence scan after intense-affect. |
 | 3 | Alliance Repair | Now close on marker length and coverage after three enrichment passes. Residual work should judge rupture process quality, not mechanically lengthen items. | Regression and high-risk rupture scan after intense-affect. |
 | 4 | Empathic Affirmation and Validation | Strong overall, but benchmark breadth is broader than shame and self-attack. Some moderate variants should include ordinary fear, grief, guilt, conflicted positive feeling, and culturally loaded legitimacy. | Targeted moderate-tier breadth pass. |
@@ -105,7 +105,24 @@ The section is no longer the clearest structural mismatch. It still deserves lat
 
 ### Next Pass: Staying in Contact with Intense Affect
 
-The next content pass should focus on Staying in Contact with Intense Affect.
+The next content pass should continue Staying in Contact with Intense Affect.
+
+### Implementation Update: Staying in Contact with Intense Affect
+
+The first intense-affect enrichment pass has now been completed for 27 compressed markers.
+
+Current intense-affect metrics after the first pass:
+
+- 90 total items preserved.
+- Average client marker length increased from 17.4 to 23.9 words.
+- Average suggested response length is now 28.2 words.
+- Minimum marker length increased from 12 to 14 words.
+- Markers below 20 words decreased from 67 to 40.
+- Markers containing at least 30 words increased from 1 to 28.
+- Every edited English item has a matching Bokmal localization.
+- The edited items now give trainees more live affective pressure to stay with: sobbing, panic, shame exposure, anger escalation, collapse, dissociation risk, and protective exit pulls.
+
+This section should remain the next priority. The next pass should target remaining short markers and high-risk material where the response still reads more like a regulation script than empathic contact with intense affect.
 
 ### Implementation Update: Alliance Repair
 

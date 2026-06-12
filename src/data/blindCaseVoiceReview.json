@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T07:00:01.608Z",
+  "generatedAt": "2026-06-12T08:40:19.855Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -890,11 +890,11 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Tearful] I cannot look at you when I cry; it feels too exposed.",
+            "statement": "[Tearful] I cannot look at you when I cry; it feels too exposed. If I see pity or even kindness on your face, I think I will lose the small bit of control I have left.",
             "response": "You can look away and still not be alone. I will stay present while the exposed feeling has only a little room."
           },
           "no": {
-            "statement": "[På gråten] Jeg klarer ikke se på deg når jeg gråter; det føles altfor blottlagt.",
+            "statement": "[På gråten] Jeg klarer ikke se på deg når jeg gråter; det føles altfor blottlagt. Hvis jeg ser medlidenhet eller bare varme i ansiktet ditt, tror jeg at jeg mister den lille kontrollen jeg har igjen.",
             "response": "Du kan se bort og likevel ikke være alene. Jeg blir nærværende mens den blottstilte følelsen får bare litt rom."
           }
         },
@@ -903,11 +903,11 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Torn] I cannot catch my breath when I stop taking care of everyone.",
+            "statement": "[Torn] I cannot catch my breath when I stop taking care of everyone. The second I sit down, I feel the whole house leaning toward me, like if I breathe for myself someone else will fall.",
             "response": "For this second, no one else gets assigned to you. Let the chair take your back, lengthen one out-breath, and give your own breath the room usually taken by everyone else."
           },
           "no": {
-            "statement": "[Splittet] Jeg får ikke tak i pusten når jeg slutter å ta vare på alle.",
+            "statement": "[Splittet] Jeg får ikke tak i pusten når jeg slutter å ta vare på alle. I det sekundet jeg setter meg ned, kjenner jeg hele huset lene seg mot meg, som om noen andre faller hvis jeg puster for meg selv.",
             "response": "I dette sekundet skal ingen andres behov legges på deg. La stolen bære ryggen din, forleng ett utpust, og gi din egen pust rommet som vanligvis går til alle andre."
           }
         }
@@ -939,11 +939,11 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Firm] My jaw locks and heat blasts up my neck when someone questions me.",
+            "statement": "[Firm] My jaw locks and heat blasts up my neck when someone questions me, even here. It is like my body hears disrespect before my head knows what was said.",
             "response": "The heat comes fast when you feel questioned. I will stay steady with you while we keep the anger in words and listen for the sting under it."
           },
           "no": {
-            "statement": "[Fast] Kjeven låser seg og varmen skyter opp i nakken når noen stiller spørsmål ved meg.",
+            "statement": "[Fast] Kjeven låser seg og varmen skyter opp i nakken når noen stiller spørsmål ved meg, også her. Det er som om kroppen hører respektløshet før hodet mitt vet hva som ble sagt.",
             "response": "Varmen kommer fort når du føler deg stilt spørsmål ved. Jeg holder meg stødig med deg mens vi lar sinnet være i ord og lytter etter stikket under det."
           }
         }

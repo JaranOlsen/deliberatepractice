@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T07:00:01.608Z",
+  "generatedAt": "2026-06-12T08:40:19.855Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -394,11 +394,11 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Torn] I cannot catch my breath when I stop taking care of everyone.",
+            "statement": "[Torn] I cannot catch my breath when I stop taking care of everyone. The second I sit down, I feel the whole house leaning toward me, like if I breathe for myself someone else will fall.",
             "response": "For this second, no one else gets assigned to you. Let the chair take your back, lengthen one out-breath, and give your own breath the room usually taken by everyone else."
           },
           "no": {
-            "statement": "[Splittet] Jeg får ikke tak i pusten når jeg slutter å ta vare på alle.",
+            "statement": "[Splittet] Jeg får ikke tak i pusten når jeg slutter å ta vare på alle. I det sekundet jeg setter meg ned, kjenner jeg hele huset lene seg mot meg, som om noen andre faller hvis jeg puster for meg selv.",
             "response": "I dette sekundet skal ingen andres behov legges på deg. La stolen bære ryggen din, forleng ett utpust, og gi din egen pust rommet som vanligvis går til alle andre."
           }
         },

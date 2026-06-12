@@ -4295,7 +4295,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Den delen beskytter deg; kanskje den frykter at nærhet betyr å såre noen, bli såret eller miste kontrollen igjen."
     },
     "dp_staying-in-contact-intense-affect_case-sara_01": {
-      "text": "[På gråten] Det treffer meg som en bølge og jeg klarer ikke slutte å hulke.",
+      "text": "[På gråten] Det treffer meg som en bølge når jeg ser koppen hans fortsatt stå i skapet, og så klarer jeg ikke slutte å hulke. Jeg blir flau over lyden av det, men det fortsetter å komme.",
       "suggestion": "Jeg er her sammen med deg mens gråten kommer. Vi trenger verken stoppe den eller drukne i den; vi kan bli ved denne ene bølgen sammen."
     },
     "dp_staying-in-contact-intense-affect_case-sara_02": {
@@ -4303,7 +4303,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Savnet av ham gjør vondt rett gjennom brystet. Jeg blir nær deg mens vi slipper inn bare så mye av smerten som du tåler."
     },
     "dp_staying-in-contact-intense-affect_case-sara_03": {
-      "text": "[På gråten] Jeg får lyst til å løpe når sorgen starter, fordi den kjennes endeløs.",
+      "text": "[På gråten] Jeg får lyst til å løpe når sorgen starter, fordi den kjennes endeløs. Hvis jeg slipper fram ett hulk, er jeg redd hele natten åpner seg og at jeg ikke finner kanten av den igjen.",
       "suggestion": "Sorgen kjennes endeløs, og en del av deg vil bort. Jeg blir hos deg ved kanten av den, så du verken må løpe eller gå under."
     },
     "dp_staying-in-contact-intense-affect_case-sara_04": {
@@ -4315,7 +4315,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Den tomheten høres skremmende øde ut. Jeg er her sammen med deg i den; vi kan sette ord på bare én del av helgeveggen uten å be deg løse hele framtiden."
     },
     "dp_staying-in-contact-intense-affect_case-sara_06": {
-      "text": "[Flau] Jeg føler meg dum som gråter så mye, men jeg klarer ikke stoppe.",
+      "text": "[Flau] Jeg føler meg dum som gråter så mye, men jeg klarer ikke stoppe. Jeg hører meg selv lage disse våte, knekte lydene, og en del av meg vil si unnskyld mens en annen del bare fortsetter å briste.",
       "suggestion": "Tårene får lov til å være her. La skuldrene slippe litt, og legg merke til at jeg fortsatt er til stede mens gråten beveger seg i små deler."
     },
     "dp_staying-in-contact-intense-affect_case-sara_07": {
@@ -4327,7 +4327,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Den kjærligheten kom med så mye kraft at den nesten tok pusten fra deg. Jeg kan bli hos deg mens den er varm, vond og stor på samme tid."
     },
     "dp_staying-in-contact-intense-affect_case-sara_09": {
-      "text": "[På gråten] Jeg klarer ikke se på deg når jeg gråter; det føles altfor blottlagt.",
+      "text": "[På gråten] Jeg klarer ikke se på deg når jeg gråter; det føles altfor blottlagt. Hvis jeg ser medlidenhet eller bare varme i ansiktet ditt, tror jeg at jeg mister den lille kontrollen jeg har igjen.",
       "suggestion": "Du kan se bort og likevel ikke være alene. Jeg blir nærværende mens den blottstilte følelsen får bare litt rom."
     },
     "dp_staying-in-contact-intense-affect_case-sara_10": {
@@ -4335,7 +4335,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Vi kan gi gråten en tydelig ramme. Én liten bølge, og så kommer vi tilbake til stolen, gulvet og denne timen, så den ikke blir hele natten."
     },
     "dp_staying-in-contact-intense-affect_case-michael_01": {
-      "text": "[Fast] Kjeven låser seg og varmen skyter opp i nakken når noen stiller spørsmål ved meg.",
+      "text": "[Fast] Kjeven låser seg og varmen skyter opp i nakken når noen stiller spørsmål ved meg, også her. Det er som om kroppen hører respektløshet før hodet mitt vet hva som ble sagt.",
       "suggestion": "Varmen kommer fort når du føler deg stilt spørsmål ved. Jeg holder meg stødig med deg mens vi lar sinnet være i ord og lytter etter stikket under det."
     },
     "dp_staying-in-contact-intense-affect_case-michael_02": {
@@ -4343,7 +4343,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Det er en vond blanding: skyld, alarm og ønsket om at reparasjonen skal skje raskt. La hendene hvile åpne på lårene, så vi kan se på det som skjedde uten å angripe deg eller bagatellisere frykten hans."
     },
     "dp_staying-in-contact-intense-affect_case-michael_03": {
-      "text": "[Anspent] Ydmykelsen brenner når jeg spiller det av igjen; jeg vil viske ut hele scenen.",
+      "text": "[Anspent] Ydmykelsen brenner når jeg spiller av møtet der jeg snublet i ordene. Ansiktet blir varmt igjen, og jeg vil viske ut hele scenen før noen kan se hvor mye det traff meg.",
       "suggestion": "Ydmykelsen brenner, og trangen til å viske det ut er sterk. Bli med meg ved kanten av den brenningen, så den kan kjennes uten å ta over."
     },
     "dp_staying-in-contact-intense-affect_case-michael_04": {
@@ -4351,7 +4351,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Du fanget det før det ble handling. Jeg er her med deg i det ladede sekundet, så skarpheten kan få ord i stedet for å bli avfyrt."
     },
     "dp_staying-in-contact-intense-affect_case-michael_05": {
-      "text": "[Skjelvende] Hendene mine skjelver, og jeg hører nesten faren min kalle det svakt.",
+      "text": "[Skjelvende] Hendene mine skjelver, og jeg hører nesten faren min kalle det svakt. Jo mer jeg prøver å stoppe dem, jo mer skamfull blir jeg, som om svakheten ligger rett foran deg.",
       "suggestion": "Skjelvingen trenger ikke bekjempes. Plant begge føtter, se deg rundt i dette rommet, og gi varmen og skammen bare en smal stripe med oppmerksomhet."
     },
     "dp_staying-in-contact-intense-affect_case-michael_06": {
@@ -4367,24 +4367,24 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Bra, fang det der. Senk volumet til halvparten, kjenn gulvet under skoene, og la såretheten få språk uten at varmen tar over rommet."
     },
     "dp_staying-in-contact-intense-affect_case-michael_09": {
-      "text": "[Redd] Hvis jeg ikke eksploderer, føles det som om jeg forsvinner.",
-      "suggestion": "Begge delene betyr noe: eksplosjonen og frykten for å forsvinne. Åpne hendene, kjenn stolen, og la meg hjelpe deg å holde den splittelsen uten å handle den ut."
+      "text": "[Redd] Hvis jeg ikke eksploderer, føles det som om jeg forsvinner. I krangelen med kona mi, i det sekundet jeg senker stemmen, kjenner jeg meg mindre og mindre til det ikke er noe igjen av meg.",
+      "suggestion": "Begge delene betyr noe: eksplosjonen og frykten for å forsvinne. Åpne hendene, kjenn stolen, og la meg hjelpe deg å holde den splittelsen uten å la den styre handlingene dine."
     },
     "dp_staying-in-contact-intense-affect_case-michael_10": {
       "text": "[Fast] Jeg stoler ikke på meg selv når varmen begynner å lete etter noen å straffe.",
       "suggestion": "Takk for at du sier det før du handler. Hender åpne, føtter plantet; vi behandler varmen som et signal om noe såret, ikke som en ordre om å finne et mål."
     },
     "dp_staying-in-contact-intense-affect_case-jason_01": {
-      "text": "[Stille] Alt blir uklart og hjertet hamrer, som om alle kan se at jeg ikke får det til.",
+      "text": "[Stille] Alt blir uklart og hjertet hamrer, som om alle kan se at jeg ikke får det til. Jeg hører deg fortsatt, men ordene flyter sammen og jeg begynner å prøve å se normal ut i stedet for å lytte.",
       "suggestion": "Jeg er her med deg i uklarheten. Panikken kan være synlig uten at du må prestere en normal setning."
     },
     "dp_staying-in-contact-intense-affect_case-jason_02": {
-      "text": "[Skjelvende] Hendene mine skjelver og jeg vil forsvinne før noen merker det.",
+      "text": "[Skjelvende] Hendene mine skjelver og jeg vil forsvinne før noen merker det. Det er den samme følelsen som å reise seg i klassen: Alle kan se skjelvingen før jeg får laget én setning.",
       "suggestion": "Skjelvingen og ønsket om å forsvinne er begge her. Jeg blir hos deg mens de vises, uten å få deg til å skjule dem."
     },
     "dp_staying-in-contact-intense-affect_case-jason_03": {
-      "text": "[Panisk] Jeg blir kvalm av å snakke om dette, som om jeg kan forsvinne av skam.",
-      "suggestion": "Ok. Hvis det hjelper å se på meg, bruker du det; hvis ikke, velg et punkt i rommet. Kjenn føttene, sett kort ord på kvalmen og skammen, og trekk deg så litt tilbake."
+      "text": "[Panisk] Jeg blir kvalm av å snakke om festen, som om jeg kan forsvinne av skam. Bare det å si at jeg sto alene ved kjøkkenet får rommet til å vippe og ansiktet til å brenne.",
+      "suggestion": "Kvalmen og skammen er allerede veldig til stede. Finn ett punkt i rommet med blikket, kjenn føttene, og så setter vi bare ord på den lille delen om å stå alene før vi trekker oss litt tilbake."
     },
     "dp_staying-in-contact-intense-affect_case-jason_04": {
       "text": "[Stille] Rommet kjennes som om det krymper rundt meg, og jeg finner ikke en normal setning.",
@@ -4399,11 +4399,11 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Skammen er så varm at det kjennes tryggere å gjemme seg. Jeg blir hos deg mens ansiktet brenner og du blir her, sett bare så mye som du tåler."
     },
     "dp_staying-in-contact-intense-affect_case-jason_07": {
-      "text": "[Stille] Jeg klarer ikke se deg i øynene nå; ansiktet mitt brenner.",
+      "text": "[Stille] Jeg klarer ikke se deg i øynene nå; ansiktet mitt brenner. Hvis jeg ser opp og merker at du ser på meg, tror jeg brenningen tar over og at jeg slutter å få fram ord.",
       "suggestion": "Du trenger ikke ha øyekontakt for å være i kontakt. Jeg er fortsatt med deg mens brenningen får litt rom."
     },
     "dp_staying-in-contact-intense-affect_case-jason_08": {
-      "text": "[Nølende] Det ringer i ørene og jeg føler meg fanget, som om alle ser på meg.",
+      "text": "[Nølende] Det ringer i ørene og jeg føler meg fanget, som om alle ser på meg. Jeg vet at vi bare er i dette rommet, men det føles som om hele seminaret stirrer på meg igjen.",
       "suggestion": "Fanget-følelsen er her. Lytt etter to lyder ved siden av ringingen, og la følelsen av å bli sett ta bare litt plass mens pusten synker lavere."
     },
     "dp_staying-in-contact-intense-affect_case-jason_09": {
@@ -4411,7 +4411,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Det å bli husket berører noe stort, og så begynner behovet å kjennes farlig. Jeg blir hos både lettelsen og panikken uten å gjøre noen av dem feil."
     },
     "dp_staying-in-contact-intense-affect_case-jason_10": {
-      "text": "[Redd] Jeg tror jeg bør gå før du merker hvor mye panikk jeg har.",
+      "text": "[Redd] Jeg tror jeg bør gå før du merker hvor mye panikk jeg har. Jeg ser stadig mot døren og planlegger raskeste vei ut, selv om en annen del av meg vil at du skal hjelpe meg å bli.",
       "suggestion": "Vi senker signalet om å gå. Se mot døren, så tilbake til stolen; panikken får ha en plass her uten å bestemme for deg."
     },
     "dp_staying-in-contact-intense-affect_case-laura_01": {
@@ -4443,7 +4443,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Lån stødighet av meg et øyeblikk: se på pusten min, følg tempoet mitt, og kjenn stolen under deg. Hold dette veldig lite."
     },
     "dp_staying-in-contact-intense-affect_case-laura_08": {
-      "text": "[Fjern] Jeg blir svimmel og langt borte, som om rommet glir bakover.",
+      "text": "[Fjern] Jeg blir svimmel og langt borte, som om rommet glir bakover. Stemmen din høres lenger unna ut enn for et minutt siden, og jeg er redd jeg flyter ut før jeg klarer å svare.",
       "suggestion": "Nevn én ting du ser, én ting du hører, én ting du kjenner. Bli ved kanten av «langt borte» og ta pause om det trengs."
     },
     "dp_staying-in-contact-intense-affect_case-laura_09": {
@@ -4459,7 +4459,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "La fingrene løsne og kjenn håndflatene mot lårene. Pust lavt med meg; hold én bølge av varme, og ta så pause."
     },
     "dp_staying-in-contact-intense-affect_case-carlos_02": {
-      "text": "[Anspent og sint] Stemmen min vil rope før noen ser at jeg er rystet.",
+      "text": "[Anspent og sint] Stemmen min vil rope før noen ser at jeg er rystet. Når partneren min stiller ett forsiktig spørsmål, kjenner jeg volumet stige for å dekke over den delen av meg som ble redd.",
       "suggestion": "La volumet senkes først, ikke styrken. Føtter plantet, hender åpne; kraften kan bli i rommet uten å bli en trussel."
     },
     "dp_staying-in-contact-intense-affect_case-carlos_03": {
@@ -4475,7 +4475,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Bra at du navnga farepunktet. Hender synlige, føtter ned; si trangen direkte her inne før kroppen gjør noe videre."
     },
     "dp_staying-in-contact-intense-affect_case-carlos_06": {
-      "text": "[Anspent og sint] Brystet hamrer som om jeg allerede er i en kamp.",
+      "text": "[Anspent og sint] Brystet hamrer som om jeg allerede er i en kamp. Skuldrene er oppe, blikket går stadig mot døren, og kroppen gjør seg klar før jeg har valgt noe.",
       "suggestion": "Kjenn ryggen mot stolen og se mot døren, så tilbake hit. Pulsen gjør seg klar til kamp; vi lar bølgen stige og falle uten å gi den ordre."
     },
     "dp_staying-in-contact-intense-affect_case-carlos_07": {
@@ -4483,7 +4483,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Det voldelige bildet sier hvor brennende ydmykelsen er. Begge føtter i gulvet og hendene åpne; raseriet hører hjemme i ord her, ikke i handling."
     },
     "dp_staying-in-contact-intense-affect_case-carlos_08": {
-      "text": "[Redd] Jeg vil skremme folk vekk før de ser at jeg er redd.",
+      "text": "[Redd] Jeg vil skremme folk vekk før de ser at jeg er redd. Hvis noen hører at stemmen min skjelver, føles det som om jeg må bli større fort, så de ikke vet hvor de kan såre meg.",
       "suggestion": "Jeg hører den beskyttende delen. Hold blikket hos meg og pust; hold bare ytterkanten av frykten og kraften sammen med meg."
     },
     "dp_staying-in-contact-intense-affect_case-carlos_09": {
@@ -4495,11 +4495,11 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Jeg holder meg stødig mens du hater å bli sett. Åpne hendene og legg merke til at kontrollen kommer tilbake gjennom ett valg: å ikke handle på varmen."
     },
     "dp_staying-in-contact-intense-affect_case-nina_01": {
-      "text": "[Skyldpreget] Jeg klarer ikke slutte å gråte, og så skammer jeg meg for hvor mye jeg trenger.",
+      "text": "[Skyldpreget] Jeg klarer ikke slutte å gråte, og så skammer jeg meg for hvor mye jeg trenger. Sønnen min spurte bare hvor sokkene hans var, og plutselig sto jeg ved kjøkkenbenken og hulket som om jeg hadde ødelagt alt.",
       "suggestion": "Gråten og skammen over å trenge så mye er begge her. Jeg blir hos deg mens behovet får rom uten å bli noe du må beklage."
     },
     "dp_staying-in-contact-intense-affect_case-nina_02": {
-      "text": "[Unnskyldende] Brystet er stramt og hodet dunker av å holde alle andre oppe.",
+      "text": "[Unnskyldende] Brystet er stramt og hodet dunker av å holde alle andre oppe. Jeg kjenner listen gå gjennom meg: guttene, moren min, jobb, middag, meldinger, og det er ikke plass igjen til å puste.",
       "suggestion": "Du har holdt alle andre oppe så lenge at presset verker gjennom deg. Jeg blir hos deg mens noe av det får navn i stedet for å bæres alene."
     },
     "dp_staying-in-contact-intense-affect_case-nina_03": {
@@ -4511,7 +4511,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Skyldfølelsen er intens fordi det å være en god mor betyr så mye for deg. Jeg er her sammen med deg mens både tårene og skammen er til stede, og vi holder dem fra å bli en dom over hvem du er."
     },
     "dp_staying-in-contact-intense-affect_case-nina_05": {
-      "text": "[Unnskyldende] Jeg føler at jeg svikter alle, og kroppen vil bare klappe sammen.",
+      "text": "[Unnskyldende] Jeg føler at jeg svikter alle, og kroppen vil bare klappe sammen. Jeg satt på badegulvet i to minutter, og selv det føltes stjålet fra noen som trengte meg.",
       "suggestion": "Det er tungt. La stolen bære noe av vekten, og vi legger merke til kanten av kollaps uten å be kroppen din bære det alene."
     },
     "dp_staying-in-contact-intense-affect_case-nina_06": {
@@ -4527,7 +4527,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Ønsket om å slippe unna og skyldfølelsen er begge sterke. Vi kan bli ved begge uten å velge den ene mot den andre: den utslitte delen som vil bort, og den omsorgsfulle delen som blir kvalm av å dra."
     },
     "dp_staying-in-contact-intense-affect_case-nina_09": {
-      "text": "[Splittet] Jeg får ikke tak i pusten når jeg slutter å ta vare på alle.",
+      "text": "[Splittet] Jeg får ikke tak i pusten når jeg slutter å ta vare på alle. I det sekundet jeg setter meg ned, kjenner jeg hele huset lene seg mot meg, som om noen andre faller hvis jeg puster for meg selv.",
       "suggestion": "I dette sekundet skal ingen andres behov legges på deg. La stolen bære ryggen din, forleng ett utpust, og gi din egen pust rommet som vanligvis går til alle andre."
     },
     "dp_staying-in-contact-intense-affect_case-nina_10": {
@@ -4583,8 +4583,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Jeg setter pris på at du sier det direkte. Jeg vil bli ved sinnet og skuffelsen i stedet for å forsvare meg eller glatte det over, og vi skal også se nøye på om dette arbeidet hjelper deg."
     },
     "dp_staying-in-contact-intense-affect_case-david_03": {
-      "text": "[Defensiv] Jeg vil gå ut før du ser meg tape ansikt.",
-      "suggestion": "Bra, sett ord på draget mot døren. Bli sittende, blikket rett fram, og la delen som beskytter ansiktet ditt vite at vi ikke ydmyker den her."
+      "text": "[Defensiv] Jeg vil gå ut før du ser meg miste ansikt. Halsen strammer seg, dressen kjennes plutselig for trang, og jeg vil heller gå enn å sitte her og se trengende ut.",
+      "suggestion": "Draget mot døren prøver å beskytte deg mot ydmykelse. Hold kontakt med stemmen min, hold én hånd mot stolen, og la oss gi den trengende følelsen noen sekunder uten at du mister ansikt."
     },
     "dp_staying-in-contact-intense-affect_case-david_04": {
       "text": "[Skamfull] Jeg ser hele tiden ansiktet til kona mi for meg etter at hun fant ut om affæren, og skylden er så brennende at jeg vil krype ut av huden.",
@@ -4599,7 +4599,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Den flauheten er varm. Senk skuldrene og pust med meg; vi holder kort kontakt med den og hviler."
     },
     "dp_staying-in-contact-intense-affect_case-david_07": {
-      "text": "[Kontrollert] Jeg føler for å stenge ned så jeg ikke sier noe desperat.",
+      "text": "[Kontrollert] Jeg føler for å stenge ned så jeg ikke sier noe desperat. Jeg kjenner setningen komme opp, og jeg hater at jeg kanskje trenger kona mi så mye foran deg.",
       "suggestion": "La nedstengingen senke tempoet uten å ta deg bort. Mykne kjeven, hold én hånd mot stolen, og la den desperate kanten være til stede, men innrammet."
     },
     "dp_staying-in-contact-intense-affect_case-david_08": {
@@ -4623,11 +4623,11 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Det bildet traff både den gamle traumereaksjonen og den menneskelige gru. Jeg er her sammen med deg mens vi orienterer oss til dette rommet, og så holder vi bare én trygg tråd av den kalde kvalmen."
     },
     "dp_staying-in-contact-intense-affect_case-marcus_03": {
-      "text": "[Langsomt og flatt] Jeg kjenner ingenting og alt på én gang, og det skremmer meg.",
+      "text": "[Langsomt og flatt] Jeg kjenner ingenting og alt på én gang, og det skremmer meg. Når minnet kommer nær, blir brystet hult og så plutselig altfor fullt, som om bryteren er ødelagt.",
       "suggestion": "Den svingen fra nummen til oversvømt er skremmende. Velg ett signal - stramt, tungt eller varmt - og la resten vente mens pusten holder seg rolig."
     },
     "dp_staying-in-contact-intense-affect_case-marcus_04": {
-      "text": "[Langsomt og flatt] Jeg vil stenge ned før rommet begynner å kjennes uvirkelig.",
+      "text": "[Langsomt og flatt] Jeg vil stenge ned før rommet begynner å kjennes uvirkelig. Kantene på veggene er allerede i ferd med å bli myke, og jeg er redd jeg ikke vet hvor jeg er hvis jeg fortsetter å snakke.",
       "suggestion": "La nedstengingen være signalet vårt om å orientere oss. Nevn fargen på veggen, kjenn stolen under lårene, og bli ved terskelen til følelsen i stedet for å gå helt inn."
     },
     "dp_staying-in-contact-intense-affect_case-marcus_05": {
@@ -4639,7 +4639,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Den stillheten legger seg tungt og endelig. Hold én hånd på stolen eller brystet, si «vekt» én gang, og la dette rommet minne systemet ditt på at du ikke er låst inne der."
     },
     "dp_staying-in-contact-intense-affect_case-marcus_07": {
-      "text": "[Flatt] Etter en folkemengde summer huden som om jeg fortsatt er på vakt.",
+      "text": "[Flatt] Etter en folkemengde summer huden som om jeg fortsatt er på vakt. Jeg kan være hjemme med døren låst og fortsatt kjenne hver skulder fra toget stryke forbi meg.",
       "suggestion": "Se deg rundt i dette rommet og velg det tryggeste hjørnet. La summingen vite at skanningen skjer her, ikke der borte, og hold bare en tynn tråd av den sammen med oss."
     },
     "dp_staying-in-contact-intense-affect_case-marcus_08": {

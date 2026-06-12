@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T07:00:01.608Z",
+  "generatedAt": "2026-06-12T08:40:19.855Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1603,11 +1603,11 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "[Quietly] Everything goes fuzzy and my heart races like I am failing out loud.",
+                "statement": "[Quietly] Everything goes fuzzy and my heart races like I am failing out loud. I can still hear you, but the words blur together and I start trying to look normal instead of listening.",
                 "response": "I am here with you in the fuzziness. The panic can be visible without you having to perform a normal sentence."
               },
               "no": {
-                "statement": "[Stille] Alt blir uklart og hjertet hamrer, som om alle kan se at jeg ikke får det til.",
+                "statement": "[Stille] Alt blir uklart og hjertet hamrer, som om alle kan se at jeg ikke får det til. Jeg hører deg fortsatt, men ordene flyter sammen og jeg begynner å prøve å se normal ut i stedet for å lytte.",
                 "response": "Jeg er her med deg i uklarheten. Panikken kan være synlig uten at du må prestere en normal setning."
               }
             },
@@ -1666,11 +1666,11 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "[Guilty] I cannot stop crying, and then I feel ashamed for needing so much.",
+                "statement": "[Guilty] I cannot stop crying, and then I feel ashamed for needing so much. My son only asked where his socks were, and suddenly I was at the counter sobbing like I had ruined everything.",
                 "response": "The crying and the shame about needing so much are both here. I am staying with you while the need has room without becoming something to apologize for."
               },
               "no": {
-                "statement": "[Skyldpreget] Jeg klarer ikke slutte å gråte, og så skammer jeg meg for hvor mye jeg trenger.",
+                "statement": "[Skyldpreget] Jeg klarer ikke slutte å gråte, og så skammer jeg meg for hvor mye jeg trenger. Sønnen min spurte bare hvor sokkene hans var, og plutselig sto jeg ved kjøkkenbenken og hulket som om jeg hadde ødelagt alt.",
                 "response": "Gråten og skammen over å trenge så mye er begge her. Jeg blir hos deg mens behovet får rom uten å bli noe du må beklage."
               }
             },
@@ -1683,11 +1683,11 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "[Apologetic] I feel like I am failing everyone, and my body wants to collapse.",
+                "statement": "[Apologetic] I feel like I am failing everyone, and my body wants to collapse. I sat on the bathroom floor for two minutes and even that felt stolen from someone who needed me.",
                 "response": "That is heavy. Let the chair take some of your weight, and we will notice the edge of collapse without asking your body to carry it alone."
               },
               "no": {
-                "statement": "[Unnskyldende] Jeg føler at jeg svikter alle, og kroppen vil bare klappe sammen.",
+                "statement": "[Unnskyldende] Jeg føler at jeg svikter alle, og kroppen vil bare klappe sammen. Jeg satt på badegulvet i to minutter, og selv det føltes stjålet fra noen som trengte meg.",
                 "response": "Det er tungt. La stolen bære noe av vekten, og vi legger merke til kanten av kollaps uten å be kroppen din bære det alene."
               }
             },
@@ -1700,11 +1700,11 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "[Torn] I cannot catch my breath when I stop taking care of everyone.",
+                "statement": "[Torn] I cannot catch my breath when I stop taking care of everyone. The second I sit down, I feel the whole house leaning toward me, like if I breathe for myself someone else will fall.",
                 "response": "For this second, no one else gets assigned to you. Let the chair take your back, lengthen one out-breath, and give your own breath the room usually taken by everyone else."
               },
               "no": {
-                "statement": "[Splittet] Jeg får ikke tak i pusten når jeg slutter å ta vare på alle.",
+                "statement": "[Splittet] Jeg får ikke tak i pusten når jeg slutter å ta vare på alle. I det sekundet jeg setter meg ned, kjenner jeg hele huset lene seg mot meg, som om noen andre faller hvis jeg puster for meg selv.",
                 "response": "I dette sekundet skal ingen andres behov legges på deg. La stolen bære ryggen din, forleng ett utpust, og gi din egen pust rommet som vanligvis går til alle andre."
               }
             }
