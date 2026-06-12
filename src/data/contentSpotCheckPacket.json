@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T16:26:22.020Z",
+  "generatedAt": "2026-06-11T16:53:09.686Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -2212,12 +2212,12 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "[Anxious] When you suggested practicing with a group, I felt like you did not understand how impossible that sounds.",
-                "response": "I hear that my suggestion jumped too far ahead. I am sorry I missed how impossible that felt from inside your anxiety. What smaller step would show you I understand the size of this?"
+                "statement": "[Anxious] When you suggested practicing with a group, I felt like you did not understand how impossible that sounds. I left thinking you saw my fear as something I could just rehearse my way out of.",
+                "response": "I hear that my suggestion jumped too far ahead and made your fear sound smaller than it is. I am sorry I missed how impossible that felt from inside your anxiety. What smaller step would show you I understand the size of this?"
               },
               "no": {
-                "statement": "[Engstelig] Da du foreslo å øve i en gruppe, følte jeg at du ikke forstod hvor umulig det høres ut.",
-                "response": "Jeg hører at forslaget mitt hoppet for langt fram. Jeg beklager at jeg ikke traff hvor umulig det kjentes fra innsiden av angsten. Hvilket mindre steg ville vist deg at jeg forstår størrelsen på dette?"
+                "statement": "[Engstelig] Da du foreslo å øve i en gruppe, følte jeg at du ikke forstod hvor umulig det høres ut. Jeg gikk derfra og tenkte at du så frykten min som noe jeg bare kunne øve meg ut av.",
+                "response": "Jeg hører at forslaget mitt hoppet for langt fram og fikk frykten din til å høres mindre ut enn den er. Jeg beklager at jeg ikke traff hvor umulig det kjentes fra innsiden av angsten. Hvilket mindre steg ville vist deg at jeg forstår størrelsen på dette?"
               }
             },
             {
@@ -2357,12 +2357,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "[Stern] When you say, You are safe here, I feel like you do not know what safe means.",
-                "response": "I hear that 'safe here' sounded naive and disconnected from your reality. I am sorry. What would be a more accurate way for me to speak about relative safety in this room?"
+                "statement": "[Stern] When you say, You are safe here, I feel like you do not know what safe means. It sounds too clean, like a phrase from a room where nothing bad has ever happened.",
+                "response": "I hear that 'safe here' sounded naive and disconnected from your reality, and I am sorry. What would be a more accurate way for me to speak about relative safety in this room without pretending the word is simple?"
               },
               "no": {
-                "statement": "[Streng] Når du sier «du er trygg her», føles det som om du ikke vet hva trygg betyr.",
-                "response": "Jeg hører at «du er trygg her» hørtes naivt og frakoblet ut fra virkeligheten din. Det beklager jeg. Hva ville vært en mer presis måte for meg å snakke om relativ trygghet i dette rommet?"
+                "statement": "[Streng] Når du sier «du er trygg her», føles det som om du ikke vet hva trygg betyr. Det høres for rent ut, som en frase fra et rom der ingenting vondt noen gang har skjedd.",
+                "response": "Jeg hører at «du er trygg her» hørtes naivt og frakoblet ut fra virkeligheten din, og det beklager jeg. Hva ville vært en mer presis måte for meg å snakke om relativ trygghet i dette rommet uten å late som om ordet er enkelt?"
               }
             }
           ]

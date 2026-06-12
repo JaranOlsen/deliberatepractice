@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T16:26:22.021Z",
+  "generatedAt": "2026-06-11T16:53:09.687Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -1254,12 +1254,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Wounded but sharp] When you said I sounded hurt, it felt like you were calling me weak.",
-            "response": "I hear that 'hurt' landed like I was calling you weak. I am sorry I chose words that made you brace. What language would let us name the hit without taking your strength away?"
+            "statement": "[Wounded but sharp] When you said I sounded hurt, it felt like you were calling me weak. I know hurt is probably your therapy word, but in my head it sounded like you were stripping away the part of me that can handle things.",
+            "response": "I hear that 'hurt' landed like I was taking strength away from you, and I am sorry I chose words that made you brace. What language would let us name the hit without making you feel weakened or exposed in a way you did not choose?"
           },
           "no": {
-            "statement": "[Såret, men skarp] Da du sa at jeg hørtes såret ut, føltes det som om du kalte meg svak.",
-            "response": "Jeg hører at «såret» landet som om jeg kalte deg svak. Jeg beklager at jeg valgte ord som fikk deg til å spenne deg. Hvilket språk lar oss navngi treffet uten å ta styrken fra deg?"
+            "statement": "[Såret, men skarp] Da du sa at jeg hørtes såret ut, føltes det som om du kalte meg svak. Jeg vet at såret sikkert er et terapiord for deg, men i hodet mitt hørtes det ut som om du tok bort den delen av meg som klarer ting.",
+            "response": "Jeg hører at «såret» landet som om jeg tok styrke fra deg, og jeg beklager at jeg valgte ord som fikk deg til å spenne deg. Hvilket språk lar oss navngi treffet uten at du kjenner deg svekket eller blottlagt på en måte du ikke selv har valgt?"
           }
         },
         {
