@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T21:08:47.771Z",
+  "generatedAt": "2026-06-12T21:50:41.884Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -327,11 +327,11 @@
               ],
               "en": {
                 "statement": "[Angry, clenching fists] I punch walls instead of people, and I hate that this still scares them.",
-                "response": "The wall takes the hit, and you still feel the fear it creates around you."
+                "response": "You hit the wall instead of people, and you hate that it still scares them."
               },
               "no": {
                 "statement": "[Sint, med knyttede never] Jeg slår i vegger i stedet for folk, og jeg hater at det fortsatt skremmer dem.",
-                "response": "Veggen tar slaget, og du kjenner fortsatt frykten det skaper rundt deg."
+                "response": "Du slår i veggen i stedet for folk, og du hater at det fortsatt skremmer dem."
               }
             }
           ]
@@ -356,11 +356,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Controlled] Being called cold makes me bristle because it sounds too close to true.",
-                "response": "That word stings because it touches a fear that it might be true."
+                "response": "Being called cold stings because it sounds too close to true."
               },
               "no": {
                 "statement": "[Kontrollert] Å bli kalt kald får meg til å stritte imot fordi det høres for nært sannheten ut.",
-                "response": "Det ordet svir fordi det berører frykten for at det kanskje er sant."
+                "response": "Å bli kalt kald svir fordi det høres for nært sannheten ut."
               }
             },
             {
@@ -373,11 +373,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Dismissive] When I admit I am wrong, I feel stripped down and small.",
-                "response": "Owning a mistake feels exposing, as if status and protection drop at once."
+                "response": "Admitting you are wrong leaves you feeling stripped down and small."
               },
               "no": {
                 "statement": "[Avvisende] Når jeg innrømmer at jeg tar feil, føler jeg meg ribbet og liten.",
-                "response": "Å eie en feil kjennes utleverende, som om status og beskyttelse faller samtidig."
+                "response": "Å innrømme at du tar feil, får deg til å føle deg ribbet og liten."
               }
             },
             {

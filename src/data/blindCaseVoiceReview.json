@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T21:08:47.772Z",
+  "generatedAt": "2026-06-12T21:50:41.885Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -182,11 +182,11 @@
           ],
           "en": {
             "statement": "[Angry, clenching fists] I punch walls instead of people, and I hate that this still scares them.",
-            "response": "The wall takes the hit, and you still feel the fear it creates around you."
+            "response": "You hit the wall instead of people, and you hate that it still scares them."
           },
           "no": {
             "statement": "[Sint, med knyttede never] Jeg slår i vegger i stedet for folk, og jeg hater at det fortsatt skremmer dem.",
-            "response": "Veggen tar slaget, og du kjenner fortsatt frykten det skaper rundt deg."
+            "response": "Du slår i veggen i stedet for folk, og du hater at det fortsatt skremmer dem."
           }
         }
       ]
@@ -205,11 +205,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Slow and flat] Most days I complete the routine and feel almost nothing behind my face.",
-            "response": "The routine keeps moving while numbness sits between you and the day."
+            "response": "You move through the routine while feeling almost nothing."
           },
           "no": {
             "statement": "[Langsomt og flatt] De fleste dager fullfører jeg rutinene og kjenner nesten ingenting bak ansiktet.",
-            "response": "Rutinene fortsetter mens nummenheten ligger mellom deg og dagen."
+            "response": "Du går gjennom rutinene mens du nesten ikke kjenner noe."
           }
         },
         {

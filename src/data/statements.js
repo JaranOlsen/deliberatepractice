@@ -477,7 +477,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Fearful] I want to say yes to plans, then the fear builds and I cancel.",
-        "suggestion": "You want contact, and the fear builds until cancelling feels safer."
+        "suggestion": "You want to say yes, and then the fear builds until you cancel."
       },
       {
         "text": "[Quietly] Compliments don't stick; I keep waiting for people to take them back.",
@@ -489,7 +489,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Anxious] I eat lunch at my desk so I do not have to enter the break room.",
-        "suggestion": "Eating at your desk helps you avoid the break room."
+        "suggestion": "The break room brings enough anxiety that eating at your desk feels easier."
       },
       {
         "text": "[Quietly] After I speak in a meeting, I replay every word until I cringe.",
@@ -497,7 +497,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hesitant] In groups I go quiet and feel outside the circle before I have spoken.",
-        "suggestion": "You feel outside the circle before your voice has had a way in."
+        "suggestion": "In groups, you feel outside before you have even spoken."
       },
       {
         "text": "[Trembling] My hands shake when I introduce myself, and I want to vanish.",
@@ -505,7 +505,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tearful] Sunday nights feel painfully lonely because the week starts without anyone expecting me.",
-        "suggestion": "Sunday nights bring a heavy loneliness, as if the week opens with no one waiting for you."
+        "suggestion": "Sunday nights feel painfully lonely, with the week starting and no one expecting you."
       }
     ],
     "case-laura": [
@@ -519,11 +519,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and guarded] When someone is kind to me, I back away before I can trust it.",
-        "suggestion": "Kindness comes close and something in you pulls back quickly, trying to stay safe before trust can form."
+        "suggestion": "Kindness makes you tense, and you pull back before you can trust it."
       },
       {
         "text": "[Confused] I have been feeling depressed, but nothing dramatic happened this week, so I do not know why.",
-        "suggestion": "You feel depressed and puzzled because there is no clear reason you can point to."
+        "suggestion": "You feel depressed and puzzled when nothing dramatic happened this week."
       },
       {
         "text": "[Slow and flat] I want closeness, and then I go numb the moment it gets real.",
@@ -531,7 +531,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Sad] A friend stopped inviting me over after I cancelled too many times, and I feel sad about it.",
-        "suggestion": "Losing that invitation leaves you sad and aware of how much the distance has cost."
+        "suggestion": "You feel sad that the invitations stopped after you cancelled so often."
       },
       {
         "text": "[Flat and guarded] I wake already tense, listening for trouble before the day has started.",
@@ -539,7 +539,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Fearful] I avoid movies with fighting because the fear hits before I can think.",
-        "suggestion": "Conflict scenes pull you into old fear before thought can catch up."
+        "suggestion": "Fighting in movies brings fear before you have time to think."
       },
       {
         "text": "[Tired] I keep trying to be normal at work, but by the end of a shift I am completely worn out.",
@@ -557,7 +557,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] I hate remembering the moment my son watched me slam that door.",
-        "suggestion": "His watching brings hurt and regret, especially because he is the person you most want to protect."
+        "suggestion": "Remembering that your son saw the door slam brings shame and regret."
       },
       {
         "text": "[Angry] My brother promised to help with the kids and then disappeared again, and I was furious.",
@@ -565,7 +565,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Worried] I am worried that if I lose one more job over my temper, my family will not recover.",
-        "suggestion": "You are scared that another blowup at work could cost your family too much."
+        "suggestion": "You are worried that another temper blowup at work could hurt your family badly."
       },
       {
         "text": "[Ashamed] After I blow up, I feel ashamed when everyone goes quiet and careful.",
@@ -585,17 +585,17 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Angry, clenching fists] I punch walls instead of people, and I hate that this still scares them.",
-        "suggestion": "The wall takes the hit, and you still feel the fear it creates around you."
+        "suggestion": "You hit the wall instead of people, and you hate that it still scares them."
       },
       {
         "text": "[Ashamed] I want my family to feel safe with me, and I hate that they still flinch.",
-        "suggestion": "You care deeply about their safety, and it hurts to see fear still living in them."
+        "suggestion": "You want them to feel safe with you, and it hurts that they still flinch."
       }
     ],
     "case-nina": [
       {
         "text": "[Tired] Asking for help makes me feel guilty, even when I am exhausted.",
-        "suggestion": "Need brings guilt, especially when exhaustion says you cannot keep carrying it all."
+        "suggestion": "Asking for help brings guilt, even when you are exhausted."
       },
       {
         "text": "[Worried] The car repair bill came, and I do not know how we are going to make it through the month.",
@@ -603,7 +603,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Torn] When I say no, my stomach knots while I picture everyone disappointed.",
-        "suggestion": "A no brings anxiety and the fear that people will feel let down by you."
+        "suggestion": "Saying no knots your stomach while you picture everyone disappointed."
       },
       {
         "text": "[Sad] My sister forgot my birthday again, and I keep telling myself it should not matter.",
@@ -619,11 +619,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] I explode sometimes and then feel awful for becoming the angry one.",
-        "suggestion": "After holding so much in, the snap leaves you ashamed of your own anger."
+        "suggestion": "When you explode, you feel awful and ashamed of becoming the angry one."
       },
       {
         "text": "[Guilty] I dream about someone taking care of me, and then I feel selfish for wanting it.",
-        "suggestion": "There is a quiet longing to be cared for once, tangled with guilt for needing it."
+        "suggestion": "You want someone to take care of you, and then feel selfish for wanting it."
       },
       {
         "text": "[Angry] A friend cancelled lunch at the last minute, and I felt angry even though I said it was fine.",
@@ -641,11 +641,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Panicked] When a text does not come, my chest locks and I cannot breathe.",
-        "suggestion": "The silence lands in your chest as panic, like you have been dropped."
+        "suggestion": "When the text does not come, panic locks your chest and takes your breath."
       },
       {
         "text": "[Desperate] I hear myself begging 'don't leave' and then suddenly I am yelling.",
-        "suggestion": "The plea for closeness flips into anger when the fear of being left spikes."
+        "suggestion": "You hear yourself begging them not to leave, and then suddenly anger comes out."
       },
       {
         "text": "[Confused] I do not know what to talk about today; I just know I woke up feeling wrong.",
@@ -653,53 +653,53 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Worried] I am trying not to scratch, but I do not know what else to do when the panic gets that loud.",
-        "suggestion": "You want to stop scratching, and the panic scares you because you do not have another way through it yet."
+        "suggestion": "You want to stop scratching, and the panic feels so loud that you do not know what else to do."
       },
       {
         "text": "[Desperate] If someone cancels, I want to quit before they can leave again.",
-        "suggestion": "A cancellation feels like being left, and pulling away starts to feel safer."
+        "suggestion": "A cancellation feels like being left again, and you want to quit first."
       },
       {
         "text": "[Ashamed] I hate myself after I blow up, even when I was terrified first.",
-        "suggestion": "After the anger, shame turns on you and hides the terror that came first."
+        "suggestion": "After you blow up, you hate yourself, even though you were terrified first."
       },
       {
         "text": "[Ashamed] I test people to see if they care, and then I hate myself for needing proof.",
-        "suggestion": "Testing becomes a way to look for proof you matter, and it leaves shame behind."
+        "suggestion": "You need proof that people care, and then feel ashamed for needing it."
       },
       {
         "text": "[Desperate] When a session ends, the room tilts and I feel dizzy and left.",
-        "suggestion": "Endings tilt the room and bring fear, sadness, and the feeling of being left."
+        "suggestion": "When the session ends, you feel dizzy and left."
       },
       {
         "text": "[Scared] I am scared that if I stop chasing people, there will be nothing left of me.",
-        "suggestion": "You are scared that without chasing closeness, your sense of yourself might disappear."
+        "suggestion": "If you stop chasing people, you fear there will be nothing left of you."
       }
     ],
     "case-david": [
       {
         "text": "[Controlled] Being called cold makes me bristle because it sounds too close to true.",
-        "suggestion": "That word stings because it touches a fear that it might be true."
+        "suggestion": "Being called cold stings because it sounds too close to true."
       },
       {
         "text": "[Frustrated] I know my father was impossible to please, but knowing that does not change how worthless I feel.",
-        "suggestion": "You can see he was impossible to please, and still the worthlessness remains."
+        "suggestion": "You know he was impossible to please, and still the worthlessness remains."
       },
       {
         "text": "[Defensive] When I feel criticized, I start listing everything I have achieved.",
-        "suggestion": "Criticism brings up the need to list what you have achieved."
+        "suggestion": "When you feel criticized, you start listing what you have achieved."
       },
       {
         "text": "[Controlled] Praise feels good, then it leaks out and I need more proof.",
-        "suggestion": "Admiration lands for a moment, then drains away and leaves you needing more proof."
+        "suggestion": "Praise feels good for a moment, then fades and leaves you needing more proof."
       },
       {
         "text": "[Dismissive] When I admit I am wrong, I feel stripped down and small.",
-        "suggestion": "Owning a mistake feels exposing, as if status and protection drop at once."
+        "suggestion": "Admitting you are wrong leaves you feeling stripped down and small."
       },
       {
         "text": "[Wounded but sharp] When my kids cry, I get impatient, and then I hate how hard I sound.",
-        "suggestion": "Their tears bring up impatience and self-disgust, because you hear the hardness in yourself."
+        "suggestion": "When your kids cry, you get impatient and hate how hard you sound."
       },
       {
         "text": "[Wounded but sharp] Since the affair came out, being at home makes me feel like a failure.",
@@ -715,13 +715,13 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Wounded but sharp] If I am just ordinary at something, I feel like I disappear.",
-        "suggestion": "Ordinary feels like disappearing, as if worth depends on standing out."
+        "suggestion": "Being ordinary feels like disappearing."
       }
     ],
     "case-marcus": [
       {
         "text": "[Slow and flat] Most days I complete the routine and feel almost nothing behind my face.",
-        "suggestion": "The routine keeps moving while numbness sits between you and the day."
+        "suggestion": "You move through the routine while feeling almost nothing."
       },
       {
         "text": "[Confused] I do not know what to talk about today; I thought maybe you could guide it.",
@@ -729,11 +729,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hypervigilant] Nightmares leave me wired and empty, like the room is not safe.",
-        "suggestion": "Nightmares jolt you awake, wired and hollow, with the room still feeling unsafe."
+        "suggestion": "Nightmares leave you wired, empty, and unsure the room is safe."
       },
       {
         "text": "[Slow and flat] I avoid people because it feels safer than explaining why I disappear.",
-        "suggestion": "Distance protects you from the strain of explaining yourself and the risk of being pulled close."
+        "suggestion": "Avoiding people feels safer than explaining why you disappear."
       },
       {
         "text": "[Worried] I have been drinking after work so I can sleep, and now I am worried I cannot sleep without it.",
@@ -741,11 +741,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and guarded] When something good happens, it feels far away, like it belongs to someone else.",
-        "suggestion": "Goodness feels distant, almost unreachable, even when it is happening to you."
+        "suggestion": "Even good things feel far away, like they belong to someone else."
       },
       {
         "text": "[Flat] A door slam can throw me back before I know where I am.",
-        "suggestion": "Sudden noise drops you into alarm before the present room is fully back."
+        "suggestion": "A sudden door slam throws you into alarm before you know where you are."
       },
       {
         "text": "[Sad] A friend from the unit stopped calling, and I keep telling myself I did not want to talk anyway.",
@@ -753,7 +753,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hopeless] Some nights I think nobody would notice if I did not wake up.",
-        "suggestion": "Those nights sound deeply hopeless, like your life feels unseen and almost not counting."
+        "suggestion": "Those nights feel deeply hopeless, like no one would notice if you were gone."
       },
       {
         "text": "[Scared] I want to let people in, but every time someone gets close I start looking for the exit.",

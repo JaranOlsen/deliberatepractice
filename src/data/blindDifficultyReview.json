@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T21:08:47.772Z",
+  "generatedAt": "2026-06-12T21:50:41.885Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -79,11 +79,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Dismissive] When I admit I am wrong, I feel stripped down and small.",
-            "response": "Owning a mistake feels exposing, as if status and protection drop at once."
+            "response": "Admitting you are wrong leaves you feeling stripped down and small."
           },
           "no": {
             "statement": "[Avvisende] Når jeg innrømmer at jeg tar feil, føler jeg meg ribbet og liten.",
-            "response": "Å eie en feil kjennes utleverende, som om status og beskyttelse faller samtidig."
+            "response": "Å innrømme at du tar feil, får deg til å føle deg ribbet og liten."
           }
         },
         {
