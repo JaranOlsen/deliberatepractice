@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T20:53:58.858Z",
+  "generatedAt": "2026-06-12T21:08:47.772Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -348,11 +348,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tense and ashamed] When I have to apologize, my jaw tightens and I start explaining the whole situation.",
-            "response": "The explanation comes in quickly; I wonder if the apology itself touches shame, almost like being defeated in front of them."
+            "response": "The explanation comes in quickly; I wonder if the apology itself might touch shame, almost like being defeated in front of them."
           },
           "no": {
             "statement": "[Anspent og skamfull] Når jeg må be om unnskyldning, strammer kjeven seg og jeg begynner å forklare hele situasjonen.",
-            "response": "Forklaringen kommer raskt inn; jeg lurer på om selve unnskyldningen berører skam, nesten som å bli beseiret foran dem."
+            "response": "Forklaringen kommer raskt inn; jeg lurer på om selve unnskyldningen kan berøre skam, nesten som å bli beseiret foran dem."
           }
         },
         {
@@ -361,11 +361,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Dismissive] Apologizing makes me cringe, like everyone in the room can watch my status drop.",
-            "response": "It feels humiliating; I wonder if admitting wrong touches the old shame of being reduced to failure."
+            "response": "It feels humiliating; I wonder if admitting wrong might touch an old shame of being reduced to failure."
           },
           "no": {
             "statement": "[Avvisende] Å be om unnskyldning får meg til å krympe meg, som om alle i rommet ser statusen min falle.",
-            "response": "Det kjennes ydmykende; jeg lurer på om det å innrømme feil treffer den gamle skammen over å bli redusert til mislykket."
+            "response": "Det kjennes ydmykende; jeg lurer på om det å innrømme feil kan treffe en gammel skam over å bli redusert til mislykket."
           }
         },
         {

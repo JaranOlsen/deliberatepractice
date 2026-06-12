@@ -64,7 +64,7 @@ Automated averages are triage only, not quality scores. They still reveal places
 | Treatment Rationale | 15.5 | 20.5 | 28.8 | 54.2 | App is briefer than Goldman but usually clinically focused. |
 | Empathic Explorations | 17.0 | 26.2 | 18.2 | 30.3 | Response-boundary pass complete; strong, with later marker breadth and Bokmal polish. |
 | Empathic Evocations | 13.8 | 23.1 | 17.8 | 20.3 | Improved after rewrite; monitor marker flatness. |
-| Empathic Conjectures | 16.8 | 21.5 | 20.1 | 21.8 | Structurally close. |
+| Empathic Conjectures | 16.8 | 21.5 | 20.1 | 21.8 | Response-boundary pass complete; strong, with later marker-breadth and Bokmal polish. |
 | Staying in Contact with Intense Affect | 31.3 | 35.3 | 29.1 | 22.6 | Third response-quality pass complete; now strong, with residual regression risk in high-risk items. |
 | Self-Disclosure | 14.8 | 18.4 | 30.7 | 27.6 | Boundary/transparency pass complete; strong, with later Bokmal and marker-breadth polish. |
 | Marker Recognition and Chair Work | 35.4 | 37.5 | 48.4 | 84.3 | Suggestion sequencing pass complete; strong, with residual high-risk and Bokmal regression polish. |
@@ -74,8 +74,8 @@ Automated averages are triage only, not quality scores. They still reveal places
 
 | Rank | Skill | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Empathic Conjectures | Structurally close. Needs occasional checks that responses remain tentative and reach just beyond what is explicit. | Low-volume targeted polish. |
-| 2 | Empathic Understanding | Strong basic response contract. Some app markers are shorter and more case-specific than Goldman, but the skill does not require long prompts. | Regression and ordinary-life breadth checks. |
+| 1 | Empathic Understanding | Strong basic response contract. Some app markers are shorter and more case-specific than Goldman, but the skill does not require long prompts. | Regression and ordinary-life breadth checks. |
+| 2 | Empathic Conjectures | Now strong after a response-boundary pass across 44 items. Suggestions more consistently stay tentative, close to the marker, and one step beyond explicit content. Quality rating: about 8.3/10. | Later marker-breadth and Bokmal naturalness polish only unless flagged. |
 | 3 | Self-Disclosure | Now strong after a 25-item boundary/transparency pass. Responses more clearly answer the relevant therapist question, keep boundaries explicit, and return focus to the client. Quality rating: about 8.2/10. | Later Bokmal naturalness and marker-breadth polish only unless flagged. |
 | 4 | Empathic Explorations | Now strong after a 25-item response-boundary pass. Suggestions more consistently stay with the shown edge and invite one manageable next moment of contact. Quality rating: about 8.1/10. | Later marker-breadth and Bokmal polish only unless flagged. |
 | 5 | Alliance Repair | Now strong after marker enrichment and a high-risk rupture response pass across 23 items. Suggestions more reliably receive impact, own therapist contribution, clarify frame without defensiveness, and ask what helps now. Quality rating: about 8.2/10. | Later regression polish only, especially Bokmal naturalness and response-opening variety. |
@@ -145,9 +145,23 @@ Current self-disclosure state after this pass:
 
 Self-Disclosure is now strong enough to leave the active-priority slot. Later work should focus on marker breadth and Bokmal idiom rather than broad rewriting.
 
-### Next Pass: Empathic Conjectures
+### Implementation Update: Empathic Conjectures
 
-The next highest-value slice should be an empathic-conjectures polish pass. The pass should judge whether responses are tentative, close to the client's material, and only one step beyond what is explicit, without becoming interpretation, advice, validation, or exploration questions.
+An empathic-conjectures response-boundary pass revised 44 items across easy, moderate, and hard cases.
+
+Current conjectures state after this pass:
+
+- 90 total items preserved.
+- Quality rating increased to about 8.3/10.
+- The edited responses more consistently mark conjecture as tentative, stay close to the client's immediate evidence, and name only a near-surface hidden feeling, meaning, or need.
+- The pass reduced drift toward confident interpretation, quasi-questions, explanatory certainty, and over-formulated case conceptualization.
+- Every edited English item has a matching Bokmal localization.
+
+Empathic Conjectures is now strong enough to leave the active-priority slot. Later work should focus on marker breadth and Bokmal naturalness rather than broad rewriting.
+
+### Next Pass: Empathic Understanding
+
+The next highest-value slice should be an empathic-understanding regression and breadth pass. The pass should judge whether brief client markers still give enough ordinary-life specificity for a clean reflection, whether suggestions reflect only the explicit emotional meaning without adding conjecture or validation, and whether Bokmal localizations sound like natural spoken Norwegian.
 
 ### Implementation Update: Empathic Affirmation and Validation
 

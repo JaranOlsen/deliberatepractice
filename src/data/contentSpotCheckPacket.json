@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T20:53:58.857Z",
+  "generatedAt": "2026-06-12T21:08:47.771Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1408,11 +1408,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Firm] If someone questions me in a meeting, I answer fast and louder than I meant to.",
-                "response": "You come in strong before there is time to think; I wonder if the question lands like being put on the spot and found lacking."
+                "response": "You come in strong before there is time to think; I wonder if the question lands almost like being put on the spot and found lacking."
               },
               "no": {
                 "statement": "[Fast] Hvis noen stiller spørsmål ved meg i et møte, svarer jeg raskt og høyere enn jeg mente.",
-                "response": "Du kommer sterkt inn før du rekker å tenke; jeg lurer på om spørsmålet lander som å bli satt på prøve og ikke holde mål."
+                "response": "Du kommer sterkt inn før du rekker å tenke; jeg lurer på om spørsmålet lander nesten som å bli satt på prøve og ikke holde mål."
               }
             },
             {
@@ -1425,11 +1425,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Tense and ashamed] When I have to apologize, my jaw tightens and I start explaining the whole situation.",
-                "response": "The explanation comes in quickly; I wonder if the apology itself touches shame, almost like being defeated in front of them."
+                "response": "The explanation comes in quickly; I wonder if the apology itself might touch shame, almost like being defeated in front of them."
               },
               "no": {
                 "statement": "[Anspent og skamfull] Når jeg må be om unnskyldning, strammer kjeven seg og jeg begynner å forklare hele situasjonen.",
-                "response": "Forklaringen kommer raskt inn; jeg lurer på om selve unnskyldningen berører skam, nesten som å bli beseiret foran dem."
+                "response": "Forklaringen kommer raskt inn; jeg lurer på om selve unnskyldningen kan berøre skam, nesten som å bli beseiret foran dem."
               }
             },
             {
@@ -1442,11 +1442,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Tense] When someone tells me to calm down, it sounds like they are calling me childish.",
-                "response": "That phrase seems to shrink you quickly; I wonder if the anger protects against feeling dismissed and made small."
+                "response": "That phrase seems to shrink you quickly; I wonder if the anger is guarding against feeling dismissed and made small."
               },
               "no": {
                 "statement": "[Anspent] Når noen sier at jeg skal roe meg ned, høres det ut som de kaller meg barnslig.",
-                "response": "Den setningen ser ut til å gjøre deg liten fort; jeg lurer på om sinnet beskytter mot å kjenne seg avfeid og gjort mindre."
+                "response": "Den setningen ser ut til å gjøre deg liten fort; jeg lurer på om sinnet vokter mot å kjenne seg avfeid og gjort liten."
               }
             }
           ]
@@ -1505,11 +1505,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Tense and angry] I replay disrespect for days, planning how I should have won it in the moment.",
-                "response": "You keep trying to win it afterward; I wonder if the replay holds back the humiliation of feeling small right then."
+                "response": "You keep trying to win it afterward; I wonder if the replay helps hold back the humiliation of feeling small right then."
               },
               "no": {
                 "statement": "[Anspent og sint] Jeg kverner på respektløsheten i dagevis og planlegger hvordan jeg burde vunnet der og da.",
-                "response": "Du prøver fortsatt å vinne det i etterkant; jeg lurer på om gjennomspillingen holder ydmykelsen over å kjenne seg liten akkurat da på avstand."
+                "response": "Du prøver fortsatt å vinne det i etterkant; jeg lurer på om gjennomspillingen hjelper med å holde ydmykelsen over å kjenne seg liten akkurat da på avstand."
               }
             }
           ]
@@ -1534,11 +1534,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Hopeless] When my wife calls me cold, I make a cutting joke before she can see it hurt.",
-                "response": "The joke gets there first; I wonder if it protects a sting of being seen as failing or not enough."
+                "response": "The joke gets there first; I wonder if it guards against a sting of being seen as failing or not enough."
               },
               "no": {
                 "statement": "[Håpløs] Når kona mi kaller meg kald, kommer jeg med en spydig kommentar før hun rekker å se at det såret.",
-                "response": "Kommentaren kommer først; jeg lurer på om den beskytter et stikk av å bli sett som mislykket eller ikke god nok."
+                "response": "Kommentaren kommer først; jeg lurer på om den vokter mot et stikk av å bli sett som mislykket eller ikke god nok."
               }
             },
             {
@@ -1551,11 +1551,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Dismissive] Apologizing makes me cringe, like everyone in the room can watch my status drop.",
-                "response": "It feels humiliating; I wonder if admitting wrong touches the old shame of being reduced to failure."
+                "response": "It feels humiliating; I wonder if admitting wrong might touch an old shame of being reduced to failure."
               },
               "no": {
                 "statement": "[Avvisende] Å be om unnskyldning får meg til å krympe meg, som om alle i rommet ser statusen min falle.",
-                "response": "Det kjennes ydmykende; jeg lurer på om det å innrømme feil treffer den gamle skammen over å bli redusert til mislykket."
+                "response": "Det kjennes ydmykende; jeg lurer på om det å innrømme feil kan treffe en gammel skam over å bli redusert til mislykket."
               }
             },
             {
