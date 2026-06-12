@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T13:59:36.083Z",
+  "generatedAt": "2026-06-12T15:43:09.056Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1996,11 +1996,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Tense and ashamed] Whenever I feel hurt, especially when my wife says I look wounded, my father's words come back: Stop being weak and get control. Then I straighten up and start talking like nothing landed.",
-                "response": "It sounds like you are carrying a harsh message from your father that now turns on you. We can put that message in one chair and the part of you it shames in the other, and let them speak one turn each."
+                "response": "It sounds like you are carrying a harsh message from your father that now turns on you. Would you be willing to put that message in one chair and the shamed part in the other? Start as the message: tell him to stop being weak and get control."
               },
               "no": {
                 "statement": "[Anspent og skamfull] Hver gang jeg kjenner meg såret, særlig når kona mi sier at jeg virker såret, kommer ordene til faren min tilbake: Slutt å være svak og få kontroll. Da retter jeg meg opp og begynner å snakke som om ingenting traff.",
-                "response": "Det høres ut som du bærer på et hardt budskap fra faren din som nå vender seg mot deg. Vi kan sette det budskapet i én stol og den siden av deg som blir skammet av det i den andre, og la dem få én runde hver."
+                "response": "Det høres ut som du bærer på et hardt budskap fra faren din som nå vender seg mot deg. Ville du være villig til å sette det budskapet i én stol og den skammede siden i den andre? Start som budskapet: si at han skal slutte å være svak og få kontroll."
               }
             },
             {
@@ -2124,11 +2124,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Self-blaming] If I am not exceptional, I tell myself there is no reason anyone would stay. Ordinary means replaceable. Replaceable means I have already lost; they just have not said it out loud yet.",
-                "response": "That sounds like a demanding self-evaluative voice that makes your worth depend on being exceptional and treats ordinary as abandonment already starting. We can put that demand in one chair and the side that pays the price in the other. From this chair, make the case that ordinary means replaceable; then we will switch."
+                "response": "That sounds like a demanding self-evaluative voice that makes your worth depend on being exceptional and treats ordinary as abandonment already starting. Could we put that demand in one chair and the side paying the price in the other? From this chair, make the case that ordinary means replaceable; then we will switch."
               },
               "no": {
                 "statement": "[Selvbebreidende] Hvis jeg ikke er eksepsjonell, sier jeg til meg selv at det ikke finnes noen grunn til at noen skulle bli. Ordinær betyr utskiftbar. Utskiftbar betyr at jeg allerede har tapt; de har bare ikke sagt det høyt ennå.",
-                "response": "Det høres ut som en krevende selvkritisk stemme gjør verdien din avhengig av å være eksepsjonell og behandler det ordinære som om forlattheten allerede har begynt. Vi kan sette kravet i én stol og siden som betaler prisen i den andre. Fra denne stolen argumenterer du for at ordinær betyr utskiftbar; så bytter vi."
+                "response": "Det høres ut som en krevende selvkritisk stemme gjør verdien din avhengig av å være eksepsjonell og behandler det ordinære som om forlattheten allerede har begynt. Kan vi sette kravet i én stol og siden som betaler prisen i den andre? Fra denne stolen argumenterer du for at ordinær betyr utskiftbar; så bytter vi."
               }
             },
             {

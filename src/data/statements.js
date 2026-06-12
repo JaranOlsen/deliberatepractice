@@ -3817,7 +3817,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Embarrassed] I look at old pictures and tell myself I was too clingy, too dramatic, too much. I zoom in on my own face and make a whole case that he left because loving me became exhausting.",
-        "suggestion": "That sounds like a harsh self-evaluative voice attacking you for wanting closeness. We can put that critic in one chair and the part that wanted love in the other. From this chair, say the attack directly; then we will switch and hear what it does to you."
+        "suggestion": "That sounds like a harsh self-evaluative voice attacking you for wanting closeness. Would it be okay to put that critic in one chair and the part that wanted love in the other? Start here as the critic and say the attack directly; then we will switch and hear what it does to you."
       },
       {
         "text": "[Angry] I still replay lunch with my friend, when she said maybe I should just move on. I smiled like I understood, but inside I wanted to say, Stop rushing me, you are making me feel ridiculous for still loving him.",
@@ -3825,7 +3825,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Softly] When I start to miss him, I grab my phone and scroll until the feeling goes flat. My thumb just keeps moving, and by the time I look up I can tell myself it was not that important.",
-        "suggestion": "That sounds like you interrupt the missing before it can fully arrive. We can use two chairs: in this chair, show how you flatten the feeling with the phone; then we will switch and let the missing side say a few words."
+        "suggestion": "That sounds like you interrupt the missing before it can fully arrive. Could we use two chairs to see how that happens? From this chair, show how you flatten the feeling with the phone; then we will switch and let the missing side say a few words."
       },
       {
         "text": "[Tearful] I keep thinking I ruined the relationship by asking for too much. I replay the night he said he needed space, and then I hear myself saying, You pushed too hard, you should have been easier to love.",
@@ -3847,7 +3847,7 @@ export const STATEMENT_SETS = {
     "case-michael": [
       {
         "text": "[Tense and ashamed] Whenever I feel hurt, especially when my wife says I look wounded, my father's words come back: Stop being weak and get control. Then I straighten up and start talking like nothing landed.",
-        "suggestion": "It sounds like you are carrying a harsh message from your father that now turns on you. We can put that message in one chair and the part of you it shames in the other, and let them speak one turn each."
+        "suggestion": "It sounds like you are carrying a harsh message from your father that now turns on you. Would you be willing to put that message in one chair and the shamed part in the other? Start as the message: tell him to stop being weak and get control."
       },
       {
         "text": "[Tense and angry] I still want to tell my father what it cost me when he called every feeling weakness.",
@@ -3871,7 +3871,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Worried] Before a presentation, I check the deck all night because one mistake would prove I should not be in charge.",
-        "suggestion": "That sounds like a worry-split that pressures you with catastrophe. We can put the worrying part in this chair and have it tell you exactly what it predicts if one mistake happens; then we will switch and hear from the pressured side."
+        "suggestion": "That sounds like a worry-split that pressures you with catastrophe. Could we set up two chairs for a few minutes? Sit here as the worrying part and tell him exactly what one mistake would prove; then we will switch and hear from the pressured side."
       },
       {
         "text": "[Ashamed] The morning after I drink too much, I sit on the edge of the bed and the attack starts before I even remember everything. Pathetic. Weak. Same useless man, just pretending he has control.",
@@ -3889,7 +3889,7 @@ export const STATEMENT_SETS = {
     "case-jason": [
       {
         "text": "[Quietly] I tell myself to keep my head down, because if people really see me they will laugh. In seminars I can feel the warning start before I speak: stay small, do not give them anything to notice.",
-        "suggestion": "I hear you using a harsh warning to hide yourself before anyone can laugh. We can give that warning side one chair and your quieter, exposed side the other, and let each speak in short turns."
+        "suggestion": "I hear a harsh warning that hides you before anyone can laugh. Would it be okay to give that warning side one chair and your quieter, exposed side the other? Start as the warning and tell him why he must stay small."
       },
       {
         "text": "[Hesitant] I still wonder what I would say to that friend from school who just stopped talking to me. One week we sat together at lunch, and then he looked past me like I was not there. I never asked why.",
@@ -3913,7 +3913,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Worried] Before a group event, my mind starts listing every way I could humiliate myself. It shows me standing alone, saying the wrong thing, laughing too late, everyone noticing. By the time I get there, I am already trying not to be seen.",
-        "suggestion": "That sounds like a catastrophizing worry-split preparing you for humiliation by flooding you with scenes. We can put the worrying voice in this chair and have it list the feared moments directly; then we will switch and hear from the part that has to arrive at the event after listening to all of that."
+        "suggestion": "That sounds like a catastrophizing worry-split preparing you for humiliation by flooding you with scenes. If you are willing, we can use two chairs: sit here as the worry and list the feared moments directly; then we will switch and hear from the part that has to arrive after listening to all of that."
       },
       {
         "text": "[Ashamed] When I do not get invited, I tell myself nobody wanted me there anyway. Then I act like I did not care, but inside I keep saying, See, this is what happens when people have a choice about you.",
@@ -3951,7 +3951,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Slow and flat] When anger starts, I wipe the counter, check the locks, or pour a drink until the feeling disappears. I do not decide to stop it; I just become busy and far away before it has words.",
-        "suggestion": "That sounds like you interrupt the anger by becoming busy and far away before it can speak. We can use two chairs. From this chair, show how you wipe, check, pour, and make the anger disappear; then we will switch and give the anger a few words without forcing it."
+        "suggestion": "That sounds like you interrupt the anger by becoming busy and far away before it can speak. If it feels safe enough, we can use two chairs. From this chair, show how you wipe, check, pour, and make the anger disappear; then we will switch and give the anger a few words without forcing it."
       },
       {
         "text": "[Ashamed] I tell myself I should have known better than to trust him. I go over little signs I ignored and make a case against myself, like I was stupid for wanting to believe he was safe.",
@@ -3967,7 +3967,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Distant] I still picture my bedroom door after it happened, waiting to hear my mother come down the hall. She never did. I want to ask her, Why did you never come to my room afterward?",
-        "suggestion": "That sounds like unfinished business with your mother around not being protected or reached after it happened. We can bring her into the empty chair and let you ask, 'why did you never come to my room afterward?' only as far as feels tolerable."
+        "suggestion": "That sounds like unfinished business with your mother around not being protected or reached after it happened. If it feels manageable, we can bring her into the empty chair and let you ask, 'why did you never come to my room afterward?' only as far as feels tolerable."
       }
     ],
     "case-carlos": [
@@ -3981,11 +3981,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and ashamed] I start to say sorry to my son, and my mouth shuts. I think, don't show weakness, and my face goes hard.",
-        "suggestion": "That sounds like something stops the apology before the softer feeling can reach him. We can use two chairs: from this chair, tell him not to show weakness and make the case for staying hard; then we will switch and hear from the father who wants to repair."
+        "suggestion": "That sounds like something stops the apology before the softer feeling can reach him. Would you be willing to use two chairs? From this chair, tell him not to show weakness and make the case for staying hard; then we will switch and hear from the father who wants to repair."
       },
       {
         "text": "[Ashamed] After I yell, I call myself a monster and then get angry at myself for thinking that. Everyone goes quiet, I hear that word in my head, and then another part snaps back, Stop whining and fix it.",
-        "suggestion": "That sounds like a harsh self-attack after the anger. We can put the voice that calls you a monster in one chair and the part that is hit by it in the other; then we will let the attacked side answer."
+        "suggestion": "That sounds like a harsh self-attack after the anger. Can we put the voice that calls you a monster in one chair and the part that is hit by it in the other? Start as the attacking voice and say the word monster directly; then we will let the attacked side answer."
       },
       {
         "text": "[Tense and angry] I want to tell my father, I was a kid, not one of your soldiers. He made me stand straight and take it, and even now I feel my back lock before I can say how scared I was.",
@@ -3997,7 +3997,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Worried] If I let my son talk back once, I imagine losing all respect in the house. First he rolls his eyes, then my wife sees I have no authority, then nobody listens and I am nothing there.",
-        "suggestion": "That sounds like a catastrophizing worry about respect. We can put the worry in one chair and have it predict exactly what will happen if he talks back; then we will switch and hear from the father under that pressure."
+        "suggestion": "That sounds like a catastrophizing worry about respect. Could we put the worry in one chair and let it predict exactly what happens if he talks back? Start with the eye roll and follow the chain; then we will switch and hear from the father under that pressure."
       },
       {
         "text": "[Defensive] I tell myself only losers need help with anger. Then I think of my father laughing at a man who could not control his house, and I hear that same laugh in my head when my wife says therapy might help.",
@@ -4019,11 +4019,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Apologetic] I keep thinking of what I never said to my ex: You left me carrying everything, then blamed me for being tired.",
-        "suggestion": "I hear unfinished business with your ex around carrying too much and then being blamed for exhaustion. We could use the empty chair; first, tell him that exact sentence and what it cost you to swallow it."
+        "suggestion": "I hear unfinished business with your ex around carrying too much and then being blamed for exhaustion. Would it be okay to use the empty chair? Place him here and tell him that exact sentence first, then what it cost you to swallow it."
       },
       {
         "text": "[Guilty] When I feel angry about being needed, I immediately think I am a bad person. Then I smile and ask what else they need.",
-        "suggestion": "That sounds like the bad-person message stops your anger and sends you back into caring. We can use two chairs: from this chair, tell her she is bad for feeling angry; then we will switch and let the anger say a few plain words."
+        "suggestion": "That sounds like the bad-person message stops your anger and sends you back into caring. Can we use two chairs to make that sequence visible? From this chair, tell her she is bad for feeling angry; then we will switch and let the anger say a few plain words."
       },
       {
         "text": "[Tired] I tell myself a good mother would not want an hour where nobody needs her. When I close the bedroom door, the rule starts up: selfish, lazy, what kind of mother hides from her own family?",
@@ -4051,7 +4051,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Worried] When I rest, my mind lists everyone who might fall apart without me. It starts with my mother needing a ride, then the boys forgetting something, then the house becoming chaos, and suddenly sitting still feels like negligence.",
-        "suggestion": "That sounds like a worry-split pressures you back into carrying everyone by predicting collapse. We can put the worry in this chair and have it list the feared consequences in its own words; then we will switch and hear from the exhausted side that is trying to rest under that pressure."
+        "suggestion": "That sounds like a worry-split pressures you back into carrying everyone by predicting collapse. Would you be willing to put the worry in this chair? Let it list the feared consequences in its own words; then we will switch and hear from the exhausted side trying to rest under that pressure."
       }
     ],
     "case-aisha": [
@@ -4081,11 +4081,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Worried] If you do not answer, my head shows me ten scenes where I am replaced and everyone knows. It goes from one quiet phone to you deciding I am too much, then everyone agreeing I was always too much.",
-        "suggestion": "That sounds like a catastrophizing worry-split. We can put the worry in one chair and have it show the scenes out loud; then we will switch to the side that gets flooded by them."
+        "suggestion": "That sounds like a catastrophizing worry-split that floods you with replacement scenes. If you are willing, we can use two chairs: sit here as the worry and show the scenes out loud, one at a time; then we will switch to the side that gets flooded by them."
       },
       {
         "text": "[Low voice] I never got to tell the person who hurt me, You do not get to make me dirty. The words catch because part of me imagines him laughing, but another part still wants to say them to his face.",
-        "suggestion": "That is unfinished business with the person who hurt you. If we do this, we go very slowly: put him in the empty chair and say only that line first, while we keep your feet in the room and your choice intact."
+        "suggestion": "That is unfinished business with the person who hurt you. If you choose to try it, we go very slowly: place him in the empty chair and say only that line first, while we keep your feet in the room and your choice intact."
       },
       {
         "text": "[Ashamed] When I want closeness, I call myself pathetic before anyone else can. If I miss someone, I tell myself to shut up, stop begging, stop acting like a child. It is like I attack the need before the other person gets the chance.",
@@ -4099,7 +4099,7 @@ export const STATEMENT_SETS = {
     "case-david": [
       {
         "text": "[Self-blaming] If I am not exceptional, I tell myself there is no reason anyone would stay. Ordinary means replaceable. Replaceable means I have already lost; they just have not said it out loud yet.",
-        "suggestion": "That sounds like a demanding self-evaluative voice that makes your worth depend on being exceptional and treats ordinary as abandonment already starting. We can put that demand in one chair and the side that pays the price in the other. From this chair, make the case that ordinary means replaceable; then we will switch."
+        "suggestion": "That sounds like a demanding self-evaluative voice that makes your worth depend on being exceptional and treats ordinary as abandonment already starting. Could we put that demand in one chair and the side paying the price in the other? From this chair, make the case that ordinary means replaceable; then we will switch."
       },
       {
         "text": "[Dismissive] My wife says she might be done, and I tell myself only an idiot destroys his own family and still expects sympathy.",
@@ -4119,7 +4119,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Controlled] When shame rises, I start listing achievements until I cannot feel it. I go through revenue numbers, promotions, things people envy. It works for a minute, but then I am alone with the same hollow feeling and even more contempt for needing the list.",
-        "suggestion": "That sounds like achievement-listing interrupts the shame before it can be felt, but leaves another cost behind. We can use two chairs: from this chair, list the achievements and make the case for blocking the shame; then we will switch and hear from the shamed side that remains after the list runs out."
+        "suggestion": "That sounds like achievement-listing interrupts the shame before it can be felt, but leaves another cost behind. Would it be okay to use two chairs? From this chair, list the achievements and make the case for blocking the shame; then we will switch and hear from the shamed side that remains after the list runs out."
       },
       {
         "text": "[Worried] If I admit one mistake, I picture everyone deciding I am a fraud. It does not stop at the mistake; it becomes the board losing confidence, my wife saying she knew it, people realizing the whole image was fake.",
@@ -4127,7 +4127,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Low voice] I want to tell my wife I am terrified she finally sees the real me. After our last argument she looked at me like the performance was over, and I wanted to say, Please do not decide this is all I am.",
-        "suggestion": "That sounds like unfinished business with your wife around being seen and possibly left. We can bring her into the empty chair and let you say that sentence carefully, without having to defend it."
+        "suggestion": "That sounds like unfinished business with your wife around being seen and possibly left. If you are willing, we can bring her into the empty chair and let you say that sentence carefully, without having to defend it."
       },
       {
         "text": "[Ashamed] I tell myself the affair proves I am trash. Not just that I did something destructive, but that underneath the title, the money, all of it, this is who I actually am. Then I hate myself for sounding dramatic.",
@@ -4153,7 +4153,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Flat] I tell myself I should be over it by now; other people had it worse and still function. When I cannot sleep or fill out paperwork, the voice says I am using the past as an excuse.",
-        "suggestion": "That sounds like a self-critical voice dismissing the impact of what happened. We can put that voice in one chair and the part still carrying it in the other, then let them speak in short, contained turns."
+        "suggestion": "That sounds like a self-critical voice dismissing the impact of what happened. If it feels workable, we can put that voice in one chair and the part still carrying it in the other. Start as the dismissing voice: tell him he should be over it by now."
       },
       {
         "text": "[Low voice] I want to ask my foster mother why nobody came when I knocked. I remember keeping it quiet at first, then knocking harder, then stopping because I figured I was making it worse. I never got to ask if she heard me.",
@@ -4165,11 +4165,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Worried] If I sleep deeply, I worry I will wake up back there and not know where I am. So I keep the TV on and make myself stay half-alert, like the worry is standing guard.",
-        "suggestion": "That sounds like a worry-split keeping you on guard. We can put the worry in this chair and have it warn you about sleep; then we will switch and hear from the exhausted side."
+        "suggestion": "That sounds like a worry-split keeping you on guard. Would you be willing to put the worry in this chair? Let it warn you about sleep and what might happen; then we will switch and hear from the exhausted side."
       },
       {
         "text": "[Furious] I still want to tell my father, You brought the war home and made us live inside it. He would talk about what happened to him like it explained everything, but I was the one listening for his boots at night.",
-        "suggestion": "That is unfinished business with your father around violence and fear in the home. We can bring him into the empty chair and let you say that line directly, with enough pauses to keep you grounded."
+        "suggestion": "That is unfinished business with your father around violence and fear in the home. If you choose to try it, we can bring him into the empty chair and let you say that line directly, with enough pauses to keep you grounded."
       },
       {
         "text": "[Ashamed] Needing help makes me tell myself I am useless. If I cannot handle paperwork, sleep, phone calls, normal things, then I hear, What are you even good for? So I stop asking and let things pile up.",
@@ -4177,7 +4177,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and guarded] When my sister asks about the past, I hear, Shut it down, and I change the subject.",
-        "suggestion": "That sounds like a self-interruptive voice stopping contact with the past. We can use two chairs: from this chair, say 'shut it down' and show how you change the subject; then we will switch and hear from the side that was being asked."
+        "suggestion": "That sounds like a self-interruptive voice stopping contact with the past. Could we use two chairs for a short round? From this chair, say 'shut it down' and show how you change the subject; then we will switch and hear from the side that was being asked."
       }
     ]
   },
