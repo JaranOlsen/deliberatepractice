@@ -58,7 +58,7 @@ Automated averages are triage only, not quality scores. They still reveal places
 | Skill | App Statement Avg | Benchmark Statement Avg | App Suggestion Avg | Benchmark Response Avg | Signal |
 | --- | ---: | ---: | ---: | ---: | --- |
 | Therapist Self-Awareness | 63.9 | 76.8 | 26.1 | 25.9 | Now structurally close. |
-| Empathic Understanding | 16.0 | 32.9 | 12.9 | 17.8 | App is concise; likely acceptable but needs coverage checks. |
+| Empathic Understanding | 16.0 | 32.9 | 12.9 | 17.8 | Regression/breadth pass complete; strong, with later Bokmal polish only. |
 | Empathic Affirmation and Validation | 17.9 | 27.1 | 20.6 | 23.0 | Moderate breadth pass complete; now strong with later regression polish needed. |
 | Exploratory Questions | 16.8 | 22.5 | 11.8 | 26.3 | App intentionally keeps questions cleaner than Goldman examples. |
 | Treatment Rationale | 15.5 | 20.5 | 28.8 | 54.2 | App is briefer than Goldman but usually clinically focused. |
@@ -74,15 +74,15 @@ Automated averages are triage only, not quality scores. They still reveal places
 
 | Rank | Skill | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Empathic Understanding | Strong basic response contract. Some app markers are shorter and more case-specific than Goldman, but the skill does not require long prompts. | Regression and ordinary-life breadth checks. |
-| 2 | Empathic Conjectures | Now strong after a response-boundary pass across 44 items. Suggestions more consistently stay tentative, close to the marker, and one step beyond explicit content. Quality rating: about 8.3/10. | Later marker-breadth and Bokmal naturalness polish only unless flagged. |
-| 3 | Self-Disclosure | Now strong after a 25-item boundary/transparency pass. Responses more clearly answer the relevant therapist question, keep boundaries explicit, and return focus to the client. Quality rating: about 8.2/10. | Later Bokmal naturalness and marker-breadth polish only unless flagged. |
-| 4 | Empathic Explorations | Now strong after a 25-item response-boundary pass. Suggestions more consistently stay with the shown edge and invite one manageable next moment of contact. Quality rating: about 8.1/10. | Later marker-breadth and Bokmal polish only unless flagged. |
-| 5 | Alliance Repair | Now strong after marker enrichment and a high-risk rupture response pass across 23 items. Suggestions more reliably receive impact, own therapist contribution, clarify frame without defensiveness, and ask what helps now. Quality rating: about 8.2/10. | Later regression polish only, especially Bokmal naturalness and response-opening variety. |
-| 6 | Staying in Contact with Intense Affect | Third pass moved the responses closer to Goldman-level presence: contact first, then safety, titration, or boundary clarity when clinically needed. Quality rating: 8.1/10. | Later high-risk regression only. |
-| 7 | Marker Recognition and Chair Work | Now strong after marker expansion, residual marker work, and a suggestion-sequencing pass across 23 easy, moderate, and hard items. Suggestions now more reliably include consent, correct chair placement, and first enactment. Quality rating: about 8.1/10. | Later regression polish only, especially high-risk chair-work setup and Norwegian naturalness. |
-| 8 | Empathic Affirmation and Validation | Targeted moderate-tier pass broadened the Goldman coverage: depressive withdrawal, conflicted positive feeling, grief about home/family, parenting shame, culturally loaded generosity guilt, and pride/fear about a child's risk. Quality rating: 8.0/10. | Regression polish only unless flagged, especially response-opening variety and Norwegian naturalness. |
-| 9 | Empathic Evocations | Much improved. The main risk is regression: client statements must not start supplying the best image again. | Regression scan only unless a bad marker is found. |
+| 1 | Empathic Affirmation and Validation | Targeted moderate-tier pass broadened Goldman coverage, but this is now the lowest rated remaining active skill. Quality rating: 8.0/10. | Regression polish, especially response-opening variety, reassurance drift, and Norwegian naturalness. |
+| 2 | Empathic Evocations | Much improved. The main risk is regression: client statements must not start supplying the best image again. | Regression scan for marker flatness and response imagery only unless a bad marker is found. |
+| 3 | Marker Recognition and Chair Work | Now strong after marker expansion, residual marker work, and a suggestion-sequencing pass across 23 easy, moderate, and hard items. Suggestions now more reliably include consent, correct chair placement, and first enactment. Quality rating: about 8.1/10. | Later regression polish only, especially high-risk chair-work setup and Norwegian naturalness. |
+| 4 | Staying in Contact with Intense Affect | Third pass moved the responses closer to Goldman-level presence: contact first, then safety, titration, or boundary clarity when clinically needed. Quality rating: 8.1/10. | Later high-risk regression only. |
+| 5 | Empathic Explorations | Now strong after a 25-item response-boundary pass. Suggestions more consistently stay with the shown edge and invite one manageable next moment of contact. Quality rating: about 8.1/10. | Later marker-breadth and Bokmal polish only unless flagged. |
+| 6 | Alliance Repair | Now strong after marker enrichment and a high-risk rupture response pass across 23 items. Suggestions more reliably receive impact, own therapist contribution, clarify frame without defensiveness, and ask what helps now. Quality rating: about 8.2/10. | Later regression polish only, especially Bokmal naturalness and response-opening variety. |
+| 7 | Self-Disclosure | Now strong after a 25-item boundary/transparency pass. Responses more clearly answer the relevant therapist question, keep boundaries explicit, and return focus to the client. Quality rating: about 8.2/10. | Later Bokmal naturalness and marker-breadth polish only unless flagged. |
+| 8 | Empathic Conjectures | Now strong after a response-boundary pass across 44 items. Suggestions more consistently stay tentative, close to the marker, and one step beyond explicit content. Quality rating: about 8.3/10. | Later marker-breadth and Bokmal naturalness polish only unless flagged. |
+| 9 | Empathic Understanding | Now strong after a 37-item regression/breadth pass. Suggestions more reliably stay with explicit emotional meaning and avoid conjecture, validation, and explanatory language. Quality rating: about 8.4/10. | Later Bokmal-only polish unless flagged. |
 | 10 | Exploratory Questions | Strong and deliberately cleaner than some Goldman examples. App questions being shorter is acceptable if they remain inward-turning and singular. | Regression checks for question chains or hidden conjecture. |
 | 11 | Treatment Rationale | Strong. App responses are shorter than Goldman but often better suited to deliberate practice because they are plain-language and client-specific. | Low priority; polish only when flagged. |
 | 12 | Therapist Self-Awareness | Now structurally corrected: long activating markers and suggestions as self-awareness disclosures rather than client interventions. | Low priority; only regression and Norwegian polish. |
@@ -159,9 +159,23 @@ Current conjectures state after this pass:
 
 Empathic Conjectures is now strong enough to leave the active-priority slot. Later work should focus on marker breadth and Bokmal naturalness rather than broad rewriting.
 
-### Next Pass: Empathic Understanding
+### Implementation Update: Empathic Understanding
 
-The next highest-value slice should be an empathic-understanding regression and breadth pass. The pass should judge whether brief client markers still give enough ordinary-life specificity for a clean reflection, whether suggestions reflect only the explicit emotional meaning without adding conjecture or validation, and whether Bokmal localizations sound like natural spoken Norwegian.
+An empathic-understanding regression and breadth pass revised 37 items across moderate and hard cases.
+
+Current understanding state after this pass:
+
+- 90 total items preserved.
+- Quality rating increased to about 8.4/10.
+- The edited suggestions more consistently reflect only the client's explicit emotional meaning, without adding protective-function conjecture, reassurance, advice, validation, or case formulation.
+- The pass simplified several hard-case responses for Aisha, David, and Marcus so they remain basic reflections even when the marker contains self-harm, substance-use, trauma, or attachment-panic content.
+- Every edited English item has a matching Bokmal localization.
+
+Empathic Understanding is now strong enough to leave the active-priority slot. Later work should be Bokmal-only polish unless feedback flags a specific item.
+
+### Next Pass: Empathic Affirmation and Validation
+
+The next highest-value slice should be an empathic-affirmation-and-validation regression pass. The pass should judge whether responses validate context-specific legitimacy without reassurance, advice, agreement, or conjecture, and should reduce repeated openings while improving Bokmal naturalness.
 
 ### Implementation Update: Empathic Affirmation and Validation
 
