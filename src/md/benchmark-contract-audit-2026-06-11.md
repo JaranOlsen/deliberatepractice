@@ -67,16 +67,16 @@ Automated averages are triage only, not quality scores. They still reveal places
 | Empathic Conjectures | 16.8 | 21.5 | 20.1 | 21.8 | Structurally close. |
 | Staying in Contact with Intense Affect | 31.3 | 35.3 | 29.1 | 22.6 | Third response-quality pass complete; now strong, with residual regression risk in high-risk items. |
 | Self-Disclosure | 14.8 | 18.4 | 30.7 | 27.6 | Structurally close; targeted boundary examples only. |
-| Marker Recognition and Chair Work | 35.4 | 37.5 | 48.4 | 84.3 | Now close on marker training affordance; suggestions remain shorter but task-focused. |
+| Marker Recognition and Chair Work | 35.4 | 37.5 | 48.4 | 84.3 | Suggestion sequencing pass complete; strong, with residual high-risk and Bokmal regression polish. |
 | Alliance Repair | 34.2 | 35.0 | 44.9 | 104.8 | Now close on marker training affordance; suggestions remain intentionally briefer than Goldman scripts. |
 
 ## Skill Ranking
 
 | Rank | Skill | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Marker Recognition and Chair Work | Now close on marker training affordance after expansion and residual passes. Remaining work should judge whether suggestions model enough setup, consent, chair placement, and first enactment, not mechanically lengthen markers. | Regression and suggestion-sequence scan is now the highest-value next pass. |
-| 2 | Alliance Repair | Now close on marker length and coverage after three enrichment passes. Residual work should judge rupture process quality, not mechanically lengthen items. | Regression and high-risk rupture scan after chair-work. |
-| 3 | Staying in Contact with Intense Affect | Third pass moved the responses closer to Goldman-level presence: contact first, then safety, titration, or boundary clarity when clinically needed. Quality rating: 8.1/10. | One later regression pass should check high-risk items again, but the set is no longer the clearest active gap. |
+| 1 | Alliance Repair | Now close on marker length and coverage after three enrichment passes. Residual work should judge rupture process quality, not mechanically lengthen items. | Regression and high-risk rupture scan is now the highest-value next pass. |
+| 2 | Staying in Contact with Intense Affect | Third pass moved the responses closer to Goldman-level presence: contact first, then safety, titration, or boundary clarity when clinically needed. Quality rating: 8.1/10. | One later regression pass should check high-risk items again, but the set is no longer the clearest active gap. |
+| 3 | Marker Recognition and Chair Work | Now strong after marker expansion, residual marker work, and a suggestion-sequencing pass across 23 easy, moderate, and hard items. Suggestions now more reliably include consent, correct chair placement, and first enactment. Quality rating: about 8.1/10. | Later regression polish only, especially high-risk chair-work setup and Norwegian naturalness. |
 | 4 | Empathic Affirmation and Validation | Targeted moderate-tier pass broadened the Goldman coverage: depressive withdrawal, conflicted positive feeling, grief about home/family, parenting shame, culturally loaded generosity guilt, and pride/fear about a child's risk. Quality rating: 8.0/10. | Regression polish only unless flagged, especially response-opening variety and Norwegian naturalness. |
 | 5 | Empathic Explorations | Mostly sound, but hard cases can drift toward intense-affect or conjecture because the cases are severe. | Regression pass focused on response boundary: reflect plus one small invitation. |
 | 6 | Empathic Evocations | Much improved. The main risk is regression: client statements must not start supplying the best image again. | Regression scan only unless a bad marker is found. |
@@ -101,7 +101,7 @@ Use this order when choosing the next pass:
 
 ### Implementation Update: Marker Recognition and Chair Work
 
-The first chair-work enrichment pass was completed for 44 underdeveloped items, followed by a residual marker pass for the remaining most compressed items.
+The first chair-work enrichment pass was completed for 44 underdeveloped items, followed by a residual marker pass for the remaining most compressed items. A further suggestion-sequencing pass then revised 23 items across easy, moderate, and hard cases.
 
 Current chair-work metrics after the residual pass:
 
@@ -112,12 +112,14 @@ Current chair-work metrics after the residual pass:
 - 71 of 90 markers now contain at least 30 words.
 - 0 markers remain below 20 words; 13 remain below 25 words and should now be judged by marker suitability rather than mechanically expanded.
 - Every edited English item has a matching Bokmal localization and a suggestion that explicitly launches the relevant chair task.
+- The revised suggestions now more consistently model the Goldman sequence: name the marker in ordinary language, ask permission, identify the chair setup, and give the first concrete enactment.
+- Current quality rating: about 8.1/10. The set is strong deliberate-practice content, with remaining work best framed as regression polish rather than broad rewriting.
 
-The section is no longer the clearest structural mismatch. It still deserves later review of the suggestion sequence, but the next highest-value contract gap is now Staying in Contact with Intense Affect.
+The section is no longer the clearest structural mismatch. Later review should focus on high-risk chair-work setup and Bokmal naturalness, not further broad expansion.
 
-### Next Pass: Marker Recognition and Chair Work
+### Next Pass: Alliance Repair
 
-The next highest-value slice should be Marker Recognition and Chair Work suggestion sequencing. The markers now mostly provide good chair-work affordance, so the next pass should check whether therapist suggestions consistently model consent, chair placement, first enactment, and non-leading task setup without becoming overlong scripts.
+The next highest-value slice should be an Alliance Repair regression and high-risk rupture scan. The markers now mostly provide good rupture affordance, so the next pass should judge whether therapist responses consistently receive the impact, own the therapist contribution without overconfessing, and ask what would help now.
 
 ### Implementation Update: Empathic Affirmation and Validation
 
