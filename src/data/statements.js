@@ -3804,11 +3804,11 @@ export const STATEMENT_SETS = {
   "marker-recognition-chairwork": {
     "case-sara": [
       {
-        "text": "[Softly] I keep telling myself that if I were stronger, I would be over him by now.",
+        "text": "[Softly] I keep telling myself that if I were stronger, I would be over him by now. It comes at night when I miss him: normal people move on, you are pathetic for still needing someone who left.",
         "suggestion": "It sounds like you are coming down hard on yourself for still needing him. If you are willing, we can put that demanding side in one chair and the hurting side in the other. Let the demanding side speak first in a few direct lines, then switch and answer from the hurt side while I guide the pace."
       },
       {
-        "text": "[Angry] I keep replaying what I wish I had said when he left: You made me feel disposable.",
+        "text": "[Angry] I keep replaying what I wish I had said when he left. He packed so calmly, like I was already in the past, and I froze. Later I kept hearing: You made me feel disposable.",
         "suggestion": "That sounds like unfinished business with him around being made to feel disposable. If you are willing, we can place him in the empty chair and have you say that sentence directly to him, one or two lines at a time."
       },
       {
@@ -3816,7 +3816,7 @@ export const STATEMENT_SETS = {
         "suggestion": "That sounds like you interrupt the tears by shaming the crying part and forcing it back down. If you are willing, we can use two chairs. From this chair, show how you swallow, stare away, and tell her not to make a scene; then we will switch and hear from the tearful side."
       },
       {
-        "text": "[Embarrassed] I look at old pictures and tell myself I was too clingy, too dramatic, too much.",
+        "text": "[Embarrassed] I look at old pictures and tell myself I was too clingy, too dramatic, too much. I zoom in on my own face and make a whole case that he left because loving me became exhausting.",
         "suggestion": "That sounds like a harsh self-evaluative voice attacking you for wanting closeness. We can put that critic in one chair and the part that wanted love in the other. From this chair, say the attack directly; then we will switch and hear what it does to you."
       },
       {
@@ -3824,7 +3824,7 @@ export const STATEMENT_SETS = {
         "suggestion": "That sounds like unfinished business with your friend around being hurried past grief and made to feel ridiculous. If you are willing, we can place her in the empty chair and let you say the first line directly: 'stop rushing me.' Then we will pause and see what else needs to be said."
       },
       {
-        "text": "[Softly] When I start to miss him, I grab my phone and scroll until the feeling goes flat.",
+        "text": "[Softly] When I start to miss him, I grab my phone and scroll until the feeling goes flat. My thumb just keeps moving, and by the time I look up I can tell myself it was not that important.",
         "suggestion": "That sounds like you interrupt the missing before it can fully arrive. We can use two chairs: in this chair, show how you flatten the feeling with the phone; then we will switch and let the missing side say a few words."
       },
       {
@@ -3832,7 +3832,7 @@ export const STATEMENT_SETS = {
         "suggestion": "It sounds like a blaming voice is turning your need for closeness into evidence against you. If you are willing, we can use two chairs to make that pattern clearer. From this chair, tell her she pushed too hard and should have been easier to love; then we will switch and hear from the side that needed him."
       },
       {
-        "text": "[Hesitant] I imagine telling him, You left me alone with all of this, and then I stop myself.",
+        "text": "[Hesitant] I imagine telling him, You left me alone with all of this, and then I stop myself. My throat closes and I think, Do not send that, do not be pathetic, he already chose to go.",
         "suggestion": "That sounds like both unfinished business with him and an interruption of your own voice. We can start with the empty chair: put him here and say the first line, 'You left me alone with all of this,' only as far as feels workable."
       },
       {
@@ -3846,7 +3846,7 @@ export const STATEMENT_SETS = {
     ],
     "case-michael": [
       {
-        "text": "[Tense and ashamed] Whenever I feel hurt, my father's words come back: Stop being weak and get control.",
+        "text": "[Tense and ashamed] Whenever I feel hurt, especially when my wife says I look wounded, my father's words come back: Stop being weak and get control. Then I straighten up and start talking like nothing landed.",
         "suggestion": "It sounds like you are carrying a harsh message from your father that now turns on you. We can put that message in one chair and the part of you it shames in the other, and let them speak one turn each."
       },
       {
@@ -3878,7 +3878,7 @@ export const STATEMENT_SETS = {
         "suggestion": "That is a harsh self-evaluative split around drinking, weakness, and control. Can we put that attacking voice in one chair and the ashamed part in the other? From this chair, say the attack directly; then we will switch so you can hear what it does and begin to answer it."
       },
       {
-        "text": "[Low voice] I wish I could tell my son I am scared he is learning fear from me.",
+        "text": "[Low voice] I wish I could tell my son I am scared he is learning fear from me. When he flinches at my voice, I want to say, I know that look, and I hate that it is now connected to me.",
         "suggestion": "That sounds like unfinished business with your son and what has not been said between you. We can place him in the empty chair and let you say that carefully, while we keep the pace slow enough to stay with it."
       },
       {
@@ -3888,11 +3888,11 @@ export const STATEMENT_SETS = {
     ],
     "case-jason": [
       {
-        "text": "[Quietly] I tell myself to keep my head down, because if people really see me they will laugh.",
+        "text": "[Quietly] I tell myself to keep my head down, because if people really see me they will laugh. In seminars I can feel the warning start before I speak: stay small, do not give them anything to notice.",
         "suggestion": "I hear you using a harsh warning to hide yourself before anyone can laugh. We can give that warning side one chair and your quieter, exposed side the other, and let each speak in short turns."
       },
       {
-        "text": "[Hesitant] I still wonder what I would say to that friend from school who just stopped talking to me.",
+        "text": "[Hesitant] I still wonder what I would say to that friend from school who just stopped talking to me. One week we sat together at lunch, and then he looked past me like I was not there. I never asked why.",
         "suggestion": "That sounds like unfinished business with that friend. We could put him in the empty chair and let you ask what got left unasked back then, just a few lines at a time."
       },
       {
@@ -3924,7 +3924,7 @@ export const STATEMENT_SETS = {
         "suggestion": "That sounds like unfinished business with that old friend, with a question that never got a place to land. If you are willing, we can place him in the empty chair and let you say the first line directly: 'you disappeared and I never knew why.' Then we will pause and notice what your younger self still needs to say."
       },
       {
-        "text": "[Anxious] When I want to ask a question in class, I stare at my notes until the chance passes.",
+        "text": "[Anxious] When I want to ask a question in class, I stare at my notes until the chance passes. I know the question is probably normal, but I make myself look busy until the professor moves on.",
         "suggestion": "That sounds like you stop your own voice before it can enter the room. We can use two chairs: from this chair, show how you make him stare down and stay silent; then we will switch to the side that wanted to ask."
       }
     ],
@@ -3962,7 +3962,7 @@ export const STATEMENT_SETS = {
         "suggestion": "That is unfinished business with the person who hurt you. If it feels safe enough and we go very slowly, we can place him in the empty chair and let you say only that sentence, with pauses and control."
       },
       {
-        "text": "[Tense and ashamed] When I start to say I am angry, I hear, Do not make trouble.",
+        "text": "[Tense and ashamed] When I start to say I am angry, I hear, Do not make trouble. My shoulders go tight, my voice gets polite, and suddenly I am explaining why it was probably not a big deal.",
         "suggestion": "That sounds like a self-interruptive voice stopping anger. We can use two chairs: from this chair, say 'do not make trouble' and make its case; then we will switch and hear from the angry side."
       },
       {
@@ -3972,7 +3972,7 @@ export const STATEMENT_SETS = {
     ],
     "case-carlos": [
       {
-        "text": "[Angry, clenching fists] After I punched the wall, I kept thinking, What kind of man scares his own family?",
+        "text": "[Angry, clenching fists] After I punched the wall, I kept thinking, What kind of man scares his own family? I saw my son's face and then the attack started, like there was no father left, only some dangerous man in the kitchen.",
         "suggestion": "It sounds like you are giving yourself a hard time for scaring them. Can we work with that blame for a moment? Sit in this chair and say it directly to him: 'what kind of man scares his own family?' Then we will switch and hear what that does to him."
       },
       {
@@ -3984,11 +3984,11 @@ export const STATEMENT_SETS = {
         "suggestion": "That sounds like something stops the apology before the softer feeling can reach him. We can use two chairs: from this chair, tell him not to show weakness and make the case for staying hard; then we will switch and hear from the father who wants to repair."
       },
       {
-        "text": "[Ashamed] After I yell, I call myself a monster and then get angry at myself for thinking that.",
+        "text": "[Ashamed] After I yell, I call myself a monster and then get angry at myself for thinking that. Everyone goes quiet, I hear that word in my head, and then another part snaps back, Stop whining and fix it.",
         "suggestion": "That sounds like a harsh self-attack after the anger. We can put the voice that calls you a monster in one chair and the part that is hit by it in the other; then we will let the attacked side answer."
       },
       {
-        "text": "[Tense and angry] I want to tell my father, I was a kid, not one of your soldiers.",
+        "text": "[Tense and angry] I want to tell my father, I was a kid, not one of your soldiers. He made me stand straight and take it, and even now I feel my back lock before I can say how scared I was.",
         "suggestion": "That is unfinished business with your father around how he treated you. If you are willing, we can place him in the empty chair and have you say that line directly, with me helping keep it contained."
       },
       {
@@ -3996,7 +3996,7 @@ export const STATEMENT_SETS = {
         "suggestion": "That sounds like you interrupt vulnerability by hardening your face and turning the shaking into a stare. We can use two chairs. From this chair, show how you shut down the shaking and say 'do not let them see you like that'; then we will switch to the side that was shaking."
       },
       {
-        "text": "[Worried] If I let my son talk back once, I imagine losing all respect in the house.",
+        "text": "[Worried] If I let my son talk back once, I imagine losing all respect in the house. First he rolls his eyes, then my wife sees I have no authority, then nobody listens and I am nothing there.",
         "suggestion": "That sounds like a catastrophizing worry about respect. We can put the worry in one chair and have it predict exactly what will happen if he talks back; then we will switch and hear from the father under that pressure."
       },
       {
@@ -4030,7 +4030,7 @@ export const STATEMENT_SETS = {
         "suggestion": "That sounds like a self-critical voice attacking your need for rest through the good-mother rule. We can put that rule in one chair and the exhausted side in the other. First let the rule say 'selfish, lazy, what kind of mother hides?'; then we will switch and hear the tired side."
       },
       {
-        "text": "[Apologetic] I want to tell my mother, I was the child; you were supposed to notice me.",
+        "text": "[Apologetic] I want to tell my mother, I was the child; you were supposed to notice me. When she talks now about how lonely she is, I want to say, I was lonely too, but then I feel cruel.",
         "suggestion": "That sounds like unfinished business with your mother around being unseen. If you are willing, we can bring her into the empty chair and let you say that line directly, just a few words at a time."
       },
       {
@@ -4042,7 +4042,7 @@ export const STATEMENT_SETS = {
         "suggestion": "That sounds like a self-evaluative voice makes your worth depend on constant care. We can put the voice that says 'useless' in one chair and the tired part in the other. From this chair, tell her the missed dinner proves she is failing; then we will switch and hear from the exhausted side that has been carrying so much."
       },
       {
-        "text": "[Tearful] I still want to tell my ex, You left and somehow I am the one still apologizing.",
+        "text": "[Tearful] I still want to tell my ex, You left and somehow I am the one still apologizing. I handle the forms, the boys, the messages, and I still hear myself explaining why I am not doing enough.",
         "suggestion": "That sounds like unfinished business with your ex around blame and apology. We can place him in the empty chair and let you say that sentence directly, then pause and notice what it brings up."
       },
       {
@@ -4064,7 +4064,7 @@ export const STATEMENT_SETS = {
         "suggestion": "That sounds like unfinished business with your ex, where both the rage and the longing are still alive. If you are willing, we can put him in the empty chair and let you say what you keep seeing and what it did to you. Start with, 'I still see you with her...'"
       },
       {
-        "text": "[Fearful and ashamed] After everything that happened to me, I call myself dirty and impossible to love.",
+        "text": "[Fearful and ashamed] After everything that happened to me, I call myself dirty and impossible to love. When someone touches me kindly, the first voice says they would leave if they knew the whole story.",
         "suggestion": "That is a severe self-attack tied to what was done to you. If it feels safe enough, we can put the attacking voice in one chair and the wounded side in the other. Begin by saying the attack exactly as it comes, and then we will switch to the side that has carried it."
       },
       {
@@ -4080,11 +4080,11 @@ export const STATEMENT_SETS = {
         "suggestion": "That sounds like you interrupt the need by attacking first, before the begging part can be seen. We can use two chairs. From this chair, show how you accuse and push away; then we will switch and hear from the side that needed someone to stay."
       },
       {
-        "text": "[Worried] If you do not answer, my head shows me ten scenes where I am replaced and everyone knows.",
+        "text": "[Worried] If you do not answer, my head shows me ten scenes where I am replaced and everyone knows. It goes from one quiet phone to you deciding I am too much, then everyone agreeing I was always too much.",
         "suggestion": "That sounds like a catastrophizing worry-split. We can put the worry in one chair and have it show the scenes out loud; then we will switch to the side that gets flooded by them."
       },
       {
-        "text": "[Low voice] I never got to tell the person who hurt me, You do not get to make me dirty.",
+        "text": "[Low voice] I never got to tell the person who hurt me, You do not get to make me dirty. The words catch because part of me imagines him laughing, but another part still wants to say them to his face.",
         "suggestion": "That is unfinished business with the person who hurt you. If we do this, we go very slowly: put him in the empty chair and say only that line first, while we keep your feet in the room and your choice intact."
       },
       {
@@ -4126,7 +4126,7 @@ export const STATEMENT_SETS = {
         "suggestion": "That sounds like a catastrophizing worry-split that turns one mistake into total exposure. We can put the worry in one chair and let it say exactly what it predicts if you admit one error; then we will switch to the side under that pressure and hear what it is like to live with those scenes."
       },
       {
-        "text": "[Low voice] I want to tell my wife I am terrified she finally sees the real me.",
+        "text": "[Low voice] I want to tell my wife I am terrified she finally sees the real me. After our last argument she looked at me like the performance was over, and I wanted to say, Please do not decide this is all I am.",
         "suggestion": "That sounds like unfinished business with your wife around being seen and possibly left. We can bring her into the empty chair and let you say that sentence carefully, without having to defend it."
       },
       {
@@ -4152,7 +4152,7 @@ export const STATEMENT_SETS = {
         "suggestion": "That sounds like something locks the anger before it gets a voice. If you are willing, we can use two chairs: sit here as the side that says 'don't say it, don't make it worse,' and say that directly to him; then we will switch and let the anger have a few controlled words."
       },
       {
-        "text": "[Flat] I tell myself I should be over it by now; other people had it worse and still function.",
+        "text": "[Flat] I tell myself I should be over it by now; other people had it worse and still function. When I cannot sleep or fill out paperwork, the voice says I am using the past as an excuse.",
         "suggestion": "That sounds like a self-critical voice dismissing the impact of what happened. We can put that voice in one chair and the part still carrying it in the other, then let them speak in short, contained turns."
       },
       {
@@ -4164,11 +4164,11 @@ export const STATEMENT_SETS = {
         "suggestion": "That sounds like you interrupt the shaking voice by shutting speech down before anyone gets more access to you. We can use two chairs. From this chair, show how you put the hand over his mouth and say 'do not give them more'; then we will switch and let the shaking voice have a few words."
       },
       {
-        "text": "[Worried] If I sleep deeply, I worry I will wake up back there and not know where I am.",
+        "text": "[Worried] If I sleep deeply, I worry I will wake up back there and not know where I am. So I keep the TV on and make myself stay half-alert, like the worry is standing guard.",
         "suggestion": "That sounds like a worry-split keeping you on guard. We can put the worry in this chair and have it warn you about sleep; then we will switch and hear from the exhausted side."
       },
       {
-        "text": "[Furious] I still want to tell my father, You brought the war home and made us live inside it.",
+        "text": "[Furious] I still want to tell my father, You brought the war home and made us live inside it. He would talk about what happened to him like it explained everything, but I was the one listening for his boots at night.",
         "suggestion": "That is unfinished business with your father around violence and fear in the home. We can bring him into the empty chair and let you say that line directly, with enough pauses to keep you grounded."
       },
       {
