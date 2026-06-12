@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T16:06:30.324Z",
+  "generatedAt": "2026-06-12T20:53:58.858Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -1048,11 +1048,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tense and angry] Are you tough enough to sit with me when I get this angry?",
-            "response": "I feel steady enough to sit with your anger. I am not here to overpower you or be overpowered by you; I want us to keep the anger in contact instead of making it a contest."
+            "response": "I feel steady enough to sit with your anger. I am not here to overpower you or be overpowered by you; this does not need to become a contest. What is it like to hear that I can stay with your anger without fighting you?"
           },
           "no": {
             "statement": "[Anspent og sint] Er du tøff nok til å sitte med meg når jeg blir så sint?",
-            "response": "Jeg kjenner meg stødig nok til å sitte med sinnet ditt. Jeg er ikke her for å overkjøre deg eller bli overkjørt av deg; jeg vil at vi holder kontakt med sinnet i stedet for å gjøre det til en konkurranse."
+            "response": "Jeg kjenner meg stødig nok til å sitte med sinnet ditt. Jeg er ikke her for å overkjøre deg eller bli overkjørt av deg; dette trenger ikke bli en konkurranse. Hvordan er det å høre at jeg kan være med sinnet ditt uten å slåss med deg?"
           }
         }
       ]
@@ -1073,11 +1073,11 @@
           ],
           "en": {
             "statement": "[Quiet and guarded] Have you actually worked with someone like me, or are you learning on me?",
-            "response": "I have worked with trauma and with people who use few words to stay safe. I will tell you if I think we need more support or a different resource, and I want to hear what it is like to wonder if I am learning on you."
+            "response": "I have worked with trauma and with people who use few words to stay safe. I am always learning, and I am not using you as practice. I have support around my work, and I will tell you if I think we need another resource. What is it like to hear that?"
           },
           "no": {
             "statement": "[Stille og på vakt] Har du faktisk jobbet med noen som meg, eller øver du deg på meg?",
-            "response": "Jeg har jobbet med traumer og med mennesker som bruker få ord for å holde seg trygge. Jeg vil si fra hvis jeg mener at vi trenger mer støtte eller en annen ressurs, og jeg vil også høre hvordan det er å lure på om jeg øver meg på deg."
+            "response": "Jeg har jobbet med traumer og med mennesker som bruker få ord for å holde seg trygge. Jeg lærer fortsatt, og jeg bruker ikke deg som øvingsobjekt. Jeg har støtte rundt arbeidet mitt, og jeg vil si fra hvis jeg mener at vi trenger en annen ressurs. Hvordan er det å høre det?"
           }
         },
         {

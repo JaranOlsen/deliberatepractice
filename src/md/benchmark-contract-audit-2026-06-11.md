@@ -66,7 +66,7 @@ Automated averages are triage only, not quality scores. They still reveal places
 | Empathic Evocations | 13.8 | 23.1 | 17.8 | 20.3 | Improved after rewrite; monitor marker flatness. |
 | Empathic Conjectures | 16.8 | 21.5 | 20.1 | 21.8 | Structurally close. |
 | Staying in Contact with Intense Affect | 31.3 | 35.3 | 29.1 | 22.6 | Third response-quality pass complete; now strong, with residual regression risk in high-risk items. |
-| Self-Disclosure | 14.8 | 18.4 | 30.7 | 27.6 | Structurally close; targeted boundary examples only. |
+| Self-Disclosure | 14.8 | 18.4 | 30.7 | 27.6 | Boundary/transparency pass complete; strong, with later Bokmal and marker-breadth polish. |
 | Marker Recognition and Chair Work | 35.4 | 37.5 | 48.4 | 84.3 | Suggestion sequencing pass complete; strong, with residual high-risk and Bokmal regression polish. |
 | Alliance Repair | 34.2 | 35.0 | 44.9 | 104.8 | High-risk rupture response pass complete; strong, with later Bokmal and opening-variety polish. |
 
@@ -74,9 +74,9 @@ Automated averages are triage only, not quality scores. They still reveal places
 
 | Rank | Skill | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Self-Disclosure | Structurally close. Some hard examples can be sharpened around attractiveness, pity, lateness, and competence. | Targeted boundary/transparency polish. |
-| 2 | Empathic Conjectures | Structurally close. Needs occasional checks that responses remain tentative and reach just beyond what is explicit. | Low-volume targeted polish. |
-| 3 | Empathic Understanding | Strong basic response contract. Some app markers are shorter and more case-specific than Goldman, but the skill does not require long prompts. | Regression and ordinary-life breadth checks. |
+| 1 | Empathic Conjectures | Structurally close. Needs occasional checks that responses remain tentative and reach just beyond what is explicit. | Low-volume targeted polish. |
+| 2 | Empathic Understanding | Strong basic response contract. Some app markers are shorter and more case-specific than Goldman, but the skill does not require long prompts. | Regression and ordinary-life breadth checks. |
+| 3 | Self-Disclosure | Now strong after a 25-item boundary/transparency pass. Responses more clearly answer the relevant therapist question, keep boundaries explicit, and return focus to the client. Quality rating: about 8.2/10. | Later Bokmal naturalness and marker-breadth polish only unless flagged. |
 | 4 | Empathic Explorations | Now strong after a 25-item response-boundary pass. Suggestions more consistently stay with the shown edge and invite one manageable next moment of contact. Quality rating: about 8.1/10. | Later marker-breadth and Bokmal polish only unless flagged. |
 | 5 | Alliance Repair | Now strong after marker enrichment and a high-risk rupture response pass across 23 items. Suggestions more reliably receive impact, own therapist contribution, clarify frame without defensiveness, and ask what helps now. Quality rating: about 8.2/10. | Later regression polish only, especially Bokmal naturalness and response-opening variety. |
 | 6 | Staying in Contact with Intense Affect | Third pass moved the responses closer to Goldman-level presence: contact first, then safety, titration, or boundary clarity when clinically needed. Quality rating: 8.1/10. | Later high-risk regression only. |
@@ -131,9 +131,23 @@ Current exploration state after this pass:
 
 Empathic Explorations is now strong enough to leave the active-priority slot. Later work should focus on marker breadth and Bokmal naturalness rather than broad rewriting.
 
-### Next Pass: Self-Disclosure
+### Implementation Update: Self-Disclosure
 
-The next highest-value slice should be a self-disclosure boundary/transparency pass. The pass should judge whether responses offer brief therapist transparency in service of the client, then return focus to the client's experience, without becoming reassurance, advice, confession, or alliance repair.
+A self-disclosure boundary/transparency pass revised 25 items across easy, moderate, and hard cases.
+
+Current self-disclosure state after this pass:
+
+- 90 total items preserved.
+- Quality rating increased to about 8.2/10.
+- The edited responses more consistently answer the relevant therapist question honestly and briefly, clarify boundaries around relationship details, attraction, care, lateness, competence, and safety, then return focus to the client's experience.
+- The pass reduced drift toward reassurance, therapist biography, confession, advice, and alliance-repair overprocessing.
+- Every edited English item has a matching Bokmal localization.
+
+Self-Disclosure is now strong enough to leave the active-priority slot. Later work should focus on marker breadth and Bokmal idiom rather than broad rewriting.
+
+### Next Pass: Empathic Conjectures
+
+The next highest-value slice should be an empathic-conjectures polish pass. The pass should judge whether responses are tentative, close to the client's material, and only one step beyond what is explicit, without becoming interpretation, advice, validation, or exploration questions.
 
 ### Implementation Update: Empathic Affirmation and Validation
 
