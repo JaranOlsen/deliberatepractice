@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T10:02:45.414Z",
+  "generatedAt": "2026-06-12T12:27:47.151Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1621,11 +1621,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Fearful] I cannot get a full breath, and I am scared you can see me panicking. I keep trying to breathe quietly so I do not look dramatic, but that makes it feel even tighter.",
-                "response": "Breathe with me, out longer than in, and feel your back against the chair. Take this in sips; you do not have to hide the panic from me."
+                "response": "You are trying to hide the panic and that is making it tighter. I can stay with you while the breath is uneven; we will slow it without asking you to look composed."
               },
               "no": {
                 "statement": "[Redd] Jeg får ikke puste ordentlig, og jeg er redd du ser at jeg har panikk. Jeg prøver å puste stille så jeg ikke virker dramatisk, men da blir det enda trangere.",
-                "response": "Pust med meg, ut lengre enn inn, og kjenn ryggen mot stolen. Ta dette i små slurker; du trenger ikke å skjule panikken for meg."
+                "response": "Du prøver å skjule panikken, og det gjør det trangere. Jeg kan bli hos deg mens pusten er ujevn; vi roer den uten å kreve at du ser samlet ut."
               }
             },
             {
@@ -1730,11 +1730,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Flat] A wave is coming up my chest, and I want to shut it down before it takes me back there.",
-                "response": "We will not let it take you all the way back. Name two things in this room, feel your feet, and give the wave only a narrow edge to move through."
+                "response": "The wave is rising and the fear is it will take you back there. I will stay with you at the edge of it and help keep one foot in this room."
               },
               "no": {
                 "statement": "[Flatt] En bølge kommer opp i brystet, og jeg vil stenge den ned før den tar meg tilbake dit.",
-                "response": "Vi lar den ikke ta deg helt tilbake. Nevn to ting i dette rommet, kjenn føttene, og gi bølgen bare en smal kant å bevege seg gjennom."
+                "response": "Bølgen stiger, og frykten er at den skal ta deg tilbake dit. Jeg blir hos deg ved kanten av den og hjelper deg å beholde én fot i dette rommet."
               }
             },
             {
@@ -1764,11 +1764,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Slow and flat] I want to disappear when the memories crowd in and the room stops feeling real. It is not that I want to die in that second; I want not to be located anywhere the memories can find me.",
-                "response": "I am here with you, and we take that urge seriously. Press your feet down, feel the chair, and name the wish to vanish while we keep you oriented here."
+                "response": "The wish to disappear is not the same as wanting to die, and it still needs care. I will stay with you while we keep you located here and name how badly the memories are crowding you."
               },
               "no": {
                 "statement": "[Langsomt og flatt] Jeg vil forsvinne når minnene presser seg på og rommet slutter å kjennes virkelig. Det er ikke at jeg vil dø i det sekundet; jeg vil bare ikke befinne meg noe sted minnene kan finne meg.",
-                "response": "Jeg er her sammen med deg, og vi tar den trangen på alvor. Press føttene ned, kjenn stolen, og sett navn på ønsket om å forsvinne mens vi holder orienteringen her."
+                "response": "Ønsket om å forsvinne er ikke det samme som å ville dø, og det trenger likevel omsorg. Jeg blir hos deg mens vi holder deg plassert her og setter ord på hvor hardt minnene presser på."
               }
             }
           ]

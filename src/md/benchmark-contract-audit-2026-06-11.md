@@ -65,7 +65,7 @@ Automated averages are triage only, not quality scores. They still reveal places
 | Empathic Explorations | 17.0 | 26.2 | 18.2 | 30.3 | Needs periodic boundary checks against conjecture and intense-affect work. |
 | Empathic Evocations | 13.8 | 23.1 | 17.8 | 20.3 | Improved after rewrite; monitor marker flatness. |
 | Empathic Conjectures | 16.8 | 21.5 | 20.1 | 21.8 | Structurally close. |
-| Staying in Contact with Intense Affect | 31.3 | 35.3 | 29.1 | 22.6 | Second enrichment pass complete; still needs response and high-risk coverage polish. |
+| Staying in Contact with Intense Affect | 31.3 | 35.3 | 29.1 | 22.6 | Third response-quality pass complete; now strong, with residual regression risk in high-risk items. |
 | Self-Disclosure | 14.8 | 18.4 | 30.7 | 27.6 | Structurally close; targeted boundary examples only. |
 | Marker Recognition and Chair Work | 35.4 | 37.5 | 48.4 | 84.3 | Now close on marker training affordance; suggestions remain shorter but task-focused. |
 | Alliance Repair | 34.2 | 35.0 | 44.9 | 104.8 | Now close on marker training affordance; suggestions remain intentionally briefer than Goldman scripts. |
@@ -74,7 +74,7 @@ Automated averages are triage only, not quality scores. They still reveal places
 
 | Rank | Skill | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Staying in Contact with Intense Affect | Second pass brought the markers much closer to Goldman-level pressure, but some responses still lean like regulation scripts and a few high-risk examples need more contact-first clinical precision. Quality rating: 7.8/10. | Continue targeted response-quality and high-risk polish. Preserve contact-first stance. |
+| 1 | Staying in Contact with Intense Affect | Third pass moved the responses closer to Goldman-level presence: contact first, then safety, titration, or boundary clarity when clinically needed. Quality rating: 8.1/10. | One later regression pass should check high-risk items again, but the set is no longer the clearest active gap. |
 | 2 | Marker Recognition and Chair Work | Now close on marker training affordance after expansion and residual passes. Remaining work should judge whether suggestions model enough setup, consent, chair placement, and first enactment, not mechanically lengthen markers. | Regression and suggestion-sequence scan after intense-affect. |
 | 3 | Alliance Repair | Now close on marker length and coverage after three enrichment passes. Residual work should judge rupture process quality, not mechanically lengthen items. | Regression and high-risk rupture scan after intense-affect. |
 | 4 | Empathic Affirmation and Validation | Strong overall, but benchmark breadth is broader than shame and self-attack. Some moderate variants should include ordinary fear, grief, guilt, conflicted positive feeling, and culturally loaded legitimacy. | Targeted moderate-tier breadth pass. |
@@ -115,18 +115,18 @@ Current chair-work metrics after the residual pass:
 
 The section is no longer the clearest structural mismatch. It still deserves later review of the suggestion sequence, but the next highest-value contract gap is now Staying in Contact with Intense Affect.
 
-### Next Pass: Staying in Contact with Intense Affect
+### Next Pass: Post-Intense-Affect Decision
 
-The next content pass should continue Staying in Contact with Intense Affect.
+Staying in Contact with Intense Affect should receive one later regression pass, but after the third polish pass the next highest-value slice should be chosen by quality judgment rather than by word-count triage. Likely candidates are chair-work suggestion sequencing, alliance-repair rupture process quality, or moderate-tier validation breadth.
 
 ### Implementation Update: Staying in Contact with Intense Affect
 
-Two intense-affect enrichment passes have now been completed.
+Three intense-affect passes have now been completed.
 
-Current intense-affect state after the second pass:
+Current intense-affect state after the third pass:
 
 - 90 total items preserved.
-- Quality rating increased from about 6.6/10 before the first pass to 7.8/10 after the second pass.
+- Quality rating increased from about 6.6/10 before the first pass to 8.1/10 after the third pass.
 - Average client marker length increased from 17.4 to 31.3 words.
 - Average suggested response length is now 29.1 words.
 - Minimum marker length increased from 12 to 17 words.
@@ -134,8 +134,9 @@ Current intense-affect state after the second pass:
 - Markers containing at least 30 words increased from 1 to 59.
 - Every edited English item has a matching Bokmal localization.
 - The edited items now give trainees more live affective pressure to stay with: sobbing, panic, shame exposure, anger escalation, collapse, dissociation risk, protective exit pulls, attachment panic, and high-risk bodily urges.
+- The third pass focused on response quality rather than marker expansion: high-risk and dissociation responses now lead with presence and contact, then add safety, titration, or boundary limits only where the content requires it.
 
-This section should remain the next priority until it reaches roughly 8.3/10. The next pass should focus less on marker expansion and more on response quality: staying emotionally with the affect first, then titrating and grounding. Particular attention should go to self-harm urges, violence urges, sexual-boundary material, dissociation, and alliance criticism.
+This section is now strong enough to stop being the automatic next target. A later regression pass should still check self-harm urges, violence urges, sexual-boundary material, dissociation, and alliance criticism for contact-first precision.
 
 ### Implementation Update: Alliance Repair
 
