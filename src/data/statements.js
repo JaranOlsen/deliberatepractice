@@ -1947,11 +1947,11 @@ export const STATEMENT_SETS = {
     "case-michael": [
       {
         "text": "[Firm] When someone corrects one detail, I keep hearing it afterward like I was called out.",
-        "suggestion": "The correction keeps echoing as being called out, and the anger stays close to that exposure."
+        "suggestion": "The correction keeps echoing as being called out. Can we stay with that exposed feeling for a moment before the anger takes over?"
       },
       {
         "text": "[Tense and angry] I walk into meetings already ready for somebody to disrespect me.",
-        "suggestion": "You are already on guard before anything happens, almost waiting for disrespect to show itself."
+        "suggestion": "You enter already on guard, before anything has happened. Can we notice what it is like to walk in already ready for disrespect?"
       },
       {
         "text": "[Tense] After I blow up at home, I tell myself they pushed me, but I still feel lousy.",
@@ -1967,7 +1967,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] When I do not know the answer, I get tense and start talking like I know anyway.",
-        "suggestion": "Not knowing is hard to leave visible, so you move fast into sounding certain."
+        "suggestion": "Not knowing becomes hard to leave visible. Can we pause at that tense moment before sounding certain takes over?"
       },
       {
         "text": "[Ashamed] I reread every message before sending because one mistake will bother me all night.",
@@ -1975,7 +1975,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and angry] The second I feel weak, I get angry and hear my dad saying that is exactly the problem.",
-        "suggestion": "'Weak' brings anger and your father's judgment right into the room."
+        "suggestion": "'Weak' brings anger and your father's judgment in very fast. Can we stay with the instant when weakness first shows up?"
       },
       {
         "text": "[Ashamed] Some nights I replay every word I said, trying to find where I messed it up.",
@@ -2009,7 +2009,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Anxious] When I walk into a room, I look for the exit before I decide whether to join anyone.",
-        "suggestion": "The exit gets your attention first, before you can find out whether joining might be possible."
+        "suggestion": "The exit has to be found first, before joining can even be considered. Can we stay with that first scan of the room?"
       },
       {
         "text": "[Quietly] Before I introduce myself, I start imagining how strange I will sound.",
@@ -2025,7 +2025,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and ashamed] I felt lonely on Sunday, but I also ignored two messages.",
-        "suggestion": "Loneliness and pulling back are both there, side by side."
+        "suggestion": "Loneliness and pulling back sit side by side. Can we stay with the loneliness that is there even while the messages go unanswered?"
       }
     ],
     "case-laura": [
@@ -2035,7 +2035,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Fearful] Raised voices do not even have to be aimed at me; I just go quiet and wait for it to pass.",
-        "suggestion": "Even when the anger is not directed at you, something in you goes quiet and waits. We can stay with that quiet place for a moment."
+        "suggestion": "Even when the anger is not directed at you, something in you goes quiet and waits. Can we stay with that quiet waiting just a little?"
       },
       {
         "text": "[Tense and guarded] When someone is kind to me, I start looking for the catch before I know whether I want the kindness.",
@@ -2047,7 +2047,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Distant] I wake up already expecting the day to go wrong, even when nothing has happened yet.",
-        "suggestion": "You wake already braced for something to go wrong. Let's notice what it is like to meet the day already expecting trouble."
+        "suggestion": "You wake already braced for something to go wrong. Can we stay with that first moment of meeting the day already expecting trouble?"
       },
       {
         "text": "[Ashamed] Even gentle touch makes me jump, and then I hate that my reaction is so obvious.",
@@ -2055,7 +2055,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Slow and flat] When good news comes, I can say the right words, but I feel almost nothing.",
-        "suggestion": "Your words can respond, while the feeling stays far away. Let's notice that almost-nothing place without pushing it."
+        "suggestion": "Your words can respond, while the feeling stays far away. Can we notice that almost-nothing place without pushing it to change?"
       },
       {
         "text": "[Distant] Sometimes a song cracks something open, and for a minute I can almost feel the sadness.",
@@ -2067,13 +2067,13 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Slow and flat] I avoid movies with fighting because I don't want to find out what a single shout will do to me.",
-        "suggestion": "Avoiding the movie protects you from having to find out what the shout might stir. Let's notice the carefulness in that choice."
+        "suggestion": "You avoid the movie because one shout might do something to you. Can we stay with the not wanting to find out?"
       }
     ],
     "case-carlos": [
       {
         "text": "[Defensive] My wife says she can hear my tone change before I notice anything is wrong.",
-        "suggestion": "She hears the change before you catch it yourself. Let's slow down around that moment and see what might be happening just before the tone shifts."
+        "suggestion": "She hears the change before you catch it yourself. Can we pause right at that early shift before the tone fully changes?"
       },
       {
         "text": "[Tense] After an argument, I do not know whether to apologize or act like we are fine.",
@@ -2093,11 +2093,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and angry] I break things because the force in me feels like it has to land somewhere.",
-        "suggestion": "The breaking seems to give the force a place to land before it reaches anyone."
+        "suggestion": "There is so much force that it feels like it has to land somewhere. Can we stay with the force just before it moves into breaking something?"
       },
       {
         "text": "[Defensive] If I let myself be soft, I don't know whether people will respect me or take advantage.",
-        "suggestion": "Softness brings uncertainty about whether you will be respected or used. We can stay near that uncertainty without forcing an answer."
+        "suggestion": "Softness brings uncertainty about whether you will be respected or used. Can we stay near that uncertainty without forcing an answer?"
       },
       {
         "text": "[Angry, clenching fists] Disrespect hits my chest like a punch, and I need them to know it hurt.",
@@ -2105,7 +2105,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Fearful] When I say I want them safe, I feel my anger drop and something softer scare me.",
-        "suggestion": "The wish for safety brings softness forward, and that softness may feel exposed because it matters so much."
+        "suggestion": "When anger drops, the softer wish for safety scares you. Can we stay near that soft-scared place for a moment?"
       },
       {
         "text": "[Fearful] I learned early that being the small one meant someone else could take whatever they wanted.",
@@ -2119,7 +2119,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Guilty] I keep folding laundry and answering messages so I do not have to feel resentful.",
-        "suggestion": "Keeping busy holds the resentment at a distance. Let's notice what happens when you imagine stopping for a moment."
+        "suggestion": "Keeping busy helps you not have to feel the resentment. Can we pause at the moment where stopping would let it come closer?"
       },
       {
         "text": "[Torn] When I say no, I keep explaining until the no almost disappears.",
@@ -2135,7 +2135,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Torn] When everyone needs me at once, I start saying yes before I know what I actually want.",
-        "suggestion": "The yes comes before your own wanting has time to appear. Let's slow down at that place where everyone else's need arrives first."
+        "suggestion": "The yes comes before your own wanting has time to appear. Can we slow down at the place where everyone else's need arrives first?"
       },
       {
         "text": "[Guilty] I dream of being taken care of, and then I shame myself for wanting it.",
@@ -2151,7 +2151,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tired] By bedtime I can't tell if I am sad, angry, or just completely used up.",
-        "suggestion": "At the end of the day the feelings are hard to separate: sadness, anger, exhaustion. We can stay with that blurred place gently."
+        "suggestion": "At the end of the day the feelings blur together: sadness, anger, exhaustion. Can we stay with the blurred feeling before we try to sort it out?"
       }
     ],
     "case-aisha": [
@@ -2165,7 +2165,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Desperate] When I scratch, part of me says it is not a big deal, and another part is scared you will judge me.",
-        "suggestion": "There is the part minimizing it, and another part worried about my reaction. We can slow down with both parts here."
+        "suggestion": "One part minimizes the scratching, and another part fears my judgment. Can we stay with what happens as you tell me both?"
       },
       {
         "text": "[Desperate] If you glance at the clock, I start wondering whether I should stop talking before you end it.",
@@ -2181,7 +2181,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Panicked] Kindness makes me sob, and another part of me wants to bolt.",
-        "suggestion": "Kindness touches both places at once, the part starving for it and the part that wants to bolt."
+        "suggestion": "Kindness brings sobbing and the urge to bolt at the same time. Can we stay with those two movements for a moment?"
       },
       {
         "text": "[Ashamed] What was done to me makes me feel disgusting in my own skin.",
@@ -2193,7 +2193,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Panicked] If you cancel, something in me wants to never come back.",
-        "suggestion": "A cancellation hits hard enough that one part wants to protect you by never coming back."
+        "suggestion": "A cancellation hits so hard that one part wants to never come back. Can we stay with the first hit of that cancellation?"
       }
     ],
     "case-david": [
@@ -2207,7 +2207,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Defensive] When I feel judged, I smooth my shirt and start listing achievements.",
-        "suggestion": "As judgment shows up, smoothing your shirt and listing achievements helps you stay composed. Let's notice the first moment you feel judged."
+        "suggestion": "When judgment appears, the achievements come in quickly. Can we notice the first flash of being judged before the list starts?"
       },
       {
         "text": "[Controlled] Praise works for maybe ten seconds; then I start looking for the part they missed.",
@@ -2219,7 +2219,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Irritated] When my kids cry, I get impatient before I even know why.",
-        "suggestion": "Your kids' tears seem to bring up something hard to bear in you, and impatience moves in quickly."
+        "suggestion": "Your kids' tears bring impatience before you even know why. Can we stay with that first impatient surge?"
       },
       {
         "text": "[Wounded but sharp] Admitting I am wrong makes my face burn like everyone can see the failure.",
@@ -2235,7 +2235,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Controlled] The idea of being ordinary feels unbearable, like losing the only proof I matter.",
-        "suggestion": "'Ordinary' feels unbearable, as if it takes away the proof that you matter."
+        "suggestion": "'Ordinary' feels unbearable, like the proof that you matter disappears. Can we stay with what unbearable feels like there?"
       }
     ],
     "case-marcus": [
@@ -2261,7 +2261,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and guarded] I let calls go silent because answering means explaining why I am not okay.",
-        "suggestion": "Letting the call go silent protects you from having to explain. We can notice what feels too much about being asked."
+        "suggestion": "Letting the call go silent keeps you from having to explain why you are not okay. Can we stay with the moment the phone rings and explaining feels too much?"
       },
       {
         "text": "[Flat] Good moments happen, but I don't trust them enough to let them count.",
@@ -2273,7 +2273,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and guarded] I don't pick up when family calls because I don't want to feel.",
-        "suggestion": "Letting the call go unanswered keeps feeling away for a while. Let's notice what you expect would come up if you answered."
+        "suggestion": "Letting the call go unanswered keeps feeling away for a while. Can we notice what feeling starts to come close when family calls?"
       },
       {
         "text": "[Flat] Part of me thinks alone forever would hurt less than hoping and getting pulled under again.",

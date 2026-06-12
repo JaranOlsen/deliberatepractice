@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T15:55:39.087Z",
+  "generatedAt": "2026-06-12T16:06:30.324Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -601,11 +601,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Firm] When someone corrects one detail, I keep hearing it afterward like I was called out.",
-            "response": "The correction keeps echoing as being called out, and the anger stays close to that exposure."
+            "response": "The correction keeps echoing as being called out. Can we stay with that exposed feeling for a moment before the anger takes over?"
           },
           "no": {
-            "statement": "[Fast] Når noen retter på én detalj, hører jeg det om igjen etterpå som om jeg ble hengt ut.",
-            "response": "Korrigeringen fortsetter å høres ut som å bli hengt ut, og sinnet ligger tett på den følelsen."
+            "statement": "[Bestemt] Når noen retter på én detalj, hører jeg det om igjen etterpå som om jeg ble hengt ut.",
+            "response": "Korrigeringen fortsetter å høres ut som å bli hengt ut. Kan vi bli litt ved den blottstilte følelsen før sinnet tar over?"
           }
         },
         {
@@ -614,11 +614,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Defensive] My wife says she can hear my tone change before I notice anything is wrong.",
-            "response": "She hears the change before you catch it yourself. Let's slow down around that moment and see what might be happening just before the tone shifts."
+            "response": "She hears the change before you catch it yourself. Can we pause right at that early shift before the tone fully changes?"
           },
           "no": {
             "statement": "[Defensiv] Kona mi sier at hun hører tonefallet mitt endre seg før jeg selv merker at noe er galt.",
-            "response": "Hun hører endringen før du selv fanger den. Vi kan senke tempoet rundt det øyeblikket og se hva som kan skje rett før tonefallet skifter."
+            "response": "Hun hører endringen før du selv fanger den. Kan vi stoppe opp akkurat ved det tidlige skiftet før tonefallet endrer seg helt?"
           }
         }
       ]
@@ -650,11 +650,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Distant] I wake up already expecting the day to go wrong, even when nothing has happened yet.",
-            "response": "You wake already braced for something to go wrong. Let's notice what it is like to meet the day already expecting trouble."
+            "response": "You wake already braced for something to go wrong. Can we stay with that first moment of meeting the day already expecting trouble?"
           },
           "no": {
             "statement": "[Fjern] Jeg våkner og forventer allerede at dagen skal gå galt, selv om ingenting har skjedd ennå.",
-            "response": "Du våkner allerede forberedt på at noe skal gå galt. Vi kan legge merke til hvordan det er å møte dagen med den forventningen."
+            "response": "Du våkner allerede forberedt på at noe skal gå galt. Kan vi bli ved det første øyeblikket der du møter dagen med den forventningen?"
           }
         }
       ]

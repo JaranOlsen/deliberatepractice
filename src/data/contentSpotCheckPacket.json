@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T15:55:39.087Z",
+  "generatedAt": "2026-06-12T16:06:30.323Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1176,11 +1176,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Quiet and guarded] I don't pick up when family calls because I don't want to feel.",
-                "response": "Letting the call go unanswered keeps feeling away for a while. Let's notice what you expect would come up if you answered."
+                "response": "Letting the call go unanswered keeps feeling away for a while. Can we notice what feeling starts to come close when family calls?"
               },
               "no": {
                 "statement": "[Stille og på vakt] Jeg tar ikke telefonen når familien ringer, fordi jeg ikke vil kjenne på noe.",
-                "response": "Å la telefonen ringe ut holder følelsene unna en stund. Vi kan legge merke til hva du forventer ville komme hvis du svarte."
+                "response": "Å la telefonen ringe ut holder følelsene unna en stund. Kan vi legge merke til hvilken følelse som begynner å komme nær når familien ringer?"
               }
             }
           ]
