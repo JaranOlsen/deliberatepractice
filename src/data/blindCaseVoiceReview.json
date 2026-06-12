@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T12:27:47.152Z",
+  "generatedAt": "2026-06-12T13:59:36.083Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -312,12 +312,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Sad] I like the new apartment, but unpacking old photos made me grieve the home I never really got to have.",
-            "response": "No wonder the photos bring grief; moving forward can stir the sadness of what was missing, not just what is new."
+            "statement": "[Sad] I like the new apartment, but when I unpacked the photos from the old house, I missed the version of my family I kept hoping we would become.",
+            "response": "It makes sense that the grief belongs here; the move carries not only a new start but the loss of the home and family you kept trying to have."
           },
           "no": {
-            "statement": "[Trist] Jeg liker den nye leiligheten, men å pakke ut gamle bilder fikk meg til å sørge over hjemmet jeg egentlig aldri fikk ha.",
-            "response": "Ikke rart bildene vekker sorg; å gå videre kan røre ved sorgen over det som manglet, ikke bare det som er nytt."
+            "statement": "[Trist] Jeg liker den nye leiligheten, men da jeg pakket ut bildene fra det gamle huset, savnet jeg den versjonen av familien jeg hele tiden håpet at vi skulle bli.",
+            "response": "Det gir mening at sorgen hører hjemme her; flyttingen bærer ikke bare en ny start, men tapet av hjemmet og familien du fortsatte å prøve å få."
           }
         },
         {

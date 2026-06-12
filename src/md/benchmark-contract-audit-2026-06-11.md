@@ -59,7 +59,7 @@ Automated averages are triage only, not quality scores. They still reveal places
 | --- | ---: | ---: | ---: | ---: | --- |
 | Therapist Self-Awareness | 63.9 | 76.8 | 26.1 | 25.9 | Now structurally close. |
 | Empathic Understanding | 16.0 | 32.9 | 12.9 | 17.8 | App is concise; likely acceptable but needs coverage checks. |
-| Empathic Affirmation and Validation | 16.1 | 27.1 | 19.3 | 23.0 | Generally close; moderate breadth needs review. |
+| Empathic Affirmation and Validation | 17.9 | 27.1 | 20.6 | 23.0 | Moderate breadth pass complete; now strong with later regression polish needed. |
 | Exploratory Questions | 16.8 | 22.5 | 11.8 | 26.3 | App intentionally keeps questions cleaner than Goldman examples. |
 | Treatment Rationale | 15.5 | 20.5 | 28.8 | 54.2 | App is briefer than Goldman but usually clinically focused. |
 | Empathic Explorations | 17.0 | 26.2 | 18.2 | 30.3 | Needs periodic boundary checks against conjecture and intense-affect work. |
@@ -74,10 +74,10 @@ Automated averages are triage only, not quality scores. They still reveal places
 
 | Rank | Skill | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Staying in Contact with Intense Affect | Third pass moved the responses closer to Goldman-level presence: contact first, then safety, titration, or boundary clarity when clinically needed. Quality rating: 8.1/10. | One later regression pass should check high-risk items again, but the set is no longer the clearest active gap. |
-| 2 | Marker Recognition and Chair Work | Now close on marker training affordance after expansion and residual passes. Remaining work should judge whether suggestions model enough setup, consent, chair placement, and first enactment, not mechanically lengthen markers. | Regression and suggestion-sequence scan after intense-affect. |
-| 3 | Alliance Repair | Now close on marker length and coverage after three enrichment passes. Residual work should judge rupture process quality, not mechanically lengthen items. | Regression and high-risk rupture scan after intense-affect. |
-| 4 | Empathic Affirmation and Validation | Strong overall, but benchmark breadth is broader than shame and self-attack. Some moderate variants should include ordinary fear, grief, guilt, conflicted positive feeling, and culturally loaded legitimacy. | Targeted moderate-tier breadth pass. |
+| 1 | Marker Recognition and Chair Work | Now close on marker training affordance after expansion and residual passes. Remaining work should judge whether suggestions model enough setup, consent, chair placement, and first enactment, not mechanically lengthen markers. | Regression and suggestion-sequence scan is now the highest-value next pass. |
+| 2 | Alliance Repair | Now close on marker length and coverage after three enrichment passes. Residual work should judge rupture process quality, not mechanically lengthen items. | Regression and high-risk rupture scan after chair-work. |
+| 3 | Staying in Contact with Intense Affect | Third pass moved the responses closer to Goldman-level presence: contact first, then safety, titration, or boundary clarity when clinically needed. Quality rating: 8.1/10. | One later regression pass should check high-risk items again, but the set is no longer the clearest active gap. |
+| 4 | Empathic Affirmation and Validation | Targeted moderate-tier pass broadened the Goldman coverage: depressive withdrawal, conflicted positive feeling, grief about home/family, parenting shame, culturally loaded generosity guilt, and pride/fear about a child's risk. Quality rating: 8.0/10. | Regression polish only unless flagged, especially response-opening variety and Norwegian naturalness. |
 | 5 | Empathic Explorations | Mostly sound, but hard cases can drift toward intense-affect or conjecture because the cases are severe. | Regression pass focused on response boundary: reflect plus one small invitation. |
 | 6 | Empathic Evocations | Much improved. The main risk is regression: client statements must not start supplying the best image again. | Regression scan only unless a bad marker is found. |
 | 7 | Empathic Conjectures | Structurally close. Needs occasional checks that responses remain tentative and reach just beyond what is explicit. | Low-volume targeted polish. |
@@ -115,9 +115,23 @@ Current chair-work metrics after the residual pass:
 
 The section is no longer the clearest structural mismatch. It still deserves later review of the suggestion sequence, but the next highest-value contract gap is now Staying in Contact with Intense Affect.
 
-### Next Pass: Post-Intense-Affect Decision
+### Next Pass: Marker Recognition and Chair Work
 
-Staying in Contact with Intense Affect should receive one later regression pass, but after the third polish pass the next highest-value slice should be chosen by quality judgment rather than by word-count triage. Likely candidates are chair-work suggestion sequencing, alliance-repair rupture process quality, or moderate-tier validation breadth.
+The next highest-value slice should be Marker Recognition and Chair Work suggestion sequencing. The markers now mostly provide good chair-work affordance, so the next pass should check whether therapist suggestions consistently model consent, chair placement, first enactment, and non-leading task setup without becoming overlong scripts.
+
+### Implementation Update: Empathic Affirmation and Validation
+
+A targeted moderate-tier validation breadth pass has now been completed.
+
+Current validation state after this pass:
+
+- 90 total items preserved.
+- Quality rating increased to about 8.0/10.
+- The moderate tier now better matches Goldman's breadth without copying scenarios mechanically: depressive withdrawal, guarded romantic interest, grief tied to home/family transition, kindness/pleasure shutdown, culturally loaded anger, parenting shame, embodied fight shame, walking away as protection, receiving care, moralized generosity, maternal resentment, and pride/fear about a son's risk.
+- The edited responses validate emotions and needs in context while avoiding endorsement of harmful behavior.
+- Every edited English item has a matching Bokmal localization.
+
+This section is now strong enough to leave the active-priority queue. Later regression work should focus on response-opening variety and Norwegian idiom rather than broad rewriting.
 
 ### Implementation Update: Staying in Contact with Intense Affect
 

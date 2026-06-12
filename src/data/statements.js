@@ -890,24 +890,24 @@ export const STATEMENT_SETS = {
     ],
     "case-laura": [
       {
-        "text": "[Slow and flat] Most days feel flat, like I'm behind glass watching life happen.",
-        "suggestion": "Understandably, life feels muted after what you have lived through."
+        "text": "[Flat and ashamed] On days off I can stay in bed until noon, not exactly sleeping, just not able to start. Then I tell myself I am lazy because other people manage normal mornings.",
+        "suggestion": "That withdrawal makes sense after so many years of running on alert; the bed becomes the one place no one asks anything of you, not proof that you are lazy."
       },
       {
         "text": "[Fearful] If voices rise, my stomach drops and I go somewhere else in my head.",
         "suggestion": "No wonder raised voices can send you away in your head; that response learned to protect you."
       },
       {
-        "text": "[Slow and flat] When someone is kind to me, I feel numb or suspicious.",
-        "suggestion": "No wonder kindness feels confusing when safety has been uncertain; numbness and suspicion have been part of protection."
+        "text": "[Guarded and confused] A man from work asked if I wanted coffee, and I felt a tiny bit pleased before I went completely numb. I keep telling myself that is ridiculous at my age.",
+        "suggestion": "It makes sense that both reactions show up: the small warmth of being wanted and the numb protection that comes in when closeness starts to feel possible."
       },
       {
         "text": "[Flat and guarded] I take long showers because warm water feels safer than asking anyone for comfort.",
         "suggestion": "Of course you reach for small, safe warmth when human comfort has felt dangerous or unreliable."
       },
       {
-        "text": "[Sad] I like the new apartment, but unpacking old photos made me grieve the home I never really got to have.",
-        "suggestion": "No wonder the photos bring grief; moving forward can stir the sadness of what was missing, not just what is new."
+        "text": "[Sad] I like the new apartment, but when I unpacked the photos from the old house, I missed the version of my family I kept hoping we would become.",
+        "suggestion": "It makes sense that the grief belongs here; the move carries not only a new start but the loss of the home and family you kept trying to have."
       },
       {
         "text": "[Tense and guarded] Being touched, even kindly, startles me, and then I feel broken for reacting that way.",
@@ -922,8 +922,8 @@ export const STATEMENT_SETS = {
         "suggestion": "Of course needing comfort can feel dangerous after closeness has been unsafe; the need is human, not too much."
       },
       {
-        "text": "[Tense and guarded] I used to paint and cook, and now even choosing music feels like a chore.",
-        "suggestion": "Understandably, after years of shutting down to survive, pleasure feels distant instead of easily available."
+        "text": "[Flat and embarrassed] My daughter sent a song she thought I would like, and I could not make myself listen. I hate that even something kind feels like work.",
+        "suggestion": "It makes sense that even kindness can feel demanding after living behind so much protection; that does not mean you do not care about her or about music."
       },
       {
         "text": "[Flat and guarded] Even in bed, my shoulders stay up like someone might come through the door.",
@@ -936,20 +936,20 @@ export const STATEMENT_SETS = {
         "suggestion": "Of course that anger rises when the news touches dignity, family, and the old fear of being treated as less than fully human."
       },
       {
-        "text": "[Tense] If I don't come in strong, people will walk all over me.",
-        "suggestion": "Given where you came from, of course standing firm has felt like safety."
+        "text": "[Tense] If I do not come in strong, I picture people seeing the scared kid I used to be, and that feels humiliating before anyone has even done anything.",
+        "suggestion": "Given how unsafe it was to look scared, coming in strong makes sense as protection; the protection makes sense even if the pressure has started to cost you."
       },
       {
-        "text": "[Ashamed] At my kid's game I yelled at the ref and felt sick later.",
-        "suggestion": "Anyone would ache about that; the regret shows how much being the father you want to be matters to you."
+        "text": "[Ashamed] At my kid's game I yelled at the ref, and afterward my son would not look at me. I keep telling myself I am turning into exactly what I hated.",
+        "suggestion": "The shame makes sense because his face matters to you; the yelling needs accountability, and the pain afterward shows how deeply you want to be different."
       },
       {
         "text": "[Defensive] When someone questions me, I feel small, then I come in louder than I meant to.",
         "suggestion": "Understandably, anger rushes in when being questioned touches the old feeling of being made small."
       },
       {
-        "text": "[Angry, clenching fists] I clench my fists and pace; it feels like a fight is coming.",
-        "suggestion": "No wonder your fists and legs get ready for a fight when threat feels close."
+        "text": "[Angry and ashamed] When my fists clench, I feel like the fight is already coming, and then I hate myself for looking like every man I promised I would never become.",
+        "suggestion": "It makes sense that shame rises there; the body learned fight as survival, and now the resemblance to men who hurt you feels awful."
       },
       {
         "text": "[Ashamed] I break things and then regret it when I see how scared everyone looks.",
@@ -960,16 +960,16 @@ export const STATEMENT_SETS = {
         "suggestion": "No wonder shame and armor show up together; part of you is hurt by the distance while another part tries not to show it."
       },
       {
-        "text": "[Torn] I leave the room so I don't explode, then feel weak for walking away.",
-        "suggestion": "Of course walking away can feel weak when strength has meant standing your ground."
+        "text": "[Torn] I leave the room so I do not explode, but then I hear my father's voice calling that weak.",
+        "suggestion": "Walking away makes sense as protection for your family, and it also hits the old rule that a man must never step back."
       },
       {
         "text": "[Mistrustful] Calm feels suspicious, like someone is setting me up to be walked over.",
         "suggestion": "Understandably, calm can feel exposed rather than safe after what you learned; that suspicion has been trying to protect you."
       },
       {
-        "text": "[Vulnerable] More than anything, I want my family to feel safe with me.",
-        "suggestion": "Of course wanting safety for them matters; it is real evidence of your heart and commitment."
+        "text": "[Vulnerable] My son fell asleep against me on the couch, and I felt proud, scared, and sad all at once because I want him to feel safe with me in a way I never felt.",
+        "suggestion": "Of course that moment brings all three feelings; his trust touches your love for him and the grief of not having that kind of safety yourself."
       }
     ],
     "case-nina": [
@@ -978,12 +978,12 @@ export const STATEMENT_SETS = {
         "suggestion": "That guilt makes sense under the old rule that your worth had to be earned through usefulness."
       },
       {
-        "text": "[Apologetic] Saying no makes me anxious all day, as if one boundary could make everyone disappointed in me.",
-        "suggestion": "No wonder one no can feel like a threat to belonging when old rules tied care to pleasing people."
+        "text": "[Apologetic] The church asked me to bring food for another event, and I said I could not. I spent the whole night feeling like I had failed at being generous.",
+        "suggestion": "No wonder that one no feels morally heavy when generosity and being good have been tied together for so long."
       },
       {
-        "text": "[Sad and guilty] I do everything and still feel invisible, and then I hate myself for wanting anyone to notice.",
-        "suggestion": "Of course you want to be noticed; that is a human need, especially after carrying so much without being seen."
+        "text": "[Sad and guilty] My husband made dinner without asking me, and instead of just feeling cared for I cried and then apologized for making it strange.",
+        "suggestion": "It makes sense that being cared for touches a deep hunger and a deep alarm at the same time after carrying care alone for so long."
       },
       {
         "text": "[Guilty] When anger comes up, I instantly hear myself being selfish and feel guilty.",
@@ -998,8 +998,8 @@ export const STATEMENT_SETS = {
         "suggestion": "When care and performance got fused, even mess can understandably turn into shame about who you are."
       },
       {
-        "text": "[Tired] I tell myself others have it worse so I shouldn't feel this way.",
-        "suggestion": "Of course you minimize your pain when you have had to make room for everyone else for so long."
+        "text": "[Tired] I tell myself other mothers have it harder, so I should be grateful instead of resentful.",
+        "suggestion": "That comparison makes sense as an old way to silence your own pain, but resentment can still be a valid signal that you are carrying too much."
       },
       {
         "text": "[Apologetic] I work through being sick, then collapse and feel guilty for collapsing.",
@@ -1010,8 +1010,8 @@ export const STATEMENT_SETS = {
         "suggestion": "No wonder disappointment feels frightening when love has felt tied to keeping people pleased."
       },
       {
-        "text": "[Torn] My son talks about joining the army, and I feel proud and terrified, then guilty for not being braver.",
-        "suggestion": "Of course pride and fear can arrive together; loving him makes his courage matter and his danger feel unbearable."
+        "text": "[Torn] My son talks about joining the army, and I feel proud of him and terrified, then guilty because a good mother should be braver.",
+        "suggestion": "It makes sense that pride and terror arrive together; loving his courage does not cancel the fear of what his courage may cost him."
       }
     ],
     "case-aisha": [
