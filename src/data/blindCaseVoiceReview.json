@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T07:35:56.866Z",
+  "generatedAt": "2026-06-13T08:06:25.766Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -854,11 +854,11 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Slow and flat] Most days I feel shut down, like nothing gets through unless it hits hard.",
+            "statement": "[Slow and flat] Most days I feel shut down. People talk, and I mostly just nod.",
             "response": "You feel sealed off; I wonder if numbness may be keeping a lot of pain from getting through all at once."
           },
           "no": {
-            "statement": "[Langsomt og flatt] De fleste dager føler jeg meg avstengt, som om ingenting slipper inn med mindre det slår hardt.",
+            "statement": "[Langsomt og flatt] De fleste dager føler jeg meg avstengt. Folk snakker, og jeg nikker for det meste bare.",
             "response": "Du kjenner deg avstengt; jeg lurer på om nummenheten kan holde mye smerte unna, så ikke alt slipper inn på én gang."
           }
         },

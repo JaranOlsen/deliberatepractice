@@ -44,6 +44,7 @@ Branch update:
 - Staying in Contact with Intense Affect easy/moderate has received a contact-over-grounding polish: selected responses now communicate steadier presence before regulation, and Sara now includes a warm positive-affect marker that is hard to stay with for different reasons than panic or grief.
 - Empathic Affirmation and Validation has received a cross-tier response-variety pass: 51 English responses and their Bokmal localizations were tightened so validation remains explicit while reducing overuse of "No wonder," broad protection language, and literal Norwegian therapy-English phrasing.
 - Empathic Evocations has received another regression pass: selected markers were flattened where they were still supplying body/image language too early, and a self-harm-adjacent evocation was made less poetic and more clinically careful.
+- Empathic Conjectures hard has received a marker-spoiler regression pass: selected Aisha, David, and Marcus markers were flattened where they named the hidden fear, loneliness, shame, or defensive logic too directly before the therapist's conjecture.
 
 The remaining gaps are more subtle:
 
@@ -85,7 +86,7 @@ The remaining gaps are more subtle:
 | Empathic Evocations | Hard | Strong | Medium-High | Strong | Low-Medium | Good coverage of confidentiality threat, crisis-denial, confused distress, worthlessness, and locked-down anti-feeling archetypes. Latest pass improved shame and trauma markers and made the self-harm-adjacent evocation more careful. |
 | Empathic Conjectures | Easy | Strong | Medium-High | Strong | Low-Medium | Recent pass made markers more behavioral and less self-formulated across breakup grief, anger/defensiveness, social anxiety, alcohol use, and apology/shame material. |
 | Empathic Conjectures | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass reduced over-naming in trauma avoidance, anger/masculinity defenses, caregiver shame, and attachment-maintenance markers. |
-| Empathic Conjectures | Hard | Strong-Mixed | Medium-High | Strong | Low-Medium | Good denial-after-suicidality, trapped relationship, macho anti-feeling, and hard defensiveness coverage. |
+| Empathic Conjectures | Hard | Strong | Medium-High | Strong | Low | Good denial-after-suicidality, trapped relationship, macho anti-feeling, and hard defensiveness coverage. Recent pass flattened selected hard-case markers that were naming the hidden process too directly. |
 | Staying in Contact with Intense Affect | Easy | Strong | Medium-High | Strong-Mixed | Low-Medium | Recent pass added positive loving affect and shifted selected responses from procedural grounding toward explicit steady presence. Ordinary death/loss examples remain constrained by the easy case set. |
 | Staying in Contact with Intense Affect | Moderate | Strong | Medium-High | Strong | Low | Good breadth includes pet euthanasia, political rage, child guilt, grief, collapse, and positive love that pulls for withdrawal; recent pass made contact language less scripted. |
 | Staying in Contact with Intense Affect | Hard | Strong | High | Strong-Mixed | Low-Medium | Strong coverage: erotic pressure, self-harm, sexual-offense guilt, homicidal fantasy, collective trauma, therapy-not-working rupture. Safety wording remains explicit where needed. |
@@ -122,24 +123,25 @@ Completed on the current content branch:
 - Staying in Contact with Intense Affect, easy/moderate contact-over-grounding polish.
 - Empathic Affirmation and Validation cross-tier response-variety and Bokmal naturalness polish.
 - Empathic Evocations regression polish for marker flatness and safety-sensitive response tone.
+- Empathic Conjectures hard marker-spoiler regression polish.
 
 These should still be reviewed in normal regression passes, but they are no longer the highest-value repair targets.
 
 ## Current Highest-Value Improvement Targets
 
-1. Empathic Evocations regression polish.
-   - Keep checking that client statements remain flat, detached, or over-cognitive rather than already imagistic.
-   - Future evocation changes should be small and benchmark-driven, not a broad rewrite.
-
-2. Empathic Conjectures hard regression polish.
-   - Hard tier is still strong, but future passes should keep checking that high-risk or defensive markers do not become too interpretive before the trainee responds.
-
-3. Staying in Contact with Intense Affect regression polish.
+1. Staying in Contact with Intense Affect regression polish.
    - Keep contact-first language from drifting back into repeated grounding scripts.
    - Add ordinary death/loss variants only where the fixed cases can carry them without feeling grafted on.
 
-4. Empathic Explorations hard regression checking.
+2. Empathic Explorations hard regression checking.
    - The tier is no longer a leading repair target, but future passes should still watch the boundary between exploration and intense-affect work in Aisha and Marcus items.
+
+3. Empathic Evocations regression polish.
+   - Keep checking that client statements remain flat, detached, or over-cognitive rather than already imagistic.
+   - Future evocation changes should be small and benchmark-driven, not a broad rewrite.
+
+4. Empathic Conjectures hard regression polish.
+   - The tier is now strong; future passes should only spot-check that high-risk or defensive markers do not become too interpretive before the trainee responds.
 
 ## Case-Set Constraints
 

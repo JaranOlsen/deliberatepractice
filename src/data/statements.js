@@ -2920,7 +2920,7 @@ export const STATEMENT_SETS = {
         "suggestion": "That glance becomes a leaving signal; I wonder if it might wake an old terror of being dropped before you can feel you matter."
       },
       {
-        "text": "[Furious] When he did not text back, I went from sad to furious before I could admit I was scared.",
+        "text": "[Furious] When he did not text back, I went from quiet to furious before I knew what happened.",
         "suggestion": "You swing fast; maybe the fury rushes in to protect the scared, raw part that feels left."
       },
       {
@@ -2932,15 +2932,15 @@ export const STATEMENT_SETS = {
         "suggestion": "Part of you wants to close it quickly now that contact came back; I wonder if talking about how close the edge got feels too frightening or shameful."
       },
       {
-        "text": "[Desperate] If you cancel, a part of me wants to never come back before you can drop me again.",
+        "text": "[Desperate] If you cancel, a part of me wants to never come back and pretend I do not care.",
         "suggestion": "That cancellation stings like being dropped; I wonder if rejecting first feels safer than waiting for it to happen again."
       },
       {
-        "text": "[Ashamed] I think I'm too much for anyone, especially when I need them to stay.",
-        "suggestion": "You feel too much right where you need closeness; maybe shame is speaking from what was done to you."
+        "text": "[Ashamed] When I ask someone to stay, I hate how intense I sound afterward.",
+        "suggestion": "You hate the intensity right where you need closeness; maybe shame is speaking from what was done to you."
       },
       {
-        "text": "[Panicked] Kindness makes me sob, and another part wants to bolt before I need it too much.",
+        "text": "[Panicked] Kindness makes me sob, and then I want to bolt from the room.",
         "suggestion": "It lands big; I guess one part longs for the kindness and another expects needing it to become dangerous."
       },
       {
@@ -2966,15 +2966,15 @@ export const STATEMENT_SETS = {
         "suggestion": "You resist direction; I wonder if it may land like being made small, managed, or exposed as not in control."
       },
       {
-        "text": "[Dismissive] If I cannot be the best, why try when ordinary feels like disappearing.",
-        "suggestion": "You aim for the top; I wonder if ordinary can feel like invisible, replaceable, or unworthy."
+        "text": "[Dismissive] If I cannot be the best, why bother trying at all?",
+        "suggestion": "You aim for the top; I wonder if ordinary can feel like being invisible, replaceable, or unworthy."
       },
       {
-        "text": "[Distant] I plan big gestures and feel empty afterward, like the applause never reaches the lonely part.",
+        "text": "[Distant] I plan big gestures, people react well, and then I feel empty afterward.",
         "suggestion": "I wonder if after the gesture lands, a lonely place still asks whether they want you or only what you can provide."
       },
       {
-        "text": "[Dismissive] Apologizing makes me cringe, like everyone in the room can watch my status drop.",
+        "text": "[Dismissive] Apologizing makes me cringe; I start explaining before the words are even out.",
         "suggestion": "It feels humiliating; I wonder if admitting wrong might touch an old shame of being reduced to failure."
       },
       {
@@ -2986,12 +2986,12 @@ export const STATEMENT_SETS = {
         "suggestion": "You pump yourself up quickly; I guess it covers the fragile gap before anyone else can see it."
       },
       {
-        "text": "[Wounded but sharp] If the kids push back, I hear disrespect and lose my place with them instantly.",
-        "suggestion": "Their pushback seems to hit your authority and your belonging at once; I wonder if the blowup covers shame about losing your place with them."
+        "text": "[Wounded but sharp] If the kids push back, I hear disrespect and go straight into lecture mode.",
+        "suggestion": "Their pushback seems to hit your authority fast; I wonder if the lecture covers shame or fear about losing your place with them."
       },
       {
-        "text": "[Wounded but sharp] I hate being misunderstood by my wife; it makes me feel invisible.",
-        "suggestion": "You hate that invisibility; I wonder if there is grief about not being known beneath the anger."
+        "text": "[Wounded but sharp] When my wife misunderstands me, I get sharp and keep proving my point.",
+        "suggestion": "You keep proving the point; I wonder if beneath the anger there is grief about not being known."
       },
       {
         "text": "[Controlled] If my wife stays, I feel trapped and criticized; if she leaves, I feel humiliated. There is no winning.",
@@ -3000,7 +3000,7 @@ export const STATEMENT_SETS = {
     ],
     "case-marcus": [
       {
-        "text": "[Slow and flat] Most days I feel shut down, like nothing gets through unless it hits hard.",
+        "text": "[Slow and flat] Most days I feel shut down. People talk, and I mostly just nod.",
         "suggestion": "You feel sealed off; I wonder if numbness may be keeping a lot of pain from getting through all at once."
       },
       {
@@ -3012,7 +3012,7 @@ export const STATEMENT_SETS = {
         "suggestion": "The seat choice seems to organize safety; I wonder if part of you is still expecting the room to turn dangerous."
       },
       {
-        "text": "[Low voice] I do not answer when my sister calls because her voice gets through the wall I keep up.",
+        "text": "[Low voice] I do not answer when my sister calls, even though I know she is just checking in.",
         "suggestion": "You keep distance; I wonder if her voice gets through the numbness and makes feelings harder to manage."
       },
       {
@@ -3020,11 +3020,11 @@ export const STATEMENT_SETS = {
         "suggestion": "You jump then judge; I wonder if the anger covers shame about being vulnerable."
       },
       {
-        "text": "[Quiet and guarded] Good things feel unreal, like if I let them matter they will be taken back.",
+        "text": "[Quiet and guarded] When good things happen, I notice myself waiting for the other shoe to drop.",
         "suggestion": "The good stays at a distance; maybe letting it matter also opens the door to losing it again."
       },
       {
-        "text": "[Flat] I drink to knock myself out sometimes, before the dreams start pulling me back there.",
+        "text": "[Flat] I drink to knock myself out sometimes because I do not want to dream.",
         "suggestion": "You knock yourself out before sleep can pull you back there; I guess it keeps nightmares and feelings at bay."
       },
       {
@@ -3036,7 +3036,7 @@ export const STATEMENT_SETS = {
         "suggestion": "You cannot reach laughter; I wonder if joy feels risky or disloyal after so much loss and numbness."
       },
       {
-        "text": "[Flat] Part of me thinks I am better off alone because closeness just gives people ways to hurt each other.",
+        "text": "[Flat] I tell myself I am better off alone. Closeness gets complicated fast.",
         "suggestion": "That part seems protective; I wonder if it fears that closeness means hurting someone, being hurt, or losing control again."
       }
     ]
