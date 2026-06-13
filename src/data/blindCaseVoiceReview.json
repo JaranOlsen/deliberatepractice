@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T08:19:46.294Z",
+  "generatedAt": "2026-06-13T08:56:45.015Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -1073,11 +1073,11 @@
           ],
           "en": {
             "statement": "[Quiet and guarded] Have you actually worked with someone like me, or are you learning on me?",
-            "response": "I have worked with trauma and with people who use few words to stay safe. I am always learning, and I am not using you as practice. I have support around my work, and I will tell you if I think we need another resource. What is it like to hear that?"
+            "response": "I have worked with trauma and with people who use few words to stay safe. I am always learning, but I am not using you as practice; I have support around this work and will say if we need another resource. What is it like to hear that?"
           },
           "no": {
             "statement": "[Stille og på vakt] Har du faktisk jobbet med noen som meg, eller øver du deg på meg?",
-            "response": "Jeg har jobbet med traumer og med mennesker som bruker få ord for å holde seg trygge. Jeg lærer fortsatt, og jeg bruker ikke deg som øvingsobjekt. Jeg har støtte rundt arbeidet mitt, og jeg vil si fra hvis jeg mener at vi trenger en annen ressurs. Hvordan er det å høre det?"
+            "response": "Jeg har jobbet med traumer og med mennesker som bruker få ord for å holde seg trygge. Jeg lærer fortsatt, men jeg bruker deg ikke som øvingsobjekt; jeg har støtte rundt dette arbeidet og sier fra hvis vi trenger en annen ressurs. Hvordan er det å høre det?"
           }
         },
         {

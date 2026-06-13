@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T08:19:46.294Z",
+  "generatedAt": "2026-06-13T08:56:45.015Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1926,11 +1926,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Hesitant] Do you actually care about me or are you paid to?",
-                "response": "I do care about you, and I feel that care here with you. Let the part that doubts care hear me without having to believe it all at once."
+                "response": "I do care about you in this therapy relationship, and I feel that care here with you. The paid role gives it boundaries; it does not make the care fake. What happens as you hear both?"
               },
               "no": {
                 "statement": "[Nølende] Bryr du deg egentlig om meg, eller får du betalt for det?",
-                "response": "Jeg bryr meg om deg, og jeg kjenner den omsorgen her sammen med deg. La delen som tviler på omsorg høre meg uten å måtte tro helt på det med en gang."
+                "response": "Jeg bryr meg om deg i denne terapirelasjonen, og jeg kjenner den omsorgen her sammen med deg. At dette er betalt arbeid gir omsorgen grenser; det gjør den ikke falsk. Hva skjer når du hører begge deler?"
               }
             },
             {
@@ -1943,11 +1943,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Fearful] Are you angry with me, or did I already ruin this?",
-                "response": "I am not angry with you. I feel tenderness toward the scared part expecting the connection to break, and I want to understand that expectation with you."
+                "response": "I am not angry with you. I feel tenderness toward the scared part expecting the connection to break; we can understand that expectation together."
               },
               "no": {
                 "statement": "[Redd] Er du sint på meg, eller har jeg allerede ødelagt dette?",
-                "response": "Jeg er ikke sint på deg. Jeg kjenner ømhet for den redde delen som forventer at kontakten skal ryke, og jeg vil forstå den forventningen sammen med deg."
+                "response": "Jeg er ikke sint på deg. Jeg kjenner ømhet for den redde delen som forventer at kontakten skal ryke; den forventningen kan vi forstå sammen."
               }
             },
             {
