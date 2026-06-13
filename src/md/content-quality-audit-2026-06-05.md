@@ -47,6 +47,7 @@ Branch update:
 - Empathic Conjectures hard has received a marker-spoiler regression pass: selected Aisha, David, and Marcus markers were flattened where they named the hidden fear, loneliness, shame, or defensive logic too directly before the therapist's conjecture.
 - Staying in Contact with Intense Affect moderate/hard has received contact-first response polish: 29 English responses and Bokmal localizations now receive the affect before grounding, containment, or safety structuring. Estimated set quality moved closer to Goldman level, roughly from 8.1/10 to 8.5/10 for the targeted response slice.
 - Self-Disclosure hard has received response polish: 15 English responses and Bokmal localizations now use briefer, cleaner therapist transparency with fewer repeated "I want to..." and return-to-client formulae. Estimated hard response quality moved from roughly 8.0/10 to 8.5/10.
+- Empathic Explorations hard has received marker/response regression polish: 15 English items and Bokmal localizations now reduce crisis-contact drift, add clearer one-step exploratory invitations, and keep Aisha/Marcus material closer to a delicate emotional edge. Estimated hard tier quality moved from roughly 8.1/10 to 8.4/10.
 
 The remaining gaps are more subtle:
 
@@ -82,7 +83,7 @@ The remaining gaps are more subtle:
 | Providing Treatment Rationale | Hard | Strong | High | Strong | Low | Strong safety, self-harm, control, trauma, and anger-risk rationale markers. |
 | Empathic Explorations | Easy | Strong | Medium-High | Strong | Low-Medium | Recent pass reduced pre-supplied body imagery and conjectural responses, while preserving live sadness, anger/shame, guardedness, and uncertain positive invitation markers. |
 | Empathic Explorations | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent passes added flatter relational ambiguity, not-emotional/confused process, last-therapist distrust, ordinary uncertainty, and reduced overly evocative response language. |
-| Empathic Explorations | Hard | Strong-Mixed | Medium-High | Strong | Low-Medium | Recent passes added dazed/foggy process and direct therapist-attraction material, simplified one overly imagistic abandonment marker, and pulled selected responses back from conjecture. Some hard-case items still border intense-affect because of case severity. |
+| Empathic Explorations | Hard | Strong | Medium-High | Strong | Low | Recent passes added dazed/foggy process and direct therapist-attraction material, simplified one overly imagistic abandonment marker, pulled selected responses back from conjecture, and softened crisis-contact drift in Aisha/Marcus material. |
 | Empathic Evocations | Easy | Strong | Medium | Strong | Low-Medium | Marker style is now much better: flat, detached, ordinary. Recent regression pass flattened a remaining social-anxiety marker that supplied the image too early. Benchmark archetype coverage is partial, intentionally leaving image-making room for trainees. |
 | Empathic Evocations | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent passes added betrayal, worthlessness, being used, dependency shame, macho anti-feeling, and hopeless relational shutdown while preserving relatively flat markers. Latest pass flattened selected body/metaphor-heavy markers. |
 | Empathic Evocations | Hard | Strong | Medium-High | Strong | Low-Medium | Good coverage of confidentiality threat, crisis-denial, confused distress, worthlessness, and locked-down anti-feeling archetypes. Latest pass improved shame and trauma markers and made the self-harm-adjacent evocation more careful. |
@@ -128,27 +129,29 @@ Completed on the current content branch:
 - Empathic Conjectures hard marker-spoiler regression polish.
 - Staying in Contact with Intense Affect moderate/hard contact-first regression polish.
 - Self-Disclosure hard response polish.
+- Empathic Explorations hard marker/response regression polish.
 
 These should still be reviewed in normal regression passes, but they are no longer the highest-value repair targets.
 
 ## Current Highest-Value Improvement Targets
 
-1. Empathic Explorations hard regression checking.
-   - The tier is no longer a leading repair target, but future passes should still watch the boundary between exploration and intense-affect work in Aisha and Marcus items.
+1. Marker Recognition and Chair Work response procedural polish.
+   - Keep the task setup clear while reducing repeated "if you will/would like" and mechanical setup language.
+   - Preserve the chair-work marker fit; this is response-quality polish, not a new task type.
 
 2. Staying in Contact with Intense Affect spot checks.
    - Keep contact-first language from drifting back into repeated grounding scripts.
    - Add ordinary death/loss variants only where the fixed cases can carry them without feeling grafted on.
 
-3. Empathic Evocations regression polish.
+3. Empathic Explorations spot checks.
+   - The hard tier is no longer a leading repair target, but future passes should still watch the boundary between exploration and intense-affect work in Aisha and Marcus items.
+
+4. Empathic Evocations regression polish.
    - Keep checking that client statements remain flat, detached, or over-cognitive rather than already imagistic.
    - Future evocation changes should be small and benchmark-driven, not a broad rewrite.
 
-4. Self-Disclosure spot checks.
+5. Self-Disclosure spot checks.
    - Keep hard responses brief and transparent without sliding into reassurance, repair, or therapist biography.
-
-5. Empathic Conjectures hard regression polish.
-   - The tier is now strong; future passes should only spot-check that high-risk or defensive markers do not become too interpretive before the trainee responds.
 
 ## Case-Set Constraints
 

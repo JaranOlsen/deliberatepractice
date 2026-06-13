@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T08:56:45.015Z",
+  "generatedAt": "2026-06-13T09:18:24.758Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1142,11 +1142,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Slow and flat] Most days I'm numb and then a wave hits out of nowhere.",
-                "response": "Most days the numbness holds, and then the wave comes as if the feeling has broken through all at once."
+                "response": "Most days the numbness holds, and then the wave breaks through all at once. Can we stay with the first sign that the wave is starting?"
               },
               "no": {
                 "statement": "[Langsomt og flatt] De fleste dager er jeg nummen, og så treffer en bølge helt ut av det blå.",
-                "response": "De fleste dager holder nummenheten stand, og så kommer bølgen som om følelsen bryter gjennom på én gang."
+                "response": "De fleste dager holder nummenheten stand, og så bryter bølgen gjennom på én gang. Kan vi bli ved det første tegnet på at bølgen begynner?"
               }
             },
             {
@@ -1159,11 +1159,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Low voice] After work I sit in the car because the apartment feels too quiet to enter.",
-                "response": "The car gives you a pause before entering the quiet apartment. Let's stay with what you sense before you go upstairs."
+                "response": "The car gives you a pause before the quiet apartment. Can we slow down around the moment before you open the door?"
               },
               "no": {
                 "statement": "[Lav stemme] Etter jobb sitter jeg i bilen fordi leiligheten kjennes for stille til å gå inn i.",
-                "response": "Bilen gir deg en pause før du går inn i den stille leiligheten. Vi kan være med det du merker før du går opp."
+                "response": "Bilen gir deg en pause før den stille leiligheten. Kan vi senke tempoet rundt øyeblikket før du åpner døren?"
               }
             },
             {
@@ -1175,12 +1175,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "[Quiet and guarded] I don't pick up when family calls because I don't want to feel.",
-                "response": "Letting the call go unanswered keeps feeling away for a while. Can we notice what feeling starts to come close when family calls?"
+                "statement": "[Quiet and guarded] I do not pick up when family calls because I do not want to find out what I feel.",
+                "response": "Letting the call go unanswered keeps the feeling away for a while. Can we notice what starts to come close when you imagine answering?"
               },
               "no": {
-                "statement": "[Stille og på vakt] Jeg tar ikke telefonen når familien ringer, fordi jeg ikke vil kjenne på noe.",
-                "response": "Å la telefonen ringe ut holder følelsene unna en stund. Kan vi legge merke til hvilken følelse som begynner å komme nær når familien ringer?"
+                "statement": "[Stille og på vakt] Jeg tar ikke telefonen når familien ringer, fordi jeg ikke vil finne ut hva jeg kjenner.",
+                "response": "Å la telefonen ringe ut holder følelsen unna en stund. Kan vi legge merke til hva som begynner å komme nær når du ser for deg å svare?"
               }
             }
           ]
