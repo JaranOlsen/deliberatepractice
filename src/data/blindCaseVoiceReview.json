@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T21:50:41.885Z",
+  "generatedAt": "2026-06-13T07:35:56.866Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -241,11 +241,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Fearful] My friends say I should come out for dinner, but I am scared I will cry at the table.",
-            "response": "No wonder dinner feels exposed when the sadness is still close enough to spill over in front of people who may not know how tender it is."
+            "response": "Anyone would feel exposed at dinner with sadness close enough to spill over in front of people who may not know how tender it is."
           },
           "no": {
             "statement": "[Redd] Vennene mine sier at jeg burde bli med ut og spise, men jeg er redd jeg kommer til å begynne å gråte ved bordet.",
-            "response": "Ikke rart middag kjennes blottstillende når tristheten fortsatt ligger så nær at den kan renne over foran folk som kanskje ikke skjønner hvor ømt det er."
+            "response": "Hvem som helst kunne kjent seg blottstilt ved et middagsbord når tristheten ligger så nær at den kan renne over foran folk som kanskje ikke skjønner hvor ømt det er."
           }
         },
         {
@@ -277,11 +277,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tense and angry] Watching the news about families like mine being treated like threats makes me so angry I can barely sit still.",
-            "response": "Of course that anger rises when the news touches dignity, family, and the old fear of being treated as less than fully human."
+            "response": "Of course that anger is tied to dignity, family, and the old fear of being treated as less than fully human."
           },
           "no": {
             "statement": "[Anspent og sint] Å se nyheter om familier som min bli behandlet som trusler gjør meg så sint at jeg nesten ikke klarer å sitte stille.",
-            "response": "Selvsagt reiser sinnet seg når nyhetene treffer verdighet, familie og den gamle frykten for å bli behandlet som mindreverdig."
+            "response": "Det er klart at sinnet henger sammen med verdighet, familie og den gamle frykten for å bli behandlet som mindreverdig."
           }
         },
         {
@@ -290,11 +290,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Guilty] I hit a cyclist with my car last week. The road was slick, but he still broke his wrist and I cannot stop feeling guilty.",
-            "response": "That guilt has a moral weight to it; you did not mean to harm him, and still someone was hurt, so it makes sense that it stays with you."
+            "response": "That guilt makes sense as moral weight: you did not mean to harm him, and someone was still hurt."
           },
           "no": {
             "statement": "[Skyldpreget] Jeg traff en syklist med bilen forrige uke. Veien var glatt, men han brakk likevel håndleddet, og jeg klarer ikke slutte å kjenne skyld.",
-            "response": "Den skylden har en moralsk tyngde; du mente ikke å skade ham, og likevel ble noen skadet, så det gir mening at det blir sittende."
+            "response": "Skylden gir mening som moralsk tyngde: Du mente ikke å skade ham, og likevel ble noen skadet."
           }
         }
       ]
@@ -326,11 +326,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Low voice] Holidays feel hollow; I don't feel anything I'm supposed to feel.",
-            "response": "No wonder holidays land flat when shutting down has been part of staying safe."
+            "response": "Understandably, holidays can land flat when shutting down has been part of staying safe."
           },
           "no": {
             "statement": "[Lav stemme] Høytider kjennes hule; jeg føler ingenting av det jeg «burde» føle.",
-            "response": "Ikke rart høytider lander flatt når nedstenging har vært en del av å holde deg trygg."
+            "response": "Det er forståelig at høytider kan lande flatt når nedstenging har vært en del av å holde deg trygg."
           }
         }
       ]

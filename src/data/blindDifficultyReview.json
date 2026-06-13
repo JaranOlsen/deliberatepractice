@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T21:50:41.885Z",
+  "generatedAt": "2026-06-13T07:35:56.866Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -139,11 +139,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Quiet and guarded] I do not want to need anyone, because needing people has usually meant losing control.",
-            "response": "Given what closeness has cost you, no wonder not needing anyone feels like protection rather than coldness."
+            "response": "It makes sense that not needing anyone feels protective after closeness cost you so much; it also leaves you alone with the cost."
           },
           "no": {
             "statement": "[Stille og på vakt] Jeg vil ikke trenge noen, fordi det å trenge folk som regel har betydd å miste kontroll.",
-            "response": "Gitt hva nærhet har kostet deg, er det ikke rart at det å klare seg uten noen kjennes som beskyttelse, ikke kulde."
+            "response": "Det gir mening at det å ikke trenge noen kjennes beskyttende etter at nærhet kostet så mye; det lar deg også bli alene med prisen."
           }
         }
       ]
