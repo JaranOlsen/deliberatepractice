@@ -3677,11 +3677,11 @@ export const STATEMENT_SETS = {
     "case-aisha": [
       {
         "text": "[Hesitant] Do you actually care about me or are you paid to?",
-        "suggestion": "I do care about you, and I feel that care here with you. Let the part that doubts care hear me without having to believe it all at once."
+        "suggestion": "I do care about you in this therapy relationship, and I feel that care here with you. The paid role gives it boundaries; it does not make the care fake. What happens as you hear both?"
       },
       {
         "text": "[Desperate] When I ask whether you will leave, I need to know if you already want distance.",
-        "suggestion": "I feel the force of that fear, and I do not want distance from you here. I want to be as dependable and clear as I can, especially when the fear says I am already leaving."
+        "suggestion": "I feel the force of that fear, and I am not seeking distance from you here. I am here to be dependable and clear, especially when the fear says I am already leaving."
       },
       {
         "text": "[Hesitant] Did I scare you when I said I wanted to hurt myself?",
@@ -3693,11 +3693,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Fearful] Are you angry with me, or did I already ruin this?",
-        "suggestion": "I am not angry with you. I feel tenderness toward the scared part expecting the connection to break, and I want to understand that expectation with you."
+        "suggestion": "I am not angry with you. I feel tenderness toward the scared part expecting the connection to break; we can understand that expectation together."
       },
       {
         "text": "[Ashamed] When I get intense like this, do you think I am too much?",
-        "suggestion": "You do not feel like too much to me. I feel the size of the pain and a wish to help hold it with you, especially where you expect me to pull away."
+        "suggestion": "You do not feel like too much to me. I feel the size of the pain and care about helping you hold it, especially where you expect me to pull away."
       },
       {
         "text": "[Desperate] When I ask if you like me, part of me already expects the answer to disappear.",
@@ -3705,7 +3705,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hesitant] Are you disappointed in me, or are you just not saying it?",
-        "suggestion": "Disappointment is not what I am holding. I feel grateful you are letting me see what is happening, and I want us to notice how quickly you expected disappointment from me."
+        "suggestion": "Disappointment is not what I am holding. I feel grateful you are letting me see what is happening, and we can notice how quickly you expected disappointment from me."
       },
       {
         "text": "[Accusing] You were two minutes late again. Do you even notice what that does to me, or is it just nothing to you?",
@@ -3713,17 +3713,17 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hesitant] Do you think I will ever feel okay, or am I too intense for that?",
-        "suggestion": "I do feel hope with you, and I do not think your intensity rules out feeling okay. I want to go slowly enough that hope does not feel like pressure."
+        "suggestion": "I do feel hope with you, and I do not think your intensity rules out feeling okay. We can hold that hope lightly enough that it does not become pressure."
       }
     ],
     "case-david": [
       {
         "text": "[Controlled] When I say convince me, I am watching whether you get defensive.",
-        "suggestion": "When you ask me to convince you, I do feel a pull to prove myself. I am choosing to be transparent instead of defensive, because proving myself would pull us away from what you are testing in me. What do you notice as I do not take that bait?"
+        "suggestion": "When you ask me to convince you, I notice a pull to prove myself. I am choosing to be transparent instead of defensive, because proving myself would pull us away from what you are testing in me. What is it like to see me name that rather than defend?"
       },
       {
         "text": "[Challenging] Do you actually want to work with someone who can sound as arrogant as I do?",
-        "suggestion": "I do want to work with you. I feel engaged by what is at stake beneath the polish and arrogance; notice what is easier to believe, the interest or the doubt."
+        "suggestion": "Yes, I am willing and engaged in working with you. I feel interested in what is at stake beneath the polish and arrogance; notice which lands first, the interest or the doubt."
       },
       {
         "text": "[Embarrassed] Part of me wants you to be impressed, which is embarrassing to admit.",
@@ -3731,7 +3731,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Challenging] Be honest—do you think I am the problem in every room I enter?",
-        "suggestion": "I do not hold you as the problem. I feel how quickly shame and defense come online for you, and I want us to notice that loop without making you into the problem."
+        "suggestion": "I do not hold you as the problem. I feel how quickly shame and defense come online for you; we can notice that pattern without making you into the problem."
       },
       {
         "text": "[Dismissive] When you look at me like that, I wonder if you pity me. Do you?",
@@ -3739,7 +3739,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Dismissive] I know I am late again. Work got away from me. Anyway, where should we start?",
-        "suggestion": "I want to be direct: when you come late repeatedly and move past it quickly, I feel the work between us getting pushed aside, and I also feel a little dismissed. What happens for you hearing that before we decide where to start?"
+        "suggestion": "This is hard to say directly: when you come late repeatedly and move past it quickly, I feel the work between us getting pushed aside, and I feel a little dismissed. What happens for you hearing that before we decide where to start?"
       },
       {
         "text": "[Wounded but sharp] Do you ever feel ashamed of being wrong, or is that weakness just mine?",
@@ -3751,11 +3751,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Curious] Are you married, and would that make you judge my affair?",
-        "suggestion": "I keep my relationship details private here, and I can tell you I am not here to judge you. I feel interested in what the affair means and what it costs you."
+        "suggestion": "I keep my relationship details private here, and I can tell you I am not here to judge you. I feel interested in what the affair means and what it costs you. What happens as you hear privacy from me without judgment?"
       },
       {
         "text": "[Challenging] Do you actually respect me when you see these parts of me?",
-        "suggestion": "I do respect you. I feel most respectful when you let the harder parts be visible here. We can let respect include those parts too."
+        "suggestion": "I do respect you. I feel most respectful when you let the harder parts be visible here. What is it like to hear respect include those parts too?"
       }
     ],
     "case-marcus": [
@@ -3777,7 +3777,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hesitant] Are you going to push me into things before I know how to stop?",
-        "suggestion": "I am not planning to push you. I feel more interested in keeping this tolerable than in going fast. We can check together what pace keeps this workable."
+        "suggestion": "No, I will not push you into things before you know how to stop. I feel more interested in keeping this tolerable than in going fast. We can check together what pace keeps this workable."
       },
       {
         "text": "[Hesitant] Do you actually think I can change after being like this for years?",
@@ -3793,11 +3793,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and guarded] Have you actually worked with someone like me, or are you learning on me?",
-        "suggestion": "I have worked with trauma and with people who use few words to stay safe. I am always learning, and I am not using you as practice. I have support around my work, and I will tell you if I think we need another resource. What is it like to hear that?"
+        "suggestion": "I have worked with trauma and with people who use few words to stay safe. I am always learning, but I am not using you as practice; I have support around this work and will say if we need another resource. What is it like to hear that?"
       },
       {
         "text": "[Low voice] Are you okay with silence, or does it make you want to fill it?",
-        "suggestion": "I am okay with silence. I often feel close attention in silence, not distance. You can let the silence test that slowly rather than answer right away."
+        "suggestion": "I can sit with silence. I often feel close attention in silence, not distance. You can let the silence test that slowly rather than answer right away."
       }
     ]
   },

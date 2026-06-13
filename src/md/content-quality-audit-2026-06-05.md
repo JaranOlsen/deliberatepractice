@@ -46,6 +46,7 @@ Branch update:
 - Empathic Evocations has received another regression pass: selected markers were flattened where they were still supplying body/image language too early, and a self-harm-adjacent evocation was made less poetic and more clinically careful.
 - Empathic Conjectures hard has received a marker-spoiler regression pass: selected Aisha, David, and Marcus markers were flattened where they named the hidden fear, loneliness, shame, or defensive logic too directly before the therapist's conjecture.
 - Staying in Contact with Intense Affect moderate/hard has received contact-first response polish: 29 English responses and Bokmal localizations now receive the affect before grounding, containment, or safety structuring. Estimated set quality moved closer to Goldman level, roughly from 8.1/10 to 8.5/10 for the targeted response slice.
+- Self-Disclosure hard has received response polish: 15 English responses and Bokmal localizations now use briefer, cleaner therapist transparency with fewer repeated "I want to..." and return-to-client formulae. Estimated hard response quality moved from roughly 8.0/10 to 8.5/10.
 
 The remaining gaps are more subtle:
 
@@ -93,7 +94,7 @@ The remaining gaps are more subtle:
 | Staying in Contact with Intense Affect | Hard | Strong | High | Strong | Low | Strong coverage: erotic pressure, self-harm, sexual-offense guilt, homicidal fantasy, collective trauma, therapy-not-working rupture. Latest pass strengthened contact-first receiving before safety or containment language. |
 | Self-Disclosure | Easy | Strong | High | Strong | Low | Strong therapist-transparency markers, including first-session uncertainty, care, judgment, and personal questions. |
 | Self-Disclosure | Moderate | Strong | Medium-High | Strong | Low | Good boredom/interest, discomfort, trauma competence, therapist impact, and care questions. Pet-loss grief is absent but not essential. |
-| Self-Disclosure | Hard | Strong | High | Strong-Mixed | Low | Now covers repeated lateness, attractiveness, pity, therapist experience, care, and boundaries. Some responses overuse "I want to..." and return-to-client phrasing. |
+| Self-Disclosure | Hard | Strong | High | Strong | Low | Strong coverage of repeated lateness, attractiveness, pity, therapist experience, care, and boundaries. Recent pass made therapist disclosures briefer, more boundaried, and less formulaic. |
 | Marker Recognition and Chair Work | Easy | Strong | Medium-High | Strong-Mixed | Low-Medium | Expanded to full matrix. Natural marker recognition now covers ordinary self-attack, self-interruption, unfinished business, blocked protest, and worry/catastrophizing without pre-labeling the chair task. |
 | Marker Recognition and Chair Work | Moderate | Strong | High | Strong-Mixed | Low-Medium | Expanded coverage of divorce self-blame, mother/father unfinished business, numbness, apology block, caregiver guilt, affair guilt, and goodbye grief. Procedural response repetition is expected. |
 | Marker Recognition and Chair Work | Hard | Strong | High | Strong-Mixed | Low-Medium | Expanded coverage of catastrophizing worry, betrayal rage, trauma shame, abusive self-blame, intergenerational violence, blocked anger, and sexual-boundary shame. Procedural response repetition is expected. |
@@ -126,25 +127,25 @@ Completed on the current content branch:
 - Empathic Evocations regression polish for marker flatness and safety-sensitive response tone.
 - Empathic Conjectures hard marker-spoiler regression polish.
 - Staying in Contact with Intense Affect moderate/hard contact-first regression polish.
+- Self-Disclosure hard response polish.
 
 These should still be reviewed in normal regression passes, but they are no longer the highest-value repair targets.
 
 ## Current Highest-Value Improvement Targets
 
-1. Self-Disclosure hard response polish.
-   - Reduce overuse of "I want to..." and return-to-client formulae.
-   - Keep therapist transparency brief, boundaried, and useful under erotic, suicidal, competence-testing, and contemptuous markers.
-
-2. Empathic Explorations hard regression checking.
+1. Empathic Explorations hard regression checking.
    - The tier is no longer a leading repair target, but future passes should still watch the boundary between exploration and intense-affect work in Aisha and Marcus items.
 
-3. Staying in Contact with Intense Affect spot checks.
+2. Staying in Contact with Intense Affect spot checks.
    - Keep contact-first language from drifting back into repeated grounding scripts.
    - Add ordinary death/loss variants only where the fixed cases can carry them without feeling grafted on.
 
-4. Empathic Evocations regression polish.
+3. Empathic Evocations regression polish.
    - Keep checking that client statements remain flat, detached, or over-cognitive rather than already imagistic.
    - Future evocation changes should be small and benchmark-driven, not a broad rewrite.
+
+4. Self-Disclosure spot checks.
+   - Keep hard responses brief and transparent without sliding into reassurance, repair, or therapist biography.
 
 5. Empathic Conjectures hard regression polish.
    - The tier is now strong; future passes should only spot-check that high-risk or defensive markers do not become too interpretive before the trainee responds.
