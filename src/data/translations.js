@@ -3671,8 +3671,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Latteren går gjennom rommet og peker seg mot deg før du vet hva den handlet om."
     },
     "dp_empathic-evocations_case-jason_05": {
-      "text": "[Nølende] Når oppmerksomheten vender seg mot meg, prøver jeg å ta mindre plass.",
-      "suggestion": "Kroppen begynner å gjøre seg mindre, leter etter en måte å være til stede på uten å bli sett."
+      "text": "[Nølende] Når oppmerksomheten vender seg mot meg, blir jeg stillere og prøver å ikke bevege meg så mye.",
+      "suggestion": "Det er som om hele kroppen begynner å krympe i stolen, prøver å være til stede uten å bli sett."
     },
     "dp_empathic-evocations_case-jason_06": {
       "text": "[Engstelig] Når noen gir meg et kompliment, tror jeg egentlig ikke på det.",
@@ -3707,8 +3707,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Sviket trekker en hard strek inni deg, kjærligheten dras bak en låst dør før den kan bli såret igjen."
     },
     "dp_empathic-evocations_case-laura_04": {
-      "text": "[Skamfull] Jeg føler at det er noe galt med meg, fordi selv enkle gode ting ikke når inn.",
-      "suggestion": "Det er som om et mørkt merke har spredt seg på innsiden, så selv vanlig varme glir av før den får trekke inn."
+      "text": "[Skamfull] Gode ting skjer, og jeg legger merke til dem, men jeg kjenner ikke så mye.",
+      "suggestion": "Det er som om vanlig varme lander på utsiden og glir av før den får trekke inn."
     },
     "dp_empathic-evocations_case-laura_05": {
       "text": "[Fjern] Vin hjelper meg å skru av om kvelden.",
@@ -3735,7 +3735,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Bagen venter ved døra som en stille utgangsplan, et tegn på at en del av deg aldri helt legger beredskapen ned."
     },
     "dp_empathic-evocations_case-carlos_01": {
-      "text": "[Defensiv] Når noen smiler skjevt til meg, begynner hendene å dirre.",
+      "text": "[Defensiv] Når noen smiler skjevt til meg, blir jeg fort anspent.",
       "suggestion": "Det skjeve smilet sender strøm ut i hendene, varme som leter etter et sted å gå før ordene rekker fram."
     },
     "dp_empathic-evocations_case-carlos_02": {
@@ -3763,7 +3763,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Tennene låser seg som en skrustikke, holder ordene og varmen inne til smerten begynner å dunke."
     },
     "dp_empathic-evocations_case-carlos_08": {
-      "text": "[Verdiløs] Hvis jeg gir meg foran sønnen min, føles det som om jeg blir ingen.",
+      "text": "[Verdiløs] Hvis jeg gir meg foran sønnen min, kjenner jeg meg skamfull og svak.",
       "suggestion": "Å gi seg får deg til å kjenne deg visket ut, som om konturen din blekner til det ikke står noen mann igjen der."
     },
     "dp_empathic-evocations_case-carlos_09": {
@@ -3791,11 +3791,11 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Smilet strekkes over smerten og prøver å holde hele dagen oppe i en tynn tråd."
     },
     "dp_empathic-evocations_case-nina_05": {
-      "text": "[Unnskyldende] Utover kvelden kjennes hele kroppen tung.",
+      "text": "[Unnskyldende] Utover kvelden er jeg så sliten at jeg knapt klarer å fortsette.",
       "suggestion": "Trettheten legger seg inn i knoklene, hvert steg tykt og langsomt mot slutten av dagen."
     },
     "dp_empathic-evocations_case-nina_06": {
-      "text": "[Splittet] Å si nei får hjertet til å rase.",
+      "text": "[Splittet] Å si nei gjør meg panisk.",
       "suggestion": "Nei-et setter i gang en alarm i brystet, som om én liten grense kan true selve kjærligheten."
     },
     "dp_empathic-evocations_case-nina_07": {
@@ -3828,7 +3828,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-aisha_04": {
       "text": "[Panisk] Jeg klorer meg på armen når jeg begynner å føle meg uvirkelig.",
-      "suggestion": "Sviingen skjærer gjennom tåken, et lite skarpt bevis på at du fortsatt er her."
+      "suggestion": "Kloringen blir en desperat måte å skjære gjennom uvirkelighetsfølelsen og finne deg selv et øyeblikk."
     },
     "dp_empathic-evocations_case-aisha_05": {
       "text": "[Panisk] Når skriveprikkene forsvinner, får jeg panikk med en gang.",
@@ -3871,8 +3871,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Skjorta og merittene blir rustningsdeler, festet på plass før slaget kan lande."
     },
     "dp_empathic-evocations_case-david_05": {
-      "text": "[Skamfull] Innerst inne tror jeg det er noe galt med meg som suksess ikke kan dekke over.",
-      "suggestion": "Suksessen ligger over det som fint lin, men under finnes det en mørk flekk du frykter skal fortsette å spre seg."
+      "text": "[Skamfull] Uansett hvor mye jeg får til, tror jeg fortsatt at det er noe galt med meg.",
+      "suggestion": "Hver prestasjon blir som et nytt polert lag, men under ligger det en mørk flekk du frykter skal fortsette å spre seg."
     },
     "dp_empathic-evocations_case-david_06": {
       "text": "[Skamfull] Ansiktet til barnet mitt etter at jeg smeller, plager meg mer enn jeg hadde ventet.",
@@ -3915,7 +3915,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Stillheten senker seg over brystet, tung nok til å gjøre luften trang."
     },
     "dp_empathic-evocations_case-marcus_06": {
-      "text": "[Stille og på vakt] Gode øyeblikk kjennes fjerne og når meg ikke helt.",
+      "text": "[Stille og på vakt] Når noe godt skjer, legger jeg merke til det, men jeg kjenner det ikke særlig.",
       "suggestion": "Det gode er rett der og likevel bak glass, uklart før det rekker fram til deg."
     },
     "dp_empathic-evocations_case-marcus_07": {

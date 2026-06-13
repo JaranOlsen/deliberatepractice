@@ -2384,8 +2384,8 @@ export const STATEMENT_SETS = {
         "suggestion": "The laugh travels across the room and points itself at you, even before you know what it was about."
       },
       {
-        "text": "[Hesitant] When attention turns to me, I try to take up less space.",
-        "suggestion": "Your body starts making itself smaller, searching for a way to be present without being seen."
+        "text": "[Hesitant] When attention turns to me, I get quieter and try not to move much.",
+        "suggestion": "It is as if your whole body starts shrinking in the chair, trying to stay present without being seen."
       },
       {
         "text": "[Anxious] When someone compliments me, I don't really believe it.",
@@ -2422,8 +2422,8 @@ export const STATEMENT_SETS = {
         "suggestion": "The betrayal draws a hard line inside you, love pulled behind a bolted door before it can be hurt again."
       },
       {
-        "text": "[Ashamed] I feel like something is wrong with me because even simple good things do not reach me.",
-        "suggestion": "It is as if a dark mark has spread across the inside, making even ordinary warmth slide off before it can soak in."
+        "text": "[Ashamed] Good things happen, and I notice them, but I do not feel much.",
+        "suggestion": "It is as if ordinary warmth lands on the outside and slides off before it can soak in."
       },
       {
         "text": "[Distant] Wine helps me turn things off at night.",
@@ -2452,7 +2452,7 @@ export const STATEMENT_SETS = {
     ],
     "case-carlos": [
       {
-        "text": "[Defensive] When someone smirks at me, my hands start buzzing.",
+        "text": "[Defensive] When someone smirks at me, I get tense fast.",
         "suggestion": "The smirk sends current into your hands, heat looking for somewhere to go before words can catch up."
       },
       {
@@ -2480,7 +2480,7 @@ export const STATEMENT_SETS = {
         "suggestion": "Your teeth lock down like a vise, holding the words and heat in until pain starts pounding."
       },
       {
-        "text": "[Worthless] If I back down in front of my son, I feel like I become nobody.",
+        "text": "[Worthless] If I back down in front of my son, I feel ashamed and weak.",
         "suggestion": "Backing down makes you feel erased, like your outline fades until there is no man left standing there."
       },
       {
@@ -2510,11 +2510,11 @@ export const STATEMENT_SETS = {
         "suggestion": "The smile stretches over the pain, trying to hold the whole day upright by a thin thread."
       },
       {
-        "text": "[Apologetic] By evening I feel heavy all over.",
+        "text": "[Apologetic] By evening I am so tired I can barely keep going.",
         "suggestion": "The tiredness settles into your bones, each step thick and slow by the end of the day."
       },
       {
-        "text": "[Torn] Saying no makes my heart race.",
+        "text": "[Torn] Saying no makes me panic.",
         "suggestion": "The no sets off a chest alarm, as if one small boundary could threaten love itself."
       },
       {
@@ -2549,7 +2549,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Panicked] I scratch my arm when I start feeling unreal.",
-        "suggestion": "The sting cuts through the fog, a sharp little proof that you are still here."
+        "suggestion": "The scratch becomes a desperate way to cut through the unreal feeling and find yourself for a second."
       },
       {
         "text": "[Panicked] When the typing dots disappear, I feel panicky right away.",
@@ -2594,8 +2594,8 @@ export const STATEMENT_SETS = {
         "suggestion": "The shirt and the record become armor pieces, fastened before the hit can land."
       },
       {
-        "text": "[Ashamed] Deep down I think there is something wrong with me that success cannot cover.",
-        "suggestion": "Success lies over it like fine linen, but underneath there is a dark stain you fear will keep spreading through."
+        "text": "[Ashamed] No matter how much I achieve, I still think there is something wrong with me.",
+        "suggestion": "Every achievement is like another polished layer, but underneath there is a dark stain you fear will keep spreading."
       },
       {
         "text": "[Ashamed] My kid's face after I snap bothers me more than I expected.",
@@ -2640,7 +2640,7 @@ export const STATEMENT_SETS = {
         "suggestion": "The quiet lowers itself onto your chest, heavy enough to crowd the air."
       },
       {
-        "text": "[Quiet and guarded] Good moments feel distant and don't quite reach me.",
+        "text": "[Quiet and guarded] When something good happens, I notice it, but I do not feel it much.",
         "suggestion": "Goodness is right there and still behind glass, blurred before it can get to you."
       },
       {

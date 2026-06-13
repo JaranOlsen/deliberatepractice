@@ -43,6 +43,7 @@ Branch update:
 - Empathic Understanding easy has received regression polish: selected Sara, Michael, and Jason responses now stay closer to explicit client meaning, and one Sara marker was softened away from naming core unlovability too directly.
 - Staying in Contact with Intense Affect easy/moderate has received a contact-over-grounding polish: selected responses now communicate steadier presence before regulation, and Sara now includes a warm positive-affect marker that is hard to stay with for different reasons than panic or grief.
 - Empathic Affirmation and Validation has received a cross-tier response-variety pass: 51 English responses and their Bokmal localizations were tightened so validation remains explicit while reducing overuse of "No wonder," broad protection language, and literal Norwegian therapy-English phrasing.
+- Empathic Evocations has received another regression pass: selected markers were flattened where they were still supplying body/image language too early, and a self-harm-adjacent evocation was made less poetic and more clinically careful.
 
 The remaining gaps are more subtle:
 
@@ -79,9 +80,9 @@ The remaining gaps are more subtle:
 | Empathic Explorations | Easy | Strong | Medium-High | Strong | Low-Medium | Recent pass reduced pre-supplied body imagery and conjectural responses, while preserving live sadness, anger/shame, guardedness, and uncertain positive invitation markers. |
 | Empathic Explorations | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent passes added flatter relational ambiguity, not-emotional/confused process, last-therapist distrust, ordinary uncertainty, and reduced overly evocative response language. |
 | Empathic Explorations | Hard | Strong-Mixed | Medium-High | Strong | Low-Medium | Recent passes added dazed/foggy process and direct therapist-attraction material, simplified one overly imagistic abandonment marker, and pulled selected responses back from conjecture. Some hard-case items still border intense-affect because of case severity. |
-| Empathic Evocations | Easy | Strong | Medium | Strong | Low-Medium | Marker style is now much better: flat, detached, ordinary. Benchmark archetype coverage is partial, but this is partly intentional to preserve trainee image-making. |
-| Empathic Evocations | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass added betrayal, worthlessness, being used, dependency shame, macho anti-feeling, and hopeless relational shutdown while preserving relatively flat markers. |
-| Empathic Evocations | Hard | Strong | Medium-High | Strong | Low-Medium | Recent pass added confidentiality threat, crisis-denial, confused distress, worthlessness, and locked-down anti-feeling archetypes. Remaining work is regression polish to prevent client-supplied imagery from creeping back in. |
+| Empathic Evocations | Easy | Strong | Medium | Strong | Low-Medium | Marker style is now much better: flat, detached, ordinary. Recent regression pass flattened a remaining social-anxiety marker that supplied the image too early. Benchmark archetype coverage is partial, intentionally leaving image-making room for trainees. |
+| Empathic Evocations | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent passes added betrayal, worthlessness, being used, dependency shame, macho anti-feeling, and hopeless relational shutdown while preserving relatively flat markers. Latest pass flattened selected body/metaphor-heavy markers. |
+| Empathic Evocations | Hard | Strong | Medium-High | Strong | Low-Medium | Good coverage of confidentiality threat, crisis-denial, confused distress, worthlessness, and locked-down anti-feeling archetypes. Latest pass improved shame and trauma markers and made the self-harm-adjacent evocation more careful. |
 | Empathic Conjectures | Easy | Strong | Medium-High | Strong | Low-Medium | Recent pass made markers more behavioral and less self-formulated across breakup grief, anger/defensiveness, social anxiety, alcohol use, and apology/shame material. |
 | Empathic Conjectures | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass reduced over-naming in trauma avoidance, anger/masculinity defenses, caregiver shame, and attachment-maintenance markers. |
 | Empathic Conjectures | Hard | Strong-Mixed | Medium-High | Strong | Low-Medium | Good denial-after-suicidality, trapped relationship, macho anti-feeling, and hard defensiveness coverage. |
@@ -120,6 +121,7 @@ Completed on the current content branch:
 - Empathic Understanding, easy regression polish.
 - Staying in Contact with Intense Affect, easy/moderate contact-over-grounding polish.
 - Empathic Affirmation and Validation cross-tier response-variety and Bokmal naturalness polish.
+- Empathic Evocations regression polish for marker flatness and safety-sensitive response tone.
 
 These should still be reviewed in normal regression passes, but they are no longer the highest-value repair targets.
 
