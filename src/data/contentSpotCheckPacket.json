@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T08:06:25.766Z",
+  "generatedAt": "2026-06-13T08:19:46.294Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1684,11 +1684,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Apologetic] I feel like I am failing everyone, and my body wants to collapse. I sat on the bathroom floor for two minutes and even that felt stolen from someone who needed me.",
-                "response": "That is heavy. Let the chair take some of your weight, and we will notice the edge of collapse without asking your body to carry it alone."
+                "response": "That collapse has been held off for a long time. I am here with you as the weight shows up and we let only a bearable amount be carried in this room."
               },
               "no": {
                 "statement": "[Unnskyldende] Jeg føler at jeg svikter alle, og kroppen vil bare klappe sammen. Jeg satt på badegulvet i to minutter, og selv det føltes stjålet fra noen som trengte meg.",
-                "response": "Det er tungt. La stolen bære noe av vekten, og vi legger merke til kanten av kollaps uten å be kroppen din bære det alene."
+                "response": "Den kollapsen har vært holdt tilbake lenge. Jeg er her med deg mens tyngden viser seg, og vi lar bare en tålelig mengde bæres i dette rommet."
               }
             },
             {
@@ -1701,11 +1701,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Torn] I cannot catch my breath when I stop taking care of everyone. The second I sit down, I feel the whole house leaning toward me, like if I breathe for myself someone else will fall.",
-                "response": "For this second, no one else gets assigned to you. Let the chair take your back, lengthen one out-breath, and give your own breath the room usually taken by everyone else."
+                "response": "The whole house seems to lean on you the second you make room for yourself. I am here with you while your own breath gets a little space without making anyone else fall."
               },
               "no": {
                 "statement": "[Splittet] Jeg får ikke tak i pusten når jeg slutter å ta vare på alle. I det sekundet jeg setter meg ned, kjenner jeg hele huset lene seg mot meg, som om noen andre faller hvis jeg puster for meg selv.",
-                "response": "I dette sekundet skal ingen andres behov legges på deg. La stolen bære ryggen din, forleng ett utpust, og gi din egen pust rommet som vanligvis går til alle andre."
+                "response": "Det er som om hele huset lener seg på deg idet du lager plass til deg selv. Jeg er her med deg mens din egen pust får litt rom uten at noen andre må falle."
               }
             }
           ]
@@ -1747,11 +1747,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Trembling] My hands start trembling when I try to say even one piece of what happened. The story is still behind my teeth, but my hands are already telling you it is too close.",
-                "response": "The trembling can speak before the story does. Let your hands rest where you can see them, breathe low, and give the tremble a few seconds with me."
+                "response": "The trembling is already saying how close the story is. I will stay with you there; your hands can be visible while the tremble has company for just a few seconds."
               },
               "no": {
                 "statement": "[Skjelvende] Hendene mine begynner å skjelve når jeg prøver å si bare én bit av det som skjedde. Historien ligger fortsatt bak tennene, men hendene mine forteller deg allerede at den er for nær.",
-                "response": "Skjelvingen kan snakke før historien gjør det. La hendene hvile der du kan se dem, pust lavt, og gi skjelvingen noen sekunder sammen med meg."
+                "response": "Skjelvingen sier allerede hvor nær historien er. Jeg blir hos deg der; hendene dine kan være synlige mens skjelvingen får selskap i bare noen sekunder."
               }
             },
             {
