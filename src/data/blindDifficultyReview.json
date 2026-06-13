@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T07:35:56.866Z",
+  "generatedAt": "2026-06-13T08:06:25.767Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -360,11 +360,11 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Dismissive] Apologizing makes me cringe, like everyone in the room can watch my status drop.",
+            "statement": "[Dismissive] Apologizing makes me cringe; I start explaining before the words are even out.",
             "response": "It feels humiliating; I wonder if admitting wrong might touch an old shame of being reduced to failure."
           },
           "no": {
-            "statement": "[Avvisende] Å be om unnskyldning får meg til å krympe meg, som om alle i rommet ser statusen min falle.",
+            "statement": "[Avvisende] Å be om unnskyldning får meg til å krympe meg; jeg begynner å forklare før ordene er ute.",
             "response": "Det kjennes ydmykende; jeg lurer på om det å innrømme feil kan treffe en gammel skam over å bli redusert til mislykket."
           }
         },

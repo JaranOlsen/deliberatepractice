@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T07:35:56.866Z",
+  "generatedAt": "2026-06-13T08:06:25.766Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1550,11 +1550,11 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "[Dismissive] Apologizing makes me cringe, like everyone in the room can watch my status drop.",
+                "statement": "[Dismissive] Apologizing makes me cringe; I start explaining before the words are even out.",
                 "response": "It feels humiliating; I wonder if admitting wrong might touch an old shame of being reduced to failure."
               },
               "no": {
-                "statement": "[Avvisende] Å be om unnskyldning får meg til å krympe meg, som om alle i rommet ser statusen min falle.",
+                "statement": "[Avvisende] Å be om unnskyldning får meg til å krympe meg; jeg begynner å forklare før ordene er ute.",
                 "response": "Det kjennes ydmykende; jeg lurer på om det å innrømme feil kan treffe en gammel skam over å bli redusert til mislykket."
               }
             },
@@ -1567,12 +1567,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "[Wounded but sharp] I hate being misunderstood by my wife; it makes me feel invisible.",
-                "response": "You hate that invisibility; I wonder if there is grief about not being known beneath the anger."
+                "statement": "[Wounded but sharp] When my wife misunderstands me, I get sharp and keep proving my point.",
+                "response": "You keep proving the point; I wonder if beneath the anger there is grief about not being known."
               },
               "no": {
-                "statement": "[Såret, men skarp] Jeg hater å bli misforstått av kona mi; det får meg til å føle meg usynlig.",
-                "response": "Du hater den usynligheten; jeg lurer på om det under sinnet ligger en sorg over ikke å bli kjent."
+                "statement": "[Såret, men skarp] Når kona mi misforstår meg, blir jeg skarp og fortsetter å bevise poenget mitt.",
+                "response": "Du fortsetter å bevise poenget; jeg lurer på om det under sinnet ligger en sorg over ikke å bli kjent."
               }
             }
           ]
