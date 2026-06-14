@@ -1905,7 +1905,7 @@ export const STATEMENT_SETS = {
     "case-sara": [
       {
         "text": "[Softly] Seeing his name pop up still throws me, and I hate how much it matters.",
-        "suggestion": "Seeing his name still throws you, and there is something painful about how much it still matters."
+        "suggestion": "Seeing his name still throws you, and the painful part is how much it still matters. Let's pause right there and notice what happens in you when you admit that it matters."
       },
       {
         "text": "[Embarrassed] I tell friends I'm fine, and then I worry they can hear that I am not.",
@@ -1913,11 +1913,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tearful] I feel lost after the breakup, like I do not know what to do with the evenings.",
-        "suggestion": "The evenings leave you unsure where to put yourself, and that lostness has its own ache."
+        "suggestion": "The evenings are where the lostness shows up most clearly. Let's stay with one evening for a moment and notice what feels hardest when there is nowhere to put yourself."
       },
       {
         "text": "[Softly] I wrote 'sorry' to him three times, then realized I do not know what I was trying to fix.",
-        "suggestion": "You were reaching for some kind of repair, and then it became unclear what you were even apologizing for."
+        "suggestion": "Writing sorry was a reach toward repair, and then the ground disappeared under what you were trying to fix. Let's slow down at that unclear place and notice what feeling comes up."
       },
       {
         "text": "[Panicked] I delete photos to prove I am done, then panic and look for them again.",
@@ -1933,7 +1933,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Embarrassed] I am sad, and then I get embarrassed that I am still talking about it.",
-        "suggestion": "Sadness is here, and embarrassment comes quickly on top of it; both are part of this moment."
+        "suggestion": "Sadness is here, and embarrassment quickly asks whether you should still be talking about it. Let's give both a little room and notice which one is stronger right now."
       },
       {
         "text": "[Tearful] When I see couples holding hands, I get upset and then feel childish for wanting that.",
@@ -1941,7 +1941,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Embarrassed] If I let someone see the whole mess, I imagine them quietly wishing I would stop.",
-        "suggestion": "You want someone to know how bad it is, and at the same time you expect them to pull away."
+        "suggestion": "Part of you wants someone to see how bad it is, and another part expects them to wish you would stop. Let's stay with that pull between wanting to be seen and expecting rejection."
       }
     ],
     "case-michael": [
@@ -1955,7 +1955,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] After I blow up at home, I tell myself they pushed me, but I still feel lousy.",
-        "suggestion": "Part of you argues they pushed you, and another part is left feeling lousy afterward."
+        "suggestion": "One part says they pushed you, and another part is left with that lousy feeling afterward. Let's stay with the lousy feeling for a moment before the argument about blame takes over."
       },
       {
         "text": "[Ashamed] Sometimes I want to throw my phone after a work message, and then I feel ridiculous.",
@@ -1963,7 +1963,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Defensive] A small sigh from my wife can feel like she has already decided I am the problem.",
-        "suggestion": "That sigh lands as a decision about you, and then the flare comes quickly."
+        "suggestion": "That small sigh lands like a decision has already been made about you. Let's slow down at the first flare and notice what it says you are being accused of."
       },
       {
         "text": "[Tense] When I do not know the answer, I get tense and start talking like I know anyway.",
@@ -1979,21 +1979,21 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] Some nights I replay every word I said, trying to find where I messed it up.",
-        "suggestion": "You go back over every word, searching for the point where things went wrong."
+        "suggestion": "You replay every word, looking for the moment you got it wrong. Let's notice what it feels like inside when you think you have found the mistake."
       },
       {
         "text": "[Vulnerable] I want my son to feel safe around me, and I do not know how to say that without sounding weak.",
-        "suggestion": "You want safety for him so much, and even saying it brings up the old rule about weakness."
+        "suggestion": "You want safety for him so much, and even naming that wish brushes against the old weakness rule. Let's stay with the wish itself for a moment, before the rule closes around it."
       }
     ],
     "case-jason": [
       {
         "text": "[Quietly] When it is my turn to speak, I lose track of what I was going to say.",
-        "suggestion": "Attention turns toward you, and the words disappear just when you need them."
+        "suggestion": "When attention turns toward you, the words vanish. Let's pause at that exact moment and notice what it feels like when everyone is waiting."
       },
       {
         "text": "[Hesitant] I hover over send, then delete the text because wanting contact suddenly feels humiliating.",
-        "suggestion": "The wish for contact is there, and then humiliation makes it hard to let the message exist."
+        "suggestion": "The wish for contact is there, and humiliation makes the message hard to let exist. Let's stay with the wanting for a moment before the deleting happens."
       },
       {
         "text": "[Fearful] I got invited to a birthday party, and part of me was excited, but then I started worrying I would ruin it.",
@@ -2005,7 +2005,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Embarrassed] After meetings, one small awkward pause can make me cringe for the rest of the day.",
-        "suggestion": "That small pause stays with you, and the cringe keeps returning long after the meeting is over."
+        "suggestion": "That one pause keeps coming back long after the meeting. Let's slow it down and notice what the cringe says about how you think you were seen."
       },
       {
         "text": "[Anxious] When I walk into a room, I look for the exit before I decide whether to join anyone.",
@@ -2031,7 +2031,7 @@ export const STATEMENT_SETS = {
     "case-laura": [
       {
         "text": "[Slow and flat] Most days are flat, but if sadness flickers I shut it down before it spreads.",
-        "suggestion": "Most days are flat, and when sadness starts to flicker, something in you shuts it down before it can spread."
+        "suggestion": "Most days are flat, and the first flicker of sadness gets shut down quickly. Let's pause at that flicker and notice what tells you it might spread."
       },
       {
         "text": "[Fearful] Raised voices do not even have to be aimed at me; I just go quiet and wait for it to pass.",
@@ -2043,7 +2043,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Flat and guarded] I drink wine at night because the noise in my head feels sharper when the house gets quiet.",
-        "suggestion": "The wine seems to soften the sharpness that arrives when the house goes quiet."
+        "suggestion": "The wine softens the sharpness that comes when the house goes quiet. Let's stay with the sharpness for a moment before the wine takes it down."
       },
       {
         "text": "[Distant] I wake up already expecting the day to go wrong, even when nothing has happened yet.",
@@ -2063,7 +2063,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and guarded] I feel guilty for wanting comfort, like needing anything makes me a problem.",
-        "suggestion": "The guilt seems to turn a human need into evidence that you are asking too much."
+        "suggestion": "The guilt turns wanting comfort into evidence that you are a problem. Let's stay close to the wanting itself and notice what kind of comfort it asks for."
       },
       {
         "text": "[Slow and flat] I avoid movies with fighting because I don't want to find out what a single shout will do to me.",
@@ -2081,7 +2081,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Fearful] If I back off, I feel myself disappearing, like there is no outline left.",
-        "suggestion": "Backing off seems to touch a vanishing place, where your outline starts to disappear."
+        "suggestion": "Backing off touches that vanishing place, where your outline starts to disappear. Let's stay at the first hint of disappearing and notice what feels at risk."
       },
       {
         "text": "[Ashamed] My boy's flinch keeps replaying, and I hate that he learned that fear from me.",
@@ -2108,14 +2108,14 @@ export const STATEMENT_SETS = {
         "suggestion": "When anger drops, the softer wish for safety scares you. Can we stay near that soft-scared place for a moment?"
       },
       {
-        "text": "[Fearful] I learned early that being the small one meant someone else could take whatever they wanted.",
-        "suggestion": "That old rule still carries the danger of being small and unprotected."
+        "text": "[Fearful] When I start to feel small in an argument, something in me panics, like someone could take whatever they wanted.",
+        "suggestion": "Feeling small brings that old danger close, as if someone could take what they want. Let's stay with the first panic of smallness before you have to get bigger."
       }
     ],
     "case-nina": [
       {
         "text": "[Tired] The second I ask for help, guilt rushes in and I want to pull it back.",
-        "suggestion": "The guilt rushes in so fast it is almost as if the need has to be taken back immediately."
+        "suggestion": "The guilt rushes in almost as soon as the need appears. Let's pause at the split second before you pull the request back and notice what feels dangerous about needing help."
       },
       {
         "text": "[Guilty] I keep folding laundry and answering messages so I do not have to feel resentful.",
@@ -2127,7 +2127,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tired] Even asking for a small ride comes out with three apologies.",
-        "suggestion": "The apologies arrive before the need can stand on its own, as if asking already risks being too much."
+        "suggestion": "The apologies arrive before the need can stand on its own. Let's linger where the need is still small and see what it is like before you soften it."
       },
       {
         "text": "[Guilty] A messy house makes me feel like everyone will see I am failing.",
@@ -2139,7 +2139,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Guilty] I dream of being taken care of, and then I shame myself for wanting it.",
-        "suggestion": "The wish to be cared for is there, and almost right beside it comes the shame for wanting it."
+        "suggestion": "The wish to be cared for is there, and shame comes almost beside it. Let's give the wish a moment on its own before shame tells you it is wrong."
       },
       {
         "text": "[Apologetic] I take every task before anyone asks, and then I feel resentful that no one noticed.",
@@ -2177,7 +2177,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Desperate] When someone says goodbye, I know it is normal, but I get scared and angry at the same time.",
-        "suggestion": "Goodbye brings fear and anger together, even while another part says it should be normal."
+        "suggestion": "Goodbye brings fear and anger together, even while another part says it should be normal. Let's slow down at the word goodbye and notice which feeling arrives first."
       },
       {
         "text": "[Panicked] Kindness makes me sob, and another part of me wants to bolt.",
@@ -2257,7 +2257,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Low voice] After work I sit in the car because the apartment feels too quiet to enter.",
-        "suggestion": "The car gives you a pause before the quiet apartment. Can we slow down around the moment before you open the door?"
+        "suggestion": "The car gives you a pause before the silent apartment. Let's stay with the moment before you open the door and notice what the quiet does inside."
       },
       {
         "text": "[Quiet and guarded] I let calls go to voicemail because answering means I might have to explain why I am not okay.",
@@ -2265,7 +2265,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Flat] Good moments happen, but I don't trust them enough to let them count.",
-        "suggestion": "The good moments are there, but letting them count feels hard to trust. Let's linger near that mistrust of the good."
+        "suggestion": "The good moments are there, and mistrust stops them from counting. Let's linger at the point where something good starts to matter and then gets pushed away."
       },
       {
         "text": "[Low voice] A sudden sound cuts through me, and before I think, I am scanning the room.",

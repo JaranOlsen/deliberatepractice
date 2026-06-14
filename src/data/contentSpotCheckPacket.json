@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T12:06:59.083Z",
+  "generatedAt": "2026-06-14T12:30:26.361Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1016,11 +1016,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Quietly] When it is my turn to speak, I lose track of what I was going to say.",
-                "response": "Attention turns toward you, and the words disappear just when you need them."
+                "response": "When attention turns toward you, the words vanish. Let's pause at that exact moment and notice what it feels like when everyone is waiting."
               },
               "no": {
                 "statement": "[Stille] Når det er min tur til å snakke, mister jeg tråden i det jeg skulle si.",
-                "response": "Oppmerksomheten vendes mot deg, og ordene forsvinner akkurat når du trenger dem."
+                "response": "Når oppmerksomheten vendes mot deg, forsvinner ordene. La oss stoppe ved akkurat det øyeblikket og merke hvordan det kjennes når alle venter."
               }
             },
             {
@@ -1033,11 +1033,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Embarrassed] After meetings, one small awkward pause can make me cringe for the rest of the day.",
-                "response": "That small pause stays with you, and the cringe keeps returning long after the meeting is over."
+                "response": "That one pause keeps coming back long after the meeting. Let's slow it down and notice what the cringe says about how you think you were seen."
               },
               "no": {
                 "statement": "[Flau] Etter møter kan én liten pinlig pause få meg til å krympe meg resten av dagen.",
-                "response": "Den lille pausen blir med deg, og flauheten kommer tilbake lenge etter at møtet er over."
+                "response": "Den ene pausen kommer tilbake lenge etter møtet. La oss senke tempoet og merke hva flauheten sier om hvordan du tror du ble sett."
               }
             },
             {
@@ -1079,11 +1079,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Tired] The second I ask for help, guilt rushes in and I want to pull it back.",
-                "response": "The guilt rushes in so fast it is almost as if the need has to be taken back immediately."
+                "response": "The guilt rushes in almost as soon as the need appears. Let's pause at the split second before you pull the request back and notice what feels dangerous about needing help."
               },
               "no": {
                 "statement": "[Sliten] I det øyeblikket jeg ber om hjelp, skyller skylden inn og jeg får lyst til å trekke det tilbake.",
-                "response": "Skylden kommer så raskt at det nesten er som om behovet må tas tilbake med en gang."
+                "response": "Skylden skyller inn nesten med én gang behovet viser seg. La oss stoppe i øyeblikket før du trekker forespørselen tilbake og merke hva som kjennes farlig ved å trenge hjelp."
               }
             },
             {
@@ -1159,11 +1159,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Low voice] After work I sit in the car because the apartment feels too quiet to enter.",
-                "response": "The car gives you a pause before the quiet apartment. Can we slow down around the moment before you open the door?"
+                "response": "The car gives you a pause before the silent apartment. Let's stay with the moment before you open the door and notice what the quiet does inside."
               },
               "no": {
                 "statement": "[Lav stemme] Etter jobb sitter jeg i bilen fordi leiligheten kjennes for stille til å gå inn i.",
-                "response": "Bilen gir deg en pause før den stille leiligheten. Kan vi senke tempoet rundt øyeblikket før du åpner døren?"
+                "response": "Bilen gir deg en pause før den stille leiligheten. La oss være ved øyeblikket før du åpner døren og merke hva stillheten gjør inni deg."
               }
             },
             {
