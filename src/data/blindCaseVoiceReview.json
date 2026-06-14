@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T12:30:26.361Z",
+  "generatedAt": "2026-06-14T14:32:28.945Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -1109,11 +1109,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Angry] I still replay lunch with my friend, when she said maybe I should just move on. I smiled like I understood, but inside I wanted to say, Stop rushing me, you are making me feel ridiculous for still loving him.",
-            "response": "That sounds like unfinished business with your friend around being hurried past grief and made to feel ridiculous. If you are willing, we can place her in the empty chair and let you say the first line directly: 'stop rushing me.' Then we will pause and see what else needs to be said."
+            "response": "There is a protest to your friend that never got a place to land. If you are willing, let's put her in the empty chair and begin with the line you swallowed at lunch: 'Stop rushing me.' Then we will pause and see what comes next."
           },
           "no": {
             "statement": "[Sint] Jeg spiller fortsatt av lunsjen med venninnen min, da hun sa at jeg kanskje bare burde gå videre. Jeg smilte som om jeg forsto, men inni meg ville jeg si: Slutt å skynde på meg, du får meg til å føle meg dum fordi jeg fortsatt elsker ham.",
-            "response": "Det høres ut som et uavsluttet oppgjør med venninnen din rundt å bli skyndet forbi sorgen og føle deg latterliggjort. Hvis du vil, kan vi sette henne i den tomme stolen og la deg si den første linjen direkte: «slutt å skynde på meg». Så stopper vi opp og ser hva mer som trenger å bli sagt."
+            "response": "Det finnes en protest til venninnen din som aldri fikk et sted å lande. Hvis du vil, setter vi henne i den tomme stolen og begynner med linjen du svelget i lunsjen: «Slutt å skynde på meg.» Så stopper vi og ser hva som kommer videre."
           }
         },
         {
@@ -1158,11 +1158,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Low voice] I wish I could tell my son I am scared he is learning fear from me. When he flinches at my voice, I want to say, I know that look, and I hate that it is now connected to me.",
-            "response": "That sounds like unfinished business with your son and what has not been said between you. We can place him in the empty chair and let you say that carefully, while we keep the pace slow enough to stay with it."
+            "response": "There is something important you have not been able to say to your son. If you are willing, let's place him in the empty chair and say just the first part: 'I am scared you are learning fear from me.' We will keep it slow enough to stay with the shame and care."
           },
           "no": {
             "statement": "[Lav stemme] Jeg skulle ønske jeg kunne si til sønnen min at jeg er redd han lærer frykt av meg. Når han skvetter av stemmen min, vil jeg si: Jeg kjenner det blikket, og jeg hater at det nå henger sammen med meg.",
-            "response": "Det høres ut som et uavsluttet oppgjør med sønnen din og det som ikke er sagt mellom dere. Vi kan plassere ham i den tomme stolen og la deg si det forsiktig, mens vi holder tempoet sakte nok til å være med det."
+            "response": "Det er noe viktig du ikke har klart å si til sønnen din. Hvis du vil, setter vi ham i den tomme stolen og sier bare den første delen: «Jeg er redd du lærer frykt av meg.» Vi holder det sakte nok til å være med både skammen og omsorgen."
           }
         }
       ]
@@ -1181,11 +1181,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Flat and guarded] When my husband left, I thought, of course he did. Who would stay with someone this damaged?",
-            "response": "It sounds like you are turning the divorce into a harsh verdict on yourself. If it feels safe enough, we can use two chairs to make that attack clearer: from this chair, tell her she is too damaged to stay with; then we will switch and hear from the side that has been carrying that verdict."
+            "response": "The divorce becomes a harsh verdict that says you are too damaged to stay with. If it feels safe enough, can we give that verdict one chair and the side carrying it the other? Start from the verdict chair and say, 'you are too damaged for anyone to stay.' Then we will move to the side carrying it."
           },
           "no": {
             "statement": "[Flatt og på vakt] Da mannen min dro, tenkte jeg: selvfølgelig gjorde han det. Hvem blir hos en som er så ødelagt?",
-            "response": "Det høres ut som du gjør skilsmissen til en hard dom over deg selv. Hvis det kjennes trygt nok, kan vi bruke to stoler for å få angrepet tydeligere fram: Fra denne stolen sier du til henne at hun er for ødelagt til at noen blir; så bytter vi og hører fra siden som har båret den dommen."
+            "response": "Skilsmissen blir en hard dom som sier at du er for ødelagt til at noen blir. Hvis det kjennes trygt nok, kan vi gi den dommen én stol og siden som bærer den den andre? Start fra doms-stolen og si: «du er for ødelagt til at noen blir.» Så flytter vi til siden som bærer det."
           }
         },
         {

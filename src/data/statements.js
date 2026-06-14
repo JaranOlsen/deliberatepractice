@@ -3809,7 +3809,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Angry] I keep replaying what I wish I had said when he left. He packed so calmly, like I was already in the past, and I froze. Later I kept hearing: You made me feel disposable.",
-        "suggestion": "That sounds like unfinished business with him around being made to feel disposable. If you are willing, we can place him in the empty chair and have you say that sentence directly to him, one or two lines at a time."
+        "suggestion": "There is something still unsaid to him about being treated as disposable. If you are willing, let's bring him into the empty chair and start with that one line: 'You made me feel disposable.' We will keep it to one or two lines at a time."
       },
       {
         "text": "[Embarrassed] When I start to cry, I swallow hard and stare at the ceiling until it passes. Then the voice comes in: Stop making a scene, nobody wants to deal with this again.",
@@ -3817,11 +3817,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Embarrassed] I look at old pictures and tell myself I was too clingy, too dramatic, too much. I zoom in on my own face and make a whole case that he left because loving me became exhausting.",
-        "suggestion": "That sounds like a harsh self-evaluative voice attacking you for wanting closeness. Would it be okay to put that critic in one chair and the part that wanted love in the other? Start here as the critic and say the attack directly; then we will switch and hear what it does to you."
+        "suggestion": "That photo review turns into a harsh case against the part of you that wanted closeness. Would it be okay to give that prosecuting voice one chair and the part that wanted love the other? Start in the prosecuting chair and say the charge directly: 'you were too clingy, too dramatic, too much.' Then we will move to the part hearing it."
       },
       {
         "text": "[Angry] I still replay lunch with my friend, when she said maybe I should just move on. I smiled like I understood, but inside I wanted to say, Stop rushing me, you are making me feel ridiculous for still loving him.",
-        "suggestion": "That sounds like unfinished business with your friend around being hurried past grief and made to feel ridiculous. If you are willing, we can place her in the empty chair and let you say the first line directly: 'stop rushing me.' Then we will pause and see what else needs to be said."
+        "suggestion": "There is a protest to your friend that never got a place to land. If you are willing, let's put her in the empty chair and begin with the line you swallowed at lunch: 'Stop rushing me.' Then we will pause and see what comes next."
       },
       {
         "text": "[Softly] When I start to miss him, I grab my phone and scroll until the feeling goes flat. My thumb just keeps moving, and by the time I look up I can tell myself it was not that important.",
@@ -3829,7 +3829,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tearful] I keep thinking I ruined the relationship by asking for too much. I replay the night he said he needed space, and then I hear myself saying, You pushed too hard, you should have been easier to love.",
-        "suggestion": "It sounds like a blaming voice is turning your need for closeness into evidence against you. If you are willing, we can use two chairs to make that pattern clearer. From this chair, tell her she pushed too hard and should have been easier to love; then we will switch and hear from the side that needed him."
+        "suggestion": "A blaming voice is making your need for closeness into proof that you ruined things. Could we give that blaming voice this chair and the needing side the other? Start as the blame and tell her, 'you pushed too hard; you should have been easier to love.' Then we will move to the needing side."
       },
       {
         "text": "[Hesitant] I imagine telling him, You left me alone with all of this, and then I stop myself. My throat closes and I think, Do not send that, do not be pathetic, he already chose to go.",
@@ -3837,11 +3837,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Anxious] Before a date, I picture him noticing every needy thing about me. I hear, Do not relax, do not text too soon, do not let him see the mess. If he sees it, he will leave too.",
-        "suggestion": "That sounds like a worry and self-attack that tries to protect you by scaring you before anything happens. We can use two chairs to hear how that voice works. From this chair, tell her all the rules and predictions; then we will switch and hear from the frightened side receiving them."
+        "suggestion": "The anxious rule-maker is trying to protect you by frightening you before the date even happens. Could we set up two chairs for that? From this chair, give her the rules and predictions; then we will move to the frightened side hearing them."
       },
       {
         "text": "[Tearful] I still want to tell him, You got to leave, but I had to stay in the apartment with every memory.",
-        "suggestion": "That sounds like unfinished business with him around leaving you with the memories. If you are willing, we can put him in the empty chair and let you say that line directly, then pause before anything more."
+        "suggestion": "That line belongs directly with him. If you are willing, let's bring him into the empty chair and say it to him once: 'You got to leave, but I had to stay with every memory.' Then we pause before adding anything more."
       }
     ],
     "case-michael": [
@@ -3859,11 +3859,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] After I snap, everyone gets quiet, and later I sit in the car calling myself an idiot for losing control again. I do not say it out loud at home, but the words keep going: You are just like him, you never learn.",
-        "suggestion": "That sounds like a self-critical attack that comes in after the anger and leaves you alone with shame. We can put that attacking voice in one chair and the part that snapped in the other. From this chair, say the criticism directly: 'you are just like him, you never learn'; then we will switch and hear what that does inside."
+        "suggestion": "That car scene turns into an internal attack that leaves you alone with shame. Can we put the attacking voice in one chair and the part that snapped in the other? Start as the attack and say, 'you are just like him; you never learn,' directly to him. Then we will move to the side receiving it."
       },
       {
         "text": "[Tense and angry] I keep imagining my father sitting there with that look on his face after I brought home another trophy. I want to tell him, Nothing I did was ever enough for you, and I am tired of still trying to win.",
-        "suggestion": "That points to unfinished business with your father around never measuring up and still trying to win his approval. If you are willing, we can bring him into the empty chair and have you say that sentence directly, one line at a time, while we keep the contact with the anger and hurt."
+        "suggestion": "There is still a direct protest to your father about never measuring up. If you are willing, let's place him in the empty chair and begin with one line: 'Nothing I did was ever enough for you.' We will keep enough contact with the anger and hurt to continue slowly."
       },
       {
         "text": "[Tense] When my wife reaches for me after a fight, I make a joke or start talking about what needs fixing.",
@@ -3871,15 +3871,15 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Worried] Before a presentation, I check the deck all night because one mistake would prove I should not be in charge.",
-        "suggestion": "That sounds like a worry-split that pressures you with catastrophe. Could we set up two chairs for a few minutes? Sit here as the worrying part and tell him exactly what one mistake would prove; then we will switch and hear from the pressured side."
+        "suggestion": "The worry keeps you awake by turning one possible mistake into proof that you should not be in charge. Could we give that worry this chair for a few minutes? Tell him exactly what one mistake would prove; then we will move to the pressured side."
       },
       {
         "text": "[Ashamed] The morning after I drink too much, I sit on the edge of the bed and the attack starts before I even remember everything. Pathetic. Weak. Same useless man, just pretending he has control.",
-        "suggestion": "That is a harsh self-evaluative split around drinking, weakness, and control. Can we put that attacking voice in one chair and the ashamed part in the other? From this chair, say the attack directly; then we will switch so you can hear what it does and begin to answer it."
+        "suggestion": "That morning-after attack is very direct: pathetic, weak, useless. Can we put that attacking voice in one chair and the ashamed side in the other? Start from the attack chair and say those words to him, so we can hear their impact rather than leave them running inside."
       },
       {
         "text": "[Low voice] I wish I could tell my son I am scared he is learning fear from me. When he flinches at my voice, I want to say, I know that look, and I hate that it is now connected to me.",
-        "suggestion": "That sounds like unfinished business with your son and what has not been said between you. We can place him in the empty chair and let you say that carefully, while we keep the pace slow enough to stay with it."
+        "suggestion": "There is something important you have not been able to say to your son. If you are willing, let's place him in the empty chair and say just the first part: 'I am scared you are learning fear from me.' We will keep it slow enough to stay with the shame and care."
       },
       {
         "text": "[Tense] I start to say sorry, and then a voice says, Do not fold. It tells me that if I soften first, my wife wins and I lose the last bit of respect I have. So I swallow the apology and talk about what she did instead.",
@@ -3889,7 +3889,7 @@ export const STATEMENT_SETS = {
     "case-jason": [
       {
         "text": "[Quietly] I tell myself to keep my head down, because if people really see me they will laugh. In seminars I can feel the warning start before I speak: stay small, do not give them anything to notice.",
-        "suggestion": "I hear a harsh warning that hides you before anyone can laugh. Would it be okay to give that warning side one chair and your quieter, exposed side the other? Start as the warning and tell him why he must stay small."
+        "suggestion": "That warning voice hides you before anyone has a chance to laugh. Would it be okay to give the warning one chair and the exposed side the other? Start as the warning and tell him, 'stay small; don't give them anything to notice.'"
       },
       {
         "text": "[Hesitant] I still wonder what I would say to that friend from school who just stopped talking to me. One week we sat together at lunch, and then he looked past me like I was not there. I never asked why.",
@@ -3897,7 +3897,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Anxious] When I want to join a conversation, my throat tightens and I tell myself to wait for the perfect opening. Then the opening passes, and I feel relieved and humiliated at the same time.",
-        "suggestion": "That sounds like a self-interruption that keeps you from reaching for connection by tightening, waiting, and going quiet. If you are willing, move into this chair and show how you make him wait for the perfect opening; then we will switch back and hear from the side that wanted to join."
+        "suggestion": "The tightening and waiting stop your wish to join before it reaches the room. If you are willing, let the stopping side take this chair first: make him wait for the perfect opening. Then we will move to the side that wanted to join."
       },
       {
         "text": "[Ashamed] After I say hello awkwardly, I replay it for hours and call myself creepy. It is not just, That was awkward. It becomes, People can tell there is something off about you, and now they know to stay away.",
@@ -3909,11 +3909,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hesitant] When someone compliments me, I shrug and point out the awkward part before they can. It is like I have to get there first: Yeah, but I sounded weird at the end, so please do not look too closely.",
-        "suggestion": "That sounds like you interrupt the compliment before it can reach you by getting to the criticism first. We can use two chairs. From this chair, show how you deflect and point out the awkward part; then we will switch and hear from the side that might want to receive the compliment."
+        "suggestion": "You get to the criticism first so the compliment cannot reach you. Could we set up two chairs? From this chair, show how you shrug, deflect, and point out the awkward part; then we will move to the side that might want to receive it."
       },
       {
         "text": "[Worried] Before a group event, my mind starts listing every way I could humiliate myself. It shows me standing alone, saying the wrong thing, laughing too late, everyone noticing. By the time I get there, I am already trying not to be seen.",
-        "suggestion": "That sounds like a catastrophizing worry-split preparing you for humiliation by flooding you with scenes. If you are willing, we can use two chairs: sit here as the worry and list the feared moments directly; then we will switch and hear from the part that has to arrive after listening to all of that."
+        "suggestion": "The worry floods you with humiliation scenes before you even arrive. Would you be willing to give that worry a chair? Let it list the feared moments directly; then we will move to the part that has to walk into the room after hearing them."
       },
       {
         "text": "[Ashamed] When I do not get invited, I tell myself nobody wanted me there anyway. Then I act like I did not care, but inside I keep saying, See, this is what happens when people have a choice about you.",
@@ -3925,13 +3925,13 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Anxious] When I want to ask a question in class, I stare at my notes until the chance passes. I know the question is probably normal, but I make myself look busy until the professor moves on.",
-        "suggestion": "That sounds like you stop your own voice before it can enter the room. We can use two chairs: from this chair, show how you make him stare down and stay silent; then we will switch to the side that wanted to ask."
+        "suggestion": "That busy-looking silence stops the question before it enters the room. Could we use two chairs for a short round? From this chair, show how you keep him looking down and silent; then we will move to the side that wanted to ask."
       }
     ],
     "case-laura": [
       {
         "text": "[Flat and guarded] When my husband left, I thought, of course he did. Who would stay with someone this damaged?",
-        "suggestion": "It sounds like you are turning the divorce into a harsh verdict on yourself. If it feels safe enough, we can use two chairs to make that attack clearer: from this chair, tell her she is too damaged to stay with; then we will switch and hear from the side that has been carrying that verdict."
+        "suggestion": "The divorce becomes a harsh verdict that says you are too damaged to stay with. If it feels safe enough, can we give that verdict one chair and the side carrying it the other? Start from the verdict chair and say, 'you are too damaged for anyone to stay.' Then we will move to the side carrying it."
       },
       {
         "text": "[Distant] I never said to my mother, You saw what was happening and kept washing dishes. I still think about that more than I want to.",
@@ -4015,7 +4015,7 @@ export const STATEMENT_SETS = {
     "case-nina": [
       {
         "text": "[Tired] The divorce is probably my fault. I keep hearing this list: you should have been sweeter, calmer, easier, less exhausted. If you had not needed so much, maybe he would not have left.",
-        "suggestion": "It sounds like a blaming voice is making the marriage ending your fault by attacking your needs and exhaustion. We can use two chairs to hear that blame clearly. From this chair, tell her she should have been sweeter and needed less; then we will switch and hear what that does to her."
+        "suggestion": "That voice turns exhaustion and need into evidence that the divorce was your fault. Can we put that blaming rule in one chair and the exhausted side in the other? Start as the blame and tell her she should have been sweeter, calmer, and needed less. Then we will move to the exhausted side."
       },
       {
         "text": "[Apologetic] I keep thinking of what I never said to my ex: You left me carrying everything, then blamed me for being tired.",
@@ -4023,7 +4023,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Guilty] When I feel angry about being needed, I immediately think I am a bad person. Then I smile and ask what else they need.",
-        "suggestion": "That sounds like the bad-person message stops your anger and sends you back into caring. Can we use two chairs to make that sequence visible? From this chair, tell her she is bad for feeling angry; then we will switch and let the anger say a few plain words."
+        "suggestion": "The bad-person message stops anger and sends you back into caring. Could we use two chairs to make that sequence visible? From this chair, tell her she is bad for feeling angry; then we will move to the anger that never gets a turn."
       },
       {
         "text": "[Tired] I tell myself a good mother would not want an hour where nobody needs her. When I close the bedroom door, the rule starts up: selfish, lazy, what kind of mother hides from her own family?",
@@ -4035,7 +4035,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Torn] When anger rises, I smile and ask what everyone wants for dinner. It happens so fast that I barely notice the anger until later, when I am wiping the counter too hard and imagining what I wish I had said.",
-        "suggestion": "That sounds like you interrupt anger by moving instantly into care-taking and keeping the house running. We can use two chairs to make that interruption visible. From this chair, show how you smile, ask about dinner, and cover the anger; then we will switch and let the anger say one plain sentence it never got to say."
+        "suggestion": "The caretaking move covers the anger before you can even hear it. Could we give that covering-over side this chair? Show how you smile, ask about dinner, and keep the house running; then we will move to the anger for one plain sentence."
       },
       {
         "text": "[Guilty] If dinner is not ready, I call myself useless. I can have worked all day, answered everyone's messages, helped the boys, and still one missed thing becomes proof that I am failing at the only job that matters.",
@@ -4047,11 +4047,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Apologetic] I try to say no, then explain until the no turns into yes. I start with, I can't today, and before they even argue, I am listing reasons, softening my voice, and offering another way to help.",
-        "suggestion": "That sounds like you interrupt your boundary before it can hold, as if the explanation has to erase the no. We can use two chairs: from this chair, show how you soften, explain, and turn the no into yes; then we will switch to the side that wanted the no and let it say what it needed."
+        "suggestion": "The explanation softens the boundary until the no disappears. Can we use two chairs for that? From this chair, show how you explain and turn the no into yes; then we will move to the side that wanted the no to hold."
       },
       {
         "text": "[Worried] When I rest, my mind lists everyone who might fall apart without me. It starts with my mother needing a ride, then the boys forgetting something, then the house becoming chaos, and suddenly sitting still feels like negligence.",
-        "suggestion": "That sounds like a worry-split pressures you back into carrying everyone by predicting collapse. Would you be willing to put the worry in this chair? Let it list the feared consequences in its own words; then we will switch and hear from the exhausted side trying to rest under that pressure."
+        "suggestion": "The worry makes rest feel like negligence by showing everyone falling apart. Would you be willing to give that worry this chair? Let it list the feared consequences; then we will move to the exhausted side trying to rest under that pressure."
       }
     ],
     "case-aisha": [
