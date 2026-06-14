@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T11:17:05.066Z",
+  "generatedAt": "2026-06-14T12:06:59.083Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1621,11 +1621,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Fearful] I cannot get a full breath, and I am scared you can see me panicking. I keep trying to breathe quietly so I do not look dramatic, but that makes it feel even tighter.",
-                "response": "You are trying to hide the panic and that is making it tighter. I can stay with you while the breath is uneven; we will slow it without asking you to look composed."
+                "response": "The panic is getting tighter because you are trying so hard to hide it. I am here, and you do not have to look composed for me; the uneven breath can be part of what we make room for."
               },
               "no": {
                 "statement": "[Redd] Jeg får ikke puste ordentlig, og jeg er redd du ser at jeg har panikk. Jeg prøver å puste stille så jeg ikke virker dramatisk, men da blir det enda trangere.",
-                "response": "Du prøver å skjule panikken, og det gjør det trangere. Jeg kan bli hos deg mens pusten er ujevn; vi roer den uten å kreve at du ser samlet ut."
+                "response": "Panikken blir trangere fordi du prøver så hardt å skjule den. Jeg er her, og du trenger ikke virke samlet for meg; den ujevne pusten kan være en del av det vi gir plass."
               }
             },
             {
@@ -1684,11 +1684,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Apologetic] I feel like I am failing everyone, and my body wants to collapse. I sat on the bathroom floor for two minutes and even that felt stolen from someone who needed me.",
-                "response": "That collapse has been held off for a long time. I am here with you as the weight shows up and we let only a bearable amount be carried in this room."
+                "response": "Your whole system wants to fold after carrying everyone for so long. I am here as the weight shows up; we can let some of it be held between us instead of stolen from someone else."
               },
               "no": {
                 "statement": "[Unnskyldende] Jeg føler at jeg svikter alle, og kroppen vil bare klappe sammen. Jeg satt på badegulvet i to minutter, og selv det føltes stjålet fra noen som trengte meg.",
-                "response": "Den kollapsen har vært holdt tilbake lenge. Jeg er her med deg mens tyngden viser seg, og vi lar bare en tålelig mengde bæres i dette rommet."
+                "response": "Hele systemet ditt vil folde seg sammen etter å ha båret alle så lenge. Jeg er her mens tyngden viser seg; noe av den kan holdes mellom oss i stedet for å føles stjålet fra noen andre."
               }
             },
             {
