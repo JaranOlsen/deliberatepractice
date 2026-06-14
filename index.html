@@ -70,17 +70,58 @@
         <p class="panel-subtitle" id="case-panel-description">
           Explore curated cases that mirror real-world dynamics.
         </p>
+        <div class="skill-summary is-hidden" id="case-skill-summary-card" hidden>
+          <div class="skill-summary-header">
+            <div class="skill-summary-title-group">
+              <span class="skill-summary-eyebrow" id="case-skill-summary-eyebrow">Skill focus</span>
+              <h3 class="skill-summary-title" id="case-skill-summary-name"></h3>
+            </div>
+            <button
+              type="button"
+              class="ghost-button ghost-button--small"
+              id="open-skill-guide"
+            >
+              Learn this skill
+            </button>
+          </div>
+          <p class="skill-summary-text" id="case-skill-summary-text"></p>
+          <dl class="skill-summary-details">
+            <div class="skill-summary-detail">
+              <dt id="case-skill-summary-practice-focus-label">What to practice</dt>
+              <dd id="case-skill-summary-practice-focus"></dd>
+            </div>
+            <div class="skill-summary-detail">
+              <dt id="case-skill-summary-common-miss-label">Common miss</dt>
+              <dd id="case-skill-summary-common-miss"></dd>
+            </div>
+          </dl>
+        </div>
+        <div
+          id="case-list"
+          class="grid-list"
+          role="listbox"
+          aria-label="Case Options"
+        ></div>
+      </section>
+
+      <section id="skill-guide" class="panel is-hidden" hidden>
+        <div class="panel-header">
+          <button
+            class="back-button"
+            id="back-to-cases-from-guide"
+            data-nav-target="case"
+            aria-label="Back to cases"
+          >
+            ← Cases
+          </button>
+          <h2 class="panel-title" id="skill-guide-panel-title">Skill Guide</h2>
+        </div>
+        <p class="panel-subtitle" id="skill-guide-description">
+          Review the markers, aim, and common misses before choosing a case.
+        </p>
         <div class="skill-context is-hidden" id="case-skill-context" hidden>
           <div class="skill-context-header">
             <h3 class="skill-context-title" id="case-skill-name"></h3>
-            <button
-              type="button"
-              class="skill-context-toggle"
-              id="case-skill-toggle"
-              aria-expanded="false"
-            >
-              Show instructions
-            </button>
           </div>
           <div class="skill-context-body is-hidden" id="case-skill-body" hidden>
             <dl class="skill-context-details">
@@ -117,12 +158,6 @@
             </div>
           </div>
         </div>
-        <div
-          id="case-list"
-          class="grid-list"
-          role="listbox"
-          aria-label="Case Options"
-        ></div>
       </section>
 
       <section id="practice-area" class="panel is-hidden" hidden>
