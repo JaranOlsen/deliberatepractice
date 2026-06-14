@@ -97,6 +97,33 @@ button {
   width: 100%;
 }
 
+body[data-section="practice"] .locked-banner {
+  display: none !important;
+}
+
+body[data-section="practice"] .app-header {
+  padding: 0.9rem 1.25rem 0.85rem;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  box-shadow: 0 16px 30px -26px rgba(15, 23, 42, 0.45);
+}
+
+body[data-section="practice"] .app-header h1 {
+  font-size: 1.12rem;
+}
+
+body[data-section="practice"] .app-tagline {
+  display: none;
+}
+
+body[data-section="practice"] .app-main {
+  padding-top: 0.85rem;
+}
+
+body[data-section="practice"] #practice-area {
+  gap: 0.9rem;
+}
+
 .panel {
   background-color: var(--color-panel);
   border: 1px solid rgba(15, 23, 42, 0.06);
@@ -114,6 +141,77 @@ button {
   color: var(--color-muted);
   font-size: 0.95rem;
   line-height: 1.5;
+}
+
+.skill-summary {
+  padding: 0.95rem 1rem;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--card-accent-faint), white 24%);
+  border: 1px solid color-mix(in srgb, var(--card-accent), white 74%);
+  border-left: 3px solid color-mix(in srgb, var(--card-accent), white 8%);
+  display: grid;
+  gap: 0.75rem;
+}
+
+.skill-summary.is-hidden {
+  display: none;
+}
+
+.skill-summary-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.skill-summary-title-group {
+  display: grid;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.skill-summary-eyebrow {
+  color: var(--color-muted);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.skill-summary-title {
+  margin: 0;
+  color: var(--card-accent-strong);
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.skill-summary-text {
+  margin: 0;
+  color: var(--color-text);
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.skill-summary-details {
+  margin: 0;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.skill-summary-detail dt {
+  margin: 0 0 0.18rem;
+  color: var(--color-muted);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.skill-summary-detail dd {
+  margin: 0;
+  color: var(--color-text);
+  font-size: 0.92rem;
+  line-height: 1.42;
 }
 
 .skill-context {
@@ -847,6 +945,94 @@ input[type="text"] {
   letter-spacing: 0;
 }
 
+@media (max-width: 520px) {
+  .skill-summary {
+    gap: 0.55rem;
+    padding: 0.8rem 0.9rem;
+  }
+
+  .skill-summary-header {
+    align-items: flex-start;
+  }
+
+  .skill-summary-title {
+    font-size: 1rem;
+  }
+
+  .skill-summary-text {
+    font-size: 0.9rem;
+    line-height: 1.38;
+  }
+
+  .skill-summary-details {
+    display: none;
+  }
+
+  .skill-summary-header .ghost-button {
+    align-self: flex-start;
+    flex: 0 0 auto;
+    padding: 0.32rem 0.65rem;
+    white-space: nowrap;
+  }
+
+  body[data-section="practice"] .app-main {
+    padding: 0.75rem 0.9rem 2.25rem;
+  }
+
+  body[data-section="practice"] .panel {
+    border-radius: 10px;
+    padding: 1rem;
+    gap: 0.9rem;
+  }
+
+  body[data-section="practice"] .panel-header {
+    align-items: flex-start;
+    gap: 0.7rem;
+  }
+
+  body[data-section="practice"] .panel-title {
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+
+  body[data-section="practice"] .back-button {
+    padding: 0.35rem 0.7rem;
+    font-size: 0.9rem;
+  }
+
+  body[data-section="practice"] .case-brief-screen {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  body[data-section="practice"] .statement-workspace {
+    gap: 0.85rem;
+    margin-top: 0;
+    padding-top: 0.85rem;
+  }
+
+  body[data-section="practice"] .workspace-header {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+  }
+
+  body[data-section="practice"] .statement-panel {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  body[data-section="practice"] .statement-text {
+    font-size: 1.18rem;
+    line-height: 1.55;
+  }
+
+  body[data-section="practice"] .suggestion-panel,
+  body[data-section="practice"] .feedback-panel {
+    margin-top: 0.35rem;
+  }
+}
+
 @media (min-width: 520px) {
   #language-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -869,6 +1055,10 @@ input[type="text"] {
   }
 
   .case-role-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .skill-summary-details {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

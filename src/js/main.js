@@ -27,6 +27,7 @@ const sections = {
   language: document.getElementById("language-selection"),
   skill: document.getElementById("skill-selection"),
   case: document.getElementById("case-selection"),
+  skillGuide: document.getElementById("skill-guide"),
   practice: document.getElementById("practice-area")
 };
 
@@ -46,6 +47,18 @@ const elements = {
   casePanelTitle: document.getElementById("case-panel-title"),
   casePanelDescription: document.getElementById("case-panel-description"),
   caseList: document.getElementById("case-list"),
+  caseSkillSummaryCard: document.getElementById("case-skill-summary-card"),
+  caseSkillSummaryEyebrow: document.getElementById("case-skill-summary-eyebrow"),
+  caseSkillSummaryName: document.getElementById("case-skill-summary-name"),
+  caseSkillSummaryText: document.getElementById("case-skill-summary-text"),
+  caseSkillSummaryPracticeFocusLabel: document.getElementById("case-skill-summary-practice-focus-label"),
+  caseSkillSummaryPracticeFocus: document.getElementById("case-skill-summary-practice-focus"),
+  caseSkillSummaryCommonMissLabel: document.getElementById("case-skill-summary-common-miss-label"),
+  caseSkillSummaryCommonMiss: document.getElementById("case-skill-summary-common-miss"),
+  openSkillGuideButton: document.getElementById("open-skill-guide"),
+  skillGuidePanelTitle: document.getElementById("skill-guide-panel-title"),
+  skillGuideDescription: document.getElementById("skill-guide-description"),
+  skillGuideBackButton: document.getElementById("back-to-cases-from-guide"),
   practiceSkill: document.getElementById("practice-skill"),
   caseName: document.getElementById("case-name"),
   caseTeaser: document.getElementById("case-teaser"),
@@ -708,7 +721,15 @@ function showSection(sectionKey) {
     el.classList.toggle("is-hidden", !shouldShow);
     el.hidden = !shouldShow;
   });
+  document.body.dataset.section = sectionKey;
   window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+}
+
+function getFirstParagraph(text) {
+  return String(text ?? "")
+    .split(/\n\s*\n/)
+    .map((part) => part.trim())
+    .find(Boolean) ?? "";
 }
 
 function applyLanguageStrings(languageId) {
@@ -733,6 +754,35 @@ function applyLanguageStrings(languageId) {
   elements.casePanelTitle.textContent = strings.caseHeading;
   elements.casePanelDescription.textContent = strings.caseDescription;
   elements.caseList.setAttribute("aria-label", strings.caseListAria);
+
+  if (elements.caseSkillSummaryEyebrow) {
+    elements.caseSkillSummaryEyebrow.textContent = strings.skillFocusLabel ?? "Skill focus";
+  }
+  if (elements.caseSkillSummaryPracticeFocusLabel) {
+    elements.caseSkillSummaryPracticeFocusLabel.textContent =
+      strings.skillPracticeFocusLabel ?? "What to practice";
+  }
+  if (elements.caseSkillSummaryCommonMissLabel) {
+    elements.caseSkillSummaryCommonMissLabel.textContent =
+      strings.skillCommonMissLabel ?? "Common miss";
+  }
+  if (elements.openSkillGuideButton) {
+    elements.openSkillGuideButton.textContent = strings.learnSkill ?? "Learn this skill";
+  }
+  if (elements.skillGuidePanelTitle) {
+    elements.skillGuidePanelTitle.textContent = strings.skillGuideHeading ?? "Skill Guide";
+  }
+  if (elements.skillGuideDescription) {
+    elements.skillGuideDescription.textContent =
+      strings.skillGuideDescription ?? "Review the markers, aim, and common misses before choosing a case.";
+  }
+  if (elements.skillGuideBackButton) {
+    elements.skillGuideBackButton.textContent = `← ${strings.backToCases}`;
+    elements.skillGuideBackButton.setAttribute(
+      "aria-label",
+      strings.backToCasesAria ?? strings.backToCases
+    );
+  }
 
   if (elements.caseSkillMarkerLabel) {
     elements.caseSkillMarkerLabel.textContent = strings.skillMarkerLabel ?? "Markers";
@@ -861,6 +911,7 @@ function applyLanguageStrings(languageId) {
   }
   updateFeedbackVisibility();
 
+  updateCaseSkillSummary(getCurrentSkill());
   updateCaseSkillContext(getCurrentSkill());
   updateSuggestionUI();
   updateLockedBanner();
@@ -930,11 +981,54 @@ function highlightSkillSelection(skillId) {
   });
 }
 
+function updateCaseSkillSummary(skill) {
+  if (
+    !elements.caseSkillSummaryCard ||
+    !elements.caseSkillSummaryName ||
+    !elements.caseSkillSummaryText ||
+    !elements.caseSkillSummaryPracticeFocus ||
+    !elements.caseSkillSummaryCommonMiss
+  ) {
+    return;
+  }
+
+  if (!skill) {
+    elements.caseSkillSummaryCard.hidden = true;
+    elements.caseSkillSummaryCard.classList.add("is-hidden");
+    elements.caseSkillSummaryCard.removeAttribute("data-skill-id");
+    elements.caseSkillSummaryName.textContent = "";
+    elements.caseSkillSummaryText.textContent = "";
+    elements.caseSkillSummaryPracticeFocus.textContent = "";
+    elements.caseSkillSummaryCommonMiss.textContent = "";
+    if (elements.openSkillGuideButton) {
+      elements.openSkillGuideButton.removeAttribute("aria-label");
+    }
+    return;
+  }
+
+  const strings = getUIStrings();
+  const visual = getSkillVisual(skill.id);
+  elements.caseSkillSummaryCard.dataset.skillId = skill.id;
+  applyVisualProperties(elements.caseSkillSummaryCard, visual);
+  elements.caseSkillSummaryCard.hidden = false;
+  elements.caseSkillSummaryCard.classList.remove("is-hidden");
+  elements.caseSkillSummaryName.textContent = skill.name ?? "";
+  elements.caseSkillSummaryText.textContent =
+    getFirstParagraph(skill.description) || getFirstParagraph(skill.summary);
+  elements.caseSkillSummaryPracticeFocus.textContent = skill.practiceFocus ?? "";
+  elements.caseSkillSummaryCommonMiss.textContent = skill.commonMiss ?? "";
+  if (elements.openSkillGuideButton) {
+    const label = strings.learnSkillAria ?? strings.learnSkill ?? "Learn this skill";
+    elements.openSkillGuideButton.setAttribute("aria-label", `${label}: ${skill.name}`);
+  }
+}
+
 function renderCaseOptions() {
   elements.caseList.innerHTML = "";
   caseButtonMap.clear();
 
   const skill = getCurrentSkill();
+  updateCaseSkillSummary(skill);
   updateCaseSkillContext(skill);
   if (!skill) return;
   applyVisualProperties(sections.case, getSkillVisual(skill.id));
@@ -1604,6 +1698,7 @@ function handleLanguageSelection(languageId) {
   applyLanguageStrings(languageId);
   highlightLanguageSelection(languageId);
   renderSkillOptions();
+  updateCaseSkillSummary(null);
   updateCaseSkillContext(null);
   elements.statementText.textContent = getUIStrings(languageId).emptyPrompt;
   elements.statementCounter.textContent = "";
@@ -1635,6 +1730,14 @@ function handleSkillSelection(skillId) {
   resetSuggestionVisibility();
   updateFeedbackAvailability();
   showSection("case");
+}
+
+function handleOpenSkillGuide() {
+  const skill = getCurrentSkill();
+  if (!skill) return;
+  state.skillContextExpanded = true;
+  updateCaseSkillContext(skill);
+  showSection("skillGuide");
 }
 
 function handleCaseSelection(caseId) {
@@ -1678,6 +1781,7 @@ function handleBackNavigation(targetKey) {
     resetSuggestionVisibility();
     highlightSkillSelection(null);
     highlightCaseSelection(null);
+    updateCaseSkillSummary(null);
     updateCaseSkillContext(null);
     updateFeedbackAvailability();
     showSection("language");
@@ -1697,6 +1801,7 @@ function handleBackNavigation(targetKey) {
     resetSuggestionVisibility();
     state.view = "brief";
     updateCaseSkillContext(getCurrentSkill());
+    updateCaseSkillSummary(getCurrentSkill());
     updateFeedbackAvailability();
     showSection("skill");
     return;
@@ -1713,7 +1818,9 @@ function handleBackNavigation(targetKey) {
     }
     resetSuggestionVisibility();
     state.view = "brief";
+    hideGlossaryCard();
     updateCaseSkillContext(getCurrentSkill());
+    updateCaseSkillSummary(getCurrentSkill());
     updateFeedbackAvailability();
     showSection("case");
   }
@@ -1747,6 +1854,14 @@ function registerEventListeners() {
 
   if (elements.caseSkillToggle) {
     elements.caseSkillToggle.addEventListener("click", handleSkillContextToggle);
+  }
+
+  if (elements.openSkillGuideButton) {
+    elements.openSkillGuideButton.addEventListener("click", handleOpenSkillGuide);
+  }
+
+  if (elements.skillGuideBackButton) {
+    elements.skillGuideBackButton.addEventListener("click", () => handleBackNavigation("case"));
   }
 
   if (elements.caseSkillBody) {
