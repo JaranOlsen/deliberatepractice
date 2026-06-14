@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T09:18:24.758Z",
+  "generatedAt": "2026-06-14T11:17:05.066Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1996,11 +1996,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Tense and ashamed] Whenever I feel hurt, especially when my wife says I look wounded, my father's words come back: Stop being weak and get control. Then I straighten up and start talking like nothing landed.",
-                "response": "It sounds like you are carrying a harsh message from your father that now turns on you. Would you be willing to put that message in one chair and the shamed part in the other? Start as the message: tell him to stop being weak and get control."
+                "response": "Your father's command has become an internal voice that shuts the hurt down. Would you be willing to give that command one chair and the wounded side the other? Start in the command chair and say, 'stop being weak and get control,' directly to him."
               },
               "no": {
                 "statement": "[Anspent og skamfull] Hver gang jeg kjenner meg såret, særlig når kona mi sier at jeg virker såret, kommer ordene til faren min tilbake: Slutt å være svak og få kontroll. Da retter jeg meg opp og begynner å snakke som om ingenting traff.",
-                "response": "Det høres ut som du bærer på et hardt budskap fra faren din som nå vender seg mot deg. Ville du være villig til å sette det budskapet i én stol og den skammede siden i den andre? Start som budskapet: si at han skal slutte å være svak og få kontroll."
+                "response": "Beskjeden fra faren din har blitt en indre stemme som stenger ned såretheten. Vil du gi den stemmen én stol og den sårede siden den andre? Start i kommando-stolen og si direkte til ham: «Slutt å være svak og få kontroll.»"
               }
             },
             {
