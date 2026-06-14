@@ -3805,7 +3805,7 @@ export const STATEMENT_SETS = {
     "case-sara": [
       {
         "text": "[Softly] I keep telling myself that if I were stronger, I would be over him by now. It comes at night when I miss him: normal people move on, you are pathetic for still needing someone who left.",
-        "suggestion": "It sounds like you are coming down hard on yourself for still needing him. If you are willing, we can put that demanding side in one chair and the hurting side in the other. Let the demanding side speak first in a few direct lines, then switch and answer from the hurt side while I guide the pace."
+        "suggestion": "There is a demanding voice here calling the grief pathetic. Can we give that voice this chair and the hurting side the other chair for a few minutes? Sit here as the demanding voice and say the lines directly; then we will move to the side that still misses him and hear what it is like to receive them."
       },
       {
         "text": "[Angry] I keep replaying what I wish I had said when he left. He packed so calmly, like I was already in the past, and I froze. Later I kept hearing: You made me feel disposable.",
@@ -3813,7 +3813,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Embarrassed] When I start to cry, I swallow hard and stare at the ceiling until it passes. Then the voice comes in: Stop making a scene, nobody wants to deal with this again.",
-        "suggestion": "That sounds like you interrupt the tears by shaming the crying part and forcing it back down. If you are willing, we can use two chairs. From this chair, show how you swallow, stare away, and tell her not to make a scene; then we will switch and hear from the tearful side."
+        "suggestion": "The tears start to come, and then another side swallows them and calls them a scene. Would you try showing that stopping process from this chair: swallow, look away, and tell her not to cry? Then we will move to the tearful side and let it answer briefly."
       },
       {
         "text": "[Embarrassed] I look at old pictures and tell myself I was too clingy, too dramatic, too much. I zoom in on my own face and make a whole case that he left because loving me became exhausting.",
@@ -3825,7 +3825,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Softly] When I start to miss him, I grab my phone and scroll until the feeling goes flat. My thumb just keeps moving, and by the time I look up I can tell myself it was not that important.",
-        "suggestion": "That sounds like you interrupt the missing before it can fully arrive. Could we use two chairs to see how that happens? From this chair, show how you flatten the feeling with the phone; then we will switch and let the missing side say a few words."
+        "suggestion": "The phone becomes the way the missing gets flattened before it can speak. Could we set up two chairs for that? From this chair, show how you scroll the feeling down; then we will move to the missing side and let it say a few words."
       },
       {
         "text": "[Tearful] I keep thinking I ruined the relationship by asking for too much. I replay the night he said he needed space, and then I hear myself saying, You pushed too hard, you should have been easier to love.",
@@ -3833,7 +3833,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hesitant] I imagine telling him, You left me alone with all of this, and then I stop myself. My throat closes and I think, Do not send that, do not be pathetic, he already chose to go.",
-        "suggestion": "That sounds like both unfinished business with him and an interruption of your own voice. We can start with the empty chair: put him here and say the first line, 'You left me alone with all of this,' only as far as feels workable."
+        "suggestion": "There are two markers here, and the unfinished business with him gives us the clearest starting point. Let's place him in the empty chair and let you say only the first line, 'You left me alone with all of this,' stopping as soon as your throat begins to close."
       },
       {
         "text": "[Anxious] Before a date, I picture him noticing every needy thing about me. I hear, Do not relax, do not text too soon, do not let him see the mess. If he sees it, he will leave too.",
@@ -3847,7 +3847,7 @@ export const STATEMENT_SETS = {
     "case-michael": [
       {
         "text": "[Tense and ashamed] Whenever I feel hurt, especially when my wife says I look wounded, my father's words come back: Stop being weak and get control. Then I straighten up and start talking like nothing landed.",
-        "suggestion": "It sounds like you are carrying a harsh message from your father that now turns on you. Would you be willing to put that message in one chair and the shamed part in the other? Start as the message: tell him to stop being weak and get control."
+        "suggestion": "Your father's command has become an internal voice that shuts the hurt down. Would you be willing to give that command one chair and the wounded side the other? Start in the command chair and say, 'stop being weak and get control,' directly to him."
       },
       {
         "text": "[Tense and angry] I still want to tell my father what it cost me when he called every feeling weakness.",
@@ -3855,7 +3855,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] The second I start to soften, I hear, Get it together, and I start listing what I should have done better.",
-        "suggestion": "That sounds like the hard command interrupts the softer feeling. We can use two chairs to make that clearer: from this chair, say 'get it together' and list what he should have done better; then we will switch and hear from the softer side."
+        "suggestion": "The softer feeling starts to appear, and the command cuts in. Let's make that interruption visible with two chairs: from this chair, say 'get it together' and list what he should have done better; then we will move to the softer side."
       },
       {
         "text": "[Ashamed] After I snap, everyone gets quiet, and later I sit in the car calling myself an idiot for losing control again. I do not say it out loud at home, but the words keep going: You are just like him, you never learn.",
@@ -3867,7 +3867,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] When my wife reaches for me after a fight, I make a joke or start talking about what needs fixing.",
-        "suggestion": "That sounds like you interrupt a softer moment by moving into jokes or fixing. We can use two chairs: from this chair, show how you steer him away from softness; then we will switch and let the softer side respond."
+        "suggestion": "The joke and the fixing pull you away just as softness comes close. Could we give that steering-away side this chair? Show how it moves him into joking or fixing; then we will move to the softer side and let it answer."
       },
       {
         "text": "[Worried] Before a presentation, I check the deck all night because one mistake would prove I should not be in charge.",
@@ -3883,7 +3883,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] I start to say sorry, and then a voice says, Do not fold. It tells me that if I soften first, my wife wins and I lose the last bit of respect I have. So I swallow the apology and talk about what she did instead.",
-        "suggestion": "That sounds like an interrupting voice stops repair by warning you that apology means defeat. We can use two chairs to see how it works. Sit here as the voice that says 'do not fold' and make the case for swallowing the apology; then we will switch to the side that wanted to repair."
+        "suggestion": "The 'do not fold' voice stops the apology by making repair feel like defeat. Let's give that voice this chair first: make its case for swallowing the apology. Then we will move to the side that wanted to repair and hear what gets blocked."
       }
     ],
     "case-jason": [
@@ -3939,7 +3939,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and tearful] When my ex moved out, I did not cry. I cleaned the kitchen and felt nothing, like I should have been hurt but I was just blank.",
-        "suggestion": "That sounds like numbness came in and blocked the hurt. If it feels safe enough, we can use two chairs: from this chair, show how you go blank and keep cleaning; then we will switch and give the hurt a few words."
+        "suggestion": "The cleaning and blankness seem to stop the hurt before it reaches you. If it feels safe enough, let's give that blocking side one chair: show how you go blank and keep cleaning. Then we will move to the hurt side and let it have only a few words."
       },
       {
         "text": "[Distant] I keep wondering whether my ex knew what would happen after he left, that I would turn it all back on myself. I want to ask him, Did you know I would carry the blame for both of us?",
@@ -3951,7 +3951,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Slow and flat] When anger starts, I wipe the counter, check the locks, or pour a drink until the feeling disappears. I do not decide to stop it; I just become busy and far away before it has words.",
-        "suggestion": "That sounds like you interrupt the anger by becoming busy and far away before it can speak. If it feels safe enough, we can use two chairs. From this chair, show how you wipe, check, pour, and make the anger disappear; then we will switch and give the anger a few words without forcing it."
+        "suggestion": "The wiping, checking, and pouring are how the anger gets carried away before it can speak. If it feels safe enough, we can put that busy, far-away side in this chair first; show how it makes the anger disappear. Then we will move to the anger side and give it a few words without forcing it."
       },
       {
         "text": "[Ashamed] I tell myself I should have known better than to trust him. I go over little signs I ignored and make a case against myself, like I was stupid for wanting to believe he was safe.",
@@ -3963,7 +3963,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and ashamed] When I start to say I am angry, I hear, Do not make trouble. My shoulders go tight, my voice gets polite, and suddenly I am explaining why it was probably not a big deal.",
-        "suggestion": "That sounds like a self-interruptive voice stopping anger. We can use two chairs: from this chair, say 'do not make trouble' and make its case; then we will switch and hear from the angry side."
+        "suggestion": "The 'do not make trouble' voice stops anger before it has a chance to stand up. Let's give that voice this chair first: say the warning and make its case. Then we will move to the angry side and hear one or two plain sentences."
       },
       {
         "text": "[Distant] I still picture my bedroom door after it happened, waiting to hear my mother come down the hall. She never did. I want to ask her, Why did you never come to my room afterward?",
@@ -3981,7 +3981,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and ashamed] I start to say sorry to my son, and my mouth shuts. I think, don't show weakness, and my face goes hard.",
-        "suggestion": "That sounds like something stops the apology before the softer feeling can reach him. Would you be willing to use two chairs? From this chair, tell him not to show weakness and make the case for staying hard; then we will switch and hear from the father who wants to repair."
+        "suggestion": "The apology starts, and the hard face closes over it before it reaches your son. Would you be willing to set up two chairs? From this chair, tell him not to show weakness and argue for staying hard; then we will move to the father who wanted to repair."
       },
       {
         "text": "[Ashamed] After I yell, I call myself a monster and then get angry at myself for thinking that. Everyone goes quiet, I hear that word in my head, and then another part snaps back, Stop whining and fix it.",
@@ -3993,7 +3993,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] When my voice shakes, I cough, sit up straighter, and make my face hard. I can almost hear my father saying, Do not let them see you like that, so I turn it into a stare.",
-        "suggestion": "That sounds like you interrupt vulnerability by hardening your face and turning the shaking into a stare. We can use two chairs. From this chair, show how you shut down the shaking and say 'do not let them see you like that'; then we will switch to the side that was shaking."
+        "suggestion": "The hard face turns the shaking into something no one can see. Let's use two chairs to show that process. From this chair, harden the face and say, 'do not let them see you like that'; then we will move to the side that was shaking."
       },
       {
         "text": "[Worried] If I let my son talk back once, I imagine losing all respect in the house. First he rolls his eyes, then my wife sees I have no authority, then nobody listens and I am nothing there.",
@@ -4009,7 +4009,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and angry] When tears come up, I clench my jaw and turn them into heat before anyone can see. If the anger is there, nobody asks what hurt. They just back up, and that feels safer.",
-        "suggestion": "That sounds like you interrupt tears by converting them into anger so nobody reaches the hurt underneath. We can use two chairs. From this chair, show how you clench, heat up, and make people back up; then we will switch and hear from the tearful side."
+        "suggestion": "The tears get converted into heat before anyone can reach the hurt. Could we put that converting side in this chair first? Show how you clench, heat up, and make people back up; then we will move to the tearful side."
       }
     ],
     "case-nina": [
@@ -4057,7 +4057,7 @@ export const STATEMENT_SETS = {
     "case-aisha": [
       {
         "text": "[Desperate] If someone does not answer, my mind goes straight to them being with someone better, posting it, everyone seeing I got replaced. Then I have to cut them off first.",
-        "suggestion": "That sounds like worry goes straight to the worst scenes and pushes you to act first. If you are willing, we can use two chairs to see how that worry works. Sit here as the worry and tell her every terrible thing you predict; then we will switch to the side that is getting flooded."
+        "suggestion": "The worry races straight to replacement scenes and pushes you to cut off first. Would you be willing to let the worry take this chair for a short round? Tell her the scenes it predicts, one by one; then we will move to the side that gets flooded by them."
       },
       {
         "text": "[Furious] I still picture my ex in bed with someone else. I hate him, and then I hate myself for still wanting him.",
@@ -4077,7 +4077,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Panicked] When I feel myself needing someone, I start accusing them before they can leave. I hear myself saying, Fine, go then, you never cared anyway, even while another part is begging them not to go.",
-        "suggestion": "That sounds like you interrupt the need by attacking first, before the begging part can be seen. We can use two chairs. From this chair, show how you accuse and push away; then we will switch and hear from the side that needed someone to stay."
+        "suggestion": "The accusing part protects you by moving first, before the need can be seen. Let's give that accusing part this chair: say 'go then, you never cared' directly. Then we will move to the side that needed someone to stay."
       },
       {
         "text": "[Worried] If you do not answer, my head shows me ten scenes where I am replaced and everyone knows. It goes from one quiet phone to you deciding I am too much, then everyone agreeing I was always too much.",
@@ -4093,7 +4093,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tearful] When grief starts to show, I laugh too loudly and say, Forget it, this is stupid. Then I make a joke about being dramatic, and the crying part goes quiet like it got slapped.",
-        "suggestion": "That sounds like you interrupt grief by mocking it and making the crying part go quiet. We can use two chairs. From this chair, say 'forget it, this is stupid' and show how you shut it down; then we will switch and let the grieving side speak a little."
+        "suggestion": "The joking voice slaps the grief quiet before it can show. Could we put that mocking side in this chair first? Say 'forget it, this is stupid' and show how it shuts the crying down; then we will move to the grieving side for a few words."
       }
     ],
     "case-david": [
@@ -4107,7 +4107,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Wounded but sharp] I hate how my father made everything a performance, but the second I say that I start defending him: he pushed me because he believed in me.",
-        "suggestion": "It sounds like the anger toward your father gets stopped by a side that explains him and protects him. If you are willing, we can use two chairs: from this chair, defend him and tell David why he should not be angry; then we will switch and give the anger some words."
+        "suggestion": "A defending side steps in as soon as anger toward your father appears. If you are willing, give that defender this chair first: explain him and tell David why he should not be angry. Then we will move to the anger side and give it some words."
       },
       {
         "text": "[Dismissive] I tell myself mediocre men lose their families and deserve it. The word mediocre is worse than cruel; it means I became ordinary, replaceable, the kind of man nobody has a reason to choose.",
@@ -4135,7 +4135,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Dismissive] When sadness comes up, I analyze everyone's tone until the feeling is gone. I can turn a conversation with my wife into a transcript in my head, finding inconsistencies, proving my point, and by then the tightness in my throat is gone.",
-        "suggestion": "That sounds like analysis interrupts sadness by moving you into a courtroom before the feeling can speak. We can use two chairs: from this chair, analyze her tone and move him away from the tightness; then we will switch and let the sadness have a few direct words before the argument starts again."
+        "suggestion": "The analysis moves you into a courtroom before sadness can speak. Let's make that interruption concrete with two chairs: from this chair, analyze her tone and move him away from the tightness; then we will move to the sadness and let it say a few direct words."
       }
     ],
     "case-marcus": [
@@ -4149,7 +4149,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Furious] Even in here, imagining telling that foster father I hate him makes my jaw lock. I hear, Don't say that. Don't make it worse.",
-        "suggestion": "That sounds like something locks the anger before it gets a voice. If you are willing, we can use two chairs: sit here as the side that says 'don't say it, don't make it worse,' and say that directly to him; then we will switch and let the anger have a few controlled words."
+        "suggestion": "Something locks the anger right at the jaw. If you are willing, let the locking side take this chair first: say 'don't say it, don't make it worse' directly to him. Then we will move to the anger side and give it a few controlled words."
       },
       {
         "text": "[Flat] I tell myself I should be over it by now; other people had it worse and still function. When I cannot sleep or fill out paperwork, the voice says I am using the past as an excuse.",
@@ -4161,7 +4161,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and guarded] When my voice shakes, I stop talking and stare at the floor. It is like a hand comes over my mouth from the inside: Do not give them more. Do not make it worse.",
-        "suggestion": "That sounds like you interrupt the shaking voice by shutting speech down before anyone gets more access to you. We can use two chairs. From this chair, show how you put the hand over his mouth and say 'do not give them more'; then we will switch and let the shaking voice have a few words."
+        "suggestion": "The inner hand over the mouth stops the shaking voice before anyone gets more access. Let's give that stopping side this chair: put the hand over his mouth and say 'do not give them more.' Then we will move to the shaking voice and let it have a few words."
       },
       {
         "text": "[Worried] If I sleep deeply, I worry I will wake up back there and not know where I am. So I keep the TV on and make myself stay half-alert, like the worry is standing guard.",
@@ -4177,7 +4177,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and guarded] When my sister asks about the past, I hear, Shut it down, and I change the subject.",
-        "suggestion": "That sounds like a self-interruptive voice stopping contact with the past. Could we use two chairs for a short round? From this chair, say 'shut it down' and show how you change the subject; then we will switch and hear from the side that was being asked."
+        "suggestion": "The 'shut it down' voice cuts contact with the past as soon as your sister asks. Could we use two chairs for a short round? From this chair, say 'shut it down' and show how you change the subject; then we will move to the side that was being asked."
       }
     ]
   },
