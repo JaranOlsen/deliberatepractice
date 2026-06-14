@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T08:56:45.015Z",
+  "generatedAt": "2026-06-13T09:18:24.759Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -253,12 +253,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Quiet and guarded] I don't pick up when family calls because I don't want to feel.",
-            "response": "Letting the call go unanswered keeps feeling away for a while. Can we notice what feeling starts to come close when family calls?"
+            "statement": "[Quiet and guarded] I do not pick up when family calls because I do not want to find out what I feel.",
+            "response": "Letting the call go unanswered keeps the feeling away for a while. Can we notice what starts to come close when you imagine answering?"
           },
           "no": {
-            "statement": "[Stille og på vakt] Jeg tar ikke telefonen når familien ringer, fordi jeg ikke vil kjenne på noe.",
-            "response": "Å la telefonen ringe ut holder følelsene unna en stund. Kan vi legge merke til hvilken følelse som begynner å komme nær når familien ringer?"
+            "statement": "[Stille og på vakt] Jeg tar ikke telefonen når familien ringer, fordi jeg ikke vil finne ut hva jeg kjenner.",
+            "response": "Å la telefonen ringe ut holder følelsen unna en stund. Kan vi legge merke til hva som begynner å komme nær når du ser for deg å svare?"
           }
         },
         {

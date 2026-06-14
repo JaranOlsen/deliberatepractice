@@ -3459,20 +3459,20 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "En del sier at det ikke burde bety noe, og en annen del klarer ikke å slippe det manglende svaret. Vi kan være litt med den splittelsen."
     },
     "dp_empathic-explorations_case-aisha_02": {
-      "text": "[Desperat] Jeg går fra «ikke forlat meg» til «la meg være i fred» på sekunder.",
-      "suggestion": "Svingningen går så fort, nesten som om frykten for å miste noen vipper rett over i å skyve dem bort."
+      "text": "[Forvirret og flau] Jeg kan be noen om ikke å gå, og noen sekunder senere vil jeg ha dem vekk fra meg. Jeg skjønner ikke hvilken del som egentlig er meg.",
+      "suggestion": "Begge bevegelsene er der: å rekke ut og å skyve bort. Kan vi bli ved skiftet akkurat lenge nok til å merke hva som endrer seg inni deg?"
     },
     "dp_empathic-explorations_case-aisha_03": {
       "text": "[Desperat] Når jeg klorer, sier en del av meg at det ikke er så farlig, og en annen del er redd for at du skal dømme meg.",
       "suggestion": "En del bagatelliserer kloringen, og en annen del frykter at jeg skal dømme. Kan vi bli ved det som skjer når du forteller meg begge deler?"
     },
     "dp_empathic-explorations_case-aisha_04": {
-      "text": "[Desperat] Hvis du ser på klokka, begynner jeg å lure på om jeg bør slutte å snakke før du avslutter.",
-      "suggestion": "Blikket mot klokka starter et spørsmål om du bør trekke deg før jeg går. Vi kan legge merke til hva som skjer i deg akkurat da."
+      "text": "[Såret og på vakt] Hvis du ser på klokka, begynner jeg å lure på om jeg bør slutte å snakke før du avslutter.",
+      "suggestion": "Blikket mot klokka starter draget mot å stoppe først, før jeg kan avslutte. Kan vi legge merke til den første følelsen som kommer akkurat da?"
     },
     "dp_empathic-explorations_case-aisha_05": {
-      "text": "[Desperat] Jeg tester folk fordi jeg må vite om de bryr seg nok til å bli.",
-      "suggestion": "Å teste folk kjennes som en desperat måte å sjekke om du betyr nok til at de blir."
+      "text": "[På vakt] Jeg spør folk om ting jeg egentlig halvveis vet, bare for å se om de svarer på riktig måte.",
+      "suggestion": "Det er et testende spørsmål der, og under det et behov for å høre omsorg på en måte du kan stole på. Kan vi bli ved det du lytter etter i svaret?"
     },
     "dp_empathic-explorations_case-aisha_06": {
       "text": "[Desperat] Når noen sier farvel, vet jeg at det er normalt, men jeg blir redd og sint samtidig.",
@@ -3484,15 +3484,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-aisha_08": {
       "text": "[Skamfull] Det som ble gjort mot meg får meg til å føle meg skitten i min egen kropp.",
-      "suggestion": "Den skitne følelsen henger sammen med det som ble gjort mot deg, og det å si det høyt bringer skammen tett på."
+      "suggestion": "Den skitne følelsen kommer nær når du setter ord på det som ble gjort mot deg. Kan vi være ved kanten av den, bare nok til å merke hvordan den er her nå?"
     },
     "dp_empathic-explorations_case-aisha_09": {
       "text": "[Desperat] Jeg fortsetter å sjekke døra, og jeg vet ikke om jeg er sint fordi du kommer til å gå, eller redd for at du skal glemme meg.",
       "suggestion": "Ved døra er sinne og frykt filtret sammen: å bli forlatt, å bli glemt. Vi kan være langsomt med den sammenfiltringen."
     },
     "dp_empathic-explorations_case-aisha_10": {
-      "text": "[Panisk] Hvis du avlyser, er det noe i meg som aldri vil komme tilbake.",
-      "suggestion": "En avlysning treffer så hardt at en del av deg aldri vil komme tilbake. Kan vi bli ved det første treffet av avlysningen?"
+      "text": "[Såret] Hvis du avlyser, sier en del av meg at jeg ikke skal komme tilbake, samtidig som en annen del vil spørre når du er her igjen.",
+      "suggestion": "Begge delene dukker opp rundt avlysningen: delen som vil forsvinne fra terapien, og delen som vil vite at du fortsatt har en plass her. Kan vi bli ved den splittelsen?"
     },
     "dp_empathic-explorations_case-david_01": {
       "text": "[Kontrollert] Når hun sier at jeg er kald, vil en del av meg bevise at hun tar feil, og en annen del vil forsvinne.",
@@ -3500,7 +3500,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-david_02": {
       "text": "[Kontrollert] Du virker rolig når jeg snakker om nederlag, og jeg vet ikke om jeg respekterer det eller misliker det.",
-      "suggestion": "Roen min lander på to måter samtidig: noe respekterer den, og noe misliker den. Vi kan legge merke til hva hver side reagerer på."
+      "suggestion": "Roen du ser, lander på to måter samtidig: noe respekterer den, og noe misliker den. Kan vi legge merke til hva hver side reagerer på?"
     },
     "dp_empathic-explorations_case-david_03": {
       "text": "[Defensiv] Når jeg føler meg dømt, glatter jeg skjorten og begynner å ramse opp prestasjoner.",
@@ -3520,7 +3520,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-david_07": {
       "text": "[Såret, men skarp] Å innrømme at jeg tar feil får ansiktet til å brenne, som om alle kan se nederlaget.",
-      "suggestion": "Å innrømme at du tar feil får ansiktet til å brenne, som om nederlaget plutselig blir synlig."
+      "suggestion": "Å innrømme at du tar feil får ansiktet til å brenne, som om nederlaget plutselig blir synlig. Kan vi bli ved den varmen et øyeblikk før du må dekke den til?"
     },
     "dp_empathic-explorations_case-david_08": {
       "text": "[Fjern] Siden affæren vet jeg ikke om jeg vil ha tilgivelse eller bare bli latt i fred.",
@@ -3528,7 +3528,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-david_09": {
       "text": "[Såret, men skarp] Jeg vil ha anerkjennelse uten å måtte be om det, fordi det å be får meg til å føle meg ynkelig.",
-      "suggestion": "Du vil ha anerkjennelsen, og det å be om den henter straks fram den ynkelige følelsen."
+      "suggestion": "Du vil ha anerkjennelsen, og det å be om den henter straks fram den ynkelige følelsen. Kan vi bli ved øyeblikket der ønsket om anerkjennelse blir til skam?"
     },
     "dp_empathic-explorations_case-david_10": {
       "text": "[Kontrollert] Tanken på å være ordinær kjennes uutholdelig, som å miste det eneste beviset på at jeg betyr noe.",
@@ -3536,7 +3536,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-marcus_01": {
       "text": "[Langsomt og flatt] De fleste dager er jeg nummen, og så treffer en bølge helt ut av det blå.",
-      "suggestion": "De fleste dager holder nummenheten stand, og så kommer bølgen som om følelsen bryter gjennom på én gang."
+      "suggestion": "De fleste dager holder nummenheten stand, og så bryter bølgen gjennom på én gang. Kan vi bli ved det første tegnet på at bølgen begynner?"
     },
     "dp_empathic-explorations_case-marcus_02": {
       "text": "[Hyperårvåken] Etter mareritt vet jeg at jeg burde snakke om dem, men detaljene kjennes langt unna, og jeg vet ikke hvor jeg skal begynne.",
@@ -3552,11 +3552,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-marcus_05": {
       "text": "[Lav stemme] Etter jobb sitter jeg i bilen fordi leiligheten kjennes for stille til å gå inn i.",
-      "suggestion": "Bilen gir deg en pause før du går inn i den stille leiligheten. Vi kan være med det du merker før du går opp."
+      "suggestion": "Bilen gir deg en pause før den stille leiligheten. Kan vi senke tempoet rundt øyeblikket før du åpner døren?"
     },
     "dp_empathic-explorations_case-marcus_06": {
-      "text": "[Stille og på vakt] Jeg lar telefonen ringe ut fordi å svare betyr å forklare hvorfor jeg ikke har det bra.",
-      "suggestion": "Å la telefonen ringe ut holder deg unna å måtte forklare hvorfor du ikke har det bra. Kan vi bli ved øyeblikket telefonen ringer og det å forklare kjennes for mye?"
+      "text": "[Stille og på vakt] Jeg lar telefonen gå til svarer fordi å svare betyr at jeg kanskje må forklare hvorfor jeg ikke har det bra.",
+      "suggestion": "Å la telefonen gå til svarer holder deg unna å måtte forklare. Kan vi bli ved øyeblikket den ringer og forklaringen begynner å kjennes for mye?"
     },
     "dp_empathic-explorations_case-marcus_07": {
       "text": "[Flatt] Gode øyeblikk skjer, men jeg stoler ikke nok på dem til å la dem telle.",
@@ -3564,15 +3564,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-marcus_08": {
       "text": "[Lav stemme] En plutselig lyd skjærer gjennom meg, og før jeg rekker å tenke, skanner jeg rommet.",
-      "suggestion": "Lyden skjærer gjennom, og skanningen starter før tankene rekker å hente seg inn."
+      "suggestion": "Lyden skjærer gjennom, og skanningen starter før tankene rekker å hente seg inn. Kan vi legge merke til det første sekundet etter lyden, før du vet hva du leter etter?"
     },
     "dp_empathic-explorations_case-marcus_09": {
-      "text": "[Stille og på vakt] Jeg tar ikke telefonen når familien ringer, fordi jeg ikke vil kjenne på noe.",
-      "suggestion": "Å la telefonen ringe ut holder følelsene unna en stund. Kan vi legge merke til hvilken følelse som begynner å komme nær når familien ringer?"
+      "text": "[Stille og på vakt] Jeg tar ikke telefonen når familien ringer, fordi jeg ikke vil finne ut hva jeg kjenner.",
+      "suggestion": "Å la telefonen ringe ut holder følelsen unna en stund. Kan vi legge merke til hva som begynner å komme nær når du ser for deg å svare?"
     },
     "dp_empathic-explorations_case-marcus_10": {
       "text": "[Flatt] En del av meg tenker at å være alene for alltid ville gjøre mindre vondt enn å håpe og bli dratt under igjen.",
-      "suggestion": "En del av deg vil heller velge alenetilværelsen enn å risikere smerten som kommer etter håp."
+      "suggestion": "En del av deg vil heller velge alenetilværelsen enn å risikere smerten som kommer etter håp. Kan vi bli ved ordet «håp» og det det vekker?"
     },
     "dp_empathic-evocations_case-sara_01": {
       "text": "[Lavmælt] Etter middag merker jeg hvor stille leiligheten er, og så begynner jeg å sjekke mobilen igjen.",

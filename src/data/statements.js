@@ -2160,20 +2160,20 @@ export const STATEMENT_SETS = {
         "suggestion": "One part says it should not matter, and another part cannot let go of the missing reply. Let's stay with that split for a moment."
       },
       {
-        "text": "[Desperate] I go from please don't leave to leave me alone in seconds.",
-        "suggestion": "The swing is so fast, almost as if the fear of losing someone flips straight into pushing them away."
+        "text": "[Confused and embarrassed] I can ask someone not to leave and then want them away from me seconds later. I do not understand which part is actually me.",
+        "suggestion": "Both movements are there: reaching and pushing away. Can we stay with the switch just long enough to notice what changes inside?"
       },
       {
         "text": "[Desperate] When I scratch, part of me says it is not a big deal, and another part is scared you will judge me.",
         "suggestion": "One part minimizes the scratching, and another part fears my judgment. Can we stay with what happens as you tell me both?"
       },
       {
-        "text": "[Desperate] If you glance at the clock, I start wondering whether I should stop talking before you end it.",
-        "suggestion": "The clock glance starts a question about whether to pull back before I leave. Let's notice what happens in you right then."
+        "text": "[Hurt and guarded] If you glance at the clock, I start wondering whether I should stop talking before you end it.",
+        "suggestion": "The glance at the clock starts that pull to stop first, before I can end. Can we notice the first feeling that comes up right then?"
       },
       {
-        "text": "[Desperate] I test people because I need to know whether they care enough to stay.",
-        "suggestion": "Testing people feels like a desperate way of checking whether you matter enough for them to stay."
+        "text": "[Guarded] I ask people things I already half-know, just to see if they will give the answer in the right way.",
+        "suggestion": "There is a testing question, and underneath it a need to hear care in a way you can trust. Can we stay with what you are listening for in the answer?"
       },
       {
         "text": "[Desperate] When someone says goodbye, I know it is normal, but I get scared and angry at the same time.",
@@ -2185,15 +2185,15 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] What was done to me makes me feel disgusting in my own skin.",
-        "suggestion": "That disgusting feeling is tied to what was done to you, and saying it brings the shame very close."
+        "suggestion": "That disgusting feeling comes close as you name what was done to you. Can we stay at the edge of it, just enough to notice how it is here now?"
       },
       {
         "text": "[Desperate] I keep checking the door, and I can't tell if I am angry you will leave or scared you might forget me.",
         "suggestion": "At the door there is anger and fear tangled together: leaving, being forgotten. We can stay with that tangle slowly."
       },
       {
-        "text": "[Panicked] If you cancel, something in me wants to never come back.",
-        "suggestion": "A cancellation hits so hard that one part wants to never come back. Can we stay with the first hit of that cancellation?"
+        "text": "[Hurt] If you cancel, a part of me says not to come back, even while another part wants to ask when you will be here again.",
+        "suggestion": "Both parts appear around the cancellation: the part that wants to disappear from therapy and the part that wants to know you still have a place here. Can we stay with that split?"
       }
     ],
     "case-david": [
@@ -2203,7 +2203,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Controlled] You seem calm when I talk about failure, and I cannot tell if I respect that or resent it.",
-        "suggestion": "My calm lands in two ways at once: something respects it and something resents it. Let's notice what each side is responding to."
+        "suggestion": "The calm you see lands in two ways at once: something respects it, and something resents it. Can we notice what each side is responding to?"
       },
       {
         "text": "[Defensive] When I feel judged, I smooth my shirt and start listing achievements.",
@@ -2223,7 +2223,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Wounded but sharp] Admitting I am wrong makes my face burn like everyone can see the failure.",
-        "suggestion": "Admitting you are wrong brings heat to your face, like the failure is suddenly visible."
+        "suggestion": "Admitting you are wrong brings heat to your face, like the failure is suddenly visible. Can we stay with that heat for a moment before you have to cover it?"
       },
       {
         "text": "[Distant] Since the affair, I do not know whether I want forgiveness or to be left alone.",
@@ -2231,7 +2231,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Wounded but sharp] I want credit without having to ask, because asking makes me feel pathetic.",
-        "suggestion": "You want the credit, and asking for it immediately brings that pathetic feeling close."
+        "suggestion": "You want the credit, and asking for it immediately brings that pathetic feeling close. Can we stay with the moment where wanting recognition turns into shame?"
       },
       {
         "text": "[Controlled] The idea of being ordinary feels unbearable, like losing the only proof I matter.",
@@ -2241,7 +2241,7 @@ export const STATEMENT_SETS = {
     "case-marcus": [
       {
         "text": "[Slow and flat] Most days I'm numb and then a wave hits out of nowhere.",
-        "suggestion": "Most days the numbness holds, and then the wave comes as if the feeling has broken through all at once."
+        "suggestion": "Most days the numbness holds, and then the wave breaks through all at once. Can we stay with the first sign that the wave is starting?"
       },
       {
         "text": "[Hypervigilant] After nightmares, I know I should talk about them, but the details feel far away and I don't know where to start.",
@@ -2257,11 +2257,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Low voice] After work I sit in the car because the apartment feels too quiet to enter.",
-        "suggestion": "The car gives you a pause before entering the quiet apartment. Let's stay with what you sense before you go upstairs."
+        "suggestion": "The car gives you a pause before the quiet apartment. Can we slow down around the moment before you open the door?"
       },
       {
-        "text": "[Quiet and guarded] I let calls go silent because answering means explaining why I am not okay.",
-        "suggestion": "Letting the call go silent keeps you from having to explain why you are not okay. Can we stay with the moment the phone rings and explaining feels too much?"
+        "text": "[Quiet and guarded] I let calls go to voicemail because answering means I might have to explain why I am not okay.",
+        "suggestion": "Letting the call go to voicemail keeps you from having to explain. Can we stay with the moment it rings and the explaining starts to feel too much?"
       },
       {
         "text": "[Flat] Good moments happen, but I don't trust them enough to let them count.",
@@ -2269,15 +2269,15 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Low voice] A sudden sound cuts through me, and before I think, I am scanning the room.",
-        "suggestion": "The sound cuts through, and the scanning starts before thought catches up."
+        "suggestion": "The sound cuts through, and the scanning starts before thought catches up. Can we notice the first second after the sound, before you know what you are looking for?"
       },
       {
-        "text": "[Quiet and guarded] I don't pick up when family calls because I don't want to feel.",
-        "suggestion": "Letting the call go unanswered keeps feeling away for a while. Can we notice what feeling starts to come close when family calls?"
+        "text": "[Quiet and guarded] I do not pick up when family calls because I do not want to find out what I feel.",
+        "suggestion": "Letting the call go unanswered keeps the feeling away for a while. Can we notice what starts to come close when you imagine answering?"
       },
       {
         "text": "[Flat] Part of me thinks alone forever would hurt less than hoping and getting pulled under again.",
-        "suggestion": "A part of you would rather choose aloneness than risk the pain that comes after hoping."
+        "suggestion": "A part of you would rather choose aloneness than risk the pain that comes after hoping. Can we stay with the word 'hope' and what it brings up?"
       }
     ]
   },
