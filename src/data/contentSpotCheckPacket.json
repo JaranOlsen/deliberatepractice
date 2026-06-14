@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T12:30:26.361Z",
+  "generatedAt": "2026-06-14T14:32:28.945Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -2013,11 +2013,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Tense and angry] I keep imagining my father sitting there with that look on his face after I brought home another trophy. I want to tell him, Nothing I did was ever enough for you, and I am tired of still trying to win.",
-                "response": "That points to unfinished business with your father around never measuring up and still trying to win his approval. If you are willing, we can bring him into the empty chair and have you say that sentence directly, one line at a time, while we keep the contact with the anger and hurt."
+                "response": "There is still a direct protest to your father about never measuring up. If you are willing, let's place him in the empty chair and begin with one line: 'Nothing I did was ever enough for you.' We will keep enough contact with the anger and hurt to continue slowly."
               },
               "no": {
                 "statement": "[Anspent og sint] Jeg ser stadig for meg faren min sitte der med det blikket etter at jeg kom hjem med enda et trofé. Jeg vil si til ham: «Ingenting jeg gjorde var noen gang nok for deg, og jeg er lei av fortsatt å prøve å vinne.»",
-                "response": "Det peker mot et uavsluttet oppgjør med faren din rundt aldri å strekke til og fortsatt prøve å vinne hans godkjenning. Hvis du vil, kan vi hente ham inn i den tomme stolen og la deg si setningen direkte, én linje om gangen, mens vi holder kontakt med både sinne og sårhet."
+                "response": "Det finnes fortsatt en direkte protest til faren din om aldri å være nok. Hvis du vil, setter vi ham i den tomme stolen og begynner med én linje: «Ingenting jeg gjorde var noen gang nok for deg.» Vi holder nok kontakt med både sinne og sårhet til å gå langsomt videre."
               }
             },
             {
@@ -2030,11 +2030,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Low voice] I wish I could tell my son I am scared he is learning fear from me. When he flinches at my voice, I want to say, I know that look, and I hate that it is now connected to me.",
-                "response": "That sounds like unfinished business with your son and what has not been said between you. We can place him in the empty chair and let you say that carefully, while we keep the pace slow enough to stay with it."
+                "response": "There is something important you have not been able to say to your son. If you are willing, let's place him in the empty chair and say just the first part: 'I am scared you are learning fear from me.' We will keep it slow enough to stay with the shame and care."
               },
               "no": {
                 "statement": "[Lav stemme] Jeg skulle ønske jeg kunne si til sønnen min at jeg er redd han lærer frykt av meg. Når han skvetter av stemmen min, vil jeg si: Jeg kjenner det blikket, og jeg hater at det nå henger sammen med meg.",
-                "response": "Det høres ut som et uavsluttet oppgjør med sønnen din og det som ikke er sagt mellom dere. Vi kan plassere ham i den tomme stolen og la deg si det forsiktig, mens vi holder tempoet sakte nok til å være med det."
+                "response": "Det er noe viktig du ikke har klart å si til sønnen din. Hvis du vil, setter vi ham i den tomme stolen og sier bare den første delen: «Jeg er redd du lærer frykt av meg.» Vi holder det sakte nok til å være med både skammen og omsorgen."
               }
             }
           ]
