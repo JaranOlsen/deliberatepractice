@@ -3216,7 +3216,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-sara_01": {
       "text": "[Lavmælt] Bare det å se navnet hans dukke opp setter meg fortsatt ut, og jeg hater hvor mye det betyr.",
-      "suggestion": "Å se navnet hans setter deg fortsatt ut, og det er vondt at det fortsatt betyr så mye."
+      "suggestion": "Å se navnet hans setter deg fortsatt ut, og det vonde er hvor mye det fortsatt betyr. La oss stoppe akkurat der og legge merke til hva som skjer i deg når du innrømmer at det betyr noe."
     },
     "dp_empathic-explorations_case-sara_02": {
       "text": "[Flau] Jeg sier til venner at det går bra, og så blir jeg redd for at de hører at det ikke gjør det.",
@@ -3224,11 +3224,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-sara_03": {
       "text": "[På gråten] Jeg føler meg fortapt etter bruddet, som om jeg ikke vet hva jeg skal gjøre med kveldene.",
-      "suggestion": "Kveldene gjør deg usikker på hvor du skal gjøre av deg, og den fortaptheten har sin egen smerte."
+      "suggestion": "Kveldene er stedet der fortaptheten viser seg tydeligst. La oss være med én kveld et øyeblikk og merke hva som kjennes vanskeligst når du ikke vet hvor du skal gjøre av deg."
     },
     "dp_empathic-explorations_case-sara_04": {
       "text": "[Lavmælt] Jeg skrev «unnskyld» til ham tre ganger, og så skjønte jeg at jeg ikke vet hva jeg prøvde å reparere.",
-      "suggestion": "Du strakte deg etter en slags reparasjon, og så ble det uklart hva du egentlig unnskyldte deg for."
+      "suggestion": "Å skrive unnskyld var et forsøk på reparasjon, og så forsvant grunnen under det du prøvde å fikse. La oss senke tempoet ved det uklare stedet og merke hvilken følelse som kommer."
     },
     "dp_empathic-explorations_case-sara_05": {
       "text": "[Panisk] Jeg sletter bilder for å bevise at jeg er ferdig, får panikk og leter etter dem igjen.",
@@ -3244,7 +3244,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-sara_08": {
       "text": "[Flau] Jeg er trist, og så blir jeg flau over at jeg fortsatt snakker om det.",
-      "suggestion": "Tristheten er her, og flauheten kommer raskt oppå; begge er en del av dette øyeblikket."
+      "suggestion": "Tristheten er her, og flauheten spør raskt om du fortsatt burde snakke om dette. La oss gi begge litt plass og merke hvilken som kjennes sterkest akkurat nå."
     },
     "dp_empathic-explorations_case-sara_09": {
       "text": "[På gråten] Når jeg ser par holde hender, blir jeg lei meg, og så føler jeg meg barnslig for å ville ha det.",
@@ -3252,7 +3252,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-sara_10": {
       "text": "[Flau] Hvis jeg lar noen se hele rotet, ser jeg for meg at de stille ønsker at jeg skal slutte.",
-      "suggestion": "Du vil at noen skal vite hvor vondt det er, og samtidig forventer du at de trekker seg unna."
+      "suggestion": "En del av deg vil at noen skal se hvor vondt det er, og en annen del forventer at de ønsker at du skal stoppe. La oss være med draget mellom å ville bli sett og å vente avvisning."
     },
     "dp_empathic-explorations_case-michael_01": {
       "text": "[Bestemt] Når noen retter på én detalj, hører jeg det om igjen etterpå som om jeg ble hengt ut.",
@@ -3264,7 +3264,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-michael_03": {
       "text": "[Anspent] Etter at jeg har eksplodert hjemme, sier jeg til meg selv at de presset meg, men jeg kjenner meg fortsatt elendig.",
-      "suggestion": "En del av deg argumenterer med at de presset deg, og en annen del blir sittende igjen og kjenne seg elendig etterpå."
+      "suggestion": "En del sier at de presset deg, og en annen del sitter igjen med den elendige følelsen etterpå. La oss være litt med den elendige følelsen før diskusjonen om skyld tar over."
     },
     "dp_empathic-explorations_case-michael_04": {
       "text": "[Skamfull] Noen ganger får jeg lyst til å kaste telefonen etter en jobbmelding, og så føler jeg meg latterlig.",
@@ -3272,7 +3272,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-michael_05": {
       "text": "[Defensiv] Et lite sukk fra kona mi kan kjennes som om hun allerede har bestemt at jeg er problemet.",
-      "suggestion": "Sukket lander som en avgjørelse om deg, og så blusser det raskt opp."
+      "suggestion": "Det lille sukket lander som om en avgjørelse allerede er tatt om deg. La oss senke tempoet ved den første oppflammingen og merke hva det kjennes som du blir anklaget for."
     },
     "dp_empathic-explorations_case-michael_06": {
       "text": "[Anspent] Når jeg ikke vet svaret, blir jeg anspent og begynner å snakke som om jeg vet det likevel.",
@@ -3288,19 +3288,19 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-michael_09": {
       "text": "[Skamfull] Noen netter spiller jeg av hvert ord jeg sa, og prøver å finne hvor jeg rotet det til.",
-      "suggestion": "Du går gjennom hvert ord på nytt og leter etter punktet der det gikk galt."
+      "suggestion": "Du spiller av hvert ord og leter etter øyeblikket der du gjorde feil. La oss legge merke til hvordan det kjennes inni deg når du tror du har funnet feilen."
     },
     "dp_empathic-explorations_case-michael_10": {
       "text": "[Sårbar] Jeg vil at sønnen min skal føle seg trygg rundt meg, og jeg vet ikke hvordan jeg skal si det uten å høres svak ut.",
-      "suggestion": "Du vil så sterkt at han skal være trygg, og selv det å si det henter fram den gamle regelen om svakhet."
+      "suggestion": "Du vil så sterkt at han skal være trygg, og bare å si det ønsket kommer borti den gamle svakhetsregelen. La oss være med selve ønsket et øyeblikk før regelen lukker seg rundt det."
     },
     "dp_empathic-explorations_case-jason_01": {
       "text": "[Stille] Når det er min tur til å snakke, mister jeg tråden i det jeg skulle si.",
-      "suggestion": "Oppmerksomheten vendes mot deg, og ordene forsvinner akkurat når du trenger dem."
+      "suggestion": "Når oppmerksomheten vendes mot deg, forsvinner ordene. La oss stoppe ved akkurat det øyeblikket og merke hvordan det kjennes når alle venter."
     },
     "dp_empathic-explorations_case-jason_02": {
       "text": "[Nølende] Jeg holder fingeren over «send», og så sletter jeg meldingen fordi det å ville ha kontakt plutselig kjennes ydmykende.",
-      "suggestion": "Ønsket om kontakt er der, og så gjør ydmykelsen det vanskelig å la meldingen bli stående."
+      "suggestion": "Ønsket om kontakt er der, og ydmykelsen gjør det vanskelig å la meldingen finnes. La oss være med ønsket et øyeblikk før slettingen skjer."
     },
     "dp_empathic-explorations_case-jason_03": {
       "text": "[Redd] Jeg ble invitert i bursdag, og en del av meg ble glad, men så begynte jeg å bekymre meg for at jeg kom til å ødelegge det.",
@@ -3312,7 +3312,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-jason_05": {
       "text": "[Flau] Etter møter kan én liten pinlig pause få meg til å krympe meg resten av dagen.",
-      "suggestion": "Den lille pausen blir med deg, og flauheten kommer tilbake lenge etter at møtet er over."
+      "suggestion": "Den ene pausen kommer tilbake lenge etter møtet. La oss senke tempoet og merke hva flauheten sier om hvordan du tror du ble sett."
     },
     "dp_empathic-explorations_case-jason_06": {
       "text": "[Engstelig] Når jeg går inn i et rom, ser jeg etter utgangen før jeg bestemmer meg for om jeg skal prøve å delta.",
@@ -3336,7 +3336,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-laura_01": {
       "text": "[Langsomt og flatt] De fleste dager er flate, men hvis tristhet flimrer, stenger jeg den ned før den brer seg.",
-      "suggestion": "De fleste dager er flate, og når tristheten begynner å flimre, er det noe i deg som stenger den ned før den får bre seg."
+      "suggestion": "De fleste dager er flate, og det første glimtet av tristhet blir raskt stengt ned. La oss stoppe ved det glimtet og merke hva som sier at det kan bre seg."
     },
     "dp_empathic-explorations_case-laura_02": {
       "text": "[Redd] Hevede stemmer trenger ikke engang være rettet mot meg; jeg blir bare stille og venter på at det skal gå over.",
@@ -3348,7 +3348,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-laura_04": {
       "text": "[Flatt og på vakt] Jeg drikker vin om kvelden fordi støyen i hodet blir skarpere når huset blir stille.",
-      "suggestion": "Vinen ser ut til å dempe skarpheten som kommer når huset blir stille."
+      "suggestion": "Vinen demper skarpheten som kommer når huset blir stille. La oss være med skarpheten et øyeblikk før vinen tar den ned."
     },
     "dp_empathic-explorations_case-laura_05": {
       "text": "[Fjern] Jeg våkner og forventer allerede at dagen skal gå galt, selv om ingenting har skjedd ennå.",
@@ -3368,7 +3368,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-laura_09": {
       "text": "[Anspent og på vakt] Jeg får skyldfølelse for å ønske trøst, som om det å trenge noe gjør meg til et problem.",
-      "suggestion": "Skylden ser ut til å gjøre et menneskelig behov til bevis på at du ber om for mye."
+      "suggestion": "Skylden gjør ønsket om trøst til bevis på at du er et problem. La oss være nær selve ønsket og merke hva slags trøst det ber om."
     },
     "dp_empathic-explorations_case-laura_10": {
       "text": "[Langsomt og flatt] Jeg unngår filmer med slåssing fordi jeg ikke vil finne ut hva ett eneste rop gjør med meg.",
@@ -3384,7 +3384,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-carlos_03": {
       "text": "[Redd] Hvis jeg trekker meg, kjenner jeg at jeg forsvinner, som om jeg ikke har noen kontur igjen.",
-      "suggestion": "Å trekke seg ser ut til å treffe et sted der du forsvinner, der konturene begynner å bli borte."
+      "suggestion": "Å trekke deg tilbake treffer det stedet der du begynner å forsvinne, der konturene blir borte. La oss være ved det første tegnet på å forsvinne og merke hva som står på spill."
     },
     "dp_empathic-explorations_case-carlos_04": {
       "text": "[Skamfull] Jeg ser for meg igjen og igjen at gutten min skvetter, og jeg hater at han lærte den frykten av meg.",
@@ -3411,12 +3411,12 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Når sinnet faller, skremmer det mykere ønsket om trygghet deg. Kan vi være nær det myke og skremte stedet et øyeblikk?"
     },
     "dp_empathic-explorations_case-carlos_10": {
-      "text": "[Redd] Jeg lærte tidlig at å være den lille betydde at andre kunne ta det de ville.",
-      "suggestion": "Den gamle regelen bærer fortsatt faren ved å være liten og ubeskyttet."
+      "text": "[Redd] Når jeg begynner å føle meg liten i en krangel, får noe i meg panikk, som om noen kan ta hva de vil.",
+      "suggestion": "Å føle seg liten henter den gamle faren nært, som om noen kan ta det de vil ha. La oss være med den første panikken ved å være liten før du må gjøre deg større."
     },
     "dp_empathic-explorations_case-nina_01": {
       "text": "[Sliten] I det øyeblikket jeg ber om hjelp, skyller skylden inn og jeg får lyst til å trekke det tilbake.",
-      "suggestion": "Skylden kommer så raskt at det nesten er som om behovet må tas tilbake med en gang."
+      "suggestion": "Skylden skyller inn nesten med én gang behovet viser seg. La oss stoppe i øyeblikket før du trekker forespørselen tilbake og merke hva som kjennes farlig ved å trenge hjelp."
     },
     "dp_empathic-explorations_case-nina_02": {
       "text": "[Skyldpreget] Jeg bretter klær og svarer på meldinger så jeg slipper å kjenne bitterhet.",
@@ -3428,7 +3428,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-nina_04": {
       "text": "[Sliten] Selv det å be om en liten kjøretur kommer ut med tre unnskyldninger.",
-      "suggestion": "Unnskyldningene kommer før behovet får stå på egne bein, som om det å spørre allerede risikerer å være for mye."
+      "suggestion": "Unnskyldningene kommer før behovet får stå på egne bein. La oss bli litt der behovet fortsatt er lite og se hvordan det er før du myker det opp."
     },
     "dp_empathic-explorations_case-nina_05": {
       "text": "[Skyldpreget] Et rotete hus får meg til å føle at alle kan se at jeg mislykkes.",
@@ -3440,7 +3440,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-nina_07": {
       "text": "[Skyldpreget] Jeg drømmer om å bli tatt vare på, og så skammer jeg meg for at jeg vil det.",
-      "suggestion": "Ønsket om å bli tatt vare på er der, og nesten rett ved siden av kommer skammen over å ønske det."
+      "suggestion": "Ønsket om å bli tatt vare på er der, og skammen kommer nesten ved siden av. La oss gi ønsket et øyeblikk for seg selv før skammen sier at det er feil."
     },
     "dp_empathic-explorations_case-nina_08": {
       "text": "[Unnskyldende] Jeg tar oppgaver før noen spør, og så blir jeg bitter for at ingen merker det.",
@@ -3476,7 +3476,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-aisha_06": {
       "text": "[Desperat] Når noen sier farvel, vet jeg at det er normalt, men jeg blir redd og sint samtidig.",
-      "suggestion": "Farvel henter fram frykt og sinne samtidig, selv om en annen del sier at det burde være normalt."
+      "suggestion": "Farvel henter fram frykt og sinne samtidig, selv om en annen del sier at det burde være normalt. La oss senke tempoet ved ordet farvel og merke hvilken følelse som kommer først."
     },
     "dp_empathic-explorations_case-aisha_07": {
       "text": "[Panisk] Vennlighet får meg til å hulke, og en annen del av meg vil bare stikke.",
@@ -3552,7 +3552,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-marcus_05": {
       "text": "[Lav stemme] Etter jobb sitter jeg i bilen fordi leiligheten kjennes for stille til å gå inn i.",
-      "suggestion": "Bilen gir deg en pause før den stille leiligheten. Kan vi senke tempoet rundt øyeblikket før du åpner døren?"
+      "suggestion": "Bilen gir deg en pause før den stille leiligheten. La oss være ved øyeblikket før du åpner døren og merke hva stillheten gjør inni deg."
     },
     "dp_empathic-explorations_case-marcus_06": {
       "text": "[Stille og på vakt] Jeg lar telefonen gå til svarer fordi å svare betyr at jeg kanskje må forklare hvorfor jeg ikke har det bra.",
@@ -3560,7 +3560,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-marcus_07": {
       "text": "[Flatt] Gode øyeblikk skjer, men jeg stoler ikke nok på dem til å la dem telle.",
-      "suggestion": "De gode øyeblikkene er der, men det er vanskelig å stole nok på dem til å la dem telle. Vi kan bli litt ved mistilliten til det gode."
+      "suggestion": "De gode øyeblikkene er der, og mistilliten hindrer dem i å telle. La oss bli ved punktet der noe godt begynner å bety noe og så skyves bort."
     },
     "dp_empathic-explorations_case-marcus_08": {
       "text": "[Lav stemme] En plutselig lyd skjærer gjennom meg, og før jeg rekker å tenke, skanner jeg rommet.",

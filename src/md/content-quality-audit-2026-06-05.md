@@ -50,6 +50,7 @@ Branch update:
 - Empathic Explorations hard has received marker/response regression polish: 15 English items and Bokmal localizations now reduce crisis-contact drift, add clearer one-step exploratory invitations, and keep Aisha/Marcus material closer to a delicate emotional edge. Estimated hard tier quality moved from roughly 8.1/10 to 8.4/10.
 - Marker Recognition and Chair Work has received a targeted setup-response polish: 22 English responses and Bokmal localizations now make the marker-to-task transition more concrete, reduce repeated "that sounds like/we can use two chairs" scripting, and keep explicit chair roles, consent, and first enactment steps. Estimated targeted response quality moved from roughly 8.0/10 to 8.4/10.
 - Staying in Contact with Intense Affect has received a spot-check polish: 21 English responses and Bokmal localizations now reduce command-like grounding ("stay with me," "keep your," "uncurl," "lower the shoulders") and lead more directly with emotional contact before titration or safety structure. Estimated targeted response quality moved from roughly 8.4/10 to 8.7/10.
+- Empathic Explorations has received a cross-tier spot-check polish: 22 English responses now include a clearer small next step of emotional contact, one Carlos marker was moved from historical cognition into a live present edge, and Bokmal localizations were aligned. Estimated targeted exploration quality moved from roughly 8.4/10 to 8.7/10.
 
 The remaining gaps are more subtle:
 
@@ -83,9 +84,9 @@ The remaining gaps are more subtle:
 | Providing Treatment Rationale | Easy | Strong | High | Strong | Low | Excellent direct rationale markers tied to client skepticism, fear, goals, and safety. |
 | Providing Treatment Rationale | Moderate | Strong | High | Strong | Low | Good skepticism/fear/numbing/practicality coverage. Shame-about-crying and positive-thinking variants could be added only as polish. |
 | Providing Treatment Rationale | Hard | Strong | High | Strong | Low | Strong safety, self-harm, control, trauma, and anger-risk rationale markers. |
-| Empathic Explorations | Easy | Strong | Medium-High | Strong | Low-Medium | Recent pass reduced pre-supplied body imagery and conjectural responses, while preserving live sadness, anger/shame, guardedness, and uncertain positive invitation markers. |
-| Empathic Explorations | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent passes added flatter relational ambiguity, not-emotional/confused process, last-therapist distrust, ordinary uncertainty, and reduced overly evocative response language. |
-| Empathic Explorations | Hard | Strong | Medium-High | Strong | Low | Recent passes added dazed/foggy process and direct therapist-attraction material, simplified one overly imagistic abandonment marker, pulled selected responses back from conjecture, and softened crisis-contact drift in Aisha/Marcus material. |
+| Empathic Explorations | Easy | Strong | Medium-High | Strong | Low | Recent spot checks kept the markers simple while adding clearer one-step invitations after close reflections. Continue only light regression checking. |
+| Empathic Explorations | Moderate | Strong | Medium-High | Strong | Low | Recent passes added flatter relational ambiguity, not-emotional/confused process, last-therapist distrust, ordinary uncertainty, and clearer invitations to stay with the live edge rather than only reflect it. |
+| Empathic Explorations | Hard | Strong | Medium-High | Strong | Low | Recent passes added dazed/foggy process and direct therapist-attraction material, simplified one overly imagistic abandonment marker, pulled selected responses back from conjecture, and moved one Carlos item from historical cognition into a present exploration edge. |
 | Empathic Evocations | Easy | Strong | Medium | Strong | Low-Medium | Marker style is now much better: flat, detached, ordinary. Recent regression pass flattened a remaining social-anxiety marker that supplied the image too early. Benchmark archetype coverage is partial, intentionally leaving image-making room for trainees. |
 | Empathic Evocations | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent passes added betrayal, worthlessness, being used, dependency shame, macho anti-feeling, and hopeless relational shutdown while preserving relatively flat markers. Latest pass flattened selected body/metaphor-heavy markers. |
 | Empathic Evocations | Hard | Strong | Medium-High | Strong | Low-Medium | Good coverage of confidentiality threat, crisis-denial, confused distress, worthlessness, and locked-down anti-feeling archetypes. Latest pass improved shame and trauma markers and made the self-harm-adjacent evocation more careful. |
@@ -134,27 +135,28 @@ Completed on the current content branch:
 - Empathic Explorations hard marker/response regression polish.
 - Marker Recognition and Chair Work targeted setup-response polish.
 - Staying in Contact with Intense Affect spot-check response polish.
+- Empathic Explorations cross-tier response/marker spot-check polish.
 
 These should still be reviewed in normal regression passes, but they are no longer the highest-value repair targets.
 
 ## Current Highest-Value Improvement Targets
 
-1. Empathic Explorations spot checks.
-   - The hard tier is no longer a leading repair target, but future passes should still watch the boundary between exploration and intense-affect work in Aisha and Marcus items.
-
-2. Marker Recognition and Chair Work residual spot checks.
+1. Marker Recognition and Chair Work residual spot checks.
    - Continue small procedural-polish slices where setup language remains overly similar.
    - Preserve the chair-work marker fit; this is response-quality polish, not a new task type.
 
-3. Empathic Evocations regression polish.
+2. Empathic Evocations regression polish.
    - Keep checking that client statements remain flat, detached, or over-cognitive rather than already imagistic.
    - Future evocation changes should be small and benchmark-driven, not a broad rewrite.
 
-4. Self-Disclosure spot checks.
+3. Self-Disclosure spot checks.
    - Keep hard responses brief and transparent without sliding into reassurance, repair, or therapist biography.
 
-5. Staying in Contact with Intense Affect residual spot checks.
+4. Staying in Contact with Intense Affect residual spot checks.
    - Continue occasional checks for contact-first language, especially in safety-sensitive Aisha, Carlos, David, and Marcus items.
+
+5. Empathic Explorations residual spot checks.
+   - Watch for pure-reflection responses that do not invite a small next step, and for hard-case items that drift toward intense-affect containment.
 
 ## Case-Set Constraints
 
