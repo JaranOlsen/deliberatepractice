@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T11:17:05.066Z",
+  "generatedAt": "2026-06-14T12:06:59.083Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -963,11 +963,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Slow and flat] I want to go numb before the memory opens wider than I can close. I can feel the edge of it opening, and my first instinct is to disappear before I see too much.",
-            "response": "Then numbness gets respected as protection. Heels on the floor, eyes in the room; today we stop at the doorway of the memory."
+            "response": "The numbness is trying to save you from seeing too much. I will respect that protection and stay at the edge with you, close enough to know the memory is there without opening it wider."
           },
           "no": {
             "statement": "[Langsomt og flatt] Jeg vil bli nummen før minnet åpner seg bredere enn jeg klarer å lukke. Jeg kjenner kanten av det åpne seg, og første impuls er å forsvinne før jeg ser for mye.",
-            "response": "Da får nummenheten respekt som beskyttelse. Hælene i gulvet, blikket i rommet; i dag stopper vi ved døråpningen til minnet."
+            "response": "Nummenheten prøver å spare deg for å se for mye. Jeg respekterer den beskyttelsen og blir ved kanten sammen med deg, nær nok til å vite at minnet er der uten å åpne det bredere."
           }
         },
         {
