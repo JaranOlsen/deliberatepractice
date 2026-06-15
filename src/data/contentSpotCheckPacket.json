@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T14:32:28.945Z",
+  "generatedAt": "2026-06-15T21:49:05.543Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1308,12 +1308,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "[Tense and guarded] Kind words make my throat hurt, and I don't know why.",
-                "response": "The kindness touches a locked place, and the ache rises in your throat before any words can answer."
+                "statement": "[Tense and guarded] Kind words make me uncomfortable, and I do not know why.",
+                "response": "The kindness reaches a locked place, and something tightens before you can let the words in."
               },
               "no": {
-                "statement": "[Anspent og på vakt] Vennlige ord gjør at jeg får vondt i halsen, og jeg vet ikke hvorfor.",
-                "response": "Vennligheten berører et låst sted, og det snører seg i halsen før ordene rekker å komme."
+                "statement": "[Anspent og på vakt] Vennlige ord gjør meg ukomfortabel, og jeg vet ikke hvorfor.",
+                "response": "Vennligheten når et låst sted, og noe strammer seg før ordene får slippe inn."
               }
             }
           ]
