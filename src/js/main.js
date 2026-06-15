@@ -983,6 +983,49 @@ function getLocalizedSkillName(skillId) {
   return localizeSkill(languageId, skillId)?.name ?? skillId;
 }
 
+function normalizeChartLabelLines(lines) {
+  return (Array.isArray(lines) ? lines : [])
+    .map((line) => String(line ?? "").trim())
+    .filter(Boolean)
+    .slice(0, 3);
+}
+
+function wrapChartLabel(label) {
+  const words = String(label ?? "").replace(/[-/]+/g, " ").split(/\s+/).filter(Boolean);
+  if (!words.length) return [];
+  const maxChars = 12;
+  const maxLines = 2;
+  const lines = [];
+  words.forEach((word) => {
+    const current = lines[lines.length - 1] ?? "";
+    if (current && `${current} ${word}`.length <= maxChars) {
+      lines[lines.length - 1] = `${current} ${word}`;
+    } else if (lines.length < maxLines) {
+      lines.push(word);
+    } else {
+      lines[lines.length - 1] = `${lines[lines.length - 1].replace(/\.\.\.$/, "")}...`;
+    }
+  });
+  return lines;
+}
+
+function getChartSkillLabelLines(skillId) {
+  const strings = getUIStrings();
+  const configuredLines = normalizeChartLabelLines(strings.selfChartSkillLabels?.[skillId]);
+  if (configuredLines.length) return configuredLines;
+  return wrapChartLabel(getLocalizedSkillName(skillId));
+}
+
+function renderChartLabel(x, y, lines) {
+  const lineHeight = 7.4;
+  const firstDy = lines.length > 1 ? -((lines.length - 1) * lineHeight) / 2 : 0;
+  const tspans = lines.map((line, index) => {
+    const dy = index === 0 ? firstDy : lineHeight;
+    return `<tspan x="${x}" dy="${dy.toFixed(1)}">${escapeMarkup(line)}</tspan>`;
+  }).join("");
+  return `<text x="${x}" y="${y}" class="self-chart-label">${tspans}</text>`;
+}
+
 function getRatingItemCount(rating) {
   const itemCount = Number(rating?.item_count);
   if (Number.isFinite(itemCount) && itemCount > 0) {
@@ -1133,9 +1176,10 @@ function renderSelfRatingsChart() {
 
   if (!ratedSkills.length) return;
 
-  const size = 220;
+  const size = 250;
   const center = size / 2;
-  const maxRadius = 82;
+  const maxRadius = 80;
+  const labelRadius = maxRadius + 30;
   const axisCount = ratedSkills.length;
   const gridRadii = [0.2, 0.4, 0.6, 0.8, 1];
   const grid = gridRadii.map((ratio) => {
@@ -1151,10 +1195,12 @@ function renderSelfRatingsChart() {
     return polarPoint(center, center, maxRadius * ratio, index, axisCount);
   });
   const labels = ratedSkills.map((entry, index) => {
-    const point = polarPoint(center, center, maxRadius + 18, index, axisCount);
-    const label = getLocalizedSkillName(entry.skillId);
-    const shortLabel = label.length > 14 ? `${label.slice(0, 12)}...` : label;
-    return `<text x="${point.x.toFixed(1)}" y="${point.y.toFixed(1)}" class="self-chart-label">${escapeMarkup(shortLabel)}</text>`;
+    const point = polarPoint(center, center, labelRadius, index, axisCount);
+    return renderChartLabel(
+      point.x.toFixed(1),
+      point.y.toFixed(1),
+      getChartSkillLabelLines(entry.skillId)
+    );
   }).join("");
   const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
   svg.setAttribute("viewBox", `0 0 ${size} ${size}`);
