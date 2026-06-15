@@ -208,6 +208,21 @@ export const LANGUAGE_UI = {
     "selfChartDifficultyTitle": "By difficulty",
     "selfChartSkillDifficultyTitle": "By skill and difficulty (n = items)",
     "selfChartCellCount": "n={count}",
+    "selfChartSkillLabels": {
+      "therapist-self-awareness": ["Self", "awareness"],
+      "empathic-understanding": ["Empathic", "understanding"],
+      "empathic-affirmation-validation": ["Affirmation", "validation"],
+      "exploratory-questions": ["Exploratory", "questions"],
+      "providing-treatment-rationale": ["Treatment", "rationale"],
+      "empathic-explorations": ["Empathic", "exploration"],
+      "empathic-evocations": ["Empathic", "evocation"],
+      "empathic-conjectures": ["Empathic", "conjectures"],
+      "staying-in-contact-intense-affect": ["Contact", "in affect"],
+      "self-disclosure": ["Self-", "disclosure"],
+      "marker-recognition-chairwork": ["Markers", "chairwork"],
+      "alliance-repair": ["Alliance", "repair"],
+      "empathic-refocusing": ["Empathic", "refocusing"]
+    },
     "difficultyEasy": "Easy",
     "difficultyModerate": "Moderate",
     "difficultyHard": "Hard"
@@ -399,6 +414,21 @@ export const LANGUAGE_UI = {
     "selfChartDifficultyTitle": "Etter vanskelighetsgrad",
     "selfChartSkillDifficultyTitle": "Etter ferdighet og vanskelighetsgrad (n = punkter)",
     "selfChartCellCount": "n={count}",
+    "selfChartSkillLabels": {
+      "therapist-self-awareness": ["Selv-", "bevissthet"],
+      "empathic-understanding": ["Empatisk", "forståelse"],
+      "empathic-affirmation-validation": ["Bekreftelse", "validering"],
+      "exploratory-questions": ["Utforskende", "spørsmål"],
+      "providing-treatment-rationale": ["Behandlings-", "rasjonale"],
+      "empathic-explorations": ["Empatiske", "utforskninger"],
+      "empathic-evocations": ["Evokativ", "empati"],
+      "empathic-conjectures": ["Empatiske", "antakelser"],
+      "staying-in-contact-intense-affect": ["Kontakt", "affekt"],
+      "self-disclosure": ["Selv-", "avsløring"],
+      "marker-recognition-chairwork": ["Markører", "stolarbeid"],
+      "alliance-repair": ["Allianse", "reparasjon"],
+      "empathic-refocusing": ["Empatisk", "refokusering"]
+    },
     "difficultyEasy": "Lett",
     "difficultyModerate": "Moderat",
     "difficultyHard": "Vanskelig"
