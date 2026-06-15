@@ -62,6 +62,7 @@ button {
 }
 
 .app-header {
+  position: relative;
   padding: 2.5rem 1.25rem 1.5rem;
   text-align: center;
   background:
@@ -71,6 +72,16 @@ button {
   border-bottom-left-radius: 18px;
   border-bottom-right-radius: 18px;
   box-shadow: 0 24px 48px -32px rgba(15, 23, 42, 0.45);
+}
+
+.app-header-inner {
+  width: min(100%, 720px);
+  margin: 0 auto;
+}
+
+.app-heading {
+  min-width: 0;
+  text-align: center;
 }
 
 .app-header h1 {
@@ -85,6 +96,42 @@ button {
   font-size: 0.95rem;
   line-height: 1.4;
   color: rgba(248, 250, 252, 0.85);
+}
+
+.account-controls {
+  position: absolute;
+  top: 1rem;
+  right: 1.25rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.45rem;
+  max-width: min(23rem, calc(100% - 2.5rem));
+  flex-wrap: wrap;
+}
+
+.header-pill {
+  border-radius: 999px;
+  border: 1px solid rgba(248, 250, 252, 0.28);
+  background: rgba(255, 255, 255, 0.12);
+  color: #f8fafc;
+  padding: 0.36rem 0.68rem;
+  font-size: 0.86rem;
+  font-weight: 650;
+  line-height: 1.2;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.header-pill:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.header-target-pill {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(248, 250, 252, 0.38);
+  font-weight: 720;
 }
 
 .app-main {
@@ -110,6 +157,28 @@ body[data-section="practice"] .app-header {
 
 body[data-section="practice"] .app-header h1 {
   font-size: 1.12rem;
+}
+
+body[data-section="practice"] .app-header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+body[data-section="practice"] .app-heading {
+  flex: 1;
+  text-align: left;
+}
+
+body[data-section="practice"] .account-controls {
+  position: static;
+  max-width: 10.5rem;
+  flex-wrap: nowrap;
+}
+
+body[data-section="practice"] .header-target-pill {
+  display: none !important;
 }
 
 body[data-section="practice"] .app-tagline {
@@ -143,6 +212,43 @@ body[data-section="practice"] #practice-area {
   line-height: 1.5;
 }
 
+.resume-card {
+  padding: 0.85rem 0.95rem;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--color-accent-soft), white 48%);
+  border: 1px solid color-mix(in srgb, var(--color-accent), white 72%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.9rem;
+}
+
+.resume-copy {
+  display: grid;
+  gap: 0.18rem;
+  min-width: 0;
+}
+
+.resume-eyebrow {
+  color: var(--color-muted);
+  font-size: 0.76rem;
+  font-weight: 750;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.resume-copy p {
+  margin: 0;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.resume-actions {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 0.45rem;
+}
+
 .skill-summary {
   padding: 0.95rem 1rem;
   border-radius: 10px;
@@ -171,7 +277,12 @@ body[data-section="practice"] #practice-area {
 }
 
 .skill-summary-eyebrow {
-  color: var(--color-muted);
+  justify-self: start;
+  border-radius: 999px;
+  padding: 0.18rem 0.52rem;
+  background: var(--card-accent-soft);
+  border: 1px solid color-mix(in srgb, var(--card-accent), white 62%);
+  color: var(--card-accent-strong);
   font-size: 0.76rem;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -754,6 +865,18 @@ body[data-section="practice"] #practice-area {
   transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 
+.primary-button--small {
+  padding: 0.42rem 0.9rem;
+  font-size: 0.9rem;
+}
+
+button:disabled,
+button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.58;
+  transform: none !important;
+}
+
 .primary-button:hover {
   background-color: var(--card-accent-strong, #254c49);
   box-shadow: 0 14px 26px -14px color-mix(in srgb, var(--card-accent, var(--color-accent)), black 34%);
@@ -771,6 +894,119 @@ body[data-section="practice"] #practice-area {
   gap: 0.75rem;
   align-items: center;
   text-align: center;
+}
+
+.rating-panel {
+  display: grid;
+  gap: 0.75rem;
+  width: min(92vw, 430px);
+  max-height: min(86vh, 620px);
+  overflow: auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--card-accent-faint), white 26%);
+  border: 1px solid color-mix(in srgb, var(--card-accent), white 74%);
+  box-shadow: 0 24px 60px -30px rgba(15, 23, 42, 0.55);
+}
+
+.response-hint {
+  margin: -0.25rem 0 0;
+  color: var(--color-muted);
+  font-size: 0.86rem;
+  line-height: 1.35;
+}
+
+.rating-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.85rem;
+}
+
+.rating-header h4,
+.pairing-header h4,
+.account-section-block h4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.rating-header p,
+.pairing-header p {
+  margin: 0.2rem 0 0;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.rating-eyebrow {
+  display: inline-block;
+  color: var(--color-muted);
+  font-size: 0.74rem;
+  font-weight: 750;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.rating-summary {
+  margin: -0.2rem 0 0;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.rating-target {
+  flex: 0 0 auto;
+  max-width: 42%;
+  border-radius: 999px;
+  padding: 0.25rem 0.55rem;
+  background: var(--card-accent-soft);
+  color: var(--card-accent-strong);
+  font-size: 0.78rem;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.rating-scale {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.rating-scale-guide {
+  color: var(--color-muted);
+  font-size: 0.8rem;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.rating-score-options {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.45rem;
+}
+
+.rating-score-options button {
+  border-radius: 9px;
+  border: 1px solid color-mix(in srgb, var(--card-accent), white 68%);
+  background: #fff;
+  color: var(--card-accent-strong);
+  min-height: 2.35rem;
+  font-weight: 750;
+}
+
+.rating-score-options button.is-selected {
+  background: var(--card-accent);
+  border-color: var(--card-accent);
+  color: #fff;
+}
+
+.rating-actions,
+.pairing-code-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .suggestion-panel .ghost-button {
@@ -847,7 +1083,8 @@ body[data-section="practice"] #practice-area {
 
 select,
 textarea,
-input[type="text"] {
+input[type="text"],
+input[type="email"] {
   width: 100%;
   padding: 0.65rem 0.75rem;
   border-radius: 10px;
@@ -919,6 +1156,16 @@ input[type="text"] {
   z-index: 999;
 }
 
+.rating-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.52);
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  z-index: 1000;
+}
+
 .paywall-modal {
   background: #fff;
   border-radius: 18px;
@@ -928,6 +1175,222 @@ input[type="text"] {
   box-shadow: var(--shadow-soft);
   display: grid;
   gap: 0.65rem;
+}
+
+.account-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.52);
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  z-index: 1000;
+}
+
+.account-modal {
+  width: min(94vw, 520px);
+  max-height: min(90vh, 760px);
+  overflow: auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 26px 60px -30px rgba(15, 23, 42, 0.55);
+  padding: 1.15rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.account-modal-header,
+.account-row,
+.pairing-header,
+.partner-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.85rem;
+}
+
+.account-modal-header h3 {
+  margin: 0.1rem 0 0;
+  font-size: 1.2rem;
+}
+
+.account-eyebrow,
+.account-label {
+  color: var(--color-muted);
+  font-size: 0.76rem;
+  font-weight: 750;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.account-section {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.account-section p {
+  margin: 0;
+  color: var(--color-muted);
+  line-height: 1.45;
+}
+
+.account-section-block,
+.profile-form {
+  display: grid;
+  gap: 0.55rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.access-section {
+  padding: 0.85rem;
+  border: 1px solid color-mix(in srgb, var(--color-accent), white 76%);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--color-accent-soft), white 56%);
+}
+
+.access-section h4 {
+  margin: 0;
+  font-size: 0.96rem;
+}
+
+.account-value {
+  margin: 0.15rem 0 0;
+  color: var(--color-text);
+  font-weight: 650;
+  overflow-wrap: anywhere;
+}
+
+.inline-form-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.pairing-code-card {
+  display: grid;
+  gap: 0.55rem;
+  padding: 0.85rem;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--color-accent-soft), white 48%);
+  border: 1px solid color-mix(in srgb, var(--color-accent), white 72%);
+}
+
+.pairing-code {
+  font-size: 1.55rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: var(--color-accent);
+}
+
+.chart-section {
+  gap: 0.7rem;
+}
+
+.chart-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.85rem;
+}
+
+.chart-header h4 {
+  margin: 0;
+  font-size: 0.96rem;
+}
+
+.chart-header p {
+  margin: 0.15rem 0 0;
+  color: var(--color-muted);
+  font-size: 0.86rem;
+}
+
+.self-chart {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.self-chart svg {
+  width: min(100%, 260px);
+  justify-self: center;
+  overflow: visible;
+}
+
+.self-chart-grid-ring {
+  fill: none;
+  stroke: color-mix(in srgb, var(--color-accent), white 78%);
+  stroke-width: 1;
+}
+
+.self-chart-axis {
+  stroke: color-mix(in srgb, var(--color-accent), white 82%);
+  stroke-width: 1;
+}
+
+.self-chart-area {
+  fill: color-mix(in srgb, var(--color-accent), transparent 64%);
+  stroke: var(--color-accent);
+  stroke-width: 2;
+}
+
+.self-chart-label {
+  fill: var(--color-muted);
+  font-size: 8px;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+
+.difficulty-chart {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.difficulty-chart h5 {
+  margin: 0;
+  font-size: 0.86rem;
+}
+
+.difficulty-chart-row {
+  display: grid;
+  grid-template-columns: 4.8rem minmax(0, 1fr) 2rem;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-muted);
+  font-size: 0.82rem;
+}
+
+.difficulty-chart-track {
+  height: 0.45rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--color-accent-soft), white 46%);
+  overflow: hidden;
+}
+
+.difficulty-chart-track span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--color-accent);
+}
+
+.partner-list {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.partner-row {
+  align-items: center;
+  padding: 0.55rem 0.65rem;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+  background: #fff;
+}
+
+.partner-row span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-weight: 650;
 }
 
 .app-footer {
@@ -946,6 +1409,62 @@ input[type="text"] {
 }
 
 @media (max-width: 520px) {
+  .app-header {
+    padding: 1.25rem 0.95rem 1rem;
+  }
+
+  body:not([data-section="practice"]) .app-header {
+    padding-top: 3.55rem;
+  }
+
+  .account-controls {
+    left: 0.95rem;
+    top: 0.85rem;
+    right: 0.95rem;
+    max-width: none;
+  }
+
+  .header-pill {
+    padding: 0.34rem 0.58rem;
+    font-size: 0.8rem;
+  }
+
+  .resume-card {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+
+  .resume-actions {
+    justify-content: flex-start;
+  }
+
+  .rating-header {
+    display: grid;
+    gap: 0.55rem;
+  }
+
+  .rating-target {
+    max-width: 100%;
+    justify-self: flex-start;
+  }
+
+  .rating-panel {
+    width: min(100%, 430px);
+    max-height: 88vh;
+    padding: 0.95rem;
+  }
+
+  .inline-form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .account-modal {
+    width: min(100%, 520px);
+    max-height: 92vh;
+    padding: 1rem;
+  }
+
   .skill-summary {
     gap: 0.55rem;
     padding: 0.8rem 0.9rem;
@@ -977,6 +1496,16 @@ input[type="text"] {
 
   body[data-section="practice"] .app-main {
     padding: 0.75rem 0.9rem 2.25rem;
+  }
+
+  body[data-section="practice"] .app-header-inner {
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  body[data-section="practice"] .account-controls {
+    position: static;
+    max-width: 8rem;
   }
 
   body[data-section="practice"] .panel {

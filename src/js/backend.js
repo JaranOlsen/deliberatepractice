@@ -1,8 +1,11 @@
 "use strict";
 
-// Lightweight helpers to talk to Supabase REST without extra deps.
+// Anonymous feedback/access-code calls still use direct REST so their current
+// behavior and RLS assumptions do not change.
 const SUPABASE_URL = normalizeSupabaseUrl(import.meta.env.VITE_SUPABASE_URL ?? "");
 const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY ?? "";
+let supabaseClient = null;
+let supabaseClientPromise = null;
 
 function normalizeSupabaseUrl(value) {
   return String(value ?? "").trim().replace(/\/+$/, "");
@@ -12,6 +15,182 @@ function hasSupabaseConfig() {
   return Boolean(SUPABASE_URL && SUPABASE_ANON_KEY);
 }
 
+async function getSupabaseClient() {
+  if (!hasSupabaseConfig()) {
+    throw new Error("Missing Supabase configuration");
+  }
+  if (!supabaseClient) {
+    if (!supabaseClientPromise) {
+      supabaseClientPromise = import("@supabase/supabase-js").then(({ createClient }) => {
+        supabaseClient = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+          auth: {
+            autoRefreshToken: true,
+            detectSessionInUrl: true,
+            persistSession: true
+          }
+        });
+        return supabaseClient;
+      });
+    }
+    return supabaseClientPromise;
+  }
+  return supabaseClient;
+}
+
+function getLoadedSupabaseClient() {
+  if (!supabaseClient) {
+    throw new Error("Supabase client has not been loaded");
+  }
+  return supabaseClient;
+}
+
+function getAuthRedirectTo() {
+  if (typeof window === "undefined") return undefined;
+  return `${window.location.origin}${window.location.pathname}`;
+}
+
+function normalizeSupabaseError(error) {
+  if (!error) return null;
+  console.warn("Supabase request failed", {
+    code: error.code ?? null,
+    message: error.message ?? null,
+    details: error.details ?? null,
+    hint: error.hint ?? null
+  });
+  const detail = error.details || error.hint;
+  const message = detail ? `${error.message}: ${detail}` : error.message;
+  return new Error(message ?? "Supabase request failed");
+}
+
+export async function getAuthSession() {
+  const supabase = await getSupabaseClient();
+  const { data, error } = await supabase.auth.getSession();
+  if (error) throw normalizeSupabaseError(error);
+  return data?.session ?? null;
+}
+
+export function onAuthStateChange(callback) {
+  const supabase = getLoadedSupabaseClient();
+  const { data } = supabase.auth.onAuthStateChange((_event, session) => {
+    callback(session ?? null);
+  });
+  return () => data?.subscription?.unsubscribe?.();
+}
+
+export async function signInWithMagicLink(email) {
+  const supabase = await getSupabaseClient();
+  const normalizedEmail = String(email ?? "").trim().toLowerCase();
+  const { error } = await supabase.auth.signInWithOtp({
+    email: normalizedEmail,
+    options: {
+      emailRedirectTo: getAuthRedirectTo()
+    }
+  });
+  if (error) throw normalizeSupabaseError(error);
+  return true;
+}
+
+export async function signOut() {
+  const supabase = await getSupabaseClient();
+  const { error } = await supabase.auth.signOut();
+  if (error) throw normalizeSupabaseError(error);
+  return true;
+}
+
+export async function ensureUserProfile(displayName = null) {
+  const supabase = await getSupabaseClient();
+  const { data, error } = await supabase.rpc("ensure_user_profile", {
+    input_display_name: displayName
+  });
+  if (error) throw normalizeSupabaseError(error);
+  return Array.isArray(data) ? data[0] ?? null : data ?? null;
+}
+
+export async function updateUserProfile({ displayName }) {
+  const supabase = await getSupabaseClient();
+  const { data, error } = await supabase.rpc("ensure_user_profile", {
+    input_display_name: displayName
+  });
+  if (error) throw normalizeSupabaseError(error);
+  return Array.isArray(data) ? data[0] ?? null : data ?? null;
+}
+
+export async function listPracticeTargets() {
+  const supabase = await getSupabaseClient();
+  const { data, error } = await supabase.rpc("list_practice_targets");
+  if (error) throw normalizeSupabaseError(error);
+  return Array.isArray(data) ? data : [];
+}
+
+export async function createPairingInvite() {
+  const supabase = await getSupabaseClient();
+  const { data, error } = await supabase.rpc("create_pairing_invite");
+  if (error) throw normalizeSupabaseError(error);
+  return Array.isArray(data) ? data[0] ?? null : data ?? null;
+}
+
+export async function acceptPairingInvite(code) {
+  const supabase = await getSupabaseClient();
+  const { data, error } = await supabase.rpc("accept_pairing_invite", {
+    input_code: String(code ?? "").trim()
+  });
+  if (error) throw normalizeSupabaseError(error);
+  return Array.isArray(data) ? data[0] ?? null : data ?? null;
+}
+
+export async function revokePracticePartnership(partnershipId) {
+  const supabase = await getSupabaseClient();
+  const { data, error } = await supabase.rpc("revoke_practice_partnership", {
+    input_partnership_id: partnershipId
+  });
+  if (error) throw normalizeSupabaseError(error);
+  return data ?? true;
+}
+
+export async function submitPracticeRating(payload) {
+  const supabase = await getSupabaseClient();
+  const { data, error } = await supabase.rpc("record_practice_rating", {
+    input_therapist_user_id: payload.therapistUserId,
+    input_source: payload.source,
+    input_language_id: payload.languageId,
+    input_skill_id: payload.skillId,
+    input_case_id: payload.caseId,
+    input_statement_id: payload.statementId,
+    input_statement_index: payload.statementIndex,
+    input_difficulty: payload.difficulty,
+    input_score: payload.score,
+    input_criteria_tags: payload.criteriaTags,
+    input_content_revision: payload.contentRevision,
+    input_rating_scope: payload.ratingScope ?? "statement",
+    input_completed_statement_ids: payload.completedStatementIds ?? [],
+    input_item_count: payload.itemCount ?? null
+  });
+  if (error) throw normalizeSupabaseError(error);
+  return Array.isArray(data) ? data[0] ?? null : data ?? null;
+}
+
+export async function listSelfPracticeRatings({ limit = 500 } = {}) {
+  const supabase = await getSupabaseClient();
+  const { data: userData, error: userError } = await supabase.auth.getUser();
+  if (userError) throw normalizeSupabaseError(userError);
+  const userId = userData?.user?.id;
+  if (!userId) return [];
+  const { data, error } = await supabase
+    .from("practice_ratings")
+    .select("skill_id,case_id,difficulty,score,item_count,created_at")
+    .eq("therapist_user_id", userId)
+    .eq("source", "self")
+    .order("created_at", { ascending: false })
+    .limit(limit);
+  if (error) throw normalizeSupabaseError(error);
+  return Array.isArray(data) ? data : [];
+}
+
+/*
+ * The direct REST helpers below are intentionally separate from the lazy-loaded
+ * authenticated client above. Anonymous feedback and access-code redemption
+ * should not pay the Supabase Auth bundle cost.
+ */
 function normalizeAccessLevel(value) {
   return value === "pro" || value === "all" ? value : null;
 }
