@@ -330,11 +330,11 @@
     </div>
 
     <div class="account-overlay is-hidden" id="account-overlay" hidden>
-      <div class="account-modal" role="dialog" aria-modal="true" aria-labelledby="account-heading">
+      <div class="account-modal" id="account-modal" role="dialog" aria-modal="true" aria-labelledby="account-heading">
         <div class="account-modal-header">
           <div>
             <span class="account-eyebrow" id="account-eyebrow">Practice account</span>
-            <h3 id="account-heading">Save ratings to the right therapist</h3>
+            <h3 id="account-heading">Account</h3>
           </div>
           <button type="button" class="glossary-close" id="close-account" aria-label="Close account panel">×</button>
         </div>
@@ -382,13 +382,7 @@
             </div>
           </form>
 
-          <div class="account-section-block">
-            <label class="form-label" for="active-target-select" id="active-target-label">Active therapist</label>
-            <select id="active-target-select"></select>
-            <p class="response-hint" id="active-target-hint">Ratings save to the selected therapist.</p>
-          </div>
-
-          <div class="account-section-block chart-section">
+          <div class="account-section-block chart-section" id="self-chart-section">
             <div class="chart-header">
               <div>
                 <h4 id="self-chart-title">Your progress</h4>
@@ -398,6 +392,34 @@
             </div>
             <div id="self-chart-status" class="response-hint"></div>
             <div id="self-chart" class="self-chart"></div>
+          </div>
+        </section>
+
+        <p id="auth-status" class="form-status"></p>
+      </div>
+    </div>
+
+    <div class="account-overlay is-hidden" id="therapist-overlay" hidden>
+      <div class="account-modal" id="therapist-modal" role="dialog" aria-modal="true" aria-labelledby="therapist-heading">
+        <div class="account-modal-header">
+          <div>
+            <span class="account-eyebrow" id="therapist-eyebrow">Active therapist</span>
+            <h3 id="therapist-heading">Choose who is practicing</h3>
+          </div>
+          <button type="button" class="glossary-close" id="close-therapist" aria-label="Close active therapist panel">×</button>
+        </div>
+
+        <section class="account-section" id="therapist-signed-out">
+          <p id="therapist-signed-out-message">
+            Sign in from Account to choose an active therapist or pair with a partner.
+          </p>
+        </section>
+
+        <section class="account-section is-hidden" id="therapist-signed-in" hidden>
+          <div class="account-section-block">
+            <label class="form-label" for="active-target-select" id="active-target-label">Active therapist</label>
+            <select id="active-target-select"></select>
+            <p class="response-hint" id="active-target-hint">Ratings save to the selected therapist.</p>
           </div>
 
           <div class="account-section-block">
@@ -432,7 +454,7 @@
           </div>
         </section>
 
-        <p id="auth-status" class="form-status"></p>
+        <p id="therapist-status" class="form-status"></p>
       </div>
     </div>
 

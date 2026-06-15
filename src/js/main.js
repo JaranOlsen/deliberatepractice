@@ -164,6 +164,7 @@ const elements = {
   unlockSubmit: document.getElementById("unlock-submit"),
   closePaywallButton: document.getElementById("close-paywall"),
   accountOverlay: document.getElementById("account-overlay"),
+  accountModal: document.getElementById("account-modal"),
   closeAccountButton: document.getElementById("close-account"),
   accountEyebrow: document.getElementById("account-eyebrow"),
   accountHeading: document.getElementById("account-heading"),
@@ -189,6 +190,7 @@ const elements = {
   profileDisplayName: document.getElementById("profile-display-name"),
   profileDisplayLabel: document.getElementById("profile-display-label"),
   profileSubmit: document.getElementById("profile-submit"),
+  selfChartSection: document.getElementById("self-chart-section"),
   activeTargetLabel: document.getElementById("active-target-label"),
   activeTargetSelect: document.getElementById("active-target-select"),
   activeTargetHint: document.getElementById("active-target-hint"),
@@ -211,7 +213,16 @@ const elements = {
   pairingAcceptSubmit: document.getElementById("pairing-accept-submit"),
   partnersTitle: document.getElementById("partners-title"),
   partnerList: document.getElementById("partner-list"),
-  authSignout: document.getElementById("auth-signout")
+  authSignout: document.getElementById("auth-signout"),
+  therapistOverlay: document.getElementById("therapist-overlay"),
+  therapistModal: document.getElementById("therapist-modal"),
+  closeTherapistButton: document.getElementById("close-therapist"),
+  therapistEyebrow: document.getElementById("therapist-eyebrow"),
+  therapistHeading: document.getElementById("therapist-heading"),
+  therapistSignedOut: document.getElementById("therapist-signed-out"),
+  therapistSignedOutMessage: document.getElementById("therapist-signed-out-message"),
+  therapistSignedIn: document.getElementById("therapist-signed-in"),
+  therapistStatus: document.getElementById("therapist-status")
 };
 
 const state = {
@@ -261,7 +272,11 @@ let activeGlossaryChip = null;
 const ACCESS_STORAGE_KEY = "dp_access_level";
 const PRACTICE_SESSION_STORAGE_KEY = "dp_practice_session_v1";
 const ACTIVE_TARGET_STORAGE_KEY = "dp_active_therapist_target_v1";
+const PROFILE_NAME_CONFIRMED_STORAGE_KEY = "dp_profile_name_confirmed_v1";
 const PRACTICE_SESSION_VERSION = 1;
+const RATING_RECENCY_HALF_LIFE_DAYS = 90;
+const RATING_MIN_RECENCY_WEIGHT = 0.25;
+const MS_PER_DAY = 24 * 60 * 60 * 1000;
 
 const DEFAULT_VISUAL = {
   accent: "#2f6f73",
@@ -576,6 +591,7 @@ function saveAccessLevel(level, expiresAt = null) {
   }
   updateLockedBanner();
   renderAccessUI();
+  renderProfilePlacement();
 }
 
 function hasProAccess() {
@@ -770,6 +786,10 @@ function getActiveTargetStorageKey(userId) {
   return `${ACTIVE_TARGET_STORAGE_KEY}:${userId}`;
 }
 
+function getProfileNameConfirmedStorageKey(userId) {
+  return `${PROFILE_NAME_CONFIRMED_STORAGE_KEY}:${userId}`;
+}
+
 function getTargetUserId(target) {
   return target?.target_user_id ?? target?.targetUserId ?? null;
 }
@@ -817,6 +837,16 @@ function loadActiveTargetId(userId) {
   return typeof stored?.targetId === "string" ? stored.targetId : null;
 }
 
+function saveProfileNameConfirmed() {
+  if (!state.authUser?.id) return;
+  writeJsonStorage(getProfileNameConfirmedStorageKey(state.authUser.id), { confirmed: true });
+}
+
+function loadProfileNameConfirmed(userId) {
+  const stored = readJsonStorage(getProfileNameConfirmedStorageKey(userId));
+  return stored?.confirmed === true;
+}
+
 function getSignedInEmail() {
   return state.authUser?.email ?? "";
 }
@@ -847,6 +877,10 @@ function getHeaderAccountLabel() {
     return strings.accountButtonSignedIn ?? "Account";
   }
   return getHeaderActiveTargetLabel() || getSignedInLabel();
+}
+
+function accountButtonOpensTherapistPanel() {
+  return Boolean(state.authUser && document.body.dataset.section === "practice" && getHeaderActiveTargetLabel());
 }
 
 function formatAccessStatus() {
@@ -899,6 +933,37 @@ function renderAccessUI() {
   }
 }
 
+function hasEnteredDisplayName() {
+  const displayName = String(state.authProfile?.display_name ?? "").trim();
+  if (!displayName || !state.authUser?.id) return false;
+  if (loadProfileNameConfirmed(state.authUser.id)) return true;
+  const fallbackName = getSignedInEmail().split("@")[0]?.trim();
+  return Boolean(
+    displayName
+    && displayName !== "Therapist"
+    && displayName.toLowerCase() !== String(fallbackName ?? "").toLowerCase()
+  );
+}
+
+function renderProfilePlacement() {
+  if (!elements.profileForm) return;
+  const signedIn = Boolean(state.authUser);
+  elements.profileForm.hidden = !signedIn;
+  elements.profileForm.classList.toggle("is-hidden", !signedIn);
+  if (!signedIn) return;
+
+  if (hasEnteredDisplayName() && elements.accountModal && elements.authStatus) {
+    elements.accountModal.insertBefore(elements.profileForm, elements.authStatus);
+    elements.profileForm.classList.add("profile-form--bottom");
+    return;
+  }
+
+  if (elements.authSignedIn && elements.selfChartSection) {
+    elements.authSignedIn.insertBefore(elements.profileForm, elements.selfChartSection);
+  }
+  elements.profileForm.classList.remove("profile-form--bottom");
+}
+
 function formatChartTemplate(template, values = {}) {
   return String(template ?? "").replace(/\{(\w+)\}/g, (_match, key) => values[key] ?? "");
 }
@@ -918,40 +983,96 @@ function getLocalizedSkillName(skillId) {
   return localizeSkill(languageId, skillId)?.name ?? skillId;
 }
 
+function getRatingItemCount(rating) {
+  const itemCount = Number(rating?.item_count);
+  if (Number.isFinite(itemCount) && itemCount > 0) {
+    return Math.max(1, Math.round(itemCount));
+  }
+  return 1;
+}
+
+function getRatingRecencyWeight(rating, nowMs) {
+  const createdMs = Date.parse(rating?.created_at ?? "");
+  if (!Number.isFinite(createdMs)) return 1;
+  const ageDays = Math.max(0, (nowMs - createdMs) / MS_PER_DAY);
+  return Math.max(
+    RATING_MIN_RECENCY_WEIGHT,
+    Math.pow(0.5, ageDays / RATING_RECENCY_HALF_LIFE_DAYS)
+  );
+}
+
+function createRatingSummary(extra = {}) {
+  return {
+    ...extra,
+    total: 0,
+    weight: 0,
+    count: 0,
+    ratingCount: 0
+  };
+}
+
+function addRatingToSummary(summary, score, itemCount, recencyWeight) {
+  const weightedItems = itemCount * recencyWeight;
+  summary.total += score * weightedItems;
+  summary.weight += weightedItems;
+  summary.count += itemCount;
+  summary.ratingCount += 1;
+}
+
+function finalizeRatingSummary(entry) {
+  return {
+    ...entry,
+    average: entry.weight ? entry.total / entry.weight : 0
+  };
+}
+
 function summarizeRatings(ratings) {
   const bySkill = new Map();
   const byDifficulty = new Map();
+  const bySkillDifficulty = new Map();
+  const overall = createRatingSummary();
+  const nowMs = Date.now();
   (ratings ?? []).forEach((rating) => {
     const score = Number(rating?.score);
     if (!Number.isFinite(score)) return;
+    const itemCount = getRatingItemCount(rating);
+    const recencyWeight = getRatingRecencyWeight(rating, nowMs);
+    addRatingToSummary(overall, score, itemCount, recencyWeight);
     const skillId = rating.skill_id ?? "";
     if (skillId) {
-      const skillSummary = bySkill.get(skillId) ?? { skillId, total: 0, count: 0 };
-      skillSummary.total += score;
-      skillSummary.count += 1;
+      const skillSummary = bySkill.get(skillId) ?? createRatingSummary({ skillId });
+      addRatingToSummary(skillSummary, score, itemCount, recencyWeight);
       bySkill.set(skillId, skillSummary);
     }
     const difficulty = rating.difficulty ?? "";
     if (difficulty) {
-      const difficultySummary = byDifficulty.get(difficulty) ?? { difficulty, total: 0, count: 0 };
-      difficultySummary.total += score;
-      difficultySummary.count += 1;
+      const difficultySummary = byDifficulty.get(difficulty) ?? createRatingSummary({ difficulty });
+      addRatingToSummary(difficultySummary, score, itemCount, recencyWeight);
       byDifficulty.set(difficulty, difficultySummary);
     }
+    if (skillId && difficulty) {
+      const key = `${skillId}:${difficulty}`;
+      const skillDifficultySummary = bySkillDifficulty.get(key) ?? createRatingSummary({ skillId, difficulty });
+      addRatingToSummary(skillDifficultySummary, score, itemCount, recencyWeight);
+      bySkillDifficulty.set(key, skillDifficultySummary);
+    }
   });
+  const difficultyOrder = ["easy", "moderate", "hard"];
   return {
+    overall: finalizeRatingSummary(overall),
     skills: SKILL_ORDER
-      .map((skillId) => bySkill.get(skillId) ?? { skillId, total: 0, count: 0 })
-      .map((entry) => ({
-        ...entry,
-        average: entry.count ? entry.total / entry.count : 0
-      })),
-    difficulties: ["easy", "moderate", "hard"]
-      .map((difficulty) => byDifficulty.get(difficulty) ?? { difficulty, total: 0, count: 0 })
-      .map((entry) => ({
-        ...entry,
-        average: entry.count ? entry.total / entry.count : 0
-      }))
+      .map((skillId) => bySkill.get(skillId) ?? createRatingSummary({ skillId }))
+      .map(finalizeRatingSummary),
+    difficulties: difficultyOrder
+      .map((difficulty) => byDifficulty.get(difficulty) ?? createRatingSummary({ difficulty }))
+      .map(finalizeRatingSummary),
+    skillDifficulties: SKILL_ORDER.map((skillId) => ({
+      skillId,
+      difficulties: difficultyOrder.map((difficulty) => {
+        const entry = bySkillDifficulty.get(`${skillId}:${difficulty}`) ?? createRatingSummary({ skillId, difficulty });
+        return finalizeRatingSummary(entry);
+      })
+    })).filter((row) => row.difficulties.some((entry) => entry.count > 0))
   };
 }
 
@@ -1005,10 +1126,9 @@ function renderSelfRatingsChart() {
 
   const summary = summarizeRatings(state.selfRatings);
   const ratedSkills = summary.skills.filter((entry) => entry.count > 0);
-  const average = state.selfRatings.reduce((total, rating) => total + Number(rating.score ?? 0), 0) / state.selfRatings.length;
   elements.selfChartStatus.textContent = [
-    formatChartTemplate(strings.selfChartAverage ?? "{score}/5 average", { score: average.toFixed(1) }),
-    formatChartTemplate(strings.selfChartCount ?? "{count} ratings", { count: state.selfRatings.length })
+    formatChartTemplate(strings.selfChartAverage ?? "{score}/5 weighted average", { score: summary.overall.average.toFixed(1) }),
+    formatChartTemplate(strings.selfChartCount ?? "{count} items practiced", { count: summary.overall.count })
   ].join(" · ");
 
   if (!ratedSkills.length) return;
@@ -1071,7 +1191,47 @@ function renderSelfRatingsChart() {
     difficultyList.appendChild(row);
   });
 
-  elements.selfChart.append(svg, difficultyList);
+  const matrix = document.createElement("div");
+  matrix.className = "skill-difficulty-matrix";
+  const matrixTitle = document.createElement("h5");
+  matrixTitle.textContent = strings.selfChartSkillDifficultyTitle ?? "By skill and difficulty";
+  matrix.appendChild(matrixTitle);
+  const matrixGrid = document.createElement("div");
+  matrixGrid.className = "skill-difficulty-grid";
+  const emptyHeader = document.createElement("span");
+  emptyHeader.className = "skill-difficulty-heading";
+  emptyHeader.textContent = "";
+  matrixGrid.appendChild(emptyHeader);
+  summary.difficulties.forEach((entry) => {
+    const heading = document.createElement("span");
+    heading.className = "skill-difficulty-heading";
+    heading.textContent = strings[`difficulty${entry.difficulty[0].toUpperCase()}${entry.difficulty.slice(1)}`] ?? entry.difficulty;
+    matrixGrid.appendChild(heading);
+  });
+  summary.skillDifficulties.forEach((row) => {
+    const skillLabel = document.createElement("span");
+    skillLabel.className = "skill-difficulty-skill";
+    skillLabel.textContent = getLocalizedSkillName(row.skillId);
+    matrixGrid.appendChild(skillLabel);
+    row.difficulties.forEach((entry) => {
+      const cell = document.createElement("span");
+      cell.className = "skill-difficulty-cell";
+      if (entry.count) {
+        const score = document.createElement("strong");
+        score.textContent = entry.average.toFixed(1);
+        const count = document.createElement("small");
+        count.textContent = formatChartTemplate(strings.selfChartCellCount ?? "n={count}", { count: entry.count });
+        cell.append(score, count);
+      } else {
+        cell.classList.add("is-empty");
+        cell.textContent = "-";
+      }
+      matrixGrid.appendChild(cell);
+    });
+  });
+  matrix.appendChild(matrixGrid);
+
+  elements.selfChart.append(svg, difficultyList, matrix);
 }
 
 async function loadSelfRatings({ force = false } = {}) {
@@ -1098,14 +1258,20 @@ async function loadSelfRatings({ force = false } = {}) {
 }
 
 function setAuthStatus(message) {
-  if (!elements.authStatus) return;
-  elements.authStatus.textContent = message ?? "";
+  const text = message ?? "";
+  if (elements.authStatus) {
+    elements.authStatus.textContent = text;
+  }
+  if (elements.therapistStatus) {
+    elements.therapistStatus.textContent = text;
+  }
 }
 
 function showAccountPanel() {
   if (!elements.accountOverlay) return;
   elements.accountOverlay.hidden = false;
   elements.accountOverlay.classList.remove("is-hidden");
+  hideTherapistPanel();
   renderAuthUI();
   loadSelfRatings().catch(() => {});
   if (!state.authUser && elements.authEmail) {
@@ -1119,17 +1285,45 @@ function hideAccountPanel() {
   elements.accountOverlay.classList.add("is-hidden");
 }
 
+function showTherapistPanel() {
+  if (!elements.therapistOverlay) return;
+  elements.therapistOverlay.hidden = false;
+  elements.therapistOverlay.classList.remove("is-hidden");
+  hideAccountPanel();
+  renderAuthUI();
+  if (state.authUser && elements.activeTargetSelect) {
+    elements.activeTargetSelect.focus();
+  }
+}
+
+function hideTherapistPanel() {
+  if (!elements.therapistOverlay) return;
+  elements.therapistOverlay.hidden = true;
+  elements.therapistOverlay.classList.add("is-hidden");
+}
+
+function handleAccountPillClick() {
+  if (accountButtonOpensTherapistPanel()) {
+    showTherapistPanel();
+    return;
+  }
+  showAccountPanel();
+}
+
 function renderAuthUI() {
   const strings = getUIStrings();
   const signedIn = Boolean(state.authUser);
   const configured = isSupabaseReady();
 
   if (elements.accountButton) {
+    const opensTherapistPanel = accountButtonOpensTherapistPanel();
     elements.accountButton.textContent = signedIn
       ? getHeaderAccountLabel()
       : strings.signInButton ?? "Sign in";
     elements.accountButton.title = signedIn
-      ? `${strings.profileLabel ?? "Signed in as"} ${getSignedInEmail()}`
+      ? opensTherapistPanel
+        ? strings.activeTherapistHint ?? "Ratings save to the selected therapist."
+        : `${strings.profileLabel ?? "Signed in as"} ${getSignedInEmail()}`
       : strings.signInButton ?? "Sign in";
   }
   if (elements.activeTargetButton) {
@@ -1153,13 +1347,33 @@ function renderAuthUI() {
     elements.authSignedIn.hidden = !signedIn;
     elements.authSignedIn.classList.toggle("is-hidden", !signedIn);
   }
+  if (elements.therapistSignedOut) {
+    elements.therapistSignedOut.hidden = signedIn;
+    elements.therapistSignedOut.classList.toggle("is-hidden", signedIn);
+  }
+  if (elements.therapistSignedIn) {
+    elements.therapistSignedIn.hidden = !signedIn;
+    elements.therapistSignedIn.classList.toggle("is-hidden", !signedIn);
+  }
 
   if (elements.accountEyebrow) {
     elements.accountEyebrow.textContent = strings.accountEyebrow ?? "Practice account";
   }
   if (elements.accountHeading) {
     elements.accountHeading.textContent =
-      strings.accountHeading ?? "Save ratings to the right therapist";
+      strings.accountHeading ?? "Account";
+  }
+  if (elements.therapistEyebrow) {
+    elements.therapistEyebrow.textContent = strings.therapistEyebrow ?? "Active therapist";
+  }
+  if (elements.therapistHeading) {
+    elements.therapistHeading.textContent =
+      strings.therapistHeading ?? "Choose who is practicing";
+  }
+  if (elements.therapistSignedOutMessage) {
+    elements.therapistSignedOutMessage.textContent =
+      strings.therapistSignedOutMessage ??
+      "Sign in from Account to choose an active therapist or pair with a partner.";
   }
   renderAccessUI();
   if (elements.authIntro) {
@@ -1196,6 +1410,7 @@ function renderAuthUI() {
   if (elements.profileSubmit) {
     elements.profileSubmit.textContent = strings.profileSave ?? "Save";
   }
+  renderProfilePlacement();
   if (elements.activeTargetLabel) {
     elements.activeTargetLabel.textContent = strings.activeTherapistLabel ?? "Active therapist";
   }
@@ -1239,7 +1454,9 @@ function renderAuthUI() {
   renderSelfRatingsChart();
   updateRatingPanel();
 
-  if (!configured && elements.accountOverlay && !elements.accountOverlay.hidden) {
+  const accountPanelOpen = elements.accountOverlay && !elements.accountOverlay.hidden;
+  const therapistPanelOpen = elements.therapistOverlay && !elements.therapistOverlay.hidden;
+  if (!configured && (accountPanelOpen || therapistPanelOpen)) {
     setAuthStatus(strings.authConfigMissing ?? "Supabase Auth is not configured.");
   }
 }
@@ -1401,6 +1618,9 @@ async function handleProfileSubmit(event) {
   const displayName = elements.profileDisplayName?.value ?? "";
   try {
     state.authProfile = await updateUserProfile({ displayName });
+    if (displayName.trim()) {
+      saveProfileNameConfirmed();
+    }
     await refreshPracticeTargets();
     renderAuthUI();
     setAuthStatus(strings.profileSaved ?? "Profile saved.");
@@ -3253,10 +3473,10 @@ function handleBackNavigation(targetKey) {
 
 function registerEventListeners() {
   if (elements.accountButton) {
-    elements.accountButton.addEventListener("click", showAccountPanel);
+    elements.accountButton.addEventListener("click", handleAccountPillClick);
   }
   if (elements.activeTargetButton) {
-    elements.activeTargetButton.addEventListener("click", showAccountPanel);
+    elements.activeTargetButton.addEventListener("click", showTherapistPanel);
   }
   if (elements.closeAccountButton) {
     elements.closeAccountButton.addEventListener("click", hideAccountPanel);
@@ -3265,6 +3485,16 @@ function registerEventListeners() {
     elements.accountOverlay.addEventListener("click", (event) => {
       if (event.target === elements.accountOverlay) {
         hideAccountPanel();
+      }
+    });
+  }
+  if (elements.closeTherapistButton) {
+    elements.closeTherapistButton.addEventListener("click", hideTherapistPanel);
+  }
+  if (elements.therapistOverlay) {
+    elements.therapistOverlay.addEventListener("click", (event) => {
+      if (event.target === elements.therapistOverlay) {
+        hideTherapistPanel();
       }
     });
   }
