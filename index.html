@@ -13,10 +13,18 @@
   <body>
     <div class="locked-banner is-hidden" id="locked-banner">Unlock the full library with your access code.</div>
     <header class="app-header">
-      <h1 id="app-title">Deliberate Practice Lab</h1>
-      <p class="app-tagline" id="app-tagline">
-        Build precision with focused skills, tailored cases, and adaptive difficulty.
-      </p>
+      <div class="app-header-inner">
+        <div class="app-heading">
+          <h1 id="app-title">Deliberate Practice Lab</h1>
+          <p class="app-tagline" id="app-tagline">
+            Build precision with focused skills, tailored cases, and adaptive difficulty.
+          </p>
+        </div>
+        <div class="account-controls">
+          <button type="button" class="header-pill" id="account-button">Sign in</button>
+          <button type="button" class="header-pill header-target-pill" id="active-target-button" hidden>For: Me</button>
+        </div>
+      </div>
     </header>
     <main class="app-main" aria-live="polite">
       <section id="language-selection" class="panel">
@@ -24,6 +32,16 @@
         <p class="panel-subtitle" id="language-panel-description">
           Select the language you want to practice in.
         </p>
+        <div class="resume-card is-hidden" id="resume-card" hidden>
+          <div class="resume-copy">
+            <span class="resume-eyebrow" id="resume-title">Resume practice</span>
+            <p id="resume-details"></p>
+          </div>
+          <div class="resume-actions">
+            <button type="button" class="primary-button primary-button--small" id="resume-button">Resume</button>
+            <button type="button" class="ghost-button ghost-button--small" id="resume-clear">Clear</button>
+          </div>
+        </div>
         <div
           class="grid-list"
           id="language-list"
@@ -277,6 +295,144 @@
           <p id="unlock-status" class="form-status"></p>
         </form>
         <button class="ghost-button" id="close-paywall">Close</button>
+      </div>
+    </div>
+
+    <div class="rating-overlay is-hidden" id="rating-overlay" hidden>
+      <section class="rating-panel" id="rating-panel" role="dialog" aria-modal="true" aria-labelledby="rating-title">
+        <div class="rating-header">
+          <div>
+            <span class="rating-eyebrow" id="rating-eyebrow">Finish round</span>
+            <h4 id="rating-title">How well did you master this round?</h4>
+            <p id="rating-description" hidden></p>
+          </div>
+          <span class="rating-target" id="rating-target">Saving for: Me</span>
+        </div>
+        <p class="rating-summary" id="rating-summary"></p>
+        <div class="rating-scale">
+          <div class="rating-score-options" id="rating-score-options" aria-label="Round score">
+            <button type="button" data-rating-score="1">1</button>
+            <button type="button" data-rating-score="2">2</button>
+            <button type="button" data-rating-score="3">3</button>
+            <button type="button" data-rating-score="4">4</button>
+            <button type="button" data-rating-score="5">5</button>
+          </div>
+          <div class="rating-scale-guide" id="rating-score-guide">
+            1 = Not yet mastered · 5 = Mastered confidently
+          </div>
+        </div>
+        <div class="rating-actions">
+          <button type="button" class="primary-button primary-button--small" id="rating-submit">Save round</button>
+          <button type="button" class="ghost-button ghost-button--small" id="rating-skip">Finish without rating</button>
+        </div>
+        <p id="rating-status" class="form-status"></p>
+      </section>
+    </div>
+
+    <div class="account-overlay is-hidden" id="account-overlay" hidden>
+      <div class="account-modal" role="dialog" aria-modal="true" aria-labelledby="account-heading">
+        <div class="account-modal-header">
+          <div>
+            <span class="account-eyebrow" id="account-eyebrow">Practice account</span>
+            <h3 id="account-heading">Save ratings to the right therapist</h3>
+          </div>
+          <button type="button" class="glossary-close" id="close-account" aria-label="Close account panel">×</button>
+        </div>
+
+        <section class="account-section-block access-section" id="access-section">
+          <div>
+            <h4 id="access-title">Library access</h4>
+            <p class="account-value" id="access-status">Free access</p>
+          </div>
+          <form id="account-unlock-form">
+            <label class="form-label" for="account-unlock-code" id="account-unlock-label">Access code</label>
+            <div class="inline-form-row">
+              <input id="account-unlock-code" name="accessCode" type="text" autocomplete="one-time-code" placeholder="Enter code" />
+              <button type="submit" class="ghost-button ghost-button--small" id="account-unlock-submit">Unlock</button>
+            </div>
+            <p id="account-unlock-status" class="form-status"></p>
+          </form>
+        </section>
+
+        <section class="account-section" id="auth-signed-out">
+          <p id="auth-intro">
+            Sign in only when you want to save ratings, pair with a practice partner, or prepare data for charts.
+          </p>
+          <form id="auth-signin-form">
+            <label class="form-label" for="auth-email" id="auth-email-label">Email</label>
+            <input id="auth-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" />
+            <button type="submit" class="primary-button" id="auth-submit">Send magic link</button>
+          </form>
+        </section>
+
+        <section class="account-section is-hidden" id="auth-signed-in" hidden>
+          <div class="account-row">
+            <div>
+              <span class="account-label" id="profile-label">Signed in as</span>
+              <p class="account-value" id="account-email"></p>
+            </div>
+            <button type="button" class="ghost-button ghost-button--small" id="auth-signout">Sign out</button>
+          </div>
+
+          <form id="profile-form" class="profile-form">
+            <label class="form-label" for="profile-display-name" id="profile-display-label">Display name</label>
+            <div class="inline-form-row">
+              <input id="profile-display-name" name="displayName" type="text" autocomplete="name" />
+              <button type="submit" class="ghost-button ghost-button--small" id="profile-submit">Save</button>
+            </div>
+          </form>
+
+          <div class="account-section-block">
+            <label class="form-label" for="active-target-select" id="active-target-label">Active therapist</label>
+            <select id="active-target-select"></select>
+            <p class="response-hint" id="active-target-hint">Ratings save to the selected therapist.</p>
+          </div>
+
+          <div class="account-section-block chart-section">
+            <div class="chart-header">
+              <div>
+                <h4 id="self-chart-title">Your progress</h4>
+                <p id="self-chart-description">Self-ratings only.</p>
+              </div>
+              <button type="button" class="ghost-button ghost-button--small" id="self-chart-refresh">Refresh</button>
+            </div>
+            <div id="self-chart-status" class="response-hint"></div>
+            <div id="self-chart" class="self-chart"></div>
+          </div>
+
+          <div class="account-section-block">
+            <div class="pairing-header">
+              <div>
+                <h4 id="pairing-create-title">Invite a partner</h4>
+                <p id="pairing-create-description">Create a short code on the therapist device. The partner accepts it on their device.</p>
+              </div>
+              <button type="button" class="ghost-button ghost-button--small" id="pairing-create-button">Create code</button>
+            </div>
+            <div class="pairing-code-card is-hidden" id="pairing-code-card" hidden>
+              <span class="pairing-code" id="pairing-code"></span>
+              <p id="pairing-expiry"></p>
+              <div class="pairing-code-actions">
+                <button type="button" class="ghost-button ghost-button--small" id="pairing-copy">Copy</button>
+                <button type="button" class="ghost-button ghost-button--small" id="pairing-share">Share</button>
+              </div>
+            </div>
+          </div>
+
+          <form id="pairing-accept-form" class="account-section-block">
+            <label class="form-label" for="pairing-code-input" id="pairing-accept-label">Accept partner code</label>
+            <div class="inline-form-row">
+              <input id="pairing-code-input" name="pairingCode" type="text" autocomplete="one-time-code" placeholder="ABCD1234" />
+              <button type="submit" class="ghost-button ghost-button--small" id="pairing-accept-submit">Accept</button>
+            </div>
+          </form>
+
+          <div class="account-section-block">
+            <h4 id="partners-title">Paired therapists</h4>
+            <div id="partner-list" class="partner-list"></div>
+          </div>
+        </section>
+
+        <p id="auth-status" class="form-status"></p>
       </div>
     </div>
 

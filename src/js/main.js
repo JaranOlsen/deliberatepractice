@@ -20,7 +20,19 @@ import {
   redeemAccessCode,
   isSupabaseReady,
   isAccessExpired,
-  logAccessCodeAttempt
+  logAccessCodeAttempt,
+  getAuthSession,
+  onAuthStateChange,
+  signInWithMagicLink,
+  signOut,
+  ensureUserProfile,
+  updateUserProfile,
+  listPracticeTargets,
+  createPairingInvite,
+  acceptPairingInvite,
+  revokePracticePartnership,
+  submitPracticeRating,
+  listSelfPracticeRatings
 } from "./backend.js";
 
 const sections = {
@@ -38,8 +50,15 @@ const BUILD_REF = typeof __BUILD_REF__ === "string" ? __BUILD_REF__ : "";
 const elements = {
   appTitle: document.getElementById("app-title"),
   appTagline: document.getElementById("app-tagline"),
+  accountButton: document.getElementById("account-button"),
+  activeTargetButton: document.getElementById("active-target-button"),
   languagePanelTitle: document.getElementById("language-panel-title"),
   languagePanelDescription: document.getElementById("language-panel-description"),
+  resumeCard: document.getElementById("resume-card"),
+  resumeTitle: document.getElementById("resume-title"),
+  resumeDetails: document.getElementById("resume-details"),
+  resumeButton: document.getElementById("resume-button"),
+  resumeClear: document.getElementById("resume-clear"),
   languageList: document.getElementById("language-list"),
   skillPanelTitle: document.getElementById("skill-panel-title"),
   skillPanelDescription: document.getElementById("skill-panel-description"),
@@ -114,6 +133,18 @@ const elements = {
   suggestionPanel: document.querySelector(".suggestion-panel"),
   suggestionToggle: document.getElementById("toggle-suggestion"),
   suggestionText: document.getElementById("suggestion-text"),
+  ratingOverlay: document.getElementById("rating-overlay"),
+  ratingPanel: document.getElementById("rating-panel"),
+  ratingEyebrow: document.getElementById("rating-eyebrow"),
+  ratingTitle: document.getElementById("rating-title"),
+  ratingDescription: document.getElementById("rating-description"),
+  ratingSummary: document.getElementById("rating-summary"),
+  ratingTarget: document.getElementById("rating-target"),
+  ratingScoreOptions: document.getElementById("rating-score-options"),
+  ratingScoreGuide: document.getElementById("rating-score-guide"),
+  ratingSubmit: document.getElementById("rating-submit"),
+  ratingSkip: document.getElementById("rating-skip"),
+  ratingStatus: document.getElementById("rating-status"),
   feedbackTitle: document.getElementById("feedback-title"),
   feedbackForm: document.getElementById("feedback-form"),
   feedbackReason: document.getElementById("feedback-reason"),
@@ -131,7 +162,56 @@ const elements = {
   unlockCodeInput: document.getElementById("unlock-code"),
   unlockStatus: document.getElementById("unlock-status"),
   unlockSubmit: document.getElementById("unlock-submit"),
-  closePaywallButton: document.getElementById("close-paywall")
+  closePaywallButton: document.getElementById("close-paywall"),
+  accountOverlay: document.getElementById("account-overlay"),
+  closeAccountButton: document.getElementById("close-account"),
+  accountEyebrow: document.getElementById("account-eyebrow"),
+  accountHeading: document.getElementById("account-heading"),
+  accessSection: document.getElementById("access-section"),
+  accessTitle: document.getElementById("access-title"),
+  accessStatus: document.getElementById("access-status"),
+  accountUnlockForm: document.getElementById("account-unlock-form"),
+  accountUnlockLabel: document.getElementById("account-unlock-label"),
+  accountUnlockCode: document.getElementById("account-unlock-code"),
+  accountUnlockSubmit: document.getElementById("account-unlock-submit"),
+  accountUnlockStatus: document.getElementById("account-unlock-status"),
+  authSignedOut: document.getElementById("auth-signed-out"),
+  authSignedIn: document.getElementById("auth-signed-in"),
+  authIntro: document.getElementById("auth-intro"),
+  authSigninForm: document.getElementById("auth-signin-form"),
+  authEmail: document.getElementById("auth-email"),
+  authEmailLabel: document.getElementById("auth-email-label"),
+  authSubmit: document.getElementById("auth-submit"),
+  authStatus: document.getElementById("auth-status"),
+  accountEmail: document.getElementById("account-email"),
+  profileLabel: document.getElementById("profile-label"),
+  profileForm: document.getElementById("profile-form"),
+  profileDisplayName: document.getElementById("profile-display-name"),
+  profileDisplayLabel: document.getElementById("profile-display-label"),
+  profileSubmit: document.getElementById("profile-submit"),
+  activeTargetLabel: document.getElementById("active-target-label"),
+  activeTargetSelect: document.getElementById("active-target-select"),
+  activeTargetHint: document.getElementById("active-target-hint"),
+  selfChartTitle: document.getElementById("self-chart-title"),
+  selfChartDescription: document.getElementById("self-chart-description"),
+  selfChartRefresh: document.getElementById("self-chart-refresh"),
+  selfChartStatus: document.getElementById("self-chart-status"),
+  selfChart: document.getElementById("self-chart"),
+  pairingCreateTitle: document.getElementById("pairing-create-title"),
+  pairingCreateDescription: document.getElementById("pairing-create-description"),
+  pairingCreateButton: document.getElementById("pairing-create-button"),
+  pairingCodeCard: document.getElementById("pairing-code-card"),
+  pairingCode: document.getElementById("pairing-code"),
+  pairingExpiry: document.getElementById("pairing-expiry"),
+  pairingCopy: document.getElementById("pairing-copy"),
+  pairingShare: document.getElementById("pairing-share"),
+  pairingAcceptForm: document.getElementById("pairing-accept-form"),
+  pairingAcceptLabel: document.getElementById("pairing-accept-label"),
+  pairingCodeInput: document.getElementById("pairing-code-input"),
+  pairingAcceptSubmit: document.getElementById("pairing-accept-submit"),
+  partnersTitle: document.getElementById("partners-title"),
+  partnerList: document.getElementById("partner-list"),
+  authSignout: document.getElementById("auth-signout")
 };
 
 const state = {
@@ -139,6 +219,7 @@ const state = {
   skillId: null,
   caseId: null,
   order: [],
+  orderShuffled: false,
   index: 0,
   suggestionVisible: false,
   view: "brief",
@@ -148,7 +229,26 @@ const state = {
   unlocking: false,
   feedbackCollapsed: true,
   skillContextExpanded: false,
-  activeGlossaryTermId: null
+  activeGlossaryTermId: null,
+  completedStatementIds: new Set(),
+  resumeSession: null,
+  ratingScore: null,
+  ratingSaving: false,
+  ratingVisible: false,
+  ratingCompletedStatementIds: [],
+  ratingSaved: false,
+  authConfigured: false,
+  authSession: null,
+  authUser: null,
+  authProfile: null,
+  authTargets: [],
+  activeTargetId: null,
+  authLoading: false,
+  selfRatings: [],
+  selfRatingsLoading: false,
+  selfRatingsLoaded: false,
+  selfRatingsError: "",
+  latestPairingCode: null
 };
 
 const SHUFFLE_ICON_SRC = `${import.meta.env.BASE_URL}assets/icons/shuffle.svg`;
@@ -159,63 +259,66 @@ const caseButtonMap = new Map();
 let activeGlossaryChip = null;
 
 const ACCESS_STORAGE_KEY = "dp_access_level";
+const PRACTICE_SESSION_STORAGE_KEY = "dp_practice_session_v1";
+const ACTIVE_TARGET_STORAGE_KEY = "dp_active_therapist_target_v1";
+const PRACTICE_SESSION_VERSION = 1;
 
 const DEFAULT_VISUAL = {
-  accent: "#47756f",
+  accent: "#2f6f73",
   icon: "target"
 };
 
 const SKILL_VISUALS = {
   "therapist-self-awareness": {
-    accent: "#47756f",
+    accent: "#2f6f73",
     icon: "target"
   },
   "empathic-understanding": {
-    accent: "#4a7184",
+    accent: "#2f6f9f",
     icon: "dialogue"
   },
   "empathic-affirmation-validation": {
-    accent: "#587a5e",
+    accent: "#3f7f4d",
     icon: "check"
   },
   "exploratory-questions": {
-    accent: "#516c8f",
+    accent: "#4f63a8",
     icon: "search"
   },
   "providing-treatment-rationale": {
-    accent: "#78734f",
+    accent: "#8a7630",
     icon: "map"
   },
   "empathic-explorations": {
-    accent: "#6d6386",
+    accent: "#6f56a6",
     icon: "path"
   },
   "empathic-evocations": {
-    accent: "#836057",
+    accent: "#9a594a",
     icon: "spark"
   },
   "empathic-conjectures": {
-    accent: "#785d80",
+    accent: "#7a4d8f",
     icon: "thought"
   },
   "staying-in-contact-intense-affect": {
-    accent: "#806957",
+    accent: "#9a6b32",
     icon: "anchor"
   },
   "self-disclosure": {
-    accent: "#856373",
+    accent: "#9b4f6f",
     icon: "heartBubble"
   },
   "marker-recognition-chairwork": {
-    accent: "#5f688d",
+    accent: "#4e61a6",
     icon: "chairs"
   },
   "alliance-repair": {
-    accent: "#5b7859",
+    accent: "#4e803e",
     icon: "link"
   },
   "empathic-refocusing": {
-    accent: "#676f7d",
+    accent: "#5e6877",
     icon: "return"
   }
 };
@@ -231,24 +334,24 @@ const BASE_VISUAL_PROFILE = {
 const DIFFICULTY_VISUAL_PROFILES = {
   easy: {
     accentMixColor: "#ffffff",
-    accentMixRatio: 0.18,
-    softWhiteRatio: 0.82,
-    faintWhiteRatio: 0.96,
-    strongDarkRatio: 0.18
+    accentMixRatio: 0.28,
+    softWhiteRatio: 0.85,
+    faintWhiteRatio: 0.965,
+    strongDarkRatio: 0.16
   },
   moderate: {
     accentMixColor: "#ffffff",
-    accentMixRatio: 0,
-    softWhiteRatio: 0.7,
+    accentMixRatio: 0.04,
+    softWhiteRatio: 0.72,
     faintWhiteRatio: 0.91,
     strongDarkRatio: 0.3
   },
   hard: {
     accentMixColor: "#111827",
-    accentMixRatio: 0.16,
-    softWhiteRatio: 0.6,
-    faintWhiteRatio: 0.86,
-    strongDarkRatio: 0.42
+    accentMixRatio: 0.24,
+    softWhiteRatio: 0.56,
+    faintWhiteRatio: 0.84,
+    strongDarkRatio: 0.46
   }
 };
 
@@ -304,6 +407,23 @@ function buildVisual(baseVisual, profile = BASE_VISUAL_PROFILE) {
 
 function getSkillVisual(skillId) {
   return buildVisual(SKILL_VISUALS[skillId] ?? DEFAULT_VISUAL);
+}
+
+function getSkillFocusVisual(skillId) {
+  const source = SKILL_VISUALS[skillId] ?? DEFAULT_VISUAL;
+  return buildVisual(
+    {
+      ...source,
+      accent: mixHexColors(source.accent ?? DEFAULT_VISUAL.accent, "#5b4ac8", 0.24)
+    },
+    {
+      accentMixColor: "#ffffff",
+      accentMixRatio: 0.03,
+      softWhiteRatio: 0.84,
+      faintWhiteRatio: 0.955,
+      strongDarkRatio: 0.3
+    }
+  );
 }
 
 function getCaseVisual(skillId, difficulty) {
@@ -455,10 +575,187 @@ function saveAccessLevel(level, expiresAt = null) {
     // ignore storage errors
   }
   updateLockedBanner();
+  renderAccessUI();
 }
 
 function hasProAccess() {
   return (state.accessLevel === "pro" || state.accessLevel === "all") && !isAccessExpired(state.accessExpiresAt);
+}
+
+function readJsonStorage(key) {
+  try {
+    const stored = localStorage.getItem(key);
+    return stored ? JSON.parse(stored) : null;
+  } catch (err) {
+    return null;
+  }
+}
+
+function writeJsonStorage(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+  } catch (err) {
+    // ignore storage errors
+  }
+}
+
+function removeStorageItem(key) {
+  try {
+    localStorage.removeItem(key);
+  } catch (err) {
+    // ignore storage errors
+  }
+}
+
+function normalizeSavedSession(raw) {
+  if (!raw || raw.version !== PRACTICE_SESSION_VERSION) return null;
+  const languageId = LANGUAGE_METADATA[raw.languageId] ? raw.languageId : null;
+  if (!languageId) return null;
+  return {
+    version: PRACTICE_SESSION_VERSION,
+    languageId,
+    skillId: typeof raw.skillId === "string" ? raw.skillId : null,
+    caseId: typeof raw.caseId === "string" ? raw.caseId : null,
+    orderShuffled: raw.orderShuffled === true,
+    orderIds: Array.isArray(raw.orderIds) ? raw.orderIds.filter((id) => typeof id === "string") : [],
+    index: Number.isInteger(raw.index) && raw.index >= 0 ? raw.index : 0,
+    view: raw.view === "statements" ? "statements" : "brief",
+    completedStatementIds: Array.isArray(raw.completedStatementIds)
+      ? raw.completedStatementIds.filter((id) => typeof id === "string")
+      : [],
+    updatedAt: typeof raw.updatedAt === "string" ? raw.updatedAt : null
+  };
+}
+
+function loadPracticeSession() {
+  return normalizeSavedSession(readJsonStorage(PRACTICE_SESSION_STORAGE_KEY));
+}
+
+function createPracticeSessionSnapshot() {
+  if (!state.languageId) return null;
+  return {
+    version: PRACTICE_SESSION_VERSION,
+    languageId: state.languageId,
+    skillId: state.skillId,
+    caseId: state.caseId,
+    orderShuffled: state.orderShuffled === true,
+    orderIds: Array.isArray(state.order) ? state.order.map((entry) => entry?.id).filter(Boolean) : [],
+    index: Number.isInteger(state.index) ? state.index : 0,
+    view: state.view === "statements" ? "statements" : "brief",
+    completedStatementIds: Array.from(state.completedStatementIds ?? []),
+    updatedAt: new Date().toISOString()
+  };
+}
+
+function savePracticeSession() {
+  const snapshot = createPracticeSessionSnapshot();
+  if (!snapshot) return;
+  writeJsonStorage(PRACTICE_SESSION_STORAGE_KEY, snapshot);
+  state.resumeSession = snapshot;
+  renderResumeCard();
+}
+
+function clearPracticeSession() {
+  removeStorageItem(PRACTICE_SESSION_STORAGE_KEY);
+  state.resumeSession = null;
+  renderResumeCard();
+}
+
+function getSessionResumeDetails(session) {
+  if (!session?.skillId || !session.caseId) return null;
+  const skill = localizeSkill(session.languageId, session.skillId);
+  const caseData = skill?.cases.find((caseItem) => caseItem.id === session.caseId);
+  if (!skill || !caseData) return null;
+  const total = caseData.statements?.length ?? 0;
+  const current = Math.min(Math.max(session.index + 1, 1), Math.max(total, 1));
+  const completedCount = new Set(session.completedStatementIds ?? []).size;
+  return {
+    skillName: skill.name,
+    caseLabel: caseData.label,
+    counter: total > 0 ? formatCounter(current, total) : "",
+    completedCount
+  };
+}
+
+function renderResumeCard() {
+  if (!elements.resumeCard || !elements.resumeDetails) return;
+  const session = state.resumeSession;
+  const details = getSessionResumeDetails(session);
+  const visible = Boolean(details);
+  elements.resumeCard.hidden = !visible;
+  elements.resumeCard.classList.toggle("is-hidden", !visible);
+  if (!visible) {
+    elements.resumeDetails.textContent = "";
+    return;
+  }
+  const strings = getUIStrings(session.languageId);
+  if (elements.resumeTitle) {
+    elements.resumeTitle.textContent = strings.resumeTitle ?? "Resume practice";
+  }
+  if (elements.resumeButton) {
+    elements.resumeButton.textContent = strings.resumeButton ?? "Resume";
+  }
+  if (elements.resumeClear) {
+    elements.resumeClear.textContent = strings.resumeClear ?? "Clear";
+  }
+  const completed = details.completedCount > 0
+    ? ` · ${details.completedCount} ${strings.completedShort ?? "done"}`
+    : "";
+  elements.resumeDetails.textContent =
+    `${details.skillName} · ${details.caseLabel} · ${details.counter}${completed}`;
+}
+
+function restoreOrderFromSession(session, caseData) {
+  const statements = caseData?.statements ?? [];
+  if (!statements.length) return [];
+  if (!session?.orderShuffled) {
+    return [...statements];
+  }
+  const byId = new Map(statements.map((entry) => [entry.id, entry]));
+  const restored = (session.orderIds ?? []).map((id) => byId.get(id)).filter(Boolean);
+  if (restored.length === statements.length) {
+    return restored;
+  }
+  return [...statements];
+}
+
+function applyPracticeSession(session) {
+  const normalized = normalizeSavedSession(session);
+  if (!normalized?.skillId || !normalized.caseId) return;
+  const skill = localizeSkill(normalized.languageId, normalized.skillId);
+  const caseData = skill?.cases.find((caseItem) => caseItem.id === normalized.caseId);
+  if (!skill || !caseData) {
+    clearPracticeSession();
+    return;
+  }
+  state.languageId = normalized.languageId;
+  state.skillId = normalized.skillId;
+  state.caseId = normalized.caseId;
+  state.orderShuffled = normalized.orderShuffled === true;
+  state.order = restoreOrderFromSession(normalized, caseData);
+  state.index = Math.min(normalized.index, Math.max(state.order.length - 1, 0));
+  state.view = normalized.view;
+  state.currentStatement = null;
+  state.completedStatementIds = new Set(normalized.completedStatementIds ?? []);
+  state.ratingScore = null;
+  state.ratingVisible = false;
+  state.ratingCompletedStatementIds = [];
+  state.ratingSaved = false;
+
+  applyLanguageStrings(normalized.languageId);
+  highlightLanguageSelection(normalized.languageId);
+  renderSkillOptions();
+  highlightSkillSelection(normalized.skillId);
+  renderCaseOptions();
+  highlightCaseSelection(normalized.caseId);
+  hydratePracticeView();
+  showSection("practice");
+}
+
+function markCurrentStatementCompleted() {
+  const statementId = state.currentStatement?.id;
+  if (!statementId) return;
+  state.completedStatementIds.add(statementId);
 }
 
 function renderAppVersion() {
@@ -467,6 +764,761 @@ function renderAppVersion() {
   const refLabel = BUILD_REF || "local";
   elements.appVersion.textContent = `v${APP_VERSION} · ${refLabel} · content updated ${CONTENT_UPDATED_AT}`;
   elements.appVersion.title = `${buildLabel}; app package v${APP_VERSION}; commit ${refLabel}; content revision ${CONTENT_REVISION}; content updated ${CONTENT_UPDATED_AT}`;
+}
+
+function getActiveTargetStorageKey(userId) {
+  return `${ACTIVE_TARGET_STORAGE_KEY}:${userId}`;
+}
+
+function getTargetUserId(target) {
+  return target?.target_user_id ?? target?.targetUserId ?? null;
+}
+
+function getTargetKind(target) {
+  return target?.target_kind ?? target?.targetKind ?? "self";
+}
+
+function getTargetPartnershipId(target) {
+  return target?.partnership_id ?? target?.partnershipId ?? null;
+}
+
+function getTargetDisplayName(target) {
+  return target?.display_name ?? target?.displayName ?? "";
+}
+
+function normalizePracticeTarget(target) {
+  const targetUserId = getTargetUserId(target);
+  if (!targetUserId) return null;
+  return {
+    target_user_id: targetUserId,
+    display_name: getTargetDisplayName(target),
+    target_kind: getTargetKind(target),
+    partnership_id: getTargetPartnershipId(target)
+  };
+}
+
+function getSelfTarget() {
+  return state.authTargets.find((target) => getTargetKind(target) === "self") ?? null;
+}
+
+function getActiveTarget() {
+  if (!state.authUser) return null;
+  const active = state.authTargets.find((target) => getTargetUserId(target) === state.activeTargetId);
+  return active ?? getSelfTarget();
+}
+
+function saveActiveTargetId(targetId) {
+  if (!state.authUser?.id || !targetId) return;
+  writeJsonStorage(getActiveTargetStorageKey(state.authUser.id), { targetId });
+}
+
+function loadActiveTargetId(userId) {
+  const stored = readJsonStorage(getActiveTargetStorageKey(userId));
+  return typeof stored?.targetId === "string" ? stored.targetId : null;
+}
+
+function getSignedInEmail() {
+  return state.authUser?.email ?? "";
+}
+
+function getSignedInLabel() {
+  return state.authProfile?.display_name || getSignedInEmail() || "Account";
+}
+
+function getActiveTargetLabel() {
+  const target = getActiveTarget();
+  if (!target) return "";
+  const strings = getUIStrings();
+  const name = getTargetDisplayName(target) || strings.meLabel || "Me";
+  return `${strings.savingForPrefix ?? "Saving:"} ${name}`;
+}
+
+function getHeaderActiveTargetLabel() {
+  const target = getActiveTarget();
+  if (!target) return "";
+  const strings = getUIStrings();
+  const name = getTargetDisplayName(target) || strings.meLabel || "Me";
+  return `${strings.headerSavingForPrefix ?? "For:"} ${name}`;
+}
+
+function getHeaderAccountLabel() {
+  if (document.body.dataset.section !== "practice") {
+    const strings = getUIStrings();
+    return strings.accountButtonSignedIn ?? "Account";
+  }
+  return getHeaderActiveTargetLabel() || getSignedInLabel();
+}
+
+function formatAccessStatus() {
+  const strings = getUIStrings();
+  if (!hasProAccess()) {
+    return strings.accessStatusFree ?? "Free access";
+  }
+  if (state.accessExpiresAt) {
+    const expires = new Date(state.accessExpiresAt);
+    if (!Number.isNaN(expires.getTime())) {
+      const formatted = expires.toLocaleDateString(document.documentElement.lang || undefined, {
+        day: "numeric",
+        month: "short",
+        year: "numeric"
+      });
+      return (strings.accessStatusExpires ?? "Full library unlocked until {date}")
+        .replace("{date}", formatted);
+    }
+  }
+  return strings.accessStatusUnlocked ?? "Full library unlocked";
+}
+
+function renderAccessUI() {
+  const strings = getUIStrings();
+  const configured = isSupabaseReady();
+  if (elements.accessSection) {
+    const parent = elements.accessSection.parentElement;
+    if (parent && hasProAccess() && elements.authStatus) {
+      parent.insertBefore(elements.accessSection, elements.authStatus);
+    } else if (parent && elements.authSignedOut) {
+      parent.insertBefore(elements.accessSection, elements.authSignedOut);
+    }
+  }
+  if (elements.accessTitle) {
+    elements.accessTitle.textContent = strings.accessTitle ?? "Library access";
+  }
+  if (elements.accessStatus) {
+    elements.accessStatus.textContent = formatAccessStatus();
+  }
+  if (elements.accountUnlockLabel) {
+    elements.accountUnlockLabel.textContent = strings.unlockCodeLabel ?? "Access code";
+  }
+  if (elements.accountUnlockCode) {
+    elements.accountUnlockCode.placeholder = strings.unlockPlaceholder ?? "Enter code";
+    elements.accountUnlockCode.disabled = !configured || state.unlocking;
+  }
+  if (elements.accountUnlockSubmit) {
+    elements.accountUnlockSubmit.textContent = strings.unlockSubmit ?? "Unlock";
+    elements.accountUnlockSubmit.disabled = !configured || state.unlocking;
+  }
+}
+
+function formatChartTemplate(template, values = {}) {
+  return String(template ?? "").replace(/\{(\w+)\}/g, (_match, key) => values[key] ?? "");
+}
+
+function escapeMarkup(value) {
+  return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    "\"": "&quot;",
+    "'": "&#39;"
+  })[char]);
+}
+
+function getLocalizedSkillName(skillId) {
+  const languageId = state.languageId ?? "en";
+  return localizeSkill(languageId, skillId)?.name ?? skillId;
+}
+
+function summarizeRatings(ratings) {
+  const bySkill = new Map();
+  const byDifficulty = new Map();
+  (ratings ?? []).forEach((rating) => {
+    const score = Number(rating?.score);
+    if (!Number.isFinite(score)) return;
+    const skillId = rating.skill_id ?? "";
+    if (skillId) {
+      const skillSummary = bySkill.get(skillId) ?? { skillId, total: 0, count: 0 };
+      skillSummary.total += score;
+      skillSummary.count += 1;
+      bySkill.set(skillId, skillSummary);
+    }
+    const difficulty = rating.difficulty ?? "";
+    if (difficulty) {
+      const difficultySummary = byDifficulty.get(difficulty) ?? { difficulty, total: 0, count: 0 };
+      difficultySummary.total += score;
+      difficultySummary.count += 1;
+      byDifficulty.set(difficulty, difficultySummary);
+    }
+  });
+  return {
+    skills: SKILL_ORDER
+      .map((skillId) => bySkill.get(skillId) ?? { skillId, total: 0, count: 0 })
+      .map((entry) => ({
+        ...entry,
+        average: entry.count ? entry.total / entry.count : 0
+      })),
+    difficulties: ["easy", "moderate", "hard"]
+      .map((difficulty) => byDifficulty.get(difficulty) ?? { difficulty, total: 0, count: 0 })
+      .map((entry) => ({
+        ...entry,
+        average: entry.count ? entry.total / entry.count : 0
+      }))
+  };
+}
+
+function polarPoint(cx, cy, radius, index, total) {
+  const angle = -Math.PI / 2 + (Math.PI * 2 * index) / total;
+  return {
+    x: cx + Math.cos(angle) * radius,
+    y: cy + Math.sin(angle) * radius
+  };
+}
+
+function pointsToAttribute(points) {
+  return points.map((point) => `${point.x.toFixed(1)},${point.y.toFixed(1)}`).join(" ");
+}
+
+function renderSelfRatingsChart() {
+  const strings = getUIStrings();
+  if (elements.selfChartTitle) {
+    elements.selfChartTitle.textContent = strings.selfChartTitle ?? "Your progress";
+  }
+  if (elements.selfChartDescription) {
+    elements.selfChartDescription.textContent = strings.selfChartDescription ?? "Self-ratings only.";
+  }
+  if (elements.selfChartRefresh) {
+    elements.selfChartRefresh.textContent = strings.selfChartRefresh ?? "Refresh";
+    elements.selfChartRefresh.disabled = !state.authUser || state.selfRatingsLoading;
+  }
+  if (!elements.selfChart || !elements.selfChartStatus) return;
+
+  elements.selfChart.innerHTML = "";
+  if (!state.authUser) {
+    elements.selfChartStatus.textContent = strings.selfChartSignIn ?? "Sign in to see your self-rating chart.";
+    return;
+  }
+  if (state.selfRatingsLoading) {
+    elements.selfChartStatus.textContent = strings.selfChartLoading ?? "Loading chart...";
+    return;
+  }
+  if (state.selfRatingsError) {
+    elements.selfChartStatus.textContent = state.selfRatingsError;
+    return;
+  }
+  if (!state.selfRatingsLoaded) {
+    elements.selfChartStatus.textContent = strings.selfChartNotLoaded ?? "Open your account to load the chart.";
+    return;
+  }
+  if (!state.selfRatings.length) {
+    elements.selfChartStatus.textContent = strings.selfChartEmpty ?? "No self-ratings yet.";
+    return;
+  }
+
+  const summary = summarizeRatings(state.selfRatings);
+  const ratedSkills = summary.skills.filter((entry) => entry.count > 0);
+  const average = state.selfRatings.reduce((total, rating) => total + Number(rating.score ?? 0), 0) / state.selfRatings.length;
+  elements.selfChartStatus.textContent = [
+    formatChartTemplate(strings.selfChartAverage ?? "{score}/5 average", { score: average.toFixed(1) }),
+    formatChartTemplate(strings.selfChartCount ?? "{count} ratings", { count: state.selfRatings.length })
+  ].join(" · ");
+
+  if (!ratedSkills.length) return;
+
+  const size = 220;
+  const center = size / 2;
+  const maxRadius = 82;
+  const axisCount = ratedSkills.length;
+  const gridRadii = [0.2, 0.4, 0.6, 0.8, 1];
+  const grid = gridRadii.map((ratio) => {
+    const points = ratedSkills.map((_entry, index) => polarPoint(center, center, maxRadius * ratio, index, axisCount));
+    return `<polygon points="${pointsToAttribute(points)}" class="self-chart-grid-ring"></polygon>`;
+  }).join("");
+  const axes = ratedSkills.map((_entry, index) => {
+    const point = polarPoint(center, center, maxRadius, index, axisCount);
+    return `<line x1="${center}" y1="${center}" x2="${point.x.toFixed(1)}" y2="${point.y.toFixed(1)}" class="self-chart-axis"></line>`;
+  }).join("");
+  const valuePoints = ratedSkills.map((entry, index) => {
+    const ratio = Math.max(0, Math.min(1, entry.average / 5));
+    return polarPoint(center, center, maxRadius * ratio, index, axisCount);
+  });
+  const labels = ratedSkills.map((entry, index) => {
+    const point = polarPoint(center, center, maxRadius + 18, index, axisCount);
+    const label = getLocalizedSkillName(entry.skillId);
+    const shortLabel = label.length > 14 ? `${label.slice(0, 12)}...` : label;
+    return `<text x="${point.x.toFixed(1)}" y="${point.y.toFixed(1)}" class="self-chart-label">${escapeMarkup(shortLabel)}</text>`;
+  }).join("");
+  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  svg.setAttribute("viewBox", `0 0 ${size} ${size}`);
+  svg.setAttribute("role", "img");
+  svg.setAttribute(
+    "aria-label",
+    strings.selfChartAria ?? "Radial chart of self-rated practice progress by skill"
+  );
+  svg.innerHTML = `
+    ${grid}
+    ${axes}
+    <polygon points="${pointsToAttribute(valuePoints)}" class="self-chart-area"></polygon>
+    ${labels}
+  `;
+
+  const difficultyList = document.createElement("div");
+  difficultyList.className = "difficulty-chart";
+  const difficultyTitle = document.createElement("h5");
+  difficultyTitle.textContent = strings.selfChartDifficultyTitle ?? "By difficulty";
+  difficultyList.appendChild(difficultyTitle);
+  summary.difficulties.forEach((entry) => {
+    const row = document.createElement("div");
+    row.className = "difficulty-chart-row";
+    const label = document.createElement("span");
+    label.textContent = strings[`difficulty${entry.difficulty[0].toUpperCase()}${entry.difficulty.slice(1)}`] ?? entry.difficulty;
+    const track = document.createElement("span");
+    track.className = "difficulty-chart-track";
+    const fill = document.createElement("span");
+    fill.style.width = `${Math.max(0, Math.min(100, (entry.average / 5) * 100))}%`;
+    track.appendChild(fill);
+    const value = document.createElement("span");
+    value.textContent = entry.count ? entry.average.toFixed(1) : "-";
+    row.append(label, track, value);
+    difficultyList.appendChild(row);
+  });
+
+  elements.selfChart.append(svg, difficultyList);
+}
+
+async function loadSelfRatings({ force = false } = {}) {
+  if (!state.authUser || state.selfRatingsLoading) {
+    renderSelfRatingsChart();
+    return;
+  }
+  if (state.selfRatingsLoaded && !force) {
+    renderSelfRatingsChart();
+    return;
+  }
+  state.selfRatingsLoading = true;
+  state.selfRatingsError = "";
+  renderSelfRatingsChart();
+  try {
+    state.selfRatings = await listSelfPracticeRatings();
+    state.selfRatingsLoaded = true;
+  } catch (err) {
+    state.selfRatingsError = err?.message ?? getUIStrings().selfChartError ?? "Unable to load chart.";
+  } finally {
+    state.selfRatingsLoading = false;
+    renderSelfRatingsChart();
+  }
+}
+
+function setAuthStatus(message) {
+  if (!elements.authStatus) return;
+  elements.authStatus.textContent = message ?? "";
+}
+
+function showAccountPanel() {
+  if (!elements.accountOverlay) return;
+  elements.accountOverlay.hidden = false;
+  elements.accountOverlay.classList.remove("is-hidden");
+  renderAuthUI();
+  loadSelfRatings().catch(() => {});
+  if (!state.authUser && elements.authEmail) {
+    elements.authEmail.focus();
+  }
+}
+
+function hideAccountPanel() {
+  if (!elements.accountOverlay) return;
+  elements.accountOverlay.hidden = true;
+  elements.accountOverlay.classList.add("is-hidden");
+}
+
+function renderAuthUI() {
+  const strings = getUIStrings();
+  const signedIn = Boolean(state.authUser);
+  const configured = isSupabaseReady();
+
+  if (elements.accountButton) {
+    elements.accountButton.textContent = signedIn
+      ? getHeaderAccountLabel()
+      : strings.signInButton ?? "Sign in";
+    elements.accountButton.title = signedIn
+      ? `${strings.profileLabel ?? "Signed in as"} ${getSignedInEmail()}`
+      : strings.signInButton ?? "Sign in";
+  }
+  if (elements.activeTargetButton) {
+    const headerTargetLabel = getHeaderActiveTargetLabel();
+    const showSplitTarget = signedIn && document.body.dataset.section !== "practice" && Boolean(headerTargetLabel);
+    elements.activeTargetButton.hidden = !showSplitTarget;
+    elements.activeTargetButton.classList.toggle("is-hidden", !showSplitTarget);
+    elements.activeTargetButton.textContent = showSplitTarget
+      ? headerTargetLabel
+      : "";
+    elements.activeTargetButton.title = showSplitTarget
+      ? strings.activeTherapistHint ?? "Ratings save to the selected therapist."
+      : "";
+  }
+
+  if (elements.authSignedOut) {
+    elements.authSignedOut.hidden = signedIn;
+    elements.authSignedOut.classList.toggle("is-hidden", signedIn);
+  }
+  if (elements.authSignedIn) {
+    elements.authSignedIn.hidden = !signedIn;
+    elements.authSignedIn.classList.toggle("is-hidden", !signedIn);
+  }
+
+  if (elements.accountEyebrow) {
+    elements.accountEyebrow.textContent = strings.accountEyebrow ?? "Practice account";
+  }
+  if (elements.accountHeading) {
+    elements.accountHeading.textContent =
+      strings.accountHeading ?? "Save ratings to the right therapist";
+  }
+  renderAccessUI();
+  if (elements.authIntro) {
+    elements.authIntro.textContent =
+      strings.authIntro ??
+      "Sign in only when you want to save ratings, pair with a practice partner, or prepare data for charts.";
+  }
+  if (elements.authEmailLabel) {
+    elements.authEmailLabel.textContent = strings.authEmailLabel ?? "Email";
+  }
+  if (elements.authSubmit) {
+    elements.authSubmit.textContent = strings.authSubmit ?? "Send magic link";
+    elements.authSubmit.disabled = !configured || state.authLoading;
+  }
+  if (elements.authEmail) {
+    elements.authEmail.placeholder = strings.authEmailPlaceholder ?? "you@example.com";
+    elements.authEmail.disabled = !configured || state.authLoading;
+  }
+  if (elements.profileLabel) {
+    elements.profileLabel.textContent = strings.profileLabel ?? "Signed in as";
+  }
+  if (elements.accountEmail) {
+    elements.accountEmail.textContent = getSignedInEmail();
+  }
+  if (elements.authSignout) {
+    elements.authSignout.textContent = strings.signOutButton ?? "Sign out";
+  }
+  if (elements.profileDisplayLabel) {
+    elements.profileDisplayLabel.textContent = strings.profileDisplayLabel ?? "Display name";
+  }
+  if (elements.profileDisplayName && signedIn) {
+    elements.profileDisplayName.value = state.authProfile?.display_name ?? "";
+  }
+  if (elements.profileSubmit) {
+    elements.profileSubmit.textContent = strings.profileSave ?? "Save";
+  }
+  if (elements.activeTargetLabel) {
+    elements.activeTargetLabel.textContent = strings.activeTherapistLabel ?? "Active therapist";
+  }
+  if (elements.activeTargetHint) {
+    elements.activeTargetHint.textContent =
+      strings.activeTherapistHint ?? "Ratings save to the selected therapist.";
+  }
+  if (elements.pairingCreateTitle) {
+    elements.pairingCreateTitle.textContent = strings.pairingCreateTitle ?? "Invite a partner";
+  }
+  if (elements.pairingCreateDescription) {
+    elements.pairingCreateDescription.textContent =
+      strings.pairingCreateDescription ??
+      "Create a short code on the therapist device. The partner accepts it on their device.";
+  }
+  if (elements.pairingCreateButton) {
+    elements.pairingCreateButton.textContent = strings.pairingCreateButton ?? "Create code";
+    elements.pairingCreateButton.disabled = !signedIn || state.authLoading;
+  }
+  if (elements.pairingCopy) {
+    elements.pairingCopy.textContent = strings.copyButton ?? "Copy";
+  }
+  if (elements.pairingShare) {
+    elements.pairingShare.textContent = strings.shareButton ?? "Share";
+  }
+  if (elements.pairingAcceptLabel) {
+    elements.pairingAcceptLabel.textContent = strings.pairingAcceptLabel ?? "Accept partner code";
+  }
+  if (elements.pairingAcceptSubmit) {
+    elements.pairingAcceptSubmit.textContent = strings.pairingAcceptButton ?? "Accept";
+  }
+  if (elements.pairingCodeInput) {
+    elements.pairingCodeInput.placeholder = strings.pairingCodePlaceholder ?? "ABCD1234";
+  }
+  if (elements.partnersTitle) {
+    elements.partnersTitle.textContent = strings.partnersTitle ?? "Paired therapists";
+  }
+
+  renderActiveTargetSelect();
+  renderPartnerList();
+  renderSelfRatingsChart();
+  updateRatingPanel();
+
+  if (!configured && elements.accountOverlay && !elements.accountOverlay.hidden) {
+    setAuthStatus(strings.authConfigMissing ?? "Supabase Auth is not configured.");
+  }
+}
+
+function renderActiveTargetSelect() {
+  if (!elements.activeTargetSelect) return;
+  elements.activeTargetSelect.innerHTML = "";
+  const strings = getUIStrings();
+  state.authTargets.forEach((target) => {
+    const option = document.createElement("option");
+    option.value = getTargetUserId(target);
+    const kind = getTargetKind(target);
+    const name = getTargetDisplayName(target) || (kind === "self" ? strings.meLabel ?? "Me" : "Therapist");
+    option.textContent = name;
+    option.selected = option.value === state.activeTargetId;
+    elements.activeTargetSelect.appendChild(option);
+  });
+  elements.activeTargetSelect.disabled = state.authTargets.length === 0;
+}
+
+function renderPartnerList() {
+  if (!elements.partnerList) return;
+  const strings = getUIStrings();
+  const partners = state.authTargets.filter((target) => getTargetKind(target) === "observer");
+  elements.partnerList.innerHTML = "";
+  if (!partners.length) {
+    const empty = document.createElement("p");
+    empty.className = "response-hint";
+    empty.textContent = strings.noPartners ?? "No paired therapists yet.";
+    elements.partnerList.appendChild(empty);
+    return;
+  }
+  partners.forEach((target) => {
+    const row = document.createElement("div");
+    row.className = "partner-row";
+    const name = document.createElement("span");
+    name.textContent = getTargetDisplayName(target) || "Therapist";
+    const revoke = document.createElement("button");
+    revoke.type = "button";
+    revoke.className = "ghost-button ghost-button--small";
+    revoke.dataset.partnershipId = getTargetPartnershipId(target);
+    revoke.textContent = strings.revokePartner ?? "Revoke";
+    row.append(name, revoke);
+    elements.partnerList.appendChild(row);
+  });
+}
+
+function formatPairingCode(code) {
+  const normalized = String(code ?? "").replace(/[^A-Za-z0-9]/g, "").toUpperCase();
+  if (normalized.length <= 4) return normalized;
+  return `${normalized.slice(0, 4)} ${normalized.slice(4)}`;
+}
+
+function renderPairingInvite(invite) {
+  if (!elements.pairingCodeCard || !elements.pairingCode || !elements.pairingExpiry) return;
+  const visible = Boolean(invite?.code);
+  elements.pairingCodeCard.hidden = !visible;
+  elements.pairingCodeCard.classList.toggle("is-hidden", !visible);
+  if (!visible) {
+    elements.pairingCode.textContent = "";
+    elements.pairingExpiry.textContent = "";
+    return;
+  }
+  const strings = getUIStrings();
+  elements.pairingCode.textContent = formatPairingCode(invite.code);
+  const expiry = invite.expires_at ? new Date(invite.expires_at) : null;
+  elements.pairingExpiry.textContent = expiry && Number.isFinite(expiry.getTime())
+    ? `${strings.expiresPrefix ?? "Expires:"} ${expiry.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}`
+    : "";
+}
+
+async function refreshPracticeTargets() {
+  if (!state.authUser) {
+    state.authTargets = [];
+    state.activeTargetId = null;
+    return;
+  }
+  const targets = await listPracticeTargets();
+  state.authTargets = targets.map(normalizePracticeTarget).filter(Boolean);
+  const savedTargetId = loadActiveTargetId(state.authUser.id);
+  const fallbackTarget = getSelfTarget() ?? state.authTargets[0] ?? null;
+  const requestedTarget = state.authTargets.find((target) => getTargetUserId(target) === state.activeTargetId)
+    ?? state.authTargets.find((target) => getTargetUserId(target) === savedTargetId)
+    ?? fallbackTarget;
+  state.activeTargetId = getTargetUserId(requestedTarget);
+  if (state.activeTargetId) {
+    saveActiveTargetId(state.activeTargetId);
+  }
+}
+
+async function applyAuthSession(session) {
+  state.authSession = session ?? null;
+  state.authUser = session?.user ?? null;
+  state.authProfile = null;
+  state.authTargets = [];
+  state.activeTargetId = null;
+  state.selfRatings = [];
+  state.selfRatingsLoading = false;
+  state.selfRatingsLoaded = false;
+  state.selfRatingsError = "";
+
+  if (!state.authUser) {
+    renderAuthUI();
+    return;
+  }
+
+  try {
+    state.authProfile = await ensureUserProfile(null);
+    await refreshPracticeTargets();
+    renderAuthUI();
+  } catch (err) {
+    setAuthStatus(err?.message ?? "Unable to load account.");
+    renderAuthUI();
+  }
+}
+
+async function initializeAuth() {
+  state.authConfigured = isSupabaseReady();
+  renderAuthUI();
+  if (!state.authConfigured) return;
+  try {
+    const session = await getAuthSession();
+    await applyAuthSession(session);
+    onAuthStateChange((nextSession) => {
+      applyAuthSession(nextSession).catch((err) => {
+        setAuthStatus(err?.message ?? "Unable to update account.");
+      });
+    });
+  } catch (err) {
+    setAuthStatus(err?.message ?? "Unable to load account.");
+  }
+}
+
+async function handleMagicLinkSubmit(event) {
+  event.preventDefault();
+  const strings = getUIStrings();
+  const email = elements.authEmail?.value ?? "";
+  if (!email.trim()) {
+    setAuthStatus(strings.authEmailMissing ?? "Enter your email address.");
+    return;
+  }
+  state.authLoading = true;
+  renderAuthUI();
+  setAuthStatus(strings.authSending ?? "Sending magic link...");
+  try {
+    await signInWithMagicLink(email);
+    setAuthStatus(strings.authSent ?? "Check your email for the sign-in link.");
+  } catch (err) {
+    setAuthStatus(err?.message ?? strings.authError ?? "Unable to send sign-in link.");
+  } finally {
+    state.authLoading = false;
+    renderAuthUI();
+  }
+}
+
+async function handleProfileSubmit(event) {
+  event.preventDefault();
+  const strings = getUIStrings();
+  const displayName = elements.profileDisplayName?.value ?? "";
+  try {
+    state.authProfile = await updateUserProfile({ displayName });
+    await refreshPracticeTargets();
+    renderAuthUI();
+    setAuthStatus(strings.profileSaved ?? "Profile saved.");
+  } catch (err) {
+    setAuthStatus(err?.message ?? strings.profileError ?? "Unable to save profile.");
+  }
+}
+
+async function handleSignOut() {
+  const strings = getUIStrings();
+  try {
+    await signOut();
+    state.authSession = null;
+    state.authUser = null;
+    state.authProfile = null;
+    state.authTargets = [];
+    state.activeTargetId = null;
+    state.selfRatings = [];
+    state.selfRatingsLoaded = false;
+    state.selfRatingsError = "";
+    renderAuthUI();
+    setAuthStatus(strings.signedOut ?? "Signed out.");
+  } catch (err) {
+    setAuthStatus(err?.message ?? strings.authError ?? "Unable to sign out.");
+  }
+}
+
+async function handleCreatePairingInvite() {
+  const strings = getUIStrings();
+  state.authLoading = true;
+  renderAuthUI();
+  setAuthStatus(strings.pairingCreating ?? "Creating code...");
+  try {
+    const invite = await createPairingInvite();
+    state.latestPairingCode = invite;
+    renderPairingInvite(invite);
+    setAuthStatus(strings.pairingCreated ?? "Share this code with your practice partner.");
+  } catch (err) {
+    setAuthStatus(err?.message ?? strings.pairingCreateError ?? "Unable to create pairing code.");
+  } finally {
+    state.authLoading = false;
+    renderAuthUI();
+  }
+}
+
+async function handleAcceptPairingInvite(event) {
+  event.preventDefault();
+  const strings = getUIStrings();
+  const code = elements.pairingCodeInput?.value ?? "";
+  if (!code.trim()) {
+    setAuthStatus(strings.pairingCodeMissing ?? "Enter the pairing code.");
+    return;
+  }
+  setAuthStatus(strings.pairingAccepting ?? "Accepting code...");
+  try {
+    const accepted = await acceptPairingInvite(code);
+    await refreshPracticeTargets();
+    const targetId = getTargetUserId(accepted);
+    if (targetId) {
+      state.activeTargetId = targetId;
+      saveActiveTargetId(targetId);
+    }
+    if (elements.pairingCodeInput) {
+      elements.pairingCodeInput.value = "";
+    }
+    renderAuthUI();
+    setAuthStatus(strings.pairingAccepted ?? "Partner added. Ratings can now save to that therapist.");
+  } catch (err) {
+    setAuthStatus(err?.message ?? strings.pairingAcceptError ?? "Unable to accept pairing code.");
+  }
+}
+
+async function handleRevokePartnership(partnershipId) {
+  if (!partnershipId) return;
+  const strings = getUIStrings();
+  setAuthStatus(strings.revokeWorking ?? "Revoking partner...");
+  try {
+    await revokePracticePartnership(partnershipId);
+    await refreshPracticeTargets();
+    renderAuthUI();
+    setAuthStatus(strings.revokeSuccess ?? "Partner revoked.");
+  } catch (err) {
+    setAuthStatus(err?.message ?? strings.revokeError ?? "Unable to revoke partner.");
+  }
+}
+
+async function copyPairingCode() {
+  const strings = getUIStrings();
+  const code = state.latestPairingCode?.code;
+  if (!code) return;
+  try {
+    await navigator.clipboard?.writeText(formatPairingCode(code));
+    setAuthStatus(strings.copied ?? "Copied.");
+  } catch (err) {
+    setAuthStatus(strings.copyError ?? "Could not copy the code.");
+  }
+}
+
+async function sharePairingCode() {
+  const strings = getUIStrings();
+  const code = state.latestPairingCode?.code;
+  if (!code) return;
+  const text = `${strings.sharePairingText ?? "Use this Deliberate Practice pairing code:"} ${formatPairingCode(code)}`;
+  if (navigator.share) {
+    try {
+      await navigator.share({ text });
+      setAuthStatus(strings.shared ?? "Shared.");
+      return;
+    } catch (err) {
+      if (err?.name === "AbortError") return;
+    }
+  }
+  try {
+    await navigator.clipboard?.writeText(text);
+    setAuthStatus(strings.copied ?? "Copied.");
+  } catch (err) {
+    setAuthStatus(strings.shareError ?? "Could not share the code.");
+  }
 }
 
 function isCaseLocked(caseItem) {
@@ -722,6 +1774,7 @@ function showSection(sectionKey) {
     el.hidden = !shouldShow;
   });
   document.body.dataset.section = sectionKey;
+  renderAuthUI();
   window.scrollTo({ top: 0, left: 0, behavior: "auto" });
 }
 
@@ -857,7 +1910,6 @@ function applyLanguageStrings(languageId) {
       strings.suggestionHiddenLabel ?? strings.showSuggestion
     );
   }
-
   elements.languageBackButton.textContent = `← ${strings.backToLanguage}`;
   elements.languageBackButton.setAttribute(
     "aria-label",
@@ -915,6 +1967,9 @@ function applyLanguageStrings(languageId) {
   updateCaseSkillContext(getCurrentSkill());
   updateSuggestionUI();
   updateLockedBanner();
+  renderResumeCard();
+  renderAuthUI();
+  updateRatingPanel();
 }
 
 function renderLanguageOptions() {
@@ -1007,7 +2062,7 @@ function updateCaseSkillSummary(skill) {
   }
 
   const strings = getUIStrings();
-  const visual = getSkillVisual(skill.id);
+  const visual = getSkillFocusVisual(skill.id);
   elements.caseSkillSummaryCard.dataset.skillId = skill.id;
   applyVisualProperties(elements.caseSkillSummaryCard, visual);
   elements.caseSkillSummaryCard.hidden = false;
@@ -1284,15 +2339,56 @@ function ensureOrderForCase() {
   const caseData = getCurrentCase();
   if (!caseData) {
     state.order = [];
+    state.orderShuffled = false;
     return;
   }
 
   const statements = caseData.statements ?? [];
   const existing = state.order;
-  if (!Array.isArray(existing) || existing.length !== statements.length) {
-    state.order = shuffleArray(statements);
-    state.index = 0;
+  const existingIds = Array.isArray(existing) ? existing.map((entry) => entry?.id) : [];
+  const statementIds = statements.map((entry) => entry?.id);
+  const matchesLibraryOrder = existingIds.length === statementIds.length
+    && existingIds.every((id, index) => id === statementIds[index]);
+  if (state.orderShuffled) {
+    if (!Array.isArray(existing) || existing.length !== statements.length) {
+      state.order = shuffleArray(statements);
+      state.index = 0;
+    }
+    return;
   }
+  if (!matchesLibraryOrder) {
+    state.order = [...statements];
+    state.index = Math.min(state.index, Math.max(statements.length - 1, 0));
+  }
+}
+
+function finishCompletedStatementRound() {
+  if (state.authUser) {
+    openRoundRatingPrompt({ markCurrent: false });
+  } else {
+    savePracticeSession();
+    navigateBackToCaseSelection();
+  }
+}
+
+function isLastActiveStatement() {
+  const statements = getActiveStatements();
+  return statements.length > 0 && state.index >= statements.length - 1;
+}
+
+function updateNextButtonCopy() {
+  if (!elements.nextButton) return;
+  const strings = getUIStrings();
+  const isLast = isLastActiveStatement();
+  elements.nextButton.textContent = isLast
+    ? strings.finishRound ?? "Finish"
+    : strings.next;
+  elements.nextButton.setAttribute(
+    "aria-label",
+    isLast
+      ? strings.finishRoundAria ?? strings.finishRound ?? "Finish round"
+      : strings.nextAria ?? strings.next
+  );
 }
 
 function showCaseBrief() {
@@ -1305,6 +2401,7 @@ function showCaseBrief() {
     elements.statementWorkspace.classList.add("is-hidden");
     elements.statementWorkspace.hidden = true;
   }
+  savePracticeSession();
   window.scrollTo({ top: 0, left: 0, behavior: "auto" });
 }
 
@@ -1326,6 +2423,7 @@ function showStatements() {
   }
   ensureOrderForCase();
   renderActiveStatement();
+  savePracticeSession();
   window.scrollTo({ top: 0, left: 0, behavior: "auto" });
 }
 
@@ -1430,19 +2528,27 @@ function renderActiveStatement() {
     setDefaultFeedbackReason(state.languageId ?? "en", { force: true });
     resetSuggestionVisibility();
     updateFeedbackAvailability();
+    updateNextButtonCopy();
+    updateRatingPanel();
     return;
   }
 
   const currentEntry = getActiveStatement();
   state.currentStatement = currentEntry;
   elements.statementText.textContent = currentEntry?.text ?? strings.statementFallback;
-  elements.statementCounter.textContent = formatCounter(state.index + 1, statements.length);
+  const completedCount = getCompletedCountForActiveStatements();
+  const counter = formatCounter(state.index + 1, statements.length);
+  elements.statementCounter.textContent = completedCount > 0
+    ? `${counter} · ${completedCount} ${strings.completedShort ?? "done"}`
+    : counter;
   if (elements.suggestionText) {
     elements.suggestionText.textContent = currentEntry?.suggestion ?? "";
   }
   setDefaultFeedbackReason(state.languageId ?? "en", { force: true });
   resetSuggestionVisibility();
   updateFeedbackAvailability();
+  updateNextButtonCopy();
+  updateRatingPanel();
 }
 
 function formatCounter(current, total) {
@@ -1461,6 +2567,214 @@ function getActiveStatement() {
   return statements[state.index] ?? null;
 }
 
+function setRatingStatus(message) {
+  if (!elements.ratingStatus) return;
+  elements.ratingStatus.textContent = message ?? "";
+}
+
+function getCompletedCountForActiveStatements() {
+  const completed = state.completedStatementIds ?? new Set();
+  return getActiveStatements().filter((statement) => completed.has(statement?.id)).length;
+}
+
+function getCompletedActiveStatementIds() {
+  const completed = state.completedStatementIds ?? new Set();
+  return getActiveStatements()
+    .filter((statement) => completed.has(statement?.id))
+    .map((statement) => statement.id);
+}
+
+function getStatementById(statementId) {
+  return getActiveStatements().find((statement) => statement?.id === statementId) ?? null;
+}
+
+function getRatingStatementIds() {
+  return Array.isArray(state.ratingCompletedStatementIds)
+    ? state.ratingCompletedStatementIds.filter(Boolean)
+    : [];
+}
+
+function getRoundCriteriaTags(statementIds) {
+  const seen = new Set();
+  statementIds.forEach((statementId) => {
+    const statement = getStatementById(statementId);
+    const tags = Array.isArray(statement?.criteriaTags) ? statement.criteriaTags : [];
+    tags.forEach((tag) => {
+      if (tag) seen.add(tag);
+    });
+  });
+  return Array.from(seen);
+}
+
+function formatRatingItemCount(count) {
+  const strings = getUIStrings();
+  const template = count === 1
+    ? strings.ratingItemCountSingular ?? "{count} item practiced"
+    : strings.ratingItemCountPlural ?? "{count} items practiced";
+  return template.replace("{count}", String(count));
+}
+
+function getActiveRatingSource() {
+  const target = getActiveTarget();
+  if (!target) return "self";
+  return getTargetKind(target) === "self" ? "self" : "observer";
+}
+
+function updateRatingScoreButtons() {
+  const buttons = elements.ratingScoreOptions?.querySelectorAll("[data-rating-score]") ?? [];
+  buttons.forEach((button) => {
+    const score = Number(button.dataset.ratingScore);
+    const selected = score === state.ratingScore;
+    button.classList.toggle("is-selected", selected);
+    button.setAttribute("aria-pressed", selected ? "true" : "false");
+  });
+}
+
+function updateRatingScaleCopy() {
+  const strings = getUIStrings();
+  if (elements.ratingScoreGuide) {
+    elements.ratingScoreGuide.textContent =
+      strings.ratingScoreGuide ?? "1 = Not yet mastered · 5 = Mastered confidently";
+  }
+}
+
+function updateRatingOptionAvailability(canSave) {
+  const strings = getUIStrings();
+  const buttons = elements.ratingScoreOptions?.querySelectorAll("[data-rating-score]") ?? [];
+  const label = strings.ratingScoreLabel ?? "Round score";
+  buttons.forEach((button) => {
+    button.disabled = !canSave;
+    button.setAttribute("aria-label", `${label} ${button.dataset.ratingScore}`);
+  });
+}
+
+function hasCompleteRatingScores() {
+  return Boolean(state.ratingScore);
+}
+
+function selectRatingScore(score) {
+  const normalizedScore = Number(score);
+  if (!Number.isInteger(normalizedScore) || normalizedScore < 1 || normalizedScore > 5) return;
+  state.ratingScore = normalizedScore;
+  updateRatingPanel();
+}
+
+function resetRatingScores() {
+  state.ratingScore = null;
+}
+
+function updateRatingPanel() {
+  if (!elements.ratingPanel || !elements.ratingOverlay) return;
+  const strings = getUIStrings();
+  const activeCase = getCurrentCase();
+  const statementIds = getRatingStatementIds();
+  const visible = Boolean(state.ratingVisible && state.skillId && state.caseId && statementIds.length > 0);
+
+  elements.ratingOverlay.hidden = !visible;
+  elements.ratingOverlay.classList.toggle("is-hidden", !visible);
+  elements.ratingPanel.hidden = !visible;
+  elements.ratingPanel.classList.toggle("is-hidden", !visible);
+  if (!visible) {
+    setRatingStatus("");
+    return;
+  }
+
+  const target = getActiveTarget();
+  const signedIn = Boolean(state.authUser);
+  const configured = isSupabaseReady();
+  const saved = state.ratingSaved;
+  const canSave = configured && signedIn && Boolean(target) && !state.ratingSaving && !saved;
+  const source = getActiveRatingSource();
+
+  if (elements.ratingEyebrow) {
+    elements.ratingEyebrow.textContent = strings.ratingEyebrow ?? "Finish round";
+  }
+  if (elements.ratingTitle) {
+    elements.ratingTitle.textContent = source === "observer"
+      ? strings.ratingTitleObserver ?? "How well did the active therapist master this round?"
+      : strings.ratingTitleSelf ?? "How well did you master this round?";
+  }
+  if (elements.ratingDescription) {
+    elements.ratingDescription.textContent = "";
+    elements.ratingDescription.hidden = true;
+  }
+  if (elements.ratingSummary) {
+    const activeSkill = getCurrentSkill();
+    const skillLabel = activeSkill?.name ? `${activeSkill.name} · ` : "";
+    const caseLabel = activeCase?.label ? ` · ${activeCase.label}` : "";
+    elements.ratingSummary.textContent = `${skillLabel}${formatRatingItemCount(statementIds.length)}${caseLabel}`;
+  }
+  if (elements.ratingTarget) {
+    if (!signedIn) {
+      elements.ratingTarget.textContent = strings.ratingTargetSignedOut ?? "Sign in to save";
+    } else {
+      const targetName = target
+        ? getTargetDisplayName(target) || strings.meLabel || "Me"
+        : strings.noActiveTherapist ?? "No active therapist";
+      elements.ratingTarget.textContent = `${strings.savingForPrefix ?? "Saving:"} ${targetName}`;
+    }
+  }
+  if (elements.ratingSubmit) {
+    elements.ratingSubmit.textContent = strings.ratingSubmit ?? "Save";
+    elements.ratingSubmit.disabled = !canSave || !hasCompleteRatingScores();
+  }
+  if (elements.ratingSkip) {
+    elements.ratingSkip.textContent = strings.ratingSkip ?? "Skip";
+    elements.ratingSkip.disabled = state.ratingSaving;
+  }
+  updateRatingScaleCopy();
+  updateRatingOptionAvailability(canSave);
+  updateRatingScoreButtons();
+
+  if (saved) {
+    setRatingStatus(strings.ratingSaved ?? "Saved.");
+  } else if (!configured) {
+    setRatingStatus(strings.ratingConfigMissing ?? "Supabase Auth is not configured.");
+  } else if (!signedIn) {
+    setRatingStatus(strings.ratingSignInHint ?? "Sign in to save ratings, or continue without saving.");
+  } else if (!target) {
+    setRatingStatus(strings.ratingNoTarget ?? "Choose an active therapist before saving.");
+  } else {
+    setRatingStatus("");
+  }
+}
+
+function shouldPromptForRoundRating() {
+  return document.body.dataset.section === "practice"
+    && state.view === "statements"
+    && getActiveStatements().length > 0;
+}
+
+function openRoundRatingPrompt({ markCurrent = true } = {}) {
+  if (markCurrent) {
+    markCurrentStatementCompleted();
+  }
+  const statementIds = getCompletedActiveStatementIds();
+  if (!statementIds.length) {
+    navigateBackToCaseSelection();
+    return;
+  }
+  state.ratingCompletedStatementIds = statementIds;
+  resetRatingScores();
+  state.ratingSaved = false;
+  state.ratingVisible = true;
+  savePracticeSession();
+  updateRatingPanel();
+}
+
+function closeRoundRatingPrompt() {
+  state.ratingVisible = false;
+  resetRatingScores();
+  state.ratingCompletedStatementIds = [];
+  state.ratingSaved = false;
+  updateRatingPanel();
+}
+
+function finishRoundWithoutRating() {
+  closeRoundRatingPrompt();
+  navigateBackToCaseSelection();
+}
+
 function updateSuggestionUI() {
   if (!elements.suggestionPanel || !elements.suggestionToggle || !elements.suggestionText) return;
   const strings = getUIStrings();
@@ -1477,6 +2791,7 @@ function updateSuggestionUI() {
       strings.suggestionHiddenLabel ?? strings.showSuggestion
     );
     elements.suggestionText.hidden = true;
+    updateRatingPanel();
     return;
   }
 
@@ -1487,6 +2802,7 @@ function updateSuggestionUI() {
     visible ? strings.suggestionShownLabel ?? strings.hideSuggestion : strings.suggestionHiddenLabel ?? strings.showSuggestion
   );
   elements.suggestionText.hidden = !visible;
+  updateRatingPanel();
 }
 
 function resetSuggestionVisibility() {
@@ -1564,15 +2880,24 @@ function shuffleCurrentStatements() {
   const statements = caseData.statements ?? [];
   if (!statements.length) return;
   state.order = shuffleArray(statements);
+  state.orderShuffled = true;
   state.index = 0;
+  state.completedStatementIds = new Set();
   renderActiveStatement();
+  savePracticeSession();
 }
 
 function showNextStatement() {
   const statements = getActiveStatements();
   if (!statements.length) return;
-  state.index = (state.index + 1) % statements.length;
+  markCurrentStatementCompleted();
+  if (state.index >= statements.length - 1) {
+    finishCompletedStatementRound();
+    return;
+  }
+  state.index += 1;
   renderActiveStatement();
+  savePracticeSession();
 }
 
 function showPreviousStatement() {
@@ -1580,6 +2905,7 @@ function showPreviousStatement() {
   if (!statements.length) return;
   state.index = (state.index - 1 + statements.length) % statements.length;
   renderActiveStatement();
+  savePracticeSession();
 }
 
 async function handleFeedbackSubmit(event) {
@@ -1634,55 +2960,130 @@ async function handleFeedbackSubmit(event) {
   }
 }
 
-async function handleUnlockSubmit(event) {
-  event.preventDefault();
+async function handleRatingSubmit() {
+  const strings = getUIStrings();
+  const target = getActiveTarget();
+  const activeCase = getCurrentCase();
+  const statementIds = getRatingStatementIds();
+  if (!state.skillId || !state.caseId || !activeCase || !statementIds.length) {
+    setRatingStatus(strings.ratingUnavailable ?? "No active round to rate.");
+    return;
+  }
+  if (!hasCompleteRatingScores()) {
+    setRatingStatus(strings.ratingMissingScore ?? "Choose a score first.");
+    return;
+  }
+  if (!state.authUser || !target) {
+    setRatingStatus(strings.ratingSignInHint ?? "Sign in to save ratings, or continue without saving.");
+    return;
+  }
+
+  state.ratingSaving = true;
+  updateRatingPanel();
+  setRatingStatus(strings.ratingSaving ?? "Saving rating...");
+  try {
+    await submitPracticeRating({
+      therapistUserId: getTargetUserId(target),
+      source: getActiveRatingSource(),
+      languageId: state.languageId ?? "en",
+      skillId: state.skillId,
+      caseId: state.caseId,
+      statementId: null,
+      statementIndex: null,
+      difficulty: activeCase.difficulty ?? "",
+      score: state.ratingScore,
+      criteriaTags: getRoundCriteriaTags(statementIds),
+      contentRevision: CONTENT_REVISION,
+      ratingScope: "series",
+      completedStatementIds: statementIds,
+      itemCount: statementIds.length
+    });
+    state.ratingSaved = true;
+    state.selfRatingsLoaded = false;
+    savePracticeSession();
+    closeRoundRatingPrompt();
+    navigateBackToCaseSelection();
+  } catch (err) {
+    setRatingStatus(err?.message ?? strings.ratingError ?? "Unable to save rating.");
+  } finally {
+    state.ratingSaving = false;
+    updateRatingPanel();
+  }
+}
+
+function setUnlockStatus(element, message) {
+  if (element) {
+    element.textContent = message ?? "";
+  }
+}
+
+async function redeemAccessFromInput({
+  codeInput,
+  statusElement,
+  closePaywallOnSuccess = false
+} = {}) {
   if (state.unlocking) return;
   const strings = getUIStrings();
   const languageId = state.languageId ?? "en";
   if (!isSupabaseReady()) {
-    if (elements.unlockStatus) {
-      elements.unlockStatus.textContent = strings.unlockConfigMissing ?? "";
-    }
+    setUnlockStatus(statusElement, strings.unlockConfigMissing ?? "");
     return;
   }
-  const code = (elements.unlockCodeInput?.value ?? "").trim();
+  const code = (codeInput?.value ?? "").trim();
   if (!code) {
-    if (elements.unlockStatus) {
-      elements.unlockStatus.textContent = strings.unlockMissing ?? "";
-    }
+    setUnlockStatus(statusElement, strings.unlockMissing ?? "");
     return;
   }
   state.unlocking = true;
-  if (elements.unlockStatus) {
-    elements.unlockStatus.textContent = strings.unlockWorking ?? "";
-  }
+  renderAccessUI();
+  setUnlockStatus(statusElement, strings.unlockWorking ?? "");
   try {
     const result = await redeemAccessCode(code);
     logAccessCodeAttempt({ code, status: "success", languageId }).catch(() => {});
     saveAccessLevel(result.accessLevel ?? "pro", result.expiresAt ?? null);
-    if (elements.unlockStatus) {
-      elements.unlockStatus.textContent = strings.unlockSuccess ?? "";
+    setUnlockStatus(statusElement, strings.unlockSuccess ?? "");
+    if (codeInput) {
+      codeInput.value = "";
     }
-    hidePaywall();
+    if (closePaywallOnSuccess) {
+      hidePaywall();
+    }
     renderCaseOptions();
     hydratePracticeView();
   } catch (err) {
     const status =
       err?.message === "invalid_code" || err?.message === "expired_code" ? "invalid" : "error";
     logAccessCodeAttempt({ code, status, languageId }).catch(() => {});
-    if (elements.unlockStatus) {
-      let msg = strings.unlockError ?? err.message ?? "";
-      if (err?.message === "expired_code") {
-        msg = strings.unlockExpired ?? strings.unlockInvalid ?? "";
-      } else if (err?.message === "invalid_code") {
-        msg = strings.unlockInvalid ?? "";
-      }
-      elements.unlockStatus.textContent = msg;
+    let msg = strings.unlockError ?? err.message ?? "";
+    if (err?.message === "expired_code") {
+      msg = strings.unlockExpired ?? strings.unlockInvalid ?? "";
+    } else if (err?.message === "invalid_code") {
+      msg = strings.unlockInvalid ?? "";
     }
+    setUnlockStatus(statusElement, msg);
   } finally {
     state.unlocking = false;
+    renderAccessUI();
     updateFeedbackAvailability();
   }
+}
+
+async function handleUnlockSubmit(event) {
+  event.preventDefault();
+  await redeemAccessFromInput({
+    codeInput: elements.unlockCodeInput,
+    statusElement: elements.unlockStatus,
+    closePaywallOnSuccess: true
+  });
+}
+
+async function handleAccountUnlockSubmit(event) {
+  event.preventDefault();
+  await redeemAccessFromInput({
+    codeInput: elements.accountUnlockCode,
+    statusElement: elements.accountUnlockStatus,
+    closePaywallOnSuccess: false
+  });
 }
 
 function handleLanguageSelection(languageId) {
@@ -1690,9 +3091,11 @@ function handleLanguageSelection(languageId) {
   state.skillId = null;
   state.caseId = null;
   state.order = [];
+  state.orderShuffled = false;
   state.index = 0;
   state.view = "brief";
   state.currentStatement = null;
+  state.completedStatementIds = new Set();
   state.skillContextExpanded = false;
 
   applyLanguageStrings(languageId);
@@ -1708,6 +3111,7 @@ function handleLanguageSelection(languageId) {
   setDefaultFeedbackReason(languageId, { force: true });
   resetSuggestionVisibility();
   updateFeedbackAvailability();
+  savePracticeSession();
   showSection("skill");
 }
 
@@ -1715,9 +3119,11 @@ function handleSkillSelection(skillId) {
   state.skillId = skillId;
   state.caseId = null;
   state.order = [];
+  state.orderShuffled = false;
   state.index = 0;
   state.view = "brief";
   state.currentStatement = null;
+  state.completedStatementIds = new Set();
   state.skillContextExpanded = false;
 
   highlightSkillSelection(skillId);
@@ -1729,6 +3135,7 @@ function handleSkillSelection(skillId) {
   }
   resetSuggestionVisibility();
   updateFeedbackAvailability();
+  savePracticeSession();
   showSection("case");
 }
 
@@ -1750,12 +3157,15 @@ function handleCaseSelection(caseId) {
 
   state.caseId = caseId;
   state.order = [];
+  state.orderShuffled = false;
   state.index = 0;
   state.view = "brief";
   state.currentStatement = null;
+  state.completedStatementIds = new Set();
 
   highlightCaseSelection(caseId);
   hydratePracticeView();
+  savePracticeSession();
   showSection("practice");
 }
 
@@ -1765,14 +3175,37 @@ function handleSkillContextToggle() {
   renderSkillContextExpansion(true);
 }
 
+function navigateBackToCaseSelection() {
+  state.order = [];
+  state.orderShuffled = false;
+  state.index = 0;
+  state.currentStatement = null;
+  state.completedStatementIds = new Set();
+  highlightCaseSelection(state.caseId);
+  renderCaseOptions();
+  if (elements.suggestionText) {
+    elements.suggestionText.textContent = "";
+  }
+  resetSuggestionVisibility();
+  state.view = "brief";
+  hideGlossaryCard();
+  updateCaseSkillContext(getCurrentSkill());
+  updateCaseSkillSummary(getCurrentSkill());
+  updateFeedbackAvailability();
+  showSection("case");
+  savePracticeSession();
+}
+
 function handleBackNavigation(targetKey) {
   if (targetKey === "language") {
     state.skillId = null;
     state.caseId = null;
     state.order = [];
+    state.orderShuffled = false;
     state.index = 0;
     state.view = "brief";
     state.currentStatement = null;
+    state.completedStatementIds = new Set();
     elements.statementText.textContent = getUIStrings().emptyPrompt;
     elements.statementCounter.textContent = "";
     if (elements.suggestionText) {
@@ -1791,8 +3224,10 @@ function handleBackNavigation(targetKey) {
   if (targetKey === "skill") {
     state.caseId = null;
     state.order = [];
+    state.orderShuffled = false;
     state.index = 0;
     state.currentStatement = null;
+    state.completedStatementIds = new Set();
     highlightCaseSelection(null);
     renderCaseOptions();
     if (elements.suggestionText) {
@@ -1808,25 +3243,38 @@ function handleBackNavigation(targetKey) {
   }
 
   if (targetKey === "case") {
-    state.order = [];
-    state.index = 0;
-    state.currentStatement = null;
-    highlightCaseSelection(state.caseId);
-    renderCaseOptions();
-    if (elements.suggestionText) {
-      elements.suggestionText.textContent = "";
+    if (shouldPromptForRoundRating()) {
+      openRoundRatingPrompt();
+      return;
     }
-    resetSuggestionVisibility();
-    state.view = "brief";
-    hideGlossaryCard();
-    updateCaseSkillContext(getCurrentSkill());
-    updateCaseSkillSummary(getCurrentSkill());
-    updateFeedbackAvailability();
-    showSection("case");
+    navigateBackToCaseSelection();
   }
 }
 
 function registerEventListeners() {
+  if (elements.accountButton) {
+    elements.accountButton.addEventListener("click", showAccountPanel);
+  }
+  if (elements.activeTargetButton) {
+    elements.activeTargetButton.addEventListener("click", showAccountPanel);
+  }
+  if (elements.closeAccountButton) {
+    elements.closeAccountButton.addEventListener("click", hideAccountPanel);
+  }
+  if (elements.accountOverlay) {
+    elements.accountOverlay.addEventListener("click", (event) => {
+      if (event.target === elements.accountOverlay) {
+        hideAccountPanel();
+      }
+    });
+  }
+  if (elements.resumeButton) {
+    elements.resumeButton.addEventListener("click", () => applyPracticeSession(state.resumeSession));
+  }
+  if (elements.resumeClear) {
+    elements.resumeClear.addEventListener("click", clearPracticeSession);
+  }
+
   if (elements.startPracticeButton) {
     elements.startPracticeButton.addEventListener("click", showStatements);
   }
@@ -1911,6 +3359,20 @@ function registerEventListeners() {
     });
   }
 
+  if (elements.ratingScoreOptions) {
+    elements.ratingScoreOptions.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-rating-score]");
+      if (!button || button.disabled) return;
+      selectRatingScore(button.dataset.ratingScore);
+    });
+  }
+  if (elements.ratingSubmit) {
+    elements.ratingSubmit.addEventListener("click", handleRatingSubmit);
+  }
+  if (elements.ratingSkip) {
+    elements.ratingSkip.addEventListener("click", finishRoundWithoutRating);
+  }
+
   if (elements.feedbackForm) {
     elements.feedbackForm.addEventListener("submit", handleFeedbackSubmit);
   }
@@ -1924,25 +3386,77 @@ function registerEventListeners() {
   if (elements.unlockForm) {
     elements.unlockForm.addEventListener("submit", handleUnlockSubmit);
   }
+  if (elements.accountUnlockForm) {
+    elements.accountUnlockForm.addEventListener("submit", handleAccountUnlockSubmit);
+  }
 
   if (elements.closePaywallButton) {
     elements.closePaywallButton.addEventListener("click", hidePaywall);
+  }
+
+  if (elements.authSigninForm) {
+    elements.authSigninForm.addEventListener("submit", handleMagicLinkSubmit);
+  }
+  if (elements.profileForm) {
+    elements.profileForm.addEventListener("submit", handleProfileSubmit);
+  }
+  if (elements.selfChartRefresh) {
+    elements.selfChartRefresh.addEventListener("click", () => {
+      loadSelfRatings({ force: true }).catch(() => {});
+    });
+  }
+  if (elements.authSignout) {
+    elements.authSignout.addEventListener("click", handleSignOut);
+  }
+  if (elements.activeTargetSelect) {
+    elements.activeTargetSelect.addEventListener("change", () => {
+      state.activeTargetId = elements.activeTargetSelect.value;
+      saveActiveTargetId(state.activeTargetId);
+      renderAuthUI();
+    });
+  }
+  if (elements.pairingCreateButton) {
+    elements.pairingCreateButton.addEventListener("click", handleCreatePairingInvite);
+  }
+  if (elements.pairingCopy) {
+    elements.pairingCopy.addEventListener("click", copyPairingCode);
+  }
+  if (elements.pairingShare) {
+    elements.pairingShare.addEventListener("click", sharePairingCode);
+  }
+  if (elements.pairingAcceptForm) {
+    elements.pairingAcceptForm.addEventListener("submit", handleAcceptPairingInvite);
+  }
+  if (elements.partnerList) {
+    elements.partnerList.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-partnership-id]");
+      if (!button) return;
+      handleRevokePartnership(button.dataset.partnershipId);
+    });
   }
 }
 
 function initialize() {
   const accessState = loadAccessState();
+  const savedSession = loadPracticeSession();
   state.accessLevel = accessState.accessLevel;
   state.accessExpiresAt = accessState.accessExpiresAt;
+  state.resumeSession = savedSession;
+  state.languageId = savedSession?.languageId ?? null;
+  const initialLanguageId = state.languageId ?? "en";
   renderAppVersion();
-  applyLanguageStrings("en");
+  applyLanguageStrings(initialLanguageId);
   renderLanguageOptions();
-  elements.statementText.textContent = getUIStrings("en").emptyPrompt;
+  highlightLanguageSelection(state.languageId);
+  renderResumeCard();
+  elements.statementText.textContent = getUIStrings(initialLanguageId).emptyPrompt;
   elements.statementCounter.textContent = "";
   resetSuggestionVisibility();
   updateLockedBanner();
   updateFeedbackAvailability();
+  renderAuthUI();
   registerEventListeners();
+  initializeAuth();
   showSection("language");
 }
 

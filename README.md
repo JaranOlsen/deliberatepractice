@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Optional Supabase-backed feedback and access-code features are enabled at build time when these variables are present. For local branch testing, put them in `.env.local`:
+Optional Supabase-backed feedback, access-code, auth, pairing, and rating features are enabled at build time when these variables are present. For local branch testing, put them in `.env.local`:
 
 ```sh
 VITE_SUPABASE_URL=https://your-project-ref.supabase.co
@@ -49,8 +49,11 @@ Supabase expectations:
 - `redeem_access_code(input_code text)` allows anon access-code redemption without exposing the `entitlements` table.
 - `entitlements` should not allow direct anon selects.
 - `access_code_usage` allows anon inserts for unlock attempts with `success`, `invalid`, or `error` status.
+- Auth, profiles, partner pairing, and practice ratings require `supabase/auth-pairing-practice.sql`.
+- Supabase Auth email Magic Link needs redirect URLs for local testing and production, for example `http://localhost:5173/deliberatepractice/` and `https://jaranolsen.github.io/deliberatepractice/`.
 
 Run `supabase/access-code-security.sql` in the Supabase SQL editor to create the access-code RPC, lock direct entitlement reads, and configure access-code usage logging.
+Run `supabase/auth-pairing-practice.sql` in the Supabase SQL editor to create profile, pairing, partnership, and practice-rating tables and RPCs.
 
 The generated runtime data and restored `src/md/` source/reference texts are committed.
 
