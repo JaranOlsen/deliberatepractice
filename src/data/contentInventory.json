@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T21:49:05.542Z",
+  "generatedAt": "2026-06-16T09:18:13.073Z",
   "revision": "2026-03-07-v1",
   "caseBibleCount": 9,
   "caseMatrixSummary": {
@@ -16,7 +16,7 @@
       "too_generic",
       "duplicate_pattern"
     ],
-    "generatedAt": "2026-06-15T21:49:05.534Z"
+    "generatedAt": "2026-06-16T09:18:13.065Z"
   },
   "benchmarkSummary": {
     "revision": "2026-03-07-v1",
@@ -24,7 +24,7 @@
     "totalResponses": 175,
     "sourceResponseCount": 160,
     "derivedResponseCount": 15,
-    "generatedAt": "2026-06-15T21:49:05.541Z"
+    "generatedAt": "2026-06-16T09:18:13.072Z"
   },
   "inventory": [
     {

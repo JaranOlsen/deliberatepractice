@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T21:49:05.544Z",
+  "generatedAt": "2026-06-16T09:18:13.075Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -455,11 +455,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Hesitant] Do you actually care about me or are you paid to?",
-            "response": "I do care about you in this therapy relationship, and I feel that care here with you. The paid role gives it boundaries; it does not make the care fake. What happens as you hear both?"
+            "response": "I do care about you in this therapy relationship. The paid role gives the care boundaries; it does not make it fake. We can stay with both the relief and suspicion that may bring up."
           },
           "no": {
             "statement": "[Nølende] Bryr du deg egentlig om meg, eller får du betalt for det?",
-            "response": "Jeg bryr meg om deg i denne terapirelasjonen, og jeg kjenner den omsorgen her sammen med deg. At dette er betalt arbeid gir omsorgen grenser; det gjør den ikke falsk. Hva skjer når du hører begge deler?"
+            "response": "Jeg bryr meg om deg i denne terapirelasjonen. Den betalte rollen gir omsorgen grenser; den gjør den ikke falsk. Vi kan være med både lettelsen og mistilliten det kan vekke."
           }
         },
         {
@@ -468,11 +468,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tearful] When I say I still miss him, do you secretly think I sound ridiculous?",
-            "response": "No. I do not hear ridiculous; I hear grief for someone who mattered. I feel moved by how carefully you are trying to survive this loss, and I want to know what it is like to hear that."
+            "response": "No. I do not hear ridiculous. I hear grief for someone who mattered, and I am moved by how carefully you are trying to survive this loss. Notice what happens as I say that."
           },
           "no": {
             "statement": "[På gråten] Når jeg sier at jeg fortsatt savner ham, tenker du egentlig at jeg høres latterlig ut?",
-            "response": "Nei. Jeg hører ikke noe latterlig; jeg hører sorg over en som betydde noe. Jeg blir beveget av hvor varsomt du prøver å overleve dette tapet, og jeg vil vite hvordan det er å høre det."
+            "response": "Nei. Jeg hører ikke noe latterlig. Jeg hører sorg over en som betydde noe, og jeg blir berørt av hvor varsomt du prøver å overleve dette tapet. Legg merke til hva som skjer når jeg sier det."
           }
         }
       ]

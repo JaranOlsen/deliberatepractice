@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T21:49:05.543Z",
+  "generatedAt": "2026-06-16T09:18:13.074Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1800,11 +1800,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Tearful] When I say I still miss him, do you secretly think I sound ridiculous?",
-                "response": "No. I do not hear ridiculous; I hear grief for someone who mattered. I feel moved by how carefully you are trying to survive this loss, and I want to know what it is like to hear that."
+                "response": "No. I do not hear ridiculous. I hear grief for someone who mattered, and I am moved by how carefully you are trying to survive this loss. Notice what happens as I say that."
               },
               "no": {
                 "statement": "[På gråten] Når jeg sier at jeg fortsatt savner ham, tenker du egentlig at jeg høres latterlig ut?",
-                "response": "Nei. Jeg hører ikke noe latterlig; jeg hører sorg over en som betydde noe. Jeg blir beveget av hvor varsomt du prøver å overleve dette tapet, og jeg vil vite hvordan det er å høre det."
+                "response": "Nei. Jeg hører ikke noe latterlig. Jeg hører sorg over en som betydde noe, og jeg blir berørt av hvor varsomt du prøver å overleve dette tapet. Legg merke til hva som skjer når jeg sier det."
               }
             },
             {
@@ -1926,11 +1926,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Hesitant] Do you actually care about me or are you paid to?",
-                "response": "I do care about you in this therapy relationship, and I feel that care here with you. The paid role gives it boundaries; it does not make the care fake. What happens as you hear both?"
+                "response": "I do care about you in this therapy relationship. The paid role gives the care boundaries; it does not make it fake. We can stay with both the relief and suspicion that may bring up."
               },
               "no": {
                 "statement": "[Nølende] Bryr du deg egentlig om meg, eller får du betalt for det?",
-                "response": "Jeg bryr meg om deg i denne terapirelasjonen, og jeg kjenner den omsorgen her sammen med deg. At dette er betalt arbeid gir omsorgen grenser; det gjør den ikke falsk. Hva skjer når du hører begge deler?"
+                "response": "Jeg bryr meg om deg i denne terapirelasjonen. Den betalte rollen gir omsorgen grenser; den gjør den ikke falsk. Vi kan være med både lettelsen og mistilliten det kan vekke."
               }
             },
             {
@@ -1960,11 +1960,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Accusing] You were two minutes late again. Do you even notice what that does to me, or is it just nothing to you?",
-                "response": "I did notice I was late, and I am sorry. It was not nothing to me, and I can imagine it landed as if you did not matter. What happened in you when I was not here on time?"
+                "response": "I did notice I was late, and I am sorry. It was not nothing to me. I can imagine it landed as if you did not matter; let's stay with what happened in you when I was not here on time."
               },
               "no": {
                 "statement": "[Anklagende] Du var to minutter forsinket igjen. Merker du i det hele tatt hva det gjør med meg, eller betyr det bare ingenting for deg?",
-                "response": "Jeg la merke til at jeg var forsinket, og jeg beklager. Det var ikke ingenting for meg, og jeg kan se for meg at det traff som om du ikke betydde noe. Hva skjedde i deg da jeg ikke var her presis?"
+                "response": "Jeg la merke til at jeg var forsinket, og jeg beklager. Det var ikke ingenting for meg. Jeg kan se for meg at det traff som om du ikke betydde noe; la oss være med det som skjedde i deg da jeg ikke var her presis."
               }
             }
           ]
