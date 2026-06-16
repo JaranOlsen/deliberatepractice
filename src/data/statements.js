@@ -1909,7 +1909,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Embarrassed] I tell friends I'm fine, and then I worry they can hear that I am not.",
-        "suggestion": "You try to sound fine, and at the same time it feels risky that they might hear how not fine you are."
+        "suggestion": "You try to sound fine, and at the same time it feels risky that they might hear how not fine you are. Let's stay with the risk of being heard for a moment."
       },
       {
         "text": "[Tearful] I feel lost after the breakup, like I do not know what to do with the evenings.",
@@ -1921,15 +1921,15 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Panicked] I delete photos to prove I am done, then panic and look for them again.",
-        "suggestion": "One move says, 'be done,' and then the panic says this ending is not that simple."
+        "suggestion": "One move says, 'be done,' and then the panic says this ending is not that simple. Can we pause in the moment between deleting and searching?"
       },
       {
         "text": "[Embarrassed] When someone is kind to me, my eyes drop before I can stop it.",
-        "suggestion": "Kindness arrives, and your eyes go down before you can really take it in."
+        "suggestion": "Kindness arrives, and your eyes go down before you can really take it in. Let's notice the instant before your eyes drop."
       },
       {
         "text": "[Softly] For a few seconds after I wake up, I forget he is gone, and then I remember.",
-        "suggestion": "There is that brief relief, and then the loss returns all at once."
+        "suggestion": "There is that brief relief, and then the loss returns all at once. Let's stay with the moment of remembering, before you have to do anything with it."
       },
       {
         "text": "[Embarrassed] I am sad, and then I get embarrassed that I am still talking about it.",
@@ -1937,7 +1937,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tearful] When I see couples holding hands, I get upset and then feel childish for wanting that.",
-        "suggestion": "Seeing them brings up the wanting, and then shame moves in around the wanting."
+        "suggestion": "Seeing them brings up the wanting, and then shame moves in around the wanting. Can we stay with the wanting for a moment before shame moves in?"
       },
       {
         "text": "[Embarrassed] If I let someone see the whole mess, I imagine them quietly wishing I would stop.",
@@ -1959,7 +1959,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] Sometimes I want to throw my phone after a work message, and then I feel ridiculous.",
-        "suggestion": "The urge comes fast, and then you are left looking at yourself with shame."
+        "suggestion": "The urge comes fast, and then you are left looking at yourself with shame. Can we pause with the shame that follows, just before it calls you ridiculous?"
       },
       {
         "text": "[Defensive] A small sigh from my wife can feel like she has already decided I am the problem.",
@@ -1997,11 +1997,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Fearful] I got invited to a birthday party, and part of me was excited, but then I started worrying I would ruin it.",
-        "suggestion": "There is excitement about being invited, and then worry starts to crowd it."
+        "suggestion": "There is excitement about being invited, and then worry starts to crowd it. Let's notice the excitement before the worry crowds it."
       },
       {
         "text": "[Quietly] If I meet someone's eyes too long, I assume they can tell how awkward I am.",
-        "suggestion": "Eye contact starts to feel like they can see the awkwardness you are trying to hide."
+        "suggestion": "Eye contact starts to feel like they can see the awkwardness you are trying to hide. Can we stay with the first second of being seen?"
       },
       {
         "text": "[Embarrassed] After meetings, one small awkward pause can make me cringe for the rest of the day.",
@@ -2013,11 +2013,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quietly] Before I introduce myself, I start imagining how strange I will sound.",
-        "suggestion": "Even before you speak, the moment is already becoming a test of how you will come across."
+        "suggestion": "Even before you speak, the moment is already becoming a test of how you will come across. Let's pause before the introduction and notice the imagined strangeness."
       },
       {
         "text": "[Hesitant] I compare myself to everyone there and always decide I am the least interesting person.",
-        "suggestion": "The comparison ends with you at the bottom, and it hurts before anyone has actually rejected you."
+        "suggestion": "The comparison ends with you at the bottom, and it hurts before anyone has actually rejected you. Can we stay with that hurt for a moment?"
       },
       {
         "text": "[Blank] Sometimes I pretend to text so small talk does not have to start.",
@@ -2051,7 +2051,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] Even gentle touch makes me jump, and then I hate that my reaction is so obvious.",
-        "suggestion": "The startle comes first, and then shame seems to arrive because your reaction has been seen."
+        "suggestion": "The startle comes first, and then shame seems to arrive because your reaction has been seen. Let's stay with the shame that comes after the jump."
       },
       {
         "text": "[Slow and flat] When good news comes, I can say the right words, but I feel almost nothing.",
@@ -2059,7 +2059,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Distant] Sometimes a song cracks something open, and for a minute I can almost feel the sadness.",
-        "suggestion": "The song seems to reach a place the numbness usually covers, letting a little sadness come close."
+        "suggestion": "The song seems to reach a place the numbness usually covers, letting a little sadness come close. Can we linger with that almost-sadness before it disappears again?"
       },
       {
         "text": "[Tense and guarded] I feel guilty for wanting comfort, like needing anything makes me a problem.",
@@ -2085,7 +2085,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] My boy's flinch keeps replaying, and I hate that he learned that fear from me.",
-        "suggestion": "The replay seems to carry both love for him and the pain of seeing fear linked to you."
+        "suggestion": "The replay seems to carry both love for him and the pain of seeing fear linked to you. Let's stay with that ache for a moment."
       },
       {
         "text": "[Tense] When it gets calm after a fight, I start waiting for someone to bring it up again.",
@@ -2101,7 +2101,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Angry, clenching fists] Disrespect hits my chest like a punch, and I need them to know it hurt.",
-        "suggestion": "Disrespect hits as hurt and anger together, and the need for them to know is right there with it."
+        "suggestion": "Disrespect hits as hurt and anger together, and the need for them to know is right there with it. Can we stay with the hurt inside that need?"
       },
       {
         "text": "[Fearful] When I say I want them safe, I feel my anger drop and something softer scare me.",
@@ -2131,7 +2131,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Guilty] A messy house makes me feel like everyone will see I am failing.",
-        "suggestion": "The mess becomes more than clutter; it turns into exposure, as if people could read failure in the room."
+        "suggestion": "The mess becomes more than clutter; it turns into exposure, as if people could read failure in the room. Let's pause where clutter turns into failure."
       },
       {
         "text": "[Torn] When everyone needs me at once, I start saying yes before I know what I actually want.",
@@ -2143,11 +2143,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Apologetic] I take every task before anyone asks, and then I feel resentful that no one noticed.",
-        "suggestion": "You move ahead of the ask, and then resentment comes when the cost stays unseen. Let's make room for both parts."
+        "suggestion": "You move ahead of the ask, and then resentment comes when the cost stays unseen. Let's stay with the cost that no one sees."
       },
       {
         "text": "[Torn] Next to other moms I shrink, like they all know a rule I missed.",
-        "suggestion": "Next to other moms, you shrink and feel outside a rule everyone else seems to know."
+        "suggestion": "Next to other moms, you shrink and feel outside a rule everyone else seems to know. Can we stay with that shrinking place and the rule you feel you missed?"
       },
       {
         "text": "[Tired] By bedtime I can't tell if I am sad, angry, or just completely used up.",
