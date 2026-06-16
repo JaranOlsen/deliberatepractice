@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T09:18:13.074Z",
+  "generatedAt": "2026-06-16T09:40:26.558Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1730,11 +1730,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Flat] A wave is coming up my chest, and I want to shut it down before it takes me back there.",
-                "response": "The wave is rising and the fear is it will take you back there. I will stay with you at the edge of it and help keep one foot in this room."
+                "response": "The wave is rising, and the fear is it will take you back there. I am here with you at the first edge of it, with enough of this room present to keep you from going alone."
               },
               "no": {
                 "statement": "[Flatt] En bølge kommer opp i brystet, og jeg vil stenge den ned før den tar meg tilbake dit.",
-                "response": "Bølgen stiger, og frykten er at den skal ta deg tilbake dit. Jeg blir hos deg ved kanten av den og hjelper deg å beholde én fot i dette rommet."
+                "response": "Bølgen stiger, og frykten er at den skal ta deg tilbake dit. Jeg er her med deg ved den første kanten av den, med nok av dette rommet til stede til at du ikke går dit alene."
               }
             },
             {
