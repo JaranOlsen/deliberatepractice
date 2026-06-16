@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T09:18:13.075Z",
+  "generatedAt": "2026-06-16T09:40:26.558Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -963,11 +963,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Slow and flat] I want to go numb before the memory opens wider than I can close. I can feel the edge of it opening, and my first instinct is to disappear before I see too much.",
-            "response": "The numbness is trying to save you from seeing too much. I will respect that protection and stay at the edge with you, close enough to know the memory is there without opening it wider."
+            "response": "The numbness is trying to save you from seeing too much. I respect that protection; we can know the memory is near without opening it wider than you can bear."
           },
           "no": {
             "statement": "[Langsomt og flatt] Jeg vil bli nummen før minnet åpner seg bredere enn jeg klarer å lukke. Jeg kjenner kanten av det åpne seg, og første impuls er å forsvinne før jeg ser for mye.",
-            "response": "Nummenheten prøver å spare deg for å se for mye. Jeg respekterer den beskyttelsen og blir ved kanten sammen med deg, nær nok til å vite at minnet er der uten å åpne det bredere."
+            "response": "Nummenheten prøver å spare deg for å se for mye. Jeg respekterer den beskyttelsen; vi kan vite at minnet er nær uten å åpne det bredere enn du tåler."
           }
         },
         {
