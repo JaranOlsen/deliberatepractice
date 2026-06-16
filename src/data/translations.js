@@ -3478,7 +3478,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-sara_02": {
       "text": "[Flau] Jeg sier til venner at det går bra, og så blir jeg redd for at de hører at det ikke gjør det.",
-      "suggestion": "Du prøver å høres ut som om det går bra, samtidig som det kjennes risikabelt at de kan høre hvor lite bra det er."
+      "suggestion": "Du prøver å høres ut som om det går bra, samtidig som det kjennes risikabelt at de kan høre hvor lite bra det er. La oss bli litt ved risikoen for å bli hørt."
     },
     "dp_empathic-explorations_case-sara_03": {
       "text": "[På gråten] Jeg føler meg fortapt etter bruddet, som om jeg ikke vet hva jeg skal gjøre med kveldene.",
@@ -3490,15 +3490,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-sara_05": {
       "text": "[Panisk] Jeg sletter bilder for å bevise at jeg er ferdig, får panikk og leter etter dem igjen.",
-      "suggestion": "Én handling sier «bli ferdig», og så sier panikken at denne slutten ikke er så enkel."
+      "suggestion": "Én handling sier «bli ferdig», og så sier panikken at denne slutten ikke er så enkel. Kan vi stoppe opp i øyeblikket mellom å slette og å lete?"
     },
     "dp_empathic-explorations_case-sara_06": {
       "text": "[Flau] Når noen er snille mot meg, faller blikket før jeg rekker å stoppe det.",
-      "suggestion": "Vennligheten kommer, og blikket ditt går ned før du egentlig rekker å ta den inn."
+      "suggestion": "Vennligheten kommer, og blikket ditt går ned før du egentlig rekker å ta den inn. La oss legge merke til øyeblikket rett før blikket faller."
     },
     "dp_empathic-explorations_case-sara_07": {
       "text": "[Lavmælt] I noen sekunder etter at jeg våkner, glemmer jeg at han er borte, og så husker jeg det.",
-      "suggestion": "Det er den korte lettelsen, og så kommer tapet tilbake på én gang."
+      "suggestion": "Det er den korte lettelsen, og så kommer tapet tilbake på én gang. La oss bli ved øyeblikket der du husker det, før du må gjøre noe med det."
     },
     "dp_empathic-explorations_case-sara_08": {
       "text": "[Flau] Jeg er trist, og så blir jeg flau over at jeg fortsatt snakker om det.",
@@ -3506,7 +3506,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-sara_09": {
       "text": "[På gråten] Når jeg ser par holde hender, blir jeg lei meg, og så føler jeg meg barnslig for å ville ha det.",
-      "suggestion": "Det å se dem vekker ønsket, og så kommer skammen inn rundt ønsket."
+      "suggestion": "Det å se dem vekker ønsket, og så kommer skammen inn rundt ønsket. Kan vi bli ved ønsket et øyeblikk før skammen kommer inn?"
     },
     "dp_empathic-explorations_case-sara_10": {
       "text": "[Flau] Hvis jeg lar noen se hele rotet, ser jeg for meg at de stille ønsker at jeg skal slutte.",
@@ -3526,7 +3526,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-michael_04": {
       "text": "[Skamfull] Noen ganger får jeg lyst til å kaste telefonen etter en jobbmelding, og så føler jeg meg latterlig.",
-      "suggestion": "Trangen kommer fort, og etterpå sitter du igjen og ser på deg selv med skam."
+      "suggestion": "Trangen kommer fort, og etterpå sitter du igjen og ser på deg selv med skam. Kan vi stoppe litt ved skammen som kommer etterpå, rett før den kaller deg latterlig?"
     },
     "dp_empathic-explorations_case-michael_05": {
       "text": "[Defensiv] Et lite sukk fra kona mi kan kjennes som om hun allerede har bestemt at jeg er problemet.",
@@ -3562,11 +3562,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-jason_03": {
       "text": "[Redd] Jeg ble invitert i bursdag, og en del av meg ble glad, men så begynte jeg å bekymre meg for at jeg kom til å ødelegge det.",
-      "suggestion": "Det er glede over å bli invitert, og så begynner bekymringen å trenge seg på."
+      "suggestion": "Det er glede over å bli invitert, og så begynner bekymringen å trenge seg på. La oss legge merke til gleden før bekymringen tar plassen."
     },
     "dp_empathic-explorations_case-jason_04": {
       "text": "[Stille] Hvis jeg møter blikket til noen for lenge, antar jeg at de kan se hvor klein jeg er.",
-      "suggestion": "Blikkontakten begynner å kjennes som om de kan se hvor klein du føler deg, akkurat det du prøver å skjule."
+      "suggestion": "Blikkontakten begynner å kjennes som om de kan se hvor klein du føler deg, akkurat det du prøver å skjule. Kan vi bli ved det første sekundet av å bli sett?"
     },
     "dp_empathic-explorations_case-jason_05": {
       "text": "[Flau] Etter møter kan én liten pinlig pause få meg til å krympe meg resten av dagen.",
@@ -3578,11 +3578,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-jason_07": {
       "text": "[Stille] Før jeg presenterer meg, begynner jeg å se for meg hvor rar jeg kommer til å høres ut.",
-      "suggestion": "Allerede før du snakker, blir øyeblikket til en test på hvordan du kommer til å virke."
+      "suggestion": "Allerede før du snakker, blir øyeblikket til en test på hvordan du kommer til å virke. La oss stoppe før presentasjonen og merke forestillingen om å høres rar ut."
     },
     "dp_empathic-explorations_case-jason_08": {
       "text": "[Nølende] Jeg sammenligner meg med alle der og bestemmer alltid at jeg er den minst interessante personen.",
-      "suggestion": "Sammenligningen ender med deg nederst, og det gjør vondt før noen faktisk har avvist deg."
+      "suggestion": "Sammenligningen ender med deg nederst, og det gjør vondt før noen faktisk har avvist deg. Kan vi bli ved den såre følelsen et øyeblikk?"
     },
     "dp_empathic-explorations_case-jason_09": {
       "text": "[Blank] Noen ganger later jeg som jeg skriver melding, så småpraten ikke trenger å begynne.",
@@ -3614,7 +3614,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-laura_06": {
       "text": "[Skamfull] Selv mild berøring får meg til å skvette, og etterpå hater jeg at reaksjonen min er så synlig.",
-      "suggestion": "Skvetten kommer først, og så ser skammen ut til å komme fordi reaksjonen din har blitt sett."
+      "suggestion": "Skvetten kommer først, og så ser skammen ut til å komme fordi reaksjonen din har blitt sett. La oss bli ved skammen som kommer etter skvetten."
     },
     "dp_empathic-explorations_case-laura_07": {
       "text": "[Langsomt og flatt] Når gode nyheter kommer, kan jeg si de riktige ordene, men jeg kjenner nesten ingenting.",
@@ -3622,7 +3622,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-laura_08": {
       "text": "[Fjern] Noen ganger åpner en sang noe i meg, og et øyeblikk kan jeg nesten kjenne tristheten.",
-      "suggestion": "Sangen ser ut til å nå et sted nummenheten vanligvis dekker over, så litt tristhet får komme nær."
+      "suggestion": "Sangen ser ut til å nå et sted nummenheten vanligvis dekker over, så litt tristhet får komme nær. Kan vi bli litt ved den nesten-tristheten før den forsvinner igjen?"
     },
     "dp_empathic-explorations_case-laura_09": {
       "text": "[Anspent og på vakt] Jeg får skyldfølelse for å ønske trøst, som om det å trenge noe gjør meg til et problem.",
@@ -3646,7 +3646,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-carlos_04": {
       "text": "[Skamfull] Jeg ser for meg igjen og igjen at gutten min skvetter, og jeg hater at han lærte den frykten av meg.",
-      "suggestion": "Den scenen ser ut til å bære både kjærligheten til ham og smerten ved at frykten peker mot deg."
+      "suggestion": "Den scenen ser ut til å bære både kjærligheten til ham og smerten ved at frykten peker mot deg. La oss bli ved den smerten et øyeblikk."
     },
     "dp_empathic-explorations_case-carlos_05": {
       "text": "[Anspent] Når det blir rolig etter en krangel, begynner jeg å vente på at noen skal ta det opp igjen.",
@@ -3662,7 +3662,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-carlos_08": {
       "text": "[Sint, med knyttede never] Respektløshet treffer brystet som et slag, og jeg trenger at de forstår at det gjorde vondt.",
-      "suggestion": "Respektløsheten treffer som både sårhet og sinne, og behovet for at de skal forstå, er rett der sammen med det."
+      "suggestion": "Respektløsheten treffer som både sårhet og sinne, og behovet for at de skal forstå, er rett der sammen med det. Kan vi bli ved sårheten inne i det behovet?"
     },
     "dp_empathic-explorations_case-carlos_09": {
       "text": "[Redd] Når jeg sier at jeg vil at de skal være trygge, faller sinnet, og noe mykere skremmer meg.",
@@ -3690,7 +3690,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-nina_05": {
       "text": "[Skyldpreget] Et rotete hus får meg til å føle at alle kan se at jeg mislykkes.",
-      "suggestion": "Rotet blir mer enn rot; det blir blottstillelse, som om folk kan lese nederlaget i rommet."
+      "suggestion": "Rotet blir mer enn rot; det blir blottstillelse, som om folk kan lese nederlaget i rommet. La oss stoppe der rot blir til nederlag."
     },
     "dp_empathic-explorations_case-nina_06": {
       "text": "[Splittet] Når alle trenger meg samtidig, sier jeg ja før jeg vet hva jeg faktisk vil.",
@@ -3702,11 +3702,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-nina_08": {
       "text": "[Unnskyldende] Jeg tar oppgaver før noen spør, og så blir jeg bitter for at ingen merker det.",
-      "suggestion": "Du går foran spørsmålet, og så kommer bitterheten når prisen ikke blir sett. Vi kan gi plass til begge delene."
+      "suggestion": "Du går foran spørsmålet, og så kommer bitterheten når prisen ikke blir sett. La oss bli ved prisen ingen ser."
     },
     "dp_empathic-explorations_case-nina_09": {
       "text": "[Splittet] Ved siden av andre mødre krymper jeg, som om de alle kan en regel jeg gikk glipp av.",
-      "suggestion": "Ved siden av andre mødre krymper du og kjenner deg utenfor en regel alle andre ser ut til å kunne."
+      "suggestion": "Ved siden av andre mødre krymper du og kjenner deg utenfor en regel alle andre ser ut til å kunne. Kan vi bli ved det krympende stedet og regelen du føler du gikk glipp av?"
     },
     "dp_empathic-explorations_case-nina_10": {
       "text": "[Sliten] Ved leggetid vet jeg ikke om jeg er trist, sint eller bare helt brukt opp.",

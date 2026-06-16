@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T09:40:26.558Z",
+  "generatedAt": "2026-06-16T10:08:08.024Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -565,11 +565,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Torn] Next to other moms I shrink, like they all know a rule I missed.",
-            "response": "Next to other moms, you shrink and feel outside a rule everyone else seems to know."
+            "response": "Next to other moms, you shrink and feel outside a rule everyone else seems to know. Can we stay with that shrinking place and the rule you feel you missed?"
           },
           "no": {
             "statement": "[Splittet] Ved siden av andre mødre krymper jeg, som om de alle kan en regel jeg gikk glipp av.",
-            "response": "Ved siden av andre mødre krymper du og kjenner deg utenfor en regel alle andre ser ut til å kunne."
+            "response": "Ved siden av andre mødre krymper du og kjenner deg utenfor en regel alle andre ser ut til å kunne. Kan vi bli ved det krympende stedet og regelen du føler du gikk glipp av?"
           }
         },
         {
@@ -578,11 +578,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tearful] When I see couples holding hands, I get upset and then feel childish for wanting that.",
-            "response": "Seeing them brings up the wanting, and then shame moves in around the wanting."
+            "response": "Seeing them brings up the wanting, and then shame moves in around the wanting. Can we stay with the wanting for a moment before shame moves in?"
           },
           "no": {
             "statement": "[På gråten] Når jeg ser par holde hender, blir jeg lei meg, og så føler jeg meg barnslig for å ville ha det.",
-            "response": "Det å se dem vekker ønsket, og så kommer skammen inn rundt ønsket."
+            "response": "Det å se dem vekker ønsket, og så kommer skammen inn rundt ønsket. Kan vi bli ved ønsket et øyeblikk før skammen kommer inn?"
           }
         }
       ]

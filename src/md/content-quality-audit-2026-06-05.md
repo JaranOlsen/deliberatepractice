@@ -55,6 +55,7 @@ Branch update:
 - Empathic Evocations has received a focused marker-leakage pass: 13 English items and Bokmal localizations now move bodily/sensory material out of the client prompt and into the therapist response, and one self-harm-adjacent Aisha response avoids "cut through" imagery. Estimated targeted evocation quality moved from roughly 8.5/10 to 8.7/10.
 - Self-Disclosure has received a cross-tier brevity/boundary polish: 29 English responses and Bokmal localizations now answer more directly, reduce repeated "what is it like/I feel/I want" return formulae, and preserve boundaries around care, relationship details, attraction, competence, trauma, and safety. Estimated targeted response quality moved from roughly 8.6/10 to 8.8/10.
 - Staying in Contact with Intense Affect has received another residual contact-first polish: 22 English responses and Bokmal localizations now reduce procedural "keep/stay/small/edge/room" phrasing and lead more directly with emotional accompaniment before titration, safety, or boundary structure. Estimated targeted response quality moved from roughly 8.7/10 to 8.8/10.
+- Empathic Explorations has received a residual response-completion polish: 17 English responses and Bokmal localizations that were only reflective now add one gentle live-experience invitation, keeping the skill distinct from empathic understanding without drifting into conjecture or evocation. Estimated targeted response quality moved from roughly 8.7/10 to 8.8/10.
 
 The remaining gaps are more subtle:
 
@@ -88,8 +89,8 @@ The remaining gaps are more subtle:
 | Providing Treatment Rationale | Easy | Strong | High | Strong | Low | Excellent direct rationale markers tied to client skepticism, fear, goals, and safety. |
 | Providing Treatment Rationale | Moderate | Strong | High | Strong | Low | Good skepticism/fear/numbing/practicality coverage. Shame-about-crying and positive-thinking variants could be added only as polish. |
 | Providing Treatment Rationale | Hard | Strong | High | Strong | Low | Strong safety, self-harm, control, trauma, and anger-risk rationale markers. |
-| Empathic Explorations | Easy | Strong | Medium-High | Strong | Low | Recent spot checks kept the markers simple while adding clearer one-step invitations after close reflections. Continue only light regression checking. |
-| Empathic Explorations | Moderate | Strong | Medium-High | Strong | Low | Recent passes added flatter relational ambiguity, not-emotional/confused process, last-therapist distrust, ordinary uncertainty, and clearer invitations to stay with the live edge rather than only reflect it. |
+| Empathic Explorations | Easy | Strong | Medium-High | Strong | Low | Recent spot checks kept the markers simple while adding clearer one-step invitations after close reflections. Latest residual pass added missing exploratory invitations to reflective-only responses. |
+| Empathic Explorations | Moderate | Strong | Medium-High | Strong | Low | Recent passes added flatter relational ambiguity, not-emotional/confused process, last-therapist distrust, ordinary uncertainty, and clearer invitations to stay with the live edge rather than only reflect it. Latest residual pass strengthened response skill identity without changing markers. |
 | Empathic Explorations | Hard | Strong | Medium-High | Strong | Low | Recent passes added dazed/foggy process and direct therapist-attraction material, simplified one overly imagistic abandonment marker, pulled selected responses back from conjecture, and moved one Carlos item from historical cognition into a present exploration edge. |
 | Empathic Evocations | Easy | Strong | Medium | Strong | Low | Marker style is now much better: flat, detached, ordinary. Recent regression passes flattened remaining body/image-heavy prompts while preserving enough emotional hook for trainee evocation. Benchmark archetype coverage is partial, intentionally leaving image-making room for trainees. |
 | Empathic Evocations | Moderate | Strong | Medium-High | Strong | Low | Recent passes added betrayal, worthlessness, being used, dependency shame, macho anti-feeling, and hopeless relational shutdown while preserving relatively flat markers. Latest pass moved selected body-process detail from markers into therapist responses. |
@@ -144,25 +145,26 @@ Completed on the current content branch:
 - Empathic Evocations focused marker-leakage and safety-tone polish.
 - Self-Disclosure cross-tier brevity, boundary, and Bokmal naturalness polish.
 - Staying in Contact with Intense Affect residual contact-first response and Bokmal naturalness polish.
+- Empathic Explorations residual response-completion and Bokmal naturalness polish.
 
 These should still be reviewed in normal regression passes, but they are no longer the highest-value repair targets.
 
 ## Current Highest-Value Improvement Targets
 
-1. Empathic Explorations residual spot checks.
-   - Watch for pure-reflection responses that do not invite a small next step, and for hard-case items that drift toward intense-affect containment.
-
-2. Marker Recognition and Chair Work occasional regression checks.
+1. Marker Recognition and Chair Work occasional regression checks.
    - The core repair is complete; future passes should only address items where setup language becomes too mechanical or the first chair turn is unclear.
 
-3. Empathic Evocations occasional regression checks.
+2. Empathic Evocations occasional regression checks.
    - The core repair is complete; future passes should only spot-check markers that still hand the trainee too much image, metaphor, or body-process detail.
 
-4. Self-Disclosure occasional regression checks.
+3. Self-Disclosure occasional regression checks.
    - The main response repair is complete; future passes should only address items that drift into reassurance, alliance repair, therapist biography, or overlong return-to-client phrasing.
 
-5. Staying in Contact with Intense Affect occasional regression checks.
+4. Staying in Contact with Intense Affect occasional regression checks.
    - The residual response repair is complete; future passes should only address items that again become too procedural before receiving the affect, or safety items that lose explicit containment.
+
+5. Empathic Explorations occasional regression checks.
+   - The residual reflection-only repair is complete; future passes should only address items that lack a small next-step invitation or drift into conjecture, evocation, or intense-affect containment.
 
 ## Case-Set Constraints
 
