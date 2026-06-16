@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T10:08:08.024Z",
+  "generatedAt": "2026-06-16T10:47:49.993Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -2061,11 +2061,11 @@
               ],
               "en": {
                 "statement": "[Angry, clenching fists] After I punched the wall, I kept thinking, What kind of man scares his own family? I saw my son's face and then the attack started, like there was no father left, only some dangerous man in the kitchen.",
-                "response": "It sounds like you are giving yourself a hard time for scaring them. Can we work with that blame for a moment? Sit in this chair and say it directly to him: 'what kind of man scares his own family?' Then we will switch and hear what that does to him."
+                "response": "The wall punch turns into an attack on the father in you. Can we work with that blame for a moment? Sit in this chair and say it directly to him: 'what kind of man scares his own family?' Then we will switch and hear what that does to him."
               },
               "no": {
                 "statement": "[Sint, med knyttede never] Etter at jeg slo hull i veggen, tenkte jeg hele tiden: Hva slags mann skremmer sin egen familie? Jeg så ansiktet til sønnen min, og så startet angrepet, som om det ikke var noen far igjen, bare en farlig mann på kjøkkenet.",
-                "response": "Det høres ut som du gir deg selv hard skyld for å ha skremt dem. Kan vi arbeide litt med den skylden? Sett deg i denne stolen og si det direkte til ham: «Hva slags mann skremmer sin egen familie?» Så bytter vi og hører hva det gjør med ham."
+                "response": "Hullet i veggen blir til et angrep på faren i deg. Kan vi arbeide litt med den skylden? Sett deg i denne stolen og si det direkte til ham: «Hva slags mann skremmer sin egen familie?» Så bytter vi og hører hva det gjør med ham."
               }
             },
             {
@@ -2095,11 +2095,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Low voice] I wish I could tell my wife I get scared when she looks at me like she is afraid.",
-                "response": "That sounds like unfinished business with your wife around fear and distance between you. We can place her in the empty chair and let you say that sentence to her slowly, without forcing more than one or two lines."
+                "response": "That sentence belongs directly with your wife, where the fear between you can be named. We can place her in the empty chair and let you say it slowly: 'I get scared when you look afraid of me,' without forcing more than one or two lines."
               },
               "no": {
                 "statement": "[Lav stemme] Jeg skulle ønske jeg kunne si til kona mi at jeg blir redd når hun ser på meg som om hun er redd.",
-                "response": "Det høres ut som et uavsluttet oppgjør med kona di rundt frykt og avstand mellom dere. Vi kan plassere henne i den tomme stolen og la deg si den setningen langsomt, uten å presse mer enn én eller to linjer."
+                "response": "Den setningen hører direkte til kona di, der frykten mellom dere kan få navn. Vi kan plassere henne i den tomme stolen og la deg si det langsomt: «Jeg blir redd når du ser redd ut for meg», uten å presse mer enn én eller to linjer."
               }
             }
           ]

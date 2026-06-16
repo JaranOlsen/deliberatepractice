@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T10:08:08.024Z",
+  "generatedAt": "2026-06-16T10:47:49.993Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -1122,11 +1122,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Apologetic] I want to tell my mother, I was the child; you were supposed to notice me. When she talks now about how lonely she is, I want to say, I was lonely too, but then I feel cruel.",
-            "response": "That sounds like unfinished business with your mother around being unseen. If you are willing, we can bring her into the empty chair and let you say that line directly, just a few words at a time."
+            "response": "Your mother is the one who needs to hear that child part. If you are willing, we can bring her into the empty chair and begin with, 'I was the child; you were supposed to notice me,' just a few words at a time."
           },
           "no": {
             "statement": "[Unnskyldende] Jeg vil si til moren min: «Jeg var barnet; du skulle ha lagt merke til meg.» Når hun nå snakker om hvor ensom hun er, vil jeg si: Jeg var også ensom, men så føler jeg meg slem.",
-            "response": "Det høres ut som et uavsluttet oppgjør med moren din rundt å ikke bli sett. Hvis du vil, kan vi hente henne inn i den tomme stolen og la deg si den linjen direkte, bare noen få ord om gangen."
+            "response": "Moren din er den som trenger å høre den barnedelen. Hvis du vil, kan vi hente henne inn i den tomme stolen og begynne med: «Jeg var barnet; du skulle ha lagt merke til meg», bare noen få ord om gangen."
           }
         }
       ]
@@ -1145,11 +1145,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Low voice] I wish I could tell my wife I get scared when she looks at me like she is afraid.",
-            "response": "That sounds like unfinished business with your wife around fear and distance between you. We can place her in the empty chair and let you say that sentence to her slowly, without forcing more than one or two lines."
+            "response": "That sentence belongs directly with your wife, where the fear between you can be named. We can place her in the empty chair and let you say it slowly: 'I get scared when you look afraid of me,' without forcing more than one or two lines."
           },
           "no": {
             "statement": "[Lav stemme] Jeg skulle ønske jeg kunne si til kona mi at jeg blir redd når hun ser på meg som om hun er redd.",
-            "response": "Det høres ut som et uavsluttet oppgjør med kona di rundt frykt og avstand mellom dere. Vi kan plassere henne i den tomme stolen og la deg si den setningen langsomt, uten å presse mer enn én eller to linjer."
+            "response": "Den setningen hører direkte til kona di, der frykten mellom dere kan få navn. Vi kan plassere henne i den tomme stolen og la deg si det langsomt: «Jeg blir redd når du ser redd ut for meg», uten å presse mer enn én eller to linjer."
           }
         },
         {

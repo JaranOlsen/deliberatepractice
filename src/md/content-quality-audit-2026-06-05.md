@@ -56,6 +56,7 @@ Branch update:
 - Self-Disclosure has received a cross-tier brevity/boundary polish: 29 English responses and Bokmal localizations now answer more directly, reduce repeated "what is it like/I feel/I want" return formulae, and preserve boundaries around care, relationship details, attraction, competence, trauma, and safety. Estimated targeted response quality moved from roughly 8.6/10 to 8.8/10.
 - Staying in Contact with Intense Affect has received another residual contact-first polish: 22 English responses and Bokmal localizations now reduce procedural "keep/stay/small/edge/room" phrasing and lead more directly with emotional accompaniment before titration, safety, or boundary structure. Estimated targeted response quality moved from roughly 8.7/10 to 8.8/10.
 - Empathic Explorations has received a residual response-completion polish: 17 English responses and Bokmal localizations that were only reflective now add one gentle live-experience invitation, keeping the skill distinct from empathic understanding without drifting into conjecture or evocation. Estimated targeted response quality moved from roughly 8.7/10 to 8.8/10.
+- Marker Recognition and Chair Work has received an occasional regression polish: 20 English setup responses and Bokmal localizations now reduce generic "that sounds like" openings, name the chair-work marker in more case-specific language, and give clearer first-turn lines for empty-chair, self-critical, and worry-split tasks. Estimated targeted setup quality moved from roughly 8.7/10 to 8.8/10.
 
 The remaining gaps are more subtle:
 
@@ -104,8 +105,8 @@ The remaining gaps are more subtle:
 | Self-Disclosure | Easy | Strong | High | Strong | Low | Strong therapist-transparency markers, including first-session uncertainty, care, judgment, and personal questions. Recent cross-tier polish reduced formulaic return questions. |
 | Self-Disclosure | Moderate | Strong | Medium-High | Strong | Low | Good boredom/interest, discomfort, trauma competence, therapist impact, and care questions. Recent cross-tier polish improved brevity and boundary clarity. |
 | Self-Disclosure | Hard | Strong | High | Strong | Low | Strong coverage of repeated lateness, attractiveness, pity, therapist experience, care, and boundaries. Recent passes made disclosures briefer, more boundaried, and less formulaic. |
-| Marker Recognition and Chair Work | Easy | Strong | Medium-High | Strong | Low | Expanded to full matrix. Natural marker recognition now covers ordinary self-attack, self-interruption, unfinished business, blocked protest, and worry/catastrophizing without pre-labeling the chair task. Two setup-response passes have made consent, chair roles, and first turns more concrete while reducing scripted phrasing. |
-| Marker Recognition and Chair Work | Moderate | Strong | High | Strong | Low | Expanded coverage of divorce self-blame, mother/father unfinished business, numbness, apology block, caregiver guilt, affair guilt, and goodbye grief. Recent setup-response passes made selected items less mechanical; remaining repetition is mostly inherent to chair-work setup. |
+| Marker Recognition and Chair Work | Easy | Strong | Medium-High | Strong | Low | Expanded to full matrix. Natural marker recognition now covers ordinary self-attack, self-interruption, unfinished business, blocked protest, and worry/catastrophizing without pre-labeling the chair task. Recent setup-response passes made consent, chair roles, and first turns more concrete while reducing scripted phrasing. |
+| Marker Recognition and Chair Work | Moderate | Strong | High | Strong | Low | Expanded coverage of divorce self-blame, mother/father unfinished business, numbness, apology block, caregiver guilt, affair guilt, and goodbye grief. Latest regression pass made selected Jason, Laura, Carlos, and Nina setups more case-specific and less reliant on generic "that sounds like" marker labels. |
 | Marker Recognition and Chair Work | Hard | Strong | High | Strong | Low | Expanded coverage of catastrophizing worry, betrayal rage, trauma shame, abusive self-blame, intergenerational violence, blocked anger, and sexual-boundary shame. Recent setup-response passes made selected hard-case setups more concrete and less scripted while preserving safety and collaboration. |
 | Alliance Repair | Easy | Strong | High | Strong | Low | Expanded to full matrix with strong coverage of boredom, not-getting-it, competence, doing-therapy-wrong, previous therapy hospitalization, attention/clock ruptures, shame, and substance-use judgment. |
 | Alliance Repair | Moderate | Strong | High | Strong | Low | Expanded coverage of childhood-topic avoidance, laughed-at rupture, age/status mismatch, boredom/tiredness, siding-with-other-person rupture, trauma pacing, substance-use judgment, and violence-language rupture. |
@@ -146,25 +147,26 @@ Completed on the current content branch:
 - Self-Disclosure cross-tier brevity, boundary, and Bokmal naturalness polish.
 - Staying in Contact with Intense Affect residual contact-first response and Bokmal naturalness polish.
 - Empathic Explorations residual response-completion and Bokmal naturalness polish.
+- Marker Recognition and Chair Work occasional setup-response and Bokmal naturalness polish.
 
 These should still be reviewed in normal regression passes, but they are no longer the highest-value repair targets.
 
 ## Current Highest-Value Improvement Targets
 
-1. Marker Recognition and Chair Work occasional regression checks.
-   - The core repair is complete; future passes should only address items where setup language becomes too mechanical or the first chair turn is unclear.
-
-2. Empathic Evocations occasional regression checks.
+1. Empathic Evocations occasional regression checks.
    - The core repair is complete; future passes should only spot-check markers that still hand the trainee too much image, metaphor, or body-process detail.
 
-3. Self-Disclosure occasional regression checks.
+2. Self-Disclosure occasional regression checks.
    - The main response repair is complete; future passes should only address items that drift into reassurance, alliance repair, therapist biography, or overlong return-to-client phrasing.
 
-4. Staying in Contact with Intense Affect occasional regression checks.
+3. Staying in Contact with Intense Affect occasional regression checks.
    - The residual response repair is complete; future passes should only address items that again become too procedural before receiving the affect, or safety items that lose explicit containment.
 
-5. Empathic Explorations occasional regression checks.
+4. Empathic Explorations occasional regression checks.
    - The residual reflection-only repair is complete; future passes should only address items that lack a small next-step invitation or drift into conjecture, evocation, or intense-affect containment.
+
+5. Marker Recognition and Chair Work occasional regression checks.
+   - The core repair is complete; future passes should only address items where setup language becomes too mechanical or the first chair turn is unclear.
 
 ## Case-Set Constraints
 
