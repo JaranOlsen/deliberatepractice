@@ -3893,7 +3893,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hesitant] I still wonder what I would say to that friend from school who just stopped talking to me. One week we sat together at lunch, and then he looked past me like I was not there. I never asked why.",
-        "suggestion": "That sounds like unfinished business with that friend. We could put him in the empty chair and let you ask what got left unasked back then, just a few lines at a time."
+        "suggestion": "That friend is still sitting across from you in the unanswered lunchroom moment. If you are willing, let's put him in the empty chair and begin with the question you never asked: 'Why did you stop talking to me?' We will keep it to a few lines at a time."
       },
       {
         "text": "[Anxious] When I want to join a conversation, my throat tightens and I tell myself to wait for the perfect opening. Then the opening passes, and I feel relieved and humiliated at the same time.",
@@ -3901,11 +3901,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] After I say hello awkwardly, I replay it for hours and call myself creepy. It is not just, That was awkward. It becomes, People can tell there is something off about you, and now they know to stay away.",
-        "suggestion": "That sounds like a self-critical voice turns one awkward greeting into a whole verdict on you. We can put that critic in one chair and the embarrassed side in the other. First, let the critic say what it says about being creepy and off; then we will switch and hear from the side that had only tried to say hello."
+        "suggestion": "One awkward hello becomes a voice making a whole verdict about you. Can we give that verdict-making voice one chair and the embarrassed side the other? Start here and say the line directly: 'People can tell there is something off about you.' Then we will switch to the side that only tried to say hello."
       },
       {
         "text": "[Quietly] I still remember the table in middle school where those kids laughed every time I talked. I want to ask them, What was so funny about me? I never asked; I just learned to speak less.",
-        "suggestion": "That sounds like unfinished business with those classmates and with the question that taught you to speak less. We can put them in the empty chair and let you ask, 'what was so funny about me?' slowly and only a few words at a time."
+        "suggestion": "Those classmates still hold the question that made you speak less. If you are willing, let's place them in the empty chair and ask it directly, slowly: 'What was so funny about me?' Then we pause before you add anything more."
       },
       {
         "text": "[Hesitant] When someone compliments me, I shrug and point out the awkward part before they can. It is like I have to get there first: Yeah, but I sounded weird at the end, so please do not look too closely.",
@@ -3917,11 +3917,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] When I do not get invited, I tell myself nobody wanted me there anyway. Then I act like I did not care, but inside I keep saying, See, this is what happens when people have a choice about you.",
-        "suggestion": "That sounds like a critic turns exclusion into a verdict on your worth, while the hurt gets covered over. We can put that voice in one chair and the hurt side in the other. From this chair, say 'this is what happens when people have a choice about you'; then we will switch so the hurt side has a chance to answer."
+        "suggestion": "Not being invited turns into an internal verdict before the hurt can speak. Can we put the verdict voice in one chair and the hurt side in the other? From this chair, say, 'this is what happens when people have a choice about you'; then we will switch so the hurt side can answer."
       },
       {
         "text": "[Hesitant] I want to tell my old friend, You disappeared and I never knew why. I still remember checking messages and pretending I was fine at school. Part of me thinks it is stupid to care now, but another part still wants an answer.",
-        "suggestion": "That sounds like unfinished business with that old friend, with a question that never got a place to land. If you are willing, we can place him in the empty chair and let you say the first line directly: 'you disappeared and I never knew why.' Then we will pause and notice what your younger self still needs to say."
+        "suggestion": "The old disappearance still has no answer, and a younger part of you is still checking for one. If you are willing, let's place him in the empty chair and start with, 'you disappeared and I never knew why.' Then we will pause and see what the younger part still needs to say."
       },
       {
         "text": "[Anxious] When I want to ask a question in class, I stare at my notes until the chance passes. I know the question is probably normal, but I make myself look busy until the professor moves on.",
@@ -3935,7 +3935,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Distant] I never said to my mother, You saw what was happening and kept washing dishes. I still think about that more than I want to.",
-        "suggestion": "That sounds like unfinished business with your mother around being left unprotected. If you are willing, we can bring her into the empty chair and let you say that sentence directly to her, slowly and only as far as feels manageable."
+        "suggestion": "Your mother is there in the kitchen scene, seeing and still washing dishes. If you are willing, let's bring her into the empty chair and say the sentence directly: 'You saw what was happening and kept washing dishes.' We go slowly and stop wherever you need."
       },
       {
         "text": "[Tense and tearful] When my ex moved out, I did not cry. I cleaned the kitchen and felt nothing, like I should have been hurt but I was just blank.",
@@ -3943,11 +3943,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Distant] I keep wondering whether my ex knew what would happen after he left, that I would turn it all back on myself. I want to ask him, Did you know I would carry the blame for both of us?",
-        "suggestion": "That sounds like unfinished business with your ex around being left alone with the blame. If it feels manageable, we can put him in the empty chair and let you ask that question directly: 'did you know I would carry the blame for both of us?'"
+        "suggestion": "He is the person you want to ask about being left with all the blame. If it feels manageable, we can put him in the empty chair and let the question go directly to him: 'Did you know I would carry the blame for both of us?'"
       },
       {
         "text": "[Flat and guarded] I still tell myself I am damaged goods. It comes up when someone is kind to me or when I think about dating again. I hear, They would leave if they knew enough, so do not let anyone get too close.",
-        "suggestion": "That sounds like a severe self-evaluative voice calling you damaged and using that verdict to keep people away. If it feels safe enough, we can put that voice in one chair and the part of you that hears it in the other. From this chair, say the warning directly; then we will switch and hear what it is like to be called damaged."
+        "suggestion": "The 'damaged goods' voice warns you away from closeness before anyone can choose you. If it feels safe enough, we can put that voice in one chair and the part that hears it in the other. From this chair, say, 'they would leave if they knew enough'; then we will switch and hear what it is like to receive that warning."
       },
       {
         "text": "[Slow and flat] When anger starts, I wipe the counter, check the locks, or pour a drink until the feeling disappears. I do not decide to stop it; I just become busy and far away before it has words.",
@@ -3955,7 +3955,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] I tell myself I should have known better than to trust him. I go over little signs I ignored and make a case against myself, like I was stupid for wanting to believe he was safe.",
-        "suggestion": "That sounds like a self-blaming critic attacking the part that trusted and wanted safety. Can we put the critic in this chair and have it say the case directly: 'you should have known better, you were stupid to trust him'? Then we will switch to the trusting part that got hurt and hear what happens there."
+        "suggestion": "The blame is building a case against the part that wanted safety. Can we put that case-making voice in this chair and have it speak directly: 'you should have known better; you were stupid to trust him'? Then we will switch to the trusting part that got hurt."
       },
       {
         "text": "[Low voice] I never told the man who hurt me, You do not get to decide what I am worth.",
@@ -3967,17 +3967,17 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Distant] I still picture my bedroom door after it happened, waiting to hear my mother come down the hall. She never did. I want to ask her, Why did you never come to my room afterward?",
-        "suggestion": "That sounds like unfinished business with your mother around not being protected or reached after it happened. If it feels manageable, we can bring her into the empty chair and let you ask, 'why did you never come to my room afterward?' only as far as feels tolerable."
+        "suggestion": "Your mother is missing from the hallway after it happened, and the question is still there. If it feels manageable, we can bring her into the empty chair and ask, 'Why did you never come to my room afterward?' only as far as feels tolerable."
       }
     ],
     "case-carlos": [
       {
         "text": "[Angry, clenching fists] After I punched the wall, I kept thinking, What kind of man scares his own family? I saw my son's face and then the attack started, like there was no father left, only some dangerous man in the kitchen.",
-        "suggestion": "It sounds like you are giving yourself a hard time for scaring them. Can we work with that blame for a moment? Sit in this chair and say it directly to him: 'what kind of man scares his own family?' Then we will switch and hear what that does to him."
+        "suggestion": "The wall punch turns into an attack on the father in you. Can we work with that blame for a moment? Sit in this chair and say it directly to him: 'what kind of man scares his own family?' Then we will switch and hear what that does to him."
       },
       {
         "text": "[Tense and angry] I still want to tell my father the belt did not make me a man. It just made me scared of him.",
-        "suggestion": "That sounds like unfinished business with your father and what his discipline cost you. If you are willing, we can put him in the empty chair and have you tell him that directly, a few strong lines at a time."
+        "suggestion": "Your father belongs in the empty chair for that line about the belt and fear. If you are willing, let's put him there and begin directly: 'The belt did not make me a man. It made me scared of you.' We will keep it to a few strong lines at a time."
       },
       {
         "text": "[Tense and ashamed] I start to say sorry to my son, and my mouth shuts. I think, don't show weakness, and my face goes hard.",
@@ -3985,7 +3985,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] After I yell, I call myself a monster and then get angry at myself for thinking that. Everyone goes quiet, I hear that word in my head, and then another part snaps back, Stop whining and fix it.",
-        "suggestion": "That sounds like a harsh self-attack after the anger. Can we put the voice that calls you a monster in one chair and the part that is hit by it in the other? Start as the attacking voice and say the word monster directly; then we will let the attacked side answer."
+        "suggestion": "After the yelling, the word 'monster' becomes an attack inside you. Can we put the monster-calling voice in one chair and the part hit by it in the other? Start as the attacking voice and say the word directly; then we will let the attacked side answer."
       },
       {
         "text": "[Tense and angry] I want to tell my father, I was a kid, not one of your soldiers. He made me stand straight and take it, and even now I feel my back lock before I can say how scared I was.",
@@ -3997,15 +3997,15 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Worried] If I let my son talk back once, I imagine losing all respect in the house. First he rolls his eyes, then my wife sees I have no authority, then nobody listens and I am nothing there.",
-        "suggestion": "That sounds like a catastrophizing worry about respect. Could we put the worry in one chair and let it predict exactly what happens if he talks back? Start with the eye roll and follow the chain; then we will switch and hear from the father under that pressure."
+        "suggestion": "The worry turns one eye roll into the whole house losing respect for you. Could we put the worry in one chair and let it predict the chain out loud? Start with the eye roll, then your wife seeing no authority; after that we will switch and hear from the father under that pressure."
       },
       {
         "text": "[Defensive] I tell myself only losers need help with anger. Then I think of my father laughing at a man who could not control his house, and I hear that same laugh in my head when my wife says therapy might help.",
-        "suggestion": "That sounds like a shame-based critic blocks help by tying therapy to weakness and humiliation. Can we put that voice in this chair and let it say 'only losers need help' in your father's tone? Then we will switch to the side that wants something different for your family and hear what it costs to listen to that critic."
+        "suggestion": "Your father's laugh has become a voice that makes help feel humiliating. Can we put that voice in this chair and let it say, 'only losers need help,' in his tone? Then we will switch to the side that wants something different for your family."
       },
       {
         "text": "[Low voice] I wish I could tell my wife I get scared when she looks at me like she is afraid.",
-        "suggestion": "That sounds like unfinished business with your wife around fear and distance between you. We can place her in the empty chair and let you say that sentence to her slowly, without forcing more than one or two lines."
+        "suggestion": "That sentence belongs directly with your wife, where the fear between you can be named. We can place her in the empty chair and let you say it slowly: 'I get scared when you look afraid of me,' without forcing more than one or two lines."
       },
       {
         "text": "[Tense and angry] When tears come up, I clench my jaw and turn them into heat before anyone can see. If the anger is there, nobody asks what hurt. They just back up, and that feels safer.",
@@ -4027,11 +4027,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tired] I tell myself a good mother would not want an hour where nobody needs her. When I close the bedroom door, the rule starts up: selfish, lazy, what kind of mother hides from her own family?",
-        "suggestion": "That sounds like a self-critical voice attacking your need for rest through the good-mother rule. We can put that rule in one chair and the exhausted side in the other. First let the rule say 'selfish, lazy, what kind of mother hides?'; then we will switch and hear the tired side."
+        "suggestion": "The good-mother rule attacks the need for rest as soon as the door closes. Can we put that rule in one chair and the exhausted side in the other? First let the rule say, 'selfish, lazy, what kind of mother hides?' Then we will switch and hear the tired side."
       },
       {
         "text": "[Apologetic] I want to tell my mother, I was the child; you were supposed to notice me. When she talks now about how lonely she is, I want to say, I was lonely too, but then I feel cruel.",
-        "suggestion": "That sounds like unfinished business with your mother around being unseen. If you are willing, we can bring her into the empty chair and let you say that line directly, just a few words at a time."
+        "suggestion": "Your mother is the one who needs to hear that child part. If you are willing, we can bring her into the empty chair and begin with, 'I was the child; you were supposed to notice me,' just a few words at a time."
       },
       {
         "text": "[Torn] When anger rises, I smile and ask what everyone wants for dinner. It happens so fast that I barely notice the anger until later, when I am wiping the counter too hard and imagining what I wish I had said.",
@@ -4039,11 +4039,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Guilty] If dinner is not ready, I call myself useless. I can have worked all day, answered everyone's messages, helped the boys, and still one missed thing becomes proof that I am failing at the only job that matters.",
-        "suggestion": "That sounds like a self-evaluative voice makes your worth depend on constant care. We can put the voice that says 'useless' in one chair and the tired part in the other. From this chair, tell her the missed dinner proves she is failing; then we will switch and hear from the exhausted side that has been carrying so much."
+        "suggestion": "The missed dinner becomes a voice saying your whole worth depends on constant care. We can put the 'useless' voice in one chair and the tired part in the other. From this chair, tell her the missed dinner proves she is failing; then we will switch and hear from the exhausted side carrying so much."
       },
       {
         "text": "[Tearful] I still want to tell my ex, You left and somehow I am the one still apologizing. I handle the forms, the boys, the messages, and I still hear myself explaining why I am not doing enough.",
-        "suggestion": "That sounds like unfinished business with your ex around blame and apology. We can place him in the empty chair and let you say that sentence directly, then pause and notice what it brings up."
+        "suggestion": "Your ex belongs in the empty chair for the apology you are still carrying. We can place him there and let you say the sentence directly: 'You left, and somehow I am the one still apologizing.' Then we pause and notice what it brings up."
       },
       {
         "text": "[Apologetic] I try to say no, then explain until the no turns into yes. I start with, I can't today, and before they even argue, I am listing reasons, softening my voice, and offering another way to help.",
