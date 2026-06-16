@@ -4914,7 +4914,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-sara_01": {
       "text": "[På gråten] Når jeg sier at jeg fortsatt savner ham, tenker du egentlig at jeg høres latterlig ut?",
-      "suggestion": "Nei. Jeg hører ikke noe latterlig; jeg hører sorg over en som betydde noe. Jeg blir beveget av hvor varsomt du prøver å overleve dette tapet, og jeg vil vite hvordan det er å høre det."
+      "suggestion": "Nei. Jeg hører ikke noe latterlig. Jeg hører sorg over en som betydde noe, og jeg blir berørt av hvor varsomt du prøver å overleve dette tapet. Legg merke til hva som skjer når jeg sier det."
     },
     "dp_self-disclosure_case-sara_02": {
       "text": "[På gråten] Du blir sikkert lei av å høre meg gråte over ham hver uke.",
@@ -4922,11 +4922,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-sara_03": {
       "text": "[På gråten] Når jeg gråter og du blir stille, blir jeg redd for at tårene mine får deg til å trekke deg unna.",
-      "suggestion": "Tårene dine får meg ikke til å trekke meg unna. Jeg kjenner meg nær og varsom når de kommer, og jeg vil at du legger merke til hvordan det er å høre det fra meg."
+      "suggestion": "Tårene dine får meg ikke til å trekke meg unna. Når du gråter, kjenner jeg meg nær og varsom, ikke fjern. La oss legge merke til delen av deg som ventet at jeg skulle gå."
     },
     "dp_self-disclosure_case-sara_04": {
       "text": "[Lavmælt] Dette er første gang jeg er i terapi. Forventer du at jeg skal vite hvor jeg skal begynne?",
-      "suggestion": "Nei. Jeg forventer ikke at du vet hvor du skal begynne. Jeg kan hjelpe oss å finne en start, og jeg vil legge merke til hvordan det er for deg å slippe å gjøre dette riktig."
+      "suggestion": "Nei. Jeg forventer ikke at du vet hvor du skal begynne. Jeg kan hjelpe oss å finne en start; du trenger ikke gjøre terapi riktig for meg."
     },
     "dp_self-disclosure_case-sara_05": {
       "text": "[Flau] Jeg synes det er flaut at du ser meg så rotete og trengende.",
@@ -4934,7 +4934,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-sara_06": {
       "text": "[Nølende] Tror du faktisk at jeg ikke fortsatt er alene om et år, eller prøver du bare å trøste meg?",
-      "suggestion": "Jeg kan ikke love hva et år vil bringe, og jeg vil ikke trøste deg med en sikkerhet jeg ikke har. Jeg kjenner ekte håp sammen med deg her. Hva skjer når du hører håp fra meg samtidig som frykten sier at du fortsatt kan være alene?"
+      "suggestion": "Jeg kan ikke love hva et år vil bringe, og jeg vil ikke trøste deg med en sikkerhet jeg ikke har. Jeg kjenner ekte håp når jeg sitter med deg. La oss gi plass til begge deler: håpet mitt og frykten din for at du fortsatt kan være alene."
     },
     "dp_self-disclosure_case-sara_07": {
       "text": "[Redd] Når jeg spør om jeg er for mye, er jeg redd du begynner å trekke deg unna.",
@@ -4950,7 +4950,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-sara_10": {
       "text": "[Nølende] Bryr du deg egentlig om meg, eller er omsorg bare en del av jobben din?",
-      "suggestion": "Jeg bryr meg om deg i denne terapirelasjonen; det er ikke bare en rolle. Grensene er en del av å ta ansvar for omsorgen. Hvordan er det å høre både omsorgen og grensen samtidig?"
+      "suggestion": "Jeg bryr meg om deg i denne terapirelasjonen. Grensene er en del av å ta ansvar for omsorgen, ikke et tegn på at omsorgen er falsk. La oss legge merke til hva det vekker å høre begge deler."
     },
     "dp_self-disclosure_case-michael_01": {
       "text": "[Utfordrende] Vær ærlig—høres jeg svak ut når jeg snakker om å være såret?",
@@ -4958,7 +4958,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-michael_02": {
       "text": "[Anspent] Når jeg spør om du også blir sint, trenger jeg å vite at du ikke ser ned på mitt sinne.",
-      "suggestion": "Jeg kjenner sinne i meg selv også, og jeg ser ikke ned på ditt. Jeg kjenner meg stødig nok til å være med det her. Hvordan er det å høre at jeg ikke står over følelsen du er redd jeg skal dømme?"
+      "suggestion": "Jeg kjenner sinne i meg selv også, og jeg ser ikke ned på ditt. Jeg kjenner meg stødig nok til å være med det her; jeg står ikke over følelsen du er redd jeg skal dømme."
     },
     "dp_self-disclosure_case-michael_03": {
       "text": "[Anspent] Du tenker sikkert at det er jeg som er problemet hjemme, sånn som alle andre.",
@@ -4974,11 +4974,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-michael_06": {
       "text": "[Utfordrende] Er du sterk nok til å tåle meg når jeg er sint?",
-      "suggestion": "Jeg kjenner meg stødig nok til å være med sinnet ditt, og jeg er ikke opptatt av å bevise styrke mot deg. Jeg vil at vi bruker den stødigheten til å forstå hva sinnet beskytter."
+      "suggestion": "Jeg kjenner meg stødig nok til å være med sinnet ditt. Jeg er ikke her for å bevise styrke mot deg; jeg vil at vi forstår hva sinnet beskytter."
     },
     "dp_self-disclosure_case-michael_07": {
       "text": "[Fast] Du ser rolig ut mens jeg forteller om ropingen hjemme; går noe av dette egentlig inn på deg?",
-      "suggestion": "Ja, det går inn på meg. Jeg holder meg rolig med vilje, så vi kan fortsette å se på det uten at noen av oss trekker seg unna. Hva legger du merke til når jeg sier at roen min ikke er avstand?"
+      "suggestion": "Ja, det går inn på meg. Jeg holder meg rolig med vilje, så vi kan fortsette å se på det uten at noen av oss trekker seg unna; roen min er stødighet, ikke avstand."
     },
     "dp_self-disclosure_case-michael_08": {
       "text": "[Utfordrende] Respekterer du det å jobbe med en som blir så opphetet som meg?",
@@ -4986,7 +4986,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-michael_09": {
       "text": "[Nysgjerrig] Er du gift? Jeg lurer på om du tar med deg sinnet hjem.",
-      "suggestion": "Detaljer om min relasjon holder jeg private her, og jeg vet noe om arbeidet med å roe ned sinne før det renner over i relasjoner. Jeg ser ikke på sinnet ditt fra avstand. Hva betyr det for deg om jeg kjenner noe av dette innenfra?"
+      "suggestion": "Detaljer om min relasjon holder jeg private her, og jeg vet noe om arbeidet med å roe ned sinne før det renner over i relasjoner. Jeg ser ikke på ditt sinne fra avstand. La oss legge merke til hvorfor det er viktig for deg å vite."
     },
     "dp_self-disclosure_case-michael_10": {
       "text": "[Flau] Si at du skjønner hvorfor dette er så vanskelig, for jeg føler meg latterlig som trenger hjelp.",
@@ -5018,7 +5018,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-jason_07": {
       "text": "[Stille] Når jeg blir stille, dømmer du meg eller blir irritert inni deg?",
-      "suggestion": "Jeg dømmer ikke stillheten din, og jeg blir ikke irritert. Jeg respekterer hvor mye det koster å bli værende her, og vi kan behandle stillheten som en del av arbeidet i stedet for noe du må beklage."
+      "suggestion": "Jeg dømmer ikke stillheten din, og jeg blir ikke irritert. Jeg respekterer innsatsen det tar å bli her. Stillheten kan være en del av arbeidet, ikke noe du må beklage."
     },
     "dp_self-disclosure_case-jason_08": {
       "text": "[Nølende] Hvis jeg sier noe kleint her, ville du sagt fra, eller bare sittet og dømt det inni deg?",
@@ -5026,7 +5026,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-jason_09": {
       "text": "[Nølende] Blir du noen gang nervøs i grupper, eller er det bare meg?",
-      "suggestion": "Ja, jeg kan også bli nervøs i grupper iblant. Jeg sier det fordi jeg ikke ser frykten din som rar eller fremmed. Hvordan er det å høre at det ikke bare er deg?"
+      "suggestion": "Ja, jeg kan også bli nervøs i grupper iblant. Jeg sier det fordi jeg ikke ser frykten din som rar eller fremmed; den hører til et menneskelig register, selv om din er smertefull."
     },
     "dp_self-disclosure_case-jason_10": {
       "text": "[Stille] Når jeg spør om jeg noen gang blir mindre engstelig, trenger jeg å vite om du faktisk tror på det.",
@@ -5046,7 +5046,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-laura_04": {
       "text": "[Langsomt og flatt] Har du jobbet med traumer som mine før, eller er jeg for avstengt for dette?",
-      "suggestion": "Ja, jeg har arbeidet med traumer før, og jeg ser ikke avstengningen din som en feil. Jeg vil også si fra hvis jeg tenker at vi trenger mer støtte. Hvordan er det å høre at avstengningen ikke gjør dette umulig for meg?"
+      "suggestion": "Ja, jeg har arbeidet med traumer før, og jeg ser ikke avstengningen din som en feil. Jeg vil også si fra hvis jeg tenker at vi trenger mer støtte. Avstengningen din gjør ikke dette umulig for meg."
     },
     "dp_self-disclosure_case-laura_05": {
       "text": "[Fjern] Etter at du har hørt hva som skjedde, tenker du mindre om meg eller ser meg som ødelagt?",
@@ -5062,7 +5062,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-laura_08": {
       "text": "[Nølende] Tror du vennligheten din vil gjøre meg verre eller mer avhengig?",
-      "suggestion": "Jeg vil ikke at vennligheten min skal presse fram noe eller gjøre deg avhengig av meg. Jeg er varsom med omsorg her; den må være noe de beskyttende delene dine kan teste. Hva ville hjulpet deg å beholde valget mens du tar imot noe av den?"
+      "suggestion": "Jeg vil ikke at vennligheten min skal presse fram noe eller gjøre deg avhengig av meg. Jeg vil at omsorg her skal være noe de beskyttende delene dine kan teste, mens du beholder valget."
     },
     "dp_self-disclosure_case-laura_09": {
       "text": "[Langsomt og flatt] Når jeg blir blank, er du redd for at jeg holder på å bryte sammen?",
@@ -5070,7 +5070,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-laura_10": {
       "text": "[Nysgjerrig] Tror du jeg kan begynne å føle igjen, eller er du bare snill?",
-      "suggestion": "Ja, jeg tror det er mulig å kjenne mer igjen, og jeg sier det ikke bare for å være snill. Jeg kjenner tålmodighet med veien dit. Hva skjer når du hører troen min uten at du blir bedt om å presse den fram?"
+      "suggestion": "Ja, jeg tror det er mulig å kjenne mer igjen, og jeg sier det ikke bare for å være snill. Jeg er tålmodig med veien dit; vi trenger ikke presse det fram for å bevise det."
     },
     "dp_self-disclosure_case-carlos_01": {
       "text": "[Utfordrende] Tror du jeg er en dårlig far fordi jeg mister det?",
@@ -5090,7 +5090,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-carlos_05": {
       "text": "[Anspent og sint] Er du tøff nok til å sitte med meg når jeg blir så sint?",
-      "suggestion": "Jeg kjenner meg stødig nok til å sitte med sinnet ditt. Jeg er ikke her for å overkjøre deg eller bli overkjørt av deg; dette trenger ikke bli en konkurranse. Hvordan er det å høre at jeg kan være med sinnet ditt uten å slåss med deg?"
+      "suggestion": "Jeg kjenner meg stødig nok til å sitte med sinnet ditt. Jeg er ikke her for å overkjøre deg eller bli overkjørt av deg; dette trenger ikke bli en konkurranse. Vi kan bruke stødigheten min til å forstå hva sinnet beskytter."
     },
     "dp_self-disclosure_case-carlos_06": {
       "text": "[Skamfull] Kan du respektere meg når du har sett hvor stygt temperamentet mitt kan bli?",
@@ -5098,11 +5098,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-carlos_07": {
       "text": "[Utfordrende] Fungerer puste-greiene for deg når du kjenner at du er klar til å smelle?",
-      "suggestion": "Ja. Å roe ned pusten hjelper meg å beholde valg når aktiveringen stiger, og derfor bruker jeg det her. Jeg ber deg ikke gjøre noe jeg ser på som svakt. Hva legger du merke til når du hører det fra meg?"
+      "suggestion": "Ja. Å roe pusten hjelper meg å beholde valg når aktiveringen stiger. Jeg tar det inn fordi jeg respekterer kontroll, ikke fordi jeg ser det som svakhet."
     },
     "dp_self-disclosure_case-carlos_08": {
       "text": "[Nysgjerrig] Er du gift, og mister du noen gang besinnelsen med folk du er glad i?",
-      "suggestion": "Detaljer om min relasjon holder jeg private her, og jeg kan si at sinne er menneskelig for meg. Jeg sitter ikke over ditt sinne og dømmer det. Hvordan er det å høre både privatheten og ærligheten i det?"
+      "suggestion": "Detaljer om min relasjon holder jeg private her, og jeg kan si at sinne er menneskelig for meg. Jeg sitter ikke over ditt i fordømmelse. Vi kan legge merke til hva privatheten og ærligheten hver for seg vekker i deg."
     },
     "dp_self-disclosure_case-carlos_09": {
       "text": "[Utfordrende] Tror du faktisk at jeg kan endre meg, eller sier du bare det terapeuter sier?",
@@ -5126,7 +5126,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-nina_04": {
       "text": "[Nølende] Kjenner du noen gang skyld når du hviler, eller er det bare mitt problem?",
-      "suggestion": "Jeg kjenner også skyld rundt hvile fra mitt eget liv, og det hjelper meg å ta din skyld på alvor i stedet for å se den som bare ditt problem. Jeg behandler ikke skylden din som dum. Hvordan er det å høre det fra meg?"
+      "suggestion": "Jeg kjenner også skyld rundt hvile fra mitt eget liv, og det hjelper meg å ta din på alvor. Jeg behandler den ikke som dum eller bare som et deg-problem."
     },
     "dp_self-disclosure_case-nina_05": {
       "text": "[På gråten] Når jeg gråter sånn, blir du utilpass med meg?",
@@ -5150,11 +5150,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-nina_10": {
       "text": "[Nølende] Synes du virkelig jeg fortjener omsorg når jeg ikke har gjort meg fortjent til den?",
-      "suggestion": "Ja, jeg mener at du fortjener omsorg før du har gjort deg fortjent til noe som helst. Jeg er tydelig på det her, og den tvilende delen trenger ikke tro meg raskt. Hva skjer når jeg sier det så direkte?"
+      "suggestion": "Ja, jeg mener at du fortjener omsorg før du har gjort deg fortjent til noe som helst. Jeg er tydelig på det her. Den tvilende delen trenger ikke tro meg raskt."
     },
     "dp_self-disclosure_case-aisha_01": {
       "text": "[Nølende] Bryr du deg egentlig om meg, eller får du betalt for det?",
-      "suggestion": "Jeg bryr meg om deg i denne terapirelasjonen, og jeg kjenner den omsorgen her sammen med deg. At dette er betalt arbeid gir omsorgen grenser; det gjør den ikke falsk. Hva skjer når du hører begge deler?"
+      "suggestion": "Jeg bryr meg om deg i denne terapirelasjonen. Den betalte rollen gir omsorgen grenser; den gjør den ikke falsk. Vi kan være med både lettelsen og mistilliten det kan vekke."
     },
     "dp_self-disclosure_case-aisha_02": {
       "text": "[Desperat] Når jeg spør om du kommer til å forlate meg, trenger jeg å vite om du allerede vil ha avstand.",
@@ -5162,7 +5162,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-aisha_03": {
       "text": "[Nølende] Skremte jeg deg da jeg sa jeg ville skade meg?",
-      "suggestion": "Du skremte meg ikke bort. Jeg ble bekymret fordi sikkerheten din betyr noe, og jeg er fortsatt her sammen med deg. Hvordan er det å høre at bekymringen min betyr varsom nærhet, ikke avstand?"
+      "suggestion": "Du skremte meg ikke bort. Jeg ble bekymret fordi tryggheten din betyr noe, og jeg er fortsatt her sammen med deg. Bekymringen min betyr varsom nærhet, ikke avstand."
     },
     "dp_self-disclosure_case-aisha_04": {
       "text": "[Såret] Da du ikke svarte på meldingen min, ble jeg såret og lurte på om grensen betydde mer enn meg.",
@@ -5186,7 +5186,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-aisha_09": {
       "text": "[Anklagende] Du var to minutter forsinket igjen. Merker du i det hele tatt hva det gjør med meg, eller betyr det bare ingenting for deg?",
-      "suggestion": "Jeg la merke til at jeg var forsinket, og jeg beklager. Det var ikke ingenting for meg, og jeg kan se for meg at det traff som om du ikke betydde noe. Hva skjedde i deg da jeg ikke var her presis?"
+      "suggestion": "Jeg la merke til at jeg var forsinket, og jeg beklager. Det var ikke ingenting for meg. Jeg kan se for meg at det traff som om du ikke betydde noe; la oss være med det som skjedde i deg da jeg ikke var her presis."
     },
     "dp_self-disclosure_case-aisha_10": {
       "text": "[Nølende] Tror du jeg noen gang vil ha det greit, eller er jeg for intens til det?",
@@ -5194,7 +5194,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-david_01": {
       "text": "[Kontrollert] Når jeg sier at du må overbevise meg, følger jeg med på om du blir defensiv.",
-      "suggestion": "Når du ber meg overbevise deg, merker jeg et drag mot å bevise meg. Jeg velger å være tydelig i stedet for defensiv, fordi det å bevise meg ville trekke oss bort fra det du tester i meg. Hvordan er det å se at jeg setter ord på det i stedet for å forsvare meg?"
+      "suggestion": "Når du ber meg overbevise deg, merker jeg et drag mot å bevise meg selv. Jeg velger åpenhet i stedet for forsvar, fordi det å bevise meg selv ville bommet på det du tester i meg. La oss se på den testen sammen."
     },
     "dp_self-disclosure_case-david_02": {
       "text": "[Utfordrende] Vil du faktisk jobbe med en som kan høres så arrogant ut som meg?",
@@ -5214,7 +5214,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-david_06": {
       "text": "[Avvisende] Jeg vet at jeg er forsinket igjen. Jobben tok overhånd. Uansett, hvor skal vi begynne?",
-      "suggestion": "Dette er vanskelig å si direkte: Når du kommer for sent gjentatte ganger og går raskt videre fra det, kjenner jeg at arbeidet mellom oss blir skjøvet til side, og jeg kjenner meg litt avfeid. Hva skjer for deg når du hører det, før vi bestemmer hvor vi skal begynne?"
+      "suggestion": "Dette er vanskelig å si direkte: når du kommer for sent gjentatte ganger og går raskt forbi det, kjennes arbeidet mellom oss skjøvet til side, og jeg føler meg litt avvist. La oss starte der før vi bestemmer hvor vi skal gå videre."
     },
     "dp_self-disclosure_case-david_07": {
       "text": "[Såret, men skarp] Skammer du deg noen gang over å ta feil, eller er den svakheten bare min?",
@@ -5222,15 +5222,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-david_08": {
       "text": "[Avvisende] Dette er kleint, men synes du jeg er attraktiv, eller ser du bare enda en vanskelig klient?",
-      "suggestion": "Jeg vil svare varsomt: Jeg kan se deg som en attraktiv person, og jeg forholder meg ikke til deg romantisk eller seksuelt. Dette er en terapirelasjon. Jeg ser deg heller ikke bare som en vanskelig klient. Hvordan er det å høre alt det?"
+      "suggestion": "Jeg vil svare varsomt: Jeg kan se deg som en attraktiv person, og jeg forholder meg ikke til deg romantisk eller seksuelt. Dette er en terapirelasjon. Jeg ser deg heller ikke som bare en vanskelig klient; begge grensene betyr noe her."
     },
     "dp_self-disclosure_case-david_09": {
       "text": "[Nysgjerrig] Er du gift, og ville det få deg til å dømme affæren min?",
-      "suggestion": "Detaljer om min relasjon holder jeg private her, og jeg kan si tydelig at jeg ikke er her for å dømme deg. Jeg er interessert i hva affæren betyr og hva den koster deg. Hva skjer når du hører privathet fra meg uten fordømmelse?"
+      "suggestion": "Jeg holder relasjonsdetaljene mine private her, og jeg er ikke her for å dømme deg. Jeg er interessert i hva affæren betyr og hva den koster deg; privatheten min er ikke en dom."
     },
     "dp_self-disclosure_case-david_10": {
       "text": "[Utfordrende] Respekterer du meg egentlig når du ser disse sidene av meg?",
-      "suggestion": "Jeg respekterer deg. Jeg kjenner det sterkest når du lar de vanskeligere sidene bli synlige her. Hvordan er det å høre at respekten også gjelder de sidene?"
+      "suggestion": "Jeg respekterer deg. Respekten er sterkest her når de vanskeligere delene er synlige, ikke bare når du er polert."
     },
     "dp_self-disclosure_case-marcus_01": {
       "text": "[Flatt] Når jeg spør om jeg er ødelagt, trenger jeg å vite hva du ser.",
@@ -5262,11 +5262,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-marcus_08": {
       "text": "[Nølende] Skremmer traumahistorier deg, eller kan du være stødig med min?",
-      "suggestion": "Traumefortellinger går inn på meg, og de skremmer meg ikke bort. Jeg arbeider for å holde meg forankret i dem, og jeg kjenner meg stødig nok til å høre din i det tempoet du velger. Hvordan er det å høre det?"
+      "suggestion": "Traumehistorier påvirker meg, og de skremmer meg ikke bort. Jeg arbeider for å holde meg jordet med dem, og jeg er stødig nok til å høre din i tempoet du velger."
     },
     "dp_self-disclosure_case-marcus_09": {
       "text": "[Stille og på vakt] Har du faktisk jobbet med noen som meg, eller øver du deg på meg?",
-      "suggestion": "Jeg har jobbet med traumer og med mennesker som bruker få ord for å holde seg trygge. Jeg lærer fortsatt, men jeg bruker deg ikke som øvingsobjekt; jeg har støtte rundt dette arbeidet og sier fra hvis vi trenger en annen ressurs. Hvordan er det å høre det?"
+      "suggestion": "Jeg har jobbet med traumer og med mennesker som bruker få ord for å holde seg trygge. Jeg lærer alltid, men jeg bruker deg ikke som praksis. Jeg har støtte rundt dette arbeidet og vil si fra hvis vi trenger en annen ressurs."
     },
     "dp_self-disclosure_case-marcus_10": {
       "text": "[Lav stemme] Er du komfortabel med stillhet, eller får den deg til å ville fylle den?",

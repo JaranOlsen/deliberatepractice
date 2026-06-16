@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T21:49:05.543Z",
+  "generatedAt": "2026-06-16T09:18:13.075Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -1012,11 +1012,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tearful] When I say I still miss him, do you secretly think I sound ridiculous?",
-            "response": "No. I do not hear ridiculous; I hear grief for someone who mattered. I feel moved by how carefully you are trying to survive this loss, and I want to know what it is like to hear that."
+            "response": "No. I do not hear ridiculous. I hear grief for someone who mattered, and I am moved by how carefully you are trying to survive this loss. Notice what happens as I say that."
           },
           "no": {
             "statement": "[På gråten] Når jeg sier at jeg fortsatt savner ham, tenker du egentlig at jeg høres latterlig ut?",
-            "response": "Nei. Jeg hører ikke noe latterlig; jeg hører sorg over en som betydde noe. Jeg blir beveget av hvor varsomt du prøver å overleve dette tapet, og jeg vil vite hvordan det er å høre det."
+            "response": "Nei. Jeg hører ikke noe latterlig. Jeg hører sorg over en som betydde noe, og jeg blir berørt av hvor varsomt du prøver å overleve dette tapet. Legg merke til hva som skjer når jeg sier det."
           }
         }
       ]
@@ -1048,11 +1048,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tense and angry] Are you tough enough to sit with me when I get this angry?",
-            "response": "I feel steady enough to sit with your anger. I am not here to overpower you or be overpowered by you; this does not need to become a contest. What is it like to hear that I can stay with your anger without fighting you?"
+            "response": "I feel steady enough to sit with your anger. I am not here to overpower you or be overpowered by you; this does not need to become a contest. We can use my steadiness to understand what the anger protects."
           },
           "no": {
             "statement": "[Anspent og sint] Er du tøff nok til å sitte med meg når jeg blir så sint?",
-            "response": "Jeg kjenner meg stødig nok til å sitte med sinnet ditt. Jeg er ikke her for å overkjøre deg eller bli overkjørt av deg; dette trenger ikke bli en konkurranse. Hvordan er det å høre at jeg kan være med sinnet ditt uten å slåss med deg?"
+            "response": "Jeg kjenner meg stødig nok til å sitte med sinnet ditt. Jeg er ikke her for å overkjøre deg eller bli overkjørt av deg; dette trenger ikke bli en konkurranse. Vi kan bruke stødigheten min til å forstå hva sinnet beskytter."
           }
         }
       ]
@@ -1073,11 +1073,11 @@
           ],
           "en": {
             "statement": "[Quiet and guarded] Have you actually worked with someone like me, or are you learning on me?",
-            "response": "I have worked with trauma and with people who use few words to stay safe. I am always learning, but I am not using you as practice; I have support around this work and will say if we need another resource. What is it like to hear that?"
+            "response": "I have worked with trauma and with people who use few words to stay safe. I am always learning, but I am not using you as practice. I have support around this work and will say if we need another resource."
           },
           "no": {
             "statement": "[Stille og på vakt] Har du faktisk jobbet med noen som meg, eller øver du deg på meg?",
-            "response": "Jeg har jobbet med traumer og med mennesker som bruker få ord for å holde seg trygge. Jeg lærer fortsatt, men jeg bruker deg ikke som øvingsobjekt; jeg har støtte rundt dette arbeidet og sier fra hvis vi trenger en annen ressurs. Hvordan er det å høre det?"
+            "response": "Jeg har jobbet med traumer og med mennesker som bruker få ord for å holde seg trygge. Jeg lærer alltid, men jeg bruker deg ikke som praksis. Jeg har støtte rundt dette arbeidet og vil si fra hvis vi trenger en annen ressurs."
           }
         },
         {
