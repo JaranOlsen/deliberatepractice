@@ -3881,8 +3881,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Du kommer inn allerede i spenn, som om en del av deg står vakt ved døra før noen har sagt noe."
     },
     "dp_empathic-evocations_case-michael_03": {
-      "text": "[Anspent] På slutten av dagen verker kjeven, og da skjønner jeg at jeg har holdt tilbake kommentarer.",
-      "suggestion": "Kjeven bærer hele dagen, låst rundt hver skarpe setning du måtte svelge."
+      "text": "[Anspent] På slutten av dagen skjønner jeg hvor mange kommentarer jeg ikke sa.",
+      "suggestion": "Det er som om hele dagen er bitt sammen, med hver skarpe setning fortsatt holdt bak tennene."
     },
     "dp_empathic-evocations_case-michael_04": {
       "text": "[Flau] Når jeg har smelt, blir jeg flau etterpå, men jeg prøver mest å ikke tenke på det.",
@@ -3917,8 +3917,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Øyeblikket vender seg mot deg, og setningen glipper unna som om rommet trekker den bort."
     },
     "dp_empathic-evocations_case-jason_02": {
-      "text": "[Nølende] Hendene mine svetter under bordet, så jeg skjuler dem.",
-      "suggestion": "Til og med hendene kjennes som om de kan avsløre deg, så de forsvinner under bordet før noen ser."
+      "text": "[Nølende] I møter holder jeg hendene under bordet fordi jeg er redd folk skal legge merke til meg.",
+      "suggestion": "Til og med hendene må holdes skjult, som om ett lite tegn kan røpe deg."
     },
     "dp_empathic-evocations_case-jason_03": {
       "text": "[Engstelig] Jeg øver på hva jeg skal si, men når folk ser på meg, fryser jeg.",
@@ -3957,8 +3957,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Dagen kommer avbleket, som om fargen er tatt ut av den før du engang setter deg opp."
     },
     "dp_empathic-evocations_case-laura_02": {
-      "text": "[Fjern] En dør smeller, og jeg vet at det bare er en dør, men kroppen reagerer først.",
-      "suggestion": "Lyden når kroppen før hodet rekker å forklare, og den gamle alarmen går gjennom rommet her og nå."
+      "text": "[Fjern] En dør smeller, og jeg vet at det ikke handler om meg, men et øyeblikk mister jeg tråden.",
+      "suggestion": "Lyden når deg før fakta gjør det, en gammel alarm som går gjennom rommet før du rekker å si til deg selv at det bare er en dør."
     },
     "dp_empathic-evocations_case-laura_03": {
       "text": "[Sviktet] Jeg fant ut at han hadde truffet en annen, og nå slår all varme jeg hadde for ham seg av.",
@@ -3985,8 +3985,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Du folder deg innover som papir under ordene hans, luften går ut av deg til det å svare føles meningsløst."
     },
     "dp_empathic-evocations_case-laura_09": {
-      "text": "[Anspent og på vakt] Vennlige ord gjør at jeg får vondt i halsen, og jeg vet ikke hvorfor.",
-      "suggestion": "Vennligheten berører et låst sted, og det snører seg i halsen før ordene rekker å komme."
+      "text": "[Anspent og på vakt] Vennlige ord gjør meg ukomfortabel, og jeg vet ikke hvorfor.",
+      "suggestion": "Vennligheten når et låst sted, og noe strammer seg før ordene får slippe inn."
     },
     "dp_empathic-evocations_case-laura_10": {
       "text": "[Flatt og på vakt] Jeg har en bag pakket ved døra, selv om jeg vet det høres rart ut.",
@@ -4017,16 +4017,16 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Etter eksplosjonen blir rommet lite og forsiktig, som om alle beveger seg rundt knust glass."
     },
     "dp_empathic-evocations_case-carlos_07": {
-      "text": "[Sint, med knyttede never] Jeg biter tennene sammen til hodet gjør vondt.",
-      "suggestion": "Tennene låser seg som en skrustikke, holder ordene og varmen inne til smerten begynner å dunke."
+      "text": "[Sint, stramt kontrollert] Jeg blir så sint at jeg slutter å snakke, fordi jeg er redd for hva som kommer ut.",
+      "suggestion": "Ordene holdes hardt fast, all varmen bak munnen, så den ikke skal slippe løs."
     },
     "dp_empathic-evocations_case-carlos_08": {
       "text": "[Verdiløs] Hvis jeg gir meg foran sønnen min, kjenner jeg meg skamfull og svak.",
       "suggestion": "Å gi seg får deg til å kjenne deg visket ut, som om konturen din blekner til det ikke står noen mann igjen der."
     },
     "dp_empathic-evocations_case-carlos_09": {
-      "text": "[Anspent og sint] Jeg holder hardt i rattet når jeg prøver å ikke reagere.",
-      "suggestion": "Hendene klemmer rattet som et lokk over en kokende gryte, og holder varmen inne med hvite knoker."
+      "text": "[Anspent og sint] I bilen etter en krangel sier jeg til meg selv at jeg ikke skal reagere.",
+      "suggestion": "Du sitter der og holder reaksjonen nede, som om varmen må bli under begge hender til du kommer deg gjennom kjøreturen."
     },
     "dp_empathic-evocations_case-carlos_10": {
       "text": "[Bekymret] Jeg er redd sønnen min lærer å være forsiktig rundt meg.",
@@ -4045,8 +4045,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Å trenge hjelp får deg til å krympe mot gulvet, som om verdien din faller idet hendene dine ikke er fulle."
     },
     "dp_empathic-evocations_case-nina_04": {
-      "text": "[Sliten] Jeg smiler gjennom hodepiner fordi folk trenger at jeg fortsetter.",
-      "suggestion": "Smilet strekkes over smerten og prøver å holde hele dagen oppe i en tynn tråd."
+      "text": "[Sliten] Jeg smiler og fortsetter fordi folk trenger det av meg.",
+      "suggestion": "Smilet må holde dagen oppe, tynt og strukket over hvor vondt det gjør å fortsette."
     },
     "dp_empathic-evocations_case-nina_05": {
       "text": "[Unnskyldende] Utover kvelden er jeg så sliten at jeg knapt klarer å fortsette.",
@@ -4078,7 +4078,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-aisha_02": {
       "text": "[Desperat] Jeg kan gå fra å be noen bli til å be dem la meg være i fred på sekunder.",
-      "suggestion": "Følelsen snur fra å rekke ut hendene til å slå gnister, raskere enn du rekker å roe deg."
+      "suggestion": "Følelsen snur på et øyeblikk, fra å strekke deg etter dem til å skyve dem bort, raskere enn du rekker å finne fast grunn."
     },
     "dp_empathic-evocations_case-aisha_03": {
       "text": "[Forvirret] Jeg klarer ikke si om jeg er sint, redd eller tom; alt skifter for fort.",
@@ -4086,7 +4086,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-aisha_04": {
       "text": "[Panisk] Jeg klorer meg på armen når jeg begynner å føle meg uvirkelig.",
-      "suggestion": "Kloringen blir en desperat måte å skjære gjennom uvirkelighetsfølelsen og finne deg selv et øyeblikk."
+      "suggestion": "Kloringen blir et akutt forsøk på å kjenne deg virkelig et øyeblikk når alt begynner å gli unna."
     },
     "dp_empathic-evocations_case-aisha_05": {
       "text": "[Panisk] Når skriveprikkene forsvinner, får jeg panikk med en gang.",
@@ -4094,7 +4094,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-aisha_06": {
       "text": "[Desperat] Når noen sier ha det, vet jeg at det er normalt, men jeg mister kontrollen.",
-      "suggestion": "Ha det får rommet til å tippe før logikken rekker å hjelpe, og alt i deg leter etter et gulv."
+      "suggestion": "Ordet ha det får alt til å tippe før logikken rekker å hjelpe, og plutselig prøver du å finne noe fast å stå på."
     },
     "dp_empathic-evocations_case-aisha_07": {
       "text": "[Benektende] Forrige uke fikk jeg selvmordstanker da han forsvant, men så tekstet han tilbake, så kanskje jeg har det greit nå.",
@@ -4169,8 +4169,8 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Søvnen kaster deg tilbake til et rom som fortsatt er ladet og summende, som om faren fulgte med ut."
     },
     "dp_empathic-evocations_case-marcus_05": {
-      "text": "[Lav stemme] Når leiligheten er stille, blir det vanskelig å puste.",
-      "suggestion": "Stillheten senker seg over brystet, tung nok til å gjøre luften trang."
+      "text": "[Lav stemme] Når leiligheten er stille, får jeg det verre, men jeg blir som regel der.",
+      "suggestion": "Stillheten presser seg på til selv luften kjennes trang, og det å bli der blir en egen form for utholdenhet."
     },
     "dp_empathic-evocations_case-marcus_06": {
       "text": "[Stille og på vakt] Når noe godt skjer, legger jeg merke til det, men jeg kjenner det ikke særlig.",
@@ -4181,12 +4181,12 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Det dempede lyset myker opp kantene og hindrer rommet i å komme for tydelig mot deg."
     },
     "dp_empathic-evocations_case-marcus_08": {
-      "text": "[Lav stemme] Hvis noen banker på uventet, begynner hjertet å hamre.",
-      "suggestion": "Et uventet bank på døra gjør døra til en trussel, og hjertet begynner å hamre fra innsiden."
+      "text": "[Lav stemme] Hvis noen banker på uventet, blir jeg satt helt ut.",
+      "suggestion": "Bankingen gjør døra farlig et øyeblikk, og hele systemet ditt begynner å hamre før du vet hvem som er der."
     },
     "dp_empathic-evocations_case-marcus_09": {
       "text": "[Forvirret] Når jeg prøver å snakke om det, vet jeg ikke hvilken følelse som skal komme først.",
-      "suggestion": "Det er som å stå i gjørme med for mange dører rundt deg, uten å vite hvilken som åpnes uten å trekke deg tilbake dit."
+      "suggestion": "Det er som om alle følelsene står i samme døråpning, og ingen av dem er tydelig nok til å gå først."
     },
     "dp_empathic-evocations_case-marcus_10": {
       "text": "[Flatt] Noen kvelder sitter jeg i bilen før jeg går opp.",

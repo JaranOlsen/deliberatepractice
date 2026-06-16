@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-06-14T14:32:28.931Z"
+  "generatedAt": "2026-06-15T21:49:05.534Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -17091,9 +17091,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Evocations",
           "caseId": "case-carlos"
         },
-        "riskFlags": [
-          "substance_use"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "evoke_image",
           "heighten_felt_sense",

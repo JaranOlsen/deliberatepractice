@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T14:32:28.945Z",
+  "generatedAt": "2026-06-15T21:49:05.543Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -746,12 +746,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Tense and guarded] Kind words make my throat hurt, and I don't know why.",
-            "response": "The kindness touches a locked place, and the ache rises in your throat before any words can answer."
+            "statement": "[Tense and guarded] Kind words make me uncomfortable, and I do not know why.",
+            "response": "The kindness reaches a locked place, and something tightens before you can let the words in."
           },
           "no": {
-            "statement": "[Anspent og på vakt] Vennlige ord gjør at jeg får vondt i halsen, og jeg vet ikke hvorfor.",
-            "response": "Vennligheten berører et låst sted, og det snører seg i halsen før ordene rekker å komme."
+            "statement": "[Anspent og på vakt] Vennlige ord gjør meg ukomfortabel, og jeg vet ikke hvorfor.",
+            "response": "Vennligheten når et låst sted, og noe strammer seg før ordene får slippe inn."
           }
         },
         {
@@ -760,11 +760,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Confused] When I try to talk about it, I do not know what feeling is supposed to come first.",
-            "response": "It is like standing in mud with too many doors around you, not knowing which one opens without pulling you back there."
+            "response": "It is like every feeling crowds the same doorway, and none of them is clear enough to step through first."
           },
           "no": {
             "statement": "[Forvirret] Når jeg prøver å snakke om det, vet jeg ikke hvilken følelse som skal komme først.",
-            "response": "Det er som å stå i gjørme med for mange dører rundt deg, uten å vite hvilken som åpnes uten å trekke deg tilbake dit."
+            "response": "Det er som om alle følelsene står i samme døråpning, og ingen av dem er tydelig nok til å gå først."
           }
         }
       ]
