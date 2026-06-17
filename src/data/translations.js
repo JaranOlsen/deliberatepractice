@@ -2273,124 +2273,124 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Du er usikker på hvor du skal begynne og ser til meg for litt retning."
     },
     "dp_empathic-understanding_case-aisha_01": {
-      "text": "[Panisk] Hvis du ser bort mens jeg snakker, får jeg panikk for at du mister interessen.",
-      "suggestion": "Et blikk bort vekker panikk for at jeg er i ferd med å miste interessen."
+      "text": "[Panisk] Hvis du ser bort mens jeg snakker, får jeg panikk for at du mister interessen, og da begynner jeg å snakke fortere for å holde deg hos meg.",
+      "suggestion": "Når jeg ser bort, får du panikk for at jeg mister interessen, og du prøver hardere å holde meg hos deg."
     },
     "dp_empathic-understanding_case-aisha_02": {
-      "text": "[Panisk] Når en melding ikke kommer, låser brystet seg, og jeg får ikke puste.",
-      "suggestion": "Når meldingen ikke kommer, låser panikken brystet og tar pusten fra deg."
+      "text": "[Panisk] Når en melding ikke kommer, låser brystet seg, og jeg får ikke puste, og jeg sjekker igjen og igjen selv om det ikke får svaret til å komme.",
+      "suggestion": "Når meldingen ikke kommer, låser panikken brystet, og du fortsetter likevel å sjekke etter svaret."
     },
     "dp_empathic-understanding_case-aisha_03": {
-      "text": "[Desperat] Jeg hører meg selv trygle «ikke gå», og så roper jeg plutselig.",
-      "suggestion": "Du hører deg selv trygle om at de ikke må gå, og så kommer sinnet plutselig ut."
+      "text": "[Desperat] Jeg hører meg selv trygle «ikke gå», og så roper jeg plutselig; etterpå klarer jeg ikke å forklare hvordan jeg gikk fra å trenge dem til å angripe dem.",
+      "suggestion": "Du går fra å trenge at de ikke går, til å angripe dem, og etterpå er det skiftet vanskelig å forklare."
     },
     "dp_empathic-understanding_case-aisha_04": {
-      "text": "[Forvirret] Jeg vet ikke hva jeg skal snakke om i dag; jeg vet bare at jeg våknet og følte meg feil.",
-      "suggestion": "Du er ikke sikker på hvor du skal begynne, men noe kjentes feil helt fra starten av dagen."
+      "text": "[Forvirret] Jeg vet ikke hva jeg skal snakke om i dag; jeg våknet og kjente meg feil, sjekket telefonen altfor mange ganger, og klarer ikke si om jeg er trist eller sint.",
+      "suggestion": "Du er usikker på hvor du skal begynne, og dagen startet med en feil følelse du ikke klarer å sortere i trist eller sint."
     },
     "dp_empathic-understanding_case-aisha_05": {
-      "text": "[Bekymret] Jeg prøver å la være å klore, men jeg vet ikke hva annet jeg skal gjøre når panikken blir så sterk.",
-      "suggestion": "Du vil slutte å klore, og panikken kjennes så sterk at du ikke vet hva annet du skal gjøre."
+      "text": "[Bekymret] Jeg prøver å la være å klore, men når panikken blir så sterk, begynner hendene å bevege seg før jeg har ord for det som skjer.",
+      "suggestion": "Du prøver å la være å klore, og panikken kommer foran ordene og ut i hendene dine."
     },
     "dp_empathic-understanding_case-aisha_06": {
-      "text": "[Desperat] Hvis noen avlyser, vil jeg gi opp før de kan forlate meg igjen.",
-      "suggestion": "En avlysning kjennes som å bli forlatt igjen, og du vil gi opp først."
+      "text": "[Desperat] Hvis noen avlyser, vil jeg gi opp før de kan forlate meg igjen, selv om en del av meg vet at de kan ha en ordentlig grunn.",
+      "suggestion": "En avlysning kjennes som å bli forlatt igjen, selv om en del av deg vet at det kan finnes en annen grunn."
     },
     "dp_empathic-understanding_case-aisha_07": {
-      "text": "[Skamfull] Jeg hater meg selv etter at jeg eksploderer, selv om jeg var livredd først.",
-      "suggestion": "Etter at du eksploderer, hater du deg selv, selv om du først var livredd."
+      "text": "[Skamfull] Jeg hater meg selv etter at jeg eksploderer, selv om jeg var livredd først; jeg spiller av det jeg sa om og om igjen og kjenner meg ekkel.",
+      "suggestion": "Etter at du eksploderer, spiller du av det du sa og kjenner deg ekkel, selv om redselen kom først."
     },
     "dp_empathic-understanding_case-aisha_08": {
-      "text": "[Skamfull] Jeg tester folk for å se om de bryr seg, og så hater jeg meg selv for å trenge bevis.",
-      "suggestion": "Du trenger bevis på at folk bryr seg, og så skammer du deg over å trenge det."
+      "text": "[Skamfull] Jeg tester folk for å se om de bryr seg, og så hater jeg meg selv for å trenge bevis; beroligelsen varer ikke særlig lenge.",
+      "suggestion": "Du trenger bevis på at folk bryr seg, og så skammer du deg når selv beroligelsen ikke varer."
     },
     "dp_empathic-understanding_case-aisha_09": {
-      "text": "[Desperat] Når en time slutter, tipper rommet, og jeg blir svimmel og forlatt.",
-      "suggestion": "Når timen slutter, føler du deg svimmel og forlatt."
+      "text": "[Desperat] Når en time slutter, tipper rommet, og jeg blir svimmel og forlatt; jeg vet at timen er over, men kroppen min vet ikke det.",
+      "suggestion": "Når timen slutter, kjenner du deg svimmel og forlatt, selv om du vet at timen er over."
     },
     "dp_empathic-understanding_case-aisha_10": {
-      "text": "[Redd] Jeg er redd for at hvis jeg slutter å jage etter folk, blir det ingenting igjen av meg.",
-      "suggestion": "Hvis du slutter å jage etter folk, frykter du at det ikke er noe igjen av deg."
+      "text": "[Redd] Jeg er redd for at hvis jeg slutter å jage etter folk, blir det ingenting igjen av meg; uten krisen vet jeg ikke hvem jeg er.",
+      "suggestion": "Hvis du slutter å jage etter folk, frykter du at det ikke blir noe igjen av deg og ingen klar følelse av hvem du er."
     },
     "dp_empathic-understanding_case-david_01": {
-      "text": "[Kontrollert] Å bli kalt kald får meg til å stritte imot fordi det høres for nært sannheten ut.",
-      "suggestion": "Å bli kalt kald svir fordi det høres for nært sannheten ut."
+      "text": "[Kontrollert] Å bli kalt kald får meg til å stritte imot fordi det høres for nært sannheten ut, og så blir jeg sint på henne for å legge merke til det.",
+      "suggestion": "Å bli kalt kald svir som noe for nært sannheten, og sinne kommer opp over å bli sett sånn."
     },
     "dp_empathic-understanding_case-david_02": {
-      "text": "[Frustrert] Jeg vet at faren min var umulig å tilfredsstille, men å vite det endrer ikke hvor verdiløs jeg føler meg.",
-      "suggestion": "Du vet at han var umulig å tilfredsstille, og likevel blir verdiløsheten værende."
+      "text": "[Frustrert] Jeg vet at faren min var umulig å tilfredsstille, men å vite det endrer ikke hvor verdiløs jeg føler meg når jeg ser for meg ansiktet hans.",
+      "suggestion": "Du vet at han var umulig å tilfredsstille, og likevel vekker ansiktet hans verdiløshet."
     },
     "dp_empathic-understanding_case-david_03": {
-      "text": "[Defensiv] Når jeg føler meg kritisert, begynner jeg å ramse opp alt jeg har fått til.",
-      "suggestion": "Når du føler deg kritisert, begynner du å ramse opp det du har fått til."
+      "text": "[Defensiv] Når jeg føler meg kritisert, begynner jeg å ramse opp alt jeg har fått til, for ellers føler jeg meg blottlagt og latterlig.",
+      "suggestion": "Når kritikk gjør at du kjenner deg blottlagt, begynner du å ramse opp det du har fått til."
     },
     "dp_empathic-understanding_case-david_04": {
-      "text": "[Kontrollert] Ros føles godt, så renner det ut igjen, og jeg trenger mer bevis.",
-      "suggestion": "Ros føles godt et øyeblikk, så forsvinner den og gjør at du trenger mer bevis."
+      "text": "[Kontrollert] Ros føles godt, så renner det ut igjen; neste dag trenger jeg mer bevis på at jeg fortsatt betyr noe.",
+      "suggestion": "Ros føles godt et øyeblikk, så forsvinner den og etterlater deg med behov for mer bevis på at du betyr noe."
     },
     "dp_empathic-understanding_case-david_05": {
-      "text": "[Avvisende] Når jeg innrømmer at jeg tar feil, føler jeg meg ribbet og liten.",
-      "suggestion": "Å innrømme at du tar feil, får deg til å føle deg ribbet og liten."
+      "text": "[Avvisende] Når jeg innrømmer at jeg tar feil, føler jeg meg ribbet og liten, så jeg argumenterer selv når en del av meg vet at jeg gjorde skade.",
+      "suggestion": "Å innrømme at du tar feil, får deg til å kjenne deg ribbet og liten, selv når du vet at det ble skade."
     },
     "dp_empathic-understanding_case-david_06": {
-      "text": "[Såret, men skarp] Når barna mine gråter, blir jeg utålmodig, og etterpå hater jeg hvor hard jeg høres ut.",
-      "suggestion": "Når barna dine gråter, blir du utålmodig og hater hvor hard du høres ut."
+      "text": "[Såret, men skarp] Når barna mine gråter, blir jeg utålmodig, og så hater jeg hvor hard jeg høres ut når jeg ser dem trekke seg unna.",
+      "suggestion": "Når barna dine gråter, kommer utålmodigheten ut, og så hater du hvor hard du hørtes ut når de trekker seg unna."
     },
     "dp_empathic-understanding_case-david_07": {
-      "text": "[Såret, men skarp] Etter at affæren kom fram, får det å være hjemme meg til å føle meg mislykket.",
-      "suggestion": "Hjemme vekker nå følelsen av at du har mislyktes."
+      "text": "[Såret, men skarp] Etter at affæren kom fram, får det å være hjemme meg til å føle meg mislykket; selv vanlige rom kjennes som bevis mot meg.",
+      "suggestion": "Etter at affæren kom fram, vekker selve hjemmet følelsen av at du har mislyktes."
     },
     "dp_empathic-understanding_case-david_08": {
-      "text": "[Bekymret] Jeg har drukket mer etter jobb fordi det er den eneste gangen jeg slutter å kjenne angst.",
-      "suggestion": "Drikkingen gir deg en pause fra angsten, og du er bekymret for å bli avhengig av det."
+      "text": "[Bekymret] Jeg har drukket mer etter jobb fordi det er den eneste gangen jeg slutter å kjenne angst og slutter å høre skuffelsen til kona mi.",
+      "suggestion": "Drikkingen gir deg en pause fra angsten og fra å høre skuffelsen til kona di."
     },
     "dp_empathic-understanding_case-david_09": {
-      "text": "[Forvirret] Jeg vet ikke hva vi burde snakke om denne uken; jeg håpet at du kunne styre timen.",
-      "suggestion": "Du er usikker på hva du skal ta opp, og håper jeg kan hjelpe oss å finne en retning."
+      "text": "[Forvirret] Jeg vet ikke hva vi burde snakke om denne uken; hvis jeg velger, kommer jeg nok til å velge det som får meg til å se minst blottlagt ut.",
+      "suggestion": "Du er usikker på hva du skal ta opp, og det å velge selv henger sammen med å holde deg mindre blottlagt."
     },
     "dp_empathic-understanding_case-david_10": {
-      "text": "[Såret, men skarp] Hvis jeg bare er ordinær i noe, føles det som om jeg forsvinner.",
-      "suggestion": "Å være ordinær kjennes som å forsvinne."
+      "text": "[Såret, men skarp] Hvis jeg bare er ordinær i noe, føles det som om jeg forsvinner; jeg vil heller la være å prøve enn å være middels foran folk.",
+      "suggestion": "Å være ordinær kjennes som å forsvinne, og det å være middels foran folk er vanskelig å møte."
     },
     "dp_empathic-understanding_case-marcus_01": {
-      "text": "[Langsomt og flatt] De fleste dager fullfører jeg rutinene og kjenner nesten ingenting bak ansiktet.",
-      "suggestion": "Du går gjennom rutinene mens du nesten ikke kjenner noe."
+      "text": "[Langsomt og flatt] De fleste dager fullfører jeg rutinene og kjenner nesten ingenting bak ansiktet; folk snakker til meg, og jeg svarer litt forsinket.",
+      "suggestion": "Du går gjennom rutinene og svarer folk mens du nesten ikke kjenner noe bak ansiktet."
     },
     "dp_empathic-understanding_case-marcus_02": {
-      "text": "[Forvirret] Jeg vet ikke hva jeg skal snakke om i dag; jeg tenkte kanskje du kunne styre det.",
-      "suggestion": "Du er usikker på hvor du skal starte og håper jeg kan hjelpe til med å styre timen."
+      "text": "[Forvirret] Jeg vet ikke hva jeg skal snakke om i dag; hvis jeg velger noe, er jeg redd vi åpner mer enn jeg tåler.",
+      "suggestion": "Du er usikker på hvor du skal starte og redd for at det å velge tema skal åpne for mye."
     },
     "dp_empathic-understanding_case-marcus_03": {
-      "text": "[Hyperårvåken] Mareritt gjør meg oppskrudd og tom, som om rommet ikke er trygt.",
-      "suggestion": "Mareritt etterlater deg oppskrudd, tom og usikker på om rommet er trygt."
+      "text": "[Hyperårvåken] Mareritt gjør meg oppskrudd og tom, som om rommet ikke er trygt; jeg sitter og lytter før jeg husker hvor jeg er.",
+      "suggestion": "Mareritt etterlater deg oppskrudd, tom og lyttende før du helt vet hvor du er."
     },
     "dp_empathic-understanding_case-marcus_04": {
-      "text": "[Langsomt og flatt] Jeg unngår folk fordi det føles tryggere enn å forklare hvorfor jeg forsvinner.",
-      "suggestion": "Å unngå folk kjennes tryggere enn å forklare hvorfor du forsvinner."
+      "text": "[Langsomt og flatt] Jeg unngår folk fordi det føles tryggere enn å forklare hvorfor jeg forsvinner, og så sitter jeg alene og får det verre.",
+      "suggestion": "Å unngå folk kjennes tryggere enn å forklare deg, og så kjennes det verre å være alene."
     },
     "dp_empathic-understanding_case-marcus_05": {
-      "text": "[Bekymret] Jeg har drukket etter jobb for å få sove, og nå er jeg bekymret for at jeg ikke får sove uten.",
-      "suggestion": "Alkohol har hjulpet deg å sove, og nå er du bekymret for at du trenger det."
+      "text": "[Bekymret] Jeg har drukket etter jobb for å få sove, og nå er jeg bekymret for at jeg ikke får sove uten; jeg hater å være avhengig av det.",
+      "suggestion": "Alkohol har hjulpet deg å sove, og nå er du bekymret og sint over å være avhengig av det."
     },
     "dp_empathic-understanding_case-marcus_06": {
-      "text": "[Stille og på vakt] Når noe godt skjer, kjennes det langt borte, som om det tilhører noen andre.",
-      "suggestion": "Selv gode ting kjennes langt borte, som om de tilhører noen andre."
+      "text": "[Stille og på vakt] Når noe godt skjer, kjennes det langt borte, som om det tilhører noen andre; jeg vet hvilket uttrykk jeg skal ha.",
+      "suggestion": "Selv gode ting kjennes langt borte, og du vet hvilket uttrykk du skal vise."
     },
     "dp_empathic-understanding_case-marcus_07": {
-      "text": "[Flatt] Et dørsmell kan kaste meg tilbake før jeg vet hvor jeg er.",
-      "suggestion": "Et plutselig dørsmell kaster deg inn i alarm før du vet hvor du er."
+      "text": "[Flatt] Et dørsmell kan kaste meg tilbake før jeg vet hvor jeg er; etterpå blir jeg flau over at en vanlig lyd gjorde det.",
+      "suggestion": "Et plutselig dørsmell kaster deg inn i alarm, og etterpå blir du flau over at det skjedde."
     },
     "dp_empathic-understanding_case-marcus_08": {
-      "text": "[Trist] En venn fra avdelingen sluttet å ringe, og jeg sier til meg selv at jeg ikke ville snakke uansett.",
-      "suggestion": "Du sier til deg selv at du ikke ville ha kontakt, og stillheten gjør likevel vondt."
+      "text": "[Trist] En venn fra avdelingen sluttet å ringe, og jeg sier til meg selv at jeg ikke ville snakke uansett, men jeg sjekker fortsatt telefonen.",
+      "suggestion": "Du sier til deg selv at du ikke ville ha kontakt, og likevel sjekker du telefonen og kjenner stillheten."
     },
     "dp_empathic-understanding_case-marcus_09": {
-      "text": "[Håpløs] Noen netter tenker jeg at ingen ville lagt merke til det om jeg ikke våknet.",
-      "suggestion": "De nettene kjennes dypt håpløse, som om ingen ville lagt merke til om du var borte."
+      "text": "[Håpløs] Noen netter tenker jeg at ingen ville lagt merke til det om jeg ikke våknet; jeg planlegger ikke noe, jeg føler meg bare så usynlig.",
+      "suggestion": "De nettene føler du deg så usynlig at det å ikke våkne virker som noe ingen ville lagt merke til."
     },
     "dp_empathic-understanding_case-marcus_10": {
-      "text": "[Redd] Jeg vil slippe folk inn, men hver gang noen kommer nær, begynner jeg å se etter utgangen.",
-      "suggestion": "Du vil ha nærhet og blir samtidig så redd at du begynner å lete etter en vei ut."
+      "text": "[Redd] Jeg vil slippe folk inn, men hver gang noen kommer nær, begynner jeg å se etter utgangen, og så hater jeg å være alene.",
+      "suggestion": "Du vil ha nærhet, så sender frykten deg mot utgangen, og etterpå hater du å være alene."
     },
     "dp_empathic-affirmation-validation_case-sara_01": {
       "text": "[Lavmælt] Jeg sjekker kontoene hans på sosiale medier selv om det knuser meg.",

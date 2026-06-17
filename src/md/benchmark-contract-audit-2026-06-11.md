@@ -51,14 +51,14 @@ Ratings should consider: structural fidelity, marker validity, emotional pressur
 
 ## Current Baseline
 
-This audit uses the current branch state after the 2026-06-17 hard evocations pass.
+This audit uses the current branch state after the 2026-06-17 hard understanding pass.
 
 Automated averages are triage only, not quality scores. They still reveal places where the app may be more compressed than Goldman.
 
 | Skill | App Statement Avg | Benchmark Statement Avg | App Suggestion Avg | Benchmark Response Avg | Signal |
 | --- | ---: | ---: | ---: | ---: | --- |
 | Therapist Self-Awareness | 63.9 | 76.8 | 26.1 | 25.9 | Now structurally close. |
-| Empathic Understanding | 16.0 | 32.9 | 12.2 | 17.8 | Strong, but hard tier remains more compressed than Goldman. |
+| Empathic Understanding | 17.7 | 32.9 | 13.6 | 17.8 | Hard tier now has stronger explicit emotional meaning while staying basic-empathy pure. |
 | Empathic Affirmation and Validation | 23.8 | 27.1 | 21.9 | 23.0 | Hard and moderate response-variety/Bokmal pass complete; now strong with later light regression only. |
 | Exploratory Questions | 16.8 | 22.5 | 11.8 | 26.3 | App intentionally keeps questions cleaner than Goldman examples. |
 | Treatment Rationale | 15.5 | 20.5 | 28.8 | 54.2 | App is briefer than Goldman but usually clinically focused. |
@@ -81,7 +81,7 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | Therapist Self-Awareness | Hard | 8.4 | Correct exercise contract and high-risk activation are present; benchmark hard examples are still more extended and press the therapist longer. |
 | Empathic Understanding | Easy | 8.4 | Clean basic reflections with good beginner marker fit; remaining work is light ordinary-life breadth and Bokmal polish. |
 | Empathic Understanding | Moderate | 8.2 | Mostly skill-pure reflections, but markers and responses are shorter and less varied than Goldman intermediate examples. |
-| Empathic Understanding | Hard | 8.0 | Clinically usable and safe, but hard-case markers/responses are often very compressed for a skill that should still model full explicit emotional meaning. |
+| Empathic Understanding | Hard | 8.4 | Recent pass broadened Aisha, David, and Marcus markers with explicit emotional meaning while keeping responses short, reflective, and free of validation, conjecture, advice, or questions. |
 | Empathic Affirmation and Validation | Easy | 8.2 | Good validation markers and generally clear legitimacy statements; later light Bokmal polish remains useful. |
 | Empathic Affirmation and Validation | Moderate | 8.4 | Recent pass removed repeated four-word response openings and reduced literal Bokmal validation phrasing while preserving explicit legitimacy. |
 | Empathic Affirmation and Validation | Hard | 8.4 | Recent pass expanded hard markers, preserved high-risk validation, removed repeated openings, and made Bokmal more natural. |
@@ -119,10 +119,10 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Empathic Understanding, hard | Safe and skill-pure, but very compressed compared with Goldman hard-tier examples. | Broaden explicit emotional meaning in high-risk/hard cases while keeping basic empathy pure. |
-| 2 | Marker Recognition and Chair Work, hard | Strong marker validity, but hard setup responses still repeat "that sounds like..." and can be less sequenced than Goldman. | Vary marker naming, strengthen consent/task setup, and sharpen first enactment turns. |
-| 3 | Alliance Repair, hard then moderate | Strong rupture coverage, but repeated "thank you for..." openings and literal Bokmal reduce world-class polish. | Polish repair openings, ownership language, and Norwegian idiom without weakening the repair sequence. |
-| 4 | Empathic Explorations, hard | Good overall, but severe cases can drift toward containment or conjecture. | Occasional boundary checks plus Bokmal "la oss/kan vi" reduction. |
+| 1 | Marker Recognition and Chair Work, hard | Strong marker validity, but hard setup responses still repeat "that sounds like..." and can be less sequenced than Goldman. | Vary marker naming, strengthen consent/task setup, and sharpen first enactment turns. |
+| 2 | Alliance Repair, hard then moderate | Strong rupture coverage, but repeated "thank you for..." openings and literal Bokmal reduce world-class polish. | Polish repair openings, ownership language, and Norwegian idiom without weakening the repair sequence. |
+| 3 | Empathic Explorations, hard | Good overall, but severe cases can drift toward containment or conjecture. | Occasional boundary checks plus Bokmal "la oss/kan vi" reduction. |
+| 4 | Empathic Understanding, moderate | Hard is now stronger; moderate remains shorter and less varied than Goldman intermediate examples. | Lightly broaden selected explicit-emotion markers and responses without adding interpretation. |
 | 5 | Empathic Evocations, easy | Moderate and hard are now stronger; easy markers remain intentionally flat but sometimes too brief for beginner practice. | Add a little ordinary scene detail only where the prompt lacks enough edge for image-making. |
 | 6 | Staying in Contact with Intense Affect, hard | Strong after recent repairs; residual risk is safety-sensitive regression. | High-risk spot checks only unless flagged. |
 | 7 | Empathic Affirmation and Validation, Self-Disclosure, and Treatment Rationale | These are now strong and close to the task contract. | Polish only when flagged or during dedicated Bokmal passes. |
@@ -140,7 +140,23 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-17 hard evocations pass: move next to Empathic Understanding hard. The goal is to broaden explicit emotional meaning in Aisha, David, and Marcus items while keeping the therapist suggestions as basic empathy, not validation, conjecture, evocation, or containment.
+Current recommendation after the 2026-06-17 hard understanding pass: move next to Marker Recognition and Chair Work hard. The goal is to vary marker naming, strengthen consent/task setup, and sharpen first enactment turns without adding new chair-work tasks or changing the matrix.
+
+### Implementation Update: Empathic Understanding Hard
+
+A hard-tier empathic-understanding marker and reflection pass revised all 30 Aisha, David, and Marcus items.
+
+Current hard understanding state after this pass:
+
+- 90 total empathic-understanding items preserved; 30 hard items revised.
+- Hard client marker average increased from about 14.7 to 23.5 words.
+- Hard minimum marker length increased from 11 to 18 words.
+- The edited client prompts now provide fuller explicit emotional meaning around attachment panic, self-harm urges, shame, narcissistic exposure, alcohol/anxiety, trauma numbing, passive death thoughts, and approach-avoidance around closeness.
+- Suggested responses remain one-sentence basic reflections with no questions, advice, validation phrases, conjectures, or evocation-heavy imagery.
+- Every edited English item has a matching Bokmal localization, with common therapy-English phrasing avoided in the revised slice.
+- Quality rating for Empathic Understanding hard increased from about 8.0/10 to about 8.4/10.
+
+Empathic Understanding hard is now strong enough to leave the active-priority slot. Moderate understanding can receive later light breadth polish, but the next highest-value contract target is Marker Recognition and Chair Work hard.
 
 ### Implementation Update: Empathic Evocations Hard
 

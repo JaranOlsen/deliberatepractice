@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T00:14:10.342Z",
+  "generatedAt": "2026-06-17T07:00:17.299Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -78,12 +78,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Dismissive] When I admit I am wrong, I feel stripped down and small.",
-            "response": "Admitting you are wrong leaves you feeling stripped down and small."
+            "statement": "[Dismissive] When I admit I am wrong, I feel stripped down and small, so I argue even when part of me knows I caused damage.",
+            "response": "Admitting you are wrong leaves you feeling stripped down and small, even when you know there was damage."
           },
           "no": {
-            "statement": "[Avvisende] Når jeg innrømmer at jeg tar feil, føler jeg meg ribbet og liten.",
-            "response": "Å innrømme at du tar feil, får deg til å føle deg ribbet og liten."
+            "statement": "[Avvisende] Når jeg innrømmer at jeg tar feil, føler jeg meg ribbet og liten, så jeg argumenterer selv når en del av meg vet at jeg gjorde skade.",
+            "response": "Å innrømme at du tar feil, får deg til å kjenne deg ribbet og liten, selv når du vet at det ble skade."
           }
         },
         {

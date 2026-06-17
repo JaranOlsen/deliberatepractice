@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T00:14:10.342Z",
+  "generatedAt": "2026-06-17T07:00:17.299Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -204,12 +204,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Slow and flat] Most days I complete the routine and feel almost nothing behind my face.",
-            "response": "You move through the routine while feeling almost nothing."
+            "statement": "[Slow and flat] Most days I complete the routine and feel almost nothing behind my face; people speak to me and I answer after a delay.",
+            "response": "You move through the routine and answer people while feeling almost nothing behind your face."
           },
           "no": {
-            "statement": "[Langsomt og flatt] De fleste dager fullfører jeg rutinene og kjenner nesten ingenting bak ansiktet.",
-            "response": "Du går gjennom rutinene mens du nesten ikke kjenner noe."
+            "statement": "[Langsomt og flatt] De fleste dager fullfører jeg rutinene og kjenner nesten ingenting bak ansiktet; folk snakker til meg, og jeg svarer litt forsinket.",
+            "response": "Du går gjennom rutinene og svarer folk mens du nesten ikke kjenner noe bak ansiktet."
           }
         },
         {
