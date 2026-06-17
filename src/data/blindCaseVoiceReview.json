@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T07:00:17.299Z",
+  "generatedAt": "2026-06-17T16:13:36.598Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -1196,11 +1196,11 @@
           ],
           "en": {
             "statement": "[Furious] My father had his own damage, I know that. But I still hate him for bringing violence into our house and leaving us to live with it.",
-            "response": "That sounds like unfinished business with your father, with both understanding of what he carried and hatred for the violence he brought into the house. If you are willing, we can bring him into the empty chair and let you say both parts directly to him, slowly and with pauses."
+            "response": "There is unfinished business with your father: you understand what he carried, and you still hate the violence he brought into the house. If you are willing, we can bring him into the empty chair and let both parts go directly to him. Start with, 'I know you had damage, and I hate what you brought home.'"
           },
           "no": {
             "statement": "[Rasende] Faren min hadde sine egne skader, det vet jeg. Men jeg hater ham fortsatt for å ha tatt volden med inn i huset vårt og latt oss leve med den.",
-            "response": "Det høres ut som et uavsluttet oppgjør med faren din, med både forståelse for det han bar på og hat for volden han tok inn i huset. Hvis du vil, kan vi hente ham inn i den tomme stolen og la deg si begge deler direkte til ham, sakte og med pauser."
+            "response": "Det er et uavsluttet oppgjør med faren din: du forstår noe av det han bar på, og du hater fortsatt volden han tok med inn i huset. Hvis du vil, kan vi hente ham inn i den tomme stolen og la begge deler gå direkte til ham. Begynn med: «Jeg vet at du hadde dine skader, og jeg hater det du tok med hjem.»"
           }
         }
       ]

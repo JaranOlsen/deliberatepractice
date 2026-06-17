@@ -67,7 +67,7 @@ Automated averages are triage only, not quality scores. They still reveal places
 | Empathic Conjectures | 16.5 | 21.5 | 20.8 | 21.8 | Response-boundary pass complete; strong, with later marker-breadth and Bokmal polish. |
 | Staying in Contact with Intense Affect | 31.3 | 35.3 | 32.0 | 22.6 | Contact-first response repair complete; residual regression risk is mainly high-risk precision. |
 | Self-Disclosure | 14.8 | 18.4 | 31.3 | 27.6 | Boundary/transparency pass complete; strong, with later Bokmal and marker-breadth polish. |
-| Marker Recognition and Chair Work | 35.4 | 37.5 | 48.6 | 84.3 | Suggestion sequencing pass complete; hard tier still has repeated setup openings. |
+| Marker Recognition and Chair Work | 35.4 | 37.5 | 50.0 | 84.3 | Hard-tier setup pass complete; remaining work is regression and Bokmal polish rather than structural repair. |
 | Alliance Repair | 34.2 | 35.0 | 48.2 | 104.8 | High-risk rupture response pass complete; repeated openings and Bokmal naturalness remain. |
 
 ## Full Library Quality Scores
@@ -108,7 +108,7 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | Self-Disclosure | Hard | 8.5 | Strong boundary handling around care, lateness, attraction, pity, and therapist experience. |
 | Marker Recognition and Chair Work | Easy | 8.6 | Full matrix now gives natural markers and concrete task setup; strong beginner training value. |
 | Marker Recognition and Chair Work | Moderate | 8.5 | Good unfinished-business, self-criticism, interruption, and worry-split coverage with clear first turns. |
-| Marker Recognition and Chair Work | Hard | 8.2 | Structurally strong, but setup openings repeat and Goldman advanced examples are more elaborately sequenced. |
+| Marker Recognition and Chair Work | Hard | 8.5 | Recent hard-tier pass improved Aisha, David, and Marcus setup sequencing, removed the obvious client-side chair-task leak, and reduced repeated setup openings while preserving safety and consent. |
 | Alliance Repair | Easy | 8.4 | Strong rupture contexts and repair sequence; response openings are somewhat repetitive. |
 | Alliance Repair | Moderate | 8.3 | Strong rupture breadth; repeated "thank you for..." and some literal Bokmal are the main remaining issues. |
 | Alliance Repair | Hard | 8.2 | Strong high-risk rupture coverage and safety/sexual-boundary handling; response length and opening variety trail Goldman. |
@@ -119,11 +119,11 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Marker Recognition and Chair Work, hard | Strong marker validity, but hard setup responses still repeat "that sounds like..." and can be less sequenced than Goldman. | Vary marker naming, strengthen consent/task setup, and sharpen first enactment turns. |
-| 2 | Alliance Repair, hard then moderate | Strong rupture coverage, but repeated "thank you for..." openings and literal Bokmal reduce world-class polish. | Polish repair openings, ownership language, and Norwegian idiom without weakening the repair sequence. |
-| 3 | Empathic Explorations, hard | Good overall, but severe cases can drift toward containment or conjecture. | Occasional boundary checks plus Bokmal "la oss/kan vi" reduction. |
-| 4 | Empathic Understanding, moderate | Hard is now stronger; moderate remains shorter and less varied than Goldman intermediate examples. | Lightly broaden selected explicit-emotion markers and responses without adding interpretation. |
-| 5 | Empathic Evocations, easy | Moderate and hard are now stronger; easy markers remain intentionally flat but sometimes too brief for beginner practice. | Add a little ordinary scene detail only where the prompt lacks enough edge for image-making. |
+| 1 | Alliance Repair, hard then moderate | Strong rupture coverage, but repeated "thank you for..." openings and literal Bokmal reduce world-class polish. | Polish repair openings, ownership language, and Norwegian idiom without weakening the repair sequence. |
+| 2 | Empathic Explorations, hard | Good overall, but severe cases can drift toward containment or conjecture. | Occasional boundary checks plus Bokmal "la oss/kan vi" reduction. |
+| 3 | Empathic Understanding, moderate | Hard is now stronger; moderate remains shorter and less varied than Goldman intermediate examples. | Lightly broaden selected explicit-emotion markers and responses without adding interpretation. |
+| 4 | Empathic Evocations, easy | Moderate and hard are now stronger; easy markers remain intentionally flat but sometimes too brief for beginner practice. | Add a little ordinary scene detail only where the prompt lacks enough edge for image-making. |
+| 5 | Marker Recognition and Chair Work, hard | Hard tier now has stronger Goldman sequencing; remaining issues are occasional phrasing regression and high-risk Bokmal tone. | Regression spot-check only unless flagged. |
 | 6 | Staying in Contact with Intense Affect, hard | Strong after recent repairs; residual risk is safety-sensitive regression. | High-risk spot checks only unless flagged. |
 | 7 | Empathic Affirmation and Validation, Self-Disclosure, and Treatment Rationale | These are now strong and close to the task contract. | Polish only when flagged or during dedicated Bokmal passes. |
 | 8 | Therapist Self-Awareness, Exploratory Questions, Empathic Conjectures | Structurally stable and comparatively high scoring. | Regression review only after lower-rated targets move upward. |
@@ -140,7 +140,7 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-17 hard understanding pass: move next to Marker Recognition and Chair Work hard. The goal is to vary marker naming, strengthen consent/task setup, and sharpen first enactment turns without adding new chair-work tasks or changing the matrix.
+Current recommendation after the 2026-06-17 hard chair-work setup pass: move next to Alliance Repair hard, then moderate. The goal is to vary repair openings, strengthen ownership/receiving language, and make Bokmal repair language less literal without weakening the repair sequence.
 
 ### Implementation Update: Empathic Understanding Hard
 
@@ -198,13 +198,14 @@ Current chair-work metrics after the residual pass:
 
 - 90 total items preserved.
 - Average client marker length increased from 17.6 to 35.4 words.
-- Average suggested response length is now 48.4 words.
+- Average suggested response length is now 50.0 words overall, with the hard tier at 54.8 words.
 - Minimum marker length increased from 10 to 20 words.
 - 71 of 90 markers now contain at least 30 words.
 - 0 markers remain below 20 words; 13 remain below 25 words and should now be judged by marker suitability rather than mechanically expanded.
 - Every edited English item has a matching Bokmal localization and a suggestion that explicitly launches the relevant chair task.
 - The revised suggestions now more consistently model the Goldman sequence: name the marker in ordinary language, ask permission, identify the chair setup, and give the first concrete enactment.
-- Current quality rating: about 8.1/10. The set is strong deliberate-practice content, with remaining work best framed as regression polish rather than broad rewriting.
+- A later hard-tier setup pass revised 24 Aisha, David, and Marcus responses plus one client marker that had leaked the chair task. The hard tier now has no repeated first-sentence openings, only two residual "That sounds like..." openings, and stronger permission/pacing for trauma-linked material.
+- Current quality rating: about 8.5/10 for the hard tier and 8.5/10 overall. The set is strong deliberate-practice content, with remaining work best framed as regression polish rather than broad rewriting.
 
 The section is no longer the clearest structural mismatch. Later review should focus on high-risk chair-work setup and Bokmal naturalness, not further broad expansion.
 
