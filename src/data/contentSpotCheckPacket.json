@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T10:47:49.993Z",
+  "generatedAt": "2026-06-17T00:14:10.341Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -549,16 +549,14 @@
               "caseLabel": "Marcus (Hard)",
               "caseName": "Marcus R.",
               "difficulty": "hard",
-              "riskFlags": [
-                "trauma"
-              ],
+              "riskFlags": [],
               "en": {
-                "statement": "[Flat] Most days I move through routines like I am not fully there.",
-                "response": "After so much trauma, numbness makes sense as the way you keep moving through the day."
+                "statement": "[Flat] Most days I move through routines like I am not fully there. I make coffee, shower, answer people, and it feels like a version of me is doing it while the rest stays back.",
+                "response": "After too much danger, it makes sense that numbness helps you keep functioning; it is a survival pattern, not a failure to care."
               },
               "no": {
-                "statement": "[Flatt] De fleste dager går jeg gjennom rutinene som om jeg ikke er helt til stede.",
-                "response": "Etter så mye traume gir nummenheten mening som måten du holder dagen i gang på."
+                "statement": "[Flatt] De fleste dager går jeg gjennom rutinene som om jeg ikke er helt til stede. Jeg lager kaffe, dusjer, svarer folk, og det føles som en versjon av meg gjør det mens resten holder seg tilbake.",
+                "response": "Etter for mye fare gir det mening at nummenheten hjelper deg å fungere; den er et overlevelsesmønster, ikke et tegn på at du ikke bryr deg."
               }
             },
             {
@@ -570,12 +568,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "[Low voice] Holidays feel hollow; I don't feel anything I'm supposed to feel.",
-                "response": "Understandably, holidays can land flat when shutting down has been part of staying safe."
+                "statement": "[Low voice] Holidays feel hollow; I don't feel anything I'm supposed to feel. People talk about family and gratitude, and I mostly feel like I am watching through a window.",
+                "response": "No wonder holidays feel hollow when they ask for warmth and belonging in the very places where numbness and distance have protected you."
               },
               "no": {
-                "statement": "[Lav stemme] Høytider kjennes hule; jeg føler ingenting av det jeg «burde» føle.",
-                "response": "Det er forståelig at høytider kan lande flatt når nedstenging har vært en del av å holde deg trygg."
+                "statement": "[Lav stemme] Høytider kjennes hule; jeg føler ingenting av det jeg «burde» føle. Folk snakker om familie og takknemlighet, og jeg føler mest at jeg ser på gjennom et vindu.",
+                "response": "Ikke rart høytider kjennes hule når de ber om varme og tilhørighet akkurat på de stedene der nummenhet og avstand har beskyttet deg."
               }
             },
             {
@@ -587,12 +585,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "[Quiet and guarded] I do not want to need anyone, because needing people has usually meant losing control.",
-                "response": "It makes sense that not needing anyone feels protective after closeness cost you so much; it also leaves you alone with the cost."
+                "statement": "[Quiet and guarded] I do not want to need anyone, because needing people has usually meant losing control. If someone matters, they can ask questions, leave, or get inside places I would rather keep closed.",
+                "response": "Not needing anyone makes sense as protection for places that have been hurt or invaded; the loneliness is the cost of that protection."
               },
               "no": {
-                "statement": "[Stille og på vakt] Jeg vil ikke trenge noen, fordi det å trenge folk som regel har betydd å miste kontroll.",
-                "response": "Det gir mening at det å ikke trenge noen kjennes beskyttende etter at nærhet kostet så mye; det lar deg også bli alene med prisen."
+                "statement": "[Stille og på vakt] Jeg vil ikke trenge noen, fordi det å trenge folk som regel har betydd å miste kontroll. Hvis noen betyr noe, kan de stille spørsmål, dra eller komme inn på steder jeg helst vil holde lukket.",
+                "response": "Å ikke trenge noen gir mening som beskyttelse for steder som har blitt såret eller invadert; ensomheten er prisen for den beskyttelsen."
               }
             }
           ]
@@ -1274,12 +1272,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "[Flat and guarded] Most mornings I wake up and don't feel much of anything.",
-                "response": "The day arrives washed out, as if the color has been taken from it before you even sit up."
+                "statement": "[Flat and guarded] Most mornings I get up, make coffee, answer the messages I have to answer, and notice I still do not feel much.",
+                "response": "The morning has movement but no warmth, as if you are going through the rooms while the color has been drained out of them."
               },
               "no": {
-                "statement": "[Flatt og på vakt] De fleste morgener våkner jeg uten å kjenne særlig mye.",
-                "response": "Dagen kommer avbleket, som om fargen er tatt ut av den før du engang setter deg opp."
+                "statement": "[Flatt og på vakt] De fleste morgener står jeg opp, lager kaffe, svarer på meldingene jeg må svare på, og merker at jeg fortsatt ikke kjenner særlig mye.",
+                "response": "Morgenen har bevegelse, men lite varme, som om du går gjennom rommene etter at fargene er tappet ut av dem."
               }
             },
             {
@@ -1291,12 +1289,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "[Distant] Wine helps me turn things off at night.",
-                "response": "The wine works like a dimmer, lowering the inner volume until the sharp edges of the evening blur."
+                "statement": "[Distant] Wine helps me turn things off at night. I pour it before I have decided what I am trying not to think about.",
+                "response": "The glass becomes the dimmer switch, lowering the room inside you before anything sharp can fully arrive."
               },
               "no": {
-                "statement": "[Fjern] Vin hjelper meg å skru av om kvelden.",
-                "response": "Vinen virker som en dimmer, senker volumet inni til de skarpe kantene i kvelden blir uklare."
+                "statement": "[Fjern] Vin hjelper meg å skru av om kvelden. Jeg heller i glasset før jeg egentlig vet hva jeg prøver å slippe å tenke på.",
+                "response": "Glasset blir som en dimmer, det demper rommet inni deg før noe skarpt rekker å komme helt fram."
               }
             },
             {
@@ -1308,12 +1306,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "[Tense and guarded] Kind words make me uncomfortable, and I do not know why.",
-                "response": "The kindness reaches a locked place, and something tightens before you can let the words in."
+                "statement": "[Tense and guarded] When someone says something kind to me, I usually correct it in my head or wait for the catch.",
+                "response": "The kindness touches a locked door, and behind it something tightens before the words can be received."
               },
               "no": {
-                "statement": "[Anspent og på vakt] Vennlige ord gjør meg ukomfortabel, og jeg vet ikke hvorfor.",
-                "response": "Vennligheten når et låst sted, og noe strammer seg før ordene får slippe inn."
+                "statement": "[Anspent og på vakt] Når noen sier noe vennlig til meg, retter jeg det som regel i hodet eller venter på at det skal komme en hake ved det.",
+                "response": "Vennligheten treffer en låst dør, og bak den strammer noe seg før ordene kan tas imot."
               }
             }
           ]
@@ -1337,12 +1335,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "[Distrustful] You say your notes are private, but if they make me sound unstable, I will feel completely betrayed.",
-                "response": "The possibility of being written wrong cuts deep, as if betrayal could happen quietly on a page after you leave."
+                "statement": "[Distrustful] You say your notes are private, but if you write that I am unstable, I will not know until it is already out there.",
+                "response": "The note can feel like betrayal happening quietly after you leave, a page that could turn against you without warning."
               },
               "no": {
-                "statement": "[Mistroisk] Du sier at notatene dine er private, men hvis de får meg til å høres ustabil ut, kommer jeg til å føle meg helt sviktet.",
-                "response": "Muligheten for å bli skrevet feil skjærer dypt, som om sviket kan skje stille på en side etter at du har gått."
+                "statement": "[Mistroisk] Du sier at notatene dine er private, men hvis du skriver at jeg er ustabil, får jeg ikke vite det før det allerede er der ute.",
+                "response": "Notatet kan kjennes som et svik som skjer stille etter at du har gått, en side som kan vende seg mot deg uten forvarsel."
               }
             },
             {
@@ -1354,12 +1352,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "[Panicked] When the typing dots disappear, I feel panicky right away.",
-                "response": "Those disappearing dots yank the thread of contact out of your hands, and your breath goes with it."
+                "statement": "[Panicked] When the typing dots disappear, I check the message again and again, even if I know they probably just got busy.",
+                "response": "Those vanishing dots pull the thread of contact out of your hands, and suddenly the whole connection feels suspended."
               },
               "no": {
-                "statement": "[Panisk] Når skriveprikkene forsvinner, får jeg panikk med en gang.",
-                "response": "Prikkene som forsvinner, river kontakttråden ut av hendene dine, og pusten blir med den."
+                "statement": "[Panisk] Når skriveprikkene forsvinner, sjekker jeg meldingen igjen og igjen, selv om jeg vet at de sikkert bare ble opptatt.",
+                "response": "Prikkene som forsvinner, trekker kontakttråden ut av hendene dine, og plutselig henger hele forbindelsen i luften."
               }
             },
             {
@@ -1371,12 +1369,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "[Tearful] When someone is gentle with me, I cry before I understand why.",
-                "response": "Gentleness touches the wall and tears rush through before permission can catch up."
+                "statement": "[Tearful] When someone is gentle with me, I cry before I understand why, and then I get embarrassed and want them to stop being nice.",
+                "response": "Gentleness touches the wall and tears rush through, and then shame tries to push the kindness back out."
               },
               "no": {
-                "statement": "[På gråten] Når noen er milde med meg, gråter jeg før jeg skjønner hvorfor.",
-                "response": "Mildheten rører ved veggen, og tårene strømmer gjennom før du rekker å gi dem lov."
+                "statement": "[På gråten] Når noen er milde med meg, gråter jeg før jeg skjønner hvorfor, og så blir jeg flau og vil at de skal slutte å være snille.",
+                "response": "Mildheten rører ved veggen og tårene strømmer gjennom, og så prøver skammen å skyve omsorgen ut igjen."
               }
             }
           ]

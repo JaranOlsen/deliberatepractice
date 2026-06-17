@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T10:47:49.993Z",
+  "generatedAt": "2026-06-17T00:14:10.342Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -313,11 +313,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Sad] I like the new apartment, but when I unpacked the photos from the old house, I missed the version of my family I kept hoping we would become.",
-            "response": "It makes sense that the grief belongs here; the move carries not only a new start but the loss of the home and family you kept trying to have."
+            "response": "Of course the grief belongs here; the move carries not only a new start but the loss of the home and family you kept trying to have."
           },
           "no": {
             "statement": "[Trist] Jeg liker den nye leiligheten, men da jeg pakket ut bildene fra det gamle huset, savnet jeg den versjonen av familien jeg hele tiden håpet at vi skulle bli.",
-            "response": "Det gir mening at sorgen hører hjemme her; flyttingen bærer ikke bare en ny start, men tapet av hjemmet og familien du fortsatte å prøve å få."
+            "response": "Selvsagt hører sorgen hjemme her; flyttingen bærer ikke bare en ny start, men tapet av hjemmet og familien du fortsatte å prøve å få."
           }
         },
         {
@@ -325,12 +325,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Low voice] Holidays feel hollow; I don't feel anything I'm supposed to feel.",
-            "response": "Understandably, holidays can land flat when shutting down has been part of staying safe."
+            "statement": "[Low voice] Holidays feel hollow; I don't feel anything I'm supposed to feel. People talk about family and gratitude, and I mostly feel like I am watching through a window.",
+            "response": "No wonder holidays feel hollow when they ask for warmth and belonging in the very places where numbness and distance have protected you."
           },
           "no": {
-            "statement": "[Lav stemme] Høytider kjennes hule; jeg føler ingenting av det jeg «burde» føle.",
-            "response": "Det er forståelig at høytider kan lande flatt når nedstenging har vært en del av å holde deg trygg."
+            "statement": "[Lav stemme] Høytider kjennes hule; jeg føler ingenting av det jeg «burde» føle. Folk snakker om familie og takknemlighet, og jeg føler mest at jeg ser på gjennom et vindu.",
+            "response": "Ikke rart høytider kjennes hule når de ber om varme og tilhørighet akkurat på de stedene der nummenhet og avstand har beskyttet deg."
           }
         }
       ]
@@ -685,12 +685,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Tired] The second I sit down, I feel guilty.",
-            "response": "Rest sets off an alarm inside you, guilt shooting through before the chair can even hold your weight."
+            "statement": "[Tired] The second I sit down, I remember three things I have not done and get back up.",
+            "response": "Rest barely touches you before duty calls you up again, as if the chair cannot keep hold of you."
           },
           "no": {
-            "statement": "[Sliten] Idet jeg setter meg ned, får jeg skyldfølelse.",
-            "response": "Hvile setter i gang en alarm inni deg, skyld som skyter gjennom før stolen rekker å bære vekten din."
+            "statement": "[Sliten] Idet jeg setter meg ned, kommer jeg på tre ting jeg ikke har gjort, og så reiser jeg meg igjen.",
+            "response": "Hvilen rekker knapt å berøre deg før plikten kaller deg opp igjen, som om stolen ikke får holde på deg."
           }
         }
       ]
@@ -710,12 +710,12 @@
             "substance_use"
           ],
           "en": {
-            "statement": "[Defensive] When my wife says I drink too much, I want to prove she has no idea what she is talking about.",
-            "response": "Her accusation digs in like a knife, and proving her wrong becomes a way to pull the blade back out."
+            "statement": "[Defensive] When my wife says I drink too much, I start listing everything I do for this family so she will drop it.",
+            "response": "Her words land like an accusation, and the list of what you provide becomes armor against feeling judged."
           },
           "no": {
-            "statement": "[Defensiv] Når kona mi sier at jeg drikker for mye, vil jeg bevise at hun ikke aner hva hun snakker om.",
-            "response": "Anklagen hennes graver seg inn som en kniv, og det å motbevise henne blir en måte å trekke bladet ut igjen på."
+            "statement": "[Defensiv] Når kona mi sier at jeg drikker for mye, begynner jeg å ramse opp alt jeg gjør for familien så hun skal la det ligge.",
+            "response": "Ordene hennes lander som en anklage, og listen over alt du bidrar med blir rustning mot å kjenne deg dømt."
           }
         },
         {
@@ -746,12 +746,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Tense and guarded] Kind words make me uncomfortable, and I do not know why.",
-            "response": "The kindness reaches a locked place, and something tightens before you can let the words in."
+            "statement": "[Tense and guarded] When someone says something kind to me, I usually correct it in my head or wait for the catch.",
+            "response": "The kindness touches a locked door, and behind it something tightens before the words can be received."
           },
           "no": {
-            "statement": "[Anspent og på vakt] Vennlige ord gjør meg ukomfortabel, og jeg vet ikke hvorfor.",
-            "response": "Vennligheten når et låst sted, og noe strammer seg før ordene får slippe inn."
+            "statement": "[Anspent og på vakt] Når noen sier noe vennlig til meg, retter jeg det som regel i hodet eller venter på at det skal komme en hake ved det.",
+            "response": "Vennligheten treffer en låst dør, og bak den strammer noe seg før ordene kan tas imot."
           }
         },
         {
@@ -759,12 +759,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Confused] When I try to talk about it, I do not know what feeling is supposed to come first.",
-            "response": "It is like every feeling crowds the same doorway, and none of them is clear enough to step through first."
+            "statement": "[Confused] When I try to talk about it, I do not know what feeling is supposed to come first, so I usually stop talking.",
+            "response": "Every feeling crowds the same doorway, and none is clear enough to step through before the door closes again."
           },
           "no": {
-            "statement": "[Forvirret] Når jeg prøver å snakke om det, vet jeg ikke hvilken følelse som skal komme først.",
-            "response": "Det er som om alle følelsene står i samme døråpning, og ingen av dem er tydelig nok til å gå først."
+            "statement": "[Forvirret] Når jeg prøver å snakke om det, vet jeg ikke hvilken følelse som skal komme først, så jeg slutter som regel å snakke.",
+            "response": "Alle følelsene står i samme døråpning, og ingen er tydelig nok til å gå først før døra lukker seg igjen."
           }
         }
       ]

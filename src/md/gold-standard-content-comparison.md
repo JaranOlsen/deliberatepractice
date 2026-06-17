@@ -2,6 +2,8 @@
 
 Date: 2026-06-03; branch update through 2026-06-08
 
+Status note, 2026-06-16: this file is now a historical comparison and should not be used as the current improvement ranking. Use `src/md/benchmark-contract-audit-2026-06-11.md` for the active quality scores and next-target order.
+
 ## Purpose
 
 This audit compares the current case-matrix content with the Goldman benchmark material generated into `src/data/benchmarkBank.js` from `src/md/EFT_Exercises_Extracted.md`.

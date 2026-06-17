@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-06-16T10:47:49.984Z"
+  "generatedAt": "2026-06-17T00:14:10.332Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -7493,9 +7493,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Affirmation and Validation",
           "caseId": "case-marcus"
         },
-        "riskFlags": [
-          "trauma"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "validate_context",
           "legacy_matrix_item"
