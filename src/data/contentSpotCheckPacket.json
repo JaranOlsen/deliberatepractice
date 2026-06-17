@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T07:00:17.299Z",
+  "generatedAt": "2026-06-17T16:13:36.597Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -2122,11 +2122,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Self-blaming] If I am not exceptional, I tell myself there is no reason anyone would stay. Ordinary means replaceable. Replaceable means I have already lost; they just have not said it out loud yet.",
-                "response": "That sounds like a demanding self-evaluative voice that makes your worth depend on being exceptional and treats ordinary as abandonment already starting. Could we put that demand in one chair and the side paying the price in the other? From this chair, make the case that ordinary means replaceable; then we will switch."
+                "response": "The demand makes your worth depend on being exceptional, and it treats ordinary as if abandonment has already begun. Could we put that demand in one chair and the side paying the price in the other? From this chair, make the case that ordinary means replaceable; then we will switch and hear the impact."
               },
               "no": {
                 "statement": "[Selvbebreidende] Hvis jeg ikke er eksepsjonell, sier jeg til meg selv at det ikke finnes noen grunn til at noen skulle bli. Ordinær betyr utskiftbar. Utskiftbar betyr at jeg allerede har tapt; de har bare ikke sagt det høyt ennå.",
-                "response": "Det høres ut som en krevende selvkritisk stemme gjør verdien din avhengig av å være eksepsjonell og behandler det ordinære som om forlattheten allerede har begynt. Kan vi sette kravet i én stol og siden som betaler prisen i den andre? Fra denne stolen argumenterer du for at ordinær betyr utskiftbar; så bytter vi."
+                "response": "Kravet gjør verdien din avhengig av å være eksepsjonell, og behandler det ordinære som om forlattheten allerede har begynt. Kan vi sette kravet i én stol og siden som betaler prisen i den andre? Fra denne stolen argumenterer du for at ordinær betyr utskiftbar; så bytter vi og hører virkningen."
               }
             },
             {
