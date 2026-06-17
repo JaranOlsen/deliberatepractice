@@ -148,26 +148,27 @@ Completed on the current content branch:
 - Staying in Contact with Intense Affect residual contact-first response and Bokmal naturalness polish.
 - Empathic Explorations residual response-completion and Bokmal naturalness polish.
 - Marker Recognition and Chair Work occasional setup-response and Bokmal naturalness polish.
-- Full-library score audit completed on 2026-06-16. No skill/difficulty set has a structural failure, but the previous all-strong ranking was too broad. After the latest validation and evocations passes, the current highest-value targets are Empathic Understanding hard, Marker Recognition and Chair Work hard, Alliance Repair hard/moderate, and Empathic Explorations hard.
+- Full-library score audit completed on 2026-06-16. No skill/difficulty set has a structural failure, but the previous all-strong ranking was too broad. After the latest validation, evocations, and understanding passes, the current highest-value targets are Marker Recognition and Chair Work hard, Alliance Repair hard/moderate, Empathic Explorations hard, and Empathic Understanding moderate.
 - Empathic Affirmation and Validation hard/moderate has received a targeted response-variety and Bokmal naturalness pass. Hard markers were expanded from compressed one-line prompts into fuller high-risk validation markers; hard and moderate responses now preserve explicit legitimizing language without repeated four-word openings, and Bokmal no longer uses `det gir mening` in these tiers.
 - Empathic Evocations moderate has received a marker-affordance pass. Laura, Carlos, and Nina prompts now add ordinary scene, guarded cognition, and relational pressure while leaving vivid imagery to the therapist response; matching Bokmal localizations were rewritten naturally.
 - Empathic Evocations hard has received a marker-affordance pass. Aisha, David, and Marcus prompts now carry more crisis pressure, guarded cognition, defensive organization, and relational stakes without supplying the vivid image/metaphor in the client line; matching Bokmal localizations were rewritten naturally.
+- Empathic Understanding hard has received a marker/reflection pass. Aisha, David, and Marcus prompts now carry fuller explicit emotional meaning while responses remain short, basic reflections without validation, conjecture, advice, questions, or evocation-heavy imagery; matching Bokmal localizations were rewritten naturally.
 
 These should still be reviewed in normal regression passes, but the workflow should now follow the tier-level scores in `src/md/benchmark-contract-audit-2026-06-11.md` rather than treating every repaired skill as equal priority.
 
 ## Current Highest-Value Improvement Targets
 
-1. Empathic Understanding hard.
-   - Keep responses as basic empathy, but give high-risk hard-case markers enough explicit emotional meaning and context that reflections can feel alive rather than minimal.
-
-2. Marker Recognition and Chair Work hard.
+1. Marker Recognition and Chair Work hard.
    - Marker validity is strong, but setup responses still overuse "that sounds like" phrasing. Vary marker naming, keep consent/task setup explicit, and make first enactment turns sharper.
 
-3. Alliance Repair hard, then moderate.
+2. Alliance Repair hard, then moderate.
    - Rupture breadth is strong, but repair openings and Norwegian localizations are still too patterned. Strengthen ownership and receiving language without losing the repair sequence.
 
-4. Empathic Explorations hard.
+3. Empathic Explorations hard.
    - Strong overall, but severe cases can still drift toward conjecture or intense-affect containment. Keep one small next-step exploration and reduce repeated Bokmal "la oss/kan vi" when encountered.
+
+4. Empathic Understanding moderate.
+   - Hard understanding is now stronger. Moderate understanding remains shorter and less varied than Goldman intermediate examples, so selected items can be broadened while staying basic-empathy pure.
 
 5. Empathic Evocations easy.
    - Moderate and hard are now strong. Easy evocations remain intentionally flat but can use light ordinary-scene detail where the prompt gives too little edge for image-making.
