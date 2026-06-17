@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T10:47:49.993Z",
+  "generatedAt": "2026-06-17T00:14:10.342Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -138,12 +138,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Quiet and guarded] I do not want to need anyone, because needing people has usually meant losing control.",
-            "response": "It makes sense that not needing anyone feels protective after closeness cost you so much; it also leaves you alone with the cost."
+            "statement": "[Quiet and guarded] I do not want to need anyone, because needing people has usually meant losing control. If someone matters, they can ask questions, leave, or get inside places I would rather keep closed.",
+            "response": "Not needing anyone makes sense as protection for places that have been hurt or invaded; the loneliness is the cost of that protection."
           },
           "no": {
-            "statement": "[Stille og på vakt] Jeg vil ikke trenge noen, fordi det å trenge folk som regel har betydd å miste kontroll.",
-            "response": "Det gir mening at det å ikke trenge noen kjennes beskyttende etter at nærhet kostet så mye; det lar deg også bli alene med prisen."
+            "statement": "[Stille og på vakt] Jeg vil ikke trenge noen, fordi det å trenge folk som regel har betydd å miste kontroll. Hvis noen betyr noe, kan de stille spørsmål, dra eller komme inn på steder jeg helst vil holde lukket.",
+            "response": "Å ikke trenge noen gir mening som beskyttelse for steder som har blitt såret eller invadert; ensomheten er prisen for den beskyttelsen."
           }
         }
       ]
@@ -313,12 +313,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Flat and guarded] Most mornings I wake up and don't feel much of anything.",
-            "response": "The day arrives washed out, as if the color has been taken from it before you even sit up."
+            "statement": "[Flat and guarded] Most mornings I get up, make coffee, answer the messages I have to answer, and notice I still do not feel much.",
+            "response": "The morning has movement but no warmth, as if you are going through the rooms while the color has been drained out of them."
           },
           "no": {
-            "statement": "[Flatt og på vakt] De fleste morgener våkner jeg uten å kjenne særlig mye.",
-            "response": "Dagen kommer avbleket, som om fargen er tatt ut av den før du engang setter deg opp."
+            "statement": "[Flatt og på vakt] De fleste morgener står jeg opp, lager kaffe, svarer på meldingene jeg må svare på, og merker at jeg fortsatt ikke kjenner særlig mye.",
+            "response": "Morgenen har bevegelse, men lite varme, som om du går gjennom rommene etter at fargene er tappet ut av dem."
           }
         },
         {
@@ -326,12 +326,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Distrustful] You say your notes are private, but if they make me sound unstable, I will feel completely betrayed.",
-            "response": "The possibility of being written wrong cuts deep, as if betrayal could happen quietly on a page after you leave."
+            "statement": "[Distrustful] You say your notes are private, but if you write that I am unstable, I will not know until it is already out there.",
+            "response": "The note can feel like betrayal happening quietly after you leave, a page that could turn against you without warning."
           },
           "no": {
-            "statement": "[Mistroisk] Du sier at notatene dine er private, men hvis de får meg til å høres ustabil ut, kommer jeg til å føle meg helt sviktet.",
-            "response": "Muligheten for å bli skrevet feil skjærer dypt, som om sviket kan skje stille på en side etter at du har gått."
+            "statement": "[Mistroisk] Du sier at notatene dine er private, men hvis du skriver at jeg er ustabil, får jeg ikke vite det før det allerede er der ute.",
+            "response": "Notatet kan kjennes som et svik som skjer stille etter at du har gått, en side som kan vende seg mot deg uten forvarsel."
           }
         }
       ]
