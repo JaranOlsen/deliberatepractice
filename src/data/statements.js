@@ -1401,7 +1401,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Desperate] I go from please do not leave to leave me alone in seconds.",
-        "suggestion": "In the breath before the flip, what feeling is too painful to remain near?"
+        "suggestion": "Just before it flips, what feeling is too painful to remain near?"
       },
       {
         "text": "[Desperate] I do not know what I feel today; everything is too much and also kind of blank.",
@@ -1451,7 +1451,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Controlled] Praise from my boss feels good for a second, and then I start wondering what he wants.",
-        "suggestion": "What do you notice as praise turns into suspicion?"
+        "suggestion": "As praise turns into suspicion, what feeling starts to move inside?"
       },
       {
         "text": "[Dismissive] Admitting I am wrong makes my face burn like everyone can see through me.",
@@ -1467,7 +1467,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Distant] Since the affair, I cannot tell whether I feel guilty or just irritated that everyone keeps bringing it up.",
-        "suggestion": "What do you notice when guilt and irritation sit that close?"
+        "suggestion": "When guilt and irritation sit that close, what do you notice inside?"
       },
       {
         "text": "[Embarrassed] I want someone to notice what I do without making me beg for credit.",
@@ -1475,7 +1475,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Wounded but sharp] I hate being ordinary at work in front of everyone, like it means I have disappeared.",
-        "suggestion": "When 'ordinary' feels like disappearing, what longing shows up underneath?"
+        "suggestion": "When 'ordinary' starts to feel like disappearing, what feeling shows up?"
       }
     ],
     "case-marcus": [
@@ -1485,7 +1485,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hypervigilant] After nightmares, I do not know what is real enough to talk about and what I should leave alone.",
-        "suggestion": "What do you notice as you decide what to leave alone?"
+        "suggestion": "As you decide what to leave alone, what happens inside?"
       },
       {
         "text": "[Quiet and guarded] In the grocery store I stay near exits because the aisles feel too closed in.",
@@ -1501,7 +1501,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and guarded] I keep the lights low and ignore calls so the world stays far away.",
-        "suggestion": "When the world stays far away, what feeling becomes easier to manage?"
+        "suggestion": "When the world stays far away, what feeling do you not have to meet?"
       },
       {
         "text": "[Flat] When something good happens, I wait for the part where it gets taken back.",
@@ -1517,7 +1517,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Flat] I tell myself I am better off alone because closeness always costs something.",
-        "suggestion": "What danger do you picture when closeness feels costly?"
+        "suggestion": "When closeness starts to feel costly, what feeling shows up inside?"
       }
     ]
   },
