@@ -99,7 +99,7 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | Empathic Evocations | Hard | 8.4 | Recent pass added pressure, guarded cognition, and relational stakes for Aisha, David, and Marcus while keeping client prompts non-poetic and safety-sensitive responses clinically careful. |
 | Empathic Conjectures | Easy | 8.4 | Strong tentative one-step-beyond-explicit responses with good behavioral markers. |
 | Empathic Conjectures | Moderate | 8.5 | One of the best-aligned tiers: good hidden-feeling hints without overexposing core pain. |
-| Empathic Conjectures | Hard | 8.3 | Strong defensive and high-shame material; continue occasional checks for over-formulated case conceptualization. |
+| Empathic Conjectures | Hard | 8.5 | Targeted hard-tier regression pass simplified over-formulated guesses; responses now stay closer to one tentative hidden feeling or meaning. |
 | Staying in Contact with Intense Affect | Easy | 8.6 | Strong live affective pressure and contact-first responses; good range beyond panic/grief. |
 | Staying in Contact with Intense Affect | Moderate | 8.6 | Strong pressure, collapse, guilt, rage, and positive-affect material with good contact before regulation. |
 | Staying in Contact with Intense Affect | Hard | 8.4 | Good high-risk handling and contact-first structure; keep self-harm, violence, erotic pressure, and dissociation under regression review. |
@@ -119,10 +119,10 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Empathic Conjectures, hard | Strong defensive and high-shame material, with residual risk of over-formulated case conceptualization. | Check guesses remain tentative, evidence-based, and one step beyond the explicit marker. |
-| 2 | Empathic Explorations, easy and moderate | Hard is now stronger; easy/moderate are good but still have residual Bokmal and marker-breadth polish opportunities. | Regression spot-check only unless flagged or doing a dedicated Bokmal pass. |
-| 3 | Alliance Repair, hard and moderate | Both tiers now have better opening variety and stronger ownership language. | Regression spot-check only unless flagged. |
-| 4 | Marker Recognition and Chair Work, hard | Hard tier now has stronger Goldman sequencing; remaining issues are occasional phrasing regression and high-risk Bokmal tone. | Regression spot-check only unless flagged. |
+| 1 | Providing Treatment Rationale, hard | Strong overall, but some hard-case rationales can still sound too brief around emotions-as-danger, control, and safety concerns. | Check that each response explains why the intervention helps in plain language tied to the client's fear or goal. |
+| 2 | Empathic Evocations, moderate and hard | Recent marker-affordance passes are strong; keep checking that client statements remain flat enough for the therapist to supply imagery. | Regression spot-check for client-side imagery leaks and high-risk safety tone. |
+| 3 | Empathic Explorations, easy and moderate | Hard is now stronger; easy/moderate are good but still have residual Bokmal and marker-breadth polish opportunities. | Regression spot-check only unless flagged or doing a dedicated Bokmal pass. |
+| 4 | Alliance Repair, easy | Strong rupture contexts and sequence, with some remaining response-opening repetition. | Light response-variety polish when it does not displace lower-scored contract gaps. |
 | 5 | Staying in Contact with Intense Affect, hard | Strong after recent repairs; residual risk is safety-sensitive regression. | High-risk spot checks only unless flagged. |
 
 ## Next Work Decision Rule
@@ -137,7 +137,20 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-18 hard exploratory-questions regression pass: move next to Empathic Conjectures hard. The goal is to check that hard-case guesses remain tentative, evidence-based, and one step beyond the explicit marker without becoming over-formulated case conceptualizations.
+Current recommendation after the 2026-06-18 hard empathic-conjectures regression pass: move next to Providing Treatment Rationale hard. The goal is to check that hard-case rationales explain why the intervention helps without sounding persuasive, defensive, or abstract, especially where clients fear emotion, loss of control, shame exposure, or safety risk.
+
+### Implementation Update: Empathic Conjectures Hard
+
+A hard-tier empathic-conjectures regression pass revised 10 advanced responses across Aisha, David, and Marcus.
+
+Current hard empathic-conjectures state after this pass:
+
+- 90 total empathic-conjectures items preserved; all 30 hard responses reviewed.
+- Targeted edits simplified responses that named several hidden meanings at once.
+- Revised responses now stay closer to one tentative near-surface guess, matching Goldman's "I wonder / maybe" style.
+- High-risk items involving suicidal language, self-harm, shame, narcissistic injury, and trauma numbing were spot-checked in English and Bokmal.
+- Matching Bokmal localizations were updated with more natural phrasing and less literal therapy-English structure.
+- Quality rating for hard Empathic Conjectures increased from about 8.3/10 to about 8.5/10.
 
 ### Implementation Update: Exploratory Questions Hard
 
