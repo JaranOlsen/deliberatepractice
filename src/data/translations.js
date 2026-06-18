@@ -5758,15 +5758,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_alliance-repair_case-laura_02": {
       "text": "[Fjern] Da jeg fortalte om moren min ved oppvaskbenken og du smilte et øyeblikk, trodde jeg at du lo av meg.",
-      "suggestion": "Takk for at du sier det. Hvis ansiktet mitt så moret ut i det øyeblikket, skjønner jeg at det kunne kjennes ydmykende og utrygt. Jeg beklager den virkningen. Jeg lo ikke av deg, og jeg vil vite hva som ville hjulpet deg å kjenne at jeg forstår alvoret i det du fortalte."
+      "suggestion": "Hvis ansiktet mitt så moret ut i det øyeblikket, skjønner jeg at det kunne kjennes ydmykende og utrygt, og det beklager jeg. Jeg lo ikke av deg, men det viktigste her er hvordan det landet. Hva ville hjulpet deg å kjenne at jeg forstår alvoret i det du fortalte?"
     },
     "dp_alliance-repair_case-laura_03": {
       "text": "[Langsomt og flatt] Du er yngre enn meg, og noen ganger lurer jeg på om du virkelig kan forstå et liv som har vært avstengt så lenge.",
-      "suggestion": "Takk for at du betror meg den bekymringen. Aldersforskjellen er reell, og hvis jeg oppfører meg som om jeg automatisk forstår, kan jeg gå glipp av lengden og ensomheten i det du har levd med. Jeg beklager de gangene jeg kan ha gått forbi det. Hva ville hjulpet deg å teste om jeg forstår livet ditt på dine premisser?"
+      "suggestion": "Aldersforskjellen er reell, og hvis jeg oppfører meg som om jeg automatisk forstår, kan jeg gå glipp av lengden og ensomheten i det du har levd med. Jeg beklager de gangene jeg kan ha gått forbi det. Hva ville hjulpet deg å teste om jeg forstår livet ditt på dine premisser?"
     },
     "dp_alliance-repair_case-laura_04": {
       "text": "[Flatt og på vakt] Da du skrev notater mens jeg snakket om det som skjedde, følte jeg meg registrert i stedet for møtt. Jeg begynte å lure på hvilken setning du skrev ned, og om den kom til å bli den offisielle versjonen av meg.",
-      "suggestion": "Takk for at du forteller meg det. Å skrive notater mens du beskrev traume, gjorde at du følte deg registrert og definert i stedet for møtt, og jeg beklager at jeg ikke beskyttet kontakten. Jeg kan la være å skrive, si hva jeg skriver, eller spørre først. Hvilket av det, om noe, ville gjort dette mindre som en offisiell versjon av deg?"
+      "suggestion": "Å skrive notater mens du beskrev traume, gjorde at du følte deg registrert og definert i stedet for møtt, og jeg beklager at jeg ikke beskyttet kontakten. Jeg kan la være å skrive, si hva jeg skriver, eller spørre først. Hvilket av det, om noe, ville gjort dette mindre som en offisiell versjon av deg?"
     },
     "dp_alliance-repair_case-laura_05": {
       "text": "[På vakt] Da du spurte om jeg stoler på deg, føltes det som press om å si ja. Hvis jeg sa nei, så jeg for meg at du ble såret eller tenkte at jeg var vanskelig, så jeg ga et tryggere svar enn det egentlige.",
@@ -5774,15 +5774,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_alliance-repair_case-laura_06": {
       "text": "[Anspent] Da du sa at jeg er trygg nå, kjentes det i kroppen som om du ikke trodde på faren. Jeg vet at jeg sitter på kontoret ditt, men ordene fikk det til å høres ut som om jeg burde være over det kroppen fortsatt reagerer på.",
-      "suggestion": "Takk for at du korrigerer det. Å si «trygg nå» hoppet over det kroppen din fortsatt vet, og det beklager jeg. Hva ville hjelpe meg å anerkjenne faren kroppen bærer, uten å antyde at du burde være over det?"
+      "suggestion": "Du korrigerer noe viktig her. Å si «trygg nå» hoppet over det kroppen din fortsatt vet, og det beklager jeg. Hva ville hjelpe meg å anerkjenne faren kroppen bærer, uten å antyde at du burde være over det?"
     },
     "dp_alliance-repair_case-laura_07": {
       "text": "[Fjern] Da du foreslo å forestille meg moren min her, følte jeg meg dyttet mot noe altfor stort. Jeg vet at det kanskje kan være nyttig en dag, men i det øyeblikket kjentes det som å bli dratt ut på dypt vann før jeg hadde sagt ja.",
-      "suggestion": "Takk for at du stoppet meg der. Jeg gikk mot stolarbeid før jeg hadde samtykket ditt til hvor stort det kjentes, og det beklager jeg. At det kanskje kan hjelpe senere, betyr ikke at det var riktig da. Hva ville vært en tryggere kant der du fortsatt kjenner at du styrer?"
+      "suggestion": "Du stoppet meg på et sted der jeg trengte å roe ned. Jeg gikk mot stolarbeid før jeg hadde samtykket ditt til hvor stort det kjentes, og det beklager jeg. At det kanskje kan hjelpe senere, betyr ikke at det var riktig da. Hva ville vært en tryggere kant der du fortsatt kjenner at du styrer?"
     },
     "dp_alliance-repair_case-laura_08": {
       "text": "[Flatt] Du gikk så fort fra eksen min til barndommen at det føltes som om du fulgte en sjekkliste. Jeg hadde knapt sagt hva som skjedde denne uken før det handlet om fortiden.",
-      "suggestion": "Takk for at du setter ord på det. Å gå fort fram gjorde arbeidet til en sjekkliste, og jeg beklager at jeg forlot denne ukens smerte for tidlig. Hvilken forbindelse mellom de stedene, hvis noen, kjennes ekte nok å følge nå?"
+      "suggestion": "Å gå fort fram gjorde arbeidet til en sjekkliste, og jeg beklager at jeg forlot denne ukens smerte for tidlig. Hvilken forbindelse mellom de stedene, hvis noen, kjennes ekte nok å følge nå?"
     },
     "dp_alliance-repair_case-laura_09": {
       "text": "[Skamfull] Da du spurte hvor mye vin jeg drikker, hørte jeg den stemmen folk bruker når de allerede vet svaret og er skuffet. Jeg stengte ned fordi jeg trodde du så meg som enda et problem som må håndteres.",
@@ -5790,11 +5790,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_alliance-repair_case-laura_10": {
       "text": "[Lav stemme] Da du sa at jeg overlevde, hørtes det ut som om du sa at jeg burde ha det bra. Jeg vet at du mente styrke, men jeg hørte: Det verste er over, så hvorfor er du fortsatt sånn?",
-      "suggestion": "Takk for at du sier det. Hvis «overlevde» hørtes ut som «du burde ha det bra», overså jeg den pågående kostnaden, og det beklager jeg. Hva trenger du at jeg forstår om å overleve uten å antyde at smerten burde være ferdig?"
+      "suggestion": "Hvis «overlevde» hørtes ut som «du burde ha det bra», overså jeg den pågående kostnaden, og det beklager jeg. Hva trenger du at jeg forstår om å overleve uten å antyde at smerten burde være ferdig?"
     },
     "dp_alliance-repair_case-carlos_01": {
       "text": "[Defensiv] Noen ganger kjennes det som om du hører «respekt» som bare ego, som om du ikke skjønner hva det betydde der jeg vokste opp.",
-      "suggestion": "Takk for at du sier det. Hvis jeg fikk respekt til å høres ut som ego, bommet jeg på noe viktig i din verden, og det beklager jeg. Jeg vil forstå hva respekt beskyttet deg mot og hva det kostet deg, ikke se ned på det. Hva trenger jeg å forstå før vi fortsetter å jobbe med det ordet?"
+      "suggestion": "Hvis jeg fikk respekt til å høres ut som ego, bommet jeg på noe viktig i din verden, og det beklager jeg. Jeg vil forstå hva respekt beskyttet deg mot og hva det kostet deg, ikke se ned på det. Hva trenger jeg å forstå før vi fortsetter å jobbe med det ordet?"
     },
     "dp_alliance-repair_case-carlos_02": {
       "text": "[Anspent] Da du fortsatte å si «brems», hørtes det ut som om du ville at jeg skulle være myk. Jeg vet at du sikkert mente regulering, men i hodet mitt ble det: Bli mindre, bli lettere å håndtere.",
@@ -5802,15 +5802,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_alliance-repair_case-carlos_03": {
       "text": "[Sint] Da jeg snakket om at ungen min skvatt av meg, så du bort et øyeblikk. Jeg vet at det kanskje ikke var noe, men det føltes som om selv du ikke ville se på det jeg hadde gjort.",
-      "suggestion": "Takk for at du sier det. At jeg så bort mens du prøvde å møte frykten til sønnen din, kunne kjennes som om selv jeg ikke orket å se på det som skjedde, og det beklager jeg. Jeg vil holde begge ting samtidig: skaden betyr noe, og jeg vender meg ikke bort fra deg. Hva ville hjulpet deg å kjenne at jeg kan se stødig på dette sammen med deg?"
+      "suggestion": "At jeg så bort mens du prøvde å møte frykten til sønnen din, kunne kjennes som om selv jeg ikke orket å se på det som skjedde, og det beklager jeg. Jeg vil holde begge ting samtidig: skaden betyr noe, og jeg vender meg ikke bort fra deg. Hva ville hjulpet deg å kjenne at jeg kan se stødig på dette sammen med deg?"
     },
     "dp_alliance-repair_case-carlos_04": {
       "text": "[Sint] Da jeg ble høylytt, skvatt du, og da følte jeg meg som den farlige fyren i rommet. Jeg skammet meg allerede over å skremme folk; da jeg så deg reagere sånn, fikk jeg lyst til å slutte å snakke.",
-      "suggestion": "Takk for at du setter ord på det. At jeg skvatt, fikk deg til å føle deg som den farlige personen i rommet, og det treffer skammen du allerede bar på. Jeg beklager at jeg la mer til den. Jeg må ta intensiteten på alvor uten å få deg til å bære frykten min. Hva ville hjulpet deg å stole nok på stødigheten min til å fortsette å snakke?"
+      "suggestion": "At jeg skvatt, fikk deg til å føle deg som den farlige personen i rommet, og det treffer skammen du allerede bar på. Jeg beklager at jeg la mer til den. Jeg må ta intensiteten på alvor uten å få deg til å bære frykten min. Hva ville hjulpet deg å stole nok på stødigheten min til å fortsette å snakke?"
     },
     "dp_alliance-repair_case-carlos_05": {
       "text": "[Defensiv] Da du spurte om jeg var redd, hørtes det ut som om du prøvde å få meg til å innrømme at jeg er svak. Jeg kjente ryggen gå opp, som om du tok respekt fra meg.",
-      "suggestion": "Takk for at du forteller meg det. Spørsmålet mitt om frykt landet som om jeg tok respekt fra deg, og jeg beklager at jeg ikke beskyttet den verdigheten. Hvilket språk kunne la oss nærme oss frykt uten at du føler deg redusert, svak eller fornærmet?"
+      "suggestion": "Spørsmålet mitt om frykt landet som om jeg tok respekt fra deg, og jeg beklager at jeg ikke beskyttet den verdigheten. Hvilket språk kunne la oss nærme oss frykt uten at du føler deg redusert, svak eller fornærmet?"
     },
     "dp_alliance-repair_case-carlos_06": {
       "text": "[Anspent] Når du snakker om reparasjon med sønnen min, hører jeg at du sier at jeg er en dårlig far. Jeg vet at jeg må møte ting, men hvis det begynner med at jeg er skurken, stenger jeg ned.",
@@ -5818,7 +5818,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_alliance-repair_case-carlos_07": {
       "text": "[Såret, men skarp] Du kikket mot døra etter at jeg ble sint, og jeg følte at du sjekket en fluktvei.",
-      "suggestion": "Takk for at du sier det. Da jeg kikket mot døra, så det ut som om jeg trengte en fluktvei, og jeg skjønner hvor ydmykende og urovekkende det kunne kjennes. Det beklager jeg. Jeg vil være tydelig på trygghet uten å behandle deg som en jeg må komme meg bort fra. Hva ville hjelpe oss å gjenopprette nok tillit til stødigheten min akkurat nå?"
+      "suggestion": "Da jeg kikket mot døra, så det ut som om jeg trengte en fluktvei, og jeg skjønner hvor ydmykende og urovekkende det kunne kjennes. Det beklager jeg. Jeg vil være tydelig på trygghet uten å behandle deg som en jeg må komme meg bort fra. Hva ville hjelpe oss å gjenopprette nok tillit til stødigheten min akkurat nå?"
     },
     "dp_alliance-repair_case-carlos_08": {
       "text": "[Defensiv] Da du tok opp drikking, hørtes du akkurat ut som kona mi, som om saken allerede var bygget opp mot meg. Jeg kom inn klar til å være ærlig, og så følte jeg at jeg stod tiltalt.",
@@ -5826,7 +5826,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_alliance-repair_case-carlos_09": {
       "text": "[Sint] Da du brukte ordet vold, følte jeg at du allerede hadde bestemt at jeg er kriminell. Jeg sier ikke at det jeg gjorde var greit, men det ordet gjorde at det føltes som om det ikke fantes et helt menneske igjen å snakke med.",
-      "suggestion": "Takk for at du setter ord på det. Da jeg brukte ordet vold uten nok varsomhet, hørtes det ut som om jeg hadde redusert deg til en kriminell, og det beklager jeg. Vi trenger fortsatt språk som er ærlig om skade, men ikke språk som visker ut hele mennesket foran meg. Hvilke ord lar oss snakke tydelig uten at du føler deg avskrevet?"
+      "suggestion": "Da jeg brukte ordet vold uten nok varsomhet, hørtes det ut som om jeg hadde redusert deg til en kriminell, og det beklager jeg. Vi trenger fortsatt språk som er ærlig om skade, men ikke språk som visker ut hele mennesket foran meg. Hvilke ord lar oss snakke tydelig uten at du føler deg avskrevet?"
     },
     "dp_alliance-repair_case-carlos_10": {
       "text": "[Defensiv] Når du spør om familien min, føles det som om du klandrer stedet jeg kommer fra. Det finnes ting der som skadet meg, men det finnes stolthet der også, og jeg vil ikke at du skal se på det som en patologi.",
@@ -5842,19 +5842,19 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_alliance-repair_case-nina_03": {
       "text": "[Splittet] Noen ganger når jeg snakker om husarbeid og barna, ser jeg at du virker trøtt, og da lurer jeg på om selv du er lei av dette.",
-      "suggestion": "Takk for at du setter ord på det. Hvis trøtthet syntes i ansiktet mitt, skjønner jeg at det kunne bekrefte frykten for at hverdagsbyrdene dine blir for mye for folk. Jeg beklager den virkningen. Jeg er interessert i dette. Hva hjelper deg å kjenne at jeg fortsatt er med deg i de vanlige detaljene?"
+      "suggestion": "Hvis trøtthet syntes i ansiktet mitt, skjønner jeg at det kunne bekrefte frykten for at hverdagsbyrdene dine blir for mye for folk, og det beklager jeg. Jeg er interessert i dette. Hva hjelper deg å kjenne at jeg fortsatt er med deg i de vanlige detaljene?"
     },
     "dp_alliance-repair_case-nina_04": {
       "text": "[Unnskyldende] Når du sier grenser, hører jeg det som om du sier at jeg allerede burde kunne helt vanlig voksenliv. Jeg sitter her og nikker, men inni meg føler jeg meg som en mislykket voksen og mor.",
-      "suggestion": "Takk for at du forteller meg det. Måten jeg brukte «grenser» på hørtes ut som en korrigering eller karakter, og jeg beklager at det matet følelsen av å mislykkes. Hvilke ord ville hjulpet oss å snakke om grensene dine uten at du føler deg defekt eller på etterskudd?"
+      "suggestion": "Måten jeg brukte «grenser» på hørtes ut som en korrigering eller karakter, og jeg beklager at det matet følelsen av å mislykkes. Hvilke ord ville hjulpet oss å snakke om grensene dine uten at du føler deg defekt eller på etterskudd?"
     },
     "dp_alliance-repair_case-nina_05": {
       "text": "[På gråten] Da jeg endelig sluttet å gråte forrige uke, så jeg at skuldrene dine sank og ansiktet ditt myknet, og jeg tenkte: Å, hun er lettet. Så ble jeg flau over å ta så mye plass.",
-      "suggestion": "Takk for at du forteller meg det. Hvis kroppen min så lettet ut, skjønner jeg at tårene dine kunne kjennes som en byrde her, og det beklager jeg. Jeg vil at følelsene dine skal ha rom hos meg. Hva ville hjulpet deg å kjenne at jeg ikke venter på at de skal bli over?"
+      "suggestion": "Hvis kroppen min så lettet ut, skjønner jeg at tårene dine kunne kjennes som en byrde her, og det beklager jeg. Jeg vil at følelsene dine skal ha rom hos meg. Hva ville hjulpet deg å kjenne at jeg ikke venter på at de skal bli over?"
     },
     "dp_alliance-repair_case-nina_06": {
       "text": "[Fortapt] Når du spør hva jeg vil, føler jeg meg forlatt, som om jeg skal vite det alene. Jeg har brukt år på å gjette hva alle andre vil, så spørsmålet slipper meg ned i et blankt sted.",
-      "suggestion": "Takk for at du sier det. Spørsmålet mitt kan ha gitt deg for mye ansvar for fort, og det beklager jeg. Hvordan kan jeg hjelpe deg å finne hva du vil uten å la deg være alene i det blanke stedet?"
+      "suggestion": "Spørsmålet mitt kan ha gitt deg for mye ansvar for fort, og det beklager jeg. Hvordan kan jeg hjelpe deg å finne hva du vil uten å la deg være alene i det blanke stedet?"
     },
     "dp_alliance-repair_case-nina_07": {
       "text": "[Sliten] Da du foreslo hvile, hørtes det ut som om du ikke forstår livet mitt i praksis. Jeg gikk hjem og tenkte: Hun aner ikke hvordan kjøkkenet, guttene, moren min og meldingene ser ut klokka ni om kvelden.",
@@ -5862,7 +5862,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_alliance-repair_case-nina_08": {
       "text": "[Skamfull] Da du kalte det bitterhet, følte jeg at du hadde funnet noe stygt i meg. Jeg vet at jeg klager over å gjøre alt, men jeg vil ikke bli sett som bitter eller slem.",
-      "suggestion": "Takk for at du sier det. Ordet «bitterhet» landet som om jeg navnga noe stygt i deg, og det beklager jeg. Jeg vil at språket skal respektere såretheten og utmattelsen under. Hvilket ord lar oss bli ved det uten at du føler deg slem?"
+      "suggestion": "Ordet «bitterhet» landet som om jeg navnga noe stygt i deg, og det beklager jeg. Jeg vil at språket skal respektere såretheten og utmattelsen under. Hvilket ord lar oss bli ved det uten at du føler deg slem?"
     },
     "dp_alliance-repair_case-nina_09": {
       "text": "[Unnskyldende] Jeg sa unnskyld fem ganger og du la ikke merke til det, så jeg følte meg usynlig igjen. Det er flaut å si, for jeg vet at du ikke kan få med deg alt, men det kjentes som om hele mønsteret skjedde rett foran oss.",
