@@ -51,7 +51,7 @@ Ratings should consider: structural fidelity, marker validity, emotional pressur
 
 ## Current Baseline
 
-This audit uses the current branch state after the 2026-06-18 moderate empathic-understanding breadth pass.
+This audit uses the current branch state after the 2026-06-18 easy empathic-evocations marker-affordance pass.
 
 Automated averages are triage only, not quality scores. They still reveal places where the app may be more compressed than Goldman.
 
@@ -63,7 +63,7 @@ Automated averages are triage only, not quality scores. They still reveal places
 | Exploratory Questions | 16.8 | 22.5 | 11.8 | 26.3 | App intentionally keeps questions cleaner than Goldman examples. |
 | Treatment Rationale | 15.5 | 20.5 | 28.8 | 54.2 | App is briefer than Goldman but usually clinically focused. |
 | Empathic Explorations | 17.8 | 26.2 | 24.9 | 30.3 | Hard-tier regression/Bokmal pass complete; strong, with later marker breadth and Bokmal polish only. |
-| Empathic Evocations | 18.9 | 23.1 | 19.0 | 20.3 | Moderate and hard markers now have stronger ordinary-scene affordance while preserving trainee image-making. |
+| Empathic Evocations | 20.8 | 23.1 | 18.9 | 20.3 | Easy, moderate, and hard markers now have stronger ordinary-scene affordance while preserving trainee image-making. |
 | Empathic Conjectures | 16.5 | 21.5 | 20.8 | 21.8 | Response-boundary pass complete; strong, with later marker-breadth and Bokmal polish. |
 | Staying in Contact with Intense Affect | 31.3 | 35.3 | 32.0 | 22.6 | Contact-first response repair complete; residual regression risk is mainly high-risk precision. |
 | Self-Disclosure | 14.8 | 18.4 | 31.3 | 27.6 | Boundary/transparency pass complete; strong, with later Bokmal and marker-breadth polish. |
@@ -94,7 +94,7 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | Empathic Explorations | Easy | 8.5 | Good edge-following markers and responses after recent repair; Bokmal still contains repeated "la oss/kan vi" patterns. |
 | Empathic Explorations | Moderate | 8.4 | Strong live-edge training with less conjecture drift; further gains should be Bokmal idiom and marker breadth. |
 | Empathic Explorations | Hard | 8.5 | Recent pass tightened all hard responses into one small live exploration step, softened three over-formulated markers, and removed repeated "stay with/kan vi/la oss" patterns in the hard tier. |
-| Empathic Evocations | Easy | 8.2 | Markers are now much flatter and leave room for therapist imagery; some are very short and could carry a bit more ordinary scene detail. |
+| Empathic Evocations | Easy | 8.5 | Recent pass added ordinary scene detail to the thinnest beginner markers while preserving flat client prompts and leaving vivid imagery to the therapist response. |
 | Empathic Evocations | Moderate | 8.4 | Recent pass added ordinary scene, guarded cognition, and relational pressure while keeping client prompts non-poetic enough for trainee image-making. |
 | Empathic Evocations | Hard | 8.4 | Recent pass added pressure, guarded cognition, and relational stakes for Aisha, David, and Marcus while keeping client prompts non-poetic and safety-sensitive responses clinically careful. |
 | Empathic Conjectures | Easy | 8.4 | Strong tentative one-step-beyond-explicit responses with good behavioral markers. |
@@ -119,13 +119,13 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Empathic Evocations, easy | Moderate and hard are now stronger; easy markers remain intentionally flat but sometimes too brief for beginner practice. | Add a little ordinary scene detail only where the prompt lacks enough edge for image-making. |
-| 2 | Empathic Explorations, easy and moderate | Hard is now stronger; easy/moderate are good but still have residual Bokmal and marker-breadth polish opportunities. | Regression spot-check only unless flagged or doing a dedicated Bokmal pass. |
-| 3 | Empathic Understanding, easy and moderate | Moderate and hard now have better marker breadth while preserving response purity. | Regression spot-check only unless flagged or during dedicated Bokmal polish. |
-| 4 | Alliance Repair, hard and moderate | Both tiers now have better opening variety and stronger ownership language. | Regression spot-check only unless flagged. |
-| 5 | Marker Recognition and Chair Work, hard | Hard tier now has stronger Goldman sequencing; remaining issues are occasional phrasing regression and high-risk Bokmal tone. | Regression spot-check only unless flagged. |
-| 6 | Staying in Contact with Intense Affect, hard | Strong after recent repairs; residual risk is safety-sensitive regression. | High-risk spot checks only unless flagged. |
-| 7 | Empathic Affirmation and Validation, Self-Disclosure, Treatment Rationale, Therapist Self-Awareness, Exploratory Questions, Empathic Conjectures | Structurally stable and comparatively high scoring. | Polish only when flagged or during dedicated Bokmal passes. |
+| 1 | Empathic Affirmation and Validation, easy | Moderate and hard are stronger after recent passes; easy remains lower scoring and can benefit from validation-specific specificity plus Bokmal polish. | Lightly broaden selected legitimacy statements without drifting into reassurance or advice. |
+| 2 | Exploratory Questions, hard | Strong advanced ambiguity, but high-risk material can still drift toward containment or multi-question processing. | Regression spot-check for one inward question only. |
+| 3 | Empathic Conjectures, hard | Strong defensive and high-shame material, with residual risk of over-formulated case conceptualization. | Check guesses remain tentative, evidence-based, and one step beyond the explicit marker. |
+| 4 | Empathic Explorations, easy and moderate | Hard is now stronger; easy/moderate are good but still have residual Bokmal and marker-breadth polish opportunities. | Regression spot-check only unless flagged or doing a dedicated Bokmal pass. |
+| 5 | Alliance Repair, hard and moderate | Both tiers now have better opening variety and stronger ownership language. | Regression spot-check only unless flagged. |
+| 6 | Marker Recognition and Chair Work, hard | Hard tier now has stronger Goldman sequencing; remaining issues are occasional phrasing regression and high-risk Bokmal tone. | Regression spot-check only unless flagged. |
+| 7 | Staying in Contact with Intense Affect, hard | Strong after recent repairs; residual risk is safety-sensitive regression. | High-risk spot checks only unless flagged. |
 
 ## Next Work Decision Rule
 
@@ -139,7 +139,7 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-18 moderate empathic-understanding breadth pass: move next to Empathic Evocations easy. The goal is to add ordinary scene detail only where the beginner marker is too thin for vivid therapist imagery, while keeping the client utterance flatter than the therapist response.
+Current recommendation after the 2026-06-18 easy empathic-evocations marker-affordance pass: move next to Empathic Affirmation and Validation easy. The goal is to make beginner validation responses more context-specific and natural in Bokmal while avoiding reassurance, advice, or endorsing harmful behavior.
 
 ### Implementation Update: Empathic Understanding Hard
 
@@ -172,6 +172,22 @@ Current moderate understanding state after this pass:
 
 Empathic Understanding moderate is now strong enough to leave the active-priority slot. Later work should be regression or Bokmal-only polish unless flagged.
 
+### Implementation Update: Empathic Evocations Easy
+
+An easy-tier evocations marker-affordance pass revised 10 thin beginner markers across Sara, Michael, and Jason plus one repeated response opening.
+
+Current easy evocations state after this pass:
+
+- 90 total evocations items preserved; 10 easy markers revised.
+- Easy client marker average increased to about 15.8 words.
+- No easy-tier marker is now 12 words or fewer.
+- The edited client prompts now add ordinary scene detail without using client-side `like/as if/as though` imagery, preserving the trainee's opportunity to supply vivid imagery.
+- Suggested responses still carry the metaphor, image, or sensory evocation; one repeated response opening was removed.
+- Every edited English item has a matching Bokmal localization written in natural Bokmal.
+- Quality rating for Empathic Evocations easy increased from about 8.2/10 to about 8.5/10.
+
+Empathic Evocations is now strong enough across easy, moderate, and hard tiers to leave the active-priority slot. Later work should be regression or Bokmal-only polish unless flagged.
+
 ### Implementation Update: Empathic Evocations Hard
 
 A hard-tier evocations marker-affordance pass revised all 30 Aisha, David, and Marcus items.
@@ -186,7 +202,7 @@ Current hard evocations state after this pass:
 - Every edited English item has a matching Bokmal localization, with common therapy-English phrasing avoided in the revised slice.
 - Quality rating for Empathic Evocations hard increased from about 8.1/10 to about 8.4/10.
 
-Empathic Evocations hard is now strong enough to leave the active-priority slot. Easy evocations can still receive later light marker-affordance polish, but the next highest-value contract target is Empathic Understanding hard.
+Empathic Evocations hard is now strong enough to leave the active-priority slot.
 
 ### Implementation Update: Empathic Evocations Moderate
 
@@ -202,7 +218,7 @@ Current moderate evocations state after this pass:
 - Every edited English item has a matching Bokmal localization, with common therapy-English phrasing avoided in the revised slice.
 - Quality rating for Empathic Evocations moderate increased from about 8.0/10 to about 8.4/10.
 
-Empathic Evocations moderate is now strong enough to leave the active-priority slot. The next evocations target is the hard tier, where Aisha, David, and Marcus still include compressed prompts that need more pressure without becoming poetic.
+Empathic Evocations moderate is now strong enough to leave the active-priority slot.
 
 ### Implementation Update: Marker Recognition and Chair Work
 

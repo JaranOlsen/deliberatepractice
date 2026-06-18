@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T12:36:36.084Z",
+  "generatedAt": "2026-06-18T14:23:13.733Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1243,11 +1243,11 @@
               "difficulty": "easy",
               "riskFlags": [],
               "en": {
-                "statement": "[Sad] Sometimes I sit on the floor instead of getting into bed.",
+                "statement": "[Sad] Some nights I sit on the floor beside the bed for a while instead of getting in.",
                 "response": "The floor becomes the place you fold into when the bed feels too exposed and wide."
               },
               "no": {
-                "statement": "[Trist] Noen ganger setter jeg meg på gulvet i stedet for å legge meg.",
+                "statement": "[Trist] Noen kvelder sitter jeg på gulvet ved siden av senga en stund i stedet for å legge meg.",
                 "response": "Gulvet blir stedet du folder deg sammen når senga kjennes for åpen og for bred."
               }
             }
