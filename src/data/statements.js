@@ -2917,7 +2917,7 @@ export const STATEMENT_SETS = {
     "case-aisha": [
       {
         "text": "[Desperate] If you glance at the clock, my stomach drops like you are already leaving me.",
-        "suggestion": "That glance becomes a leaving signal; I wonder if it might wake an old terror of being dropped before you can feel you matter."
+        "suggestion": "That glance becomes a leaving signal; I wonder if underneath the drop is a fear that you stop mattering once someone turns away."
       },
       {
         "text": "[Furious] When he did not text back, I went from quiet to furious before I knew what happened.",
@@ -2929,7 +2929,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Desperate] I scared everyone last week saying I might kill myself, but he texted today, so it is fine and maybe I do not need to talk about it.",
-        "suggestion": "Part of you wants to close it quickly now that contact came back; I wonder if talking about how close the edge got feels too frightening or shameful."
+        "suggestion": "Part of you wants to close it quickly now that contact came back; I wonder if looking back at how close the edge got feels frightening."
       },
       {
         "text": "[Desperate] If you cancel, a part of me wants to never come back and pretend I do not care.",
@@ -2937,7 +2937,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] When I ask someone to stay, I hate how intense I sound afterward.",
-        "suggestion": "You hate the intensity right where you need closeness; maybe shame is speaking from what was done to you."
+        "suggestion": "You hate the intensity right where you need closeness; maybe shame says your need is too much."
       },
       {
         "text": "[Panicked] Kindness makes me sob, and then I want to bolt from the room.",
@@ -2949,7 +2949,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] After I lash out, I call myself disgusting before anyone else can say it.",
-        "suggestion": "The attack turns inward quickly; I wonder if the harshness may be trying to get ahead of rejection while covering grief about feeling alone."
+        "suggestion": "The attack turns inward quickly; I wonder if calling yourself disgusting gets there before the fear that someone else will."
       },
       {
         "text": "[Panicked] I panic when I say goodbye, even when I know you'll be back.",
@@ -2963,11 +2963,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Dismissive] I do not like being told what to do; it makes me feel like someone has the upper hand.",
-        "suggestion": "You resist direction; I wonder if it may land like being made small, managed, or exposed as not in control."
+        "suggestion": "You resist direction; I wonder if it lands like someone has made you small."
       },
       {
         "text": "[Dismissive] If I cannot be the best, why bother trying at all?",
-        "suggestion": "You aim for the top; I wonder if ordinary can feel like being invisible, replaceable, or unworthy."
+        "suggestion": "You aim for the top; I wonder if ordinary can feel almost like disappearing."
       },
       {
         "text": "[Distant] I plan big gestures, people react well, and then I feel empty afterward.",
@@ -2987,7 +2987,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Wounded but sharp] If the kids push back, I hear disrespect and go straight into lecture mode.",
-        "suggestion": "Their pushback seems to hit your authority fast; I wonder if the lecture covers shame or fear about losing your place with them."
+        "suggestion": "Their pushback seems to hit your authority fast; I wonder if the lecture covers a flash of shame."
       },
       {
         "text": "[Wounded but sharp] When my wife misunderstands me, I get sharp and keep proving my point.",
@@ -2995,7 +2995,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Controlled] If my wife stays, I feel trapped and criticized; if she leaves, I feel humiliated. There is no winning.",
-        "suggestion": "Both options threaten you in different ways; I wonder if trapped and humiliated are circling the same fear of being seen as not enough."
+        "suggestion": "Both options threaten you; I wonder if each one touches the same fear of being seen as not enough."
       }
     ],
     "case-marcus": [
@@ -3021,7 +3021,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and guarded] When good things happen, I notice myself waiting for the other shoe to drop.",
-        "suggestion": "The good stays at a distance; maybe letting it matter also opens the door to losing it again."
+        "suggestion": "The good stays at a distance; maybe letting it matter makes loss feel too close."
       },
       {
         "text": "[Flat] I drink to knock myself out sometimes because I do not want to dream.",
@@ -3033,7 +3033,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and guarded] I do not remember the last time I laughed, and even trying feels fake.",
-        "suggestion": "You cannot reach laughter; I wonder if joy feels risky or disloyal after so much loss and numbness."
+        "suggestion": "You cannot reach laughter; I wonder if joy feels wrong somehow after so much loss."
       },
       {
         "text": "[Flat] I tell myself I am better off alone. Closeness gets complicated fast.",
