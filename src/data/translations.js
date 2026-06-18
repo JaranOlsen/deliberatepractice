@@ -3865,7 +3865,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Tankene leter etter feilen, som om én løs tråd kan få hele bruddet til å gi mening."
     },
     "dp_empathic-evocations_case-sara_09": {
-      "text": "[Trist] Noen ganger setter jeg meg på gulvet i stedet for å legge meg.",
+      "text": "[Trist] Noen kvelder sitter jeg på gulvet ved siden av senga en stund i stedet for å legge meg.",
       "suggestion": "Gulvet blir stedet du folder deg sammen når senga kjennes for åpen og for bred."
     },
     "dp_empathic-evocations_case-sara_10": {
@@ -3889,15 +3889,15 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Flauheten blir liggende der etterpå, tung og ubehagelig, mens du prøver å gå utenom den."
     },
     "dp_empathic-evocations_case-michael_05": {
-      "text": "[Defensiv] Når kona mi sukker, går jeg ut fra at hun dømmer meg.",
+      "text": "[Defensiv] Når kona mi sukker mens jeg forklarer noe, går jeg ut fra at hun allerede har bestemt at jeg tar feil.",
       "suggestion": "Det lille sukket kan krysse rommet som en anklage, og systemet ditt spenner seg før hun har sagt et ord."
     },
     "dp_empathic-evocations_case-michael_06": {
-      "text": "[Anspent] Hvis noen sier ro deg ned, blir jeg sintere med en gang.",
+      "text": "[Anspent] Hvis noen sier ro deg ned midt i en krangel, blir jeg sintere med en gang og slutter å høre resten.",
       "suggestion": "De to ordene tenner fyrstikken, og ilden er i gang før du rekker å vite hva som ble antent."
     },
     "dp_empathic-evocations_case-michael_07": {
-      "text": "[Flau] Når jeg ikke vet svaret, føler jeg meg blottstilt.",
+      "text": "[Flau] Når jeg ikke vet svaret i et møte, føler jeg meg blottstilt foran alle.",
       "suggestion": "Å ikke vite åpner et nakent sted, som om all kompetansen du støtter deg på plutselig står uten skjold."
     },
     "dp_empathic-evocations_case-michael_08": {
@@ -3905,7 +3905,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Døra tar følelsen for deg, høyt nok til å dekke det mindre stikket under."
     },
     "dp_empathic-evocations_case-michael_09": {
-      "text": "[Skamfull] Å tenke på å si unnskyld først får meg til å føle meg svak.",
+      "text": "[Skamfull] Etter en krangel får tanken på å si unnskyld først meg til å føle meg svak og mindre enn henne.",
       "suggestion": "Unnskyldningen kjennes som å gå ned på lavere grunn, med alle andre plutselig høyere rundt deg."
     },
     "dp_empathic-evocations_case-michael_10": {
@@ -3925,19 +3925,19 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Alle de innøvde ordene står klare, og så lander blikkene på deg og alt låser seg bak et lag is."
     },
     "dp_empathic-evocations_case-jason_04": {
-      "text": "[Stille] Hvis folk ler i nærheten, antar jeg at jeg gjorde noe rart.",
+      "text": "[Stille] Hvis folk ler i nærheten etter at jeg har sagt noe, antar jeg at jeg gjorde noe rart.",
       "suggestion": "Latteren går gjennom rommet og peker seg mot deg før du vet hva den handlet om."
     },
     "dp_empathic-evocations_case-jason_05": {
       "text": "[Nølende] Når oppmerksomheten vender seg mot meg, blir jeg stillere og prøver å ikke bevege meg så mye.",
-      "suggestion": "Det er som om hele kroppen begynner å krympe i stolen, prøver å være til stede uten å bli sett."
+      "suggestion": "Hele kroppen begynner å krympe i stolen, mens du prøver å være til stede uten å bli sett."
     },
     "dp_empathic-evocations_case-jason_06": {
-      "text": "[Engstelig] Når noen gir meg et kompliment, tror jeg egentlig ikke på det.",
+      "text": "[Engstelig] Når noen gir meg et kompliment etter et møte, smiler jeg, men jeg tror egentlig ikke på det.",
       "suggestion": "Komplimentet berører overflaten og glir av før det når stedet som trenger det."
     },
     "dp_empathic-evocations_case-jason_07": {
-      "text": "[Stille] Søndag kveld begynner jeg å bli nedstemt, men jeg scroller mest.",
+      "text": "[Stille] Søndag kveld begynner jeg å bli nedstemt når leiligheten blir stille, men jeg scroller mest.",
       "suggestion": "Uka kommer for tidlig inn i rommet, og scrollingen blir et lite bevegelig lys mot tyngden."
     },
     "dp_empathic-evocations_case-jason_08": {
@@ -3945,11 +3945,11 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Én liten melding blir en smal døråpning, og hver omskriving er et nytt skritt tilbake fra å bli sett."
     },
     "dp_empathic-evocations_case-jason_09": {
-      "text": "[Engstelig] Selv det å si hei kan høres feil ut for meg etterpå.",
+      "text": "[Engstelig] Selv det å si hei i gangen kan høres feil ut for meg etterpå.",
       "suggestion": "Det lille hei-et blir hengende i ørene dine, som om ett vanlig ord har blitt bevis mot deg."
     },
     "dp_empathic-evocations_case-jason_10": {
-      "text": "[Stille] I grupper følger jeg med på hvor utgangen er.",
+      "text": "[Stille] I grupper følger jeg med på hvor utgangen er før jeg blir med i samtalen.",
       "suggestion": "Utgangen blir det tryggeste stedet i rommet, stedet blikket holder fast i når oppmerksomheten kommer for nær."
     },
     "dp_empathic-evocations_case-laura_01": {

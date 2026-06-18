@@ -158,21 +158,28 @@ Completed on the current content branch:
 - Alliance Repair moderate has received a response-opening and ownership pass. Laura, Carlos, and Nina responses now start less formulaically, preserve receiving/ownership before frame clarification, and use more natural Bokmal repair language.
 - Empathic Explorations hard has received a regression and Bokmal-naturalness pass. All 30 Aisha, David, and Marcus responses now make one smaller live exploratory move instead of using repeated "stay with" scaffolding; three over-formulated markers were softened, and matching Bokmal no longer repeats `Kan vi`, `La oss`, or `Vi kan` in the hard tier.
 - Empathic Understanding moderate has received a marker-breadth and Bokmal pass. All 30 Laura, Carlos, and Nina markers now carry fuller Goldman-intermediate emotional context while responses remain concise, reflective, question-free, and free of advice, validation, conjecture, or evocation-heavy imagery.
+- Empathic Evocations easy has received a marker-affordance pass. Ten thin Sara, Michael, and Jason markers now include a little ordinary scene detail without using client-side imagery, and matching Bokmal localizations were aligned; the easy tier no longer has markers of 12 words or fewer.
 
 These should still be reviewed in normal regression passes, but the workflow should now follow the tier-level scores in `src/md/benchmark-contract-audit-2026-06-11.md` rather than treating every repaired skill as equal priority.
 
 ## Current Highest-Value Improvement Targets
 
-1. Empathic Evocations easy.
-   - Moderate and hard are now strong. Easy evocations remain intentionally flat but can use light ordinary-scene detail where the prompt gives too little edge for image-making.
+1. Empathic Affirmation and Validation easy.
+   - Moderate and hard are stronger after recent passes. Easy validation remains lower scoring and can benefit from more context-specific legitimacy statements and Bokmal polish without drifting into reassurance or advice.
 
-2. Empathic Explorations easy/moderate.
+2. Exploratory Questions hard.
+   - Strong advanced ambiguity, but high-risk material should be checked for strict one-question purity and no containment drift.
+
+3. Empathic Conjectures hard.
+   - Strong defensive and high-shame material, with residual risk of over-formulated case conceptualization. Guesses should remain tentative and evidence-based.
+
+4. Empathic Explorations easy/moderate.
    - Hard exploration is now stronger after the latest regression pass. Easy and moderate remain good but can still benefit from occasional marker-breadth or Bokmal polish when not displacing weaker sets.
 
-3. Empathic Understanding easy/moderate.
-   - Moderate and hard are now strong after marker-breadth passes. Review only for regression or dedicated Bokmal polish unless flagged.
+5. Empathic Understanding and Empathic Evocations.
+   - Recent passes have repaired the main marker-breadth gaps. Review only for regression or dedicated Bokmal polish unless flagged.
 
-4. Marker Recognition and Chair Work hard and Alliance Repair hard/moderate.
+6. Marker Recognition and Chair Work hard and Alliance Repair hard/moderate.
    - These tiers are now strong after targeted sequencing/opening passes. Review only for regression, flagged items, high-risk pacing, or Bokmal tone.
 
 

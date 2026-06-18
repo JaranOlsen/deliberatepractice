@@ -2316,7 +2316,7 @@ export const STATEMENT_SETS = {
         "suggestion": "The mind keeps searching for the flaw, like if it can find the loose thread, the whole leaving might make sense."
       },
       {
-        "text": "[Sad] Sometimes I sit on the floor instead of getting into bed.",
+        "text": "[Sad] Some nights I sit on the floor beside the bed for a while instead of getting in.",
         "suggestion": "The floor becomes the place you fold into when the bed feels too exposed and wide."
       },
       {
@@ -2342,15 +2342,15 @@ export const STATEMENT_SETS = {
         "suggestion": "The embarrassment sits there afterward, heavy and damp, while you try to step around it."
       },
       {
-        "text": "[Defensive] When my wife sighs, I assume she is judging me.",
+        "text": "[Defensive] When my wife sighs while I am explaining something, I assume she has already decided I am wrong.",
         "suggestion": "That small sigh can cross the room like a charge, and your system braces before she has even spoken."
       },
       {
-        "text": "[Tense] If someone says calm down, I get angrier immediately.",
+        "text": "[Tense] If someone says calm down during an argument, I get angrier immediately and stop hearing the rest.",
         "suggestion": "Those two words strike the match, and the fire is moving before you can even name what got lit."
       },
       {
-        "text": "[Embarrassed] When I don't know the answer, I feel exposed.",
+        "text": "[Embarrassed] When I don't know the answer in a meeting, I feel exposed in front of everyone.",
         "suggestion": "Not knowing opens a bare place, like all the competence you rely on has lost its cover for a second."
       },
       {
@@ -2358,7 +2358,7 @@ export const STATEMENT_SETS = {
         "suggestion": "The door takes the feeling for you, loud enough to cover the smaller sting underneath."
       },
       {
-        "text": "[Ashamed] Thinking about apologizing first makes me feel weak.",
+        "text": "[Ashamed] After a fight, thinking about apologizing first makes me feel weak and smaller than her.",
         "suggestion": "The apology feels like stepping onto lower ground, with everyone suddenly taller around you."
       },
       {
@@ -2380,19 +2380,19 @@ export const STATEMENT_SETS = {
         "suggestion": "All the practiced words line up, then the eyes land on you and everything locks behind a sheet of ice."
       },
       {
-        "text": "[Quietly] If people laugh nearby, I assume I did something strange.",
+        "text": "[Quietly] If people laugh nearby after I have spoken, I assume I did something strange.",
         "suggestion": "The laugh travels across the room and points itself at you, even before you know what it was about."
       },
       {
         "text": "[Hesitant] When attention turns to me, I get quieter and try not to move much.",
-        "suggestion": "It is as if your whole body starts shrinking in the chair, trying to stay present without being seen."
+        "suggestion": "Your whole body starts shrinking in the chair, trying to stay present without being seen."
       },
       {
-        "text": "[Anxious] When someone compliments me, I don't really believe it.",
+        "text": "[Anxious] When someone compliments me after a meeting, I smile, but I don't really believe it.",
         "suggestion": "The compliment touches the surface and slides away before it can reach the place that needs it."
       },
       {
-        "text": "[Quietly] Sunday night I start feeling low, but I mostly just scroll.",
+        "text": "[Quietly] Sunday night I start feeling low when the apartment gets quiet, but I mostly just scroll.",
         "suggestion": "The week arrives early in the room, and scrolling becomes a small moving light against the heaviness."
       },
       {
@@ -2400,11 +2400,11 @@ export const STATEMENT_SETS = {
         "suggestion": "One small message becomes a narrow doorway, and every rewrite is another step back from being seen."
       },
       {
-        "text": "[Anxious] Even saying hello can sound wrong to me afterward.",
+        "text": "[Anxious] Even saying hello in the hallway can sound wrong to me afterward.",
         "suggestion": "That tiny hello keeps ringing in your ears, as if one ordinary word has become evidence against you."
       },
       {
-        "text": "[Quietly] In groups, I keep track of where the exit is.",
+        "text": "[Quietly] In groups, I keep track of where the exit is before I join the conversation.",
         "suggestion": "The exit becomes the safest part of the room, the place your eyes hold onto when attention feels too close."
       }
     ],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T12:36:36.084Z",
+  "generatedAt": "2026-06-18T14:23:13.734Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -723,11 +723,11 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Defensive] When my wife sighs, I assume she is judging me.",
+            "statement": "[Defensive] When my wife sighs while I am explaining something, I assume she has already decided I am wrong.",
             "response": "That small sigh can cross the room like a charge, and your system braces before she has even spoken."
           },
           "no": {
-            "statement": "[Defensiv] Når kona mi sukker, går jeg ut fra at hun dømmer meg.",
+            "statement": "[Defensiv] Når kona mi sukker mens jeg forklarer noe, går jeg ut fra at hun allerede har bestemt at jeg tar feil.",
             "response": "Det lille sukket kan krysse rommet som en anklage, og systemet ditt spenner seg før hun har sagt et ord."
           }
         }
