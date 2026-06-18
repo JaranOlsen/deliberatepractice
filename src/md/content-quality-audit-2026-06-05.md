@@ -1,6 +1,6 @@
 # Current Content Quality Audit
 
-Date: 2026-06-05; branch update through 2026-06-16
+Date: 2026-06-05; branch update through 2026-06-18
 
 ## Scope
 
@@ -43,6 +43,7 @@ Branch update:
 - Empathic Understanding easy has received regression polish: selected Sara, Michael, and Jason responses now stay closer to explicit client meaning, and one Sara marker was softened away from naming core unlovability too directly.
 - Staying in Contact with Intense Affect easy/moderate has received a contact-over-grounding polish: selected responses now communicate steadier presence before regulation, and Sara now includes a warm positive-affect marker that is hard to stay with for different reasons than panic or grief.
 - Empathic Affirmation and Validation has received a cross-tier response-variety pass: 51 English responses and their Bokmal localizations were tightened so validation remains explicit while reducing overuse of "No wonder," broad protection language, and literal Norwegian therapy-English phrasing.
+- Empathic Affirmation and Validation easy has received a response-specificity and Bokmal pass: beginner responses now validate through concrete context rather than repeated "makes sense/understandably" formulas, and selected thin markers now carry a little more ordinary scene detail.
 - Empathic Evocations has received another regression pass: selected markers were flattened where they were still supplying body/image language too early, and a self-harm-adjacent evocation was made less poetic and more clinically careful.
 - Empathic Conjectures hard has received a marker-spoiler regression pass: selected Aisha, David, and Marcus markers were flattened where they named the hidden fear, loneliness, shame, or defensive logic too directly before the therapist's conjecture.
 - Staying in Contact with Intense Affect moderate/hard has received contact-first response polish: 29 English responses and Bokmal localizations now receive the affect before grounding, containment, or safety structuring. Estimated set quality moved closer to Goldman level, roughly from 8.1/10 to 8.5/10 for the targeted response slice.
@@ -81,7 +82,7 @@ The remaining gaps are more subtle:
 | Empathic Understanding | Easy | Strong | Medium-High | Strong | Low | Recent polish simplified selected beginner responses toward basic reflection and reduced one overly direct core-pain marker. Remaining work is ordinary regression checking. |
 | Empathic Understanding | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass added ordinary bills/money worry, friend disappointment, confused depression, and guide-me uncertainty. Further work is polish rather than repair. |
 | Empathic Understanding | Hard | Strong | Medium-High | Strong | Low-Medium | Recent pass added substance-anxiety ambivalence, plain session uncertainty, and more ordinary relational loss while keeping hard-case defenses. |
-| Empathic Affirmation and Validation | Easy | Strong | High | Strong | Low | Recent regression pass kept validation explicit while making the responses less formulaic and less dependent on "No wonder." Continue only light spot checks. |
+| Empathic Affirmation and Validation | Easy | Strong | High | Strong | Low | Recent pass made beginner validation more context-specific, reduced repeated "makes sense/understandably" formulas, and aligned Bokmal idiom. Continue only light spot checks. |
 | Empathic Affirmation and Validation | Moderate | Strong | Medium-High | Strong | Low | Good validation markers across trauma, politics, child-army fear, shame, and caregiver guilt. Recent pass improved response variety and Bokmal naturalness. Some benchmark romance/grief variants remain thin but not urgent. |
 | Empathic Affirmation and Validation | Hard | Strong | High | Strong | Low | Good range: trauma shame, rage/fear, desperate longing, confused overwhelm, positive warmth. Recent pass sharpened moral-responsibility and trauma validations without excusing harmful behavior. |
 | Exploratory Questions | Easy | Strong | Medium-High | Strong | Low-Medium | Recent pass reduced client-supplied body cues and tightened responses into one inward experiential question. AA/amends guilt remains absent because the fixed easy cases do not naturally carry recovery history. |
@@ -148,7 +149,7 @@ Completed on the current content branch:
 - Staying in Contact with Intense Affect residual contact-first response and Bokmal naturalness polish.
 - Empathic Explorations residual response-completion and Bokmal naturalness polish.
 - Marker Recognition and Chair Work occasional setup-response and Bokmal naturalness polish.
-- Full-library score audit completed on 2026-06-16. No skill/difficulty set has a structural failure, but the previous all-strong ranking was too broad. After the latest validation, evocations, and understanding passes, the current highest-value targets are Marker Recognition and Chair Work hard, Alliance Repair hard/moderate, Empathic Explorations hard, and Empathic Understanding moderate.
+- Full-library score audit completed on 2026-06-16. No skill/difficulty set has a structural failure, but the previous all-strong ranking was too broad. After the latest validation, evocations, and understanding passes, current targeting should follow `src/md/benchmark-contract-audit-2026-06-11.md`, where hard Exploratory Questions is now the next active regression target.
 - Empathic Affirmation and Validation hard/moderate has received a targeted response-variety and Bokmal naturalness pass. Hard markers were expanded from compressed one-line prompts into fuller high-risk validation markers; hard and moderate responses now preserve explicit legitimizing language without repeated four-word openings, and Bokmal no longer uses `det gir mening` in these tiers.
 - Empathic Evocations moderate has received a marker-affordance pass. Laura, Carlos, and Nina prompts now add ordinary scene, guarded cognition, and relational pressure while leaving vivid imagery to the therapist response; matching Bokmal localizations were rewritten naturally.
 - Empathic Evocations hard has received a marker-affordance pass. Aisha, David, and Marcus prompts now carry more crisis pressure, guarded cognition, defensive organization, and relational stakes without supplying the vivid image/metaphor in the client line; matching Bokmal localizations were rewritten naturally.
@@ -159,34 +160,32 @@ Completed on the current content branch:
 - Empathic Explorations hard has received a regression and Bokmal-naturalness pass. All 30 Aisha, David, and Marcus responses now make one smaller live exploratory move instead of using repeated "stay with" scaffolding; three over-formulated markers were softened, and matching Bokmal no longer repeats `Kan vi`, `La oss`, or `Vi kan` in the hard tier.
 - Empathic Understanding moderate has received a marker-breadth and Bokmal pass. All 30 Laura, Carlos, and Nina markers now carry fuller Goldman-intermediate emotional context while responses remain concise, reflective, question-free, and free of advice, validation, conjecture, or evocation-heavy imagery.
 - Empathic Evocations easy has received a marker-affordance pass. Ten thin Sara, Michael, and Jason markers now include a little ordinary scene detail without using client-side imagery, and matching Bokmal localizations were aligned; the easy tier no longer has markers of 12 words or fewer.
+- Empathic Affirmation and Validation easy has received a response-specificity and Bokmal pass. Twenty-nine beginner responses now carry contextual legitimacy with less formulaic phrasing; English `makes sense` dropped from 21 easy responses to 1, repeated English starts dropped to 0, and Bokmal `gir mening` dropped to 0.
 
 These should still be reviewed in normal regression passes, but the workflow should now follow the tier-level scores in `src/md/benchmark-contract-audit-2026-06-11.md` rather than treating every repaired skill as equal priority.
 
 ## Current Highest-Value Improvement Targets
 
-1. Empathic Affirmation and Validation easy.
-   - Moderate and hard are stronger after recent passes. Easy validation remains lower scoring and can benefit from more context-specific legitimacy statements and Bokmal polish without drifting into reassurance or advice.
-
-2. Exploratory Questions hard.
+1. Exploratory Questions hard.
    - Strong advanced ambiguity, but high-risk material should be checked for strict one-question purity and no containment drift.
 
-3. Empathic Conjectures hard.
+2. Empathic Conjectures hard.
    - Strong defensive and high-shame material, with residual risk of over-formulated case conceptualization. Guesses should remain tentative and evidence-based.
 
-4. Empathic Explorations easy/moderate.
+3. Empathic Explorations easy/moderate.
    - Hard exploration is now stronger after the latest regression pass. Easy and moderate remain good but can still benefit from occasional marker-breadth or Bokmal polish when not displacing weaker sets.
 
-5. Empathic Understanding and Empathic Evocations.
-   - Recent passes have repaired the main marker-breadth gaps. Review only for regression or dedicated Bokmal polish unless flagged.
+4. Empathic Affirmation and Validation, Empathic Understanding, and Empathic Evocations.
+   - Recent passes have repaired the main marker-breadth and response-specificity gaps. Review only for regression or dedicated Bokmal polish unless flagged.
 
-6. Marker Recognition and Chair Work hard and Alliance Repair hard/moderate.
+5. Marker Recognition and Chair Work hard and Alliance Repair hard/moderate.
    - These tiers are now strong after targeted sequencing/opening passes. Review only for regression, flagged items, high-risk pacing, or Bokmal tone.
 
 
 Lower-priority regression areas:
 
 - Staying in Contact with Intense Affect hard: high-risk contact-first spot checks only unless flagged.
-- Empathic Affirmation and Validation, Self-Disclosure, Treatment Rationale, Therapist Self-Awareness, Exploratory Questions, and Empathic Conjectures: polish mainly when Supabase feedback flags an item or during dedicated Bokmal passes.
+- Empathic Affirmation and Validation, Self-Disclosure, Treatment Rationale, Therapist Self-Awareness, Exploratory Questions, and Empathic Conjectures: polish mainly when Supabase feedback flags an item or during dedicated Bokmal passes, except for the active hard Exploratory Questions regression target above.
 
 ## Case-Set Constraints
 
