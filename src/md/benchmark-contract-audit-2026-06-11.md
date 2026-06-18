@@ -51,7 +51,7 @@ Ratings should consider: structural fidelity, marker validity, emotional pressur
 
 ## Current Baseline
 
-This audit uses the current branch state after the 2026-06-18 easy empathic-affirmation-validation specificity and Bokmal pass.
+This audit uses the current branch state after the 2026-06-18 hard exploratory-questions regression pass.
 
 Automated averages are triage only, not quality scores. They still reveal places where the app may be more compressed than Goldman.
 
@@ -60,7 +60,7 @@ Automated averages are triage only, not quality scores. They still reveal places
 | Therapist Self-Awareness | 63.9 | 76.8 | 26.1 | 25.9 | Now structurally close. |
 | Empathic Understanding | 23.2 | 32.9 | 14.5 | 17.8 | Moderate and hard tiers now have stronger explicit emotional meaning while staying basic-empathy pure. |
 | Empathic Affirmation and Validation | 23.8 | 27.1 | 22.0 | 23.0 | Easy, moderate, and hard response-variety/Bokmal passes complete; now strong with later light regression only. |
-| Exploratory Questions | 16.8 | 22.5 | 11.8 | 26.3 | App intentionally keeps questions cleaner than Goldman examples. |
+| Exploratory Questions | 16.8 | 22.5 | 11.8 | 26.3 | Hard regression pass complete; app intentionally keeps questions cleaner than Goldman examples. |
 | Treatment Rationale | 15.5 | 20.5 | 28.8 | 54.2 | App is briefer than Goldman but usually clinically focused. |
 | Empathic Explorations | 17.8 | 26.2 | 24.9 | 30.3 | Hard-tier regression/Bokmal pass complete; strong, with later marker breadth and Bokmal polish only. |
 | Empathic Evocations | 20.8 | 23.1 | 18.9 | 20.3 | Easy, moderate, and hard markers now have stronger ordinary-scene affordance while preserving trainee image-making. |
@@ -87,7 +87,7 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | Empathic Affirmation and Validation | Hard | 8.4 | Recent pass expanded hard markers, preserved high-risk validation, removed repeated openings, and made Bokmal more natural. |
 | Exploratory Questions | Easy | 8.5 | Strong one-question purity with simple inward-turning markers; only light opening-variety polish needed. |
 | Exploratory Questions | Moderate | 8.4 | Good inward edge and difficulty calibration; a few repeated "what happens/what do you notice" patterns remain acceptable but visible. |
-| Exploratory Questions | Hard | 8.3 | Strong advanced ambiguity without much conjecture drift; keep checking that high-risk material remains exploratory rather than containment work. |
+| Exploratory Questions | Hard | 8.5 | Recent regression pass removed subtle containment/cognitive drift while preserving one inward-turning question across advanced ambiguity and high-risk material. |
 | Providing Treatment Rationale | Easy | 8.8 | Very close to the benchmark task: direct client skepticism/fear markers and plain-language rationale tied to client goals. |
 | Providing Treatment Rationale | Moderate | 8.6 | Strong fit with fear, skepticism, numbness, and practicality; Goldman responses are longer, but the app's brevity usually helps practice. |
 | Providing Treatment Rationale | Hard | 8.4 | Strong safety/control rationale work; future polish should add a little more nuance around emotions-as-danger and anger-control concerns. |
@@ -119,12 +119,11 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Exploratory Questions, hard | Strong advanced ambiguity, but high-risk material can still drift toward containment or multi-question processing. | Regression spot-check for one inward question only. |
-| 2 | Empathic Conjectures, hard | Strong defensive and high-shame material, with residual risk of over-formulated case conceptualization. | Check guesses remain tentative, evidence-based, and one step beyond the explicit marker. |
-| 3 | Empathic Explorations, easy and moderate | Hard is now stronger; easy/moderate are good but still have residual Bokmal and marker-breadth polish opportunities. | Regression spot-check only unless flagged or doing a dedicated Bokmal pass. |
-| 4 | Alliance Repair, hard and moderate | Both tiers now have better opening variety and stronger ownership language. | Regression spot-check only unless flagged. |
-| 5 | Marker Recognition and Chair Work, hard | Hard tier now has stronger Goldman sequencing; remaining issues are occasional phrasing regression and high-risk Bokmal tone. | Regression spot-check only unless flagged. |
-| 6 | Staying in Contact with Intense Affect, hard | Strong after recent repairs; residual risk is safety-sensitive regression. | High-risk spot checks only unless flagged. |
+| 1 | Empathic Conjectures, hard | Strong defensive and high-shame material, with residual risk of over-formulated case conceptualization. | Check guesses remain tentative, evidence-based, and one step beyond the explicit marker. |
+| 2 | Empathic Explorations, easy and moderate | Hard is now stronger; easy/moderate are good but still have residual Bokmal and marker-breadth polish opportunities. | Regression spot-check only unless flagged or doing a dedicated Bokmal pass. |
+| 3 | Alliance Repair, hard and moderate | Both tiers now have better opening variety and stronger ownership language. | Regression spot-check only unless flagged. |
+| 4 | Marker Recognition and Chair Work, hard | Hard tier now has stronger Goldman sequencing; remaining issues are occasional phrasing regression and high-risk Bokmal tone. | Regression spot-check only unless flagged. |
+| 5 | Staying in Contact with Intense Affect, hard | Strong after recent repairs; residual risk is safety-sensitive regression. | High-risk spot checks only unless flagged. |
 
 ## Next Work Decision Rule
 
@@ -138,7 +137,23 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-18 easy empathic-affirmation-validation specificity and Bokmal pass: move next to Exploratory Questions hard. The goal is a regression spot-check for one inward-turning question only, especially where high-risk material could pull the response toward containment, reassurance, or multi-question processing.
+Current recommendation after the 2026-06-18 hard exploratory-questions regression pass: move next to Empathic Conjectures hard. The goal is to check that hard-case guesses remain tentative, evidence-based, and one step beyond the explicit marker without becoming over-formulated case conceptualizations.
+
+### Implementation Update: Exploratory Questions Hard
+
+A hard-tier exploratory-questions regression pass revised 7 advanced responses across Aisha, David, and Marcus.
+
+Current hard exploratory-questions state after this pass:
+
+- 90 total exploratory-question items preserved; all 30 hard responses reviewed.
+- Every hard response still contains exactly one question.
+- Targeted scan found zero repeated hard response starts.
+- Targeted scan found zero containment/grounding hits such as `breath`, `safe`, `ground`, `stay with`, or `keep`.
+- Revised responses now point more directly to present feeling and inner experience instead of cognition, danger imagery, or containment-adjacent phrasing.
+- Matching Bokmal localizations were aligned with natural inward-question wording.
+- Quality rating for Exploratory Questions hard increased from about 8.3/10 to about 8.5/10.
+
+Exploratory Questions hard is now strong enough to leave the active-priority slot. Later work should be regression or Bokmal-only polish unless flagged.
 
 ### Implementation Update: Empathic Affirmation and Validation Easy
 

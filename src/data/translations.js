@@ -2998,7 +2998,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-aisha_02": {
       "text": "[Desperat] Jeg går fra «ikke forlat meg» til «la meg være i fred» på sekunder.",
-      "suggestion": "I pusten før det snur, hvilken følelse er for vond å holde seg nær?"
+      "suggestion": "Rett før det snur, hvilken følelse er for vond å holde seg nær?"
     },
     "dp_exploratory-questions_case-aisha_03": {
       "text": "[Desperat] Jeg vet ikke hva jeg føler i dag; alt er for mye og samtidig litt blankt.",
@@ -3046,7 +3046,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-david_04": {
       "text": "[Kontrollert] Ros fra sjefen føles godt i et sekund, og så begynner jeg å lure på hva han vil.",
-      "suggestion": "Hva legger du merke til når ros går over i mistenksomhet?"
+      "suggestion": "Når ros går over i mistenksomhet, hvilken følelse begynner å bevege seg inni deg?"
     },
     "dp_exploratory-questions_case-david_05": {
       "text": "[Avvisende] Å innrømme at jeg tar feil, får ansiktet til å brenne som om alle kan se gjennom meg.",
@@ -3062,7 +3062,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-david_08": {
       "text": "[Fjern] Siden affæren klarer jeg ikke vite om jeg føler skyld, eller bare irritasjon over at alle stadig tar det opp.",
-      "suggestion": "Hva legger du merke til når skyld og irritasjon ligger så tett?"
+      "suggestion": "Når skyld og irritasjon ligger så tett, hva legger du merke til inni deg?"
     },
     "dp_exploratory-questions_case-david_09": {
       "text": "[Flau] Jeg vil at noen skal legge merke til det jeg gjør uten at jeg må tigge om anerkjennelse.",
@@ -3070,7 +3070,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-david_10": {
       "text": "[Såret, men skarp] Jeg hater å være helt vanlig på jobb foran alle, som om det betyr at jeg har forsvunnet.",
-      "suggestion": "Når «helt vanlig» kjennes som å forsvinne, hvilken lengsel dukker opp under det?"
+      "suggestion": "Når «helt vanlig» begynner å kjennes som å forsvinne, hvilken følelse dukker opp?"
     },
     "dp_exploratory-questions_case-marcus_01": {
       "text": "[Langsomt og flatt] De fleste dager er jeg nummen, og så treffer en bølge helt ut av det blå.",
@@ -3078,7 +3078,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-marcus_02": {
       "text": "[Hyperårvåken] Etter mareritt vet jeg ikke hva som er virkelig nok til å snakke om, og hva jeg bør la ligge.",
-      "suggestion": "Hva legger du merke til mens du avgjør hva du skal la ligge?"
+      "suggestion": "Mens du avgjør hva du skal la ligge, hva skjer inni deg?"
     },
     "dp_exploratory-questions_case-marcus_03": {
       "text": "[Stille og på vakt] I matbutikken holder jeg meg nær utgangene fordi gangene mellom hyllene kjennes for trange.",
@@ -3094,7 +3094,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-marcus_06": {
       "text": "[Stille og på vakt] Jeg holder lyset dempet og ignorerer telefonen så verden holder seg langt unna.",
-      "suggestion": "Når verden holder seg langt unna, hvilken følelse blir lettere å håndtere?"
+      "suggestion": "Når verden holder seg langt unna, hvilken følelse slipper du å møte?"
     },
     "dp_exploratory-questions_case-marcus_07": {
       "text": "[Flatt] Når noe godt skjer, venter jeg på delen der det blir tatt tilbake.",
@@ -3110,7 +3110,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_exploratory-questions_case-marcus_10": {
       "text": "[Flatt] Jeg sier til meg selv at jeg har det best alene, fordi nærhet alltid koster noe.",
-      "suggestion": "Hvilken fare ser du for deg når nærhet kjennes som noe som koster?"
+      "suggestion": "Når nærhet begynner å kjennes som noe som koster, hvilken følelse dukker opp inni deg?"
     },
     "dp_providing-treatment-rationale_case-sara_01": {
       "text": "[Lavmælt] Burde jeg ikke bare fokusere på positive tanker i stedet for å grave i hvor trist jeg er?",
