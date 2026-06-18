@@ -510,128 +510,128 @@ export const STATEMENT_SETS = {
     ],
     "case-laura": [
       {
-        "text": "[Slow and flat] Most days I feel flat and far away from everyone.",
-        "suggestion": "You feel flat and distant from other people most days."
+        "text": "[Slow and flat] I can get through a whole shift at the hospital, talk to patients, answer my kids' messages, and still feel like I am watching it all from far away.",
+        "suggestion": "You keep functioning with people while feeling flat and far away from all of it."
       },
       {
-        "text": "[Worried] Since the divorce, I keep looking at bills and wondering if I can keep the house.",
-        "suggestion": "The bills leave you worried and unsure whether you can hold on to the house."
+        "text": "[Worried] Since the divorce, I sit with the bills after work and keep adding the numbers again, wondering if I can keep the house or if I am pretending.",
+        "suggestion": "The bills leave you worried that you may not be able to hold on to the house."
       },
       {
-        "text": "[Tense and guarded] When someone is kind to me, I back away before I can trust it.",
-        "suggestion": "Kindness makes you tense, and you pull back before you can trust it."
+        "text": "[Tense and guarded] When someone is kind to me, even in a small way, I notice myself stepping back before I know whether I actually want the kindness.",
+        "suggestion": "Even small kindness makes you guarded before you can know whether you want it."
       },
       {
-        "text": "[Confused] I have been feeling depressed, but nothing dramatic happened this week, so I do not know why.",
-        "suggestion": "You feel depressed and puzzled when nothing dramatic happened this week."
+        "text": "[Confused] I have been feeling depressed again, but nothing dramatic happened this week. Work was normal, the kids are fine, and I still feel like something dropped out from under me.",
+        "suggestion": "You feel depressed and puzzled because life looks normal while something in you feels dropped down."
       },
       {
-        "text": "[Slow and flat] I want closeness, and then I go numb the moment it gets real.",
-        "suggestion": "The wish for closeness is there, and numbness arrives when it starts to feel real."
+        "text": "[Slow and flat] I tell myself I want closeness, and then when someone actually asks me to come over or stay longer, I go blank and start planning how to leave.",
+        "suggestion": "You want closeness, and when it becomes real you go blank and start looking for distance."
       },
       {
-        "text": "[Sad] A friend stopped inviting me over after I cancelled too many times, and I feel sad about it.",
-        "suggestion": "You feel sad that the invitations stopped after you cancelled so often."
+        "text": "[Sad] A friend stopped inviting me over after I cancelled too many times. Part of me is relieved not to explain myself, but I also feel sad when I see her with other people.",
+        "suggestion": "There is relief at not having to explain yourself and sadness that the invitations stopped."
       },
       {
-        "text": "[Flat and guarded] I wake already tense, listening for trouble before the day has started.",
-        "suggestion": "The day begins with you on guard, waiting for danger before anything has happened."
+        "text": "[Flat and guarded] I wake up tense before I even open my eyes, listening for whether something is wrong in the house, even though I live alone now.",
+        "suggestion": "You wake already on guard, listening for trouble even when no one else is there."
       },
       {
-        "text": "[Fearful] I avoid movies with fighting because the fear hits before I can think.",
-        "suggestion": "Fighting in movies brings fear before you have time to think."
+        "text": "[Fearful] I avoid movies with fighting because one raised voice can make me feel scared before I can remind myself it is only a scene.",
+        "suggestion": "A raised voice in a movie brings fear before you can remind yourself it is not happening now."
       },
       {
-        "text": "[Tired] I keep trying to be normal at work, but by the end of a shift I am completely worn out.",
-        "suggestion": "You work hard to look normal, and it leaves you exhausted by the end of the shift."
+        "text": "[Tired] I keep trying to be normal at work, smiling and checking on everyone, but by the end of a shift I sit in the car because I am too worn out to drive home.",
+        "suggestion": "Trying to look normal and care for everyone leaves you worn out by the end of the shift."
       },
       {
-        "text": "[Confused] I am not sure what I should talk about here; I just know I do not feel like myself.",
-        "suggestion": "You are unsure where to begin, but you know something in you feels off."
+        "text": "[Confused] I am not sure what I should talk about here. I could talk about sleep, the divorce, work, or my childhood, but mostly I just know I do not feel like myself.",
+        "suggestion": "You are unsure where to begin, with several possible places and a strong sense that you are not yourself."
       }
     ],
     "case-carlos": [
       {
-        "text": "[Hopeless] My wife and I keep having the same fight, and nothing changes no matter how hard I try.",
-        "suggestion": "The same fight keeps repeating, and it leaves you feeling worn down and hopeless."
+        "text": "[Hopeless] My wife and I keep having the same fight about my temper, and by the end we are both saying the same things as last time. Nothing changes no matter how hard I try.",
+        "suggestion": "The same fight keeps repeating, and it leaves you worn down and hopeless."
       },
       {
-        "text": "[Ashamed] I hate remembering the moment my son watched me slam that door.",
-        "suggestion": "Remembering that your son saw the door slam brings shame and regret."
+        "text": "[Ashamed] I hate remembering the moment my son watched me slam that door. He went quiet so fast, and now I keep seeing his face when I try to sleep.",
+        "suggestion": "Remembering your son's face after the door slammed brings shame that stays with you."
       },
       {
-        "text": "[Angry] My brother promised to help with the kids and then disappeared again, and I was furious.",
-        "suggestion": "You felt furious and let down when he disappeared after promising to help."
+        "text": "[Angry] My brother promised to help with the kids and then disappeared again. I had counted on him, and when he did not answer, I was furious.",
+        "suggestion": "You counted on him, and when he disappeared you felt furious and let down."
       },
       {
-        "text": "[Worried] I am worried that if I lose one more job over my temper, my family will not recover.",
-        "suggestion": "You are worried that another temper blowup at work could hurt your family badly."
+        "text": "[Worried] I am worried that if I lose one more job over my temper, my family will not recover. I keep doing the math in my head and seeing everything fall apart.",
+        "suggestion": "You are worried another blowup at work could make everything fall apart for your family."
       },
       {
-        "text": "[Ashamed] After I blow up, I feel ashamed when everyone goes quiet and careful.",
-        "suggestion": "After the blast, their careful quiet brings shame and regret."
+        "text": "[Ashamed] After I blow up, everyone gets quiet and careful around me. That silence makes me feel like I have become exactly the man I said I would never be.",
+        "suggestion": "Their careful silence after you blow up leaves you ashamed of who you seem to become."
       },
       {
-        "text": "[Tense] When things get calm, I feel nervous instead of relaxed.",
-        "suggestion": "Calm does not feel relaxing to you; it brings nervousness."
+        "text": "[Tense] When things get calm after a fight, I feel nervous instead of relaxed. I start waiting for the next thing someone is going to say.",
+        "suggestion": "Calm after a fight does not relax you; it leaves you nervous and waiting."
       },
       {
-        "text": "[Sad] My father is gone, and I still feel angry that he never once said he was proud of me.",
-        "suggestion": "Even after his death, you still feel hurt and angry about never getting his pride."
+        "text": "[Sad] My father is gone, and I still get angry that he never once said he was proud of me. It sounds stupid to want that now, but it still gets to me.",
+        "suggestion": "Even after his death, you still feel hurt and angry about never hearing he was proud of you."
       },
       {
-        "text": "[Confused] I know yelling scares my family, but in the moment it feels like the only way anyone hears me.",
-        "suggestion": "You know the yelling scares them, and in the moment it also feels like your only way to be heard."
+        "text": "[Confused] I know yelling scares my family, but in the moment it feels like the only way anyone hears me. Then afterward I hate that I used the one thing that makes them back away.",
+        "suggestion": "Yelling feels like the only way to be heard, and afterward you hate that it pushes them away."
       },
       {
-        "text": "[Angry, clenching fists] I punch walls instead of people, and I hate that this still scares them.",
-        "suggestion": "You hit the wall instead of people, and you hate that it still scares them."
+        "text": "[Angry, clenching fists] I punch walls instead of people, and part of me thinks that should count for something. But I hate that it still scares them.",
+        "suggestion": "You see the wall as holding back from worse, and you hate that it still scares them."
       },
       {
-        "text": "[Ashamed] I want my family to feel safe with me, and I hate that they still flinch.",
-        "suggestion": "You want them to feel safe with you, and it hurts that they still flinch."
+        "text": "[Ashamed] I want my family to feel safe with me. When they still flinch at my voice, it feels like proof that I have already damaged something.",
+        "suggestion": "You want them to feel safe with you, and their flinching feels like proof of damage."
       }
     ],
     "case-nina": [
       {
-        "text": "[Tired] Asking for help makes me feel guilty, even when I am exhausted.",
-        "suggestion": "Asking for help brings guilt, even when you are exhausted."
+        "text": "[Tired] Asking for help makes me feel guilty, even when I am exhausted. I start explaining why it is not really a big deal before anyone has even answered.",
+        "suggestion": "Asking for help brings guilt, and you start minimizing the need before anyone responds."
       },
       {
-        "text": "[Worried] The car repair bill came, and I do not know how we are going to make it through the month.",
-        "suggestion": "The repair bill leaves you worried and unsure how the month will work."
+        "text": "[Worried] The car repair bill came, and I do not know how we are going to make it through the month. I keep moving money around in my head and feeling more overwhelmed.",
+        "suggestion": "The repair bill leaves you worried, overwhelmed, and unsure how the month will work."
       },
       {
-        "text": "[Torn] When I say no, my stomach knots while I picture everyone disappointed.",
-        "suggestion": "Saying no knots your stomach while you picture everyone disappointed."
+        "text": "[Torn] When I say no, my stomach knots while I picture everyone disappointed. Then I start explaining so much that the no almost disappears.",
+        "suggestion": "Saying no brings guilt and tension until the explaining almost erases the no."
       },
       {
-        "text": "[Sad] My sister forgot my birthday again, and I keep telling myself it should not matter.",
-        "suggestion": "Her forgetting hurts, even while you tell yourself it should not matter."
+        "text": "[Sad] My sister forgot my birthday again, and I keep telling myself it should not matter because she is busy. But I was waiting for the message all day.",
+        "suggestion": "Her forgetting hurts, even while you tell yourself she is busy and it should not matter."
       },
       {
-        "text": "[Apologetic] When I sit down to rest, I feel guilty within seconds.",
-        "suggestion": "Rest brings guilt almost immediately."
+        "text": "[Apologetic] When I sit down to rest, I feel guilty within seconds. I start noticing dishes, laundry, messages, anything that proves I should get back up.",
+        "suggestion": "Rest quickly turns into guilt and a list of reasons you should get up again."
       },
       {
-        "text": "[Confused] I have been more depressed lately, but the boys are fine and work is fine, so I feel silly saying it.",
-        "suggestion": "You feel depressed and confused by it because things look fine from the outside."
+        "text": "[Confused] I have been more depressed lately, but the boys are fine and work is fine, so I feel silly saying it. I keep thinking I should be grateful, not crying in the bathroom.",
+        "suggestion": "Things look fine from the outside, and you are still confused and crying alone."
       },
       {
-        "text": "[Ashamed] I explode sometimes and then feel awful for becoming the angry one.",
-        "suggestion": "When you explode, you feel awful and ashamed of becoming the angry one."
+        "text": "[Ashamed] I explode sometimes, usually over something small, and then I feel awful for becoming the angry one after trying so hard to be patient.",
+        "suggestion": "When you explode after trying to be patient, you feel awful and ashamed of becoming the angry one."
       },
       {
-        "text": "[Guilty] I dream about someone taking care of me, and then I feel selfish for wanting it.",
-        "suggestion": "You want someone to take care of you, and then feel selfish for wanting it."
+        "text": "[Guilty] I dream about someone taking care of me for once, bringing me tea or telling me to lie down, and then I feel selfish for wanting it.",
+        "suggestion": "You long for someone to care for you, and then feel selfish for wanting that."
       },
       {
-        "text": "[Angry] A friend cancelled lunch at the last minute, and I felt angry even though I said it was fine.",
-        "suggestion": "You felt angry and disappointed, even while you acted like it was fine."
+        "text": "[Angry] A friend cancelled lunch at the last minute, and I texted that it was completely fine. Then I felt angry for the rest of the afternoon.",
+        "suggestion": "You acted like it was fine and then carried anger and disappointment afterward."
       },
       {
-        "text": "[Tired] I do not know what to talk about today; I was hoping you could help me find where to start.",
-        "suggestion": "You feel unsure where to begin and are looking to me for some direction."
+        "text": "[Tired] I do not know what to talk about today. There are too many small things, and I was hoping you could help me find where to start.",
+        "suggestion": "You feel tired and unsure where to begin because there are too many things at once."
       }
     ],
     "case-aisha": [

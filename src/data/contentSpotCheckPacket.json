@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T09:59:44.786Z",
+  "generatedAt": "2026-06-18T12:36:36.084Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -290,12 +290,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "[Hopeless] My wife and I keep having the same fight, and nothing changes no matter how hard I try.",
-                "response": "The same fight keeps repeating, and it leaves you feeling worn down and hopeless."
+                "statement": "[Hopeless] My wife and I keep having the same fight about my temper, and by the end we are both saying the same things as last time. Nothing changes no matter how hard I try.",
+                "response": "The same fight keeps repeating, and it leaves you worn down and hopeless."
               },
               "no": {
-                "statement": "[Håpløs] Kona mi og jeg har den samme krangelen om og om igjen, og ingenting endrer seg uansett hvor hardt jeg prøver.",
-                "response": "Den samme krangelen gjentar seg, og det gjør deg sliten og håpløs."
+                "statement": "[Håpløs] Kona mi og jeg har den samme krangelen om temperamentet mitt om og om igjen, og til slutt sier vi begge de samme tingene som sist. Ingenting endrer seg uansett hvor hardt jeg prøver.",
+                "response": "Den samme krangelen gjentar seg, og det gjør deg utslitt og håpløs."
               }
             },
             {
@@ -307,12 +307,12 @@
               "difficulty": "moderate",
               "riskFlags": [],
               "en": {
-                "statement": "[Ashamed] After I blow up, I feel ashamed when everyone goes quiet and careful.",
-                "response": "After the blast, their careful quiet brings shame and regret."
+                "statement": "[Ashamed] After I blow up, everyone gets quiet and careful around me. That silence makes me feel like I have become exactly the man I said I would never be.",
+                "response": "Their careful silence after you blow up leaves you ashamed of who you seem to become."
               },
               "no": {
-                "statement": "[Skamfull] Etter at jeg eksploderer, skammer jeg meg når alle blir stille og forsiktige.",
-                "response": "Etter smellet bringer den forsiktige stillheten deres skam og anger."
+                "statement": "[Skamfull] Etter at jeg eksploderer, blir alle stille og forsiktige rundt meg. Den stillheten får meg til å føle at jeg har blitt akkurat den mannen jeg sa jeg aldri skulle bli.",
+                "response": "Den forsiktige stillheten etter at du eksploderer, gjør deg skamfull over hvem du virker som du blir."
               }
             },
             {
@@ -326,12 +326,12 @@
                 "violence"
               ],
               "en": {
-                "statement": "[Angry, clenching fists] I punch walls instead of people, and I hate that this still scares them.",
-                "response": "You hit the wall instead of people, and you hate that it still scares them."
+                "statement": "[Angry, clenching fists] I punch walls instead of people, and part of me thinks that should count for something. But I hate that it still scares them.",
+                "response": "You see the wall as holding back from worse, and you hate that it still scares them."
               },
               "no": {
-                "statement": "[Sint, med knyttede never] Jeg slår i vegger i stedet for folk, og jeg hater at det fortsatt skremmer dem.",
-                "response": "Du slår i veggen i stedet for folk, og du hater at det fortsatt skremmer dem."
+                "statement": "[Sint, med knyttede never] Jeg slår i vegger i stedet for folk, og en del av meg tenker at det burde telle for noe. Men jeg hater at det fortsatt skremmer dem.",
+                "response": "Du ser veggen som det å holde igjen fra noe verre, og du hater at det fortsatt skremmer dem."
               }
             }
           ]
