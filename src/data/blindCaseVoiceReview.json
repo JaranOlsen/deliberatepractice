@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T09:59:44.786Z",
+  "generatedAt": "2026-06-18T12:36:36.084Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -130,12 +130,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Apologetic] When I sit down to rest, I feel guilty within seconds.",
-            "response": "Rest brings guilt almost immediately."
+            "statement": "[Apologetic] When I sit down to rest, I feel guilty within seconds. I start noticing dishes, laundry, messages, anything that proves I should get back up.",
+            "response": "Rest quickly turns into guilt and a list of reasons you should get up again."
           },
           "no": {
-            "statement": "[Unnskyldende] Når jeg setter meg for å hvile, får jeg skyldfølelse i løpet av sekunder.",
-            "response": "Hvile vekker skyldfølelse nesten med en gang."
+            "statement": "[Unnskyldende] Når jeg setter meg for å hvile, får jeg skyldfølelse i løpet av sekunder. Jeg begynner å legge merke til oppvask, klesvask, meldinger, alt som beviser at jeg burde reise meg igjen.",
+            "response": "Hvile blir raskt til skyldfølelse og en liste med grunner til at du burde reise deg igjen."
           }
         },
         {
@@ -181,12 +181,12 @@
             "violence"
           ],
           "en": {
-            "statement": "[Angry, clenching fists] I punch walls instead of people, and I hate that this still scares them.",
-            "response": "You hit the wall instead of people, and you hate that it still scares them."
+            "statement": "[Angry, clenching fists] I punch walls instead of people, and part of me thinks that should count for something. But I hate that it still scares them.",
+            "response": "You see the wall as holding back from worse, and you hate that it still scares them."
           },
           "no": {
-            "statement": "[Sint, med knyttede never] Jeg slår i vegger i stedet for folk, og jeg hater at det fortsatt skremmer dem.",
-            "response": "Du slår i veggen i stedet for folk, og du hater at det fortsatt skremmer dem."
+            "statement": "[Sint, med knyttede never] Jeg slår i vegger i stedet for folk, og en del av meg tenker at det burde telle for noe. Men jeg hater at det fortsatt skremmer dem.",
+            "response": "Du ser veggen som det å holde igjen fra noe verre, og du hater at det fortsatt skremmer dem."
           }
         }
       ]
@@ -217,12 +217,12 @@
           "order": 1,
           "riskFlags": [],
           "en": {
-            "statement": "[Slow and flat] Most days I feel flat and far away from everyone.",
-            "response": "You feel flat and distant from other people most days."
+            "statement": "[Slow and flat] I can get through a whole shift at the hospital, talk to patients, answer my kids' messages, and still feel like I am watching it all from far away.",
+            "response": "You keep functioning with people while feeling flat and far away from all of it."
           },
           "no": {
-            "statement": "[Langsomt og flatt] De fleste dager kjenner jeg meg flat og langt unna alle andre.",
-            "response": "Du kjenner deg flat og fjern fra andre mennesker de fleste dager."
+            "statement": "[Langsomt og flatt] Jeg kan komme meg gjennom en hel vakt på sykehuset, snakke med pasienter, svare på meldingene fra barna mine, og likevel føle at jeg ser alt sammen på avstand.",
+            "response": "Du fungerer sammen med andre mennesker, samtidig som du kjenner deg flat og langt unna alt sammen."
           }
         }
       ]

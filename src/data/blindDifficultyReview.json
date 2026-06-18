@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T09:59:44.786Z",
+  "generatedAt": "2026-06-18T12:36:36.084Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -91,12 +91,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Ashamed] After I blow up, I feel ashamed when everyone goes quiet and careful.",
-            "response": "After the blast, their careful quiet brings shame and regret."
+            "statement": "[Ashamed] After I blow up, everyone gets quiet and careful around me. That silence makes me feel like I have become exactly the man I said I would never be.",
+            "response": "Their careful silence after you blow up leaves you ashamed of who you seem to become."
           },
           "no": {
-            "statement": "[Skamfull] Etter at jeg eksploderer, skammer jeg meg når alle blir stille og forsiktige.",
-            "response": "Etter smellet bringer den forsiktige stillheten deres skam og anger."
+            "statement": "[Skamfull] Etter at jeg eksploderer, blir alle stille og forsiktige rundt meg. Den stillheten får meg til å føle at jeg har blitt akkurat den mannen jeg sa jeg aldri skulle bli.",
+            "response": "Den forsiktige stillheten etter at du eksploderer, gjør deg skamfull over hvem du virker som du blir."
           }
         }
       ]
