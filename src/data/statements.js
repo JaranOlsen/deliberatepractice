@@ -1789,7 +1789,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Worried] What if my feelings are too much for any therapist to work with?",
-        "suggestion": "Your feelings are big because of what you lived. Here we titrate—small sips, lots of grounding—so they feel survivable."
+        "suggestion": "Your feelings are big because of what you lived, so we would not meet them all at once. Small pieces and grounding help your system learn they can be felt without taking you over."
       },
       {
         "text": "[Panicked] When I am panicking, why ask about feet and breathing instead of just calming me down?",
@@ -1797,15 +1797,15 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Desperate] How does working with this neediness help when reassurance from you feels so urgent?",
-        "suggestion": "That urgent need deserves direct work because clear asking, small doses of receiving, and ways to soothe between sessions make closeness less desperate."
+        "suggestion": "That urgent need deserves direct work because it is already running the room. Clear asking, small doses of receiving, and ways to hold contact between sessions can make closeness less desperate."
       },
       {
         "text": "[Panicked] If we focus on this relationship, won't I get attached and then fall apart when it ends?",
-        "suggestion": "We use the relationship as practice with boundaries and repair. Naming, pacing, and predicting attachment makes it less of a secret panic you have to manage alone."
+        "suggestion": "We use the relationship carefully because attachment panic is already showing up here. Naming boundaries, endings, and repairs gives you practice staying connected without having to cling, test, or disappear."
       },
       {
         "text": "[Worried] How will this help my relationships not blow up when I switch from begging to pushing away?",
-        "suggestion": "We map that switch early: the panic, the protest, and the urge to test. Then you can name fear, ask directly, or take space safely before the relationship becomes a fight."
+        "suggestion": "We map that switch because it usually happens before you have words for fear. Seeing the steps earlier gives you choices: naming fear, asking directly, or taking space safely before the relationship becomes a fight."
       },
       {
         "text": "[Hesitant] Will this take forever, or am I always going to be this intense?",
@@ -1823,7 +1823,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Skeptical] How is this practical if I do not want to be psychoanalyzed or reduced to childhood?",
-        "suggestion": "We stay practical by tracking present moments first. History comes in only when it explains today's reactions, because the point is steadier choices you can use immediately."
+        "suggestion": "We stay practical by starting with present moments you want changed. History comes in only if it helps explain why a reaction gets so fast or intense, so the work stays in service of steadier choices now."
       },
       {
         "text": "[Challenging] Will this help my marriage or is this just about me?",
@@ -1847,7 +1847,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Worried] What if I do not feel anything when you ask me to look inside?",
-        "suggestion": "Then we start there, because small signals like a tight jaw or hollow chest give us a practical entry point. You keep control of the pace."
+        "suggestion": "Then we start with not feeling anything, because numbness is still information. Small signals like a tight jaw or hollow chest give us an entry point without forcing emotion."
       },
       {
         "text": "[Demanding] I need quick wins; I do not want another endless insight project.",
@@ -1873,7 +1873,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Flat] Why notice the guard signals when I am on alert all the time?",
-        "suggestion": "The sequence matters. If you learn the first step from scan to shutdown, you can interrupt it earlier and return to the room before it takes you fully back there."
+        "suggestion": "The sequence matters because the guard signals come before shutdown. Learning the first step gives you a chance to return to the room before your system takes you fully back there."
       },
       {
         "text": "[Hypervigilant] How will sitting with feelings help the nightmares instead of making the nights worse?",
@@ -1881,7 +1881,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Flat] How is working on connection supposed to help when being alone keeps people from wanting things from me?",
-        "suggestion": "Aloneness has protected you from pressure and loss. We build contact in small, chosen doses so closeness becomes something you can control, not something that traps you."
+        "suggestion": "Aloneness has protected you from pressure and loss. We build contact in small, chosen doses so closeness can become support you control, not a demand that traps you."
       },
       {
         "text": "[Flat] What does progress look like for me if feeling normal is off the table?",
@@ -1893,7 +1893,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hesitant] Can we keep this practical and not dig through every bad thing?",
-        "suggestion": "Yes. We target what affects daily life now and use brief emotion work only where it helps, so practical changes and deeper material stay in tolerable pieces."
+        "suggestion": "Yes. We target what affects daily life now and use brief emotion work only where it helps, because practical change is easier when the deeper material stays in tolerable pieces."
       },
       {
         "text": "[Slow and flat] What if I never feel normal again and this flatness is just who I am now?",

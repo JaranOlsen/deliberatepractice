@@ -3366,7 +3366,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_providing-treatment-rationale_case-aisha_04": {
       "text": "[Bekymret] Hva om følelsene mine er for mye for enhver terapeut å jobbe med?",
-      "suggestion": "Følelsene dine er store på grunn av det du har levd. Her doserer vi – små slurker, mye jording – så det kjennes overlevelig."
+      "suggestion": "Følelsene dine er store på grunn av det du har levd, så vi skal ikke møte alt på én gang. Små biter og jording hjelper systemet ditt å lære at følelsene kan kjennes uten å ta over."
     },
     "dp_providing-treatment-rationale_case-aisha_05": {
       "text": "[Panisk] Når jeg har panikk, hvorfor spørre om føtter og pust i stedet for bare å roe meg ned?",
@@ -3374,15 +3374,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_providing-treatment-rationale_case-aisha_06": {
       "text": "[Desperat] Hvordan hjelper det å jobbe med behovet når jeg vil ha beroligelse fra deg med én gang?",
-      "suggestion": "Det akutte behovet fortjener direkte arbeid, fordi tydelige forespørsler, små doser av å ta imot og måter å roe seg mellom timene gjør nærhet mindre desperat."
+      "suggestion": "Det akutte behovet fortjener direkte arbeid, fordi det allerede styrer mye i rommet. Tydelige forespørsler, små doser av å ta imot og måter å holde kontakt mellom timene kan gjøre nærhet mindre desperat."
     },
     "dp_providing-treatment-rationale_case-aisha_07": {
       "text": "[Panisk] Hvis vi fokuserer på denne relasjonen, blir jeg ikke knyttet og faller fra hverandre når den tar slutt?",
-      "suggestion": "Vi bruker relasjonen som øving med grenser og reparasjon. Når tilknytningen navngis, doseres og gjøres forutsigbar, blir den mindre av en hemmelig panikk du må håndtere alene."
+      "suggestion": "Vi bruker relasjonen varsomt fordi tilknytningspanikken allerede viser seg her. Å navngi grenser, avslutninger og reparasjoner gir deg øving i å bli i kontakt uten å måtte klamre, teste eller forsvinne."
     },
     "dp_providing-treatment-rationale_case-aisha_08": {
       "text": "[Bekymret] Hvordan skal dette hjelpe relasjonene mine å ikke eksplodere når jeg går fra å trygle til å skyve bort?",
-      "suggestion": "Vi kartlegger skiftet tidlig: panikken, protesten og trangen til å teste. Da kan du navngi frykt, be direkte eller ta trygg avstand før relasjonen blir en kamp."
+      "suggestion": "Vi kartlegger skiftet fordi det ofte skjer før du har ord for frykten. Når du ser stegene tidligere, får du valg: å navngi frykt, be direkte eller ta trygg avstand før relasjonen blir en kamp."
     },
     "dp_providing-treatment-rationale_case-aisha_09": {
       "text": "[Nølende] Kommer dette til å ta evigheter, eller kommer jeg alltid til å være så intens?",
@@ -3398,7 +3398,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_providing-treatment-rationale_case-david_02": {
       "text": "[Skeptisk] Hvordan er dette praktisk hvis jeg ikke vil bli psykoanalysert eller redusert til barndommen min?",
-      "suggestion": "Vi holder det praktisk ved å følge øyeblikkene her og nå først. Historien tas bare inn når den forklarer dagens reaksjoner, fordi poenget er stødigere valg du kan bruke med én gang."
+      "suggestion": "Vi holder det praktisk ved å starte med øyeblikkene du vil endre nå. Historien tas bare inn hvis den hjelper oss å forstå hvorfor en reaksjon blir så rask eller sterk, slik at arbeidet fortsatt handler om stødigere valg i dag."
     },
     "dp_providing-treatment-rationale_case-david_03": {
       "text": "[Utfordrende] Hjelper dette ekteskapet mitt, eller handler det bare om meg?",
@@ -3422,7 +3422,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_providing-treatment-rationale_case-david_08": {
       "text": "[Bekymret] Hva om jeg ikke føler noe når du ber meg se innover?",
-      "suggestion": "Da starter vi der, fordi små signaler som stram kjeve eller hulhet i brystet gir oss et praktisk inngangspunkt. Du styrer tempoet."
+      "suggestion": "Da starter vi med at du ikke kjenner noe, fordi nummenhet også er informasjon. Små signaler som stram kjeve eller hulhet i brystet gir oss et inngangspunkt uten å presse frem følelser."
     },
     "dp_providing-treatment-rationale_case-david_09": {
       "text": "[Kravstor] Jeg trenger raske gevinster; jeg vil ikke inn i enda et endeløst innsiktsprosjekt.",
@@ -3446,7 +3446,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_providing-treatment-rationale_case-marcus_04": {
       "text": "[Flatt] Hvorfor legge merke til vaktsignalene når jeg er på vakt hele tiden?",
-      "suggestion": "Rekkefølgen betyr noe. Hvis du lærer første steg fra scanning til nedstenging, kan du avbryte tidligere og komme tilbake til rommet før det trekker deg helt tilbake dit."
+      "suggestion": "Rekkefølgen betyr noe fordi vaktsignalene kommer før nedstengingen. Når du lærer det første steget, får du en mulighet til å komme tilbake til rommet før systemet trekker deg helt tilbake dit."
     },
     "dp_providing-treatment-rationale_case-marcus_05": {
       "text": "[Hyperårvåken] Hvordan skal det å sitte med følelser hjelpe marerittene, i stedet for å gjøre nettene verre?",
@@ -3454,7 +3454,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_providing-treatment-rationale_case-marcus_06": {
       "text": "[Flatt] Hvordan skal det å jobbe med kontakt hjelpe når det å være alene hindrer folk i å kreve noe av meg?",
-      "suggestion": "Å være alene har beskyttet deg mot press og tap. Vi bygger kontakt i små, valgte doser, slik at nærhet blir noe du kan styre, ikke noe som fanger deg."
+      "suggestion": "Å være alene har beskyttet deg mot press og tap. Vi bygger kontakt i små, valgte doser, slik at nærhet kan bli støtte du styrer, ikke et krav som fanger deg."
     },
     "dp_providing-treatment-rationale_case-marcus_07": {
       "text": "[Flatt] Hva er fremgang for meg hvis det å føle seg normal er urealistisk?",
@@ -3466,7 +3466,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_providing-treatment-rationale_case-marcus_09": {
       "text": "[Nølende] Kan vi holde dette praktisk og ikke grave gjennom alt det vonde?",
-      "suggestion": "Ja. Vi sikter oss inn på det som påvirker hverdagen nå og bruker korte drypp av følelsesarbeid bare der det hjelper, så praktiske endringer og dypere stoff holder seg i biter du tåler."
+      "suggestion": "Ja. Vi sikter oss inn på det som påvirker hverdagen nå og bruker korte drypp av følelsesarbeid bare der det hjelper, fordi praktisk endring blir lettere når det dypere stoffet holdes i biter du tåler."
     },
     "dp_providing-treatment-rationale_case-marcus_10": {
       "text": "[Langsomt og flatt] Hva om jeg aldri føler meg normal igjen, og denne flatheten bare er den jeg er nå?",
