@@ -90,7 +90,7 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | Exploratory Questions | Hard | 8.5 | Recent regression pass removed subtle containment/cognitive drift while preserving one inward-turning question across advanced ambiguity and high-risk material. |
 | Providing Treatment Rationale | Easy | 8.8 | Very close to the benchmark task: direct client skepticism/fear markers and plain-language rationale tied to client goals. |
 | Providing Treatment Rationale | Moderate | 8.6 | Strong fit with fear, skepticism, numbness, and practicality; Goldman responses are longer, but the app's brevity usually helps practice. |
-| Providing Treatment Rationale | Hard | 8.4 | Strong safety/control rationale work; future polish should add a little more nuance around emotions-as-danger and anger-control concerns. |
+| Providing Treatment Rationale | Hard | 8.6 | Recent hard-tier pass strengthened rationale language around pace, safety, attachment panic, numbness, hypervigilance, and practical change. |
 | Empathic Explorations | Easy | 8.5 | Good edge-following markers and responses after recent repair; Bokmal still contains repeated "la oss/kan vi" patterns. |
 | Empathic Explorations | Moderate | 8.4 | Strong live-edge training with less conjecture drift; further gains should be Bokmal idiom and marker breadth. |
 | Empathic Explorations | Hard | 8.5 | Recent pass tightened all hard responses into one small live exploration step, softened three over-formulated markers, and removed repeated "stay with/kan vi/la oss" patterns in the hard tier. |
@@ -119,11 +119,11 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Providing Treatment Rationale, hard | Strong overall, but some hard-case rationales can still sound too brief around emotions-as-danger, control, and safety concerns. | Check that each response explains why the intervention helps in plain language tied to the client's fear or goal. |
-| 2 | Empathic Evocations, moderate and hard | Recent marker-affordance passes are strong; keep checking that client statements remain flat enough for the therapist to supply imagery. | Regression spot-check for client-side imagery leaks and high-risk safety tone. |
-| 3 | Empathic Explorations, easy and moderate | Hard is now stronger; easy/moderate are good but still have residual Bokmal and marker-breadth polish opportunities. | Regression spot-check only unless flagged or doing a dedicated Bokmal pass. |
-| 4 | Alliance Repair, easy | Strong rupture contexts and sequence, with some remaining response-opening repetition. | Light response-variety polish when it does not displace lower-scored contract gaps. |
-| 5 | Staying in Contact with Intense Affect, hard | Strong after recent repairs; residual risk is safety-sensitive regression. | High-risk spot checks only unless flagged. |
+| 1 | Empathic Evocations, moderate and hard | Recent marker-affordance passes are strong; keep checking that client statements remain flat enough for the therapist to supply imagery. | Regression spot-check for client-side imagery leaks and high-risk safety tone. |
+| 2 | Staying in Contact with Intense Affect, hard | Strong after recent repairs; residual risk is safety-sensitive regression. | High-risk contact-first spot checks around self-harm, violence, dissociation, and erotic/boundary material. |
+| 3 | Alliance Repair, easy | Strong rupture contexts and sequence, with some remaining response-opening repetition. | Light response-variety polish when it does not displace lower-scored contract gaps. |
+| 4 | Empathic Explorations, easy and moderate | Hard is now stronger; easy/moderate are good but still have residual Bokmal and marker-breadth polish opportunities. | Regression spot-check only unless flagged or doing a dedicated Bokmal pass. |
+| 5 | Empathic Conjectures, easy | Strong, but still the lowest conjectures tier after the hard regression pass. | Light marker-breadth or Bokmal polish only after higher-risk 8.4 tiers are stable. |
 
 ## Next Work Decision Rule
 
@@ -137,7 +137,19 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-18 hard empathic-conjectures regression pass: move next to Providing Treatment Rationale hard. The goal is to check that hard-case rationales explain why the intervention helps without sounding persuasive, defensive, or abstract, especially where clients fear emotion, loss of control, shame exposure, or safety risk.
+Current recommendation after the 2026-06-18 hard treatment-rationale pass: move next to Empathic Evocations moderate/hard. The goal is to check that client statements remain flat, cognitive, or under-imaged enough for the therapist to supply the evocative image, while responses stay vivid but safety-sensitive.
+
+### Implementation Update: Providing Treatment Rationale Hard
+
+A hard-tier treatment-rationale pass revised 9 advanced responses across Aisha, David, and Marcus.
+
+Current hard treatment-rationale state after this pass:
+
+- 90 total treatment-rationale items preserved; all 30 hard responses reviewed.
+- Targeted edits strengthened the "why this helps" link in places where responses were too compressed or abstract.
+- The revised hard responses more explicitly connect EFT method to the client's stated fear or goal: staying safe with large feelings, making attachment panic workable, keeping work practical, using numbness as information, and noticing guard signals before shutdown.
+- Matching Bokmal localizations were updated with natural phrasing around grounding, tilknytningspanikk, nummenhet, and practical change.
+- Quality rating for hard Providing Treatment Rationale increased from about 8.4/10 to about 8.6/10.
 
 ### Implementation Update: Empathic Conjectures Hard
 
