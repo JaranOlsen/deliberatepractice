@@ -3714,123 +3714,123 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-explorations_case-aisha_01": {
       "text": "[Panisk] Hvis et svar ikke kommer, sier jeg til meg selv at det ikke burde bety noe, men så klarer jeg ikke å fokusere på noe annet.",
-      "suggestion": "En del sier at det ikke burde bety noe, og en annen del klarer ikke å slippe det manglende svaret. Vi kan være litt med den splittelsen."
+      "suggestion": "Én del sier at det ikke burde bety noe, og en annen del klarer ikke å slippe det manglende svaret. Hva merker du i den delen som ikke klarer å slippe?"
     },
     "dp_empathic-explorations_case-aisha_02": {
       "text": "[Forvirret og flau] Jeg kan be noen om ikke å gå, og noen sekunder senere vil jeg ha dem vekk fra meg. Jeg skjønner ikke hvilken del som egentlig er meg.",
-      "suggestion": "Begge bevegelsene er der: å rekke ut og å skyve bort. Kan vi bli ved skiftet akkurat lenge nok til å merke hva som endrer seg inni deg?"
+      "suggestion": "Begge bevegelsene er der: å rekke ut og å skyve bort. Hva endrer seg inni deg i sekundene mellom å be dem bli og ville ha dem vekk?"
     },
     "dp_empathic-explorations_case-aisha_03": {
       "text": "[Desperat] Når jeg klorer, sier en del av meg at det ikke er så farlig, og en annen del er redd for at du skal dømme meg.",
-      "suggestion": "En del bagatelliserer kloringen, og en annen del frykter at jeg skal dømme. Kan vi bli ved det som skjer når du forteller meg begge deler?"
+      "suggestion": "Én del gjør kloringen liten, og en annen del følger med på om jeg dømmer. Når du sier det her, hvilken del kjennes nærmest?"
     },
     "dp_empathic-explorations_case-aisha_04": {
       "text": "[Såret og på vakt] Hvis du ser på klokka, begynner jeg å lure på om jeg bør slutte å snakke før du avslutter.",
-      "suggestion": "Blikket mot klokka starter draget mot å stoppe først, før jeg kan avslutte. Kan vi legge merke til den første følelsen som kommer akkurat da?"
+      "suggestion": "Blikket mot klokka starter draget mot å stoppe først, før jeg kan avslutte. Hva er den første følelsen som kommer akkurat da?"
     },
     "dp_empathic-explorations_case-aisha_05": {
       "text": "[På vakt] Jeg spør folk om ting jeg egentlig halvveis vet, bare for å se om de svarer på riktig måte.",
-      "suggestion": "Det er et testende spørsmål der, og under det et behov for å høre omsorg på en måte du kan stole på. Kan vi bli ved det du lytter etter i svaret?"
+      "suggestion": "Du lytter ikke bare etter svaret, men etter om det kommer på riktig måte. Hva merker du når det lander bare litt feil?"
     },
     "dp_empathic-explorations_case-aisha_06": {
       "text": "[Desperat] Når noen sier farvel, vet jeg at det er normalt, men jeg blir redd og sint samtidig.",
-      "suggestion": "Farvel henter fram frykt og sinne samtidig, selv om en annen del sier at det burde være normalt. La oss senke tempoet ved ordet farvel og merke hvilken følelse som kommer først."
+      "suggestion": "Farvel henter fram frykt og sinne samtidig, selv om en annen del sier at det burde være normalt. Ved ordet farvel, hvilken følelse kommer først?"
     },
     "dp_empathic-explorations_case-aisha_07": {
       "text": "[Panisk] Vennlighet får meg til å hulke, og en annen del av meg vil bare stikke.",
-      "suggestion": "Vennlighet henter fram både hulking og trangen til å stikke samtidig. Kan vi bli ved de to bevegelsene et øyeblikk?"
+      "suggestion": "Vennlighet henter fram både hulking og trangen til å stikke samtidig. Hvor merker du deg selv først: i hulkingen, eller i draget mot å komme deg vekk?"
     },
     "dp_empathic-explorations_case-aisha_08": {
-      "text": "[Skamfull] Det som ble gjort mot meg får meg til å føle meg skitten i min egen kropp.",
-      "suggestion": "Den skitne følelsen kommer nær når du setter ord på det som ble gjort mot deg. Kan vi være ved kanten av den, bare nok til å merke hvordan den er her nå?"
+      "text": "[Skamfull] Når jeg husker det som ble gjort mot meg, får jeg lyst til å skrubbe huden selv om jeg vet at det ikke er noe der.",
+      "suggestion": "Når du husker det, kommer en følelse av å ville skrubbe det bort, selv om ingenting synes. Hva merker du når skammen kommer nær her?"
     },
     "dp_empathic-explorations_case-aisha_09": {
       "text": "[Desperat] Jeg fortsetter å sjekke døra, og jeg vet ikke om jeg er sint fordi du kommer til å gå, eller redd for at du skal glemme meg.",
-      "suggestion": "Ved døra er sinne og frykt filtret sammen: å bli forlatt, å bli glemt. Vi kan være langsomt med den sammenfiltringen."
+      "suggestion": "Ved døra er sinne og frykt filtret sammen: å bli forlatt, å bli glemt. Når du ser mot døra nå, hvilken side kjennes nærmest?"
     },
     "dp_empathic-explorations_case-aisha_10": {
       "text": "[Såret] Hvis du avlyser, sier en del av meg at jeg ikke skal komme tilbake, samtidig som en annen del vil spørre når du er her igjen.",
-      "suggestion": "Begge delene dukker opp rundt avlysningen: delen som vil forsvinne fra terapien, og delen som vil vite at du fortsatt har en plass her. Kan vi bli ved den splittelsen?"
+      "suggestion": "Begge delene dukker opp rundt avlysningen: delen som vil forsvinne, og delen som trenger å vite at du fortsatt har en plass her. Hvor kjenner du den splittelsen sterkest?"
     },
     "dp_empathic-explorations_case-david_01": {
       "text": "[Kontrollert] Når hun sier at jeg er kald, vil en del av meg bevise at hun tar feil, og en annen del vil forsvinne.",
-      "suggestion": "Én del beveger seg mot å bevise noe, en annen mot å forsvinne. Vi kan være med den splittelsen før en av sidene tar over."
+      "suggestion": "Én del beveger seg mot å bevise noe, en annen mot å forsvinne. Hva merker du i øyeblikket før en av sidene tar over?"
     },
     "dp_empathic-explorations_case-david_02": {
       "text": "[Kontrollert] Du virker rolig når jeg snakker om nederlag, og jeg vet ikke om jeg respekterer det eller misliker det.",
-      "suggestion": "Roen du ser, lander på to måter samtidig: noe respekterer den, og noe misliker den. Kan vi legge merke til hva hver side reagerer på?"
+      "suggestion": "Roen du ser, lander på to måter samtidig: noe respekterer den, og noe misliker den. Hvilken side er tydeligst når du snakker om roen min?"
     },
     "dp_empathic-explorations_case-david_03": {
       "text": "[Defensiv] Når jeg føler meg dømt, glatter jeg skjorten og begynner å ramse opp prestasjoner.",
-      "suggestion": "Når dommen dukker opp, kommer prestasjonene raskt inn. Kan vi legge merke til det første glimtet av å føle deg dømt før listen starter?"
+      "suggestion": "Når dommen dukker opp, kommer prestasjonene raskt inn. Hva er det første tegnet på at du blir dømt, før listen starter?"
     },
     "dp_empathic-explorations_case-david_04": {
       "text": "[Kontrollert] Ros virker kanskje i ti sekunder; så begynner jeg å lete etter det de ikke fikk med seg.",
-      "suggestion": "Rosen når deg kort, og så tar letingen etter det som manglet over. Vi kan senke tempoet på stedet der den slutter å lande."
+      "suggestion": "Rosen når deg kort, og så tar letingen etter det som manglet over. Hvor slutter den å lande?"
     },
     "dp_empathic-explorations_case-david_05": {
       "text": "[Avvisende] I vanskelige samtaler sjekker jeg telefonen i det øyeblikket jeg føler meg presset opp i et hjørne.",
-      "suggestion": "Når du føler deg presset opp i et hjørne, gir telefonen deg litt avstand. Vi kan være med øyeblikket rett før du griper etter den."
+      "suggestion": "Når du føler deg presset opp i et hjørne, gir telefonen deg litt avstand. Hvordan kjennes det å være presset akkurat før telefonen kommer fram?"
     },
     "dp_empathic-explorations_case-david_06": {
       "text": "[Irritert] Når barna gråter, blir jeg utålmodig før jeg engang skjønner hvorfor.",
-      "suggestion": "Barnas tårer henter fram utålmodighet før du engang vet hvorfor. Kan vi bli ved det første utålmodige rykket?"
+      "suggestion": "Barnas tårer henter fram utålmodighet før du engang vet hvorfor. Hvor merker du det første utålmodige rykket?"
     },
     "dp_empathic-explorations_case-david_07": {
       "text": "[Såret, men skarp] Å innrømme at jeg tar feil får ansiktet til å brenne, som om alle kan se nederlaget.",
-      "suggestion": "Å innrømme at du tar feil får ansiktet til å brenne, som om nederlaget plutselig blir synlig. Kan vi bli ved den varmen et øyeblikk før du må dekke den til?"
+      "suggestion": "Å innrømme at du tar feil får ansiktet til å brenne, som om nederlaget plutselig blir synlig. Hva sier den varmen i øyeblikket før du dekker den til?"
     },
     "dp_empathic-explorations_case-david_08": {
       "text": "[Fjern] Siden affæren vet jeg ikke om jeg vil ha tilgivelse eller bare bli latt i fred.",
-      "suggestion": "Det er et drag mot tilgivelse og et annet mot å bli latt i fred. Vi kan være med hvordan de to ønskene ligger ved siden av hverandre."
+      "suggestion": "Det er et drag mot tilgivelse og et annet mot å bli latt i fred. Hvilket ønske kjennes tryggest å la meg se?"
     },
     "dp_empathic-explorations_case-david_09": {
       "text": "[Såret, men skarp] Jeg vil ha anerkjennelse uten å måtte be om det, fordi det å be får meg til å føle meg ynkelig.",
-      "suggestion": "Du vil ha anerkjennelsen, og det å be om den henter straks fram den ynkelige følelsen. Kan vi bli ved øyeblikket der ønsket om anerkjennelse blir til skam?"
+      "suggestion": "Du vil ha anerkjennelsen, og det å be om den henter straks fram den ynkelige følelsen. Hvor blir ønsket om anerkjennelse til skam?"
     },
     "dp_empathic-explorations_case-david_10": {
-      "text": "[Kontrollert] Tanken på å være ordinær kjennes uutholdelig, som å miste det eneste beviset på at jeg betyr noe.",
-      "suggestion": "«Ordinær» kjennes uutholdelig, som om beviset på at du betyr noe forsvinner. Kan vi bli ved hvordan uutholdelig kjennes akkurat der?"
+      "text": "[Kontrollert] Når noen kaller arbeidet mitt fint, hører jeg ordinært, og jeg klarer ikke å slippe det.",
+      "suggestion": "«Fint» lander som ordinært, og ordinært blir vanskelig å tåle. Hva merker du i øyeblikket før du må bevise mer?"
     },
     "dp_empathic-explorations_case-marcus_01": {
-      "text": "[Langsomt og flatt] De fleste dager er jeg nummen, og så treffer en bølge helt ut av det blå.",
-      "suggestion": "De fleste dager holder nummenheten stand, og så bryter bølgen gjennom på én gang. Kan vi bli ved det første tegnet på at bølgen begynner?"
+      "text": "[Langsomt og flatt] De fleste dager er jeg nummen, og så treffer noe meg, og jeg vet ikke hva det er.",
+      "suggestion": "Nummenheten holder, og så bryter noe gjennom uten navn. Hva merker du ved det første tegnet på at noe kommer?"
     },
     "dp_empathic-explorations_case-marcus_02": {
       "text": "[Hyperårvåken] Etter mareritt vet jeg at jeg burde snakke om dem, men detaljene kjennes langt unna, og jeg vet ikke hvor jeg skal begynne.",
-      "suggestion": "Du vet at det kan bety noe å snakke, og detaljene holder seg likevel langt unna. Vi kan begynne med det å ikke vite hvor du skal starte."
+      "suggestion": "Detaljene holder seg langt unna, og startpunktet glipper. Hva merker du idet du prøver å begynne?"
     },
     "dp_empathic-explorations_case-marcus_03": {
       "text": "[Stille og på vakt] Folkemengder får skuldrene til å heve seg, og jeg holder meg ved veggen uten å bestemme det.",
-      "suggestion": "Skuldrene hever seg, og du trekker mot veggen før du bestemmer noe. Vi kan legge merke til den automatiske bevegelsen mot kanten."
+      "suggestion": "Veggen ser ut til å bety noe før du bestemmer noe som helst. Hva gir det deg å være nær den i det første sekundet?"
     },
     "dp_empathic-explorations_case-marcus_04": {
       "text": "[Lav stemme] Etter mørkets frembrudd begynner jeg å lure på om det å være alene er tryggere, eller om det bare gjør meg verre.",
-      "suggestion": "Alenetilværelsen kjennes som beskyttelse og kanskje skade på samme tid. Vi kan være med det spørsmålet uten å skynde oss."
+      "suggestion": "Alenetilværelsen kjennes som beskyttelse og kanskje skade på samme tid. Hvilken side av spørsmålet kjennes nærmest etter mørkets frembrudd?"
     },
     "dp_empathic-explorations_case-marcus_05": {
       "text": "[Lav stemme] Etter jobb sitter jeg i bilen fordi leiligheten kjennes for stille til å gå inn i.",
-      "suggestion": "Bilen gir deg en pause før den stille leiligheten. La oss være ved øyeblikket før du åpner døren og merke hva stillheten gjør inni deg."
+      "suggestion": "Bilen gir deg en pause før den stille leiligheten. Hva krever stillheten av deg før du åpner døren?"
     },
     "dp_empathic-explorations_case-marcus_06": {
       "text": "[Stille og på vakt] Jeg lar telefonen gå til svarer fordi å svare betyr at jeg kanskje må forklare hvorfor jeg ikke har det bra.",
-      "suggestion": "Å la telefonen gå til svarer holder deg unna å måtte forklare. Kan vi bli ved øyeblikket den ringer og forklaringen begynner å kjennes for mye?"
+      "suggestion": "Når telefonen ringer, kommer muligheten for å måtte forklare. Hva kjennes for mye i det første øyeblikket?"
     },
     "dp_empathic-explorations_case-marcus_07": {
       "text": "[Flatt] Gode øyeblikk skjer, men jeg stoler ikke nok på dem til å la dem telle.",
-      "suggestion": "De gode øyeblikkene er der, og mistilliten hindrer dem i å telle. La oss bli ved punktet der noe godt begynner å bety noe og så skyves bort."
+      "suggestion": "Det gode øyeblikket kommer, og mistilliten bryter inn før det får telle. Hva skjer akkurat der det nesten begynner å bety noe?"
     },
     "dp_empathic-explorations_case-marcus_08": {
       "text": "[Lav stemme] En plutselig lyd skjærer gjennom meg, og før jeg rekker å tenke, skanner jeg rommet.",
-      "suggestion": "Lyden skjærer gjennom, og skanningen starter før tankene rekker å hente seg inn. Kan vi legge merke til det første sekundet etter lyden, før du vet hva du leter etter?"
+      "suggestion": "Lyden skjærer gjennom, og skanningen starter før tankene rekker å hente seg inn. I det første sekundet etter lyden, hvor går oppmerksomheten?"
     },
     "dp_empathic-explorations_case-marcus_09": {
       "text": "[Stille og på vakt] Jeg tar ikke telefonen når familien ringer, fordi jeg ikke vil finne ut hva jeg kjenner.",
-      "suggestion": "Å la telefonen ringe ut holder følelsen unna en stund. Kan vi legge merke til hva som begynner å komme nær når du ser for deg å svare?"
+      "suggestion": "Å la telefonen ringe ut holder følelsen unna en stund. Hva begynner å komme nær når du ser for deg å svare?"
     },
     "dp_empathic-explorations_case-marcus_10": {
-      "text": "[Flatt] En del av meg tenker at å være alene for alltid ville gjøre mindre vondt enn å håpe og bli dratt under igjen.",
-      "suggestion": "En del av deg vil heller velge alenetilværelsen enn å risikere smerten som kommer etter håp. Kan vi bli ved ordet «håp» og det det vekker?"
+      "text": "[Flatt] Når folk sier at jeg ikke burde være så mye alene, sier jeg at det er bedre sånn, men jeg blir gående og tenke på det etterpå.",
+      "suggestion": "Å si at det er bedre sånn beskytter deg mot noe, og tanken følger likevel med videre. Hva merker du etter at du har sagt det?"
     },
     "dp_empathic-evocations_case-sara_01": {
       "text": "[Lavmælt] Etter middag merker jeg hvor stille leiligheten er, og så begynner jeg å sjekke mobilen igjen.",
