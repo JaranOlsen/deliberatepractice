@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T14:23:13.733Z",
+  "generatedAt": "2026-06-18T14:41:43.318Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -426,11 +426,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Trembling] Every presentation at work makes my hands shake, and then I feel pathetic for caring so much.",
-                "response": "Presentations put you directly under other people's eyes, so the shaking makes sense as anxiety in an exposed moment, not as a personal failure."
+                "response": "Under other people's eyes, shaking is an anxious system trying to get through exposure; it is not proof that caring is pathetic."
               },
               "no": {
                 "statement": "[Skjelvende] Hver presentasjon på jobb får hendene mine til å skjelve, og etterpå føler jeg meg patetisk for at jeg bryr meg så mye.",
-                "response": "Presentasjoner setter deg rett under andres blikk, så skjelvingen gir mening som angst i et blottstilt øyeblikk, ikke som en personlig feil."
+                "response": "Under andres blikk prøver et engstelig system å komme seg gjennom eksponeringen; skjelvingen er ikke bevis på at det er patetisk å bry seg."
               }
             },
             {
@@ -443,11 +443,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Hesitant] Compliments bounce off; part of me wants to believe them, but the suspicious part wins.",
-                "response": "It makes sense that praise is hard to take in when self-attack has had so much practice; suspicion is trying to spare you another hurt."
+                "response": "When self-attack has had years of practice, praise can feel suspicious before it feels nourishing; the suspicious part is trying to prevent another letdown."
               },
               "no": {
                 "statement": "[Nølende] Komplimenter preller av; en del av meg vil tro på dem, men den mistenksomme delen vinner.",
-                "response": "Det gir mening at ros er vanskelig å ta inn når selvangrepet har fått så mye øvelse; mistanken prøver å spare deg for enda et sår."
+                "response": "Når selvangrepet har fått mange års øvelse, kan ros kjennes mistenkelig før den kan kjennes nærende; den mistenksomme delen prøver å hindre en ny skuffelse."
               }
             },
             {
@@ -460,11 +460,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Nervous, almost smiling] Someone invited me to a game night, and I wanted to go for about ten seconds before panic took over.",
-                "response": "That quick swing from wanting to go to panic makes sense; the invitation touches both your longing for connection and your fear of being exposed."
+                "response": "No wonder panic rushed in; that same invitation touched both the ten-second hope for connection and the fear of exposure."
               },
               "no": {
                 "statement": "[Nervøs, nesten smilende] Noen inviterte meg på spillkveld, og jeg hadde lyst til å gå i omtrent ti sekunder før panikken tok over.",
-                "response": "Den raske bevegelsen fra lyst til panikk gir mening; invitasjonen treffer både lengselen etter kontakt og frykten for å bli blottstilt."
+                "response": "Ikke rart panikken kom raskt; den samme invitasjonen traff både de ti sekundene med håp om kontakt og frykten for blottstilling."
               }
             }
           ]

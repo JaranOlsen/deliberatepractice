@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T14:23:13.734Z",
+  "generatedAt": "2026-06-18T14:41:43.319Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -126,11 +126,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Nervous, almost smiling] Someone invited me to a game night, and I wanted to go for about ten seconds before panic took over.",
-            "response": "That quick swing from wanting to go to panic makes sense; the invitation touches both your longing for connection and your fear of being exposed."
+            "response": "No wonder panic rushed in; that same invitation touched both the ten-second hope for connection and the fear of exposure."
           },
           "no": {
             "statement": "[Nervøs, nesten smilende] Noen inviterte meg på spillkveld, og jeg hadde lyst til å gå i omtrent ti sekunder før panikken tok over.",
-            "response": "Den raske bevegelsen fra lyst til panikk gir mening; invitasjonen treffer både lengselen etter kontakt og frykten for å bli blottstilt."
+            "response": "Ikke rart panikken kom raskt; den samme invitasjonen traff både de ti sekundene med håp om kontakt og frykten for blottstilling."
           }
         },
         {

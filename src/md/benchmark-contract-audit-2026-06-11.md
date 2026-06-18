@@ -51,7 +51,7 @@ Ratings should consider: structural fidelity, marker validity, emotional pressur
 
 ## Current Baseline
 
-This audit uses the current branch state after the 2026-06-18 easy empathic-evocations marker-affordance pass.
+This audit uses the current branch state after the 2026-06-18 easy empathic-affirmation-validation specificity and Bokmal pass.
 
 Automated averages are triage only, not quality scores. They still reveal places where the app may be more compressed than Goldman.
 
@@ -59,7 +59,7 @@ Automated averages are triage only, not quality scores. They still reveal places
 | --- | ---: | ---: | ---: | ---: | --- |
 | Therapist Self-Awareness | 63.9 | 76.8 | 26.1 | 25.9 | Now structurally close. |
 | Empathic Understanding | 23.2 | 32.9 | 14.5 | 17.8 | Moderate and hard tiers now have stronger explicit emotional meaning while staying basic-empathy pure. |
-| Empathic Affirmation and Validation | 23.8 | 27.1 | 21.9 | 23.0 | Hard and moderate response-variety/Bokmal pass complete; now strong with later light regression only. |
+| Empathic Affirmation and Validation | 23.8 | 27.1 | 22.0 | 23.0 | Easy, moderate, and hard response-variety/Bokmal passes complete; now strong with later light regression only. |
 | Exploratory Questions | 16.8 | 22.5 | 11.8 | 26.3 | App intentionally keeps questions cleaner than Goldman examples. |
 | Treatment Rationale | 15.5 | 20.5 | 28.8 | 54.2 | App is briefer than Goldman but usually clinically focused. |
 | Empathic Explorations | 17.8 | 26.2 | 24.9 | 30.3 | Hard-tier regression/Bokmal pass complete; strong, with later marker breadth and Bokmal polish only. |
@@ -82,7 +82,7 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | Empathic Understanding | Easy | 8.4 | Clean basic reflections with good beginner marker fit; remaining work is light ordinary-life breadth and Bokmal polish. |
 | Empathic Understanding | Moderate | 8.5 | Recent pass broadened all Laura, Carlos, and Nina markers toward Goldman intermediate richness while keeping every response reflective, concise, and question-free. |
 | Empathic Understanding | Hard | 8.4 | Recent pass broadened Aisha, David, and Marcus markers with explicit emotional meaning while keeping responses short, reflective, and free of validation, conjecture, advice, or questions. |
-| Empathic Affirmation and Validation | Easy | 8.2 | Good validation markers and generally clear legitimacy statements; later light Bokmal polish remains useful. |
+| Empathic Affirmation and Validation | Easy | 8.6 | Recent pass made beginner validation more context-specific, reduced repeated "makes sense/understandably" formulas, and aligned Bokmal idiom. |
 | Empathic Affirmation and Validation | Moderate | 8.4 | Recent pass removed repeated four-word response openings and reduced literal Bokmal validation phrasing while preserving explicit legitimacy. |
 | Empathic Affirmation and Validation | Hard | 8.4 | Recent pass expanded hard markers, preserved high-risk validation, removed repeated openings, and made Bokmal more natural. |
 | Exploratory Questions | Easy | 8.5 | Strong one-question purity with simple inward-turning markers; only light opening-variety polish needed. |
@@ -119,13 +119,12 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Empathic Affirmation and Validation, easy | Moderate and hard are stronger after recent passes; easy remains lower scoring and can benefit from validation-specific specificity plus Bokmal polish. | Lightly broaden selected legitimacy statements without drifting into reassurance or advice. |
-| 2 | Exploratory Questions, hard | Strong advanced ambiguity, but high-risk material can still drift toward containment or multi-question processing. | Regression spot-check for one inward question only. |
-| 3 | Empathic Conjectures, hard | Strong defensive and high-shame material, with residual risk of over-formulated case conceptualization. | Check guesses remain tentative, evidence-based, and one step beyond the explicit marker. |
-| 4 | Empathic Explorations, easy and moderate | Hard is now stronger; easy/moderate are good but still have residual Bokmal and marker-breadth polish opportunities. | Regression spot-check only unless flagged or doing a dedicated Bokmal pass. |
-| 5 | Alliance Repair, hard and moderate | Both tiers now have better opening variety and stronger ownership language. | Regression spot-check only unless flagged. |
-| 6 | Marker Recognition and Chair Work, hard | Hard tier now has stronger Goldman sequencing; remaining issues are occasional phrasing regression and high-risk Bokmal tone. | Regression spot-check only unless flagged. |
-| 7 | Staying in Contact with Intense Affect, hard | Strong after recent repairs; residual risk is safety-sensitive regression. | High-risk spot checks only unless flagged. |
+| 1 | Exploratory Questions, hard | Strong advanced ambiguity, but high-risk material can still drift toward containment or multi-question processing. | Regression spot-check for one inward question only. |
+| 2 | Empathic Conjectures, hard | Strong defensive and high-shame material, with residual risk of over-formulated case conceptualization. | Check guesses remain tentative, evidence-based, and one step beyond the explicit marker. |
+| 3 | Empathic Explorations, easy and moderate | Hard is now stronger; easy/moderate are good but still have residual Bokmal and marker-breadth polish opportunities. | Regression spot-check only unless flagged or doing a dedicated Bokmal pass. |
+| 4 | Alliance Repair, hard and moderate | Both tiers now have better opening variety and stronger ownership language. | Regression spot-check only unless flagged. |
+| 5 | Marker Recognition and Chair Work, hard | Hard tier now has stronger Goldman sequencing; remaining issues are occasional phrasing regression and high-risk Bokmal tone. | Regression spot-check only unless flagged. |
+| 6 | Staying in Contact with Intense Affect, hard | Strong after recent repairs; residual risk is safety-sensitive regression. | High-risk spot checks only unless flagged. |
 
 ## Next Work Decision Rule
 
@@ -139,7 +138,22 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-18 easy empathic-evocations marker-affordance pass: move next to Empathic Affirmation and Validation easy. The goal is to make beginner validation responses more context-specific and natural in Bokmal while avoiding reassurance, advice, or endorsing harmful behavior.
+Current recommendation after the 2026-06-18 easy empathic-affirmation-validation specificity and Bokmal pass: move next to Exploratory Questions hard. The goal is a regression spot-check for one inward-turning question only, especially where high-risk material could pull the response toward containment, reassurance, or multi-question processing.
+
+### Implementation Update: Empathic Affirmation and Validation Easy
+
+An easy-tier validation pass revised 29 beginner responses and 10 thin markers across Sara, Michael, and Jason.
+
+Current easy validation state after this pass:
+
+- 90 total validation items preserved; all 30 easy items reviewed.
+- Repeated English response starts in the easy tier reduced to zero.
+- Easy-tier `makes sense` phrasing reduced from 21 responses to 1 response, while keeping explicit contextual legitimacy.
+- English responses now validate through concrete context: fresh breakup grief, public composure, moral guilt, humiliation rules, presentation exposure, and social shame.
+- Bokmal localizations were aligned naturally; easy-tier `gir mening` phrasing was reduced to zero and `det er klart` was removed.
+- Quality rating for Empathic Affirmation and Validation easy increased from about 8.2/10 to about 8.6/10.
+
+Empathic Affirmation and Validation is now strong enough across easy, moderate, and hard tiers to leave the active-priority slot. Later work should be regression or Bokmal-only polish unless flagged.
 
 ### Implementation Update: Empathic Understanding Hard
 

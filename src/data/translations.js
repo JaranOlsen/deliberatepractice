@@ -2393,124 +2393,124 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Du vil ha nærhet, så sender frykten deg mot utgangen, og etterpå hater du å være alene."
     },
     "dp_empathic-affirmation-validation_case-sara_01": {
-      "text": "[Lavmælt] Jeg sjekker kontoene hans på sosiale medier selv om det knuser meg.",
-      "suggestion": "Det er klart at siden hans trekker i deg; tapet er fortsatt så nært at selv små spor av ham får følelsesmessig kraft."
+      "text": "[Lavmælt] Før jeg legger meg, sjekker jeg kontoene hans på sosiale medier selv om det knuser meg.",
+      "suggestion": "Dragningen mot siden hans henger sammen med hvor ferskt tapet er; hvert spor gir kontakt og gjør vondt samtidig."
     },
     "dp_empathic-affirmation-validation_case-sara_02": {
       "text": "[Flau] Jeg smilte meg gjennom hele teammøtet og gråt på toalettet etterpå.",
       "suggestion": "Det er ikke rart at tårene trengte plass etter at du holdt deg samlet gjennom hele møtet; de fortjener plass, ikke skam."
     },
     "dp_empathic-affirmation-validation_case-sara_03": {
-      "text": "[På gråten] Hvis jeg hadde vært morsommere eller enklere, hadde han kanskje blitt.",
-      "suggestion": "Å skylde på deg selv gir mening som en måte å gi smerten et sted å gå når bruddet kjennes så hjelpeløst."
+      "text": "[På gråten] Når jeg tenker på de siste ukene, lurer jeg på om han hadde blitt hvis jeg hadde vært morsommere eller enklere.",
+      "suggestion": "Selvbebreidelse kan kjennes som kontroll når et brudd er hjelpeløst; den gir smerten et mål, selv om den vender seg mot deg."
     },
     "dp_empathic-affirmation-validation_case-sara_04": {
       "text": "[Lavmælt] Om natten blir det for stille, og jeg begynner å kjenne det som om jeg aldri egentlig var ønsket.",
-      "suggestion": "Stillheten kan gjøre fraværet til et bevis på at du ikke var ønsket; den følelsen gir mening i ensomheten dette tapet har åpnet."
+      "suggestion": "I nattestillheten får den gamle følelsen av å ikke være ønsket mye plass; ensomheten kan høres veldig overbevisende ut der."
     },
     "dp_empathic-affirmation-validation_case-sara_05": {
       "text": "[Sint, så flau] En venninne sa at jeg måtte slutte å sjekke telefonen, og jeg freste til henne.",
-      "suggestion": "Det gir mening at sinnet kom da det traff så rått; telefonen bar håp, ikke bare en vane noen ba deg slutte med."
+      "suggestion": "Ikke rart det traff et rått punkt; hun snakket om telefonen som en vane, mens den for deg fortsatt bar håp."
     },
     "dp_empathic-affirmation-validation_case-sara_06": {
       "text": "[På gråten] Når jeg våkner, glemmer jeg det et sekund og så smeller det.",
-      "suggestion": "Det er forståelig at morgenslaget kjennes brutalt: tapet kommer på nytt før du rekker å ruste deg."
+      "suggestion": "Det er forståelig at det å våkne rett inn i tapet igjen er en hard start på dagen; du rekker ikke å beskytte deg før det lander."
     },
     "dp_empathic-affirmation-validation_case-sara_07": {
       "text": "[På gråten] Jeg beklager når jeg begynner å gråte, som om sorgen min tar for mye plass.",
-      "suggestion": "Når du har passet så nøye på å ikke belaste andre, er det forståelig at selv tårer kan kjennes som en inntrenging; sorgen fortjener likevel plass her."
+      "suggestion": "Hvis du har lært å passe på hvor mye plass sorgen tar, kan det å beklage tårene kjennes beskyttende; sorgen hører likevel hjemme her."
     },
     "dp_empathic-affirmation-validation_case-sara_08": {
-      "text": "[Flau] Jeg får dårlig samvittighet for å være så lei meg når andre har større problemer.",
-      "suggestion": "Det gir mening at det å måle smerten mot andres kan få sorgen til å kjennes ulovlig, men bruddet er fortsatt et virkelig tap."
+      "text": "[Flau] Jeg får dårlig samvittighet for å være så lei meg når dette bare er et brudd og andre har større problemer.",
+      "suggestion": "Å sammenligne tap kan få sorg til å kjennes illegitim, men det å bli forlatt er fortsatt et virkelig sår."
     },
     "dp_empathic-affirmation-validation_case-sara_09": {
       "text": "[Redd] Vennene mine sier at jeg burde bli med ut og spise, men jeg er redd jeg kommer til å begynne å gråte ved bordet.",
-      "suggestion": "Hvem som helst kunne kjent seg blottstilt ved et middagsbord når tristheten ligger så nær at den kan renne over foran folk som kanskje ikke skjønner hvor ømt det er."
+      "suggestion": "Middagen ville gjort en privat sorg synlig for alle; frykten for å gråte der er et forståelig ønske om å beskytte noe sårt."
     },
     "dp_empathic-affirmation-validation_case-sara_10": {
       "text": "[Lavmælt] Etter dette bruddet tenker en del av meg at kjærlighet må være for andre, ikke for meg.",
-      "suggestion": "Etter å ha blitt forlatt er det forståelig at den tanken kan kjennes smertefullt troverdig; den bærer ensomheten i å lure på om kjærlighet i det hele tatt er tilgjengelig for deg."
+      "suggestion": "Etter å ha blitt forlatt kan kjærlighet begynne å se ut som noe som er for andre; den tanken vokser ut av en veldig ensom smerte."
     },
     "dp_empathic-affirmation-validation_case-michael_01": {
       "text": "[Skyldpreget] Jeg traff en syklist med bilen forrige uke. Veien var glatt, men han brakk likevel håndleddet, og jeg klarer ikke slutte å kjenne skyld.",
-      "suggestion": "Skylden gir mening som moralsk tyngde: Du mente ikke å skade ham, og likevel ble noen skadet."
+      "suggestion": "Skylden hører sammen med alvoret i det som skjedde: selv uten hensikt registrerer samvittigheten din at noen ble skadet."
     },
     "dp_empathic-affirmation-validation_case-michael_02": {
-      "text": "[Defensiv] Hvis jeg ikke har svaret, føler jeg meg avslørt og bløffer.",
-      "suggestion": "Det gir mening at det å ikke vite gjør deg blottstilt for vurdering, særlig når feil har betydd ydmykelse."
+      "text": "[Defensiv] I møter føler jeg meg avslørt hvis jeg ikke har svaret, og da bløffer jeg.",
+      "suggestion": "Når det å ikke vite har blitt behandlet som en feil, blir bløffingen et skjold mot ydmykelse."
     },
     "dp_empathic-affirmation-validation_case-michael_03": {
       "text": "[Anspent] Når jeg beklager, kjennes det som å knele foran noen som kommer til å bruke det mot meg.",
-      "suggestion": "Hvis svakhet har blitt straffet, kan det å beklage forståelig nok kjennes mindre som reparasjon og mer som å gi noen et våpen."
+      "suggestion": "Hvis en beklagelse har kjentes som overgivelse, vil kroppen spenne seg før den tilbyr den; reparasjon kan kjennes utrygt når noen kan bruke det til å vinne."
     },
     "dp_empathic-affirmation-validation_case-michael_04": {
-      "text": "[Fast] Hjemme kan et sukk eller en himling med øynene sette meg av før jeg rekker å tenke.",
-      "suggestion": "Det gir mening at de små signalene svir når de lander som respektløshet før du rekker å sortere hva som var ment."
+      "text": "[Fast] Hjemme, når kona mi sukker eller himler med øynene, eksploderer jeg før jeg rekker å tenke.",
+      "suggestion": "Et sukk eller et blikk kan treffe den gamle ydmykelsen raskt; ikke rart systemet ditt forsvarer verdighet før du rekker å tenke."
     },
     "dp_empathic-affirmation-validation_case-michael_05": {
       "text": "[Rasende] Når jeg ser på nyhetene, blir jeg så sint på folk med makt som later som konsekvenser er valgfritt.",
-      "suggestion": "Det sinnet gir mening når folk med makt ser ut til å slippe unna ansvar; for deg kan det kjennes uutholdelig urettferdig."
+      "suggestion": "Det sinnet har en tydelig moralsk ladning: når mektige folk slipper unna konsekvenser, treffer det intoleransen din for urettferdighet og ansvarsløshet."
     },
     "dp_empathic-affirmation-validation_case-michael_06": {
       "text": "[Skamfull] Når barnet mitt spør hvorfor jeg er sint, føler jeg meg som verdens verste far.",
-      "suggestion": "Den skammen gir mening fordi det betyr mye for deg å være en trygg far; smerten henger sammen med hvor sterkt du ikke vil at sinne skal definere deg hjemme."
+      "suggestion": "Skammen viser hvor mye det betyr for deg å være en trygg far; spørsmålet hans treffer avstanden mellom faren du vil være og det sinnet gjør."
     },
     "dp_empathic-affirmation-validation_case-michael_07": {
       "text": "[Fast] Å smelle med døra føles fælt etterpå, men i øyeblikket slipper jeg å føle meg liten.",
-      "suggestion": "Det gir mening at dørsmellingen i øyeblikket får deg bort fra følelsen av å være liten; etterpå blir prisen ved den flukten vond."
+      "suggestion": "I øyeblikket kan dørsmellingen kjennes beskyttende mot å føle seg liten; etterpå blir lettelsen vond fordi det ikke er sånn du vil beskytte deg."
     },
     "dp_empathic-affirmation-validation_case-michael_08": {
-      "text": "[Defensiv] Hvis noen utfordrer meg offentlig, dobler jeg innsatsen selv om jeg tar feil.",
-      "suggestion": "Det gir mening at det å stå hardere på sitt kan kjennes som å bevare verdighet når korrigering offentlig lander som å bli satt under noen."
+      "text": "[Defensiv] Hvis noen utfordrer meg foran teamet, dobler jeg innsatsen selv om jeg tar feil.",
+      "suggestion": "Å bli utfordret foran andre kan kjennes som å bli satt ned i rang; å stå hardere på sitt beskytter verdigheten før det er rom for å ta feil."
     },
     "dp_empathic-affirmation-validation_case-michael_09": {
-      "text": "[Skamfull] Jeg hater at jeg trenger hjelp med dette; det får meg til å føle meg svak.",
-      "suggestion": "Det er forståelig at hvis styrke har betydd å klare ting alene, kan det å trenge hjelp kjennes blottstillende mer enn fornuftig."
+      "text": "[Skamfull] Jeg hater at jeg trenger hjelp med sinne; det får meg til å føle meg svak.",
+      "suggestion": "Hvis hjelp har betydd svakhet i din verden, kan selv det å be om den kjennes som å stå blottstilt; skammen henger fast i den gamle regelen."
     },
     "dp_empathic-affirmation-validation_case-michael_10": {
       "text": "[Skamfull] Etter at jeg eksploderer hjemme, ligger jeg våken og ser ansiktene deres for meg mens jeg hater meg selv.",
-      "suggestion": "Det er forståelig at skammen spiller det om igjen; ansiktene deres treffer den delen av deg som vil være tryggere for dem."
+      "suggestion": "Ikke rart gjentakelsen får kraft; ansiktene deres betyr noe for deg, og skammen presser på den delen av deg som vil at de skal kjenne seg trygge."
     },
     "dp_empathic-affirmation-validation_case-jason_01": {
       "text": "[Skjelvende] Hver presentasjon på jobb får hendene mine til å skjelve, og etterpå føler jeg meg patetisk for at jeg bryr meg så mye.",
-      "suggestion": "Presentasjoner setter deg rett under andres blikk, så skjelvingen gir mening som angst i et blottstilt øyeblikk, ikke som en personlig feil."
+      "suggestion": "Under andres blikk prøver et engstelig system å komme seg gjennom eksponeringen; skjelvingen er ikke bevis på at det er patetisk å bry seg."
     },
     "dp_empathic-affirmation-validation_case-jason_02": {
       "text": "[Nølende] Jeg holder blikket på gulvet så ingen får en grunn til å se på meg.",
-      "suggestion": "Det gir mening at det å holde blikket nede har vært en måte å minske faren på når det å bli lagt merke til har kjentes risikabelt."
+      "suggestion": "Å holde blikket nede har beskyttet deg mot å bli plukket ut; synlighet har kjentes risikabelt før det har kjentes forbindende."
     },
     "dp_empathic-affirmation-validation_case-jason_03": {
-      "text": "[Engstelig] Jeg later som jeg tekster så jeg har et sted å gjemme meg under småprat.",
-      "suggestion": "Det gir mening at telefonen gir deg dekning i småpraten; den hjelper deg å stå der når mulig dom kjennes for nær."
+      "text": "[Engstelig] På teamlunsjer later jeg som jeg tekster så jeg har et sted å gjemme meg under småprat.",
+      "suggestion": "Telefonen gir deg et lite skjulested i småpraten; å gjemme seg der er en måte å overleve mulig vurdering på, ikke en karakterfeil."
     },
     "dp_empathic-affirmation-validation_case-jason_04": {
-      "text": "[Stille] Når folk ler høflig, antar jeg at de prøver å komme seg unna meg.",
-      "suggestion": "Det gir mening at høflig latter kan kjennes utrygt når tankene allerede står klare for avvisning før kontakt får en sjanse."
+      "text": "[Stille] Når folk ler høflig etter at jeg har sagt noe, antar jeg at de prøver å komme seg unna meg.",
+      "suggestion": "Høflig latter er uklar nok til at skammen fyller inn den verste betydningen; tankene dine prøver å beskytte deg mot avvisning."
     },
     "dp_empathic-affirmation-validation_case-jason_05": {
       "text": "[Nølende] Komplimenter preller av; en del av meg vil tro på dem, men den mistenksomme delen vinner.",
-      "suggestion": "Det gir mening at ros er vanskelig å ta inn når selvangrepet har fått så mye øvelse; mistanken prøver å spare deg for enda et sår."
+      "suggestion": "Når selvangrepet har fått mange års øvelse, kan ros kjennes mistenkelig før den kan kjennes nærende; den mistenksomme delen prøver å hindre en ny skuffelse."
     },
     "dp_empathic-affirmation-validation_case-jason_06": {
       "text": "[Stille og skamfull] Etter at jeg har snakket i en gruppe, spiller jeg av hver setning og skammer meg for å høres klein ut.",
-      "suggestion": "Å spille av hver setning gir mening når tilhørighet kjennes så skjør; skammen jobber hardt for å hindre et nytt sår."
+      "suggestion": "Gjennomgangen er et hardt forsøk på å hindre framtidig pinlighet; den passer med en verden der tilhørighet har kjentes skjør."
     },
     "dp_empathic-affirmation-validation_case-jason_07": {
-      "text": "[Stille og skamfull] Jeg droppet enda en lunsj med teamet, og etterpå følte jeg meg patetisk som gjemte meg.",
-      "suggestion": "Det gir mening at du droppet lunsjen for å komme unna en frykt som kjentes ekte, og skammen etterpå viser hvor sterkt du fortsatt vil høre til."
+      "text": "[Stille og skamfull] Jeg droppet enda en lunsj med teamet, og etterpå følte jeg meg patetisk som gjemte meg i leiligheten.",
+      "suggestion": "Å droppe lunsjen kan kjennes beskyttende der og da, og skammen etterpå viser den andre sannheten: du vil fortsatt høre til."
     },
     "dp_empathic-affirmation-validation_case-jason_08": {
       "text": "[Nølende] Jeg skanner hvert rom etter hvem som får til mer enn meg, og så føler jeg meg defekt.",
-      "suggestion": "Sammenligningen gir mening som et forsøk på å finne plassen din, og den gjør vondt fordi skammen stadig gir deg den laveste."
+      "suggestion": "Det er forståelig at du skanner rommet når tankene prøver å finne faren og plassen din; skammen gjør skanningen til en dom mot deg."
     },
     "dp_empathic-affirmation-validation_case-jason_09": {
       "text": "[Nervøs, nesten smilende] Noen inviterte meg på spillkveld, og jeg hadde lyst til å gå i omtrent ti sekunder før panikken tok over.",
-      "suggestion": "Den raske bevegelsen fra lyst til panikk gir mening; invitasjonen treffer både lengselen etter kontakt og frykten for å bli blottstilt."
+      "suggestion": "Ikke rart panikken kom raskt; den samme invitasjonen traff både de ti sekundene med håp om kontakt og frykten for blottstilling."
     },
     "dp_empathic-affirmation-validation_case-jason_10": {
       "text": "[Stille] Noen netter ligger jeg der og er sikker på at jeg alltid kommer til å være alene fordi jeg er for klein til å elskes.",
-      "suggestion": "Det er forståelig at nettene blir tunge når skammen gjør ensomheten til en dom over hele framtiden din."
+      "suggestion": "Ikke rart nettene blir tunge; skammen kan få ensomheten til å høres permanent ut når frykten får så mye rom."
     },
     "dp_empathic-affirmation-validation_case-laura_01": {
       "text": "[Flat og skamfull] På fridager kan jeg bli liggende til tolv, ikke egentlig sovende, bare ute av stand til å komme i gang. Så sier jeg til meg selv at jeg er lat, fordi andre mennesker klarer normale morgener.",

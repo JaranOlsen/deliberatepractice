@@ -446,6 +446,9 @@ function buildContentInventory(registry, registrySummary, benchmarkSummary) {
   };
 }
 
+const VALIDATION_LEGITIMACY_CUE_PATTERN =
+  /(of course|makes .*sense|no wonder|understandably|anyone would|sorry that happened|fits with|reasonable|legitimate|illegitimate|belongs to|can feel|can look like|can sound|has been treated|has meant|has protected|not proof|not a character flaw|trying to protect|trying to prevent|shows how much|matters to you|clear moral charge|grows out of)/i;
+
 function lintSkillPurity(skillId, suggestion) {
   const text = `${suggestion ?? ""}`.trim();
   const lower = text.toLowerCase();
@@ -462,7 +465,7 @@ function lintSkillPurity(skillId, suggestion) {
   }
   if (
     skillId === "empathic-affirmation-validation" &&
-    !/(of course|makes .*sense|no wonder|understandably|anyone would|sorry that happened)/i.test(text)
+    !VALIDATION_LEGITIMACY_CUE_PATTERN.test(text)
   ) {
     warnings.push("validation_missing_explicit_legitimizing_cue");
   }

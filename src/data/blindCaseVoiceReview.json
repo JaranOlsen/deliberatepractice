@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T14:23:13.734Z",
+  "generatedAt": "2026-06-18T14:41:43.319Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -241,11 +241,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Fearful] My friends say I should come out for dinner, but I am scared I will cry at the table.",
-            "response": "Anyone would feel exposed at dinner with sadness close enough to spill over in front of people who may not know how tender it is."
+            "response": "Dinner would put a private sadness in public view; fear of crying there is a reasonable wish to protect something tender."
           },
           "no": {
             "statement": "[Redd] Vennene mine sier at jeg burde bli med ut og spise, men jeg er redd jeg kommer til å begynne å gråte ved bordet.",
-            "response": "Hvem som helst kunne kjent seg blottstilt ved et middagsbord når tristheten ligger så nær at den kan renne over foran folk som kanskje ikke skjønner hvor ømt det er."
+            "response": "Middagen ville gjort en privat sorg synlig for alle; frykten for å gråte der er et forståelig ønske om å beskytte noe sårt."
           }
         },
         {
@@ -290,11 +290,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Guilty] I hit a cyclist with my car last week. The road was slick, but he still broke his wrist and I cannot stop feeling guilty.",
-            "response": "That guilt makes sense as moral weight: you did not mean to harm him, and someone was still hurt."
+            "response": "That guilt belongs to the seriousness of what happened: even without intent, your conscience is registering that someone got hurt."
           },
           "no": {
             "statement": "[Skyldpreget] Jeg traff en syklist med bilen forrige uke. Veien var glatt, men han brakk likevel håndleddet, og jeg klarer ikke slutte å kjenne skyld.",
-            "response": "Skylden gir mening som moralsk tyngde: Du mente ikke å skade ham, og likevel ble noen skadet."
+            "response": "Skylden hører sammen med alvoret i det som skjedde: selv uten hensikt registrerer samvittigheten din at noen ble skadet."
           }
         }
       ]
