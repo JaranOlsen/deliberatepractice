@@ -2157,127 +2157,127 @@ export const STATEMENT_SETS = {
     "case-aisha": [
       {
         "text": "[Panicked] If a reply doesn't come, I tell myself it shouldn't matter, but then I can't focus on anything else.",
-        "suggestion": "One part says it should not matter, and another part cannot let go of the missing reply. Let's stay with that split for a moment."
+        "suggestion": "One part says it should not matter, and another part cannot let go of the missing reply. What do you notice in the part that cannot let go?"
       },
       {
         "text": "[Confused and embarrassed] I can ask someone not to leave and then want them away from me seconds later. I do not understand which part is actually me.",
-        "suggestion": "Both movements are there: reaching and pushing away. Can we stay with the switch just long enough to notice what changes inside?"
+        "suggestion": "Both movements are there: reaching and pushing away. What changes inside in the seconds between asking them to stay and wanting them gone?"
       },
       {
         "text": "[Desperate] When I scratch, part of me says it is not a big deal, and another part is scared you will judge me.",
-        "suggestion": "One part minimizes the scratching, and another part fears my judgment. Can we stay with what happens as you tell me both?"
+        "suggestion": "One part makes the scratching small, and another part watches for my judgment. As you say that here, which part feels closer?"
       },
       {
         "text": "[Hurt and guarded] If you glance at the clock, I start wondering whether I should stop talking before you end it.",
-        "suggestion": "The glance at the clock starts that pull to stop first, before I can end. Can we notice the first feeling that comes up right then?"
+        "suggestion": "The glance at the clock starts that pull to stop first, before I can end. What is the first feeling that comes up right then?"
       },
       {
         "text": "[Guarded] I ask people things I already half-know, just to see if they will give the answer in the right way.",
-        "suggestion": "There is a testing question, and underneath it a need to hear care in a way you can trust. Can we stay with what you are listening for in the answer?"
+        "suggestion": "You are listening not only for the answer, but for whether it comes in the right way. What do you notice when it lands even slightly wrong?"
       },
       {
         "text": "[Desperate] When someone says goodbye, I know it is normal, but I get scared and angry at the same time.",
-        "suggestion": "Goodbye brings fear and anger together, even while another part says it should be normal. Let's slow down at the word goodbye and notice which feeling arrives first."
+        "suggestion": "Goodbye brings fear and anger together, even while another part says it should be normal. At the word goodbye, which feeling arrives first?"
       },
       {
         "text": "[Panicked] Kindness makes me sob, and another part of me wants to bolt.",
-        "suggestion": "Kindness brings sobbing and the urge to bolt at the same time. Can we stay with those two movements for a moment?"
+        "suggestion": "Kindness brings sobbing and the urge to bolt at the same time. Where do you notice yourself first: in the sobbing, or in the pull to get away?"
       },
       {
-        "text": "[Ashamed] What was done to me makes me feel disgusting in my own skin.",
-        "suggestion": "That disgusting feeling comes close as you name what was done to you. Can we stay at the edge of it, just enough to notice how it is here now?"
+        "text": "[Ashamed] When I remember what was done to me, I want to scrub my skin even though I know nothing is there.",
+        "suggestion": "Remembering it brings a scrub-it-off feeling even when nothing is visible. What do you notice as that shame comes close here?"
       },
       {
         "text": "[Desperate] I keep checking the door, and I can't tell if I am angry you will leave or scared you might forget me.",
-        "suggestion": "At the door there is anger and fear tangled together: leaving, being forgotten. We can stay with that tangle slowly."
+        "suggestion": "At the door there is anger and fear tangled together: leaving, being forgotten. As you look toward the door now, which side is closer?"
       },
       {
         "text": "[Hurt] If you cancel, a part of me says not to come back, even while another part wants to ask when you will be here again.",
-        "suggestion": "Both parts appear around the cancellation: the part that wants to disappear from therapy and the part that wants to know you still have a place here. Can we stay with that split?"
+        "suggestion": "Both parts appear around the cancellation: the part that wants to disappear and the part that needs to know there is still a place here. Where do you feel that split most strongly?"
       }
     ],
     "case-david": [
       {
         "text": "[Controlled] When she says I am cold, part of me wants to prove her wrong and another part wants to disappear.",
-        "suggestion": "One part moves toward proving, another toward disappearing. Let's stay with that split before either side takes over."
+        "suggestion": "One part moves toward proving, another toward disappearing. What do you notice in the moment before either side takes over?"
       },
       {
         "text": "[Controlled] You seem calm when I talk about failure, and I cannot tell if I respect that or resent it.",
-        "suggestion": "The calm you see lands in two ways at once: something respects it, and something resents it. Can we notice what each side is responding to?"
+        "suggestion": "The calm you see lands in two ways at once: something respects it, and something resents it. Which side is louder as you talk about my calm?"
       },
       {
         "text": "[Defensive] When I feel judged, I smooth my shirt and start listing achievements.",
-        "suggestion": "When judgment appears, the achievements come in quickly. Can we notice the first flash of being judged before the list starts?"
+        "suggestion": "When judgment appears, the achievements come in quickly. What is the first signal that you are being judged, before the list starts?"
       },
       {
         "text": "[Controlled] Praise works for maybe ten seconds; then I start looking for the part they missed.",
-        "suggestion": "The praise reaches you briefly, and then the search for what was missed takes over. Let's slow down at the place where it stops landing."
+        "suggestion": "The praise reaches you briefly, and then the search for what was missed takes over. Where does it stop landing?"
       },
       {
         "text": "[Dismissive] In hard talks, I check my phone the moment I feel cornered.",
-        "suggestion": "When you feel cornered, the phone gives you a little distance. Let's stay with the moment just before you reach for it."
+        "suggestion": "When you feel cornered, the phone gives you a little distance. What is the cornered feeling like just before the phone comes out?"
       },
       {
         "text": "[Irritated] When my kids cry, I get impatient before I even know why.",
-        "suggestion": "Your kids' tears bring impatience before you even know why. Can we stay with that first impatient surge?"
+        "suggestion": "Your kids' tears bring impatience before you even know why. Where do you first notice that impatient surge?"
       },
       {
         "text": "[Wounded but sharp] Admitting I am wrong makes my face burn like everyone can see the failure.",
-        "suggestion": "Admitting you are wrong brings heat to your face, like the failure is suddenly visible. Can we stay with that heat for a moment before you have to cover it?"
+        "suggestion": "Admitting you are wrong brings heat to your face, like the failure is suddenly visible. What does that heat say in the moment before you cover it?"
       },
       {
         "text": "[Distant] Since the affair, I do not know whether I want forgiveness or to be left alone.",
-        "suggestion": "There is a pull toward forgiveness and another toward being left alone. Let's stay with how those two wishes sit next to each other."
+        "suggestion": "There is a pull toward forgiveness and another toward being left alone. Which wish feels safer to let me see?"
       },
       {
         "text": "[Wounded but sharp] I want credit without having to ask, because asking makes me feel pathetic.",
-        "suggestion": "You want the credit, and asking for it immediately brings that pathetic feeling close. Can we stay with the moment where wanting recognition turns into shame?"
+        "suggestion": "You want the credit, and asking for it immediately brings that pathetic feeling close. Where does wanting recognition turn into shame?"
       },
       {
-        "text": "[Controlled] The idea of being ordinary feels unbearable, like losing the only proof I matter.",
-        "suggestion": "'Ordinary' feels unbearable, like the proof that you matter disappears. Can we stay with what unbearable feels like there?"
+        "text": "[Controlled] When someone calls my work fine, I hear ordinary, and I cannot let it go.",
+        "suggestion": "'Fine' lands as ordinary, and ordinary becomes hard to tolerate. What do you notice in the instant before you need to prove more?"
       }
     ],
     "case-marcus": [
       {
-        "text": "[Slow and flat] Most days I'm numb and then a wave hits out of nowhere.",
-        "suggestion": "Most days the numbness holds, and then the wave breaks through all at once. Can we stay with the first sign that the wave is starting?"
+        "text": "[Slow and flat] Most days I'm numb, and then something hits me and I don't know what it is.",
+        "suggestion": "The numbness holds, then something breaks through without a name. What do you notice at the first sign that something is coming?"
       },
       {
         "text": "[Hypervigilant] After nightmares, I know I should talk about them, but the details feel far away and I don't know where to start.",
-        "suggestion": "You know talking might matter, and the details still stay far away. We can begin with the not-knowing where to start."
+        "suggestion": "The details stay far away, and the starting point keeps slipping. What do you notice as you try to begin?"
       },
       {
         "text": "[Quiet and guarded] Crowds make my shoulders rise, and I stay near the wall without deciding to.",
-        "suggestion": "Your shoulders rise and you move toward the wall before you decide anything. Let's notice that automatic move toward the edge."
+        "suggestion": "The wall seems to matter before you decide anything. What does being near it give you in that first second?"
       },
       {
         "text": "[Low voice] After dark I start wondering whether being alone is safer or just making me worse.",
-        "suggestion": "Aloneness feels like protection and maybe harm at the same time. Let's stay with that question without rushing it."
+        "suggestion": "Aloneness feels like protection and maybe harm at the same time. Which side of that question feels closer after dark?"
       },
       {
         "text": "[Low voice] After work I sit in the car because the apartment feels too quiet to enter.",
-        "suggestion": "The car gives you a pause before the silent apartment. Let's stay with the moment before you open the door and notice what the quiet does inside."
+        "suggestion": "The car gives you a pause before the silent apartment. What does the quiet ask of you before you open the door?"
       },
       {
         "text": "[Quiet and guarded] I let calls go to voicemail because answering means I might have to explain why I am not okay.",
-        "suggestion": "Letting the call go to voicemail keeps you from having to explain. Can we stay with the moment it rings and the explaining starts to feel too much?"
+        "suggestion": "The ringing phone brings the possibility of having to explain. What feels too much in that first moment?"
       },
       {
         "text": "[Flat] Good moments happen, but I don't trust them enough to let them count.",
-        "suggestion": "The good moments are there, and mistrust stops them from counting. Let's linger at the point where something good starts to matter and then gets pushed away."
+        "suggestion": "The good moment arrives, and mistrust interrupts before it can count. What happens right where it almost starts to matter?"
       },
       {
         "text": "[Low voice] A sudden sound cuts through me, and before I think, I am scanning the room.",
-        "suggestion": "The sound cuts through, and the scanning starts before thought catches up. Can we notice the first second after the sound, before you know what you are looking for?"
+        "suggestion": "The sound cuts through, and the scanning starts before thought catches up. In the first second after the sound, where does your attention go?"
       },
       {
         "text": "[Quiet and guarded] I do not pick up when family calls because I do not want to find out what I feel.",
-        "suggestion": "Letting the call go unanswered keeps the feeling away for a while. Can we notice what starts to come close when you imagine answering?"
+        "suggestion": "Letting the call go unanswered keeps the feeling away for a while. What starts to come close when you imagine answering?"
       },
       {
-        "text": "[Flat] Part of me thinks alone forever would hurt less than hoping and getting pulled under again.",
-        "suggestion": "A part of you would rather choose aloneness than risk the pain that comes after hoping. Can we stay with the word 'hope' and what it brings up?"
+        "text": "[Flat] When people tell me I should not be alone so much, I say it is better this way, but I keep thinking about it after.",
+        "suggestion": "Saying it is better this way protects you from something, and the thought still follows you. What do you notice after you say it?"
       }
     ]
   },

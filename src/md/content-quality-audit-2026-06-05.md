@@ -156,19 +156,20 @@ Completed on the current content branch:
 - Marker Recognition and Chair Work hard has received a setup-sequencing pass. Aisha, David, and Marcus responses now more consistently name the ordinary marker, ask permission, set up the correct chair task, and give a concrete first turn; one Aisha marker no longer pre-labels the chair task. Matching Bokmal localizations were rewritten for more natural permission and trauma pacing.
 - Alliance Repair hard has received a response-opening and ownership pass. Aisha, David, and Marcus responses now start less formulaically, keep receiving/ownership before frame clarification, and use more natural Bokmal repair language in high-risk rupture material.
 - Alliance Repair moderate has received a response-opening and ownership pass. Laura, Carlos, and Nina responses now start less formulaically, preserve receiving/ownership before frame clarification, and use more natural Bokmal repair language.
+- Empathic Explorations hard has received a regression and Bokmal-naturalness pass. All 30 Aisha, David, and Marcus responses now make one smaller live exploratory move instead of using repeated "stay with" scaffolding; three over-formulated markers were softened, and matching Bokmal no longer repeats `Kan vi`, `La oss`, or `Vi kan` in the hard tier.
 
 These should still be reviewed in normal regression passes, but the workflow should now follow the tier-level scores in `src/md/benchmark-contract-audit-2026-06-11.md` rather than treating every repaired skill as equal priority.
 
 ## Current Highest-Value Improvement Targets
 
-1. Empathic Explorations hard.
-   - Strong overall, but severe cases can still drift toward conjecture or intense-affect containment. Keep one small next-step exploration and reduce repeated Bokmal "la oss/kan vi" when encountered.
-
-2. Empathic Understanding moderate.
+1. Empathic Understanding moderate.
    - Hard understanding is now stronger. Moderate understanding remains shorter and less varied than Goldman intermediate examples, so selected items can be broadened while staying basic-empathy pure.
 
-3. Empathic Evocations easy.
+2. Empathic Evocations easy.
    - Moderate and hard are now strong. Easy evocations remain intentionally flat but can use light ordinary-scene detail where the prompt gives too little edge for image-making.
+
+3. Empathic Explorations easy/moderate.
+   - Hard exploration is now stronger after the latest regression pass. Easy and moderate remain good but can still benefit from occasional marker-breadth or Bokmal polish when not displacing weaker sets.
 
 4. Marker Recognition and Chair Work hard and Alliance Repair hard/moderate.
    - These tiers are now strong after targeted sequencing/opening passes. Review only for regression, flagged items, high-risk pacing, or Bokmal tone.
