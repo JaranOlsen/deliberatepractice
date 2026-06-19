@@ -4014,7 +4014,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-carlos_06": {
       "text": "[Skamfull] Etter at jeg har eksplodert, blir alle stille, og jeg kommer vanligvis med en kommentar så vi kan gå videre.",
-      "suggestion": "Etter smellet blir rommet forsiktig, og kommentaren blir et raskt sveip over glass ingen vil ta på."
+      "suggestion": "Etter smellet blir rommet forsiktig, og kommentaren glir over de knuste bitene før noen må se ned."
     },
     "dp_empathic-evocations_case-carlos_07": {
       "text": "[Sint, stramt kontrollert] Jeg blir så sint at jeg slutter å snakke, for hvis jeg fortsetter, stoler jeg ikke på hva jeg kommer til å si.",
@@ -4053,7 +4053,7 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Trettheten ligger tungt i stemmen din, og til og med det blir noe du føler du må gjøre opp for."
     },
     "dp_empathic-evocations_case-nina_06": {
-      "text": "[Splittet] Å si nei gjør meg panisk, selv ved små ting, fordi jeg ser for meg at den andre trekker seg stille unna.",
+      "text": "[Splittet] Å si nei gjør meg panisk, selv ved små ting, fordi jeg begynner å se for meg at den andre bestemmer seg for at jeg er egoistisk.",
       "suggestion": "Nei-et virker lite utenpå og enormt inni, som om én grense kan løsne båndet som holder kjærligheten nær."
     },
     "dp_empathic-evocations_case-nina_07": {
@@ -4062,7 +4062,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-nina_08": {
       "text": "[Skyldpreget] Hvis huset er rotete, skammer jeg meg før noen sier noe, og begynner å forklare hva som kom i veien.",
-      "suggestion": "Skammen kommer før kritikken, og forklaringene stiller seg opp som vitner for forsvaret ditt."
+      "suggestion": "Skammen kommer før kritikken, og forklaringene stabler seg opp foran deg som et skjold."
     },
     "dp_empathic-evocations_case-nina_09": {
       "text": "[På gråten] Jeg gråter på kjøkkenet der ingen legger merke til det, skyller ansiktet og går ut igjen.",
@@ -4086,7 +4086,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-aisha_04": {
       "text": "[Panisk] Jeg klorer meg på armen når jeg begynner å føle meg uvirkelig, fordi det å se rundt i rommet og navngi ting ikke alltid får meg tilbake.",
-      "suggestion": "Kloringen blir et nødsignal, et forsøk på å gjøre deg virkelig igjen når rommet begynner å drive bort."
+      "suggestion": "Kloringen blir en akutt måte å kjenne deg virkelig på igjen, et skarpt signal når rommet begynner å drive bort."
     },
     "dp_empathic-evocations_case-aisha_05": {
       "text": "[Panisk] Når skriveprikkene forsvinner, sjekker jeg meldingen igjen og igjen, selv om jeg vet at de sikkert bare ble opptatt.",
@@ -4098,7 +4098,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-aisha_07": {
       "text": "[Benektende] Forrige uke fikk jeg selvmordstanker da han forsvant, men så tekstet han tilbake, så kanskje jeg har det greit nå og vi ikke trenger å gjøre det til en stor greie.",
-      "suggestion": "Teksten hans kjennes som et plutselig gulv under føttene, mens fallet under fortsatt ligger der og venter på å bli lagt merke til."
+      "suggestion": "Teksten hans kjennes som om gulvet klikker på plass under deg igjen, mens stedet du falt gjennom fortsatt er åpent under."
     },
     "dp_empathic-evocations_case-aisha_08": {
       "text": "[Såret] Når noen kaller meg for mye, hører jeg det om og om igjen etterpå, særlig når jeg vil sende melding og prøver å la være.",
@@ -4106,7 +4106,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-aisha_09": {
       "text": "[På gråten] Når noen er milde med meg, gråter jeg før jeg skjønner hvorfor, og så blir jeg flau og vil at de skal slutte å være snille.",
-      "suggestion": "Mildheten rører ved veggen og tårene strømmer gjennom, og så prøver skammen å skyve omsorgen ut igjen."
+      "suggestion": "Mildheten kommer gjennom før du rekker å spenne deg, tårene presser på, og så prøver skammen å skyve omsorgen ut igjen."
     },
     "dp_empathic-evocations_case-aisha_10": {
       "text": "[Panisk] Jeg sjekker døra mens vi snakker, fordi en del av meg forventer at du reiser deg og går hvis jeg sier for mye.",
@@ -4114,7 +4114,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-david_01": {
       "text": "[Kontrollert] Når kona mi kaller meg kald, blir jeg stille og kommer med én presis kommentar som jeg vet kommer til å treffe hardt.",
-      "suggestion": "Ordet kald brenner bak tennene, og den presise kommentaren kommer ut som en rustning som smekker igjen med et blad på."
+      "suggestion": "Ordet kald brenner bak tennene, og den presise kommentaren kommer ut som en rustning som smekker igjen med en skarp kant."
     },
     "dp_empathic-evocations_case-david_02": {
       "text": "[Verdiløs] Hvis jeg ikke er den beste personen i rommet, føler jeg meg vanlig, og vanlig er nesten verre enn å mislykkes.",
@@ -4162,7 +4162,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-marcus_03": {
       "text": "[Macho] I avdelingen kunne følelser koste liv, så jeg lærte å ikke ha dem, og jeg vet fortsatt ikke hva godt de skal gjøre.",
-      "suggestion": "Den regelen høres fortsatt ut som en ordre i brystet: følelser kan koste liv, så hjertet må låses bort bak en dør."
+      "suggestion": "Den regelen høres fortsatt ut som en ordre i brystet: følelser kan koste liv, så hjertet låses bort bak en dør."
     },
     "dp_empathic-evocations_case-marcus_04": {
       "text": "[Hyperårvåken] Mareritt vekker meg, og så kjennes ikke rommet normalt på en stund; jeg sjekker hjørnene selv om jeg vet hvor jeg er.",
@@ -4174,7 +4174,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-evocations_case-marcus_06": {
       "text": "[Stille og på vakt] Når noe godt skjer, legger jeg merke til det, sier det riktige, og venter så på følelsen som ikke kommer.",
-      "suggestion": "Det gode er rett der og likevel bak glass, synlig men uklart før det rekker fram til deg."
+      "suggestion": "Det gode er rett der, men treffer glasset før det når fram til deg."
     },
     "dp_empathic-evocations_case-marcus_07": {
       "text": "[Flatt] Jeg holder lyset dempet hjemme fordi sterkt lys plager meg og får stedet til å kjennes for eksponert.",
