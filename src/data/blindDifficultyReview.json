@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T12:28:08.415Z",
+  "generatedAt": "2026-06-19T12:47:02.243Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -160,11 +160,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Slow and flat] Most days feel muted, and I cannot tell if I am sad or just numb.",
-            "response": "When you say muted, where do you notice it in yourself?"
+            "response": "As you stay with the word muted, what quality does it have inside?"
           },
           "no": {
             "statement": "[Langsomt og flatt] De fleste dager føles dempet, og jeg klarer ikke vite om jeg er trist eller bare nummen.",
-            "response": "Når du sier dempet, hvor merker du det i deg selv?"
+            "response": "Når du blir ved ordet dempet, hva slags kvalitet har det inni deg?"
           }
         },
         {
