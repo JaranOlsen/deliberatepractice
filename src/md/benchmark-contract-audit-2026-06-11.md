@@ -51,7 +51,7 @@ Ratings should consider: structural fidelity, marker validity, emotional pressur
 
 ## Current Baseline
 
-This audit uses the current branch state after the 2026-06-18 hard exploratory-questions regression pass.
+This audit uses the current branch state after the 2026-06-19 hard intense-affect regression pass.
 
 Automated averages are triage only, not quality scores. They still reveal places where the app may be more compressed than Goldman.
 
@@ -65,7 +65,7 @@ Automated averages are triage only, not quality scores. They still reveal places
 | Empathic Explorations | 17.8 | 26.2 | 24.9 | 30.3 | Hard-tier regression/Bokmal pass complete; strong, with later marker breadth and Bokmal polish only. |
 | Empathic Evocations | 20.8 | 23.1 | 18.9 | 20.3 | Easy, moderate, and hard markers now have stronger ordinary-scene affordance while preserving trainee image-making. |
 | Empathic Conjectures | 16.5 | 21.5 | 20.8 | 21.8 | Response-boundary pass complete; strong, with later marker-breadth and Bokmal polish. |
-| Staying in Contact with Intense Affect | 31.3 | 35.3 | 32.0 | 22.6 | Contact-first response repair complete; residual regression risk is mainly high-risk precision. |
+| Staying in Contact with Intense Affect | 31.3 | 35.3 | 32.0 | 22.6 | Hard high-risk contact-first precision pass complete; later work should be flagged-item or light regression only. |
 | Self-Disclosure | 14.8 | 18.4 | 31.3 | 27.6 | Boundary/transparency pass complete; strong, with later Bokmal and marker-breadth polish. |
 | Marker Recognition and Chair Work | 35.4 | 37.5 | 50.0 | 84.3 | Hard-tier setup pass complete; remaining work is regression and Bokmal polish rather than structural repair. |
 | Alliance Repair | 34.2 | 35.0 | 47.4 | 104.8 | Hard and moderate response-opening/Bokmal passes complete; remaining work is regression only unless flagged. |
@@ -102,7 +102,7 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | Empathic Conjectures | Hard | 8.5 | Targeted hard-tier regression pass simplified over-formulated guesses; responses now stay closer to one tentative hidden feeling or meaning. |
 | Staying in Contact with Intense Affect | Easy | 8.6 | Strong live affective pressure and contact-first responses; good range beyond panic/grief. |
 | Staying in Contact with Intense Affect | Moderate | 8.6 | Strong pressure, collapse, guilt, rage, and positive-affect material with good contact before regulation. |
-| Staying in Contact with Intense Affect | Hard | 8.4 | Good high-risk handling and contact-first structure; keep self-harm, violence, erotic pressure, and dissociation under regression review. |
+| Staying in Contact with Intense Affect | Hard | 8.6 | Recent hard-tier pass tightened erotic-boundary, self-harm, violence, dissociation, and suicidality responses toward emotional contact before safety or frame language. |
 | Self-Disclosure | Easy | 8.7 | Strong direct therapist-transparency markers and boundaried, brief responses. |
 | Self-Disclosure | Moderate | 8.6 | Strong care, competence, boredom, and therapist-impact questions; mostly polishing Norwegian idiom and variety now. |
 | Self-Disclosure | Hard | 8.5 | Strong boundary handling around care, lateness, attraction, pity, and therapist experience. |
@@ -119,11 +119,11 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Staying in Contact with Intense Affect, hard | Strong after recent repairs; residual risk is safety-sensitive regression. | High-risk contact-first spot checks around self-harm, violence, dissociation, and erotic/boundary material. |
-| 2 | Alliance Repair, easy | Strong rupture contexts and sequence, with some remaining response-opening repetition. | Light response-variety polish when it does not displace lower-scored contract gaps. |
-| 3 | Empathic Explorations, moderate | Strong live-edge training with less conjecture drift; further gains should be Bokmal idiom and marker breadth. | Light marker-breadth or Bokmal polish. |
-| 4 | Empathic Conjectures, easy | Strong, but still the lowest conjectures tier after the hard regression pass. | Light marker-breadth or Bokmal polish only after higher-risk sets are stable. |
-| 5 | Exploratory Questions, moderate | Good inward edge and difficulty calibration; repeated "what happens/what do you notice" patterns remain visible. | Opening-variety polish only after higher-risk sets are stable. |
+| 1 | Alliance Repair, easy | Strong rupture contexts and sequence, with some remaining response-opening repetition. | Light response-variety polish when it does not displace lower-scored contract gaps. |
+| 2 | Empathic Explorations, moderate | Strong live-edge training with less conjecture drift; further gains should be Bokmal idiom and marker breadth. | Light marker-breadth or Bokmal polish. |
+| 3 | Empathic Conjectures, easy | Strong, but still the lowest conjectures tier after the hard regression pass. | Light marker-breadth or Bokmal polish only after higher-risk sets are stable. |
+| 4 | Exploratory Questions, moderate | Good inward edge and difficulty calibration; repeated "what happens/what do you notice" patterns remain visible. | Opening-variety polish only after higher-risk sets are stable. |
+| 5 | Staying in Contact with Intense Affect, hard | Strong high-risk coverage after contact-first regression pass. | Review only for Supabase flags or occasional safety-sensitive regression checks. |
 
 ## Next Work Decision Rule
 
@@ -137,7 +137,22 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-19 empathic-evocations regression pass: move next to Staying in Contact with Intense Affect hard. The goal is to spot-check high-risk items for contact-first precision around self-harm, violence, dissociation, and erotic/boundary material without turning the response into rationale, advice, or containment-only work.
+Current recommendation after the 2026-06-19 hard intense-affect regression pass: move next to Alliance Repair easy. The goal is light response-opening and ownership variety without weakening the repair sequence: receive impact, own the therapist contribution, clarify frame only as needed, and ask what helps now.
+
+### Implementation Update: Staying in Contact with Intense Affect Hard
+
+A hard-tier intense-affect regression pass revised 30 advanced responses across Aisha, David, and Marcus, with 3 cue-word corrections.
+
+Current hard intense-affect state after this pass:
+
+- 90 total intense-affect items preserved; all 30 hard suggestions reviewed.
+- Cue words were sharpened where they under-signaled the live affect: Aisha romantic-boundary longing, David therapy-disappointment anger, and Marcus war-footage horror.
+- Responses now lead more consistently with contact and receiving before safety, boundary, or orientation language.
+- High-risk items involving self-harm, cutting, scratching, violent fantasy, sexual-offense shame, dissociation, trauma activation, erotic pressure, and suicidal language were spot-checked in English and Bokmal.
+- Matching Bokmal localizations were updated with less literal therapy-English phrasing.
+- Quality rating for hard Staying in Contact with Intense Affect increased from about 8.4/10 to about 8.6/10.
+
+Staying in Contact with Intense Affect is now strong enough to leave the active-priority slot. Later work should be Supabase-feedback driven or occasional high-risk regression review.
 
 ### Implementation Update: Empathic Evocations Moderate/Hard
 
