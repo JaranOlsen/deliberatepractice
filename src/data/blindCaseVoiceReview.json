@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T14:36:02.636Z",
+  "generatedAt": "2026-06-19T23:33:01.300Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -143,12 +143,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Sad] I wake up and remember he is gone, and the whole morning feels heavy.",
-            "response": "Remembering in the morning makes the day feel heavy from the start."
+            "statement": "[Sad] Mornings are the worst. I wake up for one second before remembering he is gone, and then everything feels heavy.",
+            "response": "The morning starts with that heavy remembering that he is gone."
           },
           "no": {
-            "statement": "[Trist] Jeg våkner og husker at han er borte, og hele morgenen blir tung.",
-            "response": "Det å huske det om morgenen gjør dagen tung helt fra starten."
+            "statement": "[Trist] Morgenene er verst. Jeg våkner i ett sekund før jeg husker at han er borte, og så blir alt tungt.",
+            "response": "Morgenen starter med den tunge påminnelsen om at han er borte."
           }
         }
       ]
@@ -166,12 +166,12 @@
           "order": 9,
           "riskFlags": [],
           "en": {
-            "statement": "[Tense] I tell myself I'm just holding standards, but really I feel accused.",
-            "response": "You call it holding standards, and you also feel accused."
+            "statement": "[Tense] I tell myself I am only holding people to a standard, but underneath that I feel accused and cornered.",
+            "response": "You call it holding standards, and underneath you feel accused."
           },
           "no": {
-            "statement": "[Anspent] Jeg sier til meg selv at jeg bare holder standarden, men egentlig føler jeg meg anklaget.",
-            "response": "Du kaller det å holde standarden, og du føler deg også anklaget."
+            "statement": "[Anspent] Jeg sier til meg selv at jeg bare holder folk til en standard, men under det føler jeg meg anklaget og presset opp i et hjørne.",
+            "response": "Du kaller det å holde standarden, og under det føler du deg anklaget."
           }
         },
         {

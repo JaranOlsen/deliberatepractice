@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T14:36:02.636Z",
+  "generatedAt": "2026-06-19T23:33:01.300Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -65,12 +65,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Embarrassed] When someone asks a question I cannot answer, I feel embarrassed in front of the room.",
-            "response": "Not having the answer leaves you embarrassed in front of everyone."
+            "statement": "[Embarrassed] Someone asked a simple question I could not answer today, and I felt exposed in front of the whole room.",
+            "response": "Not having the answer left you feeling exposed in front of everyone."
           },
           "no": {
-            "statement": "[Flau] Når noen spør om noe jeg ikke kan svare på, blir jeg flau foran hele rommet.",
-            "response": "Det å ikke ha svaret gjør deg flau foran alle."
+            "statement": "[Flau] Noen stilte et enkelt spørsmål jeg ikke kunne svare på i dag, og jeg følte meg avslørt foran hele rommet.",
+            "response": "Det å ikke ha svaret gjorde at du følte deg avslørt foran alle."
           }
         },
         {

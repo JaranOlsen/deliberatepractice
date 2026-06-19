@@ -384,128 +384,128 @@ export const STATEMENT_SETS = {
   "empathic-understanding": {
     "case-sara": [
       {
-        "text": "[Tearful] I feel really down today. I keep thinking about the breakup and I miss him.",
-        "suggestion": "You feel down and miss him a lot today."
+        "text": "[Tearful] I got through work today, answered emails, smiled in a meeting, and then cried in the car because I missed him so much.",
+        "suggestion": "You kept functioning, and then the missing him hit you hard."
       },
       {
-        "text": "[Hopeful] I would like to feel better about myself, and I think I am ready to work on that here.",
-        "suggestion": "You want to feel better about yourself, and you feel ready to begin that work."
+        "text": "[Hopeful] I want to believe I can feel better about myself, and for the first time it feels possible to work on that here.",
+        "suggestion": "You feel a little hope that this could be a place to work on how you feel about yourself."
       },
       {
-        "text": "[Sad] I saw an old photo of us today, and it made me sad all over again.",
-        "suggestion": "The photo brought the sadness back today."
+        "text": "[Sad] I found an old photo while deleting things from my phone, and it made the breakup feel fresh again.",
+        "suggestion": "Finding that photo brought the breakup pain right back."
       },
       {
-        "text": "[Angry] I hate catching myself checking the phone, still hoping his name will be there.",
-        "suggestion": "You hate that part of you still checks for him."
+        "text": "[Angry] I hate that I still check my phone at night, like some part of me is waiting for his name to show up.",
+        "suggestion": "You hate that part of you is still waiting for him."
       },
       {
-        "text": "[Sad] I wake up and remember he is gone, and the whole morning feels heavy.",
-        "suggestion": "Remembering in the morning makes the day feel heavy from the start."
+        "text": "[Sad] Mornings are the worst. I wake up for one second before remembering he is gone, and then everything feels heavy.",
+        "suggestion": "The morning starts with that heavy remembering that he is gone."
       },
       {
-        "text": "[Tearful] Friends keep saying time helps, but I feel embarrassed that I am still this raw.",
-        "suggestion": "You feel embarrassed that the grief is still this raw."
+        "text": "[Tearful] My friends keep saying time helps, and I know they mean well, but I feel embarrassed that I am still crying this easily.",
+        "suggestion": "You feel embarrassed that the sadness is still so close to the surface."
       },
       {
-        "text": "[Softly] I keep busy so I don't think, and then I crash at night.",
-        "suggestion": "Keeping busy helps during the day, and then it hits you at night."
+        "text": "[Softly] I fill the day with errands and little tasks so I do not think, and then at night there is nothing left to distract me.",
+        "suggestion": "The busyness holds things off, and the loneliness catches up at night."
       },
       {
-        "text": "[Embarrassed] I don't want to burden anyone with this, so I make the room light and go home lonelier.",
-        "suggestion": "You keep it light with others and go home lonelier."
+        "text": "[Embarrassed] When friends ask how I am, I make a joke or change the subject because I do not want to be the heavy one again.",
+        "suggestion": "You hide the heaviness so you do not become the heavy one again."
       },
       {
-        "text": "[Tearful] When I pass couples holding hands, it feels like everyone got chosen except me.",
-        "suggestion": "Seeing couples brings up that sharp sense of being left unchosen."
+        "text": "[Tearful] I passed a couple holding hands outside the grocery store, and it felt like everyone else got picked for a life I lost.",
+        "suggestion": "Seeing them touched that feeling of being left out of the life you wanted."
       },
       {
-        "text": "[Softly] Part of me keeps wondering what he saw that made him leave.",
-        "suggestion": "A part of you keeps wondering what he saw in you that made him leave."
+        "text": "[Softly] Part of me keeps going over conversations, trying to find the moment he decided I was not worth staying with.",
+        "suggestion": "You keep searching for the moment he stopped wanting to stay."
       }
     ],
     "case-michael": [
       {
-        "text": "[Firm] I spent the whole morning dealing with problems at work, and I am fed up.",
-        "suggestion": "You are worn out and frustrated after a morning full of problems."
+        "text": "[Firm] I spent the whole morning fixing other people's mistakes at work, and by lunch I was fed up with everyone needing me to clean things up.",
+        "suggestion": "You felt worn out and frustrated from carrying everyone else's mistakes."
       },
       {
-        "text": "[Ashamed] My wife says she is tired of my temper, and I feel ashamed hearing that.",
-        "suggestion": "Hearing that your wife is tired of your temper leaves you ashamed."
+        "text": "[Ashamed] My wife said she is tired of walking on eggshells around me, and hearing that made me feel ashamed.",
+        "suggestion": "Hearing that she walks on eggshells left you ashamed."
       },
       {
-        "text": "[Ashamed] After I yell, I feel sick with shame when I see her face.",
-        "suggestion": "After yelling, seeing her face leaves you sick with shame."
+        "text": "[Ashamed] After I yelled last night, I saw her flinch, and then I felt sick with shame.",
+        "suggestion": "Seeing her flinch after you yelled left you sick with shame."
       },
       {
-        "text": "[Tense and angry] When people question me in meetings, I get angry fast.",
-        "suggestion": "Being questioned in meetings brings anger up quickly."
+        "text": "[Tense and angry] When someone questions my decision in a meeting, I can feel my anger come up before I have even answered.",
+        "suggestion": "Being questioned in front of others brings anger up fast."
       },
       {
-        "text": "[Embarrassed] When someone asks a question I cannot answer, I feel embarrassed in front of the room.",
-        "suggestion": "Not having the answer leaves you embarrassed in front of everyone."
+        "text": "[Embarrassed] Someone asked a simple question I could not answer today, and I felt exposed in front of the whole room.",
+        "suggestion": "Not having the answer left you feeling exposed in front of everyone."
       },
       {
-        "text": "[Tense] I stay up overpreparing slides so no one catches me unsure in the morning.",
-        "suggestion": "You stay up overpreparing so no one sees you unsure."
+        "text": "[Tense] I stayed up past midnight fixing slides because I could not stand the thought of someone catching me unsure in the morning.",
+        "suggestion": "You overprepared so no one would see you unsure."
       },
       {
-        "text": "[Firm] My wife's tone can set me off before I know what she actually said.",
-        "suggestion": "Her tone can set off anger before you know what she said."
+        "text": "[Firm] My wife's tone changes a little, and I am already bracing before I know what she is actually trying to say.",
+        "suggestion": "Her tone makes you brace before you even know what she means."
       },
       {
-        "text": "[Tense and ashamed] I hate apologizing because it feels like handing her proof that I am weak.",
-        "suggestion": "Apologizing feels like handing her proof that you are weak."
+        "text": "[Tense and ashamed] I know I should apologize, but the second I do, it feels like I am handing her proof that I am weak.",
+        "suggestion": "Apologizing feels like exposing weakness."
       },
       {
-        "text": "[Tense] I tell myself I'm just holding standards, but really I feel accused.",
-        "suggestion": "You call it holding standards, and you also feel accused."
+        "text": "[Tense] I tell myself I am only holding people to a standard, but underneath that I feel accused and cornered.",
+        "suggestion": "You call it holding standards, and underneath you feel accused."
       },
       {
-        "text": "[Ashamed] I lie awake replaying what I said to my wife and hating the look on her face.",
-        "suggestion": "At night the replay turns into regret about the hurt you saw on her face."
+        "text": "[Ashamed] At night I replay what I said to my wife, especially the look on her face, and I feel awful.",
+        "suggestion": "At night you replay her face and feel awful about what happened."
       }
     ],
     "case-jason": [
       {
-        "text": "[Quietly] I am tired of being nervous in meetings, and I want to feel more confident.",
-        "suggestion": "You are tired of the meeting anxiety and want more confidence."
+        "text": "[Quietly] I am tired of sitting in meetings with my heart racing while everyone else seems normal.",
+        "suggestion": "You are tired of feeling so anxious while everyone else seems at ease."
       },
       {
-        "text": "[Sad] I had lunch alone again, and it made me sad.",
-        "suggestion": "Eating lunch alone again left you sad."
+        "text": "[Sad] I ate lunch alone again today and watched people at another table laughing like it was easy.",
+        "suggestion": "Eating alone while others connected left you sad."
       },
       {
-        "text": "[Fearful] I want to say yes to plans, then the fear builds and I cancel.",
-        "suggestion": "You want to say yes, and then the fear builds until you cancel."
+        "text": "[Fearful] I wanted to say yes to game night, and then the fear kept building until I made an excuse and cancelled.",
+        "suggestion": "You wanted to go, and the fear grew until you backed out."
       },
       {
-        "text": "[Quietly] Compliments don't stick; I keep waiting for people to take them back.",
-        "suggestion": "Compliments do not stick, and you wait for people to take them back."
+        "text": "[Quietly] When someone compliments my work, I smile, but inside I wait for them to realize they were wrong.",
+        "suggestion": "The compliment does not land, and you expect it to be taken back."
       },
       {
-        "text": "[Hesitant] I get anxious sending even simple texts, so I keep rewriting them.",
-        "suggestion": "Even a simple text brings anxiety and second-guessing."
+        "text": "[Hesitant] I rewrote a simple text six times today because every version sounded weird once I looked at it.",
+        "suggestion": "Even a simple text turns into anxiety and second-guessing."
       },
       {
-        "text": "[Anxious] I eat lunch at my desk so I do not have to enter the break room.",
-        "suggestion": "The break room brings enough anxiety that eating at your desk feels easier."
+        "text": "[Anxious] I eat lunch at my desk because walking into the break room feels like stepping onto a stage.",
+        "suggestion": "The break room feels exposed enough that your desk feels safer."
       },
       {
-        "text": "[Quietly] After I speak in a meeting, I replay every word until I cringe.",
-        "suggestion": "After you speak, you replay every word until you cringe."
+        "text": "[Quietly] After I say something in a meeting, I spend the rest of the afternoon replaying it and cringing.",
+        "suggestion": "After speaking, you replay it and feel embarrassed."
       },
       {
-        "text": "[Hesitant] In groups I go quiet and feel outside the circle before I have spoken.",
-        "suggestion": "In groups, you feel outside before you have even spoken."
+        "text": "[Hesitant] In groups I go quiet so fast, and then I feel outside the circle even before anyone has left me out.",
+        "suggestion": "You go quiet and feel outside the group before anyone has said anything."
       },
       {
-        "text": "[Trembling] My hands shake when I introduce myself, and I want to vanish.",
-        "suggestion": "Introductions bring a visible tremble and a wish to disappear."
+        "text": "[Trembling] When I had to introduce myself today, my hands shook, and I wanted the floor to open up.",
+        "suggestion": "Introducing yourself brought shaking and a wish to disappear."
       },
       {
-        "text": "[Tearful] Sunday nights feel painfully lonely because the week starts without anyone expecting me.",
-        "suggestion": "Sunday nights feel painfully lonely, with the week starting and no one expecting you."
+        "text": "[Tearful] Sunday nights are hard because I realize no one is expecting to hear from me before the week starts again.",
+        "suggestion": "Sunday nights leave you painfully aware that no one is waiting to hear from you."
       }
     ],
     "case-laura": [
