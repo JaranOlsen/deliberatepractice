@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T01:38:06.510Z",
+  "generatedAt": "2026-06-19T07:00:51.456Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -1232,11 +1232,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Anxious] When you asked who else supports me, it sounded like you were trying to pass me off to someone else.",
-            "response": "I hear how that question landed as being passed off. I am sorry I did not make my intention clear. I want support around you, not distance from you. How can I ask about support without making you feel unwanted here?"
+            "response": "My support question sounded like I was handing you off, and I am sorry I did not make my intention clear. I want support around you, not distance from you. How can I ask about support without making you feel unwanted here?"
           },
           "no": {
             "statement": "[Engstelig] Da du spurte hvem andre som støtter meg, hørtes det ut som om du prøvde å sende meg videre til noen andre.",
-            "response": "Jeg hører at spørsmålet landet som om du ble sendt videre. Jeg beklager at jeg ikke gjorde hensikten min tydelig. Jeg vil ha støtte rundt deg, ikke avstand fra deg. Hvordan kan jeg spørre om støtte uten at du føler deg uønsket her?"
+            "response": "Spørsmålet mitt om støtte hørtes ut som om jeg ville sende deg videre, og jeg beklager at jeg ikke gjorde hensikten tydelig. Jeg vil ha støtte rundt deg, ikke avstand fra deg. Hvordan kan jeg spørre om støtte uten at du føler deg uønsket her?"
           }
         }
       ]
@@ -1255,11 +1255,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Wounded but sharp] When you said I sounded hurt, it felt like you were calling me weak. I know hurt is probably your therapy word, but in my head it sounded like you were stripping away the part of me that can handle things.",
-            "response": "I hear that 'hurt' landed like I was taking strength away from you, and I am sorry I chose words that made you brace. What language would let us name the hit without making you feel weakened or exposed in a way you did not choose?"
+            "response": "The word 'hurt' did not feel like understanding; it felt like I was taking strength away from you. I am sorry I chose words that made you brace. What language would let us name the hit without making you feel weakened or exposed in a way you did not choose?"
           },
           "no": {
             "statement": "[Såret, men skarp] Da du sa at jeg hørtes såret ut, føltes det som om du kalte meg svak. Jeg vet at såret sikkert er et terapiord for deg, men i hodet mitt hørtes det ut som om du tok bort den delen av meg som klarer ting.",
-            "response": "Jeg hører at «såret» landet som om jeg tok styrke fra deg, og jeg beklager at jeg valgte ord som fikk deg til å spenne deg. Hvilket språk lar oss navngi treffet uten at du kjenner deg svekket eller blottlagt på en måte du ikke selv har valgt?"
+            "response": "Ordet «såret» kjentes ikke som forståelse; det kjentes som om jeg tok styrke fra deg. Jeg beklager at jeg valgte ord som fikk deg til å spenne deg. Hvilket språk lar oss navngi treffet uten at du kjenner deg svekket eller blottlagt på en måte du ikke selv har valgt?"
           }
         },
         {

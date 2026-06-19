@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T01:38:06.510Z",
+  "generatedAt": "2026-06-19T07:00:51.456Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -562,11 +562,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Fearful] When you asked me to look at you while I talked, I felt exposed, like I was being inspected. I know eye contact is supposed to be connection, but for me it made the words disappear.",
-            "response": "Thank you for saying that. Asking for eye contact made the moment too exposing, and I am sorry I treated connection as if it had to look one way. Where would it feel safer for your eyes to rest while we talk?"
+            "response": "Asking for eye contact made the moment too exposing, and I am sorry I treated connection as if it had to look one way. Where would it feel safer for your eyes to rest while we talk?"
           },
           "no": {
             "statement": "[Redd] Da du ba meg se på deg mens jeg snakket, følte jeg meg blottlagt, som om jeg ble undersøkt. Jeg vet at øyekontakt skal være kontakt, men for meg fikk det ordene til å forsvinne.",
-            "response": "Takk for at du sier det. Å be om øyekontakt gjorde øyeblikket for eksponert, og jeg beklager at jeg behandlet kontakt som om den måtte se ut på én bestemt måte. Hvor ville det kjennes tryggere at blikket ditt hviler mens vi snakker?"
+            "response": "Å be om øyekontakt gjorde øyeblikket for eksponert, og jeg beklager at jeg behandlet kontakt som om den måtte se ut på én bestemt måte. Hvor ville det kjennes tryggere at blikket ditt hviler mens vi snakker?"
           }
         }
       ]
