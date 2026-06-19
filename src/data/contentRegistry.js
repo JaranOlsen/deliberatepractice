@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-06-19T07:00:51.413Z"
+  "generatedAt": "2026-06-19T08:39:41.112Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -14014,9 +14014,7 @@ export const CONTENT_REGISTRY = {
           "exerciseTitle": "Empathic Explorations",
           "caseId": "case-laura"
         },
-        "riskFlags": [
-          "substance_use"
-        ],
+        "riskFlags": [],
         "criteriaTags": [
           "deepen_contact",
           "follow_leading_edge",
