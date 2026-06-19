@@ -109,7 +109,7 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | Marker Recognition and Chair Work | Easy | 8.6 | Full matrix now gives natural markers and concrete task setup; strong beginner training value. |
 | Marker Recognition and Chair Work | Moderate | 8.5 | Good unfinished-business, self-criticism, interruption, and worry-split coverage with clear first turns. |
 | Marker Recognition and Chair Work | Hard | 8.5 | Recent hard-tier pass improved Aisha, David, and Marcus setup sequencing, removed the obvious client-side chair-task leak, and reduced repeated setup openings while preserving safety and consent. |
-| Alliance Repair | Easy | 8.4 | Strong rupture contexts and repair sequence; response openings are somewhat repetitive. |
+| Alliance Repair | Easy | 8.6 | Recent easy-tier pass removed repeated response openings across Sara, Michael, and Jason while preserving impact receiving, ownership, apology, and collaborative repair questions. |
 | Alliance Repair | Moderate | 8.5 | Recent pass removed repeated response openings across Laura, Carlos, and Nina while preserving ownership, impact receiving, and natural Bokmal repair language. |
 | Alliance Repair | Hard | 8.5 | Recent pass removed repeated response openings across Aisha, David, and Marcus while strengthening ownership, frame clarity, and Bokmal idiom for high-risk rupture material. |
 
@@ -119,10 +119,10 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Alliance Repair, easy | Strong rupture contexts and sequence, with some remaining response-opening repetition. | Light response-variety polish when it does not displace lower-scored contract gaps. |
-| 2 | Empathic Explorations, moderate | Strong live-edge training with less conjecture drift; further gains should be Bokmal idiom and marker breadth. | Light marker-breadth or Bokmal polish. |
-| 3 | Empathic Conjectures, easy | Strong, but still the lowest conjectures tier after the hard regression pass. | Light marker-breadth or Bokmal polish only after higher-risk sets are stable. |
-| 4 | Exploratory Questions, moderate | Good inward edge and difficulty calibration; repeated "what happens/what do you notice" patterns remain visible. | Opening-variety polish only after higher-risk sets are stable. |
+| 1 | Empathic Explorations, moderate | Strong live-edge training with less conjecture drift; further gains should be Bokmal idiom and marker breadth. | Light marker-breadth or Bokmal polish. |
+| 2 | Empathic Conjectures, easy | Strong, but still the lowest conjectures tier after the hard regression pass. | Light marker-breadth or Bokmal polish only after higher-risk sets are stable. |
+| 3 | Exploratory Questions, moderate | Good inward edge and difficulty calibration; repeated "what happens/what do you notice" patterns remain visible. | Opening-variety polish only after higher-risk sets are stable. |
+| 4 | Alliance Repair, easy | Strong repair coverage after response-variety pass. | Review only for Supabase flags or occasional regression checks. |
 | 5 | Staying in Contact with Intense Affect, hard | Strong high-risk coverage after contact-first regression pass. | Review only for Supabase flags or occasional safety-sensitive regression checks. |
 
 ## Next Work Decision Rule
@@ -137,7 +137,22 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-19 hard intense-affect regression pass: move next to Alliance Repair easy. The goal is light response-opening and ownership variety without weakening the repair sequence: receive impact, own the therapist contribution, clarify frame only as needed, and ask what helps now.
+Current recommendation after the 2026-06-19 easy alliance-repair regression pass: move next to Empathic Explorations moderate. The goal is light marker-breadth and Bokmal polish without turning the skill into conjecture, evocation, or exploratory questions.
+
+### Implementation Update: Alliance Repair Easy
+
+An easy-tier alliance-repair response-variety pass revised 30 beginner responses across Sara, Michael, and Jason.
+
+Current easy alliance-repair state after this pass:
+
+- 90 total alliance-repair items preserved; all 30 easy suggestions reviewed.
+- Repeated openings such as "Thank you for..." and "I hear..." were replaced with more varied repair entries that still receive the client impact first.
+- Responses preserve the repair sequence: acknowledge impact, own the therapist contribution, apologize where appropriate, clarify frame only as needed, and ask what would help now.
+- Matching Bokmal localizations were updated with more natural phrasing around presence, agency, pressure, and repair.
+- Content updated date was advanced to 2026-06-19 for this commit.
+- Quality rating for easy Alliance Repair increased from about 8.4/10 to about 8.6/10.
+
+Alliance Repair easy is now strong enough to leave the active-priority slot. Later work should be Supabase-feedback driven or occasional regression review.
 
 ### Implementation Update: Staying in Contact with Intense Affect Hard
 

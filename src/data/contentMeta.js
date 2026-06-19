@@ -1,7 +1,7 @@
 "use strict";
 
 export const CONTENT_REVISION = "2026-03-07-v1";
-export const CONTENT_UPDATED_AT = "2026-06-08";
+export const CONTENT_UPDATED_AT = "2026-06-19";
 
 export const CONTENT_TRACKS = Object.freeze({
   CASE_MATRIX: "case_matrix",

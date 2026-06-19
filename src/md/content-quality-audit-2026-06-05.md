@@ -60,6 +60,7 @@ Branch update:
 - Empathic Explorations has received a residual response-completion polish: 17 English responses and Bokmal localizations that were only reflective now add one gentle live-experience invitation, keeping the skill distinct from empathic understanding without drifting into conjecture or evocation. Estimated targeted response quality moved from roughly 8.7/10 to 8.8/10.
 - Marker Recognition and Chair Work has received an occasional regression polish: 20 English setup responses and Bokmal localizations now reduce generic "that sounds like" openings, name the chair-work marker in more case-specific language, and give clearer first-turn lines for empty-chair, self-critical, and worry-split tasks. Estimated targeted setup quality moved from roughly 8.7/10 to 8.8/10.
 - Staying in Contact with Intense Affect hard has received a high-risk contact-first regression pass: all 30 Aisha, David, and Marcus hard responses were reviewed and revised to receive live affect before safety, boundary, or orientation language; three cue words were corrected; and Bokmal localizations were made less literal. Estimated hard-tier quality moved from roughly 8.4/10 to 8.6/10.
+- Alliance Repair easy has received a response-variety and Bokmal naturalness pass: all 30 Sara, Michael, and Jason beginner responses now use more varied openings while preserving impact receiving, ownership, apology, frame clarity where needed, and collaborative repair questions. Estimated easy-tier quality moved from roughly 8.4/10 to 8.6/10.
 
 The remaining gaps are more subtle:
 
@@ -151,7 +152,7 @@ Completed on the current content branch:
 - Staying in Contact with Intense Affect residual contact-first response and Bokmal naturalness polish.
 - Empathic Explorations residual response-completion and Bokmal naturalness polish.
 - Marker Recognition and Chair Work occasional setup-response and Bokmal naturalness polish.
-- Full-library score audit completed on 2026-06-16. No skill/difficulty set has a structural failure, but the previous all-strong ranking was too broad. After the latest validation, evocations, understanding, exploratory-question, hard-conjecture, treatment-rationale, evocation-regression, and hard intense-affect passes, current targeting should follow `src/md/benchmark-contract-audit-2026-06-11.md`, where Alliance Repair easy is now the next active regression target.
+- Full-library score audit completed on 2026-06-16. No skill/difficulty set has a structural failure, but the previous all-strong ranking was too broad. After the latest validation, evocations, understanding, exploratory-question, hard-conjecture, treatment-rationale, evocation-regression, hard intense-affect, and easy alliance-repair passes, current targeting should follow `src/md/benchmark-contract-audit-2026-06-11.md`, where Empathic Explorations moderate is now the next active regression target.
 - Empathic Affirmation and Validation hard/moderate has received a targeted response-variety and Bokmal naturalness pass. Hard markers were expanded from compressed one-line prompts into fuller high-risk validation markers; hard and moderate responses now preserve explicit legitimizing language without repeated four-word openings, and Bokmal no longer uses `det gir mening` in these tiers.
 - Empathic Evocations moderate has received a marker-affordance pass. Laura, Carlos, and Nina prompts now add ordinary scene, guarded cognition, and relational pressure while leaving vivid imagery to the therapist response; matching Bokmal localizations were rewritten naturally.
 - Empathic Evocations hard has received a marker-affordance pass. Aisha, David, and Marcus prompts now carry more crisis pressure, guarded cognition, defensive organization, and relational stakes without supplying the vivid image/metaphor in the client line; matching Bokmal localizations were rewritten naturally.
@@ -168,22 +169,23 @@ Completed on the current content branch:
 - Providing Treatment Rationale hard has received a rationale-clarity pass. Nine Aisha, David, and Marcus responses now state more plainly why the EFT method helps with safety, attachment panic, practical control, numbness, hypervigilance, and tolerable pacing; matching Bokmal localizations were updated naturally.
 - Empathic Evocations moderate/hard has received a marker-affordance and imagery regression pass. One Nina marker now names the feared judgment rather than supplying the relational image; eight additional responses were polished so vivid imagery remains close, clinically useful, and safety-sensitive in shame, self-harm, suicidal, macho anti-feeling, and trauma-numbing material.
 - Staying in Contact with Intense Affect hard has received a high-risk response regression pass. All 30 hard suggestions now more consistently lead with emotional contact before safety, boundary, or dissociation-orientation language; cue words were sharpened for romantic-boundary longing, therapy-disappointment anger, and war-footage horror; matching Bokmal localizations were rewritten more naturally.
+- Alliance Repair easy has received a response-opening and ownership-variety pass. All 30 Sara, Michael, and Jason responses now begin less formulaically, keep the repair sequence intact, and have matching Bokmal localizations with less literal therapy-English phrasing.
 
 These should still be reviewed in normal regression passes, but the workflow should now follow the tier-level scores in `src/md/benchmark-contract-audit-2026-06-11.md` rather than treating every repaired skill as equal priority.
 
 ## Current Highest-Value Improvement Targets
 
-1. Alliance Repair easy.
-   - Strong rupture contexts and sequence, with some remaining response-opening repetition.
-
-2. Empathic Explorations moderate.
+1. Empathic Explorations moderate.
    - Strong live-edge training with less conjecture drift; further gains should be Bokmal idiom and marker breadth.
 
-3. Empathic Conjectures easy.
+2. Empathic Conjectures easy.
    - Strong, but still the lowest conjectures tier after the hard regression pass. Light marker-breadth or Bokmal polish only after higher-risk sets are stable.
 
-4. Exploratory Questions moderate.
+3. Exploratory Questions moderate.
    - Good inward edge and difficulty calibration; repeated "what happens/what do you notice" patterns remain visible.
+
+4. Alliance Repair easy.
+   - Strong repair coverage after response-variety pass. Review only for flags or occasional regression checks.
 
 5. Empathic Affirmation and Validation, Empathic Understanding, Treatment Rationale, Empathic Evocations, and Staying in Contact with Intense Affect.
    - Recent passes have repaired the main marker-breadth and response-specificity gaps. Review only for regression or dedicated Bokmal polish unless flagged.
