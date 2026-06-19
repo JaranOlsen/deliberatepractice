@@ -4193,124 +4193,124 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Den stille bilen blir et siste lite ly før du må gå inn i den tomme leiligheten."
     },
     "dp_empathic-conjectures_case-sara_01": {
-      "text": "[Flau] Jeg sier stadig til vennene mine at det går bra, og så blir jeg irritert når de tror på meg.",
-      "suggestion": "Du vinker dem litt bort og blir så alene når de trekker seg tilbake; jeg lurer på om en del av deg lengter etter at de skal se gjennom svaret."
+      "text": "[Flau] Jeg sier til vennene mine at det går bra, og så blir jeg irritert når de slutter å spørre.",
+      "suggestion": "Du gir svaret om at det går bra, og så blir du alene med det; jeg lurer på om du håper at noen skal merke at det ikke gjør det."
     },
     "dp_empathic-conjectures_case-sara_02": {
-      "text": "[Flau] Jeg kastet meg inn i jobb etter bruddet; hvis jeg kommer hjem før det blir mørkt, går jeg bare fra rom til rom.",
-      "suggestion": "Du holder deg i bevegelse til huset blir stille; kanskje de tomme rommene bringer deg nær hvor endelig det kjennes at han dro."
+      "text": "[Flau] Jeg blir lenge på jobb etter bruddet, fordi det kjennes verre å komme tidlig hjem.",
+      "suggestion": "Å bli lenge på jobb holder deg unna den stille leiligheten; kanskje det å komme tidlig hjem bringer ensomheten nærmere."
     },
     "dp_empathic-conjectures_case-sara_03": {
-      "text": "[Flau] Jeg føler meg dum som fortsatt gråter flere måneder etterpå, som om alle andre ville vært over det nå.",
-      "suggestion": "Du blir sint på tårene; jeg lurer på om det også finnes skam over at behovet og sorgen har vart så lenge."
+      "text": "[Flau] Jeg kaller meg dramatisk når jeg fortsatt gråter over det, selv om jeg bare gjør det alene.",
+      "suggestion": "Å kalle deg dramatisk gjør tårene til noe du må skjule; jeg lurer på om det finnes skam over at du fortsatt trenger å sørge."
     },
     "dp_empathic-conjectures_case-sara_04": {
       "text": "[Lavmælt] Når noen spør hvordan jeg har det, smiler jeg og skifter tema.",
-      "suggestion": "Du trekker deg raskt unna; jeg lurer på om det også finnes en øm lengsel etter å bli valgt, som kjennes for utsatt å vise."
+      "suggestion": "Du trekker deg raskt unna med smilet; jeg lurer på om det å bli sett ærlig kjennes både ønsket og for utsatt."
     },
     "dp_empathic-conjectures_case-sara_05": {
-      "text": "[Flau] Når jeg ser par, himler jeg med øynene og sier til meg selv at kjærlighet er oppskrytt.",
-      "suggestion": "Du skyver det unna; jeg lurer på om det bak himlingen ligger en verkende lengsel etter nærhet."
+      "text": "[Flau] Når par legger ut jubileumsbilder, himler jeg med øynene og scroller for fort videre.",
+      "suggestion": "Himlingen hjelper deg raskt forbi det; kanskje det under den finnes en verkende lengsel etter sånn nærhet."
     },
     "dp_empathic-conjectures_case-sara_06": {
-      "text": "[På gråten] Jeg sluttet å følge ham, og så lånte jeg telefonen til en venn for å se om han virket lykkeligere uten meg.",
-      "suggestion": "Du prøver å kutte kontakten og samtidig lete etter bevis; kanskje håp og selvbeskyttelse slåss om det samme såret."
+      "text": "[På gråten] Jeg sluttet å følge ham, og så lånte jeg telefonen til en venn for å se om han virket lykkeligere.",
+      "suggestion": "Du prøver å slutte å se, og samtidig må du vite; jeg lurer på om en del av deg er redd for at han er lettet over at du er borte."
     },
     "dp_empathic-conjectures_case-sara_07": {
       "text": "[Lavmælt] Jeg sier til meg selv at andre har ekte problemer, så jeg burde være takknemlig.",
-      "suggestion": "Du nedtoner smerten; jeg gjetter at en redd del frykter å bli avfeid hvis du lar det synes."
+      "suggestion": "Du gjør smerten mindre før noen andre kan gjøre det; jeg gjetter at du kanskje beskytter deg mot å bli avfeid."
     },
     "dp_empathic-conjectures_case-sara_08": {
       "text": "[Flau] Jeg har skrevet en unnskyldning til ham tre ganger denne uken, selv om jeg ikke vet hva jeg egentlig gjorde galt.",
-      "suggestion": "Unnskyldningen gir deg noe å gjøre; jeg lurer på om en del av deg prøver å finne en grunn til at du ble forlatt, så det kjennes litt mindre hjelpeløst."
+      "suggestion": "Unnskyldningen gir deg noe konkret å reparere; jeg lurer på om det å finne feil hos deg selv kjennes mindre hjelpeløst enn å ikke vite hvorfor han dro."
     },
     "dp_empathic-conjectures_case-sara_09": {
       "text": "[På gråten] Nettene er verst; jeg spiller om igjen små øyeblikk til jeg finner noe jeg kunne gjort annerledes.",
-      "suggestion": "Gjennomspillingen leter etter et håndtak; jeg lurer på om det å skylde på deg selv gir deg et sted å stå når savnet etter ham kjennes for hjelpeløst."
+      "suggestion": "Gjennomspillingen leter etter et håndtak; kanskje det å skylde på deg selv gir deg en måte å kjenne deg mindre maktesløs i tapet."
     },
     "dp_empathic-conjectures_case-sara_10": {
       "text": "[Lavmælt] Når du er snill mot meg, ser jeg ned og vil bytte tema.",
-      "suggestion": "Vennlighet lander sterkt; kanskje lengter en del etter den, mens en annen forventer at den forsvinner."
+      "suggestion": "Vennlighet virker vanskelig å ta rett inn; kanskje den berører en lengsel du er redd for å vise."
     },
     "dp_empathic-conjectures_case-michael_01": {
       "text": "[Fast] Hvis noen stiller spørsmål ved meg i et møte, svarer jeg raskt og høyere enn jeg mente.",
-      "suggestion": "Du kommer sterkt inn før du rekker å tenke; jeg lurer på om spørsmålet lander nesten som å bli satt på prøve og ikke holde mål."
+      "suggestion": "Du kommer sterkt inn før du rekker å tenke; jeg lurer på om spørsmålet lander som å bli avslørt som en som ikke kan nok."
     },
     "dp_empathic-conjectures_case-michael_02": {
       "text": "[Defensiv] Når en kollega retter på meg foran rommet, ler jeg det bort, og så skyter varmen opp i nakken.",
-      "suggestion": "Latteren dekker det raskt; jeg lurer på om det finnes et glimt av ydmykelse under sinnet."
+      "suggestion": "Latteren dekker det raskt; jeg lurer på om det finnes et raskt glimt av ydmykelse under."
     },
     "dp_empathic-conjectures_case-michael_03": {
       "text": "[Anspent] Kona mi sier at jeg er hard, og jeg sier at jeg bare er ærlig.",
-      "suggestion": "Ærlighet er den delen du kan stå bak; jeg gjetter at det å mykne kan bringe deg nærmere skyld eller frykten for å være brutal."
+      "suggestion": "Ærlighet er det tryggere stedet å stå; jeg lurer på om det å mykne ville bringe deg nærmere skyld."
     },
     "dp_empathic-conjectures_case-michael_04": {
-      "text": "[Rasende] Jeg holder tjenester i balanse. Jeg liker ikke å skylde noen noe.",
-      "suggestion": "Du passer nøye på balansen; jeg lurer på om det å skylde noen noe kan berøre en frykt for å være underlegen eller under andres makt."
+      "text": "[Fast] Jeg holder tjenester i balanse. Jeg liker ikke å skylde noen noe.",
+      "suggestion": "Du passer nøye på balansen; jeg lurer på om det å skylde noen noe kjennes som å havne under."
     },
     "dp_empathic-conjectures_case-michael_05": {
       "text": "[Anspent og skamfull] Når jeg må be om unnskyldning, strammer kjeven seg og jeg begynner å forklare hele situasjonen.",
-      "suggestion": "Forklaringen kommer raskt inn; jeg lurer på om selve unnskyldningen kan berøre skam, nesten som å bli beseiret foran dem."
+      "suggestion": "Forklaringen kommer raskt inn; jeg lurer på om det å be om unnskyldning berører skam, nesten som å tape terreng."
     },
     "dp_empathic-conjectures_case-michael_06": {
       "text": "[Anspent] Jeg tar bare et glass etter jobb fordi kona mi presser på; hvis hun sluttet å mase, hadde jeg ikke trengt det.",
-      "suggestion": "Du legger drikkingen på presset hennes; jeg lurer på om glasset også kan holde unna følelsen av å være anklaget, presset opp i et hjørne eller ikke god nok etter dagen."
+      "suggestion": "Du legger drikkingen på presset hennes; jeg lurer på om glasset også hjelper deg bort fra følelsen av å være anklaget."
     },
     "dp_empathic-conjectures_case-michael_07": {
       "text": "[Fast] Jeg leser alles arbeid om igjen før en presentasjon, fordi én feil ville slå tilbake på meg.",
-      "suggestion": "Du vokter deg mot å bli tatt på senga; jeg lurer på om en yngre del allerede forventer å få skylden."
+      "suggestion": "Du vokter deg mot at én feil skal lande på deg; jeg lurer på om skyld allerede kjennes forventet før noe har gått galt."
     },
     "dp_empathic-conjectures_case-michael_08": {
       "text": "[Skamfull] Etter at jeg eksploderer, blir barnet mitt forsiktig rundt meg, og jeg klarer ikke å møte blikket hans.",
-      "suggestion": "Det forsiktige blikket ser ut til å treffe deg hardt; jeg lurer på om skam og frykt for å bli som faren din gjør det vanskelig å møte øynene hans."
+      "suggestion": "Det forsiktige blikket ser ut til å treffe hardt; jeg lurer på om det berører skam over å være skremmende for ham."
     },
     "dp_empathic-conjectures_case-michael_09": {
       "text": "[Anspent] Når noen sier at jeg skal roe meg ned, høres det ut som de kaller meg barnslig.",
-      "suggestion": "Den setningen ser ut til å gjøre deg liten fort; jeg lurer på om sinnet vokter mot å kjenne seg avfeid og gjort liten."
+      "suggestion": "Den setningen ser ut til å gjøre deg liten fort; jeg lurer på om sinnet beskytter mot å kjenne seg avfeid."
     },
     "dp_empathic-conjectures_case-michael_10": {
       "text": "[Fast] Jeg driver ikke med følelser; jeg spør hva vi skal gjøre med det.",
-      "suggestion": "Du går raskt mot handling; kanskje følelser kjennes mindre kontrollerbare, som om de kan avsløre et sted du helst vil holde dekket."
+      "suggestion": "Du går raskt mot handling; kanskje følelser kjennes for blottstillende å bli værende med lenge."
     },
     "dp_empathic-conjectures_case-jason_01": {
       "text": "[Blank] Jeg øver på hver setning før et møte, og så blir hodet likevel blankt når folk vender seg mot meg.",
-      "suggestion": "Du forbereder deg så nøye; jeg lurer på om blankheten kan være en måte å komme unna skammen ved å bli sett og vurdert."
+      "suggestion": "Du forbereder deg nøye, og så tar blankheten over; jeg lurer på om det å bli sett på kjennes som å bli vurdert."
     },
     "dp_empathic-conjectures_case-jason_02": {
       "text": "[Nølende] Når jeg blir invitert ut, sier jeg at jeg er opptatt før jeg rekker å kjenne om jeg vil gå.",
-      "suggestion": "«Opptatt»-svaret kommer fort; jeg lurer på om det kan beskytte deg mot risikoen for å bli dømt, oversett eller ikke vite hvordan du hører til."
+      "suggestion": "«Opptatt»-svaret kommer fort; jeg lurer på om det beskytter deg mot å finne ut om du ville hørt til."
     },
     "dp_empathic-conjectures_case-jason_03": {
       "text": "[Engstelig] Jeg hører en stemme som sier «ikke dum deg ut» før jeg rekker å åpne munnen.",
-      "suggestion": "Du hører kritikeren tidlig; jeg gjetter at den prøver å beskytte deg mot den gamle smerten ved å bli sett og føle deg liten."
+      "suggestion": "Den advarselen kommer før du snakker; jeg gjetter at den prøver å beskytte deg mot å føle deg blottstilt."
     },
     "dp_empathic-conjectures_case-jason_04": {
       "text": "[Stille] Etter at jeg har snakket, krymper jeg meg i timevis og ser for meg at alle spiller av hvor latterlig jeg hørtes ut.",
-      "suggestion": "Jeg lurer på om krympingen ikke bare er flauhet, men også en gammel frykt for at det å bli hørt kan bety å bli ledd av eller avvist."
+      "suggestion": "Krympingen spiller øyeblikket om igjen; jeg lurer på om det å bli hørt kjennes nært å bli ledd av."
     },
     "dp_empathic-conjectures_case-jason_05": {
       "text": "[Nølende] Når noen gir meg et kompliment, antar jeg at de bare er høflige og har oversett den kleine delen.",
-      "suggestion": "Varmen preller av; jeg lurer på om et gammelt bilde av deg selv fortsatt insisterer på at den kleine delen er den sanneste."
+      "suggestion": "Komplimentet slipper ikke helt inn; jeg lurer på om den kleine delen kjennes mer troverdig enn de gode ordene."
     },
     "dp_empathic-conjectures_case-jason_06": {
       "text": "[Skamfull] Å se selvsikre mennesker får meg til å ville forsvinne, og så hater jeg meg selv for å misunne dem.",
-      "suggestion": "Du krymper rundt selvsikkerheten deres; kanskje finnes det både misunnelse og sorg over å stå utenfor verdenen de ser ut til å bevege seg i."
+      "suggestion": "Selvsikkerheten deres får deg til å krympe; kanskje misunnelsen også er tristhet over å føle deg utenfor den verdenen."
     },
     "dp_empathic-conjectures_case-jason_07": {
       "text": "[Stille] Hvis noen ler i nærheten, antar jeg at det er av meg og spiller om igjen hva jeg gjorde galt.",
-      "suggestion": "Du forbereder deg på latterliggjøring; jeg lurer på om latter kan berøre en sår forventning om at det å være synlig betyr å bli gjort narr av."
+      "suggestion": "Du forbereder deg raskt på å bli gjort narr av; jeg lurer på om latter kjennes som bevis på at det er farlig å være synlig."
     },
     "dp_empathic-conjectures_case-jason_08": {
       "text": "[Engstelig] Jeg skriver en melding, leser den fem ganger og sletter den før jeg sender.",
-      "suggestion": "Du redigerer deg selv ut av kontakt; jeg lurer på om det finnes både et ønske om å nå noen og en frykt for hva som skjer hvis de virkelig ser deg."
+      "suggestion": "Du redigerer deg selv ut av kontakt; jeg lurer på om det å ta kontakt kjennes som å gi noen sjansen til å avvise deg."
     },
     "dp_empathic-conjectures_case-jason_09": {
       "text": "[Engstelig] Jeg drikker før arrangementer, for ellers står jeg langs veggen og sjekker mobilen.",
-      "suggestion": "Drikken hjelper deg ut på gulvet; jeg lurer på om den også skjermer en redd del som forventer å bli blottstilt eller stå utenfor."
+      "suggestion": "Drikken hjelper deg bort fra veggen; jeg lurer på om den skjermer deg mot å føle deg blottstilt."
     },
     "dp_empathic-conjectures_case-jason_10": {
       "text": "[Skamfull] Jeg holder meg stille selv når jeg har en god idé, og så spiller jeg den om igjen hele dagen.",
-      "suggestion": "Du holder deg skjult og klarer så ikke å legge det fra deg; kanskje kjennes det risikabelt å være synlig, mens det å forsvinne gjør deg skamfull og alene."
+      "suggestion": "Du holder deg skjult og fortsetter å spille det om igjen; kanskje det å si noe kjennes risikabelt, men stillheten gir skam."
     },
     "dp_empathic-conjectures_case-laura_01": {
       "text": "[Flatt og på vakt] Når noen er vennlige, blir jeg fort mistenksom, som om varme alltid har en hake.",

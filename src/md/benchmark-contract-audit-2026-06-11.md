@@ -97,7 +97,7 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | Empathic Evocations | Easy | 8.5 | Recent pass added ordinary scene detail to the thinnest beginner markers while preserving flat client prompts and leaving vivid imagery to the therapist response. |
 | Empathic Evocations | Moderate | 8.5 | Regression pass tightened one over-imaged marker and polished selected responses so imagery stays vivid without becoming ornamental. |
 | Empathic Evocations | Hard | 8.5 | Regression pass improved safety-sensitive and high-shame response images while preserving flat, cognitive, or guarded client prompts. |
-| Empathic Conjectures | Easy | 8.4 | Strong tentative one-step-beyond-explicit responses with good behavioral markers. |
+| Empathic Conjectures | Easy | 8.6 | Recent pass tightened beginner guesses into one tentative near-surface meaning, added a little ordinary marker breadth, and polished Bokmal without repeated starts. |
 | Empathic Conjectures | Moderate | 8.5 | One of the best-aligned tiers: good hidden-feeling hints without overexposing core pain. |
 | Empathic Conjectures | Hard | 8.5 | Targeted hard-tier regression pass simplified over-formulated guesses; responses now stay closer to one tentative hidden feeling or meaning. |
 | Staying in Contact with Intense Affect | Easy | 8.6 | Strong live affective pressure and contact-first responses; good range beyond panic/grief. |
@@ -119,8 +119,8 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Empathic Conjectures, easy | Strong, but still the lowest conjectures tier after the hard regression pass. | Light marker-breadth or Bokmal polish only after higher-risk sets are stable. |
-| 2 | Exploratory Questions, moderate | Good inward edge and difficulty calibration; repeated "what happens/what do you notice" patterns remain visible. | Opening-variety polish only after higher-risk sets are stable. |
+| 1 | Exploratory Questions, moderate | Good inward edge and difficulty calibration; repeated "what happens/what do you notice" patterns remain visible. | Opening-variety polish only after higher-risk sets are stable. |
+| 2 | Empathic Conjectures, easy | Stronger after response-boundary, marker-breadth, and Bokmal pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
 | 3 | Empathic Explorations, moderate | Stronger after marker-breadth and Bokmal pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
 | 4 | Alliance Repair, easy | Strong repair coverage after response-variety pass. | Review only for Supabase flags or occasional regression checks. |
 | 5 | Staying in Contact with Intense Affect, hard | Strong high-risk coverage after contact-first regression pass. | Review only for Supabase flags or occasional safety-sensitive regression checks. |
@@ -137,7 +137,21 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-19 moderate empathic-explorations pass: move next to Empathic Conjectures easy. The goal should be light marker-breadth and Bokmal polish while keeping conjectures tentative and evidence-based.
+Current recommendation after the 2026-06-19 easy empathic-conjectures pass: move next to Exploratory Questions moderate. The goal should be opening-variety and inward-question polish while preserving exactly one experiential question per response.
+
+### Implementation Update: Empathic Conjectures Easy
+
+An easy-tier empathic-conjectures pass revised all 30 Sara, Michael, and Jason items.
+
+Current easy empathic-conjectures state after this pass:
+
+- 90 total empathic-conjectures items preserved; all 30 easy items reviewed.
+- Selected markers were made more ordinary and behavioral, especially around Sara's work avoidance and social-media checking.
+- Responses now stay closer to one tentative near-surface guess rather than naming several hidden meanings at once.
+- English targeted scan shows zero repeated four-word starts and no questions in the revised easy responses.
+- Matching Bokmal localizations were rewritten with zero repeated starts and more natural beginner-level conjecture language.
+- Content updated date remains 2026-06-19, which is the date of this commit.
+- Quality rating for easy Empathic Conjectures increased from about 8.4/10 to about 8.6/10.
 
 ### Implementation Update: Empathic Explorations Moderate
 

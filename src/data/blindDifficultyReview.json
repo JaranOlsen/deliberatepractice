@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T08:39:41.121Z",
+  "generatedAt": "2026-06-19T12:28:08.415Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -348,11 +348,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tense and ashamed] When I have to apologize, my jaw tightens and I start explaining the whole situation.",
-            "response": "The explanation comes in quickly; I wonder if the apology itself might touch shame, almost like being defeated in front of them."
+            "response": "The explanation comes in quickly; I wonder if apologizing touches shame, almost like losing ground."
           },
           "no": {
             "statement": "[Anspent og skamfull] Når jeg må be om unnskyldning, strammer kjeven seg og jeg begynner å forklare hele situasjonen.",
-            "response": "Forklaringen kommer raskt inn; jeg lurer på om selve unnskyldningen kan berøre skam, nesten som å bli beseiret foran dem."
+            "response": "Forklaringen kommer raskt inn; jeg lurer på om det å be om unnskyldning berører skam, nesten som å tape terreng."
           }
         },
         {

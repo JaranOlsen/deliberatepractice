@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T08:39:41.120Z",
+  "generatedAt": "2026-06-19T12:28:08.414Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -795,12 +795,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Embarrassed] Seeing couples makes me roll my eyes and tell myself love is overrated.",
-            "response": "You push it away; I wonder if behind that eye roll is an ache for closeness."
+            "statement": "[Embarrassed] When couples post anniversary photos, I roll my eyes and scroll past too fast.",
+            "response": "The eye roll helps you get past it quickly; maybe underneath it there is an ache for that kind of closeness."
           },
           "no": {
-            "statement": "[Flau] Når jeg ser par, himler jeg med øynene og sier til meg selv at kjærlighet er oppskrytt.",
-            "response": "Du skyver det unna; jeg lurer på om det bak himlingen ligger en verkende lengsel etter nærhet."
+            "statement": "[Flau] Når par legger ut jubileumsbilder, himler jeg med øynene og scroller for fort videre.",
+            "response": "Himlingen hjelper deg raskt forbi det; kanskje det under den finnes en verkende lengsel etter sånn nærhet."
           }
         }
       ]
@@ -819,11 +819,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tense] When someone tells me to calm down, it sounds like they are calling me childish.",
-            "response": "That phrase seems to shrink you quickly; I wonder if the anger is guarding against feeling dismissed and made small."
+            "response": "That phrase seems to shrink you quickly; I wonder if the anger protects against feeling dismissed."
           },
           "no": {
             "statement": "[Anspent] Når noen sier at jeg skal roe meg ned, høres det ut som de kaller meg barnslig.",
-            "response": "Den setningen ser ut til å gjøre deg liten fort; jeg lurer på om sinnet vokter mot å kjenne seg avfeid og gjort liten."
+            "response": "Den setningen ser ut til å gjøre deg liten fort; jeg lurer på om sinnet beskytter mot å kjenne seg avfeid."
           }
         },
         {

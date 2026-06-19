@@ -2664,128 +2664,128 @@ export const STATEMENT_SETS = {
   "empathic-conjectures": {
     "case-sara": [
       {
-        "text": "[Embarrassed] I keep telling my friends I'm fine, and then I get annoyed when they believe me.",
-        "suggestion": "You wave them off and then feel alone when they step back; I wonder if some part longs for them to see through the answer."
+        "text": "[Embarrassed] I tell my friends I'm fine, then get irritated when they stop asking.",
+        "suggestion": "You give the fine answer and then feel alone with it; I wonder if you are hoping someone will notice you are not fine."
       },
       {
-        "text": "[Embarrassed] I threw myself into work after the breakup; if I get home before dark, I just wander from room to room.",
-        "suggestion": "You keep moving until the house gets quiet; maybe the empty rooms bring you close to how final his leaving feels."
+        "text": "[Embarrassed] I stay late at work after the breakup, because getting home early feels worse.",
+        "suggestion": "Staying late keeps you away from the quiet apartment; maybe going home early brings the aloneness closer."
       },
       {
-        "text": "[Embarrassed] I feel stupid for still crying months later, like everyone else would be over it by now.",
-        "suggestion": "You are angry at the tears; I wonder if there is also shame that your need and grief have lasted this long."
+        "text": "[Embarrassed] I call myself dramatic when I still cry about it, even though I only do it alone.",
+        "suggestion": "Calling yourself dramatic turns the tears into something to hide; I wonder if there is shame about still needing to grieve."
       },
       {
         "text": "[Softly] When someone asks how I'm doing, I smile and change the subject.",
-        "suggestion": "You move away quickly; I wonder if there is also a tender longing to be chosen that feels too exposed to show."
+        "suggestion": "You move away quickly with the smile; I wonder if being honestly seen feels both wanted and too exposed."
       },
       {
-        "text": "[Embarrassed] Seeing couples makes me roll my eyes and tell myself love is overrated.",
-        "suggestion": "You push it away; I wonder if behind that eye roll is an ache for closeness."
+        "text": "[Embarrassed] When couples post anniversary photos, I roll my eyes and scroll past too fast.",
+        "suggestion": "The eye roll helps you get past it quickly; maybe underneath it there is an ache for that kind of closeness."
       },
       {
-        "text": "[Tearful] I unfollowed him, then borrowed a friend's phone to check whether he looked happier without me.",
-        "suggestion": "You are trying to cut contact and still reach for evidence; maybe hope and self-protection are fighting over the same wound."
+        "text": "[Tearful] I unfollowed him, then borrowed my friend's phone to check if he looked happier.",
+        "suggestion": "You are trying to stop looking and still need to know; I wonder if part of you is afraid he is relieved you are gone."
       },
       {
         "text": "[Softly] I tell myself other people have real problems, so I should be grateful.",
-        "suggestion": "You minimize your pain; I guess there's a scared part that fears being dismissed if you let it show."
+        "suggestion": "You make your pain smaller before anyone else can; I guess you may be protecting yourself from being dismissed."
       },
       {
         "text": "[Embarrassed] I drafted an apology to him three times this week, even though I do not know what I did wrong.",
-        "suggestion": "The apology gives you something to do; I wonder if part of you is trying to find a reason for being left that feels less helpless."
+        "suggestion": "The apology gives you something concrete to fix; I wonder if finding fault in yourself feels less helpless than not knowing why he left."
       },
       {
         "text": "[Tearful] Nights are the worst; I replay little moments until I find something I could have done differently.",
-        "suggestion": "The replay keeps searching for a handle; I wonder if blaming yourself gives you somewhere to stand when missing him feels too helpless."
+        "suggestion": "The replay keeps looking for a handle; maybe blaming yourself gives you a way to feel less powerless with the loss."
       },
       {
         "text": "[Softly] When you're kind, I look down and want to change the topic.",
-        "suggestion": "Kindness lands strong; maybe a part longs for it and another expects it to disappear."
+        "suggestion": "Kindness seems hard to take in directly; maybe it touches a longing you are afraid to show."
       }
     ],
     "case-michael": [
       {
         "text": "[Firm] If someone questions me in a meeting, I answer fast and louder than I meant to.",
-        "suggestion": "You come in strong before there is time to think; I wonder if the question lands almost like being put on the spot and found lacking."
+        "suggestion": "You come in strong before there is time to think; I wonder if the question lands like being exposed as not knowing enough."
       },
       {
         "text": "[Defensive] When a coworker corrects me in front of the room, I laugh it off and then feel heat shoot up my neck.",
-        "suggestion": "The laugh covers it fast; I wonder if there is a flash of humiliation under the anger."
+        "suggestion": "The laugh covers it fast; I wonder if there is a quick flash of humiliation underneath."
       },
       {
         "text": "[Tense] My wife says I am harsh, and I tell her I am just being honest.",
-        "suggestion": "Honesty is the part you can stand behind; I guess softening might bring you closer to guilt or a fear of being cruel."
+        "suggestion": "Honesty is the safer position to stand behind; I wonder if softening would bring you closer to guilt."
       },
       {
-        "text": "[Furious] I keep favors even. I do not like owing anyone.",
-        "suggestion": "You keep the balance carefully; I wonder if owing someone could touch a fear of being one-down or under their power."
+        "text": "[Firm] I keep favors even. I do not like owing anyone.",
+        "suggestion": "You keep the balance carefully; I wonder if owing someone feels like being one-down."
       },
       {
         "text": "[Tense and ashamed] When I have to apologize, my jaw tightens and I start explaining the whole situation.",
-        "suggestion": "The explanation comes in quickly; I wonder if the apology itself might touch shame, almost like being defeated in front of them."
+        "suggestion": "The explanation comes in quickly; I wonder if apologizing touches shame, almost like losing ground."
       },
       {
         "text": "[Tense] I only pour a drink after work because my wife keeps pushing; if she would stop nagging, I would not need it.",
-        "suggestion": "You put the drinking on her pushing; I wonder if the drink may also keep away feeling blamed, cornered, or not good enough after the day."
+        "suggestion": "You put the drinking on her pushing; I wonder if the drink also helps you get away from feeling blamed."
       },
       {
         "text": "[Firm] I reread everyone's work before a presentation because one mistake would come back on me.",
-        "suggestion": "You are guarding against being blindsided; I wonder if a younger part is already expecting blame."
+        "suggestion": "You are guarding against one mistake landing on you; I wonder if blame feels expected before anything has gone wrong."
       },
       {
         "text": "[Ashamed] After I blow up, my kid looks careful around me, and I cannot meet his eyes.",
-        "suggestion": "His careful look seems to hit you hard; I wonder if shame and fear of becoming your father make his eyes difficult to meet."
+        "suggestion": "His careful look seems to hit hard; I wonder if it touches shame about being scary to him."
       },
       {
         "text": "[Tense] When someone tells me to calm down, it sounds like they are calling me childish.",
-        "suggestion": "That phrase seems to shrink you quickly; I wonder if the anger is guarding against feeling dismissed and made small."
+        "suggestion": "That phrase seems to shrink you quickly; I wonder if the anger protects against feeling dismissed."
       },
       {
         "text": "[Firm] I do not do feelings; I ask what we are going to do about it.",
-        "suggestion": "You move toward action fast; maybe feelings seem less controllable, as if they could expose a place you would rather keep covered."
+        "suggestion": "You move toward action fast; maybe feelings seem too exposing to stay with for long."
       }
     ],
     "case-jason": [
       {
         "text": "[Blank] I rehearse every sentence before a meeting, and then my mind still blanks when people turn toward me.",
-        "suggestion": "You prepare so carefully; I wonder if the blankness may be a way of getting away from the shame of being seen and evaluated."
+        "suggestion": "You prepare carefully, and then the blankness takes over; I wonder if being looked at feels like being evaluated."
       },
       {
         "text": "[Hesitant] When I get invited out, I say I am busy before I can find out whether I want to go.",
-        "suggestion": "The 'busy' answer comes in fast; I wonder if it may protect you from the risk of being judged, ignored, or not knowing how to belong."
+        "suggestion": "The busy answer comes in fast; I wonder if it protects you from finding out whether you would belong."
       },
       {
         "text": "[Anxious] I hear a voice saying 'don't embarrass yourself' before I even open my mouth.",
-        "suggestion": "You hear that critic early; I guess it is trying to keep you from the old pain of being seen and feeling small."
+        "suggestion": "That warning arrives before you speak; I guess it is trying to protect you from feeling exposed."
       },
       {
         "text": "[Quietly] After I speak, I cringe for hours and imagine everyone replaying how ridiculous I sounded.",
-        "suggestion": "I wonder if the cringe is not only embarrassment, but also an old fear that being heard might mean being laughed at or rejected."
+        "suggestion": "The cringe keeps replaying the moment; I wonder if being heard feels close to being laughed at."
       },
       {
         "text": "[Hesitant] When someone compliments me, I assume they are being polite and missed the awkward part.",
-        "suggestion": "The warmth bounces off; I wonder if an old picture of yourself still insists the awkward part is the truest one."
+        "suggestion": "The compliment does not quite get in; I wonder if the awkward part feels more believable than the kind words."
       },
       {
         "text": "[Ashamed] Seeing confident people makes me want to disappear, and then I hate myself for envying them.",
-        "suggestion": "You shrink around their confidence; maybe there is both envy and grief about feeling outside the world they seem to move through."
+        "suggestion": "Their confidence makes you shrink; maybe the envy is also sadness about feeling outside that world."
       },
       {
         "text": "[Quietly] If someone laughs nearby, I assume it is about me and replay what I did wrong.",
-        "suggestion": "You brace for ridicule; I wonder if laughter might touch a raw expectation that being visible means being mocked."
+        "suggestion": "You brace for ridicule quickly; I wonder if laughter feels like proof that being visible is dangerous."
       },
       {
         "text": "[Anxious] I type a text, read it five times, and delete it before sending.",
-        "suggestion": "You edit yourself right out of contact; I wonder if there is both a wish to reach someone and a fear of what happens if they really see you."
+        "suggestion": "You edit yourself right out of contact; I wonder if reaching out feels like giving someone a chance to reject you."
       },
       {
         "text": "[Anxious] I drink before events because otherwise I stand by the wall checking my phone.",
-        "suggestion": "The drink helps you cross the room; I wonder if it also shields a scared part that expects to be exposed or left outside."
+        "suggestion": "The drink helps you leave the wall; I wonder if it shields you from feeling exposed."
       },
       {
         "text": "[Ashamed] I stay quiet even when I have a good idea, and then replay it all day.",
-        "suggestion": "You stay hidden and then cannot leave it alone; maybe being visible feels risky, while disappearing leaves you ashamed and alone."
+        "suggestion": "You stay hidden and then keep replaying it; maybe speaking up feels risky, but staying silent brings shame."
       }
     ],
     "case-laura": [
