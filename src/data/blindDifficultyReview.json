@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T07:00:51.456Z",
+  "generatedAt": "2026-06-19T08:39:41.121Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -267,11 +267,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Torn] Next to other moms I shrink, like they all know a rule I missed.",
-            "response": "Next to other moms, you shrink and feel outside a rule everyone else seems to know. Can we stay with that shrinking place and the rule you feel you missed?"
+            "response": "Beside other mothers, you shrink around this sense that there is a rule you missed. Maybe we can stay with that outside feeling a little longer."
           },
           "no": {
             "statement": "[Splittet] Ved siden av andre mødre krymper jeg, som om de alle kan en regel jeg gikk glipp av.",
-            "response": "Ved siden av andre mødre krymper du og kjenner deg utenfor en regel alle andre ser ut til å kunne. Kan vi bli ved det krympende stedet og regelen du føler du gikk glipp av?"
+            "response": "Ved siden av andre mødre krymper du rundt følelsen av at det finnes en regel du gikk glipp av. Kanskje vi kan bli litt lenger ved følelsen av å stå utenfor."
           }
         },
         {

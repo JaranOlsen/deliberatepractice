@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T07:00:51.456Z",
+  "generatedAt": "2026-06-19T08:39:41.120Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -565,11 +565,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Torn] Next to other moms I shrink, like they all know a rule I missed.",
-            "response": "Next to other moms, you shrink and feel outside a rule everyone else seems to know. Can we stay with that shrinking place and the rule you feel you missed?"
+            "response": "Beside other mothers, you shrink around this sense that there is a rule you missed. Maybe we can stay with that outside feeling a little longer."
           },
           "no": {
             "statement": "[Splittet] Ved siden av andre mødre krymper jeg, som om de alle kan en regel jeg gikk glipp av.",
-            "response": "Ved siden av andre mødre krymper du og kjenner deg utenfor en regel alle andre ser ut til å kunne. Kan vi bli ved det krympende stedet og regelen du føler du gikk glipp av?"
+            "response": "Ved siden av andre mødre krymper du rundt følelsen av at det finnes en regel du gikk glipp av. Kanskje vi kan bli litt lenger ved følelsen av å stå utenfor."
           }
         },
         {
@@ -614,11 +614,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Defensive] My wife says she can hear my tone change before I notice anything is wrong.",
-            "response": "She hears the change before you catch it yourself. Can we pause right at that early shift before the tone fully changes?"
+            "response": "Your tone changes before you know what happened. We can slow the first turn in you, before it is loud enough for her to hear."
           },
           "no": {
             "statement": "[Defensiv] Kona mi sier at hun hører tonefallet mitt endre seg før jeg selv merker at noe er galt.",
-            "response": "Hun hører endringen før du selv fanger den. Kan vi stoppe opp akkurat ved det tidlige skiftet før tonefallet endrer seg helt?"
+            "response": "Tonefallet endrer seg før du vet hva som skjedde. Det er verdt å senke tempoet ved den første vendingen i deg, før det blir høyt nok til at hun hører det."
           }
         }
       ]
@@ -649,12 +649,12 @@
           "order": 5,
           "riskFlags": [],
           "en": {
-            "statement": "[Distant] I wake up already expecting the day to go wrong, even when nothing has happened yet.",
-            "response": "You wake already braced for something to go wrong. Can we stay with that first moment of meeting the day already expecting trouble?"
+            "statement": "[Distant] I check the locks twice in the morning too, and then feel foolish because nothing happened.",
+            "response": "Even in daylight, checking the locks leaves you caught between fear and feeling foolish. We can slow down the moment before the second check."
           },
           "no": {
-            "statement": "[Fjern] Jeg våkner og forventer allerede at dagen skal gå galt, selv om ingenting har skjedd ennå.",
-            "response": "Du våkner allerede forberedt på at noe skal gå galt. Kan vi bli ved det første øyeblikket der du møter dagen med den forventningen?"
+            "statement": "[Fjern] Jeg sjekker låsene to ganger også om morgenen, og etterpå føler jeg meg dum fordi ingenting har skjedd.",
+            "response": "Selv i dagslys blir du stående mellom frykt og følelsen av å være dum når du sjekker låsene. Rett før den andre sjekken kan tempoet senkes."
           }
         }
       ]

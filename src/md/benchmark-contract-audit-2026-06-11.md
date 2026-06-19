@@ -92,7 +92,7 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | Providing Treatment Rationale | Moderate | 8.6 | Strong fit with fear, skepticism, numbness, and practicality; Goldman responses are longer, but the app's brevity usually helps practice. |
 | Providing Treatment Rationale | Hard | 8.6 | Recent hard-tier pass strengthened rationale language around pace, safety, attachment panic, numbness, hypervigilance, and practical change. |
 | Empathic Explorations | Easy | 8.5 | Good edge-following markers and responses after recent repair; Bokmal still contains repeated "la oss/kan vi" patterns. |
-| Empathic Explorations | Moderate | 8.4 | Strong live-edge training with less conjecture drift; further gains should be Bokmal idiom and marker breadth. |
+| Empathic Explorations | Moderate | 8.6 | Recent pass broadened Laura, Carlos, and Nina markers with more ordinary scene pressure, reduced over-imagistic anger markers, and polished Bokmal away from repeated therapy-English scaffolds. |
 | Empathic Explorations | Hard | 8.5 | Recent pass tightened all hard responses into one small live exploration step, softened three over-formulated markers, and removed repeated "stay with/kan vi/la oss" patterns in the hard tier. |
 | Empathic Evocations | Easy | 8.5 | Recent pass added ordinary scene detail to the thinnest beginner markers while preserving flat client prompts and leaving vivid imagery to the therapist response. |
 | Empathic Evocations | Moderate | 8.5 | Regression pass tightened one over-imaged marker and polished selected responses so imagery stays vivid without becoming ornamental. |
@@ -119,9 +119,9 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Empathic Explorations, moderate | Strong live-edge training with less conjecture drift; further gains should be Bokmal idiom and marker breadth. | Light marker-breadth or Bokmal polish. |
-| 2 | Empathic Conjectures, easy | Strong, but still the lowest conjectures tier after the hard regression pass. | Light marker-breadth or Bokmal polish only after higher-risk sets are stable. |
-| 3 | Exploratory Questions, moderate | Good inward edge and difficulty calibration; repeated "what happens/what do you notice" patterns remain visible. | Opening-variety polish only after higher-risk sets are stable. |
+| 1 | Empathic Conjectures, easy | Strong, but still the lowest conjectures tier after the hard regression pass. | Light marker-breadth or Bokmal polish only after higher-risk sets are stable. |
+| 2 | Exploratory Questions, moderate | Good inward edge and difficulty calibration; repeated "what happens/what do you notice" patterns remain visible. | Opening-variety polish only after higher-risk sets are stable. |
+| 3 | Empathic Explorations, moderate | Stronger after marker-breadth and Bokmal pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
 | 4 | Alliance Repair, easy | Strong repair coverage after response-variety pass. | Review only for Supabase flags or occasional regression checks. |
 | 5 | Staying in Contact with Intense Affect, hard | Strong high-risk coverage after contact-first regression pass. | Review only for Supabase flags or occasional safety-sensitive regression checks. |
 
@@ -137,7 +137,21 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-19 easy alliance-repair regression pass: move next to Empathic Explorations moderate. The goal is light marker-breadth and Bokmal polish without turning the skill into conjecture, evocation, or exploratory questions.
+Current recommendation after the 2026-06-19 moderate empathic-explorations pass: move next to Empathic Conjectures easy. The goal should be light marker-breadth and Bokmal polish while keeping conjectures tentative and evidence-based.
+
+### Implementation Update: Empathic Explorations Moderate
+
+A moderate-tier empathic-explorations pass revised all 30 Laura, Carlos, and Nina items.
+
+Current moderate empathic-explorations state after this pass:
+
+- 90 total empathic-explorations items preserved; all 30 moderate items reviewed.
+- Laura markers now include more ordinary scene pressure around neighborly care, morning lock-checking, post-dinner wine, and comfort-seeking without overexposing core pain.
+- Carlos markers were softened where anger was already too imagistic; the revised prompts leave more room for the trainee to explore the live edge under pushing back, throwing, loudness, and feeling small.
+- Nina markers now include more concrete caregiving scenes around messy kitchens, tea/care wishes, volunteering, and bedtime emotional blur.
+- English responses preserve close reflection plus one small exploratory invitation; no repeated four-word starts remain in the targeted slice.
+- Matching Bokmal localizations were rewritten with zero repeated starts and reduced use of literal scaffolds such as `Vi kan`, `Kan vi`, and `Kroppen`.
+- Quality rating for moderate Empathic Explorations increased from about 8.4/10 to about 8.6/10.
 
 ### Implementation Update: Alliance Repair Easy
 

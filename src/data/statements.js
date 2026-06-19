@@ -2030,128 +2030,128 @@ export const STATEMENT_SETS = {
     ],
     "case-laura": [
       {
-        "text": "[Slow and flat] Most days are flat, but if sadness flickers I shut it down before it spreads.",
-        "suggestion": "Most days are flat, and the first flicker of sadness gets shut down quickly. Let's pause at that flicker and notice what tells you it might spread."
+        "text": "[Slow and flat] Most days are flat, but if sadness flickers I push it down before it spreads.",
+        "suggestion": "Most days are flat, and when sadness flickers you move quickly to contain it. I want to slow down the moment of that flicker and notice what makes it feel unsafe to let it spread."
       },
       {
         "text": "[Fearful] Raised voices do not even have to be aimed at me; I just go quiet and wait for it to pass.",
-        "suggestion": "Even when the anger is not directed at you, something in you goes quiet and waits. Can we stay with that quiet waiting just a little?"
+        "suggestion": "Even when the anger is not directed at you, your whole system goes quiet and waits. We can stay with that waiting just long enough to notice what it is listening for."
       },
       {
-        "text": "[Tense and guarded] When someone is kind to me, I start looking for the catch before I know whether I want the kindness.",
-        "suggestion": "The kindness is there, and almost right away you are searching for the catch. Let's notice what happens in that moment between wanting it and guarding against it."
+        "text": "[Tense and guarded] When my neighbor brought soup, I thanked her and then spent the night wondering what she wanted.",
+        "suggestion": "The kindness came, and suspicion came almost with it. I want to pause in the gap between being offered care and having to search for a catch."
       },
       {
-        "text": "[Flat and guarded] I drink wine at night because the noise in my head feels sharper when the house gets quiet.",
-        "suggestion": "The wine softens the sharpness that comes when the house goes quiet. Let's stay with the sharpness for a moment before the wine takes it down."
+        "text": "[Flat and guarded] I pour wine after the dishes because the quiet gets loud, and I don't want to hear my own thoughts.",
+        "suggestion": "After the dishes, the quiet gets loud, and wine gives you a way not to hear it. Could we stay for a moment with the quiet before you have to mute it?"
       },
       {
-        "text": "[Distant] I wake up already expecting the day to go wrong, even when nothing has happened yet.",
-        "suggestion": "You wake already braced for something to go wrong. Can we stay with that first moment of meeting the day already expecting trouble?"
+        "text": "[Distant] I check the locks twice in the morning too, and then feel foolish because nothing happened.",
+        "suggestion": "Even in daylight, checking the locks leaves you caught between fear and feeling foolish. We can slow down the moment before the second check."
       },
       {
         "text": "[Ashamed] Even gentle touch makes me jump, and then I hate that my reaction is so obvious.",
-        "suggestion": "The startle comes first, and then shame seems to arrive because your reaction has been seen. Let's stay with the shame that comes after the jump."
+        "suggestion": "Your body jumps before you decide anything, and then shame comes because the reaction was visible. I want to linger with the after-feeling, once someone has seen it."
       },
       {
         "text": "[Slow and flat] When good news comes, I can say the right words, but I feel almost nothing.",
-        "suggestion": "Your words can respond, while the feeling stays far away. Can we notice that almost-nothing place without pushing it to change?"
+        "suggestion": "The words know how to respond, while the feeling stays out of reach. Maybe we can be with that almost-nothing without making it perform."
       },
       {
         "text": "[Distant] Sometimes a song cracks something open, and for a minute I can almost feel the sadness.",
-        "suggestion": "The song seems to reach a place the numbness usually covers, letting a little sadness come close. Can we linger with that almost-sadness before it disappears again?"
+        "suggestion": "The song reaches through the numbness for a minute. I would like to linger where sadness is almost available, before it slides away."
       },
       {
-        "text": "[Tense and guarded] I feel guilty for wanting comfort, like needing anything makes me a problem.",
-        "suggestion": "The guilt turns wanting comfort into evidence that you are a problem. Let's stay close to the wanting itself and notice what kind of comfort it asks for."
+        "text": "[Tense and guarded] When I imagine asking someone to sit with me, I immediately think of all the reasons they should not have to.",
+        "suggestion": "The wish for comfort appears, and immediately the reasons against it line up. We can stay with the wish before it has to defend itself."
       },
       {
         "text": "[Slow and flat] I avoid movies with fighting because I don't want to find out what a single shout will do to me.",
-        "suggestion": "You avoid the movie because one shout might do something to you. Can we stay with the not wanting to find out?"
+        "suggestion": "Avoiding the movie protects you from discovering what one shout might set off. I want to pause with the not-wanting-to-find-out."
       }
     ],
     "case-carlos": [
       {
         "text": "[Defensive] My wife says she can hear my tone change before I notice anything is wrong.",
-        "suggestion": "She hears the change before you catch it yourself. Can we pause right at that early shift before the tone fully changes?"
+        "suggestion": "Your tone changes before you know what happened. We can slow the first turn in you, before it is loud enough for her to hear."
       },
       {
-        "text": "[Tense] After an argument, I do not know whether to apologize or act like we are fine.",
-        "suggestion": "There are two moves available afterward: repair it or move past it. Let's stay with the unsure place between those two."
+        "text": "[Tense] After a fight, I can stand in the hallway not knowing whether to apologize or pretend nothing happened.",
+        "suggestion": "That hallway moment has repair and escape both available. I would like to stay with the not-knowing before either move wins."
       },
       {
-        "text": "[Fearful] If I back off, I feel myself disappearing, like there is no outline left.",
-        "suggestion": "Backing off touches that vanishing place, where your outline starts to disappear. Let's stay at the first hint of disappearing and notice what feels at risk."
+        "text": "[Fearful] If I back off in an argument, I start feeling like I am losing my place, and then I need to push back.",
+        "suggestion": "Backing off starts to feel like losing your place, and pushing back becomes the way to find it again. We can pause at the first sign that your place is slipping."
       },
       {
         "text": "[Ashamed] My boy's flinch keeps replaying, and I hate that he learned that fear from me.",
-        "suggestion": "The replay seems to carry both love for him and the pain of seeing fear linked to you. Let's stay with that ache for a moment."
+        "suggestion": "Your son's flinch keeps bringing you back to love and shame at the same time. I want to stay with the ache of seeing fear connected to you."
       },
       {
         "text": "[Tense] When it gets calm after a fight, I start waiting for someone to bring it up again.",
-        "suggestion": "The calm does not quite feel settled; part of you is waiting for it to come back. Let's notice what that waiting is like."
+        "suggestion": "Even calm feels provisional, as if the fight could restart any second. Maybe we can notice what you are waiting for in that quiet."
       },
       {
-        "text": "[Tense and angry] I break things because the force in me feels like it has to land somewhere.",
-        "suggestion": "There is so much force that it feels like it has to land somewhere. Can we stay with the force just before it moves into breaking something?"
+        "text": "[Tense and angry] I can feel the pressure building before I throw something, but in that second stopping feels impossible.",
+        "suggestion": "There is a second where you can feel the pressure building and stopping already seems out of reach. We can stay right at that second, before the object moves."
       },
       {
         "text": "[Defensive] If I let myself be soft, I don't know whether people will respect me or take advantage.",
-        "suggestion": "Softness brings uncertainty about whether you will be respected or used. Can we stay near that uncertainty without forcing an answer?"
+        "suggestion": "Softness raises the question of respect or being used. I want to stay with that uncertainty without pushing you toward either answer."
       },
       {
-        "text": "[Angry, clenching fists] Disrespect hits my chest like a punch, and I need them to know it hurt.",
-        "suggestion": "Disrespect hits as hurt and anger together, and the need for them to know is right there with it. Can we stay with the hurt inside that need?"
+        "text": "[Angry, clenching fists] When I feel disrespected, I talk louder because I need them to know it got to me.",
+        "suggestion": "The louder voice is trying to make sure they know it got to you. We can stay with the part that needs the hurt recognized."
       },
       {
         "text": "[Fearful] When I say I want them safe, I feel my anger drop and something softer scare me.",
-        "suggestion": "When anger drops, the softer wish for safety scares you. Can we stay near that soft-scared place for a moment?"
+        "suggestion": "When anger drops, the wish for safety is exposed, and that softer place feels frightening. I would like to stay with the wish before you cover it."
       },
       {
-        "text": "[Fearful] When I start to feel small in an argument, something in me panics, like someone could take whatever they wanted.",
-        "suggestion": "Feeling small brings that old danger close, as if someone could take what they want. Let's stay with the first panic of smallness before you have to get bigger."
+        "text": "[Fearful] When I start feeling small in an argument, panic hits and I feel like I have to get bigger fast.",
+        "suggestion": "Smallness brings panic, then the pressure to get bigger fast. We can slow the first moment of smallness, before the bigger stance takes over."
       }
     ],
     "case-nina": [
       {
         "text": "[Tired] The second I ask for help, guilt rushes in and I want to pull it back.",
-        "suggestion": "The guilt rushes in almost as soon as the need appears. Let's pause at the split second before you pull the request back and notice what feels dangerous about needing help."
+        "suggestion": "The need barely appears before guilt rushes in to erase it. I want to pause before the request is pulled back and notice what needing might cost."
       },
       {
         "text": "[Guilty] I keep folding laundry and answering messages so I do not have to feel resentful.",
-        "suggestion": "Keeping busy helps you not have to feel the resentment. Can we pause at the moment where stopping would let it come closer?"
+        "suggestion": "Keeping busy keeps resentment from having room. We can pause at the moment when stopping would make it audible."
       },
       {
         "text": "[Torn] When I say no, I keep explaining until the no almost disappears.",
-        "suggestion": "The no is there, and then the explaining starts to soften it. Let's notice what feels risky about letting the no stand."
+        "suggestion": "The no begins clearly, and then explanations thin it out. I would like to stay where the no is still plain and notice what makes it hard to leave there."
       },
       {
         "text": "[Tired] Even asking for a small ride comes out with three apologies.",
-        "suggestion": "The apologies arrive before the need can stand on its own. Let's linger where the need is still small and see what it is like before you soften it."
+        "suggestion": "The apologies arrive before the ride request can stand by itself. Maybe we can linger with the small need before it has to apologize."
       },
       {
-        "text": "[Guilty] A messy house makes me feel like everyone will see I am failing.",
-        "suggestion": "The mess becomes more than clutter; it turns into exposure, as if people could read failure in the room. Let's pause where clutter turns into failure."
+        "text": "[Guilty] If the kitchen is messy when someone stops by, I feel caught, like they can see I am not keeping up.",
+        "suggestion": "The messy kitchen becomes a moment of being caught, of others seeing you are not keeping up. We can pause where ordinary mess turns into exposure."
       },
       {
         "text": "[Torn] When everyone needs me at once, I start saying yes before I know what I actually want.",
-        "suggestion": "The yes comes before your own wanting has time to appear. Can we slow down at the place where everyone else's need arrives first?"
+        "suggestion": "Everyone else's needs arrive first, and yes comes before your own wish has a chance. I want to slow down the space just before the yes."
       },
       {
-        "text": "[Guilty] I dream of being taken care of, and then I shame myself for wanting it.",
-        "suggestion": "The wish to be cared for is there, and shame comes almost beside it. Let's give the wish a moment on its own before shame tells you it is wrong."
+        "text": "[Guilty] Sometimes I imagine someone making me tea and telling me to sit down, and then I feel selfish for even picturing it.",
+        "suggestion": "The image of being cared for appears, and selfishness quickly moves in to judge it. We can stay with the cared-for wish before the judgment arrives."
       },
       {
-        "text": "[Apologetic] I take every task before anyone asks, and then I feel resentful that no one noticed.",
-        "suggestion": "You move ahead of the ask, and then resentment comes when the cost stays unseen. Let's stay with the cost that no one sees."
+        "text": "[Apologetic] I volunteer before anyone asks, then later I am bitter that nobody sees how tired I am.",
+        "suggestion": "You offer before the request is even spoken, and later the tiredness has nowhere to be seen. I would like to stay with the cost that stayed invisible."
       },
       {
         "text": "[Torn] Next to other moms I shrink, like they all know a rule I missed.",
-        "suggestion": "Next to other moms, you shrink and feel outside a rule everyone else seems to know. Can we stay with that shrinking place and the rule you feel you missed?"
+        "suggestion": "Beside other mothers, you shrink around this sense that there is a rule you missed. Maybe we can stay with that outside feeling a little longer."
       },
       {
         "text": "[Tired] By bedtime I can't tell if I am sad, angry, or just completely used up.",
-        "suggestion": "At the end of the day the feelings blur together: sadness, anger, exhaustion. Can we stay with the blurred feeling before we try to sort it out?"
+        "suggestion": "By bedtime, sadness, anger, and exhaustion are tangled together. We can stay with the tangle before we try to name one strand."
       }
     ],
     "case-aisha": [

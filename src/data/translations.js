@@ -3593,124 +3593,124 @@ export const STATEMENT_TRANSLATIONS = {
       "suggestion": "Ensomheten og tilbaketrekkingen sitter side om side. Kan vi bli ved ensomheten som er der, selv mens meldingene blir stående ubesvart?"
     },
     "dp_empathic-explorations_case-laura_01": {
-      "text": "[Langsomt og flatt] De fleste dager er flate, men hvis tristhet flimrer, stenger jeg den ned før den brer seg.",
-      "suggestion": "De fleste dager er flate, og det første glimtet av tristhet blir raskt stengt ned. La oss stoppe ved det glimtet og merke hva som sier at det kan bre seg."
+      "text": "[Langsomt og flatt] De fleste dager er flate, men hvis tristheten flimrer til, presser jeg den ned før den får bre seg.",
+      "suggestion": "De fleste dager er flate, og når tristheten flimrer til, går du raskt i gang med å holde den nede. Det kan være nyttig å senke tempoet akkurat der og merke hva som gjør det utrygt å la den bre seg."
     },
     "dp_empathic-explorations_case-laura_02": {
       "text": "[Redd] Hevede stemmer trenger ikke engang være rettet mot meg; jeg blir bare stille og venter på at det skal gå over.",
-      "suggestion": "Selv når sinnet ikke er rettet mot deg, blir noe i deg stille og venter. Kan vi være litt med den stille ventingen?"
+      "suggestion": "Selv når sinnet ikke er rettet mot deg, blir det helt stille og ventende i deg. Det går an å være ved den ventingen lenge nok til å merke hva den lytter etter."
     },
     "dp_empathic-explorations_case-laura_03": {
-      "text": "[Anspent og på vakt] Når noen er snille mot meg, begynner jeg å lete etter hva som er haken før jeg vet om jeg vil ta imot vennligheten.",
-      "suggestion": "Vennligheten er der, og nesten med en gang leter du etter hva som er haken. Vi kan legge merke til hva som skjer i øyeblikket mellom å ville ta imot og å beskytte deg."
+      "text": "[Anspent og på vakt] Da naboen kom med suppe, takket jeg pent, og så brukte jeg kvelden på å lure på hva hun egentlig ville.",
+      "suggestion": "Vennligheten kommer, og mistanken kommer nesten med en gang. Det er verdt å stoppe i glippen mellom å få omsorg og måtte lete etter en hake."
     },
     "dp_empathic-explorations_case-laura_04": {
-      "text": "[Flatt og på vakt] Jeg drikker vin om kvelden fordi støyen i hodet blir skarpere når huset blir stille.",
-      "suggestion": "Vinen demper skarpheten som kommer når huset blir stille. La oss være med skarpheten et øyeblikk før vinen tar den ned."
+      "text": "[Flatt og på vakt] Jeg heller opp vin etter oppvasken fordi stillheten blir så høy, og jeg orker ikke høre mine egne tanker.",
+      "suggestion": "Etter oppvasken blir stillheten høy, og vinen gir deg en måte å slippe å høre den på. Kunne vi bli litt ved stillheten før du må dempe den?"
     },
     "dp_empathic-explorations_case-laura_05": {
-      "text": "[Fjern] Jeg våkner og forventer allerede at dagen skal gå galt, selv om ingenting har skjedd ennå.",
-      "suggestion": "Du våkner allerede forberedt på at noe skal gå galt. Kan vi bli ved det første øyeblikket der du møter dagen med den forventningen?"
+      "text": "[Fjern] Jeg sjekker låsene to ganger også om morgenen, og etterpå føler jeg meg dum fordi ingenting har skjedd.",
+      "suggestion": "Selv i dagslys blir du stående mellom frykt og følelsen av å være dum når du sjekker låsene. Rett før den andre sjekken kan tempoet senkes."
     },
     "dp_empathic-explorations_case-laura_06": {
       "text": "[Skamfull] Selv mild berøring får meg til å skvette, og etterpå hater jeg at reaksjonen min er så synlig.",
-      "suggestion": "Skvetten kommer først, og så ser skammen ut til å komme fordi reaksjonen din har blitt sett. La oss bli ved skammen som kommer etter skvetten."
+      "suggestion": "Du skvetter før du rekker å bestemme noe, og så kommer skammen fordi reaksjonen ble synlig. Det kan være godt å bli litt ved etterfølelsen, når noen har sett det."
     },
     "dp_empathic-explorations_case-laura_07": {
       "text": "[Langsomt og flatt] Når gode nyheter kommer, kan jeg si de riktige ordene, men jeg kjenner nesten ingenting.",
-      "suggestion": "Ordene kan svare, mens følelsen holder seg langt unna. Kan vi legge merke til det nesten-ingenting-stedet uten å presse det til å endre seg?"
+      "suggestion": "Ordene vet hvordan de skal svare, mens følelsen holder seg utenfor rekkevidde. Kanskje vi kan være med det nesten-ingentinget uten å få det til å prestere."
     },
     "dp_empathic-explorations_case-laura_08": {
       "text": "[Fjern] Noen ganger åpner en sang noe i meg, og et øyeblikk kan jeg nesten kjenne tristheten.",
-      "suggestion": "Sangen ser ut til å nå et sted nummenheten vanligvis dekker over, så litt tristhet får komme nær. Kan vi bli litt ved den nesten-tristheten før den forsvinner igjen?"
+      "suggestion": "Sangen når gjennom nummenheten et øyeblikk. Det er verdt å bli ved stedet der tristheten nesten er tilgjengelig, før den glir bort."
     },
     "dp_empathic-explorations_case-laura_09": {
-      "text": "[Anspent og på vakt] Jeg får skyldfølelse for å ønske trøst, som om det å trenge noe gjør meg til et problem.",
-      "suggestion": "Skylden gjør ønsket om trøst til bevis på at du er et problem. La oss være nær selve ønsket og merke hva slags trøst det ber om."
+      "text": "[Anspent og på vakt] Når jeg ser for meg å be noen sitte hos meg, kommer jeg straks på alle grunnene til at de ikke burde måtte det.",
+      "suggestion": "Ønsket om trøst viser seg, og nesten med en gang stiller alle grunnene imot seg opp. Det ønsket kan få stå litt før det må forsvare seg."
     },
     "dp_empathic-explorations_case-laura_10": {
       "text": "[Langsomt og flatt] Jeg unngår filmer med slåssing fordi jeg ikke vil finne ut hva ett eneste rop gjør med meg.",
-      "suggestion": "Du unngår filmen fordi ett eneste rop kan gjøre noe med deg. Kan vi bli ved det å ikke ville finne ut hva som skjer?"
+      "suggestion": "Å unngå filmen beskytter deg mot å finne ut hva ett eneste rop kan sette i gang. Det kan være hjelpsomt å stoppe ved det å ikke ville finne det ut."
     },
     "dp_empathic-explorations_case-carlos_01": {
       "text": "[Defensiv] Kona mi sier at hun hører tonefallet mitt endre seg før jeg selv merker at noe er galt.",
-      "suggestion": "Hun hører endringen før du selv fanger den. Kan vi stoppe opp akkurat ved det tidlige skiftet før tonefallet endrer seg helt?"
+      "suggestion": "Tonefallet endrer seg før du vet hva som skjedde. Det er verdt å senke tempoet ved den første vendingen i deg, før det blir høyt nok til at hun hører det."
     },
     "dp_empathic-explorations_case-carlos_02": {
-      "text": "[Anspent] Etter en krangel vet jeg ikke om jeg skal si unnskyld eller late som om alt er greit.",
-      "suggestion": "Etterpå finnes det to mulige bevegelser: reparere eller gå videre. Vi kan være litt med det usikre stedet mellom de to."
+      "text": "[Anspent] Etter en krangel kan jeg bli stående i gangen uten å vite om jeg skal si unnskyld eller late som ingenting.",
+      "suggestion": "Det øyeblikket i gangen har både reparasjon og flukt i seg. Det kan være verdt å bli ved uvissheten før en av bevegelsene vinner."
     },
     "dp_empathic-explorations_case-carlos_03": {
-      "text": "[Redd] Hvis jeg trekker meg, kjenner jeg at jeg forsvinner, som om jeg ikke har noen kontur igjen.",
-      "suggestion": "Å trekke deg tilbake treffer det stedet der du begynner å forsvinne, der konturene blir borte. La oss være ved det første tegnet på å forsvinne og merke hva som står på spill."
+      "text": "[Redd] Hvis jeg trekker meg i en krangel, begynner jeg å føle at jeg mister plassen min, og da må jeg presse tilbake.",
+      "suggestion": "Å trekke deg begynner å kjennes som å miste plassen din, og å presse tilbake blir måten å finne den igjen på. Det kan hjelpe å stoppe ved første tegn på at plassen glipper."
     },
     "dp_empathic-explorations_case-carlos_04": {
       "text": "[Skamfull] Jeg ser for meg igjen og igjen at gutten min skvetter, og jeg hater at han lærte den frykten av meg.",
-      "suggestion": "Den scenen ser ut til å bære både kjærligheten til ham og smerten ved at frykten peker mot deg. La oss bli ved den smerten et øyeblikk."
+      "suggestion": "At gutten din skvatt, henter fram både kjærlighet og skam på samme tid. Her kan smerten i å se frykt knyttet til deg få litt plass."
     },
     "dp_empathic-explorations_case-carlos_05": {
       "text": "[Anspent] Når det blir rolig etter en krangel, begynner jeg å vente på at noen skal ta det opp igjen.",
-      "suggestion": "Roen kjennes ikke helt rolig; en del av deg venter på at det skal komme tilbake. Vi kan legge merke til hvordan den ventingen kjennes."
+      "suggestion": "Selv roen kjennes midlertidig, som om krangelen kan starte igjen når som helst. Kanskje vi kan merke hva du venter på i den stillheten."
     },
     "dp_empathic-explorations_case-carlos_06": {
-      "text": "[Anspent og sint] Jeg ødelegger ting fordi kraften i meg kjennes som om den må lande et sted.",
-      "suggestion": "Det er så mye kraft der at den kjennes som om den må lande et sted. Kan vi bli ved kraften rett før den går over i å ødelegge noe?"
+      "text": "[Anspent og sint] Jeg kjenner trykket bygge seg opp før jeg kaster noe, men i det sekundet kjennes det umulig å stoppe.",
+      "suggestion": "Det finnes et sekund der du kjenner trykket bygge seg opp, og stopp allerede virker utenfor rekkevidde. Akkurat det sekundet er verdt å bli ved, før gjenstanden flytter seg."
     },
     "dp_empathic-explorations_case-carlos_07": {
       "text": "[Defensiv] Hvis jeg lar meg være myk, vet jeg ikke om folk vil respektere meg eller utnytte det.",
-      "suggestion": "Mykhet bringer med seg usikkerhet om du vil bli respektert eller utnyttet. Kan vi være nær den usikkerheten uten å tvinge fram et svar?"
+      "suggestion": "Mykhet reiser spørsmålet om respekt eller å bli brukt. Den usikkerheten kan få være der uten at du må skyves mot ett av svarene."
     },
     "dp_empathic-explorations_case-carlos_08": {
-      "text": "[Sint, med knyttede never] Respektløshet treffer brystet som et slag, og jeg trenger at de forstår at det gjorde vondt.",
-      "suggestion": "Respektløsheten treffer som både sårhet og sinne, og behovet for at de skal forstå, er rett der sammen med det. Kan vi bli ved sårheten inne i det behovet?"
+      "text": "[Sint, med knyttede never] Når jeg føler meg behandlet respektløst, snakker jeg høyere fordi jeg trenger at de skjønner at det gikk inn på meg.",
+      "suggestion": "Den høyere stemmen prøver å sikre at de forstår at det traff deg. Vi kan være ved den delen som trenger at sårheten blir oppfattet."
     },
     "dp_empathic-explorations_case-carlos_09": {
       "text": "[Redd] Når jeg sier at jeg vil at de skal være trygge, faller sinnet, og noe mykere skremmer meg.",
-      "suggestion": "Når sinnet faller, skremmer det mykere ønsket om trygghet deg. Kan vi være nær det myke og skremte stedet et øyeblikk?"
+      "suggestion": "Når sinnet faller, blir ønsket om trygghet mer synlig, og det mykere stedet kjennes skremmende. Ønsket kan få være der litt før du må dekke det til."
     },
     "dp_empathic-explorations_case-carlos_10": {
-      "text": "[Redd] Når jeg begynner å føle meg liten i en krangel, får noe i meg panikk, som om noen kan ta hva de vil.",
-      "suggestion": "Å føle seg liten henter den gamle faren nært, som om noen kan ta det de vil ha. La oss være med den første panikken ved å være liten før du må gjøre deg større."
+      "text": "[Redd] Når jeg begynner å føle meg liten i en krangel, slår panikken inn, og jeg må gjøre meg større fort.",
+      "suggestion": "Å føle deg liten gir panikk, og så kommer presset om å gjøre deg større fort. Det første øyeblikket av litenhet kan senkes i tempo før den større holdningen tar over."
     },
     "dp_empathic-explorations_case-nina_01": {
       "text": "[Sliten] I det øyeblikket jeg ber om hjelp, skyller skylden inn og jeg får lyst til å trekke det tilbake.",
-      "suggestion": "Skylden skyller inn nesten med én gang behovet viser seg. La oss stoppe i øyeblikket før du trekker forespørselen tilbake og merke hva som kjennes farlig ved å trenge hjelp."
+      "suggestion": "Behovet viser seg så vidt før skylden skyller inn for å viske det ut. Det er verdt å stoppe før forespørselen trekkes tilbake og merke hva det kan koste å trenge noe."
     },
     "dp_empathic-explorations_case-nina_02": {
       "text": "[Skyldpreget] Jeg bretter klær og svarer på meldinger så jeg slipper å kjenne bitterhet.",
-      "suggestion": "Å holde deg i gang gjør at du slipper å kjenne bitterheten. Kan vi stoppe opp ved øyeblikket der det å stanse ville latt den komme nærmere?"
+      "suggestion": "Å holde deg i gang gjør at bitterheten ikke får plass. Det kan hjelpe å stoppe ved øyeblikket der det å stanse ville gjort den hørbar."
     },
     "dp_empathic-explorations_case-nina_03": {
       "text": "[Splittet] Når jeg sier nei, forklarer jeg meg helt til neiet nesten forsvinner.",
-      "suggestion": "Neiet er der, og så begynner forklaringen å myke det opp. Vi kan legge merke til hva som kjennes risikabelt ved å la neiet stå."
+      "suggestion": "Neiet begynner tydelig, og så tynner forklaringene det ut. Neiet kan få stå klart litt mens vi merker hva som gjør det vanskelig å la det bli stående."
     },
     "dp_empathic-explorations_case-nina_04": {
       "text": "[Sliten] Selv det å be om en liten kjøretur kommer ut med tre unnskyldninger.",
-      "suggestion": "Unnskyldningene kommer før behovet får stå på egne bein. La oss bli litt der behovet fortsatt er lite og se hvordan det er før du myker det opp."
+      "suggestion": "Unnskyldningene kommer før spørsmålet om skyss får stå alene. Kanskje vi kan bli ved det lille behovet før det må be om unnskyldning."
     },
     "dp_empathic-explorations_case-nina_05": {
-      "text": "[Skyldpreget] Et rotete hus får meg til å føle at alle kan se at jeg mislykkes.",
-      "suggestion": "Rotet blir mer enn rot; det blir blottstillelse, som om folk kan lese nederlaget i rommet. La oss stoppe der rot blir til nederlag."
+      "text": "[Skyldpreget] Hvis kjøkkenet er rotete når noen stikker innom, føler jeg meg tatt på fersken, som om de ser at jeg ikke holder tritt.",
+      "suggestion": "Det rotete kjøkkenet blir et øyeblikk av å være tatt på fersken, av at andre ser at du ikke holder tritt. Det er verdt å stoppe der vanlig rot blir til blottstillelse."
     },
     "dp_empathic-explorations_case-nina_06": {
       "text": "[Splittet] Når alle trenger meg samtidig, sier jeg ja før jeg vet hva jeg faktisk vil.",
-      "suggestion": "Ja-et kommer før ditt eget ønske rekker å vise seg. Kan vi senke tempoet på stedet der alle andres behov kommer først?"
+      "suggestion": "Alle andres behov kommer først, og ja-et kommer før ditt eget ønske rekker å få en sjanse. Rett før ja-et kan tempoet senkes."
     },
     "dp_empathic-explorations_case-nina_07": {
-      "text": "[Skyldpreget] Jeg drømmer om å bli tatt vare på, og så skammer jeg meg for at jeg vil det.",
-      "suggestion": "Ønsket om å bli tatt vare på er der, og skammen kommer nesten ved siden av. La oss gi ønsket et øyeblikk for seg selv før skammen sier at det er feil."
+      "text": "[Skyldpreget] Noen ganger ser jeg for meg at noen lager te til meg og sier at jeg skal sette meg, og så føler jeg meg egoistisk bare for å se det for meg.",
+      "suggestion": "Bildet av å bli tatt vare på kommer, og egoismen kommer raskt inn og dømmer det. Ønsket om å bli tatt vare på kan få litt plass før dommen kommer."
     },
     "dp_empathic-explorations_case-nina_08": {
-      "text": "[Unnskyldende] Jeg tar oppgaver før noen spør, og så blir jeg bitter for at ingen merker det.",
-      "suggestion": "Du går foran spørsmålet, og så kommer bitterheten når prisen ikke blir sett. La oss bli ved prisen ingen ser."
+      "text": "[Unnskyldende] Jeg melder meg frivillig før noen spør, og senere blir jeg bitter for at ingen ser hvor sliten jeg er.",
+      "suggestion": "Du tilbyr deg før spørsmålet i det hele tatt er sagt, og senere finnes det ikke noe sted for trøttheten å bli sett. Den usynlige prisen kan få litt plass."
     },
     "dp_empathic-explorations_case-nina_09": {
       "text": "[Splittet] Ved siden av andre mødre krymper jeg, som om de alle kan en regel jeg gikk glipp av.",
-      "suggestion": "Ved siden av andre mødre krymper du og kjenner deg utenfor en regel alle andre ser ut til å kunne. Kan vi bli ved det krympende stedet og regelen du føler du gikk glipp av?"
+      "suggestion": "Ved siden av andre mødre krymper du rundt følelsen av at det finnes en regel du gikk glipp av. Kanskje vi kan bli litt lenger ved følelsen av å stå utenfor."
     },
     "dp_empathic-explorations_case-nina_10": {
       "text": "[Sliten] Ved leggetid vet jeg ikke om jeg er trist, sint eller bare helt brukt opp.",
-      "suggestion": "På slutten av dagen flyter følelsene sammen: tristhet, sinne, utmattelse. Kan vi være med den uklare følelsen før vi prøver å sortere den?"
+      "suggestion": "Ved leggetid er tristhet, sinne og utmattelse filtret sammen. Floken kan få være der litt før vi prøver å finne én tråd."
     },
     "dp_empathic-explorations_case-aisha_01": {
       "text": "[Panisk] Hvis et svar ikke kommer, sier jeg til meg selv at det ikke burde bety noe, men så klarer jeg ikke å fokusere på noe annet.",
