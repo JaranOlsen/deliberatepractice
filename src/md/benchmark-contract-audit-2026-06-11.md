@@ -95,8 +95,8 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | Empathic Explorations | Moderate | 8.4 | Strong live-edge training with less conjecture drift; further gains should be Bokmal idiom and marker breadth. |
 | Empathic Explorations | Hard | 8.5 | Recent pass tightened all hard responses into one small live exploration step, softened three over-formulated markers, and removed repeated "stay with/kan vi/la oss" patterns in the hard tier. |
 | Empathic Evocations | Easy | 8.5 | Recent pass added ordinary scene detail to the thinnest beginner markers while preserving flat client prompts and leaving vivid imagery to the therapist response. |
-| Empathic Evocations | Moderate | 8.4 | Recent pass added ordinary scene, guarded cognition, and relational pressure while keeping client prompts non-poetic enough for trainee image-making. |
-| Empathic Evocations | Hard | 8.4 | Recent pass added pressure, guarded cognition, and relational stakes for Aisha, David, and Marcus while keeping client prompts non-poetic and safety-sensitive responses clinically careful. |
+| Empathic Evocations | Moderate | 8.5 | Regression pass tightened one over-imaged marker and polished selected responses so imagery stays vivid without becoming ornamental. |
+| Empathic Evocations | Hard | 8.5 | Regression pass improved safety-sensitive and high-shame response images while preserving flat, cognitive, or guarded client prompts. |
 | Empathic Conjectures | Easy | 8.4 | Strong tentative one-step-beyond-explicit responses with good behavioral markers. |
 | Empathic Conjectures | Moderate | 8.5 | One of the best-aligned tiers: good hidden-feeling hints without overexposing core pain. |
 | Empathic Conjectures | Hard | 8.5 | Targeted hard-tier regression pass simplified over-formulated guesses; responses now stay closer to one tentative hidden feeling or meaning. |
@@ -119,11 +119,11 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Empathic Evocations, moderate and hard | Recent marker-affordance passes are strong; keep checking that client statements remain flat enough for the therapist to supply imagery. | Regression spot-check for client-side imagery leaks and high-risk safety tone. |
-| 2 | Staying in Contact with Intense Affect, hard | Strong after recent repairs; residual risk is safety-sensitive regression. | High-risk contact-first spot checks around self-harm, violence, dissociation, and erotic/boundary material. |
-| 3 | Alliance Repair, easy | Strong rupture contexts and sequence, with some remaining response-opening repetition. | Light response-variety polish when it does not displace lower-scored contract gaps. |
-| 4 | Empathic Explorations, easy and moderate | Hard is now stronger; easy/moderate are good but still have residual Bokmal and marker-breadth polish opportunities. | Regression spot-check only unless flagged or doing a dedicated Bokmal pass. |
-| 5 | Empathic Conjectures, easy | Strong, but still the lowest conjectures tier after the hard regression pass. | Light marker-breadth or Bokmal polish only after higher-risk 8.4 tiers are stable. |
+| 1 | Staying in Contact with Intense Affect, hard | Strong after recent repairs; residual risk is safety-sensitive regression. | High-risk contact-first spot checks around self-harm, violence, dissociation, and erotic/boundary material. |
+| 2 | Alliance Repair, easy | Strong rupture contexts and sequence, with some remaining response-opening repetition. | Light response-variety polish when it does not displace lower-scored contract gaps. |
+| 3 | Empathic Explorations, moderate | Strong live-edge training with less conjecture drift; further gains should be Bokmal idiom and marker breadth. | Light marker-breadth or Bokmal polish. |
+| 4 | Empathic Conjectures, easy | Strong, but still the lowest conjectures tier after the hard regression pass. | Light marker-breadth or Bokmal polish only after higher-risk sets are stable. |
+| 5 | Exploratory Questions, moderate | Good inward edge and difficulty calibration; repeated "what happens/what do you notice" patterns remain visible. | Opening-variety polish only after higher-risk sets are stable. |
 
 ## Next Work Decision Rule
 
@@ -137,7 +137,20 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-18 hard treatment-rationale pass: move next to Empathic Evocations moderate/hard. The goal is to check that client statements remain flat, cognitive, or under-imaged enough for the therapist to supply the evocative image, while responses stay vivid but safety-sensitive.
+Current recommendation after the 2026-06-19 empathic-evocations regression pass: move next to Staying in Contact with Intense Affect hard. The goal is to spot-check high-risk items for contact-first precision around self-harm, violence, dissociation, and erotic/boundary material without turning the response into rationale, advice, or containment-only work.
+
+### Implementation Update: Empathic Evocations Moderate/Hard
+
+A moderate/hard empathic-evocations regression pass revised 9 items across Carlos, Nina, Aisha, David, and Marcus.
+
+Current moderate/hard empathic-evocations state after this pass:
+
+- 90 total empathic-evocations items preserved; all moderate and hard items reviewed.
+- One Nina marker was flattened so the client names the feared judgment rather than supplying the relational image.
+- Selected responses were polished to keep imagery concrete and clinically close rather than decorative or over-poetic.
+- High-risk Aisha items involving self-harm and suicidal language were spot-checked for safety-sensitive evocation.
+- Matching Bokmal localizations were updated with natural phrasing.
+- Quality rating increased from about 8.4/10 to about 8.5/10 for both moderate and hard Empathic Evocations.
 
 ### Implementation Update: Providing Treatment Rationale Hard
 

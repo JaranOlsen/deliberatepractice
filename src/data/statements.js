@@ -2473,7 +2473,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] After I blow up, everyone gets quiet, and I usually make some comment so we can move on.",
-        "suggestion": "After the blast, the room goes careful, and the joke is a quick sweep over glass no one wants to touch."
+        "suggestion": "After the blast, the room goes careful, and the joke skims over the broken pieces before anyone has to look down."
       },
       {
         "text": "[Angry, tightly controlled] I get so angry that I stop talking, because if I keep going I do not trust what I will say.",
@@ -2514,7 +2514,7 @@ export const STATEMENT_SETS = {
         "suggestion": "The tiredness is heavy in your voice, and even that becomes something you feel you have to make up for."
       },
       {
-        "text": "[Torn] Saying no makes me panic, even about small things, because I imagine the other person quietly pulling away.",
+        "text": "[Torn] Saying no makes me panic, even about small things, because I start picturing the other person deciding I am selfish.",
         "suggestion": "The no feels tiny on the outside and huge inside, like one boundary could loosen the tie that keeps love close."
       },
       {
@@ -2523,7 +2523,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Guilty] If the house is messy, I feel ashamed before anyone says anything, and I start explaining what got in the way.",
-        "suggestion": "Shame arrives before any criticism, and the explanations line up like witnesses for your defense."
+        "suggestion": "Shame arrives before any criticism, and the explanations stack up in front of you like a shield."
       },
       {
         "text": "[Tearful] I cry in the kitchen where no one will notice, then splash my face and go back out.",
@@ -2549,7 +2549,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Panicked] I scratch my arm when I start feeling unreal, because looking around the room and naming objects does not always bring me back.",
-        "suggestion": "The scratching becomes an emergency signal flare, trying to make you real again when the room starts drifting away."
+        "suggestion": "The scratching becomes an urgent way to feel real again, a sharp signal when the room starts drifting away."
       },
       {
         "text": "[Panicked] When the typing dots disappear, I check the message again and again, even if I know they probably just got busy.",
@@ -2561,7 +2561,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[In denial] Last week I felt suicidal when he disappeared, but then he texted me back, so maybe I am fine now and we do not need to make it a big thing.",
-        "suggestion": "His text feels like a sudden floor under your feet, while the drop underneath is still there waiting to be noticed."
+        "suggestion": "His text feels like the floor snapping back under you, while the place you fell through is still open underneath."
       },
       {
         "text": "[Hurt] When someone calls me too much, I keep hearing it afterward, especially when I want to text them and try not to.",
@@ -2569,7 +2569,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tearful] When someone is gentle with me, I cry before I understand why, and then I get embarrassed and want them to stop being nice.",
-        "suggestion": "Gentleness touches the wall and tears rush through, and then shame tries to push the kindness back out."
+        "suggestion": "Gentleness gets through before you can brace, tears rush up, and then shame tries to push the kindness back out."
       },
       {
         "text": "[Panicked] I keep checking the door while we talk, because part of me expects you to stand up and leave if I say too much.",
@@ -2579,7 +2579,7 @@ export const STATEMENT_SETS = {
     "case-david": [
       {
         "text": "[Controlled] When my wife calls me cold, I get quiet and then make one precise comment that I know will land hard.",
-        "suggestion": "The word cold burns behind your teeth, and the precise comment comes out like armor snapping shut with a blade on it."
+        "suggestion": "The word cold burns behind your teeth, and the precise comment comes out like armor snapping shut with an edge on it."
       },
       {
         "text": "[Worthless] If I am not the best person in the room, I feel ordinary, and ordinary is almost worse than failing.",
@@ -2629,7 +2629,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Macho] In the unit, feelings got people killed, so I learned not to have them, and I still do not know what good they are supposed to do.",
-        "suggestion": "That rule still sounds like an order in your chest: feelings get people killed, so the heart goes behind a locked door."
+        "suggestion": "That rule still sounds like an order in your chest: feelings get people killed, so the heart gets locked behind a door."
       },
       {
         "text": "[Hypervigilant] Nightmares wake me up, and then the room does not feel normal for a while; I check the corners even though I know where I am.",
@@ -2641,7 +2641,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and guarded] When something good happens, I notice it, say the right thing, and then wait for the feeling that does not come.",
-        "suggestion": "Goodness is right there and still behind glass, visible but blurred before it can reach you."
+        "suggestion": "Goodness is right there, but it hits the glass before it reaches you."
       },
       {
         "text": "[Flat] I keep the lights low at home because bright light bothers me and makes the place feel too exposed.",

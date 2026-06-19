@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T18:48:59.901Z",
+  "generatedAt": "2026-06-19T01:14:21.752Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1370,11 +1370,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Tearful] When someone is gentle with me, I cry before I understand why, and then I get embarrassed and want them to stop being nice.",
-                "response": "Gentleness touches the wall and tears rush through, and then shame tries to push the kindness back out."
+                "response": "Gentleness gets through before you can brace, tears rush up, and then shame tries to push the kindness back out."
               },
               "no": {
                 "statement": "[På gråten] Når noen er milde med meg, gråter jeg før jeg skjønner hvorfor, og så blir jeg flau og vil at de skal slutte å være snille.",
-                "response": "Mildheten rører ved veggen og tårene strømmer gjennom, og så prøver skammen å skyve omsorgen ut igjen."
+                "response": "Mildheten kommer gjennom før du rekker å spenne deg, tårene presser på, og så prøver skammen å skyve omsorgen ut igjen."
               }
             }
           ]
