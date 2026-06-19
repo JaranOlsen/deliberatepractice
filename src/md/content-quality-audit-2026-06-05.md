@@ -62,6 +62,7 @@ Branch update:
 - Staying in Contact with Intense Affect hard has received a high-risk contact-first regression pass: all 30 Aisha, David, and Marcus hard responses were reviewed and revised to receive live affect before safety, boundary, or orientation language; three cue words were corrected; and Bokmal localizations were made less literal. Estimated hard-tier quality moved from roughly 8.4/10 to 8.6/10.
 - Alliance Repair easy has received a response-variety and Bokmal naturalness pass: all 30 Sara, Michael, and Jason beginner responses now use more varied openings while preserving impact receiving, ownership, apology, frame clarity where needed, and collaborative repair questions. Estimated easy-tier quality moved from roughly 8.4/10 to 8.6/10.
 - Empathic Explorations moderate has received a marker-breadth and Bokmal naturalness pass: all 30 Laura, Carlos, and Nina items were reviewed, with selected markers made more ordinary and less over-imagistic while responses keep one small live-edge exploration step. Bokmal localizations now have no repeated starts and much lower use of literal scaffolds such as `Vi kan`/`Kan vi`. Estimated moderate-tier quality moved from roughly 8.4/10 to 8.6/10.
+- Empathic Conjectures easy has received a response-boundary, marker-breadth, and Bokmal pass: all 30 Sara, Michael, and Jason items were reviewed, with responses tightened toward one tentative near-surface guess and selected markers made more behavioral. English and Bokmal targeted scans show zero repeated starts. Estimated easy-tier quality moved from roughly 8.4/10 to 8.6/10.
 
 The remaining gaps are more subtle:
 
@@ -101,7 +102,7 @@ The remaining gaps are more subtle:
 | Empathic Evocations | Easy | Strong | Medium | Strong | Low | Marker style is now much better: flat, detached, ordinary. Recent regression passes flattened remaining body/image-heavy prompts while preserving enough emotional hook for trainee evocation. Benchmark archetype coverage is partial, intentionally leaving image-making room for trainees. |
 | Empathic Evocations | Moderate | Strong | Medium-High | Strong | Low | Recent passes added betrayal, worthlessness, being used, dependency shame, macho anti-feeling, and hopeless relational shutdown while preserving relatively flat markers. Latest pass moved selected body-process detail from markers into therapist responses. |
 | Empathic Evocations | Hard | Strong | Medium-High | Strong | Low | Good coverage of confidentiality threat, crisis-denial, confused distress, worthlessness, and locked-down anti-feeling archetypes. Latest pass improved trauma and self-harm-adjacent response tone while keeping hard markers guarded rather than already imagistic. |
-| Empathic Conjectures | Easy | Strong | Medium-High | Strong | Low-Medium | Recent pass made markers more behavioral and less self-formulated across breakup grief, anger/defensiveness, social anxiety, alcohol use, and apology/shame material. |
+| Empathic Conjectures | Easy | Strong | Medium-High | Strong | Low | Recent passes made markers more behavioral and less self-formulated across breakup grief, anger/defensiveness, social anxiety, alcohol use, and apology/shame material. Latest easy-tier pass tightened responses into one tentative near-surface guess and improved Bokmal naturalness. |
 | Empathic Conjectures | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass reduced over-naming in trauma avoidance, anger/masculinity defenses, caregiver shame, and attachment-maintenance markers. |
 | Empathic Conjectures | Hard | Strong | Medium-High | Strong | Low | Good denial-after-suicidality, trapped relationship, macho anti-feeling, and hard defensiveness coverage. Recent pass flattened selected hard-case markers that were naming the hidden process too directly. |
 | Staying in Contact with Intense Affect | Easy | Strong | Medium-High | Strong | Low | Recent spot checks removed several command-like grounding responses and made panic, shame, humiliation, and grief responses more contact-led. Latest residual pass reduced procedural "room/edge" phrasing. Ordinary death/loss examples remain constrained by the easy case set. |
@@ -172,16 +173,17 @@ Completed on the current content branch:
 - Staying in Contact with Intense Affect hard has received a high-risk response regression pass. All 30 hard suggestions now more consistently lead with emotional contact before safety, boundary, or dissociation-orientation language; cue words were sharpened for romantic-boundary longing, therapy-disappointment anger, and war-footage horror; matching Bokmal localizations were rewritten more naturally.
 - Alliance Repair easy has received a response-opening and ownership-variety pass. All 30 Sara, Michael, and Jason responses now begin less formulaically, keep the repair sequence intact, and have matching Bokmal localizations with less literal therapy-English phrasing.
 - Empathic Explorations moderate has received a marker-breadth and Bokmal-naturalness pass. All 30 Laura, Carlos, and Nina items were reviewed; selected markers now use more ordinary-life scene pressure, Carlos's anger markers leak less evocation, and Bokmal localizations have zero repeated starts with much lower `Vi kan`/`Kan vi` scaffolding.
+- Empathic Conjectures easy has received a response-boundary and Bokmal-naturalness pass. All 30 Sara, Michael, and Jason responses now keep to one tentative hidden meaning, selected markers are more behavioral, and English/Bokmal targeted scans show zero repeated starts.
 
 These should still be reviewed in normal regression passes, but the workflow should now follow the tier-level scores in `src/md/benchmark-contract-audit-2026-06-11.md` rather than treating every repaired skill as equal priority.
 
 ## Current Highest-Value Improvement Targets
 
-1. Empathic Conjectures easy.
-   - Strong, but still the lowest conjectures tier after the hard regression pass. Light marker-breadth or Bokmal polish only after higher-risk sets are stable.
-
-2. Exploratory Questions moderate.
+1. Exploratory Questions moderate.
    - Good inward edge and difficulty calibration; repeated "what happens/what do you notice" patterns remain visible.
+
+2. Empathic Conjectures easy.
+   - Strong after latest response-boundary and Bokmal pass. Review only for flags or later regression checks.
 
 3. Empathic Explorations moderate.
    - Strong after the latest marker-breadth and Bokmal pass. Review only for flags or later regression checks.
