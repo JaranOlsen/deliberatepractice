@@ -86,7 +86,7 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | Empathic Affirmation and Validation | Moderate | 8.4 | Recent pass removed repeated four-word response openings and reduced literal Bokmal validation phrasing while preserving explicit legitimacy. |
 | Empathic Affirmation and Validation | Hard | 8.4 | Recent pass expanded hard markers, preserved high-risk validation, removed repeated openings, and made Bokmal more natural. |
 | Exploratory Questions | Easy | 8.5 | Strong one-question purity with simple inward-turning markers; only light opening-variety polish needed. |
-| Exploratory Questions | Moderate | 8.4 | Good inward edge and difficulty calibration; a few repeated "what happens/what do you notice" patterns remain acceptable but visible. |
+| Exploratory Questions | Moderate | 8.6 | Recent pass preserved exactly one inward question per item while removing repeated response openings and reducing visible "what happens/what do you notice" scaffolding. |
 | Exploratory Questions | Hard | 8.5 | Recent regression pass removed subtle containment/cognitive drift while preserving one inward-turning question across advanced ambiguity and high-risk material. |
 | Providing Treatment Rationale | Easy | 8.8 | Very close to the benchmark task: direct client skepticism/fear markers and plain-language rationale tied to client goals. |
 | Providing Treatment Rationale | Moderate | 8.6 | Strong fit with fear, skepticism, numbness, and practicality; Goldman responses are longer, but the app's brevity usually helps practice. |
@@ -119,11 +119,11 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Exploratory Questions, moderate | Good inward edge and difficulty calibration; repeated "what happens/what do you notice" patterns remain visible. | Opening-variety polish only after higher-risk sets are stable. |
-| 2 | Empathic Conjectures, easy | Stronger after response-boundary, marker-breadth, and Bokmal pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
-| 3 | Empathic Explorations, moderate | Stronger after marker-breadth and Bokmal pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
-| 4 | Alliance Repair, easy | Strong repair coverage after response-variety pass. | Review only for Supabase flags or occasional regression checks. |
-| 5 | Staying in Contact with Intense Affect, hard | Strong high-risk coverage after contact-first regression pass. | Review only for Supabase flags or occasional safety-sensitive regression checks. |
+| 1 | Therapist Self-Awareness, hard | Correct exercise contract is present, but benchmark hard examples still press the therapist longer. | Length/activation-pressure polish while preserving self-awareness task. |
+| 2 | Empathic Understanding, easy | Clean beginner reflections, with remaining ordinary-life breadth and Bokmal polish. | Light marker-breadth or Bokmal polish. |
+| 3 | Empathic Understanding, hard | Strong but still one of the lower tier scores; high-risk material benefits from occasional regression. | High-risk reflection regression only if markers remain stable. |
+| 4 | Exploratory Questions, moderate | Stronger after opening-variety pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
+| 5 | Empathic Conjectures, easy | Stronger after response-boundary, marker-breadth, and Bokmal pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
 
 ## Next Work Decision Rule
 
@@ -137,7 +137,22 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-19 easy empathic-conjectures pass: move next to Exploratory Questions moderate. The goal should be opening-variety and inward-question polish while preserving exactly one experiential question per response.
+Current recommendation after the 2026-06-19 moderate exploratory-questions pass: move next to Therapist Self-Awareness hard. The goal should be length/activation-pressure polish while preserving the special self-awareness exercise contract.
+
+### Implementation Update: Exploratory Questions Moderate
+
+A moderate-tier exploratory-questions pass revised all 30 Laura, Carlos, and Nina responses.
+
+Current moderate exploratory-questions state after this pass:
+
+- 90 total exploratory-question items preserved; all 30 moderate responses reviewed.
+- Client markers stayed stable because they already naturally invite one inward experiential question.
+- Each revised response contains exactly one question.
+- English targeted scan shows zero repeated four-word starts and no `why` questions.
+- Bokmal targeted scan shows exactly one question per item and zero repeated starts.
+- Repeated scaffolds such as "What happens..." and "What do you notice..." were replaced with more varied inward prompts.
+- Content updated date remains 2026-06-19, which is the date of this commit.
+- Quality rating for moderate Exploratory Questions increased from about 8.4/10 to about 8.6/10.
 
 ### Implementation Update: Empathic Conjectures Easy
 
