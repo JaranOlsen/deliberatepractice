@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T01:14:21.753Z",
+  "generatedAt": "2026-06-19T01:38:06.510Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -421,11 +421,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Slow and flat] I want to disappear when the memories crowd in and the room stops feeling real. It is not that I want to die in that second; I want not to be located anywhere the memories can find me.",
-            "response": "The wish to disappear is not the same as wanting to die, and it still needs care. I will stay with you while we keep you located here and name how badly the memories are crowding you."
+            "response": "Wanting to disappear is a way to get away from memories that seem to find you anywhere. I am taking that seriously and keeping you located here while the crowding gets words."
           },
           "no": {
             "statement": "[Langsomt og flatt] Jeg vil forsvinne når minnene presser seg på og rommet slutter å kjennes virkelig. Det er ikke at jeg vil dø i det sekundet; jeg vil bare ikke befinne meg noe sted minnene kan finne meg.",
-            "response": "Ønsket om å forsvinne er ikke det samme som å ville dø, og det trenger likevel omsorg. Jeg blir hos deg mens vi holder deg plassert her og setter ord på hvor hardt minnene presser på."
+            "response": "Å ville forsvinne er en måte å slippe unna minner som virker som de finner deg overalt. Jeg tar det på alvor og holder deg plassert her mens trengselen får ord."
           }
         }
       ]

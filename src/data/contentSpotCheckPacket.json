@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T01:14:21.752Z",
+  "generatedAt": "2026-06-19T01:38:06.509Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1728,11 +1728,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Flat] A wave is coming up my chest, and I want to shut it down before it takes me back there.",
-                "response": "The wave is rising, and the fear is it will take you back there. I am here with you at the first edge of it, with enough of this room present to keep you from going alone."
+                "response": "The wave is coming, and the fear is being pulled back there. I will meet you at the first rise of it, with this room still partly around us."
               },
               "no": {
                 "statement": "[Flatt] En bølge kommer opp i brystet, og jeg vil stenge den ned før den tar meg tilbake dit.",
-                "response": "Bølgen stiger, og frykten er at den skal ta deg tilbake dit. Jeg er her med deg ved den første kanten av den, med nok av dette rommet til stede til at du ikke går dit alene."
+                "response": "Bølgen kommer, og frykten er å bli dratt tilbake dit. Jeg møter deg ved den første stigningen, med dette rommet fortsatt delvis rundt oss."
               }
             },
             {
@@ -1745,11 +1745,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Trembling] My hands start trembling when I try to say even one piece of what happened. The story is still behind my teeth, but my hands are already telling you it is too close.",
-                "response": "The trembling is already saying how close the story is. I will stay with you there; your hands can be visible while the tremble has company for just a few seconds."
+                "response": "Your hands are already telling us the story is too near. I can keep company with the tremble itself, before any more words have to come."
               },
               "no": {
                 "statement": "[Skjelvende] Hendene mine begynner å skjelve når jeg prøver å si bare én bit av det som skjedde. Historien ligger fortsatt bak tennene, men hendene mine forteller deg allerede at den er for nær.",
-                "response": "Skjelvingen sier allerede hvor nær historien er. Jeg blir hos deg der; hendene dine kan være synlige mens skjelvingen får selskap i bare noen sekunder."
+                "response": "Hendene dine forteller oss allerede at historien er for nær. Jeg kan holde skjelvingen med selskap før flere ord må komme."
               }
             },
             {
@@ -1762,11 +1762,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Slow and flat] I want to disappear when the memories crowd in and the room stops feeling real. It is not that I want to die in that second; I want not to be located anywhere the memories can find me.",
-                "response": "The wish to disappear is not the same as wanting to die, and it still needs care. I will stay with you while we keep you located here and name how badly the memories are crowding you."
+                "response": "Wanting to disappear is a way to get away from memories that seem to find you anywhere. I am taking that seriously and keeping you located here while the crowding gets words."
               },
               "no": {
                 "statement": "[Langsomt og flatt] Jeg vil forsvinne når minnene presser seg på og rommet slutter å kjennes virkelig. Det er ikke at jeg vil dø i det sekundet; jeg vil bare ikke befinne meg noe sted minnene kan finne meg.",
-                "response": "Ønsket om å forsvinne er ikke det samme som å ville dø, og det trenger likevel omsorg. Jeg blir hos deg mens vi holder deg plassert her og setter ord på hvor hardt minnene presser på."
+                "response": "Å ville forsvinne er en måte å slippe unna minner som virker som de finner deg overalt. Jeg tar det på alvor og holder deg plassert her mens trengselen får ord."
               }
             }
           ]

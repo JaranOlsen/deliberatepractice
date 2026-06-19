@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T01:14:21.753Z",
+  "generatedAt": "2026-06-19T01:38:06.510Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -976,11 +976,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Trembling] My hands start trembling when I try to say even one piece of what happened. The story is still behind my teeth, but my hands are already telling you it is too close.",
-            "response": "The trembling is already saying how close the story is. I will stay with you there; your hands can be visible while the tremble has company for just a few seconds."
+            "response": "Your hands are already telling us the story is too near. I can keep company with the tremble itself, before any more words have to come."
           },
           "no": {
             "statement": "[Skjelvende] Hendene mine begynner å skjelve når jeg prøver å si bare én bit av det som skjedde. Historien ligger fortsatt bak tennene, men hendene mine forteller deg allerede at den er for nær.",
-            "response": "Skjelvingen sier allerede hvor nær historien er. Jeg blir hos deg der; hendene dine kan være synlige mens skjelvingen får selskap i bare noen sekunder."
+            "response": "Hendene dine forteller oss allerede at historien er for nær. Jeg kan holde skjelvingen med selskap før flere ord må komme."
           }
         }
       ]
