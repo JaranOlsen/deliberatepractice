@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T12:47:02.243Z",
+  "generatedAt": "2026-06-19T14:36:02.636Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -45,11 +45,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Desperate] You did not reply fast when I sent that message about changing the appointment, and I know you probably have rules about messages, but I felt abandoned. Then I felt stupid for caring that much. I kept checking my phone and telling myself I was pathetic. By the time you answered, I wanted to act like I did not care, but I did.",
-            "response": "[Self-awareness] I notice alarm and a pull to promise faster contact; I would ground my feet and keep any urge to over-reassure private."
+            "response": "[Self-awareness] I notice a jolt of alarm, guilt in my chest, and a pull to promise faster contact; I would slow down before letting my wish to repair become over-reassurance."
           },
           "no": {
             "statement": "[Desperat] Du svarte ikke raskt da jeg sendte meldingen om å flytte timen, og jeg vet at du sikkert har regler for meldinger, men jeg følte meg forlatt. Så følte jeg meg dum for at det betydde så mye. Jeg sjekket telefonen hele tiden og sa til meg selv at jeg var patetisk. Da du svarte, ville jeg late som om jeg ikke brydde meg, men det gjorde jeg.",
-            "response": "[Selvbevissthet] Jeg merker alarm og et drag mot å love raskere kontakt; jeg ville forankret føttene og holdt trangen til å overberolige privat."
+            "response": "[Selvbevissthet] Jeg merker et støt av alarm, skyld i brystet og et drag mot å love raskere kontakt; jeg ville bremset før reparasjonsønsket blir for mye beroligelse."
           }
         }
       ]

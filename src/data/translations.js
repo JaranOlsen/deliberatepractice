@@ -1914,123 +1914,123 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_therapist-self-awareness_case-aisha_01": {
       "text": "[Desperat] Du svarte ikke raskt da jeg sendte meldingen om å flytte timen, og jeg vet at du sikkert har regler for meldinger, men jeg følte meg forlatt. Så følte jeg meg dum for at det betydde så mye. Jeg sjekket telefonen hele tiden og sa til meg selv at jeg var patetisk. Da du svarte, ville jeg late som om jeg ikke brydde meg, men det gjorde jeg.",
-      "suggestion": "[Selvbevissthet] Jeg merker alarm og et drag mot å love raskere kontakt; jeg ville forankret føttene og holdt trangen til å overberolige privat."
+      "suggestion": "[Selvbevissthet] Jeg merker et støt av alarm, skyld i brystet og et drag mot å love raskere kontakt; jeg ville bremset før reparasjonsønsket blir for mye beroligelse."
     },
     "dp_therapist-self-awareness_case-aisha_02": {
       "text": "[Desperat] Hvis du avlyser, tror jeg ikke jeg klarer å komme tilbake. Jeg vet at folk blir syke eller får kriser, men når noen avlyser på meg, behandler ikke hjernen min det som en kalenderting. Det føles som om jeg var dum som stolte på dem. Da vil jeg slette nummeret deres, skade meg selv eller få dem til å bevise at jeg betyr noe. Jeg hater at jeg sier dette til deg.",
-      "suggestion": "[Selvbevissthet] Jeg merker frykt, beskyttelse og press om å garantere at jeg ikke kommer til å avlyse; jeg ville fulgt det presset og vernet rammen."
+      "suggestion": "[Selvbevissthet] Frykt og beskyttertrang kommer raskt, sammen med press om å garantere at jeg aldri avlyser; jeg ville roet det presset og holdt grensen ærlig."
     },
     "dp_therapist-self-awareness_case-aisha_03": {
       "text": "[Desperat] Si at du bryr deg om meg, for jeg klarer ikke å merke det bare ved at vi sitter her. Du ser rolig ut, og jeg vet at terapeuter liksom skal se rolige ut, men rolig kan også bety at du ikke føler noe. Jeg trenger noe mer enn nikking. Hvis du bryr deg, hvorfor er det så vanskelig å si det på en måte jeg kan tro på?",
-      "suggestion": "[Selvbevissthet] Jeg merker et sterkt drag mot å berolige henne og en uro for å håndtere grensen feil; jeg ville navngitt draget for meg selv før jeg velger ord."
+      "suggestion": "[Selvbevissthet] Jeg merker ønsket om å si den perfekte omsorgsfulle setningen, og uro for både å holde igjen og gi for mye; jeg ville blitt værende i den spagaten før jeg velger ord."
     },
     "dp_therapist-self-awareness_case-aisha_04": {
       "text": "[Panisk] Når tomheten blir skarp, vil jeg skade meg selv så den stopper. Jeg sier det ikke for å skremme deg. Jeg sier det fordi hvis jeg ikke sier det, kommer jeg til å sitte her og late som jeg er normal og så dra hjem med det. En del av meg vil at du skal reagere så jeg vet at det betyr noe, og en del er livredd for at du skal overreagere og sende meg bort.",
-      "suggestion": "[Selvbevissthet] Jeg merker frykt i magen, hastverk og et ønske om å gå rett til sikkerhetstiltak; jeg ville stødiggjort meg før jeg bare deler det som støtter trygt nærvær."
+      "suggestion": "[Selvbevissthet] Jeg kjenner frykt i magen og hastverk mot sikkerhetshåndtering; jeg ville navngitt hastverket inni meg, slik at neste steg blir rolig og ikke panisk."
     },
     "dp_therapist-self-awareness_case-aisha_05": {
       "text": "[Desperat] Jeg forventer hele tiden at du skal forlate meg, og så hater jeg meg selv for å trenge deg. Det er utmattende, for jeg hører meg selv teste deg, følge med på ansiktet ditt, vente på bevis for at du er ferdig. Så hvis du er snill, føler jeg meg enda mer knyttet og sint. Jeg vet ikke hvordan jeg skal være i dette rommet uten å gjøre deg for viktig.",
-      "suggestion": "[Selvbevissthet] Jeg merker trekk-og-skyv-bevegelsen i min egen kropp og et ønske om å stabilisere relasjonen raskt; jeg ville fulgt hastverket uten å overdele."
+      "suggestion": "[Selvbevissthet] Jeg kjenner et drag mot å bevise at jeg er stødig og få slutt på testingen raskt; jeg ville lagt merke til redningspresset uten å gjøre timen til et bevis på min pålitelighet."
     },
     "dp_therapist-self-awareness_case-aisha_06": {
       "text": "[Desperat] Jeg hater deg for å ha den grensen, og vær så snill, ikke forlat meg. Jeg vet at det høres umulig ut, men det er sånn det føles. Når du sier at vi må stoppe til tiden, hører jeg at du velger klokka over meg. Da vil jeg skrike til deg og be deg bli i samme åndedrag. Jeg hater dette.",
-      "suggestion": "[Selvbevissthet] Jeg merker et drag mot å forsvare grensen og et drag mot å mykne den; jeg ville kjent begge reaksjonene og holdt min egen ramme stødig."
+      "suggestion": "[Selvbevissthet] Jeg merker irritasjon over å bli hatet og ømhet for bønnen; jeg ville latt begge være der og holdt rammen stødig."
     },
     "dp_therapist-self-awareness_case-aisha_07": {
-      "text": "[Panisk] Jeg sjekker hele tiden om du ser på meg, fordi hvis du ser bort, får jeg panikk. Selv når du bare ser ned på notatene dine, kjenner jeg et fall, som om jeg har forsvunnet. Så blir jeg flau, for jeg vet at du har lov til å se på notater. Jeg følger så nøye med på deg at jeg knapt hører meg selv snakke.",
-      "suggestion": "[Selvbevissthet] Jeg merker press om å holde perfekt øyekontakt og frykt for å svikte henne; jeg ville fulgt prestasjonspresset heller enn å framføre intensitet."
+      "text": "[Panisk] Jeg sjekker hele tiden om du ser på meg, fordi hvis du ser bort, får jeg panikk. Selv når du bare ser ned på notatene dine, kjenner jeg et fall, som om jeg har forsvunnet. Jeg vet at du har lov til å skrive ting ned, så da begynner jeg å følge med på om jeg er urimelig, og det gjør bare at jeg ser enda mer på deg. Jeg hører knapt hva jeg selv sier, fordi jeg prøver å lese ansiktet ditt for bevis på at jeg fortsatt finnes her.",
+      "suggestion": "[Selvbevissthet] Jeg merker press om å gi konstant blikkontakt og frykt for at vanlig notatskriving skal skade henne; jeg ville fulgt prestasjonsspenningen min i stedet for å prøve å framføre perfekt nærvær."
     },
     "dp_therapist-self-awareness_case-aisha_08": {
       "text": "[Flørtende og redd] Noen ganger ser jeg for meg hvordan det ville vært hvis du møtte meg utenfor terapi og faktisk ville ha meg. Jeg håper du ikke freaker ut. Jeg vet at dette er terapi, men jeg legger også merke til hva du har på deg og lurer på om du noen gang synes jeg er attraktiv. En del av meg vil at du skal si nei så jeg kan slutte å håpe, og en del vil at du skal nøle.",
-      "suggestion": "[Selvbevissthet] Jeg merker mulig smiger, alarm og et ønske om å trekke meg inn i profesjonalitet; jeg ville bare delt en trygg kroppslig reaksjon og holdt privat materiale privat."
+      "suggestion": "[Selvbevissthet] Jeg merker smiger, alarm og et ønske om å gjemme meg bak profesjonalitet; jeg ville holdt private reaksjoner for meg selv når de ikke tjener trygghet og tydelige grenser."
     },
     "dp_therapist-self-awareness_case-aisha_09": {
-      "text": "[Redd og skamfull] Jeg føler meg skitten på grunn av det som ble gjort mot meg. Jeg vet at folk sier at det ikke var min skyld, og jeg kan gjenta den setningen som lekser, men den treffer ikke følelsen. Når jeg ser for meg at du vet flere detaljer, vil jeg forsvinne. Jeg er redd du kommer til å se annerledes på meg selv om ansiktet ditt fortsatt er vennlig.",
-      "suggestion": "[Selvbevissthet] Jeg merker sorg, beskyttelse og et ønske om å fikse skammen med ord; jeg ville fulgt impulsen til å korrigere følelsen hennes før jeg snakker."
+      "text": "[Redd og skamfull] Jeg føler meg skitten på grunn av det som ble gjort mot meg. Jeg vet at folk sier at det ikke var min skyld, og jeg kan gjenta den setningen som lekser, men den treffer ikke følelsen. Når jeg ser for meg at du vet flere detaljer, begynner jeg å følge med på ansiktet ditt for den minste endring. Hvis du blunker annerledes, kommer jeg til å tenke at du prøver å skjule avsky, selv om du fortsatt er vennlig.",
+      "suggestion": "[Selvbevissthet] Jeg merker sorg, beskyttertrang og en sterk trang til å vaske bort skammen med beroligelse; jeg ville kjent trangen og ikke skyndet meg å korrigere følelsen hennes."
     },
     "dp_therapist-self-awareness_case-aisha_10": {
       "text": "[Panisk] Lov at du ikke gir meg opp, selv når jeg blir for mye. Folk sier alltid at de ikke skal gjøre det, og så ser jeg øyeblikket der de begynner å bli lei. Jeg kjenner at jeg blir den personen her inne også, den som ber om for mye og ødelegger det. Jeg trenger at du lover, men jeg vet også at jeg ikke kommer til å tro helt på deg.",
-      "suggestion": "[Selvbevissthet] Jeg merker en sterk trang til å gi et absolutt løfte og lette panikken; jeg ville holdt den trangen varsomt og vernet ærligheten i mine egne grenser."
+      "suggestion": "[Selvbevissthet] Det kommer et sterkt drag mot å gi et absolutt løfte så panikken hennes faller; jeg ville tålt smerten ved å ikke kunne love på den måten og holdt grensene mine ærlige."
     },
     "dp_therapist-self-awareness_case-david_01": {
       "text": "[Kontrollert] Før jeg investerer i dette, må jeg vite om du er verdt tiden min. Jeg mener ikke det som en fornærmelse; jeg vurderer profesjonelle mennesker hele tiden. Jeg har sittet hos terapeuter som nikket sympatisk uten å bidra med noe. Hvis dette blir enda en time med vagt følelsesspråk, vil jeg heller vite det nå, så vi begge kan bruke tiden effektivt.",
-      "suggestion": "[Selvbevissthet] Jeg merker et stikk og en impuls til å prestere kompetanse; jeg ville kjent det i brystet og ikke gjort øvelsen til å bevise meg selv."
+      "suggestion": "[Selvbevissthet] Jeg merker et stikk, en stramming i brystet og en trang til å vise kompetanse; jeg ville latt det være mitt materiale, ikke gjort øvelsen til å bevise meg selv."
     },
     "dp_therapist-self-awareness_case-david_02": {
       "text": "[Avvisende] Suksessen min taler for seg. Kona mi sier at jeg er kald, men hun nyter også godt av livet standardene mine har skapt. Hun overreagerer når hun ikke klarer å henge med, og så skal jeg visst beklage at jeg er den kompetente. Jeg vet at det høres arrogant ut, men jeg er lei av å bli straffet for å fungere bedre enn de som kritiserer meg.",
-      "suggestion": "[Selvbevissthet] Jeg merker vurdering og et drag mot å diskutere overlegenheten hans; jeg ville stille navngitt vurderingen og vendt oppmerksomheten tilbake til kroppen min."
+      "suggestion": "[Selvbevissthet] Jeg merker vurdering og et ønske om å diskutere arrogansen; jeg ville markert reaksjonen privat, så den ikke blir et skjult motangrep."
     },
     "dp_therapist-self-awareness_case-david_03": {
       "text": "[Kravstor] Jeg trenger effektive løsninger, ikke en langsom rundtur i følelsene mine. Jeg har et ekteskapsproblem, et omdømmeproblem og et tidsproblem. Hvis metoden er å sitte med ubehag til noe magisk skjer, er jeg skeptisk. Jeg er villig til å gjøre vanskelig arbeid, men jeg må se at du kan skille dybde fra ineffektivitet.",
-      "suggestion": "[Selvbevissthet] Jeg merker press om å forsvare EFT og høres imponerende ut; jeg ville fulgt prestasjonstrangen og holdt grenser rundt hva jeg deler."
+      "suggestion": "[Selvbevissthet] Jeg merker press om å få EFT til å høres effektivt og imponerende ut; jeg ville fulgt prestasjonskravet i meg og holdt all selvavsløring avgrenset."
     },
     "dp_therapist-self-awareness_case-david_04": {
       "text": "[Skeptisk] Har du egentlig nok erfaring med noen som meg, eller er dette bare standardterapi med bedre innpakning? Jeg prøver ikke å være vanskelig. Jeg har alvorlige ting på bordet, inkludert en affære og et ekteskap som kan kollapse. Jeg vil ikke være noens læringserfaring. Hvis du er ute på dypt vann, foretrekker jeg at du sier det.",
-      "suggestion": "[Selvbevissthet] Jeg merker forsvar, stolthet og litt uro rundt kompetanse; jeg ville bare delt en forankret reaksjon, ikke hele den defensive stormen."
+      "suggestion": "[Selvbevissthet] Jeg merker forsvar, stolthet og uro for å bli vurdert; jeg ville roet meg litt før jeg deler noe, så jeg ikke gjør ham ansvarlig for min kompetanseuro."
     },
     "dp_therapist-self-awareness_case-david_05": {
       "text": "[Avvisende] Folk kaller meg narsissist fordi de er sjalu eller late med språket. Kona mi brukte det ordet i en krangel, og nå har det blitt en praktisk måte å avvise alt jeg sier på. Jeg vil at du sier tydelig at de tar feil, ikke gjør terapeutgreia der du later som du er nøytral mens du egentlig er enig med dem.",
-      "suggestion": "[Selvbevissthet] Jeg merker et drag mot å unngå å bli fanget av kravet og en reaksjon på merkelappen; jeg ville fulgt ønsket om å være nøytral uten å gjemme meg bak nøytralitet."
+      "suggestion": "[Selvbevissthet] Jeg merker en følelse av å bli fanget, irritasjon over kravet og et drag mot å virke nøytral; jeg ville fulgt hvor lett nøytralitet kan bli selvbeskyttelse."
     },
     "dp_therapist-self-awareness_case-david_06": {
       "text": "[Avvisende] Jeg gjør ikke sånne feil; andre folk mister ballen og oppfører seg såret når jeg påpeker det. Hvis jeg høres hard ut, er det fordi noen må hindre at standarder kollapser. Kona mi sier at jeg ikke kan innrømme feil, men jeg innrømmer feil når det faktisk er feil å innrømme. Jeg kommer ikke til å framføre ydmykhet bare for å gjøre andre komfortable.",
-      "suggestion": "[Selvbevissthet] Jeg merker irritasjon og en fristelse til å gå inn i en maktkamp; jeg ville holdt den fristelsen privat og observert varmen i ansiktet."
+      "suggestion": "[Selvbevissthet] Jeg merker varme i ansiktet og en fristelse til å argumentere ham inn i ydmykhet; jeg ville holdt maktkampimpulsen privat og pustet før jeg svarer."
     },
     "dp_therapist-self-awareness_case-david_07": {
-      "text": "[Kontrollert] Jeg forventer raske resultater, for ellers blir dette enda en arena der jeg er eksponert og ikke forbedrer meg raskt nok. Jeg vet at det høres ut som om jeg legger press på deg, og kanskje jeg gjør det. Men jeg legger mer press på meg selv. Hvis jeg skal sitte her og snakke om nederlag, trenger jeg bevis på at ubehaget kjøper noe.",
-      "suggestion": "[Selvbevissthet] Jeg merker at hastverk går inn i meg og et ønske om å levere bevis; jeg ville navngitt hastverket inni meg og vernet tempoet mitt."
+      "text": "[Kontrollert] Jeg forventer raske resultater, for ellers blir dette enda en arena der jeg er eksponert og ikke forbedrer meg raskt nok. Jeg vet at det høres ut som om jeg legger press på deg, og kanskje jeg gjør det, men jeg legger mer press på meg selv. Jeg har bygd hele livet mitt rundt å ikke trenge hjelp lenge. Hvis jeg skal sitte her og snakke om nederlag, trenger jeg bevis på at ubehaget kjøper noe, og at du tåler presset uten å bli vag.",
+      "suggestion": "[Selvbevissthet] Jeg merker at hastverk går inn i meg, pluss et ønske om å levere bevis og lette presset; jeg ville navngitt hastverket inni meg og vernet et stødigere tempo."
     },
     "dp_therapist-self-awareness_case-david_08": {
       "text": "[Avvisende] Ikke psykoanalyser meg eller gjør meg til et kasus. Jeg kan se folk gjøre det, samle små spor fra barndommen eller ekteskapet mitt og så oppføre seg som om de har løst meg. Jeg er ikke her for å bli redusert til et mønster. Hvis du begynner å bruke fagspråk for å få avstand til å høres dypt ut, sier jeg fra.",
-      "suggestion": "[Selvbevissthet] Jeg merker et ønske om å forsvare klinisk språk og en frykt for å bli konfrontert; jeg ville latt frykten være kjent for meg uten å gjøre ham ansvarlig for den."
+      "suggestion": "[Selvbevissthet] Jeg merker et ønske om å forsvare klinisk språk og frykt for at ordene mine skal høres kunstige ut; jeg ville latt frykten være kjent for meg uten å gi den til ham."
     },
     "dp_therapist-self-awareness_case-david_09": {
       "text": "[Skeptisk] Dette bør ikke bli som med den forrige terapeuten min, som satt og nikket mens ingenting endret seg. Jeg snakket, han sa noe mykt, og så gikk jeg derfra med samme ekteskap og samme problemer. Jeg trenger ikke et betalt vitne. Jeg trenger noen som faktisk kan tenke og utfordre meg uten å bli emosjonell av det.",
-      "suggestion": "[Selvbevissthet] Jeg merker et drag mot å bevise at jeg er aktiv og tenkende; jeg ville fulgt prestasjonsdraget og stikket i sammenligningen."
+      "suggestion": "[Selvbevissthet] Jeg merker et drag mot å bevise at jeg er aktiv, skarp og annerledes enn den forrige terapeuten; jeg ville fulgt stikket i sammenligningen før jeg prøver å imponere ham."
     },
     "dp_therapist-self-awareness_case-david_10": {
       "text": "[Skeptisk] Kona mi sier at jeg drikker for mye, men det er hun som maser meg til det. Jeg tar noen drinker om kvelden fordi jobben min har et press hun ikke kan forestille seg. Helt ærlig forstår kvinner ofte ikke press som mitt; de snakker om stress, men de har ikke ansvar for levebrødet til hundrevis av mennesker. Jeg håper jeg kan være direkte her uten at du blir politisk fornærmet.",
-      "suggestion": "[Selvbevissthet] Jeg merker irritasjon, vurdering og press mot å konfrontere sexismen; jeg ville fulgt de reaksjonene så et senere svar blir valgt og ikke reaktivt."
+      "suggestion": "[Selvbevissthet] Jeg merker irritasjon, vurdering og hastverk mot å konfrontere sexismen og bagatelliseringen av alkohol; jeg ville holdt reaksjonene, så en eventuell grense eller utfordring blir valgt og ikke reaktiv."
     },
     "dp_therapist-self-awareness_case-marcus_01": {
       "text": "[Langsomt og flatt] Jeg sier at det går bra fordi jeg ikke vet hva annet du vil ha fra meg. Bra er ikke bra, men det er nøyaktig nok. Jeg stod opp, gikk på jobb, kom hit. Det er mer enn noen dager. Når terapeuter fortsetter å spørre hva bra betyr, begynner det å kjennes som om de vil at jeg skal produsere noe for dem, og jeg har ikke så mye å produsere.",
-      "suggestion": "[Selvbevissthet] Jeg merker et drag mot å hente mer ut av ham og litt ubehag med flatheten; jeg ville fulgt det draget og latt nok være nok."
+      "suggestion": "[Selvbevissthet] Jeg merker ubehag med flatheten og et drag mot å få ham til å produsere mer; jeg ville fulgt draget som mitt og latt rommet få være sparsomt."
     },
     "dp_therapist-self-awareness_case-marcus_02": {
       "text": "[Håpløs] Prat endrer ikke det som skjedde, og jeg hater når terapeuter later som det gjør det. Jeg har hatt folk som nikket som om de forstod, og så sa de at jeg må bearbeide det. Bearbeide hva? Fakta er fakta. Folk døde, folk dro, og jeg kom tilbake annerledes. Jeg prøver ikke å være vanskelig. Jeg vil bare ikke ha enda en person som selger meg håp de ikke kan stå inne for.",
-      "suggestion": "[Selvbevissthet] Jeg merker forsvar på terapiens vegne og en synkende følelse; jeg ville navngitt det for meg selv og unngått å selge håp for å lette det."
+      "suggestion": "[Selvbevissthet] Jeg merker en synkende følelse og forsvar på terapiens vegne; jeg ville ikke solgt håp for å lette min egen hjelpeløshet."
     },
     "dp_therapist-self-awareness_case-marcus_03": {
       "text": "[Hyperårvåken] Mareritt er bare en del av det, og jeg vil ikke at du gjør et stort nummer ut av det. Hvis jeg forteller én detalj, lener folk seg vanligvis fram som om de venter på filmversjonen. Så må jeg håndtere ansiktet deres mens jeg allerede er tilbake der. Jeg sover dårlig, våkner og sjekker rommet, og så går jeg på jobb. Det er hele rapporten.",
-      "suggestion": "[Selvbevissthet] Jeg merker nysgjerrighet og bekymring, pluss et ønske om å lene meg inn; jeg ville fulgt den bevegelsen og passet på at kroppen min ikke presser etter traumadetaljer."
+      "suggestion": "[Selvbevissthet] Jeg merker bekymring, nysgjerrighet og at jeg lener meg fram inni meg; jeg ville brukt den bevisstheten til å stoppe meg selv fra å be om filmversjonen av traumet."
     },
     "dp_therapist-self-awareness_case-marcus_04": {
       "text": "[Flatt] Jeg vil helst holde meg for meg selv, fordi folk vanligvis vil ha mer enn jeg har. De vil ha svar, følelser, forsikringer om at jeg har det bra, en versjon av meg som gjør dem komfortable. Så må jeg enten framføre normalitet eller skuffe dem. Alene er enklere. Problemet er at alene også blir høyt om natten, så jeg later ikke som om det fungerer perfekt.",
-      "suggestion": "[Selvbevissthet] Jeg merker ensomhet i meg selv og et drag mot å komme nærmere; jeg ville respektert avstanden og observert ønsket om å redusere den."
+      "suggestion": "[Selvbevissthet] Jeg merker ensomhet i meg og et ønske om å korte ned avstanden; jeg ville respektert avstanden og ikke gått nærmere for å lindre min egen uro."
     },
     "dp_therapist-self-awareness_case-marcus_05": {
-      "text": "[Lav stemme] Følelser gjør ting verre. Når de først starter, mister jeg resten av natten. Folk sier at du må føle det for å hele, men de slipper å sitte i leiligheten min klokka tre om natten med alle lyder skrudd opp. Hvis jeg åpner noe her og det følger meg hjem, er det jeg som må håndtere det.",
-      "suggestion": "[Selvbevissthet] Jeg merker varsomhet og et ønske om å forsvare verdien av følelsesarbeid; jeg ville fulgt den defensiviteten og holdt kontakten lett."
+      "text": "[Lav stemme] Følelser gjør ting verre. Når de først starter, mister jeg resten av natten. Folk sier at du må føle det for å hele, men de slipper å sitte i leiligheten min klokka tre om natten med alle lyder skrudd opp og hjernen min som spiller av ting jeg ikke ba om. Hvis jeg åpner noe her og det følger meg hjem, er det jeg som må håndtere det mens alle andre sover.",
+      "suggestion": "[Selvbevissthet] Jeg merker varsomhet, beskyttertrang og et defensivt ønske om å argumentere for følelsesarbeid; jeg ville holdt argumentet inni meg og latt trygghetsbekymringen bety noe."
     },
     "dp_therapist-self-awareness_case-marcus_06": {
       "text": "[Stille og på vakt] Jeg stoler ikke på terapeuter. Det er ikke personlig ennå. De vil alltid ha mer enn jeg kan gi, og når jeg ikke gir det, kaller de det unngåelse eller traumereaksjon. Kanskje det stemmer, men det føles fortsatt som en pen måte å si at jeg ikke samarbeider på. Hvis du skal gjøre det, vil jeg heller vite det tidlig.",
-      "suggestion": "[Selvbevissthet] Jeg merker stikket i mistilliten og et ønske om å forklare meg; jeg ville holdt forklaringsimpulsen privat og lagt merke til hvor stikket lander."
+      "suggestion": "[Selvbevissthet] Jeg merker stikket i mistilliten og et drag mot å forklare at jeg er annerledes; jeg ville holdt forklaringsimpulsen privat og kjent hvor stikket lander."
     },
     "dp_therapist-self-awareness_case-marcus_07": {
       "text": "[Flatt] Jeg husker ikke så mye, og jeg blir anspent når folk presser etter detaljer. Noen ganger vet jeg faktisk ikke, og noen ganger vet jeg nok til å vite at jeg ikke vil vite mer foran et annet menneske. Så stiller folk oppfølgingsspørsmål som om de er forsiktige, men det føles fortsatt som graving. Jeg kjenner at skuldrene mine gjør seg klare til det akkurat nå.",
-      "suggestion": "[Selvbevissthet] Jeg merker nysgjerrighet på de manglende detaljene og en advarsel i mine egne skuldre; jeg ville brukt den advarselen til å stoppe meg selv fra å grave."
+      "suggestion": "[Selvbevissthet] Jeg merker nysgjerrighet på manglende detaljer og at skuldrene mine gjør seg klare til å lene seg inn; jeg ville brukt den advarselen til å stoppe meg selv fra å grave."
     },
     "dp_therapist-self-awareness_case-marcus_08": {
       "text": "[Hyperårvåken] Kan vi holde oss til praktiske tips? Følelser gjør dette for løst, og løst kjennes utrygt. Hvis det finnes en plan, kan jeg følge den. Hvis vi bare begynner å utforske, må jeg følge med på deg, døra, kroppen min, det minnet som eventuelt dukker opp, og om jeg fortsatt kan kjøre hjem etterpå. Struktur er ikke at jeg er vanskelig. Det er sånn jeg blir her.",
-      "suggestion": "[Selvbevissthet] Jeg merker lettelse over ønsket om struktur og en bekymring for å unngå følelser; jeg ville holdt begge deler uten å argumentere for dybde."
+      "suggestion": "[Selvbevissthet] Jeg merker lettelse over det konkrete ønsket og bekymring for at struktur kan unngå følelser; jeg ville holdt begge reaksjonene uten å argumentere for dybde."
     },
     "dp_therapist-self-awareness_case-marcus_09": {
       "text": "[Stille og på vakt] På vei hit så jeg en lastebil og tenkte: Hvis jeg svingte inn i den, ville i det minste bråket stoppe. Jeg svingte ikke. Jeg fortsatte å kjøre. Jeg sier det fordi det virker dumt å late som jeg ikke tenkte det, men jeg vil ikke at du skal få panikk eller begynne å behandle meg som skjør. Jeg har hatt tanker før. Jeg er fortsatt her.",
-      "suggestion": "[Selvbevissthet] Jeg merker frykt, hastverk og et drag mot å ta over; jeg ville stødiggjort kroppen før jeg bestemmer hvilken sikkerhetsinformasjon jeg skal dele eller spørre om."
+      "suggestion": "[Selvbevissthet] Jeg merker frykt, hastverk og et drag mot å ta over sikkerheten; jeg ville stødiggjort kroppen først, så jeg kan møte risiko uten panikk eller kollaps."
     },
     "dp_therapist-self-awareness_case-marcus_10": {
-      "text": "[Defensiv] Jeg klarer meg alene; det er sånn jeg har kommet meg hit. Folk sier det som om det er et problem, men det å kunne stenge av og fortsette er grunnen til at jeg lever. Hvis terapi betyr å ta det fra hverandre, er jeg ikke interessert. Kanskje det koster meg noe, men det å være avhengig av folk har kostet meg mer.",
-      "suggestion": "[Selvbevissthet] Jeg merker respekt for uavhengigheten hans og tristhet over prisen; jeg ville fulgt begge reaksjonene og unngått å presse på for kontakt for å roe meg selv."
+      "text": "[Defensiv] Jeg klarer meg alene; det er sånn jeg har kommet meg hit. Folk sier det som om det er et problem, men det å kunne stenge av og fortsette er grunnen til at jeg lever. Hvis terapi betyr å ta det fra hverandre, er jeg ikke interessert. Kanskje det koster meg noe, men det å være avhengig av folk har kostet meg mer. Jeg trenger ikke enda en person som ser trist ut fordi jeg lærte å overleve.",
+      "suggestion": "[Selvbevissthet] Jeg merker respekt for uavhengigheten hans, tristhet over prisen og et ønske om å vise at jeg ikke er enda en som trenger noe av ham; jeg ville fulgt det ønsket uten å presse på for kontakt."
     },
     "dp_empathic-understanding_case-sara_01": {
       "text": "[På gråten] Jeg er skikkelig nedfor i dag. Jeg tenker hele tiden på bruddet og savner ham.",

@@ -257,127 +257,127 @@ export const STATEMENT_SETS = {
     "case-aisha": [
       {
         "text": "[Desperate] You did not reply fast when I sent that message about changing the appointment, and I know you probably have rules about messages, but I felt abandoned. Then I felt stupid for caring that much. I kept checking my phone and telling myself I was pathetic. By the time you answered, I wanted to act like I did not care, but I did.",
-        "suggestion": "[Self-awareness] I notice alarm and a pull to promise faster contact; I would ground my feet and keep any urge to over-reassure private."
+        "suggestion": "[Self-awareness] I notice a jolt of alarm, guilt in my chest, and a pull to promise faster contact; I would slow down before letting my wish to repair become over-reassurance."
       },
       {
         "text": "[Desperate] If you cancel, I do not think I can come back. I know people get sick or have emergencies, but when someone cancels on me my brain does not treat it like a calendar thing. It feels like I was stupid for trusting them. Then I want to delete their number, hurt myself, or make them prove I matter. I hate that I am telling you this.",
-        "suggestion": "[Self-awareness] I notice fear, protectiveness, and a pressure to guarantee I will not cancel; I would track that pressure and protect the boundary."
+        "suggestion": "[Self-awareness] Fear and protectiveness rise quickly, with pressure to guarantee I will never cancel; I would steady that pressure and keep the boundary honest."
       },
       {
         "text": "[Desperate] Tell me you care about me, because I cannot tell from just sitting here. You look calm, and I know therapists are supposed to look calm, but calm can also mean you are not feeling anything. I need something more than nodding. If you care, why is it so hard to just say it in a way I can believe?",
-        "suggestion": "[Self-awareness] I notice a strong pull to reassure her and some anxiety about getting the boundary wrong; I would name the pull to myself before choosing any words."
+        "suggestion": "[Self-awareness] I notice the wish to say the perfect caring thing and anxiety about either withholding or giving too much; I would track that bind before choosing words."
       },
       {
         "text": "[Panicked] When the emptiness gets sharp, I want to hurt myself so it stops. I am not saying that to scare you. I am saying it because if I do not say it, I will sit here pretending to be normal and then go home with it. Part of me wants you to react so I know it matters, and part of me is terrified you will overreact and send me away.",
-        "suggestion": "[Self-awareness] I notice fear in my stomach, urgency, and a wish to move into safety action; I would steady myself before disclosing only what supports safe presence."
+        "suggestion": "[Self-awareness] I feel fear in my stomach and urgency to shift into safety management; I would name the urgency inside so my next step is calm, not panicked."
       },
       {
         "text": "[Desperate] I keep expecting you to leave, and then I hate myself for needing you. It is exhausting because I can hear myself testing you, watching your face, waiting for proof that you are done. Then if you are kind, I feel even more attached and angry. I do not know how to be in this room without making you too important.",
-        "suggestion": "[Self-awareness] I notice the push-pull in my own body and a wish to stabilize the relationship quickly; I would track that urgency without over-disclosing."
+        "suggestion": "[Self-awareness] I feel pulled to prove steadiness and end the testing quickly; I would notice that rescue pressure without making the session about my reliability."
       },
       {
         "text": "[Desperate] I hate you for having that boundary, and please do not leave me. I know that sounds impossible, but that is what it feels like. When you say we have to stop on time, I hear that you are choosing the clock over me. Then I want to scream at you and beg you in the same breath. I hate this.",
-        "suggestion": "[Self-awareness] I notice a pull to defend the boundary and a pull to soften it; I would feel both reactions and keep my own frame steady."
+        "suggestion": "[Self-awareness] I notice irritation at being hated and tenderness toward the plea; I would let both be present and keep the frame steady."
       },
       {
-        "text": "[Panicked] I keep checking whether you are looking at me, because if you look away I panic. Even when you glance at your notes, I feel this drop like I have disappeared. Then I get embarrassed because I know you are allowed to look at notes. I am watching you so closely that I can barely hear myself talk.",
-        "suggestion": "[Self-awareness] I notice pressure to maintain perfect eye contact and a fear of failing her; I would track the performance pressure rather than perform intensity."
+        "text": "[Panicked] I keep checking whether you are looking at me, because if you look away I panic. Even when you glance at your notes, I feel this drop like I have disappeared. I know you are allowed to write things down, so then I start monitoring whether I am being unreasonable, which only makes me watch you harder. I am barely hearing myself talk because I am trying to read your face for proof I still exist here.",
+        "suggestion": "[Self-awareness] I notice pressure to give constant eye contact and a fear that ordinary note-taking will harm her; I would track my performance tension instead of trying to perform perfect presence."
       },
       {
         "text": "[Flirtatious and scared] Sometimes I imagine what it would be like if you met me outside therapy and actually wanted me. I hope you do not freak out. I know this is therapy, but I also notice what you wear and wonder if you ever think I am attractive. Part of me wants you to say no so I can stop hoping, and part of me wants you to hesitate.",
-        "suggestion": "[Self-awareness] I notice possible flattery, alarm, and a wish to retreat into professionalism; I would disclose only a safe bodily reaction and keep private material private."
+        "suggestion": "[Self-awareness] I notice flattery, alarm, and a wish to hide behind professionalism; I would keep private any personal reaction that does not serve safety and boundary clarity."
       },
       {
-        "text": "[Fearful and ashamed] I feel disgusting because of what was done to me. I know people say it was not my fault, and I can repeat that sentence like homework, but it does not touch the feeling. When I imagine you knowing more details, I want to disappear. I am scared you will see me differently even if your face stays kind.",
-        "suggestion": "[Self-awareness] I notice sorrow, protectiveness, and a wish to fix the shame with words; I would track the impulse to correct her feeling before I speak."
+        "text": "[Fearful and ashamed] I feel disgusting because of what was done to me. I know people say it was not my fault, and I can repeat that sentence like homework, but it does not touch the feeling. When I imagine you knowing more details, I start watching your face for the smallest change. If you even blink differently, I will think you are trying not to look disgusted, even if you stay kind.",
+        "suggestion": "[Self-awareness] I notice grief, protectiveness, and a strong urge to cleanse the shame with reassurance; I would feel the urge and not rush to correct the feeling for her."
       },
       {
         "text": "[Panicked] Promise you will not give up on me, even when I get too much. People always say they will not, and then I watch the moment they start getting tired. I can feel myself becoming that person in here too, the one who asks for too much and ruins it. I need you to promise, but I also know I will not fully believe you.",
-        "suggestion": "[Self-awareness] I notice a strong urge to make an absolute promise and relieve the panic; I would hold that urge carefully and protect the honesty of my limits."
+        "suggestion": "[Self-awareness] A strong pull comes up to make an absolute promise so her panic drops; I would hold the ache of not being able to promise that way and keep my limits truthful."
       }
     ],
     "case-david": [
       {
         "text": "[Controlled] Before I invest in this, I need to know whether you are worth my time. I do not mean that as an insult; I evaluate professionals for a living. I have sat with therapists who nodded sympathetically while contributing nothing. If this is going to be another hour of vague feelings language, I would rather know now so we can both use our time efficiently.",
-        "suggestion": "[Self-awareness] I notice a sting and an impulse to perform competence; I would feel that in my chest and not turn the practice into proving myself."
+        "suggestion": "[Self-awareness] I notice a sting, a tightening in my chest, and an urge to demonstrate competence; I would let that be my material, not turn the exercise into proving myself."
       },
       {
         "text": "[Dismissive] My success speaks for itself. My wife says I am cold, but she also benefits from the life my standards created. She overreacts when she cannot keep up, and then somehow I am supposed to apologize for being the competent one. I know that sounds arrogant, but I am tired of being punished for functioning better than the people criticizing me.",
-        "suggestion": "[Self-awareness] I notice judgment and a pull to debate his superiority; I would quietly label the judgment and return attention to my body."
+        "suggestion": "[Self-awareness] I notice judgment and a wish to debate the arrogance; I would mark that reaction privately so it does not become a hidden counterattack."
       },
       {
         "text": "[Demanding] I need efficient solutions, not a slow tour through my feelings. I have a marriage problem, a reputation problem, and a time problem. If the method is to sit with discomfort until something magical happens, I am skeptical. I am willing to do difficult work, but I need to see that you can distinguish depth from inefficiency.",
-        "suggestion": "[Self-awareness] I notice pressure to justify EFT and sound impressive; I would track the performance urge and keep my boundaries around what I disclose."
+        "suggestion": "[Self-awareness] I notice pressure to make EFT sound efficient and impressive; I would track the performance demand in me and keep any self-disclosure boundaried."
       },
       {
         "text": "[Skeptical] Are you actually experienced enough for someone like me, or is this just standard therapy with better branding? I am not trying to be difficult. I have serious issues on the table, including an affair and a marriage that may collapse. I do not want to be someone's learning experience. If you are out of your depth, I would prefer you say so.",
-        "suggestion": "[Self-awareness] I notice defensiveness, pride, and some anxiety about competence; I would disclose only a grounded reaction, not the whole defensive storm."
+        "suggestion": "[Self-awareness] I notice defensiveness, pride, and anxiety about being evaluated; I would ground before sharing anything, so I do not make him manage my competence worry."
       },
       {
         "text": "[Dismissive] People call me a narcissist because they are jealous or lazy with language. My wife used that word during a fight, and now it has become a convenient way to dismiss anything I say. I want you to say clearly that they are wrong, not do the therapist thing where you pretend to be neutral while quietly agreeing with them.",
-        "suggestion": "[Self-awareness] I notice a pull to avoid being trapped by the demand and a reaction to the label; I would track my wish to stay neutral without hiding behind neutrality."
+        "suggestion": "[Self-awareness] I notice a trap feeling, irritation at the demand, and a pull to look neutral; I would track how easily neutrality could become self-protection."
       },
       {
         "text": "[Dismissive] I do not make mistakes like that; other people drop the ball and then act wounded when I point it out. If I sound harsh, it is because someone has to keep standards from collapsing. My wife says I cannot admit fault, but I admit fault when there is actually fault to admit. I will not perform humility just to make others comfortable.",
-        "suggestion": "[Self-awareness] I notice irritation and a temptation to enter a power struggle; I would keep that temptation private and observe the heat in my face."
+        "suggestion": "[Self-awareness] I notice heat in my face and a temptation to argue him into humility; I would keep the power-struggle impulse private and breathe before responding."
       },
       {
-        "text": "[Controlled] I expect results quickly, because otherwise this becomes another arena where I am exposed and not improving fast enough. I know that sounds like I am putting pressure on you, and maybe I am. But I put more pressure on myself. If I am going to sit here talking about failure, I need evidence that the discomfort is buying something.",
-        "suggestion": "[Self-awareness] I notice urgency entering me and a wish to provide evidence; I would name the urgency internally and protect my pace."
+        "text": "[Controlled] I expect results quickly, because otherwise this becomes another arena where I am exposed and not improving fast enough. I know that sounds like I am putting pressure on you, and maybe I am, but I put more pressure on myself. I have built my whole life around not needing help for long. If I am going to sit here talking about failure, I need evidence that the discomfort is buying something and that you can tolerate the pressure without getting vague.",
+        "suggestion": "[Self-awareness] I notice urgency entering me, plus a wish to provide evidence and relieve the pressure; I would name the urgency internally and protect a steadier pace."
       },
       {
         "text": "[Dismissive] Do not psychoanalyze me or turn me into a case study. I can see people doing that, collecting little clues from my childhood or my marriage and then acting like they have solved me. I am not here to be reduced to a pattern. If you start using jargon to make distance sound profound, I will call it out.",
-        "suggestion": "[Self-awareness] I notice a wish to defend clinical language and a fear of being called out; I would let the fear be known to me without making him manage it."
+        "suggestion": "[Self-awareness] I notice a wish to defend clinical language and a fear that my words will sound performative; I would let the fear be known to me without handing it to him."
       },
       {
         "text": "[Skeptical] This better not be like my last therapist, who sat there nodding while nothing changed. I would talk, he would say something soft, and then I would leave with the same marriage and the same problems. I do not need a paid witness. I need someone who can actually think and challenge me without becoming emotional about it.",
-        "suggestion": "[Self-awareness] I notice a pull to prove I am active and thoughtful; I would track the performance pull and the sting of comparison."
+        "suggestion": "[Self-awareness] I notice a pull to prove I am active, sharp, and different from the last therapist; I would track the sting of comparison before trying to impress him."
       },
       {
         "text": "[Skeptical] My wife says I drink too much, but she nags me into it. I have a few drinks at night because my job carries pressure she cannot imagine. To be honest, women often do not understand pressure like mine; they talk about stress, but they are not responsible for the livelihoods of hundreds of people. I hope I can be direct here without you getting politically offended.",
-        "suggestion": "[Self-awareness] I notice irritation, judgment, and pressure to confront the sexism; I would track those reactions so any later response is chosen rather than reactive."
+        "suggestion": "[Self-awareness] I notice irritation, judgment, and urgency to confront the sexism and alcohol minimization; I would hold those reactions so any boundary or challenge is chosen rather than reactive."
       }
     ],
     "case-marcus": [
       {
         "text": "[Slow and flat] I keep saying I am fine because I do not know what else you want from me. Fine is not great, but it is accurate enough. I got up, went to work, came here. That is more than some days. When therapists keep asking what fine means, it starts to feel like they want me to produce something for them, and I do not have much to produce.",
-        "suggestion": "[Self-awareness] I notice a pull to draw more out of him and some discomfort with the flatness; I would track that pull and let enough be enough."
+        "suggestion": "[Self-awareness] I notice discomfort with the flatness and a pull to make him produce more; I would track the pull as mine and allow the room to stay sparse."
       },
       {
         "text": "[Hopeless] Talking does not change what happened, and I hate when therapists pretend it does. I have had people nod like they understood, then tell me I need to process it. Process what? The facts are the facts. People died, people left, and I came back different. I am not trying to be difficult. I just do not want another person selling me hope they cannot back up.",
-        "suggestion": "[Self-awareness] I notice defensiveness on behalf of therapy and a sinking feeling; I would name that to myself and avoid selling hope to relieve it."
+        "suggestion": "[Self-awareness] I notice a sinking feeling and defensiveness on behalf of therapy; I would not sell hope to relieve my own helplessness."
       },
       {
         "text": "[Hypervigilant] Nightmares are just part of it, and I do not want you making a big deal. If I tell you one detail, people usually lean forward like they are waiting for the movie version. Then I have to manage their face while I am already back there. I sleep badly, I wake up checking the room, and then I go to work. That is the whole report.",
-        "suggestion": "[Self-awareness] I notice curiosity and concern, plus a wish to lean in; I would track that movement and keep my body from pressing for trauma detail."
+        "suggestion": "[Self-awareness] I notice concern, curiosity, and a forward lean in myself; I would use that awareness to stop myself from asking for the movie version of the trauma."
       },
       {
         "text": "[Flat] I prefer to keep to myself because people usually want more than I have. They want answers, emotion, reassurance that I am okay, a version of me that makes them comfortable. Then I have to either perform normal or disappoint them. Alone is simpler. The problem is that alone also gets loud at night, so I am not pretending it works perfectly.",
-        "suggestion": "[Self-awareness] I notice loneliness in myself and a pull to move closer; I would respect the distance and observe the wish to reduce it."
+        "suggestion": "[Self-awareness] I notice loneliness in me and a wish to shorten the distance; I would respect the distance and not move closer to soothe my own ache."
       },
       {
-        "text": "[Low voice] Feelings make things worse. Once they start, I lose the rest of the night. People say you have to feel it to heal it, but they do not have to sit in my apartment at 3 a.m. with every sound turned up. If I open something here and it follows me home, I am the one who has to deal with it.",
-        "suggestion": "[Self-awareness] I notice caution and a wish to defend the value of feeling work; I would track that defensiveness and keep the contact light."
+        "text": "[Low voice] Feelings make things worse. Once they start, I lose the rest of the night. People say you have to feel it to heal it, but they do not have to sit in my apartment at 3 a.m. with every sound turned up and my brain replaying things I did not ask for. If I open something here and it follows me home, I am the one who has to deal with it while everyone else sleeps.",
+        "suggestion": "[Self-awareness] I notice caution, protectiveness, and a defensive wish to argue for feeling work; I would keep that argument inside and let the safety concern matter."
       },
       {
         "text": "[Quiet and guarded] I do not trust therapists. That is not personal yet. They always want more than I can give, and when I do not give it, they call it avoidance or trauma response. Maybe that is true, but it still feels like a dressed-up way of saying I am not cooperating. If you are going to do that, I would rather know early.",
-        "suggestion": "[Self-awareness] I notice the sting of distrust and a wish to explain myself; I would keep the explanation impulse private and notice where the sting lands."
+        "suggestion": "[Self-awareness] I notice the sting of distrust and a pull to explain that I am different; I would keep the explanation impulse private and feel where the sting lands."
       },
       {
         "text": "[Flat] I do not remember much, and I get tense when people push for details. Sometimes I genuinely do not know, and sometimes I know enough to know I do not want to know more in front of another person. Then people ask follow-up questions like they are being careful, but it still feels like digging. I can feel my shoulders getting ready for it right now.",
-        "suggestion": "[Self-awareness] I notice curiosity about the missing details and a warning in my own shoulders; I would use that warning to stop myself from digging."
+        "suggestion": "[Self-awareness] I notice curiosity about missing details and my shoulders preparing to lean in; I would use that warning to stop myself from digging."
       },
       {
         "text": "[Hypervigilant] Let us stick to practical tips. Feelings make this too loose, and loose feels unsafe. If there is a plan, I can follow it. If we just start exploring, I have to track you, the door, my body, whatever memory decides to show up, and whether I can still drive home afterward. Structure is not me being difficult. It is how I stay here.",
-        "suggestion": "[Self-awareness] I notice relief at the request for structure and a concern about avoiding emotion; I would hold both without arguing for depth."
+        "suggestion": "[Self-awareness] I notice relief at the concrete request and concern that structure may avoid emotion; I would hold both reactions without arguing for depth."
       },
       {
         "text": "[Quiet and guarded] On the drive here I saw a truck and thought, If I turned into it, at least the noise would stop. I did not turn. I kept driving. I am saying it because pretending I did not think it seems stupid, but I do not want you to panic or start treating me like I am fragile. I have had thoughts before. I am still here.",
-        "suggestion": "[Self-awareness] I notice fear, urgency, and a pull to take over; I would steady my body before deciding what safety information to share or ask for."
+        "suggestion": "[Self-awareness] I notice fear, urgency, and a pull to take over safety; I would steady my body first so I can respond to risk without panic or collapse."
       },
       {
-        "text": "[Defensive] I can handle it alone; that is how I have made it this far. People say that like it is a problem, but being able to shut down and keep moving is why I am alive. If therapy means taking that apart, I am not interested. Maybe it costs me something, but depending on people has cost me more.",
-        "suggestion": "[Self-awareness] I notice respect for his independence and sadness about the cost; I would track both reactions and avoid pushing contact to soothe myself."
+        "text": "[Defensive] I can handle it alone; that is how I have made it this far. People say that like it is a problem, but being able to shut down and keep moving is why I am alive. If therapy means taking that apart, I am not interested. Maybe it costs me something, but depending on people has cost me more. I do not need another person looking sad because I learned how to survive.",
+        "suggestion": "[Self-awareness] I notice respect for his independence, sadness about its cost, and a wish to show I am not another person needing something from him; I would track that wish without pushing contact."
       }
     ]
   },
