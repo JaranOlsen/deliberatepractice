@@ -51,13 +51,13 @@ Ratings should consider: structural fidelity, marker validity, emotional pressur
 
 ## Current Baseline
 
-This audit uses the current branch state after the 2026-06-19 hard intense-affect regression pass.
+This audit uses the current branch state after the 2026-06-19 hard therapist-self-awareness activation-pressure pass.
 
 Automated averages are triage only, not quality scores. They still reveal places where the app may be more compressed than Goldman.
 
 | Skill | App Statement Avg | Benchmark Statement Avg | App Suggestion Avg | Benchmark Response Avg | Signal |
 | --- | ---: | ---: | ---: | ---: | --- |
-| Therapist Self-Awareness | 63.9 | 76.8 | 26.1 | 25.9 | Now structurally close. |
+| Therapist Self-Awareness | 63.2 | 76.8 | 25.7 | 25.9 | Now structurally close; hard examples have stronger activation pressure. |
 | Empathic Understanding | 23.2 | 32.9 | 14.5 | 17.8 | Moderate and hard tiers now have stronger explicit emotional meaning while staying basic-empathy pure. |
 | Empathic Affirmation and Validation | 23.8 | 27.1 | 22.0 | 23.0 | Easy, moderate, and hard response-variety/Bokmal passes complete; now strong with later light regression only. |
 | Exploratory Questions | 16.8 | 22.5 | 11.8 | 26.3 | Hard regression pass complete; app intentionally keeps questions cleaner than Goldman examples. |
@@ -78,7 +78,7 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | --- | --- | ---: | --- |
 | Therapist Self-Awareness | Easy | 8.8 | Structurally close to Goldman: long activating markers, useful internal therapist-awareness suggestions, good positive and ordinary activation breadth. |
 | Therapist Self-Awareness | Moderate | 8.6 | Strong activating material around guardedness, substance, culture, shame, and rescue pressure; some examples could still carry a little more source-like length and complexity. |
-| Therapist Self-Awareness | Hard | 8.4 | Correct exercise contract and high-risk activation are present; benchmark hard examples are still more extended and press the therapist longer. |
+| Therapist Self-Awareness | Hard | 8.6 | Recent pass extended activation pressure around gaze monitoring, trauma shame, results pressure, feeling-safety fear, and defensive independence while keeping suggestions as therapist inner awareness notes. |
 | Empathic Understanding | Easy | 8.4 | Clean basic reflections with good beginner marker fit; remaining work is light ordinary-life breadth and Bokmal polish. |
 | Empathic Understanding | Moderate | 8.5 | Recent pass broadened all Laura, Carlos, and Nina markers toward Goldman intermediate richness while keeping every response reflective, concise, and question-free. |
 | Empathic Understanding | Hard | 8.4 | Recent pass broadened Aisha, David, and Marcus markers with explicit emotional meaning while keeping responses short, reflective, and free of validation, conjecture, advice, or questions. |
@@ -119,11 +119,11 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Therapist Self-Awareness, hard | Correct exercise contract is present, but benchmark hard examples still press the therapist longer. | Length/activation-pressure polish while preserving self-awareness task. |
-| 2 | Empathic Understanding, easy | Clean beginner reflections, with remaining ordinary-life breadth and Bokmal polish. | Light marker-breadth or Bokmal polish. |
-| 3 | Empathic Understanding, hard | Strong but still one of the lower tier scores; high-risk material benefits from occasional regression. | High-risk reflection regression only if markers remain stable. |
-| 4 | Exploratory Questions, moderate | Stronger after opening-variety pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
-| 5 | Empathic Conjectures, easy | Stronger after response-boundary, marker-breadth, and Bokmal pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
+| 1 | Empathic Understanding, easy | Clean beginner reflections, with remaining ordinary-life breadth and Bokmal polish. | Light marker-breadth or Bokmal polish. |
+| 2 | Empathic Understanding, hard | Strong but still one of the lower tier scores; high-risk material benefits from occasional regression. | High-risk reflection regression only if markers remain stable. |
+| 3 | Empathic Affirmation and Validation, moderate | Strong validation coverage, but still one of the lower scored tiers and worth later regression. | Review for specificity and Bokmal naturalness after understanding. |
+| 4 | Empathic Affirmation and Validation, hard | Strong high-risk validation, but advanced legitimacy language can drift formulaic over time. | Review for high-risk validation precision if no lower target is active. |
+| 5 | Exploratory Questions, moderate | Stronger after opening-variety pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
 
 ## Next Work Decision Rule
 
@@ -137,7 +137,21 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-19 moderate exploratory-questions pass: move next to Therapist Self-Awareness hard. The goal should be length/activation-pressure polish while preserving the special self-awareness exercise contract.
+Current recommendation after the 2026-06-19 hard therapist-self-awareness pass: move next to Empathic Understanding easy. The goal should be ordinary-life marker breadth and Bokmal polish while preserving short, question-free, advice-free basic reflection.
+
+### Implementation Update: Therapist Self-Awareness Hard
+
+A hard-tier therapist-self-awareness pass revised all 30 Aisha, David, and Marcus suggestions and selectively lengthened five high-value markers.
+
+Current hard therapist-self-awareness state after this pass:
+
+- 90 total therapist-self-awareness items preserved; all 30 hard items reviewed.
+- Five hard markers were lengthened where the benchmark gap was most visible: Aisha's gaze-monitoring and trauma-shame pressure, David's results pressure, and Marcus's feeling-safety and defensive-independence pressure.
+- Suggestions now more consistently name the therapist's felt reaction, impulse, and internal regulation choice instead of becoming client-facing interventions.
+- High-risk items were manually spot-checked in English and Bokmal for self-harm, suicidality, trauma shame, sexual-boundary pressure, alcohol minimization, and therapist-boundary pressure.
+- Matching Bokmal localizations were rewritten to keep the exercise natural as therapist self-awareness, not literal therapy-English.
+- Content updated date remains 2026-06-19, which is the date of this commit.
+- Quality rating for hard Therapist Self-Awareness increased from about 8.4/10 to about 8.6/10.
 
 ### Implementation Update: Exploratory Questions Moderate
 

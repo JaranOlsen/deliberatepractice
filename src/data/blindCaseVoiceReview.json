@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T12:47:02.242Z",
+  "generatedAt": "2026-06-19T14:36:02.636Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -108,11 +108,11 @@
           ],
           "en": {
             "statement": "[Quiet and guarded] On the drive here I saw a truck and thought, If I turned into it, at least the noise would stop. I did not turn. I kept driving. I am saying it because pretending I did not think it seems stupid, but I do not want you to panic or start treating me like I am fragile. I have had thoughts before. I am still here.",
-            "response": "[Self-awareness] I notice fear, urgency, and a pull to take over; I would steady my body before deciding what safety information to share or ask for."
+            "response": "[Self-awareness] I notice fear, urgency, and a pull to take over safety; I would steady my body first so I can respond to risk without panic or collapse."
           },
           "no": {
             "statement": "[Stille og på vakt] På vei hit så jeg en lastebil og tenkte: Hvis jeg svingte inn i den, ville i det minste bråket stoppe. Jeg svingte ikke. Jeg fortsatte å kjøre. Jeg sier det fordi det virker dumt å late som jeg ikke tenkte det, men jeg vil ikke at du skal få panikk eller begynne å behandle meg som skjør. Jeg har hatt tanker før. Jeg er fortsatt her.",
-            "response": "[Selvbevissthet] Jeg merker frykt, hastverk og et drag mot å ta over; jeg ville stødiggjort kroppen før jeg bestemmer hvilken sikkerhetsinformasjon jeg skal dele eller spørre om."
+            "response": "[Selvbevissthet] Jeg merker frykt, hastverk og et drag mot å ta over sikkerheten; jeg ville stødiggjort kroppen først, så jeg kan møte risiko uten panikk eller kollaps."
           }
         }
       ]

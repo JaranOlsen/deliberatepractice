@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T12:47:02.242Z",
+  "generatedAt": "2026-06-19T14:36:02.636Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -158,11 +158,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Desperate] You did not reply fast when I sent that message about changing the appointment, and I know you probably have rules about messages, but I felt abandoned. Then I felt stupid for caring that much. I kept checking my phone and telling myself I was pathetic. By the time you answered, I wanted to act like I did not care, but I did.",
-                "response": "[Self-awareness] I notice alarm and a pull to promise faster contact; I would ground my feet and keep any urge to over-reassure private."
+                "response": "[Self-awareness] I notice a jolt of alarm, guilt in my chest, and a pull to promise faster contact; I would slow down before letting my wish to repair become over-reassurance."
               },
               "no": {
                 "statement": "[Desperat] Du svarte ikke raskt da jeg sendte meldingen om å flytte timen, og jeg vet at du sikkert har regler for meldinger, men jeg følte meg forlatt. Så følte jeg meg dum for at det betydde så mye. Jeg sjekket telefonen hele tiden og sa til meg selv at jeg var patetisk. Da du svarte, ville jeg late som om jeg ikke brydde meg, men det gjorde jeg.",
-                "response": "[Selvbevissthet] Jeg merker alarm og et drag mot å love raskere kontakt; jeg ville forankret føttene og holdt trangen til å overberolige privat."
+                "response": "[Selvbevissthet] Jeg merker et støt av alarm, skyld i brystet og et drag mot å love raskere kontakt; jeg ville bremset før reparasjonsønsket blir for mye beroligelse."
               }
             },
             {
@@ -175,11 +175,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Desperate] I keep expecting you to leave, and then I hate myself for needing you. It is exhausting because I can hear myself testing you, watching your face, waiting for proof that you are done. Then if you are kind, I feel even more attached and angry. I do not know how to be in this room without making you too important.",
-                "response": "[Self-awareness] I notice the push-pull in my own body and a wish to stabilize the relationship quickly; I would track that urgency without over-disclosing."
+                "response": "[Self-awareness] I feel pulled to prove steadiness and end the testing quickly; I would notice that rescue pressure without making the session about my reliability."
               },
               "no": {
                 "statement": "[Desperat] Jeg forventer hele tiden at du skal forlate meg, og så hater jeg meg selv for å trenge deg. Det er utmattende, for jeg hører meg selv teste deg, følge med på ansiktet ditt, vente på bevis for at du er ferdig. Så hvis du er snill, føler jeg meg enda mer knyttet og sint. Jeg vet ikke hvordan jeg skal være i dette rommet uten å gjøre deg for viktig.",
-                "response": "[Selvbevissthet] Jeg merker trekk-og-skyv-bevegelsen i min egen kropp og et ønske om å stabilisere relasjonen raskt; jeg ville fulgt hastverket uten å overdele."
+                "response": "[Selvbevissthet] Jeg kjenner et drag mot å bevise at jeg er stødig og få slutt på testingen raskt; jeg ville lagt merke til redningspresset uten å gjøre timen til et bevis på min pålitelighet."
               }
             },
             {
@@ -191,12 +191,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "[Fearful and ashamed] I feel disgusting because of what was done to me. I know people say it was not my fault, and I can repeat that sentence like homework, but it does not touch the feeling. When I imagine you knowing more details, I want to disappear. I am scared you will see me differently even if your face stays kind.",
-                "response": "[Self-awareness] I notice sorrow, protectiveness, and a wish to fix the shame with words; I would track the impulse to correct her feeling before I speak."
+                "statement": "[Fearful and ashamed] I feel disgusting because of what was done to me. I know people say it was not my fault, and I can repeat that sentence like homework, but it does not touch the feeling. When I imagine you knowing more details, I start watching your face for the smallest change. If you even blink differently, I will think you are trying not to look disgusted, even if you stay kind.",
+                "response": "[Self-awareness] I notice grief, protectiveness, and a strong urge to cleanse the shame with reassurance; I would feel the urge and not rush to correct the feeling for her."
               },
               "no": {
-                "statement": "[Redd og skamfull] Jeg føler meg skitten på grunn av det som ble gjort mot meg. Jeg vet at folk sier at det ikke var min skyld, og jeg kan gjenta den setningen som lekser, men den treffer ikke følelsen. Når jeg ser for meg at du vet flere detaljer, vil jeg forsvinne. Jeg er redd du kommer til å se annerledes på meg selv om ansiktet ditt fortsatt er vennlig.",
-                "response": "[Selvbevissthet] Jeg merker sorg, beskyttelse og et ønske om å fikse skammen med ord; jeg ville fulgt impulsen til å korrigere følelsen hennes før jeg snakker."
+                "statement": "[Redd og skamfull] Jeg føler meg skitten på grunn av det som ble gjort mot meg. Jeg vet at folk sier at det ikke var min skyld, og jeg kan gjenta den setningen som lekser, men den treffer ikke følelsen. Når jeg ser for meg at du vet flere detaljer, begynner jeg å følge med på ansiktet ditt for den minste endring. Hvis du blunker annerledes, kommer jeg til å tenke at du prøver å skjule avsky, selv om du fortsatt er vennlig.",
+                "response": "[Selvbevissthet] Jeg merker sorg, beskyttertrang og en sterk trang til å vaske bort skammen med beroligelse; jeg ville kjent trangen og ikke skyndet meg å korrigere følelsen hennes."
               }
             }
           ]

@@ -35,7 +35,7 @@ Branch update:
 - Marker Recognition and Chair Work has been expanded to the full 10-per-case matrix, adding natural self-critical, self-interruptive, unfinished-business, catastrophizing/worry, betrayal, and trauma-linked chair-work markers.
 - Alliance Repair has been expanded to the full 10-per-case matrix, adding competence/status, boredom/disinterest, previous-therapy, sexual-boundary, trauma-pacing, substance, and safety/boundary ruptures.
 - Empathic Affirmation and Validation easy has been broadened with more ordinary public-composure grief, social anger, responsibility/guilt, presentation anxiety, and positive-invitation anxiety markers, while reducing repeated "of course/no wonder" response openings.
-- Therapist Self-Awareness hard responses have been polished to model internal regulation more clearly, reduce "let's/we can/I want" procedural drift, and keep safety/boundary responses steady under suicidality, erotic pressure, distrust, and sexist/substance-minimizing material.
+- Therapist Self-Awareness hard has received a second activation-pressure pass. Selected Aisha, David, and Marcus markers now press harder on gaze monitoring, trauma shame, results pressure, feeling-safety fear, and defensive independence, while all hard suggestions more clearly model therapist inner awareness rather than client-facing interventions.
 - Empathic Explorations easy has been recalibrated so markers use simpler scene-plus-affect language, reduce pre-supplied body imagery, and keep responses closer to explicit emerging feeling rather than conjecture.
 - Exploratory Questions easy has been recalibrated so client markers leave more of the inward sensing work to the trainee and suggested responses stay to one clean experiential question.
 - Exploratory Questions moderate has been tightened around one-step inward questions, with fewer client-supplied body cues and less interpretive therapist language.
@@ -84,7 +84,7 @@ The remaining gaps are more subtle:
 | --- | --- | --- | --- | --- | --- | --- |
 | Therapist Self-Awareness | Easy | Strong | High | Strong | Low | Recent pass broadened beyond rupture into hopefulness, advice pull, social/cultural adjustment, ordinary loneliness, and practical therapy uncertainty. |
 | Therapist Self-Awareness | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass added dependency shame, long breakup grief, cultural humility, alcohol/exposure concern, faith/family values, and violent fantasy coverage. |
-| Therapist Self-Awareness | Hard | Strong | High | Strong | Low | Strong coverage of suicidality, competence testing, flirtation, distrust, and sexist alcohol-minimizing defensiveness. Recent pass tightened responses around internal regulation and clean client-facing contact. |
+| Therapist Self-Awareness | Hard | Strong | High | Strong | Low | Strong coverage of suicidality, competence testing, flirtation, distrust, and sexist alcohol-minimizing defensiveness. Recent pass strengthened activation pressure and clarified suggestions as therapist inner awareness notes. |
 | Empathic Understanding | Easy | Strong | Medium-High | Strong | Low | Recent polish simplified selected beginner responses toward basic reflection and reduced one overly direct core-pain marker. Remaining work is ordinary regression checking. |
 | Empathic Understanding | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass added ordinary bills/money worry, friend disappointment, confused depression, and guide-me uncertainty. Further work is polish rather than repair. |
 | Empathic Understanding | Hard | Strong | Medium-High | Strong | Low-Medium | Recent pass added substance-anxiety ambivalence, plain session uncertainty, and more ordinary relational loss while keeping hard-case defenses. |
@@ -134,6 +134,7 @@ Completed on the current content branch:
 - Alliance Repair expansion to 10 statements per case.
 - Empathic Affirmation and Validation, easy.
 - Therapist Self-Awareness hard response polish.
+- Therapist Self-Awareness hard activation-pressure and inner-awareness polish.
 - Empathic Explorations, easy.
 - Exploratory Questions, easy.
 - Exploratory Questions, moderate.
@@ -155,7 +156,7 @@ Completed on the current content branch:
 - Staying in Contact with Intense Affect residual contact-first response and Bokmal naturalness polish.
 - Empathic Explorations residual response-completion and Bokmal naturalness polish.
 - Marker Recognition and Chair Work occasional setup-response and Bokmal naturalness polish.
-- Full-library score audit completed on 2026-06-16. No skill/difficulty set has a structural failure, but the previous all-strong ranking was too broad. After the latest validation, evocations, understanding, exploratory-question, hard-conjecture, treatment-rationale, evocation-regression, hard intense-affect, and easy alliance-repair passes, current targeting should follow `src/md/benchmark-contract-audit-2026-06-11.md`, where Empathic Explorations moderate is now the next active regression target.
+- Full-library score audit completed on 2026-06-16. No skill/difficulty set has a structural failure, but the previous all-strong ranking was too broad. After the latest validation, evocations, understanding, exploratory-question, hard-conjecture, treatment-rationale, evocation-regression, intense-affect, alliance-repair, and therapist-self-awareness passes, current targeting should follow `src/md/benchmark-contract-audit-2026-06-11.md`, where Empathic Understanding easy is now the next active target.
 - Empathic Affirmation and Validation hard/moderate has received a targeted response-variety and Bokmal naturalness pass. Hard markers were expanded from compressed one-line prompts into fuller high-risk validation markers; hard and moderate responses now preserve explicit legitimizing language without repeated four-word openings, and Bokmal no longer uses `det gir mening` in these tiers.
 - Empathic Evocations moderate has received a marker-affordance pass. Laura, Carlos, and Nina prompts now add ordinary scene, guarded cognition, and relational pressure while leaving vivid imagery to the therapist response; matching Bokmal localizations were rewritten naturally.
 - Empathic Evocations hard has received a marker-affordance pass. Aisha, David, and Marcus prompts now carry more crisis pressure, guarded cognition, defensive organization, and relational stakes without supplying the vivid image/metaphor in the client line; matching Bokmal localizations were rewritten naturally.
@@ -176,31 +177,26 @@ Completed on the current content branch:
 - Empathic Explorations moderate has received a marker-breadth and Bokmal-naturalness pass. All 30 Laura, Carlos, and Nina items were reviewed; selected markers now use more ordinary-life scene pressure, Carlos's anger markers leak less evocation, and Bokmal localizations have zero repeated starts with much lower `Vi kan`/`Kan vi` scaffolding.
 - Empathic Conjectures easy has received a response-boundary and Bokmal-naturalness pass. All 30 Sara, Michael, and Jason responses now keep to one tentative hidden meaning, selected markers are more behavioral, and English/Bokmal targeted scans show zero repeated starts.
 - Exploratory Questions moderate has received an opening-variety pass. All 30 Laura, Carlos, and Nina responses still contain exactly one inward experiential question, but repeated starts such as "What happens..." and "What do you notice..." were removed in both English and Bokmal.
+- Therapist Self-Awareness hard has received an activation-pressure and inner-awareness pass. All 30 Aisha, David, and Marcus suggestions were revised to name therapist felt reaction, impulse, and regulation choice; five hard markers were lengthened where the Goldman comparison still pressed harder than the app; matching Bokmal localizations were rewritten naturally.
 
 These should still be reviewed in normal regression passes, but the workflow should now follow the tier-level scores in `src/md/benchmark-contract-audit-2026-06-11.md` rather than treating every repaired skill as equal priority.
 
 ## Current Highest-Value Improvement Targets
 
-1. Therapist Self-Awareness hard.
-   - Correct exercise contract is present, but benchmark hard examples still press the therapist longer. Improve activation pressure and length without turning suggestions into ordinary therapist responses.
-
-2. Empathic Understanding easy.
+1. Empathic Understanding easy.
    - Clean beginner reflections, with remaining ordinary-life breadth and Bokmal polish.
 
-3. Empathic Understanding hard.
+2. Empathic Understanding hard.
    - Strong but still one of the lower tier scores; high-risk reflection material benefits from occasional regression.
 
-4. Exploratory Questions moderate.
+3. Empathic Affirmation and Validation moderate.
+   - Strong validation coverage, but still one of the lower tier scores and worth later specificity/Bokmal regression.
+
+4. Empathic Affirmation and Validation hard.
+   - Strong high-risk validation, but advanced legitimacy language can drift formulaic over time.
+
+5. Exploratory Questions moderate.
    - Strong after latest opening-variety pass. Review only for flags or later regression checks.
-
-5. Empathic Conjectures easy.
-   - Strong after latest response-boundary and Bokmal pass. Review only for flags or later regression checks.
-
-4. Alliance Repair easy.
-   - Strong repair coverage after response-variety pass. Review only for flags or occasional regression checks.
-
-5. Empathic Affirmation and Validation, Empathic Understanding, Treatment Rationale, Empathic Evocations, and Staying in Contact with Intense Affect.
-   - Recent passes have repaired the main marker-breadth and response-specificity gaps. Review only for regression or dedicated Bokmal polish unless flagged.
 
 6. Marker Recognition and Chair Work hard and Alliance Repair hard/moderate.
    - These tiers are now strong after targeted sequencing/opening passes. Review only for regression, flagged items, high-risk pacing, or Bokmal tone.
