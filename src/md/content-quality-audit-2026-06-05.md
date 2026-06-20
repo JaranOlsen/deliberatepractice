@@ -67,6 +67,7 @@ Branch update:
 - Empathic Explorations moderate has received a marker-breadth and Bokmal naturalness pass: all 30 Laura, Carlos, and Nina items were reviewed, with selected markers made more ordinary and less over-imagistic while responses keep one small live-edge exploration step. Bokmal localizations now have no repeated starts and much lower use of literal scaffolds such as `Vi kan`/`Kan vi`. Estimated moderate-tier quality moved from roughly 8.4/10 to 8.6/10.
 - Empathic Conjectures easy has received a response-boundary, marker-breadth, and Bokmal pass: all 30 Sara, Michael, and Jason items were reviewed, with responses tightened toward one tentative near-surface guess and selected markers made more behavioral. English and Bokmal targeted scans show zero repeated starts. Estimated easy-tier quality moved from roughly 8.4/10 to 8.6/10.
 - Exploratory Questions moderate has received an opening-variety, one-question, and Bokmal-naturalness polish: all 30 Laura, Carlos, and Nina responses were revised while preserving stable markers and exactly one question per item. English and Bokmal targeted scans now show zero repeated starts, no skill drift, and less reliance on "where"/"what feeling" scaffolding. Estimated moderate-tier quality moved from roughly 8.4/10 to 8.7/10.
+- Empathic Explorations easy has received a response-variety and Bokmal-naturalness pass: all 30 Sara, Michael, and Jason responses now include a clear exploration move, remove repeated `let's/can we/la oss/kan vi` scaffolding, and reduce `notice/legg merke` motifs while keeping beginner-level scene-plus-affect markers stable. Estimated easy-tier quality moved from roughly 8.5/10 to 8.7/10.
 
 The remaining gaps are more subtle:
 
@@ -100,7 +101,7 @@ The remaining gaps are more subtle:
 | Providing Treatment Rationale | Easy | Strong | High | Strong | Low | Excellent direct rationale markers tied to client skepticism, fear, goals, and safety. |
 | Providing Treatment Rationale | Moderate | Strong | High | Strong | Low | Good skepticism/fear/numbing/practicality coverage. Shame-about-crying and positive-thinking variants could be added only as polish. |
 | Providing Treatment Rationale | Hard | Strong | High | Strong | Low | Strong safety, self-harm, control, trauma, and anger-risk rationale markers. |
-| Empathic Explorations | Easy | Strong | Medium-High | Strong | Low | Recent spot checks kept the markers simple while adding clearer one-step invitations after close reflections. Latest residual pass added missing exploratory invitations to reflective-only responses. |
+| Empathic Explorations | Easy | Strong | Medium-High | Strong | Low | Recent spot checks kept the markers simple while adding clearer one-step invitations after close reflections. Latest response-variety/Bokmal pass removed repeated collaborative scaffolding and added exploration moves to the remaining reflective-only responses. |
 | Empathic Explorations | Moderate | Strong | Medium-High | Strong | Low | Recent passes added flatter relational ambiguity, not-emotional/confused process, last-therapist distrust, ordinary uncertainty, and clearer invitations to stay with the live edge rather than only reflect it. Latest marker-breadth/Bokmal pass broadened Laura, Carlos, and Nina with ordinary scene pressure and reduced over-imagistic anger markers. |
 | Empathic Explorations | Hard | Strong | Medium-High | Strong | Low | Recent passes added dazed/foggy process and direct therapist-attraction material, simplified one overly imagistic abandonment marker, pulled selected responses back from conjecture, and moved one Carlos item from historical cognition into a present exploration edge. |
 | Empathic Evocations | Easy | Strong | Medium | Strong | Low | Marker style is now much better: flat, detached, ordinary. Recent regression passes flattened remaining body/image-heavy prompts while preserving enough emotional hook for trainee evocation. Benchmark archetype coverage is partial, intentionally leaving image-making room for trainees. |
@@ -192,23 +193,20 @@ These should still be reviewed in normal regression passes, but the workflow sho
 
 ## Current Highest-Value Improvement Targets
 
-1. Empathic Understanding hard.
-   - Strong after high-risk regression pass. Review only for flags or later regression checks.
+1. Alliance Repair hard.
+   - Strong, but highest clinical consequence if ownership, safety, apology, or the repair question becomes defensive or overdone.
 
-2. Empathic Understanding moderate.
-   - Strong after basic-reflection and Bokmal-naturalness regression. Review only for flags or later broad regression.
+2. Marker Recognition and Chair Work moderate/hard.
+   - Strong after expansion and sequencing passes, but technically complex task setup can still drift into over-directing.
 
-3. Empathic Affirmation and Validation hard.
-   - Strong after high-risk precision and Bokmal-naturalness regression. Review only for flags or later broad regression.
+3. Empathic Evocations easy/moderate/hard.
+   - Strong after marker-affordance repair, but still worth periodic checks for client-side imagery leakage and therapist imagery usefulness.
 
-4. Empathic Affirmation and Validation moderate.
-   - Strong after response-variety and Bokmal-naturalness regression. Review only for flags or later broad regression.
+4. Self-Disclosure hard.
+   - Strong boundary handling, but attraction, pity, lateness, and therapist-impact material remain clinically delicate.
 
-5. Exploratory Questions moderate.
-   - Strong after one-question and Bokmal-naturalness regression. Review only for flags or later broad regression.
-
-6. Marker Recognition and Chair Work hard and Alliance Repair hard/moderate.
-   - These tiers are now strong after targeted sequencing/opening passes. Review only for regression, flagged items, high-risk pacing, or Bokmal tone.
+5. Exploratory Questions easy/hard.
+   - Strong one-question purity; remaining gains are mostly variety and Bokmal naturalness.
 
 
 Lower-priority regression areas:

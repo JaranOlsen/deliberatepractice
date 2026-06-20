@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T10:40:30.403Z",
+  "generatedAt": "2026-06-20T11:01:47.552Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -280,11 +280,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Blank] Sometimes I pretend to text so small talk does not have to start.",
-            "response": "The phone gives you a way to pause the contact, and a little cover from being put on the spot."
+            "response": "The phone gives you a way to pause the contact, and a little cover from being put on the spot. See what happens just before you reach for that cover."
           },
           "no": {
             "statement": "[Blank] Noen ganger later jeg som jeg skriver melding, så småpraten ikke trenger å begynne.",
-            "response": "Telefonen gir deg en måte å sette kontakten på pause, og litt skjul for presset ved å måtte svare der og da."
+            "response": "Telefonen gir deg en måte å sette kontakten på pause, og litt skjul for presset ved å måtte svare der og da. Se hva som skjer rett før du griper etter det skjulestedet."
           }
         }
       ]

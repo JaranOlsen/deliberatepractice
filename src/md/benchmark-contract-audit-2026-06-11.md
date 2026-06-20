@@ -1,6 +1,6 @@
 # Benchmark Contract Audit
 
-Date: 2026-06-11; full library scoring update 2026-06-16
+Date: 2026-06-11; full library scoring update 2026-06-20
 
 ## Purpose
 
@@ -51,7 +51,7 @@ Ratings should consider: structural fidelity, marker validity, emotional pressur
 
 ## Current Baseline
 
-This audit uses the current branch state after the 2026-06-20 moderate exploratory-questions regression pass.
+This audit uses the current branch state after the 2026-06-20 easy empathic-explorations polish.
 
 Automated averages are triage only, not quality scores. They still reveal places where the app may be more compressed than Goldman.
 
@@ -62,7 +62,7 @@ Automated averages are triage only, not quality scores. They still reveal places
 | Empathic Affirmation and Validation | 23.8 | 27.1 | 22.0 | 23.0 | Easy, moderate, and hard response-variety/Bokmal passes complete; now strong with later light regression only. |
 | Exploratory Questions | 16.8 | 22.5 | 11.8 | 26.3 | Hard regression pass complete; app intentionally keeps questions cleaner than Goldman examples. |
 | Treatment Rationale | 15.5 | 20.5 | 28.8 | 54.2 | App is briefer than Goldman but usually clinically focused. |
-| Empathic Explorations | 17.8 | 26.2 | 24.9 | 30.3 | Hard-tier regression/Bokmal pass complete; strong, with later marker breadth and Bokmal polish only. |
+| Empathic Explorations | 17.8 | 26.2 | 24.9 | 30.3 | Easy, moderate, and hard response/Bokmal passes complete; strong, with later marker breadth and high-risk regression only. |
 | Empathic Evocations | 20.8 | 23.1 | 18.9 | 20.3 | Easy, moderate, and hard markers now have stronger ordinary-scene affordance while preserving trainee image-making. |
 | Empathic Conjectures | 16.5 | 21.5 | 20.8 | 21.8 | Response-boundary pass complete; strong, with later marker-breadth and Bokmal polish. |
 | Staying in Contact with Intense Affect | 31.3 | 35.3 | 32.0 | 22.6 | Hard high-risk contact-first precision pass complete; later work should be flagged-item or light regression only. |
@@ -72,7 +72,7 @@ Automated averages are triage only, not quality scores. They still reveal places
 
 ## Full Library Quality Scores
 
-These 2026-06-16 ratings score each skill and difficulty tier as a training set, not as isolated items. Goldman-level benchmark quality is 9/10. No current set has a structural failure; the remaining work is targeted movement from strong app-ready material toward benchmark-level variation, precision, and natural Bokmal.
+These 2026-06-20 ratings score each skill and difficulty tier as a training set, not as isolated items. Goldman-level benchmark quality is 9/10. No current set has a structural failure; the remaining work is targeted movement from strong app-ready material toward benchmark-level variation, precision, and natural Bokmal.
 
 | Skill | Difficulty | Score | Main Quality Judgment |
 | --- | --- | ---: | --- |
@@ -91,7 +91,7 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | Providing Treatment Rationale | Easy | 8.8 | Very close to the benchmark task: direct client skepticism/fear markers and plain-language rationale tied to client goals. |
 | Providing Treatment Rationale | Moderate | 8.6 | Strong fit with fear, skepticism, numbness, and practicality; Goldman responses are longer, but the app's brevity usually helps practice. |
 | Providing Treatment Rationale | Hard | 8.6 | Recent hard-tier pass strengthened rationale language around pace, safety, attachment panic, numbness, hypervigilance, and practical change. |
-| Empathic Explorations | Easy | 8.5 | Good edge-following markers and responses after recent repair; Bokmal still contains repeated "la oss/kan vi" patterns. |
+| Empathic Explorations | Easy | 8.7 | Recent pass kept simple edge-following markers stable while polishing all 30 responses into varied small live-experience invitations; Bokmal now has zero `la oss/kan vi` scaffolds and no repeated starts. |
 | Empathic Explorations | Moderate | 8.6 | Recent pass broadened Laura, Carlos, and Nina markers with more ordinary scene pressure, reduced over-imagistic anger markers, and polished Bokmal away from repeated therapy-English scaffolds. |
 | Empathic Explorations | Hard | 8.5 | Recent pass tightened all hard responses into one small live exploration step, softened three over-formulated markers, and removed repeated "stay with/kan vi/la oss" patterns in the hard tier. |
 | Empathic Evocations | Easy | 8.5 | Recent pass added ordinary scene detail to the thinnest beginner markers while preserving flat client prompts and leaving vivid imagery to the therapist response. |
@@ -119,11 +119,11 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Empathic Understanding, hard | Stronger after high-risk regression pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
-| 2 | Empathic Understanding, moderate | Strong after basic-reflection regression and Bokmal polish. | Review only for flags or later broad regression. |
-| 3 | Empathic Affirmation and Validation, hard | Strong after high-risk precision and Bokmal regression. | Review only for Supabase flags or later broad regression. |
-| 4 | Empathic Affirmation and Validation, moderate | Strong after response-variety and Bokmal regression. | Review only for Supabase flags or later broad regression. |
-| 5 | Exploratory Questions, moderate | Strong after one-question and Bokmal-naturalness regression. | Review only for flags or later broad regression. |
+| 1 | Alliance Repair, hard | Strong, but high-risk rupture material still has the highest clinical consequence if wording becomes defensive, over-apologetic, or unsafe. | Regression-check ownership, safety, repair question shape, and Bokmal tone. |
+| 2 | Marker Recognition and Chair Work, moderate/hard | Strong after expansion and sequencing passes, but task setup is technically complex and easiest to drift into over-directing. | Review task setup economy, consent, and first-turn clarity. |
+| 3 | Empathic Evocations, easy/moderate/hard | Strong after marker-affordance repair, but evocation remains vulnerable to client-side imagery leakage or ornamental therapist imagery. | Spot-check marker affordance and image usefulness across tiers. |
+| 4 | Self-Disclosure, hard | Strong boundary handling, but attraction, pity, lateness, and therapist-impact material remain clinically delicate. | Review brevity, therapist transparency, and return-to-client movement. |
+| 5 | Exploratory Questions, easy/hard | Strong one-question purity; remaining gains are mostly variety and Bokmal naturalness. | Review after higher-risk tiers or Supabase flags. |
 
 ## Next Work Decision Rule
 
@@ -137,7 +137,7 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-20 moderate exploratory-questions regression pass: move next to Empathic Understanding hard only if a broad regression pass is due and no Supabase feedback is open. Otherwise continue using the ranking and prioritize any flagged item first.
+Current recommendation after the 2026-06-20 easy empathic-explorations polish: if no Supabase feedback is open, move next to Alliance Repair hard for a focused high-risk regression pass.
 
 ### Implementation Update: Empathic Understanding Hard
 
@@ -224,6 +224,21 @@ Current moderate empathic-explorations state after this pass:
 - English responses preserve close reflection plus one small exploratory invitation; no repeated four-word starts remain in the targeted slice.
 - Matching Bokmal localizations were rewritten with zero repeated starts and reduced use of literal scaffolds such as `Vi kan`, `Kan vi`, and `Kroppen`.
 - Quality rating for moderate Empathic Explorations increased from about 8.4/10 to about 8.6/10.
+
+### Implementation Update: Empathic Explorations Easy
+
+An easy-tier empathic-explorations pass revised all 30 Sara, Michael, and Jason responses and matching Bokmal localizations.
+
+Current easy empathic-explorations state after this pass:
+
+- 90 total empathic-explorations items preserved; all 30 easy responses reviewed.
+- Client markers stayed stable because they already use beginner-appropriate scene-plus-affect edges.
+- Two reflective-only suggestions now include a clear exploration move.
+- English and Bokmal targeted scans show zero repeated starts.
+- Repeated collaborative scaffolds such as `let's`, `can we`, `la oss`, and `kan vi` were removed from the targeted tier.
+- `Notice` and `legg merke` motifs were reduced while preserving small live-experience invitations.
+- Content updated date is 2026-06-20, which is the date of this commit.
+- Quality rating for easy Empathic Explorations increased from about 8.5/10 to about 8.7/10.
 
 ### Implementation Update: Alliance Repair Easy
 

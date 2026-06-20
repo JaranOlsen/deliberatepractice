@@ -1905,127 +1905,127 @@ export const STATEMENT_SETS = {
     "case-sara": [
       {
         "text": "[Softly] Seeing his name pop up still throws me, and I hate how much it matters.",
-        "suggestion": "Seeing his name still throws you, and the painful part is how much it still matters. Let's pause right there and notice what happens in you when you admit that it matters."
+        "suggestion": "Seeing his name still throws you, and the painful part is how much it still matters. Stay right at admitting that it matters and notice what stirs."
       },
       {
         "text": "[Embarrassed] I tell friends I'm fine, and then I worry they can hear that I am not.",
-        "suggestion": "You try to sound fine, and at the same time it feels risky that they might hear how not fine you are. Let's stay with the risk of being heard for a moment."
+        "suggestion": "You try to sound fine, and it feels risky that they might hear how not fine you are. Find the moment when being heard starts to feel dangerous."
       },
       {
         "text": "[Tearful] I feel lost after the breakup, like I do not know what to do with the evenings.",
-        "suggestion": "The evenings are where the lostness shows up most clearly. Let's stay with one evening for a moment and notice what feels hardest when there is nowhere to put yourself."
+        "suggestion": "The evenings are where the lostness shows up most clearly. Bring one evening close and sense what feels hardest when there is nowhere to put yourself."
       },
       {
         "text": "[Softly] I wrote 'sorry' to him three times, then realized I do not know what I was trying to fix.",
-        "suggestion": "Writing sorry was a reach toward repair, and then the ground disappeared under what you were trying to fix. Let's slow down at that unclear place and notice what feeling comes up."
+        "suggestion": "Writing sorry was a reach toward repair, and then the ground disappeared under what you were trying to fix. Slow down at that unclear place and see which feeling appears."
       },
       {
         "text": "[Panicked] I delete photos to prove I am done, then panic and look for them again.",
-        "suggestion": "One move says, 'be done,' and then the panic says this ending is not that simple. Can we pause in the moment between deleting and searching?"
+        "suggestion": "One move says, 'be done,' and then the panic says this ending is not that simple. Pause in the moment between deleting and searching."
       },
       {
         "text": "[Embarrassed] When someone is kind to me, my eyes drop before I can stop it.",
-        "suggestion": "Kindness arrives, and your eyes go down before you can really take it in. Let's notice the instant before your eyes drop."
+        "suggestion": "Kindness arrives, and your eyes go down before you can really take it in. Catch the instant before your eyes drop."
       },
       {
         "text": "[Softly] For a few seconds after I wake up, I forget he is gone, and then I remember.",
-        "suggestion": "There is that brief relief, and then the loss returns all at once. Let's stay with the moment of remembering, before you have to do anything with it."
+        "suggestion": "There is that brief relief, and then the loss returns all at once. Let the moment of remembering be here before you have to do anything with it."
       },
       {
         "text": "[Embarrassed] I am sad, and then I get embarrassed that I am still talking about it.",
-        "suggestion": "Sadness is here, and embarrassment quickly asks whether you should still be talking about it. Let's give both a little room and notice which one is stronger right now."
+        "suggestion": "Sadness is here, and embarrassment quickly asks whether you should still be talking about it. Give both a little room and notice which one is stronger now."
       },
       {
         "text": "[Tearful] When I see couples holding hands, I get upset and then feel childish for wanting that.",
-        "suggestion": "Seeing them brings up the wanting, and then shame moves in around the wanting. Can we stay with the wanting for a moment before shame moves in?"
+        "suggestion": "Seeing them brings up the wanting, and then shame moves in around the wanting. Keep close to the wanting for a moment before shame moves in."
       },
       {
         "text": "[Embarrassed] If I let someone see the whole mess, I imagine them quietly wishing I would stop.",
-        "suggestion": "Part of you wants someone to see how bad it is, and another part expects them to wish you would stop. Let's stay with that pull between wanting to be seen and expecting rejection."
+        "suggestion": "Part of you wants someone to see how bad it is, and another part expects them to wish you would stop. Track that pull between wanting to be seen and expecting rejection."
       }
     ],
     "case-michael": [
       {
         "text": "[Firm] When someone corrects one detail, I keep hearing it afterward like I was called out.",
-        "suggestion": "The correction keeps echoing as being called out. Can we stay with that exposed feeling for a moment before the anger takes over?"
+        "suggestion": "The correction keeps echoing as being called out. Let that exposed feeling have a moment before the anger takes over."
       },
       {
         "text": "[Tense and angry] I walk into meetings already ready for somebody to disrespect me.",
-        "suggestion": "You enter already on guard, before anything has happened. Can we notice what it is like to walk in already ready for disrespect?"
+        "suggestion": "You enter already on guard, before anything has happened. Let yourself feel what it is like to walk in already ready for disrespect."
       },
       {
         "text": "[Tense] After I blow up at home, I tell myself they pushed me, but I still feel lousy.",
-        "suggestion": "One part says they pushed you, and another part is left with that lousy feeling afterward. Let's stay with the lousy feeling for a moment before the argument about blame takes over."
+        "suggestion": "One part says they pushed you, and another part is left with that lousy feeling afterward. Keep close to the lousy feeling before the argument about blame takes over."
       },
       {
         "text": "[Ashamed] Sometimes I want to throw my phone after a work message, and then I feel ridiculous.",
-        "suggestion": "The urge comes fast, and then you are left looking at yourself with shame. Can we pause with the shame that follows, just before it calls you ridiculous?"
+        "suggestion": "The urge comes fast, and then you are left looking at yourself with shame. Pause with the shame that follows, just before it calls you ridiculous."
       },
       {
         "text": "[Defensive] A small sigh from my wife can feel like she has already decided I am the problem.",
-        "suggestion": "That small sigh lands like a decision has already been made about you. Let's slow down at the first flare and notice what it says you are being accused of."
+        "suggestion": "That small sigh lands like a decision has already been made about you. Slow down at the first flare and notice what it says you are being accused of."
       },
       {
         "text": "[Tense] When I do not know the answer, I get tense and start talking like I know anyway.",
-        "suggestion": "Not knowing becomes hard to leave visible. Can we pause at that tense moment before sounding certain takes over?"
+        "suggestion": "Not knowing becomes hard to leave visible. Pause at that tense moment before sounding certain takes over."
       },
       {
         "text": "[Ashamed] I reread every message before sending because one mistake will bother me all night.",
-        "suggestion": "One possible mistake can stay with you for hours, so the checking becomes hard to stop."
+        "suggestion": "One possible mistake can stay with you for hours, so the checking becomes hard to stop. Find the first moment when checking starts to feel necessary."
       },
       {
         "text": "[Tense and angry] The second I feel weak, I get angry and hear my dad saying that is exactly the problem.",
-        "suggestion": "'Weak' brings anger and your father's judgment in very fast. Can we stay with the instant when weakness first shows up?"
+        "suggestion": "'Weak' brings anger and your father's judgment in very fast. Pause at the instant when weakness first shows up."
       },
       {
         "text": "[Ashamed] Some nights I replay every word I said, trying to find where I messed it up.",
-        "suggestion": "You replay every word, looking for the moment you got it wrong. Let's notice what it feels like inside when you think you have found the mistake."
+        "suggestion": "You replay every word, looking for the moment you got it wrong. Sense what happens inside when you think you have found the mistake."
       },
       {
         "text": "[Vulnerable] I want my son to feel safe around me, and I do not know how to say that without sounding weak.",
-        "suggestion": "You want safety for him so much, and even naming that wish brushes against the old weakness rule. Let's stay with the wish itself for a moment, before the rule closes around it."
+        "suggestion": "You want safety for him so much, and even naming that wish brushes against the old weakness rule. Let the wish itself have a moment before the rule closes around it."
       }
     ],
     "case-jason": [
       {
         "text": "[Quietly] When it is my turn to speak, I lose track of what I was going to say.",
-        "suggestion": "When attention turns toward you, the words vanish. Let's pause at that exact moment and notice what it feels like when everyone is waiting."
+        "suggestion": "When attention turns toward you, the words vanish. Pause at that exact moment and notice what it feels like when everyone is waiting."
       },
       {
         "text": "[Hesitant] I hover over send, then delete the text because wanting contact suddenly feels humiliating.",
-        "suggestion": "The wish for contact is there, and humiliation makes the message hard to let exist. Let's stay with the wanting for a moment before the deleting happens."
+        "suggestion": "The wish for contact is there, and humiliation makes the message hard to let exist. Keep the wanting in focus for a moment before the deleting happens."
       },
       {
         "text": "[Fearful] I got invited to a birthday party, and part of me was excited, but then I started worrying I would ruin it.",
-        "suggestion": "There is excitement about being invited, and then worry starts to crowd it. Let's notice the excitement before the worry crowds it."
+        "suggestion": "There is excitement about being invited, and then worry starts to crowd it. Give the excitement a little space before the worry crowds it."
       },
       {
         "text": "[Quietly] If I meet someone's eyes too long, I assume they can tell how awkward I am.",
-        "suggestion": "Eye contact starts to feel like they can see the awkwardness you are trying to hide. Can we stay with the first second of being seen?"
+        "suggestion": "Eye contact starts to feel like they can see the awkwardness you are trying to hide. Hold on the first second of being seen."
       },
       {
         "text": "[Embarrassed] After meetings, one small awkward pause can make me cringe for the rest of the day.",
-        "suggestion": "That one pause keeps coming back long after the meeting. Let's slow it down and notice what the cringe says about how you think you were seen."
+        "suggestion": "That one pause keeps coming back long after the meeting. Slow it down and notice what the cringe says about how you think you were seen."
       },
       {
         "text": "[Anxious] When I walk into a room, I look for the exit before I decide whether to join anyone.",
-        "suggestion": "The exit has to be found first, before joining can even be considered. Can we stay with that first scan of the room?"
+        "suggestion": "The exit has to be found first, before joining can even be considered. Track that first scan of the room."
       },
       {
         "text": "[Quietly] Before I introduce myself, I start imagining how strange I will sound.",
-        "suggestion": "Even before you speak, the moment is already becoming a test of how you will come across. Let's pause before the introduction and notice the imagined strangeness."
+        "suggestion": "Even before you speak, the moment is already becoming a test of how you will come across. Pause before the introduction and sense the imagined strangeness."
       },
       {
         "text": "[Hesitant] I compare myself to everyone there and always decide I am the least interesting person.",
-        "suggestion": "The comparison ends with you at the bottom, and it hurts before anyone has actually rejected you. Can we stay with that hurt for a moment?"
+        "suggestion": "The comparison ends with you at the bottom, and it hurts before anyone has actually rejected you. Let that hurt have a moment."
       },
       {
         "text": "[Blank] Sometimes I pretend to text so small talk does not have to start.",
-        "suggestion": "The phone gives you a way to pause the contact, and a little cover from being put on the spot."
+        "suggestion": "The phone gives you a way to pause the contact, and a little cover from being put on the spot. See what happens just before you reach for that cover."
       },
       {
         "text": "[Quiet and ashamed] I felt lonely on Sunday, but I also ignored two messages.",
-        "suggestion": "Loneliness and pulling back sit side by side. Can we stay with the loneliness that is there even while the messages go unanswered?"
+        "suggestion": "Loneliness and pulling back sit side by side. Keep close to the loneliness that is there even while the messages go unanswered."
       }
     ],
     "case-laura": [
