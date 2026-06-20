@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T09:34:35.547Z",
+  "generatedAt": "2026-06-20T09:55:31.827Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -552,11 +552,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Flat] Most days I move through routines like I am not fully there. I make coffee, shower, answer people, and it feels like a version of me is doing it while the rest stays back.",
-                "response": "After too much danger, it makes sense that numbness helps you keep functioning; it is a survival pattern, not a failure to care."
+                "response": "After too much danger, numbness has protected your ability to keep functioning; it is a survival pattern, not a failure to care."
               },
               "no": {
                 "statement": "[Flatt] De fleste dager går jeg gjennom rutinene som om jeg ikke er helt til stede. Jeg lager kaffe, dusjer, svarer folk, og det føles som en versjon av meg gjør det mens resten holder seg tilbake.",
-                "response": "Etter for mye fare gir det mening at nummenheten hjelper deg å fungere; den er et overlevelsesmønster, ikke et tegn på at du ikke bryr deg."
+                "response": "Etter for mye fare har nummenheten beskyttet evnen til å fungere; den er et overlevelsesmønster, ikke et tegn på at du ikke bryr deg."
               }
             },
             {
@@ -569,11 +569,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Low voice] Holidays feel hollow; I don't feel anything I'm supposed to feel. People talk about family and gratitude, and I mostly feel like I am watching through a window.",
-                "response": "No wonder holidays feel hollow when they ask for warmth and belonging in the very places where numbness and distance have protected you."
+                "response": "Holidays can feel hollow when they ask for warmth and belonging in the very places where numbness and distance have protected you."
               },
               "no": {
                 "statement": "[Lav stemme] Høytider kjennes hule; jeg føler ingenting av det jeg «burde» føle. Folk snakker om familie og takknemlighet, og jeg føler mest at jeg ser på gjennom et vindu.",
-                "response": "Ikke rart høytider kjennes hule når de ber om varme og tilhørighet akkurat på de stedene der nummenhet og avstand har beskyttet deg."
+                "response": "Høytider kan kjennes hule når de ber om varme og tilhørighet akkurat på de stedene der nummenhet og avstand har beskyttet deg."
               }
             },
             {
@@ -586,11 +586,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Quiet and guarded] I do not want to need anyone, because needing people has usually meant losing control. If someone matters, they can ask questions, leave, or get inside places I would rather keep closed.",
-                "response": "Not needing anyone makes sense as protection for places that have been hurt or invaded; the loneliness is the cost of that protection."
+                "response": "Not needing anyone has protected places that have been hurt or invaded; the loneliness is the cost of that protection."
               },
               "no": {
                 "statement": "[Stille og på vakt] Jeg vil ikke trenge noen, fordi det å trenge folk som regel har betydd å miste kontroll. Hvis noen betyr noe, kan de stille spørsmål, dra eller komme inn på steder jeg helst vil holde lukket.",
-                "response": "Å ikke trenge noen gir mening som beskyttelse for steder som har blitt såret eller invadert; ensomheten er prisen for den beskyttelsen."
+                "response": "Å ikke trenge noen har beskyttet steder som har blitt såret eller invadert; ensomheten er prisen for den beskyttelsen."
               }
             }
           ]

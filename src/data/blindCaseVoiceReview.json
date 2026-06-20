@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T09:34:35.548Z",
+  "generatedAt": "2026-06-20T09:55:31.828Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -326,11 +326,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Low voice] Holidays feel hollow; I don't feel anything I'm supposed to feel. People talk about family and gratitude, and I mostly feel like I am watching through a window.",
-            "response": "No wonder holidays feel hollow when they ask for warmth and belonging in the very places where numbness and distance have protected you."
+            "response": "Holidays can feel hollow when they ask for warmth and belonging in the very places where numbness and distance have protected you."
           },
           "no": {
             "statement": "[Lav stemme] Høytider kjennes hule; jeg føler ingenting av det jeg «burde» føle. Folk snakker om familie og takknemlighet, og jeg føler mest at jeg ser på gjennom et vindu.",
-            "response": "Ikke rart høytider kjennes hule når de ber om varme og tilhørighet akkurat på de stedene der nummenhet og avstand har beskyttet deg."
+            "response": "Høytider kan kjennes hule når de ber om varme og tilhørighet akkurat på de stedene der nummenhet og avstand har beskyttet deg."
           }
         }
       ]

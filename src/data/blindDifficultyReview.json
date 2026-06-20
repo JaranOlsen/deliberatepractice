@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T09:34:35.548Z",
+  "generatedAt": "2026-06-20T09:55:31.828Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -139,11 +139,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Quiet and guarded] I do not want to need anyone, because needing people has usually meant losing control. If someone matters, they can ask questions, leave, or get inside places I would rather keep closed.",
-            "response": "Not needing anyone makes sense as protection for places that have been hurt or invaded; the loneliness is the cost of that protection."
+            "response": "Not needing anyone has protected places that have been hurt or invaded; the loneliness is the cost of that protection."
           },
           "no": {
             "statement": "[Stille og på vakt] Jeg vil ikke trenge noen, fordi det å trenge folk som regel har betydd å miste kontroll. Hvis noen betyr noe, kan de stille spørsmål, dra eller komme inn på steder jeg helst vil holde lukket.",
-            "response": "Å ikke trenge noen gir mening som beskyttelse for steder som har blitt såret eller invadert; ensomheten er prisen for den beskyttelsen."
+            "response": "Å ikke trenge noen har beskyttet steder som har blitt såret eller invadert; ensomheten er prisen for den beskyttelsen."
           }
         }
       ]

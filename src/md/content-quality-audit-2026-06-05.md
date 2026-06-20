@@ -46,6 +46,7 @@ Branch update:
 - Empathic Affirmation and Validation has received a cross-tier response-variety pass: 51 English responses and their Bokmal localizations were tightened so validation remains explicit while reducing overuse of "No wonder," broad protection language, and literal Norwegian therapy-English phrasing.
 - Empathic Affirmation and Validation easy has received a response-specificity and Bokmal pass: beginner responses now validate through concrete context rather than repeated "makes sense/understandably" formulas, and selected thin markers now carry a little more ordinary scene detail.
 - Empathic Affirmation and Validation moderate has received a response-variety and Bokmal-naturalness regression pass: all 30 Laura, Carlos, and Nina responses now keep explicit contextual validation while removing repeated starts and formulaic "No wonder/Of course/makes sense" scaffolds; Bokmal no longer uses "Ikke rart/gir mening/Det er klart" in this tier.
+- Empathic Affirmation and Validation hard has received a high-risk precision and Bokmal-naturalness regression pass: all 30 Aisha, David, and Marcus responses now retain explicit validation while removing repeated starts and formulaic "No wonder/Of course/Understandably/makes sense" scaffolds; Bokmal no longer uses "Ikke rart/Selvsagt/Forståelig nok/gir mening" in this tier.
 - Exploratory Questions hard has received a regression pass: seven advanced Aisha, David, and Marcus responses now point more directly to present feeling and inner experience, with no containment/grounding phrasing, no repeated starts, and exactly one question in every hard response.
 - Empathic Evocations has received another regression pass: selected markers were flattened where they were still supplying body/image language too early, and a self-harm-adjacent evocation was made less poetic and more clinically careful.
 - Empathic Conjectures hard has received a marker-spoiler regression pass: selected Aisha, David, and Marcus markers were flattened where they named the hidden fear, loneliness, shame, or defensive logic too directly before the therapist's conjecture.
@@ -92,7 +93,7 @@ The remaining gaps are more subtle:
 | Empathic Understanding | Hard | Strong | High | Strong | Low | Recent pass tightened high-risk reflections, expanded selected advanced markers, and preserved concise question-free basic empathy across attachment panic, shame/exposure, drinking, numbness, passive death wishes, and closeness fear. |
 | Empathic Affirmation and Validation | Easy | Strong | High | Strong | Low | Recent pass made beginner validation more context-specific, reduced repeated "makes sense/understandably" formulas, and aligned Bokmal idiom. Continue only light spot checks. |
 | Empathic Affirmation and Validation | Moderate | Strong | High | Strong | Low | Good validation markers across trauma, politics, child-army fear, shame, and caregiver guilt. Recent regression pass removed formulaic English and Bokmal validation scaffolds while preserving explicit legitimacy. |
-| Empathic Affirmation and Validation | Hard | Strong | High | Strong | Low | Good range: trauma shame, rage/fear, desperate longing, confused overwhelm, positive warmth. Recent pass sharpened moral-responsibility and trauma validations without excusing harmful behavior. |
+| Empathic Affirmation and Validation | Hard | Strong | High | Strong | Low | Good range: trauma shame, rage/fear, desperate longing, confused overwhelm, positive warmth. Latest regression removed formulaic validation openings while preserving accountability, safety, and Bokmal idiom. |
 | Exploratory Questions | Easy | Strong | Medium-High | Strong | Low-Medium | Recent pass reduced client-supplied body cues and tightened responses into one inward experiential question. AA/amends guilt remains absent because the fixed easy cases do not naturally carry recovery history. |
 | Exploratory Questions | Moderate | Strong | Medium-High | Strong | Low | Recent pass further reduced handed-over body cues and interpretive questions, while preserving relational ambiguity, shame, anger, blocked care, and caregiver-guilt markers. Latest opening-variety polish preserved exactly one inward question per item and removed repeated response starts. |
 | Exploratory Questions | Hard | Strong | Medium-High | Strong | Low | Recent regression pass removed subtle containment/cognitive drift while preserving ambiguity, rupture risk, shame, dissociation, threat scanning, hard-case defenses, and exactly one inward question per response. |
@@ -189,19 +190,20 @@ These should still be reviewed in normal regression passes, but the workflow sho
 
 ## Current Highest-Value Improvement Targets
 
-1. Empathic Affirmation and Validation hard.
-   - Strong high-risk validation, but advanced legitimacy language can drift formulaic over time.
-
-2. Empathic Understanding moderate.
+1. Empathic Understanding moderate.
    - Strong, but now the remaining understanding tier with the most room for light regression.
 
-3. Exploratory Questions moderate.
+2. Exploratory Questions moderate.
    - Strong after latest opening-variety pass. Review only for flags or later regression checks.
 
-4. Empathic Understanding hard.
+3. Empathic Understanding hard.
    - Strong after high-risk regression pass. Review only for flags or later regression checks.
 
+4. Empathic Affirmation and Validation hard.
+   - Strong after high-risk precision and Bokmal-naturalness regression. Review only for flags or later broad regression.
+
 5. Empathic Affirmation and Validation moderate.
+   - Strong after response-variety and Bokmal-naturalness regression. Review only for flags or later broad regression.
    - Strong after response-variety and Bokmal-naturalness regression. Review only for flags or later broad regression.
 
 6. Marker Recognition and Chair Work hard and Alliance Repair hard/moderate.
