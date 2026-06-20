@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T10:05:13.813Z",
+  "generatedAt": "2026-06-20T10:40:30.403Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -349,11 +349,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tired] When I ask for help, guilt rushes in and I want to take it back.",
-            "response": "As the guilt rushes in, what does it say about you?"
+            "response": "As guilt rushes in, what does it tell you about yourself?"
           },
           "no": {
             "statement": "[Sliten] Når jeg ber om hjelp, skyller skyld inn og jeg vil ta det tilbake.",
-            "response": "Når skylden skyller inn, hva sier den om deg?"
+            "response": "Når skyldfølelsen skyller inn, hva forteller den deg om deg selv?"
           }
         },
         {
@@ -398,11 +398,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Mistrustful] When the house gets quiet after a fight, I get more tense than when we were yelling.",
-            "response": "What does the quiet bring up that yelling did not?"
+            "response": "In the quiet after the fight, what starts happening inside?"
           },
           "no": {
             "statement": "[Mistenksom] Når huset blir stille etter en krangel, blir jeg mer anspent enn da vi ropte.",
-            "response": "Hva vekker stillheten som ropingen ikke vekket?"
+            "response": "I stillheten etter krangelen, hva begynner å skje inni deg?"
           }
         }
       ]
@@ -434,11 +434,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tense and guarded] I apologize for needing comfort, as if asking for it will get me in trouble.",
-            "response": "Where do you feel the trouble of asking for comfort?"
+            "response": "When asking for comfort feels dangerous, what do you notice in yourself?"
           },
           "no": {
             "statement": "[Anspent og på vakt] Jeg sier unnskyld for at jeg trenger trøst, som om det er noe jeg kan få kjeft for.",
-            "response": "Hvor kjenner du uroen ved å be om trøst?"
+            "response": "Idet det å be om trøst kjennes farlig, hva merker du i deg selv?"
           }
         }
       ]

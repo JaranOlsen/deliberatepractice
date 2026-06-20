@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T10:05:13.812Z",
+  "generatedAt": "2026-06-20T10:40:30.403Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -685,11 +685,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Slow and flat] Most days feel muted, and I cannot tell if I am sad or just numb.",
-                "response": "As you stay with the word muted, what quality does it have inside?"
+                "response": "As that muted feeling is here, what do you notice it doing in you?"
               },
               "no": {
                 "statement": "[Langsomt og flatt] De fleste dager føles dempet, og jeg klarer ikke vite om jeg er trist eller bare nummen.",
-                "response": "Når du blir ved ordet dempet, hva slags kvalitet har det inni deg?"
+                "response": "Når den dempede følelsen er her, hva merker du at den gjør med deg?"
               }
             },
             {
@@ -702,11 +702,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Distant] At night I pour wine before I have decided whether I actually want it.",
-                "response": "In the second before you pour it, what are you trying not to meet?"
+                "response": "In the second before the wine, what are you moving away from?"
               },
               "no": {
                 "statement": "[Fjern] Om kvelden heller jeg opp vin før jeg har bestemt meg for om jeg egentlig vil ha det.",
-                "response": "I sekundet før du heller opp, hva prøver du å slippe å møte?"
+                "response": "I sekundet før vinen, hva er du på vei bort fra?"
               }
             },
             {
@@ -719,11 +719,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Tense and guarded] I apologize for needing comfort, as if asking for it will get me in trouble.",
-                "response": "Where do you feel the trouble of asking for comfort?"
+                "response": "When asking for comfort feels dangerous, what do you notice in yourself?"
               },
               "no": {
                 "statement": "[Anspent og på vakt] Jeg sier unnskyld for at jeg trenger trøst, som om det er noe jeg kan få kjeft for.",
-                "response": "Hvor kjenner du uroen ved å be om trøst?"
+                "response": "Idet det å be om trøst kjennes farlig, hva merker du i deg selv?"
               }
             }
           ]
