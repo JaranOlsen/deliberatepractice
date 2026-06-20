@@ -84,7 +84,7 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | Empathic Understanding | Hard | 8.6 | Recent pass tightened Aisha, David, and Marcus high-risk reflections, expanded selected advanced markers, and removed subtle explanatory or repeated response patterns. |
 | Empathic Affirmation and Validation | Easy | 8.6 | Recent pass made beginner validation more context-specific, reduced repeated "makes sense/understandably" formulas, and aligned Bokmal idiom. |
 | Empathic Affirmation and Validation | Moderate | 8.6 | Recent regression pass removed repeated response openings and formulaic validation scaffolds while preserving explicit contextual legitimacy and improving Bokmal idiom. |
-| Empathic Affirmation and Validation | Hard | 8.4 | Recent pass expanded hard markers, preserved high-risk validation, removed repeated openings, and made Bokmal more natural. |
+| Empathic Affirmation and Validation | Hard | 8.6 | Recent hard-tier regression removed formulaic validation openings, preserved accountability/safety in high-risk items, and polished Bokmal idiom. |
 | Exploratory Questions | Easy | 8.5 | Strong one-question purity with simple inward-turning markers; only light opening-variety polish needed. |
 | Exploratory Questions | Moderate | 8.6 | Recent pass preserved exactly one inward question per item while removing repeated response openings and reducing visible "what happens/what do you notice" scaffolding. |
 | Exploratory Questions | Hard | 8.5 | Recent regression pass removed subtle containment/cognitive drift while preserving one inward-turning question across advanced ambiguity and high-risk material. |
@@ -119,11 +119,11 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Empathic Affirmation and Validation, hard | Strong high-risk validation, but advanced legitimacy language can drift formulaic over time. | Review for high-risk validation precision and Bokmal idiom if no Supabase feedback is open. |
-| 2 | Empathic Understanding, moderate | Strong, but still worth occasional regression checks against basic-reflection purity. | Review only for flags or later regression checks. |
-| 3 | Exploratory Questions, moderate | Stronger after opening-variety pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
-| 4 | Empathic Understanding, hard | Stronger after high-risk regression pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
-| 5 | Empathic Affirmation and Validation, moderate | Strong after the latest response-variety/Bokmal regression pass. | Review only for Supabase flags or later broad regression. |
+| 1 | Empathic Understanding, moderate | Strong, but still worth occasional regression checks against basic-reflection purity. | Review for marker/responding fit if no Supabase feedback is open. |
+| 2 | Exploratory Questions, moderate | Stronger after opening-variety pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
+| 3 | Empathic Understanding, hard | Stronger after high-risk regression pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
+| 4 | Empathic Affirmation and Validation, hard | Strong after high-risk precision and Bokmal regression. | Review only for Supabase flags or later broad regression. |
+| 5 | Empathic Affirmation and Validation, moderate | Strong after response-variety and Bokmal regression. | Review only for Supabase flags or later broad regression. |
 
 ## Next Work Decision Rule
 
@@ -137,7 +137,7 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-20 moderate validation regression pass: move next to Empathic Affirmation and Validation hard. The goal should be high-risk validation precision and Bokmal idiom while preserving explicit contextual legitimacy rather than excusing harmful behavior or sliding into basic reflection.
+Current recommendation after the 2026-06-20 hard validation regression pass: move next to Empathic Understanding moderate. The goal should be a light regression check for marker/responding fit, ensuring the responses stay basic-reflection pure and the Bokmal remains natural.
 
 ### Implementation Update: Empathic Understanding Hard
 
@@ -512,6 +512,20 @@ Current moderate validation state after this pass:
 - The responses still validate emotions and protective moves in context, including trauma shutdown, anger/fight shame, family responsibility, care hunger, and maternal pride/fear, without endorsing harmful behavior.
 
 Empathic Affirmation and Validation moderate is now strong enough to leave the active-priority slot. Later work should target hard-tier high-risk precision or Supabase flags before returning to this tier.
+
+### Implementation Update: Empathic Affirmation and Validation Hard Regression
+
+A hard-tier high-risk validation precision and Bokmal naturalness regression pass has now been completed.
+
+Current hard validation state after this pass:
+
+- 30 Aisha, David, and Marcus responses reviewed and revised.
+- Quality rating increased from about 8.4/10 to about 8.6/10.
+- English targeted scan now shows zero repeated response starts, zero response questions, zero advice flags, zero validation-cue misses, and zero uses of "No wonder," "Of course," "Understandably," or "makes sense" in the hard tier.
+- Bokmal targeted scan now shows zero repeated response starts and zero uses of "Ikke rart," "Selvsagt," "Forståelig nok," or "gir mening" in the hard tier.
+- The responses still validate the emotional/protective logic in context while preserving accountability around harm, trauma boundaries, attachment panic, dissociation, isolation, and safety.
+
+Empathic Affirmation and Validation hard is now strong enough to leave the active-priority slot. Later work should be Supabase-feedback driven or broad regression only.
 
 ### Implementation Update: Staying in Contact with Intense Affect
 

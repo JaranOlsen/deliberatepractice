@@ -1017,127 +1017,127 @@ export const STATEMENT_SETS = {
     "case-aisha": [
       {
         "text": "[Panicked] I watched the door most of session to make sure you won't leave. Every time the hallway got quiet, I thought this might be the moment you decide I am too much and walk out.",
-        "suggestion": "After so many sudden endings, it makes sense that keeping the door in view protects against being dropped again; the need for safety is very real."
+        "suggestion": "Keeping the door in view fits with so many sudden endings; it protects against being dropped again, and the need for safety is very real."
       },
       {
         "text": "[Torn] I ripped up photos after the breakup and felt powerful for maybe one minute, like I could erase him first. Then the floor was covered in pieces and I felt empty and ashamed.",
-        "suggestion": "Understandably, the tearing gave you a moment of control inside unbearable hurt, and the emptiness afterward is part of the same loss, not a contradiction."
+        "suggestion": "The tearing gave you a moment of control inside unbearable hurt, and the emptiness afterward belongs to the same loss, not a contradiction."
       },
       {
         "text": "[Panicked] Sometimes the panic gets so loud I want to crawl out of my skin. I pace, scratch at my sleeves, and cannot find a place inside myself that feels safe to stay in.",
-        "suggestion": "No wonder the urge to escape your own skin appears when panic takes over the whole inside; it is an attempt to survive the intensity."
+        "suggestion": "The urge to escape your own skin fits with panic taking over the whole inside; it is an attempt to survive the intensity."
       },
       {
         "text": "[Panicked] When you take notes, I think you are writing proof that I am unstable or too dramatic. I know that may not be fair, but my body wants to bolt before you finish the sentence.",
-        "suggestion": "Given how often other people's versions of you have felt dangerous, it makes sense that notes can register as being judged, captured, or misunderstood."
+        "suggestion": "Notes can feel like being judged, captured, or misunderstood when other people's versions of you have so often felt dangerous."
       },
       {
         "text": "[Desperate] I send twenty texts because I need them close, then block them before they can leave. Afterward I hate how needy it looks, but in the moment silence feels like being erased.",
-        "suggestion": "No wonder the texting reaches for contact when silence feels unbearable, and blocking tries to protect you from waiting to be abandoned."
+        "suggestion": "The texting fits with reaching for contact when silence feels unbearable, and blocking tries to protect you from waiting to be abandoned."
       },
       {
         "text": "[Fearful and ashamed] I know it was done to me, but I still feel dirty in my own skin. Sometimes I shower and still feel like there is something wrong with me for having been there.",
-        "suggestion": "Feeling contaminated after violation makes painful sense as a trauma mark; the shame is attached to what was done to you, not to your worth or your body."
+        "suggestion": "Feeling contaminated after violation can be a painful trauma mark; the shame belongs to what was done to you, not to your worth or your body."
       },
       {
         "text": "[Panicked] When someone says something kind, I sob like I need it and panic like it is a trap. Kindness should feel good, but it makes me feel exposed and hungry at the same time.",
-        "suggestion": "Of course kindness reaches both the longing for care and the fear of being trapped by needing it after closeness has been so unsafe."
+        "suggestion": "Kindness can feel like it reaches both the longing for care and the fear of being trapped by needing it after closeness has been so unsafe."
       },
       {
         "text": "[Furious] If you look away for a second, I feel erased and then furious. I know it is one second, but inside it feels like I vanished from the room and have to fight my way back.",
-        "suggestion": "Understandably, a tiny shift can hit the old terror of disappearing from someone's mind, and the anger tries to restore contact and mattering fast."
+        "suggestion": "A tiny shift can feel like proof of disappearing from someone's mind, and the anger tries to restore contact and mattering fast."
       },
       {
         "text": "[Ashamed] I hear a voice saying I am trash and impossible to love, and part of me believes it. It gets loudest after I have needed someone, like need itself proves the voice is right.",
-        "suggestion": "No wonder that cruel voice can sound convincing after betrayal has handed it so much material, especially around the human need for closeness."
+        "suggestion": "That cruel voice can sound convincing after betrayal has handed it so much material, especially around the human need for closeness."
       },
       {
         "text": "[Desperate] I stare at the clock to make sure you won't end early. The last five minutes make my chest tight because I am already trying to survive you leaving.",
-        "suggestion": "Of course watching the clock braces you for another ending before it takes you by surprise; the fear of being left is already in the room."
+        "suggestion": "Watching the clock fits with bracing for another ending before it takes you by surprise; the fear of being left is already in the room."
       }
     ],
     "case-david": [
       {
         "text": "[Controlled] When my wife brings up feelings, I feel cornered and want to argue the facts. If I stay with the emotional part, it starts sounding like a trial where I have already lost.",
-        "suggestion": "Understandably, facts become a defensible place to stand when feelings arrive as accusation; that cornered feeling helps explain why argument takes over so quickly."
+        "suggestion": "Facts can feel like a defensible place to stand when feelings arrive as accusation; that cornered feeling helps explain why argument takes over so quickly."
       },
       {
         "text": "[Furious] After I scared my wife, I still felt furious at her for pushing me, and then ashamed because I know how that sounds. I hate admitting that part because I know her fear is real.",
-        "suggestion": "Understandably, this is a painful mixed truth: the rage was genuinely there, and the fear you caused genuinely matters. Validation can hold both without excusing harm."
+        "suggestion": "It is legitimate to name this painful mixed truth: the rage was genuinely there, and the fear you caused genuinely matters too. Validation can hold both without excusing harm."
       },
       {
         "text": "[Ashamed] I compare myself to other dads and feel like a fraud. They seem relaxed at school events, and I stand there performing competence while wondering when someone will see through it.",
-        "suggestion": "No wonder comparison stirs shame when fatherhood becomes another performance test in the place you most want to feel solid and real."
+        "suggestion": "Comparison can feel shame-stirring when fatherhood becomes another performance test in the place you most want to feel solid and real."
       },
       {
         "text": "[Ashamed] When I apologize, it feels like handing someone proof that I am small. I can know I owe the apology and still feel my face burn like I have given away my last piece of ground.",
-        "suggestion": "No wonder apology can feel exposing when it asks for accountability while touching old humiliation about being made small."
+        "suggestion": "Apology can feel exposing when it asks for accountability while touching old humiliation about being made small."
       },
       {
         "text": "[Dismissive] I plan perfect vacations so we look good from the outside. If the photos look happy enough, maybe no one sees how tense dinner was or how little I know what to do at home.",
-        "suggestion": "Of course the polished outside protects against exposure, and it also leaves you carrying the private tension alone after everyone has admired the picture."
+        "suggestion": "The polished outside has protected against exposure, and it also leaves you carrying the private tension alone after everyone has admired the picture."
       },
       {
         "text": "[Fearful] The idea of being ordinary scares me, like I would disappear if I stopped impressing people. I do not know who I am without someone needing to admire the result.",
-        "suggestion": "If admiration has held your sense of worth together, it makes sense that ordinary can feel like vanishing rather than resting."
+        "suggestion": "If admiration has held your sense of worth together, ordinary can feel like vanishing rather than resting."
       },
       {
         "text": "[Ashamed] I say I am fine while feeling empty, because admitting the emptiness feels humiliating. I can run a meeting and handle pressure, but saying I feel empty makes me feel pathetic.",
-        "suggestion": "Understandably, the emptiness threatens the competent image that has protected you, so covering it defends against humiliation."
+        "suggestion": "The emptiness threatens the competent image that has protected you, so covering it defends against humiliation."
       },
       {
         "text": "[Dismissive] I brag to get respect, then sit alone feeling emptier than before. The room reacts the way I wanted, and somehow that makes it worse when I am by myself.",
-        "suggestion": "The bragging makes sense as a reach for respect, and the emptiness afterward shows how admiration can steady worth for a moment without touching loneliness."
+        "suggestion": "The bragging can look like a reach for respect, and the emptiness afterward shows how admiration can steady worth for a moment without touching loneliness."
       },
       {
         "text": "[Wounded but sharp] I still feel like my father is marking me down from somewhere. I can be in my own office, with my own family, and still hear the grade before I know what I did wrong.",
-        "suggestion": "No wonder being measured for so long left an inner scoreboard that keeps grading even in rooms he no longer controls."
+        "suggestion": "Being measured for so long can feel like it leaves an inner scoreboard that keeps grading even in rooms he no longer controls."
       },
       {
         "text": "[Controlled] When my team outshines me, I feel threatened instead of proud. I know a good leader should celebrate them, but part of me hears their success as my replacement notice.",
-        "suggestion": "No wonder their success touches the old equation between being best and being safe, so pride has to compete with the fear of becoming replaceable."
+        "suggestion": "Their success can feel like it touches the old equation between being best and being safe, so pride has to compete with the fear of becoming replaceable."
       }
     ],
     "case-marcus": [
       {
         "text": "[Flat] Most days I move through routines like I am not fully there. I make coffee, shower, answer people, and it feels like a version of me is doing it while the rest stays back.",
-        "suggestion": "After too much danger, it makes sense that numbness helps you keep functioning; it is a survival pattern, not a failure to care."
+        "suggestion": "After too much danger, numbness has protected your ability to keep functioning; it is a survival pattern, not a failure to care."
       },
       {
         "text": "[Dazed] I do not know what I feel. It is pressure, anger, and nothing at the same time, and I feel stupid for not having words.",
-        "suggestion": "Understandably, words can disappear when pressure, anger, and numbness arrive together; not knowing is part of the overwhelm, not evidence that you are stupid."
+        "suggestion": "Words can disappear when pressure, anger, and numbness arrive together; not knowing belongs to the overwhelm, not to stupidity."
       },
       {
         "text": "[Quiet and guarded] I sit in the car before going inside because I can't face the quiet. The engine is off, but at least the car still feels like a place between the day and the apartment.",
-        "suggestion": "Of course the car gives you a buffer before the quiet brings everything back; pausing there doses what feels too much."
+        "suggestion": "The car can feel like a buffer before the quiet brings everything back; pausing there doses what feels too much."
       },
       {
         "text": "[Tense] Loud bangs make me jump and then I get angry at myself for reacting. Yesterday a truck gate slammed outside and I was already scanning the room before I knew what happened.",
-        "suggestion": "Of course your system moves into survival before choice has time to arrive; the anger afterward shows how costly it is to live with that reflex."
+        "suggestion": "Your system moving into survival before choice arrives fits with danger learning; the anger afterward shows how costly it is to live with that reflex."
       },
       {
         "text": "[Low voice] Holidays feel hollow; I don't feel anything I'm supposed to feel. People talk about family and gratitude, and I mostly feel like I am watching through a window.",
-        "suggestion": "No wonder holidays feel hollow when they ask for warmth and belonging in the very places where numbness and distance have protected you."
+        "suggestion": "Holidays can feel hollow when they ask for warmth and belonging in the very places where numbness and distance have protected you."
       },
       {
         "text": "[Quiet and guarded] I avoid reminders of my service because they open the floodgates. A news clip or a sound in the street can put me back there faster than I can explain.",
-        "suggestion": "Understandably, avoiding reminders keeps you from being pulled back too fast; the speed of those reactions deserves respect."
+        "suggestion": "Avoiding reminders has protected you from being pulled back too fast; the speed of those reactions deserves respect."
       },
       {
         "text": "[Flat] I keep the apartment dark because bright rooms feel like they ask too much of me. With the shades down, I do not have to see the dishes, the empty chair, or myself as clearly.",
-        "suggestion": "The dim room makes sense as a way to lower the demand of being fully present with everything at once; it helps manage exposure."
+        "suggestion": "The dim room can feel like a way to lower the demand of being fully present with everything at once; it helps manage exposure."
       },
       {
         "text": "[Low voice] I cannot remember the last time I laughed and trusted it would last. Even when something is funny, I catch myself waiting for the feeling to disappear.",
-        "suggestion": "Understandably, joy becomes hard to trust when your system has had to stay prepared for loss; waiting for it to disappear is part of that protection."
+        "suggestion": "Joy can feel hard to trust when your system has had to stay prepared for loss; waiting for it to disappear is part of that protection."
       },
       {
         "text": "[Quiet and guarded] I do not want to need anyone, because needing people has usually meant losing control. If someone matters, they can ask questions, leave, or get inside places I would rather keep closed.",
-        "suggestion": "Not needing anyone makes sense as protection for places that have been hurt or invaded; the loneliness is the cost of that protection."
+        "suggestion": "Not needing anyone has protected places that have been hurt or invaded; the loneliness is the cost of that protection."
       },
       {
         "text": "[Flat] Sometimes I think I am better off alone forever, because closeness only gives people more ways to hurt me. Alone is not good, exactly, but at least nobody can reach what is left.",
-        "suggestion": "Aloneness can understandably feel like the only reliable shield after closeness has carried danger, even while it cuts you off from what you also need."
+        "suggestion": "Aloneness can feel like the only reliable shield after closeness has carried danger, even while it cuts you off from what you also need."
       }
     ]
   },
