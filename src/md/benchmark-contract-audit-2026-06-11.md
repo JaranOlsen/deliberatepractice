@@ -80,7 +80,7 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | Therapist Self-Awareness | Moderate | 8.6 | Strong activating material around guardedness, substance, culture, shame, and rescue pressure; some examples could still carry a little more source-like length and complexity. |
 | Therapist Self-Awareness | Hard | 8.6 | Recent pass extended activation pressure around gaze monitoring, trauma shame, results pressure, feeling-safety fear, and defensive independence while keeping suggestions as therapist inner awareness notes. |
 | Empathic Understanding | Easy | 8.6 | Recent pass broadened Sara, Michael, and Jason markers with ordinary work, social, shame, and loneliness scenes while preserving short question-free basic reflections and natural Bokmal. |
-| Empathic Understanding | Moderate | 8.5 | Recent pass broadened all Laura, Carlos, and Nina markers toward Goldman intermediate richness while keeping every response reflective, concise, and question-free. |
+| Empathic Understanding | Moderate | 8.6 | Recent regression pass polished all Laura, Carlos, and Nina responses for marker fit, opening variety, basic-reflection purity, and natural Bokmal. |
 | Empathic Understanding | Hard | 8.6 | Recent pass tightened Aisha, David, and Marcus high-risk reflections, expanded selected advanced markers, and removed subtle explanatory or repeated response patterns. |
 | Empathic Affirmation and Validation | Easy | 8.6 | Recent pass made beginner validation more context-specific, reduced repeated "makes sense/understandably" formulas, and aligned Bokmal idiom. |
 | Empathic Affirmation and Validation | Moderate | 8.6 | Recent regression pass removed repeated response openings and formulaic validation scaffolds while preserving explicit contextual legitimacy and improving Bokmal idiom. |
@@ -119,9 +119,9 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Empathic Understanding, moderate | Strong, but still worth occasional regression checks against basic-reflection purity. | Review for marker/responding fit if no Supabase feedback is open. |
-| 2 | Exploratory Questions, moderate | Stronger after opening-variety pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
-| 3 | Empathic Understanding, hard | Stronger after high-risk regression pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
+| 1 | Exploratory Questions, moderate | Stronger after opening-variety pass; now suitable for a light regression check against one-question purity and Bokmal naturalness. | Review for marker/responding fit if no Supabase feedback is open. |
+| 2 | Empathic Understanding, hard | Stronger after high-risk regression pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
+| 3 | Empathic Understanding, moderate | Strong after basic-reflection regression and Bokmal polish. | Review only for flags or later broad regression. |
 | 4 | Empathic Affirmation and Validation, hard | Strong after high-risk precision and Bokmal regression. | Review only for Supabase flags or later broad regression. |
 | 5 | Empathic Affirmation and Validation, moderate | Strong after response-variety and Bokmal regression. | Review only for Supabase flags or later broad regression. |
 
@@ -137,7 +137,7 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-20 hard validation regression pass: move next to Empathic Understanding moderate. The goal should be a light regression check for marker/responding fit, ensuring the responses stay basic-reflection pure and the Bokmal remains natural.
+Current recommendation after the 2026-06-20 moderate understanding regression pass: move next to Exploratory Questions moderate. The goal should be a light regression check for marker/responding fit, one-question purity, and Bokmal naturalness.
 
 ### Implementation Update: Empathic Understanding Hard
 
@@ -353,6 +353,20 @@ Current moderate understanding state after this pass:
 - Quality rating for Empathic Understanding moderate increased from about 8.2/10 to about 8.5/10.
 
 Empathic Understanding moderate is now strong enough to leave the active-priority slot. Later work should be regression or Bokmal-only polish unless flagged.
+
+### Implementation Update: Empathic Understanding Moderate Regression
+
+A moderate-tier basic-reflection purity and Bokmal naturalness regression pass has now been completed.
+
+Current moderate understanding state after this pass:
+
+- 30 Laura, Carlos, and Nina responses reviewed and revised.
+- Quality rating increased from about 8.5/10 to about 8.6/10.
+- English targeted scan now shows zero repeated response starts, zero response questions, and zero advice, validation, rationale, conjecture, or exploratory drift.
+- Bokmal targeted scan now shows zero repeated response starts, with fewer literal `Du...` openings and more natural clinical phrasing.
+- The responses remain concise basic reflections while carrying more of the client's live conflict: numb functioning, guarded kindness, financial fear, anger/shame cycles, care hunger, guilt, and hidden resentment.
+
+Empathic Understanding moderate is now strong enough to leave the active-priority slot. Later work should be Supabase-feedback driven or broad regression only.
 
 ### Implementation Update: Empathic Evocations Easy
 

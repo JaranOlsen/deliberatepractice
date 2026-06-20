@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T09:55:31.828Z",
+  "generatedAt": "2026-06-20T10:05:13.813Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -131,11 +131,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Apologetic] When I sit down to rest, I feel guilty within seconds. I start noticing dishes, laundry, messages, anything that proves I should get back up.",
-            "response": "Rest quickly turns into guilt and a list of reasons you should get up again."
+            "response": "Rest lasts only seconds before guilt starts listing reasons to get up again."
           },
           "no": {
             "statement": "[Unnskyldende] Når jeg setter meg for å hvile, får jeg skyldfølelse i løpet av sekunder. Jeg begynner å legge merke til oppvask, klesvask, meldinger, alt som beviser at jeg burde reise meg igjen.",
-            "response": "Hvile blir raskt til skyldfølelse og en liste med grunner til at du burde reise deg igjen."
+            "response": "Hvilen varer bare noen sekunder før skyldfølelsen begynner å liste opp grunner til å reise deg igjen."
           }
         },
         {
@@ -182,11 +182,11 @@
           ],
           "en": {
             "statement": "[Angry, clenching fists] I punch walls instead of people, and part of me thinks that should count for something. But I hate that it still scares them.",
-            "response": "You see the wall as holding back from worse, and you hate that it still scares them."
+            "response": "The wall feels like holding back from worse, and it still hurts that it scares them."
           },
           "no": {
             "statement": "[Sint, med knyttede never] Jeg slår i vegger i stedet for folk, og en del av meg tenker at det burde telle for noe. Men jeg hater at det fortsatt skremmer dem.",
-            "response": "Du ser veggen som det å holde igjen fra noe verre, og du hater at det fortsatt skremmer dem."
+            "response": "Veggen kjennes som å holde igjen fra noe verre, og det gjør fortsatt vondt at den skremmer dem."
           }
         }
       ]
@@ -218,11 +218,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Slow and flat] I can get through a whole shift at the hospital, talk to patients, answer my kids' messages, and still feel like I am watching it all from far away.",
-            "response": "You keep functioning with people while feeling flat and far away from all of it."
+            "response": "You keep moving through work and family while feeling flat, as if the rest of you is far away."
           },
           "no": {
             "statement": "[Langsomt og flatt] Jeg kan komme meg gjennom en hel vakt på sykehuset, snakke med pasienter, svare på meldingene fra barna mine, og likevel føle at jeg ser alt sammen på avstand.",
-            "response": "Du fungerer sammen med andre mennesker, samtidig som du kjenner deg flat og langt unna alt sammen."
+            "response": "Du går gjennom jobb og familie mens du kjenner deg flat, som om resten av deg er langt unna."
           }
         }
       ]
