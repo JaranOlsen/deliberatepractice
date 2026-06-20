@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T01:47:13.598Z",
+  "generatedAt": "2026-06-20T09:34:35.548Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -254,11 +254,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Panicked] If someone seems disappointed, I panic like I have ruined the relationship.",
-            "response": "No wonder disappointment feels frightening when love has felt tied to keeping people pleased."
+            "response": "Disappointment can feel frightening when love has felt tied to keeping people pleased."
           },
           "no": {
             "statement": "[Panisk] Hvis noen virker skuffet, får jeg panikk som om jeg har ødelagt forholdet.",
-            "response": "Ikke rart skuffelse kjennes skremmende når kjærlighet har virket knyttet til å holde folk fornøyde."
+            "response": "Skuffelse kan kjennes skremmende når kjærlighet har virket knyttet til å holde folk fornøyde."
           }
         }
       ]
@@ -277,11 +277,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tense and angry] Watching the news about families like mine being treated like threats makes me so angry I can barely sit still.",
-            "response": "Of course that anger is tied to dignity, family, and the old fear of being treated as less than fully human."
+            "response": "That anger fits with dignity, family, and the old fear of being treated as less than fully human."
           },
           "no": {
             "statement": "[Anspent og sint] Å se nyheter om familier som min bli behandlet som trusler gjør meg så sint at jeg nesten ikke klarer å sitte stille.",
-            "response": "Det er klart at sinnet henger sammen med verdighet, familie og den gamle frykten for å bli behandlet som mindreverdig."
+            "response": "Sinnet passer med verdighet, familie og den gamle frykten for å bli behandlet som mindreverdig."
           }
         },
         {
@@ -313,11 +313,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Sad] I like the new apartment, but when I unpacked the photos from the old house, I missed the version of my family I kept hoping we would become.",
-            "response": "Of course the grief belongs here; the move carries not only a new start but the loss of the home and family you kept trying to have."
+            "response": "The grief belongs to what this move carries: not only a new start but the loss of the home and family you kept trying to have."
           },
           "no": {
             "statement": "[Trist] Jeg liker den nye leiligheten, men da jeg pakket ut bildene fra det gamle huset, savnet jeg den versjonen av familien jeg hele tiden håpet at vi skulle bli.",
-            "response": "Selvsagt hører sorgen hjemme her; flyttingen bærer ikke bare en ny start, men tapet av hjemmet og familien du fortsatte å prøve å få."
+            "response": "Sorgen hører til det flyttingen bærer: ikke bare en ny start, men tapet av hjemmet og familien du fortsatte å prøve å få til."
           }
         },
         {

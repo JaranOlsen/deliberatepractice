@@ -891,35 +891,35 @@ export const STATEMENT_SETS = {
     "case-laura": [
       {
         "text": "[Flat and ashamed] On days off I can stay in bed until noon, not exactly sleeping, just not able to start. Then I tell myself I am lazy because other people manage normal mornings.",
-        "suggestion": "After years on alert, it makes sense that staying in bed can be the one place with no demand; that is not the same as laziness."
+        "suggestion": "After years on alert, staying in bed can become the one place with no demands; that belongs to exhaustion and protection, not laziness."
       },
       {
         "text": "[Fearful] If voices rise, my stomach drops and I go somewhere else in my head.",
-        "suggestion": "Understandably, raised voices can send you away in your head; your system learned to survive by leaving."
+        "suggestion": "Raised voices can feel like danger fast enough to send you away in your head; that leaving once helped you survive."
       },
       {
         "text": "[Guarded and confused] A man from work asked if I wanted coffee, and I felt a tiny bit pleased before I went completely numb. I keep telling myself that is ridiculous at my age.",
-        "suggestion": "No wonder both reactions show up: the small warmth of being wanted and the numb protection that comes in when closeness starts to feel possible."
+        "suggestion": "Both reactions fit with what closeness has meant: the small warmth of being wanted and the numb protection that arrives when it starts to feel possible."
       },
       {
         "text": "[Flat and guarded] I take long showers because warm water feels safer than asking anyone for comfort.",
-        "suggestion": "Of course small, safe warmth has appeal when human comfort has been dangerous or unreliable."
+        "suggestion": "Small, safe warmth can feel deeply important when human comfort has been dangerous or unreliable."
       },
       {
         "text": "[Sad] I like the new apartment, but when I unpacked the photos from the old house, I missed the version of my family I kept hoping we would become.",
-        "suggestion": "Of course the grief belongs here; the move carries not only a new start but the loss of the home and family you kept trying to have."
+        "suggestion": "The grief belongs to what this move carries: not only a new start but the loss of the home and family you kept trying to have."
       },
       {
         "text": "[Tense and guarded] Being touched, even kindly, startles me, and then I feel broken for reacting that way.",
-        "suggestion": "Understandably, your startle arrives before choice; your system learned to react first, and that is not brokenness."
+        "suggestion": "Your startle arriving before choice fits with a system that learned to react first; that is not brokenness."
       },
       {
         "text": "[Fearful] When sadness pushes through, I get scared I won't come back from it.",
-        "suggestion": "Understandably, if strong feelings once arrived without comfort, sadness can feel like it might swallow you."
+        "suggestion": "If strong feelings once arrived without comfort, sadness can feel like it might swallow you."
       },
       {
         "text": "[Distant] I apologize the second I need comfort, like wanting it is already too much.",
-        "suggestion": "Of course wanting comfort is human, even when closeness has taught you to apologize for needing it."
+        "suggestion": "Wanting comfort is legitimate and deeply human, even when closeness has taught you to apologize for needing it."
       },
       {
         "text": "[Flat and embarrassed] My daughter sent a song she thought I would like, and I could not make myself listen. I hate that even something kind feels like work.",
@@ -927,91 +927,91 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Flat and guarded] Even in bed, my shoulders stay up like someone might come through the door.",
-        "suggestion": "No wonder rest is hard to find when part of you learned to keep watch for danger."
+        "suggestion": "Rest can feel hard to find when part of you learned to keep watch for danger."
       }
     ],
     "case-carlos": [
       {
         "text": "[Tense and angry] Watching the news about families like mine being treated like threats makes me so angry I can barely sit still.",
-        "suggestion": "Of course that anger is tied to dignity, family, and the old fear of being treated as less than fully human."
+        "suggestion": "That anger fits with dignity, family, and the old fear of being treated as less than fully human."
       },
       {
         "text": "[Tense] If I do not come in strong, I picture people seeing the scared kid I used to be, and that feels humiliating before anyone has even done anything.",
-        "suggestion": "Of course coming in strong has protected the scared part you were taught to hide; it also sounds exhausting to keep that armor up."
+        "suggestion": "Coming in strong has protected the scared part you were taught to hide; it also sounds exhausting to keep that armor up."
       },
       {
         "text": "[Ashamed] At my kid's game I yelled at the ref, and afterward my son would not look at me. I keep telling myself I am turning into exactly what I hated.",
-        "suggestion": "The shame makes sense because his face matters to you; the yelling needs accountability, and the pain afterward shows how deeply you want to be different."
+        "suggestion": "The shame is there because his face matters to you; the yelling needs accountability, and the pain afterward shows how deeply you want to be different."
       },
       {
         "text": "[Defensive] When someone questions me, I feel small, then I come in louder than I meant to.",
-        "suggestion": "Understandably, anger rushes in when being questioned touches the old feeling of being made small."
+        "suggestion": "Anger rushing in fits with how quickly questions touch the old feeling of being made small."
       },
       {
         "text": "[Angry and ashamed] When my fists clench, I feel like the fight is already coming, and then I hate myself for looking like every man I promised I would never become.",
-        "suggestion": "Understandably, your body learned fight as survival; the clenched fists carry old learning and present shame at the same time."
+        "suggestion": "The way your fists clench fits with old survival learning and present shame at the same time; fight was something your body learned to keep you alive."
       },
       {
         "text": "[Ashamed] I break things and then regret it when I see how scared everyone looks.",
-        "suggestion": "The regret makes sense because protecting your family is part of who you want to be."
+        "suggestion": "The regret shows how much protecting your family is part of who you want to be."
       },
       {
         "text": "[Ashamed] Coworkers steer clear after I blow up, and I feel ashamed even while I act like I do not care.",
-        "suggestion": "Understandably, shame and armor show up together: part of you is hurt by the distance, while another part tries not to show it."
+        "suggestion": "Shame and armor can feel tangled together: part of you is hurt by the distance, while another part tries not to show it."
       },
       {
         "text": "[Torn] I leave the room so I do not explode, but then I hear my father's voice calling that weak.",
-        "suggestion": "Leaving makes sense as protection for your family from the explosion, while also colliding with the old rule that stepping back is weakness."
+        "suggestion": "Leaving fits with protecting your family from the explosion, while also colliding with the old rule that stepping back is weakness."
       },
       {
         "text": "[Mistrustful] Calm feels suspicious, like someone is setting me up to be walked over.",
-        "suggestion": "Understandably, calm can feel exposed after you learned to expect being walked over; suspicion has had a job for a long time."
+        "suggestion": "Calm can feel exposed after you learned to expect being walked over; suspicion has had a job for a long time."
       },
       {
         "text": "[Vulnerable] My son fell asleep against me on the couch, and I felt proud, scared, and sad all at once because I want him to feel safe with me in a way I never felt.",
-        "suggestion": "Of course the pride, fear, and sadness belong together; his trust touches your love for him and the grief of not having that kind of safety yourself."
+        "suggestion": "This mix of pride, fear, and sadness belongs to the same moment here; his trust touches your love for him and the grief of not having that kind of safety yourself."
       }
     ],
     "case-nina": [
       {
         "text": "[Tired] If I sit down before everything is done, guilt starts listing what I should be doing.",
-        "suggestion": "That guilt makes sense under the old rule that your worth had to be earned through usefulness."
+        "suggestion": "That guilt belongs to the old rule that your worth had to be earned through usefulness."
       },
       {
         "text": "[Apologetic] The church asked me to bring food for another event, and I said I could not. I spent the whole night feeling like I had failed at being generous.",
-        "suggestion": "No wonder that one no feels morally heavy when generosity and being good have been tied together for so long."
+        "suggestion": "One no can feel morally heavy when generosity and being good have been tied together for so long."
       },
       {
         "text": "[Sad and guilty] My husband made dinner without asking me, and instead of just feeling cared for I cried and then apologized for making it strange.",
-        "suggestion": "Being cared for understandably touches a deep hunger and a deep alarm at the same time after carrying care alone for so long."
+        "suggestion": "Being cared for can feel like it touches a deep hunger and a deep alarm at the same time after carrying care alone for so long."
       },
       {
         "text": "[Guilty] When anger comes up, I instantly hear myself being selfish and feel guilty.",
-        "suggestion": "Of course guilt follows anger when you learned that other people's needs had to come first."
+        "suggestion": "Guilt can feel ready to arrive right after anger when you learned that other people's needs had to come first."
       },
       {
         "text": "[Apologetic] When I ask for help, I feel like a burden before anyone even answers.",
-        "suggestion": "No wonder needing help feels risky after years of being the one who carries everyone else."
+        "suggestion": "Needing help can feel risky after years of being the one who carries everyone else."
       },
       {
         "text": "[Guilty] A messy counter can make me feel like I have failed as a whole person.",
-        "suggestion": "When care and performance got fused, even mess can understandably turn into shame about who you are."
+        "suggestion": "When care and performance got fused, even mess can feel like shame about who you are."
       },
       {
         "text": "[Tired] I tell myself other mothers have it harder, so I should be grateful instead of resentful.",
-        "suggestion": "That comparison makes sense as an old way to silence your own pain, but resentment can still be a valid signal that you are carrying too much."
+        "suggestion": "That comparison can look like an old silencer for your own pain, while resentment can still be a valid signal that you are carrying too much."
       },
       {
         "text": "[Apologetic] I work through being sick, then collapse and feel guilty for collapsing.",
-        "suggestion": "Pushing through makes sense under a rule that rest is forbidden; even the collapse gets judged by that rule."
+        "suggestion": "Pushing through fits with the rule that rest is forbidden; even the collapse gets judged by that rule."
       },
       {
         "text": "[Panicked] If someone seems disappointed, I panic like I have ruined the relationship.",
-        "suggestion": "No wonder disappointment feels frightening when love has felt tied to keeping people pleased."
+        "suggestion": "Disappointment can feel frightening when love has felt tied to keeping people pleased."
       },
       {
         "text": "[Torn] My son talks about joining the army, and I feel proud of him and terrified, then guilty because a good mother should be braver.",
-        "suggestion": "No wonder pride and terror arrive together here; loving his courage does not cancel the fear of what his courage may cost him."
+        "suggestion": "This mix of pride and terror belongs to the same moment; loving his courage does not cancel the fear of what his courage may cost him."
       }
     ],
     "case-aisha": [

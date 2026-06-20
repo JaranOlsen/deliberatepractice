@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T01:47:13.598Z",
+  "generatedAt": "2026-06-20T09:34:35.547Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -489,11 +489,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Tired] If I sit down before everything is done, guilt starts listing what I should be doing.",
-                "response": "That guilt makes sense under the old rule that your worth had to be earned through usefulness."
+                "response": "That guilt belongs to the old rule that your worth had to be earned through usefulness."
               },
               "no": {
                 "statement": "[Sliten] Hvis jeg setter meg ned før alt er gjort, begynner skyldfølelsen å ramse opp hva jeg burde gjøre.",
-                "response": "Den skyldfølelsen gir mening under den gamle regelen om at verdien din måtte fortjenes gjennom nytte."
+                "response": "Den skyldfølelsen hører til den gamle regelen om at verdien din måtte fortjenes gjennom nytte."
               }
             },
             {
@@ -506,11 +506,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Apologetic] When I ask for help, I feel like a burden before anyone even answers.",
-                "response": "No wonder needing help feels risky after years of being the one who carries everyone else."
+                "response": "Needing help can feel risky after years of being the one who carries everyone else."
               },
               "no": {
                 "statement": "[Unnskyldende] Når jeg ber om hjelp, føler jeg meg som en byrde før noen engang svarer.",
-                "response": "Ikke rart det å trenge hjelp kjennes risikabelt etter år med å være den som bærer alle andre."
+                "response": "Det å trenge hjelp kan kjennes risikabelt etter år med å være den som bærer alle andre."
               }
             },
             {
@@ -523,11 +523,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Panicked] If someone seems disappointed, I panic like I have ruined the relationship.",
-                "response": "No wonder disappointment feels frightening when love has felt tied to keeping people pleased."
+                "response": "Disappointment can feel frightening when love has felt tied to keeping people pleased."
               },
               "no": {
                 "statement": "[Panisk] Hvis noen virker skuffet, får jeg panikk som om jeg har ødelagt forholdet.",
-                "response": "Ikke rart skuffelse kjennes skremmende når kjærlighet har virket knyttet til å holde folk fornøyde."
+                "response": "Skuffelse kan kjennes skremmende når kjærlighet har virket knyttet til å holde folk fornøyde."
               }
             }
           ]
