@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T11:01:47.552Z",
+  "generatedAt": "2026-06-20T11:52:11.908Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -493,7 +493,7 @@
           },
           "no": {
             "statement": "[Kontrollert] Jeg vil si til faren min: «Jeg var sønnen din, ikke et prosjekt.» Jeg hører ham fortsatt vurdere karakterene mine, holdningen min, håndtrykket mitt, som om alt ved meg var noe som skulle optimaliseres. Jeg fikk aldri spurt om han noen gang så meg.",
-            "response": "Det er et uavsluttet oppgjør med faren din rundt å bli behandlet som et prestasjonsprosjekt i stedet for som en sønn. Hvis du vil, kan vi plassere ham i den tomme stolen og la deg si den første linjen direkte: «Jeg var sønnen din, ikke et prosjekt.» Så kan vi stoppe opp og se om spørsmålet om å bli sett vil komme etterpå."
+            "response": "Du fikk aldri sagt til faren din hvordan det var å bli behandlet som et prestasjonsprosjekt, ikke som en sønn. Hvis du vil, setter vi ham i den tomme stolen og lar deg si den første linjen direkte: «Jeg var sønnen din, ikke et prosjekt.» Så stopper vi og ser om spørsmålet om å bli sett vil komme etterpå."
           }
         },
         {

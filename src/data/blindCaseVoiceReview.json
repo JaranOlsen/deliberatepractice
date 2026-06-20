@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T11:01:47.552Z",
+  "generatedAt": "2026-06-20T11:52:11.908Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -1200,7 +1200,7 @@
           },
           "no": {
             "statement": "[Rasende] Faren min hadde sine egne skader, det vet jeg. Men jeg hater ham fortsatt for å ha tatt volden med inn i huset vårt og latt oss leve med den.",
-            "response": "Det er et uavsluttet oppgjør med faren din: du forstår noe av det han bar på, og du hater fortsatt volden han tok med inn i huset. Hvis du vil, kan vi hente ham inn i den tomme stolen og la begge deler gå direkte til ham. Begynn med: «Jeg vet at du hadde dine skader, og jeg hater det du tok med hjem.»"
+            "response": "Du har fortsatt noe å si til faren din: du forstår noe av det han bar på, og du hater fortsatt volden han tok med inn i huset. Hvis du vil, henter vi ham inn i den tomme stolen og lar begge deler gå direkte til ham. Begynn med: «Jeg vet at du hadde dine skader, og jeg hater det du tok med hjem.»"
           }
         }
       ]
