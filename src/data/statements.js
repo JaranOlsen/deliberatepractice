@@ -636,128 +636,128 @@ export const STATEMENT_SETS = {
     ],
     "case-aisha": [
       {
-        "text": "[Panicked] If you look away while I am talking, I panic that you are losing interest, and then I start talking faster to keep you with me.",
-        "suggestion": "When I look away, you panic that I am losing interest and start trying harder to keep me with you."
+        "text": "[Panicked] If you look away while I am talking, even to check a note, I panic that you are losing interest. Then I start talking faster, adding details, anything to keep you with me.",
+        "suggestion": "When I look away, you feel me slipping away and start scrambling to keep me with you."
       },
       {
-        "text": "[Panicked] When a text does not come, my chest locks and I cannot breathe, and I keep checking even though checking will not make it arrive.",
-        "suggestion": "When the text does not come, panic locks your chest and leaves you checking for the answer anyway."
+        "text": "[Panicked] When a text does not come, my chest locks and I cannot breathe. I keep checking even though I know checking will not make it arrive, and each empty screen makes it worse.",
+        "suggestion": "The unanswered text locks your chest, and every empty check makes the panic worse."
       },
       {
-        "text": "[Desperate] I hear myself begging 'don't leave' and then suddenly I am yelling; afterward I cannot explain how I went from needing them to attacking them.",
-        "suggestion": "You go from needing them not to leave to attacking them, and afterward that shift feels hard to explain."
+        "text": "[Desperate] I hear myself begging 'don't leave,' and then suddenly I am yelling like I hate them. Afterward I cannot explain how I went from needing them so badly to attacking them.",
+        "suggestion": "You move from desperately needing them close to attacking them, and afterward the shift feels impossible to explain."
       },
       {
         "text": "[Confused] I do not know what to talk about today; I woke up feeling wrong, checked my phone too many times, and cannot tell if I am sad or angry.",
-        "suggestion": "You are unsure where to begin, and the day started with a wrong feeling you cannot sort into sad or angry."
+        "suggestion": "You are unsure where to begin with a wrong feeling that will not sort into sad or angry."
       },
       {
         "text": "[Worried] I am trying not to scratch, but when the panic gets that loud, my hands start moving before I have words for what is happening.",
-        "suggestion": "You are trying not to scratch, and the panic gets ahead of words and moves into your hands."
+        "suggestion": "The panic outruns words and moves into your hands while you are trying not to scratch."
       },
       {
-        "text": "[Desperate] If someone cancels, I want to quit before they can leave again, even if part of me knows they may have a real reason.",
-        "suggestion": "A cancellation feels like being left again, even while part of you knows there may be another reason."
+        "text": "[Desperate] If someone cancels, I want to quit before they can leave again. Part of me knows they may have a real reason, but another part is already packing up and disappearing first.",
+        "suggestion": "A cancellation feels like being left again, and part of you wants to disappear first."
       },
       {
         "text": "[Ashamed] I hate myself after I blow up, even when I was terrified first; I keep replaying what I said and feeling disgusting.",
-        "suggestion": "After you blow up, you replay what you said and feel disgusted with yourself, even though terror came first."
+        "suggestion": "After you blow up, the replay turns into disgust with yourself, even though terror came first."
       },
       {
         "text": "[Ashamed] I test people to see if they care, and then I hate myself for needing proof; reassurance does not last very long.",
-        "suggestion": "You need proof that people care, and then feel ashamed when even reassurance does not last."
+        "suggestion": "You need proof that people care, and then shame comes when the reassurance fades so quickly."
       },
       {
         "text": "[Desperate] When a session ends, the room tilts and I feel dizzy and left; I know the hour is over, but my body does not know that.",
-        "suggestion": "When the session ends, you feel dizzy and left, even while you know the hour is over."
+        "suggestion": "The session ending feels like being left, even while one part knows the hour is over."
       },
       {
-        "text": "[Scared] I am scared that if I stop chasing people, there will be nothing left of me; without the crisis I do not know who I am.",
-        "suggestion": "If you stop chasing people, you fear there will be nothing left of you and no clear sense of who you are."
+        "text": "[Scared] I am scared that if I stop chasing people, there will be nothing left of me. Without the crisis, without trying to get someone back, I do not know who I am.",
+        "suggestion": "Without the chase and the crisis, you fear there may be no clear sense of you left."
       }
     ],
     "case-david": [
       {
-        "text": "[Controlled] Being called cold makes me bristle because it sounds too close to true, and then I get angry at her for noticing.",
-        "suggestion": "Being called cold stings as too close to true, and anger comes up at being seen that way."
+        "text": "[Controlled] When my wife calls me cold, I bristle because it sounds too close to true. Then I get angry at her for noticing the exact thing I am trying not to see.",
+        "suggestion": "Being called cold hits as too close to true, and anger rises at being seen there."
       },
       {
         "text": "[Frustrated] I know my father was impossible to please, but knowing that does not change how worthless I feel when I imagine his face.",
-        "suggestion": "You know he was impossible to please, and still his face brings up worthlessness."
+        "suggestion": "You know he was impossible to please, and still imagining his face brings up worthlessness."
       },
       {
         "text": "[Defensive] When I feel criticized, I start listing everything I have achieved, because otherwise I feel exposed and ridiculous.",
-        "suggestion": "When criticism leaves you feeling exposed, you start listing what you have achieved."
+        "suggestion": "Criticism leaves you feeling exposed, and achievements rush in to cover that feeling."
       },
       {
         "text": "[Controlled] Praise feels good, then it leaks out; by the next day I need more proof that I still matter.",
-        "suggestion": "Praise feels good for a moment, then fades and leaves you needing more proof that you matter."
+        "suggestion": "Praise feels good for a moment, then drains away and leaves you needing proof again."
       },
       {
         "text": "[Dismissive] When I admit I am wrong, I feel stripped down and small, so I argue even when part of me knows I caused damage.",
-        "suggestion": "Admitting you are wrong leaves you feeling stripped down and small, even when you know there was damage."
+        "suggestion": "Admitting you are wrong leaves you stripped down and small, even when part of you knows there was damage."
       },
       {
         "text": "[Wounded but sharp] When my kids cry, I get impatient, and then I hate how hard I sound when I see them pull away.",
-        "suggestion": "When your kids cry, impatience comes out, and then you hate how hard you sounded as they pull away."
+        "suggestion": "Their crying brings out impatience, and then you hate the hard sound of yourself as they pull away."
       },
       {
         "text": "[Wounded but sharp] Since the affair came out, being at home makes me feel like a failure; even ordinary rooms feel like evidence against me.",
-        "suggestion": "Since the affair came out, home itself brings up the feeling that you have failed."
+        "suggestion": "Since the affair came out, home itself feels like evidence that you have failed."
       },
       {
-        "text": "[Worried] I have been drinking more after work because it is the only time I stop feeling anxious and stop hearing my wife's disappointment.",
-        "suggestion": "The drinking gives you a break from anxiety and from hearing your wife's disappointment."
+        "text": "[Worried] I have been drinking more after work because it is the only time I stop feeling anxious and stop hearing my wife's disappointment in my head.",
+        "suggestion": "Drinking quiets the anxiety and your wife's disappointment for a while."
       },
       {
         "text": "[Confused] I do not know what we should talk about this week; if I choose, I will probably choose the thing that makes me look least exposed.",
-        "suggestion": "You are unsure what to bring, and choosing by yourself feels tied to staying less exposed."
+        "suggestion": "Choosing what to talk about feels risky, with the pull to choose the least exposed version."
       },
       {
         "text": "[Wounded but sharp] If I am just ordinary at something, I feel like I disappear; I would rather not try than be average in front of people.",
-        "suggestion": "Being ordinary feels like disappearing, and being average in front of people feels hard to face."
+        "suggestion": "Being ordinary feels like disappearing, and being average in front of people feels unbearable."
       }
     ],
     "case-marcus": [
       {
-        "text": "[Slow and flat] Most days I complete the routine and feel almost nothing behind my face; people speak to me and I answer after a delay.",
-        "suggestion": "You move through the routine and answer people while feeling almost nothing behind your face."
+        "text": "[Slow and flat] Most days I complete the routine and feel almost nothing behind my face. People speak to me, and I answer after a delay, like the words have to travel too far.",
+        "suggestion": "You move through the routine with words coming from far away and almost nothing behind your face."
       },
       {
         "text": "[Confused] I do not know what to talk about today; if I choose something, I am afraid we will open more than I can handle.",
-        "suggestion": "You are unsure where to start and afraid that choosing a topic will open too much."
+        "suggestion": "Choosing where to start feels unsafe, like it might open more than you can handle."
       },
       {
         "text": "[Hypervigilant] Nightmares leave me wired and empty, like the room is not safe; I sit up listening before I remember where I am.",
-        "suggestion": "Nightmares leave you wired, empty, and listening before you fully know where you are."
+        "suggestion": "Nightmares leave you wired and empty, listening before you fully know where you are."
       },
       {
         "text": "[Slow and flat] I avoid people because it feels safer than explaining why I disappear, and then I sit alone and feel worse.",
-        "suggestion": "Avoiding people feels safer than explaining yourself, and then being alone feels worse."
+        "suggestion": "Avoiding people feels safer than explaining yourself, and then the aloneness gets worse."
       },
       {
-        "text": "[Worried] I have been drinking after work so I can sleep, and now I am worried I cannot sleep without it; I hate depending on it.",
-        "suggestion": "Alcohol has helped you sleep, and now you are worried and angry about depending on it."
+        "text": "[Worried] I have been drinking after work so I can sleep, and now I am worried I cannot sleep without it. I hate that something I do not trust has started to feel necessary.",
+        "suggestion": "Alcohol has started to feel necessary for sleep, and you hate feeling dependent on it."
       },
       {
         "text": "[Quiet and guarded] When something good happens, it feels far away, like it belongs to someone else; I know what expression I am supposed to have.",
-        "suggestion": "Even good things feel far away, and you know the expression you are supposed to show."
+        "suggestion": "Even good things feel far away, while you know the expression you are supposed to show."
       },
       {
         "text": "[Flat] A door slam can throw me back before I know where I am; afterward I feel embarrassed that a normal sound did that.",
-        "suggestion": "A sudden door slam throws you into alarm, and afterward you feel embarrassed that it happened."
+        "suggestion": "A sudden door slam throws you back before you can place yourself, and afterward you feel embarrassed."
       },
       {
-        "text": "[Sad] A friend from the unit stopped calling, and I keep telling myself I did not want to talk anyway, but I still check the phone.",
-        "suggestion": "You tell yourself you did not want contact, and still you check the phone and feel the silence."
+        "text": "[Sad] A friend from the unit stopped calling, and I keep telling myself I did not want to talk anyway. But I still check the phone, and the silence bothers me.",
+        "suggestion": "You tell yourself you did not want contact, and still the silence bothers you."
       },
       {
         "text": "[Hopeless] Some nights I think nobody would notice if I did not wake up; I do not plan anything, I just feel that invisible.",
-        "suggestion": "Those nights you feel so invisible that not waking up seems like something no one would notice."
+        "suggestion": "Those nights you feel so invisible that not waking up seems like it would pass unnoticed."
       },
       {
-        "text": "[Scared] I want to let people in, but every time someone gets close I start looking for the exit and then I hate being alone.",
-        "suggestion": "You want closeness, then fear sends you looking for an exit, and afterward you hate being alone."
+        "text": "[Scared] I want to let people in, but every time someone gets close, I start looking for the exit. Then I end up alone again and hate that too.",
+        "suggestion": "You want closeness, fear sends you toward the exit, and then the aloneness hurts too."
       }
     ]
   },
