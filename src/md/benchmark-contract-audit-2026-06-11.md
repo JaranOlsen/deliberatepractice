@@ -83,7 +83,7 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | Empathic Understanding | Moderate | 8.5 | Recent pass broadened all Laura, Carlos, and Nina markers toward Goldman intermediate richness while keeping every response reflective, concise, and question-free. |
 | Empathic Understanding | Hard | 8.6 | Recent pass tightened Aisha, David, and Marcus high-risk reflections, expanded selected advanced markers, and removed subtle explanatory or repeated response patterns. |
 | Empathic Affirmation and Validation | Easy | 8.6 | Recent pass made beginner validation more context-specific, reduced repeated "makes sense/understandably" formulas, and aligned Bokmal idiom. |
-| Empathic Affirmation and Validation | Moderate | 8.4 | Recent pass removed repeated four-word response openings and reduced literal Bokmal validation phrasing while preserving explicit legitimacy. |
+| Empathic Affirmation and Validation | Moderate | 8.6 | Recent regression pass removed repeated response openings and formulaic validation scaffolds while preserving explicit contextual legitimacy and improving Bokmal idiom. |
 | Empathic Affirmation and Validation | Hard | 8.4 | Recent pass expanded hard markers, preserved high-risk validation, removed repeated openings, and made Bokmal more natural. |
 | Exploratory Questions | Easy | 8.5 | Strong one-question purity with simple inward-turning markers; only light opening-variety polish needed. |
 | Exploratory Questions | Moderate | 8.6 | Recent pass preserved exactly one inward question per item while removing repeated response openings and reducing visible "what happens/what do you notice" scaffolding. |
@@ -119,11 +119,11 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Empathic Affirmation and Validation, moderate | Strong validation coverage, but still one of the lower scored tiers and worth later regression. | Review for specificity and Bokmal naturalness after understanding. |
-| 2 | Empathic Affirmation and Validation, hard | Strong high-risk validation, but advanced legitimacy language can drift formulaic over time. | Review for high-risk validation precision if no lower target is active. |
-| 3 | Empathic Understanding, moderate | Strong, but now the remaining understanding tier with the most room for light regression. | Review only for flags or later regression checks. |
-| 4 | Exploratory Questions, moderate | Stronger after opening-variety pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
-| 5 | Empathic Understanding, hard | Stronger after high-risk regression pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
+| 1 | Empathic Affirmation and Validation, hard | Strong high-risk validation, but advanced legitimacy language can drift formulaic over time. | Review for high-risk validation precision and Bokmal idiom if no Supabase feedback is open. |
+| 2 | Empathic Understanding, moderate | Strong, but still worth occasional regression checks against basic-reflection purity. | Review only for flags or later regression checks. |
+| 3 | Exploratory Questions, moderate | Stronger after opening-variety pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
+| 4 | Empathic Understanding, hard | Stronger after high-risk regression pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
+| 5 | Empathic Affirmation and Validation, moderate | Strong after the latest response-variety/Bokmal regression pass. | Review only for Supabase flags or later broad regression. |
 
 ## Next Work Decision Rule
 
@@ -137,7 +137,7 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-20 hard empathic-understanding pass: move next to Empathic Affirmation and Validation moderate. The goal should be specificity and Bokmal naturalness while preserving explicit contextual legitimacy rather than basic reflection or advice.
+Current recommendation after the 2026-06-20 moderate validation regression pass: move next to Empathic Affirmation and Validation hard. The goal should be high-risk validation precision and Bokmal idiom while preserving explicit contextual legitimacy rather than excusing harmful behavior or sliding into basic reflection.
 
 ### Implementation Update: Empathic Understanding Hard
 
@@ -498,6 +498,20 @@ Current validation state after this pass:
 - Every edited English item has a matching Bokmal localization.
 
 This section is now strong enough to leave the active-priority queue. Later regression work should focus on response-opening variety and Norwegian idiom rather than broad rewriting.
+
+### Implementation Update: Empathic Affirmation and Validation Moderate Regression
+
+A moderate-tier response-variety and Bokmal naturalness regression pass has now been completed.
+
+Current moderate validation state after this pass:
+
+- 30 Laura, Carlos, and Nina responses reviewed and revised.
+- Quality rating increased from about 8.4/10 to about 8.6/10.
+- English targeted scan now shows zero repeated response starts, zero response questions, zero advice flags, and zero uses of "No wonder," "Of course," or "makes sense" in the moderate tier.
+- Bokmal targeted scan now shows zero repeated response starts and zero uses of "Ikke rart," "gir mening," or "Det er klart" in the moderate tier.
+- The responses still validate emotions and protective moves in context, including trauma shutdown, anger/fight shame, family responsibility, care hunger, and maternal pride/fear, without endorsing harmful behavior.
+
+Empathic Affirmation and Validation moderate is now strong enough to leave the active-priority slot. Later work should target hard-tier high-risk precision or Supabase flags before returning to this tier.
 
 ### Implementation Update: Staying in Contact with Intense Affect
 

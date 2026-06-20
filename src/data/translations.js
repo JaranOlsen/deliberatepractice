@@ -2514,35 +2514,35 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-laura_01": {
       "text": "[Flat og skamfull] På fridager kan jeg bli liggende til tolv, ikke egentlig sovende, bare ute av stand til å komme i gang. Så sier jeg til meg selv at jeg er lat, fordi andre mennesker klarer normale morgener.",
-      "suggestion": "Etter mange år på vakt gir det mening at sengen kan bli det ene stedet uten krav; det er ikke det samme som latskap."
+      "suggestion": "Etter mange år på vakt kan senga bli det ene stedet uten krav; det handler om utmattelse og beskyttelse, ikke latskap."
     },
     "dp_empathic-affirmation-validation_case-laura_02": {
       "text": "[Redd] Hvis stemmer heves, synker magen og jeg forsvinner et annet sted i hodet.",
-      "suggestion": "Forståelig nok kan hevede stemmer sende deg bort i hodet; systemet ditt lærte å overleve ved å forsvinne."
+      "suggestion": "Hevede stemmer kan kjennes som fare raskt nok til å sende deg bort i hodet; det å forsvinne hjalp deg en gang å overleve."
     },
     "dp_empathic-affirmation-validation_case-laura_03": {
       "text": "[På vakt og forvirret] En mann på jobben spurte om jeg ville ta en kaffe, og jeg ble bitte litt glad før jeg ble helt nummen. Jeg sier til meg selv at det er latterlig i min alder.",
-      "suggestion": "Ikke rart begge reaksjonene kommer: den lille varmen ved å være ønsket, og den numne beskyttelsen som kommer når nærhet begynner å kjennes mulig."
+      "suggestion": "Begge reaksjonene passer med det nærhet har betydd: den lille varmen ved å være ønsket, og den numne beskyttelsen som kommer når nærhet begynner å kjennes mulig."
     },
     "dp_empathic-affirmation-validation_case-laura_04": {
       "text": "[Flatt og på vakt] Jeg tar lange dusjer fordi varmt vann kjennes tryggere enn å be noen om trøst.",
-      "suggestion": "Det er klart at liten, trygg varme kan friste når menneskelig trøst har kjentes farlig eller upålitelig."
+      "suggestion": "Liten, trygg varme kan kjennes svært viktig når trøst fra mennesker har kjentes farlig eller upålitelig."
     },
     "dp_empathic-affirmation-validation_case-laura_05": {
       "text": "[Trist] Jeg liker den nye leiligheten, men da jeg pakket ut bildene fra det gamle huset, savnet jeg den versjonen av familien jeg hele tiden håpet at vi skulle bli.",
-      "suggestion": "Selvsagt hører sorgen hjemme her; flyttingen bærer ikke bare en ny start, men tapet av hjemmet og familien du fortsatte å prøve å få."
+      "suggestion": "Sorgen hører til det flyttingen bærer: ikke bare en ny start, men tapet av hjemmet og familien du fortsatte å prøve å få til."
     },
     "dp_empathic-affirmation-validation_case-laura_06": {
       "text": "[Anspent og på vakt] Berøring skremmer meg, selv når den er vennlig, og etterpå føler jeg meg ødelagt for å reagere sånn.",
-      "suggestion": "Det er forståelig at skvettenheten kommer før valget rekker fram; systemet ditt lærte å reagere først, og det er ikke ødelagthet."
+      "suggestion": "At skvettenheten kommer før du rekker å velge, passer med et system som lærte å reagere først; det betyr ikke at du er ødelagt."
     },
     "dp_empathic-affirmation-validation_case-laura_07": {
       "text": "[Redd] Når tristheten presser seg fram, blir jeg redd for at jeg ikke kommer tilbake fra den.",
-      "suggestion": "Når sterke følelser en gang kom uten trøst, er det forståelig at tristheten kan kjennes som noe som kan sluke deg."
+      "suggestion": "Når sterke følelser en gang kom uten trøst, kan tristheten kjennes som noe som kan sluke deg."
     },
     "dp_empathic-affirmation-validation_case-laura_08": {
       "text": "[Fjern] Jeg beklager med en gang jeg trenger trøst, som om det allerede er for mye å ønske det.",
-      "suggestion": "Det er klart at det å ønske trøst er menneskelig, også når nærhet har lært deg å beklage at du trenger den."
+      "suggestion": "Det å ønske trøst er legitimt og dypt menneskelig, også når nærhet har lært deg å beklage at du trenger den."
     },
     "dp_empathic-affirmation-validation_case-laura_09": {
       "text": "[Flat og flau] Datteren min sendte en sang hun trodde jeg ville like, og jeg klarte ikke få meg til å høre på den. Jeg hater at selv noe vennlig kjennes som arbeid.",
@@ -2550,87 +2550,87 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-laura_10": {
       "text": "[Flatt og på vakt] Selv i senga ligger skuldrene oppe, som om noen kan komme inn døra.",
-      "suggestion": "Ikke rart hvile er vanskelig å finne når en del av deg lærte å stå på vakt mot fare."
+      "suggestion": "Hvile kan være vanskelig å finne når en del av deg lærte å stå på vakt mot fare."
     },
     "dp_empathic-affirmation-validation_case-carlos_01": {
       "text": "[Anspent og sint] Å se nyheter om familier som min bli behandlet som trusler gjør meg så sint at jeg nesten ikke klarer å sitte stille.",
-      "suggestion": "Det er klart at sinnet henger sammen med verdighet, familie og den gamle frykten for å bli behandlet som mindreverdig."
+      "suggestion": "Sinnet passer med verdighet, familie og den gamle frykten for å bli behandlet som mindreverdig."
     },
     "dp_empathic-affirmation-validation_case-carlos_02": {
       "text": "[Anspent] Hvis jeg ikke kommer inn sterkt, ser jeg for meg at folk får øye på den redde gutten jeg var, og det føles ydmykende før noen egentlig har gjort noe.",
-      "suggestion": "Selvsagt har det å komme inn sterkt beskyttet den redde delen du lærte å skjule; det høres også utmattende ut å holde rustningen oppe."
+      "suggestion": "Det å komme inn sterkt har beskyttet den redde delen du lærte å skjule; det høres også utmattende ut å holde rustningen oppe."
     },
     "dp_empathic-affirmation-validation_case-carlos_03": {
       "text": "[Skamfull] På kampen til barnet mitt ropte jeg til dommeren, og etterpå ville ikke sønnen min se på meg. Jeg sier til meg selv at jeg blir akkurat det jeg hatet.",
-      "suggestion": "Skammen gir mening fordi ansiktet hans betyr noe for deg; ropingen krever ansvar, og smerten etterpå viser hvor dypt du ønsker å være annerledes."
+      "suggestion": "Skammen er der fordi blikket hans betyr noe for deg; ropingen krever ansvar, og smerten etterpå viser hvor dypt du ønsker å være annerledes."
     },
     "dp_empathic-affirmation-validation_case-carlos_04": {
       "text": "[Defensiv] Når noen stiller spørsmål ved meg, føler jeg meg liten, og så hever jeg stemmen mer enn jeg mente.",
-      "suggestion": "Det er forståelig at sinnet rykker inn når spørsmål treffer den gamle følelsen av å bli gjort liten."
+      "suggestion": "At sinnet rykker inn, passer med hvor fort spørsmål treffer den gamle følelsen av å bli gjort liten."
     },
     "dp_empathic-affirmation-validation_case-carlos_05": {
       "text": "[Sint og skamfull] Når nevene knyter seg, føles det som om kampen allerede er på vei, og så hater jeg meg selv for å ligne alle mennene jeg lovet at jeg aldri skulle bli.",
-      "suggestion": "Forståelig nok lærte kroppen kamp som overlevelse; de knyttede nevene bærer gammel læring og nåværende skam samtidig."
+      "suggestion": "Måten nevene knyter seg på, passer med gammel overlevelseslæring og skam i nåtid samtidig; kamp var noe kroppen lærte for å holde deg i live."
     },
     "dp_empathic-affirmation-validation_case-carlos_06": {
       "text": "[Skamfull] Jeg ødelegger ting og angrer etterpå når jeg ser hvor redde alle ser ut.",
-      "suggestion": "Angeren gir mening fordi det å beskytte familien er en del av hvem du vil være."
+      "suggestion": "Angeren viser hvor mye det å beskytte familien er en del av hvem du vil være."
     },
     "dp_empathic-affirmation-validation_case-carlos_07": {
       "text": "[Skamfull] Kollegaene holder avstand etter at jeg eksploderer, og jeg kjenner skam selv om jeg later som jeg ikke bryr meg.",
-      "suggestion": "Det er forståelig at skam og forsvar kommer samtidig: en del av deg blir såret av avstanden, mens en annen del prøver å skjule det."
+      "suggestion": "Skam og forsvar kan bli viklet sammen: en del av deg blir såret av avstanden, mens en annen del prøver å skjule det."
     },
     "dp_empathic-affirmation-validation_case-carlos_08": {
       "text": "[Splittet] Jeg går ut av rommet for å ikke eksplodere, men så hører jeg stemmen til faren min si at det er svakt.",
-      "suggestion": "Det å gå ut gir mening som beskyttelse for familien mot eksplosjonen, samtidig som det kolliderer med den gamle regelen om at det er svakt å trekke seg."
+      "suggestion": "Det å gå ut passer med å beskytte familien mot eksplosjonen, samtidig som det kolliderer med den gamle regelen om at det er svakt å trekke seg."
     },
     "dp_empathic-affirmation-validation_case-carlos_09": {
       "text": "[Mistenksom] Ro kjennes mistenkelig, som om noen legger opp til at jeg skal bli tråkket på.",
-      "suggestion": "Det er forståelig at ro kan kjennes blottstillende etter at du lærte å forvente å bli tråkket på; mistanken har hatt en jobb lenge."
+      "suggestion": "Ro kan kjennes blottstillende etter at du lærte å forvente å bli tråkket på; mistanken har hatt en jobb lenge."
     },
     "dp_empathic-affirmation-validation_case-carlos_10": {
       "text": "[Sårbar] Sønnen min sovnet mot meg i sofaen, og jeg kjente stolthet, redsel og sorg på en gang, fordi jeg vil at han skal føle seg trygg med meg på en måte jeg aldri gjorde.",
-      "suggestion": "Det er klart at stolthet, redsel og sorg hører sammen; tilliten hans berører både kjærligheten din til ham og sorgen over at du ikke selv hadde slik trygghet."
+      "suggestion": "Stolthet, redsel og sorg hører til det samme øyeblikket her; tilliten hans berører både kjærligheten din til ham og sorgen over at du ikke selv hadde slik trygghet."
     },
     "dp_empathic-affirmation-validation_case-nina_01": {
       "text": "[Sliten] Hvis jeg setter meg ned før alt er gjort, begynner skyldfølelsen å ramse opp hva jeg burde gjøre.",
-      "suggestion": "Den skyldfølelsen gir mening under den gamle regelen om at verdien din måtte fortjenes gjennom nytte."
+      "suggestion": "Den skyldfølelsen hører til den gamle regelen om at verdien din måtte fortjenes gjennom nytte."
     },
     "dp_empathic-affirmation-validation_case-nina_02": {
       "text": "[Unnskyldende] Kirken spurte om jeg kunne ta med mat til enda et arrangement, og jeg sa at jeg ikke kunne. Jeg lå våken hele kvelden og følte at jeg hadde mislyktes i å være raus.",
-      "suggestion": "Ikke rart dette ene nei-et kjennes moralsk tungt når raushet og det å være god har vært bundet sammen så lenge."
+      "suggestion": "Dette ene nei-et kan kjennes moralsk tungt når raushet og det å være god har vært bundet sammen så lenge."
     },
     "dp_empathic-affirmation-validation_case-nina_03": {
       "text": "[Trist og skyldpreget] Mannen min laget middag uten at jeg spurte, og i stedet for bare å føle meg tatt vare på begynte jeg å gråte og så beklaget jeg at jeg gjorde det rart.",
-      "suggestion": "Det å bli tatt vare på berører forståelig nok både en dyp hunger og en dyp alarm samtidig etter å ha båret omsorgen alene så lenge."
+      "suggestion": "Det å bli tatt vare på kan kjennes som om det berører både en dyp lengsel og en dyp alarm samtidig etter å ha båret omsorgen alene så lenge."
     },
     "dp_empathic-affirmation-validation_case-nina_04": {
       "text": "[Skyldpreget] Når sinnet kommer, hører jeg straks at jeg er egoistisk og får skyldfølelse.",
-      "suggestion": "Selvsagt følger skyld etter sinne når du lærte at andres behov måtte komme først."
+      "suggestion": "Skyld kan stå klar rett etter sinne når du lærte at andres behov måtte komme først."
     },
     "dp_empathic-affirmation-validation_case-nina_05": {
       "text": "[Unnskyldende] Når jeg ber om hjelp, føler jeg meg som en byrde før noen engang svarer.",
-      "suggestion": "Ikke rart det å trenge hjelp kjennes risikabelt etter år med å være den som bærer alle andre."
+      "suggestion": "Det å trenge hjelp kan kjennes risikabelt etter år med å være den som bærer alle andre."
     },
     "dp_empathic-affirmation-validation_case-nina_06": {
       "text": "[Skyldpreget] En rotete kjøkkenbenk kan få meg til å føle at jeg har mislyktes som person.",
-      "suggestion": "Når omsorg og prestasjon ble vevd sammen, kan selv rot forståelig nok bli til skam over hvem du er."
+      "suggestion": "Når omsorg og prestasjon ble vevd sammen, kan selv rot kjennes som skam over hvem du er."
     },
     "dp_empathic-affirmation-validation_case-nina_07": {
       "text": "[Sliten] Jeg sier til meg selv at andre mødre har det vanskeligere, så jeg burde være takknemlig i stedet for bitter.",
-      "suggestion": "Den sammenligningen gir mening som en gammel måte å tie din egen smerte på, men bitterheten kan likevel være et gyldig signal om at du bærer for mye."
+      "suggestion": "Den sammenligningen kan ligne en gammel måte å tie din egen smerte på, mens bitterheten fortsatt kan være et gyldig signal om at du bærer for mye."
     },
     "dp_empathic-affirmation-validation_case-nina_08": {
       "text": "[Unnskyldende] Jeg jobber meg gjennom sykdom, kollapser og får skyldfølelse for å kollapse.",
-      "suggestion": "Å presse seg gjennom gir mening under en regel om at hvile er forbudt; selv kollapsen blir dømt av den regelen."
+      "suggestion": "Å presse seg gjennom passer med regelen om at hvile er forbudt; selv kollapsen blir dømt av den regelen."
     },
     "dp_empathic-affirmation-validation_case-nina_09": {
       "text": "[Panisk] Hvis noen virker skuffet, får jeg panikk som om jeg har ødelagt forholdet.",
-      "suggestion": "Ikke rart skuffelse kjennes skremmende når kjærlighet har virket knyttet til å holde folk fornøyde."
+      "suggestion": "Skuffelse kan kjennes skremmende når kjærlighet har virket knyttet til å holde folk fornøyde."
     },
     "dp_empathic-affirmation-validation_case-nina_10": {
       "text": "[Splittet] Sønnen min snakker om å verve seg, og jeg blir stolt av ham og livredd, og så får jeg skyldfølelse fordi en god mor burde være modigere.",
-      "suggestion": "Ikke rart stolthet og redsel kommer samtidig her; det at du elsker motet hans, opphever ikke frykten for hva motet kan koste ham."
+      "suggestion": "Stolthet og redsel kan begge høre til i det samme øyeblikket; det at du elsker motet hans, opphever ikke frykten for hva motet kan koste ham."
     },
     "dp_empathic-affirmation-validation_case-aisha_01": {
       "text": "[Panisk] Jeg fulgte med på døra mesteparten av timen for å være sikker på at du ikke drar. Hver gang det ble stille i gangen, tenkte jeg at nå bestemmer du deg kanskje for at jeg er for mye og går.",
