@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T10:40:30.403Z",
+  "generatedAt": "2026-06-20T11:01:47.552Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -1014,11 +1014,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Quietly] When it is my turn to speak, I lose track of what I was going to say.",
-                "response": "When attention turns toward you, the words vanish. Let's pause at that exact moment and notice what it feels like when everyone is waiting."
+                "response": "When attention turns toward you, the words vanish. Pause at that exact moment and notice what it feels like when everyone is waiting."
               },
               "no": {
                 "statement": "[Stille] Når det er min tur til å snakke, mister jeg tråden i det jeg skulle si.",
-                "response": "Når oppmerksomheten vendes mot deg, forsvinner ordene. La oss stoppe ved akkurat det øyeblikket og merke hvordan det kjennes når alle venter."
+                "response": "Når oppmerksomheten vendes mot deg, forsvinner ordene. Stopp ved akkurat det øyeblikket og merk hvordan det kjennes når alle venter."
               }
             },
             {
@@ -1031,11 +1031,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Embarrassed] After meetings, one small awkward pause can make me cringe for the rest of the day.",
-                "response": "That one pause keeps coming back long after the meeting. Let's slow it down and notice what the cringe says about how you think you were seen."
+                "response": "That one pause keeps coming back long after the meeting. Slow it down and notice what the cringe says about how you think you were seen."
               },
               "no": {
                 "statement": "[Flau] Etter møter kan én liten pinlig pause få meg til å krympe meg resten av dagen.",
-                "response": "Den ene pausen kommer tilbake lenge etter møtet. La oss senke tempoet og merke hva flauheten sier om hvordan du tror du ble sett."
+                "response": "Den ene pausen kommer tilbake lenge etter møtet. Senk tempoet og merk hva flauheten sier om hvordan du tror du ble sett."
               }
             },
             {
@@ -1048,11 +1048,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Blank] Sometimes I pretend to text so small talk does not have to start.",
-                "response": "The phone gives you a way to pause the contact, and a little cover from being put on the spot."
+                "response": "The phone gives you a way to pause the contact, and a little cover from being put on the spot. See what happens just before you reach for that cover."
               },
               "no": {
                 "statement": "[Blank] Noen ganger later jeg som jeg skriver melding, så småpraten ikke trenger å begynne.",
-                "response": "Telefonen gir deg en måte å sette kontakten på pause, og litt skjul for presset ved å måtte svare der og da."
+                "response": "Telefonen gir deg en måte å sette kontakten på pause, og litt skjul for presset ved å måtte svare der og da. Se hva som skjer rett før du griper etter det skjulestedet."
               }
             }
           ]

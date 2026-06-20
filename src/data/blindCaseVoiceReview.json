@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T10:40:30.403Z",
+  "generatedAt": "2026-06-20T11:01:47.552Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -578,11 +578,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tearful] When I see couples holding hands, I get upset and then feel childish for wanting that.",
-            "response": "Seeing them brings up the wanting, and then shame moves in around the wanting. Can we stay with the wanting for a moment before shame moves in?"
+            "response": "Seeing them brings up the wanting, and then shame moves in around the wanting. Keep close to the wanting for a moment before shame moves in."
           },
           "no": {
             "statement": "[På gråten] Når jeg ser par holde hender, blir jeg lei meg, og så føler jeg meg barnslig for å ville ha det.",
-            "response": "Det å se dem vekker ønsket, og så kommer skammen inn rundt ønsket. Kan vi bli ved ønsket et øyeblikk før skammen kommer inn?"
+            "response": "Det å se dem vekker ønsket, og så kommer skammen inn rundt ønsket. Hold deg nær ønsket et øyeblikk før skammen kommer inn."
           }
         }
       ]
@@ -601,11 +601,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Firm] When someone corrects one detail, I keep hearing it afterward like I was called out.",
-            "response": "The correction keeps echoing as being called out. Can we stay with that exposed feeling for a moment before the anger takes over?"
+            "response": "The correction keeps echoing as being called out. Let that exposed feeling have a moment before the anger takes over."
           },
           "no": {
             "statement": "[Bestemt] Når noen retter på én detalj, hører jeg det om igjen etterpå som om jeg ble hengt ut.",
-            "response": "Korrigeringen fortsetter å høres ut som å bli hengt ut. Kan vi bli litt ved den blottstilte følelsen før sinnet tar over?"
+            "response": "Korrigeringen fortsetter å høres ut som å bli hengt ut. La den blottstilte følelsen få et øyeblikk før sinnet tar over."
           }
         },
         {
