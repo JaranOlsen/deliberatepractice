@@ -1271,127 +1271,127 @@ export const STATEMENT_SETS = {
     "case-laura": [
       {
         "text": "[Slow and flat] Most days feel muted, and I cannot tell if I am sad or just numb.",
-        "suggestion": "As you stay with the word muted, what quality does it have inside?"
+        "suggestion": "As that muted feeling is here, what do you notice it doing in you?"
       },
       {
         "text": "[Fearful] The neighbors argued in the hallway, and I spent the rest of the night acting like it was nothing.",
-        "suggestion": "What do you sense just under the acting-like-nothing?"
+        "suggestion": "Just beneath the acting-like-nothing, what feeling is closest?"
       },
       {
         "text": "[Tense and guarded] When someone is kind to me, I get suspicious and then feel bad for being suspicious.",
-        "suggestion": "Where does suspicion first show up when kindness arrives?"
+        "suggestion": "As kindness arrives and suspicion follows, what do you notice first in yourself?"
       },
       {
         "text": "[Flat and guarded] Even gentle touch on my shoulder startles me before I can think who it is.",
-        "suggestion": "If you pause at the first startle, what feeling is closest?"
+        "suggestion": "At the first startle, what do you feel before thought comes in?"
       },
       {
         "text": "[Distant] At night I pour wine before I have decided whether I actually want it.",
-        "suggestion": "In the second before you pour it, what are you trying not to meet?"
+        "suggestion": "In the second before the wine, what are you moving away from?"
       },
       {
         "text": "[Tense and guarded] I wake up already planning how to get through the day without needing anyone.",
-        "suggestion": "What is the first feeling when needing someone even comes near?"
+        "suggestion": "When needing someone comes near, what do you feel first?"
       },
       {
         "text": "[Slow and flat] Good news lands flat, and I do not know why I cannot enjoy it.",
-        "suggestion": "How do you sense the flatness when good news does not land?"
+        "suggestion": "When good news lands flat, what is the flatness like from the inside?"
       },
       {
         "text": "[Distant] Sometimes a song from when I was married comes on, and sadness shows up before I can turn it off.",
-        "suggestion": "What does the sadness want you to notice before you turn it off?"
+        "suggestion": "Before you turn the sadness off, what is it asking for?"
       },
       {
         "text": "[Tense and guarded] I apologize for needing comfort, as if asking for it will get me in trouble.",
-        "suggestion": "Where do you feel the trouble of asking for comfort?"
+        "suggestion": "When asking for comfort feels dangerous, what do you notice in yourself?"
       },
       {
         "text": "[Flat and guarded] I skip anything with fighting and tell people I just do not like those movies.",
-        "suggestion": "If you imagine telling the real reason, what feeling appears first?"
+        "suggestion": "Imagining the real reason spoken aloud, what feeling comes first?"
       }
     ],
     "case-carlos": [
       {
         "text": "[Defensive] When my foreman questions me in front of the crew, I laugh it off but cannot drop it.",
-        "suggestion": "As it stays with you, where do you feel the hardest part?"
+        "suggestion": "As the foreman's question stays with you, what hurts most in it?"
       },
       {
         "text": "[Tense] After an argument, I keep thinking of what I should have said, even when I know it will make things worse.",
-        "suggestion": "What is alive in you while those replies keep coming?"
+        "suggestion": "While those replies keep coming, what are they trying to answer inside you?"
       },
       {
         "text": "[Fearful] If I back down, it feels like people will stop respecting me.",
-        "suggestion": "Where is the loss of respect sharpest in you?"
+        "suggestion": "When respect feels at risk, what do you feel in the sharpest place?"
       },
       {
         "text": "[Ashamed] I keep seeing my boy flinch when I raised my voice, and I do not want to look straight at it.",
-        "suggestion": "If you let the image of his flinch stay for a second, what comes up?"
+        "suggestion": "Holding the image of his flinch for one second, what feeling comes up?"
       },
       {
         "text": "[Mistrustful] When the house gets quiet after a fight, I get more tense than when we were yelling.",
-        "suggestion": "What does the quiet bring up that yelling did not?"
+        "suggestion": "In the quiet after the fight, what starts happening inside?"
       },
       {
         "text": "[Tense] I say I do not care what people think, but one look can ruin my whole day.",
-        "suggestion": "Where does that look land in you?"
+        "suggestion": "When that one look ruins the day, where does it hit?"
       },
       {
         "text": "[Defensive] My father used to say feelings make men useless, and I still hear that when my wife asks me to talk.",
-        "suggestion": "As you hear that old rule now, what feeling shows up?"
+        "suggestion": "Hearing that old rule now, what do you feel toward yourself?"
       },
       {
         "text": "[Angry, clenching fists] When another man talks down to me, I cannot tell if I am angry or embarrassed.",
-        "suggestion": "Which arrives first as he talks down to you: anger, embarrassment, or something else?"
+        "suggestion": "As he talks down to you, what arrives first: anger, embarrassment, or something else?"
       },
       {
         "text": "[Tense and angry] After an argument, I tell myself I am over it, but I stay keyed up for hours.",
-        "suggestion": "What remains active in you after the argument is supposedly over?"
+        "suggestion": "After the argument is over outside, what is still running inside?"
       },
       {
         "text": "[Vulnerable] What I want most is for my family to feel safe with me.",
-        "suggestion": "When you say safe, where do you feel the wish?"
+        "suggestion": "When you say safe, what happens in you around that wish?"
       }
     ],
     "case-nina": [
       {
         "text": "[Tired] When I ask for help, guilt rushes in and I want to take it back.",
-        "suggestion": "As the guilt rushes in, what does it say about you?"
+        "suggestion": "As guilt rushes in, what does it tell you about yourself?"
       },
       {
         "text": "[Guilty] I complain that no one helps, but I also redo things when they try.",
-        "suggestion": "If help comes in a way you cannot direct, what do you feel?"
+        "suggestion": "When help comes in a way you cannot direct, what happens inside?"
       },
       {
         "text": "[Torn] When I say no, I explain so much that I almost take it back.",
-        "suggestion": "As your no starts to disappear, what do you sense?"
+        "suggestion": "As the no starts disappearing, what do you feel in that moment?"
       },
       {
         "text": "[Guilty] When I rest, a voice calls me lazy before I have even caught my breath.",
-        "suggestion": "Where does the word lazy land in you?"
+        "suggestion": "When the word lazy hits, where do you feel it most?"
       },
       {
         "text": "[Apologetic] I apologize before asking for help, like my need is already too much.",
-        "suggestion": "Toward yourself, what shows up as the need gets too big?"
+        "suggestion": "When the need feels too big, what happens in how you meet yourself?"
       },
       {
         "text": "[Torn] By afternoon I realize I agreed to three things I never wanted to do.",
-        "suggestion": "When you say you did not want them, what shows up inside?"
+        "suggestion": "Saying you did not want them, what do you notice inside?"
       },
       {
         "text": "[Tired] I compare myself to other moms and decide I have failed some test everyone else understands.",
-        "suggestion": "As you decide you failed that test, what feeling comes?"
+        "suggestion": "At the moment you decide you failed the test, what feeling comes up?"
       },
       {
         "text": "[Guilty] I dream of being taken care of and then feel selfish for wanting it.",
-        "suggestion": "Before the selfish voice arrives, what is it like to picture being cared for?"
+        "suggestion": "Before the selfish voice arrives, what is it like to let someone care for you?"
       },
       {
         "text": "[Torn] I say it is easier if I do it myself, then spend the evening angry that nobody helped.",
-        "suggestion": "Under the anger after doing it yourself, what do you find?"
+        "suggestion": "Under the anger after doing it yourself, what feeling is there?"
       },
       {
         "text": "[Tired] I crash on the sofa at night after holding everyone together all day.",
-        "suggestion": "Once you stop holding everyone together, what is there in you?"
+        "suggestion": "When you stop holding everyone together, what do you meet in yourself?"
       }
     ],
     "case-aisha": [

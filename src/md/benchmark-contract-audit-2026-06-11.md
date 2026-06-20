@@ -51,7 +51,7 @@ Ratings should consider: structural fidelity, marker validity, emotional pressur
 
 ## Current Baseline
 
-This audit uses the current branch state after the 2026-06-20 hard empathic-understanding regression pass.
+This audit uses the current branch state after the 2026-06-20 moderate exploratory-questions regression pass.
 
 Automated averages are triage only, not quality scores. They still reveal places where the app may be more compressed than Goldman.
 
@@ -86,7 +86,7 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | Empathic Affirmation and Validation | Moderate | 8.6 | Recent regression pass removed repeated response openings and formulaic validation scaffolds while preserving explicit contextual legitimacy and improving Bokmal idiom. |
 | Empathic Affirmation and Validation | Hard | 8.6 | Recent hard-tier regression removed formulaic validation openings, preserved accountability/safety in high-risk items, and polished Bokmal idiom. |
 | Exploratory Questions | Easy | 8.5 | Strong one-question purity with simple inward-turning markers; only light opening-variety polish needed. |
-| Exploratory Questions | Moderate | 8.6 | Recent pass preserved exactly one inward question per item while removing repeated response openings and reducing visible "what happens/what do you notice" scaffolding. |
+| Exploratory Questions | Moderate | 8.7 | Recent regression preserved exactly one inward question per item, removed repeated response openings, reduced visible "what happens/what do you notice" scaffolding, and polished Bokmal away from literal starts. |
 | Exploratory Questions | Hard | 8.5 | Recent regression pass removed subtle containment/cognitive drift while preserving one inward-turning question across advanced ambiguity and high-risk material. |
 | Providing Treatment Rationale | Easy | 8.8 | Very close to the benchmark task: direct client skepticism/fear markers and plain-language rationale tied to client goals. |
 | Providing Treatment Rationale | Moderate | 8.6 | Strong fit with fear, skepticism, numbness, and practicality; Goldman responses are longer, but the app's brevity usually helps practice. |
@@ -119,11 +119,11 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Exploratory Questions, moderate | Stronger after opening-variety pass; now suitable for a light regression check against one-question purity and Bokmal naturalness. | Review for marker/responding fit if no Supabase feedback is open. |
-| 2 | Empathic Understanding, hard | Stronger after high-risk regression pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
-| 3 | Empathic Understanding, moderate | Strong after basic-reflection regression and Bokmal polish. | Review only for flags or later broad regression. |
-| 4 | Empathic Affirmation and Validation, hard | Strong after high-risk precision and Bokmal regression. | Review only for Supabase flags or later broad regression. |
-| 5 | Empathic Affirmation and Validation, moderate | Strong after response-variety and Bokmal regression. | Review only for Supabase flags or later broad regression. |
+| 1 | Empathic Understanding, hard | Stronger after high-risk regression pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
+| 2 | Empathic Understanding, moderate | Strong after basic-reflection regression and Bokmal polish. | Review only for flags or later broad regression. |
+| 3 | Empathic Affirmation and Validation, hard | Strong after high-risk precision and Bokmal regression. | Review only for Supabase flags or later broad regression. |
+| 4 | Empathic Affirmation and Validation, moderate | Strong after response-variety and Bokmal regression. | Review only for Supabase flags or later broad regression. |
+| 5 | Exploratory Questions, moderate | Strong after one-question and Bokmal-naturalness regression. | Review only for flags or later broad regression. |
 
 ## Next Work Decision Rule
 
@@ -137,7 +137,7 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-20 moderate understanding regression pass: move next to Exploratory Questions moderate. The goal should be a light regression check for marker/responding fit, one-question purity, and Bokmal naturalness.
+Current recommendation after the 2026-06-20 moderate exploratory-questions regression pass: move next to Empathic Understanding hard only if a broad regression pass is due and no Supabase feedback is open. Otherwise continue using the ranking and prioritize any flagged item first.
 
 ### Implementation Update: Empathic Understanding Hard
 
@@ -193,8 +193,9 @@ Current moderate exploratory-questions state after this pass:
 - English targeted scan shows zero repeated four-word starts and no `why` questions.
 - Bokmal targeted scan shows exactly one question per item and zero repeated starts.
 - Repeated scaffolds such as "What happens..." and "What do you notice..." were replaced with more varied inward prompts.
-- Content updated date remains 2026-06-19, which is the date of this commit.
-- Quality rating for moderate Exploratory Questions increased from about 8.4/10 to about 8.6/10.
+- A follow-up 2026-06-20 regression pass confirmed all 30 English and Bokmal responses still contain exactly one question, zero repeated starts, no skill drift, and lower use of "where"/"what feeling" scaffolds.
+- Content updated date is 2026-06-20, which is the date of this commit.
+- Quality rating for moderate Exploratory Questions increased from about 8.4/10 to about 8.7/10.
 
 ### Implementation Update: Empathic Conjectures Easy
 
