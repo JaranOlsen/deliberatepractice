@@ -88,7 +88,7 @@ The remaining gaps are more subtle:
 | Therapist Self-Awareness | Hard | Strong | High | Strong | Low | Strong coverage of suicidality, competence testing, flirtation, distrust, and sexist alcohol-minimizing defensiveness. Recent pass strengthened activation pressure and clarified suggestions as therapist inner awareness notes. |
 | Empathic Understanding | Easy | Strong | High | Strong | Low | Recent pass broadened beginner markers with ordinary work, social, shame, and loneliness scenes while preserving concise basic reflections and natural Bokmal. |
 | Empathic Understanding | Moderate | Strong | Medium-High | Strong | Low-Medium | Recent pass added ordinary bills/money worry, friend disappointment, confused depression, and guide-me uncertainty. Further work is polish rather than repair. |
-| Empathic Understanding | Hard | Strong | Medium-High | Strong | Low-Medium | Recent pass added substance-anxiety ambivalence, plain session uncertainty, and more ordinary relational loss while keeping hard-case defenses. |
+| Empathic Understanding | Hard | Strong | High | Strong | Low | Recent pass tightened high-risk reflections, expanded selected advanced markers, and preserved concise question-free basic empathy across attachment panic, shame/exposure, drinking, numbness, passive death wishes, and closeness fear. |
 | Empathic Affirmation and Validation | Easy | Strong | High | Strong | Low | Recent pass made beginner validation more context-specific, reduced repeated "makes sense/understandably" formulas, and aligned Bokmal idiom. Continue only light spot checks. |
 | Empathic Affirmation and Validation | Moderate | Strong | Medium-High | Strong | Low | Good validation markers across trauma, politics, child-army fear, shame, and caregiver guilt. Recent pass improved response variety and Bokmal naturalness. Some benchmark romance/grief variants remain thin but not urgent. |
 | Empathic Affirmation and Validation | Hard | Strong | High | Strong | Low | Good range: trauma shame, rage/fear, desperate longing, confused overwhelm, positive warmth. Recent pass sharpened moral-responsibility and trauma validations without excusing harmful behavior. |
@@ -142,6 +142,7 @@ Completed on the current content branch:
 - Exploratory Questions, hard.
 - Empathic Understanding, easy regression polish.
 - Empathic Understanding, easy marker-breadth and Bokmal polish.
+- Empathic Understanding, hard high-risk reflection regression and Bokmal polish.
 - Staying in Contact with Intense Affect, easy/moderate contact-over-grounding polish.
 - Empathic Affirmation and Validation cross-tier response-variety and Bokmal naturalness polish.
 - Empathic Evocations regression polish for marker flatness and safety-sensitive response tone.
@@ -158,7 +159,7 @@ Completed on the current content branch:
 - Staying in Contact with Intense Affect residual contact-first response and Bokmal naturalness polish.
 - Empathic Explorations residual response-completion and Bokmal naturalness polish.
 - Marker Recognition and Chair Work occasional setup-response and Bokmal naturalness polish.
-- Full-library score audit completed on 2026-06-16. No skill/difficulty set has a structural failure, but the previous all-strong ranking was too broad. After the latest validation, evocations, understanding, exploratory-question, hard-conjecture, treatment-rationale, evocation-regression, intense-affect, alliance-repair, and therapist-self-awareness passes, current targeting should follow `src/md/benchmark-contract-audit-2026-06-11.md`, where Empathic Understanding easy is now the next active target.
+- Full-library score audit completed on 2026-06-16. No skill/difficulty set has a structural failure, but the previous all-strong ranking was too broad. After the latest validation, evocations, understanding, exploratory-question, hard-conjecture, treatment-rationale, evocation-regression, intense-affect, alliance-repair, therapist-self-awareness, and empathic-understanding passes, current targeting should follow `src/md/benchmark-contract-audit-2026-06-11.md`, where Empathic Affirmation and Validation moderate is now the next active target.
 - Empathic Affirmation and Validation hard/moderate has received a targeted response-variety and Bokmal naturalness pass. Hard markers were expanded from compressed one-line prompts into fuller high-risk validation markers; hard and moderate responses now preserve explicit legitimizing language without repeated four-word openings, and Bokmal no longer uses `det gir mening` in these tiers.
 - Empathic Evocations moderate has received a marker-affordance pass. Laura, Carlos, and Nina prompts now add ordinary scene, guarded cognition, and relational pressure while leaving vivid imagery to the therapist response; matching Bokmal localizations were rewritten naturally.
 - Empathic Evocations hard has received a marker-affordance pass. Aisha, David, and Marcus prompts now carry more crisis pressure, guarded cognition, defensive organization, and relational stakes without supplying the vivid image/metaphor in the client line; matching Bokmal localizations were rewritten naturally.
@@ -181,25 +182,26 @@ Completed on the current content branch:
 - Exploratory Questions moderate has received an opening-variety pass. All 30 Laura, Carlos, and Nina responses still contain exactly one inward experiential question, but repeated starts such as "What happens..." and "What do you notice..." were removed in both English and Bokmal.
 - Therapist Self-Awareness hard has received an activation-pressure and inner-awareness pass. All 30 Aisha, David, and Marcus suggestions were revised to name therapist felt reaction, impulse, and regulation choice; five hard markers were lengthened where the Goldman comparison still pressed harder than the app; matching Bokmal localizations were rewritten naturally.
 - Empathic Understanding easy has received a full marker-breadth and Bokmal pass. All 30 Sara, Michael, and Jason items now carry fuller ordinary beginner scenes; responses remain concise, question-free, advice-free, validation-free basic reflections, and targeted scans show zero repeated response starts.
+- Empathic Understanding hard has received a high-risk regression pass. All 30 Aisha, David, and Marcus responses were reviewed; selected advanced markers were lengthened around attachment panic, shame/exposure, drinking, numbness, passive death wishes, and closeness fear; targeted scans show zero response questions, zero repeated starts, and zero advice/validation/rationale drift terms.
 
 These should still be reviewed in normal regression passes, but the workflow should now follow the tier-level scores in `src/md/benchmark-contract-audit-2026-06-11.md` rather than treating every repaired skill as equal priority.
 
 ## Current Highest-Value Improvement Targets
 
-1. Empathic Understanding hard.
-   - Strong but still one of the lower tier scores; high-risk reflection material benefits from occasional regression.
-
-2. Empathic Affirmation and Validation moderate.
+1. Empathic Affirmation and Validation moderate.
    - Strong validation coverage, but still one of the lower tier scores and worth later specificity/Bokmal regression.
 
-3. Empathic Affirmation and Validation hard.
+2. Empathic Affirmation and Validation hard.
    - Strong high-risk validation, but advanced legitimacy language can drift formulaic over time.
+
+3. Empathic Understanding moderate.
+   - Strong, but now the remaining understanding tier with the most room for light regression.
 
 4. Exploratory Questions moderate.
    - Strong after latest opening-variety pass. Review only for flags or later regression checks.
 
-5. Empathic Understanding easy.
-   - Strong after latest marker-breadth pass. Review only for flags or later regression checks.
+5. Empathic Understanding hard.
+   - Strong after high-risk regression pass. Review only for flags or later regression checks.
 
 6. Marker Recognition and Chair Work hard and Alliance Repair hard/moderate.
    - These tiers are now strong after targeted sequencing/opening passes. Review only for regression, flagged items, high-risk pacing, or Bokmal tone.

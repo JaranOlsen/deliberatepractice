@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T23:33:01.300Z",
+  "generatedAt": "2026-06-20T01:47:13.598Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -355,12 +355,12 @@
               "difficulty": "hard",
               "riskFlags": [],
               "en": {
-                "statement": "[Controlled] Being called cold makes me bristle because it sounds too close to true, and then I get angry at her for noticing.",
-                "response": "Being called cold stings as too close to true, and anger comes up at being seen that way."
+                "statement": "[Controlled] When my wife calls me cold, I bristle because it sounds too close to true. Then I get angry at her for noticing the exact thing I am trying not to see.",
+                "response": "Being called cold hits as too close to true, and anger rises at being seen there."
               },
               "no": {
-                "statement": "[Kontrollert] Å bli kalt kald får meg til å stritte imot fordi det høres for nært sannheten ut, og så blir jeg sint på henne for å legge merke til det.",
-                "response": "Å bli kalt kald svir som noe for nært sannheten, og sinne kommer opp over å bli sett sånn."
+                "statement": "[Kontrollert] Når kona mi kaller meg kald, stritter jeg imot fordi det høres for nært sannheten ut. Så blir jeg sint på henne for å legge merke til akkurat det jeg prøver å ikke se.",
+                "response": "Å bli kalt kald treffer som noe for nært sannheten, og sinne stiger over å bli sett der."
               }
             },
             {
@@ -373,11 +373,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Dismissive] When I admit I am wrong, I feel stripped down and small, so I argue even when part of me knows I caused damage.",
-                "response": "Admitting you are wrong leaves you feeling stripped down and small, even when you know there was damage."
+                "response": "Admitting you are wrong leaves you stripped down and small, even when part of you knows there was damage."
               },
               "no": {
                 "statement": "[Avvisende] Når jeg innrømmer at jeg tar feil, føler jeg meg ribbet og liten, så jeg argumenterer selv når en del av meg vet at jeg gjorde skade.",
-                "response": "Å innrømme at du tar feil, får deg til å kjenne deg ribbet og liten, selv når du vet at det ble skade."
+                "response": "Å innrømme feil gjør deg ribbet og liten, selv når en del av deg vet at det ble skade."
               }
             },
             {
@@ -390,11 +390,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Confused] I do not know what we should talk about this week; if I choose, I will probably choose the thing that makes me look least exposed.",
-                "response": "You are unsure what to bring, and choosing by yourself feels tied to staying less exposed."
+                "response": "Choosing what to talk about feels risky, with the pull to choose the least exposed version."
               },
               "no": {
                 "statement": "[Forvirret] Jeg vet ikke hva vi burde snakke om denne uken; hvis jeg velger, kommer jeg nok til å velge det som får meg til å se minst blottlagt ut.",
-                "response": "Du er usikker på hva du skal ta opp, og det å velge selv henger sammen med å holde deg mindre blottlagt."
+                "response": "Å velge hva dere skal snakke om kjennes risikabelt, med et drag mot å velge den minst blottlagte versjonen."
               }
             }
           ]

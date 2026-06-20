@@ -51,14 +51,14 @@ Ratings should consider: structural fidelity, marker validity, emotional pressur
 
 ## Current Baseline
 
-This audit uses the current branch state after the 2026-06-20 easy empathic-understanding marker-breadth pass.
+This audit uses the current branch state after the 2026-06-20 hard empathic-understanding regression pass.
 
 Automated averages are triage only, not quality scores. They still reveal places where the app may be more compressed than Goldman.
 
 | Skill | App Statement Avg | Benchmark Statement Avg | App Suggestion Avg | Benchmark Response Avg | Signal |
 | --- | ---: | ---: | ---: | ---: | --- |
 | Therapist Self-Awareness | 63.2 | 76.8 | 25.7 | 25.9 | Now structurally close; hard examples have stronger activation pressure. |
-| Empathic Understanding | 24.1 | 32.9 | 14.5 | 17.8 | Easy, moderate, and hard tiers now have stronger ordinary-scene and explicit emotional meaning while staying basic-empathy pure. |
+| Empathic Understanding | 24.9 | 32.9 | 14.1 | 17.8 | Easy, moderate, and hard tiers now have stronger ordinary-scene and explicit emotional meaning while staying basic-empathy pure. |
 | Empathic Affirmation and Validation | 23.8 | 27.1 | 22.0 | 23.0 | Easy, moderate, and hard response-variety/Bokmal passes complete; now strong with later light regression only. |
 | Exploratory Questions | 16.8 | 22.5 | 11.8 | 26.3 | Hard regression pass complete; app intentionally keeps questions cleaner than Goldman examples. |
 | Treatment Rationale | 15.5 | 20.5 | 28.8 | 54.2 | App is briefer than Goldman but usually clinically focused. |
@@ -81,7 +81,7 @@ These 2026-06-16 ratings score each skill and difficulty tier as a training set,
 | Therapist Self-Awareness | Hard | 8.6 | Recent pass extended activation pressure around gaze monitoring, trauma shame, results pressure, feeling-safety fear, and defensive independence while keeping suggestions as therapist inner awareness notes. |
 | Empathic Understanding | Easy | 8.6 | Recent pass broadened Sara, Michael, and Jason markers with ordinary work, social, shame, and loneliness scenes while preserving short question-free basic reflections and natural Bokmal. |
 | Empathic Understanding | Moderate | 8.5 | Recent pass broadened all Laura, Carlos, and Nina markers toward Goldman intermediate richness while keeping every response reflective, concise, and question-free. |
-| Empathic Understanding | Hard | 8.4 | Recent pass broadened Aisha, David, and Marcus markers with explicit emotional meaning while keeping responses short, reflective, and free of validation, conjecture, advice, or questions. |
+| Empathic Understanding | Hard | 8.6 | Recent pass tightened Aisha, David, and Marcus high-risk reflections, expanded selected advanced markers, and removed subtle explanatory or repeated response patterns. |
 | Empathic Affirmation and Validation | Easy | 8.6 | Recent pass made beginner validation more context-specific, reduced repeated "makes sense/understandably" formulas, and aligned Bokmal idiom. |
 | Empathic Affirmation and Validation | Moderate | 8.4 | Recent pass removed repeated four-word response openings and reduced literal Bokmal validation phrasing while preserving explicit legitimacy. |
 | Empathic Affirmation and Validation | Hard | 8.4 | Recent pass expanded hard markers, preserved high-risk validation, removed repeated openings, and made Bokmal more natural. |
@@ -119,11 +119,11 @@ Use this ranking when there is no open Supabase feedback. It prioritizes the low
 
 | Rank | Target Set | Current Judgment | Next Action |
 | ---: | --- | --- | --- |
-| 1 | Empathic Understanding, hard | Strong but still one of the lower tier scores; high-risk material benefits from occasional regression. | High-risk reflection regression only if markers remain stable. |
-| 2 | Empathic Affirmation and Validation, moderate | Strong validation coverage, but still one of the lower scored tiers and worth later regression. | Review for specificity and Bokmal naturalness after understanding. |
-| 3 | Empathic Affirmation and Validation, hard | Strong high-risk validation, but advanced legitimacy language can drift formulaic over time. | Review for high-risk validation precision if no lower target is active. |
+| 1 | Empathic Affirmation and Validation, moderate | Strong validation coverage, but still one of the lower scored tiers and worth later regression. | Review for specificity and Bokmal naturalness after understanding. |
+| 2 | Empathic Affirmation and Validation, hard | Strong high-risk validation, but advanced legitimacy language can drift formulaic over time. | Review for high-risk validation precision if no lower target is active. |
+| 3 | Empathic Understanding, moderate | Strong, but now the remaining understanding tier with the most room for light regression. | Review only for flags or later regression checks. |
 | 4 | Exploratory Questions, moderate | Stronger after opening-variety pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
-| 5 | Empathic Understanding, easy | Stronger after ordinary-life marker-breadth pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
+| 5 | Empathic Understanding, hard | Stronger after high-risk regression pass; now suitable for regression-only review unless flagged. | Review only for flags or later regression checks. |
 
 ## Next Work Decision Rule
 
@@ -137,7 +137,21 @@ Use this order when choosing the next pass:
 
 ## Next Recommended Pass
 
-Current recommendation after the 2026-06-20 easy empathic-understanding pass: move next to Empathic Understanding hard. The goal should be high-risk reflection regression only if markers remain stable, preserving short, question-free, advice-free basic reflection.
+Current recommendation after the 2026-06-20 hard empathic-understanding pass: move next to Empathic Affirmation and Validation moderate. The goal should be specificity and Bokmal naturalness while preserving explicit contextual legitimacy rather than basic reflection or advice.
+
+### Implementation Update: Empathic Understanding Hard
+
+A hard-tier empathic-understanding pass revised all 30 Aisha, David, and Marcus responses and selectively lengthened high-pressure markers.
+
+Current hard empathic-understanding state after this pass:
+
+- 90 total empathic-understanding items preserved; all 30 hard items reviewed.
+- Selected hard markers were expanded where the advanced cue was too compressed: Aisha's attachment panic and self-harm pressure, David's shame/exposure and drinking pressure, and Marcus's numbness, substance, passive-death, and closeness/exit markers.
+- Responses remain concise reflections with no questions, advice, validation formulas, rationale language, or exploratory invitations.
+- English targeted scan shows zero response questions, zero repeated four-word starts, and zero obvious advice/validation/rationale drift terms.
+- Matching Bokmal localizations were rewritten naturally with cleaner high-risk reflection language.
+- Content updated date remains 2026-06-20, which is the date of this commit.
+- Quality rating for hard Empathic Understanding increased from about 8.4/10 to about 8.6/10.
 
 ### Implementation Update: Empathic Understanding Easy
 
