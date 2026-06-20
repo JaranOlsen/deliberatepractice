@@ -2154,123 +2154,123 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-understanding_case-laura_01": {
       "text": "[Langsomt og flatt] Jeg kan komme meg gjennom en hel vakt på sykehuset, snakke med pasienter, svare på meldingene fra barna mine, og likevel føle at jeg ser alt sammen på avstand.",
-      "suggestion": "Du fungerer sammen med andre mennesker, samtidig som du kjenner deg flat og langt unna alt sammen."
+      "suggestion": "Du går gjennom jobb og familie mens du kjenner deg flat, som om resten av deg er langt unna."
     },
     "dp_empathic-understanding_case-laura_02": {
       "text": "[Bekymret] Etter skilsmissen sitter jeg med regningene etter jobb og legger sammen tallene igjen og igjen, og lurer på om jeg kan beholde huset eller om jeg bare later som.",
-      "suggestion": "Regningene gjør deg bekymret for at du kanskje ikke klarer å holde på huset."
+      "suggestion": "Å sitte med regningene vekker frykten for at huset kanskje glipper."
     },
     "dp_empathic-understanding_case-laura_03": {
       "text": "[Anspent og på vakt] Når noen er vennlige mot meg, selv på en liten måte, merker jeg at jeg trekker meg unna før jeg vet om jeg egentlig vil ta imot vennligheten.",
-      "suggestion": "Selv liten vennlighet gjør deg på vakt før du rekker å vite om du vil ta den imot."
+      "suggestion": "Liten vennlighet når deg, og du trekker deg tilbake i vaktsomhet før du vet om du vil ta den imot."
     },
     "dp_empathic-understanding_case-laura_04": {
       "text": "[Forvirret] Jeg har kjent meg deprimert igjen, men det skjedde ikke noe dramatisk denne uken. Jobben var normal, barna har det greit, og likevel kjennes det som om noe har falt bort under meg.",
-      "suggestion": "Du kjenner deg deprimert og forvirret fordi livet ser normalt ut, mens noe i deg kjennes som om det har falt ned."
+      "suggestion": "Alt ser normalt ut utenfra, og inni deg kjenner du deg deprimert, forvirret og som om noe har falt ned."
     },
     "dp_empathic-understanding_case-laura_05": {
       "text": "[Langsomt og flatt] Jeg sier til meg selv at jeg vil ha nærhet, og så, når noen faktisk spør om jeg vil komme innom eller bli litt lenger, blir jeg blank og begynner å planlegge hvordan jeg kan gå.",
-      "suggestion": "Du vil ha nærhet, og når den blir virkelig, blir du blank og begynner å lete etter avstand."
+      "suggestion": "Du lengter etter nærhet, og når den kommer nær nok til å merkes, blir du blank og leter etter avstand."
     },
     "dp_empathic-understanding_case-laura_06": {
       "text": "[Trist] En venninne sluttet å invitere meg etter at jeg avlyste for mange ganger. En del av meg er lettet over å slippe å forklare meg, men jeg blir også trist når jeg ser henne med andre.",
-      "suggestion": "Det er lettelse over å slippe å forklare deg, og tristhet over at invitasjonene stoppet."
+      "suggestion": "Lettelsen over å slippe å forklare deg ligger ved siden av sorgen over at invitasjonene stoppet."
     },
     "dp_empathic-understanding_case-laura_07": {
       "text": "[Flatt og på vakt] Jeg våkner anspent før jeg engang åpner øynene, og lytter etter om noe er galt i huset, selv om jeg bor alene nå.",
-      "suggestion": "Du våkner allerede på vakt, lyttende etter trøbbel selv om ingen andre er der."
+      "suggestion": "Du våkner allerede anspent og lytter etter fare i et tomt hus."
     },
     "dp_empathic-understanding_case-laura_08": {
       "text": "[Redd] Jeg unngår filmer med krangling og slåssing fordi én hevet stemme kan gjøre meg redd før jeg rekker å minne meg selv på at det bare er en scene.",
-      "suggestion": "En hevet stemme i en film vekker frykt før du rekker å minne deg selv på at det ikke skjer nå."
+      "suggestion": "En hevet stemme på skjermen vekker frykt før du rekker å minne deg selv på at det bare er en scene."
     },
     "dp_empathic-understanding_case-laura_09": {
       "text": "[Sliten] Jeg prøver å være normal på jobb, smile og passe på alle, men ved slutten av en vakt sitter jeg i bilen fordi jeg er for utslitt til å kjøre hjem.",
-      "suggestion": "Å prøve å virke normal og ta vare på alle gjør deg utslitt mot slutten av vakten."
+      "suggestion": "Å holde normalfasaden og ta vare på alle gjør deg for utslitt til å dra hjem."
     },
     "dp_empathic-understanding_case-laura_10": {
       "text": "[Forvirret] Jeg vet ikke helt hva jeg burde snakke om her. Jeg kunne snakket om søvn, skilsmissen, jobb eller barndommen, men mest av alt vet jeg bare at jeg ikke føler meg som meg selv.",
-      "suggestion": "Du er usikker på hvor du skal begynne, med flere mulige steder og en sterk følelse av at du ikke er deg selv."
+      "suggestion": "Det finnes flere steder å begynne, og under dem ligger følelsen av at du ikke er deg selv."
     },
     "dp_empathic-understanding_case-carlos_01": {
       "text": "[Håpløs] Kona mi og jeg har den samme krangelen om temperamentet mitt om og om igjen, og til slutt sier vi begge de samme tingene som sist. Ingenting endrer seg uansett hvor hardt jeg prøver.",
-      "suggestion": "Den samme krangelen gjentar seg, og det gjør deg utslitt og håpløs."
+      "suggestion": "Den samme krangelen gjentar seg helt til du kjenner deg utslitt og håpløs."
     },
     "dp_empathic-understanding_case-carlos_02": {
       "text": "[Skamfull] Jeg hater å huske øyeblikket da sønnen min så meg smelle igjen den døra. Han ble så fort stille, og nå ser jeg ansiktet hans for meg når jeg prøver å sove.",
-      "suggestion": "Å huske ansiktet til sønnen din etter at døren smalt, vekker skam som blir værende."
+      "suggestion": "Det stille ansiktet til sønnen din etter at døren smalt, blir værende i deg som skam."
     },
     "dp_empathic-understanding_case-carlos_03": {
       "text": "[Sint] Broren min lovet å hjelpe med barna og forsvant igjen. Jeg hadde regnet med ham, og da han ikke svarte, ble jeg rasende.",
-      "suggestion": "Du hadde regnet med ham, og da han forsvant, ble du rasende og skuffet."
+      "suggestion": "Du hadde regnet med ham, og det at han forsvant, gjorde deg rasende og skuffet."
     },
     "dp_empathic-understanding_case-carlos_04": {
       "text": "[Bekymret] Jeg er redd for at hvis jeg mister én jobb til på grunn av temperamentet mitt, kommer familien min ikke til å komme seg igjen. Jeg gjør regnestykket i hodet og ser alt falle fra hverandre.",
-      "suggestion": "Du er bekymret for at enda et utbrudd på jobb kan få alt til å falle fra hverandre for familien din."
+      "suggestion": "Ett utbrudd til på jobb kjennes som noe som kan få alt til å falle fra hverandre for familien din."
     },
     "dp_empathic-understanding_case-carlos_05": {
       "text": "[Skamfull] Etter at jeg eksploderer, blir alle stille og forsiktige rundt meg. Den stillheten får meg til å føle at jeg har blitt akkurat den mannen jeg sa jeg aldri skulle bli.",
-      "suggestion": "Den forsiktige stillheten etter at du eksploderer, gjør deg skamfull over hvem du virker som du blir."
+      "suggestion": "Den forsiktige stillheten etter at du eksploderer, gjør deg skamfull over mannen du virker som du blir."
     },
     "dp_empathic-understanding_case-carlos_06": {
       "text": "[Anspent] Når ting blir rolige etter en krangel, blir jeg nervøs i stedet for avslappet. Jeg begynner å vente på det neste noen kommer til å si.",
-      "suggestion": "Ro etter en krangel gjør deg ikke avslappet; den gjør deg nervøs og ventende."
+      "suggestion": "Ro etter en krangel kjennes ikke rolig; den gjør deg nervøs og ventende."
     },
     "dp_empathic-understanding_case-carlos_07": {
       "text": "[Trist] Faren min er død, og jeg blir fortsatt sint over at han aldri sa at han var stolt av meg. Det høres dumt ut å ønske seg det nå, men det går fortsatt inn på meg.",
-      "suggestion": "Selv etter at han døde, kjenner du fortsatt smerte og sinne over aldri å ha hørt at han var stolt av deg."
+      "suggestion": "Selv etter at han døde, gjør de manglende ordene deg fortsatt såret og sint."
     },
     "dp_empathic-understanding_case-carlos_08": {
       "text": "[Forvirret] Jeg vet at ropingen skremmer familien min, men i øyeblikket føles det som den eneste måten noen hører meg på. Etterpå hater jeg at jeg brukte det ene som får dem til å trekke seg unna.",
-      "suggestion": "Å rope kjennes som den eneste måten å bli hørt på, og etterpå hater du at det skyver dem unna."
+      "suggestion": "I øyeblikket kjennes roping som å bli hørt, og etterpå gjør det vondt at det skyver dem unna."
     },
     "dp_empathic-understanding_case-carlos_09": {
       "text": "[Sint, med knyttede never] Jeg slår i vegger i stedet for folk, og en del av meg tenker at det burde telle for noe. Men jeg hater at det fortsatt skremmer dem.",
-      "suggestion": "Du ser veggen som det å holde igjen fra noe verre, og du hater at det fortsatt skremmer dem."
+      "suggestion": "Veggen kjennes som å holde igjen fra noe verre, og det gjør fortsatt vondt at den skremmer dem."
     },
     "dp_empathic-understanding_case-carlos_10": {
       "text": "[Skamfull] Jeg vil at familien min skal føle seg trygg med meg. Når de fortsatt skvetter av stemmen min, kjennes det som bevis på at jeg allerede har ødelagt noe.",
-      "suggestion": "Du vil at de skal føle seg trygge med deg, og at de skvetter kjennes som bevis på skade."
+      "suggestion": "Du vil at de skal føle seg trygge med deg, og når de skvetter, lander det som bevis på at noe allerede er skadet."
     },
     "dp_empathic-understanding_case-nina_01": {
       "text": "[Sliten] Å be om hjelp gir meg skyldfølelse, selv når jeg er helt utslitt. Jeg begynner å forklare hvorfor det egentlig ikke er så farlig før noen i det hele tatt har svart.",
-      "suggestion": "Å be om hjelp gir skyldfølelse, og du begynner å gjøre behovet mindre før noen svarer."
+      "suggestion": "Å be om hjelp gir skyldfølelse så raskt at du begynner å gjøre behovet mindre før noen svarer."
     },
     "dp_empathic-understanding_case-nina_02": {
       "text": "[Bekymret] Regningen for bilreparasjonen kom, og jeg vet ikke hvordan vi skal klare oss gjennom måneden. Jeg flytter penger rundt i hodet og blir bare mer overveldet.",
-      "suggestion": "Reparasjonsregningen gjør deg bekymret, overveldet og usikker på hvordan måneden skal gå."
+      "suggestion": "Reparasjonsregningen får deg til å flytte tall rundt og kjenne deg enda mer overveldet over måneden."
     },
     "dp_empathic-understanding_case-nina_03": {
       "text": "[Splittet] Når jeg sier nei, knyter magen seg mens jeg ser for meg at alle blir skuffet. Så begynner jeg å forklare så mye at neiet nesten forsvinner.",
-      "suggestion": "Å si nei vekker skyld og spenning helt til forklaringene nesten visker ut neiet."
+      "suggestion": "Å si nei knyter magen, og alle forklaringene visker nesten ut neiet."
     },
     "dp_empathic-understanding_case-nina_04": {
       "text": "[Trist] Søsteren min glemte bursdagen min igjen, og jeg fortsetter å si til meg selv at det ikke burde bety noe fordi hun er travel. Men jeg ventet på meldingen hele dagen.",
-      "suggestion": "At hun glemte det gjør vondt, selv om du sier til deg selv at hun er travel og at det ikke burde bety noe."
+      "suggestion": "At hun glemte det gjør vondt, og du prøver hele tiden å snakke deg ut av den smerten."
     },
     "dp_empathic-understanding_case-nina_05": {
       "text": "[Unnskyldende] Når jeg setter meg for å hvile, får jeg skyldfølelse i løpet av sekunder. Jeg begynner å legge merke til oppvask, klesvask, meldinger, alt som beviser at jeg burde reise meg igjen.",
-      "suggestion": "Hvile blir raskt til skyldfølelse og en liste med grunner til at du burde reise deg igjen."
+      "suggestion": "Hvilen varer bare noen sekunder før skyldfølelsen begynner å liste opp grunner til å reise deg igjen."
     },
     "dp_empathic-understanding_case-nina_06": {
       "text": "[Forvirret] Jeg har vært mer deprimert i det siste, men guttene har det bra og jobben går greit, så jeg føler meg dum som sier det. Jeg tenker hele tiden at jeg burde være takknemlig, ikke gråte på badet.",
-      "suggestion": "Ting ser greie ut fra utsiden, og likevel er du forvirret og gråter alene."
+      "suggestion": "Ting ser greie ut fra utsiden, mens du kjenner deg forvirret, deprimert og alene med tårene."
     },
     "dp_empathic-understanding_case-nina_07": {
       "text": "[Skamfull] Noen ganger eksploderer jeg, vanligvis over noe lite, og så føler jeg meg forferdelig for å bli den sinte etter å ha prøvd så hardt å være tålmodig.",
-      "suggestion": "Når du eksploderer etter å ha prøvd å være tålmodig, føler du deg forferdelig og skamfull for å bli den sinte."
+      "suggestion": "Etter å ha prøvd så hardt å være tålmodig, gjør eksplosjonen deg skamfull over å bli den sinte."
     },
     "dp_empathic-understanding_case-nina_08": {
       "text": "[Skyldpreget] Jeg drømmer om at noen tar vare på meg for en gangs skyld, kommer med te eller sier at jeg skal legge meg ned, og så føler jeg meg egoistisk for å ville det.",
-      "suggestion": "Du lengter etter at noen skal ta vare på deg, og så føler du deg egoistisk for å ville det."
+      "suggestion": "Ønsket om å bli tatt vare på er der, og så begynner selve ønsket å kjennes egoistisk."
     },
     "dp_empathic-understanding_case-nina_09": {
       "text": "[Sint] En venninne avlyste lunsj i siste liten, og jeg skrev at det gikk helt fint. Så var jeg sint resten av ettermiddagen.",
-      "suggestion": "Du oppførte deg som om det gikk fint, og bar på sinne og skuffelse etterpå."
+      "suggestion": "Du sendte meldingen om at det gikk helt fint, og bar så på sinnet og skuffelsen alene."
     },
     "dp_empathic-understanding_case-nina_10": {
       "text": "[Sliten] Jeg vet ikke hva jeg skal snakke om i dag. Det er for mange små ting, og jeg håpet du kunne hjelpe meg å finne hvor jeg skal begynne.",
-      "suggestion": "Du er sliten og usikker på hvor du skal begynne fordi det er for mange ting på en gang."
+      "suggestion": "Du er sliten og usikker på hvor du skal begynne med så mange småting stablet oppå hverandre."
     },
     "dp_empathic-understanding_case-aisha_01": {
       "text": "[Panisk] Hvis du ser bort mens jeg snakker, selv bare for å sjekke et notat, får jeg panikk for at du mister interessen. Da begynner jeg å snakke fortere, legge til detaljer, hva som helst for å holde deg hos meg.",

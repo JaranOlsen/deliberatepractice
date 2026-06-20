@@ -185,25 +185,25 @@ Completed on the current content branch:
 - Therapist Self-Awareness hard has received an activation-pressure and inner-awareness pass. All 30 Aisha, David, and Marcus suggestions were revised to name therapist felt reaction, impulse, and regulation choice; five hard markers were lengthened where the Goldman comparison still pressed harder than the app; matching Bokmal localizations were rewritten naturally.
 - Empathic Understanding easy has received a full marker-breadth and Bokmal pass. All 30 Sara, Michael, and Jason items now carry fuller ordinary beginner scenes; responses remain concise, question-free, advice-free, validation-free basic reflections, and targeted scans show zero repeated response starts.
 - Empathic Understanding hard has received a high-risk regression pass. All 30 Aisha, David, and Marcus responses were reviewed; selected advanced markers were lengthened around attachment panic, shame/exposure, drinking, numbness, passive death wishes, and closeness fear; targeted scans show zero response questions, zero repeated starts, and zero advice/validation/rationale drift terms.
+- Empathic Understanding moderate has received a basic-reflection and Bokmal-naturalness regression pass. All 30 Laura, Carlos, and Nina responses now have zero repeated response starts, no question/advice/validation/rationale/conjecture drift, and more varied natural Bokmal while preserving concise reflection-only skill behavior.
 
 These should still be reviewed in normal regression passes, but the workflow should now follow the tier-level scores in `src/md/benchmark-contract-audit-2026-06-11.md` rather than treating every repaired skill as equal priority.
 
 ## Current Highest-Value Improvement Targets
 
-1. Empathic Understanding moderate.
-   - Strong, but now the remaining understanding tier with the most room for light regression.
+1. Exploratory Questions moderate.
+   - Strong after latest opening-variety pass. Worth a light regression check for marker/responding fit, one-question purity, and Bokmal naturalness.
 
-2. Exploratory Questions moderate.
-   - Strong after latest opening-variety pass. Review only for flags or later regression checks.
-
-3. Empathic Understanding hard.
+2. Empathic Understanding hard.
    - Strong after high-risk regression pass. Review only for flags or later regression checks.
+
+3. Empathic Understanding moderate.
+   - Strong after basic-reflection and Bokmal-naturalness regression. Review only for flags or later broad regression.
 
 4. Empathic Affirmation and Validation hard.
    - Strong after high-risk precision and Bokmal-naturalness regression. Review only for flags or later broad regression.
 
 5. Empathic Affirmation and Validation moderate.
-   - Strong after response-variety and Bokmal-naturalness regression. Review only for flags or later broad regression.
    - Strong after response-variety and Bokmal-naturalness regression. Review only for flags or later broad regression.
 
 6. Marker Recognition and Chair Work hard and Alliance Repair hard/moderate.

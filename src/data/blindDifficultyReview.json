@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T09:55:31.828Z",
+  "generatedAt": "2026-06-20T10:05:13.813Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -92,11 +92,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Ashamed] After I blow up, everyone gets quiet and careful around me. That silence makes me feel like I have become exactly the man I said I would never be.",
-            "response": "Their careful silence after you blow up leaves you ashamed of who you seem to become."
+            "response": "Their careful silence after you blow up leaves you ashamed of the man you seem to become."
           },
           "no": {
             "statement": "[Skamfull] Etter at jeg eksploderer, blir alle stille og forsiktige rundt meg. Den stillheten får meg til å føle at jeg har blitt akkurat den mannen jeg sa jeg aldri skulle bli.",
-            "response": "Den forsiktige stillheten etter at du eksploderer, gjør deg skamfull over hvem du virker som du blir."
+            "response": "Den forsiktige stillheten etter at du eksploderer, gjør deg skamfull over mannen du virker som du blir."
           }
         }
       ]
