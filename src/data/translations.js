@@ -5514,15 +5514,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-aisha_01": {
       "text": "[Desperat] Hvis noen ikke svarer, går hodet mitt rett til at de er med noen bedre, legger det ut, og at alle ser at jeg er byttet ut. Da må jeg kutte dem ut først.",
-      "suggestion": "Bekymringen gjør noe veldig aktivt her: den viser deg scener der du blir byttet ut, helt til det å kutte dem av virker tryggere enn å vente. Kan vi bruke to stoler for å se hvordan den bekymringen virker? Fra denne stolen forteller du henne hver scene bekymringen forutsier; så bytter vi til siden som må høre det."
+      "suggestion": "Bekymringen er veldig aktiv her: den viser deg scener der du blir byttet ut, helt til det kjennes tryggere å kutte dem av enn å vente. Jeg vil foreslå to stoler for å få tydeligere fram hva bekymringen gjør. Fra denne stolen forteller du henne én scene om gangen; etterpå bytter vi til siden som må høre det."
     },
     "dp_marker-recognition-chairwork_case-aisha_02": {
       "text": "[Rasende] Jeg ser fortsatt for meg eksen min i seng med en annen. Jeg hater ham, og så hater jeg meg selv for at jeg fortsatt vil ha ham.",
-      "suggestion": "Det er et uavsluttet oppgjør med ham: bildet, raseriet og lengselen er fortsatt med deg her. Hvis du vil, kan vi plassere ham i den tomme stolen, så ordene går til ham i stedet for å vende tilbake mot deg. Begynn med: «Jeg ser deg fortsatt med henne ...»"
+      "suggestion": "Bildet, raseriet og lengselen er fortsatt her, som noe du trenger å få sagt til ham. Hvis du vil, setter vi ham i den tomme stolen, så ordene kan gå til ham i stedet for tilbake mot deg. Begynn med: «Jeg ser deg fortsatt med henne ...»"
     },
     "dp_marker-recognition-chairwork_case-aisha_03": {
       "text": "[Redd og skamfull] Etter alt som skjedde med meg, kaller jeg meg skitten og umulig å elske. Når noen berører meg ømt, sier den første stemmen at de ville gått hvis de kjente hele historien.",
-      "suggestion": "Angrepet kaller deg skitten for det som ble gjort mot deg, og da blir den sårede siden sittende alene med skammen. Hvis det kjennes trygt nok, kan vi sette den angripende stemmen i én stol og den sårede siden i den andre. Først lar vi angrepet si ordene sine nøyaktig; så bytter vi og hører siden som har båret dem."
+      "suggestion": "Angrepet kaller deg skitten for det som ble gjort mot deg, og den sårede siden blir sittende alene med skammen. Hvis det kjennes trygt nok, setter vi den angripende stemmen i én stol og den sårede siden i den andre. Først får angrepet si ordene sine nøyaktig; så bytter vi og hører siden som har båret dem."
     },
     "dp_marker-recognition-chairwork_case-aisha_04": {
       "text": "[Skamfull] Etter at jeg har tekstet noen altfor mange ganger, kaller jeg meg gal og ekkel. Jeg sletter tråden, åpner den igjen, og sier til meg selv at ingen normal person ville trengt bevis så desperat. Angrepet føles nesten tryggere enn å vente.",
@@ -5530,23 +5530,23 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-aisha_05": {
       "text": "[Rasende] Jeg vil fortsatt si til moren min: «Du lot meg bli igjen hos mennesker som skadet meg.» Jeg var et barn, og du fortsatte å velge dem, og så lot du som om du var sjokkert over at jeg var sint.",
-      "suggestion": "Det er et uavsluttet oppgjør med moren din rundt å bli stående uten beskyttelse, og så få sinnet behandlet som problemet. Hvis det kjennes trygt nok, kan vi hente henne inn i den tomme stolen, så sinnet får et direkte sted å gå. Begynn med: «Du lot meg bli igjen hos mennesker som skadet meg», og så stopper vi opp."
+      "suggestion": "Her er det noe du fortsatt trenger å si til moren din om å bli stående uten beskyttelse, og så få sinnet behandlet som problemet. Hvis det kjennes trygt nok, henter vi henne inn i den tomme stolen, så sinnet får et direkte sted å gå. Begynn med: «Du lot meg bli igjen hos mennesker som skadet meg», og så stopper vi opp."
     },
     "dp_marker-recognition-chairwork_case-aisha_06": {
       "text": "[Panisk] Når jeg kjenner at jeg trenger noen, begynner jeg å anklage dem før de kan dra. Jeg hører meg selv si: Greit, dra da, du brydde deg aldri uansett, mens en annen del trygler dem om å bli.",
-      "suggestion": "Den anklagende delen går først, så behovet ikke blir stående synlig. Kan vi bruke to stoler for å se den beskyttelsen i arbeid? Fra denne stolen sier du «greit, dra da, du brydde deg aldri» direkte til siden som trenger noen; så bytter vi og hører siden som tryglet dem om å bli."
+      "suggestion": "Den anklagende delen kommer først, så behovet ikke blir stående synlig. Jeg vil sette opp to stoler for å få fram beskyttelsen i det. Fra denne stolen sier du «greit, dra da, du brydde deg aldri» direkte til siden som trenger noen; så bytter vi og hører siden som tryglet dem om å bli."
     },
     "dp_marker-recognition-chairwork_case-aisha_07": {
       "text": "[Bekymret] Hvis du ikke svarer, viser hodet mitt ti scener der jeg blir byttet ut og alle vet det. Det går fra én stille telefon til at du bestemmer at jeg er for mye, og så er alle enige om at jeg alltid var for mye.",
-      "suggestion": "Bekymringen tar én stille telefon og bygger en hel historie om å bli byttet ut, helt til systemet ditt blir oversvømt. Hvis du vil, kan vi gi bekymringen én stol og den oversvømte siden den andre. Sitt her som bekymringen og vis scenene én om gangen; så bytter vi og hører hvordan det er å ta imot dem."
+      "suggestion": "Bekymringen tar én stille telefon og lager en hel historie om å bli byttet ut, helt til du blir oversvømt. Hvis du vil, gir vi bekymringen én stol og den oversvømte siden den andre. Sitt her som bekymringen og vis scenene én om gangen; så bytter vi og hører hvordan det er å ta dem inn."
     },
     "dp_marker-recognition-chairwork_case-aisha_08": {
       "text": "[Lav stemme] Jeg fikk aldri sagt til personen som skadet meg: «Du får ikke gjøre meg skitten.» Ordene setter seg fast fordi en del av meg ser for seg at han ler, men en annen del vil fortsatt si dem rett til ham.",
-      "suggestion": "Det er et uavsluttet oppgjør med personen som skadet deg. Hvis du velger å prøve, går vi veldig langsomt: Plasser ham i den tomme stolen og si bare den linjen først, mens vi holder føttene dine i rommet og valget ditt intakt."
+      "suggestion": "Det er noe viktig du aldri fikk sagt til personen som skadet deg. Hvis du velger å prøve, går vi veldig langsomt: Sett ham i den tomme stolen og si bare den ene linjen først, mens vi holder føttene dine i rommet og du bestemmer tempoet."
     },
     "dp_marker-recognition-chairwork_case-aisha_09": {
       "text": "[Skamfull] Når jeg vil ha nærhet, kaller jeg meg patetisk før noen andre kan gjøre det. Hvis jeg savner noen, sier jeg til meg selv at jeg skal holde kjeft, slutte å tigge, slutte å oppføre meg som et barn. Det er som om jeg angriper behovet før den andre får sjansen.",
-      "suggestion": "Selvangrepet rekker fram til lengselen før noen andre kan avvise den. Kan vi gjøre angrepet synlig med to stoler? Først lar vi den angripende stemmen si «slutt å tigge, slutt å oppføre deg som et barn» direkte til den lengtende siden; så bytter vi så lengselen ikke blir alene med det."
+      "suggestion": "Selvangrepet når fram til lengselen før noen andre kan avvise den. Jeg vil gjøre angrepet synlig med to stoler. Først lar vi den angripende stemmen si «slutt å tigge, slutt å oppføre deg som et barn» direkte til den lengtende siden; så bytter vi, så lengselen ikke blir alene med det."
     },
     "dp_marker-recognition-chairwork_case-aisha_10": {
       "text": "[På gråten] Når sorgen begynner å synes, ler jeg for høyt og sier: «Glem det, dette er dumt.» Så lager jeg en spøk om at jeg er dramatisk, og den gråtende delen blir stille som om den fikk en ørefik.",
@@ -5554,11 +5554,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-david_01": {
       "text": "[Selvbebreidende] Hvis jeg ikke er eksepsjonell, sier jeg til meg selv at det ikke finnes noen grunn til at noen skulle bli. Ordinær betyr utskiftbar. Utskiftbar betyr at jeg allerede har tapt; de har bare ikke sagt det høyt ennå.",
-      "suggestion": "Kravet gjør verdien din avhengig av å være eksepsjonell, og behandler det ordinære som om forlattheten allerede har begynt. Kan vi sette kravet i én stol og siden som betaler prisen i den andre? Fra denne stolen argumenterer du for at ordinær betyr utskiftbar; så bytter vi og hører virkningen."
+      "suggestion": "Kravet gjør verdien din avhengig av å være eksepsjonell, og behandler det ordinære som om det å bli forlatt allerede har begynt. Jeg vil sette kravet i én stol og siden som betaler prisen i den andre. Fra denne stolen argumenterer du for at vanlig betyr utskiftbar; så bytter vi og hører virkningen."
     },
     "dp_marker-recognition-chairwork_case-david_02": {
       "text": "[Avvisende] Kona mi sier at hun kanskje er ferdig, og jeg sier til meg selv at bare en idiot ødelegger sin egen familie og likevel forventer sympati.",
-      "suggestion": "Det er en hard skyldstemme som gjør smerten i ekteskapet til bevis på at du ikke fortjener sympati. Kan vi arbeide litt med det angrepet? Sett deg i denne stolen som den harde siden og si til ham at han er en idiot som ødela familien; så bytter vi og hører hva det gjør med ham."
+      "suggestion": "Det er en hard skyldstemme som gjør smerten i ekteskapet til bevis på at du ikke fortjener sympati. Jeg vil arbeide litt med det angrepet. Sett deg i denne stolen som den harde siden og si til ham at han er en idiot som ødela familien; så bytter vi og hører hva det gjør med ham."
     },
     "dp_marker-recognition-chairwork_case-david_03": {
       "text": "[Såret, men skarp] Jeg hater hvordan faren min gjorde alt til en prestasjon, men med en gang jeg sier det, begynner jeg å forsvare ham: han presset meg jo fordi han trodde på meg.",
@@ -5566,11 +5566,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-david_04": {
       "text": "[Avvisende] Jeg sier til meg selv at middelmådige menn mister familien sin og fortjener det. Ordet middelmådig er verre enn grusomt; det betyr at jeg ble vanlig, utskiftbar, en mann ingen har noen grunn til å velge.",
-      "suggestion": "Det høres ut som en hard selvkritisk stemme binder verdien din til å være eksepsjonell og bruker middelmådighet som en dom. Vi kan sette den stemmen i én stol og delen av deg den angriper i den andre. Fra denne stolen sier du nøyaktig hvorfor middelmådige menn fortjener å miste; så bytter vi og lar den angrepne siden svare."
+      "suggestion": "En hard selvkritisk stemme binder verdien din til å være eksepsjonell og bruker middelmådighet som en dom. Sett den stemmen i én stol og delen av deg den angriper i den andre. Fra denne stolen sier du nøyaktig hvorfor middelmådige menn fortjener å miste; så bytter vi og lar den angrepne siden svare."
     },
     "dp_marker-recognition-chairwork_case-david_05": {
       "text": "[Kontrollert] Jeg vil si til faren min: «Jeg var sønnen din, ikke et prosjekt.» Jeg hører ham fortsatt vurdere karakterene mine, holdningen min, håndtrykket mitt, som om alt ved meg var noe som skulle optimaliseres. Jeg fikk aldri spurt om han noen gang så meg.",
-      "suggestion": "Det er et uavsluttet oppgjør med faren din rundt å bli behandlet som et prestasjonsprosjekt i stedet for som en sønn. Hvis du vil, kan vi plassere ham i den tomme stolen og la deg si den første linjen direkte: «Jeg var sønnen din, ikke et prosjekt.» Så kan vi stoppe opp og se om spørsmålet om å bli sett vil komme etterpå."
+      "suggestion": "Du fikk aldri sagt til faren din hvordan det var å bli behandlet som et prestasjonsprosjekt, ikke som en sønn. Hvis du vil, setter vi ham i den tomme stolen og lar deg si den første linjen direkte: «Jeg var sønnen din, ikke et prosjekt.» Så stopper vi og ser om spørsmålet om å bli sett vil komme etterpå."
     },
     "dp_marker-recognition-chairwork_case-david_06": {
       "text": "[Kontrollert] Når skammen stiger, begynner jeg å ramse opp prestasjoner til jeg ikke kjenner den. Jeg går gjennom omsetningstall, forfremmelser, ting folk misunner. Det virker et øyeblikk, men så sitter jeg alene med den samme hule følelsen og enda mer forakt for at jeg trengte listen.",
@@ -5578,15 +5578,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-david_07": {
       "text": "[Bekymret] Hvis jeg innrømmer én feil, ser jeg for meg at alle bestemmer seg for at jeg er en bløff. Det stopper ikke ved feilen; det blir til at styret mister tilliten, kona mi sier at hun visste det, og folk innser at hele bildet var falskt.",
-      "suggestion": "Bekymringen gjør én feil til total avsløring, som om hele bildet kan falle sammen på én gang. Kan vi gi bekymringen én stol, så du kan høre hvordan den presser deg? La den forutsi nøyaktig hva som skjer hvis du innrømmer én feil; så bytter vi til siden som lever under de scenene."
+      "suggestion": "Bekymringen gjør én feil til total avsløring, som om hele bildet kan falle sammen på én gang. Jeg vil gi bekymringen én stol, så du kan høre hvordan den presser deg. La den forutsi nøyaktig hva som skjer hvis du innrømmer én feil; så bytter vi til siden som lever under de scenene."
     },
     "dp_marker-recognition-chairwork_case-david_08": {
       "text": "[Lav stemme] Jeg vil si til kona mi at jeg er livredd for at hun endelig ser den ekte meg. Etter den siste krangelen så hun på meg som om forestillingen var over, og jeg ville si: Ikke bestem deg for at dette er alt jeg er.",
-      "suggestion": "Det er et uavsluttet oppgjør med kona di rundt å bli sett uten forestillingen, og frykten for at hun skal gå. Hvis du vil, kan vi hente henne inn i den tomme stolen og la ordene gå direkte til henne: «Ikke bestem deg for at dette er alt jeg er.» Så stopper vi før forsvaret kommer inn."
+      "suggestion": "Det er noe uferdig mellom deg og kona di rundt å bli sett uten forestillingen, og frykten for at hun skal gå. Hvis du vil, henter vi henne inn i den tomme stolen og lar ordene gå direkte til henne: «Ikke bestem deg for at dette er alt jeg er.» Så stopper vi før forsvaret kommer inn."
     },
     "dp_marker-recognition-chairwork_case-david_09": {
       "text": "[Skamfull] Jeg sier til meg selv at affæren beviser at jeg er søppel. Ikke bare at jeg gjorde noe destruktivt, men at under tittelen, pengene, alt sammen, er dette den jeg egentlig er. Så hater jeg meg selv for å høres dramatisk ut.",
-      "suggestion": "Det er et hardt selvangrep rundt affæren, der en handling blir gjort til en dom over hele deg. Vi kan sette stemmen som sier «søppel» i én stol og den skamfulle siden i den andre. Fra denne stolen lar du angrepet si hele dommen; så bytter vi så du kan høre og svare det i stedet for bare å tåle det."
+      "suggestion": "Det er et hardt selvangrep rundt affæren, der en handling blir gjort til en dom over hele deg. Sett stemmen som sier «søppel» i én stol og den skamfulle siden i den andre. Fra denne stolen lar du angrepet si hele dommen; så bytter vi, så du kan høre og svare det i stedet for bare å tåle det."
     },
     "dp_marker-recognition-chairwork_case-david_10": {
       "text": "[Avvisende] Når tristhet dukker opp, analyserer jeg alles tonefall til følelsen er borte. Jeg kan gjøre en samtale med kona mi til et referat i hodet, finne inkonsekvenser, bevise poenget mitt, og da er strammingen i halsen borte.",
@@ -5594,11 +5594,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-marcus_01": {
       "text": "[Rasende] Faren min hadde sine egne skader, det vet jeg. Men jeg hater ham fortsatt for å ha tatt volden med inn i huset vårt og latt oss leve med den.",
-      "suggestion": "Det er et uavsluttet oppgjør med faren din: du forstår noe av det han bar på, og du hater fortsatt volden han tok med inn i huset. Hvis du vil, kan vi hente ham inn i den tomme stolen og la begge deler gå direkte til ham. Begynn med: «Jeg vet at du hadde dine skader, og jeg hater det du tok med hjem.»"
+      "suggestion": "Du har fortsatt noe å si til faren din: du forstår noe av det han bar på, og du hater fortsatt volden han tok med inn i huset. Hvis du vil, henter vi ham inn i den tomme stolen og lar begge deler gå direkte til ham. Begynn med: «Jeg vet at du hadde dine skader, og jeg hater det du tok med hjem.»"
     },
     "dp_marker-recognition-chairwork_case-marcus_02": {
       "text": "[Lav stemme] De låste meg inne i skapet, og jeg tenker fortsatt at jeg må ha vært umulig, ellers hadde de vel ikke gjort det.",
-      "suggestion": "Skylden gjør det som ble gjort mot deg til en dom over barnet som ble låst inne. Hvis det kjennes mulig, kan vi bruke to stoler for å se hvordan den skylden virker. Fra denne stolen sier du til ham at han må ha vært umulig; så bytter vi og hører fra barnet som ikke hadde noen vei ut."
+      "suggestion": "Skylden gjør det som ble gjort mot deg til en dom over barnet som ble låst inne. Hvis det kjennes mulig, bruker vi to stoler for å se hvordan skylden virker. Fra denne stolen sier du til ham at han må ha vært umulig; så bytter vi og hører fra barnet som ikke hadde noen vei ut."
     },
     "dp_marker-recognition-chairwork_case-marcus_03": {
       "text": "[Rasende] Selv her inne låser kjeven seg når jeg forestiller meg å si til den fosterfaren at jeg hater ham. Jeg hører: «Ikke si det. Ikke gjør det verre.»",
@@ -5606,15 +5606,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-marcus_04": {
       "text": "[Flatt] Jeg sier til meg selv at jeg burde vært over det nå; andre har hatt det verre og fungerer likevel. Når jeg ikke får sove eller fylt ut papirer, sier stemmen at jeg bruker fortiden som unnskyldning.",
-      "suggestion": "Den avvisende stemmen bruker sammenligning for å få virkningen av traumet til å høres ut som en unnskyldning. Hvis det kjennes mulig, kan vi sette den stemmen i én stol og delen som fortsatt bærer det i den andre. Start som den avvisende stemmen: si til ham at han burde vært over det nå, og at andre fungerer bedre."
+      "suggestion": "Den avvisende stemmen bruker sammenligning for å få traumereaksjonene til å høres ut som unnskyldninger. Hvis det kjennes mulig, setter vi den stemmen i én stol og delen som fortsatt bærer dette i den andre. Start som den avvisende stemmen: si til ham at han burde vært over det nå, og at andre fungerer bedre."
     },
     "dp_marker-recognition-chairwork_case-marcus_05": {
       "text": "[Lav stemme] Jeg vil spørre fostermoren min hvorfor ingen kom da jeg banket. Jeg husker at jeg banket stille først, så hardere, og så sluttet fordi jeg tenkte at jeg gjorde det verre. Jeg fikk aldri spurt om hun hørte meg.",
-      "suggestion": "Det høres ut som et uavsluttet oppgjør med fostermoren din rundt å bli forlatt alene og ikke hørt. Hvis du vil, kan vi sette henne i den tomme stolen og la deg stille spørsmålet direkte: «hørte du at jeg banket?» Vi holder det langsomt, med pauser, så du velger hvor mye du sier."
+      "suggestion": "Spørsmålet til fostermoren din er fortsatt der: om hun hørte deg, og hvorfor du ble alene. Hvis du vil, setter vi henne i den tomme stolen og lar deg spørre direkte: «Hørte du at jeg banket?» Vi holder det langsomt, med pauser, så du velger hvor mye du sier."
     },
     "dp_marker-recognition-chairwork_case-marcus_06": {
       "text": "[Stille og på vakt] Når stemmen min skjelver, slutter jeg å snakke og stirrer i gulvet. Det er som om en hånd kommer over munnen min innenfra: Ikke gi dem mer. Ikke gjør det verre.",
-      "suggestion": "Den indre hånden over munnen stopper den skjelvende stemmen før noen får mer tilgang. Hvis du vil, kan vi gjøre den stopperen synlig med to stoler. Fra denne stolen legger du hånden over munnen hans og sier «ikke gi dem mer»; så flytter vi til den skjelvende stemmen for noen få ord."
+      "suggestion": "Den indre hånden over munnen stopper den skjelvende stemmen før noen kommer nærmere. Hvis du vil, gjør vi den stopperen synlig med to stoler. Fra denne stolen legger du hånden over munnen hans og sier «ikke gi dem mer»; så flytter vi til den skjelvende stemmen for noen få ord."
     },
     "dp_marker-recognition-chairwork_case-marcus_07": {
       "text": "[Bekymret] Hvis jeg sover tungt, er jeg redd jeg våkner tilbake der og ikke vet hvor jeg er. Så jeg lar TV-en stå på og holder meg halvvåken, som om bekymringen står vakt.",
@@ -5622,15 +5622,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-marcus_08": {
       "text": "[Rasende] Jeg vil fortsatt si til faren min: «Du tok krigen med hjem og fikk oss til å leve inni den.» Han snakket om det som hadde skjedd med ham som om det forklarte alt, men det var jeg som lå og lyttet etter støvlene hans om natten.",
-      "suggestion": "Det er et uavsluttet oppgjør med faren din rundt vold og frykt i hjemmet. Hvis du velger å prøve, kan vi hente ham inn i den tomme stolen og la setningen gå til ham, ikke bare bli inni deg: «Du tok krigen med hjem.» Så stopper vi opp og holder deg forankret."
+      "suggestion": "Volden og frykten hjemme peker mot noe du fortsatt trenger å si til faren din. Hvis du velger å prøve, henter vi ham inn i den tomme stolen og lar setningen gå til ham, ikke bare bli inni deg: «Du tok krigen med hjem.» Så stopper vi og holder deg forankret."
     },
     "dp_marker-recognition-chairwork_case-marcus_09": {
       "text": "[Skamfull] Å trenge hjelp får meg til å si til meg selv at jeg er ubrukelig. Hvis jeg ikke klarer papirarbeid, søvn, telefonsamtaler, vanlige ting, hører jeg: Hva duger du egentlig til? Så slutter jeg å spørre og lar ting hope seg opp.",
-      "suggestion": "Selvangrepet gjør det å trenge hjelp til bevis på at du er ubrukelig, og så blir det stille rundt det å spørre. Hvis det kjennes mulig, kan vi sette angrepet i én stol og delen som trenger hjelp i den andre. Fra denne stolen sier du «hva duger du egentlig til?»; så bytter vi og lar den trengende siden svare uten å bli presset."
+      "suggestion": "Selvangrepet gjør det å trenge hjelp til bevis på at du er ubrukelig, og da blir det stille rundt det å spørre. Hvis det kjennes mulig, setter vi angrepet i én stol og delen som trenger hjelp i den andre. Fra denne stolen sier du «hva duger du egentlig til?»; så bytter vi og lar den trengende siden svare uten å bli presset."
     },
     "dp_marker-recognition-chairwork_case-marcus_10": {
       "text": "[Anspent og på vakt] Når søsteren min spør om fortiden, hører jeg: «Steng det ned», og så bytter jeg tema.",
-      "suggestion": "«Steng det ned»-stemmen kutter kontakten med fortiden idet søsteren din spør, før noe sårbart får vist seg. Kan vi bruke to stoler i en kort runde? Fra denne stolen sier du «steng det ned» og viser hvordan du bytter tema; så flytter vi til siden som ble spurt."
+      "suggestion": "«Steng det ned»-stemmen kutter kontakten med fortiden idet søsteren din spør, før noe sårbart får vist seg. Jeg vil bruke to stoler i en kort runde. Fra denne stolen sier du «steng det ned» og viser hvordan du bytter tema; så flytter vi til siden som ble spurt."
     },
     "dp_alliance-repair_case-sara_01": {
       "text": "[Flau] Av og til tror jeg du blir lei når jeg forteller om bruddet igjen, og da føler jeg meg dum som fortsatt tar det opp her.",
