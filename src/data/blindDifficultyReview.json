@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T11:52:11.908Z",
+  "generatedAt": "2026-06-26T23:06:20.687Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
@@ -519,7 +519,7 @@
           },
           "no": {
             "statement": "[Anspent og sint] Jeg vil si til faren min: «Jeg var et barn, ikke en av soldatene dine.» Han fikk meg til å stå rett og tåle det, og selv nå låser ryggen seg før jeg klarer å si hvor redd jeg var.",
-            "response": "Det er et uavsluttet oppgjør med faren din rundt hvordan han behandlet deg. Hvis du vil, kan vi plassere ham i den tomme stolen og la deg si den linjen direkte, mens jeg hjelper deg å holde det avgrenset."
+            "response": "Den setningen skal til faren din og måten han behandlet deg på. Hvis du vil, plasserer vi ham i den tomme stolen og lar deg si den direkte, mens jeg hjelper deg å holde rammen avgrenset."
           }
         }
       ]

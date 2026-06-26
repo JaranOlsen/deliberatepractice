@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T11:52:11.908Z",
+  "generatedAt": "2026-06-26T23:06:20.687Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
@@ -1126,7 +1126,7 @@
           },
           "no": {
             "statement": "[Unnskyldende] Jeg vil si til moren min: «Jeg var barnet; du skulle ha lagt merke til meg.» Når hun nå snakker om hvor ensom hun er, vil jeg si: Jeg var også ensom, men så føler jeg meg slem.",
-            "response": "Moren din er den som trenger å høre den barnedelen. Hvis du vil, kan vi hente henne inn i den tomme stolen og begynne med: «Jeg var barnet; du skulle ha lagt merke til meg», bare noen få ord om gangen."
+            "response": "Barnedelen i deg retter seg mot moren din. Hvis du vil, henter vi henne inn i den tomme stolen og begynner med: «Jeg var barnet; du skulle ha lagt merke til meg.» Bare noen få ord om gangen."
           }
         }
       ]
@@ -1149,7 +1149,7 @@
           },
           "no": {
             "statement": "[Lav stemme] Jeg skulle ønske jeg kunne si til kona mi at jeg blir redd når hun ser på meg som om hun er redd.",
-            "response": "Den setningen hører direkte til kona di, der frykten mellom dere kan få navn. Vi kan plassere henne i den tomme stolen og la deg si det langsomt: «Jeg blir redd når du ser redd ut for meg», uten å presse mer enn én eller to linjer."
+            "response": "Kona di er personen som trenger å høre dette, der frykten mellom dere kan få et navn. Plasser henne i den tomme stolen og si det langsomt: «Jeg blir redd når du ser redd ut for meg.» Vi presser ikke fram mer enn én eller to linjer."
           }
         },
         {
@@ -1185,7 +1185,7 @@
           },
           "no": {
             "statement": "[Flatt og på vakt] Da mannen min dro, tenkte jeg: selvfølgelig gjorde han det. Hvem blir hos en som er så ødelagt?",
-            "response": "Skilsmissen blir en hard dom som sier at du er for ødelagt til at noen blir. Hvis det kjennes trygt nok, kan vi gi den dommen én stol og siden som bærer den den andre? Start fra doms-stolen og si: «du er for ødelagt til at noen blir.» Så flytter vi til siden som bærer det."
+            "response": "Skilsmissen høres ut som en hard dom: at du er for ødelagt til at noen blir. Hvis det kjennes trygt nok, får dommen én stol og siden som bærer den en annen. Sett deg først i domsstolen og si: «Du er for ødelagt til at noen blir.» Så bytter vi til siden som må ta imot det."
           }
         },
         {

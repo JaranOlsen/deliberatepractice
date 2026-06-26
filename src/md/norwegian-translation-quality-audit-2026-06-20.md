@@ -1,6 +1,6 @@
 # Norwegian Translation Quality Audit
 
-Date: 2026-06-20
+Date: 2026-06-26
 
 ## Purpose
 
@@ -62,7 +62,7 @@ The core question is: would this sound natural, clinically precise, and speakabl
 | Self-Disclosure | Moderate | 8.2 | 8.1 | 8.1 | Mostly usable; needs idiom and variation polish more than conceptual repair. |
 | Self-Disclosure | Hard | 8.1 | 7.8 | 8.0 | Delicate boundary material is clinically clear but not yet natural enough in Norwegian. |
 | Marker Recognition and Chair Work | Easy | 8.4 | 7.6 | 7.9 | Statements are good; setup responses overuse `kan vi` and long translated task instructions. |
-| Marker Recognition and Chair Work | Moderate | 8.3 | 7.4 | 7.8 | High-priority set: technically correct, but response language sounds scripted and translated. |
+| Marker Recognition and Chair Work | Moderate | 8.3 | 8.0 | 8.1 | Recent polish made the setup responses shorter, more spoken, and less instruction-like. |
 | Marker Recognition and Chair Work | Hard | 8.2 | 8.0 | 8.1 | Recent hard-tier polish removed `kan vi/vi kan`, repeated starts, and `uavsluttet oppgjør` while making chair-task setup more speakable. |
 | Alliance Repair | Easy | 8.2 | 8.1 | 8.1 | Repair sequence is clear; some long responses could be more speakable. |
 | Alliance Repair | Moderate | 8.1 | 8.0 | 8.0 | Good meaning, but response length and translated ownership phrases reduce naturalness. |
@@ -70,7 +70,7 @@ The core question is: would this sound natural, clinically precise, and speakabl
 
 ## Highest-Value Norwegian Polish Targets
 
-1. Marker Recognition and Chair Work, moderate/easy.
+1. Marker Recognition and Chair Work, easy.
    - Main issue: technically correct chair-work setup, but too many responses still sound like translated instructions rather than a Norwegian therapist speaking.
    - Typical motifs: `kan vi`, long multi-step sentence chains, and repeated task-setup wording.
 
@@ -102,6 +102,19 @@ Current hard chair-work Norwegian state after this pass:
 - Overall tier score improved from about 7.7/10 to about 8.1/10.
 - Targeted scan now shows zero `kan vi`, zero `vi kan`, zero `uavsluttet oppgjør`, and zero repeated response starts in the hard tier.
 - Chair-work setup is still explicit, but the Norwegian is shorter, less translated, and more speakable.
+
+## Implementation Update: Marker Recognition and Chair Work Moderate
+
+A moderate-tier Norwegian chair-work polish revised all 30 Laura, Carlos, and Nina suggested-response localizations.
+
+Current moderate chair-work Norwegian state after this pass:
+
+- English source content stayed unchanged.
+- Client statement translations stayed unchanged because the response language was the weaker surface.
+- Response naturalness improved from about 7.4/10 to about 8.0/10.
+- Overall tier score improved from about 7.8/10 to about 8.1/10.
+- Targeted scan now shows zero `kan vi`, zero `vi kan`, zero `la oss`, zero `uavsluttet oppgjør`, and zero repeated response starts in the moderate tier.
+- Chair-work instructions remain explicit, but the Norwegian is less literal, shorter, and more suitable for spoken therapist guidance.
 
 ## Working Rule Going Forward
 

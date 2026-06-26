@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T11:52:11.907Z",
+  "generatedAt": "2026-06-26T23:06:20.687Z",
   "revision": "2026-03-07-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
@@ -2063,7 +2063,7 @@
               },
               "no": {
                 "statement": "[Sint, med knyttede never] Etter at jeg slo hull i veggen, tenkte jeg hele tiden: Hva slags mann skremmer sin egen familie? Jeg så ansiktet til sønnen min, og så startet angrepet, som om det ikke var noen far igjen, bare en farlig mann på kjøkkenet.",
-                "response": "Hullet i veggen blir til et angrep på faren i deg. Kan vi arbeide litt med den skylden? Sett deg i denne stolen og si det direkte til ham: «Hva slags mann skremmer sin egen familie?» Så bytter vi og hører hva det gjør med ham."
+                "response": "Hullet i veggen blir til et angrep på faren i deg. La skylden få denne stolen et øyeblikk: si det direkte til ham, «Hva slags mann skremmer sin egen familie?» Så bytter vi og hører hva det gjør med ham."
               }
             },
             {
@@ -2080,7 +2080,7 @@
               },
               "no": {
                 "statement": "[Anspent og sint] Jeg vil si til faren min: «Jeg var et barn, ikke en av soldatene dine.» Han fikk meg til å stå rett og tåle det, og selv nå låser ryggen seg før jeg klarer å si hvor redd jeg var.",
-                "response": "Det er et uavsluttet oppgjør med faren din rundt hvordan han behandlet deg. Hvis du vil, kan vi plassere ham i den tomme stolen og la deg si den linjen direkte, mens jeg hjelper deg å holde det avgrenset."
+                "response": "Den setningen skal til faren din og måten han behandlet deg på. Hvis du vil, plasserer vi ham i den tomme stolen og lar deg si den direkte, mens jeg hjelper deg å holde rammen avgrenset."
               }
             },
             {
@@ -2097,7 +2097,7 @@
               },
               "no": {
                 "statement": "[Lav stemme] Jeg skulle ønske jeg kunne si til kona mi at jeg blir redd når hun ser på meg som om hun er redd.",
-                "response": "Den setningen hører direkte til kona di, der frykten mellom dere kan få navn. Vi kan plassere henne i den tomme stolen og la deg si det langsomt: «Jeg blir redd når du ser redd ut for meg», uten å presse mer enn én eller to linjer."
+                "response": "Kona di er personen som trenger å høre dette, der frykten mellom dere kan få et navn. Plasser henne i den tomme stolen og si det langsomt: «Jeg blir redd når du ser redd ut for meg.» Vi presser ikke fram mer enn én eller to linjer."
               }
             }
           ]
