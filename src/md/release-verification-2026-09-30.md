@@ -72,3 +72,23 @@ Verification completed:
 A live three-account browser test also completes the round, saves one group-consistency rating with two passes excluded, pauses rotation after a client disconnects for over 20 seconds, restores that client after reload, rotates all roles and ends the session for everyone. The database confirms the intended therapist, score 4, item count 1 and group rubric. Test rooms and ratings are removed afterward.
 
 A real three-person session across separate phones and networks remains unverified. Automated checks establish the state/permission behavior but do not measure background suspension, mobile network latency or usability during an actual video call. Frontend changes remain on the draft release branch and have not been deployed.
+
+
+## Flexible groups in the app (October 1, Oslo time)
+
+Group is now the primary/default format, with individual practice and an optional shared-device group flow retained. Rooms render as ordinary app sections with the compact practice header, account controls and visual styling. Leaving the room section stops synchronization and acknowledgement until it is reopened.
+
+The immutable host controls progression independently of the rotating roles. Two-person rooms use therapist/client and skip observer coaching; larger groups add an active observer and watching observers. Lobby role changes are server checked. The stored full rotation queue gives every member equal turns, including groups larger than three. Only active seats must acknowledge each step; offline spectators do not stall the group. Room snapshots include member display names, without account emails.
+
+New group ratings assess the therapist's use of the selected skill under `group-skill-v2`. Pairs save a therapist self-assessment; an active observer saves the assessment in larger groups. The host has no additional rating authority. Earlier consistency ratings remain in a separate radar filter. Newly saved room ratings select the matching source and scale in progress.
+
+Validation:
+
+- 26 unit tests, content/runtime parity and the production build pass. All 1,080 items in each language remain unchanged. The main chunk is about 76KB gzip; group rooms add about 8.3KB gzip when opened.
+- Existing individual/shared-device practice, radar/progress and real SDK query checks pass, including the new group scale and historical scale separation.
+- Rolled-back database checks pass for pair self-assessment, host/role independence, active acknowledgement barriers, watching-member SELECT access, unchanged raw-write restrictions and five rounds with five different therapists. No fixture users or ratings persist.
+- A live isolated browser test with the three authorized accounts completes a two-person round, saves one self-assessment, rotates, adds the third participant, completes a three-person round and saves one observer assessment. The database confirms the intended therapist/rater/source, scores 4 and 3, one completed item per rating and the new rubric. Host controls stay fixed while roles rotate; shared ending and the 320px layout pass. The exact test room/ratings were deleted and all isolated sessions signed out afterward.
+- Five isolated browser contexts pass active/watching role screens, an offline spectator that does not stall the group, a watching observer rotating into therapist, uncertain-command reload/replay, reconnect, English/Norwegian self-awareness and 320px layouts. These tests intercept the backend.
+- The connected project's flexible-group, fair-rotation and roster-name migrations are applied. Advisors show no new room permission exposure: guarded authenticated RPCs and inaccessible private presence/receipt tables retain their intentional advisories. The new roster index is unused so far, as expected with newly created small test rooms. Existing unrelated advisories remain unchanged.
+
+Frontend remains on the draft release branch. Real phones on different networks still need a practical video-call trial before broad release.

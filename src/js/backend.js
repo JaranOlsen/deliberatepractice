@@ -174,7 +174,7 @@ export async function submitPracticeRating(payload) {
 
 export async function listPracticeRatings({ source = "self", rubric = "individual-mastery-v1", limit = 500 } = {}) {
   if (!["self", "observer"].includes(source)) throw new Error("Unknown rating source");
-  if (!["individual-mastery-v1", "group-consistency-v1", "legacy"].includes(rubric)) throw new Error("Unknown rating scale");
+  if (!["individual-mastery-v1", "group-consistency-v1", "group-skill-v2", "legacy"].includes(rubric)) throw new Error("Unknown rating scale");
   const supabase = await getSupabaseClient();
   const { data: userData, error: userError } = await supabase.auth.getUser();
   if (userError) throw normalizeSupabaseError(userError);

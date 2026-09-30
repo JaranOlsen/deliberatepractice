@@ -2,6 +2,7 @@
 
 export const PRACTICE_MODES = Object.freeze({
   INDIVIDUAL: "individual",
+  GROUP: "group",
   TRIAD: "triad"
 });
 
@@ -16,6 +17,7 @@ export const TRIAD_PHASES = Object.freeze({
 const VALID_PHASES = new Set(Object.values(TRIAD_PHASES));
 
 export function normalizePracticeMode(value) {
+  if (value === PRACTICE_MODES.GROUP) return PRACTICE_MODES.GROUP;
   return value === PRACTICE_MODES.TRIAD ? PRACTICE_MODES.TRIAD : PRACTICE_MODES.INDIVIDUAL;
 }
 

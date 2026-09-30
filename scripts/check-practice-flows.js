@@ -66,7 +66,8 @@ async (page) => {
     await page.locator(`[data-language-id="${language}"]`).click();
     await page.locator(`[data-skill-id="${skill}"]`).click();
     await page.locator('[data-case-id="case-sara"]').click();
-    await page.locator(`input[name="practice-mode"][value="${mode}"]`).check();
+    await page.locator(`input[name="practice-mode"][value="${mode === 'triad' ? 'group' : mode}"]`).check();
+    if(mode === 'triad') await page.locator('#shared-device').check();
     await click('start-practice');
   };
   await setup('en', 'empathic-understanding');
@@ -206,6 +207,7 @@ async (page) => {
   assert(await session() === null, 'Account loading must not create a guest round');
   holdProfile = false;
   releaseProfile();
+  await page.locator('input[name="practice-mode"][value="individual"]').check();
   await click('start-practice');
   assert((await session()).roundTarget?.target_user_id === 'test-self', 'Practice must capture the loaded account target');
   await click('account-button');
@@ -238,13 +240,13 @@ async (page) => {
   await page.locator('[data-rating-score="3"]').click();
   await click('rating-submit');
   await page.waitForFunction(() => document.querySelector('#rating-status').textContent === 'Rating saved.');
-  assert(saves.at(-1).practiceMode === 'triad' && saves.at(-1).ratingRubric === 'group-consistency-v1' && saves.at(-1).source === 'observer' && saves.at(-1).therapistUserId === 'test-partner'
+  assert(saves.at(-1).practiceMode === 'triad' && saves.at(-1).ratingRubric === 'group-skill-v2' && saves.at(-1).source === 'observer' && saves.at(-1).therapistUserId === 'test-partner'
     && saves.at(-1).itemCount === 1, 'Observer rating must use the chosen partner and completed items only');
   await click('rating-skip');
   console.log('PASS mocked self/observer ratings, immutable target, persistent save error and retry');
   await page.reload();
   await click('repeat-last-setup');
-  assert(await page.locator('input[value="triad"]').isChecked(), 'Repeat setup must restore group format');
+  assert(await page.locator('input[value="group"]').isChecked(), 'Repeat setup must restore group format');
   await click('back-to-cases');
   await setup('no', 'therapist-self-awareness');
   assert((await text('individual-instruction')).includes('Du trenger ikke svare klienten'), 'Individual awareness must retain its exercise contract');

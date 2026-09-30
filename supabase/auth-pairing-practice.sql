@@ -95,7 +95,7 @@ alter table public.practice_ratings add constraint practice_ratings_rubric_check
   (practice_mode is null and rating_rubric is null)
   or (practice_mode is not null and rating_rubric is not null and (
     (practice_mode = 'individual' and rating_rubric = 'individual-mastery-v1')
-    or (practice_mode = 'triad' and rating_rubric = 'group-consistency-v1')
+    or (practice_mode = 'triad' and rating_rubric in ('group-consistency-v1', 'group-skill-v2'))
   ))
 );
 

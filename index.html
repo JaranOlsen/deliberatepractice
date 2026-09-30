@@ -240,20 +240,21 @@
             <legend class="case-section-title" id="practice-format-label">Practice format</legend>
             <div class="practice-format-options">
               <label class="practice-format-option">
-                <input type="radio" name="practice-mode" value="individual" checked>
-                <span>
-                  <strong id="practice-mode-individual">Individual</strong>
-                  <small id="practice-mode-individual-description">Practice the full set at your own pace.</small>
-                </span>
-              </label>
-              <label class="practice-format-option">
-                <input type="radio" name="practice-mode" value="triad">
+                <input type="radio" name="practice-mode" value="group" checked>
                 <span>
                   <strong id="practice-mode-triad">Group of three</strong>
                   <small id="practice-mode-triad-description">Therapist, client, and observer practice three items with feedback and retry.</small>
                 </span>
               </label>
+              <label class="practice-format-option">
+                <input type="radio" name="practice-mode" value="individual">
+                <span>
+                  <strong id="practice-mode-individual">Individual</strong>
+                  <small id="practice-mode-individual-description">Practice the full set at your own pace.</small>
+                </span>
+              </label>
             </div>
+            <label id="shared-device-option" hidden><input type="checkbox" id="shared-device"> <span id="shared-device-label">Use one shared device</span></label>
           </fieldset>
 
           <section class="triad-orientation is-hidden" id="triad-orientation" hidden>
@@ -273,7 +274,6 @@
           </section>
           <p class="response-hint" id="practice-format-note" hidden></p>
           <p class="response-hint" id="round-target-note"></p>
-          <button id="create-shared-room" class="ghost-button" hidden>Use separate devices · Create group room</button>
           <button id="start-practice" class="primary-button">Begin Practice</button>
         </section>
 
@@ -542,7 +542,8 @@
             <label for="progress-rubric" id="progress-rubric-label" class="form-label">Rating scale</label>
             <select id="progress-rubric" aria-describedby="progress-rubric-note">
               <option value="individual-mastery-v1" id="progress-rubric-individual">Individual · mastery</option>
-              <option value="group-consistency-v1" id="progress-rubric-group">Group · consistency</option>
+              <option value="group-skill-v2" id="progress-rubric-group">Group · skill performance</option>
+              <option value="group-consistency-v1" id="progress-rubric-group-earlier">Earlier group · consistency</option>
               <option value="legacy" id="progress-rubric-legacy">Earlier · scale unspecified</option>
             </select>
             <p id="progress-rubric-note" class="response-hint"></p>

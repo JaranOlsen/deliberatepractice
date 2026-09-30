@@ -117,11 +117,12 @@ export function createRoomSync({rpc, watch, apply, changed, loadPending, savePen
 }
 
 export function roomRole(room, userId) {
-  return ['observer', 'therapist', 'client'].find(role => room?.[`${role}_id`] === userId) ?? null;
+  return ['observer', 'therapist', 'client'].find(role => room?.[`${role}_id`] === userId) ?? (userId && room?.member_ids?.includes(userId) ? 'passive' : null);
 }
 
 export function roomEveryoneReady(room) {
-  return ['observer', 'therapist', 'client'].every(role => {
+  if (!room?.therapist_id || !room?.client_id) return false;
+  return ['therapist', 'client', ...(room.observer_id ? ['observer'] : [])].every(role => {
     const member = room?.presence?.[room?.[`${role}_id`]];
     return member?.connected && member.acknowledged_version === room.version;
   });

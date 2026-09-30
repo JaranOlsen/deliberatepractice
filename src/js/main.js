@@ -52,18 +52,23 @@ import { SESSION_VERSION, isResumableSession, getRoundOutcome, getOrCreateRoundI
 
 const dialogs = createDialogManager();
 let roomView = null;
+let roomReturnSection = "skill";
 async function openSharedRoom(create = false) {
   if (!roomView) {
     const {createPracticeRoomView} = await import('./practiceRoom.js');
-    roomView = createPracticeRoomView({dialogs, getUser: () => state.authUser,
+    roomView = createPracticeRoomView({onOpen: () => showSection("room"), onClose: () => showSection(roomReturnSection), getUser: () => state.authUser,
       getLanguage: () => state.languageId ?? 'en', localizeSkill,
       getStrings: getUIStrings, signIn: showAccountPanel,
-      onProgressChange: () => {
+      onProgressChange: ({source}) => {
+        state.progressRubric = "group-skill-v2";
+        state.progressSource = source;
         progressRequestId++;
         state.progressRatingsLoading = false;
         state.progressRatingsLoaded = false;
       }});
   }
+  sections.room = roomView.element;
+  if (document.body.dataset.section !== "room") roomReturnSection = document.body.dataset.section || "skill";
   const createConfig = create ? async () => {
     const skill = getCurrentSkill(), caseData = getCurrentCase(), languageId = state.languageId;
     if (!caseData || isCaseLocked(caseData)) throw new Error('Choose an available case first');
@@ -315,7 +320,7 @@ const elements = {
 const releaseElements = Object.fromEntries([
   "progress-overlay", "close-progress", "account-progress",
   "open-progress", "progress-source", "progress-source-label", "progress-source-self", "progress-source-observer",
-  "progress-rubric", "progress-rubric-label", "progress-rubric-individual", "progress-rubric-group", "progress-rubric-legacy", "progress-rubric-note",
+  "progress-rubric", "progress-rubric-label", "progress-rubric-individual", "progress-rubric-group", "progress-rubric-group-earlier", "progress-rubric-legacy", "progress-rubric-note",
   "content-load-notice", "content-load-status", "content-load-retry",
   "last-setup-card", "last-setup-title", "last-setup-details", "repeat-last-setup",
   "individual-guide", "individual-focus-label", "individual-focus", "individual-instruction",
@@ -343,7 +348,7 @@ const state = {
   skillContextExpanded: false,
   activeGlossaryTermId: null,
   completedStatementIds: new Set(),
-  practiceMode: PRACTICE_MODES.INDIVIDUAL,
+  practiceMode: PRACTICE_MODES.GROUP,
   roundStatementIds: [],
   triadPhase: TRIAD_PHASES.FIRST_ATTEMPT,
   skippedStatementIds: new Set(),
@@ -1309,10 +1314,11 @@ function renderSelfRatingsChart() {
   releaseElements["progress-rubric-label"].textContent = strings.progressRubricLabel;
   releaseElements["progress-rubric-individual"].textContent = strings.progressRubricIndividual;
   releaseElements["progress-rubric-group"].textContent = strings.progressRubricGroup;
+  releaseElements["progress-rubric-group-earlier"].textContent = strings.progressRubricGroupEarlier;
   releaseElements["progress-rubric-legacy"].textContent = strings.progressRubricLegacy;
   releaseElements["progress-rubric-note"].textContent = state.progressRubric === "legacy"
     ? strings.progressRubricLegacyNote : state.progressRubric === "group-consistency-v1"
-    ? strings.triadRatingScoreGuide : strings.ratingScoreGuide;
+    ? strings.triadRatingScoreGuide : state.progressRubric === "group-skill-v2" ? strings.groupRatingGuide : strings.ratingScoreGuide;
   if (elements.selfChartTitle) {
     elements.selfChartTitle.textContent = strings.selfChartTitle ?? "Your progress";
   }
@@ -1526,6 +1532,7 @@ function renderProgressHistory(summary) {
       if (state.sessionActive || state.ratingVisible) return;
       dialogs.close(releaseElements["progress-overlay"]);
       // This is the signed-in therapist's history, even when currently observing a partner.
+      state.practiceMode = state.progressRubric.startsWith("group-") ? PRACTICE_MODES.GROUP : PRACTICE_MODES.INDIVIDUAL;
       state.activeTargetId = state.authUser.id;
       saveActiveTargetId(state.activeTargetId);
       if (!state.languageId) handleLanguageSelection("en");
@@ -1627,7 +1634,8 @@ function handleAccountPillClick() {
 
 function renderAuthUI() {
   roomView?.authChanged();
-  document.getElementById("join-shared-room").textContent = state.languageId === "no" ? "Gruppe på hver sin enhet" : "Group on separate devices";
+  document.getElementById("join-shared-room").hidden = document.body.dataset.section === "room";
+  document.getElementById("join-shared-room").textContent = state.languageId === "no" ? "Bli med i gruppe" : "Join group";
   const strings = getUIStrings();
   const signedIn = Boolean(state.authUser);
   releaseElements["open-progress"].hidden = !signedIn;
@@ -2297,6 +2305,7 @@ function getCurrentCase() {
 }
 
 function showSection(sectionKey) {
+  if (sectionKey !== "room") roomView?.hide();
   if (sectionKey === "skill" || sectionKey === "language") cancelContentLoad();
   Object.entries(sections).forEach(([key, el]) => {
     const shouldShow = key === sectionKey;
@@ -2330,8 +2339,10 @@ function isPracticeAccountPending() {
 
 function renderPracticeFormatUI() {
   const triad = isTriadPractice();
-  document.getElementById("create-shared-room").hidden = !triad;
-  document.getElementById("create-shared-room").textContent = state.languageId === "no" ? "Bruk hver sin enhet · Opprett grupperom" : "Use separate devices · Create group room";
+  const group = state.practiceMode !== PRACTICE_MODES.INDIVIDUAL;
+  document.getElementById("shared-device-option").hidden = !group;
+  document.getElementById("shared-device").checked = triad;
+  document.getElementById("shared-device-label").textContent = state.languageId === "no" ? "Bruk én felles enhet" : "Use one shared device";
   const strings = getUIStrings();
   elements.practiceFormat.disabled = state.sessionActive;
   releaseElements["practice-format-note"].hidden = !state.sessionActive;
@@ -2343,7 +2354,7 @@ function renderPracticeFormatUI() {
     ? state.contentError ? strings.contentUnavailable : strings.contentLoading
     : waitingForAccount
     ? state.authResolving ? strings.accountLoading : strings.accountUnavailableShort
-    : state.sessionActive ? strings.continuePractice : strings.startPractice;
+    : state.sessionActive ? strings.continuePractice : state.practiceMode === "group" ? (state.languageId === "no" ? "Opprett grupperom" : "Create group room") : strings.startPractice;
   elements.startPracticeButton.setAttribute("aria-label", elements.startPracticeButton.textContent);
   const target = state.sessionActive ? state.roundTarget : getActiveTarget();
   releaseElements["round-target-note"].textContent = waitingForAccount
@@ -2352,7 +2363,7 @@ function renderPracticeFormatUI() {
     ? strings.roundFor.replace("{name}", getTargetDisplayName(target) || strings.meLabel)
     : strings.roundLocal;
   Array.from(elements.practiceModeInputs ?? []).forEach((input) => {
-    input.checked = input.value === state.practiceMode;
+    input.checked = input.value === (triad ? "group" : state.practiceMode);
     input.closest(".practice-format-option")?.classList.toggle("is-selected", input.checked);
   });
   if (elements.triadOrientation) {
@@ -3462,7 +3473,7 @@ function updateRatingScaleCopy() {
   const strings = getUIStrings();
   if (elements.ratingScoreGuide) {
     elements.ratingScoreGuide.textContent = isTriadPractice()
-      ? strings.triadRatingScoreGuide ?? "1 = Rarely · 3 = Partly or unevenly · 5 = Consistently"
+      ? strings.groupRatingGuide
       : strings.ratingScoreGuide ?? "1 = Not yet mastered · 5 = Mastered confidently";
   }
 }
@@ -3911,7 +3922,7 @@ async function handleRatingSubmit() {
     await submitPracticeRating({
       roundId: state.roundId,
       practiceMode: state.practiceMode,
-      ratingRubric: isTriadPractice() ? "group-consistency-v1" : "individual-mastery-v1",
+      ratingRubric: isTriadPractice() ? "group-skill-v2" : "individual-mastery-v1",
       therapistUserId: getTargetUserId(target),
       source: getActiveRatingSource(),
       languageId: state.languageId ?? "en",
@@ -4020,7 +4031,7 @@ function handleLanguageSelection(languageId) {
   state.roundTarget = null;
   state.roundRaterId = null;
   state.languageId = languageId;
-  writeJsonStorage(PRACTICE_PREFERENCES_KEY, { languageId, practiceMode: state.practiceMode });
+  writeJsonStorage(PRACTICE_PREFERENCES_KEY, { languageId, practiceMode: state.practiceMode, groupUiVersion: 2 });
   state.skillId = null;
   state.caseId = null;
   state.order = [];
@@ -4090,10 +4101,10 @@ function handlePracticeModeChange(event) {
   const input = event.target.closest('input[name="practice-mode"]');
   if (!input) return;
   if (state.sessionActive) return;
-  const nextMode = normalizePracticeMode(input.value);
+  const nextMode = input.value === "group" && document.getElementById("shared-device").checked ? PRACTICE_MODES.TRIAD : normalizePracticeMode(input.value);
   if (nextMode === state.practiceMode) return;
   state.practiceMode = nextMode;
-  writeJsonStorage(PRACTICE_PREFERENCES_KEY, { languageId: state.languageId, practiceMode: nextMode });
+  writeJsonStorage(PRACTICE_PREFERENCES_KEY, { languageId: state.languageId, practiceMode: nextMode, groupUiVersion: 2 });
   state.order = [];
   state.orderShuffled = false;
   state.index = 0;
@@ -4219,8 +4230,8 @@ function handleBackNavigation(targetKey) {
 }
 
 function registerEventListeners() {
+  document.getElementById("shared-device").addEventListener("change", () => { handlePracticeModeChange({target: document.querySelector('input[name="practice-mode"][value="group"]')}); });
   document.getElementById("join-shared-room").addEventListener("click", () => { void openSharedRoom(); });
-  document.getElementById("create-shared-room").addEventListener("click", () => { void openSharedRoom(true); });
   releaseElements["content-load-retry"].addEventListener("click", () => retryContentLoad?.());
   releaseElements["open-progress"].addEventListener("click", showProgressPanel);
   releaseElements["account-progress"].addEventListener("click", showProgressPanel);
@@ -4295,7 +4306,7 @@ function registerEventListeners() {
   }
 
   if (elements.startPracticeButton) {
-    elements.startPracticeButton.addEventListener("click", showStatements);
+    elements.startPracticeButton.addEventListener("click", () => { if (state.practiceMode === "group") void openSharedRoom(true); else showStatements(); });
   }
   if (elements.practiceFormat) {
     elements.practiceFormat.addEventListener("change", handlePracticeModeChange);
@@ -4475,7 +4486,7 @@ function initialize() {
   const accessState = loadAccessState();
   const savedSession = loadPracticeSession();
   const preferences = readJsonStorage(PRACTICE_PREFERENCES_KEY);
-  state.practiceMode = normalizePracticeMode(preferences?.practiceMode);
+  state.practiceMode = normalizePracticeMode(preferences?.groupUiVersion === 2 ? preferences.practiceMode : "group");
   state.accessLevel = accessState.accessLevel;
   state.accessExpiresAt = accessState.accessExpiresAt;
   state.resumeSession = savedSession;

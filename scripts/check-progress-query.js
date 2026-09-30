@@ -31,6 +31,7 @@ async (page) => {
       await backend.listPracticeRatings({source:'self'});
       await backend.listPracticeRatings({source:'observer',rubric:'group-consistency-v1'});
       await backend.listPracticeRatings({source:'self',rubric:'legacy'});
+      await backend.listPracticeRatings({source:'observer',rubric:'group-skill-v2'});
       let invalidRejected = false;
       try { await backend.listPracticeRatings({source:'unexpected'}); } catch { invalidRejected = true; }
       auth.auth.stopAutoRefresh();
@@ -38,10 +39,10 @@ async (page) => {
       try { await backend.listPracticeRatings({rubric:'unknown'}); } catch { invalidRubricRejected = true; }
       return {invalidRejected, invalidRubricRejected};
     }, {sdkPath, origin});
-    if (!result.invalidRejected || !result.invalidRubricRejected || calls.length !== 3) throw new Error('Unexpected query count or invalid source accepted.');
+    if (!result.invalidRejected || !result.invalidRubricRejected || calls.length !== 4) throw new Error('Unexpected query count or invalid source accepted.');
     for (const [index, call] of calls.entries()) {
-      if (call.therapist_user_id !== 'eq.query-test-user' || call.source !== 'eq.' + ['self','observer','self'][index]
-        || call.rating_rubric !== ['eq.individual-mastery-v1','eq.group-consistency-v1','is.null'][index]
+      if (call.therapist_user_id !== 'eq.query-test-user' || call.source !== 'eq.' + ['self','observer','self','observer'][index]
+        || call.rating_rubric !== ['eq.individual-mastery-v1','eq.group-consistency-v1','is.null','eq.group-skill-v2'][index]
         || call.limit !== '500' || call.order !== 'created_at.desc') throw new Error('Rating query lost its owner/source/limit/order constraints.');
     }
     return {status:'passed', checks:['real SDK query scoped to signed-in therapist', 'self and observer filters', 'latest 500 limit', 'individual/group/legacy scale filters', 'invalid source and scale rejected']};

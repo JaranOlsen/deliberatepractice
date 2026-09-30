@@ -51,7 +51,7 @@ async (page) => {
   await page.route('**/__dp_test_history?*', async (route) => {
     const source = new URL(route.request().url()).searchParams.get('source');
     const rubric = new URL(route.request().url()).searchParams.get('rubric');
-    const body = JSON.stringify(rubric === 'legacy' ? [{...row, score:5}] : rubric === 'group-consistency-v1' ? [{...row, score:1}] : data[source]);
+    const body = JSON.stringify(rubric === 'legacy' ? [{...row, score:5}] : rubric === 'group-consistency-v1' ? [{...row, score:1}] : rubric === 'group-skill-v2' ? [{...row,score:3}] : data[source]);
     if (hold && source === 'self' && rubric === 'individual-mastery-v1') {
       pending?.();
       await new Promise((resolve) => { release = resolve; });
@@ -95,6 +95,10 @@ async (page) => {
     await waitLoaded();
     assert((await page.locator('#self-chart-status').textContent()).includes('1.0/5'), 'Group consistency must not mix with individual mastery');
     assert((await page.locator('#progress-rubric-note').textContent()).includes('Consistently'), 'The selected scale must be explained');
+    await page.locator('#progress-rubric').selectOption('group-skill-v2');
+    await waitLoaded();
+    assert((await page.locator('#self-chart-status').textContent()).includes('3.0/5'), 'Skill performance must remain separate from historical consistency');
+    assert((await page.locator('#progress-rubric-note').textContent()).includes('therapist'), 'Skill performance identifies what is assessed');
     await page.locator('#progress-rubric').selectOption('legacy');
     await waitLoaded();
     assert((await page.locator('#self-chart-status').textContent()).includes('5.0/5'), 'Earlier ratings must remain accessible separately');

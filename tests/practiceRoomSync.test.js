@@ -95,3 +95,16 @@ test('backgrounded device does not accept or acknowledge unseen steps', async ()
     assert.deepEqual(painted, [0]); assert.equal(calls, 1);
   } finally { f.controller.stop(); }
 });
+
+
+test('pairs need both active devices; watching observers do not block a larger group', () => {
+  const r = {...room(4), observer_id: null, host_id: 't', member_ids: ['t','c','p'],
+    presence: {t:{connected:true,acknowledged_version:4}, c:{connected:true,acknowledged_version:4}}};
+  assert.equal(roomEveryoneReady(r), true);
+  assert.equal(roomRole(r, 'p'), 'passive');
+  r.observer_id = 'o'; r.member_ids.push('o');
+  assert.equal(roomEveryoneReady(r), false);
+  r.presence.o = {connected:true,acknowledged_version:4};
+  assert.equal(roomEveryoneReady(r), true);
+  r.client_id = null; assert.equal(roomEveryoneReady(r), false);
+});

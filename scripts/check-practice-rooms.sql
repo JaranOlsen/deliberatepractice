@@ -12,7 +12,7 @@ declare t room_test_ids; r jsonb; again jsonb; command_id uuid := gen_random_uui
 begin
   select * into t from room_test_ids;
   perform set_config('request.jwt.claim.sub', t.observer_id::text, true);
-  r := public.create_practice_room('{"languageId":"en","skillId":"empathic-understanding","caseId":"case-sara","difficulty":"easy","contentRevision":"test","statements":[{"id":"test-1","criteriaTags":["test"]},{"id":"test-2","criteriaTags":[]},{"id":"test-3","criteriaTags":[]}]}'::jsonb, t.room_id);
+  r := public.create_practice_room('{"hostRole":"observer","languageId":"en","skillId":"empathic-understanding","caseId":"case-sara","difficulty":"easy","contentRevision":"test","statements":[{"id":"test-1","criteriaTags":["test"]},{"id":"test-2","criteriaTags":[]},{"id":"test-3","criteriaTags":[]}]}'::jsonb, t.room_id);
   again := public.create_practice_room('{}'::jsonb, t.room_id);
   if again->>'id' <> r->>'id' then raise exception 'Create is not idempotent'; end if;
   begin
@@ -86,7 +86,7 @@ begin
     raise exception 'Duplicate rating'; end if;
   if not exists(select 1 from public.practice_ratings where client_round_id = (r->>'round_id')::uuid
     and therapist_user_id = t.therapist_id and created_by_user_id = t.observer_id
-    and item_count = 1 and rating_rubric = 'group-consistency-v1' and partnership_id is null) then
+    and item_count = 1 and rating_rubric = 'group-skill-v2' and partnership_id is null) then
     raise exception 'Rating target, count or scale incorrect'; end if;
   v := (r->>'version')::integer;
   perform set_config('request.jwt.claim.sub', t.client_id::text, true); perform public.sync_practice_room(t.room_id, v);
@@ -111,10 +111,75 @@ begin
   perform set_config('request.jwt.claim.sub', t.client_id::text, true);
   if not exists(select 1 from public.practice_rooms where id = t.room_id) then raise exception 'Member cannot read room'; end if;
   r := public.sync_practice_room(t.room_id, -1);
+  perform set_config('request.jwt.claim.sub', t.observer_id::text, true);
   r := public.command_practice_room(t.room_id, gen_random_uuid(), (r->>'version')::integer, 'close');
   if r->>'phase' <> 'closed' then raise exception 'Observer could not end room'; end if;
   execute 'reset role';
   if has_function_privilege('anon', 'public.sync_practice_room(uuid,integer)', 'execute') then raise exception 'Anonymous RPC access'; end if;
+end;
+$$;
+
+-- Two-person self-assessment and five-person rotation, including offline spectators.
+do $$
+declare ids uuid[] := array[gen_random_uuid(),gen_random_uuid(),gen_random_uuid(),gen_random_uuid(),gen_random_uuid()];
+  pair_id uuid := gen_random_uuid(); group_id uuid := gen_random_uuid(); r jsonb; v integer; participant uuid;
+  seen uuid[] := '{}'; config jsonb := '{"languageId":"en","skillId":"empathic-understanding","caseId":"case-sara","difficulty":"easy","contentRevision":"test","statements":[{"id":"pair-1","criteriaTags":["test"]},{"id":"pair-2","criteriaTags":[]},{"id":"pair-3","criteriaTags":[]}]}'::jsonb;
+begin
+  insert into auth.users(id,aud,role,email) select id,'authenticated','authenticated',id::text||'@room-test.invalid' from unnest(ids) id;
+  perform set_config('request.jwt.claim.sub',ids[1]::text,true);
+  r := public.create_practice_room(config,pair_id);
+  if r->>'therapist_id' <> ids[1]::text or r->>'host_id' <> ids[1]::text then raise exception 'Host default role incorrect'; end if;
+  perform set_config('request.jwt.claim.sub',ids[2]::text,true); r := public.join_practice_room(r->>'code','auto');
+  for i in 0..5 loop
+    v := (r->>'version')::integer;
+    foreach participant in array ids[1:2] loop
+      perform set_config('request.jwt.claim.sub',participant::text,true);perform public.sync_practice_room(pair_id,v);
+    end loop;
+    perform set_config('request.jwt.claim.sub',ids[1]::text,true);
+    r := public.command_practice_room(pair_id,gen_random_uuid(),v,case when i=0 then 'start' when i<=3 then 'advance' else 'pass' end);
+    if r->>'phase'='observer_feedback' then raise exception 'Pair has observer phase'; end if;
+  end loop;
+  if r->>'phase'<>'round_debrief' then raise exception 'Pair did not finish'; end if;
+  perform set_config('request.jwt.claim.sub',ids[2]::text,true);
+  begin
+    perform public.command_practice_room(pair_id,gen_random_uuid(),(r->>'version')::integer,'rate',3);
+    raise exception 'TEST FAILURE: Client rated pair';
+  exception when raise_exception then if sqlerrm like 'TEST FAILURE:%' then raise; end if; end;
+  perform set_config('request.jwt.claim.sub',ids[1]::text,true);
+  r := public.command_practice_room(pair_id,gen_random_uuid(),(r->>'version')::integer,'rate',3);
+  if not exists(select 1 from public.practice_ratings where client_round_id=(r->>'round_id')::uuid
+    and therapist_user_id=ids[1] and created_by_user_id=ids[1] and source='self' and rating_rubric='group-skill-v2' and item_count=1) then raise exception 'Pair rating identity incorrect'; end if;
+  v := (r->>'version')::integer;
+  foreach participant in array ids[1:2] loop
+    perform set_config('request.jwt.claim.sub',participant::text,true);perform public.sync_practice_room(pair_id,v);
+  end loop;
+  perform set_config('request.jwt.claim.sub',ids[1]::text,true);
+  r := public.command_practice_room(pair_id,gen_random_uuid(),v,'rotate');
+  if r->>'therapist_id'<>ids[2]::text or r->>'client_id'<>ids[1]::text or r->>'host_id'<>ids[1]::text or r->>'observer_id' is not null then raise exception 'Pair rotation changed host or roles incorrectly'; end if;
+
+  r := public.create_practice_room(config,group_id);
+  for i in 2..5 loop
+    perform set_config('request.jwt.claim.sub',ids[i]::text,true);r:=public.join_practice_room(r->>'code','auto');
+  end loop;
+  if jsonb_array_length(r->'member_ids')<>5 or r->>'observer_id'<>ids[3]::text then raise exception 'Flexible roster incorrect'; end if;
+  execute 'set local role authenticated';
+  if not exists(select 1 from public.practice_rooms where id=group_id) then raise exception 'Watching observer cannot read room'; end if;
+  execute 'reset role';
+  -- Five complete rounds must give every person the therapist seat once.
+  for round in 1..5 loop
+    if (r->>'therapist_id')::uuid=any(seen) then raise exception 'Unequal rotation repeated a therapist'; end if;
+    seen:=array_append(seen,(r->>'therapist_id')::uuid);
+    for step in 0..4 loop
+      v:=(r->>'version')::integer;
+      foreach participant in array array[(r->>'therapist_id')::uuid,(r->>'client_id')::uuid,(r->>'observer_id')::uuid] loop
+        perform set_config('request.jwt.claim.sub',participant::text,true);perform public.sync_practice_room(group_id,v);
+      end loop;
+      perform set_config('request.jwt.claim.sub',ids[1]::text,true);
+      r:=public.command_practice_room(group_id,gen_random_uuid(),v,case when step=0 then 'start' when step<=3 then 'pass' else 'rotate' end);
+      if r->>'host_id'<>ids[1]::text then raise exception 'Host changed after rotation'; end if;
+    end loop;
+  end loop;
+  if cardinality(seen)<>5 then raise exception 'Not everyone rotated'; end if;
 end;
 $$;
 rollback;

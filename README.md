@@ -5,7 +5,7 @@ Standalone Vite app split from `JaranOlsen/Planet`.
 ## Practice Formats
 
 - **Individual** keeps the original ten-item practice round and optional suggested responses.
-- **Group of three** gives an observer-controlled, three-item round for a therapist, client, and observer. Each item moves through a first response, client impact feedback, observer coaching, and a therapist retry before the group debriefs.
+- **Group** is the default: two or more people use their own devices in the normal app. A host controls the room while therapist/client/observer roles rotate. Additional participants watch and join later active turns. **Use one shared device** retains the local feedback workflow.
 
 Returning users open the skill library in their remembered language. **Prepare another round** restores the last skill, case, and format for review before starting. A paused round takes priority over this shortcut. The setup is remembered only after practice begins; locked cases still require access.
 
@@ -15,9 +15,9 @@ Individual practice keeps the skill criterion visible. Try aloud before comparin
 
 **Your progress** is available from the signed-in skill library and Account. Its radar keeps the same twelve skill axes, distinguishes missing ratings from zero, and separates self-ratings from observer ratings received by the signed-in therapist. Skill cards show the latest rating/date/difficulty, weighted average, rating count, and rated-item count, with a shortcut back to practice. The view uses up to 500 latest ratings per source and explains the existing item/recency weighting. Starting from personal history selects the signed-in therapist; active rounds cannot be replaced from this panel.
 
-Progress also separates rating scales: **Individual · mastery**, **Group · consistency**, and **Earlier · scale unspecified**. New ratings store their practice format and rubric version. Older records remain unclassified and available in their own view; the app does not guess their format or mix them with known scales. The 500-rating limit applies independently to each source/scale combination.
+Progress also separates rating scales: **Individual · mastery**, **Group · skill performance**, **Earlier group · consistency**, and **Earlier · scale unspecified**. New ratings store their practice format and rubric version. Older records remain unclassified and available in their own view; the app does not guess their format or mix them with known scales. The 500-rating limit applies independently to each source/scale combination.
 
-Triad feedback is spoken and is not recorded or stored. Signing in remains optional; existing partner pairing can be used to save one round-level observer rating after completed triad items.
+Group feedback is spoken and is not recorded or stored. Separate-device rooms require sign-in. Individual and shared-device practice can run without an account; shared-device partner ratings use existing account pairing.
 
 Back to cases offers **Continue**, **Pause and leave**, or **Finish completed items**. Paused rounds retain their item order and feedback phase; finishing clears the resumable round and shows completed/passed counts. The therapist selected at the start remains the rating recipient for that round. Self-awareness uses a separate group sequence that respects the trainee's choice about sharing internal reactions.
 
@@ -138,20 +138,22 @@ The progress checks cover empty/sparse/full radar profiles, source separation, p
 
 ## Groups on separate devices
 
-The observer chooses a skill and case, selects **Group of three**, and uses **Use separate devices · Create group room**. The other two participants open **Group on separate devices**, enter the room code, and choose therapist or client. All three participants sign in with their own account. Keep your video call open for speaking; the app does not provide or record audio/video.
+Choose a skill and case, then **Create group room**. The creator is the host and initially practices as therapist, with another initial role available during setup. Other participants sign in, choose **Join group**, and enter the code. Automatic assignment fills therapist, client, active observer, then watching observers. Roles can be changed in the lobby. Keep a video call open for speaking; the app does not provide or record audio/video.
 
-Each device shows preparation and guidance for its role. Only the observer advances or passes an item. The therapist listens to the client read the line and can open an example during retry; the client never sees suggested responses. Self-awareness practice assigns the client the reader role and retains the disclosure boundary.
+Rooms use the app's normal header and practice layout. The host advances, passes, rotates roles and ends the room independently of their current practice role. Two people swap therapist/client roles and skip the observer coaching step. With three or more, the active seats are therapist, client and observer; additional members watch. The complete roster rotates through those seats so everyone gets equal turns as therapist. Display names identify participants without sharing account emails.
 
-The database stores the authoritative round, phase, item order, roles and version. Each device acknowledges a step after its content is loaded and rendered. Progression waits for all three devices to acknowledge the same version with a heartbeat within 20 seconds. Realtime wakes the snapshot fetcher; polling every 1.5 seconds and focus/online recovery also retrieve saved state. Backgrounded devices do not acknowledge new steps. Requests time out after 12 seconds, and ambiguous commands retain a UUID across reload for safe replay. Network loss can delay progression; it cannot be treated as a guaranteed simultaneous screen change.
+The therapist listens to the client read the line and can open an example during retry; the client never sees suggested responses. Self-awareness assigns the client the reader role and retains the disclosure boundary.
 
-After debrief, the observer may save an optional group-consistency rating for the room's therapist or rotate roles for another round. Joining explicitly allows ratings during that room; it does not establish an enduring account pairing. Passed items do not count toward a rating. Room membership and the observer role are checked on the server. The room expires after eight hours. Expiration stops joining and progression; it does not delete metadata or saved ratings. Spoken feedback and responses are not stored.
+The database owns the round, item order, roles and version. Active participants acknowledge a step after its content is loaded and rendered; advancing waits for those acknowledgements and heartbeats within 20 seconds. Watching observers do not block progression. Realtime wakes the snapshot fetcher; polling every 1.5 seconds and focus/online recovery also retrieve saved state. Backgrounded devices and hidden room screens do not acknowledge new steps. Requests time out after 12 seconds, and uncertain commands retain a UUID across reload for safe replay. Network loss can delay progression; screen changes are not guaranteed to be simultaneous.
+
+Ratings assess **how well the therapist used the selected skill**, across completed items in that round. In pairs the therapist saves a self-assessment; with an active observer, that observer saves the rating. The scale runs from 1 (not yet demonstrated) to 5 (skillfully demonstrated). These scores use `group-skill-v2`, separately from earlier consistency scores. Passed items are excluded. Joining permits ratings within that room without creating an enduring account pairing. Only the designated rater can save, regardless of who hosts. Rooms expire after eight hours; expiration prevents joining and progression but does not delete saved ratings.
 
 For a fresh backend, apply `supabase/auth-pairing-practice.sql` first, then the files in `supabase/migrations/` in filename order. These room migrations have already been applied to the connected project. The room module is downloaded only when this feature is opened.
 
 Verification:
 
 - `npm test` includes ordered snapshots, acknowledgement timing, background devices, cancelled snapshots, and uncertain command replay.
-- `scripts/check-room-flows.js` uses three isolated browser contexts with an intercepted backend, covering role screens, reconnect, reload/retry, passing, ratings, rotation, Norwegian self-awareness and 320px layout.
+- `scripts/check-room-flows.js` uses five isolated browser contexts with an intercepted backend, covering active/watching role screens, offline spectators, reconnect, reload/retry, passing, ratings, rotation, Norwegian self-awareness and 320px layout.
 - `scripts/check-practice-rooms.sql` checks permissions, role claiming, acknowledgements, transitions, replay, rating identity and rotation in a rolled-back database transaction. It creates no persistent test users or ratings.
 
 The automated browser test is run through the Playwright CLI against the development preview, following the same pattern as the other browser scripts.
