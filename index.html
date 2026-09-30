@@ -26,12 +26,11 @@
         </div>
       </div>
     </header>
-    <main class="app-main" aria-live="polite">
-      <section id="language-selection" class="panel">
-        <h2 class="panel-title" id="language-panel-title">Choose a Language</h2>
-        <p class="panel-subtitle" id="language-panel-description">
-          Select the language you want to practice in.
-        </p>
+    <main class="app-main">
+      <div class="content-load-notice" id="content-load-notice" hidden>
+        <p id="content-load-status" role="status"></p>
+        <button type="button" class="ghost-button ghost-button--small" id="content-load-retry" hidden></button>
+      </div>
         <div class="resume-card is-hidden" id="resume-card" hidden>
           <div class="resume-copy">
             <span class="resume-eyebrow" id="resume-title">Resume practice</span>
@@ -42,10 +41,16 @@
             <button type="button" class="ghost-button ghost-button--small" id="resume-clear">Clear</button>
           </div>
         </div>
+
+      <section id="language-selection" class="panel">
+        <h2 class="panel-title" id="language-panel-title">Choose a Language</h2>
+        <p class="panel-subtitle" id="language-panel-description">
+          Select the language you want to practice in.
+        </p>
         <div
           class="grid-list"
           id="language-list"
-          role="listbox"
+          role="group"
           aria-label="Language Options"
         ></div>
       </section>
@@ -65,10 +70,18 @@
         <p class="panel-subtitle" id="skill-panel-description">
           Pick the focus area you want to strengthen today.
         </p>
+        <button type="button" class="ghost-button library-progress" id="open-progress" hidden>Your progress</button>
+        <div class="resume-card" id="last-setup-card" hidden>
+          <div class="resume-copy">
+            <span class="resume-eyebrow" id="last-setup-title"></span>
+            <p id="last-setup-details"></p>
+          </div>
+          <button type="button" class="primary-button primary-button--small" id="repeat-last-setup"></button>
+        </div>
         <div
           class="grid-list"
           id="skill-list"
-          role="listbox"
+          role="group"
           aria-label="Skill Options"
         ></div>
       </section>
@@ -117,7 +130,7 @@
         <div
           id="case-list"
           class="grid-list"
-          role="listbox"
+          role="group"
           aria-label="Case Options"
         ></div>
       </section>
@@ -221,6 +234,44 @@
             <h4 class="case-section-title" id="case-voice-heading"></h4>
             <p id="case-voice"></p>
           </div>
+
+          <fieldset class="practice-format" id="practice-format">
+            <legend class="case-section-title" id="practice-format-label">Practice format</legend>
+            <div class="practice-format-options">
+              <label class="practice-format-option">
+                <input type="radio" name="practice-mode" value="individual" checked>
+                <span>
+                  <strong id="practice-mode-individual">Individual</strong>
+                  <small id="practice-mode-individual-description">Practice the full set at your own pace.</small>
+                </span>
+              </label>
+              <label class="practice-format-option">
+                <input type="radio" name="practice-mode" value="triad">
+                <span>
+                  <strong id="practice-mode-triad">Group of three</strong>
+                  <small id="practice-mode-triad-description">Therapist, client, and observer practice three items with feedback and retry.</small>
+                </span>
+              </label>
+            </div>
+          </fieldset>
+
+          <section class="triad-orientation is-hidden" id="triad-orientation" hidden>
+            <h4 id="triad-orientation-title">How the group practices</h4>
+            <p id="triad-orientation-text">The observer controls the shared or screen-shared app. For each item: therapist responds, client describes the impact, observer offers focused coaching, and therapist retries.</p>
+            <details class="triad-feedback-guide">
+              <summary id="triad-case-guide-summary">Feedback guide</summary>
+              <ul>
+                <li id="triad-case-guide-attempt">Comment on this attempt, not the therapist as a person.</li>
+                <li id="triad-case-guide-client">The client speaks from their own experience.</li>
+                <li id="triad-case-guide-observer">The observer names one observable strength and one next edge.</li>
+                <li id="triad-case-guide-choice">The therapist may adapt, decline, or pass.</li>
+                <li id="triad-case-guide-boundary">Do not interpret one another's psychology.</li>
+                <li id="triad-case-guide-example">Suggested responses are examples, not answer keys.</li>
+              </ul>
+            </details>
+          </section>
+          <p class="response-hint" id="practice-format-note" hidden></p>
+          <p class="response-hint" id="round-target-note"></p>
           <button id="start-practice" class="primary-button">Begin Practice</button>
         </section>
 
@@ -230,9 +281,14 @@
             <button id="view-case-brief" class="ghost-button">View Case Brief</button>
           </div>
 
+          <aside class="individual-guide" id="individual-guide" aria-labelledby="individual-focus-label">
+            <strong id="individual-focus-label"></strong>
+            <p id="individual-focus"></p>
+            <p class="response-hint" id="individual-instruction"></p>
+          </aside>
           <section class="statement-panel" aria-live="polite">
             <p id="statement-text" class="statement-text"></p>
-            <div class="panel-footer">
+            <div class="panel-footer" id="individual-controls">
               <button
                 class="shuffle-button shuffle-button--icon"
                 id="shuffle-order"
@@ -245,9 +301,57 @@
             </div>
           </section>
 
+          <ol class="triad-steps is-hidden" id="triad-steps" hidden></ol>
+          <section class="triad-protocol is-hidden" id="triad-protocol" hidden aria-labelledby="triad-phase-title">
+            <div class="triad-phase-header">
+              <span class="triad-role-badge" id="triad-role-badge">Therapist</span>
+              <span class="triad-progress" id="triad-progress">Item 1 of 3 · Step 1 of 4</span>
+            </div>
+            <h4 id="triad-phase-title">Therapist — first response</h4>
+            <p id="triad-phase-instruction"></p>
+            <details class="triad-observer-guide is-hidden" id="triad-observer-focus" hidden>
+              <summary id="triad-observer-guide-title">Skill reminders</summary>
+              <div class="triad-observer-focus">
+                <div>
+                  <strong id="triad-observer-focus-label">Skill focus</strong>
+                  <p id="triad-observer-focus-text"></p>
+                </div>
+                <div>
+                  <strong id="triad-observer-miss-label">Common miss</strong>
+                  <p id="triad-observer-miss-text"></p>
+                </div>
+              </div>
+            </details>
+            <div class="triad-actions" id="triad-controls">
+              <p class="response-hint" id="triad-retry-hint" hidden></p>
+              <button type="button" class="ghost-button ghost-button--danger" id="triad-pass-item">Pass this item</button>
+            </div>
+            <div class="triad-pass-confirmation is-hidden" id="triad-pass-confirmation" hidden role="alert">
+              <p id="triad-pass-confirmation-text">Pass this item? It will not count as completed or be included in a saved rating.</p>
+              <div>
+                <button type="button" class="ghost-button" id="triad-pass-cancel">Cancel</button>
+                <button type="button" class="ghost-button ghost-button--danger" id="triad-pass-confirm">Confirm pass</button>
+              </div>
+            </div>
+            <details class="triad-feedback-guide triad-feedback-guide--workspace">
+              <summary id="triad-workspace-guide-summary">Feedback guide</summary>
+              <ul>
+                <li id="triad-workspace-guide-attempt">Comment on this attempt, not the therapist as a person.</li>
+                <li id="triad-workspace-guide-client">The client speaks from their own experience.</li>
+                <li id="triad-workspace-guide-observer">The observer names one observable strength and one next edge.</li>
+                <li id="triad-workspace-guide-choice">The therapist may adapt, decline, or pass.</li>
+                <li id="triad-workspace-guide-boundary">Do not interpret one another's psychology.</li>
+                <li id="triad-workspace-guide-example">Suggested responses are examples, not answer keys.</li>
+              </ul>
+            </details>
+          </section>
+
           <section class="suggestion-panel">
             <button id="toggle-suggestion" class="ghost-button">Show Suggested Response</button>
             <p id="suggestion-text" class="suggestion-text" hidden></p>
+            <button type="button" id="retry-individual" class="ghost-button" hidden></button>
+            <p id="individual-example-note" class="response-hint" hidden></p>
+            <p id="triad-suggestion-note" class="response-hint is-hidden" hidden>This is an example, not a correct answer.</p>
           </section>
 
           <section class="feedback-panel">
@@ -270,8 +374,22 @@
               <textarea id="feedback-details" name="details" rows="3" placeholder="Tell us what felt wrong or how to improve it."></textarea>
 
               <button type="submit" class="ghost-button" id="feedback-submit">Send feedback</button>
-              <p id="feedback-status" class="form-status"></p>
+              <p id="feedback-status" class="form-status" role="status"></p>
             </form>
+          </section>
+
+          <section class="triad-debrief is-hidden" id="triad-debrief" hidden aria-labelledby="triad-debrief-title">
+            <p id="triad-debrief-counts" class="response-hint"></p>
+            <p class="triad-debrief-eyebrow" id="triad-debrief-eyebrow">Round complete</p>
+            <h3 id="triad-debrief-title">Reflect together before rotating</h3>
+            <ol>
+              <li><strong id="triad-debrief-therapist-label">Therapist:</strong> <span id="triad-debrief-therapist"></span></li>
+              <li><strong id="triad-debrief-client-label">Client:</strong> <span id="triad-debrief-client"></span></li>
+              <li><strong id="triad-debrief-observer-label">Observer:</strong> <span id="triad-debrief-observer"></span></li>
+              <li><strong id="triad-debrief-group-label">Group:</strong> <span id="triad-debrief-group"></span></li>
+            </ol>
+            <p class="triad-derole" id="triad-derole"></p>
+            <button type="button" class="primary-button" id="triad-complete-round">Complete round</button>
           </section>
         </section>
       </section>
@@ -285,17 +403,29 @@
     </footer>
 
     <div class="paywall-overlay is-hidden" id="paywall-overlay" hidden>
-      <div class="paywall-modal">
+      <div class="paywall-modal" role="dialog" aria-modal="true" aria-labelledby="paywall-heading">
         <h3 id="paywall-heading">Unlock the full library</h3>
         <p id="paywall-message">Enter your access code to view this case.</p>
         <form id="unlock-form">
-          <label class="form-label" for="unlock-code">Access code</label>
+          <label class="form-label" for="unlock-code" id="unlock-code-label">Access code</label>
           <input id="unlock-code" name="accessCode" type="text" autocomplete="one-time-code" placeholder="Enter code" />
           <button type="submit" class="primary-button" id="unlock-submit">Unlock</button>
-          <p id="unlock-status" class="form-status"></p>
+          <p id="unlock-status" class="form-status" role="status"></p>
         </form>
         <button class="ghost-button" id="close-paywall">Close</button>
       </div>
+    </div>
+
+    <div class="account-overlay is-hidden" id="leave-overlay" hidden>
+      <section class="account-modal" role="dialog" aria-modal="true" aria-labelledby="leave-title" aria-describedby="leave-description">
+        <h3 id="leave-title"></h3>
+        <p id="leave-description"></p>
+        <div class="leave-actions">
+          <button class="primary-button" id="continue-practice"></button>
+          <button class="ghost-button" id="pause-round"></button>
+          <button class="ghost-button" id="finish-completed"></button>
+        </div>
+      </section>
     </div>
 
     <div class="rating-overlay is-hidden" id="rating-overlay" hidden>
@@ -309,7 +439,8 @@
           <span class="rating-target" id="rating-target">Saving for: Me</span>
         </div>
         <p class="rating-summary" id="rating-summary"></p>
-        <div class="rating-scale">
+        <p id="round-outcome" class="response-hint"></p>
+        <div class="rating-scale" id="rating-scale">
           <div class="rating-score-options" id="rating-score-options" aria-label="Round score">
             <button type="button" data-rating-score="1">1</button>
             <button type="button" data-rating-score="2">2</button>
@@ -325,7 +456,8 @@
           <button type="button" class="primary-button primary-button--small" id="rating-submit">Save round</button>
           <button type="button" class="ghost-button ghost-button--small" id="rating-skip">Finish without rating</button>
         </div>
-        <p id="rating-status" class="form-status"></p>
+        <p id="rating-status" class="form-status" role="status"></p>
+        <button type="button" class="ghost-button" id="repeat-round" hidden></button>
       </section>
     </div>
 
@@ -350,7 +482,7 @@
               <input id="account-unlock-code" name="accessCode" type="text" autocomplete="one-time-code" placeholder="Enter code" />
               <button type="submit" class="ghost-button ghost-button--small" id="account-unlock-submit">Unlock</button>
             </div>
-            <p id="account-unlock-status" class="form-status"></p>
+            <p id="account-unlock-status" class="form-status" role="status"></p>
           </form>
         </section>
 
@@ -382,20 +514,39 @@
             </div>
           </form>
 
+          <button type="button" class="ghost-button" id="account-progress">Your progress</button>
+        </section>
+
+        <p id="auth-status" class="form-status" role="status"></p>
+      </div>
+    </div>
+
+    <div class="account-overlay is-hidden" id="progress-overlay" hidden>
+      <div class="account-modal progress-modal" id="progress-modal" role="dialog" aria-modal="true" aria-labelledby="self-chart-title">
+        <button type="button" class="glossary-close progress-close" id="close-progress" aria-label="Close">×</button>
           <div class="account-section-block chart-section" id="self-chart-section">
             <div class="chart-header">
               <div>
-                <h4 id="self-chart-title">Your progress</h4>
+                <h3 id="self-chart-title" tabindex="-1">Your progress</h3>
                 <p id="self-chart-description">Self-ratings only.</p>
               </div>
               <button type="button" class="ghost-button ghost-button--small" id="self-chart-refresh">Refresh</button>
             </div>
-            <div id="self-chart-status" class="response-hint"></div>
+            <label for="progress-source" id="progress-source-label" class="form-label">Ratings of your practice</label>
+            <select id="progress-source">
+              <option value="self" id="progress-source-self">Self-ratings</option>
+              <option value="observer" id="progress-source-observer">Observer ratings</option>
+            </select>
+            <label for="progress-rubric" id="progress-rubric-label" class="form-label">Rating scale</label>
+            <select id="progress-rubric" aria-describedby="progress-rubric-note">
+              <option value="individual-mastery-v1" id="progress-rubric-individual">Individual · mastery</option>
+              <option value="group-consistency-v1" id="progress-rubric-group">Group · consistency</option>
+              <option value="legacy" id="progress-rubric-legacy">Earlier · scale unspecified</option>
+            </select>
+            <p id="progress-rubric-note" class="response-hint"></p>
+            <div id="self-chart-status" class="response-hint" role="status"></div>
             <div id="self-chart" class="self-chart"></div>
           </div>
-        </section>
-
-        <p id="auth-status" class="form-status"></p>
       </div>
     </div>
 
@@ -454,7 +605,7 @@
           </div>
         </section>
 
-        <p id="therapist-status" class="form-status"></p>
+        <p id="therapist-status" class="form-status" role="status"></p>
       </div>
     </div>
 

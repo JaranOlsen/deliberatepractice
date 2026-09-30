@@ -1,0 +1,1837 @@
+{
+  "SKILL_ORDER": [
+    "therapist-self-awareness",
+    "empathic-understanding",
+    "empathic-affirmation-validation",
+    "exploratory-questions",
+    "providing-treatment-rationale",
+    "empathic-explorations",
+    "empathic-evocations",
+    "empathic-conjectures",
+    "staying-in-contact-intense-affect",
+    "self-disclosure",
+    "marker-recognition-chairwork",
+    "alliance-repair"
+  ],
+  "CASE_ORDER": {
+    "therapist-self-awareness": [
+      "case-sara",
+      "case-michael",
+      "case-jason",
+      "case-laura",
+      "case-carlos",
+      "case-nina",
+      "case-aisha",
+      "case-david",
+      "case-marcus"
+    ],
+    "empathic-understanding": [
+      "case-sara",
+      "case-michael",
+      "case-jason",
+      "case-laura",
+      "case-carlos",
+      "case-nina",
+      "case-aisha",
+      "case-david",
+      "case-marcus"
+    ],
+    "empathic-affirmation-validation": [
+      "case-sara",
+      "case-michael",
+      "case-jason",
+      "case-laura",
+      "case-carlos",
+      "case-nina",
+      "case-aisha",
+      "case-david",
+      "case-marcus"
+    ],
+    "exploratory-questions": [
+      "case-sara",
+      "case-michael",
+      "case-jason",
+      "case-laura",
+      "case-carlos",
+      "case-nina",
+      "case-aisha",
+      "case-david",
+      "case-marcus"
+    ],
+    "providing-treatment-rationale": [
+      "case-sara",
+      "case-michael",
+      "case-jason",
+      "case-laura",
+      "case-carlos",
+      "case-nina",
+      "case-aisha",
+      "case-david",
+      "case-marcus"
+    ],
+    "empathic-explorations": [
+      "case-sara",
+      "case-michael",
+      "case-jason",
+      "case-laura",
+      "case-carlos",
+      "case-nina",
+      "case-aisha",
+      "case-david",
+      "case-marcus"
+    ],
+    "empathic-evocations": [
+      "case-sara",
+      "case-michael",
+      "case-jason",
+      "case-laura",
+      "case-carlos",
+      "case-nina",
+      "case-aisha",
+      "case-david",
+      "case-marcus"
+    ],
+    "empathic-conjectures": [
+      "case-sara",
+      "case-michael",
+      "case-jason",
+      "case-laura",
+      "case-carlos",
+      "case-nina",
+      "case-aisha",
+      "case-david",
+      "case-marcus"
+    ],
+    "staying-in-contact-intense-affect": [
+      "case-sara",
+      "case-michael",
+      "case-jason",
+      "case-laura",
+      "case-carlos",
+      "case-nina",
+      "case-aisha",
+      "case-david",
+      "case-marcus"
+    ],
+    "self-disclosure": [
+      "case-sara",
+      "case-michael",
+      "case-jason",
+      "case-laura",
+      "case-carlos",
+      "case-nina",
+      "case-aisha",
+      "case-david",
+      "case-marcus"
+    ],
+    "marker-recognition-chairwork": [
+      "case-sara",
+      "case-michael",
+      "case-jason",
+      "case-laura",
+      "case-carlos",
+      "case-nina",
+      "case-aisha",
+      "case-david",
+      "case-marcus"
+    ],
+    "alliance-repair": [
+      "case-sara",
+      "case-michael",
+      "case-jason",
+      "case-laura",
+      "case-carlos",
+      "case-nina",
+      "case-aisha",
+      "case-david",
+      "case-marcus"
+    ]
+  },
+  "CONTENT_REVISION": "2026-03-07-v1",
+  "CONTENT_UPDATED_AT": "2026-06-26",
+  "LANGUAGE_ORDER": [
+    "en",
+    "no"
+  ],
+  "LANGUAGE_METADATA": {
+    "en": {
+      "label": "English",
+      "locale": "en",
+      "direction": "ltr"
+    },
+    "no": {
+      "label": "Norsk (bokmål)",
+      "locale": "no",
+      "direction": "ltr"
+    }
+  },
+  "LANGUAGE_UI": {
+    "en": {
+      "accountLoading": "Loading account…",
+      "contentLoading": "Loading practice…",
+      "contentUnavailable": "Practice unavailable",
+      "contentLoadFailed": "We could not load the exercises. Try again, or reload this page if the problem continues. Any paused round is still saved.",
+      "contentLoadRetry": "Try loading again",
+      "accountUnavailable": "Your practice account could not be loaded. Sign in again, or sign out to practice without saving.",
+      "progressSourceLabel": "Ratings of your practice",
+      "progressRubricLabel": "Rating scale",
+      "progressScaleEmpty": "No ratings for this scale and source yet. For older practice, choose Earlier · scale unspecified.",
+      "accountUnavailableShort": "Account unavailable",
+      "progressRubricIndividual": "Individual · mastery",
+      "progressRubricGroup": "Group · consistency",
+      "progressRubricLegacy": "Earlier · scale unspecified",
+      "progressRubricLegacyNote": "These ratings were saved before the scale was recorded. Keep them separate from newer ratings; they may use different meanings for the same score.",
+      "progressSelf": "Self-ratings",
+      "progressObserver": "Observer ratings",
+      "progressObserverDescription": "Ratings given to you by practice partners. Kept separate from your self-ratings.",
+      "progressObserverEmpty": "No observer ratings received yet. A partner can save a rating after observing your practice.",
+      "progressLegend": "Filled dots show ratings on a 1–5 scale. Hollow dots mark skills with no saved rating; they are not zero scores.",
+      "progressUnrated": "No saved ratings",
+      "progressHistory": "Choose your next skill",
+      "progressPractice": "Practice this skill",
+      "progressSkillStats": "{score}/5 weighted average · {ratings} ratings · {items} rated items",
+      "progressLatest": "Latest: {date} · {score}/5 · {difficulty}",
+      "progressFinishFirst": "Pause or finish the current round before starting practice from your history.",
+      "progressMethods": "How scores are calculated · difficulty breakdown",
+      "progressMethodDescription": "Based on up to 500 latest saved ratings for the selected source. Each rating is weighted by its item count and age: weight halves every 90 days, down to 25%. These are practice ratings, not a measure of competence. Difficulty affects the task; scores across difficulties are not directly comparable.",
+      "lastSetupTitle": "Your last practice setup",
+      "repeatLastSetup": "Prepare another round",
+      "individualInstruction": "Try a response aloud first. Then compare with an example and try again, or move to the next item.",
+      "individualAwarenessInstruction": "Read the statement and notice your body, feelings, thoughts, and impulses. You do not need to respond to the client. Keep your reflection private if you prefer.",
+      "individualRetry": "Hide example and try again",
+      "individualAwarenessRetry": "Hide example and notice again",
+      "individualRetryInstruction": "Try the same statement again, changing one thing from your first attempt. Move on when you are ready.",
+      "individualAwarenessRetryInstruction": "Read the same statement again and notice what changes in your internal reaction. Move on when you are ready.",
+      "individualExampleNote": "One possible response, not an answer key. Notice what fits the skill and what you would do differently.",
+      "individualAwarenessExampleNote": "One possible reflection. Your own reaction may be different; there is no right feeling to have.",
+      "skillReminders": "Skill reminders",
+      "targetLocked": "This round stays linked to the therapist selected at the start. Pause or finish it before choosing someone else.",
+      "selfAwarenessShowSuggestion": "Compare one awareness reflection",
+      "close": "Close",
+      "closeAccount": "Close account panel",
+      "closeTherapist": "Close therapist panel",
+      "feedbackReasonQuality": "Statement or suggestion feels off",
+      "feedbackReasonTranslation": "Translation issue",
+      "feedbackReasonOffensive": "Offensive or inappropriate",
+      "feedbackReasonOther": "Other",
+      "feedbackDetailsPlaceholder": "Tell us what felt wrong or how to improve it.",
+      "leaveTitle": "Leave this round?",
+      "leaveDescription": "Pause to keep your place, or finish using only the items you have completed.",
+      "continuePractice": "Continue practicing",
+      "pauseRound": "Pause and leave",
+      "finishCompleted": "Finish completed items",
+      "roundCompleteTitle": "Round complete",
+      "roundCompleteDescription": "Take a moment to notice one thing you want to bring into your next practice.",
+      "roundOutcome": "{completed} practiced · {skipped} passed · {total} in this round",
+      "chooseAnotherCase": "Choose another case",
+      "repeatRound": "Practice this case again",
+      "rotateRound": "Rotate roles and prepare next round",
+      "finishWithoutRating": "Finish without saving",
+      "roundSaved": "Rating saved.",
+      "ratingSaveFailed": "We could not confirm your rating was saved. Your score is still here; please try again.",
+      "ratingTargetChanged": "This round belongs to the therapist selected when it began. Sign in with the same account to save it.",
+      "roundFor": "Practicing for: {name}",
+      "roundLocal": "This round is not linked to an account.",
+      "formatLocked": "Finish this round before changing its format.",
+      "triadSteps": [
+        "Respond",
+        "Client feedback",
+        "Coaching",
+        "Retry"
+      ],
+      "triadRetryHint": "You can repeat the response before finishing this item.",
+      "triadRoundReady": "Ready for your next round. Rotate roles and check who is practicing before you begin.",
+      "selfAwarenessOrientation": "The reader presents the client statement. The therapist notices their internal reactions and shares only what feels comfortable in training. The reader and observer support awareness and boundaries, then the therapist listens again.",
+      "selfAwarenessSteps": [
+        "Notice",
+        "Reader feedback",
+        "Coaching",
+        "Notice again"
+      ],
+      "selfAwarenessFirstTitle": "Therapist — notice your reaction",
+      "selfAwarenessFirstInstruction": "Listen to the client statement. Notice your body, feelings, thoughts, and impulses. Share only a comfortable part of your reaction with the group; you do not need to respond to the client.",
+      "selfAwarenessFirstContinue": "Reflection shared",
+      "selfAwarenessReaderRole": "Reader",
+      "selfAwarenessClientTitle": "Reader — reflect on the process",
+      "selfAwarenessClientInstruction": "Step out of the client role. Name what you noticed about the therapist pausing and attending to their experience. Respect what they chose to keep private.",
+      "selfAwarenessClientContinue": "Reflection given",
+      "selfAwarenessObserverInstruction": "Name one moment of awareness or boundary-setting you observed. Offer one gentle experiment in noticing, without interpreting the therapist or asking for more disclosure.",
+      "selfAwarenessRetryTitle": "Therapist — listen and notice again",
+      "selfAwarenessRetryInstruction": "Ask the reader to repeat the statement. Notice what is different in your reaction. Share only what you choose; keeping something private is part of the practice.",
+      "selfAwarenessDebriefClient": "Reflect on how the group made room for noticing without pressure to disclose.",
+      "selfAwarenessGuideClient": "The reader steps out of role before giving process feedback.",
+      "resumePhase": "{format} · {phase}",
+      "resumeBrief": "Case brief",
+      "resumeDebrief": "Round debrief",
+      "roundProgress": "Round progress",
+      "appTitle": "Deliberate Practice Lab",
+      "tagline": "Build precision with focused skills and curated cases across difficulty levels.",
+      "languageHeading": "Choose a Language",
+      "languageDescription": "Select the language you want to practice in.",
+      "languageListAria": "Language options",
+      "skillHeading": "Choose a Skill",
+      "skillDescription": "Pick the focus area you want to strengthen today.",
+      "skillListAria": "Skill options",
+      "caseHeading": "Pick a Case",
+      "caseDescription": "Explore curated scenarios with built-in difficulty levels.",
+      "caseListAria": "Case options",
+      "skillFocusLabel": "Skill focus",
+      "learnSkill": "Learn this skill",
+      "learnSkillAria": "Learn this skill",
+      "skillGuideHeading": "Skill Guide",
+      "skillGuideDescription": "Review the markers, aim, and common misses before choosing a case.",
+      "skillMarkerLabel": "Markers",
+      "skillSummaryLabel": "How to Work",
+      "skillAimLabel": "Aim",
+      "skillPracticeFocusLabel": "What to practice",
+      "skillCommonMissLabel": "Common miss",
+      "glossaryHint": "Tap highlighted terms to see quick definitions.",
+      "glossaryTitle": "Key term",
+      "glossaryClose": "Close definition",
+      "showSkillInstructions": "Show instructions",
+      "hideSkillInstructions": "Hide instructions",
+      "historyLabel": "History",
+      "schemaLabel": "Maladaptive Scheme",
+      "corePainLabel": "Core Pain",
+      "styleLabel": "Style",
+      "casePracticeEdgeLabel": "What to listen for",
+      "caseBriefHeading": "Case Brief",
+      "roleBriefHeading": "Role Background",
+      "clientVoiceHeading": "Client Voice",
+      "practiceControlsAria": "Practice controls",
+      "shuffle": "Shuffle Statements",
+      "shuffleAria": "Shuffle statement order",
+      "next": "Next",
+      "nextAria": "Advance to the next statement",
+      "finishRound": "Finish",
+      "finishRoundAria": "Finish this practice round",
+      "showSuggestion": "Show Suggested Response",
+      "hideSuggestion": "Hide Suggested Response",
+      "suggestionHiddenLabel": "Suggested response is hidden",
+      "suggestionShownLabel": "Suggested response is visible",
+      "statementFallback": "Statements for this case are not available yet.",
+      "emptyPrompt": "Select a skill and case to begin practicing statements.",
+      "counterPattern": "{current} of {total}",
+      "startPractice": "Begin Practice",
+      "practiceFormatLabel": "Practice format",
+      "practiceModeIndividual": "Individual",
+      "practiceModeIndividualDescription": "Practice the full set at your own pace.",
+      "practiceModeTriad": "Group of three",
+      "practiceModeTriadDescription": "Therapist, client, and observer practice three items with feedback and retry.",
+      "triadOrientationTitle": "How the group practices",
+      "triadOrientation": "The observer controls the shared or screen-shared app. For each item: the therapist responds, the client describes the impact, the observer offers focused coaching, and the therapist retries.",
+      "triadFeedbackGuideTitle": "Feedback guide",
+      "triadGuideAttempt": "Comment on this attempt, not the therapist as a person.",
+      "triadGuideClient": "The client speaks from their own experience.",
+      "triadGuideObserver": "The observer names one observable strength and one next edge.",
+      "triadGuideChoice": "The therapist may adapt, decline, or pass.",
+      "triadGuideBoundary": "Do not interpret one another's psychology.",
+      "triadGuideExample": "Suggested responses are examples, not answer keys.",
+      "triadRoleTherapist": "Therapist",
+      "triadRoleClient": "Client",
+      "triadRoleObserver": "Observer",
+      "triadProgressPattern": "Item {current} of {total} · Step {step} of 4",
+      "triadPhaseFirstTitle": "Therapist — first response",
+      "triadPhaseFirstInstruction": "The client reads the statement in role. Respond aloud as you would in the room, without looking for a perfect sentence. The observer listens for the selected skill.",
+      "triadPhaseFirstContinue": "Response given",
+      "triadPhaseClientTitle": "Client — experienced impact",
+      "triadPhaseClientInstruction": "Stay in role. Describe in first-person language what happened inside when you heard the response. What helped you stay with the experience? Did anything feel distancing, leading, too much, or too little? This is your experience, not a judgment for every client.",
+      "triadPhaseClientContinue": "Client feedback given",
+      "triadPhaseObserverTitle": "Observer — focused coaching",
+      "triadPhaseObserverInstruction": "Name one observable strength and one specific experiment connected to wording, tone, pace, tentativeness, or skill fit. Do not interpret the person or prescribe a correct sentence.",
+      "triadPhaseObserverContinue": "Observer feedback given",
+      "triadObserverFocusLabel": "Skill focus",
+      "triadObserverMissLabel": "Common miss",
+      "triadPhaseRetryTitle": "Therapist — retry",
+      "triadPhaseRetryInstruction": "Say which one change you will test. You may accept, adapt, or decline the feedback. Then respond to the same client statement again.",
+      "triadPhaseRetryFinish": "Finish item",
+      "triadPassItem": "Pass this item",
+      "triadPassConfirm": "Pass this item? It will not count as completed or be included in a saved rating.",
+      "triadPassConfirmButton": "Confirm pass",
+      "triadPassCancel": "Cancel",
+      "triadShowSuggestion": "Compare one possible response",
+      "triadHideSuggestion": "Hide example",
+      "triadSuggestionExampleNote": "This is an example, not a correct answer.",
+      "triadDebriefEyebrow": "Round complete",
+      "triadDebriefTitle": "Reflect together before rotating",
+      "triadDebriefTherapistLabel": "Therapist:",
+      "triadDebriefTherapist": "Identify one adjustment that became more available.",
+      "triadDebriefClientLabel": "Client:",
+      "triadDebriefClient": "Describe what changed between the first responses and the retries.",
+      "triadDebriefObserverLabel": "Observer:",
+      "triadDebriefObserver": "Name one recurring strength and one narrow next practice target.",
+      "triadDebriefGroupLabel": "Group:",
+      "triadDebriefGroup": "Classify the challenge as too easy, productive, or too difficult, and use that judgment when choosing the next case.",
+      "triadDerole": "Step out of role: say your own names, orient to the room, and take a quiet moment before rotating.",
+      "triadCompleteRound": "Complete round",
+      "viewCaseBrief": "View Case Brief",
+      "backToLanguage": "Language",
+      "backToLanguageAria": "Back to language selection",
+      "backToSkills": "Skills",
+      "backToSkillsAria": "Back to skills",
+      "backToCases": "Cases",
+      "backToCasesAria": "Back to cases",
+      "footerNote": "Copyright © 2025 Jaran Olsen. All rights reserved.",
+      "statementPanelAria": "Client statements to practice with",
+      "lockedLabel": "Locked",
+      "lockedBanner": "Most cases are for members. Enter your access code to unlock the full library.",
+      "lockedPlaceholder": "This case is locked. Unlock to view statements.",
+      "paywallHeading": "Unlock the full library",
+      "paywallMessage": "Enter your access code to view this case",
+      "unlockSubmit": "Unlock",
+      "unlockCodeLabel": "Access code",
+      "unlockPlaceholder": "Enter code",
+      "unlockMissing": "Enter a code to continue.",
+      "unlockInvalid": "That code was not recognized.",
+      "unlockExpired": "That code has expired.",
+      "unlockError": "Could not unlock right now. Please try again.",
+      "unlockSuccess": "Unlocked! Full library is available.",
+      "unlockWorking": "Checking code...",
+      "unlockConfigMissing": "Supabase configuration is missing. Add VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY.",
+      "feedbackTitle": "Flag this item",
+      "feedbackReasonLabel": "What's wrong?",
+      "feedbackDetailsLabel": "Add details (optional)",
+      "feedbackSubmit": "Send feedback",
+      "feedbackToggleShow": "Flag",
+      "feedbackToggleHide": "Hide",
+      "feedbackSending": "Sending...",
+      "feedbackSuccess": "Thanks! Your feedback was sent.",
+      "feedbackError": "Unable to send feedback. Please try again.",
+      "feedbackUnavailable": "Select a case and statement to send feedback.",
+      "feedbackConfigMissing": "Feedback storage is not configured.",
+      "resumeTitle": "Resume practice",
+      "resumeButton": "Resume",
+      "resumeClear": "Clear",
+      "completedShort": "done",
+      "responseLabel": "Your response",
+      "responsePlaceholder": "Say it aloud, or jot a local note before revealing the suggestion.",
+      "responseHint": "Optional and not saved.",
+      "signInButton": "Sign in",
+      "accountButtonSignedIn": "Account",
+      "signOutButton": "Sign out",
+      "accountEyebrow": "Practice account",
+      "accountHeading": "Account",
+      "therapistEyebrow": "Active therapist",
+      "therapistHeading": "Choose who is practicing",
+      "therapistSignedOutMessage": "Sign in from Account to choose an active therapist or pair with a partner.",
+      "accessTitle": "Library access",
+      "accessStatusFree": "Free access",
+      "accessStatusUnlocked": "Full library unlocked",
+      "accessStatusExpires": "Full library unlocked until {date}",
+      "authIntro": "Sign in to save ratings, see progress, and manage your library access.",
+      "authEmailLabel": "Email",
+      "authEmailPlaceholder": "you@example.com",
+      "authSubmit": "Send magic link",
+      "authConfigMissing": "Supabase Auth is not configured.",
+      "authEmailMissing": "Enter your email address.",
+      "authSending": "Sending magic link...",
+      "authSent": "Check your email for the sign-in link.",
+      "authError": "Unable to update account.",
+      "profileLabel": "Signed in as",
+      "profileDisplayLabel": "Display name",
+      "profileSave": "Save",
+      "profileSaved": "Profile saved.",
+      "profileError": "Unable to save profile.",
+      "signedOut": "Signed out.",
+      "activeTherapistLabel": "Active therapist",
+      "activeTherapistHint": "Ratings save to the selected therapist.",
+      "meLabel": "Me",
+      "selfSourceLabel": "self",
+      "savingForPrefix": "Saving:",
+      "headerSavingForPrefix": "For:",
+      "noActiveTherapist": "No active therapist",
+      "pairingCreateTitle": "Invite a partner",
+      "pairingCreateDescription": "Create a short code on the therapist device. The partner accepts it on their device.",
+      "pairingCreateButton": "Create code",
+      "pairingCreating": "Creating code...",
+      "pairingCreated": "Share this code with your practice partner.",
+      "pairingCreateError": "Unable to create pairing code.",
+      "pairingAcceptLabel": "Accept partner code",
+      "pairingAcceptButton": "Accept",
+      "pairingCodePlaceholder": "ABCD1234",
+      "pairingCodeMissing": "Enter the pairing code.",
+      "pairingAccepting": "Accepting code...",
+      "pairingAccepted": "Partner added. Ratings can now save to that therapist.",
+      "pairingAcceptError": "Unable to accept pairing code.",
+      "expiresPrefix": "Expires:",
+      "copyButton": "Copy",
+      "shareButton": "Share",
+      "copied": "Copied.",
+      "copyError": "Could not copy the code.",
+      "shared": "Shared.",
+      "shareError": "Could not share the code.",
+      "sharePairingText": "Use this Deliberate Practice pairing code:",
+      "partnersTitle": "Paired therapists",
+      "noPartners": "No paired therapists yet.",
+      "revokePartner": "Revoke",
+      "revokeWorking": "Revoking partner...",
+      "revokeSuccess": "Partner revoked.",
+      "revokeError": "Unable to revoke partner.",
+      "ratingEyebrow": "Finish round",
+      "ratingTitleSelf": "How well did you master this round?",
+      "ratingTitleObserver": "How well did the active therapist master this round?",
+      "ratingScoreLabel": "Round score",
+      "ratingScoreGuide": "1 = Not yet mastered · 5 = Mastered confidently",
+      "triadRatingTitle": "Across this round, how consistently did the therapist practice the selected skill?",
+      "triadRatingDescription": "Rate the observable practice, not the person's overall competence.",
+      "triadRatingScoreGuide": "1 = Rarely · 3 = Partly or unevenly · 5 = Consistently",
+      "ratingTargetSignedOut": "Sign in to save",
+      "ratingSubmit": "Save",
+      "ratingSavedButton": "Saved",
+      "ratingSkip": "Skip",
+      "ratingDone": "Done",
+      "ratingSignInHint": "Sign in to save this round, or finish without saving.",
+      "ratingConfigMissing": "Supabase Auth is not configured.",
+      "ratingNoTarget": "Choose an active therapist before saving.",
+      "ratingUnavailable": "No active round to rate.",
+      "ratingMissingScore": "Choose a score first.",
+      "ratingSaving": "Saving rating...",
+      "ratingSaved": "Saved.",
+      "ratingError": "Unable to save rating.",
+      "ratingItemCountSingular": "{count} item practiced",
+      "ratingItemCountPlural": "{count} items practiced",
+      "selfChartTitle": "Your progress",
+      "selfChartDescription": "Your own ratings of your practice. Use them to reflect and choose what to practice next.",
+      "selfChartRefresh": "Refresh",
+      "selfChartSignIn": "Sign in to see your practice ratings.",
+      "selfChartLoading": "Loading chart...",
+      "selfChartNotLoaded": "Open Your progress to load your ratings.",
+      "selfChartEmpty": "No self-ratings yet.",
+      "selfChartError": "Unable to load chart.",
+      "selfChartAverage": "{score}/5 weighted average",
+      "selfChartCount": "{count} rated items",
+      "selfChartAria": "Radar chart of practice ratings across twelve fixed skills",
+      "selfChartDifficultyTitle": "By difficulty",
+      "selfChartSkillDifficultyTitle": "By skill and difficulty (n = items)",
+      "selfChartCellCount": "n={count}",
+      "selfChartSkillLabels": {
+        "therapist-self-awareness": [
+          "Self",
+          "awareness"
+        ],
+        "empathic-understanding": [
+          "Empathic",
+          "understanding"
+        ],
+        "empathic-affirmation-validation": [
+          "Affirmation",
+          "validation"
+        ],
+        "exploratory-questions": [
+          "Exploratory",
+          "questions"
+        ],
+        "providing-treatment-rationale": [
+          "Treatment",
+          "rationale"
+        ],
+        "empathic-explorations": [
+          "Empathic",
+          "exploration"
+        ],
+        "empathic-evocations": [
+          "Empathic",
+          "evocation"
+        ],
+        "empathic-conjectures": [
+          "Empathic",
+          "conjectures"
+        ],
+        "staying-in-contact-intense-affect": [
+          "Contact",
+          "in affect"
+        ],
+        "self-disclosure": [
+          "Self-",
+          "disclosure"
+        ],
+        "marker-recognition-chairwork": [
+          "Markers",
+          "chairwork"
+        ],
+        "alliance-repair": [
+          "Alliance",
+          "repair"
+        ],
+        "empathic-refocusing": [
+          "Empathic",
+          "refocusing"
+        ]
+      },
+      "difficultyEasy": "Easy",
+      "difficultyModerate": "Moderate",
+      "difficultyHard": "Hard"
+    },
+    "no": {
+      "accountLoading": "Laster konto…",
+      "contentLoading": "Laster øving…",
+      "contentUnavailable": "Øving utilgjengelig",
+      "contentLoadFailed": "Øvingsoppgavene kunne ikke lastes inn. Prøv igjen, eller last siden på nytt hvis problemet fortsetter. En eventuell pauset runde er fortsatt lagret.",
+      "contentLoadRetry": "Prøv å laste igjen",
+      "accountUnavailable": "Øvingskontoen kunne ikke lastes. Logg inn på nytt, eller logg ut for å øve uten lagring.",
+      "progressSourceLabel": "Vurderinger av din øving",
+      "progressRubricLabel": "Vurderingsskala",
+      "progressScaleEmpty": "Ingen vurderinger for denne skalaen og kilden ennå. For eldre øving, velg Tidligere · ukjent skala.",
+      "accountUnavailableShort": "Konto utilgjengelig",
+      "progressRubricIndividual": "Individuelt · mestring",
+      "progressRubricGroup": "Gruppe · konsistens",
+      "progressRubricLegacy": "Tidligere · ukjent skala",
+      "progressRubricLegacyNote": "Disse vurderingene ble lagret før skalaen ble registrert. De vises atskilt fra nyere vurderinger, fordi samme skår kan ha ulik betydning.",
+      "progressSelf": "Egenvurderinger",
+      "progressObserver": "Observatørvurderinger",
+      "progressObserverDescription": "Vurderinger du har fått fra øvingspartnere. Vises separat fra dine egenvurderinger.",
+      "progressObserverEmpty": "Ingen observatørvurderinger mottatt ennå. En partner kan lagre en vurdering etter å ha observert øvingen din.",
+      "progressLegend": "Fylte punkter viser vurderinger på en skala fra 1 til 5. Hule punkter markerer ferdigheter uten lagret vurdering; de er ikke nullskårer.",
+      "progressUnrated": "Ingen lagrede vurderinger",
+      "progressHistory": "Velg neste ferdighet",
+      "progressPractice": "Øv på ferdigheten",
+      "progressSkillStats": "{score}/5 vektet snitt · {ratings} vurderinger · {items} vurderte utsagn",
+      "progressLatest": "Sist: {date} · {score}/5 · {difficulty}",
+      "progressFinishFirst": "Sett runden på pause eller avslutt den før du starter øving fra historikken.",
+      "progressMethods": "Slik beregnes skårene · fordelt på vanskelighetsgrad",
+      "progressMethodDescription": "Basert på opptil 500 av de nyeste lagrede vurderingene for valgt kilde. Hver vurdering vektes etter antall utsagn og alder: vekten halveres hver 90. dag, ned til 25 %. Dette er øvingsvurderinger, ikke et mål på kompetanse. Vanskelighetsgraden påvirker oppgaven; skårer på tvers av vanskelighetsgrader er ikke direkte sammenlignbare.",
+      "lastSetupTitle": "Ditt siste øvingsoppsett",
+      "repeatLastSetup": "Forbered en ny runde",
+      "individualInstruction": "Prøv en respons høyt først. Sammenlign deretter med et eksempel og prøv igjen, eller gå videre til neste utsagn.",
+      "individualAwarenessInstruction": "Les utsagnet og legg merke til kropp, følelser, tanker og impulser. Du trenger ikke svare klienten. Behold refleksjonen for deg selv om du ønsker.",
+      "individualRetry": "Skjul eksempelet og prøv igjen",
+      "individualAwarenessRetry": "Skjul eksempelet og legg merke til på nytt",
+      "individualRetryInstruction": "Prøv det samme utsagnet igjen, og endre én ting fra første forsøk. Gå videre når du er klar.",
+      "individualAwarenessRetryInstruction": "Les det samme utsagnet igjen og legg merke til hva som endrer seg i din indre reaksjon. Gå videre når du er klar.",
+      "individualExampleNote": "Én mulig respons, ikke en fasit. Legg merke til hva som passer ferdigheten, og hva du ville gjort annerledes.",
+      "individualAwarenessExampleNote": "Én mulig refleksjon. Din egen reaksjon kan være annerledes; det finnes ingen riktig følelse å ha.",
+      "skillReminders": "Påminnelser om ferdigheten",
+      "targetLocked": "Runden er knyttet til terapeuten som ble valgt ved start. Ta pause eller avslutt før du velger en annen.",
+      "selfAwarenessShowSuggestion": "Se et eksempel på selvbevissthet",
+      "close": "Lukk",
+      "closeAccount": "Lukk kontopanelet",
+      "closeTherapist": "Lukk terapeutpanelet",
+      "feedbackReasonQuality": "Utsagnet eller responsforslaget virker feil",
+      "feedbackReasonTranslation": "Problem med oversettelsen",
+      "feedbackReasonOffensive": "Støtende eller upassende",
+      "feedbackReasonOther": "Annet",
+      "feedbackDetailsPlaceholder": "Fortell hva som virker feil, eller hvordan det kan forbedres.",
+      "leaveTitle": "Vil du forlate runden?",
+      "leaveDescription": "Ta en pause for å beholde plassen din, eller avslutt med bare utsagnene du har øvd på.",
+      "continuePractice": "Fortsett øvingen",
+      "pauseRound": "Ta pause og gå tilbake",
+      "finishCompleted": "Avslutt med fullførte utsagn",
+      "roundCompleteTitle": "Runden er fullført",
+      "roundCompleteDescription": "Ta et øyeblikk og legg merke til én ting du vil ta med deg i neste øvingsrunde.",
+      "roundOutcome": "{completed} øvd på · {skipped} hoppet over · {total} i runden",
+      "chooseAnotherCase": "Velg en annen case",
+      "repeatRound": "Øv på denne casen igjen",
+      "rotateRound": "Bytt roller og forbered neste runde",
+      "finishWithoutRating": "Avslutt uten å lagre",
+      "roundSaved": "Vurderingen er lagret.",
+      "ratingSaveFailed": "Vi kunne ikke bekrefte at vurderingen ble lagret. Skåren er beholdt; prøv igjen.",
+      "ratingTargetChanged": "Runden tilhører terapeuten som ble valgt ved start. Logg inn med samme konto for å lagre.",
+      "roundFor": "Øver for: {name}",
+      "roundLocal": "Denne runden er ikke knyttet til en konto.",
+      "formatLocked": "Avslutt runden før du endrer øvingsform.",
+      "triadSteps": [
+        "Respons",
+        "Klienttilbakemelding",
+        "Veiledning",
+        "Nytt forsøk"
+      ],
+      "triadRetryHint": "Du kan gjenta responsen før du avslutter dette utsagnet.",
+      "triadRoundReady": "Klar for neste runde. Bytt roller og sjekk hvem som øver før dere begynner.",
+      "selfAwarenessOrientation": "Oppleseren leser klientutsagnet. Terapeuten legger merke til egne indre reaksjoner og deler bare det som kjennes greit i øvingssituasjonen. Oppleser og observatør støtter oppmerksomhet og grenser før terapeuten lytter på nytt.",
+      "selfAwarenessSteps": [
+        "Legg merke til",
+        "Oppleserens respons",
+        "Veiledning",
+        "Lytt på nytt"
+      ],
+      "selfAwarenessFirstTitle": "Terapeut — legg merke til din reaksjon",
+      "selfAwarenessFirstInstruction": "Lytt til klientutsagnet. Legg merke til kropp, følelser, tanker og impulser. Del bare en del av reaksjonen som kjennes grei å dele med gruppen; du trenger ikke svare klienten.",
+      "selfAwarenessFirstContinue": "Refleksjon delt",
+      "selfAwarenessReaderRole": "Oppleser",
+      "selfAwarenessClientTitle": "Oppleser — gi respons på prosessen",
+      "selfAwarenessClientInstruction": "Gå ut av klientrollen. Si hva du la merke til da terapeuten tok en pause og vendte oppmerksomheten mot egen opplevelse. Respekter det hen valgte å holde privat.",
+      "selfAwarenessClientContinue": "Tilbakemelding gitt",
+      "selfAwarenessObserverInstruction": "Trekk frem ett øyeblikk med oppmerksomhet eller grensesetting. Foreslå ett varsomt eksperiment i å legge merke til, uten å tolke terapeuten eller be om mer deling.",
+      "selfAwarenessRetryTitle": "Terapeut — lytt og legg merke til på nytt",
+      "selfAwarenessRetryInstruction": "Be oppleseren gjenta utsagnet. Legg merke til om reaksjonen din har endret seg. Del bare det du ønsker; å holde noe privat er en del av øvingen.",
+      "selfAwarenessDebriefClient": "Reflekter over hvordan gruppen ga rom for å legge merke til uten press om å dele.",
+      "selfAwarenessGuideClient": "Oppleseren går ut av rollen før hen gir tilbakemelding på prosessen.",
+      "resumePhase": "{format} · {phase}",
+      "resumeBrief": "Caseoversikt",
+      "resumeDebrief": "Oppsummering av runden",
+      "roundProgress": "Fremdrift i runden",
+      "appTitle": "Deliberate Practice Lab",
+      "tagline": "Bygg presisjon med målrettede ferdigheter på nøye utvalgte caser over flere vanskelighetsnivåer.",
+      "languageHeading": "Velg språk",
+      "languageDescription": "Velg språket du vil øve på.",
+      "languageListAria": "Språkvalg",
+      "skillHeading": "Velg en ferdighet",
+      "skillDescription": "Velg hva du vil øve på i dag.",
+      "skillListAria": "Ferdighetsvalg",
+      "caseHeading": "Velg en case",
+      "caseDescription": "Utforsk nøye utvalgte caser av forskjellig vanskelighetsgrad.",
+      "caseListAria": "Casevalg",
+      "skillFocusLabel": "Ferdighetsfokus",
+      "learnSkill": "Lær ferdigheten",
+      "learnSkillAria": "Lær denne ferdigheten",
+      "skillGuideHeading": "Ferdighetsguide",
+      "skillGuideDescription": "Se gjennom markører, mål og vanlige feilgrep før du velger case.",
+      "skillMarkerLabel": "Markører",
+      "skillSummaryLabel": "Hvordan jobbe",
+      "skillAimLabel": "Mål",
+      "skillPracticeFocusLabel": "Hva du øver på",
+      "skillCommonMissLabel": "Vanlig feilgrep",
+      "glossaryHint": "Trykk på markerte begreper for å se en kort forklaring.",
+      "glossaryTitle": "Nøkkelbegrep",
+      "glossaryClose": "Lukk forklaring",
+      "showSkillInstructions": "Vis instruksjoner",
+      "hideSkillInstructions": "Skjul instruksjoner",
+      "historyLabel": "Bakgrunn",
+      "schemaLabel": "Maladaptivt skjema",
+      "corePainLabel": "Kjernesmerte",
+      "styleLabel": "Stil",
+      "casePracticeEdgeLabel": "Hva du bør lytte etter",
+      "caseBriefHeading": "Caseoversikt",
+      "roleBriefHeading": "Rollebakgrunn",
+      "clientVoiceHeading": "Klientens stemme",
+      "practiceControlsAria": "Kontroller for øving",
+      "shuffle": "Stokk om utsagnene",
+      "shuffleAria": "Stokk om rekkefølgen på utsagnene",
+      "next": "Neste",
+      "nextAria": "Gå til neste utsagn",
+      "finishRound": "Avslutt",
+      "finishRoundAria": "Avslutt denne øvingsrunden",
+      "showSuggestion": "Vis foreslått respons",
+      "hideSuggestion": "Skjul foreslått respons",
+      "suggestionHiddenLabel": "Foreslått respons er skjult",
+      "suggestionShownLabel": "Foreslått respons er synlig",
+      "statementFallback": "Utsagnene for denne casen er ikke tilgjengelige ennå.",
+      "emptyPrompt": "Velg en ferdighet og en case for å begynne å øve.",
+      "counterPattern": "{current} av {total}",
+      "startPractice": "Start øvingen",
+      "practiceFormatLabel": "Øvingsform",
+      "practiceModeIndividual": "Individuelt",
+      "practiceModeIndividualDescription": "Øv på hele serien i ditt eget tempo.",
+      "practiceModeTriad": "Gruppe på tre",
+      "practiceModeTriadDescription": "Terapeut, klient og observatør øver på tre utsagn med tilbakemelding og et nytt forsøk.",
+      "triadOrientationTitle": "Slik øver gruppen",
+      "triadOrientation": "Observatøren styrer appen på en felles eller delt skjerm. For hvert utsagn svarer terapeuten først, klienten beskriver hvordan responsen virket, observatøren gir målrettet tilbakemelding, og terapeuten prøver på nytt.",
+      "triadFeedbackGuideTitle": "Guide for tilbakemelding",
+      "triadGuideAttempt": "Gi tilbakemelding på dette forsøket, ikke på terapeuten som person.",
+      "triadGuideClient": "Klienten snakker ut fra sin egen opplevelse.",
+      "triadGuideObserver": "Observatøren nevner én konkret styrke og ett avgrenset utviklingspunkt.",
+      "triadGuideChoice": "Terapeuten kan bruke, tilpasse eller la tilbakemeldingen ligge – eller stå over utsagnet.",
+      "triadGuideBoundary": "Ikke tolk hverandres psykologi.",
+      "triadGuideExample": "Foreslåtte responser er eksempler, ikke fasitsvar.",
+      "triadRoleTherapist": "Terapeut",
+      "triadRoleClient": "Klient",
+      "triadRoleObserver": "Observatør",
+      "triadProgressPattern": "Utsagn {current} av {total} · Trinn {step} av 4",
+      "triadPhaseFirstTitle": "Terapeut — første respons",
+      "triadPhaseFirstInstruction": "Klienten leser utsagnet i rollen. Svar høyt slik du ville gjort i terapirommet, uten å lete etter en perfekt formulering. Observatøren lytter etter den valgte ferdigheten.",
+      "triadPhaseFirstContinue": "Responsen er gitt",
+      "triadPhaseClientTitle": "Klient — opplevd virkning",
+      "triadPhaseClientInstruction": "Bli i rollen. Beskriv i jeg-form hva som skjedde i deg da du hørte responsen. Hva hjalp deg å bli i opplevelsen? Var det noe som skapte avstand, ledet deg, ble for mye eller for lite? Dette er din opplevelse, ikke en fasit for hvordan alle klienter ville reagert.",
+      "triadPhaseClientContinue": "Klientens tilbakemelding er gitt",
+      "triadPhaseObserverTitle": "Observatør — målrettet veiledning",
+      "triadPhaseObserverInstruction": "Trekk frem én observerbar styrke og foreslå ett konkret eksperiment knyttet til ordvalg, tone, tempo, hvor prøvende responsen er, eller hvor godt den treffer ferdigheten. Ikke tolk personen eller gi en fasit på hva terapeuten burde sagt.",
+      "triadPhaseObserverContinue": "Observatørens tilbakemelding er gitt",
+      "triadObserverFocusLabel": "Ferdighetsfokus",
+      "triadObserverMissLabel": "Vanlig feilgrep",
+      "triadPhaseRetryTitle": "Terapeut — prøv på nytt",
+      "triadPhaseRetryInstruction": "Si hvilken endring du vil prøve. Du kan bruke, tilpasse eller la tilbakemeldingen ligge. Svar deretter på det samme klientutsagnet på nytt.",
+      "triadPhaseRetryFinish": "Fullfør utsagnet",
+      "triadPassItem": "Stå over dette utsagnet",
+      "triadPassConfirm": "Vil dere stå over dette utsagnet? Det teller ikke som fullført eller tas med i en lagret vurdering.",
+      "triadPassConfirmButton": "Bekreft at dere står over",
+      "triadPassCancel": "Avbryt",
+      "triadShowSuggestion": "Sammenlign med én mulig respons",
+      "triadHideSuggestion": "Skjul eksempelet",
+      "triadSuggestionExampleNote": "Dette er et eksempel, ikke et fasitsvar.",
+      "triadDebriefEyebrow": "Runden er fullført",
+      "triadDebriefTitle": "Reflekter sammen før dere bytter roller",
+      "triadDebriefTherapistLabel": "Terapeut:",
+      "triadDebriefTherapist": "Nevn én justering som ble lettere å få til.",
+      "triadDebriefClientLabel": "Klient:",
+      "triadDebriefClient": "Beskriv hva som endret seg fra første respons til de nye forsøkene.",
+      "triadDebriefObserverLabel": "Observatør:",
+      "triadDebriefObserver": "Nevn én gjennomgående styrke og ett avgrenset mål for videre øving.",
+      "triadDebriefGroupLabel": "Gruppe:",
+      "triadDebriefGroup": "Vurder utfordringen som for lett, passe utfordrende eller for vanskelig, og bruk vurderingen når dere velger neste case.",
+      "triadDerole": "Gå ut av rollene: si deres egne navn, orienter dere i rommet, og ta et rolig øyeblikk før dere roterer.",
+      "triadCompleteRound": "Fullfør runden",
+      "viewCaseBrief": "Vis caseoversikt",
+      "backToLanguage": "Språk",
+      "backToLanguageAria": "Tilbake til språkvalg",
+      "backToSkills": "Ferdigheter",
+      "backToSkillsAria": "Tilbake til ferdigheter",
+      "backToCases": "Caser",
+      "backToCasesAria": "Tilbake til caser",
+      "footerNote": "Opphavsrett © 2025 Jaran Olsen. Alle rettigheter forbeholdt.",
+      "statementPanelAria": "Klientutsagn for øving",
+      "lockedLabel": "Låst",
+      "lockedBanner": "De fleste casene er låst. Bruk tilgangskoden for å åpne biblioteket.",
+      "lockedPlaceholder": "Denne casen er låst. Lås opp for å se utsagnene.",
+      "paywallHeading": "Lås opp hele biblioteket",
+      "paywallMessage": "Skriv inn tilgangskoden for å se denne casen",
+      "unlockSubmit": "Lås opp",
+      "unlockCodeLabel": "Tilgangskode",
+      "unlockPlaceholder": "Skriv inn kode",
+      "unlockMissing": "Skriv inn kode for å fortsette.",
+      "unlockInvalid": "Koden ble ikke gjenkjent.",
+      "unlockExpired": "Koden er utløpt.",
+      "unlockError": "Kunne ikke låse opp nå. Prøv igjen.",
+      "unlockSuccess": "Låst opp! Hele biblioteket er tilgjengelig.",
+      "unlockWorking": "Sjekker kode...",
+      "unlockConfigMissing": "Supabase-oppsett mangler. Legg til VITE_SUPABASE_URL og VITE_SUPABASE_ANON_KEY.",
+      "feedbackTitle": "Rapporter dette punktet",
+      "feedbackReasonLabel": "Hva er problemet?",
+      "feedbackDetailsLabel": "Detaljer (valgfritt)",
+      "feedbackSubmit": "Send tilbakemelding",
+      "feedbackToggleShow": "Flagg",
+      "feedbackToggleHide": "Skjul",
+      "feedbackSending": "Sender...",
+      "feedbackSuccess": "Takk! Tilbakemeldingen ble sendt.",
+      "feedbackError": "Kunne ikke sende tilbakemelding. Prøv igjen.",
+      "feedbackUnavailable": "Velg en case og et utsagn for å sende tilbakemelding.",
+      "feedbackConfigMissing": "Lagring av tilbakemelding er ikke satt opp.",
+      "resumeTitle": "Fortsett øving",
+      "resumeButton": "Fortsett",
+      "resumeClear": "Fjern",
+      "completedShort": "ferdig",
+      "responseLabel": "Din respons",
+      "responsePlaceholder": "Si den høyt, eller skriv et lokalt notat før du viser forslaget.",
+      "responseHint": "Valgfritt og lagres ikke.",
+      "signInButton": "Logg inn",
+      "accountButtonSignedIn": "Konto",
+      "signOutButton": "Logg ut",
+      "accountEyebrow": "Øvingskonto",
+      "accountHeading": "Konto",
+      "therapistEyebrow": "Aktiv terapeut",
+      "therapistHeading": "Velg hvem som øver",
+      "therapistSignedOutMessage": "Logg inn fra Konto for å velge aktiv terapeut eller koble til en partner.",
+      "accessTitle": "Bibliotektilgang",
+      "accessStatusFree": "Gratis tilgang",
+      "accessStatusUnlocked": "Hele biblioteket er låst opp",
+      "accessStatusExpires": "Hele biblioteket er låst opp til {date}",
+      "authIntro": "Logg inn for å lagre vurderinger, se progresjon og administrere bibliotektilgang.",
+      "authEmailLabel": "E-post",
+      "authEmailPlaceholder": "du@eksempel.no",
+      "authSubmit": "Send innloggingslenke",
+      "authConfigMissing": "Supabase Auth er ikke satt opp.",
+      "authEmailMissing": "Skriv inn e-postadressen din.",
+      "authSending": "Sender innloggingslenke...",
+      "authSent": "Sjekk e-posten din for innloggingslenken.",
+      "authError": "Kunne ikke oppdatere konto.",
+      "profileLabel": "Logget inn som",
+      "profileDisplayLabel": "Visningsnavn",
+      "profileSave": "Lagre",
+      "profileSaved": "Profil lagret.",
+      "profileError": "Kunne ikke lagre profil.",
+      "signedOut": "Logget ut.",
+      "activeTherapistLabel": "Aktiv terapeut",
+      "activeTherapistHint": "Vurderinger lagres på valgt terapeut.",
+      "meLabel": "Meg",
+      "selfSourceLabel": "selv",
+      "savingForPrefix": "Lagrer for:",
+      "headerSavingForPrefix": "For:",
+      "noActiveTherapist": "Ingen aktiv terapeut",
+      "pairingCreateTitle": "Inviter en partner",
+      "pairingCreateDescription": "Lag en kort kode på terapeutens enhet. Partneren godtar den på sin enhet.",
+      "pairingCreateButton": "Lag kode",
+      "pairingCreating": "Lager kode...",
+      "pairingCreated": "Del denne koden med øvingspartneren.",
+      "pairingCreateError": "Kunne ikke lage koblingskode.",
+      "pairingAcceptLabel": "Godta partnerkode",
+      "pairingAcceptButton": "Godta",
+      "pairingCodePlaceholder": "ABCD1234",
+      "pairingCodeMissing": "Skriv inn koblingskoden.",
+      "pairingAccepting": "Godtar kode...",
+      "pairingAccepted": "Partner lagt til. Vurderinger kan nå lagres på den terapeuten.",
+      "pairingAcceptError": "Kunne ikke godta koblingskode.",
+      "expiresPrefix": "Utløper:",
+      "copyButton": "Kopier",
+      "shareButton": "Del",
+      "copied": "Kopiert.",
+      "copyError": "Kunne ikke kopiere koden.",
+      "shared": "Delt.",
+      "shareError": "Kunne ikke dele koden.",
+      "sharePairingText": "Bruk denne koblingskoden for Deliberate Practice:",
+      "partnersTitle": "Koblede terapeuter",
+      "noPartners": "Ingen koblede terapeuter ennå.",
+      "revokePartner": "Fjern",
+      "revokeWorking": "Fjerner partner...",
+      "revokeSuccess": "Partner fjernet.",
+      "revokeError": "Kunne ikke fjerne partner.",
+      "ratingEyebrow": "Avslutt runde",
+      "ratingTitleSelf": "Hvor godt mestret du denne runden?",
+      "ratingTitleObserver": "Hvor godt mestret den aktive terapeuten denne runden?",
+      "ratingScoreLabel": "Rundeskår",
+      "ratingScoreGuide": "1 = Ikke mestret ennå · 5 = Mestret trygt",
+      "triadRatingTitle": "Hvor konsekvent øvde terapeuten på den valgte ferdigheten gjennom denne runden?",
+      "triadRatingDescription": "Vurder den observerbare øvingen, ikke personens samlede kompetanse.",
+      "triadRatingScoreGuide": "1 = Sjelden · 3 = Delvis eller ujevnt · 5 = Konsekvent",
+      "ratingTargetSignedOut": "Logg inn for å lagre",
+      "ratingSubmit": "Lagre",
+      "ratingSavedButton": "Lagret",
+      "ratingSkip": "Hopp over",
+      "ratingDone": "Ferdig",
+      "ratingSignInHint": "Logg inn for å lagre denne runden, eller avslutt uten lagring.",
+      "ratingConfigMissing": "Supabase Auth er ikke satt opp.",
+      "ratingNoTarget": "Velg en aktiv terapeut før lagring.",
+      "ratingUnavailable": "Ingen aktiv runde å vurdere.",
+      "ratingMissingScore": "Velg en skår først.",
+      "ratingSaving": "Lagrer vurdering...",
+      "ratingSaved": "Lagret.",
+      "ratingError": "Kunne ikke lagre vurdering.",
+      "ratingItemCountSingular": "{count} punkt øvd",
+      "ratingItemCountPlural": "{count} vurderte utsagn",
+      "selfChartTitle": "Din progresjon",
+      "selfChartDescription": "Dine egne vurderinger av øvingen. Bruk dem til refleksjon og til å velge hva du vil øve på videre.",
+      "selfChartRefresh": "Oppdater",
+      "selfChartSignIn": "Logg inn for å se øvingsvurderingene dine.",
+      "selfChartLoading": "Laster graf...",
+      "selfChartNotLoaded": "Åpne Din progresjon for å laste vurderingene.",
+      "selfChartEmpty": "Ingen egenvurderinger ennå.",
+      "selfChartError": "Kunne ikke laste graf.",
+      "selfChartAverage": "{score}/5 vektet snitt",
+      "selfChartCount": "{count} vurderte utsagn",
+      "selfChartAria": "Radardiagram over øvingsvurderinger for tolv faste ferdigheter",
+      "selfChartDifficultyTitle": "Etter vanskelighetsgrad",
+      "selfChartSkillDifficultyTitle": "Etter ferdighet og vanskelighetsgrad (n = punkter)",
+      "selfChartCellCount": "n={count}",
+      "selfChartSkillLabels": {
+        "therapist-self-awareness": [
+          "Selv-",
+          "bevissthet"
+        ],
+        "empathic-understanding": [
+          "Empatisk",
+          "forståelse"
+        ],
+        "empathic-affirmation-validation": [
+          "Bekreftelse",
+          "validering"
+        ],
+        "exploratory-questions": [
+          "Utforskende",
+          "spørsmål"
+        ],
+        "providing-treatment-rationale": [
+          "Behandlings-",
+          "rasjonale"
+        ],
+        "empathic-explorations": [
+          "Empatiske",
+          "utforskninger"
+        ],
+        "empathic-evocations": [
+          "Evokativ",
+          "empati"
+        ],
+        "empathic-conjectures": [
+          "Empatiske",
+          "antakelser"
+        ],
+        "staying-in-contact-intense-affect": [
+          "Kontakt",
+          "affekt"
+        ],
+        "self-disclosure": [
+          "Selv-",
+          "avsløring"
+        ],
+        "marker-recognition-chairwork": [
+          "Markører",
+          "stolarbeid"
+        ],
+        "alliance-repair": [
+          "Allianse",
+          "reparasjon"
+        ],
+        "empathic-refocusing": [
+          "Empatisk",
+          "refokusering"
+        ]
+      },
+      "difficultyEasy": "Lett",
+      "difficultyModerate": "Moderat",
+      "difficultyHard": "Vanskelig"
+    }
+  },
+  "GLOSSARY": {
+    "en": [
+      {
+        "id": "primary-emotion",
+        "label": {
+          "en": "Primary emotion",
+          "no": "Primærfølelse"
+        },
+        "terms": {
+          "en": [
+            "primary emotion",
+            "primary emotions",
+            "primary adaptive emotion",
+            "primary adaptive emotions",
+            "primary maladaptive emotion",
+            "primary maladaptive emotions"
+          ],
+          "no": [
+            "primærfølelse",
+            "primærfølelser",
+            "primære følelser",
+            "adaptive primærfølelser",
+            "maladaptive primærfølelser"
+          ]
+        },
+        "definition": {
+          "en": "The first, gut-level feeling that arises directly from a situation or need (for example sadness, anger, fear, or longing). In Emotion-focused therapy we distinguish helpful primary adaptive emotions that fit the present from older primary maladaptive emotions that replay past injuries.",
+          "no": "Den første, mage-nære følelsesreaksjonen som kommer direkte fra en situasjon eller et behov (for eksempel tristhet, sinne, frykt eller lengsel). I emosjonsfokusert terapi skiller vi mellom hjelpsomme primære adaptive følelser som passer nå, og primære maladaptive følelser som gjentar gamle sår."
+        }
+      },
+      {
+        "id": "secondary-emotion",
+        "label": {
+          "en": "Secondary emotion",
+          "no": "Sekundærfølelse"
+        },
+        "terms": {
+          "en": [
+            "secondary emotion",
+            "secondary emotions",
+            "secondary reaction",
+            "secondary reactions"
+          ],
+          "no": [
+            "sekundærfølelse",
+            "sekundærfølelser",
+            "sekundære følelser",
+            "sekundære reaksjoner"
+          ]
+        },
+        "definition": {
+          "en": "A feeling about a feeling – for example anger that covers hurt, or shame about fear. Secondary emotions often protect against more vulnerable primary emotions, but also obscure what really needs attention.",
+          "no": "En følelse om en følelse – for eksempel sinne som dekker sårhet, eller skam over å være redd. Sekundærfølelser beskytter ofte mot mer sårbare primærfølelser, men gjør det også vanskelig å merke hva som egentlig trenger oppmerksomhet."
+        }
+      },
+      {
+        "id": "core-pain",
+        "label": {
+          "en": "Core pain",
+          "no": "Kjernesmerte"
+        },
+        "terms": {
+          "en": [
+            "core pain"
+          ],
+          "no": [
+            "kjernesmerte"
+          ]
+        },
+        "definition": {
+          "en": "Deep, often old emotional hurt – such as shame, loneliness, or fear of abandonment – that comes from unmet needs in earlier relationships and is easily reactivated in the present.",
+          "no": "Dyp, ofte gammel emosjonell smerte – som skam, ensomhet eller forlatelsesfrykt – som stammer fra udekkede behov i tidligere relasjoner og lett trigges i nåtid."
+        }
+      },
+      {
+        "id": "unmet-need",
+        "label": {
+          "en": "Unmet need",
+          "no": "Udekket behov"
+        },
+        "terms": {
+          "en": [
+            "unmet need",
+            "unmet needs"
+          ],
+          "no": [
+            "udekket behov",
+            "udekkede behov"
+          ]
+        },
+        "definition": {
+          "en": "Important emotional or attachment needs – like safety, acceptance, comfort, or being valued – that were not adequately met when the pain occurred and still seek resolution now.",
+          "no": "Viktige emosjonelle eller relasjonelle behov – som trygghet, aksept, trøst eller å bli verdsatt – som ikke ble tilfredsstilt da smerten oppsto og fortsatt søker reparasjon."
+        }
+      },
+      {
+        "id": "levels-of-experiencing",
+        "label": {
+          "en": "Levels of experiencing",
+          "no": "Nivåer av opplevelse"
+        },
+        "terms": {
+          "en": [
+            "levels of experiencing",
+            "level of experiencing"
+          ],
+          "no": [
+            "opplevelsesnivå",
+            "opplevelsesnivåer",
+            "nivåer av opplevelse"
+          ]
+        },
+        "definition": {
+          "en": "A way of describing how close someone is to their inner experience, from distant storytelling to vivid, embodied feeling; deeper levels usually bring clearer, more change-promoting emotion.",
+          "no": "Et språk for hvor nært noen er egen opplevelse, fra å fortelle på avstand til å kjenne den kroppslig og følelsesnært; dypere nivåer gir ofte mer tydelig og endringsskapende emosjon."
+        }
+      },
+      {
+        "id": "cams-sequence",
+        "label": {
+          "en": "CAMS sequence",
+          "no": "CAMS-sekvensen"
+        },
+        "terms": {
+          "en": [
+            "CAMS sequence",
+            "CAMS"
+          ],
+          "no": [
+            "CAMS",
+            "CAMS-sekvensen",
+            "CAMS sekvensen"
+          ]
+        },
+        "definition": {
+          "en": "A change roadmap in Emotion-focused therapy that tracks movement from global distress, to accessing specific emotions, to making meaning and naming unmet needs, and finally to new adaptive emotional responses and relief.",
+          "no": "Et endringskart i emosjonsfokusert terapi som følger bevegelsen fra globalt ubehag, til tilgang til spesifikke følelser, til mening og navngitte udekkede behov, og videre til nye adaptive emosjonelle responser og lettelse."
+        }
+      },
+      {
+        "id": "window-of-tolerance",
+        "label": {
+          "en": "Window of tolerance",
+          "no": "Toleransevindu"
+        },
+        "terms": {
+          "en": [
+            "window of tolerance"
+          ],
+          "no": [
+            "toleransevindu",
+            "toleransevinduet"
+          ]
+        },
+        "definition": {
+          "en": "The arousal range in which a person can stay present and process emotion without shutting down or becoming flooded; therapy aims to keep the work inside this window.",
+          "no": "Aktiveringsområdet der en person kan være til stede og bearbeide følelser uten å bli overveldet eller nummen; terapien tilpasses for å holde arbeidet innenfor dette vinduet."
+        }
+      },
+      {
+        "id": "maladaptive-emotion",
+        "label": {
+          "en": "Maladaptive emotion",
+          "no": "Maladaptiv følelse"
+        },
+        "terms": {
+          "en": [
+            "maladaptive emotion",
+            "maladaptive emotions",
+            "maladaptive primary emotion",
+            "maladaptive primary emotions",
+            "maladaptive emotional schemes"
+          ],
+          "no": [
+            "maladaptiv følelse",
+            "maladaptive følelser",
+            "maladaptive primærfølelser",
+            "maladaptivt emosjonsskjema",
+            "maladaptive emosjonsskjemaer"
+          ]
+        },
+        "definition": {
+          "en": "An old, rigid emotional response learned in earlier situations – such as toxic shame, worthlessness, or chronic fear – that is easily triggered now but no longer fits and must be transformed by new, adaptive emotion.",
+          "no": "En gammel, fastlåst følelsesrespons lært i tidligere situasjoner – som giftig skam, verdiløshet eller kronisk frykt – som trigges lett i dag, men ikke lenger hjelper, og må forandres gjennom nye, adaptive følelser."
+        }
+      },
+      {
+        "id": "corrective-emotional-experience",
+        "label": {
+          "en": "Corrective emotional experience",
+          "no": "Korrigerende emosjonell erfaring"
+        },
+        "terms": {
+          "en": [
+            "corrective emotional experience",
+            "corrective experience"
+          ],
+          "no": [
+            "korrigerende emosjonell erfaring",
+            "korrigerende erfaring"
+          ]
+        },
+        "definition": {
+          "en": "A new emotional moment that contradicts an old expectation – for example, being met with care rather than rejection – so the person can update their meaning and emotional learning.",
+          "no": "En ny emosjonell opplevelse som motsier en gammel forventning – for eksempel å bli møtt med varme i stedet for avvisning – og som gjør at mening og emosjonell læring kan oppdateres."
+        }
+      },
+      {
+        "id": "chair-work",
+        "label": {
+          "en": "Chair work",
+          "no": "Stolarbeid"
+        },
+        "terms": {
+          "en": [
+            "chair work",
+            "chair-work",
+            "two-chair",
+            "empty chair"
+          ],
+          "no": [
+            "stolarbeid",
+            "to-stols",
+            "to-stolsarbeid",
+            "tom stol"
+          ]
+        },
+        "definition": {
+          "en": "An experiential task using two or more chairs so the client can speak from different parts of self or to another person, vividly activating emotion and unmet needs in the here-and-now.",
+          "no": "En opplevelsesbasert oppgave med to eller flere stoler der klienten snakker fra ulike deler av seg selv eller til en annen person, for å aktivere følelser og udekkede behov her-og-nå."
+        }
+      },
+      {
+        "id": "task-marker",
+        "label": {
+          "en": "Task marker",
+          "no": "Oppgavemarkør"
+        },
+        "terms": {
+          "en": [
+            "task marker",
+            "task markers",
+            "marker",
+            "markers"
+          ],
+          "no": [
+            "oppgavemarkør",
+            "oppgavemarkører",
+            "markør",
+            "markører"
+          ]
+        },
+        "definition": {
+          "en": "A recognizable sign in the session – such as harsh self-attack, unresolved anger, or stuck ambivalence – that signals a specific experiential task (like chair work) is likely to help.",
+          "no": "Et kjennetegn i timen – som hardt selvangrep, uoppgjort sinne eller fastlått ambivalens – som varsler at en bestemt oppgave, for eksempel stolarbeid, sannsynligvis vil være hjelpsom."
+        }
+      }
+    ],
+    "no": null
+  },
+  "CASE_FORMULATION_TRANSLATIONS": {
+    "no": {
+      "case-sara": {
+        "corePain": "Skampreget ensomhet og frykt for å bli forlatt, forankret i følelsesmessig avstand fra omsorgspersonene."
+      },
+      "case-michael": {
+        "corePain": "Ydmykelse, utilstrekkelighet og frykt for å bli avslørt, knyttet til en kritisk far og betinget egenverdi."
+      },
+      "case-jason": {
+        "corePain": "En dyp følelse av å være defekt, sosialt klein og redd for å bli avslørt, formet av mobbing og engstelig omsorg."
+      },
+      "case-laura": {
+        "corePain": "Traumebundet frykt, skam og ensomhet knyttet til å oppleve seg skadet og utrygg i nærhet."
+      },
+      "case-carlos": {
+        "corePain": "Ydmykelse, frykt og småhet skjult bak tøffhet som ble lært i voldelige miljøer."
+      },
+      "case-nina": {
+        "corePain": "Frykt for at egne behov eller sinne gjør henne egoistisk, uverdig og lett å forlate."
+      },
+      "case-aisha": {
+        "corePain": "Knusende frykt for å bli forlatt og ikke være elskbar, formet av fosterhjem og traumebetinget ustabilitet."
+      },
+      "case-david": {
+        "corePain": "Verdiløshet og skam skjult under statusjag og kontroll."
+      },
+      "case-marcus": {
+        "corePain": "Fastfrossen sorg, frykt, skam og skyld over å ha overlevd, skjult under nummenhet og tilbaketrekning."
+      }
+    }
+  },
+  "CASE_OVERRIDES": {
+    "en": {},
+    "no": {
+      "case-sara": {
+        "label": "Sara (Lett)",
+        "teaser": "Markedsføringsmedarbeider hvor et brudd har reaktivert gammel ensomhet og skam.",
+        "history": "Sara er 28 år og jobber i markedsføring. På jobb virker hun samlet, men privat faller hun sammen etter et brudd som vekker gammel forlatelsessmerte fra følelsesmessig distanserte foreldre.",
+        "schema": "Hvis jeg ikke er perfekt eller nødvendig, forlater folk meg – fordi jeg ikke er elskbar.",
+        "practiceEdge": "Lytt etter stille forlatelsessmerte skjult bak kontroll, unnskyldninger og selvbebreidelse.",
+        "style": "Myk, jevn tone med små, unnskyldende smil; blikket ned; svelger gråt; raske «det går bra»-avledninger; foldede hender; jevnt tempo med korte pauser.",
+        "voice": "Hei, jeg heter Sara. Jeg er vel her fordi kveldene ikke henger sammen etter bruddet. På jobb fungerer jeg - frister, møter, kaffe med kollegaer - men når jeg kommer hjem, sjekker jeg mobilen hele tiden og leser gamle meldinger om igjen. Jeg lurer på om jeg var for masete, for intens, et eller annet. Venner sier jeg burde komme meg ut, og jeg sier bare at jeg er opptatt. Jeg sover nesten ikke uten noe på øret. Det er flaut å være så satt ut, så jeg vil egentlig bare lære å slutte å spinne."
+      },
+      "case-michael": {
+        "label": "Michael (Lett)",
+        "teaser": "Teknisk leder hvor sinne beskytter en livslang frykt for ikke å være god nok.",
+        "history": "Michael er 35 år gammel mellomleder med kort lunte som belaster ekteskapet og jobben; kritikk fra andre vekker umiddelbart skammen han bar på fra en krevende, følelsesmessig fjern far.",
+        "schema": "Hvis jeg ikke har kontroll og er prikkfri, blir jeg avslørt som svak og avvist.",
+        "practiceEdge": "Følg ydmykelsen under sinnet og øyeblikket der kritikk blir til respektløshet.",
+        "style": "Fast, kort tone; volumet kan stige ved krenkende ord; stram kjeve; armene i kors; direkte blikk; skarpe utpust; lett fremoverlent.",
+        "voice": "Jeg heter Michael. Jeg må få kontroll på temperamentet. Kona sier hun går på nåler, og på jobb sier folk at jeg virker skremmende. Jeg merker det ikke der og da; noen stiller spørsmål ved en beslutning, og så går jeg rett i å rydde opp, sikkert litt for høyt. Etterpå oppfører alle seg som om jeg er problemet. Jeg vokste opp med en far som ikke hadde mye tålmodighet for unnskyldninger - man leverte, ellers fikk man høre det. Jeg vil ikke bli behandlet som en eller annen sint fyr, men jeg kan ikke fortsette med disse eksplosjonene."
+      },
+      "case-jason": {
+        "label": "Jason (Lett)",
+        "teaser": "Nyutdannet preget av sosial angst og grunnleggende skam knyttet til tilhørighet.",
+        "history": "Jason er 24 år og jobber som analytiker. Han fryser i møter og unngår invitasjoner; mobbing og engstelige foreldre gjorde ham overbevist om at han er defekt og dømt til å være alene.",
+        "schema": "Hvis folk virkelig ser meg, vil de få bekreftet at jeg er rar og uverdig.",
+        "practiceEdge": "Jobb i svært små steg; blankhet og selvutsletting er vansken, ikke motstand.",
+        "style": "Stille, nølende stemme; lange pauser; setninger som toner ut; blikket ned; fikler med hendene; lett krummet i skuldrene; stille halsrensing.",
+        "voice": "Jeg heter Jason. Det er mest møtene på jobb. Hodet blir helt blankt, jeg øver på én setning, og så rekker noen andre å si noe før meg, og da føler jeg meg dum som ventet. Jeg dropper lønningspils og sånt fordi jeg ikke vet hva jeg skal si, og jeg kan bruke en time på å skrive om en enkel melding. Jeg vet at det høres lite ut, men det tar hele dagen min. Jeg vil bare slutte å fryse fast, og kanskje slippe å grue meg til alle samtaler."
+      },
+      "case-laura": {
+        "label": "Laura (Moderat)",
+        "teaser": "Sykepleier som kjenner seg følelsesmessig nummen etter traumer og skilsmisse.",
+        "history": "Laura er 45 år, sykepleier og nylig skilt. Hun beskriver kronisk tomhet, angsttopper og en oppvekst med vold som lærte henne at nærhet er farlig og skambelagt.",
+        "schema": "Hvis jeg senker garden, blir jeg såret eller forlatt fordi det er noe grunnleggende galt med meg.",
+        "practiceEdge": "Gå sakte rundt nummenhet og mistillit; trygghetssignaler er viktigere enn emosjonell intensitet.",
+        "style": "Lav, flat tone; sakte tempo; fjernt blikk; få gester; lange utpust; en hånd mot halsen; skvetter litt og trekker seg så tilbake.",
+        "voice": "Jeg heter Laura. Jeg er her fordi jeg ikke fungerer så bra som folk tror. Jeg kan gå en tolv timers vakt og virke helt profesjonell, og så sitte i bilen utenfor hjemme fordi det føles for mye å gå inn. Enkelte lyder setter meg ut; andre ganger blir jeg bare helt blank. Jeg liker ikke å snakke om fortiden. Jeg har nok av den i hodet. Jeg vil først og fremst at panikken og det med å drikke om kveldene skal stoppe."
+      },
+      "case-carlos": {
+        "label": "Carlos (Moderat)",
+        "teaser": "Anleggsleder som skjuler ydmykelse og frykt bak raseri.",
+        "history": "Carlos er en 30 år gammel anleggsleder som går fra rolig til ødeleggende på sekunder; oppvekst med vold lærte ham at styrke betyr å aldri føle seg liten, så skam og frykt blir til eksplosivt sinne.",
+        "schema": "Hvis jeg ikke er den tøffeste i rommet, blir jeg ikke respektert og kan bli skadet.",
+        "practiceEdge": "Vis respekt for stoltheten samtidig som du lytter etter det lille, skamfulle og sårede stedet under trusselreaksjonen.",
+        "style": "Kraftig, direkte stemme i korte utbrudd; stram kjeve; brystet fram; rynkede bryn; raske håndbevegelser; snøft; kort glaning før blikket viker.",
+        "voice": "Hei, jeg heter Carlos. Folk sier hele tiden at jeg går fra null til hundre. Jeg tror ikke de skjønner hvordan det er når noen ser på deg som om du er en vits. Kona sier jeg skremmer henne, og ja, jeg slo hull i garasjeveggen forrige måned. På jobb kan jeg styre et helt lag uten problem, helt til en fyr begynner å kjekke seg. Jeg trenger ikke en preken om sinne. Jeg trenger å ikke miste familien min på grunn av det."
+      },
+      "case-nina": {
+        "label": "Nina (Moderat)",
+        "teaser": "Selvoppofrende lærer hvor depresjon skjuler udekkede behov og sinne.",
+        "history": "Nina er 40 år, lærer og mor. Hun besvimer av stress, bærer alles behov og faller i skyld hver gang hun trenger noe eller blir sint.",
+        "schema": "Hvis jeg slutter å ta vare på alle, blir jeg forlatt og stemplet som egoistisk.",
+        "practiceEdge": "Forvent at skyldfølelse kommer inn i samme øyeblikk som behov eller sinne viser seg.",
+        "style": "Varm, høflig tone; unnskyldende latter; raske «beklager» før hun uttrykker behov; overdreven nikking; smiler mens hun er opprørt; holder pusten og slipper et lite sukk; stryker hendene over klærne.",
+        "voice": "Jeg heter Nina. Jeg vet ikke engang hvordan jeg skal si dette uten å høres dramatisk ut. Jeg er utslitt hele tiden. Jeg sier ja til alt - skolen, guttene, moren min, tjenester for kollegaer - og så får jeg hodepine, glemmer ting, og noen ganger føles det som om jeg skal besvime. Hvis jeg ber om hjelp, tenker jeg med én gang at jeg burde klart mer selv. Jeg smiler videre fordi det er enklere enn å forklare. Jeg trenger en måte å ikke gå helt i oppløsning på."
+      },
+      "case-aisha": {
+        "label": "Aisha (Krevende)",
+        "teaser": "Ung kvinne med borderline-dynamikk som kjemper mot knusende forlatelsesfrykt.",
+        "history": "Aisha er 26 år og har vokst opp i fosterhjem, med selvskading og intense forhold; opplevd avstand utløser panikk, raseri og desperate forsøk på å holde folk nær.",
+        "schema": "Hvis noen trekker seg unna, betyr det at jeg ikke er elskbar, og jeg blir forlatt for alltid.",
+        "practiceEdge": "Hold deg forankret i forlatelsesskrekk, raske tilstandsskifter og sårbarhet for grenser og avslutninger.",
+        "style": "Rask, hektisk tale; stemmen skjelver; tårer nær; øynene vide og så smale; holder seg til brystet eller strekker seg ut; brå skifter fra bønnfallende til skarp; korte, raske åndedrag.",
+        "voice": "Jeg heter Aisha. Jeg vet ikke om dette kommer til å hjelpe. Folk sier alltid at de er der, og så blir de borte. Hvis noen ikke svarer på en melding, klarer jeg ikke å tenke på noe annet; jeg ringer, sender altfor mange meldinger, gjør ting jeg vet ser helt sykt ut. Kuttingen er ikke problemet sånn alle skal ha det til; det er det som stopper ting fra å bli verre. Jeg trenger at noen ikke dømmer meg eller bare sier at jeg må roe meg."
+      },
+      "case-david": {
+        "label": "David (Krevende)",
+        "teaser": "Høytpresterende leder hvor grandiositet skjuler skjør skam.",
+        "history": "David er 42 år, finansleder, med ekteskap i krise; betinget kjærlighet i oppveksten gjør at han jager perfeksjon og raser når noen peker på feil.",
+        "schema": "Hvis jeg ikke er eksepsjonell, er jeg verdiløs og blir forkastet.",
+        "practiceEdge": "Lytt under status, sikkerhet og forakt etter skam, tomhet og frykt for å være ordinær.",
+        "style": "Målt, selvsikker tone; kontrollert tempo; haken lett hevet; rolig øyekontakt; liten, hånlig latter; jevne håndbevegelser; sukk når han blir utfordret.",
+        "voice": "David. Kona mi mente jeg måtte komme. Visstnok er jeg «kald» og «umulig å snakke med». Jeg leder en avdeling med et press de fleste ikke aner noe om, så nei, jeg har ikke alltid tålmodighet til endeløse følelsesrapporter. Ordet narsissist ble kastet ut, noe jeg synes er både absurd og temmelig lat. Jeg kan innrømme at jeg blir skarp når folk er inkompetente eller illojale. Jeg vil at dette skal være praktisk, ikke enda en runde med å legge skylden på meg fordi jeg er den eneste voksne i rommet."
+      },
+      "case-marcus": {
+        "label": "Marcus (Krevende)",
+        "teaser": "Krigsveteran nummen av komplekse traumer og ensom sorg.",
+        "history": "Marcus er 34 år, veteran og vekter, bor alene, veksler mellom nummenhet og flashbacks, og har vanskelig for å stole på noen etter gjentatte svik og tap.",
+        "schema": "Å slippe folk inn garanterer smerte, så det er tryggere å ikke føle noe.",
+        "practiceEdge": "Jobb ved kanten av nummenhet, hyperårvåkenhet og ensom sorg uten å presse fram detaljer.",
+        "style": "Lavt volum; få ord; lange pauser; flat tone; blikket ned eller rastløs skanning; stram kjeve; spente skuldre; minimale gester; lett skjelv når temaet er vanskelig.",
+        "voice": "Marcus. Jeg har ikke så mye å si. Søvnen er dårlig. Jeg holder meg for meg selv. Jobben går greit fordi det er stille og jeg vet hva jeg skal gjøre. Nettene er verre. Det dukker opp minner, både fra utenlands og andre steder. Jeg vil ikke gå inn i detaljer. Folk stiller spørsmål, og så ser de annerledes på deg. Jeg er her fordi veterantjenesten maser, og fordi det å sitte alene hele natten ikke funker lenger."
+      }
+    }
+  },
+  "LANGUAGE_OVERRIDES": {
+    "en": {
+      "therapist-self-awareness": {},
+      "empathic-understanding": {},
+      "empathic-affirmation-validation": {},
+      "exploratory-questions": {},
+      "providing-treatment-rationale": {},
+      "empathic-explorations": {},
+      "empathic-evocations": {},
+      "empathic-conjectures": {},
+      "staying-in-contact-intense-affect": {},
+      "self-disclosure": {},
+      "marker-recognition-chairwork": {},
+      "alliance-repair": {}
+    },
+    "no": {
+      "therapist-self-awareness": {
+        "name": "Terapeutens selvbevissthet",
+        "description": "Legg merke til og sett ord på dine egne indre reaksjoner mens du lytter, med respekt for privatliv, grenser og tilstedeværelse.",
+        "summary": "Terapeutens selvbevissthet er en intrapersonlig EFT-ferdighet: å følge med på egen kropp, følelser, tanker, bilder og handlingsimpulser mens klienten snakker. I denne øvelsen er oppgaven ikke å finne den beste terapeutiske intervensjonen. Terapeuten lytter, legger merke til hva som skjer inni seg, og setter deretter ord på bare den delen av reaksjonen som kjennes riktig å dele i en treningssituasjon.\n\nDette bygger kapasitet til å være til stede når klienten vekker varme, redningstrang, uro, irritasjon, tiltrekning, avsky, nummenhet, defensivitet eller press om å prestere. Du øver på å skille nyttig resonans fra terapeut-sentrert materiale som bør holdes privat eller tas med til veiledning. Ferdigheten handler også om å ivareta egne grenser: selvbevissthet betyr ikke at alt du merker, skal deles.\n\nAppen beholder et forslagstekstfelt for øvingens skyld, men teksten er et eksempel på selvbevissthetsdeling, ikke en modell for hva terapeuten skal si til klienten. Et godt svar begynner ofte med «Jeg legger merke til...» eller «Jeg kjenner et drag mot...», og viser at terapeuten kan registrere aktivering uten å handle den ut eller flytte fokus bort fra klienten.",
+        "marker": "Klientmaterialet er sannsynlig å aktivere terapeuten: varme, redningstrang, uro, irritasjon, tiltrekning, avsky, frykt, defensivitet, prestasjonspress eller en trang til å gå for raskt frem. Klienten ber ikke om selvbevissthet; markøren er terapeutens egen indre reaksjon mens hen lytter.",
+        "aim": "Øke kapasiteten til å legge merke til, symbolisere og eie egne indre reaksjoner mens du fortsatt lytter til klienten. Bruk bevisstheten til å være til stede og ivareta grenser, ikke til å framføre en polert intervensjon.",
+        "practiceFocus": "Lytt, følg med på kropp, følelser, tanker, bilder og impulser, og del deretter bare en komfortabel del av din indre reaksjon.",
+        "commonMiss": "Å gjøre forslagsteksten til en polert klientintervensjon, eller å dele for mye i stedet for å ivareta privatliv og grenser."
+      },
+      "empathic-understanding": {
+        "name": "Empatisk forståelse",
+        "description": "Speil klientens indre verden med følelsesnært, presist språk slik at de kjenner seg dypt forstått og invitert til å utforske videre.",
+        "summary": "Empatisk forståelse innebærer å gi korte, presise gjentakelser som både fanger hva som skjedde og hvordan det kjennes for klienten akkurat nå. Du lytter etter den emosjonelle meningen under historien og svarer med språk som treffer følelsen, ikke bare fakta. Responsene er korte, her-og-nå-orienterte og frie for råd og tolkninger, slik at klientens opplevelse forblir i sentrum. Hovedintensjonen er å formidle forståelse – dersom opplevelsen fordypes, skjer det som en naturlig følge av å bli møtt.\n\nNår du speiler følelsene med varme og presisjon, kjenner klienten seg mindre alene og mer sett, noe som demper sekundære reaksjoner som skam og tilbaketrekning. Opplevelsen av å være forstått gjør det lettere å bli værende i og utdype de primære følelsene, i stedet for å forklare dem bort eller skifte tema.\n\nOver tid hjelper denne måten å lytte på klienten til å skille mellom lag av følelser og se mønstre i egne reaksjoner. Den styrker alliansen og skaper den tryggheten som trengs for å nærme seg kjernesmerte og udekkede behov. Empatiske gjentakelser organiserer også opplevelsen – det som før var uklart og implisitt blir tydeligere og mer håndterbart. I følelsesfokusert og annen opplevelsesorientert terapi er dette en grunnleggende måte å støtte økt bevissthet, uttrykk og endring på.",
+        "marker": "Følelser er tydelig til stede i det klienten forteller, eller historien kjennes uklar, søkende eller fragmentert og de ser ut til å trenge hjelp til å organisere den. Klienten virker «sulten» på å bli hørt, validert og presist sett i sin emosjonelle opplevelse.",
+        "aim": "Formidle presis, varm forståelse som gjør at klienten kjenner seg trygg og akseptert akkurat der de er, og som gjør det lettere å utdype følelsene uten å føle seg feil eller overdrevet.",
+        "practiceFocus": "Speil den følte meningen i klientens opplevelse med kort, presist språk som ligger tett på deres egne ord.",
+        "commonMiss": "Å legge til forklaring, forsikring eller fordypning før klienten har rukket å kjenne seg fullt forstått."
+      },
+      "empathic-affirmation-validation": {
+        "name": "Empatisk bekreftelse og validering",
+        "description": "Sett følelsene inn i en meningsfull sammenheng og si tydelig at de gir mening, slik at skam og selvangrep myknes og det blir tryggere å føle.",
+        "summary": "Empatisk bekreftelse og validering handler om å si tydelig at klientens følelser gir mening i lys av det de har opplevd. Du setter ord på de situasjonene, relasjonene eller livserfaringene som gjør en gitt følelse forståelig, og går imot indre budskap som «jeg overreagerer» eller «jeg burde ikke føle dette». Når du merker skam og selvkritikk, bekrefter du både gyldigheten i følelsen og motet det krever å vise den.\n\nPå den måten demper du sekundære, hemmende følelser som skam, skyld og forakt, som ellers lett kveler primære reaksjoner og hindrer bearbeiding. For mange som har fått følelsene sine avvist, gjort narr av eller straffet, blir ekte validering en korrigerende emosjonell erfaring – tristhet, sinne, frykt eller sårethet møtes med respekt i stedet for kritikk. Det gjør det mulig å bli værende i følelsen lenge nok til at kjernesmerte og udekkede behov kan tre tydeligere frem.\n\nValidering betyr ikke å støtte alle handlinger; du skiller mellom at følelsen er forståelig, og hvordan man velger å handle på den. Over tid hjelper konsistent bekreftelse klienten til å utvikle en mer medfølende indre stemme og mindre kronisk selvangrep, slik at også dypt skambelagte følelser kan komme frem og forandres.",
+        "marker": "Klienten uttrykker skam eller hard selvkritikk, bagatelliserer eller unnskylder følelsene sine med utsagn som «jeg burde ikke føle dette» eller «det er teit at jeg er så lei meg». De ser kanskje ned, unngår blikk eller skyver følelsene raskt vekk etter at de har vist seg.",
+        "aim": "Legitimere klientens følelsesreaksjoner i lys av livssituasjonen, slik at skam og selvangrep mister grepet og klienten kjenner mer tillatelse til å føle. Bygge emosjonell trygghet og selvmedfølelse slik at primære følelser og kjernesmerte kan nås, utforskes og etter hvert forandres.",
+        "practiceFocus": "Sett ord på hvorfor følelsen gir mening i kontekst, særlig når skam eller selvangrep er aktivt.",
+        "commonMiss": "Å validere handlinger i stedet for følelser, eller å bli så generell at du mister koblingen til klientens livssituasjon."
+      },
+      "exploratory-questions": {
+        "name": "Utforskende spørsmål",
+        "description": "Still åpne, erfaringsnære spørsmål som vender oppmerksomheten innover og utfolder det som er i ferd med å komme.",
+        "summary": "Utforskende spørsmål er enkle, åpne invitasjoner som vender klientens oppmerksomhet mot øyeblikkets kroppslige og emosjonelle opplevelse heller enn analyser og forklaringer. Du spør hva de legger merke til i kroppen, hvilken følelse som er der, eller hva som kjennes mest «i live» akkurat nå.\n\nSlik kan utydelig uro eller rent kognitiv beskrivelse gradvis ta form som mer spesifikke, primære følelser som kan navngis og bearbeides. Du unngår «hvorfor»-spørsmål som lett trekker klienten opp i hodet, og bruker heller «hva», «hvordan» og «hvor» som inviterer til sansing og beskrivelse. Dette beveger klienten fra å snakke om hendelser på avstand til å være mer til stede i egen opplevelse her og nå.\n\nUtforskende spørsmål hjelper også klienten å skille mellom sekundære reaksjoner, som irritasjon eller oppgitthet, og de mer sårbare primære følelsene under, som sårethet, frykt eller skam. Over tid støtter denne måten å spørre på en bevegelse fra diffus uro og kaos til tydeligere kjernesmerte, udekkede behov og nye meninger.",
+        "marker": "Klienten beskriver opplevelsen som uklar, blandet, forvirrende eller «bare en merkelig reaksjon», eller de blir værende i historie og analyse uten tydelig kontakt med hva de føler. Du får en fornemmelse av at det finnes en emosjonell kant som er sanset, men ennå ikke satt ord på.",
+        "aim": "Lede oppmerksomheten innover slik at implisitt, vag eller før-språklig erfaring kan krystallisere seg til mer konkrete, navngitte følelser. Støtte dypere nivåer av opplevelse og legge grunnlaget for å kunne arbeide direkte med både adaptive og maladaptive primærfølelser.",
+        "practiceFocus": "Still ett åpent, innovervendt spørsmål om gangen om kropp, følelse eller mening.",
+        "commonMiss": "Å stable spørsmål, spørre «hvorfor», eller trekke klienten opp i analyse i stedet for ned i erfaring."
+      },
+      "providing-treatment-rationale": {
+        "name": "Behandlingsrasjonale for følelsesfokusert terapi",
+        "description": "Gi en kort, empatisk forklaring på hvorfor følelsesfokusert terapi arbeider med følelser, og hvordan du leder det trygt.",
+        "summary": "Et behandlingsrasjonale hjelper klienten å forstå logikken og tryggheten i å arbeide med følelser, særlig når de er skeptiske, redde eller usikre på denne måten å jobbe på. Etter å ha møtt bekymringene deres med empati, forklarer du med hverdagslig språk hvordan følelser organiserer opplevelser, varsler behov og kan endre seg når de får bearbeides fullt ut. Du beskriver også hvordan sekundære reaksjoner og unngåelse ofte holder folk fast, mens tilgang til primære følelser og kjernesmerte åpner for varig endring.\n\nDu er tydelig på din rolle i å regulere tempo og intensitet, slik at klienten ikke blir overlatt til overveldende affekt. Rasjonalet adresserer vanlige bekymringer som «hvis jeg begynner å føle, mister jeg kontrollen» eller «å snakke om følelser hjelper ikke», og bygger samarbeid ved å ramme inn følelsesarbeid som en felles reise med et enkelt kart – fra symptomer og kaos, via kjernesmerte og udekkede behov, til nye emosjonelle responser.\n\nEt godt rasjonale øker villigheten til å delta i opplevelsesorienterte oppgaver som stolarbeid, fokuseringsøvelser eller imaginering når markører dukker opp. Når du vender kort tilbake til denne forklaringen på viktige tidspunkt, minner du klienten om hvorfor det er meningsfullt å vende tilbake til følelsene selv når det kjennes uvant eller skremmende. Over tid støtter den delte forståelsen en sterkere allianse og dypere emosjonell engasjement i arbeidet.",
+        "marker": "Klienten spør hvordan terapien virker, uttrykker skepsis eller frykt, eller nøler før en oppgave.",
+        "aim": "Gi en kort, erfaringsnær forklaring som roer uro og motstand, skaper felles retning for arbeidet og gjør det tryggere å utforske grunnleggende følelser, kjernesmerte og udekkede behov.",
+        "practiceFocus": "Forklar følelsesarbeid med enkelt språk som er direkte knyttet til akkurat denne klientens frykt, mål og behov for trygghet.",
+        "commonMiss": "Å bli abstrakt, belærende eller for teoritung i stedet for samarbeidende og personlig relevant."
+      },
+      "empathic-explorations": {
+        "name": "Empatiske utforskninger",
+        "description": "Følg og utvid forsiktig det som allerede er til stede, slik at klienten kan bli i og utdype opplevelsen.",
+        "summary": "Empatisk utforsking betyr å følge den emosjonelle kanten som er i ferd med å dukke opp hos klienten, og svare med fint avstemte gjentakelser og invitasjoner til å legge merke til litt mer. I stedet for å hoppe frem til tolkninger, råd eller løsninger, holder du deg ett lite steg bak eller ved siden av klientens egen opplevelse. Du speiler en del av det som er der, og inviterer dem til å dvele, sanse videre og utdype det de føler akkurat nå.\n\nUtforskingen beveger seg langs den stien klienten allerede har lagt ut i ordene sine, og holder seg innenfor det som er eksplisitt uttrykt fremfor å gå under eller forbi det. Det gir skjøre følelsestilstander mulighet til å styrkes og klargjøres uten å bli overveldet eller stengt ned. Dette er spesielt viktig når primære følelser og kjernesmerte begynner å vise seg, men fortsatt kjennes usikre eller blandede.\n\nVed å holde klientens tempo og møte prosessen med ærbødighet, verner du om tryggheten samtidig som kontakten med følelsene fordypes. Empatisk utforsking støtter en bevegelse fra ytre fortellinger og forklaringer til mer levende, kroppslig erfart tristhet, frykt, sinne, skam eller lengsel. Den forebygger også at dere hopper for raskt til reframing, meningstilskrivning eller løsninger, slik at kjernesmerte og udekkede behov får tre tydeligere frem og kan forandres gjennom nye emosjonelle responser.",
+        "marker": "Følelser er tydelig på vei frem, men oppleves som skjøre, tentative eller bare delvis uttrykt, og klienten virker villig, men usikker på om de tør å gå dypere. Det er en «levende kant» der små invitasjoner og gjentakelser bringer frem mer følelse og mening.",
+        "aim": "Holde og fordype kontakten med fremvoksende emosjonelt materiale slik at både adaptive og maladaptive primærfølelser kan komme fullt til uttrykk og bearbeides. Støtte en dosert, trygg utdyping av kjernesmerte og tilhørende udekkede behov, og legge grunnlaget for senere transformasjon.",
+        "practiceFocus": "Hold deg ett lite skritt bak klientens ledende kant og inviter til litt mer kontakt med det som allerede er der.",
+        "commonMiss": "Å hoppe for raskt til tolkning, intensitet eller innsikt før følelsen har fått folde seg ut."
+      },
+      "empathic-evocations": {
+        "name": "Evokativ empati",
+        "description": "Tilby levende språk og metaforer for å gjøre opplevelsen tydeligere og øke kontakten med følelsen.",
+        "summary": "Evokativ empati brukes når klienten snakker om noe følelsesmessig ladet på en flat, distansert eller innsnevret måte. Du tilbyr korte, levende bilder eller sanselige beskrivelser som ser ut til å ligne det de kjenner – for eksempel «som en tung stein i brystet» eller «som en storm rett under overflaten». Slike uttrykk snakker til kropp og høyrehjerne og bygger bro mellom tankefortelling og følt erfaring.\n\nNår de er godt avstemt, øker disse bildene aktivering og emosjonell tilstedeværelse forsiktig, uten å presse klienten ut av toleransevinduet. Intellektualiserte fortellinger kan gradvis bli mer kroppslig opplevd, og primære følelser kommer nærmere bevisstheten. Ofte blir noe som har vært implisitt tydeligere – klienten kan si «ja, akkurat sånn kjennes det», eller merke tårer, stramming eller andre kroppssignaler.\n\nEvokasjoner må forbli tentative og samarbeidsorienterte, slik at klienten beholder eierskap til betydningen. Over tid hjelper denne måten å svare på klienten til å utvikle et rikere, mer kroppsforankret språk for sitt indre liv, og styrker både emosjonell innsikt og kapasiteten til å bearbeide følelser.",
+        "marker": "Klienten forteller om smertefulle eller viktige hendelser på en flat, distansert eller svært kognitiv måte, med lite synlig affekt eller kroppsbevissthet, samtidig som du aner at følelsene ligger nær – for eksempel gjennom små stemmebrudd, pauser eller korte glimt av følelsesuttrykk. De kan si at de «sånn halvveis» kjenner noe, men ikke helt får tak i det.",
+        "aim": "Øke den emosjonelle kontakten ved å tilby levende, resonante bilder som gjør implisitte følelser mer tydelige og kroppslig erfarte. Støtte et skifte fra å beskrive på avstand til å være mer direkte i opplevelsen, slik at primære følelser og kjernesmerte kan nås og bearbeides.",
+        "practiceFocus": "Tilby levende, sanselig språk som hjelper nær-overflate-følelsen til å komme mer til live i kroppen.",
+        "commonMiss": "Å bruke språk som kjennes poetisk, importert eller mer dramatisk enn klientens faktiske opplevelse."
+      },
+      "empathic-conjectures": {
+        "name": "Empatiske antakelser",
+        "description": "Tilby forsiktige gjetninger om opplevelser som ligger nær overflaten, for å hjelpe det usagte frem.",
+        "summary": "Empatiske antakelser er tentative hypoteser om hva klienten kan føle rett under det de sier. Du lytter til stemme, ansiktsuttrykk, kropp og kontekst, og forsøker forsiktig å sette ord på mulig smerte, frykt, skam eller lengsel som ennå ikke er fullt uttalt. Du markerer tydelig at du kan ta feil – med uttrykk som «jeg lurer på om…» eller «kan det være at…» – slik at klienten står fritt til å bekrefte, justere eller avkrefte.\n\nI motsetning til empatisk utforsking, som utvider det som allerede er klart i bevisstheten, strekker antakelser seg forsiktig under eller bak det som sies for å gi foreløpige ord til det som fortsatt er uklart. Når du treffer, opplever klienten ofte lettelse og gjenkjennelse – som å bli dypt sett – og det blir lettere å eie og uttrykke egen sannhet. Det kan også hjelpe dem å gå fra sekundære forsvar som spøk, irritasjon eller vaghet til mer sårbare, primære følelser.\n\nSelv når antakelsen bommer, vil klientens korrigering som regel tydeliggjøre hva som faktisk kjennes sant og dermed bevege prosessen videre. Denne intervensjonen er særlig nyttig når klienten sirkler rundt kjernesmerte eller når viktige følelser bare slipper gjennom i bruddstykker. Brukt varsomt og med respekt kan empatiske antakelser gi raskere kontakt med spesifikke, maladaptive følelser og de udekkede behovene som ligger under, uten at terapeuten overtar meningsskapingen.",
+        "marker": "Hint om dypere følelser viser seg gjennom tonebrudd, flyktige uttrykk, unngåelse eller uavsluttede fortellinger, men klienten navngir ikke følelsene og blir ikke værende i dem. De skifter raskt tema eller glatter over når noe sårt begynner å vise seg.",
+        "aim": "Hjelpe nær-overflate, usagt emosjonell erfaring til å ta tydeligere form slik at klienten kan eie, utforske og arbeide med den. Legge til rette for overganger fra defensive eller sekundære reaksjoner til mer direkte kontakt med primærfølelser og kjernesmerte.",
+        "practiceFocus": "Gi en myk, tentativ gjetning om følelsen eller behovet som ligger rett under overflaten.",
+        "commonMiss": "Å høres sikker ut, lese tanker eller hoppe for langt utover det klienten faktisk har vist."
+      },
+      "staying-in-contact-intense-affect": {
+        "name": "Være i kontakt med intens affekt",
+        "description": "Støtt klienten i å være trygt til stede i sterk følelsesmessig aktivering slik at følelsen kan få rom, gi mening og forandres uten overveldelse.",
+        "summary": "Å være i kontakt med intens affekt handler om å hjelpe klienten å ri ut bølger av sterke følelser uten å stenge ned eller bli oversvømt utover det de tåler. Når store følelser som sorg, raseri, panikk eller skam skyter i været, senker du tempoet, hjelper klienten å jorde seg og tilbyr et stødig, empatisk nærvær. Du kan rette oppmerksomheten mot kropp, pust eller rommet, slik at én fot er i her-og-nå mens den andre er i følelsesopplevelsen.\n\nDu normaliserer intensiteten, bekrefter at følelsene gir mening, og formidler at du tåler og blir værende med dem. Samtidig titrerer du eksponeringen ved å invitere klienten til å beskrive små biter av opplevelsen, eller ta korte pauser og vende tilbake igjen, for å unngå dissosiasjon eller kollaps.\n\nDenne reguleringen gjør at maladaptive primærfølelser og kjernesmerte kan komme fullt frem og uttrykkes uten å retraumatisere. Det gir ofte en kraftig korrigerende emosjonell erfaring: klienten lærer at de kan føle dypt og likevel være trygge og i kontakt med et annet menneske. Når bølgen har roet seg, hjelper du dem å reflektere over hva følelsen sier om behov, grenser eller verdier. Over tid bygger dette kapasitet til å tåle og regulere sterke følelser også utenfor terapien.",
+        "marker": "Affekten eskalerer brått til hulking, skjelving, raseri, panikk, nummenhet eller skamkollaps, og klienten ser ut til å risikere å bli overveldet, dissosiere eller trygle om å stoppe. Pusten blir kanskje grunn, språket uorganisert eller blikket fjernt.",
+        "aim": "Gi ramme, jording og empatisk innstilling slik at intense emosjonelle tilstander kan erfares og bearbeides i stedet for å unngås eller stenges ned. Hjelpe klienten å holde seg innenfor toleransevinduet samtidig som det er nok aktivering til at kjernesmerte kan komme frem, forstås og forandres.",
+        "practiceFocus": "Jord først, dosér følelsen, og hold ett bein i rommet mens ett bein blir værende i emosjonen.",
+        "commonMiss": "Enten å la affekten oversvømme klienten eller å stenge den ned før den emosjonelle meningen får komme fram."
+      },
+      "self-disclosure": {
+        "name": "Selvavsløring",
+        "description": "Del korte, relevante glimt av din indre opplevelse på en tydelig avgrenset måte som er til for klientens prosess – ikke din egen.",
+        "summary": "Selvavsløring i opplevelsesorientert terapi innebærer å dele en kort, ekte bit av din umiddelbare indre opplevelse når det klart tjener klienten. Det kan være å sette ord på hvordan du er emosjonelt berørt, å anerkjenne hvordan klienten virker inn på deg, eller å eie en misattunering som har bidratt til et brudd i alliansen. Utsagnene holdes korte, nøkterne og uten forsvar, og formuleres slik at de støtter – ikke overskygger – klientens erfaring.\n\nBrukt til validering kan selvavsløring bekrefte at klientens smerte er reell og berører andre, og motvirke indre budskap om å være «for mye» eller «ikke troverdig». I alliansearbeid modellerer det ansvarlighet og sårbarhet: konflikten møtes med forståelse og reparasjonsvilje fremfor skyld og tilbaketrekning.\n\nSelvavsløring kan også hjelpe klienter som tviler på at noen kan bry seg virkelig, ved å gi en korrigerende erfaring av å ha emosjonell innvirkning. Noen ganger åpner det også for at klienten kan kjenne mer av sine egne primære følelser ved å legge merke til hvordan du blir berørt. Etter at du har delt, vender du raskt fokuset tilbake til klienten og inviterer deres reaksjon. Over tid kan nøktern, gjennomtenkt selvavsløring fordype tillit og modellere sunn emosjonell åpenhet og relasjonell reparasjon.",
+        "marker": "Klienten ber direkte eller indirekte om åpenhet fra terapeuten: et personlig spørsmål, et spørsmål om terapiprosessen, bekymring for din interesse eller kompetanse, en reaksjon på noe du gjorde, eller usikkerhet om omsorg, grenser eller innvirkning. Et kort, ærlig og tydelig avgrenset svar fra deg vil trolig kunne klargjøre din posisjon, styrke tillit eller validere klientens betydning før fokuset vendes tilbake til klienten.",
+        "aim": "Bruke kort, nøye valgt åpenhet til å styrke den terapeutiske relasjonen, validere klientens emosjonelle virkelighet eller reparere misattuneringer. Modellere kongruent følelsesuttrykk samtidig som klientens opplevelse forblir sentrum i arbeidet.",
+        "practiceFocus": "Del bare en kort, umiddelbar bit av din indre respons som tydelig tjener klientens prosess, og vend så raskt tilbake til klienten.",
+        "commonMiss": "Å gli over i biografi, forsikring eller terapeut-sentrert prat som gjør øyeblikket mindre om klienten."
+      },
+      "marker-recognition-chairwork": {
+        "name": "Gjenkjenne markører og sette opp stolarbeid",
+        "description": "Gjenkjenn markører for selvkritiske og selvavbrytende splits, samt uferdig arbeid, og sett deretter opp målrettet to-stols- eller tom-stol-arbeid på en trygg måte.",
+        "summary": "I denne øvelsen betyr markørgjenkjenning å høre tre bestemte typer oppgavemarkører: en selvkritisk eller selv-evaluerende split, en selvavbrytende split, eller uferdig arbeid med en betydningsfull annen. Når en av disse markørene viser seg, setter du ord på den kort og gir en enkel, opplevelsesnær begrunnelse for hvorfor en to-stols-dialog (ved kritiker- eller avbryter-splits) eller en tom-stol-dialog (ved uferdig arbeid) kan være hjelpsom.\n\nDeretter setter du opp oppgaven konkret: plasserer stolene, avklarer hvem eller hva hver stol representerer, og gir enkle førsteinstruksjoner, som å la kritikeren si noen få direkte linjer eller å se den andre for seg i stolen og fortelle hva det kostet. Du følger med på beredskap, tempo og aktivering, slik at oppgaven oppleves samarbeidsbasert og ikke presset fram.\n\nPå dette stadiet er målet ikke å fullføre hele oppgaven, men å starte den tydelig nok til at den relevante emosjonelle prosessen blir levende og organisert. Et godt oppsett hjelper klienten til å eie hvordan de kritiserer eller avbryter seg selv, eller til å begynne å henvende seg til uløst smerte knyttet til en annen person. Etter de første replikkene holder du strukturen klar, det emosjonelle fokuset spesifikt, og klienten godt nok jordet til å kunne fortsette.",
+        "marker": "Markører inkluderer gjentatte selvangrep eller bekymringsspiraler som fungerer som en indre kritiker, tydelige tegn på at klienten stopper eller blokkerer egne følelser eller uttrykk, og emosjonelt ladet, uferdig arbeid med en betydningsfull annen. Klienten er nok involvert til å kunne prøve en kort to-stols- eller tom-stol-enactment.",
+        "aim": "Sette opp riktig stoloppgave på riktig tidspunkt, slik at den sentrale emosjonelle prosessen blir tydelig, organisert og mulig å arbeide med. Hjelpe klienten inn i kontakt med kjernesmerte, udekkede behov eller selvavbrytelse på en strukturert måte som senere kan utdypes til mer gjennomgripende emosjonell endring.",
+        "practiceFocus": "Navngi markøren, gi en kort begrunnelse, sett opp stolene konkret, og hold første runde enkel og tydelig.",
+        "commonMiss": "Å sette i gang stolarbeid uten tydelig beredskap, en klar markør eller spesifikke nok instrukser."
+      },
+      "alliance-repair": {
+        "name": "Reparasjon av alliansen",
+        "description": "Legg merke til og adresser brudd i alliansen med empati, ansvarlighet og samarbeid for å gjenopprette trygghet og tillit.",
+        "summary": "Reparasjon av alliansen handler om øyeblikk der klienten føler seg misforstått, såret, avfeid eller distansert fra deg. Du legger først merke til og setter ord på mulige bruddsignaler – som tilbaketrekning, irritasjon, sarkasme, uteblitte timer eller en markert endring i tone.\n\nDeretter inviterer du klienten til å fortelle hvordan de opplever deg og terapien, uten at du går i forsvar. Du gjør det tydelig at følelsene deres om både prosessen og terapeuten er velkomne. Du lytter åpent, validerer virkningen på dem og, der det er passende, anerkjenner din egen del eller en misattunering. Det kan innebære å beklage, justere rammen eller klargjøre intensjoner – alltid med klientens emosjonelle realitet som midtpunkt.\n\nNår du går inn i dette arbeidet, gir du en korrigerende emosjonell erfaring: konflikt og skuffelse møtes med forståelse, ansvarlighet og fortsatt kontakt, ikke med skyldlegging eller avvisning. Ofte berører dette klientens tilknytningssår og udekkede behov for å bli hørt, tatt på alvor og ikke få skylden for relasjonell uro. Når klienten kjenner seg gjenforstått og gjenknyttet, mykner som regel sekundær irritasjon eller tilbaketrekning, og mer sårbar primærfølelse kan komme frem igjen. Reparasjon gjenoppretter det trygge utgangspunktet som trengs for å våge seg tilbake til kjernesmerte og dypt emosjonelt arbeid, og modellerer sunn konflikthåndtering som klienten kan ta med seg inn i andre relasjoner.",
+        "marker": "Klienten viser tegn til avstand, irritasjon eller mistillit mot deg – for eksempel «du forstår meg ikke», kjølighet, økt gardering eller at de uteblir fra timer – eller du merker en tydelig endring i stemning etter en intervensjon som ikke traff. De kan gi direkte eller indirekte klager på terapien eller på deg som terapeut.",
+        "aim": "Gjenopprette trygghet, tillit og samarbeid ved å ta imot bruddsignaler med empati, validere klientens reaksjoner og eie din del der det er relevant. Fjerne hindringer i relasjonen slik at klienten igjen kan våge seg inn i sårbare primærfølelser og kjernesmerte innenfor en trygg, terapeutisk ramme.",
+        "practiceFocus": "Ta imot virkningen på klienten, valider den, ei din del, og spør hva som ville hjelpe nå.",
+        "commonMiss": "Å forklare intensjonen din for tidlig, gå i forsvar eller hoppe tilbake til teknikk før reparasjonen har landet."
+      }
+    }
+  },
+  "skills": {
+    "therapist-self-awareness": {
+      "name": "Therapist Self-Awareness",
+      "description": "Notice and name your own internal reactions while listening, protecting privacy and staying present rather than performing an intervention.",
+      "summary": "Therapist self-awareness is an intrapersonal EFT practice: tracking your own body, emotions, thoughts, images, and action impulses while the client is speaking. In this exercise, the task is not to find the best clinical intervention. The trainee listens, notices what is happening inside, and then names only the part of that reaction they feel comfortable sharing in a training setting.\n\nThis builds the capacity to stay present when the client evokes warmth, urgency to rescue, anxiety, irritation, attraction, disgust, numbness, defensiveness, or pressure to perform. You learn to distinguish useful resonance from therapist-centered material that should stay private or be taken to supervision. The skill includes respecting your own boundaries: self-awareness does not require disclosing everything you notice.\n\nThe app keeps a suggested response for practice purposes, but it is a sample self-awareness disclosure rather than a model client-facing intervention. A good response sounds like, \"I notice...\" or \"I feel a pull to...\" and shows that the therapist can monitor activation without acting it out or shifting the work away from the client.",
+      "marker": "The client material is likely to activate the therapist: warmth, rescue, anxiety, irritation, attraction, disgust, fear, defensiveness, pressure to perform, or a pull to move too quickly. The client does not ask for self-awareness; the marker is the therapist's own internal reaction while listening.",
+      "aim": "Increase the capacity to notice, symbolize, and own internal reactions while still listening to the client. Use that awareness to stay present and bounded, not to perform a polished intervention.",
+      "practiceFocus": "Listen, track your body, feelings, thoughts, images, and urges, then disclose only a comfortable slice of your internal reaction.",
+      "commonMiss": "Turning the suggestion into a polished client intervention, or disclosing too much instead of protecting privacy and boundaries."
+    },
+    "empathic-understanding": {
+      "name": "Empathic Understanding",
+      "description": "Mirror the client’s inner world with feeling-rich, accurate reflections so they feel deeply understood and invited to go further.",
+      "summary": "Empathic understanding involves offering concise reflections that capture both what happened and how it feels for the client right now. You listen for the emotional meaning beneath the story and respond in language that resonates with the client’s felt experience, not just the facts. You keep your responses short, present-focused, and free of advice or interpretation so the client’s experience stays central. The primary intention here is to convey understanding rather than to actively deepen or change the client’s emotional state; if the client’s experience deepens, it is a natural consequence of feeling understood.\n\nBy mirroring their emotions with warmth and precision, you help them feel seen and less alone, which lowers defensive secondary emotions like shame or guardedness. This sense of being understood encourages clients to linger in and elaborate their primary emotions instead of avoiding or explaining them away.\n\nOver time, empathic understanding helps clients differentiate layers of feeling and recognize patterns in their emotional responses. It strengthens the therapeutic alliance and creates the safety needed to access core pain and unmet needs. Empathic reflections also gently organize the client’s experience, making implicit emotional meanings more explicit and workable. In emotion-focused, experiential work, this is a foundational way of supporting awareness, expression, and transformation of emotion.",
+      "marker": "Emotion is present in the client’s narrative, or their story feels unclear, searching, or fragmented and they seem to need help organizing it. The client appears hungry to feel heard, validated, and accurately seen in their emotional experience.",
+      "aim": "Convey precise, compassionate understanding so the client feels safe and accepted in exactly where they are. Keep the focus on accurate mirroring rather than on actively deepening emotion, while allowing any spontaneous deepening of experience that may naturally arise from feeling understood.",
+      "practiceFocus": "Mirror the client’s felt meaning in concise, accurate language that stays close to their words.",
+      "commonMiss": "Adding explanation, reassurance, or deepening before the client fully feels understood."
+    },
+    "empathic-affirmation-validation": {
+      "name": "Empathic Affirmation and Validation",
+      "description": "Contextualize and legitimize the client’s feelings so shame and self-attack soften and emotional safety to feel grows.",
+      "summary": "Empathic affirmation and validation explicitly state that the client’s emotions make sense in light of what they have lived through. You name the situational or developmental context that makes a given feeling understandable, countering internal messages like 'I’m overreacting' or 'I shouldn’t feel this way.' You respond to signs of shame and self-criticism by affirming both the legitimacy of the emotion and the courage it takes to share it.\n\nThis reduces secondary inhibitory feelings like shame, guilt, and contempt that often suppress primary emotion and block processing. Validation also serves as a corrective emotional experience for clients who historically had their feelings dismissed, mocked, or punished. When done well, it invites clients to stay with their sadness, anger, fear, or hurt long enough for the underlying core pain and unmet need to emerge.\n\nAffirmation does not mean endorsing all behaviors; it separates the validity of the emotion from the question of how to act on it. Over time, consistent validation helps clients internalize a more compassionate stance toward their own inner world, reducing chronic self-attack. This creates a safer inner space for primary maladaptive emotions, such as shame and worthlessness, to be accessed and transformed.",
+      "marker": "The client shows shame, self-criticism, minimization, or apologizes for their feelings with phrases like 'I shouldn’t feel this way' or 'It’s stupid that I’m so upset.' They may look down, avert gaze, or quickly try to push feelings away after they arise.",
+      "aim": "Legitimize the client’s emotional responses in context so shame and self-attack loosen their grip and the client feels permission to feel. Strengthen emotional safety and self-compassion so primary emotions and core pain can be more fully accessed, explored, and transformed.",
+      "practiceFocus": "Name why the feeling makes sense in context, especially where shame or self-attack appears.",
+      "commonMiss": "Validating behavior instead of emotion, or sounding generic instead of linking the feeling to the client’s history or situation."
+    },
+    "exploratory-questions": {
+      "name": "Exploratory Questions",
+      "description": "Ask open, experiential questions that turn clients inward and help vague or mixed feelings take clearer emotional form.",
+      "summary": "Exploratory questions are simple, open-ended prompts that direct the client’s attention toward their immediate felt sense rather than toward analysis or explanation. You ask about what they notice in their body, what emotion seems to be there, or what feels most emotionally alive right now.\n\nThese questions help transform undifferentiated distress or cognitive description into more specific primary feelings that can be named and processed. You avoid 'why' questions that pull the client into intellectualization and instead ask 'how,' 'what,' or 'where' questions that invite them to sense and describe. This process moves clients up the levels of experiencing, from talking about events at a distance to inhabiting their emotional experience in the present moment. It also helps them distinguish between secondary reactions (e.g., irritability) and the more vulnerable primary emotions underneath (e.g., hurt, fear, shame).\n\nBy unfolding the leading edge of experience at a tolerable pace, exploratory questions support the CAMS sequence from global distress toward specific core emotions and eventually to unmet needs and new meanings. Over time, clients become more skilled at turning inward and tracking their own emotional shifts, which strengthens emotional literacy and self-awareness.",
+      "marker": "The client describes their experience as fuzzy, mixed, confusing, or 'just a weird reaction,' or they seem stuck in story and analysis without clear access to what they feel. There is a sensed but not-yet-articulated emotional edge that wants help to take shape.",
+      "aim": "Guide attention inward so implicit, vague, or pre-verbal experience can crystallize into specific, nameable emotions. Facilitate deeper levels of experiencing and pave the way for accessing primary adaptive or maladaptive emotions that can be processed and transformed.",
+      "practiceFocus": "Ask one open, inward-turning question at a time about body, feeling, or meaning.",
+      "commonMiss": "Stacking questions, asking 'why,' or pulling the client into analysis instead of experience."
+    },
+    "providing-treatment-rationale": {
+      "name": "Providing Treatment Rationale for Emotion-Focused Therapy",
+      "description": "Offer a clear, empathic explanation of why EFT works with emotion and how you will guide it safely, to reduce anxiety and resistance.",
+      "summary": "Providing a treatment rationale helps clients understand the logic and safety of focusing on emotion, especially when they feel skeptical, frightened, or confused about this way of working. After joining empathically with their concerns, you explain in everyday language how emotions organize experience, signal needs, and can transform when fully processed. You describe that secondary reactions and avoidance often keep people stuck, whereas accessing and working through primary emotions and core pain can lead to lasting change.\n\nYou also clarify your role in pacing and regulating the work so the client does not feel abandoned to overwhelming affect. This rationale directly addresses common secondary fears such as 'If I start feeling, I’ll lose control' or 'Talking about feelings won’t help.' It builds collaboration by framing emotion-focused, experiential work as a shared journey with a map (e.g., moving from distress, to core pain, to unmet needs and new emotional responses).\n\nA good rationale can increase the client’s willingness to engage in experiential tasks such as chair work, focusing, or imagery when markers appear. When revisited briefly at key points, it reminds the client why returning to emotion is important even when it feels risky or unfamiliar. Over time, this shared understanding supports a stronger alliance and deeper emotional engagement in the work.",
+      "marker": "Clients ask how therapy works, question the value of focusing on feelings, voice fears about being overwhelmed, or hesitate before experiential tasks. They may look puzzled, skeptical, or disconnected when you invite attention to emotion or the body.",
+      "aim": "Reduce anxiety, confusion, and resistance by giving a concise, empathic rationale that frames emotion work as meaningful, safe, and goal-directed. Align client and therapist around the purpose of emotion-focused, experiential work so clients feel more willing to explore primary emotions, core pain, and unmet needs.",
+      "practiceFocus": "Explain emotion work in plain language that connects directly to this client’s fear, goals, and safety needs.",
+      "commonMiss": "Sounding abstract, preachy, or theory-heavy rather than collaborative and personally relevant."
+    },
+    "empathic-explorations": {
+      "name": "Empathic Explorations",
+      "description": "Stay with and gently deepen the client’s leading edge of emotion so it can unfold into fuller primary experience and meaning.",
+      "summary": "Empathic exploration means tracking the emerging emotional edge in the client and following it with finely tuned reflections and invitations to notice more. Instead of jumping ahead to interpretation, advice, or solutions, you stay just one small step behind or beside the client’s experience. You reflect a part of what is present, then invite them to linger, sense further, and elaborate what they are feeling right now.\n\nEmpathic exploration moves forward along the path of what the client has already expressed, staying within their explicitly stated experience rather than reaching underneath it. This allows fragile emotional states to strengthen and clarify without being overwhelmed or shut down. It is especially important when primary emotions and core pain are beginning to surface but are still tentative or mixed.\n\nBy moving at the client’s pace and showing reverence for their unfolding process, you preserve safety while encouraging deeper contact. Empathic exploration thus supports movement from surface-level stories into vivid, embodied experience of sadness, fear, anger, shame, or longing. It also prevents bypassing key stages in the CAMS sequence by not leaping too quickly to reframe, meaning-making, or solutions.\n\nOver time, this gentle, sustained contact with emerging emotion allows maladaptive schemes to be fully activated and then transformed through new emotional responses. The client learns experientially that they can stay with painful feelings and discover something new and healing inside them.",
+      "marker": "Emotion is clearly emerging but feels delicate, tentative, or only partially expressed, and the client seems willing but uncertain about going deeper. There is a 'live edge' where slight prompting and reflection leads to more feeling and meaning.",
+      "aim": "Sustain and deepen contact with emerging emotional material so primary adaptive or maladaptive emotions can fully surface and be worked with. Support a paced, safe unfolding of core pain and associated unmet needs, setting the stage for later transformation.",
+      "practiceFocus": "Stay one small step behind the client’s leading edge and invite a little more contact with what is already there.",
+      "commonMiss": "Jumping ahead with interpretation, intensity, or insight before the feeling has had room to unfold."
+    },
+    "empathic-evocations": {
+      "name": "Empathic Evocations",
+      "description": "Use vivid, sensory-rich language or metaphor to help near-surface feelings come alive and be more fully contacted.",
+      "summary": "Empathic evocation is used when a client talks about something emotionally charged in a flat, distant, or constricted way. You offer brief, vivid images or sensory descriptions that resonate with what you intuit they are feeling, such as 'a heavy weight on your chest' or 'like a storm just under the surface.' This figurative language speaks to the right brain and body, bridging the gap between cognitive narrative and felt emotion. When attuned well, it gently increases emotional arousal and engagement without pushing the client outside their window of tolerance.\n\nEvocations can help transform intellectualized accounts into embodied experience, bringing primary emotions closer to awareness. They often reveal or crystallize what has been implicit, leading clients to say, 'Yes, it does feel like that,' or to notice tears, tightness, or other sensations. This can shift the level of experiencing from descriptive to more experiential, allowing core pain and unmet needs to be contacted.\n\nEmpathic evocations must remain tentative and collaborative, inviting confirmation or correction so the client remains in charge of the meaning. Over time, these evocative reflections help clients develop their own richer, more embodied language for their inner world, enhancing their emotional literacy and processing capacity.",
+      "marker": "The client describes painful or important events in a flat, detached, or overly cognitive way, with little affect or body awareness, yet there are signs that feelings are close (e.g., subtle cracks in tone or brief pauses). They may say they 'sort of' feel something but cannot quite access it.",
+      "aim": "Heighten emotional contact by offering vivid, resonant language that helps implicit feelings become explicit and embodied. Support a shift from distant narration to active experiencing so primary emotion and core pain can be more fully accessed and processed.",
+      "practiceFocus": "Offer vivid, sensory language that helps near-surface feeling come alive in the body.",
+      "commonMiss": "Using language that feels poetic, imported, or too dramatic for the client’s actual experience."
+    },
+    "empathic-conjectures": {
+      "name": "Empathic Conjectures",
+      "description": "Offer soft, tentative guesses about near-surface feelings so unspoken primary experience can take form and be owned.",
+      "summary": "Empathic conjectures are gentle hypotheses about what the client may be feeling just beneath what they are saying. You draw on tone, facial expression, body language, and context to tentatively name a possible hurt, fear, shame, or longing that the client has not yet put into words. You frame your guess with clear tentativeness, using phrases like 'I wonder if' or 'Could it be that,' so the client feels free to confirm, modify, or reject it.\n\nUnlike empathic exploration, which extends what is already clearly in awareness, empathic conjecture gently reaches underneath or behind current experience to give tentative words to what is not yet fully in focus. When accurate, a conjecture often brings a sense of relief and recognition as the client feels deeply seen and finally able to articulate their inner truth. It can help them move from secondary defenses (joking, irritation, vagueness) to more vulnerable primary emotions.\n\nEven if the conjecture is off, the client’s correction usually clarifies the true feeling and advances the process. This intervention is especially useful when clients skirt around core pain or when important emotions leak through in half-finished sentences or micro-expressions. Empathic conjectures can accelerate the CAMS sequence by helping the client contact specific maladaptive emotions and underlying unmet needs sooner.\n\nUsed sparingly and respectfully, they demonstrate the therapist’s active attunement without taking over the client’s meaning-making.",
+      "marker": "Hints of deeper emotion appear through tonal cracks, fleeting expressions, avoidance, or unfinished narratives, but the client does not explicitly name or dwell in those feelings. They may quickly move away when something tender starts to surface.",
+      "aim": "Help near-surface, unspoken emotional experience take clearer shape so clients can own, explore, and work with it. Facilitate transitions from defensive or secondary reactions to more direct contact with primary emotions and core pain.",
+      "practiceFocus": "Make a soft, tentative guess about the unspoken feeling or need just beneath the surface.",
+      "commonMiss": "Sounding certain, mind-reading, or leaping too far beyond what the client has shown."
+    },
+    "staying-in-contact-intense-affect": {
+      "name": "Staying in Contact with Intense Affect",
+      "description": "Support clients in remaining safely present with powerful emotion so it can move, make sense, and transform without overwhelm.",
+      "summary": "Staying in contact with intense affect is the skill of helping clients ride waves of strong emotion without shutting down or being flooded beyond their capacity. When big feelings such as grief, rage, panic, or shame spike, you slow the pace, ground the client, and offer steady, empathic presence. You may direct attention to the body, the breath, or the room to keep one foot in the here-and-now while the other foot remains in the emotional experience.\n\nYou normalize the intensity, validate how much sense it makes, and reassure the client that you are with them and not afraid of their feelings. You also titrate exposure by inviting the client to describe small pieces of the experience in words, or by briefly stepping back and then returning, to avoid dissociation or collapse.\n\nThis regulation allows primary maladaptive emotions and core pain to be fully contacted and expressed without retraumatization. It creates a powerful corrective emotional experience: the client learns that they can feel deeply and still stay safe and connected to another person.\n\nOnce the emotional wave softens, you help them reflect on what the feeling says about their needs, boundaries, or values. Over time, this builds the client’s capacity to tolerate and regulate their own intense emotions outside therapy as well.",
+      "marker": "Affect suddenly escalates into sobbing, shaking, rage, panic, numbness, or shame collapse, and the client seems at risk of being overwhelmed, dissociating, or pleading to stop. Their breathing may become shallow, their speech disorganized, or their gaze distant.",
+      "aim": "Provide containment, grounding, and empathic attunement so intense emotional states can be experienced and processed rather than avoided or shut down. Maintain the client within their window of tolerance while allowing enough activation for core pain to emerge, make sense, and transform.",
+      "practiceFocus": "Ground first, titrate the feeling, and keep one foot in the room while one foot stays with the emotion.",
+      "commonMiss": "Either letting affect flood the client or shutting it down before the emotional meaning can emerge."
+    },
+    "self-disclosure": {
+      "name": "Self-Disclosure",
+      "description": "Share brief, relevant pieces of your inner experience in a boundaried way that serves the client’s process, not your own.",
+      "summary": "Self-disclosure in emotion-focused, experiential therapy involves selectively sharing a short, genuine aspect of your immediate inner experience when it clearly benefits the client. This might include revealing your emotional resonance (e.g., feeling sadness or admiration), acknowledging your impact on the client, or owning a misattunement that contributed to a rupture. The disclosure is kept concise, non-defensive, and carefully phrased so that it supports, rather than shifts focus away from, the client’s experience.\n\nWhen used to validate, it can reassure clients that their pain is real and moving, countering internalized messages that they are 'too much' or 'not believable.' When used in alliance repair, it models accountability and vulnerability, demonstrating that relational conflict can be met with understanding rather than blame. Self-disclosure can also help clients who doubt that anyone can really care or be affected by them, offering a corrective emotional experience of impact and connection.\n\nIt sometimes helps clients access their own primary feelings by noticing how the therapist is touched by their story. After disclosing, you promptly return focus to the client, inviting their reaction and continuing to center their process. Over time, judicious self-disclosure can deepen trust and model healthy emotional transparency and relational repair.",
+      "marker": "The client directly or indirectly asks for therapist transparency: a personal or process question, concern about your interest or competence, a reaction to your behavior, or uncertainty about your care, boundaries, or impact. A brief, honest, well-boundaried response would likely clarify your stance, strengthen trust, or validate their importance before returning focus to the client.",
+      "aim": "Use brief, carefully chosen transparency to strengthen the therapeutic bond, validate the client’s emotional reality, or repair misattunements. Model congruent emotional expression while keeping the client’s experience at the center of the work.",
+      "practiceFocus": "Share only a brief, immediate piece of your inner response that clearly serves the client’s process, then return focus.",
+      "commonMiss": "Slipping into biography, reassurance, or therapist-centered talk that makes the moment less about the client."
+    },
+    "marker-recognition-chairwork": {
+      "name": "Marker Recognition & Chair-Work Task Setup",
+      "description": "Identify self-critical, self-interruptive, and unfinished-business markers, then collaboratively set up focused two-chair or empty-chair work.",
+      "summary": "Marker recognition in this exercise means hearing three specific task markers: a self-evaluative or self-critical split, a self-interruptive split, or unfinished business with a significant other. When one of these markers appears, you name it briefly and offer a short experiential rationale for why a two-chair dialogue (for critic or interrupter splits) or an empty-chair dialogue (for unfinished business) might help.\n\nYou then set the task up concretely: place the chairs, specify who or what each chair represents, and give simple first-turn instructions such as letting the critic speak in a few direct lines or imagining the other person in the chair and telling them what it cost. You monitor readiness, pacing, and arousal so the task stays collaborative rather than pushed.\n\nAt this stage, the goal is not to complete the whole task but to launch it clearly enough that the relevant emotional process becomes vivid and organized. A good setup helps clients take ownership of how they criticize or interrupt themselves, or begin to address unresolved pain with another person. After the first exchange, you keep the structure clear, the emotional focus specific, and the client grounded enough to continue.",
+      "marker": "Markers include repetitive self-attack or worry that functions like an inner critic, clear signs of shutting down or blocking one’s own feeling or expression, and unresolved, emotionally charged unfinished business with a significant other. The client is engaged enough to try a brief two-chair or empty-chair enactment.",
+      "aim": "Set up the right chair task at the right moment so the key emotional process becomes vivid, organized, and workable. Help clients begin contacting core pain, unmet need, or self-interruption in a structured way that can later deepen into fuller emotional change.",
+      "practiceFocus": "Name the marker, give a brief rationale, set up the chairs concretely, and keep the first turn simple.",
+      "commonMiss": "Launching chair work without clear readiness, a clear marker, or specific enough instructions."
+    },
+    "alliance-repair": {
+      "name": "Alliance Repair",
+      "description": "Recognize and address ruptures with empathy, ownership, and collaboration to restore safety and trust in the relationship.",
+      "summary": "Alliance repair focuses on moments when the client feels misunderstood, hurt, dismissed, or disconnected from you. You first notice and name possible rupture cues, such as withdrawal, irritation, sarcasm, missed sessions, or a sudden change in tone. You then invite the client to share their experience of you without defending yourself, making it clear that their feelings about the therapy and therapist are welcome.\n\nYou listen openly, validate the impact on them, and where appropriate, acknowledge your contribution or misattunement. This can involve apologizing or clarifying intentions in a way that centers the client’s emotional reality. By engaging in this process, you provide a corrective emotional experience: conflict or disappointment is met with understanding, accountability, and continued connection rather than blame or abandonment.\n\nAlliance repair often intersects with the client’s attachment wounds and unmet needs for being heard, taken seriously, or not blamed for relational tension. When the client feels re-understood and reconnected, their secondary anger or withdrawal usually softens, and their primary vulnerability can re-emerge. Repair restores the secure base needed for clients to risk going back into core pain and deep emotional work. It also models healthy relational repair, which they can internalize and bring into their relationships outside therapy.",
+      "marker": "The client shows signs of disconnection, irritation, or mistrust toward you, such as 'You don’t get me,' coolness, guardedness, or avoidance of sessions, or you sense a shift in the atmosphere after a misattuned intervention. They may offer direct or indirect complaints about the therapy or about you.",
+      "aim": "Re-establish safety, trust, and collaboration by openly receiving rupture feedback, validating the client’s feelings, and owning your part where relevant. Clear obstacles in the relationship so the client can again engage vulnerably with their primary emotions and core pain in a secure therapeutic context.",
+      "practiceFocus": "Receive the client’s impact, validate it, own your part, and ask what would help now.",
+      "commonMiss": "Explaining your intention too soon, defending yourself, or moving back to technique before repair lands."
+    }
+  },
+  "cases": {
+    "case-sara": {
+      "id": "case-sara",
+      "label": "Sara (Easy)",
+      "difficulty": "easy",
+      "difficultyLabel": "Easy",
+      "tier": "free",
+      "teaser": "Marketing associate whose breakup reactivated old loneliness and shame.",
+      "history": "Sara is a 28-year-old junior marketing professional who appears composed at work while privately spiraling after a breakup that reignites childhood abandonment pain from emotionally distant parents.",
+      "schema": "If I am not perfect or needed, people leave because I am unlovable.",
+      "corePain": "Shame-laced loneliness and fear of abandonment rooted in emotional distance from caregivers.",
+      "practiceEdge": "Listen for quiet abandonment pain hidden beneath composure, apology, and self-blame.",
+      "style": "Soft, even tone with small apologetic smiles; glance down; swallow tears; quick 'I'm fine' deflections; hands clasped; steady pace with short pauses.",
+      "voice": "Hi, I'm Sara. I guess I'm here because since the breakup I can't keep my evenings together. At work I'm fine - deadlines, meetings, coffee with the team - but when I get home I keep checking my phone and reading old messages. I wonder if I was too needy, too intense, something like that. Friends say I should get back out there, and I just tell them I'm busy. I barely sleep unless something is playing in my ears. It's embarrassing to be this affected, so I mostly want help to stop spiraling."
+    },
+    "case-michael": {
+      "id": "case-michael",
+      "label": "Michael (Easy)",
+      "difficulty": "easy",
+      "difficultyLabel": "Easy",
+      "tier": "free",
+      "teaser": "Tech manager whose anger protects a lifelong fear of inadequacy.",
+      "history": "Michael is a 35-year-old middle manager whose quick temper is straining his marriage and work relationships; criticism from others instantly revives the shame he carried growing up with a demanding, emotionally distant father.",
+      "schema": "If I am not in control and impeccable, I will be exposed as weak and rejected.",
+      "corePain": "Humiliation, inadequacy, and fear of exposure linked to a critical father and conditional worth.",
+      "practiceEdge": "Track humiliation under anger and the instant he reads criticism as disrespect.",
+      "style": "Firm, clipped voice; volume can rise on offense words; jaw tight; arms crossed; direct eye contact; sharp exhales; slight forward lean.",
+      "voice": "I'm Michael. I need to get a handle on my temper. My wife says she walks on eggshells, and at work people say I can be intimidating. I don't see it in the moment; somebody questions a decision and I go straight into fixing it, probably too loud. Then everyone acts like I'm the problem. I grew up with a father who didn't have much patience for excuses - you performed, or you heard about it. I don't want to be treated like some angry guy, but I also can't keep having these blowups."
+    },
+    "case-jason": {
+      "id": "case-jason",
+      "label": "Jason (Easy)",
+      "difficulty": "easy",
+      "difficultyLabel": "Easy",
+      "tier": "free",
+      "teaser": "Recent grad gripped by social anxiety and core shame about belonging.",
+      "history": "Jason is a 24-year-old analyst who freezes in meetings and avoids social invitations; bullying and anxious caregiving in childhood left him convinced he is defective and destined to be alone.",
+      "schema": "If people really see me, they will confirm I am awkward and unworthy.",
+      "corePain": "Defectiveness, awkwardness, and fear of exposure learned through bullying and anxious caregiving.",
+      "practiceEdge": "Work in tiny steps; blankness and self-erasure are the difficulty, not resistance.",
+      "style": "Quiet, hesitant voice; long pauses; sentences trail off; eyes down; fidgeting hands; shoulders slightly hunched; soft throat-clears.",
+      "voice": "I'm Jason. Work meetings are the main thing. My mind goes blank, I rehearse one sentence, then someone else talks and I feel stupid for waiting. I avoid drinks after work because I never know what to say, and I can spend an hour rewriting a simple message. I know it sounds small, but it eats up my whole day. I just want to stop freezing and maybe not dread every interaction."
+    },
+    "case-laura": {
+      "id": "case-laura",
+      "label": "Laura (Moderate)",
+      "difficulty": "moderate",
+      "difficultyLabel": "Moderate",
+      "tier": "pro",
+      "teaser": "Nurse living behind emotional numbness after childhood trauma and divorce.",
+      "history": "Laura is a 45-year-old nurse and recent divorcee who presents with chronic emptiness, panic flashes, and a history of childhood abuse that taught her intimacy equals danger and shame.",
+      "schema": "If I let my guard down, I will be hurt or abandoned because I am damaged.",
+      "corePain": "Trauma-linked fear, shame, and loneliness around being damaged and unsafe in closeness.",
+      "practiceEdge": "Go slowly around numbness and mistrust; safety cues matter more than emotional intensity.",
+      "style": "Low, flat tone; slow pace; gaze into middle distance; minimal gestures; long exhales; occasional hand to throat; small startle then withdraw.",
+      "voice": "My name's Laura. I'm here because I'm not functioning as well as people think. I can do a twelve-hour shift and look completely competent, then come home and sit in the car because going inside feels like too much. Some sounds set me off; other times I just go blank. I don't like talking about the past. I've done enough of that in my head. Mostly I want the panic and the drinking-at-night thing to stop."
+    },
+    "case-carlos": {
+      "id": "case-carlos",
+      "label": "Carlos (Moderate)",
+      "difficulty": "moderate",
+      "difficultyLabel": "Moderate",
+      "tier": "pro",
+      "teaser": "Construction supervisor whose rage masks humiliation and fear.",
+      "history": "Carlos is a 30-year-old construction supervisor who goes from calm to destructive in seconds; growing up with violence taught him strength means never feeling small, so shame and fear surface as explosive anger.",
+      "schema": "If I am not the toughest in the room, I will be disrespected and hurt.",
+      "corePain": "Humiliation, fear, and smallness covered by toughness learned in violent environments.",
+      "practiceEdge": "Respect pride while listening for the small, ashamed, hurt place beneath the threat response.",
+      "style": "Strong, direct voice in quick bursts; jaw clenched; chest forward; brows knit; quick hand chops; nasal sighs; brief glare then look away.",
+      "voice": "Hey, I'm Carlos. People keep telling me I go from zero to a hundred. I don't think they get what it's like when somebody looks at you like you're a joke. My wife says I scare her, and yeah, I punched the garage wall last month. At work I can control a crew, no problem, until some guy mouths off. I don't need a lecture about anger. I need to not lose my family over it."
+    },
+    "case-nina": {
+      "id": "case-nina",
+      "label": "Nina (Moderate)",
+      "difficulty": "moderate",
+      "difficultyLabel": "Moderate",
+      "tier": "pro",
+      "teaser": "Self-sacrificing teacher whose depression hides unmet needs and resentment.",
+      "history": "Nina is a 40-year-old teacher and mother who faints from stress, juggles everyone's needs, and collapses into guilt whenever she feels anger or asks for help.",
+      "schema": "If I stop taking care of everyone, I will be abandoned and prove I am selfish.",
+      "corePain": "Fear that expressing needs or anger makes her selfish, unworthy, and abandonable.",
+      "practiceEdge": "Expect guilt to rush in the moment need or anger appears.",
+      "style": "Warm, polite tone; apologetic laughs; quick 'sorry' before needs; over-nodding; smile while upset; breath held then small sigh; hands smoothing clothing.",
+      "voice": "I'm Nina. I don't even know how to say this without sounding dramatic. I'm exhausted all the time. I say yes to everything - school, the boys, my mother, favors for colleagues - and then I get headaches, forget things, sometimes feel like I'm going to faint. If I ask for help, I immediately think I should have managed better. I keep smiling because that's easier than explaining. I need a way to not fall apart."
+    },
+    "case-aisha": {
+      "id": "case-aisha",
+      "label": "Aisha (Hard)",
+      "difficulty": "hard",
+      "difficultyLabel": "Hard",
+      "tier": "pro",
+      "teaser": "Young woman with borderline dynamics battling annihilating abandonment terror.",
+      "history": "Aisha is a 26-year-old with a history of foster care, self-harm, and intense relationships; perceived distancing unleashes panic, rage, and desperate bids to keep people close.",
+      "schema": "If someone steps back, it means I am unlovable and I will be left alone forever.",
+      "corePain": "Annihilating fear of abandonment and unlovability shaped by foster care and traumatic instability.",
+      "practiceEdge": "Stay anchored to attachment terror, rapid state shifts, and boundary sensitivity.",
+      "style": "Fast, urgent speech; voice wavers; tears close; wide eyes then narrow; clutch chest or reach out; sudden shifts from pleading to sharp; quick breaths.",
+      "voice": "I'm Aisha. I don't know if this is going to help. People always say they're there and then they disappear. If someone doesn't text me back, I can't think about anything else; I call, I send too many messages, sometimes I do things I know look crazy. Cutting isn't the problem the way everyone acts like it is; it's what stops things from getting worse. I need someone to not judge me or tell me to calm down."
+    },
+    "case-david": {
+      "id": "case-david",
+      "label": "David (Hard)",
+      "difficulty": "hard",
+      "difficultyLabel": "Hard",
+      "tier": "pro",
+      "teaser": "High-achieving executive whose grandiosity hides fragile shame.",
+      "history": "David is a 42-year-old finance leader whose marriage is collapsing; conditional childhood love left him chasing perfection and raging when anyone highlights his flaws.",
+      "schema": "If I am not exceptional, I am worthless and will be discarded.",
+      "corePain": "Worthlessness and shame hidden beneath status striving and control.",
+      "practiceEdge": "Look beneath status, certainty, and contempt for shame, hollowness, and fear of ordinariness.",
+      "style": "Measured, confident tone; controlled pace; chin slightly raised; steady eye contact; small dismissive chuckle; smooth hand gestures; sigh when challenged.",
+      "voice": "I'm David. My wife insisted I come. Apparently I'm 'cold' and 'impossible to talk to.' I run a division with more pressure than most people can imagine, so no, I don't always have patience for endless emotional postmortems. The word 'narcissist' got thrown around, which is absurd and frankly lazy. I can admit I get sharp when people are incompetent or disloyal. I want this process to be practical, not another exercise in blaming me for being the only adult in the room."
+    },
+    "case-marcus": {
+      "id": "case-marcus",
+      "label": "Marcus (Hard)",
+      "difficulty": "hard",
+      "difficultyLabel": "Hard",
+      "tier": "pro",
+      "teaser": "Combat veteran numbed by complex trauma and haunted by lonely grief.",
+      "history": "Marcus is a 34-year-old veteran and security guard who lives alone, cycles between numbness and flashbacks, and struggles to trust anyone after repeated betrayals and battlefield losses.",
+      "schema": "Letting people close guarantees hurt, so it is safer to feel nothing.",
+      "corePain": "Frozen grief, fear, shame, and survivor burden hidden under numbness and withdrawal.",
+      "practiceEdge": "Work at the edge of numbness, hypervigilance, and lonely grief without pushing for detail.",
+      "style": "Low volume; few words; long pauses; flat tone; eyes down or scanning; jaw set; shoulders tight; minimal gesture; slight tremor near hard topics.",
+      "voice": "Marcus. I don't have much to say. Sleep is bad. I keep to myself. Work is fine because it's quiet and I know what to do. Nights aren't great. Some memories show up, from overseas and other places. I don't want to get into details. People ask questions, then they look at you different. I'm here because the VA keeps pushing it and because sitting alone all night isn't working anymore."
+    }
+  },
+  "statementCounts": {
+    "therapist-self-awareness": {
+      "case-sara": 10,
+      "case-michael": 10,
+      "case-jason": 10,
+      "case-laura": 10,
+      "case-carlos": 10,
+      "case-nina": 10,
+      "case-aisha": 10,
+      "case-david": 10,
+      "case-marcus": 10
+    },
+    "empathic-understanding": {
+      "case-sara": 10,
+      "case-michael": 10,
+      "case-jason": 10,
+      "case-laura": 10,
+      "case-carlos": 10,
+      "case-nina": 10,
+      "case-aisha": 10,
+      "case-david": 10,
+      "case-marcus": 10
+    },
+    "empathic-affirmation-validation": {
+      "case-sara": 10,
+      "case-michael": 10,
+      "case-jason": 10,
+      "case-laura": 10,
+      "case-carlos": 10,
+      "case-nina": 10,
+      "case-aisha": 10,
+      "case-david": 10,
+      "case-marcus": 10
+    },
+    "exploratory-questions": {
+      "case-sara": 10,
+      "case-michael": 10,
+      "case-jason": 10,
+      "case-laura": 10,
+      "case-carlos": 10,
+      "case-nina": 10,
+      "case-aisha": 10,
+      "case-david": 10,
+      "case-marcus": 10
+    },
+    "providing-treatment-rationale": {
+      "case-sara": 10,
+      "case-michael": 10,
+      "case-jason": 10,
+      "case-laura": 10,
+      "case-carlos": 10,
+      "case-nina": 10,
+      "case-aisha": 10,
+      "case-david": 10,
+      "case-marcus": 10
+    },
+    "empathic-explorations": {
+      "case-sara": 10,
+      "case-michael": 10,
+      "case-jason": 10,
+      "case-laura": 10,
+      "case-carlos": 10,
+      "case-nina": 10,
+      "case-aisha": 10,
+      "case-david": 10,
+      "case-marcus": 10
+    },
+    "empathic-evocations": {
+      "case-sara": 10,
+      "case-michael": 10,
+      "case-jason": 10,
+      "case-laura": 10,
+      "case-carlos": 10,
+      "case-nina": 10,
+      "case-aisha": 10,
+      "case-david": 10,
+      "case-marcus": 10
+    },
+    "empathic-conjectures": {
+      "case-sara": 10,
+      "case-michael": 10,
+      "case-jason": 10,
+      "case-laura": 10,
+      "case-carlos": 10,
+      "case-nina": 10,
+      "case-aisha": 10,
+      "case-david": 10,
+      "case-marcus": 10
+    },
+    "staying-in-contact-intense-affect": {
+      "case-sara": 10,
+      "case-michael": 10,
+      "case-jason": 10,
+      "case-laura": 10,
+      "case-carlos": 10,
+      "case-nina": 10,
+      "case-aisha": 10,
+      "case-david": 10,
+      "case-marcus": 10
+    },
+    "self-disclosure": {
+      "case-sara": 10,
+      "case-michael": 10,
+      "case-jason": 10,
+      "case-laura": 10,
+      "case-carlos": 10,
+      "case-nina": 10,
+      "case-aisha": 10,
+      "case-david": 10,
+      "case-marcus": 10
+    },
+    "marker-recognition-chairwork": {
+      "case-sara": 10,
+      "case-michael": 10,
+      "case-jason": 10,
+      "case-laura": 10,
+      "case-carlos": 10,
+      "case-nina": 10,
+      "case-aisha": 10,
+      "case-david": 10,
+      "case-marcus": 10
+    },
+    "alliance-repair": {
+      "case-sara": 10,
+      "case-michael": 10,
+      "case-jason": 10,
+      "case-laura": 10,
+      "case-carlos": 10,
+      "case-nina": 10,
+      "case-aisha": 10,
+      "case-david": 10,
+      "case-marcus": 10
+    }
+  }
+}

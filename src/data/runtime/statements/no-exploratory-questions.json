@@ -1,0 +1,1100 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_exploratory-questions_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lavmælt] Du skulle sett blikket hun ga meg; jeg følte meg så liten.",
+      "suggestion": "Hvordan kjennes det inni deg når du føler deg så liten?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Under brunsjen fortsatte jeg å si at det gikk bra, men jeg merket at jeg prøvde for hardt.",
+      "suggestion": "Når du merker at du prøver så hardt å virke som om det går bra, hvilken følelse er nærmest?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sint] Jeg ble sint for at han glemte bursdagen min, og så følte jeg meg teit som brydde meg.",
+      "suggestion": "Når du kaller deg selv teit for å bry deg, hvilken følelse ligger under det?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lavmælt] Jeg vil spørre ham hvorfor han sluttet å prøve, men jeg sier til meg selv at det ikke er noen vits.",
+      "suggestion": "Når du ser for deg å spørre ham om det, hvilken følelse kommer først?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Noen ganger sletter jeg gamle bilder og leter etter dem igjen ti minutter senere.",
+      "suggestion": "Når du ikke klarer å la bildene være borte, hvilken følelse kommer sterkest?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Når noen er snille mot meg, vet jeg plutselig ikke hva jeg skal gjøre med det.",
+      "suggestion": "Når vennlighet gjør deg usikker på hva du skal gjøre, hvilken følelse kommer opp?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lavmælt] Jeg våkner og glemmer et sekund at han er borte, og så treffer det meg på nytt.",
+      "suggestion": "I det første øyeblikket der du husker, hvilken følelse kommer før du forklarer den?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Jeg blir flau over at jeg fortsatt er så trist, som om sorgen burde hatt utløpsdato.",
+      "suggestion": "Når flauheten sier at sorgen burde vært over, hvilken tristhet ber fortsatt om å bli lagt merke til?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Når jeg ser par på butikken, går jeg før jeg begynner å gråte.",
+      "suggestion": "Når du går før tårene kommer, hvilken følelse prøver du å ikke vise?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lavmælt] Jeg går over gaten for å slippe å passere kafeen vi pleide å kalle vår.",
+      "suggestion": "Når du ser for deg den kafeen, hvilken følelse kommer før du bestemmer deg for å gå over gaten?"
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_exploratory-questions_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og sint] Når noen retter på én detalj, blir jeg sint og flau samtidig.",
+      "suggestion": "Hva merker du inni deg når sinne og flauhet kommer samtidig?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] Et sukk fra kona får meg til å anta at hun allerede har bestemt at jeg tar feil.",
+      "suggestion": "Når det sukket lander som en dom, hvilken følelse kommer først?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Sjefen roste teamet, men ikke meg, og jeg klarte ikke å slutte å tenke på det.",
+      "suggestion": "Når du spiller om igjen at du ikke ble nevnt, hvilken følelse kommer tilbake?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og sint] Jeg speider etter tegn på respektløshet i møterommet før jeg engang vet hvem som har kommet inn.",
+      "suggestion": "Når du allerede speider etter respektløshet, hvilken følelse forbereder du deg på?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] Når jeg beklager til kona mi, føles det som om jeg har gitt henne seieren.",
+      "suggestion": "Når det å beklage kjennes som å tape, hvilken følelse er vanskeligst å bli værende med?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Når jeg er usikker på et svar foran teamet, begynner jeg å snakke fortere så ingen skal merke det.",
+      "suggestion": "Når ingen får se at du er usikker, hvilken følelse unngår du?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og sint] Jeg sa til kona mi at det gikk fint, men jeg var fortsatt sint flere timer etterpå.",
+      "suggestion": "Når sinnet blir værende i flere timer, hvor merker du det mest?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] Jeg smeller med dører hjemme så ingen hører meg si at jeg ble såret.",
+      "suggestion": "Før døren smeller, hvilken følelse er der som er vanskelig å si høyt?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Når noen ber meg roe meg ned, eksploderer jeg før jeg hører noe mer.",
+      "suggestion": "Når de ordene treffer, hvilken følelse kommer før eksplosjonen?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Jeg hater å føle meg svak foran folk, som om alle kan se at jeg mislyktes.",
+      "suggestion": "Når «svak» dukker opp foran folk, hvilken følelse kommer med det å bli sett?"
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_exploratory-questions_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Når det er min tur til å snakke, mister jeg setningen, og det virker som om alle venter.",
+      "suggestion": "Når det virker som om alle venter, hvilken følelse dukker opp?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skjelvende stemme] Stemmen skjelver når jeg sier navnet mitt, og så hører jeg hvor patetisk jeg virker.",
+      "suggestion": "Når du hører skjelvingen i stemmen din, hvilken følelse kommer først?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Engstelig] En venn svarte ikke, og jeg fortsatte å lure på hva jeg hadde gjort feil.",
+      "suggestion": "Når du lurer på hva du har gjort feil, hvilken følelse følger med det spørsmålet?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Hvis noen ler på andre siden av rommet, antar jeg at det handler om meg.",
+      "suggestion": "Hva skjer inni deg når du tror latteren handler om deg?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Jeg holder blikket på bordet så folk ikke skal spørre meg om noe.",
+      "suggestion": "Når det kjennes risikabelt å se opp, hvilken følelse kommer rundt det å bli sett?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Engstelig] Etter møter spiller jeg av én setning i timevis og kjenner ansiktet bli varmt.",
+      "suggestion": "Hvis vi tar én av setningene du spiller av, hvilken følelse holder gjennomgangen i gang?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] På fester følger jeg med på utgangen før jeg engang vet hvem som er i rommet.",
+      "suggestion": "Når oppmerksomheten går mot utgangen, hvilken følelse prøver du å komme unna?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Noen smilte til meg i gangen, og jeg klarte ikke å skjønne om det var vennlig eller kleint.",
+      "suggestion": "Når du ikke vet hva smilet betyr, hva legger du merke til inni deg?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Engstelig] Jeg sier at jeg er opptatt før småprat kan avsløre hvor klein jeg er.",
+      "suggestion": "Når småprat kjennes som om det skal avsløre deg, hvilken følelse kommer først?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Søndagskveldene kjennes tunge, som om alle andre har et liv som venter på dem.",
+      "suggestion": "Når søndagstyngden kommer, hvilken følelse kommer med tanken på tilhørighet?"
+    }
+  ],
+  "case-laura": [
+    {
+      "id": "dp_exploratory-questions_case-laura_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Langsomt og flatt] De fleste dager føles dempet, og jeg klarer ikke vite om jeg er trist eller bare nummen.",
+      "suggestion": "Når den dempede følelsen er her, hva merker du at den gjør med deg?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Naboene kranglet i gangen, og jeg brukte resten av kvelden på å late som det ikke var noe.",
+      "suggestion": "Rett under det å late som ingenting, hvilken følelse ligger nærmest?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og på vakt] Når noen er snille mot meg, blir jeg mistenksom og får dårlig samvittighet for å være mistenksom.",
+      "suggestion": "Når vennlighet kommer og mistenksomheten følger etter, hva merker du først i deg selv?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt og på vakt] Selv mild berøring på skulderen får meg til å skvette før jeg rekker å tenke hvem det er.",
+      "suggestion": "Ved det første skvettet, hva kjenner du før tanken rekker inn?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fjern] Om kvelden heller jeg opp vin før jeg har bestemt meg for om jeg egentlig vil ha det.",
+      "suggestion": "I sekundet før vinen, hva er du på vei bort fra?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og på vakt] Jeg våkner og planlegger allerede hvordan jeg skal komme gjennom dagen uten å trenge noen.",
+      "suggestion": "Når det å trenge noen kommer nær, hva kjenner du først?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Langsomt og flatt] Gode nyheter lander flatt, og jeg skjønner ikke hvorfor jeg ikke klarer å glede meg.",
+      "suggestion": "Når gode nyheter lander flatt, hvordan er flatheten fra innsiden?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fjern] Noen ganger kommer det en sang fra da jeg var gift, og tristheten dukker opp før jeg rekker å slå den av.",
+      "suggestion": "Før du slår av tristheten, hva ber den om?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og på vakt] Jeg sier unnskyld for at jeg trenger trøst, som om det er noe jeg kan få kjeft for.",
+      "suggestion": "Idet det å be om trøst kjennes farlig, hva merker du i deg selv?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt og på vakt] Jeg hopper over alt med krangling og slåssing og sier til folk at jeg bare ikke liker slike filmer.",
+      "suggestion": "Når du ser for deg å si den egentlige grunnen høyt, hvilken følelse kommer først?"
+    }
+  ],
+  "case-carlos": [
+    {
+      "id": "dp_exploratory-questions_case-carlos_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] Når formannen stiller spørsmål ved meg foran gjengen, ler jeg det bort, men klarer ikke slippe det.",
+      "suggestion": "Når spørsmålet fra formannen blir sittende, hva gjør mest vondt i det?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Etter en krangel går jeg og tenker på hva jeg burde ha sagt, selv når jeg vet at det bare gjør ting verre.",
+      "suggestion": "Mens svarene fortsetter å komme, hva prøver de å svare på inni deg?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Hvis jeg trekker meg, føles det som om folk slutter å respektere meg.",
+      "suggestion": "Når respekt kjennes truet, hva kjenner du på det skarpeste stedet?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Jeg ser stadig for meg at gutten min rykket til da jeg hevet stemmen, og jeg vil ikke se rett på det.",
+      "suggestion": "Når du holder bildet av at han rykket til i ett sekund, hvilken følelse kommer opp?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Mistenksom] Når huset blir stille etter en krangel, blir jeg mer anspent enn da vi ropte.",
+      "suggestion": "I stillheten etter krangelen, hva begynner å skje inni deg?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Jeg sier at jeg ikke bryr meg om hva folk tenker, men ett blikk kan ødelegge hele dagen min.",
+      "suggestion": "Når det ene blikket ødelegger dagen, hvor treffer det?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] Faren min pleide å si at følelser gjør menn ubrukelige, og jeg hører det fortsatt når kona mi ber meg snakke.",
+      "suggestion": "Når du hører den gamle regelen nå, hva kjenner du mot deg selv?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sint, med knyttede never] Når en annen mann snakker ned til meg, vet jeg ikke om jeg blir sint eller flau.",
+      "suggestion": "Idet han snakker ned til deg, hva kommer først: sinne, flauhet eller noe annet?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og sint] Etter en krangel sier jeg til meg selv at jeg er ferdig med det, men jeg er fortsatt helt påskrudd i timevis.",
+      "suggestion": "Etter at krangelen er over på utsiden, hva går fortsatt inni deg?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sårbar] Det jeg vil mest, er at familien min skal føle seg trygg med meg.",
+      "suggestion": "Med ordet trygg, hva skjer i deg rundt det ønsket?"
+    }
+  ],
+  "case-nina": [
+    {
+      "id": "dp_exploratory-questions_case-nina_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sliten] Når jeg ber om hjelp, skyller skyld inn og jeg vil ta det tilbake.",
+      "suggestion": "Når skyldfølelsen skyller inn, hva forteller den deg om deg selv?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skyldpreget] Jeg klager over at ingen hjelper, men jeg gjør også ting om igjen når de prøver.",
+      "suggestion": "Når hjelpen kommer på en måte du ikke kan styre, hva skjer inni deg?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Splittet] Når jeg sier nei, forklarer jeg meg så mye at jeg nesten tar det tilbake.",
+      "suggestion": "Idet neiet begynner å forsvinne, hva kjenner du i det øyeblikket?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skyldpreget] Når jeg hviler, kaller en stemme meg lat før jeg har rukket å trekke pusten.",
+      "suggestion": "Når ordet lat treffer, hvor kjenner du det mest?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Unnskyldende] Jeg sier unnskyld før jeg ber om hjelp, som om behovet mitt allerede er for mye.",
+      "suggestion": "Når behovet kjennes for stort, hva skjer i måten du møter deg selv på?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Splittet] Utpå ettermiddagen skjønner jeg at jeg har sagt ja til tre ting jeg aldri hadde lyst til.",
+      "suggestion": "Når ordene «jeg hadde ikke lyst» kommer, hva legger du merke til inni deg?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sliten] Jeg sammenligner meg med andre mødre og bestemmer meg for at jeg har strøket på en prøve alle andre forstår.",
+      "suggestion": "I øyeblikket du bestemmer deg for at du strøk på prøven, hvilken følelse kommer?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skyldpreget] Jeg drømmer om å bli tatt vare på og føler meg så egoistisk fordi jeg vil det.",
+      "suggestion": "Før egoist-stemmen kommer, hvordan er det å la noen ta vare på deg?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Splittet] Jeg sier at det er enklere om jeg gjør det selv, og så bruker jeg kvelden på å være sint for at ingen hjalp.",
+      "suggestion": "Under sinnet etter å ha gjort det selv, hvilken følelse ligger der?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sliten] Jeg krasjer på sofaen om kvelden etter å ha holdt alle sammen hele dagen.",
+      "suggestion": "Når du slutter å holde alle sammen, hva møter du i deg selv?"
+    }
+  ],
+  "case-aisha": [
+    {
+      "id": "dp_exploratory-questions_case-aisha_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Hvis et svar ikke kommer etter at jeg har åpnet meg, begynner jeg å tenke at jeg var dum som stolte på dem.",
+      "suggestion": "Hvilken følelse kommer opp når det å stole på noen begynner å kjennes dumt?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperat] Jeg går fra «ikke forlat meg» til «la meg være i fred» på sekunder.",
+      "suggestion": "Rett før det snur, hvilken følelse er for vond å holde seg nær?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperat] Jeg vet ikke hva jeg føler i dag; alt er for mye og samtidig litt blankt.",
+      "suggestion": "Når det både er for mye og blankt, hvilken følelse er lettest å merke først?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperat] Når du ser ned for å skrive notater, begynner jeg å lure på hva du egentlig tenker om meg.",
+      "suggestion": "Hva skjer inni deg når du ser for deg hva jeg kanskje tenker?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Når jeg snakker om kloring, vil jeg få det til å høres tilfeldig ut så du ikke overreagerer.",
+      "suggestion": "Hvilken følelse kommer opp når du prøver å få det til å høres tilfeldig ut?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperat] Hvis du avlyser en time, vil jeg ikke komme tilbake og bli forlatt to ganger.",
+      "suggestion": "Når du ser for deg en avlysning, hva er det første som stikker i deg?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Vennlighet får meg til å gråte, og så vil jeg komme meg bort fra den.",
+      "suggestion": "Hva er den første følelsen som kommer når vennlighet når inn?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperat] Jeg tester folk etter at de kommer nær, for å se om de bryr seg nok til å bli.",
+      "suggestion": "Når du ser for deg en test, hvilken frykt prøver du å besvare inni deg?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Etter at jeg eksploderer, hater jeg meg selv så mye at jeg nesten ikke holder ut å være i min egen kropp.",
+      "suggestion": "Når selvhatet treffer, hvilken følelse er vanskeligst å være nær?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] På slutten sier jeg ha det som om alt er greit, og så går jeg herfra sint for at jeg trenger deg.",
+      "suggestion": "Hvilken følelse ligger under sinnet når du går?"
+    }
+  ],
+  "case-david": [
+    {
+      "id": "dp_exploratory-questions_case-david_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Kontrollert] Når hun kaller meg kald, vil jeg avfeie henne, men det blir sittende i meg etterpå.",
+      "suggestion": "Hvilken følelse er der når det blir sittende i deg etterpå?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Kontrollert] Hvis jeg ikke vinner, føler jeg meg hul, som om det ikke er noe fast under meg.",
+      "suggestion": "Når seieren ikke er der, hvilken følelse følger med den tomheten?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] Jeg begynner å ramse opp prestasjoner når jeg føler meg dømt av kona mi.",
+      "suggestion": "Hvilken følelse prøver du å ikke vise når du ramser opp prestasjoner?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Kontrollert] Ros fra sjefen føles godt i et sekund, og så begynner jeg å lure på hva han vil.",
+      "suggestion": "Når ros går over i mistenksomhet, hvilken følelse begynner å bevege seg inni deg?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Avvisende] Å innrømme at jeg tar feil, får ansiktet til å brenne som om alle kan se gjennom meg.",
+      "suggestion": "Når det å innrømme feil kjennes blottstillende, hvilken følelse kommer opp?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Unnvikende] Når samtalen blir følelsesladet, sjekker jeg telefonen så jeg slipper å se blottstilt ut.",
+      "suggestion": "Når du strekker deg etter telefonen, hvilken følelse beveger du deg bort fra?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Kontrollert] Når barna protesterer ved middagen, hører jeg meg selv høres ut som faren min.",
+      "suggestion": "Hvilken følelse kommer opp når du hører den likheten?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fjern] Siden affæren klarer jeg ikke vite om jeg føler skyld, eller bare irritasjon over at alle stadig tar det opp.",
+      "suggestion": "Når skyld og irritasjon ligger så tett, hva legger du merke til inni deg?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Jeg vil at noen skal legge merke til det jeg gjør uten at jeg må tigge om anerkjennelse.",
+      "suggestion": "Når anerkjennelsen ikke kommer, hvilken følelse kommer opp?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Såret, men skarp] Jeg hater å være helt vanlig på jobb foran alle, som om det betyr at jeg har forsvunnet.",
+      "suggestion": "Når «helt vanlig» begynner å kjennes som å forsvinne, hvilken følelse dukker opp?"
+    }
+  ],
+  "case-marcus": [
+    {
+      "id": "dp_exploratory-questions_case-marcus_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Langsomt og flatt] De fleste dager er jeg nummen, og så treffer en bølge helt ut av det blå.",
+      "suggestion": "Før bølgen treffer, hva er det tidligste signalet om at den kommer?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hyperårvåken] Etter mareritt vet jeg ikke hva som er virkelig nok til å snakke om, og hva jeg bør la ligge.",
+      "suggestion": "Mens du avgjør hva du skal la ligge, hva skjer inni deg?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille og på vakt] I matbutikken holder jeg meg nær utgangene fordi gangene mellom hyllene kjennes for trange.",
+      "suggestion": "Når gangene kjennes for trange, hvilken følelse kommer opp?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lav stemme] Etter mørkets frembrudd vet jeg ikke om stillheten er fredelig eller om den lukker seg rundt meg.",
+      "suggestion": "Hva skjer inni deg når stillheten går fra fredelig til å lukke seg rundt deg?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lav stemme] Jeg sitter i bilen etter jobb fordi det å gå opp betyr å være alene med det som er der.",
+      "suggestion": "Hvilken følelse venter når du ser for deg å åpne døra til leiligheten?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille og på vakt] Jeg holder lyset dempet og ignorerer telefonen så verden holder seg langt unna.",
+      "suggestion": "Når verden holder seg langt unna, hvilken følelse slipper du å møte?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt] Når noe godt skjer, venter jeg på delen der det blir tatt tilbake.",
+      "suggestion": "Hvilken følelse kommer opp mens du venter på at det skal bli tatt tilbake?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hyperårvåken] Plutselige lyder i trappeoppgangen får meg til å skvette, og så speider jeg etter fare.",
+      "suggestion": "Rett etter at du skvetter, hvilken følelse tar over?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille og på vakt] Jeg husker ikke sist jeg lo ordentlig uten å stoppe meg selv.",
+      "suggestion": "Når du sier at du ikke husker sist du lo ordentlig, hvilken følelse kommer nærmest overflaten?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt] Jeg sier til meg selv at jeg har det best alene, fordi nærhet alltid koster noe.",
+      "suggestion": "Når nærhet begynner å kjennes som noe som koster, hvilken følelse dukker opp inni deg?"
+    }
+  ]
+}

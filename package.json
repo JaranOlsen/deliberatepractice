@@ -8,12 +8,15 @@
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "npm run validate:content",
-    "build:content": "node scripts/build-content-artifacts.mjs",
-    "validate:content": "node scripts/validate-content.mjs",
+    "test": "npm run validate:content && node --test tests/*.test.js",
+    "test:triad": "node --test tests/triadProtocol.test.js",
+    "build:content": "node scripts/build-content-artifacts.mjs && node scripts/build-practice-runtime.mjs",
+    "build:runtime": "node scripts/build-practice-runtime.mjs",
+    "validate:content": "node scripts/validate-content.mjs && node scripts/build-practice-runtime.mjs --check",
     "feedback:list": "node scripts/supabase-feedback.mjs list",
     "feedback:resolve": "node scripts/supabase-feedback.mjs resolve",
-    "feedback:delete": "node scripts/supabase-feedback.mjs delete"
+    "feedback:delete": "node scripts/supabase-feedback.mjs delete",
+    "check:backend": "node scripts/check-backend.mjs"
   },
   "devDependencies": {
     "vite": "^6.4.1"

@@ -1,24 +1,17 @@
 "use strict";
 
-export {
-  SKILL_ORDER,
-  CASE_ORDER,
-  BASE_PRACTICE,
-  CASE_FORMULATION_TRANSLATIONS,
-  CASE_BIBLES,
-  CONTENT_REGISTRY,
-  CONTENT_REGISTRY_SUMMARY,
-  CONTENT_REVISION,
-  CONTENT_UPDATED_AT,
-  EXPERIMENTAL_SKILL_IDS,
-  HIGH_RISK_FLAGS,
-  LANGUAGE_ORDER,
-  LANGUAGE_METADATA,
-  LANGUAGE_UI,
-  LANGUAGE_OVERRIDES,
-  STATEMENT_TRANSLATIONS,
-  STATEMENT_TRANSLATION_REVISION,
-  QA_FLAG_TAXONOMY,
-  REVIEW_STATUSES,
-  GLOSSARY
-} from "../data/index.js";
+import manifest from '../data/runtime/manifest.json';
+
+export const {
+  SKILL_ORDER, CASE_ORDER, CONTENT_REVISION, CONTENT_UPDATED_AT,
+  LANGUAGE_ORDER, LANGUAGE_METADATA, LANGUAGE_UI, LANGUAGE_OVERRIDES,
+  CASE_FORMULATION_TRANSLATIONS, CASE_OVERRIDES, GLOSSARY
+} = manifest;
+
+// Library metadata is available immediately; exercises are loaded per skill/language.
+export const BASE_PRACTICE = Object.fromEntries(SKILL_ORDER.map(skillId => [skillId, {
+  ...manifest.skills[skillId],
+  cases: Object.fromEntries(CASE_ORDER[skillId].map(caseId => [caseId, {
+    ...manifest.cases[caseId], statementCount: manifest.statementCounts[skillId][caseId]
+  }]))
+}]));

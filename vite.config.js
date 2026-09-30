@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
-import { execSync } from 'node:child_process';
-import { readFileSync } from 'node:fs';
+import { execSync, execFileSync } from 'node:child_process';
+import { readFileSync, readdirSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 
 const packageJson = JSON.parse(
   readFileSync(new URL('./package.json', import.meta.url), 'utf8')
@@ -35,6 +36,22 @@ function getBuildNumber() {
 }
 
 export default defineConfig({
+  plugins: [{
+    name: 'practice-runtime-content',
+    buildStart() {
+      execFileSync(process.execPath, [fileURLToPath(new URL('./scripts/build-practice-runtime.mjs', import.meta.url))]);
+      for (const file of readdirSync(new URL('./src/data/', import.meta.url))) {
+        if (file.endsWith('.js')) this.addWatchFile(fileURLToPath(new URL(`./src/data/${file}`, import.meta.url)));
+      }
+    },
+    handleHotUpdate({file, server}) {
+      const sourceDir = fileURLToPath(new URL('./src/data/', import.meta.url));
+      if (!file.startsWith(sourceDir) || !file.endsWith('.js')) return;
+      execFileSync(process.execPath, [fileURLToPath(new URL('./scripts/build-practice-runtime.mjs', import.meta.url))]);
+      server.ws.send({type: 'full-reload'});
+      return [];
+    }
+  }],
   base: '/deliberatepractice/',
   publicDir: 'public',
   define: {

@@ -163,25 +163,32 @@ export async function submitPracticeRating(payload) {
     input_content_revision: payload.contentRevision,
     input_rating_scope: payload.ratingScope ?? "statement",
     input_completed_statement_ids: payload.completedStatementIds ?? [],
-    input_item_count: payload.itemCount ?? null
+    input_item_count: payload.itemCount ?? null,
+    input_client_round_id: payload.roundId ?? null,
+    input_practice_mode: payload.practiceMode ?? null,
+    input_rating_rubric: payload.ratingRubric ?? null
   });
   if (error) throw normalizeSupabaseError(error);
   return Array.isArray(data) ? data[0] ?? null : data ?? null;
 }
 
-export async function listSelfPracticeRatings({ limit = 500 } = {}) {
+export async function listPracticeRatings({ source = "self", rubric = "individual-mastery-v1", limit = 500 } = {}) {
+  if (!["self", "observer"].includes(source)) throw new Error("Unknown rating source");
+  if (!["individual-mastery-v1", "group-consistency-v1", "legacy"].includes(rubric)) throw new Error("Unknown rating scale");
   const supabase = await getSupabaseClient();
   const { data: userData, error: userError } = await supabase.auth.getUser();
   if (userError) throw normalizeSupabaseError(userError);
   const userId = userData?.user?.id;
   if (!userId) return [];
-  const { data, error } = await supabase
+  let query = supabase
     .from("practice_ratings")
-    .select("skill_id,case_id,difficulty,score,item_count,created_at")
+    .select("skill_id,case_id,difficulty,score,item_count,created_at,practice_mode,rating_rubric")
     .eq("therapist_user_id", userId)
-    .eq("source", "self")
+    .eq("source", source)
     .order("created_at", { ascending: false })
     .limit(limit);
+  query = rubric === "legacy" ? query.is("rating_rubric", null) : query.eq("rating_rubric", rubric);
+  const { data, error } = await query;
   if (error) throw normalizeSupabaseError(error);
   return Array.isArray(data) ? data : [];
 }

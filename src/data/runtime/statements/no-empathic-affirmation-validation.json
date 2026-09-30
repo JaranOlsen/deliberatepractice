@@ -1,0 +1,1010 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lavmælt] Før jeg legger meg, sjekker jeg kontoene hans på sosiale medier selv om det knuser meg.",
+      "suggestion": "Dragningen mot siden hans henger sammen med hvor ferskt tapet er; hvert spor gir kontakt og gjør vondt samtidig."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Jeg smilte meg gjennom hele teammøtet og gråt på toalettet etterpå.",
+      "suggestion": "Det er ikke rart at tårene trengte plass etter at du holdt deg samlet gjennom hele møtet; de fortjener plass, ikke skam."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Når jeg tenker på de siste ukene, lurer jeg på om han hadde blitt hvis jeg hadde vært morsommere eller enklere.",
+      "suggestion": "Selvbebreidelse kan kjennes som kontroll når et brudd er hjelpeløst; den gir smerten et mål, selv om den vender seg mot deg."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lavmælt] Om natten blir det for stille, og jeg begynner å kjenne det som om jeg aldri egentlig var ønsket.",
+      "suggestion": "I nattestillheten får den gamle følelsen av å ikke være ønsket mye plass; ensomheten kan høres veldig overbevisende ut der."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sint, så flau] En venninne sa at jeg måtte slutte å sjekke telefonen, og jeg freste til henne.",
+      "suggestion": "Ikke rart det traff et rått punkt; hun snakket om telefonen som en vane, mens den for deg fortsatt bar håp."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Når jeg våkner, glemmer jeg det et sekund og så smeller det.",
+      "suggestion": "Det er forståelig at det å våkne rett inn i tapet igjen er en hard start på dagen; du rekker ikke å beskytte deg før det lander."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Jeg beklager når jeg begynner å gråte, som om sorgen min tar for mye plass.",
+      "suggestion": "Hvis du har lært å passe på hvor mye plass sorgen tar, kan det å beklage tårene kjennes beskyttende; sorgen hører likevel hjemme her."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Jeg får dårlig samvittighet for å være så lei meg når dette bare er et brudd og andre har større problemer.",
+      "suggestion": "Å sammenligne tap kan få sorg til å kjennes illegitim, men det å bli forlatt er fortsatt et virkelig sår."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Vennene mine sier at jeg burde bli med ut og spise, men jeg er redd jeg kommer til å begynne å gråte ved bordet.",
+      "suggestion": "Middagen ville gjort en privat sorg synlig for alle; frykten for å gråte der er et forståelig ønske om å beskytte noe sårt."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lavmælt] Etter dette bruddet tenker en del av meg at kjærlighet må være for andre, ikke for meg.",
+      "suggestion": "Etter å ha blitt forlatt kan kjærlighet begynne å se ut som noe som er for andre; den tanken vokser ut av en veldig ensom smerte."
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skyldpreget] Jeg traff en syklist med bilen forrige uke. Veien var glatt, men han brakk likevel håndleddet, og jeg klarer ikke slutte å kjenne skyld.",
+      "suggestion": "Skylden hører sammen med alvoret i det som skjedde: selv uten hensikt registrerer samvittigheten din at noen ble skadet."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] I møter føler jeg meg avslørt hvis jeg ikke har svaret, og da bløffer jeg.",
+      "suggestion": "Når det å ikke vite har blitt behandlet som en feil, blir bløffingen et skjold mot ydmykelse."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Når jeg beklager, kjennes det som å knele foran noen som kommer til å bruke det mot meg.",
+      "suggestion": "Hvis en beklagelse har kjentes som overgivelse, vil kroppen spenne seg før den tilbyr den; reparasjon kan kjennes utrygt når noen kan bruke det til å vinne."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fast] Hjemme, når kona mi sukker eller himler med øynene, eksploderer jeg før jeg rekker å tenke.",
+      "suggestion": "Et sukk eller et blikk kan treffe den gamle ydmykelsen raskt; ikke rart systemet ditt forsvarer verdighet før du rekker å tenke."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Rasende] Når jeg ser på nyhetene, blir jeg så sint på folk med makt som later som konsekvenser er valgfritt.",
+      "suggestion": "Det sinnet har en tydelig moralsk ladning: når mektige folk slipper unna konsekvenser, treffer det intoleransen din for urettferdighet og ansvarsløshet."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Når barnet mitt spør hvorfor jeg er sint, føler jeg meg som verdens verste far.",
+      "suggestion": "Skammen viser hvor mye det betyr for deg å være en trygg far; spørsmålet hans treffer avstanden mellom faren du vil være og det sinnet gjør."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fast] Å smelle med døra føles fælt etterpå, men i øyeblikket slipper jeg å føle meg liten.",
+      "suggestion": "I øyeblikket kan dørsmellingen kjennes beskyttende mot å føle seg liten; etterpå blir lettelsen vond fordi det ikke er sånn du vil beskytte deg."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] Hvis noen utfordrer meg foran teamet, dobler jeg innsatsen selv om jeg tar feil.",
+      "suggestion": "Å bli utfordret foran andre kan kjennes som å bli satt ned i rang; å stå hardere på sitt beskytter verdigheten før det er rom for å ta feil."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Jeg hater at jeg trenger hjelp med sinne; det får meg til å føle meg svak.",
+      "suggestion": "Hvis hjelp har betydd svakhet i din verden, kan selv det å be om den kjennes som å stå blottstilt; skammen henger fast i den gamle regelen."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Etter at jeg eksploderer hjemme, ligger jeg våken og ser ansiktene deres for meg mens jeg hater meg selv.",
+      "suggestion": "Ikke rart gjentakelsen får kraft; ansiktene deres betyr noe for deg, og skammen presser på den delen av deg som vil at de skal kjenne seg trygge."
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skjelvende] Hver presentasjon på jobb får hendene mine til å skjelve, og etterpå føler jeg meg patetisk for at jeg bryr meg så mye.",
+      "suggestion": "Under andres blikk prøver et engstelig system å komme seg gjennom eksponeringen; skjelvingen er ikke bevis på at det er patetisk å bry seg."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Jeg holder blikket på gulvet så ingen får en grunn til å se på meg.",
+      "suggestion": "Å holde blikket nede har beskyttet deg mot å bli plukket ut; synlighet har kjentes risikabelt før det har kjentes forbindende."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Engstelig] På teamlunsjer later jeg som jeg tekster så jeg har et sted å gjemme meg under småprat.",
+      "suggestion": "Telefonen gir deg et lite skjulested i småpraten; å gjemme seg der er en måte å overleve mulig vurdering på, ikke en karakterfeil."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Når folk ler høflig etter at jeg har sagt noe, antar jeg at de prøver å komme seg unna meg.",
+      "suggestion": "Høflig latter er uklar nok til at skammen fyller inn den verste betydningen; tankene dine prøver å beskytte deg mot avvisning."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Komplimenter preller av; en del av meg vil tro på dem, men den mistenksomme delen vinner.",
+      "suggestion": "Når selvangrepet har fått mange års øvelse, kan ros kjennes mistenkelig før den kan kjennes nærende; den mistenksomme delen prøver å hindre en ny skuffelse."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille og skamfull] Etter at jeg har snakket i en gruppe, spiller jeg av hver setning og skammer meg for å høres klein ut.",
+      "suggestion": "Gjennomgangen er et hardt forsøk på å hindre framtidig pinlighet; den passer med en verden der tilhørighet har kjentes skjør."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille og skamfull] Jeg droppet enda en lunsj med teamet, og etterpå følte jeg meg patetisk som gjemte meg i leiligheten.",
+      "suggestion": "Å droppe lunsjen kan kjennes beskyttende der og da, og skammen etterpå viser den andre sannheten: du vil fortsatt høre til."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Jeg skanner hvert rom etter hvem som får til mer enn meg, og så føler jeg meg defekt.",
+      "suggestion": "Det er forståelig at du skanner rommet når tankene prøver å finne faren og plassen din; skammen gjør skanningen til en dom mot deg."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nervøs, nesten smilende] Noen inviterte meg på spillkveld, og jeg hadde lyst til å gå i omtrent ti sekunder før panikken tok over.",
+      "suggestion": "Ikke rart panikken kom raskt; den samme invitasjonen traff både de ti sekundene med håp om kontakt og frykten for blottstilling."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Noen netter ligger jeg der og er sikker på at jeg alltid kommer til å være alene fordi jeg er for klein til å elskes.",
+      "suggestion": "Ikke rart nettene blir tunge; skammen kan få ensomheten til å høres permanent ut når frykten får så mye rom."
+    }
+  ],
+  "case-laura": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat og skamfull] På fridager kan jeg bli liggende til tolv, ikke egentlig sovende, bare ute av stand til å komme i gang. Så sier jeg til meg selv at jeg er lat, fordi andre mennesker klarer normale morgener.",
+      "suggestion": "Etter mange år på vakt kan senga bli det ene stedet uten krav; det handler om utmattelse og beskyttelse, ikke latskap."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Hvis stemmer heves, synker magen og jeg forsvinner et annet sted i hodet.",
+      "suggestion": "Hevede stemmer kan kjennes som fare raskt nok til å sende deg bort i hodet; det å forsvinne hjalp deg en gang å overleve."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[På vakt og forvirret] En mann på jobben spurte om jeg ville ta en kaffe, og jeg ble bitte litt glad før jeg ble helt nummen. Jeg sier til meg selv at det er latterlig i min alder.",
+      "suggestion": "Begge reaksjonene passer med det nærhet har betydd: den lille varmen ved å være ønsket, og den numne beskyttelsen som kommer når nærhet begynner å kjennes mulig."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt og på vakt] Jeg tar lange dusjer fordi varmt vann kjennes tryggere enn å be noen om trøst.",
+      "suggestion": "Liten, trygg varme kan kjennes svært viktig når trøst fra mennesker har kjentes farlig eller upålitelig."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Trist] Jeg liker den nye leiligheten, men da jeg pakket ut bildene fra det gamle huset, savnet jeg den versjonen av familien jeg hele tiden håpet at vi skulle bli.",
+      "suggestion": "Sorgen hører til det flyttingen bærer: ikke bare en ny start, men tapet av hjemmet og familien du fortsatte å prøve å få til."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og på vakt] Berøring skremmer meg, selv når den er vennlig, og etterpå føler jeg meg ødelagt for å reagere sånn.",
+      "suggestion": "At skvettenheten kommer før du rekker å velge, passer med et system som lærte å reagere først; det betyr ikke at du er ødelagt."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Når tristheten presser seg fram, blir jeg redd for at jeg ikke kommer tilbake fra den.",
+      "suggestion": "Når sterke følelser en gang kom uten trøst, kan tristheten kjennes som noe som kan sluke deg."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fjern] Jeg beklager med en gang jeg trenger trøst, som om det allerede er for mye å ønske det.",
+      "suggestion": "Det å ønske trøst er legitimt og dypt menneskelig, også når nærhet har lært deg å beklage at du trenger den."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat og flau] Datteren min sendte en sang hun trodde jeg ville like, og jeg klarte ikke få meg til å høre på den. Jeg hater at selv noe vennlig kjennes som arbeid.",
+      "suggestion": "Selv vennlighet kan forståelig nok kjennes krevende etter så mye vakthold; strevet sier hvor vanskelig nærhet har blitt, ikke at du ikke bryr deg."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt og på vakt] Selv i senga ligger skuldrene oppe, som om noen kan komme inn døra.",
+      "suggestion": "Hvile kan være vanskelig å finne når en del av deg lærte å stå på vakt mot fare."
+    }
+  ],
+  "case-carlos": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og sint] Å se nyheter om familier som min bli behandlet som trusler gjør meg så sint at jeg nesten ikke klarer å sitte stille.",
+      "suggestion": "Sinnet passer med verdighet, familie og den gamle frykten for å bli behandlet som mindreverdig."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Hvis jeg ikke kommer inn sterkt, ser jeg for meg at folk får øye på den redde gutten jeg var, og det føles ydmykende før noen egentlig har gjort noe.",
+      "suggestion": "Det å komme inn sterkt har beskyttet den redde delen du lærte å skjule; det høres også utmattende ut å holde rustningen oppe."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] På kampen til barnet mitt ropte jeg til dommeren, og etterpå ville ikke sønnen min se på meg. Jeg sier til meg selv at jeg blir akkurat det jeg hatet.",
+      "suggestion": "Skammen er der fordi blikket hans betyr noe for deg; ropingen krever ansvar, og smerten etterpå viser hvor dypt du ønsker å være annerledes."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] Når noen stiller spørsmål ved meg, føler jeg meg liten, og så hever jeg stemmen mer enn jeg mente.",
+      "suggestion": "At sinnet rykker inn, passer med hvor fort spørsmål treffer den gamle følelsen av å bli gjort liten."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sint og skamfull] Når nevene knyter seg, føles det som om kampen allerede er på vei, og så hater jeg meg selv for å ligne alle mennene jeg lovet at jeg aldri skulle bli.",
+      "suggestion": "Måten nevene knyter seg på, passer med gammel overlevelseslæring og skam i nåtid samtidig; kamp var noe kroppen lærte for å holde deg i live."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Jeg ødelegger ting og angrer etterpå når jeg ser hvor redde alle ser ut.",
+      "suggestion": "Angeren viser hvor mye det å beskytte familien er en del av hvem du vil være."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Kollegaene holder avstand etter at jeg eksploderer, og jeg kjenner skam selv om jeg later som jeg ikke bryr meg.",
+      "suggestion": "Skam og forsvar kan bli viklet sammen: en del av deg blir såret av avstanden, mens en annen del prøver å skjule det."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Splittet] Jeg går ut av rommet for å ikke eksplodere, men så hører jeg stemmen til faren min si at det er svakt.",
+      "suggestion": "Det å gå ut passer med å beskytte familien mot eksplosjonen, samtidig som det kolliderer med den gamle regelen om at det er svakt å trekke seg."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Mistenksom] Ro kjennes mistenkelig, som om noen legger opp til at jeg skal bli tråkket på.",
+      "suggestion": "Ro kan kjennes blottstillende etter at du lærte å forvente å bli tråkket på; mistanken har hatt en jobb lenge."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sårbar] Sønnen min sovnet mot meg i sofaen, og jeg kjente stolthet, redsel og sorg på en gang, fordi jeg vil at han skal føle seg trygg med meg på en måte jeg aldri gjorde.",
+      "suggestion": "Stolthet, redsel og sorg hører til det samme øyeblikket her; tilliten hans berører både kjærligheten din til ham og sorgen over at du ikke selv hadde slik trygghet."
+    }
+  ],
+  "case-nina": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sliten] Hvis jeg setter meg ned før alt er gjort, begynner skyldfølelsen å ramse opp hva jeg burde gjøre.",
+      "suggestion": "Den skyldfølelsen hører til den gamle regelen om at verdien din måtte fortjenes gjennom nytte."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Unnskyldende] Kirken spurte om jeg kunne ta med mat til enda et arrangement, og jeg sa at jeg ikke kunne. Jeg lå våken hele kvelden og følte at jeg hadde mislyktes i å være raus.",
+      "suggestion": "Dette ene nei-et kan kjennes moralsk tungt når raushet og det å være god har vært bundet sammen så lenge."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Trist og skyldpreget] Mannen min laget middag uten at jeg spurte, og i stedet for bare å føle meg tatt vare på begynte jeg å gråte og så beklaget jeg at jeg gjorde det rart.",
+      "suggestion": "Det å bli tatt vare på kan kjennes som om det berører både en dyp lengsel og en dyp alarm samtidig etter å ha båret omsorgen alene så lenge."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skyldpreget] Når sinnet kommer, hører jeg straks at jeg er egoistisk og får skyldfølelse.",
+      "suggestion": "Skyld kan stå klar rett etter sinne når du lærte at andres behov måtte komme først."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Unnskyldende] Når jeg ber om hjelp, føler jeg meg som en byrde før noen engang svarer.",
+      "suggestion": "Det å trenge hjelp kan kjennes risikabelt etter år med å være den som bærer alle andre."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skyldpreget] En rotete kjøkkenbenk kan få meg til å føle at jeg har mislyktes som person.",
+      "suggestion": "Når omsorg og prestasjon ble vevd sammen, kan selv rot kjennes som skam over hvem du er."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sliten] Jeg sier til meg selv at andre mødre har det vanskeligere, så jeg burde være takknemlig i stedet for bitter.",
+      "suggestion": "Den sammenligningen kan ligne en gammel måte å tie din egen smerte på, mens bitterheten fortsatt kan være et gyldig signal om at du bærer for mye."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Unnskyldende] Jeg jobber meg gjennom sykdom, kollapser og får skyldfølelse for å kollapse.",
+      "suggestion": "Å presse seg gjennom passer med regelen om at hvile er forbudt; selv kollapsen blir dømt av den regelen."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Hvis noen virker skuffet, får jeg panikk som om jeg har ødelagt forholdet.",
+      "suggestion": "Skuffelse kan kjennes skremmende når kjærlighet har virket knyttet til å holde folk fornøyde."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Splittet] Sønnen min snakker om å verve seg, og jeg blir stolt av ham og livredd, og så får jeg skyldfølelse fordi en god mor burde være modigere.",
+      "suggestion": "Stolthet og redsel kan begge høre til i det samme øyeblikket; det at du elsker motet hans, opphever ikke frykten for hva motet kan koste ham."
+    }
+  ],
+  "case-aisha": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Jeg fulgte med på døra mesteparten av timen for å være sikker på at du ikke drar. Hver gang det ble stille i gangen, tenkte jeg at nå bestemmer du deg kanskje for at jeg er for mye og går.",
+      "suggestion": "Å holde døra i sikte passer med så mange brå avslutninger; det beskytter mot å bli forlatt igjen, og behovet for trygghet er helt reelt."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Splittet] Jeg rev i stykker bilder etter bruddet og følte meg sterk i kanskje ett minutt, som om jeg kunne slette ham først. Så lå gulvet fullt av biter, og jeg kjente meg tom og skamfull.",
+      "suggestion": "Det å rive bildene ga et øyeblikk av kontroll midt i uutholdelig smerte, og tomheten etterpå hører til det samme tapet, ikke en motsigelse."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Noen ganger blir panikken så høy at jeg vil krype ut av huden min. Jeg går fram og tilbake, klorer på genserermene og finner ikke noe sted inni meg som kjennes trygt å bli værende i.",
+      "suggestion": "Trangen til å komme ut av egen hud passer med at panikken tar over hele innsiden; det er et forsøk på å overleve intensiteten."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Når du noterer, tenker jeg at du skriver bevis på at jeg er ustabil eller altfor dramatisk. Jeg vet at det kanskje ikke er rettferdig, men kroppen min vil løpe før du er ferdig med setningen.",
+      "suggestion": "Notater kan kjennes som å bli dømt, fanget eller misforstått når andres versjoner av deg så ofte har kjentes farlige."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperat] Jeg sender tjue meldinger fordi jeg trenger dem nær, og så blokkerer jeg dem før de kan gå. Etterpå hater jeg hvor trengende det ser ut, men i øyeblikket kjennes stillhet som å bli visket ut.",
+      "suggestion": "Meldingene passer med å strekke seg etter kontakt når stillheten blir uutholdelig, og blokkeringen prøver å beskytte deg mot å vente på å bli forlatt."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd og skamfull] Jeg vet at det ble gjort mot meg, men jeg føler meg fortsatt skitten i min egen hud. Noen ganger dusjer jeg og kjenner likevel at det er noe galt med meg fordi jeg var der.",
+      "suggestion": "Å kjenne seg uren etter en krenkelse kan være et smertefullt traumespor; skammen hører til det som ble gjort mot deg, ikke til verdien din eller kroppen din."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Når noen sier noe vennlig, hulker jeg som om jeg trenger det og får panikk som om det er en felle. Vennlighet burde kjennes godt, men det får meg til å føle meg blottstilt og sulten samtidig.",
+      "suggestion": "Vennlighet kan kjennes som om den treffer både lengselen etter omsorg og frykten for å bli fanget av å trenge den etter at nærhet har vært så utrygg."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Rasende] Hvis du ser bort et sekund, føler jeg meg visket ut og blir rasende. Jeg vet at det er ett sekund, men inni meg kjennes det som om jeg forsvinner fra rommet og må kjempe meg tilbake.",
+      "suggestion": "Et lite skifte kan kjennes som bevis på å forsvinne fra noens bevissthet, og sinnet prøver raskt å gjenopprette kontakt og betydning."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Jeg hører en stemme som sier at jeg er søppel og umulig å elske, og en del av meg tror på den. Den blir høyest etter at jeg har trengt noen, som om behovet i seg selv beviser at stemmen har rett.",
+      "suggestion": "Den grusomme stemmen kan høres overbevisende ut etter at svik har gitt den så mye stoff, særlig rundt det menneskelige behovet for nærhet."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperat] Jeg stirrer på klokka for å være sikker på at du ikke avslutter tidlig. De siste fem minuttene strammer brystet seg fordi jeg allerede prøver å overleve at du går.",
+      "suggestion": "Å følge med på klokka passer med å forberede deg på enda en avslutning før den kommer brått; frykten for å bli forlatt er allerede i rommet."
+    }
+  ],
+  "case-david": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Kontrollert] Når kona mi tar opp følelser, føler jeg meg trengt opp i et hjørne og vil heller argumentere med fakta. Hvis jeg blir værende i det følelsesmessige, begynner det å høres ut som en rettssak jeg allerede har tapt.",
+      "suggestion": "Fakta kan kjennes som et sted å stå når følelser kommer som anklager; følelsen av å være presset opp i et hjørne er noe av grunnen til at argumentasjonen tar over så raskt."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Rasende] Etter at jeg skremte kona mi, var jeg fortsatt rasende på henne for at hun presset meg, og så kom skammen fordi jeg vet hvordan det høres ut. Jeg hater å innrømme den delen, for jeg vet at frykten hennes er ekte.",
+      "suggestion": "Det er legitimt å sette ord på denne smertefulle blandingen: raseriet var virkelig der, og frykten du skapte betyr virkelig noe også. Validering kan romme begge deler uten å unnskylde skade."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Jeg sammenligner meg med andre fedre og føler meg som en bløff. De virker avslappet på skolearrangementer, og jeg står der og spiller kompetent mens jeg lurer på når noen gjennomskuer meg.",
+      "suggestion": "Sammenligning kan kjennes skamvekkende når farsrollen blir enda en prestasjonstest akkurat der du mest trenger å føle deg solid og ekte."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Når jeg beklager, kjennes det som å gi noen bevis på at jeg er liten. Jeg kan vite at jeg skylder en unnskyldning og likevel kjenne ansiktet brenne, som om jeg har gitt bort den siste grunnen jeg hadde å stå på.",
+      "suggestion": "En unnskyldning kan kjennes blottstillende når den både krever ansvar og treffer gammel ydmykelse over å bli gjort liten."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Avvisende] Jeg planlegger perfekte ferier så vi ser bra ut utenfra. Hvis bildene ser lykkelige nok ut, ser kanskje ingen hvor anspent middagen var eller hvor lite jeg vet hva jeg skal gjøre hjemme.",
+      "suggestion": "Den polerte utsiden har beskyttet mot å bli avslørt, og den lar deg også bære den private spenningen alene etter at alle har beundret bildet."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Tanken på å være ordinær skremmer meg, som om jeg forsvinner hvis jeg slutter å imponere. Jeg vet ikke hvem jeg er uten at noen må beundre resultatet.",
+      "suggestion": "Når beundring har holdt selvfølelsen samlet, kan det ordinære kjennes som å forsvinne heller enn å hvile."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Jeg sier at det går fint mens jeg føler meg tom, fordi det kjennes ydmykende å innrømme tomheten. Jeg kan lede et møte og håndtere press, men å si at jeg føler meg tom får meg til å føle meg patetisk.",
+      "suggestion": "Tomheten truer det kompetente bildet som har beskyttet deg, så å dekke den til forsvarer mot ydmykelse."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Avvisende] Jeg skryter for å få respekt, og så sitter jeg alene og føler meg tommere enn før. Rommet reagerer slik jeg ville, og av en eller annen grunn gjør det det verre når jeg er for meg selv.",
+      "suggestion": "Skrytet kan ligne et forsøk på å få respekt, og tomheten etterpå viser hvordan beundring kan stabilisere verdien et øyeblikk uten å berøre ensomheten."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Såret, men skarp] Jeg føler fortsatt at faren min sitter et sted og setter karakter på meg. Jeg kan være på mitt eget kontor, med min egen familie, og likevel høre karakteren før jeg vet hva jeg gjorde feil.",
+      "suggestion": "Det å bli vurdert så lenge kan kjennes som om det etterlater en indre resultattavle som fortsetter å gi karakterer også i rom han ikke lenger styrer."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Kontrollert] Når teamet mitt overgår meg, føler jeg meg truet i stedet for stolt. Jeg vet at en god leder burde feire dem, men en del av meg hører suksessen deres som et varsel om at jeg kan erstattes.",
+      "suggestion": "Suksessen deres kan kjennes som om den treffer den gamle koblingen mellom å være best og å være trygg, så stoltheten må konkurrere med frykten for å bli erstattet."
+    }
+  ],
+  "case-marcus": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt] De fleste dager går jeg gjennom rutinene som om jeg ikke er helt til stede. Jeg lager kaffe, dusjer, svarer folk, og det føles som en versjon av meg gjør det mens resten holder seg tilbake.",
+      "suggestion": "Etter for mye fare har nummenheten beskyttet evnen til å fungere; den er et overlevelsesmønster, ikke et tegn på at du ikke bryr deg."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fortumlet] Jeg vet ikke hva jeg føler. Det er trykk, sinne og ingenting på samme tid, og jeg føler meg dum fordi jeg ikke har ord.",
+      "suggestion": "Ordene kan forsvinne når trykk, sinne og nummenhet kommer samtidig; det å ikke vite hører til overveldelsen, ikke til dumhet."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille og på vakt] Jeg sitter i bilen før jeg går inn fordi jeg ikke orker stillheten. Motoren er av, men bilen kjennes i det minste som et sted mellom dagen og leiligheten.",
+      "suggestion": "Bilen kan kjennes som en buffer før stillheten bringer alt tilbake; å stoppe der doserer det som blir for mye."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Høye smell får meg til å skvette, og så blir jeg sint på meg selv for reaksjonen. I går smalt lemmen på en lastebil utenfor, og jeg var allerede i gang med å skanne rommet før jeg visste hva som skjedde.",
+      "suggestion": "At systemet går i overlevelse før valget rekker å komme på banen, passer med farelæring; sinnet etterpå viser hvor kostbart det er å leve med den refleksen."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lav stemme] Høytider kjennes hule; jeg føler ingenting av det jeg «burde» føle. Folk snakker om familie og takknemlighet, og jeg føler mest at jeg ser på gjennom et vindu.",
+      "suggestion": "Høytider kan kjennes hule når de ber om varme og tilhørighet akkurat på de stedene der nummenhet og avstand har beskyttet deg."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille og på vakt] Jeg unngår påminnelser om tjenesten fordi de åpner slusene. Et nyhetsklipp eller en lyd i gata kan sende meg tilbake dit raskere enn jeg klarer å forklare.",
+      "suggestion": "Å unngå påminnelser har beskyttet deg mot å bli trukket tilbake for fort; tempoet i de reaksjonene fortjener respekt."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt] Jeg holder leiligheten mørk fordi lyse rom kjennes som om de krever for mye av meg. Med gardinene nede slipper jeg å se oppvasken, den tomme stolen eller meg selv like tydelig.",
+      "suggestion": "Det dempede rommet kan kjennes som en måte å senke kravet om å være helt til stede med alt på en gang; det hjelper deg å håndtere blottstilling."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lav stemme] Jeg husker ikke sist jeg lo og stolte på at det kunne vare. Selv når noe er morsomt, merker jeg at jeg venter på at følelsen skal forsvinne.",
+      "suggestion": "Glede kan kjennes vanskelig å stole på når systemet ditt har måttet være forberedt på tap; ventingen på at den skal forsvinne er en del av den beskyttelsen."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille og på vakt] Jeg vil ikke trenge noen, fordi det å trenge folk som regel har betydd å miste kontroll. Hvis noen betyr noe, kan de stille spørsmål, dra eller komme inn på steder jeg helst vil holde lukket.",
+      "suggestion": "Å ikke trenge noen har beskyttet steder som har blitt såret eller invadert; ensomheten er prisen for den beskyttelsen."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt] Noen ganger tenker jeg at jeg har det best alene for alltid, fordi nærhet bare gir folk flere måter å såre meg på. Alene er ikke bra, akkurat, men da kan i hvert fall ingen nå det som er igjen.",
+      "suggestion": "Alene kan kjennes som det eneste pålitelige skjoldet etter at nærhet har vært farlig, selv om det også stenger deg ute fra det du trenger."
+    }
+  ]
+}

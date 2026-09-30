@@ -9,12 +9,12 @@ import {
   LANGUAGE_METADATA,
   LANGUAGE_UI,
   LANGUAGE_OVERRIDES,
-  STATEMENT_TRANSLATIONS,
-  STATEMENT_TRANSLATION_REVISION,
+  CASE_OVERRIDES,
   CONTENT_REVISION,
   CONTENT_UPDATED_AT,
   GLOSSARY
 } from "./practiceData.js";
+import { hasPracticeContent, getPracticeStatements, loadPracticeContent } from "./practiceContent.js";
 import {
   submitFeedback,
   redeemAccessCode,
@@ -32,8 +32,25 @@ import {
   acceptPairingInvite,
   revokePracticePartnership,
   submitPracticeRating,
-  listSelfPracticeRatings
+  listPracticeRatings
 } from "./backend.js";
+import {
+  PRACTICE_MODES,
+  TRIAD_PHASES,
+  canRevealTriadSuggestion,
+  getNextTriadPhase,
+  isTriadRoundFinished,
+  normalizePracticeMode,
+  normalizeTriadSessionFields,
+  restoreStatementsById,
+  sampleTriadStatements
+} from "./triadProtocol.js";
+
+import { summarizeRatings } from "./practiceProgress.js";
+import { createDialogManager } from "./dialogs.js";
+import { SESSION_VERSION, isResumableSession, getRoundOutcome, getOrCreateRoundId } from "./practiceSession.js";
+
+const dialogs = createDialogManager();
 
 const sections = {
   language: document.getElementById("language-selection"),
@@ -109,6 +126,16 @@ const elements = {
   caseBriefHeading: document.getElementById("case-brief-heading"),
   caseVoiceHeading: document.getElementById("case-voice-heading"),
   caseVoice: document.getElementById("case-voice"),
+  practiceFormat: document.getElementById("practice-format"),
+  practiceFormatLabel: document.getElementById("practice-format-label"),
+  practiceModeInputs: document.querySelectorAll('input[name="practice-mode"]'),
+  practiceModeIndividual: document.getElementById("practice-mode-individual"),
+  practiceModeIndividualDescription: document.getElementById("practice-mode-individual-description"),
+  practiceModeTriad: document.getElementById("practice-mode-triad"),
+  practiceModeTriadDescription: document.getElementById("practice-mode-triad-description"),
+  triadOrientation: document.getElementById("triad-orientation"),
+  triadOrientationTitle: document.getElementById("triad-orientation-title"),
+  triadOrientationText: document.getElementById("triad-orientation-text"),
   statementCaseName: document.getElementById("statement-case-name"),
   caseBriefScreen: document.getElementById("case-brief-screen"),
   statementWorkspace: document.getElementById("statement-workspace"),
@@ -133,6 +160,42 @@ const elements = {
   suggestionPanel: document.querySelector(".suggestion-panel"),
   suggestionToggle: document.getElementById("toggle-suggestion"),
   suggestionText: document.getElementById("suggestion-text"),
+  triadSuggestionNote: document.getElementById("triad-suggestion-note"),
+  triadProtocol: document.getElementById("triad-protocol"),
+  triadRoleBadge: document.getElementById("triad-role-badge"),
+  triadProgress: document.getElementById("triad-progress"),
+  triadPhaseTitle: document.getElementById("triad-phase-title"),
+  triadPhaseInstruction: document.getElementById("triad-phase-instruction"),
+  triadObserverFocus: document.getElementById("triad-observer-focus"),
+  triadObserverFocusLabel: document.getElementById("triad-observer-focus-label"),
+  triadObserverFocusText: document.getElementById("triad-observer-focus-text"),
+  triadObserverMissLabel: document.getElementById("triad-observer-miss-label"),
+  triadObserverMissText: document.getElementById("triad-observer-miss-text"),
+  triadPassItem: document.getElementById("triad-pass-item"),
+  triadPassConfirmation: document.getElementById("triad-pass-confirmation"),
+  triadPassConfirmationText: document.getElementById("triad-pass-confirmation-text"),
+  triadPassConfirm: document.getElementById("triad-pass-confirm"),
+  triadPassCancel: document.getElementById("triad-pass-cancel"),
+  triadDebrief: document.getElementById("triad-debrief"),
+  triadDebriefEyebrow: document.getElementById("triad-debrief-eyebrow"),
+  triadDebriefTitle: document.getElementById("triad-debrief-title"),
+  triadDebriefTherapistLabel: document.getElementById("triad-debrief-therapist-label"),
+  triadDebriefTherapist: document.getElementById("triad-debrief-therapist"),
+  triadDebriefClientLabel: document.getElementById("triad-debrief-client-label"),
+  triadDebriefClient: document.getElementById("triad-debrief-client"),
+  triadDebriefObserverLabel: document.getElementById("triad-debrief-observer-label"),
+  triadDebriefObserver: document.getElementById("triad-debrief-observer"),
+  triadDebriefGroupLabel: document.getElementById("triad-debrief-group-label"),
+  triadDebriefGroup: document.getElementById("triad-debrief-group"),
+  triadDerole: document.getElementById("triad-derole"),
+  triadCompleteRound: document.getElementById("triad-complete-round"),
+  triadGuideSummaries: document.querySelectorAll(".triad-feedback-guide summary"),
+  triadGuideAttemptItems: document.querySelectorAll('[id$="guide-attempt"]'),
+  triadGuideClientItems: document.querySelectorAll('[id$="guide-client"]'),
+  triadGuideObserverItems: document.querySelectorAll('[id$="guide-observer"]'),
+  triadGuideChoiceItems: document.querySelectorAll('[id$="guide-choice"]'),
+  triadGuideBoundaryItems: document.querySelectorAll('[id$="guide-boundary"]'),
+  triadGuideExampleItems: document.querySelectorAll('[id$="guide-example"]'),
   ratingOverlay: document.getElementById("rating-overlay"),
   ratingPanel: document.getElementById("rating-panel"),
   ratingEyebrow: document.getElementById("rating-eyebrow"),
@@ -225,6 +288,20 @@ const elements = {
   therapistStatus: document.getElementById("therapist-status")
 };
 
+const releaseElements = Object.fromEntries([
+  "progress-overlay", "close-progress", "account-progress",
+  "open-progress", "progress-source", "progress-source-label", "progress-source-self", "progress-source-observer",
+  "progress-rubric", "progress-rubric-label", "progress-rubric-individual", "progress-rubric-group", "progress-rubric-legacy", "progress-rubric-note",
+  "content-load-notice", "content-load-status", "content-load-retry",
+  "last-setup-card", "last-setup-title", "last-setup-details", "repeat-last-setup",
+  "individual-guide", "individual-focus-label", "individual-focus", "individual-instruction",
+  "retry-individual", "individual-example-note",
+  "individual-controls", "triad-controls", "triad-steps", "triad-retry-hint",
+  "practice-format-note", "round-target-note", "triad-debrief-counts", "leave-overlay",
+  "leave-title", "leave-description", "continue-practice", "pause-round", "finish-completed",
+  "rating-scale", "round-outcome", "repeat-round", "unlock-code-label", "triad-observer-guide-title"
+].map((id) => [id, document.getElementById(id)]));
+
 const state = {
   languageId: null,
   skillId: null,
@@ -242,23 +319,37 @@ const state = {
   skillContextExpanded: false,
   activeGlossaryTermId: null,
   completedStatementIds: new Set(),
+  practiceMode: PRACTICE_MODES.INDIVIDUAL,
+  roundStatementIds: [],
+  triadPhase: TRIAD_PHASES.FIRST_ATTEMPT,
+  skippedStatementIds: new Set(),
   resumeSession: null,
+  sessionActive: false,
+  roundId: null,
+  roundTarget: null,
+  roundRaterId: null,
+  ratingError: "",
+  contentLoading: false,
+  contentError: false,
   ratingScore: null,
   ratingSaving: false,
   ratingVisible: false,
   ratingCompletedStatementIds: [],
   ratingSaved: false,
   authConfigured: false,
+  authResolving: true,
   authSession: null,
   authUser: null,
   authProfile: null,
   authTargets: [],
   activeTargetId: null,
   authLoading: false,
-  selfRatings: [],
-  selfRatingsLoading: false,
-  selfRatingsLoaded: false,
-  selfRatingsError: "",
+  progressSource: "self",
+  progressRubric: "individual-mastery-v1",
+  progressRatings: [],
+  progressRatingsLoading: false,
+  progressRatingsLoaded: false,
+  progressRatingsError: "",
   latestPairingCode: null
 };
 
@@ -268,15 +359,17 @@ const languageButtonMap = new Map();
 const skillButtonMap = new Map();
 const caseButtonMap = new Map();
 let activeGlossaryChip = null;
+let contentRequestId = 0;
+let retryContentLoad = null;
 
 const ACCESS_STORAGE_KEY = "dp_access_level";
 const PRACTICE_SESSION_STORAGE_KEY = "dp_practice_session_v1";
 const ACTIVE_TARGET_STORAGE_KEY = "dp_active_therapist_target_v1";
 const PROFILE_NAME_CONFIRMED_STORAGE_KEY = "dp_profile_name_confirmed_v1";
-const PRACTICE_SESSION_VERSION = 1;
-const RATING_RECENCY_HALF_LIFE_DAYS = 90;
-const RATING_MIN_RECENCY_WEIGHT = 0.25;
-const MS_PER_DAY = 24 * 60 * 60 * 1000;
+const PRACTICE_SESSION_VERSION = SESSION_VERSION;
+const LAST_SETUP_STORAGE_KEY = "dp_last_practice_setup_v1";
+const PRACTICE_PREFERENCES_KEY = "dp_practice_preferences_v1";
+let progressRequestId = 0;
 
 const DEFAULT_VISUAL = {
   accent: "#2f6f73",
@@ -624,11 +717,14 @@ function removeStorageItem(key) {
 }
 
 function normalizeSavedSession(raw) {
-  if (!raw || raw.version !== PRACTICE_SESSION_VERSION) return null;
+  const sourceVersion = raw?.version;
+  if (!isResumableSession(raw)) return null;
   const languageId = LANGUAGE_METADATA[raw.languageId] ? raw.languageId : null;
   if (!languageId) return null;
+  const triadFields = normalizeTriadSessionFields(raw, sourceVersion);
   return {
     version: PRACTICE_SESSION_VERSION,
+    status: "active",
     languageId,
     skillId: typeof raw.skillId === "string" ? raw.skillId : null,
     caseId: typeof raw.caseId === "string" ? raw.caseId : null,
@@ -639,6 +735,10 @@ function normalizeSavedSession(raw) {
     completedStatementIds: Array.isArray(raw.completedStatementIds)
       ? raw.completedStatementIds.filter((id) => typeof id === "string")
       : [],
+    ...triadFields,
+    roundId: raw.roundId,
+    roundTarget: normalizePracticeTarget(raw.roundTarget),
+    roundRaterId: typeof raw.roundRaterId === "string" ? raw.roundRaterId : null,
     updatedAt: typeof raw.updatedAt === "string" ? raw.updatedAt : null
   };
 }
@@ -648,9 +748,10 @@ function loadPracticeSession() {
 }
 
 function createPracticeSessionSnapshot() {
-  if (!state.languageId) return null;
+  if (!state.sessionActive || !state.languageId || !state.skillId || !state.caseId) return null;
   return {
     version: PRACTICE_SESSION_VERSION,
+    status: "active",
     languageId: state.languageId,
     skillId: state.skillId,
     caseId: state.caseId,
@@ -659,6 +760,13 @@ function createPracticeSessionSnapshot() {
     index: Number.isInteger(state.index) ? state.index : 0,
     view: state.view === "statements" ? "statements" : "brief",
     completedStatementIds: Array.from(state.completedStatementIds ?? []),
+    practiceMode: normalizePracticeMode(state.practiceMode),
+    roundStatementIds: Array.isArray(state.roundStatementIds) ? state.roundStatementIds : [],
+    triadPhase: state.triadPhase,
+    skippedStatementIds: Array.from(state.skippedStatementIds ?? []),
+    roundId: state.roundId,
+    roundTarget: state.roundTarget,
+    roundRaterId: state.roundRaterId,
     updatedAt: new Date().toISOString()
   };
 }
@@ -678,26 +786,59 @@ function clearPracticeSession() {
 }
 
 function getSessionResumeDetails(session) {
-  if (!session?.skillId || !session.caseId) return null;
+  if (!isResumableSession(session)) return null;
   const skill = localizeSkill(session.languageId, session.skillId);
   const caseData = skill?.cases.find((caseItem) => caseItem.id === session.caseId);
   if (!skill || !caseData) return null;
-  const total = caseData.statements?.length ?? 0;
+  const total = session.practiceMode === PRACTICE_MODES.TRIAD && session.roundStatementIds.length > 0
+    ? session.roundStatementIds.length
+    : caseData.statementCount ?? caseData.statements?.length ?? 0;
   const current = Math.min(Math.max(session.index + 1, 1), Math.max(total, 1));
+  const strings = getUIStrings(session.languageId);
   const completedCount = new Set(session.completedStatementIds ?? []).size;
   return {
     skillName: skill.name,
     caseLabel: caseData.label,
-    counter: total > 0 ? formatCounter(current, total) : "",
+    counter: total > 0 ? strings.counterPattern.replace("{current}", String(current)).replace("{total}", String(total)) : "",
     completedCount
   };
 }
 
+function getLastPracticeSetup() {
+  const saved = readJsonStorage(LAST_SETUP_STORAGE_KEY);
+  if (!saved || !state.languageId) return null;
+  const skill = localizeSkill(state.languageId, saved.skillId);
+  const caseData = skill?.cases.find((item) => item.id === saved.caseId);
+  return caseData ? { skill, caseData, practiceMode: normalizePracticeMode(saved.practiceMode) } : null;
+}
+
+function renderLastPracticeSetup() {
+  const setup = getLastPracticeSetup();
+  const card = releaseElements["last-setup-card"];
+  card.hidden = !setup || Boolean(getSessionResumeDetails(state.resumeSession));
+  if (card.hidden) return;
+  const strings = getUIStrings();
+  releaseElements["last-setup-title"].textContent = strings.lastSetupTitle;
+  releaseElements["last-setup-details"].textContent = [setup.skill.name, setup.caseData.label,
+    setup.practiceMode === PRACTICE_MODES.TRIAD ? strings.practiceModeTriad : strings.practiceModeIndividual
+  ].filter(Boolean).join(" · ");
+  releaseElements["repeat-last-setup"].textContent = strings.repeatLastSetup;
+}
+
+function repeatLastPracticeSetup() {
+  const setup = getLastPracticeSetup();
+  if (!setup || getSessionResumeDetails(state.resumeSession)) return;
+  state.practiceMode = setup.practiceMode;
+  handleSkillSelection(setup.skill.id);
+  handleCaseSelection(setup.caseData.id);
+}
+
 function renderResumeCard() {
+  renderLastPracticeSetup();
   if (!elements.resumeCard || !elements.resumeDetails) return;
   const session = state.resumeSession;
   const details = getSessionResumeDetails(session);
-  const visible = Boolean(details);
+  const visible = Boolean(details) && document.body.dataset.section !== "practice";
   elements.resumeCard.hidden = !visible;
   elements.resumeCard.classList.toggle("is-hidden", !visible);
   if (!visible) {
@@ -717,13 +858,20 @@ function renderResumeCard() {
   const completed = details.completedCount > 0
     ? ` · ${details.completedCount} ${strings.completedShort ?? "done"}`
     : "";
+  const phaseIndex = [TRIAD_PHASES.FIRST_ATTEMPT, TRIAD_PHASES.CLIENT_FEEDBACK, TRIAD_PHASES.OBSERVER_FEEDBACK, TRIAD_PHASES.RETRY].indexOf(session.triadPhase);
+  const phase = session.triadPhase === TRIAD_PHASES.ROUND_DEBRIEF ? strings.resumeDebrief
+    : (session.skillId === "therapist-self-awareness" ? strings.selfAwarenessSteps : strings.triadSteps)[phaseIndex];
   elements.resumeDetails.textContent =
-    `${details.skillName} · ${details.caseLabel} · ${details.counter}${completed}`;
+    `${details.skillName} · ${details.caseLabel} · ${details.counter}${completed}`
+    + (session.practiceMode === PRACTICE_MODES.TRIAD ? ` · ${strings.practiceModeTriad} · ${phase}` : "");
 }
 
 function restoreOrderFromSession(session, caseData) {
   const statements = caseData?.statements ?? [];
   if (!statements.length) return [];
+  if (session?.practiceMode === PRACTICE_MODES.TRIAD) {
+    return restoreStatementsById(statements, session.roundStatementIds);
+  }
   if (!session?.orderShuffled) {
     return [...statements];
   }
@@ -744,6 +892,10 @@ function applyPracticeSession(session) {
     clearPracticeSession();
     return;
   }
+  state.sessionActive = true;
+  state.roundId = getOrCreateRoundId(normalized.roundId);
+  state.roundTarget = normalized.roundTarget;
+  state.roundRaterId = normalized.roundRaterId;
   state.languageId = normalized.languageId;
   state.skillId = normalized.skillId;
   state.caseId = normalized.caseId;
@@ -753,6 +905,10 @@ function applyPracticeSession(session) {
   state.view = normalized.view;
   state.currentStatement = null;
   state.completedStatementIds = new Set(normalized.completedStatementIds ?? []);
+  state.practiceMode = normalized.practiceMode;
+  state.roundStatementIds = normalized.roundStatementIds;
+  state.triadPhase = normalized.triadPhase;
+  state.skippedStatementIds = new Set(normalized.skippedStatementIds ?? []);
   state.ratingScore = null;
   state.ratingVisible = false;
   state.ratingCompletedStatementIds = [];
@@ -768,10 +924,89 @@ function applyPracticeSession(session) {
   showSection("practice");
 }
 
+function renderContentLoadStatus() {
+  const strings = getUIStrings();
+  releaseElements["content-load-notice"].hidden = !state.contentLoading && !state.contentError;
+  releaseElements["content-load-status"].textContent = state.contentLoading ? strings.contentLoading
+    : state.contentError ? strings.contentLoadFailed : "";
+  releaseElements["content-load-retry"].hidden = !state.contentError;
+  releaseElements["content-load-retry"].textContent = strings.contentLoadRetry;
+  elements.resumeButton.disabled = state.contentLoading;
+}
+
+function cancelContentLoad() {
+  contentRequestId += 1;
+  state.contentLoading = false;
+  state.contentError = false;
+  retryContentLoad = null;
+  renderContentLoadStatus();
+}
+
+async function prepareSkillContent(languageId, skillId, afterLoad = null) {
+  const requestId = ++contentRequestId;
+  const isCurrent = () => requestId === contentRequestId;
+  state.contentLoading = !hasPracticeContent(languageId, skillId);
+  state.contentError = false;
+  retryContentLoad = () => prepareSkillContent(languageId, skillId, afterLoad);
+  const returnFocusToStart = document.activeElement === releaseElements["content-load-retry"] && !afterLoad;
+  renderContentLoadStatus();
+  renderPracticeFormatUI();
+  try {
+    await loadPracticeContent(languageId, skillId);
+    if (!isCurrent()) return;
+    state.contentLoading = false;
+    retryContentLoad = null;
+    if (afterLoad) afterLoad();
+    else if (state.skillId === skillId && state.languageId === languageId && state.caseId && !state.sessionActive) hydratePracticeView();
+  } catch {
+    if (isCurrent()) { state.contentLoading = false; state.contentError = true; }
+  } finally {
+    if (isCurrent()) {
+      renderContentLoadStatus();
+      renderPracticeFormatUI();
+      if (returnFocusToStart && !state.contentError && state.caseId && document.body.dataset.section === "practice") {
+        elements.startPracticeButton.focus();
+      }
+    }
+  }
+}
+
+function resumePracticeSession() {
+  const session = state.resumeSession;
+  if (!isResumableSession(session)) return;
+  prepareSkillContent(session.languageId, session.skillId, () => {
+    if (state.resumeSession === session) applyPracticeSession(session);
+  });
+}
+
 function markCurrentStatementCompleted() {
   const statementId = state.currentStatement?.id;
   if (!statementId) return;
   state.completedStatementIds.add(statementId);
+}
+
+function isTriadPractice() {
+  return state.practiceMode === PRACTICE_MODES.TRIAD;
+}
+
+function resetTriadRoundState() {
+  state.roundStatementIds = [];
+  state.triadPhase = TRIAD_PHASES.FIRST_ATTEMPT;
+  state.skippedStatementIds = new Set();
+}
+
+function resolveTriadRoundOrder(statements) {
+  const restored = restoreStatementsById(statements, state.roundStatementIds);
+  if (restored.length === Math.min(3, statements.length) && restored.length > 0) {
+    return restored;
+  }
+  const sampled = sampleTriadStatements(statements, 3);
+  state.roundStatementIds = sampled.map((statement) => statement.id).filter(Boolean);
+  state.index = 0;
+  state.completedStatementIds = new Set();
+  state.skippedStatementIds = new Set();
+  state.triadPhase = TRIAD_PHASES.FIRST_ATTEMPT;
+  return sampled;
 }
 
 function renderAppVersion() {
@@ -856,7 +1091,7 @@ function getSignedInLabel() {
 }
 
 function getActiveTargetLabel() {
-  const target = getActiveTarget();
+  const target = state.sessionActive ? state.roundTarget : getActiveTarget();
   if (!target) return "";
   const strings = getUIStrings();
   const name = getTargetDisplayName(target) || strings.meLabel || "Me";
@@ -864,7 +1099,7 @@ function getActiveTargetLabel() {
 }
 
 function getHeaderActiveTargetLabel() {
-  const target = getActiveTarget();
+  const target = state.sessionActive ? state.roundTarget : getActiveTarget();
   if (!target) return "";
   const strings = getUIStrings();
   const name = getTargetDisplayName(target) || strings.meLabel || "Me";
@@ -959,7 +1194,7 @@ function renderProfilePlacement() {
   }
 
   if (elements.authSignedIn && elements.selfChartSection) {
-    elements.authSignedIn.insertBefore(elements.profileForm, elements.selfChartSection);
+    elements.authSignedIn.insertBefore(elements.profileForm, releaseElements["account-progress"]);
   }
   elements.profileForm.classList.remove("profile-form--bottom");
 }
@@ -1017,106 +1252,13 @@ function getChartSkillLabelLines(skillId) {
 }
 
 function renderChartLabel(x, y, lines) {
-  const lineHeight = 7.4;
+  const lineHeight = 9.4;
   const firstDy = lines.length > 1 ? -((lines.length - 1) * lineHeight) / 2 : 0;
   const tspans = lines.map((line, index) => {
     const dy = index === 0 ? firstDy : lineHeight;
     return `<tspan x="${x}" dy="${dy.toFixed(1)}">${escapeMarkup(line)}</tspan>`;
   }).join("");
   return `<text x="${x}" y="${y}" class="self-chart-label">${tspans}</text>`;
-}
-
-function getRatingItemCount(rating) {
-  const itemCount = Number(rating?.item_count);
-  if (Number.isFinite(itemCount) && itemCount > 0) {
-    return Math.max(1, Math.round(itemCount));
-  }
-  return 1;
-}
-
-function getRatingRecencyWeight(rating, nowMs) {
-  const createdMs = Date.parse(rating?.created_at ?? "");
-  if (!Number.isFinite(createdMs)) return 1;
-  const ageDays = Math.max(0, (nowMs - createdMs) / MS_PER_DAY);
-  return Math.max(
-    RATING_MIN_RECENCY_WEIGHT,
-    Math.pow(0.5, ageDays / RATING_RECENCY_HALF_LIFE_DAYS)
-  );
-}
-
-function createRatingSummary(extra = {}) {
-  return {
-    ...extra,
-    total: 0,
-    weight: 0,
-    count: 0,
-    ratingCount: 0
-  };
-}
-
-function addRatingToSummary(summary, score, itemCount, recencyWeight) {
-  const weightedItems = itemCount * recencyWeight;
-  summary.total += score * weightedItems;
-  summary.weight += weightedItems;
-  summary.count += itemCount;
-  summary.ratingCount += 1;
-}
-
-function finalizeRatingSummary(entry) {
-  return {
-    ...entry,
-    average: entry.weight ? entry.total / entry.weight : 0
-  };
-}
-
-function summarizeRatings(ratings) {
-  const bySkill = new Map();
-  const byDifficulty = new Map();
-  const bySkillDifficulty = new Map();
-  const overall = createRatingSummary();
-  const nowMs = Date.now();
-  (ratings ?? []).forEach((rating) => {
-    const score = Number(rating?.score);
-    if (!Number.isFinite(score)) return;
-    const itemCount = getRatingItemCount(rating);
-    const recencyWeight = getRatingRecencyWeight(rating, nowMs);
-    addRatingToSummary(overall, score, itemCount, recencyWeight);
-    const skillId = rating.skill_id ?? "";
-    if (skillId) {
-      const skillSummary = bySkill.get(skillId) ?? createRatingSummary({ skillId });
-      addRatingToSummary(skillSummary, score, itemCount, recencyWeight);
-      bySkill.set(skillId, skillSummary);
-    }
-    const difficulty = rating.difficulty ?? "";
-    if (difficulty) {
-      const difficultySummary = byDifficulty.get(difficulty) ?? createRatingSummary({ difficulty });
-      addRatingToSummary(difficultySummary, score, itemCount, recencyWeight);
-      byDifficulty.set(difficulty, difficultySummary);
-    }
-    if (skillId && difficulty) {
-      const key = `${skillId}:${difficulty}`;
-      const skillDifficultySummary = bySkillDifficulty.get(key) ?? createRatingSummary({ skillId, difficulty });
-      addRatingToSummary(skillDifficultySummary, score, itemCount, recencyWeight);
-      bySkillDifficulty.set(key, skillDifficultySummary);
-    }
-  });
-  const difficultyOrder = ["easy", "moderate", "hard"];
-  return {
-    overall: finalizeRatingSummary(overall),
-    skills: SKILL_ORDER
-      .map((skillId) => bySkill.get(skillId) ?? createRatingSummary({ skillId }))
-      .map(finalizeRatingSummary),
-    difficulties: difficultyOrder
-      .map((difficulty) => byDifficulty.get(difficulty) ?? createRatingSummary({ difficulty }))
-      .map(finalizeRatingSummary),
-    skillDifficulties: SKILL_ORDER.map((skillId) => ({
-      skillId,
-      difficulties: difficultyOrder.map((difficulty) => {
-        const entry = bySkillDifficulty.get(`${skillId}:${difficulty}`) ?? createRatingSummary({ skillId, difficulty });
-        return finalizeRatingSummary(entry);
-      })
-    })).filter((row) => row.difficulties.some((entry) => entry.count > 0))
-  };
 }
 
 function polarPoint(cx, cy, radius, index, total) {
@@ -1133,15 +1275,29 @@ function pointsToAttribute(points) {
 
 function renderSelfRatingsChart() {
   const strings = getUIStrings();
+  releaseElements["close-progress"].setAttribute("aria-label", strings.close);
+  releaseElements["account-progress"].textContent = strings.selfChartTitle;
+  releaseElements["progress-source-label"].textContent = strings.progressSourceLabel;
+  releaseElements["progress-source-self"].textContent = strings.progressSelf;
+  releaseElements["progress-source-observer"].textContent = strings.progressObserver;
+  releaseElements["progress-source"].value = state.progressSource;
+  releaseElements["progress-rubric"].value = state.progressRubric;
+  releaseElements["progress-rubric-label"].textContent = strings.progressRubricLabel;
+  releaseElements["progress-rubric-individual"].textContent = strings.progressRubricIndividual;
+  releaseElements["progress-rubric-group"].textContent = strings.progressRubricGroup;
+  releaseElements["progress-rubric-legacy"].textContent = strings.progressRubricLegacy;
+  releaseElements["progress-rubric-note"].textContent = state.progressRubric === "legacy"
+    ? strings.progressRubricLegacyNote : state.progressRubric === "group-consistency-v1"
+    ? strings.triadRatingScoreGuide : strings.ratingScoreGuide;
   if (elements.selfChartTitle) {
     elements.selfChartTitle.textContent = strings.selfChartTitle ?? "Your progress";
   }
   if (elements.selfChartDescription) {
-    elements.selfChartDescription.textContent = strings.selfChartDescription ?? "Self-ratings only.";
+    elements.selfChartDescription.textContent = state.progressSource === "observer" ? strings.progressObserverDescription : strings.selfChartDescription;
   }
   if (elements.selfChartRefresh) {
     elements.selfChartRefresh.textContent = strings.selfChartRefresh ?? "Refresh";
-    elements.selfChartRefresh.disabled = !state.authUser || state.selfRatingsLoading;
+    elements.selfChartRefresh.disabled = !state.authUser || state.progressRatingsLoading;
   }
   if (!elements.selfChart || !elements.selfChartStatus) return;
 
@@ -1150,36 +1306,33 @@ function renderSelfRatingsChart() {
     elements.selfChartStatus.textContent = strings.selfChartSignIn ?? "Sign in to see your self-rating chart.";
     return;
   }
-  if (state.selfRatingsLoading) {
+  if (state.progressRatingsLoading) {
     elements.selfChartStatus.textContent = strings.selfChartLoading ?? "Loading chart...";
     return;
   }
-  if (state.selfRatingsError) {
-    elements.selfChartStatus.textContent = state.selfRatingsError;
+  if (state.progressRatingsError) {
+    elements.selfChartStatus.textContent = state.progressRatingsError;
     return;
   }
-  if (!state.selfRatingsLoaded) {
+  if (!state.progressRatingsLoaded) {
     elements.selfChartStatus.textContent = strings.selfChartNotLoaded ?? "Open your account to load the chart.";
     return;
   }
-  if (!state.selfRatings.length) {
-    elements.selfChartStatus.textContent = strings.selfChartEmpty ?? "No self-ratings yet.";
-    return;
-  }
-
-  const summary = summarizeRatings(state.selfRatings);
-  const ratedSkills = summary.skills.filter((entry) => entry.count > 0);
+  const summary = summarizeRatings(state.progressRatings, SKILL_ORDER);
+  const ratedSkills = summary.skills;
   elements.selfChartStatus.textContent = [
-    formatChartTemplate(strings.selfChartAverage ?? "{score}/5 weighted average", { score: summary.overall.average.toFixed(1) }),
+    formatChartTemplate(strings.selfChartAverage ?? "{score}/5 weighted average", { score: (summary.overall.average ?? 0).toFixed(1) }),
     formatChartTemplate(strings.selfChartCount ?? "{count} items practiced", { count: summary.overall.count })
   ].join(" · ");
+  if (!summary.overall.count) {
+    elements.selfChartStatus.textContent = state.progressRubric !== "legacy" ? strings.progressScaleEmpty
+      : state.progressSource === "observer" ? strings.progressObserverEmpty : strings.selfChartEmpty;
+  }
 
-  if (!ratedSkills.length) return;
-
-  const size = 250;
+  const size = 320;
   const center = size / 2;
-  const maxRadius = 80;
-  const labelRadius = maxRadius + 30;
+  const maxRadius = 100;
+  const labelRadius = maxRadius + 32;
   const axisCount = ratedSkills.length;
   const gridRadii = [0.2, 0.4, 0.6, 0.8, 1];
   const grid = gridRadii.map((ratio) => {
@@ -1191,9 +1344,21 @@ function renderSelfRatingsChart() {
     return `<line x1="${center}" y1="${center}" x2="${point.x.toFixed(1)}" y2="${point.y.toFixed(1)}" class="self-chart-axis"></line>`;
   }).join("");
   const valuePoints = ratedSkills.map((entry, index) => {
+    if (!entry.count) return null;
     const ratio = Math.max(0, Math.min(1, entry.average / 5));
     return polarPoint(center, center, maxRadius * ratio, index, axisCount);
   });
+  const complete = valuePoints.every(Boolean);
+  const segments = valuePoints.map((point, index) => {
+    const next = valuePoints[(index + 1) % axisCount];
+    return point && next ? `<line x1="${point.x}" y1="${point.y}" x2="${next.x}" y2="${next.y}" class="self-chart-value-line" />` : "";
+  }).join("");
+  const dots = valuePoints.map((point, index) => {
+    const missing = !point;
+    const position = point ?? polarPoint(center, center, maxRadius, index, axisCount);
+    const label = `${getLocalizedSkillName(ratedSkills[index].skillId)}: ${missing ? strings.progressUnrated : ratedSkills[index].average.toFixed(1) + '/5'}`;
+    return `<circle cx="${position.x}" cy="${position.y}" r="${missing ? 2.5 : 3.5}" class="${missing ? 'self-chart-missing' : 'self-chart-dot'}"><title>${escapeMarkup(label)}</title></circle>`;
+  }).join("");
   const labels = ratedSkills.map((entry, index) => {
     const point = polarPoint(center, center, labelRadius, index, axisCount);
     return renderChartLabel(
@@ -1212,7 +1377,10 @@ function renderSelfRatingsChart() {
   svg.innerHTML = `
     ${grid}
     ${axes}
-    <polygon points="${pointsToAttribute(valuePoints)}" class="self-chart-area"></polygon>
+    ${complete ? `<polygon points="${pointsToAttribute(valuePoints)}" class="self-chart-area"></polygon>` : segments}
+    ${dots}
+    <text x="${center + 4}" y="${center - maxRadius + 12}" class="self-chart-scale">5</text>
+    <text x="${center + 4}" y="${center - maxRadius / 5}" class="self-chart-scale">1</text>
     ${labels}
   `;
 
@@ -1277,29 +1445,103 @@ function renderSelfRatingsChart() {
   });
   matrix.appendChild(matrixGrid);
 
-  elements.selfChart.append(svg, difficultyList, matrix);
+  const legend = document.createElement("p");
+  legend.className = "response-hint";
+  legend.textContent = strings.progressLegend;
+  const methods = document.createElement("details");
+  methods.className = "progress-methods";
+  const methodsTitle = document.createElement("summary");
+  methodsTitle.textContent = strings.progressMethods;
+  const explanation = document.createElement("p");
+  explanation.className = "response-hint";
+  explanation.textContent = strings.progressMethodDescription;
+  methods.append(methodsTitle, explanation, difficultyList, matrix);
+  elements.selfChart.append(svg, legend, renderProgressHistory(summary), methods);
 }
 
-async function loadSelfRatings({ force = false } = {}) {
-  if (!state.authUser || state.selfRatingsLoading) {
+function renderProgressHistory(summary) {
+  const strings = getUIStrings();
+  const container = document.createElement("section");
+  container.className = "progress-history";
+  const title = document.createElement("h5");
+  title.textContent = strings.progressHistory;
+  container.append(title);
+  if (state.sessionActive || state.ratingVisible) {
+    const note = document.createElement("p");
+    note.className = "response-hint";
+    note.textContent = strings.progressFinishFirst;
+    container.append(note);
+  }
+  for (const entry of summary.skills) {
+    const row = document.createElement("article");
+    row.className = "progress-skill";
+    const heading = document.createElement("h6");
+    heading.textContent = getLocalizedSkillName(entry.skillId);
+    const stats = document.createElement("p");
+    stats.textContent = entry.count ? formatChartTemplate(strings.progressSkillStats, {
+      score: entry.average.toFixed(1), ratings: entry.ratingCount, items: entry.count
+    }) : strings.progressUnrated;
+    const recent = document.createElement("p");
+    recent.className = "response-hint";
+    if (entry.latest) {
+      const date = new Intl.DateTimeFormat(getLanguageDefinition(state.languageId ?? "en").locale, {
+        day: "numeric", month: "short", year: "numeric"
+      }).format(new Date(entry.latest.created_at));
+      const difficulty = entry.latest.difficulty;
+      const difficultyLabel = strings[`difficulty${difficulty?.[0]?.toUpperCase()}${difficulty?.slice(1)}`] ?? "";
+      recent.textContent = formatChartTemplate(strings.progressLatest, { date, score: entry.latest.score, difficulty: difficultyLabel });
+    }
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "ghost-button ghost-button--small";
+    button.textContent = strings.progressPractice;
+    button.setAttribute("aria-label", `${strings.progressPractice}: ${getLocalizedSkillName(entry.skillId)}`);
+    button.dataset.practiceSkill = entry.skillId;
+    button.disabled = state.sessionActive || state.ratingVisible;
+    button.addEventListener("click", () => {
+      if (state.sessionActive || state.ratingVisible) return;
+      dialogs.close(releaseElements["progress-overlay"]);
+      // This is the signed-in therapist's history, even when currently observing a partner.
+      state.activeTargetId = state.authUser.id;
+      saveActiveTargetId(state.activeTargetId);
+      if (!state.languageId) handleLanguageSelection("en");
+      handleSkillSelection(entry.skillId);
+    });
+    row.append(heading, stats, recent, button);
+    container.append(row);
+  }
+  return container;
+}
+
+async function loadProgressRatings({ force = false } = {}) {
+  if (!state.authUser || (state.progressRatingsLoading && !force)) {
     renderSelfRatingsChart();
     return;
   }
-  if (state.selfRatingsLoaded && !force) {
+  if (state.progressRatingsLoaded && !force) {
     renderSelfRatingsChart();
     return;
   }
-  state.selfRatingsLoading = true;
-  state.selfRatingsError = "";
+  const requestId = ++progressRequestId;
+  const userId = state.authUser.id;
+  const source = state.progressSource;
+  const rubric = state.progressRubric;
+  const isCurrent = () => requestId === progressRequestId && state.authUser?.id === userId && state.progressSource === source && state.progressRubric === rubric;
+  state.progressRatingsLoading = true;
+  state.progressRatingsError = "";
   renderSelfRatingsChart();
   try {
-    state.selfRatings = await listSelfPracticeRatings();
-    state.selfRatingsLoaded = true;
-  } catch (err) {
-    state.selfRatingsError = err?.message ?? getUIStrings().selfChartError ?? "Unable to load chart.";
+    const ratings = await listPracticeRatings({ source, rubric });
+    if (!isCurrent()) return;
+    state.progressRatings = ratings;
+    state.progressRatingsLoaded = true;
+  } catch {
+    if (isCurrent()) state.progressRatingsError = getUIStrings().selfChartError;
   } finally {
-    state.selfRatingsLoading = false;
-    renderSelfRatingsChart();
+    if (isCurrent()) {
+      state.progressRatingsLoading = false;
+      renderSelfRatingsChart();
+    }
   }
 }
 
@@ -1313,39 +1555,42 @@ function setAuthStatus(message) {
   }
 }
 
+function showProgressPanel() {
+  if (!state.authUser) { showAccountPanel(); return; }
+  hideAccountPanel();
+  hideTherapistPanel();
+  renderSelfRatingsChart();
+  loadProgressRatings().catch(() => {});
+  dialogs.open(releaseElements["progress-overlay"], {
+    onDismiss: () => dialogs.close(releaseElements["progress-overlay"]),
+    initialFocus: elements.selfChartTitle
+  });
+}
+
 function showAccountPanel() {
   if (!elements.accountOverlay) return;
-  elements.accountOverlay.hidden = false;
-  elements.accountOverlay.classList.remove("is-hidden");
   hideTherapistPanel();
   renderAuthUI();
-  loadSelfRatings().catch(() => {});
-  if (!state.authUser && elements.authEmail) {
-    elements.authEmail.focus();
-  }
+  dialogs.open(elements.accountOverlay, { onDismiss: hideAccountPanel,
+    initialFocus: state.authUser ? elements.closeAccountButton : elements.authEmail });
 }
 
 function hideAccountPanel() {
   if (!elements.accountOverlay) return;
-  elements.accountOverlay.hidden = true;
-  elements.accountOverlay.classList.add("is-hidden");
+  dialogs.close(elements.accountOverlay);
 }
 
 function showTherapistPanel() {
   if (!elements.therapistOverlay) return;
-  elements.therapistOverlay.hidden = false;
-  elements.therapistOverlay.classList.remove("is-hidden");
   hideAccountPanel();
   renderAuthUI();
-  if (state.authUser && elements.activeTargetSelect) {
-    elements.activeTargetSelect.focus();
-  }
+  dialogs.open(elements.therapistOverlay, { onDismiss: hideTherapistPanel,
+    initialFocus: elements.closeTherapistButton });
 }
 
 function hideTherapistPanel() {
   if (!elements.therapistOverlay) return;
-  elements.therapistOverlay.hidden = true;
-  elements.therapistOverlay.classList.add("is-hidden");
+  dialogs.close(elements.therapistOverlay);
 }
 
 function handleAccountPillClick() {
@@ -1359,6 +1604,8 @@ function handleAccountPillClick() {
 function renderAuthUI() {
   const strings = getUIStrings();
   const signedIn = Boolean(state.authUser);
+  releaseElements["open-progress"].hidden = !signedIn;
+  releaseElements["open-progress"].textContent = strings.selfChartTitle;
   const configured = isSupabaseReady();
 
   if (elements.accountButton) {
@@ -1495,6 +1742,7 @@ function renderAuthUI() {
     elements.partnersTitle.textContent = strings.partnersTitle ?? "Paired therapists";
   }
 
+  renderPracticeFormatUI();
   renderActiveTargetSelect();
   renderPartnerList();
   renderSelfRatingsChart();
@@ -1520,7 +1768,10 @@ function renderActiveTargetSelect() {
     option.selected = option.value === state.activeTargetId;
     elements.activeTargetSelect.appendChild(option);
   });
-  elements.activeTargetSelect.disabled = state.authTargets.length === 0;
+  elements.activeTargetSelect.disabled = state.authTargets.length === 0 || state.sessionActive || state.ratingVisible;
+  if (state.sessionActive) {
+    elements.activeTargetHint.textContent = strings.targetLocked;
+  }
 }
 
 function renderPartnerList() {
@@ -1594,26 +1845,34 @@ async function refreshPracticeTargets() {
 }
 
 async function applyAuthSession(session) {
+  state.authResolving = true;
+  progressRequestId += 1;
+  state.progressSource = "self";
+  state.progressRubric = "individual-mastery-v1";
   state.authSession = session ?? null;
   state.authUser = session?.user ?? null;
   state.authProfile = null;
   state.authTargets = [];
   state.activeTargetId = null;
-  state.selfRatings = [];
-  state.selfRatingsLoading = false;
-  state.selfRatingsLoaded = false;
-  state.selfRatingsError = "";
+  state.progressRatings = [];
+  state.progressRatingsLoading = false;
+  state.progressRatingsLoaded = false;
+  state.progressRatingsError = "";
 
   if (!state.authUser) {
+    state.authResolving = false;
     renderAuthUI();
     return;
   }
 
+  renderAuthUI();
   try {
     state.authProfile = await ensureUserProfile(null);
     await refreshPracticeTargets();
+    state.authResolving = false;
     renderAuthUI();
   } catch (err) {
+    state.authResolving = false;
     setAuthStatus(err?.message ?? "Unable to load account.");
     renderAuthUI();
   }
@@ -1622,7 +1881,7 @@ async function applyAuthSession(session) {
 async function initializeAuth() {
   state.authConfigured = isSupabaseReady();
   renderAuthUI();
-  if (!state.authConfigured) return;
+  if (!state.authConfigured) { state.authResolving = false; renderAuthUI(); return; }
   try {
     const session = await getAuthSession();
     await applyAuthSession(session);
@@ -1633,6 +1892,9 @@ async function initializeAuth() {
     });
   } catch (err) {
     setAuthStatus(err?.message ?? "Unable to load account.");
+  } finally {
+    state.authResolving = false;
+    renderAuthUI();
   }
 }
 
@@ -1679,14 +1941,16 @@ async function handleSignOut() {
   const strings = getUIStrings();
   try {
     await signOut();
+    progressRequestId += 1;
+    state.progressRatingsLoading = false;
     state.authSession = null;
     state.authUser = null;
     state.authProfile = null;
     state.authTargets = [];
     state.activeTargetId = null;
-    state.selfRatings = [];
-    state.selfRatingsLoaded = false;
-    state.selfRatingsError = "";
+    state.progressRatings = [];
+    state.progressRatingsLoaded = false;
+    state.progressRatingsError = "";
     renderAuthUI();
     setAuthStatus(strings.signedOut ?? "Signed out.");
   } catch (err) {
@@ -1812,10 +2076,6 @@ function getUIStrings(languageId = state.languageId ?? "en") {
 
 function getOverrides(languageId) {
   return LANGUAGE_OVERRIDES[languageId] ?? {};
-}
-
-function getStatementTranslations(languageId) {
-  return STATEMENT_TRANSLATIONS[languageId] ?? {};
 }
 
 function getCaseFormulationTranslations(languageId) {
@@ -1961,7 +2221,7 @@ function localizeSkill(languageId, skillId) {
   const cases = CASE_ORDER[skillId].map((caseId) => {
     const baseCase = baseSkill.cases[caseId];
     if (!baseCase) return null;
-    const caseOverride = overrides.cases?.[caseId] ?? {};
+    const caseOverride = overrides.cases?.[caseId] ?? CASE_OVERRIDES[languageId]?.[caseId] ?? {};
     const caseFormulationOverride = getCaseFormulationTranslations(languageId)[caseId] ?? {};
     return {
       id: caseId,
@@ -1980,9 +2240,8 @@ function localizeSkill(languageId, skillId) {
       practiceEdge: caseOverride.practiceEdge ?? baseCase.practiceEdge ?? "",
       style: caseOverride.style ?? baseCase.style,
       voice: caseOverride.voice ?? baseCase.voice,
-      dossier: caseOverride.dossier ?? baseCase.dossier ?? "",
-      caseBible: baseCase.caseBible ?? null,
-      statements: localizeStatements(languageId, baseCase.statements)
+      statementCount: baseCase.statementCount,
+      statements: getPracticeStatements(languageId, skillId, caseId)
     };
   }).filter(Boolean);
 
@@ -1999,28 +2258,6 @@ function localizeSkill(languageId, skillId) {
   };
 }
 
-function localizeStatements(languageId, baseStatements) {
-  const translationMap = getStatementTranslations(languageId);
-
-  return (baseStatements ?? []).map((entry) => {
-    if (languageId !== "en" && entry.revision && STATEMENT_TRANSLATION_REVISION !== entry.revision) {
-      return entry;
-    }
-    const t = translationMap[entry.id];
-    if (typeof t === "string") {
-      return { ...entry, text: t };
-    }
-    if (t && typeof t === "object") {
-      return {
-        ...entry,
-        text: typeof t.text === "string" ? t.text : entry.text,
-        suggestion: typeof t.suggestion === "string" ? t.suggestion : entry.suggestion
-      };
-    }
-    return entry;
-  });
-}
-
 function getCurrentSkill() {
   if (!state.skillId) return null;
   const languageId = state.languageId ?? "en";
@@ -2034,13 +2271,17 @@ function getCurrentCase() {
 }
 
 function showSection(sectionKey) {
+  if (sectionKey === "skill" || sectionKey === "language") cancelContentLoad();
   Object.entries(sections).forEach(([key, el]) => {
     const shouldShow = key === sectionKey;
     el.classList.toggle("is-hidden", !shouldShow);
     el.hidden = !shouldShow;
   });
   document.body.dataset.section = sectionKey;
+  renderResumeCard();
   renderAuthUI();
+  const heading = sections[sectionKey]?.querySelector("h2");
+  if (heading) { heading.tabIndex = -1; heading.focus({ preventScroll: true }); }
   window.scrollTo({ top: 0, left: 0, behavior: "auto" });
 }
 
@@ -2049,6 +2290,48 @@ function getFirstParagraph(text) {
     .split(/\n\s*\n/)
     .map((part) => part.trim())
     .find(Boolean) ?? "";
+}
+
+function setTextForElements(collection, text) {
+  Array.from(collection ?? []).forEach((element) => {
+    element.textContent = text ?? "";
+  });
+}
+
+function isPracticeAccountPending() {
+  return state.authResolving || Boolean(state.authUser && !getActiveTarget());
+}
+
+function renderPracticeFormatUI() {
+  const triad = isTriadPractice();
+  const strings = getUIStrings();
+  elements.practiceFormat.disabled = state.sessionActive;
+  releaseElements["practice-format-note"].hidden = !state.sessionActive;
+  releaseElements["practice-format-note"].textContent = strings.formatLocked;
+  const waitingForAccount = !state.sessionActive && isPracticeAccountPending();
+  const waitingForContent = !hasPracticeContent(state.languageId, state.skillId);
+  elements.startPracticeButton.disabled = waitingForAccount || waitingForContent;
+  elements.startPracticeButton.textContent = waitingForContent
+    ? state.contentError ? strings.contentUnavailable : strings.contentLoading
+    : waitingForAccount
+    ? state.authResolving ? strings.accountLoading : strings.accountUnavailableShort
+    : state.sessionActive ? strings.continuePractice : strings.startPractice;
+  elements.startPracticeButton.setAttribute("aria-label", elements.startPracticeButton.textContent);
+  const target = state.sessionActive ? state.roundTarget : getActiveTarget();
+  releaseElements["round-target-note"].textContent = waitingForAccount
+    ? state.authResolving ? strings.accountLoading : strings.accountUnavailable
+    : target
+    ? strings.roundFor.replace("{name}", getTargetDisplayName(target) || strings.meLabel)
+    : strings.roundLocal;
+  Array.from(elements.practiceModeInputs ?? []).forEach((input) => {
+    input.checked = input.value === state.practiceMode;
+    input.closest(".practice-format-option")?.classList.toggle("is-selected", input.checked);
+  });
+  if (elements.triadOrientation) {
+    elements.triadOrientation.hidden = !triad;
+    elements.triadOrientation.classList.toggle("is-hidden", !triad);
+    elements.triadOrientationText.textContent = isSelfAwareness() ? strings.selfAwarenessOrientation : strings.triadOrientation;
+  }
 }
 
 function applyLanguageStrings(languageId) {
@@ -2144,6 +2427,36 @@ function applyLanguageStrings(languageId) {
       strings.casePracticeEdgeLabel ?? "What to listen for";
   }
   elements.caseVoiceHeading.textContent = strings.clientVoiceHeading ?? "Client Voice";
+  if (elements.practiceFormatLabel) {
+    elements.practiceFormatLabel.textContent = strings.practiceFormatLabel ?? "Practice format";
+  }
+  if (elements.practiceModeIndividual) {
+    elements.practiceModeIndividual.textContent = strings.practiceModeIndividual ?? "Individual";
+  }
+  if (elements.practiceModeIndividualDescription) {
+    elements.practiceModeIndividualDescription.textContent =
+      strings.practiceModeIndividualDescription ?? "Practice the full set at your own pace.";
+  }
+  if (elements.practiceModeTriad) {
+    elements.practiceModeTriad.textContent = strings.practiceModeTriad ?? "Group of three";
+  }
+  if (elements.practiceModeTriadDescription) {
+    elements.practiceModeTriadDescription.textContent =
+      strings.practiceModeTriadDescription ?? "Practice three items with feedback and retry.";
+  }
+  if (elements.triadOrientationTitle) {
+    elements.triadOrientationTitle.textContent = strings.triadOrientationTitle ?? "How the group practices";
+  }
+  if (elements.triadOrientationText) {
+    elements.triadOrientationText.textContent = strings.triadOrientation ?? "";
+  }
+  setTextForElements(elements.triadGuideSummaries, strings.triadFeedbackGuideTitle ?? "Feedback guide");
+  setTextForElements(elements.triadGuideAttemptItems, strings.triadGuideAttempt ?? "");
+  setTextForElements(elements.triadGuideClientItems, strings.triadGuideClient ?? "");
+  setTextForElements(elements.triadGuideObserverItems, strings.triadGuideObserver ?? "");
+  setTextForElements(elements.triadGuideChoiceItems, strings.triadGuideChoice ?? "");
+  setTextForElements(elements.triadGuideBoundaryItems, strings.triadGuideBoundary ?? "");
+  setTextForElements(elements.triadGuideExampleItems, strings.triadGuideExample ?? "");
   elements.startPracticeButton.textContent = strings.startPractice ?? "Begin Practice";
   elements.viewCaseBriefButton.textContent = strings.viewCaseBrief ?? "View Case Brief";
   elements.startPracticeButton.setAttribute(
@@ -2175,6 +2488,57 @@ function applyLanguageStrings(languageId) {
       "aria-label",
       strings.suggestionHiddenLabel ?? strings.showSuggestion
     );
+  }
+  if (elements.triadSuggestionNote) {
+    elements.triadSuggestionNote.textContent = strings.triadSuggestionExampleNote ?? "";
+  }
+  if (elements.triadPassItem) {
+    elements.triadPassItem.textContent = strings.triadPassItem ?? "Pass this item";
+  }
+  if (elements.triadPassConfirmationText) {
+    elements.triadPassConfirmationText.textContent = strings.triadPassConfirm ?? "";
+  }
+  if (elements.triadPassConfirm) {
+    elements.triadPassConfirm.textContent = strings.triadPassConfirmButton ?? "Confirm pass";
+  }
+  if (elements.triadPassCancel) {
+    elements.triadPassCancel.textContent = strings.triadPassCancel ?? "Cancel";
+  }
+  if (elements.triadDebriefEyebrow) {
+    elements.triadDebriefEyebrow.textContent = strings.triadDebriefEyebrow ?? "Round complete";
+  }
+  if (elements.triadDebriefTitle) {
+    elements.triadDebriefTitle.textContent = strings.triadDebriefTitle ?? "Reflect together before rotating";
+  }
+  if (elements.triadDebriefTherapistLabel) {
+    elements.triadDebriefTherapistLabel.textContent = strings.triadDebriefTherapistLabel ?? "Therapist:";
+  }
+  if (elements.triadDebriefTherapist) {
+    elements.triadDebriefTherapist.textContent = strings.triadDebriefTherapist ?? "";
+  }
+  if (elements.triadDebriefClientLabel) {
+    elements.triadDebriefClientLabel.textContent = strings.triadDebriefClientLabel ?? "Client:";
+  }
+  if (elements.triadDebriefClient) {
+    elements.triadDebriefClient.textContent = strings.triadDebriefClient ?? "";
+  }
+  if (elements.triadDebriefObserverLabel) {
+    elements.triadDebriefObserverLabel.textContent = strings.triadDebriefObserverLabel ?? "Observer:";
+  }
+  if (elements.triadDebriefObserver) {
+    elements.triadDebriefObserver.textContent = strings.triadDebriefObserver ?? "";
+  }
+  if (elements.triadDebriefGroupLabel) {
+    elements.triadDebriefGroupLabel.textContent = strings.triadDebriefGroupLabel ?? "Group:";
+  }
+  if (elements.triadDebriefGroup) {
+    elements.triadDebriefGroup.textContent = strings.triadDebriefGroup ?? "";
+  }
+  if (elements.triadDerole) {
+    elements.triadDerole.textContent = strings.triadDerole ?? "";
+  }
+  if (elements.triadCompleteRound) {
+    elements.triadCompleteRound.textContent = strings.triadCompleteRound ?? "Complete round";
   }
   elements.languageBackButton.textContent = `← ${strings.backToLanguage}`;
   elements.languageBackButton.setAttribute(
@@ -2227,13 +2591,23 @@ function applyLanguageStrings(languageId) {
   if (elements.feedbackSubmit) {
     elements.feedbackSubmit.textContent = strings.feedbackSubmit ?? "Send feedback";
   }
+  releaseElements["unlock-code-label"].textContent = strings.unlockCodeLabel;
+  elements.closePaywallButton.textContent = strings.close;
+  elements.closeAccountButton.setAttribute("aria-label", strings.closeAccount);
+  elements.closeTherapistButton.setAttribute("aria-label", strings.closeTherapist);
+  elements.feedbackDetails.placeholder = strings.feedbackDetailsPlaceholder;
+  const reasonKeys = { quality: "feedbackReasonQuality", translation: "feedbackReasonTranslation", offensive: "feedbackReasonOffensive", other: "feedbackReasonOther" };
+  Array.from(elements.feedbackReason.options).forEach((option) => { option.textContent = strings[reasonKeys[option.value]]; });
   updateFeedbackVisibility();
 
   updateCaseSkillSummary(getCurrentSkill());
   updateCaseSkillContext(getCurrentSkill());
+  renderPracticeFormatUI();
+  renderTriadProtocolUI();
   updateSuggestionUI();
   updateLockedBanner();
   renderResumeCard();
+  renderContentLoadStatus();
   renderAuthUI();
   updateRatingPanel();
 }
@@ -2248,8 +2622,7 @@ function renderLanguageOptions() {
     const button = document.createElement("button");
     button.className = "card-button";
     button.dataset.languageId = languageId;
-    button.setAttribute("role", "option");
-    button.setAttribute("aria-selected", "false");
+    button.setAttribute("aria-current", "false");
     button.innerHTML = `
       <span class="card-title">${metadata.label}</span>
       <span class="card-body">${metadata.locale}</span>
@@ -2263,7 +2636,7 @@ function renderLanguageOptions() {
 
 function highlightLanguageSelection(languageId) {
   languageButtonMap.forEach((button, id) => {
-    button.setAttribute("aria-selected", id === languageId ? "true" : "false");
+    button.setAttribute("aria-current", id === languageId ? "true" : "false");
   });
 }
 
@@ -2278,9 +2651,8 @@ function renderSkillOptions() {
     const button = document.createElement("button");
     button.className = "card-button";
     button.dataset.skillId = skillId;
-    button.setAttribute("role", "option");
     const isSelected = state.skillId === skillId;
-    button.setAttribute("aria-selected", isSelected ? "true" : "false");
+    button.setAttribute("aria-current", isSelected ? "true" : "false");
     const visual = getSkillVisual(skillId);
     applyVisualProperties(button, visual);
     button.innerHTML = `
@@ -2298,7 +2670,7 @@ function renderSkillOptions() {
 
 function highlightSkillSelection(skillId) {
   skillButtonMap.forEach((button, id) => {
-    button.setAttribute("aria-selected", id === skillId ? "true" : "false");
+    button.setAttribute("aria-current", id === skillId ? "true" : "false");
   });
 }
 
@@ -2359,9 +2731,8 @@ function renderCaseOptions() {
     button.className = "card-button";
     button.dataset.caseId = caseItem.id;
     button.dataset.difficulty = caseItem.difficulty ?? "";
-    button.setAttribute("role", "option");
     const isSelected = state.caseId === caseItem.id;
-    button.setAttribute("aria-selected", isSelected ? "true" : "false");
+    button.setAttribute("aria-current", isSelected ? "true" : "false");
     const locked = isCaseLocked(caseItem);
     if (locked) {
       button.classList.add("is-locked");
@@ -2386,7 +2757,7 @@ function renderCaseOptions() {
 
 function highlightCaseSelection(caseId) {
   caseButtonMap.forEach((button, id) => {
-    button.setAttribute("aria-selected", id === caseId ? "true" : "false");
+    button.setAttribute("aria-current", id === caseId ? "true" : "false");
   });
 }
 
@@ -2585,8 +2956,7 @@ function showPaywall(caseItem) {
   const strings = getUIStrings();
   const caseLabel = caseItem?.label ? `: ${caseItem.label}` : "";
   elements.paywallMessage.textContent = `${strings.paywallMessage ?? ""}${caseLabel}`;
-  elements.paywallOverlay.classList.remove("is-hidden");
-  elements.paywallOverlay.hidden = false;
+  dialogs.open(elements.paywallOverlay, { onDismiss: hidePaywall, initialFocus: elements.unlockCodeInput });
   if (elements.unlockStatus) {
     elements.unlockStatus.textContent = "";
   }
@@ -2597,8 +2967,7 @@ function showPaywall(caseItem) {
 
 function hidePaywall() {
   if (!elements.paywallOverlay) return;
-  elements.paywallOverlay.classList.add("is-hidden");
-  elements.paywallOverlay.hidden = true;
+  dialogs.close(elements.paywallOverlay);
 }
 
 function ensureOrderForCase() {
@@ -2610,6 +2979,12 @@ function ensureOrderForCase() {
   }
 
   const statements = caseData.statements ?? [];
+  if (isTriadPractice()) {
+    state.order = resolveTriadRoundOrder(statements);
+    state.orderShuffled = false;
+    state.index = Math.min(state.index, Math.max(state.order.length - 1, 0));
+    return;
+  }
   const existing = state.order;
   const existingIds = Array.isArray(existing) ? existing.map((entry) => entry?.id) : [];
   const statementIds = statements.map((entry) => entry?.id);
@@ -2629,12 +3004,7 @@ function ensureOrderForCase() {
 }
 
 function finishCompletedStatementRound() {
-  if (state.authUser) {
-    openRoundRatingPrompt({ markCurrent: false });
-  } else {
-    savePracticeSession();
-    navigateBackToCaseSelection();
-  }
+  finishPracticeRound();
 }
 
 function isLastActiveStatement() {
@@ -2645,6 +3015,18 @@ function isLastActiveStatement() {
 function updateNextButtonCopy() {
   if (!elements.nextButton) return;
   const strings = getUIStrings();
+  if (isTriadPractice()) {
+    const phaseCopy = {
+      [TRIAD_PHASES.FIRST_ATTEMPT]: isSelfAwareness() ? strings.selfAwarenessFirstContinue : strings.triadPhaseFirstContinue,
+      [TRIAD_PHASES.CLIENT_FEEDBACK]: isSelfAwareness() ? strings.selfAwarenessClientContinue : strings.triadPhaseClientContinue,
+      [TRIAD_PHASES.OBSERVER_FEEDBACK]: strings.triadPhaseObserverContinue ?? "Observer feedback given",
+      [TRIAD_PHASES.RETRY]: strings.triadPhaseRetryFinish ?? "Finish item"
+    };
+    const copy = phaseCopy[state.triadPhase] ?? strings.next;
+    elements.nextButton.textContent = copy;
+    elements.nextButton.setAttribute("aria-label", copy);
+    return;
+  }
   const isLast = isLastActiveStatement();
   elements.nextButton.textContent = isLast
     ? strings.finishRound ?? "Finish"
@@ -2657,6 +3039,144 @@ function updateNextButtonCopy() {
   );
 }
 
+function isSelfAwareness() {
+  return state.skillId === "therapist-self-awareness";
+}
+
+function getTriadPhasePresentation() {
+  const strings = getUIStrings();
+  switch (state.triadPhase) {
+    case TRIAD_PHASES.CLIENT_FEEDBACK:
+      return {
+        role: isSelfAwareness() ? strings.selfAwarenessReaderRole : strings.triadRoleClient,
+        title: isSelfAwareness() ? strings.selfAwarenessClientTitle : strings.triadPhaseClientTitle,
+        instruction: isSelfAwareness() ? strings.selfAwarenessClientInstruction : strings.triadPhaseClientInstruction,
+        step: 2
+      };
+    case TRIAD_PHASES.OBSERVER_FEEDBACK:
+      return {
+        role: strings.triadRoleObserver ?? "Observer",
+        title: strings.triadPhaseObserverTitle ?? "Observer — focused coaching",
+        instruction: isSelfAwareness() ? strings.selfAwarenessObserverInstruction : strings.triadPhaseObserverInstruction,
+        step: 3
+      };
+    case TRIAD_PHASES.RETRY:
+      return {
+        role: strings.triadRoleTherapist ?? "Therapist",
+        title: isSelfAwareness() ? strings.selfAwarenessRetryTitle : strings.triadPhaseRetryTitle,
+        instruction: isSelfAwareness() ? strings.selfAwarenessRetryInstruction : strings.triadPhaseRetryInstruction,
+        step: 4
+      };
+    default:
+      return {
+        role: strings.triadRoleTherapist ?? "Therapist",
+        title: isSelfAwareness() ? strings.selfAwarenessFirstTitle : strings.triadPhaseFirstTitle,
+        instruction: isSelfAwareness() ? strings.selfAwarenessFirstInstruction : strings.triadPhaseFirstInstruction,
+        step: 1
+      };
+  }
+}
+
+function renderTriadProtocolUI() {
+  const triad = isTriadPractice();
+  const debrief = triad && state.triadPhase === TRIAD_PHASES.ROUND_DEBRIEF;
+  const activeProtocol = triad && !debrief && state.view === "statements";
+  const phase = getTriadPhasePresentation();
+  const strings = getUIStrings();
+  releaseElements["triad-observer-guide-title"].textContent = strings.skillReminders;
+  const controls = releaseElements[triad ? "triad-controls" : "individual-controls"];
+  if (elements.nextButton.parentElement !== controls) {
+    if (triad) controls.insertBefore(elements.nextButton, elements.triadPassItem);
+    else controls.append(elements.nextButton);
+  }
+  const steps = releaseElements["triad-steps"];
+  steps.hidden = !activeProtocol;
+  steps.classList.toggle("is-hidden", !activeProtocol);
+  steps.setAttribute("aria-label", strings.roundProgress);
+  elements.statementWorkspace.insertBefore(steps, elements.statementPanel);
+  steps.replaceChildren(...(isSelfAwareness() ? strings.selfAwarenessSteps : strings.triadSteps).map((label, index) => {
+    const item = document.createElement("li");
+    item.textContent = label;
+    if (index === phase.step - 1) item.setAttribute("aria-current", "step");
+    item.classList.toggle("is-complete", index < phase.step - 1);
+    return item;
+  }));
+  releaseElements["triad-retry-hint"].hidden = state.triadPhase !== TRIAD_PHASES.RETRY;
+  releaseElements["triad-retry-hint"].textContent = strings.triadRetryHint;
+  releaseElements["triad-debrief-counts"].textContent = formatRoundOutcome();
+  elements.triadDebriefClient.textContent = isSelfAwareness() ? strings.selfAwarenessDebriefClient : strings.triadDebriefClient;
+  elements.triadDebriefClientLabel.textContent = isSelfAwareness() ? `${strings.selfAwarenessReaderRole}:` : strings.triadDebriefClientLabel;
+  setTextForElements(elements.triadGuideClientItems, isSelfAwareness() ? strings.selfAwarenessGuideClient : strings.triadGuideClient);
+
+  if (elements.triadProtocol) {
+    elements.triadProtocol.hidden = !activeProtocol;
+    elements.triadProtocol.classList.toggle("is-hidden", !activeProtocol);
+  }
+  if (elements.triadDebrief) {
+    elements.triadDebrief.hidden = !debrief;
+    elements.triadDebrief.classList.toggle("is-hidden", !debrief);
+  }
+  if (elements.statementPanel) {
+    elements.statementPanel.hidden = debrief;
+    elements.statementPanel.classList.toggle("is-hidden", debrief);
+  }
+  if (elements.feedbackForm?.closest(".feedback-panel")) {
+    const feedbackPanel = elements.feedbackForm.closest(".feedback-panel");
+    feedbackPanel.hidden = debrief;
+    feedbackPanel.classList.toggle("is-hidden", debrief);
+  }
+
+  if (!activeProtocol) {
+    if (elements.shuffleButton) {
+      elements.shuffleButton.hidden = triad;
+      elements.shuffleButton.classList.toggle("is-hidden", triad);
+    }
+    updateNextButtonCopy();
+    return;
+  }
+
+  if (elements.shuffleButton) {
+    elements.shuffleButton.hidden = true;
+    elements.shuffleButton.classList.add("is-hidden");
+  }
+  if (elements.triadRoleBadge) elements.triadRoleBadge.textContent = phase.role;
+  if (elements.triadPhaseTitle) elements.triadPhaseTitle.textContent = phase.title;
+  if (elements.triadPhaseInstruction) elements.triadPhaseInstruction.textContent = phase.instruction;
+  if (elements.triadProgress) {
+    elements.triadProgress.textContent = (strings.triadProgressPattern ?? "Item {current} of {total} · Step {step} of 4")
+      .replace("{current}", String(state.index + 1))
+      .replace("{total}", String(getActiveStatements().length))
+      .replace("{step}", String(phase.step));
+  }
+
+  const observerPhase = state.triadPhase === TRIAD_PHASES.OBSERVER_FEEDBACK;
+  if (elements.triadObserverFocus) {
+    elements.triadObserverFocus.hidden = !observerPhase;
+    elements.triadObserverFocus.classList.toggle("is-hidden", !observerPhase);
+  }
+  const skill = getCurrentSkill();
+  if (elements.triadObserverFocusLabel) {
+    elements.triadObserverFocusLabel.textContent = strings.triadObserverFocusLabel ?? "Skill focus";
+  }
+  if (elements.triadObserverFocusText) {
+    elements.triadObserverFocusText.textContent = skill?.practiceFocus ?? "";
+  }
+  if (elements.triadObserverMissLabel) {
+    elements.triadObserverMissLabel.textContent = strings.triadObserverMissLabel ?? "Common miss";
+  }
+  if (elements.triadObserverMissText) {
+    elements.triadObserverMissText.textContent = skill?.commonMiss ?? "";
+  }
+
+  updateNextButtonCopy();
+}
+
+function focusTriadPhase() {
+  if (!isTriadPractice() || state.triadPhase === TRIAD_PHASES.ROUND_DEBRIEF) return;
+  elements.triadPhaseTitle?.setAttribute("tabindex", "-1");
+  elements.triadPhaseTitle?.focus();
+}
+
 function showCaseBrief() {
   state.view = "brief";
   if (elements.caseBriefScreen) {
@@ -2667,6 +3187,7 @@ function showCaseBrief() {
     elements.statementWorkspace.classList.add("is-hidden");
     elements.statementWorkspace.hidden = true;
   }
+  renderPracticeFormatUI();
   savePracticeSession();
   window.scrollTo({ top: 0, left: 0, behavior: "auto" });
 }
@@ -2674,9 +3195,20 @@ function showCaseBrief() {
 function showStatements() {
   const activeCase = getCurrentCase();
   if (!activeCase) return;
+  if (!hasPracticeContent(state.languageId, state.skillId) || !activeCase.statements.length) return;
   if (isCaseLocked(activeCase)) {
     showPaywall(activeCase);
     return;
+  }
+  if (!state.sessionActive) {
+    if (isPracticeAccountPending()) return;
+    state.sessionActive = true;
+    state.roundId = getOrCreateRoundId(null);
+    state.roundTarget = normalizePracticeTarget(getActiveTarget());
+    state.roundRaterId = state.authUser?.id ?? null;
+    writeJsonStorage(LAST_SETUP_STORAGE_KEY, {
+      skillId: state.skillId, caseId: state.caseId, practiceMode: state.practiceMode
+    });
   }
   state.view = "statements";
   if (elements.caseBriefScreen) {
@@ -2795,6 +3327,7 @@ function renderActiveStatement() {
     resetSuggestionVisibility();
     updateFeedbackAvailability();
     updateNextButtonCopy();
+    renderTriadProtocolUI();
     updateRatingPanel();
     return;
   }
@@ -2814,6 +3347,7 @@ function renderActiveStatement() {
   resetSuggestionVisibility();
   updateFeedbackAvailability();
   updateNextButtonCopy();
+  renderTriadProtocolUI();
   updateRatingPanel();
 }
 
@@ -2881,7 +3415,7 @@ function formatRatingItemCount(count) {
 }
 
 function getActiveRatingSource() {
-  const target = getActiveTarget();
+  const target = getRoundRatingTarget();
   if (!target) return "self";
   return getTargetKind(target) === "self" ? "self" : "observer";
 }
@@ -2899,8 +3433,9 @@ function updateRatingScoreButtons() {
 function updateRatingScaleCopy() {
   const strings = getUIStrings();
   if (elements.ratingScoreGuide) {
-    elements.ratingScoreGuide.textContent =
-      strings.ratingScoreGuide ?? "1 = Not yet mastered · 5 = Mastered confidently";
+    elements.ratingScoreGuide.textContent = isTriadPractice()
+      ? strings.triadRatingScoreGuide ?? "1 = Rarely · 3 = Partly or unevenly · 5 = Consistently"
+      : strings.ratingScoreGuide ?? "1 = Not yet mastered · 5 = Mastered confidently";
   }
 }
 
@@ -2929,111 +3464,81 @@ function resetRatingScores() {
   state.ratingScore = null;
 }
 
-function updateRatingPanel() {
-  if (!elements.ratingPanel || !elements.ratingOverlay) return;
-  const strings = getUIStrings();
-  const activeCase = getCurrentCase();
-  const statementIds = getRatingStatementIds();
-  const visible = Boolean(state.ratingVisible && state.skillId && state.caseId && statementIds.length > 0);
+function formatRoundOutcome() {
+  const counts = getRoundOutcome(getActiveStatements().map((item) => item.id),
+    [...state.completedStatementIds], [...state.skippedStatementIds]);
+  return Object.entries(counts).reduce((text, [key, value]) => text.replace(`{${key}}`, String(value)), getUIStrings().roundOutcome);
+}
 
-  elements.ratingOverlay.hidden = !visible;
-  elements.ratingOverlay.classList.toggle("is-hidden", !visible);
-  elements.ratingPanel.hidden = !visible;
-  elements.ratingPanel.classList.toggle("is-hidden", !visible);
-  if (!visible) {
-    setRatingStatus("");
+function getRoundRatingTarget() {
+  return state.roundTarget;
+}
+
+function canSaveRoundRating() {
+  const target = getRoundRatingTarget();
+  return Boolean(isSupabaseReady() && state.authUser?.id === state.roundRaterId && target
+    && state.authTargets.some((item) => getTargetUserId(item) === getTargetUserId(target)));
+}
+
+function updateRatingPanel() {
+  if (!state.ratingVisible) {
+    dialogs.close(elements.ratingOverlay);
     return;
   }
-
-  const target = getActiveTarget();
-  const signedIn = Boolean(state.authUser);
-  const configured = isSupabaseReady();
-  const saved = state.ratingSaved;
-  const canSave = configured && signedIn && Boolean(target) && !state.ratingSaving && !saved;
-  const source = getActiveRatingSource();
-
-  if (elements.ratingEyebrow) {
-    elements.ratingEyebrow.textContent = strings.ratingEyebrow ?? "Finish round";
-  }
-  if (elements.ratingTitle) {
-    elements.ratingTitle.textContent = source === "observer"
-      ? strings.ratingTitleObserver ?? "How well did the active therapist master this round?"
-      : strings.ratingTitleSelf ?? "How well did you master this round?";
-  }
-  if (elements.ratingDescription) {
-    elements.ratingDescription.textContent = "";
-    elements.ratingDescription.hidden = true;
-  }
-  if (elements.ratingSummary) {
-    const activeSkill = getCurrentSkill();
-    const skillLabel = activeSkill?.name ? `${activeSkill.name} · ` : "";
-    const caseLabel = activeCase?.label ? ` · ${activeCase.label}` : "";
-    elements.ratingSummary.textContent = `${skillLabel}${formatRatingItemCount(statementIds.length)}${caseLabel}`;
-  }
-  if (elements.ratingTarget) {
-    if (!signedIn) {
-      elements.ratingTarget.textContent = strings.ratingTargetSignedOut ?? "Sign in to save";
-    } else {
-      const targetName = target
-        ? getTargetDisplayName(target) || strings.meLabel || "Me"
-        : strings.noActiveTherapist ?? "No active therapist";
-      elements.ratingTarget.textContent = `${strings.savingForPrefix ?? "Saving:"} ${targetName}`;
-    }
-  }
-  if (elements.ratingSubmit) {
-    elements.ratingSubmit.textContent = strings.ratingSubmit ?? "Save";
-    elements.ratingSubmit.disabled = !canSave || !hasCompleteRatingScores();
-  }
-  if (elements.ratingSkip) {
-    elements.ratingSkip.textContent = strings.ratingSkip ?? "Skip";
-    elements.ratingSkip.disabled = state.ratingSaving;
-  }
+  const strings = getUIStrings();
+  const target = getRoundRatingTarget();
+  const statementIds = getRatingStatementIds();
+  const hasRating = Boolean(target && statementIds.length && !state.ratingSaved);
+  const canSave = canSaveRoundRating() && !state.ratingSaving && !state.ratingSaved;
+  elements.ratingPanel.hidden = false;
+  elements.ratingPanel.classList.remove("is-hidden");
+  elements.ratingEyebrow.textContent = strings.roundCompleteTitle;
+  elements.ratingEyebrow.hidden = !hasRating;
+  elements.ratingTitle.textContent = hasRating
+    ? (isTriadPractice() ? strings.triadRatingTitle : getActiveRatingSource() === "observer" ? strings.ratingTitleObserver : strings.ratingTitleSelf)
+    : strings.roundCompleteTitle;
+  elements.ratingDescription.hidden = false;
+  elements.ratingDescription.textContent = hasRating && isTriadPractice() ? strings.triadRatingDescription : strings.roundCompleteDescription;
+  elements.ratingSummary.textContent = `${getCurrentSkill()?.name ?? ""} · ${getCurrentCase()?.label ?? ""}`;
+  releaseElements["round-outcome"].textContent = formatRoundOutcome();
+  elements.ratingTarget.hidden = !target;
+  elements.ratingTarget.textContent = target ? strings.roundFor.replace("{name}", getTargetDisplayName(target) || strings.meLabel) : "";
+  releaseElements["rating-scale"].hidden = !hasRating;
+  elements.ratingSubmit.hidden = !hasRating;
+  elements.ratingSubmit.textContent = strings.ratingSubmit;
+  elements.ratingSubmit.disabled = !canSave || !hasCompleteRatingScores();
+  elements.ratingSkip.textContent = hasRating ? strings.finishWithoutRating : strings.chooseAnotherCase;
+  elements.ratingSkip.disabled = state.ratingSaving;
+  releaseElements["repeat-round"].hidden = hasRating;
+  releaseElements["repeat-round"].textContent = isTriadPractice() ? strings.rotateRound : strings.repeatRound;
   updateRatingScaleCopy();
   updateRatingOptionAvailability(canSave);
   updateRatingScoreButtons();
-
-  if (saved) {
-    setRatingStatus(strings.ratingSaved ?? "Saved.");
-  } else if (!configured) {
-    setRatingStatus(strings.ratingConfigMissing ?? "Supabase Auth is not configured.");
-  } else if (!signedIn) {
-    setRatingStatus(strings.ratingSignInHint ?? "Sign in to save ratings, or continue without saving.");
-  } else if (!target) {
-    setRatingStatus(strings.ratingNoTarget ?? "Choose an active therapist before saving.");
-  } else {
-    setRatingStatus("");
-  }
+  setRatingStatus(state.ratingSaving ? strings.ratingSaving : state.ratingError
+    || (state.ratingSaved ? strings.roundSaved : hasRating && !canSaveRoundRating() ? strings.ratingTargetChanged : ""));
+  dialogs.open(elements.ratingOverlay, { onDismiss: () => {
+    if (!state.ratingSaving) finishRoundWithoutRating();
+  }, initialFocus: elements.ratingTitle });
 }
 
-function shouldPromptForRoundRating() {
-  return document.body.dataset.section === "practice"
-    && state.view === "statements"
-    && getActiveStatements().length > 0;
-}
-
-function openRoundRatingPrompt({ markCurrent = true } = {}) {
-  if (markCurrent) {
-    markCurrentStatementCompleted();
-  }
-  const statementIds = getCompletedActiveStatementIds();
-  if (!statementIds.length) {
-    navigateBackToCaseSelection();
-    return;
-  }
-  state.ratingCompletedStatementIds = statementIds;
+function finishPracticeRound() {
+  state.sessionActive = false;
+  clearPracticeSession();
+  state.ratingCompletedStatementIds = getCompletedActiveStatementIds();
   resetRatingScores();
+  state.ratingError = "";
   state.ratingSaved = false;
   state.ratingVisible = true;
-  savePracticeSession();
   updateRatingPanel();
 }
 
 function closeRoundRatingPrompt() {
   state.ratingVisible = false;
+  state.ratingError = "";
   resetRatingScores();
   state.ratingCompletedStatementIds = [];
   state.ratingSaved = false;
-  updateRatingPanel();
+  dialogs.close(elements.ratingOverlay);
 }
 
 function finishRoundWithoutRating() {
@@ -3041,17 +3546,65 @@ function finishRoundWithoutRating() {
   navigateBackToCaseSelection();
 }
 
+function repeatCompletedRound() {
+  closeRoundRatingPrompt();
+  handleCaseSelection(state.caseId);
+  if (isTriadPractice()) {
+    releaseElements["practice-format-note"].hidden = false;
+    releaseElements["practice-format-note"].textContent = getUIStrings().triadRoundReady;
+  }
+}
+
+function showLeaveRoundPrompt() {
+  const strings = getUIStrings();
+  releaseElements["leave-title"].textContent = strings.leaveTitle;
+  releaseElements["leave-description"].textContent = strings.leaveDescription;
+  releaseElements["continue-practice"].textContent = strings.continuePractice;
+  releaseElements["pause-round"].textContent = strings.pauseRound;
+  releaseElements["finish-completed"].textContent = strings.finishCompleted;
+  releaseElements["finish-completed"].hidden = getCompletedActiveStatementIds().length === 0;
+  dialogs.open(releaseElements["leave-overlay"], {
+    onDismiss: () => dialogs.close(releaseElements["leave-overlay"]),
+    initialFocus: releaseElements["continue-practice"]
+  });
+}
+
 function updateSuggestionUI() {
   if (!elements.suggestionPanel || !elements.suggestionToggle || !elements.suggestionText) return;
   const strings = getUIStrings();
+  const individual = !isTriadPractice();
+  releaseElements["individual-guide"].hidden = !individual;
+  releaseElements["individual-focus-label"].textContent = strings.skillPracticeFocusLabel;
+  releaseElements["individual-focus"].textContent = getCurrentSkill()?.practiceFocus ?? "";
+  releaseElements["individual-instruction"].textContent = isSelfAwareness()
+    ? strings.individualAwarenessInstruction : strings.individualInstruction;
+  releaseElements["retry-individual"].hidden = !individual || !state.suggestionVisible;
+  releaseElements["retry-individual"].textContent = isSelfAwareness()
+    ? strings.individualAwarenessRetry : strings.individualRetry;
+  releaseElements["individual-example-note"].hidden = !individual || !state.suggestionVisible;
+  releaseElements["individual-example-note"].textContent = isSelfAwareness()
+    ? strings.individualAwarenessExampleNote : strings.individualExampleNote;
   const suggestion = (elements.suggestionText.textContent ?? "").trim();
   const hasSuggestion = suggestion.length > 0;
+  const triadAvailable = isTriadPractice()
+    && state.view === "statements"
+    && canRevealTriadSuggestion(state.triadPhase);
+  const available = hasSuggestion && (!isTriadPractice() || triadAvailable);
 
-  elements.suggestionPanel.hidden = !hasSuggestion;
-  elements.suggestionToggle.disabled = !hasSuggestion;
+  elements.suggestionToggle.setAttribute("aria-expanded", String(available && state.suggestionVisible));
+  elements.suggestionToggle.setAttribute("aria-controls", "suggestion-text");
+  elements.suggestionPanel.hidden = !available;
+  elements.suggestionPanel.classList.toggle("is-hidden", !available);
+  elements.suggestionToggle.disabled = !available;
+  if (elements.triadSuggestionNote) {
+    elements.triadSuggestionNote.hidden = !triadAvailable;
+    elements.triadSuggestionNote.classList.toggle("is-hidden", !triadAvailable);
+  }
 
-  if (!hasSuggestion) {
-    elements.suggestionToggle.textContent = strings.showSuggestion;
+  if (!available) {
+    elements.suggestionToggle.textContent = isTriadPractice()
+      ? strings.triadShowSuggestion ?? "Compare one possible response"
+      : strings.showSuggestion;
     elements.suggestionToggle.setAttribute(
       "aria-label",
       strings.suggestionHiddenLabel ?? strings.showSuggestion
@@ -3062,10 +3615,12 @@ function updateSuggestionUI() {
   }
 
   const visible = state.suggestionVisible;
-  elements.suggestionToggle.textContent = visible ? strings.hideSuggestion : strings.showSuggestion;
+  const showCopy = isSelfAwareness() ? strings.selfAwarenessShowSuggestion : strings.triadShowSuggestion;
+  const hideCopy = strings.triadHideSuggestion;
+  elements.suggestionToggle.textContent = visible ? hideCopy : showCopy;
   elements.suggestionToggle.setAttribute(
     "aria-label",
-    visible ? strings.suggestionShownLabel ?? strings.hideSuggestion : strings.suggestionHiddenLabel ?? strings.showSuggestion
+    visible ? hideCopy : showCopy
   );
   elements.suggestionText.hidden = !visible;
   updateRatingPanel();
@@ -3097,6 +3652,8 @@ function updateFeedbackVisibility() {
   const strings = getUIStrings();
   const collapsed = state.feedbackCollapsed;
   elements.feedbackForm.classList.toggle("is-hidden", collapsed);
+  elements.feedbackToggle.setAttribute("aria-expanded", String(!collapsed));
+  elements.feedbackToggle.setAttribute("aria-controls", "feedback-form");
   elements.feedbackToggle.textContent = collapsed
     ? strings.feedbackToggleShow ?? "Show form"
     : strings.feedbackToggleHide ?? "Hide form";
@@ -3141,6 +3698,7 @@ function shuffleArray(source) {
 }
 
 function shuffleCurrentStatements() {
+  if (isTriadPractice()) return;
   const caseData = getCurrentCase();
   if (!caseData) return;
   const statements = caseData.statements ?? [];
@@ -3153,9 +3711,80 @@ function shuffleCurrentStatements() {
   savePracticeSession();
 }
 
+function showTriadRoundDebrief() {
+  setTriadPassConfirmation(false);
+  state.triadPhase = TRIAD_PHASES.ROUND_DEBRIEF;
+  showStatements();
+  elements.triadDebriefTitle?.setAttribute("tabindex", "-1");
+  elements.triadDebriefTitle?.focus();
+}
+
+function advanceResolvedTriadItem() {
+  setTriadPassConfirmation(false);
+  const completed = Array.from(state.completedStatementIds ?? []);
+  const skipped = Array.from(state.skippedStatementIds ?? []);
+  if (isTriadRoundFinished(state.roundStatementIds, completed, skipped)) {
+    showTriadRoundDebrief();
+    return;
+  }
+  state.index = Math.min(state.index + 1, Math.max(getActiveStatements().length - 1, 0));
+  state.triadPhase = TRIAD_PHASES.FIRST_ATTEMPT;
+  renderActiveStatement();
+  savePracticeSession();
+  focusTriadPhase();
+}
+
+function handleTriadPassItem() {
+  if (!isTriadPractice() || !state.currentStatement?.id) return;
+  setTriadPassConfirmation(true);
+  elements.triadPassCancel?.focus();
+}
+
+function setTriadPassConfirmation(visible) {
+  if (!elements.triadPassConfirmation) return;
+  elements.triadPassConfirmation.hidden = !visible;
+  elements.triadPassConfirmation.classList.toggle("is-hidden", !visible);
+  if (elements.triadPassItem) {
+    elements.triadPassItem.hidden = visible;
+    elements.triadPassItem.classList.toggle("is-hidden", visible);
+  }
+}
+
+function confirmTriadPassItem() {
+  if (!isTriadPractice() || !state.currentStatement?.id) return;
+  state.skippedStatementIds.add(state.currentStatement.id);
+  advanceResolvedTriadItem();
+}
+
+function cancelTriadPassItem() {
+  setTriadPassConfirmation(false);
+  elements.triadPassItem?.focus();
+}
+
+function completeTriadRound() {
+  if (!isTriadPractice()) return;
+  finishPracticeRound();
+}
+
 function showNextStatement() {
   const statements = getActiveStatements();
   if (!statements.length) return;
+  if (isTriadPractice()) {
+    if (state.triadPhase === TRIAD_PHASES.ROUND_DEBRIEF) return;
+    if (state.triadPhase !== TRIAD_PHASES.RETRY) {
+      setTriadPassConfirmation(false);
+      state.triadPhase = getNextTriadPhase(state.triadPhase);
+      resetSuggestionVisibility();
+      renderTriadProtocolUI();
+      updateSuggestionUI();
+      savePracticeSession();
+      focusTriadPhase();
+      return;
+    }
+    markCurrentStatementCompleted();
+    advanceResolvedTriadItem();
+    return;
+  }
   markCurrentStatementCompleted();
   if (state.index >= statements.length - 1) {
     finishCompletedStatementRound();
@@ -3167,6 +3796,7 @@ function showNextStatement() {
 }
 
 function showPreviousStatement() {
+  if (isTriadPractice()) return;
   const statements = getActiveStatements();
   if (!statements.length) return;
   state.index = (state.index - 1 + statements.length) % statements.length;
@@ -3227,8 +3857,9 @@ async function handleFeedbackSubmit(event) {
 }
 
 async function handleRatingSubmit() {
+  if (state.ratingSaving || state.ratingSaved) return;
   const strings = getUIStrings();
-  const target = getActiveTarget();
+  const target = getRoundRatingTarget();
   const activeCase = getCurrentCase();
   const statementIds = getRatingStatementIds();
   if (!state.skillId || !state.caseId || !activeCase || !statementIds.length) {
@@ -3239,16 +3870,20 @@ async function handleRatingSubmit() {
     setRatingStatus(strings.ratingMissingScore ?? "Choose a score first.");
     return;
   }
-  if (!state.authUser || !target) {
+  if (!canSaveRoundRating()) {
     setRatingStatus(strings.ratingSignInHint ?? "Sign in to save ratings, or continue without saving.");
     return;
   }
 
+  state.ratingError = "";
   state.ratingSaving = true;
   updateRatingPanel();
   setRatingStatus(strings.ratingSaving ?? "Saving rating...");
   try {
     await submitPracticeRating({
+      roundId: state.roundId,
+      practiceMode: state.practiceMode,
+      ratingRubric: isTriadPractice() ? "group-consistency-v1" : "individual-mastery-v1",
       therapistUserId: getTargetUserId(target),
       source: getActiveRatingSource(),
       languageId: state.languageId ?? "en",
@@ -3265,12 +3900,12 @@ async function handleRatingSubmit() {
       itemCount: statementIds.length
     });
     state.ratingSaved = true;
-    state.selfRatingsLoaded = false;
-    savePracticeSession();
-    closeRoundRatingPrompt();
-    navigateBackToCaseSelection();
+    progressRequestId += 1;
+    state.progressRatingsLoading = false;
+    state.progressRatingsLoaded = false;
+
   } catch (err) {
-    setRatingStatus(err?.message ?? strings.ratingError ?? "Unable to save rating.");
+    state.ratingError = strings.ratingSaveFailed;
   } finally {
     state.ratingSaving = false;
     updateRatingPanel();
@@ -3353,7 +3988,11 @@ async function handleAccountUnlockSubmit(event) {
 }
 
 function handleLanguageSelection(languageId) {
+  state.sessionActive = false;
+  state.roundTarget = null;
+  state.roundRaterId = null;
   state.languageId = languageId;
+  writeJsonStorage(PRACTICE_PREFERENCES_KEY, { languageId, practiceMode: state.practiceMode });
   state.skillId = null;
   state.caseId = null;
   state.order = [];
@@ -3362,6 +4001,7 @@ function handleLanguageSelection(languageId) {
   state.view = "brief";
   state.currentStatement = null;
   state.completedStatementIds = new Set();
+  resetTriadRoundState();
   state.skillContextExpanded = false;
 
   applyLanguageStrings(languageId);
@@ -3382,6 +4022,9 @@ function handleLanguageSelection(languageId) {
 }
 
 function handleSkillSelection(skillId) {
+  state.sessionActive = false;
+  state.roundTarget = null;
+  state.roundRaterId = null;
   state.skillId = skillId;
   state.caseId = null;
   state.order = [];
@@ -3390,6 +4033,7 @@ function handleSkillSelection(skillId) {
   state.view = "brief";
   state.currentStatement = null;
   state.completedStatementIds = new Set();
+  resetTriadRoundState();
   state.skillContextExpanded = false;
 
   highlightSkillSelection(skillId);
@@ -3403,6 +4047,7 @@ function handleSkillSelection(skillId) {
   updateFeedbackAvailability();
   savePracticeSession();
   showSection("case");
+  prepareSkillContent(state.languageId, skillId);
 }
 
 function handleOpenSkillGuide() {
@@ -3413,7 +4058,30 @@ function handleOpenSkillGuide() {
   showSection("skillGuide");
 }
 
+function handlePracticeModeChange(event) {
+  const input = event.target.closest('input[name="practice-mode"]');
+  if (!input) return;
+  if (state.sessionActive) return;
+  const nextMode = normalizePracticeMode(input.value);
+  if (nextMode === state.practiceMode) return;
+  state.practiceMode = nextMode;
+  writeJsonStorage(PRACTICE_PREFERENCES_KEY, { languageId: state.languageId, practiceMode: nextMode });
+  state.order = [];
+  state.orderShuffled = false;
+  state.index = 0;
+  state.currentStatement = null;
+  state.completedStatementIds = new Set();
+  resetTriadRoundState();
+  resetSuggestionVisibility();
+  renderPracticeFormatUI();
+  renderTriadProtocolUI();
+  savePracticeSession();
+}
+
 function handleCaseSelection(caseId) {
+  state.sessionActive = false;
+  state.roundTarget = null;
+  state.roundRaterId = null;
   const skill = getCurrentSkill();
   const targetCase = skill?.cases.find((caseItem) => caseItem.id === caseId);
   if (isCaseLocked(targetCase)) {
@@ -3428,6 +4096,7 @@ function handleCaseSelection(caseId) {
   state.view = "brief";
   state.currentStatement = null;
   state.completedStatementIds = new Set();
+  resetTriadRoundState();
 
   highlightCaseSelection(caseId);
   hydratePracticeView();
@@ -3442,11 +4111,13 @@ function handleSkillContextToggle() {
 }
 
 function navigateBackToCaseSelection() {
+  state.sessionActive = false;
   state.order = [];
   state.orderShuffled = false;
   state.index = 0;
   state.currentStatement = null;
   state.completedStatementIds = new Set();
+  resetTriadRoundState();
   highlightCaseSelection(state.caseId);
   renderCaseOptions();
   if (elements.suggestionText) {
@@ -3472,6 +4143,7 @@ function handleBackNavigation(targetKey) {
     state.view = "brief";
     state.currentStatement = null;
     state.completedStatementIds = new Set();
+    resetTriadRoundState();
     elements.statementText.textContent = getUIStrings().emptyPrompt;
     elements.statementCounter.textContent = "";
     if (elements.suggestionText) {
@@ -3494,6 +4166,7 @@ function handleBackNavigation(targetKey) {
     state.index = 0;
     state.currentStatement = null;
     state.completedStatementIds = new Set();
+    resetTriadRoundState();
     highlightCaseSelection(null);
     renderCaseOptions();
     if (elements.suggestionText) {
@@ -3509,8 +4182,8 @@ function handleBackNavigation(targetKey) {
   }
 
   if (targetKey === "case") {
-    if (shouldPromptForRoundRating()) {
-      openRoundRatingPrompt();
+    if (state.sessionActive) {
+      showLeaveRoundPrompt();
       return;
     }
     navigateBackToCaseSelection();
@@ -3518,6 +4191,46 @@ function handleBackNavigation(targetKey) {
 }
 
 function registerEventListeners() {
+  releaseElements["content-load-retry"].addEventListener("click", () => retryContentLoad?.());
+  releaseElements["open-progress"].addEventListener("click", showProgressPanel);
+  releaseElements["account-progress"].addEventListener("click", showProgressPanel);
+  releaseElements["close-progress"].addEventListener("click", () => dialogs.close(releaseElements["progress-overlay"]));
+  releaseElements["progress-overlay"].addEventListener("click", (event) => {
+    if (event.target === releaseElements["progress-overlay"]) dialogs.close(releaseElements["progress-overlay"]);
+  });
+  releaseElements["progress-source"].addEventListener("change", (event) => {
+    state.progressSource = event.target.value === "observer" ? "observer" : "self";
+    state.progressRatings = [];
+    state.progressRatingsLoaded = false;
+    loadProgressRatings({ force: true });
+  });
+  releaseElements["progress-rubric"].addEventListener("change", (event) => {
+    state.progressRubric = event.target.value;
+    state.progressRatings = [];
+    state.progressRatingsLoaded = false;
+    loadProgressRatings({ force: true });
+  });
+  releaseElements["repeat-last-setup"].addEventListener("click", repeatLastPracticeSetup);
+  releaseElements["retry-individual"].addEventListener("click", () => {
+    resetSuggestionVisibility();
+    const strings = getUIStrings();
+    releaseElements["individual-instruction"].textContent = isSelfAwareness()
+      ? strings.individualAwarenessRetryInstruction : strings.individualRetryInstruction;
+    elements.statementText.tabIndex = -1;
+    elements.statementText.focus();
+  });
+  releaseElements["continue-practice"].addEventListener("click", () => dialogs.close(releaseElements["leave-overlay"]));
+  releaseElements["pause-round"].addEventListener("click", () => {
+    savePracticeSession();
+    dialogs.close(releaseElements["leave-overlay"]);
+    navigateBackToCaseSelection();
+  });
+  releaseElements["finish-completed"].addEventListener("click", () => {
+    dialogs.close(releaseElements["leave-overlay"]);
+    if (isTriadPractice()) showTriadRoundDebrief();
+    else finishPracticeRound();
+  });
+  releaseElements["repeat-round"].addEventListener("click", repeatCompletedRound);
   if (elements.accountButton) {
     elements.accountButton.addEventListener("click", handleAccountPillClick);
   }
@@ -3545,7 +4258,7 @@ function registerEventListeners() {
     });
   }
   if (elements.resumeButton) {
-    elements.resumeButton.addEventListener("click", () => applyPracticeSession(state.resumeSession));
+    elements.resumeButton.addEventListener("click", resumePracticeSession);
   }
   if (elements.resumeClear) {
     elements.resumeClear.addEventListener("click", clearPracticeSession);
@@ -3554,6 +4267,9 @@ function registerEventListeners() {
   if (elements.startPracticeButton) {
     elements.startPracticeButton.addEventListener("click", showStatements);
   }
+  if (elements.practiceFormat) {
+    elements.practiceFormat.addEventListener("change", handlePracticeModeChange);
+  }
 
   if (elements.viewCaseBriefButton) {
     elements.viewCaseBriefButton.addEventListener("click", showCaseBrief);
@@ -3561,6 +4277,18 @@ function registerEventListeners() {
 
   if (elements.nextButton) {
     elements.nextButton.addEventListener("click", showNextStatement);
+  }
+  if (elements.triadPassItem) {
+    elements.triadPassItem.addEventListener("click", handleTriadPassItem);
+  }
+  if (elements.triadPassConfirm) {
+    elements.triadPassConfirm.addEventListener("click", confirmTriadPassItem);
+  }
+  if (elements.triadPassCancel) {
+    elements.triadPassCancel.addEventListener("click", cancelTriadPassItem);
+  }
+  if (elements.triadCompleteRound) {
+    elements.triadCompleteRound.addEventListener("click", completeTriadRound);
   }
   if (elements.shuffleButton) {
     elements.shuffleButton.addEventListener("click", shuffleCurrentStatements);
@@ -3608,6 +4336,7 @@ function registerEventListeners() {
     const swipeThreshold = 45;
 
     elements.statementPanel.addEventListener("touchstart", (event) => {
+      if (isTriadPractice()) return;
       touchStartX = event.changedTouches[0]?.clientX ?? null;
     });
 
@@ -3678,7 +4407,7 @@ function registerEventListeners() {
   }
   if (elements.selfChartRefresh) {
     elements.selfChartRefresh.addEventListener("click", () => {
-      loadSelfRatings({ force: true }).catch(() => {});
+      loadProgressRatings({ force: true }).catch(() => {});
     });
   }
   if (elements.authSignout) {
@@ -3715,10 +4444,12 @@ function registerEventListeners() {
 function initialize() {
   const accessState = loadAccessState();
   const savedSession = loadPracticeSession();
+  const preferences = readJsonStorage(PRACTICE_PREFERENCES_KEY);
+  state.practiceMode = normalizePracticeMode(preferences?.practiceMode);
   state.accessLevel = accessState.accessLevel;
   state.accessExpiresAt = accessState.accessExpiresAt;
   state.resumeSession = savedSession;
-  state.languageId = savedSession?.languageId ?? null;
+  state.languageId = savedSession?.languageId ?? (LANGUAGE_METADATA[preferences?.languageId] ? preferences.languageId : null);
   const initialLanguageId = state.languageId ?? "en";
   renderAppVersion();
   applyLanguageStrings(initialLanguageId);
@@ -3733,7 +4464,8 @@ function initialize() {
   renderAuthUI();
   registerEventListeners();
   initializeAuth();
-  showSection("language");
+  if (state.languageId) renderSkillOptions();
+  showSection(state.languageId ? "skill" : "language");
 }
 
 initialize();

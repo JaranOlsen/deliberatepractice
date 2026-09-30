@@ -1,0 +1,1100 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_empathic-explorations_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lavmælt] Bare det å se navnet hans dukke opp setter meg fortsatt ut, og jeg hater hvor mye det betyr.",
+      "suggestion": "Å se navnet hans setter deg fortsatt ut, og det vonde er hvor mye det fortsatt betyr. Bli akkurat der, i det å innrømme at det betyr noe, og merk hva som rører seg."
+    },
+    {
+      "id": "dp_empathic-explorations_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Jeg sier til venner at det går bra, og så blir jeg redd for at de hører at det ikke gjør det.",
+      "suggestion": "Du prøver å høres ut som om det går bra, samtidig som det kjennes risikabelt at de kan høre hvor lite bra det er. Finn øyeblikket der det å bli hørt begynner å kjennes farlig."
+    },
+    {
+      "id": "dp_empathic-explorations_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Jeg føler meg fortapt etter bruddet, som om jeg ikke vet hva jeg skal gjøre med kveldene.",
+      "suggestion": "Kveldene er stedet der fortaptheten viser seg tydeligst. Hent én kveld litt nærmere og kjenn etter hva som er vanskeligst når du ikke vet hvor du skal gjøre av deg."
+    },
+    {
+      "id": "dp_empathic-explorations_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lavmælt] Jeg skrev «unnskyld» til ham tre ganger, og så skjønte jeg at jeg ikke vet hva jeg prøvde å reparere.",
+      "suggestion": "Å skrive unnskyld var et forsøk på reparasjon, og så forsvant grunnen under det du prøvde å fikse. Senk tempoet ved det uklare stedet og se hvilken følelse som dukker opp."
+    },
+    {
+      "id": "dp_empathic-explorations_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Jeg sletter bilder for å bevise at jeg er ferdig, får panikk og leter etter dem igjen.",
+      "suggestion": "Én handling sier «bli ferdig», og så sier panikken at denne slutten ikke er så enkel. Stopp opp i øyeblikket mellom å slette og å lete."
+    },
+    {
+      "id": "dp_empathic-explorations_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Når noen er snille mot meg, faller blikket før jeg rekker å stoppe det.",
+      "suggestion": "Vennligheten kommer, og blikket ditt går ned før du egentlig rekker å ta den inn. Fang opp øyeblikket rett før blikket faller."
+    },
+    {
+      "id": "dp_empathic-explorations_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lavmælt] I noen sekunder etter at jeg våkner, glemmer jeg at han er borte, og så husker jeg det.",
+      "suggestion": "Det er den korte lettelsen, og så kommer tapet tilbake på én gang. La øyeblikket der du husker det få være her før du må gjøre noe med det."
+    },
+    {
+      "id": "dp_empathic-explorations_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Jeg er trist, og så blir jeg flau over at jeg fortsatt snakker om det.",
+      "suggestion": "Tristheten er her, og flauheten spør raskt om du fortsatt burde snakke om dette. Gi begge litt plass og merk hvilken som kjennes sterkest nå."
+    },
+    {
+      "id": "dp_empathic-explorations_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Når jeg ser par holde hender, blir jeg lei meg, og så føler jeg meg barnslig for å ville ha det.",
+      "suggestion": "Det å se dem vekker ønsket, og så kommer skammen inn rundt ønsket. Hold deg nær ønsket et øyeblikk før skammen kommer inn."
+    },
+    {
+      "id": "dp_empathic-explorations_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Hvis jeg lar noen se hele rotet, ser jeg for meg at de stille ønsker at jeg skal slutte.",
+      "suggestion": "En del av deg vil at noen skal se hvor vondt det er, og en annen del forventer at de ønsker at du skal stoppe. Følg draget mellom å ville bli sett og å vente avvisning."
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_empathic-explorations_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Bestemt] Når noen retter på én detalj, hører jeg det om igjen etterpå som om jeg ble hengt ut.",
+      "suggestion": "Korrigeringen fortsetter å høres ut som å bli hengt ut. La den blottstilte følelsen få et øyeblikk før sinnet tar over."
+    },
+    {
+      "id": "dp_empathic-explorations_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og sint] Jeg går inn i møter allerede klar for at noen skal vise meg manglende respekt.",
+      "suggestion": "Du går inn allerede på vakt, før noe har skjedd. Kjenn etter hvordan det er å gå inn mens du allerede er klar for manglende respekt."
+    },
+    {
+      "id": "dp_empathic-explorations_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Etter at jeg har eksplodert hjemme, sier jeg til meg selv at de presset meg, men jeg kjenner meg fortsatt elendig.",
+      "suggestion": "En del sier at de presset deg, og en annen del sitter igjen med den elendige følelsen etterpå. Hold deg nær den elendige følelsen før diskusjonen om skyld tar over."
+    },
+    {
+      "id": "dp_empathic-explorations_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Noen ganger får jeg lyst til å kaste telefonen etter en jobbmelding, og så føler jeg meg latterlig.",
+      "suggestion": "Trangen kommer fort, og etterpå sitter du igjen og ser på deg selv med skam. Stopp litt ved skammen som kommer etterpå, rett før den kaller deg latterlig."
+    },
+    {
+      "id": "dp_empathic-explorations_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] Et lite sukk fra kona mi kan kjennes som om hun allerede har bestemt at jeg er problemet.",
+      "suggestion": "Det lille sukket lander som om en avgjørelse allerede er tatt om deg. Senk tempoet ved den første oppflammingen og merk hva det kjennes som du blir anklaget for."
+    },
+    {
+      "id": "dp_empathic-explorations_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Når jeg ikke vet svaret, blir jeg anspent og begynner å snakke som om jeg vet det likevel.",
+      "suggestion": "Å ikke vite blir vanskelig å la være synlig. Stopp opp ved det anspente øyeblikket før det å høres sikker ut tar over."
+    },
+    {
+      "id": "dp_empathic-explorations_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Jeg leser hver melding om igjen før jeg sender, fordi én feil kan plage meg hele natten.",
+      "suggestion": "Én mulig feil kan bli værende i timevis, så det blir vanskelig å slutte å sjekke. Finn det første øyeblikket der sjekkingen begynner å kjennes nødvendig."
+    },
+    {
+      "id": "dp_empathic-explorations_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og sint] I det øyeblikket jeg føler meg svak, blir jeg sint og hører faren min si at det nettopp er problemet.",
+      "suggestion": "«Svak» henter sinnet og farens dom inn veldig fort. Stopp ved øyeblikket der svakhet først viser seg."
+    },
+    {
+      "id": "dp_empathic-explorations_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Noen netter spiller jeg av hvert ord jeg sa, og prøver å finne hvor jeg rotet det til.",
+      "suggestion": "Du spiller av hvert ord og leter etter øyeblikket der du gjorde feil. Kjenn etter hva som skjer inni deg når du tror du har funnet feilen."
+    },
+    {
+      "id": "dp_empathic-explorations_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sårbar] Jeg vil at sønnen min skal føle seg trygg rundt meg, og jeg vet ikke hvordan jeg skal si det uten å høres svak ut.",
+      "suggestion": "Du vil så sterkt at han skal være trygg, og bare å si det ønsket kommer borti den gamle svakhetsregelen. La selve ønsket få et øyeblikk før regelen lukker seg rundt det."
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_empathic-explorations_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Når det er min tur til å snakke, mister jeg tråden i det jeg skulle si.",
+      "suggestion": "Når oppmerksomheten vendes mot deg, forsvinner ordene. Stopp ved akkurat det øyeblikket og merk hvordan det kjennes når alle venter."
+    },
+    {
+      "id": "dp_empathic-explorations_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Jeg holder fingeren over «send», og så sletter jeg meldingen fordi det å ville ha kontakt plutselig kjennes ydmykende.",
+      "suggestion": "Ønsket om kontakt er der, og ydmykelsen gjør det vanskelig å la meldingen finnes. Hold ønsket i fokus et øyeblikk før slettingen skjer."
+    },
+    {
+      "id": "dp_empathic-explorations_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Jeg ble invitert i bursdag, og en del av meg ble glad, men så begynte jeg å bekymre meg for at jeg kom til å ødelegge det.",
+      "suggestion": "Det er glede over å bli invitert, og så begynner bekymringen å trenge seg på. Gi gleden litt plass før bekymringen tar over."
+    },
+    {
+      "id": "dp_empathic-explorations_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Hvis jeg møter blikket til noen for lenge, antar jeg at de kan se hvor klein jeg er.",
+      "suggestion": "Blikkontakten begynner å kjennes som om de kan se hvor klein du føler deg, akkurat det du prøver å skjule. Hold ved det første sekundet av å bli sett."
+    },
+    {
+      "id": "dp_empathic-explorations_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Etter møter kan én liten pinlig pause få meg til å krympe meg resten av dagen.",
+      "suggestion": "Den ene pausen kommer tilbake lenge etter møtet. Senk tempoet og merk hva flauheten sier om hvordan du tror du ble sett."
+    },
+    {
+      "id": "dp_empathic-explorations_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Engstelig] Når jeg går inn i et rom, ser jeg etter utgangen før jeg bestemmer meg for om jeg skal prøve å delta.",
+      "suggestion": "Utgangen må finnes først, før det å delta i det hele tatt kan vurderes. Følg den første skanningen av rommet."
+    },
+    {
+      "id": "dp_empathic-explorations_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Før jeg presenterer meg, begynner jeg å se for meg hvor rar jeg kommer til å høres ut.",
+      "suggestion": "Allerede før du snakker, blir øyeblikket til en test på hvordan du kommer til å virke. Stopp før presentasjonen og kjenn forestillingen om å høres rar ut."
+    },
+    {
+      "id": "dp_empathic-explorations_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Jeg sammenligner meg med alle der og bestemmer alltid at jeg er den minst interessante personen.",
+      "suggestion": "Sammenligningen ender med deg nederst, og det gjør vondt før noen faktisk har avvist deg. La den såre følelsen få et øyeblikk."
+    },
+    {
+      "id": "dp_empathic-explorations_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Blank] Noen ganger later jeg som jeg skriver melding, så småpraten ikke trenger å begynne.",
+      "suggestion": "Telefonen gir deg en måte å sette kontakten på pause, og litt skjul for presset ved å måtte svare der og da. Se hva som skjer rett før du griper etter det skjulestedet."
+    },
+    {
+      "id": "dp_empathic-explorations_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille og skamfull] Jeg følte meg ensom på søndag, men jeg ignorerte også to meldinger.",
+      "suggestion": "Ensomheten og tilbaketrekkingen sitter side om side. Hold deg nær ensomheten som er der, selv mens meldingene blir stående ubesvart."
+    }
+  ],
+  "case-laura": [
+    {
+      "id": "dp_empathic-explorations_case-laura_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Langsomt og flatt] De fleste dager er flate, men hvis tristheten flimrer til, presser jeg den ned før den får bre seg.",
+      "suggestion": "De fleste dager er flate, og når tristheten flimrer til, går du raskt i gang med å holde den nede. Det kan være nyttig å senke tempoet akkurat der og merke hva som gjør det utrygt å la den bre seg."
+    },
+    {
+      "id": "dp_empathic-explorations_case-laura_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Hevede stemmer trenger ikke engang være rettet mot meg; jeg blir bare stille og venter på at det skal gå over.",
+      "suggestion": "Selv når sinnet ikke er rettet mot deg, blir det helt stille og ventende i deg. Det går an å være ved den ventingen lenge nok til å merke hva den lytter etter."
+    },
+    {
+      "id": "dp_empathic-explorations_case-laura_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og på vakt] Da naboen kom med suppe, takket jeg pent, og så brukte jeg kvelden på å lure på hva hun egentlig ville.",
+      "suggestion": "Vennligheten kommer, og mistanken kommer nesten med en gang. Det er verdt å stoppe i glippen mellom å få omsorg og måtte lete etter en hake."
+    },
+    {
+      "id": "dp_empathic-explorations_case-laura_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt og på vakt] Jeg heller opp vin etter oppvasken fordi stillheten blir så høy, og jeg orker ikke høre mine egne tanker.",
+      "suggestion": "Etter oppvasken blir stillheten høy, og vinen gir deg en måte å slippe å høre den på. Kunne vi bli litt ved stillheten før du må dempe den?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-laura_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fjern] Jeg sjekker låsene to ganger også om morgenen, og etterpå føler jeg meg dum fordi ingenting har skjedd.",
+      "suggestion": "Selv i dagslys blir du stående mellom frykt og følelsen av å være dum når du sjekker låsene. Rett før den andre sjekken kan tempoet senkes."
+    },
+    {
+      "id": "dp_empathic-explorations_case-laura_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Selv mild berøring får meg til å skvette, og etterpå hater jeg at reaksjonen min er så synlig.",
+      "suggestion": "Du skvetter før du rekker å bestemme noe, og så kommer skammen fordi reaksjonen ble synlig. Det kan være godt å bli litt ved etterfølelsen, når noen har sett det."
+    },
+    {
+      "id": "dp_empathic-explorations_case-laura_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Langsomt og flatt] Når gode nyheter kommer, kan jeg si de riktige ordene, men jeg kjenner nesten ingenting.",
+      "suggestion": "Ordene vet hvordan de skal svare, mens følelsen holder seg utenfor rekkevidde. Kanskje vi kan være med det nesten-ingentinget uten å få det til å prestere."
+    },
+    {
+      "id": "dp_empathic-explorations_case-laura_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fjern] Noen ganger åpner en sang noe i meg, og et øyeblikk kan jeg nesten kjenne tristheten.",
+      "suggestion": "Sangen når gjennom nummenheten et øyeblikk. Det er verdt å bli ved stedet der tristheten nesten er tilgjengelig, før den glir bort."
+    },
+    {
+      "id": "dp_empathic-explorations_case-laura_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og på vakt] Når jeg ser for meg å be noen sitte hos meg, kommer jeg straks på alle grunnene til at de ikke burde måtte det.",
+      "suggestion": "Ønsket om trøst viser seg, og nesten med en gang stiller alle grunnene imot seg opp. Det ønsket kan få stå litt før det må forsvare seg."
+    },
+    {
+      "id": "dp_empathic-explorations_case-laura_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Langsomt og flatt] Jeg unngår filmer med slåssing fordi jeg ikke vil finne ut hva ett eneste rop gjør med meg.",
+      "suggestion": "Å unngå filmen beskytter deg mot å finne ut hva ett eneste rop kan sette i gang. Det kan være hjelpsomt å stoppe ved det å ikke ville finne det ut."
+    }
+  ],
+  "case-carlos": [
+    {
+      "id": "dp_empathic-explorations_case-carlos_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] Kona mi sier at hun hører tonefallet mitt endre seg før jeg selv merker at noe er galt.",
+      "suggestion": "Tonefallet endrer seg før du vet hva som skjedde. Det er verdt å senke tempoet ved den første vendingen i deg, før det blir høyt nok til at hun hører det."
+    },
+    {
+      "id": "dp_empathic-explorations_case-carlos_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Etter en krangel kan jeg bli stående i gangen uten å vite om jeg skal si unnskyld eller late som ingenting.",
+      "suggestion": "Det øyeblikket i gangen har både reparasjon og flukt i seg. Det kan være verdt å bli ved uvissheten før en av bevegelsene vinner."
+    },
+    {
+      "id": "dp_empathic-explorations_case-carlos_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Hvis jeg trekker meg i en krangel, begynner jeg å føle at jeg mister plassen min, og da må jeg presse tilbake.",
+      "suggestion": "Å trekke deg begynner å kjennes som å miste plassen din, og å presse tilbake blir måten å finne den igjen på. Det kan hjelpe å stoppe ved første tegn på at plassen glipper."
+    },
+    {
+      "id": "dp_empathic-explorations_case-carlos_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Jeg ser for meg igjen og igjen at gutten min skvetter, og jeg hater at han lærte den frykten av meg.",
+      "suggestion": "At gutten din skvatt, henter fram både kjærlighet og skam på samme tid. Her kan smerten i å se frykt knyttet til deg få litt plass."
+    },
+    {
+      "id": "dp_empathic-explorations_case-carlos_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Når det blir rolig etter en krangel, begynner jeg å vente på at noen skal ta det opp igjen.",
+      "suggestion": "Selv roen kjennes midlertidig, som om krangelen kan starte igjen når som helst. Kanskje vi kan merke hva du venter på i den stillheten."
+    },
+    {
+      "id": "dp_empathic-explorations_case-carlos_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og sint] Jeg kjenner trykket bygge seg opp før jeg kaster noe, men i det sekundet kjennes det umulig å stoppe.",
+      "suggestion": "Det finnes et sekund der du kjenner trykket bygge seg opp, og stopp allerede virker utenfor rekkevidde. Akkurat det sekundet er verdt å bli ved, før gjenstanden flytter seg."
+    },
+    {
+      "id": "dp_empathic-explorations_case-carlos_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] Hvis jeg lar meg være myk, vet jeg ikke om folk vil respektere meg eller utnytte det.",
+      "suggestion": "Mykhet reiser spørsmålet om respekt eller å bli brukt. Den usikkerheten kan få være der uten at du må skyves mot ett av svarene."
+    },
+    {
+      "id": "dp_empathic-explorations_case-carlos_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sint, med knyttede never] Når jeg føler meg behandlet respektløst, snakker jeg høyere fordi jeg trenger at de skjønner at det gikk inn på meg.",
+      "suggestion": "Den høyere stemmen prøver å sikre at de forstår at det traff deg. Vi kan være ved den delen som trenger at sårheten blir oppfattet."
+    },
+    {
+      "id": "dp_empathic-explorations_case-carlos_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Når jeg sier at jeg vil at de skal være trygge, faller sinnet, og noe mykere skremmer meg.",
+      "suggestion": "Når sinnet faller, blir ønsket om trygghet mer synlig, og det mykere stedet kjennes skremmende. Ønsket kan få være der litt før du må dekke det til."
+    },
+    {
+      "id": "dp_empathic-explorations_case-carlos_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Når jeg begynner å føle meg liten i en krangel, slår panikken inn, og jeg må gjøre meg større fort.",
+      "suggestion": "Å føle deg liten gir panikk, og så kommer presset om å gjøre deg større fort. Det første øyeblikket av litenhet kan senkes i tempo før den større holdningen tar over."
+    }
+  ],
+  "case-nina": [
+    {
+      "id": "dp_empathic-explorations_case-nina_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sliten] I det øyeblikket jeg ber om hjelp, skyller skylden inn og jeg får lyst til å trekke det tilbake.",
+      "suggestion": "Behovet viser seg så vidt før skylden skyller inn for å viske det ut. Det er verdt å stoppe før forespørselen trekkes tilbake og merke hva det kan koste å trenge noe."
+    },
+    {
+      "id": "dp_empathic-explorations_case-nina_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skyldpreget] Jeg bretter klær og svarer på meldinger så jeg slipper å kjenne bitterhet.",
+      "suggestion": "Å holde deg i gang gjør at bitterheten ikke får plass. Det kan hjelpe å stoppe ved øyeblikket der det å stanse ville gjort den hørbar."
+    },
+    {
+      "id": "dp_empathic-explorations_case-nina_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Splittet] Når jeg sier nei, forklarer jeg meg helt til neiet nesten forsvinner.",
+      "suggestion": "Neiet begynner tydelig, og så tynner forklaringene det ut. Neiet kan få stå klart litt mens vi merker hva som gjør det vanskelig å la det bli stående."
+    },
+    {
+      "id": "dp_empathic-explorations_case-nina_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sliten] Selv det å be om en liten kjøretur kommer ut med tre unnskyldninger.",
+      "suggestion": "Unnskyldningene kommer før spørsmålet om skyss får stå alene. Kanskje vi kan bli ved det lille behovet før det må be om unnskyldning."
+    },
+    {
+      "id": "dp_empathic-explorations_case-nina_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skyldpreget] Hvis kjøkkenet er rotete når noen stikker innom, føler jeg meg tatt på fersken, som om de ser at jeg ikke holder tritt.",
+      "suggestion": "Det rotete kjøkkenet blir et øyeblikk av å være tatt på fersken, av at andre ser at du ikke holder tritt. Det er verdt å stoppe der vanlig rot blir til blottstillelse."
+    },
+    {
+      "id": "dp_empathic-explorations_case-nina_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Splittet] Når alle trenger meg samtidig, sier jeg ja før jeg vet hva jeg faktisk vil.",
+      "suggestion": "Alle andres behov kommer først, og ja-et kommer før ditt eget ønske rekker å få en sjanse. Rett før ja-et kan tempoet senkes."
+    },
+    {
+      "id": "dp_empathic-explorations_case-nina_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skyldpreget] Noen ganger ser jeg for meg at noen lager te til meg og sier at jeg skal sette meg, og så føler jeg meg egoistisk bare for å se det for meg.",
+      "suggestion": "Bildet av å bli tatt vare på kommer, og egoismen kommer raskt inn og dømmer det. Ønsket om å bli tatt vare på kan få litt plass før dommen kommer."
+    },
+    {
+      "id": "dp_empathic-explorations_case-nina_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Unnskyldende] Jeg melder meg frivillig før noen spør, og senere blir jeg bitter for at ingen ser hvor sliten jeg er.",
+      "suggestion": "Du tilbyr deg før spørsmålet i det hele tatt er sagt, og senere finnes det ikke noe sted for trøttheten å bli sett. Den usynlige prisen kan få litt plass."
+    },
+    {
+      "id": "dp_empathic-explorations_case-nina_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Splittet] Ved siden av andre mødre krymper jeg, som om de alle kan en regel jeg gikk glipp av.",
+      "suggestion": "Ved siden av andre mødre krymper du rundt følelsen av at det finnes en regel du gikk glipp av. Kanskje vi kan bli litt lenger ved følelsen av å stå utenfor."
+    },
+    {
+      "id": "dp_empathic-explorations_case-nina_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sliten] Ved leggetid vet jeg ikke om jeg er trist, sint eller bare helt brukt opp.",
+      "suggestion": "Ved leggetid er tristhet, sinne og utmattelse filtret sammen. Floken kan få være der litt før vi prøver å finne én tråd."
+    }
+  ],
+  "case-aisha": [
+    {
+      "id": "dp_empathic-explorations_case-aisha_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Hvis et svar ikke kommer, sier jeg til meg selv at det ikke burde bety noe, men så klarer jeg ikke å fokusere på noe annet.",
+      "suggestion": "Én del sier at det ikke burde bety noe, og en annen del klarer ikke å slippe det manglende svaret. Hva merker du i den delen som ikke klarer å slippe?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-aisha_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Forvirret og flau] Jeg kan be noen om ikke å gå, og noen sekunder senere vil jeg ha dem vekk fra meg. Jeg skjønner ikke hvilken del som egentlig er meg.",
+      "suggestion": "Begge bevegelsene er der: å rekke ut og å skyve bort. Hva endrer seg inni deg i sekundene mellom å be dem bli og ville ha dem vekk?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-aisha_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperat] Når jeg klorer, sier en del av meg at det ikke er så farlig, og en annen del er redd for at du skal dømme meg.",
+      "suggestion": "Én del gjør kloringen liten, og en annen del følger med på om jeg dømmer. Når du sier det her, hvilken del kjennes nærmest?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-aisha_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Såret og på vakt] Hvis du ser på klokka, begynner jeg å lure på om jeg bør slutte å snakke før du avslutter.",
+      "suggestion": "Blikket mot klokka starter draget mot å stoppe først, før jeg kan avslutte. Hva er den første følelsen som kommer akkurat da?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-aisha_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[På vakt] Jeg spør folk om ting jeg egentlig halvveis vet, bare for å se om de svarer på riktig måte.",
+      "suggestion": "Du lytter ikke bare etter svaret, men etter om det kommer på riktig måte. Hva merker du når det lander bare litt feil?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-aisha_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperat] Når noen sier farvel, vet jeg at det er normalt, men jeg blir redd og sint samtidig.",
+      "suggestion": "Farvel henter fram frykt og sinne samtidig, selv om en annen del sier at det burde være normalt. Ved ordet farvel, hvilken følelse kommer først?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-aisha_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Vennlighet får meg til å hulke, og en annen del av meg vil bare stikke.",
+      "suggestion": "Vennlighet henter fram både hulking og trangen til å stikke samtidig. Hvor merker du deg selv først: i hulkingen, eller i draget mot å komme deg vekk?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-aisha_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Når jeg husker det som ble gjort mot meg, får jeg lyst til å skrubbe huden selv om jeg vet at det ikke er noe der.",
+      "suggestion": "Når du husker det, kommer en følelse av å ville skrubbe det bort, selv om ingenting synes. Hva merker du når skammen kommer nær her?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-aisha_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperat] Jeg fortsetter å sjekke døra, og jeg vet ikke om jeg er sint fordi du kommer til å gå, eller redd for at du skal glemme meg.",
+      "suggestion": "Ved døra er sinne og frykt filtret sammen: å bli forlatt, å bli glemt. Når du ser mot døra nå, hvilken side kjennes nærmest?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-aisha_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Såret] Hvis du avlyser, sier en del av meg at jeg ikke skal komme tilbake, samtidig som en annen del vil spørre når du er her igjen.",
+      "suggestion": "Begge delene dukker opp rundt avlysningen: delen som vil forsvinne, og delen som trenger å vite at du fortsatt har en plass her. Hvor kjenner du den splittelsen sterkest?"
+    }
+  ],
+  "case-david": [
+    {
+      "id": "dp_empathic-explorations_case-david_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Kontrollert] Når hun sier at jeg er kald, vil en del av meg bevise at hun tar feil, og en annen del vil forsvinne.",
+      "suggestion": "Én del beveger seg mot å bevise noe, en annen mot å forsvinne. Hva merker du i øyeblikket før en av sidene tar over?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-david_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Kontrollert] Du virker rolig når jeg snakker om nederlag, og jeg vet ikke om jeg respekterer det eller misliker det.",
+      "suggestion": "Roen du ser, lander på to måter samtidig: noe respekterer den, og noe misliker den. Hvilken side er tydeligst når du snakker om roen min?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-david_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] Når jeg føler meg dømt, glatter jeg skjorten og begynner å ramse opp prestasjoner.",
+      "suggestion": "Når dommen dukker opp, kommer prestasjonene raskt inn. Hva er det første tegnet på at du blir dømt, før listen starter?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-david_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Kontrollert] Ros virker kanskje i ti sekunder; så begynner jeg å lete etter det de ikke fikk med seg.",
+      "suggestion": "Rosen når deg kort, og så tar letingen etter det som manglet over. Hvor slutter den å lande?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-david_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Avvisende] I vanskelige samtaler sjekker jeg telefonen i det øyeblikket jeg føler meg presset opp i et hjørne.",
+      "suggestion": "Når du føler deg presset opp i et hjørne, gir telefonen deg litt avstand. Hvordan kjennes det å være presset akkurat før telefonen kommer fram?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-david_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Irritert] Når barna gråter, blir jeg utålmodig før jeg engang skjønner hvorfor.",
+      "suggestion": "Barnas tårer henter fram utålmodighet før du engang vet hvorfor. Hvor merker du det første utålmodige rykket?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-david_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Såret, men skarp] Å innrømme at jeg tar feil får ansiktet til å brenne, som om alle kan se nederlaget.",
+      "suggestion": "Å innrømme at du tar feil får ansiktet til å brenne, som om nederlaget plutselig blir synlig. Hva sier den varmen i øyeblikket før du dekker den til?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-david_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fjern] Siden affæren vet jeg ikke om jeg vil ha tilgivelse eller bare bli latt i fred.",
+      "suggestion": "Det er et drag mot tilgivelse og et annet mot å bli latt i fred. Hvilket ønske kjennes tryggest å la meg se?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-david_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Såret, men skarp] Jeg vil ha anerkjennelse uten å måtte be om det, fordi det å be får meg til å føle meg ynkelig.",
+      "suggestion": "Du vil ha anerkjennelsen, og det å be om den henter straks fram den ynkelige følelsen. Hvor blir ønsket om anerkjennelse til skam?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-david_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Kontrollert] Når noen kaller arbeidet mitt fint, hører jeg ordinært, og jeg klarer ikke å slippe det.",
+      "suggestion": "«Fint» lander som ordinært, og ordinært blir vanskelig å tåle. Hva merker du i øyeblikket før du må bevise mer?"
+    }
+  ],
+  "case-marcus": [
+    {
+      "id": "dp_empathic-explorations_case-marcus_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Langsomt og flatt] De fleste dager er jeg nummen, og så treffer noe meg, og jeg vet ikke hva det er.",
+      "suggestion": "Nummenheten holder, og så bryter noe gjennom uten navn. Hva merker du ved det første tegnet på at noe kommer?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-marcus_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hyperårvåken] Etter mareritt vet jeg at jeg burde snakke om dem, men detaljene kjennes langt unna, og jeg vet ikke hvor jeg skal begynne.",
+      "suggestion": "Detaljene holder seg langt unna, og startpunktet glipper. Hva merker du idet du prøver å begynne?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-marcus_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille og på vakt] Folkemengder får skuldrene til å heve seg, og jeg holder meg ved veggen uten å bestemme det.",
+      "suggestion": "Veggen ser ut til å bety noe før du bestemmer noe som helst. Hva gir det deg å være nær den i det første sekundet?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-marcus_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lav stemme] Etter mørkets frembrudd begynner jeg å lure på om det å være alene er tryggere, eller om det bare gjør meg verre.",
+      "suggestion": "Alenetilværelsen kjennes som beskyttelse og kanskje skade på samme tid. Hvilken side av spørsmålet kjennes nærmest etter mørkets frembrudd?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-marcus_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lav stemme] Etter jobb sitter jeg i bilen fordi leiligheten kjennes for stille til å gå inn i.",
+      "suggestion": "Bilen gir deg en pause før den stille leiligheten. Hva krever stillheten av deg før du åpner døren?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-marcus_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille og på vakt] Jeg lar telefonen gå til svarer fordi å svare betyr at jeg kanskje må forklare hvorfor jeg ikke har det bra.",
+      "suggestion": "Når telefonen ringer, kommer muligheten for å måtte forklare. Hva kjennes for mye i det første øyeblikket?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-marcus_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt] Gode øyeblikk skjer, men jeg stoler ikke nok på dem til å la dem telle.",
+      "suggestion": "Det gode øyeblikket kommer, og mistilliten bryter inn før det får telle. Hva skjer akkurat der det nesten begynner å bety noe?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-marcus_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lav stemme] En plutselig lyd skjærer gjennom meg, og før jeg rekker å tenke, skanner jeg rommet.",
+      "suggestion": "Lyden skjærer gjennom, og skanningen starter før tankene rekker å hente seg inn. I det første sekundet etter lyden, hvor går oppmerksomheten?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-marcus_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille og på vakt] Jeg tar ikke telefonen når familien ringer, fordi jeg ikke vil finne ut hva jeg kjenner.",
+      "suggestion": "Å la telefonen ringe ut holder følelsen unna en stund. Hva begynner å komme nær når du ser for deg å svare?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-marcus_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt] Når folk sier at jeg ikke burde være så mye alene, sier jeg at det er bedre sånn, men jeg blir gående og tenke på det etterpå.",
+      "suggestion": "Å si at det er bedre sånn beskytter deg mot noe, og tanken følger likevel med videre. Hva merker du etter at du har sagt det?"
+    }
+  ]
+}

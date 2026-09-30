@@ -609,7 +609,7 @@ body[data-section="practice"] #practice-area {
   flex: 1;
 }
 
-.card-button[aria-selected="true"] {
+.card-button[aria-current="true"] {
   border-color: color-mix(in srgb, var(--card-accent), white 32%);
   border-left-color: var(--card-accent);
   background: color-mix(in srgb, var(--card-accent-soft), white 42%);
@@ -746,6 +746,103 @@ body[data-section="practice"] #practice-area {
   color: var(--color-text);
 }
 
+.practice-format {
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid color-mix(in srgb, var(--card-accent), white 72%);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--card-accent-faint), white 28%);
+}
+
+.practice-format legend {
+  padding: 0 0.35rem;
+}
+
+.practice-format-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.practice-format-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  min-width: 0;
+  padding: 0.85rem;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.practice-format-option.is-selected {
+  border-color: color-mix(in srgb, var(--card-accent), white 28%);
+  background: color-mix(in srgb, var(--card-accent-soft), white 55%);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--card-accent), transparent 84%);
+}
+
+.practice-format-option:has(input:focus-visible) {
+  outline: 3px solid color-mix(in srgb, var(--card-accent), transparent 62%);
+  outline-offset: 2px;
+}
+
+.practice-format-option input {
+  flex: 0 0 auto;
+  margin-top: 0.22rem;
+  accent-color: var(--card-accent);
+}
+
+.practice-format-option span {
+  display: grid;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.practice-format-option strong {
+  font-size: 0.98rem;
+}
+
+.practice-format-option small {
+  color: var(--color-muted);
+  font-size: 0.86rem;
+  line-height: 1.4;
+}
+
+.triad-orientation {
+  display: grid;
+  gap: 0.65rem;
+  padding: 1rem;
+  border-radius: 12px;
+  border-left: 3px solid var(--card-accent);
+  background: color-mix(in srgb, var(--card-accent-soft), white 56%);
+}
+
+.triad-orientation h4,
+.triad-orientation p {
+  margin: 0;
+}
+
+.triad-orientation p,
+.triad-feedback-guide {
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.triad-feedback-guide summary {
+  color: var(--card-accent-strong);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.triad-feedback-guide ul {
+  margin: 0.65rem 0 0;
+  padding-left: 1.25rem;
+  display: grid;
+  gap: 0.4rem;
+}
+
 .practice-controls {
   display: none;
 }
@@ -806,6 +903,171 @@ body[data-section="practice"] #practice-area {
   background: linear-gradient(155deg, #ffffff, color-mix(in srgb, var(--card-accent-faint), white 16%));
   border: 1px solid color-mix(in srgb, var(--card-accent), white 72%);
   border-left: 3px solid color-mix(in srgb, var(--card-accent), white 8%);
+}
+
+.triad-protocol {
+  display: grid;
+  gap: 0.85rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--card-accent-soft), white 63%);
+  border: 1px solid color-mix(in srgb, var(--card-accent), white 68%);
+}
+
+.triad-phase-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.triad-role-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.8rem;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  background: var(--card-accent);
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 750;
+  letter-spacing: 0.02em;
+}
+
+.triad-progress {
+  color: var(--color-muted);
+  font-size: 0.86rem;
+  font-weight: 650;
+}
+
+.triad-protocol h4,
+.triad-protocol p {
+  margin: 0;
+}
+
+.triad-protocol h4 {
+  font-size: 1.12rem;
+  line-height: 1.35;
+}
+
+.triad-protocol > p {
+  line-height: 1.55;
+}
+
+.triad-observer-focus {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.triad-observer-focus > div {
+  padding: 0.8rem;
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid color-mix(in srgb, var(--card-accent), white 76%);
+}
+
+.triad-observer-focus strong {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: var(--card-accent-strong);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.triad-observer-focus p {
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.triad-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+
+.triad-pass-confirmation {
+  display: grid;
+  gap: 0.7rem;
+  padding: 0.8rem;
+  border-radius: 9px;
+  border: 1px solid #e7c9cc;
+  background: #fffafa;
+}
+
+.triad-pass-confirmation p {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.triad-pass-confirmation > div {
+  display: flex;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+}
+
+.ghost-button--danger {
+  color: #8a3941;
+  border-color: #e7c9cc;
+  background: #fffafa;
+}
+
+.ghost-button--danger:hover {
+  color: #742c34;
+  border-color: #d9aeb3;
+  background: #fff2f3;
+}
+
+.triad-feedback-guide--workspace {
+  padding-top: 0.75rem;
+  border-top: 1px solid color-mix(in srgb, var(--card-accent), white 76%);
+}
+
+.triad-debrief {
+  display: grid;
+  gap: 1rem;
+  padding: 1.2rem;
+  border-radius: 12px;
+  border: 1px solid color-mix(in srgb, var(--card-accent), white 58%);
+  background: linear-gradient(155deg, #fff, color-mix(in srgb, var(--card-accent-soft), white 50%));
+}
+
+.triad-debrief-eyebrow {
+  margin: 0;
+  color: var(--card-accent-strong);
+  font-size: 0.8rem;
+  font-weight: 750;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.triad-debrief h3,
+.triad-debrief ol,
+.triad-derole {
+  margin: 0;
+}
+
+.triad-debrief ol {
+  padding-left: 1.35rem;
+  display: grid;
+  gap: 0.75rem;
+  line-height: 1.5;
+}
+
+.triad-derole {
+  padding: 0.8rem;
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.82);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.triad-debrief .primary-button {
+  justify-self: start;
 }
 
 .statement-text {
@@ -1627,6 +1889,28 @@ input[type="email"] {
   body[data-section="practice"] .feedback-panel {
     margin-top: 0.35rem;
   }
+
+  .practice-format-options,
+  .triad-observer-focus {
+    grid-template-columns: 1fr;
+  }
+
+  .practice-format,
+  .triad-orientation,
+  .triad-protocol,
+  .triad-debrief {
+    padding: 0.85rem;
+  }
+
+  .triad-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .triad-actions .ghost-button {
+    align-self: stretch;
+    text-align: center;
+  }
 }
 
 @media (min-width: 520px) {
@@ -1658,3 +1942,104 @@ input[type="email"] {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+/* Round controls follow the active instruction and remain usable on narrow screens. */
+[hidden] { display: none !important; }
+.triad-steps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.4rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  color: var(--color-muted);
+}
+.triad-steps li { padding-top: 0.5rem; border-top: 3px solid var(--color-border); overflow-wrap: anywhere; }
+.triad-steps li[aria-current="step"] { border-color: var(--card-accent); color: var(--card-accent-strong); font-weight: 700; }
+.triad-steps .is-complete { border-color: var(--card-accent); }
+.triad-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.7rem; }
+.triad-actions .primary-button { flex: 1 1 12rem; }
+#triad-retry-hint { flex-basis: 100%; margin: 0; }
+.leave-actions { display: grid; gap: 0.75rem; }
+#rating-status:not(:empty) { color: var(--color-text); }
+#round-target-note { margin: 0; }
+.skill-summary, .skill-summary-header, .skill-summary-title-group { min-width: 0; }
+.skill-summary-title { overflow-wrap: anywhere; }
+button:focus-visible, summary:focus-visible, a:focus-visible {
+  outline: 3px solid var(--card-accent-strong, var(--color-accent));
+  outline-offset: 3px;
+}
+.paywall-modal { max-height: 90dvh; overflow-y: auto; }
+@media (max-width: 520px) {
+  .skill-summary-header { flex-direction: column; gap: 0.7rem; }
+  .skill-summary-header .ghost-button { white-space: normal; }
+  .triad-actions .primary-button, .triad-actions .ghost-button { width: 100%; flex: 0 1 auto; }
+  .panel-header { gap: 0.6rem; }
+  .panel-title { min-width: 0; overflow-wrap: anywhere; }
+  .resume-card { flex-wrap: wrap; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
+}
+
+#rating-status:empty { display: none; }
+#rating-status { margin: 0; }
+
+.triad-observer-guide summary { cursor: pointer; font-weight: 650; color: var(--card-accent-strong); }
+.triad-observer-guide[open] .triad-observer-focus { margin-top: 0.75rem; }
+
+
+/* Keep the skill criterion close to the individual attempt. */
+.individual-guide {
+  padding: 1rem 1.15rem;
+  border-left: 3px solid var(--color-accent);
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 0 0.75rem 0.75rem 0;
+}
+.individual-guide p { margin: 0.4rem 0 0; }
+.individual-guide .response-hint { margin-top: 0.7rem; }
+#last-setup-card { margin-bottom: 1.5rem; }
+#last-setup-details { overflow-wrap: anywhere; }
+#retry-individual { margin-top: 0.75rem; }
+
+#repeat-last-setup { min-height: 44px; }
+
+
+.library-progress { margin: 0 0 1rem; }
+.self-chart svg { width: min(100%, 380px); }
+.self-chart-dot { fill: var(--color-accent); }
+.self-chart-missing { fill: white; stroke: var(--color-muted); stroke-width: 1; }
+.self-chart-value-line { stroke: var(--color-accent); stroke-width: 2; }
+.self-chart-scale { font-size: 7px; fill: var(--color-muted); }
+.progress-history { display: grid; gap: 0.75rem; }
+.progress-history h5 { margin: 0.75rem 0 0; font-size: 1rem; }
+.progress-skill {
+  padding: 0.9rem;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.6);
+}
+.progress-skill h6 { font-size: 0.95rem; margin: 0; }
+.progress-skill p { margin: 0.4rem 0; font-size: 0.85rem; }
+.progress-skill button { margin-top: 0.4rem; min-height: 44px; }
+.progress-methods { margin-top: 0.75rem; }
+.progress-methods summary { cursor: pointer; font-weight: 650; }
+.progress-methods > div { margin-top: 1rem; }
+
+.content-load-notice { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; padding: 1rem; margin-bottom: 1rem; border: 1px solid var(--color-border); border-radius: 12px; background: var(--color-panel); }
+.content-load-notice[hidden] { display: none; }
+.content-load-notice p { flex: 1 1 240px; margin: 0; }
+.progress-modal { position: relative; width: min(100%, 720px); }
+.progress-close { position: sticky; top: 0; z-index: 1; align-self: flex-end; margin-left: auto; background: white; }
+.progress-modal .chart-section { margin-top: 0; }
+.progress-modal .chart-header h3 { margin: 0; font-size: 1.15rem; }
+@media (min-width: 640px) {
+  .progress-history { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .progress-history > h5, .progress-history > .response-hint { grid-column: 1 / -1; }
+}
+
+.progress-modal .self-chart-label { font-size: 10px; }
+.progress-modal .chart-header { display: block; position: relative; }
+.progress-modal .chart-header h3 { padding-right: 6.5rem; }
+.progress-modal .chart-header > button { position: absolute; right: 0; top: 0; }

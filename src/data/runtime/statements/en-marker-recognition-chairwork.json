@@ -1,0 +1,1100 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_marker-recognition-chairwork_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] I keep telling myself that if I were stronger, I would be over him by now. It comes at night when I miss him: normal people move on, you are pathetic for still needing someone who left.",
+      "suggestion": "There is a demanding voice here calling the grief pathetic. Can we give that voice this chair and the hurting side the other chair for a few minutes? Sit here as the demanding voice and say the lines directly; then we will move to the side that still misses him and hear what it is like to receive them."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Angry] I keep replaying what I wish I had said when he left. He packed so calmly, like I was already in the past, and I froze. Later I kept hearing: You made me feel disposable.",
+      "suggestion": "There is something still unsaid to him about being treated as disposable. If you are willing, let's bring him into the empty chair and start with that one line: 'You made me feel disposable.' We will keep it to one or two lines at a time."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] When I start to cry, I swallow hard and stare at the ceiling until it passes. Then the voice comes in: Stop making a scene, nobody wants to deal with this again.",
+      "suggestion": "The tears start to come, and then another side swallows them and calls them a scene. Would you try showing that stopping process from this chair: swallow, look away, and tell her not to cry? Then we will move to the tearful side and let it answer briefly."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] I look at old pictures and tell myself I was too clingy, too dramatic, too much. I zoom in on my own face and make a whole case that he left because loving me became exhausting.",
+      "suggestion": "That photo review turns into a harsh case against the part of you that wanted closeness. Would it be okay to give that prosecuting voice one chair and the part that wanted love the other? Start in the prosecuting chair and say the charge directly: 'you were too clingy, too dramatic, too much.' Then we will move to the part hearing it."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Angry] I still replay lunch with my friend, when she said maybe I should just move on. I smiled like I understood, but inside I wanted to say, Stop rushing me, you are making me feel ridiculous for still loving him.",
+      "suggestion": "There is a protest to your friend that never got a place to land. If you are willing, let's put her in the empty chair and begin with the line you swallowed at lunch: 'Stop rushing me.' Then we will pause and see what comes next."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] When I start to miss him, I grab my phone and scroll until the feeling goes flat. My thumb just keeps moving, and by the time I look up I can tell myself it was not that important.",
+      "suggestion": "The phone becomes the way the missing gets flattened before it can speak. Could we set up two chairs for that? From this chair, show how you scroll the feeling down; then we will move to the missing side and let it say a few words."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] I keep thinking I ruined the relationship by asking for too much. I replay the night he said he needed space, and then I hear myself saying, You pushed too hard, you should have been easier to love.",
+      "suggestion": "A blaming voice is making your need for closeness into proof that you ruined things. Could we give that blaming voice this chair and the needing side the other? Start as the blame and tell her, 'you pushed too hard; you should have been easier to love.' Then we will move to the needing side."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] I imagine telling him, You left me alone with all of this, and then I stop myself. My throat closes and I think, Do not send that, do not be pathetic, he already chose to go.",
+      "suggestion": "There are two markers here, and the unfinished business with him gives us the clearest starting point. Let's place him in the empty chair and let you say only the first line, 'You left me alone with all of this,' stopping as soon as your throat begins to close."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] Before a date, I picture him noticing every needy thing about me. I hear, Do not relax, do not text too soon, do not let him see the mess. If he sees it, he will leave too.",
+      "suggestion": "The anxious rule-maker is trying to protect you by frightening you before the date even happens. Could we set up two chairs for that? From this chair, give her the rules and predictions; then we will move to the frightened side hearing them."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] I still want to tell him, You got to leave, but I had to stay in the apartment with every memory.",
+      "suggestion": "That line belongs directly with him. If you are willing, let's bring him into the empty chair and say it to him once: 'You got to leave, but I had to stay with every memory.' Then we pause before adding anything more."
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_marker-recognition-chairwork_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and ashamed] Whenever I feel hurt, especially when my wife says I look wounded, my father's words come back: Stop being weak and get control. Then I straighten up and start talking like nothing landed.",
+      "suggestion": "Your father's command has become an internal voice that shuts the hurt down. Would you be willing to give that command one chair and the wounded side the other? Start in the command chair and say, 'stop being weak and get control,' directly to him."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] I still want to tell my father what it cost me when he called every feeling weakness.",
+      "suggestion": "That points to unfinished business with your father. If you are willing, put him in this chair and tell him what it cost you to have hurt treated as weakness. I will keep it structured and brief."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] The second I start to soften, I hear, Get it together, and I start listing what I should have done better.",
+      "suggestion": "The softer feeling starts to appear, and the command cuts in. Let's make that interruption visible with two chairs: from this chair, say 'get it together' and list what he should have done better; then we will move to the softer side."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] After I snap, everyone gets quiet, and later I sit in the car calling myself an idiot for losing control again. I do not say it out loud at home, but the words keep going: You are just like him, you never learn.",
+      "suggestion": "That car scene turns into an internal attack that leaves you alone with shame. Can we put the attacking voice in one chair and the part that snapped in the other? Start as the attack and say, 'you are just like him; you never learn,' directly to him. Then we will move to the side receiving it."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] I keep imagining my father sitting there with that look on his face after I brought home another trophy. I want to tell him, Nothing I did was ever enough for you, and I am tired of still trying to win.",
+      "suggestion": "There is still a direct protest to your father about never measuring up. If you are willing, let's place him in the empty chair and begin with one line: 'Nothing I did was ever enough for you.' We will keep enough contact with the anger and hurt to continue slowly."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] When my wife reaches for me after a fight, I make a joke or start talking about what needs fixing.",
+      "suggestion": "The joke and the fixing pull you away just as softness comes close. Could we give that steering-away side this chair? Show how it moves him into joking or fixing; then we will move to the softer side and let it answer."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] Before a presentation, I check the deck all night because one mistake would prove I should not be in charge.",
+      "suggestion": "The worry keeps you awake by turning one possible mistake into proof that you should not be in charge. Could we give that worry this chair for a few minutes? Tell him exactly what one mistake would prove; then we will move to the pressured side."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] The morning after I drink too much, I sit on the edge of the bed and the attack starts before I even remember everything. Pathetic. Weak. Same useless man, just pretending he has control.",
+      "suggestion": "That morning-after attack is very direct: pathetic, weak, useless. Can we put that attacking voice in one chair and the ashamed side in the other? Start from the attack chair and say those words to him, so we can hear their impact rather than leave them running inside."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Low voice] I wish I could tell my son I am scared he is learning fear from me. When he flinches at my voice, I want to say, I know that look, and I hate that it is now connected to me.",
+      "suggestion": "There is something important you have not been able to say to your son. If you are willing, let's place him in the empty chair and say just the first part: 'I am scared you are learning fear from me.' We will keep it slow enough to stay with the shame and care."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] I start to say sorry, and then a voice says, Do not fold. It tells me that if I soften first, my wife wins and I lose the last bit of respect I have. So I swallow the apology and talk about what she did instead.",
+      "suggestion": "The 'do not fold' voice stops the apology by making repair feel like defeat. Let's give that voice this chair first: make its case for swallowing the apology. Then we will move to the side that wanted to repair and hear what gets blocked."
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_marker-recognition-chairwork_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] I tell myself to keep my head down, because if people really see me they will laugh. In seminars I can feel the warning start before I speak: stay small, do not give them anything to notice.",
+      "suggestion": "That warning voice hides you before anyone has a chance to laugh. Would it be okay to give the warning one chair and the exposed side the other? Start as the warning and tell him, 'stay small; don't give them anything to notice.'"
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] I still wonder what I would say to that friend from school who just stopped talking to me. One week we sat together at lunch, and then he looked past me like I was not there. I never asked why.",
+      "suggestion": "That friend is still sitting across from you in the unanswered lunchroom moment. If you are willing, let's put him in the empty chair and begin with the question you never asked: 'Why did you stop talking to me?' We will keep it to a few lines at a time."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] When I want to join a conversation, my throat tightens and I tell myself to wait for the perfect opening. Then the opening passes, and I feel relieved and humiliated at the same time.",
+      "suggestion": "The tightening and waiting stop your wish to join before it reaches the room. If you are willing, let the stopping side take this chair first: make him wait for the perfect opening. Then we will move to the side that wanted to join."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] After I say hello awkwardly, I replay it for hours and call myself creepy. It is not just, That was awkward. It becomes, People can tell there is something off about you, and now they know to stay away.",
+      "suggestion": "One awkward hello becomes a voice making a whole verdict about you. Can we give that verdict-making voice one chair and the embarrassed side the other? Start here and say the line directly: 'People can tell there is something off about you.' Then we will switch to the side that only tried to say hello."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] I still remember the table in middle school where those kids laughed every time I talked. I want to ask them, What was so funny about me? I never asked; I just learned to speak less.",
+      "suggestion": "Those classmates still hold the question that made you speak less. If you are willing, let's place them in the empty chair and ask it directly, slowly: 'What was so funny about me?' Then we pause before you add anything more."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] When someone compliments me, I shrug and point out the awkward part before they can. It is like I have to get there first: Yeah, but I sounded weird at the end, so please do not look too closely.",
+      "suggestion": "You get to the criticism first so the compliment cannot reach you. Could we set up two chairs? From this chair, show how you shrug, deflect, and point out the awkward part; then we will move to the side that might want to receive it."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] Before a group event, my mind starts listing every way I could humiliate myself. It shows me standing alone, saying the wrong thing, laughing too late, everyone noticing. By the time I get there, I am already trying not to be seen.",
+      "suggestion": "The worry floods you with humiliation scenes before you even arrive. Would you be willing to give that worry a chair? Let it list the feared moments directly; then we will move to the part that has to walk into the room after hearing them."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] When I do not get invited, I tell myself nobody wanted me there anyway. Then I act like I did not care, but inside I keep saying, See, this is what happens when people have a choice about you.",
+      "suggestion": "Not being invited turns into an internal verdict before the hurt can speak. Can we put the verdict voice in one chair and the hurt side in the other? From this chair, say, 'this is what happens when people have a choice about you'; then we will switch so the hurt side can answer."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] I want to tell my old friend, You disappeared and I never knew why. I still remember checking messages and pretending I was fine at school. Part of me thinks it is stupid to care now, but another part still wants an answer.",
+      "suggestion": "The old disappearance still has no answer, and a younger part of you is still checking for one. If you are willing, let's place him in the empty chair and start with, 'you disappeared and I never knew why.' Then we will pause and see what the younger part still needs to say."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] When I want to ask a question in class, I stare at my notes until the chance passes. I know the question is probably normal, but I make myself look busy until the professor moves on.",
+      "suggestion": "That busy-looking silence stops the question before it enters the room. Could we use two chairs for a short round? From this chair, show how you keep him looking down and silent; then we will move to the side that wanted to ask."
+    }
+  ],
+  "case-laura": [
+    {
+      "id": "dp_marker-recognition-chairwork_case-laura_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat and guarded] When my husband left, I thought, of course he did. Who would stay with someone this damaged?",
+      "suggestion": "The divorce becomes a harsh verdict that says you are too damaged to stay with. If it feels safe enough, can we give that verdict one chair and the side carrying it the other? Start from the verdict chair and say, 'you are too damaged for anyone to stay.' Then we will move to the side carrying it."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-laura_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Distant] I never said to my mother, You saw what was happening and kept washing dishes. I still think about that more than I want to.",
+      "suggestion": "Your mother is there in the kitchen scene, seeing and still washing dishes. If you are willing, let's bring her into the empty chair and say the sentence directly: 'You saw what was happening and kept washing dishes.' We go slowly and stop wherever you need."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-laura_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and tearful] When my ex moved out, I did not cry. I cleaned the kitchen and felt nothing, like I should have been hurt but I was just blank.",
+      "suggestion": "The cleaning and blankness seem to stop the hurt before it reaches you. If it feels safe enough, let's give that blocking side one chair: show how you go blank and keep cleaning. Then we will move to the hurt side and let it have only a few words."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-laura_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Distant] I keep wondering whether my ex knew what would happen after he left, that I would turn it all back on myself. I want to ask him, Did you know I would carry the blame for both of us?",
+      "suggestion": "He is the person you want to ask about being left with all the blame. If it feels manageable, we can put him in the empty chair and let the question go directly to him: 'Did you know I would carry the blame for both of us?'"
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-laura_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat and guarded] I still tell myself I am damaged goods. It comes up when someone is kind to me or when I think about dating again. I hear, They would leave if they knew enough, so do not let anyone get too close.",
+      "suggestion": "The 'damaged goods' voice warns you away from closeness before anyone can choose you. If it feels safe enough, we can put that voice in one chair and the part that hears it in the other. From this chair, say, 'they would leave if they knew enough'; then we will switch and hear what it is like to receive that warning."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-laura_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Slow and flat] When anger starts, I wipe the counter, check the locks, or pour a drink until the feeling disappears. I do not decide to stop it; I just become busy and far away before it has words.",
+      "suggestion": "The wiping, checking, and pouring are how the anger gets carried away before it can speak. If it feels safe enough, we can put that busy, far-away side in this chair first; show how it makes the anger disappear. Then we will move to the anger side and give it a few words without forcing it."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-laura_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] I tell myself I should have known better than to trust him. I go over little signs I ignored and make a case against myself, like I was stupid for wanting to believe he was safe.",
+      "suggestion": "The blame is building a case against the part that wanted safety. Can we put that case-making voice in this chair and have it speak directly: 'you should have known better; you were stupid to trust him'? Then we will switch to the trusting part that got hurt."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-laura_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Low voice] I never told the man who hurt me, You do not get to decide what I am worth.",
+      "suggestion": "That is unfinished business with the person who hurt you. If it feels safe enough and we go very slowly, we can place him in the empty chair and let you say only that sentence, with pauses and control."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-laura_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and ashamed] When I start to say I am angry, I hear, Do not make trouble. My shoulders go tight, my voice gets polite, and suddenly I am explaining why it was probably not a big deal.",
+      "suggestion": "The 'do not make trouble' voice stops anger before it has a chance to stand up. Let's give that voice this chair first: say the warning and make its case. Then we will move to the angry side and hear one or two plain sentences."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-laura_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Distant] I still picture my bedroom door after it happened, waiting to hear my mother come down the hall. She never did. I want to ask her, Why did you never come to my room afterward?",
+      "suggestion": "Your mother is missing from the hallway after it happened, and the question is still there. If it feels manageable, we can bring her into the empty chair and ask, 'Why did you never come to my room afterward?' only as far as feels tolerable."
+    }
+  ],
+  "case-carlos": [
+    {
+      "id": "dp_marker-recognition-chairwork_case-carlos_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Angry, clenching fists] After I punched the wall, I kept thinking, What kind of man scares his own family? I saw my son's face and then the attack started, like there was no father left, only some dangerous man in the kitchen.",
+      "suggestion": "The wall punch turns into an attack on the father in you. Can we work with that blame for a moment? Sit in this chair and say it directly to him: 'what kind of man scares his own family?' Then we will switch and hear what that does to him."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-carlos_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] I still want to tell my father the belt did not make me a man. It just made me scared of him.",
+      "suggestion": "Your father belongs in the empty chair for that line about the belt and fear. If you are willing, let's put him there and begin directly: 'The belt did not make me a man. It made me scared of you.' We will keep it to a few strong lines at a time."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-carlos_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and ashamed] I start to say sorry to my son, and my mouth shuts. I think, don't show weakness, and my face goes hard.",
+      "suggestion": "The apology starts, and the hard face closes over it before it reaches your son. Would you be willing to set up two chairs? From this chair, tell him not to show weakness and argue for staying hard; then we will move to the father who wanted to repair."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-carlos_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] After I yell, I call myself a monster and then get angry at myself for thinking that. Everyone goes quiet, I hear that word in my head, and then another part snaps back, Stop whining and fix it.",
+      "suggestion": "After the yelling, the word 'monster' becomes an attack inside you. Can we put the monster-calling voice in one chair and the part hit by it in the other? Start as the attacking voice and say the word directly; then we will let the attacked side answer."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-carlos_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] I want to tell my father, I was a kid, not one of your soldiers. He made me stand straight and take it, and even now I feel my back lock before I can say how scared I was.",
+      "suggestion": "That is unfinished business with your father around how he treated you. If you are willing, we can place him in the empty chair and have you say that line directly, with me helping keep it contained."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-carlos_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] When my voice shakes, I cough, sit up straighter, and make my face hard. I can almost hear my father saying, Do not let them see you like that, so I turn it into a stare.",
+      "suggestion": "The hard face turns the shaking into something no one can see. Let's use two chairs to show that process. From this chair, harden the face and say, 'do not let them see you like that'; then we will move to the side that was shaking."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-carlos_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] If I let my son talk back once, I imagine losing all respect in the house. First he rolls his eyes, then my wife sees I have no authority, then nobody listens and I am nothing there.",
+      "suggestion": "The worry turns one eye roll into the whole house losing respect for you. Could we put the worry in one chair and let it predict the chain out loud? Start with the eye roll, then your wife seeing no authority; after that we will switch and hear from the father under that pressure."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-carlos_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] I tell myself only losers need help with anger. Then I think of my father laughing at a man who could not control his house, and I hear that same laugh in my head when my wife says therapy might help.",
+      "suggestion": "Your father's laugh has become a voice that makes help feel humiliating. Can we put that voice in this chair and let it say, 'only losers need help,' in his tone? Then we will switch to the side that wants something different for your family."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-carlos_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Low voice] I wish I could tell my wife I get scared when she looks at me like she is afraid.",
+      "suggestion": "That sentence belongs directly with your wife, where the fear between you can be named. We can place her in the empty chair and let you say it slowly: 'I get scared when you look afraid of me,' without forcing more than one or two lines."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-carlos_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] When tears come up, I clench my jaw and turn them into heat before anyone can see. If the anger is there, nobody asks what hurt. They just back up, and that feels safer.",
+      "suggestion": "The tears get converted into heat before anyone can reach the hurt. Could we put that converting side in this chair first? Show how you clench, heat up, and make people back up; then we will move to the tearful side."
+    }
+  ],
+  "case-nina": [
+    {
+      "id": "dp_marker-recognition-chairwork_case-nina_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tired] The divorce is probably my fault. I keep hearing this list: you should have been sweeter, calmer, easier, less exhausted. If you had not needed so much, maybe he would not have left.",
+      "suggestion": "That voice turns exhaustion and need into evidence that the divorce was your fault. Can we put that blaming rule in one chair and the exhausted side in the other? Start as the blame and tell her she should have been sweeter, calmer, and needed less. Then we will move to the exhausted side."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-nina_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Apologetic] I keep thinking of what I never said to my ex: You left me carrying everything, then blamed me for being tired.",
+      "suggestion": "I hear unfinished business with your ex around carrying too much and then being blamed for exhaustion. Would it be okay to use the empty chair? Place him here and tell him that exact sentence first, then what it cost you to swallow it."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-nina_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Guilty] When I feel angry about being needed, I immediately think I am a bad person. Then I smile and ask what else they need.",
+      "suggestion": "The bad-person message stops anger and sends you back into caring. Could we use two chairs to make that sequence visible? From this chair, tell her she is bad for feeling angry; then we will move to the anger that never gets a turn."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-nina_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tired] I tell myself a good mother would not want an hour where nobody needs her. When I close the bedroom door, the rule starts up: selfish, lazy, what kind of mother hides from her own family?",
+      "suggestion": "The good-mother rule attacks the need for rest as soon as the door closes. Can we put that rule in one chair and the exhausted side in the other? First let the rule say, 'selfish, lazy, what kind of mother hides?' Then we will switch and hear the tired side."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-nina_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Apologetic] I want to tell my mother, I was the child; you were supposed to notice me. When she talks now about how lonely she is, I want to say, I was lonely too, but then I feel cruel.",
+      "suggestion": "Your mother is the one who needs to hear that child part. If you are willing, we can bring her into the empty chair and begin with, 'I was the child; you were supposed to notice me,' just a few words at a time."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-nina_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Torn] When anger rises, I smile and ask what everyone wants for dinner. It happens so fast that I barely notice the anger until later, when I am wiping the counter too hard and imagining what I wish I had said.",
+      "suggestion": "The caretaking move covers the anger before you can even hear it. Could we give that covering-over side this chair? Show how you smile, ask about dinner, and keep the house running; then we will move to the anger for one plain sentence."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-nina_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Guilty] If dinner is not ready, I call myself useless. I can have worked all day, answered everyone's messages, helped the boys, and still one missed thing becomes proof that I am failing at the only job that matters.",
+      "suggestion": "The missed dinner becomes a voice saying your whole worth depends on constant care. We can put the 'useless' voice in one chair and the tired part in the other. From this chair, tell her the missed dinner proves she is failing; then we will switch and hear from the exhausted side carrying so much."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-nina_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] I still want to tell my ex, You left and somehow I am the one still apologizing. I handle the forms, the boys, the messages, and I still hear myself explaining why I am not doing enough.",
+      "suggestion": "Your ex belongs in the empty chair for the apology you are still carrying. We can place him there and let you say the sentence directly: 'You left, and somehow I am the one still apologizing.' Then we pause and notice what it brings up."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-nina_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Apologetic] I try to say no, then explain until the no turns into yes. I start with, I can't today, and before they even argue, I am listing reasons, softening my voice, and offering another way to help.",
+      "suggestion": "The explanation softens the boundary until the no disappears. Can we use two chairs for that? From this chair, show how you explain and turn the no into yes; then we will move to the side that wanted the no to hold."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-nina_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] When I rest, my mind lists everyone who might fall apart without me. It starts with my mother needing a ride, then the boys forgetting something, then the house becoming chaos, and suddenly sitting still feels like negligence.",
+      "suggestion": "The worry makes rest feel like negligence by showing everyone falling apart. Would you be willing to give that worry this chair? Let it list the feared consequences; then we will move to the exhausted side trying to rest under that pressure."
+    }
+  ],
+  "case-aisha": [
+    {
+      "id": "dp_marker-recognition-chairwork_case-aisha_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperate] If someone does not answer, my mind goes straight to them being with someone better, posting it, everyone seeing I got replaced. Then I have to cut them off first.",
+      "suggestion": "The worry is doing something very active here: it shows you replacement scenes until cutting them off feels safer than waiting. Can we use two chairs to see how that worry works? From this chair, tell her each scene the worry predicts; then we will switch to the side that has to hear it."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-aisha_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Furious] I still picture my ex in bed with someone else. I hate him, and then I hate myself for still wanting him.",
+      "suggestion": "There is unfinished business with him: the image, the rage, and the longing are still in the room with you. If you are willing, we can place him in the empty chair so the words go to him instead of turning back on you. Start with, 'I still see you with her...'"
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-aisha_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fearful and ashamed] After everything that happened to me, I call myself dirty and impossible to love. When someone touches me kindly, the first voice says they would leave if they knew the whole story.",
+      "suggestion": "The attack calls you dirty for what was done to you, and that leaves the wounded side alone with the shame. If it feels safe enough, we can put the attacking voice in one chair and the wounded side in the other. First let the attack say its exact words; then we will switch and hear the side that has carried them."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-aisha_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] After I text someone too many times, I call myself crazy and disgusting. I delete the thread, then reopen it, then tell myself no normal person would need proof this badly. The attack feels almost safer than waiting.",
+      "suggestion": "The attack tries to control the panic of waiting by turning on you first. Would you be willing to slow that down in two chairs? From this chair, let the attacking voice say what it calls you after the texts; then we will switch to the frightened side in small, supported steps."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-aisha_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Furious] I still want to say to my mother, You left me with people who hurt me. I was a kid, and you kept choosing them, then acting shocked that I was angry.",
+      "suggestion": "There is unfinished business with your mother around being left unprotected and then having your anger treated as the problem. If it feels safe enough, we can bring her into the empty chair so the anger has a direct place to go. Begin with, 'You left me with people who hurt me,' and we will pause after that."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-aisha_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panicked] When I feel myself needing someone, I start accusing them before they can leave. I hear myself saying, Fine, go then, you never cared anyway, even while another part is begging them not to go.",
+      "suggestion": "The accusing part moves first so the need is not left exposed. Can we use two chairs to see that protection in action? From this chair, say 'go then, you never cared' directly to the needing side; then we will switch and hear the side that was begging them to stay."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-aisha_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] If you do not answer, my head shows me ten scenes where I am replaced and everyone knows. It goes from one quiet phone to you deciding I am too much, then everyone agreeing I was always too much.",
+      "suggestion": "The worry takes one quiet phone and builds a whole replacement story, until your system is flooded. If you are willing, we can give the worry one chair and the flooded side the other. Sit here as the worry and show the scenes one at a time; then we will switch and hear what it is like to receive them."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-aisha_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Low voice] I never got to tell the person who hurt me, You do not get to make me dirty. The words catch because part of me imagines him laughing, but another part still wants to say them to his face.",
+      "suggestion": "That is unfinished business with the person who hurt you. If you choose to try it, we go very slowly: place him in the empty chair and say only that line first, while we keep your feet in the room and your choice intact."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-aisha_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] When I want closeness, I call myself pathetic before anyone else can. If I miss someone, I tell myself to shut up, stop begging, stop acting like a child. It is like I attack the need before the other person gets the chance.",
+      "suggestion": "The self-attack gets to the longing before anyone else can reject it. Could we make that attack visible in two chairs? First let the attacking voice say, 'stop begging, stop acting like a child,' directly to the longing side; then we will switch so the longing is not left alone with it."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-aisha_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] When grief starts to show, I laugh too loudly and say, Forget it, this is stupid. Then I make a joke about being dramatic, and the crying part goes quiet like it got slapped.",
+      "suggestion": "The mocking voice shuts the grief down before it can be seen. Would you be willing to let that side take this chair first, just briefly? Say 'forget it, this is stupid' to the crying side; then we will switch and give the grieving side a few protected words."
+    }
+  ],
+  "case-david": [
+    {
+      "id": "dp_marker-recognition-chairwork_case-david_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Self-blaming] If I am not exceptional, I tell myself there is no reason anyone would stay. Ordinary means replaceable. Replaceable means I have already lost; they just have not said it out loud yet.",
+      "suggestion": "The demand makes your worth depend on being exceptional, and it treats ordinary as if abandonment has already begun. Could we put that demand in one chair and the side paying the price in the other? From this chair, make the case that ordinary means replaceable; then we will switch and hear the impact."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-david_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Dismissive] My wife says she might be done, and I tell myself only an idiot destroys his own family and still expects sympathy.",
+      "suggestion": "There is a harsh blaming voice turning the marriage pain into proof that you deserve no sympathy. Can we work with that attack for a moment? Sit in this chair as the hard side and tell him he is an idiot who destroyed his family; then we will switch and hear what that does to him."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-david_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Wounded but sharp] I hate how my father made everything a performance, but the second I say that I start defending him: he pushed me because he believed in me.",
+      "suggestion": "A defending side steps in as soon as anger toward your father appears, so the anger loses its voice. If you are willing, give that defender this chair first: explain him and tell David why he should not be angry. Then we will move to the anger side and let it answer without debating."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-david_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Dismissive] I tell myself mediocre men lose their families and deserve it. The word mediocre is worse than cruel; it means I became ordinary, replaceable, the kind of man nobody has a reason to choose.",
+      "suggestion": "That sounds like a harsh self-evaluative voice tying your worth to exceptional performance and using mediocrity as a sentence. We can put that voice in one chair and the part of you it attacks in the other. From this chair, say exactly why mediocre men deserve to lose; then we will switch and let the attacked side respond."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-david_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Controlled] I want to tell my father, I was your son, not a project. I still hear him reviewing my grades, my posture, my handshake, like everything about me was something to optimize. I never got to ask whether he ever saw me.",
+      "suggestion": "That is unfinished business with your father around being treated as a performance project rather than a son. If you are willing, we can place him in the empty chair and let you say the first line directly: 'I was your son, not a project.' Then we can pause and see whether the question about being seen wants to follow."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-david_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Controlled] When shame rises, I start listing achievements until I cannot feel it. I go through revenue numbers, promotions, things people envy. It works for a minute, but then I am alone with the same hollow feeling and even more contempt for needing the list.",
+      "suggestion": "The achievement list interrupts the shame before it can be felt, and then the shame comes back with contempt added. Would it be okay to use two chairs? From this chair, list the achievements and make the case for blocking the shame; then we will switch and hear from the shamed side left after the list runs out."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-david_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] If I admit one mistake, I picture everyone deciding I am a fraud. It does not stop at the mistake; it becomes the board losing confidence, my wife saying she knew it, people realizing the whole image was fake.",
+      "suggestion": "The worry turns one mistake into total exposure, as if the whole image could collapse at once. Can we give that worry one chair so you can hear how it pressures you? Let it predict exactly what happens if you admit one error; then we will switch to the side living under those scenes."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-david_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Low voice] I want to tell my wife I am terrified she finally sees the real me. After our last argument she looked at me like the performance was over, and I wanted to say, Please do not decide this is all I am.",
+      "suggestion": "There is unfinished business with your wife around being seen without the performance and fearing she will leave. If you are willing, we can bring her into the empty chair and let the words go directly to her: 'Please do not decide this is all I am.' Then we pause before any defense comes in."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-david_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] I tell myself the affair proves I am trash. Not just that I did something destructive, but that underneath the title, the money, all of it, this is who I actually am. Then I hate myself for sounding dramatic.",
+      "suggestion": "That is a severe self-attack around the affair, turning behavior into a verdict on your whole self. We can put the voice that says 'trash' in one chair and the ashamed side in the other. From this chair, let the attack say the whole verdict; then we will switch so you can hear and answer it rather than only endure it."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-david_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Dismissive] When sadness comes up, I analyze everyone's tone until the feeling is gone. I can turn a conversation with my wife into a transcript in my head, finding inconsistencies, proving my point, and by then the tightness in my throat is gone.",
+      "suggestion": "The analysis moves you into a courtroom before sadness can speak, so the tightness disappears without being heard. Would you be willing to make that interruption concrete? From this chair, analyze her tone and move him away from the tightness; then we will move to the sadness and let it say a few direct words."
+    }
+  ],
+  "case-marcus": [
+    {
+      "id": "dp_marker-recognition-chairwork_case-marcus_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Furious] My father had his own damage, I know that. But I still hate him for bringing violence into our house and leaving us to live with it.",
+      "suggestion": "There is unfinished business with your father: you understand what he carried, and you still hate the violence he brought into the house. If you are willing, we can bring him into the empty chair and let both parts go directly to him. Start with, 'I know you had damage, and I hate what you brought home.'"
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-marcus_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Low voice] They locked me in the closet, and I still think I must have been impossible, or they would not have done it.",
+      "suggestion": "The blame turns what was done to you into a verdict on the child who was locked in. If it feels possible, we can use two chairs to see how that blame works. From this chair, tell him he must have been impossible; then we will switch and hear from the child who had no way out."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-marcus_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Furious] Even in here, imagining telling that foster father I hate him makes my jaw lock. I hear, Don't say that. Don't make it worse.",
+      "suggestion": "The jaw locks the anger before it can reach him, as if expression would make danger return. If you are willing, let the locking side take this chair first: say 'don't say it, don't make it worse' directly to him. Then we will move to the anger side for a few controlled words."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-marcus_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat] I tell myself I should be over it by now; other people had it worse and still function. When I cannot sleep or fill out paperwork, the voice says I am using the past as an excuse.",
+      "suggestion": "The dismissing voice uses comparison to make the impact of trauma sound like an excuse. If it feels workable, we can put that voice in one chair and the part still carrying it in the other. Start as the dismissing voice: tell him he should be over it by now and that others function better."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-marcus_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Low voice] I want to ask my foster mother why nobody came when I knocked. I remember keeping it quiet at first, then knocking harder, then stopping because I figured I was making it worse. I never got to ask if she heard me.",
+      "suggestion": "That sounds like unfinished business with your foster mother around being left alone and unheard. If you are willing, we can put her in the empty chair and let you ask the question directly: 'did you hear me knocking?' We will keep it slow, with pauses, so you choose how much to say."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-marcus_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quiet and guarded] When my voice shakes, I stop talking and stare at the floor. It is like a hand comes over my mouth from the inside: Do not give them more. Do not make it worse.",
+      "suggestion": "The inner hand over the mouth stops the shaking voice before anyone gets more access. If you are willing, we can make that stopper visible in two chairs. From this chair, put the hand over his mouth and say 'do not give them more'; then we will move to the shaking voice for a few words."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-marcus_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] If I sleep deeply, I worry I will wake up back there and not know where I am. So I keep the TV on and make myself stay half-alert, like the worry is standing guard.",
+      "suggestion": "The worry is standing guard by keeping sleep dangerous and keeping you half-alert. Would you be willing to put that guard in this chair for a short round? Let it warn you about sleep and what could happen; then we will switch and hear from the exhausted side."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-marcus_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Furious] I still want to tell my father, You brought the war home and made us live inside it. He would talk about what happened to him like it explained everything, but I was the one listening for his boots at night.",
+      "suggestion": "There is unfinished business with your father around violence and fear in the home. If you choose to try it, we can bring him into the empty chair and let the sentence go to him, not just stay inside you: 'You brought the war home.' Then we pause and keep you grounded."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-marcus_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] Needing help makes me tell myself I am useless. If I cannot handle paperwork, sleep, phone calls, normal things, then I hear, What are you even good for? So I stop asking and let things pile up.",
+      "suggestion": "The self-attack turns needing help into proof that you are useless, and then asking goes silent. If it feels workable, we can put that attack in one chair and the part needing help in the other. From this chair, say 'what are you even good for?'; then we will switch and let the needing side answer without being pushed."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-marcus_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and guarded] When my sister asks about the past, I hear, Shut it down, and I change the subject.",
+      "suggestion": "The 'shut it down' voice cuts contact with the past as soon as your sister asks, before anything vulnerable can appear. Could we use two chairs for a short round? From this chair, say 'shut it down' and show how you change the subject; then we will move to the side that was being asked."
+    }
+  ]
+}
