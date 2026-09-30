@@ -135,3 +135,23 @@ npm run feedback:delete -- --statement-id dp_example --created-at "2026-06-08T15
 When there are no open feedback rows, continue the normal bounded improvement loop using `src/md/gold-standard-content-comparison.md`, `src/md/content-quality-audit-2026-06-05.md`, and `src/md/EFT_Exercises_Extracted.md`.
 
 The progress checks cover empty/sparse/full radar profiles, source separation, personal practice targeting, loading failures, source-switch/sign-out races, and Norwegian at 320px. The query check exercises the real backend adapter and installed Supabase SDK against local mocked HTTP, verifying therapist ownership, source, ordering, and limit filters. It does not verify deployed database policies or live persistence.
+
+## Groups on separate devices
+
+The observer chooses a skill and case, selects **Group of three**, and uses **Use separate devices · Create group room**. The other two participants open **Group on separate devices**, enter the room code, and choose therapist or client. All three participants sign in with their own account. Keep your video call open for speaking; the app does not provide or record audio/video.
+
+Each device shows preparation and guidance for its role. Only the observer advances or passes an item. The therapist listens to the client read the line and can open an example during retry; the client never sees suggested responses. Self-awareness practice assigns the client the reader role and retains the disclosure boundary.
+
+The database stores the authoritative round, phase, item order, roles and version. Each device acknowledges a step after its content is loaded and rendered. Progression waits for all three devices to acknowledge the same version with a heartbeat within 20 seconds. Realtime wakes the snapshot fetcher; polling every 1.5 seconds and focus/online recovery also retrieve saved state. Backgrounded devices do not acknowledge new steps. Requests time out after 12 seconds, and ambiguous commands retain a UUID across reload for safe replay. Network loss can delay progression; it cannot be treated as a guaranteed simultaneous screen change.
+
+After debrief, the observer may save an optional group-consistency rating for the room's therapist or rotate roles for another round. Joining explicitly allows ratings during that room; it does not establish an enduring account pairing. Passed items do not count toward a rating. Room membership and the observer role are checked on the server. The room expires after eight hours. Expiration stops joining and progression; it does not delete metadata or saved ratings. Spoken feedback and responses are not stored.
+
+For a fresh backend, apply `supabase/auth-pairing-practice.sql` first, then the files in `supabase/migrations/` in filename order. These room migrations have already been applied to the connected project. The room module is downloaded only when this feature is opened.
+
+Verification:
+
+- `npm test` includes ordered snapshots, acknowledgement timing, background devices, cancelled snapshots, and uncertain command replay.
+- `scripts/check-room-flows.js` uses three isolated browser contexts with an intercepted backend, covering role screens, reconnect, reload/retry, passing, ratings, rotation, Norwegian self-awareness and 320px layout.
+- `scripts/check-practice-rooms.sql` checks permissions, role claiming, acknowledgements, transitions, replay, rating identity and rotation in a rolled-back database transaction. It creates no persistent test users or ratings.
+
+The automated browser test is run through the Playwright CLI against the development preview, following the same pattern as the other browser scripts.

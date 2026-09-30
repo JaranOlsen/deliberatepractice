@@ -51,6 +51,30 @@ import { createDialogManager } from "./dialogs.js";
 import { SESSION_VERSION, isResumableSession, getRoundOutcome, getOrCreateRoundId } from "./practiceSession.js";
 
 const dialogs = createDialogManager();
+let roomView = null;
+async function openSharedRoom(create = false) {
+  if (!roomView) {
+    const {createPracticeRoomView} = await import('./practiceRoom.js');
+    roomView = createPracticeRoomView({dialogs, getUser: () => state.authUser,
+      getLanguage: () => state.languageId ?? 'en', localizeSkill,
+      getStrings: getUIStrings, signIn: showAccountPanel,
+      onProgressChange: () => {
+        progressRequestId++;
+        state.progressRatingsLoading = false;
+        state.progressRatingsLoaded = false;
+      }});
+  }
+  const createConfig = create ? async () => {
+    const skill = getCurrentSkill(), caseData = getCurrentCase(), languageId = state.languageId;
+    if (!caseData || isCaseLocked(caseData)) throw new Error('Choose an available case first');
+    await loadPracticeContent(languageId, skill.id);
+    const statements = shuffleArray(getPracticeStatements(languageId, skill.id, caseData.id));
+    return {languageId, skillId: skill.id, caseId: caseData.id,
+      difficulty: caseData.difficulty, contentRevision: CONTENT_REVISION,
+      statements: statements.map(({id, criteriaTags}) => ({id, criteriaTags}))};
+  } : null;
+  await roomView.show({createConfig, resume: !create});
+}
 
 const sections = {
   language: document.getElementById("language-selection"),
@@ -1602,6 +1626,8 @@ function handleAccountPillClick() {
 }
 
 function renderAuthUI() {
+  roomView?.authChanged();
+  document.getElementById("join-shared-room").textContent = state.languageId === "no" ? "Gruppe på hver sin enhet" : "Group on separate devices";
   const strings = getUIStrings();
   const signedIn = Boolean(state.authUser);
   releaseElements["open-progress"].hidden = !signedIn;
@@ -2304,6 +2330,8 @@ function isPracticeAccountPending() {
 
 function renderPracticeFormatUI() {
   const triad = isTriadPractice();
+  document.getElementById("create-shared-room").hidden = !triad;
+  document.getElementById("create-shared-room").textContent = state.languageId === "no" ? "Bruk hver sin enhet · Opprett grupperom" : "Use separate devices · Create group room";
   const strings = getUIStrings();
   elements.practiceFormat.disabled = state.sessionActive;
   releaseElements["practice-format-note"].hidden = !state.sessionActive;
@@ -4191,6 +4219,8 @@ function handleBackNavigation(targetKey) {
 }
 
 function registerEventListeners() {
+  document.getElementById("join-shared-room").addEventListener("click", () => { void openSharedRoom(); });
+  document.getElementById("create-shared-room").addEventListener("click", () => { void openSharedRoom(true); });
   releaseElements["content-load-retry"].addEventListener("click", () => retryContentLoad?.());
   releaseElements["open-progress"].addEventListener("click", showProgressPanel);
   releaseElements["account-progress"].addEventListener("click", showProgressPanel);

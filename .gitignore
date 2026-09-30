@@ -26,3 +26,5 @@ output/playwright/
 .idea/
 .vscode/*
 !.vscode/extensions.json
+
+supabase/.temp/

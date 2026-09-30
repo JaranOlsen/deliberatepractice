@@ -1,0 +1,182 @@
+// Playwright CLI: run-code --filename=scripts/check-room-flows.js
+// Three isolated browser contexts; backend intercepted, no emails or live writes.
+async (page) => {
+  const url = page.url();
+  if (!['127.0.0.1', 'localhost'].includes(new URL(url).hostname)) throw new Error('Use the local dev preview');
+  const browser = page.context().browser();
+  const contexts = [], pages = [], errors = [];
+  const assert = (condition, message) => { if (!condition) throw new Error(message); };
+  let room = null, lostResponse = false, disconnectClient = false, saves = 0, creations = 0;
+  const receipts = new Set();
+  const snapshot = () => structuredClone(room);
+  const ackAll = () => ['observer', 'therapist', 'client'].every(role => room.presence[room[`${role}_id`]]?.acknowledged_version === room.version);
+  for (const user of ['o', 't', 'c']) {
+    const context = await browser.newContext({viewport: {width: 390, height: 844}}); contexts.push(context);
+    const p = await context.newPage(); pages.push(p); p.on('pageerror', e => errors.push(e.message));
+    await context.route('**/src/js/backend.js*', route => route.fulfill({contentType: 'text/javascript', body: `
+      const user={id:'${user}',email:'${user}@example.invalid'};
+      export const isSupabaseReady=()=>true;
+      export const isAccessExpired=()=>false;
+      export const getAuthSession=async()=>({user});
+      export const onAuthStateChange=()=>()=>{};
+      export const ensureUserProfile=async()=>({id:user.id,display_name:'Test '+user.id});
+      export const listPracticeTargets=async()=>[{target_user_id:user.id,target_kind:'self',display_name:'Test '+user.id}];
+      export const listPracticeRatings=async()=>[];
+      export const signOut=async()=>{};
+      export const updateUserProfile=async()=>({});
+      export const createPairingInvite=async()=>({});
+      export const acceptPairingInvite=async()=>({});
+      export const revokePracticePartnership=async()=>({});
+      export const logAccessCodeAttempt=async()=>{};
+      export const submitFeedback=async()=>{throw new Error('Unexpected feedback');};
+      export const redeemAccessCode=async()=>{throw new Error('Unexpected access-code write');};
+      export const submitPracticeRating=async()=>{throw new Error('Unexpected local rating');};
+      export const signInWithMagicLink=async()=>{throw new Error('Unexpected email');};
+      export const watchPracticeRoom=async()=>()=>{};
+      export const practiceRoomRpc=async(name,args)=>{
+        const response=await fetch('/__room_test/${user}',{method:'POST',body:JSON.stringify({name,args})});
+        const data=await response.json();
+        if(!response.ok)throw Object.assign(new Error(data.message),{code:data.code});
+        return data;
+      };
+    `}));
+    await context.route(`**/__room_test/${user}`, async route => {
+      const {name, args} = JSON.parse(route.request().postData());
+      let status = 200, data;
+      const fail = message => {status = 400; data = {message, code: 'P0001'};};
+      if (name === 'create_practice_room') {
+        creations++; const cfg = args.input_config;
+        room = {id: args.input_room_id, code: 'ABCD1234EF56', observer_id: user, therapist_id: null, client_id: null,
+          language_id: cfg.languageId, skill_id: cfg.skillId, case_id: cfg.caseId, difficulty: cfg.difficulty,
+          content_revision: cfg.contentRevision, catalog: cfg.statements, statement_ids: cfg.statements.slice(0,3).map(s=>s.id),
+          item_index: 0, phase: 'lobby', completed_ids: [], skipped_ids: [], round_id: 'round-one', round_number: 1,
+          version: 0, saved_score: null, expires_at: new Date(Date.now()+3600000).toISOString(), presence: {}};
+        data = snapshot();
+      } else if (name === 'join_practice_room') {
+        if (args.input_code.replace(/[^a-z0-9]/gi,'').toUpperCase() !== room.code) fail('Room unavailable');
+        else {room[`${args.input_role}_id`] = user; room.version++; data = snapshot();}
+      } else if (name === 'sync_practice_room') {
+        if (user === 'c' && disconnectClient) {status = 503; data = {message:'Test connection interrupted'};}
+        else {
+          room.presence[user] = {connected: true, acknowledged_version: Math.max(room.presence[user]?.acknowledged_version ?? -1, args.input_acknowledged_version)};
+          data = snapshot();
+        }
+      } else if (name === 'command_practice_room') {
+        if (receipts.has(args.input_command_id)) data = snapshot();
+        else if (user !== room.observer_id) fail('Only observer');
+        else if (args.input_expected_version !== room.version) fail('Stale version');
+        else if (['start','advance','pass','rotate'].includes(args.input_action) && !ackAll()) fail('Waiting for devices');
+        else {
+          receipts.add(args.input_command_id);
+          if (args.input_action === 'start') room.phase = 'first_attempt';
+          else if (args.input_action === 'advance' || args.input_action === 'pass') {
+            if (args.input_action === 'pass' || room.phase === 'retry') {
+              room[args.input_action === 'pass' ? 'skipped_ids' : 'completed_ids'].push(room.statement_ids[room.item_index]);
+              if (room.item_index === 2) room.phase='round_debrief';
+              else {room.item_index++;room.phase='first_attempt';}
+            } else room.phase = {first_attempt:'client_feedback',client_feedback:'observer_feedback',observer_feedback:'retry'}[room.phase];
+          } else if (args.input_action === 'rate') {room.saved_score = args.input_score; saves++;}
+          else if (args.input_action === 'rotate') {
+            [room.observer_id,room.client_id,room.therapist_id]=[room.client_id,room.therapist_id,room.observer_id];
+            room.phase='lobby';room.item_index=0;room.round_number++;room.round_id='round-two';room.completed_ids=[];room.skipped_ids=[];room.saved_score=null;
+          } else if (args.input_action === 'close') room.phase='closed';
+          room.version++; data = snapshot();
+          if (lostResponse) {lostResponse = false; status = 503; data = {message: 'Response lost after commit'};}
+        }
+      } else fail('Unexpected operation');
+      await route.fulfill({status, contentType:'application/json',body:JSON.stringify(data)});
+    });
+    await p.goto(url); await p.waitForFunction(() => document.querySelector('#account-button').textContent === 'Account');
+  }
+  const [o,t,c] = pages;
+  const click = (p,id) => p.locator(`#${id}`).click();
+  const enabled = async (p,id) => {await p.waitForFunction(id => {const e=document.getElementById(id);return e&&!e.hidden&&!e.disabled;},id,{timeout:15000});};
+  const syncAll = async () => { for (let i=0;i<2;i++) for (const p of pages) await click(p,'room-sync'); };
+  try {
+    await o.locator('[data-language-id="en"]').click();
+    await o.locator('[data-skill-id="empathic-understanding"]').click();
+    await o.locator('[data-case-id="case-sara"]').click();
+    await o.locator('[name="practice-mode"][value="triad"]').check();
+    await click(o,'create-shared-room'); await click(o,'room-create');
+    await o.locator('#room-share-code').waitFor();
+    assert(await o.locator('#room-next').isDisabled(),'Cannot start with missing members');
+    for (const [p,role] of [[t,'therapist'],[c,'client']]) {
+      await click(p,'join-shared-room'); await p.locator('#room-code').fill(room.code);
+      await p.locator('#room-role').selectOption(role); await click(p,'room-join');
+      await p.locator('#room-share-code').waitFor();
+    }
+    await syncAll(); await enabled(o,'room-next'); await click(o,'room-next'); await syncAll();
+    assert(!(await t.locator('#room-next').isVisible()),'Therapist has no observer controls');
+    assert(!(await c.locator('#room-next').isVisible()),'Client has no observer controls');
+    assert(await c.locator('.room-statement').isVisible(),'Client sees the line to read');
+    assert(await t.locator('.room-statement').count()===0,'Therapist listens without a prewritten line');
+    assert(await t.locator('#room-example').count()===0,'Example must not exist before retry');
+    await enabled(o,'room-next'); lostResponse = true; await click(o,'room-next');
+    await o.locator('#room-retry').waitFor(); const committedVersion = room.version;
+    await o.reload(); await o.waitForFunction(() => document.querySelector('#account-button').textContent === 'Account');
+    await click(o,'join-shared-room'); await enabled(o,'room-retry'); await click(o,'room-retry');
+    assert(room.version===committedVersion,'Reload/retry must not advance twice');
+    await syncAll(); assert((await c.locator('#room-content').textContent()).includes('experienced impact'),'Client gets impact prompt');
+    await enabled(o,'room-next'); await click(o,'room-next'); await syncAll();
+    assert((await o.locator('#room-content').textContent()).includes('observable strength'),'Observer gets coaching prompt');
+    disconnectClient=true; await enabled(o,'room-next'); await click(o,'room-next');
+    await click(c,'room-sync'); await click(t,'room-sync'); await click(o,'room-sync');
+    assert(await o.locator('#room-next').isDisabled(),'Round pauses until disconnected client catches up');
+    assert((await c.locator('#room-sync-status').textContent()).includes('Connection interrupted'),'Client sees reconnect status');
+    disconnectClient=false; await syncAll(); await enabled(o,'room-next');
+    assert(await t.locator('#room-example').isVisible(),'Therapist can compare an example at retry');
+    assert(await c.locator('#room-example').count()===0,'Client never sees example responses');
+    await t.screenshot({path:'output/playwright/room-therapist-mobile.png',fullPage:true});
+    await c.screenshot({path:'output/playwright/room-client-mobile.png',fullPage:true});
+    await click(o,'room-next'); await syncAll();
+    for (let i=0;i<2;i++) {await enabled(o,'room-pass');o.once('dialog',d=>d.accept());await click(o,'room-pass');await syncAll();}
+    assert(room.phase==='round_debrief'&&room.completed_ids.length===1&&room.skipped_ids.length===2,'Passed items excluded');
+    await o.locator('#room-score').selectOption('4'); await click(o,'room-save'); await syncAll();
+    assert(saves===1&&room.saved_score===4,'One observer rating saved');
+    assert((await t.locator('#room-saved').textContent()).includes('4/5'),'Therapist sees confirmation');
+    await enabled(o,'room-rotate'); await click(o,'room-rotate'); await syncAll();
+    assert(await c.locator('#room-next').isVisible(),'New observer receives controls');
+    assert(!(await o.locator('#room-next').isVisible()),'Previous observer becomes therapist');
+    c.once('dialog',d=>d.accept()); await click(c,'room-end'); await syncAll();
+    assert((await t.locator('#room-content').textContent()).includes('has ended'),'End propagates to all');
+    for (const p of pages) {
+      await p.setViewportSize({width:320,height:700});
+      assert(await p.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),'No 320px overflow');
+      await click(p,'room-back');
+    }
+    // Self-awareness reader prompts retain the disclosure boundary, in Norwegian.
+    if(await o.locator('#back-to-cases').isVisible()) await o.locator('#back-to-cases').click();
+    if(await o.locator('#back-to-skills').isVisible()) await o.locator('#back-to-skills').click();
+    await o.locator('#back-to-language').click();
+    await o.locator('[data-language-id="no"]').click();
+    await o.locator('[data-skill-id="therapist-self-awareness"]').click(); await o.locator('[data-case-id="case-sara"]').click();
+    await o.locator('[name="practice-mode"][value="triad"]').check(); await click(o,'create-shared-room'); await click(o,'room-create');
+    for (const [p,role] of [[t,'therapist'],[c,'client']]) {
+      await p.evaluate(() => {for(const key of Object.keys(localStorage)) if(key.startsWith('dp_shared_room:')) localStorage.removeItem(key);});
+      await click(p,'join-shared-room'); await p.locator('#room-code').fill(room.code);
+      await p.locator('#room-role').selectOption(role); await click(p,'room-join');
+    }
+    await syncAll(); await enabled(o,'room-next'); await click(o,'room-next'); await syncAll();
+    assert((await c.locator('#room-content').textContent()).includes('Oppleser'),'Self-awareness assigns reader role');
+    assert((await t.locator('#room-content').textContent()).includes('du trenger ikke svare klienten'),'Therapist is not asked to perform a response');
+    // A setup cancelled before its configuration is ready cannot create a room.
+    await click(o,'room-back');
+    await o.evaluate(async () => {
+      document.getElementById('room-overlay').remove();
+      const {createPracticeRoomView}=await import('/deliberatepractice/src/js/practiceRoom.js');
+      const {createDialogManager}=await import('/deliberatepractice/src/js/dialogs.js');
+      const view=createPracticeRoomView({dialogs:createDialogManager(),getUser:()=>({id:'o'}),
+        getLanguage:()=> 'en',localizeSkill:()=>null,getStrings:()=>({}),signIn:()=>{}});
+      await view.show({resume:false,createConfig:()=>new Promise(resolve=>{window.releaseRoomSetup=resolve;})});
+    });
+    const beforeCanceledCreation=creations;
+    await click(o,'room-create');await click(o,'room-back');
+    await o.evaluate(config=>window.releaseRoomSetup(config),{languageId:room.language_id,
+      skillId:room.skill_id,caseId:room.case_id,difficulty:room.difficulty,
+      contentRevision:room.content_revision,statements:room.catalog});
+    await o.waitForTimeout(200);
+    assert(creations===beforeCanceledCreation,'Cancelled room setup must not create a room later');
+    assert(errors.length===0,errors.join('\n'));
+    return {passed:true,roles:3,checks:['role screens','acknowledgement barrier','lost response and reload','offline recovery','rating and passes','rotation','320px','Norwegian self-awareness']};
+  } finally {for(const context of contexts)await context.close();}
+}

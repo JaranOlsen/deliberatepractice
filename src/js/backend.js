@@ -361,3 +361,25 @@ export async function logAccessCodeAttempt({ code, status, languageId }) {
     console.warn("Failed to log access code usage", err);
   }
 }
+
+// Shared rooms use the same authenticated client as account and progress calls.
+export async function practiceRoomRpc(name, args) {
+  const allowed = ['create_practice_room', 'join_practice_room', 'sync_practice_room', 'command_practice_room'];
+  if (!allowed.includes(name)) throw new Error('Unknown room operation');
+  const client = await getSupabaseClient();
+  const { data, error } = await client.rpc(name, args).abortSignal(AbortSignal.timeout(12000));
+  if (error) {
+    const failure = new Error(error.message ?? 'Room request failed');
+    failure.code = error.code;
+    throw failure;
+  }
+  return data;
+}
+
+export async function watchPracticeRoom(roomId, onChange) {
+  const client = await getSupabaseClient();
+  const channel = client.channel(`practice-room:${roomId}:${crypto.randomUUID()}`)
+    .on('postgres_changes', {event: 'UPDATE', schema: 'public', table: 'practice_rooms', filter: `id=eq.${roomId}`}, onChange)
+    .subscribe(status => { if (status === 'SUBSCRIBED') onChange(); });
+  return () => { client.removeChannel(channel); };
+}

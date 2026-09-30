@@ -52,3 +52,23 @@ Vite regenerates runtime files for dev/build and watches source-data changes. Co
 The individual/group scale boundary is now handled by separate queries and views. Older ratings have an explicit unspecified-scale explanation and retain their original meaning as far as the stored data allows.
 
 The main bundle reduction is verified in the production build. Further device/network performance measurement can guide any additional optimization; the first release no longer needs the full exercise corpus to open its library.
+
+## Separate-device group rooms
+
+The user identified video-call groups as an important use case. Separate-device rooms now complement the shared-device group mode. The observer creates a room from the chosen case; signed-in therapist/client participants join by code. Each sees role-specific preparation and phase guidance. Examples are absent before retry and never appear on the client screen. Self-awareness uses reader prompts rather than treating private reactions as performances.
+
+Server transitions lock the room and check observer identity, expected version, and fresh acknowledgements from all three devices. Durable command receipts prevent duplicate progression when a response is lost, including across reload. Role rotation updates all assignments atomically. Ratings use the immutable server therapist, completed IDs and group rubric; joining grants room-scoped rating consent without changing partnerships. Identity collisions with unrelated ratings are rejected.
+
+`shared_practice_rooms` and `harden_room_rating_identity` were applied to the connected Supabase project. Room SELECT is member-only; raw writes and anonymous RPC execution are denied. Private presence/receipt tables intentionally have no client policies or schema access. New RPC advisor warnings reflect intentional signed-in, explicitly guarded endpoints; guidance remains [authenticated definer functions](https://supabase.com/docs/guides/database/database-linter?lint=0029_authenticated_security_definer_function_executable). The new foreign keys have covering indexes. Existing unrelated performance advisories were left unchanged.
+
+Verification completed:
+
+- 25 unit tests and all existing content validations pass. The retained radar/progress and existing individual/shared-device browser checks also pass.
+- A rolled-back SQL test uses three participants plus an outsider and checks occupied roles, missing/stale acknowledgements, non-observer control rejection, stale commands, command replay, pass counts, rating identity, rotation, direct SELECT RLS and raw-write rejection. No fixture users or ratings remain.
+- Three isolated browser contexts pass the role flow, connection loss, reload with an uncertain command, group rating, role rotation, English/Norwegian self-awareness and 320px checks. A room setup dismissed before its configuration resolves cannot create a room later. These browser tests mock the backend.
+- Two real authorized accounts pass authenticated room creation/join/SELECT, missing-third-member rejection, Realtime UPDATE delivery, replay and durable snapshot recovery. The first notification probe did not receive an update immediately after subscription; a subsequent probe after subscription setup did receive it. Polling is deliberately retained to cover subscription startup and missed events. The live test room was removed and its test sessions signed out; no persistent ratings were created by this probe.
+- The room UI is loaded on demand, adding about 7.5KB gzip when opened. The production build remains free of large-chunk warnings.
+
+A live three-account browser test also completes the round, saves one group-consistency rating with two passes excluded, pauses rotation after a client disconnects for over 20 seconds, restores that client after reload, rotates all roles and ends the session for everyone. The database confirms the intended therapist, score 4, item count 1 and group rubric. Test rooms and ratings are removed afterward.
+
+A real three-person session across separate phones and networks remains unverified. Automated checks establish the state/permission behavior but do not measure background suspension, mobile network latency or usability during an actual video call. Frontend changes remain on the draft release branch and have not been deployed.

@@ -2043,3 +2043,40 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 .progress-modal .chart-header { display: block; position: relative; }
 .progress-modal .chart-header h3 { padding-right: 6.5rem; }
 .progress-modal .chart-header > button { position: absolute; right: 0; top: 0; }
+
+/* Separate-device practice has one focused screen per participant. */
+.room-overlay {
+  position: fixed; inset: 0; z-index: 1000; overflow-y: auto;
+  background: #eef4f1; padding: max(1rem, env(safe-area-inset-top)) 1rem max(1rem, env(safe-area-inset-bottom));
+}
+.room-overlay.is-hidden { display: none; }
+.room-dialog { max-width: 760px; margin: 0 auto; color: #203d39; }
+.room-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.room-header h2 { font-size: clamp(1.3rem, 4vw, 1.8rem); }
+.room-dialog p { line-height: 1.6; }
+.room-dialog button, .room-dialog input, .room-dialog select { max-width: 100%; }
+.room-dialog form { display: grid; gap: .75rem; }
+.room-dialog input, .room-dialog select { padding: .8rem; border: 1px solid #a9bcb5; border-radius: .6rem; font: inherit; background: white; }
+.room-dialog label { font-weight: 650; }
+.room-code-row { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; padding-top: .7rem; }
+#room-share-code { letter-spacing: .1em; font-size: 1.3rem; overflow-wrap: anywhere; }
+.room-members { list-style: none; display: flex; flex-wrap: wrap; gap: .5rem; padding: 0; }
+.room-members li { border: 1px solid #ccbca1; border-radius: 2rem; padding: .4rem .75rem; font-size: .85rem; }
+.room-members li.is-ready { border-color: #719e89; background: #dfefe4; }
+#room-content { margin-top: 1.2rem; padding: 1.5rem; border-radius: 1rem; background: white; box-shadow: 0 5px 24px #27453b0d; }
+#room-content h3, #room-content h4 { line-height: 1.4; }
+#room-content .triad-role-badge { display: inline-block; }
+.room-statement { margin: 1.5rem 0; padding-left: 1rem; border-left: 3px solid #719e89; }
+#room-example { padding: 1rem; border-radius: .7rem; background: #f0f5f1; }
+#room-example summary { cursor: pointer; font-weight: 650; }
+.room-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1.2rem 0; }
+#room-error, #room-status { overflow-wrap: anywhere; }
+#room-error { color: #96372d; }
+#create-shared-room { margin: .5rem 0 1rem; }
+@media (max-width: 480px) {
+  .room-header { align-items: flex-start; }
+  .room-header .ghost-button { min-width: 6rem; }
+  #room-content { padding: 1rem; }
+  .room-actions > button { width: 100%; }
+  .account-controls { flex-wrap: wrap; }
+}
