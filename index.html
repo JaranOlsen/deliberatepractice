@@ -21,13 +21,15 @@
           </p>
         </div>
         <div class="account-controls">
-          <button type="button" class="header-pill" id="join-shared-room">Group on separate devices</button>
+          <button type="button" class="header-pill" id="join-shared-room">Group</button>
           <button type="button" class="header-pill" id="account-button">Sign in</button>
           <button type="button" class="header-pill header-target-pill" id="active-target-button" hidden>For: Me</button>
         </div>
       </div>
     </header>
     <main class="app-main">
+      <aside id="group-selection-context" class="group-selection-context" hidden><p id="group-selection-note"></p><button id="group-selection-return" class="ghost-button" type="button"></button></aside>
+      <section id="group-entry" class="panel group-entry" hidden aria-labelledby="group-entry-title"><h2 id="group-entry-title">Practice together</h2><p id="group-entry-note"></p><div class="room-entry-actions"><button id="group-resume" class="primary-button" type="button" hidden></button><button id="group-create" class="primary-button" type="button">Create room</button><button id="group-join" class="ghost-button" type="button">Join with a code</button></div></section>
       <div class="content-load-notice" id="content-load-notice" hidden>
         <p id="content-load-status" role="status"></p>
         <button type="button" class="ghost-button ghost-button--small" id="content-load-retry" hidden></button>
@@ -242,7 +244,7 @@
               <label class="practice-format-option">
                 <input type="radio" name="practice-mode" value="group" checked>
                 <span>
-                  <strong id="practice-mode-triad">Group of three</strong>
+                  <strong id="practice-mode-triad">Group</strong>
                   <small id="practice-mode-triad-description">Therapist, client, and observer practice three items with feedback and retry.</small>
                 </span>
               </label>

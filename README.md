@@ -138,9 +138,11 @@ The progress checks cover empty/sparse/full radar profiles, source separation, p
 
 ## Groups on separate devices
 
-Choose a skill and case, then **Create group room**. The creator is the host and initially practices as therapist, with another initial role available during setup. Other participants sign in, choose **Join group**, and enter the code. Automatic assignment fills therapist, client, active observer, then watching observers. Roles can be changed in the lobby. Keep a video call open for speaking; the app does not provide or record audio/video.
+Choose **Create room** on the library screen, then invite the group through **Share invite** or a room code. The room can be created and joined before selecting a skill or case. The host chooses practice through the normal library and can change the skill, case or language between rounds. Selecting a case first and creating its room also remains available. Participants sign in and use **Join with a code**, or open an invite link with the code already filled. Automatic assignment fills therapist, client, active observer, then watching observers; the host starts as therapist unless they choose another initial role. Roles can be changed while choosing or preparing. Keep a video call open for speaking; the app does not provide or record audio/video.
 
 Rooms use the app's normal header and practice layout. The host advances, passes, rotates roles and ends the room independently of their current practice role. Two people swap therapist/client roles and skip the observer coaching step. With three or more, the active seats are therapist, client and observer; additional members watch. The complete roster rotates through those seats so everyone gets equal turns as therapist. Display names identify participants without sharing account emails.
+
+**Room & people** contains invites, the roster, role changes and exit controls. On phones it folds away during exercises, while the host’s next action stays at the bottom with room for the device safe area. **Library** opens the library without leaving membership; **Return to room** restores the session. **Leave room** removes a participant, while **End room for everyone** closes the session for the entire group. Both exits have an in-app confirmation. A watching observer can leave without interrupting practice. Leaving an active role returns the group to preparation and clears the unfinished round; saved ratings stay. Uncertain leave requests can be replayed even after membership has been removed.
 
 The therapist listens to the client read the line and can open an example during retry; the client never sees suggested responses. Self-awareness assigns the client the reader role and retains the disclosure boundary.
 
@@ -152,8 +154,9 @@ For a fresh backend, apply `supabase/auth-pairing-practice.sql` first, then the 
 
 Verification:
 
-- `npm test` includes ordered snapshots, acknowledgement timing, background devices, cancelled snapshots, and uncertain command replay.
-- `scripts/check-room-flows.js` uses five isolated browser contexts with an intercepted backend, covering active/watching role screens, offline spectators, reconnect, reload/retry, passing, ratings, rotation, Norwegian self-awareness and 320px layout.
+- `npm test` includes ordered snapshots, acknowledgement timing, background devices, cancelled snapshots, uncertain configuration/command replay and stopping synchronization after departure.
+- `scripts/check-room-flows.js` uses five isolated browser contexts with an intercepted backend, covering room creation before selection, host library selection, active/watching role screens, offline spectators, reconnect, reload/retry, lost-response leave recovery, passing, ratings, rotation, Norwegian self-awareness and 320px layout.
 - `scripts/check-practice-rooms.sql` checks permissions, role claiming, acknowledgements, transitions, replay, rating identity and rotation in a rolled-back database transaction. It creates no persistent test users or ratings.
+- `scripts/check-room-lifecycle.sql` checks empty rooms, configuration ownership/replay, joining before selection, stale acknowledgements, active/passive departure, membership removal, leave replay and closing configured or empty rooms in a rolled-back transaction.
 
 The automated browser test is run through the Playwright CLI against the development preview, following the same pattern as the other browser scripts.

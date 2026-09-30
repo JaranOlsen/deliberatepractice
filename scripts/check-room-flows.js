@@ -7,7 +7,7 @@ async (page) => {
   const contexts = [], pages = [], errors = [];
   const assert = (condition, message) => { if (!condition) throw new Error(message); };
   let room = null, lostResponse = false, disconnectClient = false, disconnectSpectators = false, saves = 0, creations = 0;
-  const receipts = new Set();
+  const receipts = new Map();
   const snapshot = () => structuredClone(room);
   const ackAll = () => ['observer', 'therapist', 'client'].every(role => room.presence[room[`${role}_id`]]?.acknowledged_version === room.version);
   for (const user of ['o', 't', 'c', 'p', 'q']) {
@@ -48,27 +48,41 @@ async (page) => {
         creations++; const cfg = args.input_config;
         room = {id: args.input_room_id, code: 'ABCD1234EF56', host_id: user, member_ids: [user], observer_id: user, therapist_id: null, client_id: null,
           language_id: cfg.languageId, skill_id: cfg.skillId, case_id: cfg.caseId, difficulty: cfg.difficulty,
-          content_revision: cfg.contentRevision, catalog: cfg.statements, statement_ids: cfg.statements.slice(0,3).map(s=>s.id),
-          item_index: 0, phase: 'lobby', completed_ids: [], skipped_ids: [], round_id: 'round-one', round_number: 1,
+          content_revision: cfg.contentRevision ?? null, catalog: cfg.statements ?? [], statement_ids: cfg.statements?.slice(0,3).map(s=>s.id) ?? [],
+          item_index: 0, phase: cfg.skillId ? 'lobby' : 'choosing', completed_ids: [], skipped_ids: [], round_id: 'round-one', round_number: 1,
           version: 0, saved_score: null, expires_at: new Date(Date.now()+3600000).toISOString(), presence: {}};
         data = snapshot();
       } else if (name === 'join_practice_room') {
         if (args.input_code.replace(/[^a-z0-9]/gi,'').toUpperCase() !== room.code) fail('Room unavailable');
-        else {room[`${args.input_role}_id`] = user; room.member_ids.push(user); room.version++; data = snapshot();}
+        else { if(!room.member_ids.includes(user)){ const role=args.input_role==='auto'?['therapist','client','observer'].find(r=>!room[`${r}_id`])??'passive':args.input_role; if(role!=='passive')room[`${role}_id`]=user;room.member_ids.push(user);room.version++;} data = snapshot(); }
+      } else if (name === 'prepare_practice_room') {
+        if(receipts.has(args.input_command_id)) data=snapshot();
+        else {
+          const cfg=args.input_config;Object.assign(room,{language_id:cfg.languageId,skill_id:cfg.skillId,case_id:cfg.caseId,
+            difficulty:cfg.difficulty,content_revision:cfg.contentRevision,catalog:cfg.statements,statement_ids:cfg.statements.slice(0,3).map(e=>e.id),phase:'lobby'});
+          room.version++;receipts.set(args.input_command_id,{action:'prepare'});data=snapshot();
+          if(lostResponse){lostResponse=false;status=503;data={message:'Response lost after commit'};}
+        }
       } else if (name === 'sync_practice_room') {
-        if ((user === 'c' && disconnectClient) || (['p','q'].includes(user) && disconnectSpectators)) {status = 503; data = {message:'Test connection interrupted'};}
+        if(!room.member_ids.includes(user))fail('Room unavailable');
+        else if ((user === 'c' && disconnectClient) || (['p','q'].includes(user) && disconnectSpectators)) {status = 503; data = {message:'Test connection interrupted'};}
         else {
           room.presence[user] = {connected: true, acknowledged_version: Math.max(room.presence[user]?.acknowledged_version ?? -1, args.input_acknowledged_version)};
           data = snapshot();
         }
       } else if (name === 'command_practice_room') {
-        if (receipts.has(args.input_command_id)) data = snapshot();
-        else if (user !== (args.input_action === 'rate' ? room.observer_id : room.host_id)) fail('Only observer');
+        if (receipts.has(args.input_command_id)) data = receipts.get(args.input_command_id).left ? {left:true} : snapshot();
+        else if (args.input_action !== 'leave' && user !== (args.input_action === 'rate' ? room.observer_id : room.host_id)) fail('Only observer');
         else if (args.input_expected_version !== room.version) fail('Stale version');
         else if (['start','advance','pass','rotate'].includes(args.input_action) && !ackAll()) fail('Waiting for devices');
         else {
-          receipts.add(args.input_command_id);
-          if (args.input_action === 'start') room.phase = 'first_attempt';
+          receipts.set(args.input_command_id,{action:args.input_action});
+          if(args.input_action==='leave'){
+            room.member_ids=room.member_ids.filter(id=>id!==user);
+            const active=['therapist','client','observer'].find(role=>room[`${role}_id`]===user);
+            if(active){room[`${active}_id`]=null;room.phase='lobby';room.completed_ids=[];room.skipped_ids=[];room.item_index=0;room.round_interrupted=true;}
+            receipts.set(args.input_command_id,{left:true});
+          } else if (args.input_action === 'start') room.phase = 'first_attempt';
           else if (args.input_action === 'advance' || args.input_action === 'pass') {
             if (args.input_action === 'pass' || room.phase === 'retry') {
               room[args.input_action === 'pass' ? 'skipped_ids' : 'completed_ids'].push(room.statement_ids[room.item_index]);
@@ -81,7 +95,7 @@ async (page) => {
             queue.unshift(queue.pop());[room.therapist_id,room.client_id,room.observer_id]=queue;
             room.phase='lobby';room.item_index=0;room.round_number++;room.round_id='round-two';room.completed_ids=[];room.skipped_ids=[];room.saved_score=null;
           } else if (args.input_action === 'close') room.phase='closed';
-          room.version++; data = snapshot();
+          room.version++; data = args.input_action === 'leave' ? {left:true} : snapshot();
           if (lostResponse) {lostResponse = false; status = 503; data = {message: 'Response lost after commit'};}
         }
       } else fail('Unexpected operation');
@@ -90,26 +104,30 @@ async (page) => {
     await p.goto(url); await p.waitForFunction(() => document.querySelector('#account-button').textContent === 'Account');
   }
   const [o,t,c,watcher1,watcher2] = pages;
-  const click = (p,id) => p.locator(`#${id}`).click();
+  const click = (p,id) => id === 'room-sync' ? p.evaluate(() => document.getElementById('room-sync').click()) : p.locator(`#${id}`).click();
   const enabled = async (p,id) => {await p.waitForFunction(id => {const e=document.getElementById(id);return e&&!e.hidden&&!e.disabled;},id,{timeout:15000});};
-  const syncAll = async () => { for (let i=0;i<2;i++) for (const p of pages) await click(p,'room-sync'); };
+  const syncAll = async () => { for (let i=0;i<2;i++) for (const p of pages) {if(await p.locator('#room-session').isVisible())await click(p,'room-sync');} for(const p of pages)if(await p.locator('#room-session').isVisible())await p.waitForFunction(version=>Number(document.getElementById('room-panel').dataset.version)>=version,room.version,{timeout:15000}); };
   try {
-    await o.locator('[data-language-id="en"]').click();
-    await o.locator('[data-skill-id="empathic-understanding"]').click();
-    await o.locator('[data-case-id="case-sara"]').click();
-    await o.locator('[name="practice-mode"][value="group"]').check();
-    await click(o,'start-practice'); await o.locator('#room-host-role').selectOption('observer'); await click(o,'room-create');
+    await click(o,'group-create');
+    await o.locator('#room-host-options summary').click();await o.locator('#room-host-role').selectOption('observer');await click(o,'room-create');
     await o.locator('#room-share-code').waitFor();
     assert(await o.locator('#room-next').isDisabled(),'Cannot start with missing members');
     assert(await o.locator('#app-title').isVisible(),'Group remains in the normal app shell');
     assert(await o.locator('#room-panel').getAttribute('role') !== 'dialog','Room is an ordinary app panel');
     for (const [p,role] of [[t,'therapist'],[c,'client'],[watcher1,'passive'],[watcher2,'passive']]) {
-      await click(p,'join-shared-room'); await p.locator('#room-code').fill(room.code);
-      await p.locator('#room-role').selectOption(role); await click(p,'room-join');
+      await click(p,'group-join'); await p.locator('#room-code').fill(room.code);
+      await p.locator('#room-join-options summary').click(); await p.locator('#room-role').selectOption(role); await click(p,'room-join');
       await p.locator('#room-share-code').waitFor();
     }
+    assert(room.phase==='choosing'&&!room.skill_id,'Create and join before selecting practice');
+    assert((await t.locator('#room-content').textContent()).includes('host is choosing'),'Members see that the host is choosing');
+    await click(o,'room-choose');assert(await o.locator('#group-selection-context').isVisible(),'Library identifies selection on behalf of group');
+    await o.locator('[data-skill-id="empathic-understanding"]').click();await o.locator('[data-case-id="case-sara"]').click();
+    assert(await o.locator('#practice-format').isHidden(),'Host selection does not offer a conflicting local practice format');
+    lostResponse=true;await click(o,'start-practice');await o.locator('#room-retry').waitFor();await enabled(o,'room-retry');await click(o,'room-retry');
+    assert(room.phase==='lobby'&&room.member_ids.length===5,'Host selection keeps the room roster');
     await syncAll();
-    assert((await watcher1.locator('#room-content').textContent()).includes('Watching observer'),'Extra members get the watching role');
+    assert((await watcher1.locator('#room-role-badge').textContent()).includes('Watching observer'),'Extra members get the watching role');
     assert(!(await watcher2.locator('#room-next').isVisible()),'Watching observers have no host controls');
     disconnectSpectators=true;room.presence.p.connected=false;room.presence.q.connected=false;
     await enabled(o,'room-next');await click(o,'room-next');
@@ -117,12 +135,15 @@ async (page) => {
     assert(!(await t.locator('#room-next').isVisible()),'Therapist has no observer controls');
     assert(!(await c.locator('#room-next').isVisible()),'Client has no observer controls');
     assert(await c.locator('.room-statement').isVisible(),'Client sees the line to read');
+    assert(await c.locator('#room-details').evaluate(e=>!e.open),'Room roster folds away during the exercise');
+    const clientLine=await c.locator('.room-statement').boundingBox();assert(clientLine.y<650,'Client line is within the first phone screen');
+    const hostAction=await o.locator('#room-next').boundingBox();assert(hostAction.y+hostAction.height<=844&&hostAction.height>=44,'Next action is reachable at the bottom of the phone');
     assert(await t.locator('.room-statement').count()===0,'Therapist listens without a prewritten line');
     assert(await t.locator('#room-example').count()===0,'Example must not exist before retry');
     await enabled(o,'room-next'); lostResponse = true; await click(o,'room-next');
     await o.locator('#room-retry').waitFor(); const committedVersion = room.version;
     await o.reload(); await o.waitForFunction(() => document.querySelector('#account-button').textContent === 'Account');
-    await click(o,'join-shared-room'); await enabled(o,'room-retry'); await click(o,'room-retry');
+    await click(o,'group-resume'); await enabled(o,'room-retry'); await click(o,'room-retry');
     assert(room.version===committedVersion,'Reload/retry must not advance twice');
     await syncAll(); assert((await c.locator('#room-content').textContent()).includes('experienced impact'),'Client gets impact prompt');
     await enabled(o,'room-next'); await click(o,'room-next'); await syncAll();
@@ -130,6 +151,7 @@ async (page) => {
     disconnectClient=true; await enabled(o,'room-next'); await click(o,'room-next');
     await click(c,'room-sync'); await click(t,'room-sync'); await click(o,'room-sync');
     assert(await o.locator('#room-next').isDisabled(),'Round pauses until disconnected client catches up');
+    await c.waitForFunction(()=>document.getElementById('room-sync-status').textContent.includes('Connection interrupted'));
     assert((await c.locator('#room-sync-status').textContent()).includes('Connection interrupted'),'Client sees reconnect status');
     disconnectClient=false; await syncAll(); await enabled(o,'room-next');
     assert(await t.locator('#room-example').isVisible(),'Therapist can compare an example at retry');
@@ -145,9 +167,9 @@ async (page) => {
     await enabled(o,'room-rotate'); await click(o,'room-rotate'); await syncAll();
     assert(await o.locator('#room-next').isVisible(),'Host retains controls after rotation');
     assert(!(await c.locator('#room-next').isVisible()),'New observer does not become host');
-    assert((await watcher2.locator('#room-content').textContent()).includes('Your role: Therapist'),'A watching observer becomes therapist');
+    assert((await watcher2.locator('#room-role-badge').textContent()).includes('Your role: Therapist'),'A watching observer becomes therapist');
     assert(await watcher2.locator('.room-statement').count()===0,'A new therapist receives only their role screen');
-    o.once('dialog',d=>d.accept()); await click(o,'room-end'); await syncAll();
+    await click(o,'room-end');assert(await o.locator('#room-exit-overlay').isVisible(),'Ending is confirmed inside the app');await click(o,'room-exit-cancel');assert(room.phase==='lobby','Cancel keeps room open');await click(o,'room-end');await click(o,'room-exit-confirm');await syncAll();
     assert((await t.locator('#room-content').textContent()).includes('has ended'),'End propagates to all');
     for (const p of pages) {
       await p.setViewportSize({width:320,height:700});
@@ -160,19 +182,29 @@ async (page) => {
     await o.locator('#back-to-language').click();
     await o.locator('[data-language-id="no"]').click();
     await o.locator('[data-skill-id="therapist-self-awareness"]').click(); await o.locator('[data-case-id="case-sara"]').click();
-    await o.locator('[name="practice-mode"][value="group"]').check(); await click(o,'start-practice'); await o.locator('#room-host-role').selectOption('observer'); await click(o,'room-create');
+    await o.locator('[name="practice-mode"][value="group"]').check(); await click(o,'start-practice'); await o.locator('#room-host-options summary').click();await o.locator('#room-host-role').selectOption('observer'); await click(o,'room-create');
     for (const [p,role] of [[t,'therapist'],[c,'client'],[watcher1,'passive'],[watcher2,'passive']]) {
       await p.evaluate(() => {for(const key of Object.keys(localStorage)) if(key.startsWith('dp_shared_room:')) localStorage.removeItem(key);});
-      await click(p,'join-shared-room'); await p.locator('#room-code').fill(room.code);
-      await p.locator('#room-role').selectOption(role); await click(p,'room-join');
+      await click(p,'group-join'); await p.locator('#room-code').fill(room.code);
+      await p.locator('#room-join-options summary').click(); await p.locator('#room-role').selectOption(role); await click(p,'room-join');
     }
     await syncAll(); await enabled(o,'room-next'); await click(o,'room-next'); await syncAll();
-    assert((await c.locator('#room-content').textContent()).includes('Oppleser'),'Self-awareness assigns reader role');
+    assert((await c.locator('#room-role-badge').textContent()).includes('Oppleser'),'Self-awareness assigns reader role');
     assert((await t.locator('#room-content').textContent()).includes('du trenger ikke svare klienten'),'Therapist is not asked to perform a response');
+    // A committed leave can be recovered after membership/SELECT access is removed.
+    await watcher1.locator('#room-details summary').click();await click(watcher1,'room-leave');
+    await click(watcher1,'room-exit-cancel');assert(room.member_ids.includes('p'),'Cancelling leave keeps membership');
+    await click(watcher1,'room-leave');lostResponse=true;await click(watcher1,'room-exit-confirm');
+    await watcher1.locator('#room-retry').waitFor();const leavingVersion=room.version;
+    assert(!room.member_ids.includes('p')&&room.phase==='first_attempt','Watching departure keeps the active round');
+    await watcher1.reload();await watcher1.waitForFunction(()=>document.querySelector('#account-button').textContent==='Account');
+    await click(watcher1,'group-resume');await watcher1.waitForFunction(()=>!localStorage.getItem('dp_shared_room:p')&&document.body.dataset.section!=='room');
+    assert(await watcher1.locator('#group-resume').isHidden(),'Leave recovery clears the saved room');
+    assert(room.version===leavingVersion,'Reload replays leave without changing the round twice');
     // A setup cancelled before its configuration is ready cannot create a room.
     await click(o,'room-back');
     await o.evaluate(async () => {
-      document.getElementById('room-panel').remove();
+      document.getElementById('room-panel').remove();document.getElementById('room-exit-overlay').remove();
       const {createPracticeRoomView}=await import('/deliberatepractice/src/js/practiceRoom.js');
       const {createDialogManager}=await import('/deliberatepractice/src/js/dialogs.js');
       const view=createPracticeRoomView({dialogs:createDialogManager(),getUser:()=>({id:'o'}),
@@ -187,6 +219,6 @@ async (page) => {
     await o.waitForTimeout(200);
     assert(creations===beforeCanceledCreation,'Cancelled room setup must not create a room later');
     assert(errors.length===0,errors.join('\n'));
-    return {passed:true,participants:5,checks:['watching observers','offline spectators do not stall','watching observer rotates into therapist','role screens','acknowledgement barrier','lost response and reload','offline recovery','rating and passes','rotation','320px','Norwegian self-awareness']};
+    return {passed:true,participants:5,checks:['empty room creation and join','host chooses practice in library','uncertain preparation retry','phone exercise visibility and bottom action','in-app end confirmation','leave cancellation and lost-response reload','watching observers','offline spectators do not stall','watching observer rotates into therapist','role screens','acknowledgement barrier','lost response and reload','offline recovery','rating and passes','rotation','320px','Norwegian self-awareness']};
   } finally {for(const context of contexts)await context.close();}
 }

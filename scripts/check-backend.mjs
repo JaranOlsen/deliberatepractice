@@ -49,7 +49,7 @@ async function probe(label, path, key, { schema = false } = {}) {
 // A zero-row projection verifies the required schema without retrieving personal data.
 const checks = [
   ['Auth service', '/auth/v1/health', publicKey],
-  ['Shared rooms schema', '/rest/v1/practice_rooms?select=id,host_id,member_ids,rotation_ids,observer_id,therapist_id,client_id,phase,version,round_id&limit=0', adminKey || publicKey, {schema:true}],
+  ['Shared rooms schema', '/rest/v1/practice_rooms?select=id,host_id,member_ids,rotation_ids,observer_id,therapist_id,client_id,phase,version,round_id,round_interrupted,skill_id,case_id&limit=0', adminKey || publicKey, {schema:true}],
   ['Profiles schema', '/rest/v1/profiles?select=id,display_name&limit=0', adminKey || publicKey, {schema:true}],
   ['Pairing schema', '/rest/v1/practice_partnerships?select=id,therapist_user_id,observer_user_id,status&limit=0', adminKey || publicKey, {schema:true}],
   ['Ratings schema', '/rest/v1/practice_ratings?select=id,therapist_user_id,created_by_user_id,source,rating_scope,skill_id,case_id,difficulty,score,item_count,completed_statement_ids,client_round_id,practice_mode,rating_rubric,created_at&limit=0', adminKey || publicKey, {schema:true}]

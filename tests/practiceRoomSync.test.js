@@ -108,3 +108,31 @@ test('pairs need both active devices; watching observers do not block a larger g
   assert.equal(roomEveryoneReady(r), true);
   r.client_id = null; assert.equal(roomEveryoneReady(r), false);
 });
+
+
+test('an uncertain lobby configuration retains its content and command identity for replay', async () => {
+  const calls=[]; let lost=true; const configuration={languageId:'no',skillId:'test',statements:[{id:'a'}]};
+  const f=fixture({rpc:async(name,args)=>{
+    if(name==='sync_practice_room') return room(lost?0:1);
+    calls.push({name,args}); if(lost){lost=false;throw new TypeError('Response lost');} return room(1);
+  }});
+  try {
+    await f.controller.start(room(0));await f.controller.command('prepare',null,configuration);await wait();
+    assert.deepEqual(f.pending().configuration,configuration);
+    await f.controller.command('prepare',null,configuration);
+    assert.equal(calls[0].name,'prepare_practice_room');
+    assert.equal(calls[0].args.input_command_id,calls[1].args.input_command_id);
+    assert.deepEqual(calls[1].args.input_config,configuration);
+    assert.equal(f.pending(),null);
+  } finally {f.controller.stop();}
+});
+
+test('successful departure stops synchronization instead of accepting an inaccessible room', async () => {
+  const f=fixture({rpc:async(name)=>name==='sync_practice_room'?room(0):{left:true}});
+  try {
+    await f.controller.start(room(0));await f.controller.command('leave');
+    assert.equal(f.controller.status().snapshot,null);
+    assert.equal(f.pending(),null);
+    assert.equal(f.changes.at(-1).left,true);
+  } finally {f.controller.stop();}
+});

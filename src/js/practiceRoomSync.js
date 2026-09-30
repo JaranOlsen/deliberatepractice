@@ -85,21 +85,22 @@ export function createRoomSync({rpc, watch, apply, changed, loadPending, savePen
     await sync();
   }
 
-  async function command(action, score = null) {
+  async function command(action, score = null, configuration = null) {
     if (!roomId || commanding || !snapshot) return;
-    if (pending && (pending.action !== action || pending.score !== score)) return;
+    if (pending && (pending.action !== action || pending.score !== score || JSON.stringify(pending.configuration ?? null) !== JSON.stringify(configuration))) return;
     if (!pending) {
-      pending = {id: crypto.randomUUID(), action, score, version: snapshot.version};
+      pending = {id: crypto.randomUUID(), action, score, version: snapshot.version, ...(configuration ? {configuration} : {})};
       savePending(roomId, pending);
     }
     const epoch = generation;
     commanding = true; commandError = ''; emit();
     try {
-      const next = await rpc('command_practice_room', {input_room_id: roomId,
+      const next = await rpc(action === 'prepare' ? 'prepare_practice_room' : 'command_practice_room', {input_room_id: roomId,
         input_command_id: pending.id, input_expected_version: pending.version,
-        input_action: pending.action, input_score: pending.score});
+        ...(action === 'prepare' ? {input_config: pending.configuration} : {input_action: pending.action, input_score: pending.score})});
       if (epoch !== generation) return;
       pending = null; savePending(roomId, null);
+      if (next?.left) { stop(); changed({...status(), left: true}); return; }
       await accept(next, epoch);
     } catch (failure) {
       if (epoch !== generation) return;

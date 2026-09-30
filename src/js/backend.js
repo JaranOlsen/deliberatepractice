@@ -364,7 +364,7 @@ export async function logAccessCodeAttempt({ code, status, languageId }) {
 
 // Shared rooms use the same authenticated client as account and progress calls.
 export async function practiceRoomRpc(name, args) {
-  const allowed = ['create_practice_room', 'join_practice_room', 'sync_practice_room', 'command_practice_room'];
+  const allowed = ['create_practice_room', 'join_practice_room', 'sync_practice_room', 'command_practice_room', 'prepare_practice_room'];
   if (!allowed.includes(name)) throw new Error('Unknown room operation');
   const client = await getSupabaseClient();
   const { data, error } = await client.rpc(name, args).abortSignal(AbortSignal.timeout(12000));

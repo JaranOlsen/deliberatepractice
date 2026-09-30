@@ -92,3 +92,22 @@ Validation:
 - The connected project's flexible-group, fair-rotation and roster-name migrations are applied. Advisors show no new room permission exposure: guarded authenticated RPCs and inaccessible private presence/receipt tables retain their intentional advisories. The new roster index is unused so far, as expected with newly created small test rooms. Existing unrelated advisories remain unchanged.
 
 Frontend remains on the draft release branch. Real phones on different networks still need a practical video-call trial before broad release.
+
+
+## Phone room entry and lifecycle (October 1)
+
+Rooms can now be created and joined before choosing practice. The host opens the normal language/skill/case library with a group-selection banner, then applies that selection to the existing room. The host can change the language, skill or case between rounds while preserving the roster and host. An invite link pre-fills the join code and is removed from the URL after joining.
+
+On phones, the roster, invite, role and exit controls fold into Room & people during exercises. The client’s line appears on the first screen and the host’s next action stays at the bottom with touch-sized controls and safe-area padding. Library, Leave room and End room for everyone now have distinct meanings; the latter two use an in-app confirmation with keyboard focus and background isolation. A watching departure keeps the round running. Leaving an active role starts a fresh preparation round, preserving existing saved ratings.
+
+The `room_lobby_and_lifecycle` migration is applied to the connected project. Configuration is host-only, version-checked and restricted to choosing/preparation; a durable receipt also records the exact configuration. Leave receipts can be replayed after removal from member-only SELECT access, returning only a departure acknowledgement. Raw writes and anonymous RPC access remain denied. The new authenticated definer advisory is intentional for the guarded preparation endpoint; the existing unrelated advisories are unchanged.
+
+Validation:
+
+- 28 unit tests, all content/runtime parity checks, the production build and read-only backend schema checks pass. The main application is about 77.3KB gzip; the lazy room module is about 10.9KB gzip.
+- Five isolated browser contexts cover empty-room entry, ordinary host library selection, uncertain preparation, phone exercise/action visibility, leave cancellation, committed-leave response loss and reload recovery, end confirmation, and the existing role/reconnect/rating/rotation scenarios.
+- Rolled-back database checks cover joining before selection, host configuration ownership, configuration replay and identity rejection, active-round configuration denial, acknowledgement invalidation, active/passive departures, removed-member permissions, leave replay, host exit restrictions and empty/configured room closure. No fixture users or ratings persist.
+- A live isolated test with the three authorized accounts verifies room creation before selection, invite entry, host selection, phone first-screen and bottom-action placement, leave cancellation, active departure, vacant-role reassignment, changing to Norwegian self-awareness, 320px layout, confirmation focus and shared room ending. No ratings were created. The exact four test rooms, including rooms from interrupted test runs, were removed; the three isolated login sessions were signed out and their temporary credentials deleted.
+- Existing individual/shared-device practice, radar/progress and real SDK query-adapter browser checks pass.
+
+Frontend changes remain on the draft release branch and are not deployed. These browser tests use phone-sized viewports; a video-call trial on actual phones and different networks remains to be done.

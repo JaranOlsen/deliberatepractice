@@ -2074,3 +2074,69 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
   .room-actions > button { width: 100%; }
   .account-controls { flex-wrap: wrap; }
 }
+
+
+/* Keep the exercise and the next action central on a phone. */
+.group-entry { gap: .75rem; }
+.group-entry h2, .group-entry p { margin: 0; }
+.group-entry h2 { font-size: 1.2rem; }
+.group-entry p { color: var(--color-muted); line-height: 1.5; }
+.room-entry-actions { display: flex; flex-wrap: wrap; gap: .65rem; }
+.room-entry-actions > button { flex: 1 1 9rem; min-height: 48px; }
+.group-selection-context { display: flex; align-items: center; gap: .75rem; border-radius: 12px; padding: .75rem; background: #e5f0eb; }
+.group-selection-context p { flex: 1; margin: 0; font-size: .9rem; }
+.group-selection-context button { min-height: 44px; }
+.room-dialog { width: 100%; display: grid; gap: .75rem; }
+.room-header h2 { margin: 0; font-size: 1.3rem; }
+.room-header button { min-height: 44px; }
+#room-status:empty, #room-error:empty { display: none; }
+#room-status, #room-error { margin: 0; }
+#room-session { display: grid; gap: .75rem; }
+#room-role-badge { justify-self: start; margin: 0; }
+#room-setup p { margin: 0 0 1rem; }
+#room-entry > button { width: 100%; margin-top: 1rem; }
+#room-entry details { margin: .5rem 0; }
+.room-dialog summary { cursor: pointer; min-height: 44px; padding: .6rem 0; line-height: 1.5; }
+.room-dialog input, .room-dialog select { min-height: 48px; font-size: 16px; width: 100%; }
+.room-details { border: 1px solid var(--color-border); border-radius: .75rem; padding: 0 .75rem; }
+.room-details > summary { display: flex; align-items: center; justify-content: space-between; gap: .5rem; font-weight: 650; }
+#room-people-count { font-size: .8rem; color: var(--color-muted); font-weight: 500; }
+.room-details > summary::after { content: '+'; font-size: 1.1rem; }
+.room-details[open] > summary::after { content: '−'; }
+.room-code-row { padding-top: .5rem; gap: .5rem; }
+#room-share-code { flex-basis: 100%; font-size: 1.1rem; }
+.room-code-row > button { min-height: 44px; padding: .55rem .7rem; }
+.room-members { display: grid; gap: 0; margin: .75rem 0; }
+.room-members li { border: 0; border-radius: .5rem; padding: .55rem; line-height: 1.45; }
+.room-members li.is-ready { background: #edf5ef; margin: .15rem 0; }
+.room-exit-actions { display: grid; gap: .5rem; margin: .75rem 0; }
+.room-exit-actions button { min-height: 48px; }
+#room-end, #room-leave { color: #8a3830; border-color: #dbc2bd; }
+#room-change-role-form { grid-template-columns: 1fr auto; align-items: center; }
+#room-change-role-label { grid-column: 1 / -1; }
+.room-sync-status { margin: 0; font-size: .8rem; color: var(--color-muted); line-height: 1.4; }
+#room-content { margin: 0; padding: 0; border-radius: 0; box-shadow: none; background: transparent; }
+#room-content h3 { margin: .25rem 0 .75rem; font-size: 1.1rem; }
+#room-content h4 { margin: .5rem 0; font-size: 1.1rem; }
+#room-content .triad-progress { font-size: .8rem; margin: .5rem 0; }
+#room-content .room-preparation { padding: .75rem; border-radius: .75rem; background: #f3f7f5; }
+.room-preparation p { font-size: .95rem; }
+.room-statement { font-size: 1.1rem; margin: 1rem 0; }
+.room-actions { margin: .5rem 0 0; }
+.room-actions button, #room-choose, #room-save { min-height: 48px; }
+#room-next, #room-rotate, #room-retry, .room-actions > #room-choose { flex: 1; }
+#room-pass { flex: 0 1 auto; font-size: .9rem; }
+.room-exit-modal h2 { margin: 0; font-size: 1.3rem; }
+.room-exit-modal p { line-height: 1.6; margin: 0; }
+.room-exit-modal button { min-height: 48px; }
+@media (max-width: 640px) {
+  .room-panel { padding: 1rem; }
+  .room-panel:has(#room-actions:not([hidden])) { padding-bottom: calc(6rem + env(safe-area-inset-bottom)); }
+  .room-actions { position: fixed; bottom: 0; left: 0; right: 0; z-index: 20; background: #f7faf8;
+    border-top: 1px solid var(--color-border); padding: .65rem .9rem max(.65rem, env(safe-area-inset-bottom)); gap: .5rem; }
+  .room-actions > button { width: auto; }
+  #room-next, #room-rotate, #room-retry, #room-another { flex: 1 1 0; font-size: .9rem; }
+  #room-pass { flex: 0 1 auto; padding-left: .75rem; padding-right: .75rem; }
+  #room-change-role-form { grid-template-columns: 1fr; }
+  .group-selection-context { flex-wrap: wrap; }
+}
