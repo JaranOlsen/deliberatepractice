@@ -22,6 +22,7 @@ async (page) => {
     export const getAuthSession = async () => user ? {user} : null;
     let authChange;
     export const onAuthStateChange = (callback) => { authChange = callback; return () => {}; };
+    export const repeatCurrentSession = () => authChange?.({user});
     export const ensureUserProfile = async () => ({id:"test-self",display_name:"Test Therapist"});
     export const listPracticeTargets = async () => [
       {target_user_id:"test-self",target_kind:"self",display_name:"Test Therapist"},
@@ -145,6 +146,25 @@ async (page) => {
     await click('self-chart-refresh');
     await waitLoaded();
     hold = true;
+    const repeatedSessionStarted = new Promise(resolve => {pending = resolve;});
+    await click('self-chart-refresh');
+    await repeatedSessionStarted;
+    await page.evaluate(async () => (await import('/deliberatepractice/src/js/backend.js')).repeatCurrentSession());
+    release();
+    hold = false;
+    await waitLoaded();
+    assert(await page.locator('.self-chart-dot').count() === 12, 'A repeated current-user session must not cancel progress loading');
+    await page.locator('#progress-rubric').selectOption('group-skill-v2');
+    await waitLoaded();
+    await page.locator('#progress-source').selectOption('observer');
+    await waitLoaded();
+    await page.evaluate(async () => (await import('/deliberatepractice/src/js/backend.js')).repeatCurrentSession());
+    assert(await page.locator('#progress-rubric').inputValue() === 'group-skill-v2' && await page.locator('#progress-source').inputValue() === 'observer', 'Token refresh must preserve progress filters');
+    assert((await page.locator('#self-chart-status').textContent()).includes('3.0/5'), 'Token refresh must preserve loaded ratings');
+    await page.locator('#progress-source').selectOption('self');
+    await page.locator('#progress-rubric').selectOption('individual-mastery-v1');
+    await waitLoaded();
+    hold = true;
     const scaleStarted = new Promise(resolve => {pending = resolve;});
     await click('self-chart-refresh');
     await scaleStarted;
@@ -178,7 +198,7 @@ async (page) => {
     await page.waitForLoadState('networkidle');
     assert(await page.locator('.progress-skill').count() === 0, 'Late request must not restore progress after sign-out');
     assert(errors.length === 0, errors.join('; '));
-    return {status:'passed', checks:['empty, sparse and complete radar', 'separate rating sources', 'history and practice target', 'active-round protection', 'Norwegian mobile layout', 'error retry and stale-response isolation']};
+    return {status:'passed', checks:['empty, sparse and complete radar', 'separate rating sources', 'history and practice target', 'active-round protection', 'Norwegian mobile layout', 'repeated session and token refresh', 'error retry and stale-response isolation']};
   } finally {
     release?.();
     await page.unroute('**/src/js/backend.js*');

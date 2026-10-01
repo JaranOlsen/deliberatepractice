@@ -145,3 +145,10 @@ Validation:
 - A live isolated browser test with the three authorized accounts passes pair guidance with a client host, three-step pair and four-step observer graphics, whole-item completion/passes, pair and observer control transfer after rotation, observer rating and shared host ending. The database confirms the intended therapist and observer, score 4, one completed item and group-skill-v2. Exact rooms and ratings from all test runs were removed, and the three isolated sessions were signed out with temporary credentials deleted.
 
 Frontend changes remain on the draft release branch. Phone-sized browser checks do not replace a practical video-call trial on actual phones and different networks.
+
+
+## Progress loading during sign-in initialization
+
+A live progress preview exposed a repeated-session race: INITIAL_SESSION could arrive after the user opened progress, clear the chart and invalidate its in-flight request. Progress state now resets only when the account ID changes. Repeated current-user sessions and token refresh preserve loaded ratings, pending loads and the selected source/scale; sign-out still clears data and rejects late responses.
+
+The browser regression passes repeated-session delivery during a held ratings request, filter preservation, existing sign-out isolation, full/sparse radar, source/scale separation and Norwegian phone layout. All 28 unit tests, content parity and production build pass. Live signed-in checks verify full twelve-skill, half six-skill and empty profiles across individual self-assessment, group self-assessment and group observer ratings, including the difficulty matrix. Temporary isolated sessions were signed out and their credentials deleted; the requested demo ratings remain for manual inspection.

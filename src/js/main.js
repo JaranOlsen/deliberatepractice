@@ -1665,18 +1665,22 @@ async function refreshPracticeTargets() {
 
 async function applyAuthSession(session) {
   state.authResolving = true;
-  progressRequestId += 1;
-  state.progressSource = "self";
-  state.progressRubric = "individual-mastery-v1";
+  const userChanged = state.authUser?.id !== session?.user?.id;
+  // INITIAL_SESSION and token refresh can repeat the current user while a
+  // progress request is running. Only an account change invalidates that data.
+  if (userChanged) {
+    progressRequestId += 1;
+    state.progressSource = "self";
+    state.progressRubric = "individual-mastery-v1";
+    state.progressRatings = [];
+    state.progressRatingsLoading = false;
+    state.progressRatingsLoaded = false;
+    state.progressRatingsError = "";
+  }
   state.authSession = session ?? null;
   state.authUser = session?.user ?? null;
   state.authProfile = null;
   state.authTargets = [];
-
-  state.progressRatings = [];
-  state.progressRatingsLoading = false;
-  state.progressRatingsLoaded = false;
-  state.progressRatingsError = "";
 
   if (!state.authUser) {
     state.authResolving = false;
