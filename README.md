@@ -17,7 +17,7 @@ Individual practice keeps the skill criterion visible. Try aloud before comparin
 
 Progress also separates rating scales: **Individual · mastery**, **Group · skill performance**, **Earlier group · consistency**, and **Earlier · scale unspecified**. New ratings store their practice format and rubric version. Older records remain unclassified and available in their own view; the app does not guess their format or mix them with known scales. The 500-rating limit applies independently to each source/scale combination.
 
-Group feedback is spoken and is not recorded or stored. Separate-device rooms require sign-in. Individual and shared-device practice can run without an account; shared-device partner ratings use existing account pairing.
+Group feedback is spoken and is not recorded or stored. Separate-device rooms require sign-in. Individual and shared-device practice can run without an account; new local ratings save to the signed-in person’s own progress. Rooms assign the therapist and rater automatically, so there is no separate partner-code or therapist-selector flow. Historical ratings and paused rounds retain their original ownership.
 
 Back to cases offers **Continue**, **Pause and leave**, or **Finish completed items**. Paused rounds retain their item order and feedback phase; finishing clears the resumable round and shows completed/passed counts. The therapist selected at the start remains the rating recipient for that round. Self-awareness uses a separate group sequence that respects the trainee's choice about sharing internal reactions.
 
@@ -30,7 +30,7 @@ npm install
 npm run dev
 ```
 
-Optional Supabase-backed feedback, access-code, auth, pairing, and rating features are enabled at build time when these variables are present. For local branch testing, put them in `.env.local`:
+Optional Supabase-backed feedback, access-code, auth, room, and rating features are enabled at build time when these variables are present. For local branch testing, put them in `.env.local`:
 
 ```sh
 VITE_SUPABASE_URL=https://your-project-ref.supabase.co
@@ -66,7 +66,7 @@ playwright-cli run-code --filename=scripts/check-progress-query.js
 playwright-cli run-code --filename=scripts/check-content-loading.js
 ```
 
-The browser scripts clear local storage in their isolated test browser and intercept backend calls. They cover remembered setup, individual comparison/retry, pause/resume, individual and group completion, self-awareness, English/Norwegian controls, mobile overflow, dialog keyboard behavior, delayed account loading, and failed/successful rating saves. They never send real emails or write live ratings. Live authentication, pairing, and database persistence require a separate check; the latest results are recorded in `src/md/release-verification-2026-09-30.md`.
+The browser scripts clear local storage in their isolated test browser and intercept backend calls. They cover remembered setup, individual comparison/retry, pause/resume, individual and group completion, self-awareness, English/Norwegian controls, mobile overflow, dialog keyboard behavior, delayed account loading, and failed/successful rating saves. They never send real emails or write live ratings. Live authentication, room permissions, and database persistence require a separate check; the latest results are recorded in `src/md/release-verification-2026-09-30.md`.
 
 ## Deployment
 
@@ -92,7 +92,7 @@ Supabase expectations:
 - Supabase Auth email Magic Link needs redirect URLs for local testing and production, for example `http://localhost:5173/deliberatepractice/` and `https://jaranolsen.github.io/deliberatepractice/`.
 
 Run `supabase/access-code-security.sql` in the Supabase SQL editor to create the access-code RPC, lock direct entitlement reads, and configure access-code usage logging.
-Run `supabase/auth-pairing-practice.sql` in the Supabase SQL editor to create profile, pairing, partnership, and practice-rating tables and RPCs.
+Run `supabase/auth-pairing-practice.sql` in the Supabase SQL editor to create profiles and practice ratings, including the legacy partnership tables/RPCs retained for historical compatibility. New connections use group rooms.
 
 Keep generated runtime data in version control alongside the restored `src/md/` source/reference texts.
 

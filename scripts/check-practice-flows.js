@@ -217,7 +217,7 @@ async (page) => {
   await click('start-practice');
   assert((await session()).roundTarget?.target_user_id === 'test-self', 'Practice must capture the loaded account target');
   await click('account-button');
-  assert(await page.locator('#active-target-select').isDisabled(), 'Therapist target must be fixed during a round');
+  assert(await page.locator('#account-overlay').isVisible() && await page.locator('#therapist-overlay').count() === 0, 'Account opens the account panel without the retired therapist selector');
   await page.keyboard.press('Escape');
   for (let i = 0; i < 10; i++) await click('next-statement');
   await page.locator('[data-rating-score="4"]').click();
@@ -234,10 +234,12 @@ async (page) => {
   await click('rating-skip');
   await page.reload();
   assert(!(await visible('resume-card')), 'Saved round must not return as unfinished');
-  await click('active-target-button');
-  await page.locator('#active-target-select').selectOption('test-partner');
-  await page.keyboard.press('Escape');
+  assert(await page.locator('#active-target-button').count() === 0 && await page.locator('#pairing-create-button').count() === 0, 'Retired pairing and target controls are absent');
+  await page.evaluate(()=>localStorage.setItem('dp_active_therapist_target_v1:test-self',JSON.stringify({targetId:'test-partner'})));
+  await page.reload();
   await setup('en', 'empathic-understanding', 'triad');
+  assert((await session()).roundTarget.target_user_id === 'test-self', 'An old paired-target preference must not redirect a new local round');
+  const legacySharedRound = await session();
   for (let i = 0; i < 4; i++) await click('next-statement');
   await click('view-case-brief');
   await click('back-to-cases');
@@ -246,10 +248,24 @@ async (page) => {
   await page.locator('[data-rating-score="3"]').click();
   await click('rating-submit');
   await page.waitForFunction(() => document.querySelector('#rating-status').textContent === 'Rating saved.');
-  assert(saves.at(-1).practiceMode === 'triad' && saves.at(-1).ratingRubric === 'group-skill-v2' && saves.at(-1).source === 'observer' && saves.at(-1).therapistUserId === 'test-partner'
-    && saves.at(-1).itemCount === 1, 'Observer rating must use the chosen partner and completed items only');
+  assert(saves.at(-1).practiceMode === 'triad' && saves.at(-1).ratingRubric === 'group-skill-v2' && saves.at(-1).source === 'self' && saves.at(-1).therapistUserId === 'test-self'
+    && saves.at(-1).itemCount === 1, 'Shared-device assessment must save to this account with completed items only');
   await click('rating-skip');
-  console.log('PASS mocked self/observer ratings, immutable target, persistent save error and retry');
+  // A paused round from the old pairing flow keeps its captured therapist.
+  await page.evaluate(round=>{
+    round.roundId=crypto.randomUUID();
+    round.roundTarget={target_user_id:'test-partner',display_name:'Test Partner',target_kind:'observer',partnership_id:'test-pair'};
+    localStorage.setItem('dp_practice_session_v1',JSON.stringify(round));
+  },legacySharedRound);
+  await page.reload();await click('resume-button');
+  assert((await session()).roundTarget.target_user_id === 'test-partner', 'Retiring pairing must not silently retarget an unfinished legacy round');
+  for (let i=0;i<4;i++) await click('next-statement');
+  for (let i=0;i<2;i++) { await click('triad-pass-item');await click('triad-pass-confirm'); }
+  await click('triad-complete-round');await page.locator('[data-rating-score="2"]').click();await click('rating-submit');
+  await page.waitForFunction(()=>document.querySelector('#rating-status').textContent==='Rating saved.');
+  assert(saves.at(-1).therapistUserId==='test-partner' && saves.at(-1).source==='observer', 'Existing paused observer rounds retain their captured rating ownership');
+  await click('rating-skip');
+  console.log('PASS self ratings, retired pairing, stale preference isolation, preserved legacy round target and save retry');
   await page.reload();
   await click('repeat-last-setup');
   assert(await page.locator('input[value="group"]').isChecked(), 'Repeat setup must restore group format');
@@ -278,7 +294,7 @@ async (page) => {
   assert(await session() === null, 'A locked repeated setup must not start practice');
   await page.keyboard.press('Escape');
   assert(errors.length === 0, `Unexpected application errors: ${errors.join('; ')}`);
-  return { status: 'passed', checks: ['remembered setup and individual retry', 'individual lifecycle', 'group lifecycle and rotation', 'self-awareness', 'localization and mobile layout', 'keyboard dialogs', 'mocked self/observer ratings and retry'] };
+  return { status: 'passed', checks: ['remembered setup and individual retry', 'individual lifecycle', 'group lifecycle and rotation', 'self-awareness', 'localization and mobile layout', 'keyboard dialogs', 'self ratings, legacy targets and retry'] };
   } finally {
     holdProfile = false;
     releaseProfile?.();

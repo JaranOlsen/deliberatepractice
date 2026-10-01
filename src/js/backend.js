@@ -122,31 +122,6 @@ export async function listPracticeTargets() {
   return Array.isArray(data) ? data : [];
 }
 
-export async function createPairingInvite() {
-  const supabase = await getSupabaseClient();
-  const { data, error } = await supabase.rpc("create_pairing_invite");
-  if (error) throw normalizeSupabaseError(error);
-  return Array.isArray(data) ? data[0] ?? null : data ?? null;
-}
-
-export async function acceptPairingInvite(code) {
-  const supabase = await getSupabaseClient();
-  const { data, error } = await supabase.rpc("accept_pairing_invite", {
-    input_code: String(code ?? "").trim()
-  });
-  if (error) throw normalizeSupabaseError(error);
-  return Array.isArray(data) ? data[0] ?? null : data ?? null;
-}
-
-export async function revokePracticePartnership(partnershipId) {
-  const supabase = await getSupabaseClient();
-  const { data, error } = await supabase.rpc("revoke_practice_partnership", {
-    input_partnership_id: partnershipId
-  });
-  if (error) throw normalizeSupabaseError(error);
-  return data ?? true;
-}
-
 export async function submitPracticeRating(payload) {
   const supabase = await getSupabaseClient();
   const { data, error } = await supabase.rpc("record_practice_rating", {

@@ -114,9 +114,8 @@ async (page) => {
     await page.locator('#self-chart-title').scrollIntoViewIfNeeded();
     await page.screenshot({path:'output/playwright/progress-radar-desktop.png'});
     await page.keyboard.press('Escape');
-    await click('active-target-button');
-    await page.locator('#active-target-select').selectOption('test-partner');
-    await page.keyboard.press('Escape');
+    assert(await page.locator('#active-target-button').count() === 0, 'Personal progress no longer has a paired-therapist selector');
+    await page.evaluate(()=>localStorage.setItem('dp_active_therapist_target_v1:test-self',JSON.stringify({targetId:'test-partner'})));
     await click('open-progress');
     await waitLoaded();
     await page.locator('[data-practice-skill="empathic-understanding"]').click();

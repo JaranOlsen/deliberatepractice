@@ -23,7 +23,6 @@
         <div class="account-controls">
           <button type="button" class="header-pill" id="join-shared-room">Group</button>
           <button type="button" class="header-pill" id="account-button">Sign in</button>
-          <button type="button" class="header-pill header-target-pill" id="active-target-button" hidden>For: Me</button>
         </div>
       </div>
     </header>
@@ -495,7 +494,7 @@
 
         <section class="account-section" id="auth-signed-out">
           <p id="auth-intro">
-            Sign in only when you want to save ratings, pair with a practice partner, or prepare data for charts.
+            Sign in to join group rooms, save ratings and see your progress.
           </p>
           <form id="auth-signin-form">
             <label class="form-label" for="auth-email" id="auth-email-label">Email</label>
@@ -555,65 +554,6 @@
             <div id="self-chart-status" class="response-hint" role="status"></div>
             <div id="self-chart" class="self-chart"></div>
           </div>
-      </div>
-    </div>
-
-    <div class="account-overlay is-hidden" id="therapist-overlay" hidden>
-      <div class="account-modal" id="therapist-modal" role="dialog" aria-modal="true" aria-labelledby="therapist-heading">
-        <div class="account-modal-header">
-          <div>
-            <span class="account-eyebrow" id="therapist-eyebrow">Active therapist</span>
-            <h3 id="therapist-heading">Choose who is practicing</h3>
-          </div>
-          <button type="button" class="glossary-close" id="close-therapist" aria-label="Close active therapist panel">×</button>
-        </div>
-
-        <section class="account-section" id="therapist-signed-out">
-          <p id="therapist-signed-out-message">
-            Sign in from Account to choose an active therapist or pair with a partner.
-          </p>
-        </section>
-
-        <section class="account-section is-hidden" id="therapist-signed-in" hidden>
-          <div class="account-section-block">
-            <label class="form-label" for="active-target-select" id="active-target-label">Active therapist</label>
-            <select id="active-target-select"></select>
-            <p class="response-hint" id="active-target-hint">Ratings save to the selected therapist.</p>
-          </div>
-
-          <div class="account-section-block">
-            <div class="pairing-header">
-              <div>
-                <h4 id="pairing-create-title">Invite a partner</h4>
-                <p id="pairing-create-description">Create a short code on the therapist device. The partner accepts it on their device.</p>
-              </div>
-              <button type="button" class="ghost-button ghost-button--small" id="pairing-create-button">Create code</button>
-            </div>
-            <div class="pairing-code-card is-hidden" id="pairing-code-card" hidden>
-              <span class="pairing-code" id="pairing-code"></span>
-              <p id="pairing-expiry"></p>
-              <div class="pairing-code-actions">
-                <button type="button" class="ghost-button ghost-button--small" id="pairing-copy">Copy</button>
-                <button type="button" class="ghost-button ghost-button--small" id="pairing-share">Share</button>
-              </div>
-            </div>
-          </div>
-
-          <form id="pairing-accept-form" class="account-section-block">
-            <label class="form-label" for="pairing-code-input" id="pairing-accept-label">Accept partner code</label>
-            <div class="inline-form-row">
-              <input id="pairing-code-input" name="pairingCode" type="text" autocomplete="one-time-code" placeholder="ABCD1234" />
-              <button type="submit" class="ghost-button ghost-button--small" id="pairing-accept-submit">Accept</button>
-            </div>
-          </form>
-
-          <div class="account-section-block">
-            <h4 id="partners-title">Paired therapists</h4>
-            <div id="partner-list" class="partner-list"></div>
-          </div>
-        </section>
-
-        <p id="therapist-status" class="form-status" role="status"></p>
       </div>
     </div>
 

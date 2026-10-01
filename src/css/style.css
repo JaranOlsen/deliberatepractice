@@ -128,11 +128,6 @@ button {
   background: rgba(255, 255, 255, 0.2);
 }
 
-.header-target-pill {
-  background: rgba(255, 255, 255, 0.18);
-  border-color: rgba(248, 250, 252, 0.38);
-  font-weight: 720;
-}
 
 .app-main {
   display: flex;
@@ -1186,15 +1181,13 @@ button[disabled] {
 }
 
 .rating-header h4,
-.pairing-header h4,
 .account-section-block h4 {
   margin: 0;
   font-size: 1rem;
   font-weight: 700;
 }
 
-.rating-header p,
-.pairing-header p {
+.rating-header p {
   margin: 0.2rem 0 0;
   color: var(--color-muted);
   font-size: 0.9rem;
@@ -1264,8 +1257,7 @@ button[disabled] {
   color: #fff;
 }
 
-.rating-actions,
-.pairing-code-actions {
+.rating-actions {
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
@@ -1462,9 +1454,7 @@ input[type="email"] {
 }
 
 .account-modal-header,
-.account-row,
-.pairing-header,
-.partner-row {
+.account-row {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -1534,21 +1524,7 @@ input[type="email"] {
   align-items: center;
 }
 
-.pairing-code-card {
-  display: grid;
-  gap: 0.55rem;
-  padding: 0.85rem;
-  border-radius: 10px;
-  background: color-mix(in srgb, var(--color-accent-soft), white 48%);
-  border: 1px solid color-mix(in srgb, var(--color-accent), white 72%);
-}
 
-.pairing-code {
-  font-size: 1.55rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  color: var(--color-accent);
-}
 
 .chart-section {
   gap: 0.7rem;
@@ -1703,24 +1679,8 @@ input[type="email"] {
   background: #fff;
 }
 
-.partner-list {
-  display: grid;
-  gap: 0.5rem;
-}
 
-.partner-row {
-  align-items: center;
-  padding: 0.55rem 0.65rem;
-  border-radius: 10px;
-  border: 1px solid var(--color-border);
-  background: #fff;
-}
 
-.partner-row span {
-  min-width: 0;
-  overflow-wrap: anywhere;
-  font-weight: 650;
-}
 
 .app-footer {
   padding: 1.5rem 1.25rem 2.5rem;

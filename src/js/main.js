@@ -28,9 +28,6 @@ import {
   ensureUserProfile,
   updateUserProfile,
   listPracticeTargets,
-  createPairingInvite,
-  acceptPairingInvite,
-  revokePracticePartnership,
   submitPracticeRating,
   listPracticeRatings
 } from "./backend.js";
@@ -141,7 +138,6 @@ const elements = {
   appTitle: document.getElementById("app-title"),
   appTagline: document.getElementById("app-tagline"),
   accountButton: document.getElementById("account-button"),
-  activeTargetButton: document.getElementById("active-target-button"),
   languagePanelTitle: document.getElementById("language-panel-title"),
   languagePanelDescription: document.getElementById("language-panel-description"),
   resumeCard: document.getElementById("resume-card"),
@@ -327,38 +323,12 @@ const elements = {
   profileDisplayLabel: document.getElementById("profile-display-label"),
   profileSubmit: document.getElementById("profile-submit"),
   selfChartSection: document.getElementById("self-chart-section"),
-  activeTargetLabel: document.getElementById("active-target-label"),
-  activeTargetSelect: document.getElementById("active-target-select"),
-  activeTargetHint: document.getElementById("active-target-hint"),
   selfChartTitle: document.getElementById("self-chart-title"),
   selfChartDescription: document.getElementById("self-chart-description"),
   selfChartRefresh: document.getElementById("self-chart-refresh"),
   selfChartStatus: document.getElementById("self-chart-status"),
   selfChart: document.getElementById("self-chart"),
-  pairingCreateTitle: document.getElementById("pairing-create-title"),
-  pairingCreateDescription: document.getElementById("pairing-create-description"),
-  pairingCreateButton: document.getElementById("pairing-create-button"),
-  pairingCodeCard: document.getElementById("pairing-code-card"),
-  pairingCode: document.getElementById("pairing-code"),
-  pairingExpiry: document.getElementById("pairing-expiry"),
-  pairingCopy: document.getElementById("pairing-copy"),
-  pairingShare: document.getElementById("pairing-share"),
-  pairingAcceptForm: document.getElementById("pairing-accept-form"),
-  pairingAcceptLabel: document.getElementById("pairing-accept-label"),
-  pairingCodeInput: document.getElementById("pairing-code-input"),
-  pairingAcceptSubmit: document.getElementById("pairing-accept-submit"),
-  partnersTitle: document.getElementById("partners-title"),
-  partnerList: document.getElementById("partner-list"),
   authSignout: document.getElementById("auth-signout"),
-  therapistOverlay: document.getElementById("therapist-overlay"),
-  therapistModal: document.getElementById("therapist-modal"),
-  closeTherapistButton: document.getElementById("close-therapist"),
-  therapistEyebrow: document.getElementById("therapist-eyebrow"),
-  therapistHeading: document.getElementById("therapist-heading"),
-  therapistSignedOut: document.getElementById("therapist-signed-out"),
-  therapistSignedOutMessage: document.getElementById("therapist-signed-out-message"),
-  therapistSignedIn: document.getElementById("therapist-signed-in"),
-  therapistStatus: document.getElementById("therapist-status")
 };
 
 const releaseElements = Object.fromEntries([
@@ -415,7 +385,6 @@ const state = {
   authUser: null,
   authProfile: null,
   authTargets: [],
-  activeTargetId: null,
   authLoading: false,
   progressSource: "self",
   progressRubric: "individual-mastery-v1",
@@ -423,7 +392,6 @@ const state = {
   progressRatingsLoading: false,
   progressRatingsLoaded: false,
   progressRatingsError: "",
-  latestPairingCode: null
 };
 
 const SHUFFLE_ICON_SRC = `${import.meta.env.BASE_URL}assets/icons/shuffle.svg`;
@@ -437,7 +405,6 @@ let retryContentLoad = null;
 
 const ACCESS_STORAGE_KEY = "dp_access_level";
 const PRACTICE_SESSION_STORAGE_KEY = "dp_practice_session_v1";
-const ACTIVE_TARGET_STORAGE_KEY = "dp_active_therapist_target_v1";
 const PROFILE_NAME_CONFIRMED_STORAGE_KEY = "dp_profile_name_confirmed_v1";
 const PRACTICE_SESSION_VERSION = SESSION_VERSION;
 const LAST_SETUP_STORAGE_KEY = "dp_last_practice_setup_v1";
@@ -1090,10 +1057,6 @@ function renderAppVersion() {
   elements.appVersion.title = `${buildLabel}; app package v${APP_VERSION}; commit ${refLabel}; content revision ${CONTENT_REVISION}; content updated ${CONTENT_UPDATED_AT}`;
 }
 
-function getActiveTargetStorageKey(userId) {
-  return `${ACTIVE_TARGET_STORAGE_KEY}:${userId}`;
-}
-
 function getProfileNameConfirmedStorageKey(userId) {
   return `${PROFILE_NAME_CONFIRMED_STORAGE_KEY}:${userId}`;
 }
@@ -1126,23 +1089,13 @@ function normalizePracticeTarget(target) {
 }
 
 function getSelfTarget() {
-  return state.authTargets.find((target) => getTargetKind(target) === "self") ?? null;
+  return state.authTargets.find((target) => getTargetKind(target) === "self" && getTargetUserId(target) === state.authUser?.id) ?? null;
 }
 
 function getActiveTarget() {
   if (!state.authUser) return null;
-  const active = state.authTargets.find((target) => getTargetUserId(target) === state.activeTargetId);
-  return active ?? getSelfTarget();
-}
-
-function saveActiveTargetId(targetId) {
-  if (!state.authUser?.id || !targetId) return;
-  writeJsonStorage(getActiveTargetStorageKey(state.authUser.id), { targetId });
-}
-
-function loadActiveTargetId(userId) {
-  const stored = readJsonStorage(getActiveTargetStorageKey(userId));
-  return typeof stored?.targetId === "string" ? stored.targetId : null;
+  // A room assigns other therapists server-side. Local practice always starts for this account.
+  return getSelfTarget();
 }
 
 function saveProfileNameConfirmed() {
@@ -1161,34 +1114,6 @@ function getSignedInEmail() {
 
 function getSignedInLabel() {
   return state.authProfile?.display_name || getSignedInEmail() || "Account";
-}
-
-function getActiveTargetLabel() {
-  const target = state.sessionActive ? state.roundTarget : getActiveTarget();
-  if (!target) return "";
-  const strings = getUIStrings();
-  const name = getTargetDisplayName(target) || strings.meLabel || "Me";
-  return `${strings.savingForPrefix ?? "Saving:"} ${name}`;
-}
-
-function getHeaderActiveTargetLabel() {
-  const target = state.sessionActive ? state.roundTarget : getActiveTarget();
-  if (!target) return "";
-  const strings = getUIStrings();
-  const name = getTargetDisplayName(target) || strings.meLabel || "Me";
-  return `${strings.headerSavingForPrefix ?? "For:"} ${name}`;
-}
-
-function getHeaderAccountLabel() {
-  if (document.body.dataset.section !== "practice") {
-    const strings = getUIStrings();
-    return strings.accountButtonSignedIn ?? "Account";
-  }
-  return getHeaderActiveTargetLabel() || getSignedInLabel();
-}
-
-function accountButtonOpensTherapistPanel() {
-  return Boolean(state.authUser && document.body.dataset.section === "practice" && getHeaderActiveTargetLabel());
 }
 
 function formatAccessStatus() {
@@ -1575,10 +1500,9 @@ function renderProgressHistory(summary) {
     button.addEventListener("click", () => {
       if (state.sessionActive || state.ratingVisible) return;
       dialogs.close(releaseElements["progress-overlay"]);
-      // This is the signed-in therapist's history, even when currently observing a partner.
+      // Practicing from personal history always starts a local round for this account.
       state.practiceMode = state.progressRubric.startsWith("group-") ? PRACTICE_MODES.GROUP : PRACTICE_MODES.INDIVIDUAL;
-      state.activeTargetId = state.authUser.id;
-      saveActiveTargetId(state.activeTargetId);
+
       if (!state.languageId) handleLanguageSelection("en");
       handleSkillSelection(entry.skillId);
     });
@@ -1625,15 +1549,11 @@ function setAuthStatus(message) {
   if (elements.authStatus) {
     elements.authStatus.textContent = text;
   }
-  if (elements.therapistStatus) {
-    elements.therapistStatus.textContent = text;
-  }
 }
 
 function showProgressPanel() {
   if (!state.authUser) { showAccountPanel(); return; }
   hideAccountPanel();
-  hideTherapistPanel();
   renderSelfRatingsChart();
   loadProgressRatings().catch(() => {});
   dialogs.open(releaseElements["progress-overlay"], {
@@ -1644,7 +1564,6 @@ function showProgressPanel() {
 
 function showAccountPanel() {
   if (!elements.accountOverlay) return;
-  hideTherapistPanel();
   renderAuthUI();
   dialogs.open(elements.accountOverlay, { onDismiss: hideAccountPanel,
     initialFocus: state.authUser ? elements.closeAccountButton : elements.authEmail });
@@ -1653,27 +1572,6 @@ function showAccountPanel() {
 function hideAccountPanel() {
   if (!elements.accountOverlay) return;
   dialogs.close(elements.accountOverlay);
-}
-
-function showTherapistPanel() {
-  if (!elements.therapistOverlay) return;
-  hideAccountPanel();
-  renderAuthUI();
-  dialogs.open(elements.therapistOverlay, { onDismiss: hideTherapistPanel,
-    initialFocus: elements.closeTherapistButton });
-}
-
-function hideTherapistPanel() {
-  if (!elements.therapistOverlay) return;
-  dialogs.close(elements.therapistOverlay);
-}
-
-function handleAccountPillClick() {
-  if (accountButtonOpensTherapistPanel()) {
-    showTherapistPanel();
-    return;
-  }
-  showAccountPanel();
 }
 
 function renderAuthUI() {
@@ -1690,27 +1588,8 @@ function renderAuthUI() {
   const configured = isSupabaseReady();
 
   if (elements.accountButton) {
-    const opensTherapistPanel = accountButtonOpensTherapistPanel();
-    elements.accountButton.textContent = signedIn
-      ? getHeaderAccountLabel()
-      : strings.signInButton ?? "Sign in";
-    elements.accountButton.title = signedIn
-      ? opensTherapistPanel
-        ? strings.activeTherapistHint ?? "Ratings save to the selected therapist."
-        : `${strings.profileLabel ?? "Signed in as"} ${getSignedInEmail()}`
-      : strings.signInButton ?? "Sign in";
-  }
-  if (elements.activeTargetButton) {
-    const headerTargetLabel = getHeaderActiveTargetLabel();
-    const showSplitTarget = signedIn && document.body.dataset.section !== "practice" && Boolean(headerTargetLabel);
-    elements.activeTargetButton.hidden = !showSplitTarget;
-    elements.activeTargetButton.classList.toggle("is-hidden", !showSplitTarget);
-    elements.activeTargetButton.textContent = showSplitTarget
-      ? headerTargetLabel
-      : "";
-    elements.activeTargetButton.title = showSplitTarget
-      ? strings.activeTherapistHint ?? "Ratings save to the selected therapist."
-      : "";
+    elements.accountButton.textContent = signedIn ? strings.accountButtonSignedIn ?? "Account" : strings.signInButton ?? "Sign in";
+    elements.accountButton.title = signedIn ? `${strings.profileLabel ?? "Signed in as"} ${getSignedInEmail()}` : strings.signInButton ?? "Sign in";
   }
 
   if (elements.authSignedOut) {
@@ -1721,15 +1600,6 @@ function renderAuthUI() {
     elements.authSignedIn.hidden = !signedIn;
     elements.authSignedIn.classList.toggle("is-hidden", !signedIn);
   }
-  if (elements.therapistSignedOut) {
-    elements.therapistSignedOut.hidden = signedIn;
-    elements.therapistSignedOut.classList.toggle("is-hidden", signedIn);
-  }
-  if (elements.therapistSignedIn) {
-    elements.therapistSignedIn.hidden = !signedIn;
-    elements.therapistSignedIn.classList.toggle("is-hidden", !signedIn);
-  }
-
   if (elements.accountEyebrow) {
     elements.accountEyebrow.textContent = strings.accountEyebrow ?? "Practice account";
   }
@@ -1737,23 +1607,11 @@ function renderAuthUI() {
     elements.accountHeading.textContent =
       strings.accountHeading ?? "Account";
   }
-  if (elements.therapistEyebrow) {
-    elements.therapistEyebrow.textContent = strings.therapistEyebrow ?? "Active therapist";
-  }
-  if (elements.therapistHeading) {
-    elements.therapistHeading.textContent =
-      strings.therapistHeading ?? "Choose who is practicing";
-  }
-  if (elements.therapistSignedOutMessage) {
-    elements.therapistSignedOutMessage.textContent =
-      strings.therapistSignedOutMessage ??
-      "Sign in from Account to choose an active therapist or pair with a partner.";
-  }
   renderAccessUI();
   if (elements.authIntro) {
     elements.authIntro.textContent =
       strings.authIntro ??
-      "Sign in only when you want to save ratings, pair with a practice partner, or prepare data for charts.";
+      "Sign in to save ratings, see progress, and manage your library access.";
   }
   if (elements.authEmailLabel) {
     elements.authEmailLabel.textContent = strings.authEmailLabel ?? "Email";
@@ -1785,144 +1643,24 @@ function renderAuthUI() {
     elements.profileSubmit.textContent = strings.profileSave ?? "Save";
   }
   renderProfilePlacement();
-  if (elements.activeTargetLabel) {
-    elements.activeTargetLabel.textContent = strings.activeTherapistLabel ?? "Active therapist";
-  }
-  if (elements.activeTargetHint) {
-    elements.activeTargetHint.textContent =
-      strings.activeTherapistHint ?? "Ratings save to the selected therapist.";
-  }
-  if (elements.pairingCreateTitle) {
-    elements.pairingCreateTitle.textContent = strings.pairingCreateTitle ?? "Invite a partner";
-  }
-  if (elements.pairingCreateDescription) {
-    elements.pairingCreateDescription.textContent =
-      strings.pairingCreateDescription ??
-      "Create a short code on the therapist device. The partner accepts it on their device.";
-  }
-  if (elements.pairingCreateButton) {
-    elements.pairingCreateButton.textContent = strings.pairingCreateButton ?? "Create code";
-    elements.pairingCreateButton.disabled = !signedIn || state.authLoading;
-  }
-  if (elements.pairingCopy) {
-    elements.pairingCopy.textContent = strings.copyButton ?? "Copy";
-  }
-  if (elements.pairingShare) {
-    elements.pairingShare.textContent = strings.shareButton ?? "Share";
-  }
-  if (elements.pairingAcceptLabel) {
-    elements.pairingAcceptLabel.textContent = strings.pairingAcceptLabel ?? "Accept partner code";
-  }
-  if (elements.pairingAcceptSubmit) {
-    elements.pairingAcceptSubmit.textContent = strings.pairingAcceptButton ?? "Accept";
-  }
-  if (elements.pairingCodeInput) {
-    elements.pairingCodeInput.placeholder = strings.pairingCodePlaceholder ?? "ABCD1234";
-  }
-  if (elements.partnersTitle) {
-    elements.partnersTitle.textContent = strings.partnersTitle ?? "Paired therapists";
-  }
-
   renderPracticeFormatUI();
-  renderActiveTargetSelect();
-  renderPartnerList();
   renderSelfRatingsChart();
   updateRatingPanel();
 
   const accountPanelOpen = elements.accountOverlay && !elements.accountOverlay.hidden;
-  const therapistPanelOpen = elements.therapistOverlay && !elements.therapistOverlay.hidden;
-  if (!configured && (accountPanelOpen || therapistPanelOpen)) {
+  if (!configured && accountPanelOpen) {
     setAuthStatus(strings.authConfigMissing ?? "Supabase Auth is not configured.");
   }
-}
-
-function renderActiveTargetSelect() {
-  if (!elements.activeTargetSelect) return;
-  elements.activeTargetSelect.innerHTML = "";
-  const strings = getUIStrings();
-  state.authTargets.forEach((target) => {
-    const option = document.createElement("option");
-    option.value = getTargetUserId(target);
-    const kind = getTargetKind(target);
-    const name = getTargetDisplayName(target) || (kind === "self" ? strings.meLabel ?? "Me" : "Therapist");
-    option.textContent = name;
-    option.selected = option.value === state.activeTargetId;
-    elements.activeTargetSelect.appendChild(option);
-  });
-  elements.activeTargetSelect.disabled = state.authTargets.length === 0 || state.sessionActive || state.ratingVisible;
-  if (state.sessionActive) {
-    elements.activeTargetHint.textContent = strings.targetLocked;
-  }
-}
-
-function renderPartnerList() {
-  if (!elements.partnerList) return;
-  const strings = getUIStrings();
-  const partners = state.authTargets.filter((target) => getTargetKind(target) === "observer");
-  elements.partnerList.innerHTML = "";
-  if (!partners.length) {
-    const empty = document.createElement("p");
-    empty.className = "response-hint";
-    empty.textContent = strings.noPartners ?? "No paired therapists yet.";
-    elements.partnerList.appendChild(empty);
-    return;
-  }
-  partners.forEach((target) => {
-    const row = document.createElement("div");
-    row.className = "partner-row";
-    const name = document.createElement("span");
-    name.textContent = getTargetDisplayName(target) || "Therapist";
-    const revoke = document.createElement("button");
-    revoke.type = "button";
-    revoke.className = "ghost-button ghost-button--small";
-    revoke.dataset.partnershipId = getTargetPartnershipId(target);
-    revoke.textContent = strings.revokePartner ?? "Revoke";
-    row.append(name, revoke);
-    elements.partnerList.appendChild(row);
-  });
-}
-
-function formatPairingCode(code) {
-  const normalized = String(code ?? "").replace(/[^A-Za-z0-9]/g, "").toUpperCase();
-  if (normalized.length <= 4) return normalized;
-  return `${normalized.slice(0, 4)} ${normalized.slice(4)}`;
-}
-
-function renderPairingInvite(invite) {
-  if (!elements.pairingCodeCard || !elements.pairingCode || !elements.pairingExpiry) return;
-  const visible = Boolean(invite?.code);
-  elements.pairingCodeCard.hidden = !visible;
-  elements.pairingCodeCard.classList.toggle("is-hidden", !visible);
-  if (!visible) {
-    elements.pairingCode.textContent = "";
-    elements.pairingExpiry.textContent = "";
-    return;
-  }
-  const strings = getUIStrings();
-  elements.pairingCode.textContent = formatPairingCode(invite.code);
-  const expiry = invite.expires_at ? new Date(invite.expires_at) : null;
-  elements.pairingExpiry.textContent = expiry && Number.isFinite(expiry.getTime())
-    ? `${strings.expiresPrefix ?? "Expires:"} ${expiry.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}`
-    : "";
 }
 
 async function refreshPracticeTargets() {
   if (!state.authUser) {
     state.authTargets = [];
-    state.activeTargetId = null;
     return;
   }
   const targets = await listPracticeTargets();
+  // Retain permission checks for paused legacy rounds; new local rounds always use self.
   state.authTargets = targets.map(normalizePracticeTarget).filter(Boolean);
-  const savedTargetId = loadActiveTargetId(state.authUser.id);
-  const fallbackTarget = getSelfTarget() ?? state.authTargets[0] ?? null;
-  const requestedTarget = state.authTargets.find((target) => getTargetUserId(target) === state.activeTargetId)
-    ?? state.authTargets.find((target) => getTargetUserId(target) === savedTargetId)
-    ?? fallbackTarget;
-  state.activeTargetId = getTargetUserId(requestedTarget);
-  if (state.activeTargetId) {
-    saveActiveTargetId(state.activeTargetId);
-  }
 }
 
 async function applyAuthSession(session) {
@@ -1934,7 +1672,7 @@ async function applyAuthSession(session) {
   state.authUser = session?.user ?? null;
   state.authProfile = null;
   state.authTargets = [];
-  state.activeTargetId = null;
+
   state.progressRatings = [];
   state.progressRatingsLoading = false;
   state.progressRatingsLoaded = false;
@@ -2028,7 +1766,7 @@ async function handleSignOut() {
     state.authUser = null;
     state.authProfile = null;
     state.authTargets = [];
-    state.activeTargetId = null;
+
     state.progressRatings = [];
     state.progressRatingsLoaded = false;
     state.progressRatingsError = "";
@@ -2036,99 +1774,6 @@ async function handleSignOut() {
     setAuthStatus(strings.signedOut ?? "Signed out.");
   } catch (err) {
     setAuthStatus(err?.message ?? strings.authError ?? "Unable to sign out.");
-  }
-}
-
-async function handleCreatePairingInvite() {
-  const strings = getUIStrings();
-  state.authLoading = true;
-  renderAuthUI();
-  setAuthStatus(strings.pairingCreating ?? "Creating code...");
-  try {
-    const invite = await createPairingInvite();
-    state.latestPairingCode = invite;
-    renderPairingInvite(invite);
-    setAuthStatus(strings.pairingCreated ?? "Share this code with your practice partner.");
-  } catch (err) {
-    setAuthStatus(err?.message ?? strings.pairingCreateError ?? "Unable to create pairing code.");
-  } finally {
-    state.authLoading = false;
-    renderAuthUI();
-  }
-}
-
-async function handleAcceptPairingInvite(event) {
-  event.preventDefault();
-  const strings = getUIStrings();
-  const code = elements.pairingCodeInput?.value ?? "";
-  if (!code.trim()) {
-    setAuthStatus(strings.pairingCodeMissing ?? "Enter the pairing code.");
-    return;
-  }
-  setAuthStatus(strings.pairingAccepting ?? "Accepting code...");
-  try {
-    const accepted = await acceptPairingInvite(code);
-    await refreshPracticeTargets();
-    const targetId = getTargetUserId(accepted);
-    if (targetId) {
-      state.activeTargetId = targetId;
-      saveActiveTargetId(targetId);
-    }
-    if (elements.pairingCodeInput) {
-      elements.pairingCodeInput.value = "";
-    }
-    renderAuthUI();
-    setAuthStatus(strings.pairingAccepted ?? "Partner added. Ratings can now save to that therapist.");
-  } catch (err) {
-    setAuthStatus(err?.message ?? strings.pairingAcceptError ?? "Unable to accept pairing code.");
-  }
-}
-
-async function handleRevokePartnership(partnershipId) {
-  if (!partnershipId) return;
-  const strings = getUIStrings();
-  setAuthStatus(strings.revokeWorking ?? "Revoking partner...");
-  try {
-    await revokePracticePartnership(partnershipId);
-    await refreshPracticeTargets();
-    renderAuthUI();
-    setAuthStatus(strings.revokeSuccess ?? "Partner revoked.");
-  } catch (err) {
-    setAuthStatus(err?.message ?? strings.revokeError ?? "Unable to revoke partner.");
-  }
-}
-
-async function copyPairingCode() {
-  const strings = getUIStrings();
-  const code = state.latestPairingCode?.code;
-  if (!code) return;
-  try {
-    await navigator.clipboard?.writeText(formatPairingCode(code));
-    setAuthStatus(strings.copied ?? "Copied.");
-  } catch (err) {
-    setAuthStatus(strings.copyError ?? "Could not copy the code.");
-  }
-}
-
-async function sharePairingCode() {
-  const strings = getUIStrings();
-  const code = state.latestPairingCode?.code;
-  if (!code) return;
-  const text = `${strings.sharePairingText ?? "Use this Deliberate Practice pairing code:"} ${formatPairingCode(code)}`;
-  if (navigator.share) {
-    try {
-      await navigator.share({ text });
-      setAuthStatus(strings.shared ?? "Shared.");
-      return;
-    } catch (err) {
-      if (err?.name === "AbortError") return;
-    }
-  }
-  try {
-    await navigator.clipboard?.writeText(text);
-    setAuthStatus(strings.copied ?? "Copied.");
-  } catch (err) {
-    setAuthStatus(strings.shareError ?? "Could not share the code.");
   }
 }
 
@@ -2682,7 +2327,6 @@ function applyLanguageStrings(languageId) {
   releaseElements["unlock-code-label"].textContent = strings.unlockCodeLabel;
   elements.closePaywallButton.textContent = strings.close;
   elements.closeAccountButton.setAttribute("aria-label", strings.closeAccount);
-  elements.closeTherapistButton.setAttribute("aria-label", strings.closeTherapist);
   elements.feedbackDetails.placeholder = strings.feedbackDetailsPlaceholder;
   const reasonKeys = { quality: "feedbackReasonQuality", translation: "feedbackReasonTranslation", offensive: "feedbackReasonOffensive", other: "feedbackReasonOther" };
   Array.from(elements.feedbackReason.options).forEach((option) => { option.textContent = strings[reasonKeys[option.value]]; });
@@ -3586,7 +3230,11 @@ function updateRatingPanel() {
     ? (isTriadPractice() ? strings.triadRatingTitle : getActiveRatingSource() === "observer" ? strings.ratingTitleObserver : strings.ratingTitleSelf)
     : strings.roundCompleteTitle;
   elements.ratingDescription.hidden = false;
-  elements.ratingDescription.textContent = hasRating && isTriadPractice() ? strings.triadRatingDescription : strings.roundCompleteDescription;
+  elements.ratingDescription.textContent = hasRating && isTriadPractice()
+    ? getActiveRatingSource() === "self"
+      ? strings.sharedDeviceRatingDescription
+      : strings.triadRatingDescription
+    : strings.roundCompleteDescription;
   elements.ratingSummary.textContent = `${getCurrentSkill()?.name ?? ""} · ${getCurrentCase()?.label ?? ""}`;
   releaseElements["round-outcome"].textContent = formatRoundOutcome();
   elements.ratingTarget.hidden = !target;
@@ -4326,11 +3974,9 @@ function registerEventListeners() {
   });
   releaseElements["repeat-round"].addEventListener("click", repeatCompletedRound);
   if (elements.accountButton) {
-    elements.accountButton.addEventListener("click", handleAccountPillClick);
+    elements.accountButton.addEventListener("click", showAccountPanel);
   }
-  if (elements.activeTargetButton) {
-    elements.activeTargetButton.addEventListener("click", showTherapistPanel);
-  }
+
   if (elements.closeAccountButton) {
     elements.closeAccountButton.addEventListener("click", hideAccountPanel);
   }
@@ -4341,16 +3987,7 @@ function registerEventListeners() {
       }
     });
   }
-  if (elements.closeTherapistButton) {
-    elements.closeTherapistButton.addEventListener("click", hideTherapistPanel);
-  }
-  if (elements.therapistOverlay) {
-    elements.therapistOverlay.addEventListener("click", (event) => {
-      if (event.target === elements.therapistOverlay) {
-        hideTherapistPanel();
-      }
-    });
-  }
+
   if (elements.resumeButton) {
     elements.resumeButton.addEventListener("click", resumePracticeSession);
   }
@@ -4507,32 +4144,7 @@ function registerEventListeners() {
   if (elements.authSignout) {
     elements.authSignout.addEventListener("click", handleSignOut);
   }
-  if (elements.activeTargetSelect) {
-    elements.activeTargetSelect.addEventListener("change", () => {
-      state.activeTargetId = elements.activeTargetSelect.value;
-      saveActiveTargetId(state.activeTargetId);
-      renderAuthUI();
-    });
-  }
-  if (elements.pairingCreateButton) {
-    elements.pairingCreateButton.addEventListener("click", handleCreatePairingInvite);
-  }
-  if (elements.pairingCopy) {
-    elements.pairingCopy.addEventListener("click", copyPairingCode);
-  }
-  if (elements.pairingShare) {
-    elements.pairingShare.addEventListener("click", sharePairingCode);
-  }
-  if (elements.pairingAcceptForm) {
-    elements.pairingAcceptForm.addEventListener("submit", handleAcceptPairingInvite);
-  }
-  if (elements.partnerList) {
-    elements.partnerList.addEventListener("click", (event) => {
-      const button = event.target.closest("[data-partnership-id]");
-      if (!button) return;
-      handleRevokePartnership(button.dataset.partnershipId);
-    });
-  }
+
 }
 
 function initialize() {
