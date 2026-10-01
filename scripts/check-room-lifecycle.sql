@@ -26,9 +26,11 @@ begin
   end loop;
   perform set_config('request.jwt.claim.sub',ids[1]::text,true);
   begin
+    perform set_config('request.jwt.claim.sub',ids[3]::text,true);
     perform public.command_practice_room(room_id,gen_random_uuid(),v,'start');
     raise exception 'TEST FAILURE: Empty room started';
   exception when raise_exception then if sqlerrm like 'TEST FAILURE:%' then raise; end if; end;
+  perform set_config('request.jwt.claim.sub',ids[1]::text,true);
   r:=public.prepare_practice_room(room_id,command_id,v,config);
   again:=public.prepare_practice_room(room_id,command_id,v,config);
   if r->>'version'<>again->>'version' or r->>'phase'<>'lobby' or r->>'language_id'<>'no'
@@ -38,6 +40,7 @@ begin
     raise exception 'TEST FAILURE: Preparation receipt retargeted';
   exception when raise_exception then if sqlerrm like 'TEST FAILURE:%' then raise; end if; end;
   begin
+    perform set_config('request.jwt.claim.sub',ids[3]::text,true);
     perform public.command_practice_room(room_id,gen_random_uuid(),(r->>'version')::integer,'start');
     raise exception 'TEST FAILURE: Old acknowledgements started new content';
   exception when raise_exception then if sqlerrm like 'TEST FAILURE:%' then raise; end if; end;
@@ -46,7 +49,9 @@ begin
     perform set_config('request.jwt.claim.sub',participant::text,true);perform public.sync_practice_room(room_id,v);
   end loop;
   perform set_config('request.jwt.claim.sub',ids[1]::text,true);
+  perform set_config('request.jwt.claim.sub',ids[3]::text,true);
   r:=public.command_practice_room(room_id,gen_random_uuid(),v,'start');
+  perform set_config('request.jwt.claim.sub',ids[1]::text,true);
   begin
     perform public.prepare_practice_room(room_id,gen_random_uuid(),(r->>'version')::integer,config);
     raise exception 'TEST FAILURE: Host replaced an active round';
@@ -64,7 +69,7 @@ begin
   if exists(select 1 from public.practice_rooms where id=room_id) then raise exception 'Departed participant bypassed RLS'; end if;
   execute 'reset role';
   perform set_config('request.jwt.claim.sub',ids[1]::text,true);r:=public.sync_practice_room(room_id,-1);
-  if r->>'phase'<>'first_attempt' then raise exception 'Watching departure interrupted an active round'; end if;
+  if r->>'phase'<>'practicing' then raise exception 'Watching departure interrupted an active round'; end if;
   perform set_config('request.jwt.claim.sub',ids[2]::text,true);
   again:=public.command_practice_room(room_id,gen_random_uuid(),(r->>'version')::integer,'leave');
   perform set_config('request.jwt.claim.sub',ids[1]::text,true);r:=public.sync_practice_room(room_id,-1);

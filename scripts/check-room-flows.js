@@ -72,9 +72,9 @@ async (page) => {
         }
       } else if (name === 'command_practice_room') {
         if (receipts.has(args.input_command_id)) data = receipts.get(args.input_command_id).left ? {left:true} : snapshot();
-        else if (args.input_action !== 'leave' && user !== (args.input_action === 'rate' ? room.observer_id : room.host_id)) fail('Only observer');
+        else if (!args.input_action.startsWith('role_') && args.input_action !== 'leave' && user !== (['start','finish_item','advance','pass','rotate','rate'].includes(args.input_action) ? room.observer_id ?? room.therapist_id : room.host_id)) fail('Only the active guide or host for this action');
         else if (args.input_expected_version !== room.version) fail('Stale version');
-        else if (['start','advance','pass','rotate'].includes(args.input_action) && !ackAll()) fail('Waiting for devices');
+        else if (['start','finish_item','advance','pass','rotate'].includes(args.input_action) && !ackAll()) fail('Waiting for devices');
         else {
           receipts.set(args.input_command_id,{action:args.input_action});
           if(args.input_action==='leave'){
@@ -82,12 +82,12 @@ async (page) => {
             const active=['therapist','client','observer'].find(role=>room[`${role}_id`]===user);
             if(active){room[`${active}_id`]=null;room.phase='lobby';room.completed_ids=[];room.skipped_ids=[];room.item_index=0;room.round_interrupted=true;}
             receipts.set(args.input_command_id,{left:true});
-          } else if (args.input_action === 'start') room.phase = 'first_attempt';
-          else if (args.input_action === 'advance' || args.input_action === 'pass') {
-            if (args.input_action === 'pass' || room.phase === 'retry') {
+          } else if (args.input_action === 'start') room.phase = 'practicing';
+          else if (args.input_action === 'finish_item' || args.input_action === 'advance' || args.input_action === 'pass') {
+            if (args.input_action === 'finish_item' || args.input_action === 'pass' || room.phase === 'retry') {
               room[args.input_action === 'pass' ? 'skipped_ids' : 'completed_ids'].push(room.statement_ids[room.item_index]);
               if (room.item_index === 2) room.phase='round_debrief';
-              else {room.item_index++;room.phase='first_attempt';}
+              else {room.item_index++;room.phase='practicing';}
             } else room.phase = {first_attempt:'client_feedback',client_feedback:'observer_feedback',observer_feedback:'retry'}[room.phase];
           } else if (args.input_action === 'rate') {room.saved_score = args.input_score; saves++;}
           else if (args.input_action === 'rotate') {
@@ -106,7 +106,7 @@ async (page) => {
   const [o,t,c,watcher1,watcher2] = pages;
   const click = (p,id) => id === 'room-sync' ? p.evaluate(() => document.getElementById('room-sync').click()) : p.locator(`#${id}`).click();
   const enabled = async (p,id) => {await p.waitForFunction(id => {const e=document.getElementById(id);return e&&!e.hidden&&!e.disabled;},id,{timeout:15000});};
-  const syncAll = async () => { for (let i=0;i<2;i++) for (const p of pages) {if(await p.locator('#room-session').isVisible())await click(p,'room-sync');} for(const p of pages)if(await p.locator('#room-session').isVisible())await p.waitForFunction(version=>Number(document.getElementById('room-panel').dataset.version)>=version,room.version,{timeout:15000}); };
+  const syncAll = async () => { for (let i=0;i<2;i++) for (const p of pages) {if(await p.locator('#room-session').isVisible())await click(p,'room-sync');} for(const p of pages)if(await p.locator('#room-session').isVisible() && !(disconnectClient && p===pages[2]))await p.waitForFunction(version=>Number(document.getElementById('room-panel').dataset.version)>=version,room.version,{timeout:15000}); };
   try {
     await click(o,'group-create');
     await o.locator('#room-host-options summary').click();await o.locator('#room-host-role').selectOption('observer');await click(o,'room-create');
@@ -139,34 +139,33 @@ async (page) => {
     const clientLine=await c.locator('.room-statement').boundingBox();assert(clientLine.y<650,'Client line is within the first phone screen');
     const hostAction=await o.locator('#room-next').boundingBox();assert(hostAction.y+hostAction.height<=844&&hostAction.height>=44,'Next action is reachable at the bottom of the phone');
     assert(await t.locator('.room-statement').count()===0,'Therapist listens without a prewritten line');
-    assert(await t.locator('#room-example').count()===0,'Example must not exist before retry');
-    await enabled(o,'room-next'); lostResponse = true; await click(o,'room-next');
-    await o.locator('#room-retry').waitFor(); const committedVersion = room.version;
-    await o.reload(); await o.waitForFunction(() => document.querySelector('#account-button').textContent === 'Account');
-    await click(o,'group-resume'); await enabled(o,'room-retry'); await click(o,'room-retry');
-    assert(room.version===committedVersion,'Reload/retry must not advance twice');
-    await syncAll(); assert((await c.locator('#room-content').textContent()).includes('experienced impact'),'Client gets impact prompt');
-    await enabled(o,'room-next'); await click(o,'room-next'); await syncAll();
-    assert((await o.locator('#room-content').textContent()).includes('observable strength'),'Observer gets coaching prompt');
-    disconnectClient=true; await enabled(o,'room-next'); await click(o,'room-next');
-    await click(c,'room-sync'); await click(t,'room-sync'); await click(o,'room-sync');
-    assert(await o.locator('#room-next').isDisabled(),'Round pauses until disconnected client catches up');
-    await c.waitForFunction(()=>document.getElementById('room-sync-status').textContent.includes('Connection interrupted'));
-    assert((await c.locator('#room-sync-status').textContent()).includes('Connection interrupted'),'Client sees reconnect status');
-    disconnectClient=false; await syncAll(); await enabled(o,'room-next');
-    assert(await t.locator('#room-example').isVisible(),'Therapist can compare an example at retry');
-    assert(await c.locator('#room-example').count()===0,'Client never sees example responses');
+    assert(await t.locator('.room-example-text').count()===0,'Example text is absent until deliberately requested for retry');
+    assert(await o.locator('.room-workflow li').count()===4 && await o.locator('#room-workflow-guide').evaluate(e=>e.open),'Observer has an open four-step workflow graphic');
+    assert(await c.locator('#room-example').count()===0,'Client never gets example controls');
+    await t.locator('#room-example summary').click();await click(t,'room-example-reveal');
+    assert(await t.locator('.room-example-text').isVisible(),'Therapist may deliberately open an example for the spoken retry');
+    await o.screenshot({path:'output/playwright/room-observer-workflow-mobile.png',fullPage:true});
     await t.screenshot({path:'output/playwright/room-therapist-mobile.png',fullPage:true});
     await c.screenshot({path:'output/playwright/room-client-mobile.png',fullPage:true});
-    await click(o,'room-next'); await syncAll();
+    disconnectClient=true;await enabled(o,'room-next');lostResponse=true;await click(o,'room-next');
+    await o.locator('#room-retry').waitFor();const committedVersion=room.version;
+    assert(room.item_index===1&&room.completed_ids.length===1&&room.phase==='practicing','One observer finish resolves the whole item');
+    await o.reload();await o.waitForFunction(()=>document.querySelector('#account-button').textContent==='Account');
+    await click(o,'group-resume');await enabled(o,'room-retry');await click(o,'room-retry');
+    assert(room.version===committedVersion&&room.completed_ids.length===1,'Reload/retry must not finish twice');
+    await syncAll();
+    assert(await o.locator('#room-next').isDisabled(),'Next item cannot finish until disconnected client catches up');
+    await c.waitForFunction(()=>document.getElementById('room-sync-status').textContent.includes('Connection interrupted'));
+    disconnectClient=false;await syncAll();await enabled(o,'room-next');
+    assert(await t.locator('.room-example-text').count()===0,'New item clears the previous example');
     for (let i=0;i<2;i++) {await enabled(o,'room-pass');o.once('dialog',d=>d.accept());await click(o,'room-pass');await syncAll();}
     assert(room.phase==='round_debrief'&&room.completed_ids.length===1&&room.skipped_ids.length===2,'Passed items excluded');
     await o.locator('#room-score').selectOption('4'); await click(o,'room-save'); await syncAll();
     assert(saves===1&&room.saved_score===4,'One observer rating saved');
     assert((await t.locator('#room-saved').textContent()).includes('4/5'),'Therapist sees confirmation');
     await enabled(o,'room-rotate'); await click(o,'room-rotate'); await syncAll();
-    assert(await o.locator('#room-next').isVisible(),'Host retains controls after rotation');
-    assert(!(await c.locator('#room-next').isVisible()),'New observer does not become host');
+    assert(await o.locator('#room-next').isHidden(),'Host does not keep exercise controls after observer role rotates');
+    assert(await c.locator('#room-next').isVisible(),'The new observer receives exercise controls');
     assert((await watcher2.locator('#room-role-badge').textContent()).includes('Your role: Therapist'),'A watching observer becomes therapist');
     assert(await watcher2.locator('.room-statement').count()===0,'A new therapist receives only their role screen');
     await click(o,'room-end');assert(await o.locator('#room-exit-overlay').isVisible(),'Ending is confirmed inside the app');await click(o,'room-exit-cancel');assert(room.phase==='lobby','Cancel keeps room open');await click(o,'room-end');await click(o,'room-exit-confirm');await syncAll();
@@ -197,7 +196,7 @@ async (page) => {
     await click(watcher1,'room-exit-cancel');assert(room.member_ids.includes('p'),'Cancelling leave keeps membership');
     await click(watcher1,'room-leave');lostResponse=true;await click(watcher1,'room-exit-confirm');
     await watcher1.locator('#room-retry').waitFor();const leavingVersion=room.version;
-    assert(!room.member_ids.includes('p')&&room.phase==='first_attempt','Watching departure keeps the active round');
+    assert(!room.member_ids.includes('p')&&room.phase==='practicing','Watching departure keeps the active round');
     await watcher1.reload();await watcher1.waitForFunction(()=>document.querySelector('#account-button').textContent==='Account');
     await click(watcher1,'group-resume');await watcher1.waitForFunction(()=>!localStorage.getItem('dp_shared_room:p')&&document.body.dataset.section!=='room');
     assert(await watcher1.locator('#group-resume').isHidden(),'Leave recovery clears the saved room');
@@ -220,6 +219,6 @@ async (page) => {
     await o.waitForTimeout(200);
     assert(creations===beforeCanceledCreation,'Cancelled room setup must not create a room later');
     assert(errors.length===0,errors.join('\n'));
-    return {passed:true,participants:5,checks:['empty room creation and join','host chooses practice in library','uncertain preparation retry','phone exercise visibility and bottom action','in-app end confirmation','leave cancellation and lost-response reload','watching observers','offline spectators do not stall','watching observer rotates into therapist','role screens','acknowledgement barrier','lost response and reload','offline recovery','rating and passes','rotation','320px','Norwegian self-awareness']};
+    return {passed:true,participants:5,checks:['empty room creation and join','host chooses practice in library','observer-led whole items and workflow graphic','controls follow rotated observer','uncertain preparation retry','phone exercise visibility and bottom action','in-app end confirmation','leave cancellation and lost-response reload','watching observers','offline spectators do not stall','watching observer rotates into therapist','role screens','acknowledgement barrier','lost response and reload','offline recovery','rating and passes','rotation','320px','Norwegian self-awareness']};
   } finally {for(const context of contexts)await context.close();}
 }

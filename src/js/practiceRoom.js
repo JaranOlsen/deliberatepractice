@@ -6,7 +6,7 @@ import {createRoomSync, roomRole, roomEveryoneReady} from './practiceRoomSync.js
 const copy = {
   en: {
     title: 'Group practice', hub: 'Practice together', hubIntro: 'Create a room and invite your group. Choose the skill and case together once everyone is here.', openCreate: 'Create a room', openJoin: 'Join with a code', resume: 'Return to your room', people: 'Room & people', peopleCount: '{count} people', share: 'Share invite', linkCopied: 'Invite link copied', roleOptions: 'Starting role (optional)', choosing: 'Choose what to practice', waitingForHost: 'The host is choosing a skill and case. You can invite others or choose your role while you wait.', choose: 'Choose skill and case', changePractice: 'Change skill or case', leave: 'Leave room', leaveTitle: 'Leave this room?', leaveDescription: 'You can rejoin with the invite. Leaving an active role ends the current round and returns the group to preparation. Saved ratings stay.', leaveWatching: 'The group can continue. You can rejoin with the invite.', endTitle: 'End the room for everyone?', endDescription: 'Everyone leaves this session. Saved ratings stay; unfinished items will not be rated.', cancel: 'Keep practicing', endedNote: 'Saved ratings are kept. Unfinished items are not rated.', interrupted: 'A participant left an active role. Prepare a new round before continuing.', finish: 'Back to library', guide: 'Rating guide', privacy: 'Ratings and privacy', close: 'Library', join: 'Join a group', create: 'Create group room',
-    intro: 'Use your own phones and keep your video call open for speaking. The host guides the room; practice roles rotate.',
+    intro: 'Use your own phones and keep your video call open. The host chooses practice; the observer guides each item, or the therapist in a pair.',
     code: 'Room code', role: 'Your role', therapist: 'Therapist', client: 'Client', observer: 'Active observer', passive: 'Watching observer', auto: 'Next available role', host: 'Host', you: 'you', changeRole: 'Change role', selfRating: 'Your self-assessment as therapist',
     consent: 'Ratings assess the therapist’s use of the selected skill. The active observer saves the rating; in pairs the therapist saves a self-assessment. Spoken responses and feedback are not recorded. Roles rotate together after each round.',
     signIn: 'Sign in to join', signInCreate: 'Sign in to create a room', copy: 'Copy room code', copied: 'Code copied',
@@ -18,10 +18,14 @@ const copy = {
     pass: 'Pass this item', confirmPass: 'Pass this item for everyone? It will not count as practiced.',
     rotate: 'Next round · rotate roles', end: 'End room for everyone', confirmEnd: 'End this group session for everyone?',
     ended: 'This group session has ended.', expired: 'This room has expired. Create a new room to continue.',
-    listening: 'Listen to your partner on the call. The host will move the group to the next step.',
+    listening: 'Work through the item together on the call. The observer finishes the item after feedback and retry; in a pair, the therapist does this.',
     read: 'Read this line aloud in the client role. Repeat it when the therapist is ready to retry.',
     reader: 'Read this line aloud, then step out of the client role. Respect what the therapist chooses to keep private.',
     observe: 'Listen for the selected skill and offer focused feedback when it is your turn.',
+    itemPractice: 'Practice this item', workflowTitle: 'The workflow', workflowNote: 'Guide this sequence aloud. Finish the item after the retry; no taps are needed between these steps.', yourPart: 'Your part in the workflow',
+    workflowSteps: ['Therapist responds', 'Client gives feedback', 'Observer offers coaching', 'Therapist retries'],
+    awarenessSteps: ['Therapist notices their reaction', 'Reader reflects on the process', 'Observer offers a gentle experiment', 'Therapist notices again'],
+    finishNext: 'Finish item · next', finishLast: 'Finish item · reflect', forRetry: 'For the retry', beforeExample: 'Try your own response and hear feedback before opening an example.',
     example: 'See an example for the retry', exampleNote: 'An example, not an answer key. Choose one change to try.',
     round: 'Round', item: 'Item', debrief: 'Reflect together', practiced: 'practiced', passed: 'passed',
     save: 'Save skill rating', saved: 'Skill rating saved to the therapist’s group progress',
@@ -34,7 +38,7 @@ const copy = {
   },
   no: {
     title: 'Gruppeøving', hub: 'Øv sammen', hubIntro: 'Opprett et rom og inviter gruppen. Velg ferdighet og kasus sammen når alle er her.', openCreate: 'Opprett et rom', openJoin: 'Bli med med kode', resume: 'Tilbake til rommet ditt', people: 'Rom og deltakere', peopleCount: '{count} deltakere', share: 'Del invitasjon', linkCopied: 'Invitasjonslenken er kopiert', roleOptions: 'Startrolle (valgfritt)', choosing: 'Velg hva dere vil øve på', waitingForHost: 'Verten velger ferdighet og kasus. Du kan invitere andre eller velge rolle mens du venter.', choose: 'Velg ferdighet og kasus', changePractice: 'Bytt ferdighet eller kasus', leave: 'Forlat rommet', leaveTitle: 'Forlate dette rommet?', leaveDescription: 'Du kan bli med igjen med invitasjonen. Hvis du har en aktiv rolle, avsluttes runden og gruppen går tilbake til forberedelsene. Lagrede vurderinger beholdes.', leaveWatching: 'Gruppen kan fortsette. Du kan bli med igjen med invitasjonen.', endTitle: 'Avslutte rommet for alle?', endDescription: 'Økten avsluttes for alle. Lagrede vurderinger beholdes; ufullførte utsagn vurderes ikke.', cancel: 'Fortsett å øve', endedNote: 'Lagrede vurderinger beholdes. Ufullførte utsagn vurderes ikke.', interrupted: 'En deltaker forlot en aktiv rolle. Forbered en ny runde før dere fortsetter.', finish: 'Tilbake til biblioteket', guide: 'Vurderingsveiledning', privacy: 'Vurderinger og personvern', close: 'Bibliotek', join: 'Bli med i en gruppe', create: 'Opprett grupperom',
-    intro: 'Bruk hver deres mobil og snakk sammen på videosamtalen. Verten styrer rommet; øvingsrollene roteres.',
+    intro: 'Bruk hver deres mobil og ha videosamtalen åpen. Verten velger øvingen; observatøren leder hvert utsagn, eller terapeuten i par.',
     code: 'Romkode', role: 'Din rolle', therapist: 'Terapeut', client: 'Klient', observer: 'Aktiv observatør', passive: 'Observatør som følger med', auto: 'Neste ledige rolle', host: 'Vert', you: 'deg', changeRole: 'Bytt rolle', selfRating: 'Din egenvurdering som terapeut',
     consent: 'Vurderingen gjelder terapeutens bruk av den valgte ferdigheten. Den aktive observatøren lagrer vurderingen; i par lagrer terapeuten en egenvurdering. Muntlige svar og tilbakemeldinger blir ikke registrert. Rollene roteres sammen etter hver runde.',
     signIn: 'Logg inn for å bli med', signInCreate: 'Logg inn for å opprette et rom', copy: 'Kopier romkode', copied: 'Koden er kopiert',
@@ -46,10 +50,14 @@ const copy = {
     pass: 'Stå over utsagnet', confirmPass: 'Stå over utsagnet for alle? Det telles ikke som øvd.',
     rotate: 'Neste runde · roter roller', end: 'Avslutt rommet for alle', confirmEnd: 'Avslutte gruppeøkten for alle?',
     ended: 'Gruppeøkten er avsluttet.', expired: 'Rommet har utløpt. Opprett et nytt rom for å fortsette.',
-    listening: 'Lytt til den andre på samtalen. Verten tar gruppen videre til neste steg.',
+    listening: 'Øv dere gjennom utsagnet sammen på samtalen. Observatøren fullfører etter tilbakemelding og nytt forsøk; i par gjør terapeuten dette.',
     read: 'Les utsagnet høyt i klientrollen. Gjenta det når terapeuten er klar til å prøve igjen.',
     reader: 'Les utsagnet høyt, og gå så ut av klientrollen. Respekter det terapeuten velger å holde privat.',
     observe: 'Lytt etter den valgte ferdigheten og gi konkret tilbakemelding når det er din tur.',
+    itemPractice: 'Øv på dette utsagnet', workflowTitle: 'Slik øver dere', workflowNote: 'Led denne rekkefølgen muntlig. Fullfør utsagnet etter det nye forsøket; dere trenger ikke trykke mellom stegene.', yourPart: 'Din del av øvingen',
+    workflowSteps: ['Terapeuten svarer', 'Klienten gir tilbakemelding', 'Observatøren veileder', 'Terapeuten prøver på nytt'],
+    awarenessSteps: ['Terapeuten merker sin reaksjon', 'Oppleseren gir respons på prosessen', 'Observatøren foreslår et varsomt eksperiment', 'Terapeuten legger merke til på nytt'],
+    finishNext: 'Fullfør · neste utsagn', finishLast: 'Fullfør · reflekter', forRetry: 'Til det nye forsøket', beforeExample: 'Prøv din egen respons og lytt til tilbakemelding før du åpner et eksempel.',
     example: 'Se et eksempel før du prøver igjen', exampleNote: 'Et eksempel, ikke en fasit. Velg én endring å prøve.',
     round: 'Runde', item: 'Utsagn', debrief: 'Reflekter sammen', practiced: 'øvd', passed: 'stått over',
     save: 'Lagre ferdighetsvurdering', saved: 'Ferdighetsvurderingen er lagret i terapeutens gruppefremgang',
@@ -166,10 +174,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     if (!role || (configured && !caseData && !ended)) throw new Error(strings().failedContent);
     const s = strings(), ui = getStrings(language);
     const self = next.skill_id === 'therapist-self-awareness';
-    const step = ['first_attempt', 'client_feedback', 'observer_feedback', 'retry'].indexOf(next.phase);
-    const activeRole = ['therapist', 'client', 'observer', 'therapist'][step];
-    const headings = self ? [ui.selfAwarenessFirstTitle, ui.selfAwarenessClientTitle, ui.triadPhaseObserverTitle, ui.selfAwarenessRetryTitle]
-      : [ui.triadPhaseFirstTitle, ui.triadPhaseClientTitle, ui.triadPhaseObserverTitle, ui.triadPhaseRetryTitle];
+    const active = ['practicing','first_attempt','client_feedback','observer_feedback','retry'].includes(next.phase);
     const instructions = self ? [ui.selfAwarenessFirstInstruction, ui.selfAwarenessClientInstruction, ui.selfAwarenessObserverInstruction, ui.selfAwarenessRetryInstruction]
       : [ui.triadPhaseFirstInstruction, ui.triadPhaseClientInstruction, ui.triadPhaseObserverInstruction, ui.triadPhaseRetryInstruction];
     const body = el('content');
@@ -194,21 +199,43 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
         if (role === 'client') prep.append(node('p', caseData.teaser), node('p', caseData.voice || caseData.history), node('p', self ? s.reader : s.read));
         else prep.append(node('p', skill.practiceFocus), node('p', skill.commonMiss), node('p', ui.triadGuideBoundary));
         body.append(prep);
-      } else if (step >= 0) {
-        body.append(node('p', `${s.round} ${next.round_number} · ${s.item} ${next.item_index + 1}/3 · ${next.observer_id ? step + 1 : step === 3 ? 3 : step + 1}/${next.observer_id ? 4 : 3}`, 'triad-progress'),
-          node('h4', headings[step]));
+      } else if (active) {
+        body.append(node('p', `${s.round} ${next.round_number} · ${s.item} ${next.item_index + 1}/3`, 'triad-progress'), node('h4', s.itemPractice));
         const statement = entries.find(e => e.id === next.statement_ids[next.item_index]);
         if (role !== 'therapist') body.append(node('blockquote', statement.text, 'statement-text room-statement'));
         else body.append(node('p', s.hiddenLine, 'response-hint'));
-        body.append(node('p', role === activeRole ? instructions[step] : role === 'observer' ? s.observe
-          : role === 'client' && (step === 0 || step === 3) ? self ? s.reader : s.read : s.listening));
-        if (role !== 'client') body.append(node('aside', skill.practiceFocus, 'individual-guide'));
-        if (['observer', 'passive'].includes(role)) body.append(node('p', skill.commonMiss, 'response-hint'));
-        if (next.phase === 'retry' && role !== 'client') {
+        if (role === 'client') body.append(node('p', self ? s.reader : s.read));
+        else if (role === 'therapist') body.append(node('p', self || next.observer_id ? instructions[0] : language === 'no' ? 'Klienten leser utsagnet. Svar høyt, lytt til klientens tilbakemelding og prøv deretter på nytt.' : 'The client reads the line. Respond aloud, hear the client’s feedback, then try again.'), node('aside', skill.practiceFocus, 'individual-guide'));
+        const guide = node('details', '', 'room-workflow-guide');
+        guide.id = 'room-workflow-guide'; guide.open = ['observer','passive'].includes(role) || (!next.observer_id && role === 'therapist');
+        guide.append(node('summary', s.workflowTitle));
+        const sequence = node('ol', '', 'room-workflow'); sequence.setAttribute('aria-label', s.workflowTitle);
+        const titles = self ? s.awarenessSteps : s.workflowSteps;
+        const indices = next.observer_id ? [0,1,2,3] : [0,1,3];
+        indices.forEach((index, number) => {
+          const item = node('li');
+          item.append(node('span', String(number + 1), 'room-workflow-number'), node('span', titles[index])); sequence.append(item);
+        });
+        guide.append(sequence, node('p', s.workflowNote, 'response-hint')); body.append(guide);
+        const part = node('details'); part.append(node('summary', s.yourPart));
+        const ownSteps = role === 'therapist' ? [3] : role === 'client' ? [1] : role === 'observer' ? [2] : [];
+        ownSteps.forEach(index => part.append(node('p', instructions[index])));
+        if (role === 'client') part.append(node('p', self ? s.reader : s.read));
+        if (['observer','passive'].includes(role)) part.append(node('p', skill.practiceFocus), node('p', skill.commonMiss), node('p', ui.triadGuideBoundary));
+        body.append(part);
+        if (role !== 'client') {
           const example = node('details'); example.id = 'room-example';
-          example.append(node('summary', s.example), node('p', s.exampleNote), node('p', statement.suggestion));
-          body.append(example);
+          example.append(node('summary', s.forRetry), node('p', s.beforeExample));
+          const reveal = node('button', s.example, 'ghost-button'); reveal.id = 'room-example-reveal'; reveal.type = 'button';
+          reveal.addEventListener('click', () => {
+            if (!example.querySelector('.room-example-text')) {
+              example.append(node('p', s.exampleNote, 'response-hint'), node('p', statement.suggestion, 'room-example-text'));
+            }
+            reveal.hidden = true;
+          });
+          example.append(reveal); body.append(example);
         }
+        body.append(node('p', s.listening, 'response-hint'));
       } else if (next.phase === 'round_debrief') {
         body.append(node('h4', s.debrief), node('p', `${next.completed_ids.length} ${s.practiced} · ${next.skipped_ids.length} ${s.passed}`));
         const prompt = role === 'therapist' ? ui.triadDebriefTherapist : ['observer', 'passive'].includes(role) ? ui.triadDebriefObserver
@@ -231,7 +258,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       }
       {
         const heading = body.querySelector('h4') ?? body.querySelector('h3'); if (heading) { heading.tabIndex = -1; heading.focus({preventScroll: true}); }
-        if (step >= 0) overlay.scrollIntoView({block: 'start', behavior: 'auto'});
+        if (active) overlay.scrollIntoView({block: 'start', behavior: 'auto'});
       }
     }
     if (el('saved')) el('saved').textContent = next.saved_score ? `${s.saved} · ${next.saved_score}/5` : '';
@@ -263,24 +290,25 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     el('change-role-form').hidden = !['choosing','lobby'].includes(snapshot.phase) || ended;
     for (const option of el('change-role').options) option.disabled = option.value !== 'passive' && !!snapshot[`${option.value}_id`] && snapshot[`${option.value}_id`] !== userId;
     el('change-role-submit').disabled = commanding || !!pending || !fresh;
-    const controls = snapshot.host_id === userId && !ended;
-    el('choose').hidden = !controls || !['choosing','lobby'].includes(snapshot.phase) || !!pending;
+    const hostControls = snapshot.host_id === userId && !ended;
+    const controls = (snapshot.observer_id ?? snapshot.therapist_id) === userId && !ended;
+    el('choose').hidden = !hostControls || !['choosing','lobby'].includes(snapshot.phase) || !!pending;
     el('choose').className = snapshot.phase === 'choosing' ? 'primary-button' : 'ghost-button';
     text('choose', snapshot.phase === 'choosing' ? s.choose : s.changePractice);
     el('choose').disabled = commanding || !fresh;
     if (snapshot.phase === 'choosing') { if (el('choose').parentElement !== el('actions')) el('actions').prepend(el('choose')); }
     else if (el('choose').parentElement === el('actions')) el('content').after(el('choose'));
-    const active = ['first_attempt', 'client_feedback', 'observer_feedback', 'retry'].includes(snapshot.phase);
+    const active = ['practicing','first_attempt', 'client_feedback', 'observer_feedback', 'retry'].includes(snapshot.phase);
     el('next').hidden = !controls || (!active && snapshot.phase !== 'lobby') || !!pending;
-    text('next', snapshot.phase === 'lobby' ? s.start : snapshot.phase === 'retry' ? s.finishItem : s.advance);
+    text('next', snapshot.phase === 'lobby' ? s.start : snapshot.item_index === snapshot.statement_ids.length - 1 ? s.finishLast : s.finishNext);
     el('next').disabled = commanding || !fresh || !roomEveryoneReady(snapshot);
     el('pass').hidden = !controls || !active || !!pending;
     el('pass').disabled = el('next').disabled;
     el('rotate').hidden = !controls || snapshot.phase !== 'round_debrief' || !!pending;
     el('rotate').disabled = el('next').disabled;
-    el('end').hidden = !controls || !!pending; el('end').disabled = commanding || !fresh;
+    el('end').hidden = !hostControls || !!pending; el('end').disabled = commanding || !fresh;
     el('retry').hidden = !pending; el('retry').disabled = commanding || !fresh;
-    el('leave').hidden = controls || ended || !!pending; el('leave').disabled = commanding || !fresh;
+    el('leave').hidden = hostControls || ended || !!pending; el('leave').disabled = commanding || !fresh;
     el('another').hidden = !ended;
     el('actions').hidden = ![...el('actions').children].some(button => !button.hidden);
     el('sync').hidden = fresh && !error;
@@ -407,7 +435,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
   confirmOverlay.addEventListener('click', e => { if (e.target === confirmOverlay) { dialogs.close(confirmOverlay); confirming = null; } });
   el('leave').addEventListener('click', () => confirmExit('leave'));
   el('sync').addEventListener('click', () => { void sync.sync(); });
-  el('next').addEventListener('click', () => { void sync.command(room.phase === 'lobby' ? 'start' : 'advance'); });
+  el('next').addEventListener('click', () => { void sync.command(room.phase === 'lobby' ? 'start' : 'finish_item'); });
   el('pass').addEventListener('click', () => { if (window.confirm(strings().confirmPass)) void sync.command('pass'); });
   el('rotate').addEventListener('click', () => { void sync.command('rotate'); });
   el('end').addEventListener('click', () => confirmExit('close'));

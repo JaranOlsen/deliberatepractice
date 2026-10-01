@@ -41,19 +41,19 @@ begin
   perform set_config('request.jwt.claim.sub', t.observer_id::text, true);
   perform public.sync_practice_room(t.room_id, v);
   r := public.command_practice_room(t.room_id, command_id, v, 'start');
-  if r->>'phase' <> 'first_attempt' then raise exception 'Did not start'; end if;
+  if r->>'phase' <> 'practicing' then raise exception 'Did not start'; end if;
   again := public.command_practice_room(t.room_id, command_id, v, 'start');
   if again->>'version' <> r->>'version' then raise exception 'Duplicate advanced twice'; end if;
   begin
-    perform public.command_practice_room(t.room_id, gen_random_uuid(), v, 'advance');
+    perform public.command_practice_room(t.room_id, gen_random_uuid(), v, 'finish_item');
     raise exception 'TEST FAILURE: Stale version advanced';
   exception when raise_exception then if sqlerrm like 'TEST FAILURE:%' then raise; end if; end;
   begin
-    perform public.command_practice_room(t.room_id, gen_random_uuid(), (r->>'version')::integer, 'advance');
+    perform public.command_practice_room(t.room_id, gen_random_uuid(), (r->>'version')::integer, 'finish_item');
     raise exception 'TEST FAILURE: Advanced before devices acknowledged';
   exception when raise_exception then if sqlerrm like 'TEST FAILURE:%' then raise; end if; end;
-  -- Acknowledge each step, finish one item, and pass the other two.
-  for i in 1..6 loop
+  -- Acknowledge each item, finish one item, and pass the other two.
+  for i in 1..3 loop
     v := (r->>'version')::integer;
     perform set_config('request.jwt.claim.sub', t.client_id::text, true); perform public.sync_practice_room(t.room_id, v);
     perform set_config('request.jwt.claim.sub', t.therapist_id::text, true); perform public.sync_practice_room(t.room_id, v);
@@ -61,13 +61,13 @@ begin
     if i = 1 then
       update dp_private.room_presence set seen_at=now()-interval '21 seconds' where room_id=t.room_id and user_id=t.client_id;
       begin
-        perform public.command_practice_room(t.room_id,gen_random_uuid(),v,'advance');
+        perform public.command_practice_room(t.room_id,gen_random_uuid(),v,'finish_item');
         raise exception 'TEST FAILURE: Stale heartbeat allowed progression';
       exception when raise_exception then if sqlerrm like 'TEST FAILURE:%' then raise; end if; end;
       perform set_config('request.jwt.claim.sub',t.client_id::text,true);perform public.sync_practice_room(t.room_id,v);
       perform set_config('request.jwt.claim.sub',t.observer_id::text,true);
     end if;
-    r := public.command_practice_room(t.room_id, gen_random_uuid(), v, case when i <= 4 then 'advance' else 'pass' end);
+    r := public.command_practice_room(t.room_id, gen_random_uuid(), v, case when i = 1 then 'finish_item' else 'pass' end);
   end loop;
   if r->>'phase' <> 'round_debrief' or jsonb_array_length(r->'completed_ids') <> 1
     or jsonb_array_length(r->'skipped_ids') <> 2 then raise exception 'Outcome counted incorrectly'; end if;
@@ -113,7 +113,7 @@ begin
   r := public.sync_practice_room(t.room_id, -1);
   perform set_config('request.jwt.claim.sub', t.observer_id::text, true);
   r := public.command_practice_room(t.room_id, gen_random_uuid(), (r->>'version')::integer, 'close');
-  if r->>'phase' <> 'closed' then raise exception 'Observer could not end room'; end if;
+  if r->>'phase' <> 'closed' then raise exception 'Host could not end room'; end if;
   execute 'reset role';
   if has_function_privilege('anon', 'public.sync_practice_room(uuid,integer)', 'execute') then raise exception 'Anonymous RPC access'; end if;
 end;
@@ -130,13 +130,13 @@ begin
   r := public.create_practice_room(config,pair_id);
   if r->>'therapist_id' <> ids[1]::text or r->>'host_id' <> ids[1]::text then raise exception 'Host default role incorrect'; end if;
   perform set_config('request.jwt.claim.sub',ids[2]::text,true); r := public.join_practice_room(r->>'code','auto');
-  for i in 0..5 loop
+  for i in 0..3 loop
     v := (r->>'version')::integer;
     foreach participant in array ids[1:2] loop
       perform set_config('request.jwt.claim.sub',participant::text,true);perform public.sync_practice_room(pair_id,v);
     end loop;
     perform set_config('request.jwt.claim.sub',ids[1]::text,true);
-    r := public.command_practice_room(pair_id,gen_random_uuid(),v,case when i=0 then 'start' when i<=3 then 'advance' else 'pass' end);
+    r := public.command_practice_room(pair_id,gen_random_uuid(),v,case when i=0 then 'start' when i=1 then 'finish_item' else 'pass' end);
     if r->>'phase'='observer_feedback' then raise exception 'Pair has observer phase'; end if;
   end loop;
   if r->>'phase'<>'round_debrief' then raise exception 'Pair did not finish'; end if;
@@ -174,7 +174,7 @@ begin
       foreach participant in array array[(r->>'therapist_id')::uuid,(r->>'client_id')::uuid,(r->>'observer_id')::uuid] loop
         perform set_config('request.jwt.claim.sub',participant::text,true);perform public.sync_practice_room(group_id,v);
       end loop;
-      perform set_config('request.jwt.claim.sub',ids[1]::text,true);
+      perform set_config('request.jwt.claim.sub',r->>'observer_id',true);
       r:=public.command_practice_room(group_id,gen_random_uuid(),v,case when step=0 then 'start' when step<=3 then 'pass' else 'rotate' end);
       if r->>'host_id'<>ids[1]::text then raise exception 'Host changed after rotation'; end if;
     end loop;

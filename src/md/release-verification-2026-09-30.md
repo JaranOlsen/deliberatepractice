@@ -127,3 +127,21 @@ Group rooms now provide the only connection flow in the app. The older partner-c
 Historical self/observer ratings, the radar and legacy partnership data remain intact. A paused round from the previous partner flow retains its captured therapist/rater and can still finish under its existing permission; removing the selector does not retarget it. No database migration, partnership revocation or live data deletion was performed for this refinement.
 
 Validation: all 28 unit tests, content parity, production build and read-only backend checks pass. Browser regressions verify the removed controls, Account navigation, stale paired-target preferences, new local self-assessment ownership and completion of an old paused observer round for its original therapist. The five-context room test still passes invitation, role screens, observer ratings, synchronization, rotation, departure recovery and narrow layouts. Historical self/observer source and scale filters, personal practice targets and the retained radar pass the progress regression. Browser rating tests use an intercepted backend and make no live writes.
+
+
+## Observer-led whole items (October 1)
+
+The active observer now guides practice: starting, finishing or passing items and rotating roles. Without an active observer, the therapist guides the pair. The host still chooses practice, invites participants and ends the room. Exercise controls follow the active guide after rotation, independently of the fixed host.
+
+Each item remains on one screen through response, client feedback, observer coaching and retry. A numbered workflow graphic opens for observers and the therapist in a pair; other roles can expand it. The guide uses three steps in pairs and preserves the separate self-awareness instructions and disclosure boundary. One Finish item action resolves the item after the spoken retry. Examples require a deliberate local reveal for the retry and reset with the next item; clients never see suggested responses. No intermediate spoken substep is recorded or remotely highlighted.
+
+The connected project's `observer_led_item_workflow` migration is applied. It adds the practicing phase and atomic finish_item command, checks observer/pair-therapist authority on the server and retains version checks, fresh active-device acknowledgements and exact command receipts. Existing pre-upgrade feedback phases can finish into the next whole item without resetting the round. Rating identity, passed-item exclusion and fair full-roster rotation remain unchanged. Advisors report no new findings.
+
+Validation:
+
+- All 28 unit tests, English/Norwegian content parity, production build and read-only backend checks pass. The lazy room module is about 11.7KB gzip.
+- Five isolated browser contexts pass the numbered workflow, explicit example reveal/reset, observer-only exercise controls, control transfer after rotation, committed-finish response loss and reload without duplicate completion, reconnect, watching departures, rating, Norwegian self-awareness and 320px layouts. These checks intercept the backend.
+- All three rolled-back room SQL scripts pass. They cover host/guide separation, two-person therapist authority, rejected watcher controls, legacy phases, item completion replay, acknowledgement freshness, rating identity, lifecycle recovery and five-person fair rotation. No fixture users or ratings persist.
+- A live isolated browser test with the three authorized accounts passes pair guidance with a client host, three-step pair and four-step observer graphics, whole-item completion/passes, pair and observer control transfer after rotation, observer rating and shared host ending. The database confirms the intended therapist and observer, score 4, one completed item and group-skill-v2. Exact rooms and ratings from all test runs were removed, and the three isolated sessions were signed out with temporary credentials deleted.
+
+Frontend changes remain on the draft release branch. Phone-sized browser checks do not replace a practical video-call trial on actual phones and different networks.
