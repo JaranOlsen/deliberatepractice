@@ -73,36 +73,53 @@ async (page) => {
     assert(await page.evaluate(() => document.activeElement.id === 'open-progress' && !document.querySelector('main').inert), 'Closing progress must restore library focus');
     await click('open-progress');
     await waitLoaded();
-    assert(await page.locator('.self-chart-axis').count() === 12, 'An empty radar must keep all twelve axes');
+    assert(await page.locator('.self-chart-axis').count() === 0, 'Empty progress must not draw unrated axes');
     assert(await page.locator('.self-chart-dot').count() === 0, 'No ratings must not appear as zero scores');
-    assert(await page.locator('.self-chart-missing').count() === 12, 'Unrated skills need distinct markers');
+    assert(await page.locator('.self-chart-missing').count() === 0, 'Unrated skills are excluded from the radar');
     data.self = [row];
     await click('self-chart-refresh');
     await waitLoaded();
-    assert(await page.locator('.self-chart-dot').count() === 1, 'One rating must be visible on the radar');
-    const firstPosition = await page.locator('.self-chart-dot').evaluate(el => [el.getAttribute('cx'), el.getAttribute('cy')]);
+    assert(await page.locator('.radar-small-row').count() === 1, 'One rated skill uses a readable score comparison');
+    assert(await page.locator('.self-chart-axis').count() === 0, 'One skill must not create a degenerate radar');
     data.self.push({...row, skill_id:'therapist-self-awareness', score:3});
     await click('self-chart-refresh');
     await waitLoaded();
-    assert(await page.locator('.self-chart-dot').count() === 2, 'Two rated skills must remain readable');
-    assert(JSON.stringify(await page.locator('.self-chart-dot').last().evaluate(el => [el.getAttribute('cx'), el.getAttribute('cy')])) === JSON.stringify(firstPosition), 'Adding a skill must not move existing axes');
+    assert(await page.locator('.radar-small-row').count() === 2, 'Two rated skills remain readable');
+    assert(await page.locator('.radar-small-profile h5').count() === 2, 'Only rated skills appear in the compact comparison');
     const history = page.locator('.progress-skill').filter({has:page.locator('[data-practice-skill="empathic-understanding"]')});
     assert((await history.textContent()).includes('3 rated items') && (await history.textContent()).includes('Sep'), 'History must show counts and latest date');
+    const ids = await page.locator('[data-practice-skill]').evaluateAll(els => els.slice(0,3).map(el=>el.dataset.practiceSkill));
+    data.self = ids.flatMap((skill_id,index) => [
+      {...row,skill_id,score:5},
+      ...(index<2?[{...row,skill_id,difficulty:'moderate',score:3}]:[]),
+      ...(index===0?[{...row,skill_id,difficulty:'hard',score:2}]:[])
+    ]);
+    await click('self-chart-refresh'); await waitLoaded();
+    assert(await page.locator('.self-chart-axis').count() === 3, 'Radar excludes every unrated skill');
+    assert(await page.locator('.radar-series').count() === 3, 'Difficulty profiles share one radar');
+    assert(await page.locator('.self-chart-dot').count() === 6 && await page.locator('.self-chart-missing').count() === 0, 'Missing levels create no zero-score points');
+    assert(await page.locator('.self-chart-area').count() === 1, 'Only a level with every axis rated can close its polygon');
+    await page.locator('[data-progress-level=hard]').click();
+    assert(await page.locator('.radar-small-row').count() === 1, 'A level can be inspected alone');
+    assert(await page.locator('.self-chart-axis').count() === 0, 'Focusing a level excludes skills without data at that level');
+    assert(await page.evaluate(()=>document.activeElement.dataset.progressLevel==='hard'), 'Level selection retains keyboard focus');
+    await page.locator('[data-progress-level=all]').click();
+    await page.locator('#progress-filters summary').click();
     await page.locator('#progress-source').selectOption('observer');
     await waitLoaded();
-    assert((await page.locator('#self-chart-status').textContent()).includes('2.0/5'), 'Observer ratings must be separate from self ratings');
-    assert(await page.locator('.self-chart-dot').count() === 1, 'Self-only skills must not leak into observer chart');
+    assert((await page.locator('[data-progress-level=easy] strong').textContent()).includes('2.0/5'), 'Observer ratings must be separate from self ratings');
+    assert(await page.locator('.radar-small-row').count() === 1, 'Self-only skills must not leak into observer chart');
     await page.locator('#progress-rubric').selectOption('group-consistency-v1');
     await waitLoaded();
-    assert((await page.locator('#self-chart-status').textContent()).includes('1.0/5'), 'Group consistency must not mix with individual mastery');
+    assert((await page.locator('[data-progress-level=easy] strong').textContent()).includes('1.0/5'), 'Group consistency must not mix with individual mastery');
     assert((await page.locator('#progress-rubric-note').textContent()).includes('Consistently'), 'The selected scale must be explained');
     await page.locator('#progress-rubric').selectOption('group-skill-v2');
     await waitLoaded();
-    assert((await page.locator('#self-chart-status').textContent()).includes('3.0/5'), 'Skill performance must remain separate from historical consistency');
+    assert((await page.locator('[data-progress-level=easy] strong').textContent()).includes('3.0/5'), 'Skill performance must remain separate from historical consistency');
     assert((await page.locator('#progress-rubric-note').textContent()).includes('therapist'), 'Skill performance identifies what is assessed');
     await page.locator('#progress-rubric').selectOption('legacy');
     await waitLoaded();
-    assert((await page.locator('#self-chart-status').textContent()).includes('5.0/5'), 'Earlier ratings must remain accessible separately');
+    assert((await page.locator('[data-progress-level=easy] strong').textContent()).includes('5.0/5'), 'Earlier ratings must remain accessible separately');
     assert((await page.locator('#progress-rubric-note').textContent()).includes('before the scale was recorded'), 'Legacy ratings must not be assigned an inferred scale');
     await page.locator('#progress-rubric').selectOption('individual-mastery-v1');
     await waitLoaded();
@@ -160,7 +177,7 @@ async (page) => {
     await waitLoaded();
     await page.evaluate(async () => (await import('/deliberatepractice/src/js/backend.js')).repeatCurrentSession());
     assert(await page.locator('#progress-rubric').inputValue() === 'group-skill-v2' && await page.locator('#progress-source').inputValue() === 'observer', 'Token refresh must preserve progress filters');
-    assert((await page.locator('#self-chart-status').textContent()).includes('3.0/5'), 'Token refresh must preserve loaded ratings');
+    assert((await page.locator('[data-progress-level=easy] strong').textContent()).includes('3.0/5'), 'Token refresh must preserve loaded ratings');
     await page.locator('#progress-source').selectOption('self');
     await page.locator('#progress-rubric').selectOption('individual-mastery-v1');
     await waitLoaded();
@@ -173,7 +190,7 @@ async (page) => {
     release();
     hold = false;
     await page.waitForLoadState('networkidle');
-    assert((await page.locator('#self-chart-status').textContent()).includes('1.0/5'), 'A late response from another scale must not replace current ratings');
+    assert((await page.locator('[data-progress-level=easy] strong').textContent()).includes('1.0/5'), 'A late response from another scale must not replace current ratings');
     await page.locator('#progress-rubric').selectOption('individual-mastery-v1');
     await waitLoaded();
     hold = true;
@@ -185,7 +202,7 @@ async (page) => {
     release();
     hold = false;
     await page.waitForLoadState('networkidle');
-    assert((await page.locator('#self-chart-status').textContent()).includes('2.0/5'), 'Late self response must not replace observer evidence');
+    assert((await page.locator('[data-progress-level=easy] strong').textContent()).includes('2.0/5'), 'Late self response must not replace observer evidence');
     hold = true;
     const signoutStarted = new Promise(resolve => {pending = resolve;});
     await page.locator('#progress-source').selectOption('self');
@@ -198,7 +215,7 @@ async (page) => {
     await page.waitForLoadState('networkidle');
     assert(await page.locator('.progress-skill').count() === 0, 'Late request must not restore progress after sign-out');
     assert(errors.length === 0, errors.join('; '));
-    return {status:'passed', checks:['empty, sparse and complete radar', 'separate rating sources', 'history and practice target', 'active-round protection', 'Norwegian mobile layout', 'repeated session and token refresh', 'error retry and stale-response isolation']};
+    return {status:'passed', checks:['empty, sparse and complete radar', 'difficulty overlays and focused levels', 'separate rating sources', 'history and practice target', 'active-round protection', 'Norwegian mobile layout', 'repeated session and token refresh', 'error retry and stale-response isolation']};
   } finally {
     release?.();
     await page.unroute('**/src/js/backend.js*');

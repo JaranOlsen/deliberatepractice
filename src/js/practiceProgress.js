@@ -99,3 +99,27 @@ export function summarizeRatings(ratings, skillOrder, nowMs = Date.now()) {
     })).filter((row) => row.difficulties.some((entry) => entry.count > 0))
   };
 }
+
+// Comparison uses the union of rated skills. Missing values within a level
+// remain gaps, so easier practice cannot stand in for hard data.
+export function createProgressRadar(ratings, skillOrder, nowMs = Date.now()) {
+  const summary = summarizeRatings(ratings, skillOrder, nowMs);
+  const skills = summary.skills.filter(entry => entry.count > 0);
+  const levels = ['easy', 'moderate', 'hard', 'unspecified'];
+  const series = levels.map(difficulty => {
+    const selected = (ratings ?? []).filter(rating => difficulty === 'unspecified'
+      ? !levels.slice(0, 3).includes(rating?.difficulty) : rating?.difficulty === difficulty);
+    const level = summarizeRatings(selected, skillOrder, nowMs);
+    return {difficulty, ...level.overall,
+      values: skills.map(skill => level.skills.find(entry => entry.skillId === skill.skillId))};
+  }).filter(entry => entry.count > 0);
+  return {skills, series};
+}
+
+export function focusProgressRadar(radar, difficulty) {
+  const selected = radar.series.find(series => series.difficulty === difficulty);
+  if (!selected) return radar;
+  const indices = selected.values.flatMap((value,index) => value.count ? [index] : []);
+  return {skills: indices.map(index => radar.skills[index]),
+    series: radar.series.map(series => ({...series, values:indices.map(index => series.values[index])}))};
+}

@@ -2004,6 +2004,40 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 .progress-modal .chart-header h3 { padding-right: 6.5rem; }
 .progress-modal .chart-header > button { position: absolute; right: 0; top: 0; }
 
+.radar-levels { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .5rem; }
+.radar-level { --radar-color: var(--color-muted); display: grid; justify-items: center; gap: .25rem; min-height: 44px; padding: .65rem .25rem; border: 1px solid var(--color-border); border-radius: .65rem; background: white; color: var(--color-text); }
+.radar-level--all { grid-column: 1 / -1; padding: .4rem; min-height: 44px; }
+.radar-level[aria-pressed="true"] { border-color: var(--radar-color); box-shadow: inset 0 0 0 1px var(--radar-color); background: color-mix(in srgb, var(--radar-color), white 95%); }
+.radar-level:disabled { opacity: .5; }
+.radar-level strong { color: var(--radar-color); font-size: 1.05rem; }
+.radar-level small { color: var(--color-muted); font-size: .7rem; }
+.radar-level-label { font-size: .8rem; }
+.radar-level-label::before { content: ''; display: inline-block; width: .9rem; border-top: 2px solid var(--radar-color); margin-right: .3rem; vertical-align: middle; }
+.radar-level--all .radar-level-label::before { display: none; }
+.radar-level--unspecified { grid-column: 1 / -1; }
+.radar-level--easy, .radar-series--easy { --radar-color: #2f7b72; }
+.radar-level--moderate, .radar-series--moderate { --radar-color: #466eb4; }
+.radar-level--hard, .radar-series--hard { --radar-color: #ab632e; }
+.radar-series--unspecified { --radar-color: #777; }
+.radar-level--moderate .radar-level-label::before { border-top-style: dashed; }
+.radar-level--hard .radar-level-label::before { border-top-style: dotted; }
+.radar-series .self-chart-area { fill: var(--radar-color); fill-opacity: .09; stroke: var(--radar-color); stroke-width: 1.8; }
+.radar-series .self-chart-value-line { stroke: var(--radar-color); }
+.radar-series .self-chart-dot { fill: var(--radar-color); stroke: white; stroke-width: .6; }
+.radar-series--moderate .self-chart-area, .radar-series--moderate .self-chart-value-line { stroke-dasharray: 5 3; }
+.radar-series--hard .self-chart-area, .radar-series--hard .self-chart-value-line { stroke-dasharray: 1.5 3; }
+.radar-series--unspecified .self-chart-area, .radar-series--unspecified .self-chart-value-line { stroke-dasharray: 7 3 1 3; }
+.radar-small-profile h5 { margin: .5rem 0; }
+.radar-small-row { display: grid; grid-template-columns: 5rem minmax(0,1fr) 3rem; align-items: center; gap: .5rem; margin: .65rem 0; font-size: .8rem; }
+.radar-small-track { height: .5rem; background: #e7ecea; border-radius: 1rem; overflow: hidden; }
+.radar-small-track span { display: block; height: 100%; background: var(--radar-color); }
+.progress-filters { margin: .7rem 0; border: 1px solid var(--color-border); border-radius: .65rem; padding: .65rem; }
+.progress-filters summary { font-size: .85rem; font-weight: 600; cursor: pointer; min-height: 24px; line-height: 1.5; }
+.progress-filters[open] summary { margin-bottom: .75rem; }
+@media (max-width: 360px) {
+  .radar-level:not(.radar-level--all) .radar-level-label::before { display: block; margin: 0 auto .3rem; }
+}
+
 /* Separate-device practice has one focused screen per participant. */
 .room-dialog { max-width: 760px; margin: 0 auto; }
 .room-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }

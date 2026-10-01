@@ -43,7 +43,7 @@ import {
   sampleTriadStatements
 } from "./triadProtocol.js";
 
-import { summarizeRatings } from "./practiceProgress.js";
+import { summarizeRatings, createProgressRadar, focusProgressRadar } from "./practiceProgress.js";
 import { createDialogManager } from "./dialogs.js";
 import { SESSION_VERSION, isResumableSession, getRoundOutcome, getOrCreateRoundId } from "./practiceSession.js";
 
@@ -388,6 +388,7 @@ const state = {
   authLoading: false,
   progressSource: "self",
   progressRubric: "individual-mastery-v1",
+  progressDifficulty: "all",
   progressRatings: [],
   progressRatingsLoading: false,
   progressRatingsLoaded: false,
@@ -1288,6 +1289,7 @@ function renderSelfRatingsChart() {
   releaseElements["progress-rubric-note"].textContent = state.progressRubric === "legacy"
     ? strings.progressRubricLegacyNote : state.progressRubric === "group-consistency-v1"
     ? strings.triadRatingScoreGuide : state.progressRubric === "group-skill-v2" ? strings.groupRatingGuide : strings.ratingScoreGuide;
+  document.getElementById('progress-filter-summary').textContent = `${releaseElements['progress-source'].selectedOptions[0].textContent} · ${releaseElements['progress-rubric'].selectedOptions[0].textContent}`;
   if (elements.selfChartTitle) {
     elements.selfChartTitle.textContent = strings.selfChartTitle ?? "Your progress";
   }
@@ -1318,70 +1320,96 @@ function renderSelfRatingsChart() {
     return;
   }
   const summary = summarizeRatings(state.progressRatings, SKILL_ORDER);
-  const ratedSkills = summary.skills;
+  const comparison = createProgressRadar(state.progressRatings, SKILL_ORDER);
+  const difficultyName = difficulty => difficulty === 'unspecified' ? strings.progressLevelUnspecified
+    : strings[`difficulty${difficulty[0].toUpperCase()}${difficulty.slice(1)}`];
+  if (!comparison.series.some(series => series.difficulty === state.progressDifficulty)) state.progressDifficulty = 'all';
+  const radar = focusProgressRadar(comparison, state.progressDifficulty);
+  const ratedSkills = radar.skills;
+  const visibleSeries = state.progressDifficulty === 'all' ? radar.series : radar.series.filter(series => series.difficulty === state.progressDifficulty);
+  const visibleCount = visibleSeries.reduce((sum, series) => sum + series.count, 0);
   elements.selfChartStatus.textContent = [
-    formatChartTemplate(strings.selfChartAverage ?? "{score}/5 weighted average", { score: (summary.overall.average ?? 0).toFixed(1) }),
-    formatChartTemplate(strings.selfChartCount ?? "{count} items practiced", { count: summary.overall.count })
-  ].join(" · ");
+    formatChartTemplate(strings.progressRatedSkills, {count: ratedSkills.length}),
+    formatChartTemplate(strings.selfChartCount, {count: visibleCount})
+  ].join(' · ');
   if (!summary.overall.count) {
-    elements.selfChartStatus.textContent = state.progressRubric !== "legacy" ? strings.progressScaleEmpty
-      : state.progressSource === "observer" ? strings.progressObserverEmpty : strings.selfChartEmpty;
+    elements.selfChartStatus.textContent = state.progressRubric !== 'legacy' ? strings.progressScaleEmpty
+      : state.progressSource === 'observer' ? strings.progressObserverEmpty : strings.selfChartEmpty;
+    elements.selfChart.append(renderProgressHistory(summary));
+    return;
   }
 
-  const size = 320;
-  const center = size / 2;
-  const maxRadius = 100;
-  const labelRadius = maxRadius + 32;
-  const axisCount = ratedSkills.length;
-  const gridRadii = [0.2, 0.4, 0.6, 0.8, 1];
-  const grid = gridRadii.map((ratio) => {
-    const points = ratedSkills.map((_entry, index) => polarPoint(center, center, maxRadius * ratio, index, axisCount));
-    return `<polygon points="${pointsToAttribute(points)}" class="self-chart-grid-ring"></polygon>`;
-  }).join("");
-  const axes = ratedSkills.map((_entry, index) => {
-    const point = polarPoint(center, center, maxRadius, index, axisCount);
-    return `<line x1="${center}" y1="${center}" x2="${point.x.toFixed(1)}" y2="${point.y.toFixed(1)}" class="self-chart-axis"></line>`;
-  }).join("");
-  const valuePoints = ratedSkills.map((entry, index) => {
-    if (!entry.count) return null;
-    const ratio = Math.max(0, Math.min(1, entry.average / 5));
-    return polarPoint(center, center, maxRadius * ratio, index, axisCount);
-  });
-  const complete = valuePoints.every(Boolean);
-  const segments = valuePoints.map((point, index) => {
-    const next = valuePoints[(index + 1) % axisCount];
-    return point && next ? `<line x1="${point.x}" y1="${point.y}" x2="${next.x}" y2="${next.y}" class="self-chart-value-line" />` : "";
-  }).join("");
-  const dots = valuePoints.map((point, index) => {
-    const missing = !point;
-    const position = point ?? polarPoint(center, center, maxRadius, index, axisCount);
-    const label = `${getLocalizedSkillName(ratedSkills[index].skillId)}: ${missing ? strings.progressUnrated : ratedSkills[index].average.toFixed(1) + '/5'}`;
-    return `<circle cx="${position.x}" cy="${position.y}" r="${missing ? 2.5 : 3.5}" class="${missing ? 'self-chart-missing' : 'self-chart-dot'}"><title>${escapeMarkup(label)}</title></circle>`;
-  }).join("");
-  const labels = ratedSkills.map((entry, index) => {
-    const point = polarPoint(center, center, labelRadius, index, axisCount);
-    return renderChartLabel(
-      point.x.toFixed(1),
-      point.y.toFixed(1),
-      getChartSkillLabelLines(entry.skillId)
-    );
-  }).join("");
-  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-  svg.setAttribute("viewBox", `0 0 ${size} ${size}`);
-  svg.setAttribute("role", "img");
-  svg.setAttribute(
-    "aria-label",
-    strings.selfChartAria ?? "Radial chart of self-rated practice progress by skill"
-  );
-  svg.innerHTML = `
-    ${grid}
-    ${axes}
-    ${complete ? `<polygon points="${pointsToAttribute(valuePoints)}" class="self-chart-area"></polygon>` : segments}
-    ${dots}
-    <text x="${center + 4}" y="${center - maxRadius + 12}" class="self-chart-scale">5</text>
-    <text x="${center + 4}" y="${center - maxRadius / 5}" class="self-chart-scale">1</text>
-    ${labels}
-  `;
+  const levels = document.createElement('div'); levels.className = 'radar-levels';
+  levels.setAttribute('role', 'group'); levels.setAttribute('aria-label', strings.progressDifficultyCompare);
+  const levelButton = (difficulty, series) => {
+    const button = document.createElement('button'); button.type = 'button';
+    button.className = `radar-level radar-level--${difficulty}`; button.dataset.progressLevel = difficulty;
+    button.setAttribute('aria-pressed', String(state.progressDifficulty === difficulty));
+    button.disabled = difficulty !== 'all' && !series;
+    const label = document.createElement('span'); label.className = 'radar-level-label';
+    label.textContent = difficulty === 'all' ? strings.progressDifficultyCompare : difficultyName(difficulty);
+    button.append(label);
+    if (difficulty !== 'all') {
+      const score = document.createElement('strong'); score.textContent = series ? `${series.average.toFixed(1)}/5` : '—';
+      const count = document.createElement('small'); count.textContent = series ? formatChartTemplate(strings.progressLevelCount, {count:series.ratingCount}) : strings.progressUnrated;
+      button.append(score, count);
+    }
+    button.addEventListener('click', () => {
+      state.progressDifficulty = difficulty; renderSelfRatingsChart();
+      elements.selfChart.querySelector(`[data-progress-level="${difficulty}"]`)?.focus({preventScroll:true});
+    });
+    levels.append(button);
+  };
+  levelButton('all');
+  for (const difficulty of ['easy','moderate','hard']) levelButton(difficulty, radar.series.find(s=>s.difficulty===difficulty));
+  const unspecified = radar.series.find(s=>s.difficulty==='unspecified');
+  if (unspecified) levelButton('unspecified', unspecified);
+
+  const size = 320, center = size / 2, maxRadius = 100, labelRadius = maxRadius + 32, axisCount = ratedSkills.length;
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.setAttribute('viewBox', `0 0 ${size} ${size}`); svg.setAttribute('role', 'img');
+  svg.setAttribute('aria-label', strings.progressRadarAria);
+  svg.setAttribute('aria-describedby', 'progress-radar-description');
+  const grid = [0.2,0.4,0.6,0.8,1].map(ratio => `<polygon points="${pointsToAttribute(ratedSkills.map((_entry,index)=>polarPoint(center,center,maxRadius*ratio,index,axisCount)))}" class="self-chart-grid-ring" />`).join('');
+  const axes = ratedSkills.map((_entry,index) => {
+    const point = polarPoint(center,center,maxRadius,index,axisCount);
+    return `<line x1="${center}" y1="${center}" x2="${point.x}" y2="${point.y}" class="self-chart-axis" />`;
+  }).join('');
+  const plots = visibleSeries.map(series => {
+    const points = series.values.map((entry,index) => entry.count ? polarPoint(center,center,maxRadius*entry.average/5,index,axisCount) : null);
+    const complete = points.every(Boolean);
+    const shape = complete ? `<polygon points="${pointsToAttribute(points)}" class="self-chart-area" />`
+      : points.map((point,index) => {
+        const next = points[(index+1)%axisCount];
+        return point && next ? `<line x1="${point.x}" y1="${point.y}" x2="${next.x}" y2="${next.y}" class="self-chart-value-line" />` : '';
+      }).join('');
+    const dots = points.map((point,index) => point ? `<circle cx="${point.x}" cy="${point.y}" r="3" class="self-chart-dot"><title>${escapeMarkup(`${getLocalizedSkillName(ratedSkills[index].skillId)} · ${difficultyName(series.difficulty)}: ${series.values[index].average.toFixed(1)}/5`)}</title></circle>` : '').join('');
+    return `<g class="radar-series radar-series--${series.difficulty}" data-difficulty="${series.difficulty}">${shape}${dots}</g>`;
+  }).join('');
+  const labels = ratedSkills.map((entry,index) => {
+    const point = polarPoint(center,center,labelRadius,index,axisCount);
+    return renderChartLabel(point.x.toFixed(1),point.y.toFixed(1),getChartSkillLabelLines(entry.skillId));
+  }).join('');
+  const chartDescription = visibleSeries.map(series => `${difficultyName(series.difficulty)}: ${series.values.map((value,index)=>`${getLocalizedSkillName(ratedSkills[index].skillId)} ${value.count ? value.average.toFixed(1)+'/5' : strings.progressUnrated}`).join('; ')}`).join('. ');
+  svg.innerHTML = `<desc id="progress-radar-description">${escapeMarkup(chartDescription)}</desc>${grid}${axes}${plots}<text x="${center+4}" y="${center-maxRadius+12}" class="self-chart-scale">5</text><text x="${center+4}" y="${center-maxRadius/5}" class="self-chart-scale">1</text>${labels}`;
+
+  const smallProfile = document.createElement('div'); smallProfile.className = 'radar-small-profile';
+  if (axisCount < 3) {
+    const note = document.createElement('p'); note.className = 'response-hint'; note.textContent = strings.progressRadarNeedsThree; smallProfile.append(note);
+    for (const [index, skill] of ratedSkills.entries()) {
+      const section = document.createElement('section'); const heading = document.createElement('h5'); heading.textContent = getLocalizedSkillName(skill.skillId); section.append(heading);
+      for (const series of visibleSeries) {
+        const value = series.values[index]; if (!value.count) continue;
+        const row = document.createElement('div'); row.className = `radar-small-row radar-series--${series.difficulty}`;
+        const label = document.createElement('span'); label.textContent = difficultyName(series.difficulty);
+        const track = document.createElement('span'); track.className = 'radar-small-track';
+        const fill = document.createElement('span'); fill.style.width = `${value.average/5*100}%`; track.append(fill);
+        const score = document.createElement('strong'); score.textContent = `${value.average.toFixed(1)}/5`;
+        row.append(label,track,score); section.append(row);
+      }
+      smallProfile.append(section);
+    }
+  }
 
   const difficultyList = document.createElement("div");
   difficultyList.className = "difficulty-chart";
@@ -1455,7 +1483,7 @@ function renderSelfRatingsChart() {
   explanation.className = "response-hint";
   explanation.textContent = strings.progressMethodDescription;
   methods.append(methodsTitle, explanation, difficultyList, matrix);
-  elements.selfChart.append(svg, legend, renderProgressHistory(summary), methods);
+  elements.selfChart.append(levels, axisCount >= 3 ? svg : smallProfile, legend, renderProgressHistory(summary), methods);
 }
 
 function renderProgressHistory(summary) {
@@ -1672,6 +1700,7 @@ async function applyAuthSession(session) {
     progressRequestId += 1;
     state.progressSource = "self";
     state.progressRubric = "individual-mastery-v1";
+    state.progressDifficulty = "all";
     state.progressRatings = [];
     state.progressRatingsLoading = false;
     state.progressRatingsLoaded = false;
