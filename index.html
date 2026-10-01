@@ -29,7 +29,31 @@
     </header>
     <main class="app-main">
       <aside id="group-selection-context" class="group-selection-context" hidden><p id="group-selection-note"></p><button id="group-selection-return" class="ghost-button" type="button"></button></aside>
-      <section id="group-entry" class="panel group-entry" hidden aria-labelledby="group-entry-title"><h2 id="group-entry-title">Practice together</h2><p id="group-entry-note"></p><div class="room-entry-actions"><button id="group-resume" class="primary-button" type="button" hidden></button><button id="group-create" class="primary-button" type="button">Create room</button><button id="group-join" class="ghost-button" type="button">Join with a code</button></div></section>
+      <section id="group-entry" class="panel group-entry" hidden aria-labelledby="group-entry-title">
+        <h2 id="group-entry-title">Choose how to practice</h2>
+        <fieldset class="practice-format" id="practice-format">
+            <legend class="sr-only" id="practice-format-label">Practice format</legend>
+            <div class="practice-format-options">
+              <label class="practice-format-option">
+                <input type="radio" name="practice-mode" value="group" checked>
+                <span>
+                  <strong id="practice-mode-triad">Group</strong>
+                  <small id="practice-mode-triad-description">Therapist, client, and observer practice three items with feedback and retry.</small>
+                </span>
+              </label>
+              <label class="practice-format-option">
+                <input type="radio" name="practice-mode" value="individual">
+                <span>
+                  <strong id="practice-mode-individual">Individual</strong>
+                  <small id="practice-mode-individual-description">Practice the full set at your own pace.</small>
+                </span>
+              </label>
+            </div>
+            <label id="shared-device-option" hidden><input type="checkbox" id="shared-device"> <span id="shared-device-label">Use one shared device</span></label>
+          </fieldset>
+        <p id="group-entry-note"></p>
+        <div id="group-room-actions" class="room-entry-actions"><button id="group-resume" class="primary-button" type="button" hidden></button><button id="group-create" class="primary-button" type="button">Create room</button><button id="group-join" class="ghost-button" type="button">Join with a code</button></div>
+      </section>
       <div class="content-load-notice" id="content-load-notice" hidden>
         <p id="content-load-status" role="status"></p>
         <button type="button" class="ghost-button ghost-button--small" id="content-load-retry" hidden></button>
@@ -237,27 +261,6 @@
             <h4 class="case-section-title" id="case-voice-heading"></h4>
             <p id="case-voice"></p>
           </div>
-
-          <fieldset class="practice-format" id="practice-format">
-            <legend class="case-section-title" id="practice-format-label">Practice format</legend>
-            <div class="practice-format-options">
-              <label class="practice-format-option">
-                <input type="radio" name="practice-mode" value="group" checked>
-                <span>
-                  <strong id="practice-mode-triad">Group</strong>
-                  <small id="practice-mode-triad-description">Therapist, client, and observer practice three items with feedback and retry.</small>
-                </span>
-              </label>
-              <label class="practice-format-option">
-                <input type="radio" name="practice-mode" value="individual">
-                <span>
-                  <strong id="practice-mode-individual">Individual</strong>
-                  <small id="practice-mode-individual-description">Practice the full set at your own pace.</small>
-                </span>
-              </label>
-            </div>
-            <label id="shared-device-option" hidden><input type="checkbox" id="shared-device"> <span id="shared-device-label">Use one shared device</span></label>
-          </fieldset>
 
           <section class="triad-orientation is-hidden" id="triad-orientation" hidden>
             <h4 id="triad-orientation-title">How the group practices</h4>

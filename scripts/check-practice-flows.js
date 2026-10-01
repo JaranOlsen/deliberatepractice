@@ -58,16 +58,22 @@ async (page) => {
   await page.evaluate(() => localStorage.clear());
   await page.reload();
   await page.locator('#language-list button').first().waitFor();
+  await page.setViewportSize({width:390,height:844});
+  assert(await page.locator('#group-entry #practice-format').isVisible(), 'Practice format belongs at the beginning with room entry');
+  assert(await page.locator('#group-create').isVisible() && await page.locator('#group-join').isVisible(), 'Group room actions are beside the initial format choice');
+  await page.screenshot({path:'output/playwright/practice-choice-mobile.png',fullPage:true});
   const setup = async (language, skill, mode = 'individual') => {
     if (!(await visible('language-selection'))) {
       if (await visible('case-selection')) await click('back-to-skills');
       await click('back-to-language');
     }
+    await page.locator(`input[name="practice-mode"][value="${mode === 'triad' ? 'group' : mode}"]`).check();
+    if(mode === 'triad') await page.locator('#shared-device').check();
+    assert(await page.locator('#group-room-actions').isHidden() === (mode !== 'group'), 'Only separate-device groups offer room entry');
     await page.locator(`[data-language-id="${language}"]`).click();
     await page.locator(`[data-skill-id="${skill}"]`).click();
     await page.locator('[data-case-id="case-sara"]').click();
-    await page.locator(`input[name="practice-mode"][value="${mode === 'triad' ? 'group' : mode}"]`).check();
-    if(mode === 'triad') await page.locator('#shared-device').check();
+    assert(await page.locator('#practice-format').isHidden(), 'Case preparation does not repeat the format decision');
     await click('start-practice');
   };
   await setup('en', 'empathic-understanding');
@@ -199,6 +205,7 @@ async (page) => {
   await page.evaluate(() => localStorage.clear());
   await page.reload();
   await page.waitForFunction(() => document.querySelector('#account-button').textContent === 'Account');
+  await page.locator('input[name="practice-mode"][value="individual"]').check();
   await page.locator('[data-language-id="en"]').click();
   await page.locator('[data-skill-id="empathic-understanding"]').click();
   await page.locator('[data-case-id="case-sara"]').click();
@@ -207,7 +214,6 @@ async (page) => {
   assert(await session() === null, 'Account loading must not create a guest round');
   holdProfile = false;
   releaseProfile();
-  await page.locator('input[name="practice-mode"][value="individual"]').check();
   await click('start-practice');
   assert((await session()).roundTarget?.target_user_id === 'test-self', 'Practice must capture the loaded account target');
   await click('account-button');

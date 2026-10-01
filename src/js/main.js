@@ -107,8 +107,15 @@ function renderGroupEntry() {
   const no = state.languageId === 'no', section = document.body.dataset.section;
   const roomId = state.authUser && readJsonStorage(`dp_shared_room:${state.authUser.id}`);
   document.getElementById('group-entry').hidden = !!roomSelection || !['language','skill'].includes(section) || state.sessionActive;
-  document.getElementById('group-entry-title').textContent = no ? 'Øv sammen' : 'Practice together';
-  document.getElementById('group-entry-note').textContent = roomId ? (no ? 'Gå tilbake til rommet for å fortsette. Et nytt rom starter en egen økt.' : 'Return to your room to continue. A new room starts a separate session.') : no ? 'Opprett et rom, inviter gruppen og velg hva dere vil øve på.' : 'Create a room, invite your group, then choose what to practice.';
+  document.getElementById('group-entry-title').textContent = no ? 'Velg hvordan du vil øve' : 'Choose how to practice';
+  const group = state.practiceMode === PRACTICE_MODES.GROUP;
+  document.getElementById('group-room-actions').hidden = !group;
+  renderPracticeFormatUI();
+  elements.practiceModeIndividual.textContent = no ? 'Individuelt' : 'Individual';
+  elements.practiceModeIndividualDescription.textContent = no ? 'Øv i ditt eget tempo.' : 'Practice at your own pace.';
+  elements.practiceModeTriad.textContent = no ? 'Gruppe' : 'Group';
+  elements.practiceModeTriadDescription.textContent = no ? 'To eller flere, på hver deres enhet.' : 'Two or more, on your own devices.';
+  document.getElementById('group-entry-note').textContent = !group ? (state.practiceMode === PRACTICE_MODES.TRIAD ? (no ? 'Velg en ferdighet. Tre personer bytter mellom terapeut, klient og observatør på én enhet.' : 'Choose a skill. Three people rotate therapist, client and observer roles on one device.') : (no ? 'Velg en ferdighet og et kasus for å komme i gang.' : 'Choose a skill and case to get started.')) : roomId ? (no ? 'Gå tilbake til rommet for å fortsette. Et nytt rom starter en egen økt.' : 'Return to your room to continue. A new room starts a separate session.') : no ? 'Opprett et rom, inviter gruppen og velg hva dere vil øve på.' : 'Create a room, invite your group, then choose what to practice.';
   document.getElementById('group-create').textContent = no ? 'Opprett rom' : 'Create room';
   document.getElementById('group-join').textContent = no ? 'Bli med med kode' : 'Join with a code';
   document.getElementById('group-resume').textContent = no ? 'Tilbake til rommet' : 'Return to room';
@@ -4154,7 +4161,7 @@ function handlePracticeModeChange(event) {
   state.completedStatementIds = new Set();
   resetTriadRoundState();
   resetSuggestionVisibility();
-  renderPracticeFormatUI();
+  renderGroupEntry();
   renderTriadProtocolUI();
   savePracticeSession();
 }

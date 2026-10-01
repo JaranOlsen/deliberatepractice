@@ -111,3 +111,10 @@ Validation:
 - Existing individual/shared-device practice, radar/progress and real SDK query-adapter browser checks pass.
 
 Frontend changes remain on the draft release branch and are not deployed. These browser tests use phone-sized viewports; a video-call trial on actual phones and different networks remains to be done.
+
+
+## One initial format choice
+
+The library entry panel now combines Individual/Group selection with creating, joining and returning to a room. Separate-device Group is still the default; the optional shared-device checkbox belongs to the same initial choice. Individual and shared-device practice hide the room actions. The case preparation screen no longer contains a second format selector, and host selection does not expose it. Preferences and active-round protection remain in place.
+
+The individual/shared-device browser regression now chooses format before language/skill/case and checks that room actions match the selection and case preparation never repeats it. The five-context group regression passes from the same combined entry. Phone screenshots were inspected, including the compact two-column choice cards. All 28 unit tests, content parity and production build pass. This change requires no additional backend migration.

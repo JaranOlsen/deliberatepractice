@@ -180,9 +180,10 @@ async (page) => {
     if(await o.locator('#back-to-cases').isVisible()) await o.locator('#back-to-cases').click();
     if(await o.locator('#back-to-skills').isVisible()) await o.locator('#back-to-skills').click();
     await o.locator('#back-to-language').click();
+    await o.locator('[name="practice-mode"][value="group"]').check();
     await o.locator('[data-language-id="no"]').click();
     await o.locator('[data-skill-id="therapist-self-awareness"]').click(); await o.locator('[data-case-id="case-sara"]').click();
-    await o.locator('[name="practice-mode"][value="group"]').check(); await click(o,'start-practice'); await o.locator('#room-host-options summary').click();await o.locator('#room-host-role').selectOption('observer'); await click(o,'room-create');
+    await click(o,'start-practice'); await o.locator('#room-host-options summary').click();await o.locator('#room-host-role').selectOption('observer'); await click(o,'room-create');
     for (const [p,role] of [[t,'therapist'],[c,'client'],[watcher1,'passive'],[watcher2,'passive']]) {
       await p.evaluate(() => {for(const key of Object.keys(localStorage)) if(key.startsWith('dp_shared_room:')) localStorage.removeItem(key);});
       await click(p,'group-join'); await p.locator('#room-code').fill(room.code);
