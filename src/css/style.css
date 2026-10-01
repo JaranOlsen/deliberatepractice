@@ -2146,5 +2146,7 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 .room-workflow li { display: flex; align-items: center; gap: .5rem; padding: .65rem; border: 1px solid var(--color-border); border-radius: .6rem; background: #f3f7f5; min-width: 0; font-size: .9rem; line-height: 1.4; }
 .room-workflow-number { display: grid; place-items: center; flex: 0 0 1.6rem; height: 1.6rem; border-radius: 50%; background: var(--color-accent); color: white; font-weight: 700; }
 .room-workflow-guide > summary { font-weight: 650; }
+.room-workflow li.room-workflow-rating { border-style: dashed; background: transparent; }
+.room-workflow-rating small { display: block; color: var(--color-muted); margin-top: .2rem; font-size: .75rem; }
 #room-example-reveal { min-height: 44px; }
-@media (max-width: 360px) { .room-workflow { grid-template-columns: 1fr; } }
+@media (max-width: 360px) { .room-workflow li { padding: .5rem; gap: .35rem; font-size: .8rem; } }

@@ -18,13 +18,13 @@ const copy = {
     pass: 'Pass this item', confirmPass: 'Pass this item for everyone? It will not count as practiced.',
     rotate: 'Next round · rotate roles', end: 'End room for everyone', confirmEnd: 'End this group session for everyone?',
     ended: 'This group session has ended.', expired: 'This room has expired. Create a new room to continue.',
-    listening: 'Work through the item together on the call. The observer finishes the item after feedback and retry; in a pair, the therapist does this.',
     read: 'Read this line aloud in the client role. Repeat it when the therapist is ready to retry.',
     reader: 'Read this line aloud, then step out of the client role. Respect what the therapist chooses to keep private.',
-    observe: 'Listen for the selected skill and offer focused feedback when it is your turn.',
-    itemPractice: 'Practice this item', workflowTitle: 'The workflow', workflowNote: 'Guide this sequence aloud. Finish the item after the retry; no taps are needed between these steps.', yourPart: 'Your part in the workflow',
-    workflowSteps: ['Therapist responds', 'Client gives feedback', 'Observer offers coaching', 'Therapist retries'],
-    awarenessSteps: ['Therapist notices their reaction', 'Reader reflects on the process', 'Observer offers a gentle experiment', 'Therapist notices again'],
+    workflowTitle: 'The workflow', yourPart: 'Your part', afterRound: 'After 3 items',
+    workflowSteps: ['Client reads the line', 'Therapist responds', 'Client gives feedback', 'Observer coaches', 'Repeat line · therapist retries', 'Rate the therapist'],
+    awarenessSteps: ['Reader reads the line', 'Therapist notices their reaction', 'Reader reflects', 'Observer suggests an experiment', 'Repeat line · therapist notices again', 'Rate the therapist'],
+    roleCue: {therapist: 'Choose one change. Try again.', client: 'Stay in role. Say what helped and what missed.', observer: 'Name one strength. Suggest one change to try.', passive: 'Listen for the skill. Let the active observer guide.'},
+    awarenessCue: {therapist: 'Notice your reaction; you do not need to respond to the client. Share only what you choose.', client: 'Read, then step out of role. Reflect on the pause; respect what stays private.', observer: 'Notice one strength. Suggest a gentle experiment without interpreting or asking for disclosure.', passive: 'Listen to the process. Respect what the therapist keeps private.'},
     finishNext: 'Finish item · next', finishLast: 'Finish item · reflect', forRetry: 'For the retry', beforeExample: 'Try your own response and hear feedback before opening an example.',
     example: 'See an example for the retry', exampleNote: 'An example, not an answer key. Choose one change to try.',
     round: 'Round', item: 'Item', debrief: 'Reflect together', practiced: 'practiced', passed: 'passed',
@@ -33,7 +33,6 @@ const copy = {
     participantWaiting: 'Not joined', participantSyncing: 'Catching up', participantReady: 'Up to date',
     participantOffline: 'Connection lost', brief: 'Your preparation', newRoom: 'Join another room',
     failedContent: 'This room uses a different or unavailable content version. Refresh the app and sync again.',
-    hiddenLine: 'Listen to the client read the line aloud. Your response comes from listening.',
     scale: '1 = Not yet demonstrated · 2 = Emerging with guidance · 3 = Adequate in parts · 4 = Well demonstrated · 5 = Skillfully demonstrated'
   },
   no: {
@@ -50,13 +49,13 @@ const copy = {
     pass: 'Stå over utsagnet', confirmPass: 'Stå over utsagnet for alle? Det telles ikke som øvd.',
     rotate: 'Neste runde · roter roller', end: 'Avslutt rommet for alle', confirmEnd: 'Avslutte gruppeøkten for alle?',
     ended: 'Gruppeøkten er avsluttet.', expired: 'Rommet har utløpt. Opprett et nytt rom for å fortsette.',
-    listening: 'Øv dere gjennom utsagnet sammen på samtalen. Observatøren fullfører etter tilbakemelding og nytt forsøk; i par gjør terapeuten dette.',
     read: 'Les utsagnet høyt i klientrollen. Gjenta det når terapeuten er klar til å prøve igjen.',
     reader: 'Les utsagnet høyt, og gå så ut av klientrollen. Respekter det terapeuten velger å holde privat.',
-    observe: 'Lytt etter den valgte ferdigheten og gi konkret tilbakemelding når det er din tur.',
-    itemPractice: 'Øv på dette utsagnet', workflowTitle: 'Slik øver dere', workflowNote: 'Led denne rekkefølgen muntlig. Fullfør utsagnet etter det nye forsøket; dere trenger ikke trykke mellom stegene.', yourPart: 'Din del av øvingen',
-    workflowSteps: ['Terapeuten svarer', 'Klienten gir tilbakemelding', 'Observatøren veileder', 'Terapeuten prøver på nytt'],
-    awarenessSteps: ['Terapeuten merker sin reaksjon', 'Oppleseren gir respons på prosessen', 'Observatøren foreslår et varsomt eksperiment', 'Terapeuten legger merke til på nytt'],
+    workflowTitle: 'Slik øver dere', yourPart: 'Din del', afterRound: 'Etter 3 utsagn',
+    workflowSteps: ['Klienten leser utsagnet', 'Terapeuten svarer', 'Klienten gir tilbakemelding', 'Observatøren veileder', 'Gjenta utsagnet · terapeuten prøver igjen', 'Vurder terapeuten'],
+    awarenessSteps: ['Oppleseren leser utsagnet', 'Terapeuten merker sin reaksjon', 'Oppleseren reflekterer', 'Observatøren foreslår et eksperiment', 'Gjenta utsagnet · terapeuten merker på nytt', 'Vurder terapeuten'],
+    roleCue: {therapist: 'Velg én endring. Prøv igjen.', client: 'Bli i rollen. Si hva som hjalp og hva som bommet.', observer: 'Nevn én styrke. Foreslå én endring å prøve.', passive: 'Lytt etter ferdigheten. La den aktive observatøren lede.'},
+    awarenessCue: {therapist: 'Merk din reaksjon; du trenger ikke svare klienten. Del bare det du selv velger.', client: 'Les, og gå så ut av rollen. Reflekter over pausen; respekter det som holdes privat.', observer: 'Legg merke til én styrke. Foreslå et varsomt eksperiment uten å tolke eller be om utlevering.', passive: 'Lytt til prosessen. Respekter det terapeuten holder privat.'},
     finishNext: 'Fullfør · neste utsagn', finishLast: 'Fullfør · reflekter', forRetry: 'Til det nye forsøket', beforeExample: 'Prøv din egen respons og lytt til tilbakemelding før du åpner et eksempel.',
     example: 'Se et eksempel før du prøver igjen', exampleNote: 'Et eksempel, ikke en fasit. Velg én endring å prøve.',
     round: 'Runde', item: 'Utsagn', debrief: 'Reflekter sammen', practiced: 'øvd', passed: 'stått over',
@@ -65,7 +64,6 @@ const copy = {
     participantWaiting: 'Ikke med ennå', participantSyncing: 'Henter siste steg', participantReady: 'Oppdatert',
     participantOffline: 'Mistet forbindelsen', brief: 'Din forberedelse', newRoom: 'Bli med i et annet rom',
     failedContent: 'Rommet bruker en annen eller utilgjengelig innholdsversjon. Last appen på nytt og synkroniser igjen.',
-    hiddenLine: 'Lytt til klienten som leser utsagnet høyt. Responsen din kommer fra lyttingen.',
     scale: '1 = Ikke vist ennå · 2 = På vei med veiledning · 3 = Tilfredsstillende i deler · 4 = Godt demonstrert · 5 = Svært godt demonstrert'
   }
 };
@@ -73,8 +71,8 @@ const copy = {
 export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getUser, getLanguage, localizeSkill, getStrings, signIn, onProgressChange}) {
   const overlay = document.createElement('div');
   overlay.id = 'room-panel'; overlay.className = 'panel room-panel is-hidden'; overlay.hidden = true;
-  overlay.innerHTML = `<section class="room-dialog" aria-labelledby="room-title">
-    <header class="room-header"><h2 id="room-title"></h2><button id="room-back" class="ghost-button"></button></header>
+  overlay.innerHTML = `<section class="room-dialog">
+    <header id="room-header" class="room-header"><h2 id="room-title"></h2><button id="room-back" class="ghost-button"></button></header>
     <p id="room-status" role="status" aria-live="polite"></p>
     <div id="room-setup">
       <div id="room-hub"><p id="room-hub-intro"></p><div class="room-entry-actions">
@@ -140,6 +138,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
   function text(id, value) { el(id).textContent = value ?? ''; }
   function labels() {
     const s = strings();
+    overlay.querySelector('.room-dialog').setAttribute('aria-label', s.title);
     for (const key of ['title', 'intro', 'consent', 'copy', 'sync', 'retry', 'pass', 'rotate', 'end']) text(key === 'consent' ? 'consent' : key, s[key]);
     text('back', s.close); text('code-label', s.code); text('role-label', s.role);
     for (const id of ['role', 'host-role', 'change-role']) for (const option of el(id).options) option.textContent = s[option.value];
@@ -175,8 +174,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     const s = strings(), ui = getStrings(language);
     const self = next.skill_id === 'therapist-self-awareness';
     const active = ['practicing','first_attempt','client_feedback','observer_feedback','retry'].includes(next.phase);
-    const instructions = self ? [ui.selfAwarenessFirstInstruction, ui.selfAwarenessClientInstruction, ui.selfAwarenessObserverInstruction, ui.selfAwarenessRetryInstruction]
-      : [ui.triadPhaseFirstInstruction, ui.triadPhaseClientInstruction, ui.triadPhaseObserverInstruction, ui.triadPhaseRetryInstruction];
+    el('header').hidden = active && !ended;
     const body = el('content');
     text('role-badge', `${s.role}: ${role === 'client' && self ? ui.selfAwarenessReaderRole : s[role]}`);
     if (ended) { write(roomKey(), null); text('role-badge', ''); }
@@ -200,30 +198,28 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
         else prep.append(node('p', skill.practiceFocus), node('p', skill.commonMiss), node('p', ui.triadGuideBoundary));
         body.append(prep);
       } else if (active) {
-        body.append(node('p', `${s.round} ${next.round_number} · ${s.item} ${next.item_index + 1}/3`, 'triad-progress'), node('h4', s.itemPractice));
+        body.append(node('p', `${s.round} ${next.round_number} · ${s.item} ${next.item_index + 1}/3`, 'triad-progress'));
         const statement = entries.find(e => e.id === next.statement_ids[next.item_index]);
-        if (role !== 'therapist') body.append(node('blockquote', statement.text, 'statement-text room-statement'));
-        else body.append(node('p', s.hiddenLine, 'response-hint'));
-        if (role === 'client') body.append(node('p', self ? s.reader : s.read));
-        else if (role === 'therapist') body.append(node('p', self || next.observer_id ? instructions[0] : language === 'no' ? 'Klienten leser utsagnet. Svar høyt, lytt til klientens tilbakemelding og prøv deretter på nytt.' : 'The client reads the line. Respond aloud, hear the client’s feedback, then try again.'), node('aside', skill.practiceFocus, 'individual-guide'));
+        if (role === 'client') body.append(node('blockquote', statement.text, 'statement-text room-statement'));
+        else if (role === 'therapist') body.append(node('aside', skill.practiceFocus, 'individual-guide'));
         const guide = node('details', '', 'room-workflow-guide');
         guide.id = 'room-workflow-guide'; guide.open = ['observer','passive'].includes(role) || (!next.observer_id && role === 'therapist');
         guide.append(node('summary', s.workflowTitle));
         const sequence = node('ol', '', 'room-workflow'); sequence.setAttribute('aria-label', s.workflowTitle);
         const titles = self ? s.awarenessSteps : s.workflowSteps;
-        const indices = next.observer_id ? [0,1,2,3] : [0,1,3];
+        const indices = next.observer_id ? [0,1,2,3,4,5] : [0,1,2,4,5];
         indices.forEach((index, number) => {
           const item = node('li');
-          item.append(node('span', String(number + 1), 'room-workflow-number'), node('span', titles[index])); sequence.append(item);
+          const label = node('span', titles[index]);
+          if (index === 5) { item.className = 'room-workflow-rating'; label.append(node('small', s.afterRound)); }
+          item.append(node('span', String(number + 1), 'room-workflow-number'), label); sequence.append(item);
         });
-        guide.append(sequence, node('p', s.workflowNote, 'response-hint')); body.append(guide);
-        const part = node('details'); part.append(node('summary', s.yourPart));
-        const ownSteps = role === 'therapist' ? [3] : role === 'client' ? [1] : role === 'observer' ? [2] : [];
-        ownSteps.forEach(index => part.append(node('p', instructions[index])));
-        if (role === 'client') part.append(node('p', self ? s.reader : s.read));
-        if (['observer','passive'].includes(role)) part.append(node('p', skill.practiceFocus), node('p', skill.commonMiss), node('p', ui.triadGuideBoundary));
+        guide.append(sequence); body.append(guide);
+        const part = node('details'); part.id = 'room-your-part';
+        part.append(node('summary', s.yourPart), node('p', (self ? s.awarenessCue : s.roleCue)[role]));
+        if (['observer','passive'].includes(role)) part.append(node('aside', skill.practiceFocus, 'individual-guide'));
         body.append(part);
-        if (role !== 'client') {
+        if (role === 'therapist') {
           const example = node('details'); example.id = 'room-example';
           example.append(node('summary', s.forRetry), node('p', s.beforeExample));
           const reveal = node('button', s.example, 'ghost-button'); reveal.id = 'room-example-reveal'; reveal.type = 'button';
@@ -235,7 +231,6 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
           });
           example.append(reveal); body.append(example);
         }
-        body.append(node('p', s.listening, 'response-hint'));
       } else if (next.phase === 'round_debrief') {
         body.append(node('h4', s.debrief), node('p', `${next.completed_ids.length} ${s.practiced} · ${next.skipped_ids.length} ${s.passed}`));
         const prompt = role === 'therapist' ? ui.triadDebriefTherapist : ['observer', 'passive'].includes(role) ? ui.triadDebriefObserver
@@ -339,7 +334,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     if (open) dismiss();
     userId = getUser()?.id ?? null; language = getLanguage() ?? 'en'; config = createConfig; creating = null;
     open = true; opening++; busy = false; room = null; contentKey = '';
-    labels(); text('status', ''); el('setup').hidden = false; el('session').hidden = true;
+    labels(); text('status', ''); el('header').hidden = false; el('setup').hidden = false; el('session').hidden = true;
     el('hub').hidden = mode !== 'hub'; el('entry').hidden = mode === 'hub';
     text('title', mode === 'hub' ? strings().hub : strings().title);
     el('resume').hidden = !userId || !read(roomKey());
