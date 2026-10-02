@@ -5,12 +5,13 @@ import {createRoomSync, roomRole, roomEveryoneReady} from './practiceRoomSync.js
 
 const copy = {
   en: {
-    title: 'Group practice', hub: 'Practice together', hubIntro: 'Create a room and invite your group. Choose the skill and case together once everyone is here.', openCreate: 'Create a room', openJoin: 'Join with a code', resume: 'Return to your room', people: 'Room & people', peopleCount: '{count} people', share: 'Share invite', linkCopied: 'Invite link copied', roleOptions: 'Starting role (optional)', choosing: 'Choose what to practice', waitingForHost: 'The host is choosing a skill and case. You can invite others or choose your role while you wait.', choose: 'Choose skill and case', changePractice: 'Change skill or case', leave: 'Leave room', leaveTitle: 'Leave this room?', leaveDescription: 'You can rejoin with the invite. Leaving an active role ends the current round and returns the group to preparation. Saved ratings stay.', leaveWatching: 'The group can continue. You can rejoin with the invite.', endTitle: 'End the room for everyone?', endDescription: 'Everyone leaves this session. Saved ratings stay; unfinished items will not be rated.', cancel: 'Keep practicing', endedNote: 'Saved ratings are kept. Unfinished items are not rated.', interrupted: 'A participant left an active role. Prepare a new round before continuing.', finish: 'Back to library', guide: 'Rating guide', privacy: 'Ratings and privacy', close: 'Library', join: 'Join a group', create: 'Create group room',
-    intro: 'Use your own phones and keep your video call open. The host chooses practice; the observer guides each item, or the therapist in a pair.',
-    code: 'Room code', role: 'Your role', therapist: 'Therapist', client: 'Client', observer: 'Active observer', passive: 'Watching observer', auto: 'Next available role', host: 'Host', you: 'you', changeRole: 'Change role', selfRating: 'Your self-assessment as therapist',
+    title: 'Group practice', hub: 'Practice together', hubIntro: 'Create a room and invite your group. Choose the skill and case together once everyone is here.', openCreate: 'Create a room', openJoin: 'Join with a code', resume: 'Return to your room', people: 'Room & people', peopleCount: '{count} people', share: 'Share invite', linkCopied: 'Invite link copied', roleOptions: 'Starting role (optional)', choosing: 'Choose what to practice', waitingForHost: 'The host is choosing a skill and case. You can invite others or choose your role while you wait.', choose: 'Choose skill and case', changePractice: 'Change skill or case', leave: 'Leave room', leaveTitle: 'Leave this room?', leaveDescription: 'You can rejoin with the invite. Leaving an active role ends the current round and returns the group to preparation. Saved ratings stay.', leaveWatching: 'The group can continue. You can rejoin with the invite.', endTitle: 'End the room for everyone?', endDescription: 'Everyone leaves this session. Saved ratings stay; unfinished items will not be rated.', cancel: 'Keep practicing', endedNote: 'Saved ratings are kept. Unfinished items are not rated.', interrupted: 'A participant left an active role. Prepare a new round before continuing.', finish: 'Back to library', privacy: 'Ratings and privacy', close: 'Library', join: 'Join a group', create: 'Create group room',
+    intro: 'Use your own phones. Keep your video call open for speaking.',
+    createTitle: 'Create a room', joinTitle: 'Join a room', createIntro: 'Invite your group, then choose practice. Keep your video call open.',
+    code: 'Room code', role: 'Your role', therapist: 'Therapist', client: 'Client', observer: 'Active observer', passive: 'Watching observer', auto: 'Next available role', host: 'Host', you: 'you', changeRole: 'Change role', selfRating: 'Your self-assessment',
     consent: 'Ratings assess the therapist’s use of the selected skill. The active observer saves the rating; in pairs the therapist saves a self-assessment. Spoken responses and feedback are not recorded. Roles rotate together after each round.',
     signIn: 'Sign in to join', signInCreate: 'Sign in to create a room', copy: 'Copy room code', copied: 'Code copied',
-    invite: 'Share the invite with your group. Two or more people can practice together. The room lasts eight hours.',
+    invite: 'Invite your group. The room lasts eight hours.',
     waiting: 'Waiting for the therapist, client and active observer to display this step', ready: 'Ready · devices are in sync',
     reconnect: 'Connection interrupted. Reconnecting… The round waits until everyone is up to date.',
     sync: 'Sync now', retry: 'Retry last action', loading: 'Loading the shared round…',
@@ -28,20 +29,25 @@ const copy = {
     finishNext: 'Finish item · next', finishLast: 'Finish item · reflect', forRetry: 'For the retry', beforeExample: 'Try your own response and hear feedback before opening an example.',
     example: 'See an example for the retry', exampleNote: 'An example, not an answer key. Choose one change to try.',
     round: 'Round', item: 'Item', debrief: 'Reflect together', practiced: 'practiced', passed: 'passed',
-    save: 'Save skill rating', saved: 'Skill rating saved to the therapist’s group progress',
-    score: 'Therapist’s use of the selected skill', noItems: 'Every item was passed. No rating will be saved.',
+    reflection: {therapist: 'Which change helped?', client: 'What changed on the retry?', observer: 'One strength. One next practice target.', passive: 'What did you notice about the skill?'},
+    awarenessReflection: {therapist: 'What did you notice? Share only what you choose.', client: 'How did the group respect privacy?', observer: 'One moment of awareness. One gentle next experiment.', passive: 'What helped the therapist notice without pressure?'},
+    derole: 'Step out of role. Say your own names and pause.', nextFocus: 'Choose the next challenge',
+    save: 'Save skill rating', updateRating: 'Update rating', skipRating: 'Continue without rating', skipChanges: 'Continue without changes', saved: 'Saved to the therapist’s progress',
+    ratingPlaceholder: 'Choose a rating', ratingScope: 'Rate only the practiced items.', observerRating: 'The observer rates and starts the next round.', therapistRating: 'The therapist self-assesses and starts the next round.',
+    scoreLabels: ['Not yet demonstrated', 'Emerging with guidance', 'Adequate in parts', 'Well demonstrated', 'Skillfully demonstrated'],
+    score: 'Therapist’s use of the skill', noItems: 'Every item was passed. No rating will be saved.',
     participantWaiting: 'Not joined', participantSyncing: 'Catching up', participantReady: 'Up to date',
-    participantOffline: 'Connection lost', newRoom: 'Join another room',
+    participantOffline: 'Connection lost', newRoom: 'New room',
     failedContent: 'This room uses a different or unavailable content version. Refresh the app and sync again.',
-    scale: '1 = Not yet demonstrated · 2 = Emerging with guidance · 3 = Adequate in parts · 4 = Well demonstrated · 5 = Skillfully demonstrated'
   },
   no: {
-    title: 'Gruppeøving', hub: 'Øv sammen', hubIntro: 'Opprett et rom og inviter gruppen. Velg ferdighet og kasus sammen når alle er her.', openCreate: 'Opprett et rom', openJoin: 'Bli med med kode', resume: 'Tilbake til rommet ditt', people: 'Rom og deltakere', peopleCount: '{count} deltakere', share: 'Del invitasjon', linkCopied: 'Invitasjonslenken er kopiert', roleOptions: 'Startrolle (valgfritt)', choosing: 'Velg hva dere vil øve på', waitingForHost: 'Verten velger ferdighet og kasus. Du kan invitere andre eller velge rolle mens du venter.', choose: 'Velg ferdighet og kasus', changePractice: 'Bytt ferdighet eller kasus', leave: 'Forlat rommet', leaveTitle: 'Forlate dette rommet?', leaveDescription: 'Du kan bli med igjen med invitasjonen. Hvis du har en aktiv rolle, avsluttes runden og gruppen går tilbake til forberedelsene. Lagrede vurderinger beholdes.', leaveWatching: 'Gruppen kan fortsette. Du kan bli med igjen med invitasjonen.', endTitle: 'Avslutte rommet for alle?', endDescription: 'Økten avsluttes for alle. Lagrede vurderinger beholdes; ufullførte utsagn vurderes ikke.', cancel: 'Fortsett å øve', endedNote: 'Lagrede vurderinger beholdes. Ufullførte utsagn vurderes ikke.', interrupted: 'En deltaker forlot en aktiv rolle. Forbered en ny runde før dere fortsetter.', finish: 'Tilbake til biblioteket', guide: 'Vurderingsveiledning', privacy: 'Vurderinger og personvern', close: 'Bibliotek', join: 'Bli med i en gruppe', create: 'Opprett grupperom',
-    intro: 'Bruk hver deres mobil og ha videosamtalen åpen. Verten velger øvingen; observatøren leder hvert utsagn, eller terapeuten i par.',
-    code: 'Romkode', role: 'Din rolle', therapist: 'Terapeut', client: 'Klient', observer: 'Aktiv observatør', passive: 'Observatør som følger med', auto: 'Neste ledige rolle', host: 'Vert', you: 'deg', changeRole: 'Bytt rolle', selfRating: 'Din egenvurdering som terapeut',
+    title: 'Gruppeøving', hub: 'Øv sammen', hubIntro: 'Opprett et rom og inviter gruppen. Velg ferdighet og kasus sammen når alle er her.', openCreate: 'Opprett et rom', openJoin: 'Bli med med kode', resume: 'Tilbake til rommet ditt', people: 'Rom og deltakere', peopleCount: '{count} deltakere', share: 'Del invitasjon', linkCopied: 'Invitasjonslenken er kopiert', roleOptions: 'Startrolle (valgfritt)', choosing: 'Velg hva dere vil øve på', waitingForHost: 'Verten velger ferdighet og kasus. Du kan invitere andre eller velge rolle mens du venter.', choose: 'Velg ferdighet og kasus', changePractice: 'Bytt ferdighet eller kasus', leave: 'Forlat rommet', leaveTitle: 'Forlate dette rommet?', leaveDescription: 'Du kan bli med igjen med invitasjonen. Hvis du har en aktiv rolle, avsluttes runden og gruppen går tilbake til forberedelsene. Lagrede vurderinger beholdes.', leaveWatching: 'Gruppen kan fortsette. Du kan bli med igjen med invitasjonen.', endTitle: 'Avslutte rommet for alle?', endDescription: 'Økten avsluttes for alle. Lagrede vurderinger beholdes; ufullførte utsagn vurderes ikke.', cancel: 'Fortsett å øve', endedNote: 'Lagrede vurderinger beholdes. Ufullførte utsagn vurderes ikke.', interrupted: 'En deltaker forlot en aktiv rolle. Forbered en ny runde før dere fortsetter.', finish: 'Tilbake til biblioteket', privacy: 'Vurderinger og personvern', close: 'Bibliotek', join: 'Bli med i en gruppe', create: 'Opprett grupperom',
+    intro: 'Bruk hver deres mobil. Ha videosamtalen åpen for å snakke sammen.',
+    createTitle: 'Opprett et rom', joinTitle: 'Bli med i et rom', createIntro: 'Inviter gruppen, og velg øving. Ha videosamtalen åpen.',
+    code: 'Romkode', role: 'Din rolle', therapist: 'Terapeut', client: 'Klient', observer: 'Aktiv observatør', passive: 'Observatør som følger med', auto: 'Neste ledige rolle', host: 'Vert', you: 'deg', changeRole: 'Bytt rolle', selfRating: 'Din egenvurdering',
     consent: 'Vurderingen gjelder terapeutens bruk av den valgte ferdigheten. Den aktive observatøren lagrer vurderingen; i par lagrer terapeuten en egenvurdering. Muntlige svar og tilbakemeldinger blir ikke registrert. Rollene roteres sammen etter hver runde.',
     signIn: 'Logg inn for å bli med', signInCreate: 'Logg inn for å opprette et rom', copy: 'Kopier romkode', copied: 'Koden er kopiert',
-    invite: 'Del invitasjonen med gruppen. To eller flere kan øve sammen. Rommet varer i åtte timer.',
+    invite: 'Inviter gruppen. Rommet varer i åtte timer.',
     waiting: 'Venter på at terapeuten, klienten og den aktive observatøren viser dette steget', ready: 'Klar · enhetene er synkronisert',
     reconnect: 'Forbindelsen er brutt. Kobler til igjen… Runden venter til alle er oppdatert.',
     sync: 'Synkroniser nå', retry: 'Prøv siste handling igjen', loading: 'Laster den felles runden…',
@@ -59,12 +65,16 @@ const copy = {
     finishNext: 'Fullfør · neste utsagn', finishLast: 'Fullfør · reflekter', forRetry: 'Til det nye forsøket', beforeExample: 'Prøv din egen respons og lytt til tilbakemelding før du åpner et eksempel.',
     example: 'Se et eksempel før du prøver igjen', exampleNote: 'Et eksempel, ikke en fasit. Velg én endring å prøve.',
     round: 'Runde', item: 'Utsagn', debrief: 'Reflekter sammen', practiced: 'øvd', passed: 'stått over',
-    save: 'Lagre ferdighetsvurdering', saved: 'Ferdighetsvurderingen er lagret i terapeutens gruppefremgang',
-    score: 'Terapeutens bruk av den valgte ferdigheten', noItems: 'Alle utsagn ble stått over. Ingen vurdering lagres.',
+    reflection: {therapist: 'Hvilken endring hjalp?', client: 'Hva endret seg ved det nye forsøket?', observer: 'Én styrke. Ett neste øvingsmål.', passive: 'Hva la du merke til ved ferdigheten?'},
+    awarenessReflection: {therapist: 'Hva la du merke til? Del bare det du selv velger.', client: 'Hvordan ivaretok gruppen privatlivet?', observer: 'Ett øyeblikk med bevissthet. Ett varsomt neste eksperiment.', passive: 'Hva hjalp terapeuten å legge merke til uten press?'},
+    derole: 'Gå ut av rollen. Si deres egne navn og ta en pause.', nextFocus: 'Velg neste utfordring',
+    save: 'Lagre ferdighetsvurdering', updateRating: 'Oppdater vurdering', skipRating: 'Fortsett uten vurdering', skipChanges: 'Fortsett uten endringer', saved: 'Lagret i terapeutens fremgang',
+    ratingPlaceholder: 'Velg en vurdering', ratingScope: 'Vurder bare utsagnene dere har øvd på.', observerRating: 'Observatøren vurderer og starter neste runde.', therapistRating: 'Terapeuten vurderer seg selv og starter neste runde.',
+    scoreLabels: ['Ikke vist ennå', 'På vei med veiledning', 'Tilfredsstillende i deler', 'Godt demonstrert', 'Svært godt demonstrert'],
+    score: 'Terapeutens bruk av ferdigheten', noItems: 'Alle utsagn ble stått over. Ingen vurdering lagres.',
     participantWaiting: 'Ikke med ennå', participantSyncing: 'Henter siste steg', participantReady: 'Oppdatert',
-    participantOffline: 'Mistet forbindelsen', newRoom: 'Bli med i et annet rom',
+    participantOffline: 'Mistet forbindelsen', newRoom: 'Nytt rom',
     failedContent: 'Rommet bruker en annen eller utilgjengelig innholdsversjon. Last appen på nytt og synkroniser igjen.',
-    scale: '1 = Ikke vist ennå · 2 = På vei med veiledning · 3 = Tilfredsstillende i deler · 4 = Godt demonstrert · 5 = Svært godt demonstrert'
   }
 };
 
@@ -93,7 +103,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     <div id="room-session" hidden>
       <p id="room-role-badge" class="triad-role-badge"></p>
       <details id="room-details" class="room-details"><summary><span id="room-people-label"></span><span id="room-people-count"></span></summary>
-        <div class="room-code-row"><strong id="room-share-code"></strong><button id="room-share" class="ghost-button"></button><button id="room-copy" class="ghost-button"></button></div>
+        <div id="room-invite" class="room-code-row"><strong id="room-share-code"></strong><button id="room-share" class="ghost-button"></button><button id="room-copy" class="ghost-button"></button></div>
         <p id="room-invite-note" class="response-hint"></p><ul id="room-members" class="room-members" aria-label="Participants"></ul>
         <form id="room-change-role-form" hidden><label id="room-change-role-label" for="room-change-role"></label><select id="room-change-role"><option value="therapist"></option><option value="client"></option><option value="observer"></option><option value="passive"></option></select><button id="room-change-role-submit" class="ghost-button" type="submit"></button></form>
         <button id="room-sync" class="ghost-button"></button><div class="room-exit-actions"><button id="room-leave" class="ghost-button" hidden></button><button id="room-end" class="ghost-button" hidden></button></div>
@@ -101,10 +111,11 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       <p id="room-sync-status" class="room-sync-status" role="status"></p>
       <div id="room-content"></div><button id="room-choose" class="primary-button" hidden></button>
       <p id="room-error" role="alert"></p>
-      <div id="room-actions" class="room-actions">
+      <div id="room-actions" class="room-actions" hidden>
+        <button id="room-save" class="primary-button" type="submit" form="room-rating-form" hidden></button>
         <button id="room-retry" class="primary-button" hidden></button><button id="room-next" class="primary-button" hidden></button>
         <button id="room-pass" class="ghost-button" hidden></button><button id="room-rotate" class="primary-button" hidden></button>
-        <button id="room-another" class="primary-button" hidden></button>
+        <button id="room-done" class="primary-button" hidden></button><button id="room-another" class="ghost-button" hidden></button>
       </div>
     </div>
   </section>`;
@@ -145,6 +156,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     text('host-role-label', s.role); text('change-role-label', s.role); text('change-role-submit', s.changeRole);
     text('join', getUser() ? s.join : s.signIn); text('create', getUser() ? s.create : s.signInCreate);
     text('another', s.newRoom); text('hub-intro', s.hubIntro); text('open-create', s.openCreate); text('open-join', s.openJoin); text('resume', s.resume);
+    text('done', s.finish);
     text('people-label', s.people); text('share', s.share); text('leave', s.leave); text('invite-note', s.invite); text('role-options', s.roleOptions); text('host-options-label', s.roleOptions); text('privacy', s.privacy);
     el('members').setAttribute('aria-label', language === 'no' ? 'Deltakere' : 'Participants');
   }
@@ -174,11 +186,16 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     const s = strings(), ui = getStrings(language);
     const self = next.skill_id === 'therapist-self-awareness';
     const active = ['practicing','first_attempt','client_feedback','observer_feedback','retry'].includes(next.phase);
-    el('header').hidden = (active || next.phase === 'lobby') && !ended;
+    el('header').hidden = ended || next.phase !== 'choosing';
     const body = el('content');
     text('role-badge', `${s.role}: ${role === 'client' && self ? ui.selfAwarenessReaderRole : s[role]}`);
+    el('role-badge').hidden = ended;
     if (ended) { write(roomKey(), null); text('role-badge', ''); }
-    if (!contentKey || contentKey.split(':')[1] !== next.phase) el('details').open = next.phase === 'choosing';
+    if (!contentKey || contentKey.split(':')[1] !== next.phase) el('details').open = false;
+    if (next.phase === 'choosing' && !ended) {
+      if (el('invite').parentElement !== el('session')) el('details').before(el('invite'));
+    }
+    else if (el('invite').parentElement !== el('details')) el('details').prepend(el('invite'));
     const key = `${next.round_id}:${next.phase}:${next.item_index}:${role}:${next.observer_id ?? 'pair'}:${next.skill_id}:${next.case_id}`;
     // Presence refreshes never rebuild the screen or steal keyboard focus.
     if (key !== contentKey) {
@@ -189,7 +206,8 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       if (next.phase === 'closed' || expired) {
         body.append(node('h3', expired ? s.expired : s.ended), node('p', s.endedNote));
       } else if (next.phase === 'choosing') {
-        body.append(node('h3', s.choosing), node('p', next.host_id === userId ? s.hubIntro : s.waitingForHost));
+        body.append(node('h3', s.choosing));
+        if (next.host_id !== userId) body.append(node('p', s.waitingForHost));
       } else if (next.phase === 'lobby') {
         body.append(node('p', `${s.round} ${next.round_number} · ${s.lobby}`, 'triad-progress'));
         if (next.round_interrupted) body.append(node('p', s.interrupted, 'response-hint'));
@@ -236,28 +254,28 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
           example.append(reveal); body.append(example);
         }
       } else if (next.phase === 'round_debrief') {
-        body.append(node('h4', s.debrief), node('p', `${next.completed_ids.length} ${s.practiced} · ${next.skipped_ids.length} ${s.passed}`));
-        const prompt = role === 'therapist' ? ui.triadDebriefTherapist : ['observer', 'passive'].includes(role) ? ui.triadDebriefObserver
-          : self ? ui.selfAwarenessDebriefClient : ui.triadDebriefClient;
-        body.append(node('p', prompt), node('p', ui.triadDebriefGroup), node('p', ui.triadDerole ?? ''));
+        body.append(node('h4', s.debrief), node('p', `${next.completed_ids.length} ${s.practiced} · ${next.skipped_ids.length} ${s.passed}`, 'triad-progress'));
+        if (next.completed_ids.length) body.append(node('p', (self ? s.awarenessReflection : s.reflection)[role]));
+        body.append(node('p', s.derole, 'response-hint'));
+        const nextFocus = node('details'); nextFocus.append(node('summary', s.nextFocus), node('p', ui.triadDebriefGroup));
         if (userId === (next.observer_id ?? next.therapist_id) && next.completed_ids.length) {
           const form = node('form'); form.id = 'room-rating-form';
           const label = node('label', next.observer_id ? s.score : s.selfRating); label.htmlFor = 'room-score';
           const select = node('select'); select.id = 'room-score';
-          const placeholder = node('option', '—'); placeholder.value = ''; select.append(placeholder); select.required = true;
-          for (let score = 1; score <= 5; score++) { const option = node('option', String(score)); option.value = String(score); select.append(option); }
+          const placeholder = node('option', s.ratingPlaceholder); placeholder.value = ''; select.append(placeholder); select.required = true;
+          for (let score = 1; score <= 5; score++) { const option = node('option', `${score} · ${s.scoreLabels[score - 1]}`); option.value = String(score); select.append(option); }
           select.value = next.saved_score ?? '';
-          const save = node('button', s.save, 'primary-button'); save.id = 'room-save'; save.type = 'submit';
-          const guide = node('details'); guide.append(node('summary', s.guide), node('p', s.scale, 'response-hint'));
-          form.append(label, select, guide, save);
+          select.addEventListener('change', () => updateStatus(sync.status()));
+          form.append(label, select, node('p', s.ratingScope, 'response-hint'));
           form.addEventListener('submit', e => { e.preventDefault(); void sync.command('rate', Number(select.value)); });
           body.append(form);
         } else if (!next.completed_ids.length) body.append(node('p', s.noItems));
-        const saved = node('p'); saved.id = 'room-saved'; saved.setAttribute('role', 'status'); body.append(saved);
+        else body.append(node('p', next.observer_id ? s.observerRating : s.therapistRating, 'response-hint'));
+        const saved = node('p'); saved.id = 'room-saved'; saved.setAttribute('role', 'status'); body.append(nextFocus, saved);
       }
       {
         const heading = body.querySelector('h4') ?? body.querySelector('h3'); if (heading) { heading.tabIndex = -1; heading.focus({preventScroll: true}); }
-        if (active) overlay.scrollIntoView({block: 'start', behavior: 'auto'});
+        if (active || next.phase === 'lobby' || next.phase === 'round_debrief' || ended) overlay.scrollIntoView({block: 'start', behavior: 'auto'});
       }
     }
     if (el('saved')) el('saved').textContent = next.saved_score ? `${s.saved} · ${next.saved_score}/5` : '';
@@ -286,7 +304,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     if (el('members').textContent !== members.map(m => m.textContent).join('')) el('members').replaceChildren(...members);
     text('people-count', ids.length === 1 ? (language === 'no' ? '1 deltaker' : '1 person') : s.peopleCount.replace('{count}', String(ids.length)));
     el('details').hidden = ended;
-    el('sync-status').hidden = ended || (fresh && snapshot.phase === 'choosing');
+    el('sync-status').hidden = ended || (fresh && (snapshot.phase === 'choosing' || (roomEveryoneReady(snapshot) && snapshot.phase !== 'lobby')));
     el('change-role-form').hidden = !['choosing','lobby'].includes(snapshot.phase) || ended;
     for (const option of el('change-role').options) option.disabled = option.value !== 'passive' && !!snapshot[`${option.value}_id`] && snapshot[`${option.value}_id`] !== userId;
     el('change-role-submit').disabled = commanding || !!pending || !fresh;
@@ -305,14 +323,22 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     el('pass').hidden = !controls || !active || !!pending;
     el('pass').disabled = el('next').disabled;
     el('rotate').hidden = !controls || snapshot.phase !== 'round_debrief' || !!pending;
+    const save = el('save'), score = el('score');
+    const unrated = snapshot.completed_ids.length > 0 && !snapshot.saved_score;
+    const changedRating = score && snapshot.saved_score && Number(score.value) !== snapshot.saved_score;
+    text('rotate', unrated ? s.skipRating : changedRating ? s.skipChanges : s.rotate);
+    el('rotate').className = unrated || changedRating ? 'ghost-button' : 'primary-button';
     el('rotate').disabled = el('next').disabled;
     el('end').hidden = !hostControls || !!pending; el('end').disabled = commanding || !fresh;
     el('retry').hidden = !pending; el('retry').disabled = commanding || !fresh;
     el('leave').hidden = hostControls || ended || !!pending; el('leave').disabled = commanding || !fresh;
     el('another').hidden = !ended;
+    el('done').hidden = !ended;
+    save.hidden = !controls || snapshot.phase !== 'round_debrief' || !snapshot.completed_ids.length || (!!snapshot.saved_score && Number(score?.value) === snapshot.saved_score) || !!pending;
+    text('save', snapshot.saved_score ? s.updateRating : s.save);
+    save.disabled = commanding || !!pending || !fresh || !score?.value;
     el('actions').hidden = ![...el('actions').children].some(button => !button.hidden);
     el('sync').hidden = fresh && !error;
-    const save = el('save'); if (save) save.disabled = commanding || !!pending || !fresh;
     el('sync').disabled = commanding;
   }
 
@@ -340,8 +366,10 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     userId = getUser()?.id ?? null; language = getLanguage() ?? 'en'; config = createConfig; creating = null;
     open = true; opening++; busy = false; room = null; contentKey = '';
     labels(); text('status', ''); el('header').hidden = false; el('setup').hidden = false; el('session').hidden = true;
+    el('actions').hidden = true; el('save').hidden = true;
     el('hub').hidden = mode !== 'hub'; el('entry').hidden = mode === 'hub';
-    text('title', mode === 'hub' ? strings().hub : strings().title);
+    text('title', mode === 'hub' ? strings().hub : config ? strings().createTitle : strings().joinTitle);
+    text('intro', config ? strings().createIntro : strings().intro);
     el('resume').hidden = !userId || !read(roomKey());
     el('create').hidden = !config; el('join-form').hidden = !!config;
     el('host-options').hidden = !config;
@@ -379,6 +407,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     });
   }
   el('back').addEventListener('click', () => dismiss());
+  el('done').addEventListener('click', () => dismiss());
   el('join-form').addEventListener('submit', event => {
     event.preventDefault();
     write('dp_group_invite', el('code').value);

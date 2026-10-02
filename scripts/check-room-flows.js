@@ -91,9 +91,12 @@ async (page) => {
             } else room.phase = {first_attempt:'client_feedback',client_feedback:'observer_feedback',observer_feedback:'retry'}[room.phase];
           } else if (args.input_action === 'rate') {room.saved_score = args.input_score; saves++;}
           else if (args.input_action === 'rotate') {
-            const queue=[room.therapist_id,room.client_id,room.observer_id,...room.member_ids.filter(id=>![room.therapist_id,room.client_id,room.observer_id].includes(id))];
-            queue.unshift(queue.pop());[room.therapist_id,room.client_id,room.observer_id]=queue;
-            room.phase='lobby';room.item_index=0;room.round_number++;room.round_id='round-two';room.completed_ids=[];room.skipped_ids=[];room.saved_score=null;
+            if(!room.observer_id)[room.therapist_id,room.client_id]=[room.client_id,room.therapist_id];
+            else {
+              const queue=[room.therapist_id,room.client_id,room.observer_id,...room.member_ids.filter(id=>![room.therapist_id,room.client_id,room.observer_id].includes(id))];
+              queue.unshift(queue.pop());[room.therapist_id,room.client_id,room.observer_id]=queue;
+            }
+            room.phase='lobby';room.item_index=0;room.round_number++;room.round_id='round-'+room.round_number;room.completed_ids=[];room.skipped_ids=[];room.saved_score=null;
           } else if (args.input_action === 'close') room.phase='closed';
           room.version++; data = args.input_action === 'leave' ? {left:true} : snapshot();
           if (lostResponse) {lostResponse = false; status = 503; data = {message: 'Response lost after commit'};}
@@ -112,8 +115,13 @@ async (page) => {
   const syncAll = async () => { for (let i=0;i<2;i++) for (const p of pages) {if(await p.locator('#room-session').isVisible())await click(p,'room-sync');} for(const p of pages)if(await p.locator('#room-session').isVisible() && !(disconnectClient && p===pages[2]))await p.waitForFunction(version=>Number(document.getElementById('room-panel').dataset.version)>=version,room.version,{timeout:15000}); };
   try {
     await click(o,'group-create');
+    assert((await o.locator('#room-title').textContent()).includes('Create'),'Entry heading matches the create action');
+    assert(await o.locator('#room-panel').evaluate(e=>parseFloat(getComputedStyle(e).paddingBottom)<48),'Room entry does not reserve space for a hidden action bar');
+    await o.screenshot({path:'output/playwright/room-create-mobile.png',fullPage:true});
     await o.locator('#room-host-options summary').click();await o.locator('#room-host-role').selectOption('observer');await click(o,'room-create');
     await o.locator('#room-share-code').waitFor();
+    assert(await o.locator('#room-details').evaluate(e=>!e.open),'Setup keeps the roster and administration folded away');
+    assert(await o.locator('#room-invite').isVisible(),'Setup keeps invitation controls visible');
     assert(await o.locator('#room-next').isDisabled(),'Cannot start with missing members');
     assert(await o.locator('#app-title').isVisible(),'Group remains in the normal app shell');
     assert(await o.locator('#room-panel').getAttribute('role') !== 'dialog','Room is an ordinary app panel');
@@ -124,6 +132,9 @@ async (page) => {
     }
     assert(room.phase==='choosing'&&!room.skill_id,'Create and join before selecting practice');
     assert((await t.locator('#room-content').textContent()).includes('host is choosing'),'Members see that the host is choosing');
+    await syncAll();await o.locator('#room-copy').focus();await syncAll();
+    assert(await o.evaluate(()=>document.activeElement.id==='room-copy'),'Setup polling preserves focus on invite controls');
+    await o.screenshot({path:'output/playwright/room-choosing-mobile.png',fullPage:true});
     await click(o,'room-choose');assert(await o.locator('#group-selection-context').isVisible(),'Library identifies selection on behalf of group');
     await o.locator('[data-skill-id="empathic-understanding"]').click();await o.locator('[data-case-id="case-sara"]').click();
     assert(await o.locator('#practice-format').isHidden(),'Host selection does not offer a conflicting local practice format');
@@ -198,9 +209,25 @@ async (page) => {
     assert(await t.locator('.room-example-text').count()===0,'New item clears the previous example');
     for (let i=0;i<2;i++) {await enabled(o,'room-pass');o.once('dialog',d=>d.accept());await click(o,'room-pass');await syncAll();}
     assert(room.phase==='round_debrief'&&room.completed_ids.length===1&&room.skipped_ids.length===2,'Passed items excluded');
+    assert(await o.locator('#room-header').isHidden(),'Reflection keeps the focused room layout');
+    assert(await o.locator('#room-save').isVisible()&&await o.locator('#room-save').isDisabled(),'Saving is the primary rating action, disabled until a score is selected');
+    assert((await o.locator('#room-rotate').textContent()).includes('without rating'),'Skipping a rating is explicit');
+    assert((await o.locator('#room-score option[value="4"]').textContent()).includes('Well demonstrated'),'Rating choices explain the scale');
+    assert(await t.locator('#room-save').isHidden()&&await t.locator('#room-rotate').isHidden(),'Other roles have no rater controls');
+    await o.setViewportSize({width:320,height:700});
+    const saveAction=await o.locator('#room-save').boundingBox();assert(saveAction.y+saveAction.height<=700&&saveAction.height>=44,'Saving is reachable at the bottom of a 320px phone');
+    const scoreField=await o.locator('#room-score').boundingBox(), ratingActions=await o.locator('#room-actions').boundingBox();assert(scoreField.y+scoreField.height<=ratingActions.y,'The rating field fits above the fixed actions at 320px');
+    assert(await o.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),'Rating has no narrow-screen overflow');
+    await o.screenshot({path:'output/playwright/room-rating-320.png',fullPage:true});await o.setViewportSize({width:390,height:844});
+    await o.screenshot({path:'output/playwright/room-rating-mobile.png',fullPage:true});await t.screenshot({path:'output/playwright/room-reflection-mobile.png',fullPage:true});
     await o.locator('#room-score').selectOption('4'); await click(o,'room-save'); await syncAll();
     assert(saves===1&&room.saved_score===4,'One observer rating saved');
     assert((await t.locator('#room-saved').textContent()).includes('4/5'),'Therapist sees confirmation');
+    await o.waitForFunction(()=>document.getElementById('room-save').hidden);
+    assert((await o.locator('#room-rotate').textContent()).includes('Next round'),'Next round becomes primary after saving');
+    await o.locator('#room-score').selectOption('5');assert((await o.locator('#room-save').textContent()).includes('Update'),'Editing a saved score offers an explicit update');
+    assert((await o.locator('#room-rotate').textContent()).includes('without changes'),'Continuing with an edited rating clearly leaves the saved score unchanged');
+    await click(o,'room-save');await syncAll();assert(saves===2&&room.saved_score===5,'A saved rating can still be updated');
     await enabled(o,'room-rotate'); await click(o,'room-rotate'); await syncAll();
     assert(await o.locator('#room-next').isHidden(),'Host does not keep exercise controls after observer role rotates');
     assert(await c.locator('#room-next').isVisible(),'The new observer receives exercise controls');
@@ -208,10 +235,13 @@ async (page) => {
     assert(await watcher2.locator('.room-statement').count()===0,'A new therapist receives only their role screen');
     await o.locator('#room-details summary').click();await click(o,'room-end');assert(await o.locator('#room-exit-overlay').isVisible(),'Ending is confirmed inside the app');await click(o,'room-exit-cancel');assert(room.phase==='lobby','Cancel keeps room open');await click(o,'room-end');await click(o,'room-exit-confirm');await o.waitForFunction(()=>document.getElementById('room-panel').dataset.phase==='closed');await syncAll();
     assert((await t.locator('#room-content').textContent()).includes('has ended'),'End propagates to all');
+    assert(await o.locator('#room-role-badge').isHidden(),'Ended rooms have no empty role pill');
+    assert((await o.locator('#room-done').textContent()).includes('library'),'Ended rooms have a clear return action');
+    await o.screenshot({path:'output/playwright/room-ended-mobile.png',fullPage:true});
     for (const p of pages) {
       await p.setViewportSize({width:320,height:700});
       assert(await p.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),'No 320px overflow');
-      await click(p,'room-back');
+      await click(p,'room-done');
     }
     // Self-awareness reader prompts retain the disclosure boundary, in Norwegian.
     if(await o.locator('#back-to-cases').isVisible()) await o.locator('#back-to-cases').click();
@@ -249,7 +279,7 @@ async (page) => {
     assert(room.version===leavingVersion,'Reload replays leave without changing the round twice');
     await syncAll();
     await o.locator('#room-details summary').click();await click(o,'room-end');await click(o,'room-exit-confirm');await o.waitForFunction(()=>document.getElementById('room-panel').dataset.phase==='closed');await syncAll();
-    for(const p of pages)if(await p.locator('#room-session').isVisible())await click(p,'room-back');
+    for(const p of pages)if(await p.locator('#room-session').isVisible())await click(p,'room-done');
     // Pairs omit observer coaching, keep feedback per item and rate once at the end.
     await click(o,'group-create');await o.locator('#room-host-options summary').click();await o.locator('#room-host-role').selectOption('therapist');await click(o,'room-create');
     await t.evaluate(()=>{for(const key of Object.keys(localStorage))if(key.startsWith('dp_shared_room:'))localStorage.removeItem(key);});
@@ -269,11 +299,25 @@ async (page) => {
       await enabled(o,'room-next');await click(o,'room-next');await syncAll();
     }
     assert((await o.locator('#room-rating-form').textContent()).includes('egenvurdering'),'Pair ends with therapist self-assessment');
+    const pairScoreField=await o.locator('#room-score').boundingBox(), pairRatingActions=await o.locator('#room-actions').boundingBox();assert(pairScoreField.y+pairScoreField.height<=pairRatingActions.y,'Norwegian pair rating fits above the phone actions');
+    await o.screenshot({path:'output/playwright/room-pair-rating-no-320.png',fullPage:true});
     await o.locator('#room-score').selectOption('4');await click(o,'room-save');await syncAll();
-    assert(saves===2,'Pair saves one rating for three completed items');
+    assert(saves===3,'Pair saves one rating for three completed items');
+    await enabled(o,'room-rotate');await click(o,'room-rotate');await syncAll();
+    assert(room.therapist_id==='t'&&await t.locator('#room-next').isVisible(),'Pair rotation transfers the guide controls');
+    await enabled(t,'room-next');await click(t,'room-next');await syncAll();
+    await enabled(t,'room-next');await click(t,'room-next');await syncAll();
+    for(let i=0;i<2;i++){await enabled(t,'room-pass');t.once('dialog',d=>d.accept());await click(t,'room-pass');await syncAll();}
+    assert((await t.locator('#room-rotate').textContent()).includes('uten vurdering'),'Pair can explicitly continue without a rating');
+    await enabled(t,'room-rotate');await click(t,'room-rotate');await syncAll();assert(saves===3&&room.phase==='lobby','Skipping preserves previous ratings and does not invent a score');
+    await enabled(o,'room-next');await click(o,'room-next');await syncAll();
+    for(let i=0;i<3;i++){await enabled(o,'room-pass');o.once('dialog',d=>d.accept());await click(o,'room-pass');await syncAll();}
+    assert(await o.locator('#room-save').isHidden()&&await o.locator('#room-rating-form').count()===0,'All-passed rounds have no rating form or save action');
+    assert(!(await o.locator('#room-rotate').textContent()).includes('uten vurdering'),'All-passed rounds offer the normal next round action');
+    await o.screenshot({path:'output/playwright/room-all-passed-no-320.png',fullPage:true});
     await o.locator('#room-details summary').click();await click(o,'room-end');await click(o,'room-exit-confirm');await o.waitForFunction(()=>document.getElementById('room-panel').dataset.phase==='closed');await syncAll();
     // A setup cancelled before its configuration is ready cannot create a room.
-    await click(o,'room-back');
+    await click(o,'room-done');
     await o.evaluate(async () => {
       document.getElementById('room-panel').remove();document.getElementById('room-exit-overlay').remove();
       const {createPracticeRoomView}=await import('/deliberatepractice/src/js/practiceRoom.js');
@@ -290,6 +334,6 @@ async (page) => {
     await o.waitForTimeout(200);
     assert(creations===beforeCanceledCreation,'Cancelled room setup must not create a room later');
     assert(errors.length===0,errors.join('\n'));
-    return {passed:true,participants:5,checks:['minimal role-specific preparation','preparation controls survive polling','pair preparation and readiness messaging','empty room creation and join','host chooses practice in library','six-step workflow including opening and round rating','concise role screens without redundant navigation','pair five-step workflow and round self-assessment','controls follow rotated observer','uncertain preparation retry','phone exercise visibility and bottom action','in-app end confirmation','leave cancellation and lost-response reload','watching observers','offline spectators do not stall','watching observer rotates into therapist','role screens','acknowledgement barrier','lost response and reload','offline recovery','rating and passes','rotation','320px','Norwegian self-awareness']};
+    return {passed:true,participants:5,checks:['entry headings and hidden toolbar spacing','invitation focus during polling','rating save/update/explicit skip','narrow-screen rating visibility','pair guide transfer and all-passed rounds','clear ended-room navigation','minimal role-specific preparation','preparation controls survive polling','pair preparation and readiness messaging','empty room creation and join','host chooses practice in library','six-step workflow including opening and round rating','concise role screens without redundant navigation','pair five-step workflow and round self-assessment','controls follow rotated observer','uncertain preparation retry','phone exercise visibility and bottom action','in-app end confirmation','leave cancellation and lost-response reload','watching observers','offline spectators do not stall','watching observer rotates into therapist','role screens','acknowledgement barrier','lost response and reload','offline recovery','rating and passes','rotation','320px','Norwegian self-awareness']};
   } finally {for(const context of contexts)await context.close();}
 }

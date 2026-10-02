@@ -2121,7 +2121,12 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 .room-statement { font-size: 1.1rem; margin: 1rem 0; }
 .room-actions { margin: .5rem 0 0; }
 .room-actions button, #room-choose, #room-save { min-height: 48px; }
-#room-next, #room-rotate, #room-retry, .room-actions > #room-choose { flex: 1; }
+#room-next, #room-save, #room-done, #room-rotate, #room-retry, .room-actions > #room-choose { flex: 1; }
+#room-rating-form { margin-top: .75rem; }
+#room-rating-form p { margin: 0; }
+.room-panel[data-phase="round_debrief"] #room-content > p { margin: .5rem 0; }
+#room-saved:empty { display: none; }
+.room-dialog > #room-session > .room-code-row { padding: .75rem; border: 1px solid var(--color-border); border-radius: .75rem; }
 #room-pass { flex: 0 1 auto; font-size: .9rem; }
 .room-exit-modal h2 { margin: 0; font-size: 1.3rem; }
 .room-exit-modal p { line-height: 1.6; margin: 0; }
@@ -2129,10 +2134,14 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 @media (max-width: 640px) {
   .room-panel { padding: 1rem; }
   .room-panel:has(#room-actions:not([hidden])) { padding-bottom: calc(6rem + env(safe-area-inset-bottom)); }
+  .room-panel:has(#room-save:not([hidden])) { padding-bottom: calc(9rem + env(safe-area-inset-bottom)); }
   .room-actions { position: fixed; bottom: 0; left: 0; right: 0; z-index: 20; background: #f7faf8;
     border-top: 1px solid var(--color-border); padding: .65rem .9rem max(.65rem, env(safe-area-inset-bottom)); gap: .5rem; }
   .room-actions > button { width: auto; }
-  #room-next, #room-rotate, #room-retry, #room-another { flex: 1 1 0; font-size: .9rem; }
+  #room-next, #room-save, #room-done, #room-rotate, #room-retry { flex: 1 1 0; font-size: .9rem; }
+  #room-another { flex: 0 1 auto; }
+  .room-actions:has(#room-save:not([hidden])) { display: grid; grid-template-columns: 1fr; }
+  .room-actions:has(#room-save:not([hidden])) #room-rotate { min-height: 44px; padding: .45rem; box-shadow: none; border-color: transparent; }
   #room-pass { flex: 0 1 auto; padding-left: .75rem; padding-right: .75rem; }
   #room-change-role-form { grid-template-columns: 1fr; }
   .group-selection-context { flex-wrap: wrap; }
