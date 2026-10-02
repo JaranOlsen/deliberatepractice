@@ -210,8 +210,20 @@ async (page) => {
       await p.evaluate(()=>document.getElementById('room-panel').scrollIntoView({block:'start'}));
     }
     assert(await c.locator('#room-example').count()===0,'Client never gets example controls');
-    await t.locator('#room-example summary').click();await click(t,'room-example-reveal');
+    assert(await t.locator('#room-your-part .room-role-step:nth-child(3) #room-example').count()===1,'Optional example belongs to the therapist retry action');
+    assert(await t.locator('#room-content > #room-example').count()===0,'No detached retry panel below the workflow');
+    await click(t,'room-example-reveal');
     assert(await t.locator('.room-example-text').isVisible(),'Therapist may deliberately open an example for the spoken retry');
+    assert(await t.locator('#room-example-reveal').getAttribute('aria-expanded')==='true','Example reveal communicates expanded state');
+    await t.setViewportSize({width:320,height:700});
+    assert(await t.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),'Inline retry example has no 320px overflow');
+    await t.locator('#room-example').screenshot({path:'output/playwright/room-retry-example-en-320.png'});
+    await t.locator('#room-example-reveal').press('Enter');
+    assert(await t.locator('.room-example-text').isHidden(),'Therapist can hide the example using the keyboard');
+    await t.locator('#room-example-reveal').press('Enter');
+    assert(await t.locator('.room-example-text').isVisible(),'Therapist can reopen the example');
+    await t.setViewportSize({width:390,height:844});
+    await t.locator('#room-your-part').screenshot({path:'output/playwright/room-retry-card-mobile.png'});
     await o.screenshot({path:'output/playwright/room-observer-workflow-mobile.png',fullPage:true});
     await t.screenshot({path:'output/playwright/room-therapist-mobile.png',fullPage:true});
     await c.screenshot({path:'output/playwright/room-client-mobile.png',fullPage:true});
@@ -290,6 +302,12 @@ async (page) => {
     assert((await o.locator('#room-your-part').textContent()).includes('uten tolkning eller press'),'Self-awareness coaching avoids interpretation or disclosure pressure');
     for(const [p,role] of [[o,'observer'],[t,'therapist'],[c,'reader']]){
       await p.locator('#room-your-part summary').click();
+      if(p===t){
+        await click(p,'room-example-reveal');
+        assert((await p.locator('#room-example-reveal').textContent()).includes('Skjul'),'Norwegian example control has a hide label');
+        await p.locator('#room-your-part').screenshot({path:'output/playwright/room-retry-card-no-320.png'});
+        await click(p,'room-example-reveal');
+      }
       await p.screenshot({path:`output/playwright/room-your-part-${role}-no-320.png`,fullPage:true});
       await p.locator('#room-your-part summary').click();
       await p.evaluate(()=>document.getElementById('room-panel').scrollIntoView({block:'start'}));

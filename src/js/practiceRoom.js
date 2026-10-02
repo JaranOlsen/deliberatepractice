@@ -38,8 +38,8 @@ const copy = {
       passive: {preview: 'Watch · respect boundaries', steps: [['Watch', 'Notice how the therapist pauses and attends to their reaction.'], ['Boundaries', 'Respect what stays private. Leave coaching to the active observer.']]}
     },
     awarenessCue: {therapist: 'Notice your reaction; you do not need to respond to the client. Share only what you choose.', client: 'Read, then step out of role. Reflect on the pause; respect what stays private.', observer: 'Notice one strength. Suggest a gentle experiment without interpreting or asking for disclosure.', passive: 'Listen to the process. Respect what the therapist keeps private.'},
-    finishNext: 'Finish item · next', finishLast: 'Finish item · reflect', forRetry: 'For the retry', beforeExample: 'Try your own response and hear feedback before opening an example.',
-    example: 'See an example for the retry', exampleNote: 'An example, not an answer key. Choose one change to try.',
+    finishNext: 'Finish item · next', finishLast: 'Finish item · reflect', beforeExample: 'Optional, after your own attempt and feedback.',
+    example: 'See an example', hideExample: 'Hide example', exampleNote: 'An example, not an answer key. Choose one change to try.',
     round: 'Round', item: 'Item', debrief: 'Reflect together', practiced: 'practiced', passed: 'passed',
     reflection: {therapist: 'Which change helped?', client: 'What changed on the retry?', observer: 'One strength. One next practice target.', passive: 'What did you notice about the skill?'},
     awarenessReflection: {therapist: 'What did you notice? Share only what you choose.', client: 'How did the group respect privacy?', observer: 'One moment of awareness. One gentle next experiment.', passive: 'What helped the therapist notice without pressure?'},
@@ -86,8 +86,8 @@ const copy = {
       passive: {preview: 'Følg med · respekter grenser', steps: [['Følg med', 'Legg merke til hvordan terapeuten stopper opp og merker egen reaksjon.'], ['Grenser', 'Respekter det som holdes privat. La den aktive observatøren veilede.']]}
     },
     awarenessCue: {therapist: 'Merk din reaksjon; du trenger ikke svare klienten. Del bare det du selv velger.', client: 'Les, og gå så ut av rollen. Reflekter over pausen; respekter det som holdes privat.', observer: 'Legg merke til én styrke. Foreslå et varsomt eksperiment uten å tolke eller be om utlevering.', passive: 'Lytt til prosessen. Respekter det terapeuten holder privat.'},
-    finishNext: 'Fullfør · neste utsagn', finishLast: 'Fullfør · reflekter', forRetry: 'Til det nye forsøket', beforeExample: 'Prøv din egen respons og lytt til tilbakemelding før du åpner et eksempel.',
-    example: 'Se et eksempel før du prøver igjen', exampleNote: 'Et eksempel, ikke en fasit. Velg én endring å prøve.',
+    finishNext: 'Fullfør · neste utsagn', finishLast: 'Fullfør · reflekter', beforeExample: 'Valgfritt, etter eget forsøk og tilbakemelding.',
+    example: 'Se et eksempel', hideExample: 'Skjul eksempelet', exampleNote: 'Et eksempel, ikke en fasit. Velg én endring å prøve.',
     round: 'Runde', item: 'Utsagn', debrief: 'Reflekter sammen', practiced: 'øvd', passed: 'stått over',
     reflection: {therapist: 'Hvilken endring hjalp?', client: 'Hva endret seg ved det nye forsøket?', observer: 'Én styrke. Ett neste øvingsmål.', passive: 'Hva la du merke til ved ferdigheten?'},
     awarenessReflection: {therapist: 'Hva la du merke til? Del bare det du selv velger.', client: 'Hvordan ivaretok gruppen privatlivet?', observer: 'Ett øyeblikk med bevissthet. Ett varsomt neste eksperiment.', passive: 'Hva hjalp terapeuten å legge merke til uten press?'},
@@ -291,24 +291,26 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
         const steps = node('dl', '', 'room-role-steps');
         const roleSteps = [...roleGuide.steps];
         if (!next.observer_id && role === 'therapist') roleSteps.push(s.pairGuide);
-        roleSteps.forEach(([title, instruction]) => {
-          const step = node('div', '', 'room-role-step'); step.append(node('dt', title), node('dd', instruction)); steps.append(step);
+        roleSteps.forEach(([title, instruction], index) => {
+          const step = node('div', '', 'room-role-step'), detail = node('dd', instruction);
+          if (role === 'therapist' && index === 2) {
+            const example = node('div', '', 'room-retry-example'); example.id = 'room-example';
+            const reveal = node('button', s.example, 'ghost-button'); reveal.id = 'room-example-reveal'; reveal.type = 'button';
+            reveal.setAttribute('aria-expanded', 'false'); reveal.setAttribute('aria-controls', 'room-example-response');
+            const response = node('div'); response.id = 'room-example-response'; response.hidden = true;
+            reveal.addEventListener('click', () => {
+              if (!response.childElementCount) response.append(node('p', s.exampleNote, 'response-hint'), node('p', statement.suggestion, 'room-example-text'));
+              response.hidden = !response.hidden;
+              reveal.textContent = response.hidden ? s.example : s.hideExample;
+              reveal.setAttribute('aria-expanded', String(!response.hidden));
+            });
+            example.append(node('p', s.beforeExample, 'response-hint'), reveal, response); detail.append(example);
+          }
+          step.append(node('dt', title), detail); steps.append(step);
         });
         guideBody.append(steps); part.append(guideBody);
         if (['observer','passive'].includes(role) || (!next.observer_id && role === 'therapist')) body.append(guide, part);
         else body.append(part, guide);
-        if (role === 'therapist') {
-          const example = node('details'); example.id = 'room-example';
-          example.append(node('summary', s.forRetry), node('p', s.beforeExample));
-          const reveal = node('button', s.example, 'ghost-button'); reveal.id = 'room-example-reveal'; reveal.type = 'button';
-          reveal.addEventListener('click', () => {
-            if (!example.querySelector('.room-example-text')) {
-              example.append(node('p', s.exampleNote, 'response-hint'), node('p', statement.suggestion, 'room-example-text'));
-            }
-            reveal.hidden = true;
-          });
-          example.append(reveal); body.append(example);
-        }
       } else if (next.phase === 'round_debrief') {
         body.append(node('h4', s.debrief), node('p', `${next.completed_ids.length} ${s.practiced} · ${next.skipped_ids.length} ${s.passed}`, 'triad-progress'));
         if (next.completed_ids.length) body.append(node('p', (self ? s.awarenessReflection : s.reflection)[role]));
