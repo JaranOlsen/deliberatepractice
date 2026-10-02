@@ -3,7 +3,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -15,7 +15,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -27,7 +27,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -39,7 +39,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -51,7 +51,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -63,7 +63,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -75,7 +75,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -87,7 +87,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -99,7 +99,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -111,7 +111,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -119,13 +119,37 @@
       ],
       "text": "[Flau] Hvis jeg lar noen se hele rotet, ser jeg for meg at de stille ønsker at jeg skal slutte.",
       "suggestion": "En del av deg vil at noen skal se hvor vondt det er, og en annen del forventer at de ønsker at du skal stoppe. Følg draget mellom å ville bli sett og å vente avvisning."
+    },
+    {
+      "id": "dp_empathic-explorations_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[På gråten] Jeg hadde noe morsomt å fortelle ham på bussen. Et øyeblikk glemte jeg at vi ikke er sammen. Det triste kom da jeg husket det.",
+      "suggestion": "Tristheten kommer når du husker at du ikke kan fortelle ham det. Kan vi stoppe litt opp ved hvordan det treffer deg nå?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Mykt] Søsteren min sa ikke at jeg måtte komme meg videre. Hun bare ble. Jeg ble lettet, og tror det er mer ved det enn det.",
+      "suggestion": "Det er en lettelse i at hun bare blir. Gi den lettelsen litt tid og se hva mer du merker."
     }
   ],
   "case-michael": [
     {
       "id": "dp_empathic-explorations_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -137,7 +161,7 @@
     {
       "id": "dp_empathic-explorations_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -149,7 +173,7 @@
     {
       "id": "dp_empathic-explorations_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -161,7 +185,7 @@
     {
       "id": "dp_empathic-explorations_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -173,7 +197,7 @@
     {
       "id": "dp_empathic-explorations_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -185,7 +209,7 @@
     {
       "id": "dp_empathic-explorations_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -197,7 +221,7 @@
     {
       "id": "dp_empathic-explorations_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -209,7 +233,7 @@
     {
       "id": "dp_empathic-explorations_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -221,7 +245,7 @@
     {
       "id": "dp_empathic-explorations_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -233,7 +257,7 @@
     {
       "id": "dp_empathic-explorations_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -241,13 +265,37 @@
       ],
       "text": "[Sårbar] Jeg vil at sønnen min skal føle seg trygg rundt meg, og jeg vet ikke hvordan jeg skal si det uten å høres svak ut.",
       "suggestion": "Du vil så sterkt at han skal være trygg, og bare å si det ønsket kommer borti den gamle svakhetsregelen. La selve ønsket få et øyeblikk før regelen lukker seg rundt det."
+    },
+    {
+      "id": "dp_empathic-explorations_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Lavmælt] Sønnen min spurte om jeg kom på kampen. Jeg sa ja, men måten han spurte på gjorde meg trist. Som om han ikke helt kunne regne med det.",
+      "suggestion": "Det er tristhet i å høre den usikkerheten fra ham. Hvordan er det å la deg selv merke den her, uten å ordne opp med en gang?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Frustrert, så nølende] Jeg var rasende over korrigeringen. Så oppdaget jeg at jeg også var skuffet over meg selv. Det er vanskeligere å snakke om.",
+      "suggestion": "Skuffelsen over deg selv er vanskeligere å nærme seg. Vi kan ta det rolig og utforske akkurat det du kan sette ord på."
     }
   ],
   "case-jason": [
     {
       "id": "dp_empathic-explorations_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -259,7 +307,7 @@
     {
       "id": "dp_empathic-explorations_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -271,7 +319,7 @@
     {
       "id": "dp_empathic-explorations_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -283,7 +331,7 @@
     {
       "id": "dp_empathic-explorations_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -295,7 +343,7 @@
     {
       "id": "dp_empathic-explorations_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -307,7 +355,7 @@
     {
       "id": "dp_empathic-explorations_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -319,7 +367,7 @@
     {
       "id": "dp_empathic-explorations_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -331,7 +379,7 @@
     {
       "id": "dp_empathic-explorations_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -343,7 +391,7 @@
     {
       "id": "dp_empathic-explorations_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -355,7 +403,7 @@
     {
       "id": "dp_empathic-explorations_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -363,13 +411,37 @@
       ],
       "text": "[Stille og skamfull] Jeg følte meg ensom på søndag, men jeg ignorerte også to meldinger.",
       "suggestion": "Ensomheten og tilbaketrekkingen sitter side om side. Hold deg nær ensomheten som er der, selv mens meldingene blir stående ubesvart."
+    },
+    {
+      "id": "dp_empathic-explorations_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Stille glad] De spurte om jeg ville bli med igjen. Jeg ble glad da jeg leste det. Så begynte jeg å bekymre meg for hva jeg skulle si.",
+      "suggestion": "Før bekymringen kom, var det den gleden. Kan vi gi den litt plass og merke hvordan det var å bli invitert igjen?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Nølende] Jeg skulle ønske vennen min ventet på meg etter møtet. Jeg innrømmer vanligvis ikke slike ønsker. Det kjennes litt trist å si det.",
+      "suggestion": "Det kommer litt tristhet når du sier at du ønsket at han skulle vente. Du trenger ikke forklare den bort. Vi kan lytte til hvordan den kjennes."
     }
   ],
   "case-laura": [
     {
       "id": "dp_empathic-explorations_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -381,7 +453,7 @@
     {
       "id": "dp_empathic-explorations_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -393,7 +465,7 @@
     {
       "id": "dp_empathic-explorations_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -405,7 +477,7 @@
     {
       "id": "dp_empathic-explorations_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -417,7 +489,7 @@
     {
       "id": "dp_empathic-explorations_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -429,7 +501,7 @@
     {
       "id": "dp_empathic-explorations_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -441,7 +513,7 @@
     {
       "id": "dp_empathic-explorations_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -453,7 +525,7 @@
     {
       "id": "dp_empathic-explorations_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -465,7 +537,7 @@
     {
       "id": "dp_empathic-explorations_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -477,7 +549,7 @@
     {
       "id": "dp_empathic-explorations_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -485,13 +557,37 @@
       ],
       "text": "[Langsomt og flatt] Jeg unngår filmer med slåssing fordi jeg ikke vil finne ut hva ett eneste rop gjør med meg.",
       "suggestion": "Å unngå filmen beskytter deg mot å finne ut hva ett eneste rop kan sette i gang. Det kan være hjelpsomt å stoppe ved det å ikke ville finne det ut."
+    },
+    {
+      "id": "dp_empathic-explorations_case-laura_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Lavmælt, overrasket] Venninnen min satte mat utenfor døra. Jeg trengte ikke slippe henne inn eller snakke. Jeg ble rørt, og det overrasket meg.",
+      "suggestion": "Du ble rørt av å bli tatt vare på uten å måtte slippe henne inn. Vi kan gi litt plass til den følelsen, akkurat slik den er."
+    },
+    {
+      "id": "dp_empathic-explorations_case-laura_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[På vakt, med en pause] Jeg vil ikke se ham igjen. Jeg ble likevel trist da han sa han hadde sluttet å spørre. De to tingene passer liksom ikke sammen.",
+      "suggestion": "Du ønsker ikke kontakt, og blir trist over at han sluttet å spørre. Begge deler er her. Kan vi gi tristheten litt plass uten å gjøre den til en beslutning om å møte ham?"
     }
   ],
   "case-carlos": [
     {
       "id": "dp_empathic-explorations_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -503,7 +599,7 @@
     {
       "id": "dp_empathic-explorations_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -515,7 +611,7 @@
     {
       "id": "dp_empathic-explorations_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -527,7 +623,7 @@
     {
       "id": "dp_empathic-explorations_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -539,7 +635,7 @@
     {
       "id": "dp_empathic-explorations_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -551,7 +647,7 @@
     {
       "id": "dp_empathic-explorations_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -563,7 +659,7 @@
     {
       "id": "dp_empathic-explorations_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -575,7 +671,7 @@
     {
       "id": "dp_empathic-explorations_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -587,7 +683,7 @@
     {
       "id": "dp_empathic-explorations_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -599,7 +695,7 @@
     {
       "id": "dp_empathic-explorations_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -607,13 +703,37 @@
       ],
       "text": "[Redd] Når jeg begynner å føle meg liten i en krangel, slår panikken inn, og jeg må gjøre meg større fort.",
       "suggestion": "Å føle deg liten gir panikk, og så kommer presset om å gjøre deg større fort. Det første øyeblikket av litenhet kan senkes i tempo før den større holdningen tar over."
+    },
+    {
+      "id": "dp_empathic-explorations_case-carlos_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Lavmælt] Datteren min lente seg inntil meg da vi så på TV. Jeg sa ingenting. Jeg var glad for at hun ble der. Jeg blir glad igjen når jeg sier det nå.",
+      "suggestion": "Gleden er her igjen mens du forteller. Gi deg selv et øyeblikk til å kjenne hvordan det var at hun ble så nær."
+    },
+    {
+      "id": "dp_empathic-explorations_case-carlos_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Sint, så langsommere] Han sa vitsen foran alle. Jeg lo med. Etterpå ble jeg såret, og det er vanskeligere å innrømme enn sinne.",
+      "suggestion": "Såretheten er vanskeligere å vise enn sinnet. Vi kan gi plass til bare så mye av den som du vil ta med hit."
     }
   ],
   "case-nina": [
     {
       "id": "dp_empathic-explorations_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -625,7 +745,7 @@
     {
       "id": "dp_empathic-explorations_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -637,7 +757,7 @@
     {
       "id": "dp_empathic-explorations_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -649,7 +769,7 @@
     {
       "id": "dp_empathic-explorations_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -661,7 +781,7 @@
     {
       "id": "dp_empathic-explorations_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -673,7 +793,7 @@
     {
       "id": "dp_empathic-explorations_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -685,7 +805,7 @@
     {
       "id": "dp_empathic-explorations_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -697,7 +817,7 @@
     {
       "id": "dp_empathic-explorations_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -709,7 +829,7 @@
     {
       "id": "dp_empathic-explorations_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -721,7 +841,7 @@
     {
       "id": "dp_empathic-explorations_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -729,13 +849,37 @@
       ],
       "text": "[Sliten] Ved leggetid vet jeg ikke om jeg er trist, sint eller bare helt brukt opp.",
       "suggestion": "Ved leggetid er tristhet, sinne og utmattelse filtret sammen. Floken kan få være der litt før vi prøver å finne én tråd."
+    },
+    {
+      "id": "dp_empathic-explorations_case-nina_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[På gråten, smiler] Kollegaen min sa jeg ikke måtte gjøre meg fortjent til en fri ettermiddag. Jeg lo, men ville gråte. Det var en lettelse å høre det.",
+      "suggestion": "Du kjente lettelse over å ikke måtte gjøre deg fortjent til hvilen. Kan vi stoppe litt ved den lettelsen før smilet tar oss videre?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nina_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Lavmælt] Jeg ble sint da de tok for gitt at jeg skulle ordne alt igjen. Så fikk jeg skyldfølelse. Også nå kommer skylden før jeg får sagt ferdig at jeg var sint.",
+      "suggestion": "Skylden kommer så fort at sinnet knapt får en hel setning. Vi kan stoppe opp og la deg fullføre den setningen, uten at du trenger å handle på den."
     }
   ],
   "case-aisha": [
     {
       "id": "dp_empathic-explorations_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -747,7 +891,7 @@
     {
       "id": "dp_empathic-explorations_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -759,7 +903,7 @@
     {
       "id": "dp_empathic-explorations_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -771,7 +915,7 @@
     {
       "id": "dp_empathic-explorations_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -783,7 +927,7 @@
     {
       "id": "dp_empathic-explorations_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -795,7 +939,7 @@
     {
       "id": "dp_empathic-explorations_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -807,7 +951,7 @@
     {
       "id": "dp_empathic-explorations_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -819,7 +963,7 @@
     {
       "id": "dp_empathic-explorations_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -831,7 +975,7 @@
     {
       "id": "dp_empathic-explorations_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -843,7 +987,7 @@
     {
       "id": "dp_empathic-explorations_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -851,13 +995,37 @@
       ],
       "text": "[Såret] Hvis du avlyser, sier en del av meg at jeg ikke skal komme tilbake, samtidig som en annen del vil spørre når du er her igjen.",
       "suggestion": "Begge delene dukker opp rundt avlysningen: delen som vil forsvinne, og delen som trenger å vite at du fortsatt har en plass her. Hvor kjenner du den splittelsen sterkest?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-aisha_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Mykere, følger med på terapeuten] Jeg var sint fordi du ikke var enig med meg. Jeg er fortsatt sint. Men også trist over at jeg så gjerne ville at du skulle være enig.",
+      "suggestion": "Sinnet er fortsatt her, og tristheten kommer ved siden av. Vi kan bruke litt tid på den tristheten uten å kreve at sinnet skal forsvinne."
+    },
+    {
+      "id": "dp_empathic-explorations_case-aisha_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Lavmælt, urolig] Jeg ble lettet da hun sa hun skulle ringe i morgen. Så klarte jeg ikke glede meg over det. Men litt av lettelsen er der fortsatt.",
+      "suggestion": "Litt lettelse er fortsatt tilgjengelig, selv med uroen. Kan vi merke bare den lille lettelsen uten å bestemme hva morgendagen vil bringe?"
     }
   ],
   "case-david": [
     {
       "id": "dp_empathic-explorations_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -869,7 +1037,7 @@
     {
       "id": "dp_empathic-explorations_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -881,7 +1049,7 @@
     {
       "id": "dp_empathic-explorations_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -893,7 +1061,7 @@
     {
       "id": "dp_empathic-explorations_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -905,7 +1073,7 @@
     {
       "id": "dp_empathic-explorations_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -917,7 +1085,7 @@
     {
       "id": "dp_empathic-explorations_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -929,7 +1097,7 @@
     {
       "id": "dp_empathic-explorations_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -941,7 +1109,7 @@
     {
       "id": "dp_empathic-explorations_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -953,7 +1121,7 @@
     {
       "id": "dp_empathic-explorations_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -965,7 +1133,7 @@
     {
       "id": "dp_empathic-explorations_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -973,13 +1141,37 @@
       ],
       "text": "[Kontrollert] Når noen kaller arbeidet mitt fint, hører jeg ordinært, og jeg klarer ikke å slippe det.",
       "suggestion": "«Fint» lander som ordinært, og ordinært blir vanskelig å tåle. Hva merker du i øyeblikket før du må bevise mer?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-david_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Behersket, senker stemmen] Jeg ble glad da de ba meg bli etter møtet. Ikke for råd. Bare for å ta noe å drikke sammen. Jeg pleier ikke si at det betyr noe.",
+      "suggestion": "Det betydde noe å være ønsket som selskap. Vi kan være der et øyeblikk, før du må forklare eller bagatellisere det."
+    },
+    {
+      "id": "dp_empathic-explorations_case-david_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Lavmælt, på vakt] Datteren min sier hun savner meg selv når jeg er hjemme. Jeg ble trist av å høre det. Så begynte jeg å forklare hvor mye press jeg står under.",
+      "suggestion": "Du merket tristhet før du gikk over til forklaringen. Kan vi vende tilbake til akkurat det øyeblikket da du hørte at hun savner deg?"
     }
   ],
   "case-marcus": [
     {
       "id": "dp_empathic-explorations_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -991,7 +1183,7 @@
     {
       "id": "dp_empathic-explorations_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -1003,7 +1195,7 @@
     {
       "id": "dp_empathic-explorations_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -1015,7 +1207,7 @@
     {
       "id": "dp_empathic-explorations_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -1027,7 +1219,7 @@
     {
       "id": "dp_empathic-explorations_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -1039,7 +1231,7 @@
     {
       "id": "dp_empathic-explorations_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -1051,7 +1243,7 @@
     {
       "id": "dp_empathic-explorations_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -1063,7 +1255,7 @@
     {
       "id": "dp_empathic-explorations_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -1075,7 +1267,7 @@
     {
       "id": "dp_empathic-explorations_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -1087,7 +1279,7 @@
     {
       "id": "dp_empathic-explorations_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -1095,6 +1287,30 @@
       ],
       "text": "[Flatt] Når folk sier at jeg ikke burde være så mye alene, sier jeg at det er bedre sånn, men jeg blir gående og tenke på det etterpå.",
       "suggestion": "Å si at det er bedre sånn beskytter deg mot noe, og tanken følger likevel med videre. Hva merker du etter at du har sagt det?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-marcus_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Lavmælt] Jeg hørte yndlingssangen hans. Vanligvis slår jeg av. Denne gangen lyttet jeg litt. Ble trist. Ikke alt på en gang.",
+      "suggestion": "Litt tristhet kom mens du lyttet. Vi kan gi akkurat den lille biten plass. Vi trenger ikke hele historien."
+    },
+    {
+      "id": "dp_empathic-explorations_case-marcus_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[På vakt, med en pause] Jeg ble lettet da du ikke presset på for mer. Er det fortsatt. Vanskelig å si det til noen.",
+      "suggestion": "Det er en lettelse i at jeg ga deg rom. Vi kan gi den følelsen et øyeblikk uten å be deg si mer enn du vil."
     }
   ]
 }

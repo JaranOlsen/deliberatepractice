@@ -3,7 +3,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -15,7 +15,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -27,7 +27,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -39,7 +39,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -51,7 +51,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -63,7 +63,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -75,7 +75,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -87,7 +87,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -99,7 +99,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -111,7 +111,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -119,13 +119,37 @@
       ],
       "text": "[Bekymret] Hvordan er dette annerledes enn å fortelle bruddet om igjen til jeg selv blir lei av å høre det?",
       "suggestion": "Her forteller vi det ikke bare på nytt. Vi senker tempoet i historien for å finne stedene som sitter fast, fordi de øyeblikkene viser hva som fortsatt trenger trøst, mening eller en ny respons."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Usikker] Noen uker gråter jeg mer her, og andre uker gjør jeg ikke det. Hvordan skal vi vite om dette hjelper, utover hvor følelsesladet det blir?",
+      "suggestion": "Du vil kunne kjenne igjen endring utover tårene. I dette arbeidet ser vi på om du forstår bedre hva du føler og trenger, og møter deg selv med mindre selvbebreidelse. Vi kan avtale tegn som er viktige for deg, og vurdere dem sammen. Målet er ikke å bli mer følelsesladet."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Nysgjerrig] Hvis jeg vet at bruddet er grunnen til at jeg er lei meg, hva mer prøver vi å finne ut ved å være i følelsen?",
+      "suggestion": "Det er viktig å vite hva som utløser det. Å være i følelsen kan hjelpe oss å skille savnet etter ham fra selvbebreidelsen, så vi kan møte hvert av dem på en mer hjelpsom måte. Vi kan prøve med ett lite øyeblikk, hvis du vil."
     }
   ],
   "case-michael": [
     {
       "id": "dp_providing-treatment-rationale_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -137,7 +161,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -149,7 +173,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -161,7 +185,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -173,7 +197,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -185,7 +209,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -197,7 +221,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -209,7 +233,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -221,7 +245,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -233,7 +257,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -241,13 +265,37 @@
       ],
       "text": "[Flau] Hva skal jeg gjøre hvis jeg ikke er god på følelser og ikke har ord?",
       "suggestion": "Du trenger ikke ha flytende følelsesspråk for å begynne. Kjeve, bryst, varme, ett behov - de konkrete tegnene betyr noe fordi de gjør arbeidet praktisk og holder det under din kontroll."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Skeptisk] Jeg må slutte å glefse. Hvordan hjelper det hjemme at jeg forteller deg at jeg ble flau i et møte?",
+      "suggestion": "Du vil ha en endring du kan bruke hjemme. Å merke flauheten før den blir til sinne, kan hjelpe deg å oppdage reaksjonen tidligere og velge hvordan du vil svare, i stedet for bare å kjempe mot sinnet etterpå. Vi kan begynne med et håndterlig øyeblikk du velger."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Praktisk] Kan vi ikke avtale en regel for krangler? Hvis jeg har en regel, kan jeg følge den. Følelser virker ikke særlig pålitelige.",
+      "suggestion": "En regel kan være nyttig. Vi ser også på hva som skjer når kritikk treffer, fordi forståelse av reaksjonen kan gjøre det lettere å bruke regelen når du trenger den mest. Vi kan holde det konkret og sjekke hva du har nytte av."
     }
   ],
   "case-jason": [
     {
       "id": "dp_providing-treatment-rationale_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -259,7 +307,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -271,7 +319,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -283,7 +331,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -295,7 +343,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -307,7 +355,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -319,7 +367,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -331,7 +379,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -343,7 +391,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -355,7 +403,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -363,13 +411,37 @@
       ],
       "text": "[Stille] Hvorfor øve på øyekontakt når det kjennes som folk kan se alt som er galt med meg?",
       "suggestion": "Vi tvinger ikke øyekontakt. Korte, valgte øyeblikk kan lære alarmen at det å bli sett kan tåles, og er noe annet enn å bli avslørt."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Bekymret] Når du ber meg merke en følelse, begynner jeg å sjekke om jeg gjør det riktig. Blir ikke det bare mer av det samme problemet?",
+      "suggestion": "Den sjekkingen er viktig informasjon, ikke en mislykket øvelse. Vi kan legge merke til selve presset, uten å kreve en bestemt følelse, og øve på å være oppmerksom uten å dømme så mye."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Nølende] Jeg kan snakke om et møte etterpå. Men når jeg faktisk sitter der, blir jeg helt blank. Hva øver vi på her som kan hjelpe der?",
+      "suggestion": "Du vil at dette skal hjelpe i de vanskelige øyeblikkene. Her kan vi rolig merke hva som skjer rett før du blir blank, så du lettere kan kjenne det igjen uten straks å dømme deg selv. Du kan velge hvor vi begynner."
     }
   ],
   "case-laura": [
     {
       "id": "dp_providing-treatment-rationale_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -381,7 +453,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -393,7 +465,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -405,7 +477,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -417,7 +489,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -429,7 +501,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -441,7 +513,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -453,7 +525,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -465,7 +537,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -477,7 +549,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -485,13 +557,37 @@
       ],
       "text": "[Bekymret] Hva om jeg fryser her inne og du bare sitter og venter på et svar?",
       "suggestion": "Da blir frysingen selve arbeidet. Vi pauser, jorder og setter ord på det som skjer, fordi det lærer systemet ditt at nedstenging kan møtes trygt, ikke presses."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-laura_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flatt] Jeg bruker arbeidsdagen på å hjelpe folk å mestre. Jeg forstår ikke hvorfor det er bedre å snakke om det som gjør vondt enn å lære å håndtere det.",
+      "suggestion": "Mestring er viktig, og den skal vi ikke ta fra deg. Vi kan også nærme oss litt av det nummenheten holder på avstand, slik at mestring ikke må bety å være avskåret fra alt du føler. Du kan velge hvor mye vi nærmer oss."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-laura_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[På vakt] Du sier vi ikke må snakke om fortiden. Hvordan kan dette da virke hvis det er fortiden som er problemet med meg?",
+      "suggestion": "Vi trenger ikke gjenfortelle vonde hendelser for å begynne. Vi kan arbeide med hvordan nærhet eller nummenhet kjennes her, i små doser du velger, og finne ut hva som hjelper deg å være til stede nå."
     }
   ],
   "case-carlos": [
     {
       "id": "dp_providing-treatment-rationale_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -503,7 +599,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -515,7 +611,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -527,7 +623,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -539,7 +635,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -551,7 +647,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -563,7 +659,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -575,7 +671,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -587,7 +683,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -599,7 +695,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -607,13 +703,37 @@
       ],
       "text": "[Defensiv] Hvordan unngår vi at dette blir årevis med prat mens familien min venter?",
       "suggestion": "Vi holder det fokusert ved å sikte på tennpunktene som gjør mest skade, og så sjekke om du fanger, roer og reparerer dem raskere hjemme."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-carlos_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Skeptisk] Når du spør hvordan sinnet kjennes, tror jeg du ber meg hisse meg mer opp. Det er akkurat det jeg prøver å slutte med.",
+      "suggestion": "Du vil unngå å miste kontrollen. Vi kan nærme oss sinnet i små doser og merke hva som utløser det, uten å handle på det, så du får flere valg før det tar over."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-carlos_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Bestemt] Jeg vil ikke bruke en time på å synes synd på meg selv. Jeg vil at familien min skal slutte å være redd for meg.",
+      "suggestion": "Familiens trygghet er målet. Å forstå såretheten eller trusselen rundt sinnet kan hjelpe deg å oppdage det tidligere og svare uten å skremme. Det unnskylder ikke at de blir redde. Vi kan nærme oss det uten å presse deg lenger enn du klarer."
     }
   ],
   "case-nina": [
     {
       "id": "dp_providing-treatment-rationale_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -625,7 +745,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -637,7 +757,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -649,7 +769,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -661,7 +781,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -673,7 +793,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -685,7 +805,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -697,7 +817,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -709,7 +829,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -721,7 +841,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -729,13 +849,37 @@
       ],
       "text": "[Sliten] Hvordan skal jeg vite at dette faktisk hjelper og ikke bare gjør meg mer selvopptatt?",
       "suggestion": "Konkrete tegn vil vise det: å spørre med mindre unnskyldning, hvile med mindre straff og sette grenser uten å viske ut deg selv. De tegnene betyr noe fordi målet er omsorg som varer, ikke selvopptatthet."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nina_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Unnskyldende] Jeg kan snakke om hva jeg trenger i en hel time. Så går jeg hjem, og alle trenger fortsatt noe. Hva ville egentlig vært annerledes?",
+      "suggestion": "Å sette ord på behovene fjerner ikke kravene. Det kan hjelpe deg å kjenne egne grenser før utmattelsen gjør alle valg vanskeligere, slik at omsorg for andre også kan romme omsorg for deg selv. Vi kan begynne med en situasjon du ønsker å forstå."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nina_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Bekymret] Hvis vi gir plass til irritasjonen min, blir jeg ikke bare mindre omsorgsfull? Det å være til nytte er noe jeg faktisk verdsetter.",
+      "suggestion": "Vi kan respektere hvor viktig omsorg er for deg. Å lytte til irritasjonen kan hjelpe deg å merke når du har gitt mer enn du tåler, i stedet for at den bygger seg opp til omsorg kjennes umulig. Vi kan lytte til bare litt av den om gangen."
     }
   ],
   "case-aisha": [
     {
       "id": "dp_providing-treatment-rationale_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -747,7 +891,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -759,7 +903,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -771,7 +915,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -783,7 +927,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -795,7 +939,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -807,7 +951,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -819,7 +963,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -831,7 +975,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -843,7 +987,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -851,13 +995,37 @@
       ],
       "text": "[Mistenksom] Hver grense fra en terapeut høres ut som avstand, så hvorfor skulle jeg stole på dette?",
       "suggestion": "Vi jobber direkte med den frykten. Jeg forklarer rammen, inviterer deg til å si hvordan den virker på deg, og reparerer bommer, slik at gjentatt forutsigbar kontakt kan gjøre at grenser kjennes mindre som forlatelse."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-aisha_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Intenst] Jeg kan navngi alle følelsene. Det hindrer meg ikke i å få panikk når noen blir stille. Hva skal egentlig skje etter at jeg har satt navn på den?",
+      "suggestion": "Å sette navn på den er bare begynnelsen. Vi kan arbeide rolig med panikken og det du trenger i øyeblikket, så du ikke bare beskriver den eller desperat prøver å få noen andre til å fjerne den."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-aisha_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Skeptisk, redd] Hvis vi øver på å være i frykten her, betyr det at du lærer meg å godta at folk forlater meg?",
+      "suggestion": "Behovet ditt for kontakt betyr noe. Målet er å forstå frykten og det du trenger, så panikken ikke må bestemme alle handlinger. Vi kan nærme oss den i et tempo du velger; vi prøver ikke å fjerne behovet ditt for andre."
     }
   ],
   "case-david": [
     {
       "id": "dp_providing-treatment-rationale_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -869,7 +1037,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -881,7 +1049,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -893,7 +1061,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -905,7 +1073,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -917,7 +1085,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -929,7 +1097,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -941,7 +1109,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -953,7 +1121,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -965,7 +1133,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -973,13 +1141,37 @@
       ],
       "text": "[Kontrollert] Hvordan vet jeg at dette er verdt det og ikke bare enda et innsiktsprosjekt?",
       "suggestion": "Vi bruker konkrete markører fordi innsikt alene ikke er nok: mindre nedstenging i vanskelige samtaler, raskere reparasjon når du bommer, og mer rom til å være til stede når skammen blir truffet."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-david_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Kjølig] Jeg kan forklare barndommen min helt fint. Det har ikke endret noe. Hvorfor skulle enda en samtale om følelser være annerledes?",
+      "suggestion": "Du vil ha mer enn enda en forklaring. Målet er å merke hva som skjer i deg mens du snakker, så vi kan møte smerten i øyeblikket fremfor bare å forklare den etterpå. Vi kan prøve en liten bit og sjekke hvordan det er for deg."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-david_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[På vakt] Hvis jeg lar deg se hvor mye kritikken traff, hva hindrer at dette blir en øvelse i å sette meg på plass?",
+      "suggestion": "Å bli gjort liten er nettopp det du ikke vil. Målet er å forstå det såre under behovet for å forsvare deg, uten å ta fra deg verdigheten. Du kan si fra når arbeidet kjennes nedverdigende."
     }
   ],
   "case-marcus": [
     {
       "id": "dp_providing-treatment-rationale_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -991,7 +1183,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1003,7 +1195,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1015,7 +1207,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1027,7 +1219,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1039,7 +1231,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1051,7 +1243,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1063,7 +1255,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1075,7 +1267,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1087,7 +1279,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1095,6 +1287,30 @@
       ],
       "text": "[Langsomt og flatt] Hva om jeg aldri føler meg normal igjen, og denne flatheten bare er den jeg er nå?",
       "suggestion": "Vi jager ikke en perfekt normal. Vi bygger mot mer søvn, mindre nedstenging og trygg kontakt, som er tegn på at følelser og nærhet kan komme tilbake i doser du tåler."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-marcus_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flatt] Det hjalp ikke å fortelle historien før. Jeg fikk bare ikke sove. Det gjør jeg ikke igjen.",
+      "suggestion": "Du har grunn til å være forsiktig. Vi kan begynne med det som skjer her nå, uten å gjenfortelle hendelsene, og holde arbeidet lite nok til at du kan være til stede og velge om du vil fortsette."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-marcus_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[På vakt] Nummenheten lar meg komme meg gjennom dagen. Hvorfor skulle jeg ønske at du fjerner det som holder meg gående?",
+      "suggestion": "Vi skal ikke prøve å ta beskyttelsen fra deg. Målet er å finne øyeblikk der du kan kjenne litt uten å miste fotfestet, så nummenhet ikke trenger å være den eneste veien gjennom dagen."
     }
   ]
 }

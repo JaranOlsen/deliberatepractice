@@ -447,7 +447,7 @@ function buildContentInventory(registry, registrySummary, benchmarkSummary) {
 }
 
 const VALIDATION_LEGITIMACY_CUE_PATTERN =
-  /(of course|makes .*sense|no wonder|understandably|anyone would|sorry that happened|fits with|reasonable|legitimate|illegitimate|belongs to|can feel|can look like|can sound|has been treated|has meant|has protected|not proof|not a character flaw|trying to protect|trying to prevent|shows how much|matters to you|clear moral charge|grows out of)/i;
+  /(of course|makes .*sense|no wonder|understandabl[ey]|anyone would|sorry that happened|fits with|reasonable|legitimate|illegitimate|belongs to|can feel|can look like|can sound|has been treated|has meant|has protected|not proof|not a character flaw|trying to protect|trying to prevent|shows how much|matters to you|clear moral charge|grows out of)/i;
 
 function lintSkillPurity(skillId, suggestion) {
   const text = `${suggestion ?? ""}`.trim();
@@ -474,7 +474,7 @@ function lintSkillPurity(skillId, suggestion) {
   }
   if (
     skillId === "providing-treatment-rationale" &&
-    !/(because|helps|in this|we go|we can|so that|learning|lets|allows|teach|build|turn|update|refine|target|goal|practice|map|learn)/i.test(text)
+    !/(because|\bhelps?\b|in this|we go|we can|so that|learning|lets|allows|teach|build|turn|update|refine|target|goal|\baim\b|practice|map|learn)/i.test(text)
   ) {
     warnings.push("treatment_rationale_missing_explanatory_language");
   }

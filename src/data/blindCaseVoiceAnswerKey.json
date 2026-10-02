@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-26T23:06:20.687Z",
-  "revision": "2026-03-07-v1",
+  "generatedAt": "2026-10-02T18:34:37.094Z",
+  "revision": "2026-10-02-v2",
   "packets": [
     {
       "packetId": "therapist-self-awareness__sara-vs-nina",
@@ -35,16 +35,16 @@
           "caseId": "case-carlos",
           "caseLabel": "Carlos (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_therapist-self-awareness_case-carlos_05",
-          "order": 5
+          "itemId": "dp_therapist-self-awareness_case-carlos_06",
+          "order": 6
         },
         {
           "blindLabel": "B",
           "caseId": "case-michael",
           "caseLabel": "Michael (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_therapist-self-awareness_case-michael_05",
-          "order": 5
+          "itemId": "dp_therapist-self-awareness_case-michael_06",
+          "order": 6
         }
       ]
     },
@@ -58,16 +58,16 @@
           "caseId": "case-laura",
           "caseLabel": "Laura (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_therapist-self-awareness_case-laura_09",
-          "order": 9
+          "itemId": "dp_therapist-self-awareness_case-laura_11",
+          "order": 11
         },
         {
           "blindLabel": "B",
           "caseId": "case-marcus",
           "caseLabel": "Marcus (Hard)",
           "difficulty": "hard",
-          "itemId": "dp_therapist-self-awareness_case-marcus_09",
-          "order": 9
+          "itemId": "dp_therapist-self-awareness_case-marcus_11",
+          "order": 11
         }
       ]
     },
@@ -81,16 +81,16 @@
           "caseId": "case-nina",
           "caseLabel": "Nina (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_empathic-understanding_case-nina_05",
-          "order": 5
+          "itemId": "dp_empathic-understanding_case-nina_06",
+          "order": 6
         },
         {
           "blindLabel": "B",
           "caseId": "case-sara",
           "caseLabel": "Sara (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_empathic-understanding_case-sara_05",
-          "order": 5
+          "itemId": "dp_empathic-understanding_case-sara_06",
+          "order": 6
         }
       ]
     },
@@ -104,16 +104,16 @@
           "caseId": "case-michael",
           "caseLabel": "Michael (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_empathic-understanding_case-michael_09",
-          "order": 9
+          "itemId": "dp_empathic-understanding_case-michael_11",
+          "order": 11
         },
         {
           "blindLabel": "B",
           "caseId": "case-carlos",
           "caseLabel": "Carlos (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_empathic-understanding_case-carlos_09",
-          "order": 9
+          "itemId": "dp_empathic-understanding_case-carlos_11",
+          "order": 11
         }
       ]
     },
@@ -150,16 +150,16 @@
           "caseId": "case-sara",
           "caseLabel": "Sara (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_empathic-affirmation-validation_case-sara_09",
-          "order": 9
+          "itemId": "dp_empathic-affirmation-validation_case-sara_11",
+          "order": 11
         },
         {
           "blindLabel": "B",
           "caseId": "case-nina",
           "caseLabel": "Nina (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_empathic-affirmation-validation_case-nina_09",
-          "order": 9
+          "itemId": "dp_empathic-affirmation-validation_case-nina_11",
+          "order": 11
         }
       ]
     },
@@ -196,16 +196,16 @@
           "caseId": "case-laura",
           "caseLabel": "Laura (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_empathic-affirmation-validation_case-laura_05",
-          "order": 5
+          "itemId": "dp_empathic-affirmation-validation_case-laura_06",
+          "order": 6
         },
         {
           "blindLabel": "B",
           "caseId": "case-marcus",
           "caseLabel": "Marcus (Hard)",
           "difficulty": "hard",
-          "itemId": "dp_empathic-affirmation-validation_case-marcus_05",
-          "order": 5
+          "itemId": "dp_empathic-affirmation-validation_case-marcus_06",
+          "order": 6
         }
       ]
     },
@@ -242,16 +242,16 @@
           "caseId": "case-michael",
           "caseLabel": "Michael (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_exploratory-questions_case-michael_05",
-          "order": 5
+          "itemId": "dp_exploratory-questions_case-michael_06",
+          "order": 6
         },
         {
           "blindLabel": "B",
           "caseId": "case-carlos",
           "caseLabel": "Carlos (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_exploratory-questions_case-carlos_05",
-          "order": 5
+          "itemId": "dp_exploratory-questions_case-carlos_06",
+          "order": 6
         }
       ]
     },
@@ -265,16 +265,16 @@
           "caseId": "case-marcus",
           "caseLabel": "Marcus (Hard)",
           "difficulty": "hard",
-          "itemId": "dp_exploratory-questions_case-marcus_09",
-          "order": 9
+          "itemId": "dp_exploratory-questions_case-marcus_11",
+          "order": 11
         },
         {
           "blindLabel": "B",
           "caseId": "case-laura",
           "caseLabel": "Laura (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_exploratory-questions_case-laura_09",
-          "order": 9
+          "itemId": "dp_exploratory-questions_case-laura_11",
+          "order": 11
         }
       ]
     },
@@ -288,16 +288,16 @@
           "caseId": "case-sara",
           "caseLabel": "Sara (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_providing-treatment-rationale_case-sara_05",
-          "order": 5
+          "itemId": "dp_providing-treatment-rationale_case-sara_06",
+          "order": 6
         },
         {
           "blindLabel": "B",
           "caseId": "case-nina",
           "caseLabel": "Nina (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_providing-treatment-rationale_case-nina_05",
-          "order": 5
+          "itemId": "dp_providing-treatment-rationale_case-nina_06",
+          "order": 6
         }
       ]
     },
@@ -311,16 +311,16 @@
           "caseId": "case-carlos",
           "caseLabel": "Carlos (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_providing-treatment-rationale_case-carlos_09",
-          "order": 9
+          "itemId": "dp_providing-treatment-rationale_case-carlos_11",
+          "order": 11
         },
         {
           "blindLabel": "B",
           "caseId": "case-michael",
           "caseLabel": "Michael (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_providing-treatment-rationale_case-michael_09",
-          "order": 9
+          "itemId": "dp_providing-treatment-rationale_case-michael_11",
+          "order": 11
         }
       ]
     },
@@ -357,16 +357,16 @@
           "caseId": "case-nina",
           "caseLabel": "Nina (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_empathic-explorations_case-nina_09",
-          "order": 9
+          "itemId": "dp_empathic-explorations_case-nina_11",
+          "order": 11
         },
         {
           "blindLabel": "B",
           "caseId": "case-sara",
           "caseLabel": "Sara (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_empathic-explorations_case-sara_09",
-          "order": 9
+          "itemId": "dp_empathic-explorations_case-sara_11",
+          "order": 11
         }
       ]
     },
@@ -403,16 +403,16 @@
           "caseId": "case-marcus",
           "caseLabel": "Marcus (Hard)",
           "difficulty": "hard",
-          "itemId": "dp_empathic-explorations_case-marcus_05",
-          "order": 5
+          "itemId": "dp_empathic-explorations_case-marcus_06",
+          "order": 6
         },
         {
           "blindLabel": "B",
           "caseId": "case-laura",
           "caseLabel": "Laura (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_empathic-explorations_case-laura_05",
-          "order": 5
+          "itemId": "dp_empathic-explorations_case-laura_06",
+          "order": 6
         }
       ]
     },
@@ -449,16 +449,16 @@
           "caseId": "case-carlos",
           "caseLabel": "Carlos (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_empathic-evocations_case-carlos_05",
-          "order": 5
+          "itemId": "dp_empathic-evocations_case-carlos_06",
+          "order": 6
         },
         {
           "blindLabel": "B",
           "caseId": "case-michael",
           "caseLabel": "Michael (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_empathic-evocations_case-michael_05",
-          "order": 5
+          "itemId": "dp_empathic-evocations_case-michael_06",
+          "order": 6
         }
       ]
     },
@@ -472,16 +472,16 @@
           "caseId": "case-laura",
           "caseLabel": "Laura (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_empathic-evocations_case-laura_09",
-          "order": 9
+          "itemId": "dp_empathic-evocations_case-laura_11",
+          "order": 11
         },
         {
           "blindLabel": "B",
           "caseId": "case-marcus",
           "caseLabel": "Marcus (Hard)",
           "difficulty": "hard",
-          "itemId": "dp_empathic-evocations_case-marcus_09",
-          "order": 9
+          "itemId": "dp_empathic-evocations_case-marcus_11",
+          "order": 11
         }
       ]
     },
@@ -495,16 +495,16 @@
           "caseId": "case-nina",
           "caseLabel": "Nina (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_empathic-conjectures_case-nina_05",
-          "order": 5
+          "itemId": "dp_empathic-conjectures_case-nina_06",
+          "order": 6
         },
         {
           "blindLabel": "B",
           "caseId": "case-sara",
           "caseLabel": "Sara (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_empathic-conjectures_case-sara_05",
-          "order": 5
+          "itemId": "dp_empathic-conjectures_case-sara_06",
+          "order": 6
         }
       ]
     },
@@ -518,16 +518,16 @@
           "caseId": "case-michael",
           "caseLabel": "Michael (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_empathic-conjectures_case-michael_09",
-          "order": 9
+          "itemId": "dp_empathic-conjectures_case-michael_11",
+          "order": 11
         },
         {
           "blindLabel": "B",
           "caseId": "case-carlos",
           "caseLabel": "Carlos (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_empathic-conjectures_case-carlos_09",
-          "order": 9
+          "itemId": "dp_empathic-conjectures_case-carlos_11",
+          "order": 11
         }
       ]
     },
@@ -564,16 +564,16 @@
           "caseId": "case-sara",
           "caseLabel": "Sara (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_staying-in-contact-intense-affect_case-sara_09",
-          "order": 9
+          "itemId": "dp_staying-in-contact-intense-affect_case-sara_11",
+          "order": 11
         },
         {
           "blindLabel": "B",
           "caseId": "case-nina",
           "caseLabel": "Nina (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_staying-in-contact-intense-affect_case-nina_09",
-          "order": 9
+          "itemId": "dp_staying-in-contact-intense-affect_case-nina_11",
+          "order": 11
         }
       ]
     },
@@ -610,16 +610,16 @@
           "caseId": "case-laura",
           "caseLabel": "Laura (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_staying-in-contact-intense-affect_case-laura_05",
-          "order": 5
+          "itemId": "dp_staying-in-contact-intense-affect_case-laura_06",
+          "order": 6
         },
         {
           "blindLabel": "B",
           "caseId": "case-marcus",
           "caseLabel": "Marcus (Hard)",
           "difficulty": "hard",
-          "itemId": "dp_staying-in-contact-intense-affect_case-marcus_05",
-          "order": 5
+          "itemId": "dp_staying-in-contact-intense-affect_case-marcus_06",
+          "order": 6
         }
       ]
     },
@@ -656,16 +656,16 @@
           "caseId": "case-michael",
           "caseLabel": "Michael (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_self-disclosure_case-michael_05",
-          "order": 5
+          "itemId": "dp_self-disclosure_case-michael_06",
+          "order": 6
         },
         {
           "blindLabel": "B",
           "caseId": "case-carlos",
           "caseLabel": "Carlos (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_self-disclosure_case-carlos_05",
-          "order": 5
+          "itemId": "dp_self-disclosure_case-carlos_06",
+          "order": 6
         }
       ]
     },
@@ -679,16 +679,16 @@
           "caseId": "case-marcus",
           "caseLabel": "Marcus (Hard)",
           "difficulty": "hard",
-          "itemId": "dp_self-disclosure_case-marcus_09",
-          "order": 9
+          "itemId": "dp_self-disclosure_case-marcus_11",
+          "order": 11
         },
         {
           "blindLabel": "B",
           "caseId": "case-laura",
           "caseLabel": "Laura (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_self-disclosure_case-laura_09",
-          "order": 9
+          "itemId": "dp_self-disclosure_case-laura_11",
+          "order": 11
         }
       ]
     },
@@ -702,16 +702,16 @@
           "caseId": "case-sara",
           "caseLabel": "Sara (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_marker-recognition-chairwork_case-sara_05",
-          "order": 5
+          "itemId": "dp_marker-recognition-chairwork_case-sara_06",
+          "order": 6
         },
         {
           "blindLabel": "B",
           "caseId": "case-nina",
           "caseLabel": "Nina (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_marker-recognition-chairwork_case-nina_05",
-          "order": 5
+          "itemId": "dp_marker-recognition-chairwork_case-nina_06",
+          "order": 6
         }
       ]
     },
@@ -725,16 +725,16 @@
           "caseId": "case-carlos",
           "caseLabel": "Carlos (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_marker-recognition-chairwork_case-carlos_09",
-          "order": 9
+          "itemId": "dp_marker-recognition-chairwork_case-carlos_11",
+          "order": 11
         },
         {
           "blindLabel": "B",
           "caseId": "case-michael",
           "caseLabel": "Michael (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_marker-recognition-chairwork_case-michael_09",
-          "order": 9
+          "itemId": "dp_marker-recognition-chairwork_case-michael_11",
+          "order": 11
         }
       ]
     },
@@ -771,16 +771,16 @@
           "caseId": "case-nina",
           "caseLabel": "Nina (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_alliance-repair_case-nina_09",
-          "order": 9
+          "itemId": "dp_alliance-repair_case-nina_11",
+          "order": 11
         },
         {
           "blindLabel": "B",
           "caseId": "case-sara",
           "caseLabel": "Sara (Easy)",
           "difficulty": "easy",
-          "itemId": "dp_alliance-repair_case-sara_09",
-          "order": 9
+          "itemId": "dp_alliance-repair_case-sara_11",
+          "order": 11
         }
       ]
     },
@@ -817,16 +817,16 @@
           "caseId": "case-marcus",
           "caseLabel": "Marcus (Hard)",
           "difficulty": "hard",
-          "itemId": "dp_alliance-repair_case-marcus_05",
-          "order": 5
+          "itemId": "dp_alliance-repair_case-marcus_06",
+          "order": 6
         },
         {
           "blindLabel": "B",
           "caseId": "case-laura",
           "caseLabel": "Laura (Moderate)",
           "difficulty": "moderate",
-          "itemId": "dp_alliance-repair_case-laura_05",
-          "order": 5
+          "itemId": "dp_alliance-repair_case-laura_06",
+          "order": 6
         }
       ]
     }

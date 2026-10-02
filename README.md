@@ -4,7 +4,7 @@ Standalone Vite app split from `JaranOlsen/Planet`.
 
 ## Practice Formats
 
-- **Individual** keeps the original ten-item practice round and optional suggested responses.
+- **Individual** offers twelve items per skill/case and optional example responses, in English and Norwegian Bokmål.
 - **Group** is the default: two or more people use their own devices in the normal app. A host controls the room while therapist/client/observer roles rotate. Additional participants watch and join later active turns. **Use one shared device** offers the same workflow and role guidance on one screen, with Finish/Pass after the whole item.
 
 Returning users open the skill library in their remembered language. **Prepare another round** restores the last skill, case, and format for review before starting. A paused round takes priority over this shortcut. The setup is remembered only after practice begins; locked cases still require access.

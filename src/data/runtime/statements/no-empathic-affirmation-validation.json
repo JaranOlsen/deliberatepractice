@@ -3,7 +3,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -14,7 +14,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -25,7 +25,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -36,7 +36,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -47,7 +47,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -58,7 +58,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -69,7 +69,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -80,7 +80,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -91,7 +91,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -102,20 +102,42 @@
     {
       "id": "dp_empathic-affirmation-validation_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
       ],
       "text": "[Lavmælt] Etter dette bruddet tenker en del av meg at kjærlighet må være for andre, ikke for meg.",
       "suggestion": "Etter å ha blitt forlatt kan kjærlighet begynne å se ut som noe som er for andre; den tanken vokser ut av en veldig ensom smerte."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flau] Jeg ba søsteren min bli til middag fordi jeg ikke ville ha enda en kveld alene. Jeg er voksen. Jeg burde ikke trenge noen bare for å komme meg gjennom en tirsdag.",
+      "suggestion": "Når du har mistet den du delte kveldene med, er det forståelig å ønske selskap på en helt vanlig tirsdag. Det er ikke noe å skamme seg over."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Skyldbetynget] Jeg hadde en fin ettermiddag uten å tenke på ham. Etterpå følte jeg meg illojal, som om det å ha det bra betydde at forholdet ikke hadde betydd noe.",
+      "suggestion": "En god ettermiddag visker ikke ut det forholdet betydde. Det er forståelig at du vil ta vare på noe som var så viktig for deg."
     }
   ],
   "case-michael": [
     {
       "id": "dp_empathic-affirmation-validation_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -126,7 +148,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -137,7 +159,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -148,7 +170,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -159,7 +181,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -170,7 +192,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -181,7 +203,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -192,7 +214,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -203,7 +225,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -214,20 +236,42 @@
     {
       "id": "dp_empathic-affirmation-validation_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
       ],
       "text": "[Skamfull] Etter at jeg eksploderer hjemme, ligger jeg våken og ser ansiktene deres for meg mens jeg hater meg selv.",
       "suggestion": "Ikke rart gjentakelsen får kraft; ansiktene deres betyr noe for deg, og skammen presser på den delen av deg som vil at de skal kjenne seg trygge."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Skamfull] Prosjektet gikk bra, men jeg ville likevel høre sjefen si at han var fornøyd. Jeg hater å trenge det. Jeg burde selv vite om jeg har gjort en ordentlig jobb.",
+      "suggestion": "Når andres godkjenning har vært så viktig, er det forståelig å ønske å høre at innsatsen din ble verdsatt. Det ønsket tar ikke fra deg evnen til å vurdere eget arbeid."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Utilpass] Jeg var redd før møtet, ikke sint. Det skjedde ikke noe galt engang. Det virker latterlig å være nervøs for folk jeg ser hver dag.",
+      "suggestion": "Hvis møtet kjennes som et sted der du kan bli kritisert, er nervøsiteten forståelig også blant folk du kjenner. Du trenger ikke avfeie den fordi møtet gikk bra."
     }
   ],
   "case-jason": [
     {
       "id": "dp_empathic-affirmation-validation_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -238,7 +282,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -249,7 +293,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -260,7 +304,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -271,7 +315,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -282,7 +326,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -293,7 +337,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -304,7 +348,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -315,7 +359,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -326,20 +370,42 @@
     {
       "id": "dp_empathic-affirmation-validation_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
       ],
       "text": "[Stille] Noen netter ligger jeg der og er sikker på at jeg alltid kommer til å være alene fordi jeg er for klein til å elskes.",
       "suggestion": "Ikke rart nettene blir tunge; skammen kan få ensomheten til å høres permanent ut når frykten får så mye rom."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Unnskyldende] Jeg gikk tidlig fra lunsjen med teamet. Det var fint å bli invitert, men jeg ble utslitt av å følge med alle. Jeg føler meg utakknemlig som sier det.",
+      "suggestion": "Du kan sette pris på invitasjonen og likevel bli utslitt av samtalen. Når det koster så mye å kjenne seg til rette, er det forståelig å trenge en pause."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Lavmælt sint] De snakket over meg hele tiden. De la sikkert ikke merke til det, men jeg var sint etterpå. Det føles smålig når jeg knapt sa noe uansett.",
+      "suggestion": "Det kan gjøre vondt å bli snakket over selv når det ikke er med vilje. Det er forståelig at du ble sint over å ikke få plass til å snakke; det gjør ikke sinnet smålig."
     }
   ],
   "case-laura": [
     {
       "id": "dp_empathic-affirmation-validation_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -350,7 +416,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -361,7 +427,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -372,7 +438,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -383,7 +449,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -394,7 +460,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -405,7 +471,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -416,7 +482,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -427,7 +493,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -438,20 +504,42 @@
     {
       "id": "dp_empathic-affirmation-validation_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
       ],
       "text": "[Flatt og på vakt] Selv i senga ligger skuldrene oppe, som om noen kan komme inn døra.",
       "suggestion": "Hvile kan være vanskelig å finne når en del av deg lærte å stå på vakt mot fare."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flatt, skamfullt] Jeg ble lettet da venninnen min avlyste. Så var jeg ensom hele kvelden. Jeg tenker stadig at et ordentlig menneske bare ville vært glad for at noen ville komme.",
+      "suggestion": "Du kan ønske selskap og samtidig bli lettet når presset ved et besøk forsvinner. Når nærhet kjennes vanskelig, er den konflikten forståelig. Den gjør deg ikke til en dårlig venninne."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[På vakt] Jeg ba eksen levere tilbake nøkkelen. Det var fornuftig. Likevel gråt jeg etterpå. Jeg vil ikke at du skal tro jeg egentlig vil ha alt tilbake.",
+      "suggestion": "Det kan være riktig å få nøkkelen tilbake og likevel kjenne et tap. Det er forståelig at du gråt; tårene trenger ikke bety at du vil tilbake til forholdet."
     }
   ],
   "case-carlos": [
     {
       "id": "dp_empathic-affirmation-validation_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -462,7 +550,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -473,7 +561,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -484,7 +572,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -495,7 +583,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -506,7 +594,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -517,7 +605,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -528,7 +616,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -539,7 +627,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -550,20 +638,42 @@
     {
       "id": "dp_empathic-affirmation-validation_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
       ],
       "text": "[Sårbar] Sønnen min sovnet mot meg i sofaen, og jeg kjente stolthet, redsel og sorg på en gang, fordi jeg vil at han skal føle seg trygg med meg på en måte jeg aldri gjorde.",
       "suggestion": "Stolthet, redsel og sorg hører til det samme øyeblikket her; tilliten hans berører både kjærligheten din til ham og sorgen over at du ikke selv hadde slik trygghet."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Skamfull] Jeg ropte ikke denne gangen. Jeg gikk ut. Men jeg var fortsatt rasende, og tenker at det betyr at jeg ikke har endret meg i det hele tatt.",
+      "suggestion": "Det er forståelig å bli motløs når sinnet fortsatt er så sterkt. At du kjenner det, visker ikke ut at du valgte å ikke rope. Følelsen og måten du handler på den, er forskjellige ting."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Senker stemmen] Når datteren min sier hun er redd for meg, blir jeg også såret. Jeg vet at det er jeg som skremte henne. Kanskje jeg ikke har rett til å bli såret av det.",
+      "suggestion": "Avstanden mellom deg og datteren din betyr noe for deg, så det er forståelig at du blir såret. Du kan kjenne den smerten og ta ansvar for at du skremte henne. Den unnskylder ikke handlingene og tar ikke fra henne retten til å være trygg."
     }
   ],
   "case-nina": [
     {
       "id": "dp_empathic-affirmation-validation_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -574,7 +684,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -585,7 +695,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -596,7 +706,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -607,7 +717,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -618,7 +728,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -629,7 +739,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -640,7 +750,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -651,7 +761,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -662,20 +772,42 @@
     {
       "id": "dp_empathic-affirmation-validation_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
       ],
       "text": "[Splittet] Sønnen min snakker om å verve seg, og jeg blir stolt av ham og livredd, og så får jeg skyldfølelse fordi en god mor burde være modigere.",
       "suggestion": "Stolthet og redsel kan begge høre til i det samme øyeblikket; det at du elsker motet hans, opphever ikke frykten for hva motet kan koste ham."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Skyldbetynget] Jeg ville feire at jeg kom meg gjennom skoleåret. Alle trengte noe, så jeg sa det ikke var viktig. Det var viktig. Det høres så selvopptatt ut.",
+      "suggestion": "Når du har gitt så mye gjennom året, er det forståelig å ønske at innsatsen blir sett. Det er plass til din feiring også, ikke bare til andres behov."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Unnskyldende] Moren min ringte i den ene timen jeg hadde satt av til meg selv. Jeg svarte ikke. Lettelsen var deilig, og så følte jeg meg slem.",
+      "suggestion": "Når så mye av tiden din går til andre, er det forståelig å kjenne lettelse over en uforstyrret time. Å ha glede av det rommet betyr ikke at du ikke bryr deg om moren din."
     }
   ],
   "case-aisha": [
     {
       "id": "dp_empathic-affirmation-validation_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -686,7 +818,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -697,7 +829,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -708,7 +840,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -719,7 +851,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -730,7 +862,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -741,7 +873,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -752,7 +884,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -763,7 +895,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -774,20 +906,42 @@
     {
       "id": "dp_empathic-affirmation-validation_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
       ],
       "text": "[Desperat] Jeg stirrer på klokka for å være sikker på at du ikke avslutter tidlig. De siste fem minuttene strammer brystet seg fordi jeg allerede prøver å overleve at du går.",
       "suggestion": "Å følge med på klokka passer med å forberede deg på enda en avslutning før den kommer brått; frykten for å bli forlatt er allerede i rommet."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Sint, skamfull] Venninnen min trengte en rolig kveld. Jeg forsto det, og hatet likevel å bli holdt utenfor. Så hatet jeg meg selv for å gjøre hennes slitenhet til noe om meg.",
+      "suggestion": "Du kan forstå at hun trenger hvile og likevel kjenne smerten ved å være fra hverandre. Når avstand kan være så skremmende, er reaksjonen forståelig. Det gjør ikke henne ansvarlig for å fjerne den."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[På gråten] Det har vært stabilt i en uke, og jeg er redd for å glede meg over det. Hvis jeg slapper av og alt forsvinner, føler jeg meg dum som trodde det kunne vare.",
+      "suggestion": "Når nærhet så ofte har blitt brutt, kan det også kjennes risikabelt å glede seg over stabilitet. Forsiktigheten din er forståelig, selv om noe i deg vil ta inn den gode uken."
     }
   ],
   "case-david": [
     {
       "id": "dp_empathic-affirmation-validation_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -798,7 +952,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -809,7 +963,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -820,7 +974,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -831,7 +985,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -842,7 +996,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -853,7 +1007,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -864,7 +1018,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -875,7 +1029,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -886,20 +1040,42 @@
     {
       "id": "dp_empathic-affirmation-validation_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
       ],
       "text": "[Kontrollert] Når teamet mitt overgår meg, føler jeg meg truet i stedet for stolt. Jeg vet at en god leder burde feire dem, men en del av meg hører suksessen deres som et varsel om at jeg kan erstattes.",
       "suggestion": "Suksessen deres kan kjennes som om den treffer den gamle koblingen mellom å være best og å være trygg, så stoltheten må konkurrere med frykten for å bli erstattet."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Behersket, flau] Kritikken fra datteren min satt i lenger enn noe tilbakeslag i jobben. Jeg sier til meg selv at jeg burde være hevet over å trenge et barns godkjenning.",
+      "suggestion": "Det er forståelig at kritikken hennes gjør vondt: Hvordan hun ser deg, betyr noe fordi forholdet betyr noe. Å bli såret er ikke noe du må vokse fra eller heve deg over."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Bitter] Jeg misunner kollegaen som fikk rollen. Jeg kan gratulere ham og samtidig hate at han fikk den. Det føles nedverdigende å innrømme det.",
+      "suggestion": "Å miste en rolle du ønsket, kan vekke både misunnelse og skuffelse. Følelsene er forståelige; å erkjenne dem betyr ikke at de skal bestemme hvordan du behandler kollegaen."
     }
   ],
   "case-marcus": [
     {
       "id": "dp_empathic-affirmation-validation_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -910,7 +1086,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -921,7 +1097,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -932,7 +1108,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -943,7 +1119,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -954,7 +1130,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -965,7 +1141,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -976,7 +1152,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -987,7 +1163,7 @@
     {
       "id": "dp_empathic-affirmation-validation_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
@@ -998,13 +1174,35 @@
     {
       "id": "dp_empathic-affirmation-validation_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "validate_context",
         "legacy_matrix_item"
       ],
       "text": "[Flatt] Noen ganger tenker jeg at jeg har det best alene for alltid, fordi nærhet bare gir folk flere måter å såre meg på. Alene er ikke bra, akkurat, men da kan i hvert fall ingen nå det som er igjen.",
       "suggestion": "Alene kan kjennes som det eneste pålitelige skjoldet etter at nærhet har vært farlig, selv om det også stenger deg ute fra det du trenger."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Lavmælt, skamfull] En nabo hjalp meg å bære varene. Jeg var takknemlig. Så følte jeg meg svak. Før var det meg folk stolte på.",
+      "suggestion": "Når du har vært den andre stolte på, kan det kjennes uvant og sårbart å ta imot hjelp. Å være takknemlig for den gjør deg ikke svak."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flatt] Jeg lo av noe på radioen. Det føltes galt etterpå. Noen fikk aldri komme hjem. Hvorfor skal jeg få en god morgen?",
+      "suggestion": "Med tapene du bærer på, er det forståelig at et øyeblikk av glede også kan vekke skyld. Den gode stunden betyr ikke at du har glemt dem eller at livene deres betydde mindre."
     }
   ]
 }

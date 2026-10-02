@@ -3,7 +3,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -15,7 +15,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -27,7 +27,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -39,7 +39,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -51,7 +51,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -63,7 +63,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -75,7 +75,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -87,7 +87,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -99,7 +99,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -111,7 +111,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -119,13 +119,37 @@
       ],
       "text": "[Worried] How is this different from retelling the breakup until even I am sick of hearing it?",
       "suggestion": "Here we are not just retelling. We slow the story to find the stuck places because those moments show what still needs comfort, meaning, or a new response."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Unsure] Some weeks I cry more in here, and some weeks I don't. How will we know this is helping, apart from how emotional I get?",
+      "suggestion": "You want a way to recognise change beyond tears. In this work we look at whether you can understand what you feel and need, and respond to yourself with less blame. We can agree on signs that matter to you and review them together; being more emotional isn't the goal."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Curious] If I know the breakup is why I'm upset, what else are we trying to find out by staying with the feeling?",
+      "suggestion": "Knowing the cause matters. Staying with the feeling can help distinguish the sadness of losing him from the blame you turn on yourself, so we can respond to each more helpfully. We can try this with one small moment, if you want."
     }
   ],
   "case-michael": [
     {
       "id": "dp_providing-treatment-rationale_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -137,7 +161,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -149,7 +173,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -161,7 +185,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -173,7 +197,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -185,7 +209,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -197,7 +221,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -209,7 +233,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -221,7 +245,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -233,7 +257,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -241,13 +265,37 @@
       ],
       "text": "[Embarrassed] What am I supposed to do if I am not good at feelings and have no words?",
       "suggestion": "You do not need fluency to begin. Jaw, chest, heat, one need - those concrete cues matter because they make the work practical and keep it under your control."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Sceptical] I need to stop snapping. How does telling you I felt embarrassed in a meeting help me do that at home?",
+      "suggestion": "You want a change you can use at home. Noticing the embarrassment before it becomes anger may help you catch the reaction earlier and choose how to respond, rather than only fighting the anger afterwards. We can begin with a manageable moment you choose."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Practical] Couldn't we agree on a rule for arguments? If I have a rule, I can follow it. Feelings don't seem very reliable.",
+      "suggestion": "A rule can be useful. We're also looking at what happens when criticism hits, because understanding that reaction can make it easier to use the rule when you most need it. We can keep it practical and check what is useful to you."
     }
   ],
   "case-jason": [
     {
       "id": "dp_providing-treatment-rationale_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -259,7 +307,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -271,7 +319,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -283,7 +331,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -295,7 +343,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -307,7 +355,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -319,7 +367,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -331,7 +379,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -343,7 +391,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -355,7 +403,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -363,13 +411,37 @@
       ],
       "text": "[Quietly] Why practice eye contact when it feels like people can see everything wrong with me?",
       "suggestion": "We do not force eye contact. Brief, chosen moments help your alarm learn that being seen can be tolerable and different from being exposed."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Worried] When you ask me to notice a feeling, I start checking whether I'm doing it correctly. Isn't that more of the same problem?",
+      "suggestion": "That checking is important information, not a failed exercise. We can notice the pressure itself, without requiring a particular feeling, and practise a less judging way of paying attention."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Hesitant] I can talk about a meeting afterwards. But when I'm actually there, my mind goes blank. What are we practising here that could help there?",
+      "suggestion": "You want this to reach those difficult moments. Here we can slowly notice what happens just before the blankness, so you have more chance of recognising it without immediately judging yourself. You can choose where we start."
     }
   ],
   "case-laura": [
     {
       "id": "dp_providing-treatment-rationale_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -381,7 +453,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -393,7 +465,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -405,7 +477,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -417,7 +489,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -429,7 +501,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -441,7 +513,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -453,7 +525,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -465,7 +537,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -477,7 +549,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -485,13 +557,37 @@
       ],
       "text": "[Worried] What if I freeze in here and you sit there waiting for an answer?",
       "suggestion": "Then the freeze becomes the work. We pause, ground, and name what is happening because that teaches your system that shutting down can be met safely, not pressured."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-laura_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flat] I spend my working day helping people cope. I don't understand why talking about what hurts is better than learning to cope with it.",
+      "suggestion": "Coping matters, and we won't take it away. We can also approach a little of what the numbness keeps at a distance, so coping doesn't have to mean being cut off from everything you feel. You can choose how much we approach."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-laura_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Guarded] You say we don't have to discuss the past. Then how can this work if the past is what's wrong with me?",
+      "suggestion": "We don't have to retell painful events to begin. We can work with how closeness or numbness feels here, in small amounts you choose, and learn what helps you stay present now."
     }
   ],
   "case-carlos": [
     {
       "id": "dp_providing-treatment-rationale_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -503,7 +599,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -515,7 +611,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -527,7 +623,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -539,7 +635,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -551,7 +647,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -563,7 +659,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -575,7 +671,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -587,7 +683,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -599,7 +695,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -607,13 +703,37 @@
       ],
       "text": "[Defensive] How do we keep this from becoming years of talk while my family waits?",
       "suggestion": "We keep it focused by targeting the flashpoints that cause the most damage, then checking whether you catch, calm, and repair them faster at home."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-carlos_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Sceptical] When you ask what the anger feels like, I think you're asking me to get more worked up. That's exactly what I'm trying to stop.",
+      "suggestion": "You want to avoid getting carried away. We can approach the anger in small amounts and notice what sets it off, without acting on it, so you have more choice before it takes over."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-carlos_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Firm] I don't want to spend an hour feeling sorry for myself. I want my family to stop being afraid of me.",
+      "suggestion": "Your family's safety is the goal. Understanding the hurt or threat around your anger can help you recognise it sooner and respond without intimidation; it doesn't excuse frightening them. We can approach it without pushing you past what you can manage."
     }
   ],
   "case-nina": [
     {
       "id": "dp_providing-treatment-rationale_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -625,7 +745,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -637,7 +757,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -649,7 +769,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -661,7 +781,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -673,7 +793,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -685,7 +805,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -697,7 +817,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -709,7 +829,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -721,7 +841,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -729,13 +849,37 @@
       ],
       "text": "[Tired] How will I know this is actually helping and not just making me more self-focused?",
       "suggestion": "Concrete signs will tell us: asking with less apology, resting with less punishment, and setting limits without erasing yourself. Those signs matter because the point is care that can last, not self-focus."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nina_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Apologetic] I could name what I need for a whole hour. Then I go home and everyone still needs things. What would actually be different?",
+      "suggestion": "Naming your needs won't remove the demands. It can help you recognise your own limits before exhaustion makes every choice harder, so caring for others can include caring for yourself. We can begin with a situation you want to understand."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nina_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Worried] If we make room for my resentment, won't I just become less kind? Being useful is something I actually value.",
+      "suggestion": "We can respect how much kindness matters to you. Listening to resentment may help you notice when giving has gone beyond what you can sustain, rather than letting it build until kindness feels impossible. We can listen to just a little of it at a time."
     }
   ],
   "case-aisha": [
     {
       "id": "dp_providing-treatment-rationale_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -747,7 +891,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -759,7 +903,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -771,7 +915,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -783,7 +927,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -795,7 +939,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -807,7 +951,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -819,7 +963,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -831,7 +975,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -843,7 +987,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -851,13 +995,37 @@
       ],
       "text": "[Mistrustful] Every therapist boundary sounds like distance, so why would I trust this?",
       "suggestion": "We treat that fear directly. I will explain the frame, invite you to name its impact, and repair misses so that repeated predictable contact can make boundaries feel less like abandonment."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-aisha_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Urgent] I can name every feeling. It doesn't stop me panicking when someone goes quiet. What is supposed to happen after I name it?",
+      "suggestion": "Naming is only a beginning. We can work slowly with the panic and what you need in that moment, so you aren't left just describing it or urgently trying to make someone else remove it."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-aisha_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Sceptical, scared] If we practise being with the fear here, does that mean you're teaching me to accept people leaving me?",
+      "suggestion": "Your need for connection matters. The aim is to understand the fear and what you need, so panic doesn't have to decide every action. We can approach it at a pace you choose; needing people isn't something we're trying to remove."
     }
   ],
   "case-david": [
     {
       "id": "dp_providing-treatment-rationale_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -869,7 +1037,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -881,7 +1049,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -893,7 +1061,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -905,7 +1073,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -917,7 +1085,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -929,7 +1097,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -941,7 +1109,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -953,7 +1121,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -965,7 +1133,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -973,13 +1141,37 @@
       ],
       "text": "[Controlled] How will I know this is worth it instead of another insight project?",
       "suggestion": "We use concrete markers because insight alone will not be enough: less shutdown in hard conversations, quicker repair after you miss, and more room to stay present when shame gets hit."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-david_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Coolly] I can explain my childhood perfectly well. It hasn't changed anything. Why would another conversation about feelings be different?",
+      "suggestion": "You want more than another explanation. The aim is to notice what happens to you as you speak, so we can meet the hurt in the moment rather than only explain it afterwards. We can try a small piece and check how it is for you."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-david_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Guarded] If I let you see how much the criticism hurt, what stops this turning into an exercise in taking me down a peg?",
+      "suggestion": "Being diminished is precisely what you don't want. The aim is to understand the injury beneath the need to defend yourself, without stripping away your dignity; you can tell me when the work feels diminishing."
     }
   ],
   "case-marcus": [
     {
       "id": "dp_providing-treatment-rationale_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -991,7 +1183,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1003,7 +1195,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1015,7 +1207,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1027,7 +1219,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1039,7 +1231,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1051,7 +1243,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1063,7 +1255,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1075,7 +1267,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1087,7 +1279,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1095,6 +1287,30 @@
       ],
       "text": "[Slow and flat] What if I never feel normal again and this flatness is just who I am now?",
       "suggestion": "We are not chasing a perfect normal. We are building toward more sleep, less shutdown, and safe contact, which are signs that feelings and connection can return in tolerable amounts."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-marcus_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flat] Telling the story didn't help before. It just meant I didn't sleep. I'm not doing that again.",
+      "suggestion": "You have reason to be cautious. We can begin with what happens here now, without retelling the events, and keep the work small enough that you can stay present and choose whether to continue."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-marcus_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "case_matrix_expansion"
+      ],
+      "text": "[Guarded] The numbness lets me get through the day. Why would I want you to get rid of the thing that's keeping me going?",
+      "suggestion": "We won't try to take your protection away. The aim is to find moments when you can feel a little without losing your footing, so numbness doesn't have to be your only way through the day."
     }
   ]
 }

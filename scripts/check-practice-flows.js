@@ -237,7 +237,18 @@ async (page) => {
   await click('account-button');
   assert(await page.locator('#account-overlay').isVisible() && await page.locator('#therapist-overlay').count() === 0, 'Account opens the account panel without the retired therapist selector');
   await page.keyboard.press('Escape');
-  for (let i = 0; i < 10; i++) await click('next-statement');
+  const expandedRound = await session();
+  assert(expandedRound.orderIds.length === 12 && ['11','12'].every(number =>
+    expandedRound.orderIds.includes(`dp_empathic-understanding_case-sara_${number}`)), 'The round includes both new items');
+  for (let i = 0; i < 12; i++) {
+    if (i >= 10) {
+      await click('toggle-suggestion');
+      assert((await text('suggestion-text')).trim().length > 20, 'New items have a displayed example response');
+      assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), 'Expanded items fit phone width');
+      if (i === 11) await page.screenshot({path:'output/playwright/expanded-english-item-12-mobile.png',fullPage:true});
+    }
+    await click('next-statement');
+  }
   await page.locator('[data-rating-score="4"]').click();
   await click('rating-submit');
   await page.waitForFunction(() => document.querySelector('#rating-status').textContent.includes('could not confirm'));
@@ -246,7 +257,7 @@ async (page) => {
   saveFails = false;
   await click('rating-submit');
   await page.waitForFunction(() => document.querySelector('#rating-status').textContent === 'Rating saved.');
-  assert(saves.length === 2 && saves.every((payload) => payload.itemCount === 10 && payload.therapistUserId === 'test-self' && payload.score === 4), 'Rating payload must retain count, score and round owner');
+  assert(saves.length === 2 && saves.every((payload) => payload.itemCount === 12 && payload.therapistUserId === 'test-self' && payload.score === 4), 'Rating payload must retain count, score and round owner');
   assert(saves[0].practiceMode === 'individual' && saves[0].ratingRubric === 'group-skill-v2' && saves[0].roundId && saves[0].roundId === saves[1].roundId, 'A failed save and retry must use the same round ID');
   assert(!(await visible('rating-submit')), 'Successful save must not offer duplicate submission');
   await click('rating-skip');

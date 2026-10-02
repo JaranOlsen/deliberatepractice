@@ -43,3 +43,5 @@ These were obsolete accidental snapshots. They were not imported by the app or b
 ## Editing Rule
 
 Use this order for content passes: marker suitability, response skill purity, Norwegian naturalness. Keep stable IDs and the existing data shape unless the app schema is intentionally changed.
+
+Each of the 12 production skills has 12 items for each of the 9 cases: 1,296 bilingual pairs. Both the client statement and example response require a complete Norwegian translation; `validate:content` enforces coverage and non-empty fields. Items 11–12 were added in the [October 2026 expansion](../md/content-expansion-2026-10-02.md).

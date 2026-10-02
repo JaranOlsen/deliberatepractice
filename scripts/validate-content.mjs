@@ -41,8 +41,11 @@ SKILL_ORDER.forEach((skillId) => {
   assert(!EXPERIMENTAL_SKILL_IDS.includes(skillId), `Experimental skill leaked into production order: ${skillId}`);
   const skill = BASE_PRACTICE[skillId];
   assert(Boolean(skill), `Missing BASE_PRACTICE entry for ${skillId}`);
+  assert(Object.keys(skill?.cases ?? {}).length === Object.keys(CASE_BIBLES).length,
+    `Case coverage mismatch for ${skillId}`);
   Object.entries(skill?.cases ?? {}).forEach(([caseId, caseItem]) => {
     assert(Boolean(CASE_BIBLES[caseId]), `Missing case bible for ${caseId}`);
+    assert(caseItem.statements?.length === 12, `Expected 12 items for ${skillId}/${caseId}`);
     const registryItems = CONTENT_REGISTRY?.[skillId]?.[caseId] ?? [];
     assert(
       registryItems.length === (caseItem.statements ?? []).length,
@@ -54,8 +57,17 @@ SKILL_ORDER.forEach((skillId) => {
       assert(item.revision === CONTENT_REVISION, `Revision mismatch for ${item.id}`);
       assert(!seenIds.has(item.id), `Duplicate id detected: ${item.id}`);
       seenIds.add(item.id);
-      if (STATEMENT_TRANSLATIONS.no?.[item.id]) {
+      assert(typeof item.text === "string" && item.text.trim().length > 0,
+        `Missing English client statement for ${item.id}`);
+      assert(typeof item.suggestion === "string" && item.suggestion.trim().length > 0,
+        `Missing English example response for ${item.id}`);
+      const translation = STATEMENT_TRANSLATIONS.no?.[item.id];
+      if (translation) {
         translatedCount += 1;
+        assert(typeof translation.text === "string" && translation.text.trim().length > 0,
+          `Missing Norwegian client statement for ${item.id}`);
+        assert(typeof translation.suggestion === "string" && translation.suggestion.trim().length > 0,
+          `Missing Norwegian example response for ${item.id}`);
       } else {
         errors.push(`Missing Norwegian translation for ${item.id}`);
       }

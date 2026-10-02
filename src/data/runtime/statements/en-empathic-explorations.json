@@ -3,7 +3,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -15,7 +15,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -27,7 +27,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -39,7 +39,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -51,7 +51,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -63,7 +63,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -75,7 +75,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -87,7 +87,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -99,7 +99,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -111,7 +111,7 @@
     {
       "id": "dp_empathic-explorations_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -119,13 +119,37 @@
       ],
       "text": "[Embarrassed] If I let someone see the whole mess, I imagine them quietly wishing I would stop.",
       "suggestion": "Part of you wants someone to see how bad it is, and another part expects them to wish you would stop. Track that pull between wanting to be seen and expecting rejection."
+    },
+    {
+      "id": "dp_empathic-explorations_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Tearful] I had something funny to tell him on the bus. For a moment I forgot we weren't together. Remembering was the sad part.",
+      "suggestion": "The sadness arrives when you remember you can't tell him. Could we stay for a moment with how that lands now?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Softly] My sister didn't tell me to move on. She just stayed. I felt relieved, and I think there's more to it than that.",
+      "suggestion": "There's relief in her simply staying. Take a little time with that relief and see what else you notice."
     }
   ],
   "case-michael": [
     {
       "id": "dp_empathic-explorations_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -137,7 +161,7 @@
     {
       "id": "dp_empathic-explorations_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -149,7 +173,7 @@
     {
       "id": "dp_empathic-explorations_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -161,7 +185,7 @@
     {
       "id": "dp_empathic-explorations_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -173,7 +197,7 @@
     {
       "id": "dp_empathic-explorations_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -185,7 +209,7 @@
     {
       "id": "dp_empathic-explorations_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -197,7 +221,7 @@
     {
       "id": "dp_empathic-explorations_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -209,7 +233,7 @@
     {
       "id": "dp_empathic-explorations_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -221,7 +245,7 @@
     {
       "id": "dp_empathic-explorations_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -233,7 +257,7 @@
     {
       "id": "dp_empathic-explorations_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -241,13 +265,37 @@
       ],
       "text": "[Vulnerable] I want my son to feel safe around me, and I do not know how to say that without sounding weak.",
       "suggestion": "You want safety for him so much, and even naming that wish brushes against the old weakness rule. Let the wish itself have a moment before the rule closes around it."
+    },
+    {
+      "id": "dp_empathic-explorations_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Quietly] My son asked whether I'd be at his game. I said yes, but the way he asked made me sad. Like he couldn't quite count on it.",
+      "suggestion": "There's sadness in hearing that uncertainty from him. What is it like to let yourself notice it here, without fixing it straight away?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Frustrated, then hesitant] I was furious about the correction. Then I realised I was disappointed in myself as well. That bit is harder to talk about.",
+      "suggestion": "The disappointment in yourself is harder to approach. We can go slowly and stay with just the bit you can put words to."
     }
   ],
   "case-jason": [
     {
       "id": "dp_empathic-explorations_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -259,7 +307,7 @@
     {
       "id": "dp_empathic-explorations_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -271,7 +319,7 @@
     {
       "id": "dp_empathic-explorations_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -283,7 +331,7 @@
     {
       "id": "dp_empathic-explorations_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -295,7 +343,7 @@
     {
       "id": "dp_empathic-explorations_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -307,7 +355,7 @@
     {
       "id": "dp_empathic-explorations_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -319,7 +367,7 @@
     {
       "id": "dp_empathic-explorations_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -331,7 +379,7 @@
     {
       "id": "dp_empathic-explorations_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -343,7 +391,7 @@
     {
       "id": "dp_empathic-explorations_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -355,7 +403,7 @@
     {
       "id": "dp_empathic-explorations_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -363,13 +411,37 @@
       ],
       "text": "[Quiet and ashamed] I felt lonely on Sunday, but I also ignored two messages.",
       "suggestion": "Loneliness and pulling back sit side by side. Keep close to the loneliness that is there even while the messages go unanswered."
+    },
+    {
+      "id": "dp_empathic-explorations_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Quietly pleased] They asked me to join them again. I felt pleased when I read it. Then I started worrying about what I'd say.",
+      "suggestion": "Before the worry arrived, there was that pleased feeling. Could we give it a little room and notice what being invited again was like?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Hesitant] I wish my friend had waited for me after the meeting. I don't usually admit wishing for things like that. It feels a bit sad saying it.",
+      "suggestion": "Saying you wanted him to wait brings some sadness. You don't have to explain it away; we can listen to what that sadness is like."
     }
   ],
   "case-laura": [
     {
       "id": "dp_empathic-explorations_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -381,7 +453,7 @@
     {
       "id": "dp_empathic-explorations_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -393,7 +465,7 @@
     {
       "id": "dp_empathic-explorations_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -405,7 +477,7 @@
     {
       "id": "dp_empathic-explorations_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -417,7 +489,7 @@
     {
       "id": "dp_empathic-explorations_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -429,7 +501,7 @@
     {
       "id": "dp_empathic-explorations_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -441,7 +513,7 @@
     {
       "id": "dp_empathic-explorations_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -453,7 +525,7 @@
     {
       "id": "dp_empathic-explorations_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -465,7 +537,7 @@
     {
       "id": "dp_empathic-explorations_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -477,7 +549,7 @@
     {
       "id": "dp_empathic-explorations_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -485,13 +557,37 @@
       ],
       "text": "[Slow and flat] I avoid movies with fighting because I don't want to find out what a single shout will do to me.",
       "suggestion": "Avoiding the movie protects you from discovering what one shout might set off. I want to pause with the not-wanting-to-find-out."
+    },
+    {
+      "id": "dp_empathic-explorations_case-laura_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Quiet, surprised] My friend left a meal by the door. I didn't have to invite her in or talk. I felt touched, which surprised me.",
+      "suggestion": "You were touched by being cared for without having to let her in. We can stay with a little of that feeling, just as it is."
+    },
+    {
+      "id": "dp_empathic-explorations_case-laura_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Guarded, with a pause] I don't want to see him again. I still felt sad when he said he'd stopped asking. Those two things don't seem to fit.",
+      "suggestion": "Not wanting contact and feeling sad that he stopped asking are both here. Could we make a little room for the sadness without making it a decision to see him?"
     }
   ],
   "case-carlos": [
     {
       "id": "dp_empathic-explorations_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -503,7 +599,7 @@
     {
       "id": "dp_empathic-explorations_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -515,7 +611,7 @@
     {
       "id": "dp_empathic-explorations_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -527,7 +623,7 @@
     {
       "id": "dp_empathic-explorations_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -539,7 +635,7 @@
     {
       "id": "dp_empathic-explorations_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -551,7 +647,7 @@
     {
       "id": "dp_empathic-explorations_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -563,7 +659,7 @@
     {
       "id": "dp_empathic-explorations_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -575,7 +671,7 @@
     {
       "id": "dp_empathic-explorations_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -587,7 +683,7 @@
     {
       "id": "dp_empathic-explorations_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -599,7 +695,7 @@
     {
       "id": "dp_empathic-explorations_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -607,13 +703,37 @@
       ],
       "text": "[Fearful] When I start feeling small in an argument, panic hits and I feel like I have to get bigger fast.",
       "suggestion": "Smallness brings panic, then the pressure to get bigger fast. We can slow the first moment of smallness, before the bigger stance takes over."
+    },
+    {
+      "id": "dp_empathic-explorations_case-carlos_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Low voice] My daughter leaned against me watching television. I didn't say anything. I was glad she stayed there. I'm glad again saying it now.",
+      "suggestion": "There's gladness here again as you tell me. Let yourself have a moment with what her staying close felt like."
+    },
+    {
+      "id": "dp_empathic-explorations_case-carlos_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Angry, then slowing] He made the joke in front of everyone. I laughed along. Afterwards I felt hurt, which is harder to admit than being angry.",
+      "suggestion": "The hurt is harder to show than the anger. We can stay with only as much of that hurt as you want to bring here."
     }
   ],
   "case-nina": [
     {
       "id": "dp_empathic-explorations_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -625,7 +745,7 @@
     {
       "id": "dp_empathic-explorations_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -637,7 +757,7 @@
     {
       "id": "dp_empathic-explorations_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -649,7 +769,7 @@
     {
       "id": "dp_empathic-explorations_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -661,7 +781,7 @@
     {
       "id": "dp_empathic-explorations_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -673,7 +793,7 @@
     {
       "id": "dp_empathic-explorations_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -685,7 +805,7 @@
     {
       "id": "dp_empathic-explorations_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -697,7 +817,7 @@
     {
       "id": "dp_empathic-explorations_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -709,7 +829,7 @@
     {
       "id": "dp_empathic-explorations_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -721,7 +841,7 @@
     {
       "id": "dp_empathic-explorations_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -729,13 +849,37 @@
       ],
       "text": "[Tired] By bedtime I can't tell if I am sad, angry, or just completely used up.",
       "suggestion": "By bedtime, sadness, anger, and exhaustion are tangled together. We can stay with the tangle before we try to name one strand."
+    },
+    {
+      "id": "dp_empathic-explorations_case-nina_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Tearful, smiling] My colleague said I didn't have to earn the afternoon off. I laughed, but I wanted to cry. There was relief in hearing it.",
+      "suggestion": "You felt relief at not having to earn the rest. Could we slow down at that relief before the smile moves us past it?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nina_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Quietly] I was angry when they assumed I'd organise it again. Then I felt guilty. Even now, the guilt comes before I can finish saying I was angry.",
+      "suggestion": "The guilt arrives so quickly that the anger barely gets a sentence. We can pause and let you finish that sentence, without needing to act on it."
     }
   ],
   "case-aisha": [
     {
       "id": "dp_empathic-explorations_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -747,7 +891,7 @@
     {
       "id": "dp_empathic-explorations_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -759,7 +903,7 @@
     {
       "id": "dp_empathic-explorations_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -771,7 +915,7 @@
     {
       "id": "dp_empathic-explorations_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -783,7 +927,7 @@
     {
       "id": "dp_empathic-explorations_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -795,7 +939,7 @@
     {
       "id": "dp_empathic-explorations_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -807,7 +951,7 @@
     {
       "id": "dp_empathic-explorations_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -819,7 +963,7 @@
     {
       "id": "dp_empathic-explorations_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -831,7 +975,7 @@
     {
       "id": "dp_empathic-explorations_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -843,7 +987,7 @@
     {
       "id": "dp_empathic-explorations_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -851,13 +995,37 @@
       ],
       "text": "[Hurt] If you cancel, a part of me says not to come back, even while another part wants to ask when you will be here again.",
       "suggestion": "Both parts appear around the cancellation: the part that wants to disappear and the part that needs to know there is still a place here. Where do you feel that split most strongly?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-aisha_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Softer, watching the therapist] I was angry that you didn't agree with me. I'm still angry. But I'm also sad that I wanted your agreement so badly.",
+      "suggestion": "The anger is still here, and sadness is appearing alongside it. We can take a little time with that sadness without asking the anger to disappear."
+    },
+    {
+      "id": "dp_empathic-explorations_case-aisha_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Quiet, uneasy] I felt relieved when she said she'd call tomorrow. Then I couldn't let myself enjoy it. The relief is still there a little, though.",
+      "suggestion": "A little relief is still available, even with the uneasiness. Could we notice just that small amount, without deciding what tomorrow will bring?"
     }
   ],
   "case-david": [
     {
       "id": "dp_empathic-explorations_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -869,7 +1037,7 @@
     {
       "id": "dp_empathic-explorations_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -881,7 +1049,7 @@
     {
       "id": "dp_empathic-explorations_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -893,7 +1061,7 @@
     {
       "id": "dp_empathic-explorations_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -905,7 +1073,7 @@
     {
       "id": "dp_empathic-explorations_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -917,7 +1085,7 @@
     {
       "id": "dp_empathic-explorations_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -929,7 +1097,7 @@
     {
       "id": "dp_empathic-explorations_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -941,7 +1109,7 @@
     {
       "id": "dp_empathic-explorations_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -953,7 +1121,7 @@
     {
       "id": "dp_empathic-explorations_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -965,7 +1133,7 @@
     {
       "id": "dp_empathic-explorations_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -973,13 +1141,37 @@
       ],
       "text": "[Controlled] When someone calls my work fine, I hear ordinary, and I cannot let it go.",
       "suggestion": "'Fine' lands as ordinary, and ordinary becomes hard to tolerate. What do you notice in the instant before you need to prove more?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-david_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Controlled, voice lowering] I was pleased they asked me to stay after the meeting. Not for advice. Just to have a drink with them. I don't usually say that matters.",
+      "suggestion": "Being wanted for your company mattered. We can linger there for a moment, before you have to explain or minimise it."
+    },
+    {
+      "id": "dp_empathic-explorations_case-david_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Quiet, guarded] My daughter says she misses me even when I'm home. I felt sad hearing that. Then I started explaining how much pressure I'm under.",
+      "suggestion": "You noticed sadness before moving into the explanation. Could we return to just that moment of hearing she misses you?"
     }
   ],
   "case-marcus": [
     {
       "id": "dp_empathic-explorations_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -991,7 +1183,7 @@
     {
       "id": "dp_empathic-explorations_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -1003,7 +1195,7 @@
     {
       "id": "dp_empathic-explorations_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -1015,7 +1207,7 @@
     {
       "id": "dp_empathic-explorations_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -1027,7 +1219,7 @@
     {
       "id": "dp_empathic-explorations_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -1039,7 +1231,7 @@
     {
       "id": "dp_empathic-explorations_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -1051,7 +1243,7 @@
     {
       "id": "dp_empathic-explorations_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -1063,7 +1255,7 @@
     {
       "id": "dp_empathic-explorations_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -1075,7 +1267,7 @@
     {
       "id": "dp_empathic-explorations_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -1087,7 +1279,7 @@
     {
       "id": "dp_empathic-explorations_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "deepen_contact",
         "follow_leading_edge",
@@ -1095,6 +1287,30 @@
       ],
       "text": "[Flat] When people tell me I should not be alone so much, I say it is better this way, but I keep thinking about it after.",
       "suggestion": "Saying it is better this way protects you from something, and the thought still follows you. What do you notice after you say it?"
+    },
+    {
+      "id": "dp_empathic-explorations_case-marcus_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Low voice] I heard his favourite song. Usually I turn it off. This time I listened a bit. Felt sad. Not all at once.",
+      "suggestion": "A little sadness came while you listened. We can stay with that little bit; we don't need the whole story."
+    },
+    {
+      "id": "dp_empathic-explorations_case-marcus_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "text": "[Guarded, pausing] When you didn't push for more, I was relieved. Still am. Hard to say that to someone.",
+      "suggestion": "There's relief that I left you room. We can give that feeling a moment without asking you to say more than you want."
     }
   ]
 }

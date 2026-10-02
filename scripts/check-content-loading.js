@@ -32,6 +32,7 @@ async (page) => {
     await page.evaluate(() => localStorage.clear());
     await page.reload();
     await page.locator('[data-language-id="en"]').waitFor();
+    await page.locator('input[name="practice-mode"][value="individual"]').check();
     await page.waitForLoadState('networkidle');
     assert(requests.length === 0, 'Opening the app must not download exercise files');
     await page.locator('[data-language-id="en"]').click();
@@ -56,7 +57,7 @@ async (page) => {
     await page.reload();
     await page.locator('#resume-button').waitFor();
     assert(requests.length === 0, 'A paused round must not download content before Resume');
-    assert((await page.locator('#resume-details').textContent()).includes('2 of 10'), 'Resume counts must be available before downloading');
+    assert((await page.locator('#resume-details').textContent()).includes('2 of 12'), 'Resume counts must be available before downloading');
     fail = true;
     await click('resume-button');
     await page.locator('#content-load-retry').waitFor();
@@ -82,6 +83,18 @@ async (page) => {
     assert(requests.at(-1).includes('no-empathic-understanding'), 'Switching language must download that language’s exercises');
     const norwegian = await page.locator('#statement-text').textContent();
     assert(norwegian.length > 20 && /\b(jeg|Jeg)\b/.test(norwegian), 'The downloaded Norwegian statement must render');
+    const localizedRound = await saved();
+    assert(localizedRound.orderIds.length === 12, 'Norwegian rounds include all twelve items');
+    for (let i = 0; i < 12; i++) {
+      if (i >= 10) {
+        assert((await page.locator('#statement-text').textContent()).trim().length > 20, 'New Norwegian client statements render');
+        await click('toggle-suggestion');
+        assert((await page.locator('#suggestion-text').textContent()).trim().length > 20, 'New Norwegian examples render');
+        assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), 'New Norwegian items fit 320px width');
+        if (i === 11) await page.screenshot({path:'output/playwright/expanded-norwegian-item-12-mobile.png',fullPage:true});
+      }
+      if (i < 11) await click('next-statement');
+    }
     await click('back-to-cases'); await click('pause-round');
     const before = requests.length;
     await page.locator('[data-case-id="case-michael"]').click();

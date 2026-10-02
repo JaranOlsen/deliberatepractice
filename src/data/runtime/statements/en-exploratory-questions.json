@@ -3,7 +3,7 @@
     {
       "id": "dp_exploratory-questions_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -15,7 +15,7 @@
     {
       "id": "dp_exploratory-questions_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -27,7 +27,7 @@
     {
       "id": "dp_exploratory-questions_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -39,7 +39,7 @@
     {
       "id": "dp_exploratory-questions_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -51,7 +51,7 @@
     {
       "id": "dp_exploratory-questions_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -63,7 +63,7 @@
     {
       "id": "dp_exploratory-questions_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -75,7 +75,7 @@
     {
       "id": "dp_exploratory-questions_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -87,7 +87,7 @@
     {
       "id": "dp_exploratory-questions_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -99,7 +99,7 @@
     {
       "id": "dp_exploratory-questions_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -111,7 +111,7 @@
     {
       "id": "dp_exploratory-questions_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -119,13 +119,37 @@
       ],
       "text": "[Softly] I cross the street to avoid the cafe we used to call ours.",
       "suggestion": "When you picture that cafe, what feeling rises before you decide to cross the street?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Unsure] I found a restaurant I wanted to try. I nearly booked a table, then closed the page. I can't quite tell what stopped me.",
+      "suggestion": "What happens inside as you imagine going there on your own?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Quietly] My friend said I seemed more like myself. I smiled, but something about that stayed with me. I'm not sure what.",
+      "suggestion": "What does hearing 'more like yourself' bring up in you?"
     }
   ],
   "case-michael": [
     {
       "id": "dp_exploratory-questions_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -137,7 +161,7 @@
     {
       "id": "dp_exploratory-questions_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -149,7 +173,7 @@
     {
       "id": "dp_exploratory-questions_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -161,7 +185,7 @@
     {
       "id": "dp_exploratory-questions_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -173,7 +197,7 @@
     {
       "id": "dp_exploratory-questions_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -185,7 +209,7 @@
     {
       "id": "dp_exploratory-questions_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -197,7 +221,7 @@
     {
       "id": "dp_exploratory-questions_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -209,7 +233,7 @@
     {
       "id": "dp_exploratory-questions_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -221,7 +245,7 @@
     {
       "id": "dp_exploratory-questions_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -233,7 +257,7 @@
     {
       "id": "dp_exploratory-questions_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -241,13 +265,37 @@
       ],
       "text": "[Ashamed] I hate feeling weak in front of people, like everyone can see I failed.",
       "suggestion": "When 'weak' shows up in front of people, what feeling comes with being seen?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Tense] The report was accepted without any changes. I should have been pleased. Instead I spent the evening checking whether I'd missed something.",
+      "suggestion": "What do you notice in yourself when there is nothing left to correct?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Hesitant] My son wanted me to sit with him, not help him fix anything. I stayed, but I didn't really know what to do.",
+      "suggestion": "What is it like for you to be wanted there without a job to do?"
     }
   ],
   "case-jason": [
     {
       "id": "dp_exploratory-questions_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -259,7 +307,7 @@
     {
       "id": "dp_exploratory-questions_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -271,7 +319,7 @@
     {
       "id": "dp_exploratory-questions_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -283,7 +331,7 @@
     {
       "id": "dp_exploratory-questions_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -295,7 +343,7 @@
     {
       "id": "dp_exploratory-questions_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -307,7 +355,7 @@
     {
       "id": "dp_exploratory-questions_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -319,7 +367,7 @@
     {
       "id": "dp_exploratory-questions_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -331,7 +379,7 @@
     {
       "id": "dp_exploratory-questions_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -343,7 +391,7 @@
     {
       "id": "dp_exploratory-questions_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -355,7 +403,7 @@
     {
       "id": "dp_exploratory-questions_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -363,13 +411,37 @@
       ],
       "text": "[Quietly] Sunday nights feel heavy, like everyone else has a life waiting for them.",
       "suggestion": "When that Sunday heaviness arrives, what feeling comes with the thought of belonging?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Uncertain] A colleague saved me a seat. I felt something, but then I was too busy trying to sit down normally to notice it.",
+      "suggestion": "What do you notice now as you picture the seat they saved for you?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Low voice] I typed a message to a friend, then deleted it. It only said I was having a rough day. Somehow that was too much.",
+      "suggestion": "What feels most difficult about letting your friend see that message?"
     }
   ],
   "case-laura": [
     {
       "id": "dp_exploratory-questions_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -381,7 +453,7 @@
     {
       "id": "dp_exploratory-questions_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -393,7 +465,7 @@
     {
       "id": "dp_exploratory-questions_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -405,7 +477,7 @@
     {
       "id": "dp_exploratory-questions_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -417,7 +489,7 @@
     {
       "id": "dp_exploratory-questions_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -429,7 +501,7 @@
     {
       "id": "dp_exploratory-questions_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -441,7 +513,7 @@
     {
       "id": "dp_exploratory-questions_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -453,7 +525,7 @@
     {
       "id": "dp_exploratory-questions_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -465,7 +537,7 @@
     {
       "id": "dp_exploratory-questions_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -477,7 +549,7 @@
     {
       "id": "dp_exploratory-questions_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -485,13 +557,37 @@
       ],
       "text": "[Flat and guarded] I skip anything with fighting and tell people I just do not like those movies.",
       "suggestion": "Imagining the real reason spoken aloud, what feeling comes first?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Guarded] My friend sat beside me without asking questions. I didn't mind it as much as I expected. That's the bit I can't explain.",
+      "suggestion": "What was that quiet company like for you?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flat] I sorted the last of his things. It was just a practical job. But afterwards I couldn't settle, even though everything was finally tidy.",
+      "suggestion": "What do you notice in that unsettled feeling right now?"
     }
   ],
   "case-carlos": [
     {
       "id": "dp_exploratory-questions_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -503,7 +599,7 @@
     {
       "id": "dp_exploratory-questions_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -515,7 +611,7 @@
     {
       "id": "dp_exploratory-questions_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -527,7 +623,7 @@
     {
       "id": "dp_exploratory-questions_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -539,7 +635,7 @@
     {
       "id": "dp_exploratory-questions_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -551,7 +647,7 @@
     {
       "id": "dp_exploratory-questions_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -563,7 +659,7 @@
     {
       "id": "dp_exploratory-questions_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -575,7 +671,7 @@
     {
       "id": "dp_exploratory-questions_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -587,7 +683,7 @@
     {
       "id": "dp_exploratory-questions_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -599,7 +695,7 @@
     {
       "id": "dp_exploratory-questions_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -607,13 +703,37 @@
       ],
       "text": "[Vulnerable] What I want most is for my family to feel safe with me.",
       "suggestion": "When you say safe, what happens in you around that wish?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Tense] My daughter asked me to lower my voice. I did. But something happened inside before I did, and I don't know what to call it.",
+      "suggestion": "What do you notice as you return to the moment she asked you?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Quiet, frowning] The men asked for my advice instead of just doing what I said. I liked it, actually. Then I felt uncomfortable about liking it.",
+      "suggestion": "What felt good about being asked for your advice?"
     }
   ],
   "case-nina": [
     {
       "id": "dp_exploratory-questions_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -625,7 +745,7 @@
     {
       "id": "dp_exploratory-questions_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -637,7 +757,7 @@
     {
       "id": "dp_exploratory-questions_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -649,7 +769,7 @@
     {
       "id": "dp_exploratory-questions_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -661,7 +781,7 @@
     {
       "id": "dp_exploratory-questions_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -673,7 +793,7 @@
     {
       "id": "dp_exploratory-questions_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -685,7 +805,7 @@
     {
       "id": "dp_exploratory-questions_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -697,7 +817,7 @@
     {
       "id": "dp_exploratory-questions_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -709,7 +829,7 @@
     {
       "id": "dp_exploratory-questions_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -721,7 +841,7 @@
     {
       "id": "dp_exploratory-questions_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -729,13 +849,37 @@
       ],
       "text": "[Tired] I crash on the sofa at night after holding everyone together all day.",
       "suggestion": "When you stop holding everyone together, what do you meet in yourself?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Hesitant] A colleague offered to take one of my tasks. I almost said yes. Then I heard myself saying it was no trouble, and I felt cross afterwards.",
+      "suggestion": "What did you want to say in that moment before 'no trouble' came out?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Apologetic] Everyone had a lovely Sunday. I organised it. When they asked whether I'd enjoyed it, I couldn't answer without wanting to cry.",
+      "suggestion": "What comes up as you give yourself room to answer that now?"
     }
   ],
   "case-aisha": [
     {
       "id": "dp_exploratory-questions_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -747,7 +891,7 @@
     {
       "id": "dp_exploratory-questions_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -759,7 +903,7 @@
     {
       "id": "dp_exploratory-questions_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -771,7 +915,7 @@
     {
       "id": "dp_exploratory-questions_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -783,7 +927,7 @@
     {
       "id": "dp_exploratory-questions_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -795,7 +939,7 @@
     {
       "id": "dp_exploratory-questions_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -807,7 +951,7 @@
     {
       "id": "dp_exploratory-questions_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -819,7 +963,7 @@
     {
       "id": "dp_exploratory-questions_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -831,7 +975,7 @@
     {
       "id": "dp_exploratory-questions_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -843,7 +987,7 @@
     {
       "id": "dp_exploratory-questions_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -851,13 +995,37 @@
       ],
       "text": "[Panicked] At the end I say goodbye like it is fine, and then I leave angry for needing you.",
       "suggestion": "What feeling is under the anger as you leave?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Guarded, then softer] I don't want to need your opinion. But when you said you hadn't decided for me, I felt worse, not better. I don't understand that.",
+      "suggestion": "What was hardest to hear in my saying I hadn't decided for you?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Quickly, then pausing] I wanted to send another message, and I didn't. Everyone calls that progress. I'm still trying to work out what I was left feeling.",
+      "suggestion": "What do you notice in the feeling that stayed after you put the phone down?"
     }
   ],
   "case-david": [
     {
       "id": "dp_exploratory-questions_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -869,7 +1037,7 @@
     {
       "id": "dp_exploratory-questions_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -881,7 +1049,7 @@
     {
       "id": "dp_exploratory-questions_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -893,7 +1061,7 @@
     {
       "id": "dp_exploratory-questions_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -905,7 +1073,7 @@
     {
       "id": "dp_exploratory-questions_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -917,7 +1085,7 @@
     {
       "id": "dp_exploratory-questions_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -929,7 +1097,7 @@
     {
       "id": "dp_exploratory-questions_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -941,7 +1109,7 @@
     {
       "id": "dp_exploratory-questions_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -953,7 +1121,7 @@
     {
       "id": "dp_exploratory-questions_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -965,7 +1133,7 @@
     {
       "id": "dp_exploratory-questions_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -973,13 +1141,37 @@
       ],
       "text": "[Wounded but sharp] I hate being ordinary at work in front of everyone, like it means I have disappeared.",
       "suggestion": "When 'ordinary' starts to feel like disappearing, what feeling shows up?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Controlled] I didn't correct my colleague in front of the team. It was the sensible decision. I was preoccupied with it for hours afterwards, though.",
+      "suggestion": "What did holding back that correction feel like for you?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Quiet, guarded] My wife thanked me for listening. There was nothing particularly insightful about what I said. Her thanking me felt strangely difficult to take.",
+      "suggestion": "What is difficult about receiving her thanks just for listening?"
     }
   ],
   "case-marcus": [
     {
       "id": "dp_exploratory-questions_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -991,7 +1183,7 @@
     {
       "id": "dp_exploratory-questions_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -1003,7 +1195,7 @@
     {
       "id": "dp_exploratory-questions_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -1015,7 +1207,7 @@
     {
       "id": "dp_exploratory-questions_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -1027,7 +1219,7 @@
     {
       "id": "dp_exploratory-questions_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -1039,7 +1231,7 @@
     {
       "id": "dp_exploratory-questions_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -1051,7 +1243,7 @@
     {
       "id": "dp_exploratory-questions_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -1063,7 +1255,7 @@
     {
       "id": "dp_exploratory-questions_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -1075,7 +1267,7 @@
     {
       "id": "dp_exploratory-questions_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -1087,7 +1279,7 @@
     {
       "id": "dp_exploratory-questions_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "explore_body",
         "explore_meaning",
@@ -1095,6 +1287,30 @@
       ],
       "text": "[Flat] I tell myself I am better off alone because closeness always costs something.",
       "suggestion": "When closeness starts to feel costly, what feeling shows up inside?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Low voice] I stayed when the neighbour started talking. Usually I leave. Afterwards I was restless. That's all I know.",
+      "suggestion": "What can you notice about that restlessness here, without needing to explain it?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Guarded] You remembered the date. I wasn't expecting that. Don't know whether I like it.",
+      "suggestion": "What is it like, right now, that I remembered?"
     }
   ]
 }

@@ -140,6 +140,8 @@ async (page) => {
     assert(await o.locator('#practice-format').isHidden(),'Host selection does not offer a conflicting local practice format');
     lostResponse=true;await click(o,'start-practice');await o.locator('#room-retry').waitFor();await enabled(o,'room-retry');await click(o,'room-retry');
     assert(room.phase==='lobby'&&room.member_ids.length===5,'Host selection keeps the room roster');
+    assert(room.catalog.length===12 && ['11','12'].every(number=>room.catalog.some(item=>
+      item.id===`dp_empathic-understanding_case-sara_${number}`)), 'Rooms receive all twelve source items, including the additions');
     await syncAll();
     for(const p of pages){
       assert(await p.locator('#room-header').isHidden(),'Preparation omits the duplicate group heading and library shortcut');
