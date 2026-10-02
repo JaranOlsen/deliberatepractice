@@ -229,7 +229,7 @@ async (page) => {
   await click('rating-submit');
   await page.waitForFunction(() => document.querySelector('#rating-status').textContent === 'Rating saved.');
   assert(saves.length === 2 && saves.every((payload) => payload.itemCount === 10 && payload.therapistUserId === 'test-self' && payload.score === 4), 'Rating payload must retain count, score and round owner');
-  assert(saves[0].practiceMode === 'individual' && saves[0].ratingRubric === 'individual-mastery-v1' && saves[0].roundId && saves[0].roundId === saves[1].roundId, 'A failed save and retry must use the same round ID');
+  assert(saves[0].practiceMode === 'individual' && saves[0].ratingRubric === 'group-skill-v2' && saves[0].roundId && saves[0].roundId === saves[1].roundId, 'A failed save and retry must use the same round ID');
   assert(!(await visible('rating-submit')), 'Successful save must not offer duplicate submission');
   await click('rating-skip');
   await page.reload();

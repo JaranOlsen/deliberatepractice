@@ -73,7 +73,7 @@ begin
     or jsonb_array_length(r->'skipped_ids') <> 2 then raise exception 'Outcome counted incorrectly'; end if;
   -- A colliding round UUID must never retarget an unrelated rating.
   insert into public.practice_ratings(therapist_user_id, created_by_user_id, source, language_id,
-    skill_id, case_id, score, client_round_id) values(t.stranger_id,t.observer_id,'observer','en','other','case-other',1,(r->>'round_id')::uuid);
+    skill_id, case_id, score, client_round_id, practice_mode) values(t.stranger_id,t.observer_id,'observer','en','other','case-other',1,(r->>'round_id')::uuid,'triad');
   begin
     perform public.command_practice_room(t.room_id,gen_random_uuid(),(r->>'version')::integer,'rate',4);
     raise exception 'TEST FAILURE: Unrelated rating overwritten';

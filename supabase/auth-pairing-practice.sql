@@ -87,16 +87,15 @@ alter table public.practice_ratings add column if not exists client_round_id uui
 create unique index if not exists practice_ratings_client_round_idx
   on public.practice_ratings (created_by_user_id, client_round_id);
 
--- Keep legacy rows unclassified: the old client did not record its rating scale.
+-- One skill-performance scale for individual and group practice, self and observer.
 alter table public.practice_ratings add column if not exists practice_mode text;
-alter table public.practice_ratings add column if not exists rating_rubric text;
+alter table public.practice_ratings add column if not exists rating_rubric text default 'group-skill-v2';
+alter table public.practice_ratings alter column practice_mode set not null;
+alter table public.practice_ratings alter column rating_rubric set default 'group-skill-v2';
+alter table public.practice_ratings alter column rating_rubric set not null;
 alter table public.practice_ratings drop constraint if exists practice_ratings_rubric_check;
 alter table public.practice_ratings add constraint practice_ratings_rubric_check check (
-  (practice_mode is null and rating_rubric is null)
-  or (practice_mode is not null and rating_rubric is not null and (
-    (practice_mode = 'individual' and rating_rubric = 'individual-mastery-v1')
-    or (practice_mode = 'triad' and rating_rubric in ('group-consistency-v1', 'group-skill-v2'))
-  ))
+  practice_mode in ('individual', 'triad') and rating_rubric = 'group-skill-v2'
 );
 
 create or replace function public.dp_touch_updated_at()
@@ -471,7 +470,7 @@ create or replace function public.record_practice_rating(
   input_item_count integer default null,
   input_client_round_id uuid default null,
   input_practice_mode text default null,
-  input_rating_rubric text default null
+  input_rating_rubric text default 'group-skill-v2'
 )
 returns table (
   id uuid,
@@ -500,6 +499,14 @@ begin
 
   if input_score is null or input_score < 1 or input_score > 5 then
     raise exception 'Score must be between 1 and 5';
+  end if;
+
+  if input_rating_rubric is distinct from 'group-skill-v2' then
+    raise exception 'This rating scale is no longer supported. Refresh the app.';
+  end if;
+
+  if input_practice_mode is null or input_practice_mode not in ('individual', 'triad') then
+    raise exception 'Practice mode must be individual or triad';
   end if;
 
   if normalized_rating_scope not in ('statement', 'series') then

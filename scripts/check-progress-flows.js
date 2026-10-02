@@ -33,8 +33,8 @@ async (page) => {
       if (!response.ok) throw new Error('Test network failure');
       return response.json();
     };
-    export const listPracticeRatings = async ({source,rubric}) => {
-      const response = await fetch('/__dp_test_history?source=' + source + '&rubric=' + rubric);
+    export const listPracticeRatings = async ({source}) => {
+      const response = await fetch('/__dp_test_history?source=' + source);
       if (!response.ok) throw new Error('Unavailable');
       return response.json();
     };
@@ -51,9 +51,8 @@ async (page) => {
 
   await page.route('**/__dp_test_history?*', async (route) => {
     const source = new URL(route.request().url()).searchParams.get('source');
-    const rubric = new URL(route.request().url()).searchParams.get('rubric');
-    const body = JSON.stringify(rubric === 'legacy' ? [{...row, score:5}] : rubric === 'group-consistency-v1' ? [{...row, score:1}] : rubric === 'group-skill-v2' ? [{...row,score:3}] : data[source]);
-    if (hold && source === 'self' && rubric === 'individual-mastery-v1') {
+    const body = JSON.stringify(data[source]);
+    if (hold && source === 'self') {
       pending?.();
       await new Promise((resolve) => { release = resolve; });
     }
@@ -62,6 +61,7 @@ async (page) => {
   try {
     await page.evaluate(() => { localStorage.clear(); localStorage.setItem('dp_practice_preferences_v1', JSON.stringify({languageId:'en'})); });
     await page.reload();
+    await page.locator('input[name="practice-mode"][value="individual"]').check();
     await click('open-progress');
     await waitLoaded();
     assert(await page.evaluate(() => document.activeElement.id === 'self-chart-title' && document.querySelector('main').inert), 'Progress dialog must own focus');
@@ -104,25 +104,12 @@ async (page) => {
     assert(await page.locator('.self-chart-axis').count() === 0, 'Focusing a level excludes skills without data at that level');
     assert(await page.evaluate(()=>document.activeElement.dataset.progressLevel==='hard'), 'Level selection retains keyboard focus');
     await page.locator('[data-progress-level=all]').click();
-    await page.locator('#progress-filters summary').click();
+    assert(await page.locator('#progress-source').isVisible() && await page.locator('#progress-source option').count() === 2, 'Self/observer choice is directly visible');
+    assert(await page.locator('#progress-rubric, #progress-filters').count() === 0, 'Scale chooser and filter disclosure are removed');
     await page.locator('#progress-source').selectOption('observer');
     await waitLoaded();
     assert((await page.locator('[data-progress-level=easy] strong').textContent()).includes('2.0/5'), 'Observer ratings must be separate from self ratings');
     assert(await page.locator('.radar-small-row').count() === 1, 'Self-only skills must not leak into observer chart');
-    await page.locator('#progress-rubric').selectOption('group-consistency-v1');
-    await waitLoaded();
-    assert((await page.locator('[data-progress-level=easy] strong').textContent()).includes('1.0/5'), 'Group consistency must not mix with individual mastery');
-    assert((await page.locator('#progress-rubric-note').textContent()).includes('Consistently'), 'The selected scale must be explained');
-    await page.locator('#progress-rubric').selectOption('group-skill-v2');
-    await waitLoaded();
-    assert((await page.locator('[data-progress-level=easy] strong').textContent()).includes('3.0/5'), 'Skill performance must remain separate from historical consistency');
-    assert((await page.locator('#progress-rubric-note').textContent()).includes('therapist'), 'Skill performance identifies what is assessed');
-    await page.locator('#progress-rubric').selectOption('legacy');
-    await waitLoaded();
-    assert((await page.locator('[data-progress-level=easy] strong').textContent()).includes('5.0/5'), 'Earlier ratings must remain accessible separately');
-    assert((await page.locator('#progress-rubric-note').textContent()).includes('before the scale was recorded'), 'Legacy ratings must not be assigned an inferred scale');
-    await page.locator('#progress-rubric').selectOption('individual-mastery-v1');
-    await waitLoaded();
     const allSkills = await page.locator('[data-practice-skill]').evaluateAll(els => els.map(el => el.dataset.practiceSkill));
     data.self = allSkills.map((id,index) => ({...row, skill_id:id, score: 1 + index % 5}));
     await page.locator('#progress-source').selectOption('self');
@@ -171,27 +158,12 @@ async (page) => {
     hold = false;
     await waitLoaded();
     assert(await page.locator('.self-chart-dot').count() === 12, 'A repeated current-user session must not cancel progress loading');
-    await page.locator('#progress-rubric').selectOption('group-skill-v2');
-    await waitLoaded();
     await page.locator('#progress-source').selectOption('observer');
     await waitLoaded();
     await page.evaluate(async () => (await import('/deliberatepractice/src/js/backend.js')).repeatCurrentSession());
-    assert(await page.locator('#progress-rubric').inputValue() === 'group-skill-v2' && await page.locator('#progress-source').inputValue() === 'observer', 'Token refresh must preserve progress filters');
-    assert((await page.locator('[data-progress-level=easy] strong').textContent()).includes('3.0/5'), 'Token refresh must preserve loaded ratings');
+    assert(await page.locator('#progress-source').inputValue() === 'observer', 'Token refresh preserves the selected source');
+    assert((await page.locator('[data-progress-level=easy] strong').textContent()).includes('2.0/5'), 'Token refresh preserves loaded ratings');
     await page.locator('#progress-source').selectOption('self');
-    await page.locator('#progress-rubric').selectOption('individual-mastery-v1');
-    await waitLoaded();
-    hold = true;
-    const scaleStarted = new Promise(resolve => {pending = resolve;});
-    await click('self-chart-refresh');
-    await scaleStarted;
-    await page.locator('#progress-rubric').selectOption('group-consistency-v1');
-    await waitLoaded();
-    release();
-    hold = false;
-    await page.waitForLoadState('networkidle');
-    assert((await page.locator('[data-progress-level=easy] strong').textContent()).includes('1.0/5'), 'A late response from another scale must not replace current ratings');
-    await page.locator('#progress-rubric').selectOption('individual-mastery-v1');
     await waitLoaded();
     hold = true;
     const started = new Promise(resolve => {pending = resolve;});

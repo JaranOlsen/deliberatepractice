@@ -75,7 +75,7 @@ async function openSharedRoom(mode = "hub", {selectedCase = false, code = null} 
       getUser: () => state.authUser, getLanguage: () => state.languageId ?? 'en', localizeSkill,
       getStrings: getUIStrings, signIn: showAccountPanel,
       onProgressChange: ({source}) => {
-        state.progressRubric = "group-skill-v2"; state.progressSource = source;
+        state.progressSource = source;
         progressRequestId++; state.progressRatingsLoading = false; state.progressRatingsLoaded = false;
       }});
     sections.room = roomView.element;
@@ -334,7 +334,6 @@ const elements = {
 const releaseElements = Object.fromEntries([
   "progress-overlay", "close-progress", "account-progress",
   "open-progress", "progress-source", "progress-source-label", "progress-source-self", "progress-source-observer",
-  "progress-rubric", "progress-rubric-label", "progress-rubric-individual", "progress-rubric-group", "progress-rubric-group-earlier", "progress-rubric-legacy", "progress-rubric-note",
   "content-load-notice", "content-load-status", "content-load-retry",
   "last-setup-card", "last-setup-title", "last-setup-details", "repeat-last-setup",
   "individual-guide", "individual-focus-label", "individual-focus", "individual-instruction",
@@ -387,7 +386,6 @@ const state = {
   authTargets: [],
   authLoading: false,
   progressSource: "self",
-  progressRubric: "individual-mastery-v1",
   progressDifficulty: "all",
   progressRatings: [],
   progressRatingsLoading: false,
@@ -1280,16 +1278,6 @@ function renderSelfRatingsChart() {
   releaseElements["progress-source-self"].textContent = strings.progressSelf;
   releaseElements["progress-source-observer"].textContent = strings.progressObserver;
   releaseElements["progress-source"].value = state.progressSource;
-  releaseElements["progress-rubric"].value = state.progressRubric;
-  releaseElements["progress-rubric-label"].textContent = strings.progressRubricLabel;
-  releaseElements["progress-rubric-individual"].textContent = strings.progressRubricIndividual;
-  releaseElements["progress-rubric-group"].textContent = strings.progressRubricGroup;
-  releaseElements["progress-rubric-group-earlier"].textContent = strings.progressRubricGroupEarlier;
-  releaseElements["progress-rubric-legacy"].textContent = strings.progressRubricLegacy;
-  releaseElements["progress-rubric-note"].textContent = state.progressRubric === "legacy"
-    ? strings.progressRubricLegacyNote : state.progressRubric === "group-consistency-v1"
-    ? strings.triadRatingScoreGuide : state.progressRubric === "group-skill-v2" ? strings.groupRatingGuide : strings.ratingScoreGuide;
-  document.getElementById('progress-filter-summary').textContent = `${releaseElements['progress-source'].selectedOptions[0].textContent} · ${releaseElements['progress-rubric'].selectedOptions[0].textContent}`;
   if (elements.selfChartTitle) {
     elements.selfChartTitle.textContent = strings.selfChartTitle ?? "Your progress";
   }
@@ -1333,8 +1321,7 @@ function renderSelfRatingsChart() {
     formatChartTemplate(strings.selfChartCount, {count: visibleCount})
   ].join(' · ');
   if (!summary.overall.count) {
-    elements.selfChartStatus.textContent = state.progressRubric !== 'legacy' ? strings.progressScaleEmpty
-      : state.progressSource === 'observer' ? strings.progressObserverEmpty : strings.selfChartEmpty;
+    elements.selfChartStatus.textContent = state.progressSource === 'observer' ? strings.progressObserverEmpty : strings.selfChartEmpty;
     elements.selfChart.append(renderProgressHistory(summary));
     return;
   }
@@ -1528,8 +1515,7 @@ function renderProgressHistory(summary) {
     button.addEventListener("click", () => {
       if (state.sessionActive || state.ratingVisible) return;
       dialogs.close(releaseElements["progress-overlay"]);
-      // Practicing from personal history always starts a local round for this account.
-      state.practiceMode = state.progressRubric.startsWith("group-") ? PRACTICE_MODES.GROUP : PRACTICE_MODES.INDIVIDUAL;
+      // Keep the practice format chosen in the library.
 
       if (!state.languageId) handleLanguageSelection("en");
       handleSkillSelection(entry.skillId);
@@ -1552,13 +1538,12 @@ async function loadProgressRatings({ force = false } = {}) {
   const requestId = ++progressRequestId;
   const userId = state.authUser.id;
   const source = state.progressSource;
-  const rubric = state.progressRubric;
-  const isCurrent = () => requestId === progressRequestId && state.authUser?.id === userId && state.progressSource === source && state.progressRubric === rubric;
+  const isCurrent = () => requestId === progressRequestId && state.authUser?.id === userId && state.progressSource === source;
   state.progressRatingsLoading = true;
   state.progressRatingsError = "";
   renderSelfRatingsChart();
   try {
-    const ratings = await listPracticeRatings({ source, rubric });
+    const ratings = await listPracticeRatings({ source });
     if (!isCurrent()) return;
     state.progressRatings = ratings;
     state.progressRatingsLoaded = true;
@@ -1699,7 +1684,6 @@ async function applyAuthSession(session) {
   if (userChanged) {
     progressRequestId += 1;
     state.progressSource = "self";
-    state.progressRubric = "individual-mastery-v1";
     state.progressDifficulty = "all";
     state.progressRatings = [];
     state.progressRatingsLoading = false;
@@ -3198,9 +3182,7 @@ function updateRatingScoreButtons() {
 function updateRatingScaleCopy() {
   const strings = getUIStrings();
   if (elements.ratingScoreGuide) {
-    elements.ratingScoreGuide.textContent = isTriadPractice()
-      ? strings.groupRatingGuide
-      : strings.ratingScoreGuide ?? "1 = Not yet mastered · 5 = Mastered confidently";
+    elements.ratingScoreGuide.textContent = strings.groupRatingGuide;
   }
 }
 
@@ -3652,7 +3634,7 @@ async function handleRatingSubmit() {
     await submitPracticeRating({
       roundId: state.roundId,
       practiceMode: state.practiceMode,
-      ratingRubric: isTriadPractice() ? "group-skill-v2" : "individual-mastery-v1",
+      ratingRubric: "group-skill-v2",
       therapistUserId: getTargetUserId(target),
       source: getActiveRatingSource(),
       languageId: state.languageId ?? "en",
@@ -3975,12 +3957,6 @@ function registerEventListeners() {
   });
   releaseElements["progress-source"].addEventListener("change", (event) => {
     state.progressSource = event.target.value === "observer" ? "observer" : "self";
-    state.progressRatings = [];
-    state.progressRatingsLoaded = false;
-    loadProgressRatings({ force: true });
-  });
-  releaseElements["progress-rubric"].addEventListener("change", (event) => {
-    state.progressRubric = event.target.value;
     state.progressRatings = [];
     state.progressRatingsLoaded = false;
     loadProgressRatings({ force: true });

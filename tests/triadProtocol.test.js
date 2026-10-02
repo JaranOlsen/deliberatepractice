@@ -80,7 +80,7 @@ test("all supported languages contain the triad interface contract", () => {
     "triadPassCancel",
     "triadSuggestionExampleNote",
     "triadRatingTitle",
-    "triadRatingScoreGuide"
+    "groupRatingGuide"
   ];
   LANGUAGE_ORDER.forEach((languageId) => {
     requiredKeys.forEach((key) => {

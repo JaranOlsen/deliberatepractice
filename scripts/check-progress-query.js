@@ -29,23 +29,19 @@ async (page) => {
       if (error) throw error;
       const backend = await import('./src/js/backend.js?progress-query-check=' + Date.now());
       await backend.listPracticeRatings({source:'self'});
-      await backend.listPracticeRatings({source:'observer',rubric:'group-consistency-v1'});
-      await backend.listPracticeRatings({source:'self',rubric:'legacy'});
-      await backend.listPracticeRatings({source:'observer',rubric:'group-skill-v2'});
+      await backend.listPracticeRatings({source:'observer'});
       let invalidRejected = false;
       try { await backend.listPracticeRatings({source:'unexpected'}); } catch { invalidRejected = true; }
       auth.auth.stopAutoRefresh();
-      let invalidRubricRejected = false;
-      try { await backend.listPracticeRatings({rubric:'unknown'}); } catch { invalidRubricRejected = true; }
-      return {invalidRejected, invalidRubricRejected};
+      return {invalidRejected};
     }, {sdkPath, origin});
-    if (!result.invalidRejected || !result.invalidRubricRejected || calls.length !== 4) throw new Error('Unexpected query count or invalid source accepted.');
+    if (!result.invalidRejected || calls.length !== 2) throw new Error('Unexpected query count or invalid source accepted.');
     for (const [index, call] of calls.entries()) {
-      if (call.therapist_user_id !== 'eq.query-test-user' || call.source !== 'eq.' + ['self','observer','self','observer'][index]
-        || call.rating_rubric !== ['eq.individual-mastery-v1','eq.group-consistency-v1','is.null','eq.group-skill-v2'][index]
+      if (call.therapist_user_id !== 'eq.query-test-user' || call.source !== 'eq.' + ['self','observer'][index]
+        || call.rating_rubric !== 'eq.group-skill-v2'
         || call.limit !== '500' || call.order !== 'created_at.desc') throw new Error('Rating query lost its owner/source/limit/order constraints.');
     }
-    return {status:'passed', checks:['real SDK query scoped to signed-in therapist', 'self and observer filters', 'latest 500 limit', 'individual/group/legacy scale filters', 'invalid source and scale rejected']};
+    return {status:'passed', checks:['real SDK query scoped to signed-in therapist', 'self and observer filters', 'latest 500 limit', 'same current scale for both sources', 'invalid source rejected']};
   } finally {
     await page.unroute('**/src/js/backend.js?progress-query-check*');
     await page.unroute(origin + '/auth/v1/**');

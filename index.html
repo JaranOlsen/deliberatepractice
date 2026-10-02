@@ -455,7 +455,7 @@
             <button type="button" data-rating-score="5">5</button>
           </div>
           <div class="rating-scale-guide" id="rating-score-guide">
-            1 = Not yet mastered · 5 = Mastered confidently
+            1 = Not yet demonstrated · 5 = Skillfully demonstrated
           </div>
         </div>
         <div class="rating-actions">
@@ -538,22 +538,13 @@
               </div>
               <button type="button" class="ghost-button ghost-button--small" id="self-chart-refresh">Refresh</button>
             </div>
-            <details class="progress-filters" id="progress-filters">
-              <summary id="progress-filter-summary">Self-ratings · Individual mastery</summary>
+            <div class="progress-source-picker">
               <label for="progress-source" id="progress-source-label" class="form-label">Ratings of your practice</label>
               <select id="progress-source">
                 <option value="self" id="progress-source-self">Self-ratings</option>
                 <option value="observer" id="progress-source-observer">Observer ratings</option>
               </select>
-              <label for="progress-rubric" id="progress-rubric-label" class="form-label">Rating scale</label>
-              <select id="progress-rubric" aria-describedby="progress-rubric-note">
-                <option value="individual-mastery-v1" id="progress-rubric-individual">Individual · mastery</option>
-                <option value="group-skill-v2" id="progress-rubric-group">Group · skill performance</option>
-                <option value="group-consistency-v1" id="progress-rubric-group-earlier">Earlier group · consistency</option>
-                <option value="legacy" id="progress-rubric-legacy">Earlier · scale unspecified</option>
-              </select>
-              <p id="progress-rubric-note" class="response-hint"></p>
-            </details>
+            </div>
             <div id="self-chart-status" class="response-hint" role="status"></div>
             <div id="self-chart" class="self-chart"></div>
           </div>

@@ -147,23 +147,21 @@ export async function submitPracticeRating(payload) {
   return Array.isArray(data) ? data[0] ?? null : data ?? null;
 }
 
-export async function listPracticeRatings({ source = "self", rubric = "individual-mastery-v1", limit = 500 } = {}) {
+export async function listPracticeRatings({ source = "self", limit = 500 } = {}) {
   if (!["self", "observer"].includes(source)) throw new Error("Unknown rating source");
-  if (!["individual-mastery-v1", "group-consistency-v1", "group-skill-v2", "legacy"].includes(rubric)) throw new Error("Unknown rating scale");
   const supabase = await getSupabaseClient();
   const { data: userData, error: userError } = await supabase.auth.getUser();
   if (userError) throw normalizeSupabaseError(userError);
   const userId = userData?.user?.id;
   if (!userId) return [];
-  let query = supabase
+  const { data, error } = await supabase
     .from("practice_ratings")
     .select("skill_id,case_id,difficulty,score,item_count,created_at,practice_mode,rating_rubric")
     .eq("therapist_user_id", userId)
     .eq("source", source)
+    .eq("rating_rubric", "group-skill-v2")
     .order("created_at", { ascending: false })
     .limit(limit);
-  query = rubric === "legacy" ? query.is("rating_rubric", null) : query.eq("rating_rubric", rubric);
-  const { data, error } = await query;
   if (error) throw normalizeSupabaseError(error);
   return Array.isArray(data) ? data : [];
 }

@@ -2031,9 +2031,8 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 .radar-small-row { display: grid; grid-template-columns: 5rem minmax(0,1fr) 3rem; align-items: center; gap: .5rem; margin: .65rem 0; font-size: .8rem; }
 .radar-small-track { height: .5rem; background: #e7ecea; border-radius: 1rem; overflow: hidden; }
 .radar-small-track span { display: block; height: 100%; background: var(--radar-color); }
-.progress-filters { margin: .7rem 0; border: 1px solid var(--color-border); border-radius: .65rem; padding: .65rem; }
-.progress-filters summary { font-size: .85rem; font-weight: 600; cursor: pointer; min-height: 24px; line-height: 1.5; }
-.progress-filters[open] summary { margin-bottom: .75rem; }
+.progress-source-picker { margin: .7rem 0; }
+.progress-source-picker select { min-height: 44px; }
 @media (max-width: 360px) {
   .radar-level:not(.radar-level--all) .radar-level-label::before { display: block; margin: 0 auto .3rem; }
 }
