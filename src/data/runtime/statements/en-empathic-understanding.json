@@ -1,0 +1,1010 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_empathic-understanding_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] I got through work today, answered emails, smiled in a meeting, and then cried in the car because I missed him so much.",
+      "suggestion": "You kept functioning, and then the missing him hit you hard."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hopeful] I want to believe I can feel better about myself, and for the first time it feels possible to work on that here.",
+      "suggestion": "You feel a little hope that this could be a place to work on how you feel about yourself."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sad] I found an old photo while deleting things from my phone, and it made the breakup feel fresh again.",
+      "suggestion": "Finding that photo brought the breakup pain right back."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Angry] I hate that I still check my phone at night, like some part of me is waiting for his name to show up.",
+      "suggestion": "You hate that part of you is still waiting for him."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sad] Mornings are the worst. I wake up for one second before remembering he is gone, and then everything feels heavy.",
+      "suggestion": "The morning starts with that heavy remembering that he is gone."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] My friends keep saying time helps, and I know they mean well, but I feel embarrassed that I am still crying this easily.",
+      "suggestion": "You feel embarrassed that the sadness is still so close to the surface."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] I fill the day with errands and little tasks so I do not think, and then at night there is nothing left to distract me.",
+      "suggestion": "The busyness holds things off, and the loneliness catches up at night."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] When friends ask how I am, I make a joke or change the subject because I do not want to be the heavy one again.",
+      "suggestion": "You hide the heaviness so you do not become the heavy one again."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] I passed a couple holding hands outside the grocery store, and it felt like everyone else got picked for a life I lost.",
+      "suggestion": "Seeing them touched that feeling of being left out of the life you wanted."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] Part of me keeps going over conversations, trying to find the moment he decided I was not worth staying with.",
+      "suggestion": "You keep searching for the moment he stopped wanting to stay."
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_empathic-understanding_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Firm] I spent the whole morning fixing other people's mistakes at work, and by lunch I was fed up with everyone needing me to clean things up.",
+      "suggestion": "You felt worn out and frustrated from carrying everyone else's mistakes."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] My wife said she is tired of walking on eggshells around me, and hearing that made me feel ashamed.",
+      "suggestion": "Hearing that she walks on eggshells left you ashamed."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] After I yelled last night, I saw her flinch, and then I felt sick with shame.",
+      "suggestion": "Seeing her flinch after you yelled left you sick with shame."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] When someone questions my decision in a meeting, I can feel my anger come up before I have even answered.",
+      "suggestion": "Being questioned in front of others brings anger up fast."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] Someone asked a simple question I could not answer today, and I felt exposed in front of the whole room.",
+      "suggestion": "Not having the answer left you feeling exposed in front of everyone."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] I stayed up past midnight fixing slides because I could not stand the thought of someone catching me unsure in the morning.",
+      "suggestion": "You overprepared so no one would see you unsure."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Firm] My wife's tone changes a little, and I am already bracing before I know what she is actually trying to say.",
+      "suggestion": "Her tone makes you brace before you even know what she means."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and ashamed] I know I should apologize, but the second I do, it feels like I am handing her proof that I am weak.",
+      "suggestion": "Apologizing feels like exposing weakness."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] I tell myself I am only holding people to a standard, but underneath that I feel accused and cornered.",
+      "suggestion": "You call it holding standards, and underneath you feel accused."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] At night I replay what I said to my wife, especially the look on her face, and I feel awful.",
+      "suggestion": "At night you replay her face and feel awful about what happened."
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_empathic-understanding_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] I am tired of sitting in meetings with my heart racing while everyone else seems normal.",
+      "suggestion": "You are tired of feeling so anxious while everyone else seems at ease."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sad] I ate lunch alone again today and watched people at another table laughing like it was easy.",
+      "suggestion": "Eating alone while others connected left you sad."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fearful] I wanted to say yes to game night, and then the fear kept building until I made an excuse and cancelled.",
+      "suggestion": "You wanted to go, and the fear grew until you backed out."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] When someone compliments my work, I smile, but inside I wait for them to realize they were wrong.",
+      "suggestion": "The compliment does not land, and you expect it to be taken back."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] I rewrote a simple text six times today because every version sounded weird once I looked at it.",
+      "suggestion": "Even a simple text turns into anxiety and second-guessing."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] I eat lunch at my desk because walking into the break room feels like stepping onto a stage.",
+      "suggestion": "The break room feels exposed enough that your desk feels safer."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] After I say something in a meeting, I spend the rest of the afternoon replaying it and cringing.",
+      "suggestion": "After speaking, you replay it and feel embarrassed."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] In groups I go quiet so fast, and then I feel outside the circle even before anyone has left me out.",
+      "suggestion": "You go quiet and feel outside the group before anyone has said anything."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Trembling] When I had to introduce myself today, my hands shook, and I wanted the floor to open up.",
+      "suggestion": "Introducing yourself brought shaking and a wish to disappear."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] Sunday nights are hard because I realize no one is expecting to hear from me before the week starts again.",
+      "suggestion": "Sunday nights leave you painfully aware that no one is waiting to hear from you."
+    }
+  ],
+  "case-laura": [
+    {
+      "id": "dp_empathic-understanding_case-laura_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Slow and flat] I can get through a whole shift at the hospital, talk to patients, answer my kids' messages, and still feel like I am watching it all from far away.",
+      "suggestion": "You keep moving through work and family while feeling flat, as if the rest of you is far away."
+    },
+    {
+      "id": "dp_empathic-understanding_case-laura_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] Since the divorce, I sit with the bills after work and keep adding the numbers again, wondering if I can keep the house or if I am pretending.",
+      "suggestion": "Sitting with the bills brings the worry that the house may be slipping out of reach."
+    },
+    {
+      "id": "dp_empathic-understanding_case-laura_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and guarded] When someone is kind to me, even in a small way, I notice myself stepping back before I know whether I actually want the kindness.",
+      "suggestion": "Small kindness reaches you, and you step back into guardedness before you know whether you want it."
+    },
+    {
+      "id": "dp_empathic-understanding_case-laura_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Confused] I have been feeling depressed again, but nothing dramatic happened this week. Work was normal, the kids are fine, and I still feel like something dropped out from under me.",
+      "suggestion": "Everything looks normal on the outside, and inside you feel depressed, confused, and dropped down."
+    },
+    {
+      "id": "dp_empathic-understanding_case-laura_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Slow and flat] I tell myself I want closeness, and then when someone actually asks me to come over or stay longer, I go blank and start planning how to leave.",
+      "suggestion": "You long for closeness, and when it gets close enough to touch, you go blank and look for distance."
+    },
+    {
+      "id": "dp_empathic-understanding_case-laura_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sad] A friend stopped inviting me over after I cancelled too many times. Part of me is relieved not to explain myself, but I also feel sad when I see her with other people.",
+      "suggestion": "Relief at not explaining yourself sits next to sadness that the invitations stopped."
+    },
+    {
+      "id": "dp_empathic-understanding_case-laura_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat and guarded] I wake up tense before I even open my eyes, listening for whether something is wrong in the house, even though I live alone now.",
+      "suggestion": "You wake already braced, listening for trouble in an empty house."
+    },
+    {
+      "id": "dp_empathic-understanding_case-laura_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fearful] I avoid movies with fighting because one raised voice can make me feel scared before I can remind myself it is only a scene.",
+      "suggestion": "A raised voice on screen brings fear before you can remind yourself it is only a scene."
+    },
+    {
+      "id": "dp_empathic-understanding_case-laura_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tired] I keep trying to be normal at work, smiling and checking on everyone, but by the end of a shift I sit in the car because I am too worn out to drive home.",
+      "suggestion": "Holding the normal face and caring for everyone leaves you too worn out to go home."
+    },
+    {
+      "id": "dp_empathic-understanding_case-laura_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Confused] I am not sure what I should talk about here. I could talk about sleep, the divorce, work, or my childhood, but mostly I just know I do not feel like myself.",
+      "suggestion": "There are several possible starting points, and underneath them is the sense that you are not yourself."
+    }
+  ],
+  "case-carlos": [
+    {
+      "id": "dp_empathic-understanding_case-carlos_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hopeless] My wife and I keep having the same fight about my temper, and by the end we are both saying the same things as last time. Nothing changes no matter how hard I try.",
+      "suggestion": "The same fight keeps repeating until you feel worn down and hopeless."
+    },
+    {
+      "id": "dp_empathic-understanding_case-carlos_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] I hate remembering the moment my son watched me slam that door. He went quiet so fast, and now I keep seeing his face when I try to sleep.",
+      "suggestion": "Your son's quiet face after the door slammed stays with you as shame."
+    },
+    {
+      "id": "dp_empathic-understanding_case-carlos_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Angry] My brother promised to help with the kids and then disappeared again. I had counted on him, and when he did not answer, I was furious.",
+      "suggestion": "You counted on him, and his disappearing left you furious and let down."
+    },
+    {
+      "id": "dp_empathic-understanding_case-carlos_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] I am worried that if I lose one more job over my temper, my family will not recover. I keep doing the math in my head and seeing everything fall apart.",
+      "suggestion": "One more blowup at work feels like it could make everything fall apart for your family."
+    },
+    {
+      "id": "dp_empathic-understanding_case-carlos_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] After I blow up, everyone gets quiet and careful around me. That silence makes me feel like I have become exactly the man I said I would never be.",
+      "suggestion": "Their careful silence after you blow up leaves you ashamed of the man you seem to become."
+    },
+    {
+      "id": "dp_empathic-understanding_case-carlos_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] When things get calm after a fight, I feel nervous instead of relaxed. I start waiting for the next thing someone is going to say.",
+      "suggestion": "Calm after a fight does not feel calm; it leaves you nervous and waiting."
+    },
+    {
+      "id": "dp_empathic-understanding_case-carlos_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sad] My father is gone, and I still get angry that he never once said he was proud of me. It sounds stupid to want that now, but it still gets to me.",
+      "suggestion": "Even after his death, the missing words still leave you hurt and angry."
+    },
+    {
+      "id": "dp_empathic-understanding_case-carlos_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Confused] I know yelling scares my family, but in the moment it feels like the only way anyone hears me. Then afterward I hate that I used the one thing that makes them back away.",
+      "suggestion": "In the moment yelling feels like being heard, and afterward it hurts that it pushes them away."
+    },
+    {
+      "id": "dp_empathic-understanding_case-carlos_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Angry, clenching fists] I punch walls instead of people, and part of me thinks that should count for something. But I hate that it still scares them.",
+      "suggestion": "The wall feels like holding back from worse, and it still hurts that it scares them."
+    },
+    {
+      "id": "dp_empathic-understanding_case-carlos_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] I want my family to feel safe with me. When they still flinch at my voice, it feels like proof that I have already damaged something.",
+      "suggestion": "You want them to feel safe with you, and their flinching lands as proof that something is already damaged."
+    }
+  ],
+  "case-nina": [
+    {
+      "id": "dp_empathic-understanding_case-nina_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tired] Asking for help makes me feel guilty, even when I am exhausted. I start explaining why it is not really a big deal before anyone has even answered.",
+      "suggestion": "Asking for help brings guilt so quickly that you start shrinking the need before anyone answers."
+    },
+    {
+      "id": "dp_empathic-understanding_case-nina_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] The car repair bill came, and I do not know how we are going to make it through the month. I keep moving money around in my head and feeling more overwhelmed.",
+      "suggestion": "The repair bill leaves you moving numbers around and feeling more overwhelmed about the month."
+    },
+    {
+      "id": "dp_empathic-understanding_case-nina_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Torn] When I say no, my stomach knots while I picture everyone disappointed. Then I start explaining so much that the no almost disappears.",
+      "suggestion": "Saying no knots your stomach, and all the explaining nearly erases the no."
+    },
+    {
+      "id": "dp_empathic-understanding_case-nina_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sad] My sister forgot my birthday again, and I keep telling myself it should not matter because she is busy. But I was waiting for the message all day.",
+      "suggestion": "Her forgetting hurts, and you keep trying to talk yourself out of that hurt."
+    },
+    {
+      "id": "dp_empathic-understanding_case-nina_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Apologetic] When I sit down to rest, I feel guilty within seconds. I start noticing dishes, laundry, messages, anything that proves I should get back up.",
+      "suggestion": "Rest lasts only seconds before guilt starts listing reasons to get up again."
+    },
+    {
+      "id": "dp_empathic-understanding_case-nina_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Confused] I have been more depressed lately, but the boys are fine and work is fine, so I feel silly saying it. I keep thinking I should be grateful, not crying in the bathroom.",
+      "suggestion": "Things look fine from the outside, while you feel confused, depressed, and alone with the tears."
+    },
+    {
+      "id": "dp_empathic-understanding_case-nina_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] I explode sometimes, usually over something small, and then I feel awful for becoming the angry one after trying so hard to be patient.",
+      "suggestion": "After trying so hard to be patient, exploding leaves you ashamed of becoming the angry one."
+    },
+    {
+      "id": "dp_empathic-understanding_case-nina_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Guilty] I dream about someone taking care of me for once, bringing me tea or telling me to lie down, and then I feel selfish for wanting it.",
+      "suggestion": "The wish to be cared for is there, and then the wanting itself starts to feel selfish."
+    },
+    {
+      "id": "dp_empathic-understanding_case-nina_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Angry] A friend cancelled lunch at the last minute, and I texted that it was completely fine. Then I felt angry for the rest of the afternoon.",
+      "suggestion": "You sent the fine reply and then carried the anger and disappointment by yourself."
+    },
+    {
+      "id": "dp_empathic-understanding_case-nina_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tired] I do not know what to talk about today. There are too many small things, and I was hoping you could help me find where to start.",
+      "suggestion": "You feel tired and unsure where to begin with so many small things piled together."
+    }
+  ],
+  "case-aisha": [
+    {
+      "id": "dp_empathic-understanding_case-aisha_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panicked] If you look away while I am talking, even to check a note, I panic that you are losing interest. Then I start talking faster, adding details, anything to keep you with me.",
+      "suggestion": "When I look away, you feel me slipping away and start scrambling to keep me with you."
+    },
+    {
+      "id": "dp_empathic-understanding_case-aisha_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panicked] When a text does not come, my chest locks and I cannot breathe. I keep checking even though I know checking will not make it arrive, and each empty screen makes it worse.",
+      "suggestion": "The unanswered text locks your chest, and every empty check makes the panic worse."
+    },
+    {
+      "id": "dp_empathic-understanding_case-aisha_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperate] I hear myself begging 'don't leave,' and then suddenly I am yelling like I hate them. Afterward I cannot explain how I went from needing them so badly to attacking them.",
+      "suggestion": "You move from desperately needing them close to attacking them, and afterward the shift feels impossible to explain."
+    },
+    {
+      "id": "dp_empathic-understanding_case-aisha_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Confused] I do not know what to talk about today; I woke up feeling wrong, checked my phone too many times, and cannot tell if I am sad or angry.",
+      "suggestion": "You are unsure where to begin with a wrong feeling that will not sort into sad or angry."
+    },
+    {
+      "id": "dp_empathic-understanding_case-aisha_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] I am trying not to scratch, but when the panic gets that loud, my hands start moving before I have words for what is happening.",
+      "suggestion": "The panic outruns words and moves into your hands while you are trying not to scratch."
+    },
+    {
+      "id": "dp_empathic-understanding_case-aisha_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperate] If someone cancels, I want to quit before they can leave again. Part of me knows they may have a real reason, but another part is already packing up and disappearing first.",
+      "suggestion": "A cancellation feels like being left again, and part of you wants to disappear first."
+    },
+    {
+      "id": "dp_empathic-understanding_case-aisha_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] I hate myself after I blow up, even when I was terrified first; I keep replaying what I said and feeling disgusting.",
+      "suggestion": "After you blow up, the replay turns into disgust with yourself, even though terror came first."
+    },
+    {
+      "id": "dp_empathic-understanding_case-aisha_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] I test people to see if they care, and then I hate myself for needing proof; reassurance does not last very long.",
+      "suggestion": "You need proof that people care, and then shame comes when the reassurance fades so quickly."
+    },
+    {
+      "id": "dp_empathic-understanding_case-aisha_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperate] When a session ends, the room tilts and I feel dizzy and left; I know the hour is over, but my body does not know that.",
+      "suggestion": "The session ending feels like being left, even while one part knows the hour is over."
+    },
+    {
+      "id": "dp_empathic-understanding_case-aisha_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Scared] I am scared that if I stop chasing people, there will be nothing left of me. Without the crisis, without trying to get someone back, I do not know who I am.",
+      "suggestion": "Without the chase and the crisis, you fear there may be no clear sense of you left."
+    }
+  ],
+  "case-david": [
+    {
+      "id": "dp_empathic-understanding_case-david_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Controlled] When my wife calls me cold, I bristle because it sounds too close to true. Then I get angry at her for noticing the exact thing I am trying not to see.",
+      "suggestion": "Being called cold hits as too close to true, and anger rises at being seen there."
+    },
+    {
+      "id": "dp_empathic-understanding_case-david_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Frustrated] I know my father was impossible to please, but knowing that does not change how worthless I feel when I imagine his face.",
+      "suggestion": "You know he was impossible to please, and still imagining his face brings up worthlessness."
+    },
+    {
+      "id": "dp_empathic-understanding_case-david_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] When I feel criticized, I start listing everything I have achieved, because otherwise I feel exposed and ridiculous.",
+      "suggestion": "Criticism leaves you feeling exposed, and achievements rush in to cover that feeling."
+    },
+    {
+      "id": "dp_empathic-understanding_case-david_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Controlled] Praise feels good, then it leaks out; by the next day I need more proof that I still matter.",
+      "suggestion": "Praise feels good for a moment, then drains away and leaves you needing proof again."
+    },
+    {
+      "id": "dp_empathic-understanding_case-david_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Dismissive] When I admit I am wrong, I feel stripped down and small, so I argue even when part of me knows I caused damage.",
+      "suggestion": "Admitting you are wrong leaves you stripped down and small, even when part of you knows there was damage."
+    },
+    {
+      "id": "dp_empathic-understanding_case-david_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Wounded but sharp] When my kids cry, I get impatient, and then I hate how hard I sound when I see them pull away.",
+      "suggestion": "Their crying brings out impatience, and then you hate the hard sound of yourself as they pull away."
+    },
+    {
+      "id": "dp_empathic-understanding_case-david_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Wounded but sharp] Since the affair came out, being at home makes me feel like a failure; even ordinary rooms feel like evidence against me.",
+      "suggestion": "Since the affair came out, home itself feels like evidence that you have failed."
+    },
+    {
+      "id": "dp_empathic-understanding_case-david_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] I have been drinking more after work because it is the only time I stop feeling anxious and stop hearing my wife's disappointment in my head.",
+      "suggestion": "Drinking quiets the anxiety and your wife's disappointment for a while."
+    },
+    {
+      "id": "dp_empathic-understanding_case-david_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Confused] I do not know what we should talk about this week; if I choose, I will probably choose the thing that makes me look least exposed.",
+      "suggestion": "Choosing what to talk about feels risky, with the pull to choose the least exposed version."
+    },
+    {
+      "id": "dp_empathic-understanding_case-david_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Wounded but sharp] If I am just ordinary at something, I feel like I disappear; I would rather not try than be average in front of people.",
+      "suggestion": "Being ordinary feels like disappearing, and being average in front of people feels unbearable."
+    }
+  ],
+  "case-marcus": [
+    {
+      "id": "dp_empathic-understanding_case-marcus_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Slow and flat] Most days I complete the routine and feel almost nothing behind my face. People speak to me, and I answer after a delay, like the words have to travel too far.",
+      "suggestion": "You move through the routine with words coming from far away and almost nothing behind your face."
+    },
+    {
+      "id": "dp_empathic-understanding_case-marcus_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Confused] I do not know what to talk about today; if I choose something, I am afraid we will open more than I can handle.",
+      "suggestion": "Choosing where to start feels unsafe, like it might open more than you can handle."
+    },
+    {
+      "id": "dp_empathic-understanding_case-marcus_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hypervigilant] Nightmares leave me wired and empty, like the room is not safe; I sit up listening before I remember where I am.",
+      "suggestion": "Nightmares leave you wired and empty, listening before you fully know where you are."
+    },
+    {
+      "id": "dp_empathic-understanding_case-marcus_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Slow and flat] I avoid people because it feels safer than explaining why I disappear, and then I sit alone and feel worse.",
+      "suggestion": "Avoiding people feels safer than explaining yourself, and then the aloneness gets worse."
+    },
+    {
+      "id": "dp_empathic-understanding_case-marcus_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] I have been drinking after work so I can sleep, and now I am worried I cannot sleep without it. I hate that something I do not trust has started to feel necessary.",
+      "suggestion": "Alcohol has started to feel necessary for sleep, and you hate feeling dependent on it."
+    },
+    {
+      "id": "dp_empathic-understanding_case-marcus_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quiet and guarded] When something good happens, it feels far away, like it belongs to someone else; I know what expression I am supposed to have.",
+      "suggestion": "Even good things feel far away, while you know the expression you are supposed to show."
+    },
+    {
+      "id": "dp_empathic-understanding_case-marcus_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat] A door slam can throw me back before I know where I am; afterward I feel embarrassed that a normal sound did that.",
+      "suggestion": "A sudden door slam throws you back before you can place yourself, and afterward you feel embarrassed."
+    },
+    {
+      "id": "dp_empathic-understanding_case-marcus_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sad] A friend from the unit stopped calling, and I keep telling myself I did not want to talk anyway. But I still check the phone, and the silence bothers me.",
+      "suggestion": "You tell yourself you did not want contact, and still the silence bothers you."
+    },
+    {
+      "id": "dp_empathic-understanding_case-marcus_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hopeless] Some nights I think nobody would notice if I did not wake up; I do not plan anything, I just feel that invisible.",
+      "suggestion": "Those nights you feel so invisible that not waking up seems like it would pass unnoticed."
+    },
+    {
+      "id": "dp_empathic-understanding_case-marcus_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Scared] I want to let people in, but every time someone gets close, I start looking for the exit. Then I end up alone again and hate that too.",
+      "suggestion": "You want closeness, fear sends you toward the exit, and then the aloneness hurts too."
+    }
+  ]
+}

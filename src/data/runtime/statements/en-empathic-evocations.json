@@ -1,0 +1,1100 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_empathic-evocations_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] After dinner I notice the apartment is quiet, and I start checking my phone again.",
+      "suggestion": "The quiet settles around you after dinner, and the phone becomes the one small place where he might still appear."
+    },
+    {
+      "id": "dp_empathic-evocations_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Numb] I tell people I'm fine, but I feel flat when I say it.",
+      "suggestion": "Fine comes out smooth, while something underneath has gone pale and still."
+    },
+    {
+      "id": "dp_empathic-evocations_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sad] I found his jacket in the closet and stood there longer than made sense.",
+      "suggestion": "That jacket stops you in the doorway, a small piece of him pulling the whole loss back into the room."
+    },
+    {
+      "id": "dp_empathic-evocations_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] Some mornings I forget for a second, and then I remember we are not together.",
+      "suggestion": "There is that one clear second, then the breakup drops back onto you like weight returning to the bed."
+    },
+    {
+      "id": "dp_empathic-evocations_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] When friends ask how I am, I give a short answer and change the subject.",
+      "suggestion": "The short answer closes the door quickly, while the real answer waits tight in your throat."
+    },
+    {
+      "id": "dp_empathic-evocations_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sad] I stay on my phone late because going to sleep feels hard now.",
+      "suggestion": "The screen becomes a little night-light against the empty side of the bed, keeping the dark feeling just outside reach."
+    },
+    {
+      "id": "dp_empathic-evocations_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] A song came on in a store, and I had to leave before I cried.",
+      "suggestion": "The first notes find you in the aisle, and suddenly grief is right there under the fluorescent lights."
+    },
+    {
+      "id": "dp_empathic-evocations_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] I keep thinking maybe I did something wrong, but I can't pin down what.",
+      "suggestion": "The mind keeps searching for the flaw, like if it can find the loose thread, the whole leaving might make sense."
+    },
+    {
+      "id": "dp_empathic-evocations_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sad] Some nights I sit on the floor beside the bed for a while instead of getting in.",
+      "suggestion": "The floor becomes the place you fold into when the bed feels too exposed and wide."
+    },
+    {
+      "id": "dp_empathic-evocations_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] When you are kind to me, I feel awkward and look away.",
+      "suggestion": "Kindness comes close, and it is almost too warm to take in, so your eyes drop to safer ground."
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_empathic-evocations_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Firm] When someone corrects me in front of the team, I get hot and stop listening.",
+      "suggestion": "The heat rushes up fast, as if the room has narrowed to one bright mark on you."
+    },
+    {
+      "id": "dp_empathic-evocations_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] I go into meetings expecting people to mess up, and I hate that I do that.",
+      "suggestion": "You arrive already braced, like part of you is standing guard at the door before anyone speaks."
+    },
+    {
+      "id": "dp_empathic-evocations_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] By the end of the day I realize how many comments I did not say.",
+      "suggestion": "It is as if the whole day is clenched shut, every sharp sentence still held behind your teeth."
+    },
+    {
+      "id": "dp_empathic-evocations_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] After I snap, I feel embarrassed, but I mostly try not to think about it.",
+      "suggestion": "The embarrassment sits there afterward, heavy and damp, while you try to step around it."
+    },
+    {
+      "id": "dp_empathic-evocations_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] When my wife sighs while I am explaining something, I assume she has already decided I am wrong.",
+      "suggestion": "That small sigh can cross the room like a charge, and your system braces before she has even spoken."
+    },
+    {
+      "id": "dp_empathic-evocations_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] If someone says calm down during an argument, I get angrier immediately and stop hearing the rest.",
+      "suggestion": "Those two words strike the match, and the fire is moving before you can even name what got lit."
+    },
+    {
+      "id": "dp_empathic-evocations_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] When I don't know the answer in a meeting, I feel exposed in front of everyone.",
+      "suggestion": "Not knowing opens a bare place, like all the competence you rely on has lost its cover for a second."
+    },
+    {
+      "id": "dp_empathic-evocations_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] I slam doors sometimes because I don't know what else to do with the feeling.",
+      "suggestion": "The door takes the feeling for you, loud enough to cover the smaller sting underneath."
+    },
+    {
+      "id": "dp_empathic-evocations_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] After a fight, thinking about apologizing first makes me feel weak and smaller than her.",
+      "suggestion": "The apology feels like stepping onto lower ground, with everyone suddenly taller around you."
+    },
+    {
+      "id": "dp_empathic-evocations_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] At night I replay the argument and hear how sharp I sounded.",
+      "suggestion": "The house goes quiet, but your own voice keeps echoing in the kitchen, still cutting after the fight is over."
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_empathic-evocations_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] When it's my turn in a meeting, I lose track of what I was going to say.",
+      "suggestion": "The moment turns toward you, and the sentence slips out of reach as if the room has pulled it away."
+    },
+    {
+      "id": "dp_empathic-evocations_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] In meetings I keep my hands under the table because I worry people will notice me.",
+      "suggestion": "Even your hands have to stay hidden, as if one small sign could give you away."
+    },
+    {
+      "id": "dp_empathic-evocations_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] I practice what to say, but when people look at me, I freeze.",
+      "suggestion": "All the practiced words line up, then the eyes land on you and everything locks behind a sheet of ice."
+    },
+    {
+      "id": "dp_empathic-evocations_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] If people laugh nearby after I have spoken, I assume I did something strange.",
+      "suggestion": "The laugh travels across the room and points itself at you, even before you know what it was about."
+    },
+    {
+      "id": "dp_empathic-evocations_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] When attention turns to me, I get quieter and try not to move much.",
+      "suggestion": "Your whole body starts shrinking in the chair, trying to stay present without being seen."
+    },
+    {
+      "id": "dp_empathic-evocations_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] When someone compliments me after a meeting, I smile, but I don't really believe it.",
+      "suggestion": "The compliment touches the surface and slides away before it can reach the place that needs it."
+    },
+    {
+      "id": "dp_empathic-evocations_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] Sunday night I start feeling low when the apartment gets quiet, but I mostly just scroll.",
+      "suggestion": "The week arrives early in the room, and scrolling becomes a small moving light against the heaviness."
+    },
+    {
+      "id": "dp_empathic-evocations_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quiet and ashamed] I rewrite simple messages over and over, then sometimes don't send them.",
+      "suggestion": "One small message becomes a narrow doorway, and every rewrite is another step back from being seen."
+    },
+    {
+      "id": "dp_empathic-evocations_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] Even saying hello in the hallway can sound wrong to me afterward.",
+      "suggestion": "That tiny hello keeps ringing in your ears, as if one ordinary word has become evidence against you."
+    },
+    {
+      "id": "dp_empathic-evocations_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] In groups, I keep track of where the exit is before I join the conversation.",
+      "suggestion": "The exit becomes the safest part of the room, the place your eyes hold onto when attention feels too close."
+    }
+  ],
+  "case-laura": [
+    {
+      "id": "dp_empathic-evocations_case-laura_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat and guarded] Most mornings I get up, make coffee, answer the messages I have to answer, and notice I still do not feel much.",
+      "suggestion": "The morning has movement but no warmth, as if you are going through the rooms while the color has been drained out of them."
+    },
+    {
+      "id": "dp_empathic-evocations_case-laura_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Distant] If a door slams at work, I know it is just a door, but for a minute I cannot keep track of what people are saying.",
+      "suggestion": "The sound gets there before reason does, an old alarm taking over the room while the conversation moves away from you."
+    },
+    {
+      "id": "dp_empathic-evocations_case-laura_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Betrayed] I found out he had been seeing someone else, and now when he is kind I mostly think, don't be stupid again.",
+      "suggestion": "His kindness reaches a place that has already pulled the shutters closed, trying not to be fooled twice."
+    },
+    {
+      "id": "dp_empathic-evocations_case-laura_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] My daughter sent pictures from a trip and I could see it was lovely, but I mostly felt blank and then guilty for that.",
+      "suggestion": "The picture shows life and closeness, and inside it is like a window you can look through without being able to step into it."
+    },
+    {
+      "id": "dp_empathic-evocations_case-laura_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Distant] Wine helps me turn things off at night. I pour it before I have decided what I am trying not to think about.",
+      "suggestion": "The glass becomes the dimmer switch, lowering the room inside you before anything sharp can fully arrive."
+    },
+    {
+      "id": "dp_empathic-evocations_case-laura_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Slow and flat] I lie awake listening for sounds in the hallway, and I tell myself there is nothing to listen for.",
+      "suggestion": "Even under the covers, some part of you stays posted at the door, listening into the dark for proof of danger."
+    },
+    {
+      "id": "dp_empathic-evocations_case-laura_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and tearful] Sometimes a song comes on and my eyes fill up, so I change it before I can really tell what it is about.",
+      "suggestion": "The music opens a small crack in the numbness, and you turn away before the feeling has room to come through."
+    },
+    {
+      "id": "dp_empathic-evocations_case-laura_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hopeless] When my ex starts explaining why he left, I stop trying to answer and just wait for it to be over.",
+      "suggestion": "Under his explanations, you fold inward and go quiet, the fight draining out until answering feels useless."
+    },
+    {
+      "id": "dp_empathic-evocations_case-laura_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and guarded] When someone says something kind to me, I usually correct it in my head or wait for the catch.",
+      "suggestion": "The kindness touches a locked door, and behind it something tightens before the words can be received."
+    },
+    {
+      "id": "dp_empathic-evocations_case-laura_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat and guarded] I keep a bag packed by the door. I know it sounds dramatic, but I sleep better knowing it is there.",
+      "suggestion": "The bag sits there as a quiet exit, helping the part of you that never fully trusts the house to stay settled."
+    }
+  ],
+  "case-carlos": [
+    {
+      "id": "dp_empathic-evocations_case-carlos_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] When someone smirks at me on the crew, I get tense fast and spend the next hour making sure nobody thinks I let it slide.",
+      "suggestion": "That smirk sparks through you like current, and the whole day turns toward proving you cannot be handled that way."
+    },
+    {
+      "id": "dp_empathic-evocations_case-carlos_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Macho] My father used to say only weak men talk about feelings, and I still hear that when people ask what is going on with me.",
+      "suggestion": "His voice still stands in the room like a command, keeping the softer places locked up before anyone can see them."
+    },
+    {
+      "id": "dp_empathic-evocations_case-carlos_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] I pace around the kitchen after fights because if I sit still, I start thinking about what she said and get more worked up.",
+      "suggestion": "You wear a track into the kitchen floor, trying to push the charge down through your feet before it bursts out."
+    },
+    {
+      "id": "dp_empathic-evocations_case-carlos_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] I keep remembering the look on my son's face after I yelled, but then I tell myself every father loses it sometimes.",
+      "suggestion": "His face stays there under the excuses, a small bruise of shame you keep trying to cover with reasons."
+    },
+    {
+      "id": "dp_empathic-evocations_case-carlos_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] When my wife says I drink too much, I start listing everything I do for this family so she will drop it.",
+      "suggestion": "Her words land like an accusation, and the list of what you provide becomes armor against feeling judged."
+    },
+    {
+      "id": "dp_empathic-evocations_case-carlos_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] After I blow up, everyone gets quiet, and I usually make some comment so we can move on.",
+      "suggestion": "After the blast, the room goes careful, and the joke skims over the broken pieces before anyone has to look down."
+    },
+    {
+      "id": "dp_empathic-evocations_case-carlos_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Angry, tightly controlled] I get so angry that I stop talking, because if I keep going I do not trust what I will say.",
+      "suggestion": "The words are clamped behind your teeth, all that heat held in because one more sentence could break loose."
+    },
+    {
+      "id": "dp_empathic-evocations_case-carlos_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worthless] If I back down in front of my son, I feel like I have taught him not to respect me.",
+      "suggestion": "Backing down feels like shrinking in his eyes, as if your outline as a father fades right there in front of him."
+    },
+    {
+      "id": "dp_empathic-evocations_case-carlos_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] In the car after a fight, I grip the wheel and tell myself not to react until I get home.",
+      "suggestion": "Your hands become the brakes on the whole reaction, holding the heat in place until the drive is over."
+    },
+    {
+      "id": "dp_empathic-evocations_case-carlos_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] I worry my son is learning to check my mood before he decides whether it is safe to talk.",
+      "suggestion": "That worry hits hard, the thought that your anger could become the weather he checks before stepping close."
+    }
+  ],
+  "case-nina": [
+    {
+      "id": "dp_empathic-evocations_case-nina_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tired] The second I sit down, I remember three things I have not done and get back up.",
+      "suggestion": "Rest barely touches you before duty calls you up again, as if the chair cannot keep hold of you."
+    },
+    {
+      "id": "dp_empathic-evocations_case-nina_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hurt] Sometimes I feel used, and then I immediately think of all the reasons I should be more grateful.",
+      "suggestion": "The hurt rises for a second, and then gratitude is pulled over it like a blanket before anyone can see."
+    },
+    {
+      "id": "dp_empathic-evocations_case-nina_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worthless] When I need help, I feel embarrassed, like I have failed at the basic things everyone else handles.",
+      "suggestion": "Needing help makes you shrink, as if one request could lower your whole worth in the room."
+    },
+    {
+      "id": "dp_empathic-evocations_case-nina_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tired] I smile and keep going because if I stop, people ask if something is wrong and then I have to manage that too.",
+      "suggestion": "The smile becomes another job, stretched across the tiredness so no one has to look too closely."
+    },
+    {
+      "id": "dp_empathic-evocations_case-nina_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Apologetic] By evening I am so tired I can barely answer my son, and then I apologize because he did not ask for a tired mother.",
+      "suggestion": "The tiredness is heavy in your voice, and even that becomes something you feel you have to make up for."
+    },
+    {
+      "id": "dp_empathic-evocations_case-nina_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Torn] Saying no makes me panic, even about small things, because I start picturing the other person deciding I am selfish.",
+      "suggestion": "The no feels tiny on the outside and huge inside, like one boundary could loosen the tie that keeps love close."
+    },
+    {
+      "id": "dp_empathic-evocations_case-nina_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tired] I clean late at night even when I am exhausted, because waking up to a messy kitchen ruins the whole morning.",
+      "suggestion": "The counter gets wiped again, a midnight attempt to make tomorrow safe before you are allowed to stop."
+    },
+    {
+      "id": "dp_empathic-evocations_case-nina_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Guilty] If the house is messy, I feel ashamed before anyone says anything, and I start explaining what got in the way.",
+      "suggestion": "Shame arrives before any criticism, and the explanations stack up in front of you like a shield."
+    },
+    {
+      "id": "dp_empathic-evocations_case-nina_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] I cry in the kitchen where no one will notice, then splash my face and go back out.",
+      "suggestion": "The tears get hidden among ordinary kitchen sounds, washed away quickly so the household does not have to pause."
+    },
+    {
+      "id": "dp_empathic-evocations_case-nina_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lonely] I still wait for my ex to notice how tired I am, even though he does not live here anymore and probably never noticed.",
+      "suggestion": "Some part of you is still watching for him to look up, waiting for the old life to finally see how much you carried."
+    }
+  ],
+  "case-aisha": [
+    {
+      "id": "dp_empathic-evocations_case-aisha_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Distrustful] You say your notes are private, but if you write that I am unstable, I will not know until it is already out there.",
+      "suggestion": "The note can feel like betrayal happening quietly after you leave, a page that could turn against you without warning."
+    },
+    {
+      "id": "dp_empathic-evocations_case-aisha_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperate] I can beg someone to stay and then tell them to leave me alone in the same conversation, and I mean both at the time.",
+      "suggestion": "The feeling swings from reaching for their sleeve to shoving the door closed, both moves trying to survive the same fear."
+    },
+    {
+      "id": "dp_empathic-evocations_case-aisha_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Confused] I cannot tell if I am angry, scared, or empty; by the time I choose one word, it has already changed.",
+      "suggestion": "It is all tangled and moving at once, like trying to open one door while the hallway keeps rearranging around you."
+    },
+    {
+      "id": "dp_empathic-evocations_case-aisha_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panicked] I scratch my arm when I start feeling unreal, because looking around the room and naming objects does not always bring me back.",
+      "suggestion": "The scratching becomes an urgent way to feel real again, a sharp signal when the room starts drifting away."
+    },
+    {
+      "id": "dp_empathic-evocations_case-aisha_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panicked] When the typing dots disappear, I check the message again and again, even if I know they probably just got busy.",
+      "suggestion": "Those vanishing dots pull the thread of contact out of your hands, and suddenly the whole connection feels suspended."
+    },
+    {
+      "id": "dp_empathic-evocations_case-aisha_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperate] When someone says goodbye, I know it is normal, but I start bargaining in my head about how to keep them there longer.",
+      "suggestion": "Goodbye tilts the room before logic can help, and you are already reaching for anything that might keep them from fading."
+    },
+    {
+      "id": "dp_empathic-evocations_case-aisha_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[In denial] Last week I felt suicidal when he disappeared, but then he texted me back, so maybe I am fine now and we do not need to make it a big thing.",
+      "suggestion": "His text feels like the floor snapping back under you, while the place you fell through is still open underneath."
+    },
+    {
+      "id": "dp_empathic-evocations_case-aisha_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hurt] When someone calls me too much, I keep hearing it afterward, especially when I want to text them and try not to.",
+      "suggestion": "Too much lands like a stamp across you, bright and hard to wash off, exactly where the wish for contact lives."
+    },
+    {
+      "id": "dp_empathic-evocations_case-aisha_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] When someone is gentle with me, I cry before I understand why, and then I get embarrassed and want them to stop being nice.",
+      "suggestion": "Gentleness gets through before you can brace, tears rush up, and then shame tries to push the kindness back out."
+    },
+    {
+      "id": "dp_empathic-evocations_case-aisha_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panicked] I keep checking the door while we talk, because part of me expects you to stand up and leave if I say too much.",
+      "suggestion": "Your eyes keep guarding the doorway, watching for the moment I might vanish because the need became too visible."
+    }
+  ],
+  "case-david": [
+    {
+      "id": "dp_empathic-evocations_case-david_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Controlled] When my wife calls me cold, I get quiet and then make one precise comment that I know will land hard.",
+      "suggestion": "The word cold burns behind your teeth, and the precise comment comes out like armor snapping shut with an edge on it."
+    },
+    {
+      "id": "dp_empathic-evocations_case-david_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worthless] If I am not the best person in the room, I feel ordinary, and ordinary is almost worse than failing.",
+      "suggestion": "The floor opens under ordinary, and you drop from impressive to nothing before anyone else has even judged you."
+    },
+    {
+      "id": "dp_empathic-evocations_case-david_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] When I feel small, I start talking about what I have achieved, even if the conversation had nothing to do with work.",
+      "suggestion": "The achievements rush in like a taller version of you, surrounding the small, stung place before it can be seen."
+    },
+    {
+      "id": "dp_empathic-evocations_case-david_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Controlled] When I feel cornered, I fix my shirt, slow my voice, and start explaining my record so the room remembers who I am.",
+      "suggestion": "The shirt, the voice, and the record become armor pieces fastened one by one before the hit can land."
+    },
+    {
+      "id": "dp_empathic-evocations_case-david_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] No matter how much I achieve, I still think there is something wrong with me, and I hate that success has not fixed it.",
+      "suggestion": "Each success adds another polished layer, while underneath there is a stain you fear achievement can never cover."
+    },
+    {
+      "id": "dp_empathic-evocations_case-david_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] My kid's face after I snap bothers me more than I expected, but I still catch myself preparing a defense.",
+      "suggestion": "That careful face slips past every argument, a hit to the place no defense can quite protect."
+    },
+    {
+      "id": "dp_empathic-evocations_case-david_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Avoidant] In hard talks, I check my phone when it gets too personal, and I tell myself I am just staying on top of things.",
+      "suggestion": "The phone becomes a trapdoor under the table, a clean exit before the feeling can corner you."
+    },
+    {
+      "id": "dp_empathic-evocations_case-david_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Dismissive] Saying I was wrong feels humiliating, even when part of me knows I caused the damage.",
+      "suggestion": "Those words strip the armor in an instant, leaving your face hot and exposed in front of the damage."
+    },
+    {
+      "id": "dp_empathic-evocations_case-david_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Confused] I do not know what I feel; I just know I cannot settle when everyone goes quiet after I have spoken.",
+      "suggestion": "The quiet turns into a hallway of closed doors, and you pace there without knowing which one holds the feeling."
+    },
+    {
+      "id": "dp_empathic-evocations_case-david_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Controlled] Since the affair came out, home feels different; people still use the same rooms, but I do not know where I stand.",
+      "suggestion": "The house still has the same rooms, but the warmth has leaked out, leaving you standing without a clear place."
+    }
+  ],
+  "case-marcus": [
+    {
+      "id": "dp_empathic-evocations_case-marcus_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hopeless] Most days I go through the motions, show up where I am supposed to, and still do not see the point of talking about it.",
+      "suggestion": "The day folds down around you, flat and airless, and words feel like they would only press against a wall."
+    },
+    {
+      "id": "dp_empathic-evocations_case-marcus_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Low voice] Crowds make me tense before anything has happened; I track exits, hands, and noise while everyone else is just shopping.",
+      "suggestion": "The crowd reaches you as threat before it reaches you as people, and your whole system takes up its post."
+    },
+    {
+      "id": "dp_empathic-evocations_case-marcus_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Macho] In the unit, feelings got people killed, so I learned not to have them, and I still do not know what good they are supposed to do.",
+      "suggestion": "That rule still sounds like an order in your chest: feelings get people killed, so the heart gets locked behind a door."
+    },
+    {
+      "id": "dp_empathic-evocations_case-marcus_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hypervigilant] Nightmares wake me up, and then the room does not feel normal for a while; I check the corners even though I know where I am.",
+      "suggestion": "Sleep throws you back into a charged room, as if danger followed you out and waited in the corners."
+    },
+    {
+      "id": "dp_empathic-evocations_case-marcus_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Low voice] When the apartment is quiet, I feel worse, but I usually stay there because calling someone would be harder.",
+      "suggestion": "The quiet presses in until even the air feels crowded, and staying alone becomes the familiar kind of endurance."
+    },
+    {
+      "id": "dp_empathic-evocations_case-marcus_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quiet and guarded] When something good happens, I notice it, say the right thing, and then wait for the feeling that does not come.",
+      "suggestion": "Goodness is right there, but it hits the glass before it reaches you."
+    },
+    {
+      "id": "dp_empathic-evocations_case-marcus_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat] I keep the lights low at home because bright light bothers me and makes the place feel too exposed.",
+      "suggestion": "The dim light softens the edges, keeping the room from coming at you too clearly all at once."
+    },
+    {
+      "id": "dp_empathic-evocations_case-marcus_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Low voice] If someone knocks unexpectedly, I get thrown off fast, even if it turns out to be a neighbor with the wrong apartment.",
+      "suggestion": "The knock turns the door into danger for a moment, and your whole system starts hammering before a name appears."
+    },
+    {
+      "id": "dp_empathic-evocations_case-marcus_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Confused] When I try to talk about it, I do not know what feeling is supposed to come first, so I usually stop talking.",
+      "suggestion": "Every feeling crowds the same doorway, and none is clear enough to step through before the door closes again."
+    },
+    {
+      "id": "dp_empathic-evocations_case-marcus_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat] Some nights I sit in the car before going upstairs, because once I open the apartment door there is nothing to do but be there.",
+      "suggestion": "The quiet car becomes a last small shelter before the empty apartment has to be entered."
+    }
+  ]
+}

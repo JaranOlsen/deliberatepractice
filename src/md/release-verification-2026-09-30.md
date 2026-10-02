@@ -1,0 +1,227 @@
+# Release verification — 30 September 2026
+
+This records the follow-up to `app-review-2026-09-29.md`. Frontend changes are prepared for review on `codex/Astra` and have not been deployed. The radar remains part of the progress view, with fixed skill axes and separate self/observer sources.
+
+## Live backend verification
+
+The existing Supabase project was paused. It was restored to ACTIVE_HEALTHY with its existing data intact. Auth health and profiles, partnership, and rating schema checks pass through `npm run check:backend`.
+
+With two user-authorized accounts in separate browser contexts, verified:
+
+- Magic-link authentication and the local redirect. Ordinary app sign-in emails returned success; the user confirmed delivery to both inboxes.
+- Creating and accepting a pairing through the app, then selecting the paired therapist.
+- Saving an individual self-rating and a group observer rating for the other account; the therapist can see the received observer rating in progress.
+- Database row visibility: the therapist can read both test ratings; the observer can read their own submitted rating but cannot read the therapist's private self-rating; anonymous reads expose neither.
+- Revoking the test partnership; an additional observer save is rejected by the server with the accepted-pairing requirement.
+- A real save that commits before its browser response is deliberately lost. Retry returns the same rating ID; simultaneous retries also share that ID. Reusing the ID for another case is rejected. An older client omitting the new round ID still saves successfully.
+
+All ratings created by these tests were deleted by their exact IDs. The test partnership is revoked. Existing accounts and unrelated records were retained.
+
+## Backend changes applied
+
+Cloud migration `restrict_practice_function_execution` fixes helper function search paths and removes anonymous/public execution of account, pairing, and rating functions. Authenticated access remains explicit; trigger helpers are not callable as API endpoints.
+
+Cloud migration `deduplicate_practice_round_ratings` adds `client_round_id` and a unique constraint by creator and round, and extends the rating RPC to return/update the existing rating on retry. These changes are also reflected in the canonical `supabase/auth-pairing-practice.sql` setup script. They are live even though the frontend has not been deployed.
+
+Cloud migration `record_practice_rating_scales` records practice mode and rubric version for new ratings. The database rejects mismatched format/scale combinations and refuses to change an existing round's scale on retry. Legacy clients remain supported with both fields unspecified; existing rows are not backfilled. Live saves, rejection checks, the real query adapter, and radar views verify that individual mastery, group consistency, and unspecified older ratings remain separate.
+
+The security advisor no longer reports mutable function search paths. Remaining findings were reviewed: tables accessed only through RPC intentionally have no direct RLS policies, access-code redemption intentionally allows anonymous use, and the signed-in RPCs enforce account/pairing checks. Leaked-password protection is still disabled; this app's sign-in flow uses email links. Relevant advisor guidance: [RPC-only tables](https://supabase.com/docs/guides/database/database-linter?lint=0008_rls_enabled_no_policy), [anonymous definer functions](https://supabase.com/docs/guides/database/database-linter?lint=0028_anon_security_definer_function_executable), [authenticated definer functions](https://supabase.com/docs/guides/database/database-linter?lint=0029_authenticated_security_definer_function_executable), [password protection](https://supabase.com/docs/guides/auth/password-security#password-strength-and-leaked-password-protection).
+
+## Frontend fixes from live testing
+
+A fast start after reload could capture no therapist before account details loaded, leaving a signed-in user with an unsavable guest round. Starting now waits for the account and target. A browser regression deliberately holds the profile request and verifies that no guest round starts, then releases it and checks the captured therapist.
+
+Round UUIDs persist across pause/reload and rating retries. Save-failure wording now acknowledges an uncertain result, retains the chosen score, and permits retry against the same ID. Browser and unit checks cover this identity lifecycle.
+
+## Automated checks
+
+- `npm test`: 1,080 source items and translations validated; 17 unit tests pass, including parity checks for all 2,160 English/Norwegian runtime exercises and the library/guide/glossary metadata.
+- `npm run build`: succeeds without the large-chunk warning. The application chunk fell from 1,719,841 to about 254,000 bytes; gzip fell from 300,859 to about 75,000 bytes (75% smaller). The separate Supabase chunk is unchanged.
+- `scripts/check-practice-flows.js`: isolated browser checks pass, including delayed account loading, guest and signed-in lifecycle, group rotation/pass/debrief, immutable therapist, save failures/retry, keyboard dialogs, and Norwegian narrow layouts.
+- Progress/radar and real SDK query-adapter checks pass, including individual/group/legacy scale filters, source and scale change races, and narrow Norwegian layouts.
+- `scripts/check-content-loading.js` passes against the production preview: no exercises downloaded at startup, only the chosen language/skill fetched, case changes reuse content, and delayed/failed/incomplete downloads cannot start an empty round. Resume failure retains the stored round; retry restores its position/ID, and a late response cannot override navigation.
+
+## Runtime content delivery
+
+The browser now loads compact library metadata and fetches one exercise file for the selected skill/language. It no longer imports the editorial registry, review metadata, or the entire bilingual exercise corpus at startup. Identical case descriptions are shared across skills; text, exercise order, stable IDs, revision, criteria tags, and report track are unchanged. These are transfer/parse reductions, not claims about measured wall-clock speed on a throttled device.
+
+Vite regenerates runtime files for dev/build and watches source-data changes. Content generation refreshes them after editorial artifacts; tests reject stale output. Downloads have a 20-second timeout and a visible retry; failed data is not cached. A paused round is applied only after its exercises are available.
+
+## Remaining release work
+
+The individual/group scale boundary is now handled by separate queries and views. Older ratings have an explicit unspecified-scale explanation and retain their original meaning as far as the stored data allows.
+
+The main bundle reduction is verified in the production build. Further device/network performance measurement can guide any additional optimization; the first release no longer needs the full exercise corpus to open its library.
+
+## Separate-device group rooms
+
+The user identified video-call groups as an important use case. Separate-device rooms now complement the shared-device group mode. The observer creates a room from the chosen case; signed-in therapist/client participants join by code. Each sees role-specific preparation and phase guidance. Examples are absent before retry and never appear on the client screen. Self-awareness uses reader prompts rather than treating private reactions as performances.
+
+Server transitions lock the room and check observer identity, expected version, and fresh acknowledgements from all three devices. Durable command receipts prevent duplicate progression when a response is lost, including across reload. Role rotation updates all assignments atomically. Ratings use the immutable server therapist, completed IDs and group rubric; joining grants room-scoped rating consent without changing partnerships. Identity collisions with unrelated ratings are rejected.
+
+`shared_practice_rooms` and `harden_room_rating_identity` were applied to the connected Supabase project. Room SELECT is member-only; raw writes and anonymous RPC execution are denied. Private presence/receipt tables intentionally have no client policies or schema access. New RPC advisor warnings reflect intentional signed-in, explicitly guarded endpoints; guidance remains [authenticated definer functions](https://supabase.com/docs/guides/database/database-linter?lint=0029_authenticated_security_definer_function_executable). The new foreign keys have covering indexes. Existing unrelated performance advisories were left unchanged.
+
+Verification completed:
+
+- 25 unit tests and all existing content validations pass. The retained radar/progress and existing individual/shared-device browser checks also pass.
+- A rolled-back SQL test uses three participants plus an outsider and checks occupied roles, missing/stale acknowledgements, non-observer control rejection, stale commands, command replay, pass counts, rating identity, rotation, direct SELECT RLS and raw-write rejection. No fixture users or ratings remain.
+- Three isolated browser contexts pass the role flow, connection loss, reload with an uncertain command, group rating, role rotation, English/Norwegian self-awareness and 320px checks. A room setup dismissed before its configuration resolves cannot create a room later. These browser tests mock the backend.
+- Two real authorized accounts pass authenticated room creation/join/SELECT, missing-third-member rejection, Realtime UPDATE delivery, replay and durable snapshot recovery. The first notification probe did not receive an update immediately after subscription; a subsequent probe after subscription setup did receive it. Polling is deliberately retained to cover subscription startup and missed events. The live test room was removed and its test sessions signed out; no persistent ratings were created by this probe.
+- The room UI is loaded on demand, adding about 7.5KB gzip when opened. The production build remains free of large-chunk warnings.
+
+A live three-account browser test also completes the round, saves one group-consistency rating with two passes excluded, pauses rotation after a client disconnects for over 20 seconds, restores that client after reload, rotates all roles and ends the session for everyone. The database confirms the intended therapist, score 4, item count 1 and group rubric. Test rooms and ratings are removed afterward.
+
+A real three-person session across separate phones and networks remains unverified. Automated checks establish the state/permission behavior but do not measure background suspension, mobile network latency or usability during an actual video call. Frontend changes remain on the draft release branch and have not been deployed.
+
+
+## Flexible groups in the app (October 1, Oslo time)
+
+Group is now the primary/default format, with individual practice and an optional shared-device group flow retained. Rooms render as ordinary app sections with the compact practice header, account controls and visual styling. Leaving the room section stops synchronization and acknowledgement until it is reopened.
+
+The immutable host controls progression independently of the rotating roles. Two-person rooms use therapist/client and skip observer coaching; larger groups add an active observer and watching observers. Lobby role changes are server checked. The stored full rotation queue gives every member equal turns, including groups larger than three. Only active seats must acknowledge each step; offline spectators do not stall the group. Room snapshots include member display names, without account emails.
+
+New group ratings assess the therapist's use of the selected skill under `group-skill-v2`. Pairs save a therapist self-assessment; an active observer saves the assessment in larger groups. The host has no additional rating authority. Earlier consistency ratings remain in a separate radar filter. Newly saved room ratings select the matching source and scale in progress.
+
+Validation:
+
+- 26 unit tests, content/runtime parity and the production build pass. All 1,080 items in each language remain unchanged. The main chunk is about 76KB gzip; group rooms add about 8.3KB gzip when opened.
+- Existing individual/shared-device practice, radar/progress and real SDK query checks pass, including the new group scale and historical scale separation.
+- Rolled-back database checks pass for pair self-assessment, host/role independence, active acknowledgement barriers, watching-member SELECT access, unchanged raw-write restrictions and five rounds with five different therapists. No fixture users or ratings persist.
+- A live isolated browser test with the three authorized accounts completes a two-person round, saves one self-assessment, rotates, adds the third participant, completes a three-person round and saves one observer assessment. The database confirms the intended therapist/rater/source, scores 4 and 3, one completed item per rating and the new rubric. Host controls stay fixed while roles rotate; shared ending and the 320px layout pass. The exact test room/ratings were deleted and all isolated sessions signed out afterward.
+- Five isolated browser contexts pass active/watching role screens, an offline spectator that does not stall the group, a watching observer rotating into therapist, uncertain-command reload/replay, reconnect, English/Norwegian self-awareness and 320px layouts. These tests intercept the backend.
+- The connected project's flexible-group, fair-rotation and roster-name migrations are applied. Advisors show no new room permission exposure: guarded authenticated RPCs and inaccessible private presence/receipt tables retain their intentional advisories. The new roster index is unused so far, as expected with newly created small test rooms. Existing unrelated advisories remain unchanged.
+
+Frontend remains on the draft release branch. Real phones on different networks still need a practical video-call trial before broad release.
+
+
+## Phone room entry and lifecycle (October 1)
+
+Rooms can now be created and joined before choosing practice. The host opens the normal language/skill/case library with a group-selection banner, then applies that selection to the existing room. The host can change the language, skill or case between rounds while preserving the roster and host. An invite link pre-fills the join code and is removed from the URL after joining.
+
+On phones, the roster, invite, role and exit controls fold into Room & people during exercises. The client’s line appears on the first screen and the host’s next action stays at the bottom with touch-sized controls and safe-area padding. Library, Leave room and End room for everyone now have distinct meanings; the latter two use an in-app confirmation with keyboard focus and background isolation. A watching departure keeps the round running. Leaving an active role starts a fresh preparation round, preserving existing saved ratings.
+
+The `room_lobby_and_lifecycle` migration is applied to the connected project. Configuration is host-only, version-checked and restricted to choosing/preparation; a durable receipt also records the exact configuration. Leave receipts can be replayed after removal from member-only SELECT access, returning only a departure acknowledgement. Raw writes and anonymous RPC access remain denied. The new authenticated definer advisory is intentional for the guarded preparation endpoint; the existing unrelated advisories are unchanged.
+
+Validation:
+
+- 28 unit tests, all content/runtime parity checks, the production build and read-only backend schema checks pass. The main application is about 77.3KB gzip; the lazy room module is about 10.9KB gzip.
+- Five isolated browser contexts cover empty-room entry, ordinary host library selection, uncertain preparation, phone exercise/action visibility, leave cancellation, committed-leave response loss and reload recovery, end confirmation, and the existing role/reconnect/rating/rotation scenarios.
+- Rolled-back database checks cover joining before selection, host configuration ownership, configuration replay and identity rejection, active-round configuration denial, acknowledgement invalidation, active/passive departures, removed-member permissions, leave replay, host exit restrictions and empty/configured room closure. No fixture users or ratings persist.
+- A live isolated test with the three authorized accounts verifies room creation before selection, invite entry, host selection, phone first-screen and bottom-action placement, leave cancellation, active departure, vacant-role reassignment, changing to Norwegian self-awareness, 320px layout, confirmation focus and shared room ending. No ratings were created. The exact four test rooms, including rooms from interrupted test runs, were removed; the three isolated login sessions were signed out and their temporary credentials deleted.
+- Existing individual/shared-device practice, radar/progress and real SDK query-adapter browser checks pass.
+
+Frontend changes remain on the draft release branch and are not deployed. These browser tests use phone-sized viewports; a video-call trial on actual phones and different networks remains to be done.
+
+
+## One initial format choice
+
+The library entry panel now combines Individual/Group selection with creating, joining and returning to a room. Separate-device Group is still the default; the optional shared-device checkbox belongs to the same initial choice. Individual and shared-device practice hide the room actions. The case preparation screen no longer contains a second format selector, and host selection does not expose it. Preferences and active-round protection remain in place.
+
+The individual/shared-device browser regression now chooses format before language/skill/case and checks that room actions match the selection and case preparation never repeats it. The five-context group regression passes from the same combined entry. Phone screenshots were inspected, including the compact two-column choice cards. All 28 unit tests, content parity and production build pass. This change requires no additional backend migration.
+
+
+## Retire the duplicate partner connection flow
+
+Group rooms now provide the only connection flow in the app. The older partner-code invite/accept/revoke panel, active-therapist selector and For header button were removed, along with their event handlers and frontend RPC adapters. Account consistently opens the account panel during local practice. New local rounds use the signed-in account’s own target, even if an old paired-therapist preference remains in storage. Shared-device rating copy explicitly describes a self-assessment and directs ratings of another therapist to separate-device rooms.
+
+Historical self/observer ratings, the radar and legacy partnership data remain intact. A paused round from the previous partner flow retains its captured therapist/rater and can still finish under its existing permission; removing the selector does not retarget it. No database migration, partnership revocation or live data deletion was performed for this refinement.
+
+Validation: all 28 unit tests, content parity, production build and read-only backend checks pass. Browser regressions verify the removed controls, Account navigation, stale paired-target preferences, new local self-assessment ownership and completion of an old paused observer round for its original therapist. The five-context room test still passes invitation, role screens, observer ratings, synchronization, rotation, departure recovery and narrow layouts. Historical self/observer source and scale filters, personal practice targets and the retained radar pass the progress regression. Browser rating tests use an intercepted backend and make no live writes.
+
+
+## Observer-led whole items (October 1)
+
+The active observer now guides practice: starting, finishing or passing items and rotating roles. Without an active observer, the therapist guides the pair. The host still chooses practice, invites participants and ends the room. Exercise controls follow the active guide after rotation, independently of the fixed host.
+
+Each item remains on one screen through response, client feedback, observer coaching and retry. A numbered workflow graphic opens for observers and the therapist in a pair; other roles can expand it. The guide uses three steps in pairs and preserves the separate self-awareness instructions and disclosure boundary. One Finish item action resolves the item after the spoken retry. Examples require a deliberate local reveal for the retry and reset with the next item; clients never see suggested responses. No intermediate spoken substep is recorded or remotely highlighted.
+
+The connected project's `observer_led_item_workflow` migration is applied. It adds the practicing phase and atomic finish_item command, checks observer/pair-therapist authority on the server and retains version checks, fresh active-device acknowledgements and exact command receipts. Existing pre-upgrade feedback phases can finish into the next whole item without resetting the round. Rating identity, passed-item exclusion and fair full-roster rotation remain unchanged. Advisors report no new findings.
+
+Validation:
+
+- All 28 unit tests, English/Norwegian content parity, production build and read-only backend checks pass. The lazy room module is about 11.7KB gzip.
+- Five isolated browser contexts pass the numbered workflow, explicit example reveal/reset, observer-only exercise controls, control transfer after rotation, committed-finish response loss and reload without duplicate completion, reconnect, watching departures, rating, Norwegian self-awareness and 320px layouts. These checks intercept the backend.
+- All three rolled-back room SQL scripts pass. They cover host/guide separation, two-person therapist authority, rejected watcher controls, legacy phases, item completion replay, acknowledgement freshness, rating identity, lifecycle recovery and five-person fair rotation. No fixture users or ratings persist.
+- A live isolated browser test with the three authorized accounts passes pair guidance with a client host, three-step pair and four-step observer graphics, whole-item completion/passes, pair and observer control transfer after rotation, observer rating and shared host ending. The database confirms the intended therapist and observer, score 4, one completed item and group-skill-v2. Exact rooms and ratings from all test runs were removed, and the three isolated sessions were signed out with temporary credentials deleted.
+
+Frontend changes remain on the draft release branch. Phone-sized browser checks do not replace a practical video-call trial on actual phones and different networks.
+
+
+## Progress loading during sign-in initialization
+
+A live progress preview exposed a repeated-session race: INITIAL_SESSION could arrive after the user opened progress, clear the chart and invalidate its in-flight request. Progress state now resets only when the account ID changes. Repeated current-user sessions and token refresh preserve loaded ratings, pending loads and the selected source/scale; sign-out still clears data and rejects late responses.
+
+The browser regression passes repeated-session delivery during a held ratings request, filter preservation, existing sign-out isolation, full/sparse radar, source/scale separation and Norwegian phone layout. All 28 unit tests, content parity and production build pass. Live signed-in checks verify full twelve-skill, half six-skill and empty profiles across individual self-assessment, group self-assessment and group observer ratings, including the difficulty matrix. Temporary isolated sessions were signed out and their credentials deleted; the requested demo ratings remain for manual inspection.
+
+
+## Difficulty profiles and rated-skill radar
+
+The radar now excludes skills without ratings. Comparison overlays easy, moderate and hard profiles using teal/solid, blue/dashed and amber/dotted lines with restrained fills. Each level has its own weighted average and rating count; the header reports coverage and item count instead of a combined score. Source/scale controls fold away to give the phone chart space. A level button focuses on that difficulty and excludes skills unrated at that level. One or two skills use a compact score view, and three or more use the radar.
+
+Comparison axes use the union of rated skills. Missing levels leave gaps, with no zero-score markers or filled polygon across missing vertices. Older ratings without difficulty remain visible in a separate Level not recorded series. Skill history retains a clearly labelled across-level average; the detailed difficulty matrix and scale/source separation remain available. SVG descriptions provide the displayed skill/level scores to assistive technology.
+
+Validation: 31 unit tests, English/Norwegian content parity and production build pass. Browser regression covers excluded axes, one/two-skill fallback, partial three-level profiles, level focus, keyboard focus, loading and auth races, history navigation and 320px layout. Live isolated sessions for all three authorized accounts verify twelve-skill complete layers, six-skill partial medium/hard layers, and an easy-only three-skill starter profile across individual/group self/observer filters at 390px and 320px in English and Norwegian. Screenshots were visually inspected. The existing demo ratings were backed up before reshaping the scores and coverage; 432/144/27 demo ratings remain in the full/partial/starter accounts. Temporary test sessions are signed out and their credential files removed. No schema or permission changes are needed.
+
+## Simplified active group screens (October 1)
+
+Active items omit the duplicate Group practice heading, Library shortcut, Practice this item heading and repeated instructional paragraphs. Room & people retains invites and exit controls. Library remains available during preparation, reflection and after ending; the room keeps an accessible name even while its visual header is hidden.
+
+Only the client/reader sees the statement. The therapist keeps the skill cue and optional deliberate example reveal. Observers have the workflow first, with the skill reminder inside Your part; they no longer see client statements or retry examples. Each role's reminder is one short paragraph in English and Norwegian. Self-awareness retains the reader's transition out of role, voluntary sharing and the observer's boundary against interpretation or disclosure pressure.
+
+The workflow adds the client/reader opening statement and a visually distinct rating tile labelled After 3 items. It has six tiles in groups and five in pairs, omitting observer coaching in pairs. Spoken feedback remains immediate on every item, while one score assesses the therapist across completed items in the round. The three-item scoring interval is a usability decision, not a validated optimum. The [DeeP training protocol](https://pmc.ncbi.nlm.nih.gov/articles/PMC11616299/) describes immediate feedback and repetition as components of deliberate practice; it does not establish an optimal numerical-rating interval for this app.
+
+Validation: all 31 unit tests, bilingual content/runtime parity and production build pass. The five-context intercepted-backend regression covers simplified role screens, six/five-step workflows, one rating after three pair items, observer rating, examples restricted to the therapist, rotation, reconnect, uncertain-response replay and room exit. English/Norwegian phone screenshots were inspected at 390px/320px. No database changes or live test-account writes are required; existing demo ratings remain intact.
+
+## Minimal group preparation (October 2)
+
+Preparation now matches the focused exercise screens. The duplicate group/Library header and repeated preparation headings are omitted; a compact round/Get ready label identifies the stage. Room & people folds away, preserving role changes, invites and exits. The host's Change skill or case action and the active guide's bottom Start round action remain available. Expanded room details survive presence polling.
+
+Client preparation shows the short case description and delivery style instead of the full first-person introduction, plus one read/repeat cue. Therapist preparation shows the skill focus and a short listen/respond cue. Active observers get the skill focus and one guide/feedback cue; watching observers get a watching cue. Once devices are ready, non-guides see who starts the round. Pair therapists receive the start/finish reminder. Self-awareness keeps voluntary sharing, permission not to respond to the client, the reader's transition out of role and privacy boundaries.
+
+Validation: all 31 unit tests, bilingual content/runtime parity and production build pass. The five-context intercepted-backend check verifies minimal preparation for every role, collapsed administration, preserved expanded details, pair readiness messaging, Norwegian self-awareness boundaries, continued group/pair practice and 320px layouts. Preparation screenshots were inspected at 390px and 320px. No backend changes or live account writes were made.
+
+## Full group sequence review (October 2)
+
+Phone review found that room setup administration crowded out the host's next action, reflection restored the removed group heading, and the primary Next round action appeared before the below-fold Save rating button. Ended rooms also retained an empty role pill and emphasized joining another room over returning to the app.
+
+Entry now has action-specific Create/Join headings and shorter instructions. During practice selection, the invite strip stays visible with room administration collapsed; it moves back inside Room & people for preparation and items. Presence updates preserve keyboard focus on invite controls. Setup no longer reserves bottom padding for a hidden action bar.
+
+Reflection keeps the focused room layout, one role-specific question and a short de-role reminder; next-challenge guidance is optional and follows the rating field. Healthy synchronization chatter is hidden during items/reflection, while waiting and reconnect messages remain visible. Numeric rating choices show the existing rubric meanings directly. Save is the primary phone action, disabled until a score is selected, with explicit Continue without rating. After saving, Next round becomes primary. Editing offers Update rating and Continue without changes; the existing saved score is retained unless updated. Other roles see who rates and advances. All-passed rounds have no numeric form or performance reflection question.
+
+Ended rooms hide the role badge and room header, retain the saved-rating explanation and offer Back to library with a secondary New room action. Existing departure/end confirmations and room ownership are unchanged.
+
+Validation: all 31 unit tests, bilingual content/runtime parity and production build pass. The five-context intercepted-backend regression covers the full sequence, invite focus during polling, save/update/skip behavior, pair control transfer, all-passed rounds, reconnect/replay, self-awareness and ending. Rating fields and sticky save actions fit above the phone controls at 320px in English and Norwegian. Entry, choosing, preparation, items, reflection, ratings and ending screenshots were inspected. No database migrations or live test-account changes were required.
+
+## Your part role cards (October 2)
+
+The earlier reminders described feedback/retry but did not explain each role's first action. Your part now shows a short action preview while collapsed and three labelled instructions when expanded. Client guidance covers reading, experiential feedback in role and repeating the same line. Therapist guidance covers responding in their own words, choosing or adapting feedback and testing one change. Observer guidance covers noticing the skill, one strength/experiment and finishing after retry with rating after the round. Watching observers have two cues; pair therapists receive a fourth finish/self-assessment cue.
+
+The cards use a restrained tinted surface, row separators, clear action labels, a touch-sized disclosure and keyboard focus. Expanded state persists between items for each role and separately for ordinary/self-awareness practice. The workflow stays first for active guides; other roles see their own card before the optional workflow. Self-awareness guidance retains voluntary sharing, no obligation to respond to the client, the reader's transition out of role and the boundary against interpretation or disclosure pressure.
+
+Validation: all 31 unit tests, bilingual content/runtime parity and production build pass. The five-context intercepted-backend regression verifies labelled role actions, useful collapsed previews, keyboard opening/closing, persisted expansion on the next item, pair responsibilities and Norwegian self-awareness boundaries, alongside the existing full room flow. Expanded English and Norwegian cards were visually inspected at 390px/320px with no horizontal overflow. No backend changes or live test-account writes were made.
+
+## Client role background before practice (October 2)
+
+Client preparation restores the full case brief from the library: description, maladaptive schema, core pain, delivery style, listening cues and client voice. It uses the existing localized case data and labels, with empty fields omitted. Background fields stack on phones and use the existing two-column layout on wider screens. The client/reader receives the brief each time they enter preparation, including after role rotation; other roles retain their shorter skill-focused preparation. Active items still show the client statement and concise role card.
+
+Validation: all 31 unit tests, bilingual content/runtime parity, production build and the five-context intercepted-backend room check pass. The browser check verifies the client's four case fields and full voice, their absence from other roles, translated self-awareness reader preparation, narrow layouts and the existing practice/rotation/recovery sequence. Client preparation screenshots were inspected at 390px/320px in English and 320px in Norwegian. No database changes or live account writes were made.
+
+## Inline retry example (October 2)
+
+The detached For the retry panel is removed. The therapist's Retry row (Again for self-awareness) now contains the optional example control beside the action it supports. One button reveals/hides the example, with a brief after-attempt/feedback cue, accessible expanded state and the existing example-not-answer-key reminder. Examples remain local to the therapist and clear on each new item.
+
+Validation: all 31 unit tests, bilingual content/runtime parity, production build and the five-context intercepted-backend room check pass. Browser checks cover placement inside the retry row, no detached panel, therapist-only visibility, keyboard reveal/hide/reopen, item reset and narrow layouts. English 390px/320px and Norwegian 320px screenshots were visually inspected. No backend changes or live account writes were made.
+
+## One skill-performance rating scale (October 2)
+
+Progress now has one visible self/observer selector. The rating-scale selector, folded filters, scale-specific state, empty messages and obsolete UI translations are removed. Individual and shared-device practice now use the same current skill-performance guide and rubric as group rooms: 1 Not yet demonstrated through 5 Skillfully demonstrated. Source selection remains independent of practice format; history navigation retains the user's chosen format. Difficulty profiles and source/account isolation are unchanged.
+
+The `single_skill_rating_scale` migration is applied to the connected project. A private mode-0600 backup captured all 606 ratings before cleanup. It deletes the 201 obsolete mastery ratings and two unspecified-scale ratings without converting their scores, and preserves all 403 current-scale rows (201 self, 202 observer). A post-migration comparison confirms every retained record matches the backup exactly. The fixed `group-skill-v2` rubric identifier remains for provenance; table constraints and non-null columns now allow only that rubric with individual/triad format metadata. The local rating RPC rejects old or unspecified rubrics. RLS, ownership, pairing checks for paused legacy rounds, and room rating authority remain intact. Applied historical migrations are retained as migration history, not active scale options.
+
+Validation: all 31 unit tests, bilingual content/runtime parity, production build and read-only backend schema checks pass. Progress browser checks cover the visible two-source selector, radar difficulty layers, history navigation, errors, refresh, repeated auth events, stale-response isolation and Norwegian 320px layout. Real SDK requests enforce owner/source/current rubric/latest-500 constraints. Individual/shared-device lifecycle checks verify current-scale save payloads, retry and round identity. Rolled-back SQL tests verify current self/observer saves, idempotent updates, obsolete/null scale rejection, direct-table enforcement and authenticated RLS isolation; room permission, completion, pair rating and replay checks also pass against the new schema. Security/performance advisors were reviewed; existing project findings remain outside this rating cleanup. Screenshots were visually inspected. The three demo profiles retain their current-scale data; no replacement scores or inferred conversions were inserted.
+
+## Progress source audit and phone header (October 2)
+
+A read-only audit of the full demo profile found 144 self-ratings and 145 observer ratings, with no round recorded in both sources and no incorrect source/rater identities. The seed manifest accounts for 144 records in each source; one additional observer rating remains. Most seeded skill averages match, explaining the similar radar shapes. A browser check using the current account snapshot with isolated mocked authentication confirms that switching source changes the plotted points and difficulty averages: self 3.9/3.1/2.2 versus observer 3.7/2.9/2.0. No live ratings were modified.
+
+The progress description now sits below the title/Refresh row. Refresh uses normal flex layout instead of absolute positioning and retains a minimum 44px touch target. Production build and the progress browser regression pass, including bounding-box checks for title/description/button separation in both sources at 320px and 390px in English, and 320px in Norwegian. Phone screenshots were visually inspected.

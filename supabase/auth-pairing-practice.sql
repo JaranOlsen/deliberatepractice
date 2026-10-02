@@ -82,9 +82,26 @@ create index if not exists practice_ratings_created_by_idx on public.practice_ra
 create index if not exists practice_ratings_skill_case_idx on public.practice_ratings(therapist_user_id, skill_id, case_id);
 create index if not exists practice_ratings_scope_idx on public.practice_ratings(therapist_user_id, rating_scope, created_at desc);
 
+-- NULL keeps older clients compatible; new clients send one UUID per round.
+alter table public.practice_ratings add column if not exists client_round_id uuid;
+create unique index if not exists practice_ratings_client_round_idx
+  on public.practice_ratings (created_by_user_id, client_round_id);
+
+-- One skill-performance scale for individual and group practice, self and observer.
+alter table public.practice_ratings add column if not exists practice_mode text;
+alter table public.practice_ratings add column if not exists rating_rubric text default 'group-skill-v2';
+alter table public.practice_ratings alter column practice_mode set not null;
+alter table public.practice_ratings alter column rating_rubric set default 'group-skill-v2';
+alter table public.practice_ratings alter column rating_rubric set not null;
+alter table public.practice_ratings drop constraint if exists practice_ratings_rubric_check;
+alter table public.practice_ratings add constraint practice_ratings_rubric_check check (
+  practice_mode in ('individual', 'triad') and rating_rubric = 'group-skill-v2'
+);
+
 create or replace function public.dp_touch_updated_at()
 returns trigger
 language plpgsql
+set search_path = pg_catalog
 as $$
 begin
   new.updated_at = now();
@@ -193,6 +210,7 @@ create or replace function public.normalize_pairing_code(input_code text)
 returns text
 language sql
 immutable
+set search_path = pg_catalog
 as $$
   select upper(regexp_replace(coalesce(input_code, ''), '[^A-Za-z0-9]', '', 'g'));
 $$;
@@ -433,6 +451,8 @@ drop function if exists public.record_practice_rating(uuid, text, text, text, te
 drop function if exists public.record_practice_rating(uuid, text, text, text, text, text, integer, text, integer, text[], text, text, text[], integer, integer);
 drop function if exists public.record_practice_rating(uuid, text, text, text, text, text, integer, text, integer, text[], text, text, text[], integer);
 
+drop function if exists public.record_practice_rating(uuid, text, text, text, text, text, integer, text, integer, text[], text, text, text[], integer, uuid);
+
 create or replace function public.record_practice_rating(
   input_therapist_user_id uuid,
   input_source text,
@@ -447,7 +467,10 @@ create or replace function public.record_practice_rating(
   input_content_revision text default null,
   input_rating_scope text default 'statement',
   input_completed_statement_ids text[] default '{}',
-  input_item_count integer default null
+  input_item_count integer default null,
+  input_client_round_id uuid default null,
+  input_practice_mode text default null,
+  input_rating_rubric text default 'group-skill-v2'
 )
 returns table (
   id uuid,
@@ -476,6 +499,14 @@ begin
 
   if input_score is null or input_score < 1 or input_score > 5 then
     raise exception 'Score must be between 1 and 5';
+  end if;
+
+  if input_rating_rubric is distinct from 'group-skill-v2' then
+    raise exception 'This rating scale is no longer supported. Refresh the app.';
+  end if;
+
+  if input_practice_mode is null or input_practice_mode not in ('individual', 'triad') then
+    raise exception 'Practice mode must be individual or triad';
   end if;
 
   if normalized_rating_scope not in ('statement', 'series') then
@@ -534,7 +565,10 @@ begin
     criteria_tags,
     completed_statement_ids,
     item_count,
-    content_revision
+    content_revision,
+    client_round_id,
+    practice_mode,
+    rating_rubric
   )
   values (
     target_therapist_id,
@@ -552,22 +586,48 @@ begin
     coalesce(input_criteria_tags, '{}'),
     coalesce(input_completed_statement_ids, '{}'),
     normalized_item_count,
-    nullif(trim(input_content_revision), '')
+    nullif(trim(input_content_revision), ''),
+    input_client_round_id,
+    input_practice_mode,
+    input_rating_rubric
   )
+  on conflict (created_by_user_id, client_round_id) do update
+  set score = excluded.score,
+      criteria_tags = excluded.criteria_tags
+  where public.practice_ratings.therapist_user_id = excluded.therapist_user_id
+    and public.practice_ratings.source = excluded.source
+    and public.practice_ratings.language_id = excluded.language_id
+    and public.practice_ratings.skill_id = excluded.skill_id
+    and public.practice_ratings.case_id = excluded.case_id
+    and public.practice_ratings.rating_scope = excluded.rating_scope
+    and public.practice_ratings.statement_id is not distinct from excluded.statement_id
+    and public.practice_ratings.difficulty is not distinct from excluded.difficulty
+    and public.practice_ratings.item_count is not distinct from excluded.item_count
+    and public.practice_ratings.completed_statement_ids = excluded.completed_statement_ids
+    and public.practice_ratings.practice_mode is not distinct from excluded.practice_mode
+    and public.practice_ratings.rating_rubric is not distinct from excluded.rating_rubric
   returning public.practice_ratings.id, public.practice_ratings.created_at;
+  if not found then
+    raise exception 'This round ID already belongs to a different practice round';
+  end if;
 end;
 $$;
 
-revoke all on function public.ensure_user_profile(text) from public;
-revoke all on function public.list_practice_targets() from public;
-revoke all on function public.create_pairing_invite() from public;
-revoke all on function public.accept_pairing_invite(text) from public;
-revoke all on function public.revoke_practice_partnership(uuid) from public;
-revoke all on function public.record_practice_rating(uuid, text, text, text, text, text, integer, text, integer, text[], text, text, text[], integer) from public;
+revoke all on function public.ensure_user_profile(text) from public, anon;
+revoke all on function public.list_practice_targets() from public, anon;
+revoke all on function public.create_pairing_invite() from public, anon;
+revoke all on function public.accept_pairing_invite(text) from public, anon;
+revoke all on function public.revoke_practice_partnership(uuid) from public, anon;
+revoke all on function public.record_practice_rating(uuid, text, text, text, text, text, integer, text, integer, text[], text, text, text[], integer, uuid, text, text) from public, anon;
 
 grant execute on function public.ensure_user_profile(text) to authenticated;
 grant execute on function public.list_practice_targets() to authenticated;
 grant execute on function public.create_pairing_invite() to authenticated;
 grant execute on function public.accept_pairing_invite(text) to authenticated;
 grant execute on function public.revoke_practice_partnership(uuid) to authenticated;
-grant execute on function public.record_practice_rating(uuid, text, text, text, text, text, integer, text, integer, text[], text, text, text[], integer) to authenticated;
+grant execute on function public.record_practice_rating(uuid, text, text, text, text, text, integer, text, integer, text[], text, text, text[], integer, uuid, text, text) to authenticated;
+
+-- Trigger functions and the pairing-code helper are internal implementation details.
+revoke all on function public.handle_new_user_profile() from public, anon, authenticated;
+revoke all on function public.dp_touch_updated_at() from public, anon, authenticated;
+revoke all on function public.normalize_pairing_code(text) from public, anon, authenticated;

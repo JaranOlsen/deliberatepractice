@@ -1,0 +1,1010 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] Before bed I keep checking his social media even though it wrecks me.",
+      "suggestion": "That pull toward his page fits with how fresh the loss is; each trace offers contact and hurts at the same time."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] I smiled through the whole team meeting and then cried in the bathroom afterward.",
+      "suggestion": "Anyone would need room for tears after holding themselves together through that meeting; the tears deserve room rather than embarrassment."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] When I think about the last weeks, I keep wondering if he'd have stayed if I had been more fun or easier.",
+      "suggestion": "Self-blame can look like control when an ending feels helpless; it gives the pain a target even though it turns against you."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] At night it gets too quiet, and I start feeling like I was never really wanted.",
+      "suggestion": "In that nighttime quiet, the old not-wanted feeling has room to get loud; loneliness can sound very convincing there."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Angry, then embarrassed] A friend told me to stop checking my phone, and I snapped at her.",
+      "suggestion": "No wonder it hit a raw spot; she was treating the phone like a habit, while for you it was still carrying hope."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] When I wake up, I forget for a second and then it slams me.",
+      "suggestion": "Understandably, waking into the loss again is a harsh start to the day; there is no time to protect yourself before it lands."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] I apologize when I start crying, like my sadness is taking up too much room.",
+      "suggestion": "If you have learned to monitor how much space your sadness takes, apologizing for tears makes protective sense; the sadness still belongs here."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] I feel guilty for being this upset when I am only dealing with a breakup and other people have bigger problems.",
+      "suggestion": "Comparing losses can make grief feel illegitimate, but being left is still a real wound."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fearful] My friends say I should come out for dinner, but I am scared I will cry at the table.",
+      "suggestion": "Dinner would put a private sadness in public view; fear of crying there is a reasonable wish to protect something tender."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] After this breakup, part of me thinks love must be for other people, not me.",
+      "suggestion": "After being left, love can start to look like something reserved for other people; that thought grows out of a very lonely hurt."
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Guilty] I hit a cyclist with my car last week. The road was slick, but he still broke his wrist and I cannot stop feeling guilty.",
+      "suggestion": "That guilt belongs to the seriousness of what happened: even without intent, your conscience is registering that someone got hurt."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] In meetings, if I don't have the answer, I feel exposed and I bluff.",
+      "suggestion": "When not knowing has been treated like failure, bluffing becomes a shield against humiliation."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] When I apologize, it feels like kneeling in front of someone who will use it against me.",
+      "suggestion": "If apology has felt like surrender, your body would brace before offering it; repair can feel unsafe when someone might use it to win."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Firm] At home, when my wife sighs or rolls her eyes, I go off before I think.",
+      "suggestion": "A sigh or eye roll can hit the old humiliation channel fast; no wonder your system is defending dignity before you can think."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Furious] Watching the news, I get so angry at people in charge acting like consequences are optional.",
+      "suggestion": "That anger has a clear moral charge: when powerful people avoid consequences, it hits your intolerance for unfairness and irresponsibility."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] When my kid asks why I am angry, I feel like the worst father.",
+      "suggestion": "The shame shows how much safe fatherhood matters to you; his question touches the gap between the dad you want to be and what anger does."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Firm] Slamming a door feels awful later, but in the moment it keeps me from feeling small.",
+      "suggestion": "In the moment, the door makes protective sense against feeling small; later the relief turns into pain because it is not how you want to protect yourself."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] If someone challenges me in front of the team, I double down even if I'm wrong.",
+      "suggestion": "Being challenged in public can feel like public demotion; doubling down protects dignity before there is room to be wrong."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] I hate that I need help with anger; it makes me feel weak.",
+      "suggestion": "If help has meant weakness in your world, even asking for it can feel like standing exposed; the shame is tied to that old rule."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] After I blow up at home, I lie awake replaying their faces and hating myself.",
+      "suggestion": "No wonder the replay has force; those faces matter to you, and shame is pressing on the part of you that wants them to feel safe."
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Trembling] Every presentation at work makes my hands shake, and then I feel pathetic for caring so much.",
+      "suggestion": "Under other people's eyes, shaking is an anxious system trying to get through exposure; it is not proof that caring is pathetic."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] I keep my eyes on the floor so no one has a reason to look at me.",
+      "suggestion": "Keeping your eyes down has protected you from being singled out; visibility has felt risky before it has felt connecting."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] At team lunches, I pretend to text so I have somewhere to hide during small talk.",
+      "suggestion": "The phone gives you a small refuge in small talk; hiding there is a way to survive possible judgment, not a character flaw."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] When people laugh politely after I say something, I assume they are trying to escape me.",
+      "suggestion": "Polite laughter is ambiguous enough for shame to fill in the worst meaning; your mind is trying to protect you from rejection."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] Compliments bounce off; part of me wants to believe them, but the suspicious part wins.",
+      "suggestion": "When self-attack has had years of practice, praise can feel suspicious before it feels nourishing; the suspicious part is trying to prevent another letdown."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quiet and ashamed] After I talk in a group, I replay every sentence and feel ashamed for sounding awkward.",
+      "suggestion": "The replay is a harsh attempt to keep you from future embarrassment; it makes sense in a world where belonging has felt fragile."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quiet and ashamed] I skipped another team lunch and then felt pathetic for hiding in my apartment.",
+      "suggestion": "Skipping lunch makes protective sense in the moment, and the shame afterward shows the other truth: you still want to belong."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] I scan every room for who is doing better than me, then feel defective.",
+      "suggestion": "Scanning the room makes anxious sense as your mind tries to find danger and your place; shame turns that scan into a verdict against you."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nervous, almost smiling] Someone invited me to a game night, and I wanted to go for about ten seconds before panic took over.",
+      "suggestion": "No wonder panic rushed in; that same invitation touched both the ten-second hope for connection and the fear of exposure."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] Some nights I lie there certain I will always be alone because I am too awkward to love.",
+      "suggestion": "No wonder nights get heavy; shame can make loneliness sound permanent when the fear has that much room."
+    }
+  ],
+  "case-laura": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat and ashamed] On days off I can stay in bed until noon, not exactly sleeping, just not able to start. Then I tell myself I am lazy because other people manage normal mornings.",
+      "suggestion": "After years on alert, staying in bed can become the one place with no demands; that belongs to exhaustion and protection, not laziness."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fearful] If voices rise, my stomach drops and I go somewhere else in my head.",
+      "suggestion": "Raised voices can feel like danger fast enough to send you away in your head; that leaving once helped you survive."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Guarded and confused] A man from work asked if I wanted coffee, and I felt a tiny bit pleased before I went completely numb. I keep telling myself that is ridiculous at my age.",
+      "suggestion": "Both reactions fit with what closeness has meant: the small warmth of being wanted and the numb protection that arrives when it starts to feel possible."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat and guarded] I take long showers because warm water feels safer than asking anyone for comfort.",
+      "suggestion": "Small, safe warmth can feel deeply important when human comfort has been dangerous or unreliable."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sad] I like the new apartment, but when I unpacked the photos from the old house, I missed the version of my family I kept hoping we would become.",
+      "suggestion": "The grief belongs to what this move carries: not only a new start but the loss of the home and family you kept trying to have."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and guarded] Being touched, even kindly, startles me, and then I feel broken for reacting that way.",
+      "suggestion": "Your startle arriving before choice fits with a system that learned to react first; that is not brokenness."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fearful] When sadness pushes through, I get scared I won't come back from it.",
+      "suggestion": "If strong feelings once arrived without comfort, sadness can feel like it might swallow you."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Distant] I apologize the second I need comfort, like wanting it is already too much.",
+      "suggestion": "Wanting comfort is legitimate and deeply human, even when closeness has taught you to apologize for needing it."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat and embarrassed] My daughter sent a song she thought I would like, and I could not make myself listen. I hate that even something kind feels like work.",
+      "suggestion": "Even kindness can understandably feel demanding after so much guarding; the effort says how hard closeness has become, not that you do not care."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-laura_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat and guarded] Even in bed, my shoulders stay up like someone might come through the door.",
+      "suggestion": "Rest can feel hard to find when part of you learned to keep watch for danger."
+    }
+  ],
+  "case-carlos": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] Watching the news about families like mine being treated like threats makes me so angry I can barely sit still.",
+      "suggestion": "That anger fits with dignity, family, and the old fear of being treated as less than fully human."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] If I do not come in strong, I picture people seeing the scared kid I used to be, and that feels humiliating before anyone has even done anything.",
+      "suggestion": "Coming in strong has protected the scared part you were taught to hide; it also sounds exhausting to keep that armor up."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] At my kid's game I yelled at the ref, and afterward my son would not look at me. I keep telling myself I am turning into exactly what I hated.",
+      "suggestion": "The shame is there because his face matters to you; the yelling needs accountability, and the pain afterward shows how deeply you want to be different."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] When someone questions me, I feel small, then I come in louder than I meant to.",
+      "suggestion": "Anger rushing in fits with how quickly questions touch the old feeling of being made small."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Angry and ashamed] When my fists clench, I feel like the fight is already coming, and then I hate myself for looking like every man I promised I would never become.",
+      "suggestion": "The way your fists clench fits with old survival learning and present shame at the same time; fight was something your body learned to keep you alive."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] I break things and then regret it when I see how scared everyone looks.",
+      "suggestion": "The regret shows how much protecting your family is part of who you want to be."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] Coworkers steer clear after I blow up, and I feel ashamed even while I act like I do not care.",
+      "suggestion": "Shame and armor can feel tangled together: part of you is hurt by the distance, while another part tries not to show it."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Torn] I leave the room so I do not explode, but then I hear my father's voice calling that weak.",
+      "suggestion": "Leaving fits with protecting your family from the explosion, while also colliding with the old rule that stepping back is weakness."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Mistrustful] Calm feels suspicious, like someone is setting me up to be walked over.",
+      "suggestion": "Calm can feel exposed after you learned to expect being walked over; suspicion has had a job for a long time."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-carlos_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Vulnerable] My son fell asleep against me on the couch, and I felt proud, scared, and sad all at once because I want him to feel safe with me in a way I never felt.",
+      "suggestion": "This mix of pride, fear, and sadness belongs to the same moment here; his trust touches your love for him and the grief of not having that kind of safety yourself."
+    }
+  ],
+  "case-nina": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tired] If I sit down before everything is done, guilt starts listing what I should be doing.",
+      "suggestion": "That guilt belongs to the old rule that your worth had to be earned through usefulness."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Apologetic] The church asked me to bring food for another event, and I said I could not. I spent the whole night feeling like I had failed at being generous.",
+      "suggestion": "One no can feel morally heavy when generosity and being good have been tied together for so long."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sad and guilty] My husband made dinner without asking me, and instead of just feeling cared for I cried and then apologized for making it strange.",
+      "suggestion": "Being cared for can feel like it touches a deep hunger and a deep alarm at the same time after carrying care alone for so long."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Guilty] When anger comes up, I instantly hear myself being selfish and feel guilty.",
+      "suggestion": "Guilt can feel ready to arrive right after anger when you learned that other people's needs had to come first."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Apologetic] When I ask for help, I feel like a burden before anyone even answers.",
+      "suggestion": "Needing help can feel risky after years of being the one who carries everyone else."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Guilty] A messy counter can make me feel like I have failed as a whole person.",
+      "suggestion": "When care and performance got fused, even mess can feel like shame about who you are."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tired] I tell myself other mothers have it harder, so I should be grateful instead of resentful.",
+      "suggestion": "That comparison can look like an old silencer for your own pain, while resentment can still be a valid signal that you are carrying too much."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Apologetic] I work through being sick, then collapse and feel guilty for collapsing.",
+      "suggestion": "Pushing through fits with the rule that rest is forbidden; even the collapse gets judged by that rule."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panicked] If someone seems disappointed, I panic like I have ruined the relationship.",
+      "suggestion": "Disappointment can feel frightening when love has felt tied to keeping people pleased."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nina_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Torn] My son talks about joining the army, and I feel proud of him and terrified, then guilty because a good mother should be braver.",
+      "suggestion": "This mix of pride and terror belongs to the same moment; loving his courage does not cancel the fear of what his courage may cost him."
+    }
+  ],
+  "case-aisha": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panicked] I watched the door most of session to make sure you won't leave. Every time the hallway got quiet, I thought this might be the moment you decide I am too much and walk out.",
+      "suggestion": "Keeping the door in view fits with so many sudden endings; it protects against being dropped again, and the need for safety is very real."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Torn] I ripped up photos after the breakup and felt powerful for maybe one minute, like I could erase him first. Then the floor was covered in pieces and I felt empty and ashamed.",
+      "suggestion": "The tearing gave you a moment of control inside unbearable hurt, and the emptiness afterward belongs to the same loss, not a contradiction."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panicked] Sometimes the panic gets so loud I want to crawl out of my skin. I pace, scratch at my sleeves, and cannot find a place inside myself that feels safe to stay in.",
+      "suggestion": "The urge to escape your own skin fits with panic taking over the whole inside; it is an attempt to survive the intensity."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panicked] When you take notes, I think you are writing proof that I am unstable or too dramatic. I know that may not be fair, but my body wants to bolt before you finish the sentence.",
+      "suggestion": "Notes can feel like being judged, captured, or misunderstood when other people's versions of you have so often felt dangerous."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperate] I send twenty texts because I need them close, then block them before they can leave. Afterward I hate how needy it looks, but in the moment silence feels like being erased.",
+      "suggestion": "The texting fits with reaching for contact when silence feels unbearable, and blocking tries to protect you from waiting to be abandoned."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fearful and ashamed] I know it was done to me, but I still feel dirty in my own skin. Sometimes I shower and still feel like there is something wrong with me for having been there.",
+      "suggestion": "Feeling contaminated after violation can be a painful trauma mark; the shame belongs to what was done to you, not to your worth or your body."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panicked] When someone says something kind, I sob like I need it and panic like it is a trap. Kindness should feel good, but it makes me feel exposed and hungry at the same time.",
+      "suggestion": "Kindness can feel like it reaches both the longing for care and the fear of being trapped by needing it after closeness has been so unsafe."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Furious] If you look away for a second, I feel erased and then furious. I know it is one second, but inside it feels like I vanished from the room and have to fight my way back.",
+      "suggestion": "A tiny shift can feel like proof of disappearing from someone's mind, and the anger tries to restore contact and mattering fast."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] I hear a voice saying I am trash and impossible to love, and part of me believes it. It gets loudest after I have needed someone, like need itself proves the voice is right.",
+      "suggestion": "That cruel voice can sound convincing after betrayal has handed it so much material, especially around the human need for closeness."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-aisha_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperate] I stare at the clock to make sure you won't end early. The last five minutes make my chest tight because I am already trying to survive you leaving.",
+      "suggestion": "Watching the clock fits with bracing for another ending before it takes you by surprise; the fear of being left is already in the room."
+    }
+  ],
+  "case-david": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Controlled] When my wife brings up feelings, I feel cornered and want to argue the facts. If I stay with the emotional part, it starts sounding like a trial where I have already lost.",
+      "suggestion": "Facts can feel like a defensible place to stand when feelings arrive as accusation; that cornered feeling helps explain why argument takes over so quickly."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Furious] After I scared my wife, I still felt furious at her for pushing me, and then ashamed because I know how that sounds. I hate admitting that part because I know her fear is real.",
+      "suggestion": "It is legitimate to name this painful mixed truth: the rage was genuinely there, and the fear you caused genuinely matters too. Validation can hold both without excusing harm."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] I compare myself to other dads and feel like a fraud. They seem relaxed at school events, and I stand there performing competence while wondering when someone will see through it.",
+      "suggestion": "Comparison can feel shame-stirring when fatherhood becomes another performance test in the place you most want to feel solid and real."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] When I apologize, it feels like handing someone proof that I am small. I can know I owe the apology and still feel my face burn like I have given away my last piece of ground.",
+      "suggestion": "Apology can feel exposing when it asks for accountability while touching old humiliation about being made small."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Dismissive] I plan perfect vacations so we look good from the outside. If the photos look happy enough, maybe no one sees how tense dinner was or how little I know what to do at home.",
+      "suggestion": "The polished outside has protected against exposure, and it also leaves you carrying the private tension alone after everyone has admired the picture."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fearful] The idea of being ordinary scares me, like I would disappear if I stopped impressing people. I do not know who I am without someone needing to admire the result.",
+      "suggestion": "If admiration has held your sense of worth together, ordinary can feel like vanishing rather than resting."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] I say I am fine while feeling empty, because admitting the emptiness feels humiliating. I can run a meeting and handle pressure, but saying I feel empty makes me feel pathetic.",
+      "suggestion": "The emptiness threatens the competent image that has protected you, so covering it defends against humiliation."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Dismissive] I brag to get respect, then sit alone feeling emptier than before. The room reacts the way I wanted, and somehow that makes it worse when I am by myself.",
+      "suggestion": "The bragging can look like a reach for respect, and the emptiness afterward shows how admiration can steady worth for a moment without touching loneliness."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Wounded but sharp] I still feel like my father is marking me down from somewhere. I can be in my own office, with my own family, and still hear the grade before I know what I did wrong.",
+      "suggestion": "Being measured for so long can feel like it leaves an inner scoreboard that keeps grading even in rooms he no longer controls."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-david_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Controlled] When my team outshines me, I feel threatened instead of proud. I know a good leader should celebrate them, but part of me hears their success as my replacement notice.",
+      "suggestion": "Their success can feel like it touches the old equation between being best and being safe, so pride has to compete with the fear of becoming replaceable."
+    }
+  ],
+  "case-marcus": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat] Most days I move through routines like I am not fully there. I make coffee, shower, answer people, and it feels like a version of me is doing it while the rest stays back.",
+      "suggestion": "After too much danger, numbness has protected your ability to keep functioning; it is a survival pattern, not a failure to care."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Dazed] I do not know what I feel. It is pressure, anger, and nothing at the same time, and I feel stupid for not having words.",
+      "suggestion": "Words can disappear when pressure, anger, and numbness arrive together; not knowing belongs to the overwhelm, not to stupidity."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quiet and guarded] I sit in the car before going inside because I can't face the quiet. The engine is off, but at least the car still feels like a place between the day and the apartment.",
+      "suggestion": "The car can feel like a buffer before the quiet brings everything back; pausing there doses what feels too much."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] Loud bangs make me jump and then I get angry at myself for reacting. Yesterday a truck gate slammed outside and I was already scanning the room before I knew what happened.",
+      "suggestion": "Your system moving into survival before choice arrives fits with danger learning; the anger afterward shows how costly it is to live with that reflex."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Low voice] Holidays feel hollow; I don't feel anything I'm supposed to feel. People talk about family and gratitude, and I mostly feel like I am watching through a window.",
+      "suggestion": "Holidays can feel hollow when they ask for warmth and belonging in the very places where numbness and distance have protected you."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quiet and guarded] I avoid reminders of my service because they open the floodgates. A news clip or a sound in the street can put me back there faster than I can explain.",
+      "suggestion": "Avoiding reminders has protected you from being pulled back too fast; the speed of those reactions deserves respect."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat] I keep the apartment dark because bright rooms feel like they ask too much of me. With the shades down, I do not have to see the dishes, the empty chair, or myself as clearly.",
+      "suggestion": "The dim room can feel like a way to lower the demand of being fully present with everything at once; it helps manage exposure."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Low voice] I cannot remember the last time I laughed and trusted it would last. Even when something is funny, I catch myself waiting for the feeling to disappear.",
+      "suggestion": "Joy can feel hard to trust when your system has had to stay prepared for loss; waiting for it to disappear is part of that protection."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quiet and guarded] I do not want to need anyone, because needing people has usually meant losing control. If someone matters, they can ask questions, leave, or get inside places I would rather keep closed.",
+      "suggestion": "Not needing anyone has protected places that have been hurt or invaded; the loneliness is the cost of that protection."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-marcus_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat] Sometimes I think I am better off alone forever, because closeness only gives people more ways to hurt me. Alone is not good, exactly, but at least nobody can reach what is left.",
+      "suggestion": "Aloneness can feel like the only reliable shield after closeness has carried danger, even while it cuts you off from what you also need."
+    }
+  ]
+}

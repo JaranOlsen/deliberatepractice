@@ -1,0 +1,1100 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_providing-treatment-rationale_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] Shouldn't I just focus on positive thoughts instead of digging into how sad I am?",
+      "suggestion": "Positive thoughts can help for a moment, and sadness still needs somewhere to go. If we listen to it in small, steady doses, it can show what needs comfort or connection instead of returning at night with more force."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] Why keep asking what I feel when I just need a plan for getting through the week?",
+      "suggestion": "A plan will work better when it fits the feeling that derails the week. We listen to the grief first because it tells us whether you need comfort, contact, rest, or a boundary before we choose steps."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] I feel embarrassed crying about this again. How does making room for tears help me move on?",
+      "suggestion": "The embarrassment makes sense. We are not trying to keep you crying; we use the tears as a signal of what still needs care because that helps grief move through instead of staying hidden and pulling you back."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] If distraction gets me through the quiet hours, why would we mess with that?",
+      "suggestion": "Distraction helps you get through the peak. We also practice touching the loneliness in small doses because then the quiet becomes less dangerous, not just something you have to outrun."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] How does talking about a breakup help when other people have bigger problems?",
+      "suggestion": "Pain does not have to win a contest before we listen to it. Giving this grief careful attention helps us hear what it needs—comfort, boundaries, connection—so it can ease instead of being pushed aside."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] If we talk about him more, won't that keep him in my head even longer?",
+      "suggestion": "We are not rehearsing him; we map the pull underneath—loneliness, hope, self-blame—because when those parts get care, the checking loop has less to feed on."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] Can we set goals so I am busy enough not to feel this?",
+      "suggestion": "We can use goals, but if they only cover the grief, the loneliness waits for night. A few minutes with the feeling helps us choose actions that refill you rather than numb you."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] What if 'hollow' is all I have? I don't know how to make that useful.",
+      "suggestion": "'Hollow' is not useless; it gives us a doorway. Weight, shape, and pull turn vague emptiness into something specific enough to understand and soothe."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Impatient] I want a timeline for when I stop checking his profile; otherwise this feels pointless.",
+      "suggestion": "A timeline would be comforting, but the loop changes by learning what checking is doing for you. When we map the hope, loneliness, and crash, you get more ways to meet the need without reopening the wound."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] How is this different from retelling the breakup until even I am sick of hearing it?",
+      "suggestion": "Here we are not just retelling. We slow the story to find the stuck places because those moments show what still needs comfort, meaning, or a new response."
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_providing-treatment-rationale_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skeptical] I came for anger control, not feelings talk. How does this stop me from blowing up?",
+      "suggestion": "We start at the first sting, before anger takes the wheel, because catching shame, disrespect, or fear early makes tone and action into choices instead of automatic reactions."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] Isn't looking for the trigger just making excuses for me blowing up?",
+      "suggestion": "The point is accountability, not excuse-making, because knowing the trigger sequence lets you catch the first sting earlier and choose before it becomes yelling."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] Why slow down when people are watching and I need to look in control?",
+      "suggestion": "Slowing down protects control rather than weakening it. Five seconds helps you notice the jolt before your voice hardens, so authority does not have to come through heat."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] How does going near shame help if my wife or team see that as weakness?",
+      "suggestion": "We are not practicing weakness; we are finding the sting early because naming what got hit gives you a steadier answer than proving strength through heat."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Challenging] Can we skip the feelings and just build a tool for when my chest gets hot?",
+      "suggestion": "We can build the tool around that heat. Feeling work tells us exactly what the tool must interrupt: shame, threat, or the urge to prove yourself."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] How does noticing a tight jaw help me lead when a meeting turns tense?",
+      "suggestion": "The tight jaw helps as an early warning, not a distraction. If you catch it before your voice sharpens, you get a few seconds to answer with authority instead of heat."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] What if I blow up after all this and everyone says therapy failed?",
+      "suggestion": "Then we use it as data, not a verdict. We review the sequence, refine the map, and practice the pause so the next hard moment goes better."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] How does more talking prove to my wife that I can stop exploding?",
+      "suggestion": "The proof has to be visible: fewer blowups, shorter recoveries, and faster repairs. Talking helps only if it maps the reaction early enough for you to choose a different move at home."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Challenging] Will this change how my team sees me, or just make me analyze myself?",
+      "suggestion": "The change has to show up in tone, timing, and repair. Catching the sting earlier matters because it gives your team a leader who responds instead of flaring."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] What am I supposed to do if I am not good at feelings and have no words?",
+      "suggestion": "You do not need fluency to begin. Jaw, chest, heat, one need - those concrete cues matter because they make the work practical and keep it under your control."
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_providing-treatment-rationale_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skeptical] Does this actually help social anxiety, or am I just learning to stare at fear?",
+      "suggestion": "The aim is not to stare at fear. We find the first manageable cue, calm it enough, and practice staying present so confidence grows from repeated survivable moments."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Blank] What if I go blank here too and waste the whole session?",
+      "suggestion": "Blankness is useful information, not a waste. We start with the blank itself because noticing its first signals gives us a path into the fear without forcing words."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] My thoughts are what ruin things, so why keep asking about my chest?",
+      "suggestion": "The thoughts matter, and the chest often warns us before the thoughts get loud. Following that signal lets us intervene earlier, before the spiral has built speed."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] When I pay attention to fear it gets louder, so why would I practice that?",
+      "suggestion": "We do not flood you with fear. We practice at the edge because small doses teach your alarm that fear can be noticed, named, and survived without taking over."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] Can we just script what I should say before meetings so I do not freeze?",
+      "suggestion": "Yes, and the script has to survive the freeze. Pairing the words with the first fear cue helps you stay present long enough to use them."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] How long before I can speak in meetings without my body taking over?",
+      "suggestion": "Usually the first shifts are small: a little less bracing, a little more room to stay present when attention turns to you, and a quicker recovery afterward."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] I'm embarrassed to talk about being this scared; how is saying it out loud supposed to help?",
+      "suggestion": "We go gently, and you set the pace. Saying it out loud helps shame loosen its grip because the fear is met instead of hidden."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] What do I actually do when the 'you're awkward' voice starts?",
+      "suggestion": "We make that voice specific, find the body cue that comes with it, and practice a steadier reply because then you have an action before shame makes you disappear."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] Will I always have to work this hard just to speak like everyone else?",
+      "suggestion": "It usually gets easier. As safety builds through repeated, manageable practice, fewer social cues set off the alarm and speaking can feel less like a full-body project."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] Why practice eye contact when it feels like people can see everything wrong with me?",
+      "suggestion": "We do not force eye contact. Brief, chosen moments help your alarm learn that being seen can be tolerable and different from being exposed."
+    }
+  ],
+  "case-laura": [
+    {
+      "id": "dp_providing-treatment-rationale_case-laura_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] If this is my brain chemistry, why would talking to you change anything?",
+      "suggestion": "Chemistry matters, and repeated safety also shapes the system over time. Alongside any medical care, therapy gives your mind and body new experiences of being present, soothed, and not alone so that the alarm system has new evidence."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-laura_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Slow and flat] How do I know this will not make me relive trauma when I already disappear?",
+      "suggestion": "You will not be pushed to relive anything. We use tiny doses and grounding so you can touch one edge and return; over time, that helps the memory loosen its pull."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-laura_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Slow and flat] If I go numb before I can feel anything, what exactly are we working with?",
+      "suggestion": "We work with the numbness itself because it is protection, not absence. Its edges show us when closeness feels risky, so feeling can return in amounts you can manage."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-laura_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] What if your kindness makes me more suspicious instead of safer?",
+      "suggestion": "Then we treat the suspicion as useful protection. We slow down because trust needs evidence; you can test warmth in tiny amounts before relying on it."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-laura_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] Will this dig up things I cannot handle and leave me worse afterward?",
+      "suggestion": "We pace carefully because safety comes first. You lead the speed, we ground often, and we stop before arousal gets too high so the work builds tolerance instead of overwhelm."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-laura_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Slow and flat] Why chase tiny signals if I shut down before I can use them?",
+      "suggestion": "The tiny signals are warning lights before shutdown. Learning them lets us slow the work earlier, so you have more chance to stay present instead of disappearing."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-laura_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Slow and flat] How is talking supposed to change this flatness when I barely feel anything?",
+      "suggestion": "The goal is a wider window: more access to feeling and more calm. We follow small signs of life rather than forcing emotion open."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-laura_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Slow and flat] How will I know this is working if I still feel numb most days?",
+      "suggestion": "We track small signs because numbness softens gradually: less bracing when voices rise, a few more seconds of staying present, and brief moments of warmth or calm that do not feel like a trap."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-laura_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] Can we just talk about practical things so I do not have to feel all this?",
+      "suggestion": "Practical support belongs here too. Emotion work helps it land because you are less alone and less on guard with what you have been carrying."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-laura_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] What if I freeze in here and you sit there waiting for an answer?",
+      "suggestion": "Then the freeze becomes the work. We pause, ground, and name what is happening because that teaches your system that shutting down can be met safely, not pressured."
+    }
+  ],
+  "case-carlos": [
+    {
+      "id": "dp_providing-treatment-rationale_case-carlos_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] Is this going to make me soft? I still need people to know not to mess with me.",
+      "suggestion": "The goal is steadiness, not softness. You can keep a clear line without scaring your family or handing control over to anger."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-carlos_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] Why talk feelings instead of giving me tools I can use when I am heated?",
+      "suggestion": "Tools are part of the work. Feeling work matters because it shows the split second the heat starts, so the tool arrives before fists or words take over."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-carlos_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] How does this help when someone disrespects me in front of my family?",
+      "suggestion": "We map the flashpoint so you can separate real disrespect from the sting of humiliation. That gives you a firm response without an explosion."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-carlos_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skeptical] How does feeling more keep me from losing my edge and getting walked over?",
+      "suggestion": "We are not taking away your edge. Separating protection from explosion matters because people can know your line while your son gets steadiness instead of fear."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-carlos_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] If anger is what protects me, why would I spend therapy trying to feel what is underneath it?",
+      "suggestion": "Anger has protected you, and it has also scared the people you love. We look underneath because that helps you keep the protective clarity without the explosion deciding for you."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-carlos_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] How is breathing supposed to matter when I'm already two seconds from snapping?",
+      "suggestion": "Breathing matters only as a doorway. It buys a few seconds because those seconds let you catch hurt or humiliation before the snap becomes the only move."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-carlos_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] How do I demand respect without acting like somebody can walk over me?",
+      "suggestion": "We build a third option because you need respect and safety at the same time. Naming the hit underneath gives you a firm response that does not have to become a threat."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-carlos_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] I learned you have to hit first, so why would slowing down help?",
+      "suggestion": "That rule helped you survive then. Here we slow the flashpoint because feeling what gets hit underneath gives you more choice before the hit-first response takes over."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-carlos_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Guilty] My kid saw me angry. How does talking about feelings help him?",
+      "suggestion": "You model repair. When you catch it sooner and make amends faster, he learns safety and accountability from you, not just fear of anger."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-carlos_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] How do we keep this from becoming years of talk while my family waits?",
+      "suggestion": "We keep it focused by targeting the flashpoints that cause the most damage, then checking whether you catch, calm, and repair them faster at home."
+    }
+  ],
+  "case-nina": [
+    {
+      "id": "dp_providing-treatment-rationale_case-nina_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Guilty] Isn't it selfish to focus on my feelings when everyone needs something from me?",
+      "suggestion": "Your feelings point to needs and limits; that is what makes care sustainable. Listening to them lets you help without disappearing."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nina_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Apologetic] What does noticing my body even do when guilt hits before I think?",
+      "suggestion": "Those signals flag guilt before the automatic yes takes over. Catching them early gives you a pause, because that is where a boundary can become possible."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nina_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] How is emotion work supposed to help when I need practical steps before I drown?",
+      "suggestion": "Practical steps matter. Emotion work matters because it shows which request, limit, or need would actually reduce the load, so the plan does not become another assignment you carry alone."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nina_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] How does focusing on guilt help me say no when I already feel bad?",
+      "suggestion": "Guilt is the pressure point. If we notice it early and practice small, respectful limits, the guilty part can learn that care includes you too."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nina_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] If people might leave when I stop helping, how is naming needs supposed to help?",
+      "suggestion": "Naming needs lets us test that fear carefully instead of obeying it automatically. The right relationships often get stronger when people know what you actually need and where your limits are."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nina_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] Can we just fix my schedule? Talking about needs sounds like another task.",
+      "suggestion": "We can work on the schedule, and needs tell us what the schedule has to protect. Otherwise the plan may look organized while still using you up."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nina_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] What if saying no always feels wrong no matter how much we talk?",
+      "suggestion": "Then progress is not waiting for guilt to disappear. We practice noticing it, checking whether it fits, and choosing a limit anyway because guilt can soften after new experiences."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nina_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] How does asking for help get easier when needing anything feels like too much?",
+      "suggestion": "We practice tiny, specific asks so shame gets new evidence. Receiving a little support at a time can teach your system that need can be mutual, not excessive."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nina_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Guilty] If I focus on needs, won't I become the needy person I dislike?",
+      "suggestion": "Clear needs usually make people less desperate, not more. Naming them lets you ask directly before resentment, collapse, or hidden tests take over."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nina_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tired] How will I know this is actually helping and not just making me more self-focused?",
+      "suggestion": "Concrete signs will tell us: asking with less apology, resting with less punishment, and setting limits without erasing yourself. Those signs matter because the point is care that can last, not self-focus."
+    }
+  ],
+  "case-aisha": [
+    {
+      "id": "dp_providing-treatment-rationale_case-aisha_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] What if talking about being left makes me want to hurt myself again before I can stop it?",
+      "suggestion": "Safety comes first. We build a plan, grounding, and support before touching that pain because the goal is to keep you connected while the abandonment alarm becomes less dangerous."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-aisha_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperate] I need you to promise you will never leave, or I do not see how this helps.",
+      "suggestion": "That promise would soothe for a moment, and it would not be truthful. Longer-term safety comes from predictable separations, naming the fear, and repairing misses quickly so panic learns it is not alone."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-aisha_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panicked] If you cancel, how does naming the alarm stop me from doing something drastic?",
+      "suggestion": "Naming it is only one part. We also make a cancellation plan so that repeated, predictable steps help panic rise, crest, and come down without leaving you alone with it."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-aisha_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] What if my feelings are too much for any therapist to work with?",
+      "suggestion": "Your feelings are big because of what you lived, so we would not meet them all at once. Small pieces and grounding help your system learn they can be felt without taking you over."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-aisha_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panicked] When I am panicking, why ask about feet and breathing instead of just calming me down?",
+      "suggestion": "Panic is an alarm state, not only a thought. Feet, breath, and the chair help send present-time safety signals because that gives you enough room to choose the next step."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-aisha_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperate] How does working with this neediness help when reassurance from you feels so urgent?",
+      "suggestion": "That urgent need deserves direct work because it is already running the room. Clear asking, small doses of receiving, and ways to hold contact between sessions can make closeness less desperate."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-aisha_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panicked] If we focus on this relationship, won't I get attached and then fall apart when it ends?",
+      "suggestion": "We use the relationship carefully because attachment panic is already showing up here. Naming boundaries, endings, and repairs gives you practice staying connected without having to cling, test, or disappear."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-aisha_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] How will this help my relationships not blow up when I switch from begging to pushing away?",
+      "suggestion": "We map that switch because it usually happens before you have words for fear. Seeing the steps earlier gives you choices: naming fear, asking directly, or taking space safely before the relationship becomes a fight."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-aisha_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] Will this take forever, or am I always going to be this intense?",
+      "suggestion": "Early wins should be visible: fewer panic spikes, quicker settling, and more ways to name fear before it takes over. Practice helps build the path from alarm to steadier ground."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-aisha_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Mistrustful] Every therapist boundary sounds like distance, so why would I trust this?",
+      "suggestion": "We treat that fear directly. I will explain the frame, invite you to name its impact, and repair misses so that repeated predictable contact can make boundaries feel less like abandonment."
+    }
+  ],
+  "case-david": [
+    {
+      "id": "dp_providing-treatment-rationale_case-david_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Controlled] Why focus on feelings when I need results people can actually see?",
+      "suggestion": "We focus there because feelings drive the reactions people see. When you catch the sting under anger or distance, you get more control over tone, repair, and outcomes at home and work."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-david_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skeptical] How is this practical if I do not want to be psychoanalyzed or reduced to childhood?",
+      "suggestion": "We stay practical by starting with present moments you want changed. History comes in only if it helps explain why a reaction gets so fast or intense, so the work stays in service of steadier choices now."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-david_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Challenging] Will this help my marriage or is this just about me?",
+      "suggestion": "It helps the marriage because the pattern lives between you and still starts inside you. When we slow the sting under defensiveness, you can hear more, own more, and repair before the conversation hardens."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-david_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Controlled] I already know the theory. Why spend time on feelings instead of fixing behavior?",
+      "suggestion": "Theory helps only if it reaches the moment behavior changes. We focus on feelings because shame and threat are where your options narrow; catching them gives you more room to act differently."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-david_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Wounded but sharp] My emotions are the problem. Why would we focus on the thing that keeps messing everything up?",
+      "suggestion": "The reactions are causing damage, and that is exactly why we slow them down. Catching shame or threat before it drives your tone helps emotion become information you can use instead of a force running the room."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-david_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Demanding] I need anger control, not a deep dive into what I feel under it.",
+      "suggestion": "Anger control works best when it starts before the explosion. Looking underneath helps you catch the first hit of shame, threat, or fear, so control begins earlier than forcing yourself to calm down after the damage is done."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-david_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Challenging] Can we skip childhood stuff and stay with what is happening now?",
+      "suggestion": "Yes, we can stay present-focused. We only name earlier patterns if they show up in today's reactions, so history serves change instead of becoming a detour."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-david_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] What if I do not feel anything when you ask me to look inside?",
+      "suggestion": "Then we start with not feeling anything, because numbness is still information. Small signals like a tight jaw or hollow chest give us an entry point without forcing emotion."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-david_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Demanding] I need quick wins; I do not want another endless insight project.",
+      "suggestion": "Then we track behavior from the start because quick wins need to show up in action: catching defensiveness sooner, repairing faster, and getting through hard talks with less damage."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-david_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Controlled] How will I know this is worth it instead of another insight project?",
+      "suggestion": "We use concrete markers because insight alone will not be enough: less shutdown in hard conversations, quicker repair after you miss, and more room to stay present when shame gets hit."
+    }
+  ],
+  "case-marcus": [
+    {
+      "id": "dp_providing-treatment-rationale_case-marcus_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat] Talking will not change what happened, so why open the door to it?",
+      "suggestion": "It will not change the past. Small, grounded contact changes how the past hits you now because memories can gain less control over sleep, numbness, and isolation."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-marcus_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Slow and flat] I do not want to get flooded; when I lose control, I disappear for days.",
+      "suggestion": "That is exactly why we work in small sips: ground first, touch one edge, come back. The pace helps protect control while the memories become less alone and less explosive."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-marcus_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Slow and flat] Feelings are the problem. When I feel them, I drink, shut down, or lose days.",
+      "suggestion": "That history is exactly why we go slowly. We are not trying to open everything; we build enough safety that feelings can become signals you can survive, not emergencies you have to numb or escape."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-marcus_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat] Why notice the guard signals when I am on alert all the time?",
+      "suggestion": "The sequence matters because the guard signals come before shutdown. Learning the first step gives you a chance to return to the room before your system takes you fully back there."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-marcus_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hypervigilant] How will sitting with feelings help the nightmares instead of making the nights worse?",
+      "suggestion": "This is not endless sitting with pain. We steady you before and after bad nights and process small pieces only when safe because that gives the aftershock less force."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-marcus_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat] How is working on connection supposed to help when being alone keeps people from wanting things from me?",
+      "suggestion": "Aloneness has protected you from pressure and loss. We build contact in small, chosen doses so closeness can become support you control, not a demand that traps you."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-marcus_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat] What does progress look like for me if feeling normal is off the table?",
+      "suggestion": "Progress can mean more sleep, fewer startles, small moments of warmth, and being near a feeling briefly without shutting down because contact starts to feel safe in small doses."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-marcus_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Low voice] Why should I trust this if therapists usually push for stories I do not want to tell?",
+      "suggestion": "That mistrust is important information. We make the work predictable, explain why we ask, and keep you in charge of depth, because trust is earned through pace, not demanded."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-marcus_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] Can we keep this practical and not dig through every bad thing?",
+      "suggestion": "Yes. We target what affects daily life now and use brief emotion work only where it helps, because practical change is easier when the deeper material stays in tolerable pieces."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-marcus_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "text": "[Slow and flat] What if I never feel normal again and this flatness is just who I am now?",
+      "suggestion": "We are not chasing a perfect normal. We are building toward more sleep, less shutdown, and safe contact, which are signs that feelings and connection can return in tolerable amounts."
+    }
+  ]
+}

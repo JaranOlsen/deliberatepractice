@@ -1,0 +1,2 @@
+# Generated runtime content is verified against editorial sources by npm test.
+src/data/runtime/** linguist-generated=true

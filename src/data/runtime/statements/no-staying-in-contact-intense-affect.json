@@ -1,0 +1,1190 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Det treffer meg som en bølge når jeg ser koppen hans fortsatt stå i skapet, og så klarer jeg ikke slutte å hulke. Jeg blir flau over lyden av det, men det fortsetter å komme.",
+      "suggestion": "Jeg er her sammen med deg mens gråten kommer. Vi trenger verken stoppe den eller drukne i den; vi kan bli ved denne ene bølgen sammen."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Brystet mitt gjør vondt som om det skal sprekke opp når jeg sier at jeg savner ham. Jeg prøver å holde det inne fordi smerten kjennes for stor for dette rommet, men så stopper pusten og jeg klarer ikke late som den er liten.",
+      "suggestion": "Savnet av ham gjør vondt rett gjennom brystet. Jeg blir nær deg mens vi slipper inn bare så mye av smerten som du tåler."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Jeg får lyst til å løpe når sorgen starter, fordi den kjennes endeløs. Hvis jeg slipper fram ett hulk, er jeg redd hele natten åpner seg og at jeg ikke finner kanten av den igjen.",
+      "suggestion": "Sorgen kjennes endeløs, og en del av deg vil bort. Jeg blir hos deg ved kanten av den, så du verken må løpe eller gå under."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Jeg så bildet hans i et innlegg fra noen andre, og magen sank så hardt at jeg begynte å skjelve.",
+      "suggestion": "Bildet traff som et brått fall, og nå er skjelvingen her. Jeg er her med deg i akkurat dette øyeblikket av savn, så det kan være en bølge i rommet og ikke hele historien som skjer på nytt."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nummen] Etter bruddet kjennes helgene som en tom vegg. Jeg ser ingenting å glede meg til.",
+      "suggestion": "Den tomheten høres skremmende øde ut. Jeg er her sammen med deg i den; vi kan sette ord på bare én del av helgeveggen uten å be deg løse hele framtiden."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Jeg føler meg dum som gråter så mye, men jeg klarer ikke stoppe. Jeg hører meg selv lage disse våte, knekte lydene, og en del av meg vil si unnskyld mens en annen del bare fortsetter å briste.",
+      "suggestion": "Det er så mye skam rundt lyden av gråten, og jeg trekker meg ikke unna den. Vi kan la den komme i små deler mens du legger merke til at jeg fortsatt er her."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nummen] Hendene mine blir numne; jeg føler meg langt borte, som om jeg kan forlate rommet uten å bevege meg. Ansiktet ditt er fortsatt her, men det begynner å se ut som noe på en skjerm.",
+      "suggestion": "Draget bortover er sterkt nå. Jeg er fortsatt her med deg; la oss gi avstanden ord, så en del av deg kan holde kontakt med dette rommet."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Varm og på gråten] Den lille gutten til en venn klemte meg farvel og sa at han var glad i meg, og jeg kjente så mye kjærlighet tilbake at jeg nesten ikke fikk puste.",
+      "suggestion": "Den kjærligheten kom med så mye kraft at den nesten tok pusten fra deg. Jeg kan bli hos deg mens den er varm, vond og stor på samme tid."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Jeg klarer ikke se på deg når jeg gråter; det føles altfor blottlagt. Hvis jeg ser medlidenhet eller bare varme i ansiktet ditt, tror jeg at jeg mister den lille kontrollen jeg har igjen.",
+      "suggestion": "Du kan se bort og likevel ikke være alene. Jeg blir nærværende mens den blottstilte følelsen får bare litt rom."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Hvis jeg lar gråten starte, er jeg redd den tar med seg hele natten. Jeg har gått hjem fra timer og grått til ansiktet gjorde vondt, og jeg vil ikke åpne noe jeg ikke klarer å lukke.",
+      "suggestion": "Frykten er at gråten åpner seg bredere enn denne timen kan holde. Jeg blir hos deg ved den første kanten av den, og vi holder rommet i sikte, så du ikke blir alene med den i kveld."
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fast] Kjeven låser seg og varmen skyter opp i nakken når noen stiller spørsmål ved meg, også her. Det er som om kroppen hører respektløshet før hodet mitt vet hva som ble sagt.",
+      "suggestion": "Varmen kommer fort når du føler deg stilt spørsmål ved. Jeg holder meg stødig med deg mens vi lar sinnet være i ord og lytter etter stikket under det."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og skamfull] Jeg tok for hardt i armen til sønnen min da han ikke hørte etter, og ansiktet hans spiller seg av om igjen. Jeg blir kvalm, men en del av meg vil at han bare skal slutte å være redd for meg allerede.",
+      "suggestion": "Det er en så vond blanding: skyld, alarm og ønsket om at frykten hans skal være over. Jeg blir hos deg mens vi ser ansiktet hans for oss uten å angripe deg eller unnskylde det som skjedde."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Ydmykelsen brenner når jeg spiller av møtet der jeg snublet i ordene. Ansiktet blir varmt igjen, og jeg vil viske ut hele scenen før noen kan se hvor mye det traff meg.",
+      "suggestion": "Møtet er her igjen i varmen i ansiktet ditt. Jeg ser ikke bort fra ydmykelsen sammen med deg; vi lar bare en liten del kjennes uten å måtte viske ut hele scenen."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fast] Jeg kan kjenne at det er i ferd med å klikke; hvis jeg åpner munnen, kommer det ut hardt. Kjeven er allerede skjøvet fram, og en del av meg vil at skarpheten skal treffe før jeg kjenner meg presset opp i et hjørne.",
+      "suggestion": "Du fanget det før det ble handling. Jeg er her med deg i det ladede sekundet, så skarpheten kan få ord i stedet for å bli avfyrt."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skjelvende] Hendene mine skjelver, og jeg hører nesten faren min kalle det svakt. Jo mer jeg prøver å stoppe dem, jo mer skamfull blir jeg, som om svakheten ligger rett foran deg.",
+      "suggestion": "Skjelvingen er her, og forakten fra faren din kommer rett bak. Jeg holder meg stødig sammen med deg; skammen kan bli sett her uten å bli gjort om til svakhet."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og sint] Jeg hater den lille følelsen; den får meg til å ville ruve over noen. Det starter som et lite, utsatt sted i brystet, og så vil hele kroppen ha høyde, volum og avstand fra det.",
+      "suggestion": "Den lille følelsen er vanskelig å tåle, og noe i deg vil ruve over noen. Jeg blir hos deg mens litenheten får litt rom uten å styre rommet."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] En del av meg vil gå før dette ender med at jeg ser patetisk ut foran deg.",
+      "suggestion": "Å gå ville beskytte deg mot å bli sett som patetisk. Jeg er her og dømmer ikke den skammen; la den få noen få ord før døren får bestemme for deg."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og sint] Stemmen min blir høy før jeg rekker å bestemme meg for det. Jeg hører meg selv fylle rommet, og under det ligger et glimt av å bli avfeid som jeg ikke vil at noen skal se.",
+      "suggestion": "Du fanger bølgen mens den skjer. Jeg kan være stødig med varmen mens delen som kjente seg avfeid får ord, så sinnet ikke må fylle hele rommet."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Hvis jeg ikke eksploderer, føles det som om jeg forsvinner. I krangelen med kona mi, i det sekundet jeg senker stemmen, kjenner jeg meg mindre og mindre til det ikke er noe igjen av meg.",
+      "suggestion": "Eksplosjonen hindrer deg i å forsvinne, og lavere stemme kjennes som å bli ingenting. Jeg er med begge: kraften som beskytter deg og litenheten den prøver å redde."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fast] Jeg stoler ikke på meg selv når varmen begynner å lete etter noen å straffe. Det føles som om sinnet skanner rommet etter et mål før jeg har rukket å spørre hva som faktisk traff.",
+      "suggestion": "Jeg setter pris på at du gir varmen et navn før den velger seg et mål. Vi kan bli ved signalet om noe såret under sinnet mens straffeimpulsen holdes i ord."
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Alt blir uklart og hjertet hamrer, som om alle kan se at jeg ikke får det til. Jeg hører deg fortsatt, men ordene flyter sammen og jeg begynner å prøve å se normal ut i stedet for å lytte.",
+      "suggestion": "Jeg er her med deg i uklarheten. Panikken kan være synlig uten at du må prestere en normal setning."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skjelvende] Hendene mine skjelver og jeg vil forsvinne før noen merker det. Det er den samme følelsen som å reise seg i klassen: Alle kan se skjelvingen før jeg får laget én setning.",
+      "suggestion": "Skjelvingen og ønsket om å forsvinne er begge her. Jeg blir hos deg mens de vises, uten å få deg til å skjule dem."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Jeg blir kvalm av å snakke om festen, som om jeg kan forsvinne av skam. Bare det å si at jeg sto alene ved kjøkkenet får rommet til å vippe og ansiktet til å brenne.",
+      "suggestion": "Den ensomme kjøkkenscenen henter kvalmen og den brennende skammen rett inn i dette rommet. Jeg blir hos én liten del, så skammen får selskap uten å sluke deg."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Rommet kjennes som om det krymper rundt meg, og jeg finner ikke en normal setning. Jo mer jeg prøver å høres okay ut, jo mindre blir stemmen min, og jo høyere kjennes hjertet.",
+      "suggestion": "Krympingen skjer mens du prøver så hardt å høres okay ut. Jeg blir nær, og vi kan ta dette ett ord om gangen uten å gjøre den mindre stemmen til et nederlag."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Jeg får ikke puste ordentlig, og jeg er redd du ser at jeg har panikk. Jeg prøver å puste stille så jeg ikke virker dramatisk, men da blir det enda trangere.",
+      "suggestion": "Panikken blir trangere fordi du prøver så hardt å skjule den. Jeg er her, og du trenger ikke virke samlet for meg; den ujevne pusten kan være en del av det vi gir plass."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Engstelig] Jeg vil gjemme meg under bordet; ansiktet mitt brenner. Jeg vet det høres barnslig ut, men skammen er så varm at selv det å sitte oppreist kjennes som for mye eksponering.",
+      "suggestion": "Skammen er så varm at det kjennes tryggere å gjemme seg. Jeg blir hos deg mens ansiktet brenner og du blir her, sett bare så mye som du tåler."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Jeg klarer ikke se deg i øynene nå; ansiktet mitt brenner. Hvis jeg ser opp og merker at du ser på meg, tror jeg brenningen tar over og at jeg slutter å få fram ord.",
+      "suggestion": "Du trenger ikke ha øyekontakt for å være i kontakt. Jeg er fortsatt med deg mens brenningen får litt rom."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Det ringer i ørene og jeg føler meg fanget, som om alle ser på meg. Jeg vet at vi bare er i dette rommet, men det føles som om hele seminaret stirrer på meg igjen.",
+      "suggestion": "Det gamle seminarblikket har trengt seg inn i dette rommet. Jeg er her med deg mens vi markerer forskjellen: dette er fanget-følelsen som kommer, ikke hele seminaret som skjer igjen."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Når du husker det jeg sa forrige uke, blir jeg så lettet at jeg kunne gråte, og så får jeg panikk for at jeg trenger dette for mye.",
+      "suggestion": "Det å bli husket berører noe stort, og så begynner behovet å kjennes farlig. Jeg blir hos både lettelsen og panikken uten å gjøre noen av dem feil."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Jeg tror jeg bør gå før du merker hvor mye panikk jeg har. Jeg ser stadig mot døren og planlegger raskeste vei ut, selv om en annen del av meg vil at du skal hjelpe meg å bli.",
+      "suggestion": "Døren trekker hardt, og en annen del vil ha hjelp til å bli. Vi kan holde begge deler i sikte, så panikken får en plass her uten å bestemme for deg."
+    }
+  ],
+  "case-laura": [
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-laura_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Langsomt og flatt] Da døra smalt ute, forsvant jeg innover før jeg rakk å vite om jeg var trygg.",
+      "suggestion": "Du forsvant langt innover idet smellet traff. Jeg holder meg stødig og hjelper oss å markere at lyden er over før vi ber deg kjenne noe mer."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-laura_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Langsomt og flatt] Jeg blir helt nummen når jeg prøver å kjenne noe rundt det som skjedde. Jeg kan si fakta, men i det sekundet du spør hvordan det kjentes, er det som om strømmen går inni meg.",
+      "suggestion": "Nummenheten beskytter deg mot for mye. Jeg blir hos deg akkurat der strømmen går; vi trenger ikke bryte gjennom den for å være i kontakt."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-laura_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og på vakt] Jeg føler at rommet er langt borte, og at jeg ser gjennom glass. Jeg ser munnen din bevege seg, men kroppen min er allerede et annet sted og venter på det neste som skal skje.",
+      "suggestion": "Den glassaktige avstanden er allerede i ferd med å ta deg bort fra farefølelsen. Jeg er fortsatt her med deg, rolig og nær, mens bare en liten del av ventingen får navn."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-laura_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt og på vakt] Magen synker og jeg stivner, som om jeg er tilbake og venter på neste eksplosjon.",
+      "suggestion": "Det suget og den stivningen er gammel fare som kommer inn i rommet. Jeg blir hos deg ved kanten av det og hjelper kroppen å merke at dette øyeblikket ikke er eksplosjonen."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-laura_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Langsomt og flatt] Jeg vil bli nummen før minnet åpner seg bredere enn jeg klarer å lukke. Jeg kjenner kanten av det åpne seg, og første impuls er å forsvinne før jeg ser for mye.",
+      "suggestion": "Nummenheten prøver å spare deg for å se for mye. Jeg respekterer den beskyttelsen; vi kan vite at minnet er nær uten å åpne det bredere enn du tåler."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-laura_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og på vakt] Jeg tror jeg må avlive den gamle katten min i morgen, og skyldfølelsen er så stor at jeg nesten ikke klarer å si det.",
+      "suggestion": "Det er en forferdelig blanding av kjærlighet og skyld å bære. Jeg blir hos deg i den delen som nesten ikke klarer å si det, og vi holder beslutningen liten nok til å tåles akkurat nå."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-laura_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt og på vakt] Jeg stoler ikke på mine egne signaler når de sier at jeg er trygg. Kroppen sier fare selv når jeg vet at døren er lukket og ingenting skjer, så jeg vet ikke hvilken del av meg jeg skal tro på.",
+      "suggestion": "Det er skremmende når kunnskapen om at døren er lukket ikke når faresignalet. Jeg kan være stødig med begge sannhetene, uten å tvinge en av dem til å vinne."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-laura_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fjern] Jeg blir svimmel og langt borte, som om rommet glir bakover. Stemmen din høres lenger unna ut enn for et minutt siden, og jeg er redd jeg flyter ut før jeg klarer å svare.",
+      "suggestion": "Rommet glir bakover, og du er redd for å flyte ut. Jeg holder kontakten med deg mens vi setter ord på akkurat nok av langt-borte-følelsen til at du blir her."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-laura_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og på vakt] Datteren min sa at hun savnet meg, og kjærligheten i det traff så hardt at jeg ville trekke meg unna.",
+      "suggestion": "Den kjærligheten traff med så mye kraft at det ga mening å trekke seg unna. Jeg blir hos deg mens det å være savnet får berøre deg på en liten, tålelig måte."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-laura_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Langsomt og flatt] Jeg vil ikke kjenne dette i det hele tatt; hvis det åpner seg, tror jeg at jeg forsvinner.",
+      "suggestion": "Det er farepunktet: Hvis følelsen åpner seg, er du redd for å forsvinne. Jeg blir hos deg ved den første kanten av det, og vi stopper før det blir for mye."
+    }
+  ],
+  "case-carlos": [
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-carlos_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sint, med knyttede never] Varmen stiger; nevene vil knyte seg før jeg skjønner hva som traff. Det er som om hendene er klare til å svare på en trussel før jeg engang kan si hva som kjentes truende.",
+      "suggestion": "Jeg er her med deg mens varmen skyter ut i hendene. Trusselen og sinnet kan være sterke i ord her, og vi tar pause før hendene må gjøre noe med det."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-carlos_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og sint] Stemmen min vil rope før noen ser at jeg er rystet. Når partneren min stiller ett forsiktig spørsmål, kjenner jeg volumet stige for å dekke over den delen av meg som ble redd.",
+      "suggestion": "Jeg tåler kraften i deg uten at den må bli til roping. Den redde delen trenger ikke dekkes over alene; vi kan holde styrken i ord uten at den blir truende."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-carlos_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Rasende] Når jeg leser nyhetene, blir jeg så rasende at jeg vil rive hele systemet ned.",
+      "suggestion": "Raseriet er enormt, og jeg trekker meg ikke unna det. Legg kraften i ordene, sterkt og tydelig, mens vi holder handling utenfor."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-carlos_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skyldpreget] Sønnen min gjemte seg bak sofaen da jeg ropte, og skyldfølelsen treffer så hardt at jeg nesten ikke klarer å være i kroppen.",
+      "suggestion": "Skyldfølelsen viser hvor dypt frykten hans når deg. Jeg blir hos deg nær den smerten; vi kan la den bety noe uten at den blir selvangrep eller noe du må flykte fra."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-carlos_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Jeg er på vei ut fordi jeg kjenner at hendene mine vil knuse noe. Jeg sitter fortsatt her, men kroppen er allerede halvveis mot døren og leter etter noe fast.",
+      "suggestion": "Du er fortsatt her mens trangen leter etter noe hardt. Jeg er tydelig med deg: impulsen til å knuse noe hører hjemme i ord her, og vi holder alle trygge mens bølgen går gjennom."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-carlos_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og sint] Brystet hamrer som om jeg allerede er i en kamp. Skuldrene er oppe, blikket går stadig mot døren, og kroppen gjør seg klar før jeg har valgt noe.",
+      "suggestion": "Du er allerede på vei inn i kamp før du har valgt en. Jeg blir nær den beredskapen sammen med deg, som en bølge vi kan sette navn på, ikke en ordre du må følge."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-carlos_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Rasende] Da han på jobb lo av meg, fikk jeg lyst til å banke ham til han skjønte at han ikke skulle le.",
+      "suggestion": "Bildet er voldelig, og jeg trekker meg ikke unna deg. Vi holder det i ord her mens ydmykelsen og raseriet får rom uten å bli handling."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-carlos_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Jeg vil skremme folk vekk før de ser at jeg er redd. Hvis noen hører at stemmen min skjelver, føles det som om jeg må bli større fort, så de ikke vet hvor de kan såre meg.",
+      "suggestion": "Den store kraften prøver å beskytte det redde stedet fra å bli sett. Jeg blir hos begge deler: frykten som kan såres, og kraften som vil skape avstand."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-carlos_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og sint] Hvis jeg lar den respektløsheten passere, føles det som om jeg ikke er noe. Ordene ikke noe treffer så hardt at brystet blir varmt, og jeg vil bevise med én gang at jeg fortsatt betyr noe.",
+      "suggestion": "De ordene, «ikke noe», treffer som en trussel mot hele verdien din. Jeg blir hos deg i det stikket mens kampimpulsen holdes igjen og får navn."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-carlos_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og sint] Jeg føler meg ute av kontroll, og jeg hater at du kan se det. Hendene er åpne fordi jeg prøver, men inni meg kjennes det ydmykende at du kan se meg kjempe mot meg selv.",
+      "suggestion": "Jeg ser hvor hardt du arbeider for ikke å handle. Jeg holder meg stødig med deg i ydmykelsen over å bli sett der, med én del som brenner og en annen som velger å holde igjen."
+    }
+  ],
+  "case-nina": [
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nina_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skyldpreget] Jeg klarer ikke slutte å gråte, og så skammer jeg meg for hvor mye jeg trenger. Sønnen min spurte bare hvor sokkene hans var, og plutselig sto jeg ved kjøkkenbenken og hulket som om jeg hadde ødelagt alt.",
+      "suggestion": "Gråten og skammen over å trenge så mye er begge her. Jeg blir hos deg mens behovet får rom uten å bli noe du må beklage."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nina_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Unnskyldende] Brystet er stramt og hodet dunker av å holde alle andre oppe. Jeg kjenner listen gå gjennom meg: guttene, moren min, jobb, middag, meldinger, og det er ikke plass igjen til å puste.",
+      "suggestion": "Du har holdt alle andre oppe så lenge at presset verker gjennom deg. Jeg blir hos deg mens noe av det får navn i stedet for å bæres alene."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nina_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Splittet] Jeg sier hele tiden unnskyld for at jeg føler så mye, som om jeg tar for stor plass. Selv nå vil jeg sjekke om du er lei av meg, og så hater jeg at jeg får deg til å håndtere meg også.",
+      "suggestion": "Følelsen er stor, og så sier du unnskyld for størrelsen på den. Jeg er her og trekker meg ikke fra hvor mye det er; la følelsen få litt plass før du gjør deg mindre."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nina_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sliten] Jeg bet av hodet på sønnen min fordi han trengte meg, og så gråt jeg på badet fordi jeg følte meg som en forferdelig mor.",
+      "suggestion": "Skyldfølelsen er intens fordi det å være en god mor betyr så mye for deg. Jeg er her sammen med deg mens både tårene og skammen er til stede, og vi holder dem fra å bli en dom over hvem du er."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nina_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Unnskyldende] Jeg føler at jeg svikter alle, og kroppen vil bare klappe sammen. Jeg satt på badegulvet i to minutter, og selv det føltes stjålet fra noen som trengte meg.",
+      "suggestion": "Hele systemet ditt vil folde seg sammen etter å ha båret alle så lenge. Jeg er her mens tyngden viser seg; noe av den kan holdes mellom oss i stedet for å føles stjålet fra noen andre."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nina_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Splittet] Hvis jeg slutter å gjøre, faller jeg fra hverandre, og noen kommer til å trenge meg likevel. Jeg kjenner tårene rett bak øynene, men idet de kommer, ser jeg for meg at noen roper fra rommet ved siden av.",
+      "suggestion": "Å stoppe kjennes farlig fordi alles behov kommer fossende inn, også dine. Jeg er her med deg mens litt av dine egne tårer får plass før du må ta vare på noen."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nina_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sliten] Jeg vil gå i det sekundet jeg kjenner hvor desperat jeg trenger at noen hjelper meg. Behovet stiger, og jeg blir sint på meg selv, som om jeg burde klare å reise meg og bære alt alene.",
+      "suggestion": "Å trenge hjelp har blitt faren, så trangen til å gå gir mening. Jeg blir hos deg i dette øyeblikket mens behovet får være her uten unnskyldning."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nina_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Unnskyldende] Noen ganger fantaserer jeg om å kjøre bort uten å si til noen hvor jeg dro, og så blir jeg kvalm av skyld.",
+      "suggestion": "Ønsket om å slippe unna og skyldfølelsen er begge sterke. Vi kan bli ved begge uten å velge den ene mot den andre: den utslitte delen som vil bort, og den omsorgsfulle delen som blir kvalm av å dra."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nina_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Splittet] Jeg får ikke tak i pusten når jeg slutter å ta vare på alle. I det sekundet jeg setter meg ned, kjenner jeg hele huset lene seg mot meg, som om noen andre faller hvis jeg puster for meg selv.",
+      "suggestion": "Det er som om hele huset lener seg på deg idet du lager plass til deg selv. Jeg er her med deg mens din egen pust får litt rom uten at noen andre må falle."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nina_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Når sønnen min sier at han heller vil være hos faren sin, kjenner jeg så mye sorg at jeg ikke får puste.",
+      "suggestion": "Sorgen treffer der det kjennes mulig å miste ham. Jeg blir hos deg mens vi tar inn bare en liten del av det tapet."
+    }
+  ],
+  "case-aisha": [
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-aisha_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lengselsfull, skamfull] Jeg vet at du er terapeuten min, men noen ganger vil jeg at du skal elske meg romantisk, på en måte terapeuter ikke skal.",
+      "suggestion": "Det betyr noe at du sier den lengselen, og jeg vil ikke møte den med skam. Terapigrensen er tydelig og ikke romantisk, samtidig som vi holder oss nær hvordan det er å ønske meg så sterkt og være redd for å miste meg."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-aisha_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Tomheten brenner så vondt at jeg begynner å tenke at jeg må skade meg selv bare for å bevise at jeg fortsatt er her.",
+      "suggestion": "Jeg er glad for at du satte ord på det. Tomheten brenner så desperat at skade begynner å se ut som bevis på at du finnes; trygghet er viktig, og behovet for å kjenne deg virkelig kan bli her hos meg i ord."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-aisha_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperat] Jeg vil stikke fra dette rommet før du ser hvor desperat jeg er. Hvis du ser det, er jeg redd du enten trekker deg unna eller blir det eneste som holder meg sammen.",
+      "suggestion": "En del av deg vil løpe før behovet blir sett. Jeg kan være stødig sammen med frykten for å være for mye og trenge for mye, og bare ta én liten bit av det inn i rommet."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-aisha_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperat] Når du sier at vi må stoppe til tiden, får jeg lyst til å kutte meg så du ser hvor ille det blir.",
+      "suggestion": "Den trangen forteller meg hvor uutholdelig avslutningen kjennes, og hvor sterkt du trenger at det blir sett. Vi tar risikoen for at du kutter deg på alvor, og budskapet kan bli her mellom oss i ord."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-aisha_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperat] Jeg føler at jeg er for mye, og jeg hater at jeg trenger at du blir.",
+      "suggestion": "Behovet for meg kjennes uutholdelig og skamfullt samtidig. Jeg kan sitte med det blottlagte behovet et øyeblikk uten å behandle deg som for mye."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-aisha_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Brystet kjennes som et svart hull, og jeg er redd det skal sluke meg. Jo mer jeg merker det, jo mer tror jeg at jeg faller ned i det og ikke kommer tilbake som den samme.",
+      "suggestion": "Skrekken for det svarte hullet sier at følelsen kan sluke deg hvis du merker den. Jeg møter deg helt ved kanten; bare noen få ord trenger å komme før vi vender tilbake."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-aisha_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Den forrige terapeuten min sa at hun skulle overføre meg, og jeg kjenner fortsatt panikken som om hun kastet meg bort.",
+      "suggestion": "Den gamle overføringen treffer fortsatt som å bli kastet bort. Jeg kan sitte her i dette rommet med panikken mens vi lar den vite hvilken avslutning den hører til."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-aisha_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Trangen til å klore meg selv blir veldig sterk, og jeg trenger noe ekte før jeg forsvinner.",
+      "suggestion": "Trangen til å klore prøver å gi deg noe fast før du forsvinner. Jeg tar tryggheten på alvor og holder meg nær behovet for å kjenne deg virkelig i ord."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-aisha_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Gråten tar over, og jeg føler meg ekkel fordi jeg trenger at du ser det. Jeg vil at du skal bli, og det gjør skammen verre, som om behovet for trøst er det mest blottlagte ved meg.",
+      "suggestion": "Skammen og tårene er viklet inn i hverandre: behovet for trøst kjennes ekkelt. Jeg kan møte det behovet varsomt uten å slutte meg til avskyen."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-aisha_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperat] Hvis du avlyser, faller jeg fra hverandre og hater meg selv for at jeg trenger deg. Jeg vet at én avlyst time ikke burde kjennes som at gulvet forsvinner, men det er akkurat det som skjer i kroppen.",
+      "suggestion": "En avlysning kjennes som å miste gulvet, og så straffer skammen deg for å trenge meg. Jeg kan møte begge deler uten å la deg bære fallet alene."
+    }
+  ],
+  "case-david": [
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-david_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Kontrollert] Ansiktet brenner, og jeg vil avbryte dette før du ser hvor blottstilt jeg er.",
+      "suggestion": "Blottstillelsen sitter rett i ansiktet, varm og vanskelig å bære. Jeg kan møte den uten å tvinge deg til å vise mer enn dette."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-david_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skuffet og sint] Terapi virker ikke. Jeg føler meg verre, og kanskje det er fordi du ikke har nok erfaring for en som meg.",
+      "suggestion": "Det betyr noe at du sier dette til meg. Å få det verre bringer skuffelse og sinne rett inn i rommet, og jeg vil møte det sammen med deg før jeg forsvarer eller forklarer."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-david_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] Jeg vil gå ut før du ser meg miste ansikt. Halsen strammer seg, dressen kjennes plutselig for trang, og jeg vil heller gå enn å sitte her og se trengende ut.",
+      "suggestion": "Å gå ville redde deg fra å bli sett som trengende. Jeg kan være stødig mens ydmykelsen skimtes, uten å ta verdigheten fra deg."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-david_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Jeg ser hele tiden ansiktet til kona mi for meg etter at hun fant ut om affæren, og skylden er så brennende at jeg vil krype ut av huden.",
+      "suggestion": "Ansiktet hennes henter frem brennende skyld. Jeg kan være nær angeren sammen med deg, nært nok til at den ikke skjules og sakte nok til at den ikke sluker deg."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-david_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Rasende] Jeg orker ikke ordet «kald»; det får meg til å føle meg avslørt og rasende. Når kona mi sier det, føles det som om hun har funnet det ene jeg ikke kan forsvare meg mot, og jeg vil stenge henne hardt ned.",
+      "suggestion": "Det ordet finner det ubeskyttede stedet; skam og raseri strømmer inn samtidig. Jeg blir hos varmen i det mens trangen til å stenge henne ned holdes i ord."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-david_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Jeg synes det er flaut at jeg klikket hjemme; jeg hørtes akkurat ut som den typen jeg dømmer. Setningen kom skarpt ut, og så så jeg meg selv utenfra og kjente en varm avsky i ansiktet.",
+      "suggestion": "Å se deg selv klikke vekker en varm avsky, nesten en øyeblikkelig dom. Jeg kan være sammen med den skammen uten å slutte meg til dommen."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-david_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Kontrollert] Jeg føler for å stenge ned så jeg ikke sier noe desperat. Jeg kjenner setningen komme opp, og jeg hater at jeg kanskje trenger kona mi så mye foran deg.",
+      "suggestion": "Nedstengingen holder tilbake hvor sterkt du kanskje trenger henne. Jeg kan møte kanten av desperasjonen uten å eksponere alt på én gang."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-david_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tydelig ukomfortabel] Jeg brukte seksuelt press mot noen for mange år siden, og å si det gjør at jeg føler at det ikke finnes noen vei tilbake fra den jeg var.",
+      "suggestion": "Dette er alvorlig å si høyt. Jeg kan være med deg i skammen og ansvaret, holde skaden tydelig uten å la «ingen vei tilbake» sluke hele rommet."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-david_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Forsvaret kommer fort opp, og jeg er redd jeg mister kontrollen over ansiktet. Jeg kjenner det høflige uttrykket sprekke, og hvis det sprekker, vet jeg ikke hva du får se.",
+      "suggestion": "Noe i ansiktet ditt er nær ved å sprekke, og det kjennes farlig. Jeg kan være med deg i øyeblikket før masken gir etter, uten å rive den av."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-david_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sint, med knyttede never] Når jeg ser for meg mannen kona mi tekstet med, får jeg lyst til å knuse ansiktet hans til han slutter å bety noe.",
+      "suggestion": "Det voldelige bildet er voldsomt, og jeg tar det på alvor. Jeg går ikke bort; vi holder det i ord, ikke handling, mens raseriet og det såre er her."
+    }
+  ],
+  "case-marcus": [
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-marcus_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt] En bølge kommer opp i brystet, og jeg vil stenge den ned før den tar meg tilbake dit.",
+      "suggestion": "Bølgen kommer, og frykten er å bli dratt tilbake dit. Jeg møter deg ved den første stigningen, med dette rommet fortsatt delvis rundt oss."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-marcus_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Forferdet, lav stemme] Jeg så opptak fra en ny krigssone, barn under ruiner, og hele kroppen ble kald og kvalm.",
+      "suggestion": "Barna under ruinene vekker gru og en kald kvalme i deg. Jeg tåler å se på den gruen sammen med deg, mens nåtiden holder seg nær nok."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-marcus_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Langsomt og flatt] Jeg kjenner ingenting og alt på én gang, og det skremmer meg. Når minnet kommer nær, blir brystet hult og så plutselig altfor fullt, som om bryteren er ødelagt.",
+      "suggestion": "Å være nummen og oversvømt på én gang er skremmende. Vi kan la ett signal bli kjent her, uten å be hele minnet komme."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-marcus_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Langsomt og flatt] Jeg vil stenge ned før rommet begynner å kjennes uvirkelig. Kantene på veggene er allerede i ferd med å bli myke, og jeg er redd jeg ikke vet hvor jeg er hvis jeg fortsetter å snakke.",
+      "suggestion": "At rommet mykner, er et viktig varsel. Jeg senker tempoet sammen med deg ved den terskelen, nær følelsen, men ikke inne i hele minnet."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-marcus_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skjelvende] Hendene mine begynner å skjelve når jeg prøver å si bare én bit av det som skjedde. Historien ligger fortsatt bak tennene, men hendene mine forteller deg allerede at den er for nær.",
+      "suggestion": "Hendene dine forteller oss allerede at historien er for nær. Jeg kan holde skjelvingen med selskap før flere ord må komme."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-marcus_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lav stemme] Når jeg kommer hjem og det er stille, lander vekten på brystet som en dør som lukkes.",
+      "suggestion": "Stillheten lukker seg rundt deg som den døren. Jeg kan sitte med vekten på brystet uten å la den låse deg inne alene."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-marcus_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt] Etter en folkemengde summer huden som om jeg fortsatt er på vakt. Jeg kan være hjemme med døren låst og fortsatt kjenne hver skulder fra toget stryke forbi meg.",
+      "suggestion": "Folkemengden har passert, men huden er fortsatt på vakt. Jeg kan sitte med den summende etteralarmen uten å kreve at den slår seg av."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-marcus_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hyperårvåken] Jeg er redd for at hvis jeg lar meg kjenne det, så sluker hele greia meg. Jeg klarer fakta, men følelser gjør at rommet, fortiden og kroppen min virker som de faller sammen til ett sted.",
+      "suggestion": "Skrekken er at følelsen skal brette rommet, fortiden og kroppen din sammen til ett sted. Jeg holder fast i orienteringen sammen med deg mens bare et fragment kommer nær."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-marcus_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Langsomt og flatt] Jeg vil forsvinne når minnene presser seg på og rommet slutter å kjennes virkelig. Det er ikke at jeg vil dø i det sekundet; jeg vil bare ikke befinne meg noe sted minnene kan finne meg.",
+      "suggestion": "Å ville forsvinne er en måte å slippe unna minner som virker som de finner deg overalt. Jeg tar det på alvor og holder deg plassert her mens trengselen får ord."
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-marcus_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "text": "[Håpløs] Når nettene blir lange, tenker jeg at det hadde vært enklere å ikke være i live, og så hater jeg meg selv for å si det.",
+      "suggestion": "Jeg er glad for at du sa ønsket om ikke å være i live høyt. Vi tar tryggheten på alvor, og jeg blir hos håpløsheten og selvhatet uten å la noen av dem bli alene."
+    }
+  ]
+}

@@ -122,31 +122,6 @@ export async function listPracticeTargets() {
   return Array.isArray(data) ? data : [];
 }
 
-export async function createPairingInvite() {
-  const supabase = await getSupabaseClient();
-  const { data, error } = await supabase.rpc("create_pairing_invite");
-  if (error) throw normalizeSupabaseError(error);
-  return Array.isArray(data) ? data[0] ?? null : data ?? null;
-}
-
-export async function acceptPairingInvite(code) {
-  const supabase = await getSupabaseClient();
-  const { data, error } = await supabase.rpc("accept_pairing_invite", {
-    input_code: String(code ?? "").trim()
-  });
-  if (error) throw normalizeSupabaseError(error);
-  return Array.isArray(data) ? data[0] ?? null : data ?? null;
-}
-
-export async function revokePracticePartnership(partnershipId) {
-  const supabase = await getSupabaseClient();
-  const { data, error } = await supabase.rpc("revoke_practice_partnership", {
-    input_partnership_id: partnershipId
-  });
-  if (error) throw normalizeSupabaseError(error);
-  return data ?? true;
-}
-
 export async function submitPracticeRating(payload) {
   const supabase = await getSupabaseClient();
   const { data, error } = await supabase.rpc("record_practice_rating", {
@@ -163,13 +138,17 @@ export async function submitPracticeRating(payload) {
     input_content_revision: payload.contentRevision,
     input_rating_scope: payload.ratingScope ?? "statement",
     input_completed_statement_ids: payload.completedStatementIds ?? [],
-    input_item_count: payload.itemCount ?? null
+    input_item_count: payload.itemCount ?? null,
+    input_client_round_id: payload.roundId ?? null,
+    input_practice_mode: payload.practiceMode ?? null,
+    input_rating_rubric: payload.ratingRubric ?? null
   });
   if (error) throw normalizeSupabaseError(error);
   return Array.isArray(data) ? data[0] ?? null : data ?? null;
 }
 
-export async function listSelfPracticeRatings({ limit = 500 } = {}) {
+export async function listPracticeRatings({ source = "self", limit = 500 } = {}) {
+  if (!["self", "observer"].includes(source)) throw new Error("Unknown rating source");
   const supabase = await getSupabaseClient();
   const { data: userData, error: userError } = await supabase.auth.getUser();
   if (userError) throw normalizeSupabaseError(userError);
@@ -177,9 +156,10 @@ export async function listSelfPracticeRatings({ limit = 500 } = {}) {
   if (!userId) return [];
   const { data, error } = await supabase
     .from("practice_ratings")
-    .select("skill_id,case_id,difficulty,score,item_count,created_at")
+    .select("skill_id,case_id,difficulty,score,item_count,created_at,practice_mode,rating_rubric")
     .eq("therapist_user_id", userId)
-    .eq("source", "self")
+    .eq("source", source)
+    .eq("rating_rubric", "group-skill-v2")
     .order("created_at", { ascending: false })
     .limit(limit);
   if (error) throw normalizeSupabaseError(error);
@@ -353,4 +333,26 @@ export async function logAccessCodeAttempt({ code, status, languageId }) {
     // Logging should never break unlocking; surface quietly.
     console.warn("Failed to log access code usage", err);
   }
+}
+
+// Shared rooms use the same authenticated client as account and progress calls.
+export async function practiceRoomRpc(name, args) {
+  const allowed = ['create_practice_room', 'join_practice_room', 'sync_practice_room', 'command_practice_room', 'prepare_practice_room'];
+  if (!allowed.includes(name)) throw new Error('Unknown room operation');
+  const client = await getSupabaseClient();
+  const { data, error } = await client.rpc(name, args).abortSignal(AbortSignal.timeout(12000));
+  if (error) {
+    const failure = new Error(error.message ?? 'Room request failed');
+    failure.code = error.code;
+    throw failure;
+  }
+  return data;
+}
+
+export async function watchPracticeRoom(roomId, onChange) {
+  const client = await getSupabaseClient();
+  const channel = client.channel(`practice-room:${roomId}:${crypto.randomUUID()}`)
+    .on('postgres_changes', {event: 'UPDATE', schema: 'public', table: 'practice_rooms', filter: `id=eq.${roomId}`}, onChange)
+    .subscribe(status => { if (status === 'SUBSCRIBED') onChange(); });
+  return () => { client.removeChannel(channel); };
 }

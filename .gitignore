@@ -11,6 +11,10 @@ npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
 
+# Local browser checks can contain account details.
+.playwright-cli/
+output/playwright/
+
 # Local environment
 .env
 .env.*
@@ -22,3 +26,5 @@ pnpm-debug.log*
 .idea/
 .vscode/*
 !.vscode/extensions.json
+
+supabase/.temp/

@@ -1,0 +1,1100 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_exploratory-questions_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] You should have seen the way she looked at me; I felt so small.",
+      "suggestion": "What is it like inside when you feel that small?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] At brunch I kept saying I was fine, but I could tell I was trying too hard.",
+      "suggestion": "When you notice yourself trying that hard to seem fine, what feeling is closest?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Angry] I was angry he forgot my birthday, and then I felt silly for caring.",
+      "suggestion": "When you call yourself silly for caring, what feeling is underneath that?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] I want to ask him why he stopped trying, but I keep telling myself it is pointless.",
+      "suggestion": "When you imagine asking him that, what feeling comes up first?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panicked] Sometimes I delete old photos and then look for them again ten minutes later.",
+      "suggestion": "When you cannot let the photos stay gone, what feeling comes up most strongly?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] When someone is kind to me, I suddenly do not know what to do with it.",
+      "suggestion": "When kindness leaves you unsure what to do, what feeling comes up?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] I wake up and forget for a second that he is gone, and then it hits me all over again.",
+      "suggestion": "In that first moment of remembering, what feeling arrives before you explain it?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] I feel embarrassed that I am still this sad, like grief should have expired by now.",
+      "suggestion": "When the embarrassment says grief should be over, what sadness is still asking to be noticed?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] Seeing couples at the market makes me leave before I cry.",
+      "suggestion": "When you leave before the tears come, what feeling are you trying not to show?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] I cross the street to avoid the cafe we used to call ours.",
+      "suggestion": "When you picture that cafe, what feeling rises before you decide to cross the street?"
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_exploratory-questions_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] When someone corrects one detail, I get angry and embarrassed at the same time.",
+      "suggestion": "What do you notice inside as anger and embarrassment show up together?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] A sigh from my wife makes me assume she has already decided I am wrong.",
+      "suggestion": "When that sigh lands as judgment, what feeling comes first?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] My boss praised the team but not me, and I could not stop thinking about it.",
+      "suggestion": "When you replay not being named, what feeling keeps coming back?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] I scan meeting rooms for disrespect before I even know who has walked in.",
+      "suggestion": "When you are already scanning for disrespect, what feeling are you bracing for?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] When I apologize to my wife, it feels like I have handed her the win.",
+      "suggestion": "When apologizing feels like losing, what feeling is hardest to stay with?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] When I am unsure of an answer in front of the team, I start talking faster so nobody notices.",
+      "suggestion": "When nobody can see you are unsure, what feeling are you avoiding?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] I told my wife I was fine, but I was still angry hours later.",
+      "suggestion": "When the anger stays for hours, where do you notice it most?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] I slam doors at home so no one hears me say I was hurt.",
+      "suggestion": "Before the door slams, what feeling is there that is hard to say out loud?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] Being told to calm down makes me explode before I hear anything else.",
+      "suggestion": "When those words hit, what feeling comes before the explosion?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] I hate feeling weak in front of people, like everyone can see I failed.",
+      "suggestion": "When 'weak' shows up in front of people, what feeling comes with being seen?"
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_exploratory-questions_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] When it is my turn to speak, I lose the sentence and everyone seems to be waiting.",
+      "suggestion": "When everyone seems to be waiting, what feeling shows up?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Voice shaking] My voice shakes when I say my name, and then I hear myself sounding pathetic.",
+      "suggestion": "When you hear the shake in your voice, what feeling comes up first?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] A friend did not reply, and I kept wondering what I did wrong.",
+      "suggestion": "When you wonder what you did wrong, what feeling comes with that question?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] If someone laughs across the room, I assume it is about me.",
+      "suggestion": "What happens inside when you think the laugh is about you?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] I keep my eyes on the table so people will not ask me anything.",
+      "suggestion": "When looking up feels risky, what feeling comes up around being seen?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] After meetings I replay one sentence for hours and feel my face heat up.",
+      "suggestion": "If we take one replayed sentence, what feeling keeps the replay going?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] At parties I track the exit before I even know who is in the room.",
+      "suggestion": "When your attention goes to the exit, what feeling are you trying to get away from?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] Someone smiled at me in the hallway, and I could not tell if it was friendly or awkward.",
+      "suggestion": "When you cannot tell what the smile means, what do you notice inside?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] I say I am busy before small talk can show how awkward I am.",
+      "suggestion": "When small talk feels about to expose you, what feeling comes forward first?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] Sunday nights feel heavy, like everyone else has a life waiting for them.",
+      "suggestion": "When that Sunday heaviness arrives, what feeling comes with the thought of belonging?"
+    }
+  ],
+  "case-laura": [
+    {
+      "id": "dp_exploratory-questions_case-laura_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Slow and flat] Most days feel muted, and I cannot tell if I am sad or just numb.",
+      "suggestion": "As that muted feeling is here, what do you notice it doing in you?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fearful] The neighbors argued in the hallway, and I spent the rest of the night acting like it was nothing.",
+      "suggestion": "Just beneath the acting-like-nothing, what feeling is closest?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and guarded] When someone is kind to me, I get suspicious and then feel bad for being suspicious.",
+      "suggestion": "As kindness arrives and suspicion follows, what do you notice first in yourself?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat and guarded] Even gentle touch on my shoulder startles me before I can think who it is.",
+      "suggestion": "At the first startle, what do you feel before thought comes in?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Distant] At night I pour wine before I have decided whether I actually want it.",
+      "suggestion": "In the second before the wine, what are you moving away from?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and guarded] I wake up already planning how to get through the day without needing anyone.",
+      "suggestion": "When needing someone comes near, what do you feel first?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Slow and flat] Good news lands flat, and I do not know why I cannot enjoy it.",
+      "suggestion": "When good news lands flat, what is the flatness like from the inside?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Distant] Sometimes a song from when I was married comes on, and sadness shows up before I can turn it off.",
+      "suggestion": "Before you turn the sadness off, what is it asking for?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and guarded] I apologize for needing comfort, as if asking for it will get me in trouble.",
+      "suggestion": "When asking for comfort feels dangerous, what do you notice in yourself?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-laura_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat and guarded] I skip anything with fighting and tell people I just do not like those movies.",
+      "suggestion": "Imagining the real reason spoken aloud, what feeling comes first?"
+    }
+  ],
+  "case-carlos": [
+    {
+      "id": "dp_exploratory-questions_case-carlos_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] When my foreman questions me in front of the crew, I laugh it off but cannot drop it.",
+      "suggestion": "As the foreman's question stays with you, what hurts most in it?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] After an argument, I keep thinking of what I should have said, even when I know it will make things worse.",
+      "suggestion": "While those replies keep coming, what are they trying to answer inside you?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fearful] If I back down, it feels like people will stop respecting me.",
+      "suggestion": "When respect feels at risk, what do you feel in the sharpest place?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] I keep seeing my boy flinch when I raised my voice, and I do not want to look straight at it.",
+      "suggestion": "Holding the image of his flinch for one second, what feeling comes up?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Mistrustful] When the house gets quiet after a fight, I get more tense than when we were yelling.",
+      "suggestion": "In the quiet after the fight, what starts happening inside?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] I say I do not care what people think, but one look can ruin my whole day.",
+      "suggestion": "When that one look ruins the day, where does it hit?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] My father used to say feelings make men useless, and I still hear that when my wife asks me to talk.",
+      "suggestion": "Hearing that old rule now, what do you feel toward yourself?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Angry, clenching fists] When another man talks down to me, I cannot tell if I am angry or embarrassed.",
+      "suggestion": "As he talks down to you, what arrives first: anger, embarrassment, or something else?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] After an argument, I tell myself I am over it, but I stay keyed up for hours.",
+      "suggestion": "After the argument is over outside, what is still running inside?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-carlos_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Vulnerable] What I want most is for my family to feel safe with me.",
+      "suggestion": "When you say safe, what happens in you around that wish?"
+    }
+  ],
+  "case-nina": [
+    {
+      "id": "dp_exploratory-questions_case-nina_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tired] When I ask for help, guilt rushes in and I want to take it back.",
+      "suggestion": "As guilt rushes in, what does it tell you about yourself?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Guilty] I complain that no one helps, but I also redo things when they try.",
+      "suggestion": "When help comes in a way you cannot direct, what happens inside?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Torn] When I say no, I explain so much that I almost take it back.",
+      "suggestion": "As the no starts disappearing, what do you feel in that moment?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Guilty] When I rest, a voice calls me lazy before I have even caught my breath.",
+      "suggestion": "When the word lazy hits, where do you feel it most?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Apologetic] I apologize before asking for help, like my need is already too much.",
+      "suggestion": "When the need feels too big, what happens in how you meet yourself?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Torn] By afternoon I realize I agreed to three things I never wanted to do.",
+      "suggestion": "Saying you did not want them, what do you notice inside?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tired] I compare myself to other moms and decide I have failed some test everyone else understands.",
+      "suggestion": "At the moment you decide you failed the test, what feeling comes up?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Guilty] I dream of being taken care of and then feel selfish for wanting it.",
+      "suggestion": "Before the selfish voice arrives, what is it like to let someone care for you?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Torn] I say it is easier if I do it myself, then spend the evening angry that nobody helped.",
+      "suggestion": "Under the anger after doing it yourself, what feeling is there?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nina_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tired] I crash on the sofa at night after holding everyone together all day.",
+      "suggestion": "When you stop holding everyone together, what do you meet in yourself?"
+    }
+  ],
+  "case-aisha": [
+    {
+      "id": "dp_exploratory-questions_case-aisha_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panicked] If a reply does not come after I open up, I start thinking I was stupid to trust them.",
+      "suggestion": "What feeling comes up as trusting starts to feel stupid?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperate] I go from please do not leave to leave me alone in seconds.",
+      "suggestion": "Just before it flips, what feeling is too painful to remain near?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperate] I do not know what I feel today; everything is too much and also kind of blank.",
+      "suggestion": "When it is both too much and blank, what feeling is easiest to notice first?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperate] When you look down to write notes, I start wondering what you are really thinking about me.",
+      "suggestion": "What happens inside as you imagine what I might be thinking?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panicked] When I talk about scratching, I want to make it sound casual so you will not overreact.",
+      "suggestion": "What feeling comes up as you try to make it sound casual?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperate] If you cancel a session, I do not want to come back and be dropped twice.",
+      "suggestion": "When you imagine a cancellation, what is the first sting you notice?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] Kindness makes me cry, and then I want to get away from it.",
+      "suggestion": "What is the first feeling that comes up when kindness reaches you?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperate] I test people after they get close to see whether they care enough to stay.",
+      "suggestion": "As you picture a test, what fear are you trying to answer inside?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] After I lash out, I hate myself so much I can barely stand being in my own skin.",
+      "suggestion": "When that self-hate hits, what feeling is hardest to stay near?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-aisha_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panicked] At the end I say goodbye like it is fine, and then I leave angry for needing you.",
+      "suggestion": "What feeling is under the anger as you leave?"
+    }
+  ],
+  "case-david": [
+    {
+      "id": "dp_exploratory-questions_case-david_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Controlled] When she calls me cold, I want to dismiss her, but it stays with me later.",
+      "suggestion": "What feeling is there when it stays with you later?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Controlled] If I am not winning, I feel hollow, like there is nothing solid under me.",
+      "suggestion": "When winning is not there, what feeling comes with that hollowness?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] I start listing achievements when I feel judged by my wife.",
+      "suggestion": "What feeling are you trying not to show when you list achievements?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Controlled] Praise from my boss feels good for a second, and then I start wondering what he wants.",
+      "suggestion": "As praise turns into suspicion, what feeling starts to move inside?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Dismissive] Admitting I am wrong makes my face burn like everyone can see through me.",
+      "suggestion": "When admitting you are wrong feels exposing, what feeling comes up?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Avoidant] When the talk gets emotional, I check my phone so I do not have to look exposed.",
+      "suggestion": "As you reach for the phone, what feeling are you moving away from?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Controlled] When the kids push back at dinner, I hear myself sounding like my father.",
+      "suggestion": "What feeling comes up as you hear that resemblance?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Distant] Since the affair, I cannot tell whether I feel guilty or just irritated that everyone keeps bringing it up.",
+      "suggestion": "When guilt and irritation sit that close, what do you notice inside?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] I want someone to notice what I do without making me beg for credit.",
+      "suggestion": "When the credit does not come, what feeling comes up?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-david_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Wounded but sharp] I hate being ordinary at work in front of everyone, like it means I have disappeared.",
+      "suggestion": "When 'ordinary' starts to feel like disappearing, what feeling shows up?"
+    }
+  ],
+  "case-marcus": [
+    {
+      "id": "dp_exploratory-questions_case-marcus_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Slow and flat] Most days I am numb and then a wave hits out of nowhere.",
+      "suggestion": "Before the wave hits, what is the earliest signal that it is coming?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hypervigilant] After nightmares, I do not know what is real enough to talk about and what I should leave alone.",
+      "suggestion": "As you decide what to leave alone, what happens inside?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quiet and guarded] In the grocery store I stay near exits because the aisles feel too closed in.",
+      "suggestion": "When the aisles feel closed in, what feeling comes up?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Low voice] After dark I cannot tell if the silence is peaceful or if it is closing in.",
+      "suggestion": "What happens inside as the silence shifts from peaceful to closing in?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Low voice] I sit in the car after work because going upstairs means being alone with whatever is there.",
+      "suggestion": "What feeling is waiting when you picture opening the apartment door?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quiet and guarded] I keep the lights low and ignore calls so the world stays far away.",
+      "suggestion": "When the world stays far away, what feeling do you not have to meet?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat] When something good happens, I wait for the part where it gets taken back.",
+      "suggestion": "What feeling comes up while you wait for it to be taken back?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hypervigilant] Sudden sounds in the stairwell make me jump and then scan for danger.",
+      "suggestion": "Right after the jump, what feeling takes over?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quiet and guarded] I do not remember the last time I really laughed without checking myself.",
+      "suggestion": "As you say you cannot remember laughing, what feeling comes closest to the surface?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-marcus_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flat] I tell myself I am better off alone because closeness always costs something.",
+      "suggestion": "When closeness starts to feel costly, what feeling shows up inside?"
+    }
+  ]
+}

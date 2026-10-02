@@ -1,0 +1,1100 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_empathic-conjectures_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Jeg sier til vennene mine at det går bra, og så blir jeg irritert når de slutter å spørre.",
+      "suggestion": "Du gir svaret om at det går bra, og så blir du alene med det; jeg lurer på om du håper at noen skal merke at det ikke gjør det."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Jeg blir lenge på jobb etter bruddet, fordi det kjennes verre å komme tidlig hjem.",
+      "suggestion": "Å bli lenge på jobb holder deg unna den stille leiligheten; kanskje det å komme tidlig hjem bringer ensomheten nærmere."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Jeg kaller meg dramatisk når jeg fortsatt gråter over det, selv om jeg bare gjør det alene.",
+      "suggestion": "Å kalle deg dramatisk gjør tårene til noe du må skjule; jeg lurer på om det finnes skam over at du fortsatt trenger å sørge."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lavmælt] Når noen spør hvordan jeg har det, smiler jeg og skifter tema.",
+      "suggestion": "Du trekker deg raskt unna med smilet; jeg lurer på om det å bli sett ærlig kjennes både ønsket og for utsatt."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Når par legger ut jubileumsbilder, himler jeg med øynene og scroller for fort videre.",
+      "suggestion": "Himlingen hjelper deg raskt forbi det; kanskje det under den finnes en verkende lengsel etter sånn nærhet."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Jeg sluttet å følge ham, og så lånte jeg telefonen til en venn for å se om han virket lykkeligere.",
+      "suggestion": "Du prøver å slutte å se, og samtidig må du vite; jeg lurer på om en del av deg er redd for at han er lettet over at du er borte."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lavmælt] Jeg sier til meg selv at andre har ekte problemer, så jeg burde være takknemlig.",
+      "suggestion": "Du gjør smerten mindre før noen andre kan gjøre det; jeg gjetter at du kanskje beskytter deg mot å bli avfeid."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Jeg har skrevet en unnskyldning til ham tre ganger denne uken, selv om jeg ikke vet hva jeg egentlig gjorde galt.",
+      "suggestion": "Unnskyldningen gir deg noe konkret å reparere; jeg lurer på om det å finne feil hos deg selv kjennes mindre hjelpeløst enn å ikke vite hvorfor han dro."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Nettene er verst; jeg spiller om igjen små øyeblikk til jeg finner noe jeg kunne gjort annerledes.",
+      "suggestion": "Gjennomspillingen leter etter et håndtak; kanskje det å skylde på deg selv gir deg en måte å kjenne deg mindre maktesløs i tapet."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lavmælt] Når du er snill mot meg, ser jeg ned og vil bytte tema.",
+      "suggestion": "Vennlighet virker vanskelig å ta rett inn; kanskje den berører en lengsel du er redd for å vise."
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_empathic-conjectures_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fast] Hvis noen stiller spørsmål ved meg i et møte, svarer jeg raskt og høyere enn jeg mente.",
+      "suggestion": "Du kommer sterkt inn før du rekker å tenke; jeg lurer på om spørsmålet lander som å bli avslørt som en som ikke kan nok."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] Når en kollega retter på meg foran rommet, ler jeg det bort, og så skyter varmen opp i nakken.",
+      "suggestion": "Latteren dekker det raskt; jeg lurer på om det finnes et raskt glimt av ydmykelse under."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Kona mi sier at jeg er hard, og jeg sier at jeg bare er ærlig.",
+      "suggestion": "Ærlighet er det tryggere stedet å stå; jeg lurer på om det å mykne ville bringe deg nærmere skyld."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fast] Jeg holder tjenester i balanse. Jeg liker ikke å skylde noen noe.",
+      "suggestion": "Du passer nøye på balansen; jeg lurer på om det å skylde noen noe kjennes som å havne under."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og skamfull] Når jeg må be om unnskyldning, strammer kjeven seg og jeg begynner å forklare hele situasjonen.",
+      "suggestion": "Forklaringen kommer raskt inn; jeg lurer på om det å be om unnskyldning berører skam, nesten som å tape terreng."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Jeg tar bare et glass etter jobb fordi kona mi presser på; hvis hun sluttet å mase, hadde jeg ikke trengt det.",
+      "suggestion": "Du legger drikkingen på presset hennes; jeg lurer på om glasset også hjelper deg bort fra følelsen av å være anklaget."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fast] Jeg leser alles arbeid om igjen før en presentasjon, fordi én feil ville slå tilbake på meg.",
+      "suggestion": "Du vokter deg mot at én feil skal lande på deg; jeg lurer på om skyld allerede kjennes forventet før noe har gått galt."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Etter at jeg eksploderer, blir barnet mitt forsiktig rundt meg, og jeg klarer ikke å møte blikket hans.",
+      "suggestion": "Det forsiktige blikket ser ut til å treffe hardt; jeg lurer på om det berører skam over å være skremmende for ham."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Når noen sier at jeg skal roe meg ned, høres det ut som de kaller meg barnslig.",
+      "suggestion": "Den setningen ser ut til å gjøre deg liten fort; jeg lurer på om sinnet beskytter mot å kjenne seg avfeid."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fast] Jeg driver ikke med følelser; jeg spør hva vi skal gjøre med det.",
+      "suggestion": "Du går raskt mot handling; kanskje følelser kjennes for blottstillende å bli værende med lenge."
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_empathic-conjectures_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Blank] Jeg øver på hver setning før et møte, og så blir hodet likevel blankt når folk vender seg mot meg.",
+      "suggestion": "Du forbereder deg nøye, og så tar blankheten over; jeg lurer på om det å bli sett på kjennes som å bli vurdert."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Når jeg blir invitert ut, sier jeg at jeg er opptatt før jeg rekker å kjenne om jeg vil gå.",
+      "suggestion": "«Opptatt»-svaret kommer fort; jeg lurer på om det beskytter deg mot å finne ut om du ville hørt til."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Engstelig] Jeg hører en stemme som sier «ikke dum deg ut» før jeg rekker å åpne munnen.",
+      "suggestion": "Den advarselen kommer før du snakker; jeg gjetter at den prøver å beskytte deg mot å føle deg blottstilt."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Etter at jeg har snakket, krymper jeg meg i timevis og ser for meg at alle spiller av hvor latterlig jeg hørtes ut.",
+      "suggestion": "Krympingen spiller øyeblikket om igjen; jeg lurer på om det å bli hørt kjennes nært å bli ledd av."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Når noen gir meg et kompliment, antar jeg at de bare er høflige og har oversett den kleine delen.",
+      "suggestion": "Komplimentet slipper ikke helt inn; jeg lurer på om den kleine delen kjennes mer troverdig enn de gode ordene."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Å se selvsikre mennesker får meg til å ville forsvinne, og så hater jeg meg selv for å misunne dem.",
+      "suggestion": "Selvsikkerheten deres får deg til å krympe; kanskje misunnelsen også er tristhet over å føle deg utenfor den verdenen."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Hvis noen ler i nærheten, antar jeg at det er av meg og spiller om igjen hva jeg gjorde galt.",
+      "suggestion": "Du forbereder deg raskt på å bli gjort narr av; jeg lurer på om latter kjennes som bevis på at det er farlig å være synlig."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Engstelig] Jeg skriver en melding, leser den fem ganger og sletter den før jeg sender.",
+      "suggestion": "Du redigerer deg selv ut av kontakt; jeg lurer på om det å ta kontakt kjennes som å gi noen sjansen til å avvise deg."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Engstelig] Jeg drikker før arrangementer, for ellers står jeg langs veggen og sjekker mobilen.",
+      "suggestion": "Drikken hjelper deg bort fra veggen; jeg lurer på om den skjermer deg mot å føle deg blottstilt."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Jeg holder meg stille selv når jeg har en god idé, og så spiller jeg den om igjen hele dagen.",
+      "suggestion": "Du holder deg skjult og fortsetter å spille det om igjen; kanskje det å si noe kjennes risikabelt, men stillheten gir skam."
+    }
+  ],
+  "case-laura": [
+    {
+      "id": "dp_empathic-conjectures_case-laura_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt og på vakt] Når noen er vennlige, blir jeg fort mistenksom, som om varme alltid har en hake.",
+      "suggestion": "Du tar avstand fra vennlighet; jeg lurer på om nærhet kan vekke en gammel frykt for at varme skal bli til fare eller svik."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-laura_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Når stemmer heves, fryser jeg før jeg vet om sinnet i det hele tatt er rettet mot meg.",
+      "suggestion": "Frysingen kommer før fakta; kanskje en del av deg lærte at frykten måtte bevege seg raskere enn tanken."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-laura_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Langsomt og flatt] En del av meg føler skyld over at jeg virker nummen når folk forventer at jeg skal være takknemlig.",
+      "suggestion": "Du dømmer nummenheten; jeg gjetter at den kanskje beskytter en veldig sår sorg som takknemlighet ikke når inn til."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-laura_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt og på vakt] Jeg unngår filmer med familiekrangler fordi lydene følger meg hjem.",
+      "suggestion": "Du styrer unna; jeg lurer på om lyden kan vekke gammel skrekk og skam som ikke blir igjen på skjermen."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-laura_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Langsomt og flatt] Noen ganger stirrer jeg på veggen til rommet blir flatt og ingenting kan nå meg.",
+      "suggestion": "Flatheten virker beskyttende; jeg lurer på om den holder deg unna smerten som kunne komme hvis rommet kjentes virkelig."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-laura_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og på vakt] En snill mann spurte meg ut, og jeg begynte straks å ramse opp alle grunnene til at han sikkert kom til å såre meg.",
+      "suggestion": "Listen kommer fort inn; jeg lurer på om ønsket om nærhet og forventningen om svik kommer nesten samtidig."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-laura_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Når noen tar meg på skulderen, skvetter jeg før jeg rekker å kjenne dem igjen, og så skammer jeg meg.",
+      "suggestion": "Skvetten kommer før gjenkjennelsen; jeg lurer på om berøring kan bære fare så raskt, og så kommer skammen over å trenge den beskyttelsen."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-laura_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fjern] Når folk sier at traumeoverlevere er sterke, får jeg lyst til å gå ut av rommet.",
+      "suggestion": "Den rosen skyver deg bort; jeg lurer på om den bommer på skammen og ensomheten som fortsatt kjennes vanskelig å nå."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-laura_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Langsomt og flatt] Rutinen min er jobb, butikk, hjem. Det kjennes tryggere sånn.",
+      "suggestion": "Du holder verden smal og forutsigbar; jeg lurer på om det lille formatet hjelper deg å kontrollere risiko og holde gammel smerte unna."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-laura_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og skamfull] Hvis jeg gråter, unnskylder jeg meg før noen rekker å reagere.",
+      "suggestion": "Unnskyldningen kommer før noen har gjort noe; jeg lurer på om tårer bærer en gammel forventning om fare, skyld eller omsorg som ikke var trygg."
+    }
+  ],
+  "case-carlos": [
+    {
+      "id": "dp_empathic-conjectures_case-carlos_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og sint] En respektløs tone vipper en bryter i meg før jeg vet hva som ble truffet.",
+      "suggestion": "Det snur fort i deg; jeg lurer på om det under varmen ligger et glimt av ydmykelse før sinnet tar over."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-carlos_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og sint] Hvis jeg gir meg, blir det sittende i brystet i dagevis.",
+      "suggestion": "Det blir værende i deg i dagevis; jeg lurer på om det å gi seg kan berøre noe mer enn krangelen, som å kjenne seg liten eller overkjørt."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-carlos_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og sint] Når noen forteller meg hva jeg skal gjøre, er første tanke: «Hvem tror du at du er?»",
+      "suggestion": "Det spørsmålet kommer fort; jeg gjetter at det å bli instruert kan kjennes som å havne under noen andres makt."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-carlos_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Sønnen min så meg smelle igjen en dør, og senere klarte jeg ikke slutte å se ansiktet hans for meg.",
+      "suggestion": "Jeg lurer på om ansiktet hans ikke bare vekket anger, men også skam og frykt for hva han lærer av deg."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-carlos_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Etter en krangel blir kona mi stille, og jeg klarer ikke å se ansiktet hennes.",
+      "suggestion": "Stillheten hennes ser ut til å nå forbi sinnet; jeg lurer på om blikket hennes ville vekke anger, ømhet og frykten for at du skremte henne."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-carlos_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og sint] Jeg blåser meg opp når noen utfordrer meg, før de kan se at det treffer.",
+      "suggestion": "Du tar på rustningen fort; jeg lurer på om den dekker over det korte øyeblikket der utfordringen faktisk treffer og får deg til å kjenne deg mindre."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-carlos_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Jeg knuser ting så jeg ikke skader folk, men etterpå ser jeg at alle fortsatt er redde.",
+      "suggestion": "Du prøver å ikke skade folk; jeg lurer på om det å knuse ting skyver smerten unna et øyeblikk, og så kommer skammen når du ser frykten."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-carlos_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] Faren min pleide å si at følelser gjør menn svake, og jeg hører det fortsatt i hodet.",
+      "suggestion": "Den regelen er fortsatt høylytt; jeg lurer på om den vokter mot risikoen ved å kjenne noe ømt, eller bli blottstilt og maktesløs."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-carlos_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent og sint] Jeg kverner på respektløsheten i dagevis og planlegger hvordan jeg burde vunnet der og da.",
+      "suggestion": "Du prøver fortsatt å vinne det i etterkant; jeg lurer på om gjennomspillingen hjelper med å holde ydmykelsen over å kjenne seg liten akkurat da på avstand."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-carlos_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Jeg vil gjøre det bedre for familien min, og så hører jeg meg selv høres ut som mennene jeg hatet.",
+      "suggestion": "Jeg lurer på om det under viljen til endring ligger frykt og sorg over å bli en som familien din må være på vakt rundt."
+    }
+  ],
+  "case-nina": [
+    {
+      "id": "dp_empathic-conjectures_case-nina_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skyldpreget] Når jeg hviler, føler jeg meg egoistisk, selv når jeg er så trøtt at jeg nesten ikke klarer å stå.",
+      "suggestion": "Hvile vekker skyld; jeg lurer på om en del av deg kom til å kjenne kjærlighet som tryggere når du fortsatte å fortjene plassen din."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nina_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Unnskyldende] Jeg sier ja, og så blir jeg bitter, men jeg klarer likevel ikke stoppe.",
+      "suggestion": "Du sier ja, og sinnet kommer etterpå; kanskje bitterheten peker mot behov som fortsatt kjennes for risikable å eie."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nina_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Splittet] Når jeg ber om hjelp, unnskylder jeg meg før de rekker å se irritert ut.",
+      "suggestion": "Du unnskylder deg før noen rekker å reagere; jeg lurer på om det finnes en frykt for at det å trenge hjelp kan koste deg aksept."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nina_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skyldpreget] Hvis huset er rotete når folk stikker innom, begynner jeg å forklare før de sier noe.",
+      "suggestion": "Du forklarer før det engang finnes en anklage; jeg lurer på om rotet kan berøre skam over å måtte bevise at du er god gjennom å gjøre."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nina_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Unnskyldende] Hvis noen virker skuffet, begynner jeg å ordne opp før jeg vet hva jeg selv vil.",
+      "suggestion": "Ordningen starter raskt; jeg lurer på om skuffelse kan treffe en gammel frykt for at kjærlighet kunne bli trukket tilbake."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nina_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Splittet] Jeg svelger sinnet fordi det ikke er pent, og så bærer jeg bitterhet stille.",
+      "suggestion": "Du svelger sinnet for å være snill; kanskje lærte en yngre del at det å ha behov kunne true kjærligheten."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nina_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sliten] Jeg tar vare på alle, og når ingen legger merke til det, blir jeg skarp mot meg selv for at jeg bryr meg.",
+      "suggestion": "Du blir fort hard mot deg selv for at du ønsker å bli sett; jeg lurer på om det finnes en ensom lengsel etter å bli tatt vare på uten å måtte fortjene det."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nina_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Unnskyldende] Jeg prøver å si nei og legger så til tre forklaringer før de svarer.",
+      "suggestion": "Forklaringene skynder seg inn etter nei-et; jeg lurer på om en del av deg prøver å holde aksepten trygg."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nina_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Splittet] Jeg sier til meg selv at andre har det verre, og så fortsetter jeg.",
+      "suggestion": "Du gjør behovene dine mindre og går videre; jeg lurer på om det å forbli akseptabel har betydd å ikke ta mye plass."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nina_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sliten] Hvis jeg roer ned etter at alle har sovnet, stiger en klump i halsen.",
+      "suggestion": "Klumpen kommer når ingen trenger deg; kanskje er sorgen nær og ber om å bli sett."
+    }
+  ],
+  "case-aisha": [
+    {
+      "id": "dp_empathic-conjectures_case-aisha_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperat] Hvis du kaster et blikk på klokka, synker magen som om du allerede er på vei bort fra meg.",
+      "suggestion": "Det blikket blir et signal om at du går; jeg lurer på om fallet i magen handler om en frykt for at du slutter å bety noe når noen vender seg bort."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-aisha_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Rasende] Da han ikke svarte, gikk jeg fra stille til rasende før jeg skjønte hva som skjedde.",
+      "suggestion": "Du svinger fort; kanskje raseriet skynder seg inn for å beskytte den redde, rå delen som føler seg forlatt."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-aisha_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nummen] Noen ganger får jeg lyst til å klore meg på armene bare for å skjære gjennom nummenheten.",
+      "suggestion": "Du vil finne en vei gjennom nummenheten; jeg lurer på om det ligger en uutholdelig tomhet under."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-aisha_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperat] Jeg skremte alle forrige uke da jeg sa at jeg kanskje kom til å ta livet mitt, men han tekstet i dag, så nå er det greit og kanskje jeg ikke trenger å snakke om det.",
+      "suggestion": "En del av deg vil lukke det raskt nå som kontakten kom tilbake; jeg lurer på om det kjennes skremmende å se tilbake på hvor nær kanten det var."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-aisha_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Desperat] Hvis du avlyser, er det en del av meg som aldri vil komme tilbake og late som jeg ikke bryr meg.",
+      "suggestion": "Avlysningen stikker som å bli sluppet; jeg lurer på om det kjennes tryggere å avvise først enn å vente på at det skjer igjen."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-aisha_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Når jeg ber noen bli, hater jeg hvor intens jeg høres ut etterpå.",
+      "suggestion": "Du hater intensiteten akkurat der du trenger nærhet; kanskje skammen sier at behovet ditt er for mye."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-aisha_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Vennlighet får meg til å hulke, og så vil jeg stikke ut av rommet.",
+      "suggestion": "Det lander stort; jeg gjetter at én del lengter etter vennligheten, mens en annen forventer at det å trenge den blir farlig."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-aisha_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Jeg tester folk for å finne ut om de virkelig bryr seg, og så hater jeg hvor trengende det høres ut.",
+      "suggestion": "Du tester og skammer deg etterpå; jeg lurer på om du prøver å bevise at du betyr noe før du våger å stole på."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-aisha_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Etter at jeg slår ut, kaller jeg meg ekkel før noen andre rekker å si det.",
+      "suggestion": "Angrepet vender raskt innover; jeg lurer på om det å kalle deg ekkel kommer før frykten for at noen andre skal si det."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-aisha_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panisk] Jeg får panikk når jeg skal si farvel, selv når jeg vet at du kommer tilbake.",
+      "suggestion": "Farvel utløser panikk selv når hodet vet bedre; jeg lurer på om avskjeder berører den gamle frykten for at ingen kommer tilbake."
+    }
+  ],
+  "case-david": [
+    {
+      "id": "dp_empathic-conjectures_case-david_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Håpløs] Når kona mi kaller meg kald, kommer jeg med en spydig kommentar før hun rekker å se at det såret.",
+      "suggestion": "Kommentaren kommer først; jeg lurer på om den vokter mot et stikk av å bli sett som mislykket eller ikke god nok."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-david_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Avvisende] Jeg liker ikke å bli fortalt hva jeg skal gjøre; det kjennes som om noen får overtaket.",
+      "suggestion": "Du stritter imot styring; jeg lurer på om det lander som om noen gjør deg liten."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-david_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Avvisende] Hvis jeg ikke kan være best, hvorfor prøve i det hele tatt?",
+      "suggestion": "Du sikter mot toppen; jeg lurer på om det ordinære nesten kan kjennes som å forsvinne."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-david_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fjern] Jeg planlegger store gester, folk reagerer bra, og så føler jeg meg tom etterpå.",
+      "suggestion": "Jeg lurer på om det, etter at gesten lander, fortsatt finnes et ensomt sted som spør om de vil ha deg eller bare det du kan gi."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-david_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Avvisende] Å be om unnskyldning får meg til å krympe meg; jeg begynner å forklare før ordene er ute.",
+      "suggestion": "Det kjennes ydmykende; jeg lurer på om det å innrømme feil kan treffe en gammel skam over å bli redusert til mislykket."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-david_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Unnvikende] I vanskelige samtaler griper jeg etter telefonen når praten begynner å bli personlig.",
+      "suggestion": "Du griper etter en utvei idet nærheten kommer inn; kanskje kjennes det personlige farlig når du forventer å bli bedømt."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-david_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Kontrollert] Jeg skryter når jeg føler meg utrygg, før noen kan se glippen.",
+      "suggestion": "Du pumper deg raskt opp; jeg lurer på om det dekker den sårbare glippen før noen andre kan se den."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-david_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Såret, men skarp] Hvis barna sier imot, hører jeg respektløshet og går rett i forelesningsmodus.",
+      "suggestion": "Motstanden deres ser ut til å treffe autoriteten din raskt; jeg lurer på om forelesningen dekker et glimt av skam."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-david_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Såret, men skarp] Når kona mi misforstår meg, blir jeg skarp og fortsetter å bevise poenget mitt.",
+      "suggestion": "Du fortsetter å bevise poenget; jeg lurer på om det under sinnet ligger en sorg over ikke å bli kjent."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-david_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Kontrollert] Hvis kona mi blir, føler jeg meg fanget og kritisert; hvis hun går, føler jeg meg ydmyket. Det finnes ingen måte å vinne på.",
+      "suggestion": "Begge alternativene truer deg; jeg lurer på om de berører den samme frykten for å bli sett som ikke god nok."
+    }
+  ],
+  "case-marcus": [
+    {
+      "id": "dp_empathic-conjectures_case-marcus_01",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Langsomt og flatt] De fleste dager føler jeg meg avstengt. Folk snakker, og jeg nikker for det meste bare.",
+      "suggestion": "Du kjenner deg avstengt; jeg lurer på om nummenheten kan holde mye smerte unna, så ikke alt slipper inn på én gang."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-marcus_02",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lav stemme] Jeg sover med TV-en på så rommet ikke blir for stille.",
+      "suggestion": "Du overdøver stillheten; kanskje stillhet bringer minner og sorg for tett på."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-marcus_03",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille og på vakt] Jeg velger stolen der jeg kan se døra, og blir anspent hvis noen står bak meg.",
+      "suggestion": "Valget av stol ser ut til å organisere trygghet; jeg lurer på om en del av deg fortsatt forventer at rommet kan bli farlig."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-marcus_04",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lav stemme] Jeg svarer ikke når søsteren min ringer, selv om jeg vet at hun bare sjekker hvordan jeg har det.",
+      "suggestion": "Du holder avstand; jeg lurer på om stemmen hennes slipper gjennom nummenheten og gjør følelsene vanskeligere å håndtere."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-marcus_05",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Høye lyder får meg til å skvette, og så blir jeg sint på meg selv.",
+      "suggestion": "Du skvetter og dømmer deg selv; jeg lurer på om sinnet dekker over en skam over å være sårbar."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-marcus_06",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille og på vakt] Når gode ting skjer, merker jeg at jeg venter på at noe skal gå galt.",
+      "suggestion": "Det gode holder seg på avstand; kanskje det å la det bety noe gjør tapet for nært."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-marcus_07",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt] Jeg drikker noen ganger for å slå meg selv ut fordi jeg ikke vil drømme.",
+      "suggestion": "Du slår deg ut før søvnen kan trekke deg tilbake dit; jeg lurer på om det holder mareritt og følelser på avstand."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-marcus_08",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Langsomt og flatt] Jeg holder lyset lavt hjemme så ingenting kjennes for skarpt.",
+      "suggestion": "Du holder alt dempet og mykt; jeg lurer på om lys og klarhet kjennes for avslørende eller for skarpt."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-marcus_09",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille og på vakt] Jeg husker ikke sist jeg lo, og selv det å prøve kjennes falskt.",
+      "suggestion": "Du får ikke tak i latteren; jeg lurer på om glede på en eller annen måte kjennes feil etter så mye tap."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-marcus_10",
+      "track": "case_matrix",
+      "revision": "2026-03-07-v1",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flatt] Jeg sier til meg selv at jeg har det bedre alene. Nærhet blir fort komplisert.",
+      "suggestion": "Den delen virker beskyttende; jeg lurer på om den frykter at nærhet betyr å såre noen, bli såret eller miste kontrollen igjen."
+    }
+  ]
+}
