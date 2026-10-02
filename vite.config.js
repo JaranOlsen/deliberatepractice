@@ -54,6 +54,9 @@ export default defineConfig({
   }],
   base: '/deliberatepractice/',
   publicDir: 'public',
+  // Native file events can miss editor/agent writes on macOS, leaving the
+  // preview on an older build even after a browser refresh.
+  server: { watch: { usePolling: true } },
   define: {
     __APP_VERSION__: JSON.stringify(packageJson.version),
     __BUILD_NUMBER__: JSON.stringify(getBuildNumber()),

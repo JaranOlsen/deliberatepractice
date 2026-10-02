@@ -1,6 +1,6 @@
 # Room entry, preparation and hosting
 
-Implemented on `codex/room-entry-readiness`, based on production `5b5d7c6`. This change is prepared for review; the hosted migration and production deployment have not been performed.
+Implemented on `codex/room-entry-readiness`, based on production `5b5d7c6`. The hosted migration has been applied and verified; the frontend remains in draft PR #89 and the local preview.
 
 ## Behavior
 
@@ -19,14 +19,15 @@ Implemented on `codex/room-entry-readiness`, based on production `5b5d7c6`. This
 - `scripts/check-room-invite-flows.js`: real application backend and Supabase SDK, with all backend requests intercepted. Covers invalid/typed codes, the actual OTP redirect parameter, a fresh-browser callback, edited invitations, the management RPC allowlist/payload, and 320px sign-in. No emails are sent by this check.
 - The existing hosted Auth verification endpoint was checked using an intentionally invalid token. Both production and localhost:5173 redirects retained the room query in the error callback, confirming the existing allowlist accepts those URLs. This did not authenticate or change an account. Fresh real-email delivery and native mail-app handoff were not repeated.
 - Database fixtures additionally cover stale preparation tokens, readiness withdrawal/replay, unassigned/watching/non-member/unauthenticated callers, disconnected transfer targets, exact preparation replay after transfer, new-host material selection, private helper permissions, authenticated-only management RPCs, the fixed search path and room RLS/direct-update restrictions. All fixture data rolls back.
-- The current hosted Supabase advisors were inspected as a baseline only. The new migration has been exercised locally, not assessed by the hosted advisors yet. Existing intentionally privileged RPC notices and unrelated legacy findings remain outside this change.
+- The migration was applied to hosted Supabase on 2026-10-03. All five PostgreSQL fixture suites also pass there and roll back their fixture data. The security advisor reports the expected authenticated management RPC notice; anonymous access, room membership checks and private helper permissions are covered by the fixtures. Existing unrelated legacy findings remain outside this change.
+- A reported missing preparation button was traced to the local Vite server serving old source and the pending hosted migration. The preview was restarted with polling enabled to detect editor/agent writes. The two current-content preparation rooms containing only the three authorized test accounts were opted into readiness without changing roles or material. The existing browser room was resumed and visibly shows “I’m ready.”
 
 Screenshots: `output/playwright/room-readiness-observer-320.png`, `room-readiness-client-320.png`, and `room-host-transfer-320.png`.
 
 ## Deployment order and compatibility
 
-1. Apply `supabase/migrations/20261002213946_room_readiness_and_host_handoff.sql` before deploying the frontend. It adds preparation/readiness fields, a database start/reset guard, and the authenticated management RPC. It does not alter or delete ratings.
-2. Run the rolled-back fixture suites against hosted Postgres and inspect security/performance advisors after application.
+1. Done: apply `supabase/migrations/20261002213946_room_readiness_and_host_handoff.sql` before deploying the frontend. It adds preparation/readiness fields, a database start/reset guard, and the authenticated management RPC. It does not alter or delete ratings.
+2. Done: run the rolled-back fixture suites against hosted Postgres and inspect advisors after application.
 3. Deploy the frontend and check an actual invitation, a pair and a three-person group. Participants should refresh the app before using the new readiness protocol.
 
 Existing rooms default to the previous preparation protocol, including rounds already in progress. Newly created rooms opt into `ready-v1`; selecting new material with this frontend also opts in. An exact committed command can be recovered after a hosting transfer, but that receipt cannot grant a former host new control or be retargeted.
