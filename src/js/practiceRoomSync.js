@@ -121,8 +121,18 @@ export function roomRole(room, userId) {
   return ['observer', 'therapist', 'client'].find(role => room?.[`${role}_id`] === userId) ?? (userId && room?.member_ids?.includes(userId) ? 'passive' : null);
 }
 
+export function roomNeedsObserver(room) {
+  // An ongoing pair can gain watching participants without changing its roles.
+  return !!room?.observer_id || (['choosing', 'lobby'].includes(room?.phase) && room?.member_ids?.length >= 3);
+}
+
+export function missingRoomRoles(room) {
+  return ['therapist', 'client', ...(roomNeedsObserver(room) ? ['observer'] : [])]
+    .filter(role => !room?.[`${role}_id`]);
+}
+
 export function roomEveryoneReady(room) {
-  if (!room?.therapist_id || !room?.client_id) return false;
+  if (missingRoomRoles(room).length) return false;
   return ['therapist', 'client', ...(room.observer_id ? ['observer'] : [])].every(role => {
     const member = room?.presence?.[room?.[`${role}_id`]];
     return member?.connected && member.acknowledged_version === room.version;

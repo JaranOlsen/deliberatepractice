@@ -3,7 +3,7 @@ import {practiceRoomRpc, watchPracticeRoom} from './backend.js';
 import {loadPracticeContent, getPracticeStatements} from './practiceContent.js';
 import {CONTENT_REVISION} from './practiceData.js';
 import {groupSetProgress} from './groupRound.js';
-import {createRoomSync, roomRole, roomEveryoneReady} from './practiceRoomSync.js';
+import {createRoomSync, roomRole, roomEveryoneReady, roomNeedsObserver, missingRoomRoles} from './practiceRoomSync.js';
 
 const copy = {
   en: {
@@ -14,7 +14,7 @@ const copy = {
     consent: 'Ratings assess the therapist’s use of the selected skill. The active observer saves the rating; in pairs the therapist saves a self-assessment. Spoken responses and feedback are not recorded. Keep roles for twelve items. Rate every three, then choose roles and practice again after the complete round.',
     signIn: 'Sign in to join', signInCreate: 'Sign in to create a room', copy: 'Copy room code', copied: 'Code copied',
     invite: 'Invite your group. The room lasts eight hours.',
-    waiting: 'Waiting for the therapist, client and active observer to display this step', ready: 'Ready · devices are in sync',
+    waiting: 'Waiting for the therapist, client and active observer to display this step', missingRoles: 'Choose the missing roles: {roles}.', ready: 'Ready · devices are in sync',
     reconnect: 'Connection interrupted. Reconnecting… The round waits until everyone is up to date.',
     sync: 'Sync now', retry: 'Retry last action', loading: 'Loading the shared round…',
     lobby: 'Get ready', start: 'Start round', advance: 'Continue to next step', finishItem: 'Finish item',
@@ -41,7 +41,7 @@ const copy = {
     consent: 'Vurderingen gjelder terapeutens bruk av den valgte ferdigheten. Den aktive observatøren lagrer vurderingen; i par lagrer terapeuten en egenvurdering. Muntlige svar og tilbakemeldinger blir ikke registrert. Behold rollene i tolv utsagn. Vurder etter hvert tredje, og velg roller og øving på nytt etter hele runden.',
     signIn: 'Logg inn for å bli med', signInCreate: 'Logg inn for å opprette et rom', copy: 'Kopier romkode', copied: 'Koden er kopiert',
     invite: 'Inviter gruppen. Rommet varer i åtte timer.',
-    waiting: 'Venter på at terapeuten, klienten og den aktive observatøren viser dette steget', ready: 'Klar · enhetene er synkronisert',
+    waiting: 'Venter på at terapeuten, klienten og den aktive observatøren viser dette steget', missingRoles: 'Velg rollene som mangler: {roles}.', ready: 'Klar · enhetene er synkronisert',
     reconnect: 'Forbindelsen er brutt. Kobler til igjen… Runden venter til alle er oppdatert.',
     sync: 'Synkroniser nå', retry: 'Prøv siste handling igjen', loading: 'Laster den felles runden…',
     lobby: 'Gjør deg klar', start: 'Start runden', advance: 'Fortsett til neste steg', finishItem: 'Fullfør utsagnet',
@@ -190,7 +190,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       if (el('invite').parentElement !== el('session')) el('details').before(el('invite'));
     }
     else if (el('invite').parentElement !== el('details')) el('details').prepend(el('invite'));
-    const key = `${next.round_id}:${next.phase}:${next.item_index}:${role}:${next.observer_id ?? 'pair'}:${next.skill_id}:${next.case_id}`;
+    const key = `${next.round_id}:${next.phase}:${next.item_index}:${role}:${next.observer_id ?? (roomNeedsObserver(next) ? 'observer-needed' : 'pair')}:${next.skill_id}:${next.case_id}`;
     // Presence refreshes never rebuild the screen or steal keyboard focus.
     if (key !== contentKey) {
       contentKey = key;
@@ -224,8 +224,8 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
             section.append(node('h4', ui.clientVoiceHeading, 'case-section-title'), node('p', voice)); prep.append(section);
           }
         } else prep.append(node('p', skill.practiceFocus));
-        prep.append(node('p', self ? s.awarenessCue[role] : !next.observer_id && role === 'therapist' ? s.pairPreparation : s.prepCue[role], 'room-preparation-cue'));
-        if (self && !next.observer_id && role === 'therapist') prep.append(node('p', s.pairPreparation, 'room-preparation-cue'));
+        prep.append(node('p', self ? s.awarenessCue[role] : !roomNeedsObserver(next) && role === 'therapist' ? s.pairPreparation : s.prepCue[role], 'room-preparation-cue'));
+        if (self && !roomNeedsObserver(next) && role === 'therapist') prep.append(node('p', s.pairPreparation, 'room-preparation-cue'));
         body.append(prep);
       } else if (active) {
         body.append(node('p', `${s.set} ${set.number}/${set.total} · ${s.item} ${next.item_index + 1}/${next.statement_ids.length}`, 'triad-progress'));
@@ -278,7 +278,9 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     const s = strings(), role = roomRole(snapshot, userId);
     const set = groupSetProgress(snapshot.statement_ids, snapshot.item_index, snapshot.completed_ids, snapshot.skipped_ids);
     const ended = snapshot.phase === 'closed' || Date.parse(snapshot.expires_at) <= Date.now();
-    const waiting = !snapshot.observer_id ? (language === 'no' ? 'Venter på at terapeuten og klienten viser dette steget' : 'Waiting for the therapist and client to display this step') : s.waiting;
+    const missing = missingRoomRoles(snapshot);
+    const waiting = missing.length ? s.missingRoles.replace('{roles}', missing.map(role => s[role]).join(', '))
+      : !snapshot.observer_id ? (language === 'no' ? 'Venter på at terapeuten og klienten viser dette steget' : 'Waiting for the therapist and client to display this step') : s.waiting;
     text('sync-status', ended ? Date.parse(snapshot.expires_at) <= Date.now() ? s.expired : s.ended
       : !fresh ? s.reconnect : snapshot.phase === 'choosing' ? (snapshot.host_id === userId ? s.choosing : s.waitingForHost)
         : !roomEveryoneReady(snapshot) ? waiting : snapshot.phase === 'lobby' && userId !== (snapshot.observer_id ?? snapshot.therapist_id) ? snapshot.observer_id ? s.observerStarts : s.therapistStarts : s.ready);
@@ -302,6 +304,8 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     } else if (el('change-role-form').parentElement !== el('details')) el('members').after(el('change-role-form'));
     el('change-role-form').hidden = !['choosing','lobby'].includes(snapshot.phase) || ended;
     for (const option of el('change-role').options) option.disabled = option.value !== 'passive' && !!snapshot[`${option.value}_id`] && snapshot[`${option.value}_id`] !== userId;
+    // A draft choice can become occupied while another device is choosing.
+    if (el('change-role').selectedOptions[0]?.disabled) el('change-role').value = role;
     el('change-role-submit').disabled = commanding || !!pending || !fresh;
     const hostControls = snapshot.host_id === userId && !ended;
     const controls = (snapshot.observer_id ?? snapshot.therapist_id) === userId && !ended;

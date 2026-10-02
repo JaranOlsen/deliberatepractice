@@ -6,7 +6,8 @@ async (page) => {
   const users=await (await page.request.get('http://127.0.0.1:5199/users')).json();
   const contexts=[],pages=[],errors=[];
   const assert=(ok,message)=>{if(!ok)throw new Error(message);};
-  let room,loseResponse=false,stage='setup';
+  let room,loseResponse=false,stage='setup',claimRace=false;
+  const claimWaiters=[],claimResults=[];
   for(const user of ['o','t','c','p']) {
     const context=await page.context().browser().newContext({viewport:{width:320,height:844}});contexts.push(context);
     const p=await context.newPage();pages.push(p);p.on('pageerror',e=>errors.push(e.message));
@@ -39,9 +40,15 @@ async (page) => {
     `}));
     await context.route(`**/__room_test/${user}`,async route=>{
       const {name,args}=JSON.parse(route.request().postData());
+      const competing=claimRace&&name==='command_practice_room'&&args.input_action==='role_client';
+      if(competing)await new Promise(resolve=>{
+        claimWaiters.push(resolve);
+        if(claimWaiters.length===2){claimRace=false;for(const release of claimWaiters)release();}
+      });
       const response=await p.request.post('http://127.0.0.1:5199/rpc',{data:{user:users[user],name,args}});
       const data=await response.json();
-      if(response.ok() && (!room || data.id!==room.id || data.version>=room.version))room=data;
+      if(competing)claimResults.push({user,version:args.input_expected_version,ok:response.ok(),data});
+      if(response.ok() && data.id && (!room || data.id!==room.id || data.version>=room.version))room=data;
       if(loseResponse&&name==='command_practice_room') {
         loseResponse=false;await route.fulfill({status:503,body:'{"message":"Response lost after commit"}'});
       } else await route.fulfill({status:response.status(),contentType:'application/json',body:JSON.stringify(data)});
@@ -57,6 +64,9 @@ async (page) => {
     if(waits)await p.waitForFunction(v=>Number(document.getElementById('room-panel').dataset.version)>v,v);
   };
   const sync=async()=>{
+    // Leave returns only {left:true}; fetch the committed version before waiting on UI.
+    const current=await page.request.post('http://127.0.0.1:5199/rpc',{data:{user:users.o,name:'sync_practice_room',args:{input_room_id:room.id,input_acknowledged_version:-1}}});
+    assert(current.ok(),'Host can fetch the committed room snapshot');room=await current.json();
     for(let i=0;i<2;i++)for(const p of pages)await p.evaluate(()=>document.getElementById('room-sync').click());
     for(const p of pages)await p.waitForFunction(v=>Number(document.getElementById('room-panel').dataset.version)===v,room.version);
   };
@@ -120,26 +130,58 @@ async (page) => {
     assert(room.member_ids.length===4&&room.host_id===users.o,'Room and host survive the complete round');
     for(const p of pages)assert(await p.locator('#room-change-role-form').isVisible(),'New round exposes role selection without opening People');
     await o.screenshot({path:'output/playwright/four-sets-next-round-320.png',fullPage:true});
-    // Choose different roles and content for the next complete round, including a pair.
+    stage='post-round role claims';
     await t.locator('#room-change-role').selectOption('client');await click(o,'room-change-role-submit');await sync();
     assert(await t.locator('#room-change-role').inputValue()==='client','A newer room snapshot preserves an unsubmitted role choice');
-    await click(t,'room-change-role-submit');await sync();
-    await c.locator('#room-change-role').selectOption('therapist');await click(c,'room-change-role-submit');await sync();
+    await c.locator('#room-change-role').selectOption('client');
+    claimRace=true;
+    await Promise.all([t,c].map(p=>p.locator('#room-change-role-submit').click()));
+    for(let retry=0;claimResults.length<2&&retry<250;retry++)await new Promise(resolve=>setTimeout(resolve,20));
+    assert(claimResults.length===2,'Both competing requests completed');
+    await sync();
+    assert(claimResults.filter(r=>r.ok).length===1&&claimResults[0].version===claimResults[1].version,'Exactly one simultaneous client claim succeeds');
+    assert(claimResults.find(r=>!r.ok).data.code==='P0001','The competing claim receives a database rejection');
+    const loser=room.client_id===users.t?c:t;
+    assert(await loser.locator('#room-change-role option[value="client"]').isDisabled(),'Taken client role is disabled on the other phone');
+    assert(await loser.locator('#room-change-role').inputValue()==='passive','A taken draft role resets to the participant’s actual role');
+    assert((await loser.locator('#room-error').textContent()).includes('Room changed'),'The losing participant sees why their claim failed');
+    await o.locator('#room-change-role').selectOption('therapist');await click(o,'room-change-role-submit');await sync();
     await click(o,'room-choose');await o.locator('button[data-skill-id="therapist-self-awareness"]').click();
     await o.locator('[data-case-id="case-jason"]').click();await click(o,'start-practice');await o.locator('.room-preparation').waitFor();await sync();
-    assert(room.therapist_id===users.c&&room.client_id===users.t&&!room.observer_id&&room.skill_id==='therapist-self-awareness'&&room.case_id==='case-jason','Fresh role, skill and case choices persist');
-    await ready(c,'room-next');await click(c,'room-next');await sync();
-    for(let i=0;i<3;i++){await ready(c,'room-pass');await click(c,'room-pass');await sync();}
-    assert(await c.locator('#room-score').count()===0,'An all-passed set has no rating form');
-    await ready(c,'room-rotate');await click(c,'room-rotate');await sync();
-    for(let i=0;i<3;i++){await ready(c,'room-next');await click(c,'room-next');await sync();}
-    await c.locator('#room-score').selectOption('3');await ready(c,'room-save');await click(c,'room-save');await sync();
-    const pairRows=(await ratings()).filter(r=>r.therapist_user_id===users.c&&!existingRatings.has(r.id));
+    stage='missing observer';
+    assert(await o.locator('#room-next').isDisabled(),'A larger group cannot start without an observer');
+    assert((await o.locator('#room-sync-status').textContent()).includes('Active observer'),'Waiting status names the missing role');
+    const bypass=await page.request.post('http://127.0.0.1:5199/rpc',{data:{user:users.o,name:'command_practice_room',args:{input_room_id:room.id,input_command_id:crypto.randomUUID(),input_expected_version:room.version,input_action:'start'}}});
+    assert(!bypass.ok()&&(await bypass.json()).message.includes('Choose an active observer'),'The database also refuses a direct missing-observer start');
+    assert(await o.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Missing-role status fits 320px');
+    await o.screenshot({path:'output/playwright/role-selection-missing-observer-320.png',fullPage:true});
+    await loser.locator('#room-details summary').click();await loser.locator('#room-change-role').selectOption('observer');await click(loser,'room-change-role-submit');await sync();
+    await ready(loser,'room-next');
+    assert(await o.locator('#room-next').isHidden(),'Filling the observer role transfers the start control to that phone');
+    stage='two-person reselection';
+    // A genuine pair may start without an observer: remove both watching participants.
+    for(const p of [loser,watcher]) {
+      if(!await p.locator('#room-leave').isVisible())await p.locator('#room-details summary').click();
+      stage='leave '+(p===loser?'former observer':'watcher');
+      await click(p,'room-leave');await click(p,'room-exit-confirm');
+      await p.locator('#room-panel').waitFor({state:'hidden'});
+      pages.splice(pages.indexOf(p),1);await sync();
+    }
+    assert(room.member_ids.length===2&&room.therapist_id===users.o&&room.client_id&&!room.observer_id,'Two-person room retains exactly therapist and client');
+    assert((await o.locator('.room-preparation').textContent()).includes('Start when you’re both ready'),'Preparation updates when a larger group becomes a pair');
+    await ready(o,'room-next');await click(o,'room-next');await sync();
+    for(let i=0;i<3;i++){await ready(o,'room-pass');await click(o,'room-pass');await sync();}
+    assert(await o.locator('#room-score').count()===0,'An all-passed set has no rating form');
+    await ready(o,'room-rotate');await click(o,'room-rotate');await sync();
+    for(let i=0;i<3;i++){await ready(o,'room-next');await click(o,'room-next');await sync();}
+    await o.locator('#room-score').selectOption('3');await ready(o,'room-save');await click(o,'room-save');await sync();
+    const pairRows=(await ratings()).filter(r=>r.therapist_user_id===users.o&&!existingRatings.has(r.id));
     assert(pairRows.length===1&&pairRows[0].source==='self'&&pairRows[0].item_count===3,'Pair therapist self-assessment follows the same set boundaries');
     assert(errors.length===0,'No browser errors: '+errors.join('; '));
-    return {passed:true,participants:4,checks:['real local RPCs','twelve unique items','fixed roles','four distinct set ratings','passed items','lost-response replay','saved-checkpoint reconnect','320px role screens','explicit role/skill/case reselection','role selection survives polling','pair self-assessment','all-passed set']};
+    return {passed:true,participants:4,checks:['real local RPCs','twelve unique items','fixed roles','four distinct set ratings','passed items','lost-response replay','saved-checkpoint reconnect','320px role screens','explicit role/skill/case reselection','role selection survives polling','simultaneous client claims','taken draft choice resets','missing observer blocks UI and RPC','complete roles restore start control','pair self-assessment','all-passed set']};
   } catch(error) {
     const ui=await o.locator('#room-panel').evaluate(e=>({phase:e.dataset.phase,version:e.dataset.version,error:document.getElementById('room-error').textContent})).catch(()=>null);
-    throw new Error(stage+': '+error.message+' '+JSON.stringify(ui));
+    const allUi=await Promise.all(pages.map(p=>p.locator('#room-panel').evaluate(e=>({hidden:e.hidden,phase:e.dataset.phase,version:e.dataset.version,section:document.body.dataset.section,error:document.getElementById('room-error').textContent})).catch(()=>null)));
+    throw new Error(stage+': '+error.message+' '+JSON.stringify({ui,allUi,room}));
   } finally {for(const context of contexts)await context.close();}
 }
