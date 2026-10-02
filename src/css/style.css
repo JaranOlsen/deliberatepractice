@@ -2162,3 +2162,24 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 .room-workflow-rating small { display: block; color: var(--color-muted); margin-top: .2rem; font-size: .75rem; }
 #room-example-reveal { min-height: 44px; }
 @media (max-width: 360px) { .room-workflow li { padding: .5rem; gap: .35rem; font-size: .8rem; } }
+
+.room-role-guide { margin: .75rem 0; border: 1px solid var(--color-border); border-radius: .75rem; background: #f3f7f5; }
+.room-role-guide > summary { display: flex; align-items: center; justify-content: space-between; gap: .75rem; padding: .65rem .8rem; min-height: 52px; list-style: none; }
+.room-role-guide > summary::-webkit-details-marker { display: none; }
+.room-role-guide > summary strong, .room-role-guide > summary small { display: block; }
+.room-role-guide > summary strong { font-size: .95rem; font-weight: 650; }
+.room-role-guide > summary small { margin-top: .15rem; color: var(--color-muted); font-size: .8rem; line-height: 1.4; }
+.room-role-guide > summary::after { content: '+'; flex: 0 0 auto; font-size: 1.3rem; color: var(--color-accent); }
+.room-role-guide[open] > summary::after { content: '−'; }
+.room-role-guide > summary:focus-visible { outline: 3px solid var(--color-accent); outline-offset: 3px; border-radius: .75rem; }
+.room-role-guide-body { padding: 0 .8rem .3rem; }
+.room-role-guide-focus { padding: .6rem .7rem; margin: .25rem 0 .5rem; background: white; border-radius: .5rem; }
+.room-role-guide-focus strong, .room-role-step dt { font-size: .85rem; font-weight: 650; }
+.room-role-guide-focus p { margin: .25rem 0 0; font-size: .9rem; }
+.room-role-steps { margin: 0; }
+.room-role-step { padding: .65rem 0; border-top: 1px solid var(--color-border); }
+.room-role-step dd { margin: .2rem 0 0; font-size: .95rem; line-height: 1.5; }
+@media (min-width: 640px) {
+  .room-role-step { display: grid; grid-template-columns: 7rem minmax(0, 1fr); gap: .75rem; }
+  .room-role-step dd { margin: 0; }
+}

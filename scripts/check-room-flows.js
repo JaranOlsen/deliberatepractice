@@ -178,7 +178,8 @@ async (page) => {
     for (const p of pages) {
       assert(await p.locator('#room-header').isHidden(),'Active screens omit the group heading and library shortcut');
       assert(await p.locator('#room-content h4').count()===0,'No redundant practice-item heading');
-      assert(await p.locator('#room-your-part p').count()===1,'Role guidance is one short paragraph');
+      assert(await p.locator('#room-your-part .room-role-step').count()===([watcher1,watcher2].includes(p)?2:3),'Role card has concise, labelled actions');
+      assert(await p.locator('#room-your-part summary small').isVisible(),'Role card has a useful collapsed preview');
       await p.setViewportSize({width:320,height:700});
       assert(await p.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),'Active screen has no 320px overflow');
       if(p===o){
@@ -189,6 +190,20 @@ async (page) => {
     }
     for (const p of [o,watcher1,watcher2]) {
       assert(await p.locator('.room-statement, #room-example').count()===0,'Observers have neither client lines nor retry examples');
+    }
+    assert((await c.locator('#room-your-part').textContent()).includes('“I felt…”'),'Client guidance helps give experiential feedback');
+    assert((await t.locator('#room-your-part').textContent()).includes('adapt the feedback or pass'),'Therapist can adapt feedback or pass');
+    assert((await o.locator('#room-your-part').textContent()).includes('Coach the skill, not the person'),'Observer guidance keeps coaching focused');
+    for(const [p,role] of [[o,'observer'],[t,'therapist'],[c,'client']]){
+      await p.locator('#room-your-part summary').focus();await p.locator('#room-your-part summary').press('Enter');
+      assert(await p.locator('#room-your-part').evaluate(e=>e.open),'Role card opens using the keyboard');
+      await p.setViewportSize({width:320,height:700});
+      assert(await p.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),'Expanded role card has no 320px overflow');
+      await p.screenshot({path:`output/playwright/room-your-part-${role}-320.png`,fullPage:true});
+      await p.setViewportSize({width:390,height:844});
+      await p.screenshot({path:`output/playwright/room-your-part-${role}-mobile.png`,fullPage:true});
+      if(p!==t){await p.locator('#room-your-part summary').press('Enter');assert(await p.locator('#room-your-part').evaluate(e=>!e.open),'Role card closes using the keyboard');}
+      await p.evaluate(()=>document.getElementById('room-panel').scrollIntoView({block:'start'}));
     }
     assert(await c.locator('#room-example').count()===0,'Client never gets example controls');
     await t.locator('#room-example summary').click();await click(t,'room-example-reveal');
@@ -207,6 +222,7 @@ async (page) => {
     await c.waitForFunction(()=>document.getElementById('room-sync-status').textContent.includes('Connection interrupted'));
     disconnectClient=false;await syncAll();await enabled(o,'room-next');
     assert(await t.locator('.room-example-text').count()===0,'New item clears the previous example');
+    assert(await t.locator('#room-your-part').evaluate(e=>e.open),'An expanded role card stays open on the next item');
     for (let i=0;i<2;i++) {await enabled(o,'room-pass');o.once('dialog',d=>d.accept());await click(o,'room-pass');await syncAll();}
     assert(room.phase==='round_debrief'&&room.completed_ids.length===1&&room.skipped_ids.length===2,'Passed items excluded');
     assert(await o.locator('#room-header').isHidden(),'Reflection keeps the focused room layout');
@@ -264,6 +280,14 @@ async (page) => {
     assert((await c.locator('#room-role-badge').textContent()).includes('Oppleser'),'Self-awareness assigns reader role');
     assert((await t.locator('#room-content').textContent()).includes('du trenger ikke svare klienten'),'Therapist is not asked to perform a response');
     assert((await c.locator('#room-your-part').textContent()).includes('respekter det som holdes privat'),'Reader guidance retains privacy');
+    assert((await c.locator('#room-your-part').textContent()).includes('gå så ut av rollen'),'Reader steps out of role before reflecting');
+    assert((await o.locator('#room-your-part').textContent()).includes('uten tolkning eller press'),'Self-awareness coaching avoids interpretation or disclosure pressure');
+    for(const [p,role] of [[o,'observer'],[t,'therapist'],[c,'reader']]){
+      await p.locator('#room-your-part summary').click();
+      await p.screenshot({path:`output/playwright/room-your-part-${role}-no-320.png`,fullPage:true});
+      await p.locator('#room-your-part summary').click();
+      await p.evaluate(()=>document.getElementById('room-panel').scrollIntoView({block:'start'}));
+    }
     const lastAwarenessStep=await o.locator('.room-workflow li').last().boundingBox(), awarenessActions=await o.locator('#room-actions').boundingBox();
     assert(lastAwarenessStep.y+lastAwarenessStep.height<=awarenessActions.y,'Norwegian workflow fits above controls at 320px');
     await o.screenshot({path:'output/playwright/room-observer-workflow-no-320.png',fullPage:true});
@@ -292,6 +316,7 @@ async (page) => {
     await enabled(o,'room-next');await click(o,'room-next');await syncAll();
     assert(room.observer_id===null&&room.therapist_id==='o'&&room.client_id==='t','Pair roles are therapist and client');
     assert(await o.locator('.room-workflow li').count()===5&&await o.locator('#room-workflow-guide').evaluate(e=>e.open),'Pair therapist has an open five-step workflow');
+    assert(await o.locator('#room-your-part .room-role-step').count()===4&&(await o.locator('#room-your-part').textContent()).includes('Vurder deg selv etter runden'),'Pair therapist guide includes completion and self-assessment');
     assert(!(await o.locator('.room-workflow').textContent()).includes('Observatøren'),'Pair workflow omits observer coaching');
     assert(await t.locator('.room-statement').isVisible()&&await t.locator('#room-next').isHidden(),'Pair client reads; therapist controls completion');
     for(let i=0;i<3;i++){

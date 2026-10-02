@@ -24,7 +24,19 @@ const copy = {
     workflowTitle: 'The workflow', yourPart: 'Your part', afterRound: 'After 3 items',
     workflowSteps: ['Client reads the line', 'Therapist responds', 'Client gives feedback', 'Observer coaches', 'Repeat line · therapist retries', 'Rate the therapist'],
     awarenessSteps: ['Reader reads the line', 'Therapist notices their reaction', 'Reader reflects', 'Observer suggests an experiment', 'Repeat line · therapist notices again', 'Rate the therapist'],
-    roleCue: {therapist: 'Choose one change. Try again.', client: 'Stay in role. Say what helped and what missed.', observer: 'Name one strength. Suggest one change to try.', passive: 'Listen for the skill. Let the active observer guide.'},
+    skillFocus: 'Skill focus', pairGuide: ['Guide', 'Finish each item after the retry. Self-assess after the round.'],
+    roleGuide: {
+      therapist: {preview: 'Listen · respond · retry', steps: [['Respond', 'Listen to the client, then try the skill in your own words.'], ['Feedback', 'Choose a useful change; you can adapt the feedback or pass.'], ['Retry', 'Ask for the same line. Test one change.']]},
+      client: {preview: 'Read · feedback · repeat', steps: [['Read', 'Read the line aloud in the client’s voice.'], ['Feedback', 'Stay in role. Describe how it felt: “I felt…” or “It helped when…”'], ['Repeat', 'Use the same line for the retry.']]},
+      observer: {preview: 'Notice · coach · finish', steps: [['Notice', 'Listen for wording, tone and pace linked to the skill.'], ['Coach', 'One specific strength, one small experiment. Coach the skill, not the person.'], ['Finish', 'Tap Finish item after the retry. Rate the therapist after the round.']]},
+      passive: {preview: 'Watch · listen', steps: [['Watch', 'Listen for the skill and what changes on the retry.'], ['Make room', 'Let the active observer give coaching and finish the item.']]}
+    },
+    awarenessGuide: {
+      therapist: {preview: 'Notice · share · notice again', steps: [['Notice', 'Attend to your body, feelings and impulses as the line is read.'], ['Share', 'Share only what you choose; you do not need to respond to the client.'], ['Again', 'Hear the same line again. Notice what changes.']]},
+      client: {preview: 'Read · reflect · repeat', steps: [['Read', 'Read the client’s line, then step out of role.'], ['Reflect', 'Describe the pause and noticing, without interpreting the therapist.'], ['Repeat', 'Read the same line again; respect what the therapist keeps private.']]},
+      observer: {preview: 'Notice · support · finish', steps: [['Notice', 'Listen for awareness and respect for boundaries.'], ['Support', 'Offer one gentle noticing experiment, without interpretation or pressure to disclose.'], ['Finish', 'Finish after the second listen. Rate awareness, not private content.']]},
+      passive: {preview: 'Watch · respect boundaries', steps: [['Watch', 'Notice how the therapist pauses and attends to their reaction.'], ['Boundaries', 'Respect what stays private. Leave coaching to the active observer.']]}
+    },
     awarenessCue: {therapist: 'Notice your reaction; you do not need to respond to the client. Share only what you choose.', client: 'Read, then step out of role. Reflect on the pause; respect what stays private.', observer: 'Notice one strength. Suggest a gentle experiment without interpreting or asking for disclosure.', passive: 'Listen to the process. Respect what the therapist keeps private.'},
     finishNext: 'Finish item · next', finishLast: 'Finish item · reflect', forRetry: 'For the retry', beforeExample: 'Try your own response and hear feedback before opening an example.',
     example: 'See an example for the retry', exampleNote: 'An example, not an answer key. Choose one change to try.',
@@ -60,7 +72,19 @@ const copy = {
     workflowTitle: 'Slik øver dere', yourPart: 'Din del', afterRound: 'Etter 3 utsagn',
     workflowSteps: ['Klienten leser utsagnet', 'Terapeuten svarer', 'Klienten gir tilbakemelding', 'Observatøren veileder', 'Gjenta utsagnet · terapeuten prøver igjen', 'Vurder terapeuten'],
     awarenessSteps: ['Oppleseren leser utsagnet', 'Terapeuten merker sin reaksjon', 'Oppleseren reflekterer', 'Observatøren foreslår et eksperiment', 'Gjenta utsagnet · terapeuten merker på nytt', 'Vurder terapeuten'],
-    roleCue: {therapist: 'Velg én endring. Prøv igjen.', client: 'Bli i rollen. Si hva som hjalp og hva som bommet.', observer: 'Nevn én styrke. Foreslå én endring å prøve.', passive: 'Lytt etter ferdigheten. La den aktive observatøren lede.'},
+    skillFocus: 'Ferdighetsfokus', pairGuide: ['Led øvingen', 'Fullfør hvert utsagn etter det nye forsøket. Vurder deg selv etter runden.'],
+    roleGuide: {
+      therapist: {preview: 'Lytt · svar · prøv igjen', steps: [['Svar', 'Lytt til klienten, og prøv ferdigheten med dine egne ord.'], ['Tilbakemelding', 'Velg en nyttig endring; du kan tilpasse tilbakemeldingen eller stå over.'], ['Prøv igjen', 'Be om det samme utsagnet. Prøv én endring.']]},
+      client: {preview: 'Les · gi respons · gjenta', steps: [['Les', 'Les utsagnet høyt med klientens stemme.'], ['Gi respons', 'Bli i rollen. Beskriv hvordan det kjentes: «Jeg følte …» eller «Det hjalp da …»'], ['Gjenta', 'Bruk det samme utsagnet ved det nye forsøket.']]},
+      observer: {preview: 'Legg merke til · veiled · fullfør', steps: [['Legg merke til', 'Lytt etter ordvalg, tone og tempo knyttet til ferdigheten.'], ['Veiled', 'Én konkret styrke, ett lite eksperiment. Veiled ferdigheten, ikke personen.'], ['Fullfør', 'Trykk Fullfør etter det nye forsøket. Vurder terapeuten etter runden.']]},
+      passive: {preview: 'Følg med · lytt', steps: [['Følg med', 'Lytt etter ferdigheten og hva som endrer seg ved det nye forsøket.'], ['Gi plass', 'La den aktive observatøren veilede og fullføre utsagnet.']]}
+    },
+    awarenessGuide: {
+      therapist: {preview: 'Merk · del · merk på nytt', steps: [['Merk', 'Legg merke til kropp, følelser og impulser mens utsagnet leses.'], ['Del', 'Del bare det du selv velger; du trenger ikke svare klienten.'], ['På nytt', 'Lytt til det samme utsagnet igjen. Merk hva som endrer seg.']]},
+      client: {preview: 'Les · reflekter · gjenta', steps: [['Les', 'Les klientens utsagn, og gå så ut av rollen.'], ['Reflekter', 'Beskriv pausen og oppmerksomheten, uten å tolke terapeuten.'], ['Gjenta', 'Les det samme utsagnet igjen; respekter det som holdes privat.']]},
+      observer: {preview: 'Merk · støtt · fullfør', steps: [['Merk', 'Lytt etter bevissthet og respekt for grenser.'], ['Støtt', 'Foreslå ett varsomt eksperiment, uten tolkning eller press om å dele.'], ['Fullfør', 'Fullfør etter den andre lyttingen. Vurder bevissthet, ikke privat innhold.']]},
+      passive: {preview: 'Følg med · respekter grenser', steps: [['Følg med', 'Legg merke til hvordan terapeuten stopper opp og merker egen reaksjon.'], ['Grenser', 'Respekter det som holdes privat. La den aktive observatøren veilede.']]}
+    },
     awarenessCue: {therapist: 'Merk din reaksjon; du trenger ikke svare klienten. Del bare det du selv velger.', client: 'Les, og gå så ut av rollen. Reflekter over pausen; respekter det som holdes privat.', observer: 'Legg merke til én styrke. Foreslå et varsomt eksperiment uten å tolke eller be om utlevering.', passive: 'Lytt til prosessen. Respekter det terapeuten holder privat.'},
     finishNext: 'Fullfør · neste utsagn', finishLast: 'Fullfør · reflekter', forRetry: 'Til det nye forsøket', beforeExample: 'Prøv din egen respons og lytt til tilbakemelding før du åpner et eksempel.',
     example: 'Se et eksempel før du prøver igjen', exampleNote: 'Et eksempel, ikke en fasit. Velg én endring å prøve.',
@@ -135,6 +159,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
   let creating = null;
   let busy = false;
   let contentKey = '';
+  const roleGuideOpen = new Map();
   const strings = () => copy[language] ?? copy.en;
   const read = key => { try { return JSON.parse(localStorage.getItem(key)); } catch { return null; } };
   const write = (key, value) => { try { value === null ? localStorage.removeItem(key) : localStorage.setItem(key, JSON.stringify(value)); } catch { /* In-memory sync still works. */ } };
@@ -236,11 +261,28 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
           if (index === 5) { item.className = 'room-workflow-rating'; label.append(node('small', s.afterRound)); }
           item.append(node('span', String(number + 1), 'room-workflow-number'), label); sequence.append(item);
         });
-        guide.append(sequence); body.append(guide);
-        const part = node('details'); part.id = 'room-your-part';
-        part.append(node('summary', s.yourPart), node('p', (self ? s.awarenessCue : s.roleCue)[role]));
-        if (['observer','passive'].includes(role)) part.append(node('aside', skill.practiceFocus, 'individual-guide'));
-        body.append(part);
+        guide.append(sequence);
+        const roleGuide = (self ? s.awarenessGuide : s.roleGuide)[role];
+        const part = node('details', '', 'room-role-guide'); part.id = 'room-your-part';
+        const guideKey = `${self ? 'awareness' : 'skill'}:${role}`;
+        part.open = roleGuideOpen.get(guideKey) ?? false;
+        part.addEventListener('toggle', () => roleGuideOpen.set(guideKey, part.open));
+        const summary = node('summary'), heading = node('span');
+        heading.append(node('strong', s.yourPart), node('small', roleGuide.preview)); summary.append(heading); part.append(summary);
+        const guideBody = node('div', '', 'room-role-guide-body');
+        if (['observer','passive'].includes(role)) {
+          const focus = node('div', '', 'room-role-guide-focus');
+          focus.append(node('strong', s.skillFocus), node('p', skill.practiceFocus)); guideBody.append(focus);
+        }
+        const steps = node('dl', '', 'room-role-steps');
+        const roleSteps = [...roleGuide.steps];
+        if (!next.observer_id && role === 'therapist') roleSteps.push(s.pairGuide);
+        roleSteps.forEach(([title, instruction]) => {
+          const step = node('div', '', 'room-role-step'); step.append(node('dt', title), node('dd', instruction)); steps.append(step);
+        });
+        guideBody.append(steps); part.append(guideBody);
+        if (['observer','passive'].includes(role) || (!next.observer_id && role === 'therapist')) body.append(guide, part);
+        else body.append(part, guide);
         if (role === 'therapist') {
           const example = node('details'); example.id = 'room-example';
           example.append(node('summary', s.forRetry), node('p', s.beforeExample));
