@@ -4,14 +4,14 @@ export const GROUP_PRACTICE_COPY = {
     reflection: {therapist: 'Which change helped?', client: 'What changed on the retry?', observer: 'One strength. One next practice target.', passive: 'What did you notice about the skill?'},
     awarenessReflection: {therapist: 'What did you notice? Share only what you choose.', client: 'How did the group respect privacy?', observer: 'One moment of awareness. One gentle next experiment.', passive: 'What helped the therapist notice without pressure?'},
     derole: 'Step out of role. Say your own names and pause.', nextFocus: 'Choose the next challenge',
-    workflowTitle: 'The workflow', yourPart: 'Your part', afterRound: 'After 3 items',
+    workflowTitle: 'The workflow', yourPart: 'Your part', afterRound: 'After every 3 items',
     workflowSteps: ['Client reads the line', 'Therapist responds', 'Client gives feedback', 'Observer coaches', 'Repeat line · therapist retries', 'Rate the therapist'],
     awarenessSteps: ['Reader reads the line', 'Therapist notices their reaction', 'Reader reflects', 'Observer suggests an experiment', 'Repeat line · therapist notices again', 'Rate the therapist'],
-    skillFocus: 'Skill focus', pairGuide: ['Guide', 'Finish each item after the retry. Self-assess after the round.'],
+    skillFocus: 'Skill focus', pairGuide: ['Guide', 'Finish each item after the retry. Self-assess after each set of three.'],
     roleGuide: {
       therapist: {preview: 'Listen · respond · retry', steps: [['Respond', 'Listen to the client, then try the skill in your own words.'], ['Feedback', 'Choose a useful change; you can adapt the feedback or pass.'], ['Retry', 'Ask for the same line. Test one change.']]},
       client: {preview: 'Read · feedback · repeat', steps: [['Read', 'Read the line aloud in the client’s voice.'], ['Feedback', 'Stay in role. Describe how it felt: “I felt…” or “It helped when…”'], ['Repeat', 'Use the same line for the retry.']]},
-      observer: {preview: 'Notice · coach · finish', steps: [['Notice', 'Listen for wording, tone and pace linked to the skill.'], ['Coach', 'One specific strength, one small experiment. Coach the skill, not the person.'], ['Finish', 'Tap Finish item after the retry. Rate the therapist after the round.']]},
+      observer: {preview: 'Notice · coach · finish', steps: [['Notice', 'Listen for wording, tone and pace linked to the skill.'], ['Coach', 'One specific strength, one small experiment. Coach the skill, not the person.'], ['Finish', 'Tap Finish item after the retry. Rate the therapist after each set of three.']]},
       passive: {preview: 'Watch · listen', steps: [['Watch', 'Listen for the skill and what changes on the retry.'], ['Make room', 'Let the active observer give coaching and finish the item.']]}
     },
     awarenessGuide: {
@@ -21,21 +21,21 @@ export const GROUP_PRACTICE_COPY = {
       passive: {preview: 'Watch · respect boundaries', steps: [['Watch', 'Notice how the therapist pauses and attends to their reaction.'], ['Boundaries', 'Respect what stays private. Leave coaching to the active observer.']]}
     },
     awarenessCue: {therapist: 'Notice your reaction; you do not need to respond to the client. Share only what you choose.', client: 'Read, then step out of role. Reflect on the pause; respect what stays private.', observer: 'Notice one strength. Suggest a gentle experiment without interpreting or asking for disclosure.', passive: 'Listen to the process. Respect what the therapist keeps private.'},
-    finishNext: 'Finish item · next', finishLast: 'Finish item · reflect', beforeExample: 'Optional, after your own attempt and feedback.',
+    finishNext: 'Finish item · next', finishLast: 'Finish item · rate set', beforeExample: 'Optional, after your own attempt and feedback.',
     example: 'See an example', hideExample: 'Hide example', exampleNote: 'An example, not an answer key. Choose one change to try.',
   },
   no: {
     reflection: {therapist: 'Hvilken endring hjalp?', client: 'Hva endret seg ved det nye forsøket?', observer: 'Én styrke. Ett neste øvingsmål.', passive: 'Hva la du merke til ved ferdigheten?'},
     awarenessReflection: {therapist: 'Hva la du merke til? Del bare det du selv velger.', client: 'Hvordan ivaretok gruppen privatlivet?', observer: 'Ett øyeblikk med bevissthet. Ett varsomt neste eksperiment.', passive: 'Hva hjalp terapeuten å legge merke til uten press?'},
     derole: 'Gå ut av rollen. Si deres egne navn og ta en pause.', nextFocus: 'Velg neste utfordring',
-    workflowTitle: 'Slik øver dere', yourPart: 'Din del', afterRound: 'Etter 3 utsagn',
+    workflowTitle: 'Slik øver dere', yourPart: 'Din del', afterRound: 'Etter hvert tredje utsagn',
     workflowSteps: ['Klienten leser utsagnet', 'Terapeuten svarer', 'Klienten gir tilbakemelding', 'Observatøren veileder', 'Gjenta utsagnet · terapeuten prøver igjen', 'Vurder terapeuten'],
     awarenessSteps: ['Oppleseren leser utsagnet', 'Terapeuten merker sin reaksjon', 'Oppleseren reflekterer', 'Observatøren foreslår et eksperiment', 'Gjenta utsagnet · terapeuten merker på nytt', 'Vurder terapeuten'],
-    skillFocus: 'Ferdighetsfokus', pairGuide: ['Led øvingen', 'Fullfør hvert utsagn etter det nye forsøket. Vurder deg selv etter runden.'],
+    skillFocus: 'Ferdighetsfokus', pairGuide: ['Led øvingen', 'Fullfør hvert utsagn etter det nye forsøket. Vurder deg selv etter hvert sett med tre.'],
     roleGuide: {
       therapist: {preview: 'Lytt · svar · prøv igjen', steps: [['Svar', 'Lytt til klienten, og prøv ferdigheten med dine egne ord.'], ['Tilbakemelding', 'Velg en nyttig endring; du kan tilpasse tilbakemeldingen eller stå over.'], ['Prøv igjen', 'Be om det samme utsagnet. Prøv én endring.']]},
       client: {preview: 'Les · gi respons · gjenta', steps: [['Les', 'Les utsagnet høyt med klientens stemme.'], ['Gi respons', 'Bli i rollen. Beskriv hvordan det kjentes: «Jeg følte …» eller «Det hjalp da …»'], ['Gjenta', 'Bruk det samme utsagnet ved det nye forsøket.']]},
-      observer: {preview: 'Legg merke til · veiled · fullfør', steps: [['Legg merke til', 'Lytt etter ordvalg, tone og tempo knyttet til ferdigheten.'], ['Veiled', 'Én konkret styrke, ett lite eksperiment. Veiled ferdigheten, ikke personen.'], ['Fullfør', 'Trykk Fullfør etter det nye forsøket. Vurder terapeuten etter runden.']]},
+      observer: {preview: 'Legg merke til · veiled · fullfør', steps: [['Legg merke til', 'Lytt etter ordvalg, tone og tempo knyttet til ferdigheten.'], ['Veiled', 'Én konkret styrke, ett lite eksperiment. Veiled ferdigheten, ikke personen.'], ['Fullfør', 'Trykk Fullfør etter det nye forsøket. Vurder terapeuten etter hvert sett med tre.']]},
       passive: {preview: 'Følg med · lytt', steps: [['Følg med', 'Lytt etter ferdigheten og hva som endrer seg ved det nye forsøket.'], ['Gi plass', 'La den aktive observatøren veilede og fullføre utsagnet.']]}
     },
     awarenessGuide: {
@@ -45,7 +45,7 @@ export const GROUP_PRACTICE_COPY = {
       passive: {preview: 'Følg med · respekter grenser', steps: [['Følg med', 'Legg merke til hvordan terapeuten stopper opp og merker egen reaksjon.'], ['Grenser', 'Respekter det som holdes privat. La den aktive observatøren veilede.']]}
     },
     awarenessCue: {therapist: 'Merk din reaksjon; du trenger ikke svare klienten. Del bare det du selv velger.', client: 'Les, og gå så ut av rollen. Reflekter over pausen; respekter det som holdes privat.', observer: 'Legg merke til én styrke. Foreslå et varsomt eksperiment uten å tolke eller be om utlevering.', passive: 'Lytt til prosessen. Respekter det terapeuten holder privat.'},
-    finishNext: 'Fullfør · neste utsagn', finishLast: 'Fullfør · reflekter', beforeExample: 'Valgfritt, etter eget forsøk og tilbakemelding.',
+    finishNext: 'Fullfør · neste utsagn', finishLast: 'Fullfør · vurder settet', beforeExample: 'Valgfritt, etter eget forsøk og tilbakemelding.',
     example: 'Se et eksempel', hideExample: 'Skjul eksempelet', exampleNote: 'Et eksempel, ikke en fasit. Velg én endring å prøve.',
   },
 };

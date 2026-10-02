@@ -71,7 +71,7 @@ async (page) => {
     if(mode === 'triad') await page.locator('#shared-device').check();
     assert(await page.locator('#group-room-actions').isHidden() === (mode !== 'group'), 'Only separate-device groups offer room entry');
     await page.locator(`[data-language-id="${language}"]`).click();
-    await page.locator(`[data-skill-id="${skill}"]`).click();
+    await page.locator(`button[data-skill-id="${skill}"]`).click();
     await page.locator('[data-case-id="case-sara"]').click();
     assert(await page.locator('#practice-format').isHidden(), 'Case preparation does not repeat the format decision');
     await click('start-practice');
@@ -133,7 +133,7 @@ async (page) => {
   assert(!(await visible('toggle-suggestion')), 'Shared groups use the inline therapist retry example');
   assert(await page.locator('#shared-workflow .room-workflow li').count() === 6, 'Shared groups use the room six-step workflow');
   assert((await page.locator('#shared-workflow li').first().textContent()).includes('Client reads'), 'The client opens the shared workflow');
-  assert((await page.locator('#shared-workflow li').last().textContent()).includes('After 3 items'), 'Rating follows three shared items');
+  assert((await page.locator('#shared-workflow li').last().textContent()).includes('After every 3 items'), 'Rating follows three shared items');
   assert(await page.locator('#shared-group-guidance .room-role-guide').count() === 3, 'A shared device offers all three roles');
   for (const width of [320,390,600]) {
     await page.setViewportSize({width,height:844});
@@ -163,10 +163,22 @@ async (page) => {
   assert(await visible('triad-debrief'), 'Resolved group round must reach debrief');
   assert((await text('triad-debrief-counts')).includes('1 practiced · 2 passed'), 'Passes must be separated from completion');
   await click('triad-complete-round');
-  assert(await session() === null, 'Completed group round must not be saved as active');
+  assert((await session()).roundId === firstRound.roundId, 'A rating checkpoint retains the complete group round');
+  await click('rating-skip');
+  for (let set=1;set<4;set++) {
+    assert((await session()).index === set*3, 'Next set continues the same order');
+    for (let i=0;i<3;i++) await click('next-statement');
+    assert((await text('triad-debrief-counts')).includes('3 practiced · 0 passed'), 'Each debrief counts only its current set');
+    await click('triad-complete-round');
+    if (set<3) await click('rating-skip');
+  }
   await page.screenshot({ path: 'output/playwright/release-completion-mobile.png', fullPage: true });
-  await click('repeat-round');
-  assert(await visible('case-brief-screen'), 'Rotation should return to setup');
+  await click('rating-skip');
+  assert(await session() === null, 'The final checkpoint clears the complete group round');
+  assert(await visible('skill-selection'), 'A complete group round returns to skill selection');
+  await page.locator('button[data-skill-id="empathic-understanding"]').click();
+  await page.locator('[data-case-id="case-sara"]').click();
+  assert(await visible('case-brief-screen'), 'Next group round allows a new case');
   assert(!(await page.locator('input[name="practice-mode"]').first().isDisabled()), 'New round format must be editable');
   await click('start-practice');
   await click('view-case-brief');
@@ -178,10 +190,12 @@ async (page) => {
   await page.locator('#practice-area').waitFor();
   assert(await visible('case-brief-screen'), 'Paused brief must restore without losing the round');
   await click('start-practice');
-  for (let i = 0; i < 3; i++) { await click('triad-pass-item'); await click('triad-pass-confirm'); }
-  await click('triad-complete-round');
-  assert((await text('round-outcome')).includes('0 practiced · 3 passed'), 'All-pass rounds must not claim practice');
-  await click('rating-skip');
+  for (let set=0;set<4;set++) {
+    for (let i=0;i<3;i++) {await click('triad-pass-item');await click('triad-pass-confirm');}
+    await click('triad-complete-round');
+    assert((await text('round-outcome')).includes('0 practiced · 3 passed'), 'All-pass sets must not claim practice');
+    await click('rating-skip');
+  }
   console.log('PASS shared workflow, bounded controls, legacy order restoration, reveal, pass, debrief, rotation, all-pass finish');
 
   await page.reload();
@@ -225,7 +239,7 @@ async (page) => {
   await page.waitForFunction(() => document.querySelector('#account-button').textContent === 'Account');
   await page.locator('input[name="practice-mode"][value="individual"]').check();
   await page.locator('[data-language-id="en"]').click();
-  await page.locator('[data-skill-id="empathic-understanding"]').click();
+  await page.locator('button[data-skill-id="empathic-understanding"]').click();
   await page.locator('[data-case-id="case-sara"]').click();
   assert(await page.locator('#start-practice').isDisabled(), 'A signed-in round must wait for its therapist target');
   assert((await text('round-target-note')).includes('Loading account'), 'Account loading must explain why practice cannot start yet');
@@ -280,9 +294,30 @@ async (page) => {
   assert(saves.at(-1).practiceMode === 'triad' && saves.at(-1).ratingRubric === 'group-skill-v2' && saves.at(-1).source === 'self' && saves.at(-1).therapistUserId === 'test-self'
     && saves.at(-1).itemCount === 1, 'Shared-device assessment must save to this account with completed items only');
   await click('rating-skip');
+  await setup('en', 'empathic-understanding', 'triad');
+  const completeGroup = await session(), ratingStart = saves.length;
+  for (let set=0;set<4;set++) {
+    for(let i=0;i<3;i++) await click('next-statement');
+    await click('triad-complete-round');
+    await page.locator('[data-rating-score="4"]').click();await click('rating-submit');
+    await page.waitForFunction(()=>document.querySelector('#rating-status').textContent==='Rating saved.');
+    const savedSet = await session();
+    assert(savedSet.roundId===completeGroup.roundId && savedSet.groupRatingSaved, 'The complete round and saved checkpoint survive');
+    if(set===1) {
+      await page.reload();await click('resume-button');await click('triad-complete-round');
+      assert(await page.locator('#rating-submit').isHidden(), 'Reload preserves a saved set without offering another save');
+    }
+    await click('rating-skip');
+  }
+  const groupSaves=saves.slice(ratingStart);
+  assert(groupSaves.length===4 && new Set(groupSaves.map(r=>r.roundId)).size===4, 'Four sets save four distinct ratings');
+  assert(groupSaves.every((r,i)=>r.itemCount===3 && JSON.stringify(r.completedStatementIds)===JSON.stringify(completeGroup.roundStatementIds.slice(i*3,i*3+3))), 'Each shared rating covers only its three items');
+  assert(await session()===null && await visible('skill-selection'), 'After twelve shared items choose roles, skill and case again');
   // A paused round from the old pairing flow keeps its captured therapist.
   await page.evaluate(round=>{
     round.roundId=crypto.randomUUID();
+    round.roundStatementIds=round.roundStatementIds.slice(0,3);
+    round.orderIds=round.roundStatementIds;
     round.roundTarget={target_user_id:'test-partner',display_name:'Test Partner',target_kind:'observer',partnership_id:'test-pair'};
     localStorage.setItem('dp_practice_session_v1',JSON.stringify(round));
   },legacySharedRound);

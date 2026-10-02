@@ -8,7 +8,8 @@
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "npm run validate:content && node --test tests/*.test.js",
+    "test": "npm run validate:content && node --test tests/*.test.js && npm run test:rooms:db",
+    "test:rooms:db": "node scripts/check-local-room-db.mjs",
     "test:triad": "node --test tests/triadProtocol.test.js",
     "build:content": "node scripts/build-content-artifacts.mjs && node scripts/build-practice-runtime.mjs",
     "build:runtime": "node scripts/build-practice-runtime.mjs",
@@ -19,6 +20,7 @@
     "check:backend": "node scripts/check-backend.mjs"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "^0.5.8",
     "vite": "^6.4.1"
   },
   "dependencies": {
