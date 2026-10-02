@@ -238,8 +238,22 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
         if (next.round_interrupted) body.append(node('p', s.interrupted, 'response-hint'));
         const prep = node('section', '', 'room-preparation');
         if (role === 'client') {
+          prep.classList.add('room-client-preparation');
           prep.append(node('p', caseData.teaser || caseData.history));
-          if (caseData.style) prep.append(node('p', caseData.style, 'response-hint'));
+          const background = node('section', '', 'case-brief-section');
+          background.append(node('h4', ui.roleBriefHeading, 'case-section-title'));
+          const facts = node('dl', '', 'case-role-list');
+          for (const [label, value] of [[ui.schemaLabel, caseData.schema], [ui.corePainLabel, caseData.corePain], [ui.styleLabel, caseData.style], [ui.casePracticeEdgeLabel, caseData.practiceEdge]]) {
+            if (!value?.trim()) continue;
+            const fact = node('div', '', 'case-role-item');
+            fact.append(node('dt', label), node('dd', value)); facts.append(fact);
+          }
+          background.append(facts); prep.append(background);
+          const voice = caseData.voice || caseData.history;
+          if (voice?.trim()) {
+            const section = node('section', '', 'case-voice-section');
+            section.append(node('h4', ui.clientVoiceHeading, 'case-section-title'), node('p', voice)); prep.append(section);
+          }
         } else prep.append(node('p', skill.practiceFocus));
         prep.append(node('p', self ? s.awarenessCue[role] : !next.observer_id && role === 'therapist' ? s.pairPreparation : s.prepCue[role], 'room-preparation-cue'));
         if (self && !next.observer_id && role === 'therapist') prep.append(node('p', s.pairPreparation, 'room-preparation-cue'));

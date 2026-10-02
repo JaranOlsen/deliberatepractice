@@ -2118,6 +2118,9 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 .room-preparation p:first-child { margin-top: 0; }
 .room-preparation p:last-child { margin-bottom: 0; }
 .room-preparation-cue { color: var(--color-muted); }
+.room-client-preparation > .case-brief-section, .room-client-preparation > .case-voice-section { margin-top: 1.25rem; }
+#room-content .room-client-preparation .case-section-title { margin: 0; font-size: .85rem; }
+.room-client-preparation > .room-preparation-cue { padding-top: .75rem; border-top: 1px solid var(--color-border); }
 .room-statement { font-size: 1.1rem; margin: 1rem 0; }
 .room-actions { margin: .5rem 0 0; }
 .room-actions button, #room-choose, #room-save { min-height: 48px; }

@@ -144,14 +144,18 @@ async (page) => {
     for(const p of pages){
       assert(await p.locator('#room-header').isHidden(),'Preparation omits the duplicate group heading and library shortcut');
       assert(await p.locator('#room-details').evaluate(e=>!e.open),'Preparation folds away room administration');
-      assert(await p.locator('#room-content h4').count()===0,'Preparation has no repeated headings');
-      assert(await p.locator('.room-preparation p').count()===(p===c?3:2),'Preparation contains only role context and a short cue');
+      assert(await p.locator('#room-content h4').count()===(p===c?2:0),'Only the client has role-background and voice headings');
+      assert(await p.locator('.room-preparation p').count()===(p===c?3:2),'Preparation contains role context and a short cue');
       await p.setViewportSize({width:320,height:700});
       assert(await p.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),'Preparation has no 320px overflow');
+      if(p===c)await p.screenshot({path:'output/playwright/room-client-background-en-320.png',fullPage:true});
       await p.setViewportSize({width:390,height:844});
     }
     assert((await c.locator('.room-preparation').textContent()).includes('Soft, even tone'),'Client keeps a concise role delivery cue');
-    assert(!(await c.locator('.room-preparation').textContent()).includes("Hi, I'm Sara"),'Client preparation omits the long case monologue');
+    assert((await c.locator('.room-preparation').textContent()).includes("Hi, I'm Sara"),'Client sees the full client voice before the round');
+    assert(await c.locator('.room-client-preparation .case-role-item').count()===4,'Client sees schema, core pain, style and listening cues');
+    assert((await c.locator('.room-client-preparation').textContent()).includes('If I am not perfect or needed'),'Client sees the case formulation');
+    for(const p of [o,t,watcher1,watcher2])assert(await p.locator('.room-preparation .case-brief-section, .room-preparation .case-voice-section').count()===0,'Other roles retain focused preparation');
     assert(!(await t.locator('.room-preparation').textContent()).includes('Marketing associate'),'Therapist preparation contains the skill, not the case dossier');
     assert((await o.locator('.room-preparation').textContent()).includes('Guide the round'),'Active observer knows to guide');
     assert((await watcher1.locator('.room-preparation').textContent()).includes('Let the active observer guide'),'Watching observer receives a watching cue');
@@ -275,6 +279,8 @@ async (page) => {
     await syncAll();
     assert((await t.locator('.room-preparation').textContent()).includes('du trenger ikke svare klienten'),'Self-awareness preparation permits noticing without responding');
     assert((await c.locator('.room-preparation').textContent()).includes('respekter det som holdes privat'),'Reader preparation preserves privacy');
+    assert((await c.locator('.room-client-preparation').textContent()).includes('Rollebakgrunn')&&(await c.locator('.room-client-preparation').textContent()).includes('Klientens stemme'),'Reader sees localized case background and voice');
+    await c.screenshot({path:'output/playwright/room-client-background-no-320.png',fullPage:true});
     await o.screenshot({path:'output/playwright/room-preparation-observer-no-320.png',fullPage:true});
     await enabled(o,'room-next'); await click(o,'room-next'); await syncAll();
     assert((await c.locator('#room-role-badge').textContent()).includes('Oppleser'),'Self-awareness assigns reader role');
