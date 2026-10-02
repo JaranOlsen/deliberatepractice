@@ -14,12 +14,12 @@ const copy = {
     waiting: 'Waiting for the therapist, client and active observer to display this step', ready: 'Ready · devices are in sync',
     reconnect: 'Connection interrupted. Reconnecting… The round waits until everyone is up to date.',
     sync: 'Sync now', retry: 'Retry last action', loading: 'Loading the shared round…',
-    lobby: 'Prepare together', start: 'Start round', advance: 'Continue to next step', finishItem: 'Finish item',
+    lobby: 'Get ready', start: 'Start round', advance: 'Continue to next step', finishItem: 'Finish item',
+    prepCue: {therapist: 'Listen, then respond in your own words.', client: 'Read the lines in role. Repeat for the retry.', observer: 'Guide the round. Name one strength and one change to try.', passive: 'Listen for the skill. Let the active observer guide.'},
+    pairPreparation: 'Start when you’re both ready. Finish each item after the retry.', observerStarts: 'The observer starts the round.', therapistStarts: 'The therapist starts the round.',
     pass: 'Pass this item', confirmPass: 'Pass this item for everyone? It will not count as practiced.',
     rotate: 'Next round · rotate roles', end: 'End room for everyone', confirmEnd: 'End this group session for everyone?',
     ended: 'This group session has ended.', expired: 'This room has expired. Create a new room to continue.',
-    read: 'Read this line aloud in the client role. Repeat it when the therapist is ready to retry.',
-    reader: 'Read this line aloud, then step out of the client role. Respect what the therapist chooses to keep private.',
     workflowTitle: 'The workflow', yourPart: 'Your part', afterRound: 'After 3 items',
     workflowSteps: ['Client reads the line', 'Therapist responds', 'Client gives feedback', 'Observer coaches', 'Repeat line · therapist retries', 'Rate the therapist'],
     awarenessSteps: ['Reader reads the line', 'Therapist notices their reaction', 'Reader reflects', 'Observer suggests an experiment', 'Repeat line · therapist notices again', 'Rate the therapist'],
@@ -31,7 +31,7 @@ const copy = {
     save: 'Save skill rating', saved: 'Skill rating saved to the therapist’s group progress',
     score: 'Therapist’s use of the selected skill', noItems: 'Every item was passed. No rating will be saved.',
     participantWaiting: 'Not joined', participantSyncing: 'Catching up', participantReady: 'Up to date',
-    participantOffline: 'Connection lost', brief: 'Your preparation', newRoom: 'Join another room',
+    participantOffline: 'Connection lost', newRoom: 'Join another room',
     failedContent: 'This room uses a different or unavailable content version. Refresh the app and sync again.',
     scale: '1 = Not yet demonstrated · 2 = Emerging with guidance · 3 = Adequate in parts · 4 = Well demonstrated · 5 = Skillfully demonstrated'
   },
@@ -45,12 +45,12 @@ const copy = {
     waiting: 'Venter på at terapeuten, klienten og den aktive observatøren viser dette steget', ready: 'Klar · enhetene er synkronisert',
     reconnect: 'Forbindelsen er brutt. Kobler til igjen… Runden venter til alle er oppdatert.',
     sync: 'Synkroniser nå', retry: 'Prøv siste handling igjen', loading: 'Laster den felles runden…',
-    lobby: 'Forbered dere sammen', start: 'Start runden', advance: 'Fortsett til neste steg', finishItem: 'Fullfør utsagnet',
+    lobby: 'Gjør deg klar', start: 'Start runden', advance: 'Fortsett til neste steg', finishItem: 'Fullfør utsagnet',
+    prepCue: {therapist: 'Lytt, og svar med dine egne ord.', client: 'Les utsagnene i rollen. Gjenta ved det nye forsøket.', observer: 'Led runden. Nevn én styrke og én endring å prøve.', passive: 'Lytt etter ferdigheten. La den aktive observatøren lede.'},
+    pairPreparation: 'Start når dere begge er klare. Fullfør hvert utsagn etter det nye forsøket.', observerStarts: 'Observatøren starter runden.', therapistStarts: 'Terapeuten starter runden.',
     pass: 'Stå over utsagnet', confirmPass: 'Stå over utsagnet for alle? Det telles ikke som øvd.',
     rotate: 'Neste runde · roter roller', end: 'Avslutt rommet for alle', confirmEnd: 'Avslutte gruppeøkten for alle?',
     ended: 'Gruppeøkten er avsluttet.', expired: 'Rommet har utløpt. Opprett et nytt rom for å fortsette.',
-    read: 'Les utsagnet høyt i klientrollen. Gjenta det når terapeuten er klar til å prøve igjen.',
-    reader: 'Les utsagnet høyt, og gå så ut av klientrollen. Respekter det terapeuten velger å holde privat.',
     workflowTitle: 'Slik øver dere', yourPart: 'Din del', afterRound: 'Etter 3 utsagn',
     workflowSteps: ['Klienten leser utsagnet', 'Terapeuten svarer', 'Klienten gir tilbakemelding', 'Observatøren veileder', 'Gjenta utsagnet · terapeuten prøver igjen', 'Vurder terapeuten'],
     awarenessSteps: ['Oppleseren leser utsagnet', 'Terapeuten merker sin reaksjon', 'Oppleseren reflekterer', 'Observatøren foreslår et eksperiment', 'Gjenta utsagnet · terapeuten merker på nytt', 'Vurder terapeuten'],
@@ -62,7 +62,7 @@ const copy = {
     save: 'Lagre ferdighetsvurdering', saved: 'Ferdighetsvurderingen er lagret i terapeutens gruppefremgang',
     score: 'Terapeutens bruk av den valgte ferdigheten', noItems: 'Alle utsagn ble stått over. Ingen vurdering lagres.',
     participantWaiting: 'Ikke med ennå', participantSyncing: 'Henter siste steg', participantReady: 'Oppdatert',
-    participantOffline: 'Mistet forbindelsen', brief: 'Din forberedelse', newRoom: 'Bli med i et annet rom',
+    participantOffline: 'Mistet forbindelsen', newRoom: 'Bli med i et annet rom',
     failedContent: 'Rommet bruker en annen eller utilgjengelig innholdsversjon. Last appen på nytt og synkroniser igjen.',
     scale: '1 = Ikke vist ennå · 2 = På vei med veiledning · 3 = Tilfredsstillende i deler · 4 = Godt demonstrert · 5 = Svært godt demonstrert'
   }
@@ -174,11 +174,11 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     const s = strings(), ui = getStrings(language);
     const self = next.skill_id === 'therapist-self-awareness';
     const active = ['practicing','first_attempt','client_feedback','observer_feedback','retry'].includes(next.phase);
-    el('header').hidden = active && !ended;
+    el('header').hidden = (active || next.phase === 'lobby') && !ended;
     const body = el('content');
     text('role-badge', `${s.role}: ${role === 'client' && self ? ui.selfAwarenessReaderRole : s[role]}`);
     if (ended) { write(roomKey(), null); text('role-badge', ''); }
-    if (!contentKey || contentKey.split(':')[1] !== next.phase) el('details').open = ['choosing','lobby'].includes(next.phase);
+    if (!contentKey || contentKey.split(':')[1] !== next.phase) el('details').open = next.phase === 'choosing';
     const key = `${next.round_id}:${next.phase}:${next.item_index}:${role}:${next.observer_id ?? 'pair'}:${next.skill_id}:${next.case_id}`;
     // Presence refreshes never rebuild the screen or steal keyboard focus.
     if (key !== contentKey) {
@@ -191,11 +191,15 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       } else if (next.phase === 'choosing') {
         body.append(node('h3', s.choosing), node('p', next.host_id === userId ? s.hubIntro : s.waitingForHost));
       } else if (next.phase === 'lobby') {
-        body.append(node('h4', `${s.round} ${next.round_number} · ${s.lobby}`), node('p', next.round_interrupted ? s.interrupted : ''));
+        body.append(node('p', `${s.round} ${next.round_number} · ${s.lobby}`, 'triad-progress'));
+        if (next.round_interrupted) body.append(node('p', s.interrupted, 'response-hint'));
         const prep = node('section', '', 'room-preparation');
-        prep.append(node('h4', s.brief));
-        if (role === 'client') prep.append(node('p', caseData.teaser), node('p', caseData.voice || caseData.history), node('p', self ? s.reader : s.read));
-        else prep.append(node('p', skill.practiceFocus), node('p', skill.commonMiss), node('p', ui.triadGuideBoundary));
+        if (role === 'client') {
+          prep.append(node('p', caseData.teaser || caseData.history));
+          if (caseData.style) prep.append(node('p', caseData.style, 'response-hint'));
+        } else prep.append(node('p', skill.practiceFocus));
+        prep.append(node('p', self ? s.awarenessCue[role] : !next.observer_id && role === 'therapist' ? s.pairPreparation : s.prepCue[role], 'room-preparation-cue'));
+        if (self && !next.observer_id && role === 'therapist') prep.append(node('p', s.pairPreparation, 'room-preparation-cue'));
         body.append(prep);
       } else if (active) {
         body.append(node('p', `${s.round} ${next.round_number} · ${s.item} ${next.item_index + 1}/3`, 'triad-progress'));
@@ -266,7 +270,8 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     const ended = snapshot.phase === 'closed' || Date.parse(snapshot.expires_at) <= Date.now();
     const waiting = !snapshot.observer_id ? (language === 'no' ? 'Venter på at terapeuten og klienten viser dette steget' : 'Waiting for the therapist and client to display this step') : s.waiting;
     text('sync-status', ended ? Date.parse(snapshot.expires_at) <= Date.now() ? s.expired : s.ended
-      : !fresh ? s.reconnect : snapshot.phase === 'choosing' ? (snapshot.host_id === userId ? s.choosing : s.waitingForHost) : roomEveryoneReady(snapshot) ? s.ready : waiting);
+      : !fresh ? s.reconnect : snapshot.phase === 'choosing' ? (snapshot.host_id === userId ? s.choosing : s.waitingForHost)
+        : !roomEveryoneReady(snapshot) ? waiting : snapshot.phase === 'lobby' && userId !== (snapshot.observer_id ?? snapshot.therapist_id) ? snapshot.observer_id ? s.observerStarts : s.therapistStarts : s.ready);
     text('error', error);
     const ids = snapshot.member_ids ?? ['therapist', 'client', 'observer'].map(r => snapshot[`${r}_id`]).filter(Boolean);
     const members = ids.map((id, index) => {

@@ -2115,6 +2115,9 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 #room-content .triad-progress { font-size: .8rem; margin: .5rem 0; }
 #room-content .room-preparation { padding: .75rem; border-radius: .75rem; background: #f3f7f5; }
 .room-preparation p { font-size: .95rem; }
+.room-preparation p:first-child { margin-top: 0; }
+.room-preparation p:last-child { margin-bottom: 0; }
+.room-preparation-cue { color: var(--color-muted); }
 .room-statement { font-size: 1.1rem; margin: 1rem 0; }
 .room-actions { margin: .5rem 0 0; }
 .room-actions button, #room-choose, #room-save { min-height: 48px; }

@@ -130,6 +130,23 @@ async (page) => {
     lostResponse=true;await click(o,'start-practice');await o.locator('#room-retry').waitFor();await enabled(o,'room-retry');await click(o,'room-retry');
     assert(room.phase==='lobby'&&room.member_ids.length===5,'Host selection keeps the room roster');
     await syncAll();
+    for(const p of pages){
+      assert(await p.locator('#room-header').isHidden(),'Preparation omits the duplicate group heading and library shortcut');
+      assert(await p.locator('#room-details').evaluate(e=>!e.open),'Preparation folds away room administration');
+      assert(await p.locator('#room-content h4').count()===0,'Preparation has no repeated headings');
+      assert(await p.locator('.room-preparation p').count()===(p===c?3:2),'Preparation contains only role context and a short cue');
+      await p.setViewportSize({width:320,height:700});
+      assert(await p.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),'Preparation has no 320px overflow');
+      await p.setViewportSize({width:390,height:844});
+    }
+    assert((await c.locator('.room-preparation').textContent()).includes('Soft, even tone'),'Client keeps a concise role delivery cue');
+    assert(!(await c.locator('.room-preparation').textContent()).includes("Hi, I'm Sara"),'Client preparation omits the long case monologue');
+    assert(!(await t.locator('.room-preparation').textContent()).includes('Marketing associate'),'Therapist preparation contains the skill, not the case dossier');
+    assert((await o.locator('.room-preparation').textContent()).includes('Guide the round'),'Active observer knows to guide');
+    assert((await watcher1.locator('.room-preparation').textContent()).includes('Let the active observer guide'),'Watching observer receives a watching cue');
+    assert((await t.locator('#room-sync-status').textContent()).includes('observer starts'),'Other roles know who starts the round');
+    await o.locator('#room-details summary').click();await syncAll();assert(await o.locator('#room-details').evaluate(e=>e.open),'Preparation polling preserves expanded room controls');await o.locator('#room-details summary').click();
+    for(const [p,role] of [[o,'observer'],[t,'therapist'],[c,'client']])await p.screenshot({path:`output/playwright/room-preparation-${role}-mobile.png`,fullPage:true});
     assert((await watcher1.locator('#room-role-badge').textContent()).includes('Watching observer'),'Extra members get the watching role');
     assert(!(await watcher2.locator('#room-next').isVisible()),'Watching observers have no host controls');
     disconnectSpectators=true;room.presence.p.connected=false;room.presence.q.connected=false;
@@ -189,7 +206,7 @@ async (page) => {
     assert(await c.locator('#room-next').isVisible(),'The new observer receives exercise controls');
     assert((await watcher2.locator('#room-role-badge').textContent()).includes('Your role: Therapist'),'A watching observer becomes therapist');
     assert(await watcher2.locator('.room-statement').count()===0,'A new therapist receives only their role screen');
-    await click(o,'room-end');assert(await o.locator('#room-exit-overlay').isVisible(),'Ending is confirmed inside the app');await click(o,'room-exit-cancel');assert(room.phase==='lobby','Cancel keeps room open');await click(o,'room-end');await click(o,'room-exit-confirm');await o.waitForFunction(()=>document.getElementById('room-panel').dataset.phase==='closed');await syncAll();
+    await o.locator('#room-details summary').click();await click(o,'room-end');assert(await o.locator('#room-exit-overlay').isVisible(),'Ending is confirmed inside the app');await click(o,'room-exit-cancel');assert(room.phase==='lobby','Cancel keeps room open');await click(o,'room-end');await click(o,'room-exit-confirm');await o.waitForFunction(()=>document.getElementById('room-panel').dataset.phase==='closed');await syncAll();
     assert((await t.locator('#room-content').textContent()).includes('has ended'),'End propagates to all');
     for (const p of pages) {
       await p.setViewportSize({width:320,height:700});
@@ -209,7 +226,11 @@ async (page) => {
       await click(p,'group-join'); await p.locator('#room-code').fill(room.code);
       await p.locator('#room-join-options summary').click(); await p.locator('#room-role').selectOption(role); await click(p,'room-join');
     }
-    await syncAll(); await enabled(o,'room-next'); await click(o,'room-next'); await syncAll();
+    await syncAll();
+    assert((await t.locator('.room-preparation').textContent()).includes('du trenger ikke svare klienten'),'Self-awareness preparation permits noticing without responding');
+    assert((await c.locator('.room-preparation').textContent()).includes('respekter det som holdes privat'),'Reader preparation preserves privacy');
+    await o.screenshot({path:'output/playwright/room-preparation-observer-no-320.png',fullPage:true});
+    await enabled(o,'room-next'); await click(o,'room-next'); await syncAll();
     assert((await c.locator('#room-role-badge').textContent()).includes('Oppleser'),'Self-awareness assigns reader role');
     assert((await t.locator('#room-content').textContent()).includes('du trenger ikke svare klienten'),'Therapist is not asked to perform a response');
     assert((await c.locator('#room-your-part').textContent()).includes('respekter det som holdes privat'),'Reader guidance retains privacy');
@@ -234,7 +255,11 @@ async (page) => {
     await t.evaluate(()=>{for(const key of Object.keys(localStorage))if(key.startsWith('dp_shared_room:'))localStorage.removeItem(key);});
     await click(t,'group-join');await t.locator('#room-code').fill(room.code);await click(t,'room-join');
     await click(o,'room-choose');await o.locator('[data-skill-id="empathic-understanding"]').click();await o.locator('[data-case-id="case-sara"]').click();await click(o,'start-practice');
-    await syncAll();await enabled(o,'room-next');await click(o,'room-next');await syncAll();
+    await syncAll();
+    assert((await o.locator('.room-preparation').textContent()).includes('Start når dere begge er klare'),'Pair therapist preparation explains starting and finishing');
+    await t.waitForFunction(()=>document.getElementById('room-sync-status').textContent.includes('Terapeuten starter'));
+    assert((await t.locator('#room-sync-status').textContent()).includes('Terapeuten starter'),'Pair client knows the therapist starts');
+    await enabled(o,'room-next');await click(o,'room-next');await syncAll();
     assert(room.observer_id===null&&room.therapist_id==='o'&&room.client_id==='t','Pair roles are therapist and client');
     assert(await o.locator('.room-workflow li').count()===5&&await o.locator('#room-workflow-guide').evaluate(e=>e.open),'Pair therapist has an open five-step workflow');
     assert(!(await o.locator('.room-workflow').textContent()).includes('Observatøren'),'Pair workflow omits observer coaching');
@@ -265,6 +290,6 @@ async (page) => {
     await o.waitForTimeout(200);
     assert(creations===beforeCanceledCreation,'Cancelled room setup must not create a room later');
     assert(errors.length===0,errors.join('\n'));
-    return {passed:true,participants:5,checks:['empty room creation and join','host chooses practice in library','six-step workflow including opening and round rating','concise role screens without redundant navigation','pair five-step workflow and round self-assessment','controls follow rotated observer','uncertain preparation retry','phone exercise visibility and bottom action','in-app end confirmation','leave cancellation and lost-response reload','watching observers','offline spectators do not stall','watching observer rotates into therapist','role screens','acknowledgement barrier','lost response and reload','offline recovery','rating and passes','rotation','320px','Norwegian self-awareness']};
+    return {passed:true,participants:5,checks:['minimal role-specific preparation','preparation controls survive polling','pair preparation and readiness messaging','empty room creation and join','host chooses practice in library','six-step workflow including opening and round rating','concise role screens without redundant navigation','pair five-step workflow and round self-assessment','controls follow rotated observer','uncertain preparation retry','phone exercise visibility and bottom action','in-app end confirmation','leave cancellation and lost-response reload','watching observers','offline spectators do not stall','watching observer rotates into therapist','role screens','acknowledgement barrier','lost response and reload','offline recovery','rating and passes','rotation','320px','Norwegian self-awareness']};
   } finally {for(const context of contexts)await context.close();}
 }
