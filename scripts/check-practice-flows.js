@@ -130,22 +130,35 @@ async (page) => {
   console.log('PASS individual pause, partial finish, resume, dialog keyboard behavior');
 
   await setup('en', 'empathic-understanding', 'triad');
-  await page.setViewportSize({ width: 390, height: 844 });
-  assert(!(await visible('toggle-suggestion')), 'Examples must be hidden before retry');
-  assert(await page.evaluate(() => document.querySelector('#next-statement').closest('#triad-controls') !== null), 'Group action must follow guidance');
-  await click('next-statement');
+  assert(!(await visible('toggle-suggestion')), 'Shared groups use the inline therapist retry example');
+  assert(await page.locator('#shared-workflow .room-workflow li').count() === 6, 'Shared groups use the room six-step workflow');
+  assert((await page.locator('#shared-workflow li').first().textContent()).includes('Client reads'), 'The client opens the shared workflow');
+  assert((await page.locator('#shared-workflow li').last().textContent()).includes('After 3 items'), 'Rating follows three shared items');
+  assert(await page.locator('#shared-group-guidance .room-role-guide').count() === 3, 'A shared device offers all three roles');
+  for (const width of [320,390,600]) {
+    await page.setViewportSize({width,height:844});
+    await page.locator('#triad-controls').scrollIntoViewIfNeeded();
+    const frame = await page.locator('#triad-protocol').boundingBox();
+    for (const id of ['next-statement','triad-pass-item']) {
+      const control = await page.locator('#'+id).boundingBox();
+      assert(control.x>=frame.x && control.x+control.width<=frame.x+frame.width && control.y>=frame.y && control.y+control.height<=frame.y+frame.height, 'Finish and pass stay inside the shared-device frame');
+      assert(control.height>=44 && control.height<130, 'Shared actions remain touch-sized, without flex growth into tall buttons');
+    }
+    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth), 'Shared group practice fits phone width');
+    await page.screenshot({path:`output/playwright/shared-group-actions-${width}.png`});
+  }
   const firstRound = await session();
-  await page.reload();
-  await click('resume-button');
-  await page.locator('#practice-area').waitFor();
-  assert((await session()).triadPhase === 'client_feedback', 'Group phase must survive reload');
-  assert(JSON.stringify((await session()).roundStatementIds) === JSON.stringify(firstRound.roundStatementIds), 'Sample order must survive reload');
+  // An old saved phase keeps its item/order/owner and resumes with the whole-item workflow.
+  await page.evaluate(()=>{const round=JSON.parse(localStorage.getItem('dp_practice_session_v1'));round.triadPhase='client_feedback';localStorage.setItem('dp_practice_session_v1',JSON.stringify(round));});
+  await page.reload(); await click('resume-button'); await page.locator('#practice-area').waitFor();
+  assert(JSON.stringify((await session()).roundStatementIds) === JSON.stringify(firstRound.roundStatementIds), 'Sample order survives reload from an old phase');
+  await page.locator('#shared-your-part-therapist > summary').click();
+  await click('shared-example-reveal');
+  assert(await visible('shared-example-response'), 'An optional therapist example is available for retry');
   await click('next-statement');
-  await page.screenshot({ path: 'output/playwright/release-observer-mobile.png', fullPage: true });
-  await click('next-statement');
-  assert(await visible('toggle-suggestion'), 'Examples must be available during retry');
-  await click('toggle-suggestion');
-  await click('next-statement');
+  assert((await session()).completedStatementIds.length === 1 && (await session()).index === 1, 'One Finish action resolves the whole item');
+  assert(!(await visible('shared-example-response')), 'The next shared item hides the previous example');
+  assert(await page.locator('#shared-your-part-therapist').evaluate(e=>e.open), 'Shared role card expansion persists between items');
   for (let i = 0; i < 2; i++) { await click('triad-pass-item'); await click('triad-pass-confirm'); }
   assert(await visible('triad-debrief'), 'Resolved group round must reach debrief');
   assert((await text('triad-debrief-counts')).includes('1 practiced · 2 passed'), 'Passes must be separated from completion');
@@ -169,17 +182,22 @@ async (page) => {
   await click('triad-complete-round');
   assert((await text('round-outcome')).includes('0 practiced · 3 passed'), 'All-pass rounds must not claim practice');
   await click('rating-skip');
-  console.log('PASS group phase/order restoration, reveal, pass, debrief, rotation, all-pass finish');
+  console.log('PASS shared workflow, bounded controls, legacy order restoration, reveal, pass, debrief, rotation, all-pass finish');
 
   await page.reload();
   await setup('no', 'therapist-self-awareness', 'triad');
-  assert((await text('triad-phase-instruction')).includes('du trenger ikke svare klienten'), 'Self-awareness must not ask for a client response');
-  await click('next-statement');
-  assert((await text('triad-phase-instruction')).includes('Gå ut av klientrollen'), 'Reader feedback must be out of role');
-  await click('next-statement');
-  assert((await text('triad-phase-instruction')).includes('uten å tolke terapeuten'), 'Coaching must respect boundaries');
-  await click('next-statement');
-  assert((await text('triad-phase-instruction')).includes('Del bare det du ønsker'), 'Retry must respect disclosure choice');
+  const sharedGuide = await page.locator('#shared-group-guidance').textContent();
+  assert(sharedGuide.includes('du trenger ikke svare klienten'), 'Self-awareness does not require a client response');
+  assert(sharedGuide.includes('gå så ut av rollen'), 'Reader feedback happens out of role');
+  assert(sharedGuide.includes('uten tolkning eller press om å dele'), 'Coaching respects boundaries');
+  assert(sharedGuide.includes('Del bare det du selv velger'), 'Retry respects disclosure choice');
+  for (const role of ['client','therapist','observer']) await page.locator(`#shared-your-part-${role} > summary`).click();
+  await page.setViewportSize({width:320,height:740});
+  await page.locator('#triad-controls').scrollIntoViewIfNeeded();
+  const sharedFrame = await page.locator('#triad-protocol').boundingBox();
+  const finishAction = await page.locator('#next-statement').boundingBox();
+  assert(finishAction.x>=sharedFrame.x && finishAction.x+finishAction.width<=sharedFrame.x+sharedFrame.width, 'Norwegian shared controls fit their frame');
+  await page.screenshot({path:'output/playwright/shared-awareness-320.png',fullPage:true});
   await click('feedback-toggle');
   assert((await page.locator('#feedback-reason option[value="translation"]').textContent()) === 'Problem med oversettelsen', 'Report reasons must be translated');
   assert((await page.locator('#feedback-details').getAttribute('placeholder')).startsWith('Fortell'), 'Report placeholder must be translated');
@@ -240,7 +258,7 @@ async (page) => {
   await setup('en', 'empathic-understanding', 'triad');
   assert((await session()).roundTarget.target_user_id === 'test-self', 'An old paired-target preference must not redirect a new local round');
   const legacySharedRound = await session();
-  for (let i = 0; i < 4; i++) await click('next-statement');
+  await click('next-statement');
   await click('view-case-brief');
   await click('back-to-cases');
   await click('finish-completed');
@@ -259,7 +277,7 @@ async (page) => {
   },legacySharedRound);
   await page.reload();await click('resume-button');
   assert((await session()).roundTarget.target_user_id === 'test-partner', 'Retiring pairing must not silently retarget an unfinished legacy round');
-  for (let i=0;i<4;i++) await click('next-statement');
+  await click('next-statement');
   for (let i=0;i<2;i++) { await click('triad-pass-item');await click('triad-pass-confirm'); }
   await click('triad-complete-round');await page.locator('[data-rating-score="2"]').click();await click('rating-submit');
   await page.waitForFunction(()=>document.querySelector('#rating-status').textContent==='Rating saved.');

@@ -307,29 +307,9 @@
             </div>
           </section>
 
-          <ol class="triad-steps is-hidden" id="triad-steps" hidden></ol>
-          <section class="triad-protocol is-hidden" id="triad-protocol" hidden aria-labelledby="triad-phase-title">
-            <div class="triad-phase-header">
-              <span class="triad-role-badge" id="triad-role-badge">Therapist</span>
-              <span class="triad-progress" id="triad-progress">Item 1 of 3 · Step 1 of 4</span>
-            </div>
-            <h4 id="triad-phase-title">Therapist — first response</h4>
-            <p id="triad-phase-instruction"></p>
-            <details class="triad-observer-guide is-hidden" id="triad-observer-focus" hidden>
-              <summary id="triad-observer-guide-title">Skill reminders</summary>
-              <div class="triad-observer-focus">
-                <div>
-                  <strong id="triad-observer-focus-label">Skill focus</strong>
-                  <p id="triad-observer-focus-text"></p>
-                </div>
-                <div>
-                  <strong id="triad-observer-miss-label">Common miss</strong>
-                  <p id="triad-observer-miss-text"></p>
-                </div>
-              </div>
-            </details>
+          <section class="triad-protocol is-hidden" id="triad-protocol" hidden>
+            <div id="shared-group-guidance"></div>
             <div class="triad-actions" id="triad-controls">
-              <p class="response-hint" id="triad-retry-hint" hidden></p>
               <button type="button" class="ghost-button ghost-button--danger" id="triad-pass-item">Pass this item</button>
             </div>
             <div class="triad-pass-confirmation is-hidden" id="triad-pass-confirmation" hidden role="alert">
@@ -339,17 +319,6 @@
                 <button type="button" class="ghost-button ghost-button--danger" id="triad-pass-confirm">Confirm pass</button>
               </div>
             </div>
-            <details class="triad-feedback-guide triad-feedback-guide--workspace">
-              <summary id="triad-workspace-guide-summary">Feedback guide</summary>
-              <ul>
-                <li id="triad-workspace-guide-attempt">Comment on this attempt, not the therapist as a person.</li>
-                <li id="triad-workspace-guide-client">The client speaks from their own experience.</li>
-                <li id="triad-workspace-guide-observer">The observer names one observable strength and one next edge.</li>
-                <li id="triad-workspace-guide-choice">The therapist may adapt, decline, or pass.</li>
-                <li id="triad-workspace-guide-boundary">Do not interpret one another's psychology.</li>
-                <li id="triad-workspace-guide-example">Suggested responses are examples, not answer keys.</li>
-              </ul>
-            </details>
           </section>
 
           <section class="suggestion-panel">
@@ -392,8 +361,8 @@
               <li><strong id="triad-debrief-therapist-label">Therapist:</strong> <span id="triad-debrief-therapist"></span></li>
               <li><strong id="triad-debrief-client-label">Client:</strong> <span id="triad-debrief-client"></span></li>
               <li><strong id="triad-debrief-observer-label">Observer:</strong> <span id="triad-debrief-observer"></span></li>
-              <li><strong id="triad-debrief-group-label">Group:</strong> <span id="triad-debrief-group"></span></li>
             </ol>
+            <details><summary id="triad-debrief-group-label">Choose the next challenge</summary><p id="triad-debrief-group"></p></details>
             <p class="triad-derole" id="triad-derole"></p>
             <button type="button" class="primary-button" id="triad-complete-round">Complete round</button>
           </section>

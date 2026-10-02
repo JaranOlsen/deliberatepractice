@@ -151,6 +151,14 @@ async (page) => {
       if(p===c)await p.screenshot({path:'output/playwright/room-client-background-en-320.png',fullPage:true});
       await p.setViewportSize({width:390,height:844});
     }
+    const roomTheme = await o.locator('#room-panel').evaluate(e=>e.style.getPropertyValue('--card-accent'));
+    const sharedTheme = await o.evaluate(()=>{
+      // Inspect the existing library case palette without changing room state.
+      const button=document.querySelector('[data-case-id="case-sara"]');
+      return button?.style.getPropertyValue('--card-accent');
+    });
+    assert(roomTheme && roomTheme===sharedTheme, 'Room colours match the skill and case palette from the library');
+    assert(await c.locator('.room-preparation').evaluate(e=>getComputedStyle(e).borderLeftStyle)==='solid', 'Room preparation uses the case-card surface');
     assert((await c.locator('.room-preparation').textContent()).includes('Soft, even tone'),'Client keeps a concise role delivery cue');
     assert((await c.locator('.room-preparation').textContent()).includes("Hi, I'm Sara"),'Client sees the full client voice before the round');
     assert(await c.locator('.room-client-preparation .case-role-item').count()===4,'Client sees schema, core pain, style and listening cues');
@@ -169,6 +177,8 @@ async (page) => {
     disconnectSpectators=false;await syncAll();
     assert(!(await t.locator('#room-next').isVisible()),'Therapist has no observer controls');
     assert(!(await c.locator('#room-next').isVisible()),'Client has no observer controls');
+    assert(await c.locator('.statement-panel .room-statement').count()===1, 'The client line uses the familiar statement card');
+    assert(await o.locator('.room-workflow-number').first().evaluate(e=>getComputedStyle(e).backgroundColor) !== 'rgb(49, 95, 91)', 'Workflow accents follow the selected skill');
     assert(await c.locator('.room-statement').isVisible(),'Client sees the line to read');
     assert(await c.locator('#room-details').evaluate(e=>!e.open),'Room roster folds away during the exercise');
     const clientLine=await c.locator('.room-statement').boundingBox();assert(clientLine.y<650,'Client line is within the first phone screen');

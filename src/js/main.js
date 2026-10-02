@@ -34,14 +34,14 @@ import {
 import {
   PRACTICE_MODES,
   TRIAD_PHASES,
-  canRevealTriadSuggestion,
-  getNextTriadPhase,
   isTriadRoundFinished,
   normalizePracticeMode,
   normalizeTriadSessionFields,
   restoreStatementsById,
   sampleTriadStatements
 } from "./triadProtocol.js";
+
+import {getGroupPracticeCopy, createGroupWorkflow, createGroupRoleGuide} from "./groupPracticeUI.js";
 
 import { summarizeRatings, createProgressRadar, focusProgressRadar } from "./practiceProgress.js";
 import { createDialogManager } from "./dialogs.js";
@@ -74,6 +74,7 @@ async function openSharedRoom(mode = "hub", {selectedCase = false, code = null} 
       },
       getUser: () => state.authUser, getLanguage: () => state.languageId ?? 'en', localizeSkill,
       getStrings: getUIStrings, signIn: showAccountPanel,
+      applyTheme: (element, skillId, difficulty) => applyVisualProperties(element, getCaseVisual(skillId, difficulty)),
       onProgressChange: ({source}) => {
         state.progressSource = source;
         progressRequestId++; state.progressRatingsLoading = false; state.progressRatingsLoaded = false;
@@ -231,15 +232,6 @@ const elements = {
   suggestionText: document.getElementById("suggestion-text"),
   triadSuggestionNote: document.getElementById("triad-suggestion-note"),
   triadProtocol: document.getElementById("triad-protocol"),
-  triadRoleBadge: document.getElementById("triad-role-badge"),
-  triadProgress: document.getElementById("triad-progress"),
-  triadPhaseTitle: document.getElementById("triad-phase-title"),
-  triadPhaseInstruction: document.getElementById("triad-phase-instruction"),
-  triadObserverFocus: document.getElementById("triad-observer-focus"),
-  triadObserverFocusLabel: document.getElementById("triad-observer-focus-label"),
-  triadObserverFocusText: document.getElementById("triad-observer-focus-text"),
-  triadObserverMissLabel: document.getElementById("triad-observer-miss-label"),
-  triadObserverMissText: document.getElementById("triad-observer-miss-text"),
   triadPassItem: document.getElementById("triad-pass-item"),
   triadPassConfirmation: document.getElementById("triad-pass-confirmation"),
   triadPassConfirmationText: document.getElementById("triad-pass-confirmation-text"),
@@ -338,10 +330,10 @@ const releaseElements = Object.fromEntries([
   "last-setup-card", "last-setup-title", "last-setup-details", "repeat-last-setup",
   "individual-guide", "individual-focus-label", "individual-focus", "individual-instruction",
   "retry-individual", "individual-example-note",
-  "individual-controls", "triad-controls", "triad-steps", "triad-retry-hint",
+  "individual-controls", "triad-controls",
   "practice-format-note", "round-target-note", "triad-debrief-counts", "leave-overlay",
   "leave-title", "leave-description", "continue-practice", "pause-round", "finish-completed",
-  "rating-scale", "round-outcome", "repeat-round", "unlock-code-label", "triad-observer-guide-title"
+  "rating-scale", "round-outcome", "repeat-round", "unlock-code-label"
 ].map((id) => [id, document.getElementById(id)]));
 
 const state = {
@@ -897,12 +889,10 @@ function renderResumeCard() {
   const completed = details.completedCount > 0
     ? ` · ${details.completedCount} ${strings.completedShort ?? "done"}`
     : "";
-  const phaseIndex = [TRIAD_PHASES.FIRST_ATTEMPT, TRIAD_PHASES.CLIENT_FEEDBACK, TRIAD_PHASES.OBSERVER_FEEDBACK, TRIAD_PHASES.RETRY].indexOf(session.triadPhase);
-  const phase = session.triadPhase === TRIAD_PHASES.ROUND_DEBRIEF ? strings.resumeDebrief
-    : (session.skillId === "therapist-self-awareness" ? strings.selfAwarenessSteps : strings.triadSteps)[phaseIndex];
+  const phase = session.triadPhase === TRIAD_PHASES.ROUND_DEBRIEF ? strings.resumeDebrief : "";
   elements.resumeDetails.textContent =
     `${details.skillName} · ${details.caseLabel} · ${details.counter}${completed}`
-    + (session.practiceMode === PRACTICE_MODES.TRIAD ? ` · ${strings.practiceModeTriad} · ${phase}` : "");
+    + (session.practiceMode === PRACTICE_MODES.TRIAD ? ` · ${strings.practiceModeTriad}${phase ? ` · ${phase}` : ""}` : "");
 }
 
 function restoreOrderFromSession(session, caseData) {
@@ -2080,7 +2070,11 @@ function renderPracticeFormatUI() {
   if (elements.triadOrientation) {
     elements.triadOrientation.hidden = !triad;
     elements.triadOrientation.classList.toggle("is-hidden", !triad);
-    elements.triadOrientationText.textContent = isSelfAwareness() ? strings.selfAwarenessOrientation : strings.triadOrientation;
+    const shared = getGroupPracticeCopy(state.languageId);
+    elements.triadOrientationText.textContent = state.languageId === 'no'
+      ? 'Observatøren leder. Fullfør hvert utsagn etter tilbakemelding og nytt forsøk; vurder terapeuten etter tre utsagn.'
+      : 'The observer guides. Finish each item after feedback and retry; rate the therapist after three items.';
+    setTextForElements(elements.triadGuideClientItems, (isSelfAwareness() ? shared.awarenessGuide : shared.roleGuide).client.steps[1][1]);
   }
 }
 
@@ -2765,13 +2759,8 @@ function updateNextButtonCopy() {
   if (!elements.nextButton) return;
   const strings = getUIStrings();
   if (isTriadPractice()) {
-    const phaseCopy = {
-      [TRIAD_PHASES.FIRST_ATTEMPT]: isSelfAwareness() ? strings.selfAwarenessFirstContinue : strings.triadPhaseFirstContinue,
-      [TRIAD_PHASES.CLIENT_FEEDBACK]: isSelfAwareness() ? strings.selfAwarenessClientContinue : strings.triadPhaseClientContinue,
-      [TRIAD_PHASES.OBSERVER_FEEDBACK]: strings.triadPhaseObserverContinue ?? "Observer feedback given",
-      [TRIAD_PHASES.RETRY]: strings.triadPhaseRetryFinish ?? "Finish item"
-    };
-    const copy = phaseCopy[state.triadPhase] ?? strings.next;
+    const shared = getGroupPracticeCopy(state.languageId);
+    const copy = isLastActiveStatement() ? shared.finishLast : shared.finishNext;
     elements.nextButton.textContent = copy;
     elements.nextButton.setAttribute("aria-label", copy);
     return;
@@ -2792,138 +2781,66 @@ function isSelfAwareness() {
   return state.skillId === "therapist-self-awareness";
 }
 
-function getTriadPhasePresentation() {
-  const strings = getUIStrings();
-  switch (state.triadPhase) {
-    case TRIAD_PHASES.CLIENT_FEEDBACK:
-      return {
-        role: isSelfAwareness() ? strings.selfAwarenessReaderRole : strings.triadRoleClient,
-        title: isSelfAwareness() ? strings.selfAwarenessClientTitle : strings.triadPhaseClientTitle,
-        instruction: isSelfAwareness() ? strings.selfAwarenessClientInstruction : strings.triadPhaseClientInstruction,
-        step: 2
-      };
-    case TRIAD_PHASES.OBSERVER_FEEDBACK:
-      return {
-        role: strings.triadRoleObserver ?? "Observer",
-        title: strings.triadPhaseObserverTitle ?? "Observer — focused coaching",
-        instruction: isSelfAwareness() ? strings.selfAwarenessObserverInstruction : strings.triadPhaseObserverInstruction,
-        step: 3
-      };
-    case TRIAD_PHASES.RETRY:
-      return {
-        role: strings.triadRoleTherapist ?? "Therapist",
-        title: isSelfAwareness() ? strings.selfAwarenessRetryTitle : strings.triadPhaseRetryTitle,
-        instruction: isSelfAwareness() ? strings.selfAwarenessRetryInstruction : strings.triadPhaseRetryInstruction,
-        step: 4
-      };
-    default:
-      return {
-        role: strings.triadRoleTherapist ?? "Therapist",
-        title: isSelfAwareness() ? strings.selfAwarenessFirstTitle : strings.triadPhaseFirstTitle,
-        instruction: isSelfAwareness() ? strings.selfAwarenessFirstInstruction : strings.triadPhaseFirstInstruction,
-        step: 1
-      };
-  }
-}
+const sharedRoleGuideOpen = new Map();
+let sharedGuideKey = '';
 
 function renderTriadProtocolUI() {
   const triad = isTriadPractice();
   const debrief = triad && state.triadPhase === TRIAD_PHASES.ROUND_DEBRIEF;
-  const activeProtocol = triad && !debrief && state.view === "statements";
-  const phase = getTriadPhasePresentation();
-  const strings = getUIStrings();
-  releaseElements["triad-observer-guide-title"].textContent = strings.skillReminders;
+  const active = triad && !debrief && state.view === "statements";
+  const strings = getUIStrings(), shared = getGroupPracticeCopy(state.languageId);
   const controls = releaseElements[triad ? "triad-controls" : "individual-controls"];
   if (elements.nextButton.parentElement !== controls) {
     if (triad) controls.insertBefore(elements.nextButton, elements.triadPassItem);
     else controls.append(elements.nextButton);
   }
-  const steps = releaseElements["triad-steps"];
-  steps.hidden = !activeProtocol;
-  steps.classList.toggle("is-hidden", !activeProtocol);
-  steps.setAttribute("aria-label", strings.roundProgress);
-  elements.statementWorkspace.insertBefore(steps, elements.statementPanel);
-  steps.replaceChildren(...(isSelfAwareness() ? strings.selfAwarenessSteps : strings.triadSteps).map((label, index) => {
-    const item = document.createElement("li");
-    item.textContent = label;
-    if (index === phase.step - 1) item.setAttribute("aria-current", "step");
-    item.classList.toggle("is-complete", index < phase.step - 1);
-    return item;
-  }));
-  releaseElements["triad-retry-hint"].hidden = state.triadPhase !== TRIAD_PHASES.RETRY;
-  releaseElements["triad-retry-hint"].textContent = strings.triadRetryHint;
-  releaseElements["triad-debrief-counts"].textContent = formatRoundOutcome();
-  elements.triadDebriefClient.textContent = isSelfAwareness() ? strings.selfAwarenessDebriefClient : strings.triadDebriefClient;
-  elements.triadDebriefClientLabel.textContent = isSelfAwareness() ? `${strings.selfAwarenessReaderRole}:` : strings.triadDebriefClientLabel;
-  setTextForElements(elements.triadGuideClientItems, isSelfAwareness() ? strings.selfAwarenessGuideClient : strings.triadGuideClient);
-
-  if (elements.triadProtocol) {
-    elements.triadProtocol.hidden = !activeProtocol;
-    elements.triadProtocol.classList.toggle("is-hidden", !activeProtocol);
-  }
-  if (elements.triadDebrief) {
-    elements.triadDebrief.hidden = !debrief;
-    elements.triadDebrief.classList.toggle("is-hidden", !debrief);
-  }
-  if (elements.statementPanel) {
-    elements.statementPanel.hidden = debrief;
-    elements.statementPanel.classList.toggle("is-hidden", debrief);
-  }
-  if (elements.feedbackForm?.closest(".feedback-panel")) {
-    const feedbackPanel = elements.feedbackForm.closest(".feedback-panel");
-    feedbackPanel.hidden = debrief;
-    feedbackPanel.classList.toggle("is-hidden", debrief);
-  }
-
-  if (!activeProtocol) {
-    if (elements.shuffleButton) {
-      elements.shuffleButton.hidden = triad;
-      elements.shuffleButton.classList.toggle("is-hidden", triad);
+  elements.statementWorkspace.classList.toggle('shared-group-workspace', triad);
+  elements.triadProtocol.hidden = !active;
+  elements.triadProtocol.classList.toggle('is-hidden', !active);
+  elements.triadDebrief.hidden = !debrief;
+  elements.triadDebrief.classList.toggle('is-hidden', !debrief);
+  elements.statementPanel.hidden = debrief;
+  elements.statementPanel.classList.toggle('is-hidden', debrief);
+  const feedbackPanel = elements.feedbackForm?.closest('.feedback-panel');
+  if (feedbackPanel) { feedbackPanel.hidden = debrief; feedbackPanel.classList.toggle('is-hidden', debrief); }
+  elements.shuffleButton.hidden = triad;
+  elements.shuffleButton.classList.toggle('is-hidden', triad);
+  releaseElements['triad-debrief-counts'].textContent = formatRoundOutcome();
+  elements.triadDebriefTitle.textContent = state.languageId === 'no' ? 'Reflekter sammen' : 'Reflect together';
+  const reflection = isSelfAwareness() ? shared.awarenessReflection : shared.reflection;
+  elements.triadDebriefTherapist.textContent = reflection.therapist;
+  elements.triadDebriefClient.textContent = reflection.client;
+  elements.triadDebriefClientLabel.textContent = `${isSelfAwareness() ? strings.selfAwarenessReaderRole : strings.triadRoleClient}:`;
+  elements.triadDebriefObserver.textContent = reflection.observer;
+  elements.triadDerole.textContent = shared.derole;
+  elements.triadDebriefGroupLabel.textContent = shared.nextFocus;
+  elements.triadDebrief.querySelector('ol').hidden = debrief && !getCompletedActiveStatementIds().length;
+  if (active && state.currentStatement) {
+    const container = document.getElementById('shared-group-guidance');
+    const key = `${state.roundId}:${state.skillId}:${state.currentStatement.id}:${state.languageId}`;
+    if (sharedGuideKey !== key) {
+      sharedGuideKey = key;
+      const awareness = isSelfAwareness(), skill = getCurrentSkill();
+      const guide = createGroupWorkflow({language: state.languageId, awareness, id: 'shared-workflow', open: true});
+      const focus = document.createElement('aside'); focus.className = 'individual-guide'; focus.textContent = skill.practiceFocus;
+      const cards = ['client','therapist','observer'].map(role => {
+        const roleKey = `${awareness}:${role}`;
+        return createGroupRoleGuide({language: state.languageId, awareness, role, id: `shared-your-part-${role}`,
+          roleLabel: role === 'client' && awareness ? strings.selfAwarenessReaderRole : strings[`triadRole${role[0].toUpperCase()}${role.slice(1)}`],
+          open: sharedRoleGuideOpen.get(roleKey) ?? false, focus: skill.practiceFocus,
+          example: state.currentStatement.suggestion, examplePrefix: 'shared',
+          onToggle: expanded => sharedRoleGuideOpen.set(roleKey, expanded)});
+      });
+      container.replaceChildren(focus, guide, ...cards);
     }
-    updateNextButtonCopy();
-    return;
   }
-
-  if (elements.shuffleButton) {
-    elements.shuffleButton.hidden = true;
-    elements.shuffleButton.classList.add("is-hidden");
-  }
-  if (elements.triadRoleBadge) elements.triadRoleBadge.textContent = phase.role;
-  if (elements.triadPhaseTitle) elements.triadPhaseTitle.textContent = phase.title;
-  if (elements.triadPhaseInstruction) elements.triadPhaseInstruction.textContent = phase.instruction;
-  if (elements.triadProgress) {
-    elements.triadProgress.textContent = (strings.triadProgressPattern ?? "Item {current} of {total} · Step {step} of 4")
-      .replace("{current}", String(state.index + 1))
-      .replace("{total}", String(getActiveStatements().length))
-      .replace("{step}", String(phase.step));
-  }
-
-  const observerPhase = state.triadPhase === TRIAD_PHASES.OBSERVER_FEEDBACK;
-  if (elements.triadObserverFocus) {
-    elements.triadObserverFocus.hidden = !observerPhase;
-    elements.triadObserverFocus.classList.toggle("is-hidden", !observerPhase);
-  }
-  const skill = getCurrentSkill();
-  if (elements.triadObserverFocusLabel) {
-    elements.triadObserverFocusLabel.textContent = strings.triadObserverFocusLabel ?? "Skill focus";
-  }
-  if (elements.triadObserverFocusText) {
-    elements.triadObserverFocusText.textContent = skill?.practiceFocus ?? "";
-  }
-  if (elements.triadObserverMissLabel) {
-    elements.triadObserverMissLabel.textContent = strings.triadObserverMissLabel ?? "Common miss";
-  }
-  if (elements.triadObserverMissText) {
-    elements.triadObserverMissText.textContent = skill?.commonMiss ?? "";
-  }
-
   updateNextButtonCopy();
 }
 
 function focusTriadPhase() {
   if (!isTriadPractice() || state.triadPhase === TRIAD_PHASES.ROUND_DEBRIEF) return;
-  elements.triadPhaseTitle?.setAttribute("tabindex", "-1");
-  elements.triadPhaseTitle?.focus();
+  elements.statementText.setAttribute('tabindex', '-1');
+  elements.statementText.focus();
 }
 
 function showCaseBrief() {
@@ -3339,8 +3256,8 @@ function updateSuggestionUI() {
   const hasSuggestion = suggestion.length > 0;
   const triadAvailable = isTriadPractice()
     && state.view === "statements"
-    && canRevealTriadSuggestion(state.triadPhase);
-  const available = hasSuggestion && (!isTriadPractice() || triadAvailable);
+    && state.triadPhase !== TRIAD_PHASES.ROUND_DEBRIEF;
+  const available = hasSuggestion && !isTriadPractice();
 
   elements.suggestionToggle.setAttribute("aria-expanded", String(available && state.suggestionVisible));
   elements.suggestionToggle.setAttribute("aria-controls", "suggestion-text");
@@ -3522,16 +3439,6 @@ function showNextStatement() {
   if (!statements.length) return;
   if (isTriadPractice()) {
     if (state.triadPhase === TRIAD_PHASES.ROUND_DEBRIEF) return;
-    if (state.triadPhase !== TRIAD_PHASES.RETRY) {
-      setTriadPassConfirmation(false);
-      state.triadPhase = getNextTriadPhase(state.triadPhase);
-      resetSuggestionVisibility();
-      renderTriadProtocolUI();
-      updateSuggestionUI();
-      savePracticeSession();
-      focusTriadPhase();
-      return;
-    }
     markCurrentStatementCompleted();
     advanceResolvedTriadItem();
     return;
