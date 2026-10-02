@@ -1,6 +1,6 @@
 "use strict";
 
-import { REVIEW_STATUSES } from "./contentMeta.js";
+import { CANONICAL_SKILL_ORDER, REVIEW_STATUSES, SKILL_EXERCISE_MAP } from "./contentMeta.js";
 
 const CASE_MATRIX_CASE_IDS = Object.freeze([
   "case-sara",
@@ -97,6 +97,37 @@ const MARKER_RECOGNITION_CHAIRWORK_PASS_1 = buildApprovedMeta(
 const ALLIANCE_REPAIR_PASS_1 = buildApprovedMeta(
   "2026-03-08-alliance-repair-pass-1",
   ["benchmark_alignment", "case_voice", "skill_purity", "translation_check", "safety"]
+);
+
+// Internal editorial review of the new bilingual pairs; see the review notes in src/md.
+// Keep the earlier passes attached only to their original items 01–10.
+const CASE_MATRIX_EXPANSION_PASS = buildApprovedMeta("2026-10-02-case-matrix-expansion", [
+  "case_voice", "skill_purity", "translation_check", "safety", "distinct_practice_moment"
+]);
+const CASE_MATRIX_EXPANSION_RISK_FLAGS = {
+  // A social invitation is not a substance-use exercise. Context also catches
+  // trauma work whose wording does not contain a keyword such as "flashback".
+  "dp_empathic-explorations_case-david_11": [],
+  "dp_empathic-affirmation-validation_case-marcus_12": ["trauma"],
+  "dp_providing-treatment-rationale_case-marcus_11": ["trauma"],
+  "dp_staying-in-contact-intense-affect_case-laura_12": ["trauma"],
+  "dp_staying-in-contact-intense-affect_case-marcus_11": ["trauma"],
+  "dp_staying-in-contact-intense-affect_case-marcus_12": ["trauma"],
+  "dp_marker-recognition-chairwork_case-marcus_11": ["trauma"],
+  "dp_marker-recognition-chairwork_case-marcus_12": ["trauma"],
+  "dp_alliance-repair_case-marcus_11": ["trauma"]
+};
+const CASE_MATRIX_EXPANSION_OVERRIDES = Object.fromEntries(
+  CANONICAL_SKILL_ORDER.flatMap((skillId) => CASE_MATRIX_CASE_IDS.flatMap((caseId) =>
+    [11, 12].map((itemNumber) => {
+      const id = `dp_${skillId}_${caseId}_${itemNumber}`;
+      return [id, {
+        ...CASE_MATRIX_EXPANSION_PASS,
+        criteriaTags: [...SKILL_EXERCISE_MAP[skillId].defaultCriteriaTags, "case_matrix_expansion"],
+        ...(CASE_MATRIX_EXPANSION_RISK_FLAGS[id] ? {riskFlags: CASE_MATRIX_EXPANSION_RISK_FLAGS[id]} : {})
+      }];
+    })
+  ))
 );
 
 export const CONTENT_ITEM_META_OVERRIDES = Object.freeze({
@@ -202,5 +233,6 @@ export const CONTENT_ITEM_META_OVERRIDES = Object.freeze({
     CASE_MATRIX_CASE_IDS,
     10,
     ALLIANCE_REPAIR_PASS_1
-  )
+  ),
+  ...CASE_MATRIX_EXPANSION_OVERRIDES
 });

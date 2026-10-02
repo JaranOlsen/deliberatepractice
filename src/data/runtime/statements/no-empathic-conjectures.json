@@ -3,7 +3,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -15,7 +15,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -27,7 +27,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -39,7 +39,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -51,7 +51,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -63,7 +63,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -75,7 +75,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -87,7 +87,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -99,7 +99,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -111,7 +111,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -119,13 +119,37 @@
       ],
       "text": "[Lavmælt] Når du er snill mot meg, ser jeg ned og vil bytte tema.",
       "suggestion": "Vennlighet virker vanskelig å ta rett inn; kanskje den berører en lengsel du er redd for å vise."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Avvisende, så stille] Han kan beholde bildene. Jeg trenger dem ikke. Jeg sjekket likevel om han hadde tatt ned bildene av oss.",
+      "suggestion": "Jeg lurer på om det å se etter bildene også er en måte å sjekke om du fortsatt betyr noe for ham."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Unnskyldende] Jeg spurte nesten søsteren min om hun kunne bli en natt til. Så tenkte jeg at hun hadde gjort nok, og fikk det til å høres ut som om jeg ville ha leiligheten for meg selv.",
+      "suggestion": "Kanskje det kjentes risikabelt å vise at du fortsatt ønsket selskap, i tilfelle det var mer enn hun ville gi."
     }
   ],
   "case-michael": [
     {
       "id": "dp_empathic-conjectures_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -137,7 +161,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -149,7 +173,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -161,7 +185,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -173,7 +197,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -185,7 +209,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -197,7 +221,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -209,7 +233,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -221,7 +245,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -233,7 +257,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -241,13 +265,37 @@
       ],
       "text": "[Fast] Jeg driver ikke med følelser; jeg spør hva vi skal gjøre med det.",
       "suggestion": "Du går raskt mot handling; kanskje følelser kjennes for blottstillende å bli værende med lenge."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Kort] Jeg kunne ha bedt om hjelp med rapporten. I stedet jobbet jeg til midnatt. Jeg vil ikke at folk skal tro de må bære meg.",
+      "suggestion": "Jeg lurer på om det å trenge hjelp kjennes nært det å bli sett som en som ikke duger."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Irritert, senker stemmen] Sønnen min spurte stadig om jeg kom på kampen. Jeg sa at jeg allerede hadde svart ja. Jeg har tenkt på ansiktet hans siden.",
+      "suggestion": "Kanskje det gjorde vondt at han spurte igjen, fordi det tydet på at han ikke var sikker på om han kunne regne med deg."
     }
   ],
   "case-jason": [
     {
       "id": "dp_empathic-conjectures_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -259,7 +307,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -271,7 +319,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -283,7 +331,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -295,7 +343,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -307,7 +355,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -319,7 +367,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -331,7 +379,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -343,7 +391,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -355,7 +403,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -363,13 +411,37 @@
       ],
       "text": "[Skamfull] Jeg holder meg stille selv når jeg har en god idé, og så spiller jeg den om igjen hele dagen.",
       "suggestion": "Du holder deg skjult og fortsetter å spille det om igjen; kanskje det å si noe kjennes risikabelt, men stillheten gir skam."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Nølende] Jeg sier jeg er opptatt når folk inviterer meg. Så sjekker jeg om de dro uten meg. Jeg vet at det ikke gir så mye mening.",
+      "suggestion": "Kanskje du vil være med, og det å si du er opptatt beskytter deg mot å finne ut hvordan det ville vært å bli med dem."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Lavmælt] Jeg sa ikke til vennen min at jeg hadde hatt en dårlig dag. Jeg spurte om hans i stedet. Jeg håpet stadig han ville merke at jeg sa lite.",
+      "suggestion": "Jeg lurer på om du ønsket at han skulle se at du trengte omsorg, uten at du måtte ta sjansen på å be om den."
     }
   ],
   "case-laura": [
     {
       "id": "dp_empathic-conjectures_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -381,7 +453,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -393,7 +465,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -405,7 +477,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -417,7 +489,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -429,7 +501,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -441,7 +513,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -453,7 +525,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -465,7 +537,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -477,7 +549,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -485,13 +557,37 @@
       ],
       "text": "[Anspent og skamfull] Hvis jeg gråter, unnskylder jeg meg før noen rekker å reagere.",
       "suggestion": "Unnskyldningen kommer før noen har gjort noe; jeg lurer på om tårer bærer en gammel forventning om fare, skyld eller omsorg som ikke var trygg."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-laura_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[På vakt] Når venninnen min tilbyr seg å komme, sier jeg at jeg jobber. Jeg jobbet ikke i går kveld. Jeg så stadig på mobilen.",
+      "suggestion": "Kanskje det beskytter deg å holde henne utenfor, samtidig som noe i deg fortsatt håper at hun skal ta kontakt."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-laura_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flatt, ser bort] Det gjør meg ikke noe at han leverte tilbake nøkkelen. Det er avklart. Men jeg har ikke fjernet navnet hans fra kontaktene ennå.",
+      "suggestion": "Jeg lurer på om det å fjerne navnet hans ville gjort bruddet mer endelig enn du er klar for akkurat nå."
     }
   ],
   "case-carlos": [
     {
       "id": "dp_empathic-conjectures_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -503,7 +599,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -515,7 +611,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -527,7 +623,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -539,7 +635,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -551,7 +647,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -563,7 +659,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -575,7 +671,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -587,7 +683,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -599,7 +695,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -607,13 +703,37 @@
       ],
       "text": "[Redd] Jeg vil gjøre det bedre for familien min, og så hører jeg meg selv høres ut som mennene jeg hatet.",
       "suggestion": "Jeg lurer på om det under viljen til endring ligger frykt og sorg over å bli en som familien din må være på vakt rundt."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-carlos_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[I forsvar] Gutta kan spøke om meg. Jeg spøker om dem. Men da den nye fyren slengte seg på, måtte jeg sette ham på plass.",
+      "suggestion": "Kan det være en bekymring for at du ville mistet respekt foran de andre hvis du lot vitsen hans passere?"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-carlos_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Anspent, så stille] Datteren min ba onkelen hjelpe i stedet for meg. Jeg sa greit. Så fant jeg en grunn til å dra før han kom.",
+      "suggestion": "Kanskje det gjorde vondt at hun gikk til en annen, og det å dra gjorde at du slapp å vise den såretheten."
     }
   ],
   "case-nina": [
     {
       "id": "dp_empathic-conjectures_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -625,7 +745,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -637,7 +757,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -649,7 +769,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -661,7 +781,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -673,7 +793,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -685,7 +805,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -697,7 +817,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -709,7 +829,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -721,7 +841,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -729,13 +849,37 @@
       ],
       "text": "[Sliten] Hvis jeg roer ned etter at alle har sovnet, stiger en klump i halsen.",
       "suggestion": "Klumpen kommer når ingen trenger deg; kanskje er sorgen nær og ber om å bli sett."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nina_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Smiler] De sa jeg ikke trengte ta med noe. Jeg lagde mat likevel. Det ville føltes rart å komme tomhendt.",
+      "suggestion": "Jeg lurer på om det å ha med noe hjelper deg å føle deg sikker på at det er en plass til deg der."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nina_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Unnskyldende] Jeg sier til alle at jeg gjerne ordner det. Så blir jeg irritert når ingen tilbyr hjelp. De kan ikke lese tankene mine, så det er vel min feil.",
+      "suggestion": "Kanskje det kjennes risikabelt å spørre direkte, som om det å trenge hjelp kan endre hvordan de ser deg."
     }
   ],
   "case-aisha": [
     {
       "id": "dp_empathic-conjectures_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -747,7 +891,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -759,7 +903,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -771,7 +915,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -783,7 +927,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -795,7 +939,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -807,7 +951,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -819,7 +963,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -831,7 +975,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -843,7 +987,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -851,13 +995,37 @@
       ],
       "text": "[Panisk] Jeg får panikk når jeg skal si farvel, selv når jeg vet at du kommer tilbake.",
       "suggestion": "Farvel utløser panikk selv når hodet vet bedre; jeg lurer på om avskjeder berører den gamle frykten for at ingen kommer tilbake."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-aisha_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Skarpt, så avventende] Ikke si du kommer til å huske meg neste uke. Du sier det fordi du må. Men jeg lurer stadig på om du har tenkt på meg mellom timene.",
+      "suggestion": "Jeg lurer på om ønsket om å bety noe for meg mellom timene også gjør deg på vakt mot et svar som kan skuffe deg."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-aisha_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Trassig, ustø stemme] Jeg sa jeg ikke trengte vennskapet lenger. Slettet nummeret hennes. Jeg kan det fortsatt utenat, så det gjorde egentlig ingen forskjell.",
+      "suggestion": "Kanskje det å si at du ikke trengte henne, var en måte å komme frykten for at hun ikke trengte deg i forkjøpet."
     }
   ],
   "case-david": [
     {
       "id": "dp_empathic-conjectures_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -869,7 +1037,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -881,7 +1049,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -893,7 +1061,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -905,7 +1073,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -917,7 +1085,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -929,7 +1097,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -941,7 +1109,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -953,7 +1121,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -965,7 +1133,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -973,13 +1141,37 @@
       ],
       "text": "[Kontrollert] Hvis kona mi blir, føler jeg meg fanget og kritisert; hvis hun går, føler jeg meg ydmyket. Det finnes ingen måte å vinne på.",
       "suggestion": "Begge alternativene truer deg; jeg lurer på om de berører den samme frykten for å bli sett som ikke god nok."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-david_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Kjølig] Jeg dro ikke i avskjedsmiddagen. Den var ikke viktig. Jeg merket meg likevel at ingen tok kontakt etterpå for å spørre hvorfor.",
+      "suggestion": "Jeg lurer på om det å ikke bli spurt traff et ønske om å være savnet, selv mens du sa til deg selv at middagen ikke betydde noe."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-david_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Behersket] Jeg trenger ikke konas godkjenning. Men når hun takker naboen for hjelp, tar jeg meg i å ramse opp alt jeg har gjort den uken.",
+      "suggestion": "Kanskje takken hennes til ham vekker en frykt for at det du gir, ikke lenger er nok til å bety noe for henne."
     }
   ],
   "case-marcus": [
     {
       "id": "dp_empathic-conjectures_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -991,7 +1183,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1003,7 +1195,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1015,7 +1207,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1027,7 +1219,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1039,7 +1231,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1051,7 +1243,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1063,7 +1255,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1075,7 +1267,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1087,7 +1279,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1095,6 +1287,30 @@
       ],
       "text": "[Flatt] Jeg sier til meg selv at jeg har det bedre alene. Nærhet blir fort komplisert.",
       "suggestion": "Den delen virker beskyttende; jeg lurer på om den frykter at nærhet betyr å såre noen, bli såret eller miste kontrollen igjen."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-marcus_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flatt] Jeg kastet naboens invitasjon. Tok den opp igjen. Har ikke svart.",
+      "suggestion": "Kanskje det finnes et ønske om selskap der, ved siden av behovet for å holde avstand."
+    },
+    {
+      "id": "dp_empathic-conjectures_case-marcus_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[På vakt] Jeg ber ikke folk huske datoen. Merker det likevel når ingen gjør det. Gir ikke mye mening.",
+      "suggestion": "Jeg lurer på om du ønsker at tapet skal bety noe for en annen også, uten at du må forklare alt."
     }
   ]
 }

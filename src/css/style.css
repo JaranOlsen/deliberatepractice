@@ -1918,8 +1918,8 @@ input[type="email"] {
 .triad-steps li { padding-top: 0.5rem; border-top: 3px solid var(--color-border); overflow-wrap: anywhere; }
 .triad-steps li[aria-current="step"] { border-color: var(--card-accent); color: var(--card-accent-strong); font-weight: 700; }
 .triad-steps .is-complete { border-color: var(--card-accent); }
-.triad-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.7rem; }
-.triad-actions .primary-button { flex: 1 1 12rem; }
+.triad-actions { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: stretch; gap: .7rem; min-width: 0; }
+.triad-actions > button { min-width: 0; max-width: 100%; min-height: 48px; white-space: normal; overflow-wrap: anywhere; }
 #triad-retry-hint { flex-basis: 100%; margin: 0; }
 .leave-actions { display: grid; gap: 0.75rem; }
 #rating-status:not(:empty) { color: var(--color-text); }
@@ -1934,7 +1934,8 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 @media (max-width: 520px) {
   .skill-summary-header { flex-direction: column; gap: 0.7rem; }
   .skill-summary-header .ghost-button { white-space: normal; }
-  .triad-actions .primary-button, .triad-actions .ghost-button { width: 100%; flex: 0 1 auto; }
+  .triad-actions { grid-template-columns: minmax(0, 1fr); }
+  .triad-actions > button { width: 100%; }
   .panel-header { gap: 0.6rem; }
   .panel-title { min-width: 0; overflow-wrap: anywhere; }
   .resume-card { flex-wrap: wrap; }
@@ -1953,8 +1954,8 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 /* Keep the skill criterion close to the individual attempt. */
 .individual-guide {
   padding: 1rem 1.15rem;
-  border-left: 3px solid var(--color-accent);
-  background: rgba(255, 255, 255, 0.55);
+  border-left: 3px solid var(--card-accent);
+  background: color-mix(in srgb, var(--card-accent-faint), white 30%);
   border-radius: 0 0.75rem 0.75rem 0;
 }
 .individual-guide p { margin: 0.4rem 0 0; }
@@ -2044,7 +2045,7 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 .room-dialog p { line-height: 1.6; }
 .room-dialog button, .room-dialog input, .room-dialog select { max-width: 100%; }
 .room-dialog form { display: grid; gap: .75rem; }
-.room-dialog input, .room-dialog select { padding: .8rem; border: 1px solid #a9bcb5; border-radius: .6rem; font: inherit; background: white; }
+.room-dialog input, .room-dialog select { padding: .8rem; border: 1px solid color-mix(in srgb, var(--card-accent), white 60%); border-radius: .6rem; font: inherit; background: white; }
 .room-dialog label { font-weight: 650; }
 .room-code-row { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; padding-top: .7rem; }
 #room-share-code { letter-spacing: .1em; font-size: 1.3rem; overflow-wrap: anywhere; }
@@ -2054,7 +2055,7 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 #room-content { margin-top: 1.2rem; padding: 1.5rem; border-radius: 1rem; background: white; box-shadow: 0 5px 24px #27453b0d; }
 #room-content h3, #room-content h4 { line-height: 1.4; }
 #room-content .triad-role-badge { display: inline-block; }
-.room-statement { margin: 1.5rem 0; padding-left: 1rem; border-left: 3px solid #719e89; }
+.room-statement { margin: 1.5rem 0; }
 .room-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1.2rem 0; }
 #room-error, #room-status { overflow-wrap: anywhere; }
 #room-error { color: #96372d; }
@@ -2110,7 +2111,7 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 #room-content h3 { margin: .25rem 0 .75rem; font-size: 1.1rem; }
 #room-content h4 { margin: .5rem 0; font-size: 1.1rem; }
 #room-content .triad-progress { font-size: .8rem; margin: .5rem 0; }
-#room-content .room-preparation { padding: .75rem; border-radius: .75rem; background: #f3f7f5; }
+#room-content .room-preparation { padding: 1rem; border-radius: 10px; background: linear-gradient(155deg, #fff, var(--card-accent-faint)); border: 1px solid color-mix(in srgb, var(--card-accent), white 72%); border-left: 3px solid var(--card-accent); }
 .room-preparation p { font-size: .95rem; }
 .room-preparation p:first-child { margin-top: 0; }
 .room-preparation p:last-child { margin-bottom: 0; }
@@ -2135,8 +2136,8 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
   .room-panel { padding: 1rem; }
   .room-panel:has(#room-actions:not([hidden])) { padding-bottom: calc(6rem + env(safe-area-inset-bottom)); }
   .room-panel:has(#room-save:not([hidden])) { padding-bottom: calc(9rem + env(safe-area-inset-bottom)); }
-  .room-actions { position: fixed; bottom: 0; left: 0; right: 0; z-index: 20; background: #f7faf8;
-    border-top: 1px solid var(--color-border); padding: .65rem .9rem max(.65rem, env(safe-area-inset-bottom)); gap: .5rem; }
+  .room-actions { position: fixed; bottom: 0; left: 0; right: 0; z-index: 20; background: var(--card-accent-faint);
+    border-top: 1px solid color-mix(in srgb, var(--card-accent), white 68%); padding: .65rem .9rem max(.65rem, env(safe-area-inset-bottom)); gap: .5rem; }
   .room-actions > button { width: auto; }
   #room-next, #room-save, #room-done, #room-rotate, #room-retry { flex: 1 1 0; font-size: .9rem; }
   #room-another { flex: 0 1 auto; }
@@ -2155,8 +2156,8 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 #shared-device { width: 20px; height: 20px; flex: 0 0 20px; }
 
 .room-workflow { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; padding: 0; margin: .25rem 0 .75rem; list-style: none; }
-.room-workflow li { display: flex; align-items: center; gap: .5rem; padding: .65rem; border: 1px solid var(--color-border); border-radius: .6rem; background: #f3f7f5; min-width: 0; font-size: .9rem; line-height: 1.4; }
-.room-workflow-number { display: grid; place-items: center; flex: 0 0 1.6rem; height: 1.6rem; border-radius: 50%; background: var(--color-accent); color: white; font-weight: 700; }
+.room-workflow li { display: flex; align-items: center; gap: .5rem; padding: .65rem; border: 1px solid var(--color-border); border-radius: .6rem; background: color-mix(in srgb, var(--card-accent-soft), white 63%); min-width: 0; font-size: .9rem; line-height: 1.4; }
+.room-workflow-number { display: grid; place-items: center; flex: 0 0 1.6rem; height: 1.6rem; border-radius: 50%; background: var(--card-accent); color: white; font-weight: 700; }
 .room-workflow-guide > summary { font-weight: 650; }
 .room-workflow li.room-workflow-rating { border-style: dashed; background: transparent; }
 .room-workflow-rating small { display: block; color: var(--color-muted); margin-top: .2rem; font-size: .75rem; }
@@ -2164,18 +2165,18 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 .room-retry-example { margin-top: .65rem; }
 .room-retry-example p { margin: .5rem 0; }
 .room-retry-example > .response-hint { font-size: .8rem; }
-.room-example-text { padding-left: .75rem; border-left: 2px solid var(--color-accent); }
+.room-example-text { padding-left: .75rem; border-left: 2px solid var(--card-accent); }
 @media (max-width: 360px) { .room-workflow li { padding: .5rem; gap: .35rem; font-size: .8rem; } }
 
-.room-role-guide { margin: .75rem 0; border: 1px solid var(--color-border); border-radius: .75rem; background: #f3f7f5; }
+.room-role-guide { margin: .75rem 0; border: 1px solid color-mix(in srgb, var(--card-accent), white 68%); border-radius: .75rem; background: color-mix(in srgb, var(--card-accent-soft), white 63%); }
 .room-role-guide > summary { display: flex; align-items: center; justify-content: space-between; gap: .75rem; padding: .65rem .8rem; min-height: 52px; list-style: none; }
 .room-role-guide > summary::-webkit-details-marker { display: none; }
 .room-role-guide > summary strong, .room-role-guide > summary small { display: block; }
 .room-role-guide > summary strong { font-size: .95rem; font-weight: 650; }
 .room-role-guide > summary small { margin-top: .15rem; color: var(--color-muted); font-size: .8rem; line-height: 1.4; }
-.room-role-guide > summary::after { content: '+'; flex: 0 0 auto; font-size: 1.3rem; color: var(--color-accent); }
+.room-role-guide > summary::after { content: '+'; flex: 0 0 auto; font-size: 1.3rem; color: var(--card-accent-strong); }
 .room-role-guide[open] > summary::after { content: '−'; }
-.room-role-guide > summary:focus-visible { outline: 3px solid var(--color-accent); outline-offset: 3px; border-radius: .75rem; }
+.room-role-guide > summary:focus-visible { outline: 3px solid var(--card-accent-strong); outline-offset: 3px; border-radius: .75rem; }
 .room-role-guide-body { padding: 0 .8rem .3rem; }
 .room-role-guide-focus { padding: .6rem .7rem; margin: .25rem 0 .5rem; background: white; border-radius: .5rem; }
 .room-role-guide-focus strong, .room-role-step dt { font-size: .85rem; font-weight: 650; }
@@ -2187,3 +2188,19 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
   .room-role-step { display: grid; grid-template-columns: 7rem minmax(0, 1fr); gap: .75rem; }
   .room-role-step dd { margin: 0; }
 }
+
+/* Shared content and colour cues across both group formats. */
+#shared-group-guidance, .room-dialog, #room-content { min-width: 0; }
+#shared-group-guidance .room-workflow-guide > summary { min-height: 44px; padding: .6rem 0; cursor: pointer; }
+.room-workflow-guide > summary, .room-role-step dt { color: var(--card-accent-strong); }
+.shared-group-workspace .statement-controls { justify-content: flex-end; }
+.shared-group-workspace .triad-actions { margin-top: .25rem; }
+.room-practice-heading { color: var(--card-accent-strong); overflow-wrap: anywhere; }
+.room-case-heading { display: inline-block; margin: 0 0 .5rem; padding: .3rem .6rem; border-radius: 2rem;
+  color: var(--card-accent-strong); background: var(--card-accent-soft); font-size: .9rem; font-weight: 650; }
+.room-panel .triad-role-badge { background: var(--card-accent-soft); color: var(--card-accent-strong); }
+.room-panel .room-details { border-color: color-mix(in srgb, var(--card-accent), white 72%); background: var(--card-accent-faint); }
+.room-panel .room-statement { margin: 0; }
+.triad-debrief summary { min-height: 44px; padding: .6rem 0; cursor: pointer; color: var(--card-accent-strong); font-weight: 650; }
+.room-panel[data-phase="round_debrief"] #room-content { padding: 1rem; border-radius: 12px;
+  border: 1px solid color-mix(in srgb, var(--card-accent), white 58%); background: linear-gradient(155deg, #fff, color-mix(in srgb, var(--card-accent-soft), white 50%)); }

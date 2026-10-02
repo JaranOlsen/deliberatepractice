@@ -3,7 +3,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -15,7 +15,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -27,7 +27,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -39,7 +39,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -51,7 +51,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -63,7 +63,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -75,7 +75,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -87,7 +87,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -99,7 +99,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -111,7 +111,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -119,13 +119,37 @@
       ],
       "text": "[Lavmælt] Når du er snill mot meg, blir jeg brydd og ser bort.",
       "suggestion": "Vennligheten kommer nær, nesten for varm å ta inn, så blikket faller til tryggere grunn."
+    },
+    {
+      "id": "dp_empathic-evocations_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Saklig] Jeg tok navnet hans av postkassen. Det måtte gjøres. Det var vanskeligere å komme hjem etterpå enn jeg hadde ventet.",
+      "suggestion": "Som om den lille endringen ved døra gjorde fraværet der inne mye større."
+    },
+    {
+      "id": "dp_empathic-evocations_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Behersket] Jeg fyller kveldene med ting. Når jeg ikke har planer, merker jeg hvor mye jeg savner noen å fortelle de små tingene til.",
+      "suggestion": "Alt du holder på med blir stille, og der er den tomme plassen der dagens små historier pleide å lande."
     }
   ],
   "case-michael": [
     {
       "id": "dp_empathic-evocations_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -137,7 +161,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -149,7 +173,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -161,7 +185,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -173,7 +197,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -185,7 +209,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -197,7 +221,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -209,7 +233,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -221,7 +245,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -233,7 +257,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -241,13 +265,37 @@
       ],
       "text": "[Skamfull] Om natten spiller jeg av krangelen og hører hvor skarp jeg hørtes ut.",
       "suggestion": "Huset blir stille, men din egen stemme fortsetter å runge på kjøkkenet, fortsatt skarp etter at krangelen er over."
+    },
+    {
+      "id": "dp_empathic-evocations_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Kort] Én liten korrigering i en god rapport. Jeg hørte ikke noe annet av det de sa. Det er irriterende.",
+      "suggestion": "Den ene korrigeringen fyller hele rommet, og det gode arbeidet krymper ut av syne."
+    },
+    {
+      "id": "dp_empathic-evocations_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Behersket] Jeg vet at sønnen min bare ber om hjelp. Likevel føler jeg at jeg har sviktet ham når jeg ikke kan svare med en gang.",
+      "suggestion": "Selv et lite spørsmål setter deg liksom i et skarpt lys der du må ha svaret med en gang."
     }
   ],
   "case-jason": [
     {
       "id": "dp_empathic-evocations_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -259,7 +307,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -271,7 +319,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -283,7 +331,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -295,7 +343,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -307,7 +355,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -319,7 +367,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -331,7 +379,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -343,7 +391,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -355,7 +403,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -363,13 +411,37 @@
       ],
       "text": "[Stille] I grupper følger jeg med på hvor utgangen er før jeg blir med i samtalen.",
       "suggestion": "Utgangen blir det tryggeste stedet i rommet, stedet blikket holder fast i når oppmerksomheten kommer for nær."
+    },
+    {
+      "id": "dp_empathic-evocations_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flatt] Alle i gruppechatten visste visst hva de skulle si. Jeg skrev et svar, så på det og lot være å sende.",
+      "suggestion": "Samtalen går videre, og du står i utkanten med ord du ikke helt får sluppet ut."
+    },
+    {
+      "id": "dp_empathic-evocations_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Saklig] Jeg gikk gjennom hilsenen hele kvelden. Den varte i kanskje fem sekunder. Det er irriterende at jeg ikke klarer å la den være.",
+      "suggestion": "De fem sekundene kommer stadig tilbake, som et lite klipp du ikke får stoppet."
     }
   ],
   "case-laura": [
     {
       "id": "dp_empathic-evocations_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -381,7 +453,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -393,7 +465,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -405,7 +477,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -417,7 +489,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -429,7 +501,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -441,7 +513,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -453,7 +525,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -465,7 +537,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -477,7 +549,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -485,13 +557,37 @@
       ],
       "text": "[Flatt og på vakt] Jeg har en bag pakket ved døra. Jeg vet det høres dramatisk ut, men jeg sover bedre når jeg vet at den står der.",
       "suggestion": "Bagen står der som en stille utvei, og hjelper den delen av deg som aldri helt stoler på huset, til å roe seg litt."
+    },
+    {
+      "id": "dp_empathic-evocations_case-laura_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flatt] Jeg pakket de siste tingene hans. Etterpå var leiligheten ryddig, og jeg visste ikke hva jeg skulle gjøre med meg selv.",
+      "suggestion": "Alt er på plass nå, men du blir stående i et rom som ennå ikke kjennes som ditt."
+    },
+    {
+      "id": "dp_empathic-evocations_case-laura_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[På vakt] Venninnen min var snill. Jeg sa takk. Jeg lot det egentlig ikke gå inn på meg før hun hadde gått.",
+      "suggestion": "Kanskje omsorgen først når inn når døra er lukket og du ikke lenger må passe på åpningen."
     }
   ],
   "case-carlos": [
     {
       "id": "dp_empathic-evocations_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -503,7 +599,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -515,7 +611,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -527,7 +623,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -539,7 +635,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -551,7 +647,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -563,7 +659,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -575,7 +671,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -587,7 +683,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -599,7 +695,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -607,13 +703,37 @@
       ],
       "text": "[Bekymret] Jeg er redd sønnen min lærer å sjekke humøret mitt før han bestemmer seg for om det er trygt å snakke.",
       "suggestion": "Den frykten treffer hardt, tanken på at sinnet ditt kan bli været han sjekker før han våger å komme nær."
+    },
+    {
+      "id": "dp_empathic-evocations_case-carlos_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Kort] Han sa det foran laget. Jeg gjorde jobben ferdig. Jeg tenkte fortsatt på det hjemme.",
+      "suggestion": "Du fortsatte å jobbe, men stikket fra det som ble sagt foran alle, ble med deg lenge etter at skiftet var over."
+    },
+    {
+      "id": "dp_empathic-evocations_case-carlos_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Behersket] Datteren min ser an situasjonen før hun snakker til meg. Jeg merker det. Jeg liker ikke hva det sier om hvordan vi har det hjemme.",
+      "suggestion": "Det er en pause mellom dere nå, som om hun må prøve underlaget før hun tar et skritt mot deg."
     }
   ],
   "case-nina": [
     {
       "id": "dp_empathic-evocations_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -625,7 +745,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -637,7 +757,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -649,7 +769,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -661,7 +781,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -673,7 +793,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -685,7 +805,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -697,7 +817,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -709,7 +829,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -721,7 +841,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -729,13 +849,37 @@
       ],
       "text": "[Ensom] Jeg venter fortsatt på at eksen min skal legge merke til hvor sliten jeg er, selv om han ikke bor her lenger og sikkert aldri la merke til det.",
       "suggestion": "En del av deg ser fortsatt etter at han skal løfte blikket, venter på at det gamle livet endelig skal se hvor mye du bar."
+    },
+    {
+      "id": "dp_empathic-evocations_case-nina_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Saklig] Jeg brukte ettermiddagen på å finne det alle andre ønsket seg. Da de spurte hva jeg ville ha, kom jeg ikke på noe.",
+      "suggestion": "Du har gitt så mye plass til andres ønsker at dine egne ligger gjemt et sted du knapt når fram til."
+    },
+    {
+      "id": "dp_empathic-evocations_case-nina_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Smiler, distansert] De sa jeg alltid får ting til å gå rundt. Det var ment som et kompliment. Jeg ble sliten av å høre det.",
+      "suggestion": "Komplimentet lander nesten som enda en byrde i armene som allerede bærer alt."
     }
   ],
   "case-aisha": [
     {
       "id": "dp_empathic-evocations_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -747,7 +891,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -759,7 +903,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -771,7 +915,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -783,7 +927,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -795,7 +939,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -807,7 +951,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -819,7 +963,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -831,7 +975,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -843,7 +987,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -851,13 +995,37 @@
       ],
       "text": "[Panisk] Jeg sjekker døra mens vi snakker, fordi en del av meg forventer at du reiser deg og går hvis jeg sier for mye.",
       "suggestion": "Blikket ditt vokter døråpningen, følger med på øyeblikket der jeg kan forsvinne fordi behovet ble for synlig."
+    },
+    {
+      "id": "dp_empathic-evocations_case-aisha_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flatt, tydelig] Jeg sletter samtalen for å ikke sjekke den. Så åpner jeg den tomme skjermen. Det gjør jeg også.",
+      "suggestion": "Selv når meldingene er borte, er det som om du fortsatt venter ved den samme døra på at noen skal komme tilbake."
+    },
+    {
+      "id": "dp_empathic-evocations_case-aisha_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[På vakt] Det er greit i dag. Jeg vil ikke venne meg til det. Det er som regel da noe endrer seg.",
+      "suggestion": "Du merker roen like ved, men holder en hånd på alarmen i tilfelle den forsvinner."
     }
   ],
   "case-david": [
     {
       "id": "dp_empathic-evocations_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -869,7 +1037,7 @@
     {
       "id": "dp_empathic-evocations_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -881,7 +1049,7 @@
     {
       "id": "dp_empathic-evocations_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -893,7 +1061,7 @@
     {
       "id": "dp_empathic-evocations_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -905,7 +1073,7 @@
     {
       "id": "dp_empathic-evocations_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -917,7 +1085,7 @@
     {
       "id": "dp_empathic-evocations_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -929,7 +1097,7 @@
     {
       "id": "dp_empathic-evocations_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -941,7 +1109,7 @@
     {
       "id": "dp_empathic-evocations_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -953,7 +1121,7 @@
     {
       "id": "dp_empathic-evocations_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -965,7 +1133,7 @@
     {
       "id": "dp_empathic-evocations_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -973,13 +1141,37 @@
       ],
       "text": "[Kontrollert] Etter at affæren kom fram, kjennes hjemmet annerledes; folk bruker fortsatt de samme rommene, men jeg vet ikke hvor jeg står.",
       "suggestion": "Huset har de samme rommene, men varmen har lekket ut, og du står igjen uten et tydelig sted å høre til."
+    },
+    {
+      "id": "dp_empathic-evocations_case-david_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Kjølig] Middagen var vellykket. Alle roste huset. Da de gikk, føltes det påfallende tomt. Det er ingen klage, bare en observasjon.",
+      "suggestion": "Applausen følger gjestene ut, og du blir stående i stillheten den ikke lenger fyller."
+    },
+    {
+      "id": "dp_empathic-evocations_case-david_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Behersket] Jeg har skrevet om e-posten flere ganger. Det er ikke noe galt med den nå. Å sende den gir dem likevel for mye mulighet til å bedømme meg.",
+      "suggestion": "Du fortsetter å polere overflaten, men å sende den kjennes fortsatt som å gå ut uten noe å skjule seg bak."
     }
   ],
   "case-marcus": [
     {
       "id": "dp_empathic-evocations_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -991,7 +1183,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1003,7 +1195,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1015,7 +1207,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1027,7 +1219,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1039,7 +1231,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1051,7 +1243,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1063,7 +1255,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1075,7 +1267,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1087,7 +1279,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1095,6 +1287,30 @@
       ],
       "text": "[Flatt] Noen kvelder sitter jeg i bilen før jeg går opp, fordi når jeg først åpner leilighetsdøra, er det ingenting å gjøre annet enn å være der.",
       "suggestion": "Den stille bilen blir et siste lite ly før du må gå inn i den tomme leiligheten."
+    },
+    {
+      "id": "dp_empathic-evocations_case-marcus_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flatt] Jeg lar TV-en stå på. Ser ikke på den. Det er verre når rommet er stille.",
+      "suggestion": "Lyden ser ut til å holde litt avstand mellom deg og det stillheten bringer nær."
+    },
+    {
+      "id": "dp_empathic-evocations_case-marcus_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[På vakt] Jeg kjente igjen håndskriften på konvolutten. La den i en skuff. Har ikke åpnet den. Vil ikke se den heller.",
+      "suggestion": "Den kjente håndskriften ser ut til å bringe noe så nær at du trenger en skuff mellom deg og det."
     }
   ]
 }

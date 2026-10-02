@@ -3,7 +3,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -14,7 +14,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -25,7 +25,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -36,7 +36,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -47,7 +47,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -58,7 +58,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -69,7 +69,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -80,7 +80,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -91,7 +91,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -102,20 +102,42 @@
     {
       "id": "dp_empathic-understanding_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Lavmælt] En del av meg går gjennom samtaler om igjen og prøver å finne øyeblikket der han bestemte seg for at jeg ikke var verdt å bli hos.",
       "suggestion": "Du leter fortsatt etter øyeblikket der han sluttet å ville bli."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Trist] Jeg setter fortsatt fram to tallerkener noen ganger. Så setter jeg den ene tilbake før jeg spiser. Middagen er den ensomste delen av dagen.",
+      "suggestion": "Når du setter deg til middag, kjenner du hvor mye du savner å ha ham der."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Lettet] Jeg var sammen med søsteren min en ettermiddag og hadde det faktisk fint. I noen timer prøvde jeg ikke å finne ut hva jeg hadde gjort galt.",
+      "suggestion": "Det var en lettelse å ha det fint sammen med henne uten å klandre deg selv en stund."
     }
   ],
   "case-michael": [
     {
       "id": "dp_empathic-understanding_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -126,7 +148,7 @@
     {
       "id": "dp_empathic-understanding_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -137,7 +159,7 @@
     {
       "id": "dp_empathic-understanding_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -148,7 +170,7 @@
     {
       "id": "dp_empathic-understanding_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -159,7 +181,7 @@
     {
       "id": "dp_empathic-understanding_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -170,7 +192,7 @@
     {
       "id": "dp_empathic-understanding_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -181,7 +203,7 @@
     {
       "id": "dp_empathic-understanding_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -192,7 +214,7 @@
     {
       "id": "dp_empathic-understanding_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -203,7 +225,7 @@
     {
       "id": "dp_empathic-understanding_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -214,20 +236,42 @@
     {
       "id": "dp_empathic-understanding_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Skamfull] Om natten spiller jeg av det jeg sa til kona mi, særlig blikket hennes, og jeg får det forferdelig.",
       "suggestion": "Om natten spiller du av ansiktet hennes og får det vondt med det som skjedde."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Frustrert] Fristen ble flyttet igjen. Jeg brukte hele helgen på å bli ferdig med rapporten, og nå virker det som om den innsatsen ikke teller.",
+      "suggestion": "Du er frustrert over at du ga fra deg helgen, og at innsatsen din virker verdiløs."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Skuffet] Sønnen min spurte onkelen om å bli med på skolearrangementet, ikke meg. Jeg vet at jeg har vært opptatt. Det gjorde likevel vondt å ikke bli spurt.",
+      "suggestion": "Du forstår at du har vært opptatt, og det gjør likevel vondt at han valgte noen andre."
     }
   ],
   "case-jason": [
     {
       "id": "dp_empathic-understanding_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -238,7 +282,7 @@
     {
       "id": "dp_empathic-understanding_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -249,7 +293,7 @@
     {
       "id": "dp_empathic-understanding_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -260,7 +304,7 @@
     {
       "id": "dp_empathic-understanding_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -271,7 +315,7 @@
     {
       "id": "dp_empathic-understanding_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -282,7 +326,7 @@
     {
       "id": "dp_empathic-understanding_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -293,7 +337,7 @@
     {
       "id": "dp_empathic-understanding_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -304,7 +348,7 @@
     {
       "id": "dp_empathic-understanding_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -315,7 +359,7 @@
     {
       "id": "dp_empathic-understanding_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -326,20 +370,42 @@
     {
       "id": "dp_empathic-understanding_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[På gråten] Søndagskveldene er vanskelige fordi jeg skjønner at ingen venter på å høre fra meg før uka begynner igjen.",
       "suggestion": "Søndagskveldene gjør deg smertefullt klar over at ingen venter på å høre fra deg."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Bekymret] Det er lunsj med teamet i morgen. Jeg tenker allerede på hvor jeg skal sitte og om noen vil snakke med meg.",
+      "suggestion": "Du er bekymret for å finne en plass ved lunsjen og for å bli sittende alene."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Glad] En på jobben husket noe jeg fortalte forrige uke. Jeg ble glad for at personen husket meg. Det gjorde dagen lettere.",
+      "suggestion": "Det gjorde deg glad å bli husket, og du kjente deg litt mer til rette."
     }
   ],
   "case-laura": [
     {
       "id": "dp_empathic-understanding_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -350,7 +416,7 @@
     {
       "id": "dp_empathic-understanding_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -361,7 +427,7 @@
     {
       "id": "dp_empathic-understanding_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -372,7 +438,7 @@
     {
       "id": "dp_empathic-understanding_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -383,7 +449,7 @@
     {
       "id": "dp_empathic-understanding_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -394,7 +460,7 @@
     {
       "id": "dp_empathic-understanding_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -405,7 +471,7 @@
     {
       "id": "dp_empathic-understanding_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -416,7 +482,7 @@
     {
       "id": "dp_empathic-understanding_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -427,7 +493,7 @@
     {
       "id": "dp_empathic-understanding_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -438,20 +504,42 @@
     {
       "id": "dp_empathic-understanding_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Forvirret] Jeg vet ikke helt hva jeg burde snakke om her. Jeg kunne snakket om søvn, skilsmissen, jobb eller barndommen, men mest av alt vet jeg bare at jeg ikke føler meg som meg selv.",
       "suggestion": "Det finnes flere steder å begynne, og under dem ligger følelsen av at du ikke er deg selv."
+    },
+    {
+      "id": "dp_empathic-understanding_case-laura_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flatt, med et sukk] Regningen kom adressert til oss begge igjen. Jeg vet at det er en feil. Jeg blir likevel lei av påminnelsene, og av å ikke føle noe når jeg synes jeg burde bli lei meg.",
+      "suggestion": "Du er sliten av påminnelsen og urolig over at tristheten du forventer, ikke er der."
+    },
+    {
+      "id": "dp_empathic-understanding_case-laura_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Lavmælt] En venninne tilbød seg å komme innom. Jeg ville ha selskap, men ble urolig ved tanken på å ha noen i leiligheten. Jeg sa nei og angret hele kvelden.",
+      "suggestion": "Du ønsket selskapet hennes, men ble urolig av å slippe henne inn. Etterpå angret du på at du ble alene."
     }
   ],
   "case-carlos": [
     {
       "id": "dp_empathic-understanding_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -462,7 +550,7 @@
     {
       "id": "dp_empathic-understanding_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -473,7 +561,7 @@
     {
       "id": "dp_empathic-understanding_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -484,7 +572,7 @@
     {
       "id": "dp_empathic-understanding_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -495,7 +583,7 @@
     {
       "id": "dp_empathic-understanding_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -506,7 +594,7 @@
     {
       "id": "dp_empathic-understanding_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -517,7 +605,7 @@
     {
       "id": "dp_empathic-understanding_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -528,7 +616,7 @@
     {
       "id": "dp_empathic-understanding_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -539,7 +627,7 @@
     {
       "id": "dp_empathic-understanding_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -550,20 +638,42 @@
     {
       "id": "dp_empathic-understanding_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Skamfull] Jeg vil at familien min skal føle seg trygg med meg. Når de fortsatt skvetter av stemmen min, kjennes det som bevis på at jeg allerede har ødelagt noe.",
       "suggestion": "Du vil at de skal føle seg trygge med deg, og når de skvetter, lander det som bevis på at noe allerede er skadet."
+    },
+    {
+      "id": "dp_empathic-understanding_case-carlos_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Sint, så roligere] Han endret planen for laget mitt uten å spørre. Jeg ble sint. Etterpå var jeg flau over at gutta så hvor lett han fikk meg til å reagere.",
+      "suggestion": "Du er sint over at han overkjørte deg, og flau over at alle så hvor sterkt det gikk inn på deg."
+    },
+    {
+      "id": "dp_empathic-understanding_case-carlos_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Lavmælt] Datteren min ble stille da jeg kom inn på kjøkkenet. Jeg hadde ikke sagt noe engang. Det gjorde mer vondt enn enda en krangel ville gjort.",
+      "suggestion": "Det gjør vondt at det var nok at du kom inn for at hun skulle bli stille."
     }
   ],
   "case-nina": [
     {
       "id": "dp_empathic-understanding_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -574,7 +684,7 @@
     {
       "id": "dp_empathic-understanding_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -585,7 +695,7 @@
     {
       "id": "dp_empathic-understanding_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -596,7 +706,7 @@
     {
       "id": "dp_empathic-understanding_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -607,7 +717,7 @@
     {
       "id": "dp_empathic-understanding_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -618,7 +728,7 @@
     {
       "id": "dp_empathic-understanding_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -629,7 +739,7 @@
     {
       "id": "dp_empathic-understanding_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -640,7 +750,7 @@
     {
       "id": "dp_empathic-understanding_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -651,7 +761,7 @@
     {
       "id": "dp_empathic-understanding_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -662,20 +772,42 @@
     {
       "id": "dp_empathic-understanding_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Sliten] Jeg vet ikke hva jeg skal snakke om i dag. Det er for mange små ting, og jeg håpet du kunne hjelpe meg å finne hvor jeg skal begynne.",
       "suggestion": "Du er sliten og usikker på hvor du skal begynne med så mange småting stablet oppå hverandre."
+    },
+    {
+      "id": "dp_empathic-understanding_case-nina_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Sliten] Jeg hjalp alle de andre med å bli klare til ferien. Da vi dro, brydde jeg meg ikke lenger om hvor vi skulle. Jeg ville bare at ingen skulle trenge meg en dag.",
+      "suggestion": "Du er så utslitt av å ta vare på alle at det du lengter etter, er en dag uten krav."
+    },
+    {
+      "id": "dp_empathic-understanding_case-nina_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Såret, unnskyldende] De takket hele teamet på skolemøtet, men utelot navnet mitt. Jeg vet at det ikke var med vilje. Jeg følte meg likevel oversett, og dum som brydde meg.",
+      "suggestion": "Du følte deg oversett, selv om du visste det ikke var med vilje, og så dømte du deg selv for å bli såret."
     }
   ],
   "case-aisha": [
     {
       "id": "dp_empathic-understanding_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -686,7 +818,7 @@
     {
       "id": "dp_empathic-understanding_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -697,7 +829,7 @@
     {
       "id": "dp_empathic-understanding_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -708,7 +840,7 @@
     {
       "id": "dp_empathic-understanding_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -719,7 +851,7 @@
     {
       "id": "dp_empathic-understanding_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -730,7 +862,7 @@
     {
       "id": "dp_empathic-understanding_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -741,7 +873,7 @@
     {
       "id": "dp_empathic-understanding_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -752,7 +884,7 @@
     {
       "id": "dp_empathic-understanding_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -763,7 +895,7 @@
     {
       "id": "dp_empathic-understanding_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -774,20 +906,42 @@
     {
       "id": "dp_empathic-understanding_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Redd] Jeg er redd for at hvis jeg slutter å jage etter folk, blir det ingenting igjen av meg. Uten krisen, uten å prøve å få noen tilbake, vet jeg ikke hvem jeg er.",
       "suggestion": "Uten jakten og krisen frykter du at det ikke blir igjen noen klar følelse av deg."
+    },
+    {
+      "id": "dp_empathic-understanding_case-aisha_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Opprørt, snakker fort] Jeg ville at han skulle bli, men sa at han skulle gå fordi jeg skammet meg over å trygle. Nå er jeg alene og sint for at han hørte på meg.",
+      "suggestion": "Du ville ha ham nær, skjøv ham bort i skam og føler deg nå alene og sint for at han gikk."
+    },
+    {
+      "id": "dp_empathic-understanding_case-aisha_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Lavmælt] Når det er rolig, vet jeg ikke hvem jeg er. Jeg er lettet over at ingen går, men føler meg tom og savner nesten å ha noe å krangle om.",
+      "suggestion": "Roen gir deg lettelse, men også en tomhet som gjør deg usikker på hvem du er."
     }
   ],
   "case-david": [
     {
       "id": "dp_empathic-understanding_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -798,7 +952,7 @@
     {
       "id": "dp_empathic-understanding_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -809,7 +963,7 @@
     {
       "id": "dp_empathic-understanding_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -820,7 +974,7 @@
     {
       "id": "dp_empathic-understanding_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -831,7 +985,7 @@
     {
       "id": "dp_empathic-understanding_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -842,7 +996,7 @@
     {
       "id": "dp_empathic-understanding_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -853,7 +1007,7 @@
     {
       "id": "dp_empathic-understanding_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -864,7 +1018,7 @@
     {
       "id": "dp_empathic-understanding_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -875,7 +1029,7 @@
     {
       "id": "dp_empathic-understanding_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -886,20 +1040,42 @@
     {
       "id": "dp_empathic-understanding_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Såret, men skarp] Hvis jeg bare er ordinær i noe, føles det som om jeg forsvinner; jeg vil heller la være å prøve enn å være middels foran folk.",
       "suggestion": "Å være ordinær kjennes som å forsvinne, og det å være middels foran folk kjennes uutholdelig."
+    },
+    {
+      "id": "dp_empathic-understanding_case-david_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Behersket, bitter] De spør fortsatt om råd, men ga lederrollen til en annen. Jeg kan framstå som raus. For meg selv kjenner jeg meg ydmyket hver gang de roser ham.",
+      "suggestion": "Du kan framstå som raus, samtidig som du kjenner deg ydmyket hver gang suksessen hans blir anerkjent."
+    },
+    {
+      "id": "dp_empathic-understanding_case-david_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Lavmælt] Kona mi sier hun ønsker seg en kveld der ingen av oss skal oppnå noe. Det vil jeg også, men uten noe å tilby føler jeg meg merkelig verdiløs.",
+      "suggestion": "Du ønsker en kveld sammen, men uten noe å oppnå eller tilby kjenner du deg verdiløs."
     }
   ],
   "case-marcus": [
     {
       "id": "dp_empathic-understanding_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -910,7 +1086,7 @@
     {
       "id": "dp_empathic-understanding_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -921,7 +1097,7 @@
     {
       "id": "dp_empathic-understanding_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -932,7 +1108,7 @@
     {
       "id": "dp_empathic-understanding_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -943,7 +1119,7 @@
     {
       "id": "dp_empathic-understanding_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -954,7 +1130,7 @@
     {
       "id": "dp_empathic-understanding_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -965,7 +1141,7 @@
     {
       "id": "dp_empathic-understanding_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -976,7 +1152,7 @@
     {
       "id": "dp_empathic-understanding_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -987,7 +1163,7 @@
     {
       "id": "dp_empathic-understanding_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -998,13 +1174,35 @@
     {
       "id": "dp_empathic-understanding_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Redd] Jeg vil slippe folk inn, men hver gang noen kommer nær, begynner jeg å se etter utgangen. Så ender jeg alene igjen og hater det også.",
       "suggestion": "Du vil ha nærhet, frykten sender deg mot utgangen, og så gjør alenetilstanden også vondt."
+    },
+    {
+      "id": "dp_empathic-understanding_case-marcus_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flatt] Jeg husker fødselsdagen hans hvert år. Ringer ingen. Jeg savner ham, men å snakke om ham føles verre enn å tie.",
+      "suggestion": "Du savner ham og bærer datoen alene fordi det kjennes enda tyngre å snakke om ham."
+    },
+    {
+      "id": "dp_empathic-understanding_case-marcus_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[På vakt] Jeg vil kunne sove uten å sjekke døra. Hvis jeg ikke sjekker, føler jeg meg uforsiktig. Hvis jeg gjør det, føler jeg meg fanget i den samme rutinen.",
+      "suggestion": "Du vil ha hvile, men føler deg uforsiktig hvis du ikke sjekker, og fanget i rutinen hvis du gjør det."
     }
   ]
 }

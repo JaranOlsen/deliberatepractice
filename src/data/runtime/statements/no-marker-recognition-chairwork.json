@@ -3,7 +3,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -15,7 +15,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -27,7 +27,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -39,7 +39,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -51,7 +51,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -63,7 +63,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -75,7 +75,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -87,7 +87,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -99,7 +99,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -111,7 +111,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -119,13 +119,37 @@
       ],
       "text": "[På gråten] Jeg har fortsatt lyst til å si til ham: «Du fikk gå, men jeg måtte bli igjen i leiligheten med alle minnene.»",
       "suggestion": "Den linjen hører hjemme direkte hos ham. Hvis du vil, henter vi ham inn i den tomme stolen og sier den én gang: «Du fikk gå, men jeg måtte bli igjen med alle minnene.» Så stopper vi før vi legger til noe mer."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[På gråten, så skarp mot seg selv] Det gikk greit helt til jeg fant skjerfet hans. Altså, Sara, ta deg sammen. Det er et skjerf. Slutt å være så patetisk.",
+      "suggestion": "Du hadde det vondt, og så gikk du hardt løs på deg selv for det. Vil du prøve to stoler, så vi kan høre kritikken og hva den gjør med deg? Hvis du vil, bruk denne stolen til stemmen som sier «ta deg sammen», og se for deg deg selv i den andre. Begynn med å si kritikken direkte til henne."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Stille sint] Han sa at vi skulle snakke ordentlig om bruddet. Så sendte han en melding om å hente tingene sine. Jeg øver stadig på det jeg aldri fikk sagt.",
+      "suggestion": "Det er noe du fortsatt trenger å si til ham om måten han gikk på. Vil du prøve å si det til ham her, med den tomme stolen? Hvis du vil prøve, se ham for deg der, på en avstand som kjennes riktig. Begynn med «Da du sendte den meldingen i stedet for å snakke med meg …» og fortell ham hvordan det var for deg."
     }
   ],
   "case-michael": [
     {
       "id": "dp_marker-recognition-chairwork_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -137,7 +161,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -149,7 +173,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -161,7 +185,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -173,7 +197,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -185,7 +209,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -197,7 +221,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -209,7 +233,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -221,7 +245,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -233,7 +257,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -241,13 +265,37 @@
       ],
       "text": "[Anspent] Jeg begynner å si unnskyld, og så sier en stemme: «Ikke gi deg.» Den sier at hvis jeg mykner først, vinner kona mi, og jeg mister den siste respekten jeg har. Så svelger jeg unnskyldningen og begynner å snakke om det hun gjorde i stedet.",
       "suggestion": "«Ikke gi etter»-stemmen stopper unnskyldningen ved å få reparasjon til å kjennes som nederlag. La oss gi den stemmen denne stolen først: argumenter for å svelge unnskyldningen. Så flytter vi til siden som ville reparere og hører hva som blir blokkert."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Rynker pannen] Sjefen sa «bra jobbet», og jeg tenkte med en gang: Ikke slapp av nå. Én bra uke betyr ikke at du ikke er en fiasko.",
+      "suggestion": "Selv ros blir fulgt av et angrep på deg selv. Vil du prøve to stoler for å høre angrepet og hvordan du tar det imot? Hvis du vil, sitt i denne stolen som stemmen som advarer deg mot å slappe av, og se deg selv for deg overfor. Si direkte til ham: «Én bra uke betyr ikke …»"
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Stemmen brister, strammer kjeven] Jeg skulle til å si til sønnen min at jeg savnet ham. Så bet jeg tennene sammen og spurte om leksene. Sånt legger du ikke på en unge.",
+      "suggestion": "Du strammet kjeven og stoppet ordene om å savne ham. Vil du undersøke hvordan du stopper deg selv, med to stoler? Dette handler om å forstå det, ikke om å bestemme hva du skal si til sønnen din. Hvis du vil, sitt her som stemmen som stopper deg, se deg selv for deg i den andre stolen, og si nøyaktig hva han ikke får si."
     }
   ],
   "case-jason": [
     {
       "id": "dp_marker-recognition-chairwork_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -259,7 +307,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -271,7 +319,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -283,7 +331,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -295,7 +343,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -307,7 +355,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -319,7 +367,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -331,7 +379,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -343,7 +391,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -355,7 +403,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -363,13 +411,37 @@
       ],
       "text": "[Engstelig] Når jeg vil stille et spørsmål i timen, stirrer jeg på notatene til sjansen går forbi. Jeg vet at spørsmålet sikkert er normalt, men jeg får meg selv til å se opptatt ut til læreren går videre.",
       "suggestion": "Den travle tausheten stopper spørsmålet før det kommer inn i rommet. Kan vi bruke to stoler i en kort runde? Fra denne stolen viser du hvordan du holder blikket hans nede og lar ham tie; så flytter vi til siden som ville spørre."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Ser ned] Jeg svarte på ett spørsmål i lunsjen og snublet i et ord. Hele veien hjem var det: «Du hørtes dum ut. Hvorfor kan du ikke bare snakke normalt?»",
+      "suggestion": "Du snakker veldig hardt til deg selv om det ene ordet. Vil du prøve to stoler for å høre ordene og hvordan de påvirker deg? Hvis du vil, sitt her som stemmen som sier at du hørtes dum ut, og se deg selv for deg i den andre stolen. Si den første setningen direkte til ham; vi kan ta det rolig."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Nølende, såret] En gammel venn pleide å tulle med hvor stille jeg var. Jeg lo jeg også. Jeg vil fortsatt si til ham at det ikke var morsomt, men jeg gjorde det aldri.",
+      "suggestion": "Du har fortsatt noe å si til ham om de vitsene. Vil du prøve å si det her, med den tomme stolen som en plass for ham? Hvis du vil, se ham for deg der og begynn med «Da du tullet med hvor stille jeg var …» Fortell ham det du ikke fikk sagt den gangen."
     }
   ],
   "case-laura": [
     {
       "id": "dp_marker-recognition-chairwork_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -381,7 +453,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -393,7 +465,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -405,7 +477,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -417,7 +489,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -429,7 +501,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -441,7 +513,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -453,7 +525,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -465,7 +537,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -477,7 +549,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -485,13 +557,37 @@
       ],
       "text": "[Fjern] Jeg ser fortsatt for meg døren til rommet mitt etter at det skjedde, mens jeg ventet på å høre moren min komme ned gangen. Hun kom aldri. Jeg vil spørre henne: Hvorfor kom du aldri inn på rommet mitt etterpå?",
       "suggestion": "Moren din er fraværende i gangen etterpå, og spørsmålet står fortsatt igjen. Når det kjennes håndterbart, henter vi henne inn i den tomme stolen og spør: «Hvorfor kom du aldri inn på rommet mitt etterpå?» Bare så langt det kjennes tålelig."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-laura_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Blir blank i øynene; presser leppene sammen] Nei. Ikke dette. Hvis jeg begynner å ønske at noen var her, klarer jeg ikke stoppe. Bare svelg det. Bli tom.",
+      "suggestion": "Du presser leppene sammen og ber deg selv bli tom akkurat når ønsket kommer. Vil du undersøke hvordan du stopper deg selv, med to stoler, uten at vi presser oss forbi det? Hvis du velger å prøve, sitt her som stemmen som ber deg svelge det, se deg selv for deg overfor, og si bare den første beskjeden til henne. Vi kan stoppe der."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-laura_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Lavt, bittert] Han takket meg for at jeg var «så fornuftig» med skilsmissen. Jeg ville si at jeg ikke hadde det bra. Jeg var bare for sliten til å krangle.",
+      "suggestion": "Det er ord han ikke har hørt om hva det kostet deg å være «fornuftig». Vil du prøve å si dem til ham med den tomme stolen? Hvis du vil, se ham for deg der på en avstand som er grei for deg. Begynn med «Da du takket meg for å være fornuftig …» og fortell ham hvordan du faktisk hadde det."
     }
   ],
   "case-carlos": [
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -503,7 +599,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -515,7 +611,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -527,7 +623,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -539,7 +635,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -551,7 +647,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -563,7 +659,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -575,7 +671,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -587,7 +683,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -599,7 +695,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -607,13 +703,37 @@
       ],
       "text": "[Anspent og sint] Når tårene kommer, strammer jeg kjeven og gjør dem om til varme før noen kan se dem. Hvis sinnet er der, spør ingen hva som gjorde vondt. De rygger bare, og det kjennes tryggere.",
       "suggestion": "Tårene blir gjort om til varme før noen når inn til det såre. Den siden som gjør om følelsen får denne stolen først. Vis hvordan du strammer kjeven, blir varm og får folk til å rygge; så flytter vi til den gråtende siden."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-carlos_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Avsky mot seg selv] Hun måtte sjekke ansiktet mitt før hun spurte om skyss. Flott far du er, Carlos. Din egen unge er redd for å spørre deg om noe.",
+      "suggestion": "Du angriper deg selv for frykten du så hos henne. Vil du prøve to stoler for å høre angrepet og hva som skjer når du tar det imot? Å forstå dette tar ikke bort ansvaret ditt overfor henne. Hvis du vil, sitt her som stemmen som sier «flott far du er», se deg selv for deg overfor, og si de ordene direkte til ham."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-carlos_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Anspent, såret] Den gamle arbeidslederen spøkte med at jeg aldri ville bli mer enn et par hender. Jeg hører det fortsatt når jeg skal lede et møte. Jeg sa aldri hvor mye det gikk inn på meg.",
+      "suggestion": "Ordene hans går fortsatt inn på deg, og det er noe du aldri fortalte ham om hvordan de traff. Vil du prøve å si det til ham med den tomme stolen? Hvis du vil, se ham for deg der på en avstand du velger. Begynn med «Da du kalte meg bare et par hender …» og fortell ham hva du trengte at han skulle høre."
     }
   ],
   "case-nina": [
     {
       "id": "dp_marker-recognition-chairwork_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -625,7 +745,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -637,7 +757,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -649,7 +769,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -661,7 +781,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -673,7 +793,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -685,7 +805,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -697,7 +817,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -709,7 +829,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -721,7 +841,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -729,13 +849,37 @@
       ],
       "text": "[Bekymret] Når jeg hviler, ramser hodet opp alle som kan falle sammen uten meg. Det begynner med at moren min trenger skyss, så at guttene glemmer noe, så at huset blir kaos, og plutselig føles det å sitte stille som forsømmelse.",
       "suggestion": "Bekymringen får hvile til å kjennes som forsømmelse ved å vise alle som kan falle sammen. Gi bekymringen denne stolen og la den liste de fryktede konsekvensene. Så flytter vi til den utslitte siden som prøver å hvile under presset."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-nina_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Tårene kommer; smiler raskt] Jeg skulle til å si at jeg er sint på henne. Nei, det er ikke rettferdig. Smil, Nina. Hun har nok å stri med. Ikke gjør det verre.",
+      "suggestion": "Du begynte å kjenne sinne, og så smilte du og ba deg selv stoppe. Vil du undersøke hvordan du stopper deg selv, med to stoler, så vi kan forstå hva det gjør? Hvis du vil, sitt her som stemmen som sier «ikke gjør det verre», se deg selv for deg i den andre stolen, og fortell henne hva hun ikke får uttrykke."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-nina_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Stille bitter] Rektor takket meg for at jeg «aldri sier nei». Jeg ville si at det ikke var et kompliment. Jeg hadde bedt om hjelp hele semesteret. Jeg går fortsatt gjennom det jeg burde ha sagt.",
+      "suggestion": "Du har fortsatt noe å si til henne om hvordan rosen overså behovet ditt for hjelp. Vil du prøve å si det med henne i tankene i den tomme stolen? Hvis du vil, se henne for deg der og begynn med «Da du takket meg for at jeg aldri sier nei …» Fortell henne hva du trengte at hun skulle forstå."
     }
   ],
   "case-aisha": [
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -747,7 +891,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -759,7 +903,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -771,7 +915,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -783,7 +927,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -795,7 +939,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -807,7 +951,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -819,7 +963,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -831,7 +975,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -843,7 +987,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -851,13 +995,37 @@
       ],
       "text": "[På gråten] Når sorgen begynner å synes, ler jeg for høyt og sier: «Glem det, dette er dumt.» Så lager jeg en spøk om at jeg er dramatisk, og den gråtende delen blir stille som om den fikk en ørefik.",
       "suggestion": "Den hånlige stemmen stenger sorgen ned før den får vise seg. Vil du la den siden ta denne stolen først, bare kort? Si «glem det, dette er dumt» til den gråtende siden; så bytter vi og gir den sørgende siden noen få beskyttede ord."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-aisha_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Sint på seg selv, gråter] Jeg ba henne bli og kalte henne egoistisk etterpå. Du ødelegger alt, Aisha. Ingen holder ut med deg lenge.",
+      "suggestion": "Du har det vondt, og du angriper deg selv som en ingen holder ut med. Vil du prøve to stoler for å høre angrepet og hvordan det treffer, én setning om gangen? Vi kan stoppe hvis det blir for mye. Hvis du vil, sitt her som stemmen som sier «du ødelegger alt», se deg selv for deg overfor, og si den ene setningen direkte til henne."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-aisha_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Skjelver] Fostermoren min sa at jeg var familie. Så flyttet de meg. Jeg vil spørre henne hvorfor hun lot meg tro det, men bare å se henne for meg får meg til å skjelve.",
+      "suggestion": "Det er et vondt spørsmål du aldri fikk stilt henne, og selv å se henne for deg kjennes mye. Vi trenger ikke gjøre dette nå. Vil det være håndterlig å prøve én setning mot en tom stol, hvis du velger avstanden og kan stoppe når som helst? Hvis ja, se henne bare så tydelig for deg som kjennes trygt, og begynn: «Da du sa at jeg var familie …»"
     }
   ],
   "case-david": [
     {
       "id": "dp_marker-recognition-chairwork_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -869,7 +1037,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -881,7 +1049,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -893,7 +1061,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -905,7 +1073,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -917,7 +1085,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -929,7 +1097,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -941,7 +1109,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -953,7 +1121,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -965,7 +1133,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -973,13 +1141,37 @@
       ],
       "text": "[Avvisende] Når tristhet dukker opp, analyserer jeg alles tonefall til følelsen er borte. Jeg kan gjøre en samtale med kona mi til et referat i hodet, finne inkonsekvenser, bevise poenget mitt, og da er strammingen i halsen borte.",
       "suggestion": "Analysen flytter deg inn i en rettssal før tristheten får snakke, så strammingen forsvinner uten å bli hørt. Vil du gjøre den avbrytelsen konkret? Fra denne stolen analyserer du tonefallet hennes og flytter ham bort fra strammingen; så flytter vi til tristheten og lar den si noen direkte ord."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-david_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Kjølig, ser bort] Jeg gråt nesten da hun sa at hun savnet den jeg var før. Så: Nok. Få kontroll på ansiktet. Ikke gjør deg liten foran henne.",
+      "suggestion": "Du stoppet tårene ved å beordre deg selv til å få kontroll på ansiktet. Vil du prøve to stoler for å forstå den ordren og virkningen av den, uten at du må gråte? Hvis du vil, sitt i denne stolen som stemmen som gir ordren, se deg selv for deg overfor, og si direkte til ham hva han ikke får vise."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-david_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Presist, stram kjeve] Faren min kalte forfremmelsen «en grei start». Han gjorde alltid sånt. Jeg har fortsatt en tale i hodet om hva det krevde å komme dit. Han får aldri høre den nå.",
+      "suggestion": "Du ønsker fortsatt at han skal høre hva prestasjonen kostet deg, og hvordan svaret hans traff. Vil du prøve å snakke til ham i den tomme stolen, så ordene kan få et sted å komme frem her? Hvis du vil, se ham for deg der på en avstand du velger. Begynn med «Da du kalte det en grei start …» og si det du ikke fikk sagt."
     }
   ],
   "case-marcus": [
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -991,7 +1183,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1003,7 +1195,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1015,7 +1207,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1027,7 +1219,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1039,7 +1231,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1051,7 +1243,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1063,7 +1255,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1075,7 +1267,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1087,7 +1279,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1095,6 +1287,30 @@
       ],
       "text": "[Anspent og på vakt] Når søsteren min spør om fortiden, hører jeg: «Steng det ned», og så bytter jeg tema.",
       "suggestion": "«Steng det ned»-stemmen kutter kontakten med fortiden idet søsteren din spør, før noe sårbart får vist seg. Jeg vil bruke to stoler i en kort runde. Fra denne stolen sier du «steng det ned» og viser hvordan du bytter tema; så flytter vi til siden som ble spurt."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-marcus_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flatt, knyttede never] Jeg overlevde. Han gjorde ikke det. Det er et faktum. Og hver gang jeg sover greit, er det: Det fortjener du ikke. Du lot ham bli igjen der.",
+      "suggestion": "Du gjør det å overleve, og selv det å sove, til en anklage mot deg selv. Vil du prøve to stoler for å høre anklagen og hvordan den treffer, uten å gå gjennom hendelsen? Vi kan stoppe når som helst. Hvis du vil, sitt her som stemmen som sier «det fortjener du ikke», se deg selv for deg overfor, og si bare den setningen til ham."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-marcus_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Stemmen brister, stirrer i gulvet] Der kom det. Steng av. Stram alt. Hvis jeg slipper den sorgen ut, får jeg den ikke inn igjen.",
+      "suggestion": "Du strammer kroppen for å stoppe sorgen fra å komme ut. Vil du undersøke akkurat hvordan du stopper deg selv, med to stoler, uten å be deg selv slippe ut all sorgen? Hvis det kjennes håndterlig, sitt her som stemmen som sier «steng av», se deg selv for deg i den andre stolen, og gi ham den ene beskjeden. Vi kan ta pause med en gang om det trengs."
     }
   ]
 }

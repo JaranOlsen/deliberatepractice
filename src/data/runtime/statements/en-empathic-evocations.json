@@ -3,7 +3,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -15,7 +15,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -27,7 +27,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -39,7 +39,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -51,7 +51,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -63,7 +63,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -75,7 +75,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -87,7 +87,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -99,7 +99,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -111,7 +111,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -119,13 +119,37 @@
       ],
       "text": "[Softly] When you are kind to me, I feel awkward and look away.",
       "suggestion": "Kindness comes close, and it is almost too warm to take in, so your eyes drop to safer ground."
+    },
+    {
+      "id": "dp_empathic-evocations_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Matter-of-fact] I took his name off the mailbox. It needed doing. Coming home afterwards was harder than I expected.",
+      "suggestion": "As if that small change at the door made the absence inside feel much larger."
+    },
+    {
+      "id": "dp_empathic-evocations_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Controlled] I keep the evenings busy. When there's nothing planned, I notice how much I miss having someone to tell the little things to.",
+      "suggestion": "All the activity goes quiet, and there's that empty place where the day's little stories used to go."
     }
   ],
   "case-michael": [
     {
       "id": "dp_empathic-evocations_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -137,7 +161,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -149,7 +173,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -161,7 +185,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -173,7 +197,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -185,7 +209,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -197,7 +221,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -209,7 +233,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -221,7 +245,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -233,7 +257,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -241,13 +265,37 @@
       ],
       "text": "[Ashamed] At night I replay the argument and hear how sharp I sounded.",
       "suggestion": "The house goes quiet, but your own voice keeps echoing in the kitchen, still cutting after the fight is over."
+    },
+    {
+      "id": "dp_empathic-evocations_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Clipped] One small correction in a good report. I heard nothing else they said. That's irritating.",
+      "suggestion": "That one correction takes up the whole room, and the good work shrinks out of sight."
+    },
+    {
+      "id": "dp_empathic-evocations_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Controlled] I know my son is just asking for help. Still, when I can't answer straight away, I feel as if I've failed him.",
+      "suggestion": "Even a small question seems to put you under a spotlight where you have to know the answer immediately."
     }
   ],
   "case-jason": [
     {
       "id": "dp_empathic-evocations_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -259,7 +307,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -271,7 +319,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -283,7 +331,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -295,7 +343,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -307,7 +355,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -319,7 +367,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -331,7 +379,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -343,7 +391,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -355,7 +403,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -363,13 +411,37 @@
       ],
       "text": "[Quietly] In groups, I keep track of where the exit is before I join the conversation.",
       "suggestion": "The exit becomes the safest part of the room, the place your eyes hold onto when attention feels too close."
+    },
+    {
+      "id": "dp_empathic-evocations_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flat] Everyone in the group chat seemed to know what to say. I wrote a reply, looked at it, and didn't send it.",
+      "suggestion": "The conversation keeps moving, and you're waiting at its edge with words you can't quite let out."
+    },
+    {
+      "id": "dp_empathic-evocations_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Matter-of-fact] I replayed the greeting all evening. It lasted about five seconds. It's annoying that I can't leave it alone.",
+      "suggestion": "Those five seconds keep circling back, like a tiny clip you can't stop playing."
     }
   ],
   "case-laura": [
     {
       "id": "dp_empathic-evocations_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -381,7 +453,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -393,7 +465,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -405,7 +477,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -417,7 +489,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -429,7 +501,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -441,7 +513,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -453,7 +525,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -465,7 +537,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -477,7 +549,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -485,13 +557,37 @@
       ],
       "text": "[Flat and guarded] I keep a bag packed by the door. I know it sounds dramatic, but I sleep better knowing it is there.",
       "suggestion": "The bag sits there as a quiet exit, helping the part of you that never fully trusts the house to stay settled."
+    },
+    {
+      "id": "dp_empathic-evocations_case-laura_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flat] I packed his last things. Afterwards the flat was tidy, and I didn't know what to do with myself.",
+      "suggestion": "Everything is in its place now, but you are left standing in a space that doesn't yet feel like yours."
+    },
+    {
+      "id": "dp_empathic-evocations_case-laura_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Guarded] My friend was kind. I said thank you. I didn't really let it affect me until she'd gone.",
+      "suggestion": "Perhaps the kindness only reaches you once the door is closed and you no longer have to guard the opening."
     }
   ],
   "case-carlos": [
     {
       "id": "dp_empathic-evocations_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -503,7 +599,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -515,7 +611,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -527,7 +623,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -539,7 +635,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -551,7 +647,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -563,7 +659,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -575,7 +671,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -587,7 +683,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -599,7 +695,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -607,13 +703,37 @@
       ],
       "text": "[Worried] I worry my son is learning to check my mood before he decides whether it is safe to talk.",
       "suggestion": "That worry hits hard, the thought that your anger could become the weather he checks before stepping close."
+    },
+    {
+      "id": "dp_empathic-evocations_case-carlos_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Clipped] He made the comment in front of the crew. I finished the job. I was still thinking about it at home.",
+      "suggestion": "You carried on working, but that public sting kept travelling with you long after the shift ended."
+    },
+    {
+      "id": "dp_empathic-evocations_case-carlos_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Controlled] My daughter watches before she speaks to me. I notice it. I don't like what that says about things at home.",
+      "suggestion": "There's a pause between you now, as if she has to test the ground before taking a step towards you."
     }
   ],
   "case-nina": [
     {
       "id": "dp_empathic-evocations_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -625,7 +745,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -637,7 +757,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -649,7 +769,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -661,7 +781,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -673,7 +793,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -685,7 +805,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -697,7 +817,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -709,7 +829,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -721,7 +841,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -729,13 +849,37 @@
       ],
       "text": "[Lonely] I still wait for my ex to notice how tired I am, even though he does not live here anymore and probably never noticed.",
       "suggestion": "Some part of you is still watching for him to look up, waiting for the old life to finally see how much you carried."
+    },
+    {
+      "id": "dp_empathic-evocations_case-nina_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Matter-of-fact] I spent the afternoon finding things everyone else wanted. When they asked what I wanted, I couldn't think of anything.",
+      "suggestion": "You've made so much room for everyone else's wishes that your own seem tucked away where you can barely reach them."
+    },
+    {
+      "id": "dp_empathic-evocations_case-nina_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Smiling, detached] They said I always keep things going. It was meant as a compliment. I felt tired hearing it.",
+      "suggestion": "The compliment lands almost like another load placed in the arms already carrying everything."
     }
   ],
   "case-aisha": [
     {
       "id": "dp_empathic-evocations_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -747,7 +891,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -759,7 +903,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -771,7 +915,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -783,7 +927,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -795,7 +939,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -807,7 +951,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -819,7 +963,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -831,7 +975,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -843,7 +987,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -851,13 +995,37 @@
       ],
       "text": "[Panicked] I keep checking the door while we talk, because part of me expects you to stand up and leave if I say too much.",
       "suggestion": "Your eyes keep guarding the doorway, watching for the moment I might vanish because the need became too visible."
+    },
+    {
+      "id": "dp_empathic-evocations_case-aisha_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flat, deliberate] I delete the conversation so I won't check it. Then I open the empty screen. I do that too.",
+      "suggestion": "Even when the messages are gone, it's as though you're still waiting at the same door for someone to come back."
+    },
+    {
+      "id": "dp_empathic-evocations_case-aisha_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Guarded] Things are fine today. I don't want to get used to it. That's usually when something changes.",
+      "suggestion": "You can feel the calm nearby, but you keep one hand on the alarm in case it disappears."
     }
   ],
   "case-david": [
     {
       "id": "dp_empathic-evocations_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -869,7 +1037,7 @@
     {
       "id": "dp_empathic-evocations_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -881,7 +1049,7 @@
     {
       "id": "dp_empathic-evocations_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -893,7 +1061,7 @@
     {
       "id": "dp_empathic-evocations_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -905,7 +1073,7 @@
     {
       "id": "dp_empathic-evocations_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -917,7 +1085,7 @@
     {
       "id": "dp_empathic-evocations_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -929,7 +1097,7 @@
     {
       "id": "dp_empathic-evocations_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -941,7 +1109,7 @@
     {
       "id": "dp_empathic-evocations_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -953,7 +1121,7 @@
     {
       "id": "dp_empathic-evocations_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -965,7 +1133,7 @@
     {
       "id": "dp_empathic-evocations_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -973,13 +1141,37 @@
       ],
       "text": "[Controlled] Since the affair came out, home feels different; people still use the same rooms, but I do not know where I stand.",
       "suggestion": "The house still has the same rooms, but the warmth has leaked out, leaving you standing without a clear place."
+    },
+    {
+      "id": "dp_empathic-evocations_case-david_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Coolly] The dinner was a success. Everyone praised the house. Once they left, it felt remarkably empty. That's not a complaint, just an observation.",
+      "suggestion": "The applause leaves with the guests, and you're standing in the quiet it no longer fills."
+    },
+    {
+      "id": "dp_empathic-evocations_case-david_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Controlled] I've rewritten the email several times. There is nothing wrong with it now. Sending it still seems to give them too much opportunity to judge me.",
+      "suggestion": "You keep polishing the surface, but sending it still feels like stepping out without any cover."
     }
   ],
   "case-marcus": [
     {
       "id": "dp_empathic-evocations_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -991,7 +1183,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1003,7 +1195,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1015,7 +1207,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1027,7 +1219,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1039,7 +1231,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1051,7 +1243,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1063,7 +1255,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1075,7 +1267,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1087,7 +1279,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1095,6 +1287,30 @@
       ],
       "text": "[Flat] Some nights I sit in the car before going upstairs, because once I open the apartment door there is nothing to do but be there.",
       "suggestion": "The quiet car becomes a last small shelter before the empty apartment has to be entered."
+    },
+    {
+      "id": "dp_empathic-evocations_case-marcus_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flat] I leave the television on. Not watching it. It's worse when the room is quiet.",
+      "suggestion": "The sound seems to keep a little distance between you and what the silence brings close."
+    },
+    {
+      "id": "dp_empathic-evocations_case-marcus_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "text": "[Guarded] I recognised the handwriting on the envelope. Put it in a drawer. Haven't opened it. Don't want it in sight either.",
+      "suggestion": "That familiar writing seems to bring something close enough that you need a drawer between you and it."
     }
   ]
 }

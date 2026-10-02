@@ -3,7 +3,7 @@
     {
       "id": "dp_self-disclosure_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -15,7 +15,7 @@
     {
       "id": "dp_self-disclosure_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -27,7 +27,7 @@
     {
       "id": "dp_self-disclosure_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -39,7 +39,7 @@
     {
       "id": "dp_self-disclosure_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -51,7 +51,7 @@
     {
       "id": "dp_self-disclosure_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -63,7 +63,7 @@
     {
       "id": "dp_self-disclosure_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -75,7 +75,7 @@
     {
       "id": "dp_self-disclosure_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -87,7 +87,7 @@
     {
       "id": "dp_self-disclosure_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -99,7 +99,7 @@
     {
       "id": "dp_self-disclosure_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -111,7 +111,7 @@
     {
       "id": "dp_self-disclosure_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -119,13 +119,37 @@
       ],
       "text": "[Hesitant] Do you actually care about me, or is caring just part of your job?",
       "suggestion": "I do care about you in this therapy relationship. The boundaries are part of caring responsibly, not a sign that the care is fake. Let's notice what hearing both brings up."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Tentative] When I tell you I checked his profile again, do you think, 'Here we go, she hasn't learned anything'?",
+      "suggestion": "I don't see that as a failure to learn. I'm interested in what draws you back at those moments. It sounds as though telling me brings a fear that I'll lose patience with you."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Looking at the therapist] You smiled when I said I went to the cinema alone. Were you pleased, or was that just encouragement?",
+      "suggestion": "I was pleased to hear you found an evening you enjoyed. My smile was real; you don't have to keep making progress to earn it. What was it like to notice it?"
     }
   ],
   "case-michael": [
     {
       "id": "dp_self-disclosure_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -137,7 +161,7 @@
     {
       "id": "dp_self-disclosure_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -149,7 +173,7 @@
     {
       "id": "dp_self-disclosure_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -161,7 +185,7 @@
     {
       "id": "dp_self-disclosure_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -173,7 +197,7 @@
     {
       "id": "dp_self-disclosure_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -185,7 +209,7 @@
     {
       "id": "dp_self-disclosure_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -197,7 +221,7 @@
     {
       "id": "dp_self-disclosure_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -209,7 +233,7 @@
     {
       "id": "dp_self-disclosure_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -221,7 +245,7 @@
     {
       "id": "dp_self-disclosure_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -233,7 +257,7 @@
     {
       "id": "dp_self-disclosure_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -241,13 +265,37 @@
       ],
       "text": "[Embarrassed] Tell me you get why this is hard, because I feel ridiculous needing help.",
       "suggestion": "I do get why this is hard. I hear pressure and hurt in it, not something ridiculous, and I want to speak directly to the part expecting contempt from me."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Direct] When I get blunt like this, do you take it personally? I don't want you tiptoeing around me.",
+      "suggestion": "I notice the force in your voice, and I want to stay direct with you rather than tiptoe. I can tell you if something affects our conversation. It matters to you that we can speak honestly without either of us pulling back."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Concerned] If I tell you I was jealous of my son's coach, can you still respect me? It sounds ridiculous even saying it.",
+      "suggestion": "Yes, I can respect you while hearing about jealousy. I appreciate your willingness to show me something you're uncomfortable with. You seem worried this feeling will change how I see you."
     }
   ],
   "case-jason": [
     {
       "id": "dp_self-disclosure_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -259,7 +307,7 @@
     {
       "id": "dp_self-disclosure_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -271,7 +319,7 @@
     {
       "id": "dp_self-disclosure_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -283,7 +331,7 @@
     {
       "id": "dp_self-disclosure_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -295,7 +343,7 @@
     {
       "id": "dp_self-disclosure_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -307,7 +355,7 @@
     {
       "id": "dp_self-disclosure_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -319,7 +367,7 @@
     {
       "id": "dp_self-disclosure_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -331,7 +379,7 @@
     {
       "id": "dp_self-disclosure_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -343,7 +391,7 @@
     {
       "id": "dp_self-disclosure_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -355,7 +403,7 @@
     {
       "id": "dp_self-disclosure_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -363,13 +411,37 @@
       ],
       "text": "[Quietly] When I ask if I will ever be less anxious, I need to know if you actually believe that.",
       "suggestion": "I do feel hope with you. I feel it because I see how hard you keep reaching for contact even while fear pulls you back."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Hesitant] Can I tell you if a question doesn't make sense? I usually just try to answer anyway.",
+      "suggestion": "Yes. I would rather know that my question doesn't make sense than have you struggle to give an answer for me. I'll try saying it differently. It sounds like it takes some courage to ask that here."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Quietly] You don't seem embarrassed when I can't get a sentence out. Are you really okay sitting here like that?",
+      "suggestion": "Yes, I'm okay sitting with you while words are hard to find. I don't need you to speak smoothly for this time to matter. What is it like to hear that?"
     }
   ],
   "case-laura": [
     {
       "id": "dp_self-disclosure_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -381,7 +453,7 @@
     {
       "id": "dp_self-disclosure_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -393,7 +465,7 @@
     {
       "id": "dp_self-disclosure_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -405,7 +477,7 @@
     {
       "id": "dp_self-disclosure_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -417,7 +489,7 @@
     {
       "id": "dp_self-disclosure_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -429,7 +501,7 @@
     {
       "id": "dp_self-disclosure_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -441,7 +513,7 @@
     {
       "id": "dp_self-disclosure_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -453,7 +525,7 @@
     {
       "id": "dp_self-disclosure_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -465,7 +537,7 @@
     {
       "id": "dp_self-disclosure_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -477,7 +549,7 @@
     {
       "id": "dp_self-disclosure_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -485,13 +557,37 @@
       ],
       "text": "[Curious] Do you believe I can feel again, or are you just being kind?",
       "suggestion": "Yes, I do believe more feeling is possible, and I am not saying that just to be kind. I am patient about the road there; we do not have to force it to prove it."
+    },
+    {
+      "id": "dp_self-disclosure_case-laura_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Guarded, after a pause] You put your pen down when I mentioned the drinking. Why?",
+      "suggestion": "I put it down because I wanted to give you my full attention rather than keep writing. I can see that you noticed the change. What did it seem to mean to you?"
+    },
+    {
+      "id": "dp_self-disclosure_case-laura_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Slowly] Do you need to feel close to me for this to work? Because I can't promise that.",
+      "suggestion": "I value getting to know you, but I don't need you to give me a feeling of closeness. We can work at a distance that feels manageable to you. It sounds important that I don't make closeness another demand."
     }
   ],
   "case-carlos": [
     {
       "id": "dp_self-disclosure_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -503,7 +599,7 @@
     {
       "id": "dp_self-disclosure_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -515,7 +611,7 @@
     {
       "id": "dp_self-disclosure_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -527,7 +623,7 @@
     {
       "id": "dp_self-disclosure_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -539,7 +635,7 @@
     {
       "id": "dp_self-disclosure_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -551,7 +647,7 @@
     {
       "id": "dp_self-disclosure_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -563,7 +659,7 @@
     {
       "id": "dp_self-disclosure_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -575,7 +671,7 @@
     {
       "id": "dp_self-disclosure_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -587,7 +683,7 @@
     {
       "id": "dp_self-disclosure_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -599,7 +695,7 @@
     {
       "id": "dp_self-disclosure_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -607,13 +703,37 @@
       ],
       "text": "[Defensive] Be honest, do you dread sessions when I come in this armored?",
       "suggestion": "I do not dread them. I feel alert, engaged, and respectful of the commitment under the armor. You do not have to arrive unarmored for me to want to work with you."
+    },
+    {
+      "id": "dp_self-disclosure_case-carlos_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Watching closely] You went quiet when I said my daughter flinched. Did that change what you think of me?",
+      "suggestion": "I felt concerned about what that moment was like for both of you. I want to take her fear seriously and keep talking with you about it. You're watching for whether I can do that without reducing you to that one moment."
+    },
+    {
+      "id": "dp_self-disclosure_case-carlos_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Uneasy] Do you actually want to hear the good stuff too? I fixed her bike, and we had a decent afternoon. Doesn't sound like therapy material.",
+      "suggestion": "I do want to hear that. I'm interested in the moments when you feel connected with her, as well as the moments that go wrong. I'd like to hear what that afternoon was like for you."
     }
   ],
   "case-nina": [
     {
       "id": "dp_self-disclosure_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -625,7 +745,7 @@
     {
       "id": "dp_self-disclosure_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -637,7 +757,7 @@
     {
       "id": "dp_self-disclosure_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -649,7 +769,7 @@
     {
       "id": "dp_self-disclosure_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -661,7 +781,7 @@
     {
       "id": "dp_self-disclosure_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -673,7 +793,7 @@
     {
       "id": "dp_self-disclosure_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -685,7 +805,7 @@
     {
       "id": "dp_self-disclosure_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -697,7 +817,7 @@
     {
       "id": "dp_self-disclosure_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -709,7 +829,7 @@
     {
       "id": "dp_self-disclosure_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -721,7 +841,7 @@
     {
       "id": "dp_self-disclosure_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -729,13 +849,37 @@
       ],
       "text": "[Hesitant] Do you really think I deserve care when I have not earned it?",
       "suggestion": "Yes, I think you deserve care before you have earned anything. I feel clear about that here. The doubting part does not have to believe me quickly."
+    },
+    {
+      "id": "dp_self-disclosure_case-nina_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Apologetic] I noticed you took a breath when I said yes to another favour. Are you disappointed in me?",
+      "suggestion": "I'm not disappointed in you. I noticed how quickly your own tiredness disappeared from the conversation, and I wanted to slow down with you. It seems that breath made you worry you'd let me down too."
+    },
+    {
+      "id": "dp_self-disclosure_case-nina_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Uneasy] If I get angry with you, will you tell me how it affects you, or just stay pleasant? I wouldn't know if I'd hurt you.",
+      "suggestion": "I can tell you when something affects our conversation, and I won't ask you to take care of my feelings. I want you to have room to be angry with me. It sounds as though not knowing my reaction would leave you worrying about me."
     }
   ],
   "case-aisha": [
     {
       "id": "dp_self-disclosure_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -747,7 +891,7 @@
     {
       "id": "dp_self-disclosure_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -759,7 +903,7 @@
     {
       "id": "dp_self-disclosure_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -771,7 +915,7 @@
     {
       "id": "dp_self-disclosure_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -783,7 +927,7 @@
     {
       "id": "dp_self-disclosure_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -795,7 +939,7 @@
     {
       "id": "dp_self-disclosure_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -807,7 +951,7 @@
     {
       "id": "dp_self-disclosure_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -819,7 +963,7 @@
     {
       "id": "dp_self-disclosure_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -831,7 +975,7 @@
     {
       "id": "dp_self-disclosure_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -843,7 +987,7 @@
     {
       "id": "dp_self-disclosure_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -851,13 +995,37 @@
       ],
       "text": "[Hesitant] Do you think I will ever feel okay, or am I too intense for that?",
       "suggestion": "I do feel hope with you, and I do not think your intensity rules out feeling okay. We can hold that hope lightly enough that it does not become pressure."
+    },
+    {
+      "id": "dp_self-disclosure_case-aisha_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Urgent] When you say you care, do you mean only for these fifty minutes? Tell me straight. I can't stand guessing.",
+      "suggestion": "My care for you is real, and our contact has limits: I meet you in these sessions and through the arrangements we've agreed on. I won't promise a kind of availability I can't provide. Hearing those limits may feel painful; I want to hear what they bring up for you."
+    },
+    {
+      "id": "dp_self-disclosure_case-aisha_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Searching the therapist's face] Have you ever wished I would stop coming? Don't give me a perfect therapist answer.",
+      "suggestion": "I want to keep working with you. When our conversations get difficult, I do sometimes feel unsure how best to reach you; that is something for me to work with, not a reason for you to disappear. What were you expecting to hear from me?"
     }
   ],
   "case-david": [
     {
       "id": "dp_self-disclosure_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -869,7 +1037,7 @@
     {
       "id": "dp_self-disclosure_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -881,7 +1049,7 @@
     {
       "id": "dp_self-disclosure_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -893,7 +1061,7 @@
     {
       "id": "dp_self-disclosure_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -905,7 +1073,7 @@
     {
       "id": "dp_self-disclosure_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -917,7 +1085,7 @@
     {
       "id": "dp_self-disclosure_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -929,7 +1097,7 @@
     {
       "id": "dp_self-disclosure_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -941,7 +1109,7 @@
     {
       "id": "dp_self-disclosure_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -953,7 +1121,7 @@
     {
       "id": "dp_self-disclosure_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -965,7 +1133,7 @@
     {
       "id": "dp_self-disclosure_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -973,13 +1141,37 @@
       ],
       "text": "[Challenging] Do you actually respect me when you see these parts of me?",
       "suggestion": "I do respect you. Respect is strongest here when the harder parts are visible, not only when you are polished."
+    },
+    {
+      "id": "dp_self-disclosure_case-david_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Coolly] You say that was hurtful. Is that your professional formulation, or did you actually feel something when I told you?",
+      "suggestion": "I did feel sadness hearing how alone you were in that moment. That is my response, not proof of what you should feel. I'm interested in how it is for you to know it affected me."
+    },
+    {
+      "id": "dp_self-disclosure_case-david_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Controlled, challenging] If you're impressed by me, how can you be objective? If you're not, why should I trust your judgment?",
+      "suggestion": "I can appreciate what you've achieved and still question things with you. I notice a pull to prove my judgment here, and I don't want that to get in the way of understanding you. It sounds as though either answer could leave you unsure of me."
     }
   ],
   "case-marcus": [
     {
       "id": "dp_self-disclosure_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -991,7 +1183,7 @@
     {
       "id": "dp_self-disclosure_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1003,7 +1195,7 @@
     {
       "id": "dp_self-disclosure_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1015,7 +1207,7 @@
     {
       "id": "dp_self-disclosure_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1027,7 +1219,7 @@
     {
       "id": "dp_self-disclosure_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1039,7 +1231,7 @@
     {
       "id": "dp_self-disclosure_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1051,7 +1243,7 @@
     {
       "id": "dp_self-disclosure_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1063,7 +1255,7 @@
     {
       "id": "dp_self-disclosure_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1075,7 +1267,7 @@
     {
       "id": "dp_self-disclosure_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1087,7 +1279,7 @@
     {
       "id": "dp_self-disclosure_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1095,6 +1287,30 @@
       ],
       "text": "[Low voice] Are you okay with silence, or does it make you want to fill it?",
       "suggestion": "I can sit with silence. I often feel close attention in silence, not distance. You can let the silence test that slowly rather than answer right away."
+    },
+    {
+      "id": "dp_self-disclosure_case-marcus_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Guarded] Would you tell me if you didn't understand what I meant? People nod. Then it's clear they haven't got it.",
+      "suggestion": "Yes. Sometimes I don't understand yet, and I would rather say that and check than give you a polite nod. You can also tell me when I've missed it. It matters that you don't have to guess whether I'm following you."
+    },
+    {
+      "id": "dp_self-disclosure_case-marcus_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flat, watching the therapist] Your eyes went wet. Now I have to worry about you too?",
+      "suggestion": "I was moved by what you told me, and I can take care of my reaction. You don't need to look after me. It sounds as though seeing it made this space feel less safe for you."
     }
   ]
 }

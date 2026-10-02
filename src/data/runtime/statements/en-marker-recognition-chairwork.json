@@ -3,7 +3,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -15,7 +15,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -27,7 +27,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -39,7 +39,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -51,7 +51,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -63,7 +63,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -75,7 +75,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -87,7 +87,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -99,7 +99,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -111,7 +111,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -119,13 +119,37 @@
       ],
       "text": "[Tearful] I still want to tell him, You got to leave, but I had to stay in the apartment with every memory.",
       "suggestion": "That line belongs directly with him. If you are willing, let's bring him into the empty chair and say it to him once: 'You got to leave, but I had to stay with every memory.' Then we pause before adding anything more."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Tearful, then sharp with herself] I was doing okay until I found his scarf. Honestly, Sara, get a grip. It's a scarf. Stop being so pathetic.",
+      "suggestion": "You were hurting, then you came down hard on yourself for it. Would you try two chairs so we can hear that criticism and what it does to you? If you're willing, use this chair for the voice saying 'get a grip' and picture yourself in the other. Start by saying that criticism directly to her."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Quietly angry] He said we'd talk properly about the breakup. Then he sent a message about collecting his things. I keep rehearsing what I never got to say.",
+      "suggestion": "There's something you still need to say to him about how he left. Would it help to try saying it to him here, using that empty chair? If you want to try, picture him there, at a distance that feels right. Begin with 'When you sent that message instead of talking to me…' and tell him what that was like for you."
     }
   ],
   "case-michael": [
     {
       "id": "dp_marker-recognition-chairwork_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -137,7 +161,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -149,7 +173,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -161,7 +185,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -173,7 +197,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -185,7 +209,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -197,7 +221,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -209,7 +233,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -221,7 +245,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -233,7 +257,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -241,13 +265,37 @@
       ],
       "text": "[Tense] I start to say sorry, and then a voice says, Do not fold. It tells me that if I soften first, my wife wins and I lose the last bit of respect I have. So I swallow the apology and talk about what she did instead.",
       "suggestion": "The 'do not fold' voice stops the apology by making repair feel like defeat. Let's give that voice this chair first: make its case for swallowing the apology. Then we will move to the side that wanted to repair and hear what gets blocked."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Scowling] My boss said 'good job' and I immediately thought, don't get comfortable. One decent week doesn't mean you're not a screw-up.",
+      "suggestion": "Even praise is followed by an attack on yourself. Would you try two chairs to hear that attack and how you receive it? If you agree, take this chair as the voice warning you not to get comfortable, and imagine yourself opposite. Tell him directly, 'One decent week doesn't mean…'"
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Voice catches, jaw tightens] I was about to tell my son I missed him. Then I bit down and asked about his homework. You don't dump that stuff on a kid.",
+      "suggestion": "You tightened your jaw and stopped the words about missing him. Would you explore that stopping with two chairs? This is about understanding it, not deciding what to say to your son. If you're willing, sit here as the voice that stops you, picture yourself in the other chair, and tell him exactly what he must not say."
     }
   ],
   "case-jason": [
     {
       "id": "dp_marker-recognition-chairwork_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -259,7 +307,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -271,7 +319,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -283,7 +331,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -295,7 +343,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -307,7 +355,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -319,7 +367,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -331,7 +379,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -343,7 +391,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -355,7 +403,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -363,13 +411,37 @@
       ],
       "text": "[Anxious] When I want to ask a question in class, I stare at my notes until the chance passes. I know the question is probably normal, but I make myself look busy until the professor moves on.",
       "suggestion": "That busy-looking silence stops the question before it enters the room. Could we use two chairs for a short round? From this chair, show how you keep him looking down and silent; then we will move to the side that wanted to ask."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Looking down] I answered one question at lunch and stumbled over a word. All the way home it was, 'You sounded stupid. Why can't you just talk normally?'",
+      "suggestion": "You're speaking to yourself very harshly about that one word. Would you try two chairs to hear those words and how they affect you? If you're willing, sit here as the voice saying you sounded stupid, and picture yourself in the other chair. Say the first sentence directly to him; we can go slowly."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Hesitant, hurt] My old friend used to joke about how quiet I was. I laughed too. I still want to tell him it wasn't funny, but I never did.",
+      "suggestion": "You still have something to say to him about those jokes. Would you try telling him here, with that empty chair standing in for him? If you want to, picture him there and begin with 'When you joked about how quiet I was…' Tell him what you didn't get to say then."
     }
   ],
   "case-laura": [
     {
       "id": "dp_marker-recognition-chairwork_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -381,7 +453,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -393,7 +465,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -405,7 +477,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -417,7 +489,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -429,7 +501,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -441,7 +513,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -453,7 +525,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -465,7 +537,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -477,7 +549,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -485,13 +557,37 @@
       ],
       "text": "[Distant] I still picture my bedroom door after it happened, waiting to hear my mother come down the hall. She never did. I want to ask her, Why did you never come to my room afterward?",
       "suggestion": "Your mother is missing from the hallway after it happened, and the question is still there. If it feels manageable, we can bring her into the empty chair and ask, 'Why did you never come to my room afterward?' only as far as feels tolerable."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-laura_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Eyes moisten; presses lips together] No. Not this. If I start wanting someone here, I won't be able to stop. Just swallow it. Go blank.",
+      "suggestion": "You press your lips together and tell yourself to go blank just as the wanting appears. Would you be willing to look at that stopping with two chairs, without pushing past it? If you choose to try, sit here as the voice telling you to swallow it, picture yourself opposite, and say only that first instruction to her. We can stop there."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-laura_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Low, bitter] He thanked me for being 'so reasonable' about the divorce. I wanted to tell him I wasn't fine. I was just too tired to argue.",
+      "suggestion": "There are words he hasn't heard about what being 'reasonable' cost you. Would you try saying them to him using the empty chair? If you're willing, picture him there at a comfortable distance. Start with 'When you thanked me for being reasonable…' and tell him how it actually was for you."
     }
   ],
   "case-carlos": [
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -503,7 +599,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -515,7 +611,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -527,7 +623,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -539,7 +635,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -551,7 +647,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -563,7 +659,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -575,7 +671,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -587,7 +683,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -599,7 +695,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -607,13 +703,37 @@
       ],
       "text": "[Tense and angry] When tears come up, I clench my jaw and turn them into heat before anyone can see. If the anger is there, nobody asks what hurt. They just back up, and that feels safer.",
       "suggestion": "The tears get converted into heat before anyone can reach the hurt. Could we put that converting side in this chair first? Show how you clench, heat up, and make people back up; then we will move to the tearful side."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-carlos_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Disgusted with himself] She had to check my face before asking for a lift. Great father you are, Carlos. Your own kid is scared to ask you anything.",
+      "suggestion": "You're attacking yourself about the fear you saw in her. Would you try two chairs to hear that attack and what happens when you receive it? Understanding this doesn't take away your responsibility to her. If you agree, sit here as the voice saying 'great father you are,' picture yourself opposite, and say those words directly to him."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-carlos_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Tense, hurt] My old supervisor joked that I'd never be more than a pair of hands. I still hear it when I have to lead a meeting. I never told him how much it got to me.",
+      "suggestion": "His words still get to you, and there is something you never told him about their impact. Would you try saying it to him with the empty chair? If you're willing, picture him there at a distance you choose. Begin with 'When you called me just a pair of hands…' and tell him what you needed him to hear."
     }
   ],
   "case-nina": [
     {
       "id": "dp_marker-recognition-chairwork_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -625,7 +745,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -637,7 +757,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -649,7 +769,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -661,7 +781,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -673,7 +793,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -685,7 +805,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -697,7 +817,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -709,7 +829,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -721,7 +841,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -729,13 +849,37 @@
       ],
       "text": "[Worried] When I rest, my mind lists everyone who might fall apart without me. It starts with my mother needing a ride, then the boys forgetting something, then the house becoming chaos, and suddenly sitting still feels like negligence.",
       "suggestion": "The worry makes rest feel like negligence by showing everyone falling apart. Would you be willing to give that worry this chair? Let it list the feared consequences; then we will move to the exhausted side trying to rest under that pressure."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-nina_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Tears rise; gives a quick smile] I was going to say I'm angry with her. No, that's not fair. Smile, Nina. She's got enough to deal with. Don't make it worse.",
+      "suggestion": "You started to feel anger, then smiled and told yourself to stop. Would you explore that stopping with two chairs so we can understand what it does? If you're willing, sit here as the voice saying 'don't make it worse,' picture yourself in the other chair, and tell her what she's not allowed to express."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-nina_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Quietly resentful] The headteacher thanked me for 'never saying no.' I wanted to tell her it wasn't a compliment. I'd been asking for help all term. I still go over what I should have said.",
+      "suggestion": "You still have words for her about how that praise missed your need for help. Would you try saying them with her imagined in the empty chair? If you're willing, picture her there and begin with 'When you thanked me for never saying no…' Tell her what you needed her to understand."
     }
   ],
   "case-aisha": [
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -747,7 +891,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -759,7 +903,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -771,7 +915,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -783,7 +927,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -795,7 +939,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -807,7 +951,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -819,7 +963,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -831,7 +975,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -843,7 +987,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -851,13 +995,37 @@
       ],
       "text": "[Tearful] When grief starts to show, I laugh too loudly and say, Forget it, this is stupid. Then I make a joke about being dramatic, and the crying part goes quiet like it got slapped.",
       "suggestion": "The mocking voice shuts the grief down before it can be seen. Would you be willing to let that side take this chair first, just briefly? Say 'forget it, this is stupid' to the crying side; then we will switch and give the grieving side a few protected words."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-aisha_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Angry with herself, crying] I asked her to stay and then called her selfish. You ruin everything, Aisha. Nobody can stand you for long.",
+      "suggestion": "You're hurting, and you're attacking yourself as someone nobody can stand. Would you try two chairs to hear that attack and its impact, one sentence at a time? We can stop if it becomes too much. If you're willing, sit here as the voice saying 'you ruin everything,' picture yourself opposite, and say that one sentence directly to her."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-aisha_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Trembling] My foster mum said I was family. Then they moved me. I want to ask her why she let me believe it, but even picturing her makes me shake.",
+      "suggestion": "There is a painful question you never got to ask her, and even imagining her feels like a lot. We don't have to do this now. Would trying one sentence toward an empty chair feel manageable, if you choose the distance and can stop at any point? If yes, picture her only as clearly as feels safe and begin, 'When you told me I was family…'"
     }
   ],
   "case-david": [
     {
       "id": "dp_marker-recognition-chairwork_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -869,7 +1037,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -881,7 +1049,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -893,7 +1061,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -905,7 +1073,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -917,7 +1085,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -929,7 +1097,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -941,7 +1109,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -953,7 +1121,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -965,7 +1133,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -973,13 +1141,37 @@
       ],
       "text": "[Dismissive] When sadness comes up, I analyze everyone's tone until the feeling is gone. I can turn a conversation with my wife into a transcript in my head, finding inconsistencies, proving my point, and by then the tightness in my throat is gone.",
       "suggestion": "The analysis moves you into a courtroom before sadness can speak, so the tightness disappears without being heard. Would you be willing to make that interruption concrete? From this chair, analyze her tone and move him away from the tightness; then we will move to the sadness and let it say a few direct words."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-david_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Coldly, looking away] I almost cried when she said she missed the old me. Then: enough. Get your face under control. Don't make yourself small in front of her.",
+      "suggestion": "You stopped the tears by ordering yourself to get your face under control. Would you try two chairs to understand that command and its effect, without requiring yourself to cry? If you're willing, take this chair as the voice giving the order, picture yourself opposite, and tell him directly what he must not show."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-david_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Precise, jaw tight] My father called my promotion 'a decent start.' He always did that. There's still a speech in my head about what it took to get there. He'll never hear it now.",
+      "suggestion": "You still want him to hear what your achievement cost you and how his response landed. Would you try speaking to him in the empty chair so those words have somewhere to go here? If you agree, picture him there at a distance you choose. Start with 'When you called it a decent start…' and tell him what you didn't get to say."
     }
   ],
   "case-marcus": [
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -991,7 +1183,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1003,7 +1195,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1015,7 +1207,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1027,7 +1219,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1039,7 +1231,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1051,7 +1243,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1063,7 +1255,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1075,7 +1267,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1087,7 +1279,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-03-07-v1",
+      "revision": "2026-10-02-v2",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1095,6 +1287,30 @@
       ],
       "text": "[Tense and guarded] When my sister asks about the past, I hear, Shut it down, and I change the subject.",
       "suggestion": "The 'shut it down' voice cuts contact with the past as soon as your sister asks, before anything vulnerable can appear. Could we use two chairs for a short round? From this chair, say 'shut it down' and show how you change the subject; then we will move to the side that was being asked."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-marcus_11",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flat, fists closed] I survived. He didn't. That's the fact. And every time I sleep okay, it's: you don't deserve that. You left him there.",
+      "suggestion": "You turn surviving, and even sleeping, into an accusation against yourself. Would you try two chairs to hear that accusation and its impact without going through the event? We can stop at any point. If you're willing, sit here as the voice saying 'you don't deserve that,' picture yourself opposite, and say only that sentence to him."
+    },
+    {
+      "id": "dp_marker-recognition-chairwork_case-marcus_12",
+      "track": "case_matrix",
+      "revision": "2026-10-02-v2",
+      "criteriaTags": [
+        "recognize_marker",
+        "offer_task_setup",
+        "case_matrix_expansion"
+      ],
+      "text": "[Voice catches, stares at the floor] There it is. Shut it down. Tighten everything. If I let that sadness out, I won't get it back in.",
+      "suggestion": "You tighten your body to stop the sadness from coming out. Would you explore just that stopping with two chairs, without asking yourself to release all the sadness? If it feels manageable, sit here as the voice saying 'shut it down,' picture yourself in the other chair, and give him that one instruction. We can pause immediately if needed."
     }
   ]
 }

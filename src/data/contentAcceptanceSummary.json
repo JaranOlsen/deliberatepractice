@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-26T23:06:20.687Z",
-  "revision": "2026-03-07-v1",
+  "generatedAt": "2026-10-02T18:34:37.095Z",
+  "revision": "2026-10-02-v2",
   "status": {
-    "totalItems": 1080,
-    "translatedCount": 1080,
+    "totalItems": 1296,
+    "translatedCount": 1296,
     "reviewStatusCounts": {
-      "approved": 1080
+      "approved": 1296
     },
     "duplicateStatementCount": 0,
     "skillPurityWarningCount": 0,

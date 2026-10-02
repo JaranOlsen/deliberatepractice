@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {createRoomSync, roomRole, roomEveryoneReady} from '../src/js/practiceRoomSync.js';
+import {createRoomSync, roomRole, roomEveryoneReady, missingRoomRoles} from '../src/js/practiceRoomSync.js';
 const room = version => ({id: 'room', version, observer_id: 'o', therapist_id: 't', client_id: 'c'});
 const wait = () => new Promise(resolve => setTimeout(resolve, 0));
 function fixture(options = {}) {
@@ -98,7 +98,7 @@ test('backgrounded device does not accept or acknowledge unseen steps', async ()
 
 
 test('pairs need both active devices; watching observers do not block a larger group', () => {
-  const r = {...room(4), observer_id: null, host_id: 't', member_ids: ['t','c','p'],
+  const r = {...room(4), observer_id: null, phase: 'practicing', host_id: 't', member_ids: ['t','c','p'],
     presence: {t:{connected:true,acknowledged_version:4}, c:{connected:true,acknowledged_version:4}}};
   assert.equal(roomEveryoneReady(r), true);
   assert.equal(roomRole(r, 'p'), 'passive');
@@ -135,4 +135,23 @@ test('successful departure stops synchronization instead of accepting an inacces
     assert.equal(f.pending(),null);
     assert.equal(f.changes.at(-1).left,true);
   } finally {f.controller.stop();}
+});
+
+
+test('setup needs a therapist and client, plus an observer for three or more members', () => {
+  for (const phase of ['choosing', 'lobby']) for (const members of [2,3,4]) {
+    const r = {...room(4), phase, member_ids: ['t','c','o','p'].slice(0,members),
+      observer_id: members===2 ? null : 'o',
+      presence: Object.fromEntries(['t','c','o'].map(id=>[id,{connected:true,acknowledged_version:4}]))};
+    assert.equal(roomEveryoneReady(r), true);
+    for (const role of members===2 ? ['therapist','client'] : ['therapist','client','observer']) {
+      const incomplete = {...r, [`${role}_id`]: null};
+      assert.deepEqual(missingRoomRoles(incomplete), [role]);
+      assert.equal(roomEveryoneReady(incomplete), false, `${phase}: ${members} members missing ${role}`);
+    }
+    if (members>2) {
+      r.presence.o.acknowledged_version=3;
+      assert.equal(roomEveryoneReady(r), false, 'An assigned observer must acknowledge the current setup');
+    }
+  }
 });
