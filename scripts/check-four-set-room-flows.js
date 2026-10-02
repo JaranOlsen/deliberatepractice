@@ -6,8 +6,9 @@ async (page) => {
   const users=await (await page.request.get('http://127.0.0.1:5199/users')).json();
   const contexts=[],pages=[],errors=[];
   const assert=(ok,message)=>{if(!ok)throw new Error(message);};
-  let room,loseResponse=false,stage='setup',claimRace=false;
+  let room,loseResponse=false,stage='setup',claimRace=false,readyRace=false,disconnectedUser=null;
   const claimWaiters=[],claimResults=[];
+  const readyWaiters=[],readyResults=[];
   for(const user of ['o','t','c','p']) {
     const context=await page.context().browser().newContext({viewport:{width:320,height:844}});contexts.push(context);
     const p=await context.newPage();pages.push(p);p.on('pageerror',e=>errors.push(e.message));
@@ -40,16 +41,23 @@ async (page) => {
     `}));
     await context.route(`**/__room_test/${user}`,async route=>{
       const {name,args}=JSON.parse(route.request().postData());
+      if(disconnectedUser===user&&name==='sync_practice_room')return route.fulfill({status:503,contentType:'application/json',body:'{"message":"Test connection interrupted"}'});
       const competing=claimRace&&name==='command_practice_room'&&args.input_action==='role_client';
       if(competing)await new Promise(resolve=>{
         claimWaiters.push(resolve);
         if(claimWaiters.length===2){claimRace=false;for(const release of claimWaiters)release();}
       });
+      const concurrentReady=readyRace&&name==='manage_practice_room'&&args.input_action==='ready';
+      if(concurrentReady)await new Promise(resolve=>{
+        readyWaiters.push(resolve);
+        if(readyWaiters.length===2){readyRace=false;for(const release of readyWaiters)release();}
+      });
       const response=await p.request.post('http://127.0.0.1:5199/rpc',{data:{user:users[user],name,args}});
       const data=await response.json();
       if(competing)claimResults.push({user,version:args.input_expected_version,ok:response.ok(),data});
+      if(concurrentReady)readyResults.push({user,version:args.input_expected_version,ok:response.ok(),data});
       if(response.ok() && data.id && (!room || data.id!==room.id || data.version>=room.version))room=data;
-      if(loseResponse&&name==='command_practice_room') {
+      if(loseResponse&&['command_practice_room','manage_practice_room'].includes(name)) {
         loseResponse=false;await route.fulfill({status:503,body:'{"message":"Response lost after commit"}'});
       } else await route.fulfill({status:response.status(),contentType:'application/json',body:JSON.stringify(data)});
     });
@@ -57,7 +65,7 @@ async (page) => {
   }
   const [o,t,c,watcher]=pages;
   const click=async(p,id)=>{
-    const waits=['room-next','room-pass','room-save','room-rotate','room-change-role-submit'].includes(id) && !loseResponse;
+    const waits=['room-next','room-pass','room-save','room-rotate','room-change-role-submit','room-ready'].includes(id) && !loseResponse;
     const v=waits?Number(await p.locator('#room-panel').getAttribute('data-version')):0;
     if(id==='room-pass')p.once('dialog',dialog=>dialog.accept());
     await p.locator('#'+id).click();
@@ -71,6 +79,12 @@ async (page) => {
     for(const p of pages)await p.waitForFunction(v=>Number(document.getElementById('room-panel').dataset.version)===v,room.version);
   };
   const ready=async(p,id)=>p.waitForFunction(id=>{const e=document.getElementById(id);return e&&!e.hidden&&!e.disabled;},id);
+  const confirmReadiness=async()=>{
+    const participants=[];
+    for(const p of pages)if(await p.locator('#room-ready').isVisible())participants.push(p);
+    for(const p of participants)await ready(p,'room-ready');
+    await Promise.all(participants.map(p=>click(p,'room-ready')));await sync();
+  };
   const ratings=async()=> (await page.request.get('http://127.0.0.1:5199/ratings')).json();
   const existingRatings=new Set((await ratings()).map(r=>r.id));
   try {
@@ -88,6 +102,16 @@ async (page) => {
     const fullRound=room.round_id, order=[...room.statement_ids], roles=[room.therapist_id,room.client_id,room.observer_id];
     assert(room.round_size===12&&new Set(order).size===12,'Preparation selects twelve unique items');
     assert((await o.locator('#room-content').textContent()).includes('4 sets of 3'),'Preparation explains the fixed-role round');
+    stage='human readiness';
+    assert(room.readiness_required&&room.preparation_id,'New app rooms opt into human readiness');
+    assert(await o.locator('#room-role-summary').isVisible()&&!(await o.locator('#room-details').evaluate(e=>e.open)),'Assignments are visible without opening People');
+    assert((await o.locator('#room-seats').textContent()).includes('Test c'),'Visible assignments name the client');
+    assert(await o.locator('#room-next').isDisabled(),'Synchronized screens alone do not enable Start');
+    assert(await o.locator('#room-ready').isHidden()&&await watcher.locator('#room-ready').isHidden(),'Observer starts; watching participants need no readiness tap');
+    await o.screenshot({path:'output/playwright/room-readiness-observer-320.png',fullPage:true});
+    await c.screenshot({path:'output/playwright/room-readiness-client-320.png',fullPage:true});
+    readyRace=true;await confirmReadiness();
+    assert(readyResults.length===2&&readyResults.every(r=>r.ok)&&readyResults[0].version===readyResults[1].version,'Both readiness taps from the same version succeed');
     await ready(o,'room-next');await click(o,'room-next');await sync();
     for(let set=0;set<4;set++) {
       for(let i=0;i<3;i++) {
@@ -156,7 +180,7 @@ async (page) => {
     assert(await o.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Missing-role status fits 320px');
     await o.screenshot({path:'output/playwright/role-selection-missing-observer-320.png',fullPage:true});
     await loser.locator('#room-details summary').click();await loser.locator('#room-change-role').selectOption('observer');await click(loser,'room-change-role-submit');await sync();
-    await ready(loser,'room-next');
+    assert(await loser.locator('#room-next').isVisible()&&await loser.locator('#room-next').isDisabled(),'Filling the observer role exposes Start but still waits for human readiness');
     assert(await o.locator('#room-next').isHidden(),'Filling the observer role transfers the start control to that phone');
     stage='two-person reselection';
     // A genuine pair may start without an observer: remove both watching participants.
@@ -169,6 +193,8 @@ async (page) => {
     }
     assert(room.member_ids.length===2&&room.therapist_id===users.o&&room.client_id&&!room.observer_id,'Two-person room retains exactly therapist and client');
     assert((await o.locator('.room-preparation').textContent()).includes('Start when you’re both ready'),'Preparation updates when a larger group becomes a pair');
+    assert(await o.locator('#room-ready').isHidden(),'Pair therapist starts instead of confirming readiness twice');
+    await confirmReadiness();
     await ready(o,'room-next');await click(o,'room-next');await sync();
     for(let i=0;i<3;i++){await ready(o,'room-pass');await click(o,'room-pass');await sync();}
     assert(await o.locator('#room-score').count()===0,'An all-passed set has no rating form');
@@ -177,8 +203,33 @@ async (page) => {
     await o.locator('#room-score').selectOption('3');await ready(o,'room-save');await click(o,'room-save');await sync();
     const pairRows=(await ratings()).filter(r=>r.therapist_user_id===users.o&&!existingRatings.has(r.id));
     assert(pairRows.length===1&&pairRows[0].source==='self'&&pairRows[0].item_count===3,'Pair therapist self-assessment follows the same set boundaries');
+    stage='host transfer';
+    const partner=pages.find(p=>p!==o), previousHost=room.host_id, nextHost=room.client_id;
+    const retained={roles:[room.therapist_id,room.client_id,room.observer_id],round:room.round_id,index:room.item_index,score:room.saved_score};
+    await o.locator('#room-details summary').click();await o.locator('#room-transfer-target').selectOption(nextHost);
+    await ready(o,'room-transfer');await click(o,'room-transfer');
+    assert((await o.locator('#room-exit-description').textContent()).includes('practice roles stay the same'),'Transfer confirmation explains role preservation');
+    await o.screenshot({path:'output/playwright/room-host-transfer-320.png',fullPage:true});
+    loseResponse=true;await click(o,'room-exit-confirm');await o.locator('#room-retry').waitFor();
+    await ready(o,'room-retry');await click(o,'room-retry');await o.waitForFunction(()=>document.getElementById('room-retry').hidden);await sync();
+    assert(room.host_id===nextHost&&room.host_id!==previousHost,'Hosting transfer survives a lost response');
+    assert(JSON.stringify(retained)===JSON.stringify({roles:[room.therapist_id,room.client_id,room.observer_id],round:room.round_id,index:room.item_index,score:room.saved_score}),'Transfer preserves roles, round and rating');
+    assert(await o.locator('#room-end').isHidden()&&!await o.locator('#room-leave').isHidden(),'Former host can leave and cannot end the room');
+    assert(await partner.locator('#room-end').evaluate(e=>!e.hidden),'New host receives the end-room control inside Room & people');
+    stage='host recovery';
+    disconnectedUser=room.client_id===users.c?'c':'t';
+    const age=await page.request.post('http://127.0.0.1:5199/host-away',{data:{roomId:room.id}});assert(age.ok(),'Only the local fixture host is aged');
+    await o.evaluate(()=>document.getElementById('room-sync').click());
+    await o.locator('#room-recover').waitFor();await ready(o,'room-recover');
+    assert(await o.locator('#room-rotate').isDisabled(),'An absent client still blocks progression');
+    await click(o,'room-recover');await click(o,'room-exit-confirm');
+    await o.waitForFunction(()=>document.getElementById('room-host-recovery').hidden);
+    assert(room.host_id===users.o&&room.saved_score===retained.score,'Explicit recovery transfers hosting without changing the rating');
+    assert(await o.locator('#room-rotate').isDisabled(),'Recovery does not take the absent client’s role or bypass synchronization');
+    disconnectedUser=null;await sync();await ready(o,'room-rotate');
+    assert(await partner.locator('#room-host-recovery').isHidden(),'Returning former host does not regain hosting');
     assert(errors.length===0,'No browser errors: '+errors.join('; '));
-    return {passed:true,participants:4,checks:['real local RPCs','twelve unique items','fixed roles','four distinct set ratings','passed items','lost-response replay','saved-checkpoint reconnect','320px role screens','explicit role/skill/case reselection','role selection survives polling','simultaneous client claims','taken draft choice resets','missing observer blocks UI and RPC','complete roles restore start control','pair self-assessment','all-passed set']};
+    return {passed:true,participants:4,checks:['real local RPCs','twelve unique items','fixed roles','four distinct set ratings','passed items','lost-response replay','saved-checkpoint reconnect','320px role screens','explicit role/skill/case reselection','role selection survives polling','simultaneous client claims','taken draft choice resets','missing observer blocks UI and RPC','human readiness barrier','simultaneous readiness','visible role assignments','pair readiness','pair self-assessment','all-passed set','host transfer with lost-response replay','host recovery','returning host does not regain authority']};
   } catch(error) {
     const ui=await o.locator('#room-panel').evaluate(e=>({phase:e.dataset.phase,version:e.dataset.version,error:document.getElementById('room-error').textContent})).catch(()=>null);
     const allUi=await Promise.all(pages.map(p=>p.locator('#room-panel').evaluate(e=>({hidden:e.hidden,phase:e.dataset.phase,version:e.dataset.version,section:document.body.dataset.section,error:document.getElementById('room-error').textContent})).catch(()=>null)));

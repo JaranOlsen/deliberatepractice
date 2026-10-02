@@ -15,6 +15,7 @@ import {
   GLOSSARY
 } from "./practiceData.js";
 import { hasPracticeContent, getPracticeStatements, loadPracticeContent } from "./practiceContent.js";
+import {readRoomInvite} from './roomInvite.js';
 import {
   submitFeedback,
   redeemAccessCode,
@@ -4158,8 +4159,10 @@ function initialize() {
   updateFeedbackAvailability();
   renderAuthUI();
   registerEventListeners();
-  const inviteCode = new URLSearchParams(window.location.search).get('room')?.replace(/[^a-z0-9]/gi, '').toUpperCase();
-  initializeAuth().then(() => { if (inviteCode && /^[A-Z0-9]{12}$/.test(inviteCode)) void openSharedRoom('join', {code:inviteCode}); });
+  let inviteStorage;
+  try { inviteStorage = localStorage; } catch { /* Invitations still work from their URL. */ }
+  const inviteCode = readRoomInvite(window.location.href, inviteStorage);
+  initializeAuth().then(() => { if (inviteCode) void openSharedRoom('join', {code:inviteCode}); });
   if (state.languageId) renderSkillOptions();
   showSection(state.languageId ? "skill" : "language");
 }

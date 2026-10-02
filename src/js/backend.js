@@ -1,5 +1,7 @@
 "use strict";
 
+import {buildAuthRedirect} from './roomInvite.js';
+
 // Anonymous feedback/access-code calls still use direct REST so their current
 // behavior and RLS assumptions do not change.
 const SUPABASE_URL = normalizeSupabaseUrl(import.meta.env.VITE_SUPABASE_URL ?? "");
@@ -46,7 +48,9 @@ function getLoadedSupabaseClient() {
 
 function getAuthRedirectTo() {
   if (typeof window === "undefined") return undefined;
-  return `${window.location.origin}${window.location.pathname}`;
+  let storage;
+  try { storage = window.localStorage; } catch { /* Private browser settings may block storage. */ }
+  return buildAuthRedirect(window.location.href, storage);
 }
 
 function normalizeSupabaseError(error) {
@@ -337,7 +341,7 @@ export async function logAccessCodeAttempt({ code, status, languageId }) {
 
 // Shared rooms use the same authenticated client as account and progress calls.
 export async function practiceRoomRpc(name, args) {
-  const allowed = ['create_practice_room', 'join_practice_room', 'sync_practice_room', 'command_practice_room', 'prepare_practice_room'];
+  const allowed = ['create_practice_room', 'join_practice_room', 'sync_practice_room', 'command_practice_room', 'prepare_practice_room', 'manage_practice_room'];
   if (!allowed.includes(name)) throw new Error('Unknown room operation');
   const client = await getSupabaseClient();
   const { data, error } = await client.rpc(name, args).abortSignal(AbortSignal.timeout(12000));

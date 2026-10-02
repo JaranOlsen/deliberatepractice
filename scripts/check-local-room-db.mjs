@@ -21,7 +21,7 @@ try {
   for (const name of (await readdir(new URL('supabase/migrations/', root))).sort()) {
     await db.exec(await read('supabase/migrations/' + name));
   }
-  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql']) {
+  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql']) {
     await db.exec(await read('scripts/' + name));
     console.log('PASS ' + name);
   }
@@ -37,7 +37,8 @@ try {
       create_practice_room: ['input_config','input_room_id'], join_practice_room: ['input_code','input_role'],
       prepare_practice_room: ['input_room_id','input_command_id','input_expected_version','input_config'],
       sync_practice_room: ['input_room_id','input_acknowledged_version'],
-      command_practice_room: ['input_room_id','input_command_id','input_expected_version','input_action','input_score']
+      command_practice_room: ['input_room_id','input_command_id','input_expected_version','input_action','input_score'],
+      manage_practice_room: ['input_room_id','input_command_id','input_expected_version','input_action','input_config']
     };
     let queue = Promise.resolve();
     const server = createServer((req, res) => {
@@ -46,6 +47,21 @@ try {
       if (req.url === '/ratings') {
         queue = queue.then(async () => reply(200, (await db.query('select * from public.practice_ratings order by created_at,id')).rows));
         return;
+      }
+      // Only the isolated fixture database: simulate a host absence without a five-minute browser wait.
+      if (req.url === '/host-away' && req.method === 'POST') {
+        let body='';req.on('data',chunk=>{body+=chunk;});req.on('end',()=>{
+          queue=queue.then(async()=>{
+            try {
+              const {roomId}=JSON.parse(body);
+              const found=await db.query('select host_id from public.practice_rooms where id=$1',[roomId]);
+              if(!Object.values(users).includes(found.rows[0]?.host_id))throw new Error('Not a browser fixture room');
+              await db.query("update public.practice_rooms set created_at=now()-interval '10 minutes' where id=$1",[roomId]);
+              await db.query("update dp_private.room_presence set seen_at=now()-interval '6 minutes' where room_id=$1 and user_id=$2",[roomId,found.rows[0].host_id]);
+              reply(200,{ok:true});
+            } catch(error){reply(400,{message:error.message});}
+          });
+        });return;
       }
       if (req.url !== '/rpc' || req.method !== 'POST') return reply(404, {});
       let body = '';
