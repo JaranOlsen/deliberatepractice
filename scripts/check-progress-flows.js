@@ -15,6 +15,15 @@ async (page) => {
   let pending;
   let release;
   const waitLoaded = () => page.locator('.progress-skill').first().waitFor();
+  const headerClear = async () => {
+    const button = await page.locator('#self-chart-refresh').boundingBox();
+    for (const id of ['self-chart-title','self-chart-description']) {
+      const text = await page.locator('#'+id).boundingBox();
+      assert(button.x+button.width<=text.x || text.x+text.width<=button.x
+        || button.y+button.height<=text.y || text.y+text.height<=button.y, 'Refresh never overlaps the progress title or description');
+    }
+    assert(button.height>=44,'Refresh has a phone-sized touch target');
+  };
   await page.route('**/src/js/backend.js*', async (route) => route.fulfill({ contentType: 'text/javascript', body: `
     const user = {id:"test-self",email:"test@example.invalid"};
     export const isSupabaseReady = () => true;
@@ -115,6 +124,14 @@ async (page) => {
     await page.locator('#progress-source').selectOption('self');
     await waitLoaded();
     assert(await page.locator('.self-chart-area').count() === 1, 'Complete data must retain the filled radar profile');
+    for(const width of [320,390]){
+      await page.setViewportSize({width,height:844});
+      for(const source of ['observer','self']){
+        await page.locator('#progress-source').selectOption(source);await waitLoaded();await headerClear();
+      }
+    }
+    await page.locator('#self-chart-title').scrollIntoViewIfNeeded();
+    await page.screenshot({path:'output/playwright/progress-header-mobile.png'});
     await page.setViewportSize({width:900,height:950});
     await page.locator('#self-chart-title').scrollIntoViewIfNeeded();
     await page.screenshot({path:'output/playwright/progress-radar-desktop.png'});
@@ -139,6 +156,9 @@ async (page) => {
     await click('open-progress');
     await waitLoaded();
     await page.setViewportSize({width:320,height:740});
+    for(const source of ['observer','self']){
+      await page.locator('#progress-source').selectOption(source);await waitLoaded();await headerClear();
+    }
     assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth && document.querySelector('#progress-modal').scrollWidth <= document.querySelector('#progress-modal').clientWidth), 'Norwegian progress must fit 320px');
     await page.locator('#self-chart-title').scrollIntoViewIfNeeded();
     await page.screenshot({path:'output/playwright/progress-radar-320.png'});

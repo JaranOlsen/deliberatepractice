@@ -1542,7 +1542,7 @@ input[type="email"] {
   font-size: 0.96rem;
 }
 
-.chart-header p {
+.chart-description {
   margin: 0.15rem 0 0;
   color: var(--color-muted);
   font-size: 0.86rem;
@@ -2000,9 +2000,9 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 }
 
 .progress-modal .self-chart-label { font-size: 10px; }
-.progress-modal .chart-header { display: block; position: relative; }
-.progress-modal .chart-header h3 { padding-right: 6.5rem; }
-.progress-modal .chart-header > button { position: absolute; right: 0; top: 0; }
+.progress-modal .chart-header { align-items: center; }
+.progress-modal .chart-header h3 { min-width: 0; overflow-wrap: anywhere; }
+.progress-modal .chart-header > button { flex-shrink: 0; min-height: 44px; }
 
 .radar-levels { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .5rem; }
 .radar-level { --radar-color: var(--color-muted); display: grid; justify-items: center; gap: .25rem; min-height: 44px; padding: .65rem .25rem; border: 1px solid var(--color-border); border-radius: .65rem; background: white; color: var(--color-text); }
