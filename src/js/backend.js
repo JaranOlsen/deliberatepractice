@@ -1,5 +1,7 @@
 "use strict";
 
+import {collectRatingPages} from './ratingHistoryPages.js';
+
 import {buildAuthRedirect} from './roomInvite.js';
 
 // Anonymous feedback/access-code calls still use direct REST so their current
@@ -8,6 +10,8 @@ const SUPABASE_URL = normalizeSupabaseUrl(import.meta.env.VITE_SUPABASE_URL ?? "
 const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY ?? "";
 let supabaseClient = null;
 let supabaseClientPromise = null;
+let historyColumnsAvailable = true;
+let historyRatingRpcAvailable = true;
 
 function normalizeSupabaseUrl(value) {
   return String(value ?? "").trim().replace(/\/+$/, "");
@@ -128,7 +132,7 @@ export async function listPracticeTargets() {
 
 export async function submitPracticeRating(payload) {
   const supabase = await getSupabaseClient();
-  const { data, error } = await supabase.rpc("record_practice_rating", {
+  const args = {
     input_therapist_user_id: payload.therapistUserId,
     input_source: payload.source,
     input_language_id: payload.languageId,
@@ -145,29 +149,48 @@ export async function submitPracticeRating(payload) {
     input_item_count: payload.itemCount ?? null,
     input_client_round_id: payload.roundId ?? null,
     input_practice_mode: payload.practiceMode ?? null,
-    input_rating_rubric: payload.ratingRubric ?? null
-  });
+    input_rating_rubric: payload.ratingRubric ?? null,
+    input_parent_round_id: payload.parentRoundId ?? null,
+    input_set_number: payload.setNumber ?? null
+  };
+  let result = await supabase.rpc(historyRatingRpcAvailable ? 'record_practice_rating_with_history' : 'record_practice_rating',
+    historyRatingRpcAvailable ? args : Object.fromEntries(Object.entries(args).filter(([key]) => !['input_parent_round_id','input_set_number'].includes(key))));
+  // A preview can use the existing database before its additive migration is approved.
+  // Retry only a missing RPC, never an authorization or data-validation rejection.
+  if (result.error?.code === 'PGRST202' && result.error.message?.includes('record_practice_rating_with_history')) {
+    historyRatingRpcAvailable = false;
+    const {input_parent_round_id, input_set_number, ...legacyArgs} = args;
+    result = await supabase.rpc('record_practice_rating', legacyArgs);
+  }
+  const {data,error} = result;
   if (error) throw normalizeSupabaseError(error);
   return Array.isArray(data) ? data[0] ?? null : data ?? null;
 }
 
-export async function listPracticeRatings({ source = "self", limit = 500 } = {}) {
-  if (!["self", "observer"].includes(source)) throw new Error("Unknown rating source");
+export async function listPracticeRatings({source = 'self'} = {}) {
+  if (!['self','observer'].includes(source)) throw new Error('Unknown rating source');
   const supabase = await getSupabaseClient();
-  const { data: userData, error: userError } = await supabase.auth.getUser();
-  if (userError) throw normalizeSupabaseError(userError);
-  const userId = userData?.user?.id;
-  if (!userId) return [];
-  const { data, error } = await supabase
-    .from("practice_ratings")
-    .select("skill_id,case_id,difficulty,score,item_count,created_at,practice_mode,rating_rubric")
-    .eq("therapist_user_id", userId)
-    .eq("source", source)
-    .eq("rating_rubric", "group-skill-v2")
-    .order("created_at", { ascending: false })
-    .limit(limit);
-  if (error) throw normalizeSupabaseError(error);
-  return Array.isArray(data) ? data : [];
+  const {data:{user}, error:authError} = await supabase.auth.getUser();
+  if (authError) throw new Error('Unable to load ratings');
+  if (!user) return [];
+  return collectRatingPages(async cursor => {
+    const readPage = async withMetadata => {
+      let query = supabase.from('practice_ratings')
+        .select('id,source,language_id,skill_id,case_id,difficulty,score,item_count,created_at,practice_mode,rating_rubric' + (withMetadata ? ',parent_round_id,set_number' : ''))
+        .eq('therapist_user_id',user.id).eq('source',source).eq('rating_rubric','group-skill-v2')
+        .order('created_at',{ascending:false}).order('id',{ascending:false}).limit(250);
+      if (cursor) query = query.or(`created_at.lt.${cursor.created_at},and(created_at.eq.${cursor.created_at},id.lt.${cursor.id})`);
+      return query.abortSignal(AbortSignal.timeout(15000));
+    };
+    let result = await readPage(historyColumnsAvailable);
+    if (result.error?.code === '42703' && /parent_round_id|set_number/.test(result.error.message ?? '')) {
+      historyColumnsAvailable = false;
+      result = await readPage(false);
+    }
+    const {data,error} = result;
+    if (error) throw new Error('Unable to load ratings');
+    return data ?? [];
+  });
 }
 
 export async function getPracticeGoal({userId, languageId, skillId}) {

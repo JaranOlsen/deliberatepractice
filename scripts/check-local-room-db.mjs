@@ -21,7 +21,7 @@ try {
   for (const name of (await readdir(new URL('supabase/migrations/', root))).sort()) {
     await db.exec(await read('supabase/migrations/' + name));
   }
-  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql', 'check-practice-goals.sql']) {
+  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql', 'check-practice-goals.sql', 'check-rating-history.sql']) {
     await db.exec(await read('scripts/' + name));
     console.log('PASS ' + name);
   }
@@ -38,8 +38,10 @@ try {
       prepare_practice_room: ['input_room_id','input_command_id','input_expected_version','input_config'],
       sync_practice_room: ['input_room_id','input_acknowledged_version'],
       command_practice_room: ['input_room_id','input_command_id','input_expected_version','input_action','input_score'],
+      record_practice_rating_with_history: ['input_therapist_user_id','input_source','input_language_id','input_skill_id','input_case_id','input_statement_id','input_statement_index','input_difficulty','input_score','input_criteria_tags','input_content_revision','input_rating_scope','input_completed_statement_ids','input_item_count','input_client_round_id','input_practice_mode','input_rating_rubric','input_parent_round_id','input_set_number'],
       manage_practice_room: ['input_room_id','input_command_id','input_expected_version','input_action','input_config']
     };
+    signatures.record_practice_rating = signatures.record_practice_rating_with_history.slice(0,-2);
     let queue = Promise.resolve();
     const server = createServer((req, res) => {
       const reply = (status, value) => {res.writeHead(status, {'Content-Type': 'application/json'});res.end(JSON.stringify(value));};
@@ -94,7 +96,8 @@ try {
             await db.query("select set_config('request.jwt.claim.sub',$1,true)", [user]);
             await db.exec('set local role authenticated');
             const values = signatures[name].map(key => args[key] ?? null);
-            const result = await db.query(`select public.${name}(${values.map((_, i) => '$' + (i+1)).join(',')}) as room`, values);
+            const call = `public.${name}(${values.map((_, i) => '$' + (i+1)).join(',')})`;
+            const result = await db.query(name.startsWith('record_practice_rating') ? `select to_jsonb(saved) as room from ${call} saved` : `select ${call} as room`, values);
             await db.exec('commit');
             reply(200, result.rows[0].room);
           } catch (error) {

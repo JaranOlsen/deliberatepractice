@@ -45,9 +45,10 @@ import {
 import {getGroupPracticeCopy, createGroupWorkflow, createGroupRoleGuide} from "./groupPracticeUI.js";
 import {GROUP_ROUND_SIZE, groupSetProgress} from './groupRound.js';
 import {createSkillFeedback} from './skillFeedbackUI.js';
-import {createPracticeGoalView, setPracticeGoalUser} from './practiceGoalUI.js';
+import {createPracticeGoalView, setPracticeGoalUser, practiceGoals} from './practiceGoalUI.js';
 
-import { summarizeRatings, createProgressRadar, focusProgressRadar } from "./practiceProgress.js";
+import { summarizeRatings, createProgressRadar, focusProgressRadar, recentRatings } from "./practiceProgress.js";
+import {createProgressHistory, createProgressSuggestion} from './progressHistoryUI.js';
 import { createDialogManager } from "./dialogs.js";
 import { SESSION_VERSION, isResumableSession, getRoundOutcome, getOrCreateRoundId } from "./practiceSession.js";
 
@@ -414,6 +415,7 @@ const state = {
   authLoading: false,
   progressSource: "self",
   progressDifficulty: "all",
+  progressPeriod: "recent",
   progressRatings: [],
   progressRatingsLoading: false,
   progressRatingsLoaded: false,
@@ -1346,8 +1348,25 @@ function renderSelfRatingsChart() {
     elements.selfChartStatus.textContent = strings.selfChartNotLoaded ?? "Open your account to load the chart.";
     return;
   }
-  const summary = summarizeRatings(state.progressRatings, SKILL_ORDER);
-  const comparison = createProgressRadar(state.progressRatings, SKILL_ORDER);
+  const selectedRatings = state.progressPeriod === 'all' ? state.progressRatings : recentRatings(state.progressRatings, SKILL_ORDER);
+  const summary = summarizeRatings(selectedRatings, SKILL_ORDER);
+  const comparison = createProgressRadar(selectedRatings, SKILL_ORDER);
+  const period = document.createElement('div'); period.className = 'progress-period';
+  period.setAttribute('role','group'); period.setAttribute('aria-label',strings.progressPeriod);
+  for (const value of ['recent','all']) {
+    const button = document.createElement('button'); button.type = 'button'; button.className = 'ghost-button';
+    button.dataset.progressPeriod = value; button.textContent = strings[value === 'recent' ? 'progressRecent' : 'progressAll'];
+    button.setAttribute('aria-pressed',String(state.progressPeriod === value));
+    button.addEventListener('click',()=>{state.progressPeriod=value;renderSelfRatingsChart();elements.selfChart.querySelector(`[data-progress-period="${value}"]`)?.focus({preventScroll:true});});
+    period.append(button);
+  }
+  const periodNote = document.createElement('p'); periodNote.className = 'response-hint';
+  periodNote.textContent = strings[state.progressPeriod === 'recent' ? 'progressRecentNote' : 'progressAllNote'];
+  elements.selfChart.append(period,periodNote);
+  const userId = state.authUser.id, languageId = state.languageId ?? 'en';
+  const suggestion = createProgressSuggestion({ratings:state.progressRatings,skillOrder:SKILL_ORDER,strings,
+    skillName:getLocalizedSkillName,practice:startProgressPractice,disabled:state.sessionActive || state.ratingVisible,
+    loadGoal:skillId=>practiceGoals.load({userId,languageId,skillId}),isCurrent:()=>state.authUser?.id===userId});
   const difficultyName = difficulty => difficulty === 'unspecified' ? strings.progressLevelUnspecified
     : strings[`difficulty${difficulty[0].toUpperCase()}${difficulty.slice(1)}`];
   if (!comparison.series.some(series => series.difficulty === state.progressDifficulty)) state.progressDifficulty = 'all';
@@ -1360,8 +1379,8 @@ function renderSelfRatingsChart() {
     formatChartTemplate(strings.selfChartCount, {count: visibleCount})
   ].join(' · ');
   if (!summary.overall.count) {
-    elements.selfChartStatus.textContent = state.progressSource === 'observer' ? strings.progressObserverEmpty : strings.selfChartEmpty;
-    elements.selfChart.append(renderProgressHistory(summary));
+    elements.selfChartStatus.textContent = state.progressRatings.length && state.progressPeriod === 'recent' ? strings.progressNoRecent : state.progressSource === 'observer' ? strings.progressObserverEmpty : strings.selfChartEmpty;
+    elements.selfChart.append(suggestion, renderProgressHistory());
     return;
   }
 
@@ -1509,60 +1528,20 @@ function renderSelfRatingsChart() {
   explanation.className = "response-hint";
   explanation.textContent = strings.progressMethodDescription;
   methods.append(methodsTitle, explanation, difficultyList, matrix);
-  elements.selfChart.append(levels, axisCount >= 3 ? svg : smallProfile, legend, renderProgressHistory(summary), methods);
+  elements.selfChart.append(levels, axisCount >= 3 ? svg : smallProfile, legend, suggestion, renderProgressHistory(), methods);
 }
 
-function renderProgressHistory(summary) {
-  const strings = getUIStrings();
-  const container = document.createElement("section");
-  container.className = "progress-history";
-  const title = document.createElement("h5");
-  title.textContent = strings.progressHistory;
-  container.append(title);
-  if (state.sessionActive || state.ratingVisible) {
-    const note = document.createElement("p");
-    note.className = "response-hint";
-    note.textContent = strings.progressFinishFirst;
-    container.append(note);
-  }
-  for (const entry of summary.skills) {
-    const row = document.createElement("article");
-    row.className = "progress-skill";
-    const heading = document.createElement("h6");
-    heading.textContent = getLocalizedSkillName(entry.skillId);
-    const stats = document.createElement("p");
-    stats.textContent = entry.count ? formatChartTemplate(strings.progressSkillStats, {
-      score: entry.average.toFixed(1), ratings: entry.ratingCount, items: entry.count
-    }) : strings.progressUnrated;
-    const recent = document.createElement("p");
-    recent.className = "response-hint";
-    if (entry.latest) {
-      const date = new Intl.DateTimeFormat(getLanguageDefinition(state.languageId ?? "en").locale, {
-        day: "numeric", month: "short", year: "numeric"
-      }).format(new Date(entry.latest.created_at));
-      const difficulty = entry.latest.difficulty;
-      const difficultyLabel = strings[`difficulty${difficulty?.[0]?.toUpperCase()}${difficulty?.slice(1)}`] ?? "";
-      recent.textContent = formatChartTemplate(strings.progressLatest, { date, score: entry.latest.score, difficulty: difficultyLabel });
-    }
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "ghost-button ghost-button--small";
-    button.textContent = strings.progressPractice;
-    button.setAttribute("aria-label", `${strings.progressPractice}: ${getLocalizedSkillName(entry.skillId)}`);
-    button.dataset.practiceSkill = entry.skillId;
-    button.disabled = state.sessionActive || state.ratingVisible;
-    button.addEventListener("click", () => {
-      if (state.sessionActive || state.ratingVisible) return;
-      dialogs.close(releaseElements["progress-overlay"]);
-      // Keep the practice format chosen in the library.
+function startProgressPractice(skillId) {
+  if (state.sessionActive || state.ratingVisible) return;
+  dialogs.close(releaseElements['progress-overlay']);
+  if (!state.languageId) handleLanguageSelection('en');
+  handleSkillSelection(skillId);
+}
 
-      if (!state.languageId) handleLanguageSelection("en");
-      handleSkillSelection(entry.skillId);
-    });
-    row.append(heading, stats, recent, button);
-    container.append(row);
-  }
-  return container;
+function renderProgressHistory() {
+  return createProgressHistory({ratings:state.progressRatings,skillOrder:SKILL_ORDER,strings:getUIStrings(),
+    locale:getLanguageDefinition(state.languageId ?? 'en').locale,skillName:getLocalizedSkillName,
+    practice:startProgressPractice,disabled:state.sessionActive || state.ratingVisible});
 }
 
 async function loadProgressRatings({ force = false } = {}) {
@@ -1726,6 +1705,7 @@ async function applyAuthSession(session) {
     progressRequestId += 1;
     state.progressSource = "self";
     state.progressDifficulty = "all";
+    state.progressPeriod = "recent";
     state.progressRatings = [];
     state.progressRatingsLoading = false;
     state.progressRatingsLoaded = false;
@@ -3650,6 +3630,8 @@ async function handleRatingSubmit() {
   try {
     await submitPracticeRating({
       roundId: state.groupRatingPending ? state.groupRatingRoundId : state.roundId,
+      parentRoundId: state.groupRatingPending ? state.roundId : null,
+      setNumber: state.groupRatingPending ? currentGroupSet().number : null,
       practiceMode: state.practiceMode,
       ratingRubric: "group-skill-v2",
       therapistUserId: getTargetUserId(target),

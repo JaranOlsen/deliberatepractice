@@ -313,7 +313,7 @@ async (page) => {
   }
   const groupSaves=saves.slice(ratingStart);
   assert(groupSaves.length===4 && new Set(groupSaves.map(r=>r.roundId)).size===4, 'Four sets save four distinct ratings');
-  assert(groupSaves.every((r,i)=>r.itemCount===3 && JSON.stringify(r.completedStatementIds)===JSON.stringify(completeGroup.roundStatementIds.slice(i*3,i*3+3))), 'Each shared rating covers only its three items');
+  assert(groupSaves.every((r,i)=>r.parentRoundId===completeGroup.roundId && r.setNumber===i+1 && r.itemCount===3 && JSON.stringify(r.completedStatementIds)===JSON.stringify(completeGroup.roundStatementIds.slice(i*3,i*3+3))), 'Each shared rating covers only its three items');
   assert(await session()===null && await visible('skill-selection'), 'After twelve shared items choose roles, skill and case again');
   // A paused round from the old pairing flow keeps its captured therapist.
   await page.evaluate(round=>{
