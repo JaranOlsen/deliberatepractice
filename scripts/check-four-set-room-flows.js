@@ -6,6 +6,8 @@ async (page) => {
   const users=await (await page.request.get('http://127.0.0.1:5199/users')).json();
   const contexts=[],pages=[],errors=[];
   const assert=(ok,message)=>{if(!ok)throw new Error(message);};
+  const resetGoal=await page.request.post('http://127.0.0.1:5199/goal',{data:{user:users.t,languageId:'en',skillId:'empathic-understanding',action:'save',text:''}});
+  assert(resetGoal.ok(),'Reset only the isolated therapist reminder fixture');
   let room,loseResponse=false,stage='setup',claimRace=false,readyRace=false,disconnectedUser=null;
   const claimWaiters=[],claimResults=[];
   const readyWaiters=[],readyResults=[];
