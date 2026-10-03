@@ -42,7 +42,7 @@ async (page) => {
       if (!response.ok) throw new Error('Test network failure');
       return response.json();
     };
-    export const getPracticeGoal = async () => '';
+    export const getPracticeGoal = async scope => scope.skillId==='empathic-understanding' ? 'Pause before reflecting.' : '';
     export const savePracticeGoal = async s => s.text;
     export const listPracticeRatings = async ({source}) => {
       const response = await fetch('/__dp_test_history?source=' + source);
@@ -91,6 +91,9 @@ async (page) => {
     await click('self-chart-refresh');
     await waitLoaded();
     assert(await page.locator('.radar-small-row').count() === 1, 'One rated skill uses a readable score comparison');
+    await page.getByText('Continue your saved next-attempt target.',{exact:true}).waitFor();
+    assert(await page.locator('[data-suggested-skill=empathic-understanding]').count()===1,'One suggestion continues the latest skill’s private target');
+    assert(!(await page.locator('#self-chart').textContent()).includes('Pause before reflecting.'),'The private note itself is not displayed on the progress dashboard');
     assert(await page.locator('.self-chart-axis').count() === 0, 'One skill must not create a degenerate radar');
     data.self.push({...row, skill_id:'therapist-self-awareness', score:3});
     await click('self-chart-refresh');
@@ -99,6 +102,40 @@ async (page) => {
     assert(await page.locator('.radar-small-profile h5').count() === 2, 'Only rated skills appear in the compact comparison');
     const history = page.locator('.progress-skill').filter({has:page.locator('[data-practice-skill="empathic-understanding"]')});
     assert((await history.textContent()).includes('3 rated items') && (await history.textContent()).includes('Sep'), 'History must show counts and latest date');
+    const original = data.self;
+    const day=86400000, now=Date.now();
+    const dated=(days,extra={})=>({...row,created_at:new Date(now-days*day).toISOString(),...extra});
+    const roundRows=[1,2,3,4].map((set_number,i)=>dated(i,{id:'round-'+set_number,parent_round_id:'complete',set_number,score:5}));
+    const partialRows=[1,3].map((set_number,i)=>dated(i+5,{id:'partial-'+set_number,parent_round_id:'partial',set_number,score:5}));
+    data.self=[...Array.from({length:520},(_,i)=>dated(120+i,{id:'historic-'+i,score:1})),...roundRows,...partialRows,
+      dated(8,{id:'recent-7',score:5}),dated(9,{id:'recent-8',score:5}),dated(10,{id:'recent-9',score:1}),dated(2,{id:'hard',difficulty:'hard',score:2})];
+    await click('self-chart-refresh');await waitLoaded();
+    assert((await page.locator('[data-progress-level=easy] strong').textContent()).includes('5.0/5'),'Recent profile excludes large old volumes and caps the newest easy ratings at eight');
+    assert((await page.locator('[data-progress-level=easy] small').textContent()).includes('8 ratings'),'Recent sample size is explicit');
+    await history.locator('summary').click();
+    await history.locator('.progress-trend svg').waitFor();
+    assert(await history.locator('.progress-trend .self-chart-dot').count()===20,'Skill opens a bounded dated trend');
+    assert(await history.locator('.progress-trend-legend span').count()===2,'Trend distinguishes easy and hard practice');
+    assert((await history.textContent()).includes('4 of 4 set ratings saved')&&(await history.textContent()).includes('2 of 4 set ratings saved'),'Complete and incomplete round rating counts stay distinct');
+    const more=history.getByRole('button',{name:'Show earlier ratings'});
+    while(await more.isVisible())await more.click();
+    assert(await history.locator('.progress-rating-row').count()===530,'Every one of 530 records appears once, including explicit grouped sets and ungrouped old history');
+    for(const width of [320,390]){
+      await page.setViewportSize({width,height:844});
+      assert(await page.evaluate(()=>document.querySelector('#progress-modal').scrollWidth<=document.querySelector('#progress-modal').clientWidth),'Expanded learning history fits a phone');
+    }
+    await history.locator('summary').scrollIntoViewIfNeeded();
+    await page.screenshot({path:'output/playwright/progress-skill-history-390.png'});
+    await page.locator('[data-progress-period=all]').click();
+    assert(!(await page.locator('[data-progress-level=easy] strong').textContent()).includes('5.0/5'),'All history is available without being presented as the recent profile');
+    data.self=[dated(200,{id:'stale-only'})];await click('self-chart-refresh');await waitLoaded();
+    await page.locator('[data-progress-period=recent]').click();
+    assert((await page.locator('#self-chart-status').textContent()).includes('No ratings in the last 90 days'),'Stale evidence is identified instead of silently shown as current');
+    assert(await page.locator('.self-chart-dot').count()===0&&await page.locator('.radar-small-row').count()===0,'Stale skills have no current axes or scores');
+    await page.locator('[data-progress-period=all]').click();
+    assert(await page.locator('.radar-small-row').count()===1,'Earlier practice remains inspectable');
+    await page.locator('[data-progress-period=recent]').click();
+    data.self=original;await click('self-chart-refresh');await waitLoaded();
     const ids = await page.locator('[data-practice-skill]').evaluateAll(els => els.slice(0,3).map(el=>el.dataset.practiceSkill));
     data.self = ids.flatMap((skill_id,index) => [
       {...row,skill_id,score:5},
@@ -209,7 +246,7 @@ async (page) => {
     await page.waitForLoadState('networkidle');
     assert(await page.locator('.progress-skill').count() === 0, 'Late request must not restore progress after sign-out');
     assert(errors.length === 0, errors.join('; '));
-    return {status:'passed', checks:['empty, sparse and complete radar', 'difficulty overlays and focused levels', 'separate rating sources', 'history and practice target', 'active-round protection', 'Norwegian mobile layout', 'repeated session and token refresh', 'error retry and stale-response isolation']};
+    return {status:'passed', checks:['empty, sparse and complete radar', 'difficulty overlays and focused levels', 'separate rating sources', 'dated skill trends, complete and incomplete rounds, 530 history rows', 'recent versus all history and stale evidence', 'history and practice target', 'active-round protection', 'Norwegian mobile layout', 'repeated session and token refresh', 'error retry and stale-response isolation']};
   } finally {
     release?.();
     await page.unroute('**/src/js/backend.js*');

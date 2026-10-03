@@ -66,6 +66,7 @@ begin
       r:=public.command_practice_room(rid,gen_random_uuid(),(r->>'version')::integer,'rate',4);
       rating_id:=(r->>'rating_round_id')::uuid;set_rating_ids:=array_append(set_rating_ids,rating_id);
       select count(*) into rows_count from public.practice_ratings where created_by_user_id=actor and client_round_id=rating_id
+        and parent_round_id=full_round::uuid and set_number=block
         and therapist_user_id=old_therapist::uuid and score=4 and item_count=case when block=2 then 2 else 3 end
         and source=case when people=2 then 'self' else 'observer' end;
       if rows_count<>1 then raise exception 'Rating replay/update/count/source failed'; end if;

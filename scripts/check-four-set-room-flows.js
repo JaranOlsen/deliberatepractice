@@ -173,6 +173,7 @@ async (page) => {
       assert(await o.locator('#room-change-role-form').isHidden(),'Roles cannot change at rating checkpoints');
       await o.locator('#room-score').selectOption('4');await ready(o,'room-save');await click(o,'room-save');await o.waitForFunction(()=>document.querySelector('#room-save').hidden);await sync();
       const rows=(await ratings()).filter(r=>r.therapist_user_id===users.t&&!existingRatings.has(r.id));
+      assert(rows.every(r=>r.parent_round_id===fullRound&&r.set_number>=1&&r.set_number<=set+1),'Separate-device checkpoints persist their parent round and set');
       assert(rows.length===set+1,'Every set creates one distinct rating');
       const rating=rows.find(r=>r.client_round_id===room.rating_round_id);
       assert(rating.source==='observer'&&rating.item_count===(set===1?2:3),'Observer rating has correct source and count');
