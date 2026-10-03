@@ -67,10 +67,14 @@ function renderPracticeLearning() {
     const view = createPracticeGoalView({userId, languageId, skillId, shared, editable, id:`${id}-view`, signIn: showAccountPanel});
     host.append(view.element); goalViews.set(id, {key, view});
   }
-  for (const id of ['local-feedback-reference','rating-feedback-reference']) {
-    const host = document.getElementById(id), key = `${languageId}:${skillId}`;
+  for (const [id, visible, audience] of [
+    ['local-feedback-reference', !shared, 'self'],
+    ['rating-feedback-reference', getRatingStatementIds().length > 0, getActiveRatingSource()]
+  ]) {
+    const host = document.getElementById(id), key = `${languageId}:${skillId}:${visible}:${audience}`;
     if (host.dataset.skill === key) continue;
-    host.replaceChildren(createSkillFeedback({skillId, language:languageId, id:`${id}-guide`})); host.dataset.skill = key;
+    host.hidden = !visible;
+    host.replaceChildren(...(visible ? [createSkillFeedback({skillId, language:languageId, id:`${id}-guide`, audience})] : [])); host.dataset.skill = key;
   }
 }
 
@@ -2880,11 +2884,14 @@ function renderTriadProtocolUI() {
       const focus = document.createElement('aside'); focus.className = 'individual-guide'; focus.textContent = skill.practiceFocus;
       const cards = ['client','therapist','observer'].map(role => {
         const roleKey = `${awareness}:${role}`;
-        return createGroupRoleGuide({language: state.languageId, awareness, role, id: `shared-your-part-${role}`,
+        const card = createGroupRoleGuide({language: state.languageId, awareness, role, id: `shared-your-part-${role}`,
           roleLabel: role === 'client' && awareness ? strings.selfAwarenessReaderRole : strings[`triadRole${role[0].toUpperCase()}${role.slice(1)}`],
           open: sharedRoleGuideOpen.get(roleKey) ?? false, focus: skill.practiceFocus,
           example: state.currentStatement.suggestion, examplePrefix: 'shared',
           onToggle: expanded => sharedRoleGuideOpen.set(roleKey, expanded)});
+        if (role === 'observer') card.querySelector('.room-role-guide-body').append(
+          createSkillFeedback({skillId:state.skillId, language:state.languageId, id:'shared-feedback-reference'}));
+        return card;
       });
       container.replaceChildren(focus, guide, ...cards);
     }

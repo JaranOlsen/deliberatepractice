@@ -4,7 +4,9 @@ All twelve production skills now offer two optional observable cues and concrete
 
 ## Experience
 
-Observers and therapists can open **What to look for** in preparation, practice and the rating checkpoint. Clients do not receive scoring material. Individual and shared-device practice use the same reference. References start closed to keep phone screens brief.
+In separate-device groups with an active observer, **What to look for** appears only on that observer’s screen, during preparation, practice and checkpoints. Therapists, clients and watching participants receive no scoring reference. In a pair, the therapist gets it only at a checkpoint with practiced items, adapted for self-rating; the client continues giving feedback aloud. No scoring reference appears for an all-passed set.
+
+Individual practice uses two skill-specific first-person reflection questions in the same collapsed reference, during practice and at rating. The observable anchors and 1–5 scale are shared with observer rating. Self-rating is labeled **Reflect on your attempt** and asks the therapist to consider their own choices, including the retry. On a shared device, observer guidance sits inside the observer’s role section. References start closed to keep phone screens brief.
 
 The therapist can keep one optional **Next attempt** adjustment (up to 160 characters) per skill and language. It is editable in preparation and at a checkpoint, concise and read-only during items, and returns in a later session. A different case/difficulty for the same skill uses the same reminder. Changing/removing it does not change ratings. Copying to share is explicit on a personal device; there is no automatic room sharing.
 
@@ -25,6 +27,7 @@ Read failure offers Retry before editing an unknown existing note. Save failure 
 - Four-person full-round browser probe passed across all four sets, including private reminder carryover, room-peer isolation, correct rating source/count, lost responses, reconnects, readiness, role claims, host transfer and pair self-assessment.
 - Focused browser checks passed for persistence in a new session, account switch/sign-out, failed read/save, retry/removal, shared-screen deliberate opening, Norwegian self-awareness, unique IDs, and 320px layout.
 - Real Supabase SDK read/upsert/delete/filter/conflict handling passed through the isolated SQL bridge, including sanitized errors.
+- Role placement checks additionally cover observer-only guidance throughout a four-person round, pair checkpoint-only self-rating, no cues on all-passed sets, and first-person individual/Norwegian prompts.
 - Production build passed. Existing individual/shared-device and progress browser probes were also run.
 
 The additive migration is applied to the hosted project. Its SQL privacy fixture passed there with every temporary record rolled back. No existing rooms, accounts or ratings were deleted or modified. Supabase advisors found no findings for the new table or function. Existing project findings concern older guarded RPCs, private deny-by-default tables, password protection, older indexes and duplicate legacy insert policies; they were not changed for this feature. [Security advisor explanations](https://supabase.com/docs/guides/database/database-linter) and [password protection](https://supabase.com/docs/guides/auth/password-security#password-strength-and-leaked-password-protection).
@@ -33,7 +36,7 @@ The frontend remains on a review branch, stacked on the room-entry/readiness cha
 
 ## Editorial review still needed
 
-Qualified EFT instructors and a native Norwegian reviewer should check the anchors before treating them as standardized instructional criteria. In particular, compare skill distinctions and how observers interpret 3 versus 5 on held-out fictional attempts. This implementation has not established inter-rater reliability, clinical benefit or an optimal rating interval.
+Qualified EFT instructors and a native Norwegian reviewer should check the anchors and self-reflection questions before treating them as standardized instructional criteria. In particular, compare skill distinctions and how observers interpret 3 versus 5 on held-out fictional attempts. This implementation has not established inter-rater reliability, clinical benefit or an optimal rating interval.
 
 Self-awareness anchors reward noticing, pausing, attention and boundaries. They explicitly allow private details to remain private. Other anchors assess the therapist's choices rather than the intensity of the client's emotion, willingness to disclose, or repetition of a model response.
 

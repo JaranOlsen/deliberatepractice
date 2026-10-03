@@ -123,6 +123,7 @@ async (page) => {
     await goal.getByRole('button',{name:'Save reminder',exact:true}).click();
     await goal.getByRole('status').filter({hasText:'Saved for your next practice.'}).waitFor();
     assert(await c.locator('.skill-feedback-guide').count()===0,'Client preparation does not include scoring guidance');
+    for(const p of [t,watcher])assert(await p.locator('#room-content .skill-feedback-guide').count()===0,'Therapist and watching participants have no scoring reference in preparation');
     assert(await o.locator('#room-next-attempt').count()===0&&await c.locator('#room-next-attempt').count()===0,'Private targets exist only on the therapist screen');
     const leaked=await page.request.post('http://127.0.0.1:5199/goal',{data:{user:users.o,targetUserId:users.t,languageId:'en',skillId:'empathic-understanding',action:'read'}});
     assert((await leaked.json()).text==='','Actual room observer cannot read therapist reminder through RLS');
@@ -155,6 +156,7 @@ async (page) => {
         assert((await t.locator('#room-next-attempt').textContent()).includes('Pause before the reflection.'),'Private reminder follows the therapist through every item and set');
         assert(await t.locator('#room-next-attempt textarea').isHidden(),'Active reminder does not add an editor');
         assert(await c.locator('.skill-feedback-guide').count()===0,'Client item screen has no scoring cues');
+        for(const p of [t,watcher])assert(await p.locator('#room-content .skill-feedback-guide').count()===0,'Only the active observer sees scoring cues during a larger group round');
         const beforeVersion=Number(await o.locator('#room-panel').getAttribute('data-version'));
         if(set===0&&i===2)loseResponse=true;
         if(set===1&&i===1){await ready(o,'room-pass');await click(o,'room-pass');}
@@ -164,6 +166,8 @@ async (page) => {
         await sync();
       }
       stage=`rating set ${set+1}`;
+      assert(await o.locator('#room-feedback-reference').count()===1,'Active observer retains guidance at the checkpoint');
+      for(const p of [t,c,watcher])assert(await p.locator('#room-content .skill-feedback-guide').count()===0,'Only the active observer has rating guidance at a larger-group checkpoint');
       assert(room.phase==='round_debrief'&&room.item_index===set*3+2,'Each third item pauses for rating: '+JSON.stringify({set,phase:room.phase,index:room.item_index,completed:room.completed_ids.length}));
       assert((await o.locator('#room-content').textContent()).includes(`${set===1?2:3} practiced · ${set===1?1:0} passed`),'Debrief counts only its set');
       assert(await o.locator('#room-change-role-form').isHidden(),'Roles cannot change at rating checkpoints');
@@ -225,12 +229,17 @@ async (page) => {
     assert(room.member_ids.length===2&&room.therapist_id===users.o&&room.client_id&&!room.observer_id,'Two-person room retains exactly therapist and client');
     assert((await o.locator('.room-preparation').textContent()).includes('Start when you’re both ready'),'Preparation updates when a larger group becomes a pair');
     assert(await o.locator('#room-ready').isHidden(),'Pair therapist starts instead of confirming readiness twice');
+    assert(await o.locator('#room-content .skill-feedback-guide').count()===0,'Pair preparation has no scoring reference');
     await confirmReadiness();
     await ready(o,'room-next');await click(o,'room-next');await sync();
-    for(let i=0;i<3;i++){await ready(o,'room-pass');await click(o,'room-pass');await sync();}
+    for(let i=0;i<3;i++){assert(await o.locator('#room-content .skill-feedback-guide').count()===0,'Pair item screens have no scoring reference');await ready(o,'room-pass');await click(o,'room-pass');await sync();}
     assert(await o.locator('#room-score').count()===0,'An all-passed set has no rating form');
+    assert(await o.locator('#room-content .skill-feedback-guide').count()===0,'An all-passed set has no scoring reference');
     await ready(o,'room-rotate');await click(o,'room-rotate');await sync();
     for(let i=0;i<3;i++){await ready(o,'room-next');await click(o,'room-next');await sync();}
+    assert(await o.locator('#room-feedback-reference').getAttribute('data-audience')==='self','Pair therapist gets self-rating guidance only at a practiced checkpoint');
+    assert((await o.locator('#room-feedback-reference').textContent()).includes('Did I notice my reaction'),'Pair self-awareness prompts are first-person');
+    assert(await pages.find(p=>p!==o).locator('#room-content .skill-feedback-guide').count()===0,'Pair client never receives scoring guidance');
     await o.locator('#room-score').selectOption('3');await ready(o,'room-save');await click(o,'room-save');await sync();
     const pairRows=(await ratings()).filter(r=>r.therapist_user_id===users.o&&!existingRatings.has(r.id));
     assert(pairRows.length===1&&pairRows[0].source==='self'&&pairRows[0].item_count===3,'Pair therapist self-assessment follows the same set boundaries');

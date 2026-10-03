@@ -7,20 +7,27 @@ export const FEEDBACK_COPY = {
 
 export function feedbackCopy(language) { return FEEDBACK_COPY[language] ?? FEEDBACK_COPY.en; }
 
-export function createSkillFeedback({skillId, language, id}) {
+const SELF_COPY = {
+  en: {heading: 'Reflect on your attempt', note: 'Rate your own choices across the practiced items, including the retry. Use the same 1–5 scale.'},
+  no: {heading: 'Se tilbake på forsøket', note: 'Vurder dine egne valg i utsagnene du har øvd på, også i det nye forsøket. Bruk den samme skalaen fra 1 til 5.'}
+};
+
+export function createSkillFeedback({skillId, language, id, audience = 'observer'}) {
   const content = getSkillFeedback(skillId, language);
   if (!content) return document.createElement('span');
   const s = feedbackCopy(language), details = document.createElement('details');
+  const self = audience === 'self', reflection = SELF_COPY[language] ?? SELF_COPY.en;
   details.className = 'skill-feedback-guide';
+  details.dataset.audience = audience;
   if (id) details.id = id;
-  const summary = document.createElement('summary'); summary.textContent = s.heading;
+  const summary = document.createElement('summary'); summary.textContent = self ? reflection.heading : s.heading;
   const cues = document.createElement('ul');
-  for (const cue of content.cues) { const li = document.createElement('li'); li.textContent = cue; cues.append(li); }
+  for (const cue of self ? content.selfCues : content.cues) { const li = document.createElement('li'); li.textContent = cue; cues.append(li); }
   const anchors = document.createElement('dl'); anchors.className = 'skill-feedback-anchors';
   for (const [title, text] of [[s.middle, content.middle], [s.high, content.high]]) {
     const row = document.createElement('div'), dt = document.createElement('dt'), dd = document.createElement('dd');
     dt.textContent = title; dd.textContent = text; row.append(dt, dd); anchors.append(row);
   }
-  const note = document.createElement('p'); note.className = 'response-hint'; note.textContent = s.note;
+  const note = document.createElement('p'); note.className = 'response-hint'; note.textContent = self ? reflection.note : s.note;
   details.append(summary, cues, anchors, note); return details;
 }

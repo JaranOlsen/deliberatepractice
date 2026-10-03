@@ -10,6 +10,8 @@ test('every production skill has original bilingual cues, distinct anchors and a
   assert.deepEqual(Object.keys(SKILL_FEEDBACK).sort(), [...CANONICAL_SKILL_ORDER].sort());
   for (const skill of Object.values(SKILL_FEEDBACK)) for (const lang of ['en','no']) {
     assert.equal(skill[lang].cues.length, 2);
+    assert.equal(skill[lang].selfCues.length, 2);
+    assert.ok(skill[lang].selfCues.every(cue => cue.length > 15 && cue.endsWith('?')));
     assert.ok(skill[lang].cues.every(cue => cue.length > 15));
     assert.notEqual(skill[lang].middle, skill[lang].high);
     assert.ok(skill[lang].middle.length > 40 && skill[lang].high.length > 40);

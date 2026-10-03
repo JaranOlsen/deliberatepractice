@@ -302,8 +302,10 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
         else body.append(node('p', next.observer_id ? s.observerRating : s.therapistRating, 'response-hint'));
         const saved = node('p'); saved.id = 'room-saved'; saved.setAttribute('role', 'status'); if (set.last) body.append(nextFocus); body.append(saved);
       }
-      if (configured && !ended && role !== 'client' && next.phase !== 'choosing') {
-        body.append(createSkillFeedback({skillId:next.skill_id, language, id:'room-feedback-reference'}));
+      const selfRating = !next.observer_id && role === 'therapist' && next.phase === 'round_debrief' && set.completed.length > 0;
+      if (configured && !ended && next.phase !== 'choosing' && (role === 'observer' || selfRating)) {
+        body.append(createSkillFeedback({skillId:next.skill_id, language, id:'room-feedback-reference',
+          audience:selfRating ? 'self' : 'observer'}));
       }
       if (configured && !ended && role === 'therapist' && next.phase !== 'choosing') {
         goalView = createPracticeGoalView({userId, languageId:language, skillId:next.skill_id,

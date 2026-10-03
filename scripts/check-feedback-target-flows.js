@@ -64,10 +64,13 @@ async (page) => {
     assert(await p.locator('#active-goal-view textarea').isHidden(),'Active screen only shows a concise reminder');
     await p.locator('#local-feedback-reference-guide summary').click();
     assert((await p.locator('#local-feedback-reference').textContent()).includes('3 · Adequate in parts'),'Individual guidance has anchors');
+    assert((await p.locator('#local-feedback-reference').textContent()).includes('Did I reflect the feeling'),'Individual prompts invite first-person reflection');
+    assert(await p.locator('#local-feedback-reference-guide').getAttribute('data-audience')==='self','Individual practice uses self-rating guidance');
     assert(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Expanded guidance fits 320px');
     await p.screenshot({path:'output/playwright/feedback-individual-320.png',fullPage:true});
     await p.locator('#next-statement').click();await p.locator('#back-to-cases').click();await p.locator('#finish-completed').click();
     const rating=p.locator('#rating-goal-view');
+    assert(await p.locator('#rating-feedback-reference-guide').getAttribute('data-audience')==='self','Individual checkpoint keeps self-rating guidance and the same scale');
     await rating.getByRole('button',{name:'Change',exact:true}).click();await rating.locator('textarea').fill(revised);
     await rating.getByRole('button',{name:'Save reminder',exact:true}).click();await rating.getByRole('status').filter({hasText:'Saved for your next practice.'}).waitFor();
     await p.screenshot({path:'output/playwright/feedback-checkpoint-320.png',fullPage:true});
@@ -89,6 +92,13 @@ async (page) => {
     await shared.locator('#preparation-goal-view .practice-goal-text').filter({hasText:revised}).waitFor();
     assert(await shared.locator('#preparation-goal-view').getByRole('button',{name:'Copy to share'}).isHidden(),'No accidental clipboard action on shared device');
     await shared.screenshot({path:'output/playwright/feedback-shared-preparation-320.png',fullPage:true});
+    await shared.locator('#start-practice').click();
+    assert(await shared.locator('#local-feedback-reference').isHidden(),'Shared practice has no general scoring panel above the exercise');
+    assert(await shared.locator('#shared-your-part-observer .skill-feedback-guide').count()===1,'Shared observer reference belongs inside the observer role');
+    for(const role of ['therapist','client'])assert(await shared.locator(`#shared-your-part-${role} .skill-feedback-guide`).count()===0,'Shared therapist/client roles have no scoring reference');
+    await shared.locator('#shared-your-part-observer > summary').click();await shared.locator('#shared-feedback-reference > summary').click();
+    assert(await shared.locator('#shared-feedback-reference').getAttribute('data-audience')==='observer','Shared observer keeps observer guidance');
+    assert(await shared.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Shared observer reference fits 320px');
     const no=await contextFor('individual','no');await prepare(no,{skill:'therapist-self-awareness'});
     await no.locator('#start-practice').click();await no.locator('#local-feedback-reference-guide summary').click();
     assert((await no.locator('#local-feedback-reference').textContent()).includes('Private detaljer trenger ikke deles.'),'Norwegian self-awareness anchors protect personal disclosure');
