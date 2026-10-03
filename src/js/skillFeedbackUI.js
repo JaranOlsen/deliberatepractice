@@ -1,15 +1,15 @@
 import {getSkillFeedback} from '../data/skillFeedback.js';
 
 export const FEEDBACK_COPY = {
-  en: {heading: 'What to look for', middle: '3 · Adequate in parts', high: '5 · Skillfully demonstrated', note: 'Use the items you practiced. These cues guide feedback; they are not a checklist.', next: 'Next attempt', optional: 'One small adjustment · optional', private: 'Only in your account. Share aloud if you choose.', shared: 'Opening this shows your reminder on this shared screen.', saved: 'Saved for your next practice.', saving: 'Saving…', save: 'Save reminder', clear: 'Remove reminder', removed: 'Reminder removed.', loading: 'Loading your reminder…', failed: 'Could not load your reminder. Try again.', saveFailed: 'Could not save. Your draft is still here.', signIn: 'Sign in to keep a reminder for next time.', edit: 'Change', add: 'Add a reminder', cancel: 'Cancel', retry: 'Try again', copy: 'Copy to share', copied: 'Copied. Choose where to share it.', copyFailed: 'Could not copy. You can share it aloud.', tooLong: 'Keep it to 160 characters.', privacy: 'A practice adjustment, without personal or client details.'},
-  no: {heading: 'Se etter dette', middle: '3 · Tilfredsstillende i deler', high: '5 · Svært godt demonstrert', note: 'Ta utgangspunkt i utsagnene du har øvd på. Dette er støtte for tilbakemelding, ikke en sjekkliste.', next: 'Neste forsøk', optional: 'Én liten justering · valgfritt', private: 'Bare i din konto. Del det høyt hvis du vil.', shared: 'Når du åpner dette, vises påminnelsen din på den felles skjermen.', saved: 'Lagret til neste øving.', saving: 'Lagrer …', save: 'Lagre påminnelse', clear: 'Fjern påminnelse', removed: 'Påminnelsen er fjernet.', loading: 'Henter påminnelsen din …', failed: 'Kunne ikke hente påminnelsen. Prøv igjen.', saveFailed: 'Kunne ikke lagre. Utkastet ditt er fortsatt her.', signIn: 'Logg inn for å beholde en påminnelse til neste gang.', edit: 'Endre', add: 'Legg til en påminnelse', cancel: 'Avbryt', retry: 'Prøv igjen', copy: 'Kopier for å dele', copied: 'Kopiert. Velg hvor du vil dele den.', copyFailed: 'Kunne ikke kopiere. Du kan dele den høyt.', tooLong: 'Bruk høyst 160 tegn.', privacy: 'En øvingsjustering, uten private opplysninger eller klientdetaljer.'}
+  en: {heading: 'What to look for', middle: '3 · Adequate in parts', high: '5 · Skillfully demonstrated', next: 'Next attempt', optional: 'One small adjustment · optional', private: 'Only in your account. Share aloud if you choose.', shared: 'Opening this shows your reminder on this shared screen.', saved: 'Saved for your next practice.', saving: 'Saving…', save: 'Save reminder', clear: 'Remove reminder', removed: 'Reminder removed.', loading: 'Loading your reminder…', failed: 'Could not load your reminder. Try again.', saveFailed: 'Could not save. Your draft is still here.', signIn: 'Sign in to keep a reminder for next time.', edit: 'Change', add: 'Add a reminder', cancel: 'Cancel', retry: 'Try again', copy: 'Copy to share', copied: 'Copied. Choose where to share it.', copyFailed: 'Could not copy. You can share it aloud.', tooLong: 'Keep it to 160 characters.', privacy: 'A practice adjustment, without personal or client details.'},
+  no: {heading: 'Se etter dette', middle: '3 · Tilfredsstillende i deler', high: '5 · Svært godt demonstrert', next: 'Neste forsøk', optional: 'Én liten justering · valgfritt', private: 'Bare i din konto. Del det høyt hvis du vil.', shared: 'Når du åpner dette, vises påminnelsen din på den felles skjermen.', saved: 'Lagret til neste øving.', saving: 'Lagrer …', save: 'Lagre påminnelse', clear: 'Fjern påminnelse', removed: 'Påminnelsen er fjernet.', loading: 'Henter påminnelsen din …', failed: 'Kunne ikke hente påminnelsen. Prøv igjen.', saveFailed: 'Kunne ikke lagre. Utkastet ditt er fortsatt her.', signIn: 'Logg inn for å beholde en påminnelse til neste gang.', edit: 'Endre', add: 'Legg til en påminnelse', cancel: 'Avbryt', retry: 'Prøv igjen', copy: 'Kopier for å dele', copied: 'Kopiert. Velg hvor du vil dele den.', copyFailed: 'Kunne ikke kopiere. Du kan dele den høyt.', tooLong: 'Bruk høyst 160 tegn.', privacy: 'En øvingsjustering, uten private opplysninger eller klientdetaljer.'}
 };
 
 export function feedbackCopy(language) { return FEEDBACK_COPY[language] ?? FEEDBACK_COPY.en; }
 
 const SELF_COPY = {
-  en: {heading: 'Reflect on your attempt', note: 'Rate your own choices across the practiced items, including the retry. Use the same 1–5 scale.'},
-  no: {heading: 'Se tilbake på forsøket', note: 'Vurder dine egne valg i utsagnene du har øvd på, også i det nye forsøket. Bruk den samme skalaen fra 1 til 5.'}
+  en: {heading: 'Reflect on your attempt'},
+  no: {heading: 'Se tilbake på forsøket'}
 };
 
 export function createSkillFeedback({skillId, language, id, audience = 'observer'}) {
@@ -28,6 +28,5 @@ export function createSkillFeedback({skillId, language, id, audience = 'observer
     const row = document.createElement('div'), dt = document.createElement('dt'), dd = document.createElement('dd');
     dt.textContent = title; dd.textContent = text; row.append(dt, dd); anchors.append(row);
   }
-  const note = document.createElement('p'); note.className = 'response-hint'; note.textContent = self ? reflection.note : s.note;
-  details.append(summary, cues, anchors, note); return details;
+  details.append(summary, cues, anchors); return details;
 }

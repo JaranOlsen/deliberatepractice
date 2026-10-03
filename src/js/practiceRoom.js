@@ -29,7 +29,7 @@ const copy = {
     ...GROUP_PRACTICE_COPY.en,
     set: 'Set', nextSet: 'Next 3 items · keep roles', nextRound: 'Choose roles, skill & case', roundPlan: '12 items · 4 sets of 3 · keep your roles', rateSet: 'Rate this set', round: 'Round', item: 'Item', debrief: 'Reflect together', practiced: 'practiced', passed: 'passed',
     save: 'Save skill rating', updateRating: 'Update rating', skipRating: 'Continue without rating', skipChanges: 'Continue without changes', saved: 'Saved to the therapist’s progress',
-    ratingPlaceholder: 'Choose a rating', ratingScope: 'Rate only the practiced items.', observerRating: 'The observer rates this set.', therapistRating: 'The therapist self-assesses this set.',
+    ratingPlaceholder: 'Choose a rating', observerRating: 'The observer rates this set.', therapistRating: 'The therapist self-assesses this set.',
     scoreLabels: ['Not yet demonstrated', 'Emerging with guidance', 'Adequate in parts', 'Well demonstrated', 'Skillfully demonstrated'],
     score: 'Therapist’s use of the skill', noItems: 'Every item was passed. No rating will be saved.',
     participantWaiting: 'Not joined', participantSyncing: 'Catching up', participantReady: 'Up to date',
@@ -60,7 +60,7 @@ const copy = {
     ...GROUP_PRACTICE_COPY.no,
     set: 'Sett', nextSet: 'Neste 3 utsagn · behold rollene', nextRound: 'Velg roller, ferdighet og kasus', roundPlan: '12 utsagn · 4 sett med 3 · behold rollene', rateSet: 'Vurder dette settet', round: 'Runde', item: 'Utsagn', debrief: 'Reflekter sammen', practiced: 'øvd', passed: 'stått over',
     save: 'Lagre ferdighetsvurdering', updateRating: 'Oppdater vurdering', skipRating: 'Fortsett uten vurdering', skipChanges: 'Fortsett uten endringer', saved: 'Lagret i terapeutens fremgang',
-    ratingPlaceholder: 'Velg en vurdering', ratingScope: 'Vurder bare utsagnene dere har øvd på.', observerRating: 'Observatøren vurderer dette settet.', therapistRating: 'Terapeuten vurderer seg selv i dette settet.',
+    ratingPlaceholder: 'Velg en vurdering', observerRating: 'Observatøren vurderer dette settet.', therapistRating: 'Terapeuten vurderer seg selv i dette settet.',
     scoreLabels: ['Ikke vist ennå', 'På vei med veiledning', 'Tilfredsstillende i deler', 'Godt demonstrert', 'Svært godt demonstrert'],
     score: 'Terapeutens bruk av ferdigheten', noItems: 'Alle utsagn ble stått over. Ingen vurdering lagres.',
     participantWaiting: 'Ikke med ennå', participantSyncing: 'Henter siste steg', participantReady: 'Oppdatert',
@@ -295,7 +295,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
           for (let score = 1; score <= 5; score++) { const option = node('option', `${score} · ${s.scoreLabels[score - 1]}`); option.value = String(score); select.append(option); }
           select.value = next.saved_score ?? '';
           select.addEventListener('change', () => updateStatus(sync.status()));
-          form.append(label, select, node('p', s.ratingScope, 'response-hint'));
+          form.append(label, select);
           form.addEventListener('submit', e => { e.preventDefault(); void sync.command('rate', Number(select.value)); });
           body.append(form);
         } else if (!set.completed.length) body.append(node('p', s.noItems));

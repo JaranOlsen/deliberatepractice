@@ -32,7 +32,7 @@ Read failure offers Retry before editing an unknown existing note. Save failure 
 
 The additive migration is applied to the hosted project. Its SQL privacy fixture passed there with every temporary record rolled back. No existing rooms, accounts or ratings were deleted or modified. Supabase advisors found no findings for the new table or function. Existing project findings concern older guarded RPCs, private deny-by-default tables, password protection, older indexes and duplicate legacy insert policies; they were not changed for this feature. [Security advisor explanations](https://supabase.com/docs/guides/database/database-linter) and [password protection](https://supabase.com/docs/guides/auth/password-security#password-strength-and-leaked-password-protection).
 
-The frontend remains on a review branch, stacked on the room-entry/readiness changes. It has not been deployed to GitHub Pages.
+The user authorized the combined room-entry/readiness and feedback release on 2026-10-03. [Deployment history](https://github.com/JaranOlsen/deliberatepractice/actions/workflows/deploy.yml) records the live release status. Rating-screen copy now asks “What worked well, and what should the therapist try next?”; redundant scope and reference-footer instructions were removed in both languages.
 
 ## Editorial review still needed
 
