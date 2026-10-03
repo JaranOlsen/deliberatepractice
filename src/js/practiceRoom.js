@@ -5,6 +5,8 @@ import {CONTENT_REVISION} from './practiceData.js';
 import {groupSetProgress} from './groupRound.js';
 import {createRoomSync, roomRole, roomEveryoneReady, roomNeedsObserver, missingRoomRoles, roomReadinessRoles, waitingRoomReadiness, roomCanStart} from './practiceRoomSync.js';
 import {readRoomInvite, rememberRoomInvite, normalizeRoomCode} from './roomInvite.js';
+import {createSkillFeedback} from './skillFeedbackUI.js';
+import {createPracticeGoalView} from './practiceGoalUI.js';
 
 const copy = {
   en: {
@@ -132,6 +134,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
   let creating = null;
   let busy = false;
   let contentKey = '';
+  let goalView = null;
   const roleGuideOpen = new Map();
   const strings = () => copy[language] ?? copy.en;
   const read = key => { try { return JSON.parse(localStorage.getItem(key)); } catch { return null; } };
@@ -228,6 +231,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     // Presence refreshes never rebuild the screen or steal keyboard focus.
     if (key !== contentKey) {
       contentKey = key;
+      goalView?.destroy(); goalView = null;
       body.replaceChildren();
       if (configured && !ended) body.append(node('h3', skill.name, 'room-practice-heading'), node('p', caseData.label, 'room-case-heading'));
       const expired = Date.parse(next.expires_at) <= Date.now();
@@ -297,6 +301,16 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
         } else if (!set.completed.length) body.append(node('p', s.noItems));
         else body.append(node('p', next.observer_id ? s.observerRating : s.therapistRating, 'response-hint'));
         const saved = node('p'); saved.id = 'room-saved'; saved.setAttribute('role', 'status'); if (set.last) body.append(nextFocus); body.append(saved);
+      }
+      if (configured && !ended && role !== 'client' && next.phase !== 'choosing') {
+        body.append(createSkillFeedback({skillId:next.skill_id, language, id:'room-feedback-reference'}));
+      }
+      if (configured && !ended && role === 'therapist' && next.phase !== 'choosing') {
+        goalView = createPracticeGoalView({userId, languageId:language, skillId:next.skill_id,
+          editable:['lobby','round_debrief'].includes(next.phase), id:'room-next-attempt'});
+        // Keep the reminder near the focus during practice, rather than below the workflow.
+        if (active) body.querySelector('.individual-guide')?.after(goalView.element);
+        else body.append(goalView.element);
       }
       {
         const heading = body.querySelector('h4') ?? body.querySelector('h3'); if (heading) { heading.tabIndex = -1; heading.focus({preventScroll: true}); }
@@ -418,6 +432,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
   }
 
   function dismiss(navigate = true) {
+    goalView?.destroy(); goalView = null;
     if (confirming) { dialogs.close(confirmOverlay); confirming = null; }
     open = false; opening++; sync.stop(); room = null; contentKey = '';
     overlay.hidden = true; overlay.classList.add('is-hidden'); if (navigate) onClose?.();

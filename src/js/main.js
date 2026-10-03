@@ -44,10 +44,35 @@ import {
 
 import {getGroupPracticeCopy, createGroupWorkflow, createGroupRoleGuide} from "./groupPracticeUI.js";
 import {GROUP_ROUND_SIZE, groupSetProgress} from './groupRound.js';
+import {createSkillFeedback} from './skillFeedbackUI.js';
+import {createPracticeGoalView, setPracticeGoalUser} from './practiceGoalUI.js';
 
 import { summarizeRatings, createProgressRadar, focusProgressRadar } from "./practiceProgress.js";
 import { createDialogManager } from "./dialogs.js";
 import { SESSION_VERSION, isResumableSession, getRoundOutcome, getOrCreateRoundId } from "./practiceSession.js";
+
+const goalViews = new Map();
+function renderPracticeLearning() {
+  const skillId = state.skillId, languageId = state.languageId;
+  if (!skillId || !languageId) return;
+  const userId = state.authUser?.id ?? null, shared = isTriadPractice();
+  for (const [id, editable, visible] of [
+    ['preparation-goal', true, true], ['active-goal', false, true],
+    ['rating-goal', true, getTargetUserId(state.roundTarget) === userId]
+  ]) {
+    const host = document.getElementById(id), key = JSON.stringify([userId, languageId, skillId, shared, editable, visible]);
+    if (goalViews.get(id)?.key === key) continue;
+    goalViews.get(id)?.view.destroy(); host.replaceChildren();
+    if (!visible) { goalViews.delete(id); continue; }
+    const view = createPracticeGoalView({userId, languageId, skillId, shared, editable, id:`${id}-view`, signIn: showAccountPanel});
+    host.append(view.element); goalViews.set(id, {key, view});
+  }
+  for (const id of ['local-feedback-reference','rating-feedback-reference']) {
+    const host = document.getElementById(id), key = `${languageId}:${skillId}`;
+    if (host.dataset.skill === key) continue;
+    host.replaceChildren(createSkillFeedback({skillId, language:languageId, id:`${id}-guide`})); host.dataset.skill = key;
+  }
+}
 
 const dialogs = createDialogManager();
 let roomView = null;
@@ -1598,6 +1623,8 @@ function hideAccountPanel() {
 }
 
 function renderAuthUI() {
+  setPracticeGoalUser(state.authUser?.id);
+  renderPracticeLearning();
   roomView?.authChanged();
   if (roomSelection && roomSelection.userId !== state.authUser?.id) roomSelection = null;
   renderGroupEntry();
@@ -2872,6 +2899,7 @@ function focusTriadPhase() {
 }
 
 function showCaseBrief() {
+  renderPracticeLearning();
   state.view = "brief";
   if (elements.caseBriefScreen) {
     elements.caseBriefScreen.classList.remove("is-hidden");
@@ -3008,6 +3036,7 @@ function hydratePracticeView() {
 }
 
 function renderActiveStatement() {
+  renderPracticeLearning();
   const strings = getUIStrings();
   const statements = getActiveStatements();
   if (!statements.length) {
@@ -3185,6 +3214,7 @@ function updateRatingPanel() {
     return;
   }
   const strings = getUIStrings();
+  renderPracticeLearning();
   const target = getRoundRatingTarget();
   const statementIds = getRatingStatementIds();
   const hasRating = Boolean(target && statementIds.length && !state.ratingSaved);

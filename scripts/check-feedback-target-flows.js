@@ -1,0 +1,107 @@
+// Playwright CLI run-code; isolated local PostgreSQL bridge, no live account writes.
+async (page) => {
+  const url=page.url();
+  if(!['127.0.0.1','localhost'].includes(new URL(url).hostname))throw new Error('Use local preview');
+  const users=await (await page.request.get('http://127.0.0.1:5199/users')).json();
+  const contexts=[],errors=[],requests=[]; let failSave=false, failLoad=false;
+  const assert=(ok,message)=>{if(!ok)throw new Error(message);};
+  const target='Pause before the reflection.', revised='Check the feeling before adding meaning.';
+  const contextFor=async(mode='individual',language='en')=>{
+    const context=await page.context().browser().newContext({viewport:{width:320,height:844}});contexts.push(context);
+    await context.addInitScript(({mode,language})=>localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:language,practiceMode:mode})),{mode,language});
+    await context.route('**/src/js/backend.js*',route=>route.fulfill({contentType:'text/javascript',body:`
+      let user={id:'${users.t}',email:'t@example.invalid'},change;
+      export const isSupabaseReady=()=>true, isAccessExpired=()=>false;
+      export const getAuthSession=async()=>({user});
+      export const onAuthStateChange=callback=>{change=callback;return ()=>{};};
+      window.switchTestUser=id=>{user=id?{id,email:'test@example.invalid'}:null;change?.(user?{user}:null);};
+      export const ensureUserProfile=async()=>({id:user.id,display_name:'Test Therapist'});
+      export const listPracticeTargets=async()=>[{target_user_id:user.id,target_kind:'self',display_name:'Test Therapist'}];
+      export const listPracticeRatings=async()=>[];
+      const goal=async(s,action)=>{
+        const response=await fetch('/__goal_fixture',{method:'POST',body:JSON.stringify({...s,actor:user.id,action})});
+        if(!response.ok)throw new Error('Fixture unavailable');return (await response.json()).text;
+      };
+      export const getPracticeGoal=s=>goal(s,'read'),savePracticeGoal=s=>goal(s,'save');
+      export const submitPracticeRating=async payload=>{await fetch('/__rating_fixture',{method:'POST',body:JSON.stringify(payload)});return {id:'fixture-rating'};};
+      export const signOut=async()=>{user=null;change?.(null);};
+      export const updateUserProfile=async()=>({});
+      export const submitFeedback=async()=>{throw new Error('Unexpected write');};
+      export const redeemAccessCode=async()=>{throw new Error('Unexpected write');};
+      export const logAccessCodeAttempt=async()=>{};
+      export const signInWithMagicLink=async()=>{throw new Error('Unexpected email');};
+    `}));
+    await context.route('**/__goal_fixture',async route=>{
+      const s=JSON.parse(route.request().postData());requests.push(s);
+      if((s.action==='save'&&failSave)||(s.action==='read'&&failLoad))return route.fulfill({status:503,body:'{}'});
+      const response=await page.request.post('http://127.0.0.1:5199/goal',{data:{...s,user:s.actor,targetUserId:s.userId}});
+      await route.fulfill({status:response.status(),contentType:'application/json',body:await response.text()});
+    });
+    await context.route('**/__rating_fixture',route=>{assert(!route.request().postData().includes(revised),'Private note excluded from rating payload');return route.fulfill({body:'{}'});});
+    const p=await context.newPage();p.on('pageerror',e=>errors.push(e.message));await p.goto(url);
+    await p.locator('#skill-selection').waitFor();
+    return p;
+  };
+  const prepare=async(p,{shared=false,skill='empathic-understanding'}={})=>{
+    await p.locator(`input[name="practice-mode"][value="${shared?'group':'individual'}"]`).check();
+    if(shared)await p.locator('#shared-device').check();
+    await p.locator(`button[data-skill-id="${skill}"]`).click();await p.locator('[data-case-id="case-sara"]').click();
+    await p.locator('#case-brief-screen').waitFor();
+  };
+  try {
+    await page.request.post('http://127.0.0.1:5199/goal',{data:{user:users.t,languageId:'en',skillId:'empathic-understanding',action:'save',text:''}});
+    const p=await contextFor();await prepare(p);
+    const prep=p.locator('#preparation-goal-view');
+    await prep.getByRole('button',{name:/Add a reminder|Change/,exact:true}).click();
+    await prep.locator('textarea').fill(target);failSave=true;
+    await prep.getByRole('button',{name:'Save reminder',exact:true}).click();
+    await prep.getByRole('status').filter({hasText:'Your draft is still here.'}).waitFor();
+    assert(await prep.locator('textarea').inputValue()===target,'Failed save retains draft');
+    failSave=false;await prep.getByRole('button',{name:'Save reminder',exact:true}).click();
+    await prep.getByRole('status').filter({hasText:'Saved for your next practice.'}).waitFor();
+    await p.locator('#start-practice').click();
+    assert((await p.locator('#active-goal-view').textContent()).includes(target),'Individual active screen recalls reminder');
+    assert(await p.locator('#active-goal-view textarea').isHidden(),'Active screen only shows a concise reminder');
+    await p.locator('#local-feedback-reference-guide summary').click();
+    assert((await p.locator('#local-feedback-reference').textContent()).includes('3 · Adequate in parts'),'Individual guidance has anchors');
+    assert(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Expanded guidance fits 320px');
+    await p.screenshot({path:'output/playwright/feedback-individual-320.png',fullPage:true});
+    await p.locator('#next-statement').click();await p.locator('#back-to-cases').click();await p.locator('#finish-completed').click();
+    const rating=p.locator('#rating-goal-view');
+    await rating.getByRole('button',{name:'Change',exact:true}).click();await rating.locator('textarea').fill(revised);
+    await rating.getByRole('button',{name:'Save reminder',exact:true}).click();await rating.getByRole('status').filter({hasText:'Saved for your next practice.'}).waitFor();
+    await p.screenshot({path:'output/playwright/feedback-checkpoint-320.png',fullPage:true});
+    await p.locator('#rating-skip').click();
+    assert(!JSON.stringify(await p.evaluate(()=>({...localStorage}))).includes(revised),'Private text is never written to general browser storage');
+    const fresh=await contextFor();await prepare(fresh);
+    await fresh.locator('#preparation-goal-view .practice-goal-text').filter({hasText:revised}).waitFor();
+    assert(await fresh.evaluate(()=>new Set([...document.querySelectorAll('[id]')].map(e=>e.id)).size===document.querySelectorAll('[id]').length),'New controls have unique IDs');
+    await fresh.evaluate(id=>window.switchTestUser(id),users.o);
+    await fresh.locator('#preparation-goal-view').getByRole('button',{name:'Add a reminder',exact:true}).waitFor();
+    assert(!(await fresh.locator('#preparation-goal').textContent()).includes(revised),'Switching accounts immediately removes private content');
+    await fresh.evaluate(()=>window.switchTestUser(null));
+    await fresh.locator('#preparation-goal-view').getByRole('button',{name:'Sign in to keep a reminder for next time.',exact:true}).waitFor();
+    assert(!(await fresh.locator('#preparation-goal').textContent()).includes(revised),'Sign-out removes reminder');
+    const before=requests.length, shared=await contextFor();await prepare(shared,{shared:true});
+    assert(requests.length===before,'Shared screen does not fetch private note before opening');
+    assert(!(await shared.locator('#preparation-goal').textContent()).includes(revised),'Shared screen initially contains no private text');
+    await shared.locator('#preparation-goal-view summary').click();
+    await shared.locator('#preparation-goal-view .practice-goal-text').filter({hasText:revised}).waitFor();
+    assert(await shared.locator('#preparation-goal-view').getByRole('button',{name:'Copy to share'}).isHidden(),'No accidental clipboard action on shared device');
+    await shared.screenshot({path:'output/playwright/feedback-shared-preparation-320.png',fullPage:true});
+    const no=await contextFor('individual','no');await prepare(no,{skill:'therapist-self-awareness'});
+    await no.locator('#start-practice').click();await no.locator('#local-feedback-reference-guide summary').click();
+    assert((await no.locator('#local-feedback-reference').textContent()).includes('Private detaljer trenger ikke deles.'),'Norwegian self-awareness anchors protect personal disclosure');
+    assert(!(await no.locator('#active-goal').textContent()).includes(revised),'Different skill and language do not inherit reminder');
+    failLoad=true;const failed=await contextFor();await prepare(failed);
+    const failedGoal=failed.locator('#preparation-goal-view');
+    await failedGoal.getByRole('button',{name:'Try again',exact:true}).waitFor();
+    assert(await failedGoal.getByRole('button',{name:'Add a reminder',exact:true}).isHidden(),'Read failure cannot overwrite an unknown existing target');
+    failLoad=false;await failedGoal.getByRole('button',{name:'Try again',exact:true}).click();
+    await failedGoal.locator('.practice-goal-text').filter({hasText:revised}).waitFor();
+    await failedGoal.getByRole('button',{name:'Change',exact:true}).click();await failedGoal.getByRole('button',{name:'Remove reminder',exact:true}).click();
+    await failedGoal.getByRole('status').filter({hasText:'Reminder removed.'}).waitFor();
+    assert(errors.length===0,'No JavaScript errors: '+errors.join(';'));
+    return {passed:true,checks:['failed-save draft','private persistence across sessions','active reminder','individual cues','checkpoint editing','account switch','sign-out','no browser storage','shared-device deliberate opening','Norwegian self-awareness','load failure and retry','removal','320px fit','unique IDs']};
+  } finally {for(const context of contexts)await context.close();}
+}
