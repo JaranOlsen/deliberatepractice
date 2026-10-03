@@ -59,20 +59,23 @@ async (page) => {
   try {
   await page.evaluate(() => localStorage.clear());
   await page.reload();
-  await page.locator('#language-list button').first().waitFor();
+  await page.locator('#practice-home').waitFor();
   await page.setViewportSize({width:390,height:844});
   assert(await page.locator('#group-entry #practice-format').isVisible(), 'Practice format belongs at the beginning with room entry');
   assert(await page.locator('#group-create').isVisible() && await page.locator('#group-join').isVisible(), 'Group room actions are beside the initial format choice');
   await page.screenshot({path:'output/playwright/practice-choice-mobile.png',fullPage:true});
   const setup = async (language, skill, mode = 'individual') => {
-    if (!(await visible('language-selection'))) {
+    if (!(await visible('practice-home'))) {
       if (await visible('case-selection')) await click('back-to-skills');
       await click('back-to-language');
     }
+    await click('home-language');
+    await page.locator(`[data-language-id="${language}"]`).click();
     await page.locator(`input[name="practice-mode"][value="${mode === 'triad' ? 'group' : mode}"]`).check();
     if(mode === 'triad') await page.locator('#shared-device').check();
+    else if(mode === 'group') await page.locator('#shared-device').uncheck();
     assert(await page.locator('#group-room-actions').isHidden() === (mode !== 'group'), 'Only separate-device groups offer room entry');
-    await page.locator(`[data-language-id="${language}"]`).click();
+    await click('home-library');
     await page.locator(`button[data-skill-id="${skill}"]`).click();
     await page.locator('[data-case-id="case-sara"]').click();
     assert(await page.locator('#practice-format').isHidden(), 'Case preparation does not repeat the format decision');
@@ -120,7 +123,7 @@ async (page) => {
   await page.keyboard.press('Escape');
   await page.reload();
   assert(!(await visible('resume-card')), 'Reload must not offer a completed round');
-  assert(await visible('skill-selection'), 'Returning users should land in their remembered language library');
+  assert(await visible('practice-home'), 'Returning users should land on the compact home in their remembered language');
   assert(await visible('last-setup-card'), 'Completed practice should leave a repeatable setup');
   await page.screenshot({ path: 'output/playwright/returning-library-mobile.png', fullPage: true });
   await click('repeat-last-setup');
@@ -240,6 +243,7 @@ async (page) => {
   await page.reload();
   await page.waitForFunction(() => document.querySelector('#account-button').textContent === 'Account');
   await page.locator('input[name="practice-mode"][value="individual"]').check();
+  await click('home-library');
   await page.locator('[data-language-id="en"]').click();
   await page.locator('button[data-skill-id="empathic-understanding"]').click();
   await page.locator('[data-case-id="case-sara"]').click();
@@ -349,7 +353,7 @@ async (page) => {
     localStorage.setItem('dp_last_practice_setup_v1', JSON.stringify({skillId:'removed-skill',caseId:'removed-case'}));
   });
   await page.reload();
-  assert(await visible('skill-selection') && !(await visible('last-setup-card')), 'Stale remembered setup must fall back to the library');
+  assert(await visible('practice-home') && !(await visible('last-setup-card')), 'Stale remembered setup must fall back to home');
   console.log('PASS remembered setup, repeat format, individual comparison/retry and awareness');
   await page.evaluate(() => localStorage.setItem('dp_last_practice_setup_v1', JSON.stringify({
     skillId: 'empathic-understanding', caseId: 'case-aisha', practiceMode: 'triad'

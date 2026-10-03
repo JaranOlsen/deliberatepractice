@@ -28,8 +28,27 @@
     </header>
     <main class="app-main">
       <aside id="group-selection-context" class="group-selection-context" hidden><p id="group-selection-note"></p><button id="group-selection-return" class="ghost-button" type="button"></button></aside>
-      <section id="group-entry" class="panel group-entry" hidden aria-labelledby="group-entry-title">
-        <h2 id="group-entry-title">Choose how to practice</h2>
+        <div class="resume-card is-hidden" id="resume-card" hidden>
+          <div class="resume-copy">
+            <span class="resume-eyebrow" id="resume-title">Resume practice</span>
+            <p id="resume-details"></p>
+          </div>
+          <div class="resume-actions">
+            <button type="button" class="primary-button primary-button--small" id="resume-button">Resume</button>
+            <button type="button" class="ghost-button ghost-button--small" id="resume-clear">Clear</button>
+          </div>
+        </div>
+      <div class="content-load-notice" id="content-load-notice" hidden>
+        <p id="content-load-status" role="status"></p>
+        <button type="button" class="ghost-button ghost-button--small" id="content-load-retry" hidden></button>
+      </div>
+      <section id="practice-home" class="panel practice-home" hidden aria-labelledby="home-title">
+        <div class="home-heading">
+          <h2 id="home-title">Your practice</h2>
+          <button id="home-language" class="ghost-button ghost-button--small" type="button">Language</button>
+        </div>
+        <div id="group-entry" class="group-entry" aria-labelledby="group-entry-title">
+        <h3 id="group-entry-title" class="sr-only">Choose how to practice</h3>
         <fieldset class="practice-format" id="practice-format">
             <legend class="sr-only" id="practice-format-label">Practice format</legend>
             <div class="practice-format-options">
@@ -52,23 +71,22 @@
           </fieldset>
         <p id="group-entry-note"></p>
         <div id="group-room-actions" class="room-entry-actions"><button id="group-resume" class="primary-button" type="button" hidden></button><button id="group-create" class="primary-button" type="button">Create room</button><button id="group-join" class="ghost-button" type="button">Join with a code</button></div>
-      </section>
-      <div class="content-load-notice" id="content-load-notice" hidden>
-        <p id="content-load-status" role="status"></p>
-        <button type="button" class="ghost-button ghost-button--small" id="content-load-retry" hidden></button>
-      </div>
-        <div class="resume-card is-hidden" id="resume-card" hidden>
-          <div class="resume-copy">
-            <span class="resume-eyebrow" id="resume-title">Resume practice</span>
-            <p id="resume-details"></p>
-          </div>
-          <div class="resume-actions">
-            <button type="button" class="primary-button primary-button--small" id="resume-button">Resume</button>
-            <button type="button" class="ghost-button ghost-button--small" id="resume-clear">Clear</button>
-          </div>
         </div>
+        <div class="home-library-actions">
+          <button id="home-library" class="ghost-button" type="button">Browse library</button>
+          <button id="home-progress" class="ghost-button" type="button">Your progress</button>
+        </div>
+        <div class="resume-card home-recent" id="last-setup-card" hidden>
+          <div class="resume-copy">
+            <span class="resume-eyebrow" id="last-setup-title"></span>
+            <p id="last-setup-details"></p>
+          </div>
+          <button type="button" class="primary-button primary-button--small" id="repeat-last-setup"></button>
+        </div>
+      </section>
 
       <section id="language-selection" class="panel">
+        <button id="language-home" class="back-button" type="button" hidden>← Home</button>
         <h2 class="panel-title" id="language-panel-title">Choose a Language</h2>
         <p class="panel-subtitle" id="language-panel-description">
           Select the language you want to practice in.
@@ -97,13 +115,6 @@
           Pick the focus area you want to strengthen today.
         </p>
         <button type="button" class="ghost-button library-progress" id="open-progress" hidden>Your progress</button>
-        <div class="resume-card" id="last-setup-card" hidden>
-          <div class="resume-copy">
-            <span class="resume-eyebrow" id="last-setup-title"></span>
-            <p id="last-setup-details"></p>
-          </div>
-          <button type="button" class="primary-button primary-button--small" id="repeat-last-setup"></button>
-        </div>
         <div
           class="grid-list"
           id="skill-list"

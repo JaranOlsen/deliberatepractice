@@ -139,7 +139,7 @@ button {
   width: 100%;
 }
 
-body:is([data-section="practice"], [data-section="room"]) .locked-banner {
+body:is([data-section="home"], [data-section="practice"], [data-section="room"]) .locked-banner {
   display: none !important;
 }
 
@@ -598,6 +598,7 @@ body:is([data-section="practice"], [data-section="room"]) #practice-area {
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  min-width: 0;
 }
 
 .card-header .card-title {
@@ -631,7 +632,7 @@ body:is([data-section="practice"], [data-section="room"]) #practice-area {
   font-weight: 600;
   font-size: 1.05rem;
   min-width: 0;
-  overflow-wrap: break-word;
+  overflow-wrap: anywhere;
 }
 
 .card-body {
@@ -639,7 +640,7 @@ body:is([data-section="practice"], [data-section="room"]) #practice-area {
   font-size: 0.95rem;
   line-height: 1.4;
   min-width: 0;
-  overflow-wrap: break-word;
+  overflow-wrap: anywhere;
 }
 
 .skill-mark {
@@ -2266,3 +2267,73 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 .progress-trend .self-chart-value-line { stroke:var(--radar-color); }
 .progress-trend .self-chart-dot { fill:var(--radar-color); stroke:white; stroke-width:1; }
 .progress-skill summary > .progress-skill-stats, .progress-skill summary > .response-hint { display:block; margin:.4rem 0; font-size:.85rem; font-weight:400; }
+
+/* A short starting point; the full library stays one action away. */
+.home-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .6rem; }
+.home-heading h2 { margin: 0; font-size: 1.3rem; }
+.home-heading button { margin-left: auto; }
+.home-library-actions { display: flex; flex-wrap: wrap; gap: .65rem; }
+.home-library-actions > button { flex: 1 1 8rem; }
+.practice-home .practice-format { margin: 0; }
+.practice-home #group-entry-note { margin: .6rem 0 .9rem; font-size: .9rem; line-height: 1.5; color: var(--color-muted); }
+.practice-home .home-recent { margin: 0; }
+body[data-section="home"] .app-tagline { display: none; }
+body[data-section="home"] .app-header { padding: 1rem 1.25rem; }
+body[data-section="home"] .app-header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+body[data-section="home"] .app-heading { text-align: left; flex: 1; }
+body[data-section="home"] .app-header h1 { font-size: 1.25rem; }
+body[data-section="home"] .account-controls { position: static; max-width: 100%; }
+body[data-section="home"] .app-main { padding-top: 1rem; }
+#language-home { align-self: flex-start; }
+
+/* Let enlarged text wrap within each control and card, rather than clipping it. */
+button:not(.glossary-chip) { min-height: 44px; min-width: 0; max-width: 100%; overflow-wrap: anywhere; }
+.header-pill { white-space: normal; text-overflow: unset; overflow: visible; }
+.close-button, .glossary-close { width: 44px; height: 44px; flex-shrink: 0; }
+.panel-header { flex-wrap: wrap; }
+.panel-header > button { flex-shrink: 0; }
+.panel-title, .card-header > *, .practice-format-option > span { min-width: 0; }
+.practice-format-option > span { overflow-wrap: anywhere; }
+.group-entry .practice-format-options { grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr)); }
+.group-entry .practice-format-option { min-width: 0; }
+.resume-actions { flex-wrap: wrap; }
+.resume-copy { grid-template-columns: minmax(0, 1fr); max-width: 100%; overflow-wrap: anywhere; }
+.account-modal, .self-chart { grid-template-columns: minmax(0, 1fr); min-width: 0; }
+.room-dialog { min-width: 0; }
+.panel, .account-modal { overflow-wrap: anywhere; }
+.triad-protocol, .triad-debrief, .room-role-summary ul { grid-template-columns: minmax(0, 1fr); }
+.skill-summary-title-group { max-width: 100%; overflow-wrap: anywhere; grid-template-columns: minmax(0, 1fr); }
+#room-session, .room-role-summary { min-width: 0; max-width: 100%; }
+.skill-difficulty-grid { grid-template-columns: minmax(0, 1fr) repeat(3, minmax(0, .55fr)); }
+.skill-difficulty-heading { overflow-wrap: anywhere; }
+.radar-small-row { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, .6fr); }
+.resume-card > button { flex-shrink: 0; }
+.room-entry-actions > button { flex-basis: 8rem; }
+.home-library-actions > button, .room-entry-actions > button { white-space: normal; }
+.practice-goal-header, .room-header, .room-role-summary li { flex-wrap: wrap; }
+.room-header > *, .room-workflow li > :last-child { min-width: 0; overflow-wrap: anywhere; }
+.room-workflow { grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr)); }
+.room-workflow-number { flex-shrink: 0; }
+.progress-period { flex-wrap: wrap; }
+.progress-period > button { flex-basis: 6rem; }
+.radar-levels { grid-template-columns: repeat(auto-fit, minmax(min(100%, 5rem), 1fr)); }
+.progress-suggestion, .progress-skill summary, .room-preparation { overflow-wrap: anywhere; }
+.skill-feedback-guide, .skill-feedback-anchors, .skill-feedback-anchors > div { min-width: 0; overflow-wrap: anywhere; }
+.skill-feedback-anchors { max-width: 100%; grid-template-columns: minmax(0, 1fr); }
+.case-role-list { grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); }
+.difficulty-chart-row { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto; }
+.chart-header { flex-wrap: wrap; }
+.case-role-list > div { min-width: 0; overflow-wrap: anywhere; }
+select, textarea, input[type="text"], input[type="email"] { min-width: 0; max-width: 100%; font-size: max(1rem, 16px); }
+@media (max-width: 520px) {
+  body:not([data-section="practice"]) .app-header { padding-top: 1rem; }
+  .account-controls { position: static; justify-content: center; margin-top: .65rem; }
+  body:is([data-section="practice"], [data-section="room"], [data-section="home"]) .account-controls { margin-top: 0; max-width: 100%; flex-wrap: wrap; }
+  body:is([data-section="practice"], [data-section="room"]) .app-header-inner { flex-wrap: wrap; }
+  .home-heading h2 { font-size: 1.15rem; }
+  .practice-home { gap: 1rem; }
+  .room-header .ghost-button { min-width: 0; }
+  .room-code-row > * { min-width: 0; overflow-wrap: anywhere; }
+  .room-seat-status { overflow-wrap: anywhere; }
+  .content-load-notice p { flex-basis: 100%; }
+}
