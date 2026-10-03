@@ -1,5 +1,7 @@
 "use strict";
 
+import {buildAuthRedirect} from './roomInvite.js';
+
 // Anonymous feedback/access-code calls still use direct REST so their current
 // behavior and RLS assumptions do not change.
 const SUPABASE_URL = normalizeSupabaseUrl(import.meta.env.VITE_SUPABASE_URL ?? "");
@@ -46,7 +48,9 @@ function getLoadedSupabaseClient() {
 
 function getAuthRedirectTo() {
   if (typeof window === "undefined") return undefined;
-  return `${window.location.origin}${window.location.pathname}`;
+  let storage;
+  try { storage = window.localStorage; } catch { /* Private browser settings may block storage. */ }
+  return buildAuthRedirect(window.location.href, storage);
 }
 
 function normalizeSupabaseError(error) {
@@ -164,6 +168,25 @@ export async function listPracticeRatings({ source = "self", limit = 500 } = {})
     .limit(limit);
   if (error) throw normalizeSupabaseError(error);
   return Array.isArray(data) ? data : [];
+}
+
+export async function getPracticeGoal({userId, languageId, skillId}) {
+  const supabase = await getSupabaseClient();
+  const {data, error} = await supabase.from('practice_goals').select('goal_text,updated_at')
+    .eq('user_id', userId).eq('language_id', languageId).eq('skill_id', skillId).maybeSingle();
+  // Constraint/error details can contain a private note; never log them.
+  if (error) throw new Error('Unable to load practice reminder');
+  return data?.goal_text ?? '';
+}
+
+export async function savePracticeGoal({userId, languageId, skillId, text}) {
+  const supabase = await getSupabaseClient();
+  const query = text ? supabase.from('practice_goals').upsert({user_id:userId,language_id:languageId,skill_id:skillId,goal_text:text},
+    {onConflict:'user_id,language_id,skill_id'}) : supabase.from('practice_goals').delete()
+      .eq('user_id', userId).eq('language_id', languageId).eq('skill_id', skillId);
+  const {error} = await query;
+  if (error) throw new Error('Unable to save practice reminder');
+  return text;
 }
 
 /*
@@ -337,7 +360,7 @@ export async function logAccessCodeAttempt({ code, status, languageId }) {
 
 // Shared rooms use the same authenticated client as account and progress calls.
 export async function practiceRoomRpc(name, args) {
-  const allowed = ['create_practice_room', 'join_practice_room', 'sync_practice_room', 'command_practice_room', 'prepare_practice_room'];
+  const allowed = ['create_practice_room', 'join_practice_room', 'sync_practice_room', 'command_practice_room', 'prepare_practice_room', 'manage_practice_room'];
   if (!allowed.includes(name)) throw new Error('Unknown room operation');
   const client = await getSupabaseClient();
   const { data, error } = await client.rpc(name, args).abortSignal(AbortSignal.timeout(12000));

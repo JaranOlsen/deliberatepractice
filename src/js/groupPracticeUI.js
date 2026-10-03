@@ -1,8 +1,8 @@
 // The same exercise guidance is used on shared devices and in synchronized rooms.
 export const GROUP_PRACTICE_COPY = {
   en: {
-    reflection: {therapist: 'Which change helped?', client: 'What changed on the retry?', observer: 'One strength. One next practice target.', passive: 'What did you notice about the skill?'},
-    awarenessReflection: {therapist: 'What did you notice? Share only what you choose.', client: 'How did the group respect privacy?', observer: 'One moment of awareness. One gentle next experiment.', passive: 'What helped the therapist notice without pressure?'},
+    reflection: {therapist: 'Which change helped?', client: 'What changed on the retry?', observer: 'What worked well, and what should the therapist try next?', passive: 'What did you notice about the skill?'},
+    awarenessReflection: {therapist: 'What did you notice? Share only what you choose.', client: 'How did the group respect privacy?', observer: 'What helped the therapist notice, and what could they try next?', passive: 'What helped the therapist notice without pressure?'},
     derole: 'Step out of role. Say your own names and pause.', nextFocus: 'Choose the next challenge',
     workflowTitle: 'The workflow', yourPart: 'Your part', afterRound: 'After every 3 items',
     workflowSteps: ['Client reads the line', 'Therapist responds', 'Client gives feedback', 'Observer coaches', 'Repeat line · therapist retries', 'Rate the therapist'],
@@ -25,8 +25,8 @@ export const GROUP_PRACTICE_COPY = {
     example: 'See an example', hideExample: 'Hide example', exampleNote: 'An example, not an answer key. Choose one change to try.',
   },
   no: {
-    reflection: {therapist: 'Hvilken endring hjalp?', client: 'Hva endret seg ved det nye forsøket?', observer: 'Én styrke. Ett neste øvingsmål.', passive: 'Hva la du merke til ved ferdigheten?'},
-    awarenessReflection: {therapist: 'Hva la du merke til? Del bare det du selv velger.', client: 'Hvordan ivaretok gruppen privatlivet?', observer: 'Ett øyeblikk med bevissthet. Ett varsomt neste eksperiment.', passive: 'Hva hjalp terapeuten å legge merke til uten press?'},
+    reflection: {therapist: 'Hvilken endring hjalp?', client: 'Hva endret seg ved det nye forsøket?', observer: 'Hva fungerte godt, og hva bør terapeuten prøve neste gang?', passive: 'Hva la du merke til ved ferdigheten?'},
+    awarenessReflection: {therapist: 'Hva la du merke til? Del bare det du selv velger.', client: 'Hvordan ivaretok gruppen privatlivet?', observer: 'Hva hjalp terapeuten å legge merke til, og hva kan hen prøve neste gang?', passive: 'Hva hjalp terapeuten å legge merke til uten press?'},
     derole: 'Gå ut av rollen. Si deres egne navn og ta en pause.', nextFocus: 'Velg neste utfordring',
     workflowTitle: 'Slik øver dere', yourPart: 'Din del', afterRound: 'Etter hvert tredje utsagn',
     workflowSteps: ['Klienten leser utsagnet', 'Terapeuten svarer', 'Klienten gir tilbakemelding', 'Observatøren veileder', 'Gjenta utsagnet · terapeuten prøver igjen', 'Vurder terapeuten'],

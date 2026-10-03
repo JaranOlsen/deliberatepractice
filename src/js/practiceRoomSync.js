@@ -95,9 +95,12 @@ export function createRoomSync({rpc, watch, apply, changed, loadPending, savePen
     const epoch = generation;
     commanding = true; commandError = ''; emit();
     try {
-      const next = await rpc(action === 'prepare' ? 'prepare_practice_room' : 'command_practice_room', {input_room_id: roomId,
+      const management = ['ready', 'not_ready', 'transfer_host', 'recover_host'].includes(action);
+      const next = await rpc(action === 'prepare' ? 'prepare_practice_room' : management ? 'manage_practice_room' : 'command_practice_room', {input_room_id: roomId,
         input_command_id: pending.id, input_expected_version: pending.version,
-        ...(action === 'prepare' ? {input_config: pending.configuration} : {input_action: pending.action, input_score: pending.score})});
+        ...(action === 'prepare' ? {input_config: pending.configuration} : management
+          ? {input_action: pending.action, input_config: pending.configuration ?? null}
+          : {input_action: pending.action, input_score: pending.score})});
       if (epoch !== generation) return;
       pending = null; savePending(roomId, null);
       if (next?.left) { stop(); changed({...status(), left: true}); return; }
@@ -137,4 +140,16 @@ export function roomEveryoneReady(room) {
     const member = room?.presence?.[room?.[`${role}_id`]];
     return member?.connected && member.acknowledged_version === room.version;
   });
+}
+
+export function roomReadinessRoles(room) {
+  return room?.readiness_required ? ['client', ...(room.observer_id ? ['therapist'] : [])] : [];
+}
+
+export function waitingRoomReadiness(room) {
+  return roomReadinessRoles(room).filter(role => !room.ready_ids?.includes(room[`${role}_id`]));
+}
+
+export function roomCanStart(room) {
+  return roomEveryoneReady(room) && !waitingRoomReadiness(room).length;
 }

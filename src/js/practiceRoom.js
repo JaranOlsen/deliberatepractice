@@ -3,7 +3,10 @@ import {practiceRoomRpc, watchPracticeRoom} from './backend.js';
 import {loadPracticeContent, getPracticeStatements} from './practiceContent.js';
 import {CONTENT_REVISION} from './practiceData.js';
 import {groupSetProgress} from './groupRound.js';
-import {createRoomSync, roomRole, roomEveryoneReady, roomNeedsObserver, missingRoomRoles} from './practiceRoomSync.js';
+import {createRoomSync, roomRole, roomEveryoneReady, roomNeedsObserver, missingRoomRoles, roomReadinessRoles, waitingRoomReadiness, roomCanStart} from './practiceRoomSync.js';
+import {readRoomInvite, rememberRoomInvite, normalizeRoomCode} from './roomInvite.js';
+import {createSkillFeedback} from './skillFeedbackUI.js';
+import {createPracticeGoalView} from './practiceGoalUI.js';
 
 const copy = {
   en: {
@@ -26,12 +29,16 @@ const copy = {
     ...GROUP_PRACTICE_COPY.en,
     set: 'Set', nextSet: 'Next 3 items · keep roles', nextRound: 'Choose roles, skill & case', roundPlan: '12 items · 4 sets of 3 · keep your roles', rateSet: 'Rate this set', round: 'Round', item: 'Item', debrief: 'Reflect together', practiced: 'practiced', passed: 'passed',
     save: 'Save skill rating', updateRating: 'Update rating', skipRating: 'Continue without rating', skipChanges: 'Continue without changes', saved: 'Saved to the therapist’s progress',
-    ratingPlaceholder: 'Choose a rating', ratingScope: 'Rate only the practiced items.', observerRating: 'The observer rates this set.', therapistRating: 'The therapist self-assesses this set.',
+    ratingPlaceholder: 'Choose a rating', observerRating: 'The observer rates this set.', therapistRating: 'The therapist self-assesses this set.',
     scoreLabels: ['Not yet demonstrated', 'Emerging with guidance', 'Adequate in parts', 'Well demonstrated', 'Skillfully demonstrated'],
     score: 'Therapist’s use of the skill', noItems: 'Every item was passed. No rating will be saved.',
     participantWaiting: 'Not joined', participantSyncing: 'Catching up', participantReady: 'Up to date',
     participantOffline: 'Connection lost', newRoom: 'New room',
     failedContent: 'This room uses a different or unavailable content version. Refresh the app and sync again.',
+    invalidCode: 'Enter the twelve-character room code.', roles: 'Roles for this round', unfilled: 'Choose a role', assigned: 'Assigned', preparing: 'Preparing', personReady: 'Ready', startsRound: 'Starts the round',
+    readyButton: 'I’m ready', notReadyButton: 'Not ready yet', waitingReady: 'Waiting for {names} to get ready.', waitingSync: 'Waiting for {names} to sync.', waitingOffline: 'Waiting for {names} to reconnect.',
+    transferHost: 'Transfer hosting', transferTo: 'New host', selectHost: 'Choose a connected participant', transferTitle: 'Transfer hosting to {name}?', transferDescription: 'They will choose the material and manage the room. Your practice roles stay the same.',
+    recoverHost: 'Take over hosting', recoverTitle: 'Take over hosting?', recoverDescription: 'The host has not been active in this room for five minutes. You will choose the material and manage the room. Practice roles stay the same.', hostAway: 'The host has been away from this room for five minutes.',
   },
   no: {
     title: 'Gruppeøving', hub: 'Øv sammen', hubIntro: 'Opprett et rom og inviter gruppen. Velg ferdighet og kasus sammen når alle er her.', openCreate: 'Opprett et rom', openJoin: 'Bli med med kode', resume: 'Tilbake til rommet ditt', people: 'Rom og deltakere', peopleCount: '{count} deltakere', share: 'Del invitasjon', linkCopied: 'Invitasjonslenken er kopiert', roleOptions: 'Startrolle (valgfritt)', choosing: 'Velg hva dere vil øve på', waitingForHost: 'Verten velger ferdighet og kasus. Du kan invitere andre eller velge rolle mens du venter.', choose: 'Velg ferdighet og kasus', changePractice: 'Bytt ferdighet eller kasus', leave: 'Forlat rommet', leaveTitle: 'Forlate dette rommet?', leaveDescription: 'Du kan bli med igjen med invitasjonen. Hvis du har en aktiv rolle, avsluttes runden og gruppen går tilbake til forberedelsene. Lagrede vurderinger beholdes.', leaveWatching: 'Gruppen kan fortsette. Du kan bli med igjen med invitasjonen.', endTitle: 'Avslutte rommet for alle?', endDescription: 'Økten avsluttes for alle. Lagrede vurderinger beholdes; ufullførte utsagn vurderes ikke.', cancel: 'Fortsett å øve', endedNote: 'Lagrede vurderinger beholdes. Ufullførte utsagn vurderes ikke.', interrupted: 'En deltaker forlot en aktiv rolle. Forbered en ny runde før dere fortsetter.', finish: 'Tilbake til biblioteket', privacy: 'Vurderinger og personvern', close: 'Bibliotek', join: 'Bli med i en gruppe', create: 'Opprett grupperom',
@@ -53,12 +60,16 @@ const copy = {
     ...GROUP_PRACTICE_COPY.no,
     set: 'Sett', nextSet: 'Neste 3 utsagn · behold rollene', nextRound: 'Velg roller, ferdighet og kasus', roundPlan: '12 utsagn · 4 sett med 3 · behold rollene', rateSet: 'Vurder dette settet', round: 'Runde', item: 'Utsagn', debrief: 'Reflekter sammen', practiced: 'øvd', passed: 'stått over',
     save: 'Lagre ferdighetsvurdering', updateRating: 'Oppdater vurdering', skipRating: 'Fortsett uten vurdering', skipChanges: 'Fortsett uten endringer', saved: 'Lagret i terapeutens fremgang',
-    ratingPlaceholder: 'Velg en vurdering', ratingScope: 'Vurder bare utsagnene dere har øvd på.', observerRating: 'Observatøren vurderer dette settet.', therapistRating: 'Terapeuten vurderer seg selv i dette settet.',
+    ratingPlaceholder: 'Velg en vurdering', observerRating: 'Observatøren vurderer dette settet.', therapistRating: 'Terapeuten vurderer seg selv i dette settet.',
     scoreLabels: ['Ikke vist ennå', 'På vei med veiledning', 'Tilfredsstillende i deler', 'Godt demonstrert', 'Svært godt demonstrert'],
     score: 'Terapeutens bruk av ferdigheten', noItems: 'Alle utsagn ble stått over. Ingen vurdering lagres.',
     participantWaiting: 'Ikke med ennå', participantSyncing: 'Henter siste steg', participantReady: 'Oppdatert',
     participantOffline: 'Mistet forbindelsen', newRoom: 'Nytt rom',
     failedContent: 'Rommet bruker en annen eller utilgjengelig innholdsversjon. Last appen på nytt og synkroniser igjen.',
+    invalidCode: 'Skriv inn romkoden med tolv tegn.', roles: 'Roller i denne runden', unfilled: 'Velg en rolle', assigned: 'Valgt', preparing: 'Forbereder seg', personReady: 'Klar', startsRound: 'Starter runden',
+    readyButton: 'Jeg er klar', notReadyButton: 'Ikke klar ennå', waitingReady: 'Venter på at {names} blir klar.', waitingSync: 'Venter på at {names} blir synkronisert.', waitingOffline: 'Venter på at {names} kobler til igjen.',
+    transferHost: 'Overfør vertsrollen', transferTo: 'Ny vert', selectHost: 'Velg en tilkoblet deltaker', transferTitle: 'Overføre vertsrollen til {name}?', transferDescription: 'Den nye verten velger innhold og administrerer rommet. Øvingsrollene deres beholdes.',
+    recoverHost: 'Ta over som vert', recoverTitle: 'Ta over som vert?', recoverDescription: 'Verten har ikke vært aktiv i dette rommet på fem minutter. Du vil velge innhold og administrere rommet. Øvingsrollene beholdes.', hostAway: 'Verten har vært borte fra rommet i fem minutter.',
   }
 };
 
@@ -86,16 +97,20 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     </div>
     <div id="room-session" hidden>
       <p id="room-role-badge" class="triad-role-badge"></p>
+      <section id="room-role-summary" class="room-role-summary" hidden aria-labelledby="room-roles-heading"><h3 id="room-roles-heading"></h3><ul id="room-seats"></ul></section>
       <details id="room-details" class="room-details"><summary><span id="room-people-label"></span><span id="room-people-count"></span></summary>
         <div id="room-invite" class="room-code-row"><strong id="room-share-code"></strong><button id="room-share" class="ghost-button"></button><button id="room-copy" class="ghost-button"></button></div>
         <p id="room-invite-note" class="response-hint"></p><ul id="room-members" class="room-members" aria-label="Participants"></ul>
         <form id="room-change-role-form" hidden><label id="room-change-role-label" for="room-change-role"></label><select id="room-change-role"><option value="therapist"></option><option value="client"></option><option value="observer"></option><option value="passive"></option></select><button id="room-change-role-submit" class="ghost-button" type="submit"></button></form>
+        <form id="room-transfer-form" hidden><label id="room-transfer-label" for="room-transfer-target"></label><select id="room-transfer-target"><option value=""></option></select><button id="room-transfer" class="ghost-button" type="submit"></button></form>
         <button id="room-sync" class="ghost-button"></button><div class="room-exit-actions"><button id="room-leave" class="ghost-button" hidden></button><button id="room-end" class="ghost-button" hidden></button></div>
       </details>
+      <div id="room-host-recovery" class="room-host-recovery" hidden><p id="room-host-away"></p><button id="room-recover" class="ghost-button"></button></div>
       <p id="room-sync-status" class="room-sync-status" role="status"></p>
       <div id="room-content"></div><button id="room-choose" class="primary-button" hidden></button>
       <p id="room-error" role="alert"></p>
       <div id="room-actions" class="room-actions" hidden>
+        <button id="room-ready" class="primary-button" hidden></button>
         <button id="room-save" class="primary-button" type="submit" form="room-rating-form" hidden></button>
         <button id="room-retry" class="primary-button" hidden></button><button id="room-next" class="primary-button" hidden></button>
         <button id="room-pass" class="ghost-button" hidden></button><button id="room-rotate" class="primary-button" hidden></button>
@@ -119,12 +134,17 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
   let creating = null;
   let busy = false;
   let contentKey = '';
+  let goalView = null;
   const roleGuideOpen = new Map();
   const strings = () => copy[language] ?? copy.en;
   const read = key => { try { return JSON.parse(localStorage.getItem(key)); } catch { return null; } };
   const write = (key, value) => { try { value === null ? localStorage.removeItem(key) : localStorage.setItem(key, JSON.stringify(value)); } catch { /* In-memory sync still works. */ } };
   const roomKey = () => `dp_shared_room:${userId}`;
   const pendingKey = id => `dp_room_command:${userId}:${id}`;
+  function clearInvite() {
+    write('dp_group_invite', null);
+    const url = new URL(window.location.href); url.searchParams.delete('room'); window.history.replaceState(null, '', url);
+  }
   const sync = createRoomSync({rpc: practiceRoomRpc, watch: watchPracticeRoom, apply: applyRoom, changed: updateStatus,
     loadPending: id => read(pendingKey(id)), savePending: (id, value) => write(pendingKey(id), value), canDisplay: () => !document.hidden && !overlay.hidden && !overlay.closest('[inert]')});
 
@@ -132,6 +152,22 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     const n = document.createElement(tag); if (text) n.textContent = text; if (className) n.className = className; return n;
   }
   function text(id, value) { el(id).textContent = value ?? ''; }
+  function memberName(snapshot, id) {
+    const index = snapshot.member_ids?.indexOf(id) ?? -1;
+    return snapshot.members?.find(m => m.user_id === id)?.display_name?.trim().slice(0, 80)
+      || `${language === 'no' ? 'Deltaker' : 'Participant'} ${index + 1}`;
+  }
+  function memberStatus(snapshot, id, role) {
+    const s = strings(), presence = snapshot.presence?.[id];
+    if (!presence?.connected) return s.participantOffline;
+    if (presence.acknowledged_version !== snapshot.version) return s.participantSyncing;
+    if (snapshot.phase === 'choosing') return s.assigned;
+    if (snapshot.phase === 'lobby' && snapshot.readiness_required) {
+      if (roomReadinessRoles(snapshot).includes(role)) return snapshot.ready_ids?.includes(id) ? s.personReady : s.preparing;
+      if (id === (snapshot.observer_id ?? snapshot.therapist_id)) return s.startsRound;
+    }
+    return s.participantReady;
+  }
   function labels() {
     const s = strings();
     overlay.querySelector('.room-dialog').setAttribute('aria-label', s.title);
@@ -143,6 +179,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     text('another', s.newRoom); text('hub-intro', s.hubIntro); text('open-create', s.openCreate); text('open-join', s.openJoin); text('resume', s.resume);
     text('done', s.finish);
     text('people-label', s.people); text('share', s.share); text('leave', s.leave); text('invite-note', s.invite); text('role-options', s.roleOptions); text('host-options-label', s.roleOptions); text('privacy', s.privacy);
+    text('roles-heading', s.roles); text('transfer-label', s.transferTo); text('transfer', s.transferHost); text('recover', s.recoverHost); text('host-away', s.hostAway);
     el('members').setAttribute('aria-label', language === 'no' ? 'Deltakere' : 'Participants');
   }
 
@@ -175,8 +212,8 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     applyTheme?.(confirmOverlay, configured && !ended ? skill?.id : null, caseData?.difficulty);
     if (!role || (configured && !caseData && !ended)) throw new Error(strings().failedContent);
     const s = strings(), ui = getStrings(language);
-    text('change-role-label', next.phase === 'choosing' ? s.chooseRole : s.role);
-    text('change-role-submit', next.phase === 'choosing' ? s.selectRole : s.changeRole);
+    text('change-role-label', next.phase === 'choosing' && role === 'passive' ? s.chooseRole : s.role);
+    text('change-role-submit', next.phase === 'choosing' && role === 'passive' ? s.selectRole : s.changeRole);
     const set = groupSetProgress(next.statement_ids, next.item_index, next.completed_ids, next.skipped_ids);
     const self = next.skill_id === 'therapist-self-awareness';
     const active = ['practicing','first_attempt','client_feedback','observer_feedback','retry'].includes(next.phase);
@@ -190,10 +227,11 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       if (el('invite').parentElement !== el('session')) el('details').before(el('invite'));
     }
     else if (el('invite').parentElement !== el('details')) el('details').prepend(el('invite'));
-    const key = `${next.round_id}:${next.phase}:${next.item_index}:${role}:${next.observer_id ?? (roomNeedsObserver(next) ? 'observer-needed' : 'pair')}:${next.skill_id}:${next.case_id}`;
+    const key = `${next.round_id}:${next.phase}:${next.item_index}:${role}:${next.host_id}:${next.observer_id ?? (roomNeedsObserver(next) ? 'observer-needed' : 'pair')}:${next.skill_id}:${next.case_id}`;
     // Presence refreshes never rebuild the screen or steal keyboard focus.
     if (key !== contentKey) {
       contentKey = key;
+      goalView?.destroy(); goalView = null;
       body.replaceChildren();
       if (configured && !ended) body.append(node('h3', skill.name, 'room-practice-heading'), node('p', caseData.label, 'room-case-heading'));
       const expired = Date.parse(next.expires_at) <= Date.now();
@@ -257,12 +295,24 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
           for (let score = 1; score <= 5; score++) { const option = node('option', `${score} · ${s.scoreLabels[score - 1]}`); option.value = String(score); select.append(option); }
           select.value = next.saved_score ?? '';
           select.addEventListener('change', () => updateStatus(sync.status()));
-          form.append(label, select, node('p', s.ratingScope, 'response-hint'));
+          form.append(label, select);
           form.addEventListener('submit', e => { e.preventDefault(); void sync.command('rate', Number(select.value)); });
           body.append(form);
         } else if (!set.completed.length) body.append(node('p', s.noItems));
         else body.append(node('p', next.observer_id ? s.observerRating : s.therapistRating, 'response-hint'));
         const saved = node('p'); saved.id = 'room-saved'; saved.setAttribute('role', 'status'); if (set.last) body.append(nextFocus); body.append(saved);
+      }
+      const selfRating = !next.observer_id && role === 'therapist' && next.phase === 'round_debrief' && set.completed.length > 0;
+      if (configured && !ended && next.phase !== 'choosing' && (role === 'observer' || selfRating)) {
+        body.append(createSkillFeedback({skillId:next.skill_id, language, id:'room-feedback-reference',
+          audience:selfRating ? 'self' : 'observer'}));
+      }
+      if (configured && !ended && role === 'therapist' && next.phase !== 'choosing') {
+        goalView = createPracticeGoalView({userId, languageId:language, skillId:next.skill_id,
+          editable:['lobby','round_debrief'].includes(next.phase), id:'room-next-attempt'});
+        // Keep the reminder near the focus during practice, rather than below the workflow.
+        if (active) body.querySelector('.individual-guide')?.after(goalView.element);
+        else body.append(goalView.element);
       }
       {
         const heading = body.querySelector('h4') ?? body.querySelector('h3'); if (heading) { heading.tabIndex = -1; heading.focus({preventScroll: true}); }
@@ -279,28 +329,47 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     const set = groupSetProgress(snapshot.statement_ids, snapshot.item_index, snapshot.completed_ids, snapshot.skipped_ids);
     const ended = snapshot.phase === 'closed' || Date.parse(snapshot.expires_at) <= Date.now();
     const missing = missingRoomRoles(snapshot);
+    const activeRoles = ['therapist','client', ...(roomNeedsObserver(snapshot) ? ['observer'] : [])];
+    const offline = activeRoles.filter(role => snapshot[`${role}_id`] && !snapshot.presence?.[snapshot[`${role}_id`]]?.connected);
+    const catchingUp = activeRoles.filter(role => snapshot[`${role}_id`] && snapshot.presence?.[snapshot[`${role}_id`]]?.acknowledged_version !== snapshot.version);
+    const names = roles => roles.map(role => memberName(snapshot, snapshot[`${role}_id`])).join(', ');
     const waiting = missing.length ? s.missingRoles.replace('{roles}', missing.map(role => s[role]).join(', '))
-      : !snapshot.observer_id ? (language === 'no' ? 'Venter på at terapeuten og klienten viser dette steget' : 'Waiting for the therapist and client to display this step') : s.waiting;
+      : offline.length ? s.waitingOffline.replace('{names}', names(offline)) : s.waitingSync.replace('{names}', names(catchingUp));
+    const gettingReady = waitingRoomReadiness(snapshot);
     text('sync-status', ended ? Date.parse(snapshot.expires_at) <= Date.now() ? s.expired : s.ended
       : !fresh ? s.reconnect : snapshot.phase === 'choosing' ? (snapshot.host_id === userId ? s.choosing : s.waitingForHost)
-        : !roomEveryoneReady(snapshot) ? waiting : snapshot.phase === 'lobby' && userId !== (snapshot.observer_id ?? snapshot.therapist_id) ? snapshot.observer_id ? s.observerStarts : s.therapistStarts : s.ready);
+        : !roomEveryoneReady(snapshot) ? waiting : snapshot.phase === 'lobby' ? gettingReady.length
+          ? s.waitingReady.replace('{names}', names(gettingReady)) : snapshot.observer_id ? s.observerStarts : s.therapistStarts : s.ready);
     text('error', error);
     const ids = snapshot.member_ids ?? ['therapist', 'client', 'observer'].map(r => snapshot[`${r}_id`]).filter(Boolean);
-    const members = ids.map((id, index) => {
+    const members = ids.map(id => {
       const presence = snapshot.presence?.[id], memberRole = roomRole(snapshot, id);
-      const status = !presence?.connected ? s.participantOffline
-        : presence.acknowledged_version !== snapshot.version ? s.participantSyncing : s.participantReady;
-      const displayName = snapshot.members?.find(m => m.user_id === id)?.display_name?.trim().slice(0, 80) || `${index + 1}`;
+      const status = memberStatus(snapshot, id, memberRole);
+      const displayName = memberName(snapshot, id);
       const name = `${displayName}${id === userId ? ` (${s.you})` : ''}`;
       return node('li', `${name} · ${s[memberRole]}${id === snapshot.host_id ? ` · ${s.host}` : ''} · ${status}`,
         presence?.connected && presence.acknowledged_version === snapshot.version ? 'is-ready' : '');
     });
     if (el('members').textContent !== members.map(m => m.textContent).join('')) el('members').replaceChildren(...members);
+    const preparation = ['choosing','lobby'].includes(snapshot.phase) && !ended;
+    el('role-summary').hidden = !preparation;
+    el('role-badge').hidden = ended || (preparation && role !== 'passive');
+    const seats = activeRoles.map(role => {
+      const id = snapshot[`${role}_id`], row = node('li');
+      const identity = node('div', '', 'room-seat-identity');
+      const label = role === 'client' && snapshot.skill_id === 'therapist-self-awareness' ? getStrings(language).selfAwarenessReaderRole : s[role];
+      identity.append(node('strong', label), node('span', id ? `${memberName(snapshot, id)}${id === userId ? ` (${s.you})` : ''}${id === snapshot.host_id ? ` · ${s.host}` : ''}` : s.unfilled));
+      const status = id ? memberStatus(snapshot, id, role) : '';
+      row.append(identity, node('span', status, 'room-seat-status'));
+      if (status === s.personReady) row.classList.add('is-ready');
+      return row;
+    });
+    if (el('seats').textContent !== seats.map(row => row.textContent).join('')) el('seats').replaceChildren(...seats);
     text('people-count', ids.length === 1 ? (language === 'no' ? '1 deltaker' : '1 person') : s.peopleCount.replace('{count}', String(ids.length)));
     el('details').hidden = ended;
     el('sync-status').hidden = ended || (fresh && (snapshot.phase === 'choosing' || (roomEveryoneReady(snapshot) && snapshot.phase !== 'lobby')));
     if (snapshot.phase === 'choosing') {
-      if (el('change-role-form').parentElement !== el('session')) el('role-badge').after(el('change-role-form'));
+      if (el('change-role-form').parentElement !== el('session')) el('role-summary').after(el('change-role-form'));
     } else if (el('change-role-form').parentElement !== el('details')) el('members').after(el('change-role-form'));
     el('change-role-form').hidden = !['choosing','lobby'].includes(snapshot.phase) || ended;
     for (const option of el('change-role').options) option.disabled = option.value !== 'passive' && !!snapshot[`${option.value}_id`] && snapshot[`${option.value}_id`] !== userId;
@@ -309,6 +378,23 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     el('change-role-submit').disabled = commanding || !!pending || !fresh;
     const hostControls = snapshot.host_id === userId && !ended;
     const controls = (snapshot.observer_id ?? snapshot.therapist_id) === userId && !ended;
+    const candidates = ids.filter(id => id !== snapshot.host_id);
+    const selectedHost = el('transfer-target').value;
+    const hostOptions = [node('option', s.selectHost), ...candidates.map(id => {
+      const option = node('option', memberName(snapshot, id)); option.value = id;
+      const presence = snapshot.presence?.[id]; option.disabled = !presence?.connected || presence.acknowledged_version !== snapshot.version;
+      return option;
+    })];
+    hostOptions[0].value = '';
+    const hostOptionKey = hostOptions.map(option => `${option.value}:${option.textContent}:${option.disabled}`).join('|');
+    if (el('transfer-target').dataset.options !== hostOptionKey) {
+      el('transfer-target').replaceChildren(...hostOptions); el('transfer-target').dataset.options = hostOptionKey;
+      el('transfer-target').value = candidates.includes(selectedHost) ? selectedHost : '';
+    }
+    el('transfer-form').hidden = !hostControls || !candidates.length;
+    el('transfer').disabled = commanding || !!pending || !fresh || !el('transfer-target').value || el('transfer-target').selectedOptions[0]?.disabled;
+    el('host-recovery').hidden = ended || hostControls || !snapshot.host_recovery_available;
+    el('recover').disabled = commanding || !!pending || !fresh;
     el('choose').hidden = !hostControls || !['choosing','lobby'].includes(snapshot.phase) || !!pending;
     el('choose').className = snapshot.phase === 'choosing' ? 'primary-button' : 'ghost-button';
     text('choose', snapshot.phase === 'choosing' ? s.choose : s.changePractice);
@@ -318,7 +404,13 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     const active = ['practicing','first_attempt', 'client_feedback', 'observer_feedback', 'retry'].includes(snapshot.phase);
     el('next').hidden = !controls || (!active && snapshot.phase !== 'lobby') || !!pending;
     text('next', snapshot.phase === 'lobby' ? s.start : (snapshot.item_index + 1) % 3 === 0 ? s.finishLast : s.finishNext);
-    el('next').disabled = commanding || !fresh || !roomEveryoneReady(snapshot);
+    el('next').disabled = commanding || !fresh || (snapshot.phase === 'lobby' ? !roomCanStart(snapshot) : !roomEveryoneReady(snapshot));
+    const confirmed = snapshot.ready_ids?.includes(userId);
+    el('ready').hidden = snapshot.phase !== 'lobby' || ended || !roomReadinessRoles(snapshot).includes(role) || !!pending;
+    text('ready', confirmed ? s.notReadyButton : s.readyButton);
+    el('ready').className = confirmed ? 'ghost-button' : 'primary-button';
+    el('ready').setAttribute('aria-pressed', String(!!confirmed));
+    el('ready').disabled = commanding || !fresh || !snapshot.presence?.[userId]?.connected || snapshot.presence?.[userId]?.acknowledged_version !== snapshot.version;
     el('pass').hidden = !controls || !active || !!pending;
     el('pass').disabled = el('next').disabled;
     el('rotate').hidden = !controls || snapshot.phase !== 'round_debrief' || !!pending;
@@ -342,6 +434,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
   }
 
   function dismiss(navigate = true) {
+    goalView?.destroy(); goalView = null;
     if (confirming) { dialogs.close(confirmOverlay); confirming = null; }
     open = false; opening++; sync.stop(); room = null; contentKey = '';
     overlay.hidden = true; overlay.classList.add('is-hidden'); if (navigate) onClose?.();
@@ -362,6 +455,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
   }
   async function show({createConfig = null, resume = true, mode = createConfig ? 'create' : 'join', code = null} = {}) {
     if (open) dismiss();
+    if (mode === 'create' || mode === 'resume') clearInvite();
     userId = getUser()?.id ?? null; language = getLanguage() ?? 'en'; config = createConfig; creating = null;
     open = true; opening++; busy = false; room = null; contentKey = '';
     labels(); text('status', ''); el('header').hidden = false; el('setup').hidden = false; el('session').hidden = true;
@@ -373,8 +467,10 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     el('create').hidden = !config; el('join-form').hidden = !!config;
     el('host-options').hidden = !config;
     el('host-options').open = false; el('join-options').open = false;
-    el('code').value = code ?? read('dp_group_invite') ?? '';
-    if (code) write('dp_group_invite', code);
+    let inviteStorage;
+    try { inviteStorage = localStorage; } catch { /* The invitation can remain in the URL. */ }
+    el('code').value = code ?? readRoomInvite(window.location.href, inviteStorage) ?? '';
+    if (code) rememberRoomInvite(code, inviteStorage);
     el('role').value = 'auto';
     el('host-role').hidden = !config; el('host-role-label').hidden = !config;
     overlay.hidden = false; overlay.classList.remove('is-hidden'); onOpen?.();
@@ -405,20 +501,24 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       return practiceRoomRpc('sync_practice_room', {input_room_id: last, input_acknowledged_version: -1});
     });
   }
-  el('back').addEventListener('click', () => dismiss());
+  el('back').addEventListener('click', () => { if (!room) clearInvite(); dismiss(); });
   el('done').addEventListener('click', () => dismiss());
   el('join-form').addEventListener('submit', event => {
     event.preventDefault();
-    write('dp_group_invite', el('code').value);
+    const code = normalizeRoomCode(el('code').value);
+    if (!code) { text('status', strings().invalidCode); el('code').focus(); return; }
+    write('dp_group_invite', code);
+    const inviteUrl = new URL(window.location.href); inviteUrl.searchParams.set('room', code);
+    window.history.replaceState(null, '', inviteUrl);
     if (!getUser()) { dismiss(); signIn(); return; }
-    void request(async () => { const next = await practiceRoomRpc('join_practice_room', {input_code: el('code').value, input_role: el('role').value}); write('dp_group_invite', null); const url = new URL(window.location.href); url.searchParams.delete('room'); window.history.replaceState(null, '', url); return next; });
+    void request(async () => { const next = await practiceRoomRpc('join_practice_room', {input_code: code, input_role: el('role').value}); clearInvite(); return next; });
   });
   el('create').addEventListener('click', () => {
     if (!getUser()) { dismiss(); signIn(); return; }
     void request(async () => {
       const epoch = opening;
       if (!creating) {
-        const selected = {...await config(), hostRole: el('host-role').value};
+        const selected = {...await config(), hostRole: el('host-role').value, preparationProtocol: 'ready-v1'};
         if (epoch !== opening || !open || getUser()?.id !== userId) return;
         const previous = read(`dp_room_creation:${userId}`);
         const sameSetup = previous && ['languageId', 'skillId', 'caseId', 'contentRevision', 'hostRole'].every(key => previous.config?.[key] === selected[key]);
@@ -434,6 +534,16 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     });
   });
   el('change-role-form').addEventListener('submit', event => { event.preventDefault(); void sync.command(`role_${el('change-role').value}`); });
+  el('ready').addEventListener('click', () => {
+    void sync.command(room.ready_ids?.includes(userId) ? 'not_ready' : 'ready', null, {preparationId: room.preparation_id});
+  });
+  el('transfer-target').addEventListener('change', () => updateStatus(sync.status()));
+  el('transfer-form').addEventListener('submit', event => {
+    event.preventDefault();
+    const targetUserId = el('transfer-target').value;
+    if (targetUserId) confirmExit('transfer_host', {targetUserId});
+  });
+  el('recover').addEventListener('click', () => confirmExit('recover_host'));
   el('open-create').addEventListener('click', () => { void show({mode:'create',resume:false,createConfig:async()=>({languageId:getLanguage()??'en'})}); });
   el('open-join').addEventListener('click', () => { void show({mode:'join',resume:false}); });
   el('resume').addEventListener('click', () => { void show({mode:'resume'}); });
@@ -449,17 +559,19 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       else { await navigator.clipboard.writeText(url.href); text('status', strings().linkCopied); }
     } catch (failure) { if (failure.name !== 'AbortError') text('status', `${strings().code}: ${room.code}`); }
   });
-  function confirmExit(action) {
-    const s = strings(); confirming = action;
-    confirmOverlay.querySelector('#room-exit-title').textContent = action === 'close' ? s.endTitle : s.leaveTitle;
-    confirmOverlay.querySelector('#room-exit-description').textContent = action === 'close' ? s.endDescription : roomRole(room, userId) === 'passive' ? s.leaveWatching : s.leaveDescription;
-    confirmOverlay.querySelector('#room-exit-confirm').textContent = action === 'close' ? s.end : s.leave;
+  function confirmExit(action, configuration = null) {
+    const s = strings(); confirming = {action, configuration};
+    confirmOverlay.querySelector('#room-exit-title').textContent = action === 'transfer_host' ? s.transferTitle.replace('{name}', memberName(room, configuration.targetUserId))
+      : action === 'recover_host' ? s.recoverTitle : action === 'close' ? s.endTitle : s.leaveTitle;
+    confirmOverlay.querySelector('#room-exit-description').textContent = action === 'transfer_host' ? s.transferDescription
+      : action === 'recover_host' ? s.recoverDescription : action === 'close' ? s.endDescription : roomRole(room, userId) === 'passive' ? s.leaveWatching : s.leaveDescription;
+    confirmOverlay.querySelector('#room-exit-confirm').textContent = action === 'transfer_host' ? s.transferHost : action === 'recover_host' ? s.recoverHost : action === 'close' ? s.end : s.leave;
     confirmOverlay.querySelector('#room-exit-cancel').textContent = s.cancel;
     const cancel = () => { dialogs.close(confirmOverlay); confirming = null; };
     dialogs.open(confirmOverlay, {onDismiss: cancel, initialFocus: confirmOverlay.querySelector('#room-exit-cancel')});
   }
   confirmOverlay.querySelector('#room-exit-cancel').addEventListener('click', () => { dialogs.close(confirmOverlay); confirming = null; });
-  confirmOverlay.querySelector('#room-exit-confirm').addEventListener('click', () => { const action = confirming; dialogs.close(confirmOverlay); confirming = null; if (action) void sync.command(action); });
+  confirmOverlay.querySelector('#room-exit-confirm').addEventListener('click', () => { const decision = confirming; dialogs.close(confirmOverlay); confirming = null; if (decision) void sync.command(decision.action, null, decision.configuration); });
   confirmOverlay.addEventListener('click', e => { if (e.target === confirmOverlay) { dialogs.close(confirmOverlay); confirming = null; } });
   el('leave').addEventListener('click', () => confirmExit('leave'));
   el('sync').addEventListener('click', () => { void sync.sync(); });
@@ -476,7 +588,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
   window.addEventListener('focus', () => { void sync.sync(); });
   document.addEventListener('visibilitychange', () => { if (!document.hidden) void sync.sync(); });
   return {show, async prepare(configFactory, expectedRoomId) {
-    const configuration = await configFactory();
+    const configuration = {...await configFactory(), preparationProtocol: 'ready-v1'};
     await show({mode:'resume'});
     if (!open || room?.id !== expectedRoomId || room?.host_id !== userId) return;
     await sync.command('prepare', null, configuration);

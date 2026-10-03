@@ -36,6 +36,8 @@ async (page) => {
       return response.json();
     };
     export const listPracticeRatings = async () => [];
+    export const getPracticeGoal = async () => '';
+    export const savePracticeGoal = async s => s.text;
     export const submitFeedback = async () => { throw new Error('Unexpected feedback submission'); };
     export const redeemAccessCode = async () => { throw new Error('Unexpected access-code submission'); };
     export const logAccessCodeAttempt = async () => {};

@@ -15,6 +15,7 @@ import {
   GLOSSARY
 } from "./practiceData.js";
 import { hasPracticeContent, getPracticeStatements, loadPracticeContent } from "./practiceContent.js";
+import {readRoomInvite} from './roomInvite.js';
 import {
   submitFeedback,
   redeemAccessCode,
@@ -43,10 +44,39 @@ import {
 
 import {getGroupPracticeCopy, createGroupWorkflow, createGroupRoleGuide} from "./groupPracticeUI.js";
 import {GROUP_ROUND_SIZE, groupSetProgress} from './groupRound.js';
+import {createSkillFeedback} from './skillFeedbackUI.js';
+import {createPracticeGoalView, setPracticeGoalUser} from './practiceGoalUI.js';
 
 import { summarizeRatings, createProgressRadar, focusProgressRadar } from "./practiceProgress.js";
 import { createDialogManager } from "./dialogs.js";
 import { SESSION_VERSION, isResumableSession, getRoundOutcome, getOrCreateRoundId } from "./practiceSession.js";
+
+const goalViews = new Map();
+function renderPracticeLearning() {
+  const skillId = state.skillId, languageId = state.languageId;
+  if (!skillId || !languageId) return;
+  const userId = state.authUser?.id ?? null, shared = isTriadPractice();
+  for (const [id, editable, visible] of [
+    ['preparation-goal', true, true], ['active-goal', false, true],
+    ['rating-goal', true, getTargetUserId(state.roundTarget) === userId]
+  ]) {
+    const host = document.getElementById(id), key = JSON.stringify([userId, languageId, skillId, shared, editable, visible]);
+    if (goalViews.get(id)?.key === key) continue;
+    goalViews.get(id)?.view.destroy(); host.replaceChildren();
+    if (!visible) { goalViews.delete(id); continue; }
+    const view = createPracticeGoalView({userId, languageId, skillId, shared, editable, id:`${id}-view`, signIn: showAccountPanel});
+    host.append(view.element); goalViews.set(id, {key, view});
+  }
+  for (const [id, visible, audience] of [
+    ['local-feedback-reference', !shared, 'self'],
+    ['rating-feedback-reference', getRatingStatementIds().length > 0, getActiveRatingSource()]
+  ]) {
+    const host = document.getElementById(id), key = `${languageId}:${skillId}:${visible}:${audience}`;
+    if (host.dataset.skill === key) continue;
+    host.hidden = !visible;
+    host.replaceChildren(...(visible ? [createSkillFeedback({skillId, language:languageId, id:`${id}-guide`, audience})] : [])); host.dataset.skill = key;
+  }
+}
 
 const dialogs = createDialogManager();
 let roomView = null;
@@ -1597,6 +1627,8 @@ function hideAccountPanel() {
 }
 
 function renderAuthUI() {
+  setPracticeGoalUser(state.authUser?.id);
+  renderPracticeLearning();
   roomView?.authChanged();
   if (roomSelection && roomSelection.userId !== state.authUser?.id) roomSelection = null;
   renderGroupEntry();
@@ -2852,11 +2884,14 @@ function renderTriadProtocolUI() {
       const focus = document.createElement('aside'); focus.className = 'individual-guide'; focus.textContent = skill.practiceFocus;
       const cards = ['client','therapist','observer'].map(role => {
         const roleKey = `${awareness}:${role}`;
-        return createGroupRoleGuide({language: state.languageId, awareness, role, id: `shared-your-part-${role}`,
+        const card = createGroupRoleGuide({language: state.languageId, awareness, role, id: `shared-your-part-${role}`,
           roleLabel: role === 'client' && awareness ? strings.selfAwarenessReaderRole : strings[`triadRole${role[0].toUpperCase()}${role.slice(1)}`],
           open: sharedRoleGuideOpen.get(roleKey) ?? false, focus: skill.practiceFocus,
           example: state.currentStatement.suggestion, examplePrefix: 'shared',
           onToggle: expanded => sharedRoleGuideOpen.set(roleKey, expanded)});
+        if (role === 'observer') card.querySelector('.room-role-guide-body').append(
+          createSkillFeedback({skillId:state.skillId, language:state.languageId, id:'shared-feedback-reference'}));
+        return card;
       });
       container.replaceChildren(focus, guide, ...cards);
     }
@@ -2871,6 +2906,7 @@ function focusTriadPhase() {
 }
 
 function showCaseBrief() {
+  renderPracticeLearning();
   state.view = "brief";
   if (elements.caseBriefScreen) {
     elements.caseBriefScreen.classList.remove("is-hidden");
@@ -3007,6 +3043,7 @@ function hydratePracticeView() {
 }
 
 function renderActiveStatement() {
+  renderPracticeLearning();
   const strings = getUIStrings();
   const statements = getActiveStatements();
   if (!statements.length) {
@@ -3184,6 +3221,7 @@ function updateRatingPanel() {
     return;
   }
   const strings = getUIStrings();
+  renderPracticeLearning();
   const target = getRoundRatingTarget();
   const statementIds = getRatingStatementIds();
   const hasRating = Boolean(target && statementIds.length && !state.ratingSaved);
@@ -4158,8 +4196,10 @@ function initialize() {
   updateFeedbackAvailability();
   renderAuthUI();
   registerEventListeners();
-  const inviteCode = new URLSearchParams(window.location.search).get('room')?.replace(/[^a-z0-9]/gi, '').toUpperCase();
-  initializeAuth().then(() => { if (inviteCode && /^[A-Z0-9]{12}$/.test(inviteCode)) void openSharedRoom('join', {code:inviteCode}); });
+  let inviteStorage;
+  try { inviteStorage = localStorage; } catch { /* Invitations still work from their URL. */ }
+  const inviteCode = readRoomInvite(window.location.href, inviteStorage);
+  initializeAuth().then(() => { if (inviteCode) void openSharedRoom('join', {code:inviteCode}); });
   if (state.languageId) renderSkillOptions();
   showSection(state.languageId ? "skill" : "language");
 }

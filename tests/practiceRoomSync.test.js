@@ -1,8 +1,25 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {createRoomSync, roomRole, roomEveryoneReady, missingRoomRoles} from '../src/js/practiceRoomSync.js';
+import {createRoomSync, roomRole, roomEveryoneReady, missingRoomRoles, roomCanStart, waitingRoomReadiness} from '../src/js/practiceRoomSync.js';
 const room = version => ({id: 'room', version, observer_id: 'o', therapist_id: 't', client_id: 'c'});
 const wait = () => new Promise(resolve => setTimeout(resolve, 0));
+test('new group preparation needs human readiness as well as synchronized devices', () => {
+  const r = {...room(4), phase:'lobby', readiness_required:true, ready_ids:[], member_ids:['o','t','c','p'],
+    presence:Object.fromEntries(['o','t','c'].map(id=>[id,{connected:true,acknowledged_version:4}]))};
+  assert.equal(roomEveryoneReady(r),true); assert.equal(roomCanStart(r),false);
+  assert.deepEqual(waitingRoomReadiness(r),['client','therapist']);
+  r.ready_ids=['c','t']; assert.equal(roomCanStart(r),true);
+  r.presence.c.connected=false; assert.equal(roomCanStart(r),false);
+});
+
+test('the therapist starts a pair; only the client confirms readiness separately', () => {
+  const r={...room(4),observer_id:null,phase:'lobby',readiness_required:true,ready_ids:['c'],member_ids:['t','c'],
+    presence:{t:{connected:true,acknowledged_version:4},c:{connected:true,acknowledged_version:4}}};
+  assert.equal(roomCanStart(r),true);
+  r.member_ids.push('p'); assert.equal(roomCanStart(r),false,'A third member needs an observer before the round starts');
+  r.readiness_required=false;r.member_ids.pop();r.ready_ids=[];
+  assert.equal(roomCanStart(r),true,'Legacy rooms remain usable until preparation is upgraded');
+});
 function fixture(options = {}) {
   let server = room(0), pending = null, changes = [], commands = [];
   const controller = createRoomSync({
@@ -15,6 +32,22 @@ function fixture(options = {}) {
   });
   return {controller, commands, changes, server: value => { server = value; }, pending: () => pending};
 }
+
+test('an uncertain readiness or transfer command replays the same configuration and receipt', async () => {
+  for(const [action,configuration] of [['ready',{preparationId:'prepared-round'}],['transfer_host',{targetUserId:'c'}],['recover_host',null]]) {
+    const calls=[];let lost=true;
+    const f=fixture({rpc:async(name,args)=>{
+      if(name==='sync_practice_room')return room(lost?0:1);
+      calls.push({name,args});if(lost){lost=false;throw new TypeError('Response lost after commit');}return room(1);
+    }});
+    try {
+      await f.controller.start(room(0));await f.controller.command(action,null,configuration);await wait();
+      assert.ok(f.pending());await f.controller.command(action,null,configuration);
+      assert.equal(calls[0].name,'manage_practice_room');assert.equal(calls[0].args.input_command_id,calls[1].args.input_command_id);
+      assert.deepEqual(calls[1].args.input_config,configuration);assert.equal(f.pending(),null);
+    } finally {f.controller.stop();}
+  }
+});
 
 test('roles and readiness require three current acknowledgements', () => {
   const r = {...room(3), presence: {o: {connected: true, acknowledged_version: 3},

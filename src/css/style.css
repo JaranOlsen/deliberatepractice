@@ -2101,6 +2101,19 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 .room-members { display: grid; gap: 0; margin: .75rem 0; }
 .room-members li { border: 0; border-radius: .5rem; padding: .55rem; line-height: 1.45; }
 .room-members li.is-ready { background: #edf5ef; margin: .15rem 0; }
+.room-role-summary { border: 1px solid var(--color-border); border-radius: .75rem; padding: .75rem; }
+.room-role-summary h3 { font-size: .85rem; color: var(--color-muted); margin: 0 0 .5rem; }
+.room-role-summary ul { list-style: none; padding: 0; margin: 0; display: grid; gap: .5rem; }
+.room-role-summary li { display: flex; justify-content: space-between; align-items: center; gap: .5rem; min-width: 0; }
+.room-seat-identity { min-width: 0; overflow-wrap: anywhere; }
+.room-seat-identity strong, .room-seat-identity > span { display: block; font-size: .85rem; line-height: 1.45; }
+.room-seat-identity > span { color: var(--color-muted); }
+.room-seat-status { font-size: .75rem; color: var(--color-muted); max-width: 45%; overflow-wrap: anywhere; text-align: right; }
+.room-role-summary .is-ready .room-seat-status { color: var(--card-accent-strong); font-weight: 650; }
+.room-host-recovery { padding: .75rem; border: 1px solid var(--color-border); border-radius: .75rem; }
+.room-host-recovery p { margin: 0 0 .5rem; font-size: .85rem; }
+.room-host-recovery button { min-height: 44px; width: 100%; }
+#room-transfer-form { margin: .75rem 0; }
 .room-exit-actions { display: grid; gap: .5rem; margin: .75rem 0; }
 .room-exit-actions button { min-height: 48px; }
 #room-end, #room-leave { color: #8a3830; border-color: #dbc2bd; }
@@ -2122,7 +2135,7 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 .room-statement { font-size: 1.1rem; margin: 1rem 0; }
 .room-actions { margin: .5rem 0 0; }
 .room-actions button, #room-choose, #room-save { min-height: 48px; }
-#room-next, #room-save, #room-done, #room-rotate, #room-retry, .room-actions > #room-choose { flex: 1; }
+#room-next, #room-save, #room-done, #room-rotate, #room-retry, #room-ready, .room-actions > #room-choose { flex: 1; }
 #room-rating-form { margin-top: .75rem; }
 #room-rating-form p { margin: 0; }
 .room-panel[data-phase="round_debrief"] #room-content > p { margin: .5rem 0; }
@@ -2139,7 +2152,7 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
   .room-actions { position: fixed; bottom: 0; left: 0; right: 0; z-index: 20; background: var(--card-accent-faint);
     border-top: 1px solid color-mix(in srgb, var(--card-accent), white 68%); padding: .65rem .9rem max(.65rem, env(safe-area-inset-bottom)); gap: .5rem; }
   .room-actions > button { width: auto; }
-  #room-next, #room-save, #room-done, #room-rotate, #room-retry { flex: 1 1 0; font-size: .9rem; }
+  #room-next, #room-save, #room-done, #room-rotate, #room-retry, #room-ready { flex: 1 1 0; font-size: .9rem; }
   #room-another { flex: 0 1 auto; }
   .room-actions:has(#room-save:not([hidden])) { display: grid; grid-template-columns: 1fr; }
   .room-actions:has(#room-save:not([hidden])) #room-rotate { min-height: 44px; padding: .45rem; box-shadow: none; border-color: transparent; }
@@ -2201,6 +2214,26 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 .room-panel .triad-role-badge { background: var(--card-accent-soft); color: var(--card-accent-strong); }
 .room-panel .room-details { border-color: color-mix(in srgb, var(--card-accent), white 72%); background: var(--card-accent-faint); }
 .room-panel .room-statement { margin: 0; }
+
+/* Optional coaching references use the existing skill/case accent. */
+.skill-feedback-guide { margin: .8rem 0; padding: .75rem .9rem; border: 1px solid var(--color-border); border-radius: .75rem; background: var(--card-accent-faint, #f5f8f7); }
+.skill-feedback-guide summary { min-height: 44px; display: list-item; align-content: center; font-weight: 650; cursor: pointer; }
+.skill-feedback-guide ul { padding-left: 1.25rem; margin: .75rem 0; line-height: 1.6; }
+.skill-feedback-anchors { margin: .75rem 0; display: grid; gap: .75rem; }
+.skill-feedback-anchors dt { font-weight: 650; font-size: .85rem; }
+.skill-feedback-anchors dd { margin: .25rem 0 0; line-height: 1.6; font-size: .9rem; }
+.practice-goal { margin: .75rem 0; padding: .75rem .9rem; border-left: 3px solid var(--card-accent, #547c70); border-radius: .5rem; background: var(--card-accent-faint, #f5f8f7); overflow-wrap: anywhere; }
+.practice-goal-header { display: flex; gap: .5rem; align-items: center; justify-content: space-between; }
+.practice-goal-header strong { font-size: .85rem; }
+.practice-goal-text { margin: .35rem 0 0; line-height: 1.5; }
+.practice-goal label { display: block; margin: .5rem 0; font-size: .85rem; }
+.practice-goal textarea { box-sizing: border-box; width: 100%; min-width: 0; font: inherit; padding: .65rem; resize: vertical; border: 1px solid var(--color-border); border-radius: .5rem; }
+.practice-goal-actions { display: flex; flex-wrap: wrap; gap: .5rem; }
+.practice-goal button { min-height: 44px; padding: .5rem .75rem; font-size: .85rem; white-space: normal; }
+.practice-goal .response-hint { margin: .4rem 0; }
+.practice-goal .response-hint:empty { display: none; }
+.practice-goal details > summary { min-height: 44px; align-content: center; cursor: pointer; font-weight: 650; }
+.practice-goal details .practice-goal-header > strong { display: none; }
 .triad-debrief summary { min-height: 44px; padding: .6rem 0; cursor: pointer; color: var(--card-accent-strong); font-weight: 650; }
 .room-panel[data-phase="round_debrief"] #room-content { padding: 1rem; border-radius: 12px;
   border: 1px solid color-mix(in srgb, var(--card-accent), white 58%); background: linear-gradient(155deg, #fff, color-mix(in srgb, var(--card-accent-soft), white 50%)); }

@@ -21,7 +21,7 @@ try {
   for (const name of (await readdir(new URL('supabase/migrations/', root))).sort()) {
     await db.exec(await read('supabase/migrations/' + name));
   }
-  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql']) {
+  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql', 'check-practice-goals.sql']) {
     await db.exec(await read('scripts/' + name));
     console.log('PASS ' + name);
   }
@@ -37,7 +37,8 @@ try {
       create_practice_room: ['input_config','input_room_id'], join_practice_room: ['input_code','input_role'],
       prepare_practice_room: ['input_room_id','input_command_id','input_expected_version','input_config'],
       sync_practice_room: ['input_room_id','input_acknowledged_version'],
-      command_practice_room: ['input_room_id','input_command_id','input_expected_version','input_action','input_score']
+      command_practice_room: ['input_room_id','input_command_id','input_expected_version','input_action','input_score'],
+      manage_practice_room: ['input_room_id','input_command_id','input_expected_version','input_action','input_config']
     };
     let queue = Promise.resolve();
     const server = createServer((req, res) => {
@@ -46,6 +47,40 @@ try {
       if (req.url === '/ratings') {
         queue = queue.then(async () => reply(200, (await db.query('select * from public.practice_ratings order by created_at,id')).rows));
         return;
+      }
+      if (req.url === '/goal' && req.method === 'POST') {
+        let body=''; req.on('data',chunk=>{body+=chunk;}); req.on('end',()=>{
+          queue=queue.then(async()=>{
+            try {
+              const {user,targetUserId=user,languageId,skillId,action,text}=JSON.parse(body);
+              if(!Object.values(users).includes(user)||!['read','save'].includes(action)) throw new Error('Not a goal fixture request');
+              await db.exec('begin');
+              await db.query("select set_config('request.jwt.claim.sub',$1,true)",[user]);
+              await db.exec('set local role authenticated');
+              let value='';
+              if(action==='read')value=(await db.query('select goal_text from public.practice_goals where user_id=$1 and language_id=$2 and skill_id=$3',[targetUserId,languageId,skillId])).rows[0]?.goal_text??'';
+              else if(text){
+                await db.query('insert into public.practice_goals(user_id,language_id,skill_id,goal_text) values($1,$2,$3,$4) on conflict(user_id,language_id,skill_id) do update set goal_text=excluded.goal_text',[targetUserId,languageId,skillId,text]);value=text;
+              } else await db.query('delete from public.practice_goals where user_id=$1 and language_id=$2 and skill_id=$3',[targetUserId,languageId,skillId]);
+              await db.exec('commit');reply(200,{text:value});
+            }catch(error){await db.exec('rollback');reply(400,{message:error.message});}
+          });
+        });return;
+      }
+      // Only the isolated fixture database: simulate a host absence without a five-minute browser wait.
+      if (req.url === '/host-away' && req.method === 'POST') {
+        let body='';req.on('data',chunk=>{body+=chunk;});req.on('end',()=>{
+          queue=queue.then(async()=>{
+            try {
+              const {roomId}=JSON.parse(body);
+              const found=await db.query('select host_id from public.practice_rooms where id=$1',[roomId]);
+              if(!Object.values(users).includes(found.rows[0]?.host_id))throw new Error('Not a browser fixture room');
+              await db.query("update public.practice_rooms set created_at=now()-interval '10 minutes' where id=$1",[roomId]);
+              await db.query("update dp_private.room_presence set seen_at=now()-interval '6 minutes' where room_id=$1 and user_id=$2",[roomId,found.rows[0].host_id]);
+              reply(200,{ok:true});
+            } catch(error){reply(400,{message:error.message});}
+          });
+        });return;
       }
       if (req.url !== '/rpc' || req.method !== 'POST') return reply(404, {});
       let body = '';
