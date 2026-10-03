@@ -31,10 +31,11 @@ async (page) => {
   try {
     await page.evaluate(() => localStorage.clear());
     await page.reload();
-    await page.locator('[data-language-id="en"]').waitFor();
+    await page.locator('#practice-home').waitFor();
     await page.locator('input[name="practice-mode"][value="individual"]').check();
     await page.waitForLoadState('networkidle');
     assert(requests.length === 0, 'Opening the app must not download exercise files');
+    await click('home-library');
     await page.locator('[data-language-id="en"]').click();
     assert(requests.length === 0, 'Choosing a language must not download all its exercises');
     hold = true;
@@ -76,7 +77,9 @@ async (page) => {
     assert((await saved()).roundId === paused.roundId && (await saved()).index === 1, 'Successful retry must restore the same paused round');
     await click('back-to-cases'); await click('pause-round');
     await click('back-to-skills'); await click('back-to-language');
+    await click('home-language');
     await page.locator('[data-language-id="no"]').click();
+    await click('home-library');
     await page.locator('[data-skill-id="empathic-understanding"]').click();
     await page.locator('[data-case-id="case-sara"]').click();
     await click('start-practice');
@@ -106,7 +109,7 @@ async (page) => {
     hold = true;
     const staleStarted = new Promise(resolve => { started = resolve; });
     await click('resume-button'); await staleStarted;
-    await click('back-to-language');
+    await click('home-language');
     release(); hold = false;
     await page.waitForLoadState('networkidle');
     assert(await page.locator('#language-selection').isVisible(), 'Late resume downloads must not override navigation');

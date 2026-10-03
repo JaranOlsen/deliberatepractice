@@ -167,6 +167,14 @@
   },
   "LANGUAGE_UI": {
     "en": {
+      "homeTitle": "Your practice",
+      "homeLibrary": "Browse library",
+      "homeLanguage": "Language",
+      "homeChangeLanguage": "Change practice language",
+      "homeBack": "Home",
+      "homeBackAria": "Back to practice home",
+      "homeGroup": "Group",
+      "homeShared": "Shared device",
       "accountLoading": "Loading account…",
       "contentLoading": "Loading practice…",
       "contentUnavailable": "Practice unavailable",
@@ -577,6 +585,14 @@
       "difficultyHard": "Hard"
     },
     "no": {
+      "homeTitle": "Din øving",
+      "homeLibrary": "Utforsk biblioteket",
+      "homeLanguage": "Språk",
+      "homeChangeLanguage": "Endre øvingsspråk",
+      "homeBack": "Hjem",
+      "homeBackAria": "Tilbake til øvingsoversikten",
+      "homeGroup": "Gruppe",
+      "homeShared": "Felles enhet",
       "accountLoading": "Laster konto…",
       "contentLoading": "Laster øving…",
       "contentUnavailable": "Øving utilgjengelig",

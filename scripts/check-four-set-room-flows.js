@@ -101,6 +101,14 @@ async (page) => {
   };
   const ratings=async()=> (await page.request.get('http://127.0.0.1:5199/ratings')).json();
   const existingRatings=new Set((await ratings()).map(r=>r.id));
+  const largeTextFits=async stage=>{
+    for(const p of pages){
+      await p.evaluate(()=>document.documentElement.style.fontSize='200%');
+      const layout=await p.evaluate(()=>({width:document.documentElement.scrollWidth,viewport:innerWidth,overflow:[...document.querySelectorAll('body *')].filter(e=>e.getBoundingClientRect().width&&e.getBoundingClientRect().right>innerWidth+1).slice(0,10).map(e=>({id:e.id,class:e.className,parent:e.parentElement?.className}))}));
+      assert(layout.width<=layout.viewport,stage+' fits 320px at 200% text: '+JSON.stringify(layout));
+      await p.evaluate(()=>document.documentElement.style.fontSize='');
+    }
+  };
   try {
     await click(o,'group-create');await o.locator('#room-host-options summary').click();
     await o.locator('#room-host-role').selectOption('observer');await click(o,'room-create');
@@ -139,6 +147,7 @@ async (page) => {
     assert(await o.locator('#room-ready').isHidden()&&await watcher.locator('#room-ready').isHidden(),'Observer starts; watching participants need no readiness tap');
     await o.screenshot({path:'output/playwright/room-readiness-observer-320.png',fullPage:true});
     await c.screenshot({path:'output/playwright/room-readiness-client-320.png',fullPage:true});
+    await largeTextFits('Preparation for every role');
     readyRace=true;await confirmReadiness();
     assert(readyResults.length===2&&readyResults.every(r=>r.ok)&&readyResults[0].version===readyResults[1].version,'Both readiness taps from the same version succeed');
     await ready(o,'room-next');await click(o,'room-next');await sync();
@@ -150,6 +159,7 @@ async (page) => {
         assert(await t.locator('#room-next').isHidden()&&await c.locator('#room-next').isHidden()&&await watcher.locator('#room-next').isHidden(),'Only observer advances');
         if(set===0&&i===0) {
           for(const p of pages)assert(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Role screens fit 320px');
+          await largeTextFits('Active item for every role');
           await o.screenshot({path:'output/playwright/four-sets-observer-320.png',fullPage:true});
           await c.screenshot({path:'output/playwright/four-sets-client-320.png',fullPage:true});
         }
@@ -166,6 +176,7 @@ async (page) => {
         await sync();
       }
       stage=`rating set ${set+1}`;
+      if(set===0)await largeTextFits('Rating checkpoint for every role');
       assert(await o.locator('#room-feedback-reference').count()===1,'Active observer retains guidance at the checkpoint');
       for(const p of [t,c,watcher])assert(await p.locator('#room-content .skill-feedback-guide').count()===0,'Only the active observer has rating guidance at a larger-group checkpoint');
       assert(room.phase==='round_debrief'&&room.item_index===set*3+2,'Each third item pauses for rating: '+JSON.stringify({set,phase:room.phase,index:room.item_index,completed:room.completed_ids.length}));
@@ -179,7 +190,11 @@ async (page) => {
       assert(rating.source==='observer'&&rating.item_count===(set===1?2:3),'Observer rating has correct source and count');
       assert(JSON.stringify(rating.completed_statement_ids)===JSON.stringify(order.slice(set*3,set*3+3).filter((_,i)=>!(set===1&&i===1))),'Rating IDs exclude prior sets and passes');
       if(set===1) {
-        await o.reload();await o.waitForFunction(()=>document.querySelector('#account-button').textContent==='Account');await click(o,'group-resume');await o.locator('#room-score').waitFor();await sync();
+        await o.reload();await o.waitForFunction(()=>document.querySelector('#account-button').textContent==='Account');
+        await o.locator('input[name=practice-mode][value=individual]').check();
+        assert(await o.locator('#group-resume').isVisible(),'Saved room recovery is available even with individual format selected');
+        assert(await o.locator('#last-setup-card').isHidden(),'Saved room takes priority over repeat material');
+        await click(o,'group-resume');await o.locator('#room-score').waitFor();await sync();
         assert((await o.locator('#room-score').inputValue())==='4','Reconnect retains the saved set score');
         assert(await o.locator('#room-save').isHidden(),'Reconnect does not prompt a duplicate rating');
       }

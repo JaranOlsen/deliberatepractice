@@ -82,6 +82,7 @@ function renderPracticeLearning() {
 const dialogs = createDialogManager();
 let roomView = null;
 let roomSelection = null;
+let languageDestination = 'home';
 async function selectedRoomConfig() {
   const skill = getCurrentSkill(), caseData = getCurrentCase(), languageId = state.languageId;
   if (!caseData || isCaseLocked(caseData)) throw new Error('Choose an available case first');
@@ -97,7 +98,7 @@ async function openSharedRoom(mode = "hub", {selectedCase = false, code = null} 
     const {createPracticeRoomView} = await import('./practiceRoom.js');
     roomView = createPracticeRoomView({dialogs,
       onOpen: () => { roomSelection = null; showSection("room"); },
-      onClose: () => { roomSelection = null; showSection(state.languageId ? "skill" : "language"); },
+      onClose: () => { roomSelection = null; showSection("home"); },
       onChoose: room => {
         roomSelection = {id: room.id, code: room.code, userId: state.authUser.id};
         state.practiceMode = PRACTICE_MODES.GROUP;
@@ -106,6 +107,9 @@ async function openSharedRoom(mode = "hub", {selectedCase = false, code = null} 
       },
       getUser: () => state.authUser, getLanguage: () => state.languageId ?? 'en', localizeSkill,
       getStrings: getUIStrings, signIn: showAccountPanel,
+      onMaterialChange: room => {
+        writeJsonStorage(LAST_SETUP_STORAGE_KEY, {languageId:room.language_id, skillId:room.skill_id, caseId:room.case_id, practiceMode:PRACTICE_MODES.GROUP});
+      },
       applyTheme: (element, skillId, difficulty) => applyVisualProperties(element, getCaseVisual(skillId, difficulty)),
       onProgressChange: ({source}) => {
         state.progressSource = source;
@@ -136,16 +140,18 @@ async function prepareSelectedRoom() {
 function renderGroupEntry() {
   const no = state.languageId === 'no', section = document.body.dataset.section;
   const roomId = state.authUser && readJsonStorage(`dp_shared_room:${state.authUser.id}`);
-  document.getElementById('group-entry').hidden = !!roomSelection || !['language','skill'].includes(section) || state.sessionActive;
+  document.getElementById('group-entry').hidden = !!roomSelection || section !== 'home' || state.sessionActive;
   document.getElementById('group-entry-title').textContent = no ? 'Velg hvordan du vil øve' : 'Choose how to practice';
   const group = state.practiceMode === PRACTICE_MODES.GROUP;
-  document.getElementById('group-room-actions').hidden = !group;
+  document.getElementById('group-room-actions').hidden = !group && !roomId;
+  document.getElementById('group-create').hidden = !group;
+  document.getElementById('group-join').hidden = !group;
   renderPracticeFormatUI();
   elements.practiceModeIndividual.textContent = no ? 'Individuelt' : 'Individual';
   elements.practiceModeIndividualDescription.textContent = no ? 'Øv i ditt eget tempo.' : 'Practice at your own pace.';
   elements.practiceModeTriad.textContent = no ? 'Gruppe' : 'Group';
   elements.practiceModeTriadDescription.textContent = no ? 'To eller flere, på hver deres enhet.' : 'Two or more, on your own devices.';
-  document.getElementById('group-entry-note').textContent = !group ? (state.practiceMode === PRACTICE_MODES.TRIAD ? (no ? 'Velg roller, ferdighet og kasus. Behold rollene i tolv utsagn på én enhet.' : 'Choose roles, skill and case. Keep roles for twelve items on one device.') : (no ? 'Velg en ferdighet og et kasus for å komme i gang.' : 'Choose a skill and case to get started.')) : roomId ? (no ? 'Gå tilbake til rommet for å fortsette. Et nytt rom starter en egen økt.' : 'Return to your room to continue. A new room starts a separate session.') : no ? 'Opprett et rom, inviter gruppen og velg hva dere vil øve på.' : 'Create a room, invite your group, then choose what to practice.';
+  document.getElementById('group-entry-note').textContent = roomId ? (no ? 'Gå tilbake til rommet for å fortsette.' : 'Return to your room to continue.') : !group ? (state.practiceMode === PRACTICE_MODES.TRIAD ? (no ? 'Velg roller, ferdighet og kasus. Behold rollene i tolv utsagn på én enhet.' : 'Choose roles, skill and case. Keep roles for twelve items on one device.') : (no ? 'Velg en ferdighet og et kasus.' : 'Choose a skill and case.')) : no ? 'Inviter gruppen og velg hva dere vil øve på.' : 'Invite your group, then choose what to practice.';
   document.getElementById('group-create').textContent = no ? 'Opprett rom' : 'Create room';
   document.getElementById('group-join').textContent = no ? 'Bli med med kode' : 'Join with a code';
   document.getElementById('group-resume').textContent = no ? 'Tilbake til rommet' : 'Return to room';
@@ -153,9 +159,25 @@ function renderGroupEntry() {
   document.getElementById('group-selection-context').hidden = !roomSelection || section === 'room';
   document.getElementById('group-selection-note').textContent = no ? 'Du velger hva gruppen skal øve på.' : 'You’re choosing practice for your group.';
   document.getElementById('group-selection-return').textContent = no ? 'Tilbake til rommet' : 'Return to room';
+  const strings = getUIStrings();
+  document.getElementById('home-title').textContent = strings.homeTitle;
+  document.getElementById('home-library').textContent = strings.homeLibrary;
+  document.getElementById('home-library').className = group ? 'ghost-button' : 'primary-button';
+  document.getElementById('home-progress').textContent = strings.selfChartTitle;
+  const languageButton = document.getElementById('home-language');
+  languageButton.textContent = state.languageId ? LANGUAGE_METADATA[state.languageId].label : strings.homeLanguage;
+  languageButton.setAttribute('aria-label', strings.homeChangeLanguage);
+  document.getElementById('language-home').textContent = `← ${strings.homeBack}`;
+  document.getElementById('language-home').hidden = !!roomSelection;
+  if (!roomSelection) {
+    elements.languageBackButton.textContent = `← ${strings.homeBack}`;
+    elements.languageBackButton.setAttribute('aria-label', strings.homeBackAria);
+  }
+  renderLastPracticeSetup();
 }
 
 const sections = {
+  home: document.getElementById("practice-home"),
   language: document.getElementById("language-selection"),
   skill: document.getElementById("skill-selection"),
   case: document.getElementById("case-selection"),
@@ -880,29 +902,31 @@ function getSessionResumeDetails(session) {
 
 function getLastPracticeSetup() {
   const saved = readJsonStorage(LAST_SETUP_STORAGE_KEY);
-  if (!saved || !state.languageId) return null;
-  const skill = localizeSkill(state.languageId, saved.skillId);
+  const languageId = state.languageId ?? saved?.languageId;
+  if (!saved || !LANGUAGE_METADATA[languageId]) return null;
+  const skill = localizeSkill(languageId, saved.skillId);
   const caseData = skill?.cases.find((item) => item.id === saved.caseId);
-  return caseData ? { skill, caseData, practiceMode: normalizePracticeMode(saved.practiceMode) } : null;
+  return caseData ? { skill, caseData, languageId } : null;
 }
 
 function renderLastPracticeSetup() {
   const setup = getLastPracticeSetup();
   const card = releaseElements["last-setup-card"];
-  card.hidden = !setup || Boolean(getSessionResumeDetails(state.resumeSession));
+  const roomId = state.authUser && readJsonStorage(`dp_shared_room:${state.authUser.id}`);
+  card.hidden = !setup || Boolean(getSessionResumeDetails(state.resumeSession)) || Boolean(roomId) || document.body.dataset.section !== 'home';
   if (card.hidden) return;
   const strings = getUIStrings();
   releaseElements["last-setup-title"].textContent = strings.lastSetupTitle;
   releaseElements["last-setup-details"].textContent = [setup.skill.name, setup.caseData.label,
-    setup.practiceMode === PRACTICE_MODES.TRIAD ? strings.practiceModeTriad : strings.practiceModeIndividual
+    state.practiceMode === PRACTICE_MODES.GROUP ? strings.homeGroup : state.practiceMode === PRACTICE_MODES.TRIAD ? strings.homeShared : strings.practiceModeIndividual
   ].filter(Boolean).join(" · ");
   releaseElements["repeat-last-setup"].textContent = strings.repeatLastSetup;
 }
 
 function repeatLastPracticeSetup() {
   const setup = getLastPracticeSetup();
-  if (!setup || getSessionResumeDetails(state.resumeSession)) return;
-  state.practiceMode = setup.practiceMode;
+  if (!setup || state.sessionActive || state.ratingVisible || getSessionResumeDetails(state.resumeSession)) return;
+  if (!state.languageId) handleLanguageSelection(setup.languageId);
   handleSkillSelection(setup.skill.id);
   handleCaseSelection(setup.caseData.id);
 }
@@ -1612,7 +1636,7 @@ function renderAuthUI() {
   if (roomSelection && roomSelection.userId !== state.authUser?.id) roomSelection = null;
   renderGroupEntry();
   document.getElementById("join-shared-room").disabled = state.sessionActive || state.ratingVisible;
-  document.getElementById("join-shared-room").hidden = document.body.dataset.section === "room";
+  document.getElementById("join-shared-room").hidden = ['room','home'].includes(document.body.dataset.section);
   document.getElementById("join-shared-room").textContent = state.languageId === "no" ? "Gruppe" : "Group";
   const strings = getUIStrings();
   const signedIn = Boolean(state.authUser);
@@ -2036,7 +2060,7 @@ function getCurrentCase() {
 
 function showSection(sectionKey) {
   if (sectionKey !== "room") roomView?.hide();
-  if (sectionKey === "skill" || sectionKey === "language") cancelContentLoad();
+  if (['home','skill','language'].includes(sectionKey)) cancelContentLoad();
   Object.entries(sections).forEach(([key, el]) => {
     const shouldShow = key === sectionKey;
     el.classList.toggle("is-hidden", !shouldShow);
@@ -2401,7 +2425,7 @@ function renderLanguageOptions() {
       <span class="card-title">${metadata.label}</span>
       <span class="card-body">${metadata.locale}</span>
     `;
-    button.addEventListener("click", () => handleLanguageSelection(languageId));
+    button.addEventListener("click", () => handleLanguageSelection(languageId, {destination:roomSelection ? 'skill' : languageDestination}));
     elements.languageList.appendChild(button);
     languageButtonMap.set(languageId, button);
   });
@@ -2916,7 +2940,7 @@ function showStatements() {
     state.roundTarget = normalizePracticeTarget(getActiveTarget());
     state.roundRaterId = state.authUser?.id ?? null;
     writeJsonStorage(LAST_SETUP_STORAGE_KEY, {
-      skillId: state.skillId, caseId: state.caseId, practiceMode: state.practiceMode
+      languageId: state.languageId, skillId: state.skillId, caseId: state.caseId, practiceMode: state.practiceMode
     });
   }
   state.view = "statements";
@@ -3738,7 +3762,7 @@ async function handleAccountUnlockSubmit(event) {
   });
 }
 
-function handleLanguageSelection(languageId) {
+function handleLanguageSelection(languageId, {destination = 'skill'} = {}) {
   state.sessionActive = false;
   state.roundTarget = null;
   state.roundRaterId = null;
@@ -3769,7 +3793,7 @@ function handleLanguageSelection(languageId) {
   resetSuggestionVisibility();
   updateFeedbackAvailability();
   savePracticeSession();
-  showSection("skill");
+  showSection(destination);
 }
 
 function handleSkillSelection(skillId) {
@@ -3942,6 +3966,13 @@ function handleBackNavigation(targetKey) {
 }
 
 function registerEventListeners() {
+  document.getElementById('home-language').addEventListener('click', () => { languageDestination = 'home'; showSection('language'); });
+  document.getElementById('language-home').addEventListener('click', () => showSection('home'));
+  document.getElementById('home-library').addEventListener('click', () => {
+    if (state.languageId) { renderSkillOptions(); showSection('skill'); }
+    else { languageDestination = 'skill'; showSection('language'); }
+  });
+  document.getElementById('home-progress').addEventListener('click', showProgressPanel);
   document.getElementById("shared-device").addEventListener("change", () => { handlePracticeModeChange({target: document.querySelector('input[name="practice-mode"][value="group"]')}); });
   document.getElementById('group-create').addEventListener('click', () => { void openSharedRoom('create'); });
   document.getElementById('group-join').addEventListener('click', () => { void openSharedRoom('join'); });
@@ -4035,7 +4066,10 @@ function registerEventListeners() {
   }
 
   if (elements.languageBackButton) {
-    elements.languageBackButton.addEventListener("click", () => handleBackNavigation("language"));
+    elements.languageBackButton.addEventListener("click", () => {
+      if (roomSelection) handleBackNavigation('language');
+      else showSection('home');
+    });
   }
   if (elements.skillsBackButton) {
     elements.skillsBackButton.addEventListener("click", () => handleBackNavigation("skill"));
@@ -4183,7 +4217,7 @@ function initialize() {
   const inviteCode = readRoomInvite(window.location.href, inviteStorage);
   initializeAuth().then(() => { if (inviteCode) void openSharedRoom('join', {code:inviteCode}); });
   if (state.languageId) renderSkillOptions();
-  showSection(state.languageId ? "skill" : "language");
+  showSection("home");
 }
 
 initialize();

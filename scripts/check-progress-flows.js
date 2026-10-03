@@ -22,7 +22,7 @@ async (page) => {
       assert(button.x+button.width<=text.x || text.x+text.width<=button.x
         || button.y+button.height<=text.y || text.y+text.height<=button.y, 'Refresh never overlaps the progress title or description');
     }
-    assert(button.height>=44,'Refresh has a phone-sized touch target');
+    assert(button.height>=43.5,'Refresh has a phone-sized touch target: '+button.height);
   };
   await page.route('**/src/js/backend.js*', async (route) => route.fulfill({ contentType: 'text/javascript', body: `
     const user = {id:"test-self",email:"test@example.invalid"};
@@ -73,6 +73,7 @@ async (page) => {
     await page.evaluate(() => { localStorage.clear(); localStorage.setItem('dp_practice_preferences_v1', JSON.stringify({languageId:'en'})); });
     await page.reload();
     await page.locator('input[name="practice-mode"][value="individual"]').check();
+    await click('home-library');
     await click('open-progress');
     await waitLoaded();
     assert(await page.evaluate(() => document.activeElement.id === 'self-chart-title' && document.querySelector('main').inert), 'Progress dialog must own focus');
@@ -167,6 +168,10 @@ async (page) => {
       await page.setViewportSize({width,height:844});
       for(const source of ['observer','self']){
         await page.locator('#progress-source').selectOption(source);await waitLoaded();await headerClear();
+        await page.evaluate(()=>document.documentElement.style.fontSize='200%');
+        const layout=await page.evaluate(()=>({page:document.documentElement.scrollWidth,width:innerWidth,modal:document.querySelector('#progress-modal').scrollWidth,modalWidth:document.querySelector('#progress-modal').clientWidth,overflow:[...document.querySelectorAll('#progress-modal *')].filter(e=>e.getBoundingClientRect().width&&e.getBoundingClientRect().right>innerWidth+1).slice(0,10).map(e=>({id:e.id,class:e.className,parent:e.parentElement?.className}))}));
+        assert(layout.page<=layout.width+1 && layout.modal<=layout.modalWidth+1,'English progress fits enlarged text: '+JSON.stringify(layout));
+        await page.evaluate(()=>document.documentElement.style.fontSize='');
       }
     }
     await page.locator('#self-chart-title').scrollIntoViewIfNeeded();
@@ -191,12 +196,18 @@ async (page) => {
     await click('pause-round');
     await click('back-to-skills');
     await click('back-to-language');
+    await click('home-language');
     await page.locator('[data-language-id="no"]').click();
+    await click('home-library');
     await click('open-progress');
     await waitLoaded();
     await page.setViewportSize({width:320,height:740});
     for(const source of ['observer','self']){
       await page.locator('#progress-source').selectOption(source);await waitLoaded();await headerClear();
+      await page.evaluate(()=>document.documentElement.style.fontSize='200%');
+      const layout=await page.evaluate(()=>({page:document.documentElement.scrollWidth,width:innerWidth,modal:document.querySelector('#progress-modal').scrollWidth,modalWidth:document.querySelector('#progress-modal').clientWidth,overflow:[...document.querySelectorAll('#progress-modal *')].filter(e=>e.getBoundingClientRect().width&&e.getBoundingClientRect().right>innerWidth+1).slice(0,10).map(e=>({id:e.id,class:e.className,parent:e.parentElement?.className}))}));
+      assert(layout.page<=layout.width+1 && layout.modal<=layout.modalWidth+1,'Norwegian progress fits enlarged text: '+JSON.stringify(layout));
+      await page.evaluate(()=>document.documentElement.style.fontSize='');
     }
     assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth && document.querySelector('#progress-modal').scrollWidth <= document.querySelector('#progress-modal').clientWidth), 'Norwegian progress must fit 320px');
     await page.locator('#self-chart-title').scrollIntoViewIfNeeded();

@@ -39,12 +39,13 @@ async (page) => {
     });
     await context.route('**/__rating_fixture',route=>{assert(!route.request().postData().includes(revised),'Private note excluded from rating payload');return route.fulfill({body:'{}'});});
     const p=await context.newPage();p.on('pageerror',e=>errors.push(e.message));await p.goto(url);
-    await p.locator('#skill-selection').waitFor();
+    await p.locator('#practice-home').waitFor();
     return p;
   };
   const prepare=async(p,{shared=false,skill='empathic-understanding'}={})=>{
     await p.locator(`input[name="practice-mode"][value="${shared?'group':'individual'}"]`).check();
     if(shared)await p.locator('#shared-device').check();
+    await p.locator('#home-library').click();
     await p.locator(`button[data-skill-id="${skill}"]`).click();await p.locator('[data-case-id="case-sara"]').click();
     await p.locator('#case-brief-screen').waitFor();
   };
