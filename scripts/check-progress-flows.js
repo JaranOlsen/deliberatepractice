@@ -42,6 +42,8 @@ async (page) => {
       if (!response.ok) throw new Error('Test network failure');
       return response.json();
     };
+    export const getPracticeGoal = async () => '';
+    export const savePracticeGoal = async s => s.text;
     export const listPracticeRatings = async ({source}) => {
       const response = await fetch('/__dp_test_history?source=' + source);
       if (!response.ok) throw new Error('Unavailable');

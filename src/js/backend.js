@@ -170,6 +170,25 @@ export async function listPracticeRatings({ source = "self", limit = 500 } = {})
   return Array.isArray(data) ? data : [];
 }
 
+export async function getPracticeGoal({userId, languageId, skillId}) {
+  const supabase = await getSupabaseClient();
+  const {data, error} = await supabase.from('practice_goals').select('goal_text,updated_at')
+    .eq('user_id', userId).eq('language_id', languageId).eq('skill_id', skillId).maybeSingle();
+  // Constraint/error details can contain a private note; never log them.
+  if (error) throw new Error('Unable to load practice reminder');
+  return data?.goal_text ?? '';
+}
+
+export async function savePracticeGoal({userId, languageId, skillId, text}) {
+  const supabase = await getSupabaseClient();
+  const query = text ? supabase.from('practice_goals').upsert({user_id:userId,language_id:languageId,skill_id:skillId,goal_text:text},
+    {onConflict:'user_id,language_id,skill_id'}) : supabase.from('practice_goals').delete()
+      .eq('user_id', userId).eq('language_id', languageId).eq('skill_id', skillId);
+  const {error} = await query;
+  if (error) throw new Error('Unable to save practice reminder');
+  return text;
+}
+
 /*
  * The direct REST helpers below are intentionally separate from the lazy-loaded
  * authenticated client above. Anonymous feedback and access-code redemption

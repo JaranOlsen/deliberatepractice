@@ -6,6 +6,8 @@ async (page) => {
   const users=await (await page.request.get('http://127.0.0.1:5199/users')).json();
   const contexts=[],pages=[],errors=[];
   const assert=(ok,message)=>{if(!ok)throw new Error(message);};
+  const resetGoal=await page.request.post('http://127.0.0.1:5199/goal',{data:{user:users.t,languageId:'en',skillId:'empathic-understanding',action:'save',text:''}});
+  assert(resetGoal.ok(),'Reset only the isolated therapist reminder fixture');
   let room,loseResponse=false,stage='setup',claimRace=false,readyRace=false,disconnectedUser=null;
   const claimWaiters=[],claimResults=[];
   const readyWaiters=[],readyResults=[];
@@ -21,6 +23,13 @@ async (page) => {
       export const ensureUserProfile=async()=>({id:user.id,display_name:'Test '+user.id});
       export const listPracticeTargets=async()=>[{target_user_id:user.id,target_kind:'self',display_name:'Test '+user.id}];
       export const listPracticeRatings=async()=>[];
+      const goal=async(s,action)=>{
+        const response=await fetch('/__goal_test/${user}',{method:'POST',body:JSON.stringify({...s,action})});
+        if(!response.ok)throw new Error('Goal request failed');
+        return (await response.json()).text;
+      };
+      export const getPracticeGoal=s=>goal(s,'read');
+      export const savePracticeGoal=s=>goal(s,'save');
       export const signOut=async()=>{};
       export const updateUserProfile=async()=>({});
       export const createPairingInvite=async()=>({});
@@ -60,6 +69,11 @@ async (page) => {
       if(loseResponse&&['command_practice_room','manage_practice_room'].includes(name)) {
         loseResponse=false;await route.fulfill({status:503,body:'{"message":"Response lost after commit"}'});
       } else await route.fulfill({status:response.status(),contentType:'application/json',body:JSON.stringify(data)});
+    });
+    await context.route(`**/__goal_test/${user}`,async route=>{
+      const data=JSON.parse(route.request().postData());
+      const response=await p.request.post('http://127.0.0.1:5199/goal',{data:{...data,user:users[user],targetUserId:data.userId}});
+      await route.fulfill({status:response.status(),contentType:'application/json',body:await response.text()});
     });
     await p.goto(url);await p.waitForFunction(()=>document.querySelector('#account-button').textContent==='Account');
   }
@@ -102,6 +116,21 @@ async (page) => {
     const fullRound=room.round_id, order=[...room.statement_ids], roles=[room.therapist_id,room.client_id,room.observer_id];
     assert(room.round_size===12&&new Set(order).size===12,'Preparation selects twelve unique items');
     assert((await o.locator('#room-content').textContent()).includes('4 sets of 3'),'Preparation explains the fixed-role round');
+    stage='private feedback targets';
+    const goal=t.locator('#room-next-attempt');
+    await goal.getByRole('button',{name:'Add a reminder',exact:true}).click();
+    await goal.locator('textarea').fill('Pause before the reflection.');
+    await goal.getByRole('button',{name:'Save reminder',exact:true}).click();
+    await goal.getByRole('status').filter({hasText:'Saved for your next practice.'}).waitFor();
+    assert(await c.locator('.skill-feedback-guide').count()===0,'Client preparation does not include scoring guidance');
+    for(const p of [t,watcher])assert(await p.locator('#room-content .skill-feedback-guide').count()===0,'Therapist and watching participants have no scoring reference in preparation');
+    assert(await o.locator('#room-next-attempt').count()===0&&await c.locator('#room-next-attempt').count()===0,'Private targets exist only on the therapist screen');
+    const leaked=await page.request.post('http://127.0.0.1:5199/goal',{data:{user:users.o,targetUserId:users.t,languageId:'en',skillId:'empathic-understanding',action:'read'}});
+    assert((await leaked.json()).text==='','Actual room observer cannot read therapist reminder through RLS');
+    assert(!JSON.stringify(room).includes('Pause before the reflection.'),'Reminder is excluded from room snapshots');
+    await o.locator('#room-feedback-reference > summary').click();
+    assert((await o.locator('#room-feedback-reference').textContent()).includes('3 · Adequate in parts')&&(await o.locator('#room-feedback-reference').textContent()).includes('5 · Skillfully demonstrated'),'Observer has skill-specific anchors in preparation');
+    await o.locator('#room-feedback-reference > summary').click();
     stage='human readiness';
     assert(room.readiness_required&&room.preparation_id,'New app rooms opt into human readiness');
     assert(await o.locator('#room-role-summary').isVisible()&&!(await o.locator('#room-details').evaluate(e=>e.open)),'Assignments are visible without opening People');
@@ -124,6 +153,10 @@ async (page) => {
           await o.screenshot({path:'output/playwright/four-sets-observer-320.png',fullPage:true});
           await c.screenshot({path:'output/playwright/four-sets-client-320.png',fullPage:true});
         }
+        assert((await t.locator('#room-next-attempt').textContent()).includes('Pause before the reflection.'),'Private reminder follows the therapist through every item and set');
+        assert(await t.locator('#room-next-attempt textarea').isHidden(),'Active reminder does not add an editor');
+        assert(await c.locator('.skill-feedback-guide').count()===0,'Client item screen has no scoring cues');
+        for(const p of [t,watcher])assert(await p.locator('#room-content .skill-feedback-guide').count()===0,'Only the active observer sees scoring cues during a larger group round');
         const beforeVersion=Number(await o.locator('#room-panel').getAttribute('data-version'));
         if(set===0&&i===2)loseResponse=true;
         if(set===1&&i===1){await ready(o,'room-pass');await click(o,'room-pass');}
@@ -133,6 +166,8 @@ async (page) => {
         await sync();
       }
       stage=`rating set ${set+1}`;
+      assert(await o.locator('#room-feedback-reference').count()===1,'Active observer retains guidance at the checkpoint');
+      for(const p of [t,c,watcher])assert(await p.locator('#room-content .skill-feedback-guide').count()===0,'Only the active observer has rating guidance at a larger-group checkpoint');
       assert(room.phase==='round_debrief'&&room.item_index===set*3+2,'Each third item pauses for rating: '+JSON.stringify({set,phase:room.phase,index:room.item_index,completed:room.completed_ids.length}));
       assert((await o.locator('#room-content').textContent()).includes(`${set===1?2:3} practiced · ${set===1?1:0} passed`),'Debrief counts only its set');
       assert(await o.locator('#room-change-role-form').isHidden(),'Roles cannot change at rating checkpoints');
@@ -194,12 +229,17 @@ async (page) => {
     assert(room.member_ids.length===2&&room.therapist_id===users.o&&room.client_id&&!room.observer_id,'Two-person room retains exactly therapist and client');
     assert((await o.locator('.room-preparation').textContent()).includes('Start when you’re both ready'),'Preparation updates when a larger group becomes a pair');
     assert(await o.locator('#room-ready').isHidden(),'Pair therapist starts instead of confirming readiness twice');
+    assert(await o.locator('#room-content .skill-feedback-guide').count()===0,'Pair preparation has no scoring reference');
     await confirmReadiness();
     await ready(o,'room-next');await click(o,'room-next');await sync();
-    for(let i=0;i<3;i++){await ready(o,'room-pass');await click(o,'room-pass');await sync();}
+    for(let i=0;i<3;i++){assert(await o.locator('#room-content .skill-feedback-guide').count()===0,'Pair item screens have no scoring reference');await ready(o,'room-pass');await click(o,'room-pass');await sync();}
     assert(await o.locator('#room-score').count()===0,'An all-passed set has no rating form');
+    assert(await o.locator('#room-content .skill-feedback-guide').count()===0,'An all-passed set has no scoring reference');
     await ready(o,'room-rotate');await click(o,'room-rotate');await sync();
     for(let i=0;i<3;i++){await ready(o,'room-next');await click(o,'room-next');await sync();}
+    assert(await o.locator('#room-feedback-reference').getAttribute('data-audience')==='self','Pair therapist gets self-rating guidance only at a practiced checkpoint');
+    assert((await o.locator('#room-feedback-reference').textContent()).includes('Did I notice my reaction'),'Pair self-awareness prompts are first-person');
+    assert(await pages.find(p=>p!==o).locator('#room-content .skill-feedback-guide').count()===0,'Pair client never receives scoring guidance');
     await o.locator('#room-score').selectOption('3');await ready(o,'room-save');await click(o,'room-save');await sync();
     const pairRows=(await ratings()).filter(r=>r.therapist_user_id===users.o&&!existingRatings.has(r.id));
     assert(pairRows.length===1&&pairRows[0].source==='self'&&pairRows[0].item_count===3,'Pair therapist self-assessment follows the same set boundaries');
@@ -228,8 +268,10 @@ async (page) => {
     assert(await o.locator('#room-rotate').isDisabled(),'Recovery does not take the absent client’s role or bypass synchronization');
     disconnectedUser=null;await sync();await ready(o,'room-rotate');
     assert(await partner.locator('#room-host-recovery').isHidden(),'Returning former host does not regain hosting');
+    assert(!(await o.locator('#room-next-attempt').textContent()).includes('Pause before the reflection.'),'New therapist/skill does not inherit the previous therapist’s note');
+    assert(!(await ratings()).some(r=>JSON.stringify(r).includes('Pause before the reflection.')),'Ratings never contain private reminder text');
     assert(errors.length===0,'No browser errors: '+errors.join('; '));
-    return {passed:true,participants:4,checks:['real local RPCs','twelve unique items','fixed roles','four distinct set ratings','passed items','lost-response replay','saved-checkpoint reconnect','320px role screens','explicit role/skill/case reselection','role selection survives polling','simultaneous client claims','taken draft choice resets','missing observer blocks UI and RPC','human readiness barrier','simultaneous readiness','visible role assignments','pair readiness','pair self-assessment','all-passed set','host transfer with lost-response replay','host recovery','returning host does not regain authority']};
+    return {passed:true,participants:4,checks:['private therapist reminder across four sets','room peer RLS isolation','skill-specific observer anchors','no notes in snapshots or ratings','real local RPCs','twelve unique items','fixed roles','four distinct set ratings','passed items','lost-response replay','saved-checkpoint reconnect','320px role screens','explicit role/skill/case reselection','role selection survives polling','simultaneous client claims','taken draft choice resets','missing observer blocks UI and RPC','human readiness barrier','simultaneous readiness','visible role assignments','pair readiness','pair self-assessment','all-passed set','host transfer with lost-response replay','host recovery','returning host does not regain authority']};
   } catch(error) {
     const ui=await o.locator('#room-panel').evaluate(e=>({phase:e.dataset.phase,version:e.dataset.version,error:document.getElementById('room-error').textContent})).catch(()=>null);
     const allUi=await Promise.all(pages.map(p=>p.locator('#room-panel').evaluate(e=>({hidden:e.hidden,phase:e.dataset.phase,version:e.dataset.version,section:document.body.dataset.section,error:document.getElementById('room-error').textContent})).catch(()=>null)));

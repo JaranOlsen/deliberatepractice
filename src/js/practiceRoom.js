@@ -5,6 +5,8 @@ import {CONTENT_REVISION} from './practiceData.js';
 import {groupSetProgress} from './groupRound.js';
 import {createRoomSync, roomRole, roomEveryoneReady, roomNeedsObserver, missingRoomRoles, roomReadinessRoles, waitingRoomReadiness, roomCanStart} from './practiceRoomSync.js';
 import {readRoomInvite, rememberRoomInvite, normalizeRoomCode} from './roomInvite.js';
+import {createSkillFeedback} from './skillFeedbackUI.js';
+import {createPracticeGoalView} from './practiceGoalUI.js';
 
 const copy = {
   en: {
@@ -27,7 +29,7 @@ const copy = {
     ...GROUP_PRACTICE_COPY.en,
     set: 'Set', nextSet: 'Next 3 items · keep roles', nextRound: 'Choose roles, skill & case', roundPlan: '12 items · 4 sets of 3 · keep your roles', rateSet: 'Rate this set', round: 'Round', item: 'Item', debrief: 'Reflect together', practiced: 'practiced', passed: 'passed',
     save: 'Save skill rating', updateRating: 'Update rating', skipRating: 'Continue without rating', skipChanges: 'Continue without changes', saved: 'Saved to the therapist’s progress',
-    ratingPlaceholder: 'Choose a rating', ratingScope: 'Rate only the practiced items.', observerRating: 'The observer rates this set.', therapistRating: 'The therapist self-assesses this set.',
+    ratingPlaceholder: 'Choose a rating', observerRating: 'The observer rates this set.', therapistRating: 'The therapist self-assesses this set.',
     scoreLabels: ['Not yet demonstrated', 'Emerging with guidance', 'Adequate in parts', 'Well demonstrated', 'Skillfully demonstrated'],
     score: 'Therapist’s use of the skill', noItems: 'Every item was passed. No rating will be saved.',
     participantWaiting: 'Not joined', participantSyncing: 'Catching up', participantReady: 'Up to date',
@@ -58,7 +60,7 @@ const copy = {
     ...GROUP_PRACTICE_COPY.no,
     set: 'Sett', nextSet: 'Neste 3 utsagn · behold rollene', nextRound: 'Velg roller, ferdighet og kasus', roundPlan: '12 utsagn · 4 sett med 3 · behold rollene', rateSet: 'Vurder dette settet', round: 'Runde', item: 'Utsagn', debrief: 'Reflekter sammen', practiced: 'øvd', passed: 'stått over',
     save: 'Lagre ferdighetsvurdering', updateRating: 'Oppdater vurdering', skipRating: 'Fortsett uten vurdering', skipChanges: 'Fortsett uten endringer', saved: 'Lagret i terapeutens fremgang',
-    ratingPlaceholder: 'Velg en vurdering', ratingScope: 'Vurder bare utsagnene dere har øvd på.', observerRating: 'Observatøren vurderer dette settet.', therapistRating: 'Terapeuten vurderer seg selv i dette settet.',
+    ratingPlaceholder: 'Velg en vurdering', observerRating: 'Observatøren vurderer dette settet.', therapistRating: 'Terapeuten vurderer seg selv i dette settet.',
     scoreLabels: ['Ikke vist ennå', 'På vei med veiledning', 'Tilfredsstillende i deler', 'Godt demonstrert', 'Svært godt demonstrert'],
     score: 'Terapeutens bruk av ferdigheten', noItems: 'Alle utsagn ble stått over. Ingen vurdering lagres.',
     participantWaiting: 'Ikke med ennå', participantSyncing: 'Henter siste steg', participantReady: 'Oppdatert',
@@ -132,6 +134,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
   let creating = null;
   let busy = false;
   let contentKey = '';
+  let goalView = null;
   const roleGuideOpen = new Map();
   const strings = () => copy[language] ?? copy.en;
   const read = key => { try { return JSON.parse(localStorage.getItem(key)); } catch { return null; } };
@@ -228,6 +231,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     // Presence refreshes never rebuild the screen or steal keyboard focus.
     if (key !== contentKey) {
       contentKey = key;
+      goalView?.destroy(); goalView = null;
       body.replaceChildren();
       if (configured && !ended) body.append(node('h3', skill.name, 'room-practice-heading'), node('p', caseData.label, 'room-case-heading'));
       const expired = Date.parse(next.expires_at) <= Date.now();
@@ -291,12 +295,24 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
           for (let score = 1; score <= 5; score++) { const option = node('option', `${score} · ${s.scoreLabels[score - 1]}`); option.value = String(score); select.append(option); }
           select.value = next.saved_score ?? '';
           select.addEventListener('change', () => updateStatus(sync.status()));
-          form.append(label, select, node('p', s.ratingScope, 'response-hint'));
+          form.append(label, select);
           form.addEventListener('submit', e => { e.preventDefault(); void sync.command('rate', Number(select.value)); });
           body.append(form);
         } else if (!set.completed.length) body.append(node('p', s.noItems));
         else body.append(node('p', next.observer_id ? s.observerRating : s.therapistRating, 'response-hint'));
         const saved = node('p'); saved.id = 'room-saved'; saved.setAttribute('role', 'status'); if (set.last) body.append(nextFocus); body.append(saved);
+      }
+      const selfRating = !next.observer_id && role === 'therapist' && next.phase === 'round_debrief' && set.completed.length > 0;
+      if (configured && !ended && next.phase !== 'choosing' && (role === 'observer' || selfRating)) {
+        body.append(createSkillFeedback({skillId:next.skill_id, language, id:'room-feedback-reference',
+          audience:selfRating ? 'self' : 'observer'}));
+      }
+      if (configured && !ended && role === 'therapist' && next.phase !== 'choosing') {
+        goalView = createPracticeGoalView({userId, languageId:language, skillId:next.skill_id,
+          editable:['lobby','round_debrief'].includes(next.phase), id:'room-next-attempt'});
+        // Keep the reminder near the focus during practice, rather than below the workflow.
+        if (active) body.querySelector('.individual-guide')?.after(goalView.element);
+        else body.append(goalView.element);
       }
       {
         const heading = body.querySelector('h4') ?? body.querySelector('h3'); if (heading) { heading.tabIndex = -1; heading.focus({preventScroll: true}); }
@@ -418,6 +434,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
   }
 
   function dismiss(navigate = true) {
+    goalView?.destroy(); goalView = null;
     if (confirming) { dialogs.close(confirmOverlay); confirming = null; }
     open = false; opening++; sync.stop(); room = null; contentKey = '';
     overlay.hidden = true; overlay.classList.add('is-hidden'); if (navigate) onClose?.();

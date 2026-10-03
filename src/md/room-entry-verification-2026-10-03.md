@@ -1,6 +1,6 @@
 # Room entry, preparation and hosting
 
-Implemented on `codex/room-entry-readiness`, based on production `5b5d7c6`. The hosted migration has been applied and verified; the frontend remains in draft PR #89 and the local preview.
+Implemented on `codex/room-entry-readiness`, based on production `5b5d7c6`. The hosted migration has been applied and verified. The user authorized the production release on 2026-10-03, together with skill feedback and private reminders from PR #90. [Deployment history](https://github.com/JaranOlsen/deliberatepractice/actions/workflows/deploy.yml) records the live release status.
 
 ## Behavior
 
@@ -32,4 +32,4 @@ Screenshots: `output/playwright/room-readiness-observer-320.png`, `room-readines
 
 Existing rooms default to the previous preparation protocol, including rounds already in progress. Newly created rooms opt into `ready-v1`; selecting new material with this frontend also opts in. An exact committed command can be recovered after a hosting transfer, but that receipt cannot grant a former host new control or be retargeted.
 
-The migration is additive, with the existing role/progression RPC signature preserved. There is no automatic production deployment in this change.
+The migration is additive, with the existing role/progression RPC signature preserved. Deployment from main runs content/unit/database checks, verifies the Supabase configuration, and builds before publishing to GitHub Pages.
