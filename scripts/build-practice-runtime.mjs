@@ -1,3 +1,5 @@
+import {FOCUSED_CONTENT_COMPATIBILITY} from "../src/data/contentCompatibility.js";
+import {MASTERY_EXERCISES} from "../src/data/masteryExercises.js";
 import { mkdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import {
@@ -10,7 +12,7 @@ import {
 const output = new URL('../src/data/runtime/', import.meta.url);
 const pick = (value, keys) => Object.fromEntries(keys.map(key => [key, value[key]]));
 const caseFields = ['id', 'label', 'difficulty', 'difficultyLabel', 'tier', 'teaser',
-  'history', 'schema', 'corePain', 'practiceEdge', 'style', 'voice'];
+  'supportedLevels', 'history', 'schema', 'corePain', 'practiceEdge', 'style', 'voice'];
 const statementFields = ['id', 'track', 'revision', 'criteriaTags', 'text', 'suggestion'];
 const skills = {};
 const cases = {};
@@ -45,11 +47,14 @@ for (const language of LANGUAGE_ORDER) {
 
 const artifacts = new Map([['manifest.json', {
   SKILL_ORDER, CASE_ORDER, CONTENT_REVISION, CONTENT_UPDATED_AT,
+  FOCUSED_CONTENT_COMPATIBILITY,
+  EXERCISE_CATALOG: MASTERY_EXERCISES.map(({scenes, ...exercise}) => ({...exercise, sceneIds: scenes.map(scene => scene.id)})),
   LANGUAGE_ORDER, LANGUAGE_METADATA, LANGUAGE_UI, GLOSSARY,
   CASE_FORMULATION_TRANSLATIONS, CASE_OVERRIDES: caseOverrides,
   LANGUAGE_OVERRIDES: skillOverrides, skills, cases, statementCounts
 }]]);
 for (const language of LANGUAGE_ORDER) {
+  for (const exercise of MASTERY_EXERCISES) artifacts.set(`mastery/${language}-${exercise.id}.json`, {...exercise, title: exercise.title[language], orientation: exercise.orientation[language], scenes: exercise.scenes.map(({en, no, ...scene}) => ({...scene, ...({en, no}[language])}))});
   for (const skillId of SKILL_ORDER) {
     const skillCases = {};
     for (const caseId of CASE_ORDER[skillId]) {

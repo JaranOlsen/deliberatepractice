@@ -17,6 +17,9 @@ async (page) => {
       window.switchTestUser=id=>{user=id?{id,email:'test@example.invalid'}:null;change?.(user?{user}:null);};
       export const ensureUserProfile=async()=>({id:user.id,display_name:'Test Therapist'});
       export const listPracticeTargets=async()=>[{target_user_id:user.id,target_kind:'self',display_name:'Test Therapist'}];
+      export const listMasteryRatings=async()=>[];
+      export const getMasteryCapabilities=async()=>null;
+      export const submitMasteryRating=async()=>{throw new Error('Unexpected mastery write');};
       export const listPracticeRatings=async()=>[];
       const goal=async(s,action)=>{
         const response=await fetch('/__goal_fixture',{method:'POST',body:JSON.stringify({...s,actor:user.id,action})});

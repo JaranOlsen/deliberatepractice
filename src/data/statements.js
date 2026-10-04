@@ -1,3 +1,4 @@
+import {EXTENSION_STATEMENTS} from "./skillExtensions.js";
 "use strict";
 
 export const STATEMENT_SETS = {
@@ -5426,3 +5427,5 @@ export const STATEMENT_SETS = {
     ]
   }
 };
+
+Object.assign(STATEMENT_SETS, EXTENSION_STATEMENTS);

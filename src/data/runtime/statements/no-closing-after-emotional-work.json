@@ -1,0 +1,148 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_closing-after-emotional-work_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Ser på klokken, med tårer] Jeg vet at vi snart er ferdige. Jeg er fortsatt trist, da.",
+      "suggestion": "Vi har noen minutter igjen, og tristheten er fortsatt her. Vi trenger ikke få den bort. Hva ville hjelpe deg i overgangen ut av rommet?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Nølende] Det er noe mer med mamma, men det er mye. Kanskje dette ikke er tidspunktet.",
+      "suggestion": "Det høres viktig ut, og vi har ikke tid til å gi det nok plass i dag. Skal vi notere hvor du vil begynne neste gang og bruke de siste minuttene på å lande her?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg vil ikke gå og late som jeg har det bra. Det har jeg ikke.",
+      "suggestion": "Du trenger ikke late som. Vi avslutter timen, ikke ber deg om å ha det bra. Kan vi stoppe litt ved hvordan du har det nå før du går?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Snufser] Jeg må rett tilbake på jobb. Jeg vil ikke gå inn i et møte sånn.",
+      "suggestion": "La oss sette av litt tid til den overgangen. Hva ville hjelpe deg å bli klar nok for møtet, uten å måtte skyve alle følelsene bort?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Ser seg rundt] Kan jeg sitte litt før jeg går? Jeg vil ikke skynde meg ut.",
+      "suggestion": "Ja, la oss bruke de siste par minuttene på å sitte. Vi kan ta en pause fra praten og gi deg tid til å legge merke til rommet igjen."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Bekymret] Hva om alt dette kommer tilbake i kveld? Jeg kan vel ikke ringe deg klokken ti?",
+      "suggestion": "Jeg kan ikke tilby en samtale klokken ti. La oss bruke tiden vi har på å tenke gjennom hva som kan hjelpe i kveld, og hvilken støtte du faktisk kan få tak i."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Ettertenksomt] Jeg vil huske at det ikke er galt å ønske selskap. Men jeg trenger ikke enda en oppgave denne uken.",
+      "suggestion": "Da lar vi det være noe å huske, ikke enda en oppgave. Er «det er ikke galt å ønske selskap» de ordene du vil ta med deg i dag?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Mykt] Jeg vet ikke hvordan jeg skal oppsummere dette. Vi har snakket om så mye.",
+      "suggestion": "Det har vært mye. Nå som vi avslutter, er det ett øyeblikk du vil ta vare på, eller vil du heller at jeg kort sier hva jeg har hørt, og så forteller du hva som passer?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Urolig] Jeg kjenner meg litt blottlagt etter å ha sagt alt det. Jeg skulle ønske jeg kunne ta noe tilbake.",
+      "suggestion": "Du kjenner deg blottlagt nå. Før vi avslutter, ville et stille øyeblikk hjelpe, eller er det noe du trenger å si om å ha delt det?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sjekker mobilen] Venninnen min møter meg utenfor. Jeg tror jeg heller vil gå en tur med henne enn å snakke mer i dag.",
+      "suggestion": "En tur med henne høres ut som den overgangen du ønsker. Skal vi stoppe arbeidet her og ta et stille øyeblikk før du møter henne?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Med tårer, men stødig] Det går greit å gå. Jeg vil bare at vi kommer tilbake til det med å be om hjelp.",
+      "suggestion": "La oss notere det til neste gang: å be om hjelp. Før vi avslutter, er det noe du vil si om hvordan det kjennes å stoppe her?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lite sukk] Jeg føler meg ikke lettere, akkurat. Jeg er sliten og vil ta meg god tid hjem.",
+      "suggestion": "Sliten, heller enn lettere. Vi kan la det være stedet vi stopper i dag. Hvordan ville det være for deg å ta deg god tid hjem?"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_empathic-refocusing_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Quietly] When I said I miss being someone's first call, I felt something in my chest. Anyway, I should probably change my phone plan.",
+      "suggestion": "The phone plan may need sorting too. Would you like to pause with what you felt when you said ‘someone's first call’ before we move on?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Laughs, eyes wet] Coming home hurts. Listen to me — a whole tragedy over a takeaway dinner.",
+      "suggestion": "You laughed just as you said coming home hurts. Could we stay with that hurt for a moment, if you want to?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Quickly] I wanted him to ask how my day was. But he worked long hours, and his team was understaffed, so obviously—",
+      "suggestion": "You were just touching how much you wanted him to ask. Would it be useful to stay with that wanting before we work out his reasons?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Pauses, then brightens] I felt really alone on Sunday. Oh, I forgot to tell you about the campaign at work.",
+      "suggestion": "There was a pause when you said ‘alone’. Does that still need some room, or is the work story what you want to bring in now?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Looks down] I was hurt that he forgot. But it was just a date. Other people have real problems.",
+      "suggestion": "It was just a date, and being forgotten hurt. Would you be willing to give that hurt a little room without comparing it with anyone else's?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Sighs] I wish I could tell him I was lonely. Maybe I should start with a list of what I did wrong.",
+      "suggestion": "Before the list, you said you wished you could tell him you were lonely. Is that something you want us to stay with?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Voice softens, then speeds up] I wanted to be held. Actually, what's the research on attachment styles?",
+      "suggestion": "I can answer that. I also heard your voice soften at ‘held’. Would you prefer the explanation now, or a moment with what being held means to you?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Tears, then checks watch] I hate eating alone. Sorry, did I tell you what time my train leaves?",
+      "suggestion": "We should make sure you catch it. Once we've checked the time, would you like a little space for how eating alone feels?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Shrugs] I started to feel sad, then I thought: this is just what happens when dopamine drops after a relationship.",
+      "suggestion": "That explanation may help you make sense of it. Would it also help to notice the sadness that came just before it, or would you rather leave it there today?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Quiet, then joking] I wanted to matter to him. Well, at least my delivery app misses me.",
+      "suggestion": "You went to a joke just after saying you wanted to matter. If it feels okay, could we return to those words, ‘I wanted to matter’?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Looks away] I was angry he never asked what I needed. But let me explain the whole timeline first.",
+      "suggestion": "The timeline might help. Before we go through it, do you want to stay with that anger about not being asked what you needed?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[After a pause] That empty feeling is back. I don't want to go into it today; I need to talk about getting through tonight.",
+      "suggestion": "Let's focus on tonight. We can leave the empty feeling there for now. What feels hardest about getting through the evening?"
+    }
+  ]
+}

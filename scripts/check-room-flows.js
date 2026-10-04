@@ -22,6 +22,9 @@ async (page) => {
       export const onAuthStateChange=()=>()=>{};
       export const ensureUserProfile=async()=>({id:user.id,display_name:'Test '+user.id});
       export const listPracticeTargets=async()=>[{target_user_id:user.id,target_kind:'self',display_name:'Test '+user.id}];
+      export const listMasteryRatings=async()=>[];
+      export const getMasteryCapabilities=async()=>null;
+      export const submitMasteryRating=async()=>{throw new Error('Unexpected mastery write');};
       export const listPracticeRatings=async()=>[];
       export const getPracticeGoal=async()=>'';
       export const savePracticeGoal=async s=>s.text;

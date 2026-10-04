@@ -1,0 +1,148 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Ettertenksomt] Jeg er fortsatt trist, men det kjennes ikke som et bevis på at det er noe galt med meg.",
+      "suggestion": "Tristheten er her fortsatt, og den trenger ikke bety at det er noe galt med deg. Hvilke ord kunne hjelpe deg å huske den forskjellen?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Mykt] «Jeg ønsket meg selskap» kjennes mildere enn «jeg var for masete». Jeg vet ikke om jeg tror på det ennå.",
+      "suggestion": "«Jeg ønsket meg selskap» kjennes litt mildere, selv om du ikke helt tror på det ennå. Hva skjer når du sier det på den måten?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Tar en pause] Jeg kan savne ham og samtidig vite at jeg ikke følte meg ivaretatt. Vanligvis mister jeg en av de tankene.",
+      "suggestion": "Begge deler kan være sant for deg nå. Hvordan ville du si det med egne ord, så ingen av delene blir borte?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Usikkert] Skuldrene mine sank da jeg sluttet å kalle meg patetisk. Det kommer sikkert tilbake i kveld.",
+      "suggestion": "Du merket at skuldrene sank, og du gruer deg til i kveld. Kan vi sette ord på det som hjalp nå, uten å forvente at du skal holde fast i det hele tiden?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Overrasket] Jeg sa at jeg trengte at han lyttet, og jeg unnskyldte meg ikke med en gang. Det kjentes annerledes.",
+      "suggestion": "Et øyeblikk kunne behovet ditt stå der uten en unnskyldning. Hva var annerledes med å la det få plass?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lavt] Jeg føler meg ikke klar for å date. Men når jeg sier det, høres det ikke ut som å gi opp lenger.",
+      "suggestion": "Å ikke være klar kjennes mer som å vite hvor du er, enn som å gi opp. Hva vil du ta med deg fra det?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Nølende] Kanskje jeg kan si til venninnen min at jeg ikke trenger råd, bare litt selskap. Det kjennes nytt.",
+      "suggestion": "Du finner ord for selskapet du ønsker. Ville det hjelpe å prøve å si dem her og kjenne om de høres ut som deg?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Med tårer] Jeg ønsker fortsatt at han skal komme tilbake. Jeg vil bare ikke forlate meg selv mens jeg venter.",
+      "suggestion": "Ønsket er fortsatt der, og du ønsker også å være på din egen side. Hva betyr «ikke forlate meg selv» for deg i kveld?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Ettertenksomt] Sinnet kjennes ikke slemt nå. Det forteller meg at det gjorde vondt å bli oversett.",
+      "suggestion": "Sinnet hjelper deg å kjenne igjen det vonde, fremfor å bevise at du er slem. Hva kjennes viktig med den endringen?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lite smil] Jeg sjekket ikke mobilen i hele den pausen. Jeg la ikke merke til det før nå.",
+      "suggestion": "Du oppdaget en pause der du ikke sjekket. Hva var oppmerksomheten din hos i stedet, om noe?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Usikkert] Jeg kan si at jeg ikke ba om for mye. Det kjennes sant her, men utenfor dette rommet er jeg mindre sikker.",
+      "suggestion": "Det kjennes sant her, og mindre sikkert utenfor. Er det noen ord fra i dag du vil ha med deg, uten å tvinge deg selv til å tro på dem?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Sukker] Ingenting kjennes løst. Men jeg forstår litt bedre hvorfor kveldene er vanskelige.",
+      "suggestion": "Ingenting er løst, og kveldene gir litt mer mening. Hva har du forstått som du vil at vi skal ta vare på?"
+    }
+  ]
+}

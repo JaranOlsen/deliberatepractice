@@ -1,3 +1,4 @@
+import {EXTENSION_GUIDES, EXTENSION_TRANSLATIONS} from "./skillExtensions.js";
 "use strict";
 
 import { CONTENT_REVISION } from "./contentMeta.js";
@@ -7184,3 +7185,6 @@ export const STATEMENT_TRANSLATIONS = {
     }
   }
 };
+
+Object.assign(LANGUAGE_OVERRIDES.no, Object.fromEntries(Object.entries(EXTENSION_GUIDES).map(([id, guide]) => [id, guide.no])));
+Object.assign(STATEMENT_TRANSLATIONS.no, EXTENSION_TRANSLATIONS);

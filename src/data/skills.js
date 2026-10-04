@@ -1,6 +1,8 @@
 "use strict";
 
-export const SKILLS = [
+import {EXTENSION_SKILLS} from "./skillExtensions.js";
+
+const CORE_SKILLS = [
   {
     id: "therapist-self-awareness",
     name: "Therapist Self-Awareness",
@@ -181,19 +183,7 @@ export const SKILLS = [
     commonMiss:
       "Explaining your intention too soon, defending yourself, or moving back to technique before repair lands."
   },
-  {
-    id: "empathic-refocusing",
-    name: "Empathic Refocusing",
-    description: "Gently name and validate avoidance strategies, then invite a kind return to the tender emotion that was just left.",
-    summary:
-      "Empathic refocusing is used when a client moves away from emotionally charged material into analysis, joking, tangents, or minimization. You first track and name this shift with compassion, recognizing the move as a protective strategy rather than a problem. You validate that the protection has helped them cope, which reduces shame or defensiveness about their avoidance.\n\nThen you invite a gentle return to the feeling that had begun to emerge, often linking back to the exact moment or phrase where the emotional edge appeared. This intervention prevents the session from getting lost in cognitive detours or narratives that bypass core emotion. It helps clients become more aware of their own avoidance patterns and learn that they can approach the underlying feelings in small, tolerable steps.\n\nOver time, empathic refocusing supports the development of an inner stance that can notice and soften defenses rather than automatically obey them. It keeps the work aligned with the goal of accessing primary emotions and core pain, rather than staying stuck in secondary defensive reactions. The intervention also respects the client’s pacing and autonomy by framing the return as an invitation, not a demand.\n\nWhen used consistently, empathic refocusing strengthens the client’s ability to remain in contact with vulnerable parts of themselves long enough for healing to occur.",
-    marker:
-      "As emotion nears, the client suddenly shifts into joking, intellectualizing, storytelling, problem-solving, or minimizing, and the emotional charge in the room drops. They may appear more animated cognitively but less connected to their body and feelings.",
-    aim:
-      "Acknowledge and normalize the protective move while gently redirecting attention to the meaningful emotion that was emerging. Help clients stay in contact with primary emotional experience and core pain long enough for processing and transformation, without shaming or fighting their defenses.",
-    practiceFocus:
-      "Name the protective move warmly and invite a return to the just-lost feeling.",
-    commonMiss:
-      "Confronting the defense too bluntly or sounding frustrated by the client’s avoidance."
-  }
+
 ];
+
+export const SKILLS = [...CORE_SKILLS, ...EXTENSION_SKILLS];

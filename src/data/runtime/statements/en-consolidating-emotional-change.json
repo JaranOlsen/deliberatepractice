@@ -1,0 +1,148 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] I'm still sad, but it doesn't feel like proof that there's something wrong with me.",
+      "suggestion": "The sadness is still here, and it no longer has to mean you're wrong. What words would help you remember that difference?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Softly] ‘I wanted company’ feels kinder than ‘I was needy’. I'm not sure I believe it yet.",
+      "suggestion": "‘I wanted company’ feels a little kinder, even without full belief yet. What happens as you say it that way?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Pauses] I can miss him and still know I didn't feel cared for. I usually lose one of those thoughts.",
+      "suggestion": "Both can be true for you now. How would you put that in your own words, so neither part gets lost?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Uncertain] My shoulders dropped when I stopped calling myself pathetic. It'll probably be back tonight.",
+      "suggestion": "You noticed your shoulders drop, and you're wary of tonight. Could we name what helped just now, without expecting you to hold on to it perfectly?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Surprised] I said I needed him to listen, and I didn't immediately apologize. That felt different.",
+      "suggestion": "For a moment, your need could stand without an apology. What was different about letting it be there?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I don't feel ready to date. But saying that doesn't sound like giving up anymore.",
+      "suggestion": "Not being ready feels more like knowing where you are than giving up. What would you like to take from that?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Hesitant] Maybe I can tell my friend I don't need advice, just a bit of company. That feels new.",
+      "suggestion": "You're finding words for the company you want. Would it help to try saying them here and see whether they sound like you?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Tearful] I still wish he'd come back. I just don't want to abandon myself while I wait.",
+      "suggestion": "The wish is still there, and there's also this wish to stay on your own side. What does ‘not abandon myself’ mean for you tonight?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Reflective] The anger doesn't feel mean now. It's telling me that being ignored hurt.",
+      "suggestion": "Your anger is helping you recognize the hurt instead of proving you're mean. What feels important about that change?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Half-smile] I didn't check my phone during that whole pause. I hadn't even noticed until now.",
+      "suggestion": "You noticed a pause where you weren't checking. What was occupying you instead, if anything?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Unsure] I can say I wasn't asking for too much. It feels true here, but outside this room I'm less sure.",
+      "suggestion": "It feels true here, and less certain outside. Is there a phrase from today you would want to keep nearby, without making yourself believe it on command?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Sighs] Nothing feels fixed. But I understand a little better why the evenings are hard.",
+      "suggestion": "Nothing is fixed, and the evenings make a little more sense. What have you understood that you would like us to keep hold of?"
+    }
+  ]
+}

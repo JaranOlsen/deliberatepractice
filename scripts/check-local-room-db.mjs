@@ -21,7 +21,7 @@ try {
   for (const name of (await readdir(new URL('supabase/migrations/', root))).sort()) {
     await db.exec(await read('supabase/migrations/' + name));
   }
-  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql', 'check-practice-goals.sql', 'check-rating-history.sql']) {
+  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql', 'check-practice-goals.sql', 'check-rating-history.sql', 'check-mastery.sql']) {
     await db.exec(await read('scripts/' + name));
     console.log('PASS ' + name);
   }
@@ -34,6 +34,8 @@ try {
       await db.query('update public.profiles set display_name=$2 where id=$1', [id, 'Test ' + role]);
     }
     const signatures = {
+      mastery_capabilities: [],
+      record_mastery_rating: ['input_language_id','input_exercise_id','input_content_revision','input_parent_round_id','input_set_number','input_completed_scene_ids','input_score','input_practice_mode'],
       create_practice_room: ['input_config','input_room_id'], join_practice_room: ['input_code','input_role'],
       prepare_practice_room: ['input_room_id','input_command_id','input_expected_version','input_config'],
       sync_practice_room: ['input_room_id','input_acknowledged_version'],
@@ -46,6 +48,9 @@ try {
     const server = createServer((req, res) => {
       const reply = (status, value) => {res.writeHead(status, {'Content-Type': 'application/json'});res.end(JSON.stringify(value));};
       if (req.url === '/users') return reply(200, users);
+      if (req.url === '/mastery-ratings') {
+        queue = queue.then(async () => reply(200, (await db.query('select * from public.mastery_ratings order by created_at,id')).rows));return;
+      }
       if (req.url === '/ratings') {
         queue = queue.then(async () => reply(200, (await db.query('select * from public.practice_ratings order by created_at,id')).rows));
         return;

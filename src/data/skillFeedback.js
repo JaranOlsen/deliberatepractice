@@ -51,6 +51,21 @@ export const SKILL_FEEDBACK = {
   }
 };
 
+Object.assign(SKILL_FEEDBACK, {
+ 'empathic-refocusing': {
+  en: {cues: ['Refer to the specific emotional moment just left.', 'Check whether a return is wanted; respect practical needs and refusal.'], selfCues: ['Did I link my invitation to the moment just left?', 'Did I check fit and respect the client’s choice?'], middle: 'Invites a relevant return but assumes avoidance or gives too little room to decline.', high: 'Checks the shift warmly and invites a small, specific return while respecting a correction, practical need or refusal.', target: 'Check before redirecting.'},
+  no: {cues: ['Vis til det konkrete følelsesmessige øyeblikket dere forlot.', 'Undersøk om klienten vil tilbake; respekter praktiske behov og et nei.'], selfCues: ['Knyttet jeg invitasjonen til øyeblikket vi forlot?', 'Undersøkte jeg om den passet, og respekterte jeg klientens valg?'], middle: 'Inviterer relevant tilbake, men antar unnvikelse eller gir for lite rom for å si nei.', high: 'Undersøker skiftet varmt og inviterer konkret og varsomt tilbake, samtidig som en korrigering, et praktisk behov eller et nei respekteres.', target: 'Undersøk før jeg styrer tilbake.'}
+ },
+ 'consolidating-emotional-change': {
+  en: {cues: ['Reflect the small shift in the client’s own terms.', 'Invite their meaning or a way to remember it without forced optimism.'], selfCues: ['Did I reflect only the change the client noticed?', 'Did I leave room for uncertainty and their own next step?'], middle: 'Recognizes a shift but enlarges it or moves too quickly to advice.', high: 'Helps the client name and sense their own change, with room for remaining pain and a freely chosen way to carry it forward.', target: 'Use their words for the shift.'},
+  no: {cues: ['Speil den lille endringen med klientens egne ord.', 'Inviter til egen betydning eller en måte å huske den på, uten påtvunget optimisme.'], selfCues: ['Speilet jeg bare den endringen klienten merket?', 'Ga jeg rom for usikkerhet og klientens eget neste steg?'], middle: 'Gjenkjenner en endring, men gjør den større eller går for raskt til råd.', high: 'Hjelper klienten å sette ord på og kjenne sin egen endring, med plass til det som fortsatt gjør vondt og en selvvalgt måte å ta endringen med seg på.', target: 'Bruk klientens ord for endringen.'}
+ },
+ 'closing-after-emotional-work': {
+  en: {cues: ['Acknowledge time and how the client is now.', 'Agree on a bounded stopping point without requiring resolution.'], selfCues: ['Did I hear what remained and name the time?', 'Did I agree on a realistic transition without overpromising?'], middle: 'Names the ending but rushes the transition or implies the feeling must be settled.', high: 'Acknowledges unfinished feeling, uses the remaining time collaboratively and agrees on a realistic transition with honest boundaries.', target: 'Leave time to agree how to stop.'},
+  no: {cues: ['Anerkjenn tiden og hvordan klienten har det nå.', 'Finn et avgrenset sted å stoppe sammen, uten å kreve at noe er løst.'], selfCues: ['Hørte jeg det som var igjen, og nevnte jeg tiden?', 'Avtalte jeg en realistisk overgang uten å love for mye?'], middle: 'Nevner avslutningen, men skynder seg gjennom overgangen eller antyder at følelsen må falle til ro.', high: 'Anerkjenner det uferdige, bruker tiden som er igjen i samarbeid og avtaler en realistisk overgang med ærlige grenser.', target: 'Sett av tid til å avtale hvordan vi stopper.'}
+ }
+});
+
 export function getSkillFeedback(skillId, language = 'en') {
   return SKILL_FEEDBACK[skillId]?.[language] ?? SKILL_FEEDBACK[skillId]?.en ?? null;
 }

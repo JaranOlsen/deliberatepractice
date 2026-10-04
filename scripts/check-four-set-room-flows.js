@@ -22,6 +22,9 @@ async (page) => {
       export const onAuthStateChange=()=>()=>{};
       export const ensureUserProfile=async()=>({id:user.id,display_name:'Test '+user.id});
       export const listPracticeTargets=async()=>[{target_user_id:user.id,target_kind:'self',display_name:'Test '+user.id}];
+      export const listMasteryRatings=async()=>[];
+      export const getMasteryCapabilities=async()=>null;
+      export const submitMasteryRating=async()=>{throw new Error('Unexpected mastery write');};
       export const listPracticeRatings=async()=>[];
       const goal=async(s,action)=>{
         const response=await fetch('/__goal_test/${user}',{method:'POST',body:JSON.stringify({...s,action})});
@@ -50,6 +53,7 @@ async (page) => {
     `}));
     await context.route(`**/__room_test/${user}`,async route=>{
       const {name,args}=JSON.parse(route.request().postData());
+      if(new URL(url).searchParams.get('testLegacy')==='1'&&name==='prepare_practice_room')args.input_config.contentRevision='2026-10-04-v3';
       if(disconnectedUser===user&&name==='sync_practice_room')return route.fulfill({status:503,contentType:'application/json',body:'{"message":"Test connection interrupted"}'});
       const competing=claimRace&&name==='command_practice_room'&&args.input_action==='role_client';
       if(competing)await new Promise(resolve=>{

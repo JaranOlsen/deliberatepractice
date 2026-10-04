@@ -1,0 +1,159 @@
+{
+  "id": "mastery-sara-evenings",
+  "type": "mastery",
+  "caseId": "case-sara",
+  "difficulty": "easy",
+  "revision": "2026-10-04-v4",
+  "supportedLevels": [
+    "easy"
+  ],
+  "title": "Sara · Mer rom i kvelden",
+  "orientation": "Tolv sammenhengende øvingsøyeblikk. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "scenes": [
+    {
+      "id": "mastery_sara_evenings_01",
+      "skillId": "empathic-understanding",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Vi begynner med en vanlig kveld.",
+      "prompt": "Speil hva det betyr for Sara å komme hjem.",
+      "text": "[Lavt] Jeg legger fra meg nøklene og griper etter mobilen før jeg engang har tatt av meg jakken. Det er ingen å fortelle om dagen min til lenger.",
+      "suggestion": "Å komme hjem betyr å kjenne det tomrommet igjen — det er ingen der å dele dagen din med."
+    },
+    {
+      "id": "mastery_sara_evenings_02",
+      "skillId": "providing-treatment-rationale",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "bridge": "Sara lurer på hensikten med emosjonsarbeidet.",
+      "prompt": "Knytt emosjonsarbeidet til ønsket hennes om mer håndterbare kvelder.",
+      "text": "[Undrende] Jeg vet at jeg savner ham. Hvordan hjelper det å snakke om det når jeg vil slutte å bruke hele kvelden på mobilen?",
+      "suggestion": "Du vil ha kveldene dine tilbake, ikke bare snakke mer om å savne ham. Å se på øyeblikket du griper etter mobilen, kan hjelpe oss å forstå hva du trenger da. Vi kan prøve en liten bit og se om det hjelper."
+    },
+    {
+      "id": "mastery_sara_evenings_03",
+      "skillId": "empathic-affirmation-validation",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "bridge": "Samtalen går over til skammen etter bruddet.",
+      "prompt": "Gjør tristheten forståelig uten å argumentere den bort.",
+      "text": "[Ser ned] Folk går fra hverandre hele tiden. Jeg føler meg svak som fortsatt gråter over det.",
+      "suggestion": "Du mistet en du var vant til å vende deg til hver dag. Det er forståelig at det gjør vondt; tårene gjør deg ikke svak."
+    },
+    {
+      "id": "mastery_sara_evenings_04",
+      "skillId": "exploratory-questions",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "bridge": "Sara merker en uklar følelse når hun tenker på døren hjemme.",
+      "prompt": "Still ett åpent spørsmål om hva hun merker nå.",
+      "text": "[Nøler] Når jeg ser for meg at jeg åpner døren, er det noe rett under ribbeina. Jeg klarer ikke helt å sette ord på det.",
+      "suggestion": "Når du ser for deg at du åpner døren, hva legger du merke til ved følelsen under ribbeina?"
+    },
+    {
+      "id": "mastery_sara_evenings_05",
+      "skillId": "empathic-explorations",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "bridge": "I dette øyeblikket begynner tristheten å ta form.",
+      "prompt": "Bli ved tristheten som allerede er på vei frem.",
+      "text": "[Mykt] Det er tristhet, tror jeg. Døren klikker igjen, og ingen spør hvordan det gikk. Det lille klikket går så inn på meg.",
+      "suggestion": "Det er ved det lille klikket at tristheten kommer. Kan vi stoppe der og kjenne hvordan det er, hvis det kjennes greit?"
+    },
+    {
+      "id": "mastery_sara_evenings_06",
+      "skillId": "empathic-conjectures",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "bridge": "Sara beskriver en melding hun ikke sendte.",
+      "prompt": "Tilby en liten, tentativ gjetning om det hun ikke har satt ord på.",
+      "text": "[Ser bort] Jeg skriver «Hvordan var dagen din?» og sletter det. Jeg vil ikke at han skal tenke at jeg er patetisk. Men jeg ser fortsatt etter om han er pålogget.",
+      "suggestion": "Jeg lurer på om en del av deg håper på et tegn på at du fortsatt betyr noe for ham. Passer det, eller er det noe annet?"
+    },
+    {
+      "id": "mastery_sara_evenings_07",
+      "skillId": "empathic-evocations",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "bridge": "Hun beskriver kvelden med en fjern, saklig stemme.",
+      "prompt": "Tilby ett bilde nær opplevelsen hennes; gi rom for å undersøke om det passer.",
+      "text": "[Flatt] Jeg kommer hjem med alle disse små tingene fra dagen. De blir ikke til noe. Jeg bare lager middag og legger meg.",
+      "suggestion": "Nesten som om du bærer dagen med deg hjem, og det ikke er noe sted å legge den fra deg sammen med noen. Er det sånn det kjennes?"
+    },
+    {
+      "id": "mastery_sara_evenings_08",
+      "skillId": "empathic-refocusing",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "Et sårt øyeblikk viker for analyse av gamle meldinger.",
+      "prompt": "Undersøk skiftet og inviter tilbake uten å insistere.",
+      "text": "[Stemmen blir mykere, så raskere] Jeg ville at han skulle ha lyst til å høre om dagen min. Men hvis du ser på meldingene hans, svarte han alltid senere på tirsdager, og—",
+      "suggestion": "Du var nettopp inne på ønsket om å bli lyttet til. Vil du bli der et øyeblikk før vi ser på mønsteret i svarene hans?"
+    },
+    {
+      "id": "mastery_sara_evenings_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "bridge": "I et senere øyeblikk er tristheten sterkere, men Sara er fortsatt til stede.",
+      "prompt": "Tilby stødig nærvær og valgfrihet om tempoet.",
+      "text": "[Gråter, puster jevnt] Jeg savner ham så mye akkurat nå. Jeg trenger ikke at du sier at det går over. Kan vi bare sitte litt?",
+      "suggestion": "Ja. Vi kan sitte med det litt. Du trenger ikke snakke eller få det til å gå over; si fra hvis du vil ta pausen på en annen måte."
+    },
+    {
+      "id": "mastery_sara_evenings_10",
+      "skillId": "empathic-understanding",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "I et annet øyeblikk rommer Sara to sannheter om forholdet.",
+      "prompt": "Speil begge delene uten å velge en av dem for henne.",
+      "text": "[Ettertenksomt] Jeg kan savne ham uten å ønske meg det forholdet tilbake. Jeg var ensom da vi var sammen også.",
+      "suggestion": "Du savner ham, og du husker også hvor ensom du var sammen med ham. Begge deler er en del av det du kjenner nå."
+    },
+    {
+      "id": "mastery_sara_evenings_11",
+      "skillId": "consolidating-emotional-change",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Sara merker en liten endring, med usikkerhet om kvelden.",
+      "prompt": "Hjelp henne å sette ord på endringen uten å love at den vil vare.",
+      "text": "[Mykt] Å være trist kjennes ikke fullt så svakt nå. Jeg ønsket meg selskap. Men jeg kan komme til å kalle meg patetisk igjen i kveld.",
+      "suggestion": "«Jeg ønsket meg selskap» kjennes annerledes enn «jeg er patetisk», selv om kvelden er usikker. Hva ved de ordene er verdt å ta vare på?"
+    },
+    {
+      "id": "mastery_sara_evenings_12",
+      "skillId": "closing-after-emotional-work",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "Det er noen minutter igjen av den tenkte timen.",
+      "prompt": "Anerkjenn det som er igjen, og finn en håndterbar avslutning sammen.",
+      "text": "[Ser på klokken, med tårer] Jeg vet at tiden snart er ute. Det går greit å gå, men jeg vil ikke skynde meg rett fra dette og inn i alt annet.",
+      "suggestion": "Vi har noen minutter til den overgangen. Vi kan la arbeidet ligge for i dag uten å legge bort tristheten. Hva ville hjelpe deg å gå i det tempoet du trenger?"
+    }
+  ]
+}

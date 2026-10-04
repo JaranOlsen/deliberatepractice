@@ -35,7 +35,10 @@ async (page) => {
       if (!response.ok) throw new Error('Test network failure');
       return response.json();
     };
-    export const listPracticeRatings = async () => [];
+    export const listMasteryRatings=async()=>[];
+      export const getMasteryCapabilities=async()=>null;
+      export const submitMasteryRating=async()=>{throw new Error('Unexpected mastery write');};
+      export const listPracticeRatings = async () => [];
     export const getPracticeGoal = async () => '';
     export const savePracticeGoal = async s => s.text;
     export const submitFeedback = async () => { throw new Error('Unexpected feedback submission'); };
@@ -206,10 +209,10 @@ async (page) => {
   await page.reload();
   await setup('no', 'therapist-self-awareness', 'triad');
   const sharedGuide = await page.locator('#shared-group-guidance').textContent();
-  assert(sharedGuide.includes('du trenger ikke svare klienten'), 'Self-awareness does not require a client response');
+  assert(sharedGuide.includes('Terapeuten merker sin reaksjon') && !sharedGuide.includes('Terapeuten svarer'), 'Self-awareness does not require a client response');
   assert(sharedGuide.includes('gå så ut av rollen'), 'Reader feedback happens out of role');
   assert(sharedGuide.includes('uten tolkning eller press om å dele'), 'Coaching respects boundaries');
-  assert(sharedGuide.includes('Del bare det du selv velger'), 'Retry respects disclosure choice');
+  assert(sharedGuide.toLowerCase().includes('del bare det du selv velger'), 'Retry respects disclosure choice');
   for (const role of ['client','therapist','observer']) await page.locator(`#shared-your-part-${role} > summary`).click();
   await page.setViewportSize({width:320,height:740});
   await page.locator('#triad-controls').scrollIntoViewIfNeeded();

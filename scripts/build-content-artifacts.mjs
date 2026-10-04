@@ -1,3 +1,4 @@
+import {EXTENSION_SKILL_ORDER, EXTENSION_CRITERIA, EXTENSION_SOURCE} from "../src/data/skillExtensions.js";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -167,7 +168,7 @@ function buildRegistry() {
   const registry = {};
   let totalItems = 0;
 
-  CANONICAL_SKILL_ORDER.forEach((skillId) => {
+  [...CANONICAL_SKILL_ORDER, ...EXTENSION_SKILL_ORDER].forEach((skillId) => {
     const cases = STATEMENT_SETS[skillId] ?? {};
     registry[skillId] = {};
     Object.entries(cases).forEach(([caseId, items]) => {
@@ -182,10 +183,10 @@ function buildRegistry() {
           caseId,
           track: CONTENT_TRACKS.CASE_MATRIX,
           difficultyTier: caseDifficultyMap.get(caseId) ?? "unknown",
-          sourceRef: buildSourceRef(skillId, caseId),
+          sourceRef: EXTENSION_SKILL_ORDER.includes(skillId) ? {type: "original_extension", url: EXTENSION_SOURCE, section: "3.1–3.4"} : buildSourceRef(skillId, caseId),
           riskFlags,
-          criteriaTags: [...(SKILL_EXERCISE_MAP[skillId]?.defaultCriteriaTags ?? []), "legacy_matrix_item"],
-          reviewStatus: REVIEW_STATUSES.LEGACY_IMPORTED,
+          criteriaTags: EXTENSION_CRITERIA[skillId] ?? [...(SKILL_EXERCISE_MAP[skillId]?.defaultCriteriaTags ?? []), "legacy_matrix_item"],
+          reviewStatus: EXTENSION_SKILL_ORDER.includes(skillId) ? REVIEW_STATUSES.PENDING : REVIEW_STATUSES.LEGACY_IMPORTED,
           revision: CONTENT_REVISION
         };
         return {

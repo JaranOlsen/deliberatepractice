@@ -1,0 +1,148 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_empathic-refocusing_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Da jeg sa at jeg savner å være den noen ringer først, kjente jeg noe i brystet. Uansett, jeg burde nok bytte mobilabonnement.",
+      "suggestion": "Mobilabonnementet kan også trenge en avklaring. Vil du stoppe litt ved det du kjente da du sa «den noen ringer først», før vi går videre?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Ler, med våte øyne] Det gjør vondt å komme hjem. Hør på meg — en hel tragedie over en takeaway-middag.",
+      "suggestion": "Du lo akkurat da du sa at det gjør vondt å komme hjem. Kan vi bli ved det vonde et øyeblikk, hvis du vil?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Raskt] Jeg ville at han skulle spørre hvordan dagen min hadde vært. Men han jobbet mye, og teamet hans var underbemannet, så det er jo klart—",
+      "suggestion": "Du var nettopp inne på hvor mye du ønsket at han skulle spørre. Kunne vi bli litt ved det ønsket før vi prøver å forstå grunnene hans?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Tar en pause, så lysere] Jeg følte meg veldig alene på søndag. Å, jeg glemte å fortelle om kampanjen på jobb.",
+      "suggestion": "Du stoppet litt da du sa «alene». Trenger det fortsatt litt plass, eller er det jobbhistorien du vil ta opp nå?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Ser ned] Det såret meg at han glemte det. Men det var jo bare en dato. Andre har ordentlige problemer.",
+      "suggestion": "Det var bare en dato, og det gjorde vondt å bli glemt. Vil du gi det vonde litt plass uten å sammenligne med andres problemer?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Sukker] Jeg skulle ønske jeg kunne si til ham at jeg var ensom. Kanskje jeg burde begynne med en liste over det jeg gjorde feil.",
+      "suggestion": "Før listen sa du at du skulle ønske du kunne fortelle ham at du var ensom. Er det noe du vil at vi blir ved?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Stemmen blir mykere, så raskere] Jeg ville bli holdt rundt. Forresten, hva sier forskningen om tilknytningsstiler?",
+      "suggestion": "Det kan jeg svare på. Jeg hørte også at stemmen din ble mykere ved «holdt rundt». Vil du helst ha en forklaring nå, eller et øyeblikk med hva det betyr for deg å bli holdt rundt?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Tårer, så ser hun på klokken] Jeg hater å spise alene. Unnskyld, sa jeg når toget mitt går?",
+      "suggestion": "Vi bør passe på at du rekker det. Når vi har sjekket tiden, vil du ha litt plass til hvordan det kjennes å spise alene?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Trekker på skuldrene] Jeg begynte å bli trist, så tenkte jeg: Dette er jo bare det som skjer når dopaminet faller etter et forhold.",
+      "suggestion": "Den forklaringen kan hjelpe deg å forstå det. Ville det også hjelpe å kjenne litt på tristheten som kom før den, eller vil du heller la det ligge i dag?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt, så spøkende] Jeg ville bety noe for ham. Vel, i det minste savner matleveringsappen meg.",
+      "suggestion": "Du gikk over til en spøk rett etter at du sa at du ville bety noe. Hvis det kjennes greit, kan vi vende tilbake til ordene «jeg ville bety noe»?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Ser bort] Jeg var sint fordi han aldri spurte hva jeg trengte. Men la meg forklare hele tidslinjen først.",
+      "suggestion": "Tidslinjen kan være nyttig. Før vi går gjennom den, vil du bli litt ved sinnet over at han ikke spurte hva du trengte?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Etter en pause] Den tomme følelsen er tilbake. Jeg vil ikke gå inn i den i dag; jeg trenger å snakke om å komme meg gjennom kvelden.",
+      "suggestion": "Da tar vi kvelden. Vi kan la den tomme følelsen ligge nå. Hva kjennes vanskeligst med å komme gjennom kvelden?"
+    }
+  ]
+}

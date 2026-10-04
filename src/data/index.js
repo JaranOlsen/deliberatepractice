@@ -1,3 +1,4 @@
+import {EXTENSION_SKILL_ORDER} from "./skillExtensions.js";
 "use strict";
 
 import { SKILLS } from "./skills.js";
@@ -30,7 +31,7 @@ const skillLookup = SKILLS.reduce((acc, entry) => {
   acc[entry.id] = entry;
   return acc;
 }, {});
-const skillOrder = CANONICAL_SKILL_ORDER.filter((skillId) => Boolean(skillLookup[skillId]));
+const skillOrder = [...CANONICAL_SKILL_ORDER, ...EXTENSION_SKILL_ORDER].filter((skillId) => Boolean(skillLookup[skillId]));
 const productionSkills = skillOrder.map((skillId) => skillLookup[skillId]).filter(Boolean);
 
 const caseLookup = CASES.reduce((acc, entry) => {
@@ -39,7 +40,7 @@ const caseLookup = CASES.reduce((acc, entry) => {
 }, {});
 
 const CASE_ORDER = skillOrder.reduce((acc, skillId) => {
-  acc[skillId] = [...caseIds];
+  acc[skillId] = caseIds.filter(caseId => STATEMENT_SETS[skillId]?.[caseId]?.length);
   return acc;
 }, {});
 
@@ -101,6 +102,7 @@ const buildCasePayload = (caseId, skillId) => {
     id: meta.id,
     label: meta.label,
     difficulty: meta.difficulty ?? "unknown",
+    supportedLevels: [meta.difficulty],
     difficultyLabel: meta.difficultyLabel ?? meta.difficulty ?? "",
     tier: meta.tier ?? "pro",
     teaser: meta.teaser ?? "",

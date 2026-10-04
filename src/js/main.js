@@ -1,3 +1,7 @@
+import {createMasteryPractice, supportsMastery} from "./masteryPractice.js";
+import {EXERCISE_CATALOG} from "./masteryContent.js";
+import {renderMasteryHistory} from "./masteryProgressUI.js";
+import {getMasteryCapabilities, listMasteryRatings} from "./backend.js";
 "use strict";
 
 import {
@@ -92,7 +96,7 @@ async function selectedRoomConfig() {
     difficulty: caseData.difficulty, contentRevision: CONTENT_REVISION,
     statements: statements.map(({id, criteriaTags}) => ({id, criteriaTags}))};
 }
-async function openSharedRoom(mode = "hub", {selectedCase = false, code = null} = {}) {
+async function openSharedRoom(mode = "hub", {selectedCase = false, code = null, masteryConfig = null} = {}) {
   if (state.sessionActive || state.ratingVisible) return;
   if (!roomView) {
     const {createPracticeRoomView} = await import('./practiceRoom.js');
@@ -102,22 +106,25 @@ async function openSharedRoom(mode = "hub", {selectedCase = false, code = null} 
       onChoose: room => {
         roomSelection = {id: room.id, code: room.code, userId: state.authUser.id};
         state.practiceMode = PRACTICE_MODES.GROUP;
+        if(room.exercise_type==='mastery')exerciseType='mastery';
         handleLanguageSelection(room.language_id);
         if (room.skill_id) handleSkillSelection(room.skill_id);
       },
       getUser: () => state.authUser, getLanguage: () => state.languageId ?? 'en', localizeSkill,
       getStrings: getUIStrings, signIn: showAccountPanel,
       onMaterialChange: room => {
+        if(room.exercise_type==='mastery'){writeJsonStorage(LAST_SETUP_STORAGE_KEY,{exerciseType:'mastery',exerciseId:room.exercise_id,languageId:room.language_id,practiceMode:PRACTICE_MODES.GROUP});return;}
         writeJsonStorage(LAST_SETUP_STORAGE_KEY, {languageId:room.language_id, skillId:room.skill_id, caseId:room.case_id, practiceMode:PRACTICE_MODES.GROUP});
       },
       applyTheme: (element, skillId, difficulty) => applyVisualProperties(element, getCaseVisual(skillId, difficulty)),
-      onProgressChange: ({source}) => {
+      onProgressChange: ({source,exerciseType}) => {
+        state.progressExercise=exerciseType==='mastery'?'mastery':'single-skill';
         state.progressSource = source;
         progressRequestId++; state.progressRatingsLoading = false; state.progressRatingsLoaded = false;
       }});
     sections.room = roomView.element;
   }
-  const createConfig = mode === 'create' ? selectedCase ? selectedRoomConfig : async () => ({languageId: state.languageId ?? 'en'}) : null;
+  const createConfig = mode === 'create' ? masteryConfig ? async () => masteryConfig : selectedCase ? selectedRoomConfig : async () => ({languageId: state.languageId ?? 'en'}) : null;
   await roomView.show({mode, createConfig, resume: mode === 'resume', code});
 }
 async function prepareSelectedRoom() {
@@ -439,10 +446,58 @@ const state = {
   progressDifficulty: "all",
   progressPeriod: "recent",
   progressRatings: [],
+  masteryRatings: [],
+  progressExercise: "single-skill",
+  masteryRatingsError: false,
   progressRatingsLoading: false,
   progressRatingsLoaded: false,
   progressRatingsError: "",
 };
+
+
+let exerciseType = readJsonStorage('dp_exercise_type') === 'mastery' ? 'mastery' : 'single-skill';
+let masteryCapabilityRequest = 0;
+const mastery = createMasteryPractice({
+  getLanguage: () => state.languageId ?? 'en', getMode: () => state.practiceMode,
+  getUser: () => state.authUser, getRoom: () => roomSelection, localizeSkill, getStrings:getUIStrings,
+  show: () => showSection('mastery'), home: () => showSection('home'),
+  library: () => {renderSkillOptions();showSection('skill');},
+  onBegin: session => {state.sessionActive=false;clearPracticeSession();writeJsonStorage(LAST_SETUP_STORAGE_KEY,{exerciseType:'mastery',exerciseId:session.exerciseId,languageId:session.languageId,practiceMode:session.practiceMode==='shared'?PRACTICE_MODES.TRIAD:PRACTICE_MODES.INDIVIDUAL});},
+  onRoom: async config => {
+    if (roomSelection) await roomView.prepare(async () => config, roomSelection.id);
+    else await openSharedRoom('create',{masteryConfig:config});
+  },
+  onProgress: () => {state.progressExercise='mastery';progressRequestId++;state.progressRatingsLoaded=false;state.progressRatingsLoading=false;},
+  theme: (element,skillId,difficulty) => applyVisualProperties(element,getCaseVisual(skillId,difficulty))
+});
+sections.mastery=mastery.element;document.querySelector('main').append(mastery.element);
+function paintExerciseChoice(available) {
+ const no=state.languageId==='no',selected=exerciseType==='mastery' && available;
+ const single=document.getElementById('exercise-single'),mixed=document.getElementById('exercise-mastery');
+ single.textContent=no?'Én ferdighet':'Single skill';mixed.textContent=no?'Mestringsøving':'Mastery practice';
+ mixed.hidden=!available;single.setAttribute('aria-pressed',String(!selected));mixed.setAttribute('aria-pressed',String(selected));
+ elements.skillList.hidden=selected;document.getElementById('mastery-library').hidden=!selected;
+ elements.skillPanelDescription.hidden=selected;
+ if(selected)elements.skillPanelTitle.textContent=no?'Velg et kasus':'Choose a case';
+ else elements.skillPanelTitle.textContent=getUIStrings().skillHeading;
+ const host=document.getElementById('mastery-library');host.replaceChildren();
+ for(const exercise of EXERCISE_CATALOG) {
+  const button=document.createElement('button');button.type='button';button.className='card-button';button.dataset.exerciseId=exercise.id;
+  const title=document.createElement('strong');title.textContent=exercise.title[state.languageId??'en'];
+  const description=document.createElement('span');description.className='card-body';description.textContent=no?'Lett · 12 øyeblikk · 4 vurderinger':'Easy · 12 moments · 4 ratings';
+  button.append(title,description);applyVisualProperties(button,getCaseVisual('empathic-understanding',exercise.difficulty));
+  button.addEventListener('click',()=>void mastery.choose(exercise.id));host.append(button);
+ }
+}
+async function renderExerciseChoice() {
+ const request=++masteryCapabilityRequest,remote=state.practiceMode===PRACTICE_MODES.GROUP,userId=state.authUser?.id;
+ paintExerciseChoice(!remote);
+ if(!remote||!userId)return;
+ try {
+  const capability=await getMasteryCapabilities();
+  if(request===masteryCapabilityRequest&&state.authUser?.id===userId)paintExerciseChoice(EXERCISE_CATALOG.some(e=>supportsMastery(capability,e)));
+ }catch{/* Existing focused rooms stay available when capability lookup fails. */}
+}
 
 const SHUFFLE_ICON_SRC = `${import.meta.env.BASE_URL}assets/icons/shuffle.svg`;
 
@@ -515,6 +570,8 @@ const SKILL_VISUALS = {
     accent: "#4e803e",
     icon: "link"
   },
+  "consolidating-emotional-change": {accent:"#45806d",icon:"check"},
+  "closing-after-emotional-work": {accent:"#7b678f",icon:"anchor"},
   "empathic-refocusing": {
     accent: "#5e6877",
     icon: "return"
@@ -904,6 +961,7 @@ function getLastPracticeSetup() {
   const saved = readJsonStorage(LAST_SETUP_STORAGE_KEY);
   const languageId = state.languageId ?? saved?.languageId;
   if (!saved || !LANGUAGE_METADATA[languageId]) return null;
+  if(saved.exerciseType==='mastery'){const exercise=EXERCISE_CATALOG.find(e=>e.id===saved.exerciseId);return exercise?{exercise,languageId}:null;}
   const skill = localizeSkill(languageId, saved.skillId);
   const caseData = skill?.cases.find((item) => item.id === saved.caseId);
   return caseData ? { skill, caseData, languageId } : null;
@@ -913,11 +971,11 @@ function renderLastPracticeSetup() {
   const setup = getLastPracticeSetup();
   const card = releaseElements["last-setup-card"];
   const roomId = state.authUser && readJsonStorage(`dp_shared_room:${state.authUser.id}`);
-  card.hidden = !setup || Boolean(getSessionResumeDetails(state.resumeSession)) || Boolean(roomId) || document.body.dataset.section !== 'home';
+  card.hidden = !setup || Boolean(getSessionResumeDetails(state.resumeSession)) || mastery.hasSession() || Boolean(roomId) || document.body.dataset.section !== 'home';
   if (card.hidden) return;
   const strings = getUIStrings();
   releaseElements["last-setup-title"].textContent = strings.lastSetupTitle;
-  releaseElements["last-setup-details"].textContent = [setup.skill.name, setup.caseData.label,
+  releaseElements["last-setup-details"].textContent = [setup.exercise ? setup.exercise.title[setup.languageId] : setup.skill.name, setup.exercise ? "" : setup.caseData.label,
     state.practiceMode === PRACTICE_MODES.GROUP ? strings.homeGroup : state.practiceMode === PRACTICE_MODES.TRIAD ? strings.homeShared : strings.practiceModeIndividual
   ].filter(Boolean).join(" · ");
   releaseElements["repeat-last-setup"].textContent = strings.repeatLastSetup;
@@ -927,6 +985,7 @@ function repeatLastPracticeSetup() {
   const setup = getLastPracticeSetup();
   if (!setup || state.sessionActive || state.ratingVisible || getSessionResumeDetails(state.resumeSession)) return;
   if (!state.languageId) handleLanguageSelection(setup.languageId);
+  if(setup.exercise){void mastery.choose(setup.exercise.id);return;}
   handleSkillSelection(setup.skill.id);
   handleCaseSelection(setup.caseData.id);
 }
@@ -1355,6 +1414,15 @@ function renderSelfRatingsChart() {
   }
   if (!elements.selfChart || !elements.selfChartStatus) return;
 
+  renderMasteryHistory({host:document.getElementById("mastery-history"),rows:state.masteryRatings,source:state.progressSource,language:state.languageId??"en",loading:state.progressRatingsLoading,error:state.masteryRatingsError,signedIn:!!state.authUser});
+  const mixed=state.progressExercise==='mastery',no=state.languageId==='no';
+  document.getElementById('progress-single').textContent=no?'Én ferdighet':'Single skill';
+  document.getElementById('progress-mastery').textContent=no?'Mestringsøving':'Mastery practice';
+  document.getElementById('progress-single').setAttribute('aria-pressed',String(!mixed));
+  document.getElementById('progress-mastery').setAttribute('aria-pressed',String(mixed));
+  document.getElementById('mastery-history').hidden=!mixed||!state.authUser;
+  elements.selfChart.hidden=mixed;elements.selfChartStatus.hidden=mixed;
+  if(mixed)elements.selfChartDescription.textContent=no?'Vurderinger av øving med flere ferdigheter, adskilt fra ferdighetsradaren.':'Ratings of mixed-skill practice, separate from your skill radar.';
   elements.selfChart.innerHTML = "";
   if (!state.authUser) {
     elements.selfChartStatus.textContent = strings.selfChartSignIn ?? "Sign in to see your self-rating chart.";
@@ -1585,9 +1653,12 @@ async function loadProgressRatings({ force = false } = {}) {
   state.progressRatingsError = "";
   renderSelfRatingsChart();
   try {
-    const ratings = await listPracticeRatings({ source });
+    const [focused,mixed] = await Promise.allSettled([listPracticeRatings({source}),listMasteryRatings({source})]);
     if (!isCurrent()) return;
-    state.progressRatings = ratings;
+    state.masteryRatings = mixed.status==='fulfilled'?mixed.value:[];
+    state.masteryRatingsError = mixed.status==='rejected';
+    if(focused.status==='rejected')throw focused.reason;
+    state.progressRatings = focused.value;
     state.progressRatingsLoaded = true;
   } catch {
     if (isCurrent()) state.progressRatingsError = getUIStrings().selfChartError;
@@ -1731,6 +1802,7 @@ async function applyAuthSession(session) {
     state.progressDifficulty = "all";
     state.progressPeriod = "recent";
     state.progressRatings = [];
+    state.masteryRatings = [];state.masteryRatingsError=false;state.progressExercise="single-skill";
     state.progressRatingsLoading = false;
     state.progressRatingsLoaded = false;
     state.progressRatingsError = "";
@@ -2067,6 +2139,7 @@ function showSection(sectionKey) {
     el.hidden = !shouldShow;
   });
   document.body.dataset.section = sectionKey;
+  mastery.refreshResume();
   renderResumeCard();
   renderAuthUI();
   const heading = sections[sectionKey]?.querySelector("h2");
@@ -2439,6 +2512,7 @@ function highlightLanguageSelection(languageId) {
 }
 
 function renderSkillOptions() {
+  void renderExerciseChoice();
   elements.skillList.innerHTML = "";
   skillButtonMap.clear();
   const languageId = state.languageId ?? "en";
@@ -3797,6 +3871,7 @@ function handleLanguageSelection(languageId, {destination = 'skill'} = {}) {
 }
 
 function handleSkillSelection(skillId) {
+  exerciseType="single-skill";writeJsonStorage("dp_exercise_type",exerciseType);void renderExerciseChoice();
   state.sessionActive = false;
   state.roundTarget = null;
   state.roundRaterId = null;
@@ -3968,6 +4043,12 @@ function handleBackNavigation(targetKey) {
 function registerEventListeners() {
   document.getElementById('home-language').addEventListener('click', () => { languageDestination = 'home'; showSection('language'); });
   document.getElementById('language-home').addEventListener('click', () => showSection('home'));
+  for (const [id,type] of [['progress-single','single-skill'],['progress-mastery','mastery']]) {
+    document.getElementById(id).addEventListener('click',()=>{state.progressExercise=type;renderSelfRatingsChart();});
+  }
+  for (const [id,type] of [['exercise-single','single-skill'],['exercise-mastery','mastery']]) {
+    document.getElementById(id).addEventListener('click',()=>{exerciseType=type;writeJsonStorage('dp_exercise_type',type);void renderExerciseChoice();});
+  }
   document.getElementById('home-library').addEventListener('click', () => {
     if (state.languageId) { renderSkillOptions(); showSection('skill'); }
     else { languageDestination = 'skill'; showSection('language'); }

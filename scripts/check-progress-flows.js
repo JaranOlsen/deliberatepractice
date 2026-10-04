@@ -44,7 +44,10 @@ async (page) => {
     };
     export const getPracticeGoal = async scope => scope.skillId==='empathic-understanding' ? 'Pause before reflecting.' : '';
     export const savePracticeGoal = async s => s.text;
-    export const listPracticeRatings = async ({source}) => {
+    export const listMasteryRatings=async()=>[];
+      export const getMasteryCapabilities=async()=>null;
+      export const submitMasteryRating=async()=>{throw new Error('Unexpected mastery write');};
+      export const listPracticeRatings = async ({source}) => {
       const response = await fetch('/__dp_test_history?source=' + source);
       if (!response.ok) throw new Error('Unavailable');
       return response.json();
@@ -227,7 +230,7 @@ async (page) => {
     release();
     hold = false;
     await waitLoaded();
-    assert(await page.locator('.self-chart-dot').count() === 12, 'A repeated current-user session must not cancel progress loading');
+    assert(await page.locator('.self-chart-dot').count() === allSkills.length, 'A repeated current-user session must not cancel progress loading');
     await page.locator('#progress-source').selectOption('observer');
     await waitLoaded();
     await page.evaluate(async () => (await import('/deliberatepractice/src/js/backend.js')).repeatCurrentSession());

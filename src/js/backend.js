@@ -402,3 +402,39 @@ export async function watchPracticeRoom(roomId, onChange) {
     .subscribe(status => { if (status === 'SUBSCRIBED') onChange(); });
   return () => { client.removeChannel(channel); };
 }
+
+// Mastery is deliberately stored/read separately from focused skill progress.
+export async function getMasteryCapabilities() {
+  const client = await getSupabaseClient();
+  const {data,error} = await client.rpc('mastery_capabilities').abortSignal(AbortSignal.timeout(12000));
+  if (error?.code === 'PGRST202') return null;
+  if (error) throw normalizeSupabaseError(error);
+  return data;
+}
+export async function submitMasteryRating(payload) {
+  const client = await getSupabaseClient();
+  const {data,error} = await client.rpc('record_mastery_rating', {
+    input_language_id: payload.languageId, input_exercise_id: payload.exerciseId,
+    input_content_revision: payload.revision, input_parent_round_id: payload.roundId,
+    input_set_number: payload.setNumber, input_completed_scene_ids: payload.completedIds,
+    input_score: payload.score, input_practice_mode: payload.practiceMode
+  }).abortSignal(AbortSignal.timeout(12000));
+  if (error) throw normalizeSupabaseError(error);
+  return data;
+}
+export async function listMasteryRatings({source = 'self'} = {}) {
+  if (!['self','observer'].includes(source)) throw new Error('Unknown rating source');
+  const client = await getSupabaseClient();
+  const {data:{user},error:authError} = await client.auth.getUser();
+  if (authError) throw new Error('Unable to load mastery history');
+  if (!user) return [];
+  return collectRatingPages(async cursor => {
+    let query = client.from('mastery_ratings').select('id,source,language_id,exercise_id,content_revision,case_id,difficulty,parent_round_id,set_number,completed_scene_ids,practiced_skill_ids,item_count,score,created_at,practice_mode')
+      .eq('therapist_user_id',user.id).eq('source',source).order('created_at',{ascending:false}).order('id',{ascending:false}).limit(250);
+    if (cursor) query = query.or(`created_at.lt.${cursor.created_at},and(created_at.eq.${cursor.created_at},id.lt.${cursor.id})`);
+    const {data,error} = await query.abortSignal(AbortSignal.timeout(15000));
+    if (error?.code === 'PGRST205' || error?.code === '42P01') return [];
+    if (error) throw new Error('Unable to load mastery history');
+    return data ?? [];
+  });
+}

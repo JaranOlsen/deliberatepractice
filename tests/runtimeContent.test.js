@@ -30,7 +30,7 @@ test('runtime exercises preserve all English/Norwegian text, stable IDs and rati
       }
     }
   }
-  assert.equal(checked, 2592);
+  assert.equal(checked, 2664);
 });
 
 test('sharing case descriptions preserves library, skill guide, glossary and localized case content', () => {
@@ -47,7 +47,7 @@ test('sharing case descriptions preserves library, skill guide, glossary and loc
       const original = cases[caseId];
       for (const [key, value] of Object.entries(manifest.cases[caseId])) assert.deepEqual(value, original[key]);
       assert.equal(manifest.statementCounts[skillId][caseId], original.statements.length);
-      assert.deepEqual(runtimeCases[caseId] ?? manifest.CASE_OVERRIDES[language][caseId] ?? {}, sourceCases[caseId] ?? {});
+      assert.deepEqual(runtimeCases[caseId] ?? manifest.CASE_OVERRIDES[language][caseId] ?? {}, sourceCases[caseId] ?? LANGUAGE_OVERRIDES[language]?.[SKILL_ORDER[0]]?.cases?.[caseId] ?? {});
     }
   }
 });

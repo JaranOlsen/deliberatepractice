@@ -11,7 +11,10 @@
     "staying-in-contact-intense-affect",
     "self-disclosure",
     "marker-recognition-chairwork",
-    "alliance-repair"
+    "alliance-repair",
+    "empathic-refocusing",
+    "consolidating-emotional-change",
+    "closing-after-emotional-work"
   ],
   "CASE_ORDER": {
     "therapist-self-awareness": [
@@ -145,10 +148,69 @@
       "case-aisha",
       "case-david",
       "case-marcus"
+    ],
+    "empathic-refocusing": [
+      "case-sara"
+    ],
+    "consolidating-emotional-change": [
+      "case-sara"
+    ],
+    "closing-after-emotional-work": [
+      "case-sara"
     ]
   },
-  "CONTENT_REVISION": "2026-10-04-v3",
+  "CONTENT_REVISION": "2026-10-04-v4",
   "CONTENT_UPDATED_AT": "2026-10-04",
+  "FOCUSED_CONTENT_COMPATIBILITY": {
+    "2026-10-04-v3": [
+      "therapist-self-awareness",
+      "empathic-understanding",
+      "empathic-affirmation-validation",
+      "exploratory-questions",
+      "providing-treatment-rationale",
+      "empathic-explorations",
+      "empathic-evocations",
+      "empathic-conjectures",
+      "staying-in-contact-intense-affect",
+      "self-disclosure",
+      "marker-recognition-chairwork",
+      "alliance-repair"
+    ]
+  },
+  "EXERCISE_CATALOG": [
+    {
+      "id": "mastery-sara-evenings",
+      "type": "mastery",
+      "caseId": "case-sara",
+      "difficulty": "easy",
+      "revision": "2026-10-04-v4",
+      "supportedLevels": [
+        "easy"
+      ],
+      "title": {
+        "en": "Sara · Finding room for the evening",
+        "no": "Sara · Mer rom i kvelden"
+      },
+      "orientation": {
+        "en": "Twelve linked practice moments. Use the prompted skill, then give feedback and retry. The next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øvingsøyeblikk. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_sara_evenings_01",
+        "mastery_sara_evenings_02",
+        "mastery_sara_evenings_03",
+        "mastery_sara_evenings_04",
+        "mastery_sara_evenings_05",
+        "mastery_sara_evenings_06",
+        "mastery_sara_evenings_07",
+        "mastery_sara_evenings_08",
+        "mastery_sara_evenings_09",
+        "mastery_sara_evenings_10",
+        "mastery_sara_evenings_11",
+        "mastery_sara_evenings_12"
+      ]
+    }
+  ],
   "LANGUAGE_ORDER": [
     "en",
     "no"
@@ -1393,7 +1455,10 @@
       "staying-in-contact-intense-affect": {},
       "self-disclosure": {},
       "marker-recognition-chairwork": {},
-      "alliance-repair": {}
+      "alliance-repair": {},
+      "empathic-refocusing": {},
+      "consolidating-emotional-change": {},
+      "closing-after-emotional-work": {}
     },
     "no": {
       "therapist-self-awareness": {
@@ -1503,6 +1568,33 @@
         "aim": "Gjenopprette trygghet, tillit og samarbeid ved å ta imot bruddsignaler med empati, validere klientens reaksjoner og eie din del der det er relevant. Fjerne hindringer i relasjonen slik at klienten igjen kan våge seg inn i sårbare primærfølelser og kjernesmerte innenfor en trygg, terapeutisk ramme.",
         "practiceFocus": "Hør klientens opplevelse, ta ansvar for din del der det er relevant, og tilby én konkret endring i samarbeidet.",
         "commonMiss": "Å forklare intensjonen din for tidlig, gå i forsvar eller hoppe tilbake til teknikk før reparasjonen har landet."
+      },
+      "empathic-refocusing": {
+        "name": "Empatisk refokusering",
+        "description": "Inviter tilbake til en følelse som var på vei frem, når samtalen beveger seg bort fra den.",
+        "summary": "Legg merke til at samtalen beveger seg bort fra en følelse som var i ferd med å komme frem. Knytt invitasjonen til akkurat det øyeblikket, fremfor å kalle klienten unnvikende. En spøk, en praktisk bekymring eller et temaskifte kan ha flere betydninger. Undersøk før du antar at det er beskyttelse.\n\nTilby en liten, valgfri tilbakevending. Klienten kan ønske å fortsette med det nye temaet, senke tempoet eller stoppe. Refokusering skal støtte kontakt med opplevelsen, ikke terapeutens foretrukne agenda. Ta imot en korrigering hvis invitasjonen ikke passer, og følg det som er viktig for klienten.",
+        "marker": "En følelse som kommer frem, viker for analyse, en spøk eller et annet tema. Det finnes nok holdepunkter til å undersøke om det forrige øyeblikket fortsatt er viktig.",
+        "aim": "Hjelp klienten å velge om hen vil vende tilbake til et bestemt følelsesmessig øyeblikk, uten å skape skam eller overstyre et praktisk behov.",
+        "practiceFocus": "Vis til øyeblikket dere nettopp forlot, og inviter varsomt tilbake, med rom for å si nei.",
+        "commonMiss": "Å kalle et temaskifte unnvikelse, eller styre tilbake før du har hørt hvorfor det nye temaet er viktig."
+      },
+      "consolidating-emotional-change": {
+        "name": "Konsolidering av emosjonell endring",
+        "description": "Hjelp klienten å kjenne igjen en liten endring og finne en måte å ta den med seg på.",
+        "summary": "Begynn med en endring klienten selv merker: en mildere holdning til seg selv, et tydeligere behov eller en ny betydning. Speil den med klientens ord, og inviter til å kjenne etter hva som er annerledes. Ikke erklær et gjennombrudd eller krev en positiv følelse. Lettelse kan finnes sammen med sorg, tvil eller en praktisk situasjon som er uendret.\n\nHjelp klienten å finne egne ord for endringen og, når det passer, en liten måte å huske eller øve på den utenfor timen. La klienten velge. Konsolidering betyr ikke å gi hjemmeoppgaver med en gang, love at endringen vil vare eller behandle usikkerhet som et nederlag.",
+        "marker": "Klienten merker en liten forskjell i følelse, betydning eller forholdet til seg selv, ofte sammen med tvil om den vil vare.",
+        "aim": "Gjør den begynnende endringen gjenkjennelig og personlig meningsfull, uten å gjøre den større eller bestemme neste steg.",
+        "practiceFocus": "Bli ved endringen klienten beskriver; hjelp hen å finne egne ord å ta med seg.",
+        "commonMiss": "Å feire et gjennombrudd klienten ikke har beskrevet, eller skynde seg til råd."
+      },
+      "closing-after-emotional-work": {
+        "name": "Avslutning etter emosjonelt arbeid",
+        "description": "Finn et håndterbart sted å stoppe, samtidig som det uferdige får plass.",
+        "summary": "Ta tiden inn i samtalen på en vennlig og tydelig måte. Hør hvordan klienten har det nå, også hvilke følelser eller hvilket uferdig arbeid som er igjen. Mot slutten bør du unngå å åpne et nytt smertefullt tema bare for å fullføre en teknikk. En time kan slutte mens sorgen fortsatt er der.\n\nBli enige om et avgrenset sted å stoppe og et realistisk neste steg: en pause for å orientere seg, en kort oppsummering med klientens ord, eller hva dere kan vende tilbake til neste gang. Undersøk hva klienten trenger for overgangen ut av rommet, fremfor å foreskrive et ritual. Vær ærlig om tid, kontakt og tilgjengelighet. Akutte sikkerhetsbekymringer må møtes direkte; disse eksemplene erstatter ikke vurdering eller en sikkerhetsplan.",
+        "marker": "Timen nærmer seg slutten mens klienten fortsatt er berørt, usikker eller oppmerksom på noe uferdig.",
+        "aim": "Støtt en tydelig overgang i samarbeid med klienten, uten å antyde at følelsen må forsvinne eller arbeidet må være ferdig.",
+        "practiceFocus": "Anerkjenn det som er igjen, nevn tiden og finn et håndterbart sted å stoppe sammen.",
+        "commonMiss": "Å avslutte brått, åpne mer materiale eller love ubegrenset tilgjengelighet."
       }
     }
   },
@@ -1614,6 +1706,33 @@
       "aim": "Re-establish safety, trust, and collaboration by openly receiving rupture feedback, validating the client’s feelings, and owning your part where relevant. Clear obstacles in the relationship so the client can again engage vulnerably with their primary emotions and core pain in a secure therapeutic context.",
       "practiceFocus": "Hear the client’s experience, own your part where relevant, and offer one concrete adjustment together.",
       "commonMiss": "Explaining your intention too soon, defending yourself, or moving back to technique before repair lands."
+    },
+    "empathic-refocusing": {
+      "name": "Empathic Refocusing",
+      "description": "Invite a return to an emerging feeling when the conversation moves away from it.",
+      "summary": "Notice a shift away from a feeling that was beginning to emerge. Link your invitation to that specific moment rather than labeling the client as avoidant. A joke, practical concern or change of subject can have several meanings; check before assuming it is protection.\n\nOffer a small, optional return. The client may want to stay with the new topic, slow down or stop. Refocusing serves contact with experience, not the therapist’s preferred agenda. If your invitation does not fit, accept the correction and follow what matters to the client.",
+      "marker": "An emerging feeling gives way to analysis, a joke or another topic. There is enough evidence to check whether the earlier moment still matters.",
+      "aim": "Help the client choose whether to return to a particular emotional moment without shaming the shift or overriding a practical need.",
+      "practiceFocus": "Refer to the moment just left and invite a small return, with room to decline.",
+      "commonMiss": "Calling a tangent avoidance, or redirecting before hearing why the new topic matters."
+    },
+    "consolidating-emotional-change": {
+      "name": "Consolidating Emotional Change",
+      "description": "Help the client recognize a small shift and consider how to carry it forward.",
+      "summary": "Begin with a change the client actually notices: a softer stance toward themselves, a clearer need or a different meaning. Reflect it in their terms, then invite them to sense what is different. Do not announce a breakthrough or require a positive feeling. Relief can coexist with grief, doubt or an unchanged practical situation.\n\nHelp the client find their own words for the shift and, when useful, a small way to remember or practise it outside the session. Let them choose. Consolidation does not mean setting homework immediately, promising that a change will last or treating uncertainty as failure.",
+      "marker": "The client notices a small difference in feeling, meaning or how they relate to themselves, often alongside doubt about whether it will last.",
+      "aim": "Make the emerging change recognizable and personally meaningful without enlarging it or prescribing what comes next.",
+      "practiceFocus": "Stay with the shift the client names; help them put it into words they can carry.",
+      "commonMiss": "Celebrating a breakthrough the client has not claimed, or rushing into advice."
+    },
+    "closing-after-emotional-work": {
+      "name": "Closing After Emotional Work",
+      "description": "Agree on a manageable stopping point while acknowledging what remains.",
+      "summary": "Bring time into the conversation kindly and clearly. Hear how the client is now, including emotion or unfinished work that remains. Near the end, avoid opening a new painful thread simply to finish the technique. A session can end with sadness still present.\n\nAgree on a bounded stopping point and a realistic next step: a pause to orient, a brief summary in the client’s words, or what to return to next time. Check what they need for the transition out of the room rather than prescribe a ritual. Be honest about time, contact and availability. Immediate safety concerns require direct attention; these examples do not replace assessment or a safety plan.",
+      "marker": "The end of the session is approaching while the client remains emotional, uncertain or aware of unfinished work.",
+      "aim": "Support a clear, collaborative transition without implying that the feeling must disappear or the work must be resolved.",
+      "practiceFocus": "Acknowledge what remains, name the time and agree on a manageable stopping point.",
+      "commonMiss": "Abruptly ending, opening more material, or promising unlimited availability."
     }
   },
   "cases": {
@@ -1624,6 +1743,9 @@
       "difficultyLabel": "Easy",
       "tier": "free",
       "teaser": "Marketing associate whose breakup reactivated old loneliness and shame.",
+      "supportedLevels": [
+        "easy"
+      ],
       "history": "Sara is a 28-year-old junior marketing professional who appears composed at work while privately spiraling after a breakup that reignites childhood abandonment pain from emotionally distant parents.",
       "schema": "If I am not perfect or needed, people leave because I am unlovable.",
       "corePain": "Shame-laced loneliness and fear of abandonment rooted in emotional distance from caregivers.",
@@ -1638,6 +1760,9 @@
       "difficultyLabel": "Easy",
       "tier": "free",
       "teaser": "Tech manager whose anger protects a lifelong fear of inadequacy.",
+      "supportedLevels": [
+        "easy"
+      ],
       "history": "Michael is a 35-year-old middle manager whose quick temper is straining his marriage and work relationships; criticism from others instantly revives the shame he carried growing up with a demanding, emotionally distant father.",
       "schema": "If I am not in control and impeccable, I will be exposed as weak and rejected.",
       "corePain": "Humiliation, inadequacy, and fear of exposure linked to a critical father and conditional worth.",
@@ -1652,6 +1777,9 @@
       "difficultyLabel": "Easy",
       "tier": "free",
       "teaser": "Recent grad gripped by social anxiety and core shame about belonging.",
+      "supportedLevels": [
+        "easy"
+      ],
       "history": "Jason is a 24-year-old analyst who freezes in meetings and avoids social invitations; bullying and anxious caregiving in childhood left him convinced he is defective and destined to be alone.",
       "schema": "If people really see me, they will confirm I am awkward and unworthy.",
       "corePain": "Defectiveness, awkwardness, and fear of exposure learned through bullying and anxious caregiving.",
@@ -1666,6 +1794,9 @@
       "difficultyLabel": "Moderate",
       "tier": "pro",
       "teaser": "Nurse living behind emotional numbness after childhood trauma and divorce.",
+      "supportedLevels": [
+        "moderate"
+      ],
       "history": "Laura is a 45-year-old nurse and recent divorcee who presents with chronic emptiness, panic flashes, and a history of childhood abuse that taught her intimacy equals danger and shame.",
       "schema": "If I let my guard down, I will be hurt or abandoned because I am damaged.",
       "corePain": "Trauma-linked fear, shame, and loneliness around being damaged and unsafe in closeness.",
@@ -1680,6 +1811,9 @@
       "difficultyLabel": "Moderate",
       "tier": "pro",
       "teaser": "Construction supervisor whose rage masks humiliation and fear.",
+      "supportedLevels": [
+        "moderate"
+      ],
       "history": "Carlos is a 30-year-old construction supervisor who goes from calm to destructive in seconds; growing up with violence taught him strength means never feeling small, so shame and fear surface as explosive anger.",
       "schema": "If I am not the toughest in the room, I will be disrespected and hurt.",
       "corePain": "Humiliation, fear, and smallness covered by toughness learned in violent environments.",
@@ -1694,6 +1828,9 @@
       "difficultyLabel": "Moderate",
       "tier": "pro",
       "teaser": "Self-sacrificing teacher whose depression hides unmet needs and resentment.",
+      "supportedLevels": [
+        "moderate"
+      ],
       "history": "Nina is a 40-year-old teacher and mother who faints from stress, juggles everyone's needs, and collapses into guilt whenever she feels anger or asks for help.",
       "schema": "If I stop taking care of everyone, I will be abandoned and prove I am selfish.",
       "corePain": "Fear that expressing needs or anger makes her selfish, unworthy, and abandonable.",
@@ -1708,6 +1845,9 @@
       "difficultyLabel": "Hard",
       "tier": "pro",
       "teaser": "Young woman with borderline dynamics battling annihilating abandonment terror.",
+      "supportedLevels": [
+        "hard"
+      ],
       "history": "Aisha is a 26-year-old with a history of foster care, self-harm, and intense relationships; perceived distancing unleashes panic, rage, and desperate bids to keep people close.",
       "schema": "If someone steps back, it means I am unlovable and I will be left alone forever.",
       "corePain": "Annihilating fear of abandonment and unlovability shaped by foster care and traumatic instability.",
@@ -1722,6 +1862,9 @@
       "difficultyLabel": "Hard",
       "tier": "pro",
       "teaser": "High-achieving executive whose grandiosity hides fragile shame.",
+      "supportedLevels": [
+        "hard"
+      ],
       "history": "David is a 42-year-old finance leader whose marriage is collapsing; conditional childhood love left him chasing perfection and raging when anyone highlights his flaws.",
       "schema": "If I am not exceptional, I am worthless and will be discarded.",
       "corePain": "Worthlessness and shame hidden beneath status striving and control.",
@@ -1736,6 +1879,9 @@
       "difficultyLabel": "Hard",
       "tier": "pro",
       "teaser": "Combat veteran numbed by complex trauma and haunted by lonely grief.",
+      "supportedLevels": [
+        "hard"
+      ],
       "history": "Marcus is a 34-year-old veteran and security guard who lives alone, cycles between numbness and flashbacks, and struggles to trust anyone after repeated betrayals and battlefield losses.",
       "schema": "Letting people close guarantees hurt, so it is safer to feel nothing.",
       "corePain": "Frozen grief, fear, shame, and survivor burden hidden under numbness and withdrawal.",
@@ -1876,6 +2022,15 @@
       "case-aisha": 12,
       "case-david": 12,
       "case-marcus": 12
+    },
+    "empathic-refocusing": {
+      "case-sara": 12
+    },
+    "consolidating-emotional-change": {
+      "case-sara": 12
+    },
+    "closing-after-emotional-work": {
+      "case-sara": 12
     }
   }
 }

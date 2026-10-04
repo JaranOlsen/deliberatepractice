@@ -1,10 +1,10 @@
-export const SESSION_VERSION = 3;
+export const SESSION_VERSION = 4;
 
 // Older builds also stored a fresh case brief after finishing. That is a
 // remembered setup, not unfinished practice, and must not produce a Resume card.
 export function isResumableSession(session) {
   if (!session?.languageId || !session.skillId || !session.caseId) return false;
-  if (session.version === SESSION_VERSION) return session.status === "active";
+  if ([3, SESSION_VERSION].includes(session.version)) return session.status === "active";
   return [1, 2].includes(session.version)
     && (session.view === "statements" || session.completedStatementIds?.length > 0);
 }
