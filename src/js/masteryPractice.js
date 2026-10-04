@@ -3,6 +3,7 @@ import {EXERCISE_CATALOG, loadMasteryExercise, masteryRoomConfig} from './master
 import {submitMasteryRating, getMasteryCapabilities} from './backend.js';
 import {createGroupWorkflow, createGroupRoleGuide} from './groupPracticeUI.js';
 import {createMasteryFeedback, node} from './masteryFeedbackUI.js';
+import {createLevelChoice, rememberCaseLevel, levelLabel} from './practiceLevels.js';
 import {createSkillFeedback} from './skillFeedbackUI.js';
 
 const KEY='dp_mastery_session';
@@ -20,7 +21,7 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
  const element=node('section','', 'panel mastery-panel is-hidden');element.id='mastery-practice';element.hidden=true;
  const resumeCard=node('section','', 'resume-card mastery-resume');resumeCard.id='mastery-resume';
  document.getElementById('practice-home').append(resumeCard);
- let exercise=null,session=null,role='client',busy=false,cloud=false,generation=0;
+ let exercise=null,session=null,role='client',busy=false,cloud=false,generation=0,variants=[];
  const s=()=>copy[session?.languageId ?? getLanguage() ?? 'en'];
  const lang=()=>session?.languageId ?? getLanguage() ?? 'en';
  const shared=()=>session?.practiceMode==='shared';
@@ -36,7 +37,10 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
   resumeCard.append(node('h3',strings.resume),node('p',`${EXERCISE_CATALOG.find(e=>e.id===saved.exerciseId).title[saved.languageId]} · ${saved.index+1}/12`));
   resumeCard.append(button(strings.resume,()=>void resume(),true,'resume-mastery'),button(strings.clear,()=>{write(KEY,null);session=null;refreshResume();}));
  }
- function caseData(){return localizeSkill(lang(),'empathic-understanding').cases.find(c=>c.id===exercise.caseId);}
+ function caseData(){return localizeSkill(lang(),'empathic-understanding',exercise.difficulty).cases.find(c=>c.id===exercise.caseId);}
+ function levelChoice() {
+  return createLevelChoice({caseData:{...caseData(),supportedLevels:variants.map(e=>e.difficulty)},value:exercise.difficulty,language:lang(),onChange:level=>void choose(variants.find(e=>e.difficulty===level).id)});
+ }
  function roleButtons() {
   const tabs=node('div','', 'mastery-role-tabs');tabs.setAttribute('aria-label',s().shared);
   for(const value of session.pair ? ['client','therapist'] : ['client','therapist','observer']){
@@ -49,7 +53,7 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
   if(!full)card.append(node('summary',ui.roleBriefHeading));
   card.append(node('p',c.teaser));
   const facts=node('dl','', 'case-role-list');
-  for(const [label,value] of [[ui.schemaLabel,c.schema],[ui.corePainLabel,c.corePain],[ui.styleLabel,c.style],[ui.casePracticeEdgeLabel,c.practiceEdge]]){
+  for(const [label,value] of [[c.schemaLabel,c.schema],[ui.corePainLabel,c.corePain],[ui.styleLabel,c.style],[ui.casePracticeEdgeLabel,c.practiceEdge]]){
    const row=node('div','', 'case-role-item');row.append(node('dt',label),node('dd',value));facts.append(row);
   }
   card.append(facts,node('h4',ui.clientVoiceHeading,'case-section-title'),node('p',c.voice));body.append(card);
@@ -66,11 +70,15 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
   try {
    const result=await loadMasteryExercise(getLanguage()??'en',id);
    if(current!==generation)return;exercise=result;
-   const user=getUser();cloud=false;
-   if(user) {try {cloud=supportsMastery(await getMasteryCapabilities(),exercise);} catch {/* Downloaded local practice remains usable without a connection. */}}
+   const user=getUser();cloud=false;let capability=null;
+   if(user) {try {capability=await getMasteryCapabilities();cloud=supportsMastery(capability,exercise);} catch {/* Downloaded local practice remains usable without a connection. */}}
    if(current!==generation)return;
+   variants=EXERCISE_CATALOG.filter(e=>e.caseId===exercise.caseId && (getMode()!=='group'||supportsMastery(capability,e)));
+   rememberCaseLevel({id:exercise.caseId,supportedLevels:EXERCISE_CATALOG.filter(e=>e.caseId===exercise.caseId).map(e=>e.difficulty)},exercise.difficulty);
    if(getMode()==='group') {
-    const body=node('div');body.append(node('h2',exercise.title),node('p',exercise.orientation));
+    const body=node('div');body.append(node('h2',exercise.title),node('p',levelLabel(lang(),exercise.difficulty),'room-case-heading'),node('p',exercise.orientation));
+    theme?.(element,'empathic-understanding',exercise.difficulty);
+    const choice=levelChoice();if(choice)body.append(choice);
     background(body,true);
     if(cloud)body.append(button(getRoom?.()?s().room:s().create,()=>void onRoom(masteryRoomConfig(exercise,getLanguage()??'en')),true,'mastery-use-room'));
     else body.append(node('p',s().upgrade,'form-status'));
@@ -121,6 +129,7 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
   if(shared())body.append(roleButtons());
   const actions=node('div','', 'room-actions mastery-actions');
   if(session.phase==='preparation') {
+   const choice=levelChoice();if(choice)body.append(choice);
    body.append(node('p',strings.orientation,'triad-progress'));
    if(shared()){
     const label=node('label','', 'mastery-account-confirm'),check=node('input');check.type='checkbox';check.checked=session.pair;

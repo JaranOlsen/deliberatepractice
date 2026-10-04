@@ -1,9 +1,241 @@
 {
-  "generatedAt": "2026-10-04T11:14:38.730Z",
+  "generatedAt": "2026-10-04T12:44:20.267Z",
   "revision": "2026-10-04-v4",
   "duplicateStatementCount": 0,
-  "skillPurityWarningCount": 0,
-  "reviewQueueCount": 0,
+  "skillPurityWarningCount": 33,
+  "reviewQueueCount": 33,
   "duplicateStatements": [],
-  "skillPurityWarnings": []
+  "skillPurityWarnings": [
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_05",
+      "skillId": "empathic-understanding",
+      "caseId": "case-arne",
+      "rule": "empathic_understanding_should_not_default_to_question",
+      "suggestion": "The enjoyment feels out of place in this changed life, rather than simply wrong. Is that closer?"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_03",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Those days demanded constant attention. Enjoying a break from that demand doesn’t have to erase your care for her."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_05",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Her visits matter to you. Missing them doesn’t mean you’re asking her to give up her own life."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_07",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You’re remembering a real relationship, with love and disagreements. You don’t have to make it flawless for it to have mattered."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_09",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Caring could exhaust you while you loved her. Both deserve to be heard."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_10",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "That moment of enjoyment can belong in your day alongside your love and grief. It needn’t be a verdict on either."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_11",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can need a break from explaining yourself, even when people mean well."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_12",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "It sounds like a way you keep her close. We can be curious about what it means to you without calling it wrong."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_02",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can miss Ingrid and not miss the strain of those visits. They aren’t the same thing."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_03",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can want company and later need quiet. Changing needs don’t make you impossible."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_05",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "A memory can bring affection and loss together. You don’t need to choose one feeling for it to make sense."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_07",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Unfinished anger can remain in a relationship that mattered. Hearing it needn’t mean putting her on trial."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_09",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can cherish her and need a break from performing cheerful memories for other people."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_10",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "A hard day doesn’t make yesterday’s enjoyment false. Both can be part of these days."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_11",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Saying no may have met one need, while loneliness remained. That doesn’t mean your choice was foolish."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_12",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can seek help and keep authority over how you remember Ingrid. Both belong here."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_03",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "We can hear the need for your own time without rushing to a verdict about you."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_04",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Permission alone doesn’t reach what happens inside. The guilt is still worth understanding."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_05",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can leave the decision open today without making a promise about forever."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_06",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "The anger itself matters alongside the love. We don’t need to replace it with something easier to hear."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_07",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can ask for company and keep parts of the story private. You don’t owe the whole account."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_08",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Her grief matters, and your needs matter too. You needn’t disappear from the relationship to protect her."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_09",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You found yourself checking for a feeling. You don’t have to produce one here for us to take this seriously."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_11",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "A bearable Thursday is a valid place to work. You don’t have to want a final resolution."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_12",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-arne",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "The gratitude can stand alongside what was difficult. Neither needs to cancel the other."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_02",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-arne",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "We could explore what enjoying it seems to say about your love for Ingrid, and see whether that meaning fits."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_10",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-arne",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "One evening gives us a manageable place to start. It may show what is hardest and what support you want then."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_08",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-arne",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "Not everything. I noticed a change and want to check it with you, rather than decide what the laugh means."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_12",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-arne",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "Not to make it bigger. We could understand what shifted and what you want to keep, without promising it will stay that way."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_02",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-arne",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "They can be messy. This is a way to explore, not a rule that every feeling has one neat message."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_03",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-arne",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "We might understand a difficult moment and find what would support you in it. I can’t promise acceptance, and it isn’t a required outcome."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_05",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-arne",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "That concern matters. Treat any prompt as an invitation, and tell me if nothing fits. We should follow your experience, not produce a feeling."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_07",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-arne",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "Let’s start there. Emotional exploration is optional; practical support can be useful without a deeper memory first."
+    }
+  ]
 }

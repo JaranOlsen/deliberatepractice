@@ -12,7 +12,7 @@ import {
 const output = new URL('../src/data/runtime/', import.meta.url);
 const pick = (value, keys) => Object.fromEntries(keys.map(key => [key, value[key]]));
 const caseFields = ['id', 'label', 'difficulty', 'difficultyLabel', 'tier', 'teaser',
-  'supportedLevels', 'history', 'schema', 'corePain', 'practiceEdge', 'style', 'voice'];
+  'supportedLevels', 'history', 'schema', 'schemaLabel', 'corePain', 'practiceEdge', 'style', 'voice'];
 const statementFields = ['id', 'track', 'revision', 'criteriaTags', 'text', 'suggestion'];
 const skills = {};
 const cases = {};
@@ -60,6 +60,7 @@ for (const language of LANGUAGE_ORDER) {
     for (const caseId of CASE_ORDER[skillId]) {
       skillCases[caseId] = BASE_PRACTICE[skillId].cases[caseId].statements.map(item => {
         const entry = pick(item, statementFields);
+        if (BASE_PRACTICE[skillId].cases[caseId].supportedLevels.length > 1) entry.difficulty = item.difficultyTier;
         const translation = language !== 'en' && item.revision === STATEMENT_TRANSLATION_REVISION
           ? STATEMENT_TRANSLATIONS[language]?.[item.id] : null;
         if (typeof translation === 'string') entry.text = translation;

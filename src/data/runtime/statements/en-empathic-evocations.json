@@ -1312,5 +1312,439 @@
       "text": "[Guarded] I recognised the handwriting on the envelope. Put it in a drawer. Haven't opened it. Don't want it in sight either.",
       "suggestion": "That familiar writing seems to bring something close enough that you need a drawer between you and it."
     }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] I make coffee. One cup now. That’s how mornings go.",
+      "suggestion": "Almost as though the morning still sets a place for two, and you meet the empty one. Does that capture it?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] There’s nobody to show the repaired gate to. Just a gate that works.",
+      "suggestion": "The job is finished, but the little moment of calling her over has nowhere to go. Is it like that?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Matter-of-fact] Her side of the wardrobe is still full. Mine hasn’t changed either.",
+      "suggestion": "Two sides still waiting there, though only one person gets dressed. What is that like for you?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] After Liv leaves, I turn the radio up. It fills the time.",
+      "suggestion": "Maybe the radio puts a voice into the space her leaving opens. Does that fit, or not quite?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] Her recipe is in the drawer. Grease mark and all.",
+      "suggestion": "That mark is almost a little trace of her standing there, cooking. What happens as you picture it?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] The bed is easier to make. Half of it isn’t used.",
+      "suggestion": "That neat, untouched half can say she’s missing without any words. Is that close to your experience?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Matter-of-fact] I listen for her when a floorboard creaks. Then I remember.",
+      "suggestion": "For a second, the familiar sound almost brings her into the next room. Then the quiet returns. Does that fit?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] I keep the photograph where I can see it from the chair.",
+      "suggestion": "A familiar face keeping a place in the room with you. Is that what having it there offers?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] At the workshop I forgot to check the time. I used to check it constantly.",
+      "suggestion": "For that afternoon, the clock loosened its grip. What is it like to put it that way?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Matter-of-fact] I have small things to tell her. Weather. Knut’s joke.",
+      "suggestion": "Those little pieces of your day still turn toward her. Does that sound right?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] Sundays are long. I look at the time until dinner.",
+      "suggestion": "Almost as though Sunday has lost its familiar gathering point. Is that the long feeling?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] Her handwriting is still on the label. Mine is underneath.",
+      "suggestion": "Your two handwritings still side by side. Could we pause with what you notice seeing them?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] A quiet breakfast. Nice, objectively. Then the guilt starts.",
+      "suggestion": "Almost as though a small bit of peace is allowed in, then stopped at the door. Does that capture anything?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] I’m off duty now. Strange phrase for your wife, but there it is.",
+      "suggestion": "The watch has ended, while being her husband hasn’t simply ended inside you. Is that close?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Matter-of-fact] The workshop is noisy. Home isn’t. That’s the difference.",
+      "suggestion": "Coming from voices and tools into a room where nobody answers—what is that contrast like?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] I keep her coat, but move my own things around it.",
+      "suggestion": "You’re making room to live around something of her you want nearby. Does that image fit?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] I tell the good story about her. People like that one.",
+      "suggestion": "Almost a polished story you can hand over, while other parts stay with you. Is that how it feels?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Dryly] Liv visits. I put my capable face on. We have tea.",
+      "suggestion": "As if the visit has a place for the capable Arne, but not much space for the lonely one. Does that fit?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] The laugh was there, the guilt was there. A busy afternoon.",
+      "suggestion": "Enjoyment with a shadow arriving beside it. Is “shadow” close, or does another image fit better?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] I sleep now. The house doesn’t need me awake.",
+      "suggestion": "A quiet house, with no call to get up for. What is it like to picture that change?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Matter-of-fact] There’s a list of unfinished jobs. Nothing urgent. I read it anyway.",
+      "suggestion": "Almost something to hold onto when the day has lost its familiar shape. Does that come close?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] I can remember her laughing or remember the illness. Different files.",
+      "suggestion": "Two parts of your life with her kept apart, perhaps because bringing them together feels difficult. Is it like that?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] Knut’s offer is there. I don’t use it.",
+      "suggestion": "A door left open, with you still outside it. Does that image fit, or is it different?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] Sundays are either full of visitors or entirely empty.",
+      "suggestion": "As if there’s no comfortable middle space yet. Does that describe what you’re missing?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant, firm] The chair is empty. Don’t make it a symbol of my whole life.",
+      "suggestion": "We can keep it to this chair, this evening. What is it like to picture the room at that small scale?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] Home after the workshop feels like changing languages. Don’t know what I mean.",
+      "suggestion": "Perhaps the afternoon has voices that don’t carry into the house. Is that close, or would you keep your own image?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Watchful] No “waves of grief,” please. It’s more ordinary than that.",
+      "suggestion": "Then let’s keep it ordinary: making coffee and finding only your cup there. Does that moment fit today?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] I tell a cheerful story and feel myself leave the room a little.",
+      "suggestion": "Almost as if the story is present while part of you stands back. Does that fit, or is “leave” different?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Dryly] I’m off duty. Don’t call it freedom; that’s too grand.",
+      "suggestion": "Off duty may be the right size: no next task waiting, and an unfamiliar pause. What is that pause like?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] Her recipe looks like a conversation I can’t finish.",
+      "suggestion": "A line from her still on the page, with your reply having nowhere to reach her. Is that close to your image?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] The good day doesn’t fit. Like a key to the old lock.",
+      "suggestion": "There’s enjoyment, and the familiar way of letting it belong doesn’t work as before. Does that follow your key image?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Watchful] I can picture her laughing. I won’t recreate her last days for you.",
+      "suggestion": "We can stay with the laugh only. Is there one ordinary detail of it you want to bring close?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] I can put the coat away. It’s the hallway afterward I can’t picture.",
+      "suggestion": "Perhaps the changed hallway feels like stepping into something not yet familiar. Does that capture anything?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant, half-smile] My hands know the workbench. The rest of me is less certain.",
+      "suggestion": "Your hands finding a familiar task while the rest catches up—does that image fit your afternoon?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Dryly] Visitors fill the room. They don’t always fill the lonely part.",
+      "suggestion": "People all around, with a space in the conversation where you’re still missing company. Is that near it?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Quiet, distant] I don’t want an image. The plain words are “I miss her.”",
+      "suggestion": "Then we’ll stay with your plain words. We can let them have a moment without adding a picture.",
+      "difficulty": "hard"
+    }
   ]
 }

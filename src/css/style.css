@@ -93,6 +93,7 @@ button {
 .app-tagline {
   margin: 0.75rem auto 0;
   max-width: 26ch;
+  overflow-wrap: anywhere;
   font-size: 0.95rem;
   line-height: 1.4;
   color: rgba(248, 250, 252, 0.85);
@@ -2339,6 +2340,11 @@ select, textarea, input[type="text"], input[type="email"] { min-width: 0; max-wi
 }
 
 /* Guided mastery keeps the case identity while individual skill prompts change. */
+.practice-level-choice { border:0; padding:0; margin:0 0 1rem; min-width:0; }
+.practice-level-choice legend { font-weight:600; padding:0; margin-bottom:.5rem; }
+.practice-level-options { display:flex; flex-wrap:wrap; gap:.5rem; }
+.practice-level-options button { flex:1 1 4.5rem; min-width:0; min-height:44px; padding:.6rem .4rem; white-space:normal; }
+.practice-level-options [aria-pressed="true"] { background:var(--card-accent-soft, #e3eeeb); border-color:var(--card-accent, #2d514d); }
 .exercise-type-choice, .mastery-role-tabs { display:flex; flex-wrap:wrap; gap:.5rem; margin:0 0 1rem; }
 .exercise-type-choice button, .mastery-role-tabs button { flex:1; min-width:0; white-space:normal; }
 .exercise-type-choice [aria-pressed="true"], .mastery-role-tabs [aria-pressed="true"] { background:var(--card-accent-soft, #e3eeeb); border-color:var(--card-accent, #2d514d); }

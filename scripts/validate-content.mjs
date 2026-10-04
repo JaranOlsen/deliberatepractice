@@ -45,7 +45,8 @@ SKILL_ORDER.forEach((skillId) => {
   assert(Object.keys(skill?.cases ?? {}).length > 0, `No available cases for ${skillId}`);
   Object.entries(skill?.cases ?? {}).forEach(([caseId, caseItem]) => {
     assert(Boolean(CASE_BIBLES[caseId]), `Missing case bible for ${caseId}`);
-    assert(caseItem.statements?.length === 12, `Expected 12 items for ${skillId}/${caseId}`);
+    assert(caseItem.statements?.length === 12 * caseItem.supportedLevels.length, `Expected 12 items per supported level for ${skillId}/${caseId}`);
+    for (const level of caseItem.supportedLevels) assert(caseItem.statements.filter(item => item.difficultyTier === level).length === 12, `Incomplete ${level} bank for ${skillId}/${caseId}`);
     const registryItems = CONTENT_REGISTRY?.[skillId]?.[caseId] ?? [];
     assert(
       registryItems.length === (caseItem.statements ?? []).length,

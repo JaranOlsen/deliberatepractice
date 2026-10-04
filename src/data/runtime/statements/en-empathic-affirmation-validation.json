@@ -1204,5 +1204,403 @@
       "text": "[Flat] I laughed at something on the radio. Felt wrong afterwards. There are people who never got to come home. Why should I get a good morning?",
       "suggestion": "With the losses you carry, it's understandable that a moment of enjoyment can bring guilt too. That good moment doesn't mean you've forgotten them or that their lives mattered less."
     }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Ashamed] I cried over her handwriting on a shopping list. How silly is that?",
+      "suggestion": "That handwriting belongs to someone woven into your everyday life. Being moved by it is understandable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Self-critical] I should be able to eat alone by now.",
+      "suggestion": "Eating together was part of forty-one years. It makes sense that eating alone can still hurt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Guilty] I liked not having to watch the clock for her medicine. That sounds selfish.",
+      "suggestion": "Those days demanded constant attention. Enjoying a break from that demand doesn’t have to erase your care for her.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Embarrassed] I asked Knut to stay for tea. I felt needy.",
+      "suggestion": "You wanted company after a lonely day. Asking a friend to stay makes sense.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Self-critical] Liv has enough to do. I shouldn’t miss her visits so much.",
+      "suggestion": "Her visits matter to you. Missing them doesn’t mean you’re asking her to give up her own life.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Ashamed] I got angry when someone said Ingrid was in a better place.",
+      "suggestion": "That phrase didn’t meet your loss. It’s understandable that you felt angry rather than comforted.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Guilty] We argued about ordinary things. I wish I could say I was always kind.",
+      "suggestion": "You’re remembering a real relationship, with love and disagreements. You don’t have to make it flawless for it to have mattered.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Embarrassed] I kept her coat. People must think I’m stuck.",
+      "suggestion": "That coat still matters to you. You don’t owe anyone a deadline for deciding what to keep.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Self-critical] I was tired of caring, even though I loved her.",
+      "suggestion": "Caring could exhaust you while you loved her. Both deserve to be heard.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Guilty] Laughing at the workshop felt almost disrespectful.",
+      "suggestion": "That moment of enjoyment can belong in your day alongside your love and grief. It needn’t be a verdict on either.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Ashamed] Sometimes I want a quiet day without anyone asking how I’m coping.",
+      "suggestion": "You can need a break from explaining yourself, even when people mean well.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Unsure] I still talk to her picture. Is that wrong?",
+      "suggestion": "It sounds like a way you keep her close. We can be curious about what it means to you without calling it wrong.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Ashamed] I enjoyed breakfast alone. Then I thought, what kind of husband likes that?",
+      "suggestion": "A quiet breakfast can feel good after demanding years. That moment doesn’t have to judge your whole marriage.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Self-critical] I miss her, but not the endless waiting at the hospital. I shouldn’t separate those.",
+      "suggestion": "You can miss Ingrid and not miss the strain of those visits. They aren’t the same thing.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Guilty] Knut helped, and then I wanted him to leave. I’m impossible.",
+      "suggestion": "You can want company and later need quiet. Changing needs don’t make you impossible.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Embarrassed] I’m cross with Liv for being busy. I know that’s unfair.",
+      "suggestion": "You don’t want to blame Liv, and you’re missing her. That hurt deserves room even while you respect her time.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Quietly] I smiled at a memory, then cried. I can’t even keep one feeling straight.",
+      "suggestion": "A memory can bring affection and loss together. You don’t need to choose one feeling for it to make sense.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Self-critical] I want people to ask, then hate answering. That’s ridiculous.",
+      "suggestion": "You may want to be remembered without having to explain everything each time. That’s an understandable wish.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Ashamed] I’m angry about decisions we made during her illness. She can’t answer now.",
+      "suggestion": "Unfinished anger can remain in a relationship that mattered. Hearing it needn’t mean putting her on trial.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Hesitant] I want to change the bedroom, but I don’t want it to look as if she never lived there.",
+      "suggestion": "You’re looking for room to live now while keeping traces that matter. It makes sense to take your time with that.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Guilty] I’m tired of being asked to tell cheerful stories about her.",
+      "suggestion": "You can cherish her and need a break from performing cheerful memories for other people.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Self-critical] The bad day came after a good one. I must have fooled myself.",
+      "suggestion": "A hard day doesn’t make yesterday’s enjoyment false. Both can be part of these days.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Embarrassed] I said no to a visit. Then I felt lonely anyway.",
+      "suggestion": "Saying no may have met one need, while loneliness remained. That doesn’t mean your choice was foolish.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Quietly] I want help, but I don’t want someone deciding how to remember her.",
+      "suggestion": "You can seek help and keep authority over how you remember Ingrid. Both belong here.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Firmly] I’m not asking you to say every choice I made was right. I just need the exhaustion heard.",
+      "suggestion": "I can hear how exhausting it was without deciding every choice was right. That strain deserves room.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Watchful] “Normal grief” sounds like being told not to complain.",
+      "suggestion": "A general label needn’t replace your particular hurt. What you’re experiencing deserves attention here.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Quietly] I wanted time to myself while she was ill. I don’t want you rushing to absolve me.",
+      "suggestion": "We can hear the need for your own time without rushing to a verdict about you.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Dryly] I know I’m allowed to enjoy things. Knowing doesn’t stop the guilt.",
+      "suggestion": "Permission alone doesn’t reach what happens inside. The guilt is still worth understanding.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Guarded] I don’t want to keep her coat forever. I don’t want to decide today either.",
+      "suggestion": "You can leave the decision open today without making a promise about forever.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Firmly] I’m angry at her, and I still love her. Don’t call it just hurt underneath.",
+      "suggestion": "The anger itself matters alongside the love. We don’t need to replace it with something easier to hear.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Quietly] I want company, but I’m not ready to tell friends the whole story.",
+      "suggestion": "You can ask for company and keep parts of the story private. You don’t owe the whole account.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Careful] Liv is grieving too. That doesn’t mean I must always look fine for her.",
+      "suggestion": "Her grief matters, and your needs matter too. You needn’t disappear from the relationship to protect her.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Hesitant] I dusted her photograph without stopping to look. Then I went back to see if I could feel something.",
+      "suggestion": "You found yourself checking for a feeling. You don’t have to produce one here for us to take this seriously.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Frowning] I need benefits advice. I’m not avoiding the grief by saying so.",
+      "suggestion": "That’s a real practical need. It can deserve attention without having to reveal another feeling first.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Quietly] I don’t want closure. I want a bearable Thursday.",
+      "suggestion": "A bearable Thursday is a valid place to work. You don’t have to want a final resolution.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Watchful] I’m grateful for the good years. Saying that doesn’t cancel the hard ones.",
+      "suggestion": "The gratitude can stand alongside what was difficult. Neither needs to cancel the other.",
+      "difficulty": "hard"
+    }
   ]
 }

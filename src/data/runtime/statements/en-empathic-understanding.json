@@ -1204,5 +1204,403 @@
       "text": "[Guarded] I want to sleep without checking the door. When I don't check, I feel careless. When I do, I feel trapped in the same routine.",
       "suggestion": "You want rest, but feel careless if you don't check and trapped in the routine if you do."
     }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] I still put two cups out. Seeing hers empty makes me sad.",
+      "suggestion": "That empty cup brings home how much you miss having Ingrid beside you.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sighs] I fixed the gate yesterday. There was nobody to call outside and show it to.",
+      "suggestion": "Finishing it felt lonely without her there to share that little satisfaction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Tearful] I miss her ordinary voice. Even asking where I left the scissors.",
+      "suggestion": "You miss the everyday sound of her, even those small questions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Softly] Liv visits, but when her car leaves the house feels empty all over again.",
+      "suggestion": "Her visit brings company, and the quiet after she leaves hurts again.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Warmly] Knut made me laugh on our walk. For a while it was just good to be outside.",
+      "suggestion": "For that stretch, you could enjoy his company and being out there.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Frowning] I’m annoyed when people tell me to keep busy. I’m already doing that.",
+      "suggestion": "You’re working hard to get through the days, and that advice leaves you feeling unheard.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Hesitant] I felt relieved not to listen for her at night anymore. Then I felt guilty.",
+      "suggestion": "The constant listening could stop, and guilt arrived alongside that relief.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Softly] I’m proud Liv asks me for help. It’s good to still be useful to her.",
+      "suggestion": "Helping Liv gives you a welcome sense of having something to offer.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] Sunday dinner used to be our thing. Now I dread Sunday afternoons.",
+      "suggestion": "What used to be time together has become a lonely part of the week.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Frustrated] The paperwork makes me angry. Her name keeps turning into a reference number.",
+      "suggestion": "Those forms feel cold beside the person Ingrid was to you.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Tearful smile] Her old recipe has a grease mark where she always rested the spoon.",
+      "suggestion": "That little mark brings her way of being in the kitchen close again.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Tired] Some evenings I don’t need solutions. I just want someone sitting there.",
+      "suggestion": "You’re longing for company, without having to turn the evening into a problem to solve.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Half-smile] Breakfast is peaceful now. I hate that I can like the quiet.",
+      "suggestion": "The quiet gives you a little peace, and liking it brings guilt alongside that.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Briskly] I fixed the gate. Good job, really. Then I had nowhere to put the good feeling.",
+      "suggestion": "There was satisfaction in the work, and loneliness where sharing it with her used to be.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Looks down] I want Liv to visit, but I spend the visit telling her I’m managing.",
+      "suggestion": "You want her close, and showing you’re managing makes it hard to let her see that need.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Dry laugh] Forty-one years. Plenty of love, plenty of getting on each other’s nerves. I miss both.",
+      "suggestion": "You miss the whole familiar life together, including the things that used to irritate you.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] Knut’s jokes helped. Then I felt I’d left Ingrid out of the afternoon.",
+      "suggestion": "Enjoying Knut’s company felt good, then seemed to put your connection with Ingrid at risk.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Careful] I don’t miss those hospital nights. I miss her. I need that understood.",
+      "suggestion": "You miss Ingrid, while you don’t want those exhausting nights back. You want room for that distinction.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Frowning] People admire how I cared for her. I’m glad, but that’s not all I was.",
+      "suggestion": "You value that care being seen, and want to be known as more than her caregiver.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Hesitant] A day without thinking about her would frighten me. I also wish for one.",
+      "suggestion": "You want some ease, and worry that ease might mean losing something of her.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Softly] Her coat comforts me until someone asks why it’s still there.",
+      "suggestion": "It gives you closeness, and other people’s questions make that comfort feel judged.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sighs] I don’t want another dinner invitation where I’m the empty chair everyone notices.",
+      "suggestion": "You want company without your loss becoming the center of everyone’s attention.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Warm, then hesitant] Helping Liv felt like myself again. Saying that sounds as if Ingrid stopped me being myself.",
+      "suggestion": "You felt something familiar in helping Liv, and worry that naming it could sound unfair to Ingrid.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] Sometimes the sadness is easier than deciding what I want now.",
+      "suggestion": "Sadness is familiar; figuring out what you want in this changed life feels uncertain too.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Firmly] The quiet was good. Don’t turn that into wanting her gone.",
+      "suggestion": "The quiet gave you something you needed. That is different from wanting Ingrid gone, and you need the distinction heard.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Watchful] I moved the coat, then put it back. It felt wrong there. I can’t tell you why.",
+      "suggestion": "Something felt wrong about moving it, though the meaning isn’t clear yet. We can leave that open.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] I miss her. I’m also angry about some things. Don’t tidy that up for me.",
+      "suggestion": "You need room for the love and the anger without my smoothing either away.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Dryly] I know I matter to Liv. That doesn’t stop an empty Sunday being empty.",
+      "suggestion": "Knowing you matter doesn’t supply the company you miss on Sunday.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Hesitant] It’s not guilt exactly. More as though enjoying myself has nowhere to belong.",
+      "suggestion": "The enjoyment feels out of place in this changed life, rather than simply wrong. Is that closer?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Steady] I was tired of the care. I don’t need permission to say that, but I need you not to flinch.",
+      "suggestion": "You know the exhaustion was real. You need me to hear it plainly and stay with you.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Warm, then guarded] Knut and I laughed. It was ordinary. Please don’t make it a milestone.",
+      "suggestion": "An ordinary good moment with your friend, which you want left at its own size.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] I don’t want her back as ill as she was. I want her, and there’s no way to have that.",
+      "suggestion": "You want Ingrid, without that suffering. Neither is available, and the longing has nowhere simple to land.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Careful] I’m not lonely every time I’m alone. Sometimes it’s the visitors who leave me lonely.",
+      "suggestion": "Being alone can feel right; feeling unseen in company can be the lonelier part.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Flatly] I’m not sure I feel anything about the photograph today. That doesn’t frighten me.",
+      "suggestion": "Today there may be no clear feeling there, and you don’t need me to turn that into a concern.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Firmly] I want practical help. Calling it avoidance makes me want to leave.",
+      "suggestion": "The practical need is real. Having it explained away leaves you feeling unheard here.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] Yesterday I wanted company. Today Knut called and I let it ring. I don’t know what to make of myself.",
+      "suggestion": "What you want can feel different from one day to the next, and that leaves you unsure how to understand yourself.",
+      "difficulty": "hard"
+    }
   ]
 }

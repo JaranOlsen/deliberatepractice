@@ -6,6 +6,10 @@ import { pgcrypto } from '@electric-sql/pglite/contrib/pgcrypto';
 import { readFile, readdir } from 'node:fs/promises';
 import { createServer } from 'node:http';
 import { randomUUID } from 'node:crypto';
+import assert from 'node:assert/strict';
+import {ARNE_MASTERY} from '../src/data/arneMastery.js';
+import {ARNE_SKILLS,ARNE_LEVELS} from '../src/data/arneCase.js';
+import {BASE_PRACTICE} from '../src/data/index.js';
 const root = new URL('../', import.meta.url);
 const read = name => readFile(new URL(name, root), 'utf8');
 const db = new PGlite({extensions: {pgcrypto}});
@@ -19,9 +23,21 @@ try {
     create publication supabase_realtime;`);
   await db.exec(await read('supabase/auth-pairing-practice.sql'));
   for (const name of (await readdir(new URL('supabase/migrations/', root))).sort()) {
+    const levelMigration=name.endsWith('_arne_practice_levels.sql');
+    const validator=levelMigration?(await db.query("select 'dp_private.validate_room_config(jsonb)'::regprocedure::oid as oid")).rows[0].oid:null;
     await db.exec(await read('supabase/migrations/' + name));
+    if(levelMigration)assert.equal((await db.query("select 'dp_private.validate_room_config(jsonb)'::regprocedure::oid as oid")).rows[0].oid,validator,'Existing room validator identity must survive the migration');
   }
-  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql', 'check-practice-goals.sql', 'check-rating-history.sql', 'check-mastery.sql']) {
+  for(const exercise of ARNE_MASTERY) {
+    const row=(await db.query('select scenes from dp_private.exercise_catalog where exercise_id=$1 and revision=$2',[exercise.id,exercise.revision])).rows[0];
+    assert.deepEqual(row?.scenes,exercise.scenes.map(({id,skillId,criteriaTags})=>({id,skillId,criteriaTags})),'Mastery catalog drift: '+exercise.id);
+  }
+  for(const skill of ARNE_SKILLS)for(const level of ARNE_LEVELS) {
+    const row=(await db.query('select entries from dp_private.focused_level_catalog where skill_id=$1 and difficulty=$2 and case_id=$3 and revision=$4',[skill,level,'case-arne',BASE_PRACTICE[skill].cases['case-arne'].statements[0].revision])).rows[0];
+    const expected=BASE_PRACTICE[skill].cases['case-arne'].statements.filter(e=>e.difficultyTier===level).map(({id,criteriaTags})=>({id,criteriaTags}));
+    assert.deepEqual(row?.entries,expected,'Focused catalog drift: '+skill+'/'+level);
+  }
+  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql', 'check-practice-goals.sql', 'check-rating-history.sql', 'check-mastery.sql','check-practice-levels.sql']) {
     await db.exec(await read('scripts/' + name));
     console.log('PASS ' + name);
   }

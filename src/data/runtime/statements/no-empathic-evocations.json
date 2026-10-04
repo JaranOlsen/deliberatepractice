@@ -1312,5 +1312,439 @@
       "text": "[På vakt] Jeg kjente igjen håndskriften på konvolutten. La den i en skuff. Har ikke åpnet den. Vil ikke se den heller.",
       "suggestion": "Den kjente håndskriften ser ut til å bringe noe så nær at du trenger en skuff mellom deg og det."
     }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] Jeg lager kaffe. Én kopp nå. Sånn er morgenene.",
+      "suggestion": "Nesten som om morgenen fortsatt dekker til to, og du møter den tomme plassen. Fanger det noe?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Fjernt] Det er ingen å vise den reparerte porten til. Bare en port som virker.",
+      "suggestion": "Jobben er ferdig, men det lille øyeblikket med å rope på henne har ingen å gå til. Er det sånn?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Saklig] Hennes side av skapet er fortsatt full. Min har heller ikke endret seg.",
+      "suggestion": "To sider står der fortsatt, selv om bare én kler på seg. Hvordan er det for deg?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] Når Liv går, skrur jeg opp radioen. Den fyller tiden.",
+      "suggestion": "Kanskje radioen gir en stemme til rommet som åpner seg når hun går. Passer det, eller ikke helt?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Fjernt] Oppskriften hennes ligger i skuffen. Med fettflekken og alt.",
+      "suggestion": "Den flekken er nesten et lite spor av henne som står der og lager mat. Hva skjer når du ser det for deg?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] Sengen er enklere å re opp. Halvparten brukes ikke.",
+      "suggestion": "Den ordentlige, urørte halvdelen kan si at hun mangler, uten noen ord. Er det nær opplevelsen din?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Saklig] Jeg lytter etter henne når en gulvplanke knirker. Så husker jeg.",
+      "suggestion": "Et sekund bringer den kjente lyden henne nesten inn i rommet ved siden av. Så kommer stillheten tilbake. Passer det?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Fjernt] Jeg har bildet der jeg kan se det fra stolen.",
+      "suggestion": "Et kjent ansikt som beholder en plass i rommet sammen med deg. Er det det bildet gir deg der?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] På verkstedet glemte jeg å se på klokken. Før så jeg på den hele tiden.",
+      "suggestion": "Den ettermiddagen slapp klokken litt av taket. Hvordan er det å si det sånn?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Saklig] Jeg har små ting å fortelle henne. Været. Spøken til Knut.",
+      "suggestion": "De små bitene av dagen din vender seg fortsatt mot henne. Høres det riktig ut?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Fjernt] Søndagene er lange. Jeg ser på klokken til middag.",
+      "suggestion": "Nesten som om søndagen har mistet sitt kjente samlingspunkt. Er det det som kjennes langt?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] Håndskriften hennes er fortsatt på etiketten. Min står under.",
+      "suggestion": "De to håndskriftene deres står fortsatt ved siden av hverandre. Kan vi stoppe ved det du merker når du ser dem?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Fjernt] En stille frokost. Hyggelig, objektivt sett. Så begynner skylden.",
+      "suggestion": "Nesten som om litt fred slipper inn, og så blir stoppet i døren. Fanger det noe?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] Jeg er av vakt nå. Rart uttrykk om kona si, men sånn er det.",
+      "suggestion": "Vakten er slutt, mens det å være mannen hennes ikke bare er slutt inni deg. Er det nært?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Saklig] Verkstedet bråker. Hjemmet gjør ikke det. Det er forskjellen.",
+      "suggestion": "Å komme fra stemmer og verktøy til et rom der ingen svarer—hvordan er den kontrasten?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Fjernt] Jeg beholder kåpen hennes, men flytter mine egne ting rundt den.",
+      "suggestion": "Du lager plass til å leve rundt noe av henne du vil ha nær. Passer det bildet?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] Jeg forteller den gode historien om henne. Folk liker den.",
+      "suggestion": "Nesten som en ferdig polert historie du kan fortelle, mens resten blir hos deg. Er det sånn det kjennes?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Tørt] Liv kommer. Jeg tar på meg ansiktet til en som klarer seg. Vi drikker te.",
+      "suggestion": "Som om besøket har plass til Arne som klarer seg, men lite rom for han som er ensom. Passer det?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Fjernt] Latteren var der, skylden var der. En travel ettermiddag.",
+      "suggestion": "Glede med en skygge som kommer ved siden av. Er «skygge» nært, eller passer et annet bilde bedre?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] Jeg sover nå. Huset trenger ikke at jeg er våken.",
+      "suggestion": "Et stille hus, uten noen som roper og trenger at du står opp. Hvordan er det å se for seg den endringen?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Saklig] Jeg har en liste over uferdige jobber. Ingen haster. Jeg leser den likevel.",
+      "suggestion": "Nesten noe å holde i når dagen har mistet sin kjente form. Er det i nærheten?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Fjernt] Jeg kan huske latteren hennes eller sykdommen. Ulike mapper.",
+      "suggestion": "To deler av livet med henne som holdes fra hverandre, kanskje fordi det er vanskelig å ha dem sammen. Er det sånn?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] Tilbudet fra Knut er der. Jeg bruker det ikke.",
+      "suggestion": "En dør som står åpen, mens du fortsatt står utenfor. Passer det bildet, eller er det annerledes?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Fjernt] Søndagene er enten fulle av besøk eller helt tomme.",
+      "suggestion": "Som om det ikke finnes et behagelig mellomrom ennå. Beskriver det noe av det du savner?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Fjernt, bestemt] Stolen er tom. Ikke gjør den til et symbol på hele livet mitt.",
+      "suggestion": "Vi kan holde oss til denne stolen, denne kvelden. Hvordan er det å se for seg rommet i den lille størrelsen?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] Å komme hjem etter verkstedet kjennes som å bytte språk. Vet ikke hva jeg mener.",
+      "suggestion": "Kanskje ettermiddagen har stemmer som ikke følger inn i huset. Er det nært, eller vil du beholde ditt eget bilde?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Oppmerksom] Ingen «sorgbølger», takk. Det er mer vanlig enn det.",
+      "suggestion": "Da holder vi det vanlig: å lage kaffe og finne bare din kopp der. Passer det øyeblikket i dag?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Fjernt] Jeg forteller en glad historie og kjenner at jeg forlater rommet litt.",
+      "suggestion": "Nesten som om historien er til stede mens en del av deg står tilbake. Passer det, eller er «forlater» noe annet?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Tørt] Jeg har gått av vakt. Ikke kall det frihet; det er for stort.",
+      "suggestion": "«Gått av vakt»: ingen ny oppgave som venter, og en pause som er uvant. Hvordan kjennes den pausen?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] Oppskriften hennes ser ut som en samtale jeg ikke kan fullføre.",
+      "suggestion": "Ordene hennes er fortsatt på arket, men hun er ikke der til å høre svaret ditt. Er det sånn bildet kjennes?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Fjernt] Den gode dagen passer ikke. Som en nøkkel til den gamle låsen.",
+      "suggestion": "Det finnes glede, og den kjente måten å la den høre til på virker ikke som før. Følger det nøkkelbildet ditt?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Oppmerksom] Jeg kan se for meg at hun ler. Jeg gjenskaper ikke de siste dagene hennes for deg.",
+      "suggestion": "Vi kan holde oss bare til latteren. Er det én vanlig detalj ved den du vil gjøre nær?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] Jeg kan legge bort kåpen. Det er gangen etterpå jeg ikke kan se for meg.",
+      "suggestion": "Kanskje den endrede gangen kjennes som å gå inn i noe som ennå ikke er kjent. Fanger det noe?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Fjernt, lite smil] Hendene kjenner arbeidsbenken. Resten av meg er mindre sikker.",
+      "suggestion": "Hendene som finner en kjent oppgave mens resten kommer etter—passer det bildet til ettermiddagen din?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Tørt] Besøk fyller rommet. De fyller ikke alltid den ensomme delen.",
+      "suggestion": "Folk rundt deg, med et rom i samtalen der du fortsatt savner selskap. Er det i nærheten?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Lavt, fjernt] Jeg vil ikke ha et bilde. De vanlige ordene er «jeg savner henne».",
+      "suggestion": "Da blir vi ved de vanlige ordene dine. Vi kan gi dem et øyeblikk uten å legge til et bilde.",
+      "difficulty": "hard"
+    }
   ]
 }

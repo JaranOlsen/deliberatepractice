@@ -1,0 +1,171 @@
+{
+  "id": "mastery-arne-ordinary-days-hard",
+  "type": "mastery",
+  "caseId": "case-arne",
+  "difficulty": "hard",
+  "supportedLevels": [
+    "hard"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Arne · Living the ordinary days",
+  "orientation": "Twelve linked moments about daily life after Ingrid’s death. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+  "scenes": [
+    {
+      "id": "mastery_arne_hard_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-arne_hard_01",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Arne begins by asking for a careful distinction.",
+      "prompt": "Hear the relief on his terms; avoid the interpretation he rejects.",
+      "text": "[Firmly] The quiet was good. Don’t turn that into wanting her gone.",
+      "suggestion": "The quiet gave you something you needed. That is different from wanting Ingrid gone, and you need the distinction heard."
+    },
+    {
+      "id": "mastery_arne_hard_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-arne_hard_03",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "bridge": "He asks what this work can offer without a promised endpoint.",
+      "prompt": "Offer a bounded rationale without prescribing acceptance.",
+      "text": "[Skeptical] Explain how this helps without promising me acceptance.",
+      "suggestion": "We might understand a difficult moment and find what would support you in it. I can’t promise acceptance, and it isn’t a required outcome."
+    },
+    {
+      "id": "mastery_arne_hard_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-arne_hard_01",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "bridge": "In another moment, he wants the caregiving strain heard without absolution.",
+      "prompt": "Validate the strain without approving every past choice.",
+      "text": "[Firmly] I’m not asking you to say every choice I made was right. I just need the exhaustion heard.",
+      "suggestion": "I can hear how exhausting it was without deciding every choice was right. That strain deserves room."
+    },
+    {
+      "id": "mastery_arne_hard_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-arne_hard_04",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "bridge": "Arne makes a distinction within the relief itself.",
+      "prompt": "Let him choose which part to clarify first.",
+      "text": "[Careful] Relief from the care, relief from watching her suffer—they’re different.",
+      "suggestion": "Which part would you like us to understand first?"
+    },
+    {
+      "id": "mastery_arne_hard_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-arne_hard_01",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "bridge": "The ease is present, but a broad label would miss it.",
+      "prompt": "Explore the experience in his words.",
+      "text": "[Quietly] That ease is real, but I don’t want it called freedom from Ingrid.",
+      "suggestion": "What is the ease like in your own terms, without that label?"
+    },
+    {
+      "id": "mastery_arne_hard_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-arne_hard_09",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "bridge": "He names two kinds of relief, with their meaning still open.",
+      "prompt": "Make one small guess and leave room for correction.",
+      "text": "[Watchful] Relief isn’t one thing. There was less worry for her, and less demand on me.",
+      "suggestion": "Perhaps the guilt catches the part about your own rest more than the relief for her. Is that right?"
+    },
+    {
+      "id": "mastery_arne_hard_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-arne_hard_05",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "bridge": "Arne uses his own concrete phrase and rejects a larger one.",
+      "prompt": "Bring his phrase close without enlarging it.",
+      "text": "[Dryly] I’m off duty. Don’t call it freedom; that’s too grand.",
+      "suggestion": "Off duty may be the right size: no next task waiting, and an unfamiliar pause. What is that pause like?"
+    },
+    {
+      "id": "mastery_arne_hard_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-arne_hard_12",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "A tender feeling and a real practical need appear together.",
+      "prompt": "Check priorities; respecting the practical need can be the right response.",
+      "text": "[Voice softens, then brisk] I miss her. I also genuinely want this form sorted. Both.",
+      "suggestion": "Both matter. Would you prefer the form first, with an option to return to the missing later?"
+    },
+    {
+      "id": "mastery_arne_hard_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-arne_hard_03",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "bridge": "A later emotional moment needs neither silence nor many words.",
+      "prompt": "Find a small amount of contact he can adjust.",
+      "text": "[Voice shaking] Quiet feels lonely. Too much talking feels crowded.",
+      "suggestion": "I can offer a little contact, then pause. Tell me if that amount doesn’t fit."
+    },
+    {
+      "id": "mastery_arne_hard_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-arne_hard_07",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "In another moment, he wants enjoyment kept ordinary.",
+      "prompt": "Reflect the good moment without making it a milestone.",
+      "text": "[Warm, then guarded] Knut and I laughed. It was ordinary. Please don’t make it a milestone.",
+      "suggestion": "An ordinary good moment with your friend, which you want left at its own size."
+    },
+    {
+      "id": "mastery_arne_hard_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-arne_hard_01",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "He can name relief while rejecting a larger claim about change.",
+      "prompt": "Reflect the change he describes without making it larger.",
+      "text": "[Firmly] I can name the relief. Don’t make that proof I’ve accepted her death.",
+      "suggestion": "We’ll keep it to naming the relief. What, if anything, feels different about being able to say it?"
+    },
+    {
+      "id": "mastery_arne_hard_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-arne_hard_12",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "The hour ends with sadness and a sense of being heard.",
+      "prompt": "End without requiring sadness to turn into relief.",
+      "text": "[Steady] I’m leaving sad. I also feel heard. Let both be true.",
+      "suggestion": "Both can be true. We can stop here, without asking the sadness to become something else."
+    }
+  ]
+}

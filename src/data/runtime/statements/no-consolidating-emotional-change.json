@@ -144,5 +144,475 @@
       "text": "[Sukker] Ingenting kjennes løst. Men jeg forstår litt bedre hvorfor kveldene er vanskelige.",
       "suggestion": "Ingenting er løst, og kveldene gir litt mer mening. Hva har du forstått som du vil at vi skal ta vare på?"
     }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Ettertenksomt] «Jeg ønsket selskap» høres mindre strengt ut enn «jeg er masete».",
+      "suggestion": "Hva kjennes annerledes når du bruker de mildere ordene?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Mykt] Jeg kan si at jeg var sliten uten å ta bort kjærligheten.",
+      "suggestion": "Hvordan ville du si det med dine egne ord, så både kjærligheten og slitenheten får plass?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Overrasket] Et øyeblikk har jeg ikke dårlig samvittighet for den latteren.",
+      "suggestion": "Kan vi legge merke til hva som gir rom for gleden akkurat nå?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Stødig] Å savne henne betyr ikke at ettermiddagen på verkstedet var feil.",
+      "suggestion": "Begge deler kan høre til i dagen din. Hva ville hjelpe deg å huske det?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lavt] Å be Knut bli kjennes mer vanlig nå.",
+      "suggestion": "Hva har endret seg i hvordan du hører den forespørselen?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Mykt] Tårene kjennes som å savne henne, ikke å mislykkes.",
+      "suggestion": "«Å savne henne, ikke å mislykkes»—er det sånn du vil sette ord på forskjellen?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Ettertenksomt] Jeg kan beholde kåpen fordi jeg vil, ikke fordi jeg må.",
+      "suggestion": "Hvordan er det å kjenne litt valgfrihet om å beholde den?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lite smil] Jeg så oppskriften hennes og kjente varme sammen med tristheten.",
+      "suggestion": "Hva kjennes verdt å ta vare på med å ha begge deler der?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Usikkert] Dette er tydeligere her. Kvelden kan bli annerledes.",
+      "suggestion": "Vi trenger ikke love noe om kvelden. Hva har du forstått her som du vil ta med deg?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Reflektert] Jeg trenger selskap iblant. Det høres rimelig ut når jeg sier det nå.",
+      "suggestion": "Vil du prøve de ordene en gang til og høre om de høres ut som deg?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Sukker] Ingenting er løst, men jeg er mindre sint på meg selv.",
+      "suggestion": "Hva hjalp deg å være litt mindre streng med deg selv?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lavt] Jeg vil huske at hvile var et behov, ikke et svik.",
+      "suggestion": "Er «hvile var et behov» de ordene du vil ta med deg fra i dag?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Ettertenksomt] Jeg kan innrømme at stillheten var god. Jeg savner henne fortsatt i den.",
+      "suggestion": "Hva hjelper deg å ha de to sannhetene sammen akkurat nå?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Nølende] «Sliten og glad i henne» passer. Jeg vet ikke om Liv ville forstått.",
+      "suggestion": "Det passer her. Kan vi gi dine ord plass før vi bestemmer hva du skal si til Liv?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lavt] Gleden på verkstedet trenger ikke bety å holde Ingrid utenfor. Det kjennes nytt.",
+      "suggestion": "Hva har hjulpet gleden og tilknytningen til henne å få plass ved siden av hverandre?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Mykt] Sinnet gir mer mening. Jeg liker det fortsatt ikke.",
+      "suggestion": "Å forstå det krever ikke at du liker det. Hva har du lært om det sinnet ba om?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lite smil] Jeg ba om selskap uten å unnskylde meg. Det blir vanskeligere utenfor.",
+      "suggestion": "Hva var annerledes i den forespørselen her? Vi kan holde det lite nok til å kjenne igjen utenfor.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Usikkert] Hvile er ikke svik. Jeg vet ordene; troen på dem kommer og går.",
+      "suggestion": "Når de passer, hva merker du? Vi trenger ikke tvinge dem til å passe hver gang.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lavt] Jeg kjenner mer rett til å velge hva jeg beholder. Kåpen kan bli nå.",
+      "suggestion": "Hvordan er det å gjøre det til et valg nå, fremfor en varig regel?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Sukker] Jeg er fortsatt ensom. Men å trenge noen høres ikke like flaut ut.",
+      "suggestion": "Ensomheten er igjen; dommen har blitt litt mildere. Hvordan ville du sette ord på forskjellen?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Reflektert] Jeg kan huske de gode og vanskelige delene uten å bestemme hvilket ekteskap som var virkelig.",
+      "suggestion": "Hva kjennes viktig med å la begge høre til i samme forhold?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Nølende] «Jeg vil ha selskap, ikke tilsyn.» Det er tydeligere, om litt brått.",
+      "suggestion": "Passer de ordene for deg, eller vil du velge ord som rommer forskjellen mer naturlig?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lavt] Jeg trenger ikke fortjene en god ettermiddag ved å være trist etterpå.",
+      "suggestion": "Hva skjer når du hører det med din egen stemme?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Usikkert] Det er en liten endring. Jeg vil ikke ha en hjemmeoppgave festet til den.",
+      "suggestion": "Vi kan la det være en endring uten en oppgave. Hva vil du huske, om noe?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Bestemt] Jeg kan sette ord på lettelsen. Ikke gjør det til bevis på at jeg har akseptert døden hennes.",
+      "suggestion": "Vi holder oss til å sette ord på lettelsen. Hva kjennes annerledes ved å kunne si det, om noe?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lavt] «Jeg elsket henne og var sliten» passer. Skylden har ikke sagt seg enig.",
+      "suggestion": "Ordene passer, mens skylden blir igjen. Hva vil du ta vare på uten å trenge skyldens enighet?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Oppmerksom] Jeg ba om selskap her. Det betyr ikke at jeg kan gjøre det med Liv.",
+      "suggestion": "Her og med Liv er forskjellig. Hva viste denne forespørselen deg, uten at vi gjør den til et krav hjemme?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Nølende] Jeg er mindre streng med meg selv. Jeg vil ikke ha et slagord med hjem.",
+      "suggestion": "Ingen slagord trengs. Ville det være nok å merke forskjellen stille akkurat nå?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Tørt] En liten god ettermiddag. Ikke et vendepunkt.",
+      "suggestion": "En liten god ettermiddag. Hva betydde noe for deg den ettermiddagen, uten at vi gjør mer ut av den enn den var?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lavt] Jeg kunne si nei uten å forklare alt. Det er nyttig, men jeg føler meg fortsatt klønete.",
+      "suggestion": "Det kjennes fortsatt uvant, og du merket at du kunne velge. Hvilken del av valget er nyttig å ta vare på?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Bestemt] Å forstå sinnet er ikke det samme som å tilgi noen.",
+      "suggestion": "Vi setter ikke likhetstegn. Hva har du forstått om sinnet som betyr noe i seg selv?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Usikkert] Ordene passet et minutt. Så hørtes de lånt ut igjen.",
+      "suggestion": "Kan vi merke hva som passet det minuttet, og la delen som høres lånt ut, være åpen?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lavt] Jeg trenger ikke bevise kjærlighet ved å gi opp verkstedet. Jeg vet fortsatt ikke hva jeg vil videre.",
+      "suggestion": "Den forskjellen kan stå uten en plan videre. Hvordan vil du beholde den med dine egne ord?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Oppmerksom] Jeg er fortsatt trist. Jeg føler bare ikke at jeg må forklare det til alle.",
+      "suggestion": "Tristheten blir igjen, med mer valgfrihet om å dele den. Hva kjennes viktig med det valget?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Nølende] Å velge kåpen nå kjennes annerledes enn å love for alltid.",
+      "suggestion": "Hva gjør «nå» mulig for deg?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Bestemt] Jeg merket noe, men jeg vil ikke at du gratulerer meg.",
+      "suggestion": "Jeg gratulerer deg ikke. Vil du sette ord på det du merket, eller beholde det stille for deg selv?",
+      "difficulty": "hard"
+    }
   ]
 }

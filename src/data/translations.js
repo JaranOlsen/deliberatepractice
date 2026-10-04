@@ -1,4 +1,6 @@
 import {EXTENSION_GUIDES, EXTENSION_TRANSLATIONS} from "./skillExtensions.js";
+import {ARNE_CASE_NO, ARNE_SKILLS} from './arneCase.js';
+import {ARNE_TRANSLATIONS} from './arneContent.js';
 "use strict";
 
 import { CONTENT_REVISION } from "./contentMeta.js";
@@ -7188,3 +7190,8 @@ export const STATEMENT_TRANSLATIONS = {
 
 Object.assign(LANGUAGE_OVERRIDES.no, Object.fromEntries(Object.entries(EXTENSION_GUIDES).map(([id, guide]) => [id, guide.no])));
 Object.assign(STATEMENT_TRANSLATIONS.no, EXTENSION_TRANSLATIONS);
+Object.assign(STATEMENT_TRANSLATIONS.no, ARNE_TRANSLATIONS);
+for (const skill of ARNE_SKILLS) {
+  LANGUAGE_OVERRIDES.no[skill].cases ??= {};
+  LANGUAGE_OVERRIDES.no[skill].cases['case-arne'] = ARNE_CASE_NO;
+}

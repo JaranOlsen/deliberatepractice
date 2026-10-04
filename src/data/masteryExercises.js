@@ -1,6 +1,7 @@
 import {CONTENT_REVISION} from './contentMeta.js';
 import {SKILL_EXERCISE_MAP} from './contentMeta.js';
 import {EXTENSION_CRITERIA} from './skillExtensions.js';
+import {ARNE_MASTERY} from './arneMastery.js';
 
 // Linked practice moments, not a transcript or simulated response to the trainee.
 // Bridges give context even when an earlier scene was passed.
@@ -53,3 +54,4 @@ export const MASTERY_EXERCISES = [{
     en: {bridge, prompt, text, suggestion}, no: {bridge: bridgeNo, prompt: promptNo, text: textNo, suggestion: suggestionNo}
   }))
 }];
+MASTERY_EXERCISES.push(...ARNE_MASTERY);

@@ -1,4 +1,5 @@
 import {createMasteryPractice, supportsMastery} from "./masteryPractice.js";
+import {preferredCaseLevel, rememberCaseLevel, createLevelChoice, levelLabel} from './practiceLevels.js';
 import {EXERCISE_CATALOG} from "./masteryContent.js";
 import {renderMasteryHistory} from "./masteryProgressUI.js";
 import {getMasteryCapabilities, listMasteryRatings} from "./backend.js";
@@ -91,7 +92,7 @@ async function selectedRoomConfig() {
   const skill = getCurrentSkill(), caseData = getCurrentCase(), languageId = state.languageId;
   if (!caseData || isCaseLocked(caseData)) throw new Error('Choose an available case first');
   await loadPracticeContent(languageId, skill.id);
-  const statements = shuffleArray(getPracticeStatements(languageId, skill.id, caseData.id));
+  const statements = shuffleArray(getPracticeStatements(languageId, skill.id, caseData.id, caseData.difficulty));
   return {languageId, skillId: skill.id, caseId: caseData.id, roundSize: GROUP_ROUND_SIZE,
     difficulty: caseData.difficulty, contentRevision: CONTENT_REVISION,
     statements: statements.map(({id, criteriaTags}) => ({id, criteriaTags}))};
@@ -114,7 +115,7 @@ async function openSharedRoom(mode = "hub", {selectedCase = false, code = null, 
       getStrings: getUIStrings, signIn: showAccountPanel,
       onMaterialChange: room => {
         if(room.exercise_type==='mastery'){writeJsonStorage(LAST_SETUP_STORAGE_KEY,{exerciseType:'mastery',exerciseId:room.exercise_id,languageId:room.language_id,practiceMode:PRACTICE_MODES.GROUP});return;}
-        writeJsonStorage(LAST_SETUP_STORAGE_KEY, {languageId:room.language_id, skillId:room.skill_id, caseId:room.case_id, practiceMode:PRACTICE_MODES.GROUP});
+        writeJsonStorage(LAST_SETUP_STORAGE_KEY, {languageId:room.language_id, skillId:room.skill_id, caseId:room.case_id, difficulty:room.difficulty, practiceMode:PRACTICE_MODES.GROUP});
       },
       applyTheme: (element, skillId, difficulty) => applyVisualProperties(element, getCaseVisual(skillId, difficulty)),
       onProgressChange: ({source,exerciseType}) => {
@@ -401,6 +402,7 @@ const state = {
   languageId: null,
   skillId: null,
   caseId: null,
+  caseDifficulty: null,
   order: [],
   orderShuffled: false,
   index: 0,
@@ -471,7 +473,7 @@ const mastery = createMasteryPractice({
   theme: (element,skillId,difficulty) => applyVisualProperties(element,getCaseVisual(skillId,difficulty))
 });
 sections.mastery=mastery.element;document.querySelector('main').append(mastery.element);
-function paintExerciseChoice(available) {
+function paintExerciseChoice(available, catalog = EXERCISE_CATALOG) {
  const no=state.languageId==='no',selected=exerciseType==='mastery' && available;
  const single=document.getElementById('exercise-single'),mixed=document.getElementById('exercise-mastery');
  single.textContent=no?'Én ferdighet':'Single skill';mixed.textContent=no?'Mestringsøving':'Mastery practice';
@@ -481,10 +483,13 @@ function paintExerciseChoice(available) {
  if(selected)elements.skillPanelTitle.textContent=no?'Velg et kasus':'Choose a case';
  else elements.skillPanelTitle.textContent=getUIStrings().skillHeading;
  const host=document.getElementById('mastery-library');host.replaceChildren();
- for(const exercise of EXERCISE_CATALOG) {
+ const groups=new Map();for(const item of catalog){if(!groups.has(item.caseId))groups.set(item.caseId,[]);groups.get(item.caseId).push(item);}
+ for(const [caseId,variants] of groups) {
+  const difficulty=preferredCaseLevel({id:caseId,supportedLevels:variants.map(e=>e.difficulty)});
+  const exercise=variants.find(e=>e.difficulty===difficulty);
   const button=document.createElement('button');button.type='button';button.className='card-button';button.dataset.exerciseId=exercise.id;
   const title=document.createElement('strong');title.textContent=exercise.title[state.languageId??'en'];
-  const description=document.createElement('span');description.className='card-body';description.textContent=no?'Lett · 12 øyeblikk · 4 vurderinger':'Easy · 12 moments · 4 ratings';
+  const description=document.createElement('span');description.className='card-body';description.textContent=`${variants.length>1?(no?`${variants.length} nivåer`:`${variants.length} levels`):levelLabel(state.languageId??'en',exercise.difficulty)} · ${no?'12 øyeblikk · 4 vurderinger':'12 moments · 4 ratings'}`;
   button.append(title,description);applyVisualProperties(button,getCaseVisual('empathic-understanding',exercise.difficulty));
   button.addEventListener('click',()=>void mastery.choose(exercise.id));host.append(button);
  }
@@ -495,7 +500,7 @@ async function renderExerciseChoice() {
  if(!remote||!userId)return;
  try {
   const capability=await getMasteryCapabilities();
-  if(request===masteryCapabilityRequest&&state.authUser?.id===userId)paintExerciseChoice(EXERCISE_CATALOG.some(e=>supportsMastery(capability,e)));
+  if(request===masteryCapabilityRequest&&state.authUser?.id===userId){const available=EXERCISE_CATALOG.filter(e=>supportsMastery(capability,e));paintExerciseChoice(available.length>0,available);}
  }catch{/* Existing focused rooms stay available when capability lookup fails. */}
 }
 
@@ -866,6 +871,8 @@ function removeStorageItem(key) {
 function normalizeSavedSession(raw) {
   const sourceVersion = raw?.version;
   if (!isResumableSession(raw)) return null;
+  const meta=BASE_PRACTICE[raw.skillId]?.cases[raw.caseId];
+  if (meta?.supportedLevels.length>1 && !meta.supportedLevels.includes(raw.difficulty)) return null;
   const languageId = LANGUAGE_METADATA[raw.languageId] ? raw.languageId : null;
   if (!languageId) return null;
   const triadFields = normalizeTriadSessionFields(raw, sourceVersion);
@@ -875,6 +882,7 @@ function normalizeSavedSession(raw) {
     languageId,
     skillId: typeof raw.skillId === "string" ? raw.skillId : null,
     caseId: typeof raw.caseId === "string" ? raw.caseId : null,
+    difficulty: typeof raw.difficulty === 'string' ? raw.difficulty : null,
     orderShuffled: raw.orderShuffled === true,
     orderIds: Array.isArray(raw.orderIds) ? raw.orderIds.filter((id) => typeof id === "string") : [],
     index: Number.isInteger(raw.index) && raw.index >= 0 ? raw.index : 0,
@@ -905,6 +913,7 @@ function createPracticeSessionSnapshot() {
     languageId: state.languageId,
     skillId: state.skillId,
     caseId: state.caseId,
+    difficulty: state.caseDifficulty,
     orderShuffled: state.orderShuffled === true,
     orderIds: Array.isArray(state.order) ? state.order.map((entry) => entry?.id).filter(Boolean) : [],
     index: Number.isInteger(state.index) ? state.index : 0,
@@ -940,7 +949,7 @@ function clearPracticeSession() {
 
 function getSessionResumeDetails(session) {
   if (!isResumableSession(session)) return null;
-  const skill = localizeSkill(session.languageId, session.skillId);
+  const skill = localizeSkill(session.languageId, session.skillId, session.difficulty);
   const caseData = skill?.cases.find((caseItem) => caseItem.id === session.caseId);
   if (!skill || !caseData) return null;
   const total = session.practiceMode === PRACTICE_MODES.TRIAD && session.roundStatementIds.length > 0
@@ -962,7 +971,7 @@ function getLastPracticeSetup() {
   const languageId = state.languageId ?? saved?.languageId;
   if (!saved || !LANGUAGE_METADATA[languageId]) return null;
   if(saved.exerciseType==='mastery'){const exercise=EXERCISE_CATALOG.find(e=>e.id===saved.exerciseId);return exercise?{exercise,languageId}:null;}
-  const skill = localizeSkill(languageId, saved.skillId);
+  const skill = localizeSkill(languageId, saved.skillId, saved.difficulty);
   const caseData = skill?.cases.find((item) => item.id === saved.caseId);
   return caseData ? { skill, caseData, languageId } : null;
 }
@@ -987,7 +996,7 @@ function repeatLastPracticeSetup() {
   if (!state.languageId) handleLanguageSelection(setup.languageId);
   if(setup.exercise){void mastery.choose(setup.exercise.id);return;}
   handleSkillSelection(setup.skill.id);
-  handleCaseSelection(setup.caseData.id);
+  handleCaseSelection(setup.caseData.id, setup.caseData.difficulty);
 }
 
 function renderResumeCard() {
@@ -1041,7 +1050,7 @@ function restoreOrderFromSession(session, caseData) {
 function applyPracticeSession(session) {
   const normalized = normalizeSavedSession(session);
   if (!normalized?.skillId || !normalized.caseId) return;
-  const skill = localizeSkill(normalized.languageId, normalized.skillId);
+  const skill = localizeSkill(normalized.languageId, normalized.skillId, normalized.difficulty);
   const caseData = skill?.cases.find((caseItem) => caseItem.id === normalized.caseId);
   if (!skill || !caseData) {
     clearPracticeSession();
@@ -1054,6 +1063,7 @@ function applyPracticeSession(session) {
   state.languageId = normalized.languageId;
   state.skillId = normalized.skillId;
   state.caseId = normalized.caseId;
+  state.caseDifficulty = caseData.difficulty;
   state.orderShuffled = normalized.orderShuffled === true;
   state.order = restoreOrderFromSession(normalized, caseData);
   state.index = Math.min(normalized.index, Math.max(state.order.length - 1, 0));
@@ -2073,7 +2083,7 @@ function renderGlossaryParagraphs(container, text, languageId) {
     container.appendChild(p);
   });
 }
-function localizeSkill(languageId, skillId) {
+function localizeSkill(languageId, skillId, requestedLevel) {
   const baseSkill = BASE_PRACTICE[skillId];
   if (!baseSkill) return null;
 
@@ -2083,16 +2093,20 @@ function localizeSkill(languageId, skillId) {
     if (!baseCase) return null;
     const caseOverride = overrides.cases?.[caseId] ?? CASE_OVERRIDES[languageId]?.[caseId] ?? {};
     const caseFormulationOverride = getCaseFormulationTranslations(languageId)[caseId] ?? {};
+    const difficulty = preferredCaseLevel(baseCase, requestedLevel ?? (caseId === state.caseId ? state.caseDifficulty : null));
+    const multi = baseCase.supportedLevels.length > 1;
     return {
       id: caseId,
       label: caseOverride.label ?? baseCase.label,
-      difficulty: caseOverride.difficulty ?? baseCase.difficulty ?? "",
+      difficulty,
+      supportedLevels: baseCase.supportedLevels,
       tier: caseOverride.tier ?? baseCase.tier ?? "free",
       difficultyLabel:
-        caseOverride.difficultyLabel ?? baseCase.difficultyLabel ?? baseCase.difficulty ?? "",
+        multi ? levelLabel(languageId,difficulty) : caseOverride.difficultyLabel ?? baseCase.difficultyLabel ?? baseCase.difficulty ?? "",
       teaser: caseOverride.teaser ?? baseCase.teaser,
       history: caseOverride.history ?? baseCase.history,
       schema: caseOverride.schema ?? baseCase.schema,
+      schemaLabel: caseOverride.schemaLabel ?? baseCase.schemaLabel ?? getUIStrings(languageId).schemaLabel,
       corePain:
         caseOverride.corePain ??
         caseFormulationOverride.corePain ??
@@ -2100,8 +2114,8 @@ function localizeSkill(languageId, skillId) {
       practiceEdge: caseOverride.practiceEdge ?? baseCase.practiceEdge ?? "",
       style: caseOverride.style ?? baseCase.style,
       voice: caseOverride.voice ?? baseCase.voice,
-      statementCount: baseCase.statementCount,
-      statements: getPracticeStatements(languageId, skillId, caseId)
+      statementCount: multi ? 12 : baseCase.statementCount,
+      statements: getPracticeStatements(languageId, skillId, caseId, difficulty)
     };
   }).filter(Boolean);
 
@@ -2986,6 +3000,9 @@ function focusTriadPhase() {
 function showCaseBrief() {
   renderPracticeLearning();
   state.view = "brief";
+  const caseData=getCurrentCase(),host=document.getElementById('case-level-choice');
+  const choice=caseData&&!state.sessionActive?createLevelChoice({caseData,value:caseData.difficulty,language:state.languageId,onChange:level=>handleCaseSelection(caseData.id,level)}):null;
+  host.replaceChildren(...(choice?[choice]:[]));host.hidden=!choice;
   if (elements.caseBriefScreen) {
     elements.caseBriefScreen.classList.remove("is-hidden");
     elements.caseBriefScreen.hidden = false;
@@ -3014,7 +3031,7 @@ function showStatements() {
     state.roundTarget = normalizePracticeTarget(getActiveTarget());
     state.roundRaterId = state.authUser?.id ?? null;
     writeJsonStorage(LAST_SETUP_STORAGE_KEY, {
-      languageId: state.languageId, skillId: state.skillId, caseId: state.caseId, practiceMode: state.practiceMode
+      languageId: state.languageId, skillId: state.skillId, caseId: state.caseId, difficulty: activeCase.difficulty, practiceMode: state.practiceMode
     });
   }
   state.view = "statements";
@@ -3087,14 +3104,16 @@ function hydratePracticeView() {
 
   applyVisualProperties(sections.practice, getCaseVisual(skill.id, caseData.difficulty));
   elements.practiceSkill.textContent = skill.name;
-  elements.caseName.textContent = caseData.label;
+  const caseLabel=caseData.supportedLevels.length>1?`${caseData.label} · ${caseData.difficultyLabel}`:caseData.label;
+  elements.caseName.textContent = caseLabel;
   if (elements.caseTeaser) {
     elements.caseTeaser.textContent = caseData.teaser ?? "";
   }
   if (elements.statementCaseName) {
-    elements.statementCaseName.textContent = caseData.label;
+    elements.statementCaseName.textContent = caseLabel;
   }
   elements.caseSchema.textContent = caseData.schema ?? "";
+  elements.caseSchemaLabel.textContent = caseData.schemaLabel;
   if (elements.caseCorePain) {
     const corePain = (caseData.corePain ?? "").trim();
     elements.caseCorePain.textContent = corePain;
@@ -3928,7 +3947,7 @@ function handlePracticeModeChange(event) {
   savePracticeSession();
 }
 
-function handleCaseSelection(caseId) {
+function handleCaseSelection(caseId, requestedLevel) {
   state.sessionActive = false;
   state.roundTarget = null;
   state.roundRaterId = null;
@@ -3940,6 +3959,8 @@ function handleCaseSelection(caseId) {
   }
 
   state.caseId = caseId;
+  state.caseDifficulty = preferredCaseLevel(targetCase,requestedLevel);
+  rememberCaseLevel(targetCase,state.caseDifficulty);
   state.order = [];
   state.orderShuffled = false;
   state.index = 0;

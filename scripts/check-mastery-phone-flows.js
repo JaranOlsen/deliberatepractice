@@ -2,14 +2,16 @@
 // Run node scripts/check-local-room-db.mjs --serve first. No remote writes.
 async page => {
  const url=page.url(),assert=(ok,message)=>{if(!ok)throw new Error(message);};
+ const arne=new URL(url).searchParams.get('testCase')==='arne';
+ const levels=arne?['easy','moderate','hard']:['easy'];
  assert(['127.0.0.1','localhost'].includes(new URL(url).hostname),'Local preview only');
  const users=await (await page.request.get('http://127.0.0.1:5199/users')).json(),errors=[],contexts=[];
  let stage='setup',completed=0;
  const allRatings=async()=>(await page.request.get('http://127.0.0.1:5199/mastery-ratings')).json();
  const before=new Set((await allRatings()).map(r=>r.id));
  try {
-  for(const language of ['en','no'])for(const mode of ['individual','shared','pair']){
-   stage=`${language}/${mode}`;
+  for(const language of ['en','no'])for(const level of levels)for(const mode of ['individual','shared','pair']){
+   stage=`${language}/${level}/${mode}`;
    const context=await page.context().browser().newContext({viewport:{width:320,height:844}});contexts.push(context);
    const p=await context.newPage();p.on('pageerror',e=>errors.push(e.message));
    await context.addInitScript(({language,mode})=>{
@@ -49,9 +51,11 @@ async page => {
    };
    await p.goto(url);await p.waitForFunction(()=>document.getElementById('account-button').textContent==='Account'||document.getElementById('account-button').textContent==='Konto');
    await p.locator('#home-library').click();await p.locator('#exercise-mastery').click();
-   await p.locator('[data-exercise-id="mastery-sara-evenings"]').click();await p.locator('#mastery-start').waitFor();
-   assert((await p.locator('#mastery-practice .case-brief').textContent()).includes(language==='no'?'Hei, jeg heter Sara':'Hi, I\'m Sara'),'Client sees background and voice before beginning');
-   assert((await p.locator('#mastery-practice .room-case-heading').textContent()).endsWith(language==='no'?'Lett':'Easy'),'The exercise level follows the selected language');
+   await p.locator(`[data-exercise-id="${arne?'mastery-arne-ordinary-days-easy':'mastery-sara-evenings'}"]`).click();await p.locator('#mastery-start').waitFor();
+   if(arne&&level!=='easy'){await p.locator(`[data-practice-level="${level}"]`).click();await p.waitForFunction(level=>document.querySelector(`[data-practice-level="${level}"]`)?.getAttribute('aria-pressed')==='true',level);}
+   assert((await p.locator('#mastery-practice .case-brief').textContent()).includes(arne?(language==='no'?'Jeg heter Arne':'I’m Arne'):(language==='no'?'Hei, jeg heter Sara':'Hi, I\'m Sara')),'Client sees background and voice before beginning');
+   const levelName={en:{easy:'Easy',moderate:'Moderate',hard:'Hard'},no:{easy:'Lett',moderate:'Moderat',hard:'Vanskelig'}}[language][level];
+   assert((await p.locator('#mastery-practice .room-case-heading').textContent()).endsWith(levelName),'The exercise level follows the selected language');
    await fits('preparation');
    if(mode!=='individual'){
     if(mode==='pair')await p.locator('#mastery-practice .mastery-account-confirm input').check();
@@ -68,12 +72,12 @@ async page => {
      }
      assert(await p.locator('#mastery-finish').isVisible(),'Completion action available to guide');
      await fits('item');
-     if(set===1&&item===0)await p.screenshot({path:`output/playwright/mastery-${language}-${mode}-item-320.png`,fullPage:true});
+     if(set===1&&item===0)await p.screenshot({path:`output/playwright/mastery-${arne?'arne':'sara'}-${level}-${language}-${mode}-item-320.png`,fullPage:true});
      await p.locator('#mastery-finish').click();
     }
     await p.locator('#mastery-score').waitFor();await fits('rating');
     if(set===1)await p.screenshot({path:`output/playwright/mastery-${language}-${mode}-rating-320.png`,fullPage:true});
-    if(set===1){await p.reload();await p.locator('#resume-mastery').click();await p.locator('#mastery-score').waitFor();assert(await p.evaluate(()=>JSON.parse(localStorage.getItem('dp_mastery_session')).roundId)===roundId,'Reload retains checkpoint identity');}
+    if(set===1){await p.evaluate(()=>localStorage.setItem('dp_case_levels_v1',JSON.stringify({'case-arne':'hard'})));await p.reload();await p.locator('#resume-mastery').click();await p.locator('#mastery-score').waitFor();assert(await p.evaluate(()=>JSON.parse(localStorage.getItem('dp_mastery_session')).roundId)===roundId,'Reload retains checkpoint identity');assert(await p.evaluate(()=>JSON.parse(localStorage.getItem('dp_mastery_session')).difficulty)===level,'Resume pins the selected exercise level');}
     if(mode!=='individual'&&set===1)await p.locator('.mastery-account-confirm input').check();
     await p.locator('#mastery-score').selectOption(String(set+1));
     if(language==='en'&&mode==='individual'&&set===1)loseResponse=true;
@@ -83,7 +87,7 @@ async page => {
     await p.locator('#mastery-next').click();
    }
    const rows=(await allRatings()).filter(r=>r.parent_round_id===roundId);
-   assert(rows.length===4&&rows.every(r=>r.source==='self'&&r.item_count===3&&r.practice_mode===(mode==='pair'?'shared':mode)),'Four correctly attributed mastery ratings');
+   assert(rows.length===4&&rows.every(r=>r.source==='self'&&r.item_count===3&&r.difficulty===level&&r.practice_mode===(mode==='pair'?'shared':mode)),'Four correctly attributed mastery ratings at the selected level');
    assert(await p.evaluate(()=>JSON.parse(localStorage.getItem('dp_mastery_session')))===null,'Completed round is not resumable');
    await p.locator('#open-progress').click();await p.locator('#progress-mastery').click();await p.locator('#mastery-history .mastery-history-list').waitFor();
    assert((await p.locator('#mastery-history').textContent()).includes('4/4'),'Mastery history shows four checkpoints');
@@ -92,7 +96,7 @@ async page => {
    await p.screenshot({path:`output/playwright/mastery-${language}-${mode}-history-320.png`,fullPage:true});
    completed++;
   }
-  const rows=(await allRatings()).filter(r=>!before.has(r.id));assert(rows.length===24,'Six rounds store exactly twenty-four checkpoints, including retry');
+  const rows=(await allRatings()).filter(r=>!before.has(r.id));assert(rows.length===completed*4,'Each round stores exactly four checkpoints, including retry');
   assert(errors.length===0,'No runtime errors: '+errors.join(';'));
   return {completed,checkpoints:rows.length,errors};
  }catch(error){throw new Error(`${stage}: ${error.message}`);}

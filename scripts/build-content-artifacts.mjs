@@ -45,9 +45,9 @@ const EXERCISE_1_DERIVED_RESPONSES = {
 };
 
 const DIFFICULTY_CASE_IDS = Object.freeze({
-  easy: CASES.filter((entry) => entry.difficulty === "easy").map((entry) => entry.id),
-  moderate: CASES.filter((entry) => entry.difficulty === "moderate").map((entry) => entry.id),
-  hard: CASES.filter((entry) => entry.difficulty === "hard").map((entry) => entry.id)
+  easy: CASES.filter((entry) => entry.difficulty === "easy" && !entry.supportedLevels).map((entry) => entry.id),
+  moderate: CASES.filter((entry) => entry.difficulty === "moderate" && !entry.supportedLevels).map((entry) => entry.id),
+  hard: CASES.filter((entry) => entry.difficulty === "hard" && !entry.supportedLevels).map((entry) => entry.id)
 });
 
 const CASE_VOICE_REVIEW_GROUPS = Object.freeze([
@@ -174,7 +174,7 @@ function buildRegistry() {
     Object.entries(cases).forEach(([caseId, items]) => {
       registry[skillId][caseId] = items.map((entry, index) => {
         totalItems += 1;
-        const id = buildLegacyId(skillId, caseId, index);
+        const id = entry.id ?? buildLegacyId(skillId, caseId, index);
         const overrideMeta = CONTENT_ITEM_META_OVERRIDES[id] ?? {};
         const riskFlags = overrideMeta.riskFlags ?? inferRiskFlags(entry.text ?? "", entry.suggestion ?? "");
         const baseMeta = {
@@ -182,11 +182,11 @@ function buildRegistry() {
           skillId,
           caseId,
           track: CONTENT_TRACKS.CASE_MATRIX,
-          difficultyTier: caseDifficultyMap.get(caseId) ?? "unknown",
-          sourceRef: EXTENSION_SKILL_ORDER.includes(skillId) ? {type: "original_extension", url: EXTENSION_SOURCE, section: "3.1–3.4"} : buildSourceRef(skillId, caseId),
+          difficultyTier: entry.difficulty ?? caseDifficultyMap.get(caseId) ?? "unknown",
+          sourceRef: caseId === 'case-arne' ? {type:'original_case_variant',caseDossier:'Case_Arne.md',url:EXTENSION_SOURCE} : EXTENSION_SKILL_ORDER.includes(skillId) ? {type: "original_extension", url: EXTENSION_SOURCE, section: "3.1–3.4"} : buildSourceRef(skillId, caseId),
           riskFlags,
-          criteriaTags: EXTENSION_CRITERIA[skillId] ?? [...(SKILL_EXERCISE_MAP[skillId]?.defaultCriteriaTags ?? []), "legacy_matrix_item"],
-          reviewStatus: EXTENSION_SKILL_ORDER.includes(skillId) ? REVIEW_STATUSES.PENDING : REVIEW_STATUSES.LEGACY_IMPORTED,
+          criteriaTags: EXTENSION_CRITERIA[skillId] ?? [...(SKILL_EXERCISE_MAP[skillId]?.defaultCriteriaTags ?? []), ...(caseId==='case-arne'?[]:["legacy_matrix_item"])],
+          reviewStatus: caseId === 'case-arne' || EXTENSION_SKILL_ORDER.includes(skillId) ? REVIEW_STATUSES.PENDING : REVIEW_STATUSES.LEGACY_IMPORTED,
           revision: CONTENT_REVISION
         };
         return {
@@ -406,7 +406,7 @@ function buildContentInventory(registry, registrySummary, benchmarkSummary) {
           id: meta.id,
           skillId,
           caseId,
-          caseDifficulty: caseMeta.difficulty ?? meta.difficultyTier,
+          caseDifficulty: meta.difficultyTier ?? caseMeta.difficulty,
           orderIndex: index,
           translationStatus: translationMap[meta.id] ? "translated" : "missing",
           feedbackStatus: "not_loaded",
@@ -612,7 +612,7 @@ function buildReviewItem(registry, skillId, caseId, index, caseLookup) {
     caseId,
     caseLabel: caseMeta.label ?? caseId,
     caseName: caseMeta.name ?? caseMeta.label ?? caseId,
-    difficulty: caseMeta.difficulty ?? meta.difficultyTier,
+    difficulty: meta.difficultyTier ?? caseMeta.difficulty,
     riskFlags: meta.riskFlags ?? [],
     en: {
       statement: contentItem.text,

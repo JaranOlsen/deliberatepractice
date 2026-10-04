@@ -1,6 +1,7 @@
 import {summarizeMasteryRounds} from './masteryProgress.js';
 import {EXERCISE_CATALOG} from './practiceData.js';
 import {node} from './masteryFeedbackUI.js';
+import {levelLabel} from './practiceLevels.js';
 export function renderMasteryHistory({host,rows,source,language,loading,error,signedIn}) {
  const no=language==='no';host.replaceChildren();host.hidden=!signedIn;
  if(!signedIn)return;
@@ -14,7 +15,7 @@ export function renderMasteryHistory({host,rows,source,language,loading,error,si
  for(const round of rounds.slice(0,12)){
   const entry=node('li'),meta=EXERCISE_CATALOG.find(e=>e.id===round.exerciseId);
   entry.append(node('strong',meta?.title[language]??round.exerciseId));
-  entry.append(node('p',`${new Date(round.date).toLocaleDateString(no?'nb-NO':'en-GB')} · ${round.difficulty==='easy'?(no?'Lett':'Easy'):round.difficulty} · ${round.languageId==='no'?'Norsk':'English'}`,'response-hint'));
+  entry.append(node('p',`${new Date(round.date).toLocaleDateString(no?'nb-NO':'en-GB')} · ${levelLabel(language,round.difficulty)} · ${round.languageId==='no'?'Norsk':'English'}`,'response-hint'));
   entry.append(node('p',`${no?'Snitt':'Average'} ${round.score.toFixed(1)}/5 · ${round.checkpointCount}/4 ${no?'vurderte sett':'rated sets'} · ${round.itemCount}/12 ${no?'utsagn vurdert':'items rated'}`));
   const checkpoints=node('div','', 'mastery-checkpoints');
   for(let n=1;n<=4;n++){const rating=round.sets.find(r=>r.set_number===n);checkpoints.append(node('span',`${n}: ${rating?rating.score+'/5':'—'}`));}

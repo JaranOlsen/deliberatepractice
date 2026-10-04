@@ -1,0 +1,171 @@
+{
+  "id": "mastery-arne-ordinary-days-easy",
+  "type": "mastery",
+  "caseId": "case-arne",
+  "difficulty": "easy",
+  "supportedLevels": [
+    "easy"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Arne · Living the ordinary days",
+  "orientation": "Twelve linked moments about daily life after Ingrid’s death. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+  "scenes": [
+    {
+      "id": "mastery_arne_easy_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-arne_easy_01",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "A morning in the familiar kitchen.",
+      "prompt": "Reflect the loss in this ordinary moment.",
+      "text": "[Quietly] I still put two cups out. Seeing hers empty makes me sad.",
+      "suggestion": "That empty cup brings home how much you miss having Ingrid beside you."
+    },
+    {
+      "id": "mastery_arne_easy_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-arne_easy_01",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "bridge": "Arne asks what exploring a routine could offer.",
+      "prompt": "Explain a small, optional way to explore the moment.",
+      "text": "[Puzzled] Why talk about the empty cup? I know perfectly well she’s gone.",
+      "suggestion": "You know she’s gone. Noticing what the cup brings up might help us understand that lonely moment, if you want to try."
+    },
+    {
+      "id": "mastery_arne_easy_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-arne_easy_01",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "bridge": "Another small trace of Ingrid brings shame about tears.",
+      "prompt": "Make his reaction understandable in its context.",
+      "text": "[Ashamed] I cried over her handwriting on a shopping list. How silly is that?",
+      "suggestion": "That handwriting belongs to someone woven into your everyday life. Being moved by it is understandable."
+    },
+    {
+      "id": "mastery_arne_easy_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-arne_easy_01",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "bridge": "Arne recalls the chair beside the table.",
+      "prompt": "Ask one open question about the unclear feeling.",
+      "text": "[Hesitates] There’s a feeling when I see her empty chair. I can’t quite name it.",
+      "suggestion": "What do you notice as you look at that chair in your mind now?"
+    },
+    {
+      "id": "mastery_arne_easy_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-arne_easy_01",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "bridge": "In this moment, sadness is already apparent.",
+      "prompt": "Gently explore the sadness he is noticing.",
+      "text": "[Softly] There’s sadness right here when I picture the empty chair.",
+      "suggestion": "Could we stay a moment with that sadness and see what you notice?"
+    },
+    {
+      "id": "mastery_arne_easy_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-arne_easy_02",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "bridge": "The conversation turns to sharing a day with Ingrid.",
+      "prompt": "Offer a tentative guess about what the loneliness holds.",
+      "text": "[Pauses] I had a story for her after the walk. It stayed in my head all evening.",
+      "suggestion": "Could part of the loneliness be having nobody to share those small stories with?"
+    },
+    {
+      "id": "mastery_arne_easy_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-arne_easy_10",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "bridge": "He describes the ordinary things he would tell her at a distance.",
+      "prompt": "Offer one close image and check whether it fits.",
+      "text": "[Matter-of-fact] I have small things to tell her. Weather. Knut’s joke.",
+      "suggestion": "Those little pieces of your day still turn toward her. Does that sound right?"
+    },
+    {
+      "id": "mastery_arne_easy_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-arne_easy_01",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "A tender morning detail shifts toward a practical task.",
+      "prompt": "Check the shift; invite a return without insisting.",
+      "text": "[Soft, then brisk] I miss her at breakfast. Anyway, the kettle needs descaling.",
+      "suggestion": "The kettle may need attention too. Would you like a moment with missing her before we move on?"
+    },
+    {
+      "id": "mastery_arne_easy_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-arne_easy_01",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "bridge": "A later moment is tearful, with Arne still present.",
+      "prompt": "Follow his request for quiet company.",
+      "text": "[Crying, steady breath] I miss her so much just now. Can we be quiet?",
+      "suggestion": "Yes. We can be quiet together. You don’t have to find words."
+    },
+    {
+      "id": "mastery_arne_easy_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-arne_easy_07",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Another moment brings the exhaustion of caregiving into view.",
+      "prompt": "Reflect the relief and guilt without deciding what they prove.",
+      "text": "[Hesitant] I felt relieved not to listen for her at night anymore. Then I felt guilty.",
+      "suggestion": "The constant listening could stop, and guilt arrived alongside that relief."
+    },
+    {
+      "id": "mastery_arne_easy_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-arne_easy_02",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Arne notices words that let love and tiredness coexist.",
+      "prompt": "Help him name what he wants to keep.",
+      "text": "[Softly] I can say I was tired without taking the love away.",
+      "suggestion": "How would you say that in your own words, so both the love and the tiredness have a place?"
+    },
+    {
+      "id": "mastery_arne_easy_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-arne_easy_12",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "The imagined session is nearly over.",
+      "prompt": "Make room for tiredness and a manageable ending.",
+      "text": "[Reflective] I’m glad we talked. I’m also worn out.",
+      "suggestion": "Both matter as we finish. What would help with leaving today, when you’re this tired?"
+    }
+  ]
+}

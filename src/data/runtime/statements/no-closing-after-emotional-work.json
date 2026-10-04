@@ -144,5 +144,475 @@
       "text": "[Lite sukk] Jeg føler meg ikke lettere, akkurat. Jeg er sliten og vil ta meg god tid hjem.",
       "suggestion": "Sliten, heller enn lettere. Vi kan la det være stedet vi stopper i dag. Hvordan ville det være for deg å ta deg god tid hjem?"
     }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Med tårer] Vi er snart ferdige. Jeg er fortsatt trist.",
+      "suggestion": "Vi har noen minutter igjen. Hva ville hjelpe deg å gå mens tristheten fortsatt er her?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Kan jeg sitte litt før jeg går?",
+      "suggestion": "Ja. La oss bruke de siste minuttene på å sitte, uten flere spørsmål.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Nølende] Det er noe mer, men det trenger mer tid.",
+      "suggestion": "La oss notere hvor du vil begynne neste gang, fremfor å åpne det i hast nå.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Stødig] Jeg vil komme tilbake til å be Liv om selskap neste gang.",
+      "suggestion": "Vi noterer det. Før vi avslutter, hva trenger du i overgangen ut herfra?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Ettertenksomt] Jeg vil ta med meg «jeg elsket henne og jeg var sliten».",
+      "suggestion": "Det er dine ord å ta vare på. Skal vi stoppe der og ta et stille øyeblikk?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten] Jeg vil ikke ha enda en oppgave denne uken.",
+      "suggestion": "Ingen ny oppgave. Vi kan avslutte ved å merke oss hva du vil huske, eller bare ta en pause.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Mykt] Knut møter meg utenfor. En tur ville være godt.",
+      "suggestion": "Det høres ut som overgangen du ønsker. Skal vi la arbeidet ligge her for i dag?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Usikkert] Jeg vet ikke hvordan jeg skal oppsummere alt.",
+      "suggestion": "Vi trenger ingen perfekt oppsummering. Er det ett øyeblikk du vil ta vare på før vi avslutter?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg er klar til å gå, men langsomt.",
+      "suggestion": "Vi kan stoppe her og gi deg et øyeblikk til å gjøre deg klar i ditt eget tempo.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Urolig] Jeg kan bli ensom igjen i kveld.",
+      "suggestion": "Det kan komme tilbake. I de siste minuttene, ville det hjelpe å se på hvilken støtte du ønsker i kveld?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Med tårer, stødig] Jeg kan gå. Tårene trenger ikke være borte først.",
+      "suggestion": "Vi kan avslutte mens tårene fortsatt er her. La oss ta et øyeblikk før du reiser deg.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Reflektert] Jeg er glad vi snakket. Jeg er også utslitt.",
+      "suggestion": "Begge deler betyr noe når vi avslutter. Hva ville gjøre det lettere å gå herfra i dag, når du er så sliten?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Med tårer, oppmerksom] Det går greit å gå, men ikke kall dette løst.",
+      "suggestion": "Det er ikke løst. Vi avslutter timen og kan notere det du vil vende tilbake til.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Nølende] Jeg kom på noe mer. Det er bare fem minutter igjen, er det ikke?",
+      "suggestion": "Ja. Skal vi merke oss hvor vi kan begynne neste gang, fremfor å skynde oss inn i det i dag?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg ønsker selskap i kveld, men ikke at du ringer for meg.",
+      "suggestion": "Du avgjør hvilken kontakt du vil ha. Vi kan bruke de siste minuttene på å tydeliggjøre det, uten at jeg tar over.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten] Jeg forstår mer, men kjenner meg ikke lettere.",
+      "suggestion": "Vi kan avslutte med forståelse og slitenhet uten å kreve lettelse. Hva ville hjelpe i overgangen hjem?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Usikkert] De ordene passer her. Jeg vil ikke love å bruke dem hjemme.",
+      "suggestion": "Ingen løfter trengs. Er det noe du vil ta med deg, eller vil du helst avslutte stille?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Med tårer] Det kjennes rart å gå rett fra dette til bussen.",
+      "suggestion": "La oss sette av noen minutter til å skifte tempo. Hva ville gjøre den turen håndterbar?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Forsiktig] Vi åpnet mye. Kan vi bare si hvor vi lar det ligge?",
+      "suggestion": "Ja. Hva kjennes mest uferdig for deg? Vi kan notere det uten å åpne det mer.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg vil heller gå alene etter dette. Det betyr ikke at jeg stenger alle ute.",
+      "suggestion": "En stille tur er ditt valg for denne overgangen. Vi trenger ikke tolke det som tilbaketrekning.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Nølende] Kan du minne meg om hva du hørte, uten en stor konklusjon?",
+      "suggestion": "Kort: Du elsket Ingrid, omsorgen slet deg ut, og du ønsker plass til begge deler. Hva passer, eller trenger å endres?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Urolig] Hvis kvelden blir vanskelig, kan jeg ikke ringe deg når jeg vil.",
+      "suggestion": "Det stemmer. I tiden som er igjen, skal vi se på støtte du faktisk kan få tak i i kveld?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Mykt] Jeg er klar til å gå, og jeg skulle ønske jeg kunne bli.",
+      "suggestion": "Begge deler kan være her når vi avslutter. La oss ta et øyeblikk før du reiser deg.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Stødig] Ikke flere spørsmål i dag, takk. Bare et minutt før jeg går.",
+      "suggestion": "Et minutt uten spørsmål. Vi kan ta en pause her og avslutte varsomt.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Bestemt] Vi kan avslutte timen. Ikke si at jeg går herfra med en bedre følelse.",
+      "suggestion": "Vi kan avslutte uten den påstanden. Hva trenger du i overgangen slik du faktisk har det?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Med tårer, våken] Det går greit å gå, men ikke å svare på et dypt spørsmål til først.",
+      "suggestion": "Ingen dypere spørsmål. Vi kan gi plass til et stille øyeblikk før du går.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Oppmerksom] Det er uferdig sinne. Ikke lag en ryddig oppsummering av det.",
+      "suggestion": "Vi kan notere «uferdig sinne» uten å rydde det opp. Er det nok som merke for neste gang?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg er flau over det jeg sa. Ikke berolig meg med «det var modig».",
+      "suggestion": "Jeg bruker ikke den merkelappen. Ville en stille pause hjelpe før du går, eller er det noe enkelt du vil at jeg hører?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Bestemt] Jeg trenger at vi stopper i tide. Mer prat er ikke alltid snillere.",
+      "suggestion": "Det er riktig å ta opp tiden. Vi stopper arbeidet nå og bruker øyeblikket som er igjen, til overgangen.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Nølende] Jeg tok opp noe viktig sent. Jeg vil ikke presse det inn i to minutter.",
+      "suggestion": "Vi presser det ikke inn. Hvilket kort merke ville hjelpe oss å vende tilbake neste gang?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Oppmerksom] Ikke planlegg kvelden min for meg. Jeg har ett praktisk spørsmål før jeg går.",
+      "suggestion": "Kvelden er din. Hva er det praktiske spørsmålet vi kan ta i tiden som er igjen?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Med tårer] Jeg vil ha stillhet, men ikke føle meg avvist.",
+      "suggestion": "Vi kan ta en pause sammen og så tydelig si når vi avslutter. Du trenger ikke gjette ut fra stillheten min.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten] Jeg fant ord for det her. Jeg vet ikke om jeg har dem når jeg kommer hjem.",
+      "suggestion": "Du trenger ikke ta med deg alt dette hjem i dag. Vil du ta vare på én formulering, eller avslutte med en stille stund?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg vil vende tilbake til lettelsen neste gang. Ikke sykehusdetaljene.",
+      "suggestion": "Vi noterer lettelsen, uten sykehusdetaljer. Er det noe enkelt du trenger før vi avslutter?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Forsiktig] Hvis kvelden blir vanskelig, trenger jeg virkelige muligheter, ikke «ring når som helst».",
+      "suggestion": "Jeg kan ikke tilby samtaler uten grenser. I tiden som er igjen, la oss tydeliggjøre støtte du faktisk kan nå og vil bruke.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Stødig] Jeg går trist herfra. Jeg føler meg også hørt. La begge være sanne.",
+      "suggestion": "Begge kan være sanne. Vi kan stoppe her uten å be tristheten bli til noe annet.",
+      "difficulty": "hard"
+    }
   ]
 }

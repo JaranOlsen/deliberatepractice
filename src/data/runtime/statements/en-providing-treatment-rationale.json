@@ -1312,5 +1312,439 @@
       "text": "[Guarded] The numbness lets me get through the day. Why would I want you to get rid of the thing that's keeping me going?",
       "suggestion": "We won't try to take your protection away. The aim is to find moments when you can feel a little without losing your footing, so numbness doesn't have to be your only way through the day."
     }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Puzzled] Why talk about the empty cup? I know perfectly well she’s gone.",
+      "suggestion": "You know she’s gone. Noticing what the cup brings up might help us understand that lonely moment, if you want to try.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Curious] How would talking about guilt help me enjoy the workshop?",
+      "suggestion": "We could explore what enjoying it seems to say about your love for Ingrid, and see whether that meaning fits.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Unsure] Are we supposed to make me cry?",
+      "suggestion": "No. Tears aren’t the goal. We’re trying to understand what you feel and need, at a pace you can choose.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Questioning] Why stop when I mention feeling worn out?",
+      "suggestion": "That exhaustion matters too. Giving it a little room may help you hear it without turning it into proof you didn’t love her.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Careful] Do I have to talk about the day she died?",
+      "suggestion": "You don’t. We can begin with a present-day moment that you choose and see what feels useful.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Puzzled] What’s the point of asking what I notice in my chest?",
+      "suggestion": "Sometimes that helps find words for an unclear feeling. We can try briefly, or stay with words if that suits you better.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Concerned] Will sitting with sadness make the whole day worse?",
+      "suggestion": "It might feel stronger for a moment. We can take a small piece, check how it affects you, and pause rather than push through.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Curious] Why would we talk about the good afternoon as well?",
+      "suggestion": "That afternoon matters alongside the grief. We can hear what felt good and what happened when the guilt came.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Worried] Is this about learning to forget Ingrid?",
+      "suggestion": "No. We can work on living these days while making room for what she means to you.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Questioning] Why look at one evening instead of my whole life?",
+      "suggestion": "One evening gives us a manageable place to start. It may show what is hardest and what support you want then.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Unsure] Can this help with practical things, or just feelings?",
+      "suggestion": "Both can matter. Understanding the feelings may clarify a need; practical problems can also need practical help in their own right.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Careful] What if I don’t want to try an exercise?",
+      "suggestion": "Then we won’t do it. I can explain what it might offer, and we can choose another way to work together.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Skeptical] I’ve told this story before. What would be different here?",
+      "suggestion": "We could pause at one moment rather than retell everything, and check what it brings up now. You can decide whether that helps.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Careful] If I feel the relief properly, won’t that make me a worse husband?",
+      "suggestion": "Exploring relief doesn’t decide what kind of husband you were. It may help distinguish wanting rest from not loving Ingrid.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Questioning] You ask me to slow down. I’m afraid I’ll get stuck there.",
+      "suggestion": "We can slow briefly and keep checking your choice. The aim is understanding, not keeping you in a feeling you want to leave.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Unsure] Why pay attention to anger? I don’t want to blame her.",
+      "suggestion": "Anger may tell us about strain or an unmet need. Hearing it needn’t turn Ingrid into the problem; we can check what it actually means.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Doubtful] If we talk about a good day, are we avoiding the grief?",
+      "suggestion": "We can hear the good day and the grief together. What happens between enjoyment and guilt may be useful to understand.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Briskly] I need a plan for weekends, not more names for feelings.",
+      "suggestion": "A practical plan may be what you need. If useful, we can first clarify which parts feel lonely and what kind of company you want.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Hesitant] Will you make me say goodbye to her?",
+      "suggestion": "No. These exercises don’t require a goodbye. We can explore how you want to carry your connection with her into your days.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Puzzled] You notice my little laugh. Does everything mean something hidden?",
+      "suggestion": "Not everything. I noticed a change and want to check it with you, rather than decide what the laugh means.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Uncertain] Naming a need sounds easy. Asking Liv is another matter.",
+      "suggestion": "That’s a different step. Here we can find words that fit first, then decide whether or how you want to use them.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Concerned] What if talking about her makes the house worse tonight?",
+      "suggestion": "Let’s take that concern seriously. We can choose a smaller piece and leave time to consider the transition home, instead of opening more.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Careful] I’m not sure looking inside is my way of doing things.",
+      "suggestion": "We can begin with a concrete moment and your ordinary words. You needn’t adopt a new way of speaking to work with me.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Questioning] Why revisit a moment that already felt better?",
+      "suggestion": "Not to make it bigger. We could understand what shifted and what you want to keep, without promising it will stay that way.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Firmly] If the exercise ends with me forgiving everyone, I’m not doing it.",
+      "suggestion": "It doesn’t require forgiveness. We can explore what you feel and need; you decide whether the exercise is useful at all.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Watchful] You say feelings carry needs. What if mine are just messy?",
+      "suggestion": "They can be messy. This is a way to explore, not a rule that every feeling has one neat message.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Skeptical] Explain how this helps without promising me acceptance.",
+      "suggestion": "We might understand a difficult moment and find what would support you in it. I can’t promise acceptance, and it isn’t a required outcome.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Careful] I won’t do body scanning. It made me feel watched before.",
+      "suggestion": "We won’t use that. We can work with a concrete memory and ordinary words, checking what feels useful and comfortable.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Questioning] If I’m prompted to feel something, how do I know it’s mine?",
+      "suggestion": "That concern matters. Treat any prompt as an invitation, and tell me if nothing fits. We should follow your experience, not produce a feeling.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Dryly] I’m tired, not defended. Why keep asking about the feeling?",
+      "suggestion": "Tiredness may be reason enough to stop. Emotion work needs your willingness and energy; we can choose something less demanding today.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Firmly] I want a weekend plan before we explore another memory.",
+      "suggestion": "Let’s start there. Emotional exploration is optional; practical support can be useful without a deeper memory first.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Watchful] Is anger supposed to turn into sadness? I’d like my anger heard.",
+      "suggestion": "There’s no required sequence. We can understand the anger on its own terms rather than replace it with another feeling.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Skeptical] Don’t explain the method at me. Tell me what you’d like us to try.",
+      "suggestion": "A short pause at one moment you choose, then checking what you notice. We can stop if it offers nothing. Would that suit you?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Quietly] Talking changed something here last week. Home was still hard.",
+      "suggestion": "A useful moment here may not change home immediately. We can look at that gap and what support it needs, without calling last week a failure.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Careful] Don’t make a picture of Ingrid and tell me to talk to it.",
+      "suggestion": "I won’t. No imagined conversation is required. We can work in ways you choose, including simply talking with me.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Uncertain] I want to understand the guilt, not get persuaded out of loving her.",
+      "suggestion": "The aim isn’t persuasion. We can examine what guilt says about love and check it against your own experience.",
+      "difficulty": "hard"
+    }
   ]
 }

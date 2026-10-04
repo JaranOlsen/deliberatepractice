@@ -144,5 +144,475 @@
       "text": "[After a pause] That empty feeling is back. I don't want to go into it today; I need to talk about getting through tonight.",
       "suggestion": "Let's focus on tonight. We can leave the empty feeling there for now. What feels hardest about getting through the evening?"
     }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Soft, then brisk] I miss her at breakfast. Anyway, the kettle needs descaling.",
+      "suggestion": "The kettle may need attention too. Would you like a moment with missing her before we move on?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Eyes wet, small laugh] That coat still smells like her. Silly old coat.",
+      "suggestion": "You laughed as it brought her close. Would you like to stay with what you noticed?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Softly, then listing] I wanted company. Knut’s busy, Liv works, the neighbors—",
+      "suggestion": "Before we list everyone’s schedules, would you like to hear that wish for company a little more?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Voice catches] I needed rest too. But the hospital parking was expensive.",
+      "suggestion": "We can discuss the parking. Would it help first to pause with needing rest?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Quickly] I was angry. Of course, everyone meant well, so forget that.",
+      "suggestion": "Their intentions matter, and your anger showed up too. Would you like to give it a little room?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Soft, then technical] Seeing her recipe hurt. The ink’s probably fading chemically.",
+      "suggestion": "That may explain the ink. Would you like to stay with what hurt when you saw the recipe?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Pauses, then brisk] I’m lonely. Right, shall I tell you about the roof instead?",
+      "suggestion": "We can choose either. Would you like a moment with “lonely,” or is the roof what you need today?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Tearful, changes topic] Her laugh. I miss it. Did it rain here yesterday?",
+      "suggestion": "We can talk about yesterday. I also heard how much you miss her laugh. Would you like to return to that?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Soft, then self-critical] I wanted Liv to stay. That’s enough of my complaints.",
+      "suggestion": "Wanting her to stay doesn’t have to be a complaint. Would you like to hear that wish before leaving it?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Uncertain] You noticed I changed the subject. I’d rather keep it changed today.",
+      "suggestion": "Then we will. What would you like us to focus on instead?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Quiet, then hurried] I enjoyed the workshop. Never mind, I forgot to pay a bill.",
+      "suggestion": "Is the bill urgent now, or would you like a moment with enjoying the workshop first?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Smiles through tears] I’d like to remember her teasing. But I’m getting sentimental.",
+      "suggestion": "That memory seems to bring warmth and tears. Would you like to stay with it, without judging it?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Voice softens, then lists] I wanted rest. The appointments were Monday, Wednesday, sometimes Friday—",
+      "suggestion": "The schedule shows the demands. Would you like to pause with wanting rest before we list more?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Eyes wet, jokes] Nobody to tell my day to. At least the kettle listens.",
+      "suggestion": "The joke came beside that loneliness. Would you like to stay with either, or leave it there?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Quiet, then analytical] I liked the quiet. Probably just my nervous system adjusting.",
+      "suggestion": "That may be part of it. Would it help to hear what liking the quiet means to you too?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Voice catches, then brisk] I wanted Liv to notice. But she’s busy, let’s discuss her job.",
+      "suggestion": "Her job matters. Before we move there, do you want a moment with wanting her to notice?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Frowning, then laughing] I’m angry when they speak for Ingrid. Well, everyone’s an expert.",
+      "suggestion": "There’s humor and anger here. Would you like to hear what your anger is saying?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Softly, then hurried] I miss her teasing. Right, should I tell you about the plumbing?",
+      "suggestion": "Is the plumbing what you need now, or would staying with that warm memory be welcome?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Hesitant] I changed the subject because I needed a break. Not because I’m scared.",
+      "suggestion": "Thank you for making that clear. We’ll take the break rather than pull you back.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Quiet, then blaming himself] I wanted help. Listen to me, making everything about myself.",
+      "suggestion": "Could we pause before that judgment and hear the need for help, if you want?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Tearful, then explanatory] I’m lonely. Of course, statistically, plenty of people live alone.",
+      "suggestion": "That’s true. Would you like to stay with how living alone feels for you, rather than the numbers?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Softly, then practical] Rest felt good. But I do need the benefits form sorted today.",
+      "suggestion": "Then let’s make time for the form. Do you want to leave the feeling there or briefly name it first?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Voice lowers, then speeds up] I don’t want to lose her laugh. Anyway, here’s the history of that photograph—",
+      "suggestion": "Would you like to pause with not wanting to lose her laugh before the photograph’s history?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Quiet, small smile] I enjoyed myself. Don’t make a big thing of it.",
+      "suggestion": "We needn’t make it big. Would you like a small moment with the enjoyment, or shall we go on?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Tender, then brisk] Her laugh gets to me. But I don’t want to stay there today.",
+      "suggestion": "We won’t pull you back. Where would you like the conversation to go?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Voice softens, then technical] I wanted someone to notice. The care rota was poorly designed.",
+      "suggestion": "The rota may matter. Would you like to return briefly to wanting someone to notice, or stay with the practical failure?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Eyes wet, jokes] That’s me being sentimental. Now, the weather—",
+      "suggestion": "Would you welcome a moment with what moved you, or is the change of subject a pause you need?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Firmly] Yes, I changed the subject. I’m choosing it, not hiding.",
+      "suggestion": "I hear that choice. We’ll follow the subject you want, without treating it as hiding.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Quiet, then listing] I missed having help. But Liv’s shifts are long, Knut’s knee—",
+      "suggestion": "Those limits are real. Before considering them, would hearing what help you wanted be useful?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Warm, then brisk] The workshop felt good. Don’t pin me there; I also need to talk about money.",
+      "suggestion": "We can turn to money. Would you like to leave one word for the good moment first, or move straight on?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Voice catches, then self-critical] I wanted rest. I’ve said that too many times now.",
+      "suggestion": "Does repeating it feel unhelpful, or does that judgment arrive when the need comes close? We can choose where to go.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Quiet, then explaining] I wanted Liv to stay. In our family we’ve always made a lot of showing up—",
+      "suggestion": "Would you like a moment with your own wish before the broader explanation, or does the history help you today?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Firmly] That pause wasn’t avoidance. I was finding the words.",
+      "suggestion": "Thank you for correcting me. Take the time you need; I won’t redirect the pause.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Soft, then analytical] I’m angry. Is that one of those grief stages?",
+      "suggestion": "There’s no stage we need to assign you. Would you like to hear this particular anger, or discuss your question first?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Watchful] If we return to that feeling, I want one minute, not the whole session.",
+      "suggestion": "One minute, with your choice to stop sooner. Then we’ll check where you want to go.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Voice softens, then brisk] I miss her. I also genuinely want this form sorted. Both.",
+      "suggestion": "Both matter. Would you prefer the form first, with an option to return to the missing later?",
+      "difficulty": "hard"
+    }
   ]
 }

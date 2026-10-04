@@ -1,7 +1,7 @@
 // Playwright CLI: run-code --filename=scripts/check-four-set-room-flows.js
 // Start npm run test:rooms:db -- --serve first. All RPCs run in isolated Postgres.
 async (page) => {
-  const url=page.url();
+  const url=page.url(),params=new URL(url).searchParams,arne=params.get('testCase')==='arne',level=params.get('testLevel')??'easy';
   if(!['127.0.0.1','localhost'].includes(new URL(url).hostname))throw new Error('Use local preview');
   const users=await (await page.request.get('http://127.0.0.1:5199/users')).json();
   const contexts=[],pages=[],errors=[];
@@ -123,10 +123,12 @@ async (page) => {
       await click(p,'room-join');await p.locator('#room-share-code').waitFor();
     }
     await sync();await click(o,'room-choose');
-    await o.locator('button[data-skill-id="empathic-understanding"]').click();await o.locator('[data-case-id="case-sara"]').click();
+    await o.locator('button[data-skill-id="empathic-understanding"]').click();await o.locator(`[data-case-id="${arne?'case-arne':'case-sara'}"]`).click();
+    if(arne) {await o.locator('#start-practice:not(:disabled)').waitFor();await o.locator(`[data-practice-level="${level}"]`).click();}
     await click(o,'start-practice');await o.locator('.room-preparation').waitFor();await sync();
     const fullRound=room.round_id, order=[...room.statement_ids], roles=[room.therapist_id,room.client_id,room.observer_id];
     assert(room.round_size===12&&new Set(order).size===12,'Preparation selects twelve unique items');
+    if(arne)assert(room.difficulty===level&&order.every(id=>id.includes(`_${level}_`)),'The host selects twelve items at one Arne level');
     assert((await o.locator('#room-content').textContent()).includes('4 sets of 3'),'Preparation explains the fixed-role round');
     stage='private feedback targets';
     const goal=t.locator('#room-next-attempt');
@@ -192,6 +194,7 @@ async (page) => {
       assert(rows.length===set+1,'Every set creates one distinct rating');
       const rating=rows.find(r=>r.client_round_id===room.rating_round_id);
       assert(rating.source==='observer'&&rating.item_count===(set===1?2:3),'Observer rating has correct source and count');
+      if(arne)assert(rating.difficulty===level&&rating.case_id==='case-arne','Focused observer ratings retain the room level');
       assert(JSON.stringify(rating.completed_statement_ids)===JSON.stringify(order.slice(set*3,set*3+3).filter((_,i)=>!(set===1&&i===1))),'Rating IDs exclude prior sets and passes');
       if(set===1) {
         await o.reload();await o.waitForFunction(()=>document.querySelector('#account-button').textContent==='Account');

@@ -4,7 +4,7 @@
 export const CONTENT_REGISTRY_SUMMARY = {
   "revision": "2026-10-04-v4",
   "track": "case_matrix",
-  "totalItems": 1332,
+  "totalItems": 1728,
   "qaFlagTaxonomy": [
     "voice_off",
     "skill_miss",
@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-10-04T11:14:38.719Z"
+  "generatedAt": "2026-10-04T12:44:20.240Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -6230,6 +6230,656 @@ export const CONTENT_REGISTRY = {
           "distinct_practice_moment"
         ]
       }
+    ],
+    "case-arne": [
+      {
+        "id": "dp_empathic-understanding_case-arne_easy_01",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_easy_02",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_easy_03",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_easy_04",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_easy_05",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_easy_06",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_easy_07",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_easy_08",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_easy_09",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_easy_10",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_easy_11",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_easy_12",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_moderate_01",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_moderate_02",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_moderate_03",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_moderate_04",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_moderate_05",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_moderate_06",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_moderate_07",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_moderate_08",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_moderate_09",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_moderate_10",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_moderate_11",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_moderate_12",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_hard_01",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_hard_02",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_hard_03",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_hard_04",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_hard_05",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_hard_06",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_hard_07",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_hard_08",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_hard_09",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_hard_10",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_hard_11",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-understanding_case-arne_hard_12",
+        "skillId": "empathic-understanding",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "reflect_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
     ]
   },
   "empathic-affirmation-validation": {
@@ -9207,6 +9857,656 @@ export const CONTENT_REGISTRY = {
           "safety",
           "distinct_practice_moment"
         ]
+      }
+    ],
+    "case-arne": [
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_easy_01",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_easy_02",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_easy_03",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_easy_04",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_easy_05",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_easy_06",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_easy_07",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_easy_08",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_easy_09",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_easy_10",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_easy_11",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_easy_12",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_moderate_01",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_moderate_02",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_moderate_03",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_moderate_04",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_moderate_05",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_moderate_06",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_moderate_07",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_moderate_08",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_moderate_09",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_moderate_10",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_moderate_11",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_moderate_12",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_hard_01",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_hard_02",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_hard_03",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_hard_04",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_hard_05",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_hard_06",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_hard_07",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_hard_08",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_hard_09",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_hard_10",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_hard_11",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-affirmation-validation_case-arne_hard_12",
+        "skillId": "empathic-affirmation-validation",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "validate_context"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
       }
     ]
   },
@@ -12363,6 +13663,692 @@ export const CONTENT_REGISTRY = {
           "safety",
           "distinct_practice_moment"
         ]
+      }
+    ],
+    "case-arne": [
+      {
+        "id": "dp_exploratory-questions_case-arne_easy_01",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_easy_02",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_easy_03",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_easy_04",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_easy_05",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_easy_06",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_easy_07",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_easy_08",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_easy_09",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_easy_10",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_easy_11",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_easy_12",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_moderate_01",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_moderate_02",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_moderate_03",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_moderate_04",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_moderate_05",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_moderate_06",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_moderate_07",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_moderate_08",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_moderate_09",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_moderate_10",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_moderate_11",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_moderate_12",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_hard_01",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_hard_02",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_hard_03",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_hard_04",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_hard_05",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_hard_06",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_hard_07",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_hard_08",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_hard_09",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_hard_10",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_hard_11",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_exploratory-questions_case-arne_hard_12",
+        "skillId": "exploratory-questions",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "explore_body",
+          "explore_meaning"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
       }
     ]
   },
@@ -15531,6 +17517,692 @@ export const CONTENT_REGISTRY = {
           "distinct_practice_moment"
         ]
       }
+    ],
+    "case-arne": [
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_easy_01",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_easy_02",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_easy_03",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_easy_04",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_easy_05",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_easy_06",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_easy_07",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_easy_08",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_easy_09",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_easy_10",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_easy_11",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_easy_12",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_moderate_01",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_moderate_02",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_moderate_03",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_moderate_04",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_moderate_05",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_moderate_06",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_moderate_07",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_moderate_08",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_moderate_09",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_moderate_10",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_moderate_11",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_moderate_12",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_hard_01",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_hard_02",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_hard_03",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_hard_04",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_hard_05",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_hard_06",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_hard_07",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_hard_08",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_hard_09",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_hard_10",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_hard_11",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_providing-treatment-rationale_case-arne_hard_12",
+        "skillId": "providing-treatment-rationale",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "offer_rationale",
+          "normalize_experiential_work"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
     ]
   },
   "empathic-explorations": {
@@ -18686,6 +21358,692 @@ export const CONTENT_REGISTRY = {
           "safety",
           "distinct_practice_moment"
         ]
+      }
+    ],
+    "case-arne": [
+      {
+        "id": "dp_empathic-explorations_case-arne_easy_01",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_easy_02",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_easy_03",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_easy_04",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_easy_05",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_easy_06",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_easy_07",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_easy_08",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_easy_09",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_easy_10",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_easy_11",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_easy_12",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_moderate_01",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_moderate_02",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_moderate_03",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_moderate_04",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_moderate_05",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_moderate_06",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_moderate_07",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_moderate_08",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_moderate_09",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_moderate_10",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_moderate_11",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_moderate_12",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_hard_01",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_hard_02",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_hard_03",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_hard_04",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_hard_05",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_hard_06",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_hard_07",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_hard_08",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_hard_09",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_hard_10",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_hard_11",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-explorations_case-arne_hard_12",
+        "skillId": "empathic-explorations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "deepen_contact",
+          "follow_leading_edge"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
       }
     ]
   },
@@ -21846,6 +25204,692 @@ export const CONTENT_REGISTRY = {
           "safety",
           "distinct_practice_moment"
         ]
+      }
+    ],
+    "case-arne": [
+      {
+        "id": "dp_empathic-evocations_case-arne_easy_01",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_easy_02",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_easy_03",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_easy_04",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_easy_05",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_easy_06",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_easy_07",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_easy_08",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_easy_09",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_easy_10",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_easy_11",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_easy_12",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_moderate_01",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_moderate_02",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_moderate_03",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_moderate_04",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_moderate_05",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_moderate_06",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_moderate_07",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_moderate_08",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_moderate_09",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_moderate_10",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_moderate_11",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_moderate_12",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_hard_01",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_hard_02",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_hard_03",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_hard_04",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_hard_05",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_hard_06",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_hard_07",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_hard_08",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_hard_09",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_hard_10",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_hard_11",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-evocations_case-arne_hard_12",
+        "skillId": "empathic-evocations",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "evoke_image",
+          "heighten_felt_sense"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
       }
     ]
   },
@@ -25009,6 +29053,692 @@ export const CONTENT_REGISTRY = {
           "safety",
           "distinct_practice_moment"
         ]
+      }
+    ],
+    "case-arne": [
+      {
+        "id": "dp_empathic-conjectures_case-arne_easy_01",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_easy_02",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_easy_03",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_easy_04",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_easy_05",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_easy_06",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_easy_07",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_easy_08",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_easy_09",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_easy_10",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_easy_11",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_easy_12",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_moderate_01",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_moderate_02",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_moderate_03",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_moderate_04",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_moderate_05",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_moderate_06",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_moderate_07",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_moderate_08",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_moderate_09",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_moderate_10",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_moderate_11",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_moderate_12",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_hard_01",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_hard_02",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_hard_03",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_hard_04",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_hard_05",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_hard_06",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_hard_07",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_hard_08",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_hard_09",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_hard_10",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_hard_11",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-conjectures_case-arne_hard_12",
+        "skillId": "empathic-conjectures",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "tentative_guess",
+          "name_underlying_feeling"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
       }
     ]
   },
@@ -28291,6 +33021,728 @@ export const CONTENT_REGISTRY = {
           "safety",
           "distinct_practice_moment"
         ]
+      }
+    ],
+    "case-arne": [
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_easy_01",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_easy_02",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_easy_03",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_easy_04",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_easy_05",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_easy_06",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_easy_07",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_easy_08",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_easy_09",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_easy_10",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_easy_11",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_easy_12",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_moderate_01",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_moderate_02",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_moderate_03",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_moderate_04",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_moderate_05",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_moderate_06",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_moderate_07",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_moderate_08",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_moderate_09",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_moderate_10",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_moderate_11",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_moderate_12",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_hard_01",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_hard_02",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_hard_03",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_hard_04",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_hard_05",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_hard_06",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_hard_07",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_hard_08",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_hard_09",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_hard_10",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_hard_11",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_staying-in-contact-intense-affect_case-arne_hard_12",
+        "skillId": "staying-in-contact-intense-affect",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "titrate_affect",
+          "grounding",
+          "co_regulation"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
       }
     ]
   },
@@ -38008,6 +43460,728 @@ export const CONTENT_REGISTRY = {
         "reviewStatus": "pending",
         "revision": "2026-10-04-v4"
       }
+    ],
+    "case-arne": [
+      {
+        "id": "dp_empathic-refocusing_case-arne_easy_01",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_easy_02",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_easy_03",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_easy_04",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_easy_05",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_easy_06",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_easy_07",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_easy_08",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_easy_09",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_easy_10",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_easy_11",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_easy_12",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_moderate_01",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_moderate_02",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_moderate_03",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_moderate_04",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_moderate_05",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_moderate_06",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_moderate_07",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_moderate_08",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_moderate_09",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_moderate_10",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_moderate_11",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_moderate_12",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_hard_01",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_hard_02",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_hard_03",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_hard_04",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_hard_05",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_hard_06",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_hard_07",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_hard_08",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_hard_09",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_hard_10",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_hard_11",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-arne_hard_12",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
     ]
   },
   "consolidating-emotional-change": {
@@ -38252,6 +44426,728 @@ export const CONTENT_REGISTRY = {
         "reviewStatus": "pending",
         "revision": "2026-10-04-v4"
       }
+    ],
+    "case-arne": [
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_easy_01",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_easy_02",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_easy_03",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_easy_04",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_easy_05",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_easy_06",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_easy_07",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_easy_08",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_easy_09",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_easy_10",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_easy_11",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_easy_12",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_moderate_01",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_moderate_02",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_moderate_03",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_moderate_04",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_moderate_05",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_moderate_06",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_moderate_07",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_moderate_08",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_moderate_09",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_moderate_10",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_moderate_11",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_moderate_12",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_hard_01",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_hard_02",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_hard_03",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_hard_04",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_hard_05",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_hard_06",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_hard_07",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_hard_08",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_hard_09",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_hard_10",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_hard_11",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-arne_hard_12",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
     ]
   },
   "closing-after-emotional-work": {
@@ -38486,6 +45382,728 @@ export const CONTENT_REGISTRY = {
           "type": "original_extension",
           "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
           "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-arne": [
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_easy_01",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_easy_02",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_easy_03",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_easy_04",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_easy_05",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_easy_06",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_easy_07",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_easy_08",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_easy_09",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_easy_10",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_easy_11",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_easy_12",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_moderate_01",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_moderate_02",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_moderate_03",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_moderate_04",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_moderate_05",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_moderate_06",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_moderate_07",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_moderate_08",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_moderate_09",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_moderate_10",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_moderate_11",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_moderate_12",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_hard_01",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_hard_02",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_hard_03",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_hard_04",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_hard_05",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_hard_06",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_hard_07",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_hard_08",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_hard_09",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_hard_10",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_hard_11",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-arne_hard_12",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-arne",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_case_variant",
+          "caseDossier": "Case_Arne.md",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
         },
         "riskFlags": [],
         "criteriaTags": [

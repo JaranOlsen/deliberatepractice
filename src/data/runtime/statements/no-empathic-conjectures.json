@@ -1312,5 +1312,439 @@
       "text": "[På vakt] Jeg ber ikke folk huske datoen. Merker det likevel når ingen gjør det. Gir ikke mye mening.",
       "suggestion": "Jeg lurer på om du ønsker at tapet skal bety noe for en annen også, uten at du må forklare alt."
     }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_empathic-conjectures_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Jeg reparerte lampen hennes, selv om ingen bruker den nå. Jeg sjekker stadig at den virker.",
+      "suggestion": "Jeg lurer på om det å ta vare på tingene hennes er en måte å holde henne nær på. Passer det?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Tar en pause] Jeg hadde en historie til henne etter turen. Den ble værende i hodet hele kvelden.",
+      "suggestion": "Kan en del av ensomheten være å ikke ha noen å dele de små historiene med?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Ser ned] Jeg sluttet å le da jeg kom hjem. Bildet hennes sto rett der.",
+      "suggestion": "Jeg lurer på om gleden over ettermiddagen plutselig kjentes illojal. Eller var det noe annet?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Sukker] Jeg sier til Liv at hun ikke skal bekymre seg. Så ønsker jeg at hun skal spørre igjen.",
+      "suggestion": "Kanskje du vil at hun skal forstå at du trenger selskap, uten at du må føle deg til bry. Er det sånn?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Jeg la bort skjerfet hennes, og så tok jeg det frem igjen.",
+      "suggestion": "Kanskje det å legge det bort kjentes som et større farvel enn du ønsket. Er det i nærheten?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Stemmen blir lavere] Nettene var utmattende. Den delen forteller jeg vanligvis ikke om.",
+      "suggestion": "Jeg lurer på om du er redd for at folk hører slitenheten og går glipp av kjærligheten.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Rynker pannen] Alle sier hvor sterk jeg var. Jeg skulle heller ønske de satte seg hos meg.",
+      "suggestion": "Kan det å bli kalt sterk kjennes som å bli overlatt til å klare seg alene?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Mykt] Jeg laget yndlingssuppen hennes. Å spise den alene ble ikke som jeg håpet.",
+      "suggestion": "Kanskje du ønsket litt av følelsen av å dele den med henne, og så gjorde den tomme plassen vondt i stedet. Stemmer det?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Tar en pause] Jeg pusser stadig arbeidsbenken. Jeg har ikke begynt på noe nytt.",
+      "suggestion": "Jeg lurer på om det kjennes usikkert å begynne på noe nytt nå. Eller er det en annen grunn?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Jeg er glad Liv ringer. Jeg venter på at navnet hennes skal dukke opp på mobilen.",
+      "suggestion": "Kan de samtalene gi en god følelse av fortsatt å være en del av noens dag?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Ser bort] Jeg liker ikke å si hvor mye jeg ønsker selskap.",
+      "suggestion": "Kanskje det kjennes mer sårbart å be om selskap enn å snakke om de praktiske tingene. Gjør det det?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Mykt] Jeg sov hele natten og våknet med dårlig samvittighet.",
+      "suggestion": "Jeg lurer på om det å hvile så ut til å bety at du hadde sluttet å bry deg. Var det det skylden sa?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Raskt] Jeg forteller ikke Liv om verkstedet. Hun gråter fortsatt når vi nevner Ingrid.",
+      "suggestion": "Jeg lurer på om du beskytter Liv mot gleden din, som om den kunne såre henne. Passer det?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lite smil] Jeg hadde en god dag. Så satte jeg bildet hennes mer synlig på hyllen.",
+      "suggestion": "Kan det å flytte bildet være en måte å forsikre deg om at gleden ikke har holdt henne utenfor?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Jeg kan forklare planen på sykehuset. Slitenheten er vanskeligere å si.",
+      "suggestion": "Kanskje planen kjennes tryggere å dele enn hvor mye den kostet deg. Er det nært?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Ser bort] Jeg takket nei til middag. Jeg ville ikke at de skulle følge med på om jeg lo.",
+      "suggestion": "Jeg lurer på om det å bli fulgt med på får gleden til å kjennes som noe du må forsvare.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Nølende] Jeg liker verkstedet, men kaller det bare tidsfordriv.",
+      "suggestion": "Kan «tidsfordriv» gjøre det lettere å glede seg uten å føle seg illojal? Eller er det ikke helt sånn?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Sukker] Jeg har en liste over ting jeg gjorde for henne. Jeg vet ikke hvorfor.",
+      "suggestion": "Kan listen prøve å forsikre deg om at omsorgen var virkelig, også når du husker slitenheten?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Tørr latter] Knut sier at jeg kan ringe når som helst. Det gjør jeg aldri. Sånn er jeg.",
+      "suggestion": "Jeg lurer på om det å bruke tilbudet kjennes annerledes enn å ha det—kanskje mer sårbart. Gjør det det?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Jeg hater «Ingrid ville ønsket at du var glad». De får det til å høres så enkelt ut.",
+      "suggestion": "Kan de ordene hoppe over hvor sammensatt det er for deg å glede deg over livet nå?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Tar en pause] Jeg blir sint på den gamle stolen hennes, så unnskylder jeg meg til bildet.",
+      "suggestion": "Jeg lurer på om det er sinne over å være igjen med dette livet alene. Er det der, eller noe annet?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Nølende] Jeg vil ikke ha en ny rutine ennå. Hun finnes fortsatt i den gamle.",
+      "suggestion": "Kanskje det å endre rutinen kjennes som å løsne en tilknytning du vil beholde. Passer det?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Jeg sa ikke til noen at jeg sov godt. Det ville høres for fornøyd ut.",
+      "suggestion": "Kan hvile kjennes som noe du ikke har lov til å sette pris på mens du savner henne?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Ser ned] Jeg vil ha hjelp med kveldene, ikke at folk tar styringen over meg.",
+      "suggestion": "Kan det å be om hjelp romme en bekymring for å miste retten til å bestemme over eget liv?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Oppmerksom] Jeg ringer ikke Knut. Ikke fordi jeg tror han avviser meg. Det er noe annet.",
+      "suggestion": "Kan det å ringe kjennes som å innrømme hvor mye selskap du ønsker? Eller bommer det også?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Den gode dagen kjentes feil, men ikke illojal. Mer som å ha på klær som ikke er mine.",
+      "suggestion": "Kan gleden kjennes ukjent i dette livet, fremfor forbudt? Er det nærmere?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Bestemt] Jeg trenger ikke kåpen for å holde fast i henne. Jeg liker hvordan den får gangen til å se ut.",
+      "suggestion": "Da trenger jeg ikke lete etter en skjult grunn. Er en kjent gang noe du setter pris på, eller bare hvordan den ser ut?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Tar en pause] Jeg vil ha Liv nær, men ikke at hun ser meg som en jobb.",
+      "suggestion": "Jeg lurer på om bekymringen er å bli en som skal håndteres, fremfor en å være sammen med.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Jeg er sint på Ingrid i dag. Nei, ikke fordi hun døde.",
+      "suggestion": "Kan det handle om noe mellom dere som aldri ble hørt? Eller er sinnet et annet sted?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Tørt] Folk roser omsorgen. Jeg skulle heller ønske de spurte hva jeg lager på verkstedet.",
+      "suggestion": "Kanskje du vil møtes som Arne med interesser nå, ikke bare gjennom omsorgen du ga. Passer det?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Nølende] Når jeg sier at jeg klarer meg, hører jeg min egen stemme bli stiv.",
+      "suggestion": "Jeg lurer på om «klarer meg» utelater noe du vil ha hørt. Gjør det det, eller handler stivheten om å bli spurt?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Jeg vil ikke endre rommet i dag. I morgen kan det være annerledes.",
+      "suggestion": "Kan det være viktigere å beholde avgjørelsen som din enn å beholde rommet akkurat som det er?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Oppmerksom] Lettelse er ikke én ting. Det var mindre bekymring for henne og færre krav til meg.",
+      "suggestion": "Kanskje skylden griper delen om din egen hvile mer enn lettelsen for henne. Stemmer det?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Mykt] Knut gjorde ikke ettermiddagen til å handle om Ingrid. Jeg kunne puste lettere.",
+      "suggestion": "Kan det ha vært plass til å være deg selv uten å forklare tapet? Fanger det noe?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Bestemt] Jeg unngår ikke selskap. Jeg velger hvem sitt selskap.",
+      "suggestion": "Kan den viktige forskjellen være å føle seg møtt, fremfor bare å ikke være alene?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Usikkert] Jeg følte ingenting ved bildet, så varme ved oppskriften. Jeg vet ikke hva det betyr.",
+      "suggestion": "Kanskje det vanlige sporet i oppskriften gjorde henne nær på en annen måte. Kjennes det sånn, eller ikke?",
+      "difficulty": "hard"
+    }
   ]
 }

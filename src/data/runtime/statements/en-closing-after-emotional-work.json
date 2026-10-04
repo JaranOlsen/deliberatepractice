@@ -144,5 +144,475 @@
       "text": "[Small sigh] I'm not lighter exactly. I'm tired, and I want to go home slowly.",
       "suggestion": "Tired, rather than lighter. We can let that be where we stop today. What would going home slowly look like for you?"
     }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Tearful] We’re nearly done. I’m still sad.",
+      "suggestion": "We have a few minutes left. What would help you leave with the sadness still here?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Quietly] Can I sit a little before I leave?",
+      "suggestion": "Yes. Let’s use the last minutes to sit, without more questions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Hesitant] There’s something else, but it needs more time.",
+      "suggestion": "Let’s note where you want to begin next time, rather than open it hurriedly now.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Steady] I want to return to asking Liv for company next time.",
+      "suggestion": "We’ll note that. Before we finish, what do you need for the transition out of here?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Thoughtful] I want to take “I loved her and I was tired” with me.",
+      "suggestion": "Those are your words to keep. Shall we stop there and take a quiet moment?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Tired] I don’t want another task this week.",
+      "suggestion": "No new task. We can finish by noticing what you want to remember, or simply pause.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Softly] Knut is meeting me outside. A walk would be good.",
+      "suggestion": "That sounds like the transition you want. Shall we leave the work here for today?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Unsure] I don’t know how to sum it all up.",
+      "suggestion": "We don’t need a perfect summary. Is there one moment you want to keep before we end?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Quietly] I’m ready to go, but slowly.",
+      "suggestion": "We can stop here and leave you a moment to get ready at your own pace.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Worried] I may feel lonely again tonight.",
+      "suggestion": "That may return. In our last minutes, would it help to consider what support you want tonight?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Tearful, steady] I can leave. I don’t need the tears gone first.",
+      "suggestion": "We can end with the tears still here. Let’s take a moment before you stand up.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Reflective] I’m glad we talked. I’m also worn out.",
+      "suggestion": "Both matter as we finish. What would help with leaving today, when you’re this tired?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Tearful, watchful] I’m okay to leave, but don’t call this resolved.",
+      "suggestion": "It isn’t resolved. We’re ending the hour, and can note what you want to return to.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Hesitant] I remembered something else. There are only five minutes, aren’t there?",
+      "suggestion": "Yes. Shall we mark where to begin next time, rather than rush into it today?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Quietly] I want company tonight, but I don’t want you making calls for me.",
+      "suggestion": "You decide what contact you want. We can use the last minutes to clarify it, without my taking over.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Tired] I understand more, but I don’t feel lighter.",
+      "suggestion": "We can end with understanding and tiredness, without requiring relief. What would help the transition home?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Uncertain] Those words fit here. I don’t want to promise I’ll use them at home.",
+      "suggestion": "No promise needed. Is there anything you want to carry, or would you prefer a quiet ending?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Tearful] It feels strange to go from this straight onto the bus.",
+      "suggestion": "Let’s leave a few minutes for the change of pace. What would make that journey manageable?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Careful] We opened a lot. Can we just name where we’re leaving it?",
+      "suggestion": "Yes. What feels most unfinished to you? We can note it without opening it further.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Quietly] I’d rather walk alone after this. That doesn’t mean I’m shutting everyone out.",
+      "suggestion": "A quiet walk is your choice for this transition. We don’t have to interpret it as withdrawal.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Hesitant] Could you remind me what you heard, without a big conclusion?",
+      "suggestion": "Briefly: you loved Ingrid, the care exhausted you, and you want room for both. What fits, or needs changing?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Worried] If tonight is rough, I can’t call you whenever I like.",
+      "suggestion": "That’s right. Within the time left, shall we consider support you can actually reach tonight?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Softly] I’m ready to leave, and I wish I could stay.",
+      "suggestion": "Both can be here as we end. Let’s take a moment before you stand up.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Steady] No more questions today, please. Just a minute before I go.",
+      "suggestion": "A minute without questions. We can pause here and finish gently.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Firmly] We can end the hour. Don’t tell me I’m leaving in a better place.",
+      "suggestion": "We can end without that claim. What do you need for the transition as you actually are?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Tearful, alert] I’m okay to go, but not to answer another deep question first.",
+      "suggestion": "No deeper question. We can leave a quiet moment before you go.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Watchful] There’s unfinished anger. Please don’t make a neat summary of it.",
+      "suggestion": "We can note “unfinished anger” without tidying it. Is that enough of a marker for next time?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Quietly] I’m embarrassed about what I said. Don’t reassure me with “it was brave.”",
+      "suggestion": "I won’t use that label. Would a quiet pause help before leaving, or something simple you want me to hear?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Firmly] I need us to stop on time. Talking more isn’t always kinder.",
+      "suggestion": "You’re right to name the time. We’ll stop the work now and use the remaining moment for the transition.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Hesitant] I brought something important up late. I don’t want to squeeze it into two minutes.",
+      "suggestion": "We won’t squeeze it in. What brief marker would help us return to it next time?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Watchful] Don’t plan my evening for me. I have one practical question before I go.",
+      "suggestion": "Your evening is yours. What is the practical question we can address in the time left?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Tearful] I want quiet, but I don’t want to feel dismissed.",
+      "suggestion": "We can pause together, then mark clearly when we’re finishing. You won’t need to guess from my silence.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Tired] I found words for it here. I’m not sure I’ll have them when I get home.",
+      "suggestion": "You don’t have to carry all of this home today. Would you like to keep one phrase, or finish with a quiet moment?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Quietly] I’d like to return to the relief next time. Not the hospital details.",
+      "suggestion": "We’ll note the relief, without hospital details. Is there anything simple you need before we finish?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Careful] If tonight is hard, I need real options, not “call whenever.”",
+      "suggestion": "I can’t offer open-ended calls. In the time left, let’s clarify support you can actually reach and want to use.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Steady] I’m leaving sad. I also feel heard. Let both be true.",
+      "suggestion": "Both can be true. We can stop here, without asking the sadness to become something else.",
+      "difficulty": "hard"
+    }
   ]
 }

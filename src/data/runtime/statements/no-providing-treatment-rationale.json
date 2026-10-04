@@ -1312,5 +1312,439 @@
       "text": "[På vakt] Nummenheten lar meg komme meg gjennom dagen. Hvorfor skulle jeg ønske at du fjerner det som holder meg gående?",
       "suggestion": "Vi skal ikke prøve å ta beskyttelsen fra deg. Målet er å finne øyeblikk der du kan kjenne litt uten å miste fotfestet, så nummenhet ikke trenger å være den eneste veien gjennom dagen."
     }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Undrende] Hvorfor snakke om den tomme koppen? Jeg vet godt at hun er borte.",
+      "suggestion": "Du vet at hun er borte. Å legge merke til hva koppen vekker, kan hjelpe oss å forstå det ensomme øyeblikket, hvis du vil prøve.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Nysgjerrig] Hvordan skulle det å snakke om skyld hjelpe meg å glede meg over verkstedet?",
+      "suggestion": "Vi kan undersøke hva du tenker at gleden sier om kjærligheten din til Ingrid, og om det stemmer for deg.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Usikkert] Er meningen at dere skal få meg til å gråte?",
+      "suggestion": "Nei. Tårer er ikke målet. Vi prøver å forstå hva du føler og trenger, i et tempo du kan velge.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Spørrende] Hvorfor stoppe når jeg nevner at jeg var utslitt?",
+      "suggestion": "Den slitenheten betyr også noe. Å gi den litt plass kan hjelpe deg å høre den uten å gjøre den til et bevis på at du ikke elsket henne.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Forsiktig] Må jeg snakke om den dagen hun døde?",
+      "suggestion": "Det må du ikke. Vi kan begynne med et øyeblikk fra hverdagen som du velger, og se hva som kjennes nyttig.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Undrende] Hva er poenget med å spørre hva jeg merker i brystet?",
+      "suggestion": "Noen ganger hjelper det oss å finne ord for en uklar følelse. Vi kan prøve kort, eller holde oss til ord hvis det passer deg bedre.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Bekymret] Vil det å bli ved tristheten gjøre hele dagen verre?",
+      "suggestion": "Den kan kjennes sterkere en stund. Vi kan ta en liten bit, undersøke hvordan det påvirker deg, og stoppe fremfor å presse oss videre.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Nysgjerrig] Hvorfor skulle vi snakke om den gode ettermiddagen også?",
+      "suggestion": "Den ettermiddagen betyr noe sammen med sorgen. Vi kan høre hva som var godt, og hva som skjedde da skylden kom.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Urolig] Handler dette om å lære å glemme Ingrid?",
+      "suggestion": "Nei. Vi kan arbeide med å leve disse dagene og samtidig gi plass til det hun betyr for deg.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Spørrende] Hvorfor se på én kveld i stedet for hele livet mitt?",
+      "suggestion": "Én kveld gir oss et håndterbart sted å begynne. Den kan vise hva som er vanskeligst, og hvilken støtte du ønsker da.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Usikkert] Kan dette hjelpe med praktiske ting, eller bare følelser?",
+      "suggestion": "Begge deler kan ha betydning. Å forstå følelsene kan tydeliggjøre et behov; praktiske problemer kan også trenge praktisk hjelp i seg selv.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Forsiktig] Hva om jeg ikke vil prøve en øvelse?",
+      "suggestion": "Da gjør vi den ikke. Jeg kan forklare hva den kanskje kan gi, og vi kan velge en annen måte å arbeide sammen på.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Skeptisk] Jeg har fortalt denne historien før. Hva ville være annerledes her?",
+      "suggestion": "Vi kan stoppe ved ett øyeblikk i stedet for å fortelle alt på nytt, og kjenne etter hva det vekker nå. Du kan avgjøre om det hjelper.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Forsiktig] Hvis jeg virkelig kjenner lettelsen, blir jeg ikke en dårligere ektemann da?",
+      "suggestion": "Å undersøke lettelsen avgjør ikke hva slags ektemann du var. Det kan hjelpe oss å skille ønsket om hvile fra det å ikke elske Ingrid.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Spørrende] Du ber meg ta det langsommere. Jeg er redd for å bli sittende fast der.",
+      "suggestion": "Vi kan senke tempoet kort og stadig sjekke hva du ønsker. Målet er å forstå, ikke holde deg i en følelse du vil ut av.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Usikkert] Hvorfor lytte til sinne? Jeg vil ikke gi henne skylden.",
+      "suggestion": "Sinne kan si noe om belastning eller et udekket behov. Å høre det trenger ikke gjøre Ingrid til problemet; vi kan undersøke hva det faktisk betyr.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Tvilende] Hvis vi snakker om en god dag, unngår vi sorgen da?",
+      "suggestion": "Vi kan høre den gode dagen og sorgen sammen. Det som skjer mellom glede og skyld, kan være nyttig å forstå.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Raskt] Jeg trenger en plan for helgene, ikke flere navn på følelser.",
+      "suggestion": "En praktisk plan kan være det du trenger. Hvis det er nyttig, kan vi først tydeliggjøre hvilke deler som er ensomme, og hva slags selskap du ønsker.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Nølende] Vil du få meg til å si farvel til henne?",
+      "suggestion": "Nei. Disse øvelsene krever ikke et farvel. Vi kan undersøke hvordan du vil ha tilknytningen til henne med i dagene dine.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Undrende] Du legger merke til den lille latteren min. Har alt en skjult betydning?",
+      "suggestion": "Ikke alt. Jeg merket en endring og vil undersøke den sammen med deg, fremfor å bestemme hva latteren betyr.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Usikkert] Å sette ord på et behov høres lett ut. Å spørre Liv er noe annet.",
+      "suggestion": "Det er et annet steg. Her kan vi først finne ord som passer, og så avgjøre om eller hvordan du vil bruke dem.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Bekymret] Hva om det blir verre hjemme i kveld av å snakke om henne?",
+      "suggestion": "La oss ta den bekymringen på alvor. Vi kan velge en mindre bit og sette av tid til overgangen hjem, fremfor å åpne mer.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Forsiktig] Jeg vet ikke om det å se innover er min måte å gjøre ting på.",
+      "suggestion": "Vi kan begynne med et konkret øyeblikk og de vanlige ordene dine. Du trenger ikke snakke på en ny måte for å arbeide med meg.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Spørrende] Hvorfor komme tilbake til et øyeblikk som allerede kjentes bedre?",
+      "suggestion": "Ikke for å gjøre det større. Vi kan forstå hva som endret seg, og hva du vil ta vare på, uten å love at det vil vare.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Bestemt] Hvis øvelsen ender med at jeg tilgir alle, gjør jeg den ikke.",
+      "suggestion": "Den krever ikke tilgivelse. Vi kan undersøke hva du føler og trenger; du avgjør om øvelsen er nyttig i det hele tatt.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Oppmerksom] Du sier at følelser rommer behov. Hva om mine bare er rotete?",
+      "suggestion": "De kan være rotete. Dette er en måte å undersøke på, ikke en regel om at hver følelse har ett ryddig budskap.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Skeptisk] Forklar hvordan dette hjelper uten å love meg aksept.",
+      "suggestion": "Vi kan kanskje forstå et vanskelig øyeblikk og finne hva som ville støtte deg i det. Jeg kan ikke love aksept, og det er ikke et påkrevd resultat.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Forsiktig] Jeg vil ikke gjøre kroppsskanning. Det fikk meg til å føle meg overvåket før.",
+      "suggestion": "Vi bruker ikke det. Vi kan arbeide med et konkret minne og vanlige ord, og undersøke hva som kjennes nyttig og greit.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Spørrende] Hvis jeg blir bedt om å føle noe, hvordan vet jeg at det er mitt?",
+      "suggestion": "Den bekymringen betyr noe. Se på spørsmålene som invitasjoner, og si fra hvis ingenting passer. Vi skal følge opplevelsen din, ikke produsere en følelse.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Tørt] Jeg er sliten, ikke i forsvar. Hvorfor fortsette å spørre om følelsen?",
+      "suggestion": "Slitenhet kan være grunn nok til å stoppe. Emosjonsarbeid trenger din vilje og energi; vi kan velge noe mindre krevende i dag.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Bestemt] Jeg vil ha en helgeplan før vi undersøker enda et minne.",
+      "suggestion": "La oss begynne der. Emosjonell utforskning er valgfri; praktisk støtte kan være nyttig uten et dypere minne først.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Oppmerksom] Skal sinne bli til tristhet? Jeg vil at sinnet mitt blir hørt.",
+      "suggestion": "Det finnes ingen påkrevd rekkefølge. Vi kan forstå sinnet på dets egne premisser fremfor å erstatte det med en annen følelse.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Skeptisk] Ikke belær meg om metoden. Si hva du vil at vi prøver.",
+      "suggestion": "En kort pause ved et øyeblikk du velger, og så undersøke hva du merker. Vi kan stoppe hvis det ikke gir noe. Ville det passe deg?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Lavt] Samtalen endret noe her sist uke. Hjemme var det fortsatt vanskelig.",
+      "suggestion": "Et nyttig øyeblikk her endrer kanskje ikke hjemmet med en gang. Vi kan se på det gapet og støtten det trenger, uten å kalle sist uke et nederlag.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Forsiktig] Ikke lag et bilde av Ingrid og be meg snakke til det.",
+      "suggestion": "Det gjør jeg ikke. Ingen forestilt samtale er påkrevd. Vi kan arbeide på måter du velger, også ved bare å snakke med meg.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "text": "[Usikkert] Jeg vil forstå skylden, ikke bli overtalt ut av kjærligheten til henne.",
+      "suggestion": "Målet er ikke overtalelse. Vi kan undersøke hva skylden sier om kjærligheten, og om det stemmer med din egen opplevelse.",
+      "difficulty": "hard"
+    }
   ]
 }

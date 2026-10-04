@@ -1312,5 +1312,439 @@
       "text": "[Guarded, pausing] When you didn't push for more, I was relieved. Still am. Hard to say that to someone.",
       "suggestion": "There's relief that I left you room. We can give that feeling a moment without asking you to say more than you want."
     }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Softly] There’s sadness right here when I picture the empty chair.",
+      "suggestion": "Could we stay a moment with that sadness and see what you notice?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Voice catches] I wanted to tell her the gate was fixed. I still want to.",
+      "suggestion": "That wish to tell her is here now. What is it like to let yourself hear it?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Quietly] My chest aches when I remember her laughing.",
+      "suggestion": "As you remember that laugh, what happens in the ache?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Frowning] I feel angry about being told to be grateful.",
+      "suggestion": "Could we give that anger a little room? What is it objecting to?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Tearful] I just want someone to ask how my day was.",
+      "suggestion": "That wish feels close now. What is it like to say it here?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Softly] My shoulders loosen when I say I was tired too.",
+      "suggestion": "Could you notice that loosening for a moment? What feels different?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Quietly] I’m lonely tonight. It’s hard to say so plainly.",
+      "suggestion": "We can stay with those plain words. What do you notice as you say “lonely”?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Tearful smile] Remembering her teasing me feels warm for a moment.",
+      "suggestion": "Could we pause with that warmth before we go on?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Steady] I’m sad, but I don’t feel ashamed saying it here.",
+      "suggestion": "What is it like to have the sadness here without that shame?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Quietly] That guilt comes as soon as I remember enjoying myself.",
+      "suggestion": "When the guilt arrives, what does it seem to say about enjoying yourself?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Softly] I feel grateful that Knut stayed, and sad that I needed it.",
+      "suggestion": "Could we hear both—being glad he stayed, and the sadness beside it?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Sighs] Saying “I loved her” brings the tears closer.",
+      "suggestion": "We can take that slowly. What happens as you say those words?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Softly] The peace at breakfast feels good, then I tighten up.",
+      "suggestion": "Could we pause at that tightening and notice what comes with it?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Voice lowers] I miss her, but the hospital nights—there’s anger there too.",
+      "suggestion": "If you want, we can give that anger room without losing the missing. What is it about?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Half-smile] Her teasing still makes me laugh. Then the empty room hits me.",
+      "suggestion": "Could we take that turn slowly, from the laugh to noticing the room?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Quietly] I needed Liv to see me, not take over. Saying that feels prickly.",
+      "suggestion": "What do you notice in that prickly feeling as you name what you needed?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Hesitant] Saying I was exhausted brings ease, then a voice calling me selfish.",
+      "suggestion": "Could we hear the ease first, before that judgment takes all the room?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Tearful smile] I was happy at the workshop. There’s sadness right next to it.",
+      "suggestion": "What is it like to let the happiness and sadness be here together?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Frowning] I wanted her to understand how tired I was. I feel bad wanting that.",
+      "suggestion": "Could we stay with wanting to be understood, before deciding it was bad?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Quietly] I miss being useful to her. I don’t miss being needed every minute.",
+      "suggestion": "What is it like to hear that difference in your own words?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Looks down] Knut stayed without asking anything. My chest softened, then I nearly cried.",
+      "suggestion": "Could we notice that softening and what his staying meant, at your pace?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Softly] I’m angry when they decide what Ingrid would want. Underneath, I think I miss her.",
+      "suggestion": "We can hear both. Where would you like to stay a little—the anger or the missing?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Uncertain] Putting the coat away gave me room. Then I wanted it back.",
+      "suggestion": "What did having that room feel like before the wish to bring it back?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Quietly] “I’m lonely” feels true. It also sounds like asking too much.",
+      "suggestion": "Could we give the true part a moment? What is it like to say you’re lonely here?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Quietly] That ease is real, but I don’t want it called freedom from Ingrid.",
+      "suggestion": "What is the ease like in your own terms, without that label?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Firmly] There’s anger here. I’m not ready to find the sadness underneath.",
+      "suggestion": "We can stay with the anger itself. What does it want heard, if you want to explore it?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Hesitant] Something softened when I said I needed rest. Now I feel watched again.",
+      "suggestion": "Let’s pause. What would help you feel less watched here?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Watchful] I’m touched by the memory. Please don’t ask me to make it bigger.",
+      "suggestion": "We can leave it at this size. Would quietly noticing it feel right, or would you rather go on?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Quietly] It’s tenderness, perhaps. Saying that makes me want to joke.",
+      "suggestion": "We can notice that urge without removing it. Is a small moment with the tenderness welcome?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Steady] I’m sad, and I don’t need to go into the old scene to know it.",
+      "suggestion": "We can stay with the sadness here, without the scene. What do you want me to hear of it?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Uncertain] I said shame, but the word doesn’t fit now. Something is still there.",
+      "suggestion": "We can leave “shame” aside. What do you notice of the something that remains?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Quietly] I’m pleased about the workshop. I don’t want to defend that pleasure.",
+      "suggestion": "You needn’t defend it. Would you like room to notice what was pleasing, without an argument?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Frowning] I feel the tightness. Asking about it again makes it tighter.",
+      "suggestion": "We’ll stop asking into it. Would you like quiet, or to turn toward something else?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Softly] I want company. That doesn’t mean I want every friend knowing the details.",
+      "suggestion": "Could we hear the kind of company you want, keeping those details private?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Hesitant] The relief is here, and I’m checking whether you approve.",
+      "suggestion": "You don’t need my approval to have that feeling. What is it like to notice it without a verdict from me?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Quietly] I miss the ordinary disagreements. I’m not sure why that feels tender.",
+      "suggestion": "We can be curious without deciding why. What is it like to remember one of those ordinary moments?",
+      "difficulty": "hard"
+    }
   ]
 }

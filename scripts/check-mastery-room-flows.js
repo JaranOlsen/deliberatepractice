@@ -2,6 +2,7 @@
 // Start npm run test:rooms:db -- --serve first. All RPCs run in isolated Postgres.
 async (page) => {
   const url=page.url(),language=new URL(url).searchParams.get('testLanguage')==='no'?'no':'en';
+  const params=new URL(url).searchParams,arne=params.get('testCase')==='arne',level=params.get('testLevel')??'easy';
   if(!['127.0.0.1','localhost'].includes(new URL(url).hostname))throw new Error('Use local preview');
   const users=await (await page.request.get('http://127.0.0.1:5199/users')).json();
   const contexts=[],pages=[],errors=[];
@@ -118,10 +119,13 @@ async (page) => {
     for(const [p,role] of [[t,'therapist'],[c,'client'],[watcher,'passive']]){
       await click(p,'group-join');await p.locator('#room-code').fill(room.code);await p.locator('#room-join-options summary').click();await p.locator('#room-role').selectOption(role);await click(p,'room-join');await p.locator('#room-share-code').waitFor();
     }
-    await sync();await click(o,'room-choose');await o.locator('#exercise-mastery').click();await o.locator('[data-exercise-id="mastery-sara-evenings"]').click();await o.locator('#mastery-use-room').click();await o.locator('.room-preparation').waitFor();await sync();
+    await sync();await click(o,'room-choose');await o.locator('#exercise-mastery').click();await o.locator(`[data-exercise-id="${arne?'mastery-arne-ordinary-days-easy':'mastery-sara-evenings'}"]`).click();
+    if(arne&&level!=='easy'){await o.locator(`[data-practice-level="${level}"]`).click();await o.waitForFunction(level=>document.querySelector(`[data-practice-level="${level}"]`)?.getAttribute('aria-pressed')==='true',level);}
+    await o.locator('#mastery-use-room').click();await o.locator('.room-preparation').waitFor();await sync();
     const round=room.round_id,roles=[room.therapist_id,room.client_id,room.observer_id],order=[...room.statement_ids];
     assert(room.exercise_type==='mastery'&&room.skill_id===null&&order.length===12,'Mastery is an ordered exercise without a fake round skill');
-    assert((await c.locator('#room-content').textContent()).includes(language==='no'?'Hei, jeg heter Sara':'Hi, I\'m Sara'),'Client sees role background and voice');
+    assert((await c.locator('#room-content').textContent()).includes(arne?(language==='no'?'Jeg heter Arne':'I’m Arne'):(language==='no'?'Hei, jeg heter Sara':'Hi, I\'m Sara')),'Client sees role background and voice');
+    assert(room.difficulty===level,'Host-selected level belongs to the room');
     assert(await c.locator('#room-ready').isVisible(),'Client Ready is reachable');
     assert(await o.locator('#room-next').isDisabled(),'Human readiness blocks start');
     await largeTextFits('Mastery preparation');await confirmReadiness();await ready(o,'room-next');await click(o,'room-next');await sync();
@@ -154,7 +158,7 @@ async (page) => {
       await ready(o,'room-rotate');await click(o,'room-rotate');await sync();
     }
     const rows=(await (await page.request.get('http://127.0.0.1:5199/mastery-ratings')).json()).filter(r=>r.parent_round_id===round);
-    assert(rows.length===4&&rows.every(r=>r.source==='observer'&&r.therapist_user_id===roles[0]&&r.created_by_user_id===roles[2]&&r.practice_mode==='group'),'Four observer checkpoints belong only to the therapist');
+    assert(rows.length===4&&rows.every(r=>r.source==='observer'&&r.difficulty===level&&r.therapist_user_id===roles[0]&&r.created_by_user_id===roles[2]&&r.practice_mode==='group'),'Four observer checkpoints belong only to the therapist at the selected level');
     assert((await ratings()).filter(r=>!existingRatings.has(r.id)).length===0,'Mastery creates no focused ratings');
     assert(room.phase==='choosing'&&!room.exercise_id&&!room.therapist_id&&!room.client_id&&!room.observer_id,'After twelve, choose roles and material again');
     await o.screenshot({path:'output/playwright/mastery-room-next-round-320.png',fullPage:true});

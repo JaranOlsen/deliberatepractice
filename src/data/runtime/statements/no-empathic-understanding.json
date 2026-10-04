@@ -1204,5 +1204,403 @@
       "text": "[På vakt] Jeg vil kunne sove uten å sjekke døra. Hvis jeg ikke sjekker, føler jeg meg uforsiktig. Hvis jeg gjør det, føler jeg meg fanget i den samme rutinen.",
       "suggestion": "Du vil ha hvile, men føler deg uforsiktig hvis du ikke sjekker, og fanget i rutinen hvis du gjør det."
     }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] Jeg setter fortsatt frem to kopper. Jeg blir trist av å se hennes stå tom.",
+      "suggestion": "Den tomme koppen minner deg om hvor mye du savner å ha Ingrid ved siden av deg.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sukker] Jeg reparerte porten i går. Det var ingen å rope ut til og vise den til.",
+      "suggestion": "Det ble ensomt å bli ferdig uten henne der å dele den lille gleden med.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Med tårer] Jeg savner den vanlige stemmen hennes. Til og med når hun spurte hvor jeg hadde lagt saksen.",
+      "suggestion": "Du savner lyden av henne i hverdagen, selv de små spørsmålene.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Mykt] Liv kommer på besøk, men når bilen hennes kjører, kjennes huset tomt på nytt.",
+      "suggestion": "Besøket gir deg selskap, og stillheten etter at hun går, gjør vondt igjen.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Varmt] Knut fikk meg til å le på turen. En stund var det bare godt å være ute.",
+      "suggestion": "Akkurat den stunden kunne du glede deg over selskapet hans og det å være ute.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Rynker pannen] Jeg blir irritert når folk sier at jeg må holde meg opptatt. Det gjør jeg allerede.",
+      "suggestion": "Du jobber hardt for å komme gjennom dagene, og det rådet får deg til å føle deg lite hørt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Nølende] Jeg var lettet over å slippe å lytte etter henne om natten. Så fikk jeg dårlig samvittighet.",
+      "suggestion": "Den stadige lyttingen kunne stoppe, og skylden kom sammen med lettelsen.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Mykt] Jeg er stolt av at Liv ber meg om hjelp. Det er godt å fortsatt kunne være til nytte for henne.",
+      "suggestion": "Å hjelpe Liv gir deg en god følelse av å ha noe å bidra med.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] Søndagsmiddagen pleide å være vår greie. Nå gruer jeg meg til søndag ettermiddag.",
+      "suggestion": "Det som pleide å være tid sammen, har blitt en ensom del av uken.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Frustrert] Papirarbeidet gjør meg sint. Navnet hennes blir stadig til et saksnummer.",
+      "suggestion": "De skjemaene kjennes kalde ved siden av den personen Ingrid var for deg.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Smiler med tårer] Den gamle oppskriften hennes har en fettflekk der hun alltid la skjeen.",
+      "suggestion": "Den lille flekken gjør henne nær igjen, slik hun var på kjøkkenet.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sliten] Noen kvelder trenger jeg ikke løsninger. Jeg vil bare ha noen som sitter der.",
+      "suggestion": "Du lengter etter selskap, uten å måtte gjøre kvelden til et problem som skal løses.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lite smil] Frokosten er fredelig nå. Jeg hater at jeg kan like stillheten.",
+      "suggestion": "Stillheten gir deg litt ro, og så får du dårlig samvittighet for å like den.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Raskt] Jeg reparerte porten. God jobb, egentlig. Så hadde jeg ingen å gå til med den gode følelsen.",
+      "suggestion": "Det var glede over arbeidet, og ensomhet der du pleide å dele den med henne.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Ser ned] Jeg vil at Liv skal komme, men bruker besøket på å si at jeg klarer meg.",
+      "suggestion": "Du vil ha henne nær, og når du viser at du klarer deg, blir det vanskelig å la henne se det behovet.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Tørr latter] Førtien år. Mye kjærlighet, mye irritasjon. Jeg savner begge deler.",
+      "suggestion": "Du savner hele det kjente livet sammen, også det som pleide å irritere deg.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] Spøkene til Knut hjalp. Så følte jeg at jeg hadde holdt Ingrid utenfor ettermiddagen.",
+      "suggestion": "Det var godt å være med Knut, og så virket det som om gleden truet tilknytningen til Ingrid.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Forsiktig] Jeg savner ikke de nettene på sykehuset. Jeg savner henne. Det trenger jeg at blir forstått.",
+      "suggestion": "Du savner Ingrid, samtidig som du ikke vil ha de utmattende nettene tilbake. Du ønsker plass til den forskjellen.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Rynker pannen] Folk beundrer hvordan jeg tok vare på henne. Det er godt, men det var ikke alt jeg var.",
+      "suggestion": "Du setter pris på at omsorgen blir sett, og vil bli kjent som mer enn den som hadde omsorgen.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Nølende] En dag uten å tenke på henne ville skremme meg. Jeg ønsker meg også en.",
+      "suggestion": "Du ønsker litt lettelse, og er redd for at den kan bety å miste noe av henne.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Mykt] Kåpen hennes trøster meg til noen spør hvorfor den fortsatt henger der.",
+      "suggestion": "Den gir nærhet, og spørsmålene fra andre får den trøsten til å kjennes dømt.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sukker] Jeg vil ikke ha enda en middagsinvitasjon der jeg er den tomme stolen alle legger merke til.",
+      "suggestion": "Du ønsker selskap uten at tapet ditt blir sentrum for alles oppmerksomhet.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Varmt, så nølende] Å hjelpe Liv kjentes som å være meg selv igjen. Det høres ut som om Ingrid hindret meg i det.",
+      "suggestion": "Du kjente deg mer som deg selv da du hjalp Liv, og er redd for at det høres urettferdig mot Ingrid ut å si det.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] Noen ganger er tristheten enklere enn å bestemme hva jeg vil nå.",
+      "suggestion": "Tristheten er kjent; å finne ut hva du vil i dette endrede livet, kjennes også usikkert.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Bestemt] Stillheten var god. Ikke gjør det til at jeg ønsket henne bort.",
+      "suggestion": "Stillheten ga deg noe du trengte. Det er noe annet enn å ønske Ingrid bort, og du trenger at forskjellen blir hørt.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Avventende] Jeg flyttet kåpen og hengte den tilbake. Det kjentes feil der. Jeg kan ikke si hvorfor.",
+      "suggestion": "Noe kjentes feil da du flyttet den, selv om du ennå ikke vet hva det betyr. Vi kan la det være åpent.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] Jeg savner henne. Jeg er også sint for noen ting. Ikke rydd opp i det for meg.",
+      "suggestion": "Du trenger plass til kjærligheten og sinnet uten at jeg glatter bort noen av delene.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Tørt] Jeg vet at jeg betyr noe for Liv. Det hindrer ikke en tom søndag i å være tom.",
+      "suggestion": "Å vite at du betyr noe, gir ikke det selskapet du savner på søndag.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Nølende] Det er ikke akkurat skyld. Mer som om gleden ikke har noe sted å høre til.",
+      "suggestion": "Gleden kjennes malplassert i dette endrede livet, fremfor bare gal. Er det nærmere?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Stødig] Jeg var lei av omsorgen. Jeg trenger ikke tillatelse til å si det, men jeg trenger at du ikke viker unna.",
+      "suggestion": "Du vet at slitenheten var virkelig. Du trenger at jeg hører det rett ut og blir hos deg.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Varmt, så avventende] Knut og jeg lo. Det var vanlig. Ikke gjør det til en milepæl.",
+      "suggestion": "Et vanlig godt øyeblikk med vennen din. Du vil at det skal få være nettopp det.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] Jeg vil ikke ha henne tilbake så syk som hun var. Jeg vil ha henne, og det finnes ingen måte å få det på.",
+      "suggestion": "Du vil ha Ingrid uten den lidelsen. Ingen av delene er mulig, og lengselen har ikke noe enkelt sted å lande.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Forsiktig] Jeg er ikke ensom hver gang jeg er alene. Noen ganger er det besøket som gjør meg ensom.",
+      "suggestion": "Å være alene kan kjennes riktig; å føle seg lite sett i selskap kan være det ensomste.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Flatt] Jeg vet ikke om jeg føler noe for bildet i dag. Det skremmer meg ikke.",
+      "suggestion": "I dag er det kanskje ingen tydelig følelse der, og du trenger ikke at jeg gjør det til en bekymring.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Bestemt] Jeg vil ha praktisk hjelp. Når det kalles unngåelse, får jeg lyst til å gå.",
+      "suggestion": "Det praktiske behovet er virkelig. Når det blir bortforklart, føler du deg lite hørt her.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] I går ville jeg ha selskap. I dag ringte Knut, og jeg lot det ringe. Jeg vet ikke hva jeg skal tenke om meg selv.",
+      "suggestion": "Det du ønsker, kan kjennes forskjellig fra dag til dag, og det gjør deg usikker på hvordan du skal forstå deg selv.",
+      "difficulty": "hard"
+    }
   ]
 }

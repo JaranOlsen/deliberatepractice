@@ -1312,5 +1312,439 @@
       "text": "[På vakt, med en pause] Jeg ble lettet da du ikke presset på for mer. Er det fortsatt. Vanskelig å si det til noen.",
       "suggestion": "Det er en lettelse i at jeg ga deg rom. Vi kan gi den følelsen et øyeblikk uten å be deg si mer enn du vil."
     }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Mykt] Det er tristhet akkurat her når jeg ser for meg den tomme stolen.",
+      "suggestion": "Kan vi bli litt ved den tristheten og se hva du merker?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Stemmen brister] Jeg ville fortelle henne at porten var reparert. Det vil jeg fortsatt.",
+      "suggestion": "Det ønsket om å fortelle henne er her nå. Hvordan er det å la deg selv høre det?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Lavt] Det verker i brystet når jeg husker latteren hennes.",
+      "suggestion": "Når du husker den latteren, hva skjer i det som verker?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Rynker pannen] Jeg er sint over å bli fortalt at jeg skal være takknemlig.",
+      "suggestion": "Kan vi gi det sinnet litt plass? Hva protesterer det mot?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Med tårer] Jeg vil bare at noen skal spørre hvordan dagen min var.",
+      "suggestion": "Det ønsket kjennes nært nå. Hvordan er det å si det her?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Mykt] Skuldrene slipper litt når jeg sier at jeg også var sliten.",
+      "suggestion": "Kan du legge merke til at det slipper litt? Hva kjennes annerledes?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Lavt] Jeg er ensom i kveld. Det er vanskelig å si det så rett ut.",
+      "suggestion": "Vi kan bli ved de vanlige ordene. Hva merker du når du sier «ensom»?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Smiler med tårer] Det kjennes varmt et øyeblikk når jeg husker at hun ertet meg.",
+      "suggestion": "Kan vi stoppe ved den varmen før vi går videre?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Stødig] Jeg er trist, men jeg skammer meg ikke over å si det her.",
+      "suggestion": "Hvordan er det å ha tristheten her uten den skammen?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Lavt] Skylden kommer så snart jeg husker at jeg hadde det hyggelig.",
+      "suggestion": "Når skylden kommer, hva ser den ut til å si om det å ha det hyggelig?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Mykt] Jeg er takknemlig for at Knut ble, og trist over at jeg trengte det.",
+      "suggestion": "Kan vi høre begge deler—gleden over at han ble, og tristheten ved siden av?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Sukker] Når jeg sier «jeg elsket henne», kommer tårene nærmere.",
+      "suggestion": "Vi kan ta det langsomt. Hva skjer når du sier de ordene?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Mykt] Freden til frokost er god, så strammer jeg meg.",
+      "suggestion": "Kan vi stoppe ved den strammingen og merke hva som kommer med den?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Stemmen blir lavere] Jeg savner henne, men sykehusnettene—det er sinne der også.",
+      "suggestion": "Hvis du vil, kan vi gi sinnet plass uten å miste savnet. Hva handler det om?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Lite smil] Ertingen hennes får meg fortsatt til å le. Så treffer det tomme rommet meg.",
+      "suggestion": "Kan vi ta den overgangen langsomt, fra latteren til å merke rommet?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Lavt] Jeg trengte at Liv så meg, ikke tok over. Det stikker litt å si det.",
+      "suggestion": "Hva merker du i det som stikker, når du setter ord på det du trengte?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Nølende] Å si at jeg var utslitt gir lettelse, så kommer en stemme som kaller meg egoistisk.",
+      "suggestion": "Kan vi høre lettelsen først, før den dommen tar all plassen?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Smiler med tårer] Jeg var glad på verkstedet. Tristheten står rett ved siden av.",
+      "suggestion": "Hvordan er det å la gleden og tristheten være her sammen?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Rynker pannen] Jeg ville at hun skulle forstå hvor sliten jeg var. Jeg får dårlig samvittighet for det ønsket.",
+      "suggestion": "Kan vi bli ved ønsket om å bli forstått, før vi bestemmer at det var galt?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Lavt] Jeg savner å være til nytte for henne. Ikke å være nødvendig hvert minutt.",
+      "suggestion": "Hvordan er det å høre den forskjellen med dine egne ord?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Ser ned] Knut ble uten å spørre om noe. Det løsnet litt i brystet, så gråt jeg nesten.",
+      "suggestion": "Kan vi stoppe litt ved at det løsnet, og hva det betydde at han ble? Vi tar det i ditt tempo.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Mykt] Jeg blir sint når de bestemmer hva Ingrid ville ønsket. Bak sinnet tror jeg at jeg savner henne.",
+      "suggestion": "Vi kan høre begge deler. Hvor vil du bli litt—ved sinnet eller savnet?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Usikkert] Å legge bort kåpen ga meg plass. Så ville jeg ha den tilbake.",
+      "suggestion": "Hvordan kjentes den plassen før ønsket om å hente den tilbake?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Lavt] «Jeg er ensom» kjennes sant. Det høres også ut som å be om for mye.",
+      "suggestion": "Kan vi gi den sanne delen et øyeblikk? Hvordan er det å si her at du er ensom?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Lavt] Den lettelsen er virkelig, men jeg vil ikke kalle den frihet fra Ingrid.",
+      "suggestion": "Hvordan er lettelsen med dine egne ord, uten den merkelappen?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Bestemt] Det er sinne her. Jeg er ikke klar til å finne tristheten under.",
+      "suggestion": "Vi kan bli ved selve sinnet. Hva vil det at blir hørt, hvis du vil undersøke det?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Nølende] Noe ble mykere da jeg sa at jeg trengte hvile. Nå føler jeg meg overvåket igjen.",
+      "suggestion": "La oss stoppe ved det. Hva ville hjelpe deg å føle deg mindre overvåket her?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Oppmerksom] Minnet berører meg. Ikke be meg gjøre det større.",
+      "suggestion": "Vi trenger ikke gjøre mer ut av det. Vil du ha en stille stund med minnet, eller heller gå videre?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Lavt] Det er ømhet, kanskje. Å si det får meg til å ville spøke.",
+      "suggestion": "Vi kan merke den trangen uten å fjerne den. Er et lite øyeblikk med ømheten velkomment?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Stødig] Jeg er trist, og trenger ikke gå inn i den gamle scenen for å vite det.",
+      "suggestion": "Vi kan bli ved tristheten her, uten scenen. Hva vil du at jeg hører av den?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Usikkert] Jeg sa skam, men ordet passer ikke nå. Noe er fortsatt der.",
+      "suggestion": "Vi kan legge «skam» til side. Hva merker du av det som er igjen?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Lavt] Jeg er glad for verkstedet. Jeg vil ikke forsvare den gleden.",
+      "suggestion": "Du trenger ikke forsvare den. Vil du ha plass til å merke det som var godt, uten en diskusjon?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Rynker pannen] Jeg kjenner strammingen. Å spørre om den igjen gjør den strammere.",
+      "suggestion": "Vi slutter å spørre inn i den. Vil du ha stillhet, eller vende deg mot noe annet?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Mykt] Jeg vil ha selskap. Det betyr ikke at jeg vil at alle venner skal vite detaljene.",
+      "suggestion": "Kan vi høre hva slags selskap du ønsker, og la de detaljene være private?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Nølende] Lettelsen er her, og jeg sjekker om du godkjenner den.",
+      "suggestion": "Du trenger ikke min godkjenning for å ha den følelsen. Hvordan er det å merke den uten en dom fra meg?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Lavt] Jeg savner de vanlige uenighetene. Jeg vet ikke hvorfor det kjennes ømt.",
+      "suggestion": "Vi kan være nysgjerrige uten å bestemme hvorfor. Hvordan er det å huske et av de vanlige øyeblikkene?",
+      "difficulty": "hard"
+    }
   ]
 }

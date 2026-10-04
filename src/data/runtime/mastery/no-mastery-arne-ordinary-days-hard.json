@@ -1,0 +1,171 @@
+{
+  "id": "mastery-arne-ordinary-days-hard",
+  "type": "mastery",
+  "caseId": "case-arne",
+  "difficulty": "hard",
+  "supportedLevels": [
+    "hard"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Arne · Å leve de vanlige dagene",
+  "orientation": "Tolv sammenhengende øyeblikk om hverdagen etter at Ingrid døde. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "scenes": [
+    {
+      "id": "mastery_arne_hard_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-arne_hard_01",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Arne begynner med å be om en tydelig forskjell.",
+      "prompt": "Hør lettelsen på hans premisser; unngå tolkningen han avviser.",
+      "text": "[Bestemt] Stillheten var god. Ikke gjør det til at jeg ønsket henne bort.",
+      "suggestion": "Stillheten ga deg noe du trengte. Det er noe annet enn å ønske Ingrid bort, og du trenger at forskjellen blir hørt."
+    },
+    {
+      "id": "mastery_arne_hard_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-arne_hard_03",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "bridge": "Han spør hva arbeidet kan gi uten et lovet sluttpunkt.",
+      "prompt": "Tilby en avgrenset begrunnelse uten å foreskrive aksept.",
+      "text": "[Skeptisk] Forklar hvordan dette hjelper uten å love meg aksept.",
+      "suggestion": "Vi kan kanskje forstå et vanskelig øyeblikk og finne hva som ville støtte deg i det. Jeg kan ikke love aksept, og det er ikke et påkrevd resultat."
+    },
+    {
+      "id": "mastery_arne_hard_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-arne_hard_01",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "bridge": "I et annet øyeblikk vil han ha belastningen hørt uten frikjennelse.",
+      "prompt": "Valider belastningen uten å godkjenne alle tidligere valg.",
+      "text": "[Bestemt] Jeg ber deg ikke si at alle valgene mine var riktige. Jeg trenger bare at slitenheten blir hørt.",
+      "suggestion": "Jeg kan høre hvor utmattende det var uten å avgjøre om alle valg var riktige. Den belastningen fortjener plass."
+    },
+    {
+      "id": "mastery_arne_hard_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-arne_hard_04",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "bridge": "Arne skiller mellom deler av selve lettelsen.",
+      "prompt": "La ham velge hvilken del som skal tydeliggjøres først.",
+      "text": "[Forsiktig] Lettelse fra omsorgen, lettelse fra å se henne lide—det er forskjellig.",
+      "suggestion": "Hvilken del vil du at vi forstår først?"
+    },
+    {
+      "id": "mastery_arne_hard_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-arne_hard_01",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "bridge": "Lettelsen er til stede, men en vid merkelapp ville bomme.",
+      "prompt": "Undersøk opplevelsen med hans ord.",
+      "text": "[Lavt] Den lettelsen er virkelig, men jeg vil ikke kalle den frihet fra Ingrid.",
+      "suggestion": "Hvordan er lettelsen med dine egne ord, uten den merkelappen?"
+    },
+    {
+      "id": "mastery_arne_hard_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-arne_hard_09",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "bridge": "Han nevner to former for lettelse, mens betydningen fortsatt er åpen.",
+      "prompt": "Tilby én liten gjetning og gi rom for korrigering.",
+      "text": "[Oppmerksom] Lettelse er ikke én ting. Det var mindre bekymring for henne og færre krav til meg.",
+      "suggestion": "Kanskje skylden griper delen om din egen hvile mer enn lettelsen for henne. Stemmer det?"
+    },
+    {
+      "id": "mastery_arne_hard_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-arne_hard_05",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "bridge": "Arne bruker sitt eget konkrete uttrykk og avviser et større.",
+      "prompt": "Gjør uttrykket hans nært uten å gjøre det større.",
+      "text": "[Tørt] Jeg har gått av vakt. Ikke kall det frihet; det er for stort.",
+      "suggestion": "«Gått av vakt»: ingen ny oppgave som venter, og en pause som er uvant. Hvordan kjennes den pausen?"
+    },
+    {
+      "id": "mastery_arne_hard_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-arne_hard_12",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "En sår følelse og et virkelig praktisk behov kommer sammen.",
+      "prompt": "Undersøk prioriteringen; å respektere det praktiske behovet kan være riktig svar.",
+      "text": "[Stemmen blir mykere, så raskere] Jeg savner henne. Jeg vil også virkelig få ordnet dette skjemaet. Begge deler.",
+      "suggestion": "Begge deler betyr noe. Vil du helst ta skjemaet først, med mulighet til å vende tilbake til savnet senere?"
+    },
+    {
+      "id": "mastery_arne_hard_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-arne_hard_03",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "bridge": "Et senere emosjonelt øyeblikk trenger verken stillhet eller mange ord.",
+      "prompt": "Tilby noen få ord og undersøk om han vil ha mer eller mindre kontakt.",
+      "text": "[Stemmen skjelver] Stillhet kjennes ensomt. For mye prat kjennes trangt.",
+      "suggestion": "Jeg kan si noen få ord og så være stille litt. Si fra hvis det blir for mye eller for lite."
+    },
+    {
+      "id": "mastery_arne_hard_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-arne_hard_07",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "I et annet øyeblikk vil han la gleden være vanlig.",
+      "prompt": "Speil det gode øyeblikket uten å gjøre det til en milepæl.",
+      "text": "[Varmt, så avventende] Knut og jeg lo. Det var vanlig. Ikke gjør det til en milepæl.",
+      "suggestion": "Et vanlig godt øyeblikk med vennen din. Du vil at det skal få være nettopp det."
+    },
+    {
+      "id": "mastery_arne_hard_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-arne_hard_01",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Han kan sette ord på lettelse og avviser en større påstand om endring.",
+      "prompt": "Hold deg til endringen han faktisk beskriver.",
+      "text": "[Bestemt] Jeg kan sette ord på lettelsen. Ikke gjør det til bevis på at jeg har akseptert døden hennes.",
+      "suggestion": "Vi holder oss til å sette ord på lettelsen. Hva kjennes annerledes ved å kunne si det, om noe?"
+    },
+    {
+      "id": "mastery_arne_hard_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-arne_hard_12",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "Timen slutter med tristhet og en følelse av å bli hørt.",
+      "prompt": "Avslutt uten å kreve at tristheten blir til lettelse.",
+      "text": "[Stødig] Jeg går trist herfra. Jeg føler meg også hørt. La begge være sanne.",
+      "suggestion": "Begge kan være sanne. Vi kan stoppe her uten å be tristheten bli til noe annet."
+    }
+  ]
+}

@@ -24,13 +24,14 @@ test('runtime exercises preserve all English/Norwegian text, stable IDs and rati
         const suggestion = typeof translation?.suggestion === 'string' ? translation.suggestion : item.suggestion;
         const actual = runtime[caseId][index];
         assert.deepEqual(actual, {
-          id: item.id, track: item.track, revision: item.revision, criteriaTags: item.criteriaTags, text, suggestion
+          id: item.id, track: item.track, revision: item.revision, criteriaTags: item.criteriaTags, text, suggestion,
+          ...(BASE_PRACTICE[skillId].cases[caseId].supportedLevels.length>1?{difficulty:item.difficultyTier}:{})
         }, `${language}/${skillId}/${caseId}/${index}`);
         checked++;
       }
     }
   }
-  assert.equal(checked, 2664);
+  assert.equal(checked, 3456);
 });
 
 test('sharing case descriptions preserves library, skill guide, glossary and localized case content', () => {

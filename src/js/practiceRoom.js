@@ -200,7 +200,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
         if(JSON.stringify(next.statement_ids)!==JSON.stringify(entries.map(e=>e.id)) || next.case_id!==exercise.caseId || next.difficulty!==exercise.difficulty)throw new Error(strings().failedContent);
       }else {
         await loadPracticeContent(next.language_id, next.skill_id);
-        entries = getPracticeStatements(next.language_id, next.skill_id, next.case_id);
+        entries = getPracticeStatements(next.language_id, next.skill_id, next.case_id, next.difficulty);
       }
       if (next.statement_ids.some(id => !entries.some(e => e.id === id))) throw new Error(strings().failedContent);
     }
@@ -219,8 +219,8 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       el('change-role').dataset.assignment = assignment;
     }
     const currentScene = entries.find(e=>e.id===next.statement_ids[next.item_index]);
-    const skill = localizeSkill(language, mastery ? currentScene?.skillId : next.skill_id);
-    const caseData = (mastery ? localizeSkill(language,'empathic-understanding') : skill)?.cases.find(c => c.id === next.case_id);
+    const skill = localizeSkill(language, mastery ? currentScene?.skillId : next.skill_id, next.difficulty);
+    const caseData = (mastery ? localizeSkill(language,'empathic-understanding',next.difficulty) : skill)?.cases.find(c => c.id === next.case_id);
     applyTheme?.(overlay, configured && !ended ? mastery ? 'empathic-understanding' : skill?.id : null, caseData?.difficulty);
     applyTheme?.(confirmOverlay, configured && !ended ? mastery ? 'empathic-understanding' : skill?.id : null, caseData?.difficulty);
     if (!role || (configured && !caseData && !ended)) throw new Error(strings().failedContent);
@@ -249,7 +249,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       if (configured && !ended) {
         const heading=node('h3',mastery && !active ? exercise.title : skill.name,'room-practice-heading');
         if(mastery && active)applyTheme?.(heading,skill.id,caseData.difficulty);
-        body.append(heading,node('p',caseData.label,'room-case-heading'));
+        body.append(heading,node('p',caseData.supportedLevels.length>1?`${caseData.label} · ${caseData.difficultyLabel}`:caseData.label,'room-case-heading'));
       }
       const expired = Date.parse(next.expires_at) <= Date.now();
       if (next.phase === 'closed' || expired) {
@@ -267,7 +267,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
           const background = node('section', '', 'case-brief-section');
           background.append(node('h4', ui.roleBriefHeading, 'case-section-title'));
           const facts = node('dl', '', 'case-role-list');
-          for (const [label, value] of [[ui.schemaLabel, caseData.schema], [ui.corePainLabel, caseData.corePain], [ui.styleLabel, caseData.style], [ui.casePracticeEdgeLabel, caseData.practiceEdge]]) {
+          for (const [label, value] of [[caseData.schemaLabel, caseData.schema], [ui.corePainLabel, caseData.corePain], [ui.styleLabel, caseData.style], [ui.casePracticeEdgeLabel, caseData.practiceEdge]]) {
             if (!value?.trim()) continue;
             const fact = node('div', '', 'case-role-item');
             fact.append(node('dt', label), node('dd', value)); facts.append(fact);

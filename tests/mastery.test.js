@@ -1,6 +1,6 @@
 import {createHash} from 'node:crypto';
 import {CANONICAL_SKILL_ORDER} from '../src/data/contentMeta.js';
-import {V3_CORE_RUNTIME_DIGEST} from '../src/data/contentCompatibility.js';
+import {V3_CORE_RUNTIME_DIGEST,V3_CORE_CASE_IDS} from '../src/data/contentCompatibility.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -15,7 +15,7 @@ const read=name=>JSON.parse(readFileSync(new URL('../src/data/runtime/'+name,imp
 const catalog=read('manifest.json').EXERCISE_CATALOG;
 test('partial skill availability advertises only complete bilingual banks with coaching references',()=>{
  for(const id of EXTENSION_SKILL_ORDER){
-  assert.deepEqual(CASE_ORDER[id],['case-sara']);assert.equal(BASE_PRACTICE[id].cases['case-sara'].statements.length,12);
+  assert.deepEqual(CASE_ORDER[id],['case-sara','case-arne']);assert.equal(BASE_PRACTICE[id].cases['case-sara'].statements.length,12);
   for(const lang of ['en','no']){
    assert.equal(read(`statements/${lang}-${id}.json`)['case-sara'].length,12);
    const feedback=getSkillFeedback(id,lang);assert.equal(feedback.cues.length,2);assert.equal(feedback.selfCues.length,2);assert.ok(feedback.middle&&feedback.high);
@@ -52,6 +52,7 @@ test('the v3 room compatibility exception is valid only while every core item st
  const entries=[];
  for(const language of ['en','no'])for(const skill of CANONICAL_SKILL_ORDER)
   for(const [caseId,rows] of Object.entries(read(`statements/${language}-${skill}.json`)))
+   if(V3_CORE_CASE_IDS.includes(caseId))
    for(const {revision,...entry} of rows)entries.push({language,skill,caseId,...entry});
  assert.equal(createHash('sha256').update(JSON.stringify(entries)).digest('hex'),V3_CORE_RUNTIME_DIGEST,
   'Core content changed: remove the v3 compatibility exception or retain the old bank for active rooms.');

@@ -1312,5 +1312,439 @@
       "text": "[På vakt] Du husket datoen. Det hadde jeg ikke ventet. Vet ikke om jeg liker det.",
       "suggestion": "Hvordan er det akkurat nå at jeg husket den?"
     }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Nøler] Det kommer en følelse når jeg ser den tomme stolen hennes. Jeg klarer ikke helt å sette ord på den.",
+      "suggestion": "Hva legger du merke til når du ser for deg den stolen nå?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Ettertenksomt] Verkstedet var hyggelig, så endret noe seg på vei hjem.",
+      "suggestion": "Hva skjedde da du først merket endringen?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Lavt] Jeg sier at det går fint når Liv spør. Det kommer før jeg rekker å tenke.",
+      "suggestion": "Hva merker du rett før du sier at det går fint?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Rynker pannen] Det strammer her når de sier at jeg må gå videre.",
+      "suggestion": "Hvordan kjennes den strammingen når du husker de ordene?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Usikkert] Jeg vet ikke hva jeg ville at Knut skulle gjøre da jeg ble stille.",
+      "suggestion": "Hva ville kjentes hjelpsomt fra ham i det øyeblikket?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Undrende] Frokosten klarer jeg. Middagen er annerledes på et vis.",
+      "suggestion": "Hva kjennes annerledes med å sette seg til middag?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Lavt] Det gjorde noe med meg å høre den sangen.",
+      "suggestion": "Hva la du merke til da sangen begynte?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Ettertenksomt] Det var godt å hjelpe Liv. Jeg var ikke bare distrahert.",
+      "suggestion": "Hva var godt med å hjelpe henne?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Nøler] Jeg sier stadig at jeg burde ha gjort mer.",
+      "suggestion": "Når du sier «mer», hva ser du for deg?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Usikkert] Det var lettelse den natten. Jeg forstår den ikke helt.",
+      "suggestion": "Hva handlet lettelsen om, så langt du kan kjenne?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Lavt] Huset kjennes rart når jeg har hatt en fin dag.",
+      "suggestion": "Hva kjennes rart med å komme hjem etter en fin dag?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Tar en pause] Jeg vil at noe skal være annerledes, men jeg vet ikke hva.",
+      "suggestion": "Hvis vi tar én vanlig kveld, hva ville du ønske mer plass til?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Nølende] Når jeg sier at stillheten er god, protesterer noe i meg.",
+      "suggestion": "Hva ser den protesten ut til å si?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Ettertenksomt] Jeg vil ha Liv der, men ikke at hun styrer med meg. Det er vanskelig å forklare.",
+      "suggestion": "Hva slags samvær ville kjennes riktig for deg?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Lavt] Lettelsen og skylden virker viklet inn i hverandre.",
+      "suggestion": "Hvis vi tar lettelsen først, hva var du lettet over å slippe?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Tørr latter] Jeg rydder stadig et rom ingen bruker. Vet ikke helt hva jeg driver med.",
+      "suggestion": "Hva skjer for deg når du går inn i det rommet?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Rynker pannen] «Å gå videre» høres feil ut. Jeg kan ikke helt si hvorfor.",
+      "suggestion": "Hva virker det som om de ordene ber deg legge igjen?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Usikkert] Jeg ble stille da Knut spurte om verkstedet.",
+      "suggestion": "Hva skjedde i det stille øyeblikket?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Tar en pause] Jeg var sint på bildet. Så syntes jeg det var helt tullete.",
+      "suggestion": "Før du dømmer det, hva handlet sinnet om i det øyeblikket?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Nølende] Noen ganger blir jeg mer ensom av selskap.",
+      "suggestion": "Hva skjer i samværet som gjør ensomheten nærmere?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Lavt] Jeg vet ikke om den strammingen er skyld eller bare slitenhet.",
+      "suggestion": "Hva hjelper deg å skille dem, om noe, når du merker den nå?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Usikkert] Gleden over turen kjentes grei til jeg tenkte på henne.",
+      "suggestion": "Hva endret seg da du kom på Ingrid?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Ettertenksomt] Huset kjennes både kjent og ikke mitt.",
+      "suggestion": "Hva kjennes kjent, og hva kjennes mindre ditt nå?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Tar en pause] Jeg vil at ting skal endre seg, men noen endringer kjennes feil.",
+      "suggestion": "Hvilken endring tenker du på når du sier «feil»?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Bestemt] Det er ikke skyld, ikke helt. Ikke gi meg et nytt navn ennå.",
+      "suggestion": "Hva vil du at jeg forstår om det før vi leter etter et navn?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Oppmerksom] Den tomme stolen er ikke alltid trist. Noen ganger er den bare en stol.",
+      "suggestion": "Hvordan er det i dag når du tenker på den?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Lavt] Jeg vil ha hjelp, men spørsmål kan begynne å kjennes som en eksamen.",
+      "suggestion": "Hva ville få samtalen til å kjennes mindre som en eksamen akkurat nå?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Forsiktig] Lettelse fra omsorgen, lettelse fra å se henne lide—det er forskjellig.",
+      "suggestion": "Hvilken del vil du at vi forstår først?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Tørt] Ikke spør hvor det er i kroppen. Jeg vil heller bruke ord.",
+      "suggestion": "Hvilke ord kommer nærmest, selv om de er uferdige?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Nølende] Jeg vet ikke om jeg savner henne eller den jeg var sammen med henne.",
+      "suggestion": "Hva kjennes forskjellig mellom de to formene for savn?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Lavt] Jeg trodde det ville hjelpe å endre soverommet. Jeg sov bedre, men vet ikke hva jeg føler om det.",
+      "suggestion": "Hva merker du når du ser for deg det endrede rommet nå?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Lavt] Jeg sa ensom. Nå kjennes det mindre sant. Kanskje jeg lånte ordet.",
+      "suggestion": "Hva er nærmere opplevelsen din når du merker den nå?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Oppmerksom] Du ser kanskje verkstedet som en ny begynnelse. Jeg vet ikke om jeg gjør det.",
+      "suggestion": "Hvilken plass har verkstedet for deg, med dine egne ord?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Rynker pannen] Jeg ville ha Liv der, og jeg hatet å bli fulgt med på. Ingen av delene er hele saken.",
+      "suggestion": "Hva ville hjelpe oss å høre den delen som mangler i de to beskrivelsene?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Forsiktig] Jeg kan snakke om den kvelden, men ikke sykehuset i dag.",
+      "suggestion": "Hvor i kvelden vil du begynne?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Usikkert] Jeg vet ikke om det finnes en følelse å avdekke. Jeg er bare sliten.",
+      "suggestion": "Hva ville være mest nyttig med den slitenheten i dag?",
+      "difficulty": "hard"
+    }
   ]
 }
