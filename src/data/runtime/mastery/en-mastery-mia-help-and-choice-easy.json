@@ -1,0 +1,171 @@
+{
+  "id": "mastery-mia-help-and-choice-easy",
+  "type": "mastery",
+  "caseId": "case-mia",
+  "difficulty": "easy",
+  "supportedLevels": [
+    "easy"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Mia · Help without taking over",
+  "orientation": "Twelve linked moments about help, choice and being heard. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+  "scenes": [
+    {
+      "id": "mastery_mia_easy_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-mia_easy_02",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Mia begins with a moment of help from Alex.",
+      "prompt": "Reflect the choice she wanted.",
+      "text": "[Frustrated] Alex opened the jar before I’d even asked. I wanted to try.",
+      "suggestion": "You wanted a chance to decide whether you needed help."
+    },
+    {
+      "id": "mastery_mia_easy_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-mia_easy_05",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "bridge": "She asks what working on a request could offer.",
+      "prompt": "Explain a small, practical use of exploration.",
+      "text": "[Practical] Could we work on asking Alex for help?",
+      "suggestion": "Yes. Exploring what feels difficult about asking may help us find words that fit you."
+    },
+    {
+      "id": "mastery_mia_easy_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-mia_easy_04",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "bridge": "Another moment brings care and a wish to be asked together.",
+      "prompt": "Validate both without asking her to choose between them.",
+      "text": "[Guilty] Alex is kind, and I still want him to ask first.",
+      "suggestion": "His kindness and your wish to be asked can both matter."
+    },
+    {
+      "id": "mastery_mia_easy_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-mia_easy_01",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "bridge": "The conversation returns to Alex reaching for a bag.",
+      "prompt": "Ask one open question about the unclear experience.",
+      "text": "[Puzzled] Something happens when Alex reaches for the bag.",
+      "suggestion": "What do you notice in that moment?"
+    },
+    {
+      "id": "mastery_mia_easy_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-mia_easy_02",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "bridge": "In this moment, anger about being talked over is already present.",
+      "prompt": "Explore what the anger wants heard.",
+      "text": "[Angry] The anger is here when I remember being talked over.",
+      "suggestion": "Could we hear what that anger wants them to understand?"
+    },
+    {
+      "id": "mastery_mia_easy_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-mia_easy_03",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "bridge": "Another offer of help brings a sharp response.",
+      "prompt": "Tentatively check the wish beneath the reaction.",
+      "text": "[Frowning] Ella says “don’t worry, I’ll do it,” and I get sharp.",
+      "suggestion": "Could part of that sharpness be wanting a say in how it’s done?"
+    },
+    {
+      "id": "mastery_mia_easy_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-mia_easy_06",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "bridge": "Mia describes the timing of Alex’s help at a distance.",
+      "prompt": "Use her description to bring the moment closer, checking fit.",
+      "text": "[Flatly] Alex’s help gets ahead of me.",
+      "suggestion": "Is it like he reaches the answer while you’re still deciding what you want?"
+    },
+    {
+      "id": "mastery_mia_easy_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-mia_easy_02",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "A moment of anger shifts toward a detail about the bag.",
+      "prompt": "Check whether she wants to return to not being asked.",
+      "text": "[Angry, then factual] I wasn’t asked. The bag has two handles, actually.",
+      "suggestion": "I noticed we moved to the handles. Could we return to not being asked, if that feels useful?"
+    },
+    {
+      "id": "mastery_mia_easy_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-mia_easy_02",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "bridge": "A later emotional moment needs a slower pace.",
+      "prompt": "Stay in contact without pressing for more.",
+      "text": "[Voice shaking] I’m angry. I’m here, I just need a moment.",
+      "suggestion": "Take that moment. I’m here, and we don’t need to go further yet."
+    },
+    {
+      "id": "mastery_mia_easy_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-mia_easy_12",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Another moment gives the request a clearer shape.",
+      "prompt": "Reflect the help she wants and the choice she keeps.",
+      "text": "[Steady] I want help carrying the bag. I don’t want someone choosing what goes in it.",
+      "suggestion": "You want help with the weight while keeping the decisions yours."
+    },
+    {
+      "id": "mastery_mia_easy_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-mia_easy_09",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Mia notices words she wants to keep.",
+      "prompt": "Help her name what those words capture.",
+      "text": "[Thoughtful] I found the words: I need help with carrying, not deciding.",
+      "suggestion": "Do those words capture what you want to keep from today?"
+    },
+    {
+      "id": "mastery_mia_easy_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-mia_easy_03",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "The imagined session is nearly over.",
+      "prompt": "Keep her chosen words and make room for leaving.",
+      "text": "[Thoughtful] I want to remember those words for Alex.",
+      "suggestion": "Could we note the words you chose, then make sure you have what you need to leave?"
+    }
+  ]
+}

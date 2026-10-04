@@ -1746,5 +1746,439 @@
       "suggestion": "Vi kan være nysgjerrige uten å bestemme hvorfor. Hvordan er det å huske et av de vanlige øyeblikkene?",
       "difficulty": "hard"
     }
+  ],
+  "case-mia": [
+    {
+      "id": "dp_empathic-explorations_case-mia_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Trist] Jeg blir trist nå når jeg tenker på den uferdige tegningen.",
+      "suggestion": "Hvilken del av tegningen savner du når tristheten kommer?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Sint] Sinnet er her når jeg husker at de snakket over hodet på meg.",
+      "suggestion": "Kan vi høre hva det sinnet vil at de skal forstå?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Lettet] Det er en lettelse å si at jeg trenger stolen.",
+      "suggestion": "Hvordan er det å la det behovet bli sagt rett ut?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Med tårer] Jeg savner å kunne love at jeg kommer.",
+      "suggestion": "Hva gjør mest vondt ved ikke lenger å kunne love det?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Mykt] Jeg kjenner varme når jeg husker den besøkende som ville høre min mening.",
+      "suggestion": "Kan vi stoppe ved den varmen? Hva betydde det å bli spurt?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Trist] Jeg vil at noen skal forstå hvor mye de vanlige tingene krever.",
+      "suggestion": "Hva legger du merke til når du sier det ønsket her?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Skyldfull] Skylden kommer når jeg husker at jeg glefset til Alex.",
+      "suggestion": "Hva sier skylden at du skulle ønske du hadde gjort annerledes?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Sint] Jeg er sint, og vet akkurat hvilken kommentar som utløste det.",
+      "suggestion": "Hva ved kommentaren kjentes så galt for deg?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Lavt] Jeg er redd for ikke å vite om jeg klarer morgendagen.",
+      "suggestion": "Hva er vanskeligst ved den usikkerheten akkurat nå?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Berørt] Ella spurte i stedet for å anta. Det rører meg.",
+      "suggestion": "Hva ga det deg i det øyeblikket at hun spurte?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Trist] Jeg er trist over å trenge hjelp, selv når hjelpen er god.",
+      "suggestion": "Kan vi gi plass til det som vekkes ved å trenge den?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Stødig] Jeg blir roligere når jeg sier at jeg fortsatt får velge.",
+      "suggestion": "Hva kjennes annerledes når valget ditt får plass?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Trist, så ler] Jeg er trist over tegningen. Latterlig, egentlig.",
+      "suggestion": "Kan vi høre hva du er trist over å miste, før du kaller det latterlig?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Sint, nølende] Jeg vil ha noe å si. Så hører jeg meg selv høres utakknemlig ut.",
+      "suggestion": "Kan ønsket om å få bestemme få et øyeblikk, før vi vurderer tonen?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Lettet, urolig] Det er en lettelse å hvile. Og så er skylden der ved siden av.",
+      "suggestion": "Hva sier skylden om hvilen du trenger?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Berørt, forsiktig] Jeg likte at Sam spurte om meningen min. Jeg vil ikke gjøre for mye ut av det.",
+      "suggestion": "Hva var godt ved å bli spurt, selv om vi lar det være et lite øyeblikk?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Trist] Det gjør vondt å trenge hjelp, selv om jeg vet at jeg ville hjulpet Alex.",
+      "suggestion": "Hva kjennes smertefullt ved å være den som tar imot nå?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Sint, så lavere stemme] Jeg er lei av å forklare. Kanskje jeg bare er vanskelig.",
+      "suggestion": "Kan vi høre den delen som er lei av å forklare, før vi kaller den vanskelig?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Redd] Jeg er redd for å miste mer. Jeg vet at bekymring ikke hindrer det.",
+      "suggestion": "Det tar ikke bort frykten å vite det. Hvilket tap kjennes nærmest i den i dag?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Mykt] Det er varme når Alex blir ved siden av meg uten å gjøre noe. Det kjennes rart.",
+      "suggestion": "Hvordan er det å ha det selskapet uten å måtte gjøre øyeblikket nyttig?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Skyldfull] Jeg angrer på at jeg glefset, men ikke på at jeg ba ham stoppe.",
+      "suggestion": "Hva blir tydeligere når du skiller beskjeden fra måten den kom på?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Trist, stødig] Jeg vil snakke om det jeg savner, men ikke kjenne det i kroppen.",
+      "suggestion": "Vi kan holde oss til ord. Hva vil du at vi skal høre om savnet?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Sint, usikker] Jeg er sint på Ella. Jeg vil heller ikke at hun går.",
+      "suggestion": "Hva trenger sinnet fra henne mens du fortsatt vil ha henne i nærheten?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Lettet] Det er lettere å si «ikke i dag» her. Så bekymrer jeg meg for morgendagen.",
+      "suggestion": "Kan vi merke hva som gjør dagens nei lettere, uten at det må løse morgendagen?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Sint, usikker] Jeg er sur på ham. Det kan handle om mer enn det han gjorde.",
+      "suggestion": "Når du merker sinnet, hva annet kommer frem, utover det han gjorde?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Trist, bestemt] Tristheten er her. Jeg vil ikke at vi finner en dypere tristhet under den.",
+      "suggestion": "Vi kan bli ved denne tristheten som den er. Hva vil du ha hørt i den?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Varm, urolig] Jeg kjente meg nær Alex da han ventet. Så ville jeg få ham til å skynde seg.",
+      "suggestion": "Hva ble ubehagelig da du fikk den plassen til å velge?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Lavt] Angeren er tydelig. Jeg vil ikke at den blir en grunn til å slutte å være sint.",
+      "suggestion": "Hva ber angeren deg endre, mens sinnet fortsatt blir hørt?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Berørt, på vakt] Det er godt å bli trodd. Jeg venter på «men».",
+      "suggestion": "Hvordan er det akkurat nå å føle deg trodd og fortsatt vente på den vendingen?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Trist, tar en pause] Jeg savner det. Jeg vet ikke engang hva «det» er i dag.",
+      "suggestion": "Kan vi bli ved savnet uten å navngi det for fort? Hva kommer frem?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Sint, stødig] Jeg vil at sinnet blir hørt, ikke gjort nyttig.",
+      "suggestion": "Hvordan ville det være å bli hørt her, før vi ber sinnet om noe?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Lettet, forvirret] Det er lettelse når Alex går, og det får meg til å savne ham.",
+      "suggestion": "Hvordan finnes lettelsen og savnet sammen i det øyeblikket?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Mykt] Jeg er glad jeg sa noe i møtet. Tristheten kom etterpå.",
+      "suggestion": "Hva kommer tristheten med, sammen med gleden over å ha sagt noe?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Sliten, berørt] Jeg kan kjenne dette, men kan ikke gjøre så mye med det i dag.",
+      "suggestion": "Vi trenger ikke gjøre mer med det. Passer noen få ord om det som er her, eller en pause?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Redd] Jeg er redd for å miste mer. Jeg vil ikke ha gjetninger om hvor mye jeg mister.",
+      "suggestion": "Vi kan bli ved frykten uten å forutsi tap. Hva er vanskelig ved å ha den i dag?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-mia_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Lavt] Følelsen ble mindre skarp da du sa det. Den ble ikke borte.",
+      "suggestion": "Hva endret seg i følelsen da den ble mindre skarp?",
+      "difficulty": "hard"
+    }
   ]
 }

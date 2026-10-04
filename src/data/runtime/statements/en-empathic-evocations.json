@@ -1746,5 +1746,439 @@
       "suggestion": "Then we’ll stay with your plain words. We can let them have a moment without adding a picture.",
       "difficulty": "hard"
     }
+  ],
+  "case-mia": [
+    {
+      "id": "dp_empathic-evocations_case-mia_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] The drawing is unfinished. That’s the situation.",
+      "suggestion": "Is it like the pencil stops while the picture you want to make is still going?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] They talk about me as though I’m not in the meeting.",
+      "suggestion": "Is it like being in the room but left outside the conversation?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Matter-of-fact] I have to explain the fatigue again every time.",
+      "suggestion": "Does it feel like starting from the beginning each time you need to be believed?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] My good day is the one they remember.",
+      "suggestion": "Is that one day becoming the whole picture they have of you?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Quietly] The sketchbook is there, but I leave it shut.",
+      "suggestion": "When you picture it closed beside you, does it bring the missing part closer?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] Alex’s help gets ahead of me.",
+      "suggestion": "Is it like he reaches the answer while you’re still deciding what you want?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] I used to give the whole tour. Now I give part of it.",
+      "suggestion": "Does handing over the rest of the tour make the loss of that familiar role more vivid?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Matter-of-fact] Sam left the chair where I needed it.",
+      "suggestion": "Is it a small sign that your place in the room has been thought about?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] I cancel the visit, and the afternoon is empty.",
+      "suggestion": "When you picture that empty afternoon, is it the missing company that stands out?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Quietly] I’m tired of describing myself as a list of limits.",
+      "suggestion": "Is it like the things you love get left out of the introduction?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] I looked at the plants while Ella did the watering.",
+      "suggestion": "Did watching bring the wish to be the one doing it closer, or was it something else?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] When I spoke about the painting, they stopped and listened.",
+      "suggestion": "Is it like your voice had a place again, in that moment?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] Alex does the helpful thing. I’m somewhere behind it, getting cross.",
+      "suggestion": "Is it like the task moves forward while your chance to choose gets left behind?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] I carry a whole explanation around for the next person who asks.",
+      "suggestion": "Is it like having to bring the evidence with you before your need can have a place?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Practical] Three days leaves more room, but less of my old working life.",
+      "suggestion": "Is that extra space also showing you the part of work you miss?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] I say “fine” and the conversation closes. Convenient, I suppose.",
+      "suggestion": "Does “fine” act like closing a door before anyone sees the difficult part?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Quietly] I kept the pencil beside me, even after I stopped.",
+      "suggestion": "Was keeping it there a way of not quite saying goodbye to that evening’s drawing?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Matter-of-fact] They see the good day. I’m the one who has the day after it.",
+      "suggestion": "Is it like they see one page while you’re living the pages that follow too?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] There’s help everywhere and not much room for me in it.",
+      "suggestion": "Is it like the room fills with solutions before your own voice has somewhere to sit?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] I chose the music. That was my little job.",
+      "suggestion": "When you picture choosing it, does that “little job” hold a real place for you?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] I’m proud of the tour. Also watching the clock the whole time.",
+      "suggestion": "Does the clock sit beside the pride, reminding you that your energy has an end?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Quietly] I want to be helped, not handled. Those are my words.",
+      "suggestion": "“Handled” sounds like decisions happening around you rather than with you. Does that bring it closer?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] Ella’s visit becomes a list of things she can do.",
+      "suggestion": "Is the list leaving out the part where you just get to be sisters?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] Sam waited for my answer. It felt like an unusual amount of time.",
+      "suggestion": "Was that pause a space where your answer could arrive, instead of being supplied for you?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] I’m consulted after the practical arrangements are settled. That’s apparently choice.",
+      "suggestion": "Is it like being handed a place in a picture that was drawn before you arrived?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] My explanation is polished. Nobody hears the part I haven’t polished.",
+      "suggestion": "Is there a more uneven, unfinished part just outside that explanation? Does that image fit?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Corrects, distant] Not trapped. I can leave the meeting. I lose something if I do.",
+      "suggestion": "Is it more like standing at a doorway where either choice has a cost?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Quietly] The pencil is there. I don’t want it turned into a symbol of my whole life.",
+      "suggestion": "We can keep it just that pencil. When you picture it, is there a small feeling nearby, or not?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] Everyone relaxed on my good day. I had to keep watching the time.",
+      "suggestion": "Is it like they could put the clock away while yours still had to stay in view?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Matter-of-fact] I want help at my side, not moving out ahead of me.",
+      "suggestion": "“At my side” sounds like someone matching your pace rather than choosing the route. Is that close?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] The shorter tour has space for my body. Less space for the bits I loved.",
+      "suggestion": "Does that version hold you physically, while leaving some loved parts of the work outside it?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] When Ella visits, our old conversations get crowded out by things to do.",
+      "suggestion": "Is it like there’s less room at the table for just the two of you?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Quietly] I’m the same person. People seem to arrive with a different script now.",
+      "suggestion": "Is it as if you recognize yourself, but not the part they’ve written for you?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Corrects] Not a wall. I do want company. Your wall image makes me sound closed.",
+      "suggestion": "Would an open door with a wish to be asked before someone enters fit better, or neither image?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] I had an ordinary conversation about art. That’s why I remember it.",
+      "suggestion": "Was there a moment where you could be in the conversation without the illness introducing you?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-mia_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] My own answer takes time. Someone usually puts an answer in that space.",
+      "suggestion": "Is it like the pause gets filled before your words have a chance to arrive?",
+      "difficulty": "hard"
+    }
   ]
 }

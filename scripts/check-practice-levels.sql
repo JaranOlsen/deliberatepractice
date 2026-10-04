@@ -17,8 +17,8 @@ declare host uuid:=gen_random_uuid(); client uuid:=gen_random_uuid();
  cfg jsonb; bad jsonb; r jsonb; rid uuid; parent uuid; rejected boolean; count_before integer;
 begin
  insert into auth.users(id,email) values(host,'host@levels.invalid'),(client,'client@levels.invalid');
- if (select count(*) from dp_private.focused_level_catalog)<>33 then raise exception 'Expected eleven banks at each of three levels';end if;
- if (select count(*) from dp_private.exercise_catalog where case_id='case-arne')<>3 then raise exception 'Missing mastery levels';end if;
+ if (select count(*) from dp_private.focused_level_catalog)<>66 then raise exception 'Expected two cases with eleven banks at each of three levels';end if;
+ if (select count(*) from dp_private.exercise_catalog where case_id in ('case-arne','case-mia'))<>6 then raise exception 'Missing mastery levels';end if;
  -- Every legal focused bank works; forged level, mixed bank and tags cannot enter a room.
  for bank in select * from dp_private.focused_level_catalog loop
   perform set_config('request.jwt.claim.sub',host::text,true);
@@ -27,6 +27,9 @@ begin
   bad:=cfg||jsonb_build_object('difficulty',case when bank.difficulty='hard' then 'easy' else 'hard' end);
   rejected:=false;begin perform public.create_practice_room(bad,gen_random_uuid());exception when raise_exception then rejected:=true;end;
   if not rejected then raise exception 'Focused room accepted another level';end if;
+  bad:=cfg||jsonb_build_object('caseId',case when bank.case_id='case-mia' then 'case-arne' else 'case-mia' end);
+  rejected:=false;begin perform public.create_practice_room(bad,gen_random_uuid());exception when raise_exception then rejected:=true;end;
+  if not rejected then raise exception 'Focused room accepted another case bank';end if;
   bad:=jsonb_set(cfg,'{statements,0,criteriaTags}','["forged"]');
   rejected:=false;begin perform public.create_practice_room(bad,gen_random_uuid());exception when raise_exception then rejected:=true;end;
   if not rejected then raise exception 'Focused room accepted forged metadata';end if;
@@ -58,13 +61,13 @@ begin
    for item in 1..3 loop r:=pg_temp.level_action(r,host,'finish_item');end loop;
    r:=pg_temp.level_action(r,host,'rate',4);r:=pg_temp.level_action(r,host,case when checkpoint=4 then 'prepare_next' else 'continue_set' end);
   end loop;
-  if (select count(*) from public.practice_ratings where parent_round_id=parent and difficulty=bank.difficulty and source='self' and case_id='case-arne' and item_count=3)<>4 then raise exception 'Focused checkpoint level/scope lost';end if;
+  if (select count(*) from public.practice_ratings where parent_round_id=parent and difficulty=bank.difficulty and source='self' and case_id=bank.case_id and item_count=3)<>4 then raise exception 'Focused checkpoint level/scope lost';end if;
   if exists(select 1 from public.practice_ratings where parent_round_id=parent and exists(select 1 from unnest(completed_statement_ids) id where position('_'||bank.difficulty||'_' in id)=0)) then raise exception 'Focused checkpoint mixed levels';end if;
   if r->>'phase'<>'choosing' or r->>'client_id' is not null or r->>'therapist_id' is not null then raise exception 'Focused round did not reset roles';end if;
  end loop;
  -- Mastery uses the approved sequence/level, not the client-supplied label.
  select count(*) into count_before from public.practice_ratings;
- for exercise in select * from dp_private.exercise_catalog where case_id='case-arne' loop
+ for exercise in select * from dp_private.exercise_catalog where case_id in ('case-arne','case-mia') loop
   perform set_config('request.jwt.claim.sub',host::text,true);rid:=gen_random_uuid();
   cfg:=jsonb_build_object('languageId','en','exerciseType','mastery','exerciseId',exercise.exercise_id,'caseId',exercise.case_id,
    'difficulty',exercise.difficulty,'contentRevision',exercise.revision,'roundSize',12,'statements',exercise.scenes,'hostRole','therapist','preparationProtocol','ready-v1');

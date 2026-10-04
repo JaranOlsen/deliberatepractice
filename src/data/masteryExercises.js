@@ -1,3 +1,4 @@
+import {MIA_MASTERY} from './miaMastery.js';
 import {CONTENT_REVISION} from './contentMeta.js';
 import {SKILL_EXERCISE_MAP} from './contentMeta.js';
 import {EXTENSION_CRITERIA} from './skillExtensions.js';
@@ -55,3 +56,4 @@ export const MASTERY_EXERCISES = [{
   }))
 }];
 MASTERY_EXERCISES.push(...ARNE_MASTERY);
+MASTERY_EXERCISES.push(...MIA_MASTERY);

@@ -614,5 +614,475 @@
       "suggestion": "I won’t congratulate you. Would you like to name what you noticed, or keep it quietly your own?",
       "difficulty": "hard"
     }
+  ],
+  "case-mia": [
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] I can say I miss drawing without calling myself ungrateful.",
+      "suggestion": "What helped you make room for that sadness without the judgment?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady] “Ask me first” sounds clearer than snapping now.",
+      "suggestion": "What do you want to remember about that clearer request?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I still need help. It doesn’t feel like I’ve disappeared when I say it now.",
+      "suggestion": "What is different in how you see yourself alongside that need?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Relieved] I can be glad Alex helps and want a say.",
+      "suggestion": "What helped those two things fit together for you?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Warmly] I noticed the part of me that still loves explaining paintings.",
+      "suggestion": "How would you like to hold onto that part, within the energy you have?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Reflective] I said I was angry, and we didn’t have to make it bigger.",
+      "suggestion": "What was helpful about giving the anger that much room?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady] Resting feels like responding to my limit, not failing a test.",
+      "suggestion": "What changed in how you understood the rest you needed?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Softly] The sadness is still here, but I’m less alone with it.",
+      "suggestion": "What about our conversation helped it feel less lonely?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] I found the words: I need help with carrying, not deciding.",
+      "suggestion": "Do those words capture what you want to keep from today?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I noticed a good moment without using it to deny the hard ones.",
+      "suggestion": "How did you make room for that good moment alongside the hard ones?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Relieved] Stopping when I asked made it easier to say what I needed.",
+      "suggestion": "What do you want us to remember about that pace next time?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady] I don’t need to explain everything for my request to matter.",
+      "suggestion": "What helped you feel that your request could stand on its own?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Reflective] I found a request underneath the anger. I still don’t like how I said it.",
+      "suggestion": "What request do you want to keep, while taking responsibility for the way it came out?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I can need Alex and still want him to wait for my answer.",
+      "suggestion": "What helped you give both the need and your answer a place?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Moved] I felt like a sister, not a list of tasks. I want to remember that.",
+      "suggestion": "What made that moment feel like being sisters?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady] Rest didn’t feel like giving up this time. I’m not sure that will last.",
+      "suggestion": "What was different this time, even if it isn’t something you can guarantee?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Sad, calmer] Nothing about the drawing changed. I stopped arguing with how much I miss it.",
+      "suggestion": "What helped you hear the missing without having to argue it away?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] I can keep the good day without making it a promise about tomorrow.",
+      "suggestion": "How would you describe that distinction in your own words?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Relieved] “Ask, then wait” is what I meant. I don’t mean never help me.",
+      "suggestion": "What do those words make clearer about the help you want?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I’m still uncertain, but I’m less cross with myself for not knowing.",
+      "suggestion": "What softened that judgment of not knowing?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Warm, cautious] I liked offering my opinion. I don’t want that turned into a new duty.",
+      "suggestion": "What would help you keep it as something you can choose to offer?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady] I said stop before I was completely worn out. That felt different.",
+      "suggestion": "What helped you notice and say that limit earlier?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Reflective] The anger isn’t gone. It’s less of a blur now.",
+      "suggestion": "What has become clearer in it?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Softly] Being believed mattered more than finding the right explanation.",
+      "suggestion": "What about being believed do you want us to remember for our work?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I found what I wanted to ask. I haven’t found a kind way to ask it yet.",
+      "suggestion": "What has become clearer in the request, even with the wording still unfinished?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] “Wait for my answer” fits. It doesn’t solve what happens when I don’t have one.",
+      "suggestion": "What part does that phrase capture, and what needs to remain open?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Sad, steadier] I didn’t improve the afternoon. I stopped calling myself wrong for missing it.",
+      "suggestion": "What helped you make that distinction without having to improve the loss?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Relieved, cautious] I felt believed. I’m not suddenly ready to tell everybody everything.",
+      "suggestion": "What was helpful about being believed here, at the amount you chose to share?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Warm, serious] I liked that moment at work. Please don’t turn it into evidence that I can do more.",
+      "suggestion": "We can keep it as that moment. What do you want remembered about why it mattered?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady] I can own the snapping without giving up the need behind it.",
+      "suggestion": "How would you put that distinction in words you could actually use?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] We stopped when I asked. That’s the thing that changed, not the feeling.",
+      "suggestion": "What difference did having your stop respected make for you?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Reflective] I need help differently on different days. I don’t have one final answer for Alex.",
+      "suggestion": "What would you want him to understand about that changing answer?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Sad, calm] I can leave the drawing out without making it a promise to finish.",
+      "suggestion": "What changed in how you let that unfinished drawing be there?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Uncertain] I don’t know if this is a change. There’s less arguing inside for a moment.",
+      "suggestion": "Could we name that small difference without deciding what it will become?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I corrected you and you didn’t make me explain it until I was worn out.",
+      "suggestion": "What do you want us to keep about how we handled that correction?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-mia_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady, tired] I know the words I want. Today I might only manage half of them.",
+      "suggestion": "Which few words would hold the essential part, without asking more energy from you?",
+      "difficulty": "hard"
+    }
   ]
 }

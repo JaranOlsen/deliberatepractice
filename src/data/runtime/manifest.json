@@ -38,7 +38,8 @@
       "case-aisha",
       "case-david",
       "case-marcus",
-      "case-arne"
+      "case-arne",
+      "case-mia"
     ],
     "empathic-affirmation-validation": [
       "case-sara",
@@ -50,7 +51,8 @@
       "case-aisha",
       "case-david",
       "case-marcus",
-      "case-arne"
+      "case-arne",
+      "case-mia"
     ],
     "exploratory-questions": [
       "case-sara",
@@ -62,7 +64,8 @@
       "case-aisha",
       "case-david",
       "case-marcus",
-      "case-arne"
+      "case-arne",
+      "case-mia"
     ],
     "providing-treatment-rationale": [
       "case-sara",
@@ -74,7 +77,8 @@
       "case-aisha",
       "case-david",
       "case-marcus",
-      "case-arne"
+      "case-arne",
+      "case-mia"
     ],
     "empathic-explorations": [
       "case-sara",
@@ -86,7 +90,8 @@
       "case-aisha",
       "case-david",
       "case-marcus",
-      "case-arne"
+      "case-arne",
+      "case-mia"
     ],
     "empathic-evocations": [
       "case-sara",
@@ -98,7 +103,8 @@
       "case-aisha",
       "case-david",
       "case-marcus",
-      "case-arne"
+      "case-arne",
+      "case-mia"
     ],
     "empathic-conjectures": [
       "case-sara",
@@ -110,7 +116,8 @@
       "case-aisha",
       "case-david",
       "case-marcus",
-      "case-arne"
+      "case-arne",
+      "case-mia"
     ],
     "staying-in-contact-intense-affect": [
       "case-sara",
@@ -122,7 +129,8 @@
       "case-aisha",
       "case-david",
       "case-marcus",
-      "case-arne"
+      "case-arne",
+      "case-mia"
     ],
     "self-disclosure": [
       "case-sara",
@@ -159,15 +167,18 @@
     ],
     "empathic-refocusing": [
       "case-sara",
-      "case-arne"
+      "case-arne",
+      "case-mia"
     ],
     "consolidating-emotional-change": [
       "case-sara",
-      "case-arne"
+      "case-arne",
+      "case-mia"
     ],
     "closing-after-emotional-work": [
       "case-sara",
-      "case-arne"
+      "case-arne",
+      "case-mia"
     ]
   },
   "CONTENT_REVISION": "2026-10-04-v4",
@@ -315,6 +326,102 @@
         "mastery_arne_hard_10",
         "mastery_arne_hard_11",
         "mastery_arne_hard_12"
+      ]
+    },
+    {
+      "id": "mastery-mia-help-and-choice-easy",
+      "type": "mastery",
+      "caseId": "case-mia",
+      "difficulty": "easy",
+      "supportedLevels": [
+        "easy"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Mia · Help without taking over",
+        "no": "Mia · Hjelp uten å ta over"
+      },
+      "orientation": {
+        "en": "Twelve linked moments about help, choice and being heard. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øyeblikk om hjelp, valg og å bli hørt. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_mia_easy_01",
+        "mastery_mia_easy_02",
+        "mastery_mia_easy_03",
+        "mastery_mia_easy_04",
+        "mastery_mia_easy_05",
+        "mastery_mia_easy_06",
+        "mastery_mia_easy_07",
+        "mastery_mia_easy_08",
+        "mastery_mia_easy_09",
+        "mastery_mia_easy_10",
+        "mastery_mia_easy_11",
+        "mastery_mia_easy_12"
+      ]
+    },
+    {
+      "id": "mastery-mia-help-and-choice-moderate",
+      "type": "mastery",
+      "caseId": "case-mia",
+      "difficulty": "moderate",
+      "supportedLevels": [
+        "moderate"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Mia · Help without taking over",
+        "no": "Mia · Hjelp uten å ta over"
+      },
+      "orientation": {
+        "en": "Twelve linked moments about help, choice and being heard. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øyeblikk om hjelp, valg og å bli hørt. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_mia_moderate_01",
+        "mastery_mia_moderate_02",
+        "mastery_mia_moderate_03",
+        "mastery_mia_moderate_04",
+        "mastery_mia_moderate_05",
+        "mastery_mia_moderate_06",
+        "mastery_mia_moderate_07",
+        "mastery_mia_moderate_08",
+        "mastery_mia_moderate_09",
+        "mastery_mia_moderate_10",
+        "mastery_mia_moderate_11",
+        "mastery_mia_moderate_12"
+      ]
+    },
+    {
+      "id": "mastery-mia-help-and-choice-hard",
+      "type": "mastery",
+      "caseId": "case-mia",
+      "difficulty": "hard",
+      "supportedLevels": [
+        "hard"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Mia · Help without taking over",
+        "no": "Mia · Hjelp uten å ta over"
+      },
+      "orientation": {
+        "en": "Twelve linked moments about help, choice and being heard. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øyeblikk om hjelp, valg og å bli hørt. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_mia_hard_01",
+        "mastery_mia_hard_02",
+        "mastery_mia_hard_03",
+        "mastery_mia_hard_04",
+        "mastery_mia_hard_05",
+        "mastery_mia_hard_06",
+        "mastery_mia_hard_07",
+        "mastery_mia_hard_08",
+        "mastery_mia_hard_09",
+        "mastery_mia_hard_10",
+        "mastery_mia_hard_11",
+        "mastery_mia_hard_12"
       ]
     }
   ],
@@ -1558,6 +1665,18 @@
         "practiceEdge": "Skill mellom savnet etter Eva, skyld over å glede seg og praktiske behov som fortjener egen oppmerksomhet.",
         "style": "Vanlige, konkrete ord; rolig tempo; lun humor. Pauser ved såre detaljer. En liten latter kan uttrykke varme eller ubehag: undersøk fremfor å anta. Han kan korrigere deg, avslå et spørsmål eller be om selskap uten flere ord.",
         "voice": "Jeg heter Leo. Eva døde for ti måneder siden. Vi hadde førtien år sammen. Jeg holder huset i orden, og Emma kommer innom. Tom får meg med på tur iblant. Det er de små tingene—å lage kaffe til én, ingen å fortelle det til når jeg har reparert noe. Jeg elsket Eva, og jeg var utslitt mot slutten av sykdommen hennes. Begge deler er sant, men det kjennes illojalt å si det. Jeg hadde en god ettermiddag på verkstedet sist uke, og så fikk jeg dårlig samvittighet for å ha hatt det hyggelig. Jeg vil finne en måte å leve dagene mine på uten å føle at jeg lar henne bli igjen."
+      },
+      "case-mia": {
+        "label": "Mia",
+        "difficultyLabel": "Lett",
+        "schemaLabel": "Betydning å undersøke",
+        "teaser": "Museumspedagog med revmatoid artritt, som ønsker hjelp uten å miste retten til å bestemme.",
+        "history": "Mia er 42 år og museumspedagog. Hun fikk diagnosen revmatoid artritt for fire år siden og følges fortsatt opp av revmatolog. Smerter, stivhet og utmattelse varierer; hun jobber tre dager i uken med noen tilpasninger. Hun bor med partneren Alex, treffer søsteren Ella og har en støttende kollega, Sam. Hun liker å tegne, stelle planter og snakke om kunst. Hun verdsetter å bestemme selv og bidra, og synes det er vanskelig når hjelp blir til at andre tar over. Noen undervurderer begrensningene hennes fordi hun ser frisk ut. Hun søker støtte med usikkerhet, sinne over å bli avfeid, sorg over tapte aktiviteter og hva det betyr å trenge hjelp. Emosjonelt arbeid foregår ved siden av medisinsk behandling og praktisk støtte; det fastslår ikke årsaken til sykdommen eller lover mindre symptomer.",
+        "schema": "En bekymring å undersøke: Hvis jeg trenger hjelp, vil folk slutte å se meg som en som kan bestemme og bidra. Ikke anta at alle grenser eller avslag kommer fra denne bekymringen.",
+        "corePain": "Sorg over begrensninger og usikkerhet, sammen med smerten ved å bli oversett eller miste innflytelse når hun trenger hjelp.",
+        "practiceEdge": "Hør de reelle fysiske og praktiske begrensningene mens dere undersøker hva det betyr å trenge hjelp, bli avfeid eller miste en aktivitet.",
+        "style": "Presise, vanlige ord; rask til å nyansere eller korrigere overdrivelser. Varm humor når hun er trygg. En pause kan skyldes utmattelse eller smerte, ikke tilbaketrekning. Hun kan be om å sitte annerledes, avslå oppmerksomhet mot kroppen eller velge praktisk arbeid.",
+        "voice": "Jeg heter Mia. Jeg har revmatoid artritt. Noen morgener kan jeg kle på meg og komme i gang; andre morgener er en knapp en hel jobb. Jeg jobber fortsatt på museet, mindre enn før. Alex hjelper, og jeg er takknemlig, men noen ganger kommer hjelpen før jeg har bestemt hva jeg vil. Da glefser jeg og får dårlig samvittighet. Jeg savner å tegne så lenge som jeg pleide. Folk ser meg på en god dag og tror det er hele historien. Jeg vil ikke at terapien skal overtale meg til å late som dette er greit. Jeg vil ha plass til hvor vanskelig det er, og finne en måte å be om hjelp på der jeg fortsatt er meg."
       }
     }
   },
@@ -2027,6 +2146,26 @@
       "practiceEdge": "Distinguish missing Eva from guilt about enjoying life, and from practical needs that deserve their own attention.",
       "style": "Plain, concrete words; measured pace; dry warmth. Pauses near tender details. A small laugh may express affection or discomfort: check rather than assume. He can correct you, decline a question, or ask for company without more words.",
       "voice": "I’m Leo. Eva died ten months ago. We had forty-one years together. I manage the house, and Emma comes by. Tom gets me out for a walk sometimes. It’s the small things—making coffee for one, nobody to tell when I’ve fixed something. I loved Eva, and I was worn out by the end of her illness. Both are true, but saying that feels disloyal. I had a good afternoon at the workshop last week, then felt bad about having enjoyed it. I’d like to find a way of living my days without feeling I’m leaving her behind."
+    },
+    "case-mia": {
+      "id": "case-mia",
+      "label": "Mia",
+      "difficulty": "easy",
+      "difficultyLabel": "Easy",
+      "tier": "free",
+      "teaser": "A museum educator living with rheumatoid arthritis, seeking help without losing her say.",
+      "supportedLevels": [
+        "easy",
+        "moderate",
+        "hard"
+      ],
+      "history": "Mia is 42 and a museum educator. She was diagnosed with rheumatoid arthritis four years ago and remains under rheumatology care. Pain, stiffness and fatigue fluctuate; she works three days a week with some adaptations. She lives with her partner, Alex, sees her sister, Ella, and has a supportive colleague, Sam. She enjoys drawing, plants and conversations about art. She values making decisions and contributing, and finds it difficult when help becomes taking over. Some people underestimate her limitations because she looks well. She seeks support with uncertainty, anger about dismissal, sadness about lost activities and the meaning of needing help. Emotional work runs alongside medical care and practical support; it does not establish the cause of her illness or promise symptom relief.",
+      "schema": "A worry to check: if I need help, people will stop seeing me as someone with a say and something to offer. Do not assume every limit or refusal comes from this worry.",
+      "schemaLabel": "Meaning to explore",
+      "corePain": "Sadness about limits and uncertainty, with the hurt of being dismissed or losing a say when help is needed.",
+      "practiceEdge": "Hear the real physical and practical limits while exploring what needing help, being dismissed or losing an activity means to her.",
+      "style": "Precise, ordinary words; quick to qualify or correct an overstatement. Warm humor when comfortable. A pause may be fatigue or pain, not withdrawal. She can ask for a different position, decline body attention or choose practical work.",
+      "voice": "I’m Mia. I have rheumatoid arthritis. Some mornings I can get dressed and get on with things; some mornings a button is a whole job. I’m still working at the museum, less than before. Alex helps, and I’m grateful, but sometimes the help arrives before I’ve decided what I want. Then I snap and feel awful. I miss drawing for as long as I used to. People see me on a good day and think that’s the whole story. I don’t want therapy to talk me into pretending this is fine. I want room for how hard it is, and a way to ask for help while still being me."
     }
   },
   "statementCounts": {
@@ -2051,7 +2190,8 @@
       "case-aisha": 12,
       "case-david": 12,
       "case-marcus": 12,
-      "case-arne": 36
+      "case-arne": 36,
+      "case-mia": 36
     },
     "empathic-affirmation-validation": {
       "case-sara": 12,
@@ -2063,7 +2203,8 @@
       "case-aisha": 12,
       "case-david": 12,
       "case-marcus": 12,
-      "case-arne": 36
+      "case-arne": 36,
+      "case-mia": 36
     },
     "exploratory-questions": {
       "case-sara": 12,
@@ -2075,7 +2216,8 @@
       "case-aisha": 12,
       "case-david": 12,
       "case-marcus": 12,
-      "case-arne": 36
+      "case-arne": 36,
+      "case-mia": 36
     },
     "providing-treatment-rationale": {
       "case-sara": 12,
@@ -2087,7 +2229,8 @@
       "case-aisha": 12,
       "case-david": 12,
       "case-marcus": 12,
-      "case-arne": 36
+      "case-arne": 36,
+      "case-mia": 36
     },
     "empathic-explorations": {
       "case-sara": 12,
@@ -2099,7 +2242,8 @@
       "case-aisha": 12,
       "case-david": 12,
       "case-marcus": 12,
-      "case-arne": 36
+      "case-arne": 36,
+      "case-mia": 36
     },
     "empathic-evocations": {
       "case-sara": 12,
@@ -2111,7 +2255,8 @@
       "case-aisha": 12,
       "case-david": 12,
       "case-marcus": 12,
-      "case-arne": 36
+      "case-arne": 36,
+      "case-mia": 36
     },
     "empathic-conjectures": {
       "case-sara": 12,
@@ -2123,7 +2268,8 @@
       "case-aisha": 12,
       "case-david": 12,
       "case-marcus": 12,
-      "case-arne": 36
+      "case-arne": 36,
+      "case-mia": 36
     },
     "staying-in-contact-intense-affect": {
       "case-sara": 12,
@@ -2135,7 +2281,8 @@
       "case-aisha": 12,
       "case-david": 12,
       "case-marcus": 12,
-      "case-arne": 36
+      "case-arne": 36,
+      "case-mia": 36
     },
     "self-disclosure": {
       "case-sara": 12,
@@ -2172,15 +2319,18 @@
     },
     "empathic-refocusing": {
       "case-sara": 12,
-      "case-arne": 36
+      "case-arne": 36,
+      "case-mia": 36
     },
     "consolidating-emotional-change": {
       "case-sara": 12,
-      "case-arne": 36
+      "case-arne": 36,
+      "case-mia": 36
     },
     "closing-after-emotional-work": {
       "case-sara": 12,
-      "case-arne": 36
+      "case-arne": 36,
+      "case-mia": 36
     }
   }
 }

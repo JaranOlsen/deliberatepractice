@@ -683,5 +683,8 @@ export const CONTENT_ITEM_META_OVERRIDES = Object.freeze({
   ...CASE_MATRIX_EXPANSION_OVERRIDES,
   ...CONTENT_PRIORITY_EDITORIAL_OVERRIDES,
   ...CONTENT_SPOKEN_EDITORIAL_OVERRIDES,
-  ...CONTENT_RATIONALE_REPAIR_OVERRIDES
+  ...CONTENT_RATIONALE_REPAIR_OVERRIDES,
+  // Mia is rearranging plant pots; the keyword heuristic mistakes "pot" for cannabis.
+  // Correct the risk metadata without granting editorial approval.
+  'dp_empathic-conjectures_case-mia_moderate_03': {riskFlags: []}
 });

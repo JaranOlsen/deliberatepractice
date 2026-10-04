@@ -172,6 +172,8 @@ function buildRegistry() {
     const cases = STATEMENT_SETS[skillId] ?? {};
     registry[skillId] = {};
     Object.entries(cases).forEach(([caseId, items]) => {
+      const caseMeta = CASES.find(c => c.id === caseId);
+      const variableLevelCase = (caseMeta?.supportedLevels?.length ?? 1) > 1;
       registry[skillId][caseId] = items.map((entry, index) => {
         totalItems += 1;
         const id = entry.id ?? buildLegacyId(skillId, caseId, index);
@@ -183,10 +185,10 @@ function buildRegistry() {
           caseId,
           track: CONTENT_TRACKS.CASE_MATRIX,
           difficultyTier: entry.difficulty ?? caseDifficultyMap.get(caseId) ?? "unknown",
-          sourceRef: caseId === 'case-arne' ? {type:'original_case_variant',caseDossier:'Case_Arne.md',url:EXTENSION_SOURCE} : EXTENSION_SKILL_ORDER.includes(skillId) ? {type: "original_extension", url: EXTENSION_SOURCE, section: "3.1–3.4"} : buildSourceRef(skillId, caseId),
+          sourceRef: variableLevelCase ? {type:'original_case_variant',caseDossier:caseMeta.dossier,url:EXTENSION_SOURCE} : EXTENSION_SKILL_ORDER.includes(skillId) ? {type: "original_extension", url: EXTENSION_SOURCE, section: "3.1–3.4"} : buildSourceRef(skillId, caseId),
           riskFlags,
-          criteriaTags: EXTENSION_CRITERIA[skillId] ?? [...(SKILL_EXERCISE_MAP[skillId]?.defaultCriteriaTags ?? []), ...(caseId==='case-arne'?[]:["legacy_matrix_item"])],
-          reviewStatus: caseId === 'case-arne' || EXTENSION_SKILL_ORDER.includes(skillId) ? REVIEW_STATUSES.PENDING : REVIEW_STATUSES.LEGACY_IMPORTED,
+          criteriaTags: EXTENSION_CRITERIA[skillId] ?? [...(SKILL_EXERCISE_MAP[skillId]?.defaultCriteriaTags ?? []), ...(variableLevelCase?[]:["legacy_matrix_item"])],
+          reviewStatus: variableLevelCase || EXTENSION_SKILL_ORDER.includes(skillId) ? REVIEW_STATUSES.PENDING : REVIEW_STATUSES.LEGACY_IMPORTED,
           revision: CONTENT_REVISION
         };
         return {

@@ -1890,5 +1890,475 @@
       "suggestion": "Vi kan holde det vanlig. Jeg er her, og vi kan ta et stille øyeblikk i dette rommet.",
       "difficulty": "hard"
     }
+  ],
+  "case-mia": [
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Gråter] Jeg er så trist. Ikke prøv å muntre meg opp.",
+      "suggestion": "Jeg skal ikke skynde meg å muntre deg opp. Jeg kan være her med deg mens dette er trist.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Skjelvende stemme] Jeg er sint. Jeg er her, jeg trenger bare et øyeblikk.",
+      "suggestion": "Ta det øyeblikket. Jeg er her, og vi trenger ikke gå videre ennå.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Med tårer] Jeg kan snakke, men saktere.",
+      "suggestion": "Vi kan senke tempoet. Du trenger ikke følge noe tempo jeg setter.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Gråter] Jeg vil at du hører meg, ikke stiller flere spørsmål akkurat nå.",
+      "suggestion": "Jeg lytter. Vi kan la spørsmålene ligge og bli ved det du har sagt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Opprørt] Jeg må sitte annerledes. Hendene gjør også vondt.",
+      "suggestion": "Vi tar en pause mens du finner en bedre stilling. Så kan vi sammen avgjøre om vi fortsetter.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Tårene renner] Jeg vil ikke stoppe, bare ikke press.",
+      "suggestion": "Vi kan bli her uten å presse. Si fra hvis det endrer seg.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Rystet] Det kommer mye. Jeg vil ha litt stillhet.",
+      "suggestion": "Vi kan være stille en stund. Jeg er fortsatt her med deg.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Gråter] Jeg er flau over at du ser dette.",
+      "suggestion": "Jeg er her med deg, og du trenger ikke skjule tårene for meg.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Sint, stødig] Jeg trenger å si hvor urettferdig det kjennes.",
+      "suggestion": "Du kan si det her. Jeg vil lytte uten å gjøre det til noe positivt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Overveldet] Jeg trenger å stoppe historien nå.",
+      "suggestion": "Vi stopper historien. Hva ville hjelpe deg å finne ro før vi velger hva som skjer videre?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Med tårer] Kan du si mindre? Jeg klarer ikke ta inn så mye.",
+      "suggestion": "Ja. Jeg er her. Vi kan ta en pause.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Skjelven, til stede] Jeg hører deg. Jeg vil fortsette å snakke om savnet.",
+      "suggestion": "Vi kan fortsette varsomt. Du kan senke tempoet når du trenger det.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Gråter, så unnskylder] Jeg trenger et øyeblikk. Unnskyld, jeg tar all tiden.",
+      "suggestion": "Dette øyeblikket har plass her. Vi kan stoppe uten at du må unnskylde det.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Sint, skjelvende stemme] Jeg vil at du hører dette. Jeg er redd du bare hører sinnet.",
+      "suggestion": "Jeg lytter etter det du vil ha hørt, ikke bare sinnet. Vi kan ta det langsomt.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Med tårer] Jeg vil ha selskap. Jeg vil ikke bli tatt på.",
+      "suggestion": "Jeg kan være her uten å ta på deg. Si fra hvis du vil ha mer plass eller stillhet.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Rystet] Jeg er opprørt og fysisk sliten. Jeg klarer ikke skille dem akkurat nå.",
+      "suggestion": "Vi trenger ikke skille dem nå. Vi stopper og finner et tempo kreftene dine tåler.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Gråter, til stede] Ikke be meg puste dypt. Bare bli.",
+      "suggestion": "Jeg blir. Du trenger ikke endre pusten for min skyld.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Med tårer, smiler] Jeg prøver å gjøre dette lettere for deg. Det er ikke lettere for meg.",
+      "suggestion": "Du trenger ikke gjøre det lettere for meg. Vi kan gi opplevelsen din den tiden den trenger.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Sint, så stille] Jeg har sagt nok. Men jeg vil ikke at du forsvinner inn i stillhet.",
+      "suggestion": "Jeg er fortsatt her med deg. Vi kan stoppe historien, og jeg kan spørre varsomt heller enn å bli helt stille.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Gråter] Jeg vil fortsette, men sliter med å ta inn lange setninger.",
+      "suggestion": "Jeg er her. Vi kan bruke færre ord og gå langsomt.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Skjelven, ettertenksom] Tårene kjennes riktige. Jeg trenger ikke at de blir fikset.",
+      "suggestion": "Vi kan la dem være her. Jeg blir nær uten å prøve å fikse dem.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Opprørt] Jeg har nådd grensen min. Jeg mener ikke at jeg angrer på samtalen.",
+      "suggestion": "Vi stopper her. Samtalen kan ha betydd noe og likevel måtte slutte nå.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Med tårer] Jeg er her, men trenger å se bort fra deg litt.",
+      "suggestion": "Du kan se bort. Vi kan ha kontakt uten å måtte ha øyekontakt.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Lavt, rystet] Jeg vet ikke om jeg skal fortsette eller ta en pause.",
+      "suggestion": "Vi kan stoppe først. Så kan du velge uten å måtte bestemme mens alt kommer.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Gråter, bestemt] Jeg vil snakke. Ikke hvis hver tåre får deg til å spørre om vi skal stoppe.",
+      "suggestion": "Jeg kan lytte uten å sjekke ved hver tåre. Du kan si fra når tempoet trenger å endres.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Rystet] Jeg kan ikke si hva som vil hjelpe. Ikke gi meg mange valg.",
+      "suggestion": "Vi kan stoppe sammen et øyeblikk. Jeg holder det enkelt.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Sint, med tårer] Jeg ser bort, men jeg er ikke borte.",
+      "suggestion": "Jeg hører deg. Jeg følger det du sier uten å be deg se på meg.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Gråter] Jeg er glad dette kom. Jeg er også så sliten at vi må stoppe.",
+      "suggestion": "Begge deler kan bety noe. Vi stopper utforskningen og tar et roligere øyeblikk nå.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Skjelvende stemme] Du er veldig varsom. På et vis føler jeg meg mer alene.",
+      "suggestion": "Jeg er her med deg. Ville det hjelpe kontakten om du hørte meg svare mer direkte?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Med tårer, til stede] Det gjør vondt, men ikke bruk det som en grunn til å gå bort fra det.",
+      "suggestion": "Vi kan bli ved det varsomt. Jeg antar ikke at smerten betyr at du vil bort fra det.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Opprørt] Jeg må sitte annerledes. Ikke tolk bevegelsen, er du snill.",
+      "suggestion": "Vi stopper mens du flytter deg. Det trenger ikke en tolkning.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Lavt, skjelver] Jeg er ikke klar for et spørsmål. Jeg er heller ikke klar for full stillhet.",
+      "suggestion": "Jeg er her, og hører hvor vanskelig dette er. Vi trenger ikke et spørsmål ennå.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Gråter, tørr latter] Jeg har begynt å berolige deg igjen. Jeg hører knapt meg selv.",
+      "suggestion": "Du trenger ikke berolige meg. Jeg senker tempoet og lytter etter deg.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Sint, stødig] Jeg trenger deg med meg i dette, uten at du er enig i alt jeg har sagt.",
+      "suggestion": "Jeg kan bli nær og høre sinnet uten å avgjøre hver vurdering akkurat nå.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Rystet, tar en pause] Jeg vet ikke om det var følelse eller bare for mye anstrengelse.",
+      "suggestion": "Vi trenger ikke avgjøre det nå. Vi gjør det mindre krevende og tar en pause.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-mia_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Med tårer] Bli litt. Ikke lov at følelsen blir lettere.",
+      "suggestion": "Jeg kan være her med deg nå. Vi kan la det stå åpent hva som skjer med følelsen.",
+      "difficulty": "hard"
+    }
   ]
 }

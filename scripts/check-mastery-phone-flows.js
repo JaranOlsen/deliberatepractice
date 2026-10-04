@@ -2,7 +2,9 @@
 // Run node scripts/check-local-room-db.mjs --serve first. No remote writes.
 async page => {
  const url=page.url(),assert=(ok,message)=>{if(!ok)throw new Error(message);};
- const arne=new URL(url).searchParams.get('testCase')==='arne';
+ const testCase=new URL(url).searchParams.get('testCase'),mia=testCase==='mia',arne=!!['arne','mia'].includes(testCase);
+ const exerciseId=mia?'mastery-mia-help-and-choice-easy':arne?'mastery-arne-ordinary-days-easy':'mastery-sara-evenings';
+ const caseId=mia?'case-mia':arne?'case-arne':'case-sara';
  const levels=arne?['easy','moderate','hard']:['easy'];
  assert(['127.0.0.1','localhost'].includes(new URL(url).hostname),'Local preview only');
  const users=await (await page.request.get('http://127.0.0.1:5199/users')).json(),errors=[],contexts=[];
@@ -51,9 +53,9 @@ async page => {
    };
    await p.goto(url);await p.waitForFunction(()=>document.getElementById('account-button').textContent==='Account'||document.getElementById('account-button').textContent==='Konto');
    await p.locator('#home-library').click();await p.locator('#exercise-mastery').click();
-   await p.locator(`[data-exercise-id="${arne?'mastery-arne-ordinary-days-easy':'mastery-sara-evenings'}"]`).click();await p.locator('#mastery-start').waitFor();
+   await p.locator(`[data-exercise-id="${exerciseId}"]`).click();await p.locator('#mastery-start').waitFor();
    if(arne&&level!=='easy'){await p.locator(`[data-practice-level="${level}"]`).click();await p.waitForFunction(level=>document.querySelector(`[data-practice-level="${level}"]`)?.getAttribute('aria-pressed')==='true',level);}
-   assert((await p.locator('#mastery-practice .case-brief').textContent()).includes(arne?(language==='no'?'Jeg heter Leo':'I’m Leo'):(language==='no'?'Hei, jeg heter Sara':'Hi, I\'m Sara')),'Client sees background and voice before beginning');
+   assert((await p.locator('#mastery-practice .case-brief').textContent()).includes(arne?(language==='no'?'Jeg heter '+(mia?'Mia':'Leo'):'I’m '+(mia?'Mia':'Leo')):(language==='no'?'Hei, jeg heter Sara':'Hi, I\'m Sara')),'Client sees background and voice before beginning');
    const levelName={en:{easy:'Easy',moderate:'Moderate',hard:'Hard'},no:{easy:'Lett',moderate:'Moderat',hard:'Vanskelig'}}[language][level];
    assert((await p.locator('#mastery-practice .room-case-heading').textContent()).endsWith(levelName),'The exercise level follows the selected language');
    await fits('preparation');
@@ -72,12 +74,12 @@ async page => {
      }
      assert(await p.locator('#mastery-finish').isVisible(),'Completion action available to guide');
      await fits('item');
-     if(set===1&&item===0)await p.screenshot({path:`output/playwright/mastery-${arne?'arne':'sara'}-${level}-${language}-${mode}-item-320.png`,fullPage:true});
+     if(set===1&&item===0)await p.screenshot({path:`output/playwright/mastery-${mia?'mia':arne?'arne':'sara'}-${level}-${language}-${mode}-item-320.png`,fullPage:true});
      await p.locator('#mastery-finish').click();
     }
     await p.locator('#mastery-score').waitFor();await fits('rating');
     if(set===1)await p.screenshot({path:`output/playwright/mastery-${language}-${mode}-rating-320.png`,fullPage:true});
-    if(set===1){await p.evaluate(()=>localStorage.setItem('dp_case_levels_v1',JSON.stringify({'case-arne':'hard'})));await p.reload();await p.locator('#resume-mastery').click();await p.locator('#mastery-score').waitFor();assert(await p.evaluate(()=>JSON.parse(localStorage.getItem('dp_mastery_session')).roundId)===roundId,'Reload retains checkpoint identity');assert(await p.evaluate(()=>JSON.parse(localStorage.getItem('dp_mastery_session')).difficulty)===level,'Resume pins the selected exercise level');}
+    if(set===1){await p.evaluate(caseId=>localStorage.setItem('dp_case_levels_v1',JSON.stringify({[caseId]:'hard'})),caseId);await p.reload();await p.locator('#resume-mastery').click();await p.locator('#mastery-score').waitFor();assert(await p.evaluate(()=>JSON.parse(localStorage.getItem('dp_mastery_session')).roundId)===roundId,'Reload retains checkpoint identity');assert(await p.evaluate(()=>JSON.parse(localStorage.getItem('dp_mastery_session')).difficulty)===level,'Resume pins the selected exercise level');}
     if(mode!=='individual'&&set===1)await p.locator('.mastery-account-confirm input').check();
     await p.locator('#mastery-score').selectOption(String(set+1));
     if(language==='en'&&mode==='individual'&&set===1)loseResponse=true;

@@ -1,3 +1,5 @@
+import {MIA_CASE_NO,MIA_SKILLS} from './miaCase.js';
+import {MIA_TRANSLATIONS} from './miaContent.js';
 import {EXTENSION_GUIDES, EXTENSION_TRANSLATIONS} from "./skillExtensions.js";
 import {ARNE_CASE_NO, ARNE_SKILLS} from './arneCase.js';
 import {ARNE_TRANSLATIONS} from './arneContent.js';
@@ -7194,4 +7196,9 @@ Object.assign(STATEMENT_TRANSLATIONS.no, ARNE_TRANSLATIONS);
 for (const skill of ARNE_SKILLS) {
   LANGUAGE_OVERRIDES.no[skill].cases ??= {};
   LANGUAGE_OVERRIDES.no[skill].cases['case-arne'] = ARNE_CASE_NO;
+}
+Object.assign(STATEMENT_TRANSLATIONS.no, MIA_TRANSLATIONS);
+for (const skill of MIA_SKILLS) {
+ LANGUAGE_OVERRIDES.no[skill].cases ??= {};
+ LANGUAGE_OVERRIDES.no[skill].cases['case-mia'] = MIA_CASE_NO;
 }

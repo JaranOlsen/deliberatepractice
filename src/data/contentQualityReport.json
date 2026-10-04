@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-04T13:00:58.565Z",
+  "generatedAt": "2026-10-04T13:39:24.078Z",
   "revision": "2026-10-04-v4",
   "duplicateStatementCount": 0,
-  "skillPurityWarningCount": 33,
-  "reviewQueueCount": 33,
+  "skillPurityWarningCount": 64,
+  "reviewQueueCount": 64,
   "duplicateStatements": [],
   "skillPurityWarnings": [
     {
@@ -182,6 +182,181 @@
       "suggestion": "The gratitude can stand alongside what was difficult. Neither needs to cancel the other."
     },
     {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_03",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You’re responding to a real limit. Needing a seat doesn’t make your contribution less worthwhile."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_04",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "His kindness and your wish to be asked can both matter."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_06",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Other people’s difficulties don’t erase the evenings you’ve lost."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_07",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You wanted to go and couldn’t manage it. Having to cancel doesn’t say how much you care about them."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_09",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You gave him information about what you could manage. That need deserves to be heard."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_10",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You don’t have to make this easier for others by sounding brave here."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_11",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Enjoying that moment doesn’t cancel what you’re sad about."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_01",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can appreciate the effort and miss a choice that mattered. Those feelings don’t cancel each other."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_03",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Needing relief from the demands doesn’t mean you don’t value your friends."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_06",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Wanting company and wanting to offer care can both belong in being her sister."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_07",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Appreciating his attention doesn’t remove your need for privacy and choice."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_08",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "The point can deserve a hearing while you also take responsibility for how you spoke."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_09",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can need help without having to perform gratitude every time."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_10",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Not knowing what your capacity will be can be frightening without a new event."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_11",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Enjoying some space doesn’t make his care unwelcome or you uncaring."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_12",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can have those feelings and choose not to explore them with today’s energy."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_01",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Hurt can remain even when someone asks well. We don’t have to blame her to make room for it."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_02",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can judge whether the offer fits. Refusing it doesn’t need to be explained as proving something."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_05",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Both belong to your experience. Enjoyment doesn’t disprove the recovery time you needed."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_07",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can call it a smaller afternoon. We don’t need to give the loss an uplifting name."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_08",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can choose what needs room today without having to prove you appreciate the help."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_09",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "The problem can be real, and recognizing how you’ve treated Alex can matter as well."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_10",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You didn’t need confidence to make a valid request for an adjustment."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_11",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Ending at your energy limit can be a choice to respect, even with something left unfinished."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_12",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-mia",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Both are true. Being heard matters without having to change the physical limit."
+    },
+    {
       "id": "dp_providing-treatment-rationale_case-arne_easy_02",
       "skillId": "providing-treatment-rationale",
       "caseId": "case-arne",
@@ -236,6 +411,48 @@
       "caseId": "case-arne",
       "rule": "treatment_rationale_missing_explanatory_language",
       "suggestion": "Let’s start there. Emotional exploration is optional; practical support can be useful without a deeper memory first."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-mia_easy_09",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-mia",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "We could choose one small piece and stop when you need. Resting instead is also an option."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-mia_moderate_01",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-mia",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "We could understand what it protects or asks for, without treating every angry reaction as helpful."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-mia_moderate_03",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-mia",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "We could hear what each part wants in one real moment, rather than decide that one is wrong."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-mia_moderate_04",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-mia",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "Stopping gives us information about the pace you need. The work isn’t to keep going for my sake."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-mia_hard_02",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-mia",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "Description may not be what you need today. We could explore one live moment, or choose practical support instead."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-mia_hard_05",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-mia",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "They don’t need to compete for that title. We could listen to each and see what you recognize."
     }
   ]
 }

@@ -1602,5 +1602,403 @@
       "suggestion": "The gratitude can stand alongside what was difficult. Neither needs to cancel the other.",
       "difficulty": "hard"
     }
+  ],
+  "case-mia": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Embarrassed] I cried over putting away a pencil. It sounds so small.",
+      "suggestion": "That pencil belongs to something you love. Having to stop can hurt, however small the object is.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Angry] I shouldn’t be this upset about Alex opening a jar.",
+      "suggestion": "Wanting help to leave room for your choice is understandable. The jar was part of that moment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Ashamed] Everyone else stands through the tour. I feel awkward sitting.",
+      "suggestion": "You’re responding to a real limit. Needing a seat doesn’t make your contribution less worthwhile.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Guilty] Alex is kind, and I still want him to ask first.",
+      "suggestion": "His kindness and your wish to be asked can both matter.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Frustrated] I get angry when people tell me I look well.",
+      "suggestion": "When that means they overlook your limits, the anger makes sense.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Sad] I know other people have it worse. I still miss my old evenings.",
+      "suggestion": "Other people’s difficulties don’t erase the evenings you’ve lost.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Self-critical] I cancelled again. I must be such a disappointing friend.",
+      "suggestion": "You wanted to go and couldn’t manage it. Having to cancel doesn’t say how much you care about them.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Hesitant] Is it selfish to want the quiet hour for drawing?",
+      "suggestion": "Wanting some of your available energy for something you love is understandable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Uneasy] I told Sam I needed a shorter meeting. I feel demanding.",
+      "suggestion": "You gave him information about what you could manage. That need deserves to be heard.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Tearful] I’m tired of being brave about it.",
+      "suggestion": "You don’t have to make this easier for others by sounding brave here.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Uncertain] I felt happy at work. Does that make the sadness less real?",
+      "suggestion": "Enjoying that moment doesn’t cancel what you’re sad about.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Firm] Today I want practical help, not a deep conversation.",
+      "suggestion": "Choosing practical help today makes sense. You can tell us what kind of work would be useful.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Guilty] Alex did the shopping. I thanked him, but I missed choosing things myself.",
+      "suggestion": "You can appreciate the effort and miss a choice that mattered. Those feelings don’t cancel each other.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Embarrassed] I want the seat, but I hate being singled out by it.",
+      "suggestion": "It makes sense to need the adjustment and want to belong without becoming the focus.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Self-critical] I’m relieved to miss the party. A good friend wouldn’t be.",
+      "suggestion": "Needing relief from the demands doesn’t mean you don’t value your friends.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Angry] I shouldn’t have to give a presentation on my illness to get a shorter meeting.",
+      "suggestion": "Wanting an adjustment without repeatedly proving your need is understandable.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Sad, smiles] It’s only a drawing. But I wanted to finish it myself.",
+      "suggestion": "It holds your wish to make something of your own. That wish deserves room alongside the limit.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Ashamed] I asked Ella to stay. Then I wished I could be the one looking after her.",
+      "suggestion": "Wanting company and wanting to offer care can both belong in being her sister.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Uneasy] I’m glad Sam noticed, but I don’t want him checking me all day.",
+      "suggestion": "Appreciating his attention doesn’t remove your need for privacy and choice.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Guilty] I spoke sharply. I had a point, though.",
+      "suggestion": "The point can deserve a hearing while you also take responsibility for how you spoke.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Tearful] I don’t want gratitude to be the price of being helped.",
+      "suggestion": "You can need help without having to perform gratitude every time.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Worried] I’m scared about next month, although nothing new has happened.",
+      "suggestion": "Not knowing what your capacity will be can be frightening without a new event.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Hesitant] I liked having the house to myself, even though Alex was helping outside.",
+      "suggestion": "Enjoying some space doesn’t make his care unwelcome or you uncaring.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Firm, tired] I have feelings about it. I just can’t work on them today.",
+      "suggestion": "You can have those feelings and choose not to explore them with today’s energy.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Ashamed] Ella asked properly. I still felt hurt. That makes me unfair, doesn’t it?",
+      "suggestion": "Hurt can remain even when someone asks well. We don’t have to blame her to make room for it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Firm] I’m not refusing help to prove a point. That help doesn’t fit.",
+      "suggestion": "You can judge whether the offer fits. Refusing it doesn’t need to be explained as proving something.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Guilty] I regret being sharp. Please don’t tell me it was all justified by the pain.",
+      "suggestion": "Regretting the tone makes sense too. Your pain deserves care without excusing every word.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Quietly] I wanted my effort noticed. I hate the usual praise for it.",
+      "suggestion": "Wanting recognition doesn’t oblige you to welcome praise that misses what matters to you.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Uneasy] The good day was real. So was needing two quiet days afterwards.",
+      "suggestion": "Both belong to your experience. Enjoyment doesn’t disprove the recovery time you needed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Dry laugh] I want ordinary complaints. Not everything I say to become “about the illness.”",
+      "suggestion": "You deserve room for ordinary frustrations without every one being reduced to your diagnosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Sad] I’m not ready to call this a new beginning. It’s a smaller afternoon.",
+      "suggestion": "You can call it a smaller afternoon. We don’t need to give the loss an uplifting name.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Hesitant] I can be grateful and not want to talk about gratitude today.",
+      "suggestion": "You can choose what needs room today without having to prove you appreciate the help.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Angry, uncertain] I’m upset about a real problem. I’m also taking some of it out on Alex.",
+      "suggestion": "The problem can be real, and recognizing how you’ve treated Alex can matter as well.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Quietly] I asked for the chair without feeling confident. It still needed asking.",
+      "suggestion": "You didn’t need confidence to make a valid request for an adjustment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Tired] I want to leave something unfinished without it being called avoidance.",
+      "suggestion": "Ending at your energy limit can be a choice to respect, even with something left unfinished.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Moved, guarded] Being believed helps. It doesn’t fix my hands.",
+      "suggestion": "Both are true. Being heard matters without having to change the physical limit.",
+      "difficulty": "hard"
+    }
   ]
 }

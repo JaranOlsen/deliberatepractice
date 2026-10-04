@@ -1,0 +1,171 @@
+{
+  "id": "mastery-mia-help-and-choice-moderate",
+  "type": "mastery",
+  "caseId": "case-mia",
+  "difficulty": "moderate",
+  "supportedLevels": [
+    "moderate"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Mia · Hjelp uten å ta over",
+  "orientation": "Tolv sammenhengende øyeblikk om hjelp, valg og å bli hørt. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "scenes": [
+    {
+      "id": "mastery_mia_moderate_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-mia_moderate_01",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Hjelp fra Alex vekker takknemlighet og en tapt mulighet til å svare.",
+      "prompt": "Speil begge betydningene av hjelpen.",
+      "text": "[Smiler svakt] Alex mener det godt. Jeg er takknemlig helt til han begynner å svare for meg.",
+      "suggestion": "Du ønsker omsorgen hans, og mister noe viktig når ditt eget svar blir erstattet."
+    },
+    {
+      "id": "mastery_mia_moderate_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-mia_moderate_03",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "bridge": "Mia spør hvordan utforskning kan hjelpe med blandede følelser.",
+      "prompt": "Forklar å lytte til begge ønsker uten å dømme bort det ene.",
+      "text": "[Usikker] En del av meg vil ha hjelp. En del hater å bli hjulpet. Hvordan rydder samtalen i det?",
+      "suggestion": "Vi kan høre hva hver del ønsker i ett konkret øyeblikk, heller enn å bestemme at én er feil."
+    },
+    {
+      "id": "mastery_mia_moderate_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-mia_moderate_01",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "bridge": "En annen hjelpsom handling lar et valg mangle.",
+      "prompt": "Valider verdsettelsen sammen med valget hun savner.",
+      "text": "[Skyldfull] Alex handlet. Jeg takket ham, men savnet å velge ting selv.",
+      "suggestion": "Du kan sette pris på innsatsen og savne et valg som betydde noe. Følelsene opphever ikke hverandre."
+    },
+    {
+      "id": "mastery_mia_moderate_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-mia_moderate_02",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "bridge": "Mia skiller ønsket om tilbudet fra måten det kom på.",
+      "prompt": "Spør om den vanskelige delen av tilbudet.",
+      "text": "[Lavt] Jeg ville ikke at tilbudet skulle slutte. Bare ... noe ved måten det kom på.",
+      "suggestion": "Hva ved måten han tilbød seg på, kjentes vanskelig?"
+    },
+    {
+      "id": "mastery_mia_moderate_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-mia_moderate_02",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "bridge": "Et ønske om å få bestemme er til stede, fulgt av selvkritikk.",
+      "prompt": "Gi ønsket plass før dere vurderer tonen.",
+      "text": "[Sint, nølende] Jeg vil ha noe å si. Så hører jeg meg selv høres utakknemlig ut.",
+      "suggestion": "Kan ønsket om å få bestemme få et øyeblikk, før vi vurderer tonen?"
+    },
+    {
+      "id": "mastery_mia_moderate_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-mia_moderate_01",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "bridge": "I et annet øyeblikk kan Mia beskrive oppgavene, men ikke stillheten sin.",
+      "prompt": "Tilby én tentativ betydning og gi rom for korrigering.",
+      "text": "[Raskt] Jeg kan liste opp akkurat hva Alex gjorde. Jeg kan ikke forklare hvorfor jeg ble stille.",
+      "suggestion": "Kanskje hjelpen var nyttig, mens det å ikke bli spurt fikk deg til å føle deg mindre inkludert?"
+    },
+    {
+      "id": "mastery_mia_moderate_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-mia_moderate_01",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "bridge": "Hun beskriver å være bak den hjelpsomme handlingen.",
+      "prompt": "Gjør beskrivelsen nærere uten å gjøre den større.",
+      "text": "[På avstand] Alex gjør det hjelpsomme. Jeg er et sted bak det og blir sur.",
+      "suggestion": "Er det som om oppgaven går videre mens muligheten din til å velge blir liggende igjen?"
+    },
+    {
+      "id": "mastery_mia_moderate_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-mia_moderate_02",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "Et ønske om å få bestemme går over til å unnskylde Alex.",
+      "prompt": "Behold omsorgen hans i bildet mens du inviterer tilbake til opplevelsen hennes.",
+      "text": "[Sint, så unnskylder] Jeg ville få bestemme. Men Alex hadde en travel dag, så glem det.",
+      "suggestion": "Dagen hans kan også bety noe. Vil du gå tilbake til hva det betydde å få bestemme der?"
+    },
+    {
+      "id": "mastery_mia_moderate_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-mia_moderate_02",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "bridge": "Et senere øyeblikk er sint og tårefylt, mens Mia fortsatt er til stede.",
+      "prompt": "Lytt etter det hun vil ha hørt uten å øke tempoet.",
+      "text": "[Sint, skjelvende stemme] Jeg vil at du hører dette. Jeg er redd du bare hører sinnet.",
+      "suggestion": "Jeg lytter etter det du vil ha hørt, ikke bare sinnet. Vi kan ta det langsomt."
+    },
+    {
+      "id": "mastery_mia_moderate_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-mia_moderate_08",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Et annet øyeblikk viser hva det koster at tilbudene stopper helt.",
+      "prompt": "Speil valget hun ønsket og hjelpen hun savner.",
+      "text": "[Sint, så skyldfull] Jeg ville at Alex lot plantene være. Nå tilbyr han seg ikke i det hele tatt.",
+      "suggestion": "Du ville få velge om den hjelpen, og savner nå at den blir tilbudt."
+    },
+    {
+      "id": "mastery_mia_moderate_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-mia_moderate_07",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Mia finner en forskjell i hjelpen hun ønsker.",
+      "prompt": "Undersøk hva de nye ordene tydeliggjør.",
+      "text": "[Lettet] «Spør, så vent» er det jeg mente. Jeg mener ikke at han aldri skal hjelpe.",
+      "suggestion": "Hva tydeliggjør de ordene om hjelpen du vil ha?"
+    },
+    {
+      "id": "mastery_mia_moderate_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-mia_moderate_02",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "Tiden er snart ute; om ordene skal brukes, er fortsatt hennes valg.",
+      "prompt": "Avslutt uten å gjøre forespørselen til en hjemmeoppgave.",
+      "text": "[Lavt] Jeg fant ord til Alex, men vet ikke om jeg vil bruke dem i kveld.",
+      "suggestion": "Du trenger ikke bruke dem i kveld. Skal vi notere dem og se hva som heller passer for kvelden din?"
+    }
+  ]
+}

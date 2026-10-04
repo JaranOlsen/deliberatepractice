@@ -1602,5 +1602,403 @@
       "suggestion": "Det du ønsker, kan kjennes forskjellig fra dag til dag, og det gjør deg usikker på hvordan du skal forstå deg selv.",
       "difficulty": "hard"
     }
+  ],
+  "case-mia": [
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Trist] Jeg pleide å tegne hele kvelden. Nå legger jeg fra meg blyanten før jeg har lyst.",
+      "suggestion": "Du har fortsatt lyst til å tegne, og det gjør vondt å måtte stoppe før du er ferdig.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Frustrert] Alex åpnet glasset før jeg hadde spurt. Jeg ville prøve selv.",
+      "suggestion": "Du ville få bestemme om du trengte hjelp.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sint] De så meg le under lunsjen og antok at jeg kunne jobbe hele ettermiddagen.",
+      "suggestion": "At du var i godt humør, ble tatt som et tegn på overskudd du ikke hadde.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] Jeg er redd for å lage planer. Jeg vet ikke hvordan morgendagen blir.",
+      "suggestion": "Du vil ha noe å glede deg til, uten å vite om du vil orke det.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Med tårer] Jeg savner å være den som tilbød seg å hjelpe.",
+      "suggestion": "Du savner den kjente måten å bidra på.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lettet] Sam spurte hva som ville hjelpe, i stedet for å bestemme for meg.",
+      "suggestion": "Det var en lettelse at ditt eget svar fikk betydning.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Trist] Ella mente det godt. Men da hun sa at jeg så frisk ut, følte jeg meg helt alene.",
+      "suggestion": "Ordene hennes lot det vanskelige ved dagen din bli usynlig.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sliten] Å forklare hvorfor jeg trenger krakken, tar nesten like mye energi som å stå.",
+      "suggestion": "Selv det å få tilpasningen tar av kreftene du trenger å spare.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Skyldfull] Jeg glefset til Alex. Jeg hadde vondt, men jeg liker ikke måten jeg snakket på.",
+      "suggestion": "Du hadde smerter, og er lei deg for at ordene dine såret ham.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Varmt] I dag forklarte jeg et maleri for en besøkende. En stund følte jeg meg som meg selv.",
+      "suggestion": "Å dele det du kan, ga deg en kjent følelse av å være deg selv.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Skuffet] Jeg hadde lyst til å dra, og jeg måtte bli hjemme. Begge deler var sant.",
+      "suggestion": "Det var nødvendig å bli hjemme, og du gikk likevel glipp av noe du ønsket.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Stødig] Jeg vil ha hjelp til å bære vesken. Jeg vil ikke at noen bestemmer hva som skal i den.",
+      "suggestion": "Du vil ha hjelp med vekten, og fortsatt bestemme selv.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Smiler svakt] Alex mener det godt. Jeg er takknemlig helt til han begynner å svare for meg.",
+      "suggestion": "Du ønsker omsorgen hans, og mister noe viktig når ditt eget svar blir erstattet.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] Jeg avlyste og ble lettet. Så så jeg for meg at alle lo uten meg.",
+      "suggestion": "Å bli hjemme ga nødvendig lettelse, sammen med savnet etter å være med.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Raskt, stemmen brister] Tre arbeidsdager er fornuftig. Jeg vet det. Jeg hater at det må være fornuftig.",
+      "suggestion": "Du forstår tilpasningen, og sørger likevel over å måtte gjøre den.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Urolig] Når Sam merker at jeg er sliten, føler jeg meg ivaretatt og overvåket.",
+      "suggestion": "Oppmerksomheten hans kan være støttende og samtidig gjøre deg sårbar for andres blikk.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Tørr latter] Jeg er den pålitelige. Bortsett fra at jeg ikke kan si sikkert om jeg kommer.",
+      "suggestion": "Det betyr fortsatt noe å være pålitelig, mens kreftene dine ikke lar seg styre av et løfte.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Frustrert] Ella sier at jeg skal spørre. Så føler jeg at hele besøket blir mine behov.",
+      "suggestion": "Du vil kunne spørre uten å miste det gjensidige i å være søstre.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Trist, så trekker på skuldrene] Jeg tegner fortsatt. Bare mindre. Så jeg burde vel ikke klage?",
+      "suggestion": "Tegningen er der fortsatt, og det du har mistet av den, gjør likevel vondt.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sint, så skyldfull] Jeg ville at Alex lot plantene være. Nå tilbyr han seg ikke i det hele tatt.",
+      "suggestion": "Du ville få velge om den hjelpen, og savner nå at den blir tilbudt.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Nøler] Jeg liker en god dag. Jeg stoler nesten ikke på den.",
+      "suggestion": "Det er vanskeligere å nyte dagen når du ikke kan regne med at den neste blir slik.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] De roste meg for å klare omvisningen. Jeg ville at de la merke til maleriet.",
+      "suggestion": "Du ville at arbeidet ditt ble sett, ikke bare innsatsen for å holde ut.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Anspent] Jeg er sint på grunn av stolen, men vil ikke bli den sinte på jobb.",
+      "suggestion": "Du trenger respekt for grensen og er redd for at protesten blir alt de ser.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Varm, så usikker] Alex ventet på at jeg valgte. Jeg likte det, men det kjentes merkelig langsomt.",
+      "suggestion": "Det var godt å få bestemme, og uvant nok til at det også kjentes litt rart.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] Jeg ville ha ham der. Jeg ville ikke at han gjorde alt. Jeg får det ikke sagt på en vennlig måte.",
+      "suggestion": "Du vil ha selskapet hans og rom til å velge, og strever med å si begge deler uten å såre ham.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Retter, så pause] Ikke hjelpeløs. Lei av å forklare. Det er en forskjell.",
+      "suggestion": "Det er de gjentatte forklaringene som sliter deg ut, ikke en følelse av at du ikke kan gjøre noe.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Tørt] Jeg ville at maleriet ble lagt merke til. Jeg ville også at noen merket at jeg klarte å være der.",
+      "suggestion": "Du ville at arbeidet ble sett og innsatsen for å være der forstått, uten at det ene erstattet det andre.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Nøler] Ella spurte først. Jeg strittet likevel imot. Jeg har ingen ryddig grunn.",
+      "suggestion": "Selv det å bli spurt gjorde ikke øyeblikket lett, og du vet ennå ikke hva som gjorde det vanskelig.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Flatt] Hvile var riktig. Det var ikke godt. Ikke gjør det til noe godt.",
+      "suggestion": "Det var det nødvendige valget, og du mistet likevel en ettermiddag du ønsket.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] Jeg lot tegningen ligge fremme. Jobbet ikke med den, la den ikke bort.",
+      "suggestion": "Du har verken villet fortsette å tegne eller legge den helt bort ennå.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Urolig] Jeg vil at de tror på de dårlige dagene. Jeg vil ikke at det blir hele presentasjonen av meg.",
+      "suggestion": "Du trenger at begrensningene blir trodd, uten å bli bare personen med begrensninger.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Mykt] Alex sluttet å tilby seg. Jeg fikk visst det jeg ba om.",
+      "suggestion": "At tilbudene stoppet, ga deg ikke den hjelpen eller valgfriheten du prøvde å be om.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Varm, på vakt] Museet kjentes som hjemme i dag. Ikke få meg til å forklare hvorfor jeg ikke kan bli lenger der.",
+      "suggestion": "I dag var det tilhørighet. Du vil at det blir hørt uten å måtte forsvare tidsgrensen din.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] Jeg er sint på Ella, og det er ikke bare fordi hun gjorde feil.",
+      "suggestion": "Sinnet er virkelig og passer ikke i en enkel historie om at Ella gjorde noe galt.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sliten] Jeg vet ikke om jeg beskytter meg eller stenger alle ute i kveld.",
+      "suggestion": "Du trenger noe annerledes i kveld, men er ikke sikker på hvilken avstand som ville hjelpe.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Nesten hvisker] Jeg er fortsatt meg. Det kjennes sant og ikke nok å si det.",
+      "suggestion": "Det betyr noe at du fortsatt er deg, og de ordene rommer ikke alt du har mistet.",
+      "difficulty": "hard"
+    }
   ]
 }

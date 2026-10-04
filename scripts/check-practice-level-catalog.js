@@ -5,6 +5,8 @@ async page => {
  const cases=[
   {name:'Sara-only server',exercises:['mastery-sara-evenings'],arne:false},
   {name:'Partial Leo server',exercises:['mastery-sara-evenings','mastery-arne-ordinary-days-moderate','mastery-arne-ordinary-days-hard'],arne:true},
+  {name:'Partial Mia server',exercises:['mastery-sara-evenings','mastery-mia-help-and-choice-moderate','mastery-mia-help-and-choice-hard'],mia:true},
+  {name:'Wrong Mia revision',exercises:['mastery-sara-evenings','mastery-mia-help-and-choice-easy'],wrong:true,mia:false},
   {name:'Wrong Leo revision',exercises:['mastery-sara-evenings','mastery-arne-ordinary-days-easy'],wrong:true,arne:false}
  ];
  const stub=`
@@ -26,7 +28,7 @@ async page => {
   const context=await page.context().browser().newContext({viewport:{width:320,height:844}});
   try {
    const p=await context.newPage();p.on('pageerror',e=>errors.push(e.message));
-   const capability={protocol:'guided-mastery-v1',exercises:test.exercises.map(id=>({id,revision:test.wrong&&id.includes('arne')?'older-revision':'2026-10-04-v4'}))};
+   const capability={protocol:'guided-mastery-v1',exercises:test.exercises.map(id=>({id,revision:test.wrong&&!id.includes('sara')?'older-revision':'2026-10-04-v4'}))};
    await context.addInitScript(()=>localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:'en',practiceMode:'group',groupUiVersion:2})));
    await context.route('**/src/js/backend.js*',route=>route.fulfill({contentType:'text/javascript',body:stub.replace('CAPABILITY','('+JSON.stringify(capability)+')')}));
    await p.goto(url);await p.waitForFunction(()=>document.getElementById('account-button').textContent==='Account');
@@ -34,9 +36,12 @@ async page => {
    assert(await p.locator('#mastery-library [data-exercise-id="mastery-sara-evenings"]').count()===1,test.name+': Sara is supported');
    const arne=p.locator('#mastery-library [data-exercise-id^="mastery-arne"]');
    assert(await arne.count()===(test.arne?1:0),test.name+': unsupported variants are hidden');
-   if(test.arne){
-    assert(await arne.getAttribute('data-exercise-id')==='mastery-arne-ordinary-days-moderate','Only supported levels determine the default');
-    assert((await arne.textContent()).includes('2 levels'),'Card reports available levels accurately');await arne.click();
+   const mia=p.locator('#mastery-library [data-exercise-id^="mastery-mia"]');
+   assert(await mia.count()===(test.mia?1:0),test.name+': unsupported Mia variants are hidden');
+   if(test.arne||test.mia){
+    const card=test.mia?mia:arne;
+    assert(await card.getAttribute('data-exercise-id')===(test.mia?'mastery-mia-help-and-choice-moderate':'mastery-arne-ordinary-days-moderate'),'Only supported levels determine the default');
+    assert((await card.textContent()).includes('2 levels'),'Card reports available levels accurately');await card.click();
     await p.locator('#mastery-use-room').waitFor();assert(await p.locator('.practice-level-options button').count()===2,'Only available levels can be chosen');
     assert(await p.locator('[data-practice-level="easy"]').count()===0,'Unavailable Easy is absent');
     await p.locator('[data-practice-level="hard"]').click();await p.waitForFunction(()=>document.querySelector('[data-practice-level="hard"]')?.getAttribute('aria-pressed')==='true');

@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-10-04T13:00:58.565Z",
+  "generatedAt": "2026-10-04T13:39:24.080Z",
   "revision": "2026-10-04-v4",
   "status": {
-    "totalItems": 1728,
-    "translatedCount": 1728,
+    "totalItems": 2124,
+    "translatedCount": 2124,
     "reviewStatusCounts": {
       "approved": 1296,
-      "pending": 432
+      "pending": 828
     },
     "duplicateStatementCount": 0,
-    "skillPurityWarningCount": 33,
-    "reviewQueueCount": 33,
+    "skillPurityWarningCount": 64,
+    "reviewQueueCount": 64,
     "qaClean": false
   },
   "artifacts": {

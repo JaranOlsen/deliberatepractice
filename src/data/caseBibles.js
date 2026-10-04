@@ -1,3 +1,4 @@
+import {MIA_BIBLE} from './miaCase.js';
 import {ARNE_BIBLE} from './arneCase.js';
 "use strict";
 
@@ -337,3 +338,4 @@ export const CASE_BIBLES = {
   }
 };
 CASE_BIBLES['case-arne'] = ARNE_BIBLE;
+CASE_BIBLES['case-mia'] = MIA_BIBLE;

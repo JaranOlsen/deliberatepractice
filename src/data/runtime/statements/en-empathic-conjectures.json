@@ -1746,5 +1746,439 @@
       "suggestion": "Perhaps the ordinary trace in the recipe brought her close in a different way. Does it feel that way, or not?",
       "difficulty": "hard"
     }
+  ],
+  "case-mia": [
+    {
+      "id": "dp_empathic-conjectures_case-mia_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] Alex carried the bag. I thanked him and then went very quiet.",
+      "suggestion": "I wonder if accepting the help brought some sadness too. Does that fit?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Hesitant] I keep explaining that I’m not always this tired.",
+      "suggestion": "Perhaps you want people to see more of you than the tiredness?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Frowning] Ella says “don’t worry, I’ll do it,” and I get sharp.",
+      "suggestion": "Could part of that sharpness be wanting a say in how it’s done?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Thoughtful] I still bring my sketchbook, even when I don’t use it.",
+      "suggestion": "I wonder if having it there keeps drawing as part of your day?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] I stayed after the tour just to talk about the painting.",
+      "suggestion": "Perhaps being part of the conversation mattered beyond finishing the work?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Uneasy] I say yes quickly when someone asks how I am.",
+      "suggestion": "Could you be trying to avoid having to explain the whole day?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Hesitant] Sam remembered the chair. I didn’t know what to say.",
+      "suggestion": "Maybe not having to ask again felt unexpectedly caring?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] I put the pencil away so Alex wouldn’t see it there.",
+      "suggestion": "I wonder if you wanted to keep the disappointment to yourself?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Pauses] I want visitors, but I worry about the tidying first.",
+      "suggestion": "Perhaps you want the company without having to spend your energy preparing for it?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Reflective] I smiled when Ella asked me to choose the music.",
+      "suggestion": "Could it have felt good to be asked for something you could offer?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Frowning] I hate the word “inspiring” when people use it about me.",
+      "suggestion": "Maybe you want to be met as a person, without having to stand for a message?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] I didn’t ask Alex to leave. I just needed him to stop doing things.",
+      "suggestion": "I wonder if you wanted his company more than his help then?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Brisk] I can list exactly what Alex did. I can’t explain why I went quiet.",
+      "suggestion": "Perhaps the help was useful, while not being asked left you feeling less included?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Dry laugh] I make jokes about the stool before anyone else can.",
+      "suggestion": "I wonder if joking lets you choose how people notice it?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] Ella watered the plants. Afterwards I rearranged every pot.",
+      "suggestion": "Could rearranging have been a way of having something there remain yours?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Hesitates] I say the shorter tour is fine. Then I avoid looking at the old route.",
+      "suggestion": "Maybe there’s a loss there that “fine” doesn’t quite have room for?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Reflective] Sam asked for my ideas, and I stayed longer than I’d planned.",
+      "suggestion": "I wonder if being wanted for your ideas made leaving particularly hard?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Uneasy] I leave out the enjoyable parts when I explain a bad week.",
+      "suggestion": "Could you worry that enjoyment would make people doubt how hard the week was?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] I’m relieved when Alex goes out. Then I check when he’ll be back.",
+      "suggestion": "Perhaps you need some space and also the reassurance that you’re not alone with everything?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Brisk] I offered to choose the music. At least that didn’t involve carrying things.",
+      "suggestion": "I wonder if you were finding a way to contribute that felt like you?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Frowning] Everyone says I’m coping. I don’t correct them, but I dislike it.",
+      "suggestion": "Maybe that description leaves you with no easy way to say how hard it is?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Uncertain] I put off asking for help until it becomes obvious I need it.",
+      "suggestion": "Could waiting spare you the difficult moment of having to name the need?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] I want Alex to notice. But when he notices too much, I bristle.",
+      "suggestion": "Perhaps you want to be understood without being continually monitored?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Half-smiles] I told Ella I didn’t need anything. Then I wished she’d stay for tea.",
+      "suggestion": "I wonder if company felt hard to ask for when it wasn’t a practical need?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] I thanked him twice. Then wished I hadn’t made such a performance of it.",
+      "suggestion": "I wonder if you felt you had to make receiving help easier for him? Or is that off?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Flatly] I left the drawing out. It annoys me when Alex tidies it away.",
+      "suggestion": "Could leaving it there keep a choice open, even when you aren’t drawing?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Corrects] Not ashamed of needing the chair. I just don’t want the speech that comes with it.",
+      "suggestion": "Perhaps the unwanted attention is harder than the chair itself?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Hesitates] I want Ella to ask. I don’t always know my answer when she does.",
+      "suggestion": "Maybe you need permission to take time, as well as permission to choose?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Dryly] My good day became everyone’s good news. I went quiet.",
+      "suggestion": "I wonder if their relief left little room for what was still difficult for you?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] I tell Alex to go out, then wish he’d see that I wanted something else.",
+      "suggestion": "Could asking directly for company feel more exposed than asking him to go?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Uneasy] Sam asked me to lead the discussion. I was pleased, then annoyed.",
+      "suggestion": "Perhaps being wanted also brought pressure to give more than you could manage?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Corrects] I don’t need an easier hobby. That’s not what the drawing was about.",
+      "suggestion": "I wonder if drawing held a part of your life that a replacement wouldn’t simply fill?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Softly] I stayed quiet because I couldn’t bear another helpful answer.",
+      "suggestion": "Maybe you wanted someone to hear the difficulty without immediately changing it?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Thoughtful] I know the shorter tour works. I haven’t told anyone what I miss in it.",
+      "suggestion": "Could saying what you miss feel risky, as if it might sound like rejecting the adjustment?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] I wanted my effort noticed. When it was, I wanted to hide.",
+      "suggestion": "I wonder if recognition felt good until it made you too visible? Does that catch any of it?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-mia_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Tired] I keep saying “I’m fine” here too. You’re not asking me to.",
+      "suggestion": "Could that familiar answer arrive before you’ve had time to decide what you want to share?",
+      "difficulty": "hard"
+    }
   ]
 }
