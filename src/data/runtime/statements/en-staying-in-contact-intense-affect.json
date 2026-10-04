@@ -1548,8 +1548,8 @@
         "grounding",
         "co_regulation"
       ],
-      "text": "[Tearful] I want to say her name once more. Ingrid.",
-      "suggestion": "Ingrid. We can give her name a moment here.",
+      "text": "[Tearful] I want to say her name once more. Eva.",
+      "suggestion": "Eva. We can give her name a moment here.",
       "difficulty": "easy"
     },
     {
@@ -1861,7 +1861,7 @@
         "co_regulation"
       ],
       "text": "[Crying] If you say she’d want me happy, I’ll stop talking.",
-      "suggestion": "I won’t speak for Ingrid. I can hear how much this hurts now.",
+      "suggestion": "I won’t speak for Eva. I can hear how much this hurts now.",
       "difficulty": "hard"
     },
     {

@@ -2341,6 +2341,7 @@ select, textarea, input[type="text"], input[type="email"] { min-width: 0; max-wi
 
 /* Guided mastery keeps the case identity while individual skill prompts change. */
 .practice-level-choice { border:0; padding:0; margin:0 0 1rem; min-width:0; }
+.case-levels { display:block; margin-top:.4rem; font-size:.8rem; font-weight:600; color:var(--card-accent-strong); }
 .practice-level-choice legend { font-weight:600; padding:0; margin-bottom:.5rem; }
 .practice-level-options { display:flex; flex-wrap:wrap; gap:.5rem; }
 .practice-level-options button { flex:1 1 4.5rem; min-width:0; min-height:44px; padding:.6rem .4rem; white-space:normal; }

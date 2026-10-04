@@ -1335,7 +1335,7 @@
         "normalize_experiential_work"
       ],
       "text": "[Curious] How would talking about guilt help me enjoy the workshop?",
-      "suggestion": "We could explore what enjoying it seems to say about your love for Ingrid, and see whether that meaning fits.",
+      "suggestion": "We could explore what enjoying it seems to say about your love for Eva, and see whether that meaning fits.",
       "difficulty": "easy"
     },
     {
@@ -1418,7 +1418,7 @@
         "offer_rationale",
         "normalize_experiential_work"
       ],
-      "text": "[Worried] Is this about learning to forget Ingrid?",
+      "text": "[Worried] Is this about learning to forget Eva?",
       "suggestion": "No. We can work on living these days while making room for what she means to you.",
       "difficulty": "easy"
     },
@@ -1479,7 +1479,7 @@
         "normalize_experiential_work"
       ],
       "text": "[Careful] If I feel the relief properly, won’t that make me a worse husband?",
-      "suggestion": "Exploring relief doesn’t decide what kind of husband you were. It may help distinguish wanting rest from not loving Ingrid.",
+      "suggestion": "Exploring relief doesn’t decide what kind of husband you were. It may help distinguish wanting rest from not loving Eva.",
       "difficulty": "moderate"
     },
     {
@@ -1503,7 +1503,7 @@
         "normalize_experiential_work"
       ],
       "text": "[Unsure] Why pay attention to anger? I don’t want to blame her.",
-      "suggestion": "Anger may tell us about strain or an unmet need. Hearing it needn’t turn Ingrid into the problem; we can check what it actually means.",
+      "suggestion": "Anger may tell us about strain or an unmet need. Hearing it needn’t turn Eva into the problem; we can check what it actually means.",
       "difficulty": "moderate"
     },
     {
@@ -1562,7 +1562,7 @@
         "offer_rationale",
         "normalize_experiential_work"
       ],
-      "text": "[Uncertain] Naming a need sounds easy. Asking Liv is another matter.",
+      "text": "[Uncertain] Naming a need sounds easy. Asking Emma is another matter.",
       "suggestion": "That’s a different step. Here we can find words that fit first, then decide whether or how you want to use them.",
       "difficulty": "moderate"
     },
@@ -1730,7 +1730,7 @@
         "offer_rationale",
         "normalize_experiential_work"
       ],
-      "text": "[Careful] Don’t make a picture of Ingrid and tell me to talk to it.",
+      "text": "[Careful] Don’t make a picture of Eva and tell me to talk to it.",
       "suggestion": "I won’t. No imagined conversation is required. We can work in ways you choose, including simply talking with me.",
       "difficulty": "hard"
     },

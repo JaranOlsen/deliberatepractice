@@ -14,7 +14,7 @@ test('level selection remembers only supported choices and does not carry levels
  assert.equal(resolveCaseLevel({id:'case-sara',difficulty:'easy'},'hard',{'case-sara':'hard'}),'easy');
  assert.equal(levelLabel('no','moderate'),'Moderat');assert.equal(levelLabel('no','hard'),'Vanskelig');
 });
-test('Arne has exactly 396 distinct bilingual focused pairs with level-specific stable identities',()=>{
+test('Leo has exactly 396 distinct bilingual focused pairs with level-specific stable identities',()=>{
  const ids=new Set();let count=0;
  for(const skill of ARNE_SKILLS){
   const items=ARNE_STATEMENTS[skill]['case-arne'];assert.equal(items.length,36);

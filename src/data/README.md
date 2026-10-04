@@ -10,7 +10,7 @@ This directory contains both hand-edited runtime source files and generated QA a
 - `statements.js`: English source of truth for practice statements and suggested responses.
 - `translations.js`: UI strings, Norwegian skill/case overrides, and Norwegian statement localizations.
 - `skillExtensions.js`: the three additional skill guides and Sara banks (only supported case/skill combinations appear).
-- `arneCase.js`: Arne's shared bilingual history, voice and editorial constraints; `arneEasy.js`, `arneModerate.js`, `arneHard.js`: twelve bilingual client/example pairs per offered skill at each level. `arneContent.js` assembles them under stable level-specific IDs.
+- `arneCase.js`: Leo's shared bilingual history, voice and editorial constraints; `arneEasy.js`, `arneModerate.js`, `arneHard.js`: twelve bilingual client/example pairs per offered skill at each level. `arneContent.js` assembles them under stable level-specific IDs.
 - `masteryExercises.js`, `arneMastery.js`: ordered bilingual mastery scenes and their source-item references. Mastery has distinct scene IDs and ratings.
 - `glossary.js`: terms surfaced in the app glossary.
 - `contentMeta.js`: content revision, production skill order, benchmark mapping, review statuses, and risk/QA taxonomies.
@@ -48,6 +48,6 @@ These were obsolete accidental snapshots. They were not imported by the app or b
 
 Use this order for content passes: marker suitability, response skill purity, Norwegian naturalness. Keep stable IDs and the existing data shape unless the app schema is intentionally changed.
 
-The original twelve skills retain twelve items for each of nine fixed-level cases (1,296 pairs). Three extensions add 36 Sara pairs. Arne adds eleven skills × three levels × twelve pairs (396), for 1,728 focused bilingual pairs in total. Unsupported combinations stay hidden. Four mastery sequences add 48 bilingual scenes: Sara Easy plus Arne Easy/Moderate/Hard.
+The original twelve skills retain twelve items for each of nine fixed-level cases (1,296 pairs). Three extensions add 36 Sara pairs. Leo adds eleven skills × three levels × twelve pairs (396), for 1,728 focused bilingual pairs in total. Unsupported combinations stay hidden. Four mastery sequences add 48 bilingual scenes: Sara Easy plus Leo Easy/Moderate/Hard.
 
-Both the client statement and example response require a complete Norwegian translation; `validate:content` enforces coverage and non-empty fields. Fixed-level IDs stay unchanged. Variable-level IDs include the level, so history and resumed rounds cannot confuse different versions. A new level bank must also be registered in the private server catalog for separate-device practice. Items 11–12 of the original banks were added in the [October 2026 expansion](../md/content-expansion-2026-10-02.md). The new-case comparison packet is [Arne's level review](../md/arne-level-content-review.md).
+Both the client statement and example response require a complete Norwegian translation; `validate:content` enforces coverage and non-empty fields. Fixed-level IDs stay unchanged. Variable-level IDs include the level, so history and resumed rounds cannot confuse different versions. A new level bank must also be registered in the private server catalog for separate-device practice. Items 11–12 of the original banks were added in the [October 2026 expansion](../md/content-expansion-2026-10-02.md). The new-case comparison packet is [Leo's level review](../md/arne-level-content-review.md).

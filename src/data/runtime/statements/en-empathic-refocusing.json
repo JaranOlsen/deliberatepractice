@@ -181,7 +181,7 @@
         "invite_return",
         "respect_choice"
       ],
-      "text": "[Softly, then listing] I wanted company. Knut’s busy, Liv works, the neighbors—",
+      "text": "[Softly, then listing] I wanted company. Tom’s busy, Emma works, the neighbors—",
       "suggestion": "Before we list everyone’s schedules, would you like to hear that wish for company a little more?",
       "difficulty": "easy"
     },
@@ -259,7 +259,7 @@
         "invite_return",
         "respect_choice"
       ],
-      "text": "[Soft, then self-critical] I wanted Liv to stay. That’s enough of my complaints.",
+      "text": "[Soft, then self-critical] I wanted Emma to stay. That’s enough of my complaints.",
       "suggestion": "Wanting her to stay doesn’t have to be a complaint. Would you like to hear that wish before leaving it?",
       "difficulty": "easy"
     },
@@ -350,7 +350,7 @@
         "invite_return",
         "respect_choice"
       ],
-      "text": "[Voice catches, then brisk] I wanted Liv to notice. But she’s busy, let’s discuss her job.",
+      "text": "[Voice catches, then brisk] I wanted Emma to notice. But she’s busy, let’s discuss her job.",
       "suggestion": "Her job matters. Before we move there, do you want a moment with wanting her to notice?",
       "difficulty": "moderate"
     },
@@ -363,7 +363,7 @@
         "invite_return",
         "respect_choice"
       ],
-      "text": "[Frowning, then laughing] I’m angry when they speak for Ingrid. Well, everyone’s an expert.",
+      "text": "[Frowning, then laughing] I’m angry when they speak for Eva. Well, everyone’s an expert.",
       "suggestion": "There’s humor and anger here. Would you like to hear what your anger is saying?",
       "difficulty": "moderate"
     },
@@ -519,7 +519,7 @@
         "invite_return",
         "respect_choice"
       ],
-      "text": "[Quiet, then listing] I missed having help. But Liv’s shifts are long, Knut’s knee—",
+      "text": "[Quiet, then listing] I missed having help. But Emma’s shifts are long, Tom’s knee—",
       "suggestion": "Those limits are real. Before considering them, would hearing what help you wanted be useful?",
       "difficulty": "hard"
     },
@@ -558,7 +558,7 @@
         "invite_return",
         "respect_choice"
       ],
-      "text": "[Quiet, then explaining] I wanted Liv to stay. In our family we’ve always made a lot of showing up—",
+      "text": "[Quiet, then explaining] I wanted Emma to stay. In our family we’ve always made a lot of showing up—",
       "suggestion": "Would you like a moment with your own wish before the broader explanation, or does the history help you today?",
       "difficulty": "hard"
     },

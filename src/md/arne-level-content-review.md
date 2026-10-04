@@ -1,17 +1,17 @@
-# Arne — level comparison for editorial review
+# Leo — level comparison for editorial review
 
 Unblinded samples from all eleven offered skills at each level. These are starting points for an independent read-aloud and skill-fit review; all 396 pairs remain pending in the content registry. Full banks: [Easy](../data/arneEasy.js), [Moderate](../data/arneModerate.js), [Hard](../data/arneHard.js). The first item is shown consistently to make the three versions easy to compare.
 
-Review whether the client sounds like Arne, the response demonstrates the named skill, Norwegian preserves choice/meaning, and greater difficulty comes from the task rather than added illness. Record any changes against the stable item ID. Separately read each twelve-scene mastery path in order, including after a passed scene.
+Review whether the client sounds like Leo, the response demonstrates the named skill, Norwegian preserves choice/meaning, and greater difficulty comes from the task rather than added illness. Record any changes against the stable item ID. Separately read each twelve-scene mastery path in order, including after a passed scene.
 
 ## Empathic Understanding
 
 ### easy · dp_empathic-understanding_case-arne_easy_01
 
 - English client: [Quietly] I still put two cups out. Seeing hers empty makes me sad.
-- Example: That empty cup brings home how much you miss having Ingrid beside you.
+- Example: That empty cup brings home how much you miss having Eva beside you.
 - Norsk klient: [Lavt] Jeg setter fortsatt frem to kopper. Jeg blir trist av å se hennes stå tom.
-- Eksempel: Den tomme koppen minner deg om hvor mye du savner å ha Ingrid ved siden av deg.
+- Eksempel: Den tomme koppen minner deg om hvor mye du savner å ha Eva ved siden av deg.
 
 ### moderate · dp_empathic-understanding_case-arne_moderate_01
 
@@ -23,9 +23,9 @@ Review whether the client sounds like Arne, the response demonstrates the named 
 ### hard · dp_empathic-understanding_case-arne_hard_01
 
 - English client: [Firmly] The quiet was good. Don’t turn that into wanting her gone.
-- Example: The quiet gave you something you needed. That is different from wanting Ingrid gone, and you need the distinction heard.
+- Example: The quiet gave you something you needed. That is different from wanting Eva gone, and you need the distinction heard.
 - Norsk klient: [Bestemt] Stillheten var god. Ikke gjør det til at jeg ønsket henne bort.
-- Eksempel: Stillheten ga deg noe du trengte. Det er noe annet enn å ønske Ingrid bort, og du trenger at forskjellen blir hørt.
+- Eksempel: Stillheten ga deg noe du trengte. Det er noe annet enn å ønske Eva bort, og du trenger at forskjellen blir hørt.
 
 ## Providing Treatment Rationale for Emotion-Focused Therapy
 
@@ -114,9 +114,9 @@ Review whether the client sounds like Arne, the response demonstrates the named 
 
 ### hard · dp_empathic-explorations_case-arne_hard_01
 
-- English client: [Quietly] That ease is real, but I don’t want it called freedom from Ingrid.
+- English client: [Quietly] That ease is real, but I don’t want it called freedom from Eva.
 - Example: What is the ease like in your own terms, without that label?
-- Norsk klient: [Lavt] Den lettelsen er virkelig, men jeg vil ikke kalle den frihet fra Ingrid.
+- Norsk klient: [Lavt] Den lettelsen er virkelig, men jeg vil ikke kalle den frihet fra Eva.
 - Eksempel: Hvordan er lettelsen med dine egne ord, uten den merkelappen?
 
 ## Empathic Conjectures
@@ -130,16 +130,16 @@ Review whether the client sounds like Arne, the response demonstrates the named 
 
 ### moderate · dp_empathic-conjectures_case-arne_moderate_01
 
-- English client: [Briskly] I don’t tell Liv about the workshop. She still cries when we mention Ingrid.
-- Example: I wonder if you’re protecting Liv from your enjoyment, as though it could hurt her. Does that fit?
-- Norsk klient: [Raskt] Jeg forteller ikke Liv om verkstedet. Hun gråter fortsatt når vi nevner Ingrid.
-- Eksempel: Jeg lurer på om du beskytter Liv mot gleden din, som om den kunne såre henne. Passer det?
+- English client: [Briskly] I don’t tell Emma about the workshop. She still cries when we mention Eva.
+- Example: I wonder if you’re protecting Emma from your enjoyment, as though it could hurt her. Does that fit?
+- Norsk klient: [Raskt] Jeg forteller ikke Emma om verkstedet. Hun gråter fortsatt når vi nevner Eva.
+- Eksempel: Jeg lurer på om du beskytter Emma mot gleden din, som om den kunne såre henne. Passer det?
 
 ### hard · dp_empathic-conjectures_case-arne_hard_01
 
-- English client: [Watchful] I don’t call Knut. Not because I think he’ll reject me. It’s something else.
+- English client: [Watchful] I don’t call Tom. Not because I think he’ll reject me. It’s something else.
 - Example: Might calling feel like admitting how much company you want? Or does that miss it too?
-- Norsk klient: [Oppmerksom] Jeg ringer ikke Knut. Ikke fordi jeg tror han avviser meg. Det er noe annet.
+- Norsk klient: [Oppmerksom] Jeg ringer ikke Tom. Ikke fordi jeg tror han avviser meg. Det er noe annet.
 - Eksempel: Kan det å ringe kjennes som å innrømme hvor mye selskap du ønsker? Eller bommer det også?
 
 ## Empathic Evocations

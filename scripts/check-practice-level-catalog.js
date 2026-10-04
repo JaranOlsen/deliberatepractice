@@ -4,8 +4,8 @@ async page => {
  const assert=(ok,message)=>{if(!ok)throw new Error(message);},errors=[];
  const cases=[
   {name:'Sara-only server',exercises:['mastery-sara-evenings'],arne:false},
-  {name:'Partial Arne server',exercises:['mastery-sara-evenings','mastery-arne-ordinary-days-moderate','mastery-arne-ordinary-days-hard'],arne:true},
-  {name:'Wrong Arne revision',exercises:['mastery-sara-evenings','mastery-arne-ordinary-days-easy'],wrong:true,arne:false}
+  {name:'Partial Leo server',exercises:['mastery-sara-evenings','mastery-arne-ordinary-days-moderate','mastery-arne-ordinary-days-hard'],arne:true},
+  {name:'Wrong Leo revision',exercises:['mastery-sara-evenings','mastery-arne-ordinary-days-easy'],wrong:true,arne:false}
  ];
  const stub=`
   const user={id:'catalog-test',email:'catalog@local.invalid'};

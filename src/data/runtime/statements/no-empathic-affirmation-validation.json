@@ -1246,7 +1246,7 @@
       "criteriaTags": [
         "validate_context"
       ],
-      "text": "[Flau] Jeg ba Knut bli på te. Jeg følte meg masete.",
+      "text": "[Flau] Jeg ba Tom bli på te. Jeg følte meg masete.",
       "suggestion": "Du ønsket selskap etter en ensom dag. Det er forståelig å be en venn bli litt.",
       "difficulty": "easy"
     },
@@ -1257,7 +1257,7 @@
       "criteriaTags": [
         "validate_context"
       ],
-      "text": "[Selvkritisk] Liv har nok å gjøre. Jeg burde ikke savne besøkene hennes så mye.",
+      "text": "[Selvkritisk] Emma har nok å gjøre. Jeg burde ikke savne besøkene hennes så mye.",
       "suggestion": "Besøkene hennes betyr noe for deg. Å savne dem betyr ikke at du ber henne gi opp sitt eget liv.",
       "difficulty": "easy"
     },
@@ -1268,7 +1268,7 @@
       "criteriaTags": [
         "validate_context"
       ],
-      "text": "[Skamfullt] Jeg ble sint da noen sa at Ingrid hadde det bedre nå.",
+      "text": "[Skamfullt] Jeg ble sint da noen sa at Eva hadde det bedre nå.",
       "suggestion": "De ordene møtte ikke tapet ditt. Det er forståelig at du ble sint fremfor trøstet.",
       "difficulty": "easy"
     },
@@ -1357,7 +1357,7 @@
         "validate_context"
       ],
       "text": "[Selvkritisk] Jeg savner henne, men ikke den endeløse ventingen på sykehuset. Jeg burde ikke skille dem.",
-      "suggestion": "Du kan savne Ingrid og ikke savne belastningen ved de besøkene. Det er ikke det samme.",
+      "suggestion": "Du kan savne Eva og ikke savne belastningen ved de besøkene. Det er ikke det samme.",
       "difficulty": "moderate"
     },
     {
@@ -1367,7 +1367,7 @@
       "criteriaTags": [
         "validate_context"
       ],
-      "text": "[Skyldbetynget] Knut hjalp, og så ville jeg at han skulle gå. Jeg er håpløs.",
+      "text": "[Skyldbetynget] Tom hjalp, og så ville jeg at han skulle gå. Jeg er håpløs.",
       "suggestion": "Du kan ønske selskap og senere trenge stillhet. Behov som endrer seg, gjør deg ikke håpløs.",
       "difficulty": "moderate"
     },
@@ -1378,8 +1378,8 @@
       "criteriaTags": [
         "validate_context"
       ],
-      "text": "[Flau] Jeg er irritert på Liv fordi hun er opptatt. Jeg vet at det er urettferdig.",
-      "suggestion": "Du vil ikke gi Liv skylden, og du savner henne. Det vonde fortjener plass selv om du respekterer tiden hennes.",
+      "text": "[Flau] Jeg er irritert på Emma fordi hun er opptatt. Jeg vet at det er urettferdig.",
+      "suggestion": "Du vil ikke gi Emma skylden, og du savner henne. Det vonde fortjener plass selv om du respekterer tiden hennes.",
       "difficulty": "moderate"
     },
     {
@@ -1467,7 +1467,7 @@
         "validate_context"
       ],
       "text": "[Lavt] Jeg vil ha hjelp, men ikke at noen bestemmer hvordan jeg skal huske henne.",
-      "suggestion": "Du kan søke hjelp og beholde retten til å bestemme hvordan du husker Ingrid. Begge deler har plass her.",
+      "suggestion": "Du kan søke hjelp og beholde retten til å bestemme hvordan du husker Eva. Begge deler har plass her.",
       "difficulty": "moderate"
     },
     {
@@ -1554,7 +1554,7 @@
       "criteriaTags": [
         "validate_context"
       ],
-      "text": "[Forsiktig] Liv sørger også. Det betyr ikke at jeg alltid må se ut som om alt er fint.",
+      "text": "[Forsiktig] Emma sørger også. Det betyr ikke at jeg alltid må se ut som om alt er fint.",
       "suggestion": "Sorgen hennes betyr noe, og behovene dine også. Du trenger ikke forsvinne fra forholdet for å beskytte henne.",
       "difficulty": "hard"
     },

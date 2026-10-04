@@ -194,7 +194,7 @@
         "bounded_transition",
         "respect_choice"
       ],
-      "text": "[Steady] I want to return to asking Liv for company next time.",
+      "text": "[Steady] I want to return to asking Emma for company next time.",
       "suggestion": "We’ll note that. Before we finish, what do you need for the transition out of here?",
       "difficulty": "easy"
     },
@@ -233,7 +233,7 @@
         "bounded_transition",
         "respect_choice"
       ],
-      "text": "[Softly] Knut is meeting me outside. A walk would be good.",
+      "text": "[Softly] Tom is meeting me outside. A walk would be good.",
       "suggestion": "That sounds like the transition you want. Shall we leave the work here for today?",
       "difficulty": "easy"
     },
@@ -416,7 +416,7 @@
         "respect_choice"
       ],
       "text": "[Hesitant] Could you remind me what you heard, without a big conclusion?",
-      "suggestion": "Briefly: you loved Ingrid, the care exhausted you, and you want room for both. What fits, or needs changing?",
+      "suggestion": "Briefly: you loved Eva, the care exhausted you, and you want room for both. What fits, or needs changing?",
       "difficulty": "moderate"
     },
     {

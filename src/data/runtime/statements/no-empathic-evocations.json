@@ -1358,7 +1358,7 @@
         "evoke_image",
         "heighten_felt_sense"
       ],
-      "text": "[Flatt] Når Liv går, skrur jeg opp radioen. Den fyller tiden.",
+      "text": "[Flatt] Når Emma går, skrur jeg opp radioen. Den fyller tiden.",
       "suggestion": "Kanskje radioen gir en stemme til rommet som åpner seg når hun går. Passer det, eller ikke helt?",
       "difficulty": "easy"
     },
@@ -1430,7 +1430,7 @@
         "evoke_image",
         "heighten_felt_sense"
       ],
-      "text": "[Saklig] Jeg har små ting å fortelle henne. Været. Spøken til Knut.",
+      "text": "[Saklig] Jeg har små ting å fortelle henne. Været. Spøken til Tom.",
       "suggestion": "De små bitene av dagen din vender seg fortsatt mot henne. Høres det riktig ut?",
       "difficulty": "easy"
     },
@@ -1526,8 +1526,8 @@
         "evoke_image",
         "heighten_felt_sense"
       ],
-      "text": "[Tørt] Liv kommer. Jeg tar på meg ansiktet til en som klarer seg. Vi drikker te.",
-      "suggestion": "Som om besøket har plass til Arne som klarer seg, men lite rom for han som er ensom. Passer det?",
+      "text": "[Tørt] Emma kommer. Jeg tar på meg ansiktet til en som klarer seg. Vi drikker te.",
+      "suggestion": "Som om besøket har plass til Leo som klarer seg, men lite rom for han som er ensom. Passer det?",
       "difficulty": "moderate"
     },
     {
@@ -1586,7 +1586,7 @@
         "evoke_image",
         "heighten_felt_sense"
       ],
-      "text": "[Flatt] Tilbudet fra Knut er der. Jeg bruker det ikke.",
+      "text": "[Flatt] Tilbudet fra Tom er der. Jeg bruker det ikke.",
       "suggestion": "En dør som står åpen, mens du fortsatt står utenfor. Passer det bildet, eller er det annerledes?",
       "difficulty": "moderate"
     },

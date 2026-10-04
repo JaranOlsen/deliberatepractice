@@ -1214,7 +1214,7 @@
         "reflect_feeling"
       ],
       "text": "[Lavt] Jeg setter fortsatt frem to kopper. Jeg blir trist av å se hennes stå tom.",
-      "suggestion": "Den tomme koppen minner deg om hvor mye du savner å ha Ingrid ved siden av deg.",
+      "suggestion": "Den tomme koppen minner deg om hvor mye du savner å ha Eva ved siden av deg.",
       "difficulty": "easy"
     },
     {
@@ -1246,7 +1246,7 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "text": "[Mykt] Liv kommer på besøk, men når bilen hennes kjører, kjennes huset tomt på nytt.",
+      "text": "[Mykt] Emma kommer på besøk, men når bilen hennes kjører, kjennes huset tomt på nytt.",
       "suggestion": "Besøket gir deg selskap, og stillheten etter at hun går, gjør vondt igjen.",
       "difficulty": "easy"
     },
@@ -1257,7 +1257,7 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "text": "[Varmt] Knut fikk meg til å le på turen. En stund var det bare godt å være ute.",
+      "text": "[Varmt] Tom fikk meg til å le på turen. En stund var det bare godt å være ute.",
       "suggestion": "Akkurat den stunden kunne du glede deg over selskapet hans og det å være ute.",
       "difficulty": "easy"
     },
@@ -1290,8 +1290,8 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "text": "[Mykt] Jeg er stolt av at Liv ber meg om hjelp. Det er godt å fortsatt kunne være til nytte for henne.",
-      "suggestion": "Å hjelpe Liv gir deg en god følelse av å ha noe å bidra med.",
+      "text": "[Mykt] Jeg er stolt av at Emma ber meg om hjelp. Det er godt å fortsatt kunne være til nytte for henne.",
+      "suggestion": "Å hjelpe Emma gir deg en god følelse av å ha noe å bidra med.",
       "difficulty": "easy"
     },
     {
@@ -1313,7 +1313,7 @@
         "reflect_feeling"
       ],
       "text": "[Frustrert] Papirarbeidet gjør meg sint. Navnet hennes blir stadig til et saksnummer.",
-      "suggestion": "De skjemaene kjennes kalde ved siden av den personen Ingrid var for deg.",
+      "suggestion": "De skjemaene kjennes kalde ved siden av den personen Eva var for deg.",
       "difficulty": "easy"
     },
     {
@@ -1367,7 +1367,7 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "text": "[Ser ned] Jeg vil at Liv skal komme, men bruker besøket på å si at jeg klarer meg.",
+      "text": "[Ser ned] Jeg vil at Emma skal komme, men bruker besøket på å si at jeg klarer meg.",
       "suggestion": "Du vil ha henne nær, og når du viser at du klarer deg, blir det vanskelig å la henne se det behovet.",
       "difficulty": "moderate"
     },
@@ -1389,8 +1389,8 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "text": "[Lavt] Spøkene til Knut hjalp. Så følte jeg at jeg hadde holdt Ingrid utenfor ettermiddagen.",
-      "suggestion": "Det var godt å være med Knut, og så virket det som om gleden truet tilknytningen til Ingrid.",
+      "text": "[Lavt] Spøkene til Tom hjalp. Så følte jeg at jeg hadde holdt Eva utenfor ettermiddagen.",
+      "suggestion": "Det var godt å være med Tom, og så virket det som om gleden truet tilknytningen til Eva.",
       "difficulty": "moderate"
     },
     {
@@ -1401,7 +1401,7 @@
         "reflect_feeling"
       ],
       "text": "[Forsiktig] Jeg savner ikke de nettene på sykehuset. Jeg savner henne. Det trenger jeg at blir forstått.",
-      "suggestion": "Du savner Ingrid, samtidig som du ikke vil ha de utmattende nettene tilbake. Du ønsker plass til den forskjellen.",
+      "suggestion": "Du savner Eva, samtidig som du ikke vil ha de utmattende nettene tilbake. Du ønsker plass til den forskjellen.",
       "difficulty": "moderate"
     },
     {
@@ -1455,8 +1455,8 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "text": "[Varmt, så nølende] Å hjelpe Liv kjentes som å være meg selv igjen. Det høres ut som om Ingrid hindret meg i det.",
-      "suggestion": "Du kjente deg mer som deg selv da du hjalp Liv, og er redd for at det høres urettferdig mot Ingrid ut å si det.",
+      "text": "[Varmt, så nølende] Å hjelpe Emma kjentes som å være meg selv igjen. Det høres ut som om Eva hindret meg i det.",
+      "suggestion": "Du kjente deg mer som deg selv da du hjalp Emma, og er redd for at det høres urettferdig mot Eva ut å si det.",
       "difficulty": "moderate"
     },
     {
@@ -1478,7 +1478,7 @@
         "reflect_feeling"
       ],
       "text": "[Bestemt] Stillheten var god. Ikke gjør det til at jeg ønsket henne bort.",
-      "suggestion": "Stillheten ga deg noe du trengte. Det er noe annet enn å ønske Ingrid bort, og du trenger at forskjellen blir hørt.",
+      "suggestion": "Stillheten ga deg noe du trengte. Det er noe annet enn å ønske Eva bort, og du trenger at forskjellen blir hørt.",
       "difficulty": "hard"
     },
     {
@@ -1510,7 +1510,7 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "text": "[Tørt] Jeg vet at jeg betyr noe for Liv. Det hindrer ikke en tom søndag i å være tom.",
+      "text": "[Tørt] Jeg vet at jeg betyr noe for Emma. Det hindrer ikke en tom søndag i å være tom.",
       "suggestion": "Å vite at du betyr noe, gir ikke det selskapet du savner på søndag.",
       "difficulty": "hard"
     },
@@ -1543,7 +1543,7 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "text": "[Varmt, så avventende] Knut og jeg lo. Det var vanlig. Ikke gjør det til en milepæl.",
+      "text": "[Varmt, så avventende] Tom og jeg lo. Det var vanlig. Ikke gjør det til en milepæl.",
       "suggestion": "Et vanlig godt øyeblikk med vennen din. Du vil at det skal få være nettopp det.",
       "difficulty": "hard"
     },
@@ -1555,7 +1555,7 @@
         "reflect_feeling"
       ],
       "text": "[Lavt] Jeg vil ikke ha henne tilbake så syk som hun var. Jeg vil ha henne, og det finnes ingen måte å få det på.",
-      "suggestion": "Du vil ha Ingrid uten den lidelsen. Ingen av delene er mulig, og lengselen har ikke noe enkelt sted å lande.",
+      "suggestion": "Du vil ha Eva uten den lidelsen. Ingen av delene er mulig, og lengselen har ikke noe enkelt sted å lande.",
       "difficulty": "hard"
     },
     {
@@ -1598,7 +1598,7 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "text": "[Lavt] I går ville jeg ha selskap. I dag ringte Knut, og jeg lot det ringe. Jeg vet ikke hva jeg skal tenke om meg selv.",
+      "text": "[Lavt] I går ville jeg ha selskap. I dag ringte Tom, og jeg lot det ringe. Jeg vet ikke hva jeg skal tenke om meg selv.",
       "suggestion": "Det du ønsker, kan kjennes forskjellig fra dag til dag, og det gjør deg usikker på hvordan du skal forstå deg selv.",
       "difficulty": "hard"
     }

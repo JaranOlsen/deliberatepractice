@@ -1358,7 +1358,7 @@
         "evoke_image",
         "heighten_felt_sense"
       ],
-      "text": "[Flatly] After Liv leaves, I turn the radio up. It fills the time.",
+      "text": "[Flatly] After Emma leaves, I turn the radio up. It fills the time.",
       "suggestion": "Maybe the radio puts a voice into the space her leaving opens. Does that fit, or not quite?",
       "difficulty": "easy"
     },
@@ -1430,7 +1430,7 @@
         "evoke_image",
         "heighten_felt_sense"
       ],
-      "text": "[Matter-of-fact] I have small things to tell her. Weather. Knut’s joke.",
+      "text": "[Matter-of-fact] I have small things to tell her. Weather. Tom’s joke.",
       "suggestion": "Those little pieces of your day still turn toward her. Does that sound right?",
       "difficulty": "easy"
     },
@@ -1526,8 +1526,8 @@
         "evoke_image",
         "heighten_felt_sense"
       ],
-      "text": "[Dryly] Liv visits. I put my capable face on. We have tea.",
-      "suggestion": "As if the visit has a place for the capable Arne, but not much space for the lonely one. Does that fit?",
+      "text": "[Dryly] Emma visits. I put my capable face on. We have tea.",
+      "suggestion": "As if the visit has a place for the capable Leo, but not much space for the lonely one. Does that fit?",
       "difficulty": "moderate"
     },
     {
@@ -1586,7 +1586,7 @@
         "evoke_image",
         "heighten_felt_sense"
       ],
-      "text": "[Flatly] Knut’s offer is there. I don’t use it.",
+      "text": "[Flatly] Tom’s offer is there. I don’t use it.",
       "suggestion": "A door left open, with you still outside it. Does that image fit, or is it different?",
       "difficulty": "moderate"
     },

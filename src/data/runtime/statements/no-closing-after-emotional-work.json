@@ -194,7 +194,7 @@
         "bounded_transition",
         "respect_choice"
       ],
-      "text": "[Stødig] Jeg vil komme tilbake til å be Liv om selskap neste gang.",
+      "text": "[Stødig] Jeg vil komme tilbake til å be Emma om selskap neste gang.",
       "suggestion": "Vi noterer det. Før vi avslutter, hva trenger du i overgangen ut herfra?",
       "difficulty": "easy"
     },
@@ -233,7 +233,7 @@
         "bounded_transition",
         "respect_choice"
       ],
-      "text": "[Mykt] Knut møter meg utenfor. En tur ville være godt.",
+      "text": "[Mykt] Tom møter meg utenfor. En tur ville være godt.",
       "suggestion": "Det høres ut som overgangen du ønsker. Skal vi la arbeidet ligge her for i dag?",
       "difficulty": "easy"
     },
@@ -416,7 +416,7 @@
         "respect_choice"
       ],
       "text": "[Nølende] Kan du minne meg om hva du hørte, uten en stor konklusjon?",
-      "suggestion": "Kort: Du elsket Ingrid, omsorgen slet deg ut, og du ønsker plass til begge deler. Hva passer, eller trenger å endres?",
+      "suggestion": "Kort: Du elsket Eva, omsorgen slet deg ut, og du ønsker plass til begge deler. Hva passer, eller trenger å endres?",
       "difficulty": "moderate"
     },
     {

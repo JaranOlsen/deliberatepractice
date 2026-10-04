@@ -45,8 +45,13 @@ async page => {
    await p.goto(url);await p.waitForFunction(()=>['Account','Konto'].includes(document.querySelector('#account-button').textContent));await click('home-library');
    // The UI advertises exactly the eleven supported skills, with three complete levels.
    for(const skill of skills){
-    await p.locator(`button[data-skill-id="${skill}"]`).click();await p.locator('[data-case-id="case-arne"]').click();await p.locator('#start-practice:not(:disabled)').waitFor();
-    assert(await p.locator('#case-level-choice button').count()===3,'One compact level choice for Arne');
+    await p.locator(`button[data-skill-id="${skill}"]`).click();
+    const card=p.locator('[data-case-id="case-arne"]');
+    assert((await card.locator('.card-title').textContent()).trim()==='Leo','The case uses its new display name');
+    assert(await card.locator('.case-levels').textContent()===(language==='no'?'Lett · Moderat · Vanskelig':'Easy · Moderate · Hard'),'All available levels appear before opening the case');
+    if(skill===skills[0]){await fits();await p.screenshot({path:`output/playwright/leo-case-levels-${language}-320.png`,fullPage:true});}
+    await card.click();await p.locator('#start-practice:not(:disabled)').waitFor();
+    assert(await p.locator('#case-level-choice button').count()===3,'One compact level choice for Leo');
     for(const level of ['easy','moderate','hard']){
      stage=`${language}/${skill}/${level}`;await p.locator(`[data-practice-level="${level}"]`).click();
      assert(await p.locator(`[data-practice-level="${level}"]`).getAttribute('aria-pressed')==='true','Selected level is visible');await fits();
@@ -54,7 +59,7 @@ async page => {
     await click('back-to-cases');await click('back-to-skills');
    }
    for(const skill of ['alliance-repair','self-disclosure','therapist-self-awareness','marker-recognition-chairwork']){
-    await p.locator(`button[data-skill-id="${skill}"]`).click();assert(await p.locator('[data-case-id="case-arne"]').count()===0,'Unsupported skill has no Arne card');await click('back-to-skills');
+    await p.locator(`button[data-skill-id="${skill}"]`).click();assert(await p.locator('[data-case-id="case-arne"]').count()===0,'Unsupported skill has no Leo card');await click('back-to-skills');
    }
    for(const level of ['easy','moderate','hard']){
     stage=`${language}/full-round/${level}`;

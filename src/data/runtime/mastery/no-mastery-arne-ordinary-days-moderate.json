@@ -7,8 +7,8 @@
     "moderate"
   ],
   "revision": "2026-10-04-v4",
-  "title": "Arne · Å leve de vanlige dagene",
-  "orientation": "Tolv sammenhengende øyeblikk om hverdagen etter at Ingrid døde. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "title": "Leo · Å leve de vanlige dagene",
+  "orientation": "Tolv sammenhengende øyeblikk om hverdagen etter at Eva døde. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
   "scenes": [
     {
       "id": "mastery_arne_moderate_01",
@@ -30,10 +30,10 @@
         "offer_rationale",
         "normalize_experiential_work"
       ],
-      "bridge": "Arne lurer på hva lettelsen sier om kjærligheten.",
+      "bridge": "Leo lurer på hva lettelsen sier om kjærligheten.",
       "prompt": "Forklar utforskning uten å avsi en moralsk dom.",
       "text": "[Forsiktig] Hvis jeg virkelig kjenner lettelsen, blir jeg ikke en dårligere ektemann da?",
-      "suggestion": "Å undersøke lettelsen avgjør ikke hva slags ektemann du var. Det kan hjelpe oss å skille ønsket om hvile fra det å ikke elske Ingrid."
+      "suggestion": "Å undersøke lettelsen avgjør ikke hva slags ektemann du var. Det kan hjelpe oss å skille ønsket om hvile fra det å ikke elske Eva."
     },
     {
       "id": "mastery_arne_moderate_03",
@@ -42,10 +42,10 @@
       "criteriaTags": [
         "validate_context"
       ],
-      "bridge": "I et annet øyeblikk skiller han Ingrid fra kravene på sykehuset.",
+      "bridge": "I et annet øyeblikk skiller han Eva fra kravene på sykehuset.",
       "prompt": "Valider forskjellen uten å viske ut kjærligheten.",
       "text": "[Selvkritisk] Jeg savner henne, men ikke den endeløse ventingen på sykehuset. Jeg burde ikke skille dem.",
-      "suggestion": "Du kan savne Ingrid og ikke savne belastningen ved de besøkene. Det er ikke det samme."
+      "suggestion": "Du kan savne Eva og ikke savne belastningen ved de besøkene. Det er ikke det samme."
     },
     {
       "id": "mastery_arne_moderate_04",
@@ -81,7 +81,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "bridge": "Arne beskriver omsorgen gjennom planen.",
+      "bridge": "Leo beskriver omsorgen gjennom planen.",
       "prompt": "Undersøk tentativt hva som er vanskeligere å dele.",
       "text": "[Lavt] Jeg kan forklare planen på sykehuset. Slitenheten er vanskeligere å si.",
       "suggestion": "Kanskje planen kjennes tryggere å dele enn hvor mye den kostet deg. Er det nært?"
@@ -122,7 +122,7 @@
         "grounding",
         "co_regulation"
       ],
-      "bridge": "Arne er berørt og ber om en avgrenset pause.",
+      "bridge": "Leo er berørt og ber om en avgrenset pause.",
       "prompt": "Respekter pausen uten å anta at han vil avslutte.",
       "text": "[Stemmen brister] Jeg trenger en pause, ikke å avslutte for dagen.",
       "suggestion": "En pause. Vi kan senke tempoet og kjenne etter hva du ønsker etterpå."
@@ -134,10 +134,10 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "bridge": "I et annet øyeblikk vekker en hyggelig tur frykt for å holde Ingrid utenfor.",
+      "bridge": "I et annet øyeblikk vekker en hyggelig tur frykt for å holde Eva utenfor.",
       "prompt": "Hør gleden og den vanskelige betydningen den får.",
-      "text": "[Lavt] Spøkene til Knut hjalp. Så følte jeg at jeg hadde holdt Ingrid utenfor ettermiddagen.",
-      "suggestion": "Det var godt å være med Knut, og så virket det som om gleden truet tilknytningen til Ingrid."
+      "text": "[Lavt] Spøkene til Tom hjalp. Så følte jeg at jeg hadde holdt Eva utenfor ettermiddagen.",
+      "suggestion": "Det var godt å være med Tom, og så virket det som om gleden truet tilknytningen til Eva."
     },
     {
       "id": "mastery_arne_moderate_11",
@@ -148,9 +148,9 @@
         "carry_meaning",
         "avoid_forced_optimism"
       ],
-      "bridge": "Arne setter ord på en liten endring i hvordan gleden kan få plass.",
+      "bridge": "Leo setter ord på en liten endring i hvordan gleden kan få plass.",
       "prompt": "Undersøk endringen uten å love at den vil vare.",
-      "text": "[Lavt] Gleden på verkstedet trenger ikke bety å holde Ingrid utenfor. Det kjennes nytt.",
+      "text": "[Lavt] Gleden på verkstedet trenger ikke bety å holde Eva utenfor. Det kjennes nytt.",
       "suggestion": "Hva har hjulpet gleden og tilknytningen til henne å få plass ved siden av hverandre?"
     },
     {

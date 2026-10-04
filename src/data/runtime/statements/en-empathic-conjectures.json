@@ -1358,7 +1358,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "text": "[Sighs] I tell Liv not to worry. Then I wish she’d ask again.",
+      "text": "[Sighs] I tell Emma not to worry. Then I wish she’d ask again.",
       "suggestion": "Might you want her to know you need company, without feeling you’re burdening her?",
       "difficulty": "easy"
     },
@@ -1430,7 +1430,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "text": "[Quietly] I’m glad Liv calls. I listen for her name on the phone.",
+      "text": "[Quietly] I’m glad Emma calls. I listen for her name on the phone.",
       "suggestion": "Could those calls give you a welcome feeling of still being part of someone’s day?",
       "difficulty": "easy"
     },
@@ -1466,8 +1466,8 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "text": "[Briskly] I don’t tell Liv about the workshop. She still cries when we mention Ingrid.",
-      "suggestion": "I wonder if you’re protecting Liv from your enjoyment, as though it could hurt her. Does that fit?",
+      "text": "[Briskly] I don’t tell Emma about the workshop. She still cries when we mention Eva.",
+      "suggestion": "I wonder if you’re protecting Emma from your enjoyment, as though it could hurt her. Does that fit?",
       "difficulty": "moderate"
     },
     {
@@ -1538,7 +1538,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "text": "[Dry laugh] Knut says I can call any time. I never do. That’s me.",
+      "text": "[Dry laugh] Tom says I can call any time. I never do. That’s me.",
       "suggestion": "I wonder if using the offer feels different from having it—perhaps more exposed. Does it?",
       "difficulty": "moderate"
     },
@@ -1550,7 +1550,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "text": "[Quietly] I hate “Ingrid would want you happy.” They make it sound so simple.",
+      "text": "[Quietly] I hate “Eva would want you happy.” They make it sound so simple.",
       "suggestion": "Could that phrase skip over how complicated enjoying life feels to you now?",
       "difficulty": "moderate"
     },
@@ -1610,7 +1610,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "text": "[Watchful] I don’t call Knut. Not because I think he’ll reject me. It’s something else.",
+      "text": "[Watchful] I don’t call Tom. Not because I think he’ll reject me. It’s something else.",
       "suggestion": "Might calling feel like admitting how much company you want? Or does that miss it too?",
       "difficulty": "hard"
     },
@@ -1646,7 +1646,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "text": "[Pauses] I want Liv close, but I don’t want her seeing me as a job.",
+      "text": "[Pauses] I want Emma close, but I don’t want her seeing me as a job.",
       "suggestion": "I wonder if the worry is about becoming someone to manage, rather than someone to spend time with.",
       "difficulty": "hard"
     },
@@ -1658,7 +1658,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "text": "[Quietly] I’m angry at Ingrid today. No, not for dying.",
+      "text": "[Quietly] I’m angry at Eva today. No, not for dying.",
       "suggestion": "Could it be about something between you that never got heard? Or is the anger elsewhere?",
       "difficulty": "hard"
     },
@@ -1671,7 +1671,7 @@
         "name_underlying_feeling"
       ],
       "text": "[Dryly] People praise the care. I’d rather they asked what I’m making at the workshop.",
-      "suggestion": "Perhaps you want to be met as Arne with interests now, not only through the care you gave. Does that fit?",
+      "suggestion": "Perhaps you want to be met as Leo with interests now, not only through the care you gave. Does that fit?",
       "difficulty": "hard"
     },
     {
@@ -1718,7 +1718,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "text": "[Softly] Knut didn’t make the afternoon about Ingrid. I could breathe easier.",
+      "text": "[Softly] Tom didn’t make the afternoon about Eva. I could breathe easier.",
       "suggestion": "Might there have been room to be yourself without explaining the loss? Does that capture it?",
       "difficulty": "hard"
     },

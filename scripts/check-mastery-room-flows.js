@@ -124,7 +124,7 @@ async (page) => {
     await o.locator('#mastery-use-room').click();await o.locator('.room-preparation').waitFor();await sync();
     const round=room.round_id,roles=[room.therapist_id,room.client_id,room.observer_id],order=[...room.statement_ids];
     assert(room.exercise_type==='mastery'&&room.skill_id===null&&order.length===12,'Mastery is an ordered exercise without a fake round skill');
-    assert((await c.locator('#room-content').textContent()).includes(arne?(language==='no'?'Jeg heter Arne':'I’m Arne'):(language==='no'?'Hei, jeg heter Sara':'Hi, I\'m Sara')),'Client sees role background and voice');
+    assert((await c.locator('#room-content').textContent()).includes(arne?(language==='no'?'Jeg heter Leo':'I’m Leo'):(language==='no'?'Hei, jeg heter Sara':'Hi, I\'m Sara')),'Client sees role background and voice');
     assert(room.difficulty===level,'Host-selected level belongs to the room');
     assert(await c.locator('#room-ready').isVisible(),'Client Ready is reachable');
     assert(await o.locator('#room-next').isDisabled(),'Human readiness blocks start');

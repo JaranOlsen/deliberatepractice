@@ -231,12 +231,12 @@
       ],
       "revision": "2026-10-04-v4",
       "title": {
-        "en": "Arne · Living the ordinary days",
-        "no": "Arne · Å leve de vanlige dagene"
+        "en": "Leo · Living the ordinary days",
+        "no": "Leo · Å leve de vanlige dagene"
       },
       "orientation": {
-        "en": "Twelve linked moments about daily life after Ingrid’s death. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
-        "no": "Tolv sammenhengende øyeblikk om hverdagen etter at Ingrid døde. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+        "en": "Twelve linked moments about daily life after Eva’s death. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øyeblikk om hverdagen etter at Eva døde. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
       },
       "sceneIds": [
         "mastery_arne_easy_01",
@@ -263,12 +263,12 @@
       ],
       "revision": "2026-10-04-v4",
       "title": {
-        "en": "Arne · Living the ordinary days",
-        "no": "Arne · Å leve de vanlige dagene"
+        "en": "Leo · Living the ordinary days",
+        "no": "Leo · Å leve de vanlige dagene"
       },
       "orientation": {
-        "en": "Twelve linked moments about daily life after Ingrid’s death. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
-        "no": "Tolv sammenhengende øyeblikk om hverdagen etter at Ingrid døde. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+        "en": "Twelve linked moments about daily life after Eva’s death. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øyeblikk om hverdagen etter at Eva døde. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
       },
       "sceneIds": [
         "mastery_arne_moderate_01",
@@ -295,12 +295,12 @@
       ],
       "revision": "2026-10-04-v4",
       "title": {
-        "en": "Arne · Living the ordinary days",
-        "no": "Arne · Å leve de vanlige dagene"
+        "en": "Leo · Living the ordinary days",
+        "no": "Leo · Å leve de vanlige dagene"
       },
       "orientation": {
-        "en": "Twelve linked moments about daily life after Ingrid’s death. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
-        "no": "Tolv sammenhengende øyeblikk om hverdagen etter at Ingrid døde. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+        "en": "Twelve linked moments about daily life after Eva’s death. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øyeblikk om hverdagen etter at Eva døde. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
       },
       "sceneIds": [
         "mastery_arne_hard_01",
@@ -1548,16 +1548,16 @@
         "voice": "Marcus. Jeg har ikke så mye å si. Søvnen er dårlig. Jeg holder meg for meg selv. Jobben går greit fordi det er stille og jeg vet hva jeg skal gjøre. Nettene er verre. Det dukker opp minner, både fra utenlands og andre steder. Jeg vil ikke gå inn i detaljer. Folk stiller spørsmål, og så ser de annerledes på deg. Jeg er her fordi veterantjenesten maser, og fordi det å sitte alene hele natten ikke funker lenger."
       },
       "case-arne": {
-        "label": "Arne",
+        "label": "Leo",
         "difficultyLabel": "Lett",
         "schemaLabel": "Betydning å undersøke",
         "teaser": "Pensjonert elektriker som finner vei gjennom hverdagen etter at kona døde.",
-        "history": "Arne er 68 år og pensjonert elektriker. Kona Ingrid døde for ti måneder siden, etter halvannet års sykdom. De var sammen i førtien år. Han bor i hjemmet deres, treffer den voksne datteren Liv og går av og til tur med vennen Knut. Han liker å reparere ting og har begynt å komme tilbake til et lite lokalt verksted. Forholdet rommet kjærlighet og vanlige uenigheter. Omsorgen for Ingrid var både meningsfull og utmattende. Han søker hjelp med ensomme rutiner, blandede følelser om tiden som omsorgsperson og skyld når han har det hyggelig. Dette er ingen diagnose eller tidsplan for sorgen.",
-        "schema": "En tilbakevendende bekymring: Hvis jeg har det hyggelig eller innrømmer at omsorgen var utmattende, betyr det at jeg ikke elsket Ingrid nok. Undersøk om denne betydningen passer; ikke anta en bakgrunn med forlatthet.",
-        "corePain": "Savn etter Ingrid i en endret hverdag, sammen med skyld når kjærlighet, slitenhet og glede finnes samtidig.",
-        "practiceEdge": "Skill mellom savnet etter Ingrid, skyld over å glede seg og praktiske behov som fortjener egen oppmerksomhet.",
+        "history": "Leo er 68 år og pensjonert elektriker. Kona Eva døde for ti måneder siden, etter halvannet års sykdom. De var sammen i førtien år. Han bor i hjemmet deres, treffer den voksne datteren Emma og går av og til tur med vennen Tom. Han liker å reparere ting og har begynt å komme tilbake til et lite lokalt verksted. Forholdet rommet kjærlighet og vanlige uenigheter. Omsorgen for Eva var både meningsfull og utmattende. Han søker hjelp med ensomme rutiner, blandede følelser om tiden som omsorgsperson og skyld når han har det hyggelig. Dette er ingen diagnose eller tidsplan for sorgen.",
+        "schema": "En tilbakevendende bekymring: Hvis jeg har det hyggelig eller innrømmer at omsorgen var utmattende, betyr det at jeg ikke elsket Eva nok. Undersøk om denne betydningen passer; ikke anta en bakgrunn med forlatthet.",
+        "corePain": "Savn etter Eva i en endret hverdag, sammen med skyld når kjærlighet, slitenhet og glede finnes samtidig.",
+        "practiceEdge": "Skill mellom savnet etter Eva, skyld over å glede seg og praktiske behov som fortjener egen oppmerksomhet.",
         "style": "Vanlige, konkrete ord; rolig tempo; lun humor. Pauser ved såre detaljer. En liten latter kan uttrykke varme eller ubehag: undersøk fremfor å anta. Han kan korrigere deg, avslå et spørsmål eller be om selskap uten flere ord.",
-        "voice": "Jeg heter Arne. Ingrid døde for ti måneder siden. Vi hadde førtien år sammen. Jeg holder huset i orden, og Liv kommer innom. Knut får meg med på tur iblant. Det er de små tingene—å lage kaffe til én, ingen å fortelle det til når jeg har reparert noe. Jeg elsket Ingrid, og jeg var utslitt mot slutten av sykdommen hennes. Begge deler er sant, men det kjennes illojalt å si det. Jeg hadde en god ettermiddag på verkstedet sist uke, og så fikk jeg dårlig samvittighet for å ha hatt det hyggelig. Jeg vil finne en måte å leve dagene mine på uten å føle at jeg lar henne bli igjen."
+        "voice": "Jeg heter Leo. Eva døde for ti måneder siden. Vi hadde førtien år sammen. Jeg holder huset i orden, og Emma kommer innom. Tom får meg med på tur iblant. Det er de små tingene—å lage kaffe til én, ingen å fortelle det til når jeg har reparert noe. Jeg elsket Eva, og jeg var utslitt mot slutten av sykdommen hennes. Begge deler er sant, men det kjennes illojalt å si det. Jeg hadde en god ettermiddag på verkstedet sist uke, og så fikk jeg dårlig samvittighet for å ha hatt det hyggelig. Jeg vil finne en måte å leve dagene mine på uten å føle at jeg lar henne bli igjen."
       }
     }
   },
@@ -2010,7 +2010,7 @@
     },
     "case-arne": {
       "id": "case-arne",
-      "label": "Arne",
+      "label": "Leo",
       "difficulty": "easy",
       "difficultyLabel": "Easy",
       "tier": "free",
@@ -2020,13 +2020,13 @@
         "moderate",
         "hard"
       ],
-      "history": "Arne is 68 and a retired electrician. His wife, Ingrid, died ten months ago after eighteen months of illness. They were together for forty-one years. He lives in their home, sees his adult daughter, Liv, and sometimes goes walking with his friend, Knut. He likes fixing things and has begun returning to a small local workshop. Their relationship held affection and ordinary disagreements. Caring for Ingrid was both meaningful and exhausting. He seeks help with lonely routines, mixed feelings about the caregiving period, and guilt when he enjoys something. These are not a diagnosis or a prescribed timetable for grieving.",
-      "schema": "A recurring worry: if I enjoy myself or admit the care was exhausting, it means I did not love Ingrid enough. Check whether this meaning fits; do not assume an abandonment history.",
+      "history": "Leo is 68 and a retired electrician. His wife, Eva, died ten months ago after eighteen months of illness. They were together for forty-one years. He lives in their home, sees his adult daughter, Emma, and sometimes goes walking with his friend, Tom. He likes fixing things and has begun returning to a small local workshop. Their relationship held affection and ordinary disagreements. Caring for Eva was both meaningful and exhausting. He seeks help with lonely routines, mixed feelings about the caregiving period, and guilt when he enjoys something. These are not a diagnosis or a prescribed timetable for grieving.",
+      "schema": "A recurring worry: if I enjoy myself or admit the care was exhausting, it means I did not love Eva enough. Check whether this meaning fits; do not assume an abandonment history.",
       "schemaLabel": "Meaning to explore",
-      "corePain": "Missing Ingrid in a changed everyday life, with guilt when love, exhaustion and enjoyment coexist.",
-      "practiceEdge": "Distinguish missing Ingrid from guilt about enjoying life, and from practical needs that deserve their own attention.",
+      "corePain": "Missing Eva in a changed everyday life, with guilt when love, exhaustion and enjoyment coexist.",
+      "practiceEdge": "Distinguish missing Eva from guilt about enjoying life, and from practical needs that deserve their own attention.",
       "style": "Plain, concrete words; measured pace; dry warmth. Pauses near tender details. A small laugh may express affection or discomfort: check rather than assume. He can correct you, decline a question, or ask for company without more words.",
-      "voice": "I’m Arne. Ingrid died ten months ago. We had forty-one years together. I manage the house, and Liv comes by. Knut gets me out for a walk sometimes. It’s the small things—making coffee for one, nobody to tell when I’ve fixed something. I loved Ingrid, and I was worn out by the end of her illness. Both are true, but saying that feels disloyal. I had a good afternoon at the workshop last week, then felt bad about having enjoyed it. I’d like to find a way of living my days without feeling I’m leaving her behind."
+      "voice": "I’m Leo. Eva died ten months ago. We had forty-one years together. I manage the house, and Emma comes by. Tom gets me out for a walk sometimes. It’s the small things—making coffee for one, nobody to tell when I’ve fixed something. I loved Eva, and I was worn out by the end of her illness. Both are true, but saying that feels disloyal. I had a good afternoon at the workshop last week, then felt bad about having enjoyed it. I’d like to find a way of living my days without feeling I’m leaving her behind."
     }
   },
   "statementCounts": {

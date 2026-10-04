@@ -1246,7 +1246,7 @@
       "criteriaTags": [
         "validate_context"
       ],
-      "text": "[Embarrassed] I asked Knut to stay for tea. I felt needy.",
+      "text": "[Embarrassed] I asked Tom to stay for tea. I felt needy.",
       "suggestion": "You wanted company after a lonely day. Asking a friend to stay makes sense.",
       "difficulty": "easy"
     },
@@ -1257,7 +1257,7 @@
       "criteriaTags": [
         "validate_context"
       ],
-      "text": "[Self-critical] Liv has enough to do. I shouldn’t miss her visits so much.",
+      "text": "[Self-critical] Emma has enough to do. I shouldn’t miss her visits so much.",
       "suggestion": "Her visits matter to you. Missing them doesn’t mean you’re asking her to give up her own life.",
       "difficulty": "easy"
     },
@@ -1268,7 +1268,7 @@
       "criteriaTags": [
         "validate_context"
       ],
-      "text": "[Ashamed] I got angry when someone said Ingrid was in a better place.",
+      "text": "[Ashamed] I got angry when someone said Eva was in a better place.",
       "suggestion": "That phrase didn’t meet your loss. It’s understandable that you felt angry rather than comforted.",
       "difficulty": "easy"
     },
@@ -1357,7 +1357,7 @@
         "validate_context"
       ],
       "text": "[Self-critical] I miss her, but not the endless waiting at the hospital. I shouldn’t separate those.",
-      "suggestion": "You can miss Ingrid and not miss the strain of those visits. They aren’t the same thing.",
+      "suggestion": "You can miss Eva and not miss the strain of those visits. They aren’t the same thing.",
       "difficulty": "moderate"
     },
     {
@@ -1367,7 +1367,7 @@
       "criteriaTags": [
         "validate_context"
       ],
-      "text": "[Guilty] Knut helped, and then I wanted him to leave. I’m impossible.",
+      "text": "[Guilty] Tom helped, and then I wanted him to leave. I’m impossible.",
       "suggestion": "You can want company and later need quiet. Changing needs don’t make you impossible.",
       "difficulty": "moderate"
     },
@@ -1378,8 +1378,8 @@
       "criteriaTags": [
         "validate_context"
       ],
-      "text": "[Embarrassed] I’m cross with Liv for being busy. I know that’s unfair.",
-      "suggestion": "You don’t want to blame Liv, and you’re missing her. That hurt deserves room even while you respect her time.",
+      "text": "[Embarrassed] I’m cross with Emma for being busy. I know that’s unfair.",
+      "suggestion": "You don’t want to blame Emma, and you’re missing her. That hurt deserves room even while you respect her time.",
       "difficulty": "moderate"
     },
     {
@@ -1467,7 +1467,7 @@
         "validate_context"
       ],
       "text": "[Quietly] I want help, but I don’t want someone deciding how to remember her.",
-      "suggestion": "You can seek help and keep authority over how you remember Ingrid. Both belong here.",
+      "suggestion": "You can seek help and keep authority over how you remember Eva. Both belong here.",
       "difficulty": "moderate"
     },
     {
@@ -1554,7 +1554,7 @@
       "criteriaTags": [
         "validate_context"
       ],
-      "text": "[Careful] Liv is grieving too. That doesn’t mean I must always look fine for her.",
+      "text": "[Careful] Emma is grieving too. That doesn’t mean I must always look fine for her.",
       "suggestion": "Her grief matters, and your needs matter too. You needn’t disappear from the relationship to protect her.",
       "difficulty": "hard"
     },

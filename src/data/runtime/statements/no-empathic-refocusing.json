@@ -181,7 +181,7 @@
         "invite_return",
         "respect_choice"
       ],
-      "text": "[Mykt, så oppramsende] Jeg ønsket selskap. Knut er opptatt, Liv jobber, naboene—",
+      "text": "[Mykt, så oppramsende] Jeg ønsket selskap. Tom er opptatt, Emma jobber, naboene—",
       "suggestion": "Før vi går gjennom alles planer, vil du høre litt mer av det ønsket om selskap?",
       "difficulty": "easy"
     },
@@ -259,7 +259,7 @@
         "invite_return",
         "respect_choice"
       ],
-      "text": "[Mykt, så selvkritisk] Jeg ville at Liv skulle bli. Nok klaging fra meg.",
+      "text": "[Mykt, så selvkritisk] Jeg ville at Emma skulle bli. Nok klaging fra meg.",
       "suggestion": "Å ønske at hun blir, trenger ikke være klaging. Vil du høre det ønsket før vi lar det ligge?",
       "difficulty": "easy"
     },
@@ -350,7 +350,7 @@
         "invite_return",
         "respect_choice"
       ],
-      "text": "[Stemmen brister, så raskere] Jeg ville at Liv skulle legge merke til det. Men hun er opptatt, la oss snakke om jobben hennes.",
+      "text": "[Stemmen brister, så raskere] Jeg ville at Emma skulle legge merke til det. Men hun er opptatt, la oss snakke om jobben hennes.",
       "suggestion": "Jobben hennes betyr noe. Før vi går dit, vil du ha et øyeblikk med ønsket om at hun merker det?",
       "difficulty": "moderate"
     },
@@ -363,7 +363,7 @@
         "invite_return",
         "respect_choice"
       ],
-      "text": "[Rynker pannen, så ler] Jeg blir sint når de snakker for Ingrid. Vel, alle er eksperter.",
+      "text": "[Rynker pannen, så ler] Jeg blir sint når de snakker for Eva. Vel, alle er eksperter.",
       "suggestion": "Det er humor og sinne her. Vil du høre hva sinnet ditt sier?",
       "difficulty": "moderate"
     },
@@ -519,7 +519,7 @@
         "invite_return",
         "respect_choice"
       ],
-      "text": "[Lavt, så oppramsende] Jeg savnet hjelp. Men vaktene til Liv er lange, kneet til Knut—",
+      "text": "[Lavt, så oppramsende] Jeg savnet hjelp. Men vaktene til Emma er lange, kneet til Tom—",
       "suggestion": "De begrensningene er virkelige. Før vi ser på dem, ville det være nyttig å høre hvilken hjelp du ønsket?",
       "difficulty": "hard"
     },
@@ -558,7 +558,7 @@
         "invite_return",
         "respect_choice"
       ],
-      "text": "[Lavt, så forklarende] Jeg ville at Liv skulle bli. I vår familie har vi alltid gjort mye ut av å stille opp—",
+      "text": "[Lavt, så forklarende] Jeg ville at Emma skulle bli. I vår familie har vi alltid gjort mye ut av å stille opp—",
       "suggestion": "Vil du ha et øyeblikk med ditt eget ønske før den større forklaringen, eller hjelper historien deg i dag?",
       "difficulty": "hard"
     },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T12:44:20.267Z",
+  "generatedAt": "2026-10-04T13:00:58.565Z",
   "revision": "2026-10-04-v4",
   "duplicateStatementCount": 0,
   "skillPurityWarningCount": 33,
@@ -67,7 +67,7 @@
       "skillId": "empathic-affirmation-validation",
       "caseId": "case-arne",
       "rule": "validation_missing_explicit_legitimizing_cue",
-      "suggestion": "You can miss Ingrid and not miss the strain of those visits. They aren’t the same thing."
+      "suggestion": "You can miss Eva and not miss the strain of those visits. They aren’t the same thing."
     },
     {
       "id": "dp_empathic-affirmation-validation_case-arne_moderate_03",
@@ -116,7 +116,7 @@
       "skillId": "empathic-affirmation-validation",
       "caseId": "case-arne",
       "rule": "validation_missing_explicit_legitimizing_cue",
-      "suggestion": "You can seek help and keep authority over how you remember Ingrid. Both belong here."
+      "suggestion": "You can seek help and keep authority over how you remember Eva. Both belong here."
     },
     {
       "id": "dp_empathic-affirmation-validation_case-arne_hard_03",
@@ -186,7 +186,7 @@
       "skillId": "providing-treatment-rationale",
       "caseId": "case-arne",
       "rule": "treatment_rationale_missing_explanatory_language",
-      "suggestion": "We could explore what enjoying it seems to say about your love for Ingrid, and see whether that meaning fits."
+      "suggestion": "We could explore what enjoying it seems to say about your love for Eva, and see whether that meaning fits."
     },
     {
       "id": "dp_providing-treatment-rationale_case-arne_easy_10",

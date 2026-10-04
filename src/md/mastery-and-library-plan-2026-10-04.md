@@ -82,9 +82,9 @@ Do not add crisis material merely to increase difficulty. Mastery switching is a
 
 Provisional case briefs:
 
-1. **Arne, late sixties — bereavement.** A retired adult adapting to life after a partner's death: changed routines, loneliness, affection, irritation, relief and guilt about enjoying something again. Include strengths and relationships; avoid automatically explaining ordinary grief as an abandonment schema.
-2. **Elin, early forties — chronic illness/disability.** An adult adapting to established illness and reduced capacity: autonomy, anger about dismissal, dependence, uncertainty and valued activity. Emotional work must not imply that illness is imaginary or that acceptance requires giving up practical support.
-3. **Leila, mid-thirties — discrimination and belonging.** A Norwegian-born adult encountering repeated exclusion and being treated as an outsider at work. Use one concrete social context with ordinary life, skills and supportive relationships. Do not turn actual discrimination into a mistaken belief, assume all concerns arise from identity, or combine every marginalized experience into one case.
+1. **Leo, late sixties — bereavement.** A retired adult adapting to life after a partner's death: changed routines, loneliness, affection, irritation, relief and guilt about enjoying something again. Include strengths and relationships; avoid automatically explaining ordinary grief as an abandonment schema.
+2. **Mia, early forties — chronic illness/disability.** An adult adapting to established illness and reduced capacity: autonomy, anger about dismissal, dependence, uncertainty and valued activity. Emotional work must not imply that illness is imaginary or that acceptance requires giving up practical support.
+3. **Nora, mid-thirties — discrimination and belonging.** A Norwegian-born adult encountering repeated exclusion and being treated as an outsider at work. Use one concrete social context with ordinary life, skills and supportive relationships. Do not turn actual discrimination into a mistaken belief, assume all concerns arise from identity, or combine every marginalized experience into one case.
 
 Names and precise histories can be refined during authoring. Each case needs a bilingual dossier, voice/delivery notes, stable relationships/facts, strengths, practical context and three consistent versions of each offered exercise.
 

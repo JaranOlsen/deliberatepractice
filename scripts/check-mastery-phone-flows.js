@@ -53,7 +53,7 @@ async page => {
    await p.locator('#home-library').click();await p.locator('#exercise-mastery').click();
    await p.locator(`[data-exercise-id="${arne?'mastery-arne-ordinary-days-easy':'mastery-sara-evenings'}"]`).click();await p.locator('#mastery-start').waitFor();
    if(arne&&level!=='easy'){await p.locator(`[data-practice-level="${level}"]`).click();await p.waitForFunction(level=>document.querySelector(`[data-practice-level="${level}"]`)?.getAttribute('aria-pressed')==='true',level);}
-   assert((await p.locator('#mastery-practice .case-brief').textContent()).includes(arne?(language==='no'?'Jeg heter Arne':'I’m Arne'):(language==='no'?'Hei, jeg heter Sara':'Hi, I\'m Sara')),'Client sees background and voice before beginning');
+   assert((await p.locator('#mastery-practice .case-brief').textContent()).includes(arne?(language==='no'?'Jeg heter Leo':'I’m Leo'):(language==='no'?'Hei, jeg heter Sara':'Hi, I\'m Sara')),'Client sees background and voice before beginning');
    const levelName={en:{easy:'Easy',moderate:'Moderate',hard:'Hard'},no:{easy:'Lett',moderate:'Moderat',hard:'Vanskelig'}}[language][level];
    assert((await p.locator('#mastery-practice .room-case-heading').textContent()).endsWith(levelName),'The exercise level follows the selected language');
    await fits('preparation');

@@ -1214,7 +1214,7 @@
         "reflect_feeling"
       ],
       "text": "[Quietly] I still put two cups out. Seeing hers empty makes me sad.",
-      "suggestion": "That empty cup brings home how much you miss having Ingrid beside you.",
+      "suggestion": "That empty cup brings home how much you miss having Eva beside you.",
       "difficulty": "easy"
     },
     {
@@ -1246,7 +1246,7 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "text": "[Softly] Liv visits, but when her car leaves the house feels empty all over again.",
+      "text": "[Softly] Emma visits, but when her car leaves the house feels empty all over again.",
       "suggestion": "Her visit brings company, and the quiet after she leaves hurts again.",
       "difficulty": "easy"
     },
@@ -1257,7 +1257,7 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "text": "[Warmly] Knut made me laugh on our walk. For a while it was just good to be outside.",
+      "text": "[Warmly] Tom made me laugh on our walk. For a while it was just good to be outside.",
       "suggestion": "For that stretch, you could enjoy his company and being out there.",
       "difficulty": "easy"
     },
@@ -1290,8 +1290,8 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "text": "[Softly] I’m proud Liv asks me for help. It’s good to still be useful to her.",
-      "suggestion": "Helping Liv gives you a welcome sense of having something to offer.",
+      "text": "[Softly] I’m proud Emma asks me for help. It’s good to still be useful to her.",
+      "suggestion": "Helping Emma gives you a welcome sense of having something to offer.",
       "difficulty": "easy"
     },
     {
@@ -1313,7 +1313,7 @@
         "reflect_feeling"
       ],
       "text": "[Frustrated] The paperwork makes me angry. Her name keeps turning into a reference number.",
-      "suggestion": "Those forms feel cold beside the person Ingrid was to you.",
+      "suggestion": "Those forms feel cold beside the person Eva was to you.",
       "difficulty": "easy"
     },
     {
@@ -1367,7 +1367,7 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "text": "[Looks down] I want Liv to visit, but I spend the visit telling her I’m managing.",
+      "text": "[Looks down] I want Emma to visit, but I spend the visit telling her I’m managing.",
       "suggestion": "You want her close, and showing you’re managing makes it hard to let her see that need.",
       "difficulty": "moderate"
     },
@@ -1389,8 +1389,8 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "text": "[Quietly] Knut’s jokes helped. Then I felt I’d left Ingrid out of the afternoon.",
-      "suggestion": "Enjoying Knut’s company felt good, then seemed to put your connection with Ingrid at risk.",
+      "text": "[Quietly] Tom’s jokes helped. Then I felt I’d left Eva out of the afternoon.",
+      "suggestion": "Enjoying Tom’s company felt good, then seemed to put your connection with Eva at risk.",
       "difficulty": "moderate"
     },
     {
@@ -1401,7 +1401,7 @@
         "reflect_feeling"
       ],
       "text": "[Careful] I don’t miss those hospital nights. I miss her. I need that understood.",
-      "suggestion": "You miss Ingrid, while you don’t want those exhausting nights back. You want room for that distinction.",
+      "suggestion": "You miss Eva, while you don’t want those exhausting nights back. You want room for that distinction.",
       "difficulty": "moderate"
     },
     {
@@ -1455,8 +1455,8 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "text": "[Warm, then hesitant] Helping Liv felt like myself again. Saying that sounds as if Ingrid stopped me being myself.",
-      "suggestion": "You felt something familiar in helping Liv, and worry that naming it could sound unfair to Ingrid.",
+      "text": "[Warm, then hesitant] Helping Emma felt like myself again. Saying that sounds as if Eva stopped me being myself.",
+      "suggestion": "You felt something familiar in helping Emma, and worry that naming it could sound unfair to Eva.",
       "difficulty": "moderate"
     },
     {
@@ -1478,7 +1478,7 @@
         "reflect_feeling"
       ],
       "text": "[Firmly] The quiet was good. Don’t turn that into wanting her gone.",
-      "suggestion": "The quiet gave you something you needed. That is different from wanting Ingrid gone, and you need the distinction heard.",
+      "suggestion": "The quiet gave you something you needed. That is different from wanting Eva gone, and you need the distinction heard.",
       "difficulty": "hard"
     },
     {
@@ -1510,7 +1510,7 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "text": "[Dryly] I know I matter to Liv. That doesn’t stop an empty Sunday being empty.",
+      "text": "[Dryly] I know I matter to Emma. That doesn’t stop an empty Sunday being empty.",
       "suggestion": "Knowing you matter doesn’t supply the company you miss on Sunday.",
       "difficulty": "hard"
     },
@@ -1543,7 +1543,7 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "text": "[Warm, then guarded] Knut and I laughed. It was ordinary. Please don’t make it a milestone.",
+      "text": "[Warm, then guarded] Tom and I laughed. It was ordinary. Please don’t make it a milestone.",
       "suggestion": "An ordinary good moment with your friend, which you want left at its own size.",
       "difficulty": "hard"
     },
@@ -1555,7 +1555,7 @@
         "reflect_feeling"
       ],
       "text": "[Quietly] I don’t want her back as ill as she was. I want her, and there’s no way to have that.",
-      "suggestion": "You want Ingrid, without that suffering. Neither is available, and the longing has nowhere simple to land.",
+      "suggestion": "You want Eva, without that suffering. Neither is available, and the longing has nowhere simple to land.",
       "difficulty": "hard"
     },
     {
@@ -1598,7 +1598,7 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "text": "[Quietly] Yesterday I wanted company. Today Knut called and I let it ring. I don’t know what to make of myself.",
+      "text": "[Quietly] Yesterday I wanted company. Today Tom called and I let it ring. I don’t know what to make of myself.",
       "suggestion": "What you want can feel different from one day to the next, and that leaves you unsure how to understand yourself.",
       "difficulty": "hard"
     }

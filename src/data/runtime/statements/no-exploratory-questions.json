@@ -1346,7 +1346,7 @@
         "explore_body",
         "explore_meaning"
       ],
-      "text": "[Lavt] Jeg sier at det går fint når Liv spør. Det kommer før jeg rekker å tenke.",
+      "text": "[Lavt] Jeg sier at det går fint når Emma spør. Det kommer før jeg rekker å tenke.",
       "suggestion": "Hva merker du rett før du sier at det går fint?",
       "difficulty": "easy"
     },
@@ -1370,7 +1370,7 @@
         "explore_body",
         "explore_meaning"
       ],
-      "text": "[Usikkert] Jeg vet ikke hva jeg ville at Knut skulle gjøre da jeg ble stille.",
+      "text": "[Usikkert] Jeg vet ikke hva jeg ville at Tom skulle gjøre da jeg ble stille.",
       "suggestion": "Hva ville kjentes hjelpsomt fra ham i det øyeblikket?",
       "difficulty": "easy"
     },
@@ -1406,7 +1406,7 @@
         "explore_body",
         "explore_meaning"
       ],
-      "text": "[Ettertenksomt] Det var godt å hjelpe Liv. Jeg var ikke bare distrahert.",
+      "text": "[Ettertenksomt] Det var godt å hjelpe Emma. Jeg var ikke bare distrahert.",
       "suggestion": "Hva var godt med å hjelpe henne?",
       "difficulty": "easy"
     },
@@ -1478,7 +1478,7 @@
         "explore_body",
         "explore_meaning"
       ],
-      "text": "[Ettertenksomt] Jeg vil ha Liv der, men ikke at hun styrer med meg. Det er vanskelig å forklare.",
+      "text": "[Ettertenksomt] Jeg vil ha Emma der, men ikke at hun styrer med meg. Det er vanskelig å forklare.",
       "suggestion": "Hva slags samvær ville kjennes riktig for deg?",
       "difficulty": "moderate"
     },
@@ -1526,7 +1526,7 @@
         "explore_body",
         "explore_meaning"
       ],
-      "text": "[Usikkert] Jeg ble stille da Knut spurte om verkstedet.",
+      "text": "[Usikkert] Jeg ble stille da Tom spurte om verkstedet.",
       "suggestion": "Hva skjedde i det stille øyeblikket?",
       "difficulty": "moderate"
     },
@@ -1575,7 +1575,7 @@
         "explore_meaning"
       ],
       "text": "[Usikkert] Gleden over turen kjentes grei til jeg tenkte på henne.",
-      "suggestion": "Hva endret seg da du kom på Ingrid?",
+      "suggestion": "Hva endret seg da du kom på Eva?",
       "difficulty": "moderate"
     },
     {
@@ -1718,7 +1718,7 @@
         "explore_body",
         "explore_meaning"
       ],
-      "text": "[Rynker pannen] Jeg ville ha Liv der, og jeg hatet å bli fulgt med på. Ingen av delene er hele saken.",
+      "text": "[Rynker pannen] Jeg ville ha Emma der, og jeg hatet å bli fulgt med på. Ingen av delene er hele saken.",
       "suggestion": "Hva ville hjelpe oss å høre den delen som mangler i de to beskrivelsene?",
       "difficulty": "hard"
     },

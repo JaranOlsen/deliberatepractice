@@ -7,8 +7,8 @@
     "hard"
   ],
   "revision": "2026-10-04-v4",
-  "title": "Arne · Living the ordinary days",
-  "orientation": "Twelve linked moments about daily life after Ingrid’s death. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+  "title": "Leo · Living the ordinary days",
+  "orientation": "Twelve linked moments about daily life after Eva’s death. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
   "scenes": [
     {
       "id": "mastery_arne_hard_01",
@@ -17,10 +17,10 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "bridge": "Arne begins by asking for a careful distinction.",
+      "bridge": "Leo begins by asking for a careful distinction.",
       "prompt": "Hear the relief on his terms; avoid the interpretation he rejects.",
       "text": "[Firmly] The quiet was good. Don’t turn that into wanting her gone.",
-      "suggestion": "The quiet gave you something you needed. That is different from wanting Ingrid gone, and you need the distinction heard."
+      "suggestion": "The quiet gave you something you needed. That is different from wanting Eva gone, and you need the distinction heard."
     },
     {
       "id": "mastery_arne_hard_02",
@@ -55,7 +55,7 @@
         "explore_body",
         "explore_meaning"
       ],
-      "bridge": "Arne makes a distinction within the relief itself.",
+      "bridge": "Leo makes a distinction within the relief itself.",
       "prompt": "Let him choose which part to clarify first.",
       "text": "[Careful] Relief from the care, relief from watching her suffer—they’re different.",
       "suggestion": "Which part would you like us to understand first?"
@@ -70,7 +70,7 @@
       ],
       "bridge": "The ease is present, but a broad label would miss it.",
       "prompt": "Explore the experience in his words.",
-      "text": "[Quietly] That ease is real, but I don’t want it called freedom from Ingrid.",
+      "text": "[Quietly] That ease is real, but I don’t want it called freedom from Eva.",
       "suggestion": "What is the ease like in your own terms, without that label?"
     },
     {
@@ -94,7 +94,7 @@
         "evoke_image",
         "heighten_felt_sense"
       ],
-      "bridge": "Arne uses his own concrete phrase and rejects a larger one.",
+      "bridge": "Leo uses his own concrete phrase and rejects a larger one.",
       "prompt": "Bring his phrase close without enlarging it.",
       "text": "[Dryly] I’m off duty. Don’t call it freedom; that’s too grand.",
       "suggestion": "Off duty may be the right size: no next task waiting, and an unfamiliar pause. What is that pause like?"
@@ -136,7 +136,7 @@
       ],
       "bridge": "In another moment, he wants enjoyment kept ordinary.",
       "prompt": "Reflect the good moment without making it a milestone.",
-      "text": "[Warm, then guarded] Knut and I laughed. It was ordinary. Please don’t make it a milestone.",
+      "text": "[Warm, then guarded] Tom and I laughed. It was ordinary. Please don’t make it a milestone.",
       "suggestion": "An ordinary good moment with your friend, which you want left at its own size."
     },
     {

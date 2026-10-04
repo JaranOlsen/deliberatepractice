@@ -7,8 +7,8 @@
     "hard"
   ],
   "revision": "2026-10-04-v4",
-  "title": "Arne · Å leve de vanlige dagene",
-  "orientation": "Tolv sammenhengende øyeblikk om hverdagen etter at Ingrid døde. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "title": "Leo · Å leve de vanlige dagene",
+  "orientation": "Tolv sammenhengende øyeblikk om hverdagen etter at Eva døde. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
   "scenes": [
     {
       "id": "mastery_arne_hard_01",
@@ -17,10 +17,10 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "bridge": "Arne begynner med å be om en tydelig forskjell.",
+      "bridge": "Leo begynner med å be om en tydelig forskjell.",
       "prompt": "Hør lettelsen på hans premisser; unngå tolkningen han avviser.",
       "text": "[Bestemt] Stillheten var god. Ikke gjør det til at jeg ønsket henne bort.",
-      "suggestion": "Stillheten ga deg noe du trengte. Det er noe annet enn å ønske Ingrid bort, og du trenger at forskjellen blir hørt."
+      "suggestion": "Stillheten ga deg noe du trengte. Det er noe annet enn å ønske Eva bort, og du trenger at forskjellen blir hørt."
     },
     {
       "id": "mastery_arne_hard_02",
@@ -55,7 +55,7 @@
         "explore_body",
         "explore_meaning"
       ],
-      "bridge": "Arne skiller mellom deler av selve lettelsen.",
+      "bridge": "Leo skiller mellom deler av selve lettelsen.",
       "prompt": "La ham velge hvilken del som skal tydeliggjøres først.",
       "text": "[Forsiktig] Lettelse fra omsorgen, lettelse fra å se henne lide—det er forskjellig.",
       "suggestion": "Hvilken del vil du at vi forstår først?"
@@ -70,7 +70,7 @@
       ],
       "bridge": "Lettelsen er til stede, men en vid merkelapp ville bomme.",
       "prompt": "Undersøk opplevelsen med hans ord.",
-      "text": "[Lavt] Den lettelsen er virkelig, men jeg vil ikke kalle den frihet fra Ingrid.",
+      "text": "[Lavt] Den lettelsen er virkelig, men jeg vil ikke kalle den frihet fra Eva.",
       "suggestion": "Hvordan er lettelsen med dine egne ord, uten den merkelappen?"
     },
     {
@@ -94,7 +94,7 @@
         "evoke_image",
         "heighten_felt_sense"
       ],
-      "bridge": "Arne bruker sitt eget konkrete uttrykk og avviser et større.",
+      "bridge": "Leo bruker sitt eget konkrete uttrykk og avviser et større.",
       "prompt": "Gjør uttrykket hans nært uten å gjøre det større.",
       "text": "[Tørt] Jeg har gått av vakt. Ikke kall det frihet; det er for stort.",
       "suggestion": "«Gått av vakt»: ingen ny oppgave som venter, og en pause som er uvant. Hvordan kjennes den pausen?"
@@ -136,7 +136,7 @@
       ],
       "bridge": "I et annet øyeblikk vil han la gleden være vanlig.",
       "prompt": "Speil det gode øyeblikket uten å gjøre det til en milepæl.",
-      "text": "[Varmt, så avventende] Knut og jeg lo. Det var vanlig. Ikke gjør det til en milepæl.",
+      "text": "[Varmt, så avventende] Tom og jeg lo. Det var vanlig. Ikke gjør det til en milepæl.",
       "suggestion": "Et vanlig godt øyeblikk med vennen din. Du vil at det skal få være nettopp det."
     },
     {

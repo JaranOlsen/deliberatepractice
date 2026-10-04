@@ -128,7 +128,7 @@ async (page) => {
     await click(o,'start-practice');await o.locator('.room-preparation').waitFor();await sync();
     const fullRound=room.round_id, order=[...room.statement_ids], roles=[room.therapist_id,room.client_id,room.observer_id];
     assert(room.round_size===12&&new Set(order).size===12,'Preparation selects twelve unique items');
-    if(arne)assert(room.difficulty===level&&order.every(id=>id.includes(`_${level}_`)),'The host selects twelve items at one Arne level');
+    if(arne)assert(room.difficulty===level&&order.every(id=>id.includes(`_${level}_`)),'The host selects twelve items at one Leo level');
     assert((await o.locator('#room-content').textContent()).includes('4 sets of 3'),'Preparation explains the fixed-role round');
     stage='private feedback targets';
     const goal=t.locator('#room-next-attempt');

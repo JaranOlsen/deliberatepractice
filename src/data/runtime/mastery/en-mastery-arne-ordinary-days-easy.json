@@ -7,8 +7,8 @@
     "easy"
   ],
   "revision": "2026-10-04-v4",
-  "title": "Arne · Living the ordinary days",
-  "orientation": "Twelve linked moments about daily life after Ingrid’s death. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+  "title": "Leo · Living the ordinary days",
+  "orientation": "Twelve linked moments about daily life after Eva’s death. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
   "scenes": [
     {
       "id": "mastery_arne_easy_01",
@@ -20,7 +20,7 @@
       "bridge": "A morning in the familiar kitchen.",
       "prompt": "Reflect the loss in this ordinary moment.",
       "text": "[Quietly] I still put two cups out. Seeing hers empty makes me sad.",
-      "suggestion": "That empty cup brings home how much you miss having Ingrid beside you."
+      "suggestion": "That empty cup brings home how much you miss having Eva beside you."
     },
     {
       "id": "mastery_arne_easy_02",
@@ -30,7 +30,7 @@
         "offer_rationale",
         "normalize_experiential_work"
       ],
-      "bridge": "Arne asks what exploring a routine could offer.",
+      "bridge": "Leo asks what exploring a routine could offer.",
       "prompt": "Explain a small, optional way to explore the moment.",
       "text": "[Puzzled] Why talk about the empty cup? I know perfectly well she’s gone.",
       "suggestion": "You know she’s gone. Noticing what the cup brings up might help us understand that lonely moment, if you want to try."
@@ -42,7 +42,7 @@
       "criteriaTags": [
         "validate_context"
       ],
-      "bridge": "Another small trace of Ingrid brings shame about tears.",
+      "bridge": "Another small trace of Eva brings shame about tears.",
       "prompt": "Make his reaction understandable in its context.",
       "text": "[Ashamed] I cried over her handwriting on a shopping list. How silly is that?",
       "suggestion": "That handwriting belongs to someone woven into your everyday life. Being moved by it is understandable."
@@ -55,7 +55,7 @@
         "explore_body",
         "explore_meaning"
       ],
-      "bridge": "Arne recalls the chair beside the table.",
+      "bridge": "Leo recalls the chair beside the table.",
       "prompt": "Ask one open question about the unclear feeling.",
       "text": "[Hesitates] There’s a feeling when I see her empty chair. I can’t quite name it.",
       "suggestion": "What do you notice as you look at that chair in your mind now?"
@@ -81,7 +81,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "bridge": "The conversation turns to sharing a day with Ingrid.",
+      "bridge": "The conversation turns to sharing a day with Eva.",
       "prompt": "Offer a tentative guess about what the loneliness holds.",
       "text": "[Pauses] I had a story for her after the walk. It stayed in my head all evening.",
       "suggestion": "Could part of the loneliness be having nobody to share those small stories with?"
@@ -96,7 +96,7 @@
       ],
       "bridge": "He describes the ordinary things he would tell her at a distance.",
       "prompt": "Offer one close image and check whether it fits.",
-      "text": "[Matter-of-fact] I have small things to tell her. Weather. Knut’s joke.",
+      "text": "[Matter-of-fact] I have small things to tell her. Weather. Tom’s joke.",
       "suggestion": "Those little pieces of your day still turn toward her. Does that sound right?"
     },
     {
@@ -122,7 +122,7 @@
         "grounding",
         "co_regulation"
       ],
-      "bridge": "A later moment is tearful, with Arne still present.",
+      "bridge": "A later moment is tearful, with Leo still present.",
       "prompt": "Follow his request for quiet company.",
       "text": "[Crying, steady breath] I miss her so much just now. Can we be quiet?",
       "suggestion": "Yes. We can be quiet together. You don’t have to find words."
@@ -148,7 +148,7 @@
         "carry_meaning",
         "avoid_forced_optimism"
       ],
-      "bridge": "Arne notices words that let love and tiredness coexist.",
+      "bridge": "Leo notices words that let love and tiredness coexist.",
       "prompt": "Help him name what he wants to keep.",
       "text": "[Softly] I can say I was tired without taking the love away.",
       "suggestion": "How would you say that in your own words, so both the love and the tiredness have a place?"

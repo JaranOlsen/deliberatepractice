@@ -1335,7 +1335,7 @@
         "normalize_experiential_work"
       ],
       "text": "[Nysgjerrig] Hvordan skulle det å snakke om skyld hjelpe meg å glede meg over verkstedet?",
-      "suggestion": "Vi kan undersøke hva du tenker at gleden sier om kjærligheten din til Ingrid, og om det stemmer for deg.",
+      "suggestion": "Vi kan undersøke hva du tenker at gleden sier om kjærligheten din til Eva, og om det stemmer for deg.",
       "difficulty": "easy"
     },
     {
@@ -1418,7 +1418,7 @@
         "offer_rationale",
         "normalize_experiential_work"
       ],
-      "text": "[Urolig] Handler dette om å lære å glemme Ingrid?",
+      "text": "[Urolig] Handler dette om å lære å glemme Eva?",
       "suggestion": "Nei. Vi kan arbeide med å leve disse dagene og samtidig gi plass til det hun betyr for deg.",
       "difficulty": "easy"
     },
@@ -1479,7 +1479,7 @@
         "normalize_experiential_work"
       ],
       "text": "[Forsiktig] Hvis jeg virkelig kjenner lettelsen, blir jeg ikke en dårligere ektemann da?",
-      "suggestion": "Å undersøke lettelsen avgjør ikke hva slags ektemann du var. Det kan hjelpe oss å skille ønsket om hvile fra det å ikke elske Ingrid.",
+      "suggestion": "Å undersøke lettelsen avgjør ikke hva slags ektemann du var. Det kan hjelpe oss å skille ønsket om hvile fra det å ikke elske Eva.",
       "difficulty": "moderate"
     },
     {
@@ -1503,7 +1503,7 @@
         "normalize_experiential_work"
       ],
       "text": "[Usikkert] Hvorfor lytte til sinne? Jeg vil ikke gi henne skylden.",
-      "suggestion": "Sinne kan si noe om belastning eller et udekket behov. Å høre det trenger ikke gjøre Ingrid til problemet; vi kan undersøke hva det faktisk betyr.",
+      "suggestion": "Sinne kan si noe om belastning eller et udekket behov. Å høre det trenger ikke gjøre Eva til problemet; vi kan undersøke hva det faktisk betyr.",
       "difficulty": "moderate"
     },
     {
@@ -1562,7 +1562,7 @@
         "offer_rationale",
         "normalize_experiential_work"
       ],
-      "text": "[Usikkert] Å sette ord på et behov høres lett ut. Å spørre Liv er noe annet.",
+      "text": "[Usikkert] Å sette ord på et behov høres lett ut. Å spørre Emma er noe annet.",
       "suggestion": "Det er et annet steg. Her kan vi først finne ord som passer, og så avgjøre om eller hvordan du vil bruke dem.",
       "difficulty": "moderate"
     },
@@ -1730,7 +1730,7 @@
         "offer_rationale",
         "normalize_experiential_work"
       ],
-      "text": "[Forsiktig] Ikke lag et bilde av Ingrid og be meg snakke til det.",
+      "text": "[Forsiktig] Ikke lag et bilde av Eva og be meg snakke til det.",
       "suggestion": "Det gjør jeg ikke. Ingen forestilt samtale er påkrevd. Vi kan arbeide på måter du velger, også ved bare å snakke med meg.",
       "difficulty": "hard"
     },

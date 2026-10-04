@@ -7,8 +7,8 @@
     "easy"
   ],
   "revision": "2026-10-04-v4",
-  "title": "Arne · Å leve de vanlige dagene",
-  "orientation": "Tolv sammenhengende øyeblikk om hverdagen etter at Ingrid døde. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "title": "Leo · Å leve de vanlige dagene",
+  "orientation": "Tolv sammenhengende øyeblikk om hverdagen etter at Eva døde. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
   "scenes": [
     {
       "id": "mastery_arne_easy_01",
@@ -20,7 +20,7 @@
       "bridge": "En morgen på det kjente kjøkkenet.",
       "prompt": "Speil tapet i dette vanlige øyeblikket.",
       "text": "[Lavt] Jeg setter fortsatt frem to kopper. Jeg blir trist av å se hennes stå tom.",
-      "suggestion": "Den tomme koppen minner deg om hvor mye du savner å ha Ingrid ved siden av deg."
+      "suggestion": "Den tomme koppen minner deg om hvor mye du savner å ha Eva ved siden av deg."
     },
     {
       "id": "mastery_arne_easy_02",
@@ -30,7 +30,7 @@
         "offer_rationale",
         "normalize_experiential_work"
       ],
-      "bridge": "Arne spør hva det kan gi å utforske en rutine.",
+      "bridge": "Leo spør hva det kan gi å utforske en rutine.",
       "prompt": "Forklar en liten, valgfri måte å undersøke øyeblikket på.",
       "text": "[Undrende] Hvorfor snakke om den tomme koppen? Jeg vet godt at hun er borte.",
       "suggestion": "Du vet at hun er borte. Å legge merke til hva koppen vekker, kan hjelpe oss å forstå det ensomme øyeblikket, hvis du vil prøve."
@@ -42,7 +42,7 @@
       "criteriaTags": [
         "validate_context"
       ],
-      "bridge": "Et annet lite spor av Ingrid vekker skam over tårene.",
+      "bridge": "Et annet lite spor av Eva vekker skam over tårene.",
       "prompt": "Gjør reaksjonen hans forståelig i sammenhengen.",
       "text": "[Skamfullt] Jeg gråt over håndskriften hennes på en handleliste. Hvor dumt er ikke det?",
       "suggestion": "Den håndskriften tilhører en som var vevd inn i hverdagen din. Det er forståelig at den berører deg."
@@ -55,7 +55,7 @@
         "explore_body",
         "explore_meaning"
       ],
-      "bridge": "Arne husker stolen ved bordet.",
+      "bridge": "Leo husker stolen ved bordet.",
       "prompt": "Still ett åpent spørsmål om den uklare følelsen.",
       "text": "[Nøler] Det kommer en følelse når jeg ser den tomme stolen hennes. Jeg klarer ikke helt å sette ord på den.",
       "suggestion": "Hva legger du merke til når du ser for deg den stolen nå?"
@@ -81,7 +81,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "bridge": "Samtalen går over til å dele en dag med Ingrid.",
+      "bridge": "Samtalen går over til å dele en dag med Eva.",
       "prompt": "Tilby en tentativ gjetning om hva ensomheten rommer.",
       "text": "[Tar en pause] Jeg hadde en historie til henne etter turen. Den ble værende i hodet hele kvelden.",
       "suggestion": "Kan en del av ensomheten være å ikke ha noen å dele de små historiene med?"
@@ -96,7 +96,7 @@
       ],
       "bridge": "Han beskriver på avstand de vanlige tingene han ville fortalt henne.",
       "prompt": "Tilby ett nært bilde og undersøk om det passer.",
-      "text": "[Saklig] Jeg har små ting å fortelle henne. Været. Spøken til Knut.",
+      "text": "[Saklig] Jeg har små ting å fortelle henne. Været. Spøken til Tom.",
       "suggestion": "De små bitene av dagen din vender seg fortsatt mot henne. Høres det riktig ut?"
     },
     {
@@ -122,7 +122,7 @@
         "grounding",
         "co_regulation"
       ],
-      "bridge": "Et senere øyeblikk er tårefylt, mens Arne fortsatt er til stede.",
+      "bridge": "Et senere øyeblikk er tårefylt, mens Leo fortsatt er til stede.",
       "prompt": "Følg ønsket hans om stille selskap.",
       "text": "[Gråter, puster jevnt] Jeg savner henne så mye akkurat nå. Kan vi være stille?",
       "suggestion": "Ja. Vi kan være stille sammen. Du trenger ikke finne ord."
@@ -148,7 +148,7 @@
         "carry_meaning",
         "avoid_forced_optimism"
       ],
-      "bridge": "Arne merker ord som lar kjærlighet og slitenhet finnes sammen.",
+      "bridge": "Leo merker ord som lar kjærlighet og slitenhet finnes sammen.",
       "prompt": "Hjelp ham å sette ord på det han vil ta vare på.",
       "text": "[Mykt] Jeg kan si at jeg var sliten uten å ta bort kjærligheten.",
       "suggestion": "Hvordan ville du si det med dine egne ord, så både kjærligheten og slitenheten får plass?"

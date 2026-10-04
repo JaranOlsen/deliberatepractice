@@ -1358,7 +1358,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "text": "[Sukker] Jeg sier til Liv at hun ikke skal bekymre seg. Så ønsker jeg at hun skal spørre igjen.",
+      "text": "[Sukker] Jeg sier til Emma at hun ikke skal bekymre seg. Så ønsker jeg at hun skal spørre igjen.",
       "suggestion": "Kanskje du vil at hun skal forstå at du trenger selskap, uten at du må føle deg til bry. Er det sånn?",
       "difficulty": "easy"
     },
@@ -1430,7 +1430,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "text": "[Lavt] Jeg er glad Liv ringer. Jeg venter på at navnet hennes skal dukke opp på mobilen.",
+      "text": "[Lavt] Jeg er glad Emma ringer. Jeg venter på at navnet hennes skal dukke opp på mobilen.",
       "suggestion": "Kan de samtalene gi en god følelse av fortsatt å være en del av noens dag?",
       "difficulty": "easy"
     },
@@ -1466,8 +1466,8 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "text": "[Raskt] Jeg forteller ikke Liv om verkstedet. Hun gråter fortsatt når vi nevner Ingrid.",
-      "suggestion": "Jeg lurer på om du beskytter Liv mot gleden din, som om den kunne såre henne. Passer det?",
+      "text": "[Raskt] Jeg forteller ikke Emma om verkstedet. Hun gråter fortsatt når vi nevner Eva.",
+      "suggestion": "Jeg lurer på om du beskytter Emma mot gleden din, som om den kunne såre henne. Passer det?",
       "difficulty": "moderate"
     },
     {
@@ -1538,7 +1538,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "text": "[Tørr latter] Knut sier at jeg kan ringe når som helst. Det gjør jeg aldri. Sånn er jeg.",
+      "text": "[Tørr latter] Tom sier at jeg kan ringe når som helst. Det gjør jeg aldri. Sånn er jeg.",
       "suggestion": "Jeg lurer på om det å bruke tilbudet kjennes annerledes enn å ha det—kanskje mer sårbart. Gjør det det?",
       "difficulty": "moderate"
     },
@@ -1550,7 +1550,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "text": "[Lavt] Jeg hater «Ingrid ville ønsket at du var glad». De får det til å høres så enkelt ut.",
+      "text": "[Lavt] Jeg hater «Eva ville ønsket at du var glad». De får det til å høres så enkelt ut.",
       "suggestion": "Kan de ordene hoppe over hvor sammensatt det er for deg å glede deg over livet nå?",
       "difficulty": "moderate"
     },
@@ -1610,7 +1610,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "text": "[Oppmerksom] Jeg ringer ikke Knut. Ikke fordi jeg tror han avviser meg. Det er noe annet.",
+      "text": "[Oppmerksom] Jeg ringer ikke Tom. Ikke fordi jeg tror han avviser meg. Det er noe annet.",
       "suggestion": "Kan det å ringe kjennes som å innrømme hvor mye selskap du ønsker? Eller bommer det også?",
       "difficulty": "hard"
     },
@@ -1646,7 +1646,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "text": "[Tar en pause] Jeg vil ha Liv nær, men ikke at hun ser meg som en jobb.",
+      "text": "[Tar en pause] Jeg vil ha Emma nær, men ikke at hun ser meg som en jobb.",
       "suggestion": "Jeg lurer på om bekymringen er å bli en som skal håndteres, fremfor en å være sammen med.",
       "difficulty": "hard"
     },
@@ -1658,7 +1658,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "text": "[Lavt] Jeg er sint på Ingrid i dag. Nei, ikke fordi hun døde.",
+      "text": "[Lavt] Jeg er sint på Eva i dag. Nei, ikke fordi hun døde.",
       "suggestion": "Kan det handle om noe mellom dere som aldri ble hørt? Eller er sinnet et annet sted?",
       "difficulty": "hard"
     },
@@ -1671,7 +1671,7 @@
         "name_underlying_feeling"
       ],
       "text": "[Tørt] Folk roser omsorgen. Jeg skulle heller ønske de spurte hva jeg lager på verkstedet.",
-      "suggestion": "Kanskje du vil møtes som Arne med interesser nå, ikke bare gjennom omsorgen du ga. Passer det?",
+      "suggestion": "Kanskje du vil møtes som Leo med interesser nå, ikke bare gjennom omsorgen du ga. Passer det?",
       "difficulty": "hard"
     },
     {
@@ -1718,7 +1718,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "text": "[Mykt] Knut gjorde ikke ettermiddagen til å handle om Ingrid. Jeg kunne puste lettere.",
+      "text": "[Mykt] Tom gjorde ikke ettermiddagen til å handle om Eva. Jeg kunne puste lettere.",
       "suggestion": "Kan det ha vært plass til å være deg selv uten å forklare tapet? Fanger det noe?",
       "difficulty": "hard"
     },

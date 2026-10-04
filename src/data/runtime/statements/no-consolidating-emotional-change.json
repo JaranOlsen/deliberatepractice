@@ -207,7 +207,7 @@
         "carry_meaning",
         "avoid_forced_optimism"
       ],
-      "text": "[Lavt] Å be Knut bli kjennes mer vanlig nå.",
+      "text": "[Lavt] Å be Tom bli kjennes mer vanlig nå.",
       "suggestion": "Hva har endret seg i hvordan du hører den forespørselen?",
       "difficulty": "easy"
     },
@@ -324,8 +324,8 @@
         "carry_meaning",
         "avoid_forced_optimism"
       ],
-      "text": "[Nølende] «Sliten og glad i henne» passer. Jeg vet ikke om Liv ville forstått.",
-      "suggestion": "Det passer her. Kan vi gi dine ord plass før vi bestemmer hva du skal si til Liv?",
+      "text": "[Nølende] «Sliten og glad i henne» passer. Jeg vet ikke om Emma ville forstått.",
+      "suggestion": "Det passer her. Kan vi gi dine ord plass før vi bestemmer hva du skal si til Emma?",
       "difficulty": "moderate"
     },
     {
@@ -337,7 +337,7 @@
         "carry_meaning",
         "avoid_forced_optimism"
       ],
-      "text": "[Lavt] Gleden på verkstedet trenger ikke bety å holde Ingrid utenfor. Det kjennes nytt.",
+      "text": "[Lavt] Gleden på verkstedet trenger ikke bety å holde Eva utenfor. Det kjennes nytt.",
       "suggestion": "Hva har hjulpet gleden og tilknytningen til henne å få plass ved siden av hverandre?",
       "difficulty": "moderate"
     },
@@ -493,8 +493,8 @@
         "carry_meaning",
         "avoid_forced_optimism"
       ],
-      "text": "[Oppmerksom] Jeg ba om selskap her. Det betyr ikke at jeg kan gjøre det med Liv.",
-      "suggestion": "Her og med Liv er forskjellig. Hva viste denne forespørselen deg, uten at vi gjør den til et krav hjemme?",
+      "text": "[Oppmerksom] Jeg ba om selskap her. Det betyr ikke at jeg kan gjøre det med Emma.",
+      "suggestion": "Her og med Emma er forskjellig. Hva viste denne forespørselen deg, uten at vi gjør den til et krav hjemme?",
       "difficulty": "hard"
     },
     {

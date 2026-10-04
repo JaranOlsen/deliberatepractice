@@ -1548,8 +1548,8 @@
         "grounding",
         "co_regulation"
       ],
-      "text": "[Med tårer] Jeg vil si navnet hennes en gang til. Ingrid.",
-      "suggestion": "Ingrid. Vi kan gi navnet hennes et øyeblikk her.",
+      "text": "[Med tårer] Jeg vil si navnet hennes en gang til. Eva.",
+      "suggestion": "Eva. Vi kan gi navnet hennes et øyeblikk her.",
       "difficulty": "easy"
     },
     {
@@ -1861,7 +1861,7 @@
         "co_regulation"
       ],
       "text": "[Gråter] Hvis du sier at hun ville ønsket at jeg var glad, slutter jeg å snakke.",
-      "suggestion": "Jeg snakker ikke for Ingrid. Jeg kan høre hvor vondt dette gjør nå.",
+      "suggestion": "Jeg snakker ikke for Eva. Jeg kan høre hvor vondt dette gjør nå.",
       "difficulty": "hard"
     },
     {

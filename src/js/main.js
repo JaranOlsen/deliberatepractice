@@ -2628,6 +2628,7 @@ function renderCaseOptions() {
     button.innerHTML = `
       <span class="card-title">${caseItem.label} ${lockTag}</span>
       <span class="card-body">${caseItem.teaser}</span>
+      <span class="case-levels">${caseItem.supportedLevels.map(level => levelLabel(state.languageId, level)).join(' · ')}</span>
     `;
     button.addEventListener("click", () => {
       if (locked) {

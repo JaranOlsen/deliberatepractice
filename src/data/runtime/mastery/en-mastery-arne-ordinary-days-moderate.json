@@ -7,8 +7,8 @@
     "moderate"
   ],
   "revision": "2026-10-04-v4",
-  "title": "Arne · Living the ordinary days",
-  "orientation": "Twelve linked moments about daily life after Ingrid’s death. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+  "title": "Leo · Living the ordinary days",
+  "orientation": "Twelve linked moments about daily life after Eva’s death. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
   "scenes": [
     {
       "id": "mastery_arne_moderate_01",
@@ -30,10 +30,10 @@
         "offer_rationale",
         "normalize_experiential_work"
       ],
-      "bridge": "Arne wonders what relief says about his love.",
+      "bridge": "Leo wonders what relief says about his love.",
       "prompt": "Explain exploration without making a moral verdict.",
       "text": "[Careful] If I feel the relief properly, won’t that make me a worse husband?",
-      "suggestion": "Exploring relief doesn’t decide what kind of husband you were. It may help distinguish wanting rest from not loving Ingrid."
+      "suggestion": "Exploring relief doesn’t decide what kind of husband you were. It may help distinguish wanting rest from not loving Eva."
     },
     {
       "id": "mastery_arne_moderate_03",
@@ -42,10 +42,10 @@
       "criteriaTags": [
         "validate_context"
       ],
-      "bridge": "In another moment, he distinguishes Ingrid from the hospital demands.",
+      "bridge": "In another moment, he distinguishes Eva from the hospital demands.",
       "prompt": "Validate the distinction without erasing the love.",
       "text": "[Self-critical] I miss her, but not the endless waiting at the hospital. I shouldn’t separate those.",
-      "suggestion": "You can miss Ingrid and not miss the strain of those visits. They aren’t the same thing."
+      "suggestion": "You can miss Eva and not miss the strain of those visits. They aren’t the same thing."
     },
     {
       "id": "mastery_arne_moderate_04",
@@ -81,7 +81,7 @@
         "tentative_guess",
         "name_underlying_feeling"
       ],
-      "bridge": "Arne describes the care through its schedule.",
+      "bridge": "Leo describes the care through its schedule.",
       "prompt": "Tentatively check what is harder to share.",
       "text": "[Quietly] I can explain the hospital schedule. The tiredness is harder to say.",
       "suggestion": "Maybe the schedule feels safer to share than how much it cost you. Is that close?"
@@ -122,7 +122,7 @@
         "grounding",
         "co_regulation"
       ],
-      "bridge": "Arne is emotional and asks for a bounded pause.",
+      "bridge": "Leo is emotional and asks for a bounded pause.",
       "prompt": "Respect the pause without assuming he wants to end.",
       "text": "[Voice catches] I need a pause, not to finish for the day.",
       "suggestion": "A pause. We can slow down and check what you want after it."
@@ -134,10 +134,10 @@
       "criteriaTags": [
         "reflect_feeling"
       ],
-      "bridge": "In another moment, an enjoyable walk brings fear of leaving Ingrid out.",
+      "bridge": "In another moment, an enjoyable walk brings fear of leaving Eva out.",
       "prompt": "Hear the enjoyment and its difficult meaning.",
-      "text": "[Quietly] Knut’s jokes helped. Then I felt I’d left Ingrid out of the afternoon.",
-      "suggestion": "Enjoying Knut’s company felt good, then seemed to put your connection with Ingrid at risk."
+      "text": "[Quietly] Tom’s jokes helped. Then I felt I’d left Eva out of the afternoon.",
+      "suggestion": "Enjoying Tom’s company felt good, then seemed to put your connection with Eva at risk."
     },
     {
       "id": "mastery_arne_moderate_11",
@@ -148,9 +148,9 @@
         "carry_meaning",
         "avoid_forced_optimism"
       ],
-      "bridge": "Arne names a small change in how enjoyment can belong.",
+      "bridge": "Leo names a small change in how enjoyment can belong.",
       "prompt": "Explore what shifted without promising it will last.",
-      "text": "[Quietly] Enjoying the workshop needn’t mean leaving Ingrid out. That feels new.",
+      "text": "[Quietly] Enjoying the workshop needn’t mean leaving Eva out. That feels new.",
       "suggestion": "What has helped enjoyment and your connection with her fit alongside each other?"
     },
     {

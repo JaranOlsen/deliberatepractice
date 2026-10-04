@@ -1346,7 +1346,7 @@
         "explore_body",
         "explore_meaning"
       ],
-      "text": "[Quietly] I say I’m fine when Liv asks. It comes out before I think.",
+      "text": "[Quietly] I say I’m fine when Emma asks. It comes out before I think.",
       "suggestion": "What do you notice just before you tell her you’re fine?",
       "difficulty": "easy"
     },
@@ -1370,7 +1370,7 @@
         "explore_body",
         "explore_meaning"
       ],
-      "text": "[Unsure] I don’t know what I wanted Knut to do when I went quiet.",
+      "text": "[Unsure] I don’t know what I wanted Tom to do when I went quiet.",
       "suggestion": "What would have felt helpful from him in that moment?",
       "difficulty": "easy"
     },
@@ -1406,7 +1406,7 @@
         "explore_body",
         "explore_meaning"
       ],
-      "text": "[Thoughtful] I felt good helping Liv. Not just distracted.",
+      "text": "[Thoughtful] I felt good helping Emma. Not just distracted.",
       "suggestion": "What was good about helping her?",
       "difficulty": "easy"
     },
@@ -1478,7 +1478,7 @@
         "explore_body",
         "explore_meaning"
       ],
-      "text": "[Thoughtful] I want Liv there, but not fussing. It’s hard to explain.",
+      "text": "[Thoughtful] I want Emma there, but not fussing. It’s hard to explain.",
       "suggestion": "What kind of being together would feel right to you?",
       "difficulty": "moderate"
     },
@@ -1526,7 +1526,7 @@
         "explore_body",
         "explore_meaning"
       ],
-      "text": "[Unsure] I went quiet when Knut asked about the workshop.",
+      "text": "[Unsure] I went quiet when Tom asked about the workshop.",
       "suggestion": "What was going on in that quiet moment?",
       "difficulty": "moderate"
     },
@@ -1575,7 +1575,7 @@
         "explore_meaning"
       ],
       "text": "[Uncertain] Enjoying the walk felt fine until I thought of her.",
-      "suggestion": "What changed when Ingrid came to mind?",
+      "suggestion": "What changed when Eva came to mind?",
       "difficulty": "moderate"
     },
     {
@@ -1718,7 +1718,7 @@
         "explore_body",
         "explore_meaning"
       ],
-      "text": "[Frowning] I wanted Liv there, and I hated being watched. Neither is the whole thing.",
+      "text": "[Frowning] I wanted Emma there, and I hated being watched. Neither is the whole thing.",
       "suggestion": "What would help us hear the part that’s missing from those two descriptions?",
       "difficulty": "hard"
     },
