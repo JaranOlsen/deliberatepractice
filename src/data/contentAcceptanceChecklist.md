@@ -1,7 +1,7 @@
 # Content Acceptance Checklist
 
-Revision: 2026-10-04-v2
-Generated: 2026-10-04T07:48:35.855Z
+Revision: 2026-10-04-v3
+Generated: 2026-10-04T08:18:43.063Z
 
 ## Gate
 - Approved items: 1296/1296

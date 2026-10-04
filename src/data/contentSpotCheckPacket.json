@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-04T07:48:35.854Z",
-  "revision": "2026-10-04-v2",
+  "generatedAt": "2026-10-04T08:18:43.063Z",
+  "revision": "2026-10-04-v3",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
     "Confirm case voice, skill purity, difficulty fit, response naturalness, and translation tone.",

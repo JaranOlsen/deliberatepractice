@@ -1,6 +1,6 @@
 "use strict";
 
-export const CONTENT_REVISION = "2026-10-04-v2";
+export const CONTENT_REVISION = "2026-10-04-v3";
 export const CONTENT_UPDATED_AT = "2026-10-04";
 
 export const CONTENT_TRACKS = Object.freeze({

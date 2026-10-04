@@ -64,7 +64,7 @@ export const SKILLS = [
   {
     id: "providing-treatment-rationale",
     name: "Providing Treatment Rationale for Emotion-Focused Therapy",
-    description: "Offer a clear, empathic explanation of why EFT works with emotion and how you will guide it safely, to reduce anxiety and resistance.",
+    description: "Explain the purpose of emotion work in plain language, connected to the client’s concerns, goals, and choices.",
     summary:
       "A treatment rationale helps the client understand why you are inviting attention to feelings and how that connects to what they want from therapy. Begin with the actual concern: perhaps talking seems pointless, emotion feels dangerous, or the client wants a practical change. Give a brief explanation that answers that concern rather than a general lesson about EFT.\n\nFeelings can help us notice what hurts, what matters, and what we need. Exploring an emotional reaction may also make it easier to recognize what happens before withdrawal, self-attack, or an outburst. Explain this as a purpose to work toward, not a promise that noticing one feeling will produce a particular result.\n\nMake the work collaborative. Describe how you can slow down, pause, or begin with a small moment, and check whether the explanation fits. Immediate safety needs take priority. A good rationale offers orientation and choice; it does not argue the client into a task or guarantee a timetable for change.",
     marker:
@@ -177,7 +177,7 @@ export const SKILLS = [
     aim:
       "Re-establish safety, trust, and collaboration by openly receiving rupture feedback, validating the client’s feelings, and owning your part where relevant. Clear obstacles in the relationship so the client can again engage vulnerably with their primary emotions and core pain in a secure therapeutic context.",
     practiceFocus:
-      "Receive the client’s impact, validate it, own your part, and ask what would help now.",
+      "Hear the client’s experience, own your part where relevant, and offer one concrete adjustment together.",
     commonMiss:
       "Explaining your intention too soon, defending yourself, or moving back to technique before repair lands."
   },

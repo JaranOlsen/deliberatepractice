@@ -459,7 +459,7 @@ function lintSkillPurity(skillId, suggestion) {
   }
   if (
     skillId === "providing-treatment-rationale" &&
-    !/(because|\bhelps?\b|in this|we go|we can|so that|learning|lets|allows|teach|build|turn|update|refine|target|goal|\baim\b|\bpoint\b|\bpurpose\b|practice|map|learn)/i.test(text)
+    !/(because|\bhelps?\b|in this|we go|we can|so that|learning|lets|allows|teach|build|turn|update|refine|target|goal|\baim\b|\bpoint\b|\bpurpose\b|\bagree on\b|practice|map|learn)/i.test(text)
   ) {
     warnings.push("treatment_rationale_missing_explanatory_language");
   }
@@ -471,7 +471,7 @@ function lintSkillPurity(skillId, suggestion) {
   }
   if (
     skillId === "alliance-repair" &&
-    !/(sorry|apolog|thank you for telling me|thanks for telling me|i hear)/i.test(lower)
+    !/(sorry|apolog|thank you for telling me|thanks for telling me|i hear|that is a fair question|that is important to talk about)/i.test(lower)
   ) {
     warnings.push("alliance_repair_missing_ownership_or_receiving_language");
   }

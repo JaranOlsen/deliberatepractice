@@ -147,7 +147,7 @@
       "case-marcus"
     ]
   },
-  "CONTENT_REVISION": "2026-10-04-v2",
+  "CONTENT_REVISION": "2026-10-04-v3",
   "CONTENT_UPDATED_AT": "2026-10-04",
   "LANGUAGE_ORDER": [
     "en",
@@ -1434,7 +1434,7 @@
       },
       "providing-treatment-rationale": {
         "name": "Behandlingsrasjonale for følelsesfokusert terapi",
-        "description": "Gi en kort, empatisk forklaring på hvorfor følelsesfokusert terapi arbeider med følelser, og hvordan du leder det trygt.",
+        "description": "Forklar hensikten med følelsesarbeid med enkelt språk, knyttet til klientens bekymringer, mål og valgmuligheter.",
         "summary": "En begrunnelse for behandlingen hjelper klienten å forstå hvorfor du inviterer til å rette oppmerksomheten mot følelser, og hvordan det henger sammen med det de ønsker fra terapien. Begynn med den konkrete bekymringen: Kanskje praten virker meningsløs, følelser kjennes farlige, eller klienten ønsker en praktisk endring. Svar kort på den bekymringen, fremfor å gi en generell innføring i EFT.\n\nFølelser kan hjelpe oss å legge merke til det som gjør vondt, det som betyr noe, og det vi trenger. Å utforske en reaksjon kan også gjøre det lettere å kjenne igjen det som skjer før vi trekker oss unna, angriper oss selv eller får et utbrudd. Beskriv dette som noe dere kan jobbe mot, ikke som et løfte om at én følelse vil gi et bestemt resultat.\n\nGjør arbeidet til et samarbeid. Forklar hvordan dere kan senke tempoet, ta en pause eller begynne med ett lite øyeblikk, og undersøk om begrunnelsen passer for klienten. Akutte behov for sikkerhet kommer først. En god begrunnelse gir oversikt og valgfrihet. Den overtaler ikke klienten til en oppgave og lover ikke hvor lang tid endring vil ta.",
         "marker": "Klienten spør hvordan terapien virker, uttrykker skepsis eller frykt, eller nøler før en oppgave.",
         "aim": "Hjelpe klienten å forstå hensikten med emosjonsarbeidet ut fra sin egen bekymring eller sitt eget mål. Gi en kort, ærlig forklaring med rom for å velge, stille spørsmål eller si nei.",
@@ -1501,7 +1501,7 @@
         "summary": "Alliansereparasjon begynner når klienten kjenner seg misforstått, såret, dømt eller uten kontakt med terapeuten. Ta imot det de sier før du forklarer hensikten din. Speil virkningen med ord som ligger nær deres opplevelse, og gi dem rom til å korrigere forståelsen din.\n\nTa ansvar for din del når klienten beskriver noe du gjorde: at du gikk for fort frem, brukte et sårende uttrykk, overså en grense eller tolket stillhet feil. Be enkelt om unnskyldning når det er relevant, og tilby en konkret endring. Hvis bekymringen gjelder usikkerhet eller om behandlingen passer, undersøk det ærlig fremfor å finne på en feil eller berolige med en påstand om kompetanse.\n\nReparasjon er en samtale, ikke en tale. Du kan foreslå å senke tempoet, legge bort et tema, undersøke antakelser eller avklare en avtale, og så høre om det hjelper. Ikke be klienten utforme hele reparasjonen eller gå tilbake til teknikken før bekymringen er blitt hørt.",
         "marker": "Klienten viser tegn til avstand, irritasjon eller mistillit mot deg – for eksempel «du forstår meg ikke», kjølighet, økt gardering eller at de uteblir fra timer – eller du merker en tydelig endring i stemning etter en intervensjon som ikke traff. De kan gi direkte eller indirekte klager på terapien eller på deg som terapeut.",
         "aim": "Gjenopprette trygghet, tillit og samarbeid ved å ta imot bruddsignaler med empati, validere klientens reaksjoner og eie din del der det er relevant. Fjerne hindringer i relasjonen slik at klienten igjen kan våge seg inn i sårbare primærfølelser og kjernesmerte innenfor en trygg, terapeutisk ramme.",
-        "practiceFocus": "Ta imot virkningen på klienten, valider den, ei din del, og spør hva som ville hjelpe nå.",
+        "practiceFocus": "Hør klientens opplevelse, ta ansvar for din del der det er relevant, og tilby én konkret endring i samarbeidet.",
         "commonMiss": "Å forklare intensjonen din for tidlig, gå i forsvar eller hoppe tilbake til teknikk før reparasjonen har landet."
       }
     }
@@ -1545,7 +1545,7 @@
     },
     "providing-treatment-rationale": {
       "name": "Providing Treatment Rationale for Emotion-Focused Therapy",
-      "description": "Offer a clear, empathic explanation of why EFT works with emotion and how you will guide it safely, to reduce anxiety and resistance.",
+      "description": "Explain the purpose of emotion work in plain language, connected to the client’s concerns, goals, and choices.",
       "summary": "A treatment rationale helps the client understand why you are inviting attention to feelings and how that connects to what they want from therapy. Begin with the actual concern: perhaps talking seems pointless, emotion feels dangerous, or the client wants a practical change. Give a brief explanation that answers that concern rather than a general lesson about EFT.\n\nFeelings can help us notice what hurts, what matters, and what we need. Exploring an emotional reaction may also make it easier to recognize what happens before withdrawal, self-attack, or an outburst. Explain this as a purpose to work toward, not a promise that noticing one feeling will produce a particular result.\n\nMake the work collaborative. Describe how you can slow down, pause, or begin with a small moment, and check whether the explanation fits. Immediate safety needs take priority. A good rationale offers orientation and choice; it does not argue the client into a task or guarantee a timetable for change.",
       "marker": "Clients ask how therapy works, question the value of focusing on feelings, voice fears about being overwhelmed, or hesitate before experiential tasks. They may look puzzled, skeptical, or disconnected when you invite attention to emotion or the body.",
       "aim": "Help the client understand the purpose of emotion work in relation to their concern or goal. Give a brief, honest explanation with room to choose, question, or decline.",
@@ -1612,7 +1612,7 @@
       "summary": "Alliance repair begins when the client feels misunderstood, hurt, judged, or disconnected from the therapist. Receive what they say before explaining your intention. Reflect the impact in their terms and make room for them to correct your understanding.\n\nOwn your contribution when the client describes something you did: moving too quickly, choosing a hurtful phrase, overlooking a limit, or misreading silence. Apologize plainly where appropriate and offer a concrete change. If the concern is about uncertainty or treatment fit, explore it honestly rather than invent a mistake or a reassuring claim about competence.\n\nRepair is a conversation, not a speech. You can suggest slowing down, setting a topic aside, checking assumptions, or clarifying an agreement, then hear whether that helps. Do not ask the client to design the whole repair or return to technique before their concern has been heard.",
       "marker": "The client shows signs of disconnection, irritation, or mistrust toward you, such as 'You don’t get me,' coolness, guardedness, or avoidance of sessions, or you sense a shift in the atmosphere after a misattuned intervention. They may offer direct or indirect complaints about the therapy or about you.",
       "aim": "Re-establish safety, trust, and collaboration by openly receiving rupture feedback, validating the client’s feelings, and owning your part where relevant. Clear obstacles in the relationship so the client can again engage vulnerably with their primary emotions and core pain in a secure therapeutic context.",
-      "practiceFocus": "Receive the client’s impact, validate it, own your part, and ask what would help now.",
+      "practiceFocus": "Hear the client’s experience, own your part where relevant, and offer one concrete adjustment together.",
       "commonMiss": "Explaining your intention too soon, defending yourself, or moving back to technique before repair lands."
     }
   },
