@@ -1,3 +1,4 @@
+import {FIXED_CASE_EXTENSION_TRANSLATIONS} from './fixedCaseExtensions.js';
 import {NORA_CASE_NO,NORA_SKILLS} from './noraCase.js';
 import {NORA_TRANSLATIONS} from './noraContent.js';
 import {MIA_CASE_NO,MIA_SKILLS} from './miaCase.js';
@@ -7209,3 +7210,5 @@ for (const skill of NORA_SKILLS) {
  LANGUAGE_OVERRIDES.no[skill].cases ??= {};
  LANGUAGE_OVERRIDES.no[skill].cases['case-nora'] = NORA_CASE_NO;
 }
+
+Object.assign(STATEMENT_TRANSLATIONS.no, FIXED_CASE_EXTENSION_TRANSLATIONS);

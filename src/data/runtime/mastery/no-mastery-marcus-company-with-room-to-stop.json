@@ -1,0 +1,180 @@
+{
+  "id": "mastery-marcus-company-with-room-to-stop",
+  "type": "mastery",
+  "caseId": "case-marcus",
+  "difficulty": "hard",
+  "supportedLevels": [
+    "hard"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Marcus · Selskap med rom for å stoppe",
+  "orientation": "Små øyeblikk uten akutt fare om avstand, ensomhet og å velge kontakt. Ingen detaljer fra traumer eller sterkere følelser kreves. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "scenes": [
+    {
+      "id": "mastery_marcus_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-marcus_01",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Marcus begynner med hverdagsrutinen og avstanden.",
+      "prompt": "Speil avstanden uten å fylle den med en følelse.",
+      "text": "[Langsomt og flatt] De fleste dager fullfører jeg rutinene og kjenner nesten ingenting bak ansiktet. Folk snakker til meg, og jeg svarer litt forsinket, som om ordene må reise for langt.",
+      "suggestion": "Du kommer deg gjennom dagen uten å kjenne stort, og selv det å svare folk kjennes langsomt og fjernt."
+    },
+    {
+      "id": "mastery_marcus_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-marcus_02",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Han spør om arbeid som kan bli for mye.",
+      "prompt": "Forklar valg og en håndterbar mengde.",
+      "text": "[Langsomt og flatt] Jeg vil ikke bli oversvømt; når jeg mister kontrollen, forsvinner jeg i flere dager.",
+      "suggestion": "Det at du mister dager, må vi ta på alvor. Vi kan begynne med det som hjelper deg å være til stede, og avtale når vi stopper opp. Målet er å forstå litt av opplevelsen din i et håndterbart tempo, ikke presse deg gjennom et minne."
+    },
+    {
+      "id": "mastery_marcus_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-marcus_02",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et annet øyeblikk vekker selvkritikk over ord som mangler.",
+      "prompt": "Valider det vanskelige uten å kreve en tydelig fortelling.",
+      "text": "[Fortumlet] Jeg vet ikke hva jeg føler. Det er trykk, sinne og ingenting på samme tid, og jeg føler meg dum fordi jeg ikke har ord.",
+      "suggestion": "Ordene kan forsvinne når trykk, sinne og nummenhet kommer samtidig; det å ikke vite hører til overveldelsen, ikke til dumhet."
+    },
+    {
+      "id": "mastery_marcus_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-marcus_01",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "bridge": "En bølge er vanskelig å sette ord på.",
+      "prompt": "Still ett lite spørsmål med plass til å ikke vite.",
+      "text": "[Langsomt og flatt] De fleste dager er jeg nummen, og så treffer en bølge helt ut av det blå.",
+      "suggestion": "Når du beskriver den bølgen, hva merker du i deg selv nå?"
+    },
+    {
+      "id": "mastery_marcus_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-marcus_01",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et annet øyeblikk blir ved den uklare opplevelsen.",
+      "prompt": "Undersøk ved kanten fremfor å lete etter traumadetaljer.",
+      "text": "[Langsomt og flatt] De fleste dager er jeg nummen, og så treffer noe meg, og jeg vet ikke hva det er.",
+      "suggestion": "Du kjenner deg nummen, og så kommer det noe du ikke kan sette ord på. Vi kan ta det langsomt. Hva merker du av det mens du forteller nå?"
+    },
+    {
+      "id": "mastery_marcus_06",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-marcus_01",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Han beskriver å gjøre det forventede uten å være helt med.",
+      "prompt": "Bruk et nært bilde med rom for å avvise det.",
+      "text": "[Håpløs] De fleste dager går jeg bare gjennom rutinene, møter opp der jeg skal, og ser fortsatt ikke poenget med å snakke om det.",
+      "suggestion": "Det høres ut som å komme seg gjennom en dag der alle fargene er borte, og praten kjennes som enda en anstrengelse som ikke fører noe sted."
+    },
+    {
+      "id": "mastery_marcus_07",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-marcus_05",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "Marcus sier et temaskifte hjalp da han begynte å gli bort.",
+      "prompt": "Respekter skiftet og vend tilbake til rommet nå.",
+      "text": "[Lavt] Gikk til jobbprat fordi jeg begynte å gli bort.",
+      "suggestion": "Vi lar den følelsen ligge og kommer tilbake til dette rommet. Du trenger ikke gå videre."
+    },
+    {
+      "id": "mastery_marcus_08",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-marcus_01",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et eget øyeblikk vekker en bølge han ikke vil gå lenger inn i.",
+      "prompt": "Tilby kontakt og en pause uten detaljer fra minner.",
+      "text": "[Flatt] En bølge kommer opp i brystet, og jeg vil stenge den ned før den tar meg tilbake dit.",
+      "suggestion": "Du er redd følelsen skal ta deg tilbake dit. Jeg er her med deg. Vi kan stoppe opp og legge merke til hvor vi er nå, uten å gå lenger inn i minnet."
+    },
+    {
+      "id": "mastery_marcus_09",
+      "skillId": "alliance-repair",
+      "sourceItemId": "dp_alliance-repair_case-marcus_01",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Han husker press i en tidligere terapisamtale.",
+      "prompt": "Anerkjenn at nummenheten allerede var grensen for det han klarte.",
+      "text": "[Langsomt og flatt] Da jeg sa at jeg ikke følte noe, fortsatte du å spørre hva som lå under, og jeg stengte ned. Ingenting var allerede kanten; det føltes som om du ville at jeg skulle produsere noe annet.",
+      "suggestion": "Du fortalte at du ikke kjente noe, og jeg fortsatte å be deg finne noe annet. Unnskyld. Vi kan slutte å lete etter det nå. Jeg vil ta det du faktisk opplever på alvor, også at du ikke kjenner noe."
+    },
+    {
+      "id": "mastery_marcus_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-marcus_10",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et annet øyeblikk setter ord på ønsket om selskap og en utvei.",
+      "prompt": "Speil begge uten å velge nærhet for ham.",
+      "text": "[Redd] Jeg vil slippe folk inn, men hver gang noen kommer nær, begynner jeg å se etter utgangen. Så ender jeg alene igjen og hater det også.",
+      "suggestion": "Du vil ha nærhet, frykten sender deg mot utgangen, og så gjør alenetilstanden også vondt."
+    },
+    {
+      "id": "mastery_marcus_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-marcus_01",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Marcus merker å kunne stoppe og fortsatt være til stede.",
+      "prompt": "Hjelp ham å si den lille forskjellen.",
+      "text": "[Lavt] Sa stopp. Du stoppet. Ble her.",
+      "suggestion": "Hva var annerledes med å kunne stoppe?"
+    },
+    {
+      "id": "mastery_marcus_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-marcus_09",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "Den tenkte timen slutter med en avstand han vil ha husket.",
+      "prompt": "Behold det ønsket uten å be om mer deling.",
+      "text": "[Lavt] Neste gang, samme avstand i starten.",
+      "suggestion": "Vi noterer den avstanden, så du ikke må få den på plass igjen i starten."
+    }
+  ]
+}

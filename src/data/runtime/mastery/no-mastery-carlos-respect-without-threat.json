@@ -1,0 +1,180 @@
+{
+  "id": "mastery-carlos-respect-without-threat",
+  "type": "mastery",
+  "caseId": "case-carlos",
+  "difficulty": "moderate",
+  "supportedLevels": [
+    "moderate"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Carlos · Respekt uten trusler",
+  "orientation": "Øyeblikk om ydmykelse, frykt og ønsket om nærhet. Å forstå det såre unnskylder aldri skremmende oppførsel. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "scenes": [
+    {
+      "id": "mastery_carlos_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-carlos_11",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "bridge": "Carlos begynner med en endret plan på jobb.",
+      "prompt": "Speil sinnet og det flaue etterpå.",
+      "text": "[Sint, så roligere] Han endret planen for laget mitt uten å spørre. Jeg ble sint. Etterpå var jeg flau over at gutta så hvor lett han fikk meg til å reagere.",
+      "suggestion": "Du er sint over at han overkjørte deg, og flau over at alle så hvor sterkt det gikk inn på deg."
+    },
+    {
+      "id": "mastery_carlos_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-carlos_02",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Han ber om noe nyttig når varmen stiger.",
+      "prompt": "Knytt forståelse til å velge et annet svar.",
+      "text": "[Anspent] Hvorfor snakke om følelser i stedet for å gi meg verktøy jeg kan bruke når jeg blir opphetet?",
+      "suggestion": "Vi kan jobbe med noe du kan bruke når sinnet stiger. Å forstå hva du kjenner rett før, hjelper oss å velge hva vi skal øve på, som å trekke deg unna eller si hva som plaget deg. Poenget er å bruke den forståelsen til å handle annerledes."
+    },
+    {
+      "id": "mastery_carlos_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-carlos_02",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et annet øyeblikk gjelder frykt for andres blikk.",
+      "prompt": "Valider sårbarhet uten å støtte dominering.",
+      "text": "[Anspent] Hvis jeg ikke kommer inn sterkt, ser jeg for meg at folk får øye på den redde gutten jeg var, og det føles ydmykende før noen egentlig har gjort noe.",
+      "suggestion": "Hvis det er ydmykende å bli sett som redd, er det forståelig å grue seg til å bli sett slik. Den redde siden av deg fortjener også respekt, uten å måtte bevise styrke."
+    },
+    {
+      "id": "mastery_carlos_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-carlos_01",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Han husker et spørsmål fra formannen.",
+      "prompt": "Spør åpent om virkningen på ham.",
+      "text": "[Defensiv] Når formannen stiller spørsmål ved meg foran gjengen, ler jeg det bort, men klarer ikke slippe det.",
+      "suggestion": "Hva merker du inni deg når du tenker på at formannen stilte spørsmål ved deg?"
+    },
+    {
+      "id": "mastery_carlos_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-carlos_02",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et eget øyeblikk kommer etter en krangel hjemme.",
+      "prompt": "Undersøk det som er til stede før dere velger en handling.",
+      "text": "[Anspent] Etter en krangel kan jeg bli stående i gangen uten å vite om jeg skal si unnskyld eller late som ingenting.",
+      "suggestion": "Det øyeblikket i gangen har både reparasjon og flukt i seg. Det kan være verdt å bli ved uvissheten før en av bevegelsene vinner."
+    },
+    {
+      "id": "mastery_carlos_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-carlos_01",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Han beskriver hvor raskt han reagerer på en tone.",
+      "prompt": "Tilby én liten gjetning han kan avvise.",
+      "text": "[Anspent og sint] En respektløs tone vipper en bryter i meg før jeg vet hva som ble truffet.",
+      "suggestion": "Sinnet kommer så fort. Jeg lurer på om du kjenner deg ydmyket et kort øyeblikk rett før det."
+    },
+    {
+      "id": "mastery_carlos_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-carlos_01",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et annet øyeblikk med arbeidslaget beskrives gjennom det han gjør etterpå.",
+      "prompt": "Gjør opplevelsen nærere uten å skape skam.",
+      "text": "[Defensiv] Når noen gliser til meg på arbeidslaget, blir jeg fort anspent og bruker resten av timen på å sørge for at ingen tror jeg lot det passere.",
+      "suggestion": "Det gliset ser ut til å treffe som en gnist, og plutselig går den neste timen med til å vise at ingen får tråkke på deg."
+    },
+    {
+      "id": "mastery_carlos_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-carlos_01",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "Det såre går over til det den andre burde lære.",
+      "prompt": "Inviter tilbake uten å diskutere hvem som fortjener respekt.",
+      "text": "[Såret, så hardere] Han fikk meg til å føle meg som en vits. Han må lære respekt.",
+      "suggestion": "Kan vi stoppe ved å føle deg som en vits før vi avgjør hva han må lære?"
+    },
+    {
+      "id": "mastery_carlos_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-carlos_02",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et senere øyeblikk fanger frykt når stemmen stiger.",
+      "prompt": "Behold kontakt og ord uten å invitere til trusler.",
+      "text": "[Anspent og sint] Stemmen min vil rope før noen ser at jeg er rystet. Når partneren min stiller ett forsiktig spørsmål, kjenner jeg volumet stige for å dekke over den delen av meg som ble redd.",
+      "suggestion": "Jeg tåler kraften i deg uten at den må bli til roping. Den redde delen trenger ikke dekkes over alene; vi kan holde styrken i ord uten at den blir truende."
+    },
+    {
+      "id": "mastery_carlos_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-carlos_10",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Carlos setter ord på hva sinnet koster i familien.",
+      "prompt": "Speil skam og ønsket om at de er trygge.",
+      "text": "[Skamfull] Jeg vil at familien min skal føle seg trygg med meg. Når de fortsatt skvetter av stemmen min, kjennes det som bevis på at jeg allerede har ødelagt noe.",
+      "suggestion": "Du vil at de skal føle seg trygge med deg, og når de skvetter, lander det som bevis på at noe allerede er skadet."
+    },
+    {
+      "id": "mastery_carlos_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-carlos_05",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Han skiller nærhet fra at noen blir av frykt.",
+      "prompt": "Hjelp ham å si forskjellen med egne ord.",
+      "text": "[Trist, roligere] Jeg vil ha henne nær. Jeg vil ikke at hun blir fordi hun er redd.",
+      "suggestion": "Hva tydeliggjør den forskjellen om nærheten du ønsker?"
+    },
+    {
+      "id": "mastery_carlos_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-carlos_03",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "Timen slutter; han vil at ansvaret beholdes i bildet.",
+      "prompt": "Avslutt uten å gjøre forståelse til en unnskyldning.",
+      "text": "[Angrende] Jeg vil ikke gå med en unnskyldning for det jeg gjorde.",
+      "suggestion": "Vi kan beholde både ansvaret og det du lærte om det såre. Hvilke ord passer?"
+    }
+  ]
+}

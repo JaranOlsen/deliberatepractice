@@ -3,6 +3,8 @@ async page => {
  const url=page.url();if(!['localhost','127.0.0.1'].includes(new URL(url).hostname))throw new Error('Local preview only');
  const assert=(ok,message)=>{if(!ok)throw new Error(message);},errors=[];
  const cases=[
+  {name:'Partial fixed-case server',exercises:['mastery-sara-evenings','mastery-michael-before-the-outburst','mastery-david-an-ordinary-evening'],fixed:['mastery-michael-before-the-outburst','mastery-david-an-ordinary-evening']},
+  {name:'Wrong fixed-case revision',exercises:['mastery-sara-evenings','mastery-michael-before-the-outburst','mastery-david-an-ordinary-evening'],wrong:true},
   {name:'Sara-only server',exercises:['mastery-sara-evenings'],arne:false},
   {name:'Partial Leo server',exercises:['mastery-sara-evenings','mastery-arne-ordinary-days-moderate','mastery-arne-ordinary-days-hard'],arne:true},
   {name:'Partial Nora server',exercises:['mastery-sara-evenings','mastery-nora-work-and-belonging-moderate','mastery-nora-work-and-belonging-hard'],nora:true},
@@ -31,7 +33,7 @@ async page => {
   try {
    const p=await context.newPage();p.on('pageerror',e=>errors.push(e.message));
    const capability={protocol:'guided-mastery-v1',exercises:test.exercises.map(id=>({id,revision:test.wrong&&!id.includes('sara')?'older-revision':'2026-10-04-v4'}))};
-   await context.addInitScript(()=>localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:'en',practiceMode:'group',groupUiVersion:2})));
+   await context.addInitScript(()=>{localStorage.setItem('dp_access_level','all');localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:'en',practiceMode:'group',groupUiVersion:2}));});
    await context.route('**/src/js/backend.js*',route=>route.fulfill({contentType:'text/javascript',body:stub.replace('CAPABILITY','('+JSON.stringify(capability)+')')}));
    await p.goto(url);await p.waitForFunction(()=>document.getElementById('account-button').textContent==='Account');
    await p.locator('#home-library').click();await p.locator('#exercise-mastery:not(:disabled)').waitFor();await p.locator('#exercise-mastery').click();
@@ -42,6 +44,14 @@ async page => {
    assert(await mia.count()===(test.mia?1:0),test.name+': unsupported Mia variants are hidden');
    const nora=p.locator('#mastery-library [data-exercise-id^="mastery-nora"]');
    assert(await nora.count()===(test.nora?1:0),test.name+': unsupported Nora variants are hidden');
+   for(const id of ['mastery-michael-before-the-outburst','mastery-jason-room-for-a-sentence','mastery-laura-company-at-her-pace','mastery-carlos-respect-without-threat','mastery-nina-a-need-of-her-own','mastery-aisha-contact-and-an-ending','mastery-david-an-ordinary-evening','mastery-marcus-company-with-room-to-stop'])
+    assert(await p.locator(`#mastery-library [data-exercise-id="${id}"]`).count()===(test.fixed?.includes(id)?1:0),test.name+': only exact registered fixed paths are offered');
+   if(test.fixed){
+    await p.locator(`[data-exercise-id="${test.fixed[0]}"]`).click();await p.locator('#mastery-use-room').waitFor();
+    assert(await p.locator('.practice-level-options button').count()===0,'A fixed path never acquires an alternate level');
+    await p.evaluate(()=>document.documentElement.style.fontSize='200%');
+    assert(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Fixed host selection fits enlarged phone text');
+   }
    if(test.arne||test.mia||test.nora){
     const card=test.nora?nora:test.mia?mia:arne;
     assert(await card.getAttribute('data-exercise-id')===(test.nora?'mastery-nora-work-and-belonging-moderate':test.mia?'mastery-mia-help-and-choice-moderate':'mastery-arne-ordinary-days-moderate'),'Only supported levels determine the default');

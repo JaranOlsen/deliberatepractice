@@ -31,7 +31,7 @@ test('runtime exercises preserve all English/Norwegian text, stable IDs and rati
       }
     }
   }
-  assert.equal(checked, 5040);
+  assert.equal(checked, 5616);
 });
 
 test('sharing case descriptions preserves library, skill guide, glossary and localized case content', () => {

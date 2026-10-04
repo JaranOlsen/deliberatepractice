@@ -1,18 +1,20 @@
 // Playwright CLI, local preview + isolated Postgres bridge only.
 async page => {
  const url=page.url();if(!['127.0.0.1','localhost'].includes(new URL(url).hostname))throw new Error('Local preview only');
- const testCase=new URL(url).searchParams.get('testCase'),key=['arne','mia','nora'].includes(testCase)?testCase:'arne';
- const caseId='case-'+key,displayName={arne:'Leo',mia:'Mia',nora:'Nora'}[key];
+ const testCase=new URL(url).searchParams.get('testCase'),key=testCase??'arne',variable=['arne','mia','nora'].includes(key);
+ const caseId='case-'+key,displayName={arne:'Leo',mia:'Mia',nora:'Nora'}[key]??key[0].toUpperCase()+key.slice(1);
+ const manifest=await(await page.request.get(new URL('src/data/runtime/manifest.json',url).href)).json();
+ const levels=manifest.cases[caseId].supportedLevels;
  const users=await (await page.request.get('http://127.0.0.1:5199/users')).json();
  const assert=(ok,message)=>{if(!ok)throw new Error(message);};
  const contexts=[],errors=[],rounds=[];let stage='setup';
- const skills=['empathic-understanding','providing-treatment-rationale','empathic-affirmation-validation','exploratory-questions','empathic-explorations','empathic-conjectures','empathic-evocations','staying-in-contact-intense-affect','empathic-refocusing','consolidating-emotional-change','closing-after-emotional-work'];
+ const skills=variable?['empathic-understanding','providing-treatment-rationale','empathic-affirmation-validation','exploratory-questions','empathic-explorations','empathic-conjectures','empathic-evocations','staying-in-contact-intense-affect','empathic-refocusing','consolidating-emotional-change','closing-after-emotional-work']:['empathic-refocusing','consolidating-emotional-change','closing-after-emotional-work'];
  try {
   for(const language of ['en','no']){
    const mode=language==='en'?'individual':'triad';
    const context=await page.context().browser().newContext({viewport:{width:320,height:844}});contexts.push(context);
    const p=await context.newPage();p.on('pageerror',e=>errors.push(e.message));
-   await context.addInitScript(({language,mode})=>localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:language,practiceMode:mode,groupUiVersion:2})),{language,mode});
+   await context.addInitScript(({language,mode})=>{localStorage.setItem('dp_access_level','all');localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:language,practiceMode:mode,groupUiVersion:2}));},{language,mode});
    await context.route('**/src/js/backend.js*',route=>route.fulfill({contentType:'text/javascript',body:`
     const user={id:'${users.t}',email:'t@local.invalid'};
     export const isSupabaseReady=()=>true,isAccessExpired=()=>false;
@@ -45,29 +47,29 @@ async page => {
     await p.evaluate(()=>document.documentElement.style.fontSize='');
    };
    await p.goto(url);await p.waitForFunction(()=>['Account','Konto'].includes(document.querySelector('#account-button').textContent));await click('home-library');
-   // The UI advertises exactly the eleven supported skills, with three complete levels.
+   // Variable cases expose complete levels; fixed cases keep one level for each extension.
    for(const skill of skills){
     await p.locator(`button[data-skill-id="${skill}"]`).click();
     const card=p.locator(`[data-case-id="${caseId}"]`);
-    assert((await card.locator('.card-title').textContent()).trim()===displayName,'The case uses its new display name');
-    assert(await card.locator('.case-levels').textContent()===(language==='no'?'Lett · Moderat · Vanskelig':'Easy · Moderate · Hard'),'All available levels appear before opening the case');
+    assert((await card.locator('.card-title').textContent()).trim().startsWith(displayName),'The case uses its new display name');
+    if(variable)assert(await card.locator('.case-levels').textContent()===(language==='no'?'Lett · Moderat · Vanskelig':'Easy · Moderate · Hard'),'All available levels appear before opening the case');
     if(skill===skills[0]){await fits();await p.screenshot({path:`output/playwright/${displayName.toLowerCase()}-case-levels-${language}-320.png`,fullPage:true});}
     await card.click();await p.locator('#start-practice:not(:disabled)').waitFor();
-    assert(await p.locator('#case-level-choice button').count()===3,'One compact level choice');
-    for(const level of ['easy','moderate','hard']){
-     stage=`${language}/${skill}/${level}`;await p.locator(`[data-practice-level="${level}"]`).click();
-     assert(await p.locator(`[data-practice-level="${level}"]`).getAttribute('aria-pressed')==='true','Selected level is visible');await fits();
+    if(variable)assert(await p.locator('#case-level-choice button').count()===3,'One compact level choice');else assert(await p.locator('#case-level-choice').isHidden(),'Fixed level has no choice');
+    for(const level of levels){
+     stage=`${language}/${skill}/${level}`;if(variable)await p.locator(`[data-practice-level="${level}"]`).click();
+     if(variable)assert(await p.locator(`[data-practice-level="${level}"]`).getAttribute('aria-pressed')==='true','Selected level is visible');await fits();
     }
     await click('back-to-cases');await click('back-to-skills');
    }
-   for(const skill of ['alliance-repair','self-disclosure','therapist-self-awareness','marker-recognition-chairwork']){
+   if(variable)for(const skill of ['alliance-repair','self-disclosure','therapist-self-awareness','marker-recognition-chairwork']){
     await p.locator(`button[data-skill-id="${skill}"]`).click();assert(await p.locator(`[data-case-id="${caseId}"]`).count()===0,'Unauthored skill has no case card');await click('back-to-skills');
    }
-   for(const level of ['easy','moderate','hard']){
+   for(const level of levels){
     stage=`${language}/full-round/${level}`;
-    await p.locator('button[data-skill-id="empathic-understanding"]').click();await p.locator(`[data-case-id="${caseId}"]`).click();await p.locator('#start-practice:not(:disabled)').waitFor();
-    await p.locator(`[data-practice-level="${level}"]`).click();await click('start-practice');
-    const start=await session();assert(start.difficulty===level,'Session captures selected level');assert(start.orderIds.length===12&&start.orderIds.every(id=>id.includes(`_${level}_`)),'Round contains twelve items at one level');
+    await p.locator(`button[data-skill-id="${skills[0]}"]`).click();await p.locator(`[data-case-id="${caseId}"]`).click();await p.locator('#start-practice:not(:disabled)').waitFor();
+    if(variable)await p.locator(`[data-practice-level="${level}"]`).click();await click('start-practice');
+    const start=await session();assert(start.difficulty===level,'Session captures selected level');assert(start.orderIds.length===12&&start.orderIds.every(id=>id.includes(variable?`_${level}_`:caseId)),'Round contains twelve items at one level');
     assert(await p.locator('#case-level-choice').isHidden(),'Active round cannot change level');await fits();
     await p.screenshot({path:`output/playwright/${displayName.toLowerCase()}-focused-${language}-${level}-320.png`,fullPage:true});
     // Preference changes cannot change an existing paused round.
@@ -81,12 +83,12 @@ async page => {
      for(let i=0;i<12;i++)await click('next-statement');await rate();rounds.push({round:start.roundId,level,mode,expected:1});
     }
     // Fixed-level cases ignore the variable case's remembered choice.
-    await p.reload();await click('home-library');await p.locator('button[data-skill-id="empathic-understanding"]').click();await p.locator('[data-case-id="case-sara"]').click();
+    await p.reload();await click('home-library');await p.locator(`button[data-skill-id="${skills[0]}"]`).click();await p.locator('[data-case-id="case-sara"]').click();
     assert(await p.locator('#case-level-choice').isHidden(),'Sara retains her single fixed level');await click('back-to-cases');await click('back-to-skills');
    }
   }
   const ratings=(await(await page.request.get('http://127.0.0.1:5199/ratings')).json());
-  for(const round of rounds){const rows=ratings.filter(r=>r.client_round_id===round.round||r.parent_round_id===round.round);assert(rows.length===round.expected&&rows.every(r=>r.case_id===caseId&&r.difficulty===round.level&&r.source==='self'&&r.completed_statement_ids.every(id=>id.includes(`_${round.level}_`))),'Actual saved focused ratings preserve case, level and source');}
+  for(const round of rounds){const rows=ratings.filter(r=>r.client_round_id===round.round||r.parent_round_id===round.round);assert(rows.length===round.expected&&rows.every(r=>r.case_id===caseId&&r.difficulty===round.level&&r.source==='self'&&r.completed_statement_ids.every(id=>id.includes(variable?`_${round.level}_`:caseId))),'Actual saved focused ratings preserve case, level and source');}
   assert(errors.length===0,'No runtime errors: '+errors.join(';'));return {rounds:rounds.length,ratings:rounds.reduce((n,r)=>n+r.expected,0),errors};
  }catch(error){throw new Error(stage+': '+error.message);}finally{for(const c of contexts)await c.close();}
 }

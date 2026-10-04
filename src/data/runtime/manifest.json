@@ -175,18 +175,42 @@
     ],
     "empathic-refocusing": [
       "case-sara",
+      "case-michael",
+      "case-jason",
+      "case-laura",
+      "case-carlos",
+      "case-nina",
+      "case-aisha",
+      "case-david",
+      "case-marcus",
       "case-arne",
       "case-mia",
       "case-nora"
     ],
     "consolidating-emotional-change": [
       "case-sara",
+      "case-michael",
+      "case-jason",
+      "case-laura",
+      "case-carlos",
+      "case-nina",
+      "case-aisha",
+      "case-david",
+      "case-marcus",
       "case-arne",
       "case-mia",
       "case-nora"
     ],
     "closing-after-emotional-work": [
       "case-sara",
+      "case-michael",
+      "case-jason",
+      "case-laura",
+      "case-carlos",
+      "case-nina",
+      "case-aisha",
+      "case-david",
+      "case-marcus",
       "case-arne",
       "case-mia",
       "case-nora"
@@ -529,6 +553,262 @@
         "mastery_nora_hard_10",
         "mastery_nora_hard_11",
         "mastery_nora_hard_12"
+      ]
+    },
+    {
+      "id": "mastery-michael-before-the-outburst",
+      "type": "mastery",
+      "caseId": "case-michael",
+      "difficulty": "easy",
+      "supportedLevels": [
+        "easy"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Michael · Before the outburst",
+        "no": "Michael · Før utbruddet"
+      },
+      "orientation": {
+        "en": "Linked moments about correction, shame and taking responsibility without condemning yourself. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+        "no": "Sammenhengende øyeblikk om å bli rettet, skam og å ta ansvar uten å fordømme seg selv. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_michael_01",
+        "mastery_michael_02",
+        "mastery_michael_03",
+        "mastery_michael_04",
+        "mastery_michael_05",
+        "mastery_michael_06",
+        "mastery_michael_07",
+        "mastery_michael_08",
+        "mastery_michael_09",
+        "mastery_michael_10",
+        "mastery_michael_11",
+        "mastery_michael_12"
+      ]
+    },
+    {
+      "id": "mastery-jason-room-for-a-sentence",
+      "type": "mastery",
+      "caseId": "case-jason",
+      "difficulty": "easy",
+      "supportedLevels": [
+        "easy"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Jason · Room for a sentence",
+        "no": "Jason · Rom for en setning"
+      },
+      "orientation": {
+        "en": "Small moments about speaking, being seen and wanting company. Pauses and corrections can be useful responses. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+        "no": "Små øyeblikk om å snakke, bli sett og ønske selskap. Pauser og korrigeringer kan være nyttige svar. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_jason_01",
+        "mastery_jason_02",
+        "mastery_jason_03",
+        "mastery_jason_04",
+        "mastery_jason_05",
+        "mastery_jason_06",
+        "mastery_jason_07",
+        "mastery_jason_08",
+        "mastery_jason_09",
+        "mastery_jason_10",
+        "mastery_jason_11",
+        "mastery_jason_12"
+      ]
+    },
+    {
+      "id": "mastery-laura-company-at-her-pace",
+      "type": "mastery",
+      "caseId": "case-laura",
+      "difficulty": "moderate",
+      "supportedLevels": [
+        "moderate"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Laura · Company at her pace",
+        "no": "Laura · Selskap i hennes tempo"
+      },
+      "orientation": {
+        "en": "Linked moments about exhaustion, guarded contact and receiving a little care. No memory detail or greater emotional intensity is required. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+        "no": "Sammenhengende øyeblikk om utmattelse, varsom kontakt og å ta imot litt omsorg. Ingen detaljer fra minner eller sterkere følelser kreves. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_laura_01",
+        "mastery_laura_02",
+        "mastery_laura_03",
+        "mastery_laura_04",
+        "mastery_laura_05",
+        "mastery_laura_06",
+        "mastery_laura_07",
+        "mastery_laura_08",
+        "mastery_laura_09",
+        "mastery_laura_10",
+        "mastery_laura_11",
+        "mastery_laura_12"
+      ]
+    },
+    {
+      "id": "mastery-carlos-respect-without-threat",
+      "type": "mastery",
+      "caseId": "case-carlos",
+      "difficulty": "moderate",
+      "supportedLevels": [
+        "moderate"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Carlos · Respect without threat",
+        "no": "Carlos · Respekt uten trusler"
+      },
+      "orientation": {
+        "en": "Moments about humiliation, fear and the wish for closeness. Understanding the hurt never excuses intimidation. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+        "no": "Øyeblikk om ydmykelse, frykt og ønsket om nærhet. Å forstå det såre unnskylder aldri skremmende oppførsel. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_carlos_01",
+        "mastery_carlos_02",
+        "mastery_carlos_03",
+        "mastery_carlos_04",
+        "mastery_carlos_05",
+        "mastery_carlos_06",
+        "mastery_carlos_07",
+        "mastery_carlos_08",
+        "mastery_carlos_09",
+        "mastery_carlos_10",
+        "mastery_carlos_11",
+        "mastery_carlos_12"
+      ]
+    },
+    {
+      "id": "mastery-nina-a-need-of-her-own",
+      "type": "mastery",
+      "caseId": "case-nina",
+      "difficulty": "moderate",
+      "supportedLevels": [
+        "moderate"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Nina · A need of her own",
+        "no": "Nina · Et eget behov"
+      },
+      "orientation": {
+        "en": "Moments about exhaustion, resentment and asking for care while guilt remains. A clearer wish need not become an immediate life change. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+        "no": "Øyeblikk om utmattelse, bitterhet og å be om omsorg mens dårlig samvittighet er der. Et tydeligere ønske trenger ikke bli en umiddelbar livsendring. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_nina_01",
+        "mastery_nina_02",
+        "mastery_nina_03",
+        "mastery_nina_04",
+        "mastery_nina_05",
+        "mastery_nina_06",
+        "mastery_nina_07",
+        "mastery_nina_08",
+        "mastery_nina_09",
+        "mastery_nina_10",
+        "mastery_nina_11",
+        "mastery_nina_12"
+      ]
+    },
+    {
+      "id": "mastery-aisha-contact-and-an-ending",
+      "type": "mastery",
+      "caseId": "case-aisha",
+      "difficulty": "hard",
+      "supportedLevels": [
+        "hard"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Aisha · Contact and an ending",
+        "no": "Aisha · Kontakt og en avslutning"
+      },
+      "orientation": {
+        "en": "Non-acute moments about wanting contact and facing a bounded ending. No promise of constant availability or deeper disclosure is required. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+        "no": "Øyeblikk uten akutt fare om å ønske kontakt og møte en avgrenset avslutning. Ingen løfter om konstant tilgjengelighet eller mer deling kreves. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_aisha_01",
+        "mastery_aisha_02",
+        "mastery_aisha_03",
+        "mastery_aisha_04",
+        "mastery_aisha_05",
+        "mastery_aisha_06",
+        "mastery_aisha_07",
+        "mastery_aisha_08",
+        "mastery_aisha_09",
+        "mastery_aisha_10",
+        "mastery_aisha_11",
+        "mastery_aisha_12"
+      ]
+    },
+    {
+      "id": "mastery-david-an-ordinary-evening",
+      "type": "mastery",
+      "caseId": "case-david",
+      "difficulty": "hard",
+      "supportedLevels": [
+        "hard"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "David · An ordinary evening",
+        "no": "David · En vanlig kveld"
+      },
+      "orientation": {
+        "en": "Linked moments about being valued without an exceptional performance. Corrections and a practical direction can be legitimate choices. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+        "no": "Sammenhengende øyeblikk om å bli verdsatt uten en enestående prestasjon. Korrigeringer og en praktisk retning kan være legitime valg. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_david_01",
+        "mastery_david_02",
+        "mastery_david_03",
+        "mastery_david_04",
+        "mastery_david_05",
+        "mastery_david_06",
+        "mastery_david_07",
+        "mastery_david_08",
+        "mastery_david_09",
+        "mastery_david_10",
+        "mastery_david_11",
+        "mastery_david_12"
+      ]
+    },
+    {
+      "id": "mastery-marcus-company-with-room-to-stop",
+      "type": "mastery",
+      "caseId": "case-marcus",
+      "difficulty": "hard",
+      "supportedLevels": [
+        "hard"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Marcus · Company with room to stop",
+        "no": "Marcus · Selskap med rom for å stoppe"
+      },
+      "orientation": {
+        "en": "Small, non-acute moments about distance, loneliness and choosing contact. No trauma detail or increase in feeling is required. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+        "no": "Små øyeblikk uten akutt fare om avstand, ensomhet og å velge kontakt. Ingen detaljer fra traumer eller sterkere følelser kreves. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_marcus_01",
+        "mastery_marcus_02",
+        "mastery_marcus_03",
+        "mastery_marcus_04",
+        "mastery_marcus_05",
+        "mastery_marcus_06",
+        "mastery_marcus_07",
+        "mastery_marcus_08",
+        "mastery_marcus_09",
+        "mastery_marcus_10",
+        "mastery_marcus_11",
+        "mastery_marcus_12"
       ]
     }
   ],
@@ -2466,18 +2746,42 @@
     },
     "empathic-refocusing": {
       "case-sara": 12,
+      "case-michael": 12,
+      "case-jason": 12,
+      "case-laura": 12,
+      "case-carlos": 12,
+      "case-nina": 12,
+      "case-aisha": 12,
+      "case-david": 12,
+      "case-marcus": 12,
       "case-arne": 36,
       "case-mia": 36,
       "case-nora": 36
     },
     "consolidating-emotional-change": {
       "case-sara": 12,
+      "case-michael": 12,
+      "case-jason": 12,
+      "case-laura": 12,
+      "case-carlos": 12,
+      "case-nina": 12,
+      "case-aisha": 12,
+      "case-david": 12,
+      "case-marcus": 12,
       "case-arne": 36,
       "case-mia": 36,
       "case-nora": 36
     },
     "closing-after-emotional-work": {
       "case-sara": 12,
+      "case-michael": 12,
+      "case-jason": 12,
+      "case-laura": 12,
+      "case-carlos": 12,
+      "case-nina": 12,
+      "case-aisha": 12,
+      "case-david": 12,
+      "case-marcus": 12,
       "case-arne": 36,
       "case-mia": 36,
       "case-nora": 36

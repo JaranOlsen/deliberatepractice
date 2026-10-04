@@ -1,0 +1,180 @@
+{
+  "id": "mastery-michael-before-the-outburst",
+  "type": "mastery",
+  "caseId": "case-michael",
+  "difficulty": "easy",
+  "supportedLevels": [
+    "easy"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Michael · Før utbruddet",
+  "orientation": "Sammenhengende øyeblikk om å bli rettet, skam og å ta ansvar uten å fordømme seg selv. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "scenes": [
+    {
+      "id": "mastery_michael_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-michael_05",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Michael begynner med å ikke vite et svar i et møte.",
+      "prompt": "Speil følelsen av å være blottlagt som han beskriver.",
+      "text": "[Flau] Noen stilte et enkelt spørsmål jeg ikke kunne svare på i dag, og jeg følte meg avslørt foran hele rommet.",
+      "suggestion": "Det å ikke ha svaret gjorde at du følte deg avslørt foran alle."
+    },
+    {
+      "id": "mastery_michael_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-michael_02",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Han spør om å forstå sinnet betyr å unnskylde det.",
+      "prompt": "Forklar forståelse sammen med ansvar.",
+      "text": "[Defensiv] Er ikke det å lete etter utløseren bare å bortforklare at jeg eksploderer?",
+      "suggestion": "Å forstå hva som setter i gang sinnet, fritar deg ikke for ansvar for det du gjør. Det kan hjelpe oss å merke reaksjonen tidligere og jobbe med en annen måte å svare på. Målet er å endre det du gjør, ikke bortforklare det."
+    },
+    {
+      "id": "mastery_michael_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-michael_02",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et annet møte vekker trangen til å bløffe.",
+      "prompt": "Valider ubehaget uten å støtte bløffingen.",
+      "text": "[Defensiv] I møter føler jeg meg avslørt hvis jeg ikke har svaret, og da bløffer jeg.",
+      "suggestion": "Å ikke ha et svar foran teamet kan kjennes sårbart, særlig når du vil bli sett som kompetent. Ubehaget er forståelig. Du trenger ikke late som du vet for å ha plass til det."
+    },
+    {
+      "id": "mastery_michael_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-michael_01",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Han merker at sinne og flauhet kommer sammen.",
+      "prompt": "Still ett åpent spørsmål om den opplevelsen.",
+      "text": "[Anspent og sint] Når noen retter på én detalj, blir jeg sint og flau samtidig.",
+      "suggestion": "Hva merker du inni deg når sinne og flauhet kommer samtidig?"
+    },
+    {
+      "id": "mastery_michael_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-michael_06",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Neste øyeblikk senker tempoet før han høres sikker ut.",
+      "prompt": "Undersøk spenningen akkurat der.",
+      "text": "[Anspent] Når jeg ikke vet svaret, blir jeg anspent og begynner å snakke som om jeg vet det likevel.",
+      "suggestion": "Du blir anspent rett før du begynner å høres sikker ut. Kan vi stoppe opp ved den spenningen og merke hvordan det er å ikke ha svaret?"
+    },
+    {
+      "id": "mastery_michael_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-michael_01",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "En annen fortelling beskriver å svare for raskt og høyt.",
+      "prompt": "Tilby en tentativ gjetning om det som kommer først.",
+      "text": "[Fast] Hvis noen stiller spørsmål ved meg i et møte, svarer jeg raskt og høyere enn jeg mente.",
+      "suggestion": "Du svarer raskt og høyt når noen stiller spørsmål ved deg. Jeg lurer på om du kjenner deg utsatt et øyeblikk før du svarer."
+    },
+    {
+      "id": "mastery_michael_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-michael_01",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Michael beskriver varmen når han blir rettet foran andre.",
+      "prompt": "Gjør opplevelsen nær uten å overdrive den.",
+      "text": "[Fast] Når noen korrigerer meg foran teamet, blir jeg varm og slutter å høre etter.",
+      "suggestion": "Det høres ut som om varmen stiger, som om en lyskaster plutselig rettes mot deg foran alle."
+    },
+    {
+      "id": "mastery_michael_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-michael_01",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "Et sårt øyeblikk går raskt over til å fullføre en oppgave.",
+      "prompt": "Inviter litt tilbake med rom for å si nei.",
+      "text": "[Såret, så raskt] Jeg følte meg liten da hun rettet meg. Uansett, jeg fikset regnearket.",
+      "suggestion": "Vil du bli litt ved følelsen av å være liten før vi går til regnearket?"
+    },
+    {
+      "id": "mastery_michael_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-michael_01",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "bridge": "I et annet øyeblikk stiger sinnet i terapirommet.",
+      "prompt": "Vær til stede uten at sinnet blir til handling.",
+      "text": "[Fast] Kjeven låser seg og varmen skyter opp i nakken når noen stiller spørsmål ved meg, også her. Det er som om kroppen hører respektløshet før hodet mitt vet hva som ble sagt.",
+      "suggestion": "Jeg hører hvor raskt sinnet stiger, også sammen med meg. Jeg er her og lytter. Vi kan ta det langsomt og sette ord på det som kjennes respektløst, uten å handle på sinnet."
+    },
+    {
+      "id": "mastery_michael_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-michael_10",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "En senere fortelling gjelder det som kostet hjemme.",
+      "prompt": "Speil skammen uten å fjerne ansvaret.",
+      "text": "[Skamfull] Om natten spiller jeg av det jeg sa til kona mi, særlig blikket hennes, og jeg får det forferdelig.",
+      "suggestion": "Om natten spiller du av ansiktet hennes og får det vondt med det som skjedde."
+    },
+    {
+      "id": "mastery_michael_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-michael_04",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Michael nevner ansvar og et ønske om å bli hørt sammen.",
+      "prompt": "Hjelp ham å si begge deler med egne ord.",
+      "text": "[Stødig] Ropingen var mitt ansvar. Ønsket om å bli lyttet til var også mitt.",
+      "suggestion": "Hvordan ville du si begge deler uten å bruke det ene til å unnskylde det andre?"
+    },
+    {
+      "id": "mastery_michael_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-michael_06",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "Den tenkte timen slutter med arbeidet fortsatt uferdig.",
+      "prompt": "Avslutt uten å hevde at problemet er fikset.",
+      "text": "[Urolig] Ikke send meg ut med beskjed om at alt er fikset.",
+      "suggestion": "Vi kaller det ikke fikset. Vi kan avslutte timen med arbeidet fortsatt uferdig."
+    }
+  ]
+}

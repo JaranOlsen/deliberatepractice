@@ -1,0 +1,180 @@
+{
+  "id": "mastery-carlos-respect-without-threat",
+  "type": "mastery",
+  "caseId": "case-carlos",
+  "difficulty": "moderate",
+  "supportedLevels": [
+    "moderate"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Carlos · Respect without threat",
+  "orientation": "Moments about humiliation, fear and the wish for closeness. Understanding the hurt never excuses intimidation. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+  "scenes": [
+    {
+      "id": "mastery_carlos_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-carlos_11",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "bridge": "Carlos begins with a changed plan at work.",
+      "prompt": "Reflect the anger and later embarrassment.",
+      "text": "[Angry, then quieter] He changed my crew's plan without asking me. I got angry. Afterwards I was embarrassed that the lads saw how quickly he got to me.",
+      "suggestion": "You're angry that he overruled you, and embarrassed that everyone saw how much it affected you."
+    },
+    {
+      "id": "mastery_carlos_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-carlos_02",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "bridge": "He asks for something useful when the heat rises.",
+      "prompt": "Connect understanding to choosing a different response.",
+      "text": "[Tense] Why talk feelings instead of giving me tools I can use when I am heated?",
+      "suggestion": "We can work on something you can use when the anger rises. Understanding what you feel just before it helps us choose what to practice, such as stepping away or saying what bothered you. The point is to turn that understanding into a different action."
+    },
+    {
+      "id": "mastery_carlos_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-carlos_02",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Another moment concerns fearing how others see him.",
+      "prompt": "Validate vulnerability without endorsing domination.",
+      "text": "[Tense] If I do not come in strong, I picture people seeing the scared kid I used to be, and that feels humiliating before anyone has even done anything.",
+      "suggestion": "If being seen as scared feels humiliating, it is understandable to dread that exposure. The scared part of you deserves respect too, without having to prove toughness."
+    },
+    {
+      "id": "mastery_carlos_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-carlos_01",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "bridge": "He recalls a question from the foreman.",
+      "prompt": "Ask openly about the effect on him.",
+      "text": "[Defensive] When my foreman questions me in front of the crew, I laugh it off but cannot drop it.",
+      "suggestion": "What do you notice inside as you recall your foreman questioning you?"
+    },
+    {
+      "id": "mastery_carlos_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-carlos_02",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "bridge": "A separate moment follows an argument at home.",
+      "prompt": "Explore what is present before choosing an action.",
+      "text": "[Tense] After a fight, I can stand in the hallway not knowing whether to apologize or pretend nothing happened.",
+      "suggestion": "That hallway moment has repair and escape both available. I would like to stay with the not-knowing before either move wins."
+    },
+    {
+      "id": "mastery_carlos_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-carlos_01",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "He describes the speed of reacting to a tone.",
+      "prompt": "Offer one small, rejectable guess.",
+      "text": "[Tense and angry] A disrespectful tone flips a switch in me before I know what got hit.",
+      "suggestion": "The anger comes so fast. I wonder if there is a brief feeling of being humiliated just before it."
+    },
+    {
+      "id": "mastery_carlos_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-carlos_01",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Another crew moment is described through what he does afterwards.",
+      "prompt": "Bring the experience closer without shaming him.",
+      "text": "[Defensive] When someone smirks at me on the crew, I get tense fast and spend the next hour making sure nobody thinks I let it slide.",
+      "suggestion": "That smirk seems to hit like a spark, and suddenly the next hour is spent making sure everyone knows you will not be pushed around."
+    },
+    {
+      "id": "mastery_carlos_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-carlos_01",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "Hurt shifts into what the other person ought to learn.",
+      "prompt": "Invite a return without debating who deserves respect.",
+      "text": "[Hurt, then hardens] He made me feel like a joke. He needs to learn respect.",
+      "suggestion": "Could we pause with feeling like a joke before deciding what he needs to learn?"
+    },
+    {
+      "id": "mastery_carlos_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-carlos_02",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "bridge": "A later moment catches fear as his voice rises.",
+      "prompt": "Keep contact and words without inviting threat.",
+      "text": "[Tense and angry] My voice wants to shout before anyone sees I am rattled. When my partner asks one careful question, I feel the volume rising to cover the part of me that got scared.",
+      "suggestion": "I can stay with the force in you without it having to become shouting. The scared part does not have to be covered alone; we can keep the strength in words rather than threat."
+    },
+    {
+      "id": "mastery_carlos_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-carlos_10",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Carlos names the relational cost of his temper.",
+      "prompt": "Reflect shame and his wish for their safety.",
+      "text": "[Ashamed] I want my family to feel safe with me. When they still flinch at my voice, it feels like proof that I have already damaged something.",
+      "suggestion": "You want them to feel safe with you, and their flinching lands as proof that something is already damaged."
+    },
+    {
+      "id": "mastery_carlos_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-carlos_05",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "He distinguishes closeness from someone staying out of fear.",
+      "prompt": "Help him give that distinction his own words.",
+      "text": "[Sad, calmer] I want her close. I don’t want her staying because she’s scared.",
+      "suggestion": "What does that distinction make clearer about the closeness you want?"
+    },
+    {
+      "id": "mastery_carlos_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-carlos_03",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "The hour is ending; he wants responsibility kept in view.",
+      "prompt": "Close without turning understanding into an excuse.",
+      "text": "[Regretful] I don’t want to leave with an excuse for what I did.",
+      "suggestion": "We can keep both the responsibility and what you learned about the hurt. Which words fit?"
+    }
+  ]
+}

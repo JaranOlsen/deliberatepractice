@@ -1,0 +1,180 @@
+{
+  "id": "mastery-laura-company-at-her-pace",
+  "type": "mastery",
+  "caseId": "case-laura",
+  "difficulty": "moderate",
+  "supportedLevels": [
+    "moderate"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Laura · Selskap i hennes tempo",
+  "orientation": "Sammenhengende øyeblikk om utmattelse, varsom kontakt og å ta imot litt omsorg. Ingen detaljer fra minner eller sterkere følelser kreves. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "scenes": [
+    {
+      "id": "mastery_laura_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-laura_09",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Laura begynner med bilen etter en lang vakt.",
+      "prompt": "Speil innsatsen og utmattelsen.",
+      "text": "[Sliten] Jeg prøver å være normal på jobb, smile og passe på alle, men ved slutten av en vakt sitter jeg i bilen fordi jeg er for utslitt til å kjøre hjem.",
+      "suggestion": "Å holde normalfasaden og ta vare på alle gjør deg for utslitt til å dra hjem."
+    },
+    {
+      "id": "mastery_laura_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-laura_02",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Hun spør om risikoen for å bli trukket inn i minner.",
+      "prompt": "Forklar valg og et håndterbart tempo.",
+      "text": "[Langsomt og flatt] Hvordan vet jeg at dette ikke får meg til å gjenoppleve traumer når jeg allerede forsvinner?",
+      "suggestion": "Du vet allerede hvor lett du kan kjenne deg langt borte. Vi kan begynne med det du merker nå, uten å be deg gjenoppleve traumet. Små steg og pauser hjelper oss å finne et tempo du kan være med på, og vi kan tilpasse det hvis det blir for mye."
+    },
+    {
+      "id": "mastery_laura_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-laura_01",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "bridge": "En annen morgen vekker selvkritikk over å ikke komme i gang.",
+      "prompt": "Valider det vanskelige uten å kalle det latskap.",
+      "text": "[Flat og skamfull] På fridager kan jeg bli liggende til tolv, ikke egentlig sovende, bare ute av stand til å komme i gang. Så sier jeg til meg selv at jeg er lat, fordi andre mennesker klarer normale morgener.",
+      "suggestion": "Når det kjennes for mye bare å begynne dagen, kan det være en kamp å komme seg ut av senga. Det strevet fortjener omsorg. Å sammenligne seg med andres morgener gjør deg ikke lat."
+    },
+    {
+      "id": "mastery_laura_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-laura_01",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Laura er usikker på den dempede følelsen.",
+      "prompt": "Spør varsomt uten å gi henne en følelse.",
+      "text": "[Langsomt og flatt] De fleste dager føles dempet, og jeg klarer ikke vite om jeg er trist eller bare nummen.",
+      "suggestion": "Hvordan kjennes det å være så avflatet akkurat nå?"
+    },
+    {
+      "id": "mastery_laura_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-laura_11",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "bridge": "Et annet øyeblikk gjelder et måltid lagt ved døren.",
+      "prompt": "Undersøk den lille følelsen hun faktisk merker.",
+      "text": "[Lavmælt, overrasket] Venninnen min satte mat utenfor døra. Jeg trengte ikke slippe henne inn eller snakke. Jeg ble rørt, og det overrasket meg.",
+      "suggestion": "Du ble rørt av å bli tatt vare på uten å måtte slippe henne inn. Vi kan gi litt plass til den følelsen, akkurat slik den er."
+    },
+    {
+      "id": "mastery_laura_06",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-laura_12",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "bridge": "Hun beskriver at vennligheten når henne etter besøket.",
+      "prompt": "Bruk et nært bilde tentativt.",
+      "text": "[På vakt] Venninnen min var snill. Jeg sa takk. Jeg lot det egentlig ikke gå inn på meg før hun hadde gått.",
+      "suggestion": "Kanskje omsorgen først når inn når døra er lukket og du ikke lenger må passe på åpningen."
+    },
+    {
+      "id": "mastery_laura_07",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-laura_03",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "I et annet øyeblikk vekker vennlighet uro og et temaskifte.",
+      "prompt": "Undersøk om en tilbakevending hjelper; respekter et nei.",
+      "text": "[Urolig, så raskt] Vennligheten din gjorde meg nervøs. Jeg burde fortelle om jobb.",
+      "suggestion": "Vi kan gå til jobb. Ville det hjelpe først å si hva som kjentes urolig ved vennligheten min?"
+    },
+    {
+      "id": "mastery_laura_08",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-laura_11",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "case_matrix_expansion"
+      ],
+      "bridge": "Et senere øyeblikk rommer ønsket om selskap og frykt for det ønsket.",
+      "prompt": "Bli ved litt uten å kreve en forklaring.",
+      "text": "[Plutselig på gråten] Hun sa jeg ikke måtte forklare hvorfor jeg trengte selskap. Jeg klarte ikke snakke. Jeg ville så gjerne ha henne der, og var redd for å ville det.",
+      "suggestion": "Ønsket om å ha henne nær og frykten for det ønsket er begge sterke. Jeg er her. Vi kan nærme oss det litt om gangen uten at du må forklare det."
+    },
+    {
+      "id": "mastery_laura_09",
+      "skillId": "alliance-repair",
+      "sourceItemId": "dp_alliance-repair_case-laura_01",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Laura husker at terapeuten gikk for raskt frem i en tidligere samtale.",
+      "prompt": "Anerkjenn at du gikk for raskt frem, og tilpass oppgaven sammen.",
+      "text": "[Flatt og på vakt] Da du spurte om barndommen så raskt, følte jeg meg eksponert og ville gå. Jeg hadde bare nevnt én bit, og plutselig kjentes det som om hele døren ble åpnet.",
+      "suggestion": "Jeg gikk for raskt frem med spørsmålet om barndommen din. Du følte deg blottlagt, og det beklager jeg. Vi kan stoppe det temaet nå. Jeg vil spørre før vi går tilbake til det, og du kan si nei."
+    },
+    {
+      "id": "mastery_laura_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-laura_12",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "bridge": "En annen invitasjon vekker både ønske og uro.",
+      "prompt": "Speil begge uten å bestemme om hun bør takke ja.",
+      "text": "[Lavmælt] En venninne tilbød seg å komme innom. Jeg ville ha selskap, men ble urolig ved tanken på å ha noen i leiligheten. Jeg sa nei og angret hele kvelden.",
+      "suggestion": "Du ønsket selskapet hennes, men ble urolig av å slippe henne inn. Etterpå angret du på at du ble alene."
+    },
+    {
+      "id": "mastery_laura_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-laura_04",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Laura merker hva det å dele litt gjorde mulig.",
+      "prompt": "Hjelp henne å si hva det ga å velge hvor mye.",
+      "text": "[På vakt, lettet] Jeg fortalte litt. Du spurte ikke etter resten.",
+      "suggestion": "Hva betydde det at du selv fikk velge om du ville dele resten?"
+    },
+    {
+      "id": "mastery_laura_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-laura_04",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "Den tenkte timen slutter uten en påstand om gjennombrudd.",
+      "prompt": "Bli enige om det dere beholder, og gi tid til å avslutte.",
+      "text": "[Lavt] Jeg kan gå hvis vi ikke kaller dagen et gjennombrudd.",
+      "suggestion": "Vi trenger ikke den merkelappen. Hva vil du at vi husker til neste gang?"
+    }
+  ]
+}

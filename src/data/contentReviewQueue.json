@@ -1,6 +1,16 @@
 [
   {
     "priority": "critical",
+    "id": "dp_consolidating-emotional-change_case-carlos_02",
+    "skillId": "consolidating-emotional-change",
+    "caseId": "case-carlos",
+    "reason": "high_risk_review_required",
+    "riskFlags": [
+      "violence"
+    ]
+  },
+  {
+    "priority": "critical",
     "id": "dp_consolidating-emotional-change_case-nora_hard_11",
     "skillId": "consolidating-emotional-change",
     "caseId": "case-nora",

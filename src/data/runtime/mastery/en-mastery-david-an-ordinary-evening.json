@@ -1,0 +1,181 @@
+{
+  "id": "mastery-david-an-ordinary-evening",
+  "type": "mastery",
+  "caseId": "case-david",
+  "difficulty": "hard",
+  "supportedLevels": [
+    "hard"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "David · An ordinary evening",
+  "orientation": "Linked moments about being valued without an exceptional performance. Corrections and a practical direction can be legitimate choices. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+  "scenes": [
+    {
+      "id": "mastery_david_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-david_12",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "bridge": "David begins with the possibility of an evening without achievement.",
+      "prompt": "Reflect the wish and the sense of worthlessness.",
+      "text": "[Quietly] My wife says she'd like an evening where neither of us achieves anything. I want that too, but without something to offer I feel oddly worthless.",
+      "suggestion": "You want an evening together, yet having nothing to achieve or offer leaves you feeling worthless."
+    },
+    {
+      "id": "mastery_david_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-david_01",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "bridge": "He asks how feelings connect to visible results.",
+      "prompt": "Give a practical rationale without promising an outcome.",
+      "text": "[Controlled] Why focus on feelings when I need results people can actually see?",
+      "suggestion": "You want changes that show in daily life. Feelings are part of what happens before you withdraw or speak sharply. Understanding those moments can help you choose how to respond, and we can check together whether it makes a difference at home and work."
+    },
+    {
+      "id": "mastery_david_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-david_01",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Another conversation feels like a trial.",
+      "prompt": "Validate feeling cornered without endorsing contempt.",
+      "text": "[Controlled] When my wife brings up feelings, I feel cornered and want to argue the facts. If I stay with the emotional part, it starts sounding like a trial where I have already lost.",
+      "suggestion": "If the conversation feels like a trial you have already lost, feeling cornered is understandable. That discomfort can be heard without deciding that your wife's feelings are an accusation."
+    },
+    {
+      "id": "mastery_david_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-david_01",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "bridge": "He notices a criticism staying after he dismisses it.",
+      "prompt": "Ask about its personal impact.",
+      "text": "[Controlled] When she calls me cold, I want to dismiss her, but it stays with me later.",
+      "suggestion": "What feeling is there when it stays with you later?"
+    },
+    {
+      "id": "mastery_david_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-david_01",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Another moment holds proving himself and wanting to disappear.",
+      "prompt": "Explore the competing responses.",
+      "text": "[Controlled] When she says I am cold, part of me wants to prove her wrong and another part wants to disappear.",
+      "suggestion": "You want to prove her wrong and disappear at the same time. Could we pause with those two pulls and notice how each feels right now?"
+    },
+    {
+      "id": "mastery_david_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-david_01",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "A cutting joke arrives before the hurt can be seen.",
+      "prompt": "Check one tentative meaning of the quick joke.",
+      "text": "[Hopeless] When my wife calls me cold, I make a cutting joke before she can see it hurt.",
+      "suggestion": "The joke comes before she can see the hurt. I wonder if being called cold also touches a fear that you are failing her."
+    },
+    {
+      "id": "mastery_david_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-david_02",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "bridge": "He describes what ordinary feels like at a distance.",
+      "prompt": "Bring it close without humiliating him.",
+      "text": "[Worthless] If I am not the best person in the room, I feel ordinary, and ordinary is almost worse than failing.",
+      "suggestion": "The floor opens under ordinary, and you drop from impressive to nothing before anyone else has even judged you."
+    },
+    {
+      "id": "mastery_david_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-david_03",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "A hurt moment shifts into challenging the idea of progress.",
+      "prompt": "Invite a return rather than defend your definition of progress.",
+      "text": "[Hurt, then sharp] I felt ordinary. That’s your idea of progress, presumably.",
+      "suggestion": "Before defining progress, could we understand what felt painful about ordinary here?"
+    },
+    {
+      "id": "mastery_david_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-david_01",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "bridge": "A later moment catches the wish to hide his exposure.",
+      "prompt": "Stay present without turning it into another performance.",
+      "text": "[Controlled] My face is burning, and I want to cut this off before you see how exposed I am.",
+      "suggestion": "Feeling that exposed is hard to bear. I am here listening, and you can choose how much you show me. We can pause without cutting off what you are feeling."
+    },
+    {
+      "id": "mastery_david_10",
+      "skillId": "alliance-repair",
+      "sourceItemId": "dp_alliance-repair_case-david_02",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "bridge": "David recalls a task mismatch in an earlier therapy conversation.",
+      "prompt": "Acknowledge missing his request and negotiate direction.",
+      "text": "[Dismissive] When I asked for strategy, you kept returning to feelings, and I felt ignored. I came in asking for something I could actually do, and it felt like you kept taking the tool out of my hand.",
+      "suggestion": "You asked for something practical, and I kept taking us back to feelings. I am sorry I missed what you were asking for. We can begin with one situation you want to handle differently and agree on something concrete to try."
+    },
+    {
+      "id": "mastery_david_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-david_01",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "He notices a wish for attention without grading his wife.",
+      "prompt": "Help him name that distinction without celebrating a breakthrough.",
+      "text": "[Quietly] I could want her attention without making it her performance review.",
+      "suggestion": "What changed in how you understood that wish?"
+    },
+    {
+      "id": "mastery_david_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-david_01",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "The hour ends before another interpretation is wanted.",
+      "prompt": "End plainly and preserve what he wants to revisit.",
+      "text": "[Controlled] We’re nearly done. Don’t add a grand interpretation now.",
+      "suggestion": "We can end without one. What do you want kept for another time?"
+    }
+  ]
+}

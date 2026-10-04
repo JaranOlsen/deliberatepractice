@@ -2,9 +2,12 @@
 // Start npm run test:rooms:db -- --serve first. All RPCs run in isolated Postgres.
 async (page) => {
   const url=page.url(),language=new URL(url).searchParams.get('testLanguage')==='no'?'no':'en';
-  const params=new URL(url).searchParams,nora=params.get('testCase')==='nora',mia=params.get('testCase')==='mia',arne=['arne','mia','nora'].includes(params.get('testCase')),level=params.get('testLevel')??'easy';
+  const params=new URL(url).searchParams,testCase=params.get('testCase')??'sara',caseId='case-'+testCase;
   if(!['127.0.0.1','localhost'].includes(new URL(url).hostname))throw new Error('Use local preview');
-  const caseId=nora?'case-nora':mia?'case-mia':arne?'case-arne':'case-sara',exerciseId=nora?'mastery-nora-work-and-belonging-easy':mia?'mastery-mia-help-and-choice-easy':arne?'mastery-arne-ordinary-days-easy':'mastery-sara-evenings';
+  const manifest=await(await page.request.get(new URL('src/data/runtime/manifest.json',url).href)).json();
+  const exercise=manifest.EXERCISE_CATALOG.find(e=>e.caseId===caseId);
+  if(!exercise)throw new Error('Unauthored mastery case');
+  const exerciseId=exercise.id,variable=exercise.supportedLevels.length>1,level=params.get('testLevel')??exercise.difficulty;
   const users=await (await page.request.get('http://127.0.0.1:5199/users')).json();
   const contexts=[],pages=[],errors=[];
   const assert=(ok,message)=>{if(!ok)throw new Error(message);};
@@ -80,7 +83,7 @@ async (page) => {
       const response=await p.request.post('http://127.0.0.1:5199/goal',{data:{...data,user:users[user],targetUserId:data.userId}});
       await route.fulfill({status:response.status(),contentType:'application/json',body:await response.text()});
     });
-    await context.addInitScript(language=>localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:language,practiceMode:'group',groupUiVersion:2})),language);
+    await context.addInitScript(language=>{localStorage.setItem('dp_access_level','all');localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:language,practiceMode:'group',groupUiVersion:2}));},language);
     await p.goto(url);await p.waitForFunction(()=>['Account','Konto'].includes(document.querySelector('#account-button').textContent));
   }
   const [o,t,c,watcher]=pages;
@@ -121,11 +124,12 @@ async (page) => {
       await click(p,'group-join');await p.locator('#room-code').fill(room.code);await p.locator('#room-join-options summary').click();await p.locator('#room-role').selectOption(role);await click(p,'room-join');await p.locator('#room-share-code').waitFor();
     }
     await sync();await click(o,'room-choose');await o.locator('#exercise-mastery').click();await o.locator(`[data-exercise-id="${exerciseId}"]`).click();
-    if(arne&&level!=='easy'){await o.locator(`[data-practice-level="${level}"]`).click();await o.waitForFunction(level=>document.querySelector(`[data-practice-level="${level}"]`)?.getAttribute('aria-pressed')==='true',level);}
+    if(variable&&level!=='easy'){await o.locator(`[data-practice-level="${level}"]`).click();await o.waitForFunction(level=>document.querySelector(`[data-practice-level="${level}"]`)?.getAttribute('aria-pressed')==='true',level);}
     await o.locator('#mastery-use-room').click();await o.locator('.room-preparation').waitFor();await sync();
     const round=room.round_id,roles=[room.therapist_id,room.client_id,room.observer_id],order=[...room.statement_ids];
     assert(room.exercise_type==='mastery'&&room.skill_id===null&&order.length===12,'Mastery is an ordered exercise without a fake round skill');
-    assert((await c.locator('#room-content').textContent()).includes(arne?(language==='no'?'Jeg heter '+(nora?'Nora':mia?'Mia':'Leo'):'I’m '+(nora?'Nora':mia?'Mia':'Leo')):(language==='no'?'Hei, jeg heter Sara':'Hi, I\'m Sara')),'Client sees role background and voice');
+    const voice=(manifest.CASE_OVERRIDES[language]?.[caseId]??manifest.cases[caseId]).voice;
+    assert(voice&&(await c.locator('#room-content').textContent()).includes(voice),'Client sees this case’s exact role voice');
     assert(room.difficulty===level,'Host-selected level belongs to the room');
     assert(await c.locator('#room-ready').isVisible(),'Client Ready is reachable');
     assert(await o.locator('#room-next').isDisabled(),'Human readiness blocks start');
@@ -141,7 +145,7 @@ async (page) => {
         assert(await o.locator('.mastery-scene-cues li').count()===2,'Observer has two concise skill cues');
         assert(await watcher.locator('#room-next').isHidden()&&await t.locator('#room-next').isHidden(),'Only active observer guides');
         await largeTextFits(stage);
-        if(set===1&&item===0)for(const [name,p] of [['observer',o],['client',c],['therapist',t]])await p.screenshot({path:`output/playwright/mastery-room-${language}-${name}-320.png`,fullPage:true});
+        if(set===1&&item===0)for(const [name,p] of [['observer',o],['client',c],['therapist',t]])await p.screenshot({path:`output/playwright/mastery-room-${testCase}-${language}-${name}-320.png`,fullPage:true});
         if(set===2&&item===0){
           // Resume the same scene after reconnect, including a switched skill.
           const current=room.statement_ids[room.item_index];await t.reload();await t.locator('#group-resume').click();await t.locator('#room-content .individual-guide').waitFor();await sync();

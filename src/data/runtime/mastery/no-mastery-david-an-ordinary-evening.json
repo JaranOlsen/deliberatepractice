@@ -1,0 +1,181 @@
+{
+  "id": "mastery-david-an-ordinary-evening",
+  "type": "mastery",
+  "caseId": "case-david",
+  "difficulty": "hard",
+  "supportedLevels": [
+    "hard"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "David · En vanlig kveld",
+  "orientation": "Sammenhengende øyeblikk om å bli verdsatt uten en enestående prestasjon. Korrigeringer og en praktisk retning kan være legitime valg. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "scenes": [
+    {
+      "id": "mastery_david_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-david_12",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "bridge": "David begynner med muligheten for en kveld uten prestasjoner.",
+      "prompt": "Speil ønsket og følelsen av verdiløshet.",
+      "text": "[Lavmælt] Kona mi sier hun ønsker seg en kveld der ingen av oss skal oppnå noe. Det vil jeg også, men uten noe å tilby føler jeg meg merkelig verdiløs.",
+      "suggestion": "Du ønsker en kveld sammen, men uten noe å oppnå eller tilby kjenner du deg verdiløs."
+    },
+    {
+      "id": "mastery_david_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-david_01",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Han spør hvordan følelser henger sammen med synlige resultater.",
+      "prompt": "Gi en praktisk begrunnelse uten å love et resultat.",
+      "text": "[Kontrollert] Hvorfor fokusere på følelser når jeg trenger resultater folk faktisk kan se?",
+      "suggestion": "Du vil se endringer i hverdagen. Følelser er en del av det som skjer før du trekker deg unna eller svarer skarpt. Å forstå de øyeblikkene kan hjelpe deg å velge hvordan du svarer, og vi kan se sammen om det gjør en forskjell hjemme og på jobb."
+    },
+    {
+      "id": "mastery_david_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-david_01",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "bridge": "En annen samtale kjennes som en rettssak.",
+      "prompt": "Valider å føle seg presset uten å støtte forakt.",
+      "text": "[Kontrollert] Når kona mi tar opp følelser, føler jeg meg trengt opp i et hjørne og vil heller argumentere med fakta. Hvis jeg blir værende i det følelsesmessige, begynner det å høres ut som en rettssak jeg allerede har tapt.",
+      "suggestion": "Hvis samtalen kjennes som en rettssak du allerede har tapt, er det forståelig å føle seg presset opp i et hjørne. Ubehaget kan bli hørt uten at konas følelser må være en anklage."
+    },
+    {
+      "id": "mastery_david_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-david_01",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Han merker at kritikk blir igjen etter at han avfeier den.",
+      "prompt": "Spør om den personlige virkningen.",
+      "text": "[Kontrollert] Når hun kaller meg kald, vil jeg avfeie henne, men det blir sittende i meg etterpå.",
+      "suggestion": "Hvilken følelse er der når det blir sittende i deg etterpå?"
+    },
+    {
+      "id": "mastery_david_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-david_01",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et annet øyeblikk rommer å bevise seg og ønske å forsvinne.",
+      "prompt": "Undersøk de motstridende reaksjonene.",
+      "text": "[Kontrollert] Når hun sier at jeg er kald, vil en del av meg bevise at hun tar feil, og en annen del vil forsvinne.",
+      "suggestion": "Du vil bevise at hun tar feil, og samtidig forsvinne. Kan vi stoppe opp ved begge de ønskene og merke hvordan de kjennes akkurat nå?"
+    },
+    {
+      "id": "mastery_david_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-david_01",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "En skarp spøk kommer før det såre kan bli sett.",
+      "prompt": "Undersøk én tentativ betydning av den raske spøken.",
+      "text": "[Håpløs] Når kona mi kaller meg kald, kommer jeg med en spydig kommentar før hun rekker å se at det såret.",
+      "suggestion": "Kommentaren kommer før hun ser at du er såret. Jeg lurer på om det å bli kalt kald også treffer en frykt for at du svikter henne."
+    },
+    {
+      "id": "mastery_david_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-david_02",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Han beskriver på avstand hvordan det er å være vanlig.",
+      "prompt": "Gjør det nært uten å ydmyke ham.",
+      "text": "[Verdiløs] Hvis jeg ikke er den beste personen i rommet, føler jeg meg vanlig, og vanlig er nesten verre enn å mislykkes.",
+      "suggestion": "Gulvet åpner seg under det å være vanlig, og du faller fra imponerende til ingenting før noen andre engang har dømt deg."
+    },
+    {
+      "id": "mastery_david_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-david_03",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "Et sårt øyeblikk går over til å utfordre ideen om fremgang.",
+      "prompt": "Inviter tilbake fremfor å forsvare din definisjon av fremgang.",
+      "text": "[Såret, så skarp] Jeg følte meg vanlig. Det er vel din idé om fremgang.",
+      "suggestion": "Før vi definerer fremgang: Kan vi forstå det vonde ved å være vanlig her?"
+    },
+    {
+      "id": "mastery_david_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-david_01",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et senere øyeblikk fanger ønsket om å skjule at han er blottlagt.",
+      "prompt": "Vær til stede uten å gjøre det til en ny prestasjon.",
+      "text": "[Kontrollert] Ansiktet brenner, og jeg vil avbryte dette før du ser hvor blottstilt jeg er.",
+      "suggestion": "Det er vanskelig å tåle å kjenne seg så utsatt. Jeg er her og lytter, og du kan velge hvor mye du viser meg. Vi kan stoppe opp uten å avvise det du kjenner."
+    },
+    {
+      "id": "mastery_david_10",
+      "skillId": "alliance-repair",
+      "sourceItemId": "dp_alliance-repair_case-david_02",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "bridge": "David husker en oppgave som ikke passet i en tidligere terapisamtale.",
+      "prompt": "Anerkjenn at du overså det han ba om, og avtal retningen.",
+      "text": "[Avvisende] Da jeg ba om strategi, fortsatte du å gå tilbake til følelser, og jeg følte meg oversett. Jeg kom inn og ba om noe jeg faktisk kan gjøre, og det kjentes som om du stadig tok verktøyet ut av hånden min.",
+      "suggestion": "Du ba om noe praktisk, og jeg fortsatte å føre oss tilbake til følelsene. Jeg beklager at jeg overså det du ba om. Vi kan begynne med én situasjon du vil håndtere annerledes, og bli enige om noe konkret å prøve."
+    },
+    {
+      "id": "mastery_david_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-david_01",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Han merker et ønske om oppmerksomhet uten å bedømme kona.",
+      "prompt": "Hjelp ham å si forskjellen uten å feire et gjennombrudd.",
+      "text": "[Lavt] Jeg kunne ønske oppmerksomheten hennes uten å gjøre det til en vurdering av henne.",
+      "suggestion": "Hva endret seg i hvordan du forstod det ønsket?"
+    },
+    {
+      "id": "mastery_david_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-david_01",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "Timen slutter før han ønsker en ny tolkning.",
+      "prompt": "Avslutt enkelt og behold det han vil vende tilbake til.",
+      "text": "[Kontrollert] Vi er snart ferdige. Ikke legg til en stor tolkning nå.",
+      "suggestion": "Vi kan avslutte uten den. Hva vil du beholde til en annen gang?"
+    }
+  ]
+}

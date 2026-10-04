@@ -1,0 +1,180 @@
+{
+  "id": "mastery-nina-a-need-of-her-own",
+  "type": "mastery",
+  "caseId": "case-nina",
+  "difficulty": "moderate",
+  "supportedLevels": [
+    "moderate"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Nina · Et eget behov",
+  "orientation": "Øyeblikk om utmattelse, bitterhet og å be om omsorg mens dårlig samvittighet er der. Et tydeligere ønske trenger ikke bli en umiddelbar livsendring. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "scenes": [
+    {
+      "id": "mastery_nina_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-nina_01",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Nina begynner med at dårlig samvittighet kommer før hjelpen kan komme.",
+      "prompt": "Speil behovet og trangen til å ta det tilbake.",
+      "text": "[Sliten] Å be om hjelp gir meg skyldfølelse, selv når jeg er helt utslitt. Jeg begynner å forklare hvorfor det egentlig ikke er så farlig før noen i det hele tatt har svart.",
+      "suggestion": "Du får skyldfølelse straks du ber om hjelp, og begynner å tone ned hvor mye du trenger den."
+    },
+    {
+      "id": "mastery_nina_02",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-nina_01",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Hvile vekker enda en liste over det hun burde gjøre.",
+      "prompt": "Valider behovet for hvile uten å rose selvoppofrelse.",
+      "text": "[Sliten] Hvis jeg setter meg ned før alt er gjort, begynner skyldfølelsen å ramse opp hva jeg burde gjøre.",
+      "suggestion": "Når så mye kreves av deg, er det forståelig at det å stoppe kan vekke skyld så vel som lettelse. Du har lov til å trenge hvile selv om noe fortsatt er ugjort."
+    },
+    {
+      "id": "mastery_nina_03",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-nina_01",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Hun spør om å gi følelsene oppmerksomhet er egoistisk.",
+      "prompt": "Knytt arbeidet til et eget behov.",
+      "text": "[Skyldpreget] Er det ikke egoistisk å fokusere på følelsene mine når alle trenger noe fra meg?",
+      "suggestion": "Det kjennes egoistisk å vende oppmerksomheten mot dine egne følelser. De kan hjelpe oss å merke behovene og grensene dine, også når du er utslitt. Å gi dem plass er en del av å finne måter å ta vare på andre uten å slite deg helt ut."
+    },
+    {
+      "id": "mastery_nina_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-nina_01",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "bridge": "En bønn om hjelp følges raskt av dårlig samvittighet.",
+      "prompt": "Spør om den umiddelbare endringen.",
+      "text": "[Sliten] Når jeg ber om hjelp, skyller skyld inn og jeg vil ta det tilbake.",
+      "suggestion": "Når skyldfølelsen skyller inn, hva forteller den deg om deg selv?"
+    },
+    {
+      "id": "mastery_nina_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-nina_02",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et annet øyeblikk gjelder aktivitet som tar plassen til bitterhet.",
+      "prompt": "Undersøk det nære uten å kreve en konfrontasjon.",
+      "text": "[Skyldpreget] Jeg bretter klær og svarer på meldinger så jeg slipper å kjenne bitterhet.",
+      "suggestion": "Å holde deg i gang gjør at bitterheten ikke får plass. Det kan hjelpe å stoppe ved øyeblikket der det å stanse ville gjort den hørbar."
+    },
+    {
+      "id": "mastery_nina_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-nina_01",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Hun beskriver dommen som følger hvile.",
+      "prompt": "Undersøk en tentativ betydning fremfor å erklære et motiv.",
+      "text": "[Skyldpreget] Når jeg hviler, føler jeg meg egoistisk, selv når jeg er så trøtt at jeg nesten ikke klarer å stå.",
+      "suggestion": "Hvile vekker skyld selv når du nesten ikke klarer å stå. Jeg lurer på om du er redd for å bety mindre for folk når du ikke gjør noe for dem."
+    },
+    {
+      "id": "mastery_nina_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-nina_02",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et øyeblikk av å føle seg brukt blir til grunner for takknemlighet.",
+      "prompt": "Gjør følelsen som forsvant synlig uten å fordømme omsorg.",
+      "text": "[Såret] Noen ganger føler jeg meg brukt, og så tenker jeg med en gang på alle grunnene til at jeg burde være mer takknemlig.",
+      "suggestion": "Såret kommer opp et øyeblikk, og så trekkes takknemligheten over det som et teppe før noen får se."
+    },
+    {
+      "id": "mastery_nina_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-nina_02",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "Sinne viker for en unnskyldning.",
+      "prompt": "Inviter litt tilbake før dere vurderer sinnet.",
+      "text": "[Sint, så unnskylder] Jeg er lei av å gjøre alt. Unnskyld, det høres fælt ut.",
+      "suggestion": "Før unnskyldningen: Kan vi høre det du er lei av å bære?"
+    },
+    {
+      "id": "mastery_nina_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-nina_01",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et senere tårefylt øyeblikk vekker skam over å trenge omsorg.",
+      "prompt": "Bli hos henne uten et nytt krav om å samle seg.",
+      "text": "[Skyldpreget] Jeg klarer ikke slutte å gråte, og så skammer jeg meg for hvor mye jeg trenger. Sønnen min spurte bare hvor sokkene hans var, og plutselig sto jeg ved kjøkkenbenken og hulket som om jeg hadde ødelagt alt.",
+      "suggestion": "Tårene er her, og du skammer deg over å trenge så mye. Jeg lytter. Du trenger ikke ta vare på meg eller beklage det du trenger."
+    },
+    {
+      "id": "mastery_nina_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-nina_12",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "bridge": "En annen dag rommer å bli oversett på et skolemøte.",
+      "prompt": "Speil det såre uten å bestemme at noen mente det.",
+      "text": "[Såret, unnskyldende] De takket hele teamet på skolemøtet, men utelot navnet mitt. Jeg vet at det ikke var med vilje. Jeg følte meg likevel oversett, og dum som brydde meg.",
+      "suggestion": "Du følte deg oversett, selv om du visste det ikke var med vilje, og så dømte du deg selv for å bli såret."
+    },
+    {
+      "id": "mastery_nina_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-nina_11",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Nina merker litt rom før unnskyldningen.",
+      "prompt": "Hjelp henne å kjenne igjen den lille forskjellen.",
+      "text": "[Stødig, unnskyldende] Jeg sa det jeg trengte. Unnskyldningen kom fortsatt, men senere.",
+      "suggestion": "Hva var annerledes i det lille rommet før unnskyldningen?"
+    },
+    {
+      "id": "mastery_nina_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-nina_12",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "Timen slutter med et startpunkt hun vil beholde.",
+      "prompt": "Gi plass til behovet hennes neste gang uten hjemmeoppgave.",
+      "text": "[Stødig] Neste gang vil jeg begynne med det jeg trenger, før alle andre.",
+      "suggestion": "Vi noterer det startpunktet, så det ikke blir borte til neste gang."
+    }
+  ]
+}

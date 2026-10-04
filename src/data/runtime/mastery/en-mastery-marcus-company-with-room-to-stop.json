@@ -1,0 +1,180 @@
+{
+  "id": "mastery-marcus-company-with-room-to-stop",
+  "type": "mastery",
+  "caseId": "case-marcus",
+  "difficulty": "hard",
+  "supportedLevels": [
+    "hard"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Marcus · Company with room to stop",
+  "orientation": "Small, non-acute moments about distance, loneliness and choosing contact. No trauma detail or increase in feeling is required. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+  "scenes": [
+    {
+      "id": "mastery_marcus_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-marcus_01",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Marcus begins with the daily routine and distance.",
+      "prompt": "Reflect the distance without filling it with a feeling.",
+      "text": "[Slow and flat] Most days I complete the routine and feel almost nothing behind my face. People speak to me, and I answer after a delay, like the words have to travel too far.",
+      "suggestion": "You get through the day feeling numb, and even answering people feels slow and distant."
+    },
+    {
+      "id": "mastery_marcus_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-marcus_02",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "bridge": "He asks about work that could become too much.",
+      "prompt": "Explain choice and a manageable amount.",
+      "text": "[Slow and flat] I do not want to get flooded; when I lose control, I disappear for days.",
+      "suggestion": "Losing days is something we need to take seriously. We can begin with what helps you stay present and agree on when to pause. The aim is to understand a small part of your experience at a manageable pace, not push through a memory."
+    },
+    {
+      "id": "mastery_marcus_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-marcus_02",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Another moment brings judgment about missing words.",
+      "prompt": "Validate difficulty without demanding a clear account.",
+      "text": "[Dazed] I do not know what I feel. It is pressure, anger, and nothing at the same time, and I feel stupid for not having words.",
+      "suggestion": "Words can disappear when pressure, anger, and numbness arrive together; not knowing belongs to the overwhelm, not to stupidity."
+    },
+    {
+      "id": "mastery_marcus_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-marcus_01",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "bridge": "A wave is hard to name.",
+      "prompt": "Ask one small question, leaving space for not knowing.",
+      "text": "[Slow and flat] Most days I am numb and then a wave hits out of nowhere.",
+      "suggestion": "As you describe that wave, what do you notice in yourself now?"
+    },
+    {
+      "id": "mastery_marcus_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-marcus_01",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Another moment stays near the unclear experience.",
+      "prompt": "Explore at the edge rather than search for trauma details.",
+      "text": "[Slow and flat] Most days I'm numb, and then something hits me and I don't know what it is.",
+      "suggestion": "You feel numb, and then something comes through that you cannot name. We can take that slowly; what do you notice of it as you say this now?"
+    },
+    {
+      "id": "mastery_marcus_06",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-marcus_01",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "bridge": "He describes going through the motions.",
+      "prompt": "Use a close image, with room to reject it.",
+      "text": "[Hopeless] Most days I go through the motions, show up where I am supposed to, and still do not see the point of talking about it.",
+      "suggestion": "It sounds like moving through a day with all the colour washed out, and talking feels like more effort with nowhere to go."
+    },
+    {
+      "id": "mastery_marcus_07",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-marcus_05",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "Marcus says a topic change helped when he was drifting.",
+      "prompt": "Respect the shift and return to the present room.",
+      "text": "[Quietly] Went to work talk because I was drifting.",
+      "suggestion": "Let’s leave that feeling and come back to this room. No need to go further."
+    },
+    {
+      "id": "mastery_marcus_08",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-marcus_01",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "bridge": "A separate moment brings a wave he does not want to deepen.",
+      "prompt": "Offer contact and a pause without memory detail.",
+      "text": "[Flat] A wave is coming up my chest, and I want to shut it down before it takes me back there.",
+      "suggestion": "You are afraid the feeling will take you back there. I am here with you. We can pause and notice where we are now, without going further into the memory."
+    },
+    {
+      "id": "mastery_marcus_09",
+      "skillId": "alliance-repair",
+      "sourceItemId": "dp_alliance-repair_case-marcus_01",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "bridge": "He recalls pressure in an earlier therapy conversation.",
+      "prompt": "Acknowledge that numbness was already the limit of what he could manage.",
+      "text": "[Slow and flat] When I said I felt nothing, you kept asking what was under it, and I shut down. Nothing was already the edge; it felt like you wanted me to produce something else.",
+      "suggestion": "You told me there was nothing, and I kept asking you to find something else. I am sorry. We can stop that search. I want to take what you actually experience seriously, including feeling nothing."
+    },
+    {
+      "id": "mastery_marcus_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-marcus_10",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Another moment names wanting company and wanting an exit.",
+      "prompt": "Reflect both without choosing closeness for him.",
+      "text": "[Scared] I want to let people in, but every time someone gets close, I start looking for the exit. Then I end up alone again and hate that too.",
+      "suggestion": "You want closeness, fear sends you toward the exit, and then the aloneness hurts too."
+    },
+    {
+      "id": "mastery_marcus_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-marcus_01",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Marcus notices being able to stop and remain present.",
+      "prompt": "Help him name that small difference.",
+      "text": "[Quietly] Said stop. You stopped. Stayed here.",
+      "suggestion": "What was different about being able to stop?"
+    },
+    {
+      "id": "mastery_marcus_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-marcus_09",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "The imagined hour ends with a distance he wants remembered.",
+      "prompt": "Preserve that preference without asking for more disclosure.",
+      "text": "[Quietly] Next time, same distance to start.",
+      "suggestion": "Let’s note that distance so you don’t have to establish it again at the beginning."
+    }
+  ]
+}

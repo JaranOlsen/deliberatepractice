@@ -1,0 +1,180 @@
+{
+  "id": "mastery-aisha-contact-and-an-ending",
+  "type": "mastery",
+  "caseId": "case-aisha",
+  "difficulty": "hard",
+  "supportedLevels": [
+    "hard"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Aisha · Contact and an ending",
+  "orientation": "Non-acute moments about wanting contact and facing a bounded ending. No promise of constant availability or deeper disclosure is required. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+  "scenes": [
+    {
+      "id": "mastery_aisha_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-aisha_01",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Aisha begins with what a glance away can mean to her.",
+      "prompt": "Reflect the fear without promising uninterrupted attention.",
+      "text": "[Panicked] If you look away while I am talking, even to check a note, I panic that you are losing interest. Then I start talking faster, adding details, anything to keep you with me.",
+      "suggestion": "When I look away, you panic that I am losing interest and try harder to keep my attention."
+    },
+    {
+      "id": "mastery_aisha_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-aisha_04",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "bridge": "She asks whether her feelings can have a place in the work.",
+      "prompt": "Explain a small, collaborative pace.",
+      "text": "[Worried] What if my feelings are too much for any therapist to work with?",
+      "suggestion": "You worry that your feelings will be too much, even here. We can begin with a small part and notice what helps or makes it harder. That helps us choose the pace and support you need, rather than ask you to bring everything at once."
+    },
+    {
+      "id": "mastery_aisha_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-aisha_01",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Another appointment brings fear around the door.",
+      "prompt": "Validate the alarm without treating it as proof of leaving.",
+      "text": "[Panicked] I watched the door most of session to make sure you won't leave. Every time the hallway got quiet, I thought this might be the moment you decide I am too much and walk out.",
+      "suggestion": "After so many abrupt endings, it is understandable to fear being left again. That fear deserves care; you do not have to dismiss it just because it shows up here too."
+    },
+    {
+      "id": "mastery_aisha_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-aisha_02",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "bridge": "She describes opposing wishes arriving quickly.",
+      "prompt": "Ask about the shift without choosing the correct wish.",
+      "text": "[Desperate] I go from please do not leave to leave me alone in seconds.",
+      "suggestion": "Just before it flips, what feeling is too painful to remain near?"
+    },
+    {
+      "id": "mastery_aisha_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-aisha_02",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Another moment stays near the confusion in those wishes.",
+      "prompt": "Explore both with room to slow down.",
+      "text": "[Confused and embarrassed] I can ask someone not to leave and then want them away from me seconds later. I do not understand which part is actually me.",
+      "suggestion": "Both movements are there: reaching and pushing away. What changes inside in the seconds between asking them to stay and wanting them gone?"
+    },
+    {
+      "id": "mastery_aisha_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-aisha_01",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "A clock glance brings an unspoken meaning.",
+      "prompt": "Offer a tentative guess and check fit.",
+      "text": "[Desperate] If you glance at the clock, my stomach drops like you are already leaving me.",
+      "suggestion": "That glance becomes a leaving signal; I wonder if underneath the drop is a fear that you stop mattering once someone turns away."
+    },
+    {
+      "id": "mastery_aisha_07",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-aisha_06",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "Hurt in a pause shifts toward doing the exercise quickly.",
+      "prompt": "Invite a look at the pause rather than push the task.",
+      "text": "[Hurt, then dismisses] That pause felt awful. Fine, let’s just do the exercise.",
+      "suggestion": "Before the exercise, could we understand what felt awful in our pause?"
+    },
+    {
+      "id": "mastery_aisha_08",
+      "skillId": "alliance-repair",
+      "sourceItemId": "dp_alliance-repair_case-aisha_02",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Aisha recalls an abrupt ending in an earlier appointment.",
+      "prompt": "Acknowledge the impact and plan a bounded ending together.",
+      "text": "[Desperate] When the session ended exactly on time, it felt like you dropped me. I know there has to be a clock, but the way it happened made me feel like the connection disappeared the second the hour was over.",
+      "suggestion": "When we ended, you felt the connection disappear. I am sorry the ending felt so abrupt. I need to keep the time limit, and we can leave room before it to check how you are and what support you need until we meet again."
+    },
+    {
+      "id": "mastery_aisha_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-aisha_05",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "bridge": "A later moment holds needing contact and shame about the need.",
+      "prompt": "Stay present without promising unlimited contact.",
+      "text": "[Desperate] I feel like I am too much, and I hate that I need you to stay.",
+      "suggestion": "The need for me feels unbearable and shameful at the same time. I can sit with that exposed needing for a moment without treating you as too much."
+    },
+    {
+      "id": "mastery_aisha_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-aisha_12",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "bridge": "Another calm moment brings relief and uncertainty about herself.",
+      "prompt": "Reflect the mix without requiring a crisis or a conclusion.",
+      "text": "[Low voice] When things are calm, I don't know who I am. I'm relieved nobody is leaving, but I feel empty and almost miss having something to fight about.",
+      "suggestion": "The calm brings relief, but also an emptiness that leaves you unsure of who you are."
+    },
+    {
+      "id": "mastery_aisha_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-aisha_12",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Aisha notices two truths about the hour ending.",
+      "prompt": "Help her name both without asking her to like the ending.",
+      "text": "[Quiet, uncertain] I can want the hour to continue and know it ends. I don’t like it.",
+      "suggestion": "What makes room for both today, without asking you to like the ending?"
+    },
+    {
+      "id": "mastery_aisha_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-aisha_01",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "The imagined hour has a few minutes left.",
+      "prompt": "Name time plainly and agree how to use it.",
+      "text": "[Upset, present] We’re nearly done. I need to hear that plainly, not notice you packing up.",
+      "suggestion": "We have a few minutes left. I’m here for them; let’s agree how to use them for ending."
+    }
+  ]
+}

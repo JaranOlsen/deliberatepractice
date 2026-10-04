@@ -145,6 +145,1174 @@
       "suggestion": "Nothing is fixed, and the evenings make a little more sense. What have you understood that you would like us to keep hold of?"
     }
   ],
+  "case-michael": [
+    {
+      "id": "dp_consolidating-emotional-change_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] Being corrected felt embarrassing. It didn’t actually make me useless.",
+      "suggestion": "What helped you separate embarrassment from being useless?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I can say I was hurt without saying she had no right to speak.",
+      "suggestion": "What becomes clearer when you keep those two things separate?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Surprised] I admitted I didn’t know. I didn’t feel smaller afterwards.",
+      "suggestion": "What was different about not knowing in that moment?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady] The shouting was mine. So was the wish to be listened to.",
+      "suggestion": "How would you put both into words without using one to excuse the other?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Hesitant] Asking for a minute sounded better than ordering her to stop.",
+      "suggestion": "What did that request let you say differently?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Relieved] I let the sentence stand without proving I was right.",
+      "suggestion": "What helped you leave it without another argument?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I’m still tense. I can hear the hurt a bit more clearly.",
+      "suggestion": "Which words capture the hurt you can hear now?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] I missed her before I got angry. I usually skip that bit.",
+      "suggestion": "What helps you notice that earlier moment?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Unsure] I corrected you without raising my voice. It might not work at home.",
+      "suggestion": "What made it possible here, without predicting what will happen at home?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] Dad’s voice is still there. I didn’t have to join in this time.",
+      "suggestion": "What changed in how you responded to that voice?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Moved] Wanting us to laugh again sounds different from wanting to win.",
+      "suggestion": "What do you want to keep about that difference?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady, cautious] I know what I regret. I don’t have to call myself a monster to own it.",
+      "suggestion": "How would you name the responsibility without that label?"
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_consolidating-emotional-change_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Surprised] I paused, and you still waited. I didn’t have to fill it.",
+      "suggestion": "What was different about having time for your answer?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] Wanting to join them sounds less stupid here.",
+      "suggestion": "What makes that wish easier to hear here?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Hesitant] I said I didn’t understand. Nothing terrible happened.",
+      "suggestion": "What helped you say it this time?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Relieved] I can be anxious and still want the invitation.",
+      "suggestion": "How would you put those two things together in your own words?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I stopped calling the pause a failure. It was just a pause for a moment.",
+      "suggestion": "What changed when the pause didn’t have to mean failure?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Unsure] The sentence came out. I don’t know if it’ll come out tomorrow.",
+      "suggestion": "What made it possible today, without asking tomorrow to be the same?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] Being left out hurt. It doesn’t prove I belong nowhere.",
+      "suggestion": "What helps you separate that painful experience from not belonging anywhere?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Warm] I remembered the part of the conversation I liked, not only the mistake.",
+      "suggestion": "What would you like to remember about the part you liked?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Hesitant] Asking for a smaller question worked better than pretending I knew.",
+      "suggestion": "What did that request give you?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I heard how harsh I was being. I didn’t have to answer myself that way.",
+      "suggestion": "Which gentler words felt believable, even a little?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Relieved, shy] I asked you to wait. That feels like something I could ask for again.",
+      "suggestion": "Which few words would you want to keep?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I’m still awkward. I don’t feel quite so wrong for wanting company.",
+      "suggestion": "What is different in how you hear that wish now?"
+    }
+  ],
+  "case-laura": [
+    {
+      "id": "dp_consolidating-emotional-change_case-laura_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I said stop, and you stopped. I stayed in the room.",
+      "suggestion": "What was different about being able to stop?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-laura_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Surprised] I noticed the chair again. The feeling didn’t disappear.",
+      "suggestion": "What changed when the chair and the feeling could both be here?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-laura_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] Needing company sounds less like being damaged.",
+      "suggestion": "Which words fit that need better now?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-laura_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Wary, relieved] I told you a little. You didn’t ask for the rest.",
+      "suggestion": "What mattered about leaving the rest yours to choose?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-laura_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] The blankness came. I could tell you instead of disappearing into it.",
+      "suggestion": "What helped you notice and say it?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-laura_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Sad, steadier] I’m lonely. Saying that didn’t make me fall apart.",
+      "suggestion": "What was different about saying it this way?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-laura_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I still don’t trust easily. I know better what felt too close.",
+      "suggestion": "What do you want us to remember about that distance?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-laura_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Relieved] A short call sounds possible. I don’t need to tell everything.",
+      "suggestion": "What would you want that call to offer, within what you choose to share?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-laura_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I didn’t make myself feel more. That was different.",
+      "suggestion": "What changed when more feeling wasn’t a requirement?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-laura_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Uncertain] I’m not better exactly. Less alone for a minute.",
+      "suggestion": "Could we name that small difference without calling it more than it is?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-laura_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] The pause felt like something I chose, not something wrong with me.",
+      "suggestion": "What helped it feel like your choice?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-laura_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady] I can ask for quieter words. I don’t have to manage yours silently.",
+      "suggestion": "Which request would you like us to keep for another time?"
+    }
+  ],
+  "case-carlos": [
+    {
+      "id": "dp_consolidating-emotional-change_case-carlos_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] Feeling humiliated and being in danger aren’t always the same thing.",
+      "suggestion": "What helped you notice that difference in this moment?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-carlos_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I can be hurt and still be responsible for punching the wall.",
+      "suggestion": "How would you put both into words without making the hurt an excuse?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-carlos_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady] Saying I needed a minute didn’t feel like surrender this time.",
+      "suggestion": "What made that request different from surrender?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-carlos_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Hesitant] I heard the fear before the anger swallowed it.",
+      "suggestion": "Which words fit the fear you could hear?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-carlos_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Sad, calmer] I want her close. I don’t want her staying because she’s scared.",
+      "suggestion": "What does that distinction make clearer about the closeness you want?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-carlos_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Surprised] I said I felt small. You didn’t start talking down to me.",
+      "suggestion": "What was different about saying it and still feeling respected?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-carlos_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I knew which bit hurt. I didn’t need the whole crew to be against me.",
+      "suggestion": "What helped you hear that particular hurt more clearly?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-carlos_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Regretful, steady] Repairing the wall isn’t the same as repairing what happened between us.",
+      "suggestion": "What feels important to remember about those different repairs?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-carlos_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Relieved] I corrected you without turning it into a fight.",
+      "suggestion": "What made it possible to correct me without it becoming a fight?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-carlos_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Unsure] I want to try that pause. I’m not saying I’ve got it sorted.",
+      "suggestion": "What would help you recognize when you want the pause, without calling the problem solved?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-carlos_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I can hear her fear without making myself the only victim.",
+      "suggestion": "What changes in how you understand what happened between you?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-carlos_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady] Respect sounds more like having a say than making everyone back down.",
+      "suggestion": "Which words capture the respect you want to practise asking for?"
+    }
+  ],
+  "case-nina": [
+    {
+      "id": "dp_consolidating-emotional-change_case-nina_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] Being tired doesn’t have to mean I haven’t cared enough.",
+      "suggestion": "What does being tired mean to you now?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nina_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Relieved, guilty] I found a no that doesn’t sound like I stopped loving them.",
+      "suggestion": "What does that no protect while the love stays?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nina_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Surprised] I asked you to listen. I didn’t immediately take it back.",
+      "suggestion": "What made it possible to let the request stand?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nina_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Sad, calmer] Wanting care sounds different from wanting everyone to serve me.",
+      "suggestion": "Which words capture the care you actually want?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nina_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] I can understand Mum and still know that I’m exhausted.",
+      "suggestion": "What helps you keep both in view?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nina_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I heard anger without immediately calling myself cruel.",
+      "suggestion": "What did you hear in the anger before that judgment?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nina_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Hesitant] Asking for one evening off sounds possible. I still feel guilty.",
+      "suggestion": "What makes the request clearer, even with the guilt here?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nina_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Warm] I let myself enjoy being looked after. I didn’t start repaying it straight away.",
+      "suggestion": "What was different about receiving for that moment?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nina_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Uncertain] I don’t know if I’ll ask at home. I know better what I’d be asking for.",
+      "suggestion": "Which part of that clearer wish do you want to keep?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nina_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] A pause didn’t mean I was abandoning everyone.",
+      "suggestion": "What helped the pause become different from abandoning them?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nina_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady, apologetic] I said what I needed. The sorry still came, but later.",
+      "suggestion": "What was different in that little space before the apology?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nina_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Moved] I’m still sad. I feel less selfish for wanting someone beside me.",
+      "suggestion": "What words would help you remember that distinction?"
+    }
+  ],
+  "case-aisha": [
+    {
+      "id": "dp_consolidating-emotional-change_case-aisha_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quiet, uncertain] I wanted him near. I didn’t have to call myself disgusting for it this time.",
+      "suggestion": "What made that wish a little easier to hear?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-aisha_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Relieved, wary] You stopped the question. I didn’t have to get louder.",
+      "suggestion": "What was different about your first no being heard?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-aisha_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] His reply is uncertain. What I wanted from it is clearer.",
+      "suggestion": "Which words capture the wish, while his reply stays uncertain?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-aisha_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Sad, steadier] I can miss him without making the whole day a test of whether I matter.",
+      "suggestion": "What helped the missing stay that size for a moment?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-aisha_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Guarded] I said the pause scared me. You heard it without promising no pauses ever.",
+      "suggestion": "What was helpful in having the fear heard that way?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-aisha_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I’m still angry. I can hear that I wanted care, too.",
+      "suggestion": "What is different when both can be heard?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-aisha_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Relieved, cautious] Asking for company sounds clearer than asking him to prove everything.",
+      "suggestion": "What would you want to keep about that clearer request?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-aisha_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] The fear returned. It didn’t erase that earlier minute.",
+      "suggestion": "What would help you remember both the fear and the earlier minute?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-aisha_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I corrected you and you stayed in the conversation.",
+      "suggestion": "What mattered about correcting me without losing the conversation?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-aisha_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Sad, warm] I remembered a good moment with her. I didn’t have to make every moment good.",
+      "suggestion": "What do you want to keep about that particular good moment?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-aisha_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Shaken, present] I slowed the words. I still wanted you listening.",
+      "suggestion": "What did slowing give you while the wish to be heard stayed?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-aisha_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quiet, uncertain] I can want the hour to continue and know it ends. I don’t like it.",
+      "suggestion": "What makes room for both today, without asking you to like the ending?"
+    }
+  ],
+  "case-david": [
+    {
+      "id": "dp_consolidating-emotional-change_case-david_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I could want her attention without making it her performance review.",
+      "suggestion": "What changed in how you understood that wish?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-david_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] An ordinary moment wasn’t necessarily an empty one.",
+      "suggestion": "What made that particular ordinary moment matter?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-david_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Guarded] I admitted the silence hurt. That’s different from saying she’s entirely right.",
+      "suggestion": "Which distinction do you want to keep about admitting hurt?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-david_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Unsure] I heard her complaint without instantly assembling my defense. Briefly.",
+      "suggestion": "What made that brief pause possible?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-david_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I wanted company. I didn’t need to call it exceptional.",
+      "suggestion": "What happens when that wish can stand without being exceptional?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-david_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady] I can regret the cutting remark without agreeing with every accusation.",
+      "suggestion": "How would you put that responsibility into words at its actual size?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-david_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Relieved, wary] You accepted the correction. I didn’t have to defeat the whole conversation.",
+      "suggestion": "What changed when one correction was enough?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-david_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I could feel embarrassed without deciding the hour was useless.",
+      "suggestion": "What helped you keep the embarrassment from deciding everything?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-david_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] A request sounds clearer than another case against her.",
+      "suggestion": "Which few words make the request yours?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-david_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Guarded] I don’t know if this is a change. I didn’t need to impress you for a minute.",
+      "suggestion": "Could we name that small difference without deciding how long it will last?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-david_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Sad, composed] Missing her is still there. It sounds less like an indictment of me.",
+      "suggestion": "What words fit the missing without making it an indictment?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-david_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I don’t need to leave with the most impressive conclusion.",
+      "suggestion": "What would be worth keeping without an impressive conclusion?"
+    }
+  ],
+  "case-marcus": [
+    {
+      "id": "dp_consolidating-emotional-change_case-marcus_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] Said stop. You stopped. Stayed here.",
+      "suggestion": "What was different about being able to stop?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-marcus_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] Could feel the chair. Still sad.",
+      "suggestion": "What changed with the chair here as well as the sadness?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-marcus_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] Company. That’s the word. Not the whole story.",
+      "suggestion": "What does that word let you say without the whole story?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-marcus_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Relieved, guarded] Didn’t have to explain the name.",
+      "suggestion": "What mattered about having it heard without explaining?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-marcus_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I noticed myself going away. Could say it this time.",
+      "suggestion": "What helped you notice and tell me?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-marcus_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steadier] Being alone isn’t always the same as choosing space.",
+      "suggestion": "What helps you tell those apart?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-marcus_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] A short visit sounds possible. Still don’t want questions.",
+      "suggestion": "What would make that visit fit the limits you want?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-marcus_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Sad, calm] Missing him stayed. Didn’t swallow the room.",
+      "suggestion": "What was different in how you held that missing here?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-marcus_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Uncertain] Don’t know if it’s change. Less far away for a minute.",
+      "suggestion": "Could we keep that small difference without naming it more than it is?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-marcus_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] Corrected you. Didn’t need to leave.",
+      "suggestion": "What made the correction possible without leaving?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-marcus_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady] I can want company and still choose who comes.",
+      "suggestion": "Which part of that choice do you want kept?"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-marcus_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] Enough feeling. Could stop without wiping it out.",
+      "suggestion": "What helped stopping be different from wiping it out?"
+    }
+  ],
   "case-arne": [
     {
       "id": "dp_consolidating-emotional-change_case-arne_easy_01",

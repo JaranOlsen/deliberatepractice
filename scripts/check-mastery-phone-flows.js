@@ -2,10 +2,12 @@
 // Run node scripts/check-local-room-db.mjs --serve first. No remote writes.
 async page => {
  const url=page.url(),assert=(ok,message)=>{if(!ok)throw new Error(message);};
- const testCase=new URL(url).searchParams.get('testCase'),nora=testCase==='nora',mia=testCase==='mia',arne=['arne','mia','nora'].includes(testCase);
- const exerciseId=nora?'mastery-nora-work-and-belonging-easy':mia?'mastery-mia-help-and-choice-easy':arne?'mastery-arne-ordinary-days-easy':'mastery-sara-evenings';
- const caseId=nora?'case-nora':mia?'case-mia':arne?'case-arne':'case-sara';
- const levels=arne?['easy','moderate','hard']:['easy'];
+ const testCase=new URL(url).searchParams.get('testCase')??'sara';
+ const caseId='case-'+testCase;
+ const manifest=await(await page.request.get(new URL('src/data/runtime/manifest.json',url).href)).json();
+ const exercise=manifest.EXERCISE_CATALOG.find(e=>e.caseId===caseId);
+ assert(exercise,'Authored mastery case');
+ const exerciseId=exercise.id,levels=exercise.supportedLevels,variable=levels.length>1;
  assert(['127.0.0.1','localhost'].includes(new URL(url).hostname),'Local preview only');
  const users=await (await page.request.get('http://127.0.0.1:5199/users')).json(),errors=[],contexts=[];
  let stage='setup',completed=0;
@@ -17,6 +19,7 @@ async page => {
    const context=await page.context().browser().newContext({viewport:{width:320,height:844}});contexts.push(context);
    const p=await context.newPage();p.on('pageerror',e=>errors.push(e.message));
    await context.addInitScript(({language,mode})=>{
+    localStorage.setItem('dp_access_level','all');
     localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:language,practiceMode:mode!=='individual'?'triad':'individual',groupUiVersion:2}));
    },{language,mode});
    let loseResponse=false;
@@ -54,8 +57,10 @@ async page => {
    await p.goto(url);await p.waitForFunction(()=>document.getElementById('account-button').textContent==='Account'||document.getElementById('account-button').textContent==='Konto');
    await p.locator('#home-library').click();await p.locator('#exercise-mastery').click();
    await p.locator(`[data-exercise-id="${exerciseId}"]`).click();await p.locator('#mastery-start').waitFor();
-   if(arne&&level!=='easy'){await p.locator(`[data-practice-level="${level}"]`).click();await p.waitForFunction(level=>document.querySelector(`[data-practice-level="${level}"]`)?.getAttribute('aria-pressed')==='true',level);}
-   assert((await p.locator('#mastery-practice .case-brief').textContent()).includes(arne?(language==='no'?'Jeg heter '+(nora?'Nora':mia?'Mia':'Leo'):'I’m '+(nora?'Nora':mia?'Mia':'Leo')):(language==='no'?'Hei, jeg heter Sara':'Hi, I\'m Sara')),'Client sees background and voice before beginning');
+   if(variable&&level!=='easy'){await p.locator(`[data-practice-level="${level}"]`).click();await p.waitForFunction(level=>document.querySelector(`[data-practice-level="${level}"]`)?.getAttribute('aria-pressed')==='true',level);}
+   const voice=(manifest.CASE_OVERRIDES[language]?.[caseId]??manifest.cases[caseId]).voice;
+   assert(voice&&(await p.locator('#mastery-practice .case-brief').textContent()).includes(voice),'Client sees this case’s exact role voice before beginning');
+   if(!variable)assert(await p.locator('[data-practice-level]').count()===0,'Fixed case offers no alternate level');
    const levelName={en:{easy:'Easy',moderate:'Moderate',hard:'Hard'},no:{easy:'Lett',moderate:'Moderat',hard:'Vanskelig'}}[language][level];
    assert((await p.locator('#mastery-practice .room-case-heading').textContent()).endsWith(levelName),'The exercise level follows the selected language');
    await fits('preparation');
@@ -74,7 +79,7 @@ async page => {
      }
      assert(await p.locator('#mastery-finish').isVisible(),'Completion action available to guide');
      await fits('item');
-     if(set===1&&item===0)await p.screenshot({path:`output/playwright/mastery-${nora?'nora':mia?'mia':arne?'arne':'sara'}-${level}-${language}-${mode}-item-320.png`,fullPage:true});
+     if(set===1&&item===0)await p.screenshot({path:`output/playwright/mastery-${testCase}-${level}-${language}-${mode}-item-320.png`,fullPage:true});
      await p.locator('#mastery-finish').click();
     }
     await p.locator('#mastery-score').waitFor();await fits('rating');

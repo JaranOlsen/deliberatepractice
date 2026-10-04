@@ -4,7 +4,7 @@
 export const CONTENT_REGISTRY_SUMMARY = {
   "revision": "2026-10-04-v4",
   "track": "case_matrix",
-  "totalItems": 2520,
+  "totalItems": 2808,
   "qaFlagTaxonomy": [
     "voice_off",
     "skill_miss",
@@ -15,7 +15,7 @@ export const CONTENT_REGISTRY_SUMMARY = {
     "too_generic",
     "duplicate_pattern"
   ],
-  "generatedAt": "2026-10-04T21:53:30.484Z"
+  "generatedAt": "2026-10-04T22:41:02.244Z"
 };
 
 export const CONTENT_REGISTRY = {
@@ -56530,6 +56530,1942 @@ export const CONTENT_REGISTRY = {
         "reviewStatus": "pending",
         "revision": "2026-10-04-v4"
       }
+    ],
+    "case-michael": [
+      {
+        "id": "dp_empathic-refocusing_case-michael_01",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-michael_02",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-michael_03",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-michael_04",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-michael_05",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-michael_06",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-michael_07",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-michael_08",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-michael_09",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-michael_10",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-michael_11",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-michael_12",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-jason": [
+      {
+        "id": "dp_empathic-refocusing_case-jason_01",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-jason_02",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-jason_03",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-jason_04",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-jason_05",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-jason_06",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-jason_07",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-jason_08",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-jason_09",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-jason_10",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-jason_11",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-jason_12",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-laura": [
+      {
+        "id": "dp_empathic-refocusing_case-laura_01",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-laura_02",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-laura_03",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-laura_04",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-laura_05",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-laura_06",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-laura_07",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-laura_08",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-laura_09",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-laura_10",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-laura_11",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-laura_12",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-carlos": [
+      {
+        "id": "dp_empathic-refocusing_case-carlos_01",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-carlos_02",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-carlos_03",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-carlos_04",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-carlos_05",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-carlos_06",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-carlos_07",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-carlos_08",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-carlos_09",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-carlos_10",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-carlos_11",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-carlos_12",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-nina": [
+      {
+        "id": "dp_empathic-refocusing_case-nina_01",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-nina_02",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-nina_03",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-nina_04",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-nina_05",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-nina_06",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-nina_07",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-nina_08",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-nina_09",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-nina_10",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-nina_11",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-nina_12",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-aisha": [
+      {
+        "id": "dp_empathic-refocusing_case-aisha_01",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-aisha_02",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-aisha_03",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-aisha_04",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-aisha_05",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-aisha_06",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-aisha_07",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-aisha_08",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-aisha_09",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-aisha_10",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-aisha_11",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-aisha_12",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-david": [
+      {
+        "id": "dp_empathic-refocusing_case-david_01",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-david_02",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-david_03",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-david_04",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-david_05",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-david_06",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-david_07",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-david_08",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-david_09",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-david_10",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-david_11",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-david_12",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-marcus": [
+      {
+        "id": "dp_empathic-refocusing_case-marcus_01",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-marcus_02",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-marcus_03",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-marcus_04",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-marcus_05",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-marcus_06",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-marcus_07",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-marcus_08",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-marcus_09",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-marcus_10",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-marcus_11",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_empathic-refocusing_case-marcus_12",
+        "skillId": "empathic-refocusing",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "check_shift",
+          "invite_return",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
     ]
   },
   "consolidating-emotional-change": {
@@ -58942,6 +60878,1944 @@ export const CONTENT_REGISTRY = {
         "reviewStatus": "pending",
         "revision": "2026-10-04-v4"
       }
+    ],
+    "case-michael": [
+      {
+        "id": "dp_consolidating-emotional-change_case-michael_01",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-michael_02",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-michael_03",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-michael_04",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-michael_05",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-michael_06",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-michael_07",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-michael_08",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-michael_09",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-michael_10",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-michael_11",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-michael_12",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-jason": [
+      {
+        "id": "dp_consolidating-emotional-change_case-jason_01",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-jason_02",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-jason_03",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-jason_04",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-jason_05",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-jason_06",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-jason_07",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-jason_08",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-jason_09",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-jason_10",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-jason_11",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-jason_12",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-laura": [
+      {
+        "id": "dp_consolidating-emotional-change_case-laura_01",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-laura_02",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-laura_03",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-laura_04",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-laura_05",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-laura_06",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-laura_07",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-laura_08",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-laura_09",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-laura_10",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-laura_11",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-laura_12",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-carlos": [
+      {
+        "id": "dp_consolidating-emotional-change_case-carlos_01",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-carlos_02",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [
+          "violence"
+        ],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-carlos_03",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-carlos_04",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-carlos_05",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-carlos_06",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-carlos_07",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-carlos_08",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-carlos_09",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-carlos_10",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-carlos_11",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-carlos_12",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-nina": [
+      {
+        "id": "dp_consolidating-emotional-change_case-nina_01",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-nina_02",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-nina_03",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-nina_04",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-nina_05",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-nina_06",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-nina_07",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-nina_08",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-nina_09",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-nina_10",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-nina_11",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-nina_12",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-aisha": [
+      {
+        "id": "dp_consolidating-emotional-change_case-aisha_01",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-aisha_02",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-aisha_03",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-aisha_04",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-aisha_05",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-aisha_06",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-aisha_07",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-aisha_08",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-aisha_09",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-aisha_10",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-aisha_11",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-aisha_12",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-david": [
+      {
+        "id": "dp_consolidating-emotional-change_case-david_01",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-david_02",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-david_03",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-david_04",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-david_05",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-david_06",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-david_07",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-david_08",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-david_09",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-david_10",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-david_11",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-david_12",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-marcus": [
+      {
+        "id": "dp_consolidating-emotional-change_case-marcus_01",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-marcus_02",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-marcus_03",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-marcus_04",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-marcus_05",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-marcus_06",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-marcus_07",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-marcus_08",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-marcus_09",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-marcus_10",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-marcus_11",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_consolidating-emotional-change_case-marcus_12",
+        "skillId": "consolidating-emotional-change",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "recognize_client_shift",
+          "carry_meaning",
+          "avoid_forced_optimism"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
     ]
   },
   "closing-after-emotional-work": {
@@ -61342,6 +65216,1942 @@ export const CONTENT_REGISTRY = {
           "type": "original_case_variant",
           "caseDossier": "Case_Nora.md",
           "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-michael": [
+      {
+        "id": "dp_closing-after-emotional-work_case-michael_01",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-michael_02",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-michael_03",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-michael_04",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-michael_05",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-michael_06",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-michael_07",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-michael_08",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-michael_09",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-michael_10",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-michael_11",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-michael_12",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-michael",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-jason": [
+      {
+        "id": "dp_closing-after-emotional-work_case-jason_01",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-jason_02",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-jason_03",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-jason_04",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-jason_05",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-jason_06",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-jason_07",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-jason_08",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-jason_09",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-jason_10",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-jason_11",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-jason_12",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-jason",
+        "track": "case_matrix",
+        "difficultyTier": "easy",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-laura": [
+      {
+        "id": "dp_closing-after-emotional-work_case-laura_01",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-laura_02",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-laura_03",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-laura_04",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-laura_05",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-laura_06",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-laura_07",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-laura_08",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-laura_09",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-laura_10",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-laura_11",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-laura_12",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-laura",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-carlos": [
+      {
+        "id": "dp_closing-after-emotional-work_case-carlos_01",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-carlos_02",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-carlos_03",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-carlos_04",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-carlos_05",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-carlos_06",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-carlos_07",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-carlos_08",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-carlos_09",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-carlos_10",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-carlos_11",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-carlos_12",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-carlos",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-nina": [
+      {
+        "id": "dp_closing-after-emotional-work_case-nina_01",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-nina_02",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-nina_03",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-nina_04",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-nina_05",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-nina_06",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-nina_07",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-nina_08",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-nina_09",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-nina_10",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-nina_11",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-nina_12",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-nina",
+        "track": "case_matrix",
+        "difficultyTier": "moderate",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-aisha": [
+      {
+        "id": "dp_closing-after-emotional-work_case-aisha_01",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-aisha_02",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-aisha_03",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-aisha_04",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-aisha_05",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-aisha_06",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-aisha_07",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-aisha_08",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-aisha_09",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-aisha_10",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-aisha_11",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-aisha_12",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-aisha",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-david": [
+      {
+        "id": "dp_closing-after-emotional-work_case-david_01",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-david_02",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-david_03",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-david_04",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-david_05",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-david_06",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-david_07",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-david_08",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-david_09",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-david_10",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-david_11",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-david_12",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-david",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      }
+    ],
+    "case-marcus": [
+      {
+        "id": "dp_closing-after-emotional-work_case-marcus_01",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-marcus_02",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-marcus_03",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-marcus_04",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-marcus_05",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-marcus_06",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-marcus_07",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-marcus_08",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-marcus_09",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-marcus_10",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-marcus_11",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
+        },
+        "riskFlags": [],
+        "criteriaTags": [
+          "acknowledge_unfinished",
+          "bounded_transition",
+          "respect_choice"
+        ],
+        "reviewStatus": "pending",
+        "revision": "2026-10-04-v4"
+      },
+      {
+        "id": "dp_closing-after-emotional-work_case-marcus_12",
+        "skillId": "closing-after-emotional-work",
+        "caseId": "case-marcus",
+        "track": "case_matrix",
+        "difficultyTier": "hard",
+        "sourceRef": {
+          "type": "original_extension",
+          "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
+          "section": "3.1–3.4"
         },
         "riskFlags": [],
         "criteriaTags": [

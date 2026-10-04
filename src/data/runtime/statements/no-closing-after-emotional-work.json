@@ -145,6 +145,1174 @@
       "suggestion": "Sliten, heller enn lettere. Vi kan la det være stedet vi stopper i dag. Hvordan ville det være for deg å ta deg god tid hjem?"
     }
   ],
+  "case-michael": [
+    {
+      "id": "dp_closing-after-emotional-work_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten] Jeg har sagt nok om pappa i dag.",
+      "suggestion": "Vi kan stoppe det arbeidet her. Hva trenger du før du går?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg vil huske det om å bli såret, ikke gå med enda en forelesning.",
+      "suggestion": "Vi noterer det med dine ord og gir oss tid til å avslutte rolig."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Bekymret] Jeg skal hjem med dette fortsatt uavklart.",
+      "suggestion": "Vi har noen minutter til å se hva som kan gjøre den overgangen håndterbar."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Praktisk] Jeg vil ikke begynne hele samtalen med henne i kveld.",
+      "suggestion": "Det valget kan stå åpent. Hva ønsker du av kvelden i stedet?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Stødig] Jeg vil komme tilbake til øyeblikket før jeg ropte.",
+      "suggestion": "Vi noterer det som startpunkt til neste gang uten å åpne det nå."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Urolig] Ikke send meg ut med beskjed om at alt er fikset.",
+      "suggestion": "Vi kaller det ikke fikset. Vi kan avslutte timen med arbeidet fortsatt uferdig."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten] Jeg har et møte etter dette. Jeg trenger et minutt til å samle meg.",
+      "suggestion": "Vi bruker et minutt på det fremfor å åpne et nytt spørsmål."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Nølende] Jeg kan ikke love at jeg sier det så godt hjemme.",
+      "suggestion": "Du trenger ikke love noe. Vi kan beholde ordene som noe å komme tilbake til."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg vil ikke ha hjemmeoppgave om følelser denne uken.",
+      "suggestion": "Vi kan avslutte uten hjemmeoppgave. Er det noe du trenger før du går?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Trist] Jeg savner henne. Jeg vil heller stoppe der enn forklare alle grunnene.",
+      "suggestion": "Vi kan la de ordene stå og spare grunnene til en annen gang."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Usikker] Jeg vet ikke om dagen hjalp. Jeg er lei av å finne det riktige svaret.",
+      "suggestion": "Vi kan la det spørsmålet stå åpent og bruke de siste minuttene uten et nytt svar å finne."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Roligere] Jeg er klar til å gå. Jeg vil at unnskyldningen er mine ord.",
+      "suggestion": "Den kan være din. Skal vi notere det viktige i den før vi avslutter?"
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_closing-after-emotional-work_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten, lavt] Jeg finner ikke en setning til i dag.",
+      "suggestion": "Du trenger ingen ny setning. Vi kan ta de siste minuttene rolig."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Bekymret] Må jeg forklare hva jeg lærte før jeg går?",
+      "suggestion": "Nei. Vi kan avslutte uten en prestasjon. Hvordan har du det nå?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg vil huske at du ventet.",
+      "suggestion": "Vi kan notere det enkelt og gi deg tid til å bli klar til å gå."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Urolig] Jeg skal møte folk senere. Jeg vil ikke ha en stor ny øvelse nå.",
+      "suggestion": "Vi åpner ingen ny øvelse. Hva ville hjelpe med overgangen til det møtet?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Nølende] Jeg vil komme tilbake til invitasjonen neste gang.",
+      "suggestion": "Vi noterer det til neste gang uten å avgjøre i dag om du skal takke ja."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten] Ikke gjør det å snakke med noen til hjemmeoppgaven min.",
+      "suggestion": "Vi kan la hjemmeoppgaven ligge. Er det noe du vil ta med deg fra i dag?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Trist, stødig] Jeg er fortsatt ensom. Men jeg kan gå.",
+      "suggestion": "Vi kan avslutte med ensomheten fortsatt her. Hva ville gjøre det litt lettere å gå?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Kan jeg sitte et minutt før jeg reiser meg?",
+      "suggestion": "Ja. Vi har tid til et stille minutt før vi avslutter."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Engstelig] Jeg vet ikke hva jeg skal si hvis noen spør om terapien.",
+      "suggestion": "Du velger hva du vil holde privat. Ville et kort svar hjelpe før du går?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lettet, usikker] Dette var greit. Jeg vet ikke hvor mye bedre jeg er.",
+      "suggestion": "Vi trenger ikke måle en endring før vi avslutter. Vi kan ta vare på at dette kjentes greit."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg vil stoppe før jeg blir blank igjen.",
+      "suggestion": "Vi kan stoppe her og bruke resten av tiden på avslutningen, uten flere spørsmål om møtet."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Varm, sjenert] Jeg vil gå med den gode delen for en gangs skyld.",
+      "suggestion": "Hvilken del vil du beholde, uten at den må oppheve resten?"
+    }
+  ],
+  "case-laura": [
+    {
+      "id": "dp_closing-after-emotional-work_case-laura_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten] Nok om det tomme huset i dag.",
+      "suggestion": "Vi kan stoppe der og gi deg tid til å komme tilbake til rommet før du går."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-laura_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Ikke åpne fortiden når vi snart er ferdige.",
+      "suggestion": "Vi åpner den ikke. Vi kan bruke de siste minuttene på hvordan du har det nå."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-laura_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Urolig] Jeg kjenner meg litt langt borte. Jeg vil ikke gå slik.",
+      "suggestion": "Vi stopper arbeidet. Vi har tid til å legge merke til rommet og se hva som hjelper deg å være mer til stede."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-laura_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg kan gå hvis vi ikke kaller dagen et gjennombrudd.",
+      "suggestion": "Vi trenger ikke den merkelappen. Hva vil du at vi husker til neste gang?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-laura_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Praktisk] Jeg har en vakt senere. Jeg trenger en vanlig avslutning.",
+      "suggestion": "Vi holder det enkelt og gir deg litt tid til overgangen til jobb."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-laura_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Trist, stødig] Jeg er fortsatt ensom. Det trenger ikke løses før jeg går.",
+      "suggestion": "Det kan få være der, og vi kan se hvilket selskap eller hvilken ro du ønsker i kveld."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-laura_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[På vakt] Jeg vil ikke ha en oppgave om å stole på folk denne uken.",
+      "suggestion": "Du trenger ingen oppgave. Vi kan notere tempoet som fungerte i dag."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-laura_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg vil stoppe mens jeg fortsatt kan høre deg.",
+      "suggestion": "Vi stopper utforskningen og bruker tiden som er igjen på å avslutte sammen."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-laura_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten] Jeg sa mer enn jeg hadde tenkt. Jeg vil ikke ha flere spørsmål om det.",
+      "suggestion": "Vi lar spørsmålene ligge. Passer en stille pause før du går?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-laura_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Neste gang: Begynn med bilen. Ikke barndommen.",
+      "suggestion": "Vi noterer det tydelig, så vi vender tilbake der du vil begynne."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-laura_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Usikker] Jeg vet ikke hva som hjalp. Jeg vet jeg må gå langsomt nå.",
+      "suggestion": "Vi lar det første spørsmålet stå åpent og gir plass til en roligere avslutning."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-laura_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Noen få ord til neste gang. Det er nok å ta med hjem.",
+      "suggestion": "Hvilke ord vil du beholde, uten at vi legger til mer i dag?"
+    }
+  ],
+  "case-carlos": [
+    {
+      "id": "dp_closing-after-emotional-work_case-carlos_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten] Nok om å føle seg liten. Jeg må stoppe der i dag.",
+      "suggestion": "Vi kan stoppe der og bruke de siste minuttene på overgangen ut."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-carlos_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg vil beholde det om frykt til neste gang.",
+      "suggestion": "Vi noterer det med dine ord uten å åpne det mer nå."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-carlos_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Angrende] Jeg vil ikke gå med en unnskyldning for det jeg gjorde.",
+      "suggestion": "Vi kan beholde både ansvaret og det du lærte om det såre. Hvilke ord passer?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-carlos_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Praktisk] Jeg trenger et minutt før jeg går tilbake til byggeplassen.",
+      "suggestion": "Vi setter av det minuttet til å samle deg fremfor å begynne en ny øvelse."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-carlos_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Urolig] Jeg har ikke bestemt hva jeg skal si til henne ennå.",
+      "suggestion": "Vi kan la ordene være uferdige. Hva ville gjøre resten av dagen håndterbar?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-carlos_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Stødig] Jeg vil stoppe før vi går inn på pappa i dag.",
+      "suggestion": "Vi åpner ikke det nå. Skal vi notere hvor du vil begynne neste gang?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-carlos_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten] Ikke gi meg ti ting jeg skal endre denne uken.",
+      "suggestion": "Vi kan avslutte uten en liste. Er det én del du vil huske, eller er det nok for i dag?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-carlos_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg skammer meg fortsatt. Jeg ber deg ikke viske det bort.",
+      "suggestion": "Vi kan avslutte med følelsen fortsatt her og gi oss tid til å se hvordan du har det før du går."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-carlos_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Nølende] Jeg kan si jeg angrer. Jeg er ikke klar for hele unnskyldningen her.",
+      "suggestion": "Vi kan stoppe ved angeren og komme tilbake til unnskyldningen en annen gang."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-carlos_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Trist, stødig] Jeg vil at vi snakker sammen igjen. Det er nok å ta med i dag.",
+      "suggestion": "Vi kan beholde det ønsket uten å gjøre det til et løfte om hvordan samtalen går."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-carlos_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Roligere] Jeg vil ha et kort notat om øyeblikket før jeg eksploderer.",
+      "suggestion": "Hvilke få ord ville markere det øyeblikket til neste gang?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-carlos_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Usikker] Jeg føler meg ikke forandret. Jeg vet mer om det som såret.",
+      "suggestion": "Vi kan beholde den forskjellen og avslutte uten å kreve en større endring."
+    }
+  ],
+  "case-nina": [
+    {
+      "id": "dp_closing-after-emotional-work_case-nina_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten, unnskyldende] Jeg har ikke plass til enda en ting å jobbe med.",
+      "suggestion": "Da legger vi ikke til noe. Hva ville hjelpe deg å gå uten en ny oppgave?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-nina_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg vil beholde beskjeden om hvile.",
+      "suggestion": "Vi noterer den med dine ord uten at du må bestemme i dag når du skal bruke den."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-nina_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Bekymret] Jeg går rett tilbake til at alle trenger noe.",
+      "suggestion": "Vi har noen minutter til å se hva som kan gjøre den overgangen mer håndterbar."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-nina_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Trist, stødig] Jeg kan stoppe mens jeg er trist. Ikke muntre meg ut av det.",
+      "suggestion": "Vi kan avslutte uten å muntre det bort. Er det noe du trenger før du går?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-nina_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Urolig] Jeg sa jeg var sint på mamma. Jeg vil ikke at det blir en dom over henne.",
+      "suggestion": "Vi kan beholde sinnet ditt uten en dom. Hvilke ord skal vi ta med til neste gang?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-nina_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Høflig, sliten] Har jeg gitt deg nok i dag?",
+      "suggestion": "Du trenger ikke gi meg mer. Vi kan bruke de siste minuttene på det du trenger i avslutningen."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-nina_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Nølende] Jeg vil sitte stille før jeg henter guttene.",
+      "suggestion": "Vi setter av et stille minutt til den overgangen."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-nina_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lettet] Ingen hjemmeoppgave, takk. Selv ikke en hjelpsom en.",
+      "suggestion": "Vi kan gå fra dagen uten hjemmeoppgave og notere det du vil komme tilbake til."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-nina_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Den dårlige samvittigheten er ikke borte. Beskjeden er fortsatt det jeg mener.",
+      "suggestion": "Vi kan beholde begge deler uten å vente på at den dårlige samvittigheten slipper før vi avslutter."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-nina_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Varm, usikker] Det var godt å ta imot. Jeg er ikke klar for å endre hele livet.",
+      "suggestion": "Vi kan ta vare på det gode øyeblikket uten å gjøre det til et krav om endring. Hvilken del vil du huske?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-nina_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten] Jeg vil heller avslutte med færre ord i dag.",
+      "suggestion": "Vi kan holde avslutningen enkel og gi deg litt ro før du går."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-nina_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Stødig] Neste gang vil jeg begynne med det jeg trenger, før alle andre.",
+      "suggestion": "Vi noterer det startpunktet, så det ikke blir borte til neste gang."
+    }
+  ],
+  "case-aisha": [
+    {
+      "id": "dp_closing-after-emotional-work_case-aisha_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Opprørt, til stede] Vi er snart ferdige. Jeg må høre det tydelig, ikke merke at du pakker sammen.",
+      "suggestion": "Vi har noen minutter igjen. Jeg er her i dem; vi finner ut hvordan vi vil bruke dem til avslutningen."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-aisha_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Trist, stødig] Jeg vil ha mer tid. Jeg kan stoppe, men ikke si det er lett.",
+      "suggestion": "Det er ikke lett. Vi kan stoppe utforskningen og gi tiden som er igjen til den overgangen."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-aisha_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg vil huske det om selskap. Ikke ha hjemmeoppgave om å bli selvstendig.",
+      "suggestion": "Vi kan notere selskapet du ønsket uten å gjøre det til den hjemmeoppgaven."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-aisha_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[På vakt] Ikke lov at jeg kan sende deg melding hver gang jeg kjenner dette.",
+      "suggestion": "Det lover jeg ikke. Vi kan tydeliggjøre de faktiske kontaktavtalene før du går."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-aisha_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten] Jeg trenger at siste minutt er rolig. Ikke stille som om du har gått.",
+      "suggestion": "Jeg kan være til stede med noen få vanlige ord uten å åpne et nytt spørsmål."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-aisha_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Urolig] Jeg fortalte mer enn jeg ville. Ikke oppsummer hver detalj i døren.",
+      "suggestion": "Vi kan la detaljene være private og bli enige om akkurat det du vil beholde til neste gang."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-aisha_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Stødig, trist] Det går greit å gå i dag. Jeg liker fortsatt ikke at du avslutter timen.",
+      "suggestion": "Begge deler kan være her. Er det noe du trenger for å gå innenfor tiden vi har?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-aisha_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Neste gang: Begynn med hvordan den pausen kjentes.",
+      "suggestion": "Vi noterer det startpunktet fremfor å åpne det igjen i de siste minuttene."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-aisha_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Med tårer, til stede] Jeg kan gå med tårer. Du trenger ikke gjøre meg glad.",
+      "suggestion": "Vi kan la avslutningen være varsom uten at du må være glad. Hva hjelper med å gå nå?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-aisha_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten, bestemt] Ingen siste øvelse for å bevise at jeg klarer meg.",
+      "suggestion": "Du trenger ingen prøve. Vi kan bruke resten av tiden på overgangen du trenger."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-aisha_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Varm, på vakt] Jeg vil beholde det gode minuttet uten å gjøre det til et løfte om neste uke.",
+      "suggestion": "Vi kan beholde det som dagens minutt og la neste uke stå åpen."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-aisha_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg vil vite når neste time er før jeg går.",
+      "suggestion": "Vi sjekker den faktiske timen sammen fremfor å la deg gjette."
+    }
+  ],
+  "case-david": [
+    {
+      "id": "dp_closing-after-emotional-work_case-david_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Kontrollert] Vi er snart ferdige. Ikke legg til en stor tolkning nå.",
+      "suggestion": "Vi kan avslutte uten den. Hva vil du beholde til en annen gang?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-david_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg vil at beskjeden forblir min, ikke din oppskrift.",
+      "suggestion": "Den kan være din. Skal vi notere ordene dine før vi avslutter?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-david_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Urolig] Jeg føler meg blottlagt. Jeg vil ikke dissekere det i siste minutt.",
+      "suggestion": "Vi dissekerer det ikke nå. Ville en stille pause hjelpe før du går?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-david_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Praktisk] Jeg skal tilbake på jobb. Jeg må samle meg.",
+      "suggestion": "Vi setter av tid til den overgangen fremfor å åpne mer stoff."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-david_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[På vakt] Jeg erklærer ikke dette en suksess for din skyld.",
+      "suggestion": "Det trenger du ikke. Vi kan avslutte med usikkerheten din fortsatt åpen."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-david_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg vil tilbake til det stillheten hennes betydde. En annen gang.",
+      "suggestion": "Vi noterer det til neste gang og lar avslutningen i dag være avgrenset."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-david_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten] Ingen effektiviseringsplan for ekteskapet når jeg går.",
+      "suggestion": "Du trenger ingen plan. Er det én ting du vil huske, eller er det nok for i dag?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-david_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Trist, stødig] Jeg kan gå trist uten å gjøre timen til et nederlag.",
+      "suggestion": "Vi kan avslutte med tristheten fortsatt her. Hva ville hjelpe med å gå nå?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-david_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Ettertenksom] Behold forskjellen jeg gjorde. Ikke merkelappen du først brukte.",
+      "suggestion": "Vi noterer forskjellen din tydelig som startpunkt til neste gang."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-david_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg vet ikke hva jeg skal gjøre med det gode øyeblikket.",
+      "suggestion": "Det kan få stå uten en konklusjon. Vi kan vende tilbake når du vil forstå det mer."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-david_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[På vakt] Jeg vil holde det jeg sa her privat.",
+      "suggestion": "Du velger hva du deler utenfor. Ville det hjelpe å vurdere et kort svar før du går?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-david_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten, rolig] En kort avslutning. Jeg har sagt nok for én time.",
+      "suggestion": "Vi kan holde den kort og gi deg et stille øyeblikk før du går."
+    }
+  ],
+  "case-marcus": [
+    {
+      "id": "dp_closing-after-emotional-work_case-marcus_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten] Nok om nettene i dag.",
+      "suggestion": "Vi kan stoppe der og gi deg tid til å komme tilbake til rommet."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-marcus_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Må vite at timen slutter. Ikke la det komme brått.",
+      "suggestion": "Vi har noen minutter igjen. Vi bruker dem til en tydelig avslutning uten hastverk."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-marcus_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Urolig] Litt fjern. Ikke klar for gaten ennå.",
+      "suggestion": "Vi stopper arbeidet og legger merke til rommet. Hva hjelper deg å være nok til stede til å gå?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-marcus_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Stødig] Kan gå. Trenger ikke fortelle minnet først.",
+      "suggestion": "Du trenger ikke fortelle minnet. Vi lar det ligge og avslutter med det du valgte å dele."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-marcus_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Behold ordet selskap til neste gang.",
+      "suggestion": "Vi kan notere det ordet uten å legge til en ny oppgave i dag."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-marcus_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten] Ikke oppsummer livet mitt i døren.",
+      "suggestion": "Det gjør vi ikke. Passer ett kort notat, eller ingen oppsummering i dag?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-marcus_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Praktisk] Jobb senere. Trenger et minutt.",
+      "suggestion": "Vi setter av det minuttet til overgangen uten å åpne noe nytt."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-marcus_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Trist, til stede] Fortsatt trist. Kan gå med det.",
+      "suggestion": "Vi kan avslutte uten å ta bort tristheten. Hva ville hjelpe med å gå nå?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-marcus_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Neste gang, samme avstand i starten.",
+      "suggestion": "Vi noterer den avstanden, så du ikke må få den på plass igjen i starten."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-marcus_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[På vakt] Ingen oppgave om å fortelle noen alt.",
+      "suggestion": "Ingen oppgave om å dele. Er det noe praktisk du ønsker før du går?"
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-marcus_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Dagen var grei. La det være det.",
+      "suggestion": "Vi kan la det være greit og holde avslutningen enkel."
+    },
+    {
+      "id": "dp_closing-after-emotional-work_case-marcus_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "text": "[Sliten, rolig] Stille minutt. Så går jeg.",
+      "suggestion": "Vi har tid til det minuttet. Jeg blir her med deg mens vi avslutter."
+    }
+  ],
   "case-arne": [
     {
       "id": "dp_closing-after-emotional-work_case-arne_easy_01",

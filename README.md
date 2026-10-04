@@ -29,9 +29,9 @@ Starting a new round waits for account and therapist selection to finish loading
 
 The nine original cases keep their fixed levels. **Leo, Mia and Nora** each offer Easy, Moderate and Hard within the same history, across eleven authored skills. Every offered bank has twelve English/Norwegian client/example pairs per level. Case cards show all supported levels; selections and paused rounds retain the chosen level. Four unauthored combinations per new case stay hidden. Leo's stable IDs retain `case-arne` for compatibility.
 
-The draft library contains **2,520 focused bilingual pairs** and **ten mastery paths / 120 bilingual scenes**. Sara has the first fixed-level mastery path and the three new extension banks: refocusing, consolidating emotional change and closing after emotional work. Expansion to the eight other original cases is the next batch. New case content remains pending independent clinical/native-language review.
+The draft library contains **2,808 focused bilingual pairs** and **eighteen mastery paths / 216 bilingual scenes**. All nine original cases have twelve-item banks for refocusing, consolidating emotional change and closing after emotional work, plus a tailored mastery path at their existing fixed level. Leo, Mia and Nora each have three mastery paths. New content remains pending independent clinical/native-language review.
 
-Backend metadata migrations must precede frontend publication. The [Nora release notes](src/md/mastery-release-3-nora.md) record the draft stack, compatibility and verification. No production deployment or real-account rating reset is part of this batch.
+Backend metadata migrations must precede frontend publication. The [fixed-case release notes](src/md/mastery-release-4.md) record the draft stack, compatibility and verification. The [bilingual review packet](src/md/fixed-case-extension-content-review.md) includes extension samples and all eight new mastery sequences. No production deployment or real-account rating reset is part of this batch.
 
 ## Local Development
 

@@ -1,0 +1,180 @@
+{
+  "id": "mastery-aisha-contact-and-an-ending",
+  "type": "mastery",
+  "caseId": "case-aisha",
+  "difficulty": "hard",
+  "supportedLevels": [
+    "hard"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Aisha · Kontakt og en avslutning",
+  "orientation": "Øyeblikk uten akutt fare om å ønske kontakt og møte en avgrenset avslutning. Ingen løfter om konstant tilgjengelighet eller mer deling kreves. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "scenes": [
+    {
+      "id": "mastery_aisha_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-aisha_01",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Aisha begynner med det et blikk bort kan bety for henne.",
+      "prompt": "Speil frykten uten å love uavbrutt oppmerksomhet.",
+      "text": "[Panisk] Hvis du ser bort mens jeg snakker, selv bare for å sjekke et notat, får jeg panikk for at du mister interessen. Da begynner jeg å snakke fortere, legge til detaljer, hva som helst for å holde deg hos meg.",
+      "suggestion": "Når jeg ser bort, får du panikk for at jeg mister interessen og prøver enda hardere å holde på oppmerksomheten min."
+    },
+    {
+      "id": "mastery_aisha_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-aisha_04",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Hun spør om følelsene hennes kan få plass i arbeidet.",
+      "prompt": "Forklar et lite steg i samarbeid.",
+      "text": "[Bekymret] Hva om følelsene mine er for mye for enhver terapeut å jobbe med?",
+      "suggestion": "Du er redd følelsene vil bli for mye, også her. Vi kan begynne med litt og merke hva som hjelper eller gjør det vanskeligere. Det hjelper oss å velge tempoet og støtten du trenger, fremfor å be deg ta frem alt på én gang."
+    },
+    {
+      "id": "mastery_aisha_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-aisha_01",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "bridge": "En annen time vekker frykt rundt døren.",
+      "prompt": "Valider alarmen uten å behandle den som bevis på at noen går.",
+      "text": "[Panisk] Jeg fulgte med på døra mesteparten av timen for å være sikker på at du ikke drar. Hver gang det ble stille i gangen, tenkte jeg at nå bestemmer du deg kanskje for at jeg er for mye og går.",
+      "suggestion": "Etter så mange brå avslutninger er det forståelig å frykte å bli forlatt igjen. Frykten fortjener omsorg. Du trenger ikke avfeie den fordi den viser seg her også."
+    },
+    {
+      "id": "mastery_aisha_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-aisha_02",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Hun beskriver motstridende ønsker som kommer raskt.",
+      "prompt": "Spør om skiftet uten å velge det riktige ønsket.",
+      "text": "[Desperat] Jeg går fra «ikke forlat meg» til «la meg være i fred» på sekunder.",
+      "suggestion": "Rett før det snur, hvilken følelse er for vond å holde seg nær?"
+    },
+    {
+      "id": "mastery_aisha_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-aisha_02",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et annet øyeblikk blir ved forvirringen i de ønskene.",
+      "prompt": "Undersøk begge med rom for å senke tempoet.",
+      "text": "[Forvirret og flau] Jeg kan be noen om ikke å gå, og noen sekunder senere vil jeg ha dem vekk fra meg. Jeg skjønner ikke hvilken del som egentlig er meg.",
+      "suggestion": "Begge bevegelsene er der: å rekke ut og å skyve bort. Hva endrer seg inni deg i sekundene mellom å be dem bli og ville ha dem vekk?"
+    },
+    {
+      "id": "mastery_aisha_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-aisha_01",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et blikk på klokken vekker en usagt betydning.",
+      "prompt": "Tilby en tentativ gjetning og undersøk om den passer.",
+      "text": "[Desperat] Hvis du kaster et blikk på klokka, synker magen som om du allerede er på vei bort fra meg.",
+      "suggestion": "Når jeg ser på klokka, kjennes det som om jeg er på vei bort. Jeg lurer på om det også vekker en frykt for at du slutter å bety noe for meg."
+    },
+    {
+      "id": "mastery_aisha_07",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-aisha_06",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "Det såre i en pause går over til å gjøre øvelsen raskt.",
+      "prompt": "Inviter til å se på pausen fremfor å presse oppgaven.",
+      "text": "[Såret, så avfeier] Den pausen var fæl. Greit, la oss bare gjøre øvelsen.",
+      "suggestion": "Før øvelsen: Kan vi forstå det som var fælt i pausen mellom oss?"
+    },
+    {
+      "id": "mastery_aisha_08",
+      "skillId": "alliance-repair",
+      "sourceItemId": "dp_alliance-repair_case-aisha_02",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Aisha husker en brå avslutning i en tidligere time.",
+      "prompt": "Anerkjenn virkningen og planlegg en avgrenset avslutning sammen.",
+      "text": "[Desperat] Da timen sluttet helt presis, føltes det som at du slapp meg. Jeg vet at det må finnes en klokke, men måten det skjedde på fikk det til å kjennes som om kontakten forsvant i samme sekund som timen var over.",
+      "suggestion": "Da vi avsluttet, kjente du at kontakten forsvant. Jeg beklager at avslutningen kjentes så brå. Jeg må holde tidsrammen, og vi kan sette av litt tid før den til å høre hvordan du har det, og hvilken støtte du trenger frem til vi møtes igjen."
+    },
+    {
+      "id": "mastery_aisha_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-aisha_05",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et senere øyeblikk rommer behov for kontakt og skam over behovet.",
+      "prompt": "Vær til stede uten å love ubegrenset kontakt.",
+      "text": "[Desperat] Jeg føler at jeg er for mye, og jeg hater at jeg trenger at du blir.",
+      "suggestion": "Behovet for meg kjennes uutholdelig og skamfullt samtidig. Jeg kan sitte med det blottlagte behovet et øyeblikk uten å behandle deg som for mye."
+    },
+    {
+      "id": "mastery_aisha_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-aisha_12",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "bridge": "Et annet rolig øyeblikk vekker lettelse og usikkerhet om henne selv.",
+      "prompt": "Speil blandingen uten å kreve en krise eller en konklusjon.",
+      "text": "[Lavmælt] Når det er rolig, vet jeg ikke hvem jeg er. Jeg er lettet over at ingen går, men føler meg tom og savner nesten å ha noe å krangle om.",
+      "suggestion": "Roen gir deg lettelse, men også en tomhet som gjør deg usikker på hvem du er."
+    },
+    {
+      "id": "mastery_aisha_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-aisha_12",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Aisha merker to sannheter om at timen slutter.",
+      "prompt": "Hjelp henne å si begge uten at hun må like avslutningen.",
+      "text": "[Lavt, usikker] Jeg kan ønske at timen fortsetter og vite at den slutter. Jeg liker det ikke.",
+      "suggestion": "Hva gir plass til begge deler i dag, uten at du må like avslutningen?"
+    },
+    {
+      "id": "mastery_aisha_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-aisha_01",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "Den tenkte timen har noen minutter igjen.",
+      "prompt": "Nevn tiden tydelig og bli enige om hvordan den brukes.",
+      "text": "[Opprørt, til stede] Vi er snart ferdige. Jeg må høre det tydelig, ikke merke at du pakker sammen.",
+      "suggestion": "Vi har noen minutter igjen. Jeg er her i dem; vi finner ut hvordan vi vil bruke dem til avslutningen."
+    }
+  ]
+}

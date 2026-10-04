@@ -1,0 +1,180 @@
+{
+  "id": "mastery-nina-a-need-of-her-own",
+  "type": "mastery",
+  "caseId": "case-nina",
+  "difficulty": "moderate",
+  "supportedLevels": [
+    "moderate"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Nina · A need of her own",
+  "orientation": "Moments about exhaustion, resentment and asking for care while guilt remains. A clearer wish need not become an immediate life change. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+  "scenes": [
+    {
+      "id": "mastery_nina_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-nina_01",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Nina begins with guilt arriving before help can arrive.",
+      "prompt": "Reflect the need and the impulse to take it back.",
+      "text": "[Tired] Asking for help makes me feel guilty, even when I am exhausted. I start explaining why it is not really a big deal before anyone has even answered.",
+      "suggestion": "You feel guilty as soon as you ask for help, and start playing down how much you need it."
+    },
+    {
+      "id": "mastery_nina_02",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-nina_01",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Rest brings another list of things she should do.",
+      "prompt": "Validate needing rest without praising self-sacrifice.",
+      "text": "[Tired] If I sit down before everything is done, guilt starts listing what I should be doing.",
+      "suggestion": "With so many demands on you, stopping can understandably bring guilt as well as relief. Needing rest is legitimate even when there are things left to do."
+    },
+    {
+      "id": "mastery_nina_03",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-nina_01",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "bridge": "She asks whether attention to her feelings is selfish.",
+      "prompt": "Connect the work to a need of her own.",
+      "text": "[Guilty] Isn't it selfish to focus on my feelings when everyone needs something from me?",
+      "suggestion": "It feels selfish to turn toward your own feelings. They can help us notice your needs and limits, including when you are exhausted. Making room for those needs is part of finding ways to care for others without wearing yourself out."
+    },
+    {
+      "id": "mastery_nina_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-nina_01",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "bridge": "A request for help is followed quickly by guilt.",
+      "prompt": "Ask about that immediate change.",
+      "text": "[Tired] When I ask for help, guilt rushes in and I want to take it back.",
+      "suggestion": "As guilt rushes in, what does it tell you about yourself?"
+    },
+    {
+      "id": "mastery_nina_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-nina_02",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Another moment concerns activity replacing resentment.",
+      "prompt": "Explore what is close without requiring a confrontation.",
+      "text": "[Guilty] I keep folding laundry and answering messages so I do not have to feel resentful.",
+      "suggestion": "Keeping busy keeps resentment from having room. We can pause at the moment when stopping would make it audible."
+    },
+    {
+      "id": "mastery_nina_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-nina_01",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "She describes the judgment that follows resting.",
+      "prompt": "Check a tentative meaning rather than declare a motive.",
+      "text": "[Guilty] Resting makes me feel selfish, even when I am so tired I can barely stand.",
+      "suggestion": "Rest brings guilt even when you can barely stand. I wonder if you fear you will matter less to people when you are not doing things for them."
+    },
+    {
+      "id": "mastery_nina_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-nina_02",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "bridge": "A moment of feeling used becomes a case for gratitude.",
+      "prompt": "Bring the lost feeling into view without condemning care.",
+      "text": "[Hurt] Sometimes I feel used, and then I immediately think of all the reasons I should be more grateful.",
+      "suggestion": "The hurt rises for a second, and then gratitude is pulled over it like a blanket before anyone can see."
+    },
+    {
+      "id": "mastery_nina_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-nina_02",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "Anger gives way to an apology.",
+      "prompt": "Invite a small return before judging the anger.",
+      "text": "[Angry, then apologizes] I’m tired of doing everything. Sorry, that sounds awful.",
+      "suggestion": "Before the apology, could we hear what you’re tired of carrying?"
+    },
+    {
+      "id": "mastery_nina_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-nina_01",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "bridge": "A later tearful moment brings shame about needing care.",
+      "prompt": "Stay with her without another demand to compose herself.",
+      "text": "[Guilty] I cannot stop crying, and then I feel ashamed for needing so much. My son only asked where his socks were, and suddenly I was at the counter sobbing like I had ruined everything.",
+      "suggestion": "The tears are here, and you feel ashamed of needing so much. I am listening. You do not have to look after me or apologize for what you need."
+    },
+    {
+      "id": "mastery_nina_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-nina_12",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "bridge": "Another day includes being overlooked at a school meeting.",
+      "prompt": "Reflect the hurt without deciding anyone intended it.",
+      "text": "[Hurt, apologetic] They thanked the whole team at the school meeting, but left my name out. I know it wasn't deliberate. I still felt overlooked, and silly for caring.",
+      "suggestion": "You felt overlooked, even knowing it wasn't deliberate, and then judged yourself for being hurt."
+    },
+    {
+      "id": "mastery_nina_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-nina_11",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Nina notices a little space before apologizing.",
+      "prompt": "Help her recognize that small difference.",
+      "text": "[Steady, apologetic] I said what I needed. The sorry still came, but later.",
+      "suggestion": "What was different in that little space before the apology?"
+    },
+    {
+      "id": "mastery_nina_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-nina_12",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "The hour ends with a starting point she wants preserved.",
+      "prompt": "Make room for her own need next time without homework.",
+      "text": "[Steady] Next time I want to start with what I need, before everyone else.",
+      "suggestion": "Let’s mark that starting point, so it doesn’t get lost between now and next time."
+    }
+  ]
+}

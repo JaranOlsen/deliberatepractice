@@ -1,3 +1,4 @@
+import {FIXED_CASE_MASTERY} from './fixedCaseMastery.js';
 import {NORA_MASTERY} from './noraMastery.js';
 import {MIA_MASTERY} from './miaMastery.js';
 import {CONTENT_REVISION} from './contentMeta.js';
@@ -59,3 +60,5 @@ export const MASTERY_EXERCISES = [{
 MASTERY_EXERCISES.push(...ARNE_MASTERY);
 MASTERY_EXERCISES.push(...MIA_MASTERY);
 MASTERY_EXERCISES.push(...NORA_MASTERY);
+
+MASTERY_EXERCISES.push(...FIXED_CASE_MASTERY);
