@@ -17,7 +17,7 @@ declare host uuid:=gen_random_uuid(); client uuid:=gen_random_uuid();
  cfg jsonb; bad jsonb; r jsonb; rid uuid; parent uuid; rejected boolean; count_before integer;
 begin
  insert into auth.users(id,email) values(host,'host@levels.invalid'),(client,'client@levels.invalid');
- if (select count(*) from dp_private.focused_level_catalog where case_id in ('case-arne','case-mia','case-nora'))<>99 then raise exception 'Expected three cases with eleven banks at each of three levels';end if;
+ if (select count(*) from dp_private.focused_level_catalog where case_id in ('case-arne','case-mia','case-nora') and skill_id<>'experiential-focusing')<>99 then raise exception 'Expected three cases with eleven banks at each of three levels';end if;
  if (select count(*) from dp_private.exercise_catalog where case_id in ('case-arne','case-mia','case-nora'))<>9 then raise exception 'Missing mastery levels';end if;
  -- Every legal focused bank works; forged level, mixed bank and tags cannot enter a room.
  for bank in select * from dp_private.focused_level_catalog where case_id in ('case-arne','case-mia','case-nora') loop

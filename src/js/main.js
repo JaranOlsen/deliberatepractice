@@ -575,6 +575,7 @@ const SKILL_VISUALS = {
     accent: "#4e803e",
     icon: "link"
   },
+  "experiential-focusing": {accent:"#587d80",icon:"thought"},
   "consolidating-emotional-change": {accent:"#45806d",icon:"check"},
   "closing-after-emotional-work": {accent:"#7b678f",icon:"anchor"},
   "empathic-refocusing": {

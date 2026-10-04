@@ -1,3 +1,4 @@
+import {FOCUSING_SKILL_ID,FOCUSING_SOURCE} from '../src/data/experientialFocusing.js';
 import {EXTENSION_SKILL_ORDER, EXTENSION_CRITERIA, EXTENSION_SOURCE} from "../src/data/skillExtensions.js";
 import fs from "node:fs";
 import path from "node:path";
@@ -185,7 +186,7 @@ function buildRegistry() {
           caseId,
           track: CONTENT_TRACKS.CASE_MATRIX,
           difficultyTier: entry.difficulty ?? caseDifficultyMap.get(caseId) ?? "unknown",
-          sourceRef: variableLevelCase ? {type:'original_case_variant',caseDossier:caseMeta.dossier,url:EXTENSION_SOURCE} : EXTENSION_SKILL_ORDER.includes(skillId) ? {type: "original_extension", url: EXTENSION_SOURCE, section: "3.1–3.4"} : buildSourceRef(skillId, caseId),
+          sourceRef: skillId === FOCUSING_SKILL_ID ? {type:'original_extension',url:FOCUSING_SOURCE,caseDossier:caseMeta.dossier,section:'Single-response practice moments; not a complete focusing task'} : variableLevelCase ? {type:'original_case_variant',caseDossier:caseMeta.dossier,url:EXTENSION_SOURCE} : EXTENSION_SKILL_ORDER.includes(skillId) ? {type: "original_extension", url: EXTENSION_SOURCE, section: "3.1–3.4"} : buildSourceRef(skillId, caseId),
           riskFlags,
           criteriaTags: EXTENSION_CRITERIA[skillId] ?? [...(SKILL_EXERCISE_MAP[skillId]?.defaultCriteriaTags ?? []), ...(variableLevelCase?[]:["legacy_matrix_item"])],
           reviewStatus: variableLevelCase || EXTENSION_SKILL_ORDER.includes(skillId) ? REVIEW_STATUSES.PENDING : REVIEW_STATUSES.LEGACY_IMPORTED,

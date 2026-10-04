@@ -1,5 +1,7 @@
-// Original curricular extensions, informed by the EFT competence framework,
-// sections 3.1–3.4. These are not additional Goldman exercises or validated anchors.
+import {FOCUSING_GUIDE,FOCUSING_STATEMENTS,FOCUSING_TRANSLATIONS,FOCUSING_CRITERIA} from './experientialFocusing.js';
+// Original curricular extensions, not additional Goldman exercises or validated anchors.
+// The first three use the EFT competence framework, sections 3.1–3.4; focusing
+// has its own primary source and deliberately narrower authored case availability.
 export const EXTENSION_SOURCE = 'https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf';
 const guide = (name, description, summary, marker, aim, practiceFocus, commonMiss) => ({name, description, summary, marker, aim, practiceFocus, commonMiss});
 export const EXTENSION_GUIDES = {
@@ -92,6 +94,8 @@ const banks = {
     ["[Small sigh] I'm not lighter exactly. I'm tired, and I want to go home slowly.", "Tired, rather than lighter. We can let that be where we stop today. What would going home slowly look like for you?", "[Lite sukk] Jeg føler meg ikke lettere, akkurat. Jeg er sliten og vil ta meg god tid hjem.", "Sliten, heller enn lettere. Vi kan la det være stedet vi stopper i dag. Hvordan ville det være for deg å ta deg god tid hjem?"],
   ]
 };
+export const FIXED_CASE_EXTENSION_SKILL_ORDER = Object.keys(EXTENSION_GUIDES);
+EXTENSION_GUIDES['experiential-focusing'] = FOCUSING_GUIDE;
 export const EXTENSION_SKILL_ORDER = Object.keys(EXTENSION_GUIDES);
 export const EXTENSION_SKILLS = EXTENSION_SKILL_ORDER.map(id => ({id, ...EXTENSION_GUIDES[id].en}));
 export const EXTENSION_STATEMENTS = Object.fromEntries(Object.entries(banks).map(([id, rows]) => [id, {'case-sara': rows.map(([text, suggestion]) => ({text, suggestion}))}]));
@@ -101,3 +105,7 @@ export const EXTENSION_CRITERIA = {
   'consolidating-emotional-change': ['recognize_client_shift', 'carry_meaning', 'avoid_forced_optimism'],
   'closing-after-emotional-work': ['acknowledge_unfinished', 'bounded_transition', 'respect_choice']
 };
+
+Object.assign(EXTENSION_STATEMENTS, FOCUSING_STATEMENTS);
+Object.assign(EXTENSION_TRANSLATIONS, FOCUSING_TRANSLATIONS);
+EXTENSION_CRITERIA['experiential-focusing'] = FOCUSING_CRITERIA;

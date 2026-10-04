@@ -1,3 +1,4 @@
+import {FOCUSING_BANKS,FOCUSING_SKILL_ID} from '../src/data/experientialFocusing.js';
 // Isolated Postgres tests: npm run test:rooms:db
 // Optional localhost-only RPC bridge for check-four-set-room-flows.js: add --serve.
 // No remote credentials or Supabase connection are used.
@@ -26,7 +27,7 @@ try {
     create publication supabase_realtime;`);
   await db.exec(await read('supabase/auth-pairing-practice.sql'));
   for (const name of (await readdir(new URL('supabase/migrations/', root))).sort()) {
-    const levelMigration=/_(?:(?:arne|mia|nora)_practice_levels|fixed_case_mastery)\.sql$/.test(name);
+    const levelMigration=/_(?:(?:arne|mia|nora)_practice_levels|fixed_case_mastery|experiential_focusing)\.sql$/.test(name);
     const validator=levelMigration?(await db.query("select 'dp_private.validate_room_config(jsonb)'::regprocedure::oid as oid")).rows[0].oid:null;
     await db.exec(await read('supabase/migrations/' + name));
     if(levelMigration)assert.equal((await db.query("select 'dp_private.validate_room_config(jsonb)'::regprocedure::oid as oid")).rows[0].oid,validator,'Existing room validator identity must survive the migration');
@@ -35,12 +36,12 @@ try {
     const row=(await db.query('select scenes from dp_private.exercise_catalog where exercise_id=$1 and revision=$2',[exercise.id,exercise.revision])).rows[0];
     assert.deepEqual(row?.scenes,exercise.scenes.map(({id,skillId,criteriaTags})=>({id,skillId,criteriaTags})),'Mastery catalog drift: '+exercise.id);
   }
-  for(const [caseId,skills,levels] of [['case-arne',ARNE_SKILLS,ARNE_LEVELS],['case-mia',MIA_SKILLS,MIA_LEVELS],['case-nora',NORA_SKILLS,NORA_LEVELS],...Object.entries(FIXED_CASE_EXTENSION_BANKS).map(([caseId,banks])=>[caseId,Object.keys(banks),[BASE_PRACTICE[Object.keys(banks)[0]].cases[caseId].difficulty]])])for(const skill of skills)for(const level of levels) {
+  for(const [caseId,skills,levels] of [['case-arne',ARNE_SKILLS,ARNE_LEVELS],['case-mia',MIA_SKILLS,MIA_LEVELS],['case-nora',NORA_SKILLS,NORA_LEVELS],...Object.entries(FOCUSING_BANKS).map(([caseId,levels])=>[caseId,[FOCUSING_SKILL_ID],Object.keys(levels)]),...Object.entries(FIXED_CASE_EXTENSION_BANKS).map(([caseId,banks])=>[caseId,Object.keys(banks),[BASE_PRACTICE[Object.keys(banks)[0]].cases[caseId].difficulty]])])for(const skill of skills)for(const level of levels) {
     const row=(await db.query('select entries from dp_private.focused_level_catalog where skill_id=$1 and difficulty=$2 and case_id=$3 and revision=$4',[skill,level,caseId,BASE_PRACTICE[skill].cases[caseId].statements[0].revision])).rows[0];
     const expected=BASE_PRACTICE[skill].cases[caseId].statements.filter(e=>e.difficultyTier===level).map(({id,criteriaTags})=>({id,criteriaTags}));
     assert.deepEqual(row?.entries,expected,'Focused catalog drift: '+skill+'/'+level);
   }
-  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql', 'check-practice-goals.sql', 'check-rating-history.sql', 'check-mastery.sql','check-practice-levels.sql','check-fixed-case-mastery.sql']) {
+  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql', 'check-practice-goals.sql', 'check-rating-history.sql', 'check-mastery.sql','check-practice-levels.sql','check-fixed-case-mastery.sql','check-experiential-focusing.sql']) {
     await db.exec(await read('scripts/' + name));
     console.log('PASS ' + name);
   }

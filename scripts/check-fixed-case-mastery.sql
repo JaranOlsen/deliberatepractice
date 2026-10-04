@@ -17,9 +17,9 @@ declare host uuid:=gen_random_uuid(); client uuid:=gen_random_uuid(); observer u
  cfg jsonb; bad jsonb; r jsonb; rid uuid; parent uuid; rejected boolean; count_before integer; local_round uuid; saved uuid; replay uuid;
 begin
  insert into auth.users(id,email) values(host,'host@fixed.invalid'),(client,'client@fixed.invalid'),(observer,'observer@fixed.invalid');
- if (select count(*) from dp_private.focused_level_catalog where case_id not in ('case-arne','case-mia','case-nora'))<>24 then raise exception 'Missing fixed extension banks';end if;
+ if (select count(*) from dp_private.focused_level_catalog where case_id in ('case-michael','case-jason','case-laura','case-carlos','case-nina','case-aisha','case-david','case-marcus'))<>24 then raise exception 'Missing fixed extension banks';end if;
  if (select count(*) from dp_private.exercise_catalog where case_id not in ('case-sara','case-arne','case-mia','case-nora'))<>8 then raise exception 'Missing fixed mastery paths';end if;
- for bank in select * from dp_private.focused_level_catalog where case_id not in ('case-arne','case-mia','case-nora') loop
+ for bank in select * from dp_private.focused_level_catalog where case_id in ('case-michael','case-jason','case-laura','case-carlos','case-nina','case-aisha','case-david','case-marcus') loop
   perform set_config('request.jwt.claim.sub',host::text,true);rid:=gen_random_uuid();
   cfg:=jsonb_build_object('languageId','no','skillId',bank.skill_id,'caseId',bank.case_id,'difficulty',bank.difficulty,
    'contentRevision',bank.revision,'roundSize',12,'statements',bank.entries,'hostRole','therapist','preparationProtocol','ready-v1');

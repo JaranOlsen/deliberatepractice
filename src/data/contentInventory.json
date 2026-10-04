@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-04T22:41:02.256Z",
+  "generatedAt": "2026-10-04T23:21:52.046Z",
   "revision": "2026-10-04-v4",
   "caseBibleCount": 12,
   "caseMatrixSummary": {
     "revision": "2026-10-04-v4",
     "track": "case_matrix",
-    "totalItems": 2808,
+    "totalItems": 2856,
     "qaFlagTaxonomy": [
       "voice_off",
       "skill_miss",
@@ -16,7 +16,7 @@
       "too_generic",
       "duplicate_pattern"
     ],
-    "generatedAt": "2026-10-04T22:41:02.244Z"
+    "generatedAt": "2026-10-04T23:21:52.039Z"
   },
   "benchmarkSummary": {
     "revision": "2026-10-04-v4",
@@ -24,7 +24,7 @@
     "totalResponses": 175,
     "sourceResponseCount": 160,
     "derivedResponseCount": 15,
-    "generatedAt": "2026-10-04T22:41:02.255Z"
+    "generatedAt": "2026-10-04T23:21:52.046Z"
   },
   "inventory": [
     {
@@ -65291,6 +65291,1014 @@
         "type": "original_extension",
         "url": "https://emotionfocusedtherapy.eu/wp-content/uploads/2023/12/FC-EFT-Competence-v1.03-2.pdf",
         "section": "3.1–3.4"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_01",
+      "skillId": "experiential-focusing",
+      "caseId": "case-sara",
+      "caseDifficulty": "easy",
+      "orderIndex": 0,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Sara.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_02",
+      "skillId": "experiential-focusing",
+      "caseId": "case-sara",
+      "caseDifficulty": "easy",
+      "orderIndex": 1,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Sara.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_03",
+      "skillId": "experiential-focusing",
+      "caseId": "case-sara",
+      "caseDifficulty": "easy",
+      "orderIndex": 2,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Sara.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_04",
+      "skillId": "experiential-focusing",
+      "caseId": "case-sara",
+      "caseDifficulty": "easy",
+      "orderIndex": 3,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Sara.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_05",
+      "skillId": "experiential-focusing",
+      "caseId": "case-sara",
+      "caseDifficulty": "easy",
+      "orderIndex": 4,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Sara.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_06",
+      "skillId": "experiential-focusing",
+      "caseId": "case-sara",
+      "caseDifficulty": "easy",
+      "orderIndex": 5,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Sara.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_07",
+      "skillId": "experiential-focusing",
+      "caseId": "case-sara",
+      "caseDifficulty": "easy",
+      "orderIndex": 6,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Sara.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_08",
+      "skillId": "experiential-focusing",
+      "caseId": "case-sara",
+      "caseDifficulty": "easy",
+      "orderIndex": 7,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Sara.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_09",
+      "skillId": "experiential-focusing",
+      "caseId": "case-sara",
+      "caseDifficulty": "easy",
+      "orderIndex": 8,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Sara.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_10",
+      "skillId": "experiential-focusing",
+      "caseId": "case-sara",
+      "caseDifficulty": "easy",
+      "orderIndex": 9,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Sara.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_11",
+      "skillId": "experiential-focusing",
+      "caseId": "case-sara",
+      "caseDifficulty": "easy",
+      "orderIndex": 10,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Sara.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_12",
+      "skillId": "experiential-focusing",
+      "caseId": "case-sara",
+      "caseDifficulty": "easy",
+      "orderIndex": 11,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Sara.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_01",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "easy",
+      "orderIndex": 0,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_02",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "easy",
+      "orderIndex": 1,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_03",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "easy",
+      "orderIndex": 2,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_04",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "easy",
+      "orderIndex": 3,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_05",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "easy",
+      "orderIndex": 4,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_06",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "easy",
+      "orderIndex": 5,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_07",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "easy",
+      "orderIndex": 6,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_08",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "easy",
+      "orderIndex": 7,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_09",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "easy",
+      "orderIndex": 8,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_10",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "easy",
+      "orderIndex": 9,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_11",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "easy",
+      "orderIndex": 10,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_12",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "easy",
+      "orderIndex": 11,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_01",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "moderate",
+      "orderIndex": 12,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_02",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "moderate",
+      "orderIndex": 13,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_03",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "moderate",
+      "orderIndex": 14,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_04",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "moderate",
+      "orderIndex": 15,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_05",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "moderate",
+      "orderIndex": 16,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_06",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "moderate",
+      "orderIndex": 17,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_07",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "moderate",
+      "orderIndex": 18,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_08",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "moderate",
+      "orderIndex": 19,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_09",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "moderate",
+      "orderIndex": 20,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_10",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "moderate",
+      "orderIndex": 21,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_11",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "moderate",
+      "orderIndex": 22,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_12",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "moderate",
+      "orderIndex": 23,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_01",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "hard",
+      "orderIndex": 24,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_02",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "hard",
+      "orderIndex": 25,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_03",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "hard",
+      "orderIndex": 26,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_04",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "hard",
+      "orderIndex": 27,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_05",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "hard",
+      "orderIndex": 28,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_06",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "hard",
+      "orderIndex": 29,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_07",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "hard",
+      "orderIndex": 30,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_08",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "hard",
+      "orderIndex": 31,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_09",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "hard",
+      "orderIndex": 32,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_10",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "hard",
+      "orderIndex": 33,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_11",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "hard",
+      "orderIndex": 34,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
+      },
+      "qaIssues": []
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_12",
+      "skillId": "experiential-focusing",
+      "caseId": "case-arne",
+      "caseDifficulty": "hard",
+      "orderIndex": 35,
+      "translationStatus": "translated",
+      "feedbackStatus": "not_loaded",
+      "reviewStatus": "pending",
+      "reviewPass": null,
+      "reviewFocus": [],
+      "revision": "2026-10-04-v4",
+      "riskFlags": [],
+      "sourceRef": {
+        "type": "original_extension",
+        "url": "https://focusing.org/gendlin/docs/gol_2234.html",
+        "caseDossier": "Case_Arne.md",
+        "section": "Single-response practice moments; not a complete focusing task"
       },
       "qaIssues": []
     }

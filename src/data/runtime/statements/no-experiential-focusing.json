@@ -1,0 +1,666 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_experiential-focusing_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Leter etter ord] Når jeg tenker på å komme hjem i kveld, er det noe der. Jeg vet ikke om det er trist eller redd.",
+      "suggestion": "Vi trenger ikke velge et følelsesord ennå. Vil du ha et stille øyeblikk til å kjenne hvordan hele tanken på å komme hjem i kveld kjennes i kroppen?"
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Tar en pause] Jeg kan forklare hvorfor jeg sjekker mobilen. Men når jeg legger den fra meg, er det noe jeg ikke har ord for. Jeg kjenner det før jeg begynner å forklare.",
+      "suggestion": "Hvis du vil, kan vi la forklaringen ligge litt og gi plass til det ordløse ved å legge fra deg mobilen. Ta deg tid. Ordene trenger ikke komme med en gang."
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Ser ned] «Ensom» er ganske nært, men det fanger ikke helt hvordan kveldene er. Det er mer der.",
+      "suggestion": "Ensom fanger noe av det. Når du kjenner etter hvordan hele kvelden oppleves, er det et annet ord eller bilde som kommer nærmere?"
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Forsiktig] Det er som å bli stående igjen i en døråpning. Jeg vet ikke hvorfor det bildet kom.",
+      "suggestion": "Vi trenger ikke forklare bildet ennå. Når du holder «å stå igjen i en døråpning» sammen med det du kjenner, passer det, eller er det noe som må endres?"
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Korrigerer seg selv] Ikke tomt. Mer som om alt venter, og jeg ikke finner ro noe sted.",
+      "suggestion": "Venting, uten noe sted å finne ro. Ta et øyeblikk med den beskrivelsen og kjenn om den fanger fornemmelsen, eller om ordene dine vil endre seg igjen."
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Stille] Når jeg sier «venter», kjenner jeg et lite søkk inni meg. Det ordet virker riktig.",
+      "suggestion": "«Venter» ser ut til å passe. Vi kan gi det litt plass uten å skynde oss å forklare det. Er det noe ved den ventingen som begynner å bli tydeligere?"
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Nøler] Jeg prøver stadig nye ord, men ingen kjennes riktige. Jeg får ikke dette særlig godt til.",
+      "suggestion": "Det er ikke feil å ikke ha funnet ordet ennå. Hvis det kjennes greit, kan vi bli litt ved den ordløse fornemmelsen uten å kreve at den blir tydelig."
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Tenker høyt] Jeg aner hvordan det er når jeg sier «hele bruddet», men når jeg prøver å beskrive det, begynner jeg å forklare hva som skjedde.",
+      "suggestion": "Vil du ta en pause fra hendelsesforløpet og vende tilbake til fornemmelsen av hele bruddet? Du kan vente på noen ord som beskriver den, fremfor å forklare den."
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Rynker pannen litt] «Utestengt» høres riktig ut i hodet mitt. Men når jeg kjenner etter, er det ikke helt det jeg kjenner.",
+      "suggestion": "La oss ta den forskjellen på alvor. Du kan la «utestengt» ligge og kjenne etter igjen. Vi trenger ikke finne et nytt ord med en gang."
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Ettertenksom] Et rom der lyset fortsatt er på. Det er nærmere enn «forlatt». Det kjennes som om jeg fortsatt venter noen.",
+      "suggestion": "Et rom der lyset fortsatt er på, der du fortsatt venter noen. Passer hele det bildet med det du kjenner nå, eller er det noe du vil justere?"
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Det har endret seg litt. Ventingen er fortsatt der, men nå kjenner jeg hvor sliten jeg er av den.",
+      "suggestion": "Noe ved det har endret seg, og slitenheten er tydeligere. Skal vi gi litt plass til hvordan ventingen kjennes nå, uten at den må forsvinne?"
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Stille, ser opp] Jeg har ikke noe svar. Men «å prøve å være klar for ham» er det som kommer, og det kjennes mer som meg enn «trengende».",
+      "suggestion": "«Å prøve å være klar for ham» er nærmere din opplevelse. La oss gi ordene dine et øyeblikk og kjenne om de fortsatt passer, uten å gjøre dem til en dom over deg."
+    }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Tar en pause] Å lage én kopp kaffe. Det er en følelse ved hele den lille oppgaven, men «trist» er ikke helt nok.",
+      "suggestion": "Vil du ha et øyeblikk til å kjenne etter den kroppslige fornemmelsen av hele den lille oppgaven med å lage én kopp? Vi kan la «trist» ligge og se om din egen beskrivelse kommer.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Ettertenksom] Jeg sier at huset er stille. Det stemmer, men det er noe ved stillheten jeg ikke har fått tak i.",
+      "suggestion": "Du aner at «stille» ikke fanger alt. Hvis du vil, kan du ta litt tid med hele fornemmelsen av huset og kjenne hva som beskriver den bedre.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Leter etter ord] Det er som en jobb uten noen å fortelle det til når den er gjort. Det er det nærmeste jeg kommer.",
+      "suggestion": "En jobb uten noen å fortelle det til når den er gjort. Når du sier det, stemmer det med det du kjenner, eller er det noe som ikke er helt riktig?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Stille] «Å savne henne» stemmer. Men i dag kjennes det annerledes enn i går, og jeg vet ikke forskjellen ennå.",
+      "suggestion": "Vi trenger ikke vite det ennå. Vil du gi plass til hvordan savnet etter Eva kjennes i dag, og la et ord eller bilde komme, hvis det kommer noe?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Nikker litt] «En uferdig setning.» Det virker nærmere. Men jeg mener ikke noe jeg glemte å si til henne.",
+      "suggestion": "En uferdig setning, uten at det betyr noe du ikke fikk sagt. Ta et øyeblikk og undersøk om beskrivelsen passer med fornemmelsen. Du kan endre den hvis den begynner å antyde noe feil.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Ser til siden] Når jeg tenker på å dra på verkstedet i morgen, kjenner jeg noe som ikke bare er glede eller skyld. Jeg vil gjerne vite hva det er.",
+      "suggestion": "Vi kan gi den blandede fornemmelsen litt tid. Når du kjenner på hele tanken om å dra dit i morgen, er det noen beskrivelse som begynner å passe?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Ettertenksom] En fot på dørstokken. Ikke akkurat det å forlate huset. Det er bare bildet som kommer.",
+      "suggestion": "En fot på dørstokken. Skal vi bli litt ved bildet ditt og undersøke hva som passer, uten å bestemme hva det betyr?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Korrigerer] «Tungt» stemmer ikke med å se Emma på søndag. Mer som om det er noe jeg ikke helt får med meg.",
+      "suggestion": "Tungt var ikke riktig ord. Ta deg tid med «noe jeg ikke helt får med meg», og kjenn om det kommer nærmere hele fornemmelsen av å se Emma.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Stille] Jeg får ikke noe bilde. Bare en fornemmelse av at det er mer her enn historien jeg stadig forteller.",
+      "suggestion": "Du trenger ikke få et bilde. Hvis du vil, kan vi gi plass til den fornemmelsen av noe mer, uten at du må gjøre den til en historie eller et følelsesord ennå.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Langsomt] «Ingenting å fortelle.» Når jeg sier det, er det noe i meg som kjenner det igjen. Det er ikke helt det samme som å være alene.",
+      "suggestion": "«Ingenting å fortelle» kjennes gjenkjennelig, og annerledes enn å være alene. Vil du gi de ordene et øyeblikk og kjenne hva de fanger?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Lite sukk] Det har ikke gått bort. Men jeg tror «ingen å vende seg til med de små tingene» passer bedre nå.",
+      "suggestion": "Ingen å vende seg til med de små tingene. Vi kan la det være beskrivelsen din foreløpig og kjenne hvordan den stemmer, uten at følelsen må forsvinne.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Mild stemme] Jeg kjenner litt varme når jeg sier «det vanlige livet vårt». Det er tristhet der også. Jeg vil gjerne ha et øyeblikk med det.",
+      "suggestion": "Selvfølgelig. Vi kan gi et stille øyeblikk til hele fornemmelsen av «det vanlige livet vårt», med både varmen og tristheten der.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Tenker seg om] Det var godt å gå ut med Tom. Det var godt å komme hjem også, på en annen måte. Jeg kjenner begge deler i meg. Det er en hel floke der som jeg ikke klarer å sortere i følelser.",
+      "suggestion": "Vi trenger ikke sortere den ennå. Vil du ha et øyeblikk med hele opplevelsen av turen og det å komme hjem, og kjenne om en beskrivelse begynner å komme?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Rynker pannen] Jeg sa «lettelse», men nå høres det ut som om jeg er lettet over at Eva døde. Det var ikke det jeg prøvde å si.",
+      "suggestion": "Da lar vi «lettelse» ligge. Når du vender tilbake til det du prøvde å beskrive, er det et ord du selv finner som passer uten å si noe du ikke mener?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Nøler] En motor som fortsatt går etter at arbeidet er ferdig. Kanskje. Men det høres ut som om jeg bare trenger å slås av.",
+      "suggestion": "Bildet fanger noe og bommer på noe. Du kan bli ved selve fornemmelsen og la bildet endre seg. Det trenger ikke antyde en løsning.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Tar en pause] Skuldrene slipper litt når jeg sier «ikke på vakt». Men så kjennes det galt å si det.",
+      "suggestion": "«Ikke på vakt» passer med noe, og samtidig er det en fornemmelse av at det er galt. Hvilken av dem vil du gi plass til først, uten at vi må ordne den andre?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Ler tørt] Jeg kan gi deg en veldig fornuftig forklaring på hvorfor søndager er vanskelige. Den kommer ikke i nærheten av selve søndagen.",
+      "suggestion": "Vil du legge den fornuftige forklaringen litt til side og kjenne hvordan hele søndagen oppleves i deg? Vi kan vente på ord som kommer derfra, fremfor fra forklaringen.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Leter etter ord] «Lånt tid» dukket opp i hodet mitt om verkstedet. Men når jeg kjenner etter, er det en gammel formulering, ikke slik dette faktisk kjennes.",
+      "suggestion": "Du merket at formuleringen ikke stemte. La den ligge foreløpig og gi hele opplevelsen av å være på verkstedet et øyeblikk til. En kjent formulering trenger ikke gi svaret.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Lavt] En løs tråd. Nei, ikke løs. En tråd uten noen i den andre enden. Jeg vil ikke trekke hardere i den.",
+      "suggestion": "En tråd uten noen i den andre enden er nærmere, og du vil ikke trekke. Vi kan la den være slik du har funnet den, og kjenne om det er nok foreløpig.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Ettertenksom] Jeg prøvde å finne noe i brystet. Men det hele er mer som å være litt i utakt med dagen.",
+      "suggestion": "Vi trenger ikke finne det i brystet. Passer «i utakt med dagen» med hele opplevelsen, eller trenger du et annet ord?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Usikker] «Tillatelse» stemmer ikke. Eva hindret meg ikke i å gjøre ting. Jeg prøver å få tak i følelsen når jeg har det hyggelig nå.",
+      "suggestion": "La oss la «tillatelse» ligge. Det antyder noe som ikke passer med livet ditt med Eva. Hvis du vil, kan du vende tilbake til hele øyeblikket av å ha det hyggelig nå og kjenne hva som beskriver det bedre.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Langsomt] «En plass som holdes av til henne.» Det kjennes nærmere. Men det handler ikke om å la stolen hennes stå urørt. Jeg har flyttet på møblene.",
+      "suggestion": "En plass som holdes av til henne, uten at det handler om møblene. Ta et øyeblikk med formuleringen din og kjenn hva den fanger i hele fornemmelsen.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Ser opp] Noe lettet da jeg fant formuleringen, men nå er det uklart igjen. Jeg klarer ikke få det til to ganger på bestilling.",
+      "suggestion": "Du trenger ikke gjenskape det. Vi kan kjenne etter hva som er der nå, og la beskrivelsen endre seg, fremfor å prøve å komme tilbake til et bestemt resultat.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Stødig] «Å leve en dag hun ikke er med i.» Det passer i dag. Det forklarer ikke alt, og det vil jeg heller ikke at det skal gjøre.",
+      "suggestion": "Det passer i dag uten å forklare alt. Vil du ha et stille øyeblikk med de ordene, eller er dette et godt sted å la det ligge?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Avventende] Hvis jeg sier at det kjennes som en vekt, kaller du det sorg. Jeg prøver å finne ut hva det er, ikke få deg til å sette navn på det.",
+      "suggestion": "Jeg skal ikke gjøre beskrivelsen din til en merkelapp. Hvis du vil fortsette, kan vi bli ved hele fornemmelsen du prøver å få tak i, og la deg avgjøre hvilke ord som passer.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Bestemt] Jeg vil ikke lukke øynene eller lete i brystet. Jeg vil forstå denne rare følelsen når telefonen ringer og det ikke er Eva.",
+      "suggestion": "Du kan ha øynene åpne, og vi lar brystet være. Vil det passe å ta et øyeblikk med hele opplevelsen av den ringingen og kjenne hvilke ord som kommer, uten å presse dem frem?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Korrigerer] Ikke en tom stol. Det var jeg som ble stående igjen mens alle andre gikk tilbake til livene sine. Men selv det er ikke helt riktig.",
+      "suggestion": "La oss legge den tomme stolen bort. Ditt eget «å bli stående igjen» er nærmere, men ikke helt riktig ennå. Vi kan gi plass til det som fortsatt mangler, uten å bestemme hvem som hadde skylden.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Skjevt smil] «Å holde av en plass til henne» høres rørende ut. Jeg kan nesten se at du liker det. Det passer ikke med det jeg kjenner i dag.",
+      "suggestion": "Da beholder vi det ikke fordi det høres rørende ut. Det du kjenner i dag, er viktigere enn formuleringen. Vi kan gi det et øyeblikk uten å måtte finne en ny, fin beskrivelse.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Stille, tydelig] Noe ved det siste året kjennes fastlåst. Ikke fordi jeg trenger å ta farvel. Ikke ta meg dit.",
+      "suggestion": "Vi skal ikke gjøre dette til en avskjed. Hvis du vil utforske den fastlåste fornemmelsen, kan vi la hele det siste året få være der på en avstand som passer deg, og vente på din egen beskrivelse.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Utålmodig] Du venter på at noe skal mykne. Det gjør det ikke. Jeg har en uklar følelse, og det er alt jeg har.",
+      "suggestion": "Ingenting må mykne. Vi kan gi den uklare følelsen plass akkurat slik den er, hvis du fortsatt vil, uten at en endring er noe du skylder meg.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Leter etter ord, anspent] «Fri» var ordet som kom. Ikke gratuler meg. Når jeg kjenner etter, er det noe vondt ved at det passer, og noe riktig.",
+      "suggestion": "Jeg skal ikke gjøre «fri» til en god nyhet. Vil du bli ved hele den blandede fornemmelsen og kjenne om ordet trenger å endres, uten å måtte forsvare noen av delene?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Jevn stemme] Jeg aner det, men jeg vil ikke si ordene til deg ennå. Det er ikke en hemmelighet. De kjennes bare ikke klare til å forlate munnen min.",
+      "suggestion": "Du kan beholde dem for deg selv. Hvis du vil, kan du ta deg tid til å kjenne om de stemmer med fornemmelsen, uten å si dem høyt. Jeg trenger ikke ordene for å være her med deg.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Bestemt] Ikke mer innover i dag. Jeg har funnet en formulering som passer, og jeg vil stoppe før dette blir enda en jobb som skal gjøres ordentlig.",
+      "suggestion": "Vi stopper det innoverrettede arbeidet her. Formuleringen kan få være din, uten mer undersøkelse eller et bedre resultat du må gi meg.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Tørt] Jeg vet det kloke svaret: Kjærlighet og slitenhet kan begge være sanne. Jeg tror på det. Men det har ikke satt ord på alt jeg bærer med meg fra de månedene.",
+      "suggestion": "Forklaringen kan være sann og likevel la hele den opplevelsen stå uten ord. Vil du legge svaret litt til side og kjenne hvilken beskrivelse som kommer fra å være med de månedene slik de oppleves for deg nå?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Langsomt] «Å fortsatt lytte etter henne.» Det fanger det. Og nå vet jeg ikke om det er ømt eller vondt, og jeg vil ikke måtte velge.",
+      "suggestion": "Du trenger ikke velge. Vi kan gi et øyeblikk til hele fornemmelsen av «å fortsatt lytte etter henne», med det som er der, uten å dele det i riktig og feil følelse.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Stødig, litt avventende] Noe beveget seg da jeg sa det. Ikke gjør det til et vendepunkt. Det kan være annerledes når jeg kommer hjem.",
+      "suggestion": "Vi skal ikke kalle det et vendepunkt. Hvis du vil, kan vi gi dette øyeblikket litt plass og la deg kjenne hva som har endret seg, uten å bestemme hva det vil bety hjemme.",
+      "difficulty": "hard"
+    }
+  ]
+}

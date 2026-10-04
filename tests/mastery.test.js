@@ -15,7 +15,7 @@ const read=name=>JSON.parse(readFileSync(new URL('../src/data/runtime/'+name,imp
 const catalog=read('manifest.json').EXERCISE_CATALOG;
 test('partial skill availability advertises only complete bilingual banks with coaching references',()=>{
  for(const id of EXTENSION_SKILL_ORDER){
-  assert.deepEqual(CASE_ORDER[id],['case-sara','case-michael','case-jason','case-laura','case-carlos','case-nina','case-aisha','case-david','case-marcus','case-arne','case-mia','case-nora']);assert.equal(BASE_PRACTICE[id].cases['case-sara'].statements.length,12);
+  assert.deepEqual(CASE_ORDER[id],id==='experiential-focusing'?['case-sara','case-arne']:['case-sara','case-michael','case-jason','case-laura','case-carlos','case-nina','case-aisha','case-david','case-marcus','case-arne','case-mia','case-nora']);assert.equal(BASE_PRACTICE[id].cases['case-sara'].statements.length,12);
   for(const lang of ['en','no']){
    assert.equal(read(`statements/${lang}-${id}.json`)['case-sara'].length,12);
    const feedback=getSkillFeedback(id,lang);assert.equal(feedback.cues.length,2);assert.equal(feedback.selfCues.length,2);assert.ok(feedback.middle&&feedback.high);

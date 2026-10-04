@@ -7212,3 +7212,5 @@ for (const skill of NORA_SKILLS) {
 }
 
 Object.assign(STATEMENT_TRANSLATIONS.no, FIXED_CASE_EXTENSION_TRANSLATIONS);
+
+LANGUAGE_OVERRIDES.no['experiential-focusing'].cases = {'case-arne': ARNE_CASE_NO};

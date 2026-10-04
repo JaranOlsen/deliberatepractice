@@ -3,14 +3,14 @@ import assert from 'node:assert/strict';
 import {BASE_PRACTICE,CASE_ORDER,STATEMENT_TRANSLATIONS,CONTENT_REVISION} from '../src/data/index.js';
 import {FIXED_CASE_EXTENSION_BANKS,fixedExtensionItemId} from '../src/data/fixedCaseExtensions.js';
 import {FIXED_CASE_MASTERY} from '../src/data/fixedCaseMastery.js';
-import {EXTENSION_SKILL_ORDER} from '../src/data/skillExtensions.js';
+import {FIXED_CASE_EXTENSION_SKILL_ORDER} from '../src/data/skillExtensions.js';
 import {resolveCaseLevel} from '../src/js/practiceLevels.js';
 
 test('eight original fixed cases gain complete distinct bilingual extension banks without new levels',()=>{
  const ids=new Set(),voices=new Set();
  for(const [caseId,banks] of Object.entries(FIXED_CASE_EXTENSION_BANKS)){
-  assert.deepEqual(Object.keys(banks),EXTENSION_SKILL_ORDER);
-  for(const skill of EXTENSION_SKILL_ORDER){
+  assert.deepEqual(Object.keys(banks),FIXED_CASE_EXTENSION_SKILL_ORDER);
+  for(const skill of FIXED_CASE_EXTENSION_SKILL_ORDER){
    const c=BASE_PRACTICE[skill].cases[caseId];
    assert.equal(c.statements.length,12);assert.deepEqual(c.supportedLevels??[c.difficulty],[c.difficulty]);
    assert.equal(resolveCaseLevel(c,'hard',{[caseId]:'hard'}),c.difficulty);
@@ -26,7 +26,7 @@ test('eight original fixed cases gain complete distinct bilingual extension bank
   }
  }
  assert.equal(ids.size,288);
- for(const skill of EXTENSION_SKILL_ORDER)assert.equal(CASE_ORDER[skill].length,12);
+ for(const skill of FIXED_CASE_EXTENSION_SKILL_ORDER)assert.equal(CASE_ORDER[skill].length,12);
 });
 
 test('fixed-case mastery retains exact source provenance and fixed level for all 96 authored scenes',()=>{

@@ -8,7 +8,8 @@ async page => {
  const users=await (await page.request.get('http://127.0.0.1:5199/users')).json();
  const assert=(ok,message)=>{if(!ok)throw new Error(message);};
  const contexts=[],errors=[],rounds=[];let stage='setup';
- const skills=variable?['empathic-understanding','providing-treatment-rationale','empathic-affirmation-validation','exploratory-questions','empathic-explorations','empathic-conjectures','empathic-evocations','staying-in-contact-intense-affect','empathic-refocusing','consolidating-emotional-change','closing-after-emotional-work']:['empathic-refocusing','consolidating-emotional-change','closing-after-emotional-work'];
+ const requestedSkill=new URL(url).searchParams.get('testSkill');
+ const skills=requestedSkill?[requestedSkill]:variable?['empathic-understanding','providing-treatment-rationale','empathic-affirmation-validation','exploratory-questions','empathic-explorations','empathic-conjectures','empathic-evocations','staying-in-contact-intense-affect','empathic-refocusing','consolidating-emotional-change','closing-after-emotional-work']:['empathic-refocusing','consolidating-emotional-change','closing-after-emotional-work'];
  try {
   for(const language of ['en','no']){
    const mode=language==='en'?'individual':'triad';
