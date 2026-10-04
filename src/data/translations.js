@@ -117,8 +117,8 @@ export const LANGUAGE_UI = {
     "selfAwarenessOrientation": "The reader presents the client statement. The therapist notices their internal reactions and shares only what feels comfortable in training. The reader and observer support awareness and boundaries, then the therapist listens again.",
     "selfAwarenessSteps": ["Notice", "Reader feedback", "Coaching", "Notice again"],
     "selfAwarenessFirstTitle": "Therapist — notice your reaction",
-    "selfAwarenessFirstInstruction": "Listen to the client statement. Notice your body, feelings, thoughts, and impulses. Share only a comfortable part of your reaction with the group; you do not need to respond to the client.",
-    "selfAwarenessFirstContinue": "Reflection shared",
+    "selfAwarenessFirstInstruction": "Listen and notice your body, feelings, thoughts, and impulses. Keep the reflection private, or share only what you choose with the practice group.",
+    "selfAwarenessFirstContinue": "Ready for feedback",
     "selfAwarenessReaderRole": "Reader",
     "selfAwarenessClientTitle": "Reader — reflect on the process",
     "selfAwarenessClientInstruction": "Step out of the client role. Name what you noticed about the therapist pausing and attending to their experience. Respect what they chose to keep private.",
@@ -486,8 +486,8 @@ export const LANGUAGE_UI = {
     "selfAwarenessOrientation": "Oppleseren leser klientutsagnet. Terapeuten legger merke til egne indre reaksjoner og deler bare det som kjennes greit i øvingssituasjonen. Oppleser og observatør støtter oppmerksomhet og grenser før terapeuten lytter på nytt.",
     "selfAwarenessSteps": ["Legg merke til", "Oppleserens respons", "Veiledning", "Lytt på nytt"],
     "selfAwarenessFirstTitle": "Terapeut — legg merke til din reaksjon",
-    "selfAwarenessFirstInstruction": "Lytt til klientutsagnet. Legg merke til kropp, følelser, tanker og impulser. Del bare en del av reaksjonen som kjennes grei å dele med gruppen; du trenger ikke svare klienten.",
-    "selfAwarenessFirstContinue": "Refleksjon delt",
+    "selfAwarenessFirstInstruction": "Lytt og legg merke til kropp, følelser, tanker og impulser. Behold refleksjonen for deg selv, eller del bare det du selv velger med øvingsgruppen.",
+    "selfAwarenessFirstContinue": "Klar for respons",
     "selfAwarenessReaderRole": "Oppleser",
     "selfAwarenessClientTitle": "Oppleser — gi respons på prosessen",
     "selfAwarenessClientInstruction": "Gå ut av klientrollen. Si hva du la merke til da terapeuten tok en pause og vendte oppmerksomheten mot egen opplevelse. Respekter det hen valgte å holde privat.",
@@ -800,10 +800,10 @@ export const LANGUAGE_OVERRIDES = {
     "therapist-self-awareness": {
       "name": "Terapeutens selvbevissthet",
       "description": "Legg merke til og sett ord på dine egne indre reaksjoner mens du lytter, med respekt for privatliv, grenser og tilstedeværelse.",
-      "summary": "Terapeutens selvbevissthet er en intrapersonlig EFT-ferdighet: å følge med på egen kropp, følelser, tanker, bilder og handlingsimpulser mens klienten snakker. I denne øvelsen er oppgaven ikke å finne den beste terapeutiske intervensjonen. Terapeuten lytter, legger merke til hva som skjer inni seg, og setter deretter ord på bare den delen av reaksjonen som kjennes riktig å dele i en treningssituasjon.\n\nDette bygger kapasitet til å være til stede når klienten vekker varme, redningstrang, uro, irritasjon, tiltrekning, avsky, nummenhet, defensivitet eller press om å prestere. Du øver på å skille nyttig resonans fra terapeut-sentrert materiale som bør holdes privat eller tas med til veiledning. Ferdigheten handler også om å ivareta egne grenser: selvbevissthet betyr ikke at alt du merker, skal deles.\n\nAppen beholder et forslagstekstfelt for øvingens skyld, men teksten er et eksempel på selvbevissthetsdeling, ikke en modell for hva terapeuten skal si til klienten. Et godt svar begynner ofte med «Jeg legger merke til...» eller «Jeg kjenner et drag mot...», og viser at terapeuten kan registrere aktivering uten å handle den ut eller flytte fokus bort fra klienten.",
+      "summary": "Terapeutens selvbevissthet er en intrapersonlig EFT-ferdighet: å følge med på egen kropp, følelser, tanker, bilder og handlingsimpulser mens klienten snakker. I denne øvelsen er oppgaven ikke å finne den beste terapeutiske intervensjonen. Terapeuten lytter og legger merke til hva som skjer inni seg. Refleksjonen kan beholdes privat. Det er valgfritt å dele med øvingsgruppen.\n\nDette bygger kapasitet til å være til stede når klienten vekker varme, redningstrang, uro, irritasjon, tiltrekning, avsky, nummenhet, defensivitet eller press om å prestere. Du øver på å skille nyttig resonans fra terapeut-sentrert materiale som bør holdes privat eller tas med til veiledning. Ferdigheten handler også om å ivareta egne grenser: selvbevissthet betyr ikke at alt du merker, skal deles.\n\nAppen beholder et forslagstekstfelt for øvingens skyld, men teksten er et eksempel på refleksjon, ikke på hva terapeuten skal si til klienten. Din egen reaksjon kan være annerledes, også at du kjenner lite eller ingenting. Målet er ikke å kjenne det samme som i eksempelet. Et godt svar begynner ofte med «Jeg legger merke til...» eller «Jeg kjenner et drag mot...», og viser at terapeuten kan registrere aktivering uten å handle den ut eller flytte fokus bort fra klienten.",
       "marker": "Klientmaterialet er sannsynlig å aktivere terapeuten: varme, redningstrang, uro, irritasjon, tiltrekning, avsky, frykt, defensivitet, prestasjonspress eller en trang til å gå for raskt frem. Klienten ber ikke om selvbevissthet; markøren er terapeutens egen indre reaksjon mens hen lytter.",
       "aim": "Øke kapasiteten til å legge merke til, symbolisere og eie egne indre reaksjoner mens du fortsatt lytter til klienten. Bruk bevisstheten til å være til stede og ivareta grenser, ikke til å framføre en polert intervensjon.",
-      "practiceFocus": "Lytt, følg med på kropp, følelser, tanker, bilder og impulser, og del deretter bare en komfortabel del av din indre reaksjon.",
+      "practiceFocus": "Lytt og legg merke til kropp, følelser, tanker og impulser. Behold refleksjonen for deg selv, eller del bare det du selv velger med øvingsgruppen.",
       "commonMiss": "Å gjøre forslagsteksten til en polert klientintervensjon, eller å dele for mye i stedet for å ivareta privatliv og grenser.",
       "cases": {
         "case-sara": {
@@ -1631,7 +1631,7 @@ export const LANGUAGE_OVERRIDES = {
       "summary": "Selvavsløring i opplevelsesorientert terapi innebærer å dele en kort, ekte bit av din umiddelbare indre opplevelse når det klart tjener klienten. Det kan være å sette ord på hvordan du er emosjonelt berørt, å anerkjenne hvordan klienten virker inn på deg, eller å eie en misattunering som har bidratt til et brudd i alliansen. Utsagnene holdes korte, nøkterne og uten forsvar, og formuleres slik at de støtter – ikke overskygger – klientens erfaring.\n\nBrukt til validering kan selvavsløring bekrefte at klientens smerte er reell og berører andre, og motvirke indre budskap om å være «for mye» eller «ikke troverdig». I alliansearbeid modellerer det ansvarlighet og sårbarhet: konflikten møtes med forståelse og reparasjonsvilje fremfor skyld og tilbaketrekning.\n\nSelvavsløring kan også hjelpe klienter som tviler på at noen kan bry seg virkelig, ved å gi en korrigerende erfaring av å ha emosjonell innvirkning. Noen ganger åpner det også for at klienten kan kjenne mer av sine egne primære følelser ved å legge merke til hvordan du blir berørt. Etter at du har delt, vender du raskt fokuset tilbake til klienten og inviterer deres reaksjon. Over tid kan nøktern, gjennomtenkt selvavsløring fordype tillit og modellere sunn emosjonell åpenhet og relasjonell reparasjon.",
       "marker": "Klienten ber direkte eller indirekte om åpenhet fra terapeuten: et personlig spørsmål, et spørsmål om terapiprosessen, bekymring for din interesse eller kompetanse, en reaksjon på noe du gjorde, eller usikkerhet om omsorg, grenser eller innvirkning. Et kort, ærlig og tydelig avgrenset svar fra deg vil trolig kunne klargjøre din posisjon, styrke tillit eller validere klientens betydning før fokuset vendes tilbake til klienten.",
       "aim": "Bruke kort, nøye valgt åpenhet til å styrke den terapeutiske relasjonen, validere klientens emosjonelle virkelighet eller reparere misattuneringer. Modellere kongruent følelsesuttrykk samtidig som klientens opplevelse forblir sentrum i arbeidet.",
-      "practiceFocus": "Del bare en kort, umiddelbar bit av din indre respons som tydelig tjener klientens prosess, og vend så raskt tilbake til klienten.",
+      "practiceFocus": "Vær kort og ærlig når åpenhet tjener klienten, og vend så tilbake til klientens opplevelse. Tilpass eksemplene til din faktiske erfaring og rolle. Ikke finn på følelser eller kvalifikasjoner.",
       "commonMiss": "Å gli over i biografi, forsikring eller terapeut-sentrert prat som gjør øyeblikket mindre om klienten.",
       "cases": {
         "case-sara": {
@@ -2000,11 +2000,11 @@ export const STATEMENT_TRANSLATIONS = {
   "no": {
     "dp_therapist-self-awareness_case-sara_01": {
       "text": "[Kjærlig] Jeg lå på sengen og gråt i går kveld, og hunden min krøp opp ved siden av meg, som han alltid gjør. Han la hodet på beinet mitt og ble liggende mens jeg snakket med ham om bruddet. Det høres dumt ut, men han er den eneste som aldri virker lei av at jeg er trist. Jeg vet ikke hvor jeg hadde vært uten ham.",
-      "suggestion": "[Selvbevissthet] Jeg merker varme i brystet og et ømt ønske om å trøste henne; jeg ville bare delt varmen hvis det var nyttig, og tatt redningstrangen med til veiledning."
+      "suggestion": "[Selvbevissthet] Jeg merker varme i brystet og et ønske om å trøste henne. Jeg kan beholde begge deler for meg selv mens jeg lytter, uten å handle på trangen til å redde henne."
     },
     "dp_therapist-self-awareness_case-sara_02": {
       "text": "[Nervøs] Jeg er glad for at jeg bestilte denne timen, men jeg er også nervøs, for jeg har egentlig aldri gått i terapi før. En del av meg er redd for at jeg bare kommer til å sitte her og snakke om ham i en time, og at du tenker at dette ikke er et ordentlig problem. En annen del er redd for at hvis jeg begynner å snakke, kommer jeg til å gråte og ikke klare å stoppe.",
-      "suggestion": "[Selvbevissthet] Jeg kjenner et drag mot å berolige henne raskt og strukturere timen for henne; jeg ville lagt merke til den roligere pusten jeg tar, heller enn å skynde meg å fikse angsten."
+      "suggestion": "[Selvbevissthet] Jeg merker en trang til å berolige henne raskt og strukturere timen for henne. Jeg stopper litt opp og legger merke til pusten før jeg lar trangen styre det jeg gjør."
     },
     "dp_therapist-self-awareness_case-sara_03": {
       "text": "[Engstelig] Etter at jeg flyttet etter bruddet, føles alt uvant. Naboene bråker mer, gatene er travlere, og jeg sammenligner hele tiden med den gamle leiligheten, der jeg visste nøyaktig hvilke lyder som hørte til hvor. Jeg vet at det er en liten ting, men jeg kjenner meg skvetten og ute av plass hele tiden. Kan du hjelpe meg å finne ro i dette?",
@@ -2012,7 +2012,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_therapist-self-awareness_case-sara_04": {
       "text": "[Ukomfortabel] I natt hadde jeg en rar drøm om at jeg var tilbake i den gamle leiligheten og pakket esker. Jeg kunne høre ham i et annet rom, men hver gang jeg åpnet en dør, var rommet tomt. Så var du plutselig der og hjalp meg å teipe igjen en eske. I drømmen ble jeg lettet, og så våknet jeg flau over at du var med i det hele tatt.",
-      "suggestion": "[Selvbevissthet] Jeg merker nysgjerrighet, litt flauhet og et ønske om å tolke drømmen; jeg ville bare delt den umiddelbare kroppslige reaksjonen, ikke tolkningen."
+      "suggestion": "[Selvbevissthet] Jeg merker nysgjerrighet, litt flauhet og et ønske om å tolke drømmen. Jeg kan legge merke til reaksjonene for meg selv uten å gjøre dem til en tolkning eller dele dem med henne."
     },
     "dp_therapist-self-awareness_case-sara_05": {
       "text": "[Håpefull] Jeg tenker stadig at terapi kanskje kan hjelpe meg å få livet mitt tilbake, selv om det høres dramatisk ut. Jeg har lest om folk som lærer å slutte å gjenta de samme mønstrene i forhold, og jeg vil så gjerne få til det. Samtidig er jeg redd for å bli håpefull foran deg, for da kan jeg skuffe oss begge hvis jeg blir stående fast.",
@@ -2036,7 +2036,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_therapist-self-awareness_case-sara_10": {
       "text": "[Stille] Jeg flyttet etter bruddet, og jeg trodde utpakkingen skulle få meg til å føle at jeg startet på nytt. I stedet kjennes hver eske som bevis på at jeg gjør dette alene. Jeg fant noen kopper vi kjøpte sammen og ble stående i tjue minutter, og etterpå følte jeg meg latterlig fordi folk kommer seg videre etter brudd hele tiden.",
-      "suggestion": "[Selvbevissthet] Jeg merker tristhet og et drag mot å gjøre ensomheten mindre for henne; hvis jeg valgte å dele noe, ville jeg navngitt tristheten i meg uten å gjøre den til trøst."
+      "suggestion": "[Selvbevissthet] Jeg merker tristhet og et ønske om å gjøre ensomheten mindre for henne. Jeg kan være oppmerksom på tristheten uten å skynde meg å trøste eller be henne ta vare på reaksjonen min."
     },
     "dp_therapist-self-awareness_case-michael_01": {
       "text": "[Starten av første time] Kona mi sier at jeg trenger terapi, og jeg prøver å ta det alvorlig før jeg ødelegger mer hjemme. Jeg vil ikke sitte her og skylde alt på barndommen, altså. Jeg trenger verktøy jeg faktisk kan bruke når temperamentet begynner å stige, for når det først er oppe, kan jeg høre at jeg blir høyere, og likevel stopper jeg ikke.",
@@ -2044,7 +2044,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_therapist-self-awareness_case-michael_02": {
       "text": "[Defensiv] Den forrige coachen min ga meg pusteverktøy på to timer, og da føltes det i det minste praktisk. Jeg sier ikke at det fikset alt, men jeg visste hva jeg skulle gjøre. Jeg håper ikke dette blir en lang runde gjennom barndommen mens kona mi sitter hjemme og vurderer om hun orker meg. Jeg trenger å vite at du har en plan.",
-      "suggestion": "[Selvbevissthet] Jeg merker forsvar på terapiens vegne og et ønske om å konkurrere med den forrige coachen; jeg ville holdt konkurransetrangen privat og bare navngitt ønsket om å holde meg forankret."
+      "suggestion": "[Selvbevissthet] Jeg merker at jeg vil forsvare terapien og konkurrere med den forrige coachen. Jeg beholder reaksjonen for meg selv og legger merke til presset om å bevise hva jeg kan, før jeg svarer."
     },
     "dp_therapist-self-awareness_case-michael_03": {
       "text": "[Skamfull] Sønnen min spurte om jeg var sint på ham etter at jeg smalt mot kona mi, og jeg kunne se at han prøvde å lese rommet. Jeg sa nei, men ansiktet hans forble forsiktig. Hele kvelden ville jeg at noen skulle si at jeg ikke hadde ødelagt alt. Så hatet jeg at jeg trengte en sånn forsikring, for jeg er jo den voksne.",
@@ -2056,7 +2056,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_therapist-self-awareness_case-michael_05": {
       "text": "[Defensiv] Hvis jeg beklager først, oppfører kona mi seg som om det beviser at hele krangelen var min feil. Kanskje hun ikke sier det direkte, men det er sånn det kjennes. Da ser jeg svak ut, og hun får være den rimelige igjen. Jeg vet det høres smålig ut, men jeg tåler ikke å gi noen bevis på at de vant.",
-      "suggestion": "[Selvbevissthet] Jeg merker en trang til å overtale ham i retning av beklagelse og en liten stramming i brystet; jeg ville markert den trangen som min og ikke delt mer enn det som kjennes respektfullt."
+      "suggestion": "[Selvbevissthet] Jeg merker en trang til å overtale ham til å be om unnskyldning og en stramming i brystet. Jeg kjenner igjen trangen som min og stopper opp før den blir til press på ham."
     },
     "dp_therapist-self-awareness_case-michael_06": {
       "text": "[Klein] Jeg er ikke vant til å snakke sånn. På jobb kan jeg lede et møte med ti personer og ta raske beslutninger, men her inne mister jeg ordene og føler meg dum. Hvis jeg blir stille, betyr det ikke at jeg ikke bryr meg. Det betyr at jeg prøver å la være å si noe som får meg til å høres enten svak ut eller som en dust.",
@@ -2128,7 +2128,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_therapist-self-awareness_case-laura_03": {
       "text": "[Anspent og på vakt] Jeg vil helst ikke snakke om fortiden i dag. Jeg vet at det sikkert henger sammen med hvorfor jeg er her, men bare det å si det får armene mine til å kjennes tunge og synet til å bli litt fjernt. Hvis du presser, kommer jeg til å svare høflig og så forsvinne inni meg. Det har jeg gjort med terapeuter før, og de merker det som regel ikke før jeg slutter å komme.",
-      "suggestion": "[Selvbevissthet] Jeg merker ansvarspress og et ønske om å bevise at jeg ikke kommer til å presse; jeg ville bare delt intensjonen om å senke tempoet hvis det var klinisk nyttig."
+      "suggestion": "[Selvbevissthet] Jeg merker press om å ta ansvar og bevise at jeg ikke vil presse henne. Jeg stopper opp og legger merke til presset i meg selv, fremfor å gi et løfte for å lette mitt eget ubehag."
     },
     "dp_therapist-self-awareness_case-laura_04": {
       "text": "[Flatt og på vakt] Jeg drakk to glass vin før jeg kom hit, for ellers visste jeg at jeg kom til å sitte på parkeringsplassen og kjøre hjem. Det er ikke sånn at jeg er full. Jeg fungerer, og jeg jobber rundt medisiner og akutte situasjoner hele dagen, så jeg vet forskjellen. Jeg sier det fordi jeg ikke vil lyve, men jeg vil heller ikke ha en forelesning.",
@@ -2152,7 +2152,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_therapist-self-awareness_case-laura_09": {
       "text": "[Anspent og på vakt] Jeg tror jeg er ødelagt på en måte folk til slutt blir lei av. Først er de tålmodige fordi historien høres trist ut, og så skjønner de at jeg fortsatt ikke klarer normale ting som å svare på meldinger, sove gjennom natten eller tro at noen ikke er sint. Jeg sier det nå fordi jeg heller vil vite tidlig om dette er for mye.",
-      "suggestion": "[Selvbevissthet] Jeg merker tristhet og et ønske om å love utholdenhet; jeg ville holdt løfteimpulsen synlig for meg selv og bare delt det jeg faktisk kan eie."
+      "suggestion": "[Selvbevissthet] Jeg merker tristhet og et ønske om å love at jeg alltid vil bli. Jeg kan beholde ønsket for meg selv og kjenne igjen trangen til å love mer enn jeg faktisk kan tilby."
     },
     "dp_therapist-self-awareness_case-laura_10": {
       "text": "[Flatt og på vakt] Å holde alt under kontroll kjennes tryggere enn å finne ut hva som ligger under. Jeg kan lage lister, ta ekstravakter, holde huset rent nok og helle opp et glass vin om kvelden. Ingenting av det er ideelt, men det er forutsigbart. Hvis vi begynner å åpne ting, vet jeg ikke hva som skjer etter at jeg går ut av kontoret ditt.",
@@ -2184,7 +2184,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_therapist-self-awareness_case-carlos_07": {
       "text": "[Sint, med knyttede never] Etter at jeg ikke fikk forfremmelsen, så jeg for meg at jeg gikk inn i brakka og slo sjefen så hardt at han endelig holdt kjeft. Jeg sier ikke at jeg skulle gjøre det, men bildet var der, helt klart. Han fortsatte å snakke til meg som om jeg var ingenting, som om alle ekstratimene ikke betydde noe. Jeg kjørte rundt i en time før jeg dro hjem.",
-      "suggestion": "[Selvbevissthet] Jeg merker alarm i magen og en trang til å håndtere risiko raskt; jeg ville forankret meg før jeg bestemmer hva, om noe, jeg skal dele om alarmen."
+      "suggestion": "[Selvbevissthet] Jeg merker alarm i magen og en trang til å ta kontroll raskt. Jeg stopper opp for å legge merke til hastverket i meg selv, så det ikke styrer neste svar for meg."
     },
     "dp_therapist-self-awareness_case-carlos_08": {
       "text": "[Bekymret] Jeg drakk noen øl før jeg kom sist, fordi jeg ikke ville sitte her og føle meg blottstilt. Det gjorde det lettere å snakke, og jeg vil ikke at du skal gjøre en stor sak ut av det. Jeg jobber hardt, jeg drikker ikke om morgenen, og jeg er ikke som folk som ikke fungerer. Men jeg vet også at jeg ikke ville være helt her.",
@@ -2208,7 +2208,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_therapist-self-awareness_case-nina_03": {
       "text": "[Skyldpreget] I kirken lærte jeg at bitterhet betyr at jeg svikter som et godt menneske. Jeg vet at ikke alle ser det sånn, og jeg ber deg ikke være enig i troen min. Men hvis du ikke forstår den delen av meg, er jeg redd du bare vil be meg være egoistisk og kalle det grenser. Jeg vil ikke at terapi skal gjøre meg til en familien min ikke kjenner igjen.",
-      "suggestion": "[Selvbevissthet] Jeg merker antakelser om tro og et ønske om å vise respekt raskt; jeg ville observert det presset og bare delt det som kjennes ekte."
+      "suggestion": "[Selvbevissthet] Jeg merker antakelser om tro og press om å vise at jeg forstår. Jeg kan beholde antakelsene for meg selv og legge merke til det jeg ennå ikke vet om opplevelsen hennes."
     },
     "dp_therapist-self-awareness_case-nina_04": {
       "text": "[Skyldpreget] Hvis jeg hviler mens noen trenger meg, føler jeg meg lat og egoistisk. Selv når jeg setter meg ned, lytter jeg etter klesvask, oppvask, noen som spør hvor noe er. Mannen min sier at jeg skal slappe av, men hvis jeg faktisk slapper av, hoper ting seg opp og så føler jeg meg verre. Jeg vet jeg høres ut som jeg kommer med unnskyldninger, men hvile føles aldri nøytralt.",
@@ -2216,7 +2216,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_therapist-self-awareness_case-nina_05": {
       "text": "[På gråten] Jeg kjenner at tårene kommer, og jeg vil beklage så du ikke føler deg belastet. Jeg vet at du er terapeut og at dette sikkert er normalt for deg, men jeg ser likevel for meg at du blir lei av meg. Folk har nok å bære uten at jeg legger mitt rot oppå. Så selv når jeg gråter, sjekker en del av meg om det er for mye.",
-      "suggestion": "[Selvbevissthet] Jeg merker den særlige ømheten i å bli beskyttet av klienten og et ønske om å berolige henne; jeg ville navngitt det inni meg før jeg bestemmer hva jeg skal dele."
+      "suggestion": "[Selvbevissthet] Jeg merker ømhet ved at hun vil beskytte meg, og et ønske om å berolige henne. Jeg kjenner igjen begge deler som mine reaksjoner, uten at hun trenger å ta vare på følelsene mine."
     },
     "dp_therapist-self-awareness_case-nina_06": {
       "text": "[Skeptisk] I familien min holder kvinnene alle samlet. Det er ikke bare en setning; det er sånn bursdager skjer, sånn syke mennesker blir tatt vare på, sånn barn vet hvor de hører til. Jeg er redd du ikke forstår hvorfor det føles galt å si nei. Det er lett å si grenser når du ikke må møte blikkene til alle etterpå.",
@@ -2228,7 +2228,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_therapist-self-awareness_case-nina_08": {
       "text": "[Skamfull] Jeg hater å trenge hjelp med skjemaer og penger. Jeg kan håndtere et klasserom fullt av barn, huske alles allergier, sende bursdagsgaver, og likevel stirre på ett offentlig skjema til jeg føler meg som et barn. Når jeg ber mannen min om hjelp, er han snill med det, og det gjør det nesten verre. Jeg føler at han ser hvor ute av stand jeg egentlig er.",
-      "suggestion": "[Selvbevissthet] Jeg merker en praktisk redningsimpuls og et ønske om å gjenreise verdigheten hennes; jeg ville fulgt trangen til å hjelpe med skjemaet heller enn følelsen."
+      "suggestion": "[Selvbevissthet] Jeg merker en trang til å hjelpe praktisk og et ønske om å gjenreise verdigheten hennes. Jeg legger merke til hvor raskt jeg vil løse problemet med skjemaet i stedet for å være oppmerksom på det jeg selv kjenner."
     },
     "dp_therapist-self-awareness_case-nina_09": {
       "text": "[Splittet] Jeg føler at jeg stjeler tid fra folk som trenger hjelp mer. Selv på venterommet så jeg på noen og tenkte: Hun har sikkert en ordentlig grunn til å være her. Jeg vet at du kommer til å si at jeg har lov til å komme, men jeg føler ikke at jeg har lov. Det føles som om jeg har sneket meg inn i en kø for folk med faktisk smerte.",
@@ -2236,7 +2236,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_therapist-self-awareness_case-nina_10": {
       "text": "[Lavmælt] Etter separasjonen setter jeg fortsatt frem en kopp til ham noen morgener. Det skjer før jeg tenker, som om hendene mine husker den gamle rutinen før hodet henger med. Så oppdager jeg det og føler meg dum, og setter den raskt tilbake før guttene ser det. Jeg vet ikke engang om jeg savner ham eller bare savner at livet ga mening.",
-      "suggestion": "[Selvbevissthet] Jeg merker tristhet og et ønske om å beskytte henne mot flauheten; hvis jeg valgte å dele noe, ville jeg bare delt tristheten."
+      "suggestion": "[Selvbevissthet] Jeg merker tristhet og et ønske om å beskytte henne mot flauheten. Jeg kan beholde begge deler for meg selv mens jeg lytter, uten at ubehaget mitt får meg til å skynde henne forbi det hun forteller."
     },
     "dp_therapist-self-awareness_case-aisha_01": {
       "text": "[Desperat] Du svarte ikke raskt da jeg sendte meldingen om å flytte timen, og jeg vet at du sikkert har regler for meldinger, men jeg følte meg forlatt. Så følte jeg meg dum for at det betydde så mye. Jeg sjekket telefonen hele tiden og sa til meg selv at jeg var patetisk. Da du svarte, ville jeg late som om jeg ikke brydde meg, men det gjorde jeg.",
@@ -2288,11 +2288,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_therapist-self-awareness_case-david_03": {
       "text": "[Kravstor] Jeg trenger effektive løsninger, ikke en langsom rundtur i følelsene mine. Jeg har et ekteskapsproblem, et omdømmeproblem og et tidsproblem. Hvis metoden er å sitte med ubehag til noe magisk skjer, er jeg skeptisk. Jeg er villig til å gjøre vanskelig arbeid, men jeg må se at du kan skille dybde fra ineffektivitet.",
-      "suggestion": "[Selvbevissthet] Jeg merker press om å få EFT til å høres effektivt og imponerende ut; jeg ville fulgt prestasjonskravet i meg og holdt all selvavsløring avgrenset."
+      "suggestion": "[Selvbevissthet] Jeg merker press om å få EFT til å høres effektivt og imponerende ut. Jeg stopper opp og legger merke til ønsket om å prestere, fremfor å handle på det for å bevise verdien av terapien eller meg selv."
     },
     "dp_therapist-self-awareness_case-david_04": {
       "text": "[Skeptisk] Har du egentlig nok erfaring med noen som meg, eller er dette bare standardterapi med bedre innpakning? Jeg prøver ikke å være vanskelig. Jeg har alvorlige ting på bordet, inkludert en affære og et ekteskap som kan kollapse. Jeg vil ikke være noens læringserfaring. Hvis du er ute på dypt vann, foretrekker jeg at du sier det.",
-      "suggestion": "[Selvbevissthet] Jeg merker forsvar, stolthet og uro for å bli vurdert; jeg ville roet meg litt før jeg deler noe, så jeg ikke gjør ham ansvarlig for min kompetanseuro."
+      "suggestion": "[Selvbevissthet] Jeg merker at jeg vil forsvare meg, stolthet og uro for å bli vurdert. Jeg kan beholde reaksjonene for meg selv og legge merke til pusten uten å gjøre ham ansvarlig for min uro om egen kompetanse."
     },
     "dp_therapist-self-awareness_case-david_05": {
       "text": "[Avvisende] Folk kaller meg narsissist fordi de er sjalu eller late med språket. Kona mi brukte det ordet i en krangel, og nå har det blitt en praktisk måte å avvise alt jeg sier på. Jeg vil at du sier tydelig at de tar feil, ikke gjør terapeutgreia der du later som du er nøytral mens du egentlig er enig med dem.",
@@ -2728,15 +2728,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-sara_03": {
       "text": "[På gråten] Når jeg tenker på de siste ukene, lurer jeg på om han hadde blitt hvis jeg hadde vært morsommere eller enklere.",
-      "suggestion": "Selvbebreidelse kan kjennes som kontroll når et brudd er hjelpeløst; den gir smerten et mål, selv om den vender seg mot deg."
+      "suggestion": "Når en du ønsket skulle bli, har gått, er det forståelig å lete etter hva du kunne gjort annerledes. Det er plass til smerten uten at alt må være din skyld."
     },
     "dp_empathic-affirmation-validation_case-sara_04": {
       "text": "[Lavmælt] Om natten blir det for stille, og jeg begynner å kjenne det som om jeg aldri egentlig var ønsket.",
-      "suggestion": "I nattestillheten får den gamle følelsen av å ikke være ønsket mye plass; ensomheten kan høres veldig overbevisende ut der."
+      "suggestion": "Når du har mistet en som betydde mye, kan en stille kveld vekke en vond ensomhet. At du føler deg uønsket da, gjør ikke behovet for selskap urimelig."
     },
     "dp_empathic-affirmation-validation_case-sara_05": {
       "text": "[Sint, så flau] En venninne sa at jeg måtte slutte å sjekke telefonen, og jeg freste til henne.",
-      "suggestion": "Ikke rart det traff et rått punkt; hun snakket om telefonen som en vane, mens den for deg fortsatt bar håp."
+      "suggestion": "Det kan gjøre vondt å få beskjed om å slutte når du fortsatt strever med tapet. Det er plass til sinnet ditt, samtidig som det betyr noe hvordan du snakker til venninnen din."
     },
     "dp_empathic-affirmation-validation_case-sara_06": {
       "text": "[På gråten] Når jeg våkner, glemmer jeg det et sekund og så smeller det.",
@@ -2744,7 +2744,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-sara_07": {
       "text": "[På gråten] Jeg beklager når jeg begynner å gråte, som om sorgen min tar for mye plass.",
-      "suggestion": "Hvis du har lært å passe på hvor mye plass sorgen tar, kan det å beklage tårene kjennes beskyttende; sorgen hører likevel hjemme her."
+      "suggestion": "Du sørger over en som var viktig, og det er forståelig at tårene kommer. Sorgen din kan få plass her. Du trenger ikke beklage at du kjenner den."
     },
     "dp_empathic-affirmation-validation_case-sara_08": {
       "text": "[Flau] Jeg får dårlig samvittighet for å være så lei meg når dette bare er et brudd og andre har større problemer.",
@@ -2756,79 +2756,79 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-sara_10": {
       "text": "[Lavmælt] Etter dette bruddet tenker en del av meg at kjærlighet må være for andre, ikke for meg.",
-      "suggestion": "Etter å ha blitt forlatt kan kjærlighet begynne å se ut som noe som er for andre; den tanken vokser ut av en veldig ensom smerte."
+      "suggestion": "Å bli forlatt kan gjøre det vondt å se for seg å stole på kjærligheten igjen. Smerten er forståelig. Det er plass til den uten at tanken må bli en dom over fremtiden din."
     },
     "dp_empathic-affirmation-validation_case-michael_01": {
       "text": "[Skyldpreget] Jeg traff en syklist med bilen forrige uke. Veien var glatt, men han brakk likevel håndleddet, og jeg klarer ikke slutte å kjenne skyld.",
-      "suggestion": "Skylden hører sammen med alvoret i det som skjedde: selv uten hensikt registrerer samvittigheten din at noen ble skadet."
+      "suggestion": "Noen ble skadet i en ulykke du var involvert i, så skyldfølelsen er forståelig. Vi kan ta den på alvor uten å bruke følelsen alene til å avgjøre hvor stort ansvaret ditt var."
     },
     "dp_empathic-affirmation-validation_case-michael_02": {
       "text": "[Defensiv] I møter føler jeg meg avslørt hvis jeg ikke har svaret, og da bløffer jeg.",
-      "suggestion": "Når det å ikke vite har blitt behandlet som en feil, blir bløffingen et skjold mot ydmykelse."
+      "suggestion": "Å ikke ha et svar foran teamet kan kjennes sårbart, særlig når du vil bli sett som kompetent. Ubehaget er forståelig. Du trenger ikke late som du vet for å ha plass til det."
     },
     "dp_empathic-affirmation-validation_case-michael_03": {
       "text": "[Anspent] Når jeg beklager, kjennes det som å knele foran noen som kommer til å bruke det mot meg.",
-      "suggestion": "Hvis en beklagelse har kjentes som overgivelse, vil kroppen spenne seg før den tilbyr den; reparasjon kan kjennes utrygt når noen kan bruke det til å vinne."
+      "suggestion": "Hvis en unnskyldning kjennes som noe som kan brukes mot deg, er det forståelig å være på vakt. Det er plass til frykten samtidig som du tar ansvar for din del."
     },
     "dp_empathic-affirmation-validation_case-michael_04": {
       "text": "[Fast] Hjemme, når kona mi sukker eller himler med øynene, eksploderer jeg før jeg rekker å tenke.",
-      "suggestion": "Et sukk eller et blikk kan treffe den gamle ydmykelsen raskt; ikke rart systemet ditt forsvarer verdighet før du rekker å tenke."
+      "suggestion": "Et sukk eller himling med øynene kan gjøre vondt når du opplever det som avvisning. Smerten og sinnet er forståelige. De unnskylder ikke at du skremmer kona di eller kjefter på henne."
     },
     "dp_empathic-affirmation-validation_case-michael_05": {
       "text": "[Rasende] Når jeg ser på nyhetene, blir jeg så sint på folk med makt som later som konsekvenser er valgfritt.",
-      "suggestion": "Det sinnet har en tydelig moralsk ladning: når mektige folk slipper unna konsekvenser, treffer det intoleransen din for urettferdighet og ansvarsløshet."
+      "suggestion": "Å se folk med makt slippe unna konsekvenser kan forståelig nok gjøre deg sint når rettferdighet betyr noe for deg. Det du reagerer på, fortjener å bli tatt på alvor."
     },
     "dp_empathic-affirmation-validation_case-michael_06": {
       "text": "[Skamfull] Når barnet mitt spør hvorfor jeg er sint, føler jeg meg som verdens verste far.",
-      "suggestion": "Skammen viser hvor mye det betyr for deg å være en trygg far; spørsmålet hans treffer avstanden mellom faren du vil være og det sinnet gjør."
+      "suggestion": "Spørsmålet fra barnet ditt gjør vondt fordi det betyr noe for deg å være en trygg far. Smerten er forståelig. Å ta ansvar for sinnet betyr ikke at du må dømme deg selv som den verste faren."
     },
     "dp_empathic-affirmation-validation_case-michael_07": {
       "text": "[Fast] Å smelle med døra føles fælt etterpå, men i øyeblikket slipper jeg å føle meg liten.",
-      "suggestion": "I øyeblikket kan dørsmellingen kjennes beskyttende mot å føle seg liten; etterpå blir lettelsen vond fordi det ikke er sånn du vil beskytte deg."
+      "suggestion": "Å føle seg liten kan gjøre vondt, og det er forståelig å ønske å komme bort fra den følelsen. Vi kan ta smerten på alvor uten at dørsmelling trenger å bli svaret på den."
     },
     "dp_empathic-affirmation-validation_case-michael_08": {
       "text": "[Defensiv] Hvis noen utfordrer meg foran teamet, dobler jeg innsatsen selv om jeg tar feil.",
-      "suggestion": "Å bli utfordret foran andre kan kjennes som å bli satt ned i rang; å stå hardere på sitt beskytter verdigheten før det er rom for å ta feil."
+      "suggestion": "Å bli utfordret foran teamet kan kjennes pinlig når det betyr noe for deg å ha god dømmekraft. Ubehaget er forståelig, også når den andre har et godt poeng."
     },
     "dp_empathic-affirmation-validation_case-michael_09": {
       "text": "[Skamfull] Jeg hater at jeg trenger hjelp med sinne; det får meg til å føle meg svak.",
-      "suggestion": "Hvis hjelp har betydd svakhet i din verden, kan selv det å be om den kjennes som å stå blottstilt; skammen henger fast i den gamle regelen."
+      "suggestion": "Hvis du har lært at det er svakt å trenge hjelp, kan det kjennes sårbart å be om den. Skammen er forståelig. Å trenge støtte gjør deg ikke mindre verdt å respektere."
     },
     "dp_empathic-affirmation-validation_case-michael_10": {
       "text": "[Skamfull] Etter at jeg eksploderer hjemme, ligger jeg våken og ser ansiktene deres for meg mens jeg hater meg selv.",
-      "suggestion": "Ikke rart gjentakelsen får kraft; ansiktene deres betyr noe for deg, og skammen presser på den delen av deg som vil at de skal kjenne seg trygge."
+      "suggestion": "Å se at familien ble redd kan vekke vond anger, særlig når tryggheten deres betyr noe for deg. Smerten fortjener plass sammen med ansvaret for det som skjedde, fremfor bare å angripe deg selv."
     },
     "dp_empathic-affirmation-validation_case-jason_01": {
       "text": "[Skjelvende] Hver presentasjon på jobb får hendene mine til å skjelve, og etterpå føler jeg meg patetisk for at jeg bryr meg så mye.",
-      "suggestion": "Under andres blikk prøver et engstelig system å komme seg gjennom eksponeringen; skjelvingen er ikke bevis på at det er patetisk å bry seg."
+      "suggestion": "Å snakke mens andre ser på kan være skremmende når det betyr så mye hvordan de vurderer deg. Det er forståelig at du blir engstelig. At du skjelver, gjør deg ikke patetisk for å bry deg."
     },
     "dp_empathic-affirmation-validation_case-jason_02": {
       "text": "[Nølende] Jeg holder blikket på gulvet så ingen får en grunn til å se på meg.",
-      "suggestion": "Å holde blikket nede har beskyttet deg mot å bli plukket ut; synlighet har kjentes risikabelt før det har kjentes forbindende."
+      "suggestion": "Det er forståelig at det kjennes risikabelt å bli sett når du forventer at folk skal le av deg. Det er plass til frykten uten å dømme deg for å se ned."
     },
     "dp_empathic-affirmation-validation_case-jason_03": {
       "text": "[Engstelig] På teamlunsjer later jeg som jeg tekster så jeg har et sted å gjemme meg under småprat.",
-      "suggestion": "Telefonen gir deg et lite skjulested i småpraten; å gjemme seg der er en måte å overleve mulig vurdering på, ikke en karakterfeil."
+      "suggestion": "Småprat kan kjennes sårbart når du er redd for å bli vurdert. Det er forståelig å ønske litt lettelse fra angsten. Den gjør deg ikke til et menneske det er noe galt med."
     },
     "dp_empathic-affirmation-validation_case-jason_04": {
       "text": "[Stille] Når folk ler høflig etter at jeg har sagt noe, antar jeg at de prøver å komme seg unna meg.",
-      "suggestion": "Høflig latter er uklar nok til at skammen fyller inn den verste betydningen; tankene dine prøver å beskytte deg mot avvisning."
+      "suggestion": "Å ikke vite hva latteren betyr kan være ubehagelig når du er redd for å være uønsket. Bekymringen er forståelig, selv om latteren ikke sier sikkert hva de tenker."
     },
     "dp_empathic-affirmation-validation_case-jason_05": {
       "text": "[Nølende] Komplimenter preller av; en del av meg vil tro på dem, men den mistenksomme delen vinner.",
-      "suggestion": "Når selvangrepet har fått mange års øvelse, kan ros kjennes mistenkelig før den kan kjennes nærende; den mistenksomme delen prøver å hindre en ny skuffelse."
+      "suggestion": "Det kan være vanskelig å stole på ros når du er så vant til å finne feil ved deg selv. Nølingen er forståelig, selv om du ønsker å tro på komplimentet."
     },
     "dp_empathic-affirmation-validation_case-jason_06": {
       "text": "[Stille og skamfull] Etter at jeg har snakket i en gruppe, spiller jeg av hver setning og skammer meg for å høres klein ut.",
-      "suggestion": "Gjennomgangen er et hardt forsøk på å hindre framtidig pinlighet; den passer med en verden der tilhørighet har kjentes skjør."
+      "suggestion": "Å snakke i en gruppe kan kjennes sårbart når det betyr så mye å høre til. Det er forståelig å bli usikker på seg selv etterpå. Du fortjener ikke å bli angrepet for å prøve å delta."
     },
     "dp_empathic-affirmation-validation_case-jason_07": {
       "text": "[Stille og skamfull] Jeg droppet enda en lunsj med teamet, og etterpå følte jeg meg patetisk som gjemte meg i leiligheten.",
-      "suggestion": "Å droppe lunsjen kan kjennes beskyttende der og da, og skammen etterpå viser den andre sannheten: du vil fortsatt høre til."
+      "suggestion": "Når det er skremmende å være med andre, er det forståelig å ville bli hjemme. Det er plass til skuffelsen over å gå glipp av noe også. Ingen av følelsene gjør deg patetisk."
     },
     "dp_empathic-affirmation-validation_case-jason_08": {
       "text": "[Nølende] Jeg skanner hvert rom etter hvem som får til mer enn meg, og så føler jeg meg defekt.",
-      "suggestion": "Det er forståelig at du skanner rommet når tankene prøver å finne faren og plassen din; skammen gjør skanningen til en dom mot deg."
+      "suggestion": "Å sammenligne seg med alle i rommet kan gjøre vondt når du allerede tviler på om du hører til. Smerten er forståelig. Den er ikke et bevis på at det er noe galt med deg."
     },
     "dp_empathic-affirmation-validation_case-jason_09": {
       "text": "[Nervøs, nesten smilende] Noen inviterte meg på spillkveld, og jeg hadde lyst til å gå i omtrent ti sekunder før panikken tok over.",
@@ -2836,19 +2836,19 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-jason_10": {
       "text": "[Stille] Noen netter ligger jeg der og er sikker på at jeg alltid kommer til å være alene fordi jeg er for klein til å elskes.",
-      "suggestion": "Ikke rart nettene blir tunge; skammen kan få ensomheten til å høres permanent ut når frykten får så mye rom."
+      "suggestion": "Å lengte etter selskap og samtidig frykte at du alltid vil være alene, kan gjøre nettene vonde. Ensomheten fortjener omsorg, fremfor å bli behandlet som et bevis på at du ikke kan bli elsket."
     },
     "dp_empathic-affirmation-validation_case-laura_01": {
       "text": "[Flat og skamfull] På fridager kan jeg bli liggende til tolv, ikke egentlig sovende, bare ute av stand til å komme i gang. Så sier jeg til meg selv at jeg er lat, fordi andre mennesker klarer normale morgener.",
-      "suggestion": "Etter mange år på vakt kan senga bli det ene stedet uten krav; det handler om utmattelse og beskyttelse, ikke latskap."
+      "suggestion": "Når det kjennes for mye bare å begynne dagen, kan det være en kamp å komme seg ut av senga. Det strevet fortjener omsorg. Å sammenligne seg med andres morgener gjør deg ikke lat."
     },
     "dp_empathic-affirmation-validation_case-laura_02": {
       "text": "[Redd] Hvis stemmer heves, synker magen og jeg forsvinner et annet sted i hodet.",
-      "suggestion": "Hevede stemmer kan kjennes som fare raskt nok til å sende deg bort i hodet; det å forsvinne hjalp deg en gang å overleve."
+      "suggestion": "Med det hevede stemmer har betydd i livet ditt, er det forståelig at de skremmer deg. At du føler deg langt borte da, fortjener oppmerksomhet uten at du får skylden for det."
     },
     "dp_empathic-affirmation-validation_case-laura_03": {
       "text": "[På vakt og forvirret] En mann på jobben spurte om jeg ville ta en kaffe, og jeg ble bitte litt glad før jeg ble helt nummen. Jeg sier til meg selv at det er latterlig i min alder.",
-      "suggestion": "Begge reaksjonene passer med det nærhet har betydd: den lille varmen ved å være ønsket, og den numne beskyttelsen som kommer når nærhet begynner å kjennes mulig."
+      "suggestion": "Det kan være forståelig både å ønske selskap og å bli urolig for nærhet etter det du har opplevd. Verken gleden eller nummenheten etterpå blir latterlig på grunn av alderen din."
     },
     "dp_empathic-affirmation-validation_case-laura_04": {
       "text": "[Flatt og på vakt] Jeg tar lange dusjer fordi varmt vann kjennes tryggere enn å be noen om trøst.",
@@ -2860,11 +2860,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-laura_06": {
       "text": "[Anspent og på vakt] Berøring skremmer meg, selv når den er vennlig, og etterpå føler jeg meg ødelagt for å reagere sånn.",
-      "suggestion": "At skvettenheten kommer før du rekker å velge, passer med et system som lærte å reagere først; det betyr ikke at du er ødelagt."
+      "suggestion": "Når berøring ikke alltid har vært trygg, er det forståelig å skvette, også når denne personen mener det godt. Reaksjonen fortjener omsorg fremfor en dom om at du er ødelagt."
     },
     "dp_empathic-affirmation-validation_case-laura_07": {
       "text": "[Redd] Når tristheten presser seg fram, blir jeg redd for at jeg ikke kommer tilbake fra den.",
-      "suggestion": "Når sterke følelser en gang kom uten trøst, kan tristheten kjennes som noe som kan sluke deg."
+      "suggestion": "Hvis tristheten kjennes som noe du kanskje ikke kommer tilbake fra, er frykten forståelig. Det er plass til den også. Du trenger ikke avfeie frykten for å kjenne at du er trist."
     },
     "dp_empathic-affirmation-validation_case-laura_08": {
       "text": "[Fjern] Jeg beklager med en gang jeg trenger trøst, som om det allerede er for mye å ønske det.",
@@ -2880,39 +2880,39 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-carlos_01": {
       "text": "[Anspent og sint] Å se nyheter om familier som min bli behandlet som trusler gjør meg så sint at jeg nesten ikke klarer å sitte stille.",
-      "suggestion": "Sinnet passer med verdighet, familie og den gamle frykten for å bli behandlet som mindreverdig."
+      "suggestion": "Å se familier som din bli behandlet som trusler kan gjøre sterkt inntrykk. Det er forståelig at du blir sint når verdigheten og tryggheten deres blir behandlet så skjødesløst."
     },
     "dp_empathic-affirmation-validation_case-carlos_02": {
       "text": "[Anspent] Hvis jeg ikke kommer inn sterkt, ser jeg for meg at folk får øye på den redde gutten jeg var, og det føles ydmykende før noen egentlig har gjort noe.",
-      "suggestion": "Det å komme inn sterkt har beskyttet den redde delen du lærte å skjule; det høres også utmattende ut å holde rustningen oppe."
+      "suggestion": "Hvis det er ydmykende å bli sett som redd, er det forståelig å grue seg til å bli sett slik. Den redde siden av deg fortjener også respekt, uten å måtte bevise styrke."
     },
     "dp_empathic-affirmation-validation_case-carlos_03": {
       "text": "[Skamfull] På kampen til barnet mitt ropte jeg til dommeren, og etterpå ville ikke sønnen min se på meg. Jeg sier til meg selv at jeg blir akkurat det jeg hatet.",
-      "suggestion": "Skammen er der fordi blikket hans betyr noe for deg; ropingen krever ansvar, og smerten etterpå viser hvor dypt du ønsker å være annerledes."
+      "suggestion": "Å se sønnen din trekke seg unna kan gjøre dypt vondt når du vil være en annerledes far. Smerten er forståelig. Å erkjenne den går sammen med å ta ansvar for ropingen."
     },
     "dp_empathic-affirmation-validation_case-carlos_04": {
       "text": "[Defensiv] Når noen stiller spørsmål ved meg, føler jeg meg liten, og så hever jeg stemmen mer enn jeg mente.",
-      "suggestion": "At sinnet rykker inn, passer med hvor fort spørsmål treffer den gamle følelsen av å bli gjort liten."
+      "suggestion": "Å føle seg liten når noen utfordrer deg kan gjøre vondt. Smerten fortjener plass, samtidig som du har ansvar for hvor høyt eller skarpt du svarer."
     },
     "dp_empathic-affirmation-validation_case-carlos_05": {
       "text": "[Sint og skamfull] Når nevene knyter seg, føles det som om kampen allerede er på vei, og så hater jeg meg selv for å ligne alle mennene jeg lovet at jeg aldri skulle bli.",
-      "suggestion": "Måten nevene knyter seg på, passer med gammel overlevelseslæring og skam i nåtid samtidig; kamp var noe kroppen lærte for å holde deg i live."
+      "suggestion": "Det er forståelig at det gjør vondt å se deg selv reagere slik du lovet at du ikke skulle. Vi kan ta skammen på alvor uten å unnskylde skremmende atferd eller dømme hele deg."
     },
     "dp_empathic-affirmation-validation_case-carlos_06": {
       "text": "[Skamfull] Jeg ødelegger ting og angrer etterpå når jeg ser hvor redde alle ser ut.",
-      "suggestion": "Angeren viser hvor mye det å beskytte familien er en del av hvem du vil være."
+      "suggestion": "Å se familien din redd kan vekke vond anger fordi tryggheten deres betyr noe for deg. Angeren fortjener plass, og den tar ikke bort ansvaret ditt for å ødelegge ting."
     },
     "dp_empathic-affirmation-validation_case-carlos_07": {
       "text": "[Skamfull] Kollegaene holder avstand etter at jeg eksploderer, og jeg kjenner skam selv om jeg later som jeg ikke bryr meg.",
-      "suggestion": "Skam og forsvar kan bli viklet sammen: en del av deg blir såret av avstanden, mens en annen del prøver å skjule det."
+      "suggestion": "Det kan gjøre vondt at kollegaene holder avstand, særlig når du skammer deg over det som skjedde. Skammen er forståelig. Å ta ansvar krever ikke at du later som du ikke bryr deg."
     },
     "dp_empathic-affirmation-validation_case-carlos_08": {
       "text": "[Splittet] Jeg går ut av rommet for å ikke eksplodere, men så hører jeg stemmen til faren min si at det er svakt.",
-      "suggestion": "Det å gå ut passer med å beskytte familien mot eksplosjonen, samtidig som det kolliderer med den gamle regelen om at det er svakt å trekke seg."
+      "suggestion": "Å trekke seg unna kan være vanskelig når du hører farens dom om svakhet. Den konflikten er forståelig. Følelsen tar ikke bort at du valgte å holde andre trygge."
     },
     "dp_empathic-affirmation-validation_case-carlos_09": {
       "text": "[Mistenksom] Ro kjennes mistenkelig, som om noen legger opp til at jeg skal bli tråkket på.",
-      "suggestion": "Ro kan kjennes blottstillende etter at du lærte å forvente å bli tråkket på; mistanken har hatt en jobb lenge."
+      "suggestion": "Hvis ro kjennes som et øyeblikk der noen kan utnytte deg, er det forståelig å være på vakt. Vi kan respektere frykten uten å slå fast at noen faktisk prøver å lure deg."
     },
     "dp_empathic-affirmation-validation_case-carlos_10": {
       "text": "[Sårbar] Sønnen min sovnet mot meg i sofaen, og jeg kjente stolthet, redsel og sorg på en gang, fordi jeg vil at han skal føle seg trygg med meg på en måte jeg aldri gjorde.",
@@ -2920,19 +2920,19 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-nina_01": {
       "text": "[Sliten] Hvis jeg setter meg ned før alt er gjort, begynner skyldfølelsen å ramse opp hva jeg burde gjøre.",
-      "suggestion": "Den skyldfølelsen hører til den gamle regelen om at verdien din måtte fortjenes gjennom nytte."
+      "suggestion": "Når så mye kreves av deg, er det forståelig at det å stoppe kan vekke skyld så vel som lettelse. Du har lov til å trenge hvile selv om noe fortsatt er ugjort."
     },
     "dp_empathic-affirmation-validation_case-nina_02": {
       "text": "[Unnskyldende] Kirken spurte om jeg kunne ta med mat til enda et arrangement, og jeg sa at jeg ikke kunne. Jeg lå våken hele kvelden og følte at jeg hadde mislyktes i å være raus.",
-      "suggestion": "Dette ene nei-et kan kjennes moralsk tungt når raushet og det å være god har vært bundet sammen så lenge."
+      "suggestion": "Når raushet betyr noe for deg, kan et nei vekke skyld. Følelsen er forståelig. Å ha en grense betyr ikke at du har sluttet å bry deg om menneskene i menigheten."
     },
     "dp_empathic-affirmation-validation_case-nina_03": {
       "text": "[Trist og skyldpreget] Mannen min laget middag uten at jeg spurte, og i stedet for bare å føle meg tatt vare på begynte jeg å gråte og så beklaget jeg at jeg gjorde det rart.",
-      "suggestion": "Det å bli tatt vare på kan kjennes som om det berører både en dyp lengsel og en dyp alarm samtidig etter å ha båret omsorgen alene så lenge."
+      "suggestion": "Å bli tatt vare på kan berøre når du så ofte er den som tar vare på andre. Det er forståelig at tårene kom. Du ødela ikke gesten ved å bli berørt av den."
     },
     "dp_empathic-affirmation-validation_case-nina_04": {
       "text": "[Skyldpreget] Når sinnet kommer, hører jeg straks at jeg er egoistisk og får skyldfølelse.",
-      "suggestion": "Skyld kan stå klar rett etter sinne når du lærte at andres behov måtte komme først."
+      "suggestion": "Når du er vant til å sette andre først, kan ditt eget sinne være ubehagelig. Det er forståelig at du også har behov og grenser. Sinne i seg selv gjør deg ikke egoistisk."
     },
     "dp_empathic-affirmation-validation_case-nina_05": {
       "text": "[Unnskyldende] Når jeg ber om hjelp, føler jeg meg som en byrde før noen engang svarer.",
@@ -2940,19 +2940,19 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-nina_06": {
       "text": "[Skyldpreget] En rotete kjøkkenbenk kan få meg til å føle at jeg har mislyktes som person.",
-      "suggestion": "Når omsorg og prestasjon ble vevd sammen, kan selv rot kjennes som skam over hvem du er."
+      "suggestion": "Når du krever så mye av deg selv, kan en ugjort oppgave vekke vond skuffelse. Det er plass til følelsen uten at en rotete benk må bli en dom over verdien din."
     },
     "dp_empathic-affirmation-validation_case-nina_07": {
       "text": "[Sliten] Jeg sier til meg selv at andre mødre har det vanskeligere, så jeg burde være takknemlig i stedet for bitter.",
-      "suggestion": "Den sammenligningen kan ligne en gammel måte å tie din egen smerte på, mens bitterheten fortsatt kan være et gyldig signal om at du bærer for mye."
+      "suggestion": "Andre mødre kan ha det vanskelig, og du kan likevel bli utslitt av det som kreves av deg. Frustrasjonen er forståelig. Takknemlighet trenger ikke oppheve den."
     },
     "dp_empathic-affirmation-validation_case-nina_08": {
       "text": "[Unnskyldende] Jeg jobber meg gjennom sykdom, kollapser og får skyldfølelse for å kollapse.",
-      "suggestion": "Å presse seg gjennom passer med regelen om at hvile er forbudt; selv kollapsen blir dømt av den regelen."
+      "suggestion": "Når du er syk, kan det være vanskelig å fortsette med alt, så det er forståelig å trenge hvile. Utmattelsen fortjener omsorg. Den er ikke enda en feil du må beklage."
     },
     "dp_empathic-affirmation-validation_case-nina_09": {
       "text": "[Panisk] Hvis noen virker skuffet, får jeg panikk som om jeg har ødelagt forholdet.",
-      "suggestion": "Skuffelse kan kjennes skremmende når kjærlighet har virket knyttet til å holde folk fornøyde."
+      "suggestion": "Når et forhold betyr så mye, kan tanken på å skuffe noen være skremmende. Frykten er forståelig, selv om skuffelsen deres ikke nødvendigvis betyr at forholdet er ødelagt."
     },
     "dp_empathic-affirmation-validation_case-nina_10": {
       "text": "[Splittet] Sønnen min snakker om å verve seg, og jeg blir stolt av ham og livredd, og så får jeg skyldfølelse fordi en god mor burde være modigere.",
@@ -2960,7 +2960,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-aisha_01": {
       "text": "[Panisk] Jeg fulgte med på døra mesteparten av timen for å være sikker på at du ikke drar. Hver gang det ble stille i gangen, tenkte jeg at nå bestemmer du deg kanskje for at jeg er for mye og går.",
-      "suggestion": "Å holde døra i sikte passer med så mange brå avslutninger; det beskytter mot å bli forlatt igjen, og behovet for trygghet er helt reelt."
+      "suggestion": "Etter så mange brå avslutninger er det forståelig å frykte å bli forlatt igjen. Frykten fortjener omsorg. Du trenger ikke avfeie den fordi den viser seg her også."
     },
     "dp_empathic-affirmation-validation_case-aisha_02": {
       "text": "[Splittet] Jeg rev i stykker bilder etter bruddet og følte meg sterk i kanskje ett minutt, som om jeg kunne slette ham først. Så lå gulvet fullt av biter, og jeg kjente meg tom og skamfull.",
@@ -2968,15 +2968,15 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-aisha_03": {
       "text": "[Panisk] Noen ganger blir panikken så høy at jeg vil krype ut av huden min. Jeg går fram og tilbake, klorer på genserermene og finner ikke noe sted inni meg som kjennes trygt å bli værende i.",
-      "suggestion": "Trangen til å komme ut av egen hud passer med at panikken tar over hele innsiden; det er et forsøk på å overleve intensiteten."
+      "suggestion": "Når panikken kjennes så uutholdelig, er det forståelig å ønske lettelse. Smerten fortjener omsorg. Du trenger ikke avfeie den eller bevise hvor sterk den er."
     },
     "dp_empathic-affirmation-validation_case-aisha_04": {
       "text": "[Panisk] Når du noterer, tenker jeg at du skriver bevis på at jeg er ustabil eller altfor dramatisk. Jeg vet at det kanskje ikke er rettferdig, men kroppen min vil løpe før du er ferdig med setningen.",
-      "suggestion": "Notater kan kjennes som å bli dømt, fanget eller misforstått når andres versjoner av deg så ofte har kjentes farlige."
+      "suggestion": "Å føle at du kan bli dømt eller feil fremstilt kan være skremmende. Frykten er forståelig og fortjener å bli hørt, uten at vi dermed vet hva som står i notatene."
     },
     "dp_empathic-affirmation-validation_case-aisha_05": {
       "text": "[Desperat] Jeg sender tjue meldinger fordi jeg trenger dem nær, og så blokkerer jeg dem før de kan gå. Etterpå hater jeg hvor trengende det ser ut, men i øyeblikket kjennes stillhet som å bli visket ut.",
-      "suggestion": "Meldingene passer med å strekke seg etter kontakt når stillheten blir uutholdelig, og blokkeringen prøver å beskytte deg mot å vente på å bli forlatt."
+      "suggestion": "Når stillhet kjennes som å bli visket ut, er det forståelig å ønske kontakt. Smerten og behovet fortjener omsorg, uten at en annen må være tilgjengelig hele tiden."
     },
     "dp_empathic-affirmation-validation_case-aisha_06": {
       "text": "[Redd og skamfull] Jeg vet at det ble gjort mot meg, men jeg føler meg fortsatt skitten i min egen hud. Noen ganger dusjer jeg og kjenner likevel at det er noe galt med meg fordi jeg var der.",
@@ -2988,27 +2988,27 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-aisha_08": {
       "text": "[Rasende] Hvis du ser bort et sekund, føler jeg meg visket ut og blir rasende. Jeg vet at det er ett sekund, men inni meg kjennes det som om jeg forsvinner fra rommet og må kjempe meg tilbake.",
-      "suggestion": "Et lite skifte kan kjennes som bevis på å forsvinne fra noens bevissthet, og sinnet prøver raskt å gjenopprette kontakt og betydning."
+      "suggestion": "Å føle at du har forsvunnet fra oppmerksomheten min gjør vondt, selv om jeg bare så bort et øyeblikk. Det er forståelig at du blir såret og sint. Det er plass til følelsene her."
     },
     "dp_empathic-affirmation-validation_case-aisha_09": {
       "text": "[Skamfull] Jeg hører en stemme som sier at jeg er søppel og umulig å elske, og en del av meg tror på den. Den blir høyest etter at jeg har trengt noen, som om behovet i seg selv beviser at stemmen har rett.",
-      "suggestion": "Den grusomme stemmen kan høres overbevisende ut etter at svik har gitt den så mye stoff, særlig rundt det menneskelige behovet for nærhet."
+      "suggestion": "Å trenge nærhet er menneskelig, og det er forståelig at det gjør vondt å bli angrepet for det behovet. De harde ordene avgjør ikke hva du er verdt."
     },
     "dp_empathic-affirmation-validation_case-aisha_10": {
       "text": "[Desperat] Jeg stirrer på klokka for å være sikker på at du ikke avslutter tidlig. De siste fem minuttene strammer brystet seg fordi jeg allerede prøver å overleve at du går.",
-      "suggestion": "Å følge med på klokka passer med å forberede deg på enda en avslutning før den kommer brått; frykten for å bli forlatt er allerede i rommet."
+      "suggestion": "Når avslutninger har vært så skremmende, er det forståelig at de siste minuttene vekker frykt. Smerten fortjener plass, samtidig som timen fortsatt har en avtalt slutt."
     },
     "dp_empathic-affirmation-validation_case-david_01": {
       "text": "[Kontrollert] Når kona mi tar opp følelser, føler jeg meg trengt opp i et hjørne og vil heller argumentere med fakta. Hvis jeg blir værende i det følelsesmessige, begynner det å høres ut som en rettssak jeg allerede har tapt.",
-      "suggestion": "Fakta kan kjennes som et sted å stå når følelser kommer som anklager; følelsen av å være presset opp i et hjørne er noe av grunnen til at argumentasjonen tar over så raskt."
+      "suggestion": "Hvis samtalen kjennes som en rettssak du allerede har tapt, er det forståelig å føle seg presset opp i et hjørne. Ubehaget kan bli hørt uten at konas følelser må være en anklage."
     },
     "dp_empathic-affirmation-validation_case-david_02": {
       "text": "[Rasende] Etter at jeg skremte kona mi, var jeg fortsatt rasende på henne for at hun presset meg, og så kom skammen fordi jeg vet hvordan det høres ut. Jeg hater å innrømme den delen, for jeg vet at frykten hennes er ekte.",
-      "suggestion": "Det er legitimt å sette ord på denne smertefulle blandingen: raseriet var virkelig der, og frykten du skapte betyr virkelig noe også. Validering kan romme begge deler uten å unnskylde skade."
+      "suggestion": "Å føle seg presset i en krangel kan vekke sinne, og det er forståelig at det er skamfullt å innrømme det. Sinnet kan bli hørt uten å gi kona skylden for det eller unnskylde at du skremte henne."
     },
     "dp_empathic-affirmation-validation_case-david_03": {
       "text": "[Skamfull] Jeg sammenligner meg med andre fedre og føler meg som en bløff. De virker avslappet på skolearrangementer, og jeg står der og spiller kompetent mens jeg lurer på når noen gjennomskuer meg.",
-      "suggestion": "Sammenligning kan kjennes skamvekkende når farsrollen blir enda en prestasjonstest akkurat der du mest trenger å føle deg solid og ekte."
+      "suggestion": "Når det betyr noe for deg å være en god far, kan sammenligninger vekke vond tvil på deg selv. Usikkerheten er forståelig. At du kjenner den, betyr ikke at du lurer alle rundt deg."
     },
     "dp_empathic-affirmation-validation_case-david_04": {
       "text": "[Skamfull] Når jeg beklager, kjennes det som å gi noen bevis på at jeg er liten. Jeg kan vite at jeg skylder en unnskyldning og likevel kjenne ansiktet brenne, som om jeg har gitt bort den siste grunnen jeg hadde å stå på.",
@@ -3016,7 +3016,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-david_05": {
       "text": "[Avvisende] Jeg planlegger perfekte ferier så vi ser bra ut utenfra. Hvis bildene ser lykkelige nok ut, ser kanskje ingen hvor anspent middagen var eller hvor lite jeg vet hva jeg skal gjøre hjemme.",
-      "suggestion": "Den polerte utsiden har beskyttet mot å bli avslørt, og den lar deg også bære den private spenningen alene etter at alle har beundret bildet."
+      "suggestion": "Det kan gjøre vondt å ha det anspent hjemme uten at noen ser det i de glade bildene. Det er lov å ønske at strevet blir forstått. Her trenger ikke alt å se perfekt ut."
     },
     "dp_empathic-affirmation-validation_case-david_06": {
       "text": "[Redd] Tanken på å være ordinær skremmer meg, som om jeg forsvinner hvis jeg slutter å imponere. Jeg vet ikke hvem jeg er uten at noen må beundre resultatet.",
@@ -3024,23 +3024,23 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-david_07": {
       "text": "[Skamfull] Jeg sier at det går fint mens jeg føler meg tom, fordi det kjennes ydmykende å innrømme tomheten. Jeg kan lede et møte og håndtere press, men å si at jeg føler meg tom får meg til å føle meg patetisk.",
-      "suggestion": "Tomheten truer det kompetente bildet som har beskyttet deg, så å dekke den til forsvarer mot ydmykelse."
+      "suggestion": "Når du er vant til å vise at du mestrer ting, kan det kjennes sårbart å fortelle om tomhet. Ubehaget er forståelig. Tomheten fortjener oppmerksomhet fremfor forakt."
     },
     "dp_empathic-affirmation-validation_case-david_08": {
       "text": "[Avvisende] Jeg skryter for å få respekt, og så sitter jeg alene og føler meg tommere enn før. Rommet reagerer slik jeg ville, og av en eller annen grunn gjør det det verre når jeg er for meg selv.",
-      "suggestion": "Skrytet kan ligne et forsøk på å få respekt, og tomheten etterpå viser hvordan beundring kan stabilisere verdien et øyeblikk uten å berøre ensomheten."
+      "suggestion": "Det kan være vondt og skuffende å få beundringen du ønsket og fortsatt kjenne deg tom. Følelsen fortjener plass. Andres anerkjennelse betyr ikke at du må kjenne deg tilfreds inni deg."
     },
     "dp_empathic-affirmation-validation_case-david_09": {
       "text": "[Såret, men skarp] Jeg føler fortsatt at faren min sitter et sted og setter karakter på meg. Jeg kan være på mitt eget kontor, med min egen familie, og likevel høre karakteren før jeg vet hva jeg gjorde feil.",
-      "suggestion": "Det å bli vurdert så lenge kan kjennes som om det etterlater en indre resultattavle som fortsetter å gi karakterer også i rom han ikke lenger styrer."
+      "suggestion": "Når du har kjent deg vurdert av faren din så lenge, er det forståelig at dommen hans fortsatt gjør vondt. Du trenger ikke avfeie smerten fordi du nå har ditt eget liv."
     },
     "dp_empathic-affirmation-validation_case-david_10": {
       "text": "[Kontrollert] Når teamet mitt overgår meg, føler jeg meg truet i stedet for stolt. Jeg vet at en god leder burde feire dem, men en del av meg hører suksessen deres som et varsel om at jeg kan erstattes.",
-      "suggestion": "Suksessen deres kan kjennes som om den treffer den gamle koblingen mellom å være best og å være trygg, så stoltheten må konkurrere med frykten for å bli erstattet."
+      "suggestion": "Hvis suksessen deres kjennes som en trussel mot plassen din, er det forståelig å bli redd selv om du ønsker å være stolt. Følelsene trenger ikke bestemme hvordan du behandler teamet."
     },
     "dp_empathic-affirmation-validation_case-marcus_01": {
       "text": "[Flatt] De fleste dager går jeg gjennom rutinene som om jeg ikke er helt til stede. Jeg lager kaffe, dusjer, svarer folk, og det føles som en versjon av meg gjør det mens resten holder seg tilbake.",
-      "suggestion": "Etter for mye fare har nummenheten beskyttet evnen til å fungere; den er et overlevelsesmønster, ikke et tegn på at du ikke bryr deg."
+      "suggestion": "Etter det du har opplevd, fortjener strevet med å være helt til stede omsorg, ikke skyld. Nummenheten er ikke et bevis på at du ikke bryr deg om folk rundt deg."
     },
     "dp_empathic-affirmation-validation_case-marcus_02": {
       "text": "[Fortumlet] Jeg vet ikke hva jeg føler. Det er trykk, sinne og ingenting på samme tid, og jeg føler meg dum fordi jeg ikke har ord.",
@@ -3048,35 +3048,35 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_empathic-affirmation-validation_case-marcus_03": {
       "text": "[Stille og på vakt] Jeg sitter i bilen før jeg går inn fordi jeg ikke orker stillheten. Motoren er av, men bilen kjennes i det minste som et sted mellom dagen og leiligheten.",
-      "suggestion": "Bilen kan kjennes som en buffer før stillheten bringer alt tilbake; å stoppe der doserer det som blir for mye."
+      "suggestion": "Hvis stillheten hjemme kjennes for mye å møte, er det forståelig å nøle før du går inn. Strevet fortjener oppmerksomhet fremfor kritikk for at du blir sittende i bilen."
     },
     "dp_empathic-affirmation-validation_case-marcus_04": {
       "text": "[Anspent] Høye smell får meg til å skvette, og så blir jeg sint på meg selv for reaksjonen. I går smalt lemmen på en lastebil utenfor, og jeg var allerede i gang med å skanne rommet før jeg visste hva som skjedde.",
-      "suggestion": "At systemet går i overlevelse før valget rekker å komme på banen, passer med farelæring; sinnet etterpå viser hvor kostbart det er å leve med den refleksen."
+      "suggestion": "Etter så mye fare er det forståelig å skvette av et høyt smell. Reaksjonen kan være slitsom å leve med, og du fortjener ikke å bli angrepet for at den kommer."
     },
     "dp_empathic-affirmation-validation_case-marcus_05": {
       "text": "[Lav stemme] Høytider kjennes hule; jeg føler ingenting av det jeg «burde» føle. Folk snakker om familie og takknemlighet, og jeg føler mest at jeg ser på gjennom et vindu.",
-      "suggestion": "Høytider kan kjennes hule når de ber om varme og tilhørighet akkurat på de stedene der nummenhet og avstand har beskyttet deg."
+      "suggestion": "Når alle forventer varme og takknemlighet, kan avstanden du kjenner gjøre høytidene ensomme. Strevet er forståelig. Du trenger ikke produsere følelsene andre forventer."
     },
     "dp_empathic-affirmation-validation_case-marcus_06": {
       "text": "[Stille og på vakt] Jeg unngår påminnelser om tjenesten fordi de åpner slusene. Et nyhetsklipp eller en lyd i gata kan sende meg tilbake dit raskere enn jeg klarer å forklare.",
-      "suggestion": "Å unngå påminnelser har beskyttet deg mot å bli trukket tilbake for fort; tempoet i de reaksjonene fortjener respekt."
+      "suggestion": "Når påminnelser sender deg tilbake dit så raskt, er det forståelig å være redd for dem. Smerten fortjener respekt, uten at du må forklare hver detalj for at den skal være virkelig."
     },
     "dp_empathic-affirmation-validation_case-marcus_07": {
       "text": "[Flatt] Jeg holder leiligheten mørk fordi lyse rom kjennes som om de krever for mye av meg. Med gardinene nede slipper jeg å se oppvasken, den tomme stolen eller meg selv like tydelig.",
-      "suggestion": "Det dempede rommet kan kjennes som en måte å senke kravet om å være helt til stede med alt på en gang; det hjelper deg å håndtere blottstilling."
+      "suggestion": "Hvis det er for mye å se alt i leiligheten på én gang, er det forståelig å ønske mindre press. Strevet kan bli møtt uten å dømme deg for å holde gardinene trukket for."
     },
     "dp_empathic-affirmation-validation_case-marcus_08": {
       "text": "[Lav stemme] Jeg husker ikke sist jeg lo og stolte på at det kunne vare. Selv når noe er morsomt, merker jeg at jeg venter på at følelsen skal forsvinne.",
-      "suggestion": "Glede kan kjennes vanskelig å stole på når systemet ditt har måttet være forberedt på tap; ventingen på at den skal forsvinne er en del av den beskyttelsen."
+      "suggestion": "Når gode øyeblikk har vært usikre, er det forståelig å nøle med å stole på et. Det er plass til både gleden og frykten for å miste den. Ingen av dem gjør den andre falsk."
     },
     "dp_empathic-affirmation-validation_case-marcus_09": {
       "text": "[Stille og på vakt] Jeg vil ikke trenge noen, fordi det å trenge folk som regel har betydd å miste kontroll. Hvis noen betyr noe, kan de stille spørsmål, dra eller komme inn på steder jeg helst vil holde lukket.",
-      "suggestion": "Å ikke trenge noen har beskyttet steder som har blitt såret eller invadert; ensomheten er prisen for den beskyttelsen."
+      "suggestion": "Når det å trenge noen har kjentes som å miste kontroll, er det forståelig at nærhet virker risikabelt. Behovet for privatliv og valgfrihet fortjener respekt, uten at du må avvise ethvert behov for støtte."
     },
     "dp_empathic-affirmation-validation_case-marcus_10": {
       "text": "[Flatt] Noen ganger tenker jeg at jeg har det best alene for alltid, fordi nærhet bare gir folk flere måter å såre meg på. Alene er ikke bra, akkurat, men da kan i hvert fall ingen nå det som er igjen.",
-      "suggestion": "Alene kan kjennes som det eneste pålitelige skjoldet etter at nærhet har vært farlig, selv om det også stenger deg ute fra det du trenger."
+      "suggestion": "Etter å ha blitt såret i nære forhold er det forståelig å frykte å slippe noen nær igjen. Frykten fortjener å bli tatt på alvor, selv om det heller ikke er godt å være alene."
     },
     "dp_exploratory-questions_case-sara_01": {
       "text": "[Lavmælt] Du skulle sett blikket hun ga meg; jeg følte meg så liten.",
@@ -5360,7 +5360,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_self-disclosure_case-laura_01": {
       "text": "[Langsomt og flatt] Når jeg ikke føler noe, blir du utilpass eller tenker at jeg er utilgjengelig?",
-      "suggestion": "Jeg blir ikke utilpass av nummenheten, og jeg ser deg ikke som utilgjengelig. Jeg kjenner meg varsom og tålmodig med den, og jeg vil at du får rom her uten å prestere følelse for meg."
+      "suggestion": "Jeg vil forstå hvordan nummenheten er for deg, fremfor å bestemme meg for at du er utilgjengelig. Jeg velger å senke tempoet. Du trenger ikke få frem en følelse for min skyld. Hvordan er det å høre det?"
     },
     "dp_self-disclosure_case-laura_02": {
       "text": "[Nølende] Er du irritert over at jeg fortsetter å beskytte meg i stedet for å åpne meg?",
@@ -5628,7 +5628,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-sara_08": {
       "text": "[Nølende] Jeg ser for meg at jeg sier til ham: «Du lot meg være alene med alt dette», og så stopper jeg meg selv. Halsen lukker seg, og jeg tenker: Ikke send det, ikke vær patetisk, han har allerede valgt å gå.",
-      "suggestion": "Her er det to markører, og det uavsluttede med ham gir oss tydeligst startpunkt. Vi kan plassere ham i den tomme stolen og la deg si bare den første linjen: «Du lot meg sitte igjen alene med alt dette», og stoppe så snart halsen begynner å lukke seg."
+      "suggestion": "Det er ord du ikke har fått sagt til ham. Vil du prøve én setning med ham i tankene i den tomme stolen? Hvis du vil prøve, begynn med: «Du lot meg sitte igjen alene med alt dette». Vi kan stoppe hvis halsen begynner å snøre seg."
     },
     "dp_marker-recognition-chairwork_case-sara_09": {
       "text": "[Engstelig] Før en date ser jeg for meg at han legger merke til alt det trengende ved meg. Jeg hører: Ikke slapp av, ikke send melding for fort, ikke la ham se rotet. Hvis han ser det, går han også.",
@@ -5640,7 +5640,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-michael_01": {
       "text": "[Anspent og skamfull] Hver gang jeg kjenner meg såret, særlig når kona mi sier at jeg virker såret, kommer ordene til faren min tilbake: Slutt å være svak og få kontroll. Da retter jeg meg opp og begynner å snakke som om ingenting traff.",
-      "suggestion": "Beskjeden fra faren din har blitt en indre stemme som stenger ned såretheten. Vil du gi den stemmen én stol og den sårede siden den andre? Start i kommando-stolen og si direkte til ham: «Slutt å være svak og få kontroll.»"
+      "suggestion": "Beskjeden fra faren din har blitt en indre stemme som stenger ned såretheten. Vil du gi den stemmen én stol og den sårede siden den andre? Hvis du vil, se deg selv for deg i den andre stolen. Fra stolen med den strenge stemmen sier du «Slutt å være svak og få kontroll» til den sårede siden av deg selv."
     },
     "dp_marker-recognition-chairwork_case-michael_02": {
       "text": "[Anspent og sint] Jeg vil fortsatt fortelle faren min hva det kostet meg at han kalte hver følelse for svakhet.",
@@ -5648,7 +5648,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-michael_03": {
       "text": "[Anspent] I det sekundet jeg begynner å mykne, hører jeg: «Ta deg sammen», og så begynner jeg å ramse opp alt jeg burde gjort bedre.",
-      "suggestion": "Den mykere følelsen begynner å vise seg, og så skjærer kommandoen inn. La oss gjøre avbrytelsen synlig med to stoler: Fra denne stolen sier du «ta deg sammen» og ramser opp hva han burde gjort bedre; så flytter vi til den mykere siden."
+      "suggestion": "Den mykere følelsen begynner å vise seg, og så skjærer kommandoen inn. Vil du prøve to stoler for å se hvordan du stopper følelsen? Hvis du vil, se den mykere siden av deg selv for deg i den andre stolen. Fra denne stolen sier du «ta deg sammen» og ramser opp hva han burde gjort bedre; så flytter vi til den mykere siden."
     },
     "dp_marker-recognition-chairwork_case-michael_04": {
       "text": "[Skamfull] Etter at jeg smeller, blir alle stille, og senere sitter jeg i bilen og kaller meg idiot for å ha mistet kontrollen igjen. Jeg sier det ikke høyt hjemme, men ordene fortsetter: Du er akkurat som ham, du lærer aldri.",
@@ -5660,7 +5660,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-michael_06": {
       "text": "[Anspent] Når kona mi prøver å ta på meg etter en krangel, lager jeg en spøk eller begynner å snakke om det som må fikses.",
-      "suggestion": "Spøken og fiksingen drar deg unna akkurat når noe mykere kommer nær. Kan vi gi den siden som styrer bort, denne stolen? Vis hvordan den fører ham inn i spøk eller fiksing; så flytter vi til den mykere siden og lar den svare."
+      "suggestion": "Spøken og fiksingen drar deg unna akkurat når noe mykere kommer nær. Vil du prøve to stoler for å se hvordan du vender deg bort? Hvis du vil, se den mykere siden av deg selv for deg i den andre stolen og vis hvordan du får ham til å spøke eller fikse; så flytter vi til den mykere siden og lar den svare."
     },
     "dp_marker-recognition-chairwork_case-michael_07": {
       "text": "[Bekymret] Før en presentasjon sjekker jeg lysbildene hele natten, fordi én feil ville bevise at jeg ikke burde ha ansvar.",
@@ -5676,7 +5676,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-michael_10": {
       "text": "[Anspent] Jeg begynner å si unnskyld, og så sier en stemme: «Ikke gi deg.» Den sier at hvis jeg mykner først, vinner kona mi, og jeg mister den siste respekten jeg har. Så svelger jeg unnskyldningen og begynner å snakke om det hun gjorde i stedet.",
-      "suggestion": "«Ikke gi etter»-stemmen stopper unnskyldningen ved å få reparasjon til å kjennes som nederlag. La oss gi den stemmen denne stolen først: argumenter for å svelge unnskyldningen. Så flytter vi til siden som ville reparere og hører hva som blir blokkert."
+      "suggestion": "«Ikke gi etter»-stemmen stopper unnskyldningen ved å få reparasjon til å kjennes som nederlag. Vil du prøve to stoler for å høre den stemmen og siden som vil reparere? Hvis du vil, begynn som «ikke gi etter»-stemmen og si til den andre siden hvorfor han må holde unnskyldningen tilbake. Så flytter vi til siden som ville reparere og hører hva som blir blokkert."
     },
     "dp_marker-recognition-chairwork_case-jason_01": {
       "text": "[Stille] Jeg sier til meg selv at jeg må holde hodet nede, for hvis folk virkelig ser meg, kommer de til å le. I seminarer kjenner jeg advarselen starte før jeg sier noe: Bli liten, ikke gi dem noe å legge merke til.",
@@ -5720,7 +5720,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-laura_01": {
       "text": "[Flatt og på vakt] Da mannen min dro, tenkte jeg: selvfølgelig gjorde han det. Hvem blir hos en som er så ødelagt?",
-      "suggestion": "Skilsmissen høres ut som en hard dom: at du er for ødelagt til at noen blir. Hvis det kjennes trygt nok, får dommen én stol og siden som bærer den en annen. Sett deg først i domsstolen og si: «Du er for ødelagt til at noen blir.» Så bytter vi til siden som må ta imot det."
+      "suggestion": "Skilsmissen høres ut som en hard dom: at du er for ødelagt til at noen blir. Vil du prøve to stoler, én for dommen og én for siden som må høre den? Vi trenger ikke gjøre det nå. Hvis du vil prøve, sett deg først i domsstolen og si: «Du er for ødelagt til at noen blir.» Så bytter vi til siden som må ta imot det."
     },
     "dp_marker-recognition-chairwork_case-laura_02": {
       "text": "[Fjern] Jeg sa aldri til moren min: «Du så hva som skjedde og fortsatte å vaske opp.» Jeg tenker fortsatt mer på det enn jeg vil.",
@@ -5728,39 +5728,39 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-laura_03": {
       "text": "[Anspent og på gråten] Da eksmannen min flyttet ut, gråt jeg ikke. Jeg vasket kjøkkenet og kjente ingenting, som om jeg burde vært såret, men bare var helt blank.",
-      "suggestion": "Vaskingen og blankheten ser ut til å stanse det såre før det når fram. Hvis det kjennes trygt nok, får den blokkerende siden denne stolen først: vis hvordan du blir blank og fortsetter å vaske. Etterpå flytter vi til den sårede siden og gir den bare noen få ord."
+      "suggestion": "Vaskingen og blankheten ser ut til å stanse det såre før det når fram. Vil du se på hvordan du stopper deg selv med to stoler, uten å presse deg forbi det? Hvis du vil prøve, får siden som stopper én stol og den sårede siden den andre. Fra den første stolen viser du hvordan du blir blank og fortsetter å vaske. Etterpå flytter vi til den sårede siden og gir den bare noen få ord."
     },
     "dp_marker-recognition-chairwork_case-laura_04": {
       "text": "[Fjern] Jeg lurer stadig på om eksen min visste hva som kom til å skje etter at han dro, at jeg kom til å vende alt tilbake mot meg selv. Jeg vil spørre ham: Visste du at jeg kom til å bære skylden for oss begge?",
-      "suggestion": "Spørsmålet retter seg mot ham, om hvordan du ble sittende igjen med hele skylden. Når det kjennes håndterbart, setter vi ham i den tomme stolen og lar spørsmålet gå rett til ham: «Visste du at jeg kom til å bære skylden for oss begge?»"
+      "suggestion": "Spørsmålet retter seg mot ham, om hvordan du ble sittende igjen med hele skylden. Vil du prøve å spørre ham med den tomme stolen? Hvis du vil prøve, se ham for deg på en avstand du velger og spør: «Visste du at jeg kom til å bære skylden for oss begge?» Vi kan stoppe der."
     },
     "dp_marker-recognition-chairwork_case-laura_05": {
       "text": "[Flatt og på vakt] Jeg sier fortsatt til meg selv at jeg er skadet gods. Det kommer når noen er snille mot meg, eller når jeg tenker på å date igjen. Jeg hører: De ville gått hvis de visste nok, så ikke slipp noen for nær.",
-      "suggestion": "«Skadet gods»-stemmen holder deg unna nærhet før noen rekker å velge deg. Når det kjennes trygt nok, får stemmen én stol og delen som hører den en annen. Fra denne stolen sier du: «De ville gått hvis de visste nok.» Så bytter vi og kjenner etter hvordan advarselen treffer."
+      "suggestion": "«Skadet gods»-stemmen holder deg unna nærhet før noen rekker å velge deg. Vil du prøve to stoler, én for stemmen og én for siden som hører den? Vi kan stoppe når som helst. Hvis du vil, sier du fra den første stolen: «De ville gått hvis de visste nok.» Så bytter vi og kjenner etter hvordan advarselen treffer."
     },
     "dp_marker-recognition-chairwork_case-laura_06": {
       "text": "[Langsomt og flatt] Når sinnet begynner, vasker jeg benken, sjekker låsene eller skjenker et glass til følelsen forsvinner. Jeg bestemmer meg ikke for å stoppe det; jeg bare blir travel og langt borte før det får ord.",
-      "suggestion": "Vaskingen, sjekkingen og glasset ser ut til å frakte sinnet bort før det får stemme. Hvis det kjennes trygt nok, setter du deg først som den travle, fjerne siden og viser hvordan den får sinnet til å forsvinne. Etterpå går vi over til sinnet og gir det noen få ord, uten press."
+      "suggestion": "Vaskingen, sjekkingen og glasset ser ut til å frakte sinnet bort før det får stemme. Vil du prøve to stoler for å se hvordan du fjerner deg fra sinnet? Hvis du vil, får den travle siden én stol og sinnet den andre. Fra den første stolen viser du hvordan den får sinnet til å forsvinne. Etterpå går vi over til sinnet og gir det noen få ord, uten press."
     },
     "dp_marker-recognition-chairwork_case-laura_07": {
       "text": "[Skamfull] Jeg sier til meg selv at jeg burde ha visst bedre enn å stole på ham. Jeg går gjennom små tegn jeg overså og bygger en sak mot meg selv, som om jeg var dum fordi jeg ville tro at han var trygg.",
-      "suggestion": "Skylden fører en sak mot den delen av deg som ville ha trygghet. Sett den anklagende stemmen i denne stolen og la den si det rett ut: «Du burde ha visst bedre; du var dum som stolte på ham.» Så bytter vi til den tillitsfulle delen som ble såret."
+      "suggestion": "Skylden fører en sak mot den delen av deg som ville ha trygghet. Vil du prøve to stoler for å høre anklagen og hvordan den virker på deg? Hvis du vil prøve, se den tillitsfulle siden av deg selv for deg i den andre stolen. Fra stolen med den anklagende stemmen sier du: «Du burde ha visst bedre; du var dum som stolte på ham.» Så bytter vi til den tillitsfulle delen som ble såret."
     },
     "dp_marker-recognition-chairwork_case-laura_08": {
       "text": "[Lav stemme] Jeg sa aldri til mannen som skadet meg: «Du får ikke bestemme hva jeg er verdt.»",
-      "suggestion": "Den setningen hører direkte til mannen som skadet deg. Hvis det kjennes trygt nok, og vi går veldig langsomt, plasserer vi ham i den tomme stolen. Du sier bare den ene setningen, med pauser og kontroll underveis."
+      "suggestion": "Den setningen hører direkte til mannen som skadet deg. Vil du prøve den ene setningen med ham i tankene i den tomme stolen? Du velger avstanden og kan stoppe når som helst. Hvis du vil prøve, se ham for deg der og si bare ordene du nettopp brukte."
     },
     "dp_marker-recognition-chairwork_case-laura_09": {
       "text": "[Anspent og skamfull] Når jeg begynner å si at jeg er sint, hører jeg: «Ikke lag bråk.» Skuldrene strammer seg, stemmen blir høflig, og plutselig forklarer jeg hvorfor det sikkert ikke var så farlig.",
-      "suggestion": "«Ikke lag bråk»-stemmen stanser sinnet før det får stå oppreist. Den stemmen får denne stolen først: si advarselen og forklar hvorfor den mener du må tie. Etterpå flytter vi til den sinte siden og hører én eller to enkle setninger."
+      "suggestion": "«Ikke lag bråk»-stemmen stanser sinnet før det får stå oppreist. Vil du prøve to stoler, én for advarselen og én for sinnet? Hvis du vil, begynn som stemmen som advarer, og si til den sinte siden hvorfor hun må tie. Etterpå flytter vi til den sinte siden og hører én eller to enkle setninger."
     },
     "dp_marker-recognition-chairwork_case-laura_10": {
       "text": "[Fjern] Jeg ser fortsatt for meg døren til rommet mitt etter at det skjedde, mens jeg ventet på å høre moren min komme ned gangen. Hun kom aldri. Jeg vil spørre henne: Hvorfor kom du aldri inn på rommet mitt etterpå?",
-      "suggestion": "Moren din er fraværende i gangen etterpå, og spørsmålet står fortsatt igjen. Når det kjennes håndterbart, henter vi henne inn i den tomme stolen og spør: «Hvorfor kom du aldri inn på rommet mitt etterpå?» Bare så langt det kjennes tålelig."
+      "suggestion": "Moren din er fraværende i gangen etterpå, og spørsmålet står fortsatt igjen. Vil du prøve å spørre henne med den tomme stolen? Hvis du vil, se henne for deg på en avstand du velger og begynn med: «Hvorfor kom du aldri inn på rommet mitt etterpå?» Vi kan stoppe etter den ene setningen."
     },
     "dp_marker-recognition-chairwork_case-carlos_01": {
       "text": "[Sint, med knyttede never] Etter at jeg slo hull i veggen, tenkte jeg hele tiden: Hva slags mann skremmer sin egen familie? Jeg så ansiktet til sønnen min, og så startet angrepet, som om det ikke var noen far igjen, bare en farlig mann på kjøkkenet.",
-      "suggestion": "Hullet i veggen blir til et angrep på faren i deg. La skylden få denne stolen et øyeblikk: si det direkte til ham, «Hva slags mann skremmer sin egen familie?» Så bytter vi og hører hva det gjør med ham."
+      "suggestion": "Hullet i veggen blir til et angrep på faren i deg. Vil du prøve to stoler for å høre anklagen og hvordan den virker på deg? Det unnskylder ikke at du skremte familien. Hvis du vil, se deg selv for deg i den andre stolen og si fra stolen med den anklagende stemmen: «Hva slags mann skremmer sin egen familie?» Så bytter vi og hører hva det gjør med ham."
     },
     "dp_marker-recognition-chairwork_case-carlos_02": {
       "text": "[Anspent og sint] Jeg vil fortsatt si til faren min at beltet ikke gjorde meg til mann. Det gjorde meg bare redd for ham.",
@@ -5768,11 +5768,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-carlos_03": {
       "text": "[Anspent og skamfull] Jeg begynner å si unnskyld til sønnen min, og så lukker munnen seg. Jeg tenker: ikke vis svakhet, og ansiktet mitt blir hardt.",
-      "suggestion": "Unnskyldningen begynner, og det harde ansiktet legger seg over den før den når sønnen din. To stoler kan vise det tydelig. Fra denne stolen sier du at han ikke skal vise svakhet, og forsvarer det harde. Så flytter vi til faren som ville reparere."
+      "suggestion": "Unnskyldningen begynner, og det harde ansiktet legger seg over den før den når sønnen din. Vil du prøve to stoler for å se hvordan du stopper unnskyldningen? Hvis du vil, se siden som ønsket å reparere for deg i den andre stolen. Fra denne stolen sier du at han ikke skal vise svakhet, og forsvarer det harde. Så flytter vi til faren som ville reparere."
     },
     "dp_marker-recognition-chairwork_case-carlos_04": {
       "text": "[Skamfull] Etter at jeg roper, kaller jeg meg et monster og blir så sint på meg selv for å tenke det. Alle blir stille, jeg hører det ordet i hodet, og så svarer en annen del: Slutt å sutre og fiks det.",
-      "suggestion": "Etter ropingen blir ordet «monster» et indre angrep. Monster-stemmen får én stol, og delen som blir truffet får den andre. Start som den angripende stemmen og si ordet direkte; så lar vi den angrepne siden svare."
+      "suggestion": "Etter ropingen blir ordet «monster» et indre angrep. Vil du gi stemmen som sier «monster» én stol og delen som hører det den andre? Hvis du vil, start som den angripende stemmen og si ordet direkte; så lar vi den angrepne siden svare."
     },
     "dp_marker-recognition-chairwork_case-carlos_05": {
       "text": "[Anspent og sint] Jeg vil si til faren min: «Jeg var et barn, ikke en av soldatene dine.» Han fikk meg til å stå rett og tåle det, og selv nå låser ryggen seg før jeg klarer å si hvor redd jeg var.",
@@ -5780,39 +5780,39 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-carlos_06": {
       "text": "[Anspent] Når stemmen min skjelver, kremter jeg, retter meg opp og gjør ansiktet hardt. Jeg kan nesten høre faren min si: Ikke la dem se deg sånn, så jeg gjør det om til et blikk.",
-      "suggestion": "Det harde ansiktet gjør skjelvingen usynlig. To stoler kan vise hvordan det skjer. Fra denne stolen gjør du ansiktet hardt og sier: «Ikke la dem se deg sånn.» Så flytter vi til siden som skalv."
+      "suggestion": "Det harde ansiktet gjør skjelvingen usynlig. Vil du prøve to stoler for å se hvordan du stopper skjelvingen? Hvis du vil, får siden med det harde ansiktet én stol og den skjelvende siden den andre. Fra den første stolen gjør du ansiktet hardt og sier: «Ikke la dem se deg sånn.» Så flytter vi til siden som skalv."
     },
     "dp_marker-recognition-chairwork_case-carlos_07": {
       "text": "[Bekymret] Hvis jeg lar sønnen min snakke meg imot én gang, ser jeg for meg at jeg mister all respekt i huset. Først himler han med øynene, så ser kona mi at jeg ikke har autoritet, så hører ingen på meg og jeg er ingenting der.",
-      "suggestion": "Bekymringen gjør én himling med øynene til at hele huset mister respekt for deg. Gi bekymringen én stol og la den si kjeden høyt: først blikket fra sønnen din, så kona di som ser at du ikke har autoritet. Etterpå bytter vi og hører faren under presset."
+      "suggestion": "Bekymringen gjør én himling med øynene til at hele huset mister respekt for deg. Vil du prøve to stoler, én for bekymringen og én for faren som må høre den? Hvis du vil, la bekymringen si hva den frykter: først blikket fra sønnen din, så kona di som ser at du ikke har autoritet. Etterpå bytter vi og hører faren under presset."
     },
     "dp_marker-recognition-chairwork_case-carlos_08": {
       "text": "[Defensiv] Jeg sier til meg selv at bare tapere trenger hjelp med sinne. Så ser jeg for meg faren min som ler av en mann som ikke klarer å styre huset sitt, og jeg hører den samme latteren i hodet når kona mi sier at terapi kanskje kan hjelpe.",
-      "suggestion": "Latteren til faren din har blitt en stemme som gjør hjelp ydmykende. Sett den stemmen i denne stolen og la den si «bare tapere trenger hjelp» med tonen hans. Så bytter vi til siden som vil noe annet for familien din."
+      "suggestion": "Latteren til faren din har blitt en stemme som gjør hjelp ydmykende. Vil du gi den stemmen én stol og siden som vil noe annet for familien den andre? Hvis du vil, la stemmen si «bare tapere trenger hjelp» med tonen hans. Så bytter vi til siden som vil noe annet for familien din."
     },
     "dp_marker-recognition-chairwork_case-carlos_09": {
       "text": "[Lav stemme] Jeg skulle ønske jeg kunne si til kona mi at jeg blir redd når hun ser på meg som om hun er redd.",
-      "suggestion": "Kona di er personen som trenger å høre dette, der frykten mellom dere kan få et navn. Plasser henne i den tomme stolen og si det langsomt: «Jeg blir redd når du ser redd ut for meg.» Vi presser ikke fram mer enn én eller to linjer."
+      "suggestion": "Kona di er personen som trenger å høre dette, der frykten mellom dere kan få et navn. Vil du prøve å si det med henne i tankene i den tomme stolen? Hvis du vil, se henne for deg der og begynn langsomt med: «Jeg blir redd når du ser redd ut for meg.» Vi presser ikke fram mer enn én eller to linjer."
     },
     "dp_marker-recognition-chairwork_case-carlos_10": {
       "text": "[Anspent og sint] Når tårene kommer, strammer jeg kjeven og gjør dem om til varme før noen kan se dem. Hvis sinnet er der, spør ingen hva som gjorde vondt. De rygger bare, og det kjennes tryggere.",
-      "suggestion": "Tårene blir gjort om til varme før noen når inn til det såre. Den siden som gjør om følelsen får denne stolen først. Vis hvordan du strammer kjeven, blir varm og får folk til å rygge; så flytter vi til den gråtende siden."
+      "suggestion": "Tårene blir gjort om til varme før noen når inn til det såre. Vil du prøve to stoler for å se hvordan tårene blir til sinne? Hvis du vil, får siden som stopper tårene én stol og den gråtende siden den andre. Fra den første stolen viser du hvordan du strammer kjeven, blir varm og får folk til å rygge; så flytter vi til den gråtende siden."
     },
     "dp_marker-recognition-chairwork_case-nina_01": {
       "text": "[Sliten] Skilsmissen er sikkert min feil. Jeg hører denne listen om og om igjen: du burde vært søtere, roligere, enklere, mindre utslitt. Hvis du ikke hadde trengt så mye, hadde han kanskje ikke gått.",
-      "suggestion": "Den stemmen gjør utmattelse og behov om til bevis på at skilsmissen var din feil. Skyldregelen får én stol, og den utslitte siden får den andre. Start som skylden og si at hun burde vært søtere, roligere og trengt mindre. Så flytter vi til den utslitte siden."
+      "suggestion": "Den stemmen gjør utmattelse og behov om til bevis på at skilsmissen var din feil. Vil du gi den anklagende stemmen én stol og den utslitte siden den andre? Hvis du vil, start som skylden og si at hun burde vært søtere, roligere og trengt mindre. Så flytter vi til den utslitte siden."
     },
     "dp_marker-recognition-chairwork_case-nina_02": {
       "text": "[Unnskyldende] Jeg tenker fortsatt på det jeg aldri sa til eksen min: «Du lot meg bære alt, og så skyldte du på meg for at jeg var sliten.»",
-      "suggestion": "Her ligger det noe usagt til eksen din: du bar for mye og fikk skylden for å være utslitt. Hvis det er greit, bruker vi den tomme stolen. Plasser ham her, si akkurat den setningen først, og deretter hva det kostet å holde den tilbake."
+      "suggestion": "Her ligger det noe usagt til eksen din: du bar for mye og fikk skylden for å være utslitt. Vil du prøve å si det til ham med den tomme stolen? Hvis du vil, plasser ham her, si akkurat den setningen først, og deretter hva det kostet å holde den tilbake."
     },
     "dp_marker-recognition-chairwork_case-nina_03": {
       "text": "[Skyldpreget] Når jeg blir sint for at folk trenger meg, tenker jeg med en gang at jeg er et dårlig menneske. Så smiler jeg og spør hva mer de trenger.",
-      "suggestion": "«Dårlig person»-budskapet stopper sinnet og sender deg rett tilbake til omsorg. To stoler kan gjøre rekkefølgen synlig. Fra denne stolen sier du til henne at hun er dårlig fordi hun blir sint; så flytter vi til sinnet som aldri får komme til."
+      "suggestion": "«Dårlig person»-budskapet stopper sinnet og sender deg rett tilbake til omsorg. Vil du prøve to stoler for å se hvordan sinnet blir stoppet? Hvis du vil, får stemmen som stopper én stol og sinnet den andre. Fra den første stolen sier du til henne at hun er dårlig fordi hun blir sint; så flytter vi til sinnet som aldri får komme til."
     },
     "dp_marker-recognition-chairwork_case-nina_04": {
       "text": "[Sliten] Jeg sier til meg selv at en god mor ikke ville ønsket seg en time der ingen trenger henne. Når jeg lukker soveromsdøren, starter regelen: egoistisk, lat, hva slags mor gjemmer seg for sin egen familie?",
-      "suggestion": "God-mor-regelen angriper behovet for hvile med én gang døren lukkes. Regelen får én stol, og den utslitte siden får den andre. Først lar du regelen si: «Egoistisk, lat, hva slags mor gjemmer seg?» Så bytter vi og hører den trøtte siden."
+      "suggestion": "God-mor-regelen angriper behovet for hvile med én gang døren lukkes. Vil du gi den regelen én stol og den utslitte siden den andre? Hvis du vil, la først regelen si: «Egoistisk, lat, hva slags mor gjemmer seg?» Så bytter vi og hører den trøtte siden."
     },
     "dp_marker-recognition-chairwork_case-nina_05": {
       "text": "[Unnskyldende] Jeg vil si til moren min: «Jeg var barnet; du skulle ha lagt merke til meg.» Når hun nå snakker om hvor ensom hun er, vil jeg si: Jeg var også ensom, men så føler jeg meg slem.",
@@ -5820,27 +5820,27 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-nina_06": {
       "text": "[Splittet] Når sinnet stiger, smiler jeg og spør hva alle vil ha til middag. Det skjer så fort at jeg nesten ikke merker sinnet før senere, når jeg står og vasker benken altfor hardt og ser for meg hva jeg skulle ønske jeg hadde sagt.",
-      "suggestion": "Omsorgsbevegelsen legger seg over sinnet før du nesten rekker å høre det. Den tildekkende siden får denne stolen: vis hvordan du smiler, spør om middag og holder huset i gang. Så flytter vi til sinnet og lar det si én enkel setning."
+      "suggestion": "Omsorgsbevegelsen legger seg over sinnet før du nesten rekker å høre det. Vil du prøve to stoler for å se hvordan omsorgen stopper sinnet? Hvis du vil, får siden som tar vare på andre én stol og sinnet den andre. Fra den første stolen viser du hvordan du smiler, spør om middag og holder huset i gang. Så flytter vi til sinnet og lar det si én enkel setning."
     },
     "dp_marker-recognition-chairwork_case-nina_07": {
       "text": "[Skyldpreget] Hvis middagen ikke er klar, kaller jeg meg ubrukelig. Jeg kan ha jobbet hele dagen, svart på alles meldinger, hjulpet guttene, og likevel blir én ting jeg ikke rakk til bevis på at jeg svikter i den eneste jobben som betyr noe.",
-      "suggestion": "Middagen som mangler, blir til en stemme som sier at hele verdien din avhenger av konstant omsorg. «Ubrukelig»-stemmen får én stol og den slitne delen en annen. Fra denne stolen sier du at den manglende middagen beviser at hun svikter; så bytter vi og hører den utslitte siden som bærer så mye."
+      "suggestion": "Middagen som mangler, blir til en stemme som sier at hele verdien din avhenger av konstant omsorg. Vil du prøve to stoler, én for stemmen som sier «ubrukelig» og én for den slitne siden? Hvis du vil, sier du fra den første stolen at den manglende middagen beviser at hun svikter; så bytter vi og hører den utslitte siden som bærer så mye."
     },
     "dp_marker-recognition-chairwork_case-nina_08": {
       "text": "[På gråten] Jeg vil fortsatt si til eksen min: «Du dro, og likevel er det jeg som fortsatt sier unnskyld.» Jeg håndterer skjemaene, guttene, meldingene, og jeg hører meg fortsatt forklare hvorfor jeg ikke gjør nok.",
-      "suggestion": "Unnskyldningen du fortsatt bærer, retter seg mot eksen din. Plasser ham i den tomme stolen og si setningen direkte: «Du dro, og likevel er det jeg som fortsatt sier unnskyld.» Så stopper vi og merker hva den vekker."
+      "suggestion": "Unnskyldningen du fortsatt bærer, retter seg mot eksen din. Vil du prøve å si det med ham i tankene i den tomme stolen? Hvis du vil, se ham for deg der og begynn med: «Du dro, og likevel er det jeg som fortsatt sier unnskyld.» Så stopper vi og merker hva den vekker."
     },
     "dp_marker-recognition-chairwork_case-nina_09": {
       "text": "[Unnskyldende] Jeg prøver å si nei, og så forklarer jeg til nei-et blir et ja. Jeg begynner med: Jeg kan ikke i dag, og før de rekker å protestere, ramser jeg opp grunner, gjør stemmen mildere og tilbyr en annen måte å hjelpe på.",
-      "suggestion": "Forklaringen gjør grensen så myk at neiet forsvinner. Bruk denne stolen til å vise hvordan du forklarer og gjør nei til ja. Så flytter vi til siden som ville at neiet skulle holde."
+      "suggestion": "Forklaringen gjør grensen så myk at neiet forsvinner. Vil du prøve to stoler for å se hvordan neiet blir til ja? Hvis du vil, får siden som forklarer én stol og siden som ønsket å si nei den andre. Fra den første stolen viser du hvordan du forklarer til du sier ja. Så flytter vi til siden som ville at neiet skulle holde."
     },
     "dp_marker-recognition-chairwork_case-nina_10": {
       "text": "[Bekymret] Når jeg hviler, ramser hodet opp alle som kan falle sammen uten meg. Det begynner med at moren min trenger skyss, så at guttene glemmer noe, så at huset blir kaos, og plutselig føles det å sitte stille som forsømmelse.",
-      "suggestion": "Bekymringen får hvile til å kjennes som forsømmelse ved å vise alle som kan falle sammen. Gi bekymringen denne stolen og la den liste de fryktede konsekvensene. Så flytter vi til den utslitte siden som prøver å hvile under presset."
+      "suggestion": "Bekymringen får hvile til å kjennes som forsømmelse ved å vise alle som kan falle sammen. Vil du gi bekymringen én stol og den utslitte siden den andre? Hvis du vil, la bekymringen fortelle hva den frykter vil skje. Så flytter vi til den utslitte siden som prøver å hvile under presset."
     },
     "dp_marker-recognition-chairwork_case-aisha_01": {
       "text": "[Desperat] Hvis noen ikke svarer, går hodet mitt rett til at de er med noen bedre, legger det ut, og at alle ser at jeg er byttet ut. Da må jeg kutte dem ut først.",
-      "suggestion": "Bekymringen er veldig aktiv her: den viser deg scener der du blir byttet ut, helt til det kjennes tryggere å kutte dem av enn å vente. Jeg vil foreslå to stoler for å få tydeligere fram hva bekymringen gjør. Fra denne stolen forteller du henne én scene om gangen; etterpå bytter vi til siden som må høre det."
+      "suggestion": "Bekymringen er veldig aktiv her: den viser deg scener der du blir byttet ut, helt til det kjennes tryggere å kutte dem av enn å vente. Vil du prøve to stoler for å se hva bekymringen gjør med deg? Hvis du vil, får bekymringen én stol og siden som hører den den andre. Fra den første stolen forteller du henne én scene om gangen; etterpå bytter vi til siden som må høre det."
     },
     "dp_marker-recognition-chairwork_case-aisha_02": {
       "text": "[Rasende] Jeg ser fortsatt for meg eksen min i seng med en annen. Jeg hater ham, og så hater jeg meg selv for at jeg fortsatt vil ha ham.",
@@ -5848,7 +5848,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-aisha_03": {
       "text": "[Redd og skamfull] Etter alt som skjedde med meg, kaller jeg meg skitten og umulig å elske. Når noen berører meg ømt, sier den første stemmen at de ville gått hvis de kjente hele historien.",
-      "suggestion": "Angrepet kaller deg skitten for det som ble gjort mot deg, og den sårede siden blir sittende alene med skammen. Hvis det kjennes trygt nok, setter vi den angripende stemmen i én stol og den sårede siden i den andre. Først får angrepet si ordene sine nøyaktig; så bytter vi og hører siden som har båret dem."
+      "suggestion": "Angrepet kaller deg skitten for det som ble gjort mot deg, og den sårede siden blir sittende alene med skammen. Vil du prøve to stoler for å høre angrepet og hvordan det virker på deg, én setning om gangen? Vi kan stoppe når som helst. Hvis du vil prøve, får den angripende stemmen én stol og den sårede siden den andre. Først får angrepet si ordene sine nøyaktig; så bytter vi og hører siden som har båret dem."
     },
     "dp_marker-recognition-chairwork_case-aisha_04": {
       "text": "[Skamfull] Etter at jeg har tekstet noen altfor mange ganger, kaller jeg meg gal og ekkel. Jeg sletter tråden, åpner den igjen, og sier til meg selv at ingen normal person ville trengt bevis så desperat. Angrepet føles nesten tryggere enn å vente.",
@@ -5856,11 +5856,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-aisha_05": {
       "text": "[Rasende] Jeg vil fortsatt si til moren min: «Du lot meg bli igjen hos mennesker som skadet meg.» Jeg var et barn, og du fortsatte å velge dem, og så lot du som om du var sjokkert over at jeg var sint.",
-      "suggestion": "Her er det noe du fortsatt trenger å si til moren din om å bli stående uten beskyttelse, og så få sinnet behandlet som problemet. Hvis det kjennes trygt nok, henter vi henne inn i den tomme stolen, så sinnet får et direkte sted å gå. Begynn med: «Du lot meg bli igjen hos mennesker som skadet meg», og så stopper vi opp."
+      "suggestion": "Her er det noe du fortsatt trenger å si til moren din om å bli stående uten beskyttelse, og så få sinnet behandlet som problemet. Vil du prøve én setning til henne med den tomme stolen? Du velger avstanden og kan stoppe. Hvis du vil prøve, se henne for deg der og begynn med: «Du lot meg bli igjen hos mennesker som skadet meg», og så stopper vi opp."
     },
     "dp_marker-recognition-chairwork_case-aisha_06": {
       "text": "[Panisk] Når jeg kjenner at jeg trenger noen, begynner jeg å anklage dem før de kan dra. Jeg hører meg selv si: Greit, dra da, du brydde deg aldri uansett, mens en annen del trygler dem om å bli.",
-      "suggestion": "Den anklagende delen kommer først, så behovet ikke blir stående synlig. Jeg vil sette opp to stoler for å få fram beskyttelsen i det. Fra denne stolen sier du «greit, dra da, du brydde deg aldri» direkte til siden som trenger noen; så bytter vi og hører siden som tryglet dem om å bli."
+      "suggestion": "Den anklagende delen kommer først, så behovet ikke blir stående synlig. Vil du prøve to stoler for å se hvordan den anklagende siden holder behovet skjult? Hvis du vil, får den anklagende siden én stol og siden som trenger nærhet den andre. Fra den første stolen sier du «greit, dra da, du brydde deg aldri» direkte til siden som trenger noen; så bytter vi og hører siden som tryglet dem om å bli."
     },
     "dp_marker-recognition-chairwork_case-aisha_07": {
       "text": "[Bekymret] Hvis du ikke svarer, viser hodet mitt ti scener der jeg blir byttet ut og alle vet det. Det går fra én stille telefon til at du bestemmer at jeg er for mye, og så er alle enige om at jeg alltid var for mye.",
@@ -5872,7 +5872,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-aisha_09": {
       "text": "[Skamfull] Når jeg vil ha nærhet, kaller jeg meg patetisk før noen andre kan gjøre det. Hvis jeg savner noen, sier jeg til meg selv at jeg skal holde kjeft, slutte å tigge, slutte å oppføre meg som et barn. Det er som om jeg angriper behovet før den andre får sjansen.",
-      "suggestion": "Selvangrepet når fram til lengselen før noen andre kan avvise den. Jeg vil gjøre angrepet synlig med to stoler. Først lar vi den angripende stemmen si «slutt å tigge, slutt å oppføre deg som et barn» direkte til den lengtende siden; så bytter vi, så lengselen ikke blir alene med det."
+      "suggestion": "Selvangrepet når fram til lengselen før noen andre kan avvise den. Vil du prøve to stoler for å høre angrepet og hvordan det virker på lengselen? Hvis du vil, får den angripende stemmen én stol og den lengtende siden den andre. Først lar vi den angripende stemmen si «slutt å tigge, slutt å oppføre deg som et barn» direkte til den lengtende siden; så bytter vi, så lengselen ikke blir alene med det."
     },
     "dp_marker-recognition-chairwork_case-aisha_10": {
       "text": "[På gråten] Når sorgen begynner å synes, ler jeg for høyt og sier: «Glem det, dette er dumt.» Så lager jeg en spøk om at jeg er dramatisk, og den gråtende delen blir stille som om den fikk en ørefik.",
@@ -5880,11 +5880,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-david_01": {
       "text": "[Selvbebreidende] Hvis jeg ikke er eksepsjonell, sier jeg til meg selv at det ikke finnes noen grunn til at noen skulle bli. Ordinær betyr utskiftbar. Utskiftbar betyr at jeg allerede har tapt; de har bare ikke sagt det høyt ennå.",
-      "suggestion": "Kravet gjør verdien din avhengig av å være eksepsjonell, og behandler det ordinære som om det å bli forlatt allerede har begynt. Jeg vil sette kravet i én stol og siden som betaler prisen i den andre. Fra denne stolen argumenterer du for at vanlig betyr utskiftbar; så bytter vi og hører virkningen."
+      "suggestion": "Kravet gjør verdien din avhengig av å være eksepsjonell, og behandler det ordinære som om det å bli forlatt allerede har begynt. Vil du gi kravet én stol og siden som må leve med det den andre? Hvis du vil, argumenterer du fra den første stolen for at vanlig betyr utskiftbar; så bytter vi og hører virkningen."
     },
     "dp_marker-recognition-chairwork_case-david_02": {
       "text": "[Avvisende] Kona mi sier at hun kanskje er ferdig, og jeg sier til meg selv at bare en idiot ødelegger sin egen familie og likevel forventer sympati.",
-      "suggestion": "Det er en hard skyldstemme som gjør smerten i ekteskapet til bevis på at du ikke fortjener sympati. Jeg vil arbeide litt med det angrepet. Sett deg i denne stolen som den harde siden og si til ham at han er en idiot som ødela familien; så bytter vi og hører hva det gjør med ham."
+      "suggestion": "Det er en hard skyldstemme som gjør smerten i ekteskapet til bevis på at du ikke fortjener sympati. Vil du prøve to stoler for å høre angrepet og hvordan det virker på deg? Hvis du vil, se deg selv for deg i den andre stolen. Fra stolen med den angripende stemmen sier du til den siden av deg selv at han er en idiot som ødela familien; så bytter vi og hører hva det gjør med ham."
     },
     "dp_marker-recognition-chairwork_case-david_03": {
       "text": "[Såret, men skarp] Jeg hater hvordan faren min gjorde alt til en prestasjon, men med en gang jeg sier det, begynner jeg å forsvare ham: han presset meg jo fordi han trodde på meg.",
@@ -5892,7 +5892,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-david_04": {
       "text": "[Avvisende] Jeg sier til meg selv at middelmådige menn mister familien sin og fortjener det. Ordet middelmådig er verre enn grusomt; det betyr at jeg ble vanlig, utskiftbar, en mann ingen har noen grunn til å velge.",
-      "suggestion": "En hard selvkritisk stemme binder verdien din til å være eksepsjonell og bruker middelmådighet som en dom. Sett den stemmen i én stol og delen av deg den angriper i den andre. Fra denne stolen sier du nøyaktig hvorfor middelmådige menn fortjener å miste; så bytter vi og lar den angrepne siden svare."
+      "suggestion": "En hard selvkritisk stemme binder verdien din til å være eksepsjonell og bruker middelmådighet som en dom. Vil du gi den stemmen én stol og siden den angriper den andre? Hvis du vil, sier du fra den første stolen nøyaktig hvorfor middelmådige menn fortjener å miste; så bytter vi og lar den angrepne siden svare."
     },
     "dp_marker-recognition-chairwork_case-david_05": {
       "text": "[Kontrollert] Jeg vil si til faren min: «Jeg var sønnen din, ikke et prosjekt.» Jeg hører ham fortsatt vurdere karakterene mine, holdningen min, håndtrykket mitt, som om alt ved meg var noe som skulle optimaliseres. Jeg fikk aldri spurt om han noen gang så meg.",
@@ -5904,7 +5904,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-david_07": {
       "text": "[Bekymret] Hvis jeg innrømmer én feil, ser jeg for meg at alle bestemmer seg for at jeg er en bløff. Det stopper ikke ved feilen; det blir til at styret mister tilliten, kona mi sier at hun visste det, og folk innser at hele bildet var falskt.",
-      "suggestion": "Bekymringen gjør én feil til total avsløring, som om hele bildet kan falle sammen på én gang. Jeg vil gi bekymringen én stol, så du kan høre hvordan den presser deg. La den forutsi nøyaktig hva som skjer hvis du innrømmer én feil; så bytter vi til siden som lever under de scenene."
+      "suggestion": "Bekymringen gjør én feil til total avsløring, som om hele bildet kan falle sammen på én gang. Vil du prøve to stoler, én for bekymringen og én for siden som må høre den? Hvis du vil, la bekymringen forutsi nøyaktig hva som skjer hvis du innrømmer én feil; så bytter vi til siden som lever under de scenene."
     },
     "dp_marker-recognition-chairwork_case-david_08": {
       "text": "[Lav stemme] Jeg vil si til kona mi at jeg er livredd for at hun endelig ser den ekte meg. Etter den siste krangelen så hun på meg som om forestillingen var over, og jeg ville si: Ikke bestem deg for at dette er alt jeg er.",
@@ -5912,7 +5912,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-david_09": {
       "text": "[Skamfull] Jeg sier til meg selv at affæren beviser at jeg er søppel. Ikke bare at jeg gjorde noe destruktivt, men at under tittelen, pengene, alt sammen, er dette den jeg egentlig er. Så hater jeg meg selv for å høres dramatisk ut.",
-      "suggestion": "Det er et hardt selvangrep rundt affæren, der en handling blir gjort til en dom over hele deg. Sett stemmen som sier «søppel» i én stol og den skamfulle siden i den andre. Fra denne stolen lar du angrepet si hele dommen; så bytter vi, så du kan høre og svare det i stedet for bare å tåle det."
+      "suggestion": "Det er et hardt selvangrep rundt affæren, der en handling blir gjort til en dom over hele deg. Vil du prøve to stoler, én for stemmen som sier «søppel» og én for den skamfulle siden? Å forstå angrepet unnskylder ikke affæren. Hvis du vil, lar du fra den første stolen angrepet si hele dommen; så bytter vi, så du kan høre og svare det i stedet for bare å tåle det."
     },
     "dp_marker-recognition-chairwork_case-david_10": {
       "text": "[Avvisende] Når tristhet dukker opp, analyserer jeg alles tonefall til følelsen er borte. Jeg kan gjøre en samtale med kona mi til et referat i hodet, finne inkonsekvenser, bevise poenget mitt, og da er strammingen i halsen borte.",
@@ -5924,7 +5924,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-marcus_02": {
       "text": "[Lav stemme] De låste meg inne i skapet, og jeg tenker fortsatt at jeg må ha vært umulig, ellers hadde de vel ikke gjort det.",
-      "suggestion": "Skylden gjør det som ble gjort mot deg til en dom over barnet som ble låst inne. Hvis det kjennes mulig, bruker vi to stoler for å se hvordan skylden virker. Fra denne stolen sier du til ham at han må ha vært umulig; så bytter vi og hører fra barnet som ikke hadde noen vei ut."
+      "suggestion": "Skylden gjør det som ble gjort mot deg til en dom over barnet som ble låst inne. Vil du prøve to stoler for å høre anklagen og hvordan den virker på deg? Vi kan stoppe når som helst. Hvis du vil prøve, se den yngre siden av deg selv for deg i den andre stolen og si til ham fra stolen med den anklagende stemmen at han må ha vært umulig; så bytter vi og hører fra barnet som ikke hadde noen vei ut."
     },
     "dp_marker-recognition-chairwork_case-marcus_03": {
       "text": "[Rasende] Selv her inne låser kjeven seg når jeg forestiller meg å si til den fosterfaren at jeg hater ham. Jeg hører: «Ikke si det. Ikke gjør det verre.»",
@@ -5932,7 +5932,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-marcus_04": {
       "text": "[Flatt] Jeg sier til meg selv at jeg burde vært over det nå; andre har hatt det verre og fungerer likevel. Når jeg ikke får sove eller fylt ut papirer, sier stemmen at jeg bruker fortiden som unnskyldning.",
-      "suggestion": "Den avvisende stemmen bruker sammenligning for å få traumereaksjonene til å høres ut som unnskyldninger. Hvis det kjennes mulig, setter vi den stemmen i én stol og delen som fortsatt bærer dette i den andre. Start som den avvisende stemmen: si til ham at han burde vært over det nå, og at andre fungerer bedre."
+      "suggestion": "Den avvisende stemmen bruker sammenligning for å få traumereaksjonene til å høres ut som unnskyldninger. Vil du gi den avvisende stemmen én stol og siden som lever med traumereaksjonene den andre? Du kan stoppe. Hvis du vil prøve, begynn som den avvisende stemmen: si til ham at han burde vært over det nå, og at andre fungerer bedre."
     },
     "dp_marker-recognition-chairwork_case-marcus_05": {
       "text": "[Lav stemme] Jeg vil spørre fostermoren min hvorfor ingen kom da jeg banket. Jeg husker at jeg banket stille først, så hardere, og så sluttet fordi jeg tenkte at jeg gjorde det verre. Jeg fikk aldri spurt om hun hørte meg.",
@@ -5940,7 +5940,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-marcus_06": {
       "text": "[Stille og på vakt] Når stemmen min skjelver, slutter jeg å snakke og stirrer i gulvet. Det er som om en hånd kommer over munnen min innenfra: Ikke gi dem mer. Ikke gjør det verre.",
-      "suggestion": "Den indre hånden over munnen stopper den skjelvende stemmen før noen kommer nærmere. Hvis du vil, gjør vi den stopperen synlig med to stoler. Fra denne stolen legger du hånden over munnen hans og sier «ikke gi dem mer»; så flytter vi til den skjelvende stemmen for noen få ord."
+      "suggestion": "Den indre hånden over munnen stopper den skjelvende stemmen før noen kommer nærmere. Vil du prøve to stoler for å se hvordan du stopper deg selv fra å snakke? Hvis du vil prøve, se siden av deg selv som vil snakke for deg i den andre stolen. Fra stolen som stopper, sier du «ikke gi dem mer» til ham; så flytter vi til den skjelvende stemmen for noen få ord."
     },
     "dp_marker-recognition-chairwork_case-marcus_07": {
       "text": "[Bekymret] Hvis jeg sover tungt, er jeg redd jeg våkner tilbake der og ikke vet hvor jeg er. Så jeg lar TV-en stå på og holder meg halvvåken, som om bekymringen står vakt.",
@@ -5952,11 +5952,11 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_marker-recognition-chairwork_case-marcus_09": {
       "text": "[Skamfull] Å trenge hjelp får meg til å si til meg selv at jeg er ubrukelig. Hvis jeg ikke klarer papirarbeid, søvn, telefonsamtaler, vanlige ting, hører jeg: Hva duger du egentlig til? Så slutter jeg å spørre og lar ting hope seg opp.",
-      "suggestion": "Selvangrepet gjør det å trenge hjelp til bevis på at du er ubrukelig, og da blir det stille rundt det å spørre. Hvis det kjennes mulig, setter vi angrepet i én stol og delen som trenger hjelp i den andre. Fra denne stolen sier du «hva duger du egentlig til?»; så bytter vi og lar den trengende siden svare uten å bli presset."
+      "suggestion": "Selvangrepet gjør det å trenge hjelp til bevis på at du er ubrukelig, og da blir det stille rundt det å spørre. Vil du prøve to stoler, én for angrepet og én for siden som trenger hjelp? Vi kan stoppe når som helst. Hvis du vil, sier du fra den første stolen «hva duger du egentlig til?»; så bytter vi og lar den trengende siden svare uten å bli presset."
     },
     "dp_marker-recognition-chairwork_case-marcus_10": {
       "text": "[Anspent og på vakt] Når søsteren min spør om fortiden, hører jeg: «Steng det ned», og så bytter jeg tema.",
-      "suggestion": "«Steng det ned»-stemmen kutter kontakten med fortiden idet søsteren din spør, før noe sårbart får vist seg. Jeg vil bruke to stoler i en kort runde. Fra denne stolen sier du «steng det ned» og viser hvordan du bytter tema; så flytter vi til siden som ble spurt."
+      "suggestion": "«Steng det ned»-stemmen kutter kontakten med fortiden idet søsteren din spør, før noe sårbart får vist seg. Vil du prøve en kort runde med to stoler for å se hvordan du stopper deg selv? Hvis du vil, får stemmen som stopper én stol og siden som blir spurt den andre. Fra den første stolen sier du «steng det ned» og viser hvordan du bytter tema; så flytter vi til siden som ble spurt."
     },
     "dp_alliance-repair_case-sara_01": {
       "text": "[Flau] Av og til tror jeg du blir lei når jeg forteller om bruddet igjen, og da føler jeg meg dum som fortsatt tar det opp her.",
@@ -6288,7 +6288,7 @@ export const STATEMENT_TRANSLATIONS = {
     },
     "dp_alliance-repair_case-marcus_03": {
       "text": "[Hyperårvåken] Når du spør om marerittene, lurer jeg på om du faktisk vet hva du skal gjøre med dette, eller om det er for mye for deg.",
-      "suggestion": "Det spørsmålet fortjener et direkte svar. Hvis jeg spør om marerittene uten å vise stødighet, samtykke og kompetanse, gir det mening at du lurer på om dette er for mye for meg. Jeg beklager at jeg gikk videre før beredskapen var tydelig. Jeg har trening og støtte i traumearbeid, og jeg vil gjøre meg fortjent til tillit ved å gå i et tempo du kan stoppe. Hva trenger du å se fra meg før vi nærmer oss marerittene igjen?"
+      "suggestion": "Takk for at du sier fra. Spørsmålet mitt gjorde deg usikker på om jeg kunne hjelpe med det som kan komme frem. La oss stoppe opp her. Du fortjener et ærlig svar om erfaringen min, grensene mine og støtten jeg har, før du velger om du vil gå videre. Hva trenger du mest å vite?"
     },
     "dp_alliance-repair_case-marcus_04": {
       "text": "[Anspent] Da du ba meg lukke øynene, gikk kroppen min i alarm. Jeg vet det skulle hjelpe meg å fokusere, men for meg kjentes det som å gi fra meg rommet.",

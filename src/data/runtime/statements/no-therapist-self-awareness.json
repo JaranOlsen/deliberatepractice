@@ -3,31 +3,31 @@
     {
       "id": "dp_therapist-self-awareness_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Kjærlig] Jeg lå på sengen og gråt i går kveld, og hunden min krøp opp ved siden av meg, som han alltid gjør. Han la hodet på beinet mitt og ble liggende mens jeg snakket med ham om bruddet. Det høres dumt ut, men han er den eneste som aldri virker lei av at jeg er trist. Jeg vet ikke hvor jeg hadde vært uten ham.",
-      "suggestion": "[Selvbevissthet] Jeg merker varme i brystet og et ømt ønske om å trøste henne; jeg ville bare delt varmen hvis det var nyttig, og tatt redningstrangen med til veiledning."
+      "suggestion": "[Selvbevissthet] Jeg merker varme i brystet og et ønske om å trøste henne. Jeg kan beholde begge deler for meg selv mens jeg lytter, uten å handle på trangen til å redde henne."
     },
     {
       "id": "dp_therapist-self-awareness_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Nervøs] Jeg er glad for at jeg bestilte denne timen, men jeg er også nervøs, for jeg har egentlig aldri gått i terapi før. En del av meg er redd for at jeg bare kommer til å sitte her og snakke om ham i en time, og at du tenker at dette ikke er et ordentlig problem. En annen del er redd for at hvis jeg begynner å snakke, kommer jeg til å gråte og ikke klare å stoppe.",
-      "suggestion": "[Selvbevissthet] Jeg kjenner et drag mot å berolige henne raskt og strukturere timen for henne; jeg ville lagt merke til den roligere pusten jeg tar, heller enn å skynde meg å fikse angsten."
+      "suggestion": "[Selvbevissthet] Jeg merker en trang til å berolige henne raskt og strukturere timen for henne. Jeg stopper litt opp og legger merke til pusten før jeg lar trangen styre det jeg gjør."
     },
     {
       "id": "dp_therapist-self-awareness_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -39,19 +39,19 @@
     {
       "id": "dp_therapist-self-awareness_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Ukomfortabel] I natt hadde jeg en rar drøm om at jeg var tilbake i den gamle leiligheten og pakket esker. Jeg kunne høre ham i et annet rom, men hver gang jeg åpnet en dør, var rommet tomt. Så var du plutselig der og hjalp meg å teipe igjen en eske. I drømmen ble jeg lettet, og så våknet jeg flau over at du var med i det hele tatt.",
-      "suggestion": "[Selvbevissthet] Jeg merker nysgjerrighet, litt flauhet og et ønske om å tolke drømmen; jeg ville bare delt den umiddelbare kroppslige reaksjonen, ikke tolkningen."
+      "suggestion": "[Selvbevissthet] Jeg merker nysgjerrighet, litt flauhet og et ønske om å tolke drømmen. Jeg kan legge merke til reaksjonene for meg selv uten å gjøre dem til en tolkning eller dele dem med henne."
     },
     {
       "id": "dp_therapist-self-awareness_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -63,7 +63,7 @@
     {
       "id": "dp_therapist-self-awareness_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -75,7 +75,7 @@
     {
       "id": "dp_therapist-self-awareness_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -87,7 +87,7 @@
     {
       "id": "dp_therapist-self-awareness_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -99,7 +99,7 @@
     {
       "id": "dp_therapist-self-awareness_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -111,19 +111,19 @@
     {
       "id": "dp_therapist-self-awareness_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Stille] Jeg flyttet etter bruddet, og jeg trodde utpakkingen skulle få meg til å føle at jeg startet på nytt. I stedet kjennes hver eske som bevis på at jeg gjør dette alene. Jeg fant noen kopper vi kjøpte sammen og ble stående i tjue minutter, og etterpå følte jeg meg latterlig fordi folk kommer seg videre etter brudd hele tiden.",
-      "suggestion": "[Selvbevissthet] Jeg merker tristhet og et drag mot å gjøre ensomheten mindre for henne; hvis jeg valgte å dele noe, ville jeg navngitt tristheten i meg uten å gjøre den til trøst."
+      "suggestion": "[Selvbevissthet] Jeg merker tristhet og et ønske om å gjøre ensomheten mindre for henne. Jeg kan være oppmerksom på tristheten uten å skynde meg å trøste eller be henne ta vare på reaksjonen min."
     },
     {
       "id": "dp_therapist-self-awareness_case-sara_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -135,7 +135,7 @@
     {
       "id": "dp_therapist-self-awareness_case-sara_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -149,7 +149,7 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -161,19 +161,19 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Defensiv] Den forrige coachen min ga meg pusteverktøy på to timer, og da føltes det i det minste praktisk. Jeg sier ikke at det fikset alt, men jeg visste hva jeg skulle gjøre. Jeg håper ikke dette blir en lang runde gjennom barndommen mens kona mi sitter hjemme og vurderer om hun orker meg. Jeg trenger å vite at du har en plan.",
-      "suggestion": "[Selvbevissthet] Jeg merker forsvar på terapiens vegne og et ønske om å konkurrere med den forrige coachen; jeg ville holdt konkurransetrangen privat og bare navngitt ønsket om å holde meg forankret."
+      "suggestion": "[Selvbevissthet] Jeg merker at jeg vil forsvare terapien og konkurrere med den forrige coachen. Jeg beholder reaksjonen for meg selv og legger merke til presset om å bevise hva jeg kan, før jeg svarer."
     },
     {
       "id": "dp_therapist-self-awareness_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -185,7 +185,7 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -197,19 +197,19 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Defensiv] Hvis jeg beklager først, oppfører kona mi seg som om det beviser at hele krangelen var min feil. Kanskje hun ikke sier det direkte, men det er sånn det kjennes. Da ser jeg svak ut, og hun får være den rimelige igjen. Jeg vet det høres smålig ut, men jeg tåler ikke å gi noen bevis på at de vant.",
-      "suggestion": "[Selvbevissthet] Jeg merker en trang til å overtale ham i retning av beklagelse og en liten stramming i brystet; jeg ville markert den trangen som min og ikke delt mer enn det som kjennes respektfullt."
+      "suggestion": "[Selvbevissthet] Jeg merker en trang til å overtale ham til å be om unnskyldning og en stramming i brystet. Jeg kjenner igjen trangen som min og stopper opp før den blir til press på ham."
     },
     {
       "id": "dp_therapist-self-awareness_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -221,7 +221,7 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -233,7 +233,7 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -245,7 +245,7 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -257,7 +257,7 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -269,7 +269,7 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -281,7 +281,7 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -295,7 +295,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -307,7 +307,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -319,7 +319,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -331,7 +331,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -343,7 +343,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -355,7 +355,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -367,7 +367,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -379,7 +379,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -391,7 +391,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -403,7 +403,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -415,7 +415,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -427,7 +427,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -441,7 +441,7 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -453,7 +453,7 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -465,19 +465,19 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Anspent og på vakt] Jeg vil helst ikke snakke om fortiden i dag. Jeg vet at det sikkert henger sammen med hvorfor jeg er her, men bare det å si det får armene mine til å kjennes tunge og synet til å bli litt fjernt. Hvis du presser, kommer jeg til å svare høflig og så forsvinne inni meg. Det har jeg gjort med terapeuter før, og de merker det som regel ikke før jeg slutter å komme.",
-      "suggestion": "[Selvbevissthet] Jeg merker ansvarspress og et ønske om å bevise at jeg ikke kommer til å presse; jeg ville bare delt intensjonen om å senke tempoet hvis det var klinisk nyttig."
+      "suggestion": "[Selvbevissthet] Jeg merker press om å ta ansvar og bevise at jeg ikke vil presse henne. Jeg stopper opp og legger merke til presset i meg selv, fremfor å gi et løfte for å lette mitt eget ubehag."
     },
     {
       "id": "dp_therapist-self-awareness_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -489,7 +489,7 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -501,7 +501,7 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -513,7 +513,7 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -525,7 +525,7 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -537,19 +537,19 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Anspent og på vakt] Jeg tror jeg er ødelagt på en måte folk til slutt blir lei av. Først er de tålmodige fordi historien høres trist ut, og så skjønner de at jeg fortsatt ikke klarer normale ting som å svare på meldinger, sove gjennom natten eller tro at noen ikke er sint. Jeg sier det nå fordi jeg heller vil vite tidlig om dette er for mye.",
-      "suggestion": "[Selvbevissthet] Jeg merker tristhet og et ønske om å love utholdenhet; jeg ville holdt løfteimpulsen synlig for meg selv og bare delt det jeg faktisk kan eie."
+      "suggestion": "[Selvbevissthet] Jeg merker tristhet og et ønske om å love at jeg alltid vil bli. Jeg kan beholde ønsket for meg selv og kjenne igjen trangen til å love mer enn jeg faktisk kan tilby."
     },
     {
       "id": "dp_therapist-self-awareness_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -561,7 +561,7 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -573,7 +573,7 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -587,7 +587,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -599,7 +599,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -611,7 +611,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -623,7 +623,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -635,7 +635,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -647,7 +647,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -659,19 +659,19 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Sint, med knyttede never] Etter at jeg ikke fikk forfremmelsen, så jeg for meg at jeg gikk inn i brakka og slo sjefen så hardt at han endelig holdt kjeft. Jeg sier ikke at jeg skulle gjøre det, men bildet var der, helt klart. Han fortsatte å snakke til meg som om jeg var ingenting, som om alle ekstratimene ikke betydde noe. Jeg kjørte rundt i en time før jeg dro hjem.",
-      "suggestion": "[Selvbevissthet] Jeg merker alarm i magen og en trang til å håndtere risiko raskt; jeg ville forankret meg før jeg bestemmer hva, om noe, jeg skal dele om alarmen."
+      "suggestion": "[Selvbevissthet] Jeg merker alarm i magen og en trang til å ta kontroll raskt. Jeg stopper opp for å legge merke til hastverket i meg selv, så det ikke styrer neste svar for meg."
     },
     {
       "id": "dp_therapist-self-awareness_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -683,7 +683,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -695,7 +695,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -707,7 +707,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -719,7 +719,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -733,7 +733,7 @@
     {
       "id": "dp_therapist-self-awareness_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -745,7 +745,7 @@
     {
       "id": "dp_therapist-self-awareness_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -757,19 +757,19 @@
     {
       "id": "dp_therapist-self-awareness_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Skyldpreget] I kirken lærte jeg at bitterhet betyr at jeg svikter som et godt menneske. Jeg vet at ikke alle ser det sånn, og jeg ber deg ikke være enig i troen min. Men hvis du ikke forstår den delen av meg, er jeg redd du bare vil be meg være egoistisk og kalle det grenser. Jeg vil ikke at terapi skal gjøre meg til en familien min ikke kjenner igjen.",
-      "suggestion": "[Selvbevissthet] Jeg merker antakelser om tro og et ønske om å vise respekt raskt; jeg ville observert det presset og bare delt det som kjennes ekte."
+      "suggestion": "[Selvbevissthet] Jeg merker antakelser om tro og press om å vise at jeg forstår. Jeg kan beholde antakelsene for meg selv og legge merke til det jeg ennå ikke vet om opplevelsen hennes."
     },
     {
       "id": "dp_therapist-self-awareness_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -781,19 +781,19 @@
     {
       "id": "dp_therapist-self-awareness_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[På gråten] Jeg kjenner at tårene kommer, og jeg vil beklage så du ikke føler deg belastet. Jeg vet at du er terapeut og at dette sikkert er normalt for deg, men jeg ser likevel for meg at du blir lei av meg. Folk har nok å bære uten at jeg legger mitt rot oppå. Så selv når jeg gråter, sjekker en del av meg om det er for mye.",
-      "suggestion": "[Selvbevissthet] Jeg merker den særlige ømheten i å bli beskyttet av klienten og et ønske om å berolige henne; jeg ville navngitt det inni meg før jeg bestemmer hva jeg skal dele."
+      "suggestion": "[Selvbevissthet] Jeg merker ømhet ved at hun vil beskytte meg, og et ønske om å berolige henne. Jeg kjenner igjen begge deler som mine reaksjoner, uten at hun trenger å ta vare på følelsene mine."
     },
     {
       "id": "dp_therapist-self-awareness_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -805,7 +805,7 @@
     {
       "id": "dp_therapist-self-awareness_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -817,19 +817,19 @@
     {
       "id": "dp_therapist-self-awareness_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Skamfull] Jeg hater å trenge hjelp med skjemaer og penger. Jeg kan håndtere et klasserom fullt av barn, huske alles allergier, sende bursdagsgaver, og likevel stirre på ett offentlig skjema til jeg føler meg som et barn. Når jeg ber mannen min om hjelp, er han snill med det, og det gjør det nesten verre. Jeg føler at han ser hvor ute av stand jeg egentlig er.",
-      "suggestion": "[Selvbevissthet] Jeg merker en praktisk redningsimpuls og et ønske om å gjenreise verdigheten hennes; jeg ville fulgt trangen til å hjelpe med skjemaet heller enn følelsen."
+      "suggestion": "[Selvbevissthet] Jeg merker en trang til å hjelpe praktisk og et ønske om å gjenreise verdigheten hennes. Jeg legger merke til hvor raskt jeg vil løse problemet med skjemaet i stedet for å være oppmerksom på det jeg selv kjenner."
     },
     {
       "id": "dp_therapist-self-awareness_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -841,19 +841,19 @@
     {
       "id": "dp_therapist-self-awareness_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Lavmælt] Etter separasjonen setter jeg fortsatt frem en kopp til ham noen morgener. Det skjer før jeg tenker, som om hendene mine husker den gamle rutinen før hodet henger med. Så oppdager jeg det og føler meg dum, og setter den raskt tilbake før guttene ser det. Jeg vet ikke engang om jeg savner ham eller bare savner at livet ga mening.",
-      "suggestion": "[Selvbevissthet] Jeg merker tristhet og et ønske om å beskytte henne mot flauheten; hvis jeg valgte å dele noe, ville jeg bare delt tristheten."
+      "suggestion": "[Selvbevissthet] Jeg merker tristhet og et ønske om å beskytte henne mot flauheten. Jeg kan beholde begge deler for meg selv mens jeg lytter, uten at ubehaget mitt får meg til å skynde henne forbi det hun forteller."
     },
     {
       "id": "dp_therapist-self-awareness_case-nina_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -865,7 +865,7 @@
     {
       "id": "dp_therapist-self-awareness_case-nina_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -879,7 +879,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -891,7 +891,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -903,7 +903,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -915,7 +915,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -927,7 +927,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -939,7 +939,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -951,7 +951,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -963,7 +963,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -975,7 +975,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -987,7 +987,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -999,7 +999,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1011,7 +1011,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1025,7 +1025,7 @@
     {
       "id": "dp_therapist-self-awareness_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1037,7 +1037,7 @@
     {
       "id": "dp_therapist-self-awareness_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1049,31 +1049,31 @@
     {
       "id": "dp_therapist-self-awareness_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Kravstor] Jeg trenger effektive løsninger, ikke en langsom rundtur i følelsene mine. Jeg har et ekteskapsproblem, et omdømmeproblem og et tidsproblem. Hvis metoden er å sitte med ubehag til noe magisk skjer, er jeg skeptisk. Jeg er villig til å gjøre vanskelig arbeid, men jeg må se at du kan skille dybde fra ineffektivitet.",
-      "suggestion": "[Selvbevissthet] Jeg merker press om å få EFT til å høres effektivt og imponerende ut; jeg ville fulgt prestasjonskravet i meg og holdt all selvavsløring avgrenset."
+      "suggestion": "[Selvbevissthet] Jeg merker press om å få EFT til å høres effektivt og imponerende ut. Jeg stopper opp og legger merke til ønsket om å prestere, fremfor å handle på det for å bevise verdien av terapien eller meg selv."
     },
     {
       "id": "dp_therapist-self-awareness_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Skeptisk] Har du egentlig nok erfaring med noen som meg, eller er dette bare standardterapi med bedre innpakning? Jeg prøver ikke å være vanskelig. Jeg har alvorlige ting på bordet, inkludert en affære og et ekteskap som kan kollapse. Jeg vil ikke være noens læringserfaring. Hvis du er ute på dypt vann, foretrekker jeg at du sier det.",
-      "suggestion": "[Selvbevissthet] Jeg merker forsvar, stolthet og uro for å bli vurdert; jeg ville roet meg litt før jeg deler noe, så jeg ikke gjør ham ansvarlig for min kompetanseuro."
+      "suggestion": "[Selvbevissthet] Jeg merker at jeg vil forsvare meg, stolthet og uro for å bli vurdert. Jeg kan beholde reaksjonene for meg selv og legge merke til pusten uten å gjøre ham ansvarlig for min uro om egen kompetanse."
     },
     {
       "id": "dp_therapist-self-awareness_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1085,7 +1085,7 @@
     {
       "id": "dp_therapist-self-awareness_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1097,7 +1097,7 @@
     {
       "id": "dp_therapist-self-awareness_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1109,7 +1109,7 @@
     {
       "id": "dp_therapist-self-awareness_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1121,7 +1121,7 @@
     {
       "id": "dp_therapist-self-awareness_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1133,7 +1133,7 @@
     {
       "id": "dp_therapist-self-awareness_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1145,7 +1145,7 @@
     {
       "id": "dp_therapist-self-awareness_case-david_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1157,7 +1157,7 @@
     {
       "id": "dp_therapist-self-awareness_case-david_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1171,7 +1171,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1183,7 +1183,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1195,7 +1195,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1207,7 +1207,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1219,7 +1219,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1231,7 +1231,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1243,7 +1243,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1255,7 +1255,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1267,7 +1267,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1279,7 +1279,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1291,7 +1291,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1303,7 +1303,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",

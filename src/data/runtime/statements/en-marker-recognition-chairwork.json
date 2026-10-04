@@ -3,7 +3,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -15,7 +15,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -27,7 +27,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -39,7 +39,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -51,7 +51,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -63,7 +63,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -75,7 +75,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -87,19 +87,19 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Hesitant] I imagine telling him, You left me alone with all of this, and then I stop myself. My throat closes and I think, Do not send that, do not be pathetic, he already chose to go.",
-      "suggestion": "There are two markers here, and the unfinished business with him gives us the clearest starting point. Let's place him in the empty chair and let you say only the first line, 'You left me alone with all of this,' stopping as soon as your throat begins to close."
+      "suggestion": "There are words you have not been able to say to him. Would you like to try one sentence with him imagined in the empty chair? If you choose to try, begin with 'You left me alone with all of this,' and we can stop if your throat begins to close."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -111,7 +111,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -123,7 +123,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -135,7 +135,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-sara_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -149,19 +149,19 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Tense and ashamed] Whenever I feel hurt, especially when my wife says I look wounded, my father's words come back: Stop being weak and get control. Then I straighten up and start talking like nothing landed.",
-      "suggestion": "Your father's command has become an internal voice that shuts the hurt down. Would you be willing to give that command one chair and the wounded side the other? Start in the command chair and say, 'stop being weak and get control,' directly to him."
+      "suggestion": "Your father's command has become an internal voice that shuts the hurt down. Would you be willing to give that command one chair and the wounded side the other? If you agree, imagine yourself in the other chair. From the command chair, say 'stop being weak and get control' to that hurt side of yourself."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -173,19 +173,19 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Tense] The second I start to soften, I hear, Get it together, and I start listing what I should have done better.",
-      "suggestion": "The softer feeling starts to appear, and the command cuts in. Let's make that interruption visible with two chairs: from this chair, say 'get it together' and list what he should have done better; then we will move to the softer side."
+      "suggestion": "The softer feeling starts to appear, and the command cuts in. Would you try two chairs to see how you stop that feeling? If you agree, picture the softer side of yourself opposite. From this chair, say 'get it together' and tell that side of yourself what he should have done better; then we will move to the softer side."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -197,7 +197,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -209,19 +209,19 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Tense] When my wife reaches for me after a fight, I make a joke or start talking about what needs fixing.",
-      "suggestion": "The joke and the fixing pull you away just as softness comes close. Could we give that steering-away side this chair? Show how it moves him into joking or fixing; then we will move to the softer side and let it answer."
+      "suggestion": "The joke and the fixing pull you away just as softness comes close. Would you try two chairs to see how you turn away? If you agree, picture the softer side of yourself opposite and show how you steer him into joking or fixing; then we will move to the softer side and let it answer."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -233,7 +233,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -245,7 +245,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -257,19 +257,19 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Tense] I start to say sorry, and then a voice says, Do not fold. It tells me that if I soften first, my wife wins and I lose the last bit of respect I have. So I swallow the apology and talk about what she did instead.",
-      "suggestion": "The 'do not fold' voice stops the apology by making repair feel like defeat. Let's give that voice this chair first: make its case for swallowing the apology. Then we will move to the side that wanted to repair and hear what gets blocked."
+      "suggestion": "The 'do not fold' voice stops the apology by making repair feel like defeat. Would you try two chairs to hear that voice and the side wanting to repair? If you agree, start as the 'do not fold' voice and tell the other side why he must swallow the apology. Then we will move to the side that wanted to repair and hear what gets blocked."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-michael_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -281,7 +281,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-michael_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -295,7 +295,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -307,7 +307,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -319,7 +319,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -331,7 +331,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -343,7 +343,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -355,7 +355,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -367,7 +367,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -379,7 +379,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -391,7 +391,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -403,7 +403,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -415,7 +415,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -427,7 +427,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-jason_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -441,7 +441,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -453,7 +453,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -465,103 +465,103 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Tense and tearful] When my ex moved out, I did not cry. I cleaned the kitchen and felt nothing, like I should have been hurt but I was just blank.",
-      "suggestion": "The cleaning and blankness seem to stop the hurt before it reaches you. If it feels safe enough, let's give that blocking side one chair: show how you go blank and keep cleaning. Then we will move to the hurt side and let it have only a few words."
+      "suggestion": "The cleaning and blankness seem to stop the hurt before it reaches you. Would you look at that stopping with two chairs, without pushing past it? If you choose to try, give the blocking side one chair and the hurt side the other. From the blocking chair, show how you go blank and keep cleaning. Then we will move to the hurt side and let it have only a few words."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Distant] I keep wondering whether my ex knew what would happen after he left, that I would turn it all back on myself. I want to ask him, Did you know I would carry the blame for both of us?",
-      "suggestion": "He is the person you want to ask about being left with all the blame. If it feels manageable, we can put him in the empty chair and let the question go directly to him: 'Did you know I would carry the blame for both of us?'"
+      "suggestion": "He is the person you want to ask about being left with all the blame. Would you like to try asking him using the empty chair? If you choose to try, imagine him at a distance you choose and ask: 'Did you know I would carry the blame for both of us?' We can pause after that."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Flat and guarded] I still tell myself I am damaged goods. It comes up when someone is kind to me or when I think about dating again. I hear, They would leave if they knew enough, so do not let anyone get too close.",
-      "suggestion": "The 'damaged goods' voice warns you away from closeness before anyone can choose you. If it feels safe enough, we can put that voice in one chair and the part that hears it in the other. From this chair, say, 'they would leave if they knew enough'; then we will switch and hear what it is like to receive that warning."
+      "suggestion": "The 'damaged goods' voice warns you away from closeness before anyone can choose you. Would you try two chairs, one for that voice and one for the side hearing it? We can stop at any point. If you agree, from the first chair, say, 'they would leave if they knew enough'; then we will switch and hear what it is like to receive that warning."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Slow and flat] When anger starts, I wipe the counter, check the locks, or pour a drink until the feeling disappears. I do not decide to stop it; I just become busy and far away before it has words.",
-      "suggestion": "The wiping, checking, and pouring are how the anger gets carried away before it can speak. If it feels safe enough, we can put that busy, far-away side in this chair first; show how it makes the anger disappear. Then we will move to the anger side and give it a few words without forcing it."
+      "suggestion": "The wiping, checking, and pouring are how the anger gets carried away before it can speak. Would you try two chairs to see how you move away from the anger? If you choose to try, give the busy side one chair and the anger the other. From the first chair, show how it makes the anger disappear. Then we will move to the anger side and give it a few words without forcing it."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Ashamed] I tell myself I should have known better than to trust him. I go over little signs I ignored and make a case against myself, like I was stupid for wanting to believe he was safe.",
-      "suggestion": "The blame is building a case against the part that wanted safety. Can we put that case-making voice in this chair and have it speak directly: 'you should have known better; you were stupid to trust him'? Then we will switch to the trusting part that got hurt."
+      "suggestion": "The blame is building a case against the part that wanted safety. Would you try two chairs to hear that blame and its impact? If you choose to try, picture the trusting side of yourself opposite. From the blaming chair, say: 'you should have known better; you were stupid to trust him'. Then we will switch to the trusting part that got hurt."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Low voice] I never told the man who hurt me, You do not get to decide what I am worth.",
-      "suggestion": "That is unfinished business with the person who hurt you. If it feels safe enough and we go very slowly, we can place him in the empty chair and let you say only that sentence, with pauses and control."
+      "suggestion": "That is unfinished business with the person who hurt you. Would you try that one sentence with him imagined in the empty chair? You can choose the distance and stop at any point. If you want to try, picture him there and say only the words you just used."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Tense and ashamed] When I start to say I am angry, I hear, Do not make trouble. My shoulders go tight, my voice gets polite, and suddenly I am explaining why it was probably not a big deal.",
-      "suggestion": "The 'do not make trouble' voice stops anger before it has a chance to stand up. Let's give that voice this chair first: say the warning and make its case. Then we will move to the angry side and hear one or two plain sentences."
+      "suggestion": "The 'do not make trouble' voice stops anger before it has a chance to stand up. Would you try two chairs, one for that warning and one for the anger? If you agree, start as the warning voice and tell the angry side why she must not speak. Then we will move to the angry side and hear one or two plain sentences."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Distant] I still picture my bedroom door after it happened, waiting to hear my mother come down the hall. She never did. I want to ask her, Why did you never come to my room afterward?",
-      "suggestion": "Your mother is missing from the hallway after it happened, and the question is still there. If it feels manageable, we can bring her into the empty chair and ask, 'Why did you never come to my room afterward?' only as far as feels tolerable."
+      "suggestion": "Your mother is missing from the hallway after it happened, and the question is still there. Would you try asking her using the empty chair? If you want to, picture her at a distance you choose and begin with 'Why did you never come to my room afterward?' We can stop after that one sentence."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-laura_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -573,7 +573,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-laura_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -587,19 +587,19 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Angry, clenching fists] After I punched the wall, I kept thinking, What kind of man scares his own family? I saw my son's face and then the attack started, like there was no father left, only some dangerous man in the kitchen.",
-      "suggestion": "The wall punch turns into an attack on the father in you. Can we work with that blame for a moment? Sit in this chair and say it directly to him: 'what kind of man scares his own family?' Then we will switch and hear what that does to him."
+      "suggestion": "The wall punch turns into an attack on the father in you. Would you try two chairs to hear the blame and its impact? This does not excuse frightening your family. If you agree, picture yourself opposite and, from the blaming chair, say: 'what kind of man scares his own family?' Then we will switch and hear what that does to him."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -611,19 +611,19 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Tense and ashamed] I start to say sorry to my son, and my mouth shuts. I think, don't show weakness, and my face goes hard.",
-      "suggestion": "The apology starts, and the hard face closes over it before it reaches your son. Would you be willing to set up two chairs? From this chair, tell him not to show weakness and argue for staying hard; then we will move to the father who wanted to repair."
+      "suggestion": "The apology starts, and the hard face closes over it before it reaches your son. Would you be willing to set up two chairs? If you agree, picture the side wanting to repair in the other chair. From this chair, tell that side of yourself not to show weakness and argue for staying hard; then we will move to the father who wanted to repair."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -635,7 +635,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -647,19 +647,19 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Tense] When my voice shakes, I cough, sit up straighter, and make my face hard. I can almost hear my father saying, Do not let them see you like that, so I turn it into a stare.",
-      "suggestion": "The hard face turns the shaking into something no one can see. Let's use two chairs to show that process. From this chair, harden the face and say, 'do not let them see you like that'; then we will move to the side that was shaking."
+      "suggestion": "The hard face turns the shaking into something no one can see. Would you try two chairs to see how you stop the shaking? If you agree, give the hard-faced side one chair and the shaking side the other. From the first chair, harden the face and say, 'do not let them see you like that'; then we will move to the side that was shaking."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -671,7 +671,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -683,19 +683,19 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Low voice] I wish I could tell my wife I get scared when she looks at me like she is afraid.",
-      "suggestion": "That sentence belongs directly with your wife, where the fear between you can be named. We can place her in the empty chair and let you say it slowly: 'I get scared when you look afraid of me,' without forcing more than one or two lines."
+      "suggestion": "That sentence belongs directly with your wife, where the fear between you can be named. Would you try saying it with her imagined in the empty chair? If you agree, picture her there and begin slowly with: 'I get scared when you look afraid of me,' without forcing more than one or two lines."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -707,7 +707,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -719,7 +719,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-carlos_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -733,7 +733,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -745,7 +745,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -757,7 +757,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -769,7 +769,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -781,7 +781,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -793,7 +793,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -805,31 +805,31 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Guilty] If dinner is not ready, I call myself useless. I can have worked all day, answered everyone's messages, helped the boys, and still one missed thing becomes proof that I am failing at the only job that matters.",
-      "suggestion": "The missed dinner becomes a voice saying your whole worth depends on constant care. We can put the 'useless' voice in one chair and the tired part in the other. From this chair, tell her the missed dinner proves she is failing; then we will switch and hear from the exhausted side carrying so much."
+      "suggestion": "The missed dinner becomes a voice saying your whole worth depends on constant care. Would you try two chairs, one for the 'useless' voice and one for the tired side? If you agree, from the first chair, tell her the missed dinner proves she is failing; then we will switch and hear from the exhausted side carrying so much."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Tearful] I still want to tell my ex, You left and somehow I am the one still apologizing. I handle the forms, the boys, the messages, and I still hear myself explaining why I am not doing enough.",
-      "suggestion": "Your ex belongs in the empty chair for the apology you are still carrying. We can place him there and let you say the sentence directly: 'You left, and somehow I am the one still apologizing.' Then we pause and notice what it brings up."
+      "suggestion": "The apology you are still carrying is directed toward your ex. Would you try saying it with him imagined in the empty chair? If you want to, picture him there and begin with: 'You left, and somehow I am the one still apologizing.' Then we pause and notice what it brings up."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -841,7 +841,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -853,7 +853,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -865,7 +865,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-nina_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -879,7 +879,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -891,7 +891,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -903,19 +903,19 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Fearful and ashamed] After everything that happened to me, I call myself dirty and impossible to love. When someone touches me kindly, the first voice says they would leave if they knew the whole story.",
-      "suggestion": "The attack calls you dirty for what was done to you, and that leaves the wounded side alone with the shame. If it feels safe enough, we can put the attacking voice in one chair and the wounded side in the other. First let the attack say its exact words; then we will switch and hear the side that has carried them."
+      "suggestion": "The attack calls you dirty for what was done to you, and that leaves the wounded side alone with the shame. Would you try two chairs to hear that attack and its impact, one sentence at a time? We can stop at any point. If you choose to try, give the attack one chair and the hurt side the other. First let the attack say its exact words; then we will switch and hear the side that has carried them."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -927,19 +927,19 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Furious] I still want to say to my mother, You left me with people who hurt me. I was a kid, and you kept choosing them, then acting shocked that I was angry.",
-      "suggestion": "There is unfinished business with your mother around being left unprotected and then having your anger treated as the problem. If it feels safe enough, we can bring her into the empty chair so the anger has a direct place to go. Begin with, 'You left me with people who hurt me,' and we will pause after that."
+      "suggestion": "There is unfinished business with your mother around being left unprotected and then having your anger treated as the problem. Would you try one sentence to her using the empty chair? You can choose the distance and stop. If you want to try, picture her there and begin with 'You left me with people who hurt me,' and we will pause after that."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -951,7 +951,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -963,7 +963,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -975,7 +975,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -987,7 +987,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -999,7 +999,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1011,7 +1011,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-aisha_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1025,7 +1025,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1037,19 +1037,19 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Dismissive] My wife says she might be done, and I tell myself only an idiot destroys his own family and still expects sympathy.",
-      "suggestion": "There is a harsh blaming voice turning the marriage pain into proof that you deserve no sympathy. Can we work with that attack for a moment? Sit in this chair as the hard side and tell him he is an idiot who destroyed his family; then we will switch and hear what that does to him."
+      "suggestion": "There is a harsh blaming voice turning the marriage pain into proof that you deserve no sympathy. Would you try two chairs to hear that attack and its impact? If you agree, picture yourself in the other chair. From the attacking chair, tell that side of yourself he is an idiot who destroyed his family; then we will switch and hear what that does to him."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1061,19 +1061,19 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Dismissive] I tell myself mediocre men lose their families and deserve it. The word mediocre is worse than cruel; it means I became ordinary, replaceable, the kind of man nobody has a reason to choose.",
-      "suggestion": "That sounds like a harsh self-evaluative voice tying your worth to exceptional performance and using mediocrity as a sentence. We can put that voice in one chair and the part of you it attacks in the other. From this chair, say exactly why mediocre men deserve to lose; then we will switch and let the attacked side respond."
+      "suggestion": "That sounds like a harsh self-evaluative voice tying your worth to exceptional performance and using mediocrity as a sentence. Would you give that voice one chair and the side it attacks the other? If you agree, from the first chair, say exactly why mediocre men deserve to lose; then we will switch and let the attacked side respond."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1085,7 +1085,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1097,7 +1097,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1109,7 +1109,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1121,19 +1121,19 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Ashamed] I tell myself the affair proves I am trash. Not just that I did something destructive, but that underneath the title, the money, all of it, this is who I actually am. Then I hate myself for sounding dramatic.",
-      "suggestion": "That is a severe self-attack around the affair, turning behavior into a verdict on your whole self. We can put the voice that says 'trash' in one chair and the ashamed side in the other. From this chair, let the attack say the whole verdict; then we will switch so you can hear and answer it rather than only endure it."
+      "suggestion": "That is a severe self-attack around the affair, turning behavior into a verdict on your whole self. Would you try two chairs, one for the voice saying 'trash' and one for the ashamed side? Understanding the attack does not excuse the affair. If you agree, from the first chair, let the attack say the whole verdict; then we will switch so you can hear and answer it rather than only endure it."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1145,7 +1145,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1157,7 +1157,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-david_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1171,7 +1171,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1183,19 +1183,19 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Low voice] They locked me in the closet, and I still think I must have been impossible, or they would not have done it.",
-      "suggestion": "The blame turns what was done to you into a verdict on the child who was locked in. If it feels possible, we can use two chairs to see how that blame works. From this chair, tell him he must have been impossible; then we will switch and hear from the child who had no way out."
+      "suggestion": "The blame turns what was done to you into a verdict on the child who was locked in. Would you try two chairs to hear the blame and how it affects you? We can stop at any point. If you choose to try, imagine that younger side of yourself opposite and, from the blaming chair, tell him he must have been impossible; then we will switch and hear from the child who had no way out."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1207,19 +1207,19 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Flat] I tell myself I should be over it by now; other people had it worse and still function. When I cannot sleep or fill out paperwork, the voice says I am using the past as an excuse.",
-      "suggestion": "The dismissing voice uses comparison to make the impact of trauma sound like an excuse. If it feels workable, we can put that voice in one chair and the part still carrying it in the other. Start as the dismissing voice: tell him he should be over it by now and that others function better."
+      "suggestion": "The dismissing voice uses comparison to make the impact of trauma sound like an excuse. Would you give that dismissing voice one chair and the side living with the trauma the other? You can stop. If you choose to try, start as the dismissing voice: tell him he should be over it by now and that others function better."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1231,19 +1231,19 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Quiet and guarded] When my voice shakes, I stop talking and stare at the floor. It is like a hand comes over my mouth from the inside: Do not give them more. Do not make it worse.",
-      "suggestion": "The inner hand over the mouth stops the shaking voice before anyone gets more access. If you are willing, we can make that stopper visible in two chairs. From this chair, put the hand over his mouth and say 'do not give them more'; then we will move to the shaking voice for a few words."
+      "suggestion": "The inner hand over the mouth stops the shaking voice before anyone gets more access. Would you try two chairs to see how you stop yourself from speaking? If you choose to try, imagine the part of yourself wanting to speak in the other chair. From the stopping chair, tell him 'do not give them more'; then we will move to the shaking voice for a few words."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1255,7 +1255,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1267,19 +1267,19 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
         "legacy_matrix_item"
       ],
       "text": "[Ashamed] Needing help makes me tell myself I am useless. If I cannot handle paperwork, sleep, phone calls, normal things, then I hear, What are you even good for? So I stop asking and let things pile up.",
-      "suggestion": "The self-attack turns needing help into proof that you are useless, and then asking goes silent. If it feels workable, we can put that attack in one chair and the part needing help in the other. From this chair, say 'what are you even good for?'; then we will switch and let the needing side answer without being pushed."
+      "suggestion": "The self-attack turns needing help into proof that you are useless, and then asking goes silent. Would you try two chairs, one for the attack and one for the side needing help? We can stop at any point. If you agree, from the first chair, say 'what are you even good for?'; then we will switch and let the needing side answer without being pushed."
     },
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1291,7 +1291,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",
@@ -1303,7 +1303,7 @@
     {
       "id": "dp_marker-recognition-chairwork_case-marcus_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v1",
       "criteriaTags": [
         "recognize_marker",
         "offer_task_setup",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-02T18:34:37.094Z",
-  "revision": "2026-10-02-v2",
+  "generatedAt": "2026-10-04T00:14:51.819Z",
+  "revision": "2026-10-04-v1",
   "instructions": [
     "Open each listed item in the app in English and Norwegian.",
     "Confirm case voice, skill purity, difficulty fit, response naturalness, and translation tone.",
@@ -32,11 +32,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Loving] I was crying on the bed last night and my dog climbed up beside me like he always does. He put his head on my leg and stayed there while I talked to him about the breakup. It sounds silly, but he is the only one who never seems tired of me being sad. I do not know where I would be without him.",
-                "response": "[Self-awareness] I notice warmth in my chest and a tender wish to comfort her; I would disclose the warmth if useful and keep the rescuing impulse for supervision."
+                "response": "[Self-awareness] I notice warmth in my chest and a wish to comfort her. I can hold both privately while listening, without acting on the rescuing impulse."
               },
               "no": {
                 "statement": "[Kjærlig] Jeg lå på sengen og gråt i går kveld, og hunden min krøp opp ved siden av meg, som han alltid gjør. Han la hodet på beinet mitt og ble liggende mens jeg snakket med ham om bruddet. Det høres dumt ut, men han er den eneste som aldri virker lei av at jeg er trist. Jeg vet ikke hvor jeg hadde vært uten ham.",
-                "response": "[Selvbevissthet] Jeg merker varme i brystet og et ømt ønske om å trøste henne; jeg ville bare delt varmen hvis det var nyttig, og tatt redningstrangen med til veiledning."
+                "response": "[Selvbevissthet] Jeg merker varme i brystet og et ønske om å trøste henne. Jeg kan beholde begge deler for meg selv mens jeg lytter, uten å handle på trangen til å redde henne."
               }
             },
             {
@@ -424,11 +424,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Trembling] Every presentation at work makes my hands shake, and then I feel pathetic for caring so much.",
-                "response": "Under other people's eyes, shaking is an anxious system trying to get through exposure; it is not proof that caring is pathetic."
+                "response": "Speaking while others watch can feel frightening when their judgment matters so much. It is understandable that you feel anxious; shaking does not make you pathetic for caring."
               },
               "no": {
                 "statement": "[Skjelvende] Hver presentasjon på jobb får hendene mine til å skjelve, og etterpå føler jeg meg patetisk for at jeg bryr meg så mye.",
-                "response": "Under andres blikk prøver et engstelig system å komme seg gjennom eksponeringen; skjelvingen er ikke bevis på at det er patetisk å bry seg."
+                "response": "Å snakke mens andre ser på kan være skremmende når det betyr så mye hvordan de vurderer deg. Det er forståelig at du blir engstelig. At du skjelver, gjør deg ikke patetisk for å bry deg."
               }
             },
             {
@@ -441,11 +441,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Quiet and ashamed] After I talk in a group, I replay every sentence and feel ashamed for sounding awkward.",
-                "response": "The replay is a harsh attempt to keep you from future embarrassment; it makes sense in a world where belonging has felt fragile."
+                "response": "Speaking in a group can feel exposing when belonging matters so much to you. It is understandable to feel self-conscious afterwards; you do not deserve to be attacked for trying to join in."
               },
               "no": {
                 "statement": "[Stille og skamfull] Etter at jeg har snakket i en gruppe, spiller jeg av hver setning og skammer meg for å høres klein ut.",
-                "response": "Gjennomgangen er et hardt forsøk på å hindre framtidig pinlighet; den passer med en verden der tilhørighet har kjentes skjør."
+                "response": "Å snakke i en gruppe kan kjennes sårbart når det betyr så mye å høre til. Det er forståelig å bli usikker på seg selv etterpå. Du fortjener ikke å bli angrepet for å prøve å delta."
               }
             },
             {
@@ -487,11 +487,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Tired] If I sit down before everything is done, guilt starts listing what I should be doing.",
-                "response": "That guilt belongs to the old rule that your worth had to be earned through usefulness."
+                "response": "With so many demands on you, stopping can understandably bring guilt as well as relief. Needing rest is legitimate even when there are things left to do."
               },
               "no": {
                 "statement": "[Sliten] Hvis jeg setter meg ned før alt er gjort, begynner skyldfølelsen å ramse opp hva jeg burde gjøre.",
-                "response": "Den skyldfølelsen hører til den gamle regelen om at verdien din måtte fortjenes gjennom nytte."
+                "response": "Når så mye kreves av deg, er det forståelig at det å stoppe kan vekke skyld så vel som lettelse. Du har lov til å trenge hvile selv om noe fortsatt er ugjort."
               }
             },
             {
@@ -504,11 +504,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Guilty] A messy counter can make me feel like I have failed as a whole person.",
-                "response": "When care and performance got fused, even mess can feel like shame about who you are."
+                "response": "With how much you expect yourself to keep going, an unfinished task can feel painfully disappointing. That feeling deserves room without making a messy counter a verdict on your worth."
               },
               "no": {
                 "statement": "[Skyldpreget] En rotete kjøkkenbenk kan få meg til å føle at jeg har mislyktes som person.",
-                "response": "Når omsorg og prestasjon ble vevd sammen, kan selv rot kjennes som skam over hvem du er."
+                "response": "Når du krever så mye av deg selv, kan en ugjort oppgave vekke vond skuffelse. Det er plass til følelsen uten at en rotete benk må bli en dom over verdien din."
               }
             },
             {
@@ -550,11 +550,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Flat] Most days I move through routines like I am not fully there. I make coffee, shower, answer people, and it feels like a version of me is doing it while the rest stays back.",
-                "response": "After too much danger, numbness has protected your ability to keep functioning; it is a survival pattern, not a failure to care."
+                "response": "After what you have been through, struggling to feel fully present deserves care, not blame. The numbness does not mean you are failing to care about the people around you."
               },
               "no": {
                 "statement": "[Flatt] De fleste dager går jeg gjennom rutinene som om jeg ikke er helt til stede. Jeg lager kaffe, dusjer, svarer folk, og det føles som en versjon av meg gjør det mens resten holder seg tilbake.",
-                "response": "Etter for mye fare har nummenheten beskyttet evnen til å fungere; den er et overlevelsesmønster, ikke et tegn på at du ikke bryr deg."
+                "response": "Etter det du har opplevd, fortjener strevet med å være helt til stede omsorg, ikke skyld. Nummenheten er ikke et bevis på at du ikke bryr deg om folk rundt deg."
               }
             },
             {
@@ -567,11 +567,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Quiet and guarded] I avoid reminders of my service because they open the floodgates. A news clip or a sound in the street can put me back there faster than I can explain.",
-                "response": "Avoiding reminders has protected you from being pulled back too fast; the speed of those reactions deserves respect."
+                "response": "When reminders bring you back there so quickly, being afraid of them is understandable. That distress deserves respect, without needing you to explain every detail for it to be real."
               },
               "no": {
                 "statement": "[Stille og på vakt] Jeg unngår påminnelser om tjenesten fordi de åpner slusene. Et nyhetsklipp eller en lyd i gata kan sende meg tilbake dit raskere enn jeg klarer å forklare.",
-                "response": "Å unngå påminnelser har beskyttet deg mot å bli trukket tilbake for fort; tempoet i de reaksjonene fortjener respekt."
+                "response": "Når påminnelser sender deg tilbake dit så raskt, er det forståelig å være redd for dem. Smerten fortjener respekt, uten at du må forklare hver detalj for at den skal være virkelig."
               }
             },
             {
@@ -1863,11 +1863,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Slow and flat] When I feel nothing, do you get uncomfortable or think I am unreachable?",
-                "response": "I do not feel uncomfortable with the numbness, and I do not see you as unreachable. I feel careful and patient with it, and I want you to have room here without performing feeling for me."
+                "response": "I want to understand what the numbness is like for you, rather than decide you are unreachable. I am choosing to slow down; you do not have to produce a feeling for me. What is it like to hear that?"
               },
               "no": {
                 "statement": "[Langsomt og flatt] Når jeg ikke føler noe, blir du utilpass eller tenker at jeg er utilgjengelig?",
-                "response": "Jeg blir ikke utilpass av nummenheten, og jeg ser deg ikke som utilgjengelig. Jeg kjenner meg varsom og tålmodig med den, og jeg vil at du får rom her uten å prestere følelse for meg."
+                "response": "Jeg vil forstå hvordan nummenheten er for deg, fremfor å bestemme meg for at du er utilgjengelig. Jeg velger å senke tempoet. Du trenger ikke få frem en følelse for min skyld. Hvordan er det å høre det?"
               }
             },
             {
@@ -1998,11 +1998,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Tense and ashamed] Whenever I feel hurt, especially when my wife says I look wounded, my father's words come back: Stop being weak and get control. Then I straighten up and start talking like nothing landed.",
-                "response": "Your father's command has become an internal voice that shuts the hurt down. Would you be willing to give that command one chair and the wounded side the other? Start in the command chair and say, 'stop being weak and get control,' directly to him."
+                "response": "Your father's command has become an internal voice that shuts the hurt down. Would you be willing to give that command one chair and the wounded side the other? If you agree, imagine yourself in the other chair. From the command chair, say 'stop being weak and get control' to that hurt side of yourself."
               },
               "no": {
                 "statement": "[Anspent og skamfull] Hver gang jeg kjenner meg såret, særlig når kona mi sier at jeg virker såret, kommer ordene til faren min tilbake: Slutt å være svak og få kontroll. Da retter jeg meg opp og begynner å snakke som om ingenting traff.",
-                "response": "Beskjeden fra faren din har blitt en indre stemme som stenger ned såretheten. Vil du gi den stemmen én stol og den sårede siden den andre? Start i kommando-stolen og si direkte til ham: «Slutt å være svak og få kontroll.»"
+                "response": "Beskjeden fra faren din har blitt en indre stemme som stenger ned såretheten. Vil du gi den stemmen én stol og den sårede siden den andre? Hvis du vil, se deg selv for deg i den andre stolen. Fra stolen med den strenge stemmen sier du «Slutt å være svak og få kontroll» til den sårede siden av deg selv."
               }
             },
             {
@@ -2015,11 +2015,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Tense] When my wife reaches for me after a fight, I make a joke or start talking about what needs fixing.",
-                "response": "The joke and the fixing pull you away just as softness comes close. Could we give that steering-away side this chair? Show how it moves him into joking or fixing; then we will move to the softer side and let it answer."
+                "response": "The joke and the fixing pull you away just as softness comes close. Would you try two chairs to see how you turn away? If you agree, picture the softer side of yourself opposite and show how you steer him into joking or fixing; then we will move to the softer side and let it answer."
               },
               "no": {
                 "statement": "[Anspent] Når kona mi prøver å ta på meg etter en krangel, lager jeg en spøk eller begynner å snakke om det som må fikses.",
-                "response": "Spøken og fiksingen drar deg unna akkurat når noe mykere kommer nær. Kan vi gi den siden som styrer bort, denne stolen? Vis hvordan den fører ham inn i spøk eller fiksing; så flytter vi til den mykere siden og lar den svare."
+                "response": "Spøken og fiksingen drar deg unna akkurat når noe mykere kommer nær. Vil du prøve to stoler for å se hvordan du vender deg bort? Hvis du vil, se den mykere siden av deg selv for deg i den andre stolen og vis hvordan du får ham til å spøke eller fikse; så flytter vi til den mykere siden og lar den svare."
               }
             },
             {
@@ -2063,11 +2063,11 @@
               ],
               "en": {
                 "statement": "[Angry, clenching fists] After I punched the wall, I kept thinking, What kind of man scares his own family? I saw my son's face and then the attack started, like there was no father left, only some dangerous man in the kitchen.",
-                "response": "The wall punch turns into an attack on the father in you. Can we work with that blame for a moment? Sit in this chair and say it directly to him: 'what kind of man scares his own family?' Then we will switch and hear what that does to him."
+                "response": "The wall punch turns into an attack on the father in you. Would you try two chairs to hear the blame and its impact? This does not excuse frightening your family. If you agree, picture yourself opposite and, from the blaming chair, say: 'what kind of man scares his own family?' Then we will switch and hear what that does to him."
               },
               "no": {
                 "statement": "[Sint, med knyttede never] Etter at jeg slo hull i veggen, tenkte jeg hele tiden: Hva slags mann skremmer sin egen familie? Jeg så ansiktet til sønnen min, og så startet angrepet, som om det ikke var noen far igjen, bare en farlig mann på kjøkkenet.",
-                "response": "Hullet i veggen blir til et angrep på faren i deg. La skylden få denne stolen et øyeblikk: si det direkte til ham, «Hva slags mann skremmer sin egen familie?» Så bytter vi og hører hva det gjør med ham."
+                "response": "Hullet i veggen blir til et angrep på faren i deg. Vil du prøve to stoler for å høre anklagen og hvordan den virker på deg? Det unnskylder ikke at du skremte familien. Hvis du vil, se deg selv for deg i den andre stolen og si fra stolen med den anklagende stemmen: «Hva slags mann skremmer sin egen familie?» Så bytter vi og hører hva det gjør med ham."
               }
             },
             {
@@ -2080,11 +2080,11 @@
               "riskFlags": [],
               "en": {
                 "statement": "[Tense] When my voice shakes, I cough, sit up straighter, and make my face hard. I can almost hear my father saying, Do not let them see you like that, so I turn it into a stare.",
-                "response": "The hard face turns the shaking into something no one can see. Let's use two chairs to show that process. From this chair, harden the face and say, 'do not let them see you like that'; then we will move to the side that was shaking."
+                "response": "The hard face turns the shaking into something no one can see. Would you try two chairs to see how you stop the shaking? If you agree, give the hard-faced side one chair and the shaking side the other. From the first chair, harden the face and say, 'do not let them see you like that'; then we will move to the side that was shaking."
               },
               "no": {
                 "statement": "[Anspent] Når stemmen min skjelver, kremter jeg, retter meg opp og gjør ansiktet hardt. Jeg kan nesten høre faren min si: Ikke la dem se deg sånn, så jeg gjør det om til et blikk.",
-                "response": "Det harde ansiktet gjør skjelvingen usynlig. To stoler kan vise hvordan det skjer. Fra denne stolen gjør du ansiktet hardt og sier: «Ikke la dem se deg sånn.» Så flytter vi til siden som skalv."
+                "response": "Det harde ansiktet gjør skjelvingen usynlig. Vil du prøve to stoler for å se hvordan du stopper skjelvingen? Hvis du vil, får siden med det harde ansiktet én stol og den skjelvende siden den andre. Fra den første stolen gjør du ansiktet hardt og sier: «Ikke la dem se deg sånn.» Så flytter vi til siden som skalv."
               }
             },
             {
@@ -2130,7 +2130,7 @@
               },
               "no": {
                 "statement": "[Selvbebreidende] Hvis jeg ikke er eksepsjonell, sier jeg til meg selv at det ikke finnes noen grunn til at noen skulle bli. Ordinær betyr utskiftbar. Utskiftbar betyr at jeg allerede har tapt; de har bare ikke sagt det høyt ennå.",
-                "response": "Kravet gjør verdien din avhengig av å være eksepsjonell, og behandler det ordinære som om det å bli forlatt allerede har begynt. Jeg vil sette kravet i én stol og siden som betaler prisen i den andre. Fra denne stolen argumenterer du for at vanlig betyr utskiftbar; så bytter vi og hører virkningen."
+                "response": "Kravet gjør verdien din avhengig av å være eksepsjonell, og behandler det ordinære som om det å bli forlatt allerede har begynt. Vil du gi kravet én stol og siden som må leve med det den andre? Hvis du vil, argumenterer du fra den første stolen for at vanlig betyr utskiftbar; så bytter vi og hører virkningen."
               }
             },
             {

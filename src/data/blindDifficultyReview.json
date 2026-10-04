@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-02T18:34:37.094Z",
-  "revision": "2026-10-02-v2",
+  "generatedAt": "2026-10-04T00:14:51.819Z",
+  "revision": "2026-10-04-v1",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
     "Base the judgment on the item alone, not on assumed case identity.",
@@ -19,11 +19,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Loving] I was crying on the bed last night and my dog climbed up beside me like he always does. He put his head on my leg and stayed there while I talked to him about the breakup. It sounds silly, but he is the only one who never seems tired of me being sad. I do not know where I would be without him.",
-            "response": "[Self-awareness] I notice warmth in my chest and a tender wish to comfort her; I would disclose the warmth if useful and keep the rescuing impulse for supervision."
+            "response": "[Self-awareness] I notice warmth in my chest and a wish to comfort her. I can hold both privately while listening, without acting on the rescuing impulse."
           },
           "no": {
             "statement": "[Kjærlig] Jeg lå på sengen og gråt i går kveld, og hunden min krøp opp ved siden av meg, som han alltid gjør. Han la hodet på beinet mitt og ble liggende mens jeg snakket med ham om bruddet. Det høres dumt ut, men han er den eneste som aldri virker lei av at jeg er trist. Jeg vet ikke hvor jeg hadde vært uten ham.",
-            "response": "[Selvbevissthet] Jeg merker varme i brystet og et ømt ønske om å trøste henne; jeg ville bare delt varmen hvis det var nyttig, og tatt redningstrangen med til veiledning."
+            "response": "[Selvbevissthet] Jeg merker varme i brystet og et ønske om å trøste henne. Jeg kan beholde begge deler for meg selv mens jeg lytter, uten å handle på trangen til å redde henne."
           }
         },
         {
@@ -446,11 +446,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Slow and flat] When I feel nothing, do you get uncomfortable or think I am unreachable?",
-            "response": "I do not feel uncomfortable with the numbness, and I do not see you as unreachable. I feel careful and patient with it, and I want you to have room here without performing feeling for me."
+            "response": "I want to understand what the numbness is like for you, rather than decide you are unreachable. I am choosing to slow down; you do not have to produce a feeling for me. What is it like to hear that?"
           },
           "no": {
             "statement": "[Langsomt og flatt] Når jeg ikke føler noe, blir du utilpass eller tenker at jeg er utilgjengelig?",
-            "response": "Jeg blir ikke utilpass av nummenheten, og jeg ser deg ikke som utilgjengelig. Jeg kjenner meg varsom og tålmodig med den, og jeg vil at du får rom her uten å prestere følelse for meg."
+            "response": "Jeg vil forstå hvordan nummenheten er for deg, fremfor å bestemme meg for at du er utilgjengelig. Jeg velger å senke tempoet. Du trenger ikke få frem en følelse for min skyld. Hvordan er det å høre det?"
           }
         },
         {
@@ -506,11 +506,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tense] When my wife reaches for me after a fight, I make a joke or start talking about what needs fixing.",
-            "response": "The joke and the fixing pull you away just as softness comes close. Could we give that steering-away side this chair? Show how it moves him into joking or fixing; then we will move to the softer side and let it answer."
+            "response": "The joke and the fixing pull you away just as softness comes close. Would you try two chairs to see how you turn away? If you agree, picture the softer side of yourself opposite and show how you steer him into joking or fixing; then we will move to the softer side and let it answer."
           },
           "no": {
             "statement": "[Anspent] Når kona mi prøver å ta på meg etter en krangel, lager jeg en spøk eller begynner å snakke om det som må fikses.",
-            "response": "Spøken og fiksingen drar deg unna akkurat når noe mykere kommer nær. Kan vi gi den siden som styrer bort, denne stolen? Vis hvordan den fører ham inn i spøk eller fiksing; så flytter vi til den mykere siden og lar den svare."
+            "response": "Spøken og fiksingen drar deg unna akkurat når noe mykere kommer nær. Vil du prøve to stoler for å se hvordan du vender deg bort? Hvis du vil, se den mykere siden av deg selv for deg i den andre stolen og vis hvordan du får ham til å spøke eller fikse; så flytter vi til den mykere siden og lar den svare."
           }
         },
         {
@@ -519,11 +519,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tense] When my voice shakes, I cough, sit up straighter, and make my face hard. I can almost hear my father saying, Do not let them see you like that, so I turn it into a stare.",
-            "response": "The hard face turns the shaking into something no one can see. Let's use two chairs to show that process. From this chair, harden the face and say, 'do not let them see you like that'; then we will move to the side that was shaking."
+            "response": "The hard face turns the shaking into something no one can see. Would you try two chairs to see how you stop the shaking? If you agree, give the hard-faced side one chair and the shaking side the other. From the first chair, harden the face and say, 'do not let them see you like that'; then we will move to the side that was shaking."
           },
           "no": {
             "statement": "[Anspent] Når stemmen min skjelver, kremter jeg, retter meg opp og gjør ansiktet hardt. Jeg kan nesten høre faren min si: Ikke la dem se deg sånn, så jeg gjør det om til et blikk.",
-            "response": "Det harde ansiktet gjør skjelvingen usynlig. To stoler kan vise hvordan det skjer. Fra denne stolen gjør du ansiktet hardt og sier: «Ikke la dem se deg sånn.» Så flytter vi til siden som skalv."
+            "response": "Det harde ansiktet gjør skjelvingen usynlig. Vil du prøve to stoler for å se hvordan du stopper skjelvingen? Hvis du vil, får siden med det harde ansiktet én stol og den skjelvende siden den andre. Fra den første stolen gjør du ansiktet hardt og sier: «Ikke la dem se deg sånn.» Så flytter vi til siden som skalv."
           }
         }
       ]

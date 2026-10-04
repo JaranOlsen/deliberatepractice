@@ -147,8 +147,8 @@
       "case-marcus"
     ]
   },
-  "CONTENT_REVISION": "2026-10-02-v2",
-  "CONTENT_UPDATED_AT": "2026-10-02",
+  "CONTENT_REVISION": "2026-10-04-v1",
+  "CONTENT_UPDATED_AT": "2026-10-04",
   "LANGUAGE_ORDER": [
     "en",
     "no"
@@ -272,8 +272,8 @@
         "Notice again"
       ],
       "selfAwarenessFirstTitle": "Therapist — notice your reaction",
-      "selfAwarenessFirstInstruction": "Listen to the client statement. Notice your body, feelings, thoughts, and impulses. Share only a comfortable part of your reaction with the group; you do not need to respond to the client.",
-      "selfAwarenessFirstContinue": "Reflection shared",
+      "selfAwarenessFirstInstruction": "Listen and notice your body, feelings, thoughts, and impulses. Keep the reflection private, or share only what you choose with the practice group.",
+      "selfAwarenessFirstContinue": "Ready for feedback",
       "selfAwarenessReaderRole": "Reader",
       "selfAwarenessClientTitle": "Reader — reflect on the process",
       "selfAwarenessClientInstruction": "Step out of the client role. Name what you noticed about the therapist pausing and attending to their experience. Respect what they chose to keep private.",
@@ -690,8 +690,8 @@
         "Lytt på nytt"
       ],
       "selfAwarenessFirstTitle": "Terapeut — legg merke til din reaksjon",
-      "selfAwarenessFirstInstruction": "Lytt til klientutsagnet. Legg merke til kropp, følelser, tanker og impulser. Del bare en del av reaksjonen som kjennes grei å dele med gruppen; du trenger ikke svare klienten.",
-      "selfAwarenessFirstContinue": "Refleksjon delt",
+      "selfAwarenessFirstInstruction": "Lytt og legg merke til kropp, følelser, tanker og impulser. Behold refleksjonen for deg selv, eller del bare det du selv velger med øvingsgruppen.",
+      "selfAwarenessFirstContinue": "Klar for respons",
       "selfAwarenessReaderRole": "Oppleser",
       "selfAwarenessClientTitle": "Oppleser — gi respons på prosessen",
       "selfAwarenessClientInstruction": "Gå ut av klientrollen. Si hva du la merke til da terapeuten tok en pause og vendte oppmerksomheten mot egen opplevelse. Respekter det hen valgte å holde privat.",
@@ -1399,10 +1399,10 @@
       "therapist-self-awareness": {
         "name": "Terapeutens selvbevissthet",
         "description": "Legg merke til og sett ord på dine egne indre reaksjoner mens du lytter, med respekt for privatliv, grenser og tilstedeværelse.",
-        "summary": "Terapeutens selvbevissthet er en intrapersonlig EFT-ferdighet: å følge med på egen kropp, følelser, tanker, bilder og handlingsimpulser mens klienten snakker. I denne øvelsen er oppgaven ikke å finne den beste terapeutiske intervensjonen. Terapeuten lytter, legger merke til hva som skjer inni seg, og setter deretter ord på bare den delen av reaksjonen som kjennes riktig å dele i en treningssituasjon.\n\nDette bygger kapasitet til å være til stede når klienten vekker varme, redningstrang, uro, irritasjon, tiltrekning, avsky, nummenhet, defensivitet eller press om å prestere. Du øver på å skille nyttig resonans fra terapeut-sentrert materiale som bør holdes privat eller tas med til veiledning. Ferdigheten handler også om å ivareta egne grenser: selvbevissthet betyr ikke at alt du merker, skal deles.\n\nAppen beholder et forslagstekstfelt for øvingens skyld, men teksten er et eksempel på selvbevissthetsdeling, ikke en modell for hva terapeuten skal si til klienten. Et godt svar begynner ofte med «Jeg legger merke til...» eller «Jeg kjenner et drag mot...», og viser at terapeuten kan registrere aktivering uten å handle den ut eller flytte fokus bort fra klienten.",
+        "summary": "Terapeutens selvbevissthet er en intrapersonlig EFT-ferdighet: å følge med på egen kropp, følelser, tanker, bilder og handlingsimpulser mens klienten snakker. I denne øvelsen er oppgaven ikke å finne den beste terapeutiske intervensjonen. Terapeuten lytter og legger merke til hva som skjer inni seg. Refleksjonen kan beholdes privat. Det er valgfritt å dele med øvingsgruppen.\n\nDette bygger kapasitet til å være til stede når klienten vekker varme, redningstrang, uro, irritasjon, tiltrekning, avsky, nummenhet, defensivitet eller press om å prestere. Du øver på å skille nyttig resonans fra terapeut-sentrert materiale som bør holdes privat eller tas med til veiledning. Ferdigheten handler også om å ivareta egne grenser: selvbevissthet betyr ikke at alt du merker, skal deles.\n\nAppen beholder et forslagstekstfelt for øvingens skyld, men teksten er et eksempel på refleksjon, ikke på hva terapeuten skal si til klienten. Din egen reaksjon kan være annerledes, også at du kjenner lite eller ingenting. Målet er ikke å kjenne det samme som i eksempelet. Et godt svar begynner ofte med «Jeg legger merke til...» eller «Jeg kjenner et drag mot...», og viser at terapeuten kan registrere aktivering uten å handle den ut eller flytte fokus bort fra klienten.",
         "marker": "Klientmaterialet er sannsynlig å aktivere terapeuten: varme, redningstrang, uro, irritasjon, tiltrekning, avsky, frykt, defensivitet, prestasjonspress eller en trang til å gå for raskt frem. Klienten ber ikke om selvbevissthet; markøren er terapeutens egen indre reaksjon mens hen lytter.",
         "aim": "Øke kapasiteten til å legge merke til, symbolisere og eie egne indre reaksjoner mens du fortsatt lytter til klienten. Bruk bevisstheten til å være til stede og ivareta grenser, ikke til å framføre en polert intervensjon.",
-        "practiceFocus": "Lytt, følg med på kropp, følelser, tanker, bilder og impulser, og del deretter bare en komfortabel del av din indre reaksjon.",
+        "practiceFocus": "Lytt og legg merke til kropp, følelser, tanker og impulser. Behold refleksjonen for deg selv, eller del bare det du selv velger med øvingsgruppen.",
         "commonMiss": "Å gjøre forslagsteksten til en polert klientintervensjon, eller å dele for mye i stedet for å ivareta privatliv og grenser."
       },
       "empathic-understanding": {
@@ -1483,7 +1483,7 @@
         "summary": "Selvavsløring i opplevelsesorientert terapi innebærer å dele en kort, ekte bit av din umiddelbare indre opplevelse når det klart tjener klienten. Det kan være å sette ord på hvordan du er emosjonelt berørt, å anerkjenne hvordan klienten virker inn på deg, eller å eie en misattunering som har bidratt til et brudd i alliansen. Utsagnene holdes korte, nøkterne og uten forsvar, og formuleres slik at de støtter – ikke overskygger – klientens erfaring.\n\nBrukt til validering kan selvavsløring bekrefte at klientens smerte er reell og berører andre, og motvirke indre budskap om å være «for mye» eller «ikke troverdig». I alliansearbeid modellerer det ansvarlighet og sårbarhet: konflikten møtes med forståelse og reparasjonsvilje fremfor skyld og tilbaketrekning.\n\nSelvavsløring kan også hjelpe klienter som tviler på at noen kan bry seg virkelig, ved å gi en korrigerende erfaring av å ha emosjonell innvirkning. Noen ganger åpner det også for at klienten kan kjenne mer av sine egne primære følelser ved å legge merke til hvordan du blir berørt. Etter at du har delt, vender du raskt fokuset tilbake til klienten og inviterer deres reaksjon. Over tid kan nøktern, gjennomtenkt selvavsløring fordype tillit og modellere sunn emosjonell åpenhet og relasjonell reparasjon.",
         "marker": "Klienten ber direkte eller indirekte om åpenhet fra terapeuten: et personlig spørsmål, et spørsmål om terapiprosessen, bekymring for din interesse eller kompetanse, en reaksjon på noe du gjorde, eller usikkerhet om omsorg, grenser eller innvirkning. Et kort, ærlig og tydelig avgrenset svar fra deg vil trolig kunne klargjøre din posisjon, styrke tillit eller validere klientens betydning før fokuset vendes tilbake til klienten.",
         "aim": "Bruke kort, nøye valgt åpenhet til å styrke den terapeutiske relasjonen, validere klientens emosjonelle virkelighet eller reparere misattuneringer. Modellere kongruent følelsesuttrykk samtidig som klientens opplevelse forblir sentrum i arbeidet.",
-        "practiceFocus": "Del bare en kort, umiddelbar bit av din indre respons som tydelig tjener klientens prosess, og vend så raskt tilbake til klienten.",
+        "practiceFocus": "Vær kort og ærlig når åpenhet tjener klienten, og vend så tilbake til klientens opplevelse. Tilpass eksemplene til din faktiske erfaring og rolle. Ikke finn på følelser eller kvalifikasjoner.",
         "commonMiss": "Å gli over i biografi, forsikring eller terapeut-sentrert prat som gjør øyeblikket mindre om klienten."
       },
       "marker-recognition-chairwork": {
@@ -1510,10 +1510,10 @@
     "therapist-self-awareness": {
       "name": "Therapist Self-Awareness",
       "description": "Notice and name your own internal reactions while listening, protecting privacy and staying present rather than performing an intervention.",
-      "summary": "Therapist self-awareness is an intrapersonal EFT practice: tracking your own body, emotions, thoughts, images, and action impulses while the client is speaking. In this exercise, the task is not to find the best clinical intervention. The trainee listens, notices what is happening inside, and then names only the part of that reaction they feel comfortable sharing in a training setting.\n\nThis builds the capacity to stay present when the client evokes warmth, urgency to rescue, anxiety, irritation, attraction, disgust, numbness, defensiveness, or pressure to perform. You learn to distinguish useful resonance from therapist-centered material that should stay private or be taken to supervision. The skill includes respecting your own boundaries: self-awareness does not require disclosing everything you notice.\n\nThe app keeps a suggested response for practice purposes, but it is a sample self-awareness disclosure rather than a model client-facing intervention. A good response sounds like, \"I notice...\" or \"I feel a pull to...\" and shows that the therapist can monitor activation without acting it out or shifting the work away from the client.",
+      "summary": "Therapist self-awareness is an intrapersonal EFT practice: tracking your own body, emotions, thoughts, images, and action impulses while the client is speaking. In this exercise, the task is not to find the best clinical intervention. The trainee listens and notices what is happening inside. The reflection can stay private; sharing with the practice group is optional.\n\nThis builds the capacity to stay present when the client evokes warmth, urgency to rescue, anxiety, irritation, attraction, disgust, numbness, defensiveness, or pressure to perform. You learn to distinguish useful resonance from therapist-centered material that should stay private or be taken to supervision. The skill includes respecting your own boundaries: self-awareness does not require disclosing everything you notice.\n\nThe app keeps a suggested response for practice purposes, but it is a sample reflection rather than a model client-facing intervention. Your actual reaction may differ, including feeling little or nothing; matching the example is not the goal. A good response sounds like, \"I notice...\" or \"I feel a pull to...\" and shows that the therapist can monitor activation without acting it out or shifting the work away from the client.",
       "marker": "The client material is likely to activate the therapist: warmth, rescue, anxiety, irritation, attraction, disgust, fear, defensiveness, pressure to perform, or a pull to move too quickly. The client does not ask for self-awareness; the marker is the therapist's own internal reaction while listening.",
       "aim": "Increase the capacity to notice, symbolize, and own internal reactions while still listening to the client. Use that awareness to stay present and bounded, not to perform a polished intervention.",
-      "practiceFocus": "Listen, track your body, feelings, thoughts, images, and urges, then disclose only a comfortable slice of your internal reaction.",
+      "practiceFocus": "Listen and notice your body, feelings, thoughts, and urges. Keep the reflection private, or share only what you choose with the practice group.",
       "commonMiss": "Turning the suggestion into a polished client intervention, or disclosing too much instead of protecting privacy and boundaries."
     },
     "empathic-understanding": {
@@ -1594,7 +1594,7 @@
       "summary": "Self-disclosure in emotion-focused, experiential therapy involves selectively sharing a short, genuine aspect of your immediate inner experience when it clearly benefits the client. This might include revealing your emotional resonance (e.g., feeling sadness or admiration), acknowledging your impact on the client, or owning a misattunement that contributed to a rupture. The disclosure is kept concise, non-defensive, and carefully phrased so that it supports, rather than shifts focus away from, the client’s experience.\n\nWhen used to validate, it can reassure clients that their pain is real and moving, countering internalized messages that they are 'too much' or 'not believable.' When used in alliance repair, it models accountability and vulnerability, demonstrating that relational conflict can be met with understanding rather than blame. Self-disclosure can also help clients who doubt that anyone can really care or be affected by them, offering a corrective emotional experience of impact and connection.\n\nIt sometimes helps clients access their own primary feelings by noticing how the therapist is touched by their story. After disclosing, you promptly return focus to the client, inviting their reaction and continuing to center their process. Over time, judicious self-disclosure can deepen trust and model healthy emotional transparency and relational repair.",
       "marker": "The client directly or indirectly asks for therapist transparency: a personal or process question, concern about your interest or competence, a reaction to your behavior, or uncertainty about your care, boundaries, or impact. A brief, honest, well-boundaried response would likely clarify your stance, strengthen trust, or validate their importance before returning focus to the client.",
       "aim": "Use brief, carefully chosen transparency to strengthen the therapeutic bond, validate the client’s emotional reality, or repair misattunements. Model congruent emotional expression while keeping the client’s experience at the center of the work.",
-      "practiceFocus": "Share only a brief, immediate piece of your inner response that clearly serves the client’s process, then return focus.",
+      "practiceFocus": "Offer brief, honest transparency that serves the client, then return focus. Adapt examples to your actual experience and role; do not invent feelings or credentials.",
       "commonMiss": "Slipping into biography, reassurance, or therapist-centered talk that makes the moment less about the client."
     },
     "marker-recognition-chairwork": {

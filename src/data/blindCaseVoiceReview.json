@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-02T18:34:37.094Z",
-  "revision": "2026-10-02-v2",
+  "generatedAt": "2026-10-04T00:14:51.819Z",
+  "revision": "2026-10-04-v1",
   "instructions": [
     "Use the blind labels only; do not consult the answer key until the reviewer has committed a guess.",
     "Judge case identity from voice, pacing, defensive style, symptom language, and relational stance.",
@@ -21,11 +21,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Loving] I was crying on the bed last night and my dog climbed up beside me like he always does. He put his head on my leg and stayed there while I talked to him about the breakup. It sounds silly, but he is the only one who never seems tired of me being sad. I do not know where I would be without him.",
-            "response": "[Self-awareness] I notice warmth in my chest and a tender wish to comfort her; I would disclose the warmth if useful and keep the rescuing impulse for supervision."
+            "response": "[Self-awareness] I notice warmth in my chest and a wish to comfort her. I can hold both privately while listening, without acting on the rescuing impulse."
           },
           "no": {
             "statement": "[Kjærlig] Jeg lå på sengen og gråt i går kveld, og hunden min krøp opp ved siden av meg, som han alltid gjør. Han la hodet på beinet mitt og ble liggende mens jeg snakket med ham om bruddet. Det høres dumt ut, men han er den eneste som aldri virker lei av at jeg er trist. Jeg vet ikke hvor jeg hadde vært uten ham.",
-            "response": "[Selvbevissthet] Jeg merker varme i brystet og et ømt ønske om å trøste henne; jeg ville bare delt varmen hvis det var nyttig, og tatt redningstrangen med til veiledning."
+            "response": "[Selvbevissthet] Jeg merker varme i brystet og et ønske om å trøste henne. Jeg kan beholde begge deler for meg selv mens jeg lytter, uten å handle på trangen til å redde henne."
           }
         },
         {
@@ -273,11 +273,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tense and angry] Watching the news about families like mine being treated like threats makes me so angry I can barely sit still.",
-            "response": "That anger fits with dignity, family, and the old fear of being treated as less than fully human."
+            "response": "Seeing families like yours treated as threats can be deeply upsetting. It makes sense that you feel angry about their dignity and safety being treated so carelessly."
           },
           "no": {
             "statement": "[Anspent og sint] Å se nyheter om familier som min bli behandlet som trusler gjør meg så sint at jeg nesten ikke klarer å sitte stille.",
-            "response": "Sinnet passer med verdighet, familie og den gamle frykten for å bli behandlet som mindreverdig."
+            "response": "Å se familier som din bli behandlet som trusler kan gjøre sterkt inntrykk. Det er forståelig at du blir sint når verdigheten og tryggheten deres blir behandlet så skjødesløst."
           }
         },
         {
@@ -286,11 +286,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Guilty] I hit a cyclist with my car last week. The road was slick, but he still broke his wrist and I cannot stop feeling guilty.",
-            "response": "That guilt belongs to the seriousness of what happened: even without intent, your conscience is registering that someone got hurt."
+            "response": "Someone was hurt in an accident you were involved in, so your guilt is understandable. We can take that feeling seriously without deciding from it alone how much was your responsibility."
           },
           "no": {
             "statement": "[Skyldpreget] Jeg traff en syklist med bilen forrige uke. Veien var glatt, men han brakk likevel håndleddet, og jeg klarer ikke slutte å kjenne skyld.",
-            "response": "Skylden hører sammen med alvoret i det som skjedde: selv uten hensikt registrerer samvittigheten din at noen ble skadet."
+            "response": "Noen ble skadet i en ulykke du var involvert i, så skyldfølelsen er forståelig. Vi kan ta den på alvor uten å bruke følelsen alene til å avgjøre hvor stort ansvaret ditt var."
           }
         }
       ]
@@ -309,11 +309,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tense and guarded] Being touched, even kindly, startles me, and then I feel broken for reacting that way.",
-            "response": "Your startle arriving before choice fits with a system that learned to react first; that is not brokenness."
+            "response": "When touch has not always felt safe, being startled by it is understandable, even if this person means well. The reaction deserves care rather than a judgment that you are broken."
           },
           "no": {
             "statement": "[Anspent og på vakt] Berøring skremmer meg, selv når den er vennlig, og etterpå føler jeg meg ødelagt for å reagere sånn.",
-            "response": "At skvettenheten kommer før du rekker å velge, passer med et system som lærte å reagere først; det betyr ikke at du er ødelagt."
+            "response": "Når berøring ikke alltid har vært trygg, er det forståelig å skvette, også når denne personen mener det godt. Reaksjonen fortjener omsorg fremfor en dom om at du er ødelagt."
           }
         },
         {
@@ -322,11 +322,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Quiet and guarded] I avoid reminders of my service because they open the floodgates. A news clip or a sound in the street can put me back there faster than I can explain.",
-            "response": "Avoiding reminders has protected you from being pulled back too fast; the speed of those reactions deserves respect."
+            "response": "When reminders bring you back there so quickly, being afraid of them is understandable. That distress deserves respect, without needing you to explain every detail for it to be real."
           },
           "no": {
             "statement": "[Stille og på vakt] Jeg unngår påminnelser om tjenesten fordi de åpner slusene. Et nyhetsklipp eller en lyd i gata kan sende meg tilbake dit raskere enn jeg klarer å forklare.",
-            "response": "Å unngå påminnelser har beskyttet deg mot å bli trukket tilbake for fort; tempoet i de reaksjonene fortjener respekt."
+            "response": "Når påminnelser sender deg tilbake dit så raskt, er det forståelig å være redd for dem. Smerten fortjener respekt, uten at du må forklare hver detalj for at den skal være virkelig."
           }
         }
       ]
@@ -1120,7 +1120,7 @@
           },
           "no": {
             "statement": "[Splittet] Når sinnet stiger, smiler jeg og spør hva alle vil ha til middag. Det skjer så fort at jeg nesten ikke merker sinnet før senere, når jeg står og vasker benken altfor hardt og ser for meg hva jeg skulle ønske jeg hadde sagt.",
-            "response": "Omsorgsbevegelsen legger seg over sinnet før du nesten rekker å høre det. Den tildekkende siden får denne stolen: vis hvordan du smiler, spør om middag og holder huset i gang. Så flytter vi til sinnet og lar det si én enkel setning."
+            "response": "Omsorgsbevegelsen legger seg over sinnet før du nesten rekker å høre det. Vil du prøve to stoler for å se hvordan omsorgen stopper sinnet? Hvis du vil, får siden som tar vare på andre én stol og sinnet den andre. Fra den første stolen viser du hvordan du smiler, spør om middag og holder huset i gang. Så flytter vi til sinnet og lar det si én enkel setning."
           }
         }
       ]
@@ -1179,7 +1179,7 @@
           },
           "no": {
             "statement": "[Flatt og på vakt] Da mannen min dro, tenkte jeg: selvfølgelig gjorde han det. Hvem blir hos en som er så ødelagt?",
-            "response": "Skilsmissen høres ut som en hard dom: at du er for ødelagt til at noen blir. Hvis det kjennes trygt nok, får dommen én stol og siden som bærer den en annen. Sett deg først i domsstolen og si: «Du er for ødelagt til at noen blir.» Så bytter vi til siden som må ta imot det."
+            "response": "Skilsmissen høres ut som en hard dom: at du er for ødelagt til at noen blir. Vil du prøve to stoler, én for dommen og én for siden som må høre den? Vi trenger ikke gjøre det nå. Hvis du vil prøve, sett deg først i domsstolen og si: «Du er for ødelagt til at noen blir.» Så bytter vi til siden som må ta imot det."
           }
         },
         {

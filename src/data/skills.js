@@ -6,13 +6,13 @@ export const SKILLS = [
     name: "Therapist Self-Awareness",
     description: "Notice and name your own internal reactions while listening, protecting privacy and staying present rather than performing an intervention.",
     summary:
-      "Therapist self-awareness is an intrapersonal EFT practice: tracking your own body, emotions, thoughts, images, and action impulses while the client is speaking. In this exercise, the task is not to find the best clinical intervention. The trainee listens, notices what is happening inside, and then names only the part of that reaction they feel comfortable sharing in a training setting.\n\nThis builds the capacity to stay present when the client evokes warmth, urgency to rescue, anxiety, irritation, attraction, disgust, numbness, defensiveness, or pressure to perform. You learn to distinguish useful resonance from therapist-centered material that should stay private or be taken to supervision. The skill includes respecting your own boundaries: self-awareness does not require disclosing everything you notice.\n\nThe app keeps a suggested response for practice purposes, but it is a sample self-awareness disclosure rather than a model client-facing intervention. A good response sounds like, \"I notice...\" or \"I feel a pull to...\" and shows that the therapist can monitor activation without acting it out or shifting the work away from the client.",
+      "Therapist self-awareness is an intrapersonal EFT practice: tracking your own body, emotions, thoughts, images, and action impulses while the client is speaking. In this exercise, the task is not to find the best clinical intervention. The trainee listens and notices what is happening inside. The reflection can stay private; sharing with the practice group is optional.\n\nThis builds the capacity to stay present when the client evokes warmth, urgency to rescue, anxiety, irritation, attraction, disgust, numbness, defensiveness, or pressure to perform. You learn to distinguish useful resonance from therapist-centered material that should stay private or be taken to supervision. The skill includes respecting your own boundaries: self-awareness does not require disclosing everything you notice.\n\nThe app keeps a suggested response for practice purposes, but it is a sample reflection rather than a model client-facing intervention. Your actual reaction may differ, including feeling little or nothing; matching the example is not the goal. A good response sounds like, \"I notice...\" or \"I feel a pull to...\" and shows that the therapist can monitor activation without acting it out or shifting the work away from the client.",
     marker:
       "The client material is likely to activate the therapist: warmth, rescue, anxiety, irritation, attraction, disgust, fear, defensiveness, pressure to perform, or a pull to move too quickly. The client does not ask for self-awareness; the marker is the therapist's own internal reaction while listening.",
     aim:
       "Increase the capacity to notice, symbolize, and own internal reactions while still listening to the client. Use that awareness to stay present and bounded, not to perform a polished intervention.",
     practiceFocus:
-      "Listen, track your body, feelings, thoughts, images, and urges, then disclose only a comfortable slice of your internal reaction.",
+      "Listen and notice your body, feelings, thoughts, and urges. Keep the reflection private, or share only what you choose with the practice group.",
     commonMiss:
       "Turning the suggestion into a polished client intervention, or disclosing too much instead of protecting privacy and boundaries."
   },
@@ -147,7 +147,7 @@ export const SKILLS = [
     aim:
       "Use brief, carefully chosen transparency to strengthen the therapeutic bond, validate the client’s emotional reality, or repair misattunements. Model congruent emotional expression while keeping the client’s experience at the center of the work.",
     practiceFocus:
-      "Share only a brief, immediate piece of your inner response that clearly serves the client’s process, then return focus.",
+      "Offer brief, honest transparency that serves the client, then return focus. Adapt examples to your actual experience and role; do not invent feelings or credentials.",
     commonMiss:
       "Slipping into biography, reassurance, or therapist-centered talk that makes the moment less about the client."
   },
