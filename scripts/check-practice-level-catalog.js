@@ -5,6 +5,8 @@ async page => {
  const cases=[
   {name:'Sara-only server',exercises:['mastery-sara-evenings'],arne:false},
   {name:'Partial Leo server',exercises:['mastery-sara-evenings','mastery-arne-ordinary-days-moderate','mastery-arne-ordinary-days-hard'],arne:true},
+  {name:'Partial Nora server',exercises:['mastery-sara-evenings','mastery-nora-work-and-belonging-moderate','mastery-nora-work-and-belonging-hard'],nora:true},
+  {name:'Wrong Nora revision',exercises:['mastery-sara-evenings','mastery-nora-work-and-belonging-easy'],wrong:true,nora:false},
   {name:'Partial Mia server',exercises:['mastery-sara-evenings','mastery-mia-help-and-choice-moderate','mastery-mia-help-and-choice-hard'],mia:true},
   {name:'Wrong Mia revision',exercises:['mastery-sara-evenings','mastery-mia-help-and-choice-easy'],wrong:true,mia:false},
   {name:'Wrong Leo revision',exercises:['mastery-sara-evenings','mastery-arne-ordinary-days-easy'],wrong:true,arne:false}
@@ -38,9 +40,11 @@ async page => {
    assert(await arne.count()===(test.arne?1:0),test.name+': unsupported variants are hidden');
    const mia=p.locator('#mastery-library [data-exercise-id^="mastery-mia"]');
    assert(await mia.count()===(test.mia?1:0),test.name+': unsupported Mia variants are hidden');
-   if(test.arne||test.mia){
-    const card=test.mia?mia:arne;
-    assert(await card.getAttribute('data-exercise-id')===(test.mia?'mastery-mia-help-and-choice-moderate':'mastery-arne-ordinary-days-moderate'),'Only supported levels determine the default');
+   const nora=p.locator('#mastery-library [data-exercise-id^="mastery-nora"]');
+   assert(await nora.count()===(test.nora?1:0),test.name+': unsupported Nora variants are hidden');
+   if(test.arne||test.mia||test.nora){
+    const card=test.nora?nora:test.mia?mia:arne;
+    assert(await card.getAttribute('data-exercise-id')===(test.nora?'mastery-nora-work-and-belonging-moderate':test.mia?'mastery-mia-help-and-choice-moderate':'mastery-arne-ordinary-days-moderate'),'Only supported levels determine the default');
     assert((await card.textContent()).includes('2 levels'),'Card reports available levels accurately');await card.click();
     await p.locator('#mastery-use-room').waitFor();assert(await p.locator('.practice-level-options button').count()===2,'Only available levels can be chosen');
     assert(await p.locator('[data-practice-level="easy"]').count()===0,'Unavailable Easy is absent');

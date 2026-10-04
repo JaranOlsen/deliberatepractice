@@ -1084,5 +1084,475 @@
       "suggestion": "Which few words would hold the essential part, without asking more energy from you?",
       "difficulty": "hard"
     }
+  ],
+  "case-nora": [
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady] I can say it hurt without having to prove I’m usually easygoing.",
+      "suggestion": "What helped you give the hurt room without that extra explanation?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] The anger has a clearer point now: I want to present my own work.",
+      "suggestion": "What do you want to keep about that clearer wish?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Relieved] “Ask me before speaking for me.” That sounds like what I mean.",
+      "suggestion": "What does that request make clearer for you?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] I can choose not tonight without saying never.",
+      "suggestion": "What helped those two choices feel different?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Sad, calmer] The event hasn’t changed. I’m less alone with it.",
+      "suggestion": "What helped it feel less lonely here?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Warm] I remembered that I still enjoy my work. It wasn’t a denial of what happened.",
+      "suggestion": "How do you want to hold both the enjoyment and what happened?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady] I don’t have to answer for everybody.",
+      "suggestion": "What changes when your own experience is enough to speak from?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Reflective] I found words for the support I want from Max.",
+      "suggestion": "Which words do you want to remember?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Relieved] I didn’t need a perfect explanation to be heard.",
+      "suggestion": "What about being heard without that explanation mattered?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I felt the hurt without having to forgive anyone.",
+      "suggestion": "What helped you make room for your feeling on those terms?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady] Pausing felt like my choice, not failing to speak.",
+      "suggestion": "What made the pause feel like your choice?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Warm] The photographs were just photographs for a while. I liked that.",
+      "suggestion": "What was good about letting that pleasure be ordinary?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] I can love the work and object to how I was treated.",
+      "suggestion": "What helped those two things have room together?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady] I found a request for Max that doesn’t reject his support.",
+      "suggestion": "What do you want to keep, and what do you want changed, in that request?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I’m uncertain about today’s interruption. Less uncertain that I deserve a hearing.",
+      "suggestion": "What made it possible to separate those two uncertainties?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Sad, calmer] I stopped arguing that it shouldn’t have hurt. It still hurts.",
+      "suggestion": "What changed when you stopped arguing with the hurt?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Relieved, cautious] Saying not tonight feels like choosing. I don’t know about tomorrow.",
+      "suggestion": "What made tonight’s choice clearer, even with tomorrow open?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Warm] I kept the ordinary evening without using it to deny the meeting.",
+      "suggestion": "How did you make room for both?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Reflective] I can regret the sharpness with Adam without taking back the hurt.",
+      "suggestion": "What words would help you keep that distinction?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Moved] Being believed made me less busy collecting evidence for a moment.",
+      "suggestion": "What was different in that moment of being believed?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady] I can want credit without making the firm’s response into my achievement.",
+      "suggestion": "What becomes clearer about what belongs to you and what belongs to them?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] The fear isn’t gone. It’s more specific now.",
+      "suggestion": "What has become clearer in the fear?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] I found a way to ask for company without another full explanation.",
+      "suggestion": "Which few words capture the company you want?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Relieved] I said stop and we stopped. It made the next choice feel more mine.",
+      "suggestion": "What do you want us to remember about respecting that stop?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I can say what happened without softening every word. I’m not ready to tell Ben.",
+      "suggestion": "What helped the words become plainer here, without making a next step necessary?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Thoughtful] I want Max to wait for my answer. I don’t always have an answer.",
+      "suggestion": "What does that request capture, and what still needs room to remain undecided?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Sad, steadier] Nothing gave the presentation back. I stopped calling myself weak for being hurt.",
+      "suggestion": "What changed in how you treated the hurt, even with the lost opportunity unchanged?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Relieved, cautious] Being believed mattered. It doesn’t mean I want more disclosure next time.",
+      "suggestion": "What do you want us to keep about being believed at the amount you chose to share?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Warm, serious] Dinner was enjoyable. Don’t turn it into proof that I’m recovering.",
+      "suggestion": "We can keep it as that evening. What would you like remembered about why it mattered?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady] I can own the snapping and still stand by needing to be heard.",
+      "suggestion": "How would you put that distinction in words you could use with Adam?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] We stopped when I asked. The change was in having a choice, not in feeling better.",
+      "suggestion": "What difference did that respected choice make?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Reflective] I’m uncertain about one moment without retracting the others now.",
+      "suggestion": "What helped you give that uncertainty its own place?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Sad, calm] I can leave the drawings there without promising I’ll feel differently tomorrow.",
+      "suggestion": "What changed in how you let the unfinished moment remain?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Uncertain] I don’t know whether it’s a change. There’s less explaining inside me for a minute.",
+      "suggestion": "Could we name that small difference without deciding what it will become?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Quietly] I corrected the culture explanation. You let my own meaning stay.",
+      "suggestion": "What do you want us to remember about making room for that correction?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Steady, tired] The request is clearer. I might need fewer words when I actually use it.",
+      "suggestion": "Which few words hold the part you most want heard?",
+      "difficulty": "hard"
+    }
   ]
 }

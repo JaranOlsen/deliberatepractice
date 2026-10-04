@@ -1,3 +1,4 @@
+import {NORA_CASE} from './noraCase.js';
 import {MIA_CASE} from './miaCase.js';
 import {ARNE_CASE} from './arneCase.js';
 "use strict";
@@ -162,3 +163,4 @@ export const CASES = [
 ];
 CASES.push(ARNE_CASE);
 CASES.push(MIA_CASE);
+CASES.push(NORA_CASE);

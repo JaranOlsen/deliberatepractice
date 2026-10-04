@@ -1084,5 +1084,475 @@
       "suggestion": "Hvilke få ord ville romme det viktigste uten å kreve mer krefter av deg?",
       "difficulty": "hard"
     }
+  ],
+  "case-nora": [
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Stødig] Jeg kan si at det såret uten å måtte bevise at jeg vanligvis er omgjengelig.",
+      "suggestion": "Hva hjalp deg å gi det såre plass uten den ekstra forklaringen?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lavt] Sinnet har et tydeligere poeng nå: Jeg vil presentere eget arbeid.",
+      "suggestion": "Hva vil du beholde ved det tydeligere ønsket?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lettet] «Spør meg før du snakker for meg.» Det høres ut som det jeg mener.",
+      "suggestion": "Hva tydeliggjør den beskjeden for deg?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Ettertenksom] Jeg kan velge ikke i kveld uten å si aldri.",
+      "suggestion": "Hva hjalp deg å kjenne forskjellen på de to valgene?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Trist, roligere] Hendelsen har ikke endret seg. Jeg er mindre alene med den.",
+      "suggestion": "Hva hjalp deg å føle deg mindre alene her?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Varm] Jeg husket at jeg fortsatt liker jobben. Det benektet ikke det som skjedde.",
+      "suggestion": "Hvordan vil du gi plass til både gleden og det som skjedde?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Stødig] Jeg trenger ikke svare for alle.",
+      "suggestion": "Hva endrer seg når din egen erfaring er nok å snakke fra?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Ettertenksom] Jeg fant ord for støtten jeg ønsker fra Max.",
+      "suggestion": "Hvilke ord vil du huske?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lettet] Jeg trengte ikke en perfekt forklaring for å bli hørt.",
+      "suggestion": "Hva betydde det å bli hørt uten den forklaringen?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lavt] Jeg kjente det såre uten å måtte tilgi noen.",
+      "suggestion": "Hva hjalp deg å gi følelsen plass på de premissene?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Stødig] Pausen kjentes som mitt valg, ikke som å mislykkes med å si fra.",
+      "suggestion": "Hva gjorde at pausen kjentes som ditt valg?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Varm] Bildene var bare bilder en stund. Det likte jeg.",
+      "suggestion": "Hva var godt ved å la den gleden være vanlig?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Ettertenksom] Jeg kan elske arbeidet og protestere mot hvordan jeg ble behandlet.",
+      "suggestion": "Hva hjalp deg å gi begge deler plass?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Stødig] Jeg fant en beskjed til Max som ikke avviser støtten.",
+      "suggestion": "Hva vil du beholde, og hva vil du endre, i den beskjeden?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lavt] Jeg er usikker på dagens avbrytelse. Mindre usikker på at jeg fortjener å bli hørt.",
+      "suggestion": "Hva gjorde det mulig å skille de to usikkerhetene?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Trist, roligere] Jeg sluttet å argumentere for at det ikke burde ha såret. Det sårer fortsatt.",
+      "suggestion": "Hva endret seg da du sluttet å krangle med det såre?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lettet, forsiktig] Å si ikke i kveld kjennes som å velge. Jeg vet ikke med i morgen.",
+      "suggestion": "Hva gjorde kveldens valg tydeligere, selv med morgendagen åpen?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Varm] Jeg beholdt den vanlige kvelden uten å bruke den til å benekte møtet.",
+      "suggestion": "Hvordan ga du begge deler plass?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Ettertenksom] Jeg kan angre på det skarpe med Adam uten å ta tilbake det såre.",
+      "suggestion": "Hvilke ord ville hjelpe deg å beholde den forskjellen?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Berørt] Å bli trodd gjorde meg mindre opptatt av å samle bevis et øyeblikk.",
+      "suggestion": "Hva var annerledes i det øyeblikket der du ble trodd?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Stødig] Jeg kan ønske anerkjennelse uten å gjøre firmaets svar til min prestasjon.",
+      "suggestion": "Hva blir tydeligere om det som er ditt ansvar og det som er deres?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lavt] Frykten er ikke borte. Den er mer konkret nå.",
+      "suggestion": "Hva har blitt tydeligere i frykten?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Ettertenksom] Jeg fant en måte å be om selskap uten en ny full forklaring.",
+      "suggestion": "Hvilke få ord fanger selskapet du ønsker?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lettet] Jeg sa stopp, og vi stoppet. Det gjorde det neste valget mer mitt.",
+      "suggestion": "Hva vil du at vi husker ved å respektere det stoppet?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lavt] Jeg kan si det som skjedde uten å gjøre hvert ord mildere. Jeg er ikke klar for å si det til Ben.",
+      "suggestion": "Hva hjalp ordene å bli tydeligere her, uten at et neste steg måtte følge?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Ettertenksom] Jeg vil at Max venter på svaret. Jeg har ikke alltid et svar.",
+      "suggestion": "Hva fanger beskjeden, og hva trenger fortsatt plass til å være uavklart?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Trist, stødigere] Ingenting ga presentasjonen tilbake. Jeg sluttet å kalle meg svak for å være såret.",
+      "suggestion": "Hva endret seg i hvordan du behandlet det såre, selv med den tapte muligheten uendret?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lettet, forsiktig] Å bli trodd betydde noe. Det betyr ikke at jeg vil dele mer neste gang.",
+      "suggestion": "Hva var viktig ved å bli trodd uten å måtte fortelle mer?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Varm, alvorlig] Middagen var hyggelig. Ikke gjør den til bevis på bedring.",
+      "suggestion": "Vi kan beholde den som den kvelden. Hva vil du huske om hvorfor den betydde noe?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Stødig] Jeg kan ta ansvar for at jeg glefset og fortsatt stå ved behovet for å bli hørt.",
+      "suggestion": "Hvordan ville du si den forskjellen med ord du kan bruke med Adam?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lavt] Vi stoppet da jeg ba om det. Endringen var i å ha et valg, ikke i å få det bedre.",
+      "suggestion": "Hvilken forskjell gjorde det respekterte valget?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Ettertenksom] Jeg er usikker på ett øyeblikk uten å trekke tilbake de andre nå.",
+      "suggestion": "Hva hjalp deg å gi den usikkerheten sin egen plass?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Trist, rolig] Jeg kan la tegningene ligge uten å love at jeg føler noe annet i morgen.",
+      "suggestion": "Hva endret seg i hvordan du lot det uferdige øyeblikket være?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Usikker] Jeg vet ikke om det er en endring. Det er mindre forklaring inni meg et minutt.",
+      "suggestion": "Kan vi sette ord på den lille forskjellen uten å avgjøre hva den blir?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Lavt] Jeg rettet forklaringen om kultur. Du lot min egen betydning bli.",
+      "suggestion": "Hva vil du at vi husker om å gi den korrigeringen plass?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_consolidating-emotional-change_case-nora_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "text": "[Stødig, sliten] Beskjeden er tydeligere. Jeg trenger kanskje færre ord når jeg faktisk bruker den.",
+      "suggestion": "Hvilke få ord rommer delen du mest vil ha hørt?",
+      "difficulty": "hard"
+    }
   ]
 }

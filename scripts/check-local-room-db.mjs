@@ -7,6 +7,8 @@ import { readFile, readdir } from 'node:fs/promises';
 import { createServer } from 'node:http';
 import { randomUUID } from 'node:crypto';
 import assert from 'node:assert/strict';
+import {NORA_MASTERY} from '../src/data/noraMastery.js';
+import {NORA_SKILLS,NORA_LEVELS} from '../src/data/noraCase.js';
 import {MIA_MASTERY} from '../src/data/miaMastery.js';
 import {MIA_SKILLS,MIA_LEVELS} from '../src/data/miaCase.js';
 import {ARNE_MASTERY} from '../src/data/arneMastery.js';
@@ -25,16 +27,16 @@ try {
     create publication supabase_realtime;`);
   await db.exec(await read('supabase/auth-pairing-practice.sql'));
   for (const name of (await readdir(new URL('supabase/migrations/', root))).sort()) {
-    const levelMigration=/_(?:arne|mia)_practice_levels\.sql$/.test(name);
+    const levelMigration=/_(?:arne|mia|nora)_practice_levels\.sql$/.test(name);
     const validator=levelMigration?(await db.query("select 'dp_private.validate_room_config(jsonb)'::regprocedure::oid as oid")).rows[0].oid:null;
     await db.exec(await read('supabase/migrations/' + name));
     if(levelMigration)assert.equal((await db.query("select 'dp_private.validate_room_config(jsonb)'::regprocedure::oid as oid")).rows[0].oid,validator,'Existing room validator identity must survive the migration');
   }
-  for(const exercise of [...ARNE_MASTERY,...MIA_MASTERY]) {
+  for(const exercise of [...ARNE_MASTERY,...MIA_MASTERY,...NORA_MASTERY]) {
     const row=(await db.query('select scenes from dp_private.exercise_catalog where exercise_id=$1 and revision=$2',[exercise.id,exercise.revision])).rows[0];
     assert.deepEqual(row?.scenes,exercise.scenes.map(({id,skillId,criteriaTags})=>({id,skillId,criteriaTags})),'Mastery catalog drift: '+exercise.id);
   }
-  for(const [caseId,skills,levels] of [['case-arne',ARNE_SKILLS,ARNE_LEVELS],['case-mia',MIA_SKILLS,MIA_LEVELS]])for(const skill of skills)for(const level of levels) {
+  for(const [caseId,skills,levels] of [['case-arne',ARNE_SKILLS,ARNE_LEVELS],['case-mia',MIA_SKILLS,MIA_LEVELS],['case-nora',NORA_SKILLS,NORA_LEVELS]])for(const skill of skills)for(const level of levels) {
     const row=(await db.query('select entries from dp_private.focused_level_catalog where skill_id=$1 and difficulty=$2 and case_id=$3 and revision=$4',[skill,level,caseId,BASE_PRACTICE[skill].cases[caseId].statements[0].revision])).rows[0];
     const expected=BASE_PRACTICE[skill].cases[caseId].statements.filter(e=>e.difficultyTier===level).map(({id,criteriaTags})=>({id,criteriaTags}));
     assert.deepEqual(row?.entries,expected,'Focused catalog drift: '+skill+'/'+level);

@@ -2,9 +2,9 @@
 // Run node scripts/check-local-room-db.mjs --serve first. No remote writes.
 async page => {
  const url=page.url(),assert=(ok,message)=>{if(!ok)throw new Error(message);};
- const testCase=new URL(url).searchParams.get('testCase'),mia=testCase==='mia',arne=!!['arne','mia'].includes(testCase);
- const exerciseId=mia?'mastery-mia-help-and-choice-easy':arne?'mastery-arne-ordinary-days-easy':'mastery-sara-evenings';
- const caseId=mia?'case-mia':arne?'case-arne':'case-sara';
+ const testCase=new URL(url).searchParams.get('testCase'),nora=testCase==='nora',mia=testCase==='mia',arne=['arne','mia','nora'].includes(testCase);
+ const exerciseId=nora?'mastery-nora-work-and-belonging-easy':mia?'mastery-mia-help-and-choice-easy':arne?'mastery-arne-ordinary-days-easy':'mastery-sara-evenings';
+ const caseId=nora?'case-nora':mia?'case-mia':arne?'case-arne':'case-sara';
  const levels=arne?['easy','moderate','hard']:['easy'];
  assert(['127.0.0.1','localhost'].includes(new URL(url).hostname),'Local preview only');
  const users=await (await page.request.get('http://127.0.0.1:5199/users')).json(),errors=[],contexts=[];
@@ -55,7 +55,7 @@ async page => {
    await p.locator('#home-library').click();await p.locator('#exercise-mastery').click();
    await p.locator(`[data-exercise-id="${exerciseId}"]`).click();await p.locator('#mastery-start').waitFor();
    if(arne&&level!=='easy'){await p.locator(`[data-practice-level="${level}"]`).click();await p.waitForFunction(level=>document.querySelector(`[data-practice-level="${level}"]`)?.getAttribute('aria-pressed')==='true',level);}
-   assert((await p.locator('#mastery-practice .case-brief').textContent()).includes(arne?(language==='no'?'Jeg heter '+(mia?'Mia':'Leo'):'I’m '+(mia?'Mia':'Leo')):(language==='no'?'Hei, jeg heter Sara':'Hi, I\'m Sara')),'Client sees background and voice before beginning');
+   assert((await p.locator('#mastery-practice .case-brief').textContent()).includes(arne?(language==='no'?'Jeg heter '+(nora?'Nora':mia?'Mia':'Leo'):'I’m '+(nora?'Nora':mia?'Mia':'Leo')):(language==='no'?'Hei, jeg heter Sara':'Hi, I\'m Sara')),'Client sees background and voice before beginning');
    const levelName={en:{easy:'Easy',moderate:'Moderate',hard:'Hard'},no:{easy:'Lett',moderate:'Moderat',hard:'Vanskelig'}}[language][level];
    assert((await p.locator('#mastery-practice .room-case-heading').textContent()).endsWith(levelName),'The exercise level follows the selected language');
    await fits('preparation');
@@ -74,7 +74,7 @@ async page => {
      }
      assert(await p.locator('#mastery-finish').isVisible(),'Completion action available to guide');
      await fits('item');
-     if(set===1&&item===0)await p.screenshot({path:`output/playwright/mastery-${mia?'mia':arne?'arne':'sara'}-${level}-${language}-${mode}-item-320.png`,fullPage:true});
+     if(set===1&&item===0)await p.screenshot({path:`output/playwright/mastery-${nora?'nora':mia?'mia':arne?'arne':'sara'}-${level}-${language}-${mode}-item-320.png`,fullPage:true});
      await p.locator('#mastery-finish').click();
     }
     await p.locator('#mastery-score').waitFor();await fits('rating');

@@ -2000,5 +2000,403 @@
       "suggestion": "Det betyr noe at du fortsatt er deg, og de ordene rommer ikke alt du har mistet.",
       "difficulty": "hard"
     }
+  ],
+  "case-nora": [
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Såret] Han ville ha et mer norsk ansikt. Jeg satt der med mine egne tegninger.",
+      "suggestion": "Arbeidet ditt var ønsket, mens du ble behandlet som en som ikke hørte til foran det.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sint] Jeg sa Norge. De spurte hvor jeg egentlig kom fra.",
+      "suggestion": "Svaret ditt ble ikke godtatt, som om du ikke kunne høre til der du vokste opp.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sliten] Jeg vil ha en kveld som ikke går med til å forklare det møtet.",
+      "suggestion": "Du vil ha litt tid som ikke blir tatt opp av det som skjedde på jobb.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Frustrert] Max begynte å snakke for meg. Jeg hadde ikke valgt ordene mine ennå.",
+      "suggestion": "Du ville ha hjelp som ga plass til ditt eget svar.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Trist] Jeg elsker å tegne bygg. Den ettermiddagen orket jeg ikke se på tegningene.",
+      "suggestion": "Det som skjedde, skapte avstand til et arbeid du vanligvis er glad i.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Bekymret] Hvis jeg tar det opp, er jeg redd de bare ser en klage.",
+      "suggestion": "Du vil at utestengingen blir hørt, og er redd resten av deg forsvinner i blikket deres.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lettet] Lina ba meg ikke bevise det. Hun lyttet.",
+      "suggestion": "Du kunne fortelle det som skjedde uten først å måtte legge frem en hel sak.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] Jeg fikk møtet videre. Ingen så hva det kostet.",
+      "suggestion": "Du holdt møtet i gang mens du bar på noe de ikke så.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sint] Jeg vil ikke at kollegaen blir straffet. Jeg vil at de sier hvem som laget tegningene.",
+      "suggestion": "Du ber om at bidraget ditt blir anerkjent som ditt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Varm] Adam spurte om jeg ønsket selskap eller en samtale. Jeg ville ha selskap.",
+      "suggestion": "Det var godt å ha selskap uten å måtte fortelle hele historien.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Stødig] Jeg vil ikke ta tak i det i kveld. Det betyr ikke at det var greit.",
+      "suggestion": "Du kan la det ligge i kveld uten å bestemme at det var akseptabelt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] Jeg vil glede meg over bildene mine uten å gjøre dem til noe om tilhørighet.",
+      "suggestion": "Du vil ha plass til en vanlig glede på dens egne premisser.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Smiler svakt] Jeg elsker arbeidet. Jeg hater å øve på å bevise at jeg hører til før møtet.",
+      "suggestion": "Du vil gjøre arbeid du liker uten å forberede et forsvar for plassen din der.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sint, nølende] Max forsvarte meg. Jeg var takknemlig og ville at han sluttet.",
+      "suggestion": "Støtten betydde noe, og å bli snakket for tok bort noe du ville velge selv.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] Jeg likte middagen. Så fikk jeg skyldfølelse for å la møtet ligge en kveld.",
+      "suggestion": "Kvelden ga lettelse, fulgt av en bekymring for at gleden betydde å la noe viktig passere.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Tørr latter] De kaller meg trygg. Det var ikke det som skjedde ved pulten etterpå.",
+      "suggestion": "De så den rolige delen, mens det såre etterpå ble ditt å bære.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Usikker] Jeg vet ikke hvorfor jeg ble avbrutt i dag. Jeg vet at jeg har begynt å forvente det.",
+      "suggestion": "Grunnen i dette øyeblikket er uklar, og tidligere erfaringer har fått deg til å se etter det.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Trist, så rask] Jeg vil at Ben forstår. Jeg vil ikke bruke livet på å få ham til å forstå.",
+      "suggestion": "Du vil at han hører deg uten at forklaringen blir hele jobben din.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Urolig] Lina trodde meg. På et vis ville jeg likevel gi henne alle bevisene.",
+      "suggestion": "Det var godt å bli trodd, mens vanen med å måtte bevise det fortsatte.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sint, lavere] Jeg glefset til spørsmålet fra Adam. Han tvilte ikke på at det skjedde.",
+      "suggestion": "Du hørte enda et krav om forklaring, og ser nå at spørsmålet hans kan ha betydd noe annet.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] Jeg vil ha æren. Jeg vil ikke ha en seremoni om å gi meg æren.",
+      "suggestion": "Du vil ha vanlig anerkjennelse for arbeidet uten å bli selve anledningen.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Varm, så på vakt] Jeg likte å snakke om bildene. Jeg ventet nesten at samtalen skulle snu.",
+      "suggestion": "Den vanlige gleden var der, mens en del av deg fortsatt ventet på å bli gjort til en utenfor.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sliten] Jeg vil ikke si noe i dag. Ikke fordi det ikke er noe å si.",
+      "suggestion": "Du velger en pause fra å snakke, mens det som skjedde fortsatt fortjener å bli hørt.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Ettertenksom] Det koster å bli. Å slutte ville bety å gi opp arbeid jeg bryr meg om.",
+      "suggestion": "Ingen av valgene er enkle: Det koster å bli, og å slutte ville også gi et tap.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] Han ville ha tegningene. Ikke meg foran dem. Jeg gjør stadig setningen mindre stygg.",
+      "suggestion": "Bidraget var ønsket mens nærværet ditt ble avvist, og du gjør stadig ordene mildere.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Retter] Jeg føler meg ikke mellom to kulturer. Jeg føler meg utestengt fra et møte om eget arbeid.",
+      "suggestion": "Det er den konkrete utestengingen du vil ha hørt, heller enn en historie om hvor du passer kulturelt.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Nøler] Jeg vet ikke hvorfor det skjedde i dag. Ikke la det bety at den andre kommentaren var uklar.",
+      "suggestion": "Motivet i dag er usikkert. Det gjør ikke det Ben tidligere sa mindre tydelig.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Tørt] Max traff poenget. Ønsket likevel at han sluttet å snakke.",
+      "suggestion": "Selv med riktig poeng ville du beholde valget om hvordan og når du skulle snakke.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] Bildene var bare hyggelige. Ikke gjør det til at jeg tar noe tilbake.",
+      "suggestion": "Du vil la gleden være vanlig, uten at en større betydning blir lagt til.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Urolig] Jeg vil ha et svar fra Ben. Jeg vil ikke bruke en time til på svaret hans.",
+      "suggestion": "Du vil ha anerkjennelse uten at den tar enda mer av tiden og oppmerksomheten din.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Flatt] Jeg var stille. Det var ikke hjelpeløshet. Det var et valg som kostet.",
+      "suggestion": "Du tok et valg i øyeblikket, og betalte likevel noe for det.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Mykt] Jeg var lettet over at noen merket det. Så ville jeg at rommet glemte at jeg var der.",
+      "suggestion": "Anerkjennelsen kjentes lettende og utleverende, nesten samtidig.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sliten] Jeg har forklart det godt. Jeg har ikke sagt hvordan det var. Jeg vet ikke om jeg vil i dag.",
+      "suggestion": "Forklaringen finnes, mens det å dele den personlige virkningen fortsatt er et valg du ikke har tatt i dag.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Lavt] Jeg er sint på Max, men det handler ikke bare om Max.",
+      "suggestion": "Sinnet rommer hans del, uten helt å passe inni det han gjorde.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Ettertenksom] Å bli er ikke lojalitet. Å slutte ville ikke bare være frihet.",
+      "suggestion": "Ingen av valgene passer i én merkelapp; begge rommer noe viktig og noe du ville miste.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Nesten hvisker] Jeg vil bli trodd. Jeg vil ikke ha enighet med hver tanke jeg har hatt etterpå.",
+      "suggestion": "Du vil at hendelsen og virkningen blir tatt på alvor, med rom til å undersøke tankene om den.",
+      "difficulty": "hard"
+    }
   ]
 }

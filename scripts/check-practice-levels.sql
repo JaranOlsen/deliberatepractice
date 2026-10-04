@@ -17,8 +17,8 @@ declare host uuid:=gen_random_uuid(); client uuid:=gen_random_uuid();
  cfg jsonb; bad jsonb; r jsonb; rid uuid; parent uuid; rejected boolean; count_before integer;
 begin
  insert into auth.users(id,email) values(host,'host@levels.invalid'),(client,'client@levels.invalid');
- if (select count(*) from dp_private.focused_level_catalog)<>66 then raise exception 'Expected two cases with eleven banks at each of three levels';end if;
- if (select count(*) from dp_private.exercise_catalog where case_id in ('case-arne','case-mia'))<>6 then raise exception 'Missing mastery levels';end if;
+ if (select count(*) from dp_private.focused_level_catalog)<>99 then raise exception 'Expected three cases with eleven banks at each of three levels';end if;
+ if (select count(*) from dp_private.exercise_catalog where case_id in ('case-arne','case-mia','case-nora'))<>9 then raise exception 'Missing mastery levels';end if;
  -- Every legal focused bank works; forged level, mixed bank and tags cannot enter a room.
  for bank in select * from dp_private.focused_level_catalog loop
   perform set_config('request.jwt.claim.sub',host::text,true);
@@ -67,7 +67,7 @@ begin
  end loop;
  -- Mastery uses the approved sequence/level, not the client-supplied label.
  select count(*) into count_before from public.practice_ratings;
- for exercise in select * from dp_private.exercise_catalog where case_id in ('case-arne','case-mia') loop
+ for exercise in select * from dp_private.exercise_catalog where case_id in ('case-arne','case-mia','case-nora') loop
   perform set_config('request.jwt.claim.sub',host::text,true);rid:=gen_random_uuid();
   cfg:=jsonb_build_object('languageId','en','exerciseType','mastery','exerciseId',exercise.exercise_id,'caseId',exercise.case_id,
    'difficulty',exercise.difficulty,'contentRevision',exercise.revision,'roundSize',12,'statements',exercise.scenes,'hostRole','therapist','preparationProtocol','ready-v1');

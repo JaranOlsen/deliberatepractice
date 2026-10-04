@@ -2180,5 +2180,439 @@
       "suggestion": "Er det som om pausen blir fylt før ordene dine rekker å komme?",
       "difficulty": "hard"
     }
+  ],
+  "case-nora": [
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[På avstand] De ville ha tegningene, bare ikke at jeg presenterte dem.",
+      "suggestion": "Er det som om arbeidet ditt fikk komme inn i rommet mens du ble holdt ved døren?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] Svaret mitt er Norge. Så kommer et nytt spørsmål.",
+      "suggestion": "Kjennes det som om svaret blir levert tilbake med beskjed om at det ikke er nok?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[På avstand] Ordene til Max fyller rommet før mine kommer.",
+      "suggestion": "Er det som om pausen til svaret ditt fylles før du får brukt den?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Saklig] Jeg har laget en forklaring til hver variant av spørsmålet.",
+      "suggestion": "Er det som å ta med en mappe med svar inn i en vanlig samtale?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Lavt] Jeg så på tegningene, men ville ikke ta i dem.",
+      "suggestion": "Når du ser dem for deg på pulten, kommer avstanden til arbeidet du liker litt nærmere?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[På avstand] Jeg blir presentert med hvor foreldrene kom fra før hva jeg gjør.",
+      "suggestion": "Er det som om første side av presentasjonen din blir skrevet for deg?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] Jeg holdt møtet i gang og tok følelsen med hjem.",
+      "suggestion": "Måtte du bære den ut fordi det ikke var plass til den der?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[På avstand] Lina lyttet. Jeg trengte ikke ordne historien pent.",
+      "suggestion": "Var det plass til å legge frem den rotete versjonen hos henne?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Lavt] Jeg er lei av å bli bedt om å bevise at jeg hører til.",
+      "suggestion": "Er det som å måtte vise billett igjen til en plass som allerede er din?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] En vanlig samtale om middag var overraskende velkommen.",
+      "suggestion": "Ga den deg et øyeblikk der du bare kunne være med i samtalen?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[På avstand] Jeg vil ha min egen stemme i rommet.",
+      "suggestion": "Når du ser for deg å snakke om tegningene, er det den plassen du vil ha tilbake?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Lavt] Kommentaren ble igjen etter at alle gikk.",
+      "suggestion": "Var det som om rommet ble tomt, men ordene fortsatt var der sammen med deg?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[På avstand] Jeg har en portefølje og en forklaring om tilhørighet. Begge kommer til møtet.",
+      "suggestion": "Er det som å bære to sett papirer når du bare ville drøfte tegningene?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] De applauderer hvordan jeg mestrer det. Arbeidet får mindre oppmerksomhet.",
+      "suggestion": "Står applausen foran arbeidet du ville at de så?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[På avstand] «Norge» åpner neste spørsmål i stedet for å avslutte det første.",
+      "suggestion": "Kjennes det som om døråpningen flyttes hver gang du når den?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Saklig] Jeg fikk samtalen til å gli. Det vanskelige ventet til jeg kom hjem.",
+      "suggestion": "Var det som om du måtte ta med deg den vanskelige, uferdige delen hjem alene?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Lavt] Hjelpen fra Max kan skyve meg ut. Det er mitt uttrykk.",
+      "suggestion": "«Skyve meg ut» høres ut som mindre plass til deg inni støtten du ønsker. Er det nært?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[På avstand] Jeg forbereder stadig neste forklaring.",
+      "suggestion": "Er det som å sitte i dagens samtale med morgendagens forsvar allerede ved siden av deg?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] Lina hørte historien uten å få meg til å stille alt opp på rekke.",
+      "suggestion": "Ga det deg et sted å legge delene ned uten først å ordne dem?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[På avstand] Jeg har blitt den de spør om mangfold før arkitektur.",
+      "suggestion": "Blir én del av presentasjonen så stor at arkitekten er vanskelig å se?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Lavt] Jeg kan bli, med en kostnad. Jeg kan gå, med en kostnad.",
+      "suggestion": "Er det som å stå i et veikryss der ingen av veiene lar deg legge alt bak deg?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[På avstand] En vanlig kveld kjentes som en plass jeg hadde glemt at jeg kunne ha.",
+      "suggestion": "Når du ser for deg middag med vennene, kommer den vanlige plassen litt nærmere?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] Jeg vil ha æren uten et søkelys på hvor rause de er.",
+      "suggestion": "Er det som å ville ha lyset på arbeidet ditt heller enn på dem som gir det tilbake?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[På avstand] Jeg har en stemme og en akseptabel utgave av den til møter.",
+      "suggestion": "Utelater møteutgaven noen ord du fortsatt trenger å få hørt?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[På avstand] Arbeidet ligger på bordet. Plassen min ved bordet blir diskusjonen.",
+      "suggestion": "Er det som om tegningene venter mens du må forsvare stolen du sitter på?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] Jeg har polert forklaringen. Delen jeg ikke har polert, er bare min.",
+      "suggestion": "Er det en uferdig versjon like utenfor fortellingen alle hører? Passer det?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Retter, på avstand] Ikke mellom kulturer. Mellom å ville ha jobben og ikke ville ha denne behandlingen.",
+      "suggestion": "Er det mer som to viktige ønsker som ikke lett får plass i samme rom?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Lavt] Tegningene er bare tegninger i dag. Ikke legg alt inn i dem.",
+      "suggestion": "Vi kan la dem være bare tegninger. Når du ser for deg pulten, er det en liten følelse der, eller ikke?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[På avstand] En enkel beskjed blir en hel presentasjon om hvorfor jeg er rimelig.",
+      "suggestion": "Er det som å pakke beskjeden inn i papirer før den får stå for seg selv?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Saklig] Jeg vil ha Max ved siden av meg. Han kommer stadig først til svaret.",
+      "suggestion": "«Ved siden av» høres ut som å følge tempoet ditt heller enn å komme foran ordene. Er det nært?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] De erkjenner problemet. Jeg er fortsatt den som følger opp.",
+      "suggestion": "Lar anerkjennelsen vekten av å føre det videre bli i dine hender?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[På avstand] Jeg valgte stillhet. Det var ikke en tom stillhet.",
+      "suggestion": "Var det valg og kostnader i stillheten som de andre ikke kunne se?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Lavt] Jeg er lei av den akseptable versjonen av denne historien.",
+      "suggestion": "Er det en mindre ryddig versjon som venter på et sted der den ikke må være akseptabel?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Retter] Ikke en vegg. Jeg vil ha selskap. Jeg vil ikke at folk går rett inn i historien.",
+      "suggestion": "Passer en åpen dør med et ønske om å banke på bedre, eller passer ingen av bildene?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[På avstand] Vi snakket om bilder. Jeg måtte ikke presentere problemet først.",
+      "suggestion": "Var det plass til å komme inn som den som likte bildene, uten en forklaring i døren?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatt] Å slutte ville ikke gi tilbake den delen av jobben jeg likte.",
+      "suggestion": "Når du ser for deg å gå, er den kjære delen fortsatt bak deg, heller enn bare borte?",
+      "difficulty": "hard"
+    }
   ]
 }

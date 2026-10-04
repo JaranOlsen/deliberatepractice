@@ -2180,5 +2180,439 @@
       "suggestion": "Is it like the pause gets filled before your words have a chance to arrive?",
       "difficulty": "hard"
     }
+  ],
+  "case-nora": [
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] They wanted the design, just not me presenting it.",
+      "suggestion": "Is it like your work could enter the room while you were kept at the door?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] My answer is Norway. Then comes another question.",
+      "suggestion": "Does it feel like your answer is handed back, marked not enough?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] Max’s words take up the space before mine arrive.",
+      "suggestion": "Is it like the pause for your answer gets filled before you can use it?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Matter-of-fact] I’ve prepared an explanation for every version of the question.",
+      "suggestion": "Is it like carrying a folder of answers into an ordinary conversation?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Quietly] I looked at the drawings, but didn’t want to touch them.",
+      "suggestion": "When you picture them on the desk, does the distance from work you love come closer?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] I’m introduced by where my parents came from before what I do.",
+      "suggestion": "Is it like the first page of your introduction is being written for you?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] I held the meeting together and took the feeling home.",
+      "suggestion": "Did you have to carry it out with you because there was no room for it there?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] Lina listened. I didn’t have to arrange the story neatly.",
+      "suggestion": "Was there room to put down the messy version with her?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Quietly] I’m tired of being asked to prove I belong.",
+      "suggestion": "Is it like having to show a ticket again for a place that is already yours?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] An ordinary conversation about dinner was surprisingly welcome.",
+      "suggestion": "Did it give you a moment where you could just be in the conversation?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] I want my own voice in the room.",
+      "suggestion": "When you picture speaking about the design, is that the place you want back?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Quietly] The comment stayed after everyone left.",
+      "suggestion": "Was it as if the room emptied but those words were still there with you?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] I have a portfolio and an explanation of belonging. Both come to the meeting.",
+      "suggestion": "Is it like carrying two sets of papers when you only wanted to discuss the design?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] They applaud how I cope. The work gets less attention.",
+      "suggestion": "Is the applause standing in front of the work you wanted them to see?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] “Norway” opens the next question instead of closing the first.",
+      "suggestion": "Does it feel like the doorway moves each time you reach it?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Matter-of-fact] I kept the conversation smooth. The rough part waited at home.",
+      "suggestion": "Was there a rough, unfinished version you had to carry away by yourself?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Quietly] Max’s help can crowd me out. That’s my phrase.",
+      "suggestion": "“Crowd me out” sounds like less space for you inside the very support you want. Is that close?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] I’m always preparing the next explanation.",
+      "suggestion": "Is it like sitting in today’s conversation with tomorrow’s defense already beside you?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] Lina heard the story without making me line everything up.",
+      "suggestion": "Did it give you somewhere to put the pieces down without arranging them first?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] I’ve become the person they ask about diversity before architecture.",
+      "suggestion": "Is one part of your introduction being enlarged until the architect is hard to see?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Quietly] I can stay, at a cost. I can leave, at a cost.",
+      "suggestion": "Is it like standing at a junction where neither road leaves everything behind?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] An ordinary evening felt like a place I’d forgotten I could have.",
+      "suggestion": "When you picture dinner with your friends, does that ordinary place come closer?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] I want the credit without a spotlight on how generous they are.",
+      "suggestion": "Is it like wanting the light on your work rather than on the people handing it back?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] I have a voice, and an acceptable version of that voice for meetings.",
+      "suggestion": "Is the meeting version leaving out some words you still need heard?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] My work is on the table. My place at the table becomes the discussion.",
+      "suggestion": "Is it like the drawings wait while you have to justify the chair you’re sitting in?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] I’ve polished the explanation. The part I haven’t polished is mine alone.",
+      "suggestion": "Is there an unfinished version sitting just outside the account everyone hears? Does that fit?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Corrects, distant] Not between cultures. Between wanting my job and not wanting this treatment.",
+      "suggestion": "Is it more like two important wishes that won’t fit easily in the same room?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Quietly] The drawings are just drawings today. Don’t load them with everything.",
+      "suggestion": "We can keep them just drawings. When you picture the desk, is any small feeling there, or not?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] A simple request becomes a whole presentation about why I’m reasonable.",
+      "suggestion": "Is it like wrapping the request in papers before it’s allowed to stand by itself?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Matter-of-fact] I want Max beside me. He keeps reaching the answer first.",
+      "suggestion": "“Beside me” sounds like matching your pace rather than arriving ahead of your words. Is that close?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] They recognize the problem. I’m still the person doing the follow-up.",
+      "suggestion": "Does the acknowledgment leave the weight of carrying it forward in your hands?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] I chose silence. It wasn’t an empty silence.",
+      "suggestion": "Did that quiet hold choices and costs the room couldn’t see?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Quietly] I’m tired of the acceptable version of this story.",
+      "suggestion": "Is there a less tidy version waiting for somewhere it doesn’t have to be acceptable?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Corrects] Not a wall. I want company. I don’t want people walking straight into the story.",
+      "suggestion": "Would an open door with a request to knock fit better, or neither image?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Distant] We talked about photographs. I didn’t have to introduce the problem first.",
+      "suggestion": "Was there space to enter as the person enjoying the pictures, with no explanation at the door?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-evocations_case-nora_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "text": "[Flatly] Leaving wouldn’t give back the part of this job I liked.",
+      "suggestion": "When you picture leaving, is the loved part still there behind you, rather than simply gone?",
+      "difficulty": "hard"
+    }
   ]
 }

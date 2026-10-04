@@ -2180,5 +2180,439 @@
       "suggestion": "What changed in the feeling when it became less sharp?",
       "difficulty": "hard"
     }
+  ],
+  "case-nora": [
+    {
+      "id": "dp_empathic-explorations_case-nora_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Hurt] It hurts when I remember him saying that about my face.",
+      "suggestion": "What is the most painful part as you remember it now?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Angry] The anger is here when I say “my work.”",
+      "suggestion": "What does that anger want heard about your work?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Sad] I miss looking forward to those meetings.",
+      "suggestion": "Could we hear what you miss about going into them?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Relieved] Saying it plainly feels like a relief.",
+      "suggestion": "What is different when you let yourself say it plainly?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Warm] I feel warm remembering Lina just staying with me.",
+      "suggestion": "What did her staying give you in that moment?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Fearful] I’m afraid I’ll become the complaint instead of the architect.",
+      "suggestion": "What is frightening about being seen that way?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Sad] I wanted them to ask me about the design.",
+      "suggestion": "What is it like to give that wish a voice here?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Angry] I’m angry that I have to explain my first answer.",
+      "suggestion": "Could we stay with what the repeated question does to you?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Quietly] I’m ashamed of being upset.",
+      "suggestion": "What does the shame say being upset means about you?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Moved] I felt seen when someone asked for my opinion.",
+      "suggestion": "What part of you felt seen in being asked?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Steady] I feel calmer when I say I can choose when to respond.",
+      "suggestion": "What changes when the timing becomes yours to choose?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Sad] I’m sad, and I want it heard without advice.",
+      "suggestion": "We can leave advice aside. What do you want heard in the sadness?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Angry, then doubts] I want my own work seen. Maybe I’m making it all about me.",
+      "suggestion": "Could we hear that wish before judging whether it takes too much room?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Hurt] It hurt, and then I started defending why it should hurt.",
+      "suggestion": "What is it like to let the hurt be here without building its defense?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Relieved, guilty] Leaving the story alone tonight feels good and wrong.",
+      "suggestion": "What does the guilt say is wrong about taking that evening?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Sad, brisk] I miss trusting a meeting to be about the actual work. I know that sounds naive.",
+      "suggestion": "Before calling it naive, what do you miss in that trust?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Warm, wary] I felt included for a while. Part of me kept checking.",
+      "suggestion": "What was it like to enjoy that place while still checking it?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Angry, quieter] I’m angry with Max. I don’t want him gone.",
+      "suggestion": "What does the anger ask him to change while you still want his support?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Uneasy] I’m unsettled about today, even with the motive unclear.",
+      "suggestion": "What part of the unease can you name without deciding his motive?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Guilty] I regret the way I answered Adam, not being upset.",
+      "suggestion": "What becomes clearer when you separate those two?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Moved, hesitant] Being believed was good. I don’t want to make it a huge moment.",
+      "suggestion": "We can keep it small. What was good about being believed?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Sad, firm] I want to talk about the hurt, not search my body for it.",
+      "suggestion": "We can use words. What do you want us to hear in the hurt?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Fearful] I’m afraid they’ll see only a complaint. Then I feel ashamed of the fear.",
+      "suggestion": "Could we hear what is at stake in the fear before judging it?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Steady, emotional] Saying no to explaining feels better here than at work.",
+      "suggestion": "What makes that no feel more possible here?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Hurt, firm] The hurt is here. I don’t want you finding an older hurt to explain it.",
+      "suggestion": "We can stay with this hurt. What do you want heard in it?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Angry, uncertain] I’m angry with Max. The anger reaches further than what he said.",
+      "suggestion": "As you notice it, what else comes into view besides his words?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Sad, pauses] I miss something at work. I don’t know what to call it.",
+      "suggestion": "Could we give that missing a moment without naming it too quickly?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Relieved, guarded] I feel believed. I’m waiting for the part where I have to prove it again.",
+      "suggestion": "What is it like to feel believed here while still waiting for that turn?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Quietly] The regret is there. I don’t want it used to cancel the anger.",
+      "suggestion": "What does the regret ask you to change while the anger still gets heard?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Warm, serious] The enjoyment is small. It doesn’t need to become more than that.",
+      "suggestion": "What is good in that small enjoyment, if you want to stay with it?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Uneasy] I’m unsettled. I can explore that without guessing why he did it.",
+      "suggestion": "What part of the unease is available to put into words now?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Angry, steady] Don’t make the anger useful yet. Hear it first.",
+      "suggestion": "What would being heard look like here before we ask anything more of it?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Tired, emotional] I can feel it. I can’t make a coherent account of it.",
+      "suggestion": "You don’t need a coherent account. Would a few words fit, or a pause?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Softly] The hurt became less sharp. It didn’t become less true.",
+      "suggestion": "What changed in how you were carrying it when it became less sharp?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Fearful] I’m afraid of how they’ll respond. I don’t want predictions.",
+      "suggestion": "We can leave predictions aside. What is hardest about holding that uncertainty today?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-explorations_case-nora_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "text": "[Sad, steady] I want you to hear the loss without making it my whole identity.",
+      "suggestion": "Which part of the loss do you want heard on those terms?",
+      "difficulty": "hard"
+    }
   ]
 }

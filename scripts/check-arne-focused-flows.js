@@ -1,7 +1,8 @@
 // Playwright CLI, local preview + isolated Postgres bridge only.
 async page => {
  const url=page.url();if(!['127.0.0.1','localhost'].includes(new URL(url).hostname))throw new Error('Local preview only');
- const mia=new URL(url).searchParams.get('testCase')==='mia',caseId=mia?'case-mia':'case-arne',displayName=mia?'Mia':'Leo';
+ const testCase=new URL(url).searchParams.get('testCase'),key=['arne','mia','nora'].includes(testCase)?testCase:'arne';
+ const caseId='case-'+key,displayName={arne:'Leo',mia:'Mia',nora:'Nora'}[key];
  const users=await (await page.request.get('http://127.0.0.1:5199/users')).json();
  const assert=(ok,message)=>{if(!ok)throw new Error(message);};
  const contexts=[],errors=[],rounds=[];let stage='setup';

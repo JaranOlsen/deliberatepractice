@@ -23,6 +23,16 @@ Back to cases offers **Continue**, **Pause and leave**, or **Finish completed it
 
 Starting a new round waits for account and therapist selection to finish loading. Each round retains a UUID across pause/resume and save retries. If a save response is lost, retrying updates the same database rating, including a revised score, instead of adding a duplicate. The database rejects reuse of that UUID for a different round. Older clients without a UUID remain supported but do not gain retry deduplication.
 
+## Guided mastery and variable-level cases (draft branch)
+
+**Focused skill** keeps single-skill practice. **Mastery** presents twelve ordered moments from one case, with a changing skill prompt and four integrated practice ratings. Mastery history is separate from the focused skill radar; its scores are never copied onto each prompted skill. The existing self/observer choice and 1–5 performance scale apply to both.
+
+The nine original cases keep their fixed levels. **Leo, Mia and Nora** each offer Easy, Moderate and Hard within the same history, across eleven authored skills. Every offered bank has twelve English/Norwegian client/example pairs per level. Case cards show all supported levels; selections and paused rounds retain the chosen level. Four unauthored combinations per new case stay hidden. Leo's stable IDs retain `case-arne` for compatibility.
+
+The draft library contains **2,520 focused bilingual pairs** and **ten mastery paths / 120 bilingual scenes**. Sara has the first fixed-level mastery path and the three new extension banks: refocusing, consolidating emotional change and closing after emotional work. Expansion to the eight other original cases is the next batch. New case content remains pending independent clinical/native-language review.
+
+Backend metadata migrations must precede frontend publication. The [Nora release notes](src/md/mastery-release-3-nora.md) record the draft stack, compatibility and verification. No production deployment or real-account rating reset is part of this batch.
+
 ## Local Development
 
 ```sh

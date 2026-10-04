@@ -1,9 +1,9 @@
 // Playwright CLI: run-code --filename=scripts/check-four-set-room-flows.js
 // Start npm run test:rooms:db -- --serve first. All RPCs run in isolated Postgres.
 async (page) => {
-  const url=page.url(),params=new URL(url).searchParams,mia=params.get('testCase')==='mia',arne=['arne','mia'].includes(params.get('testCase')),level=params.get('testLevel')??'easy';
+  const url=page.url(),params=new URL(url).searchParams,nora=params.get('testCase')==='nora',mia=params.get('testCase')==='mia',arne=['arne','mia','nora'].includes(params.get('testCase')),level=params.get('testLevel')??'easy';
   if(!['127.0.0.1','localhost'].includes(new URL(url).hostname))throw new Error('Use local preview');
-  const caseId=mia?'case-mia':arne?'case-arne':'case-sara',exerciseId=mia?'mastery-mia-help-and-choice-easy':arne?'mastery-arne-ordinary-days-easy':'mastery-sara-evenings';
+  const caseId=nora?'case-nora':mia?'case-mia':arne?'case-arne':'case-sara',exerciseId=nora?'mastery-nora-work-and-belonging-easy':mia?'mastery-mia-help-and-choice-easy':arne?'mastery-arne-ordinary-days-easy':'mastery-sara-evenings';
   const users=await (await page.request.get('http://127.0.0.1:5199/users')).json();
   const contexts=[],pages=[],errors=[];
   const assert=(ok,message)=>{if(!ok)throw new Error(message);};

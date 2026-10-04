@@ -2360,5 +2360,475 @@
       "suggestion": "I can stay with you now. We can leave what happens to the feeling open.",
       "difficulty": "hard"
     }
+  ],
+  "case-nora": [
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Crying] I need you to hear how much that hurt.",
+      "suggestion": "I’m listening. We can give the hurt room without rushing to a solution.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Angry, shaking] I’m here. I just need to say this slowly.",
+      "suggestion": "We can go slowly. I’m here with you.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Tearful] Please don’t ask me to explain the whole history now.",
+      "suggestion": "We can stay with this moment. You don’t need to give the whole history.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Upset] I need a pause before another question.",
+      "suggestion": "Let’s pause. No new question yet.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Crying, present] I want to keep talking, just don’t cheer me up.",
+      "suggestion": "I can stay with you without trying to make this brighter.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Angry] I’m angry, and I don’t want to be calmed out of my point.",
+      "suggestion": "I want to hear the point. We can slow the pace without making the anger wrong.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Shaken] Could you use fewer words?",
+      "suggestion": "Yes. I’m here, and listening.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Tearful] I need you nearby, but I don’t want touch.",
+      "suggestion": "I can stay nearby without touching.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Crying] I can hear you. I need a little silence.",
+      "suggestion": "We can be quiet. I’m still with you.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Overwhelmed] I want to stop the story for today.",
+      "suggestion": "We’ll stop the story. What would help you settle before we move on?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Voice shaking] I’m embarrassed you’re seeing this.",
+      "suggestion": "You don’t have to hide it here. I can stay with you.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Tearful, steady] I don’t need more questions. Just someone hearing me.",
+      "suggestion": "I hear you. We can leave the questions aside.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Crying, apologizes] I want to say it. I’m sorry I’m taking so long.",
+      "suggestion": "You can take time. We don’t need to hurry the words for my sake.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Angry, shaky] I want you to hear the hurt too, not just the anger.",
+      "suggestion": "I’m listening for both. We can go slowly enough to hear what you want to say.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Tearful] I’m looking away. I’m still listening.",
+      "suggestion": "You can look away. We don’t need eye contact to stay together in this.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Shaken] I don’t know what would help. Too many questions won’t.",
+      "suggestion": "We can pause first. I’ll keep this simple.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Crying, smiles] I’m making it sound fine for you again. It isn’t fine.",
+      "suggestion": "You don’t need to make it easier for me. I can hear that it isn’t fine.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Angry, steady] I want you alongside me, not giving a speech on my behalf.",
+      "suggestion": "I can stay alongside and listen. I won’t take over your words.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Tearful] I want a pause, not to end the whole conversation.",
+      "suggestion": "We can pause and leave the choice of continuing open.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Shaky, present] The tears feel right. I don’t want them fixed.",
+      "suggestion": "We can let them be here. I can stay without trying to fix them.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Quiet, upset] Silence helps, but not if I feel you’ve gone away.",
+      "suggestion": "I’m still here with you. We can be quiet, and I can check in briefly.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Crying] Don’t ask me to breathe differently. I want to talk more slowly.",
+      "suggestion": "We can slow the conversation. You don’t need to change your breathing.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Upset, firm] I need to stop today. I’m not taking back what I said.",
+      "suggestion": "We’ll stop. What you said can stand without more exploration now.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Tearful] I’m embarrassed, and I still want you to hear it.",
+      "suggestion": "I’m listening. We can give both the embarrassment and the words room.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Crying, firm] I want to keep talking. Don’t make every tear a reason to check if I should stop.",
+      "suggestion": "I can listen without checking every tear. Tell me when the pace needs to change.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Shaken] I can’t tell you what helps. Please don’t turn that into another task.",
+      "suggestion": "We can pause together. No task to solve right now.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Angry, tearful] I need you close without agreeing with everything I’m thinking.",
+      "suggestion": "I can stay close and hear this without settling every thought right now.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Quiet, trembling] Silence is too far away. More questions are too much.",
+      "suggestion": "I’m here. I hear how much this hurts. No new question yet.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Crying] You’re very careful. Somehow that makes me feel studied.",
+      "suggestion": "I hear that my carefulness is leaving you alone. I’m here with you; I’ll use plainer words.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Tearful, present] It hurts, but I want it heard. Don’t take me away from it yet.",
+      "suggestion": "We can stay gently. I won’t assume the hurt means you want to leave it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Upset] I need to stand for a minute. It isn’t a statement about the conversation.",
+      "suggestion": "You can stand. We can pause without interpreting it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Crying, tired] I’m glad I said it. I still need to stop now.",
+      "suggestion": "We’ll stop. Having said it can matter without needing more from you now.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Shaky, dry laugh] I’ve made it easier to hear again. I can barely hear myself.",
+      "suggestion": "You don’t need to soften it for me. I’ll slow down and listen for you.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Angry, steady] Don’t turn this into a speech about courage. Stay with me.",
+      "suggestion": "I can stay with you without adding that speech.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Quietly, shaken] I don’t want touch. I do want to know you’re still here.",
+      "suggestion": "I’m still here with you. No touch.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_staying-in-contact-intense-affect_case-nora_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "text": "[Tearful] Stay a little without promising that this will feel better.",
+      "suggestion": "I can stay now. We can leave how the feeling changes open.",
+      "difficulty": "hard"
+    }
   ]
 }

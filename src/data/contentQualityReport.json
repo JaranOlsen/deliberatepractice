@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-04T13:39:24.078Z",
+  "generatedAt": "2026-10-04T21:53:30.502Z",
   "revision": "2026-10-04-v4",
   "duplicateStatementCount": 0,
-  "skillPurityWarningCount": 64,
-  "reviewQueueCount": 64,
+  "skillPurityWarningCount": 99,
+  "reviewQueueCount": 100,
   "duplicateStatements": [],
   "skillPurityWarnings": [
     {
@@ -357,6 +357,202 @@
       "suggestion": "Both are true. Being heard matters without having to change the physical limit."
     },
     {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_03",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Smiling to get through a meeting doesn’t make the comment acceptable or remove your hurt."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_04",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "His support and your wish to speak for yourself can both matter."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_05",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Being professional doesn’t mean exclusion can’t hurt you."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_06",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can choose rest without having to explain away what happened."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_07",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Wanting your craft recognized is a valid wish in its own right."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_08",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "A lovely evening doesn’t prove the meeting was harmless. Both experiences can be real."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_09",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "That choice deserves space. You don’t owe an immediate response."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_12",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can speak for yourself without representing a whole group."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_01",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "His support doesn’t cancel your right to choose how your experience is spoken about."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_02",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can be unsettled without knowing his motive. There’s room for that uncertainty too."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_03",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Getting through the moment and later wishing for a different response can both make sense."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_04",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Valuing the job doesn’t make exclusion within it harmless."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_05",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Wanting understanding doesn’t mean you have unlimited energy for making it happen."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_06",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "The decision has real costs to consider. Not knowing yet isn’t evidence of cowardice."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_07",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Taking some time for pleasure doesn’t mean you approve of what happened."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_09",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can want ordinary recognition for your contribution without becoming a story for the firm."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_11",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can ask for that kind of help. A decision needn’t become a demonstration of bravery."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_12",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Sharing parts of a background doesn’t make you responsible for explaining everyone’s experience."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_01",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You don’t need an identity problem for that repeated questioning to hurt."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_02",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "The accuracy of his words doesn’t replace your choice about who speaks for you."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_04",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can keep today’s uncertainty without retracting the concrete exclusion you described."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_05",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Silence can be a considered choice. Its cost doesn’t make it a betrayal of yourself."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_06",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Wanting room for your craft doesn’t mean you deny what happened."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_07",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Wanting acknowledgment doesn’t oblige you to welcome every form it takes."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_08",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You don’t owe a lesson. The cost to your evening deserves to be heard as it is."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_09",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "Both can be true. Being heard matters without undoing the opportunity you lost."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_10",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You deserve ordinary frustrations too, without having them all reduced to one story about you."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_12",
+      "skillId": "empathic-affirmation-validation",
+      "caseId": "case-nora",
+      "rule": "validation_missing_explicit_legitimizing_cue",
+      "suggestion": "You can need time and support without a preferred outcome being announced for you."
+    },
+    {
       "id": "dp_providing-treatment-rationale_case-arne_easy_02",
       "skillId": "providing-treatment-rationale",
       "caseId": "case-arne",
@@ -453,6 +649,55 @@
       "caseId": "case-mia",
       "rule": "treatment_rationale_missing_explanatory_language",
       "suggestion": "They don’t need to compete for that title. We could listen to each and see what you recognize."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nora_easy_01",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-nora",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "No. We could explore how it affected you, alongside any practical response you want to consider."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nora_easy_03",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-nora",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "No. One moment can be enough to explore its impact. You choose how much to share."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nora_easy_06",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-nora",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "We could hear which part of the event matters most in the anger, if that feels useful."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nora_easy_12",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-nora",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "We could start with one moment and see what you need, rather than decide the destination first."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nora_moderate_02",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-nora",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "It may clarify what matters to you. Deciding whether to confront him is a separate choice."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nora_moderate_09",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-nora",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "We could slow down with one moment and listen for what you recognize, rather than prescribe a reaction."
+    },
+    {
+      "id": "dp_providing-treatment-rationale_case-nora_hard_02",
+      "skillId": "providing-treatment-rationale",
+      "caseId": "case-nora",
+      "rule": "treatment_rationale_missing_explanatory_language",
+      "suggestion": "Not necessarily. We could explore its personal impact if wanted, or use the time for a practical need."
     }
   ]
 }

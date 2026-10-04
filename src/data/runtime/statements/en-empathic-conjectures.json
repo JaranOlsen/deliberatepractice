@@ -2180,5 +2180,439 @@
       "suggestion": "Could that familiar answer arrive before you’ve had time to decide what you want to share?",
       "difficulty": "hard"
     }
+  ],
+  "case-nora": [
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] I straightened the drawings after the meeting. I couldn’t start working.",
+      "suggestion": "I wonder if the comment had made it hard to feel at home with your own work?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Hesitant] I rehearsed explaining Norway again, even though nobody was asking.",
+      "suggestion": "Perhaps you were preparing to have your answer questioned again?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Frowning] Max helped, and I still went quiet.",
+      "suggestion": "Could the help have left you wanting more room for your own words?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] I wanted Adam beside me, but I didn’t tell him the story.",
+      "suggestion": "Maybe company felt more helpful than having to explain it once more?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Dry laugh] I make the joke about where I’m from before they can.",
+      "suggestion": "I wonder if joking gives you some choice in how the moment happens?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Thoughtful] I stayed in the conversation when it was about the photographs.",
+      "suggestion": "Perhaps it felt good to be met through something you enjoy?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] I don’t correct them every time. Then I feel bad about that.",
+      "suggestion": "Could you be judging yourself for conserving energy you actually need?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Uneasy] I explain that I like my job before I mention the comment.",
+      "suggestion": "Maybe you want to make sure the hurt isn’t heard as rejecting everything about the work?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Hesitant] I wanted someone to say they noticed. I didn’t need a speech.",
+      "suggestion": "Perhaps a simple acknowledgment would have helped you feel less alone?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] I kept my voice calm, and afterwards I shook.",
+      "suggestion": "I wonder if holding the meeting together left feelings with nowhere to go until afterwards?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Reflective] I want to ask Max to wait, but I keep softening the request.",
+      "suggestion": "Could you worry that a clear request might sound like rejecting his support?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] Lina didn’t ask another question. I was glad she stayed.",
+      "suggestion": "Maybe being accompanied mattered more than finding more words then?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Brisk] I gave Lina the dates and exact words. She’d already said she believed me.",
+      "suggestion": "I wonder if proving it had become hard to stop, even with someone who believed you?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Dry laugh] I’m very good at sounding unbothered. I don’t feel unbothered.",
+      "suggestion": "Perhaps sounding that way helps you keep some control of what others see?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] Max defended me and I started correcting small details.",
+      "suggestion": "Could correcting the details have been a way to get your voice back into the conversation?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Uneasy] I explain how much I like the job before asking for the credit.",
+      "suggestion": "Maybe you worry the request will be heard as disloyalty rather than a fair claim?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Hesitates] I want an apology, but I dread the meeting they’d arrange for it.",
+      "suggestion": "Could the attention itself feel costly, even if the acknowledgment is wanted?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] I wanted Adam there. I said I was fine before he sat down.",
+      "suggestion": "I wonder if that familiar answer arrived before you could ask for company?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Thoughtful] I enjoyed dinner, then started rereading my notes from the meeting.",
+      "suggestion": "Perhaps leaving it alone brought a worry that nobody else would keep it in view?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Frowning] I don’t know why he interrupted. I’ve prepared three explanations for why it bothered me.",
+      "suggestion": "Could you feel you need certainty about his motive before your reaction gets a hearing?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] Being asked about the photographs felt almost surprising.",
+      "suggestion": "Maybe you’d been expecting to explain your background, rather than share an interest?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Brisk] I can explain the comment clearly. I get stuck on what it did to me.",
+      "suggestion": "I wonder if giving the hurt words feels more exposing than quoting the comment?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Hesitant] I don’t want to be praised for how calmly I handled it.",
+      "suggestion": "Could the praise make it harder to say that you weren’t actually okay?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] I want Max to notice, but I’d like him to check before stepping in.",
+      "suggestion": "Perhaps you want an ally beside you, with the decision still yours?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] I soften the comment when I tell it. Even to Lina.",
+      "suggestion": "I wonder if you soften it to spare Lina, even though you think she could hear it as it was?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Flatly] I haven’t put the drawings away. I haven’t worked on them either.",
+      "suggestion": "Could leaving them there let you come back to them, without having to do it today?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Corrects] Not ashamed of my background. Tired of it being the only introduction.",
+      "suggestion": "Perhaps you want more choice in which part of you enters the conversation first?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Hesitates] Max asked what I wanted. I didn’t know quickly enough for him.",
+      "suggestion": "Maybe you needed time for an answer as well as a chance to give one?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Dryly] They praised my composure. I made another calm reply.",
+      "suggestion": "I wonder if that praise made it harder to show the cost underneath?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] I want acknowledgment from Ben. I keep imagining having to thank him for it.",
+      "suggestion": "Could receiving it feel complicated if you expect another obligation afterwards?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Uneasy] I asked Max to stop. Now I’m worried he’ll stop noticing altogether.",
+      "suggestion": "Perhaps you wanted his attention changed, rather than his support withdrawn?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Corrects] The silence wasn’t giving up. I needed some of the afternoon left for me.",
+      "suggestion": "I wonder if keeping quiet protected time you didn’t want this to consume?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Softly] I wanted a plain “I noticed.” The long response made me tired.",
+      "suggestion": "Maybe the simple acknowledgment mattered more than being offered another interpretation?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Thoughtful] I want the job to include me. I don’t want that wish called needing their approval.",
+      "suggestion": "Could it be a wish for a fair place at work, rather than for everyone to approve of you?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Quietly] I enjoyed dinner, then felt I’d left something unguarded.",
+      "suggestion": "I wonder if putting it aside felt risky, as though the event might be forgotten? Does that fit?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Tired] I keep answering “fine” before I’ve worked out whether I want to answer at all.",
+      "suggestion": "Could the familiar reply arrive before your choice has had time to form?",
+      "difficulty": "hard"
+    }
   ]
 }

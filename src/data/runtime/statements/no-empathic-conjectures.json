@@ -2180,5 +2180,439 @@
       "suggestion": "Kan det kjente svaret komme før du har fått tid til å velge hva du vil dele?",
       "difficulty": "hard"
     }
+  ],
+  "case-nora": [
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Jeg rettet på tegningene etter møtet. Jeg klarte ikke begynne å jobbe.",
+      "suggestion": "Jeg lurer på om kommentaren gjorde det vanskelig å kjenne deg hjemme i ditt eget arbeid?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Nølende] Jeg øvde på å forklare Norge igjen, selv om ingen spurte.",
+      "suggestion": "Kanskje du forberedte deg på at svaret ditt skulle bli betvilt igjen?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Rynker pannen] Max hjalp, og jeg ble likevel stille.",
+      "suggestion": "Kan hjelpen ha gjort at du savnet mer plass til dine egne ord?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Jeg ville ha Adam ved siden av meg, men fortalte ham ikke historien.",
+      "suggestion": "Kanskje selskap kjentes mer hjelpsomt enn å måtte forklare det én gang til?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Tørr latter] Jeg spøker med hvor jeg kommer fra før de rekker det.",
+      "suggestion": "Jeg lurer på om spøken gir deg litt valgfrihet i hvordan øyeblikket blir?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Ettertenksom] Jeg ble i samtalen da den handlet om bildene.",
+      "suggestion": "Kanskje det var godt å bli møtt gjennom noe du liker?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Jeg retter dem ikke hver gang. Så får jeg dårlig samvittighet.",
+      "suggestion": "Kan du dømme deg selv for å spare krefter du faktisk trenger?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Urolig] Jeg forklarer at jeg liker jobben før jeg nevner kommentaren.",
+      "suggestion": "Kanskje du vil sikre at det såre ikke blir hørt som at du avviser alt ved jobben?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Nølende] Jeg ville at noen sa de merket det. Jeg trengte ingen tale.",
+      "suggestion": "Kanskje en enkel anerkjennelse ville hjulpet deg å føle deg mindre alene?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Jeg holdt stemmen rolig, og etterpå skalv jeg.",
+      "suggestion": "Jeg lurer på om det å holde møtet i gang lot følelsene vente til etterpå?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Ettertenksom] Jeg vil be Max vente, men gjør stadig beskjeden mildere.",
+      "suggestion": "Kan du være redd for at en tydelig beskjed høres ut som at du avviser støtten hans?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Lina stilte ikke et spørsmål til. Jeg var glad hun ble.",
+      "suggestion": "Kanskje det betydde mer å ha noen der enn å finne flere ord da?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Raskt] Jeg ga Lina datoene og de nøyaktige ordene. Hun hadde allerede sagt hun trodde meg.",
+      "suggestion": "Jeg lurer på om det var blitt vanskelig å slutte å bevise det, selv med en som trodde deg?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Tørr latter] Jeg er god til å høres uberørt ut. Jeg føler meg ikke uberørt.",
+      "suggestion": "Kanskje det hjelper deg å beholde litt kontroll over det andre ser?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Max forsvarte meg, og jeg begynte å rette små detaljer.",
+      "suggestion": "Kan det å rette detaljene ha vært en måte å få stemmen din tilbake i samtalen på?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Urolig] Jeg forklarer hvor glad jeg er i jobben før jeg ber om anerkjennelse.",
+      "suggestion": "Kanskje du er redd beskjeden blir hørt som illojalitet heller enn et rimelig krav?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Nøler] Jeg vil ha en unnskyldning, men gruer meg til møtet de ville laget for den.",
+      "suggestion": "Kan selve oppmerksomheten koste, selv om anerkjennelsen er ønsket?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Jeg ville ha Adam der. Jeg sa det gikk fint før han satte seg.",
+      "suggestion": "Jeg lurer på om det kjente svaret kom før du fikk bedt om selskap?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Ettertenksom] Jeg likte middagen, og begynte så å lese møtenotatene igjen.",
+      "suggestion": "Kanskje det å la det ligge vekket en bekymring for at ingen andre ville huske det?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Rynker pannen] Jeg vet ikke hvorfor han avbrøt. Jeg har laget tre forklaringer på hvorfor det plaget meg.",
+      "suggestion": "Kan du kjenne at du må være sikker på motivet før reaksjonen får bli hørt?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Å bli spurt om bildene kjentes nesten overraskende.",
+      "suggestion": "Kanskje du ventet å måtte forklare bakgrunnen, heller enn dele en interesse?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Raskt] Jeg kan forklare kommentaren tydelig. Jeg stopper ved det den gjorde med meg.",
+      "suggestion": "Jeg lurer på om det kjennes mer sårbart å gi det såre ord enn å sitere kommentaren?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Nølende] Jeg vil ikke bli rost for hvor rolig jeg håndterte det.",
+      "suggestion": "Kan rosen gjøre det vanskeligere å si at du ikke egentlig hadde det bra?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Jeg vil at Max merker det, men at han spør før han griper inn.",
+      "suggestion": "Kanskje du vil ha en alliert ved siden av deg, med valget fortsatt ditt?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Jeg gjør kommentaren mildere når jeg forteller. Selv til Lina.",
+      "suggestion": "Jeg lurer på om du gjør det mildere for å skåne Lina, selv om du tror hun kunne hørt det slik det var?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Flatt] Jeg har ikke lagt bort tegningene. Jeg har heller ikke jobbet med dem.",
+      "suggestion": "Kan det å la dem ligge gi deg muligheten til å vende tilbake, uten at du må gjøre det i dag?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Retter] Ikke skamfull over bakgrunnen. Lei av at den er hele presentasjonen.",
+      "suggestion": "Kanskje du vil ha mer valgfrihet om hvilken del av deg som kommer først i samtalen?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Nøler] Max spurte hva jeg ville. Jeg visste det ikke raskt nok for ham.",
+      "suggestion": "Kanskje du trengte tid til et svar, i tillegg til muligheten til å gi et?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Tørt] De roste roen min. Jeg ga enda et rolig svar.",
+      "suggestion": "Jeg lurer på om rosen gjorde det vanskeligere å vise kostnaden under?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Jeg vil ha anerkjennelse fra Ben. Jeg ser stadig for meg å måtte takke for den.",
+      "suggestion": "Kan det være vanskelig å ta imot den hvis du venter en ny plikt etterpå?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Urolig] Jeg ba Max stoppe. Nå er jeg redd han slutter å merke noe i det hele tatt.",
+      "suggestion": "Kanskje du ønsket en endring i oppmerksomheten, heller enn at støtten ble trukket tilbake?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Retter] Stillheten var ikke å gi opp. Jeg trengte litt av ettermiddagen til meg.",
+      "suggestion": "Jeg lurer på om stillheten vernet tid du ikke ville at dette tok?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Mykt] Jeg ønsket et enkelt «jeg merket det». Det lange svaret gjorde meg sliten.",
+      "suggestion": "Kanskje den enkle anerkjennelsen betydde mer enn å få en ny tolkning?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Ettertenksom] Jeg vil at jobben inkluderer meg. Jeg vil ikke at det kalles behov for godkjenningen deres.",
+      "suggestion": "Kan det være et ønske om en rimelig plass på jobb, heller enn at alle skal godkjenne deg?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Lavt] Jeg likte middagen og kjente så at jeg hadde latt noe være ubevoktet.",
+      "suggestion": "Jeg lurer på om det var risikabelt å legge det til side, som om hendelsen kunne bli glemt? Passer det?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-conjectures_case-nora_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "text": "[Sliten] Jeg svarer stadig «fint» før jeg har funnet ut om jeg vil svare i det hele tatt.",
+      "suggestion": "Kan det kjente svaret komme før valget ditt har fått tid til å bli til?",
+      "difficulty": "hard"
+    }
   ]
 }

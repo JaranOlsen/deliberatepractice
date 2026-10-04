@@ -39,7 +39,8 @@
       "case-david",
       "case-marcus",
       "case-arne",
-      "case-mia"
+      "case-mia",
+      "case-nora"
     ],
     "empathic-affirmation-validation": [
       "case-sara",
@@ -52,7 +53,8 @@
       "case-david",
       "case-marcus",
       "case-arne",
-      "case-mia"
+      "case-mia",
+      "case-nora"
     ],
     "exploratory-questions": [
       "case-sara",
@@ -65,7 +67,8 @@
       "case-david",
       "case-marcus",
       "case-arne",
-      "case-mia"
+      "case-mia",
+      "case-nora"
     ],
     "providing-treatment-rationale": [
       "case-sara",
@@ -78,7 +81,8 @@
       "case-david",
       "case-marcus",
       "case-arne",
-      "case-mia"
+      "case-mia",
+      "case-nora"
     ],
     "empathic-explorations": [
       "case-sara",
@@ -91,7 +95,8 @@
       "case-david",
       "case-marcus",
       "case-arne",
-      "case-mia"
+      "case-mia",
+      "case-nora"
     ],
     "empathic-evocations": [
       "case-sara",
@@ -104,7 +109,8 @@
       "case-david",
       "case-marcus",
       "case-arne",
-      "case-mia"
+      "case-mia",
+      "case-nora"
     ],
     "empathic-conjectures": [
       "case-sara",
@@ -117,7 +123,8 @@
       "case-david",
       "case-marcus",
       "case-arne",
-      "case-mia"
+      "case-mia",
+      "case-nora"
     ],
     "staying-in-contact-intense-affect": [
       "case-sara",
@@ -130,7 +137,8 @@
       "case-david",
       "case-marcus",
       "case-arne",
-      "case-mia"
+      "case-mia",
+      "case-nora"
     ],
     "self-disclosure": [
       "case-sara",
@@ -168,17 +176,20 @@
     "empathic-refocusing": [
       "case-sara",
       "case-arne",
-      "case-mia"
+      "case-mia",
+      "case-nora"
     ],
     "consolidating-emotional-change": [
       "case-sara",
       "case-arne",
-      "case-mia"
+      "case-mia",
+      "case-nora"
     ],
     "closing-after-emotional-work": [
       "case-sara",
       "case-arne",
-      "case-mia"
+      "case-mia",
+      "case-nora"
     ]
   },
   "CONTENT_REVISION": "2026-10-04-v4",
@@ -422,6 +433,102 @@
         "mastery_mia_hard_10",
         "mastery_mia_hard_11",
         "mastery_mia_hard_12"
+      ]
+    },
+    {
+      "id": "mastery-nora-work-and-belonging-easy",
+      "type": "mastery",
+      "caseId": "case-nora",
+      "difficulty": "easy",
+      "supportedLevels": [
+        "easy"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Nora · Work and belonging",
+        "no": "Nora · Arbeid og tilhørighet"
+      },
+      "orientation": {
+        "en": "Twelve linked moments about exclusion, valued work and having a voice. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øyeblikk om utestenging, viktig arbeid og en egen stemme. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_nora_easy_01",
+        "mastery_nora_easy_02",
+        "mastery_nora_easy_03",
+        "mastery_nora_easy_04",
+        "mastery_nora_easy_05",
+        "mastery_nora_easy_06",
+        "mastery_nora_easy_07",
+        "mastery_nora_easy_08",
+        "mastery_nora_easy_09",
+        "mastery_nora_easy_10",
+        "mastery_nora_easy_11",
+        "mastery_nora_easy_12"
+      ]
+    },
+    {
+      "id": "mastery-nora-work-and-belonging-moderate",
+      "type": "mastery",
+      "caseId": "case-nora",
+      "difficulty": "moderate",
+      "supportedLevels": [
+        "moderate"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Nora · Work and belonging",
+        "no": "Nora · Arbeid og tilhørighet"
+      },
+      "orientation": {
+        "en": "Twelve linked moments about exclusion, valued work and having a voice. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øyeblikk om utestenging, viktig arbeid og en egen stemme. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_nora_moderate_01",
+        "mastery_nora_moderate_02",
+        "mastery_nora_moderate_03",
+        "mastery_nora_moderate_04",
+        "mastery_nora_moderate_05",
+        "mastery_nora_moderate_06",
+        "mastery_nora_moderate_07",
+        "mastery_nora_moderate_08",
+        "mastery_nora_moderate_09",
+        "mastery_nora_moderate_10",
+        "mastery_nora_moderate_11",
+        "mastery_nora_moderate_12"
+      ]
+    },
+    {
+      "id": "mastery-nora-work-and-belonging-hard",
+      "type": "mastery",
+      "caseId": "case-nora",
+      "difficulty": "hard",
+      "supportedLevels": [
+        "hard"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Nora · Work and belonging",
+        "no": "Nora · Arbeid og tilhørighet"
+      },
+      "orientation": {
+        "en": "Twelve linked moments about exclusion, valued work and having a voice. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øyeblikk om utestenging, viktig arbeid og en egen stemme. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_nora_hard_01",
+        "mastery_nora_hard_02",
+        "mastery_nora_hard_03",
+        "mastery_nora_hard_04",
+        "mastery_nora_hard_05",
+        "mastery_nora_hard_06",
+        "mastery_nora_hard_07",
+        "mastery_nora_hard_08",
+        "mastery_nora_hard_09",
+        "mastery_nora_hard_10",
+        "mastery_nora_hard_11",
+        "mastery_nora_hard_12"
       ]
     }
   ],
@@ -1677,6 +1784,18 @@
         "practiceEdge": "Hør de reelle fysiske og praktiske begrensningene mens dere undersøker hva det betyr å trenge hjelp, bli avfeid eller miste en aktivitet.",
         "style": "Presise, vanlige ord; rask til å nyansere eller korrigere overdrivelser. Varm humor når hun er trygg. En pause kan skyldes utmattelse eller smerte, ikke tilbaketrekning. Hun kan be om å sitte annerledes, avslå oppmerksomhet mot kroppen eller velge praktisk arbeid.",
         "voice": "Jeg heter Mia. Jeg har revmatoid artritt. Noen morgener kan jeg kle på meg og komme i gang; andre morgener er en knapp en hel jobb. Jeg jobber fortsatt på museet, mindre enn før. Alex hjelper, og jeg er takknemlig, men noen ganger kommer hjelpen før jeg har bestemt hva jeg vil. Da glefser jeg og får dårlig samvittighet. Jeg savner å tegne så lenge som jeg pleide. Folk ser meg på en god dag og tror det er hele historien. Jeg vil ikke at terapien skal overtale meg til å late som dette er greit. Jeg vil ha plass til hvor vanskelig det er, og finne en måte å be om hjelp på der jeg fortsatt er meg."
+      },
+      "case-nora": {
+        "label": "Nora",
+        "difficultyLabel": "Lett",
+        "schemaLabel": "Betydning å undersøke",
+        "teaser": "Arkitekt som møter utenforskap på jobb, og vil ha plass til arbeidet og sin egen stemme.",
+        "history": "Nora er 35 år og født og oppvokst i Norge; foreldrene flyttet fra Marokko før hun ble født. Hun er arkitekt i Oslo og har jobbet i samme arkitektfirma i seks år. Lederen Ben foreslo at en kollega skulle presentere tegningene hennes fordi kunden ønsket «et mer norsk ansikt». Kollegene spør også gjentatte ganger hvor hun egentlig kommer fra etter at hun har svart Norge. Noen andre øyeblikk på jobb er mindre tydelige; ikke tilskriv hver avbrytelse eller uenighet et motiv. Max er en støttende kollega som noen ganger snakker for henne før han spør hva hun ønsker. Hun bor med partneren Adam og treffer vennen Lina. Hun liker fotografering, turer ved vannet og middager med venner. Hun verdsetter faget, humoren og relasjonene sine, og søker hjelp med sinne, det såre, selvtvil og hva det koster å velge når hun skal si fra. Praktisk støtte og valg på arbeidsplassen har en legitim plass sammen med emosjonelt arbeid. Ingen religion, klespraksis, egen migrasjonserfaring eller barndomstraume er angitt.",
+        "schema": "En betydning å undersøke: Hvis jeg sier fra om utenforskap, vil folk se en klage i stedet for å høre arbeidet eller min egen stemme. Ikke behandle diskriminerende behandling som en feilaktig forestilling, eller anta at denne betydningen forklarer alle vansker.",
+        "corePain": "Å få tilhørigheten bestridt og arbeidet oversett, med sinne, sårhet og selvtvil som kan følge.",
+        "practiceEdge": "Anerkjenn konkret utestenging, undersøk den personlige virkningen og la Nora velge om, når og hvordan hun vil svare.",
+        "style": "Presist hverdagsspråk med tørr humor. Kan skille det hun vet fra det hun mistenker. En rolig stemme betyr ikke at hendelsen var harmløs. Hun kan ønske vanlig anerkjennelse, en praktisk samtale eller en pause fremfor mer utforskning.",
+        "voice": "Jeg heter Nora. Jeg er arkitekt. Jeg er født her, men «Norge» blir visst ikke alltid godtatt som svar på hvor jeg kommer fra. På jobb foreslo Ben at en annen skulle presentere tegningene mine fordi kunden ønsket et mer norsk ansikt. Jeg fikk møtet videre. Etterpå satt jeg ved pulten og orket ikke se på tegningene. Jeg liker jobben, og vil ikke at alle samtaler om meg skal bli denne samtalen. Max vil hjelpe, men noen ganger begynner han å snakke før jeg har funnet ut hva jeg vil si. Adam og Lina lytter. Jeg vil kunne være sint uten å bruke hele kvelden på å forklare hvorfor, og ta valg uten å føle at jeg må fortjene plassen min på nytt."
       }
     }
   },
@@ -2166,6 +2285,26 @@
       "practiceEdge": "Hear the real physical and practical limits while exploring what needing help, being dismissed or losing an activity means to her.",
       "style": "Precise, ordinary words; quick to qualify or correct an overstatement. Warm humor when comfortable. A pause may be fatigue or pain, not withdrawal. She can ask for a different position, decline body attention or choose practical work.",
       "voice": "I’m Mia. I have rheumatoid arthritis. Some mornings I can get dressed and get on with things; some mornings a button is a whole job. I’m still working at the museum, less than before. Alex helps, and I’m grateful, but sometimes the help arrives before I’ve decided what I want. Then I snap and feel awful. I miss drawing for as long as I used to. People see me on a good day and think that’s the whole story. I don’t want therapy to talk me into pretending this is fine. I want room for how hard it is, and a way to ask for help while still being me."
+    },
+    "case-nora": {
+      "id": "case-nora",
+      "label": "Nora",
+      "difficulty": "easy",
+      "difficultyLabel": "Easy",
+      "tier": "free",
+      "teaser": "An architect facing exclusion at work, wanting her work and her own voice to have a place.",
+      "supportedLevels": [
+        "easy",
+        "moderate",
+        "hard"
+      ],
+      "history": "Nora is 35, born and raised in Norway; her parents moved from Morocco before she was born. She is an architect in Oslo and has worked at the same design firm for six years. Her manager, Ben, suggested a colleague present her design because the client wanted “a more Norwegian face.” Colleagues also repeatedly ask where she is really from after she answers Norway. Some other workplace moments are less clear; do not assign a motive to every interruption or disagreement. Max, a supportive colleague, sometimes speaks for her before asking what she wants. She lives with her partner, Adam, and sees her friend, Lina. She enjoys photography, walks by the water and dinners with friends. She values her craft, humor and relationships, and seeks help with anger, hurt, self-doubt and the cost of deciding when to speak. Practical support and workplace choices have a legitimate place alongside emotional work. No religion, dress practice, migration experience of her own or childhood trauma is specified.",
+      "schema": "A meaning to check: if I speak about exclusion, people will see a complaint rather than hear my work or my own voice. Do not treat discriminatory treatment as a mistaken belief or assume this meaning explains every difficulty.",
+      "schemaLabel": "Meaning to explore",
+      "corePain": "Having belonging disputed and work overlooked, with anger, hurt and self-doubt that can follow.",
+      "practiceEdge": "Acknowledge concrete exclusion, explore its personal impact and leave Nora free to choose whether, when and how to respond.",
+      "style": "Precise, conversational language with dry humor. Can distinguish what she knows from what she suspects. A composed voice does not mean an event was harmless. She can want plain acknowledgment, a practical discussion or a pause instead of more exploration.",
+      "voice": "I’m Nora. I’m an architect. I was born here, but somehow “Norway” isn’t always accepted as the answer to where I’m from. At work, Ben suggested someone else present my design because the client wanted a more Norwegian face. I kept the meeting going. Afterwards I sat at my desk and couldn’t look at the drawings. I like my work, and I don’t want every conversation about me to become this conversation. Max wants to help, but sometimes he starts speaking before I’ve worked out what I want to say. Adam and Lina listen. I’d like to be angry without spending the whole evening explaining why, and make choices without feeling I have to earn my place again."
     }
   },
   "statementCounts": {
@@ -2191,7 +2330,8 @@
       "case-david": 12,
       "case-marcus": 12,
       "case-arne": 36,
-      "case-mia": 36
+      "case-mia": 36,
+      "case-nora": 36
     },
     "empathic-affirmation-validation": {
       "case-sara": 12,
@@ -2204,7 +2344,8 @@
       "case-david": 12,
       "case-marcus": 12,
       "case-arne": 36,
-      "case-mia": 36
+      "case-mia": 36,
+      "case-nora": 36
     },
     "exploratory-questions": {
       "case-sara": 12,
@@ -2217,7 +2358,8 @@
       "case-david": 12,
       "case-marcus": 12,
       "case-arne": 36,
-      "case-mia": 36
+      "case-mia": 36,
+      "case-nora": 36
     },
     "providing-treatment-rationale": {
       "case-sara": 12,
@@ -2230,7 +2372,8 @@
       "case-david": 12,
       "case-marcus": 12,
       "case-arne": 36,
-      "case-mia": 36
+      "case-mia": 36,
+      "case-nora": 36
     },
     "empathic-explorations": {
       "case-sara": 12,
@@ -2243,7 +2386,8 @@
       "case-david": 12,
       "case-marcus": 12,
       "case-arne": 36,
-      "case-mia": 36
+      "case-mia": 36,
+      "case-nora": 36
     },
     "empathic-evocations": {
       "case-sara": 12,
@@ -2256,7 +2400,8 @@
       "case-david": 12,
       "case-marcus": 12,
       "case-arne": 36,
-      "case-mia": 36
+      "case-mia": 36,
+      "case-nora": 36
     },
     "empathic-conjectures": {
       "case-sara": 12,
@@ -2269,7 +2414,8 @@
       "case-david": 12,
       "case-marcus": 12,
       "case-arne": 36,
-      "case-mia": 36
+      "case-mia": 36,
+      "case-nora": 36
     },
     "staying-in-contact-intense-affect": {
       "case-sara": 12,
@@ -2282,7 +2428,8 @@
       "case-david": 12,
       "case-marcus": 12,
       "case-arne": 36,
-      "case-mia": 36
+      "case-mia": 36,
+      "case-nora": 36
     },
     "self-disclosure": {
       "case-sara": 12,
@@ -2320,17 +2467,20 @@
     "empathic-refocusing": {
       "case-sara": 12,
       "case-arne": 36,
-      "case-mia": 36
+      "case-mia": 36,
+      "case-nora": 36
     },
     "consolidating-emotional-change": {
       "case-sara": 12,
       "case-arne": 36,
-      "case-mia": 36
+      "case-mia": 36,
+      "case-nora": 36
     },
     "closing-after-emotional-work": {
       "case-sara": 12,
       "case-arne": 36,
-      "case-mia": 36
+      "case-mia": 36,
+      "case-nora": 36
     }
   }
 }

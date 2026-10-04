@@ -1,11 +1,11 @@
 # Content Acceptance Checklist
 
 Revision: 2026-10-04-v4
-Generated: 2026-10-04T13:39:24.080Z
+Generated: 2026-10-04T21:53:30.502Z
 
 ## Gate
-- Approved items: 1296/2124
-- Norwegian coverage: 2124/2124
+- Approved items: 1296/2520
+- Norwegian coverage: 2520/2520
 - QA clean: no
 
 ## Manual Spot-Check

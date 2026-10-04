@@ -1,3 +1,4 @@
+import {NORA_STATEMENTS} from './noraContent.js';
 import {MIA_STATEMENTS} from './miaContent.js';
 import {EXTENSION_STATEMENTS} from "./skillExtensions.js";
 import {ARNE_STATEMENTS} from './arneContent.js';
@@ -5433,3 +5434,4 @@ export const STATEMENT_SETS = {
 Object.assign(STATEMENT_SETS, EXTENSION_STATEMENTS);
 for (const [skill, cases] of Object.entries(ARNE_STATEMENTS)) Object.assign(STATEMENT_SETS[skill], cases);
 for (const [skill, cases] of Object.entries(MIA_STATEMENTS)) Object.assign(STATEMENT_SETS[skill], cases);
+for (const [skill, cases] of Object.entries(NORA_STATEMENTS)) Object.assign(STATEMENT_SETS[skill], cases);

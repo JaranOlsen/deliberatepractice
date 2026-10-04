@@ -2,9 +2,9 @@
 // Start npm run test:rooms:db -- --serve first. All RPCs run in isolated Postgres.
 async (page) => {
   const url=page.url(),language=new URL(url).searchParams.get('testLanguage')==='no'?'no':'en';
-  const params=new URL(url).searchParams,mia=params.get('testCase')==='mia',arne=['arne','mia'].includes(params.get('testCase')),level=params.get('testLevel')??'easy';
+  const params=new URL(url).searchParams,nora=params.get('testCase')==='nora',mia=params.get('testCase')==='mia',arne=['arne','mia','nora'].includes(params.get('testCase')),level=params.get('testLevel')??'easy';
   if(!['127.0.0.1','localhost'].includes(new URL(url).hostname))throw new Error('Use local preview');
-  const caseId=mia?'case-mia':arne?'case-arne':'case-sara',exerciseId=mia?'mastery-mia-help-and-choice-easy':arne?'mastery-arne-ordinary-days-easy':'mastery-sara-evenings';
+  const caseId=nora?'case-nora':mia?'case-mia':arne?'case-arne':'case-sara',exerciseId=nora?'mastery-nora-work-and-belonging-easy':mia?'mastery-mia-help-and-choice-easy':arne?'mastery-arne-ordinary-days-easy':'mastery-sara-evenings';
   const users=await (await page.request.get('http://127.0.0.1:5199/users')).json();
   const contexts=[],pages=[],errors=[];
   const assert=(ok,message)=>{if(!ok)throw new Error(message);};
@@ -125,7 +125,7 @@ async (page) => {
     await o.locator('#mastery-use-room').click();await o.locator('.room-preparation').waitFor();await sync();
     const round=room.round_id,roles=[room.therapist_id,room.client_id,room.observer_id],order=[...room.statement_ids];
     assert(room.exercise_type==='mastery'&&room.skill_id===null&&order.length===12,'Mastery is an ordered exercise without a fake round skill');
-    assert((await c.locator('#room-content').textContent()).includes(arne?(language==='no'?'Jeg heter '+(mia?'Mia':'Leo'):'I’m '+(mia?'Mia':'Leo')):(language==='no'?'Hei, jeg heter Sara':'Hi, I\'m Sara')),'Client sees role background and voice');
+    assert((await c.locator('#room-content').textContent()).includes(arne?(language==='no'?'Jeg heter '+(nora?'Nora':mia?'Mia':'Leo'):'I’m '+(nora?'Nora':mia?'Mia':'Leo')):(language==='no'?'Hei, jeg heter Sara':'Hi, I\'m Sara')),'Client sees role background and voice');
     assert(room.difficulty===level,'Host-selected level belongs to the room');
     assert(await c.locator('#room-ready').isVisible(),'Client Ready is reachable');
     assert(await o.locator('#room-next').isDisabled(),'Human readiness blocks start');

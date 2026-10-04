@@ -2180,5 +2180,439 @@
       "suggestion": "Hvordan ville du beskrive den delen som «frykt» ikke helt fanger?",
       "difficulty": "hard"
     }
+  ],
+  "case-nora": [
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Undrende] Jeg ble stille etterpå. Jeg vet ikke helt hvorfor.",
+      "suggestion": "Hva husker du fra øyeblikket stillheten kom?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Usikker] Noe ved hjelpen fra Max kjentes ikke riktig.",
+      "suggestion": "Hva ved hjelpen kjentes feil for deg?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Ettertenksom] Ordet «egentlig» ble med meg.",
+      "suggestion": "Hva la det ordet til spørsmålet for deg?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Lavt] Jeg ville ikke se på tegningene mine.",
+      "suggestion": "Hvordan var det å se dem etter det møtet?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Nølende] Jeg vil at Ben forstår noe. Jeg vet ikke hvordan jeg skal si det.",
+      "suggestion": "Hva ville du mest at han forstod?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Ettertenksom] Lina lyttet på en annen måte.",
+      "suggestion": "Hva kjentes annerledes i måten hun lyttet på?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Usikker] Jeg kaller meg stadig overfølsom.",
+      "suggestion": "Hva dømmer du deg selv for når du bruker det ordet?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Lavt] Jeg vet ikke hvilken støtte jeg ønsket fra Adam.",
+      "suggestion": "Hva ville kjentes hjelpsomt da du kom hjem?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Ettertenksom] Jeg likte å snakke om bildene. Det betydde noe på et vis.",
+      "suggestion": "Hva betydde noe ved den samtalen?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Rynker pannen] Å si fra kjennes risikabelt.",
+      "suggestion": "Hvilken risiko betyr mest for deg?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Nølende] Jeg vil høre til der, men ikke slik.",
+      "suggestion": "Hvordan ville tilhørighet se ut på premisser du kunne godta?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Usikker] Jeg vet ikke hva jeg trenger i dag.",
+      "suggestion": "Hvilken del av dagen vil du at vi forstår først?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Nøler] Jeg var glad Max sa noe. Så ville jeg forsvinne.",
+      "suggestion": "Hva endret seg mens han fortsatte å snakke?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Lavt] Jeg vet at ordene var feil. Jeg vet mindre om hvorfor jeg ikke kunne jobbe etterpå.",
+      "suggestion": "Hva kom frem da du vendte tilbake til tegningene?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Usikker] Jeg er sint på grunn av møtet og noe annet jeg ikke kan navngi.",
+      "suggestion": "Hva mer er nært når du husker møtet?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Ettertenksom] Avbrytelsen kan ha vært vanlig. Jeg kjente meg ikke vanlig i den.",
+      "suggestion": "Hva skjedde for deg i det øyeblikket?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Lavt] Jeg sa at jeg ikke trengte noe fra Adam. Det var ikke helt sant.",
+      "suggestion": "Hva ønsket du som var vanskelig å be om?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Smiler svakt] Jeg gjør stadig historien morsom. Den var ikke morsom da.",
+      "suggestion": "Hva skjer rett før spøken kommer?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Urolig] Jeg vil bli hørt, men ikke i det møtet.",
+      "suggestion": "Hva gjør det møtet til feil sted for deg?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Ettertenksom] Jeg likte å bli spurt om bildene mer enn ventet.",
+      "suggestion": "Hva var annerledes ved å bli spurt om det?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Usikker] Jeg vet ikke om jeg beskytter meg eller gir opp.",
+      "suggestion": "Hva betyr hver av de mulighetene for deg?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Rynker pannen] Jeg vil ha æren, men blir urolig når jeg ser for meg kunngjøringen.",
+      "suggestion": "Hvilken del av kunngjøringen gjør deg urolig?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Lavt] Jeg er mindre sint på Lina, men forklarer fortsatt til henne.",
+      "suggestion": "Hva håper du den neste forklaringen gir deg?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Nølende] Å slutte er en tanke, ikke en plan. Men den betyr noe.",
+      "suggestion": "Hva gir den tanken deg når den kommer?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Nøler] Jeg gjorde ordene stadig mildere. Jeg vet ikke hvem det hjalp.",
+      "suggestion": "Hva skjedde for deg mens du gjorde dem mildere?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Retter] «Å ikke høre til» er ikke helt det. Jeg vet at jeg hører til.",
+      "suggestion": "Hva mangler det uttrykket om opplevelsen din?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Lavt] Jeg takket Max og unngikk ham etterpå. Jeg har ingen ryddig grunn.",
+      "suggestion": "Hva husker du at du ønsket rett etter at du takket ham?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Usikker] Dagens avbrytelse satte i gang noe. Jeg kan ikke navngi det rettferdig ennå.",
+      "suggestion": "Hvilken del av øyeblikket kan du beskrive uten å avgjøre årsaken?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Ettertenksom] Jeg vil at arbeidet blir sett, men ikke at alle deler av meg blir sett.",
+      "suggestion": "Hva vil du beholde privat i den anerkjennelsen?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Flatt] Jeg lot tegningene ligge på pulten. Det er ingen historie om det ennå.",
+      "suggestion": "Hva, om noe, trekker oppmerksomheten mot dem nå?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Lavt] Jeg ønsket svaret fra Ben. Så ville jeg ikke høre det.",
+      "suggestion": "Hva endret seg da muligheten for et svar kom nærmere?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Sliten] Jeg vet hva som skjedde. Jeg kan ikke gi deg et følelsesord i dag.",
+      "suggestion": "Hva kan vi bruke i stedet for et følelsesord til å forstå dagen?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Nølende] Å bli og å slutte kjennes begge feil på ulike måter.",
+      "suggestion": "Hvilken kostnad vil du at vi forstår først?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Mykt] Jeg likte middagen. Neste følelse var ikke helt skyld.",
+      "suggestion": "Hvordan ville du beskrive det «skyld» ikke helt fanger?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Lavt] Jeg vil ha selskap i kveld, men ikke en lytter som venter på historien.",
+      "suggestion": "Hva slags selskap ser du for deg?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Retter, tar en pause] Jeg var ikke redd. Eller ikke mest redd.",
+      "suggestion": "Hva var mer sentralt enn frykt i det øyeblikket?",
+      "difficulty": "hard"
+    }
   ]
 }
