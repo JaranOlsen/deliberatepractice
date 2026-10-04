@@ -3,19 +3,19 @@
     {
       "id": "dp_empathic-conjectures_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Embarrassed] I tell my friends I'm fine, then get irritated when they stop asking.",
-      "suggestion": "You give the fine answer and then feel alone with it; I wonder if you are hoping someone will notice you are not fine."
+      "suggestion": "You say you are fine, then feel upset when they stop asking. I wonder if you wish someone would notice that there is more you have not said."
     },
     {
       "id": "dp_empathic-conjectures_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -27,7 +27,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -39,7 +39,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -51,7 +51,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -63,7 +63,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -75,7 +75,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -87,7 +87,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -99,7 +99,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -111,7 +111,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -123,7 +123,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -135,7 +135,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -149,19 +149,19 @@
     {
       "id": "dp_empathic-conjectures_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Firm] If someone questions me in a meeting, I answer fast and louder than I meant to.",
-      "suggestion": "You come in strong before there is time to think; I wonder if the question lands like being exposed as not knowing enough."
+      "suggestion": "You answer quickly and loudly when someone questions you. I wonder if there is a moment of feeling exposed before you respond."
     },
     {
       "id": "dp_empathic-conjectures_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -173,7 +173,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -185,7 +185,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -197,7 +197,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -209,19 +209,19 @@
     {
       "id": "dp_empathic-conjectures_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Tense] I only pour a drink after work because my wife keeps pushing; if she would stop nagging, I would not need it.",
-      "suggestion": "You put the drinking on her pushing; I wonder if the drink also helps you get away from feeling blamed."
+      "suggestion": "You connect the drinking to feeling pushed by your wife. I wonder if being blamed feels hard to bear, and the drink gives you some distance from that."
     },
     {
       "id": "dp_empathic-conjectures_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -233,7 +233,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -245,7 +245,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -257,7 +257,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -269,7 +269,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -281,7 +281,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -295,7 +295,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -307,7 +307,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -319,7 +319,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -331,7 +331,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -343,7 +343,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -355,19 +355,19 @@
     {
       "id": "dp_empathic-conjectures_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Ashamed] Seeing confident people makes me want to disappear, and then I hate myself for envying them.",
-      "suggestion": "Their confidence makes you shrink; maybe the envy is also sadness about feeling outside that world."
+      "suggestion": "Seeing their confidence makes you want to disappear. I wonder if there is sadness in the envy too, about wanting to feel that free with people."
     },
     {
       "id": "dp_empathic-conjectures_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -379,7 +379,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -391,7 +391,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -403,7 +403,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -415,7 +415,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -427,7 +427,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -441,7 +441,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -453,7 +453,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -465,7 +465,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -477,7 +477,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -489,7 +489,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -501,7 +501,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -513,7 +513,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -525,7 +525,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -537,7 +537,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -549,7 +549,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -561,7 +561,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -573,7 +573,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -587,19 +587,19 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Tense and angry] A disrespectful tone flips a switch in me before I know what got hit.",
-      "suggestion": "It flips you fast; I wonder if under the heat is a flash of humiliation before anger takes over."
+      "suggestion": "The anger comes so fast. I wonder if there is a brief feeling of being humiliated just before it."
     },
     {
       "id": "dp_empathic-conjectures_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -611,7 +611,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -623,7 +623,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -635,7 +635,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -647,19 +647,19 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Tense and angry] I puff up when someone challenges me, before they can see it lands.",
-      "suggestion": "You armor up fast; I wonder if it covers that split second where the challenge actually lands and makes you feel less-than."
+      "suggestion": "You react strongly before they can see the challenge has landed. I wonder if there is a moment of feeling small that you do not want them to see."
     },
     {
       "id": "dp_empathic-conjectures_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -671,7 +671,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -683,7 +683,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -695,7 +695,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -707,7 +707,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -719,7 +719,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -733,19 +733,19 @@
     {
       "id": "dp_empathic-conjectures_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Guilty] Resting makes me feel selfish, even when I am so tired I can barely stand.",
-      "suggestion": "Rest stirs guilt; I wonder if part of you came to feel that love was safer when you kept earning your place."
+      "suggestion": "Rest brings guilt even when you can barely stand. I wonder if you fear you will matter less to people when you are not doing things for them."
     },
     {
       "id": "dp_empathic-conjectures_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -757,7 +757,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -769,7 +769,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -781,7 +781,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -793,19 +793,19 @@
     {
       "id": "dp_empathic-conjectures_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Torn] I swallow my anger because it is not nice, and then I resent everyone quietly.",
-      "suggestion": "You swallow the anger to stay kind; maybe a younger part learned that having needs would threaten love."
+      "suggestion": "You keep the anger to yourself so you can stay nice. I wonder if you worry that people might pull away if they knew what you wanted."
     },
     {
       "id": "dp_empathic-conjectures_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -817,7 +817,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -829,7 +829,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -841,7 +841,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -853,7 +853,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -865,7 +865,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -879,7 +879,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -891,7 +891,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -903,7 +903,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -915,7 +915,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -927,7 +927,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -939,7 +939,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -951,7 +951,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -963,7 +963,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -975,7 +975,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -987,7 +987,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -999,7 +999,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1011,7 +1011,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1025,19 +1025,19 @@
     {
       "id": "dp_empathic-conjectures_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Hopeless] When my wife calls me cold, I make a cutting joke before she can see it hurt.",
-      "suggestion": "The joke gets there first; I wonder if it guards against a sting of being seen as failing or not enough."
+      "suggestion": "The joke comes before she can see the hurt. I wonder if being called cold also touches a fear that you are failing her."
     },
     {
       "id": "dp_empathic-conjectures_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1049,7 +1049,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1061,7 +1061,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1073,7 +1073,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1085,19 +1085,19 @@
     {
       "id": "dp_empathic-conjectures_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Avoidant] In hard talks, I reach for my phone when the conversation starts to get personal.",
-      "suggestion": "You reach for an exit as closeness comes in; maybe being personal feels dangerous when you expect judgment."
+      "suggestion": "You turn to your phone when things get personal. I wonder if you feel exposed and expect to be judged if you stay in the conversation."
     },
     {
       "id": "dp_empathic-conjectures_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1109,7 +1109,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1121,7 +1121,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1133,7 +1133,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1145,7 +1145,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1157,7 +1157,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1171,7 +1171,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1183,7 +1183,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1195,7 +1195,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1207,7 +1207,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1219,7 +1219,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1231,19 +1231,19 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Quiet and guarded] When good things happen, I notice myself waiting for the other shoe to drop.",
-      "suggestion": "The good stays at a distance; maybe letting it matter makes loss feel too close."
+      "suggestion": "You find yourself waiting for something to go wrong. I wonder if enjoying the good moment also brings a fear of losing it."
     },
     {
       "id": "dp_empathic-conjectures_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1255,7 +1255,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1267,7 +1267,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1279,7 +1279,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1291,7 +1291,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1303,7 +1303,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",

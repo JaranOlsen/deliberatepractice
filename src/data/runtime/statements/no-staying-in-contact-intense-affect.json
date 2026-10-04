@@ -3,7 +3,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -11,12 +11,12 @@
         "legacy_matrix_item"
       ],
       "text": "[På gråten] Det treffer meg som en bølge når jeg ser koppen hans fortsatt stå i skapet, og så klarer jeg ikke slutte å hulke. Jeg blir flau over lyden av det, men det fortsetter å komme.",
-      "suggestion": "Jeg er her sammen med deg mens gråten kommer. Vi trenger verken stoppe den eller drukne i den; vi kan bli ved denne ene bølgen sammen."
+      "suggestion": "Jeg er her med deg. Du trenger ikke beklage at du gråter så sterkt. Vi kan ta dette øyeblikket langsomt og stoppe opp hvis det blir for mye."
     },
     {
       "id": "dp_staying-in-contact-intense-affect_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -29,7 +29,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -42,7 +42,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -55,7 +55,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -68,7 +68,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -76,12 +76,12 @@
         "legacy_matrix_item"
       ],
       "text": "[Flau] Jeg føler meg dum som gråter så mye, men jeg klarer ikke stoppe. Jeg hører meg selv lage disse våte, knekte lydene, og en del av meg vil si unnskyld mens en annen del bare fortsetter å briste.",
-      "suggestion": "Det er så mye skam rundt lyden av gråten, og jeg trekker meg ikke unna den. Vi kan la den komme i små deler mens du legger merke til at jeg fortsatt er her."
+      "suggestion": "Du har det vondt, og skammer deg over lyden av gråten. Jeg er her og lytter. Du trenger ikke dempe den eller finne alle ordene på én gang."
     },
     {
       "id": "dp_staying-in-contact-intense-affect_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -94,7 +94,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -107,7 +107,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -120,7 +120,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -133,7 +133,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-sara_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -146,7 +146,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-sara_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -161,7 +161,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -169,12 +169,12 @@
         "legacy_matrix_item"
       ],
       "text": "[Fast] Kjeven låser seg og varmen skyter opp i nakken når noen stiller spørsmål ved meg, også her. Det er som om kroppen hører respektløshet før hodet mitt vet hva som ble sagt.",
-      "suggestion": "Varmen kommer fort når du føler deg stilt spørsmål ved. Jeg holder meg stødig med deg mens vi lar sinnet være i ord og lytter etter stikket under det."
+      "suggestion": "Jeg hører hvor raskt sinnet stiger, også sammen med meg. Jeg er her og lytter. Vi kan ta det langsomt og sette ord på det som kjennes respektløst, uten å handle på sinnet."
     },
     {
       "id": "dp_staying-in-contact-intense-affect_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -187,7 +187,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -200,7 +200,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -213,7 +213,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -226,7 +226,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -234,12 +234,12 @@
         "legacy_matrix_item"
       ],
       "text": "[Anspent og sint] Jeg hater den lille følelsen; den får meg til å ville ruve over noen. Det starter som et lite, utsatt sted i brystet, og så vil hele kroppen ha høyde, volum og avstand fra det.",
-      "suggestion": "Den lille følelsen er vanskelig å tåle, og noe i deg vil ruve over noen. Jeg blir hos deg mens litenheten får litt rom uten å styre rommet."
+      "suggestion": "Det er vanskelig å tåle å kjenne seg så liten. Jeg er her med deg, og vi kan ta det langsomt. Du kan sette ord på trangen uten å måtte handle på den."
     },
     {
       "id": "dp_staying-in-contact-intense-affect_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -252,7 +252,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -265,7 +265,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -278,7 +278,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -291,7 +291,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-michael_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -304,7 +304,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-michael_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -319,7 +319,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -327,12 +327,12 @@
         "legacy_matrix_item"
       ],
       "text": "[Stille] Alt blir uklart og hjertet hamrer, som om alle kan se at jeg ikke får det til. Jeg hører deg fortsatt, men ordene flyter sammen og jeg begynner å prøve å se normal ut i stedet for å lytte.",
-      "suggestion": "Jeg er her med deg i uklarheten. Panikken kan være synlig uten at du må prestere en normal setning."
+      "suggestion": "La oss senke tempoet. Du trenger ikke finne ord akkurat nå. Jeg er her. Hvis det hjelper, kan du legge merke til stemmen min og hvor stolen støtter deg."
     },
     {
       "id": "dp_staying-in-contact-intense-affect_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -345,7 +345,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -358,7 +358,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -371,7 +371,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -384,7 +384,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -392,12 +392,12 @@
         "legacy_matrix_item"
       ],
       "text": "[Engstelig] Jeg vil gjemme meg under bordet; ansiktet mitt brenner. Jeg vet det høres barnslig ut, men skammen er så varm at selv det å sitte oppreist kjennes som for mye eksponering.",
-      "suggestion": "Skammen er så varm at det kjennes tryggere å gjemme seg. Jeg blir hos deg mens ansiktet brenner og du blir her, sett bare så mye som du tåler."
+      "suggestion": "Skammen kjennes nesten uutholdelig akkurat nå. Jeg er her med deg. Du kan se bort eller ta en pause. Du trenger ikke tvinge deg til å møte blikket mitt eller finne ord."
     },
     {
       "id": "dp_staying-in-contact-intense-affect_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -410,7 +410,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -423,7 +423,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -436,7 +436,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -449,7 +449,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-jason_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -462,7 +462,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-jason_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -477,7 +477,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -485,12 +485,12 @@
         "legacy_matrix_item"
       ],
       "text": "[Langsomt og flatt] Da døra smalt ute, forsvant jeg innover før jeg rakk å vite om jeg var trygg.",
-      "suggestion": "Du forsvant langt innover idet smellet traff. Jeg holder meg stødig og hjelper oss å markere at lyden er over før vi ber deg kjenne noe mer."
+      "suggestion": "Det smellet fikk deg til å forsvinne langt unna. Jeg er her med deg. Kan vi bruke et øyeblikk på å legge merke til rommet rundt oss før vi ber om noe mer?"
     },
     {
       "id": "dp_staying-in-contact-intense-affect_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -503,7 +503,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -516,7 +516,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -529,7 +529,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -542,7 +542,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -550,12 +550,12 @@
         "legacy_matrix_item"
       ],
       "text": "[Anspent og på vakt] Jeg tror jeg må avlive den gamle katten min i morgen, og skyldfølelsen er så stor at jeg nesten ikke klarer å si det.",
-      "suggestion": "Det er en forferdelig blanding av kjærlighet og skyld å bære. Jeg blir hos deg i den delen som nesten ikke klarer å si det, og vi holder beslutningen liten nok til å tåles akkurat nå."
+      "suggestion": "Du er glad i katten din, og denne avgjørelsen vekker så mye skyld. Jeg er her med deg. Du trenger ikke forklare eller forsvare alt på én gang."
     },
     {
       "id": "dp_staying-in-contact-intense-affect_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -568,7 +568,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -581,7 +581,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -594,7 +594,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -607,7 +607,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-laura_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -620,7 +620,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-laura_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -635,7 +635,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -643,12 +643,12 @@
         "legacy_matrix_item"
       ],
       "text": "[Sint, med knyttede never] Varmen stiger; nevene vil knyte seg før jeg skjønner hva som traff. Det er som om hendene er klare til å svare på en trussel før jeg engang kan si hva som kjentes truende.",
-      "suggestion": "Jeg er her med deg mens varmen skyter ut i hendene. Trusselen og sinnet kan være sterke i ord her, og vi tar pause før hendene må gjøre noe med det."
+      "suggestion": "La oss stoppe opp her. Jeg kan lytte til hvor truet og sint du kjenner deg, og vi må holde dette i ord, uten å true eller skade noen."
     },
     {
       "id": "dp_staying-in-contact-intense-affect_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -661,7 +661,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -674,7 +674,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -687,7 +687,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -700,7 +700,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -708,12 +708,12 @@
         "legacy_matrix_item"
       ],
       "text": "[Anspent og sint] Brystet hamrer som om jeg allerede er i en kamp. Skuldrene er oppe, blikket går stadig mot døren, og kroppen gjør seg klar før jeg har valgt noe.",
-      "suggestion": "Du er allerede på vei inn i kamp før du har valgt en. Jeg blir nær den beredskapen sammen med deg, som en bølge vi kan sette navn på, ikke en ordre du må følge."
+      "suggestion": "Kroppen kjennes klar til kamp. Jeg er her med deg, og vi kan stoppe opp. Du kan merke den reaksjonen uten å måtte følge den ut i handling."
     },
     {
       "id": "dp_staying-in-contact-intense-affect_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -726,7 +726,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -739,7 +739,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -752,7 +752,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -765,7 +765,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-carlos_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -778,7 +778,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-carlos_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -793,7 +793,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -801,12 +801,12 @@
         "legacy_matrix_item"
       ],
       "text": "[Skyldpreget] Jeg klarer ikke slutte å gråte, og så skammer jeg meg for hvor mye jeg trenger. Sønnen min spurte bare hvor sokkene hans var, og plutselig sto jeg ved kjøkkenbenken og hulket som om jeg hadde ødelagt alt.",
-      "suggestion": "Gråten og skammen over å trenge så mye er begge her. Jeg blir hos deg mens behovet får rom uten å bli noe du må beklage."
+      "suggestion": "Tårene er her, og du skammer deg over å trenge så mye. Jeg lytter. Du trenger ikke ta vare på meg eller beklage det du trenger."
     },
     {
       "id": "dp_staying-in-contact-intense-affect_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -819,7 +819,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -832,7 +832,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -845,7 +845,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -858,7 +858,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -866,12 +866,12 @@
         "legacy_matrix_item"
       ],
       "text": "[Splittet] Hvis jeg slutter å gjøre, faller jeg fra hverandre, og noen kommer til å trenge meg likevel. Jeg kjenner tårene rett bak øynene, men idet de kommer, ser jeg for meg at noen roper fra rommet ved siden av.",
-      "suggestion": "Å stoppe kjennes farlig fordi alles behov kommer fossende inn, også dine. Jeg er her med deg mens litt av dine egne tårer får plass før du må ta vare på noen."
+      "suggestion": "Selv det å stoppe kjennes skremmende, med tårene så nær. Jeg er her med deg nå. Vi kan gi dette øyeblikket litt tid. Du trenger ikke ta vare på alle mens vi snakker."
     },
     {
       "id": "dp_staying-in-contact-intense-affect_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -884,7 +884,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -897,7 +897,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -910,7 +910,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -923,7 +923,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-nina_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -936,7 +936,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-nina_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -951,7 +951,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -959,12 +959,12 @@
         "legacy_matrix_item"
       ],
       "text": "[Lengselsfull, skamfull] Jeg vet at du er terapeuten min, men noen ganger vil jeg at du skal elske meg romantisk, på en måte terapeuter ikke skal.",
-      "suggestion": "Det betyr noe at du sier den lengselen, og jeg vil ikke møte den med skam. Terapigrensen er tydelig og ikke romantisk, samtidig som vi holder oss nær hvordan det er å ønske meg så sterkt og være redd for å miste meg."
+      "suggestion": "Jeg hører hvor sterk lengselen er, og du kan snakke om den her. Jeg er her som terapeuten din. Forholdet vårt blir ikke romantisk. Vi kan være i følelsen uten å skamme deg eller handle på den."
     },
     {
       "id": "dp_staying-in-contact-intense-affect_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -977,7 +977,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -990,7 +990,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1003,7 +1003,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1016,7 +1016,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1024,12 +1024,12 @@
         "legacy_matrix_item"
       ],
       "text": "[Panisk] Brystet kjennes som et svart hull, og jeg er redd det skal sluke meg. Jo mer jeg merker det, jo mer tror jeg at jeg faller ned i det og ikke kommer tilbake som den samme.",
-      "suggestion": "Skrekken for det svarte hullet sier at følelsen kan sluke deg hvis du merker den. Jeg møter deg helt ved kanten; bare noen få ord trenger å komme før vi vender tilbake."
+      "suggestion": "Jeg er her med deg. Hvis det blir for mye å rette oppmerksomheten mot følelsen, kan vi stoppe opp og legge merke til rommet rundt oss i stedet. Du trenger ikke gå lenger inn i det nå."
     },
     {
       "id": "dp_staying-in-contact-intense-affect_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1042,7 +1042,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1055,7 +1055,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1068,7 +1068,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1081,7 +1081,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-aisha_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1094,7 +1094,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-aisha_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1109,7 +1109,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1117,12 +1117,12 @@
         "legacy_matrix_item"
       ],
       "text": "[Kontrollert] Ansiktet brenner, og jeg vil avbryte dette før du ser hvor blottstilt jeg er.",
-      "suggestion": "Blottstillelsen sitter rett i ansiktet, varm og vanskelig å bære. Jeg kan møte den uten å tvinge deg til å vise mer enn dette."
+      "suggestion": "Det er vanskelig å tåle å kjenne seg så utsatt. Jeg er her og lytter, og du kan velge hvor mye du viser meg. Vi kan stoppe opp uten å avvise det du kjenner."
     },
     {
       "id": "dp_staying-in-contact-intense-affect_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1135,7 +1135,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1148,7 +1148,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1161,7 +1161,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1174,7 +1174,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1182,12 +1182,12 @@
         "legacy_matrix_item"
       ],
       "text": "[Skamfull] Jeg synes det er flaut at jeg klikket hjemme; jeg hørtes akkurat ut som den typen jeg dømmer. Setningen kom skarpt ut, og så så jeg meg selv utenfra og kjente en varm avsky i ansiktet.",
-      "suggestion": "Å se deg selv klikke vekker en varm avsky, nesten en øyeblikkelig dom. Jeg kan være sammen med den skammen uten å slutte meg til dommen."
+      "suggestion": "Å se hvordan du reagerte, vekker så mye skam og avsky. Jeg er her med deg. Vi kan lytte til det vonde uten å gjøre det til et angrep på deg."
     },
     {
       "id": "dp_staying-in-contact-intense-affect_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1200,7 +1200,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1213,7 +1213,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1226,7 +1226,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1239,7 +1239,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-david_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1252,7 +1252,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-david_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1267,7 +1267,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1275,12 +1275,12 @@
         "legacy_matrix_item"
       ],
       "text": "[Flatt] En bølge kommer opp i brystet, og jeg vil stenge den ned før den tar meg tilbake dit.",
-      "suggestion": "Bølgen kommer, og frykten er å bli dratt tilbake dit. Jeg møter deg ved den første stigningen, med dette rommet fortsatt delvis rundt oss."
+      "suggestion": "Du er redd følelsen skal ta deg tilbake dit. Jeg er her med deg. Vi kan stoppe opp og legge merke til hvor vi er nå, uten å gå lenger inn i minnet."
     },
     {
       "id": "dp_staying-in-contact-intense-affect_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1293,7 +1293,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1306,7 +1306,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1319,7 +1319,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1332,7 +1332,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1340,12 +1340,12 @@
         "legacy_matrix_item"
       ],
       "text": "[Lav stemme] Når jeg kommer hjem og det er stille, lander vekten på brystet som en dør som lukkes.",
-      "suggestion": "Stillheten lukker seg rundt deg som den døren. Jeg kan sitte med vekten på brystet uten å la den låse deg inne alene."
+      "suggestion": "Når du beskriver den stillheten, hører jeg hvor tung den kjennes. Jeg er her med deg nå. Vi kan bli her et øyeblikk uten å be deg si mer."
     },
     {
       "id": "dp_staying-in-contact-intense-affect_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1358,7 +1358,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1371,7 +1371,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1384,7 +1384,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1397,7 +1397,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-marcus_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",
@@ -1410,7 +1410,7 @@
     {
       "id": "dp_staying-in-contact-intense-affect_case-marcus_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "titrate_affect",
         "grounding",

@@ -459,7 +459,7 @@ function lintSkillPurity(skillId, suggestion) {
   }
   if (
     skillId === "providing-treatment-rationale" &&
-    !/(because|\bhelps?\b|in this|we go|we can|so that|learning|lets|allows|teach|build|turn|update|refine|target|goal|\baim\b|practice|map|learn)/i.test(text)
+    !/(because|\bhelps?\b|in this|we go|we can|so that|learning|lets|allows|teach|build|turn|update|refine|target|goal|\baim\b|\bpoint\b|\bpurpose\b|practice|map|learn)/i.test(text)
   ) {
     warnings.push("treatment_rationale_missing_explanatory_language");
   }

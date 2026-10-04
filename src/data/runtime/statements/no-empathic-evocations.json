@@ -3,7 +3,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -15,7 +15,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -27,7 +27,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -39,7 +39,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -51,7 +51,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -63,19 +63,19 @@
     {
       "id": "dp_empathic-evocations_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
         "legacy_matrix_item"
       ],
       "text": "[Trist] Jeg blir sittende på mobilen sent fordi det er vanskelig å legge seg nå.",
-      "suggestion": "Skjermen blir et lite nattlys mot den tomme siden av senga, og holder den mørke følelsen akkurat utenfor rekkevidde."
+      "suggestion": "Det er som om det lille lyset fra mobilen holder deg med selskap når natten kjennes vanskelig å møte."
     },
     {
       "id": "dp_empathic-evocations_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -87,7 +87,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -99,7 +99,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -111,7 +111,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -123,7 +123,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -135,7 +135,7 @@
     {
       "id": "dp_empathic-evocations_case-sara_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -149,19 +149,19 @@
     {
       "id": "dp_empathic-evocations_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
         "legacy_matrix_item"
       ],
       "text": "[Fast] Når noen korrigerer meg foran teamet, blir jeg varm og slutter å høre etter.",
-      "suggestion": "Varmen skyter opp, som om rommet snevrer seg inn til ett skarpt merke på deg."
+      "suggestion": "Det høres ut som om varmen stiger, som om en lyskaster plutselig rettes mot deg foran alle."
     },
     {
       "id": "dp_empathic-evocations_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -173,7 +173,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -185,7 +185,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -197,7 +197,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -209,19 +209,19 @@
     {
       "id": "dp_empathic-evocations_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
         "legacy_matrix_item"
       ],
       "text": "[Anspent] Hvis noen sier ro deg ned midt i en krangel, blir jeg sintere med en gang og slutter å høre resten.",
-      "suggestion": "De to ordene tenner fyrstikken, og ilden er i gang før du rekker å vite hva som ble antent."
+      "suggestion": "Det er som om de to ordene tenner en fyrstikk, og sinnet blusser opp før du hører noe mer."
     },
     {
       "id": "dp_empathic-evocations_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -233,7 +233,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -245,7 +245,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -257,7 +257,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -269,7 +269,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -281,7 +281,7 @@
     {
       "id": "dp_empathic-evocations_case-michael_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -295,19 +295,19 @@
     {
       "id": "dp_empathic-evocations_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
         "legacy_matrix_item"
       ],
       "text": "[Stille] Når det er min tur i et møte, mister jeg tråden i det jeg skulle si.",
-      "suggestion": "Øyeblikket vender seg mot deg, og setningen glipper unna som om rommet trekker den bort."
+      "suggestion": "Det er som om alle ansiktene vendes mot deg, og setningen du hadde klar, plutselig er borte."
     },
     {
       "id": "dp_empathic-evocations_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -319,7 +319,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -331,7 +331,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -343,7 +343,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -355,19 +355,19 @@
     {
       "id": "dp_empathic-evocations_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
         "legacy_matrix_item"
       ],
       "text": "[Engstelig] Når noen gir meg et kompliment etter et møte, smiler jeg, men jeg tror egentlig ikke på det.",
-      "suggestion": "Komplimentet berører overflaten og glir av før det når stedet som trenger det."
+      "suggestion": "Det er som om komplimentet stanser ved døra. Du hører det, men det slipper ikke helt inn."
     },
     {
       "id": "dp_empathic-evocations_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -379,7 +379,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -391,7 +391,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -403,7 +403,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -415,7 +415,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -427,7 +427,7 @@
     {
       "id": "dp_empathic-evocations_case-jason_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -441,19 +441,19 @@
     {
       "id": "dp_empathic-evocations_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
         "legacy_matrix_item"
       ],
       "text": "[Flatt og på vakt] De fleste morgener står jeg opp, lager kaffe, svarer på meldingene jeg må svare på, og merker at jeg fortsatt ikke kjenner særlig mye.",
-      "suggestion": "Morgenen har bevegelse, men lite varme, som om du går gjennom rommene etter at fargene er tappet ut av dem."
+      "suggestion": "Det høres ut som om dagen går i grått: Alt fortsetter, men lite når inn til deg."
     },
     {
       "id": "dp_empathic-evocations_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -465,7 +465,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -477,7 +477,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -489,7 +489,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -501,19 +501,19 @@
     {
       "id": "dp_empathic-evocations_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
         "legacy_matrix_item"
       ],
       "text": "[Langsomt og flatt] Jeg ligger våken og lytter etter lyder i gangen, og sier til meg selv at det ikke er noe å lytte etter.",
-      "suggestion": "Selv under dyna står en del av deg ved døra på vakt, lytter ut i mørket etter tegn på fare."
+      "suggestion": "Det er som om du legger deg ned, men noe i deg fortsatt står vakt og lytter etter neste lyd."
     },
     {
       "id": "dp_empathic-evocations_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -525,7 +525,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -537,7 +537,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -549,7 +549,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -561,7 +561,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -573,7 +573,7 @@
     {
       "id": "dp_empathic-evocations_case-laura_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -587,19 +587,19 @@
     {
       "id": "dp_empathic-evocations_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
         "legacy_matrix_item"
       ],
       "text": "[Defensiv] Når noen gliser til meg på arbeidslaget, blir jeg fort anspent og bruker resten av timen på å sørge for at ingen tror jeg lot det passere.",
-      "suggestion": "Det gliset sender strøm gjennom deg, og hele dagen dreier mot å bevise at ingen kan behandle deg sånn."
+      "suggestion": "Det gliset ser ut til å treffe som en gnist, og plutselig går den neste timen med til å vise at ingen får tråkke på deg."
     },
     {
       "id": "dp_empathic-evocations_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -611,7 +611,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -623,7 +623,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -635,7 +635,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -647,19 +647,19 @@
     {
       "id": "dp_empathic-evocations_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
         "legacy_matrix_item"
       ],
       "text": "[Skamfull] Etter at jeg har eksplodert, blir alle stille, og jeg kommer vanligvis med en kommentar så vi kan gå videre.",
-      "suggestion": "Etter smellet blir rommet forsiktig, og kommentaren glir over de knuste bitene før noen må se ned."
+      "suggestion": "Etter utbruddet er det som om alle holder pusten, og kommentaren din kommer raskt inn i den stillheten."
     },
     {
       "id": "dp_empathic-evocations_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -671,7 +671,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -683,7 +683,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -695,7 +695,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -707,7 +707,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -719,7 +719,7 @@
     {
       "id": "dp_empathic-evocations_case-carlos_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -733,19 +733,19 @@
     {
       "id": "dp_empathic-evocations_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
         "legacy_matrix_item"
       ],
       "text": "[Sliten] Idet jeg setter meg ned, kommer jeg på tre ting jeg ikke har gjort, og så reiser jeg meg igjen.",
-      "suggestion": "Hvilen rekker knapt å berøre deg før plikten kaller deg opp igjen, som om stolen ikke får holde på deg."
+      "suggestion": "Det er som om du så vidt har satt deg til rette før det ringer en bjelle inni deg: Det er mer som må gjøres."
     },
     {
       "id": "dp_empathic-evocations_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -757,7 +757,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -769,7 +769,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -781,7 +781,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -793,19 +793,19 @@
     {
       "id": "dp_empathic-evocations_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
         "legacy_matrix_item"
       ],
       "text": "[Splittet] Å si nei gjør meg panisk, selv ved små ting, fordi jeg begynner å se for meg at den andre bestemmer seg for at jeg er egoistisk.",
-      "suggestion": "Nei-et virker lite utenpå og enormt inni, som om én grense kan løsne båndet som holder kjærligheten nær."
+      "suggestion": "Det er som om det lille neiet kunne løsne en tråd mellom dere, og plutselig kjennes hele forholdet truet."
     },
     {
       "id": "dp_empathic-evocations_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -817,7 +817,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -829,7 +829,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -841,7 +841,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -853,7 +853,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -865,7 +865,7 @@
     {
       "id": "dp_empathic-evocations_case-nina_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -879,19 +879,19 @@
     {
       "id": "dp_empathic-evocations_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
         "legacy_matrix_item"
       ],
       "text": "[Mistroisk] Du sier at notatene dine er private, men hvis du skriver at jeg er ustabil, får jeg ikke vite det før det allerede er der ute.",
-      "suggestion": "Notatet kan kjennes som et svik som skjer stille etter at du har gått, en side som kan vende seg mot deg uten forvarsel."
+      "suggestion": "Det er som om ordene på arket kunne havne et sted du ikke kan følge etter, uten at du får sagt noe om hvordan andre ser deg."
     },
     {
       "id": "dp_empathic-evocations_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -903,7 +903,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -915,7 +915,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -927,7 +927,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -939,31 +939,31 @@
     {
       "id": "dp_empathic-evocations_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
         "legacy_matrix_item"
       ],
       "text": "[Desperat] Når noen sier ha det, vet jeg at det er normalt, men jeg begynner å forhandle inni meg om hvordan jeg kan få dem til å bli litt lenger.",
-      "suggestion": "Ha det får rommet til å tippe før logikken rekker å hjelpe, og du strekker deg allerede etter noe som kan hindre dem i å forsvinne."
+      "suggestion": "Det høres ut som om «ha det» begynner å lukke en dør, og du strekker deg allerede etter å holde den åpen litt lenger."
     },
     {
       "id": "dp_empathic-evocations_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
         "legacy_matrix_item"
       ],
       "text": "[Benektende] Forrige uke fikk jeg selvmordstanker da han forsvant, men så tekstet han tilbake, så kanskje jeg har det greit nå og vi ikke trenger å gjøre det til en stor greie.",
-      "suggestion": "Teksten hans kjennes som om gulvet klikker på plass under deg igjen, mens stedet du falt gjennom fortsatt er åpent under."
+      "suggestion": "Meldingen hans kan ha kjentes som en livline etter den skremmende uka. Jeg vil ikke anta at selvmordstankene er borte fordi han svarte. Har du tanker om å ta livet ditt nå?"
     },
     {
       "id": "dp_empathic-evocations_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -975,7 +975,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -987,7 +987,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -999,7 +999,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1011,7 +1011,7 @@
     {
       "id": "dp_empathic-evocations_case-aisha_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1025,19 +1025,19 @@
     {
       "id": "dp_empathic-evocations_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
         "legacy_matrix_item"
       ],
       "text": "[Kontrollert] Når kona mi kaller meg kald, blir jeg stille og kommer med én presis kommentar som jeg vet kommer til å treffe hardt.",
-      "suggestion": "Ordet kald brenner bak tennene, og den presise kommentaren kommer ut som en rustning som smekker igjen med en skarp kant."
+      "suggestion": "Det høres ut som om «kald» treffer som et slag, og ordene dine slår tilbake."
     },
     {
       "id": "dp_empathic-evocations_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1049,7 +1049,7 @@
     {
       "id": "dp_empathic-evocations_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1061,7 +1061,7 @@
     {
       "id": "dp_empathic-evocations_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1073,7 +1073,7 @@
     {
       "id": "dp_empathic-evocations_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1085,19 +1085,19 @@
     {
       "id": "dp_empathic-evocations_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
         "legacy_matrix_item"
       ],
       "text": "[Skamfull] Ansiktet til barnet mitt etter at jeg smeller, plager meg mer enn jeg hadde ventet, men jeg tar meg fortsatt i å forberede et forsvar.",
-      "suggestion": "Det forsiktige ansiktet glir forbi alle argumentene, et treff på stedet ingen forsvar helt klarer å beskytte."
+      "suggestion": "Det er som om ansiktet til barnet ditt blir stående mellom deg og alle argumentene du griper etter."
     },
     {
       "id": "dp_empathic-evocations_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1109,7 +1109,7 @@
     {
       "id": "dp_empathic-evocations_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1121,7 +1121,7 @@
     {
       "id": "dp_empathic-evocations_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1133,7 +1133,7 @@
     {
       "id": "dp_empathic-evocations_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1145,7 +1145,7 @@
     {
       "id": "dp_empathic-evocations_case-david_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1157,7 +1157,7 @@
     {
       "id": "dp_empathic-evocations_case-david_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1171,19 +1171,19 @@
     {
       "id": "dp_empathic-evocations_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
         "legacy_matrix_item"
       ],
       "text": "[Håpløs] De fleste dager går jeg bare gjennom rutinene, møter opp der jeg skal, og ser fortsatt ikke poenget med å snakke om det.",
-      "suggestion": "Dagen folder seg ned rundt deg, flat og uten luft, og ord kjennes som om de bare ville presse mot en vegg."
+      "suggestion": "Det høres ut som å komme seg gjennom en dag der alle fargene er borte, og praten kjennes som enda en anstrengelse som ikke fører noe sted."
     },
     {
       "id": "dp_empathic-evocations_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1195,7 +1195,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1207,7 +1207,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1219,7 +1219,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1231,19 +1231,19 @@
     {
       "id": "dp_empathic-evocations_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
         "legacy_matrix_item"
       ],
       "text": "[Stille og på vakt] Når noe godt skjer, legger jeg merke til det, sier det riktige, og venter så på følelsen som ikke kommer.",
-      "suggestion": "Det gode er rett der, men treffer glasset før det når fram til deg."
+      "suggestion": "Det er som om noe godt er rett foran deg, men det er en glassrute mellom deg og følelsen."
     },
     {
       "id": "dp_empathic-evocations_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1255,7 +1255,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1267,7 +1267,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1279,7 +1279,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1291,7 +1291,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",
@@ -1303,7 +1303,7 @@
     {
       "id": "dp_empathic-evocations_case-marcus_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "evoke_image",
         "heighten_felt_sense",

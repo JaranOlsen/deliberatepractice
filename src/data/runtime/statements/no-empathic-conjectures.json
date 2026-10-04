@@ -3,19 +3,19 @@
     {
       "id": "dp_empathic-conjectures_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Flau] Jeg sier til vennene mine at det går bra, og så blir jeg irritert når de slutter å spørre.",
-      "suggestion": "Du gir svaret om at det går bra, og så blir du alene med det; jeg lurer på om du håper at noen skal merke at det ikke gjør det."
+      "suggestion": "Du sier at det går bra, og blir så irritert når de slutter å spørre. Jeg lurer på om du ønsker at noen skal merke at det er mer du ikke har sagt."
     },
     {
       "id": "dp_empathic-conjectures_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -27,7 +27,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -39,7 +39,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -51,7 +51,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -63,7 +63,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -75,7 +75,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -87,7 +87,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -99,7 +99,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -111,7 +111,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -123,7 +123,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -135,7 +135,7 @@
     {
       "id": "dp_empathic-conjectures_case-sara_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -149,19 +149,19 @@
     {
       "id": "dp_empathic-conjectures_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Fast] Hvis noen stiller spørsmål ved meg i et møte, svarer jeg raskt og høyere enn jeg mente.",
-      "suggestion": "Du kommer sterkt inn før du rekker å tenke; jeg lurer på om spørsmålet lander som å bli avslørt som en som ikke kan nok."
+      "suggestion": "Du svarer raskt og høyt når noen stiller spørsmål ved deg. Jeg lurer på om du kjenner deg utsatt et øyeblikk før du svarer."
     },
     {
       "id": "dp_empathic-conjectures_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -173,7 +173,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -185,7 +185,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -197,7 +197,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -209,19 +209,19 @@
     {
       "id": "dp_empathic-conjectures_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Anspent] Jeg tar bare et glass etter jobb fordi kona mi presser på; hvis hun sluttet å mase, hadde jeg ikke trengt det.",
-      "suggestion": "Du legger drikkingen på presset hennes; jeg lurer på om glasset også hjelper deg bort fra følelsen av å være anklaget."
+      "suggestion": "Du knytter drikkingen til presset fra kona di. Jeg lurer på om det er vanskelig å tåle å bli anklaget, og om glasset gir deg litt avstand fra det."
     },
     {
       "id": "dp_empathic-conjectures_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -233,7 +233,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -245,7 +245,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -257,7 +257,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -269,7 +269,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -281,7 +281,7 @@
     {
       "id": "dp_empathic-conjectures_case-michael_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -295,19 +295,19 @@
     {
       "id": "dp_empathic-conjectures_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Blank] Jeg øver på hver setning før et møte, og så blir hodet likevel blankt når folk vender seg mot meg.",
-      "suggestion": "Du forbereder deg nøye, og så tar blankheten over; jeg lurer på om det å bli sett på kjennes som å bli vurdert."
+      "suggestion": "Du forbereder deg nøye, og så blir det likevel tomt. Jeg lurer på om det å ha blikkene på deg kjennes som å bli vurdert."
     },
     {
       "id": "dp_empathic-conjectures_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -319,7 +319,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -331,7 +331,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -343,7 +343,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -355,19 +355,19 @@
     {
       "id": "dp_empathic-conjectures_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Skamfull] Å se selvsikre mennesker får meg til å ville forsvinne, og så hater jeg meg selv for å misunne dem.",
-      "suggestion": "Selvsikkerheten deres får deg til å krympe; kanskje misunnelsen også er tristhet over å føle deg utenfor den verdenen."
+      "suggestion": "Å se selvsikkerheten deres får deg til å ville forsvinne. Jeg lurer på om det også er tristhet i misunnelsen, over å ønske å være så fri sammen med folk."
     },
     {
       "id": "dp_empathic-conjectures_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -379,7 +379,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -391,7 +391,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -403,7 +403,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -415,7 +415,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -427,7 +427,7 @@
     {
       "id": "dp_empathic-conjectures_case-jason_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -441,7 +441,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -453,7 +453,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -465,7 +465,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -477,7 +477,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -489,7 +489,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -501,19 +501,19 @@
     {
       "id": "dp_empathic-conjectures_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Anspent og på vakt] En snill mann spurte meg ut, og jeg begynte straks å ramse opp alle grunnene til at han sikkert kom til å såre meg.",
-      "suggestion": "Listen kommer fort inn; jeg lurer på om ønsket om nærhet og forventningen om svik kommer nesten samtidig."
+      "suggestion": "Du finner raskt grunner til at han kan såre deg. Jeg lurer på om ønsket om nærhet og frykten for svik kommer nesten samtidig."
     },
     {
       "id": "dp_empathic-conjectures_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -525,7 +525,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -537,7 +537,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -549,7 +549,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -561,7 +561,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -573,7 +573,7 @@
     {
       "id": "dp_empathic-conjectures_case-laura_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -587,19 +587,19 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Anspent og sint] En respektløs tone vipper en bryter i meg før jeg vet hva som ble truffet.",
-      "suggestion": "Det snur fort i deg; jeg lurer på om det under varmen ligger et glimt av ydmykelse før sinnet tar over."
+      "suggestion": "Sinnet kommer så fort. Jeg lurer på om du kjenner deg ydmyket et kort øyeblikk rett før det."
     },
     {
       "id": "dp_empathic-conjectures_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -611,7 +611,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -623,7 +623,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -635,7 +635,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -647,19 +647,19 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Anspent og sint] Jeg blåser meg opp når noen utfordrer meg, før de kan se at det treffer.",
-      "suggestion": "Du tar på rustningen fort; jeg lurer på om den dekker over det korte øyeblikket der utfordringen faktisk treffer og får deg til å kjenne deg mindre."
+      "suggestion": "Du reagerer sterkt før de ser at utfordringen treffer. Jeg lurer på om du kjenner deg liten et øyeblikk som du ikke vil at de skal se."
     },
     {
       "id": "dp_empathic-conjectures_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -671,7 +671,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -683,7 +683,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -695,7 +695,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -707,7 +707,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -719,7 +719,7 @@
     {
       "id": "dp_empathic-conjectures_case-carlos_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -733,19 +733,19 @@
     {
       "id": "dp_empathic-conjectures_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Skyldpreget] Når jeg hviler, føler jeg meg egoistisk, selv når jeg er så trøtt at jeg nesten ikke klarer å stå.",
-      "suggestion": "Hvile vekker skyld; jeg lurer på om en del av deg kom til å kjenne kjærlighet som tryggere når du fortsatte å fortjene plassen din."
+      "suggestion": "Hvile vekker skyld selv når du nesten ikke klarer å stå. Jeg lurer på om du er redd for å bety mindre for folk når du ikke gjør noe for dem."
     },
     {
       "id": "dp_empathic-conjectures_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -757,7 +757,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -769,7 +769,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -781,7 +781,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -793,19 +793,19 @@
     {
       "id": "dp_empathic-conjectures_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Splittet] Jeg svelger sinnet fordi det ikke er pent, og så bærer jeg bitterhet stille.",
-      "suggestion": "Du svelger sinnet for å være snill; kanskje lærte en yngre del at det å ha behov kunne true kjærligheten."
+      "suggestion": "Du holder sinnet for deg selv for å være snill. Jeg lurer på om du er redd folk vil trekke seg unna hvis de får vite hva du selv ønsker."
     },
     {
       "id": "dp_empathic-conjectures_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -817,7 +817,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -829,7 +829,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -841,7 +841,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -853,7 +853,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -865,7 +865,7 @@
     {
       "id": "dp_empathic-conjectures_case-nina_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -879,19 +879,19 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Desperat] Hvis du kaster et blikk på klokka, synker magen som om du allerede er på vei bort fra meg.",
-      "suggestion": "Det blikket blir et signal om at du går; jeg lurer på om fallet i magen handler om en frykt for at du slutter å bety noe når noen vender seg bort."
+      "suggestion": "Når jeg ser på klokka, kjennes det som om jeg er på vei bort. Jeg lurer på om det også vekker en frykt for at du slutter å bety noe for meg."
     },
     {
       "id": "dp_empathic-conjectures_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -903,7 +903,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -915,7 +915,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -927,7 +927,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -939,7 +939,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -951,7 +951,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -963,7 +963,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -975,7 +975,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -987,7 +987,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -999,7 +999,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1011,7 +1011,7 @@
     {
       "id": "dp_empathic-conjectures_case-aisha_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1025,19 +1025,19 @@
     {
       "id": "dp_empathic-conjectures_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Håpløs] Når kona mi kaller meg kald, kommer jeg med en spydig kommentar før hun rekker å se at det såret.",
-      "suggestion": "Kommentaren kommer først; jeg lurer på om den vokter mot et stikk av å bli sett som mislykket eller ikke god nok."
+      "suggestion": "Kommentaren kommer før hun ser at du er såret. Jeg lurer på om det å bli kalt kald også treffer en frykt for at du svikter henne."
     },
     {
       "id": "dp_empathic-conjectures_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1049,7 +1049,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1061,7 +1061,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1073,7 +1073,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1085,19 +1085,19 @@
     {
       "id": "dp_empathic-conjectures_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Unnvikende] I vanskelige samtaler griper jeg etter telefonen når praten begynner å bli personlig.",
-      "suggestion": "Du griper etter en utvei idet nærheten kommer inn; kanskje kjennes det personlige farlig når du forventer å bli bedømt."
+      "suggestion": "Du vender deg mot telefonen når samtalen blir personlig. Jeg lurer på om du kjenner deg utsatt og venter å bli dømt hvis du blir i samtalen."
     },
     {
       "id": "dp_empathic-conjectures_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1109,7 +1109,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1121,7 +1121,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1133,7 +1133,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1145,7 +1145,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1157,7 +1157,7 @@
     {
       "id": "dp_empathic-conjectures_case-david_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1171,7 +1171,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1183,7 +1183,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1195,7 +1195,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1207,7 +1207,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1219,7 +1219,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1231,19 +1231,19 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Stille og på vakt] Når gode ting skjer, merker jeg at jeg venter på at noe skal gå galt.",
-      "suggestion": "Det gode holder seg på avstand; kanskje det å la det bety noe gjør tapet for nært."
+      "suggestion": "Du tar deg i å vente på at noe skal gå galt. Jeg lurer på om det å glede seg over det gode også vekker en frykt for å miste det."
     },
     {
       "id": "dp_empathic-conjectures_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1255,7 +1255,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1267,7 +1267,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1279,7 +1279,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1291,7 +1291,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",
@@ -1303,7 +1303,7 @@
     {
       "id": "dp_empathic-conjectures_case-marcus_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "tentative_guess",
         "name_underlying_feeling",

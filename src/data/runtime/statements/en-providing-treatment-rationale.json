@@ -3,19 +3,19 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
         "legacy_matrix_item"
       ],
       "text": "[Softly] Shouldn't I just focus on positive thoughts instead of digging into how sad I am?",
-      "suggestion": "Positive thoughts can help for a moment, and sadness still needs somewhere to go. If we listen to it in small, steady doses, it can show what needs comfort or connection instead of returning at night with more force."
+      "suggestion": "You want some relief from the sadness. Positive thoughts may help, and we can also listen to what you are grieving and needing. We can take it slowly, without spending the whole session in the pain."
     },
     {
       "id": "dp_providing-treatment-rationale_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -27,7 +27,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -39,7 +39,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -51,7 +51,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -63,19 +63,19 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
         "legacy_matrix_item"
       ],
       "text": "[Tearful] If we talk about him more, won't that keep him in my head even longer?",
-      "suggestion": "We are not rehearsing him; we map the pull underneath—loneliness, hope, self-blame—because when those parts get care, the checking loop has less to feed on."
+      "suggestion": "You are worried that talking will keep you stuck on him. The aim is to understand what comes up for you when you miss him, rather than go over every detail about him. That can help us find what you need now."
     },
     {
       "id": "dp_providing-treatment-rationale_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -87,7 +87,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -99,7 +99,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -111,7 +111,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -123,7 +123,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -135,7 +135,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-sara_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -149,19 +149,19 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
         "legacy_matrix_item"
       ],
       "text": "[Skeptical] I came for anger control, not feelings talk. How does this stop me from blowing up?",
-      "suggestion": "We start at the first sting, before anger takes the wheel, because catching shame, disrespect, or fear early makes tone and action into choices instead of automatic reactions."
+      "suggestion": "You want to stop the outbursts. We can slow down what happens just before your voice rises and notice the feelings involved. Recognizing that moment may give you more room to choose how you respond."
     },
     {
       "id": "dp_providing-treatment-rationale_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -173,7 +173,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -185,7 +185,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -197,7 +197,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -209,19 +209,19 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
         "legacy_matrix_item"
       ],
       "text": "[Worried] How does noticing a tight jaw help me lead when a meeting turns tense?",
-      "suggestion": "The tight jaw helps as an early warning, not a distraction. If you catch it before your voice sharpens, you get a few seconds to answer with authority instead of heat."
+      "suggestion": "You want to handle a tense meeting well. Your jaw tightening can be a cue to pause and notice what is happening before you answer. The point is to understand your reaction early enough to choose a response that fits the situation."
     },
     {
       "id": "dp_providing-treatment-rationale_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -233,7 +233,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -245,7 +245,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -257,7 +257,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -269,7 +269,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -281,7 +281,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-michael_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -295,19 +295,19 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
         "legacy_matrix_item"
       ],
       "text": "[Skeptical] Does this actually help social anxiety, or am I just learning to stare at fear?",
-      "suggestion": "The aim is not to stare at fear. We find the first manageable cue, calm it enough, and practice staying present so confidence grows from repeated survivable moments."
+      "suggestion": "You want to know how this helps outside the room. We can explore what feels threatening when people look at you, and practice staying with a manageable amount of that feeling. The aim is to make speaking less of a battle with yourself."
     },
     {
       "id": "dp_providing-treatment-rationale_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -319,7 +319,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -331,7 +331,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -343,7 +343,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -355,19 +355,19 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
         "legacy_matrix_item"
       ],
       "text": "[Anxious] How long before I can speak in meetings without my body taking over?",
-      "suggestion": "Usually the first shifts are small: a little less bracing, a little more room to stay present when attention turns to you, and a quicker recovery afterward."
+      "suggestion": "I cannot promise a timetable. We can work on recognizing what happens when attention turns to you, and look together for changes such as staying present a little longer or recovering more easily afterwards. Those changes matter even before the anxiety is gone."
     },
     {
       "id": "dp_providing-treatment-rationale_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -379,7 +379,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -391,7 +391,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -403,7 +403,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -415,7 +415,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -427,7 +427,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-jason_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -441,19 +441,19 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
         "legacy_matrix_item"
       ],
       "text": "[Worried] If this is my brain chemistry, why would talking to you change anything?",
-      "suggestion": "Chemistry matters, and repeated safety also shapes the system over time. Alongside any medical care, therapy gives your mind and body new experiences of being present, soothed, and not alone so that the alarm system has new evidence."
+      "suggestion": "You are wondering whether talking can help if there is a biological part to this. We do not have to choose just one explanation. Here we can explore your experience and what helps you feel more present and connected, alongside any medical care."
     },
     {
       "id": "dp_providing-treatment-rationale_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -465,7 +465,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -477,7 +477,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -489,7 +489,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -501,19 +501,19 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
         "legacy_matrix_item"
       ],
       "text": "[Slow and flat] Why chase tiny signals if I shut down before I can use them?",
-      "suggestion": "The tiny signals are warning lights before shutdown. Learning them lets us slow the work earlier, so you have more chance to stay present instead of disappearing."
+      "suggestion": "You worry that you will shut down before any of this helps. Small signs can help us notice when the work is becoming too much, so we can slow down or pause sooner. We are trying to work at a pace you can stay with."
     },
     {
       "id": "dp_providing-treatment-rationale_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -525,7 +525,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -537,7 +537,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -549,7 +549,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -561,7 +561,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -573,7 +573,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-laura_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -587,19 +587,19 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
         "legacy_matrix_item"
       ],
       "text": "[Defensive] Is this going to make me soft? I still need people to know not to mess with me.",
-      "suggestion": "The goal is steadiness, not softness. You can keep a clear line without scaring your family or handing control over to anger."
+      "suggestion": "You want to be able to stand up for yourself. Understanding your feelings does not mean giving up your boundaries. It can help you speak firmly without using anger to frighten people or losing sight of what you want to say."
     },
     {
       "id": "dp_providing-treatment-rationale_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -611,7 +611,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -623,7 +623,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -635,7 +635,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -647,19 +647,19 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
         "legacy_matrix_item"
       ],
       "text": "[Tense] How is breathing supposed to matter when I'm already two seconds from snapping?",
-      "suggestion": "Breathing matters only as a doorway. It buys a few seconds because those seconds let you catch hurt or humiliation before the snap becomes the only move."
+      "suggestion": "When you are that close to snapping, breathing alone may not be enough. We also need to understand how the pressure builds before that point. Noticing the earlier signs can help you step away before anyone is frightened or hurt."
     },
     {
       "id": "dp_providing-treatment-rationale_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -671,7 +671,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -683,7 +683,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -695,7 +695,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -707,7 +707,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -719,7 +719,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-carlos_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -733,19 +733,19 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
         "legacy_matrix_item"
       ],
       "text": "[Guilty] Isn't it selfish to focus on my feelings when everyone needs something from me?",
-      "suggestion": "Your feelings point to needs and limits; that is what makes care sustainable. Listening to them lets you help without disappearing."
+      "suggestion": "It feels selfish to turn toward your own feelings. They can help us notice your needs and limits, including when you are exhausted. Making room for those needs is part of finding ways to care for others without wearing yourself out."
     },
     {
       "id": "dp_providing-treatment-rationale_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -757,7 +757,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -769,7 +769,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -781,7 +781,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -793,19 +793,19 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
         "legacy_matrix_item"
       ],
       "text": "[Hesitant] Can we just fix my schedule? Talking about needs sounds like another task.",
-      "suggestion": "We can work on the schedule, and needs tell us what the schedule has to protect. Otherwise the plan may look organized while still using you up."
+      "suggestion": "You want less to do, not another assignment. We can look at the schedule together. Paying attention to your needs helps us decide what actually has to change, rather than make you better at fitting everything in."
     },
     {
       "id": "dp_providing-treatment-rationale_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -817,7 +817,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -829,7 +829,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -841,7 +841,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -853,7 +853,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -865,7 +865,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-nina_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -879,19 +879,19 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
         "legacy_matrix_item"
       ],
       "text": "[Worried] What if talking about being left makes me want to hurt myself again before I can stop it?",
-      "suggestion": "Safety comes first. We build a plan, grounding, and support before touching that pain because the goal is to keep you connected while the abandonment alarm becomes less dangerous."
+      "suggestion": "That fear needs our attention before we go into the pain. First, I need to understand whether you might hurt yourself now. Then we can agree on support and pacing; exploring feelings should not mean pushing you beyond what you can manage."
     },
     {
       "id": "dp_providing-treatment-rationale_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -903,7 +903,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -915,7 +915,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -927,7 +927,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -939,19 +939,19 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
         "legacy_matrix_item"
       ],
       "text": "[Desperate] How does working with this neediness help when reassurance from you feels so urgent?",
-      "suggestion": "That urgent need deserves direct work because it is already running the room. Clear asking, small doses of receiving, and ways to hold contact between sessions can make closeness less desperate."
+      "suggestion": "Reassurance feels urgent, and you want something that helps beyond this moment. We can explore what happens when you fear losing contact, and practice asking for support within clear boundaries. The aim is to find more ways to cope than reassurance from me alone."
     },
     {
       "id": "dp_providing-treatment-rationale_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -963,7 +963,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -975,7 +975,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -987,7 +987,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -999,7 +999,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1011,7 +1011,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-aisha_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1025,19 +1025,19 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
         "legacy_matrix_item"
       ],
       "text": "[Controlled] Why focus on feelings when I need results people can actually see?",
-      "suggestion": "We focus there because feelings drive the reactions people see. When you catch the sting under anger or distance, you get more control over tone, repair, and outcomes at home and work."
+      "suggestion": "You want changes that show in daily life. Feelings are part of what happens before you withdraw or speak sharply. Understanding those moments can help you choose how to respond, and we can check together whether it makes a difference at home and work."
     },
     {
       "id": "dp_providing-treatment-rationale_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1049,7 +1049,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1061,7 +1061,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1073,7 +1073,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1085,19 +1085,19 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
         "legacy_matrix_item"
       ],
       "text": "[Demanding] I need anger control, not a deep dive into what I feel under it.",
-      "suggestion": "Anger control works best when it starts before the explosion. Looking underneath helps you catch the first hit of shame, threat, or fear, so control begins earlier than forcing yourself to calm down after the damage is done."
+      "suggestion": "You want to stop the anger doing damage. We can work on that directly, including what happens before an outburst. Looking at the feelings involved is a way to recognize the build-up earlier, not a requirement to reveal everything at once."
     },
     {
       "id": "dp_providing-treatment-rationale_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1109,7 +1109,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1121,7 +1121,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1133,7 +1133,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1145,7 +1145,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1157,7 +1157,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-david_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1171,19 +1171,19 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
         "legacy_matrix_item"
       ],
       "text": "[Flat] Talking will not change what happened, so why open the door to it?",
-      "suggestion": "It will not change the past. Small, grounded contact changes how the past hits you now because memories can gain less control over sleep, numbness, and isolation."
+      "suggestion": "You are right that talking cannot change what happened. The aim is to help with how it affects your life now. We can begin with what you notice today, without asking you to retell the worst parts of the past."
     },
     {
       "id": "dp_providing-treatment-rationale_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1195,7 +1195,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1207,7 +1207,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1219,7 +1219,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1231,19 +1231,19 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
         "legacy_matrix_item"
       ],
       "text": "[Flat] How is working on connection supposed to help when being alone keeps people from wanting things from me?",
-      "suggestion": "Aloneness has protected you from pressure and loss. We build contact in small, chosen doses so closeness can become support you control, not a demand that traps you."
+      "suggestion": "Being alone gives you relief from other people's demands. We can explore what kind of contact, if any, you would actually want. This is about finding support while keeping your choice and boundaries, not persuading you to let everyone in."
     },
     {
       "id": "dp_providing-treatment-rationale_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1255,7 +1255,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1267,7 +1267,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1279,7 +1279,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1291,7 +1291,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",
@@ -1303,7 +1303,7 @@
     {
       "id": "dp_providing-treatment-rationale_case-marcus_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "offer_rationale",
         "normalize_experiential_work",

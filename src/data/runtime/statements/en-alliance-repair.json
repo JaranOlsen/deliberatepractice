@@ -3,19 +3,19 @@
     {
       "id": "dp_alliance-repair_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Embarrassed] Sometimes I think you get bored when I repeat the breakup again, and then I feel stupid for still bringing it here.",
-      "suggestion": "You are bringing me something important: when my attention seems thin, the grief can start to feel unwelcome here. I am sorry my presence has not felt steady enough. I am not bored, and I want you to tell me when I seem gone. What would help you test that I am still with you when this pain repeats?"
+      "suggestion": "Thank you for telling me. You worry that I am bored, and then feel ashamed of bringing the grief here. I want to understand when you lose the sense that I am listening. What have you noticed in those moments?"
     },
     {
       "id": "dp_alliance-repair_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -27,7 +27,7 @@
     {
       "id": "dp_alliance-repair_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -39,7 +39,7 @@
     {
       "id": "dp_alliance-repair_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -51,7 +51,7 @@
     {
       "id": "dp_alliance-repair_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -63,19 +63,19 @@
     {
       "id": "dp_alliance-repair_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Hurt] When you asked whether I had thought about dating again, it felt like you wanted me to move on already.",
-      "suggestion": "My dating question skipped past the part of you that is not ready, and I am sorry. I do not want to rush grief into a timetable. What do you need me to understand about the part that cannot move on yet?"
+      "suggestion": "My question about dating made you feel rushed past the grief. I am sorry. We can set that question aside. What do you need me to understand about where you are now?"
     },
     {
       "id": "dp_alliance-repair_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -87,7 +87,7 @@
     {
       "id": "dp_alliance-repair_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -99,7 +99,7 @@
     {
       "id": "dp_alliance-repair_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -111,7 +111,7 @@
     {
       "id": "dp_alliance-repair_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -123,7 +123,7 @@
     {
       "id": "dp_alliance-repair_case-sara_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -135,7 +135,7 @@
     {
       "id": "dp_alliance-repair_case-sara_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -149,19 +149,19 @@
     {
       "id": "dp_alliance-repair_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Wounded but sharp] When you said I sounded hurt, it felt like you were calling me weak. I know hurt is probably your therapy word, but in my head it sounded like you were stripping away the part of me that can handle things.",
-      "suggestion": "The word 'hurt' did not feel like understanding; it felt like I was taking strength away from you. I am sorry I chose words that made you brace. What language would let us name the hit without making you feel weakened or exposed in a way you did not choose?"
+      "suggestion": "My word \"hurt\" sounded as though I was calling you weak and taking your strength away. I am sorry. I want to hear how you would describe it, without putting my words on you."
     },
     {
       "id": "dp_alliance-repair_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -173,7 +173,7 @@
     {
       "id": "dp_alliance-repair_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -185,7 +185,7 @@
     {
       "id": "dp_alliance-repair_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -197,7 +197,7 @@
     {
       "id": "dp_alliance-repair_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -209,19 +209,19 @@
     {
       "id": "dp_alliance-repair_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Tense] You did not challenge me when I got loud, and now I wonder if you are scared of me.",
-      "suggestion": "My quiet when your voice got loud left you guessing whether I was scared, and I am sorry I did not make my stance clear. I do not want to shrink from you or control you. What would direct, steady contact from me look like when your voice gets loud?"
+      "suggestion": "I hear that my silence left you unsure whether I was afraid of you. I am sorry I left you guessing. I can be more direct about what I am noticing and when we need a pause. How would that be for you?"
     },
     {
       "id": "dp_alliance-repair_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -233,7 +233,7 @@
     {
       "id": "dp_alliance-repair_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -245,7 +245,7 @@
     {
       "id": "dp_alliance-repair_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -257,7 +257,7 @@
     {
       "id": "dp_alliance-repair_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -269,7 +269,7 @@
     {
       "id": "dp_alliance-repair_case-michael_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -281,7 +281,7 @@
     {
       "id": "dp_alliance-repair_case-michael_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -295,19 +295,19 @@
     {
       "id": "dp_alliance-repair_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Quietly] When I freeze and say I do not know, I worry I am doing therapy wrong and wasting the session.",
-      "suggestion": "Freezing started to feel like failing therapy, and I am sorry my silence may have added to that. You are not doing therapy wrong; freezing is part of what we need to understand. What would help you know I am with you when words disappear?"
+      "suggestion": "Thank you for telling me. I hear that losing the words makes this feel like a test you are failing. We can stop trying to force an answer and take the pause together. What would help you feel less under pressure here?"
     },
     {
       "id": "dp_alliance-repair_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -319,7 +319,7 @@
     {
       "id": "dp_alliance-repair_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -331,7 +331,7 @@
     {
       "id": "dp_alliance-repair_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -343,7 +343,7 @@
     {
       "id": "dp_alliance-repair_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -355,19 +355,19 @@
     {
       "id": "dp_alliance-repair_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Hesitant] When I went quiet, you said I seemed calm, but I was panicking. I was counting the seconds, trying not to look weird, and then I felt like you could not see what was actually happening.",
-      "suggestion": "You are right to correct me. I misread quiet as calm, and I am sorry I missed the panic underneath. What signs should I watch for, or ask about, so I do not mistake your survival strategy for ease?"
+      "suggestion": "I called you calm when you were panicking, and you felt unseen. I am sorry. I will check with you rather than assume what your quiet means. What do you need me to understand about that moment?"
     },
     {
       "id": "dp_alliance-repair_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -379,7 +379,7 @@
     {
       "id": "dp_alliance-repair_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -391,7 +391,7 @@
     {
       "id": "dp_alliance-repair_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -403,7 +403,7 @@
     {
       "id": "dp_alliance-repair_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -415,7 +415,7 @@
     {
       "id": "dp_alliance-repair_case-jason_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -427,7 +427,7 @@
     {
       "id": "dp_alliance-repair_case-jason_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -441,19 +441,19 @@
     {
       "id": "dp_alliance-repair_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Flat and guarded] When you asked about my childhood that quickly, I felt exposed and wanted to leave. I had only mentioned one piece, and suddenly it felt like the whole door was being opened.",
-      "suggestion": "You stayed and told me something important. My childhood question opened too much too fast, and I am sorry I did not check the edge with you. What would help you feel in charge before I ask anything like that again?"
+      "suggestion": "I moved too quickly with my question about your childhood. You felt exposed, and I am sorry. We can stop that topic now. I will ask before returning to it, and you can say no."
     },
     {
       "id": "dp_alliance-repair_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -465,7 +465,7 @@
     {
       "id": "dp_alliance-repair_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -477,7 +477,7 @@
     {
       "id": "dp_alliance-repair_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -489,7 +489,7 @@
     {
       "id": "dp_alliance-repair_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -501,19 +501,19 @@
     {
       "id": "dp_alliance-repair_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Tense] When you said I am safe now, my body felt like you did not believe the danger. I know I am sitting in your office, but the words made it sound like I should be over what my body is still doing.",
-      "suggestion": "You are correcting something important. Saying 'safe now' skipped over what your body still knows, and I am sorry. What would help me acknowledge the danger your body is carrying without implying you should be over it?"
+      "suggestion": "Saying \"safe now\" made it sound as though you should be over the reaction. I am sorry. I want to understand what it is actually like for you, rather than tell you how your body should feel."
     },
     {
       "id": "dp_alliance-repair_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -525,7 +525,7 @@
     {
       "id": "dp_alliance-repair_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -537,7 +537,7 @@
     {
       "id": "dp_alliance-repair_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -549,7 +549,7 @@
     {
       "id": "dp_alliance-repair_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -561,7 +561,7 @@
     {
       "id": "dp_alliance-repair_case-laura_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -573,7 +573,7 @@
     {
       "id": "dp_alliance-repair_case-laura_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -587,19 +587,19 @@
     {
       "id": "dp_alliance-repair_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Defensive] Sometimes it feels like you hear respect as just ego, like you do not get what it meant where I grew up.",
-      "suggestion": "If I made respect sound like ego, I missed something important about your world and I am sorry. I want to understand what respect protected and cost you, not look down on it. What do I need to understand before we keep working with that word?"
+      "suggestion": "I hear that I have made your need for respect sound as though you only care about yourself. I am sorry. I want to understand what respect meant where you grew up before we decide what needs to change. What have I missed?"
     },
     {
       "id": "dp_alliance-repair_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -611,7 +611,7 @@
     {
       "id": "dp_alliance-repair_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -623,7 +623,7 @@
     {
       "id": "dp_alliance-repair_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -635,7 +635,7 @@
     {
       "id": "dp_alliance-repair_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -647,19 +647,19 @@
     {
       "id": "dp_alliance-repair_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Tense] When you talk about repair with my son, I hear you saying I am a bad father. I know I need to face things, but if it starts with me being the villain, I shut down.",
-      "suggestion": "I hear that repair sounded like a verdict on you as a father, and I am sorry I did not make the care in it clearer. What part of your wish to be a good father should I hold while we talk about repair?"
+      "suggestion": "I hear that talking about repair sounded like judging you as a bad father. I am sorry. Taking responsibility for what happened should not mean reducing you to that label. What do you need me to understand before we continue?"
     },
     {
       "id": "dp_alliance-repair_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -671,7 +671,7 @@
     {
       "id": "dp_alliance-repair_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -683,7 +683,7 @@
     {
       "id": "dp_alliance-repair_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -695,7 +695,7 @@
     {
       "id": "dp_alliance-repair_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -707,7 +707,7 @@
     {
       "id": "dp_alliance-repair_case-carlos_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -719,7 +719,7 @@
     {
       "id": "dp_alliance-repair_case-carlos_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -733,19 +733,19 @@
     {
       "id": "dp_alliance-repair_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Tearful] When I cried, you were quiet for a long time. I know silence can be supportive, but I felt alone with it, like I was supposed to figure out how to stop crying by myself.",
-      "suggestion": "My quiet left you alone with the tears, and I am sorry I did not check how silence was landing. I want tears to feel accompanied here, not like a task you must manage alone. When tears come, would words, a softer check-in, or naming that I am here help?"
+      "suggestion": "My silence left you alone with the tears. I am sorry. I could have checked how you were doing instead of leaving you to guess. If the tears come again, I can let you know I am listening and ask what you need. Would that help?"
     },
     {
       "id": "dp_alliance-repair_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -757,7 +757,7 @@
     {
       "id": "dp_alliance-repair_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -769,7 +769,7 @@
     {
       "id": "dp_alliance-repair_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -781,7 +781,7 @@
     {
       "id": "dp_alliance-repair_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -793,19 +793,19 @@
     {
       "id": "dp_alliance-repair_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Lost] When you ask what I want, I feel abandoned, like I am supposed to know alone. I have spent years guessing what everyone else wants, so the question drops me into a blank place.",
-      "suggestion": "My question may have handed you too much responsibility too fast, and I am sorry. How can I help you find what you want without leaving you alone in that blank place?"
+      "suggestion": "My question left you feeling alone with something you do not yet know. I am sorry. We can take it more slowly and explore it together; you do not have to arrive with an answer."
     },
     {
       "id": "dp_alliance-repair_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -817,7 +817,7 @@
     {
       "id": "dp_alliance-repair_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -829,7 +829,7 @@
     {
       "id": "dp_alliance-repair_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -841,7 +841,7 @@
     {
       "id": "dp_alliance-repair_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -853,7 +853,7 @@
     {
       "id": "dp_alliance-repair_case-nina_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -865,7 +865,7 @@
     {
       "id": "dp_alliance-repair_case-nina_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -879,19 +879,19 @@
     {
       "id": "dp_alliance-repair_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Desperate] When you did not reply to my message fast, I panicked and felt abandoned. I know you have other clients and a life, but in my body it was just, She is gone, I did too much.",
-      "suggestion": "Thank you for telling me how that gap landed. Not hearing back quickly felt like abandonment and like proof you had done too much, and I am sorry I had not made the message frame clear enough before panic hit. What agreement about reply times and what to do in the waiting would help you feel less alone while keeping the frame predictable?"
+      "suggestion": "Thank you for telling me. Waiting for my reply felt like being left, and you thought you had asked too much. Let's be clear about when I can reply and what support is available when I cannot, rather than leave you guessing."
     },
     {
       "id": "dp_alliance-repair_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -903,7 +903,7 @@
     {
       "id": "dp_alliance-repair_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -915,7 +915,7 @@
     {
       "id": "dp_alliance-repair_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -927,7 +927,7 @@
     {
       "id": "dp_alliance-repair_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -939,19 +939,19 @@
     {
       "id": "dp_alliance-repair_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Ashamed] When I mentioned cutting, your eyes got wide and I felt like I scared you. Then I wanted to take care of you instead of tell you how bad it had been.",
-      "suggestion": "My eyes widening put you in the position of feeling frightening and responsible for me, and I am sorry. I need to stay steady enough that cutting can be talked about without you managing my reaction. What would help you feel I can keep safety in view and still stay with you?"
+      "suggestion": "My reaction made you feel you had to take care of me. I am sorry. That is my responsibility. I want to hear how bad it has been for you and check how you are now, without you having to protect me from it."
     },
     {
       "id": "dp_alliance-repair_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -963,7 +963,7 @@
     {
       "id": "dp_alliance-repair_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -975,7 +975,7 @@
     {
       "id": "dp_alliance-repair_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -987,7 +987,7 @@
     {
       "id": "dp_alliance-repair_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -999,7 +999,7 @@
     {
       "id": "dp_alliance-repair_case-aisha_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1011,7 +1011,7 @@
     {
       "id": "dp_alliance-repair_case-aisha_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1025,19 +1025,19 @@
     {
       "id": "dp_alliance-repair_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Stern and angry] I do not think this therapy is working. I keep coming here, saying the same things, and maybe we are both wasting time.",
-      "suggestion": "I appreciate you putting that so directly. It sounds frustrating and maybe humiliating to work this hard and not see enough change, and I am sorry I have not helped us make progress feel clear. We can look honestly at what is not working, including whether another approach or therapist would serve you better. For today, what would make this conversation feel worth your time rather than another repetition?"
+      "suggestion": "I hear how frustrating it is to keep coming without seeing the change you want. Thank you for saying it directly. We need to review what is helping and what is not, including whether a different approach would fit better. What change have you most wanted to see?"
     },
     {
       "id": "dp_alliance-repair_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1049,7 +1049,7 @@
     {
       "id": "dp_alliance-repair_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1061,7 +1061,7 @@
     {
       "id": "dp_alliance-repair_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1073,7 +1073,7 @@
     {
       "id": "dp_alliance-repair_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1085,19 +1085,19 @@
     {
       "id": "dp_alliance-repair_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Wounded but sharp] You took my wife's tears more seriously than mine. When I talk sharply, it seems like you hear arrogance; when she cries, you hear pain.",
-      "suggestion": "You are pointing to an important miss in my listening. If I heard her tears as pain and your sharpness only as arrogance, I missed you, and I am sorry. What did your pain need from me in that moment so it did not have to come wrapped in sharpness?"
+      "suggestion": "I hear that I have overlooked your pain when you spoke sharply, while taking her tears seriously. I am sorry. Your pain deserves my attention too. What did you need me to hear in that moment?"
     },
     {
       "id": "dp_alliance-repair_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1109,7 +1109,7 @@
     {
       "id": "dp_alliance-repair_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1121,7 +1121,7 @@
     {
       "id": "dp_alliance-repair_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1133,7 +1133,7 @@
     {
       "id": "dp_alliance-repair_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1145,7 +1145,7 @@
     {
       "id": "dp_alliance-repair_case-david_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1157,7 +1157,7 @@
     {
       "id": "dp_alliance-repair_case-david_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1171,19 +1171,19 @@
     {
       "id": "dp_alliance-repair_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Slow and flat] When I said I felt nothing, you kept asking what was under it, and I shut down. Nothing was already the edge; it felt like you wanted me to produce something else.",
-      "suggestion": "I kept pressing after 'nothing' was already your edge, and I apologize for that. I do not want you to have to produce feeling for me. What would show you that I respect the edge while still staying present with you?"
+      "suggestion": "You told me there was nothing, and I kept asking you to find something else. I am sorry. We can stop that search. I want to take what you actually experience seriously, including feeling nothing."
     },
     {
       "id": "dp_alliance-repair_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1195,7 +1195,7 @@
     {
       "id": "dp_alliance-repair_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1207,7 +1207,7 @@
     {
       "id": "dp_alliance-repair_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1219,7 +1219,7 @@
     {
       "id": "dp_alliance-repair_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1231,19 +1231,19 @@
     {
       "id": "dp_alliance-repair_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Low voice] When I mentioned the violence at home, your face changed. Maybe I read it wrong, but it looked uncomfortable, and then I felt like I had to make it smaller so you could handle it.",
-      "suggestion": "If discomfort showed on my face, you were left making the violence smaller so I could handle it, and I am sorry. You should not have to protect me from your history. What would help you know I can hear it without turning away or needing you to manage me?"
+      "suggestion": "You saw my face change and felt you had to make the violence sound less serious. I am sorry. I need to take responsibility for my reactions; that is not your job. How did that moment affect your trust in me?"
     },
     {
       "id": "dp_alliance-repair_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1255,7 +1255,7 @@
     {
       "id": "dp_alliance-repair_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1267,7 +1267,7 @@
     {
       "id": "dp_alliance-repair_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1279,7 +1279,7 @@
     {
       "id": "dp_alliance-repair_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1291,7 +1291,7 @@
     {
       "id": "dp_alliance-repair_case-marcus_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1303,7 +1303,7 @@
     {
       "id": "dp_alliance-repair_case-marcus_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",

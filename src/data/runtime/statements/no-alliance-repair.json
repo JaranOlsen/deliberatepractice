@@ -3,19 +3,19 @@
     {
       "id": "dp_alliance-repair_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Flau] Av og til tror jeg du blir lei når jeg forteller om bruddet igjen, og da føler jeg meg dum som fortsatt tar det opp her.",
-      "suggestion": "Du tar opp noe viktig: Når oppmerksomheten min virker tynn, kan sorgen begynne å kjennes uvelkommen her. Jeg beklager at nærværet mitt ikke har kjentes stødig nok. Jeg er ikke lei, og jeg vil at du sier fra når jeg virker borte. Hva ville hjulpet deg å teste at jeg fortsatt er med deg når denne smerten gjentar seg?"
+      "suggestion": "Takk for at du sier fra. Du er redd jeg kjeder meg, og så skammer du deg over å ta sorgen med hit. Jeg vil forstå når du mister følelsen av at jeg lytter. Hva har du lagt merke til i de øyeblikkene?"
     },
     {
       "id": "dp_alliance-repair_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -27,7 +27,7 @@
     {
       "id": "dp_alliance-repair_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -39,7 +39,7 @@
     {
       "id": "dp_alliance-repair_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -51,7 +51,7 @@
     {
       "id": "dp_alliance-repair_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -63,19 +63,19 @@
     {
       "id": "dp_alliance-repair_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Såret] Da du spurte om jeg hadde tenkt på å date igjen, føltes det som om du ville at jeg skulle gå videre allerede.",
-      "suggestion": "Spørsmålet mitt om dating hoppet forbi den delen av deg som ikke er klar, og det beklager jeg. Jeg vil ikke presse sorg inn i en tidsplan. Hva trenger du at jeg forstår om delen som ikke klarer å gå videre ennå?"
+      "suggestion": "Da jeg spurte om dating, kjente du deg presset til å gå videre fra sorgen før du var klar. Unnskyld. Vi kan legge det spørsmålet bort. Hva trenger du at jeg forstår om hvordan du har det nå?"
     },
     {
       "id": "dp_alliance-repair_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -87,7 +87,7 @@
     {
       "id": "dp_alliance-repair_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -99,7 +99,7 @@
     {
       "id": "dp_alliance-repair_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -111,7 +111,7 @@
     {
       "id": "dp_alliance-repair_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -123,7 +123,7 @@
     {
       "id": "dp_alliance-repair_case-sara_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -135,7 +135,7 @@
     {
       "id": "dp_alliance-repair_case-sara_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -149,19 +149,19 @@
     {
       "id": "dp_alliance-repair_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Såret, men skarp] Da du sa at jeg hørtes såret ut, føltes det som om du kalte meg svak. Jeg vet at såret sikkert er et terapiord for deg, men i hodet mitt hørtes det ut som om du tok bort den delen av meg som klarer ting.",
-      "suggestion": "Ordet «såret» kjentes ikke som forståelse; det kjentes som om jeg tok styrke fra deg. Jeg beklager at jeg valgte ord som fikk deg til å spenne deg. Hvilket språk lar oss navngi treffet uten at du kjenner deg svekket eller blottlagt på en måte du ikke selv har valgt?"
+      "suggestion": "Ordet «såret» hørtes ut som om jeg kalte deg svak og tok fra deg styrken. Unnskyld. Jeg vil høre hvordan du selv ville beskrive det, uten å legge mine ord på deg."
     },
     {
       "id": "dp_alliance-repair_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -173,7 +173,7 @@
     {
       "id": "dp_alliance-repair_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -185,7 +185,7 @@
     {
       "id": "dp_alliance-repair_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -197,7 +197,7 @@
     {
       "id": "dp_alliance-repair_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -209,19 +209,19 @@
     {
       "id": "dp_alliance-repair_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Anspent] Du utfordret meg ikke da jeg ble høylytt, og nå lurer jeg på om du er redd meg.",
-      "suggestion": "Stillheten min da stemmen din ble høy, gjorde at du måtte lure på om jeg var redd, og jeg beklager at jeg ikke gjorde ståstedet mitt tydelig. Jeg vil verken trekke meg fra deg eller kontrollere deg. Hvordan ville direkte, stødig kontakt fra meg se ut når stemmen din blir høy?"
+      "suggestion": "Jeg hører at stillheten min gjorde deg usikker på om jeg var redd for deg. Unnskyld for at jeg lot deg sitte og lure. Jeg kan si tydeligere hva jeg legger merke til, og når vi trenger en pause. Hvordan ville det være for deg?"
     },
     {
       "id": "dp_alliance-repair_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -233,7 +233,7 @@
     {
       "id": "dp_alliance-repair_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -245,7 +245,7 @@
     {
       "id": "dp_alliance-repair_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -257,7 +257,7 @@
     {
       "id": "dp_alliance-repair_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -269,7 +269,7 @@
     {
       "id": "dp_alliance-repair_case-michael_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -281,7 +281,7 @@
     {
       "id": "dp_alliance-repair_case-michael_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -295,19 +295,19 @@
     {
       "id": "dp_alliance-repair_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Stille] Når jeg fryser og sier at jeg ikke vet, blir jeg redd for at jeg gjør terapi feil og kaster bort timen.",
-      "suggestion": "Å fryse begynte å kjennes som å mislykkes i terapi, og jeg beklager at stillheten min kan ha lagt til det. Du gjør ikke terapi feil; frysingen er en del av det vi trenger å forstå. Hva ville hjulpet deg å vite at jeg er med deg når ordene forsvinner?"
+      "suggestion": "Takk for at du sier fra. Jeg hører at det å miste ordene får dette til å kjennes som en prøve du ikke består. Vi kan slutte å presse frem et svar og være i pausen sammen. Hva ville hjelpe deg å kjenne mindre press her?"
     },
     {
       "id": "dp_alliance-repair_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -319,7 +319,7 @@
     {
       "id": "dp_alliance-repair_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -331,7 +331,7 @@
     {
       "id": "dp_alliance-repair_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -343,7 +343,7 @@
     {
       "id": "dp_alliance-repair_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -355,19 +355,19 @@
     {
       "id": "dp_alliance-repair_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Nølende] Da jeg ble stille, sa du at jeg virket rolig, men jeg hadde panikk. Jeg telte sekundene, prøvde å ikke se rar ut, og så føltes det som om du ikke kunne se hva som faktisk skjedde.",
-      "suggestion": "Du gjør rett i å korrigere meg. Jeg leste stillhet som ro, og jeg beklager at jeg overså panikken under. Hvilke tegn bør jeg se etter, eller spørre om, så jeg ikke forveksler overlevelsesstrategien din med ro?"
+      "suggestion": "Jeg kalte deg rolig mens du hadde panikk, og du følte deg oversett. Unnskyld. Jeg vil spørre deg fremfor å anta hva stillheten betyr. Hva trenger du at jeg forstår om det øyeblikket?"
     },
     {
       "id": "dp_alliance-repair_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -379,7 +379,7 @@
     {
       "id": "dp_alliance-repair_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -391,7 +391,7 @@
     {
       "id": "dp_alliance-repair_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -403,7 +403,7 @@
     {
       "id": "dp_alliance-repair_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -415,7 +415,7 @@
     {
       "id": "dp_alliance-repair_case-jason_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -427,7 +427,7 @@
     {
       "id": "dp_alliance-repair_case-jason_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -441,19 +441,19 @@
     {
       "id": "dp_alliance-repair_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Flatt og på vakt] Da du spurte om barndommen så raskt, følte jeg meg eksponert og ville gå. Jeg hadde bare nevnt én bit, og plutselig kjentes det som om hele døren ble åpnet.",
-      "suggestion": "Du ble og fortalte meg noe viktig. Barndomsspørsmålet mitt åpnet for mye for fort, og jeg beklager at jeg ikke sjekket kanten med deg. Hva ville hjelpe deg å kjenne at du styrer før jeg spør om noe slikt igjen?"
+      "suggestion": "Jeg gikk for raskt frem med spørsmålet om barndommen din. Du følte deg blottlagt, og det beklager jeg. Vi kan stoppe det temaet nå. Jeg vil spørre før vi går tilbake til det, og du kan si nei."
     },
     {
       "id": "dp_alliance-repair_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -465,7 +465,7 @@
     {
       "id": "dp_alliance-repair_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -477,7 +477,7 @@
     {
       "id": "dp_alliance-repair_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -489,7 +489,7 @@
     {
       "id": "dp_alliance-repair_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -501,19 +501,19 @@
     {
       "id": "dp_alliance-repair_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Anspent] Da du sa at jeg er trygg nå, kjentes det i kroppen som om du ikke trodde på faren. Jeg vet at jeg sitter på kontoret ditt, men ordene fikk det til å høres ut som om jeg burde være over det kroppen fortsatt reagerer på.",
-      "suggestion": "Du korrigerer noe viktig her. Å si «trygg nå» hoppet over det kroppen din fortsatt vet, og det beklager jeg. Hva ville hjelpe meg å anerkjenne faren kroppen bærer, uten å antyde at du burde være over det?"
+      "suggestion": "Da jeg sa «trygg nå», hørtes det ut som om du burde være ferdig med reaksjonen. Unnskyld. Jeg vil forstå hvordan det faktisk er for deg, fremfor å fortelle deg hva kroppen burde kjenne."
     },
     {
       "id": "dp_alliance-repair_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -525,7 +525,7 @@
     {
       "id": "dp_alliance-repair_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -537,7 +537,7 @@
     {
       "id": "dp_alliance-repair_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -549,7 +549,7 @@
     {
       "id": "dp_alliance-repair_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -561,7 +561,7 @@
     {
       "id": "dp_alliance-repair_case-laura_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -573,7 +573,7 @@
     {
       "id": "dp_alliance-repair_case-laura_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -587,19 +587,19 @@
     {
       "id": "dp_alliance-repair_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Defensiv] Noen ganger kjennes det som om du hører «respekt» som bare ego, som om du ikke skjønner hva det betydde der jeg vokste opp.",
-      "suggestion": "Hvis jeg fikk respekt til å høres ut som ego, bommet jeg på noe viktig i din verden, og det beklager jeg. Jeg vil forstå hva respekt beskyttet deg mot og hva det kostet deg, ikke se ned på det. Hva trenger jeg å forstå før vi fortsetter å jobbe med det ordet?"
+      "suggestion": "Jeg hører at jeg har fått behovet ditt for respekt til å høres ut som om du bare er opptatt av deg selv. Unnskyld. Jeg vil forstå hva respekt betydde der du vokste opp, før vi bestemmer hva som trenger å endres. Hva har jeg oversett?"
     },
     {
       "id": "dp_alliance-repair_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -611,7 +611,7 @@
     {
       "id": "dp_alliance-repair_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -623,7 +623,7 @@
     {
       "id": "dp_alliance-repair_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -635,7 +635,7 @@
     {
       "id": "dp_alliance-repair_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -647,19 +647,19 @@
     {
       "id": "dp_alliance-repair_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Anspent] Når du snakker om reparasjon med sønnen min, hører jeg at du sier at jeg er en dårlig far. Jeg vet at jeg må møte ting, men hvis det begynner med at jeg er skurken, stenger jeg ned.",
-      "suggestion": "Jeg hører at reparasjon hørtes ut som en dom over deg som far, og jeg beklager at jeg ikke gjorde omsorgen i det tydeligere. Hvilken del av ønsket ditt om å være en god far bør jeg holde fast ved mens vi snakker om reparasjon?"
+      "suggestion": "Jeg hører at praten om å gjøre det godt igjen hørtes ut som en dom om at du er en dårlig far. Unnskyld. Å ta ansvar for det som skjedde skal ikke bety å redusere deg til den merkelappen. Hva trenger du at jeg forstår før vi fortsetter?"
     },
     {
       "id": "dp_alliance-repair_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -671,7 +671,7 @@
     {
       "id": "dp_alliance-repair_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -683,7 +683,7 @@
     {
       "id": "dp_alliance-repair_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -695,7 +695,7 @@
     {
       "id": "dp_alliance-repair_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -707,7 +707,7 @@
     {
       "id": "dp_alliance-repair_case-carlos_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -719,7 +719,7 @@
     {
       "id": "dp_alliance-repair_case-carlos_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -733,19 +733,19 @@
     {
       "id": "dp_alliance-repair_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[På gråten] Da jeg gråt, var du stille lenge. Jeg vet at stillhet kan være støttende, men jeg følte meg alene i det, som om jeg skulle finne ut selv hvordan jeg skulle slutte å gråte.",
-      "suggestion": "Stillheten min lot deg være alene med tårene, og jeg beklager at jeg ikke sjekket hvordan stillheten landet. Jeg vil at tårer skal kjennes fulgt her, ikke som en oppgave du må håndtere alene. Når tårene kommer, ville ord, en mykere sjekk eller bare at jeg sier at jeg er her hjelpe?"
+      "suggestion": "Stillheten min gjorde at du kjente deg alene med tårene. Unnskyld. Jeg kunne ha spurt hvordan du hadde det, i stedet for å la deg gjette. Hvis tårene kommer igjen, kan jeg si at jeg lytter og spørre hva du trenger. Ville det hjelpe?"
     },
     {
       "id": "dp_alliance-repair_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -757,7 +757,7 @@
     {
       "id": "dp_alliance-repair_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -769,7 +769,7 @@
     {
       "id": "dp_alliance-repair_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -781,7 +781,7 @@
     {
       "id": "dp_alliance-repair_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -793,19 +793,19 @@
     {
       "id": "dp_alliance-repair_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Fortapt] Når du spør hva jeg vil, føler jeg meg forlatt, som om jeg skal vite det alene. Jeg har brukt år på å gjette hva alle andre vil, så spørsmålet slipper meg ned i et blankt sted.",
-      "suggestion": "Spørsmålet mitt kan ha gitt deg for mye ansvar for fort, og det beklager jeg. Hvordan kan jeg hjelpe deg å finne hva du vil uten å la deg være alene i det blanke stedet?"
+      "suggestion": "Spørsmålet mitt fikk deg til å kjenne deg alene med noe du ennå ikke vet. Unnskyld. Vi kan ta det langsommere og utforske det sammen. Du trenger ikke ha et svar klart."
     },
     {
       "id": "dp_alliance-repair_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -817,7 +817,7 @@
     {
       "id": "dp_alliance-repair_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -829,7 +829,7 @@
     {
       "id": "dp_alliance-repair_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -841,7 +841,7 @@
     {
       "id": "dp_alliance-repair_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -853,7 +853,7 @@
     {
       "id": "dp_alliance-repair_case-nina_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -865,7 +865,7 @@
     {
       "id": "dp_alliance-repair_case-nina_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -879,19 +879,19 @@
     {
       "id": "dp_alliance-repair_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Desperat] Da du ikke svarte raskt på meldingen min, fikk jeg panikk og følte meg forlatt. Jeg vet at du har andre klienter og et liv, men i kroppen min var det bare: Hun er borte, jeg ble for mye.",
-      "suggestion": "Takk for at du sier hvordan det mellomrommet landet. Å ikke få raskt svar kjentes som forlatelse og som bevis på at du hadde blitt for mye, og jeg beklager at jeg ikke gjorde meldingsrammen tydelig nok før panikken kom. Hvilken avtale om svartid og hva du kan gjøre mens du venter, ville hjulpet deg å kjenne deg mindre alene samtidig som rammen er forutsigbar?"
+      "suggestion": "Takk for at du sier fra. Å vente på svaret mitt kjentes som å bli forlatt, og du tenkte at du hadde bedt om for mye. La oss være tydelige på når jeg kan svare, og hvilken støtte som er tilgjengelig når jeg ikke kan, fremfor å la deg sitte og lure."
     },
     {
       "id": "dp_alliance-repair_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -903,7 +903,7 @@
     {
       "id": "dp_alliance-repair_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -915,7 +915,7 @@
     {
       "id": "dp_alliance-repair_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -927,7 +927,7 @@
     {
       "id": "dp_alliance-repair_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -939,19 +939,19 @@
     {
       "id": "dp_alliance-repair_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Skamfull] Da jeg nevnte kutting, ble øynene dine store, og jeg følte at jeg skremte deg. Så fikk jeg lyst til å ta vare på deg i stedet for å fortelle hvor ille det hadde vært.",
-      "suggestion": "Da øynene mine ble store, havnet du i posisjonen der du følte deg skremmende og ansvarlig for meg, og det beklager jeg. Jeg må være stødig nok til at kutting kan snakkes om uten at du håndterer reaksjonen min. Hva ville hjulpet deg å kjenne at jeg kan holde sikkerhet i sikte og samtidig bli hos deg?"
+      "suggestion": "Reaksjonen min fikk deg til å føle at du måtte ta vare på meg. Unnskyld. Den er mitt ansvar. Jeg vil høre hvor vondt du har hatt det og undersøke hvordan du har det nå, uten at du må beskytte meg mot det."
     },
     {
       "id": "dp_alliance-repair_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -963,7 +963,7 @@
     {
       "id": "dp_alliance-repair_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -975,7 +975,7 @@
     {
       "id": "dp_alliance-repair_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -987,7 +987,7 @@
     {
       "id": "dp_alliance-repair_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -999,7 +999,7 @@
     {
       "id": "dp_alliance-repair_case-aisha_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1011,7 +1011,7 @@
     {
       "id": "dp_alliance-repair_case-aisha_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1025,19 +1025,19 @@
     {
       "id": "dp_alliance-repair_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Streng og sint] Jeg tror ikke denne terapien virker. Jeg kommer hit og sier de samme tingene om igjen, og kanskje vi bare kaster bort tiden begge to.",
-      "suggestion": "Jeg setter pris på at du sier det så direkte. Det høres frustrerende ut, og kanskje ydmykende, å jobbe så hardt uten å se nok endring. Jeg beklager at jeg ikke har hjulpet oss å gjøre framgangen tydelig. Vi kan se ærlig på hva som ikke fungerer, også om en annen tilnærming eller terapeut ville tjent deg bedre. Hva ville gjort denne samtalen verdt tiden din i dag, i stedet for bare en ny gjentakelse?"
+      "suggestion": "Jeg hører hvor frustrerende det er å fortsette å komme uten å se endringen du ønsker. Takk for at du sier det direkte. Vi trenger å se på hva som hjelper og hva som ikke gjør det, også om en annen tilnærming kunne passe bedre. Hvilken endring har du savnet mest?"
     },
     {
       "id": "dp_alliance-repair_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1049,7 +1049,7 @@
     {
       "id": "dp_alliance-repair_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1061,7 +1061,7 @@
     {
       "id": "dp_alliance-repair_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1073,7 +1073,7 @@
     {
       "id": "dp_alliance-repair_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1085,19 +1085,19 @@
     {
       "id": "dp_alliance-repair_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Såret, men skarp] Du tok tårene til kona mi mer alvorlig enn mine. Når jeg snakker skarpt, virker det som om du hører arroganse; når hun gråter, hører du smerte.",
-      "suggestion": "Du peker på en viktig svikt i lyttingen min. Hvis jeg hørte tårene hennes som smerte og skarpheten din bare som arroganse, overså jeg deg, og det beklager jeg. Hva trengte smerten din fra meg i det øyeblikket, så den ikke måtte komme pakket inn i skarphet?"
+      "suggestion": "Jeg hører at jeg har oversett smerten din når du snakket skarpt, mens jeg tok tårene hennes på alvor. Unnskyld. Smerten din fortjener også oppmerksomheten min. Hva trengte du at jeg hørte i det øyeblikket?"
     },
     {
       "id": "dp_alliance-repair_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1109,7 +1109,7 @@
     {
       "id": "dp_alliance-repair_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1121,7 +1121,7 @@
     {
       "id": "dp_alliance-repair_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1133,7 +1133,7 @@
     {
       "id": "dp_alliance-repair_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1145,7 +1145,7 @@
     {
       "id": "dp_alliance-repair_case-david_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1157,7 +1157,7 @@
     {
       "id": "dp_alliance-repair_case-david_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1171,19 +1171,19 @@
     {
       "id": "dp_alliance-repair_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Langsomt og flatt] Da jeg sa at jeg ikke følte noe, fortsatte du å spørre hva som lå under, og jeg stengte ned. Ingenting var allerede kanten; det føltes som om du ville at jeg skulle produsere noe annet.",
-      "suggestion": "Jeg fortsatte å presse etter at «ingenting» allerede var kanten din, og jeg beklager det. Jeg vil ikke at du skal måtte produsere følelse for meg. Hva ville vist deg at jeg respekterer kanten og samtidig blir her sammen med deg?"
+      "suggestion": "Du fortalte at du ikke kjente noe, og jeg fortsatte å be deg finne noe annet. Unnskyld. Vi kan slutte å lete etter det nå. Jeg vil ta det du faktisk opplever på alvor, også at du ikke kjenner noe."
     },
     {
       "id": "dp_alliance-repair_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1195,7 +1195,7 @@
     {
       "id": "dp_alliance-repair_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1207,7 +1207,7 @@
     {
       "id": "dp_alliance-repair_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1219,7 +1219,7 @@
     {
       "id": "dp_alliance-repair_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1231,19 +1231,19 @@
     {
       "id": "dp_alliance-repair_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
         "legacy_matrix_item"
       ],
       "text": "[Lav stemme] Da jeg nevnte volden hjemme, forandret ansiktet ditt seg. Kanskje jeg leste det feil, men det så ukomfortabelt ut, og da følte jeg at jeg måtte gjøre det mindre så du kunne tåle det.",
-      "suggestion": "Hvis ubehaget syntes i ansiktet mitt, ble du stående og gjøre volden mindre så jeg kunne tåle den, og det beklager jeg. Du skal ikke måtte beskytte meg mot historien din. Hva ville hjulpet deg å vite at jeg kan høre det uten å vende meg bort eller trenge at du håndterer meg?"
+      "suggestion": "Du så at ansiktet mitt endret seg og følte at du måtte få volden til å høres mindre alvorlig ut. Unnskyld. Jeg må ta ansvar for reaksjonene mine. Det er ikke din jobb. Hvordan påvirket det øyeblikket tilliten din til meg?"
     },
     {
       "id": "dp_alliance-repair_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1255,7 +1255,7 @@
     {
       "id": "dp_alliance-repair_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1267,7 +1267,7 @@
     {
       "id": "dp_alliance-repair_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1279,7 +1279,7 @@
     {
       "id": "dp_alliance-repair_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1291,7 +1291,7 @@
     {
       "id": "dp_alliance-repair_case-marcus_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",
@@ -1303,7 +1303,7 @@
     {
       "id": "dp_alliance-repair_case-marcus_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "repair_rupture",
         "own_impact",

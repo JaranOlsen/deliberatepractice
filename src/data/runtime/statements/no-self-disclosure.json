@@ -3,19 +3,19 @@
     {
       "id": "dp_self-disclosure_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
         "legacy_matrix_item"
       ],
       "text": "[På gråten] Når jeg sier at jeg fortsatt savner ham, tenker du egentlig at jeg høres latterlig ut?",
-      "suggestion": "Nei. Jeg hører ikke noe latterlig. Jeg hører sorg over en som betydde noe, og jeg blir berørt av hvor varsomt du prøver å overleve dette tapet. Legg merke til hva som skjer når jeg sier det."
+      "suggestion": "Jeg ser ikke sorgen din som latterlig. Det berører meg at du kan ta den med hit, også når du er flau. Hvordan er det å høre meg si det?"
     },
     {
       "id": "dp_self-disclosure_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -27,7 +27,7 @@
     {
       "id": "dp_self-disclosure_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -39,7 +39,7 @@
     {
       "id": "dp_self-disclosure_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -51,7 +51,7 @@
     {
       "id": "dp_self-disclosure_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -63,19 +63,19 @@
     {
       "id": "dp_self-disclosure_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
         "legacy_matrix_item"
       ],
       "text": "[Nølende] Tror du faktisk at jeg ikke fortsatt er alene om et år, eller prøver du bare å trøste meg?",
-      "suggestion": "Jeg kan ikke love hva et år vil bringe, og jeg vil ikke trøste deg med en sikkerhet jeg ikke har. Jeg kjenner ekte håp når jeg sitter med deg. La oss gi plass til begge deler: håpet mitt og frykten din for at du fortsatt kan være alene."
+      "suggestion": "Jeg kan ikke love hva et år vil bringe, og jeg vil ikke gi deg falsk sikkerhet. Jeg vil jobbe med ensomheten sammen med deg, fremfor å avfeie den. Hvordan er det å høre det?"
     },
     {
       "id": "dp_self-disclosure_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -87,7 +87,7 @@
     {
       "id": "dp_self-disclosure_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -99,7 +99,7 @@
     {
       "id": "dp_self-disclosure_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -111,7 +111,7 @@
     {
       "id": "dp_self-disclosure_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -123,7 +123,7 @@
     {
       "id": "dp_self-disclosure_case-sara_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -135,7 +135,7 @@
     {
       "id": "dp_self-disclosure_case-sara_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -149,19 +149,19 @@
     {
       "id": "dp_self-disclosure_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
         "legacy_matrix_item"
       ],
       "text": "[Utfordrende] Vær ærlig—høres jeg svak ut når jeg snakker om å være såret?",
-      "suggestion": "Jeg hører ikke svakhet i dette. Jeg hører innsats og mot, og jeg kjenner respekt for at du sier det. Jeg vil at den respekten får stå ved siden av delen som ventet forakt."
+      "suggestion": "Jeg ser ikke det å fortelle at du er såret som svakhet. Jeg respekterer at du er villig til å si det direkte. Hva skjer i deg når du hører det?"
     },
     {
       "id": "dp_self-disclosure_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -173,7 +173,7 @@
     {
       "id": "dp_self-disclosure_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -185,7 +185,7 @@
     {
       "id": "dp_self-disclosure_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -197,7 +197,7 @@
     {
       "id": "dp_self-disclosure_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -209,19 +209,19 @@
     {
       "id": "dp_self-disclosure_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
         "legacy_matrix_item"
       ],
       "text": "[Utfordrende] Er du sterk nok til å tåle meg når jeg er sint?",
-      "suggestion": "Jeg kjenner meg stødig nok til å være med sinnet ditt. Jeg er ikke her for å bevise styrke mot deg; jeg vil at vi forstår hva sinnet beskytter."
+      "suggestion": "Jeg er villig til å lytte til sinnet ditt, og jeg vil si tydelig fra hvis vi trenger en pause. Jeg ønsker ikke at dette blir en styrkeprøve. Hva ville hjelpe deg å kjenne at jeg tar deg på alvor?"
     },
     {
       "id": "dp_self-disclosure_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -233,7 +233,7 @@
     {
       "id": "dp_self-disclosure_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -245,7 +245,7 @@
     {
       "id": "dp_self-disclosure_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -257,7 +257,7 @@
     {
       "id": "dp_self-disclosure_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -269,7 +269,7 @@
     {
       "id": "dp_self-disclosure_case-michael_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -281,7 +281,7 @@
     {
       "id": "dp_self-disclosure_case-michael_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -295,19 +295,19 @@
     {
       "id": "dp_self-disclosure_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
         "legacy_matrix_item"
       ],
       "text": "[Stille] Når jeg blir stille, bekymrer jeg meg for at du sitter der og skulle ønske jeg skyndte meg.",
-      "suggestion": "Du kaster ikke bort tiden min. Jeg er fortsatt interessert i deg i stillheten, og jeg vil at vi sjekker frykten for at jeg allerede har forlatt deg der alene."
+      "suggestion": "Jeg er fortsatt interessert når du er stille. Du trenger ikke skynde deg for min skyld. Hva merker du når jeg sier det?"
     },
     {
       "id": "dp_self-disclosure_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -319,7 +319,7 @@
     {
       "id": "dp_self-disclosure_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -331,7 +331,7 @@
     {
       "id": "dp_self-disclosure_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -343,7 +343,7 @@
     {
       "id": "dp_self-disclosure_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -355,19 +355,19 @@
     {
       "id": "dp_self-disclosure_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
         "legacy_matrix_item"
       ],
       "text": "[Nølende] Blir du utålmodig når jeg blir stille og ikke finner ord?",
-      "suggestion": "Jeg blir ikke utålmodig. Jeg kjenner meg beskyttende overfor dette langsommere tempoet, og interessert i stillheten som noe meningsfullt heller enn en feil."
+      "suggestion": "Jeg merker et ønske om å hjelpe deg å finne ordene, men jeg vil ikke at det ønsket blir til press. Jeg velger å gi pausen litt plass. Hvordan er det for deg?"
     },
     {
       "id": "dp_self-disclosure_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -379,7 +379,7 @@
     {
       "id": "dp_self-disclosure_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -391,7 +391,7 @@
     {
       "id": "dp_self-disclosure_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -403,7 +403,7 @@
     {
       "id": "dp_self-disclosure_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -415,7 +415,7 @@
     {
       "id": "dp_self-disclosure_case-jason_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -427,7 +427,7 @@
     {
       "id": "dp_self-disclosure_case-jason_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -441,7 +441,7 @@
     {
       "id": "dp_self-disclosure_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -453,7 +453,7 @@
     {
       "id": "dp_self-disclosure_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -465,7 +465,7 @@
     {
       "id": "dp_self-disclosure_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -477,7 +477,7 @@
     {
       "id": "dp_self-disclosure_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -489,7 +489,7 @@
     {
       "id": "dp_self-disclosure_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -501,19 +501,19 @@
     {
       "id": "dp_self-disclosure_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
         "legacy_matrix_item"
       ],
       "text": "[Nølende] Kommer du til å presse meg inn i detaljer hvis jeg blir stille for lenge?",
-      "suggestion": "Jeg kommer ikke til å presse deg inn i detaljer. Jeg er mer opptatt av at du skal være trygg nok til å være til stede. Du kan korrigere meg hvis jeg går for fort."
+      "suggestion": "Jeg ønsker ikke å presse deg til å fortelle detaljer. Jeg vil forstå i et tempo du selv kan velge, og det er viktig at du kan si fra hvis jeg går for fort."
     },
     {
       "id": "dp_self-disclosure_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -525,7 +525,7 @@
     {
       "id": "dp_self-disclosure_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -537,7 +537,7 @@
     {
       "id": "dp_self-disclosure_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -549,7 +549,7 @@
     {
       "id": "dp_self-disclosure_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -561,7 +561,7 @@
     {
       "id": "dp_self-disclosure_case-laura_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -573,7 +573,7 @@
     {
       "id": "dp_self-disclosure_case-laura_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -587,19 +587,19 @@
     {
       "id": "dp_self-disclosure_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
         "legacy_matrix_item"
       ],
       "text": "[Utfordrende] Tror du jeg er en dårlig far fordi jeg mister det?",
-      "suggestion": "Når du sier det, kjenner jeg hvor mye sønnen din betyr for deg. Jeg ser ikke en dårlig far foran meg. Jeg vil at vi blir nær faren som bryr seg så mye."
+      "suggestion": "Jeg vil ikke redusere deg til en merkelapp som «dårlig far». Jeg er opptatt av å hjelpe deg å endre hvordan du reagerer, og jeg tar virkningen på barna dine på alvor. Hvordan er det å høre begge deler?"
     },
     {
       "id": "dp_self-disclosure_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -611,7 +611,7 @@
     {
       "id": "dp_self-disclosure_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -623,7 +623,7 @@
     {
       "id": "dp_self-disclosure_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -635,7 +635,7 @@
     {
       "id": "dp_self-disclosure_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -647,19 +647,19 @@
     {
       "id": "dp_self-disclosure_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
         "legacy_matrix_item"
       ],
       "text": "[Skamfull] Kan du respektere meg når du har sett hvor stygt temperamentet mitt kan bli?",
-      "suggestion": "Jeg respekterer deg. Jeg kjenner det tydeligst når du lar meg se både temperamentet og hva det koster deg. La respekten gjelde prisen også, ikke bare kontrollen."
+      "suggestion": "Jeg kan respektere deg og samtidig ta skaden sinnet ditt gjør på alvor. Det betyr noe for meg at du prøver å møte det. Hvordan er det å høre det uten å måtte skjule det som skjedde?"
     },
     {
       "id": "dp_self-disclosure_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -671,7 +671,7 @@
     {
       "id": "dp_self-disclosure_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -683,7 +683,7 @@
     {
       "id": "dp_self-disclosure_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -695,7 +695,7 @@
     {
       "id": "dp_self-disclosure_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -707,7 +707,7 @@
     {
       "id": "dp_self-disclosure_case-carlos_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -719,7 +719,7 @@
     {
       "id": "dp_self-disclosure_case-carlos_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -733,19 +733,19 @@
     {
       "id": "dp_self-disclosure_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
         "legacy_matrix_item"
       ],
       "text": "[Skyldpreget] Jeg føler meg egoistisk bare av å ta plass her i stedet for å hjelpe noen andre.",
-      "suggestion": "Jeg opplever deg ikke som egoistisk her. Jeg kjenner meg beskyttende overfor delen av deg som hele tiden beklager at den har behov. La den beskyttelsen være for deg, ikke enda et krav."
+      "suggestion": "Jeg vil at det skal være plass til behovene dine her. Jeg opplever ikke at det å lytte til deg tar noe fra andre. Hvordan er det å høre det?"
     },
     {
       "id": "dp_self-disclosure_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -757,7 +757,7 @@
     {
       "id": "dp_self-disclosure_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -769,7 +769,7 @@
     {
       "id": "dp_self-disclosure_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -781,7 +781,7 @@
     {
       "id": "dp_self-disclosure_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -793,19 +793,19 @@
     {
       "id": "dp_self-disclosure_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
         "legacy_matrix_item"
       ],
       "text": "[Splittet] Når jeg ber om hjelp, blir jeg en belastning for deg også?",
-      "suggestion": "Du blir ikke en belastning for meg når du ber om hjelp. Jeg kjenner bekymring for hvor alene du er med så mye ansvar, og den bekymringen er min å holde, ikke din å håndtere."
+      "suggestion": "Du blir ikke en belastning for meg når du ber om hjelp. Jeg er bekymret for hvor alene du er med så mye ansvar. Den bekymringen er mitt ansvar. Du trenger ikke ta vare på den."
     },
     {
       "id": "dp_self-disclosure_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -817,7 +817,7 @@
     {
       "id": "dp_self-disclosure_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -829,7 +829,7 @@
     {
       "id": "dp_self-disclosure_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -841,7 +841,7 @@
     {
       "id": "dp_self-disclosure_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -853,7 +853,7 @@
     {
       "id": "dp_self-disclosure_case-nina_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -865,7 +865,7 @@
     {
       "id": "dp_self-disclosure_case-nina_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -879,19 +879,19 @@
     {
       "id": "dp_self-disclosure_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
         "legacy_matrix_item"
       ],
       "text": "[Nølende] Bryr du deg egentlig om meg, eller får du betalt for det?",
-      "suggestion": "Jeg bryr meg om deg i denne terapirelasjonen. Den betalte rollen gir omsorgen grenser; den gjør den ikke falsk. Vi kan være med både lettelsen og mistilliten det kan vekke."
+      "suggestion": "Jeg bryr meg om deg i dette terapiforholdet. Betalingen er en del av den profesjonelle rollen min, og den rollen setter også grenser for hva jeg kan tilby. Hvordan er det å høre de tingene sammen?"
     },
     {
       "id": "dp_self-disclosure_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -903,7 +903,7 @@
     {
       "id": "dp_self-disclosure_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -915,7 +915,7 @@
     {
       "id": "dp_self-disclosure_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -927,7 +927,7 @@
     {
       "id": "dp_self-disclosure_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -939,19 +939,19 @@
     {
       "id": "dp_self-disclosure_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
         "legacy_matrix_item"
       ],
       "text": "[Skamfull] Når jeg blir så intens, synes du jeg er for mye?",
-      "suggestion": "Du kjennes ikke som for mye for meg. Jeg kjenner størrelsen på smerten, og det betyr noe for meg å hjelpe deg med å holde den, særlig der du forventer at jeg trekker meg unna."
+      "suggestion": "Jeg tar smerten din på alvor og vil forstå den uten at du må skjule hvor sterk den er. Jeg vil også være tydelig på grensene mine. Hva hører du i det?"
     },
     {
       "id": "dp_self-disclosure_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -963,7 +963,7 @@
     {
       "id": "dp_self-disclosure_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -975,7 +975,7 @@
     {
       "id": "dp_self-disclosure_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -987,7 +987,7 @@
     {
       "id": "dp_self-disclosure_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -999,7 +999,7 @@
     {
       "id": "dp_self-disclosure_case-aisha_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1011,7 +1011,7 @@
     {
       "id": "dp_self-disclosure_case-aisha_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1025,19 +1025,19 @@
     {
       "id": "dp_self-disclosure_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
         "legacy_matrix_item"
       ],
       "text": "[Kontrollert] Når jeg sier at du må overbevise meg, følger jeg med på om du blir defensiv.",
-      "suggestion": "Når du ber meg overbevise deg, merker jeg et drag mot å bevise meg selv. Jeg velger åpenhet i stedet for forsvar, fordi det å bevise meg selv ville bommet på det du tester i meg. La oss se på den testen sammen."
+      "suggestion": "Jeg merker en trang til å bevise hva jeg kan, og jeg vil ikke at den tar over samtalen. Jeg vil heller forstå hva du trenger å vite om meg. Hva ser du etter?"
     },
     {
       "id": "dp_self-disclosure_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1049,7 +1049,7 @@
     {
       "id": "dp_self-disclosure_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1061,7 +1061,7 @@
     {
       "id": "dp_self-disclosure_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1073,7 +1073,7 @@
     {
       "id": "dp_self-disclosure_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1085,19 +1085,19 @@
     {
       "id": "dp_self-disclosure_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
         "legacy_matrix_item"
       ],
       "text": "[Avvisende] Jeg vet at jeg er forsinket igjen. Jobben tok overhånd. Uansett, hvor skal vi begynne?",
-      "suggestion": "Dette er vanskelig å si direkte: når du kommer for sent gjentatte ganger og går raskt forbi det, kjennes arbeidet mellom oss skjøvet til side, og jeg føler meg litt avvist. La oss starte der før vi bestemmer hvor vi skal gå videre."
+      "suggestion": "Jeg er bekymret for at gjentatt forsinkelse gir oss mindre tid til arbeidet du kom for. Jeg vil at vi tar det opp, fremfor å gå forbi det. Hva gjør det vanskelig å komme til avtalt tid?"
     },
     {
       "id": "dp_self-disclosure_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1109,7 +1109,7 @@
     {
       "id": "dp_self-disclosure_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1121,7 +1121,7 @@
     {
       "id": "dp_self-disclosure_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1133,7 +1133,7 @@
     {
       "id": "dp_self-disclosure_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1145,7 +1145,7 @@
     {
       "id": "dp_self-disclosure_case-david_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1157,7 +1157,7 @@
     {
       "id": "dp_self-disclosure_case-david_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1171,19 +1171,19 @@
     {
       "id": "dp_self-disclosure_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
         "legacy_matrix_item"
       ],
       "text": "[Flatt] Når jeg spør om jeg er ødelagt, trenger jeg å vite hva du ser.",
-      "suggestion": "Jeg ser ikke noe ødelagt i deg. Jeg kjenner respekt for hvor hardt du har arbeidet for å overleve, og du trenger ikke svare på det før du er klar."
+      "suggestion": "Jeg ser deg ikke som ødelagt. Jeg respekterer hvor mye du har stått i, og vil forstå hvordan det er for deg å leve med det. Du trenger ikke være enig med meg."
     },
     {
       "id": "dp_self-disclosure_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1195,7 +1195,7 @@
     {
       "id": "dp_self-disclosure_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1207,7 +1207,7 @@
     {
       "id": "dp_self-disclosure_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1219,7 +1219,7 @@
     {
       "id": "dp_self-disclosure_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1231,19 +1231,19 @@
     {
       "id": "dp_self-disclosure_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
         "legacy_matrix_item"
       ],
       "text": "[Nølende] Tror du faktisk at jeg kan endre meg etter å ha vært sånn i årevis?",
-      "suggestion": "Jeg tror endring er mulig, også etter årevis med å leve på denne måten, og jeg kjenner tålmodighet med hvor sakte den kanskje må gå. La muligheten være beskjeden nok til at den ikke krever mer av deg."
+      "suggestion": "Jeg tror endring er mulig, men jeg kan ikke love hvordan den vil se ut for deg. Jeg er villig til å jobbe i ditt tempo og se ærlig på hva som hjelper. Hvordan høres det ut for deg?"
     },
     {
       "id": "dp_self-disclosure_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1255,7 +1255,7 @@
     {
       "id": "dp_self-disclosure_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1267,7 +1267,7 @@
     {
       "id": "dp_self-disclosure_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1279,7 +1279,7 @@
     {
       "id": "dp_self-disclosure_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1291,7 +1291,7 @@
     {
       "id": "dp_self-disclosure_case-marcus_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",
@@ -1303,7 +1303,7 @@
     {
       "id": "dp_self-disclosure_case-marcus_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "judicious_transparency",
         "return_to_client",

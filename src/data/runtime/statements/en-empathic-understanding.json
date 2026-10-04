@@ -3,7 +3,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -14,7 +14,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -25,7 +25,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -36,7 +36,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -47,7 +47,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -58,7 +58,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -69,7 +69,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -80,7 +80,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -91,7 +91,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -102,7 +102,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -113,7 +113,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "case_matrix_expansion"
@@ -124,7 +124,7 @@
     {
       "id": "dp_empathic-understanding_case-sara_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "case_matrix_expansion"
@@ -137,18 +137,18 @@
     {
       "id": "dp_empathic-understanding_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Firm] I spent the whole morning fixing other people's mistakes at work, and by lunch I was fed up with everyone needing me to clean things up.",
-      "suggestion": "You felt worn out and frustrated from carrying everyone else's mistakes."
+      "suggestion": "You were tired and fed up with having to put everyone else's mistakes right."
     },
     {
       "id": "dp_empathic-understanding_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -159,7 +159,7 @@
     {
       "id": "dp_empathic-understanding_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -170,7 +170,7 @@
     {
       "id": "dp_empathic-understanding_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -181,7 +181,7 @@
     {
       "id": "dp_empathic-understanding_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -192,18 +192,18 @@
     {
       "id": "dp_empathic-understanding_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Tense] I stayed up past midnight fixing slides because I could not stand the thought of someone catching me unsure in the morning.",
-      "suggestion": "You overprepared so no one would see you unsure."
+      "suggestion": "You were afraid they would see you unsure, so it felt hard to stop preparing."
     },
     {
       "id": "dp_empathic-understanding_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -214,7 +214,7 @@
     {
       "id": "dp_empathic-understanding_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -225,7 +225,7 @@
     {
       "id": "dp_empathic-understanding_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -236,7 +236,7 @@
     {
       "id": "dp_empathic-understanding_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -247,7 +247,7 @@
     {
       "id": "dp_empathic-understanding_case-michael_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "case_matrix_expansion"
@@ -258,7 +258,7 @@
     {
       "id": "dp_empathic-understanding_case-michael_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "case_matrix_expansion"
@@ -271,7 +271,7 @@
     {
       "id": "dp_empathic-understanding_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -282,7 +282,7 @@
     {
       "id": "dp_empathic-understanding_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -293,7 +293,7 @@
     {
       "id": "dp_empathic-understanding_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -304,7 +304,7 @@
     {
       "id": "dp_empathic-understanding_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -315,7 +315,7 @@
     {
       "id": "dp_empathic-understanding_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -326,18 +326,18 @@
     {
       "id": "dp_empathic-understanding_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Anxious] I eat lunch at my desk because walking into the break room feels like stepping onto a stage.",
-      "suggestion": "The break room feels exposed enough that your desk feels safer."
+      "suggestion": "Walking into the break room feels exposing, so you stay where you feel less on show."
     },
     {
       "id": "dp_empathic-understanding_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -348,7 +348,7 @@
     {
       "id": "dp_empathic-understanding_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -359,7 +359,7 @@
     {
       "id": "dp_empathic-understanding_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -370,7 +370,7 @@
     {
       "id": "dp_empathic-understanding_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -381,7 +381,7 @@
     {
       "id": "dp_empathic-understanding_case-jason_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "case_matrix_expansion"
@@ -392,7 +392,7 @@
     {
       "id": "dp_empathic-understanding_case-jason_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "case_matrix_expansion"
@@ -405,18 +405,18 @@
     {
       "id": "dp_empathic-understanding_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Slow and flat] I can get through a whole shift at the hospital, talk to patients, answer my kids' messages, and still feel like I am watching it all from far away.",
-      "suggestion": "You keep moving through work and family while feeling flat, as if the rest of you is far away."
+      "suggestion": "You manage work and family, but feel distant from what is happening, as though you are watching rather than taking part."
     },
     {
       "id": "dp_empathic-understanding_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -427,7 +427,7 @@
     {
       "id": "dp_empathic-understanding_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -438,7 +438,7 @@
     {
       "id": "dp_empathic-understanding_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -449,7 +449,7 @@
     {
       "id": "dp_empathic-understanding_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -460,18 +460,18 @@
     {
       "id": "dp_empathic-understanding_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Sad] A friend stopped inviting me over after I cancelled too many times. Part of me is relieved not to explain myself, but I also feel sad when I see her with other people.",
-      "suggestion": "Relief at not explaining yourself sits next to sadness that the invitations stopped."
+      "suggestion": "You are relieved not to have to explain yourself, and sad that she no longer invites you."
     },
     {
       "id": "dp_empathic-understanding_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -482,7 +482,7 @@
     {
       "id": "dp_empathic-understanding_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -493,7 +493,7 @@
     {
       "id": "dp_empathic-understanding_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -504,7 +504,7 @@
     {
       "id": "dp_empathic-understanding_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -515,7 +515,7 @@
     {
       "id": "dp_empathic-understanding_case-laura_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "case_matrix_expansion"
@@ -526,7 +526,7 @@
     {
       "id": "dp_empathic-understanding_case-laura_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "case_matrix_expansion"
@@ -539,7 +539,7 @@
     {
       "id": "dp_empathic-understanding_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -550,7 +550,7 @@
     {
       "id": "dp_empathic-understanding_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -561,7 +561,7 @@
     {
       "id": "dp_empathic-understanding_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -572,7 +572,7 @@
     {
       "id": "dp_empathic-understanding_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -583,7 +583,7 @@
     {
       "id": "dp_empathic-understanding_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -594,18 +594,18 @@
     {
       "id": "dp_empathic-understanding_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Tense] When things get calm after a fight, I feel nervous instead of relaxed. I start waiting for the next thing someone is going to say.",
-      "suggestion": "Calm after a fight does not feel calm; it leaves you nervous and waiting."
+      "suggestion": "Even when the fight is over, you feel tense, waiting for what someone will say next."
     },
     {
       "id": "dp_empathic-understanding_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -616,7 +616,7 @@
     {
       "id": "dp_empathic-understanding_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -627,7 +627,7 @@
     {
       "id": "dp_empathic-understanding_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -638,7 +638,7 @@
     {
       "id": "dp_empathic-understanding_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -649,7 +649,7 @@
     {
       "id": "dp_empathic-understanding_case-carlos_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "case_matrix_expansion"
@@ -660,7 +660,7 @@
     {
       "id": "dp_empathic-understanding_case-carlos_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "case_matrix_expansion"
@@ -673,18 +673,18 @@
     {
       "id": "dp_empathic-understanding_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Tired] Asking for help makes me feel guilty, even when I am exhausted. I start explaining why it is not really a big deal before anyone has even answered.",
-      "suggestion": "Asking for help brings guilt so quickly that you start shrinking the need before anyone answers."
+      "suggestion": "You feel guilty as soon as you ask for help, and start playing down how much you need it."
     },
     {
       "id": "dp_empathic-understanding_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -695,7 +695,7 @@
     {
       "id": "dp_empathic-understanding_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -706,7 +706,7 @@
     {
       "id": "dp_empathic-understanding_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -717,7 +717,7 @@
     {
       "id": "dp_empathic-understanding_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -728,7 +728,7 @@
     {
       "id": "dp_empathic-understanding_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -739,7 +739,7 @@
     {
       "id": "dp_empathic-understanding_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -750,7 +750,7 @@
     {
       "id": "dp_empathic-understanding_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -761,7 +761,7 @@
     {
       "id": "dp_empathic-understanding_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -772,7 +772,7 @@
     {
       "id": "dp_empathic-understanding_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -783,7 +783,7 @@
     {
       "id": "dp_empathic-understanding_case-nina_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "case_matrix_expansion"
@@ -794,7 +794,7 @@
     {
       "id": "dp_empathic-understanding_case-nina_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "case_matrix_expansion"
@@ -807,18 +807,18 @@
     {
       "id": "dp_empathic-understanding_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Panicked] If you look away while I am talking, even to check a note, I panic that you are losing interest. Then I start talking faster, adding details, anything to keep you with me.",
-      "suggestion": "When I look away, you feel me slipping away and start scrambling to keep me with you."
+      "suggestion": "When I look away, you panic that I am losing interest and try harder to keep my attention."
     },
     {
       "id": "dp_empathic-understanding_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -829,7 +829,7 @@
     {
       "id": "dp_empathic-understanding_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -840,7 +840,7 @@
     {
       "id": "dp_empathic-understanding_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -851,7 +851,7 @@
     {
       "id": "dp_empathic-understanding_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -862,7 +862,7 @@
     {
       "id": "dp_empathic-understanding_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -873,7 +873,7 @@
     {
       "id": "dp_empathic-understanding_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -884,7 +884,7 @@
     {
       "id": "dp_empathic-understanding_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -895,7 +895,7 @@
     {
       "id": "dp_empathic-understanding_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -906,7 +906,7 @@
     {
       "id": "dp_empathic-understanding_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -917,7 +917,7 @@
     {
       "id": "dp_empathic-understanding_case-aisha_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "case_matrix_expansion"
@@ -928,7 +928,7 @@
     {
       "id": "dp_empathic-understanding_case-aisha_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "case_matrix_expansion"
@@ -941,18 +941,18 @@
     {
       "id": "dp_empathic-understanding_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Controlled] When my wife calls me cold, I bristle because it sounds too close to true. Then I get angry at her for noticing the exact thing I am trying not to see.",
-      "suggestion": "Being called cold hits as too close to true, and anger rises at being seen there."
+      "suggestion": "Being called cold feels painfully close to the truth, and you get angry that she has noticed what you try not to see."
     },
     {
       "id": "dp_empathic-understanding_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -963,7 +963,7 @@
     {
       "id": "dp_empathic-understanding_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -974,7 +974,7 @@
     {
       "id": "dp_empathic-understanding_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -985,7 +985,7 @@
     {
       "id": "dp_empathic-understanding_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -996,18 +996,18 @@
     {
       "id": "dp_empathic-understanding_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Wounded but sharp] When my kids cry, I get impatient, and then I hate how hard I sound when I see them pull away.",
-      "suggestion": "Their crying brings out impatience, and then you hate the hard sound of yourself as they pull away."
+      "suggestion": "You get impatient with their tears, then hate how harsh you sound when they pull away."
     },
     {
       "id": "dp_empathic-understanding_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -1018,7 +1018,7 @@
     {
       "id": "dp_empathic-understanding_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -1029,7 +1029,7 @@
     {
       "id": "dp_empathic-understanding_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -1040,7 +1040,7 @@
     {
       "id": "dp_empathic-understanding_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -1051,7 +1051,7 @@
     {
       "id": "dp_empathic-understanding_case-david_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "case_matrix_expansion"
@@ -1062,7 +1062,7 @@
     {
       "id": "dp_empathic-understanding_case-david_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "case_matrix_expansion"
@@ -1075,18 +1075,18 @@
     {
       "id": "dp_empathic-understanding_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Slow and flat] Most days I complete the routine and feel almost nothing behind my face. People speak to me, and I answer after a delay, like the words have to travel too far.",
-      "suggestion": "You move through the routine with words coming from far away and almost nothing behind your face."
+      "suggestion": "You get through the day feeling numb, and even answering people feels slow and distant."
     },
     {
       "id": "dp_empathic-understanding_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -1097,7 +1097,7 @@
     {
       "id": "dp_empathic-understanding_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -1108,7 +1108,7 @@
     {
       "id": "dp_empathic-understanding_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -1119,7 +1119,7 @@
     {
       "id": "dp_empathic-understanding_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -1130,18 +1130,18 @@
     {
       "id": "dp_empathic-understanding_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
       ],
       "text": "[Quiet and guarded] When something good happens, it feels far away, like it belongs to someone else; I know what expression I am supposed to have.",
-      "suggestion": "Even good things feel far away, while you know the expression you are supposed to show."
+      "suggestion": "Good things happen, but you feel little connection to them, even when you know how you are expected to react."
     },
     {
       "id": "dp_empathic-understanding_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -1152,7 +1152,7 @@
     {
       "id": "dp_empathic-understanding_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -1163,7 +1163,7 @@
     {
       "id": "dp_empathic-understanding_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -1174,7 +1174,7 @@
     {
       "id": "dp_empathic-understanding_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "legacy_matrix_item"
@@ -1185,7 +1185,7 @@
     {
       "id": "dp_empathic-understanding_case-marcus_11",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "case_matrix_expansion"
@@ -1196,7 +1196,7 @@
     {
       "id": "dp_empathic-understanding_case-marcus_12",
       "track": "case_matrix",
-      "revision": "2026-10-04-v1",
+      "revision": "2026-10-04-v2",
       "criteriaTags": [
         "reflect_feeling",
         "case_matrix_expansion"
