@@ -54,6 +54,7 @@ import {createSkillFeedback} from './skillFeedbackUI.js';
 import {createPracticeGoalView, setPracticeGoalUser, practiceGoals} from './practiceGoalUI.js';
 
 import { summarizeRatings, createProgressRadar, focusProgressRadar, recentRatings } from "./practiceProgress.js";
+import {RADAR_SKILL_MAP, RADAR_REGION_LABELS, radarPoint, radarSeriesPoints} from './radarSkillMap.js';
 import {createProgressHistory, createProgressSuggestion} from './progressHistoryUI.js';
 import {createPracticeExit} from './practiceExitUI.js';
 import { createDialogManager } from "./dialogs.js";
@@ -1384,7 +1385,7 @@ function getChartSkillLabelLines(skillId) {
   const strings = getUIStrings();
   const shortNames = {
     en: {'empathic-refocusing':['Empathic','refocusing'],'consolidating-emotional-change':['Consolidating','change'],'closing-after-emotional-work':['Closing','emotional work'],'experiential-focusing':['Experiential','focusing']},
-    no: {'empathic-refocusing':['Empatisk','refokusering'],'consolidating-emotional-change':['Forankring','av endring'],'closing-after-emotional-work':['Avslutning','emosjonelt arbeid'],'experiential-focusing':['Opplevelses-','fokusering']}
+    no: {'empathic-refocusing':['Empatisk','refokusering'],'consolidating-emotional-change':['Forankring','av endring'],'closing-after-emotional-work':['Avslutning'],'experiential-focusing':['Opplevelses-','fokusering']}
   };
   if (shortNames[state.languageId]?.[skillId]) return shortNames[state.languageId][skillId];
   const configuredLines = normalizeChartLabelLines(strings.selfChartSkillLabels?.[skillId]);
@@ -1400,14 +1401,6 @@ function renderChartLabel(x, y, lines, fullName, anchor) {
     return `<tspan x="${x}" dy="${dy.toFixed(1)}">${escapeMarkup(line)}</tspan>`;
   }).join("");
   return `<text x="${x}" y="${y}" class="self-chart-label" style="text-anchor:${anchor}"><title>${escapeMarkup(fullName)}</title>${tspans}</text>`;
-}
-
-function polarPoint(cx, cy, radius, index, total) {
-  const angle = -Math.PI / 2 + (Math.PI * 2 * index) / total;
-  return {
-    x: cx + Math.cos(angle) * radius,
-    y: cy + Math.sin(angle) * radius
-  };
 }
 
 function pointsToAttribute(points) {
@@ -1521,33 +1514,44 @@ function renderSelfRatingsChart() {
   const unspecified = radar.series.find(s=>s.difficulty==='unspecified');
   if (unspecified) levelButton('unspecified', unspecified);
 
-  const size = 400, center = size / 2, maxRadius = 112, labelRadius = maxRadius + 14, axisCount = ratedSkills.length;
+  const size = 400, center = size / 2, maxRadius = 112, labelRadius = maxRadius + 8, axisCount = ratedSkills.length;
   const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
   svg.setAttribute('viewBox', `0 0 ${size} ${size}`); svg.setAttribute('role', 'img');
   svg.setAttribute('aria-label', strings.progressRadarAria);
   svg.setAttribute('aria-describedby', 'progress-radar-description');
-  const grid = [0.2,0.4,0.6,0.8,1].map(ratio => `<polygon points="${pointsToAttribute(ratedSkills.map((_entry,index)=>polarPoint(center,center,maxRadius*ratio,index,axisCount)))}" class="self-chart-grid-ring" />`).join('');
-  const axes = ratedSkills.map((_entry,index) => {
-    const point = polarPoint(center,center,maxRadius,index,axisCount);
-    return `<line x1="${center}" y1="${center}" x2="${point.x}" y2="${point.y}" class="self-chart-axis" />`;
+  const mappedSkills = RADAR_SKILL_MAP.filter(({skillId}) => ratedSkills.some(skill => skill.skillId === skillId));
+  const grid = [0.2,0.4,0.6,0.8,1].map(ratio => `<polygon points="${pointsToAttribute(RADAR_SKILL_MAP.map(({skillId})=>radarPoint(skillId,center,maxRadius*ratio)))}" class="self-chart-grid-ring" />`).join('');
+  const axes = mappedSkills.map(({skillId}) => {
+    const point = radarPoint(skillId,center,maxRadius);
+    return `<line data-radar-skill="${skillId}" x1="${center}" y1="${center}" x2="${point.x}" y2="${point.y}" class="self-chart-axis" />`;
   }).join('');
   const plots = visibleSeries.map(series => {
-    const points = series.values.map((entry,index) => entry.count ? polarPoint(center,center,maxRadius*entry.average/5,index,axisCount) : null);
+    const entries = radarSeriesPoints(ratedSkills,series.values,center,maxRadius);
+    const points = entries.map(entry => entry.point);
     const complete = points.every(Boolean);
     const shape = complete ? `<polygon points="${pointsToAttribute(points)}" class="self-chart-area" />`
       : points.map((point,index) => {
-        const next = points[(index+1)%axisCount];
+        const next = points[(index+1)%points.length];
         return point && next ? `<line x1="${point.x}" y1="${point.y}" x2="${next.x}" y2="${next.y}" class="self-chart-value-line" />` : '';
       }).join('');
-    const dots = points.map((point,index) => point ? `<circle cx="${point.x}" cy="${point.y}" r="3" class="self-chart-dot"><title>${escapeMarkup(`${getLocalizedSkillName(ratedSkills[index].skillId)} · ${difficultyName(series.difficulty)}: ${series.values[index].average.toFixed(1)}/5`)}</title></circle>` : '').join('');
+    const dots = entries.map(({point,skillId,value}) => point ? `<circle data-radar-skill="${skillId}" cx="${point.x}" cy="${point.y}" r="3" class="self-chart-dot"><title>${escapeMarkup(`${getLocalizedSkillName(skillId)} · ${difficultyName(series.difficulty)}: ${value.average.toFixed(1)}/5`)}</title></circle>` : '').join('');
     return `<g class="radar-series radar-series--${series.difficulty}" data-difficulty="${series.difficulty}">${shape}${dots}</g>`;
   }).join('');
-  const labels = ratedSkills.map((entry,index) => {
-    const point = polarPoint(center,center,labelRadius,index,axisCount);
-    return renderChartLabel(point.x.toFixed(1),point.y.toFixed(1),getChartSkillLabelLines(entry.skillId),getLocalizedSkillName(entry.skillId), Math.abs(point.x-center)<1 ? 'middle' : point.x>center ? 'start' : 'end');
+  const labels = mappedSkills.map(({skillId}) => {
+    const point = radarPoint(skillId,center,labelRadius);
+    return renderChartLabel(point.x.toFixed(1),point.y.toFixed(1),getChartSkillLabelLines(skillId),getLocalizedSkillName(skillId), Math.abs(point.x-center)<1 ? 'middle' : point.x>center ? 'start' : 'end');
   }).join('');
-  const chartDescription = visibleSeries.map(series => `${difficultyName(series.difficulty)}: ${series.values.map((value,index)=>`${getLocalizedSkillName(ratedSkills[index].skillId)} ${value.count ? value.average.toFixed(1)+'/5' : strings.progressUnrated}`).join('; ')}`).join('. ');
-  svg.innerHTML = `<desc id="progress-radar-description">${escapeMarkup(chartDescription)}</desc>${grid}${axes}${plots}<text x="${center+4}" y="${center-maxRadius+12}" class="self-chart-scale">5</text><text x="${center+4}" y="${center-maxRadius/5}" class="self-chart-scale">1</text>${labels}`;
+  const regionLabels = RADAR_REGION_LABELS[state.languageId] ?? RADAR_REGION_LABELS.en;
+  const corners = [[44,44,-45],[356,44,45],[44,356,45],[356,356,-45]];
+  const regions = regionLabels.map((label,index) => {
+    const [x,y,angle] = corners[index];
+    const lines = label.split(' · ').map((text,line) => `<tspan x="0" dy="${line ? 14 : -2}">${escapeMarkup(text)}</tspan>`).join('');
+    return `<text class="radar-region" transform="translate(${x} ${y}) rotate(${angle})">${lines}</text>`;
+  }).join('');
+  const chartDescription = regionLabels.join('; ') + '. ' + visibleSeries.map(series => `${difficultyName(series.difficulty)}: ${series.values.map((value,index)=>`${getLocalizedSkillName(ratedSkills[index].skillId)} ${value.count ? value.average.toFixed(1)+'/5' : strings.progressUnrated}`).join('; ')}`).join('. ');
+  svg.innerHTML = `<desc id="progress-radar-description">${escapeMarkup(chartDescription)}</desc>${grid}${axes}${plots}<text x="${center+4}" y="${center-maxRadius+12}" class="self-chart-scale">5</text><text x="${center+4}" y="${center-maxRadius/5}" class="self-chart-scale">1</text>${labels}${regions}`;
+  const radarMap = document.createElement('figure'); radarMap.className = 'radar-map';
+  radarMap.append(svg);
 
   const smallProfile = document.createElement('div'); smallProfile.className = 'radar-small-profile';
   if (axisCount < 3) {
@@ -1639,7 +1643,7 @@ function renderSelfRatingsChart() {
   explanation.className = "response-hint";
   explanation.textContent = strings.progressMethodDescription;
   methods.append(methodsTitle, explanation, difficultyList, matrix);
-  elements.selfChart.append(levels, axisCount >= 3 ? svg : smallProfile, legend, suggestion, renderProgressHistory(), methods);
+  elements.selfChart.append(levels, axisCount >= 3 ? radarMap : smallProfile, legend, suggestion, renderProgressHistory(), methods);
 }
 
 function startProgressPractice(skillId) {
@@ -3105,13 +3109,8 @@ function renderActiveStatement() {
   const currentEntry = getActiveStatement();
   state.currentStatement = currentEntry;
   elements.statementText.textContent = currentEntry?.text ?? strings.statementFallback;
-  const completedCount = getCompletedCountForActiveStatements();
   const counter = formatCounter(state.index + 1, statements.length);
-  elements.statementCounter.textContent = isTriadPractice() && state.roundStatementIds.length === GROUP_ROUND_SIZE
-    ? `${state.languageId === 'no' ? 'Sett' : 'Set'} ${currentGroupSet().number}/4 · ${counter}`
-    : completedCount > 0
-    ? `${counter} · ${completedCount} ${strings.completedShort ?? "done"}`
-    : counter;
+  elements.statementCounter.textContent = counter;
   if (elements.suggestionText) {
     elements.suggestionText.textContent = currentEntry?.suggestion ?? "";
   }

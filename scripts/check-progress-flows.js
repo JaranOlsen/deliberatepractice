@@ -151,12 +151,20 @@ async (page) => {
     assert(await page.locator('.self-chart-axis').count() === 3, 'Radar excludes every unrated skill');
     assert(await page.locator('.radar-series').count() === 3, 'Difficulty profiles share one radar');
     assert(await page.locator('.self-chart-dot').count() === 6 && await page.locator('.self-chart-missing').count() === 0, 'Missing levels create no zero-score points');
-    assert(await page.locator('.self-chart-area').count() === 1, 'Only a level with every axis rated can close its polygon');
+    assert(await page.locator('.self-chart-area').count() === 0, 'A sparse profile leaves unmeasured map regions open');
+    const stableAxes = await page.locator('.self-chart-axis').evaluateAll(els => Object.fromEntries(els.map(el => [el.dataset.radarSkill,[el.getAttribute('x2'),el.getAttribute('y2')]])));
+    data.self = [...data.self, {...row,skill_id: 'experiential-focusing',score:4}];
+    await click('self-chart-refresh');await waitLoaded();
+    const expandedAxes = await page.locator('.self-chart-axis').evaluateAll(els => Object.fromEntries(els.map(el => [el.dataset.radarSkill,[el.getAttribute('x2'),el.getAttribute('y2')]])));
+    assert(Object.entries(stableAxes).every(([id,position]) => JSON.stringify(position) === JSON.stringify(expandedAxes[id])), 'Adding a rated skill never moves existing map positions');
     await page.locator('[data-progress-level=hard]').click();
     assert(await page.locator('.radar-small-row').count() === 1, 'A level can be inspected alone');
     assert(await page.locator('.self-chart-axis').count() === 0, 'Focusing a level excludes skills without data at that level');
     assert(await page.evaluate(()=>document.activeElement.dataset.progressLevel==='hard'), 'Level selection retains keyboard focus');
     await page.locator('[data-progress-level=all]').click();
+    data.self = ['exploratory-questions','empathic-refocusing','empathic-understanding'].map(skill_id=>({...row,skill_id,score:4}));
+    await click('self-chart-refresh');await waitLoaded();
+    assert(await page.locator('.self-chart-value-line').count()===0,'Non-neighbouring rated skills never connect across unmeasured map positions');
     assert(await page.locator('#progress-source').isVisible() && await page.locator('#progress-source option').count() === 2, 'Self/observer choice is directly visible');
     assert(await page.locator('#progress-rubric, #progress-filters').count() === 0, 'Scale chooser and filter disclosure are removed');
     await page.locator('#progress-source').selectOption('observer');
@@ -168,11 +176,13 @@ async (page) => {
     await page.locator('#progress-source').selectOption('self');
     await waitLoaded();
     assert(await page.locator('.self-chart-area').count() === 1, 'Complete data must retain the filled radar profile');
+    assert(await page.locator('.radar-region').count()===4,'The map has four short corner labels');
     assert(await page.locator('.self-chart-label > title').count()===allSkills.length,'Every radar label retains its full skill name');
     assert(!(await page.locator('.self-chart-label tspan').allTextContents()).some(text=>/…|\.\.\./.test(text)),'Radar labels have deliberate short names without truncation');
-    const labels=await page.locator('.self-chart-label').evaluateAll(els=>els.map(e=>{const box=e.getBBox();return {x:box.x,y:box.y,width:box.width,height:box.height};}));
-    assert(labels.every(b=>b.x>=0&&b.y>=0&&b.x+b.width<=400&&b.y+b.height<=400),'Full radar labels stay within the chart');
-    assert(!labels.some((a,i)=>labels.some((b,j)=>j>i&&a.x<b.x+b.width&&a.x+a.width>b.x&&a.y<b.y+b.height&&a.y+a.height>b.y)),'Full radar labels do not overlap');
+    const labels=await page.locator('.self-chart-label').evaluateAll(els=>els.map(e=>{const box=e.getBBox();return {name:e.querySelector('title').textContent,x:box.x,y:box.y,width:box.width,height:box.height};}));
+    assert(labels.every(b=>b.x>=0&&b.y>=0&&b.x+b.width<=400&&b.y+b.height<=400),'Full radar labels stay within the chart: '+JSON.stringify(labels.filter(b=>b.x<0||b.y<0||b.x+b.width>400||b.y+b.height>400)));
+    const overlaps=labels.flatMap((a,i)=>labels.filter((b,j)=>j>i&&a.x<b.x+b.width&&a.x+a.width>b.x&&a.y<b.y+b.height&&a.y+a.height>b.y).map(b=>[a.name,b.name]));
+    assert(!overlaps.length,'Full radar labels do not overlap: '+JSON.stringify(overlaps));
     for(const width of [320,390]){
       await page.setViewportSize({width,height:844});
       for(const source of ['observer','self']){

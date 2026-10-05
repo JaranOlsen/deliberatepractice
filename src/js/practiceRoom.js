@@ -289,7 +289,8 @@ export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, 
         if (self) prep.append(node('p', s.awarenessCue[role], 'room-preparation-cue'));
         body.append(prep);
       } else if (active) {
-        body.append(node('p', `${s.set} ${set.number}/${set.total} · ${s.item} ${next.item_index + 1}/${next.statement_ids.length}`, 'triad-progress'));
+        const counter = ui.counterPattern.replace('{current}',String(next.item_index + 1)).replace('{total}',String(next.statement_ids.length));
+        body.append(node('p', role === 'client' ? counter : `${s.set} ${set.number}/${set.total} · ${s.item} ${next.item_index + 1}/${next.statement_ids.length}`, 'triad-progress'));
         const statement = currentScene;
         if(mastery)body.append(node('p',statement.bridge,'mastery-scene-bridge'));
         if (role === 'client' || (mastery && ['observer','passive'].includes(role))) {

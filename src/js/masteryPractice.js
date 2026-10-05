@@ -156,11 +156,13 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
    },true,'mastery-start'));
   }else if(session.phase==='practicing') {
    const scene=exercise.scenes[session.index],skill=localizeSkill(language,scene.skillId);
-   body.append(node('p',`${Math.floor(session.index/3)+1}/4 · ${session.index+1}/12`,'triad-progress'),node('h3',skill.name,'room-practice-heading'),node('p',scene.bridge,'mastery-scene-bridge'));
-   if(!shared()||role!=='client')body.append(node('aside',scene.prompt,'individual-guide'));
+   const counter=getStrings(language).counterPattern.replace('{current}',String(session.index+1)).replace('{total}','12');
+   body.append(node('p',shared()&&role==='client'?counter:`${Math.floor(session.index/3)+1}/4 · ${session.index+1}/12`,'triad-progress'),node('h3',skill.name,'room-practice-heading'),node('p',scene.bridge,'mastery-scene-bridge'));
+   if(shared()&&role!=='client')body.append(node('aside',scene.prompt,'individual-guide'));
    if(!shared()||role!=='therapist') {
     const card=node('section','', 'statement-panel');card.append(node('blockquote',scene.text,'statement-text room-statement'));body.append(card);
    }
+   if(!shared())body.append(node('aside',scene.prompt,'individual-guide'));
    if(shared()){
     const key=`${session.pair}:${role}`;
     body.append(createGroupRoleGuide({language,role,pair:session.pair,discussion:true,workflow:true,
