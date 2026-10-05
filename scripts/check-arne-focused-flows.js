@@ -78,7 +78,7 @@ async page => {
     await p.reload();await click('resume-button');await p.locator('#next-statement').waitFor();assert((await session()).difficulty===level,'Resume retains level despite a different preference');
     const rate=async()=>{await p.locator('[data-rating-score="4"]').click();if(mode==='triad'){assert(await p.locator('#rating-submit').isHidden(),'Shared ratings have no account save action');assert(await p.locator('#rating-goal-view').count()===0,'Shared ratings have no account reminders');}else{await click('rating-submit');await p.waitForFunction(()=>['Rating saved.','Vurderingen er lagret.'].includes(document.querySelector('#rating-status').textContent));}await click('rating-skip');};
     if(mode==='triad'){
-     for(let set=1;set<=4;set++){for(let i=0;i<3;i++)await click('next-statement');await click('triad-complete-round');await rate();}
+     for(let set=1;set<=4;set++){for(let i=0;i<3;i++)await click('next-statement');await click('triad-complete-round');assert(await p.locator('#rating-overlay').isHidden(),'Shared checkpoint has no numerical scoring');}
      rounds.push({round:start.roundId,level,mode,expected:0});
     }else{
      for(let i=0;i<12;i++)await click('next-statement');await rate();rounds.push({round:start.roundId,level,mode,expected:1});

@@ -132,7 +132,7 @@ async (page) => {
     const fullRound=room.round_id, order=[...room.statement_ids], roles=[room.therapist_id,room.client_id,room.observer_id];
     assert(room.round_size===12&&new Set(order).size===12,'Preparation selects twelve unique items');
     if(variable)assert(room.difficulty===level&&order.every(id=>id.includes(`_${level}_`)),'The host selects twelve items at one selected level');
-    assert((await o.locator('#room-content').textContent()).includes('4 sets of 3'),'Preparation explains the fixed-role round');
+    assert(!(await o.locator('#room-content').textContent()).includes('4 sets of 3'),'Preparation avoids redundant round-plan narration');
     stage='private feedback targets';
     assert(await t.locator('#room-next-attempt').count()===0,'No reminder editor in preparation');
     assert(await c.locator('.skill-feedback-guide').count()===0,'Client preparation does not include scoring guidance');
@@ -144,16 +144,17 @@ async (page) => {
     await o.locator('#room-feedback-reference > summary').click();
     assert((await o.locator('#room-feedback-reference').textContent()).includes('3 · Adequate in parts')&&(await o.locator('#room-feedback-reference').textContent()).includes('5 · Skillfully demonstrated'),'Observer has skill-specific anchors in preparation');
     await o.locator('#room-feedback-reference > summary').click();
+    assert(await c.locator('.room-client-preparation .case-background-details').evaluate(e=>!e.open && e.previousElementSibling.classList.contains('case-voice-section')), 'Client opening voice comes before optional role background');
     stage='safe Home navigation';
-    await c.locator('#room-back').click();
+    await c.locator('#join-shared-room').click();
     assert(await c.evaluate(()=>document.activeElement.id)==='practice-exit-keep','Room Home defaults to keeping practice');
     await c.keyboard.press('Escape');
     assert(await c.locator('#room-panel').isVisible(),'Escape keeps the client in the room');
-    await c.locator('#room-back').click();await c.locator('#practice-exit-pause').click();
+    await c.locator('#join-shared-room').click();await c.locator('#practice-exit-pause').click();
     await c.waitForFunction(()=>document.body.dataset.section==='home');
     await c.locator('#group-resume').click();await c.locator('#room-panel').waitFor();await sync();
     assert(room.round_id===fullRound&&room.phase==='lobby','Returning Home preserves the room and material');
-    await o.locator('#room-back').click();await o.locator('#practice-exit-end').click();
+    await o.locator('#join-shared-room').click();await o.locator('#practice-exit-end').click();
     await o.locator('#room-exit-overlay').waitFor();
     await o.locator('#room-exit-cancel').click();
     assert(room.phase==='lobby','Cancelling end-room confirmation leaves the room open');
@@ -177,6 +178,10 @@ async (page) => {
         assert(await t.locator('#room-next').isHidden()&&await c.locator('#room-next').isHidden()&&await watcher.locator('#room-next').isHidden(),'Only observer advances');
         if(set===0&&i===0) {
           for(const p of pages)assert(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Role screens fit 320px');
+          for(const p of pages)assert(await p.locator('#room-your-part .room-workflow').count()===1 && await p.locator('#room-workflow-guide').count()===0, 'Each role has one combined guide');
+          await t.locator('#room-example-reveal').click();assert(await t.locator('#room-example-response').isVisible(),'Therapist can reveal the separate example');
+          await t.locator('#room-example-retry').click();assert(await t.locator('#room-example-response').isHidden(),'Retry hides the example');
+          assert(await t.evaluate(()=>document.activeElement.classList.contains('individual-guide')),'Retry returns focus to the skill prompt');
           await largeTextFits('Active item for every role');
           await o.screenshot({path:'output/playwright/four-sets-observer-320.png',fullPage:true});
           await c.screenshot({path:'output/playwright/four-sets-client-320.png',fullPage:true});
@@ -205,9 +210,11 @@ async (page) => {
       assert(await o.locator('#room-feedback-reference').count()===1,'Active observer retains guidance at the checkpoint');
       for(const p of [t,c,watcher])assert(await p.locator('#room-content .skill-feedback-guide').count()===0,'Only the active observer has rating guidance at a larger-group checkpoint');
       assert(room.phase==='round_debrief'&&room.item_index===set*3+2,'Each third item pauses for rating: '+JSON.stringify({set,phase:room.phase,index:room.item_index,completed:room.completed_ids.length}));
-      assert((await o.locator('#room-content').textContent()).includes(`${set===1?2:3} practiced · ${set===1?1:0} passed`),'Debrief counts only its set');
+      assert((await o.locator('#room-content').textContent()).includes(`${set===1?2:3} practiced${set===1?' · 1 passed':''}`),'Debrief counts only its set');
+      if(set!==1)assert(!(await o.locator('#room-content').textContent()).includes('0 passed'),'Zero passes add no checkpoint clutter');
       assert(await o.locator('#room-change-role-form').isHidden(),'Roles cannot change at rating checkpoints');
       await o.locator('#room-score').selectOption('4');await ready(o,'room-save');await click(o,'room-save');await o.waitForFunction(()=>document.querySelector('#room-save').hidden);await sync();
+      for(const p of [t,c,watcher])assert(await p.locator('#room-rating-wait').isHidden(),'Non-rater waiting hint disappears after saving');
       const rows=(await ratings()).filter(r=>r.therapist_user_id===users.t&&!existingRatings.has(r.id));
       assert(rows.every(r=>r.parent_round_id===fullRound&&r.set_number>=1&&r.set_number<=set+1),'Separate-device checkpoints persist their parent round and set');
       assert(rows.length===set+1,'Every set creates one distinct rating');
@@ -269,7 +276,7 @@ async (page) => {
       pages.splice(pages.indexOf(p),1);await sync();
     }
     assert(room.member_ids.length===2&&room.therapist_id===users.o&&room.client_id&&!room.observer_id,'Two-person room retains exactly therapist and client');
-    assert((await o.locator('.room-preparation').textContent()).includes('Start when you’re both ready'),'Preparation updates when a larger group becomes a pair');
+    assert(await o.locator('#room-seats > li').count()===2 && (await o.locator('.room-preparation').textContent()).includes('Notice your reaction'),'Pair preparation updates the roles and preserves the therapist privacy cue');
     assert(await o.locator('#room-ready').isHidden(),'Pair therapist starts instead of confirming readiness twice');
     assert(await o.locator('#room-content .skill-feedback-guide').count()===0,'Pair preparation has no scoring reference');
     await confirmReadiness();

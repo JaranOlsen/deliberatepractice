@@ -139,10 +139,10 @@ async (page) => {
 
   await setup('en', 'empathic-understanding', 'triad');
   assert(!(await visible('toggle-suggestion')), 'Shared groups use the inline therapist retry example');
-  assert(await page.locator('#shared-workflow .room-workflow li').count() === 6, 'Shared groups use the room six-step workflow');
-  assert((await page.locator('#shared-workflow li').first().textContent()).includes('Client reads'), 'The client opens the shared workflow');
-  assert((await page.locator('#shared-workflow li').last().textContent()).includes('After every 3 items'), 'Rating follows three shared items');
-  assert(await page.locator('#shared-group-guidance .room-role-guide').count() === 3, 'A shared device offers all three roles');
+  assert(await page.locator('#shared-practice-guide .room-workflow li').count() === 6, 'Shared groups use the room six-step workflow');
+  assert((await page.locator('#shared-practice-guide li').first().textContent()).includes('Client reads'), 'The client opens the shared workflow');
+  assert((await page.locator('#shared-practice-guide li').last().textContent()).includes('After every 3 items'), 'Reflection follows three shared items');
+  assert(await page.locator('#shared-practice-guide [data-role]').count() === 3 && await page.locator('#shared-group-guidance .room-role-guide').count() === 1, 'One shared guide offers all three roles');
   for (const width of [320,390,600]) {
     await page.setViewportSize({width,height:844});
     await page.locator('#triad-controls').scrollIntoViewIfNeeded();
@@ -160,31 +160,26 @@ async (page) => {
   await page.evaluate(()=>{const round=JSON.parse(localStorage.getItem('dp_practice_session_v1'));round.triadPhase='client_feedback';localStorage.setItem('dp_practice_session_v1',JSON.stringify(round));});
   await page.reload(); await click('resume-button'); await page.locator('#practice-area').waitFor();
   assert(JSON.stringify((await session()).roundStatementIds) === JSON.stringify(firstRound.roundStatementIds), 'Sample order survives reload from an old phase');
-  await page.locator('#shared-your-part-therapist > summary').click();
+  await page.locator('#shared-practice-guide > summary').click();
   await click('shared-example-reveal');
   assert(await visible('shared-example-response'), 'An optional therapist example is available for retry');
   await click('next-statement');
   assert((await session()).completedStatementIds.length === 1 && (await session()).index === 1, 'One Finish action resolves the whole item');
   assert(!(await visible('shared-example-response')), 'The next shared item hides the previous example');
-  assert(await page.locator('#shared-your-part-therapist').evaluate(e=>e.open), 'Shared role card expansion persists between items');
+  assert(await page.locator('#shared-practice-guide').evaluate(e=>e.open), 'Shared role card expansion persists between items');
   for (let i = 0; i < 2; i++) { await click('triad-pass-item'); await click('triad-pass-confirm'); }
   assert(await visible('triad-debrief'), 'Resolved group round must reach debrief');
   assert((await text('triad-debrief-counts')).includes('1 practiced · 2 passed'), 'Passes must be separated from completion');
   await click('triad-complete-round');
-  assert((await session()).roundId === firstRound.roundId, 'A rating checkpoint retains the complete group round');
-  await page.locator('[data-rating-score="3"]').click();
-  assert(await page.locator('#rating-submit').isHidden() && await page.locator('#rating-goal-view').count()===0,'Signed-out shared feedback needs no login or account save');
-  assert((await text('rating-status'))==='', 'Shared feedback has no login warning');
-  await click('rating-skip');
+  assert((await session()).roundId === firstRound.roundId, 'Reflection checkpoint retains the complete group round');
+  assert(await page.locator('#rating-overlay').isHidden(), 'Shared reflection has no unsaved numeric scoring');
   for (let set=1;set<4;set++) {
     assert((await session()).index === set*3, 'Next set continues the same order');
     for (let i=0;i<3;i++) await click('next-statement');
-    assert((await text('triad-debrief-counts')).includes('3 practiced · 0 passed'), 'Each debrief counts only its current set');
+    assert((await text('triad-debrief-counts')).includes('3 practiced') && !(await text('triad-debrief-counts')).includes('passed'), 'Each debrief counts only its current set without zero-pass clutter');
     await click('triad-complete-round');
-    if (set<3) await click('rating-skip');
   }
   await page.screenshot({ path: 'output/playwright/release-completion-mobile.png', fullPage: true });
-  await click('rating-skip');
   assert(await session() === null, 'The final checkpoint clears the complete group round');
   assert(await visible('skill-selection'), 'A complete group round returns to skill selection');
   await page.locator('button[data-skill-id="empathic-understanding"]').click();
@@ -203,9 +198,9 @@ async (page) => {
   await click('start-practice');
   for (let set=0;set<4;set++) {
     for (let i=0;i<3;i++) {await click('triad-pass-item');await click('triad-pass-confirm');}
+    assert((await text('triad-debrief-counts')).includes('0 practiced · 3 passed'), 'All-pass sets must not claim practice');
+    assert(await page.locator('#shared-checkpoint-feedback .skill-feedback-guide').count()===0, 'All-pass checkpoint offers no assessment of unpracticed skills');
     await click('triad-complete-round');
-    assert((await text('round-outcome')).includes('0 practiced · 3 passed'), 'All-pass sets must not claim practice');
-    await click('rating-skip');
   }
   console.log('PASS shared workflow, bounded controls, legacy order restoration, reveal, pass, debrief, rotation, all-pass finish');
 
@@ -216,7 +211,7 @@ async (page) => {
   assert(sharedGuide.includes('gå så ut av rollen'), 'Reader feedback happens out of role');
   assert(sharedGuide.includes('uten tolkning eller press om å dele'), 'Coaching respects boundaries');
   assert(sharedGuide.toLowerCase().includes('del bare det du selv velger'), 'Retry respects disclosure choice');
-  for (const role of ['client','therapist','observer']) await page.locator(`#shared-your-part-${role} > summary`).click();
+  if(!await page.locator('#shared-practice-guide').evaluate(e=>e.open))await page.locator('#shared-practice-guide > summary').click();
   await page.setViewportSize({width:320,height:740});
   await page.locator('#triad-controls').scrollIntoViewIfNeeded();
   const sharedFrame = await page.locator('#triad-protocol').boundingBox();
@@ -300,24 +295,20 @@ async (page) => {
   await click('view-case-brief');
   await click('back-to-cases');
   await click('finish-completed');
-  await click('triad-complete-round');
-  await page.locator('[data-rating-score="3"]').click();
-  assert(await page.locator('#rating-submit').isHidden(),'Shared feedback has no save action');
+  assert(await page.locator('#rating-overlay').isHidden(),'Shared feedback has no numerical score or account save');
   assert(saves.length===2,'Shared feedback never saves an account rating');
-  await click('rating-skip');
+  await click('triad-complete-round');
   await setup('en', 'empathic-understanding', 'triad');
   const completeGroup = await session(), ratingStart = saves.length;
   for (let set=0;set<4;set++) {
     for(let i=0;i<3;i++) await click('next-statement');
-    await click('triad-complete-round');
-    await page.locator('[data-rating-score="4"]').click();
-    assert(await page.locator('#rating-submit').isHidden(),'Every shared checkpoint has no save');
+    assert(await page.locator('#rating-overlay').isHidden(),'Every shared checkpoint is discussion only');
     assert((await session()).roundId===completeGroup.roundId,'Checkpoint retains the full round');
     if(set===1) {
-      await page.reload();await click('resume-button');await click('triad-complete-round');
-      assert(await page.locator('#rating-submit').isHidden(), 'Reload cannot enable account saving');
+      await page.reload();await click('resume-button');await page.locator('#triad-debrief').waitFor();
+      assert(await page.locator('#rating-overlay').isHidden() && await page.locator('#triad-debrief').isVisible(), 'Reload retains reflection without enabling account saving');
     }
-    await click('rating-skip');
+    await click('triad-complete-round');
   }
   const groupSaves=saves.slice(ratingStart);
   assert(groupSaves.length===0,'Four shared sets never create account ratings');
@@ -334,11 +325,11 @@ async (page) => {
   assert((await session()).roundTarget.target_user_id === 'test-partner', 'Retiring pairing must not silently retarget an unfinished legacy round');
   await click('next-statement');
   for (let i=0;i<2;i++) { await click('triad-pass-item');await click('triad-pass-confirm'); }
-  await click('triad-complete-round');await page.locator('[data-rating-score="2"]').click();
+  assert(await page.locator('#rating-overlay').isHidden(), 'Legacy shared checkpoints also omit unsaved scores');
   assert(await page.locator('#rating-submit').isHidden(),'Old partner-target shared sessions also cannot save');
   await page.locator('#rating-submit').evaluate(button=>button.dispatchEvent(new Event('click',{bubbles:true})));
   assert(saves.length===2,'Legacy shared target does not create observer ratings even if its old save control is triggered');
-  await click('rating-skip');
+  await click('triad-complete-round');
   console.log('PASS self ratings, retired pairing, stale preference isolation, legacy shared saving disabled and individual save retry');
   await page.reload();
   await click('repeat-last-setup');

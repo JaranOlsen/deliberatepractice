@@ -1,3 +1,4 @@
+import {setHeaderControl} from './headerUI.js';
 import {createMasteryPractice, supportsMastery} from "./masteryPractice.js";
 import {preferredCaseLevel, rememberCaseLevel, createLevelChoice, levelLabel} from './practiceLevels.js';
 import {EXERCISE_CATALOG} from "./masteryContent.js";
@@ -47,7 +48,7 @@ import {
   sampleTriadStatements
 } from "./triadProtocol.js";
 
-import {getGroupPracticeCopy, createGroupWorkflow, createGroupRoleGuide} from "./groupPracticeUI.js";
+import {getGroupPracticeCopy, createSharedPracticeGuide, createPracticeExample} from "./groupPracticeUI.js";
 import {GROUP_ROUND_SIZE, groupSetProgress} from './groupRound.js';
 import {createSkillFeedback} from './skillFeedbackUI.js';
 import {createPracticeGoalView, setPracticeGoalUser, practiceGoals} from './practiceGoalUI.js';
@@ -76,7 +77,7 @@ function renderPracticeLearning() {
   }
   for (const [id, visible, audience] of [
     ['local-feedback-reference', !shared, 'self'],
-    ['rating-feedback-reference', getRatingStatementIds().length > 0, shared ? 'observer' : getActiveRatingSource()]
+    ['rating-feedback-reference', getRatingStatementIds().length > 0, shared ? state.sharedPair ? 'self' : 'observer' : getActiveRatingSource()]
   ]) {
     const host = document.getElementById(id), key = `${languageId}:${skillId}:${visible}:${audience}`;
     if (host.dataset.skill === key) continue;
@@ -160,20 +161,18 @@ function renderGroupEntry() {
   elements.practiceModeIndividual.textContent = no ? 'Individuelt' : 'Individual';
   elements.practiceModeIndividualDescription.textContent = no ? 'Øv i ditt eget tempo.' : 'Practice at your own pace.';
   elements.practiceModeTriad.textContent = no ? 'Gruppe' : 'Group';
-  elements.practiceModeTriadDescription.textContent = no ? 'To eller flere, på hver deres enhet.' : 'Two or more, on your own devices.';
-  document.getElementById('group-entry-note').textContent = roomId ? (no ? 'Gå tilbake til rommet for å fortsette.' : 'Return to your room to continue.') : !group ? (state.practiceMode === PRACTICE_MODES.TRIAD ? (no ? 'Velg roller, ferdighet og kasus. Behold rollene i tolv utsagn på én enhet.' : 'Choose roles, skill and case. Keep roles for twelve items on one device.') : (no ? 'Velg en ferdighet og et kasus.' : 'Choose a skill and case.')) : no ? 'Inviter gruppen og velg hva dere vil øve på.' : 'Invite your group, then choose what to practice.';
+  elements.practiceModeTriadDescription.textContent = no ? 'To eller flere.' : 'Two or more.';
   document.getElementById('group-create').textContent = no ? 'Opprett rom' : 'Create room';
   document.getElementById('group-join').textContent = no ? 'Bli med med kode' : 'Join with a code';
   document.getElementById('group-resume').textContent = no ? 'Tilbake til rommet' : 'Return to room';
   document.getElementById('group-resume').hidden = !roomId;
   document.getElementById('group-selection-context').hidden = !roomSelection || section === 'room';
-  document.getElementById('group-selection-note').textContent = no ? 'Du velger hva gruppen skal øve på.' : 'You’re choosing practice for your group.';
+  document.getElementById('group-selection-note').textContent = no ? 'For rommet ditt' : 'For your room';
   document.getElementById('group-selection-return').textContent = no ? 'Tilbake til rommet' : 'Return to room';
   const strings = getUIStrings();
   document.getElementById('home-title').textContent = strings.homeTitle;
   document.getElementById('home-library').textContent = strings.homeLibrary;
   document.getElementById('home-library').className = group ? 'ghost-button' : 'primary-button';
-  document.getElementById('home-progress').textContent = strings.selfChartTitle;
   const languageButton = document.getElementById('home-language');
   languageButton.textContent = state.languageId ? LANGUAGE_METADATA[state.languageId].label : strings.homeLanguage;
   languageButton.setAttribute('aria-label', strings.homeChangeLanguage);
@@ -201,10 +200,8 @@ const BUILD_REF = typeof __BUILD_REF__ === "string" ? __BUILD_REF__ : "";
 
 const elements = {
   appTitle: document.getElementById("app-title"),
-  appTagline: document.getElementById("app-tagline"),
   accountButton: document.getElementById("account-button"),
   languagePanelTitle: document.getElementById("language-panel-title"),
-  languagePanelDescription: document.getElementById("language-panel-description"),
   resumeCard: document.getElementById("resume-card"),
   resumeTitle: document.getElementById("resume-title"),
   resumeDetails: document.getElementById("resume-details"),
@@ -212,22 +209,15 @@ const elements = {
   resumeClear: document.getElementById("resume-clear"),
   languageList: document.getElementById("language-list"),
   skillPanelTitle: document.getElementById("skill-panel-title"),
-  skillPanelDescription: document.getElementById("skill-panel-description"),
   skillList: document.getElementById("skill-list"),
   casePanelTitle: document.getElementById("case-panel-title"),
-  casePanelDescription: document.getElementById("case-panel-description"),
   caseList: document.getElementById("case-list"),
   caseSkillSummaryCard: document.getElementById("case-skill-summary-card"),
   caseSkillSummaryEyebrow: document.getElementById("case-skill-summary-eyebrow"),
   caseSkillSummaryName: document.getElementById("case-skill-summary-name"),
   caseSkillSummaryText: document.getElementById("case-skill-summary-text"),
-  caseSkillSummaryPracticeFocusLabel: document.getElementById("case-skill-summary-practice-focus-label"),
-  caseSkillSummaryPracticeFocus: document.getElementById("case-skill-summary-practice-focus"),
-  caseSkillSummaryCommonMissLabel: document.getElementById("case-skill-summary-common-miss-label"),
-  caseSkillSummaryCommonMiss: document.getElementById("case-skill-summary-common-miss"),
   openSkillGuideButton: document.getElementById("open-skill-guide"),
   skillGuidePanelTitle: document.getElementById("skill-guide-panel-title"),
-  skillGuideDescription: document.getElementById("skill-guide-description"),
   skillGuideBackButton: document.getElementById("back-to-cases-from-guide"),
   practiceSkill: document.getElementById("practice-skill"),
   caseName: document.getElementById("case-name"),
@@ -268,8 +258,6 @@ const elements = {
   practiceModeTriad: document.getElementById("practice-mode-triad"),
   practiceModeTriadDescription: document.getElementById("practice-mode-triad-description"),
   triadOrientation: document.getElementById("triad-orientation"),
-  triadOrientationTitle: document.getElementById("triad-orientation-title"),
-  triadOrientationText: document.getElementById("triad-orientation-text"),
   statementCaseName: document.getElementById("statement-case-name"),
   caseBriefScreen: document.getElementById("case-brief-screen"),
   statementWorkspace: document.getElementById("statement-workspace"),
@@ -354,7 +342,6 @@ const elements = {
   accountOverlay: document.getElementById("account-overlay"),
   accountModal: document.getElementById("account-modal"),
   closeAccountButton: document.getElementById("close-account"),
-  accountEyebrow: document.getElementById("account-eyebrow"),
   accountHeading: document.getElementById("account-heading"),
   accessSection: document.getElementById("access-section"),
   accessTitle: document.getElementById("access-title"),
@@ -388,8 +375,8 @@ const elements = {
 };
 
 const releaseElements = Object.fromEntries([
-  "progress-overlay", "close-progress", "account-progress",
-  "open-progress", "progress-source", "progress-source-label", "progress-source-self", "progress-source-observer",
+  "progress-overlay", "close-progress",
+  "progress-source", "progress-source-label", "progress-source-self", "progress-source-observer",
   "content-load-notice", "content-load-status", "content-load-retry",
   "last-setup-card", "last-setup-title", "last-setup-details", "repeat-last-setup",
   "individual-guide", "individual-focus-label", "individual-focus", "individual-instruction",
@@ -419,6 +406,7 @@ const state = {
   activeGlossaryTermId: null,
   completedStatementIds: new Set(),
   practiceMode: PRACTICE_MODES.GROUP,
+  sharedPair: false,
   roundStatementIds: [],
   triadPhase: TRIAD_PHASES.FIRST_ATTEMPT,
   skippedStatementIds: new Set(),
@@ -482,7 +470,6 @@ function paintExerciseChoice(available, catalog = EXERCISE_CATALOG) {
  single.textContent=no?'Én ferdighet':'Single skill';mixed.textContent=no?'Mestringsøving':'Mastery practice';
  mixed.hidden=!available;single.setAttribute('aria-pressed',String(!selected));mixed.setAttribute('aria-pressed',String(selected));
  elements.skillList.hidden=selected;document.getElementById('mastery-library').hidden=!selected;
- elements.skillPanelDescription.hidden=selected;
  if(selected)elements.skillPanelTitle.textContent=no?'Velg et kasus':'Choose a case';
  else elements.skillPanelTitle.textContent=getUIStrings().skillHeading;
  const host=document.getElementById('mastery-library');host.replaceChildren();
@@ -908,6 +895,7 @@ function normalizeSavedSession(raw) {
       ? raw.completedStatementIds.filter((id) => typeof id === "string")
       : [],
     ...triadFields,
+    sharedPair: triadFields.practiceMode === PRACTICE_MODES.TRIAD && raw.sharedPair === true,
     roundId: raw.roundId,
     roundTarget: normalizePracticeTarget(raw.roundTarget),
     roundRaterId: typeof raw.roundRaterId === "string" ? raw.roundRaterId : null,
@@ -937,6 +925,7 @@ function createPracticeSessionSnapshot() {
     view: state.view === "statements" ? "statements" : "brief",
     completedStatementIds: Array.from(state.completedStatementIds ?? []),
     practiceMode: normalizePracticeMode(state.practiceMode),
+    sharedPair: isTriadPractice() && state.sharedPair,
     roundStatementIds: Array.isArray(state.roundStatementIds) ? state.roundStatementIds : [],
     triadPhase: state.triadPhase,
     skippedStatementIds: Array.from(state.skippedStatementIds ?? []),
@@ -1088,6 +1077,7 @@ function applyPracticeSession(session) {
   state.currentStatement = null;
   state.completedStatementIds = new Set(normalized.completedStatementIds ?? []);
   state.practiceMode = normalized.practiceMode;
+  state.sharedPair = normalized.sharedPair;
   state.roundStatementIds = normalized.roundStatementIds;
   state.triadPhase = normalized.triadPhase;
   state.skippedStatementIds = new Set(normalized.skippedStatementIds ?? []);
@@ -1341,9 +1331,7 @@ function renderProfilePlacement() {
     return;
   }
 
-  if (elements.authSignedIn && elements.selfChartSection) {
-    elements.authSignedIn.insertBefore(elements.profileForm, releaseElements["account-progress"]);
-  }
+  if (elements.authSignedIn) elements.authSignedIn.append(elements.profileForm);
   elements.profileForm.classList.remove("profile-form--bottom");
 }
 
@@ -1394,19 +1382,24 @@ function wrapChartLabel(label) {
 
 function getChartSkillLabelLines(skillId) {
   const strings = getUIStrings();
+  const shortNames = {
+    en: {'empathic-refocusing':['Empathic','refocusing'],'consolidating-emotional-change':['Consolidating','change'],'closing-after-emotional-work':['Closing','emotional work'],'experiential-focusing':['Experiential','focusing']},
+    no: {'empathic-refocusing':['Empatisk','refokusering'],'consolidating-emotional-change':['Forankring','av endring'],'closing-after-emotional-work':['Avslutning','emosjonelt arbeid'],'experiential-focusing':['Opplevelses-','fokusering']}
+  };
+  if (shortNames[state.languageId]?.[skillId]) return shortNames[state.languageId][skillId];
   const configuredLines = normalizeChartLabelLines(strings.selfChartSkillLabels?.[skillId]);
   if (configuredLines.length) return configuredLines;
   return wrapChartLabel(getLocalizedSkillName(skillId));
 }
 
-function renderChartLabel(x, y, lines) {
-  const lineHeight = 9.4;
+function renderChartLabel(x, y, lines, fullName, anchor) {
+  const lineHeight = 11.5;
   const firstDy = lines.length > 1 ? -((lines.length - 1) * lineHeight) / 2 : 0;
   const tspans = lines.map((line, index) => {
     const dy = index === 0 ? firstDy : lineHeight;
     return `<tspan x="${x}" dy="${dy.toFixed(1)}">${escapeMarkup(line)}</tspan>`;
   }).join("");
-  return `<text x="${x}" y="${y}" class="self-chart-label">${tspans}</text>`;
+  return `<text x="${x}" y="${y}" class="self-chart-label" style="text-anchor:${anchor}"><title>${escapeMarkup(fullName)}</title>${tspans}</text>`;
 }
 
 function polarPoint(cx, cy, radius, index, total) {
@@ -1424,7 +1417,6 @@ function pointsToAttribute(points) {
 function renderSelfRatingsChart() {
   const strings = getUIStrings();
   releaseElements["close-progress"].setAttribute("aria-label", strings.close);
-  releaseElements["account-progress"].textContent = strings.selfChartTitle;
   releaseElements["progress-source-label"].textContent = strings.progressSourceLabel;
   releaseElements["progress-source-self"].textContent = strings.progressSelf;
   releaseElements["progress-source-observer"].textContent = strings.progressObserver;
@@ -1529,7 +1521,7 @@ function renderSelfRatingsChart() {
   const unspecified = radar.series.find(s=>s.difficulty==='unspecified');
   if (unspecified) levelButton('unspecified', unspecified);
 
-  const size = 320, center = size / 2, maxRadius = 100, labelRadius = maxRadius + 32, axisCount = ratedSkills.length;
+  const size = 400, center = size / 2, maxRadius = 112, labelRadius = maxRadius + 14, axisCount = ratedSkills.length;
   const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
   svg.setAttribute('viewBox', `0 0 ${size} ${size}`); svg.setAttribute('role', 'img');
   svg.setAttribute('aria-label', strings.progressRadarAria);
@@ -1552,7 +1544,7 @@ function renderSelfRatingsChart() {
   }).join('');
   const labels = ratedSkills.map((entry,index) => {
     const point = polarPoint(center,center,labelRadius,index,axisCount);
-    return renderChartLabel(point.x.toFixed(1),point.y.toFixed(1),getChartSkillLabelLines(entry.skillId));
+    return renderChartLabel(point.x.toFixed(1),point.y.toFixed(1),getChartSkillLabelLines(entry.skillId),getLocalizedSkillName(entry.skillId), Math.abs(point.x-center)<1 ? 'middle' : point.x>center ? 'start' : 'end');
   }).join('');
   const chartDescription = visibleSeries.map(series => `${difficultyName(series.difficulty)}: ${series.values.map((value,index)=>`${getLocalizedSkillName(ratedSkills[index].skillId)} ${value.count ? value.average.toFixed(1)+'/5' : strings.progressUnrated}`).join('; ')}`).join('. ');
   svg.innerHTML = `<desc id="progress-radar-description">${escapeMarkup(chartDescription)}</desc>${grid}${axes}${plots}<text x="${center+4}" y="${center-maxRadius+12}" class="self-chart-scale">5</text><text x="${center+4}" y="${center-maxRadius/5}" class="self-chart-scale">1</text>${labels}`;
@@ -1733,19 +1725,19 @@ function renderAuthUI() {
   roomView?.authChanged();
   if (roomSelection && roomSelection.userId !== state.authUser?.id) roomSelection = null;
   renderGroupEntry();
-  document.getElementById("join-shared-room").disabled = state.ratingSaving;
-  document.getElementById("join-shared-room").hidden = ['room','home','mastery'].includes(document.body.dataset.section);
-  document.getElementById("join-shared-room").textContent = document.body.dataset.section === "practice" ? (state.languageId === "no" ? "Hjem" : "Home") : (state.languageId === "no" ? "Gruppe" : "Group");
-  const strings = getUIStrings();
+  const strings = getUIStrings(), no = state.languageId === 'no';
   const signedIn = Boolean(state.authUser);
-  releaseElements["open-progress"].hidden = !signedIn;
-  releaseElements["open-progress"].textContent = strings.selfChartTitle;
+  const homeButton = document.getElementById('join-shared-room');
+  homeButton.disabled = state.ratingSaving;
+  homeButton.hidden = false;
+  homeButton.setAttribute('aria-current', document.body.dataset.section === 'home' ? 'page' : 'false');
+  setHeaderControl(homeButton, 'home', no ? 'Hjem' : 'Home');
+  setHeaderControl(document.getElementById('home-progress'), 'progress', strings.selfChartTitle);
+  document.getElementById('header-navigation').setAttribute('aria-label', no ? 'Hovednavigasjon' : 'Main navigation');
+  document.getElementById('app-about-label').textContent = no ? 'Om appen' : 'About';
   const configured = isSupabaseReady();
 
-  if (elements.accountButton) {
-    elements.accountButton.textContent = signedIn ? strings.accountButtonSignedIn ?? "Account" : strings.signInButton ?? "Sign in";
-    elements.accountButton.title = signedIn ? `${strings.profileLabel ?? "Signed in as"} ${getSignedInEmail()}` : strings.signInButton ?? "Sign in";
-  }
+  setHeaderControl(elements.accountButton, 'account', signedIn ? strings.accountButtonSignedIn ?? 'Account' : strings.signInButton ?? 'Sign in');
 
   if (elements.authSignedOut) {
     elements.authSignedOut.hidden = signedIn;
@@ -1754,9 +1746,6 @@ function renderAuthUI() {
   if (elements.authSignedIn) {
     elements.authSignedIn.hidden = !signedIn;
     elements.authSignedIn.classList.toggle("is-hidden", !signedIn);
-  }
-  if (elements.accountEyebrow) {
-    elements.accountEyebrow.textContent = strings.accountEyebrow ?? "Practice account";
   }
   if (elements.accountHeading) {
     elements.accountHeading.textContent =
@@ -2178,13 +2167,6 @@ function showSection(sectionKey) {
   window.scrollTo({ top: 0, left: 0, behavior: "auto" });
 }
 
-function getFirstParagraph(text) {
-  return String(text ?? "")
-    .split(/\n\s*\n/)
-    .map((part) => part.trim())
-    .find(Boolean) ?? "";
-}
-
 function setTextForElements(collection, text) {
   Array.from(collection ?? []).forEach((element) => {
     element.textContent = text ?? "";
@@ -2204,8 +2186,8 @@ function renderPracticeFormatUI() {
   const strings = getUIStrings();
   elements.practiceFormat.disabled = state.sessionActive || !!roomSelection;
   elements.practiceFormat.hidden = !!roomSelection;
-  releaseElements["practice-format-note"].hidden = !state.sessionActive;
-  releaseElements["practice-format-note"].textContent = strings.formatLocked;
+  releaseElements["practice-format-note"].hidden = true;
+  releaseElements["practice-format-note"].textContent = "";
   const waitingForAccount = !state.sessionActive && isPracticeAccountPending();
   const waitingForContent = !hasPracticeContent(state.languageId, state.skillId);
   elements.startPracticeButton.disabled = waitingForAccount || waitingForContent;
@@ -2222,10 +2204,11 @@ function renderPracticeFormatUI() {
   if (elements.triadOrientation) {
     elements.triadOrientation.hidden = !triad;
     elements.triadOrientation.classList.toggle("is-hidden", !triad);
+    document.getElementById('shared-pair').checked = state.sharedPair;
+    document.getElementById('shared-pair').disabled = state.sessionActive;
+    document.getElementById('shared-pair-label').textContent = state.languageId === 'no' ? 'Vi er to' : 'We’re two';
+    elements.triadGuideObserverItems.forEach(item => item.hidden = state.sharedPair);
     const shared = getGroupPracticeCopy(state.languageId);
-    elements.triadOrientationText.textContent = state.languageId === 'no'
-      ? 'Behold rollene i tolv utsagn. Observatøren leder; vurder terapeuten etter hvert sett med tre.'
-      : 'Keep roles for twelve items. The observer guides; rate the therapist after each set of three.';
     setTextForElements(elements.triadGuideClientItems, (isSelfAwareness() ? shared.awarenessGuide : shared.roleGuide).client.steps[1][1]);
   }
 }
@@ -2239,40 +2222,24 @@ function applyLanguageStrings(languageId) {
   document.title = strings.appTitle;
 
   elements.appTitle.textContent = strings.appTitle;
-  elements.appTagline.textContent = strings.tagline;
 
   elements.languagePanelTitle.textContent = strings.languageHeading;
-  elements.languagePanelDescription.textContent = strings.languageDescription;
   elements.languageList.setAttribute("aria-label", strings.languageListAria);
 
   elements.skillPanelTitle.textContent = strings.skillHeading;
-  elements.skillPanelDescription.textContent = strings.skillDescription;
   elements.skillList.setAttribute("aria-label", strings.skillListAria);
 
   elements.casePanelTitle.textContent = strings.caseHeading;
-  elements.casePanelDescription.textContent = strings.caseDescription;
   elements.caseList.setAttribute("aria-label", strings.caseListAria);
 
   if (elements.caseSkillSummaryEyebrow) {
     elements.caseSkillSummaryEyebrow.textContent = strings.skillFocusLabel ?? "Skill focus";
-  }
-  if (elements.caseSkillSummaryPracticeFocusLabel) {
-    elements.caseSkillSummaryPracticeFocusLabel.textContent =
-      strings.skillPracticeFocusLabel ?? "What to practice";
-  }
-  if (elements.caseSkillSummaryCommonMissLabel) {
-    elements.caseSkillSummaryCommonMissLabel.textContent =
-      strings.skillCommonMissLabel ?? "Common miss";
   }
   if (elements.openSkillGuideButton) {
     elements.openSkillGuideButton.textContent = strings.learnSkill ?? "Learn this skill";
   }
   if (elements.skillGuidePanelTitle) {
     elements.skillGuidePanelTitle.textContent = strings.skillGuideHeading ?? "Skill Guide";
-  }
-  if (elements.skillGuideDescription) {
-    elements.skillGuideDescription.textContent =
-      strings.skillGuideDescription ?? "Review the markers, aim, and common misses before choosing a case.";
   }
   if (elements.skillGuideBackButton) {
     elements.skillGuideBackButton.textContent = `← ${strings.backToCases}`;
@@ -2339,12 +2306,6 @@ function applyLanguageStrings(languageId) {
   if (elements.practiceModeTriadDescription) {
     elements.practiceModeTriadDescription.textContent =
       strings.practiceModeTriadDescription ?? "Practice three items with feedback and retry.";
-  }
-  if (elements.triadOrientationTitle) {
-    elements.triadOrientationTitle.textContent = strings.triadOrientationTitle ?? "How the group practices";
-  }
-  if (elements.triadOrientationText) {
-    elements.triadOrientationText.textContent = strings.triadOrientation ?? "";
   }
   setTextForElements(elements.triadGuideSummaries, strings.triadFeedbackGuideTitle ?? "Feedback guide");
   setTextForElements(elements.triadGuideAttemptItems, strings.triadGuideAttempt ?? "");
@@ -2520,7 +2481,7 @@ function renderLanguageOptions() {
     button.setAttribute("aria-current", "false");
     button.innerHTML = `
       <span class="card-title">${metadata.label}</span>
-      <span class="card-body">${metadata.locale}</span>
+
     `;
     button.addEventListener("click", () => handleLanguageSelection(languageId, {destination:roomSelection ? 'skill' : languageDestination}));
     elements.languageList.appendChild(button);
@@ -2571,45 +2532,14 @@ function highlightSkillSelection(skillId) {
 }
 
 function updateCaseSkillSummary(skill) {
-  if (
-    !elements.caseSkillSummaryCard ||
-    !elements.caseSkillSummaryName ||
-    !elements.caseSkillSummaryText ||
-    !elements.caseSkillSummaryPracticeFocus ||
-    !elements.caseSkillSummaryCommonMiss
-  ) {
-    return;
-  }
-
-  if (!skill) {
-    elements.caseSkillSummaryCard.hidden = true;
-    elements.caseSkillSummaryCard.classList.add("is-hidden");
-    elements.caseSkillSummaryCard.removeAttribute("data-skill-id");
-    elements.caseSkillSummaryName.textContent = "";
-    elements.caseSkillSummaryText.textContent = "";
-    elements.caseSkillSummaryPracticeFocus.textContent = "";
-    elements.caseSkillSummaryCommonMiss.textContent = "";
-    if (elements.openSkillGuideButton) {
-      elements.openSkillGuideButton.removeAttribute("aria-label");
-    }
-    return;
-  }
-
-  const strings = getUIStrings();
-  const visual = getSkillFocusVisual(skill.id);
-  elements.caseSkillSummaryCard.dataset.skillId = skill.id;
-  applyVisualProperties(elements.caseSkillSummaryCard, visual);
-  elements.caseSkillSummaryCard.hidden = false;
-  elements.caseSkillSummaryCard.classList.remove("is-hidden");
-  elements.caseSkillSummaryName.textContent = skill.name ?? "";
-  elements.caseSkillSummaryText.textContent =
-    getFirstParagraph(skill.description) || getFirstParagraph(skill.summary);
-  elements.caseSkillSummaryPracticeFocus.textContent = skill.practiceFocus ?? "";
-  elements.caseSkillSummaryCommonMiss.textContent = skill.commonMiss ?? "";
-  if (elements.openSkillGuideButton) {
-    const label = strings.learnSkillAria ?? strings.learnSkill ?? "Learn this skill";
-    elements.openSkillGuideButton.setAttribute("aria-label", `${label}: ${skill.name}`);
-  }
+  const card = elements.caseSkillSummaryCard;
+  card.hidden = !skill; card.classList.toggle('is-hidden', !skill);
+  elements.caseSkillSummaryName.textContent = skill?.name ?? '';
+  elements.caseSkillSummaryText.textContent = skill?.practiceFocus ?? '';
+  if (!skill) { card.removeAttribute('data-skill-id'); return; }
+  card.dataset.skillId = skill.id;
+  applyVisualProperties(card, getSkillFocusVisual(skill.id));
+  elements.openSkillGuideButton.setAttribute('aria-label', `${getUIStrings().learnSkill}: ${skill.name}`);
 }
 
 function renderCaseOptions() {
@@ -2635,8 +2565,11 @@ function renderCaseOptions() {
     }
     applyCaseLibraryVisual(button, skill.id, caseItem.supportedLevels);
     const lockTag = locked ? `<span class="lock-tag" aria-label="${getUIStrings().lockedLabel}"></span>` : "";
+    const suffix = ` (${levelLabel(state.languageId, caseItem.difficulty)})`;
+    const title = caseItem.supportedLevels.length === 1 && caseItem.label.endsWith(suffix)
+      ? caseItem.label.slice(0, -suffix.length) : caseItem.label;
     button.innerHTML = `
-      <span class="card-title">${caseItem.label} ${lockTag}</span>
+      <span class="card-title">${title} ${lockTag}</span>
       <span class="card-body">${caseItem.teaser}</span>
       <span class="case-levels">${caseItem.supportedLevels.map(level => levelLabel(state.languageId, level)).join(' · ')}</span>
     `;
@@ -2914,7 +2847,7 @@ function updateNextButtonCopy() {
   const strings = getUIStrings();
   if (isTriadPractice()) {
     const shared = getGroupPracticeCopy(state.languageId);
-    const copy = isLastActiveStatement() || (state.index + 1) % 3 === 0 ? shared.finishLast : shared.finishNext;
+    const copy = isLastActiveStatement() || (state.index + 1) % 3 === 0 ? (state.languageId === 'no' ? 'Fullfør · reflekter' : 'Finish item · reflect') : shared.finishNext;
     elements.nextButton.textContent = copy;
     elements.nextButton.setAttribute("aria-label", copy);
     return;
@@ -2935,7 +2868,7 @@ function isSelfAwareness() {
   return state.skillId === "therapist-self-awareness";
 }
 
-const sharedRoleGuideOpen = new Map();
+const sharedGuideOpen = new Map();
 let sharedGuideKey = '';
 
 function renderTriadProtocolUI() {
@@ -2966,37 +2899,36 @@ function renderTriadProtocolUI() {
   elements.triadDebriefClient.textContent = reflection.client;
   elements.triadDebriefClientLabel.textContent = `${isSelfAwareness() ? strings.selfAwarenessReaderRole : strings.triadRoleClient}:`;
   elements.triadDebriefObserver.textContent = reflection.observer;
+  elements.triadDebriefObserverLabel.closest('li').hidden = state.sharedPair;
   const set = currentGroupSet();
   elements.triadDerole.textContent = shared.derole;
   elements.triadDerole.hidden = !set.last && !state.groupFinishEarly;
   elements.triadDebriefGroupLabel.closest('details').hidden = !set.last && !state.groupFinishEarly;
   if (triad && state.roundStatementIds.length === GROUP_ROUND_SIZE) {
-    elements.triadDebriefTitle.textContent = state.languageId === 'no' ? `Sett ${set.number}/${set.total} · reflekter og vurder` : `Set ${set.number}/${set.total} · reflect and rate`;
+    elements.triadDebriefTitle.textContent = state.languageId === 'no' ? `Sett ${set.number}/${set.total}` : `Set ${set.number}/${set.total}`;
     elements.triadDebriefEyebrow.textContent = state.languageId === 'no' ? 'Sett fullført' : 'Set complete';
-    elements.triadCompleteRound.textContent = state.languageId === 'no' ? 'Vurder dette settet' : 'Rate this set';
+    elements.triadCompleteRound.textContent = state.languageId === 'no' ? (set.last || state.groupFinishEarly ? 'Velg neste runde' : 'Fortsett') : (set.last || state.groupFinishEarly ? 'Choose next round' : 'Continue');
   }
+  elements.triadDebriefEyebrow.hidden = true;
   elements.triadDebriefGroupLabel.textContent = shared.nextFocus;
   elements.triadDebrief.querySelector('ol').hidden = debrief && !set.completed.length;
+  const checkpointFeedback = document.getElementById('shared-checkpoint-feedback');
+  checkpointFeedback.replaceChildren(...(debrief && set.completed.length ? [createSkillFeedback({skillId:state.skillId,language:state.languageId,audience:state.sharedPair?'self':'observer'})] : []));
   if (active && state.currentStatement) {
     const container = document.getElementById('shared-group-guidance');
-    const key = `${state.roundId}:${state.skillId}:${state.currentStatement.id}:${state.languageId}`;
+    const key = `${state.roundId}:${state.skillId}:${state.currentStatement.id}:${state.languageId}:${state.sharedPair}`;
     if (sharedGuideKey !== key) {
       sharedGuideKey = key;
       const awareness = isSelfAwareness(), skill = getCurrentSkill();
-      const guide = createGroupWorkflow({language: state.languageId, awareness, id: 'shared-workflow', open: true});
+      const guideKey = `${awareness}:${state.sharedPair}`;
+      const guide = createSharedPracticeGuide({language:state.languageId, awareness, pair:state.sharedPair,
+        id:'shared-practice-guide', open:sharedGuideOpen.get(guideKey) ?? false,
+        roleLabel:role => role === 'client' && awareness ? strings.selfAwarenessReaderRole : strings[`triadRole${role[0].toUpperCase()}${role.slice(1)}`],
+        onToggle:expanded => sharedGuideOpen.set(guideKey,expanded)});
       const focus = document.createElement('aside'); focus.className = 'individual-guide'; focus.textContent = skill.practiceFocus;
-      const cards = ['client','therapist','observer'].map(role => {
-        const roleKey = `${awareness}:${role}`;
-        const card = createGroupRoleGuide({language: state.languageId, awareness, role, id: `shared-your-part-${role}`,
-          roleLabel: role === 'client' && awareness ? strings.selfAwarenessReaderRole : strings[`triadRole${role[0].toUpperCase()}${role.slice(1)}`],
-          open: sharedRoleGuideOpen.get(roleKey) ?? false, focus: skill.practiceFocus,
-          example: state.currentStatement.suggestion, examplePrefix: 'shared',
-          onToggle: expanded => sharedRoleGuideOpen.set(roleKey, expanded)});
-        if (role === 'observer') card.querySelector('.room-role-guide-body').append(
-          createSkillFeedback({skillId:state.skillId, language:state.languageId, id:'shared-feedback-reference'}));
-        return card;
-      });
-      container.replaceChildren(focus, guide, ...cards);
+      const example = createPracticeExample({language:state.languageId, awareness, example:state.currentStatement.suggestion,
+        prefix:'shared', focus:()=>{elements.statementText.tabIndex=-1;elements.statementText.focus();}});
+      container.replaceChildren(focus, guide, example);
     }
   }
   updateNextButtonCopy();
@@ -3310,7 +3242,9 @@ function formatRoundOutcome() {
   const ids = isTriadPractice() ? currentGroupSet().ids : getActiveStatements().map(item => item.id);
   const counts = getRoundOutcome(ids,
     [...state.completedStatementIds], [...state.skippedStatementIds]);
-  return Object.entries(counts).reduce((text, [key, value]) => text.replace(`{${key}}`, String(value)), getUIStrings().roundOutcome);
+  const no = state.languageId === 'no';
+  return `${counts.completed} ${no ? 'øvd på' : 'practiced'}`
+    + (counts.skipped ? ` · ${counts.skipped} ${no ? 'stått over' : 'passed'}` : '');
 }
 
 function getRoundRatingTarget() {
@@ -3340,14 +3274,14 @@ function updateRatingPanel() {
   elements.ratingEyebrow.textContent = strings.roundCompleteTitle;
   elements.ratingEyebrow.hidden = !hasRating;
   elements.ratingTitle.textContent = hasRating
-    ? (isTriadPractice() ? strings.triadRatingTitle : getActiveRatingSource() === "observer" ? strings.ratingTitleObserver : strings.ratingTitleSelf)
+    ? (shared ? state.sharedPair ? strings.ratingTitleSelf : strings.triadRatingTitle : getActiveRatingSource() === "observer" ? strings.ratingTitleObserver : strings.ratingTitleSelf)
     : strings.roundCompleteTitle;
   elements.ratingDescription.hidden = false;
   elements.ratingDescription.textContent = hasRating && shared
     ? strings.sharedDeviceRatingDescription : strings.roundCompleteDescription;
   elements.ratingSummary.textContent = `${getCurrentSkill()?.name ?? ""} · ${getCurrentCase()?.label ?? ""}`;
   releaseElements["round-outcome"].textContent = formatRoundOutcome();
-  elements.ratingTarget.hidden = shared || !target;
+  elements.ratingTarget.hidden = shared || !target || getTargetUserId(target) === state.authUser?.id;
   elements.ratingTarget.textContent = target ? strings.roundFor.replace("{name}", getTargetDisplayName(target) || strings.meLabel) : "";
   releaseElements["rating-scale"].hidden = !hasRating;
   elements.ratingSubmit.hidden = shared || !hasRating;
@@ -3358,8 +3292,9 @@ function updateRatingPanel() {
   releaseElements["repeat-round"].hidden = hasRating || state.groupRatingPending;
   if (state.groupRatingPending) {
     const set = currentGroupSet();
-    elements.ratingEyebrow.textContent = state.languageId === "no" ? `Sett ${set.number}/${set.total} fullført` : `Set ${set.number}/${set.total} complete`;
+    elements.ratingEyebrow.textContent = state.languageId === "no" ? `Sett ${set.number}/${set.total}` : `Set ${set.number}/${set.total}`;
     if (!hasRating) {
+      elements.ratingEyebrow.hidden = true;
       elements.ratingTitle.textContent = elements.ratingEyebrow.textContent;
       elements.ratingDescription.textContent = set.last || state.groupFinishEarly
         ? strings.triadRoundReady
@@ -3472,11 +3407,12 @@ function updateSuggestionUI() {
   releaseElements["individual-guide"].hidden = !individual;
   releaseElements["individual-focus-label"].textContent = strings.skillPracticeFocusLabel;
   releaseElements["individual-focus"].textContent = getCurrentSkill()?.practiceFocus ?? "";
+  releaseElements["individual-instruction"].hidden = !isSelfAwareness();
   releaseElements["individual-instruction"].textContent = isSelfAwareness()
     ? strings.individualAwarenessInstruction : strings.individualInstruction;
   releaseElements["retry-individual"].hidden = !individual || !state.suggestionVisible;
   releaseElements["retry-individual"].textContent = isSelfAwareness()
-    ? strings.individualAwarenessRetry : strings.individualRetry;
+    ? getGroupPracticeCopy(state.languageId).awarenessRetry : getGroupPracticeCopy(state.languageId).retry;
   releaseElements["individual-example-note"].hidden = !individual || !state.suggestionVisible;
   releaseElements["individual-example-note"].textContent = isSelfAwareness()
     ? strings.individualAwarenessExampleNote : strings.individualExampleNote;
@@ -3511,8 +3447,8 @@ function updateSuggestionUI() {
   }
 
   const visible = state.suggestionVisible;
-  const showCopy = isSelfAwareness() ? strings.selfAwarenessShowSuggestion : strings.triadShowSuggestion;
-  const hideCopy = strings.triadHideSuggestion;
+  const showCopy = getGroupPracticeCopy(state.languageId).example;
+  const hideCopy = getGroupPracticeCopy(state.languageId).hideExample;
   elements.suggestionToggle.textContent = visible ? hideCopy : showCopy;
   elements.suggestionToggle.setAttribute(
     "aria-label",
@@ -3659,7 +3595,17 @@ function cancelTriadPassItem() {
 
 function completeTriadRound() {
   if (!isTriadPractice()) return;
-  finishPracticeRound();
+  if (state.triadPhase !== TRIAD_PHASES.ROUND_DEBRIEF) return;
+  const set = currentGroupSet();
+  if (!set.last && !state.groupFinishEarly) {
+    state.index += 1;
+    state.triadPhase = TRIAD_PHASES.FIRST_ATTEMPT;
+    showStatements(); return;
+  }
+  state.sessionActive = false;
+  clearPracticeSession();
+  navigateBackToCaseSelection();
+  handleBackNavigation('skill');
 }
 
 function showNextStatement() {
@@ -4096,15 +4042,24 @@ function registerEventListeners() {
     else { languageDestination = 'skill'; showSection('language'); }
   });
   document.getElementById('home-progress').addEventListener('click', showProgressPanel);
+  document.getElementById('shared-pair').addEventListener('change', event => {
+    if (state.sessionActive) return;
+    state.sharedPair = event.target.checked;
+    renderPracticeFormatUI();
+  });
   document.getElementById("shared-device").addEventListener("change", () => { handlePracticeModeChange({target: document.querySelector('input[name="practice-mode"][value="group"]')}); });
   document.getElementById('group-create').addEventListener('click', () => { void openSharedRoom('create'); });
   document.getElementById('group-join').addEventListener('click', () => { void openSharedRoom('join'); });
   document.getElementById('group-resume').addEventListener('click', () => { void openSharedRoom('resume'); });
   document.getElementById('group-selection-return').addEventListener('click', () => { void openSharedRoom('resume'); });
-  document.getElementById("join-shared-room").addEventListener("click", () => { if(document.body.dataset.section === "practice") requestPracticeHome(); else void openSharedRoom(); });
+  document.getElementById('join-shared-room').addEventListener('click', () => {
+    const section = document.body.dataset.section;
+    if (section === 'practice') requestPracticeHome();
+    else if (section === 'mastery') mastery.goHome();
+    else if (section === 'room') roomView?.goHome();
+    else { roomSelection = null; showSection('home'); }
+  });
   releaseElements["content-load-retry"].addEventListener("click", () => retryContentLoad?.());
-  releaseElements["open-progress"].addEventListener("click", showProgressPanel);
-  releaseElements["account-progress"].addEventListener("click", showProgressPanel);
   releaseElements["close-progress"].addEventListener("click", () => dialogs.close(releaseElements["progress-overlay"]));
   releaseElements["progress-overlay"].addEventListener("click", (event) => {
     if (event.target === releaseElements["progress-overlay"]) dialogs.close(releaseElements["progress-overlay"]);
@@ -4119,6 +4074,7 @@ function registerEventListeners() {
   releaseElements["retry-individual"].addEventListener("click", () => {
     resetSuggestionVisibility();
     const strings = getUIStrings();
+    releaseElements["individual-instruction"].hidden = !isSelfAwareness();
     releaseElements["individual-instruction"].textContent = isSelfAwareness()
       ? strings.individualAwarenessRetryInstruction : strings.individualRetryInstruction;
     elements.statementText.tabIndex = -1;
