@@ -17,3 +17,12 @@ export function summarizeMasteryRounds(rows, source) {
   return {...round,sets,itemCount,checkpointCount:sets.length,score:sets.reduce((sum,r)=>sum+r.score*r.item_count,0)/itemCount};
  }).sort((a,b)=>Date.parse(b.date)-Date.parse(a.date));
 }
+
+// Compare complete rounds at the same difficulty. Partial rounds stay in history.
+export function masteryProgressByLevel(rounds) {
+ return ['easy','moderate','hard'].map(difficulty=>{
+  const complete=rounds.filter(r=>r.difficulty===difficulty&&r.checkpointCount===4&&r.itemCount===12);
+  const recent=complete.slice(0,3);
+  return {difficulty,complete,recent,score:recent.length?recent.reduce((sum,r)=>sum+r.score,0)/recent.length:null};
+ });
+}

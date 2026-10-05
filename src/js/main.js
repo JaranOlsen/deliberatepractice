@@ -1,4 +1,5 @@
 import {setHeaderControl} from './headerUI.js';
+import {createAppTour} from './appTour.js';
 import {createMasteryPractice, supportsMastery} from "./masteryPractice.js";
 import {preferredCaseLevel, rememberCaseLevel, createLevelChoice, levelLabel} from './practiceLevels.js';
 import {EXERCISE_CATALOG} from "./masteryContent.js";
@@ -448,6 +449,7 @@ const state = {
 };
 
 
+const appTour = createAppTour({dialogs,getLanguage:()=>state.languageId??'en'});
 let exerciseType = readJsonStorage('dp_exercise_type') === 'mastery' ? 'mastery' : 'single-skill';
 let masteryCapabilityRequest = 0;
 const mastery = createMasteryPractice({
@@ -1434,7 +1436,7 @@ function renderSelfRatingsChart() {
   document.getElementById('progress-mastery').setAttribute('aria-pressed',String(mixed));
   document.getElementById('mastery-history').hidden=!mixed||!state.authUser;
   elements.selfChart.hidden=mixed;elements.selfChartStatus.hidden=mixed;
-  if(mixed)elements.selfChartDescription.textContent=no?'Vurderinger av øving med flere ferdigheter, adskilt fra ferdighetsradaren.':'Ratings of mixed-skill practice, separate from your skill radar.';
+  elements.selfChartDescription.hidden=mixed;
   elements.selfChart.innerHTML = "";
   if (!state.authUser) {
     elements.selfChartStatus.textContent = strings.selfChartSignIn ?? "Sign in to see your self-rating chart.";
@@ -1514,9 +1516,9 @@ function renderSelfRatingsChart() {
   const unspecified = radar.series.find(s=>s.difficulty==='unspecified');
   if (unspecified) levelButton('unspecified', unspecified);
 
-  const size = 400, center = size / 2, maxRadius = 112, labelRadius = maxRadius + 8, axisCount = ratedSkills.length;
+  const size = 400, center = size / 2, maxRadius = 112, labelRadius = maxRadius + 17, axisCount = ratedSkills.length;
   const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-  svg.setAttribute('viewBox', `0 0 ${size} ${size}`); svg.setAttribute('role', 'img');
+  svg.setAttribute('viewBox', `-12 -12 ${size+24} ${size+24}`); svg.setAttribute('role', 'img');
   svg.setAttribute('aria-label', strings.progressRadarAria);
   svg.setAttribute('aria-describedby', 'progress-radar-description');
   const mappedSkills = RADAR_SKILL_MAP.filter(({skillId}) => ratedSkills.some(skill => skill.skillId === skillId));
@@ -1724,6 +1726,7 @@ function hideAccountPanel() {
 }
 
 function renderAuthUI() {
+  appTour.refreshLabel(document.getElementById('app-tour-open'));
   setPracticeGoalUser(state.authUser?.id);
   renderPracticeLearning();
   roomView?.authChanged();
@@ -4028,6 +4031,7 @@ function handleBackNavigation(targetKey) {
 }
 
 function registerEventListeners() {
+  document.getElementById('app-tour-open').addEventListener('click',()=>{hideAccountPanel();elements.accountButton.focus({preventScroll:true});appTour.start();});
   document.getElementById('home-language').addEventListener('click', () => { languageDestination = 'home'; showSection('language'); });
   document.getElementById('language-home').addEventListener('click', () => showSection('home'));
   for (const [id,type] of [['progress-single','single-skill'],['progress-mastery','mastery']]) {
@@ -4296,6 +4300,7 @@ function initialize() {
   initializeAuth().then(() => { if (inviteCode) void openSharedRoom('join', {code:inviteCode}); });
   if (state.languageId) renderSkillOptions();
   showSection("home");
+  appTour.start({automatic:true});
 }
 
 initialize();
