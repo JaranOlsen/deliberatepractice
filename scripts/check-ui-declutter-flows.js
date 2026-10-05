@@ -122,6 +122,7 @@ async page => {
         await p.locator('#shared-pair').setChecked(pair);
       }
       await fits('focused preparation'); await click('start-practice'); await p.locator('#next-statement').waitFor();
+      assert((await p.locator('#statement-counter').textContent()).trim()===(language==='no'?'1 av 12':'1 of 12'),'Focused practice shows only item position and total');
       if (shared) {
         assert(await p.locator('#shared-group-guidance .room-role-guide').count() === 1, 'Shared instructions have one optional guide');
         assert(await p.locator('#shared-practice-guide [data-role]').count() === (pair ? 2 : 3), 'Guide matches actual participants');

@@ -185,6 +185,7 @@ async (page) => {
     assert(!(await t.locator('#room-next').isVisible()),'Therapist has no observer controls');
     assert(!(await c.locator('#room-next').isVisible()),'Client has no observer controls');
     assert(await c.locator('.statement-panel .room-statement').count()===1, 'The client line uses the familiar statement card');
+    assert((await c.locator('.triad-progress').textContent()).trim()==='1 of 3','Client sees only the current item counter');
     assert(await o.locator('.room-workflow-number').first().evaluate(e=>getComputedStyle(e).backgroundColor) !== 'rgb(49, 95, 91)', 'Workflow accents follow the selected skill');
     assert(await c.locator('.room-statement').isVisible(),'Client sees the line to read');
     assert(await c.locator('#room-details').evaluate(e=>!e.open),'Room roster folds away during the exercise');
