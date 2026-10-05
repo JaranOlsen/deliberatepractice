@@ -1,3 +1,4 @@
+import {TASK_EXERCISES} from '../src/data/taskExercises.js';
 import {FOCUSING_BANKS,FOCUSING_SKILL_ID} from '../src/data/experientialFocusing.js';
 // Isolated Postgres tests: npm run test:rooms:db
 // Optional localhost-only RPC bridge for check-four-set-room-flows.js: add --serve.
@@ -29,19 +30,23 @@ try {
   for (const name of (await readdir(new URL('supabase/migrations/', root))).sort()) {
     const levelMigration=/_(?:(?:arne|mia|nora)_practice_levels|fixed_case_mastery|experiential_focusing)\.sql$/.test(name);
     const validator=levelMigration?(await db.query("select 'dp_private.validate_room_config(jsonb)'::regprocedure::oid as oid")).rows[0].oid:null;
+    const taskFunctions=name.endsWith('_task_episodes.sql')?(await db.query("select oid,proacl::text from pg_proc where oid in ('dp_private.validate_mastery_config(jsonb)'::regprocedure,'public.mastery_capabilities()'::regprocedure,'public.command_practice_room(uuid,uuid,integer,text,integer)'::regprocedure) order by oid")).rows:null;
     await db.exec(await read('supabase/migrations/' + name));
+    if(taskFunctions)assert.deepEqual((await db.query("select oid,proacl::text from pg_proc where oid in ('dp_private.validate_mastery_config(jsonb)'::regprocedure,'public.mastery_capabilities()'::regprocedure,'public.command_practice_room(uuid,uuid,integer,text,integer)'::regprocedure) order by oid")).rows,taskFunctions,'Task migration preserves existing function identities and privileges');
     if(levelMigration)assert.equal((await db.query("select 'dp_private.validate_room_config(jsonb)'::regprocedure::oid as oid")).rows[0].oid,validator,'Existing room validator identity must survive the migration');
   }
-  for(const exercise of MASTERY_EXERCISES) {
-    const row=(await db.query('select scenes from dp_private.exercise_catalog where exercise_id=$1 and revision=$2',[exercise.id,exercise.revision])).rows[0];
+  for(const exercise of [...MASTERY_EXERCISES,...TASK_EXERCISES]) {
+    const row=(await db.query('select scenes,exercise_format,task_id,episodes from dp_private.exercise_catalog where exercise_id=$1 and revision=$2',[exercise.id,exercise.revision])).rows[0];
     assert.deepEqual(row?.scenes,exercise.scenes.map(({id,skillId,criteriaTags})=>({id,skillId,criteriaTags})),'Mastery catalog drift: '+exercise.id);
+    assert.equal(row.exercise_format,exercise.format??'mastery');
+    if(exercise.format==='task-episodes'){assert.equal(row.task_id,exercise.taskId);assert.deepEqual(row.episodes,exercise.episodes.map(({id,turnIds})=>({id,turnIds})));}
   }
   for(const [caseId,skills,levels] of [['case-arne',ARNE_SKILLS,ARNE_LEVELS],['case-mia',MIA_SKILLS,MIA_LEVELS],['case-nora',NORA_SKILLS,NORA_LEVELS],...Object.entries(FOCUSING_BANKS).map(([caseId,levels])=>[caseId,[FOCUSING_SKILL_ID],Object.keys(levels)]),...Object.entries(FIXED_CASE_EXTENSION_BANKS).map(([caseId,banks])=>[caseId,Object.keys(banks),[BASE_PRACTICE[Object.keys(banks)[0]].cases[caseId].difficulty]])])for(const skill of skills)for(const level of levels) {
     const row=(await db.query('select entries from dp_private.focused_level_catalog where skill_id=$1 and difficulty=$2 and case_id=$3 and revision=$4',[skill,level,caseId,BASE_PRACTICE[skill].cases[caseId].statements[0].revision])).rows[0];
     const expected=BASE_PRACTICE[skill].cases[caseId].statements.filter(e=>e.difficultyTier===level).map(({id,criteriaTags})=>({id,criteriaTags}));
     assert.deepEqual(row?.entries,expected,'Focused catalog drift: '+skill+'/'+level);
   }
-  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql', 'check-practice-goals.sql', 'check-rating-history.sql', 'check-mastery.sql','check-practice-levels.sql','check-fixed-case-mastery.sql','check-experiential-focusing.sql']) {
+  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql', 'check-practice-goals.sql', 'check-rating-history.sql', 'check-mastery.sql','check-practice-levels.sql','check-fixed-case-mastery.sql','check-experiential-focusing.sql','check-task-episodes.sql']) {
     await db.exec(await read('scripts/' + name));
     console.log('PASS ' + name);
   }

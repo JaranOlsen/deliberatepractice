@@ -1,3 +1,5 @@
+import {isTaskExercise,passTaskEpisode,taskEpisodeAt} from './taskProtocol.js';
+import {taskCopy,createTaskPosition,createTaskRoleGuide,createTaskWorkflow} from './taskPracticeUI.js';
 import {validateMasterySession} from './masteryProtocol.js';
 import {EXERCISE_CATALOG, loadMasteryExercise, masteryRoomConfig} from './masteryContent.js';
 import {submitMasteryRating, getMasteryCapabilities} from './backend.js';
@@ -14,7 +16,7 @@ const copy={
  no:{title:'Mestringsøving',single:'Én ferdighet',choose:'Velg et kasus',back:'← Bibliotek',start:'Start runden',ready:'Jeg er klar',begin:'Start øvingen',client:'Klient',therapist:'Terapeut',observer:'Observatør',shared:'Felles enhet',orientation:'Bytt ferdighet i 12 sammenhengende øyeblikk · 4 sett med 3',finish:'Fullfør · neste utsagn',finishSet:'Fullfør · vurder settet',pass:'Stå over',rate:'Terapeutens egenvurdering',placeholder:'Velg en vurdering',save:'Lagre vurderingen',localSave:'Registrer vurderingen for runden',saved:'Vurderingen er lagret',localSaved:'Vurderingen er registrert for runden',next:'Fortsett til neste sett',done:'Fullfør runden',again:'Velg neste runde',pause:'Pause · hjem',resume:'Fortsett mestringsøving',clear:'Fjern',passed:'Utsagn dere står over, tas ikke med.',account:'Denne kontoen tilhører terapeuten',own:'Lagres bare i terapeutens konto.',derole:'Gå ut av rollen. Si deres egne navn og ta en pause.',failed:'Kunne ikke lagre. Vurderingen er fortsatt her; prøv igjen.',changed:'Denne runden tilhører en annen konto. Logg inn igjen for å lagre vurderingene.',upgrade:'Mestringsrom er ikke tilgjengelige på denne serveren ennå. Du kan øve individuelt eller på en felles enhet.',offline:'Kunne ikke sjekke romstøtte. Prøv igjen.',preparing:'Forbereder runden …',room:'Bruk dette i rommet',create:'Opprett grupperom',local:'Beholdes for denne runden på enheten. Vurderingen vises ikke i kontoens fremgang.',labels:['Ikke vist ennå','På vei med veiledning','Tilfredsstillende i deler','Godt demonstrert','Svært godt demonstrert']}
 };
 export function supportsMastery(capability, exercise) {
- return capability?.protocol==='guided-mastery-v1' && capability.exercises?.some(e=>e.id===exercise.id && e.revision===exercise.revision);
+ return (!isTaskExercise(exercise)||capability?.taskEpisodesProtocol==='task-episodes-v1') && capability?.protocol==='guided-mastery-v1' && capability.exercises?.some(e=>e.id===exercise.id && e.revision===exercise.revision && (!isTaskExercise(exercise)||e.format==='task-episodes'));
 }
 export const validMasterySession = session => validateMasterySession(session,EXERCISE_CATALOG);
 export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,localizeSkill,getStrings,show,home,library,onRoom,onBegin,onProgress,theme}) {
@@ -24,6 +26,7 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
  let exercise=null,session=null,role='client',busy=false,cloud=false,generation=0,variants=[];
  const s=()=>copy[session?.languageId ?? getLanguage() ?? 'en'];
  const lang=()=>session?.languageId ?? getLanguage() ?? 'en';
+ const task=()=>isTaskExercise(exercise);
  const shared=()=>session?.practiceMode==='shared';
  const button=(title,action,primary=false,id)=>{
   const b=node('button',title,primary?'primary-button':'ghost-button');b.type='button';if(id)b.id=id;
@@ -34,8 +37,10 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
   const saved=read(KEY),no=(getLanguage()??saved?.languageId)==='no',strings=copy[no?'no':'en'];
   const valid=validMasterySession(saved);
   resumeCard.hidden=!valid || document.body.dataset.section!=='home';resumeCard.replaceChildren();if(!valid)return;
-  resumeCard.append(node('h3',strings.resume),node('p',`${EXERCISE_CATALOG.find(e=>e.id===saved.exerciseId).title[saved.languageId]} · ${saved.index+1}/12`));
-  resumeCard.append(button(strings.resume,()=>void resume(),true,'resume-mastery'),button(strings.clear,()=>{write(KEY,null);session=null;refreshResume();}));
+  const meta=EXERCISE_CATALOG.find(e=>e.id===saved.exerciseId),task=isTaskExercise(meta);
+  const title=task?no?'Fortsett oppgaveøvingen':'Resume task practice':strings.resume;
+  resumeCard.append(node('h3',title),node('p',`${meta.title[saved.languageId]} · ${task?`${taskCopy(no?'no':'en').episode} ${Math.floor(saved.index/3)+1}/4`:`${saved.index+1}/12`}`));
+  resumeCard.append(button(title,()=>void resume(),true,'resume-mastery'),button(strings.clear,()=>{write(KEY,null);session=null;refreshResume();}));
  }
  function caseData(){return localizeSkill(lang(),'empathic-understanding',exercise.difficulty).cases.find(c=>c.id===exercise.caseId);}
  function levelChoice() {
@@ -61,7 +66,7 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
  function prepareRound() {
   const mode=getMode()==='triad'?'shared':'individual';
   session={version:4,exerciseType:'mastery',exerciseId:exercise.id,revision:exercise.revision,caseId:exercise.caseId,difficulty:exercise.difficulty,languageId:getLanguage()??'en',practiceMode:mode,
-   roundId:crypto.randomUUID(),ownerId:getUser()?.id??null,phase:'preparation',index:0,sceneIds:exercise.scenes.map(e=>e.id),completedIds:[],skippedIds:[],ratings:{},draftScore:'',therapistAccount:false,pair:false};
+   roundId:crypto.randomUUID(),ownerId:getUser()?.id??null,phase:'preparation',...(task()?{exerciseFormat:'task-episodes'}:{}),index:0,sceneIds:exercise.scenes.map(e=>e.id),completedIds:[],skippedIds:[],ratings:{},draftScore:'',therapistAccount:false,pair:false};
   role='client';render();
  }
  async function choose(id) {
@@ -73,7 +78,7 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
    const user=getUser();cloud=false;let capability=null;
    if(user) {try {capability=await getMasteryCapabilities();cloud=supportsMastery(capability,exercise);} catch {/* Downloaded local practice remains usable without a connection. */}}
    if(current!==generation)return;
-   variants=EXERCISE_CATALOG.filter(e=>e.caseId===exercise.caseId && (getMode()!=='group'||supportsMastery(capability,e)));
+   variants=EXERCISE_CATALOG.filter(e=>e.caseId===exercise.caseId && (e.format??'mastery')===(exercise.format??'mastery') && (getMode()!=='group'||supportsMastery(capability,e)));
    rememberCaseLevel({id:exercise.caseId,supportedLevels:EXERCISE_CATALOG.filter(e=>e.caseId===exercise.caseId).map(e=>e.difficulty)},exercise.difficulty);
    if(getMode()==='group') {
     const body=node('div');body.append(node('h2',exercise.title),node('p',levelLabel(lang(),exercise.difficulty),'room-case-heading'),node('p',exercise.orientation));
@@ -101,6 +106,7 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
  }
  function advance(pass) {
   if(busy || session.phase!=='practicing')return;
+  if(task()&&pass){session=passTaskEpisode(session,exercise);persist();render();return;}
   const id=exercise.scenes[session.index].id;
   (pass?session.skippedIds:session.completedIds).push(id);session.draftScore='';
   if((session.index+1)%3===0)session.phase='rating';else session.index++;
@@ -122,7 +128,7 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
  function render() {
   if(!session||!exercise)return;
   const strings=s(),language=lang(),body=node('div','', 'mastery-body');
-  const header=node('div','', 'panel-header');header.append(button(session.phase==='preparation'?strings.back:strings.pause,()=>{if(session.phase==='preparation')library();else {persist();home();}}),node('h2',strings.title,'panel-title'));body.append(header);
+  const header=node('div','', 'panel-header');header.append(button(session.phase==='preparation'?strings.back:strings.pause,()=>{if(session.phase==='preparation')library();else {persist();home();}}),node('h2',task()?taskCopy(language).title:strings.title,'panel-title'));body.append(header);
   const levelKey={easy:'difficultyEasy',moderate:'difficultyModerate',hard:'difficultyHard'}[exercise.difficulty];
   body.append(node('p',`${exercise.title} · ${getStrings(language)[levelKey]}`,'room-case-heading'));
   theme?.(element,'empathic-understanding',exercise.difficulty);
@@ -130,14 +136,15 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
   const actions=node('div','', 'room-actions mastery-actions');
   if(session.phase==='preparation') {
    const choice=levelChoice();if(choice)body.append(choice);
-   body.append(node('p',strings.orientation,'triad-progress'));
+   body.append(node('p',task()?taskCopy(language).plan:strings.orientation,'triad-progress'));
+   if(task()){body.append(node('p',exercise.orientation));const guide=node('details');guide.append(node('summary',language==='no'?'Om oppgaven':'About the task'),node('p',exercise.guide));body.append(guide);}
    if(shared()){
     const label=node('label','', 'mastery-account-confirm'),check=node('input');check.type='checkbox';check.checked=session.pair;
     check.addEventListener('change',()=>{session.pair=check.checked;if(session.pair&&role==='observer')role='therapist';render();});
     label.append(check,node('span',language==='no'?'Vi er to · terapeuten leder':'We’re two · therapist guides'));body.append(label);
    }
    if(!shared()||role==='client')background(body,true);
-   else body.append(node('p',exercise.orientation));
+   else if(!task())body.append(node('p',exercise.orientation));
    if(role==='observer'&&shared())body.append(sequenceOverview());
    actions.append(button(shared()?(role==='observer'||session.pair&&role==='therapist')?strings.begin:strings.ready:strings.start,()=>{
     if(shared()&&role!=='observer'&&!(session.pair&&role==='therapist')){role=role==='client'?'therapist':'observer';render();return;}
@@ -145,29 +152,31 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
    },true,'mastery-start'));
   }else if(session.phase==='practicing') {
    const scene=exercise.scenes[session.index],skill=localizeSkill(language,scene.skillId);
-   body.append(node('p',`${Math.floor(session.index/3)+1}/4 · ${session.index+1}/12`,'triad-progress'),node('h3',skill.name,'room-practice-heading'),node('p',scene.bridge,'mastery-scene-bridge'));
+   body.append(node('p',task()?`${taskCopy(language).episode} ${Math.floor(session.index/3)+1}/4 · ${taskCopy(language).turn} ${session.index%3+1}/3`:`${Math.floor(session.index/3)+1}/4 · ${session.index+1}/12`,'triad-progress'),node('h3',task()?taskEpisodeAt(exercise,session.index).title:skill.name,'room-practice-heading'),node('p',scene.bridge,'mastery-scene-bridge'));
+   if(task())body.append(createTaskPosition(scene,language));
    if(!shared()||role!=='client')body.append(node('aside',scene.prompt,'individual-guide'));
-   if(!shared()||role!=='therapist') {
+   if(!shared()||(task()?role==='client':role!=='therapist')) {
     const card=node('section','', 'statement-panel');card.append(node('blockquote',scene.text,'statement-text room-statement'));body.append(card);
    }
    if(shared()){
-    const guide=createGroupRoleGuide({language,role,pair:session.pair,focus:scene.prompt,example:scene.suggestion,id:'mastery-your-part',examplePrefix:'mastery'});body.append(guide);
+    const guide=task()?createTaskRoleGuide({language,role,last:session.index%3===2,pair:session.pair,example:scene.suggestion,id:'mastery-your-part'}):createGroupRoleGuide({language,role,pair:session.pair,focus:scene.prompt,example:scene.suggestion,id:'mastery-your-part',examplePrefix:'mastery'});body.append(guide);
     if(role==='observer'||session.pair&&role==='therapist') {
-     body.append(...(session.pair?[]:[createSkillFeedback({skillId:scene.skillId,language})]),createGroupWorkflow({language,pair:session.pair}),sequenceOverview());
-     actions.append(button((session.index+1)%3===0?strings.finishSet:strings.finish,()=>advance(false),true,'mastery-finish'),button(strings.pass,()=>advance(true),false,'mastery-pass'));
+     body.append(...(session.pair||task()?[]:[createSkillFeedback({skillId:scene.skillId,language})]),task()?createTaskWorkflow({language,last:session.index%3===2,pair:session.pair}):createGroupWorkflow({language,pair:session.pair}),sequenceOverview());
+     actions.append(button(task()?session.index%3===2?taskCopy(language).finish:taskCopy(language).next:(session.index+1)%3===0?strings.finishSet:strings.finish,()=>advance(false),true,'mastery-finish'),button(task()?taskCopy(language).pass:strings.pass,()=>advance(true),false,'mastery-pass'));
     }else if(role==='client')background(body);
    }else {
-    body.append(createGroupRoleGuide({language,role:'therapist',example:scene.suggestion,id:'mastery-your-part',examplePrefix:'mastery'}));
-    actions.append(button((session.index+1)%3===0?strings.finishSet:strings.finish,()=>advance(false),true,'mastery-finish'),button(strings.pass,()=>advance(true),false,'mastery-pass'));
+    body.append(task()?createTaskRoleGuide({language,role:'therapist',last:session.index%3===2,example:scene.suggestion,id:'mastery-your-part'}):createGroupRoleGuide({language,role:'therapist',example:scene.suggestion,id:'mastery-your-part',examplePrefix:'mastery'}));
+    actions.append(button(task()?session.index%3===2?taskCopy(language).finish:taskCopy(language).next:(session.index+1)%3===0?strings.finishSet:strings.finish,()=>advance(false),true,'mastery-finish'),button(task()?taskCopy(language).pass:strings.pass,()=>advance(true),false,'mastery-pass'));
    }
   }else {
    const checkpoint=Math.floor(session.index/3)+1,scenes=exercise.scenes.slice((checkpoint-1)*3,checkpoint*3).filter(e=>session.completedIds.includes(e.id));
    const saved=session.ratings?.[checkpoint];
-   body.append(node('h3',`${strings.rate} · ${checkpoint}/4`));
-   body.append(node('p',strings.passed,'response-hint'));
+   body.append(node('h3',`${task()?taskCopy(language).rate:strings.rate} · ${checkpoint}/4`));
+   if(!task())body.append(node('p',strings.passed,'response-hint'));
+   else if(!scenes.length)body.append(node('p',language==='no'?'Episoden er hoppet over og vurderes ikke.':'This episode was passed and will not be rated.','response-hint'));
    if(scenes.length){
-    body.append(node('p',scenes.map(scene=>localizeSkill(language,scene.skillId).name).join(' · '),'mastery-set-skills'));
-    body.append(createMasteryFeedback({language,scenes,skillName:id=>localizeSkill(language,id).name,audience:'self'}));
+    body.append(node('p',task()?taskEpisodeAt(exercise,session.index).title:scenes.map(scene=>localizeSkill(language,scene.skillId).name).join(' · '),'mastery-set-skills'));
+    body.append(createMasteryFeedback({language,scenes,skillName:id=>localizeSkill(language,id).name,audience:'self',reference:task()?exercise.feedback:null}));
     const form=node('form');form.id='mastery-rating-form';form.addEventListener('submit',e=>{e.preventDefault();session.error='';void save();});
     const label=node('label',strings.rate);label.htmlFor='mastery-score';
     const select=node('select');select.id='mastery-score';select.required=true;
@@ -186,7 +195,7 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
     if(saved)body.append(node('p',`${saved.remote?strings.saved:strings.localSaved} · ${saved.score}/5`,'form-status'));
     if(session.error){const error=node('p',session.error,'form-status');error.setAttribute('role','alert');body.append(error);}
    }
-   const next=button(checkpoint===4?strings.done:strings.next,()=>{
+   const next=button(checkpoint===4?strings.done:task()?taskCopy(language).nextEpisode:strings.next,()=>{
     if(busy)return;
     if(checkpoint===4){write(KEY,null);session=null;refreshResume();library();return;}
     session.index++;session.phase='practicing';session.draftScore='';session.error='';role=shared()?'client':role;persist();render();
@@ -200,8 +209,8 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
   const heading=body.querySelector('h3')??body.querySelector('h2');heading.tabIndex=-1;heading.focus({preventScroll:true});window.scrollTo(0,0);
  }
  function sequenceOverview() {
-  const details=node('details','', 'mastery-sequence');details.append(node('summary',lang()==='no'?'De tolv øyeblikkene':'The twelve moments'));
-  const list=node('ol');for(const scene of exercise.scenes)list.append(node('li',localizeSkill(lang(),scene.skillId).name));details.append(list);return details;
+  const details=node('details','', 'mastery-sequence');details.append(node('summary',task()?lang()==='no'?'De fire episodene':'The four episodes':lang()==='no'?'De tolv øyeblikkene':'The twelve moments'));
+  const list=node('ol');if(task())for(const episode of exercise.episodes)list.append(node('li',episode.title));else for(const scene of exercise.scenes)list.append(node('li',localizeSkill(lang(),scene.skillId).name));details.append(list);return details;
  }
  return {element,resumeCard,choose,resume,refreshResume,hasSession:()=>validMasterySession(read(KEY))};
 }

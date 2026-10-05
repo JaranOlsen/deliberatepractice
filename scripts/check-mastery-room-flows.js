@@ -5,8 +5,11 @@ async (page) => {
   const params=new URL(url).searchParams,testCase=params.get('testCase')??'sara',caseId='case-'+testCase;
   if(!['127.0.0.1','localhost'].includes(new URL(url).hostname))throw new Error('Use local preview');
   const manifest=await(await page.request.get(new URL('src/data/runtime/manifest.json',url).href)).json();
-  const exercise=manifest.EXERCISE_CATALOG.find(e=>e.caseId===caseId);
+  const exercise=manifest.EXERCISE_CATALOG.find(e=>params.has('testExercise')?e.id===params.get('testExercise'):e.caseId===caseId);
   if(!exercise)throw new Error('Unauthored mastery case');
+  const task=exercise.format==='task-episodes',pair=exercise.format==='task-episodes'&&params.get('testPair')==='yes',passEpisode=task&&params.get('testPass')==='yes';
+  const artifactPrefix=task?'task':'mastery';
+  const taskScenes=task?(await(await page.request.get(new URL('src/data/runtime/mastery/'+language+'-'+exercise.id+'.json',url).href)).json()).scenes:[];
   const exerciseId=exercise.id,variable=exercise.supportedLevels.length>1,level=params.get('testLevel')??exercise.difficulty;
   const users=await (await page.request.get('http://127.0.0.1:5199/users')).json();
   const contexts=[],pages=[],errors=[];
@@ -16,7 +19,7 @@ async (page) => {
   let room,loseResponse=false,stage='setup',claimRace=false,readyRace=false,disconnectedUser=null;
   const claimWaiters=[],claimResults=[];
   const readyWaiters=[],readyResults=[];
-  for(const user of ['o','t','c','p']) {
+  for(const user of pair?['t','c']:['o','t','c','p']) {
     const context=await page.context().browser().newContext({viewport:{width:320,height:844}});contexts.push(context);
     const p=await context.newPage();pages.push(p);p.on('pageerror',e=>errors.push(e.message));
     await context.route('**/src/js/backend.js*',route=>route.fulfill({contentType:'text/javascript',body:`
@@ -86,17 +89,17 @@ async (page) => {
     await context.addInitScript(language=>{localStorage.setItem('dp_access_level','all');localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:language,practiceMode:'group',groupUiVersion:2}));},language);
     await p.goto(url);await p.waitForFunction(()=>['Account','Konto'].includes(document.querySelector('#account-button').textContent));
   }
-  const [o,t,c,watcher]=pages;
+  const [o,t,c,watcher]=pair?[pages[0],pages[0],pages[1],null]:pages;
   const click=async(p,id)=>{
     const waits=['room-next','room-pass','room-save','room-rotate','room-change-role-submit','room-ready'].includes(id) && !loseResponse;
     const v=waits?Number(await p.locator('#room-panel').getAttribute('data-version')):0;
-    if(id==='room-pass')p.once('dialog',dialog=>dialog.accept());
+    if(id==='room-pass')p.once('dialog',async dialog=>{if(task)assert(dialog.message().includes(language==='no'?'hele episoden':'whole episode'),'Confirmation describes whole-episode exclusion');await dialog.accept();});
     await p.locator('#'+id).click();
     if(waits)await p.waitForFunction(v=>Number(document.getElementById('room-panel').dataset.version)>v,v);
   };
   const sync=async()=>{
     // Leave returns only {left:true}; fetch the committed version before waiting on UI.
-    const current=await page.request.post('http://127.0.0.1:5199/rpc',{data:{user:users.o,name:'sync_practice_room',args:{input_room_id:room.id,input_acknowledged_version:-1}}});
+    const current=await page.request.post('http://127.0.0.1:5199/rpc',{data:{user:pair?users.t:users.o,name:'sync_practice_room',args:{input_room_id:room.id,input_acknowledged_version:-1}}});
     assert(current.ok(),'Host can fetch the committed room snapshot');room=await current.json();
     for(let i=0;i<2;i++)for(const p of pages)await p.evaluate(()=>document.getElementById('room-sync').click());
     for(const p of pages)await p.waitForFunction(v=>Number(document.getElementById('room-panel').dataset.version)===v,room.version);
@@ -119,11 +122,11 @@ async (page) => {
     }
   };
   try {
-    await click(o,'group-create');await o.locator('#room-host-options summary').click();await o.locator('#room-host-role').selectOption('observer');await click(o,'room-create');await o.locator('#room-share-code').waitFor();
-    for(const [p,role] of [[t,'therapist'],[c,'client'],[watcher,'passive']]){
+    await click(o,'group-create');await o.locator('#room-host-options summary').click();await o.locator('#room-host-role').selectOption(pair?'therapist':'observer');await click(o,'room-create');await o.locator('#room-share-code').waitFor();
+    for(const [p,role] of pair?[[c,'client']]:[[t,'therapist'],[c,'client'],[watcher,'passive']]){
       await click(p,'group-join');await p.locator('#room-code').fill(room.code);await p.locator('#room-join-options summary').click();await p.locator('#room-role').selectOption(role);await click(p,'room-join');await p.locator('#room-share-code').waitFor();
     }
-    await sync();await click(o,'room-choose');await o.locator('#exercise-mastery').click();await o.locator(`[data-exercise-id="${exerciseId}"]`).click();
+    await sync();await click(o,'room-choose');await o.locator(task?'#exercise-task':'#exercise-mastery').click();await o.locator(`[data-exercise-id="${exerciseId}"]`).click();
     if(variable&&level!=='easy'){await o.locator(`[data-practice-level="${level}"]`).click();await o.waitForFunction(level=>document.querySelector(`[data-practice-level="${level}"]`)?.getAttribute('aria-pressed')==='true',level);}
     await o.locator('#mastery-use-room').click();await o.locator('.room-preparation').waitFor();await sync();
     const round=room.round_id,roles=[room.therapist_id,room.client_id,room.observer_id],order=[...room.statement_ids];
@@ -141,15 +144,23 @@ async (page) => {
         assert(room.round_id===round&&JSON.stringify([room.therapist_id,room.client_id,room.observer_id])===JSON.stringify(roles),'Roles persist for all twelve moments');
         assert(await t.locator('#room-content blockquote').count()===0,'Therapist sees only prompt, not script');
         assert(await c.locator('#room-content .skill-feedback-guide').count()===0,'Client sees no assessment cues');
-        for(const p of [o,c,watcher])assert(await p.locator('#room-content blockquote').count()===1,'Reader/observers see current client line');
-        assert(await o.locator('.mastery-scene-cues li').count()===2,'Observer has two concise skill cues');
-        assert(await watcher.locator('#room-next').isHidden()&&await t.locator('#room-next').isHidden(),'Only active observer guides');
+        assert(await c.locator('#room-content blockquote').count()===1,'Client sees the current scripted line');
+        for(const p of [o,watcher].filter(Boolean))assert(await p.locator('#room-content blockquote').count()===(task?0:1),'Task observers guide without client scripts');
+        assert(await o.locator('.mastery-scene-cues li').count()===(task?0:2),'Task episodes use integrated feedback after the episode');
+        if(task)for(const p of pages)assert(await p.locator('[data-task-position]').getAttribute('data-task-position')===taskScenes[(set-1)*3+item].position,'All roles see the same chair position');
+        if(task)assert((await o.locator('#room-content .individual-guide').textContent())===taskScenes[(set-1)*3+item].prompt,'Observer has the current task prompt');
+        assert((!watcher||await watcher.locator('#room-next').isHidden())&&(await t.locator('#room-next').isHidden())===!pair,'Only active guide advances');
+        if(task&&set===1&&item===0){for(const p of pages)await p.locator('#room-your-part summary').click();await largeTextFits('Expanded task guidance');for(const p of pages)await p.locator('#room-your-part summary').click();}
         await largeTextFits(stage);
-        if(set===1&&item===0)for(const [name,p] of [['observer',o],['client',c],['therapist',t]])await p.screenshot({path:`output/playwright/mastery-room-${testCase}-${language}-${name}-320.png`,fullPage:true});
+        if(set===1&&item===0)for(const [name,p] of [[pair?'pair-guide':'observer',o],['client',c],['therapist',t]])await p.screenshot({path:`output/playwright/${artifactPrefix}-room-${testCase}-${language}-${name}-320.png`,fullPage:true});
         if(set===2&&item===0){
           // Resume the same scene after reconnect, including a switched skill.
           const current=room.statement_ids[room.item_index];await t.reload();await t.locator('#group-resume').click();await t.locator('#room-content .individual-guide').waitFor();await sync();
           assert(room.statement_ids[room.item_index]===current,'Reconnect resumes exact scene');
+        }
+        if(passEpisode&&set===2&&item===1){
+          await ready(o,'room-pass');await click(o,'room-pass');await sync();
+          assert(room.item_index===5&&room.skipped_ids.length===3&&room.completed_ids.length===3,'Passing discards all three turns of a begun episode');break;
         }
         await ready(o,'room-next');
         if(set===1&&item===0){loseResponse=true;await click(o,'room-next');await o.locator('#room-retry').waitFor();await ready(o,'room-retry');await click(o,'room-retry');await o.waitForFunction(()=>document.getElementById('room-retry').hidden);}
@@ -157,16 +168,18 @@ async (page) => {
         await sync();
       }
       assert(room.phase==='round_debrief','Three scenes reach a checkpoint');
-      assert(await t.locator('#room-rating-form').count()===0&&await c.locator('#room-rating-form').count()===0,'Only active observer rates');
-      await o.locator('#room-score').selectOption(String(set+1));await ready(o,'room-save');await click(o,'room-save');await sync();
+      assert(await t.locator('#room-rating-form').count()===(pair&&!passEpisode?1:pair&&set!==2?1:0)&&await c.locator('#room-rating-form').count()===0,'Only active observer or pair therapist rates');
+      if(passEpisode&&set===2)assert(await o.locator('#room-score').count()===0,'No score for a passed episode');
+      else {await o.locator('#room-score').selectOption(String(set+1));await ready(o,'room-save');await click(o,'room-save');await sync();}
       await largeTextFits('Checkpoint');
       await ready(o,'room-rotate');await click(o,'room-rotate');await sync();
     }
     const rows=(await (await page.request.get('http://127.0.0.1:5199/mastery-ratings')).json()).filter(r=>r.parent_round_id===round);
-    assert(rows.length===4&&rows.every(r=>r.source==='observer'&&r.difficulty===level&&r.therapist_user_id===roles[0]&&r.created_by_user_id===roles[2]&&r.practice_mode==='group'),'Four observer checkpoints belong only to the therapist at the selected level');
+    assert(rows.length===(passEpisode?3:4)&&rows.every(r=>r.source===(pair?'self':'observer')&&r.difficulty===level&&r.therapist_user_id===roles[0]&&r.created_by_user_id===roles[pair?0:2]&&r.practice_mode==='group'),'Four observer checkpoints belong only to the therapist at the selected level');
+    if(task)assert(rows.every(r=>r.exercise_format==='task-episodes'&&r.task_id===exercise.taskId&&r.episode_id===exercise.episodes[r.set_number-1].id),'Task scores have explicit episode provenance');
     assert((await ratings()).filter(r=>!existingRatings.has(r.id)).length===0,'Mastery creates no focused ratings');
     assert(room.phase==='choosing'&&!room.exercise_id&&!room.therapist_id&&!room.client_id&&!room.observer_id,'After twelve, choose roles and material again');
-    await o.screenshot({path:'output/playwright/mastery-room-next-round-320.png',fullPage:true});
+    await o.screenshot({path:`output/playwright/${artifactPrefix}-room-next-round-320.png`,fullPage:true});
     assert(errors.length===0,'No runtime errors: '+errors.join(';'));
     return {checkpoints:rows.length,roles,errors};
   }catch(error){throw new Error(`${stage}: ${error.message}`);}

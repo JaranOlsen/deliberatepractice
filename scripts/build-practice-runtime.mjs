@@ -1,3 +1,4 @@
+import {TASK_EXERCISES} from '../src/data/taskExercises.js';
 import {FOCUSED_CONTENT_COMPATIBILITY} from "../src/data/contentCompatibility.js";
 import {MASTERY_EXERCISES} from "../src/data/masteryExercises.js";
 import { mkdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
@@ -48,13 +49,13 @@ for (const language of LANGUAGE_ORDER) {
 const artifacts = new Map([['manifest.json', {
   SKILL_ORDER, CASE_ORDER, CONTENT_REVISION, CONTENT_UPDATED_AT,
   FOCUSED_CONTENT_COMPATIBILITY,
-  EXERCISE_CATALOG: MASTERY_EXERCISES.map(({scenes, ...exercise}) => ({...exercise, sceneIds: scenes.map(scene => scene.id)})),
+  EXERCISE_CATALOG: [...MASTERY_EXERCISES,...TASK_EXERCISES].map(({scenes, ...exercise}) => ({...exercise, sceneIds: scenes.map(scene => scene.id)})),
   LANGUAGE_ORDER, LANGUAGE_METADATA, LANGUAGE_UI, GLOSSARY,
   CASE_FORMULATION_TRANSLATIONS, CASE_OVERRIDES: caseOverrides,
   LANGUAGE_OVERRIDES: skillOverrides, skills, cases, statementCounts
 }]]);
 for (const language of LANGUAGE_ORDER) {
-  for (const exercise of MASTERY_EXERCISES) artifacts.set(`mastery/${language}-${exercise.id}.json`, {...exercise, title: exercise.title[language], orientation: exercise.orientation[language], scenes: exercise.scenes.map(({en, no, ...scene}) => ({...scene, ...({en, no}[language])}))});
+  for (const exercise of [...MASTERY_EXERCISES,...TASK_EXERCISES]) artifacts.set(`mastery/${language}-${exercise.id}.json`, {...exercise, title: exercise.title[language], orientation: exercise.orientation[language], ...(exercise.format==='task-episodes'?{guide:exercise.guide[language],feedback:exercise.feedback[language],episodes:exercise.episodes.map(e=>({...e,title:e.title[language]}))}:{}), scenes: exercise.scenes.map(({en, no, ...scene}) => ({...scene, ...({en, no}[language])}))});
   for (const skillId of SKILL_ORDER) {
     const skillCases = {};
     for (const caseId of CASE_ORDER[skillId]) {

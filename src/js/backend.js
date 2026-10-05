@@ -428,13 +428,23 @@ export async function listMasteryRatings({source = 'self'} = {}) {
   const {data:{user},error:authError} = await client.auth.getUser();
   if (authError) throw new Error('Unable to load mastery history');
   if (!user) return [];
+  const fields='id,source,language_id,exercise_id,content_revision,case_id,difficulty,parent_round_id,set_number,completed_scene_ids,practiced_skill_ids,item_count,score,created_at,practice_mode';
+  let taskColumns=true;
   return collectRatingPages(async cursor => {
-    let query = client.from('mastery_ratings').select('id,source,language_id,exercise_id,content_revision,case_id,difficulty,parent_round_id,set_number,completed_scene_ids,practiced_skill_ids,item_count,score,created_at,practice_mode')
+   const fetchPage=async()=>{
+    let query = client.from('mastery_ratings').select(fields+(taskColumns?',exercise_format,task_id,episode_id':''))
       .eq('therapist_user_id',user.id).eq('source',source).order('created_at',{ascending:false}).order('id',{ascending:false}).limit(250);
     if (cursor) query = query.or(`created_at.lt.${cursor.created_at},and(created_at.eq.${cursor.created_at},id.lt.${cursor.id})`);
     const {data,error} = await query.abortSignal(AbortSignal.timeout(15000));
-    if (error?.code === 'PGRST205' || error?.code === '42P01') return [];
-    if (error) throw new Error('Unable to load mastery history');
-    return data ?? [];
+    return {data,error};
+   };
+   let {data,error}=await fetchPage();
+   // Keep history readable on a server that has not installed task episodes yet.
+   if(taskColumns && ['42703','PGRST204'].includes(error?.code) && /exercise_format|task_id|episode_id/.test(error.message??'')){
+    taskColumns=false;({data,error}=await fetchPage());
+   }
+   if (error?.code === 'PGRST205' || error?.code === '42P01') return [];
+   if (error) throw new Error('Unable to load mastery history');
+   return data ?? [];
   });
 }

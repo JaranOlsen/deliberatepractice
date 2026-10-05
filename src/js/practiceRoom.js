@@ -1,4 +1,6 @@
-import {loadMasteryExercise} from "./masteryContent.js";
+import {isTaskExercise,taskEpisodeAt} from './taskProtocol.js';
+import {taskCopy,createTaskPosition,createTaskRoleGuide,createTaskWorkflow} from './taskPracticeUI.js';
+import {loadMasteryExercise,EXERCISE_CATALOG} from "./masteryContent.js";
 import {createMasteryFeedback} from "./masteryFeedbackUI.js";
 import {getSkillFeedback} from "../data/skillFeedback.js";
 import {GROUP_PRACTICE_COPY, createGroupWorkflow, createGroupRoleGuide} from './groupPracticeUI.js';
@@ -204,6 +206,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       }
       if (next.statement_ids.some(id => !entries.some(e => e.id === id))) throw new Error(strings().failedContent);
     }
+    const task=isTaskExercise(exercise);
     if (!isCurrent() || !open || getUser()?.id !== userId) return;
     if (configured && !ended && (room?.id !== next.id || room?.skill_id !== next.skill_id || room?.exercise_id !== next.exercise_id || room?.case_id !== next.case_id || room?.language_id !== next.language_id)) onMaterialChange?.(next);
     if (next.saved_score && (room?.round_id !== next.round_id || room?.saved_score !== next.saved_score)) onProgressChange?.({source: next.observer_id ? 'observer' : 'self',exerciseType:next.exercise_type});
@@ -247,7 +250,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       goalView?.destroy(); goalView = null;
       body.replaceChildren();
       if (configured && !ended) {
-        const heading=node('h3',mastery && !active ? exercise.title : skill.name,'room-practice-heading');
+        const heading=node('h3',task ? active?taskEpisodeAt(exercise,next.item_index).title:exercise.title : mastery && !active ? exercise.title : skill.name,'room-practice-heading');
         if(mastery && active)applyTheme?.(heading,skill.id,caseData.difficulty);
         body.append(heading,node('p',caseData.supportedLevels.length>1?`${caseData.label} · ${caseData.difficultyLabel}`:caseData.label,'room-case-heading'));
       }
@@ -258,7 +261,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
         body.append(node('h3', next.round_size === 12 && next.round_number > 1 ? s.nextRound : s.choosing));
         if (next.host_id !== userId) body.append(node('p', s.waitingForHost));
       } else if (next.phase === 'lobby') {
-        body.append(node('p', `${s.round} ${next.round_number} · ${next.round_size === 12 ? s.roundPlan : s.lobby}`, 'triad-progress'));
+        body.append(node('p',task?taskCopy(language).plan:`${s.round} ${next.round_number} · ${next.round_size === 12 ? s.roundPlan : s.lobby}`, 'triad-progress'));
         if (next.round_interrupted) body.append(node('p', s.interrupted, 'response-hint'));
         const prep = node('section', '', 'room-preparation');
         if (role === 'client') {
@@ -282,37 +285,39 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
           if(mastery)prep.append(node('p',caseData.teaser),node('p',exercise.orientation));
           else prep.append(node('p',skill.practiceFocus));
           if(mastery && ['observer','passive'].includes(role)) {
-            const outline=node('details');outline.append(node('summary',language==='no'?'De tolv øyeblikkene':'The twelve moments'));
-            const list=node('ol');for(const scene of entries)list.append(node('li',localizeSkill(language,scene.skillId).name));outline.append(list);prep.append(outline);
+            const outline=node('details');outline.append(node('summary',task?language==='no'?'De fire episodene':'The four episodes':language==='no'?'De tolv øyeblikkene':'The twelve moments'));
+            const list=node('ol');if(task)for(const episode of exercise.episodes)list.append(node('li',episode.title));else for(const scene of entries)list.append(node('li',localizeSkill(language,scene.skillId).name));outline.append(list);prep.append(outline);
           }
         }
+        if(task){const details=node('details');details.append(node('summary',language==='no'?'Om oppgaven':'About the task'),node('p',exercise.guide));prep.append(details);if(role==='client')prep.append(node('p',exercise.orientation));}
         prep.append(node('p', self ? s.awarenessCue[role] : !roomNeedsObserver(next) && role === 'therapist' ? s.pairPreparation : s.prepCue[role], 'room-preparation-cue'));
         if (self && !roomNeedsObserver(next) && role === 'therapist') prep.append(node('p', s.pairPreparation, 'room-preparation-cue'));
         body.append(prep);
       } else if (active) {
-        body.append(node('p', `${s.set} ${set.number}/${set.total} · ${s.item} ${next.item_index + 1}/${next.statement_ids.length}`, 'triad-progress'));
+        body.append(node('p',task?`${taskCopy(language).episode} ${set.number}/4 · ${taskCopy(language).turn} ${next.item_index%3+1}/3`:`${s.set} ${set.number}/${set.total} · ${s.item} ${next.item_index + 1}/${next.statement_ids.length}`,'triad-progress'));
         const statement = currentScene;
         if(mastery)body.append(node('p',statement.bridge,'mastery-scene-bridge'));
-        if (role === 'client' || (mastery && ['observer','passive'].includes(role))) {
+        if(task)body.append(createTaskPosition(statement,language));
+        if (role === 'client' || (mastery && !task && ['observer','passive'].includes(role))) {
           const card = node('section', '', 'statement-panel');
           card.append(node('blockquote', statement.text, 'statement-text room-statement')); body.append(card);
         }
-        else if (role === 'therapist') body.append(node('aside', mastery ? statement.prompt : skill.practiceFocus, 'individual-guide'));
-        if(mastery && ['observer','passive'].includes(role)) {
+        else if (role === 'therapist' || task && ['observer','passive'].includes(role)) body.append(node('aside', mastery ? statement.prompt : skill.practiceFocus, 'individual-guide'));
+        if(mastery && !task && ['observer','passive'].includes(role)) {
           const cues=node('ul','', 'mastery-scene-cues');for(const cue of getSkillFeedback(statement.skillId,language).cues)cues.append(node('li',cue));body.append(cues);
         }
-        const guide = createGroupWorkflow({language, awareness: self, pair: !next.observer_id,
+        const guide = task?createTaskWorkflow({language,last:next.item_index%3===2,pair:!next.observer_id}):createGroupWorkflow({language, awareness: self, pair: !next.observer_id,
           id: 'room-workflow-guide', open: ['observer','passive'].includes(role) || (!next.observer_id && role === 'therapist')});
         const guideKey = `${self ? 'awareness' : 'skill'}:${role}`;
-        const part = createGroupRoleGuide({language, awareness: self, role, pair: !next.observer_id,
+        const part = task?createTaskRoleGuide({language,role,last:next.item_index%3===2,pair:!next.observer_id,example:statement.suggestion,id:'room-your-part',open:roleGuideOpen.get(guideKey)??false,onToggle:expanded=>roleGuideOpen.set(guideKey,expanded)}):createGroupRoleGuide({language, awareness: self, role, pair: !next.observer_id,
           id: 'room-your-part', open: roleGuideOpen.get(guideKey) ?? false, focus: mastery ? null : skill.practiceFocus,
           example: statement.suggestion, examplePrefix: 'room',
           onToggle: expanded => roleGuideOpen.set(guideKey, expanded)});
         if (['observer','passive'].includes(role) || (!next.observer_id && role === 'therapist')) body.append(guide, part);
         else body.append(part, guide);
       } else if (next.phase === 'round_debrief') {
-        if(mastery)body.append(node('p',entries.filter(e=>set.completed.includes(e.id)).map(e=>localizeSkill(language,e.skillId).name).join(' · '),'mastery-set-skills'));
-        body.append(node('h4', next.round_size === 12 ? `${s.rateSet} · ${set.number}/${set.total}` : s.debrief), node('p', `${set.completed.length} ${s.practiced} · ${set.skipped.length} ${s.passed}`, 'triad-progress'));
+        if(mastery)body.append(node('p',task?taskEpisodeAt(exercise,next.item_index).title:entries.filter(e=>set.completed.includes(e.id)).map(e=>localizeSkill(language,e.skillId).name).join(' · '),'mastery-set-skills'));
+        body.append(node('h4', task?`${taskCopy(language).rate} · ${set.number}/4`:next.round_size === 12 ? `${s.rateSet} · ${set.number}/${set.total}` : s.debrief), node('p', `${set.completed.length} ${s.practiced} · ${set.skipped.length} ${s.passed}`, 'triad-progress'));
         if (set.completed.length) body.append(node('p', (self ? s.awarenessReflection : s.reflection)[role]));
         if (set.last) body.append(node('p', s.derole, 'response-hint'));
         const nextFocus = node('details'); nextFocus.append(node('summary', s.nextFocus), node('p', ui.triadDebriefGroup));
@@ -334,7 +339,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       const selfRating = !next.observer_id && role === 'therapist' && next.phase === 'round_debrief' && set.completed.length > 0;
       if (configured && !ended && next.phase !== 'choosing' && (role === 'observer' || selfRating)) {
         if(mastery) {
-          if(next.phase==='round_debrief' && set.completed.length)body.append(createMasteryFeedback({language,scenes:entries.filter(e=>set.completed.includes(e.id)),skillName:id=>localizeSkill(language,id).name,audience:selfRating?'self':'observer'}));
+          if(next.phase==='round_debrief' && set.completed.length)body.append(createMasteryFeedback({language,scenes:entries.filter(e=>set.completed.includes(e.id)),skillName:id=>localizeSkill(language,id).name,audience:selfRating?'self':'observer',reference:task?exercise.feedback:null}));
         }else body.append(createSkillFeedback({skillId:next.skill_id, language, id:'room-feedback-reference',
           audience:selfRating ? 'self' : 'observer'}));
       }
@@ -432,9 +437,10 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     el('choose').disabled = commanding || !fresh;
     if (snapshot.phase === 'choosing') { if (el('choose').parentElement !== el('actions')) el('actions').prepend(el('choose')); }
     else if (el('choose').parentElement === el('actions')) el('content').after(el('choose'));
+    const task=isTaskExercise(EXERCISE_CATALOG.find(e=>e.id===snapshot.exercise_id));
     const active = ['practicing','first_attempt', 'client_feedback', 'observer_feedback', 'retry'].includes(snapshot.phase);
     el('next').hidden = !controls || (!active && snapshot.phase !== 'lobby') || !!pending;
-    text('next', snapshot.phase === 'lobby' ? s.start : (snapshot.item_index + 1) % 3 === 0 ? s.finishLast : s.finishNext);
+    text('next', snapshot.phase === 'lobby' ? s.start : task?snapshot.item_index%3===2?taskCopy(language).finish:taskCopy(language).next : (snapshot.item_index + 1) % 3 === 0 ? s.finishLast : s.finishNext);
     el('next').disabled = commanding || !fresh || (snapshot.phase === 'lobby' ? !roomCanStart(snapshot) : !roomEveryoneReady(snapshot));
     const confirmed = snapshot.ready_ids?.includes(userId);
     el('ready').hidden = snapshot.phase !== 'lobby' || ended || !roomReadinessRoles(snapshot).includes(role) || !!pending;
@@ -443,12 +449,12 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     el('ready').setAttribute('aria-pressed', String(!!confirmed));
     el('ready').disabled = commanding || !fresh || !snapshot.presence?.[userId]?.connected || snapshot.presence?.[userId]?.acknowledged_version !== snapshot.version;
     el('pass').hidden = !controls || !active || !!pending;
-    el('pass').disabled = el('next').disabled;
+    el('pass').disabled = el('next').disabled;text('pass',task?taskCopy(language).pass:s.pass);
     el('rotate').hidden = !controls || snapshot.phase !== 'round_debrief' || !!pending;
     const save = el('save'), score = el('score');
     const unrated = set.completed.length > 0 && !snapshot.saved_score;
     const changedRating = score && snapshot.saved_score && Number(score.value) !== snapshot.saved_score;
-    text('rotate', unrated ? s.skipRating : changedRating ? s.skipChanges : snapshot.round_size === 12 ? set.last ? s.nextRound : s.nextSet : s.rotate);
+    text('rotate', unrated ? s.skipRating : changedRating ? s.skipChanges :task&&!set.last?taskCopy(language).nextEpisode: snapshot.round_size === 12 ? set.last ? s.nextRound : s.nextSet : s.rotate);
     el('rotate').className = unrated || changedRating ? 'ghost-button' : 'primary-button';
     el('rotate').disabled = el('next').disabled;
     el('end').hidden = !hostControls || !!pending; el('end').disabled = commanding || !fresh;
@@ -457,7 +463,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     el('another').hidden = !ended;
     el('done').hidden = !ended;
     save.hidden = !controls || snapshot.phase !== 'round_debrief' || !set.completed.length || (!!snapshot.saved_score && Number(score?.value) === snapshot.saved_score) || !!pending;
-    text('save', snapshot.saved_score ? s.updateRating : snapshot.exercise_type==='mastery' ? language==='no'?'Lagre vurdering av settet':'Save set rating' : s.save);
+    text('save', snapshot.saved_score ? s.updateRating : task?language==='no'?'Lagre vurderingen av episoden':'Save episode rating':snapshot.exercise_type==='mastery' ? language==='no'?'Lagre vurdering av settet':'Save set rating' : s.save);
     save.disabled = commanding || !!pending || !fresh || !score?.value;
     el('actions').hidden = ![...el('actions').children].some(button => !button.hidden);
     el('sync').hidden = fresh && !error;
@@ -607,7 +613,11 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
   el('leave').addEventListener('click', () => confirmExit('leave'));
   el('sync').addEventListener('click', () => { void sync.sync(); });
   el('next').addEventListener('click', () => { void sync.command(room.phase === 'lobby' ? 'start' : 'finish_item'); });
-  el('pass').addEventListener('click', () => { if (window.confirm(strings().confirmPass)) void sync.command('pass'); });
+  el('pass').addEventListener('click', () => {
+    const task=isTaskExercise(EXERCISE_CATALOG.find(e=>e.id===room?.exercise_id));
+    const message=task?language==='no'?'Stå over hele episoden for alle? Ingen av de tre øyeblikkene blir vurdert.':'Pass the whole episode for everyone? None of its three moments will be rated.':strings().confirmPass;
+    if(window.confirm(message))void sync.command('pass');
+  });
   el('rotate').addEventListener('click', () => {
     const action = room.round_size === 12 ? room.item_index === 11 ? 'prepare_next' : 'continue_set' : 'rotate';
     void sync.command(action);
