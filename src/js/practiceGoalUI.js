@@ -46,7 +46,7 @@ export function createPracticeGoalView({userId, languageId, skillId, editable = 
   const current = () => alive && signedInUser === (userId ?? null);
   function render() {
     if (!current()) { root.hidden = true; root.replaceChildren(); return; }
-    root.hidden = !shared && !editable && !value && !loading;
+    root.hidden = !shared && !editable && !value && !loading && loaded;
     change.hidden = !editable || editing || loading || !loaded || !userId;
     change.textContent = value ? s.edit : s.add;
     reminder.hidden = !value || editing; reminder.textContent = value;

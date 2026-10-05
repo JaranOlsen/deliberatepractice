@@ -172,6 +172,9 @@ async (page) => {
   assert((await text('triad-debrief-counts')).includes('1 practiced · 2 passed'), 'Passes must be separated from completion');
   await click('triad-complete-round');
   assert((await session()).roundId === firstRound.roundId, 'A rating checkpoint retains the complete group round');
+  await page.locator('[data-rating-score="3"]').click();
+  assert(await page.locator('#rating-submit').isHidden() && await page.locator('#rating-goal-view').count()===0,'Signed-out shared feedback needs no login or account save');
+  assert((await text('rating-status'))==='', 'Shared feedback has no login warning');
   await click('rating-skip');
   for (let set=1;set<4;set++) {
     assert((await session()).index === set*3, 'Next set continues the same order');
@@ -251,7 +254,8 @@ async (page) => {
   await page.locator('button[data-skill-id="empathic-understanding"]').click();
   await page.locator('[data-case-id="case-sara"]').click();
   assert(await page.locator('#start-practice').isDisabled(), 'A signed-in round must wait for its therapist target');
-  assert((await text('round-target-note')).includes('Loading account'), 'Account loading must explain why practice cannot start yet');
+  assert((await text('start-practice')).includes('Loading account'), 'Account loading explains why individual practice cannot start');
+  assert(await page.locator('#round-target-note').count()===0,'No obsolete practicing-for note');
   assert(await session() === null, 'Account loading must not create a guest round');
   holdProfile = false;
   releaseProfile();
@@ -290,7 +294,7 @@ async (page) => {
   await page.evaluate(()=>localStorage.setItem('dp_active_therapist_target_v1:test-self',JSON.stringify({targetId:'test-partner'})));
   await page.reload();
   await setup('en', 'empathic-understanding', 'triad');
-  assert((await session()).roundTarget.target_user_id === 'test-self', 'An old paired-target preference must not redirect a new local round');
+  assert((await session()).roundTarget === null && (await session()).roundRaterId === null, 'Shared practice has no account owner or partner target');
   const legacySharedRound = await session();
   await click('next-statement');
   await click('view-case-brief');
@@ -298,33 +302,29 @@ async (page) => {
   await click('finish-completed');
   await click('triad-complete-round');
   await page.locator('[data-rating-score="3"]').click();
-  await click('rating-submit');
-  await page.waitForFunction(() => document.querySelector('#rating-status').textContent === 'Rating saved.');
-  assert(saves.at(-1).practiceMode === 'triad' && saves.at(-1).ratingRubric === 'group-skill-v2' && saves.at(-1).source === 'self' && saves.at(-1).therapistUserId === 'test-self'
-    && saves.at(-1).itemCount === 1, 'Shared-device assessment must save to this account with completed items only');
+  assert(await page.locator('#rating-submit').isHidden(),'Shared feedback has no save action');
+  assert(saves.length===2,'Shared feedback never saves an account rating');
   await click('rating-skip');
   await setup('en', 'empathic-understanding', 'triad');
   const completeGroup = await session(), ratingStart = saves.length;
   for (let set=0;set<4;set++) {
     for(let i=0;i<3;i++) await click('next-statement');
     await click('triad-complete-round');
-    await page.locator('[data-rating-score="4"]').click();await click('rating-submit');
-    await page.waitForFunction(()=>document.querySelector('#rating-status').textContent==='Rating saved.');
-    const savedSet = await session();
-    assert(savedSet.roundId===completeGroup.roundId && savedSet.groupRatingSaved, 'The complete round and saved checkpoint survive');
+    await page.locator('[data-rating-score="4"]').click();
+    assert(await page.locator('#rating-submit').isHidden(),'Every shared checkpoint has no save');
+    assert((await session()).roundId===completeGroup.roundId,'Checkpoint retains the full round');
     if(set===1) {
       await page.reload();await click('resume-button');await click('triad-complete-round');
-      assert(await page.locator('#rating-submit').isHidden(), 'Reload preserves a saved set without offering another save');
+      assert(await page.locator('#rating-submit').isHidden(), 'Reload cannot enable account saving');
     }
     await click('rating-skip');
   }
   const groupSaves=saves.slice(ratingStart);
-  assert(groupSaves.length===4 && new Set(groupSaves.map(r=>r.roundId)).size===4, 'Four sets save four distinct ratings');
-  assert(groupSaves.every((r,i)=>r.parentRoundId===completeGroup.roundId && r.setNumber===i+1 && r.itemCount===3 && JSON.stringify(r.completedStatementIds)===JSON.stringify(completeGroup.roundStatementIds.slice(i*3,i*3+3))), 'Each shared rating covers only its three items');
+  assert(groupSaves.length===0,'Four shared sets never create account ratings');
   assert(await session()===null && await visible('skill-selection'), 'After twelve shared items choose roles, skill and case again');
   // A paused round from the old pairing flow keeps its captured therapist.
   await page.evaluate(round=>{
-    round.roundId=crypto.randomUUID();
+    round.roundId=crypto.randomUUID();round.roundRaterId='test-self';
     round.roundStatementIds=round.roundStatementIds.slice(0,3);
     round.orderIds=round.roundStatementIds;
     round.roundTarget={target_user_id:'test-partner',display_name:'Test Partner',target_kind:'observer',partnership_id:'test-pair'};
@@ -334,11 +334,12 @@ async (page) => {
   assert((await session()).roundTarget.target_user_id === 'test-partner', 'Retiring pairing must not silently retarget an unfinished legacy round');
   await click('next-statement');
   for (let i=0;i<2;i++) { await click('triad-pass-item');await click('triad-pass-confirm'); }
-  await click('triad-complete-round');await page.locator('[data-rating-score="2"]').click();await click('rating-submit');
-  await page.waitForFunction(()=>document.querySelector('#rating-status').textContent==='Rating saved.');
-  assert(saves.at(-1).therapistUserId==='test-partner' && saves.at(-1).source==='observer', 'Existing paused observer rounds retain their captured rating ownership');
+  await click('triad-complete-round');await page.locator('[data-rating-score="2"]').click();
+  assert(await page.locator('#rating-submit').isHidden(),'Old partner-target shared sessions also cannot save');
+  await page.locator('#rating-submit').evaluate(button=>button.dispatchEvent(new Event('click',{bubbles:true})));
+  assert(saves.length===2,'Legacy shared target does not create observer ratings even if its old save control is triggered');
   await click('rating-skip');
-  console.log('PASS self ratings, retired pairing, stale preference isolation, preserved legacy round target and save retry');
+  console.log('PASS self ratings, retired pairing, stale preference isolation, legacy shared saving disabled and individual save retry');
   await page.reload();
   await click('repeat-last-setup');
   assert(await page.locator('input[value="group"]').isChecked(), 'Repeat setup must restore group format');

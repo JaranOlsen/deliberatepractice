@@ -1925,7 +1925,6 @@ input[type="email"] {
 #triad-retry-hint { flex-basis: 100%; margin: 0; }
 .leave-actions { display: grid; gap: 0.75rem; }
 #rating-status:not(:empty) { color: var(--color-text); }
-#round-target-note { margin: 0; }
 .skill-summary, .skill-summary-header, .skill-summary-title-group { min-width: 0; }
 .skill-summary-title { overflow-wrap: anywhere; }
 button:focus-visible, summary:focus-visible, a:focus-visible {
@@ -2356,8 +2355,8 @@ select, textarea, input[type="text"], input[type="email"] { min-width: 0; max-wi
 .mastery-scene-bridge { color:var(--color-muted); font-size:.9rem; }
 .mastery-background, .mastery-sequence { padding:.8rem; border:1px solid var(--border-color, #dde3e2); border-radius:1rem; }
 .mastery-role-tabs button { flex:1 1 auto; min-width:max-content; white-space:nowrap; font-size:.9rem; padding:.65rem .35rem; min-height:44px; }
-.mastery-account-confirm { display:flex; align-items:center; gap:.65rem; }
-.mastery-account-confirm input { width:1.3rem; height:1.3rem; flex-shrink:0; }
+.mastery-pair-choice { display:flex; align-items:center; gap:.65rem; }
+.mastery-pair-choice input { width:1.3rem; height:1.3rem; flex-shrink:0; }
 .mastery-history { margin-top:1.5rem; padding-top:1.5rem; border-top:1px solid #dce3e1; }
 .mastery-history-list { list-style:none; padding:0; }
 .mastery-history-list > li { margin-top:1rem; padding:1rem; border:1px solid #dce3e1; border-radius:1rem; }

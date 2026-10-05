@@ -7,7 +7,7 @@ async (page) => {
   const manifest=await(await page.request.get(new URL('src/data/runtime/manifest.json',url).href)).json();
   const exercise=manifest.EXERCISE_CATALOG.find(e=>e.caseId===caseId);
   if(!exercise)throw new Error('Unauthored mastery case');
-  const exerciseId=exercise.id,variable=exercise.supportedLevels.length>1,level=params.get('testLevel')??exercise.difficulty;
+  const exerciseId=exercise.id,variable=manifest.EXERCISE_CATALOG.filter(e=>e.caseId===caseId).length>1,level=params.get('testLevel')??exercise.difficulty;
   const users=await (await page.request.get('http://127.0.0.1:5199/users')).json();
   const contexts=[],pages=[],errors=[];
   const assert=(ok,message)=>{if(!ok)throw new Error(message);};

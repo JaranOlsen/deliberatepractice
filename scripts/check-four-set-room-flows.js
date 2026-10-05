@@ -134,11 +134,7 @@ async (page) => {
     if(variable)assert(room.difficulty===level&&order.every(id=>id.includes(`_${level}_`)),'The host selects twelve items at one selected level');
     assert((await o.locator('#room-content').textContent()).includes('4 sets of 3'),'Preparation explains the fixed-role round');
     stage='private feedback targets';
-    const goal=t.locator('#room-next-attempt');
-    await goal.getByRole('button',{name:'Add a reminder',exact:true}).click();
-    await goal.locator('textarea').fill('Pause before the reflection.');
-    await goal.getByRole('button',{name:'Save reminder',exact:true}).click();
-    await goal.getByRole('status').filter({hasText:'Saved for your next practice.'}).waitFor();
+    assert(await t.locator('#room-next-attempt').count()===0,'No reminder editor in preparation');
     assert(await c.locator('.skill-feedback-guide').count()===0,'Client preparation does not include scoring guidance');
     for(const p of [t,watcher])assert(await p.locator('#room-content .skill-feedback-guide').count()===0,'Therapist and watching participants have no scoring reference in preparation');
     assert(await o.locator('#room-next-attempt').count()===0&&await c.locator('#room-next-attempt').count()===0,'Private targets exist only on the therapist screen');
@@ -172,7 +168,7 @@ async (page) => {
           await o.screenshot({path:'output/playwright/four-sets-observer-320.png',fullPage:true});
           await c.screenshot({path:'output/playwright/four-sets-client-320.png',fullPage:true});
         }
-        assert((await t.locator('#room-next-attempt').textContent()).includes('Pause before the reflection.'),'Private reminder follows the therapist through every item and set');
+        if(set>0)assert((await t.locator('#room-next-attempt').textContent()).includes('Pause before the reflection.'),'Private reminder follows the therapist through every item and set');
         assert(await t.locator('#room-next-attempt textarea').isHidden(),'Active reminder does not add an editor');
         assert(await c.locator('.skill-feedback-guide').count()===0,'Client item screen has no scoring cues');
         for(const p of [t,watcher])assert(await p.locator('#room-content .skill-feedback-guide').count()===0,'Only the active observer sees scoring cues during a larger group round');
@@ -185,7 +181,14 @@ async (page) => {
         await sync();
       }
       stage=`rating set ${set+1}`;
-      if(set===0)await largeTextFits('Rating checkpoint for every role');
+      if(set===0){
+       const goal=t.locator('#room-next-attempt');
+       await goal.getByRole('button',{name:'Add a reminder',exact:true}).click();
+       await goal.locator('textarea').fill('Pause before the reflection.');
+       await goal.getByRole('button',{name:'Save reminder',exact:true}).click();
+       await goal.getByRole('status').filter({hasText:'Saved for your next practice.'}).waitFor();
+       await largeTextFits('Rating checkpoint for every role');
+      }
       assert(await o.locator('#room-feedback-reference').count()===1,'Active observer retains guidance at the checkpoint');
       for(const p of [t,c,watcher])assert(await p.locator('#room-content .skill-feedback-guide').count()===0,'Only the active observer has rating guidance at a larger-group checkpoint');
       assert(room.phase==='round_debrief'&&room.item_index===set*3+2,'Each third item pauses for rating: '+JSON.stringify({set,phase:room.phase,index:room.item_index,completed:room.completed_ids.length}));

@@ -338,9 +338,9 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
         }else body.append(createSkillFeedback({skillId:next.skill_id, language, id:'room-feedback-reference',
           audience:selfRating ? 'self' : 'observer'}));
       }
-      if (!mastery && configured && !ended && role === 'therapist' && next.phase !== 'choosing') {
+      if (!mastery && configured && !ended && role === 'therapist' && (active || next.phase === 'round_debrief')) {
         goalView = createPracticeGoalView({userId, languageId:language, skillId:next.skill_id,
-          editable:['lobby','round_debrief'].includes(next.phase), id:'room-next-attempt'});
+          editable:next.phase === 'round_debrief', id:'room-next-attempt'});
         // Keep the reminder near the focus during practice, rather than below the workflow.
         if (active) body.querySelector('.individual-guide')?.after(goalView.element);
         else body.append(goalView.element);

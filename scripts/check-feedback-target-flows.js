@@ -55,7 +55,10 @@ async (page) => {
   try {
     await page.request.post('http://127.0.0.1:5199/goal',{data:{user:users.t,languageId:'en',skillId:'empathic-understanding',action:'save',text:''}});
     const p=await contextFor();await prepare(p);
-    const prep=p.locator('#preparation-goal-view');
+    assert(await p.locator('#preparation-goal, #round-target-note').count()===0,'Preparation has no reminder editor or rating-account note');
+    await p.locator('#start-practice').click();
+    await p.locator('#next-statement').click();await p.locator('#back-to-cases').click();await p.locator('#finish-completed').click();
+    const prep=p.locator('#rating-goal-view');
     await prep.getByRole('button',{name:/Add a reminder|Change/,exact:true}).click();
     await prep.locator('textarea').fill(target);failSave=true;
     await prep.getByRole('button',{name:'Save reminder',exact:true}).click();
@@ -63,7 +66,8 @@ async (page) => {
     assert(await prep.locator('textarea').inputValue()===target,'Failed save retains draft');
     failSave=false;await prep.getByRole('button',{name:'Save reminder',exact:true}).click();
     await prep.getByRole('status').filter({hasText:'Saved for your next practice.'}).waitFor();
-    await p.locator('#start-practice').click();
+    await p.locator('#rating-skip').click();await p.locator('[data-case-id="case-sara"]').click();await p.locator('#start-practice').click();
+    await p.locator('#active-goal-view .practice-goal-text').filter({hasText:target}).waitFor();
     assert((await p.locator('#active-goal-view').textContent()).includes(target),'Individual active screen recalls reminder');
     assert(await p.locator('#active-goal-view textarea').isHidden(),'Active screen only shows a concise reminder');
     await p.locator('#local-feedback-reference-guide summary').click();
@@ -81,22 +85,21 @@ async (page) => {
     await p.locator('#rating-skip').click();
     assert(!JSON.stringify(await p.evaluate(()=>({...localStorage}))).includes(revised),'Private text is never written to general browser storage');
     const fresh=await contextFor();await prepare(fresh);
-    await fresh.locator('#preparation-goal-view .practice-goal-text').filter({hasText:revised}).waitFor();
+    assert(await fresh.locator('#preparation-goal-view').count()===0,'Returning preparation remains free of reminders');
+    await fresh.locator('#start-practice').click();
+    await fresh.locator('#active-goal-view .practice-goal-text').filter({hasText:revised}).waitFor();
     assert(await fresh.evaluate(()=>new Set([...document.querySelectorAll('[id]')].map(e=>e.id)).size===document.querySelectorAll('[id]').length),'New controls have unique IDs');
     await fresh.evaluate(id=>window.switchTestUser(id),users.o);
-    await fresh.locator('#preparation-goal-view').getByRole('button',{name:'Add a reminder',exact:true}).waitFor();
-    assert(!(await fresh.locator('#preparation-goal').textContent()).includes(revised),'Switching accounts immediately removes private content');
+    await fresh.waitForFunction(text=>!document.getElementById('active-goal').textContent.includes(text),revised);
+    assert(!(await fresh.locator('#active-goal').textContent()).includes(revised),'Switching accounts immediately removes private content');
     await fresh.evaluate(()=>window.switchTestUser(null));
-    await fresh.locator('#preparation-goal-view').getByRole('button',{name:'Sign in to keep a reminder for next time.',exact:true}).waitFor();
-    assert(!(await fresh.locator('#preparation-goal').textContent()).includes(revised),'Sign-out removes reminder');
+    assert(await fresh.locator('#active-goal-view').count()===0,'Sign-out removes reminder and adds no login prompt');
     const before=requests.length, shared=await contextFor();await prepare(shared,{shared:true});
-    assert(requests.length===before,'Shared screen does not fetch private note before opening');
-    assert(!(await shared.locator('#preparation-goal').textContent()).includes(revised),'Shared screen initially contains no private text');
-    await shared.locator('#preparation-goal-view summary').click();
-    await shared.locator('#preparation-goal-view .practice-goal-text').filter({hasText:revised}).waitFor();
-    assert(await shared.locator('#preparation-goal-view').getByRole('button',{name:'Copy to share'}).isHidden(),'No accidental clipboard action on shared device');
+    assert(requests.length===before,'Shared preparation never fetches private reminders');
+    assert(await shared.locator('#preparation-goal-view').count()===0,'Shared preparation has no account reminder');
     await shared.screenshot({path:'output/playwright/feedback-shared-preparation-320.png',fullPage:true});
     await shared.locator('#start-practice').click();
+    assert(await shared.locator('#active-goal-view').count()===0&&requests.length===before,'Shared practice does not fetch or show account reminders');
     assert(await shared.locator('#local-feedback-reference').isHidden(),'Shared practice has no general scoring panel above the exercise');
     assert(await shared.locator('#shared-your-part-observer .skill-feedback-guide').count()===1,'Shared observer reference belongs inside the observer role');
     for(const role of ['therapist','client'])assert(await shared.locator(`#shared-your-part-${role} .skill-feedback-guide`).count()===0,'Shared therapist/client roles have no scoring reference');
@@ -108,7 +111,11 @@ async (page) => {
     assert((await no.locator('#local-feedback-reference').textContent()).includes('Private detaljer trenger ikke deles.'),'Norwegian self-awareness anchors protect personal disclosure');
     assert(!(await no.locator('#active-goal').textContent()).includes(revised),'Different skill and language do not inherit reminder');
     failLoad=true;const failed=await contextFor();await prepare(failed);
-    const failedGoal=failed.locator('#preparation-goal-view');
+    await failed.locator('#start-practice').click();
+    const activeFailed=failed.locator('#active-goal-view');
+    await activeFailed.getByRole('button',{name:'Try again',exact:true}).waitFor();
+    await failed.locator('#next-statement').click();await failed.locator('#back-to-cases').click();await failed.locator('#finish-completed').click();
+    const failedGoal=failed.locator('#rating-goal-view');
     await failedGoal.getByRole('button',{name:'Try again',exact:true}).waitFor();
     assert(await failedGoal.getByRole('button',{name:'Add a reminder',exact:true}).isHidden(),'Read failure cannot overwrite an unknown existing target');
     failLoad=false;await failedGoal.getByRole('button',{name:'Try again',exact:true}).click();
@@ -116,6 +123,6 @@ async (page) => {
     await failedGoal.getByRole('button',{name:'Change',exact:true}).click();await failedGoal.getByRole('button',{name:'Remove reminder',exact:true}).click();
     await failedGoal.getByRole('status').filter({hasText:'Reminder removed.'}).waitFor();
     assert(errors.length===0,'No JavaScript errors: '+errors.join(';'));
-    return {passed:true,checks:['failed-save draft','private persistence across sessions','active reminder','individual cues','checkpoint editing','account switch','sign-out','no browser storage','shared-device deliberate opening','Norwegian self-awareness','load failure and retry','removal','320px fit','unique IDs']};
+    return {passed:true,checks:['failed-save draft','private persistence across sessions','active reminder','individual cues','reminder editing only after practice','account switch','sign-out','no browser storage','shared device has no account reminders','Norwegian self-awareness','load failure and retry','removal','320px fit','unique IDs']};
   } finally {for(const context of contexts)await context.close();}
 }

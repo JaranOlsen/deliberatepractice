@@ -10,8 +10,8 @@ const KEY='dp_mastery_session';
 const read=key=>{try{return JSON.parse(localStorage.getItem(key));}catch{return null;}};
 const write=(key,value)=>{try{localStorage.setItem(key,JSON.stringify(value));}catch{}};
 const copy={
- en:{title:'Mastery practice',single:'Single skill',choose:'Choose a case',back:'← Library',start:'Start round',ready:'I’m ready',begin:'Start practice',client:'Client',therapist:'Therapist',observer:'Observer',shared:'Shared device',orientation:'Switch skills across 12 linked moments · 4 sets of 3',finish:'Finish item · next',finishSet:'Finish item · rate set',pass:'Pass item',rate:'Therapist self-assessment',placeholder:'Choose a rating',save:'Save rating',localSave:'Record rating for this round',saved:'Rating saved',localSaved:'Rating recorded for this round',next:'Continue to next set',done:'Complete round',again:'Choose the next round',pause:'Pause · home',resume:'Resume mastery',clear:'Clear',passed:'Passed items are excluded.',account:'This account belongs to the therapist',own:'Saving only in the therapist’s account.',derole:'Step out of role. Say your own names and pause.',failed:'Could not save. Your rating is still here; try again.',changed:'This round belongs to another account. Sign back in to save its ratings.',upgrade:'Mastery rooms are not available on this server yet. Individual and shared-device practice are available.',offline:'Could not check room support. Try again.',preparing:'Preparing the round…',room:'Use this in the room',create:'Create group room',local:'Kept for this round on this device. This rating will not appear in account progress.',labels:['Not yet demonstrated','Emerging with guidance','Adequate in parts','Well demonstrated','Skillfully demonstrated']},
- no:{title:'Mestringsøving',single:'Én ferdighet',choose:'Velg et kasus',back:'← Bibliotek',start:'Start runden',ready:'Jeg er klar',begin:'Start øvingen',client:'Klient',therapist:'Terapeut',observer:'Observatør',shared:'Felles enhet',orientation:'Bytt ferdighet i 12 sammenhengende øyeblikk · 4 sett med 3',finish:'Fullfør · neste utsagn',finishSet:'Fullfør · vurder settet',pass:'Stå over',rate:'Terapeutens egenvurdering',placeholder:'Velg en vurdering',save:'Lagre vurderingen',localSave:'Registrer vurderingen for runden',saved:'Vurderingen er lagret',localSaved:'Vurderingen er registrert for runden',next:'Fortsett til neste sett',done:'Fullfør runden',again:'Velg neste runde',pause:'Pause · hjem',resume:'Fortsett mestringsøving',clear:'Fjern',passed:'Utsagn dere står over, tas ikke med.',account:'Denne kontoen tilhører terapeuten',own:'Lagres bare i terapeutens konto.',derole:'Gå ut av rollen. Si deres egne navn og ta en pause.',failed:'Kunne ikke lagre. Vurderingen er fortsatt her; prøv igjen.',changed:'Denne runden tilhører en annen konto. Logg inn igjen for å lagre vurderingene.',upgrade:'Mestringsrom er ikke tilgjengelige på denne serveren ennå. Du kan øve individuelt eller på en felles enhet.',offline:'Kunne ikke sjekke romstøtte. Prøv igjen.',preparing:'Forbereder runden …',room:'Bruk dette i rommet',create:'Opprett grupperom',local:'Beholdes for denne runden på enheten. Vurderingen vises ikke i kontoens fremgang.',labels:['Ikke vist ennå','På vei med veiledning','Tilfredsstillende i deler','Godt demonstrert','Svært godt demonstrert']}
+ en:{title:'Mastery practice',single:'Single skill',choose:'Choose a case',back:'← Library',start:'Start round',ready:'I’m ready',begin:'Start practice',client:'Client',therapist:'Therapist',observer:'Observer',shared:'Shared device',orientation:'Switch skills across 12 linked moments · 4 sets of 3',finish:'Finish item · next',finishSet:'Finish item · rate set',pass:'Pass item',rate:'Therapist self-assessment',placeholder:'Choose a rating',save:'Save rating',localSave:'Record rating for this round',saved:'Rating saved',localSaved:'Rating recorded for this round',next:'Continue to next set',done:'Complete round',again:'Choose the next round',pause:'Pause · home',resume:'Resume mastery',clear:'Clear',passed:'Passed items are excluded.',groupRate:'Rate the therapist',discussion:'Discuss the set together. Ratings on a shared device are not saved to accounts.',derole:'Step out of role. Say your own names and pause.',failed:'Could not save. Your rating is still here; try again.',changed:'This round belongs to another account. Sign back in to save its ratings.',upgrade:'Mastery rooms are not available on this server yet. Individual and shared-device practice are available.',offline:'Could not check room support. Try again.',preparing:'Preparing the round…',room:'Use this in the room',create:'Create group room',local:'Kept for this round on this device. This rating will not appear in account progress.',labels:['Not yet demonstrated','Emerging with guidance','Adequate in parts','Well demonstrated','Skillfully demonstrated']},
+ no:{title:'Mestringsøving',single:'Én ferdighet',choose:'Velg et kasus',back:'← Bibliotek',start:'Start runden',ready:'Jeg er klar',begin:'Start øvingen',client:'Klient',therapist:'Terapeut',observer:'Observatør',shared:'Felles enhet',orientation:'Bytt ferdighet i 12 sammenhengende øyeblikk · 4 sett med 3',finish:'Fullfør · neste utsagn',finishSet:'Fullfør · vurder settet',pass:'Stå over',rate:'Terapeutens egenvurdering',placeholder:'Velg en vurdering',save:'Lagre vurderingen',localSave:'Registrer vurderingen for runden',saved:'Vurderingen er lagret',localSaved:'Vurderingen er registrert for runden',next:'Fortsett til neste sett',done:'Fullfør runden',again:'Velg neste runde',pause:'Pause · hjem',resume:'Fortsett mestringsøving',clear:'Fjern',passed:'Utsagn dere står over, tas ikke med.',groupRate:'Vurder terapeuten',discussion:'Diskuter settet sammen. Vurderinger på en felles enhet lagres ikke i kontoer.',derole:'Gå ut av rollen. Si deres egne navn og ta en pause.',failed:'Kunne ikke lagre. Vurderingen er fortsatt her; prøv igjen.',changed:'Denne runden tilhører en annen konto. Logg inn igjen for å lagre vurderingene.',upgrade:'Mestringsrom er ikke tilgjengelige på denne serveren ennå. Du kan øve individuelt eller på en felles enhet.',offline:'Kunne ikke sjekke romstøtte. Prøv igjen.',preparing:'Forbereder runden …',room:'Bruk dette i rommet',create:'Opprett grupperom',local:'Beholdes for denne runden på enheten. Vurderingen vises ikke i kontoens fremgang.',labels:['Ikke vist ennå','På vei med veiledning','Tilfredsstillende i deler','Godt demonstrert','Svært godt demonstrert']}
 };
 export function supportsMastery(capability, exercise) {
  return capability?.protocol==='guided-mastery-v1' && capability.exercises?.some(e=>e.id===exercise.id && e.revision===exercise.revision);
@@ -49,19 +49,22 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
  }
  function background(body,full=false) {
   const c=caseData(),ui=getStrings(lang());
-  const card=full?node('section','', 'case-brief'):node('details','', 'mastery-background');
+  const card=full?node('section','', 'case-brief case-brief-screen'):node('details','', 'mastery-background');
   if(!full)card.append(node('summary',ui.roleBriefHeading));
-  card.append(node('p',c.teaser));
+  const identity=node('div','','case-brief-identity');
+  identity.append(node('h3',c.label,'case-title'),node('p',c.teaser,'case-teaser'));card.append(identity);
   const facts=node('dl','', 'case-role-list');
   for(const [label,value] of [[c.schemaLabel,c.schema],[ui.corePainLabel,c.corePain],[ui.styleLabel,c.style],[ui.casePracticeEdgeLabel,c.practiceEdge]]){
    const row=node('div','', 'case-role-item');row.append(node('dt',label),node('dd',value));facts.append(row);
   }
-  card.append(facts,node('h4',ui.clientVoiceHeading,'case-section-title'),node('p',c.voice));body.append(card);
+  const roleBrief=node('div','','case-brief-section');roleBrief.append(node('h4',ui.roleBriefHeading,'case-section-title'),facts);
+  const voice=node('div','','case-voice-section');voice.append(node('h4',ui.clientVoiceHeading,'case-section-title'),node('p',c.voice));
+  card.append(roleBrief,voice);body.append(card);
  }
  function prepareRound() {
   const mode=getMode()==='triad'?'shared':'individual';
   session={version:4,exerciseType:'mastery',exerciseId:exercise.id,revision:exercise.revision,caseId:exercise.caseId,difficulty:exercise.difficulty,languageId:getLanguage()??'en',practiceMode:mode,
-   roundId:crypto.randomUUID(),ownerId:getUser()?.id??null,phase:'preparation',index:0,sceneIds:exercise.scenes.map(e=>e.id),completedIds:[],skippedIds:[],ratings:{},draftScore:'',therapistAccount:false,pair:false};
+   roundId:crypto.randomUUID(),ownerId:mode==='shared'?null:getUser()?.id??null,phase:'preparation',index:0,sceneIds:exercise.scenes.map(e=>e.id),completedIds:[],skippedIds:[],ratings:{},draftScore:'',pair:false};
   role='client';render();
  }
  async function choose(id) {
@@ -71,7 +74,7 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
    const result=await loadMasteryExercise(getLanguage()??'en',id);
    if(current!==generation)return;exercise=result;
    const user=getUser();cloud=false;let capability=null;
-   if(user) {try {capability=await getMasteryCapabilities();cloud=supportsMastery(capability,exercise);} catch {/* Downloaded local practice remains usable without a connection. */}}
+   if(user && getMode()!=='triad') {try {capability=await getMasteryCapabilities();cloud=supportsMastery(capability,exercise);} catch {/* Downloaded local practice remains usable without a connection. */}}
    if(current!==generation)return;
    variants=EXERCISE_CATALOG.filter(e=>e.caseId===exercise.caseId && (getMode()!=='group'||supportsMastery(capability,e)));
    rememberCaseLevel({id:exercise.caseId,supportedLevels:EXERCISE_CATALOG.filter(e=>e.caseId===exercise.caseId).map(e=>e.difficulty)},exercise.difficulty);
@@ -95,7 +98,7 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
   try {
    exercise=await loadMasteryExercise(saved.languageId,saved.exerciseId,saved.revision);
    cloud=false;
-   if(getUser()?.id===saved.ownerId && saved.ownerId) {try {cloud=supportsMastery(await getMasteryCapabilities(),exercise);}catch {/* Resume local practice when the account server is unavailable. */}}
+   if(!shared() && getUser()?.id===saved.ownerId && saved.ownerId) {try {cloud=supportsMastery(await getMasteryCapabilities(),exercise);}catch {/* Resume local practice when the account server is unavailable. */}}
    if(current!==generation)return;role='client';onBegin?.(session);render();
   }catch(error){element.replaceChildren(node('p',error.message,'form-status'),button(s().pause,home));}
  }
@@ -107,12 +110,12 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
   persist();render();
  }
  async function save() {
-  if(busy || session.phase!=='rating')return;
+  if(shared() || busy || session.phase!=='rating')return;
   const score=Number(session.draftScore);if(score<1||score>5)return;
   const checkpoint=Math.floor(session.index/3)+1;
   const ids=exercise.scenes.slice((checkpoint-1)*3,checkpoint*3).filter(e=>session.completedIds.includes(e.id)).map(e=>e.id);
   if(!ids.length)return;
-  const remote=cloud && session.ownerId===getUser()?.id && (!shared()||session.therapistAccount);
+  const remote=!shared() && cloud && session.ownerId===getUser()?.id;
   busy=true;render();
   try {
    if(remote)await submitMasteryRating({languageId:lang(),exerciseId:exercise.id,revision:exercise.revision,roundId:session.roundId,setNumber:checkpoint,completedIds:ids,score,practiceMode:session.practiceMode});
@@ -132,7 +135,7 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
    const choice=levelChoice();if(choice)body.append(choice);
    body.append(node('p',strings.orientation,'triad-progress'));
    if(shared()){
-    const label=node('label','', 'mastery-account-confirm'),check=node('input');check.type='checkbox';check.checked=session.pair;
+    const label=node('label','', 'mastery-pair-choice'),check=node('input');check.type='checkbox';check.checked=session.pair;
     check.addEventListener('change',()=>{session.pair=check.checked;if(session.pair&&role==='observer')role='therapist';render();});
     label.append(check,node('span',language==='no'?'Vi er to · terapeuten leder':'We’re two · therapist guides'));body.append(label);
    }
@@ -163,36 +166,39 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
   }else {
    const checkpoint=Math.floor(session.index/3)+1,scenes=exercise.scenes.slice((checkpoint-1)*3,checkpoint*3).filter(e=>session.completedIds.includes(e.id));
    const saved=session.ratings?.[checkpoint];
-   body.append(node('h3',`${strings.rate} · ${checkpoint}/4`));
+   const ratingTitle=shared()&&!session.pair?strings.groupRate:strings.rate;
+   body.append(node('h3',`${ratingTitle} · ${checkpoint}/4`));
+   if(shared())body.append(node('p',strings.discussion,'response-hint'));
    body.append(node('p',strings.passed,'response-hint'));
    if(scenes.length){
     body.append(node('p',scenes.map(scene=>localizeSkill(language,scene.skillId).name).join(' · '),'mastery-set-skills'));
-    body.append(createMasteryFeedback({language,scenes,skillName:id=>localizeSkill(language,id).name,audience:'self'}));
+    body.append(createMasteryFeedback({language,scenes,skillName:id=>localizeSkill(language,id).name,audience:shared()&&!session.pair?'observer':'self'}));
     const form=node('form');form.id='mastery-rating-form';form.addEventListener('submit',e=>{e.preventDefault();session.error='';void save();});
-    const label=node('label',strings.rate);label.htmlFor='mastery-score';
+    const label=node('label',ratingTitle);label.htmlFor='mastery-score';
     const select=node('select');select.id='mastery-score';select.required=true;
     const option=node('option',strings.placeholder);option.value='';select.append(option);
     strings.labels.forEach((title,i)=>{const option=node('option',`${i+1} · ${title}`);option.value=String(i+1);select.append(option);});
     select.value=session.draftScore||saved?.score||'';
     select.addEventListener('change',()=>{session.draftScore=select.value;session.error='';persist();const b=document.getElementById('mastery-save');if(b)b.disabled=busy||!select.value;});
     form.append(label,select);body.append(form);
-    if(shared()&&cloud&&session.ownerId===getUser()?.id){
-     const label=node('label','', 'mastery-account-confirm'),check=node('input');check.type='checkbox';check.checked=session.therapistAccount;
-     check.addEventListener('change',()=>{session.therapistAccount=check.checked;persist();render();});label.append(check,node('span',strings.account));body.append(label,node('p',strings.own,'response-hint'));
+    if(!shared()){
+     const remote=cloud&&session.ownerId===getUser()?.id;
+     if(!remote)body.append(node('p',session.ownerId&&session.ownerId!==getUser()?.id?strings.changed:strings.local,'response-hint'));
+     const saveButton=button(remote?strings.save:strings.localSave,()=>{},true,'mastery-save');saveButton.type='submit';saveButton.setAttribute('form','mastery-rating-form');saveButton.disabled=busy||!select.value;actions.append(saveButton);
+     if(saved)body.append(node('p',`${saved.remote?strings.saved:strings.localSaved} · ${saved.score}/5`,'form-status'));
     }
-    const remote=cloud&&session.ownerId===getUser()?.id&&(!shared()||session.therapistAccount);
-    if(!remote)body.append(node('p',session.ownerId&&session.ownerId!==getUser()?.id?strings.changed:strings.local,'response-hint'));
-    const saveButton=button(remote?strings.save:strings.localSave,()=>{},true,'mastery-save');saveButton.type='submit';saveButton.setAttribute('form','mastery-rating-form');saveButton.disabled=busy||!select.value;actions.append(saveButton);
-    if(saved)body.append(node('p',`${saved.remote?strings.saved:strings.localSaved} · ${saved.score}/5`,'form-status'));
-    if(session.error){const error=node('p',session.error,'form-status');error.setAttribute('role','alert');body.append(error);}
+    if(!shared()&&session.error){const error=node('p',session.error,'form-status');error.setAttribute('role','alert');body.append(error);}
    }
    const next=button(checkpoint===4?strings.done:strings.next,()=>{
     if(busy)return;
+    if(shared()&&scenes.length&&session.draftScore){
+     session.ratings[checkpoint]={score:Number(session.draftScore),remote:false,ids:scenes.map(scene=>scene.id)};
+    }
     if(checkpoint===4){write(KEY,null);session=null;refreshResume();library();return;}
     session.index++;session.phase='practicing';session.draftScore='';session.error='';role=shared()?'client':role;persist();render();
    },true,'mastery-next');
    // A completely passed set requires no score. A practiced set can be left unrated explicitly.
-   if(scenes.length&&(!saved||session.draftScore&&Number(session.draftScore)!==saved.score)){next.textContent=language==='no'?'Fortsett uten vurdering':'Continue without rating';next.className='ghost-button';}
+   if(!shared()&&scenes.length&&(!saved||session.draftScore&&Number(session.draftScore)!==saved.score)){next.textContent=language==='no'?'Fortsett uten vurdering':'Continue without rating';next.className='ghost-button';}
    next.disabled=busy;actions.append(next);
    if(checkpoint===4)body.append(node('p',strings.derole,'response-hint'));
   }

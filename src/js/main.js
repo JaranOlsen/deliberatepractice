@@ -63,8 +63,8 @@ function renderPracticeLearning() {
   if (!skillId || !languageId) return;
   const userId = state.authUser?.id ?? null, shared = isTriadPractice();
   for (const [id, editable, visible] of [
-    ['preparation-goal', true, true], ['active-goal', false, true],
-    ['rating-goal', true, getTargetUserId(state.roundTarget) === userId]
+    ['active-goal', false, !shared && !!userId && state.sessionActive && state.view === 'statements' && !state.ratingVisible],
+    ['rating-goal', true, !shared && !!userId && state.ratingVisible && getTargetUserId(state.roundTarget) === userId]
   ]) {
     const host = document.getElementById(id), key = JSON.stringify([userId, languageId, skillId, shared, editable, visible]);
     if (goalViews.get(id)?.key === key) continue;
@@ -75,7 +75,7 @@ function renderPracticeLearning() {
   }
   for (const [id, visible, audience] of [
     ['local-feedback-reference', !shared, 'self'],
-    ['rating-feedback-reference', getRatingStatementIds().length > 0, getActiveRatingSource()]
+    ['rating-feedback-reference', getRatingStatementIds().length > 0, shared ? 'observer' : getActiveRatingSource()]
   ]) {
     const host = document.getElementById(id), key = `${languageId}:${skillId}:${visible}:${audience}`;
     if (host.dataset.skill === key) continue;
@@ -393,7 +393,7 @@ const releaseElements = Object.fromEntries([
   "individual-guide", "individual-focus-label", "individual-focus", "individual-instruction",
   "retry-individual", "individual-example-note",
   "individual-controls", "triad-controls",
-  "practice-format-note", "round-target-note", "triad-debrief-counts", "leave-overlay",
+  "practice-format-note", "triad-debrief-counts", "leave-overlay",
   "leave-title", "leave-description", "continue-practice", "pause-round", "finish-completed",
   "rating-scale", "round-outcome", "repeat-round", "unlock-code-label"
 ].map((id) => [id, document.getElementById(id)]));
@@ -2176,7 +2176,7 @@ function setTextForElements(collection, text) {
 }
 
 function isPracticeAccountPending() {
-  return state.authResolving || Boolean(state.authUser && !getActiveTarget());
+  return !isTriadPractice() && (state.authResolving || Boolean(state.authUser && !getActiveTarget()));
 }
 
 function renderPracticeFormatUI() {
@@ -2199,13 +2199,6 @@ function renderPracticeFormatUI() {
     ? state.authResolving ? strings.accountLoading : strings.accountUnavailableShort
     : roomSelection ? (state.languageId === "no" ? "Bruk dette i rommet" : "Use this in the room") : state.sessionActive ? strings.continuePractice : state.practiceMode === "group" ? (state.languageId === "no" ? "Opprett grupperom" : "Create group room") : strings.startPractice;
   elements.startPracticeButton.setAttribute("aria-label", elements.startPracticeButton.textContent);
-  const target = state.sessionActive ? state.roundTarget : getActiveTarget();
-  releaseElements["round-target-note"].hidden = !!roomSelection || state.practiceMode === "group";
-  releaseElements["round-target-note"].textContent = waitingForAccount
-    ? state.authResolving ? strings.accountLoading : strings.accountUnavailable
-    : target
-    ? strings.roundFor.replace("{name}", getTargetDisplayName(target) || strings.meLabel)
-    : strings.roundLocal;
   Array.from(elements.practiceModeInputs ?? []).forEach((input) => {
     input.checked = input.value === (triad ? "group" : state.practiceMode);
     input.closest(".practice-format-option")?.classList.toggle("is-selected", input.checked);
@@ -3000,8 +2993,8 @@ function focusTriadPhase() {
 }
 
 function showCaseBrief() {
-  renderPracticeLearning();
   state.view = "brief";
+  renderPracticeLearning();
   const caseData=getCurrentCase(),host=document.getElementById('case-level-choice');
   const choice=caseData&&!state.sessionActive?createLevelChoice({caseData,value:caseData.difficulty,language:state.languageId,onChange:level=>handleCaseSelection(caseData.id,level)}):null;
   host.replaceChildren(...(choice?[choice]:[]));host.hidden=!choice;
@@ -3030,8 +3023,8 @@ function showStatements() {
     if (isPracticeAccountPending()) return;
     state.sessionActive = true;
     state.roundId = getOrCreateRoundId(null);
-    state.roundTarget = normalizePracticeTarget(getActiveTarget());
-    state.roundRaterId = state.authUser?.id ?? null;
+    state.roundTarget = isTriadPractice() ? null : normalizePracticeTarget(getActiveTarget());
+    state.roundRaterId = isTriadPractice() ? null : state.authUser?.id ?? null;
     writeJsonStorage(LAST_SETUP_STORAGE_KEY, {
       languageId: state.languageId, skillId: state.skillId, caseId: state.caseId, difficulty: activeCase.difficulty, practiceMode: state.practiceMode
     });
@@ -3310,7 +3303,7 @@ function getRoundRatingTarget() {
 
 function canSaveRoundRating() {
   const target = getRoundRatingTarget();
-  return Boolean(isSupabaseReady() && state.authUser?.id === state.roundRaterId && target
+  return Boolean(!isTriadPractice() && isSupabaseReady() && state.authUser?.id === state.roundRaterId && target
     && state.authTargets.some((item) => getTargetUserId(item) === getTargetUserId(target)));
 }
 
@@ -3323,7 +3316,8 @@ function updateRatingPanel() {
   renderPracticeLearning();
   const target = getRoundRatingTarget();
   const statementIds = getRatingStatementIds();
-  const hasRating = Boolean(target && statementIds.length && !state.ratingSaved);
+  const shared = isTriadPractice();
+  const hasRating = Boolean(statementIds.length && (shared || target && !state.ratingSaved));
   const canSave = canSaveRoundRating() && !state.ratingSaving && !state.ratingSaved;
   elements.ratingPanel.hidden = false;
   elements.ratingPanel.classList.remove("is-hidden");
@@ -3333,20 +3327,17 @@ function updateRatingPanel() {
     ? (isTriadPractice() ? strings.triadRatingTitle : getActiveRatingSource() === "observer" ? strings.ratingTitleObserver : strings.ratingTitleSelf)
     : strings.roundCompleteTitle;
   elements.ratingDescription.hidden = false;
-  elements.ratingDescription.textContent = hasRating && isTriadPractice()
-    ? getActiveRatingSource() === "self"
-      ? strings.sharedDeviceRatingDescription
-      : strings.triadRatingDescription
-    : strings.roundCompleteDescription;
+  elements.ratingDescription.textContent = hasRating && shared
+    ? strings.sharedDeviceRatingDescription : strings.roundCompleteDescription;
   elements.ratingSummary.textContent = `${getCurrentSkill()?.name ?? ""} · ${getCurrentCase()?.label ?? ""}`;
   releaseElements["round-outcome"].textContent = formatRoundOutcome();
-  elements.ratingTarget.hidden = !target;
+  elements.ratingTarget.hidden = shared || !target;
   elements.ratingTarget.textContent = target ? strings.roundFor.replace("{name}", getTargetDisplayName(target) || strings.meLabel) : "";
   releaseElements["rating-scale"].hidden = !hasRating;
-  elements.ratingSubmit.hidden = !hasRating;
+  elements.ratingSubmit.hidden = shared || !hasRating;
   elements.ratingSubmit.textContent = strings.ratingSubmit;
   elements.ratingSubmit.disabled = !canSave || !hasCompleteRatingScores();
-  elements.ratingSkip.textContent = hasRating ? strings.finishWithoutRating : strings.chooseAnotherCase;
+  elements.ratingSkip.textContent = hasRating && !shared ? strings.finishWithoutRating : strings.chooseAnotherCase;
   elements.ratingSkip.disabled = state.ratingSaving;
   releaseElements["repeat-round"].hidden = hasRating || state.groupRatingPending;
   if (state.groupRatingPending) {
@@ -3361,13 +3352,15 @@ function updateRatingPanel() {
     elements.ratingSkip.textContent = state.languageId === "no"
       ? (set.last || state.groupFinishEarly ? "Velg roller, ferdighet og kasus" : "Neste 3 utsagn · behold rollene")
       : (set.last || state.groupFinishEarly ? "Choose roles, skill & case" : "Next 3 items · keep roles");
-    if (hasRating) elements.ratingSkip.textContent = state.languageId === "no" ? "Fortsett uten vurdering" : "Continue without rating";
+    if (hasRating && !shared) elements.ratingSkip.textContent = state.languageId === "no" ? "Fortsett uten vurdering" : "Continue without rating";
   }
   releaseElements["repeat-round"].textContent = isTriadPractice() ? strings.rotateRound : strings.repeatRound;
   updateRatingScaleCopy();
-  updateRatingOptionAvailability(canSave);
+  updateRatingOptionAvailability(shared || canSave);
+  elements.ratingSkip.classList.toggle("primary-button", shared);
+  elements.ratingSkip.classList.toggle("ghost-button", !shared);
   updateRatingScoreButtons();
-  setRatingStatus(state.ratingSaving ? strings.ratingSaving : state.ratingError
+  setRatingStatus(shared ? "" : state.ratingSaving ? strings.ratingSaving : state.ratingError
     || (state.ratingSaved ? strings.roundSaved : hasRating && !canSaveRoundRating() ? strings.ratingTargetChanged : ""));
   dialogs.open(elements.ratingOverlay, { onDismiss: () => {
     if (!state.ratingSaving) finishRoundWithoutRating();
@@ -3724,7 +3717,7 @@ async function handleFeedbackSubmit(event) {
 }
 
 async function handleRatingSubmit() {
-  if (state.ratingSaving || state.ratingSaved) return;
+  if (isTriadPractice() || state.ratingSaving || state.ratingSaved) return;
   const strings = getUIStrings();
   const target = getRoundRatingTarget();
   const activeCase = getCurrentCase();
