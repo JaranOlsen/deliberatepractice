@@ -17,10 +17,11 @@
         <div class="app-heading">
           <h1 id="app-title">Deliberate Practice Lab</h1>
         </div>
-        <div class="account-controls">
-          <button type="button" class="header-pill" id="join-shared-room">Group</button>
+        <nav class="account-controls" aria-label="Main navigation" id="header-navigation">
+          <button type="button" class="header-pill" id="join-shared-room">Home</button>
+          <button type="button" class="header-pill" id="home-progress">Your progress</button>
           <button type="button" class="header-pill" id="account-button">Sign in</button>
-        </div>
+        </nav>
       </div>
     </header>
     <main class="app-main">
@@ -70,7 +71,6 @@
         </div>
         <div class="home-library-actions">
           <button id="home-library" class="ghost-button" type="button">Browse library</button>
-          <button id="home-progress" class="ghost-button" type="button">Your progress</button>
         </div>
         <div class="resume-card home-recent" id="last-setup-card" hidden>
           <div class="resume-copy">
@@ -106,7 +106,6 @@
         </div>
         <div class="exercise-type-choice" role="group" aria-label="Exercise type"><button type="button" class="ghost-button" id="exercise-single" aria-pressed="true">Single skill</button><button type="button" class="ghost-button" id="exercise-mastery" aria-pressed="false" hidden>Mastery practice</button></div>
         <div id="mastery-library" class="grid-list" hidden></div>
-        <button type="button" class="ghost-button library-progress" id="open-progress" hidden>Your progress</button>
         <div
           class="grid-list"
           id="skill-list"
@@ -142,16 +141,6 @@
             </button>
           </div>
           <p class="skill-summary-text" id="case-skill-summary-text"></p>
-          <dl class="skill-summary-details">
-            <div class="skill-summary-detail">
-              <dt id="case-skill-summary-practice-focus-label">What to practice</dt>
-              <dd id="case-skill-summary-practice-focus"></dd>
-            </div>
-            <div class="skill-summary-detail">
-              <dt id="case-skill-summary-common-miss-label">Common miss</dt>
-              <dd id="case-skill-summary-common-miss"></dd>
-            </div>
-          </dl>
         </div>
         <div
           id="case-list"
@@ -233,8 +222,12 @@
             <h3 class="case-title" id="case-name"></h3>
             <p class="case-teaser" id="case-teaser"></p>
           </div>
-          <div class="case-brief-section">
-            <h4 class="case-section-title" id="case-brief-heading"></h4>
+          <div class="case-voice-section">
+            <h4 class="case-section-title" id="case-voice-heading"></h4>
+            <p id="case-voice"></p>
+          </div>
+          <details class="case-background-details" id="case-role-background">
+            <summary id="case-brief-heading"></summary>
             <dl class="case-role-list">
               <div class="case-role-item">
                 <dt id="case-schema-label">Maladaptive Scheme</dt>
@@ -253,12 +246,7 @@
                 <dd id="case-practice-edge"></dd>
               </div>
             </dl>
-          </div>
-          <div class="case-voice-section">
-            <h4 class="case-section-title" id="case-voice-heading"></h4>
-            <p id="case-voice"></p>
-          </div>
-
+          </details>
           <section class="triad-orientation is-hidden" id="triad-orientation" hidden>
             <label class="shared-pair-choice"><input type="checkbox" id="shared-pair"><span id="shared-pair-label">We’re two</span></label>
             <details class="triad-feedback-guide">
@@ -362,18 +350,12 @@
             </ol>
             <details><summary id="triad-debrief-group-label">Choose the next challenge</summary><p id="triad-debrief-group"></p></details>
             <p class="triad-derole" id="triad-derole"></p>
-            <button type="button" class="primary-button" id="triad-complete-round">Complete round</button>
+            <div id="shared-checkpoint-feedback"></div>
+            <button type="button" class="primary-button" id="triad-complete-round">Continue</button>
           </section>
         </section>
       </section>
     </main>
-
-    <footer class="app-footer" id="app-footer">
-      <small id="footer-note">
-        Copyright © 2025 Jaran Olsen. All rights reserved.
-      </small>
-      <small class="app-version" id="app-version" aria-label="Build version"></small>
-    </footer>
 
     <div class="paywall-overlay is-hidden" id="paywall-overlay" hidden>
       <div class="paywall-modal" role="dialog" aria-modal="true" aria-labelledby="paywall-heading">
@@ -487,10 +469,9 @@
               <button type="submit" class="ghost-button ghost-button--small" id="profile-submit">Save</button>
             </div>
           </form>
-
-          <button type="button" class="ghost-button" id="account-progress">Your progress</button>
         </section>
 
+        <details class="app-about"><summary id="app-about-label">About</summary><p id="footer-note">Copyright © 2025 Jaran Olsen. All rights reserved.</p><p class="app-version" id="app-version" aria-label="Build version"></p></details>
         <p id="auth-status" class="form-status" role="status"></p>
       </div>
     </div>

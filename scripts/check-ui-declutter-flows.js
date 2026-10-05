@@ -80,6 +80,9 @@ async page => {
       };
       await p.goto(url); await p.locator('#practice-home').waitFor();
       // Verify that the first-screen choices remain sufficient without instructional paragraphs.
+      assert(await p.locator('#header-navigation button').count() === 3 && await p.locator('#home-progress').count() === 1, 'One Home, Progress and Account navigation');
+      for (const id of ['join-shared-room','home-progress','account-button']) { await reachable('#'+id, true); assert(await p.locator('#'+id+' svg').count() === 1 && await p.locator('#'+id).getAttribute('aria-label'), 'Icon navigation retains accessible names'); }
+      assert(await p.locator('#app-footer').count() === 0, 'Build details do not occupy a practice footer');
       await hiddenOrEmpty('#group-entry-note');
       await reachable('#home-library'); await reachable('#home-language');
       await p.locator('input[name="practice-mode"][value="group"]').check();
@@ -94,12 +97,13 @@ async page => {
       await hiddenOrEmpty('#language-panel-description'); await fits('language selection');
       await p.locator(`[data-language-id="${language}"]`).click(); await section('home');
       assert(await p.evaluate(() => document.documentElement.lang) === (language === 'no' ? 'nb' : 'en') || await p.evaluate(() => document.documentElement.lang) === language, 'Language selection is applied');
-      await click('account-button'); await p.locator('#account-overlay').waitFor(); await fits('signed-out account'); await click('close-account');
+      await click('account-button'); await p.locator('#account-overlay').waitFor(); await fits('signed-out account'); await p.locator('.app-about > summary').click(); assert(await p.locator('#app-version').isVisible(), 'Build information is available in About'); await click('close-account');
       await click('home-progress'); await p.locator('#account-overlay').waitFor(); await fits('progress sign-in'); await click('close-account');
       await click('home-library'); await section('skill');
       await hiddenOrEmpty('#skill-panel-description'); await fits('single-skill library');
       await p.locator('[data-skill-id="empathic-understanding"]').click(); await section('case');
       await hiddenOrEmpty('#case-panel-description'); await fits('case library');
+      assert(await p.locator('.skill-summary-details').count() === 0, 'Case choices have one concise skill focus');
       const title = (await p.locator('[data-case-id="case-sara"] .card-title').textContent()).trim();
       assert(!/\((Easy|Lett)\)/.test(title), 'Focused case title does not repeat its difficulty');
       await click('open-skill-guide'); await section('skillGuide');
@@ -110,19 +114,25 @@ async page => {
       assert(await p.locator('#practice-format').isHidden(), 'Preparation does not repeat the mode choice');
       await hiddenOrEmpty('#practice-format-note');
       assert((await p.locator('#case-voice').textContent()).trim().length > 100, 'Preparation retains client voice');
+      assert(await p.locator('#case-role-background').evaluate(e=>!e.open && Boolean(e.previousElementSibling?.querySelector('#case-voice'))), 'Client voice precedes optional background');
+      await p.locator('#case-role-background > summary').click(); assert(await p.locator('#case-schema').isVisible(), 'Complete role background remains available');
+      await p.locator('#case-role-background > summary').click();
       if (shared) {
         assert(await p.locator('#shared-pair').isVisible(), 'Shared focused practice offers pair mode');
         await p.locator('#shared-pair').setChecked(pair);
       }
       await fits('focused preparation'); await click('start-practice'); await p.locator('#next-statement').waitFor();
       if (shared) {
-        assert(await p.locator('#shared-group-guidance .room-role-guide').count() === (pair ? 2 : 3), 'Focused role guides match actual participants');
-        assert(await p.locator('#shared-workflow .room-workflow li').count() === (pair ? 5 : 6), 'Focused pair workflow omits the observer');
-        if (pair) assert(/self|egenvurder|seg selv/i.test(await p.locator('#shared-workflow li').last().textContent()), 'Pair workflow ends in therapist self-assessment');
-        await p.locator('#shared-workflow > summary').click();
-        assert(!await p.locator('#shared-workflow').evaluate(e => e.open), 'The focused workflow can be collapsed');
+        assert(await p.locator('#shared-group-guidance .room-role-guide').count() === 1, 'Shared instructions have one optional guide');
+        assert(await p.locator('#shared-practice-guide [data-role]').count() === (pair ? 2 : 3), 'Guide matches actual participants');
+        assert(await p.locator('#shared-practice-guide .room-workflow li').count() === (pair ? 5 : 6), 'Pair workflow omits the observer');
+        assert(/Reflect together|Reflekter sammen/.test(await p.locator('#shared-practice-guide li').last().textContent()), 'Shared workflow ends in reflection');
+        assert(!await p.locator('#shared-practice-guide').evaluate(e=>e.open), 'Procedural guidance starts collapsed');
+        await p.locator('#shared-practice-guide > summary').click();
+        await click('shared-example-reveal'); assert(await p.locator('#shared-example-response').isVisible(), 'Example is available outside the guide');
+        await click('shared-example-retry'); assert(await p.locator('#shared-example-response').isHidden(), 'Retry conceals the example');
         await click('next-statement');
-        assert(!await p.locator('#shared-workflow').evaluate(e => e.open), 'Collapsed workflow stays collapsed on the next item');
+        assert(await p.locator('#shared-practice-guide').evaluate(e => e.open), 'Guide expansion stays unchanged on the next item');
       } else {
         await click('toggle-suggestion'); assert(await p.locator('#suggestion-text').isVisible(), 'Individual example remains available');
         await click('retry-individual'); assert(await p.locator('#suggestion-text').isHidden(), 'Individual retry hides the example');
@@ -137,16 +147,20 @@ async page => {
         await click('view-case-brief');
         assert(await p.locator('#shared-pair').isDisabled(), 'Pair configuration is fixed during a round');
         await click('start-practice');
-        // Resolve the first set through normal controls and keep ratings local on a shared device.
-        const current = await stored('dp_practice_session_v1');
-        for (let i = current.index; i < 3; i++) await click('next-statement');
-        await p.locator('#triad-debrief').waitFor();
-        if (pair) assert(await p.locator('#triad-debrief-observer-label').isHidden(), 'Pair debrief has no imaginary observer');
-        await fits('focused shared debrief'); await click('triad-complete-round');
-        assert(await p.locator('#rating-submit').isHidden(), 'Shared rating does not offer an account save');
-        await fits('focused shared rating'); await click('rating-skip');
+        // Shared checkpoints contain reflection and useful skill cues, with no unsaved scores.
+        for (let set=1;set<=4;set++) {
+          const current=await stored('dp_practice_session_v1');
+          for(let i=current.index;i<set*3;i++) await click('next-statement');
+          await p.locator('#triad-debrief').waitFor();
+          if(pair) assert(await p.locator('#triad-debrief-observer-label').isHidden(), 'Pair checkpoint has no fictional observer');
+          assert(await p.locator('#rating-overlay').isHidden(), 'Shared checkpoint does not open numerical scoring');
+          assert(await p.locator('#shared-checkpoint-feedback .skill-feedback-guide').count()===1, 'Checkpoint retains the skill feedback guide');
+          await fits('focused shared checkpoint '+set); await reachable('#triad-complete-round',true); await click('triad-complete-round');
+        }
+        await section('skill'); assert(await stored('dp_practice_session_v1')===null, 'Completed shared round clears resume');
+        await click('join-shared-room'); await section('home');
       }
-      await click('join-shared-room'); await click('practice-exit-end'); await section('home');
+      if(!shared) { await click('join-shared-room'); await click('practice-exit-end'); await section('home'); }
       assert(await stored('dp_practice_session_v1') === null, 'Ending focused practice clears resume');
 
       // Mastery exercises: no fictional group instructions when solo; no inert role tabs at a checkpoint.
@@ -162,10 +176,10 @@ async page => {
         const instruction = await p.locator('#mastery-your-part').textContent();
         assert(!/client gives feedback|observer|klienten gir tilbakemelding|observatør/i.test(instruction), 'Solo mastery instructions have no imaginary participants');
         for (const cue of language === 'en' ? ['Read', 'Respond', 'Compare', 'Retry'] : ['Les', 'Svar', 'Sammenlign', 'Prøv igjen']) assert(instruction.includes(cue), `Solo mastery includes ${cue}`);
-      } else if (pair) assert(/self|egenvurder|seg selv/i.test(await p.locator('.room-workflow li').last().textContent()), 'Mastery pair workflow ends in self-assessment');
+      } else assert(/Reflect together|Reflekter sammen/.test(await p.locator('.room-workflow li').last().textContent()), 'Shared mastery workflow ends in reflection');
       assert(await p.locator('.mastery-sequence').count() === 0, 'The long skill sequence is not repeated during each mastery item');
       await reachable('#mastery-finish', true); await fits('mastery item');
-      await exit('#mastery-practice .panel-header button', 'dp_mastery_session', 'resume-mastery');
+      await exit('#join-shared-room', 'dp_mastery_session', 'resume-mastery');
       await guide();
       for (let set = 1; set <= 4; set++) {
         await guide();
@@ -178,12 +192,12 @@ async page => {
         assert(await p.locator('.mastery-set-skills').count() === 0, 'Checkpoint does not duplicate its feedback skill list');
         const body = await p.locator('#mastery-practice').textContent();
         const passedCopy = language === 'no' ? 'Utsagn dere står over, tas ikke med.' : 'Passed items are excluded.';
-        assert(body.includes(passedCopy) === (set === 2 || set === 3), 'Pass note appears only in a set with actual passes');
-        if (set !== 3) {
+        assert(body.includes(passedCopy) === (!shared && (set === 2 || set === 3)), 'Pass note appears only in a set with actual passes');
+        if (!shared && set !== 3) {
           assert(await p.locator('#mastery-score').isVisible(), 'Practiced set has a rating control');
           assert((await p.locator('label[for="mastery-score"]').textContent()).trim().length > 0, 'Rating selector keeps its accessible label');
           await p.locator('#mastery-score').selectOption('4');
-        } else assert(await p.locator('#mastery-score').count() === 0, 'All-pass set offers no misleading rating');
+        } else assert(await p.locator('#mastery-score').count() === 0, 'Shared and all-pass checkpoints offer no misleading rating');
         if (shared) assert(await p.locator('#mastery-save').count() === 0, 'Shared mastery never saves account ratings');
         if (set === 4 && !shared) assert(!/your own names|deres egne navn|step out of role|gå ut av rollen/i.test(body), 'Solo completion has no group de-role instruction');
         await fits(`mastery checkpoint ${set}`); await reachable('#mastery-next', true); await click('mastery-next');

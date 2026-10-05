@@ -89,14 +89,13 @@ async page => {
      if(set===1&&item===0)await p.screenshot({path:`output/playwright/mastery-${testCase}-${level}-${language}-${mode}-item-320.png`,fullPage:true});
      await p.locator('#mastery-finish').click();
     }
-    await p.locator('#mastery-score').waitFor();await fits('rating');
+    await p.locator('#mastery-next').waitFor();await fits('checkpoint');
     if(set===1)await p.screenshot({path:`output/playwright/mastery-${language}-${mode}-rating-320.png`,fullPage:true});
     if(set===1&&mode==='shared')await p.evaluate(ownerId=>{const key='dp_mastery_session',saved=JSON.parse(localStorage.getItem(key));saved.therapistAccount=true;saved.ownerId=ownerId;localStorage.setItem(key,JSON.stringify(saved));},users.t);
-    if(set===1){await p.evaluate(caseId=>localStorage.setItem('dp_case_levels_v1',JSON.stringify({[caseId]:'hard'})),caseId);await p.reload();await p.locator('#resume-mastery').click();await p.locator('#mastery-score').waitFor();assert(await p.evaluate(()=>JSON.parse(localStorage.getItem('dp_mastery_session')).roundId)===roundId,'Reload retains checkpoint identity');assert(await p.evaluate(()=>JSON.parse(localStorage.getItem('dp_mastery_session')).difficulty)===level,'Resume pins the selected exercise level');}
-    if(mode!=='individual'){assert(await p.locator('#mastery-save, .mastery-account-confirm').count()===0,'Shared checkpoint has no save or account confirmation');}
-    await p.locator('#mastery-score').selectOption(String(set+1));
-    if(mode!=='individual')await p.locator('#mastery-rating-form').evaluate(form=>form.dispatchEvent(new Event('submit',{bubbles:true,cancelable:true})));
+    if(set===1){await p.evaluate(caseId=>localStorage.setItem('dp_case_levels_v1',JSON.stringify({[caseId]:'hard'})),caseId);await p.reload();await p.locator('#resume-mastery').click();await p.locator('#mastery-next').waitFor();assert(await p.evaluate(()=>JSON.parse(localStorage.getItem('dp_mastery_session')).roundId)===roundId,'Reload retains checkpoint identity');assert(await p.evaluate(()=>JSON.parse(localStorage.getItem('dp_mastery_session')).difficulty)===level,'Resume pins the selected exercise level');}
+    if(mode!=='individual'){assert(await p.locator('#mastery-score, #mastery-rating-form, #mastery-save, .mastery-account-confirm').count()===0,'Shared checkpoint has no numerical scoring or account confirmation');}
     if(mode==='individual'){
+     await p.locator('#mastery-score').selectOption(String(set+1));
      if(language==='en'&&set===1)loseResponse=true;
      await p.locator('#mastery-save').click();
      if(language==='en'&&set===1){await p.locator('#mastery-practice [role="alert"]').waitFor();await p.locator('#mastery-save').click();}
@@ -108,7 +107,7 @@ async page => {
    assert(rows.length===(mode==='individual'?4:0)&&rows.every(r=>r.source==='self'&&r.item_count===3&&r.difficulty===level&&r.practice_mode===(mode==='pair'?'shared':mode)),mode==='individual'?'Four correctly attributed mastery ratings at the selected level':'Shared practice never stores an account rating');
    assert(await p.evaluate(()=>JSON.parse(localStorage.getItem('dp_mastery_session')))===null,'Completed round is not resumable');
    if(mode==='individual'){cloudRounds++;
-   await p.locator('#open-progress').click();await p.locator('#progress-mastery').click();await p.locator('#mastery-history .mastery-history-list').waitFor();
+   await p.locator('#home-progress').click();await p.locator('#progress-mastery').click();await p.locator('#mastery-history .mastery-history-list').waitFor();
    assert((await p.locator('#mastery-history').textContent()).includes('4/4'),'Mastery history shows four checkpoints');
    assert(await p.locator('#self-chart svg').count()===0,'Mastery records do not create a focused radar');
    await fits('progress');

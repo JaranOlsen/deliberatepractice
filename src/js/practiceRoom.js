@@ -1,7 +1,7 @@
 import {loadMasteryExercise} from "./masteryContent.js";
 import {createMasteryFeedback} from "./masteryFeedbackUI.js";
 import {getSkillFeedback} from "../data/skillFeedback.js";
-import {GROUP_PRACTICE_COPY, createGroupWorkflow, createGroupRoleGuide, createMasteryPracticeHelp} from './groupPracticeUI.js';
+import {GROUP_PRACTICE_COPY, createGroupRoleGuide, createMasteryPracticeHelp, createPracticeExample} from './groupPracticeUI.js';
 import {practiceRoomRpc, watchPracticeRoom} from './backend.js';
 import {loadPracticeContent, getPracticeStatements} from './practiceContent.js';
 import {CONTENT_REVISION, FOCUSED_CONTENT_COMPATIBILITY} from './practiceData.js';
@@ -78,7 +78,7 @@ export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, 
   const overlay = document.createElement('div');
   overlay.id = 'room-panel'; overlay.className = 'panel room-panel is-hidden'; overlay.hidden = true;
   overlay.innerHTML = `<section class="room-dialog">
-    <header id="room-header" class="room-header"><h2 id="room-title"></h2><button id="room-back" class="ghost-button"></button></header>
+    <header id="room-header" class="room-header"><h2 id="room-title"></h2></header>
     <p id="room-status" role="status" aria-live="polite"></p>
     <div id="room-setup">
       <div id="room-hub"><div class="room-entry-actions">
@@ -137,7 +137,6 @@ export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, 
   let contentKey = '';
   let goalView = null;
   const roleGuideOpen = new Map();
-  const workflowOpen = new Map();
   const strings = () => copy[language] ?? copy.en;
   const read = key => { try { return JSON.parse(localStorage.getItem(key)); } catch { return null; } };
   const write = (key, value) => { try { value === null ? localStorage.removeItem(key) : localStorage.setItem(key, JSON.stringify(value)); } catch { /* In-memory sync still works. */ } };
@@ -174,7 +173,7 @@ export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, 
     const s = strings();
     overlay.querySelector('.room-dialog').setAttribute('aria-label', s.title);
     for (const key of ['title', 'consent', 'copy', 'sync', 'retry', 'pass', 'rotate', 'end']) text(key === 'consent' ? 'consent' : key, s[key]);
-    text('back', s.close); text('code-label', s.code); text('role-label', s.role);
+    text('code-label', s.code); text('role-label', s.role);
     for (const id of ['role', 'host-role', 'change-role']) for (const option of el(id).options) option.textContent = s[option.value];
     text('host-role-label', s.role); text('change-role-label', s.role); text('change-role-submit', s.changeRole);
     text('join', getUser() ? s.join : s.signIn); text('create', getUser() ? s.create : s.signInCreate);
@@ -229,7 +228,7 @@ export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, 
     const set = groupSetProgress(next.statement_ids, next.item_index, next.completed_ids, next.skipped_ids);
     const self = next.skill_id === 'therapist-self-awareness';
     const active = ['practicing','first_attempt','client_feedback','observer_feedback','retry'].includes(next.phase);
-    el('header').hidden = ended;
+    el('header').hidden = ended || next.phase !== 'choosing';
     el('title').hidden = next.phase !== 'choosing';
     const body = el('content');
     text('role-badge', `${s.role}: ${role === 'client' && self ? ui.selfAwarenessReaderRole : s[role]}`);
@@ -263,20 +262,21 @@ export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, 
         if (role === 'client') {
           prep.classList.add('room-client-preparation');
           prep.append(node('p', caseData.teaser || caseData.history));
-          const background = node('section', '', 'case-brief-section');
-          background.append(node('h4', ui.roleBriefHeading, 'case-section-title'));
+          const background = node('details', '', 'case-background-details');
+          background.append(node('summary', ui.roleBriefHeading));
           const facts = node('dl', '', 'case-role-list');
           for (const [label, value] of [[caseData.schemaLabel, caseData.schema], [ui.corePainLabel, caseData.corePain], [ui.styleLabel, caseData.style], [ui.casePracticeEdgeLabel, caseData.practiceEdge]]) {
             if (!value?.trim()) continue;
             const fact = node('div', '', 'case-role-item');
             fact.append(node('dt', label), node('dd', value)); facts.append(fact);
           }
-          background.append(facts); prep.append(background);
+          background.append(facts);
           const voice = caseData.voice || caseData.history;
           if (voice?.trim()) {
             const section = node('section', '', 'case-voice-section');
             section.append(node('h4', ui.clientVoiceHeading, 'case-section-title'), node('p', voice)); prep.append(section);
           }
+          prep.append(background);
         } else {
           if(mastery)prep.append(node('p',caseData.teaser));
           else prep.append(node('p',skill.practiceFocus));
@@ -302,15 +302,13 @@ export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, 
         }
         if(!mastery && ['observer','passive'].includes(role))body.append(node('aside',skill.practiceFocus,'individual-guide'));
         const guideKey = `${self ? 'awareness' : 'skill'}:${role}:${!next.observer_id}`;
-        const guide = createGroupWorkflow({language, awareness: self, pair: !next.observer_id,
-          id: 'room-workflow-guide', open: workflowOpen.get(guideKey) ?? (['observer','passive'].includes(role) || (!next.observer_id && role === 'therapist')),
-          onToggle: expanded => workflowOpen.set(guideKey, expanded)});
-        const part = createGroupRoleGuide({language, awareness: self, role, pair: !next.observer_id,
-          id: 'room-your-part', open: roleGuideOpen.get(guideKey) ?? false,
-          example: statement.suggestion, examplePrefix: 'room',
-          onToggle: expanded => roleGuideOpen.set(guideKey, expanded)});
-        if (['observer','passive'].includes(role) || (!next.observer_id && role === 'therapist')) body.append(guide, part);
-        else body.append(part, guide);
+        const part = createGroupRoleGuide({language, awareness:self, role, pair:!next.observer_id, workflow:true,
+          id:'room-your-part',open:roleGuideOpen.get(guideKey)??(['observer','passive'].includes(role)||(!next.observer_id&&role==='therapist')),
+          onToggle:expanded=>roleGuideOpen.set(guideKey,expanded)});
+        body.append(part);
+        if(role==='therapist')body.append(createPracticeExample({language,awareness:self,example:statement.suggestion,prefix:'room',focus:()=>{
+          const prompt=body.querySelector('.individual-guide');prompt.tabIndex=-1;prompt.focus();
+        }}));
       } else if (next.phase === 'round_debrief') {
         const rater = userId === (next.observer_id ?? next.therapist_id);
         body.append(node('h4', next.round_size === 12 ? `${rater ? s.rateSet : s.debrief} · ${set.number}/${set.total}` : s.debrief), node('p', `${set.completed.length} ${s.practiced}${set.skipped.length ? ` · ${set.skipped.length} ${s.passed}` : ''}`, 'triad-progress'));
@@ -534,13 +532,13 @@ export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, 
       return practiceRoomRpc('sync_practice_room', {input_room_id: last, input_acknowledged_version: -1});
     });
   }
-  el('back').addEventListener('click', () => {
+  function goHome() {
     if(!room){clearInvite();dismiss();return;}
     const s=strings();
     requestHome({pause:()=>dismiss(),end:()=>confirmExit(room.host_id===userId?'close':'leave',null,true),
       pauseLabel:s.close,endLabel:room.host_id===userId?s.end:s.leave,
       descriptionLabel:language==='no'?'Rommet forblir åpent når du går hjem. Du kan fortsette derfra.':'Your room stays open when you go home. You can resume from there.'});
-  });
+  }
   el('done').addEventListener('click', () => dismiss());
   el('join-form').addEventListener('submit', event => {
     event.preventDefault();
@@ -631,5 +629,5 @@ export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, 
     await show({mode:'resume'});
     if (!open || room?.id !== expectedRoomId || room?.host_id !== userId) return;
     await sync.command('prepare', null, configuration);
-  }, element: overlay, hide() { if (open) dismiss(false); }, authChanged() { if (open && (getUser()?.id ?? null) !== userId) dismiss(); }};
+  }, goHome, element: overlay, hide() { if (open) dismiss(false); }, authChanged() { if (open && (getUser()?.id ?? null) !== userId) dismiss(); }};
 }

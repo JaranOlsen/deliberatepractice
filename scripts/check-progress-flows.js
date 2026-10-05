@@ -78,7 +78,7 @@ async (page) => {
     await page.reload();
     await page.locator('input[name="practice-mode"][value="individual"]').check();
     await click('home-library');
-    await click('open-progress');
+    await click('home-progress');
     await waitLoaded();
     assert(await page.evaluate(() => document.activeElement.id === 'self-chart-title' && document.querySelector('main').inert), 'Progress dialog must own focus');
     for (let i = 0; i < 18; i++) {
@@ -86,8 +86,8 @@ async (page) => {
       assert(await page.evaluate(() => document.querySelector('#progress-modal').contains(document.activeElement)), 'Keyboard focus must stay in progress');
     }
     await page.keyboard.press('Escape');
-    assert(await page.evaluate(() => document.activeElement.id === 'open-progress' && !document.querySelector('main').inert), 'Closing progress must restore library focus');
-    await click('open-progress');
+    assert(await page.evaluate(() => document.activeElement.id === 'home-progress' && !document.querySelector('main').inert), 'Closing progress must restore library focus');
+    await click('home-progress');
     await waitLoaded();
     assert(await page.locator('.self-chart-axis').count() === 0, 'Empty progress must not draw unrated axes');
     assert(await page.locator('.self-chart-dot').count() === 0, 'No ratings must not appear as zero scores');
@@ -168,6 +168,11 @@ async (page) => {
     await page.locator('#progress-source').selectOption('self');
     await waitLoaded();
     assert(await page.locator('.self-chart-area').count() === 1, 'Complete data must retain the filled radar profile');
+    assert(await page.locator('.self-chart-label > title').count()===allSkills.length,'Every radar label retains its full skill name');
+    assert(!(await page.locator('.self-chart-label tspan').allTextContents()).some(text=>/…|\.\.\./.test(text)),'Radar labels have deliberate short names without truncation');
+    const labels=await page.locator('.self-chart-label').evaluateAll(els=>els.map(e=>{const box=e.getBBox();return {x:box.x,y:box.y,width:box.width,height:box.height};}));
+    assert(labels.every(b=>b.x>=0&&b.y>=0&&b.x+b.width<=400&&b.y+b.height<=400),'Full radar labels stay within the chart');
+    assert(!labels.some((a,i)=>labels.some((b,j)=>j>i&&a.x<b.x+b.width&&a.x+a.width>b.x&&a.y<b.y+b.height&&a.y+a.height>b.y)),'Full radar labels do not overlap');
     for(const width of [320,390]){
       await page.setViewportSize({width,height:844});
       for(const source of ['observer','self']){
@@ -186,7 +191,7 @@ async (page) => {
     await page.keyboard.press('Escape');
     assert(await page.locator('#active-target-button').count() === 0, 'Personal progress no longer has a paired-therapist selector');
     await page.evaluate(()=>localStorage.setItem('dp_active_therapist_target_v1:test-self',JSON.stringify({targetId:'test-partner'})));
-    await click('open-progress');
+    await click('home-progress');
     await waitLoaded();
     await page.locator(`[data-practice-skill="${targetSkill}"]`).click();
     assert(await page.locator('#case-selection').isVisible(), 'Practice action must open that skill’s cases');
@@ -203,7 +208,7 @@ async (page) => {
     await click('home-language');
     await page.locator('[data-language-id="no"]').click();
     await click('home-library');
-    await click('open-progress');
+    await click('home-progress');
     await waitLoaded();
     await page.setViewportSize({width:320,height:740});
     for(const source of ['observer','self']){

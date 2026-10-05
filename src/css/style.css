@@ -2001,7 +2001,7 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
   .progress-history > h5, .progress-history > .response-hint { grid-column: 1 / -1; }
 }
 
-.progress-modal .self-chart-label { font-size: 10px; }
+.progress-modal .self-chart-label { font-size: 11.5px; }
 .progress-modal .chart-header { align-items: center; }
 .progress-modal .chart-header h3 { min-width: 0; overflow-wrap: anywhere; }
 .progress-modal .chart-header > button { flex-shrink: 0; min-height: 44px; }
@@ -2403,3 +2403,82 @@ body[data-section="mastery"] .mastery-panel { padding-bottom:calc(9rem + env(saf
   .account-modal, .rating-panel { padding-inline: 16px; }
   .primary-button, .ghost-button { padding-inline: min(1.2rem, 20px); }
 }
+
+/* One compact navigation row remains available in every practice mode. */
+body[data-section] .app-header {
+  padding: 12px;
+}
+body[data-section] .app-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+body[data-section] .app-heading {
+  flex: 1 1 8rem;
+  text-align: left;
+}
+body[data-section] .app-header h1 { font-size: 1.12rem; }
+body .account-controls,
+body:is([data-section="practice"], [data-section="room"], [data-section="mastery"]) .account-controls {
+  position: static;
+  flex: 0 0 auto;
+  flex-wrap: nowrap;
+  gap: 6px;
+  margin: 0;
+  max-width: none;
+}
+body .account-controls .header-pill {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+}
+.header-pill svg {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.header-pill[aria-current="page"] { background: rgba(255,255,255,.24); }
+.header-pill:focus-visible { outline-color: white; }
+
+/* Keep the opening voice visible; background and procedural help are optional. */
+.case-background-details {
+  margin-top: 1rem;
+  border-top: 1px solid var(--color-border);
+}
+.case-background-details > summary {
+  min-height: 44px;
+  padding-block: .7rem;
+  cursor: pointer;
+  font-weight: 650;
+  color: var(--card-accent-strong, var(--color-text));
+}
+.case-background-details .case-role-list { margin-top: .5rem; }
+.practice-workflow-title, .shared-role-instructions h4 { margin: 1rem 0 .65rem; font-size: 1rem; }
+.shared-role-instructions + .shared-role-instructions { margin-top: 1rem; padding-top: .5rem; border-top: 1px solid var(--color-border); }
+.shared-role-instructions dl, .shared-reflection { margin: 0; }
+.shared-reflection > div + div { margin-top: 1rem; }
+.shared-reflection dt { font-weight: 650; }
+.shared-reflection dd { margin: .3rem 0 0; }
+.practice-example { margin-top: 1rem; }
+.practice-example > button, .practice-example-response button { min-height: 44px; white-space: normal; }
+.practice-example-response {
+  margin-top: .75rem;
+  padding: 1rem;
+  background: var(--card-accent-faint, #f0f5f3);
+  border-left: 3px solid var(--card-accent, #315f5b);
+  border-radius: 0 .75rem .75rem 0;
+}
+.practice-example-response > :first-child { margin-top: 0; }
+.app-about { border-top: 1px solid var(--color-border); margin-top: 1rem; padding-top: .5rem; }
+.app-about summary { min-height: 44px; padding-block: .65rem; cursor: pointer; font-weight: 650; }
+.app-about p { font-size: .8rem; color: var(--color-muted); margin: .4rem 0; }

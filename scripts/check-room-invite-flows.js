@@ -1,6 +1,6 @@
 // Playwright CLI run-code. Real app/Supabase SDK, intercepted OTP; no email is sent.
 async (page) => {
-  const url=page.url();
+  const address=new URL(page.url());address.search='';address.hash='';const url=address.href;
   if(!['127.0.0.1','localhost'].includes(new URL(url).hostname))throw new Error('Use local preview');
   const contexts=[],errors=[];let callback=null,otpRequests=0,managementRequest=null;
   const assert=(ok,message)=>{if(!ok)throw new Error(message);};
@@ -56,7 +56,7 @@ async (page) => {
     await other.locator('#room-create').click();await other.locator('#auth-email').fill('participant@example.invalid');await other.locator('#auth-submit').click();
     await other.waitForFunction(()=>document.getElementById('auth-status').textContent.includes('Check your email'));
     assert(callback===url,'Sign-in for Create does not take the user back to an abandoned invitation');
-    const cancel=await fresh();await cancel.goto(url+'?room=ABCD1234EF56');await cancel.locator('#room-code').waitFor();await cancel.locator('#room-back').click();
+    const cancel=await fresh();await cancel.goto(url+'?room=ABCD1234EF56');await cancel.locator('#room-code').waitFor();await cancel.locator('#join-shared-room').click();
     assert(!new URL(cancel.url()).searchParams.has('room')&&await cancel.evaluate(()=>localStorage.getItem('dp_group_invite'))===null,'Explicit cancellation clears invitation context');
     assert(errors.length===0,'No browser errors: '+errors.join('; '));
     return {passed:true,emailsSent:0,checks:['actual Supabase SDK OTP request','actual management RPC allowlist/SDK','typed code validation','room context in callback','fresh-browser invitation','edited invitation replaces previous code','Create clears abandoned invitation','explicit cancellation','320px sign-in']};

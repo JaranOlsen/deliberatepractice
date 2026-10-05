@@ -101,10 +101,10 @@ async (page) => {
     await shared.locator('#start-practice').click();
     assert(await shared.locator('#active-goal-view').count()===0&&requests.length===before,'Shared practice does not fetch or show account reminders');
     assert(await shared.locator('#local-feedback-reference').isHidden(),'Shared practice has no general scoring panel above the exercise');
-    assert(await shared.locator('#shared-your-part-observer .skill-feedback-guide').count()===1,'Shared observer reference belongs inside the observer role');
-    for(const role of ['therapist','client'])assert(await shared.locator(`#shared-your-part-${role} .skill-feedback-guide`).count()===0,'Shared therapist/client roles have no scoring reference');
-    await shared.locator('#shared-your-part-observer > summary').click();await shared.locator('#shared-feedback-reference > summary').click();
-    assert(await shared.locator('#shared-feedback-reference').getAttribute('data-audience')==='observer','Shared observer keeps observer guidance');
+    assert(await shared.locator('#shared-practice-guide .skill-feedback-guide').count()===0,'Shared item keeps scoring guidance at the checkpoint');
+    for(let i=0;i<3;i++)await shared.locator('#next-statement').click();
+    assert(await shared.locator('#shared-checkpoint-feedback .skill-feedback-guide').count()===1,'Shared checkpoint retains observer feedback guidance');
+    assert(await shared.locator('#shared-checkpoint-feedback .skill-feedback-guide').getAttribute('data-audience')==='observer','Shared checkpoint uses observer guidance');
     assert(await shared.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Shared observer reference fits 320px');
     const no=await contextFor('individual','no');await prepare(no,{skill:'therapist-self-awareness'});
     await no.locator('#start-practice').click();await no.locator('#local-feedback-reference-guide summary').click();

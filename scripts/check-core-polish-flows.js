@@ -57,7 +57,7 @@ async page=>{
    await p.locator('#mastery-start').click();if(mode==='triad'){await p.locator('#mastery-start').click();await p.locator('#mastery-start').click();}
    const guide=async()=>{if(mode==='triad')await p.locator('.mastery-role-tabs button').nth(2).click();};await guide();
    await p.locator('#mastery-finish').click();const before=await p.evaluate(()=>localStorage.getItem('dp_mastery_session'));
-   const exit=()=>p.locator('#mastery-practice .panel-header button').click();
+   const exit=()=>p.locator('#join-shared-room').click();
    await exit();assert(await p.evaluate(()=>document.activeElement.id)==='practice-exit-keep','Safe action gets initial focus');await fits();
    await p.keyboard.press('Escape');assert(await p.evaluate(()=>localStorage.getItem('dp_mastery_session'))===before,'Dismissal changes no progress');
    await exit();await p.locator('#practice-exit-pause').click();await home();await p.locator('#resume-mastery').click();

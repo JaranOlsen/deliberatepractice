@@ -144,16 +144,17 @@ async (page) => {
     await o.locator('#room-feedback-reference > summary').click();
     assert((await o.locator('#room-feedback-reference').textContent()).includes('3 · Adequate in parts')&&(await o.locator('#room-feedback-reference').textContent()).includes('5 · Skillfully demonstrated'),'Observer has skill-specific anchors in preparation');
     await o.locator('#room-feedback-reference > summary').click();
+    assert(await c.locator('.room-client-preparation .case-background-details').evaluate(e=>!e.open && e.previousElementSibling.classList.contains('case-voice-section')), 'Client opening voice comes before optional role background');
     stage='safe Home navigation';
-    await c.locator('#room-back').click();
+    await c.locator('#join-shared-room').click();
     assert(await c.evaluate(()=>document.activeElement.id)==='practice-exit-keep','Room Home defaults to keeping practice');
     await c.keyboard.press('Escape');
     assert(await c.locator('#room-panel').isVisible(),'Escape keeps the client in the room');
-    await c.locator('#room-back').click();await c.locator('#practice-exit-pause').click();
+    await c.locator('#join-shared-room').click();await c.locator('#practice-exit-pause').click();
     await c.waitForFunction(()=>document.body.dataset.section==='home');
     await c.locator('#group-resume').click();await c.locator('#room-panel').waitFor();await sync();
     assert(room.round_id===fullRound&&room.phase==='lobby','Returning Home preserves the room and material');
-    await o.locator('#room-back').click();await o.locator('#practice-exit-end').click();
+    await o.locator('#join-shared-room').click();await o.locator('#practice-exit-end').click();
     await o.locator('#room-exit-overlay').waitFor();
     await o.locator('#room-exit-cancel').click();
     assert(room.phase==='lobby','Cancelling end-room confirmation leaves the room open');
@@ -177,6 +178,10 @@ async (page) => {
         assert(await t.locator('#room-next').isHidden()&&await c.locator('#room-next').isHidden()&&await watcher.locator('#room-next').isHidden(),'Only observer advances');
         if(set===0&&i===0) {
           for(const p of pages)assert(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Role screens fit 320px');
+          for(const p of pages)assert(await p.locator('#room-your-part .room-workflow').count()===1 && await p.locator('#room-workflow-guide').count()===0, 'Each role has one combined guide');
+          await t.locator('#room-example-reveal').click();assert(await t.locator('#room-example-response').isVisible(),'Therapist can reveal the separate example');
+          await t.locator('#room-example-retry').click();assert(await t.locator('#room-example-response').isHidden(),'Retry hides the example');
+          assert(await t.evaluate(()=>document.activeElement.classList.contains('individual-guide')),'Retry returns focus to the skill prompt');
           await largeTextFits('Active item for every role');
           await o.screenshot({path:'output/playwright/four-sets-observer-320.png',fullPage:true});
           await c.screenshot({path:'output/playwright/four-sets-client-320.png',fullPage:true});

@@ -1,7 +1,7 @@
 import {validateMasterySession} from './masteryProtocol.js';
 import {EXERCISE_CATALOG, loadMasteryExercise, masteryRoomConfig} from './masteryContent.js';
 import {submitMasteryRating, getMasteryCapabilities} from './backend.js';
-import {createGroupWorkflow, createGroupRoleGuide, createMasteryPracticeHelp} from './groupPracticeUI.js';
+import {createGroupRoleGuide, createMasteryPracticeHelp, createPracticeExample, getGroupPracticeCopy} from './groupPracticeUI.js';
 import {createMasteryFeedback, node} from './masteryFeedbackUI.js';
 import {createLevelChoice, rememberCaseLevel, levelLabel} from './practiceLevels.js';
 import {createSkillFeedback} from './skillFeedbackUI.js';
@@ -22,7 +22,7 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
  const resumeCard=node('section','', 'resume-card mastery-resume');resumeCard.id='mastery-resume';
  document.getElementById('practice-home').append(resumeCard);
  let exercise=null,session=null,role='client',busy=false,cloud=false,generation=0,variants=[];
- const workflowOpen = new Map();
+ const guideOpen = new Map();
  const s=()=>copy[session?.languageId ?? getLanguage() ?? 'en'];
  const lang=()=>session?.languageId ?? getLanguage() ?? 'en';
  const shared=()=>session?.practiceMode==='shared';
@@ -39,10 +39,6 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
   resumeCard.append(button(strings.resume,()=>void resume(),true,'resume-mastery'),button(strings.clear,()=>{write(KEY,null);session=null;refreshResume();}));
  }
  const practiceHelp = () => createMasteryPracticeHelp(lang());
- function workflow() {
-  const key = `${session.pair}:${role}`;
-  return createGroupWorkflow({language:lang(),pair:session.pair,open:workflowOpen.get(key)??false,onToggle:expanded=>workflowOpen.set(key,expanded)});
- }
  function caseData(){return localizeSkill(lang(),'empathic-understanding',exercise.difficulty).cases.find(c=>c.id===exercise.caseId);}
  function levelChoice() {
   return createLevelChoice({caseData:{...caseData(),supportedLevels:variants.map(e=>e.difficulty)},value:exercise.difficulty,language:lang(),onChange:level=>void choose(variants.find(e=>e.difficulty===level).id)});
@@ -65,7 +61,11 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
   }
   const roleBrief=node('div','','case-brief-section');roleBrief.append(node('h4',ui.roleBriefHeading,'case-section-title'),facts);
   const voice=node('div','','case-voice-section');voice.append(node('h4',ui.clientVoiceHeading,'case-section-title'),node('p',c.voice));
-  card.append(roleBrief,voice);body.append(card);
+  if(full) {
+    const details=node('details','', 'case-background-details');details.append(node('summary',ui.roleBriefHeading),facts);
+    card.append(voice,details);
+  } else card.append(voice,roleBrief);
+  body.append(card);
  }
  function prepareRound() {
   const mode=getMode()==='triad'?'shared':'individual';
@@ -135,7 +135,7 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
  function render() {
   if(!session||!exercise)return;
   const strings=s(),language=lang(),body=node('div','', 'mastery-body');
-  const header=node('div','', 'panel-header');header.append(button(session.phase==='preparation'?strings.back:strings.pause,()=>{if(session.phase==='preparation')library();else leavePractice();}),node('h2',strings.title,'panel-title'));body.append(header);
+  const header=node('div','', 'panel-header');if(session.phase==='preparation')header.append(button(strings.back,library));header.append(node('h2',strings.title,'panel-title'));body.append(header);
   const levelKey={easy:'difficultyEasy',moderate:'difficultyModerate',hard:'difficultyHard'}[exercise.difficulty];
   body.append(node('p',`${exercise.title} · ${getStrings(language)[levelKey]}`,'room-case-heading'));
   theme?.(element,'empathic-understanding',exercise.difficulty);
@@ -162,33 +162,44 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
     const card=node('section','', 'statement-panel');card.append(node('blockquote',scene.text,'statement-text room-statement'));body.append(card);
    }
    if(shared()){
-    const guide=createGroupRoleGuide({language,role,pair:session.pair,example:scene.suggestion,id:'mastery-your-part',examplePrefix:'mastery'});body.append(guide);
+    const key=`${session.pair}:${role}`;
+    body.append(createGroupRoleGuide({language,role,pair:session.pair,discussion:true,workflow:true,
+      id:'mastery-your-part',open:guideOpen.get(key)??false,onToggle:expanded=>guideOpen.set(key,expanded)}));
+    if(role==='therapist')body.append(createPracticeExample({language,example:scene.suggestion,prefix:'mastery',focus:()=>focusAttempt(body)}));
     if(role==='observer'||session.pair&&role==='therapist') {
-     body.append(...(session.pair?[]:[createSkillFeedback({skillId:scene.skillId,language})]),workflow());
-     actions.append(button((session.index+1)%3===0?strings.finishSet:strings.finish,()=>advance(false),true,'mastery-finish'),button(strings.pass,()=>advance(true),false,'mastery-pass'));
+     if(!session.pair)body.append(createSkillFeedback({skillId:scene.skillId,language}));
+     actions.append(button((session.index+1)%3===0?(language==='no'?'Fullfør · reflekter':'Finish item · reflect'):strings.finish,()=>advance(false),true,'mastery-finish'),button(strings.pass,()=>advance(true),false,'mastery-pass'));
     }else if(role==='client')background(body);
    }else {
-    body.append(createGroupRoleGuide({language,role:'therapist',individual:true,example:scene.suggestion,id:'mastery-your-part',examplePrefix:'mastery'}));
+    body.append(createGroupRoleGuide({language,role:'therapist',individual:true,id:'mastery-your-part',open:guideOpen.get('individual')??false,onToggle:expanded=>guideOpen.set('individual',expanded)}),createPracticeExample({language,example:scene.suggestion,prefix:'mastery',focus:()=>focusAttempt(body)}));
     actions.append(button((session.index+1)%3===0?strings.finishSet:strings.finish,()=>advance(false),true,'mastery-finish'),button(strings.pass,()=>advance(true),false,'mastery-pass'));
    }
   }else {
    const checkpoint=Math.floor(session.index/3)+1,scenes=exercise.scenes.slice((checkpoint-1)*3,checkpoint*3).filter(e=>session.completedIds.includes(e.id));
    const saved=session.ratings?.[checkpoint];
    const ratingTitle=shared()&&!session.pair?strings.groupRate:strings.rate;
-   body.append(node('h3',`${ratingTitle} · ${checkpoint}/4`));
-   if(shared())body.append(node('p',strings.discussion,'response-hint'));
-   if(exercise.scenes.slice((checkpoint-1)*3,checkpoint*3).some(scene=>session.skippedIds.includes(scene.id)))body.append(node('p',strings.passed,'response-hint'));
+   body.append(node('h3',`${shared()?getGroupPracticeCopy(language).reflectionStep:ratingTitle} · ${checkpoint}/4`));
+   if(shared()) {
+    const group=getGroupPracticeCopy(language), questions=node('dl','', 'shared-reflection');
+    const skipped=exercise.scenes.slice((checkpoint-1)*3,checkpoint*3).filter(scene=>session.skippedIds.includes(scene.id)).length;
+    body.append(node('p',`${scenes.length} ${language==='no'?'øvd':'practiced'}${skipped?` · ${skipped} ${language==='no'?'stått over':'passed'}`:''}`,'triad-progress'));
+    if(scenes.length)for(const role of session.pair?['therapist','client']:['therapist','client','observer']) {
+      const row=node('div');row.append(node('dt',strings[role]),node('dd',group.reflection[role]));questions.append(row);
+    }
+    body.append(questions);
+   }
+   if(!shared()&&exercise.scenes.slice((checkpoint-1)*3,checkpoint*3).some(scene=>session.skippedIds.includes(scene.id)))body.append(node('p',strings.passed,'response-hint'));
    if(scenes.length){
     body.append(createMasteryFeedback({language,scenes,skillName:id=>localizeSkill(language,id).name,audience:shared()&&!session.pair?'observer':'self'}));
-    const form=node('form');form.id='mastery-rating-form';form.addEventListener('submit',e=>{e.preventDefault();session.error='';void save();});
-    const label=node('label',ratingTitle,'sr-only');label.htmlFor='mastery-score';
-    const select=node('select');select.id='mastery-score';select.required=true;
-    const option=node('option',strings.placeholder);option.value='';select.append(option);
-    strings.labels.forEach((title,i)=>{const option=node('option',`${i+1} · ${title}`);option.value=String(i+1);select.append(option);});
-    select.value=session.draftScore||saved?.score||'';
-    select.addEventListener('change',()=>{session.draftScore=select.value;session.error='';persist();const b=document.getElementById('mastery-save');if(b)b.disabled=busy||!select.value;});
-    form.append(label,select);body.append(form);
-    if(!shared()){
+    if(!shared()) {
+     const form=node('form');form.id='mastery-rating-form';form.addEventListener('submit',e=>{e.preventDefault();session.error='';void save();});
+     const label=node('label',ratingTitle,'sr-only');label.htmlFor='mastery-score';
+     const select=node('select');select.id='mastery-score';select.required=true;
+     const option=node('option',strings.placeholder);option.value='';select.append(option);
+     strings.labels.forEach((title,i)=>{const option=node('option',`${i+1} · ${title}`);option.value=String(i+1);select.append(option);});
+     select.value=session.draftScore||saved?.score||'';
+     select.addEventListener('change',()=>{session.draftScore=select.value;session.error='';persist();const b=document.getElementById('mastery-save');if(b)b.disabled=busy||!select.value;});
+     form.append(label,select);body.append(form);
      const remote=cloud&&session.ownerId===getUser()?.id;
      if(!remote)body.append(node('p',session.ownerId&&session.ownerId!==getUser()?.id?strings.changed:strings.local,'response-hint'));
      const saveButton=button(remote?strings.save:strings.localSave,()=>{},true,'mastery-save');saveButton.type='submit';saveButton.setAttribute('form','mastery-rating-form');saveButton.disabled=busy||!select.value;actions.append(saveButton);
@@ -198,9 +209,6 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
    }
    const next=button(checkpoint===4?strings.done:strings.next,()=>{
     if(busy)return;
-    if(shared()&&scenes.length&&session.draftScore){
-     session.ratings[checkpoint]={score:Number(session.draftScore),remote:false,ids:scenes.map(scene=>scene.id)};
-    }
     if(checkpoint===4){write(KEY,null);session=null;refreshResume();library();return;}
     session.index++;session.phase='practicing';session.draftScore='';session.error='';role=shared()?'client':role;persist();render();
    },true,'mastery-next');
@@ -212,5 +220,9 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
   body.append(actions);element.replaceChildren(body);
   const heading=body.querySelector('h3')??body.querySelector('h2');heading.tabIndex=-1;heading.focus({preventScroll:true});window.scrollTo(0,0);
  }
- return {element,resumeCard,choose,resume,refreshResume,hasSession:()=>validMasterySession(read(KEY))};
+ function focusAttempt(body) {
+  const target=body.querySelector('blockquote')??body.querySelector('.individual-guide');
+  target.tabIndex=-1;target.focus();
+ }
+ return {element,resumeCard,choose,resume,refreshResume,goHome:()=>{if(!session||session.phase==='preparation')home();else leavePractice();},hasSession:()=>validMasterySession(read(KEY))};
 }
