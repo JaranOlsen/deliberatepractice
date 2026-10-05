@@ -7,7 +7,8 @@ export const GROUP_PRACTICE_COPY = {
     workflowTitle: 'The workflow', yourPart: 'Your part', afterRound: 'After every 3 items',
     workflowSteps: ['Client reads the line', 'Therapist responds', 'Client gives feedback', 'Observer coaches', 'Repeat line · therapist retries', 'Rate the therapist'],
     awarenessSteps: ['Reader reads the line', 'Therapist notices their reaction', 'Reader reflects', 'Observer suggests an experiment', 'Repeat line · therapist notices again', 'Rate the therapist'],
-    skillFocus: 'Skill focus', pairGuide: ['Guide', 'Finish each item after the retry. Self-assess after each set of three.'],
+    skillFocus: 'Skill focus', pairRating: 'Therapist self-assesses',
+    individualGuide: {preview: 'Read · respond · retry', steps: [['Respond', 'Read the line, then try the skill aloud in your own words.'], ['Compare', 'Consider what worked and one change to try. An example is available below.'], ['Retry', 'Use the same line. Test one change.']]},
     roleGuide: {
       therapist: {preview: 'Listen · respond · retry', steps: [['Respond', 'Listen to the client, then try the skill in your own words.'], ['Feedback', 'Choose a useful change; you can adapt the feedback or pass.'], ['Retry', 'Ask for the same line. Test one change.']]},
       client: {preview: 'Read · feedback · repeat', steps: [['Read', 'Read the line aloud in the client’s voice.'], ['Feedback', 'Stay in role. Describe how it felt: “I felt…” or “It helped when…”'], ['Repeat', 'Use the same line for the retry.']]},
@@ -21,7 +22,7 @@ export const GROUP_PRACTICE_COPY = {
       passive: {preview: 'Watch · respect boundaries', steps: [['Watch', 'Notice how the therapist pauses and attends to their reaction.'], ['Boundaries', 'Respect what stays private. Leave coaching to the active observer.']]}
     },
     awarenessCue: {therapist: 'Notice your reaction. Keep it private, or share only what you choose with the group.', client: 'Read, then step out of role. Reflect on the pause; respect what stays private.', observer: 'Notice one strength. Suggest a gentle experiment without interpreting or asking for disclosure.', passive: 'Listen to the process. Respect what the therapist keeps private.'},
-    finishNext: 'Finish item · next', finishLast: 'Finish item · rate set', beforeExample: 'Optional, after your own attempt and feedback.',
+    finishNext: 'Finish item · next', finishLast: 'Finish item · rate set',
     example: 'See an example', hideExample: 'Hide example', exampleNote: 'An example, not an answer key. Choose one change to try.', awarenessExampleNote: 'Your reaction may differ, including feeling little or nothing. Notice your own experience.',
   },
   no: {
@@ -31,7 +32,8 @@ export const GROUP_PRACTICE_COPY = {
     workflowTitle: 'Slik øver dere', yourPart: 'Din del', afterRound: 'Etter hvert tredje utsagn',
     workflowSteps: ['Klienten leser utsagnet', 'Terapeuten svarer', 'Klienten gir tilbakemelding', 'Observatøren veileder', 'Gjenta utsagnet · terapeuten prøver igjen', 'Vurder terapeuten'],
     awarenessSteps: ['Oppleseren leser utsagnet', 'Terapeuten merker sin reaksjon', 'Oppleseren reflekterer', 'Observatøren foreslår et eksperiment', 'Gjenta utsagnet · terapeuten merker på nytt', 'Vurder terapeuten'],
-    skillFocus: 'Ferdighetsfokus', pairGuide: ['Led øvingen', 'Fullfør hvert utsagn etter det nye forsøket. Vurder deg selv etter hvert sett med tre.'],
+    skillFocus: 'Ferdighetsfokus', pairRating: 'Terapeuten vurderer seg selv',
+    individualGuide: {preview: 'Les · svar · prøv igjen', steps: [['Svar', 'Les utsagnet, og prøv ferdigheten høyt med dine egne ord.'], ['Sammenlign', 'Tenk over hva som fungerte og én endring å prøve. Du kan se et eksempel nedenfor.'], ['Prøv igjen', 'Bruk det samme utsagnet. Prøv én endring.']]},
     roleGuide: {
       therapist: {preview: 'Lytt · svar · prøv igjen', steps: [['Svar', 'Lytt til klienten, og prøv ferdigheten med dine egne ord.'], ['Tilbakemelding', 'Velg en nyttig endring; du kan tilpasse tilbakemeldingen eller stå over.'], ['Prøv igjen', 'Be om det samme utsagnet. Prøv én endring.']]},
       client: {preview: 'Les · gi respons · gjenta', steps: [['Les', 'Les utsagnet høyt med klientens stemme.'], ['Gi respons', 'Bli i rollen. Beskriv hvordan det kjentes: «Jeg følte …» eller «Det hjalp da …»'], ['Gjenta', 'Bruk det samme utsagnet ved det nye forsøket.']]},
@@ -45,7 +47,7 @@ export const GROUP_PRACTICE_COPY = {
       passive: {preview: 'Følg med · respekter grenser', steps: [['Følg med', 'Legg merke til hvordan terapeuten stopper opp og merker egen reaksjon.'], ['Grenser', 'Respekter det som holdes privat. La den aktive observatøren veilede.']]}
     },
     awarenessCue: {therapist: 'Merk din reaksjon. Behold den for deg selv, eller del bare det du selv velger med gruppen.', client: 'Les, og gå så ut av rollen. Reflekter over pausen; respekter det som holdes privat.', observer: 'Legg merke til én styrke. Foreslå et varsomt eksperiment uten å tolke eller be om utlevering.', passive: 'Lytt til prosessen. Respekter det terapeuten holder privat.'},
-    finishNext: 'Fullfør · neste utsagn', finishLast: 'Fullfør · vurder settet', beforeExample: 'Valgfritt, etter eget forsøk og tilbakemelding.',
+    finishNext: 'Fullfør · neste utsagn', finishLast: 'Fullfør · vurder settet',
     example: 'Se et eksempel', hideExample: 'Skjul eksempelet', exampleNote: 'Et eksempel, ikke en fasit. Velg én endring å prøve.', awarenessExampleNote: 'Din reaksjon kan være annerledes, også at du kjenner lite eller ingenting. Merk din egen opplevelse.',
   },
 };
@@ -61,18 +63,19 @@ export function getGroupPracticeCopy(language) {
   return GROUP_PRACTICE_COPY[language] ?? GROUP_PRACTICE_COPY.en;
 }
 
-export function createGroupWorkflow({language, awareness = false, pair = false, id, open = false}) {
+export function createGroupWorkflow({language, awareness = false, pair = false, id, open = false, onToggle}) {
   const s = getGroupPracticeCopy(language);
   const guide = node('details', '', 'room-workflow-guide');
   if (id) guide.id = id;
   guide.open = open;
+  if (onToggle) guide.addEventListener('toggle', () => onToggle(guide.open));
   guide.append(node('summary', s.workflowTitle));
   const sequence = node('ol', '', 'room-workflow');
   sequence.setAttribute('aria-label', s.workflowTitle);
   const titles = awareness ? s.awarenessSteps : s.workflowSteps;
   (pair ? [0,1,2,4,5] : [0,1,2,3,4,5]).forEach((index, number) => {
     const item = node('li');
-    const label = node('span', titles[index]);
+    const label = node('span', pair && index === 5 ? s.pairRating : titles[index]);
     if (index === 5) { item.className = 'room-workflow-rating'; label.append(node('small', s.afterRound)); }
     item.append(node('span', String(number + 1), 'room-workflow-number'), label);
     sequence.append(item);
@@ -81,10 +84,10 @@ export function createGroupWorkflow({language, awareness = false, pair = false, 
   return guide;
 }
 
-export function createGroupRoleGuide({language, awareness = false, role, pair = false, id,
+export function createGroupRoleGuide({language, awareness = false, role, pair = false, individual = false, id,
   open = false, roleLabel, focus, example, examplePrefix, onToggle}) {
   const s = getGroupPracticeCopy(language);
-  const content = (awareness ? s.awarenessGuide : s.roleGuide)[role];
+  const content = individual ? s.individualGuide : (awareness ? s.awarenessGuide : s.roleGuide)[role];
   const part = node('details', '', 'room-role-guide');
   if (id) part.id = id;
   part.dataset.role = role;
@@ -100,7 +103,6 @@ export function createGroupRoleGuide({language, awareness = false, role, pair = 
   }
   const steps = node('dl', '', 'room-role-steps');
   const instructions = [...content.steps];
-  if (pair && role === 'therapist') instructions.push(s.pairGuide);
   instructions.forEach(([title, instruction], index) => {
     const step = node('div', '', 'room-role-step'), detail = node('dd', instruction);
     if (role === 'therapist' && index === 2 && example) {
@@ -115,10 +117,19 @@ export function createGroupRoleGuide({language, awareness = false, role, pair = 
         reveal.textContent = response.hidden ? s.example : s.hideExample;
         reveal.setAttribute('aria-expanded', String(!response.hidden));
       });
-      retry.append(node('p', s.beforeExample, 'response-hint'), reveal, response); detail.append(retry);
+      retry.append(reveal, response); detail.append(retry);
     }
     step.append(node('dt', title), detail); steps.append(step);
   });
   body.append(steps); part.append(body);
   return part;
+}
+
+export function createMasteryPracticeHelp(language) {
+  const help = node('details', '', 'mastery-background');
+  help.append(node('summary', language === 'no' ? 'Om øvingen' : 'About this practice'),
+    node('p', language === 'no'
+      ? 'Hvert utsagn er et nytt øyeblikk i terapien; det tilpasser seg ikke svaret ditt.'
+      : 'Each scene is a new moment in therapy; it doesn’t respond to what you just said.'));
+  return help;
 }

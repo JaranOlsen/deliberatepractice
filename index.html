@@ -16,9 +16,6 @@
       <div class="app-header-inner">
         <div class="app-heading">
           <h1 id="app-title">Deliberate Practice Lab</h1>
-          <p class="app-tagline" id="app-tagline">
-            Build precision with focused skills, tailored cases, and adaptive difficulty.
-          </p>
         </div>
         <div class="account-controls">
           <button type="button" class="header-pill" id="join-shared-room">Group</button>
@@ -56,20 +53,19 @@
                 <input type="radio" name="practice-mode" value="group" checked>
                 <span>
                   <strong id="practice-mode-triad">Group</strong>
-                  <small id="practice-mode-triad-description">Therapist, client, and observer practice three items with feedback and retry.</small>
+                  <small id="practice-mode-triad-description">Two or more.</small>
                 </span>
               </label>
               <label class="practice-format-option">
                 <input type="radio" name="practice-mode" value="individual">
                 <span>
                   <strong id="practice-mode-individual">Individual</strong>
-                  <small id="practice-mode-individual-description">Practice the full set at your own pace.</small>
+                  <small id="practice-mode-individual-description">Practice at your own pace.</small>
                 </span>
               </label>
             </div>
             <label id="shared-device-option" hidden><input type="checkbox" id="shared-device"> <span id="shared-device-label">Use one shared device</span></label>
           </fieldset>
-        <p id="group-entry-note"></p>
         <div id="group-room-actions" class="room-entry-actions"><button id="group-resume" class="primary-button" type="button" hidden></button><button id="group-create" class="primary-button" type="button">Create room</button><button id="group-join" class="ghost-button" type="button">Join with a code</button></div>
         </div>
         <div class="home-library-actions">
@@ -88,9 +84,6 @@
       <section id="language-selection" class="panel">
         <button id="language-home" class="back-button" type="button" hidden>← Home</button>
         <h2 class="panel-title" id="language-panel-title">Choose a Language</h2>
-        <p class="panel-subtitle" id="language-panel-description">
-          Select the language you want to practice in.
-        </p>
         <div
           class="grid-list"
           id="language-list"
@@ -113,9 +106,6 @@
         </div>
         <div class="exercise-type-choice" role="group" aria-label="Exercise type"><button type="button" class="ghost-button" id="exercise-single" aria-pressed="true">Single skill</button><button type="button" class="ghost-button" id="exercise-mastery" aria-pressed="false" hidden>Mastery practice</button></div>
         <div id="mastery-library" class="grid-list" hidden></div>
-        <p class="panel-subtitle" id="skill-panel-description">
-          Pick the focus area you want to strengthen today.
-        </p>
         <button type="button" class="ghost-button library-progress" id="open-progress" hidden>Your progress</button>
         <div
           class="grid-list"
@@ -137,9 +127,6 @@
           </button>
           <h2 class="panel-title" id="case-panel-title">Pick a Case</h2>
         </div>
-        <p class="panel-subtitle" id="case-panel-description">
-          Explore curated cases that mirror real-world dynamics.
-        </p>
         <div class="skill-summary is-hidden" id="case-skill-summary-card" hidden>
           <div class="skill-summary-header">
             <div class="skill-summary-title-group">
@@ -186,9 +173,6 @@
           </button>
           <h2 class="panel-title" id="skill-guide-panel-title">Skill Guide</h2>
         </div>
-        <p class="panel-subtitle" id="skill-guide-description">
-          Review the markers, aim, and common misses before choosing a case.
-        </p>
         <div class="skill-context is-hidden" id="case-skill-context" hidden>
           <div class="skill-context-header">
             <h3 class="skill-context-title" id="case-skill-name"></h3>
@@ -276,8 +260,7 @@
           </div>
 
           <section class="triad-orientation is-hidden" id="triad-orientation" hidden>
-            <h4 id="triad-orientation-title">How the group practices</h4>
-            <p id="triad-orientation-text">The observer controls the shared or screen-shared app. For each item: therapist responds, client describes the impact, observer offers focused coaching, and therapist retries.</p>
+            <label class="shared-pair-choice"><input type="checkbox" id="shared-pair"><span id="shared-pair-label">We’re two</span></label>
             <details class="triad-feedback-guide">
               <summary id="triad-case-guide-summary">Feedback guide</summary>
               <ul>
@@ -457,7 +440,6 @@
       <div class="account-modal" id="account-modal" role="dialog" aria-modal="true" aria-labelledby="account-heading">
         <div class="account-modal-header">
           <div>
-            <span class="account-eyebrow" id="account-eyebrow">Practice account</span>
             <h3 id="account-heading">Account</h3>
           </div>
           <button type="button" class="glossary-close" id="close-account" aria-label="Close account panel">×</button>

@@ -2356,8 +2356,8 @@ select, textarea, input[type="text"], input[type="email"] { min-width: 0; max-wi
 .mastery-scene-bridge { color:var(--color-muted); font-size:.9rem; }
 .mastery-background, .mastery-sequence { padding:.8rem; border:1px solid var(--border-color, #dde3e2); border-radius:1rem; }
 .mastery-role-tabs button { flex:1 1 auto; min-width:max-content; white-space:nowrap; font-size:.9rem; padding:.65rem .35rem; min-height:44px; }
-.mastery-pair-choice { display:flex; align-items:center; gap:.65rem; }
-.mastery-pair-choice input { width:1.3rem; height:1.3rem; flex-shrink:0; }
+.mastery-pair-choice, .shared-pair-choice { display:flex; align-items:center; gap:.65rem; }
+.mastery-pair-choice input, .shared-pair-choice input { width:1.3rem; height:1.3rem; flex-shrink:0; }
 .mastery-history { margin-top:1.5rem; padding-top:1.5rem; border-top:1px solid #dce3e1; }
 .mastery-history-list { list-style:none; padding:0; }
 .mastery-history-list > li { margin-top:1rem; padding:1rem; border:1px solid #dce3e1; border-radius:1rem; }
@@ -2380,3 +2380,26 @@ body[data-section="mastery"] .mastery-panel { padding-bottom:calc(9rem + env(saf
 /* Case cards with several levels show the available range, never a remembered level. */
 .card-button.case-multiple-levels { position:relative; background:var(--case-level-gradient); }
 .card-button.case-multiple-levels::before { content:""; position:absolute; inset:0 auto 0 -3px; width:3px; border-radius:8px 0 0 8px; background:var(--case-level-border); }
+
+/* Keep horizontal reading space on phones when users enlarge the text. */
+@media (max-width: 520px) {
+  .app-main,
+  body:is([data-section="practice"], [data-section="room"], [data-section="mastery"]) .app-main {
+    padding-inline: 12px;
+  }
+  .panel,
+  body:is([data-section="practice"], [data-section="room"], [data-section="mastery"]) .panel {
+    padding-inline: 12px;
+  }
+  body:is([data-section="practice"], [data-section="room"], [data-section="mastery"]) :is(.case-brief-screen, .statement-panel) {
+    padding-inline: 14px;
+  }
+  .triad-orientation, .triad-protocol, .triad-debrief, .individual-guide,
+  .skill-feedback-guide, .room-details, .room-role-guide-body, .room-role-guide > summary {
+    padding-inline: 12px;
+  }
+  .room-role-guide > summary > span { min-width: 0; }
+  .account-overlay { padding-inline: 12px; }
+  .account-modal, .rating-panel { padding-inline: 16px; }
+  .primary-button, .ghost-button { padding-inline: min(1.2rem, 20px); }
+}

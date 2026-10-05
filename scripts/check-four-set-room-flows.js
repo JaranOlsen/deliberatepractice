@@ -132,7 +132,7 @@ async (page) => {
     const fullRound=room.round_id, order=[...room.statement_ids], roles=[room.therapist_id,room.client_id,room.observer_id];
     assert(room.round_size===12&&new Set(order).size===12,'Preparation selects twelve unique items');
     if(variable)assert(room.difficulty===level&&order.every(id=>id.includes(`_${level}_`)),'The host selects twelve items at one selected level');
-    assert((await o.locator('#room-content').textContent()).includes('4 sets of 3'),'Preparation explains the fixed-role round');
+    assert(!(await o.locator('#room-content').textContent()).includes('4 sets of 3'),'Preparation avoids redundant round-plan narration');
     stage='private feedback targets';
     assert(await t.locator('#room-next-attempt').count()===0,'No reminder editor in preparation');
     assert(await c.locator('.skill-feedback-guide').count()===0,'Client preparation does not include scoring guidance');
@@ -205,9 +205,11 @@ async (page) => {
       assert(await o.locator('#room-feedback-reference').count()===1,'Active observer retains guidance at the checkpoint');
       for(const p of [t,c,watcher])assert(await p.locator('#room-content .skill-feedback-guide').count()===0,'Only the active observer has rating guidance at a larger-group checkpoint');
       assert(room.phase==='round_debrief'&&room.item_index===set*3+2,'Each third item pauses for rating: '+JSON.stringify({set,phase:room.phase,index:room.item_index,completed:room.completed_ids.length}));
-      assert((await o.locator('#room-content').textContent()).includes(`${set===1?2:3} practiced · ${set===1?1:0} passed`),'Debrief counts only its set');
+      assert((await o.locator('#room-content').textContent()).includes(`${set===1?2:3} practiced${set===1?' · 1 passed':''}`),'Debrief counts only its set');
+      if(set!==1)assert(!(await o.locator('#room-content').textContent()).includes('0 passed'),'Zero passes add no checkpoint clutter');
       assert(await o.locator('#room-change-role-form').isHidden(),'Roles cannot change at rating checkpoints');
       await o.locator('#room-score').selectOption('4');await ready(o,'room-save');await click(o,'room-save');await o.waitForFunction(()=>document.querySelector('#room-save').hidden);await sync();
+      for(const p of [t,c,watcher])assert(await p.locator('#room-rating-wait').isHidden(),'Non-rater waiting hint disappears after saving');
       const rows=(await ratings()).filter(r=>r.therapist_user_id===users.t&&!existingRatings.has(r.id));
       assert(rows.every(r=>r.parent_round_id===fullRound&&r.set_number>=1&&r.set_number<=set+1),'Separate-device checkpoints persist their parent round and set');
       assert(rows.length===set+1,'Every set creates one distinct rating');
@@ -269,7 +271,7 @@ async (page) => {
       pages.splice(pages.indexOf(p),1);await sync();
     }
     assert(room.member_ids.length===2&&room.therapist_id===users.o&&room.client_id&&!room.observer_id,'Two-person room retains exactly therapist and client');
-    assert((await o.locator('.room-preparation').textContent()).includes('Start when you’re both ready'),'Preparation updates when a larger group becomes a pair');
+    assert(await o.locator('#room-seats > li').count()===2 && (await o.locator('.room-preparation').textContent()).includes('Notice your reaction'),'Pair preparation updates the roles and preserves the therapist privacy cue');
     assert(await o.locator('#room-ready').isHidden(),'Pair therapist starts instead of confirming readiness twice');
     assert(await o.locator('#room-content .skill-feedback-guide').count()===0,'Pair preparation has no scoring reference');
     await confirmReadiness();

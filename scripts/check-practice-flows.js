@@ -179,7 +179,7 @@ async (page) => {
   for (let set=1;set<4;set++) {
     assert((await session()).index === set*3, 'Next set continues the same order');
     for (let i=0;i<3;i++) await click('next-statement');
-    assert((await text('triad-debrief-counts')).includes('3 practiced · 0 passed'), 'Each debrief counts only its current set');
+    assert((await text('triad-debrief-counts')).includes('3 practiced') && !(await text('triad-debrief-counts')).includes('passed'), 'Each debrief counts only its current set without zero-pass clutter');
     await click('triad-complete-round');
     if (set<3) await click('rating-skip');
   }
