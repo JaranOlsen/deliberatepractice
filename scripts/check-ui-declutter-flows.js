@@ -25,6 +25,7 @@ async page => {
       const context = await page.context().browser().newContext({viewport: {width: 320, height: 844}});
       contexts.push(context);
       await context.addInitScript(language => {
+        localStorage.setItem('dp_app_tour_v1',JSON.stringify({disabled:true}));
         localStorage.setItem('dp_access_level', 'all');
         localStorage.setItem('dp_practice_preferences_v1', JSON.stringify({languageId: language, practiceMode: 'individual', groupUiVersion: 2}));
       }, language);

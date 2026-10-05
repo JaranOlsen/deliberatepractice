@@ -13,6 +13,7 @@ async (page) => {
   const ackAll = () => ['observer', 'therapist', 'client'].filter(role => room[`${role}_id`]).every(role => room.presence[room[`${role}_id`]]?.acknowledged_version === room.version);
   for (const user of ['o', 't', 'c', 'p', 'q']) {
     const context = await browser.newContext({viewport: {width: 390, height: 844}}); contexts.push(context);
+    await context.addInitScript(()=>localStorage.setItem('dp_app_tour_v1',JSON.stringify({disabled:true})));
     const p = await context.newPage(); pages.push(p); p.on('pageerror', e => errors.push(e.message));
     await context.route('**/src/js/backend.js*', route => route.fulfill({contentType: 'text/javascript', body: `
       const user={id:'${user}',email:'${user}@example.invalid'};

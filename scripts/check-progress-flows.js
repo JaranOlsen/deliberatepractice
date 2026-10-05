@@ -74,7 +74,7 @@ async (page) => {
     await route.fulfill({status: fail ? 503 : 200, contentType:'application/json', body});
   });
   try {
-    await page.evaluate(() => { localStorage.clear(); localStorage.setItem('dp_practice_preferences_v1', JSON.stringify({languageId:'en'})); });
+    await page.evaluate(() => { localStorage.clear(); localStorage.setItem('dp_app_tour_v1',JSON.stringify({disabled:true}));localStorage.setItem('dp_practice_preferences_v1', JSON.stringify({languageId:'en'})); });
     await page.reload();
     await page.locator('input[name="practice-mode"][value="individual"]').check();
     await click('home-library');
@@ -179,8 +179,8 @@ async (page) => {
     assert(await page.locator('.radar-region').count()===4,'The map has four short corner labels');
     assert(await page.locator('.self-chart-label > title').count()===allSkills.length,'Every radar label retains its full skill name');
     assert(!(await page.locator('.self-chart-label tspan').allTextContents()).some(text=>/…|\.\.\./.test(text)),'Radar labels have deliberate short names without truncation');
-    const labels=await page.locator('.self-chart-label').evaluateAll(els=>els.map(e=>{const box=e.getBBox();return {name:e.querySelector('title').textContent,x:box.x,y:box.y,width:box.width,height:box.height};}));
-    assert(labels.every(b=>b.x>=0&&b.y>=0&&b.x+b.width<=400&&b.y+b.height<=400),'Full radar labels stay within the chart: '+JSON.stringify(labels.filter(b=>b.x<0||b.y<0||b.x+b.width>400||b.y+b.height>400)));
+    const labels=await page.locator('.self-chart-label').evaluateAll(els=>els.map(e=>{const box=e.getBBox(),frame=e.ownerSVGElement.viewBox.baseVal;return {name:e.querySelector('title').textContent,x:box.x,y:box.y,width:box.width,height:box.height,fits:box.x>=frame.x&&box.y>=frame.y&&box.x+box.width<=frame.x+frame.width&&box.y+box.height<=frame.y+frame.height};}));
+    assert(labels.every(b=>b.fits),'Full radar labels stay within the chart: '+JSON.stringify(labels.filter(b=>!b.fits)));
     const overlaps=labels.flatMap((a,i)=>labels.filter((b,j)=>j>i&&a.x<b.x+b.width&&a.x+a.width>b.x&&a.y<b.y+b.height&&a.y+a.height>b.y).map(b=>[a.name,b.name]));
     assert(!overlaps.length,'Full radar labels do not overlap: '+JSON.stringify(overlaps));
     for(const width of [320,390]){

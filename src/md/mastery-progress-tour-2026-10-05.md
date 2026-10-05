@@ -1,0 +1,9 @@
+# Mastery progress and app tour
+
+Radar skill labels sit nine chart units farther out. A twelve-unit outer margin preserves the full names without clipping. Positions, scores and difficulty colours are unchanged.
+
+Mastery progress opens with difficulty summaries, a chronological trend and a selected round's four set scores. Summaries use up to three recent complete rounds at the same difficulty. The trend shows up to twelve complete rounds for the chosen level, placed by their recorded dates. Tapping a dot or the chart selects a round; keyboard users can also use arrows, Home and End. Partial rounds remain in the collapsed history instead of being plotted as complete rounds. Self and observer sources remain separate. Missing levels have no fabricated score.
+
+The English/Norwegian tour contains seven short guided previews: formats, rooms, library choices, roles and readiness, response/feedback/retry, ratings and progress. It appears each time the app opens until the user checks “Don’t show this again.” Skipping and completing it do not turn it off. Account offers replay, including an option to re-enable automatic display. The preference is local to the browser, so the tour works before sign-in. The previews do not navigate or write to rooms, ratings or active rounds.
+
+Verification: 79 unit tests and eleven isolated database suites; production build and Supabase configuration verification; English/Norwegian tour checks at 320px and 390px, with enlarged text, focus trapping, reload persistence, replay and active-round preservation. All four demo profiles pass source/level comparisons, outward label bounds, mastery averages, point selection, four set bars and enlarged phone text. Existing progress, six individual/shared practice combinations and five-person room regressions pass. No database, auth or permission changes were required.
