@@ -144,6 +144,19 @@ async (page) => {
     await o.locator('#room-feedback-reference > summary').click();
     assert((await o.locator('#room-feedback-reference').textContent()).includes('3 · Adequate in parts')&&(await o.locator('#room-feedback-reference').textContent()).includes('5 · Skillfully demonstrated'),'Observer has skill-specific anchors in preparation');
     await o.locator('#room-feedback-reference > summary').click();
+    stage='safe Home navigation';
+    await c.locator('#room-back').click();
+    assert(await c.evaluate(()=>document.activeElement.id)==='practice-exit-keep','Room Home defaults to keeping practice');
+    await c.keyboard.press('Escape');
+    assert(await c.locator('#room-panel').isVisible(),'Escape keeps the client in the room');
+    await c.locator('#room-back').click();await c.locator('#practice-exit-pause').click();
+    await c.waitForFunction(()=>document.body.dataset.section==='home');
+    await c.locator('#group-resume').click();await c.locator('#room-panel').waitFor();await sync();
+    assert(room.round_id===fullRound&&room.phase==='lobby','Returning Home preserves the room and material');
+    await o.locator('#room-back').click();await o.locator('#practice-exit-end').click();
+    await o.locator('#room-exit-overlay').waitFor();
+    await o.locator('#room-exit-cancel').click();
+    assert(room.phase==='lobby','Cancelling end-room confirmation leaves the room open');
     stage='human readiness';
     assert(room.readiness_required&&room.preparation_id,'New app rooms opt into human readiness');
     assert(await o.locator('#room-role-summary').isVisible()&&!(await o.locator('#room-details').evaluate(e=>e.open)),'Assignments are visible without opening People');
@@ -300,7 +313,7 @@ async (page) => {
     assert(!(await o.locator('#room-next-attempt').textContent()).includes('Pause before the reflection.'),'New therapist/skill does not inherit the previous therapist’s note');
     assert(!(await ratings()).some(r=>JSON.stringify(r).includes('Pause before the reflection.')),'Ratings never contain private reminder text');
     assert(errors.length===0,'No browser errors: '+errors.join('; '));
-    return {passed:true,participants:4,checks:['private therapist reminder across four sets','room peer RLS isolation','skill-specific observer anchors','no notes in snapshots or ratings','real local RPCs','twelve unique items','fixed roles','four distinct set ratings','passed items','lost-response replay','saved-checkpoint reconnect','320px role screens','explicit role/skill/case reselection','role selection survives polling','simultaneous client claims','taken draft choice resets','missing observer blocks UI and RPC','human readiness barrier','simultaneous readiness','visible role assignments','pair readiness','pair self-assessment','all-passed set','host transfer with lost-response replay','host recovery','returning host does not regain authority']};
+    return {passed:true,participants:4,checks:['safe Home, resume, end-room cancellation and completion','private therapist reminder across four sets','room peer RLS isolation','skill-specific observer anchors','no notes in snapshots or ratings','real local RPCs','twelve unique items','fixed roles','four distinct set ratings','passed items','lost-response replay','saved-checkpoint reconnect','320px role screens','explicit role/skill/case reselection','role selection survives polling','simultaneous client claims','taken draft choice resets','missing observer blocks UI and RPC','human readiness barrier','simultaneous readiness','visible role assignments','pair readiness','pair self-assessment','all-passed set','host transfer with lost-response replay','host recovery','returning host does not regain authority']};
   } catch(error) {
     const ui=await o.locator('#room-panel').evaluate(e=>({phase:e.dataset.phase,version:e.dataset.version,error:document.getElementById('room-error').textContent})).catch(()=>null);
     const allUi=await Promise.all(pages.map(p=>p.locator('#room-panel').evaluate(e=>({hidden:e.hidden,phase:e.dataset.phase,version:e.dataset.version,section:document.body.dataset.section,error:document.getElementById('room-error').textContent})).catch(()=>null)));

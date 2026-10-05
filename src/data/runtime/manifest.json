@@ -2214,7 +2214,7 @@
       },
       "empathic-refocusing": {
         "name": "Empatisk refokusering",
-        "description": "Inviter tilbake til en følelse som var på vei frem, når samtalen beveger seg bort fra den.",
+        "description": "Legg merke til når kontakten med en følelse blir svakere, og inviter tilbake til øyeblikket, med rom for klientens eget valg.",
         "summary": "Legg merke til at samtalen beveger seg bort fra en følelse som var i ferd med å komme frem. Knytt invitasjonen til akkurat det øyeblikket, fremfor å kalle klienten unnvikende. En spøk, en praktisk bekymring eller et temaskifte kan ha flere betydninger. Undersøk før du antar at det er beskyttelse.\n\nTilby en liten, valgfri tilbakevending. Klienten kan ønske å fortsette med det nye temaet, senke tempoet eller stoppe. Refokusering skal støtte kontakt med opplevelsen, ikke terapeutens foretrukne agenda. Ta imot en korrigering hvis invitasjonen ikke passer, og følg det som er viktig for klienten.",
         "marker": "En følelse som kommer frem, viker for analyse, en spøk eller et annet tema. Det finnes nok holdepunkter til å undersøke om det forrige øyeblikket fortsatt er viktig.",
         "aim": "Hjelp klienten å velge om hen vil vende tilbake til et bestemt følelsesmessig øyeblikk, uten å skape skam eller overstyre et praktisk behov.",
@@ -2223,7 +2223,7 @@
       },
       "consolidating-emotional-change": {
         "name": "Konsolidering av emosjonell endring",
-        "description": "Hjelp klienten å kjenne igjen en liten endring og finne en måte å ta den med seg på.",
+        "description": "Hjelp klienten å kjenne igjen en endring i følelse eller betydning, finne egne ord for den og utforske hvordan den kan tas med videre.",
         "summary": "Begynn med en endring klienten selv merker: en mildere holdning til seg selv, et tydeligere behov eller en ny betydning. Speil den med klientens ord, og inviter til å kjenne etter hva som er annerledes. Ikke erklær et gjennombrudd eller krev en positiv følelse. Lettelse kan finnes sammen med sorg, tvil eller en praktisk situasjon som er uendret.\n\nHjelp klienten å finne egne ord for endringen og, når det passer, en liten måte å huske eller øve på den utenfor timen. La klienten velge. Konsolidering betyr ikke å gi hjemmeoppgaver med en gang, love at endringen vil vare eller behandle usikkerhet som et nederlag.",
         "marker": "Klienten merker en liten forskjell i følelse, betydning eller forholdet til seg selv, ofte sammen med tvil om den vil vare.",
         "aim": "Gjør den begynnende endringen gjenkjennelig og personlig meningsfull, uten å gjøre den større eller bestemme neste steg.",
@@ -2232,7 +2232,7 @@
       },
       "closing-after-emotional-work": {
         "name": "Avslutning etter emosjonelt arbeid",
-        "description": "Finn et håndterbart sted å stoppe, samtidig som det uferdige får plass.",
+        "description": "Avslutt timen på en håndterbar måte ved å anerkjenne det uferdige, undersøke hvordan klienten har det og bli enige om hvor dere stopper.",
         "summary": "Ta tiden inn i samtalen på en vennlig og tydelig måte. Hør hvordan klienten har det nå, også hvilke følelser eller hvilket uferdig arbeid som er igjen. Mot slutten bør du unngå å åpne et nytt smertefullt tema bare for å fullføre en teknikk. En time kan slutte mens sorgen fortsatt er der.\n\nBli enige om et avgrenset sted å stoppe og et realistisk neste steg: en pause for å orientere seg, en kort oppsummering med klientens ord, eller hva dere kan vende tilbake til neste gang. Undersøk hva klienten trenger for overgangen ut av rommet, fremfor å foreskrive et ritual. Vær ærlig om tid, kontakt og tilgjengelighet. Akutte sikkerhetsbekymringer må møtes direkte; disse eksemplene erstatter ikke vurdering eller en sikkerhetsplan.",
         "marker": "Timen nærmer seg slutten mens klienten fortsatt er berørt, usikker eller oppmerksom på noe uferdig.",
         "aim": "Støtt en tydelig overgang i samarbeid med klienten, uten å antyde at følelsen må forsvinne eller arbeidet må være ferdig.",
@@ -2241,7 +2241,7 @@
       },
       "experiential-focusing": {
         "name": "Opplevelsesbasert fokusering",
-        "description": "Hjelp en uklar fornemmelse av en situasjon å få ord som passer.",
+        "description": "Hjelp klienten å gi plass til en uklar kroppslig fornemmelse av en situasjon, finne egne ord eller bilder og undersøke hva som passer.",
         "summary": "Begynn der klienten aner noe, men ikke helt kan si hva det er. Med klientens samtykke kan dere gi plass til en kroppslig fornemmelse av hele situasjonen slik den oppleves nå, fremfor å forklare den eller straks velge et følelsesord. Et ord, en formulering eller et bilde kan komme frem. Det er klientens beskrivelse. Hjelp hen å undersøke om den stemmer med fornemmelsen, og justere den når den ikke passer. Stillhet, usikkerhet og en korrigering er nyttige deler av arbeidet.\n\nHer øver dere på ett neste svar ved ulike øyeblikk i fokusering, ikke på en fullstendig prosess. Tilpass invitasjonen: gi plass, finne en beskrivelse, undersøke om den passer, eller ta imot det som kommer frem. Unngå kroppsskanning, en rekke instrukser eller en tolkning av hva fornemmelsen må bety. Øynene kan være åpne, og klienten kan si nei til å vende oppmerksomheten innover. Ikke krev kroppslig endring, innsikt eller lettelse. Når klienten vil stoppe, respekter valget fremfor å gjøre avslaget til mer innoverrettet arbeid.",
         "marker": "Klienten aner noe ved hele situasjonen som ennå er uklart, eller leter etter en beskrivelse som kjennes riktig.",
         "aim": "Støtt klientens egen fornemmelse og beskrivelse, med plass til usikkerhet, korrigeringer og valg.",
@@ -2361,7 +2361,7 @@
     },
     "empathic-refocusing": {
       "name": "Empathic Refocusing",
-      "description": "Invite a return to an emerging feeling when the conversation moves away from it.",
+      "description": "Notice when contact with a feeling fades, and invite a return to that moment while leaving the client free to choose.",
       "summary": "Notice a shift away from a feeling that was beginning to emerge. Link your invitation to that specific moment rather than labeling the client as avoidant. A joke, practical concern or change of subject can have several meanings; check before assuming it is protection.\n\nOffer a small, optional return. The client may want to stay with the new topic, slow down or stop. Refocusing serves contact with experience, not the therapist’s preferred agenda. If your invitation does not fit, accept the correction and follow what matters to the client.",
       "marker": "An emerging feeling gives way to analysis, a joke or another topic. There is enough evidence to check whether the earlier moment still matters.",
       "aim": "Help the client choose whether to return to a particular emotional moment without shaming the shift or overriding a practical need.",
@@ -2370,7 +2370,7 @@
     },
     "consolidating-emotional-change": {
       "name": "Consolidating Emotional Change",
-      "description": "Help the client recognize a small shift and consider how to carry it forward.",
+      "description": "Help the client recognize a change in feeling or meaning, put it into their own words, and consider how to carry it forward.",
       "summary": "Begin with a change the client actually notices: a softer stance toward themselves, a clearer need or a different meaning. Reflect it in their terms, then invite them to sense what is different. Do not announce a breakthrough or require a positive feeling. Relief can coexist with grief, doubt or an unchanged practical situation.\n\nHelp the client find their own words for the shift and, when useful, a small way to remember or practise it outside the session. Let them choose. Consolidation does not mean setting homework immediately, promising that a change will last or treating uncertainty as failure.",
       "marker": "The client notices a small difference in feeling, meaning or how they relate to themselves, often alongside doubt about whether it will last.",
       "aim": "Make the emerging change recognizable and personally meaningful without enlarging it or prescribing what comes next.",
@@ -2379,7 +2379,7 @@
     },
     "closing-after-emotional-work": {
       "name": "Closing After Emotional Work",
-      "description": "Agree on a manageable stopping point while acknowledging what remains.",
+      "description": "Bring the session to a manageable close by acknowledging what remains, checking how the client is, and agreeing on where to stop.",
       "summary": "Bring time into the conversation kindly and clearly. Hear how the client is now, including emotion or unfinished work that remains. Near the end, avoid opening a new painful thread simply to finish the technique. A session can end with sadness still present.\n\nAgree on a bounded stopping point and a realistic next step: a pause to orient, a brief summary in the client’s words, or what to return to next time. Check what they need for the transition out of the room rather than prescribe a ritual. Be honest about time, contact and availability. Immediate safety concerns require direct attention; these examples do not replace assessment or a safety plan.",
       "marker": "The end of the session is approaching while the client remains emotional, uncertain or aware of unfinished work.",
       "aim": "Support a clear, collaborative transition without implying that the feeling must disappear or the work must be resolved.",
@@ -2388,7 +2388,7 @@
     },
     "experiential-focusing": {
       "name": "Experiential Focusing",
-      "description": "Help an unclear sense of a situation find words that fit.",
+      "description": "Help the client make room for an unclear felt sense of a situation, find their own words or images, and check what fits.",
       "summary": "Begin where the client has a sense of something but cannot quite say what it is. With their agreement, make room for a bodily sense of the whole situation as it is experienced now, rather than explain it or immediately choose an emotion label. A word, phrase or image may emerge; it belongs to the client. Help them check it against what they sense and revise it when it does not fit. Silence, uncertainty and a correction are useful parts of the work.\n\nThese items practise one next response at different moments in focusing, not a complete task. Match your invitation to the moment: making room, finding a description, checking its fit or receiving what emerges. Avoid a body scan, a series of instructions or an interpretation of what the sensation must mean. Eyes can stay open; inward attention can be declined. Do not require a bodily shift, insight or relief. When the client asks to stop, respect that choice rather than turn the refusal into more inward work.",
       "marker": "The client senses something about a whole situation that is not yet clear, or is searching for a description that feels right.",
       "aim": "Support the client’s own sensing and description, allowing uncertainty, corrections and choice.",

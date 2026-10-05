@@ -54,6 +54,7 @@ import {createPracticeGoalView, setPracticeGoalUser, practiceGoals} from './prac
 
 import { summarizeRatings, createProgressRadar, focusProgressRadar, recentRatings } from "./practiceProgress.js";
 import {createProgressHistory, createProgressSuggestion} from './progressHistoryUI.js';
+import {createPracticeExit} from './practiceExitUI.js';
 import { createDialogManager } from "./dialogs.js";
 import { SESSION_VERSION, isResumableSession, getRoundOutcome, getOrCreateRoundId } from "./practiceSession.js";
 
@@ -85,6 +86,7 @@ function renderPracticeLearning() {
 }
 
 const dialogs = createDialogManager();
+const practiceExit = createPracticeExit({dialogs,getLanguage:()=>state.languageId??'en'});
 let roomView = null;
 let roomSelection = null;
 let languageDestination = 'home';
@@ -101,7 +103,7 @@ async function openSharedRoom(mode = "hub", {selectedCase = false, code = null, 
   if (state.sessionActive || state.ratingVisible) return;
   if (!roomView) {
     const {createPracticeRoomView} = await import('./practiceRoom.js');
-    roomView = createPracticeRoomView({dialogs,
+    roomView = createPracticeRoomView({dialogs, requestHome:actions=>practiceExit.open(actions),
       onOpen: () => { roomSelection = null; showSection("room"); },
       onClose: () => { roomSelection = null; showSection("home"); },
       onChoose: room => {
@@ -470,6 +472,7 @@ const mastery = createMasteryPractice({
     else await openSharedRoom('create',{masteryConfig:config});
   },
   onProgress: () => {state.progressExercise='mastery';progressRequestId++;state.progressRatingsLoaded=false;state.progressRatingsLoading=false;},
+  requestHome:actions=>practiceExit.open(actions),
   theme: (element,skillId,difficulty) => applyVisualProperties(element,getCaseVisual(skillId,difficulty))
 });
 sections.mastery=mastery.element;document.querySelector('main').append(mastery.element);
@@ -484,13 +487,14 @@ function paintExerciseChoice(available, catalog = EXERCISE_CATALOG) {
  else elements.skillPanelTitle.textContent=getUIStrings().skillHeading;
  const host=document.getElementById('mastery-library');host.replaceChildren();
  const groups=new Map();for(const item of catalog){if(!groups.has(item.caseId))groups.set(item.caseId,[]);groups.get(item.caseId).push(item);}
- for(const [caseId,variants] of groups) {
+ const rank=variants=>variants.length>1?3:['easy','moderate','hard'].indexOf(variants[0].difficulty);
+ for(const [caseId,variants] of [...groups].sort((a,b)=>rank(a[1])-rank(b[1]))) {
   const difficulty=preferredCaseLevel({id:caseId,supportedLevels:variants.map(e=>e.difficulty)});
   const exercise=variants.find(e=>e.difficulty===difficulty);
   const button=document.createElement('button');button.type='button';button.className='card-button';button.dataset.exerciseId=exercise.id;
-  const title=document.createElement('strong');title.textContent=exercise.title[state.languageId??'en'];
-  const description=document.createElement('span');description.className='card-body';description.textContent=`${variants.length>1?(no?`${variants.length} nivåer`:`${variants.length} levels`):levelLabel(state.languageId??'en',exercise.difficulty)} · ${no?'12 øyeblikk · 4 vurderinger':'12 moments · 4 ratings'}`;
-  button.append(title,description);applyVisualProperties(button,getCaseVisual('empathic-understanding',exercise.difficulty));
+  const title=document.createElement('strong');title.className='card-title';title.textContent=exercise.title[state.languageId??'en'];
+  const description=document.createElement('span');description.className='case-levels';description.textContent=variants.length>1?(no?`${variants.length} nivåer`:`${variants.length} levels`):levelLabel(state.languageId??'en',exercise.difficulty);
+  button.append(title,description);applyCaseLibraryVisual(button,'empathic-understanding',variants.map(e=>e.difficulty));
   button.addEventListener('click',()=>void mastery.choose(exercise.id));host.append(button);
  }
 }
@@ -575,11 +579,11 @@ const SKILL_VISUALS = {
     accent: "#4e803e",
     icon: "link"
   },
-  "experiential-focusing": {accent:"#587d80",icon:"thought"},
-  "consolidating-emotional-change": {accent:"#45806d",icon:"check"},
-  "closing-after-emotional-work": {accent:"#7b678f",icon:"anchor"},
+  "experiential-focusing": {accent:"#447f81",icon:"thought"},
+  "consolidating-emotional-change": {accent:"#4d7f60",icon:"check"},
+  "closing-after-emotional-work": {accent:"#87547f",icon:"anchor"},
   "empathic-refocusing": {
-    accent: "#5e6877",
+    accent: "#486fa1",
     icon: "return"
   }
 };
@@ -691,6 +695,18 @@ function getCaseVisual(skillId, difficulty) {
   const baseVisual = SKILL_VISUALS[skillId] ?? DEFAULT_VISUAL;
   const profile = DIFFICULTY_VISUAL_PROFILES[difficulty] ?? BASE_VISUAL_PROFILE;
   return buildVisual(baseVisual, profile);
+}
+
+function applyCaseLibraryVisual(element, skillId, levels) {
+  const ordered=['easy','moderate','hard'].filter(level=>levels.includes(level));
+  applyVisualProperties(element,getCaseVisual(skillId,ordered.length>1?'moderate':ordered[0]));
+  element.dataset.levelCount=ordered.length;
+  if(ordered.length>1){
+    const colours=ordered.map(level=>getCaseVisual(skillId,level));
+    element.classList.add('case-multiple-levels');
+    element.style.setProperty('--case-level-gradient',`linear-gradient(135deg, ${colours.map(c=>c.accentFaint).join(', ')})`);
+    element.style.setProperty('--case-level-border',`linear-gradient(to bottom, ${colours.map(c=>c.accent).join(', ')})`);
+  }
 }
 
 function getSkillIcon(iconName) {
@@ -1717,9 +1733,9 @@ function renderAuthUI() {
   roomView?.authChanged();
   if (roomSelection && roomSelection.userId !== state.authUser?.id) roomSelection = null;
   renderGroupEntry();
-  document.getElementById("join-shared-room").disabled = state.sessionActive || state.ratingVisible;
-  document.getElementById("join-shared-room").hidden = ['room','home'].includes(document.body.dataset.section);
-  document.getElementById("join-shared-room").textContent = state.languageId === "no" ? "Gruppe" : "Group";
+  document.getElementById("join-shared-room").disabled = state.ratingSaving;
+  document.getElementById("join-shared-room").hidden = ['room','home','mastery'].includes(document.body.dataset.section);
+  document.getElementById("join-shared-room").textContent = document.body.dataset.section === "practice" ? (state.languageId === "no" ? "Hjem" : "Home") : (state.languageId === "no" ? "Gruppe" : "Group");
   const strings = getUIStrings();
   const signedIn = Boolean(state.authUser);
   releaseElements["open-progress"].hidden = !signedIn;
@@ -2617,7 +2633,7 @@ function renderCaseOptions() {
     if (locked) {
       button.classList.add("is-locked");
     }
-    applyVisualProperties(button, getCaseVisual(skill.id, caseItem.difficulty));
+    applyCaseLibraryVisual(button, skill.id, caseItem.supportedLevels);
     const lockTag = locked ? `<span class="lock-tag" aria-label="${getUIStrings().lockedLabel}"></span>` : "";
     button.innerHTML = `
       <span class="card-title">${caseItem.label} ${lockTag}</span>
@@ -3425,6 +3441,16 @@ function repeatCompletedRound() {
   }
 }
 
+function requestPracticeHome() {
+  if(state.ratingSaving)return;
+  if(!state.sessionActive){showSection('home');return;}
+  const goHome=()=>{navigateBackToCaseSelection();showSection('home');};
+  practiceExit.open({
+    pause:()=>{savePracticeSession();goHome();},
+    end:()=>{goHome();clearPracticeSession();}
+  });
+}
+
 function showLeaveRoundPrompt() {
   const strings = getUIStrings();
   releaseElements["leave-title"].textContent = strings.leaveTitle;
@@ -4075,7 +4101,7 @@ function registerEventListeners() {
   document.getElementById('group-join').addEventListener('click', () => { void openSharedRoom('join'); });
   document.getElementById('group-resume').addEventListener('click', () => { void openSharedRoom('resume'); });
   document.getElementById('group-selection-return').addEventListener('click', () => { void openSharedRoom('resume'); });
-  document.getElementById("join-shared-room").addEventListener("click", () => { void openSharedRoom(); });
+  document.getElementById("join-shared-room").addEventListener("click", () => { if(document.body.dataset.section === "practice") requestPracticeHome(); else void openSharedRoom(); });
   releaseElements["content-load-retry"].addEventListener("click", () => retryContentLoad?.());
   releaseElements["open-progress"].addEventListener("click", showProgressPanel);
   releaseElements["account-progress"].addEventListener("click", showProgressPanel);

@@ -2081,6 +2081,7 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 .group-selection-context button { min-height: 44px; }
 .room-dialog { width: 100%; display: grid; gap: .75rem; }
 .room-header h2 { margin: 0; font-size: 1.3rem; }
+.room-header:has(h2[hidden]) { justify-content: flex-end; }
 .room-header button { min-height: 44px; }
 #room-status:empty, #room-error:empty { display: none; }
 #room-status, #room-error { margin: 0; }
@@ -2375,3 +2376,7 @@ body[data-section="mastery"] .mastery-panel { padding-bottom:calc(9rem + env(saf
  body[data-section="mastery"] .account-controls { max-width:100%; flex-wrap:wrap; }
  body[data-section="mastery"] .account-controls button { white-space:nowrap; flex-shrink:0; font-size:.85rem; padding:.5rem .6rem; }
 }
+
+/* Case cards with several levels show the available range, never a remembered level. */
+.card-button.case-multiple-levels { position:relative; background:var(--case-level-gradient); }
+.card-button.case-multiple-levels::before { content:""; position:absolute; inset:0 auto 0 -3px; width:3px; border-radius:8px 0 0 8px; background:var(--case-level-border); }

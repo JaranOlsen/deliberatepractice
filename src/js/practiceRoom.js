@@ -76,7 +76,7 @@ const copy = {
   }
 };
 
-export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getUser, getLanguage, localizeSkill, getStrings, signIn, onProgressChange, onMaterialChange, applyTheme}) {
+export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, onClose, getUser, getLanguage, localizeSkill, getStrings, signIn, onProgressChange, onMaterialChange, applyTheme}) {
   const overlay = document.createElement('div');
   overlay.id = 'room-panel'; overlay.className = 'panel room-panel is-hidden'; overlay.hidden = true;
   overlay.innerHTML = `<section class="room-dialog">
@@ -126,7 +126,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
   confirmOverlay.className = 'account-overlay is-hidden'; confirmOverlay.hidden = true; confirmOverlay.id = 'room-exit-overlay';
   confirmOverlay.innerHTML = `<section class="account-modal room-exit-modal" role="dialog" aria-modal="true" aria-labelledby="room-exit-title" aria-describedby="room-exit-description"><h2 id="room-exit-title"></h2><p id="room-exit-description"></p><div class="leave-actions"><button id="room-exit-cancel" class="ghost-button"></button><button id="room-exit-confirm" class="primary-button"></button></div></section>`;
   document.body.append(confirmOverlay);
-  let confirming = null;
+  let confirming = null, returnHomeOnClose = false;
   const el = id => overlay.querySelector(`#room-${id}`);
   let language = getLanguage() ?? 'en';
   let room = null;
@@ -230,7 +230,8 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     const set = groupSetProgress(next.statement_ids, next.item_index, next.completed_ids, next.skipped_ids);
     const self = next.skill_id === 'therapist-self-awareness';
     const active = ['practicing','first_attempt','client_feedback','observer_feedback','retry'].includes(next.phase);
-    el('header').hidden = ended || next.phase !== 'choosing';
+    el('header').hidden = ended;
+    el('title').hidden = next.phase !== 'choosing';
     const body = el('content');
     text('role-badge', `${s.role}: ${role === 'client' && self ? ui.selfAwarenessReaderRole : s[role]}`);
     el('role-badge').hidden = ended || (next.phase === 'choosing' && role === 'passive');
@@ -359,6 +360,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     const s = strings(), role = roomRole(snapshot, userId);
     const set = groupSetProgress(snapshot.statement_ids, snapshot.item_index, snapshot.completed_ids, snapshot.skipped_ids);
     const ended = snapshot.phase === 'closed' || Date.parse(snapshot.expires_at) <= Date.now();
+    if(ended && returnHomeOnClose && !pending && !commanding){write(roomKey(),null);dismiss();return;}
     const missing = missingRoomRoles(snapshot);
     const activeRoles = ['therapist','client', ...(roomNeedsObserver(snapshot) ? ['observer'] : [])];
     const offline = activeRoles.filter(role => snapshot[`${role}_id`] && !snapshot.presence?.[snapshot[`${role}_id`]]?.connected);
@@ -467,7 +469,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
   function dismiss(navigate = true) {
     goalView?.destroy(); goalView = null;
     if (confirming) { dialogs.close(confirmOverlay); confirming = null; }
-    open = false; opening++; sync.stop(); room = null; contentKey = '';
+    returnHomeOnClose=false;open = false; opening++; sync.stop(); room = null; contentKey = '';
     overlay.hidden = true; overlay.classList.add('is-hidden'); if (navigate) onClose?.();
   }
   async function request(task) {
@@ -489,7 +491,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     if (mode === 'create' || mode === 'resume') clearInvite();
     userId = getUser()?.id ?? null; language = getLanguage() ?? 'en'; config = createConfig; creating = null;
     open = true; opening++; busy = false; room = null; contentKey = '';
-    labels(); text('status', ''); el('header').hidden = false; el('setup').hidden = false; el('session').hidden = true;
+    labels(); text('status', ''); el('header').hidden = false; el('title').hidden = false; el('setup').hidden = false; el('session').hidden = true;
     el('actions').hidden = true; el('save').hidden = true;
     el('hub').hidden = mode !== 'hub'; el('entry').hidden = mode === 'hub';
     text('title', mode === 'hub' ? strings().hub : config ? strings().createTitle : strings().joinTitle);
@@ -532,7 +534,13 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       return practiceRoomRpc('sync_practice_room', {input_room_id: last, input_acknowledged_version: -1});
     });
   }
-  el('back').addEventListener('click', () => { if (!room) clearInvite(); dismiss(); });
+  el('back').addEventListener('click', () => {
+    if(!room){clearInvite();dismiss();return;}
+    const s=strings();
+    requestHome({pause:()=>dismiss(),end:()=>confirmExit(room.host_id===userId?'close':'leave',null,true),
+      pauseLabel:s.close,endLabel:room.host_id===userId?s.end:s.leave,
+      descriptionLabel:language==='no'?'Rommet forblir åpent når du går hjem. Du kan fortsette derfra.':'Your room stays open when you go home. You can resume from there.'});
+  });
   el('done').addEventListener('click', () => dismiss());
   el('join-form').addEventListener('submit', event => {
     event.preventDefault();
@@ -590,8 +598,8 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       else { await navigator.clipboard.writeText(url.href); text('status', strings().linkCopied); }
     } catch (failure) { if (failure.name !== 'AbortError') text('status', `${strings().code}: ${room.code}`); }
   });
-  function confirmExit(action, configuration = null) {
-    const s = strings(); confirming = {action, configuration};
+  function confirmExit(action, configuration = null, homeAfter = false) {
+    const s = strings(); confirming = {action, configuration, homeAfter};
     confirmOverlay.querySelector('#room-exit-title').textContent = action === 'transfer_host' ? s.transferTitle.replace('{name}', memberName(room, configuration.targetUserId))
       : action === 'recover_host' ? s.recoverTitle : action === 'close' ? s.endTitle : s.leaveTitle;
     confirmOverlay.querySelector('#room-exit-description').textContent = action === 'transfer_host' ? s.transferDescription
@@ -602,7 +610,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     dialogs.open(confirmOverlay, {onDismiss: cancel, initialFocus: confirmOverlay.querySelector('#room-exit-cancel')});
   }
   confirmOverlay.querySelector('#room-exit-cancel').addEventListener('click', () => { dialogs.close(confirmOverlay); confirming = null; });
-  confirmOverlay.querySelector('#room-exit-confirm').addEventListener('click', () => { const decision = confirming; dialogs.close(confirmOverlay); confirming = null; if (decision) void sync.command(decision.action, null, decision.configuration); });
+  confirmOverlay.querySelector('#room-exit-confirm').addEventListener('click', () => { const decision = confirming; dialogs.close(confirmOverlay); confirming = null; if (decision) {returnHomeOnClose=decision.homeAfter;void sync.command(decision.action, null, decision.configuration);} });
   confirmOverlay.addEventListener('click', e => { if (e.target === confirmOverlay) { dialogs.close(confirmOverlay); confirming = null; } });
   el('leave').addEventListener('click', () => confirmExit('leave'));
   el('sync').addEventListener('click', () => { void sync.sync(); });

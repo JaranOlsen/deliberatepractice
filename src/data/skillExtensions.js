@@ -6,13 +6,13 @@ export const EXTENSION_SOURCE = 'https://emotionfocusedtherapy.eu/wp-content/upl
 const guide = (name, description, summary, marker, aim, practiceFocus, commonMiss) => ({name, description, summary, marker, aim, practiceFocus, commonMiss});
 export const EXTENSION_GUIDES = {
   'empathic-refocusing': {
-    en: guide('Empathic Refocusing', 'Invite a return to an emerging feeling when the conversation moves away from it.',
+    en: guide('Empathic Refocusing', 'Notice when contact with a feeling fades, and invite a return to that moment while leaving the client free to choose.',
       'Notice a shift away from a feeling that was beginning to emerge. Link your invitation to that specific moment rather than labeling the client as avoidant. A joke, practical concern or change of subject can have several meanings; check before assuming it is protection.\n\nOffer a small, optional return. The client may want to stay with the new topic, slow down or stop. Refocusing serves contact with experience, not the therapist’s preferred agenda. If your invitation does not fit, accept the correction and follow what matters to the client.',
       'An emerging feeling gives way to analysis, a joke or another topic. There is enough evidence to check whether the earlier moment still matters.',
       'Help the client choose whether to return to a particular emotional moment without shaming the shift or overriding a practical need.',
       'Refer to the moment just left and invite a small return, with room to decline.',
       'Calling a tangent avoidance, or redirecting before hearing why the new topic matters.'),
-    no: guide('Empatisk refokusering', 'Inviter tilbake til en følelse som var på vei frem, når samtalen beveger seg bort fra den.',
+    no: guide('Empatisk refokusering', 'Legg merke til når kontakten med en følelse blir svakere, og inviter tilbake til øyeblikket, med rom for klientens eget valg.',
       'Legg merke til at samtalen beveger seg bort fra en følelse som var i ferd med å komme frem. Knytt invitasjonen til akkurat det øyeblikket, fremfor å kalle klienten unnvikende. En spøk, en praktisk bekymring eller et temaskifte kan ha flere betydninger. Undersøk før du antar at det er beskyttelse.\n\nTilby en liten, valgfri tilbakevending. Klienten kan ønske å fortsette med det nye temaet, senke tempoet eller stoppe. Refokusering skal støtte kontakt med opplevelsen, ikke terapeutens foretrukne agenda. Ta imot en korrigering hvis invitasjonen ikke passer, og følg det som er viktig for klienten.',
       'En følelse som kommer frem, viker for analyse, en spøk eller et annet tema. Det finnes nok holdepunkter til å undersøke om det forrige øyeblikket fortsatt er viktig.',
       'Hjelp klienten å velge om hen vil vende tilbake til et bestemt følelsesmessig øyeblikk, uten å skape skam eller overstyre et praktisk behov.',
@@ -20,13 +20,13 @@ export const EXTENSION_GUIDES = {
       'Å kalle et temaskifte unnvikelse, eller styre tilbake før du har hørt hvorfor det nye temaet er viktig.')
   },
   'consolidating-emotional-change': {
-    en: guide('Consolidating Emotional Change', 'Help the client recognize a small shift and consider how to carry it forward.',
+    en: guide('Consolidating Emotional Change', 'Help the client recognize a change in feeling or meaning, put it into their own words, and consider how to carry it forward.',
       'Begin with a change the client actually notices: a softer stance toward themselves, a clearer need or a different meaning. Reflect it in their terms, then invite them to sense what is different. Do not announce a breakthrough or require a positive feeling. Relief can coexist with grief, doubt or an unchanged practical situation.\n\nHelp the client find their own words for the shift and, when useful, a small way to remember or practise it outside the session. Let them choose. Consolidation does not mean setting homework immediately, promising that a change will last or treating uncertainty as failure.',
       'The client notices a small difference in feeling, meaning or how they relate to themselves, often alongside doubt about whether it will last.',
       'Make the emerging change recognizable and personally meaningful without enlarging it or prescribing what comes next.',
       'Stay with the shift the client names; help them put it into words they can carry.',
       'Celebrating a breakthrough the client has not claimed, or rushing into advice.'),
-    no: guide('Konsolidering av emosjonell endring', 'Hjelp klienten å kjenne igjen en liten endring og finne en måte å ta den med seg på.',
+    no: guide('Konsolidering av emosjonell endring', 'Hjelp klienten å kjenne igjen en endring i følelse eller betydning, finne egne ord for den og utforske hvordan den kan tas med videre.',
       'Begynn med en endring klienten selv merker: en mildere holdning til seg selv, et tydeligere behov eller en ny betydning. Speil den med klientens ord, og inviter til å kjenne etter hva som er annerledes. Ikke erklær et gjennombrudd eller krev en positiv følelse. Lettelse kan finnes sammen med sorg, tvil eller en praktisk situasjon som er uendret.\n\nHjelp klienten å finne egne ord for endringen og, når det passer, en liten måte å huske eller øve på den utenfor timen. La klienten velge. Konsolidering betyr ikke å gi hjemmeoppgaver med en gang, love at endringen vil vare eller behandle usikkerhet som et nederlag.',
       'Klienten merker en liten forskjell i følelse, betydning eller forholdet til seg selv, ofte sammen med tvil om den vil vare.',
       'Gjør den begynnende endringen gjenkjennelig og personlig meningsfull, uten å gjøre den større eller bestemme neste steg.',
@@ -34,13 +34,13 @@ export const EXTENSION_GUIDES = {
       'Å feire et gjennombrudd klienten ikke har beskrevet, eller skynde seg til råd.')
   },
   'closing-after-emotional-work': {
-    en: guide('Closing After Emotional Work', 'Agree on a manageable stopping point while acknowledging what remains.',
+    en: guide('Closing After Emotional Work', 'Bring the session to a manageable close by acknowledging what remains, checking how the client is, and agreeing on where to stop.',
       'Bring time into the conversation kindly and clearly. Hear how the client is now, including emotion or unfinished work that remains. Near the end, avoid opening a new painful thread simply to finish the technique. A session can end with sadness still present.\n\nAgree on a bounded stopping point and a realistic next step: a pause to orient, a brief summary in the client’s words, or what to return to next time. Check what they need for the transition out of the room rather than prescribe a ritual. Be honest about time, contact and availability. Immediate safety concerns require direct attention; these examples do not replace assessment or a safety plan.',
       'The end of the session is approaching while the client remains emotional, uncertain or aware of unfinished work.',
       'Support a clear, collaborative transition without implying that the feeling must disappear or the work must be resolved.',
       'Acknowledge what remains, name the time and agree on a manageable stopping point.',
       'Abruptly ending, opening more material, or promising unlimited availability.'),
-    no: guide('Avslutning etter emosjonelt arbeid', 'Finn et håndterbart sted å stoppe, samtidig som det uferdige får plass.',
+    no: guide('Avslutning etter emosjonelt arbeid', 'Avslutt timen på en håndterbar måte ved å anerkjenne det uferdige, undersøke hvordan klienten har det og bli enige om hvor dere stopper.',
       'Ta tiden inn i samtalen på en vennlig og tydelig måte. Hør hvordan klienten har det nå, også hvilke følelser eller hvilket uferdig arbeid som er igjen. Mot slutten bør du unngå å åpne et nytt smertefullt tema bare for å fullføre en teknikk. En time kan slutte mens sorgen fortsatt er der.\n\nBli enige om et avgrenset sted å stoppe og et realistisk neste steg: en pause for å orientere seg, en kort oppsummering med klientens ord, eller hva dere kan vende tilbake til neste gang. Undersøk hva klienten trenger for overgangen ut av rommet, fremfor å foreskrive et ritual. Vær ærlig om tid, kontakt og tilgjengelighet. Akutte sikkerhetsbekymringer må møtes direkte; disse eksemplene erstatter ikke vurdering eller en sikkerhetsplan.',
       'Timen nærmer seg slutten mens klienten fortsatt er berørt, usikker eller oppmerksom på noe uferdig.',
       'Støtt en tydelig overgang i samarbeid med klienten, uten å antyde at følelsen må forsvinne eller arbeidet må være ferdig.',
