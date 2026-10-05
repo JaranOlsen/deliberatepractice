@@ -7,6 +7,10 @@ test('every library skill has one fixed radar position', () => {
   const {SKILL_ORDER} = JSON.parse(readFileSync(new URL('../src/data/runtime/manifest.json', import.meta.url)));
   assert.deepEqual(new Set(RADAR_SKILL_MAP.map(s => s.skillId)), new Set(SKILL_ORDER));
   assert.equal(new Set(RADAR_SKILL_MAP.map(s => s.degrees)).size, SKILL_ORDER.length);
+  for (const [index, skill] of RADAR_SKILL_MAP.entries()) {
+    const next = RADAR_SKILL_MAP[(index + 1) % RADAR_SKILL_MAP.length];
+    assert.equal((next.degrees - skill.degrees + 360) % 360, 360 / SKILL_ORDER.length);
+  }
 });
 
 test('a sparse or reordered source keeps each skill and score at its own position', () => {

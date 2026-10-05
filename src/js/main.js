@@ -1541,13 +1541,17 @@ function renderSelfRatingsChart() {
     const point = radarPoint(skillId,center,labelRadius);
     return renderChartLabel(point.x.toFixed(1),point.y.toFixed(1),getChartSkillLabelLines(skillId),getLocalizedSkillName(skillId), Math.abs(point.x-center)<1 ? 'middle' : point.x>center ? 'start' : 'end');
   }).join('');
-  const chartDescription = visibleSeries.map(series => `${difficultyName(series.difficulty)}: ${series.values.map((value,index)=>`${getLocalizedSkillName(ratedSkills[index].skillId)} ${value.count ? value.average.toFixed(1)+'/5' : strings.progressUnrated}`).join('; ')}`).join('. ');
-  svg.innerHTML = `<desc id="progress-radar-description">${escapeMarkup(chartDescription)}</desc>${grid}${axes}${plots}<text x="${center+4}" y="${center-maxRadius+12}" class="self-chart-scale">5</text><text x="${center+4}" y="${center-maxRadius/5}" class="self-chart-scale">1</text>${labels}`;
+  const regionLabels = RADAR_REGION_LABELS[state.languageId] ?? RADAR_REGION_LABELS.en;
+  const corners = [[44,44,-45],[356,44,45],[44,356,45],[356,356,-45]];
+  const regions = regionLabels.map((label,index) => {
+    const [x,y,angle] = corners[index];
+    const lines = label.split(' · ').map((text,line) => `<tspan x="0" dy="${line ? 14 : -2}">${escapeMarkup(text)}</tspan>`).join('');
+    return `<text class="radar-region" transform="translate(${x} ${y}) rotate(${angle})">${lines}</text>`;
+  }).join('');
+  const chartDescription = regionLabels.join('; ') + '. ' + visibleSeries.map(series => `${difficultyName(series.difficulty)}: ${series.values.map((value,index)=>`${getLocalizedSkillName(ratedSkills[index].skillId)} ${value.count ? value.average.toFixed(1)+'/5' : strings.progressUnrated}`).join('; ')}`).join('. ');
+  svg.innerHTML = `<desc id="progress-radar-description">${escapeMarkup(chartDescription)}</desc>${grid}${axes}${plots}<text x="${center+4}" y="${center-maxRadius+12}" class="self-chart-scale">5</text><text x="${center+4}" y="${center-maxRadius/5}" class="self-chart-scale">1</text>${labels}${regions}`;
   const radarMap = document.createElement('figure'); radarMap.className = 'radar-map';
-  const regionLabels = (RADAR_REGION_LABELS[state.languageId] ?? RADAR_REGION_LABELS.en).map((label,index) => {
-    const element = document.createElement('span'); element.className = `radar-region radar-region--${index}`; element.textContent = label; return element;
-  });
-  radarMap.append(regionLabels[0],regionLabels[1],svg,regionLabels[2],regionLabels[3]);
+  radarMap.append(svg);
 
   const smallProfile = document.createElement('div'); smallProfile.className = 'radar-small-profile';
   if (axisCount < 3) {

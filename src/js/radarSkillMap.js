@@ -5,21 +5,21 @@
 // and supporting is a display choice, not a client-facing intervention type.
 export const RADAR_SKILL_MAP = Object.freeze([
   ['experiential-focusing', 0],
-  ['exploratory-questions', 28],
-  ['empathic-evocations', 52],
-  ['empathic-refocusing', 74],
-  ['marker-recognition-chairwork', 96],
-  ['providing-treatment-rationale', 112],
-  ['alliance-repair', 130],
-  ['self-disclosure', 156],
+  ['exploratory-questions', 22.5],
+  ['empathic-evocations', 45],
+  ['empathic-refocusing', 67.5],
+  ['marker-recognition-chairwork', 90],
+  ['providing-treatment-rationale', 112.5],
+  ['alliance-repair', 135],
+  ['self-disclosure', 157.5],
   ['closing-after-emotional-work', 180],
-  ['therapist-self-awareness', 202],
-  ['staying-in-contact-intense-affect', 230],
-  ['empathic-affirmation-validation', 250],
+  ['therapist-self-awareness', 202.5],
+  ['staying-in-contact-intense-affect', 225],
+  ['empathic-affirmation-validation', 247.5],
   ['empathic-understanding', 270],
-  ['empathic-explorations', 294],
-  ['consolidating-emotional-change', 312],
-  ['empathic-conjectures', 340]
+  ['empathic-explorations', 292.5],
+  ['consolidating-emotional-change', 315],
+  ['empathic-conjectures', 337.5]
 ].map(([skillId, degrees]) => Object.freeze({skillId, degrees})));
 
 const angles = new Map(RADAR_SKILL_MAP.map(({skillId, degrees}) => [skillId, degrees]));
