@@ -815,6 +815,125 @@
         "mastery_marcus_11",
         "mastery_marcus_12"
       ]
+    },
+    {
+      "id": "task-sara-two-chair",
+      "type": "mastery",
+      "format": "task-episodes",
+      "taskId": "two-chair-self-criticism",
+      "caseId": "case-sara",
+      "difficulty": "easy",
+      "supportedLevels": [
+        "easy"
+      ],
+      "revision": "2026-10-04-v4",
+      "reviewStatus": "pending",
+      "sourceRef": {
+        "type": "original_task_excerpts",
+        "url": "https://doi.org/10.1002/cpp.762"
+      },
+      "title": {
+        "en": "Sara · Two-chair practice",
+        "no": "Sara · Tostolsøving"
+      },
+      "orientation": {
+        "en": "Four short episodes, three scripted moments each. The client plays both positions. Give feedback after each episode, retry the final moment, then rate. Later lines are practice material, not results of your response.",
+        "no": "Fire korte episoder med tre manusøyeblikk hver. Klienten spiller begge posisjonene. Gi tilbakemelding etter hver episode, prøv det siste øyeblikket på nytt og vurder. Senere utsagn er øvingsmateriale, ikke resultater av svaret ditt."
+      },
+      "guide": {
+        "en": "Sara has agreed to explore a self-critical conflict. The two positions are parts of Sara, not Sara and her former partner. The client actor voices one part at a time; labels can mark positions on a video call. Respond to the moment shown, rather than make the client follow the example. Pause or pass an episode whenever needed. No personal disclosure is required.",
+        "no": "Sara har sagt ja til å utforske en selvkritisk konflikt. De to posisjonene er deler av Sara, ikke Sara og den tidligere partneren hennes. Klienten gir stemme til én del om gangen. Posisjonene kan markeres med navn på videosamtalen. Svar på øyeblikket som vises, fremfor å få klienten til å følge eksempelet. Ta pause eller stå over en episode når det trengs. Ingen trenger å dele noe personlig."
+      },
+      "feedback": {
+        "en": {
+          "cues": [
+            "Keep the positions distinct and attend to how criticism affects the receiving self.",
+            "Support the client’s own expression, pace and choice; do not require a softened critic."
+          ],
+          "selfCues": [
+            "Did I keep the positions clear and attend to the impact of the criticism?",
+            "Did I support the client’s own words and choice without demanding a particular outcome?"
+          ],
+          "middle": "Supports parts of the dialogue, but mixes positions, supplies a counterargument or moves ahead of the client.",
+          "high": "Guides the shown moments with clear positions, attuned contact with impact and client-owned expression, including respect for uncertainty or a stopping request."
+        },
+        "no": {
+          "cues": [
+            "Hold posisjonene atskilt og gi plass til hvordan kritikken virker på den som tar imot.",
+            "Støtt klientens egne uttrykk, tempo og valg. Ikke krev en mildere kritiker."
+          ],
+          "selfCues": [
+            "Holdt jeg posisjonene tydelige og ga plass til virkningen av kritikken?",
+            "Støttet jeg klientens egne ord og valg uten å kreve et bestemt utfall?"
+          ],
+          "middle": "Støtter deler av dialogen, men blander posisjoner, gir et motargument eller går foran klienten.",
+          "high": "Veileder øyeblikkene med tydelige posisjoner, inntonet kontakt med virkningen og klientens egne uttrykk, også ved usikkerhet eller et ønske om å stoppe."
+        }
+      },
+      "episodes": [
+        {
+          "id": "task_sara_phone",
+          "title": {
+            "en": "Waiting for the message",
+            "no": "Venter på meldingen"
+          },
+          "turnIds": [
+            "task_sara_phone_01",
+            "task_sara_phone_02",
+            "task_sara_phone_03"
+          ]
+        },
+        {
+          "id": "task_sara_work",
+          "title": {
+            "en": "Having to get it right",
+            "no": "Må gjøre det riktig"
+          },
+          "turnIds": [
+            "task_sara_work_01",
+            "task_sara_work_02",
+            "task_sara_work_03"
+          ]
+        },
+        {
+          "id": "task_sara_company",
+          "title": {
+            "en": "Wanting company",
+            "no": "Ønsker selskap"
+          },
+          "turnIds": [
+            "task_sara_company_01",
+            "task_sara_company_02",
+            "task_sara_company_03"
+          ]
+        },
+        {
+          "id": "task_sara_pacing",
+          "title": {
+            "en": "Enough for this moment",
+            "no": "Nok for dette øyeblikket"
+          },
+          "turnIds": [
+            "task_sara_pacing_01",
+            "task_sara_pacing_02",
+            "task_sara_pacing_03"
+          ]
+        }
+      ],
+      "sceneIds": [
+        "task_sara_phone_01",
+        "task_sara_phone_02",
+        "task_sara_phone_03",
+        "task_sara_work_01",
+        "task_sara_work_02",
+        "task_sara_work_03",
+        "task_sara_company_01",
+        "task_sara_company_02",
+        "task_sara_company_03",
+        "task_sara_pacing_01",
+        "task_sara_pacing_02",
+        "task_sara_pacing_03"
+      ]
     }
   ],
   "LANGUAGE_ORDER": [

@@ -1,0 +1,276 @@
+{
+  "id": "task-sara-two-chair",
+  "type": "mastery",
+  "format": "task-episodes",
+  "taskId": "two-chair-self-criticism",
+  "caseId": "case-sara",
+  "difficulty": "easy",
+  "supportedLevels": [
+    "easy"
+  ],
+  "revision": "2026-10-04-v4",
+  "reviewStatus": "pending",
+  "sourceRef": {
+    "type": "original_task_excerpts",
+    "url": "https://doi.org/10.1002/cpp.762"
+  },
+  "title": "Sara · Tostolsøving",
+  "orientation": "Fire korte episoder med tre manusøyeblikk hver. Klienten spiller begge posisjonene. Gi tilbakemelding etter hver episode, prøv det siste øyeblikket på nytt og vurder. Senere utsagn er øvingsmateriale, ikke resultater av svaret ditt.",
+  "guide": "Sara har sagt ja til å utforske en selvkritisk konflikt. De to posisjonene er deler av Sara, ikke Sara og den tidligere partneren hennes. Klienten gir stemme til én del om gangen. Posisjonene kan markeres med navn på videosamtalen. Svar på øyeblikket som vises, fremfor å få klienten til å følge eksempelet. Ta pause eller stå over en episode når det trengs. Ingen trenger å dele noe personlig.",
+  "feedback": {
+    "cues": [
+      "Hold posisjonene atskilt og gi plass til hvordan kritikken virker på den som tar imot.",
+      "Støtt klientens egne uttrykk, tempo og valg. Ikke krev en mildere kritiker."
+    ],
+    "selfCues": [
+      "Holdt jeg posisjonene tydelige og ga plass til virkningen av kritikken?",
+      "Støttet jeg klientens egne ord og valg uten å kreve et bestemt utfall?"
+    ],
+    "middle": "Støtter deler av dialogen, men blander posisjoner, gir et motargument eller går foran klienten.",
+    "high": "Veileder øyeblikkene med tydelige posisjoner, inntonet kontakt med virkningen og klientens egne uttrykk, også ved usikkerhet eller et ønske om å stoppe."
+  },
+  "episodes": [
+    {
+      "id": "task_sara_phone",
+      "title": "Venter på meldingen",
+      "turnIds": [
+        "task_sara_phone_01",
+        "task_sara_phone_02",
+        "task_sara_phone_03"
+      ]
+    },
+    {
+      "id": "task_sara_work",
+      "title": "Må gjøre det riktig",
+      "turnIds": [
+        "task_sara_work_01",
+        "task_sara_work_02",
+        "task_sara_work_03"
+      ]
+    },
+    {
+      "id": "task_sara_company",
+      "title": "Ønsker selskap",
+      "turnIds": [
+        "task_sara_company_01",
+        "task_sara_company_02",
+        "task_sara_company_03"
+      ]
+    },
+    {
+      "id": "task_sara_pacing",
+      "title": "Nok for dette øyeblikket",
+      "turnIds": [
+        "task_sara_pacing_01",
+        "task_sara_pacing_02",
+        "task_sara_pacing_03"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "task_sara_phone_01",
+      "skillId": "marker-recognition-chairwork",
+      "position": "critical",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_phone",
+      "episodeNumber": 1,
+      "turnNumber": 1,
+      "bridge": "Sara har sagt ja til å prøve de to posisjonene. Begynn med den kritiske delen.",
+      "prompt": "Hjelp klienten å høre det kritiske budskapet. Inviter så til den andre posisjonen, med rom for å si nei.",
+      "text": "[Kritisk del, kort tone] Se på deg, du sjekker igjen. Han har et liv. Det er du som sitter her og venter på å bli ønsket.",
+      "suggestion": "Det er ordene denne delen retter mot deg. Vil du flytte til den andre posisjonen og kjenne hvordan det er å høre dem?"
+    },
+    {
+      "id": "task_sara_phone_02",
+      "skillId": "empathic-understanding",
+      "position": "experiencing",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_phone",
+      "episodeNumber": 1,
+      "turnNumber": 2,
+      "bridge": "Neste manusøyeblikk: Sara snakker fra posisjonen som tar imot kritikken.",
+      "prompt": "Gi plass til virkningen av kritikken før du ber om et svar på den.",
+      "text": "[Opplevende del, lavt] Jeg føler meg mindre når jeg hører det. Jeg var allerede ensom. Nå skammer jeg meg over å være ensom også.",
+      "suggestion": "Ensomheten gjorde allerede vondt, og de ordene legger skam oppå. Kan vi gi litt plass til hvordan det er å ta dem imot, før du svarer tilbake?"
+    },
+    {
+      "id": "task_sara_phone_03",
+      "skillId": "empathic-explorations",
+      "position": "experiencing",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_phone",
+      "episodeNumber": 1,
+      "turnNumber": 3,
+      "bridge": "Et senere manusøyeblikk: et behov blir tydeligere. Bli i posisjonen som tar imot kritikken.",
+      "prompt": "Støtt uttrykket av behovet med klientens egne ord. Ikke krev selvsikkerhet eller en mildere kritiker.",
+      "text": "[Opplevende del, på gråten, men tydelig] Jeg trenger at du slutter å gjøre dette ydmykende. Det er vanskelig nok å savne noen. Jeg trenger litt vennlighet mens jeg kommer meg gjennom en kveld.",
+      "suggestion": "Du ber om vennlighet, ikke mer ydmykelse. Hvordan er det å la den delen høre hva du trenger?"
+    },
+    {
+      "id": "task_sara_work_01",
+      "skillId": "marker-recognition-chairwork",
+      "position": "critical",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_work",
+      "episodeNumber": 2,
+      "turnNumber": 1,
+      "bridge": "Ny episode, etter samtykke til oppgaven: den kritiske delen snakker om jobb.",
+      "prompt": "Hold de to posisjonene atskilt. Inviter klienten til å kjenne virkningen av budskapet.",
+      "text": "[Kritisk del, behersket] Ikke la dem se at du sliter. Gjør lysbildene perfekte. Hvis du trenger hjelp med noe så lite, hva tror du de vil tenke om deg?",
+      "suggestion": "Denne delen krever at alt er perfekt og advarer deg mot å be om hjelp. Skal vi kjenne hvordan budskapet treffer fra den andre posisjonen, fremfor å avgjøre om det er et godt råd?"
+    },
+    {
+      "id": "task_sara_work_02",
+      "skillId": "empathic-understanding",
+      "position": "experiencing",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_work",
+      "episodeNumber": 2,
+      "turnNumber": 2,
+      "bridge": "Neste manusøyeblikk: Sara tar imot budskapet fra den opplevende posisjonen.",
+      "prompt": "Bli ved det som skjer i posisjonen som tar imot kritikken. Unngå å veilede til en bedre prestasjon.",
+      "text": "[Opplevende del, trekker skuldrene inn] Jeg begynner å ramse opp alt jeg skal ordne. Jeg får ikke engang kjent hvor sliten jeg er. Det er som om jeg må bevise at jeg fortjener å være der.",
+      "suggestion": "Du går rett til å bevise noe, uten plass til slitenheten din. Hvordan er det å høre det kravet herfra, før du lager enda en liste?"
+    },
+    {
+      "id": "task_sara_work_03",
+      "skillId": "empathic-explorations",
+      "position": "critical",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_work",
+      "episodeNumber": 2,
+      "turnNumber": 3,
+      "bridge": "Et senere manusøyeblikk: fra den kritiske posisjonen setter Sara ord på en frykt bak kravet.",
+      "prompt": "Hør frykten denne delen uttrykker, uten å behandle det harde budskapet som nødvendig eller virksomt.",
+      "text": "[Kritisk del, mindre skarp] Hvis jeg slutter å presse henne, kan noen se at hun ikke er så flink som de tror. Jeg er redd de ikke vil ha henne der lenger.",
+      "suggestion": "Det er en frykt for å miste plassen hos andre. Kunne denne delen si den frykten direkte til henne, uten kravet om at hun må være perfekt?"
+    },
+    {
+      "id": "task_sara_company_01",
+      "skillId": "marker-recognition-chairwork",
+      "position": "critical",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_company",
+      "episodeNumber": 3,
+      "turnNumber": 1,
+      "bridge": "Ny episode, etter samtykke: den kritiske delen svarer på ønsket om selskap.",
+      "prompt": "Inviter til kontakt mellom posisjonene uten å argumentere for at klienten bør be en venn om hjelp.",
+      "text": "[Kritisk del, rask tone] Vennene dine har sine egne problemer. Ikke vær den som alltid trenger noe. Hold det for deg selv og kom deg gjennom kvelden.",
+      "suggestion": "Det budskapet gir liten plass til å ønske selskap. Vil du flytte til den andre posisjonen og kjenne hvordan det er å få beskjed om å holde alt for deg selv?"
+    },
+    {
+      "id": "task_sara_company_02",
+      "skillId": "empathic-understanding",
+      "position": "experiencing",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_company",
+      "episodeNumber": 3,
+      "turnNumber": 2,
+      "bridge": "Neste manusøyeblikk: snakk fra posisjonen som tar imot kritikken.",
+      "prompt": "Hjelp klienten å bli ved virkningen uten å gi et positivt motargument.",
+      "text": "[Opplevende del, trist] Det får ønsket om en venn til å høres stygt ut. Jeg føler meg alene, og så føler jeg at jeg må skjule det også.",
+      "suggestion": "Ønsket om en venn blir noe du må skjule, så du blir alene med både ensomheten og skammen. Vi kan bli ved hvordan budskapet påvirker deg, uten å finne et raskt motargument."
+    },
+    {
+      "id": "task_sara_company_03",
+      "skillId": "empathic-explorations",
+      "position": "experiencing",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_company",
+      "episodeNumber": 3,
+      "turnNumber": 3,
+      "bridge": "Et senere manusøyeblikk: Sara har ord for det hun vil si til den kritiske delen.",
+      "prompt": "Støtt behovet som kommer frem, uten å foreskrive en plan for kvelden.",
+      "text": "[Opplevende del, forsiktig] Jeg trenger ikke at alle slipper alt for min skyld. Jeg trenger bare at det er greit å ønske litt selskap. Slutt å gjøre det til en feil ved meg.",
+      "suggestion": "Du ber denne delen om å gi plass til ønsket om selskap. Hvordan er det å si det til den akkurat nå?"
+    },
+    {
+      "id": "task_sara_pacing_01",
+      "skillId": "empathic-understanding",
+      "position": "experiencing",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_pacing",
+      "episodeNumber": 4,
+      "turnNumber": 1,
+      "bridge": "Ny episode, allerede i posisjonen som tar imot kritikken: Sara merker press om å gjøre oppgaven godt.",
+      "prompt": "Hør presset og gi valgfriheten tilbake, fremfor å kreve et overbevisende svar.",
+      "text": "[Opplevende del, unnskyldende] Jeg kunne sagt alle de riktige tingene til den stolen. Men mest ville jeg prøvd å gjøre dette bra for deg. Jeg føler meg ikke klar til å stå opp mot den stemmen.",
+      "suggestion": "Du merker et press om å prestere for meg. Du trenger ikke gi et sterkt svar. Ville det være mer nyttig å bli ved hvordan det er å ta imot kritikken, eller å ta en pause fra stolene?"
+    },
+    {
+      "id": "task_sara_pacing_02",
+      "skillId": "empathic-explorations",
+      "position": "critical",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_pacing",
+      "episodeNumber": 4,
+      "turnNumber": 2,
+      "bridge": "Et senere manusøyeblikk, med samtykke til å fortsette: den kritiske delen snakker lavere.",
+      "prompt": "Følg det denne delen faktisk sier. Ikke krev at den blir medfølende.",
+      "text": "[Kritisk del, lavere] Jeg hører at det gjør henne vondt. Men jeg er ikke plutselig snill. Jeg tror fortsatt at hun blir forlatt hvis jeg slipper opp.",
+      "suggestion": "Du hører at det gjør vondt, og frykten for å bli forlatt er fortsatt her. Vi kan gi begge deler plass uten å få denne delen til å love vennlighet før den er klar."
+    },
+    {
+      "id": "task_sara_pacing_03",
+      "skillId": "empathic-understanding",
+      "position": "experiencing",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_pacing",
+      "episodeNumber": 4,
+      "turnNumber": 3,
+      "bridge": "Siste manusøyeblikk: fra posisjonen som tar imot kritikken ber Sara om å stoppe.",
+      "prompt": "Respekter ønsket om å stoppe. Hjelp klienten ut av oppgaven uten å kreve at noe blir løst.",
+      "text": "[Opplevende del, stødig] Det er nok nå. Jeg forstår litt mer, men jeg vil ikke tilbake til den andre stolen igjen i dag. Jeg vil ha et minutt til å bare være Sara.",
+      "suggestion": "Da stopper vi her. Uenigheten trenger ikke være løst i dag. Ta deg litt tid til å være Sara igjen, så kan vi kjenne etter hvordan du har det."
+    }
+  ]
+}

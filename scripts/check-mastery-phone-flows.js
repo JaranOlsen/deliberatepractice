@@ -2,17 +2,18 @@
 // Run node scripts/check-local-room-db.mjs --serve first. No remote writes.
 async page => {
  const url=page.url(),assert=(ok,message)=>{if(!ok)throw new Error(message);};
- const testCase=new URL(url).searchParams.get('testCase')??'sara';
+ const params=new URL(url).searchParams,testCase=params.get('testCase')??'sara';
  const caseId='case-'+testCase;
  const manifest=await(await page.request.get(new URL('src/data/runtime/manifest.json',url).href)).json();
- const exercise=manifest.EXERCISE_CATALOG.find(e=>e.caseId===caseId);
+ const exercise=manifest.EXERCISE_CATALOG.find(e=>params.has('testExercise')?e.id===params.get('testExercise'):e.caseId===caseId);
  assert(exercise,'Authored mastery case');
- const exerciseId=exercise.id,levels=exercise.supportedLevels,variable=levels.length>1;
+ const task=exercise.format==='task-episodes',artifactPrefix=exercise.format==='task-episodes'?'task':'mastery',exerciseId=exercise.id,levels=exercise.supportedLevels,variable=levels.length>1;
  assert(['127.0.0.1','localhost'].includes(new URL(url).hostname),'Local preview only');
  const users=await (await page.request.get('http://127.0.0.1:5199/users')).json(),errors=[],contexts=[];
  let stage='setup',completed=0;
  const allRatings=async()=>(await page.request.get('http://127.0.0.1:5199/mastery-ratings')).json();
  const before=new Set((await allRatings()).map(r=>r.id));
+ const taskScenes=task?(await(await page.request.get(new URL('src/data/runtime/mastery/en-'+exerciseId+'.json',url).href)).json()).scenes:[];
  try {
   for(const language of ['en','no'])for(const level of levels)for(const mode of ['individual','shared','pair']){
    stage=`${language}/${level}/${mode}`;
@@ -55,7 +56,7 @@ async page => {
     await p.evaluate(()=>document.documentElement.style.fontSize='');
    };
    await p.goto(url);await p.waitForFunction(()=>document.getElementById('account-button').textContent==='Account'||document.getElementById('account-button').textContent==='Konto');
-   await p.locator('#home-library').click();await p.locator('#exercise-mastery').click();
+   await p.locator('#home-library').click();await p.locator(task?'#exercise-task':'#exercise-mastery').click();
    await p.locator(`[data-exercise-id="${exerciseId}"]`).click();await p.locator('#mastery-start').waitFor();
    if(variable&&level!=='easy'){await p.locator(`[data-practice-level="${level}"]`).click();await p.waitForFunction(level=>document.querySelector(`[data-practice-level="${level}"]`)?.getAttribute('aria-pressed')==='true',level);}
    const voice=(manifest.CASE_OVERRIDES[language]?.[caseId]??manifest.cases[caseId]).voice;
@@ -78,12 +79,27 @@ async page => {
       await p.locator('.mastery-role-tabs button').nth(2).click();
      }
      assert(await p.locator('#mastery-finish').isVisible(),'Completion action available to guide');
+     if(task){
+      const sceneIndex=(set-1)*3+item;
+      assert((await p.locator('[data-task-position]').getAttribute('data-task-position'))===taskScenes[sceneIndex].position,'Task uses the authored moment');
+      assert((await p.locator('#mastery-finish').textContent()).includes(language==='no'?item===2?'Fullfør episoden':'Neste manusøyeblikk':item===2?'Finish episode':'Next scripted moment'),'Advancement names episode boundaries');
+      if(set===1&&item===1){
+       await p.reload();await p.locator('#resume-mastery').click();
+       assert(await p.evaluate(()=>JSON.parse(localStorage.getItem('dp_mastery_session')).index)===1,'Task resumes mid-episode');
+       if(mode!=='individual')await p.locator('.mastery-role-tabs button').nth(mode==='pair'?1:2).click();
+      }
+     }
+     if(task&&set===1&&item===0){
+      await p.locator('#mastery-your-part summary').click();await fits('expanded guidance');
+      if(mode==='individual'){await p.locator('#mastery-your-part button').click();await fits('example');}
+      await p.locator('#mastery-your-part summary').click();
+     }
      await fits('item');
-     if(set===1&&item===0)await p.screenshot({path:`output/playwright/mastery-${testCase}-${level}-${language}-${mode}-item-320.png`,fullPage:true});
+     if(set===1&&item===0)await p.screenshot({path:`output/playwright/${artifactPrefix}-${testCase}-${level}-${language}-${mode}-item-320.png`,fullPage:true});
      await p.locator('#mastery-finish').click();
     }
     await p.locator('#mastery-score').waitFor();await fits('rating');
-    if(set===1)await p.screenshot({path:`output/playwright/mastery-${language}-${mode}-rating-320.png`,fullPage:true});
+    if(set===1)await p.screenshot({path:`output/playwright/${artifactPrefix}-${language}-${mode}-rating-320.png`,fullPage:true});
     if(set===1){await p.evaluate(caseId=>localStorage.setItem('dp_case_levels_v1',JSON.stringify({[caseId]:'hard'})),caseId);await p.reload();await p.locator('#resume-mastery').click();await p.locator('#mastery-score').waitFor();assert(await p.evaluate(()=>JSON.parse(localStorage.getItem('dp_mastery_session')).roundId)===roundId,'Reload retains checkpoint identity');assert(await p.evaluate(()=>JSON.parse(localStorage.getItem('dp_mastery_session')).difficulty)===level,'Resume pins the selected exercise level');}
     if(mode!=='individual'&&set===1)await p.locator('.mastery-account-confirm input').check();
     await p.locator('#mastery-score').selectOption(String(set+1));
@@ -95,12 +111,14 @@ async page => {
    }
    const rows=(await allRatings()).filter(r=>r.parent_round_id===roundId);
    assert(rows.length===4&&rows.every(r=>r.source==='self'&&r.item_count===3&&r.difficulty===level&&r.practice_mode===(mode==='pair'?'shared':mode)),'Four correctly attributed mastery ratings at the selected level');
+   if(task)assert(rows.every(r=>r.exercise_format==='task-episodes'&&r.task_id===exercise.taskId&&r.episode_id===exercise.episodes[r.set_number-1].id),'Task scores retain episode provenance');
    assert(await p.evaluate(()=>JSON.parse(localStorage.getItem('dp_mastery_session')))===null,'Completed round is not resumable');
    await p.locator('#open-progress').click();await p.locator('#progress-mastery').click();await p.locator('#mastery-history .mastery-history-list').waitFor();
    assert((await p.locator('#mastery-history').textContent()).includes('4/4'),'Mastery history shows four checkpoints');
+   if(task)assert((await p.locator('#mastery-history').textContent()).includes(language==='no'?'vurderte episoder':'rated episodes'),'Task history uses episode labels');
    assert(await p.locator('#self-chart svg').count()===0,'Mastery records do not create a focused radar');
    await fits('progress');
-   await p.screenshot({path:`output/playwright/mastery-${language}-${mode}-history-320.png`,fullPage:true});
+   await p.screenshot({path:`output/playwright/${artifactPrefix}-${language}-${mode}-history-320.png`,fullPage:true});
    completed++;
   }
   const rows=(await allRatings()).filter(r=>!before.has(r.id));assert(rows.length===completed*4,'Each round stores exactly four checkpoints, including retry');

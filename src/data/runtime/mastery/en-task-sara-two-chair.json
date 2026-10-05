@@ -1,0 +1,276 @@
+{
+  "id": "task-sara-two-chair",
+  "type": "mastery",
+  "format": "task-episodes",
+  "taskId": "two-chair-self-criticism",
+  "caseId": "case-sara",
+  "difficulty": "easy",
+  "supportedLevels": [
+    "easy"
+  ],
+  "revision": "2026-10-04-v4",
+  "reviewStatus": "pending",
+  "sourceRef": {
+    "type": "original_task_excerpts",
+    "url": "https://doi.org/10.1002/cpp.762"
+  },
+  "title": "Sara · Two-chair practice",
+  "orientation": "Four short episodes, three scripted moments each. The client plays both positions. Give feedback after each episode, retry the final moment, then rate. Later lines are practice material, not results of your response.",
+  "guide": "Sara has agreed to explore a self-critical conflict. The two positions are parts of Sara, not Sara and her former partner. The client actor voices one part at a time; labels can mark positions on a video call. Respond to the moment shown, rather than make the client follow the example. Pause or pass an episode whenever needed. No personal disclosure is required.",
+  "feedback": {
+    "cues": [
+      "Keep the positions distinct and attend to how criticism affects the receiving self.",
+      "Support the client’s own expression, pace and choice; do not require a softened critic."
+    ],
+    "selfCues": [
+      "Did I keep the positions clear and attend to the impact of the criticism?",
+      "Did I support the client’s own words and choice without demanding a particular outcome?"
+    ],
+    "middle": "Supports parts of the dialogue, but mixes positions, supplies a counterargument or moves ahead of the client.",
+    "high": "Guides the shown moments with clear positions, attuned contact with impact and client-owned expression, including respect for uncertainty or a stopping request."
+  },
+  "episodes": [
+    {
+      "id": "task_sara_phone",
+      "title": "Waiting for the message",
+      "turnIds": [
+        "task_sara_phone_01",
+        "task_sara_phone_02",
+        "task_sara_phone_03"
+      ]
+    },
+    {
+      "id": "task_sara_work",
+      "title": "Having to get it right",
+      "turnIds": [
+        "task_sara_work_01",
+        "task_sara_work_02",
+        "task_sara_work_03"
+      ]
+    },
+    {
+      "id": "task_sara_company",
+      "title": "Wanting company",
+      "turnIds": [
+        "task_sara_company_01",
+        "task_sara_company_02",
+        "task_sara_company_03"
+      ]
+    },
+    {
+      "id": "task_sara_pacing",
+      "title": "Enough for this moment",
+      "turnIds": [
+        "task_sara_pacing_01",
+        "task_sara_pacing_02",
+        "task_sara_pacing_03"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "task_sara_phone_01",
+      "skillId": "marker-recognition-chairwork",
+      "position": "critical",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_phone",
+      "episodeNumber": 1,
+      "turnNumber": 1,
+      "bridge": "Sara has agreed to try the two positions. Begin with the critical part.",
+      "prompt": "Help the client hear the critical message, then invite the other position with permission.",
+      "text": "[Critical part, clipped] Look at you, checking again. He has a life. You’re the one sitting here waiting to be wanted.",
+      "suggestion": "Those are the words this part directs at you. Would you like to move to the other position and notice what it is like to hear them?"
+    },
+    {
+      "id": "task_sara_phone_02",
+      "skillId": "empathic-understanding",
+      "position": "experiencing",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_phone",
+      "episodeNumber": 1,
+      "turnNumber": 2,
+      "bridge": "Next scripted moment: Sara speaks from the position receiving the criticism.",
+      "prompt": "Attend to the impact of the criticism before asking for a reply to it.",
+      "text": "[Experiencing self, quietly] I feel smaller when I hear that. I was already lonely. Now I’m ashamed of being lonely too.",
+      "suggestion": "The loneliness was painful already, and those words add shame. Can we give what it is like to receive them a little room before you answer back?"
+    },
+    {
+      "id": "task_sara_phone_03",
+      "skillId": "empathic-explorations",
+      "position": "experiencing",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_phone",
+      "episodeNumber": 1,
+      "turnNumber": 3,
+      "bridge": "Later scripted moment: a need is becoming clearer. Remain in the receiving position.",
+      "prompt": "Support expression of the need in the client’s own words; do not demand confidence or a softened critic.",
+      "text": "[Experiencing self, tearful but clear] I need you to stop making this humiliating. Missing someone is hard enough. I need some kindness while I get through an evening.",
+      "suggestion": "You’re asking for kindness rather than another humiliation. What is it like to let that part hear what you need?"
+    },
+    {
+      "id": "task_sara_work_01",
+      "skillId": "marker-recognition-chairwork",
+      "position": "critical",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_work",
+      "episodeNumber": 2,
+      "turnNumber": 1,
+      "bridge": "New episode, after agreement to the task: the critical part speaks about work.",
+      "prompt": "Keep the two positions distinct; invite the client to hear the effect of this message.",
+      "text": "[Critical part, controlled] Don’t let them see you’re struggling. Make the slides perfect. If you need help with something this small, what do you think they’ll make of you?",
+      "suggestion": "This part demands perfection and warns you against asking for help. Shall we hear how that message lands from the other position, rather than decide whether it is good advice?"
+    },
+    {
+      "id": "task_sara_work_02",
+      "skillId": "empathic-understanding",
+      "position": "experiencing",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_work",
+      "episodeNumber": 2,
+      "turnNumber": 2,
+      "bridge": "Next scripted moment: Sara receives the message from the experiencing position.",
+      "prompt": "Stay with what happens in the receiving position; avoid coaching a better performance.",
+      "text": "[Experiencing self, shoulders drawn in] I start listing everything I’ll fix. I don’t even get to feel how tired I am. It’s as if I have to prove I deserve to be there.",
+      "suggestion": "You go straight to proving yourself, with no room for your tiredness. What is it like to hear that demand from here, before making another list?"
+    },
+    {
+      "id": "task_sara_work_03",
+      "skillId": "empathic-explorations",
+      "position": "critical",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_work",
+      "episodeNumber": 2,
+      "turnNumber": 3,
+      "bridge": "Later scripted moment: from the critical position, Sara names a fear behind its demand.",
+      "prompt": "Hear the fear this part expresses without treating the harsh message as necessary or effective.",
+      "text": "[Critical part, less sharp] If I stop pushing her, someone might see she isn’t as good as they think. I’m afraid they’ll stop wanting her around.",
+      "suggestion": "There is a fear of losing her place with people. Could this part say that fear to her directly, without the demand that she has to be perfect?"
+    },
+    {
+      "id": "task_sara_company_01",
+      "skillId": "marker-recognition-chairwork",
+      "position": "critical",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_company",
+      "episodeNumber": 3,
+      "turnNumber": 1,
+      "bridge": "New episode, after agreement: the critical part responds to wanting company.",
+      "prompt": "Invite contact between the positions without arguing that the client should ask a friend for help.",
+      "text": "[Critical part, brisk] Your friends have their own problems. Don’t be the person who always needs something. Keep it to yourself and get on with the evening.",
+      "suggestion": "That message leaves little room for wanting company. Would you like to move to the other position and hear what it is like to be told to keep it all to yourself?"
+    },
+    {
+      "id": "task_sara_company_02",
+      "skillId": "empathic-understanding",
+      "position": "experiencing",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_company",
+      "episodeNumber": 3,
+      "turnNumber": 2,
+      "bridge": "Next scripted moment: speak from the position receiving the criticism.",
+      "prompt": "Help the client stay with the impact without supplying a positive counterargument.",
+      "text": "[Experiencing self, sad] It makes wanting a friend sound like something ugly. I feel alone, and then I feel I have to hide that too.",
+      "suggestion": "Wanting a friend becomes something to hide, so you are left alone with both the loneliness and the shame. We can stay with how that message affects you, without finding a quick argument against it."
+    },
+    {
+      "id": "task_sara_company_03",
+      "skillId": "empathic-explorations",
+      "position": "experiencing",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_company",
+      "episodeNumber": 3,
+      "turnNumber": 3,
+      "bridge": "Later scripted moment: Sara has words for what she wants to say to the critical part.",
+      "prompt": "Support the emerging need without prescribing a plan for the evening.",
+      "text": "[Experiencing self, tentative] I don’t need everyone to drop everything for me. I just need it to be okay to want some company. Stop making that a fault.",
+      "suggestion": "You’re asking this part to make room for wanting company. What is it like to say that to it just now?"
+    },
+    {
+      "id": "task_sara_pacing_01",
+      "skillId": "empathic-understanding",
+      "position": "experiencing",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_pacing",
+      "episodeNumber": 4,
+      "turnNumber": 1,
+      "bridge": "New episode, already in the receiving position: Sara notices pressure to do the task well.",
+      "prompt": "Hear the pressure and restore choice rather than demand a convincing reply.",
+      "text": "[Experiencing self, apologetic] I could say all the right things to that chair. But I’d mostly be trying to do this well for you. I don’t feel ready to stand up to that voice.",
+      "suggestion": "You notice the pressure to perform for me. You don’t have to produce a strong reply. Would it be more useful to stay with what it is like to receive the criticism, or to pause the chairs?"
+    },
+    {
+      "id": "task_sara_pacing_02",
+      "skillId": "empathic-explorations",
+      "position": "critical",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_pacing",
+      "episodeNumber": 4,
+      "turnNumber": 2,
+      "bridge": "Later scripted moment, with agreement to continue: the critical part speaks more quietly.",
+      "prompt": "Follow what this part actually says; do not require it to become compassionate.",
+      "text": "[Critical part, quieter] I hear that it hurts her. I’m not suddenly kind, though. I still think she’ll get left behind if I ease up.",
+      "suggestion": "You hear the hurt, and the fear of being left behind is still here. We can give both room without making this part promise to be kind before it is ready."
+    },
+    {
+      "id": "task_sara_pacing_03",
+      "skillId": "empathic-understanding",
+      "position": "experiencing",
+      "criteriaTags": [
+        "differentiate_positions",
+        "contact_with_impact",
+        "respect_choice"
+      ],
+      "episodeId": "task_sara_pacing",
+      "episodeNumber": 4,
+      "turnNumber": 3,
+      "bridge": "Final scripted moment: from the receiving position, Sara asks for a stopping point.",
+      "prompt": "Respect the stopping request and help the client step out of the task without demanding resolution.",
+      "text": "[Experiencing self, steady] That’s enough for now. I understand a little more, but I don’t want to go back to the other chair again today. I want a minute to just be Sara.",
+      "suggestion": "We’ll stop here. The disagreement doesn’t have to be resolved today. Take a little time to be Sara again, and we can check how you’re feeling."
+    }
+  ]
+}

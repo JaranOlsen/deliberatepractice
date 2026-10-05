@@ -107,7 +107,7 @@ async function openSharedRoom(mode = "hub", {selectedCase = false, code = null, 
       onChoose: room => {
         roomSelection = {id: room.id, code: room.code, userId: state.authUser.id};
         state.practiceMode = PRACTICE_MODES.GROUP;
-        if(room.exercise_type==='mastery')exerciseType='mastery';
+        if(room.exercise_type==='mastery')exerciseType=EXERCISE_CATALOG.find(e=>e.id===room.exercise_id)?.format==='task-episodes'?'task-episodes':'mastery';
         handleLanguageSelection(room.language_id);
         if (room.skill_id) handleSkillSelection(room.skill_id);
       },
@@ -457,7 +457,7 @@ const state = {
 };
 
 
-let exerciseType = readJsonStorage('dp_exercise_type') === 'mastery' ? 'mastery' : 'single-skill';
+let exerciseType = ['mastery','task-episodes'].includes(readJsonStorage('dp_exercise_type')) ? readJsonStorage('dp_exercise_type') : 'single-skill';
 let masteryCapabilityRequest = 0;
 const mastery = createMasteryPractice({
   getLanguage: () => state.languageId ?? 'en', getMode: () => state.practiceMode,
@@ -474,22 +474,25 @@ const mastery = createMasteryPractice({
 });
 sections.mastery=mastery.element;document.querySelector('main').append(mastery.element);
 function paintExerciseChoice(available, catalog = EXERCISE_CATALOG) {
- const no=state.languageId==='no',selected=exerciseType==='mastery' && available;
- const single=document.getElementById('exercise-single'),mixed=document.getElementById('exercise-mastery');
+ const no=state.languageId==='no';
+ const selected=available && catalog.some(e=>(e.format??'mastery')===exerciseType);
+ const single=document.getElementById('exercise-single'),mixed=document.getElementById('exercise-mastery'),taskButton=document.getElementById('exercise-task');
+ taskButton.textContent=no?'Oppgaveøving':'Task practice';
+ taskButton.hidden=!available||!catalog.some(e=>e.format==='task-episodes');taskButton.setAttribute('aria-pressed',String(selected&&exerciseType==='task-episodes'));
  single.textContent=no?'Én ferdighet':'Single skill';mixed.textContent=no?'Mestringsøving':'Mastery practice';
- mixed.hidden=!available;single.setAttribute('aria-pressed',String(!selected));mixed.setAttribute('aria-pressed',String(selected));
+ mixed.hidden=!available;single.setAttribute('aria-pressed',String(!selected));mixed.setAttribute('aria-pressed',String(selected&&exerciseType==='mastery'));
  elements.skillList.hidden=selected;document.getElementById('mastery-library').hidden=!selected;
  elements.skillPanelDescription.hidden=selected;
  if(selected)elements.skillPanelTitle.textContent=no?'Velg et kasus':'Choose a case';
  else elements.skillPanelTitle.textContent=getUIStrings().skillHeading;
  const host=document.getElementById('mastery-library');host.replaceChildren();
- const groups=new Map();for(const item of catalog){if(!groups.has(item.caseId))groups.set(item.caseId,[]);groups.get(item.caseId).push(item);}
+ const groups=new Map();for(const item of catalog.filter(e=>(e.format??'mastery')===exerciseType)){if(!groups.has(item.caseId))groups.set(item.caseId,[]);groups.get(item.caseId).push(item);}
  for(const [caseId,variants] of groups) {
   const difficulty=preferredCaseLevel({id:caseId,supportedLevels:variants.map(e=>e.difficulty)});
   const exercise=variants.find(e=>e.difficulty===difficulty);
   const button=document.createElement('button');button.type='button';button.className='card-button';button.dataset.exerciseId=exercise.id;
   const title=document.createElement('strong');title.textContent=exercise.title[state.languageId??'en'];
-  const description=document.createElement('span');description.className='card-body';description.textContent=`${variants.length>1?(no?`${variants.length} nivåer`:`${variants.length} levels`):levelLabel(state.languageId??'en',exercise.difficulty)} · ${no?'12 øyeblikk · 4 vurderinger':'12 moments · 4 ratings'}`;
+  const description=document.createElement('span');description.className='card-body';description.textContent=`${variants.length>1?(no?`${variants.length} nivåer`:`${variants.length} levels`):levelLabel(state.languageId??'en',exercise.difficulty)} · ${exercise.format==='task-episodes'?no?'4 episoder · 4 vurderinger':'4 episodes · 4 ratings':no?'12 øyeblikk · 4 vurderinger':'12 moments · 4 ratings'}`;
   button.append(title,description);applyVisualProperties(button,getCaseVisual('empathic-understanding',exercise.difficulty));
   button.addEventListener('click',()=>void mastery.choose(exercise.id));host.append(button);
  }
@@ -1428,7 +1431,7 @@ function renderSelfRatingsChart() {
   renderMasteryHistory({host:document.getElementById("mastery-history"),rows:state.masteryRatings,source:state.progressSource,language:state.languageId??"en",loading:state.progressRatingsLoading,error:state.masteryRatingsError,signedIn:!!state.authUser});
   const mixed=state.progressExercise==='mastery',no=state.languageId==='no';
   document.getElementById('progress-single').textContent=no?'Én ferdighet':'Single skill';
-  document.getElementById('progress-mastery').textContent=no?'Mestringsøving':'Mastery practice';
+  document.getElementById('progress-mastery').textContent=no?'Mestring og oppgaver':'Mastery & tasks';
   document.getElementById('progress-single').setAttribute('aria-pressed',String(!mixed));
   document.getElementById('progress-mastery').setAttribute('aria-pressed',String(mixed));
   document.getElementById('mastery-history').hidden=!mixed||!state.authUser;
@@ -4069,7 +4072,7 @@ function registerEventListeners() {
   for (const [id,type] of [['progress-single','single-skill'],['progress-mastery','mastery']]) {
     document.getElementById(id).addEventListener('click',()=>{state.progressExercise=type;renderSelfRatingsChart();});
   }
-  for (const [id,type] of [['exercise-single','single-skill'],['exercise-mastery','mastery']]) {
+  for (const [id,type] of [['exercise-single','single-skill'],['exercise-mastery','mastery'],['exercise-task','task-episodes']]) {
     document.getElementById(id).addEventListener('click',()=>{exerciseType=type;writeJsonStorage('dp_exercise_type',type);void renderExerciseChoice();});
   }
   document.getElementById('home-library').addEventListener('click', () => {

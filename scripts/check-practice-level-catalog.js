@@ -3,6 +3,10 @@ async page => {
  const url=page.url();if(!['localhost','127.0.0.1'].includes(new URL(url).hostname))throw new Error('Local preview only');
  const assert=(ok,message)=>{if(!ok)throw new Error(message);},errors=[];
  const cases=[
+  {name:'Task episodes supported',exercises:['mastery-sara-evenings','task-sara-two-chair'],taskProtocol:true,taskFormat:true,tasks:true,initialTasks:true},
+  {name:'Task protocol missing',exercises:['mastery-sara-evenings','task-sara-two-chair'],taskFormat:true,initialTasks:true},
+  {name:'Task format mismatched',exercises:['mastery-sara-evenings','task-sara-two-chair'],taskProtocol:true,initialTasks:true},
+  {name:'Task revision mismatched',exercises:['mastery-sara-evenings','task-sara-two-chair'],taskProtocol:true,taskFormat:true,wrongTask:true,initialTasks:true},
   {name:'Partial fixed-case server',exercises:['mastery-sara-evenings','mastery-michael-before-the-outburst','mastery-david-an-ordinary-evening'],fixed:['mastery-michael-before-the-outburst','mastery-david-an-ordinary-evening']},
   {name:'Wrong fixed-case revision',exercises:['mastery-sara-evenings','mastery-michael-before-the-outburst','mastery-david-an-ordinary-evening'],wrong:true},
   {name:'Sara-only server',exercises:['mastery-sara-evenings'],arne:false},
@@ -32,11 +36,15 @@ async page => {
   const context=await page.context().browser().newContext({viewport:{width:320,height:844}});
   try {
    const p=await context.newPage();p.on('pageerror',e=>errors.push(e.message));
-   const capability={protocol:'guided-mastery-v1',exercises:test.exercises.map(id=>({id,revision:test.wrong&&!id.includes('sara')?'older-revision':'2026-10-04-v4'}))};
-   await context.addInitScript(()=>{localStorage.setItem('dp_access_level','all');localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:'en',practiceMode:'group',groupUiVersion:2}));});
+   const capability={protocol:'guided-mastery-v1',...(test.taskProtocol?{taskEpisodesProtocol:'task-episodes-v1'}:{}),exercises:test.exercises.map(id=>({id,format:id.startsWith('task-')&&test.taskFormat?'task-episodes':'mastery',revision:test.wrong&&!id.includes('sara')||test.wrongTask&&id.startsWith('task-')?'older-revision':'2026-10-04-v4'}))};
+   await context.addInitScript(test=>{if(test.initialTasks)localStorage.setItem('dp_exercise_type','"task-episodes"');localStorage.setItem('dp_access_level','all');localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:'en',practiceMode:'group',groupUiVersion:2}));},test);
    await context.route('**/src/js/backend.js*',route=>route.fulfill({contentType:'text/javascript',body:stub.replace('CAPABILITY','('+JSON.stringify(capability)+')')}));
    await p.goto(url);await p.waitForFunction(()=>document.getElementById('account-button').textContent==='Account');
-   await p.locator('#home-library').click();await p.locator('#exercise-mastery:not(:disabled)').waitFor();await p.locator('#exercise-mastery').click();
+   await p.locator('#home-library').click();await p.locator('#exercise-mastery:not(:disabled)').waitFor();
+   assert(await p.locator('#exercise-task').isVisible()===Boolean(test.tasks),test.name+': task requires protocol, format and revision');
+   if(test.initialTasks&&!test.tasks)assert(await p.locator('#skill-list').isVisible(),test.name+': unsupported saved task selection falls back to focused practice');
+   if(test.tasks){await p.locator('#exercise-task').click();await p.locator('[data-exercise-id="task-sara-two-chair"]').click();await p.locator('#mastery-use-room').waitFor();await p.locator('#mastery-practice button').first().click();}
+   await p.locator('#exercise-mastery').click();
    assert(await p.locator('#mastery-library [data-exercise-id="mastery-sara-evenings"]').count()===1,test.name+': Sara is supported');
    const arne=p.locator('#mastery-library [data-exercise-id^="mastery-arne"]');
    assert(await arne.count()===(test.arne?1:0),test.name+': unsupported variants are hidden');
