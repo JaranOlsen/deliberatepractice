@@ -1,5 +1,6 @@
 import {setHeaderControl} from './headerUI.js';
 import {createAppTour} from './appTour.js';
+import {createAiPractice} from './aiPractice.js';
 import {createMasteryPractice, supportsMastery} from "./masteryPractice.js";
 import {preferredCaseLevel, rememberCaseLevel, createLevelChoice, levelLabel} from './practiceLevels.js';
 import {EXERCISE_CATALOG} from "./masteryContent.js";
@@ -175,6 +176,10 @@ function renderGroupEntry() {
   document.getElementById('home-title').textContent = strings.homeTitle;
   document.getElementById('home-library').textContent = strings.homeLibrary;
   document.getElementById('home-library').className = group ? 'ghost-button' : 'primary-button';
+  const aiEntry = document.getElementById('home-ai-practice');
+  aiEntry.hidden = !aiPilotEnabled || group || state.sessionActive;
+  aiEntry.textContent = no ? aiPractice.hasRound() ? 'Fortsett KI-øving' : 'Øv med KI · pilot'
+    : aiPractice.hasRound() ? 'Resume AI practice' : 'AI guided practice · pilot';
   const languageButton = document.getElementById('home-language');
   languageButton.textContent = state.languageId ? LANGUAGE_METADATA[state.languageId].label : strings.homeLanguage;
   languageButton.setAttribute('aria-label', strings.homeChangeLanguage);
@@ -467,6 +472,14 @@ const mastery = createMasteryPractice({
   theme: (element,skillId,difficulty) => applyVisualProperties(element,getCaseVisual(skillId,difficulty))
 });
 sections.mastery=mastery.element;document.querySelector('main').append(mastery.element);
+// Disabled in release builds unless deliberately enabled for a private preview.
+const aiPilotEnabled = import.meta.env.VITE_AI_PRACTICE_ENABLED === 'true'
+  || (import.meta.env.DEV && import.meta.env.VITE_AI_PRACTICE_ENABLED !== 'false');
+const aiPractice = aiPilotEnabled ? createAiPractice({getLanguage: () => state.languageId ?? 'en', localizeSkill, getStrings: getUIStrings,
+  show: () => showSection('ai'), home: () => showSection('home'), requestHome: actions => practiceExit.open(actions),
+  theme: (element, skillId, difficulty) => applyVisualProperties(element, getCaseVisual(skillId, difficulty))})
+  : {hasRound: () => false, stopAudio() {}};
+if (aiPilotEnabled) {sections.ai = aiPractice.element;document.querySelector('main').append(aiPractice.element);}
 function paintExerciseChoice(available, catalog = EXERCISE_CATALOG) {
  const no=state.languageId==='no',selected=exerciseType==='mastery' && available;
  const single=document.getElementById('exercise-single'),mixed=document.getElementById('exercise-mastery');
@@ -1703,6 +1716,7 @@ function setAuthStatus(message) {
 }
 
 function showProgressPanel() {
+  aiPractice.stopAudio();
   if (!state.authUser) { showAccountPanel(); return; }
   hideAccountPanel();
   renderSelfRatingsChart();
@@ -1714,6 +1728,7 @@ function showProgressPanel() {
 }
 
 function showAccountPanel() {
+  aiPractice.stopAudio();
   if (!elements.accountOverlay) return;
   renderAuthUI();
   dialogs.open(elements.accountOverlay, { onDismiss: hideAccountPanel,
@@ -2158,6 +2173,7 @@ function getCurrentCase() {
 }
 
 function showSection(sectionKey) {
+  if (sectionKey !== 'ai') aiPractice.stopAudio();
   if (sectionKey !== "room") roomView?.hide();
   if (['home','skill','language'].includes(sectionKey)) cancelContentLoad();
   Object.entries(sections).forEach(([key, el]) => {
@@ -4045,6 +4061,9 @@ function registerEventListeners() {
     else { languageDestination = 'skill'; showSection('language'); }
   });
   document.getElementById('home-progress').addEventListener('click', showProgressPanel);
+  document.getElementById('home-ai-practice').addEventListener('click', () => {
+    if (aiPilotEnabled && state.practiceMode === PRACTICE_MODES.INDIVIDUAL) void aiPractice.open();
+  });
   document.getElementById('shared-pair').addEventListener('change', event => {
     if (state.sessionActive) return;
     state.sharedPair = event.target.checked;
@@ -4059,6 +4078,7 @@ function registerEventListeners() {
     const section = document.body.dataset.section;
     if (section === 'practice') requestPracticeHome();
     else if (section === 'mastery') mastery.goHome();
+    else if (section === 'ai') aiPractice.goHome();
     else if (section === 'room') roomView?.goHome();
     else { roomSelection = null; showSection('home'); }
   });

@@ -2554,3 +2554,45 @@ body .account-controls .header-pill {
 .app-about { border-top: 1px solid var(--color-border); margin-top: 1rem; padding-top: .5rem; }
 .app-about summary { min-height: 44px; padding-block: .65rem; cursor: pointer; font-weight: 650; }
 .app-about p { font-size: .8rem; color: var(--color-muted); margin: .4rem 0; }
+.ai-body { display: grid; gap: 1rem; min-width: 0; }
+.ai-body .panel-header { margin-bottom: 0; }
+.ai-body .panel-title { margin-left: 0; text-align: left; }
+.ai-body p, .ai-body blockquote { margin: 0; }
+.ai-body h3, .ai-body h4 { margin: 0; }
+.ai-body .form-status { padding: .75rem; border-radius: .75rem; background: #fff4e5; }
+.ai-preview-badge { padding: .65rem .8rem; border-radius: .75rem; background: #fff4e5; color: #755820; font-size: .85rem; }
+.ai-disclosure { color: var(--color-muted); font-size: .85rem; }
+.ai-skill-card { display: grid; gap: .85rem; padding: 1.15rem; border: 1px solid var(--card-accent, #315f5b); border-radius: 1rem; background: #fff; }
+.ai-skill-card p { line-height: 1.5; }
+.ai-client-card, .ai-supervisor-card { display: grid; gap: .85rem; padding: 1.15rem; border-radius: 1rem; min-width: 0; }
+.ai-client-card { border: 1px solid #e0e4e6; border-left: 4px solid var(--card-accent, #315f5b); background: #fff; }
+.ai-client-card blockquote { font-size: 1.2rem; line-height: 1.55; overflow-wrap: anywhere; }
+.ai-supervisor-card { background: var(--card-accent-faint, #eef5f3); border: 1px solid var(--card-accent-soft, #d8e6e2); }
+.ai-supervisor-card h4 { font-size: .8rem; color: #49635e; }
+.ai-counter { color: var(--color-muted); font-variant-numeric: tabular-nums; font-size: .85rem; }
+.ai-body textarea, .ai-body select { width: 100%; max-width: 100%; border: 1px solid #d7dee0; border-radius: .8rem; padding: .9rem; font: inherit; background: #fff; color: #14212a; box-sizing: border-box; }
+.ai-body textarea { resize: vertical; min-height: 8rem; }
+.ai-body label { font-weight: 650; }
+.ai-body textarea:focus-visible, .ai-body select:focus-visible { outline: 3px solid #315f5b; outline-offset: 3px; }
+.ai-actions, .ai-input-actions, .ai-audio-actions { display: flex; flex-wrap: wrap; gap: .7rem; }
+.ai-actions { margin-top: .5rem; }
+.ai-actions > button { flex: 1 1 10rem; min-width: 0; }
+.ai-body button { min-height: 44px; white-space: normal; overflow-wrap: anywhere; }
+.ai-state { font-size: .85rem; color: var(--color-muted); }
+.ai-state:empty { display: none; }
+.ai-example, .ai-setup, .ai-attempt-reference { color: var(--color-muted); font-size: .9rem; }
+.ai-example p, .ai-setup p, .ai-attempt-reference p, .ai-supervisor-card details p { margin-top: .75rem; }
+.ai-round-scores { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; }
+.ai-score-card { display: grid; gap: .6rem; padding: 1rem; border-radius: 1rem; background: #eef5f3; }
+.ai-score-card h3 { font-size: .9rem; }
+.ai-score-card strong { font-size: 1.6rem; color: #315f5b; }
+.ai-score-card p { font-size: .8rem; color: var(--color-muted); }
+.ai-score-bar { height: .4rem; border-radius: 1rem; background: #d9e5e2; overflow: hidden; }
+.ai-score-bar span { display: block; height: 100%; background: #315f5b; border-radius: inherit; }
+@media (max-width: 480px) {
+  .ai-practice { padding: 1rem; }
+  .ai-client-card, .ai-supervisor-card { padding: 1rem; }
+  .ai-client-card blockquote { font-size: 1.1rem; }
+  .ai-round-scores { gap: .6rem; }
+  .ai-score-card { padding: .8rem; }
+}
