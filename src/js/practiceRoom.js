@@ -1,7 +1,10 @@
+import {loadMasteryExercise} from "./masteryContent.js";
+import {createMasteryFeedback} from "./masteryFeedbackUI.js";
+import {getSkillFeedback} from "../data/skillFeedback.js";
 import {GROUP_PRACTICE_COPY, createGroupWorkflow, createGroupRoleGuide} from './groupPracticeUI.js';
 import {practiceRoomRpc, watchPracticeRoom} from './backend.js';
 import {loadPracticeContent, getPracticeStatements} from './practiceContent.js';
-import {CONTENT_REVISION} from './practiceData.js';
+import {CONTENT_REVISION, FOCUSED_CONTENT_COMPATIBILITY} from './practiceData.js';
 import {groupSetProgress} from './groupRound.js';
 import {createRoomSync, roomRole, roomEveryoneReady, roomNeedsObserver, missingRoomRoles, roomReadinessRoles, waitingRoomReadiness, roomCanStart} from './practiceRoomSync.js';
 import {readRoomInvite, rememberRoomInvite, normalizeRoomCode} from './roomInvite.js';
@@ -73,7 +76,7 @@ const copy = {
   }
 };
 
-export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getUser, getLanguage, localizeSkill, getStrings, signIn, onProgressChange, onMaterialChange, applyTheme}) {
+export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, onClose, getUser, getLanguage, localizeSkill, getStrings, signIn, onProgressChange, onMaterialChange, applyTheme}) {
   const overlay = document.createElement('div');
   overlay.id = 'room-panel'; overlay.className = 'panel room-panel is-hidden'; overlay.hidden = true;
   overlay.innerHTML = `<section class="room-dialog">
@@ -123,7 +126,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
   confirmOverlay.className = 'account-overlay is-hidden'; confirmOverlay.hidden = true; confirmOverlay.id = 'room-exit-overlay';
   confirmOverlay.innerHTML = `<section class="account-modal room-exit-modal" role="dialog" aria-modal="true" aria-labelledby="room-exit-title" aria-describedby="room-exit-description"><h2 id="room-exit-title"></h2><p id="room-exit-description"></p><div class="leave-actions"><button id="room-exit-cancel" class="ghost-button"></button><button id="room-exit-confirm" class="primary-button"></button></div></section>`;
   document.body.append(confirmOverlay);
-  let confirming = null;
+  let confirming = null, returnHomeOnClose = false;
   const el = id => overlay.querySelector(`#room-${id}`);
   let language = getLanguage() ?? 'en';
   let room = null;
@@ -184,18 +187,26 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
   }
 
   async function applyRoom(next, isCurrent = () => true) {
-    const configured = !!next.skill_id && !!next.case_id;
+    const mastery = next.exercise_type === 'mastery';
+    const configured = !!next.case_id && (mastery ? !!next.exercise_id : !!next.skill_id);
+    let exercise = null;
     const ended = next.phase === 'closed' || Date.parse(next.expires_at) <= Date.now();
     let entries = [];
     if (configured && !ended) {
-      if (next.content_revision !== CONTENT_REVISION) throw new Error(strings().failedContent);
-      await loadPracticeContent(next.language_id, next.skill_id);
-      entries = getPracticeStatements(next.language_id, next.skill_id, next.case_id);
+      if (next.content_revision !== CONTENT_REVISION && (mastery || !FOCUSED_CONTENT_COMPATIBILITY[next.content_revision]?.includes(next.skill_id))) throw new Error(strings().failedContent);
+      if(mastery) {
+        exercise=await loadMasteryExercise(next.language_id,next.exercise_id,next.content_revision);
+        entries=exercise.scenes;
+        if(JSON.stringify(next.statement_ids)!==JSON.stringify(entries.map(e=>e.id)) || next.case_id!==exercise.caseId || next.difficulty!==exercise.difficulty)throw new Error(strings().failedContent);
+      }else {
+        await loadPracticeContent(next.language_id, next.skill_id);
+        entries = getPracticeStatements(next.language_id, next.skill_id, next.case_id, next.difficulty);
+      }
       if (next.statement_ids.some(id => !entries.some(e => e.id === id))) throw new Error(strings().failedContent);
     }
     if (!isCurrent() || !open || getUser()?.id !== userId) return;
-    if (configured && !ended && (room?.id !== next.id || room?.skill_id !== next.skill_id || room?.case_id !== next.case_id || room?.language_id !== next.language_id)) onMaterialChange?.(next);
-    if (next.saved_score && (room?.round_id !== next.round_id || room?.saved_score !== next.saved_score)) onProgressChange?.({source: next.observer_id ? 'observer' : 'self'});
+    if (configured && !ended && (room?.id !== next.id || room?.skill_id !== next.skill_id || room?.exercise_id !== next.exercise_id || room?.case_id !== next.case_id || room?.language_id !== next.language_id)) onMaterialChange?.(next);
+    if (next.saved_score && (room?.round_id !== next.round_id || room?.saved_score !== next.saved_score)) onProgressChange?.({source: next.observer_id ? 'observer' : 'self',exerciseType:next.exercise_type});
     room = next; language = next.language_id; labels();
     overlay.dataset.phase = next.phase; overlay.dataset.version = String(next.version);
     write(roomKey(), next.id);
@@ -207,10 +218,11 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       el('change-role').value = role;
       el('change-role').dataset.assignment = assignment;
     }
-    const skill = localizeSkill(language, next.skill_id);
-    const caseData = skill?.cases.find(c => c.id === next.case_id);
-    applyTheme?.(overlay, configured && !ended ? skill?.id : null, caseData?.difficulty);
-    applyTheme?.(confirmOverlay, configured && !ended ? skill?.id : null, caseData?.difficulty);
+    const currentScene = entries.find(e=>e.id===next.statement_ids[next.item_index]);
+    const skill = localizeSkill(language, mastery ? currentScene?.skillId : next.skill_id, next.difficulty);
+    const caseData = (mastery ? localizeSkill(language,'empathic-understanding',next.difficulty) : skill)?.cases.find(c => c.id === next.case_id);
+    applyTheme?.(overlay, configured && !ended ? mastery ? 'empathic-understanding' : skill?.id : null, caseData?.difficulty);
+    applyTheme?.(confirmOverlay, configured && !ended ? mastery ? 'empathic-understanding' : skill?.id : null, caseData?.difficulty);
     if (!role || (configured && !caseData && !ended)) throw new Error(strings().failedContent);
     const s = strings(), ui = getStrings(language);
     text('change-role-label', next.phase === 'choosing' && role === 'passive' ? s.chooseRole : s.role);
@@ -218,7 +230,8 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     const set = groupSetProgress(next.statement_ids, next.item_index, next.completed_ids, next.skipped_ids);
     const self = next.skill_id === 'therapist-self-awareness';
     const active = ['practicing','first_attempt','client_feedback','observer_feedback','retry'].includes(next.phase);
-    el('header').hidden = ended || next.phase !== 'choosing';
+    el('header').hidden = ended;
+    el('title').hidden = next.phase !== 'choosing';
     const body = el('content');
     text('role-badge', `${s.role}: ${role === 'client' && self ? ui.selfAwarenessReaderRole : s[role]}`);
     el('role-badge').hidden = ended || (next.phase === 'choosing' && role === 'passive');
@@ -234,7 +247,11 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       contentKey = key;
       goalView?.destroy(); goalView = null;
       body.replaceChildren();
-      if (configured && !ended) body.append(node('h3', skill.name, 'room-practice-heading'), node('p', caseData.label, 'room-case-heading'));
+      if (configured && !ended) {
+        const heading=node('h3',mastery && !active ? exercise.title : skill.name,'room-practice-heading');
+        if(mastery && active)applyTheme?.(heading,skill.id,caseData.difficulty);
+        body.append(heading,node('p',caseData.supportedLevels.length>1?`${caseData.label} · ${caseData.difficultyLabel}`:caseData.label,'room-case-heading'));
+      }
       const expired = Date.parse(next.expires_at) <= Date.now();
       if (next.phase === 'closed' || expired) {
         body.append(node('h3', expired ? s.expired : s.ended), node('p', s.endedNote));
@@ -251,7 +268,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
           const background = node('section', '', 'case-brief-section');
           background.append(node('h4', ui.roleBriefHeading, 'case-section-title'));
           const facts = node('dl', '', 'case-role-list');
-          for (const [label, value] of [[ui.schemaLabel, caseData.schema], [ui.corePainLabel, caseData.corePain], [ui.styleLabel, caseData.style], [ui.casePracticeEdgeLabel, caseData.practiceEdge]]) {
+          for (const [label, value] of [[caseData.schemaLabel, caseData.schema], [ui.corePainLabel, caseData.corePain], [ui.styleLabel, caseData.style], [ui.casePracticeEdgeLabel, caseData.practiceEdge]]) {
             if (!value?.trim()) continue;
             const fact = node('div', '', 'case-role-item');
             fact.append(node('dt', label), node('dd', value)); facts.append(fact);
@@ -262,28 +279,40 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
             const section = node('section', '', 'case-voice-section');
             section.append(node('h4', ui.clientVoiceHeading, 'case-section-title'), node('p', voice)); prep.append(section);
           }
-        } else prep.append(node('p', skill.practiceFocus));
+        } else {
+          if(mastery)prep.append(node('p',caseData.teaser),node('p',exercise.orientation));
+          else prep.append(node('p',skill.practiceFocus));
+          if(mastery && ['observer','passive'].includes(role)) {
+            const outline=node('details');outline.append(node('summary',language==='no'?'De tolv øyeblikkene':'The twelve moments'));
+            const list=node('ol');for(const scene of entries)list.append(node('li',localizeSkill(language,scene.skillId).name));outline.append(list);prep.append(outline);
+          }
+        }
         prep.append(node('p', self ? s.awarenessCue[role] : !roomNeedsObserver(next) && role === 'therapist' ? s.pairPreparation : s.prepCue[role], 'room-preparation-cue'));
         if (self && !roomNeedsObserver(next) && role === 'therapist') prep.append(node('p', s.pairPreparation, 'room-preparation-cue'));
         body.append(prep);
       } else if (active) {
         body.append(node('p', `${s.set} ${set.number}/${set.total} · ${s.item} ${next.item_index + 1}/${next.statement_ids.length}`, 'triad-progress'));
-        const statement = entries.find(e => e.id === next.statement_ids[next.item_index]);
-        if (role === 'client') {
+        const statement = currentScene;
+        if(mastery)body.append(node('p',statement.bridge,'mastery-scene-bridge'));
+        if (role === 'client' || (mastery && ['observer','passive'].includes(role))) {
           const card = node('section', '', 'statement-panel');
           card.append(node('blockquote', statement.text, 'statement-text room-statement')); body.append(card);
         }
-        else if (role === 'therapist') body.append(node('aside', skill.practiceFocus, 'individual-guide'));
+        else if (role === 'therapist') body.append(node('aside', mastery ? statement.prompt : skill.practiceFocus, 'individual-guide'));
+        if(mastery && ['observer','passive'].includes(role)) {
+          const cues=node('ul','', 'mastery-scene-cues');for(const cue of getSkillFeedback(statement.skillId,language).cues)cues.append(node('li',cue));body.append(cues);
+        }
         const guide = createGroupWorkflow({language, awareness: self, pair: !next.observer_id,
           id: 'room-workflow-guide', open: ['observer','passive'].includes(role) || (!next.observer_id && role === 'therapist')});
         const guideKey = `${self ? 'awareness' : 'skill'}:${role}`;
         const part = createGroupRoleGuide({language, awareness: self, role, pair: !next.observer_id,
-          id: 'room-your-part', open: roleGuideOpen.get(guideKey) ?? false, focus: skill.practiceFocus,
+          id: 'room-your-part', open: roleGuideOpen.get(guideKey) ?? false, focus: mastery ? null : skill.practiceFocus,
           example: statement.suggestion, examplePrefix: 'room',
           onToggle: expanded => roleGuideOpen.set(guideKey, expanded)});
         if (['observer','passive'].includes(role) || (!next.observer_id && role === 'therapist')) body.append(guide, part);
         else body.append(part, guide);
       } else if (next.phase === 'round_debrief') {
+        if(mastery)body.append(node('p',entries.filter(e=>set.completed.includes(e.id)).map(e=>localizeSkill(language,e.skillId).name).join(' · '),'mastery-set-skills'));
         body.append(node('h4', next.round_size === 12 ? `${s.rateSet} · ${set.number}/${set.total}` : s.debrief), node('p', `${set.completed.length} ${s.practiced} · ${set.skipped.length} ${s.passed}`, 'triad-progress'));
         if (set.completed.length) body.append(node('p', (self ? s.awarenessReflection : s.reflection)[role]));
         if (set.last) body.append(node('p', s.derole, 'response-hint'));
@@ -305,12 +334,14 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       }
       const selfRating = !next.observer_id && role === 'therapist' && next.phase === 'round_debrief' && set.completed.length > 0;
       if (configured && !ended && next.phase !== 'choosing' && (role === 'observer' || selfRating)) {
-        body.append(createSkillFeedback({skillId:next.skill_id, language, id:'room-feedback-reference',
+        if(mastery) {
+          if(next.phase==='round_debrief' && set.completed.length)body.append(createMasteryFeedback({language,scenes:entries.filter(e=>set.completed.includes(e.id)),skillName:id=>localizeSkill(language,id).name,audience:selfRating?'self':'observer'}));
+        }else body.append(createSkillFeedback({skillId:next.skill_id, language, id:'room-feedback-reference',
           audience:selfRating ? 'self' : 'observer'}));
       }
-      if (configured && !ended && role === 'therapist' && next.phase !== 'choosing') {
+      if (!mastery && configured && !ended && role === 'therapist' && (active || next.phase === 'round_debrief')) {
         goalView = createPracticeGoalView({userId, languageId:language, skillId:next.skill_id,
-          editable:['lobby','round_debrief'].includes(next.phase), id:'room-next-attempt'});
+          editable:next.phase === 'round_debrief', id:'room-next-attempt'});
         // Keep the reminder near the focus during practice, rather than below the workflow.
         if (active) body.querySelector('.individual-guide')?.after(goalView.element);
         else body.append(goalView.element);
@@ -329,6 +360,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     const s = strings(), role = roomRole(snapshot, userId);
     const set = groupSetProgress(snapshot.statement_ids, snapshot.item_index, snapshot.completed_ids, snapshot.skipped_ids);
     const ended = snapshot.phase === 'closed' || Date.parse(snapshot.expires_at) <= Date.now();
+    if(ended && returnHomeOnClose && !pending && !commanding){write(roomKey(),null);dismiss();return;}
     const missing = missingRoomRoles(snapshot);
     const activeRoles = ['therapist','client', ...(roomNeedsObserver(snapshot) ? ['observer'] : [])];
     const offline = activeRoles.filter(role => snapshot[`${role}_id`] && !snapshot.presence?.[snapshot[`${role}_id`]]?.connected);
@@ -427,7 +459,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     el('another').hidden = !ended;
     el('done').hidden = !ended;
     save.hidden = !controls || snapshot.phase !== 'round_debrief' || !set.completed.length || (!!snapshot.saved_score && Number(score?.value) === snapshot.saved_score) || !!pending;
-    text('save', snapshot.saved_score ? s.updateRating : s.save);
+    text('save', snapshot.saved_score ? s.updateRating : snapshot.exercise_type==='mastery' ? language==='no'?'Lagre vurdering av settet':'Save set rating' : s.save);
     save.disabled = commanding || !!pending || !fresh || !score?.value;
     el('actions').hidden = ![...el('actions').children].some(button => !button.hidden);
     el('sync').hidden = fresh && !error;
@@ -437,7 +469,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
   function dismiss(navigate = true) {
     goalView?.destroy(); goalView = null;
     if (confirming) { dialogs.close(confirmOverlay); confirming = null; }
-    open = false; opening++; sync.stop(); room = null; contentKey = '';
+    returnHomeOnClose=false;open = false; opening++; sync.stop(); room = null; contentKey = '';
     overlay.hidden = true; overlay.classList.add('is-hidden'); if (navigate) onClose?.();
   }
   async function request(task) {
@@ -459,7 +491,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     if (mode === 'create' || mode === 'resume') clearInvite();
     userId = getUser()?.id ?? null; language = getLanguage() ?? 'en'; config = createConfig; creating = null;
     open = true; opening++; busy = false; room = null; contentKey = '';
-    labels(); text('status', ''); el('header').hidden = false; el('setup').hidden = false; el('session').hidden = true;
+    labels(); text('status', ''); el('header').hidden = false; el('title').hidden = false; el('setup').hidden = false; el('session').hidden = true;
     el('actions').hidden = true; el('save').hidden = true;
     el('hub').hidden = mode !== 'hub'; el('entry').hidden = mode === 'hub';
     text('title', mode === 'hub' ? strings().hub : config ? strings().createTitle : strings().joinTitle);
@@ -502,7 +534,13 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       return practiceRoomRpc('sync_practice_room', {input_room_id: last, input_acknowledged_version: -1});
     });
   }
-  el('back').addEventListener('click', () => { if (!room) clearInvite(); dismiss(); });
+  el('back').addEventListener('click', () => {
+    if(!room){clearInvite();dismiss();return;}
+    const s=strings();
+    requestHome({pause:()=>dismiss(),end:()=>confirmExit(room.host_id===userId?'close':'leave',null,true),
+      pauseLabel:s.close,endLabel:room.host_id===userId?s.end:s.leave,
+      descriptionLabel:language==='no'?'Rommet forblir åpent når du går hjem. Du kan fortsette derfra.':'Your room stays open when you go home. You can resume from there.'});
+  });
   el('done').addEventListener('click', () => dismiss());
   el('join-form').addEventListener('submit', event => {
     event.preventDefault();
@@ -560,8 +598,8 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
       else { await navigator.clipboard.writeText(url.href); text('status', strings().linkCopied); }
     } catch (failure) { if (failure.name !== 'AbortError') text('status', `${strings().code}: ${room.code}`); }
   });
-  function confirmExit(action, configuration = null) {
-    const s = strings(); confirming = {action, configuration};
+  function confirmExit(action, configuration = null, homeAfter = false) {
+    const s = strings(); confirming = {action, configuration, homeAfter};
     confirmOverlay.querySelector('#room-exit-title').textContent = action === 'transfer_host' ? s.transferTitle.replace('{name}', memberName(room, configuration.targetUserId))
       : action === 'recover_host' ? s.recoverTitle : action === 'close' ? s.endTitle : s.leaveTitle;
     confirmOverlay.querySelector('#room-exit-description').textContent = action === 'transfer_host' ? s.transferDescription
@@ -572,7 +610,7 @@ export function createPracticeRoomView({dialogs, onChoose, onOpen, onClose, getU
     dialogs.open(confirmOverlay, {onDismiss: cancel, initialFocus: confirmOverlay.querySelector('#room-exit-cancel')});
   }
   confirmOverlay.querySelector('#room-exit-cancel').addEventListener('click', () => { dialogs.close(confirmOverlay); confirming = null; });
-  confirmOverlay.querySelector('#room-exit-confirm').addEventListener('click', () => { const decision = confirming; dialogs.close(confirmOverlay); confirming = null; if (decision) void sync.command(decision.action, null, decision.configuration); });
+  confirmOverlay.querySelector('#room-exit-confirm').addEventListener('click', () => { const decision = confirming; dialogs.close(confirmOverlay); confirming = null; if (decision) {returnHomeOnClose=decision.homeAfter;void sync.command(decision.action, null, decision.configuration);} });
   confirmOverlay.addEventListener('click', e => { if (e.target === confirmOverlay) { dialogs.close(confirmOverlay); confirming = null; } });
   el('leave').addEventListener('click', () => confirmExit('leave'));
   el('sync').addEventListener('click', () => { void sync.sync(); });

@@ -1,3 +1,4 @@
+import {EXTENSION_SKILL_ORDER} from "../src/data/skillExtensions.js";
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createPracticeGoalStore, normalizePracticeGoal} from '../src/js/practiceGoalStore.js';
@@ -7,7 +8,7 @@ import {CANONICAL_SKILL_ORDER} from '../src/data/contentMeta.js';
 const scope = {userId:'therapist', languageId:'en', skillId:'empathic-understanding'};
 const defer = () => { let resolve, reject; const promise = new Promise((yes,no) => {resolve=yes;reject=no;}); return {promise,resolve,reject}; };
 test('every production skill has original bilingual cues, distinct anchors and a short practice target', () => {
-  assert.deepEqual(Object.keys(SKILL_FEEDBACK).sort(), [...CANONICAL_SKILL_ORDER].sort());
+  assert.deepEqual(Object.keys(SKILL_FEEDBACK).sort(), [...CANONICAL_SKILL_ORDER,...EXTENSION_SKILL_ORDER].sort());
   for (const skill of Object.values(SKILL_FEEDBACK)) for (const lang of ['en','no']) {
     assert.equal(skill[lang].cues.length, 2);
     assert.equal(skill[lang].selfCues.length, 2);

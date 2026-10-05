@@ -1,3 +1,4 @@
+import {FOCUSING_BANKS,FOCUSING_SKILL_ID} from '../src/data/experientialFocusing.js';
 // Isolated Postgres tests: npm run test:rooms:db
 // Optional localhost-only RPC bridge for check-four-set-room-flows.js: add --serve.
 // No remote credentials or Supabase connection are used.
@@ -6,6 +7,13 @@ import { pgcrypto } from '@electric-sql/pglite/contrib/pgcrypto';
 import { readFile, readdir } from 'node:fs/promises';
 import { createServer } from 'node:http';
 import { randomUUID } from 'node:crypto';
+import assert from 'node:assert/strict';
+import {MASTERY_EXERCISES} from '../src/data/masteryExercises.js';
+import {FIXED_CASE_EXTENSION_BANKS} from '../src/data/fixedCaseExtensions.js';
+import {NORA_SKILLS,NORA_LEVELS} from '../src/data/noraCase.js';
+import {MIA_SKILLS,MIA_LEVELS} from '../src/data/miaCase.js';
+import {ARNE_SKILLS,ARNE_LEVELS} from '../src/data/arneCase.js';
+import {BASE_PRACTICE} from '../src/data/index.js';
 const root = new URL('../', import.meta.url);
 const read = name => readFile(new URL(name, root), 'utf8');
 const db = new PGlite({extensions: {pgcrypto}});
@@ -19,9 +27,21 @@ try {
     create publication supabase_realtime;`);
   await db.exec(await read('supabase/auth-pairing-practice.sql'));
   for (const name of (await readdir(new URL('supabase/migrations/', root))).sort()) {
+    const levelMigration=/_(?:(?:arne|mia|nora)_practice_levels|fixed_case_mastery|experiential_focusing)\.sql$/.test(name);
+    const validator=levelMigration?(await db.query("select 'dp_private.validate_room_config(jsonb)'::regprocedure::oid as oid")).rows[0].oid:null;
     await db.exec(await read('supabase/migrations/' + name));
+    if(levelMigration)assert.equal((await db.query("select 'dp_private.validate_room_config(jsonb)'::regprocedure::oid as oid")).rows[0].oid,validator,'Existing room validator identity must survive the migration');
   }
-  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql', 'check-practice-goals.sql', 'check-rating-history.sql']) {
+  for(const exercise of MASTERY_EXERCISES) {
+    const row=(await db.query('select scenes from dp_private.exercise_catalog where exercise_id=$1 and revision=$2',[exercise.id,exercise.revision])).rows[0];
+    assert.deepEqual(row?.scenes,exercise.scenes.map(({id,skillId,criteriaTags})=>({id,skillId,criteriaTags})),'Mastery catalog drift: '+exercise.id);
+  }
+  for(const [caseId,skills,levels] of [['case-arne',ARNE_SKILLS,ARNE_LEVELS],['case-mia',MIA_SKILLS,MIA_LEVELS],['case-nora',NORA_SKILLS,NORA_LEVELS],...Object.entries(FOCUSING_BANKS).map(([caseId,levels])=>[caseId,[FOCUSING_SKILL_ID],Object.keys(levels)]),...Object.entries(FIXED_CASE_EXTENSION_BANKS).map(([caseId,banks])=>[caseId,Object.keys(banks),[BASE_PRACTICE[Object.keys(banks)[0]].cases[caseId].difficulty]])])for(const skill of skills)for(const level of levels) {
+    const row=(await db.query('select entries from dp_private.focused_level_catalog where skill_id=$1 and difficulty=$2 and case_id=$3 and revision=$4',[skill,level,caseId,BASE_PRACTICE[skill].cases[caseId].statements[0].revision])).rows[0];
+    const expected=BASE_PRACTICE[skill].cases[caseId].statements.filter(e=>e.difficultyTier===level).map(({id,criteriaTags})=>({id,criteriaTags}));
+    assert.deepEqual(row?.entries,expected,'Focused catalog drift: '+skill+'/'+level);
+  }
+  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql', 'check-practice-goals.sql', 'check-rating-history.sql', 'check-mastery.sql','check-practice-levels.sql','check-fixed-case-mastery.sql','check-experiential-focusing.sql']) {
     await db.exec(await read('scripts/' + name));
     console.log('PASS ' + name);
   }
@@ -34,6 +54,8 @@ try {
       await db.query('update public.profiles set display_name=$2 where id=$1', [id, 'Test ' + role]);
     }
     const signatures = {
+      mastery_capabilities: [],
+      record_mastery_rating: ['input_language_id','input_exercise_id','input_content_revision','input_parent_round_id','input_set_number','input_completed_scene_ids','input_score','input_practice_mode'],
       create_practice_room: ['input_config','input_room_id'], join_practice_room: ['input_code','input_role'],
       prepare_practice_room: ['input_room_id','input_command_id','input_expected_version','input_config'],
       sync_practice_room: ['input_room_id','input_acknowledged_version'],
@@ -46,6 +68,9 @@ try {
     const server = createServer((req, res) => {
       const reply = (status, value) => {res.writeHead(status, {'Content-Type': 'application/json'});res.end(JSON.stringify(value));};
       if (req.url === '/users') return reply(200, users);
+      if (req.url === '/mastery-ratings') {
+        queue = queue.then(async () => reply(200, (await db.query('select * from public.mastery_ratings order by created_at,id')).rows));return;
+      }
       if (req.url === '/ratings') {
         queue = queue.then(async () => reply(200, (await db.query('select * from public.practice_ratings order by created_at,id')).rows));
         return;

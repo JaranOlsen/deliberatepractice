@@ -1,1 +1,715 @@
-[]
+[
+  {
+    "priority": "critical",
+    "id": "dp_consolidating-emotional-change_case-carlos_02",
+    "skillId": "consolidating-emotional-change",
+    "caseId": "case-carlos",
+    "reason": "high_risk_review_required",
+    "riskFlags": [
+      "violence"
+    ]
+  },
+  {
+    "priority": "critical",
+    "id": "dp_consolidating-emotional-change_case-nora_hard_11",
+    "skillId": "consolidating-emotional-change",
+    "caseId": "case-nora",
+    "reason": "high_risk_review_required",
+    "riskFlags": [
+      "culture_religion"
+    ]
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_easy_03",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_easy_05",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_easy_07",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_easy_09",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_easy_10",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_easy_11",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_easy_12",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_hard_03",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_hard_04",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_hard_05",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_hard_06",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_hard_07",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_hard_08",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_hard_09",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_hard_11",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_hard_12",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_moderate_02",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_moderate_03",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_moderate_05",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_moderate_07",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_moderate_09",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_moderate_10",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_moderate_11",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-arne_moderate_12",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-arne",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_easy_03",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_easy_04",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_easy_06",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_easy_07",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_easy_09",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_easy_10",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_easy_11",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_hard_01",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_hard_02",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_hard_05",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_hard_07",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_hard_08",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_hard_09",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_hard_10",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_hard_11",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_hard_12",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_moderate_01",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_moderate_03",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_moderate_06",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_moderate_07",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_moderate_08",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_moderate_09",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_moderate_10",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_moderate_11",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-mia_moderate_12",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-mia",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_easy_03",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_easy_04",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_easy_05",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_easy_06",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_easy_07",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_easy_08",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_easy_09",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_easy_12",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_hard_01",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_hard_02",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_hard_04",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_hard_05",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_hard_06",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_hard_07",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_hard_08",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_hard_09",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_hard_10",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_hard_12",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_moderate_01",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_moderate_02",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_moderate_03",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_moderate_04",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_moderate_05",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_moderate_06",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_moderate_07",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_moderate_09",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_moderate_11",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-affirmation-validation_case-nora_moderate_12",
+    "skillId": "empathic-affirmation-validation",
+    "caseId": "case-nora",
+    "reason": "validation_missing_explicit_legitimizing_cue"
+  },
+  {
+    "priority": "high",
+    "id": "dp_empathic-understanding_case-arne_hard_05",
+    "skillId": "empathic-understanding",
+    "caseId": "case-arne",
+    "reason": "empathic_understanding_should_not_default_to_question"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-arne_easy_02",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-arne",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-arne_easy_10",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-arne",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-arne_hard_02",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-arne",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-arne_hard_03",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-arne",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-arne_hard_05",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-arne",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-arne_hard_07",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-arne",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-arne_moderate_08",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-arne",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-arne_moderate_12",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-arne",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-mia_easy_09",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-mia",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-mia_hard_02",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-mia",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-mia_hard_05",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-mia",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-mia_moderate_01",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-mia",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-mia_moderate_03",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-mia",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-mia_moderate_04",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-mia",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-nora_easy_01",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-nora",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-nora_easy_03",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-nora",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-nora_easy_06",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-nora",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-nora_easy_12",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-nora",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-nora_hard_02",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-nora",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-nora_moderate_02",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-nora",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  },
+  {
+    "priority": "high",
+    "id": "dp_providing-treatment-rationale_case-nora_moderate_09",
+    "skillId": "providing-treatment-rationale",
+    "caseId": "case-nora",
+    "reason": "treatment_rationale_missing_explanatory_language"
+  }
+]

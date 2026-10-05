@@ -1,0 +1,180 @@
+{
+  "id": "mastery-laura-company-at-her-pace",
+  "type": "mastery",
+  "caseId": "case-laura",
+  "difficulty": "moderate",
+  "supportedLevels": [
+    "moderate"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Laura · Company at her pace",
+  "orientation": "Linked moments about exhaustion, guarded contact and receiving a little care. No memory detail or greater emotional intensity is required. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+  "scenes": [
+    {
+      "id": "mastery_laura_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-laura_09",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Laura begins with the car after a long shift.",
+      "prompt": "Reflect the effort and exhaustion.",
+      "text": "[Tired] I keep trying to be normal at work, smiling and checking on everyone, but by the end of a shift I sit in the car because I am too worn out to drive home.",
+      "suggestion": "Holding the normal face and caring for everyone leaves you too worn out to go home."
+    },
+    {
+      "id": "mastery_laura_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-laura_02",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "bridge": "She asks about the risk of being pulled into memories.",
+      "prompt": "Explain choice and manageable pacing.",
+      "text": "[Slow and flat] How do I know this will not make me relive trauma when I already disappear?",
+      "suggestion": "You already know how easily you can feel far away. We can begin with what you notice now, without asking you to relive the trauma. Small steps and pauses help us find a pace you can stay with, and we can adjust if it becomes too much."
+    },
+    {
+      "id": "mastery_laura_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-laura_01",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Another morning brings judgment about being unable to begin.",
+      "prompt": "Validate difficulty without calling it laziness.",
+      "text": "[Flat and ashamed] On days off I can stay in bed until noon, not exactly sleeping, just not able to start. Then I tell myself I am lazy because other people manage normal mornings.",
+      "suggestion": "When even starting the day feels beyond you, getting out of bed can be a real struggle. That difficulty deserves care; comparing yourself with other people's mornings does not make you lazy."
+    },
+    {
+      "id": "mastery_laura_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-laura_01",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Laura is uncertain about the muted feeling.",
+      "prompt": "Ask gently without supplying a feeling for her.",
+      "text": "[Slow and flat] Most days feel muted, and I cannot tell if I am sad or just numb.",
+      "suggestion": "What is that muted feeling like in you right now?"
+    },
+    {
+      "id": "mastery_laura_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-laura_11",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "case_matrix_expansion"
+      ],
+      "bridge": "Another moment concerns a meal left at the door.",
+      "prompt": "Explore the small feeling she actually notices.",
+      "text": "[Quiet, surprised] My friend left a meal by the door. I didn't have to invite her in or talk. I felt touched, which surprised me.",
+      "suggestion": "You were touched by being cared for without having to let her in. We can stay with a little of that feeling, just as it is."
+    },
+    {
+      "id": "mastery_laura_06",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-laura_12",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "case_matrix_expansion"
+      ],
+      "bridge": "She describes kindness reaching her after the visit.",
+      "prompt": "Use a close image tentatively.",
+      "text": "[Guarded] My friend was kind. I said thank you. I didn't really let it affect me until she'd gone.",
+      "suggestion": "Perhaps the kindness only reaches you once the door is closed and you no longer have to guard the opening."
+    },
+    {
+      "id": "mastery_laura_07",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-laura_03",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "In another moment kindness brings unease and a topic change.",
+      "prompt": "Check whether returning would help; respect a no.",
+      "text": "[Uneasy, then brisk] Your kindness made me nervous. I should tell you about work.",
+      "suggestion": "We can move to work. Would it help first to say what felt uneasy about my kindness?"
+    },
+    {
+      "id": "mastery_laura_08",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-laura_11",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "case_matrix_expansion"
+      ],
+      "bridge": "A later moment holds wanting company and fearing that wish.",
+      "prompt": "Stay with a small amount without demanding explanation.",
+      "text": "[Suddenly tearful] She said I didn't have to explain why I needed company. I couldn't speak. I wanted her there so much, and I was frightened of wanting it.",
+      "suggestion": "Wanting her close and being frightened of that wanting are both very strong. I'm here; we can stay with just a little at a time, without making you explain it."
+    },
+    {
+      "id": "mastery_laura_09",
+      "skillId": "alliance-repair",
+      "sourceItemId": "dp_alliance-repair_case-laura_01",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Laura recalls a mismatch in an earlier therapy conversation.",
+      "prompt": "Acknowledge moving too fast and adjust the task together.",
+      "text": "[Flat and guarded] When you asked about my childhood that quickly, I felt exposed and wanted to leave. I had only mentioned one piece, and suddenly it felt like the whole door was being opened.",
+      "suggestion": "I moved too quickly with my question about your childhood. You felt exposed, and I am sorry. We can stop that topic now. I will ask before returning to it, and you can say no."
+    },
+    {
+      "id": "mastery_laura_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-laura_12",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "bridge": "Another invitation brings both wanting and unease.",
+      "prompt": "Reflect both without deciding whether she should accept.",
+      "text": "[Quiet] A friend offered to come over. I wanted company, then felt uneasy about having someone in my flat. I said no and regretted it all evening.",
+      "suggestion": "You wanted her company, but letting her into your space felt uneasy, and afterwards you regretted being alone."
+    },
+    {
+      "id": "mastery_laura_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-laura_04",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Laura notices what limited sharing made possible.",
+      "prompt": "Help her name the value of choosing how much.",
+      "text": "[Wary, relieved] I told you a little. You didn’t ask for the rest.",
+      "suggestion": "What mattered about leaving the rest yours to choose?"
+    },
+    {
+      "id": "mastery_laura_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-laura_04",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "The imagined hour ends without a breakthrough claim.",
+      "prompt": "Agree what to keep and leave time to finish.",
+      "text": "[Quietly] I can go if we don’t call today a breakthrough.",
+      "suggestion": "We don’t need that label. What do you want us to remember for next time?"
+    }
+  ]
+}

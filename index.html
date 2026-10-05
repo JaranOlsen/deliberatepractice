@@ -111,6 +111,8 @@
           </button>
           <h2 class="panel-title" id="skill-panel-title">Choose a Skill</h2>
         </div>
+        <div class="exercise-type-choice" role="group" aria-label="Exercise type"><button type="button" class="ghost-button" id="exercise-single" aria-pressed="true">Single skill</button><button type="button" class="ghost-button" id="exercise-mastery" aria-pressed="false" hidden>Mastery practice</button></div>
+        <div id="mastery-library" class="grid-list" hidden></div>
         <p class="panel-subtitle" id="skill-panel-description">
           Pick the focus area you want to strengthen today.
         </p>
@@ -242,6 +244,7 @@
         </div>
 
         <section class="case-brief-screen" id="case-brief-screen">
+          <div id="case-level-choice" hidden></div>
           <div class="case-brief-identity">
             <h3 class="case-title" id="case-name"></h3>
             <p class="case-teaser" id="case-teaser"></p>
@@ -288,8 +291,6 @@
             </details>
           </section>
           <p class="response-hint" id="practice-format-note" hidden></p>
-          <p class="response-hint" id="round-target-note"></p>
-          <div id="preparation-goal"></div>
           <button id="start-practice" class="primary-button">Begin Practice</button>
         </section>
 
@@ -528,8 +529,10 @@
                 <option value="observer" id="progress-source-observer">Observer ratings</option>
               </select>
             </div>
+            <div class="exercise-type-choice" role="group" aria-label="Progress exercise type"><button type="button" class="ghost-button" id="progress-single" aria-pressed="true">Single skill</button><button type="button" class="ghost-button" id="progress-mastery" aria-pressed="false">Mastery practice</button></div>
             <div id="self-chart-status" class="response-hint" role="status"></div>
             <div id="self-chart" class="self-chart"></div>
+            <section id="mastery-history" class="mastery-history" hidden></section>
           </div>
       </div>
     </div>

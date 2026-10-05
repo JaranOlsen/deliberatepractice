@@ -24,13 +24,14 @@ test('runtime exercises preserve all English/Norwegian text, stable IDs and rati
         const suggestion = typeof translation?.suggestion === 'string' ? translation.suggestion : item.suggestion;
         const actual = runtime[caseId][index];
         assert.deepEqual(actual, {
-          id: item.id, track: item.track, revision: item.revision, criteriaTags: item.criteriaTags, text, suggestion
+          id: item.id, track: item.track, revision: item.revision, criteriaTags: item.criteriaTags, text, suggestion,
+          ...(BASE_PRACTICE[skillId].cases[caseId].supportedLevels.length>1?{difficulty:item.difficultyTier}:{})
         }, `${language}/${skillId}/${caseId}/${index}`);
         checked++;
       }
     }
   }
-  assert.equal(checked, 2592);
+  assert.equal(checked, 5712);
 });
 
 test('sharing case descriptions preserves library, skill guide, glossary and localized case content', () => {
@@ -47,7 +48,7 @@ test('sharing case descriptions preserves library, skill guide, glossary and loc
       const original = cases[caseId];
       for (const [key, value] of Object.entries(manifest.cases[caseId])) assert.deepEqual(value, original[key]);
       assert.equal(manifest.statementCounts[skillId][caseId], original.statements.length);
-      assert.deepEqual(runtimeCases[caseId] ?? manifest.CASE_OVERRIDES[language][caseId] ?? {}, sourceCases[caseId] ?? {});
+      assert.deepEqual(runtimeCases[caseId] ?? manifest.CASE_OVERRIDES[language][caseId] ?? {}, sourceCases[caseId] ?? LANGUAGE_OVERRIDES[language]?.[SKILL_ORDER[0]]?.cases?.[caseId] ?? {});
     }
   }
 });

@@ -15,7 +15,7 @@ test("active version-three rounds survive a visit to their brief; completed roun
   assert.equal(isResumableSession({ ...setup, version: 3, status: "active", view: "brief" }), true);
   assert.equal(isResumableSession({ ...setup, version: 3, status: "completed", view: "statements" }), false);
   assert.equal(isResumableSession({ version: 3, status: "active" }), false);
-  assert.equal(isResumableSession({ ...setup, version: 4, status: "active" }), false);
+  assert.equal(isResumableSession({ ...setup, version: 4, status: "active" }), true);
 });
 
 test("summary excludes stale IDs and never counts a passed item as another completion", () => {

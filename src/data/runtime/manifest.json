@@ -11,7 +11,11 @@
     "staying-in-contact-intense-affect",
     "self-disclosure",
     "marker-recognition-chairwork",
-    "alliance-repair"
+    "alliance-repair",
+    "empathic-refocusing",
+    "consolidating-emotional-change",
+    "closing-after-emotional-work",
+    "experiential-focusing"
   ],
   "CASE_ORDER": {
     "therapist-self-awareness": [
@@ -34,7 +38,10 @@
       "case-nina",
       "case-aisha",
       "case-david",
-      "case-marcus"
+      "case-marcus",
+      "case-arne",
+      "case-mia",
+      "case-nora"
     ],
     "empathic-affirmation-validation": [
       "case-sara",
@@ -45,7 +52,10 @@
       "case-nina",
       "case-aisha",
       "case-david",
-      "case-marcus"
+      "case-marcus",
+      "case-arne",
+      "case-mia",
+      "case-nora"
     ],
     "exploratory-questions": [
       "case-sara",
@@ -56,7 +66,10 @@
       "case-nina",
       "case-aisha",
       "case-david",
-      "case-marcus"
+      "case-marcus",
+      "case-arne",
+      "case-mia",
+      "case-nora"
     ],
     "providing-treatment-rationale": [
       "case-sara",
@@ -67,7 +80,10 @@
       "case-nina",
       "case-aisha",
       "case-david",
-      "case-marcus"
+      "case-marcus",
+      "case-arne",
+      "case-mia",
+      "case-nora"
     ],
     "empathic-explorations": [
       "case-sara",
@@ -78,7 +94,10 @@
       "case-nina",
       "case-aisha",
       "case-david",
-      "case-marcus"
+      "case-marcus",
+      "case-arne",
+      "case-mia",
+      "case-nora"
     ],
     "empathic-evocations": [
       "case-sara",
@@ -89,7 +108,10 @@
       "case-nina",
       "case-aisha",
       "case-david",
-      "case-marcus"
+      "case-marcus",
+      "case-arne",
+      "case-mia",
+      "case-nora"
     ],
     "empathic-conjectures": [
       "case-sara",
@@ -100,7 +122,10 @@
       "case-nina",
       "case-aisha",
       "case-david",
-      "case-marcus"
+      "case-marcus",
+      "case-arne",
+      "case-mia",
+      "case-nora"
     ],
     "staying-in-contact-intense-affect": [
       "case-sara",
@@ -111,7 +136,10 @@
       "case-nina",
       "case-aisha",
       "case-david",
-      "case-marcus"
+      "case-marcus",
+      "case-arne",
+      "case-mia",
+      "case-nora"
     ],
     "self-disclosure": [
       "case-sara",
@@ -145,10 +173,650 @@
       "case-aisha",
       "case-david",
       "case-marcus"
+    ],
+    "empathic-refocusing": [
+      "case-sara",
+      "case-michael",
+      "case-jason",
+      "case-laura",
+      "case-carlos",
+      "case-nina",
+      "case-aisha",
+      "case-david",
+      "case-marcus",
+      "case-arne",
+      "case-mia",
+      "case-nora"
+    ],
+    "consolidating-emotional-change": [
+      "case-sara",
+      "case-michael",
+      "case-jason",
+      "case-laura",
+      "case-carlos",
+      "case-nina",
+      "case-aisha",
+      "case-david",
+      "case-marcus",
+      "case-arne",
+      "case-mia",
+      "case-nora"
+    ],
+    "closing-after-emotional-work": [
+      "case-sara",
+      "case-michael",
+      "case-jason",
+      "case-laura",
+      "case-carlos",
+      "case-nina",
+      "case-aisha",
+      "case-david",
+      "case-marcus",
+      "case-arne",
+      "case-mia",
+      "case-nora"
+    ],
+    "experiential-focusing": [
+      "case-sara",
+      "case-arne"
     ]
   },
-  "CONTENT_REVISION": "2026-10-02-v2",
-  "CONTENT_UPDATED_AT": "2026-10-02",
+  "CONTENT_REVISION": "2026-10-04-v4",
+  "CONTENT_UPDATED_AT": "2026-10-04",
+  "FOCUSED_CONTENT_COMPATIBILITY": {
+    "2026-10-04-v3": [
+      "therapist-self-awareness",
+      "empathic-understanding",
+      "empathic-affirmation-validation",
+      "exploratory-questions",
+      "providing-treatment-rationale",
+      "empathic-explorations",
+      "empathic-evocations",
+      "empathic-conjectures",
+      "staying-in-contact-intense-affect",
+      "self-disclosure",
+      "marker-recognition-chairwork",
+      "alliance-repair"
+    ]
+  },
+  "EXERCISE_CATALOG": [
+    {
+      "id": "mastery-sara-evenings",
+      "type": "mastery",
+      "caseId": "case-sara",
+      "difficulty": "easy",
+      "revision": "2026-10-04-v4",
+      "supportedLevels": [
+        "easy"
+      ],
+      "title": {
+        "en": "Sara · Finding room for the evening",
+        "no": "Sara · Mer rom i kvelden"
+      },
+      "orientation": {
+        "en": "Twelve linked practice moments. Use the prompted skill, then give feedback and retry. The next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øvingsøyeblikk. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_sara_evenings_01",
+        "mastery_sara_evenings_02",
+        "mastery_sara_evenings_03",
+        "mastery_sara_evenings_04",
+        "mastery_sara_evenings_05",
+        "mastery_sara_evenings_06",
+        "mastery_sara_evenings_07",
+        "mastery_sara_evenings_08",
+        "mastery_sara_evenings_09",
+        "mastery_sara_evenings_10",
+        "mastery_sara_evenings_11",
+        "mastery_sara_evenings_12"
+      ]
+    },
+    {
+      "id": "mastery-arne-ordinary-days-easy",
+      "type": "mastery",
+      "caseId": "case-arne",
+      "difficulty": "easy",
+      "supportedLevels": [
+        "easy"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Leo · Living the ordinary days",
+        "no": "Leo · Å leve de vanlige dagene"
+      },
+      "orientation": {
+        "en": "Twelve linked moments about daily life after Eva’s death. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øyeblikk om hverdagen etter at Eva døde. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_arne_easy_01",
+        "mastery_arne_easy_02",
+        "mastery_arne_easy_03",
+        "mastery_arne_easy_04",
+        "mastery_arne_easy_05",
+        "mastery_arne_easy_06",
+        "mastery_arne_easy_07",
+        "mastery_arne_easy_08",
+        "mastery_arne_easy_09",
+        "mastery_arne_easy_10",
+        "mastery_arne_easy_11",
+        "mastery_arne_easy_12"
+      ]
+    },
+    {
+      "id": "mastery-arne-ordinary-days-moderate",
+      "type": "mastery",
+      "caseId": "case-arne",
+      "difficulty": "moderate",
+      "supportedLevels": [
+        "moderate"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Leo · Living the ordinary days",
+        "no": "Leo · Å leve de vanlige dagene"
+      },
+      "orientation": {
+        "en": "Twelve linked moments about daily life after Eva’s death. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øyeblikk om hverdagen etter at Eva døde. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_arne_moderate_01",
+        "mastery_arne_moderate_02",
+        "mastery_arne_moderate_03",
+        "mastery_arne_moderate_04",
+        "mastery_arne_moderate_05",
+        "mastery_arne_moderate_06",
+        "mastery_arne_moderate_07",
+        "mastery_arne_moderate_08",
+        "mastery_arne_moderate_09",
+        "mastery_arne_moderate_10",
+        "mastery_arne_moderate_11",
+        "mastery_arne_moderate_12"
+      ]
+    },
+    {
+      "id": "mastery-arne-ordinary-days-hard",
+      "type": "mastery",
+      "caseId": "case-arne",
+      "difficulty": "hard",
+      "supportedLevels": [
+        "hard"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Leo · Living the ordinary days",
+        "no": "Leo · Å leve de vanlige dagene"
+      },
+      "orientation": {
+        "en": "Twelve linked moments about daily life after Eva’s death. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øyeblikk om hverdagen etter at Eva døde. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_arne_hard_01",
+        "mastery_arne_hard_02",
+        "mastery_arne_hard_03",
+        "mastery_arne_hard_04",
+        "mastery_arne_hard_05",
+        "mastery_arne_hard_06",
+        "mastery_arne_hard_07",
+        "mastery_arne_hard_08",
+        "mastery_arne_hard_09",
+        "mastery_arne_hard_10",
+        "mastery_arne_hard_11",
+        "mastery_arne_hard_12"
+      ]
+    },
+    {
+      "id": "mastery-mia-help-and-choice-easy",
+      "type": "mastery",
+      "caseId": "case-mia",
+      "difficulty": "easy",
+      "supportedLevels": [
+        "easy"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Mia · Help without taking over",
+        "no": "Mia · Hjelp uten å ta over"
+      },
+      "orientation": {
+        "en": "Twelve linked moments about help, choice and being heard. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øyeblikk om hjelp, valg og å bli hørt. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_mia_easy_01",
+        "mastery_mia_easy_02",
+        "mastery_mia_easy_03",
+        "mastery_mia_easy_04",
+        "mastery_mia_easy_05",
+        "mastery_mia_easy_06",
+        "mastery_mia_easy_07",
+        "mastery_mia_easy_08",
+        "mastery_mia_easy_09",
+        "mastery_mia_easy_10",
+        "mastery_mia_easy_11",
+        "mastery_mia_easy_12"
+      ]
+    },
+    {
+      "id": "mastery-mia-help-and-choice-moderate",
+      "type": "mastery",
+      "caseId": "case-mia",
+      "difficulty": "moderate",
+      "supportedLevels": [
+        "moderate"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Mia · Help without taking over",
+        "no": "Mia · Hjelp uten å ta over"
+      },
+      "orientation": {
+        "en": "Twelve linked moments about help, choice and being heard. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øyeblikk om hjelp, valg og å bli hørt. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_mia_moderate_01",
+        "mastery_mia_moderate_02",
+        "mastery_mia_moderate_03",
+        "mastery_mia_moderate_04",
+        "mastery_mia_moderate_05",
+        "mastery_mia_moderate_06",
+        "mastery_mia_moderate_07",
+        "mastery_mia_moderate_08",
+        "mastery_mia_moderate_09",
+        "mastery_mia_moderate_10",
+        "mastery_mia_moderate_11",
+        "mastery_mia_moderate_12"
+      ]
+    },
+    {
+      "id": "mastery-mia-help-and-choice-hard",
+      "type": "mastery",
+      "caseId": "case-mia",
+      "difficulty": "hard",
+      "supportedLevels": [
+        "hard"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Mia · Help without taking over",
+        "no": "Mia · Hjelp uten å ta over"
+      },
+      "orientation": {
+        "en": "Twelve linked moments about help, choice and being heard. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øyeblikk om hjelp, valg og å bli hørt. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_mia_hard_01",
+        "mastery_mia_hard_02",
+        "mastery_mia_hard_03",
+        "mastery_mia_hard_04",
+        "mastery_mia_hard_05",
+        "mastery_mia_hard_06",
+        "mastery_mia_hard_07",
+        "mastery_mia_hard_08",
+        "mastery_mia_hard_09",
+        "mastery_mia_hard_10",
+        "mastery_mia_hard_11",
+        "mastery_mia_hard_12"
+      ]
+    },
+    {
+      "id": "mastery-nora-work-and-belonging-easy",
+      "type": "mastery",
+      "caseId": "case-nora",
+      "difficulty": "easy",
+      "supportedLevels": [
+        "easy"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Nora · Work and belonging",
+        "no": "Nora · Arbeid og tilhørighet"
+      },
+      "orientation": {
+        "en": "Twelve linked moments about exclusion, valued work and having a voice. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øyeblikk om utestenging, viktig arbeid og en egen stemme. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_nora_easy_01",
+        "mastery_nora_easy_02",
+        "mastery_nora_easy_03",
+        "mastery_nora_easy_04",
+        "mastery_nora_easy_05",
+        "mastery_nora_easy_06",
+        "mastery_nora_easy_07",
+        "mastery_nora_easy_08",
+        "mastery_nora_easy_09",
+        "mastery_nora_easy_10",
+        "mastery_nora_easy_11",
+        "mastery_nora_easy_12"
+      ]
+    },
+    {
+      "id": "mastery-nora-work-and-belonging-moderate",
+      "type": "mastery",
+      "caseId": "case-nora",
+      "difficulty": "moderate",
+      "supportedLevels": [
+        "moderate"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Nora · Work and belonging",
+        "no": "Nora · Arbeid og tilhørighet"
+      },
+      "orientation": {
+        "en": "Twelve linked moments about exclusion, valued work and having a voice. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øyeblikk om utestenging, viktig arbeid og en egen stemme. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_nora_moderate_01",
+        "mastery_nora_moderate_02",
+        "mastery_nora_moderate_03",
+        "mastery_nora_moderate_04",
+        "mastery_nora_moderate_05",
+        "mastery_nora_moderate_06",
+        "mastery_nora_moderate_07",
+        "mastery_nora_moderate_08",
+        "mastery_nora_moderate_09",
+        "mastery_nora_moderate_10",
+        "mastery_nora_moderate_11",
+        "mastery_nora_moderate_12"
+      ]
+    },
+    {
+      "id": "mastery-nora-work-and-belonging-hard",
+      "type": "mastery",
+      "caseId": "case-nora",
+      "difficulty": "hard",
+      "supportedLevels": [
+        "hard"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Nora · Work and belonging",
+        "no": "Nora · Arbeid og tilhørighet"
+      },
+      "orientation": {
+        "en": "Twelve linked moments about exclusion, valued work and having a voice. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+        "no": "Tolv sammenhengende øyeblikk om utestenging, viktig arbeid og en egen stemme. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_nora_hard_01",
+        "mastery_nora_hard_02",
+        "mastery_nora_hard_03",
+        "mastery_nora_hard_04",
+        "mastery_nora_hard_05",
+        "mastery_nora_hard_06",
+        "mastery_nora_hard_07",
+        "mastery_nora_hard_08",
+        "mastery_nora_hard_09",
+        "mastery_nora_hard_10",
+        "mastery_nora_hard_11",
+        "mastery_nora_hard_12"
+      ]
+    },
+    {
+      "id": "mastery-michael-before-the-outburst",
+      "type": "mastery",
+      "caseId": "case-michael",
+      "difficulty": "easy",
+      "supportedLevels": [
+        "easy"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Michael · Before the outburst",
+        "no": "Michael · Før utbruddet"
+      },
+      "orientation": {
+        "en": "Linked moments about correction, shame and taking responsibility without condemning yourself. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+        "no": "Sammenhengende øyeblikk om å bli rettet, skam og å ta ansvar uten å fordømme seg selv. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_michael_01",
+        "mastery_michael_02",
+        "mastery_michael_03",
+        "mastery_michael_04",
+        "mastery_michael_05",
+        "mastery_michael_06",
+        "mastery_michael_07",
+        "mastery_michael_08",
+        "mastery_michael_09",
+        "mastery_michael_10",
+        "mastery_michael_11",
+        "mastery_michael_12"
+      ]
+    },
+    {
+      "id": "mastery-jason-room-for-a-sentence",
+      "type": "mastery",
+      "caseId": "case-jason",
+      "difficulty": "easy",
+      "supportedLevels": [
+        "easy"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Jason · Room for a sentence",
+        "no": "Jason · Rom for en setning"
+      },
+      "orientation": {
+        "en": "Small moments about speaking, being seen and wanting company. Pauses and corrections can be useful responses. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+        "no": "Små øyeblikk om å snakke, bli sett og ønske selskap. Pauser og korrigeringer kan være nyttige svar. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_jason_01",
+        "mastery_jason_02",
+        "mastery_jason_03",
+        "mastery_jason_04",
+        "mastery_jason_05",
+        "mastery_jason_06",
+        "mastery_jason_07",
+        "mastery_jason_08",
+        "mastery_jason_09",
+        "mastery_jason_10",
+        "mastery_jason_11",
+        "mastery_jason_12"
+      ]
+    },
+    {
+      "id": "mastery-laura-company-at-her-pace",
+      "type": "mastery",
+      "caseId": "case-laura",
+      "difficulty": "moderate",
+      "supportedLevels": [
+        "moderate"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Laura · Company at her pace",
+        "no": "Laura · Selskap i hennes tempo"
+      },
+      "orientation": {
+        "en": "Linked moments about exhaustion, guarded contact and receiving a little care. No memory detail or greater emotional intensity is required. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+        "no": "Sammenhengende øyeblikk om utmattelse, varsom kontakt og å ta imot litt omsorg. Ingen detaljer fra minner eller sterkere følelser kreves. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_laura_01",
+        "mastery_laura_02",
+        "mastery_laura_03",
+        "mastery_laura_04",
+        "mastery_laura_05",
+        "mastery_laura_06",
+        "mastery_laura_07",
+        "mastery_laura_08",
+        "mastery_laura_09",
+        "mastery_laura_10",
+        "mastery_laura_11",
+        "mastery_laura_12"
+      ]
+    },
+    {
+      "id": "mastery-carlos-respect-without-threat",
+      "type": "mastery",
+      "caseId": "case-carlos",
+      "difficulty": "moderate",
+      "supportedLevels": [
+        "moderate"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Carlos · Respect without threat",
+        "no": "Carlos · Respekt uten trusler"
+      },
+      "orientation": {
+        "en": "Moments about humiliation, fear and the wish for closeness. Understanding the hurt never excuses intimidation. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+        "no": "Øyeblikk om ydmykelse, frykt og ønsket om nærhet. Å forstå det såre unnskylder aldri skremmende oppførsel. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_carlos_01",
+        "mastery_carlos_02",
+        "mastery_carlos_03",
+        "mastery_carlos_04",
+        "mastery_carlos_05",
+        "mastery_carlos_06",
+        "mastery_carlos_07",
+        "mastery_carlos_08",
+        "mastery_carlos_09",
+        "mastery_carlos_10",
+        "mastery_carlos_11",
+        "mastery_carlos_12"
+      ]
+    },
+    {
+      "id": "mastery-nina-a-need-of-her-own",
+      "type": "mastery",
+      "caseId": "case-nina",
+      "difficulty": "moderate",
+      "supportedLevels": [
+        "moderate"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Nina · A need of her own",
+        "no": "Nina · Et eget behov"
+      },
+      "orientation": {
+        "en": "Moments about exhaustion, resentment and asking for care while guilt remains. A clearer wish need not become an immediate life change. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+        "no": "Øyeblikk om utmattelse, bitterhet og å be om omsorg mens dårlig samvittighet er der. Et tydeligere ønske trenger ikke bli en umiddelbar livsendring. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_nina_01",
+        "mastery_nina_02",
+        "mastery_nina_03",
+        "mastery_nina_04",
+        "mastery_nina_05",
+        "mastery_nina_06",
+        "mastery_nina_07",
+        "mastery_nina_08",
+        "mastery_nina_09",
+        "mastery_nina_10",
+        "mastery_nina_11",
+        "mastery_nina_12"
+      ]
+    },
+    {
+      "id": "mastery-aisha-contact-and-an-ending",
+      "type": "mastery",
+      "caseId": "case-aisha",
+      "difficulty": "hard",
+      "supportedLevels": [
+        "hard"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Aisha · Contact and an ending",
+        "no": "Aisha · Kontakt og en avslutning"
+      },
+      "orientation": {
+        "en": "Non-acute moments about wanting contact and facing a bounded ending. No promise of constant availability or deeper disclosure is required. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+        "no": "Øyeblikk uten akutt fare om å ønske kontakt og møte en avgrenset avslutning. Ingen løfter om konstant tilgjengelighet eller mer deling kreves. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_aisha_01",
+        "mastery_aisha_02",
+        "mastery_aisha_03",
+        "mastery_aisha_04",
+        "mastery_aisha_05",
+        "mastery_aisha_06",
+        "mastery_aisha_07",
+        "mastery_aisha_08",
+        "mastery_aisha_09",
+        "mastery_aisha_10",
+        "mastery_aisha_11",
+        "mastery_aisha_12"
+      ]
+    },
+    {
+      "id": "mastery-david-an-ordinary-evening",
+      "type": "mastery",
+      "caseId": "case-david",
+      "difficulty": "hard",
+      "supportedLevels": [
+        "hard"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "David · An ordinary evening",
+        "no": "David · En vanlig kveld"
+      },
+      "orientation": {
+        "en": "Linked moments about being valued without an exceptional performance. Corrections and a practical direction can be legitimate choices. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+        "no": "Sammenhengende øyeblikk om å bli verdsatt uten en enestående prestasjon. Korrigeringer og en praktisk retning kan være legitime valg. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_david_01",
+        "mastery_david_02",
+        "mastery_david_03",
+        "mastery_david_04",
+        "mastery_david_05",
+        "mastery_david_06",
+        "mastery_david_07",
+        "mastery_david_08",
+        "mastery_david_09",
+        "mastery_david_10",
+        "mastery_david_11",
+        "mastery_david_12"
+      ]
+    },
+    {
+      "id": "mastery-marcus-company-with-room-to-stop",
+      "type": "mastery",
+      "caseId": "case-marcus",
+      "difficulty": "hard",
+      "supportedLevels": [
+        "hard"
+      ],
+      "revision": "2026-10-04-v4",
+      "title": {
+        "en": "Marcus · Company with room to stop",
+        "no": "Marcus · Selskap med rom for å stoppe"
+      },
+      "orientation": {
+        "en": "Small, non-acute moments about distance, loneliness and choosing contact. No trauma detail or increase in feeling is required. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+        "no": "Små øyeblikk uten akutt fare om avstand, ensomhet og å velge kontakt. Ingen detaljer fra traumer eller sterkere følelser kreves. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord."
+      },
+      "sceneIds": [
+        "mastery_marcus_01",
+        "mastery_marcus_02",
+        "mastery_marcus_03",
+        "mastery_marcus_04",
+        "mastery_marcus_05",
+        "mastery_marcus_06",
+        "mastery_marcus_07",
+        "mastery_marcus_08",
+        "mastery_marcus_09",
+        "mastery_marcus_10",
+        "mastery_marcus_11",
+        "mastery_marcus_12"
+      ]
+    }
+  ],
   "LANGUAGE_ORDER": [
     "en",
     "no"
@@ -272,8 +940,8 @@
         "Notice again"
       ],
       "selfAwarenessFirstTitle": "Therapist — notice your reaction",
-      "selfAwarenessFirstInstruction": "Listen to the client statement. Notice your body, feelings, thoughts, and impulses. Share only a comfortable part of your reaction with the group; you do not need to respond to the client.",
-      "selfAwarenessFirstContinue": "Reflection shared",
+      "selfAwarenessFirstInstruction": "Listen and notice your body, feelings, thoughts, and impulses. Keep the reflection private, or share only what you choose with the practice group.",
+      "selfAwarenessFirstContinue": "Ready for feedback",
       "selfAwarenessReaderRole": "Reader",
       "selfAwarenessClientTitle": "Reader — reflect on the process",
       "selfAwarenessClientInstruction": "Step out of the client role. Name what you noticed about the therapist pausing and attending to their experience. Respect what they chose to keep private.",
@@ -369,7 +1037,7 @@
       "triadPhaseRetryInstruction": "Say which one change you will test. You may accept, adapt, or decline the feedback. Then respond to the same client statement again.",
       "triadPhaseRetryFinish": "Finish item",
       "triadPassItem": "Pass this item",
-      "triadPassConfirm": "Pass this item? It will not count as completed or be included in a saved rating.",
+      "triadPassConfirm": "Pass this item? It will not count as completed or be included in the set’s feedback.",
       "triadPassConfirmButton": "Confirm pass",
       "triadPassCancel": "Cancel",
       "triadShowSuggestion": "Compare one possible response",
@@ -496,7 +1164,7 @@
       "ratingScoreLabel": "Round score",
       "triadRatingTitle": "How well did the therapist use the selected skill in these items?",
       "triadRatingDescription": "Rate the observable practice, not the person's overall competence.",
-      "sharedDeviceRatingDescription": "Discuss these three items, then save a self-assessment to your progress. Use a group room on separate devices to rate another therapist.",
+      "sharedDeviceRatingDescription": "Discuss how the therapist used the skill. Ratings on a shared device are not saved to accounts.",
       "ratingTargetSignedOut": "Sign in to save",
       "ratingSubmit": "Save",
       "ratingSavedButton": "Saved",
@@ -690,8 +1358,8 @@
         "Lytt på nytt"
       ],
       "selfAwarenessFirstTitle": "Terapeut — legg merke til din reaksjon",
-      "selfAwarenessFirstInstruction": "Lytt til klientutsagnet. Legg merke til kropp, følelser, tanker og impulser. Del bare en del av reaksjonen som kjennes grei å dele med gruppen; du trenger ikke svare klienten.",
-      "selfAwarenessFirstContinue": "Refleksjon delt",
+      "selfAwarenessFirstInstruction": "Lytt og legg merke til kropp, følelser, tanker og impulser. Behold refleksjonen for deg selv, eller del bare det du selv velger med øvingsgruppen.",
+      "selfAwarenessFirstContinue": "Klar for respons",
       "selfAwarenessReaderRole": "Oppleser",
       "selfAwarenessClientTitle": "Oppleser — gi respons på prosessen",
       "selfAwarenessClientInstruction": "Gå ut av klientrollen. Si hva du la merke til da terapeuten tok en pause og vendte oppmerksomheten mot egen opplevelse. Respekter det hen valgte å holde privat.",
@@ -787,7 +1455,7 @@
       "triadPhaseRetryInstruction": "Si hvilken endring du vil prøve. Du kan bruke, tilpasse eller la tilbakemeldingen ligge. Svar deretter på det samme klientutsagnet på nytt.",
       "triadPhaseRetryFinish": "Fullfør utsagnet",
       "triadPassItem": "Stå over dette utsagnet",
-      "triadPassConfirm": "Vil dere stå over dette utsagnet? Det teller ikke som fullført eller tas med i en lagret vurdering.",
+      "triadPassConfirm": "Vil dere stå over dette utsagnet? Det teller ikke som fullført eller tas med i tilbakemeldingen på settet.",
       "triadPassConfirmButton": "Bekreft at dere står over",
       "triadPassCancel": "Avbryt",
       "triadShowSuggestion": "Sammenlign med én mulig respons",
@@ -914,7 +1582,7 @@
       "ratingScoreLabel": "Rundeskår",
       "triadRatingTitle": "Hvor godt brukte terapeuten den valgte ferdigheten i disse utsagnene?",
       "triadRatingDescription": "Vurder den observerbare øvingen, ikke personens samlede kompetanse.",
-      "sharedDeviceRatingDescription": "Diskuter disse tre utsagnene, og lagre en egenvurdering i din fremgang. Bruk et grupperom på hver deres enhet for å vurdere en annen terapeut.",
+      "sharedDeviceRatingDescription": "Diskuter hvordan terapeuten brukte ferdigheten. Vurderinger på en felles enhet lagres ikke i kontoer.",
       "ratingTargetSignedOut": "Logg inn for å lagre",
       "ratingSubmit": "Lagre",
       "ratingSavedButton": "Lagret",
@@ -1377,6 +2045,42 @@
         "practiceEdge": "Jobb ved kanten av nummenhet, hyperårvåkenhet og ensom sorg uten å presse fram detaljer.",
         "style": "Lavt volum; få ord; lange pauser; flat tone; blikket ned eller rastløs skanning; stram kjeve; spente skuldre; minimale gester; lett skjelv når temaet er vanskelig.",
         "voice": "Marcus. Jeg har ikke så mye å si. Søvnen er dårlig. Jeg holder meg for meg selv. Jobben går greit fordi det er stille og jeg vet hva jeg skal gjøre. Nettene er verre. Det dukker opp minner, både fra utenlands og andre steder. Jeg vil ikke gå inn i detaljer. Folk stiller spørsmål, og så ser de annerledes på deg. Jeg er her fordi veterantjenesten maser, og fordi det å sitte alene hele natten ikke funker lenger."
+      },
+      "case-arne": {
+        "label": "Leo",
+        "difficultyLabel": "Lett",
+        "schemaLabel": "Betydning å undersøke",
+        "teaser": "Pensjonert elektriker som finner vei gjennom hverdagen etter at kona døde.",
+        "history": "Leo er 68 år og pensjonert elektriker. Kona Eva døde for ti måneder siden, etter halvannet års sykdom. De var sammen i førtien år. Han bor i hjemmet deres, treffer den voksne datteren Emma og går av og til tur med vennen Tom. Han liker å reparere ting og har begynt å komme tilbake til et lite lokalt verksted. Forholdet rommet kjærlighet og vanlige uenigheter. Omsorgen for Eva var både meningsfull og utmattende. Han søker hjelp med ensomme rutiner, blandede følelser om tiden som omsorgsperson og skyld når han har det hyggelig. Dette er ingen diagnose eller tidsplan for sorgen.",
+        "schema": "En tilbakevendende bekymring: Hvis jeg har det hyggelig eller innrømmer at omsorgen var utmattende, betyr det at jeg ikke elsket Eva nok. Undersøk om denne betydningen passer; ikke anta en bakgrunn med forlatthet.",
+        "corePain": "Savn etter Eva i en endret hverdag, sammen med skyld når kjærlighet, slitenhet og glede finnes samtidig.",
+        "practiceEdge": "Skill mellom savnet etter Eva, skyld over å glede seg og praktiske behov som fortjener egen oppmerksomhet.",
+        "style": "Vanlige, konkrete ord; rolig tempo; lun humor. Pauser ved såre detaljer. En liten latter kan uttrykke varme eller ubehag: undersøk fremfor å anta. Han kan korrigere deg, avslå et spørsmål eller be om selskap uten flere ord.",
+        "voice": "Jeg heter Leo. Eva døde for ti måneder siden. Vi hadde førtien år sammen. Jeg holder huset i orden, og Emma kommer innom. Tom får meg med på tur iblant. Det er de små tingene—å lage kaffe til én, ingen å fortelle det til når jeg har reparert noe. Jeg elsket Eva, og jeg var utslitt mot slutten av sykdommen hennes. Begge deler er sant, men det kjennes illojalt å si det. Jeg hadde en god ettermiddag på verkstedet sist uke, og så fikk jeg dårlig samvittighet for å ha hatt det hyggelig. Jeg vil finne en måte å leve dagene mine på uten å føle at jeg lar henne bli igjen."
+      },
+      "case-mia": {
+        "label": "Mia",
+        "difficultyLabel": "Lett",
+        "schemaLabel": "Betydning å undersøke",
+        "teaser": "Museumspedagog med revmatoid artritt, som ønsker hjelp uten å miste retten til å bestemme.",
+        "history": "Mia er 42 år og museumspedagog. Hun fikk diagnosen revmatoid artritt for fire år siden og følges fortsatt opp av revmatolog. Smerter, stivhet og utmattelse varierer; hun jobber tre dager i uken med noen tilpasninger. Hun bor med partneren Alex, treffer søsteren Ella og har en støttende kollega, Sam. Hun liker å tegne, stelle planter og snakke om kunst. Hun verdsetter å bestemme selv og bidra, og synes det er vanskelig når hjelp blir til at andre tar over. Noen undervurderer begrensningene hennes fordi hun ser frisk ut. Hun søker støtte med usikkerhet, sinne over å bli avfeid, sorg over tapte aktiviteter og hva det betyr å trenge hjelp. Emosjonelt arbeid foregår ved siden av medisinsk behandling og praktisk støtte; det fastslår ikke årsaken til sykdommen eller lover mindre symptomer.",
+        "schema": "En bekymring å undersøke: Hvis jeg trenger hjelp, vil folk slutte å se meg som en som kan bestemme og bidra. Ikke anta at alle grenser eller avslag kommer fra denne bekymringen.",
+        "corePain": "Sorg over begrensninger og usikkerhet, sammen med smerten ved å bli oversett eller miste innflytelse når hun trenger hjelp.",
+        "practiceEdge": "Hør de reelle fysiske og praktiske begrensningene mens dere undersøker hva det betyr å trenge hjelp, bli avfeid eller miste en aktivitet.",
+        "style": "Presise, vanlige ord; rask til å nyansere eller korrigere overdrivelser. Varm humor når hun er trygg. En pause kan skyldes utmattelse eller smerte, ikke tilbaketrekning. Hun kan be om å sitte annerledes, avslå oppmerksomhet mot kroppen eller velge praktisk arbeid.",
+        "voice": "Jeg heter Mia. Jeg har revmatoid artritt. Noen morgener kan jeg kle på meg og komme i gang; andre morgener er en knapp en hel jobb. Jeg jobber fortsatt på museet, mindre enn før. Alex hjelper, og jeg er takknemlig, men noen ganger kommer hjelpen før jeg har bestemt hva jeg vil. Da glefser jeg og får dårlig samvittighet. Jeg savner å tegne så lenge som jeg pleide. Folk ser meg på en god dag og tror det er hele historien. Jeg vil ikke at terapien skal overtale meg til å late som dette er greit. Jeg vil ha plass til hvor vanskelig det er, og finne en måte å be om hjelp på der jeg fortsatt er meg."
+      },
+      "case-nora": {
+        "label": "Nora",
+        "difficultyLabel": "Lett",
+        "schemaLabel": "Betydning å undersøke",
+        "teaser": "Arkitekt som møter utenforskap på jobb, og vil ha plass til arbeidet og sin egen stemme.",
+        "history": "Nora er 35 år og født og oppvokst i Norge; foreldrene flyttet fra Marokko før hun ble født. Hun er arkitekt i Oslo og har jobbet i samme arkitektfirma i seks år. Lederen Ben foreslo at en kollega skulle presentere tegningene hennes fordi kunden ønsket «et mer norsk ansikt». Kollegene spør også gjentatte ganger hvor hun egentlig kommer fra etter at hun har svart Norge. Noen andre øyeblikk på jobb er mindre tydelige; ikke tilskriv hver avbrytelse eller uenighet et motiv. Max er en støttende kollega som noen ganger snakker for henne før han spør hva hun ønsker. Hun bor med partneren Adam og treffer vennen Lina. Hun liker fotografering, turer ved vannet og middager med venner. Hun verdsetter faget, humoren og relasjonene sine, og søker hjelp med sinne, det såre, selvtvil og hva det koster å velge når hun skal si fra. Praktisk støtte og valg på arbeidsplassen har en legitim plass sammen med emosjonelt arbeid. Ingen religion, klespraksis, egen migrasjonserfaring eller barndomstraume er angitt.",
+        "schema": "En betydning å undersøke: Hvis jeg sier fra om utenforskap, vil folk se en klage i stedet for å høre arbeidet eller min egen stemme. Ikke behandle diskriminerende behandling som en feilaktig forestilling, eller anta at denne betydningen forklarer alle vansker.",
+        "corePain": "Å få tilhørigheten bestridt og arbeidet oversett, med sinne, sårhet og selvtvil som kan følge.",
+        "practiceEdge": "Anerkjenn konkret utestenging, undersøk den personlige virkningen og la Nora velge om, når og hvordan hun vil svare.",
+        "style": "Presist hverdagsspråk med tørr humor. Kan skille det hun vet fra det hun mistenker. En rolig stemme betyr ikke at hendelsen var harmløs. Hun kan ønske vanlig anerkjennelse, en praktisk samtale eller en pause fremfor mer utforskning.",
+        "voice": "Jeg heter Nora. Jeg er arkitekt. Jeg er født her, men «Norge» blir visst ikke alltid godtatt som svar på hvor jeg kommer fra. På jobb foreslo Ben at en annen skulle presentere tegningene mine fordi kunden ønsket et mer norsk ansikt. Jeg fikk møtet videre. Etterpå satt jeg ved pulten og orket ikke se på tegningene. Jeg liker jobben, og vil ikke at alle samtaler om meg skal bli denne samtalen. Max vil hjelpe, men noen ganger begynner han å snakke før jeg har funnet ut hva jeg vil si. Adam og Lina lytter. Jeg vil kunne være sint uten å bruke hele kvelden på å forklare hvorfor, og ta valg uten å føle at jeg må fortjene plassen min på nytt."
       }
     }
   },
@@ -1393,16 +2097,20 @@
       "staying-in-contact-intense-affect": {},
       "self-disclosure": {},
       "marker-recognition-chairwork": {},
-      "alliance-repair": {}
+      "alliance-repair": {},
+      "empathic-refocusing": {},
+      "consolidating-emotional-change": {},
+      "closing-after-emotional-work": {},
+      "experiential-focusing": {}
     },
     "no": {
       "therapist-self-awareness": {
         "name": "Terapeutens selvbevissthet",
         "description": "Legg merke til og sett ord på dine egne indre reaksjoner mens du lytter, med respekt for privatliv, grenser og tilstedeværelse.",
-        "summary": "Terapeutens selvbevissthet er en intrapersonlig EFT-ferdighet: å følge med på egen kropp, følelser, tanker, bilder og handlingsimpulser mens klienten snakker. I denne øvelsen er oppgaven ikke å finne den beste terapeutiske intervensjonen. Terapeuten lytter, legger merke til hva som skjer inni seg, og setter deretter ord på bare den delen av reaksjonen som kjennes riktig å dele i en treningssituasjon.\n\nDette bygger kapasitet til å være til stede når klienten vekker varme, redningstrang, uro, irritasjon, tiltrekning, avsky, nummenhet, defensivitet eller press om å prestere. Du øver på å skille nyttig resonans fra terapeut-sentrert materiale som bør holdes privat eller tas med til veiledning. Ferdigheten handler også om å ivareta egne grenser: selvbevissthet betyr ikke at alt du merker, skal deles.\n\nAppen beholder et forslagstekstfelt for øvingens skyld, men teksten er et eksempel på selvbevissthetsdeling, ikke en modell for hva terapeuten skal si til klienten. Et godt svar begynner ofte med «Jeg legger merke til...» eller «Jeg kjenner et drag mot...», og viser at terapeuten kan registrere aktivering uten å handle den ut eller flytte fokus bort fra klienten.",
+        "summary": "Terapeutens selvbevissthet er en intrapersonlig EFT-ferdighet: å følge med på egen kropp, følelser, tanker, bilder og handlingsimpulser mens klienten snakker. I denne øvelsen er oppgaven ikke å finne den beste terapeutiske intervensjonen. Terapeuten lytter og legger merke til hva som skjer inni seg. Refleksjonen kan beholdes privat. Det er valgfritt å dele med øvingsgruppen.\n\nDette bygger kapasitet til å være til stede når klienten vekker varme, redningstrang, uro, irritasjon, tiltrekning, avsky, nummenhet, defensivitet eller press om å prestere. Du øver på å skille nyttig resonans fra terapeut-sentrert materiale som bør holdes privat eller tas med til veiledning. Ferdigheten handler også om å ivareta egne grenser: selvbevissthet betyr ikke at alt du merker, skal deles.\n\nAppen beholder et forslagstekstfelt for øvingens skyld, men teksten er et eksempel på refleksjon, ikke på hva terapeuten skal si til klienten. Din egen reaksjon kan være annerledes, også at du kjenner lite eller ingenting. Målet er ikke å kjenne det samme som i eksempelet. Et godt svar begynner ofte med «Jeg legger merke til...» eller «Jeg kjenner et drag mot...», og viser at terapeuten kan registrere aktivering uten å handle den ut eller flytte fokus bort fra klienten.",
         "marker": "Klientmaterialet er sannsynlig å aktivere terapeuten: varme, redningstrang, uro, irritasjon, tiltrekning, avsky, frykt, defensivitet, prestasjonspress eller en trang til å gå for raskt frem. Klienten ber ikke om selvbevissthet; markøren er terapeutens egen indre reaksjon mens hen lytter.",
         "aim": "Øke kapasiteten til å legge merke til, symbolisere og eie egne indre reaksjoner mens du fortsatt lytter til klienten. Bruk bevisstheten til å være til stede og ivareta grenser, ikke til å framføre en polert intervensjon.",
-        "practiceFocus": "Lytt, følg med på kropp, følelser, tanker, bilder og impulser, og del deretter bare en komfortabel del av din indre reaksjon.",
+        "practiceFocus": "Lytt og legg merke til kropp, følelser, tanker og impulser. Behold refleksjonen for deg selv, eller del bare det du selv velger med øvingsgruppen.",
         "commonMiss": "Å gjøre forslagsteksten til en polert klientintervensjon, eller å dele for mye i stedet for å ivareta privatliv og grenser."
       },
       "empathic-understanding": {
@@ -1434,17 +2142,17 @@
       },
       "providing-treatment-rationale": {
         "name": "Behandlingsrasjonale for følelsesfokusert terapi",
-        "description": "Gi en kort, empatisk forklaring på hvorfor følelsesfokusert terapi arbeider med følelser, og hvordan du leder det trygt.",
-        "summary": "Et behandlingsrasjonale hjelper klienten å forstå logikken og tryggheten i å arbeide med følelser, særlig når de er skeptiske, redde eller usikre på denne måten å jobbe på. Etter å ha møtt bekymringene deres med empati, forklarer du med hverdagslig språk hvordan følelser organiserer opplevelser, varsler behov og kan endre seg når de får bearbeides fullt ut. Du beskriver også hvordan sekundære reaksjoner og unngåelse ofte holder folk fast, mens tilgang til primære følelser og kjernesmerte åpner for varig endring.\n\nDu er tydelig på din rolle i å regulere tempo og intensitet, slik at klienten ikke blir overlatt til overveldende affekt. Rasjonalet adresserer vanlige bekymringer som «hvis jeg begynner å føle, mister jeg kontrollen» eller «å snakke om følelser hjelper ikke», og bygger samarbeid ved å ramme inn følelsesarbeid som en felles reise med et enkelt kart – fra symptomer og kaos, via kjernesmerte og udekkede behov, til nye emosjonelle responser.\n\nEt godt rasjonale øker villigheten til å delta i opplevelsesorienterte oppgaver som stolarbeid, fokuseringsøvelser eller imaginering når markører dukker opp. Når du vender kort tilbake til denne forklaringen på viktige tidspunkt, minner du klienten om hvorfor det er meningsfullt å vende tilbake til følelsene selv når det kjennes uvant eller skremmende. Over tid støtter den delte forståelsen en sterkere allianse og dypere emosjonell engasjement i arbeidet.",
+        "description": "Forklar hensikten med følelsesarbeid med enkelt språk, knyttet til klientens bekymringer, mål og valgmuligheter.",
+        "summary": "En begrunnelse for behandlingen hjelper klienten å forstå hvorfor du inviterer til å rette oppmerksomheten mot følelser, og hvordan det henger sammen med det de ønsker fra terapien. Begynn med den konkrete bekymringen: Kanskje praten virker meningsløs, følelser kjennes farlige, eller klienten ønsker en praktisk endring. Svar kort på den bekymringen, fremfor å gi en generell innføring i EFT.\n\nFølelser kan hjelpe oss å legge merke til det som gjør vondt, det som betyr noe, og det vi trenger. Å utforske en reaksjon kan også gjøre det lettere å kjenne igjen det som skjer før vi trekker oss unna, angriper oss selv eller får et utbrudd. Beskriv dette som noe dere kan jobbe mot, ikke som et løfte om at én følelse vil gi et bestemt resultat.\n\nGjør arbeidet til et samarbeid. Forklar hvordan dere kan senke tempoet, ta en pause eller begynne med ett lite øyeblikk, og undersøk om begrunnelsen passer for klienten. Akutte behov for sikkerhet kommer først. En god begrunnelse gir oversikt og valgfrihet. Den overtaler ikke klienten til en oppgave og lover ikke hvor lang tid endring vil ta.",
         "marker": "Klienten spør hvordan terapien virker, uttrykker skepsis eller frykt, eller nøler før en oppgave.",
-        "aim": "Gi en kort, erfaringsnær forklaring som roer uro og motstand, skaper felles retning for arbeidet og gjør det tryggere å utforske grunnleggende følelser, kjernesmerte og udekkede behov.",
+        "aim": "Hjelpe klienten å forstå hensikten med emosjonsarbeidet ut fra sin egen bekymring eller sitt eget mål. Gi en kort, ærlig forklaring med rom for å velge, stille spørsmål eller si nei.",
         "practiceFocus": "Forklar følelsesarbeid med enkelt språk som er direkte knyttet til akkurat denne klientens frykt, mål og behov for trygghet.",
         "commonMiss": "Å bli abstrakt, belærende eller for teoritung i stedet for samarbeidende og personlig relevant."
       },
       "empathic-explorations": {
         "name": "Empatiske utforskninger",
         "description": "Følg og utvid forsiktig det som allerede er til stede, slik at klienten kan bli i og utdype opplevelsen.",
-        "summary": "Empatisk utforsking betyr å følge den emosjonelle kanten som er i ferd med å dukke opp hos klienten, og svare med fint avstemte gjentakelser og invitasjoner til å legge merke til litt mer. I stedet for å hoppe frem til tolkninger, råd eller løsninger, holder du deg ett lite steg bak eller ved siden av klientens egen opplevelse. Du speiler en del av det som er der, og inviterer dem til å dvele, sanse videre og utdype det de føler akkurat nå.\n\nUtforskingen beveger seg langs den stien klienten allerede har lagt ut i ordene sine, og holder seg innenfor det som er eksplisitt uttrykt fremfor å gå under eller forbi det. Det gir skjøre følelsestilstander mulighet til å styrkes og klargjøres uten å bli overveldet eller stengt ned. Dette er spesielt viktig når primære følelser og kjernesmerte begynner å vise seg, men fortsatt kjennes usikre eller blandede.\n\nVed å holde klientens tempo og møte prosessen med ærbødighet, verner du om tryggheten samtidig som kontakten med følelsene fordypes. Empatisk utforsking støtter en bevegelse fra ytre fortellinger og forklaringer til mer levende, kroppslig erfart tristhet, frykt, sinne, skam eller lengsel. Den forebygger også at dere hopper for raskt til reframing, meningstilskrivning eller løsninger, slik at kjernesmerte og udekkede behov får tre tydeligere frem og kan forandres gjennom nye emosjonelle responser.",
+        "summary": "Empatisk utforskning følger en følelse eller betydning som allerede er i ferd med å komme frem. Speil det klienten har vist, og inviter deretter til å legge merke til litt mer. Dere kan stoppe opp ved et ord, en kroppslig fornemmelse eller et øyeblikk i fortellingen og undersøke hva klienten merker nå.\n\nMålet er å la opplevelsen bli tydeligere i klientens tempo. Bli ved den, fremfor å tolke den utenfra eller bestemme hva som må ligge under. En varsom invitasjon gir rom for å fortsette, korrigere deg eller stoppe. Når følelsen er skjør, kan det være mer nyttig å bli ved det lille som allerede er der, enn å be om sterkere følelse.\n\nDette skiller seg fra en empatisk gjetning, som foreslår en mulig følelse eller betydning klienten ikke har satt ord på, og fra en evokasjon, som gjør opplevelsen mer levende gjennom bilder. Utforskning hjelper klienten å oppdage mer av sin egen opplevelse uten at du gir svaret.",
         "marker": "Følelser er tydelig på vei frem, men oppleves som skjøre, tentative eller bare delvis uttrykt, og klienten virker villig, men usikker på om de tør å gå dypere. Det er en «levende kant» der små invitasjoner og gjentakelser bringer frem mer følelse og mening.",
         "aim": "Holde og fordype kontakten med fremvoksende emosjonelt materiale slik at både adaptive og maladaptive primærfølelser kan komme fullt til uttrykk og bearbeides. Støtte en dosert, trygg utdyping av kjernesmerte og tilhørende udekkede behov, og legge grunnlaget for senere transformasjon.",
         "practiceFocus": "Hold deg ett lite skritt bak klientens ledende kant og inviter til litt mer kontakt med det som allerede er der.",
@@ -1453,7 +2161,7 @@
       "empathic-evocations": {
         "name": "Evokativ empati",
         "description": "Tilby levende språk og metaforer for å gjøre opplevelsen tydeligere og øke kontakten med følelsen.",
-        "summary": "Evokativ empati brukes når klienten snakker om noe følelsesmessig ladet på en flat, distansert eller innsnevret måte. Du tilbyr korte, levende bilder eller sanselige beskrivelser som ser ut til å ligne det de kjenner – for eksempel «som en tung stein i brystet» eller «som en storm rett under overflaten». Slike uttrykk snakker til kropp og høyrehjerne og bygger bro mellom tankefortelling og følt erfaring.\n\nNår de er godt avstemt, øker disse bildene aktivering og emosjonell tilstedeværelse forsiktig, uten å presse klienten ut av toleransevinduet. Intellektualiserte fortellinger kan gradvis bli mer kroppslig opplevd, og primære følelser kommer nærmere bevisstheten. Ofte blir noe som har vært implisitt tydeligere – klienten kan si «ja, akkurat sånn kjennes det», eller merke tårer, stramming eller andre kroppssignaler.\n\nEvokasjoner må forbli tentative og samarbeidsorienterte, slik at klienten beholder eierskap til betydningen. Over tid hjelper denne måten å svare på klienten til å utvikle et rikere, mer kroppsforankret språk for sitt indre liv, og styrker både emosjonell innsikt og kapasiteten til å bearbeide følelser.",
+        "summary": "En empatisk evokasjon bruker et kort bilde, en metafor eller et sanselig uttrykk for å gjøre en følelsesladet opplevelse mer merkbar. Det kan være nyttig når klienten beskriver noe vondt på en flat eller distansert måte. Et treffende bilde hjelper klienten å kjenne igjen hvordan opplevelsen kjennes, fremfor bare å forklare den.\n\nTilby ett bilde som ligger nær klientens ord og situasjon. Bildet kan være nytt uten å legge til et nytt faktum: En glassrute kan uttrykke avstand, men en tom side av senga skal ikke tas for gitt hvis klienten ikke har beskrevet den. Bruk varsomme formuleringer når bildet går litt lenger, og ta imot korrigering. Klienten avgjør om det passer.\n\nLevende språk trenger ikke gjøre følelsen sterkere. Unngå dramatiske bilder som gjør opplevelsen mer skremmende eller retter oppmerksomheten mot hvor flink terapeuten er med ord. Hvis innholdet gir grunn til bekymring for sikkerhet, må det tas opp direkte. Et bilde erstatter ikke det arbeidet.",
         "marker": "Klienten forteller om smertefulle eller viktige hendelser på en flat, distansert eller svært kognitiv måte, med lite synlig affekt eller kroppsbevissthet, samtidig som du aner at følelsene ligger nær – for eksempel gjennom små stemmebrudd, pauser eller korte glimt av følelsesuttrykk. De kan si at de «sånn halvveis» kjenner noe, men ikke helt får tak i det.",
         "aim": "Øke den emosjonelle kontakten ved å tilby levende, resonante bilder som gjør implisitte følelser mer tydelige og kroppslig erfarte. Støtte et skifte fra å beskrive på avstand til å være mer direkte i opplevelsen, slik at primære følelser og kjernesmerte kan nås og bearbeides.",
         "practiceFocus": "Tilby levende, sanselig språk som hjelper nær-overflate-følelsen til å komme mer til live i kroppen.",
@@ -1470,20 +2178,20 @@
       },
       "staying-in-contact-intense-affect": {
         "name": "Være i kontakt med intens affekt",
-        "description": "Støtt klienten i å være trygt til stede i sterk følelsesmessig aktivering slik at følelsen kan få rom, gi mening og forandres uten overveldelse.",
-        "summary": "Å være i kontakt med intens affekt handler om å hjelpe klienten å ri ut bølger av sterke følelser uten å stenge ned eller bli oversvømt utover det de tåler. Når store følelser som sorg, raseri, panikk eller skam skyter i været, senker du tempoet, hjelper klienten å jorde seg og tilbyr et stødig, empatisk nærvær. Du kan rette oppmerksomheten mot kropp, pust eller rommet, slik at én fot er i her-og-nå mens den andre er i følelsesopplevelsen.\n\nDu normaliserer intensiteten, bekrefter at følelsene gir mening, og formidler at du tåler og blir værende med dem. Samtidig titrerer du eksponeringen ved å invitere klienten til å beskrive små biter av opplevelsen, eller ta korte pauser og vende tilbake igjen, for å unngå dissosiasjon eller kollaps.\n\nDenne reguleringen gjør at maladaptive primærfølelser og kjernesmerte kan komme fullt frem og uttrykkes uten å retraumatisere. Det gir ofte en kraftig korrigerende emosjonell erfaring: klienten lærer at de kan føle dypt og likevel være trygge og i kontakt med et annet menneske. Når bølgen har roet seg, hjelper du dem å reflektere over hva følelsen sier om behov, grenser eller verdier. Over tid bygger dette kapasitet til å tåle og regulere sterke følelser også utenfor terapien.",
+        "description": "Behold kontakten når følelsene er sterke. Tilpass tempoet, gi valgfrihet og tilby støtte ved behov.",
+        "summary": "Denne ferdigheten handler om å være følelsesmessig til stede når klientens følelser er sterke eller vanskelige å høre. Sorg, sinne, panikk, skam eller sterk lettelse kan få terapeuten til å trekke seg unna, berolige raskt eller ta over. Oppgaven er å formidle at du er til stede, samtidig som du lytter til det klienten faktisk opplever.\n\nSvar på situasjonen fremfor å følge en fast rekkefølge. En klient som kan være til stede med tårene, kan først og fremst trenge selskap og tid. Hvis stemmen blir fjern, rommet kjennes langt unna eller oppmerksomheten mot følelsen blir for mye, kan du tilby en pause eller invitere varsomt til å merke rommet, stemmen din eller støtten fra stolen. Å orientere seg til her og nå er støtte ved behov, ikke en måte å stanse alle sterke følelser på.\n\nIvareta valgfrihet, grenser og sikkerhet. Ikke krev blikkontakt, flere detaljer eller sterkere følelse. Ta risiko opp direkte når den er til stede, samtidig som du beholder varmen i kontakten. Eksemplene øver på et øyeblikk av kontakt. De gir ikke en fullstendig risikovurdering eller krisehåndtering.",
         "marker": "Affekten eskalerer brått til hulking, skjelving, raseri, panikk, nummenhet eller skamkollaps, og klienten ser ut til å risikere å bli overveldet, dissosiere eller trygle om å stoppe. Pusten blir kanskje grunn, språket uorganisert eller blikket fjernt.",
-        "aim": "Gi ramme, jording og empatisk innstilling slik at intense emosjonelle tilstander kan erfares og bearbeides i stedet for å unngås eller stenges ned. Hjelpe klienten å holde seg innenfor toleransevinduet samtidig som det er nok aktivering til at kjernesmerte kan komme frem, forstås og forandres.",
-        "practiceFocus": "Jord først, dosér følelsen, og hold ett bein i rommet mens ett bein blir værende i emosjonen.",
+        "aim": "Beholde kontakten når følelsene blir sterke. Tilpass tempoet, gi følelsen plass uten å kreve mer av den, og ivareta sikkerhet eller grenser når det trengs.",
+        "practiceFocus": "Vær til stede med følelsen. Tilpass tempoet, gi rom for en pause, og hjelp klienten å orientere seg i rommet ved behov.",
         "commonMiss": "Enten å la affekten oversvømme klienten eller å stenge den ned før den emosjonelle meningen får komme fram."
       },
       "self-disclosure": {
         "name": "Selvavsløring",
         "description": "Del korte, relevante glimt av din indre opplevelse på en tydelig avgrenset måte som er til for klientens prosess – ikke din egen.",
-        "summary": "Selvavsløring i opplevelsesorientert terapi innebærer å dele en kort, ekte bit av din umiddelbare indre opplevelse når det klart tjener klienten. Det kan være å sette ord på hvordan du er emosjonelt berørt, å anerkjenne hvordan klienten virker inn på deg, eller å eie en misattunering som har bidratt til et brudd i alliansen. Utsagnene holdes korte, nøkterne og uten forsvar, og formuleres slik at de støtter – ikke overskygger – klientens erfaring.\n\nBrukt til validering kan selvavsløring bekrefte at klientens smerte er reell og berører andre, og motvirke indre budskap om å være «for mye» eller «ikke troverdig». I alliansearbeid modellerer det ansvarlighet og sårbarhet: konflikten møtes med forståelse og reparasjonsvilje fremfor skyld og tilbaketrekning.\n\nSelvavsløring kan også hjelpe klienter som tviler på at noen kan bry seg virkelig, ved å gi en korrigerende erfaring av å ha emosjonell innvirkning. Noen ganger åpner det også for at klienten kan kjenne mer av sine egne primære følelser ved å legge merke til hvordan du blir berørt. Etter at du har delt, vender du raskt fokuset tilbake til klienten og inviterer deres reaksjon. Over tid kan nøktern, gjennomtenkt selvavsløring fordype tillit og modellere sunn emosjonell åpenhet og relasjonell reparasjon.",
+        "summary": "Selvavsløring gir kort, ærlig åpenhet når det tjener klienten. Det kan være en ekte reaksjon, en forpliktelse i den profesjonelle rollen eller en grense for hva du kan tilby. Svar på det klienten trenger å vite, og vend deretter oppmerksomheten tilbake til hvordan det er for dem å høre det.\n\nEksemplene viser mulige svar, ikke følelser alle som øver må ha. Tilpass dem til din faktiske reaksjon, rolle og erfaring. Ikke gi inntrykk av ro eller sikkerhet du ikke har, og ikke finn på personlig historie, kvalifikasjoner eller tilgjengelighet. Hvis du er usikker, kan det være mer ærlig å si tydelig hva du ønsker eller hvor grensene går, enn å berolige med en følelse du ikke har.\n\nLa hensikten være å hjelpe klienten. Ikke søk bekreftelse, beundring eller omsorg for din egen reaksjon. En nyttig deling er kort nok til at klienten får rom til å svare, være uenig eller si at den ikke hjalp.",
         "marker": "Klienten ber direkte eller indirekte om åpenhet fra terapeuten: et personlig spørsmål, et spørsmål om terapiprosessen, bekymring for din interesse eller kompetanse, en reaksjon på noe du gjorde, eller usikkerhet om omsorg, grenser eller innvirkning. Et kort, ærlig og tydelig avgrenset svar fra deg vil trolig kunne klargjøre din posisjon, styrke tillit eller validere klientens betydning før fokuset vendes tilbake til klienten.",
         "aim": "Bruke kort, nøye valgt åpenhet til å styrke den terapeutiske relasjonen, validere klientens emosjonelle virkelighet eller reparere misattuneringer. Modellere kongruent følelsesuttrykk samtidig som klientens opplevelse forblir sentrum i arbeidet.",
-        "practiceFocus": "Del bare en kort, umiddelbar bit av din indre respons som tydelig tjener klientens prosess, og vend så raskt tilbake til klienten.",
+        "practiceFocus": "Vær kort og ærlig når åpenhet tjener klienten, og vend så tilbake til klientens opplevelse. Tilpass eksemplene til din faktiske erfaring og rolle. Ikke finn på følelser eller kvalifikasjoner.",
         "commonMiss": "Å gli over i biografi, forsikring eller terapeut-sentrert prat som gjør øyeblikket mindre om klienten."
       },
       "marker-recognition-chairwork": {
@@ -1498,11 +2206,47 @@
       "alliance-repair": {
         "name": "Reparasjon av alliansen",
         "description": "Legg merke til og adresser brudd i alliansen med empati, ansvarlighet og samarbeid for å gjenopprette trygghet og tillit.",
-        "summary": "Reparasjon av alliansen handler om øyeblikk der klienten føler seg misforstått, såret, avfeid eller distansert fra deg. Du legger først merke til og setter ord på mulige bruddsignaler – som tilbaketrekning, irritasjon, sarkasme, uteblitte timer eller en markert endring i tone.\n\nDeretter inviterer du klienten til å fortelle hvordan de opplever deg og terapien, uten at du går i forsvar. Du gjør det tydelig at følelsene deres om både prosessen og terapeuten er velkomne. Du lytter åpent, validerer virkningen på dem og, der det er passende, anerkjenner din egen del eller en misattunering. Det kan innebære å beklage, justere rammen eller klargjøre intensjoner – alltid med klientens emosjonelle realitet som midtpunkt.\n\nNår du går inn i dette arbeidet, gir du en korrigerende emosjonell erfaring: konflikt og skuffelse møtes med forståelse, ansvarlighet og fortsatt kontakt, ikke med skyldlegging eller avvisning. Ofte berører dette klientens tilknytningssår og udekkede behov for å bli hørt, tatt på alvor og ikke få skylden for relasjonell uro. Når klienten kjenner seg gjenforstått og gjenknyttet, mykner som regel sekundær irritasjon eller tilbaketrekning, og mer sårbar primærfølelse kan komme frem igjen. Reparasjon gjenoppretter det trygge utgangspunktet som trengs for å våge seg tilbake til kjernesmerte og dypt emosjonelt arbeid, og modellerer sunn konflikthåndtering som klienten kan ta med seg inn i andre relasjoner.",
+        "summary": "Alliansereparasjon begynner når klienten kjenner seg misforstått, såret, dømt eller uten kontakt med terapeuten. Ta imot det de sier før du forklarer hensikten din. Speil virkningen med ord som ligger nær deres opplevelse, og gi dem rom til å korrigere forståelsen din.\n\nTa ansvar for din del når klienten beskriver noe du gjorde: at du gikk for fort frem, brukte et sårende uttrykk, overså en grense eller tolket stillhet feil. Be enkelt om unnskyldning når det er relevant, og tilby en konkret endring. Hvis bekymringen gjelder usikkerhet eller om behandlingen passer, undersøk det ærlig fremfor å finne på en feil eller berolige med en påstand om kompetanse.\n\nReparasjon er en samtale, ikke en tale. Du kan foreslå å senke tempoet, legge bort et tema, undersøke antakelser eller avklare en avtale, og så høre om det hjelper. Ikke be klienten utforme hele reparasjonen eller gå tilbake til teknikken før bekymringen er blitt hørt.",
         "marker": "Klienten viser tegn til avstand, irritasjon eller mistillit mot deg – for eksempel «du forstår meg ikke», kjølighet, økt gardering eller at de uteblir fra timer – eller du merker en tydelig endring i stemning etter en intervensjon som ikke traff. De kan gi direkte eller indirekte klager på terapien eller på deg som terapeut.",
         "aim": "Gjenopprette trygghet, tillit og samarbeid ved å ta imot bruddsignaler med empati, validere klientens reaksjoner og eie din del der det er relevant. Fjerne hindringer i relasjonen slik at klienten igjen kan våge seg inn i sårbare primærfølelser og kjernesmerte innenfor en trygg, terapeutisk ramme.",
-        "practiceFocus": "Ta imot virkningen på klienten, valider den, ei din del, og spør hva som ville hjelpe nå.",
+        "practiceFocus": "Hør klientens opplevelse, ta ansvar for din del der det er relevant, og tilby én konkret endring i samarbeidet.",
         "commonMiss": "Å forklare intensjonen din for tidlig, gå i forsvar eller hoppe tilbake til teknikk før reparasjonen har landet."
+      },
+      "empathic-refocusing": {
+        "name": "Empatisk refokusering",
+        "description": "Legg merke til når kontakten med en følelse blir svakere, og inviter tilbake til øyeblikket, med rom for klientens eget valg.",
+        "summary": "Legg merke til at samtalen beveger seg bort fra en følelse som var i ferd med å komme frem. Knytt invitasjonen til akkurat det øyeblikket, fremfor å kalle klienten unnvikende. En spøk, en praktisk bekymring eller et temaskifte kan ha flere betydninger. Undersøk før du antar at det er beskyttelse.\n\nTilby en liten, valgfri tilbakevending. Klienten kan ønske å fortsette med det nye temaet, senke tempoet eller stoppe. Refokusering skal støtte kontakt med opplevelsen, ikke terapeutens foretrukne agenda. Ta imot en korrigering hvis invitasjonen ikke passer, og følg det som er viktig for klienten.",
+        "marker": "En følelse som kommer frem, viker for analyse, en spøk eller et annet tema. Det finnes nok holdepunkter til å undersøke om det forrige øyeblikket fortsatt er viktig.",
+        "aim": "Hjelp klienten å velge om hen vil vende tilbake til et bestemt følelsesmessig øyeblikk, uten å skape skam eller overstyre et praktisk behov.",
+        "practiceFocus": "Vis til øyeblikket dere nettopp forlot, og inviter varsomt tilbake, med rom for å si nei.",
+        "commonMiss": "Å kalle et temaskifte unnvikelse, eller styre tilbake før du har hørt hvorfor det nye temaet er viktig."
+      },
+      "consolidating-emotional-change": {
+        "name": "Konsolidering av emosjonell endring",
+        "description": "Hjelp klienten å kjenne igjen en endring i følelse eller betydning, finne egne ord for den og utforske hvordan den kan tas med videre.",
+        "summary": "Begynn med en endring klienten selv merker: en mildere holdning til seg selv, et tydeligere behov eller en ny betydning. Speil den med klientens ord, og inviter til å kjenne etter hva som er annerledes. Ikke erklær et gjennombrudd eller krev en positiv følelse. Lettelse kan finnes sammen med sorg, tvil eller en praktisk situasjon som er uendret.\n\nHjelp klienten å finne egne ord for endringen og, når det passer, en liten måte å huske eller øve på den utenfor timen. La klienten velge. Konsolidering betyr ikke å gi hjemmeoppgaver med en gang, love at endringen vil vare eller behandle usikkerhet som et nederlag.",
+        "marker": "Klienten merker en liten forskjell i følelse, betydning eller forholdet til seg selv, ofte sammen med tvil om den vil vare.",
+        "aim": "Gjør den begynnende endringen gjenkjennelig og personlig meningsfull, uten å gjøre den større eller bestemme neste steg.",
+        "practiceFocus": "Bli ved endringen klienten beskriver; hjelp hen å finne egne ord å ta med seg.",
+        "commonMiss": "Å feire et gjennombrudd klienten ikke har beskrevet, eller skynde seg til råd."
+      },
+      "closing-after-emotional-work": {
+        "name": "Avslutning etter emosjonelt arbeid",
+        "description": "Avslutt timen på en håndterbar måte ved å anerkjenne det uferdige, undersøke hvordan klienten har det og bli enige om hvor dere stopper.",
+        "summary": "Ta tiden inn i samtalen på en vennlig og tydelig måte. Hør hvordan klienten har det nå, også hvilke følelser eller hvilket uferdig arbeid som er igjen. Mot slutten bør du unngå å åpne et nytt smertefullt tema bare for å fullføre en teknikk. En time kan slutte mens sorgen fortsatt er der.\n\nBli enige om et avgrenset sted å stoppe og et realistisk neste steg: en pause for å orientere seg, en kort oppsummering med klientens ord, eller hva dere kan vende tilbake til neste gang. Undersøk hva klienten trenger for overgangen ut av rommet, fremfor å foreskrive et ritual. Vær ærlig om tid, kontakt og tilgjengelighet. Akutte sikkerhetsbekymringer må møtes direkte; disse eksemplene erstatter ikke vurdering eller en sikkerhetsplan.",
+        "marker": "Timen nærmer seg slutten mens klienten fortsatt er berørt, usikker eller oppmerksom på noe uferdig.",
+        "aim": "Støtt en tydelig overgang i samarbeid med klienten, uten å antyde at følelsen må forsvinne eller arbeidet må være ferdig.",
+        "practiceFocus": "Anerkjenn det som er igjen, nevn tiden og finn et håndterbart sted å stoppe sammen.",
+        "commonMiss": "Å avslutte brått, åpne mer materiale eller love ubegrenset tilgjengelighet."
+      },
+      "experiential-focusing": {
+        "name": "Opplevelsesbasert fokusering",
+        "description": "Hjelp klienten å gi plass til en uklar kroppslig fornemmelse av en situasjon, finne egne ord eller bilder og undersøke hva som passer.",
+        "summary": "Begynn der klienten aner noe, men ikke helt kan si hva det er. Med klientens samtykke kan dere gi plass til en kroppslig fornemmelse av hele situasjonen slik den oppleves nå, fremfor å forklare den eller straks velge et følelsesord. Et ord, en formulering eller et bilde kan komme frem. Det er klientens beskrivelse. Hjelp hen å undersøke om den stemmer med fornemmelsen, og justere den når den ikke passer. Stillhet, usikkerhet og en korrigering er nyttige deler av arbeidet.\n\nHer øver dere på ett neste svar ved ulike øyeblikk i fokusering, ikke på en fullstendig prosess. Tilpass invitasjonen: gi plass, finne en beskrivelse, undersøke om den passer, eller ta imot det som kommer frem. Unngå kroppsskanning, en rekke instrukser eller en tolkning av hva fornemmelsen må bety. Øynene kan være åpne, og klienten kan si nei til å vende oppmerksomheten innover. Ikke krev kroppslig endring, innsikt eller lettelse. Når klienten vil stoppe, respekter valget fremfor å gjøre avslaget til mer innoverrettet arbeid.",
+        "marker": "Klienten aner noe ved hele situasjonen som ennå er uklart, eller leter etter en beskrivelse som kjennes riktig.",
+        "aim": "Støtt klientens egen fornemmelse og beskrivelse, med plass til usikkerhet, korrigeringer og valg.",
+        "practiceFocus": "Tilby ett håndterlig neste steg, og la klienten undersøke hva som passer.",
+        "commonMiss": "Å bestemme følelsen for klienten, eller behandle et spørsmål om kroppen som en fullstendig fokuseringsintervensjon."
       }
     }
   },
@@ -1510,10 +2254,10 @@
     "therapist-self-awareness": {
       "name": "Therapist Self-Awareness",
       "description": "Notice and name your own internal reactions while listening, protecting privacy and staying present rather than performing an intervention.",
-      "summary": "Therapist self-awareness is an intrapersonal EFT practice: tracking your own body, emotions, thoughts, images, and action impulses while the client is speaking. In this exercise, the task is not to find the best clinical intervention. The trainee listens, notices what is happening inside, and then names only the part of that reaction they feel comfortable sharing in a training setting.\n\nThis builds the capacity to stay present when the client evokes warmth, urgency to rescue, anxiety, irritation, attraction, disgust, numbness, defensiveness, or pressure to perform. You learn to distinguish useful resonance from therapist-centered material that should stay private or be taken to supervision. The skill includes respecting your own boundaries: self-awareness does not require disclosing everything you notice.\n\nThe app keeps a suggested response for practice purposes, but it is a sample self-awareness disclosure rather than a model client-facing intervention. A good response sounds like, \"I notice...\" or \"I feel a pull to...\" and shows that the therapist can monitor activation without acting it out or shifting the work away from the client.",
+      "summary": "Therapist self-awareness is an intrapersonal EFT practice: tracking your own body, emotions, thoughts, images, and action impulses while the client is speaking. In this exercise, the task is not to find the best clinical intervention. The trainee listens and notices what is happening inside. The reflection can stay private; sharing with the practice group is optional.\n\nThis builds the capacity to stay present when the client evokes warmth, urgency to rescue, anxiety, irritation, attraction, disgust, numbness, defensiveness, or pressure to perform. You learn to distinguish useful resonance from therapist-centered material that should stay private or be taken to supervision. The skill includes respecting your own boundaries: self-awareness does not require disclosing everything you notice.\n\nThe app keeps a suggested response for practice purposes, but it is a sample reflection rather than a model client-facing intervention. Your actual reaction may differ, including feeling little or nothing; matching the example is not the goal. A good response sounds like, \"I notice...\" or \"I feel a pull to...\" and shows that the therapist can monitor activation without acting it out or shifting the work away from the client.",
       "marker": "The client material is likely to activate the therapist: warmth, rescue, anxiety, irritation, attraction, disgust, fear, defensiveness, pressure to perform, or a pull to move too quickly. The client does not ask for self-awareness; the marker is the therapist's own internal reaction while listening.",
       "aim": "Increase the capacity to notice, symbolize, and own internal reactions while still listening to the client. Use that awareness to stay present and bounded, not to perform a polished intervention.",
-      "practiceFocus": "Listen, track your body, feelings, thoughts, images, and urges, then disclose only a comfortable slice of your internal reaction.",
+      "practiceFocus": "Listen and notice your body, feelings, thoughts, and urges. Keep the reflection private, or share only what you choose with the practice group.",
       "commonMiss": "Turning the suggestion into a polished client intervention, or disclosing too much instead of protecting privacy and boundaries."
     },
     "empathic-understanding": {
@@ -1545,17 +2289,17 @@
     },
     "providing-treatment-rationale": {
       "name": "Providing Treatment Rationale for Emotion-Focused Therapy",
-      "description": "Offer a clear, empathic explanation of why EFT works with emotion and how you will guide it safely, to reduce anxiety and resistance.",
-      "summary": "Providing a treatment rationale helps clients understand the logic and safety of focusing on emotion, especially when they feel skeptical, frightened, or confused about this way of working. After joining empathically with their concerns, you explain in everyday language how emotions organize experience, signal needs, and can transform when fully processed. You describe that secondary reactions and avoidance often keep people stuck, whereas accessing and working through primary emotions and core pain can lead to lasting change.\n\nYou also clarify your role in pacing and regulating the work so the client does not feel abandoned to overwhelming affect. This rationale directly addresses common secondary fears such as 'If I start feeling, I’ll lose control' or 'Talking about feelings won’t help.' It builds collaboration by framing emotion-focused, experiential work as a shared journey with a map (e.g., moving from distress, to core pain, to unmet needs and new emotional responses).\n\nA good rationale can increase the client’s willingness to engage in experiential tasks such as chair work, focusing, or imagery when markers appear. When revisited briefly at key points, it reminds the client why returning to emotion is important even when it feels risky or unfamiliar. Over time, this shared understanding supports a stronger alliance and deeper emotional engagement in the work.",
+      "description": "Explain the purpose of emotion work in plain language, connected to the client’s concerns, goals, and choices.",
+      "summary": "A treatment rationale helps the client understand why you are inviting attention to feelings and how that connects to what they want from therapy. Begin with the actual concern: perhaps talking seems pointless, emotion feels dangerous, or the client wants a practical change. Give a brief explanation that answers that concern rather than a general lesson about EFT.\n\nFeelings can help us notice what hurts, what matters, and what we need. Exploring an emotional reaction may also make it easier to recognize what happens before withdrawal, self-attack, or an outburst. Explain this as a purpose to work toward, not a promise that noticing one feeling will produce a particular result.\n\nMake the work collaborative. Describe how you can slow down, pause, or begin with a small moment, and check whether the explanation fits. Immediate safety needs take priority. A good rationale offers orientation and choice; it does not argue the client into a task or guarantee a timetable for change.",
       "marker": "Clients ask how therapy works, question the value of focusing on feelings, voice fears about being overwhelmed, or hesitate before experiential tasks. They may look puzzled, skeptical, or disconnected when you invite attention to emotion or the body.",
-      "aim": "Reduce anxiety, confusion, and resistance by giving a concise, empathic rationale that frames emotion work as meaningful, safe, and goal-directed. Align client and therapist around the purpose of emotion-focused, experiential work so clients feel more willing to explore primary emotions, core pain, and unmet needs.",
+      "aim": "Help the client understand the purpose of emotion work in relation to their concern or goal. Give a brief, honest explanation with room to choose, question, or decline.",
       "practiceFocus": "Explain emotion work in plain language that connects directly to this client’s fear, goals, and safety needs.",
       "commonMiss": "Sounding abstract, preachy, or theory-heavy rather than collaborative and personally relevant."
     },
     "empathic-explorations": {
       "name": "Empathic Explorations",
       "description": "Stay with and gently deepen the client’s leading edge of emotion so it can unfold into fuller primary experience and meaning.",
-      "summary": "Empathic exploration means tracking the emerging emotional edge in the client and following it with finely tuned reflections and invitations to notice more. Instead of jumping ahead to interpretation, advice, or solutions, you stay just one small step behind or beside the client’s experience. You reflect a part of what is present, then invite them to linger, sense further, and elaborate what they are feeling right now.\n\nEmpathic exploration moves forward along the path of what the client has already expressed, staying within their explicitly stated experience rather than reaching underneath it. This allows fragile emotional states to strengthen and clarify without being overwhelmed or shut down. It is especially important when primary emotions and core pain are beginning to surface but are still tentative or mixed.\n\nBy moving at the client’s pace and showing reverence for their unfolding process, you preserve safety while encouraging deeper contact. Empathic exploration thus supports movement from surface-level stories into vivid, embodied experience of sadness, fear, anger, shame, or longing. It also prevents bypassing key stages in the CAMS sequence by not leaping too quickly to reframe, meaning-making, or solutions.\n\nOver time, this gentle, sustained contact with emerging emotion allows maladaptive schemes to be fully activated and then transformed through new emotional responses. The client learns experientially that they can stay with painful feelings and discover something new and healing inside them.",
+      "summary": "Empathic exploration follows a feeling or meaning that is already beginning to emerge. Reflect what the client has shown, then offer one small invitation to notice more. You might pause with a word, a bodily sensation, or a moment in the story and ask what the client notices now.\n\nThe aim is to help the experience unfold at the client’s pace. Stay beside it rather than interpret it from a distance or decide what must be underneath. A tentative, collaborative invitation leaves room to continue, correct you, or stop. When the feeling is fragile, staying with the small amount already present can be more useful than asking for greater intensity.\n\nThis differs from a conjecture, which offers a possible feeling or meaning the client has not named, and from an evocation, which makes experience more vivid through imagery. Exploration helps the client discover more of their own experience without you supplying the answer.",
       "marker": "Emotion is clearly emerging but feels delicate, tentative, or only partially expressed, and the client seems willing but uncertain about going deeper. There is a 'live edge' where slight prompting and reflection leads to more feeling and meaning.",
       "aim": "Sustain and deepen contact with emerging emotional material so primary adaptive or maladaptive emotions can fully surface and be worked with. Support a paced, safe unfolding of core pain and associated unmet needs, setting the stage for later transformation.",
       "practiceFocus": "Stay one small step behind the client’s leading edge and invite a little more contact with what is already there.",
@@ -1564,7 +2308,7 @@
     "empathic-evocations": {
       "name": "Empathic Evocations",
       "description": "Use vivid, sensory-rich language or metaphor to help near-surface feelings come alive and be more fully contacted.",
-      "summary": "Empathic evocation is used when a client talks about something emotionally charged in a flat, distant, or constricted way. You offer brief, vivid images or sensory descriptions that resonate with what you intuit they are feeling, such as 'a heavy weight on your chest' or 'like a storm just under the surface.' This figurative language speaks to the right brain and body, bridging the gap between cognitive narrative and felt emotion. When attuned well, it gently increases emotional arousal and engagement without pushing the client outside their window of tolerance.\n\nEvocations can help transform intellectualized accounts into embodied experience, bringing primary emotions closer to awareness. They often reveal or crystallize what has been implicit, leading clients to say, 'Yes, it does feel like that,' or to notice tears, tightness, or other sensations. This can shift the level of experiencing from descriptive to more experiential, allowing core pain and unmet needs to be contacted.\n\nEmpathic evocations must remain tentative and collaborative, inviting confirmation or correction so the client remains in charge of the meaning. Over time, these evocative reflections help clients develop their own richer, more embodied language for their inner world, enhancing their emotional literacy and processing capacity.",
+      "summary": "An empathic evocation uses a brief image, metaphor, or sensory phrase to make an emotionally charged experience more tangible. It can be useful when the client describes something painful in a flat or distant way. A fitting image helps the client recognize what the experience feels like, rather than merely explain it.\n\nOffer one image close to the client’s words and situation. An image can be new without adding a new fact: a pane of glass may convey distance, but an empty side of the bed should not be assumed if the client has not described it. Use tentative language for a bolder image and welcome correction; the client decides whether it fits.\n\nVividness is not the same as intensity. Avoid dramatic imagery that makes the experience more frightening or pulls attention toward the therapist’s cleverness. If the material raises a safety concern, address it directly; an image does not replace that work.",
       "marker": "The client describes painful or important events in a flat, detached, or overly cognitive way, with little affect or body awareness, yet there are signs that feelings are close (e.g., subtle cracks in tone or brief pauses). They may say they 'sort of' feel something but cannot quite access it.",
       "aim": "Heighten emotional contact by offering vivid, resonant language that helps implicit feelings become explicit and embodied. Support a shift from distant narration to active experiencing so primary emotion and core pain can be more fully accessed and processed.",
       "practiceFocus": "Offer vivid, sensory language that helps near-surface feeling come alive in the body.",
@@ -1581,20 +2325,20 @@
     },
     "staying-in-contact-intense-affect": {
       "name": "Staying in Contact with Intense Affect",
-      "description": "Support clients in remaining safely present with powerful emotion so it can move, make sense, and transform without overwhelm.",
-      "summary": "Staying in contact with intense affect is the skill of helping clients ride waves of strong emotion without shutting down or being flooded beyond their capacity. When big feelings such as grief, rage, panic, or shame spike, you slow the pace, ground the client, and offer steady, empathic presence. You may direct attention to the body, the breath, or the room to keep one foot in the here-and-now while the other foot remains in the emotional experience.\n\nYou normalize the intensity, validate how much sense it makes, and reassure the client that you are with them and not afraid of their feelings. You also titrate exposure by inviting the client to describe small pieces of the experience in words, or by briefly stepping back and then returning, to avoid dissociation or collapse.\n\nThis regulation allows primary maladaptive emotions and core pain to be fully contacted and expressed without retraumatization. It creates a powerful corrective emotional experience: the client learns that they can feel deeply and still stay safe and connected to another person.\n\nOnce the emotional wave softens, you help them reflect on what the feeling says about their needs, boundaries, or values. Over time, this builds the client’s capacity to tolerate and regulate their own intense emotions outside therapy as well.",
+      "description": "Stay emotionally present with powerful feelings, offering pacing, choice, and support when needed.",
+      "summary": "This skill is about staying emotionally present when the client’s feelings are strong or difficult to hear. Grief, anger, panic, shame, or powerful relief can pull the therapist toward withdrawal, quick reassurance, or taking over. The task is to communicate steady contact while listening to what the client is actually experiencing.\n\nRespond to the situation rather than follow a fixed order. A client who can remain present with tears may mainly need company and time. If speech fades, the room feels distant, or attention to the feeling becomes too much, offer a pause or a small invitation to notice the room, your voice, or the support of the chair. Grounding is support when needed, not a way to shut every strong feeling down.\n\nKeep choice, boundaries, and safety in view. Do not require eye contact, more detail, or greater intensity. Address risk directly when it is present while maintaining warmth. These examples practice a moment of contact; they do not supply a complete risk assessment or crisis response.",
       "marker": "Affect suddenly escalates into sobbing, shaking, rage, panic, numbness, or shame collapse, and the client seems at risk of being overwhelmed, dissociating, or pleading to stop. Their breathing may become shallow, their speech disorganized, or their gaze distant.",
-      "aim": "Provide containment, grounding, and empathic attunement so intense emotional states can be experienced and processed rather than avoided or shut down. Maintain the client within their window of tolerance while allowing enough activation for core pain to emerge, make sense, and transform.",
-      "practiceFocus": "Ground first, titrate the feeling, and keep one foot in the room while one foot stays with the emotion.",
+      "aim": "Stay in contact as emotion intensifies. Adjust the pace, allow the feeling without demanding more of it, and address safety or boundaries when needed.",
+      "practiceFocus": "Stay present with the feeling. Adjust the pace, offer room to pause, and help the client orient to the room when needed.",
       "commonMiss": "Either letting affect flood the client or shutting it down before the emotional meaning can emerge."
     },
     "self-disclosure": {
       "name": "Self-Disclosure",
       "description": "Share brief, relevant pieces of your inner experience in a boundaried way that serves the client’s process, not your own.",
-      "summary": "Self-disclosure in emotion-focused, experiential therapy involves selectively sharing a short, genuine aspect of your immediate inner experience when it clearly benefits the client. This might include revealing your emotional resonance (e.g., feeling sadness or admiration), acknowledging your impact on the client, or owning a misattunement that contributed to a rupture. The disclosure is kept concise, non-defensive, and carefully phrased so that it supports, rather than shifts focus away from, the client’s experience.\n\nWhen used to validate, it can reassure clients that their pain is real and moving, countering internalized messages that they are 'too much' or 'not believable.' When used in alliance repair, it models accountability and vulnerability, demonstrating that relational conflict can be met with understanding rather than blame. Self-disclosure can also help clients who doubt that anyone can really care or be affected by them, offering a corrective emotional experience of impact and connection.\n\nIt sometimes helps clients access their own primary feelings by noticing how the therapist is touched by their story. After disclosing, you promptly return focus to the client, inviting their reaction and continuing to center their process. Over time, judicious self-disclosure can deepen trust and model healthy emotional transparency and relational repair.",
+      "summary": "Self-disclosure offers brief, honest transparency when it serves the client. It may describe a genuine reaction, a professional commitment, or a limit on what you can offer. Answer the part the client needs to know, then return attention to their experience of hearing it.\n\nThe examples model possible disclosures, not feelings every trainee must have. Adapt them to your actual reaction, role, and experience. Do not invent comfort, certainty, personal history, qualifications, or availability. If you are unsure, a clear statement of your intention or limits may be more honest than reassuring the client with a feeling you do not have.\n\nKeep the purpose with the client. Do not seek reassurance, admiration, or care for your own reaction. A useful disclosure is short enough that the client has room to respond, disagree, or say that it did not help.",
       "marker": "The client directly or indirectly asks for therapist transparency: a personal or process question, concern about your interest or competence, a reaction to your behavior, or uncertainty about your care, boundaries, or impact. A brief, honest, well-boundaried response would likely clarify your stance, strengthen trust, or validate their importance before returning focus to the client.",
       "aim": "Use brief, carefully chosen transparency to strengthen the therapeutic bond, validate the client’s emotional reality, or repair misattunements. Model congruent emotional expression while keeping the client’s experience at the center of the work.",
-      "practiceFocus": "Share only a brief, immediate piece of your inner response that clearly serves the client’s process, then return focus.",
+      "practiceFocus": "Offer brief, honest transparency that serves the client, then return focus. Adapt examples to your actual experience and role; do not invent feelings or credentials.",
       "commonMiss": "Slipping into biography, reassurance, or therapist-centered talk that makes the moment less about the client."
     },
     "marker-recognition-chairwork": {
@@ -1609,11 +2353,47 @@
     "alliance-repair": {
       "name": "Alliance Repair",
       "description": "Recognize and address ruptures with empathy, ownership, and collaboration to restore safety and trust in the relationship.",
-      "summary": "Alliance repair focuses on moments when the client feels misunderstood, hurt, dismissed, or disconnected from you. You first notice and name possible rupture cues, such as withdrawal, irritation, sarcasm, missed sessions, or a sudden change in tone. You then invite the client to share their experience of you without defending yourself, making it clear that their feelings about the therapy and therapist are welcome.\n\nYou listen openly, validate the impact on them, and where appropriate, acknowledge your contribution or misattunement. This can involve apologizing or clarifying intentions in a way that centers the client’s emotional reality. By engaging in this process, you provide a corrective emotional experience: conflict or disappointment is met with understanding, accountability, and continued connection rather than blame or abandonment.\n\nAlliance repair often intersects with the client’s attachment wounds and unmet needs for being heard, taken seriously, or not blamed for relational tension. When the client feels re-understood and reconnected, their secondary anger or withdrawal usually softens, and their primary vulnerability can re-emerge. Repair restores the secure base needed for clients to risk going back into core pain and deep emotional work. It also models healthy relational repair, which they can internalize and bring into their relationships outside therapy.",
+      "summary": "Alliance repair begins when the client feels misunderstood, hurt, judged, or disconnected from the therapist. Receive what they say before explaining your intention. Reflect the impact in their terms and make room for them to correct your understanding.\n\nOwn your contribution when the client describes something you did: moving too quickly, choosing a hurtful phrase, overlooking a limit, or misreading silence. Apologize plainly where appropriate and offer a concrete change. If the concern is about uncertainty or treatment fit, explore it honestly rather than invent a mistake or a reassuring claim about competence.\n\nRepair is a conversation, not a speech. You can suggest slowing down, setting a topic aside, checking assumptions, or clarifying an agreement, then hear whether that helps. Do not ask the client to design the whole repair or return to technique before their concern has been heard.",
       "marker": "The client shows signs of disconnection, irritation, or mistrust toward you, such as 'You don’t get me,' coolness, guardedness, or avoidance of sessions, or you sense a shift in the atmosphere after a misattuned intervention. They may offer direct or indirect complaints about the therapy or about you.",
       "aim": "Re-establish safety, trust, and collaboration by openly receiving rupture feedback, validating the client’s feelings, and owning your part where relevant. Clear obstacles in the relationship so the client can again engage vulnerably with their primary emotions and core pain in a secure therapeutic context.",
-      "practiceFocus": "Receive the client’s impact, validate it, own your part, and ask what would help now.",
+      "practiceFocus": "Hear the client’s experience, own your part where relevant, and offer one concrete adjustment together.",
       "commonMiss": "Explaining your intention too soon, defending yourself, or moving back to technique before repair lands."
+    },
+    "empathic-refocusing": {
+      "name": "Empathic Refocusing",
+      "description": "Notice when contact with a feeling fades, and invite a return to that moment while leaving the client free to choose.",
+      "summary": "Notice a shift away from a feeling that was beginning to emerge. Link your invitation to that specific moment rather than labeling the client as avoidant. A joke, practical concern or change of subject can have several meanings; check before assuming it is protection.\n\nOffer a small, optional return. The client may want to stay with the new topic, slow down or stop. Refocusing serves contact with experience, not the therapist’s preferred agenda. If your invitation does not fit, accept the correction and follow what matters to the client.",
+      "marker": "An emerging feeling gives way to analysis, a joke or another topic. There is enough evidence to check whether the earlier moment still matters.",
+      "aim": "Help the client choose whether to return to a particular emotional moment without shaming the shift or overriding a practical need.",
+      "practiceFocus": "Refer to the moment just left and invite a small return, with room to decline.",
+      "commonMiss": "Calling a tangent avoidance, or redirecting before hearing why the new topic matters."
+    },
+    "consolidating-emotional-change": {
+      "name": "Consolidating Emotional Change",
+      "description": "Help the client recognize a change in feeling or meaning, put it into their own words, and consider how to carry it forward.",
+      "summary": "Begin with a change the client actually notices: a softer stance toward themselves, a clearer need or a different meaning. Reflect it in their terms, then invite them to sense what is different. Do not announce a breakthrough or require a positive feeling. Relief can coexist with grief, doubt or an unchanged practical situation.\n\nHelp the client find their own words for the shift and, when useful, a small way to remember or practise it outside the session. Let them choose. Consolidation does not mean setting homework immediately, promising that a change will last or treating uncertainty as failure.",
+      "marker": "The client notices a small difference in feeling, meaning or how they relate to themselves, often alongside doubt about whether it will last.",
+      "aim": "Make the emerging change recognizable and personally meaningful without enlarging it or prescribing what comes next.",
+      "practiceFocus": "Stay with the shift the client names; help them put it into words they can carry.",
+      "commonMiss": "Celebrating a breakthrough the client has not claimed, or rushing into advice."
+    },
+    "closing-after-emotional-work": {
+      "name": "Closing After Emotional Work",
+      "description": "Bring the session to a manageable close by acknowledging what remains, checking how the client is, and agreeing on where to stop.",
+      "summary": "Bring time into the conversation kindly and clearly. Hear how the client is now, including emotion or unfinished work that remains. Near the end, avoid opening a new painful thread simply to finish the technique. A session can end with sadness still present.\n\nAgree on a bounded stopping point and a realistic next step: a pause to orient, a brief summary in the client’s words, or what to return to next time. Check what they need for the transition out of the room rather than prescribe a ritual. Be honest about time, contact and availability. Immediate safety concerns require direct attention; these examples do not replace assessment or a safety plan.",
+      "marker": "The end of the session is approaching while the client remains emotional, uncertain or aware of unfinished work.",
+      "aim": "Support a clear, collaborative transition without implying that the feeling must disappear or the work must be resolved.",
+      "practiceFocus": "Acknowledge what remains, name the time and agree on a manageable stopping point.",
+      "commonMiss": "Abruptly ending, opening more material, or promising unlimited availability."
+    },
+    "experiential-focusing": {
+      "name": "Experiential Focusing",
+      "description": "Help the client make room for an unclear felt sense of a situation, find their own words or images, and check what fits.",
+      "summary": "Begin where the client has a sense of something but cannot quite say what it is. With their agreement, make room for a bodily sense of the whole situation as it is experienced now, rather than explain it or immediately choose an emotion label. A word, phrase or image may emerge; it belongs to the client. Help them check it against what they sense and revise it when it does not fit. Silence, uncertainty and a correction are useful parts of the work.\n\nThese items practise one next response at different moments in focusing, not a complete task. Match your invitation to the moment: making room, finding a description, checking its fit or receiving what emerges. Avoid a body scan, a series of instructions or an interpretation of what the sensation must mean. Eyes can stay open; inward attention can be declined. Do not require a bodily shift, insight or relief. When the client asks to stop, respect that choice rather than turn the refusal into more inward work.",
+      "marker": "The client senses something about a whole situation that is not yet clear, or is searching for a description that feels right.",
+      "aim": "Support the client’s own sensing and description, allowing uncertainty, corrections and choice.",
+      "practiceFocus": "Offer one manageable next step and let the client check what fits.",
+      "commonMiss": "Naming the feeling for the client, or treating a body question as a complete focusing intervention."
     }
   },
   "cases": {
@@ -1624,6 +2404,9 @@
       "difficultyLabel": "Easy",
       "tier": "free",
       "teaser": "Marketing associate whose breakup reactivated old loneliness and shame.",
+      "supportedLevels": [
+        "easy"
+      ],
       "history": "Sara is a 28-year-old junior marketing professional who appears composed at work while privately spiraling after a breakup that reignites childhood abandonment pain from emotionally distant parents.",
       "schema": "If I am not perfect or needed, people leave because I am unlovable.",
       "corePain": "Shame-laced loneliness and fear of abandonment rooted in emotional distance from caregivers.",
@@ -1638,6 +2421,9 @@
       "difficultyLabel": "Easy",
       "tier": "free",
       "teaser": "Tech manager whose anger protects a lifelong fear of inadequacy.",
+      "supportedLevels": [
+        "easy"
+      ],
       "history": "Michael is a 35-year-old middle manager whose quick temper is straining his marriage and work relationships; criticism from others instantly revives the shame he carried growing up with a demanding, emotionally distant father.",
       "schema": "If I am not in control and impeccable, I will be exposed as weak and rejected.",
       "corePain": "Humiliation, inadequacy, and fear of exposure linked to a critical father and conditional worth.",
@@ -1652,6 +2438,9 @@
       "difficultyLabel": "Easy",
       "tier": "free",
       "teaser": "Recent grad gripped by social anxiety and core shame about belonging.",
+      "supportedLevels": [
+        "easy"
+      ],
       "history": "Jason is a 24-year-old analyst who freezes in meetings and avoids social invitations; bullying and anxious caregiving in childhood left him convinced he is defective and destined to be alone.",
       "schema": "If people really see me, they will confirm I am awkward and unworthy.",
       "corePain": "Defectiveness, awkwardness, and fear of exposure learned through bullying and anxious caregiving.",
@@ -1666,6 +2455,9 @@
       "difficultyLabel": "Moderate",
       "tier": "pro",
       "teaser": "Nurse living behind emotional numbness after childhood trauma and divorce.",
+      "supportedLevels": [
+        "moderate"
+      ],
       "history": "Laura is a 45-year-old nurse and recent divorcee who presents with chronic emptiness, panic flashes, and a history of childhood abuse that taught her intimacy equals danger and shame.",
       "schema": "If I let my guard down, I will be hurt or abandoned because I am damaged.",
       "corePain": "Trauma-linked fear, shame, and loneliness around being damaged and unsafe in closeness.",
@@ -1680,6 +2472,9 @@
       "difficultyLabel": "Moderate",
       "tier": "pro",
       "teaser": "Construction supervisor whose rage masks humiliation and fear.",
+      "supportedLevels": [
+        "moderate"
+      ],
       "history": "Carlos is a 30-year-old construction supervisor who goes from calm to destructive in seconds; growing up with violence taught him strength means never feeling small, so shame and fear surface as explosive anger.",
       "schema": "If I am not the toughest in the room, I will be disrespected and hurt.",
       "corePain": "Humiliation, fear, and smallness covered by toughness learned in violent environments.",
@@ -1694,6 +2489,9 @@
       "difficultyLabel": "Moderate",
       "tier": "pro",
       "teaser": "Self-sacrificing teacher whose depression hides unmet needs and resentment.",
+      "supportedLevels": [
+        "moderate"
+      ],
       "history": "Nina is a 40-year-old teacher and mother who faints from stress, juggles everyone's needs, and collapses into guilt whenever she feels anger or asks for help.",
       "schema": "If I stop taking care of everyone, I will be abandoned and prove I am selfish.",
       "corePain": "Fear that expressing needs or anger makes her selfish, unworthy, and abandonable.",
@@ -1708,6 +2506,9 @@
       "difficultyLabel": "Hard",
       "tier": "pro",
       "teaser": "Young woman with borderline dynamics battling annihilating abandonment terror.",
+      "supportedLevels": [
+        "hard"
+      ],
       "history": "Aisha is a 26-year-old with a history of foster care, self-harm, and intense relationships; perceived distancing unleashes panic, rage, and desperate bids to keep people close.",
       "schema": "If someone steps back, it means I am unlovable and I will be left alone forever.",
       "corePain": "Annihilating fear of abandonment and unlovability shaped by foster care and traumatic instability.",
@@ -1722,6 +2523,9 @@
       "difficultyLabel": "Hard",
       "tier": "pro",
       "teaser": "High-achieving executive whose grandiosity hides fragile shame.",
+      "supportedLevels": [
+        "hard"
+      ],
       "history": "David is a 42-year-old finance leader whose marriage is collapsing; conditional childhood love left him chasing perfection and raging when anyone highlights his flaws.",
       "schema": "If I am not exceptional, I am worthless and will be discarded.",
       "corePain": "Worthlessness and shame hidden beneath status striving and control.",
@@ -1736,12 +2540,75 @@
       "difficultyLabel": "Hard",
       "tier": "pro",
       "teaser": "Combat veteran numbed by complex trauma and haunted by lonely grief.",
+      "supportedLevels": [
+        "hard"
+      ],
       "history": "Marcus is a 34-year-old veteran and security guard who lives alone, cycles between numbness and flashbacks, and struggles to trust anyone after repeated betrayals and battlefield losses.",
       "schema": "Letting people close guarantees hurt, so it is safer to feel nothing.",
       "corePain": "Frozen grief, fear, shame, and survivor burden hidden under numbness and withdrawal.",
       "practiceEdge": "Work at the edge of numbness, hypervigilance, and lonely grief without pushing for detail.",
       "style": "Low volume; few words; long pauses; flat tone; eyes down or scanning; jaw set; shoulders tight; minimal gesture; slight tremor near hard topics.",
       "voice": "Marcus. I don't have much to say. Sleep is bad. I keep to myself. Work is fine because it's quiet and I know what to do. Nights aren't great. Some memories show up, from overseas and other places. I don't want to get into details. People ask questions, then they look at you different. I'm here because the VA keeps pushing it and because sitting alone all night isn't working anymore."
+    },
+    "case-arne": {
+      "id": "case-arne",
+      "label": "Leo",
+      "difficulty": "easy",
+      "difficultyLabel": "Easy",
+      "tier": "free",
+      "teaser": "A retired electrician finding his way through ordinary days after his wife’s death.",
+      "supportedLevels": [
+        "easy",
+        "moderate",
+        "hard"
+      ],
+      "history": "Leo is 68 and a retired electrician. His wife, Eva, died ten months ago after eighteen months of illness. They were together for forty-one years. He lives in their home, sees his adult daughter, Emma, and sometimes goes walking with his friend, Tom. He likes fixing things and has begun returning to a small local workshop. Their relationship held affection and ordinary disagreements. Caring for Eva was both meaningful and exhausting. He seeks help with lonely routines, mixed feelings about the caregiving period, and guilt when he enjoys something. These are not a diagnosis or a prescribed timetable for grieving.",
+      "schema": "A recurring worry: if I enjoy myself or admit the care was exhausting, it means I did not love Eva enough. Check whether this meaning fits; do not assume an abandonment history.",
+      "schemaLabel": "Meaning to explore",
+      "corePain": "Missing Eva in a changed everyday life, with guilt when love, exhaustion and enjoyment coexist.",
+      "practiceEdge": "Distinguish missing Eva from guilt about enjoying life, and from practical needs that deserve their own attention.",
+      "style": "Plain, concrete words; measured pace; dry warmth. Pauses near tender details. A small laugh may express affection or discomfort: check rather than assume. He can correct you, decline a question, or ask for company without more words.",
+      "voice": "I’m Leo. Eva died ten months ago. We had forty-one years together. I manage the house, and Emma comes by. Tom gets me out for a walk sometimes. It’s the small things—making coffee for one, nobody to tell when I’ve fixed something. I loved Eva, and I was worn out by the end of her illness. Both are true, but saying that feels disloyal. I had a good afternoon at the workshop last week, then felt bad about having enjoyed it. I’d like to find a way of living my days without feeling I’m leaving her behind."
+    },
+    "case-mia": {
+      "id": "case-mia",
+      "label": "Mia",
+      "difficulty": "easy",
+      "difficultyLabel": "Easy",
+      "tier": "free",
+      "teaser": "A museum educator living with rheumatoid arthritis, seeking help without losing her say.",
+      "supportedLevels": [
+        "easy",
+        "moderate",
+        "hard"
+      ],
+      "history": "Mia is 42 and a museum educator. She was diagnosed with rheumatoid arthritis four years ago and remains under rheumatology care. Pain, stiffness and fatigue fluctuate; she works three days a week with some adaptations. She lives with her partner, Alex, sees her sister, Ella, and has a supportive colleague, Sam. She enjoys drawing, plants and conversations about art. She values making decisions and contributing, and finds it difficult when help becomes taking over. Some people underestimate her limitations because she looks well. She seeks support with uncertainty, anger about dismissal, sadness about lost activities and the meaning of needing help. Emotional work runs alongside medical care and practical support; it does not establish the cause of her illness or promise symptom relief.",
+      "schema": "A worry to check: if I need help, people will stop seeing me as someone with a say and something to offer. Do not assume every limit or refusal comes from this worry.",
+      "schemaLabel": "Meaning to explore",
+      "corePain": "Sadness about limits and uncertainty, with the hurt of being dismissed or losing a say when help is needed.",
+      "practiceEdge": "Hear the real physical and practical limits while exploring what needing help, being dismissed or losing an activity means to her.",
+      "style": "Precise, ordinary words; quick to qualify or correct an overstatement. Warm humor when comfortable. A pause may be fatigue or pain, not withdrawal. She can ask for a different position, decline body attention or choose practical work.",
+      "voice": "I’m Mia. I have rheumatoid arthritis. Some mornings I can get dressed and get on with things; some mornings a button is a whole job. I’m still working at the museum, less than before. Alex helps, and I’m grateful, but sometimes the help arrives before I’ve decided what I want. Then I snap and feel awful. I miss drawing for as long as I used to. People see me on a good day and think that’s the whole story. I don’t want therapy to talk me into pretending this is fine. I want room for how hard it is, and a way to ask for help while still being me."
+    },
+    "case-nora": {
+      "id": "case-nora",
+      "label": "Nora",
+      "difficulty": "easy",
+      "difficultyLabel": "Easy",
+      "tier": "free",
+      "teaser": "An architect facing exclusion at work, wanting her work and her own voice to have a place.",
+      "supportedLevels": [
+        "easy",
+        "moderate",
+        "hard"
+      ],
+      "history": "Nora is 35, born and raised in Norway; her parents moved from Morocco before she was born. She is an architect in Oslo and has worked at the same design firm for six years. Her manager, Ben, suggested a colleague present her design because the client wanted “a more Norwegian face.” Colleagues also repeatedly ask where she is really from after she answers Norway. Some other workplace moments are less clear; do not assign a motive to every interruption or disagreement. Max, a supportive colleague, sometimes speaks for her before asking what she wants. She lives with her partner, Adam, and sees her friend, Lina. She enjoys photography, walks by the water and dinners with friends. She values her craft, humor and relationships, and seeks help with anger, hurt, self-doubt and the cost of deciding when to speak. Practical support and workplace choices have a legitimate place alongside emotional work. No religion, dress practice, migration experience of her own or childhood trauma is specified.",
+      "schema": "A meaning to check: if I speak about exclusion, people will see a complaint rather than hear my work or my own voice. Do not treat discriminatory treatment as a mistaken belief or assume this meaning explains every difficulty.",
+      "schemaLabel": "Meaning to explore",
+      "corePain": "Having belonging disputed and work overlooked, with anger, hurt and self-doubt that can follow.",
+      "practiceEdge": "Acknowledge concrete exclusion, explore its personal impact and leave Nora free to choose whether, when and how to respond.",
+      "style": "Precise, conversational language with dry humor. Can distinguish what she knows from what she suspects. A composed voice does not mean an event was harmless. She can want plain acknowledgment, a practical discussion or a pause instead of more exploration.",
+      "voice": "I’m Nora. I’m an architect. I was born here, but somehow “Norway” isn’t always accepted as the answer to where I’m from. At work, Ben suggested someone else present my design because the client wanted a more Norwegian face. I kept the meeting going. Afterwards I sat at my desk and couldn’t look at the drawings. I like my work, and I don’t want every conversation about me to become this conversation. Max wants to help, but sometimes he starts speaking before I’ve worked out what I want to say. Adam and Lina listen. I’d like to be angry without spending the whole evening explaining why, and make choices without feeling I have to earn my place again."
     }
   },
   "statementCounts": {
@@ -1765,7 +2632,10 @@
       "case-nina": 12,
       "case-aisha": 12,
       "case-david": 12,
-      "case-marcus": 12
+      "case-marcus": 12,
+      "case-arne": 36,
+      "case-mia": 36,
+      "case-nora": 36
     },
     "empathic-affirmation-validation": {
       "case-sara": 12,
@@ -1776,7 +2646,10 @@
       "case-nina": 12,
       "case-aisha": 12,
       "case-david": 12,
-      "case-marcus": 12
+      "case-marcus": 12,
+      "case-arne": 36,
+      "case-mia": 36,
+      "case-nora": 36
     },
     "exploratory-questions": {
       "case-sara": 12,
@@ -1787,7 +2660,10 @@
       "case-nina": 12,
       "case-aisha": 12,
       "case-david": 12,
-      "case-marcus": 12
+      "case-marcus": 12,
+      "case-arne": 36,
+      "case-mia": 36,
+      "case-nora": 36
     },
     "providing-treatment-rationale": {
       "case-sara": 12,
@@ -1798,7 +2674,10 @@
       "case-nina": 12,
       "case-aisha": 12,
       "case-david": 12,
-      "case-marcus": 12
+      "case-marcus": 12,
+      "case-arne": 36,
+      "case-mia": 36,
+      "case-nora": 36
     },
     "empathic-explorations": {
       "case-sara": 12,
@@ -1809,7 +2688,10 @@
       "case-nina": 12,
       "case-aisha": 12,
       "case-david": 12,
-      "case-marcus": 12
+      "case-marcus": 12,
+      "case-arne": 36,
+      "case-mia": 36,
+      "case-nora": 36
     },
     "empathic-evocations": {
       "case-sara": 12,
@@ -1820,7 +2702,10 @@
       "case-nina": 12,
       "case-aisha": 12,
       "case-david": 12,
-      "case-marcus": 12
+      "case-marcus": 12,
+      "case-arne": 36,
+      "case-mia": 36,
+      "case-nora": 36
     },
     "empathic-conjectures": {
       "case-sara": 12,
@@ -1831,7 +2716,10 @@
       "case-nina": 12,
       "case-aisha": 12,
       "case-david": 12,
-      "case-marcus": 12
+      "case-marcus": 12,
+      "case-arne": 36,
+      "case-mia": 36,
+      "case-nora": 36
     },
     "staying-in-contact-intense-affect": {
       "case-sara": 12,
@@ -1842,7 +2730,10 @@
       "case-nina": 12,
       "case-aisha": 12,
       "case-david": 12,
-      "case-marcus": 12
+      "case-marcus": 12,
+      "case-arne": 36,
+      "case-mia": 36,
+      "case-nora": 36
     },
     "self-disclosure": {
       "case-sara": 12,
@@ -1876,6 +2767,52 @@
       "case-aisha": 12,
       "case-david": 12,
       "case-marcus": 12
+    },
+    "empathic-refocusing": {
+      "case-sara": 12,
+      "case-michael": 12,
+      "case-jason": 12,
+      "case-laura": 12,
+      "case-carlos": 12,
+      "case-nina": 12,
+      "case-aisha": 12,
+      "case-david": 12,
+      "case-marcus": 12,
+      "case-arne": 36,
+      "case-mia": 36,
+      "case-nora": 36
+    },
+    "consolidating-emotional-change": {
+      "case-sara": 12,
+      "case-michael": 12,
+      "case-jason": 12,
+      "case-laura": 12,
+      "case-carlos": 12,
+      "case-nina": 12,
+      "case-aisha": 12,
+      "case-david": 12,
+      "case-marcus": 12,
+      "case-arne": 36,
+      "case-mia": 36,
+      "case-nora": 36
+    },
+    "closing-after-emotional-work": {
+      "case-sara": 12,
+      "case-michael": 12,
+      "case-jason": 12,
+      "case-laura": 12,
+      "case-carlos": 12,
+      "case-nina": 12,
+      "case-aisha": 12,
+      "case-david": 12,
+      "case-marcus": 12,
+      "case-arne": 36,
+      "case-mia": 36,
+      "case-nora": 36
+    },
+    "experiential-focusing": {
+      "case-sara": 12,
+      "case-arne": 36
     }
   }
 }

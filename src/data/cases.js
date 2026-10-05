@@ -1,3 +1,6 @@
+import {NORA_CASE} from './noraCase.js';
+import {MIA_CASE} from './miaCase.js';
+import {ARNE_CASE} from './arneCase.js';
 "use strict";
 
 export const CASES = [
@@ -158,3 +161,6 @@ export const CASES = [
       "Marcus. I don't have much to say. Sleep is bad. I keep to myself. Work is fine because it's quiet and I know what to do. Nights aren't great. Some memories show up, from overseas and other places. I don't want to get into details. People ask questions, then they look at you different. I'm here because the VA keeps pushing it and because sitting alone all night isn't working anymore."
   }
 ];
+CASES.push(ARNE_CASE);
+CASES.push(MIA_CASE);
+CASES.push(NORA_CASE);

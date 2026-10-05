@@ -1,3 +1,6 @@
+import {NORA_BIBLE} from './noraCase.js';
+import {MIA_BIBLE} from './miaCase.js';
+import {ARNE_BIBLE} from './arneCase.js';
 "use strict";
 
 export const CASE_BIBLES = {
@@ -335,4 +338,6 @@ export const CASE_BIBLES = {
       "Do not make Marcus chatty, metaphorical, or quickly trusting."
   }
 };
-
+CASE_BIBLES['case-arne'] = ARNE_BIBLE;
+CASE_BIBLES['case-mia'] = MIA_BIBLE;
+CASE_BIBLES['case-nora'] = NORA_BIBLE;

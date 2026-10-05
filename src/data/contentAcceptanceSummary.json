@@ -1,16 +1,17 @@
 {
-  "generatedAt": "2026-10-02T18:34:37.095Z",
-  "revision": "2026-10-02-v2",
+  "generatedAt": "2026-10-04T23:21:52.055Z",
+  "revision": "2026-10-04-v4",
   "status": {
-    "totalItems": 1296,
-    "translatedCount": 1296,
+    "totalItems": 2856,
+    "translatedCount": 2856,
     "reviewStatusCounts": {
-      "approved": 1296
+      "approved": 1296,
+      "pending": 1560
     },
     "duplicateStatementCount": 0,
-    "skillPurityWarningCount": 0,
-    "reviewQueueCount": 0,
-    "qaClean": true
+    "skillPurityWarningCount": 99,
+    "reviewQueueCount": 101,
+    "qaClean": false
   },
   "artifacts": {
     "spotCheckPacketPath": "src/data/contentSpotCheckPacket.json",

@@ -15,14 +15,14 @@ export const GROUP_PRACTICE_COPY = {
       passive: {preview: 'Watch · listen', steps: [['Watch', 'Listen for the skill and what changes on the retry.'], ['Make room', 'Let the active observer give coaching and finish the item.']]}
     },
     awarenessGuide: {
-      therapist: {preview: 'Notice · share · notice again', steps: [['Notice', 'Attend to your body, feelings and impulses as the line is read.'], ['Share', 'Share only what you choose; you do not need to respond to the client.'], ['Again', 'Hear the same line again. Notice what changes.']]},
+      therapist: {preview: 'Notice · reflect · notice again', steps: [['Notice', 'Attend to your body, feelings and impulses as the line is read.'], ['Reflect', 'Keep it private, or share only what you choose with the group.'], ['Again', 'Hear the same line again. Notice what changes.']]},
       client: {preview: 'Read · reflect · repeat', steps: [['Read', 'Read the client’s line, then step out of role.'], ['Reflect', 'Describe the pause and noticing, without interpreting the therapist.'], ['Repeat', 'Read the same line again; respect what the therapist keeps private.']]},
       observer: {preview: 'Notice · support · finish', steps: [['Notice', 'Listen for awareness and respect for boundaries.'], ['Support', 'Offer one gentle noticing experiment, without interpretation or pressure to disclose.'], ['Finish', 'Finish after the second listen. Rate awareness, not private content.']]},
       passive: {preview: 'Watch · respect boundaries', steps: [['Watch', 'Notice how the therapist pauses and attends to their reaction.'], ['Boundaries', 'Respect what stays private. Leave coaching to the active observer.']]}
     },
-    awarenessCue: {therapist: 'Notice your reaction; you do not need to respond to the client. Share only what you choose.', client: 'Read, then step out of role. Reflect on the pause; respect what stays private.', observer: 'Notice one strength. Suggest a gentle experiment without interpreting or asking for disclosure.', passive: 'Listen to the process. Respect what the therapist keeps private.'},
+    awarenessCue: {therapist: 'Notice your reaction. Keep it private, or share only what you choose with the group.', client: 'Read, then step out of role. Reflect on the pause; respect what stays private.', observer: 'Notice one strength. Suggest a gentle experiment without interpreting or asking for disclosure.', passive: 'Listen to the process. Respect what the therapist keeps private.'},
     finishNext: 'Finish item · next', finishLast: 'Finish item · rate set', beforeExample: 'Optional, after your own attempt and feedback.',
-    example: 'See an example', hideExample: 'Hide example', exampleNote: 'An example, not an answer key. Choose one change to try.',
+    example: 'See an example', hideExample: 'Hide example', exampleNote: 'An example, not an answer key. Choose one change to try.', awarenessExampleNote: 'Your reaction may differ, including feeling little or nothing. Notice your own experience.',
   },
   no: {
     reflection: {therapist: 'Hvilken endring hjalp?', client: 'Hva endret seg ved det nye forsøket?', observer: 'Hva fungerte godt, og hva bør terapeuten prøve neste gang?', passive: 'Hva la du merke til ved ferdigheten?'},
@@ -39,14 +39,14 @@ export const GROUP_PRACTICE_COPY = {
       passive: {preview: 'Følg med · lytt', steps: [['Følg med', 'Lytt etter ferdigheten og hva som endrer seg ved det nye forsøket.'], ['Gi plass', 'La den aktive observatøren veilede og fullføre utsagnet.']]}
     },
     awarenessGuide: {
-      therapist: {preview: 'Merk · del · merk på nytt', steps: [['Merk', 'Legg merke til kropp, følelser og impulser mens utsagnet leses.'], ['Del', 'Del bare det du selv velger; du trenger ikke svare klienten.'], ['På nytt', 'Lytt til det samme utsagnet igjen. Merk hva som endrer seg.']]},
+      therapist: {preview: 'Merk · reflekter · merk på nytt', steps: [['Merk', 'Legg merke til kropp, følelser og impulser mens utsagnet leses.'], ['Reflekter', 'Behold det for deg selv, eller del bare det du selv velger med gruppen.'], ['På nytt', 'Lytt til det samme utsagnet igjen. Merk hva som endrer seg.']]},
       client: {preview: 'Les · reflekter · gjenta', steps: [['Les', 'Les klientens utsagn, og gå så ut av rollen.'], ['Reflekter', 'Beskriv pausen og oppmerksomheten, uten å tolke terapeuten.'], ['Gjenta', 'Les det samme utsagnet igjen; respekter det som holdes privat.']]},
       observer: {preview: 'Merk · støtt · fullfør', steps: [['Merk', 'Lytt etter bevissthet og respekt for grenser.'], ['Støtt', 'Foreslå ett varsomt eksperiment, uten tolkning eller press om å dele.'], ['Fullfør', 'Fullfør etter den andre lyttingen. Vurder bevissthet, ikke privat innhold.']]},
       passive: {preview: 'Følg med · respekter grenser', steps: [['Følg med', 'Legg merke til hvordan terapeuten stopper opp og merker egen reaksjon.'], ['Grenser', 'Respekter det som holdes privat. La den aktive observatøren veilede.']]}
     },
-    awarenessCue: {therapist: 'Merk din reaksjon; du trenger ikke svare klienten. Del bare det du selv velger.', client: 'Les, og gå så ut av rollen. Reflekter over pausen; respekter det som holdes privat.', observer: 'Legg merke til én styrke. Foreslå et varsomt eksperiment uten å tolke eller be om utlevering.', passive: 'Lytt til prosessen. Respekter det terapeuten holder privat.'},
+    awarenessCue: {therapist: 'Merk din reaksjon. Behold den for deg selv, eller del bare det du selv velger med gruppen.', client: 'Les, og gå så ut av rollen. Reflekter over pausen; respekter det som holdes privat.', observer: 'Legg merke til én styrke. Foreslå et varsomt eksperiment uten å tolke eller be om utlevering.', passive: 'Lytt til prosessen. Respekter det terapeuten holder privat.'},
     finishNext: 'Fullfør · neste utsagn', finishLast: 'Fullfør · vurder settet', beforeExample: 'Valgfritt, etter eget forsøk og tilbakemelding.',
-    example: 'Se et eksempel', hideExample: 'Skjul eksempelet', exampleNote: 'Et eksempel, ikke en fasit. Velg én endring å prøve.',
+    example: 'Se et eksempel', hideExample: 'Skjul eksempelet', exampleNote: 'Et eksempel, ikke en fasit. Velg én endring å prøve.', awarenessExampleNote: 'Din reaksjon kan være annerledes, også at du kjenner lite eller ingenting. Merk din egen opplevelse.',
   },
 };
 
@@ -110,7 +110,7 @@ export function createGroupRoleGuide({language, awareness = false, role, pair = 
       const response = node('div'); response.id = `${examplePrefix}-example-response`; response.hidden = true;
       reveal.setAttribute('aria-expanded', 'false'); reveal.setAttribute('aria-controls', response.id);
       reveal.addEventListener('click', () => {
-        if (!response.childElementCount) response.append(node('p', s.exampleNote, 'response-hint'), node('p', example, 'room-example-text'));
+        if (!response.childElementCount) response.append(node('p', awareness ? s.awarenessExampleNote : s.exampleNote, 'response-hint'), node('p', example, 'room-example-text'));
         response.hidden = !response.hidden;
         reveal.textContent = response.hidden ? s.example : s.hideExample;
         reveal.setAttribute('aria-expanded', String(!response.hidden));

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-02T18:34:37.094Z",
-  "revision": "2026-10-02-v2",
+  "generatedAt": "2026-10-04T23:21:52.055Z",
+  "revision": "2026-10-04-v4",
   "instructions": [
     "Rank or label each sample as easy, moderate, or hard before checking the answer key.",
     "Base the judgment on the item alone, not on assumed case identity.",
@@ -19,11 +19,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Loving] I was crying on the bed last night and my dog climbed up beside me like he always does. He put his head on my leg and stayed there while I talked to him about the breakup. It sounds silly, but he is the only one who never seems tired of me being sad. I do not know where I would be without him.",
-            "response": "[Self-awareness] I notice warmth in my chest and a tender wish to comfort her; I would disclose the warmth if useful and keep the rescuing impulse for supervision."
+            "response": "[Self-awareness] I notice warmth in my chest and a wish to comfort her. I can hold both privately while listening, without acting on the rescuing impulse."
           },
           "no": {
             "statement": "[Kjærlig] Jeg lå på sengen og gråt i går kveld, og hunden min krøp opp ved siden av meg, som han alltid gjør. Han la hodet på beinet mitt og ble liggende mens jeg snakket med ham om bruddet. Det høres dumt ut, men han er den eneste som aldri virker lei av at jeg er trist. Jeg vet ikke hvor jeg hadde vært uten ham.",
-            "response": "[Selvbevissthet] Jeg merker varme i brystet og et ømt ønske om å trøste henne; jeg ville bare delt varmen hvis det var nyttig, og tatt redningstrangen med til veiledning."
+            "response": "[Selvbevissthet] Jeg merker varme i brystet og et ønske om å trøste henne. Jeg kan beholde begge deler for meg selv mens jeg lytter, uten å handle på trangen til å redde henne."
           }
         },
         {
@@ -66,11 +66,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tense] I stayed up past midnight fixing slides because I could not stand the thought of someone catching me unsure in the morning.",
-            "response": "You overprepared so no one would see you unsure."
+            "response": "You were afraid they would see you unsure, so it felt hard to stop preparing."
           },
           "no": {
             "statement": "[Anspent] Jeg satt oppe til etter midnatt og fikset på presentasjonen, fordi jeg ikke tålte tanken på at noen skulle ta meg i å være usikker om morgenen.",
-            "response": "Du overforberedte deg så ingen skulle se deg usikker."
+            "response": "Du var redd de skulle se at du var usikker, så det ble vanskelig å slutte å forberede deg."
           }
         },
         {
@@ -79,11 +79,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Wounded but sharp] When my kids cry, I get impatient, and then I hate how hard I sound when I see them pull away.",
-            "response": "Their crying brings out impatience, and then you hate the hard sound of yourself as they pull away."
+            "response": "You get impatient with their tears, then hate how harsh you sound when they pull away."
           },
           "no": {
             "statement": "[Såret, men skarp] Når barna mine gråter, blir jeg utålmodig, og så hater jeg hvor hard jeg høres ut når jeg ser dem trekke seg unna.",
-            "response": "Gråten deres får fram utålmodighet, og så hater du den harde lyden av deg selv når de trekker seg unna."
+            "response": "Du blir utålmodig når de gråter, og så hater du hvor hard du høres ut når de trekker seg unna."
           }
         },
         {
@@ -92,11 +92,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tense] When things get calm after a fight, I feel nervous instead of relaxed. I start waiting for the next thing someone is going to say.",
-            "response": "Calm after a fight does not feel calm; it leaves you nervous and waiting."
+            "response": "Even when the fight is over, you feel tense, waiting for what someone will say next."
           },
           "no": {
             "statement": "[Anspent] Når ting blir rolige etter en krangel, blir jeg nervøs i stedet for avslappet. Jeg begynner å vente på det neste noen kommer til å si.",
-            "response": "Ro etter en krangel kjennes ikke rolig; den gjør deg nervøs og ventende."
+            "response": "Selv når krangelen er over, er du anspent og venter på hva noen skal si neste gang."
           }
         }
       ]
@@ -160,11 +160,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Slow and flat] Most days feel muted, and I cannot tell if I am sad or just numb.",
-            "response": "As that muted feeling is here, what do you notice it doing in you?"
+            "response": "What is that muted feeling like in you right now?"
           },
           "no": {
             "statement": "[Langsomt og flatt] De fleste dager føles dempet, og jeg klarer ikke vite om jeg er trist eller bare nummen.",
-            "response": "Når den dempede følelsen er her, hva merker du at den gjør med deg?"
+            "response": "Hvordan kjennes det å være så avflatet akkurat nå?"
           }
         },
         {
@@ -207,11 +207,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Demanding] I need anger control, not a deep dive into what I feel under it.",
-            "response": "Anger control works best when it starts before the explosion. Looking underneath helps you catch the first hit of shame, threat, or fear, so control begins earlier than forcing yourself to calm down after the damage is done."
+            "response": "You want to stop the anger doing damage. We can work on that directly, including what happens before an outburst. Looking at the feelings involved is a way to recognize the build-up earlier, not a requirement to reveal everything at once."
           },
           "no": {
-            "statement": "[Kravstor] Jeg trenger sinnekontroll, ikke en dypdykk i hva jeg føler under det.",
-            "response": "Sinnekontroll virker best når den starter før eksplosjonen. Å se under sinnet hjelper deg å fange første støt av skam, trussel eller frykt, så kontrollen begynner tidligere enn når du må tvinge deg rolig etter at skaden har skjedd."
+            "statement": "[Kravstor] Jeg trenger sinnekontroll, ikke et dypdykk i hva jeg føler under det.",
+            "response": "Du vil hindre at sinnet gjør skade. Vi kan jobbe direkte med det, også med det som skjer før et utbrudd. Å se på følelsene som er der, er en måte å kjenne igjen oppbyggingen tidligere på. Du trenger ikke fortelle alt på én gang."
           }
         },
         {
@@ -220,11 +220,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Worried] How does noticing a tight jaw help me lead when a meeting turns tense?",
-            "response": "The tight jaw helps as an early warning, not a distraction. If you catch it before your voice sharpens, you get a few seconds to answer with authority instead of heat."
+            "response": "You want to handle a tense meeting well. Your jaw tightening can be a cue to pause and notice what is happening before you answer. The point is to understand your reaction early enough to choose a response that fits the situation."
           },
           "no": {
             "statement": "[Bekymret] Hvordan hjelper det meg å lede at jeg merker stram kjeve når et møte blir spent?",
-            "response": "Den stramme kjeven hjelper som et tidlig varsel, ikke en avsporing. Hvis du fanger det før stemmen blir skarp, får du noen sekunder til å svare med autoritet i stedet for affekt."
+            "response": "Du vil håndtere et anspent møte godt. Når kjeven strammer seg, kan det være et signal om å stoppe opp og merke hva som skjer før du svarer. Poenget er å forstå reaksjonen tidlig nok til å velge et svar som passer situasjonen."
           }
         },
         {
@@ -233,11 +233,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tense] How is breathing supposed to matter when I'm already two seconds from snapping?",
-            "response": "Breathing matters only as a doorway. It buys a few seconds because those seconds let you catch hurt or humiliation before the snap becomes the only move."
+            "response": "When you are that close to snapping, breathing alone may not be enough. We also need to understand how the pressure builds before that point. Noticing the earlier signs can help you step away before anyone is frightened or hurt."
           },
           "no": {
             "statement": "[Anspent] Hvordan skal pust bety noe når jeg allerede er to sekunder fra å smelle?",
-            "response": "Pust betyr noe bare som en døråpner. Den kjøper noen sekunder, fordi de sekundene lar deg fange sårethet eller ydmykelse før smellet blir eneste mulighet."
+            "response": "Når du er så nær ved å eksplodere, er det ikke sikkert at pust alene er nok. Vi trenger også å forstå hvordan trykket bygger seg opp før det punktet. Å merke de tidligere tegnene kan hjelpe deg å trekke deg unna før noen blir skremt eller skadet."
           }
         }
       ]
@@ -314,11 +314,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Flat and guarded] Most mornings I get up, make coffee, answer the messages I have to answer, and notice I still do not feel much.",
-            "response": "The morning has movement but no warmth, as if you are going through the rooms while the color has been drained out of them."
+            "response": "It sounds like the day is running in grey: everything keeps moving, but very little reaches you."
           },
           "no": {
             "statement": "[Flatt og på vakt] De fleste morgener står jeg opp, lager kaffe, svarer på meldingene jeg må svare på, og merker at jeg fortsatt ikke kjenner særlig mye.",
-            "response": "Morgenen har bevegelse, men lite varme, som om du går gjennom rommene etter at fargene er tappet ut av dem."
+            "response": "Det høres ut som om dagen går i grått: Alt fortsetter, men lite når inn til deg."
           }
         },
         {
@@ -327,11 +327,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Distrustful] You say your notes are private, but if you write that I am unstable, I will not know until it is already out there.",
-            "response": "The note can feel like betrayal happening quietly after you leave, a page that could turn against you without warning."
+            "response": "It is as if the words on that page could travel somewhere you cannot follow, leaving you with no say in how you are seen."
           },
           "no": {
             "statement": "[Mistroisk] Du sier at notatene dine er private, men hvis du skriver at jeg er ustabil, får jeg ikke vite det før det allerede er der ute.",
-            "response": "Notatet kan kjennes som et svik som skjer stille etter at du har gått, en side som kan vende seg mot deg uten forvarsel."
+            "response": "Det er som om ordene på arket kunne havne et sted du ikke kan følge etter, uten at du får sagt noe om hvordan andre ser deg."
           }
         }
       ]
@@ -350,11 +350,11 @@
           ],
           "en": {
             "statement": "[Tense] I only pour a drink after work because my wife keeps pushing; if she would stop nagging, I would not need it.",
-            "response": "You put the drinking on her pushing; I wonder if the drink also helps you get away from feeling blamed."
+            "response": "You connect the drinking to feeling pushed by your wife. I wonder if being blamed feels hard to bear, and the drink gives you some distance from that."
           },
           "no": {
             "statement": "[Anspent] Jeg tar bare et glass etter jobb fordi kona mi presser på; hvis hun sluttet å mase, hadde jeg ikke trengt det.",
-            "response": "Du legger drikkingen på presset hennes; jeg lurer på om glasset også hjelper deg bort fra følelsen av å være anklaget."
+            "response": "Du knytter drikkingen til presset fra kona di. Jeg lurer på om det er vanskelig å tåle å bli anklaget, og om glasset gir deg litt avstand fra det."
           }
         },
         {
@@ -363,11 +363,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Avoidant] In hard talks, I reach for my phone when the conversation starts to get personal.",
-            "response": "You reach for an exit as closeness comes in; maybe being personal feels dangerous when you expect judgment."
+            "response": "You turn to your phone when things get personal. I wonder if you feel exposed and expect to be judged if you stay in the conversation."
           },
           "no": {
             "statement": "[Unnvikende] I vanskelige samtaler griper jeg etter telefonen når praten begynner å bli personlig.",
-            "response": "Du griper etter en utvei idet nærheten kommer inn; kanskje kjennes det personlige farlig når du forventer å bli bedømt."
+            "response": "Du vender deg mot telefonen når samtalen blir personlig. Jeg lurer på om du kjenner deg utsatt og venter å bli dømt hvis du blir i samtalen."
           }
         },
         {
@@ -376,11 +376,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tense and angry] I puff up when someone challenges me, before they can see it lands.",
-            "response": "You armor up fast; I wonder if it covers that split second where the challenge actually lands and makes you feel less-than."
+            "response": "You react strongly before they can see the challenge has landed. I wonder if there is a moment of feeling small that you do not want them to see."
           },
           "no": {
             "statement": "[Anspent og sint] Jeg blåser meg opp når noen utfordrer meg, før de kan se at det treffer.",
-            "response": "Du tar på rustningen fort; jeg lurer på om den dekker over det korte øyeblikket der utfordringen faktisk treffer og får deg til å kjenne deg mindre."
+            "response": "Du reagerer sterkt før de ser at utfordringen treffer. Jeg lurer på om du kjenner deg liten et øyeblikk som du ikke vil at de skal se."
           }
         }
       ]
@@ -446,11 +446,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Slow and flat] When I feel nothing, do you get uncomfortable or think I am unreachable?",
-            "response": "I do not feel uncomfortable with the numbness, and I do not see you as unreachable. I feel careful and patient with it, and I want you to have room here without performing feeling for me."
+            "response": "I want to understand what the numbness is like for you, rather than decide you are unreachable. I am choosing to slow down; you do not have to produce a feeling for me. What is it like to hear that?"
           },
           "no": {
             "statement": "[Langsomt og flatt] Når jeg ikke føler noe, blir du utilpass eller tenker at jeg er utilgjengelig?",
-            "response": "Jeg blir ikke utilpass av nummenheten, og jeg ser deg ikke som utilgjengelig. Jeg kjenner meg varsom og tålmodig med den, og jeg vil at du får rom her uten å prestere følelse for meg."
+            "response": "Jeg vil forstå hvordan nummenheten er for deg, fremfor å bestemme meg for at du er utilgjengelig. Jeg velger å senke tempoet. Du trenger ikke få frem en følelse for min skyld. Hvordan er det å høre det?"
           }
         },
         {
@@ -459,11 +459,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Hesitant] Do you actually care about me or are you paid to?",
-            "response": "I do care about you in this therapy relationship. The paid role gives the care boundaries; it does not make it fake. We can stay with both the relief and suspicion that may bring up."
+            "response": "I care about you within this therapy relationship. Being paid is part of my professional role, and that role also sets limits on what I can offer. What is it like to hear those things together?"
           },
           "no": {
             "statement": "[Nølende] Bryr du deg egentlig om meg, eller får du betalt for det?",
-            "response": "Jeg bryr meg om deg i denne terapirelasjonen. Den betalte rollen gir omsorgen grenser; den gjør den ikke falsk. Vi kan være med både lettelsen og mistilliten det kan vekke."
+            "response": "Jeg bryr meg om deg i dette terapiforholdet. Betalingen er en del av den profesjonelle rollen min, og den rollen setter også grenser for hva jeg kan tilby. Hvordan er det å høre de tingene sammen?"
           }
         },
         {
@@ -472,11 +472,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tearful] When I say I still miss him, do you secretly think I sound ridiculous?",
-            "response": "No. I do not hear ridiculous. I hear grief for someone who mattered, and I am moved by how carefully you are trying to survive this loss. Notice what happens as I say that."
+            "response": "I do not see your grief as ridiculous. I am moved that you can bring it here, even when you feel embarrassed. What is it like to hear me say that?"
           },
           "no": {
             "statement": "[På gråten] Når jeg sier at jeg fortsatt savner ham, tenker du egentlig at jeg høres latterlig ut?",
-            "response": "Nei. Jeg hører ikke noe latterlig. Jeg hører sorg over en som betydde noe, og jeg blir berørt av hvor varsomt du prøver å overleve dette tapet. Legg merke til hva som skjer når jeg sier det."
+            "response": "Jeg ser ikke sorgen din som latterlig. Det berører meg at du kan ta den med hit, også når du er flau. Hvordan er det å høre meg si det?"
           }
         }
       ]
@@ -506,11 +506,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tense] When my wife reaches for me after a fight, I make a joke or start talking about what needs fixing.",
-            "response": "The joke and the fixing pull you away just as softness comes close. Could we give that steering-away side this chair? Show how it moves him into joking or fixing; then we will move to the softer side and let it answer."
+            "response": "The joke and the fixing pull you away just as softness comes close. Would you try two chairs to see how you turn away? If you agree, picture the softer side of yourself opposite and show how you steer him into joking or fixing; then we will move to the softer side and let it answer."
           },
           "no": {
             "statement": "[Anspent] Når kona mi prøver å ta på meg etter en krangel, lager jeg en spøk eller begynner å snakke om det som må fikses.",
-            "response": "Spøken og fiksingen drar deg unna akkurat når noe mykere kommer nær. Kan vi gi den siden som styrer bort, denne stolen? Vis hvordan den fører ham inn i spøk eller fiksing; så flytter vi til den mykere siden og lar den svare."
+            "response": "Spøken og fiksingen drar deg unna akkurat når noe mykere kommer nær. Vil du prøve to stoler for å se hvordan du vender deg bort? Hvis du vil, se den mykere siden av deg selv for deg i den andre stolen og vis hvordan du får ham til å spøke eller fikse; så flytter vi til den mykere siden og lar den svare."
           }
         },
         {
@@ -519,11 +519,11 @@
           "riskFlags": [],
           "en": {
             "statement": "[Tense] When my voice shakes, I cough, sit up straighter, and make my face hard. I can almost hear my father saying, Do not let them see you like that, so I turn it into a stare.",
-            "response": "The hard face turns the shaking into something no one can see. Let's use two chairs to show that process. From this chair, harden the face and say, 'do not let them see you like that'; then we will move to the side that was shaking."
+            "response": "The hard face turns the shaking into something no one can see. Would you try two chairs to see how you stop the shaking? If you agree, give the hard-faced side one chair and the shaking side the other. From the first chair, harden the face and say, 'do not let them see you like that'; then we will move to the side that was shaking."
           },
           "no": {
             "statement": "[Anspent] Når stemmen min skjelver, kremter jeg, retter meg opp og gjør ansiktet hardt. Jeg kan nesten høre faren min si: Ikke la dem se deg sånn, så jeg gjør det om til et blikk.",
-            "response": "Det harde ansiktet gjør skjelvingen usynlig. To stoler kan vise hvordan det skjer. Fra denne stolen gjør du ansiktet hardt og sier: «Ikke la dem se deg sånn.» Så flytter vi til siden som skalv."
+            "response": "Det harde ansiktet gjør skjelvingen usynlig. Vil du prøve to stoler for å se hvordan du stopper skjelvingen? Hvis du vil, får siden med det harde ansiktet én stol og den skjelvende siden den andre. Fra den første stolen gjør du ansiktet hardt og sier: «Ikke la dem se deg sånn.» Så flytter vi til siden som skalv."
           }
         }
       ]

@@ -2,13 +2,14 @@
 // All history and authentication are mocked; no live data is read or changed.
 async (page) => {
   if (!['127.0.0.1', 'localhost'].includes(new URL(page.url()).hostname)) throw new Error('Use a local preview.');
+  const targetSkill = new URL(page.url()).searchParams.get('testSkill') ?? 'empathic-understanding';
   page.setDefaultTimeout(10000);
   const assert = (value, message) => { if (!value) throw new Error(message); };
   const errors = [];
   const onError = (error) => errors.push(error.message);
   page.on('pageerror', onError);
   const click = (id) => page.locator('#' + id).click();
-  const row = { skill_id: 'empathic-understanding', case_id: 'case-sara', difficulty: 'easy', score: 4, item_count: 3, created_at: '2026-09-29T12:00:00Z' };
+  const row = { skill_id: targetSkill, case_id: 'case-sara', difficulty: 'easy', score: 4, item_count: 3, created_at: '2026-09-29T12:00:00Z' };
   let data = {self: [], observer: [{...row, score: 2, item_count: 1}]};
   let fail = false;
   let hold = false;
@@ -42,9 +43,12 @@ async (page) => {
       if (!response.ok) throw new Error('Test network failure');
       return response.json();
     };
-    export const getPracticeGoal = async scope => scope.skillId==='empathic-understanding' ? 'Pause before reflecting.' : '';
+    export const getPracticeGoal = async scope => scope.skillId==='${targetSkill}' ? 'Pause before reflecting.' : '';
     export const savePracticeGoal = async s => s.text;
-    export const listPracticeRatings = async ({source}) => {
+    export const listMasteryRatings=async()=>[];
+      export const getMasteryCapabilities=async()=>null;
+      export const submitMasteryRating=async()=>{throw new Error('Unexpected mastery write');};
+      export const listPracticeRatings = async ({source}) => {
       const response = await fetch('/__dp_test_history?source=' + source);
       if (!response.ok) throw new Error('Unavailable');
       return response.json();
@@ -93,7 +97,7 @@ async (page) => {
     await waitLoaded();
     assert(await page.locator('.radar-small-row').count() === 1, 'One rated skill uses a readable score comparison');
     await page.getByText('Continue your saved next-attempt target.',{exact:true}).waitFor();
-    assert(await page.locator('[data-suggested-skill=empathic-understanding]').count()===1,'One suggestion continues the latest skill’s private target');
+    assert(await page.locator(`[data-suggested-skill="${targetSkill}"]`).count()===1,'One suggestion continues the latest skill’s private target');
     assert(!(await page.locator('#self-chart').textContent()).includes('Pause before reflecting.'),'The private note itself is not displayed on the progress dashboard');
     assert(await page.locator('.self-chart-axis').count() === 0, 'One skill must not create a degenerate radar');
     data.self.push({...row, skill_id:'therapist-self-awareness', score:3});
@@ -101,7 +105,7 @@ async (page) => {
     await waitLoaded();
     assert(await page.locator('.radar-small-row').count() === 2, 'Two rated skills remain readable');
     assert(await page.locator('.radar-small-profile h5').count() === 2, 'Only rated skills appear in the compact comparison');
-    const history = page.locator('.progress-skill').filter({has:page.locator('[data-practice-skill="empathic-understanding"]')});
+    const history = page.locator('.progress-skill').filter({has:page.locator(`[data-practice-skill="${targetSkill}"]`)});
     assert((await history.textContent()).includes('3 rated items') && (await history.textContent()).includes('Sep'), 'History must show counts and latest date');
     const original = data.self;
     const day=86400000, now=Date.now();
@@ -184,7 +188,7 @@ async (page) => {
     await page.evaluate(()=>localStorage.setItem('dp_active_therapist_target_v1:test-self',JSON.stringify({targetId:'test-partner'})));
     await click('open-progress');
     await waitLoaded();
-    await page.locator('[data-practice-skill="empathic-understanding"]').click();
+    await page.locator(`[data-practice-skill="${targetSkill}"]`).click();
     assert(await page.locator('#case-selection').isVisible(), 'Practice action must open that skill’s cases');
     await page.locator('[data-case-id="case-sara"]').click();
     await click('start-practice');
@@ -227,7 +231,7 @@ async (page) => {
     release();
     hold = false;
     await waitLoaded();
-    assert(await page.locator('.self-chart-dot').count() === 12, 'A repeated current-user session must not cancel progress loading');
+    assert(await page.locator('.self-chart-dot').count() === allSkills.length, 'A repeated current-user session must not cancel progress loading');
     await page.locator('#progress-source').selectOption('observer');
     await waitLoaded();
     await page.evaluate(async () => (await import('/deliberatepractice/src/js/backend.js')).repeatCurrentSession());

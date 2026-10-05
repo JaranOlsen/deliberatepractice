@@ -1,0 +1,171 @@
+{
+  "id": "mastery-nora-work-and-belonging-hard",
+  "type": "mastery",
+  "caseId": "case-nora",
+  "difficulty": "hard",
+  "supportedLevels": [
+    "hard"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Nora · Arbeid og tilhørighet",
+  "orientation": "Tolv sammenhengende øyeblikk om utestenging, viktig arbeid og en egen stemme. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "scenes": [
+    {
+      "id": "mastery_nora_hard_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-nora_hard_01",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Nora begynner med konkrete fakta og vanen med å gjøre dem mildere.",
+      "prompt": "Speil utestengingen uten å gjøre den mildere eller større.",
+      "text": "[Lavt] Han ville ha tegningene. Ikke meg foran dem. Jeg gjør stadig setningen mindre stygg.",
+      "suggestion": "Bidraget var ønsket mens nærværet ditt ble avvist, og du gjør stadig ordene mildere."
+    },
+    {
+      "id": "mastery_nora_hard_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-nora_hard_03",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "bridge": "Hun spør om selve hendelsen kan være nok til å såre.",
+      "prompt": "Tilby utforskning uten å finne på en dypere årsak.",
+      "text": "[Skeptisk] Leter vi etter den «egentlige smerten» under? Selve hendelsen såret.",
+      "suggestion": "Vi trenger ingen dypere forklaring for å gi det såre gyldighet. Vi kan bli ved det du kjenner igjen i hendelsen."
+    },
+    {
+      "id": "mastery_nora_hard_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-nora_hard_01",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "bridge": "Et annet øyeblikk skiller bestridt tilhørighet fra identitetsforvirring.",
+      "prompt": "Valider forskjellen hennes heller enn å tilskrive et identitetsproblem.",
+      "text": "[Lavt] Jeg er ikke forvirret om hvor jeg hører til. Jeg er lei av at det blir bestridt.",
+      "suggestion": "Du trenger ikke et identitetsproblem for at de gjentatte spørsmålene skal såre."
+    },
+    {
+      "id": "mastery_nora_hard_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-nora_hard_02",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "bridge": "Nora retter et uttrykk som bommer på opplevelsen.",
+      "prompt": "Spør hva korrigeringen gjør viktig å forstå.",
+      "text": "[Retter] «Å ikke høre til» er ikke helt det. Jeg vet at jeg hører til.",
+      "suggestion": "Hva mangler det uttrykket om opplevelsen din?"
+    },
+    {
+      "id": "mastery_nora_hard_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-nora_hard_01",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "bridge": "Det såre er til stede; Nora avslår en eldre forklaring på det.",
+      "prompt": "Undersøk dette såre på hennes premisser.",
+      "text": "[Såret, bestemt] Det såre er her. Jeg vil ikke at du finner noe eldre sårt som forklarer det.",
+      "suggestion": "Vi kan bli ved dette såre. Hva vil du ha hørt i det?"
+    },
+    {
+      "id": "mastery_nora_hard_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-nora_hard_10",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "bridge": "Hun setter ord på ønsket om å bli inkludert og avviser en videre merkelapp.",
+      "prompt": "Tilby én tentativ forskjell og undersøk om den passer.",
+      "text": "[Ettertenksom] Jeg vil at jobben inkluderer meg. Jeg vil ikke at det kalles behov for godkjenningen deres.",
+      "suggestion": "Kan det være et ønske om en rimelig plass på jobb, heller enn at alle skal godkjenne deg?"
+    },
+    {
+      "id": "mastery_nora_hard_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-nora_hard_01",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "bridge": "Et konkret uttrykk knytter tegnebordet til plassen hennes der.",
+      "prompt": "Bruk uttrykket hennes til å gjøre opplevelsen nær uten overdrivelse.",
+      "text": "[På avstand] Arbeidet ligger på bordet. Plassen min ved bordet blir diskusjonen.",
+      "suggestion": "Er det som om tegningene venter mens du må forsvare stolen du sitter på?"
+    },
+    {
+      "id": "mastery_nora_hard_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-nora_hard_07",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "Praktisk støtte får nå prioritet foran å gå tilbake til det såre.",
+      "prompt": "Respekter retningen hun velger.",
+      "text": "[Bestemt] Jeg må velge praktisk støtte før vi går tilbake til det såre.",
+      "suggestion": "Vi følger det. Å gå tilbake til det såre trenger ikke komme først."
+    },
+    {
+      "id": "mastery_nora_hard_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-nora_hard_04",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "bridge": "Et senere rystet øyeblikk trenger noe kontakt uten et nytt spørsmål.",
+      "prompt": "Tilby noen få vanlige ord som gir selskap.",
+      "text": "[Lavt, skjelver] Stillhet er for langt unna. Flere spørsmål er for mye.",
+      "suggestion": "Jeg er her. Jeg hører hvor vondt dette gjør. Ikke noe nytt spørsmål ennå."
+    },
+    {
+      "id": "mastery_nora_hard_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-nora_hard_03",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Et annet øyeblikk på jobb er uklart uten at de tidligere fakta endres.",
+      "prompt": "Behold usikkerheten og den konkrete utestengingen hver for seg.",
+      "text": "[Nøler] Jeg vet ikke hvorfor det skjedde i dag. Ikke la det bety at den andre kommentaren var uklar.",
+      "suggestion": "Motivet i dag er usikkert. Det gjør ikke det Ben tidligere sa mindre tydelig."
+    },
+    {
+      "id": "mastery_nora_hard_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-nora_hard_08",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Nora merker en forskjell mellom dette øyeblikket og de tidligere.",
+      "prompt": "Hjelp henne å sette ord på den lille forskjellen uten å gjøre den større.",
+      "text": "[Ettertenksom] Jeg er usikker på ett øyeblikk uten å trekke tilbake de andre nå.",
+      "suggestion": "Hva hjalp deg å gi den usikkerheten sin egen plass?"
+    },
+    {
+      "id": "mastery_nora_hard_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-nora_hard_07",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "Timen slutter med en korrigering hun vil ha husket.",
+      "prompt": "Behold ordene hennes som utgangspunkt til en annen gang.",
+      "text": "[Ettertenksom] Husk korrigeringen min, ikke bare den første tolkningen.",
+      "suggestion": "Vi noterer korrigeringen med dine ord. Hvilken formulering skal vi beholde til neste gang?"
+    }
+  ]
+}

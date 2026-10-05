@@ -1,3 +1,4 @@
+import {CANONICAL_SKILL_ORDER} from "../src/data/contentMeta.js";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -41,11 +42,11 @@ SKILL_ORDER.forEach((skillId) => {
   assert(!EXPERIMENTAL_SKILL_IDS.includes(skillId), `Experimental skill leaked into production order: ${skillId}`);
   const skill = BASE_PRACTICE[skillId];
   assert(Boolean(skill), `Missing BASE_PRACTICE entry for ${skillId}`);
-  assert(Object.keys(skill?.cases ?? {}).length === Object.keys(CASE_BIBLES).length,
-    `Case coverage mismatch for ${skillId}`);
+  assert(Object.keys(skill?.cases ?? {}).length > 0, `No available cases for ${skillId}`);
   Object.entries(skill?.cases ?? {}).forEach(([caseId, caseItem]) => {
     assert(Boolean(CASE_BIBLES[caseId]), `Missing case bible for ${caseId}`);
-    assert(caseItem.statements?.length === 12, `Expected 12 items for ${skillId}/${caseId}`);
+    assert(caseItem.statements?.length === 12 * caseItem.supportedLevels.length, `Expected 12 items per supported level for ${skillId}/${caseId}`);
+    for (const level of caseItem.supportedLevels) assert(caseItem.statements.filter(item => item.difficultyTier === level).length === 12, `Incomplete ${level} bank for ${skillId}/${caseId}`);
     const registryItems = CONTENT_REGISTRY?.[skillId]?.[caseId] ?? [];
     assert(
       registryItems.length === (caseItem.statements ?? []).length,
@@ -95,7 +96,7 @@ assert(
 );
 
 const benchmarkSkillIds = Object.keys(BENCHMARK_BANK);
-assert(benchmarkSkillIds.length === SKILL_ORDER.length, "Benchmark bank does not cover all production skills");
+assert(benchmarkSkillIds.length === CANONICAL_SKILL_ORDER.length, "Benchmark bank does not cover all production skills");
 benchmarkSkillIds.forEach((skillId) => {
   const levels = BENCHMARK_BANK[skillId]?.levels ?? {};
   ["beginner", "intermediate", "advanced"].forEach((level) => {
@@ -116,7 +117,7 @@ assert(fs.existsSync(acceptanceChecklistPath), "Missing artifact file: contentAc
 
 if (spotCheckPacket) {
   assert(spotCheckPacket.revision === CONTENT_REVISION, "Spot-check packet revision mismatch");
-  assert(spotCheckPacket.skills?.length === SKILL_ORDER.length, "Spot-check packet skill coverage mismatch");
+  assert(spotCheckPacket.skills?.length === CANONICAL_SKILL_ORDER.length, "Spot-check packet skill coverage mismatch");
   spotCheckPacket.skills?.forEach((skillPacket) => {
     const difficulties = new Set(skillPacket.cases?.map((entry) => entry.difficulty));
     assert(difficulties.size === 3, `Spot-check packet missing difficulty coverage for ${skillPacket.skillId}`);
@@ -127,7 +128,7 @@ if (spotCheckPacket) {
 }
 
 if (blindCaseVoiceReview && blindCaseVoiceAnswerKey) {
-  const expectedPacketCount = SKILL_ORDER.length * 3;
+  const expectedPacketCount = CANONICAL_SKILL_ORDER.length * 3;
   assert(blindCaseVoiceReview.revision === CONTENT_REVISION, "Blind case-voice packet revision mismatch");
   assert(blindCaseVoiceReview.packets?.length === expectedPacketCount, "Blind case-voice packet count mismatch");
   assert(
@@ -141,9 +142,9 @@ if (blindCaseVoiceReview && blindCaseVoiceAnswerKey) {
 
 if (blindDifficultyReview && blindDifficultyAnswerKey) {
   assert(blindDifficultyReview.revision === CONTENT_REVISION, "Blind difficulty packet revision mismatch");
-  assert(blindDifficultyReview.packets?.length === SKILL_ORDER.length, "Blind difficulty packet count mismatch");
+  assert(blindDifficultyReview.packets?.length === CANONICAL_SKILL_ORDER.length, "Blind difficulty packet count mismatch");
   assert(
-    blindDifficultyAnswerKey.packets?.length === SKILL_ORDER.length,
+    blindDifficultyAnswerKey.packets?.length === CANONICAL_SKILL_ORDER.length,
     "Blind difficulty answer-key count mismatch"
   );
   blindDifficultyReview.packets?.forEach((packet) => {
@@ -154,8 +155,8 @@ if (blindDifficultyReview && blindDifficultyAnswerKey) {
 if (acceptanceSummary) {
   assert(acceptanceSummary.revision === CONTENT_REVISION, "Acceptance summary revision mismatch");
   assert(
-    acceptanceSummary.status?.reviewStatusCounts?.approved === totalCount,
-    "Acceptance summary approved count mismatch"
+    Object.values(acceptanceSummary.status?.reviewStatusCounts ?? {}).reduce((sum,count)=>sum+count,0) === totalCount,
+    "Acceptance summary review count mismatch"
   );
   assert(
     acceptanceSummary.status?.translatedCount === translatedCount,

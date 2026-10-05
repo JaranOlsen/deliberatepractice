@@ -1,3 +1,8 @@
+import {FIXED_CASE_EXTENSION_STATEMENTS} from './fixedCaseExtensions.js';
+import {NORA_STATEMENTS} from './noraContent.js';
+import {MIA_STATEMENTS} from './miaContent.js';
+import {EXTENSION_STATEMENTS} from "./skillExtensions.js";
+import {ARNE_STATEMENTS} from './arneContent.js';
 "use strict";
 
 export const STATEMENT_SETS = {
@@ -5,11 +10,11 @@ export const STATEMENT_SETS = {
     "case-sara": [
       {
         "text": "[Loving] I was crying on the bed last night and my dog climbed up beside me like he always does. He put his head on my leg and stayed there while I talked to him about the breakup. It sounds silly, but he is the only one who never seems tired of me being sad. I do not know where I would be without him.",
-        "suggestion": "[Self-awareness] I notice warmth in my chest and a tender wish to comfort her; I would disclose the warmth if useful and keep the rescuing impulse for supervision."
+        "suggestion": "[Self-awareness] I notice warmth in my chest and a wish to comfort her. I can hold both privately while listening, without acting on the rescuing impulse."
       },
       {
         "text": "[Nervous] I am glad I booked this, but I am also nervous because I have never really done therapy before. Part of me worries I will just sit here and talk about him for an hour and you will think this is not a real problem. Another part of me is scared that if I start talking, I will cry and not be able to stop.",
-        "suggestion": "[Self-awareness] I feel a pull to reassure her quickly and organize the session for her; I would name the steadier breath I am taking rather than rush to fix the anxiety."
+        "suggestion": "[Self-awareness] I notice a pull to reassure her quickly and organize the session for her. I pause and notice my breathing before letting that urge decide what I do."
       },
       {
         "text": "[Anxious] Since I moved apartments after the breakup, everything feels unfamiliar. The neighbors are louder, the streets are busier, and I keep comparing it to the old place where I knew exactly what sounds belonged where. I know that is a small thing, but I feel jumpy and out of place all the time. Can you help me settle into this?",
@@ -17,7 +22,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Uncomfortable] Last night I had a strange dream that I was back in the old apartment packing boxes. I could hear him in another room, but every time I opened a door it was empty. Then you were suddenly there helping me tape a box shut. I felt relieved in the dream, and then I woke up embarrassed that you were in it at all.",
-        "suggestion": "[Self-awareness] I notice curiosity, a little embarrassment, and a wish to interpret the dream; I would disclose only the immediate bodily reaction, not the interpretation."
+        "suggestion": "[Self-awareness] I notice curiosity, a little embarrassment, and a wish to interpret the dream. I can notice those reactions privately without turning them into an interpretation or a disclosure to her."
       },
       {
         "text": "[Hopeful] I keep thinking that maybe therapy can help me get my life back, even if that sounds dramatic. I read about people learning to stop repeating the same relationship patterns, and I want that so badly. At the same time, I am afraid of getting hopeful in front of you because then I might disappoint both of us if I stay stuck.",
@@ -41,7 +46,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quietly] I moved apartments after the breakup, and I thought unpacking would make me feel like I was starting over. Instead every box feels like proof that I am doing this alone. I found mugs we bought together and stood there for twenty minutes, then I felt ridiculous because people move on from breakups all the time.",
-        "suggestion": "[Self-awareness] I notice sadness and a pull to soften the loneliness for her; I would name the sadness in myself if I chose to disclose, without turning it into comfort."
+        "suggestion": "[Self-awareness] I notice sadness and a wish to soften her loneliness. I can stay aware of the sadness without rushing to comfort her or asking her to take care of my reaction."
       },
       {
         "text": "[Quietly pleased] I went to the café on my own this weekend. I didn't spend the whole time checking my phone. I wanted to tell you, even though it isn't much.",
@@ -59,7 +64,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Defensive] My last coach gave me breathing tools in two sessions, and at least that felt practical. I am not saying it fixed everything, but I knew what I was supposed to do. I hope this is not going to be a long tour through childhood while my wife is at home deciding whether she can stand me. I need to know you have a plan.",
-        "suggestion": "[Self-awareness] I notice defensiveness on behalf of the therapy and a wish to compete with the previous coach; I would keep that competitiveness private and name only my wish to stay grounded."
+        "suggestion": "[Self-awareness] I notice defensiveness on behalf of the therapy and a wish to compete with the previous coach. I keep that reaction private and notice the pressure to prove myself before responding."
       },
       {
         "text": "[Ashamed] My son asked if I was mad at him after I snapped at my wife, and I could see he was trying to read the room. I told him no, but his face stayed careful. All night I wanted someone to tell me I had not ruined everything. Then I hated that I needed reassurance like that, because I am supposed to be the adult.",
@@ -71,7 +76,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Defensive] If I apologize first, my wife acts like that proves the whole fight was my fault. Maybe she does not say that directly, but that is how it feels. Then I look weak, and she gets to be the reasonable one again. I know that sounds petty, but I cannot stand handing someone proof that they won.",
-        "suggestion": "[Self-awareness] I notice an urge to persuade him toward apology and a slight tightening in my chest; I would mark that urge as mine and not disclose more than feels respectful."
+        "suggestion": "[Self-awareness] I notice an urge to persuade him to apologize and a tightening in my chest. I recognize the urge as mine and pause before letting it become pressure on him."
       },
       {
         "text": "[Awkward] I am not used to talking like this. At work I can run a meeting with ten people and make decisions quickly, but in here I lose my words and feel stupid. If I get quiet, it does not mean I do not care. It means I am trying not to say something that makes me sound either weak or like a jerk.",
@@ -163,7 +168,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and guarded] I would rather not talk about the past today. I know it probably connects to why I am here, but even saying that makes my arms feel heavy and my vision go a little far away. If you push, I will answer politely and then disappear inside. I have done that with therapists before, and they usually do not notice until I stop coming.",
-        "suggestion": "[Self-awareness] I notice responsibility pressure and a wish to prove I will not push; I would disclose only my intention to slow down if it felt clinically useful."
+        "suggestion": "[Self-awareness] I notice pressure to take responsibility and prove I will not push her. I pause and notice that pressure in myself, rather than making a promise to ease my own discomfort."
       },
       {
         "text": "[Flat and guarded] I had two glasses of wine before coming here because otherwise I knew I would sit in the parking lot and drive home. It is not like I am drunk. I can function, and I work around medication and emergencies all day, so I know the difference. I am telling you because I do not want to lie, but I also do not want a lecture.",
@@ -187,7 +192,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and guarded] I think I am broken in a way people eventually get tired of. At first they are patient because the story sounds sad, and then they realize I still cannot do normal things like answer messages, sleep through the night, or believe someone is not angry. I am telling you now because I would rather know early if this is too much.",
-        "suggestion": "[Self-awareness] I notice sadness and a wish to promise endurance; I would keep the promise impulse visible to myself and disclose only what I can genuinely own."
+        "suggestion": "[Self-awareness] I notice sadness and a wish to promise I will always stay. I can hold that wish privately and recognize the pull to promise more than I can honestly offer."
       },
       {
         "text": "[Flat and guarded] Keeping everything controlled feels safer than finding out what is underneath. I can make lists, work extra shifts, keep the house clean enough, and pour a glass of wine at night. None of that is ideal, but it is predictable. If we start opening things up, I do not know what happens after I leave your office.",
@@ -229,7 +234,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Angry, clenching fists] After I lost the promotion, I pictured walking into the trailer and punching my supervisor hard enough that he would finally shut up. I am not saying I was going to do it, but the picture was there, clear as day. He kept talking to me like I was nothing, like all the extra hours meant nothing. I drove around for an hour before going home.",
-        "suggestion": "[Self-awareness] I notice alarm in my stomach and an urge to manage risk quickly; I would ground myself before deciding what, if anything, to disclose about that alarm."
+        "suggestion": "[Self-awareness] I notice alarm in my stomach and an urge to take control quickly. I pause to notice that urgency in myself so it does not decide my next response for me."
       },
       {
         "text": "[Worried] I had beers before I came last time because I did not want to sit here feeling exposed. It made it easier to talk, and I do not want you making a whole thing out of it. I work hard, I do not drink in the morning, and I am not like guys who cannot function. But I also know I did not want to be fully here.",
@@ -263,7 +268,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Guilty] At church I learned that resentment means I am failing as a good person. I know not everyone sees it that way, and I am not asking you to agree with my faith. But if you do not understand that part of me, I worry you will just tell me to be selfish and call it boundaries. I do not want therapy to turn me into someone my family cannot recognize.",
-        "suggestion": "[Self-awareness] I notice assumptions about faith and a wish to show respect quickly; I would observe that pressure and disclose only what feels genuine."
+        "suggestion": "[Self-awareness] I notice assumptions about faith and pressure to show that I understand. I can hold those assumptions privately and recognize what I do not yet know about her experience."
       },
       {
         "text": "[Guilty] If I rest while someone needs me, I feel lazy and selfish. Even when I sit down, I am listening for laundry, dishes, someone asking where something is. My husband tells me to relax, but if I actually relax, things pile up and then I feel worse. I know I sound like I am making excuses, but rest never feels neutral.",
@@ -271,7 +276,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tearful] I can feel tears coming, and I want to apologize so you do not feel burdened. I know you are a therapist and this is probably normal for you, but I still imagine you getting tired of me. People have enough to carry without me adding my mess. So even when I cry, part of me is checking whether it is too much.",
-        "suggestion": "[Self-awareness] I notice the strange tenderness of being protected by the client and a wish to reassure her; I would name that internally before deciding what to share."
+        "suggestion": "[Self-awareness] I notice tenderness at being protected by her and a wish to reassure her. I recognize both as my reactions, without needing her to look after how I feel."
       },
       {
         "text": "[Skeptical] In my family, women keep everyone together. That is not just a sentence; it is how birthdays happen, how sick people get cared for, how children know where they belong. I worry you will not understand why saying no feels wrong. It is easy to say boundaries when you do not have to face the look on everyone's faces afterward.",
@@ -283,7 +288,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] I hate needing help with forms and money. I can manage a classroom full of children, remember everyone's allergies, send birthday gifts, and still stare at one government form until I feel like a child. When I ask my husband for help, he is kind about it, which almost makes it worse. I feel like he sees how incapable I really am.",
-        "suggestion": "[Self-awareness] I notice a practical rescue impulse and a wish to restore her dignity; I would track the urge to help with the form rather than the feeling."
+        "suggestion": "[Self-awareness] I notice a practical rescue impulse and a wish to restore her dignity. I notice how quickly I want to solve the problem with the form instead of staying attentive to what I am feeling."
       },
       {
         "text": "[Torn] I feel like I am stealing time from people who need help more. Even in the waiting room I looked at someone and thought, They probably have a real reason to be here. I know you will say I am allowed to come, but I do not feel allowed. It feels like I slipped into a line meant for people with actual pain.",
@@ -291,7 +296,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Softly] After the separation, I still set out a cup for him some mornings. It happens before I think, like my hands remember the old routine before my head catches up. Then I notice and feel foolish, so I put it back quickly before the boys see. I do not even know if I miss him or just miss the life making sense.",
-        "suggestion": "[Self-awareness] I notice sadness and a wish to protect her from embarrassment; I would disclose only the sadness if I chose to share anything."
+        "suggestion": "[Self-awareness] I notice sadness and a wish to protect her from embarrassment. I can hold both privately while listening, without letting my discomfort hurry her past what she is saying."
       },
       {
         "text": "[Brightly] I brought you some cake from the school fair. I know you probably can't accept it. I just didn't want to arrive here needing something again.",
@@ -363,11 +368,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Demanding] I need efficient solutions, not a slow tour through my feelings. I have a marriage problem, a reputation problem, and a time problem. If the method is to sit with discomfort until something magical happens, I am skeptical. I am willing to do difficult work, but I need to see that you can distinguish depth from inefficiency.",
-        "suggestion": "[Self-awareness] I notice pressure to make EFT sound efficient and impressive; I would track the performance demand in me and keep any self-disclosure boundaried."
+        "suggestion": "[Self-awareness] I notice pressure to make EFT sound efficient and impressive. I pause to notice that wish to perform, rather than acting on it to prove the therapy or myself."
       },
       {
         "text": "[Skeptical] Are you actually experienced enough for someone like me, or is this just standard therapy with better branding? I am not trying to be difficult. I have serious issues on the table, including an affair and a marriage that may collapse. I do not want to be someone's learning experience. If you are out of your depth, I would prefer you say so.",
-        "suggestion": "[Self-awareness] I notice defensiveness, pride, and anxiety about being evaluated; I would ground before sharing anything, so I do not make him manage my competence worry."
+        "suggestion": "[Self-awareness] I notice defensiveness, pride, and anxiety about being evaluated. I can keep those reactions private and notice my breathing without making him manage my worry about competence."
       },
       {
         "text": "[Dismissive] People call me a narcissist because they are jealous or lazy with language. My wife used that word during a fight, and now it has become a convenient way to dismiss anything I say. I want you to say clearly that they are wrong, not do the therapist thing where you pretend to be neutral while quietly agreeing with them.",
@@ -507,7 +512,7 @@ export const STATEMENT_SETS = {
     "case-michael": [
       {
         "text": "[Firm] I spent the whole morning fixing other people's mistakes at work, and by lunch I was fed up with everyone needing me to clean things up.",
-        "suggestion": "You felt worn out and frustrated from carrying everyone else's mistakes."
+        "suggestion": "You were tired and fed up with having to put everyone else's mistakes right."
       },
       {
         "text": "[Ashamed] My wife said she is tired of walking on eggshells around me, and hearing that made me feel ashamed.",
@@ -527,7 +532,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] I stayed up past midnight fixing slides because I could not stand the thought of someone catching me unsure in the morning.",
-        "suggestion": "You overprepared so no one would see you unsure."
+        "suggestion": "You were afraid they would see you unsure, so it felt hard to stop preparing."
       },
       {
         "text": "[Firm] My wife's tone changes a little, and I am already bracing before I know what she is actually trying to say.",
@@ -577,7 +582,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Anxious] I eat lunch at my desk because walking into the break room feels like stepping onto a stage.",
-        "suggestion": "The break room feels exposed enough that your desk feels safer."
+        "suggestion": "Walking into the break room feels exposing, so you stay where you feel less on show."
       },
       {
         "text": "[Quietly] After I say something in a meeting, I spend the rest of the afternoon replaying it and cringing.",
@@ -607,7 +612,7 @@ export const STATEMENT_SETS = {
     "case-laura": [
       {
         "text": "[Slow and flat] I can get through a whole shift at the hospital, talk to patients, answer my kids' messages, and still feel like I am watching it all from far away.",
-        "suggestion": "You keep moving through work and family while feeling flat, as if the rest of you is far away."
+        "suggestion": "You manage work and family, but feel distant from what is happening, as though you are watching rather than taking part."
       },
       {
         "text": "[Worried] Since the divorce, I sit with the bills after work and keep adding the numbers again, wondering if I can keep the house or if I am pretending.",
@@ -627,7 +632,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Sad] A friend stopped inviting me over after I cancelled too many times. Part of me is relieved not to explain myself, but I also feel sad when I see her with other people.",
-        "suggestion": "Relief at not explaining yourself sits next to sadness that the invitations stopped."
+        "suggestion": "You are relieved not to have to explain yourself, and sad that she no longer invites you."
       },
       {
         "text": "[Flat and guarded] I wake up tense before I even open my eyes, listening for whether something is wrong in the house, even though I live alone now.",
@@ -677,7 +682,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] When things get calm after a fight, I feel nervous instead of relaxed. I start waiting for the next thing someone is going to say.",
-        "suggestion": "Calm after a fight does not feel calm; it leaves you nervous and waiting."
+        "suggestion": "Even when the fight is over, you feel tense, waiting for what someone will say next."
       },
       {
         "text": "[Sad] My father is gone, and I still get angry that he never once said he was proud of me. It sounds stupid to want that now, but it still gets to me.",
@@ -707,7 +712,7 @@ export const STATEMENT_SETS = {
     "case-nina": [
       {
         "text": "[Tired] Asking for help makes me feel guilty, even when I am exhausted. I start explaining why it is not really a big deal before anyone has even answered.",
-        "suggestion": "Asking for help brings guilt so quickly that you start shrinking the need before anyone answers."
+        "suggestion": "You feel guilty as soon as you ask for help, and start playing down how much you need it."
       },
       {
         "text": "[Worried] The car repair bill came, and I do not know how we are going to make it through the month. I keep moving money around in my head and feeling more overwhelmed.",
@@ -757,7 +762,7 @@ export const STATEMENT_SETS = {
     "case-aisha": [
       {
         "text": "[Panicked] If you look away while I am talking, even to check a note, I panic that you are losing interest. Then I start talking faster, adding details, anything to keep you with me.",
-        "suggestion": "When I look away, you feel me slipping away and start scrambling to keep me with you."
+        "suggestion": "When I look away, you panic that I am losing interest and try harder to keep my attention."
       },
       {
         "text": "[Panicked] When a text does not come, my chest locks and I cannot breathe. I keep checking even though I know checking will not make it arrive, and each empty screen makes it worse.",
@@ -807,7 +812,7 @@ export const STATEMENT_SETS = {
     "case-david": [
       {
         "text": "[Controlled] When my wife calls me cold, I bristle because it sounds too close to true. Then I get angry at her for noticing the exact thing I am trying not to see.",
-        "suggestion": "Being called cold hits as too close to true, and anger rises at being seen there."
+        "suggestion": "Being called cold feels painfully close to the truth, and you get angry that she has noticed what you try not to see."
       },
       {
         "text": "[Frustrated] I know my father was impossible to please, but knowing that does not change how worthless I feel when I imagine his face.",
@@ -827,7 +832,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Wounded but sharp] When my kids cry, I get impatient, and then I hate how hard I sound when I see them pull away.",
-        "suggestion": "Their crying brings out impatience, and then you hate the hard sound of yourself as they pull away."
+        "suggestion": "You get impatient with their tears, then hate how harsh you sound when they pull away."
       },
       {
         "text": "[Wounded but sharp] Since the affair came out, being at home makes me feel like a failure; even ordinary rooms feel like evidence against me.",
@@ -857,7 +862,7 @@ export const STATEMENT_SETS = {
     "case-marcus": [
       {
         "text": "[Slow and flat] Most days I complete the routine and feel almost nothing behind my face. People speak to me, and I answer after a delay, like the words have to travel too far.",
-        "suggestion": "You move through the routine with words coming from far away and almost nothing behind your face."
+        "suggestion": "You get through the day feeling numb, and even answering people feels slow and distant."
       },
       {
         "text": "[Confused] I do not know what to talk about today; if I choose something, I am afraid we will open more than I can handle.",
@@ -877,7 +882,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and guarded] When something good happens, it feels far away, like it belongs to someone else; I know what expression I am supposed to have.",
-        "suggestion": "Even good things feel far away, while you know the expression you are supposed to show."
+        "suggestion": "Good things happen, but you feel little connection to them, even when you know how you are expected to react."
       },
       {
         "text": "[Flat] A door slam can throw me back before I know where I am; afterward I feel embarrassed that a normal sound did that.",
@@ -917,15 +922,15 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tearful] When I think about the last weeks, I keep wondering if he'd have stayed if I had been more fun or easier.",
-        "suggestion": "Self-blame can look like control when an ending feels helpless; it gives the pain a target even though it turns against you."
+        "suggestion": "When someone you wanted to stay has left, it is understandable to search for what you could have done differently. There is room for the hurt without making it all your fault."
       },
       {
         "text": "[Softly] At night it gets too quiet, and I start feeling like I was never really wanted.",
-        "suggestion": "In that nighttime quiet, the old not-wanted feeling has room to get loud; loneliness can sound very convincing there."
+        "suggestion": "After losing someone who mattered, a quiet evening can bring a very painful loneliness. Feeling unwanted in that moment does not make your need for company unreasonable."
       },
       {
         "text": "[Angry, then embarrassed] A friend told me to stop checking my phone, and I snapped at her.",
-        "suggestion": "No wonder it hit a raw spot; she was treating the phone like a habit, while for you it was still carrying hope."
+        "suggestion": "Being told to stop can hurt when you are still struggling with the loss. Your anger deserves room, even while how you speak to your friend matters too."
       },
       {
         "text": "[Tearful] When I wake up, I forget for a second and then it slams me.",
@@ -933,7 +938,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tearful] I apologize when I start crying, like my sadness is taking up too much room.",
-        "suggestion": "If you have learned to monitor how much space your sadness takes, apologizing for tears makes protective sense; the sadness still belongs here."
+        "suggestion": "You are grieving someone important, and it is understandable that tears come. Your sadness can have room here; you do not need to apologize for feeling it."
       },
       {
         "text": "[Embarrassed] I feel guilty for being this upset when I am only dealing with a breakup and other people have bigger problems.",
@@ -945,7 +950,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Softly] After this breakup, part of me thinks love must be for other people, not me.",
-        "suggestion": "After being left, love can start to look like something reserved for other people; that thought grows out of a very lonely hurt."
+        "suggestion": "Being left can make it painful to imagine trusting love again. That hurt is understandable; there is room for it without treating the thought as a verdict on your future."
       },
       {
         "text": "[Embarrassed] I asked my sister to stay for dinner because I didn't want another evening alone. I'm an adult. I shouldn't need someone just to get through a Tuesday.",
@@ -959,43 +964,43 @@ export const STATEMENT_SETS = {
     "case-michael": [
       {
         "text": "[Guilty] I hit a cyclist with my car last week. The road was slick, but he still broke his wrist and I cannot stop feeling guilty.",
-        "suggestion": "That guilt belongs to the seriousness of what happened: even without intent, your conscience is registering that someone got hurt."
+        "suggestion": "Someone was hurt in an accident you were involved in, so your guilt is understandable. We can take that feeling seriously without deciding from it alone how much was your responsibility."
       },
       {
         "text": "[Defensive] In meetings, if I don't have the answer, I feel exposed and I bluff.",
-        "suggestion": "When not knowing has been treated like failure, bluffing becomes a shield against humiliation."
+        "suggestion": "Not having an answer in front of the team can feel exposing, especially when you want to be seen as capable. That discomfort is understandable; it does not require pretending to know."
       },
       {
         "text": "[Tense] When I apologize, it feels like kneeling in front of someone who will use it against me.",
-        "suggestion": "If apology has felt like surrender, your body would brace before offering it; repair can feel unsafe when someone might use it to win."
+        "suggestion": "If an apology feels as though it could be used against you, it is understandable to feel wary. That fear can be acknowledged alongside taking responsibility for your part."
       },
       {
         "text": "[Firm] At home, when my wife sighs or rolls her eyes, I go off before I think.",
-        "suggestion": "A sigh or eye roll can hit the old humiliation channel fast; no wonder your system is defending dignity before you can think."
+        "suggestion": "A sigh or an eye roll can hurt when you hear it as dismissal. The hurt and anger are understandable; they do not excuse frightening or lashing out at your wife."
       },
       {
         "text": "[Furious] Watching the news, I get so angry at people in charge acting like consequences are optional.",
-        "suggestion": "That anger has a clear moral charge: when powerful people avoid consequences, it hits your intolerance for unfairness and irresponsibility."
+        "suggestion": "Seeing people with power avoid consequences can understandably make you angry when fairness matters to you. That concern deserves to be taken seriously."
       },
       {
         "text": "[Ashamed] When my kid asks why I am angry, I feel like the worst father.",
-        "suggestion": "The shame shows how much safe fatherhood matters to you; his question touches the gap between the dad you want to be and what anger does."
+        "suggestion": "Your child's question hurts because being a safe father matters to you. That pain is understandable; taking responsibility for the anger does not mean condemning yourself as the worst father."
       },
       {
         "text": "[Firm] Slamming a door feels awful later, but in the moment it keeps me from feeling small.",
-        "suggestion": "In the moment, the door makes protective sense against feeling small; later the relief turns into pain because it is not how you want to protect yourself."
+        "suggestion": "Feeling small can hurt, and wanting to get away from that feeling is understandable. We can respect the pain without treating slamming a door as the only way to respond to it."
       },
       {
         "text": "[Defensive] If someone challenges me in front of the team, I double down even if I'm wrong.",
-        "suggestion": "Being challenged in public can feel like public demotion; doubling down protects dignity before there is room to be wrong."
+        "suggestion": "Being questioned in front of the team can feel embarrassing when your judgment matters to you. That discomfort is understandable, even when the other person has a valid point."
       },
       {
         "text": "[Ashamed] I hate that I need help with anger; it makes me feel weak.",
-        "suggestion": "If help has meant weakness in your world, even asking for it can feel like standing exposed; the shame is tied to that old rule."
+        "suggestion": "If you have been taught that needing help is weakness, asking for it can feel exposing. That shame is understandable; needing support does not make you less worthy of respect."
       },
       {
         "text": "[Ashamed] After I blow up at home, I lie awake replaying their faces and hating myself.",
-        "suggestion": "No wonder the replay has force; those faces matter to you, and shame is pressing on the part of you that wants them to feel safe."
+        "suggestion": "Seeing that your family was frightened can bring painful regret, especially when their safety matters to you. That pain deserves attention alongside responsibility for what happened, rather than only attacking yourself."
       },
       {
         "text": "[Ashamed] The project went well, but I still wanted my boss to say he was pleased. I hate needing that. I should know for myself whether I've done a decent job.",
@@ -1009,35 +1014,35 @@ export const STATEMENT_SETS = {
     "case-jason": [
       {
         "text": "[Trembling] Every presentation at work makes my hands shake, and then I feel pathetic for caring so much.",
-        "suggestion": "Under other people's eyes, shaking is an anxious system trying to get through exposure; it is not proof that caring is pathetic."
+        "suggestion": "Speaking while others watch can feel frightening when their judgment matters so much. It is understandable that you feel anxious; shaking does not make you pathetic for caring."
       },
       {
         "text": "[Hesitant] I keep my eyes on the floor so no one has a reason to look at me.",
-        "suggestion": "Keeping your eyes down has protected you from being singled out; visibility has felt risky before it has felt connecting."
+        "suggestion": "It is understandable that being looked at feels risky when you expect people to laugh at you. There is room for that fear without judging you for looking down."
       },
       {
         "text": "[Anxious] At team lunches, I pretend to text so I have somewhere to hide during small talk.",
-        "suggestion": "The phone gives you a small refuge in small talk; hiding there is a way to survive possible judgment, not a character flaw."
+        "suggestion": "Small talk can feel exposing when you are worried about being judged. Wanting some relief from that anxiety is understandable; it does not make you a flawed person."
       },
       {
         "text": "[Quietly] When people laugh politely after I say something, I assume they are trying to escape me.",
-        "suggestion": "Polite laughter is ambiguous enough for shame to fill in the worst meaning; your mind is trying to protect you from rejection."
+        "suggestion": "Not knowing what their laughter means can feel unsettling when you fear being unwanted. That worry is understandable, even though the laughter does not tell us for certain what they think."
       },
       {
         "text": "[Hesitant] Compliments bounce off; part of me wants to believe them, but the suspicious part wins.",
-        "suggestion": "When self-attack has had years of practice, praise can feel suspicious before it feels nourishing; the suspicious part is trying to prevent another letdown."
+        "suggestion": "It can feel difficult to trust praise when you are so used to finding fault with yourself. That hesitation is understandable, even while you wish you could believe the compliment."
       },
       {
         "text": "[Quiet and ashamed] After I talk in a group, I replay every sentence and feel ashamed for sounding awkward.",
-        "suggestion": "The replay is a harsh attempt to keep you from future embarrassment; it makes sense in a world where belonging has felt fragile."
+        "suggestion": "Speaking in a group can feel exposing when belonging matters so much to you. It is understandable to feel self-conscious afterwards; you do not deserve to be attacked for trying to join in."
       },
       {
         "text": "[Quiet and ashamed] I skipped another team lunch and then felt pathetic for hiding in my apartment.",
-        "suggestion": "Skipping lunch makes protective sense in the moment, and the shame afterward shows the other truth: you still want to belong."
+        "suggestion": "When joining others feels frightening, wanting to stay home is understandable. Feeling disappointed about missing out can be here too; neither feeling makes you pathetic."
       },
       {
         "text": "[Hesitant] I scan every room for who is doing better than me, then feel defective.",
-        "suggestion": "Scanning the room makes anxious sense as your mind tries to find danger and your place; shame turns that scan into a verdict against you."
+        "suggestion": "Comparing yourself with everyone in the room can be painful when you already doubt whether you belong. That pain is understandable; it is not proof that you are defective."
       },
       {
         "text": "[Nervous, almost smiling] Someone invited me to a game night, and I wanted to go for about ten seconds before panic took over.",
@@ -1045,7 +1050,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quietly] Some nights I lie there certain I will always be alone because I am too awkward to love.",
-        "suggestion": "No wonder nights get heavy; shame can make loneliness sound permanent when the fear has that much room."
+        "suggestion": "Longing for company while fearing you will always be alone can make nights very painful. That loneliness deserves care, rather than being treated as proof that you cannot be loved."
       },
       {
         "text": "[Apologetic] I left the team lunch early. It was nice being invited, but keeping up with everyone exhausted me. I feel ungrateful saying that.",
@@ -1059,15 +1064,15 @@ export const STATEMENT_SETS = {
     "case-laura": [
       {
         "text": "[Flat and ashamed] On days off I can stay in bed until noon, not exactly sleeping, just not able to start. Then I tell myself I am lazy because other people manage normal mornings.",
-        "suggestion": "After years on alert, staying in bed can become the one place with no demands; that belongs to exhaustion and protection, not laziness."
+        "suggestion": "When even starting the day feels beyond you, getting out of bed can be a real struggle. That difficulty deserves care; comparing yourself with other people's mornings does not make you lazy."
       },
       {
         "text": "[Fearful] If voices rise, my stomach drops and I go somewhere else in my head.",
-        "suggestion": "Raised voices can feel like danger fast enough to send you away in your head; that leaving once helped you survive."
+        "suggestion": "Given what raised voices have meant in your life, it is understandable that they frighten you. Feeling far away in that moment deserves attention without blaming you for it."
       },
       {
         "text": "[Guarded and confused] A man from work asked if I wanted coffee, and I felt a tiny bit pleased before I went completely numb. I keep telling myself that is ridiculous at my age.",
-        "suggestion": "Both reactions fit with what closeness has meant: the small warmth of being wanted and the numb protection that arrives when it starts to feel possible."
+        "suggestion": "Wanting company and feeling uneasy about closeness can both be understandable after what you have been through. Being pleased, or then feeling numb, is not ridiculous because of your age."
       },
       {
         "text": "[Flat and guarded] I take long showers because warm water feels safer than asking anyone for comfort.",
@@ -1079,11 +1084,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and guarded] Being touched, even kindly, startles me, and then I feel broken for reacting that way.",
-        "suggestion": "Your startle arriving before choice fits with a system that learned to react first; that is not brokenness."
+        "suggestion": "When touch has not always felt safe, being startled by it is understandable, even if this person means well. The reaction deserves care rather than a judgment that you are broken."
       },
       {
         "text": "[Fearful] When sadness pushes through, I get scared I won't come back from it.",
-        "suggestion": "If strong feelings once arrived without comfort, sadness can feel like it might swallow you."
+        "suggestion": "If sadness feels as though you might not come back from it, the fear is understandable. That fear deserves room too; you do not have to dismiss it in order to acknowledge the sadness."
       },
       {
         "text": "[Distant] I apologize the second I need comfort, like wanting it is already too much.",
@@ -1109,39 +1114,39 @@ export const STATEMENT_SETS = {
     "case-carlos": [
       {
         "text": "[Tense and angry] Watching the news about families like mine being treated like threats makes me so angry I can barely sit still.",
-        "suggestion": "That anger fits with dignity, family, and the old fear of being treated as less than fully human."
+        "suggestion": "Seeing families like yours treated as threats can be deeply upsetting. It makes sense that you feel angry about their dignity and safety being treated so carelessly."
       },
       {
         "text": "[Tense] If I do not come in strong, I picture people seeing the scared kid I used to be, and that feels humiliating before anyone has even done anything.",
-        "suggestion": "Coming in strong has protected the scared part you were taught to hide; it also sounds exhausting to keep that armor up."
+        "suggestion": "If being seen as scared feels humiliating, it is understandable to dread that exposure. The scared part of you deserves respect too, without having to prove toughness."
       },
       {
         "text": "[Ashamed] At my kid's game I yelled at the ref, and afterward my son would not look at me. I keep telling myself I am turning into exactly what I hated.",
-        "suggestion": "The shame is there because his face matters to you; the yelling needs accountability, and the pain afterward shows how deeply you want to be different."
+        "suggestion": "Seeing your son pull away can hurt deeply when you want to be a different father. That pain is understandable, and acknowledging it goes alongside taking responsibility for yelling."
       },
       {
         "text": "[Defensive] When someone questions me, I feel small, then I come in louder than I meant to.",
-        "suggestion": "Anger rushing in fits with how quickly questions touch the old feeling of being made small."
+        "suggestion": "Feeling small when someone questions you can be painful. That hurt deserves attention, even while you remain responsible for how loudly or sharply you answer."
       },
       {
         "text": "[Angry and ashamed] When my fists clench, I feel like the fight is already coming, and then I hate myself for looking like every man I promised I would never become.",
-        "suggestion": "The way your fists clench fits with old survival learning and present shame at the same time; fight was something your body learned to keep you alive."
+        "suggestion": "It is understandable to feel distressed when you see yourself acting in a way you promised you would avoid. We can take that shame seriously without excusing intimidation or condemning your whole self."
       },
       {
         "text": "[Ashamed] I break things and then regret it when I see how scared everyone looks.",
-        "suggestion": "The regret shows how much protecting your family is part of who you want to be."
+        "suggestion": "Seeing your family afraid can bring painful regret because their safety matters to you. That regret deserves attention, and it does not remove your responsibility for breaking things."
       },
       {
         "text": "[Ashamed] Coworkers steer clear after I blow up, and I feel ashamed even while I act like I do not care.",
-        "suggestion": "Shame and armor can feel tangled together: part of you is hurt by the distance, while another part tries not to show it."
+        "suggestion": "It can hurt to see coworkers keeping their distance, especially when you feel ashamed of what happened. That shame is understandable; taking responsibility does not require pretending you do not care."
       },
       {
         "text": "[Torn] I leave the room so I do not explode, but then I hear my father's voice calling that weak.",
-        "suggestion": "Leaving fits with protecting your family from the explosion, while also colliding with the old rule that stepping back is weakness."
+        "suggestion": "Stepping away can feel difficult when you hear your father's judgment of weakness. That conflict is understandable; feeling it does not undo your choice to keep others safe."
       },
       {
         "text": "[Mistrustful] Calm feels suspicious, like someone is setting me up to be walked over.",
-        "suggestion": "Calm can feel exposed after you learned to expect being walked over; suspicion has had a job for a long time."
+        "suggestion": "If calm feels like a moment when someone could take advantage of you, it is understandable to feel wary. We can respect that fear without deciding that someone is actually setting you up."
       },
       {
         "text": "[Vulnerable] My son fell asleep against me on the couch, and I felt proud, scared, and sad all at once because I want him to feel safe with me in a way I never felt.",
@@ -1159,19 +1164,19 @@ export const STATEMENT_SETS = {
     "case-nina": [
       {
         "text": "[Tired] If I sit down before everything is done, guilt starts listing what I should be doing.",
-        "suggestion": "That guilt belongs to the old rule that your worth had to be earned through usefulness."
+        "suggestion": "With so many demands on you, stopping can understandably bring guilt as well as relief. Needing rest is legitimate even when there are things left to do."
       },
       {
         "text": "[Apologetic] The church asked me to bring food for another event, and I said I could not. I spent the whole night feeling like I had failed at being generous.",
-        "suggestion": "One no can feel morally heavy when generosity and being good have been tied together for so long."
+        "suggestion": "When generosity matters to you, saying no can bring guilt. That feeling is understandable; having a limit does not mean you have stopped caring about the people at church."
       },
       {
         "text": "[Sad and guilty] My husband made dinner without asking me, and instead of just feeling cared for I cried and then apologized for making it strange.",
-        "suggestion": "Being cared for can feel like it touches a deep hunger and a deep alarm at the same time after carrying care alone for so long."
+        "suggestion": "Being cared for can be moving when you are so often the one doing the caring. It is understandable that tears came; you did not make the gesture wrong by being touched by it."
       },
       {
         "text": "[Guilty] When anger comes up, I instantly hear myself being selfish and feel guilty.",
-        "suggestion": "Guilt can feel ready to arrive right after anger when you learned that other people's needs had to come first."
+        "suggestion": "When you are used to putting others first, your own anger can feel uncomfortable. It is understandable to have needs and limits too; feeling anger does not itself make you selfish."
       },
       {
         "text": "[Apologetic] When I ask for help, I feel like a burden before anyone even answers.",
@@ -1179,19 +1184,19 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Guilty] A messy counter can make me feel like I have failed as a whole person.",
-        "suggestion": "When care and performance got fused, even mess can feel like shame about who you are."
+        "suggestion": "With how much you expect yourself to keep going, an unfinished task can feel painfully disappointing. That feeling deserves room without making a messy counter a verdict on your worth."
       },
       {
         "text": "[Tired] I tell myself other mothers have it harder, so I should be grateful instead of resentful.",
-        "suggestion": "That comparison can look like an old silencer for your own pain, while resentment can still be a valid signal that you are carrying too much."
+        "suggestion": "Other mothers can have difficulties and you can still be exhausted by your own demands. Your frustration is understandable; gratitude does not have to cancel it out."
       },
       {
         "text": "[Apologetic] I work through being sick, then collapse and feel guilty for collapsing.",
-        "suggestion": "Pushing through fits with the rule that rest is forbidden; even the collapse gets judged by that rule."
+        "suggestion": "Being ill can make it hard to keep doing everything, so needing rest is understandable. Your exhaustion deserves care; it is not another failure you need to apologize for."
       },
       {
         "text": "[Panicked] If someone seems disappointed, I panic like I have ruined the relationship.",
-        "suggestion": "Disappointment can feel frightening when love has felt tied to keeping people pleased."
+        "suggestion": "When a relationship matters so much, the thought of disappointing someone can feel frightening. That fear is understandable, even though their disappointment does not necessarily mean the relationship is ruined."
       },
       {
         "text": "[Torn] My son talks about joining the army, and I feel proud of him and terrified, then guilty because a good mother should be braver.",
@@ -1209,7 +1214,7 @@ export const STATEMENT_SETS = {
     "case-aisha": [
       {
         "text": "[Panicked] I watched the door most of session to make sure you won't leave. Every time the hallway got quiet, I thought this might be the moment you decide I am too much and walk out.",
-        "suggestion": "Keeping the door in view fits with so many sudden endings; it protects against being dropped again, and the need for safety is very real."
+        "suggestion": "After so many abrupt endings, it is understandable to fear being left again. That fear deserves care; you do not have to dismiss it just because it shows up here too."
       },
       {
         "text": "[Torn] I ripped up photos after the breakup and felt powerful for maybe one minute, like I could erase him first. Then the floor was covered in pieces and I felt empty and ashamed.",
@@ -1217,15 +1222,15 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Panicked] Sometimes the panic gets so loud I want to crawl out of my skin. I pace, scratch at my sleeves, and cannot find a place inside myself that feels safe to stay in.",
-        "suggestion": "The urge to escape your own skin fits with panic taking over the whole inside; it is an attempt to survive the intensity."
+        "suggestion": "When panic feels that unbearable, wanting relief is understandable. Your distress deserves care; you do not need to dismiss it or prove how intense it is."
       },
       {
         "text": "[Panicked] When you take notes, I think you are writing proof that I am unstable or too dramatic. I know that may not be fair, but my body wants to bolt before you finish the sentence.",
-        "suggestion": "Notes can feel like being judged, captured, or misunderstood when other people's versions of you have so often felt dangerous."
+        "suggestion": "Feeling that you might be judged or misrepresented can be frightening. That fear is understandable and deserves to be heard, without assuming we know what the notes say."
       },
       {
         "text": "[Desperate] I send twenty texts because I need them close, then block them before they can leave. Afterward I hate how needy it looks, but in the moment silence feels like being erased.",
-        "suggestion": "The texting fits with reaching for contact when silence feels unbearable, and blocking tries to protect you from waiting to be abandoned."
+        "suggestion": "When silence feels like being erased, wanting contact is understandable. The pain and need deserve care, without making another person responsible for being constantly available."
       },
       {
         "text": "[Fearful and ashamed] I know it was done to me, but I still feel dirty in my own skin. Sometimes I shower and still feel like there is something wrong with me for having been there.",
@@ -1237,15 +1242,15 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Furious] If you look away for a second, I feel erased and then furious. I know it is one second, but inside it feels like I vanished from the room and have to fight my way back.",
-        "suggestion": "A tiny shift can feel like proof of disappearing from someone's mind, and the anger tries to restore contact and mattering fast."
+        "suggestion": "Feeling as though you have disappeared from my attention is painful, even if I looked away briefly. It is understandable that you feel hurt and angry; those feelings have room here."
       },
       {
         "text": "[Ashamed] I hear a voice saying I am trash and impossible to love, and part of me believes it. It gets loudest after I have needed someone, like need itself proves the voice is right.",
-        "suggestion": "That cruel voice can sound convincing after betrayal has handed it so much material, especially around the human need for closeness."
+        "suggestion": "Needing closeness is human, and it is understandable that it hurts to be attacked for that need. Those cruel words do not establish what you are worth."
       },
       {
         "text": "[Desperate] I stare at the clock to make sure you won't end early. The last five minutes make my chest tight because I am already trying to survive you leaving.",
-        "suggestion": "Watching the clock fits with bracing for another ending before it takes you by surprise; the fear of being left is already in the room."
+        "suggestion": "With how frightening endings have been, the last minutes can understandably bring fear. That pain deserves attention, even while the session still has an agreed ending."
       },
       {
         "text": "[Angry, ashamed] My friend needed a quiet evening. I understood it, and I still hated being left out. Then I hated myself for making her tiredness about me.",
@@ -1259,15 +1264,15 @@ export const STATEMENT_SETS = {
     "case-david": [
       {
         "text": "[Controlled] When my wife brings up feelings, I feel cornered and want to argue the facts. If I stay with the emotional part, it starts sounding like a trial where I have already lost.",
-        "suggestion": "Facts can feel like a defensible place to stand when feelings arrive as accusation; that cornered feeling helps explain why argument takes over so quickly."
+        "suggestion": "If the conversation feels like a trial you have already lost, feeling cornered is understandable. That discomfort can be heard without deciding that your wife's feelings are an accusation."
       },
       {
         "text": "[Furious] After I scared my wife, I still felt furious at her for pushing me, and then ashamed because I know how that sounds. I hate admitting that part because I know her fear is real.",
-        "suggestion": "It is legitimate to name this painful mixed truth: the rage was genuinely there, and the fear you caused genuinely matters too. Validation can hold both without excusing harm."
+        "suggestion": "Feeling pushed in an argument can bring anger, and admitting that alongside shame is understandable. Your anger can be heard without blaming your wife for it or excusing frightening her."
       },
       {
         "text": "[Ashamed] I compare myself to other dads and feel like a fraud. They seem relaxed at school events, and I stand there performing competence while wondering when someone will see through it.",
-        "suggestion": "Comparison can feel shame-stirring when fatherhood becomes another performance test in the place you most want to feel solid and real."
+        "suggestion": "When being a capable father matters to you, comparisons can bring painful self-doubt. That uncertainty is understandable; feeling it does not by itself make you a fraud."
       },
       {
         "text": "[Ashamed] When I apologize, it feels like handing someone proof that I am small. I can know I owe the apology and still feel my face burn like I have given away my last piece of ground.",
@@ -1275,7 +1280,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Dismissive] I plan perfect vacations so we look good from the outside. If the photos look happy enough, maybe no one sees how tense dinner was or how little I know what to do at home.",
-        "suggestion": "The polished outside has protected against exposure, and it also leaves you carrying the private tension alone after everyone has admired the picture."
+        "suggestion": "It can feel painful to have tension at home that no one sees in the happy photos. Wanting that difficulty to be understood is legitimate; you do not have to make everything look perfect here."
       },
       {
         "text": "[Fearful] The idea of being ordinary scares me, like I would disappear if I stopped impressing people. I do not know who I am without someone needing to admire the result.",
@@ -1283,19 +1288,19 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] I say I am fine while feeling empty, because admitting the emptiness feels humiliating. I can run a meeting and handle pressure, but saying I feel empty makes me feel pathetic.",
-        "suggestion": "The emptiness threatens the competent image that has protected you, so covering it defends against humiliation."
+        "suggestion": "When you are used to showing that you can handle things, admitting emptiness can feel exposing. That discomfort is understandable; the emptiness deserves attention rather than contempt."
       },
       {
         "text": "[Dismissive] I brag to get respect, then sit alone feeling emptier than before. The room reacts the way I wanted, and somehow that makes it worse when I am by myself.",
-        "suggestion": "The bragging can look like a reach for respect, and the emptiness afterward shows how admiration can steady worth for a moment without touching loneliness."
+        "suggestion": "Getting the admiration you wanted and still feeling empty can be painfully disappointing. That feeling deserves attention; appreciation from others does not mean you must feel satisfied inside."
       },
       {
         "text": "[Wounded but sharp] I still feel like my father is marking me down from somewhere. I can be in my own office, with my own family, and still hear the grade before I know what I did wrong.",
-        "suggestion": "Being measured for so long can feel like it leaves an inner scoreboard that keeps grading even in rooms he no longer controls."
+        "suggestion": "Having felt measured by your father for so long, it is understandable that his judgment still hurts. You do not have to dismiss that pain because you now have your own life."
       },
       {
         "text": "[Controlled] When my team outshines me, I feel threatened instead of proud. I know a good leader should celebrate them, but part of me hears their success as my replacement notice.",
-        "suggestion": "Their success can feel like it touches the old equation between being best and being safe, so pride has to compete with the fear of becoming replaceable."
+        "suggestion": "If their success feels like a threat to your place, it is understandable to feel afraid as well as wish you could be proud. Those feelings do not have to decide how you treat your team."
       },
       {
         "text": "[Controlled, embarrassed] My daughter's criticism stayed with me longer than any business setback. I keep telling myself I should be above needing a child's approval.",
@@ -1309,7 +1314,7 @@ export const STATEMENT_SETS = {
     "case-marcus": [
       {
         "text": "[Flat] Most days I move through routines like I am not fully there. I make coffee, shower, answer people, and it feels like a version of me is doing it while the rest stays back.",
-        "suggestion": "After too much danger, numbness has protected your ability to keep functioning; it is a survival pattern, not a failure to care."
+        "suggestion": "After what you have been through, struggling to feel fully present deserves care, not blame. The numbness does not mean you are failing to care about the people around you."
       },
       {
         "text": "[Dazed] I do not know what I feel. It is pressure, anger, and nothing at the same time, and I feel stupid for not having words.",
@@ -1317,35 +1322,35 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and guarded] I sit in the car before going inside because I can't face the quiet. The engine is off, but at least the car still feels like a place between the day and the apartment.",
-        "suggestion": "The car can feel like a buffer before the quiet brings everything back; pausing there doses what feels too much."
+        "suggestion": "If the quiet at home feels too much to face, it is understandable to hesitate before going in. That difficulty deserves attention rather than criticism for sitting in the car."
       },
       {
         "text": "[Tense] Loud bangs make me jump and then I get angry at myself for reacting. Yesterday a truck gate slammed outside and I was already scanning the room before I knew what happened.",
-        "suggestion": "Your system moving into survival before choice arrives fits with danger learning; the anger afterward shows how costly it is to live with that reflex."
+        "suggestion": "After so much danger, being startled by a loud bang is understandable. The reaction can be exhausting to live with, and you do not deserve to be attacked for having it."
       },
       {
         "text": "[Low voice] Holidays feel hollow; I don't feel anything I'm supposed to feel. People talk about family and gratitude, and I mostly feel like I am watching through a window.",
-        "suggestion": "Holidays can feel hollow when they ask for warmth and belonging in the very places where numbness and distance have protected you."
+        "suggestion": "When everyone expects warmth and gratitude, feeling distant can make holidays lonely. That difficulty is understandable; you do not have to produce the feelings others expect."
       },
       {
         "text": "[Quiet and guarded] I avoid reminders of my service because they open the floodgates. A news clip or a sound in the street can put me back there faster than I can explain.",
-        "suggestion": "Avoiding reminders has protected you from being pulled back too fast; the speed of those reactions deserves respect."
+        "suggestion": "When reminders bring you back there so quickly, being afraid of them is understandable. That distress deserves respect, without needing you to explain every detail for it to be real."
       },
       {
         "text": "[Flat] I keep the apartment dark because bright rooms feel like they ask too much of me. With the shades down, I do not have to see the dishes, the empty chair, or myself as clearly.",
-        "suggestion": "The dim room can feel like a way to lower the demand of being fully present with everything at once; it helps manage exposure."
+        "suggestion": "If seeing everything in the apartment feels like too much at once, wanting less pressure is understandable. That difficulty can be acknowledged without judging you for keeping the shades down."
       },
       {
         "text": "[Low voice] I cannot remember the last time I laughed and trusted it would last. Even when something is funny, I catch myself waiting for the feeling to disappear.",
-        "suggestion": "Joy can feel hard to trust when your system has had to stay prepared for loss; waiting for it to disappear is part of that protection."
+        "suggestion": "When good moments have felt uncertain, it is understandable to hesitate to trust one. You can have both the enjoyment and the fear of losing it; neither makes the other false."
       },
       {
         "text": "[Quiet and guarded] I do not want to need anyone, because needing people has usually meant losing control. If someone matters, they can ask questions, leave, or get inside places I would rather keep closed.",
-        "suggestion": "Not needing anyone has protected places that have been hurt or invaded; the loneliness is the cost of that protection."
+        "suggestion": "When needing people has felt like losing control, closeness can understandably feel risky. Your need for privacy and choice deserves respect, without requiring you to deny every need for support."
       },
       {
         "text": "[Flat] Sometimes I think I am better off alone forever, because closeness only gives people more ways to hurt me. Alone is not good, exactly, but at least nobody can reach what is left.",
-        "suggestion": "Aloneness can feel like the only reliable shield after closeness has carried danger, even while it cuts you off from what you also need."
+        "suggestion": "After being hurt in close relationships, it is understandable to fear letting someone near again. That fear deserves to be taken seriously, even while being alone does not feel good either."
       },
       {
         "text": "[Quiet, ashamed] A neighbour helped carry the shopping. I was grateful. Then I felt weak. I used to be the one people counted on.",
@@ -1431,7 +1436,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] When I am unsure of an answer in front of the team, I start talking faster so nobody notices.",
-        "suggestion": "When nobody can see you are unsure, what feeling are you avoiding?"
+        "suggestion": "What does being unsure in front of the team feel like inside?"
       },
       {
         "text": "[Tense and angry] I told my wife I was fine, but I was still angry hours later.",
@@ -1481,7 +1486,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Anxious] After meetings I replay one sentence for hours and feel my face heat up.",
-        "suggestion": "If we take one replayed sentence, what feeling keeps the replay going?"
+        "suggestion": "As that sentence comes back to you now, what do you notice inside?"
       },
       {
         "text": "[Quietly] At parties I track the exit before I even know who is in the room.",
@@ -1511,7 +1516,7 @@ export const STATEMENT_SETS = {
     "case-laura": [
       {
         "text": "[Slow and flat] Most days feel muted, and I cannot tell if I am sad or just numb.",
-        "suggestion": "As that muted feeling is here, what do you notice it doing in you?"
+        "suggestion": "What is that muted feeling like in you right now?"
       },
       {
         "text": "[Fearful] The neighbors argued in the hallway, and I spent the rest of the night acting like it was nothing.",
@@ -1531,7 +1536,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and guarded] I wake up already planning how to get through the day without needing anyone.",
-        "suggestion": "When needing someone comes near, what do you feel first?"
+        "suggestion": "What do you feel as you imagine needing someone today?"
       },
       {
         "text": "[Slow and flat] Good news lands flat, and I do not know why I cannot enjoy it.",
@@ -1561,7 +1566,7 @@ export const STATEMENT_SETS = {
     "case-carlos": [
       {
         "text": "[Defensive] When my foreman questions me in front of the crew, I laugh it off but cannot drop it.",
-        "suggestion": "As the foreman's question stays with you, what hurts most in it?"
+        "suggestion": "What do you notice inside as you recall your foreman questioning you?"
       },
       {
         "text": "[Tense] After an argument, I keep thinking of what I should have said, even when I know it will make things worse.",
@@ -1681,7 +1686,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Desperate] If you cancel a session, I do not want to come back and be dropped twice.",
-        "suggestion": "When you imagine a cancellation, what is the first sting you notice?"
+        "suggestion": "What do you feel as you imagine me cancelling a session?"
       },
       {
         "text": "[Tearful] Kindness makes me cry, and then I want to get away from it.",
@@ -1761,7 +1766,7 @@ export const STATEMENT_SETS = {
     "case-marcus": [
       {
         "text": "[Slow and flat] Most days I am numb and then a wave hits out of nowhere.",
-        "suggestion": "Before the wave hits, what is the earliest signal that it is coming?"
+        "suggestion": "As you describe that wave, what do you notice in yourself now?"
       },
       {
         "text": "[Hypervigilant] After nightmares, I do not know what is real enough to talk about and what I should leave alone.",
@@ -1781,7 +1786,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and guarded] I keep the lights low and ignore calls so the world stays far away.",
-        "suggestion": "When the world stays far away, what feeling do you not have to meet?"
+        "suggestion": "What happens inside as you imagine answering one of those calls?"
       },
       {
         "text": "[Flat] When something good happens, I wait for the part where it gets taken back.",
@@ -1813,43 +1818,43 @@ export const STATEMENT_SETS = {
     "case-sara": [
       {
         "text": "[Softly] Shouldn't I just focus on positive thoughts instead of digging into how sad I am?",
-        "suggestion": "Positive thoughts can help for a moment, and sadness still needs somewhere to go. If we listen to it in small, steady doses, it can show what needs comfort or connection instead of returning at night with more force."
+        "suggestion": "You want some relief from the sadness. Positive thoughts may help, and we can also listen to what you are grieving and needing. We can take it slowly, without spending the whole session in the pain."
       },
       {
         "text": "[Embarrassed] Why keep asking what I feel when I just need a plan for getting through the week?",
-        "suggestion": "A plan will work better when it fits the feeling that derails the week. We listen to the grief first because it tells us whether you need comfort, contact, rest, or a boundary before we choose steps."
+        "suggestion": "We can make a plan for the week. Listening to what is hardest can help us choose what belongs in it: perhaps company, rest, or help with a difficult evening. The feelings help us make the plan fit you."
       },
       {
         "text": "[Tearful] I feel embarrassed crying about this again. How does making room for tears help me move on?",
-        "suggestion": "The embarrassment makes sense. We are not trying to keep you crying; we use the tears as a signal of what still needs care because that helps grief move through instead of staying hidden and pulling you back."
+        "suggestion": "The tears may help us notice what still hurts and what you need as you adjust to the loss. Crying is not a task you have to complete. We can make room for the sadness and pause when you need to."
       },
       {
         "text": "[Embarrassed] If distraction gets me through the quiet hours, why would we mess with that?",
-        "suggestion": "Distraction helps you get through the peak. We also practice touching the loneliness in small doses because then the quiet becomes less dangerous, not just something you have to outrun."
+        "suggestion": "Distraction helps you get through those hours, and we can keep what works. We can also explore a little of what makes the quiet hard, so we understand what support you need when distraction is not enough."
       },
       {
         "text": "[Worried] How does talking about a breakup help when other people have bigger problems?",
-        "suggestion": "Pain does not have to win a contest before we listen to it. Giving this grief careful attention helps us hear what it needs—comfort, boundaries, connection—so it can ease instead of being pushed aside."
+        "suggestion": "This breakup is affecting your life, even if others have different problems. Exploring what hurts can help us understand what you need to get through it. You do not have to prove the pain is big enough to deserve attention."
       },
       {
         "text": "[Tearful] If we talk about him more, won't that keep him in my head even longer?",
-        "suggestion": "We are not rehearsing him; we map the pull underneath—loneliness, hope, self-blame—because when those parts get care, the checking loop has less to feed on."
+        "suggestion": "You are worried that talking will keep you stuck on him. The aim is to understand what comes up for you when you miss him, rather than go over every detail about him. That can help us find what you need now."
       },
       {
         "text": "[Hesitant] Can we set goals so I am busy enough not to feel this?",
-        "suggestion": "We can use goals, but if they only cover the grief, the loneliness waits for night. A few minutes with the feeling helps us choose actions that refill you rather than numb you."
+        "suggestion": "We can set goals that give the day some structure. I also want to understand what happens when the sadness returns. That can help us choose activities and support that matter to you, rather than rely on staying busy every moment."
       },
       {
         "text": "[Worried] What if 'hollow' is all I have? I don't know how to make that useful.",
-        "suggestion": "'Hollow' is not useless; it gives us a doorway. Weight, shape, and pull turn vague emptiness into something specific enough to understand and soothe."
+        "suggestion": "We can begin with \"hollow\"; you do not need a better word. Exploring when that emptiness comes and what it is like may help us understand what you are missing. We do not have to turn it into a different feeling."
       },
       {
         "text": "[Impatient] I want a timeline for when I stop checking his profile; otherwise this feels pointless.",
-        "suggestion": "A timeline would be comforting, but the loop changes by learning what checking is doing for you. When we map the hope, loneliness, and crash, you get more ways to meet the need without reopening the wound."
+        "suggestion": "You want to know when this will change. I cannot give you a date, but we can look at what you hope to find when you check and how you feel afterwards. Understanding that pattern may help us find other ways to meet the need."
       },
       {
         "text": "[Worried] How is this different from retelling the breakup until even I am sick of hearing it?",
-        "suggestion": "Here we are not just retelling. We slow the story to find the stuck places because those moments show what still needs comfort, meaning, or a new response."
+        "suggestion": "You do not want to keep repeating the same story. We can pause at a moment that still hurts and explore what it means to you now. The aim is to understand what you need, not to go through every detail of the breakup again."
       },
       {
         "text": "[Unsure] Some weeks I cry more in here, and some weeks I don't. How will we know this is helping, apart from how emotional I get?",
@@ -1863,43 +1868,43 @@ export const STATEMENT_SETS = {
     "case-michael": [
       {
         "text": "[Skeptical] I came for anger control, not feelings talk. How does this stop me from blowing up?",
-        "suggestion": "We start at the first sting, before anger takes the wheel, because catching shame, disrespect, or fear early makes tone and action into choices instead of automatic reactions."
+        "suggestion": "You want to stop the outbursts. We can slow down what happens just before your voice rises and notice the feelings involved. Recognizing that moment may give you more room to choose how you respond."
       },
       {
         "text": "[Defensive] Isn't looking for the trigger just making excuses for me blowing up?",
-        "suggestion": "The point is accountability, not excuse-making, because knowing the trigger sequence lets you catch the first sting earlier and choose before it becomes yelling."
+        "suggestion": "Understanding what sets off the anger does not remove your responsibility for what you do. It can help us notice the reaction sooner and work on a different response. The aim is to change the behavior, not explain it away."
       },
       {
         "text": "[Tense] Why slow down when people are watching and I need to look in control?",
-        "suggestion": "Slowing down protects control rather than weakening it. Five seconds helps you notice the jolt before your voice hardens, so authority does not have to come through heat."
+        "suggestion": "You want to look in control when people are watching. A short pause can give you time to notice what has hit you before you answer. We can practice a pause that helps you respond firmly without raising your voice."
       },
       {
         "text": "[Worried] How does going near shame help if my wife or team see that as weakness?",
-        "suggestion": "We are not practicing weakness; we are finding the sting early because naming what got hit gives you a steadier answer than proving strength through heat."
+        "suggestion": "You worry that showing shame will cost you respect. Exploring it here can help you understand what happens when you feel exposed. You do not have to reveal it to your wife or team in order to work on how you respond."
       },
       {
         "text": "[Challenging] Can we skip the feelings and just build a tool for when my chest gets hot?",
-        "suggestion": "We can build the tool around that heat. Feeling work tells us exactly what the tool must interrupt: shame, threat, or the urge to prove yourself."
+        "suggestion": "We can work on something you can use when your chest gets hot. Understanding what you feel at that moment helps us choose a useful response: perhaps pausing, setting a limit, or saying what bothered you. We do not have to start with a long explanation."
       },
       {
         "text": "[Worried] How does noticing a tight jaw help me lead when a meeting turns tense?",
-        "suggestion": "The tight jaw helps as an early warning, not a distraction. If you catch it before your voice sharpens, you get a few seconds to answer with authority instead of heat."
+        "suggestion": "You want to handle a tense meeting well. Your jaw tightening can be a cue to pause and notice what is happening before you answer. The point is to understand your reaction early enough to choose a response that fits the situation."
       },
       {
         "text": "[Worried] What if I blow up after all this and everyone says therapy failed?",
-        "suggestion": "Then we use it as data, not a verdict. We review the sequence, refine the map, and practice the pause so the next hard moment goes better."
+        "suggestion": "Another outburst would matter, and we would need to take its effect seriously. It would also give us something specific to review: what happened before it, what you noticed, and where a different response was possible. That helps us decide what to work on next."
       },
       {
         "text": "[Worried] How does more talking prove to my wife that I can stop exploding?",
-        "suggestion": "The proof has to be visible: fewer blowups, shorter recoveries, and faster repairs. Talking helps only if it maps the reaction early enough for you to choose a different move at home."
+        "suggestion": "Your wife will need to see changes in what you do. Exploring the anger can help us understand how it builds and practice a different response. We can then look honestly at whether there are fewer outbursts and whether you take responsibility when one happens."
       },
       {
         "text": "[Challenging] Will this change how my team sees me, or just make me analyze myself?",
-        "suggestion": "The change has to show up in tone, timing, and repair. Catching the sting earlier matters because it gives your team a leader who responds instead of flaring."
+        "suggestion": "You want the work to make a difference in how you lead. Understanding what happens when you feel challenged can help us practice a different tone or response. We can judge its usefulness by what changes with the team, not by how much you can analyze."
       },
       {
         "text": "[Embarrassed] What am I supposed to do if I am not good at feelings and have no words?",
-        "suggestion": "You do not need fluency to begin. Jaw, chest, heat, one need - those concrete cues matter because they make the work practical and keep it under your control."
+        "suggestion": "You do not need to be good at describing feelings to start. We can use something you already notice, like heat or a tight jaw, and explore what happens around it. Those clues can help us understand the reaction before you have a name for it."
       },
       {
         "text": "[Sceptical] I need to stop snapping. How does telling you I felt embarrassed in a meeting help me do that at home?",
@@ -1913,43 +1918,43 @@ export const STATEMENT_SETS = {
     "case-jason": [
       {
         "text": "[Skeptical] Does this actually help social anxiety, or am I just learning to stare at fear?",
-        "suggestion": "The aim is not to stare at fear. We find the first manageable cue, calm it enough, and practice staying present so confidence grows from repeated survivable moments."
+        "suggestion": "You want to know how this helps outside the room. We can explore what feels threatening when people look at you, and practice staying with a manageable amount of that feeling. The aim is to make speaking less of a battle with yourself."
       },
       {
         "text": "[Blank] What if I go blank here too and waste the whole session?",
-        "suggestion": "Blankness is useful information, not a waste. We start with the blank itself because noticing its first signals gives us a path into the fear without forcing words."
+        "suggestion": "Going blank would be something for us to understand, not a failure of the session. We can slow down and notice what happens when the words go. That may help us find a way to support you without adding pressure to speak."
       },
       {
         "text": "[Anxious] My thoughts are what ruin things, so why keep asking about my chest?",
-        "suggestion": "The thoughts matter, and the chest often warns us before the thoughts get loud. Following that signal lets us intervene earlier, before the spiral has built speed."
+        "suggestion": "The thoughts matter. I ask about your chest because physical sensations can give us another clue to what you are experiencing. We can explore both, and see which helps you recognize the anxiety and what you need in that moment."
       },
       {
         "text": "[Worried] When I pay attention to fear it gets louder, so why would I practice that?",
-        "suggestion": "We do not flood you with fear. We practice at the edge because small doses teach your alarm that fear can be noticed, named, and survived without taking over."
+        "suggestion": "You notice that focusing on fear makes it stronger. We need to take that seriously and adjust the pace. The aim is to understand a manageable part of your experience, with room to pause, rather than make you endure more fear."
       },
       {
         "text": "[Hesitant] Can we just script what I should say before meetings so I do not freeze?",
-        "suggestion": "Yes, and the script has to survive the freeze. Pairing the words with the first fear cue helps you stay present long enough to use them."
+        "suggestion": "We can prepare a sentence for meetings. I also want to understand what happens when you freeze, because having words ready may not be enough then. We can practice the sentence alongside noticing what helps you stay present."
       },
       {
         "text": "[Anxious] How long before I can speak in meetings without my body taking over?",
-        "suggestion": "Usually the first shifts are small: a little less bracing, a little more room to stay present when attention turns to you, and a quicker recovery afterward."
+        "suggestion": "I cannot promise a timetable. We can work on recognizing what happens when attention turns to you, and look together for changes such as staying present a little longer or recovering more easily afterwards. Those changes matter even before the anxiety is gone."
       },
       {
         "text": "[Embarrassed] I'm embarrassed to talk about being this scared; how is saying it out loud supposed to help?",
-        "suggestion": "We go gently, and you set the pace. Saying it out loud helps shame loosen its grip because the fear is met instead of hidden."
+        "suggestion": "Saying it aloud can help us understand the fear together instead of leaving you to handle it alone. You can share a little and see how it feels to be heard. We do not have to force it if the embarrassment becomes too much."
       },
       {
         "text": "[Worried] What do I actually do when the 'you're awkward' voice starts?",
-        "suggestion": "We make that voice specific, find the body cue that comes with it, and practice a steadier reply because then you have an action before shame makes you disappear."
+        "suggestion": "We can notice what that voice says and how it affects you, then practice a response that feels believable. The aim is to give you something to turn to when the criticism starts, without having to win an argument with it."
       },
       {
         "text": "[Hesitant] Will I always have to work this hard just to speak like everyone else?",
-        "suggestion": "It usually gets easier. As safety builds through repeated, manageable practice, fewer social cues set off the alarm and speaking can feel less like a full-body project."
+        "suggestion": "You want speaking to take less effort. I cannot promise how quickly that will happen. We can work with the fear and self-criticism, and look for changes such as saying a little more or recovering more easily after a difficult conversation."
       },
       {
         "text": "[Quietly] Why practice eye contact when it feels like people can see everything wrong with me?",
-        "suggestion": "We do not force eye contact. Brief, chosen moments help your alarm learn that being seen can be tolerable and different from being exposed."
+        "suggestion": "Eye contact is not a requirement. If being seen is something you want to work on, we can explore what makes it feel exposing and choose a small step together. The aim is more freedom to connect, not a particular way of looking at people."
       },
       {
         "text": "[Worried] When you ask me to notice a feeling, I start checking whether I'm doing it correctly. Isn't that more of the same problem?",
@@ -1963,43 +1968,43 @@ export const STATEMENT_SETS = {
     "case-laura": [
       {
         "text": "[Worried] If this is my brain chemistry, why would talking to you change anything?",
-        "suggestion": "Chemistry matters, and repeated safety also shapes the system over time. Alongside any medical care, therapy gives your mind and body new experiences of being present, soothed, and not alone so that the alarm system has new evidence."
+        "suggestion": "You are wondering whether talking can help if there is a biological part to this. We do not have to choose just one explanation. Here we can explore your experience and what helps you feel more present and connected, alongside any medical care."
       },
       {
         "text": "[Slow and flat] How do I know this will not make me relive trauma when I already disappear?",
-        "suggestion": "You will not be pushed to relive anything. We use tiny doses and grounding so you can touch one edge and return; over time, that helps the memory loosen its pull."
+        "suggestion": "You already know how easily you can feel far away. We can begin with what you notice now, without asking you to relive the trauma. Small steps and pauses help us find a pace you can stay with, and we can adjust if it becomes too much."
       },
       {
         "text": "[Slow and flat] If I go numb before I can feel anything, what exactly are we working with?",
-        "suggestion": "We work with the numbness itself because it is protection, not absence. Its edges show us when closeness feels risky, so feeling can return in amounts you can manage."
+        "suggestion": "The numbness is something we can explore without deciding why it is there. We can notice when it changes, what comes just before it, and what helps you stay present. That gives us a place to begin without forcing a feeling."
       },
       {
         "text": "[Worried] What if your kindness makes me more suspicious instead of safer?",
-        "suggestion": "Then we treat the suspicion as useful protection. We slow down because trust needs evidence; you can test warmth in tiny amounts before relying on it."
+        "suggestion": "Then the suspicion belongs in our conversation too. Understanding what feels hard to trust can help us decide how to work together. You do not have to feel safer just because I am kind, or trust more quickly than you do."
       },
       {
         "text": "[Hesitant] Will this dig up things I cannot handle and leave me worse afterward?",
-        "suggestion": "We pace carefully because safety comes first. You lead the speed, we ground often, and we stop before arousal gets too high so the work builds tolerance instead of overwhelm."
+        "suggestion": "You are worried about how you will feel afterwards. We can agree on what to leave aside, begin with a small amount, and check how you are before the session ends. How you feel afterwards also matters; it helps us adjust the work rather than push ahead."
       },
       {
         "text": "[Slow and flat] Why chase tiny signals if I shut down before I can use them?",
-        "suggestion": "The tiny signals are warning lights before shutdown. Learning them lets us slow the work earlier, so you have more chance to stay present instead of disappearing."
+        "suggestion": "You worry that you will shut down before any of this helps. Small signs can help us notice when the work is becoming too much, so we can slow down or pause sooner. We are trying to work at a pace you can stay with."
       },
       {
         "text": "[Slow and flat] How is talking supposed to change this flatness when I barely feel anything?",
-        "suggestion": "The goal is a wider window: more access to feeling and more calm. We follow small signs of life rather than forcing emotion open."
+        "suggestion": "We can begin with the flatness itself: what it is like, when it changes, and how it affects your days. The aim is to understand your experience and find what helps you feel more connected. You do not have to produce a strong feeling for the work to count."
       },
       {
         "text": "[Slow and flat] How will I know this is working if I still feel numb most days?",
-        "suggestion": "We track small signs because numbness softens gradually: less bracing when voices rise, a few more seconds of staying present, and brief moments of warmth or calm that do not feel like a trap."
+        "suggestion": "We can look for changes that matter to you, even if numbness is still there: a moment of interest, less strain with someone close, or being able to stay present a little longer. Checking those changes together helps us decide whether the work is useful."
       },
       {
         "text": "[Hesitant] Can we just talk about practical things so I do not have to feel all this?",
-        "suggestion": "Practical support belongs here too. Emotion work helps it land because you are less alone and less on guard with what you have been carrying."
+        "suggestion": "We can talk about practical things. I would also like to understand what makes the feelings hard to approach, so any plan takes that into account. We can begin with everyday life without asking you to go into painful memories."
       },
       {
         "text": "[Worried] What if I freeze in here and you sit there waiting for an answer?",
-        "suggestion": "Then the freeze becomes the work. We pause, ground, and name what is happening because that teaches your system that shutting down can be met safely, not pressured."
+        "suggestion": "If you freeze, I do not want to add pressure by waiting for an answer. We can pause and find what helps you notice the room or my voice. Understanding those moments is part of finding a way to work together that you can stay present for."
       },
       {
         "text": "[Flat] I spend my working day helping people cope. I don't understand why talking about what hurts is better than learning to cope with it.",
@@ -2013,43 +2018,43 @@ export const STATEMENT_SETS = {
     "case-carlos": [
       {
         "text": "[Defensive] Is this going to make me soft? I still need people to know not to mess with me.",
-        "suggestion": "The goal is steadiness, not softness. You can keep a clear line without scaring your family or handing control over to anger."
+        "suggestion": "You want to be able to stand up for yourself. Understanding your feelings does not mean giving up your boundaries. It can help you speak firmly without using anger to frighten people or losing sight of what you want to say."
       },
       {
         "text": "[Tense] Why talk feelings instead of giving me tools I can use when I am heated?",
-        "suggestion": "Tools are part of the work. Feeling work matters because it shows the split second the heat starts, so the tool arrives before fists or words take over."
+        "suggestion": "We can work on something you can use when the anger rises. Understanding what you feel just before it helps us choose what to practice, such as stepping away or saying what bothered you. The point is to turn that understanding into a different action."
       },
       {
         "text": "[Tense and angry] How does this help when someone disrespects me in front of my family?",
-        "suggestion": "We map the flashpoint so you can separate real disrespect from the sting of humiliation. That gives you a firm response without an explosion."
+        "suggestion": "You want to respond when someone disrespects you. Exploring what happens inside can help us separate what you want to say from the urge to lash out. Then we can practice a firm response that does not frighten or hurt anyone."
       },
       {
         "text": "[Skeptical] How does feeling more keep me from losing my edge and getting walked over?",
-        "suggestion": "We are not taking away your edge. Separating protection from explosion matters because people can know your line while your son gets steadiness instead of fear."
+        "suggestion": "You worry that understanding your feelings means giving up your strength. The aim is to help you recognize what matters and set a clear limit, while taking responsibility for how you treat people. We can work on being firm without using intimidation."
       },
       {
         "text": "[Defensive] If anger is what protects me, why would I spend therapy trying to feel what is underneath it?",
-        "suggestion": "Anger has protected you, and it has also scared the people you love. We look underneath because that helps you keep the protective clarity without the explosion deciding for you."
+        "suggestion": "Anger feels protective, and you want to keep that protection. Exploring what sets it off can help us understand what you need to stand up for. We can work on protecting your boundaries without letting the anger become harmful."
       },
       {
         "text": "[Tense] How is breathing supposed to matter when I'm already two seconds from snapping?",
-        "suggestion": "Breathing matters only as a doorway. It buys a few seconds because those seconds let you catch hurt or humiliation before the snap becomes the only move."
+        "suggestion": "When you are that close to snapping, breathing alone may not be enough. We also need to understand how the pressure builds before that point. Noticing the earlier signs can help you step away before anyone is frightened or hurt."
       },
       {
         "text": "[Tense and angry] How do I demand respect without acting like somebody can walk over me?",
-        "suggestion": "We build a third option because you need respect and safety at the same time. Naming the hit underneath gives you a firm response that does not have to become a threat."
+        "suggestion": "We can work on saying clearly what you will and will not accept. Understanding the feeling behind that need for respect helps us choose words for it. The goal is a boundary you can stand by without making a threat."
       },
       {
         "text": "[Defensive] I learned you have to hit first, so why would slowing down help?",
-        "suggestion": "That rule helped you survive then. Here we slow the flashpoint because feeling what gets hit underneath gives you more choice before the hit-first response takes over."
+        "suggestion": "You learned to hit first when you expected danger. We need ways to respond now that do not harm people. Slowing down lets us examine what feels threatening and practice another action, such as stepping away before you strike."
       },
       {
         "text": "[Guilty] My kid saw me angry. How does talking about feelings help him?",
-        "suggestion": "You model repair. When you catch it sooner and make amends faster, he learns safety and accountability from you, not just fear of anger."
+        "suggestion": "Talking alone cannot undo what your child saw. Understanding how the anger builds can help you work on changing what happens at home. That also includes taking responsibility with your child, without asking them to make you feel better about it."
       },
       {
         "text": "[Defensive] How do we keep this from becoming years of talk while my family waits?",
-        "suggestion": "We keep it focused by targeting the flashpoints that cause the most damage, then checking whether you catch, calm, and repair them faster at home."
+        "suggestion": "You want your family to see change soon. We can focus on the situations where the anger does most harm, understand what happens before it, and practice another response. We also need to check what actually changes at home, rather than assume that talking is enough."
       },
       {
         "text": "[Sceptical] When you ask what the anger feels like, I think you're asking me to get more worked up. That's exactly what I'm trying to stop.",
@@ -2063,43 +2068,43 @@ export const STATEMENT_SETS = {
     "case-nina": [
       {
         "text": "[Guilty] Isn't it selfish to focus on my feelings when everyone needs something from me?",
-        "suggestion": "Your feelings point to needs and limits; that is what makes care sustainable. Listening to them lets you help without disappearing."
+        "suggestion": "It feels selfish to turn toward your own feelings. They can help us notice your needs and limits, including when you are exhausted. Making room for those needs is part of finding ways to care for others without wearing yourself out."
       },
       {
         "text": "[Apologetic] What does noticing my body even do when guilt hits before I think?",
-        "suggestion": "Those signals flag guilt before the automatic yes takes over. Catching them early gives you a pause, because that is where a boundary can become possible."
+        "suggestion": "Noticing your body gives us another way to recognize the guilt, even when it comes before a clear thought. That can help us pause and understand what you need before deciding whether to say yes. We can begin with whatever you already notice."
       },
       {
         "text": "[Worried] How is emotion work supposed to help when I need practical steps before I drown?",
-        "suggestion": "Practical steps matter. Emotion work matters because it shows which request, limit, or need would actually reduce the load, so the plan does not become another assignment you carry alone."
+        "suggestion": "You need something to change in daily life. Listening to your feelings can help us understand where the load is too much and what support or limit you need. We can use that to choose one practical step, rather than give you another list to manage."
       },
       {
         "text": "[Worried] How does focusing on guilt help me say no when I already feel bad?",
-        "suggestion": "Guilt is the pressure point. If we notice it early and practice small, respectful limits, the guilty part can learn that care includes you too."
+        "suggestion": "The aim is not to make you feel more guilty. We can explore what saying no seems to mean about you, and whether the guilt fits what you are actually asking for. That helps us work on a limit you can stand by, even if guilt is still there."
       },
       {
         "text": "[Worried] If people might leave when I stop helping, how is naming needs supposed to help?",
-        "suggestion": "Naming needs lets us test that fear carefully instead of obeying it automatically. The right relationships often get stronger when people know what you actually need and where your limits are."
+        "suggestion": "Naming your needs cannot guarantee that someone will stay. It helps us understand what you want from the relationship, what you fear, and who is able to respond. We can consider those things together before you decide what to ask for."
       },
       {
         "text": "[Hesitant] Can we just fix my schedule? Talking about needs sounds like another task.",
-        "suggestion": "We can work on the schedule, and needs tell us what the schedule has to protect. Otherwise the plan may look organized while still using you up."
+        "suggestion": "You want less to do, not another assignment. We can look at the schedule together. Paying attention to your needs helps us decide what actually has to change, rather than make you better at fitting everything in."
       },
       {
         "text": "[Worried] What if saying no always feels wrong no matter how much we talk?",
-        "suggestion": "Then progress is not waiting for guilt to disappear. We practice noticing it, checking whether it fits, and choosing a limit anyway because guilt can soften after new experiences."
+        "suggestion": "You do not have to wait for saying no to feel easy. We can understand what brings the guilt and practice a small limit that fits your needs and responsibilities. The aim is more choice, even while the feeling is there."
       },
       {
         "text": "[Worried] How does asking for help get easier when needing anything feels like too much?",
-        "suggestion": "We practice tiny, specific asks so shame gets new evidence. Receiving a little support at a time can teach your system that need can be mutual, not excessive."
+        "suggestion": "We can begin with a small, specific request and notice what makes it hard to ask. That helps us understand the shame and choose someone you can reasonably turn to. You do not have to ask for everything at once."
       },
       {
         "text": "[Guilty] If I focus on needs, won't I become the needy person I dislike?",
-        "suggestion": "Clear needs usually make people less desperate, not more. Naming them lets you ask directly before resentment, collapse, or hidden tests take over."
+        "suggestion": "You are afraid that having needs will change you into someone you dislike. Exploring them can help you choose what to ask for and where to set a limit, instead of waiting until you are worn out. You can value caring for others and make room for yourself."
       },
       {
         "text": "[Tired] How will I know this is actually helping and not just making me more self-focused?",
-        "suggestion": "Concrete signs will tell us: asking with less apology, resting with less punishment, and setting limits without erasing yourself. Those signs matter because the point is care that can last, not self-focus."
+        "suggestion": "We can look for changes you actually want: asking for help more directly, getting some rest, or saying no when you are exhausted. That helps us check whether attention to your feelings is changing daily life."
       },
       {
         "text": "[Apologetic] I could name what I need for a whole hour. Then I go home and everyone still needs things. What would actually be different?",
@@ -2113,43 +2118,43 @@ export const STATEMENT_SETS = {
     "case-aisha": [
       {
         "text": "[Worried] What if talking about being left makes me want to hurt myself again before I can stop it?",
-        "suggestion": "Safety comes first. We build a plan, grounding, and support before touching that pain because the goal is to keep you connected while the abandonment alarm becomes less dangerous."
+        "suggestion": "That fear needs our attention before we go into the pain. First, I need to understand whether you might hurt yourself now. Then we can agree on support and pacing; exploring feelings should not mean pushing you beyond what you can manage."
       },
       {
         "text": "[Desperate] I need you to promise you will never leave, or I do not see how this helps.",
-        "suggestion": "That promise would soothe for a moment, and it would not be truthful. Longer-term safety comes from predictable separations, naming the fear, and repairing misses quickly so panic learns it is not alone."
+        "suggestion": "You need to know what you can rely on. I cannot promise never to leave, but I can be clear about our appointments, contact, and any ending. Exploring what those limits bring up can help us plan support for the times that feel hardest."
       },
       {
         "text": "[Panicked] If you cancel, how does naming the alarm stop me from doing something drastic?",
-        "suggestion": "Naming it is only one part. We also make a cancellation plan so that repeated, predictable steps help panic rise, crest, and come down without leaving you alone with it."
+        "suggestion": "Naming the fear alone is not enough. When you say \"something drastic\", do you mean hurting yourself or ending your life? We need to understand that first, then agree on what support you can use if a session is cancelled."
       },
       {
         "text": "[Worried] What if my feelings are too much for any therapist to work with?",
-        "suggestion": "Your feelings are big because of what you lived, so we would not meet them all at once. Small pieces and grounding help your system learn they can be felt without taking you over."
+        "suggestion": "You worry that your feelings will be too much, even here. We can begin with a small part and notice what helps or makes it harder. That helps us choose the pace and support you need, rather than ask you to bring everything at once."
       },
       {
         "text": "[Panicked] When I am panicking, why ask about feet and breathing instead of just calming me down?",
-        "suggestion": "Panic is an alarm state, not only a thought. Feet, breath, and the chair help send present-time safety signals because that gives you enough room to choose the next step."
+        "suggestion": "I am trying to help you notice something in the room while the panic is strong. The chair or the floor may give you a point to return to. We can see whether that helps; if focusing on your breathing makes it worse, we do not need to do that."
       },
       {
         "text": "[Desperate] How does working with this neediness help when reassurance from you feels so urgent?",
-        "suggestion": "That urgent need deserves direct work because it is already running the room. Clear asking, small doses of receiving, and ways to hold contact between sessions can make closeness less desperate."
+        "suggestion": "Reassurance feels urgent, and you want something that helps beyond this moment. We can explore what happens when you fear losing contact, and practice asking for support within clear boundaries. The aim is to find more ways to cope than reassurance from me alone."
       },
       {
         "text": "[Panicked] If we focus on this relationship, won't I get attached and then fall apart when it ends?",
-        "suggestion": "We use the relationship carefully because attachment panic is already showing up here. Naming boundaries, endings, and repairs gives you practice staying connected without having to cling, test, or disappear."
+        "suggestion": "You are worried about becoming attached and then facing an ending. We can talk openly about the relationship and its limits from the start. Understanding what closeness and separation bring up helps us plan the work and an ending, rather than leave that fear unspoken."
       },
       {
         "text": "[Worried] How will this help my relationships not blow up when I switch from begging to pushing away?",
-        "suggestion": "We map that switch because it usually happens before you have words for fear. Seeing the steps earlier gives you choices: naming fear, asking directly, or taking space safely before the relationship becomes a fight."
+        "suggestion": "We can explore what happens just before you shift from asking someone to stay to pushing them away. Understanding the feelings at that point helps us practice saying what you need more directly, or taking a pause before the conversation becomes a fight."
       },
       {
         "text": "[Hesitant] Will this take forever, or am I always going to be this intense?",
-        "suggestion": "Early wins should be visible: fewer panic spikes, quicker settling, and more ways to name fear before it takes over. Practice helps build the path from alarm to steadier ground."
+        "suggestion": "You want to know whether things can change, and how long it will take. I cannot promise a timetable. We can look for changes that matter to you, such as getting through a goodbye with more support or recovering more easily after a difficult exchange."
       },
       {
         "text": "[Mistrustful] Every therapist boundary sounds like distance, so why would I trust this?",
-        "suggestion": "We treat that fear directly. I will explain the frame, invite you to name its impact, and repair misses so that repeated predictable contact can make boundaries feel less like abandonment."
+        "suggestion": "You hear a limit as distance, so simply asking you to trust it would miss the fear. We can explore what each boundary means to you while being clear about what I can offer. That helps us make the work more predictable without promising that the fear will vanish."
       },
       {
         "text": "[Urgent] I can name every feeling. It doesn't stop me panicking when someone goes quiet. What is supposed to happen after I name it?",
@@ -2163,7 +2168,7 @@ export const STATEMENT_SETS = {
     "case-david": [
       {
         "text": "[Controlled] Why focus on feelings when I need results people can actually see?",
-        "suggestion": "We focus there because feelings drive the reactions people see. When you catch the sting under anger or distance, you get more control over tone, repair, and outcomes at home and work."
+        "suggestion": "You want changes that show in daily life. Feelings are part of what happens before you withdraw or speak sharply. Understanding those moments can help you choose how to respond, and we can check together whether it makes a difference at home and work."
       },
       {
         "text": "[Skeptical] How is this practical if I do not want to be psychoanalyzed or reduced to childhood?",
@@ -2171,19 +2176,19 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Challenging] Will this help my marriage or is this just about me?",
-        "suggestion": "It helps the marriage because the pattern lives between you and still starts inside you. When we slow the sting under defensiveness, you can hear more, own more, and repair before the conversation hardens."
+        "suggestion": "Your responses are part of what happens between you and your wife. Exploring what you feel before you withdraw or speak sharply can help you choose a different response. We can check whether that changes the conversations, without assuming your work alone will fix the marriage."
       },
       {
         "text": "[Controlled] I already know the theory. Why spend time on feelings instead of fixing behavior?",
-        "suggestion": "Theory helps only if it reaches the moment behavior changes. We focus on feelings because shame and threat are where your options narrow; catching them gives you more room to act differently."
+        "suggestion": "Knowing the theory and noticing your reaction in the moment are different things. We can look closely at what you feel just before the behavior you want to change. That gives us something specific to practice, beyond knowing how it should work."
       },
       {
         "text": "[Wounded but sharp] My emotions are the problem. Why would we focus on the thing that keeps messing everything up?",
-        "suggestion": "The reactions are causing damage, and that is exactly why we slow them down. Catching shame or threat before it drives your tone helps emotion become information you can use instead of a force running the room."
+        "suggestion": "You see how much damage the reactions cause. Exploring the feelings can help us understand what happens before they turn into withdrawal or sharp words. The aim is to give you more choice about what you do with the feeling, not make it stronger."
       },
       {
         "text": "[Demanding] I need anger control, not a deep dive into what I feel under it.",
-        "suggestion": "Anger control works best when it starts before the explosion. Looking underneath helps you catch the first hit of shame, threat, or fear, so control begins earlier than forcing yourself to calm down after the damage is done."
+        "suggestion": "You want to stop the anger doing damage. We can work on that directly, including what happens before an outburst. Looking at the feelings involved is a way to recognize the build-up earlier, not a requirement to reveal everything at once."
       },
       {
         "text": "[Challenging] Can we skip childhood stuff and stay with what is happening now?",
@@ -2191,11 +2196,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Worried] What if I do not feel anything when you ask me to look inside?",
-        "suggestion": "Then we start with not feeling anything, because numbness is still information. Small signals like a tight jaw or hollow chest give us an entry point without forcing emotion."
+        "suggestion": "Not feeling anything is a place to begin, not a failed exercise. We can explore what that is like and whether you notice even a small change as we talk. The purpose is to understand your experience, without requiring a feeling you do not have."
       },
       {
         "text": "[Demanding] I need quick wins; I do not want another endless insight project.",
-        "suggestion": "Then we track behavior from the start because quick wins need to show up in action: catching defensiveness sooner, repairing faster, and getting through hard talks with less damage."
+        "suggestion": "You want something to change soon. We can choose one situation where your reaction causes problems and work on what you feel before it happens. Then we can check whether a different response helps, rather than measure progress by insight alone."
       },
       {
         "text": "[Controlled] How will I know this is worth it instead of another insight project?",
@@ -2213,43 +2218,43 @@ export const STATEMENT_SETS = {
     "case-marcus": [
       {
         "text": "[Flat] Talking will not change what happened, so why open the door to it?",
-        "suggestion": "It will not change the past. Small, grounded contact changes how the past hits you now because memories can gain less control over sleep, numbness, and isolation."
+        "suggestion": "You are right that talking cannot change what happened. The aim is to help with how it affects your life now. We can begin with what you notice today, without asking you to retell the worst parts of the past."
       },
       {
         "text": "[Slow and flat] I do not want to get flooded; when I lose control, I disappear for days.",
-        "suggestion": "That is exactly why we work in small sips: ground first, touch one edge, come back. The pace helps protect control while the memories become less alone and less explosive."
+        "suggestion": "Losing days is something we need to take seriously. We can begin with what helps you stay present and agree on when to pause. The aim is to understand a small part of your experience at a manageable pace, not push through a memory."
       },
       {
         "text": "[Slow and flat] Feelings are the problem. When I feel them, I drink, shut down, or lose days.",
-        "suggestion": "That history is exactly why we go slowly. We are not trying to open everything; we build enough safety that feelings can become signals you can survive, not emergencies you have to numb or escape."
+        "suggestion": "Those reactions tell us we need to be careful about how we work. We can start with what happens before you drink or shut down, without asking you to open everything. That helps us understand what support and pace you need before going further."
       },
       {
         "text": "[Flat] Why notice the guard signals when I am on alert all the time?",
-        "suggestion": "The sequence matters because the guard signals come before shutdown. Learning the first step gives you a chance to return to the room before your system takes you fully back there."
+        "suggestion": "If you are on alert all the time, asking you to notice more can sound exhausting. We can look for when that alertness changes and what helps it ease. That gives us something specific to work with instead of asking you to monitor every signal."
       },
       {
         "text": "[Hypervigilant] How will sitting with feelings help the nightmares instead of making the nights worse?",
-        "suggestion": "This is not endless sitting with pain. We steady you before and after bad nights and process small pieces only when safe because that gives the aftershock less force."
+        "suggestion": "You are worried the nights will get worse. We do not need to retell the nightmares to begin. We can explore how they affect you now and what helps you recover afterwards, then check whether any further work is helping or making things harder."
       },
       {
         "text": "[Flat] How is working on connection supposed to help when being alone keeps people from wanting things from me?",
-        "suggestion": "Aloneness has protected you from pressure and loss. We build contact in small, chosen doses so closeness can become support you control, not a demand that traps you."
+        "suggestion": "Being alone gives you relief from other people's demands. We can explore what kind of contact, if any, you would actually want. This is about finding support while keeping your choice and boundaries, not persuading you to let everyone in."
       },
       {
         "text": "[Flat] What does progress look like for me if feeling normal is off the table?",
-        "suggestion": "Progress can mean more sleep, fewer startles, small moments of warmth, and being near a feeling briefly without shutting down because contact starts to feel safe in small doses."
+        "suggestion": "We can begin with what would make daily life more manageable for you. Progress might mean better sleep, a little interest in something, or an easier moment with another person. Looking for changes you value helps us decide whether the work is useful; \"normal\" does not have to be the measure."
       },
       {
         "text": "[Low voice] Why should I trust this if therapists usually push for stories I do not want to tell?",
-        "suggestion": "That mistrust is important information. We make the work predictable, explain why we ask, and keep you in charge of depth, because trust is earned through pace, not demanded."
+        "suggestion": "You have reason to ask how this will be different. I can explain why I ask a question and check whether you want to go there. That helps us choose the work together; you do not have to tell a story just because I ask."
       },
       {
         "text": "[Hesitant] Can we keep this practical and not dig through every bad thing?",
-        "suggestion": "Yes. We target what affects daily life now and use brief emotion work only where it helps, because practical change is easier when the deeper material stays in tolerable pieces."
+        "suggestion": "Yes, we can focus on what affects your days now. Understanding the feelings involved can help us choose useful changes, without going through every painful event. You can decide with me what is relevant and what to leave aside."
       },
       {
         "text": "[Slow and flat] What if I never feel normal again and this flatness is just who I am now?",
-        "suggestion": "We are not chasing a perfect normal. We are building toward more sleep, less shutdown, and safe contact, which are signs that feelings and connection can return in tolerable amounts."
+        "suggestion": "You are afraid the flatness is permanent. I cannot tell you now how it will change, but we can look at what makes life harder or a little easier. The aim is to find changes that matter to you, without requiring you to feel like someone else."
       },
       {
         "text": "[Flat] Telling the story didn't help before. It just meant I didn't sleep. I'm not doing that again.",
@@ -2265,7 +2270,7 @@ export const STATEMENT_SETS = {
     "case-sara": [
       {
         "text": "[Softly] Seeing his name pop up still throws me, and I hate how much it matters.",
-        "suggestion": "Seeing his name still throws you, and the painful part is how much it still matters. Stay right at admitting that it matters and notice what stirs."
+        "suggestion": "Seeing his name still throws you, and you hate that it matters so much. Could we pause with that feeling for a moment and notice what is here now?"
       },
       {
         "text": "[Embarrassed] I tell friends I'm fine, and then I worry they can hear that I am not.",
@@ -2285,7 +2290,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Embarrassed] When someone is kind to me, my eyes drop before I can stop it.",
-        "suggestion": "Kindness arrives, and your eyes go down before you can really take it in. Catch the instant before your eyes drop."
+        "suggestion": "Your eyes drop as soon as someone is kind. Could we slow that moment down and notice what you feel as you receive the kindness?"
       },
       {
         "text": "[Softly] For a few seconds after I wake up, I forget he is gone, and then I remember.",
@@ -2315,7 +2320,7 @@ export const STATEMENT_SETS = {
     "case-michael": [
       {
         "text": "[Firm] When someone corrects one detail, I keep hearing it afterward like I was called out.",
-        "suggestion": "The correction keeps echoing as being called out. Let that exposed feeling have a moment before the anger takes over."
+        "suggestion": "The correction stays with you as though you were called out. As you say that now, what do you notice in yourself?"
       },
       {
         "text": "[Tense and angry] I walk into meetings already ready for somebody to disrespect me.",
@@ -2335,7 +2340,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] When I do not know the answer, I get tense and start talking like I know anyway.",
-        "suggestion": "Not knowing becomes hard to leave visible. Pause at that tense moment before sounding certain takes over."
+        "suggestion": "You get tense just before you start sounding certain. Could we pause with that tension and notice what it is like not to have the answer?"
       },
       {
         "text": "[Ashamed] I reread every message before sending because one mistake will bother me all night.",
@@ -2365,7 +2370,7 @@ export const STATEMENT_SETS = {
     "case-jason": [
       {
         "text": "[Quietly] When it is my turn to speak, I lose track of what I was going to say.",
-        "suggestion": "When attention turns toward you, the words vanish. Pause at that exact moment and notice what it feels like when everyone is waiting."
+        "suggestion": "The words disappear when it is your turn. Could we take that moment slowly and notice what happens inside before you try to find the sentence again?"
       },
       {
         "text": "[Hesitant] I hover over send, then delete the text because wanting contact suddenly feels humiliating.",
@@ -2385,7 +2390,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Anxious] When I walk into a room, I look for the exit before I decide whether to join anyone.",
-        "suggestion": "The exit has to be found first, before joining can even be considered. Track that first scan of the room."
+        "suggestion": "You look for the exit before you decide whether to join anyone. Could we pause at that moment and notice what you feel as you look around?"
       },
       {
         "text": "[Quietly] Before I introduce myself, I start imagining how strange I will sound.",
@@ -2415,7 +2420,7 @@ export const STATEMENT_SETS = {
     "case-laura": [
       {
         "text": "[Slow and flat] Most days are flat, but if sadness flickers I push it down before it spreads.",
-        "suggestion": "Most days are flat, and when sadness flickers you move quickly to contain it. I want to slow down the moment of that flicker and notice what makes it feel unsafe to let it spread."
+        "suggestion": "You notice a little sadness and quickly push it down. If you want to, we can stay with just the bit you have already noticed, without trying to make it stronger."
       },
       {
         "text": "[Fearful] Raised voices do not even have to be aimed at me; I just go quiet and wait for it to pass.",
@@ -2435,7 +2440,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] Even gentle touch makes me jump, and then I hate that my reaction is so obvious.",
-        "suggestion": "Your body jumps before you decide anything, and then shame comes because the reaction was visible. I want to linger with the after-feeling, once someone has seen it."
+        "suggestion": "You startle, and then feel ashamed that someone saw it. Could we stay with what it is like for you just after that reaction?"
       },
       {
         "text": "[Slow and flat] When good news comes, I can say the right words, but I feel almost nothing.",
@@ -2465,7 +2470,7 @@ export const STATEMENT_SETS = {
     "case-carlos": [
       {
         "text": "[Defensive] My wife says she can hear my tone change before I notice anything is wrong.",
-        "suggestion": "Your tone changes before you know what happened. We can slow the first turn in you, before it is loud enough for her to hear."
+        "suggestion": "Your wife hears your tone change before you notice it yourself. Could we slow down one of those moments and see what you first notice in yourself?"
       },
       {
         "text": "[Tense] After a fight, I can stand in the hallway not knowing whether to apologize or pretend nothing happened.",
@@ -2485,7 +2490,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and angry] I can feel the pressure building before I throw something, but in that second stopping feels impossible.",
-        "suggestion": "There is a second where you can feel the pressure building and stopping already seems out of reach. We can stay right at that second, before the object moves."
+        "suggestion": "You notice the pressure building, and stopping feels impossible. Could we look slowly at that first sign of pressure, without acting on it, and notice what is happening in you?"
       },
       {
         "text": "[Defensive] If I let myself be soft, I don't know whether people will respect me or take advantage.",
@@ -2515,7 +2520,7 @@ export const STATEMENT_SETS = {
     "case-nina": [
       {
         "text": "[Tired] The second I ask for help, guilt rushes in and I want to pull it back.",
-        "suggestion": "The need barely appears before guilt rushes in to erase it. I want to pause before the request is pulled back and notice what needing might cost."
+        "suggestion": "You ask for help, and guilt comes so quickly that you want to take it back. Could we stay for a moment with what you feel as you ask?"
       },
       {
         "text": "[Guilty] I keep folding laundry and answering messages so I do not have to feel resentful.",
@@ -2535,7 +2540,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Torn] When everyone needs me at once, I start saying yes before I know what I actually want.",
-        "suggestion": "Everyone else's needs arrive first, and yes comes before your own wish has a chance. I want to slow down the space just before the yes."
+        "suggestion": "The yes comes before you know what you want. Could we pause just before that yes and give your own wish a little time to become clearer?"
       },
       {
         "text": "[Guilty] Sometimes I imagine someone making me tea and telling me to sit down, and then I feel selfish for even picturing it.",
@@ -2585,7 +2590,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Desperate] When someone says goodbye, I know it is normal, but I get scared and angry at the same time.",
-        "suggestion": "Goodbye brings fear and anger together, even while another part says it should be normal. At the word goodbye, which feeling arrives first?"
+        "suggestion": "You know goodbye is normal, and still feel scared and angry. As you imagine that goodbye now, what do you notice first in yourself?"
       },
       {
         "text": "[Panicked] Kindness makes me sob, and another part of me wants to bolt.",
@@ -2615,7 +2620,7 @@ export const STATEMENT_SETS = {
     "case-david": [
       {
         "text": "[Controlled] When she says I am cold, part of me wants to prove her wrong and another part wants to disappear.",
-        "suggestion": "One part moves toward proving, another toward disappearing. What do you notice in the moment before either side takes over?"
+        "suggestion": "You want to prove her wrong and disappear at the same time. Could we pause with those two pulls and notice how each feels right now?"
       },
       {
         "text": "[Controlled] You seem calm when I talk about failure, and I cannot tell if I respect that or resent it.",
@@ -2665,7 +2670,7 @@ export const STATEMENT_SETS = {
     "case-marcus": [
       {
         "text": "[Slow and flat] Most days I'm numb, and then something hits me and I don't know what it is.",
-        "suggestion": "The numbness holds, then something breaks through without a name. What do you notice at the first sign that something is coming?"
+        "suggestion": "You feel numb, and then something comes through that you cannot name. We can take that slowly; what do you notice of it as you say this now?"
       },
       {
         "text": "[Hypervigilant] After nightmares, I know I should talk about them, but the details feel far away and I don't know where to start.",
@@ -2685,7 +2690,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and guarded] I let calls go to voicemail because answering means I might have to explain why I am not okay.",
-        "suggestion": "The ringing phone brings the possibility of having to explain. What feels too much in that first moment?"
+        "suggestion": "The phone rings, and answering could mean explaining that you are not okay. Could we stay with what you feel in that moment, without needing to explain it yet?"
       },
       {
         "text": "[Flat] Good moments happen, but I don't trust them enough to let them count.",
@@ -2737,7 +2742,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Sad] I stay on my phone late because going to sleep feels hard now.",
-        "suggestion": "The screen becomes a little night-light against the empty side of the bed, keeping the dark feeling just outside reach."
+        "suggestion": "It is as if the little light of the phone keeps you company when the night feels hard to face."
       },
       {
         "text": "[Softly] A song came on in a store, and I had to leave before I cried.",
@@ -2767,7 +2772,7 @@ export const STATEMENT_SETS = {
     "case-michael": [
       {
         "text": "[Firm] When someone corrects me in front of the team, I get hot and stop listening.",
-        "suggestion": "The heat rushes up fast, as if the room has narrowed to one bright mark on you."
+        "suggestion": "It sounds like the heat rises as though a spotlight has suddenly swung onto you in front of everyone."
       },
       {
         "text": "[Tense] I go into meetings expecting people to mess up, and I hate that I do that.",
@@ -2787,7 +2792,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] If someone says calm down during an argument, I get angrier immediately and stop hearing the rest.",
-        "suggestion": "Those two words strike the match, and the fire is moving before you can even name what got lit."
+        "suggestion": "It is as if those two words strike a match, and the anger flares before you can hear anything else."
       },
       {
         "text": "[Embarrassed] When I don't know the answer in a meeting, I feel exposed in front of everyone.",
@@ -2817,7 +2822,7 @@ export const STATEMENT_SETS = {
     "case-jason": [
       {
         "text": "[Quietly] When it's my turn in a meeting, I lose track of what I was going to say.",
-        "suggestion": "The moment turns toward you, and the sentence slips out of reach as if the room has pulled it away."
+        "suggestion": "It is as if every face turns toward you and the sentence you had ready vanishes into thin air."
       },
       {
         "text": "[Hesitant] In meetings I keep my hands under the table because I worry people will notice me.",
@@ -2837,7 +2842,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Anxious] When someone compliments me after a meeting, I smile, but I don't really believe it.",
-        "suggestion": "The compliment touches the surface and slides away before it can reach the place that needs it."
+        "suggestion": "It is as if the compliment stops at the door. You hear it, but it does not quite get in."
       },
       {
         "text": "[Quietly] Sunday night I start feeling low when the apartment gets quiet, but I mostly just scroll.",
@@ -2867,7 +2872,7 @@ export const STATEMENT_SETS = {
     "case-laura": [
       {
         "text": "[Flat and guarded] Most mornings I get up, make coffee, answer the messages I have to answer, and notice I still do not feel much.",
-        "suggestion": "The morning has movement but no warmth, as if you are going through the rooms while the color has been drained out of them."
+        "suggestion": "It sounds like the day is running in grey: everything keeps moving, but very little reaches you."
       },
       {
         "text": "[Distant] If a door slams at work, I know it is just a door, but for a minute I cannot keep track of what people are saying.",
@@ -2887,7 +2892,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Slow and flat] I lie awake listening for sounds in the hallway, and I tell myself there is nothing to listen for.",
-        "suggestion": "Even under the covers, some part of you stays posted at the door, listening into the dark for proof of danger."
+        "suggestion": "It is as though you lie down, but something in you stays on watch, listening for the next sound."
       },
       {
         "text": "[Tense and tearful] Sometimes a song comes on and my eyes fill up, so I change it before I can really tell what it is about.",
@@ -2917,7 +2922,7 @@ export const STATEMENT_SETS = {
     "case-carlos": [
       {
         "text": "[Defensive] When someone smirks at me on the crew, I get tense fast and spend the next hour making sure nobody thinks I let it slide.",
-        "suggestion": "That smirk sparks through you like current, and the whole day turns toward proving you cannot be handled that way."
+        "suggestion": "That smirk seems to hit like a spark, and suddenly the next hour is spent making sure everyone knows you will not be pushed around."
       },
       {
         "text": "[Macho] My father used to say only weak men talk about feelings, and I still hear that when people ask what is going on with me.",
@@ -2937,7 +2942,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] After I blow up, everyone gets quiet, and I usually make some comment so we can move on.",
-        "suggestion": "After the blast, the room goes careful, and the joke skims over the broken pieces before anyone has to look down."
+        "suggestion": "After the outburst, it is as if everyone holds their breath, and your comment rushes into that silence."
       },
       {
         "text": "[Angry, tightly controlled] I get so angry that I stop talking, because if I keep going I do not trust what I will say.",
@@ -2967,7 +2972,7 @@ export const STATEMENT_SETS = {
     "case-nina": [
       {
         "text": "[Tired] The second I sit down, I remember three things I have not done and get back up.",
-        "suggestion": "Rest barely touches you before duty calls you up again, as if the chair cannot keep hold of you."
+        "suggestion": "It is as if you have barely settled into the chair before a bell rings inside: there is more to do."
       },
       {
         "text": "[Hurt] Sometimes I feel used, and then I immediately think of all the reasons I should be more grateful.",
@@ -2987,7 +2992,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Torn] Saying no makes me panic, even about small things, because I start picturing the other person deciding I am selfish.",
-        "suggestion": "The no feels tiny on the outside and huge inside, like one boundary could loosen the tie that keeps love close."
+        "suggestion": "It is as if that small no could pull a thread loose between you, and suddenly the whole connection feels at risk."
       },
       {
         "text": "[Tired] I clean late at night even when I am exhausted, because waking up to a messy kitchen ruins the whole morning.",
@@ -3017,7 +3022,7 @@ export const STATEMENT_SETS = {
     "case-aisha": [
       {
         "text": "[Distrustful] You say your notes are private, but if you write that I am unstable, I will not know until it is already out there.",
-        "suggestion": "The note can feel like betrayal happening quietly after you leave, a page that could turn against you without warning."
+        "suggestion": "It is as if the words on that page could travel somewhere you cannot follow, leaving you with no say in how you are seen."
       },
       {
         "text": "[Desperate] I can beg someone to stay and then tell them to leave me alone in the same conversation, and I mean both at the time.",
@@ -3037,11 +3042,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Desperate] When someone says goodbye, I know it is normal, but I start bargaining in my head about how to keep them there longer.",
-        "suggestion": "Goodbye tilts the room before logic can help, and you are already reaching for anything that might keep them from fading."
+        "suggestion": "It sounds like goodbye starts closing a door, and you are already reaching to hold it open a little longer."
       },
       {
         "text": "[In denial] Last week I felt suicidal when he disappeared, but then he texted me back, so maybe I am fine now and we do not need to make it a big thing.",
-        "suggestion": "His text feels like the floor snapping back under you, while the place you fell through is still open underneath."
+        "suggestion": "His message may have felt like a lifeline after that frightening week. I do not want to assume the suicidal thoughts are gone because he replied. Are you having thoughts of ending your life now?"
       },
       {
         "text": "[Hurt] When someone calls me too much, I keep hearing it afterward, especially when I want to text them and try not to.",
@@ -3067,7 +3072,7 @@ export const STATEMENT_SETS = {
     "case-david": [
       {
         "text": "[Controlled] When my wife calls me cold, I get quiet and then make one precise comment that I know will land hard.",
-        "suggestion": "The word cold burns behind your teeth, and the precise comment comes out like armor snapping shut with an edge on it."
+        "suggestion": "It sounds as though \"cold\" lands like a blow, and your words strike back."
       },
       {
         "text": "[Worthless] If I am not the best person in the room, I feel ordinary, and ordinary is almost worse than failing.",
@@ -3087,7 +3092,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] My kid's face after I snap bothers me more than I expected, but I still catch myself preparing a defense.",
-        "suggestion": "That careful face slips past every argument, a hit to the place no defense can quite protect."
+        "suggestion": "It is as if your child's face stays there between you and every argument you reach for."
       },
       {
         "text": "[Avoidant] In hard talks, I check my phone when it gets too personal, and I tell myself I am just staying on top of things.",
@@ -3117,7 +3122,7 @@ export const STATEMENT_SETS = {
     "case-marcus": [
       {
         "text": "[Hopeless] Most days I go through the motions, show up where I am supposed to, and still do not see the point of talking about it.",
-        "suggestion": "The day folds down around you, flat and airless, and words feel like they would only press against a wall."
+        "suggestion": "It sounds like moving through a day with all the colour washed out, and talking feels like more effort with nowhere to go."
       },
       {
         "text": "[Low voice] Crowds make me tense before anything has happened; I track exits, hands, and noise while everyone else is just shopping.",
@@ -3137,7 +3142,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and guarded] When something good happens, I notice it, say the right thing, and then wait for the feeling that does not come.",
-        "suggestion": "Goodness is right there, but it hits the glass before it reaches you."
+        "suggestion": "It is as if something good is right in front of you, but there is a pane of glass between you and the feeling."
       },
       {
         "text": "[Flat] I keep the lights low at home because bright light bothers me and makes the place feel too exposed.",
@@ -3169,7 +3174,7 @@ export const STATEMENT_SETS = {
     "case-sara": [
       {
         "text": "[Embarrassed] I tell my friends I'm fine, then get irritated when they stop asking.",
-        "suggestion": "You give the fine answer and then feel alone with it; I wonder if you are hoping someone will notice you are not fine."
+        "suggestion": "You say you are fine, then feel upset when they stop asking. I wonder if you wish someone would notice that there is more you have not said."
       },
       {
         "text": "[Embarrassed] I stay late at work after the breakup, because getting home early feels worse.",
@@ -3219,7 +3224,7 @@ export const STATEMENT_SETS = {
     "case-michael": [
       {
         "text": "[Firm] If someone questions me in a meeting, I answer fast and louder than I meant to.",
-        "suggestion": "You come in strong before there is time to think; I wonder if the question lands like being exposed as not knowing enough."
+        "suggestion": "You answer quickly and loudly when someone questions you. I wonder if there is a moment of feeling exposed before you respond."
       },
       {
         "text": "[Defensive] When a coworker corrects me in front of the room, I laugh it off and then feel heat shoot up my neck.",
@@ -3239,7 +3244,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] I only pour a drink after work because my wife keeps pushing; if she would stop nagging, I would not need it.",
-        "suggestion": "You put the drinking on her pushing; I wonder if the drink also helps you get away from feeling blamed."
+        "suggestion": "You connect the drinking to feeling pushed by your wife. I wonder if being blamed feels hard to bear, and the drink gives you some distance from that."
       },
       {
         "text": "[Firm] I reread everyone's work before a presentation because one mistake would come back on me.",
@@ -3289,7 +3294,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] Seeing confident people makes me want to disappear, and then I hate myself for envying them.",
-        "suggestion": "Their confidence makes you shrink; maybe the envy is also sadness about feeling outside that world."
+        "suggestion": "Seeing their confidence makes you want to disappear. I wonder if there is sadness in the envy too, about wanting to feel that free with people."
       },
       {
         "text": "[Quietly] If someone laughs nearby, I assume it is about me and replay what I did wrong.",
@@ -3369,7 +3374,7 @@ export const STATEMENT_SETS = {
     "case-carlos": [
       {
         "text": "[Tense and angry] A disrespectful tone flips a switch in me before I know what got hit.",
-        "suggestion": "It flips you fast; I wonder if under the heat is a flash of humiliation before anger takes over."
+        "suggestion": "The anger comes so fast. I wonder if there is a brief feeling of being humiliated just before it."
       },
       {
         "text": "[Tense and angry] If I back down, it sits in my chest for days.",
@@ -3389,7 +3394,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and angry] I puff up when someone challenges me, before they can see it lands.",
-        "suggestion": "You armor up fast; I wonder if it covers that split second where the challenge actually lands and makes you feel less-than."
+        "suggestion": "You react strongly before they can see the challenge has landed. I wonder if there is a moment of feeling small that you do not want them to see."
       },
       {
         "text": "[Ashamed] I break things so I do not hit people, but afterward I can see everyone is still scared.",
@@ -3419,7 +3424,7 @@ export const STATEMENT_SETS = {
     "case-nina": [
       {
         "text": "[Guilty] Resting makes me feel selfish, even when I am so tired I can barely stand.",
-        "suggestion": "Rest stirs guilt; I wonder if part of you came to feel that love was safer when you kept earning your place."
+        "suggestion": "Rest brings guilt even when you can barely stand. I wonder if you fear you will matter less to people when you are not doing things for them."
       },
       {
         "text": "[Apologetic] I say yes and then resent it, but I still cannot stop.",
@@ -3439,7 +3444,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Torn] I swallow my anger because it is not nice, and then I resent everyone quietly.",
-        "suggestion": "You swallow the anger to stay kind; maybe a younger part learned that having needs would threaten love."
+        "suggestion": "You keep the anger to yourself so you can stay nice. I wonder if you worry that people might pull away if they knew what you wanted."
       },
       {
         "text": "[Tired] I take care of everyone, and when nobody notices, I get sharp with myself for caring.",
@@ -3519,7 +3524,7 @@ export const STATEMENT_SETS = {
     "case-david": [
       {
         "text": "[Hopeless] When my wife calls me cold, I make a cutting joke before she can see it hurt.",
-        "suggestion": "The joke gets there first; I wonder if it guards against a sting of being seen as failing or not enough."
+        "suggestion": "The joke comes before she can see the hurt. I wonder if being called cold also touches a fear that you are failing her."
       },
       {
         "text": "[Dismissive] I do not like being told what to do; it makes me feel like someone has the upper hand.",
@@ -3539,7 +3544,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Avoidant] In hard talks, I reach for my phone when the conversation starts to get personal.",
-        "suggestion": "You reach for an exit as closeness comes in; maybe being personal feels dangerous when you expect judgment."
+        "suggestion": "You turn to your phone when things get personal. I wonder if you feel exposed and expect to be judged if you stay in the conversation."
       },
       {
         "text": "[Controlled] I brag when I feel insecure, before anyone can see the gap.",
@@ -3589,7 +3594,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and guarded] When good things happen, I notice myself waiting for the other shoe to drop.",
-        "suggestion": "The good stays at a distance; maybe letting it matter makes loss feel too close."
+        "suggestion": "You find yourself waiting for something to go wrong. I wonder if enjoying the good moment also brings a fear of losing it."
       },
       {
         "text": "[Flat] I drink to knock myself out sometimes because I do not want to dream.",
@@ -3621,7 +3626,7 @@ export const STATEMENT_SETS = {
     "case-sara": [
       {
         "text": "[Tearful] It hits me in a wave when I see his mug still in the cupboard, and then I cannot stop sobbing. I feel embarrassed by the sound of it, but it keeps coming.",
-        "suggestion": "I am right here with you as the sobbing comes. We do not have to stop it or drown in it; we can stay with this one wave together."
+        "suggestion": "I am here with you. You do not need to apologize for the sobbing; we can take this moment slowly and pause if it becomes too much."
       },
       {
         "text": "[Tearful] My chest hurts like it is going to split open when I say I miss him. I try to hold it in because the ache feels too big for this room, but then my breath catches and I cannot pretend it is small.",
@@ -3641,7 +3646,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Embarrassed] I feel stupid for crying this hard, but I cannot stop it. I can hear myself making these wet, broken sounds, and part of me wants to apologize while another part just keeps breaking.",
-        "suggestion": "There is so much shame about the sound of the crying, and I am not pulling away from it. We can let it come in small pieces while you notice I am still here."
+        "suggestion": "You are hurting, and ashamed of how the crying sounds. I am here listening; you do not have to make it quieter or find all the words at once."
       },
       {
         "text": "[Numb] My hands are going numb; I feel far away, like I might leave the room without moving. Your face is still here, but it is starting to look like something on a screen.",
@@ -3671,7 +3676,7 @@ export const STATEMENT_SETS = {
     "case-michael": [
       {
         "text": "[Firm] My jaw locks and heat blasts up my neck when someone questions me, even here. It is like my body hears disrespect before my head knows what was said.",
-        "suggestion": "The heat comes fast when you feel questioned. I will stay steady with you while we keep the anger in words and listen for the sting under it."
+        "suggestion": "I hear how quickly the anger rises, even with me. I am here listening. We can slow this down and put words to what feels disrespectful, without having to act on the anger."
       },
       {
         "text": "[Tense and ashamed] I grabbed my son's arm too hard when he would not listen, and his face keeps replaying. I feel sick, but part of me wants him to stop being scared of me already.",
@@ -3691,7 +3696,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and angry] I hate this small feeling; it makes me want to tower over someone. It starts as this tiny, exposed place in my chest, and then my whole body wants height, volume, and distance from it.",
-        "suggestion": "That small feeling is hard to bear, and something in you wants to tower over someone. I will stay with you while the smallness gets a little room without running the room."
+        "suggestion": "Feeling that small is hard to bear. I am here with you, and we can take it slowly. You can name the urge without having to follow it."
       },
       {
         "text": "[Defensive] Part of me wants to walk out before this turns into me looking pathetic in front of you.",
@@ -3721,7 +3726,7 @@ export const STATEMENT_SETS = {
     "case-jason": [
       {
         "text": "[Quietly] Everything goes fuzzy and my heart races like I am failing out loud. I can still hear you, but the words blur together and I start trying to look normal instead of listening.",
-        "suggestion": "I am here with you in the fuzziness. The panic can be visible without you having to perform a normal sentence."
+        "suggestion": "Let's slow down. You do not need to find words right now. I am here; if it helps, notice my voice and where the chair supports you."
       },
       {
         "text": "[Trembling] My hands shake and I want to disappear before anyone notices. It is the same feeling as standing up in class: everyone can see the shaking before I can make one sentence.",
@@ -3741,7 +3746,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Anxious] I want to hide under the table; my face feels like it is burning. I know that sounds childish, but the shame is so hot that even sitting upright feels like too much exposure.",
-        "suggestion": "The shame is so hot that hiding feels safer. I will stay with you while your face burns and you remain here, seen only as much as you can stand."
+        "suggestion": "The shame feels almost unbearable right now. I am here with you. You can look away or pause; you do not have to force yourself to meet my eyes or find words."
       },
       {
         "text": "[Quietly] I cannot make eye contact right now; my face is burning. If I look up and see you watching me, I think the burning will take over and I will stop being able to speak.",
@@ -3771,7 +3776,7 @@ export const STATEMENT_SETS = {
     "case-laura": [
       {
         "text": "[Slow and flat] When the door slammed outside, I disappeared inside before I could tell whether I was safe.",
-        "suggestion": "You went far inside the moment the slam hit. I will stay steady and help mark that the sound is over before we ask you to feel anything more."
+        "suggestion": "That slam took you far away. I am here with you. Could we take a moment to notice the room around us before asking anything more of you?"
       },
       {
         "text": "[Slow and flat] Everything goes numb when I try to feel anything about what happened. I can say the facts, but the second you ask how it felt, it is like the power cuts out inside me.",
@@ -3791,7 +3796,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and guarded] I think I have to put my old cat to sleep tomorrow, and the guilt is so big I can barely say it.",
-        "suggestion": "That is a terrible kind of love and guilt to hold. I will stay with you in the part that can hardly say it, and we will keep the decision small enough to bear in this moment."
+        "suggestion": "You love your cat, and this decision brings so much guilt. I am here with you. You do not have to explain or justify all of it at once."
       },
       {
         "text": "[Flat and guarded] I do not trust my own signals to tell me I am safe. My body says danger even when I know the door is closed and nothing is happening, so I do not know which part of me to believe.",
@@ -3821,7 +3826,7 @@ export const STATEMENT_SETS = {
     "case-carlos": [
       {
         "text": "[Angry, clenching fists] Heat is rising; my fists want to clench before I know what got hit. It is like my hands are ready to answer a threat before I can even name what felt threatening.",
-        "suggestion": "I am here with you as the heat rushes into your hands. The threat and anger can be strong in words here, and we will pause before your hands have to do anything with it."
+        "suggestion": "Let's pause here. I can listen to how threatened and angry you feel, and we need to keep this in words, without threatening or hurting anyone."
       },
       {
         "text": "[Tense and angry] My voice wants to shout before anyone sees I am rattled. When my partner asks one careful question, I feel the volume rising to cover the part of me that got scared.",
@@ -3841,7 +3846,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and angry] My chest is pounding like I am already in a fight. My shoulders are up, my eyes keep going to the door, and I can feel my body getting ready before I have chosen anything.",
-        "suggestion": "You are already preparing for a fight before you have chosen one. I will stay close to that readiness with you, treating it as a surge we can name rather than an order you have to follow."
+        "suggestion": "Your body feels ready for a fight. I am here with you, and we can pause. You can notice that surge without having to follow it into action."
       },
       {
         "text": "[Furious] When that guy at work mocked me, I wanted to beat him until he understood not to laugh at me.",
@@ -3871,7 +3876,7 @@ export const STATEMENT_SETS = {
     "case-nina": [
       {
         "text": "[Guilty] I cannot stop crying, and then I feel ashamed for needing so much. My son only asked where his socks were, and suddenly I was at the counter sobbing like I had ruined everything.",
-        "suggestion": "The crying and the shame about needing so much are both here. I am staying with you while the need has room without becoming something to apologize for."
+        "suggestion": "The tears are here, and you feel ashamed of needing so much. I am listening. You do not have to look after me or apologize for what you need."
       },
       {
         "text": "[Apologetic] My chest is tight and my head throbs from keeping everyone okay. I can feel the list running through me: the boys, my mother, work, dinner, messages, and there is no room left to breathe.",
@@ -3891,7 +3896,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Torn] If I stop doing, I will fall apart and someone will need me anyway. I can feel the tears right behind my eyes, but the second they come I picture someone calling from the next room.",
-        "suggestion": "Stopping feels dangerous because everyone's needs rush in, including yours. I am here with you while a little of your own tears gets room before you have to take care of anyone."
+        "suggestion": "Even stopping feels frightening, with the tears so close. I am here with you now. We can give this moment some time; you do not have to take care of everyone while we talk."
       },
       {
         "text": "[Tired] I want to leave the second I feel how badly I need someone to help me. The need rises and I get angry at myself, like I should be able to stand up and carry the whole thing alone.",
@@ -3921,7 +3926,7 @@ export const STATEMENT_SETS = {
     "case-aisha": [
       {
         "text": "[Longing, ashamed] I know you are my therapist, but sometimes I want you to love me romantically, in a way therapists are not supposed to.",
-        "suggestion": "Hearing that longing matters, and I will not shame you for it. The therapy boundary stays clear and not romantic, while we stay close to what it is like to want me this much and fear losing me."
+        "suggestion": "I hear how strong that longing is, and you can talk about it here. I am here as your therapist; our relationship will not become romantic. We can stay with the feeling without shaming you or acting on it."
       },
       {
         "text": "[Panicked] The emptiness is burning so badly that I start thinking I have to hurt myself just to prove I am still here.",
@@ -3941,7 +3946,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Panicked] My chest feels like a black hole, and I am scared it will swallow me. The more I notice it, the more I think I will drop into it and not come back the same.",
-        "suggestion": "That black-hole terror says the feeling could swallow you if you notice it. I will meet you right at the rim; only a few words have to come before we return."
+        "suggestion": "I am here with you. If paying closer attention makes it too much, we can pause and notice the room around us instead. You do not have to go further into it now."
       },
       {
         "text": "[Panicked] My last therapist said she was transferring me, and I still feel the panic like she threw me away.",
@@ -3971,7 +3976,7 @@ export const STATEMENT_SETS = {
     "case-david": [
       {
         "text": "[Controlled] My face is burning, and I want to cut this off before you see how exposed I am.",
-        "suggestion": "The exposure is right in your face, hot and hard to bear. I can meet it without forcing you to show more than this much."
+        "suggestion": "Feeling that exposed is hard to bear. I am here listening, and you can choose how much you show me. We can pause without cutting off what you are feeling."
       },
       {
         "text": "[Disappointed and angry] Therapy is not working. I feel worse, and maybe it is because you do not have enough experience for someone like me.",
@@ -3991,7 +3996,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] I am embarrassed I snapped at home; I sounded exactly like the person I judge. The sentence came out sharp, and then I saw myself from the outside and felt this hot disgust in my face.",
-        "suggestion": "Seeing yourself snap brings a hot disgust, almost an instant verdict. I can be with that shame without joining the verdict."
+        "suggestion": "Seeing how you acted brings so much shame and disgust. I am here with you; we can hear that pain without turning it into an attack on you."
       },
       {
         "text": "[Controlled] I feel like shutting down so I do not say something desperate. I can feel the sentence coming up, and I hate that I might need my wife this much in front of you.",
@@ -4021,7 +4026,7 @@ export const STATEMENT_SETS = {
     "case-marcus": [
       {
         "text": "[Flat] A wave is coming up my chest, and I want to shut it down before it takes me back there.",
-        "suggestion": "The wave is coming, and the fear is being pulled back there. I will meet you at the first rise of it, with this room still partly around us."
+        "suggestion": "You are afraid the feeling will take you back there. I am here with you. We can pause and notice where we are now, without going further into the memory."
       },
       {
         "text": "[Horrified, low voice] I saw footage from another war zone, children under rubble, and my whole body went sick and cold.",
@@ -4041,7 +4046,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Low voice] When I get home and it is silent, the weight lands on my chest like a door closing.",
-        "suggestion": "The silence shuts down around you like that door. I can sit with the weight on your chest without letting it lock you in alone."
+        "suggestion": "As you describe that silence, I hear how heavy it feels. I am here with you now. We can sit with this for a moment without asking you to say more."
       },
       {
         "text": "[Flat] After a crowd, my skin buzzes like I am still on watch. I can be home with the door locked and still feel every shoulder from the train brushing past me.",
@@ -4073,7 +4078,7 @@ export const STATEMENT_SETS = {
     "case-sara": [
       {
         "text": "[Tearful] When I say I still miss him, do you secretly think I sound ridiculous?",
-        "suggestion": "No. I do not hear ridiculous. I hear grief for someone who mattered, and I am moved by how carefully you are trying to survive this loss. Notice what happens as I say that."
+        "suggestion": "I do not see your grief as ridiculous. I am moved that you can bring it here, even when you feel embarrassed. What is it like to hear me say that?"
       },
       {
         "text": "[Tearful] You probably get tired of hearing me cry about him every week.",
@@ -4093,7 +4098,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hesitant] Do you actually believe I will not still be alone a year from now, or are you just trying to comfort me?",
-        "suggestion": "I cannot promise what a year will bring, and I would not comfort you with certainty I do not have. I do feel real hope sitting with you. Let's make room for both: my hope and your fear that you may still be alone."
+        "suggestion": "I cannot promise what a year will bring, and I do not want to give you false certainty. I am willing to work with you on the loneliness rather than dismiss it. What is it like to hear that?"
       },
       {
         "text": "[Fearful] When I ask if I am too much, I am afraid you will start pulling away.",
@@ -4123,7 +4128,7 @@ export const STATEMENT_SETS = {
     "case-michael": [
       {
         "text": "[Challenging] Be honest—do I sound weak when I talk about being hurt?",
-        "suggestion": "I do not hear weakness in this. I hear effort and courage, and I feel respect for you saying it. I want that respect to sit beside the part expecting contempt."
+        "suggestion": "I do not see acknowledging hurt as weakness. I respect your willingness to say it directly. What happens for you as you hear that?"
       },
       {
         "text": "[Tense] When I ask if you get angry too, I need to know you will not look down on mine.",
@@ -4143,7 +4148,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Challenging] Are you strong enough to handle me when I am mad?",
-        "suggestion": "I feel steady enough to stay with your anger. I am not here to prove strength against you; I want us to understand what the anger protects."
+        "suggestion": "I am willing to listen to your anger, and I will be clear if we need to pause. I do not want this to become a contest of strength. What would help you know I am taking you seriously?"
       },
       {
         "text": "[Firm] You look calm while I describe yelling at home; does any of this actually get to you?",
@@ -4173,7 +4178,7 @@ export const STATEMENT_SETS = {
     "case-jason": [
       {
         "text": "[Quietly] When I go quiet, I worry you are sitting there wishing I would hurry up.",
-        "suggestion": "You are not wasting my time. I stay interested in you in the quiet, and I want us to check the fear that I have already left you there alone."
+        "suggestion": "I am still interested when you are quiet. I do not need you to hurry for my sake. What do you notice as I say that?"
       },
       {
         "text": "[Hesitant] I ask if you ever feel awkward because I feel like an alien here.",
@@ -4193,7 +4198,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hesitant] Do you get impatient when I go quiet and cannot find words?",
-        "suggestion": "I do not feel impatient. I feel protective of this slower pace, and interested in the quiet as something meaningful rather than a failure."
+        "suggestion": "I notice a wish to help you find the words, but I do not want that wish to become pressure. I am choosing to give the pause some room. How is that for you?"
       },
       {
         "text": "[Quietly] When I get quiet, do you judge me or get annoyed inside?",
@@ -4223,7 +4228,7 @@ export const STATEMENT_SETS = {
     "case-laura": [
       {
         "text": "[Slow and flat] When I feel nothing, do you get uncomfortable or think I am unreachable?",
-        "suggestion": "I do not feel uncomfortable with the numbness, and I do not see you as unreachable. I feel careful and patient with it, and I want you to have room here without performing feeling for me."
+        "suggestion": "I want to understand what the numbness is like for you, rather than decide you are unreachable. I am choosing to slow down; you do not have to produce a feeling for me. What is it like to hear that?"
       },
       {
         "text": "[Hesitant] Are you annoyed that I keep protecting myself instead of opening up?",
@@ -4243,7 +4248,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hesitant] Will you push me into details if I stay quiet too long?",
-        "suggestion": "I am not going to push you into details. I feel more interested in keeping you safe enough to stay present. You can correct me if I move too fast."
+        "suggestion": "I do not want to push you into details. I want to understand at a pace you can choose, and you can tell me if I move too fast."
       },
       {
         "text": "[Hesitant] Can you tell when I am far away, or do I just seem difficult?",
@@ -4273,7 +4278,7 @@ export const STATEMENT_SETS = {
     "case-carlos": [
       {
         "text": "[Challenging] Do you think I am a bad dad for losing it?",
-        "suggestion": "When you say that, I feel how much your son matters to you. I do not see a bad dad sitting here. I want us to stay near the father who cares this much."
+        "suggestion": "I do not want to reduce you to a label like \"bad dad\". I care about helping you change how you respond, and I take the effect on your children seriously. What is it like to hear both parts?"
       },
       {
         "text": "[Tense] When you talk about vulnerability, are you trying to make me soft?",
@@ -4293,7 +4298,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] Can you respect me if you have seen how ugly my temper gets?",
-        "suggestion": "I do respect you. I feel it most when you let me see both the temper and what it costs you. Let the respect include the cost, not only the control."
+        "suggestion": "I can respect you and take the harm from your temper seriously. I care about the effort you are making to face it. What is it like to hear that without having to hide what happened?"
       },
       {
         "text": "[Challenging] Does that breathing stuff work for you when you feel ready to snap?",
@@ -4323,7 +4328,7 @@ export const STATEMENT_SETS = {
     "case-nina": [
       {
         "text": "[Guilty] I feel selfish even taking up space here instead of helping someone else.",
-        "suggestion": "I do not experience you as selfish here. I feel protective of the part of you that keeps apologizing for having needs. Let that protection be for you rather than another demand."
+        "suggestion": "I want there to be room for your needs here. I do not experience listening to you as taking something away from someone else. How is it to hear that?"
       },
       {
         "text": "[Apologetic] When I say I am resentful, are you judging me for not being kinder?",
@@ -4373,7 +4378,7 @@ export const STATEMENT_SETS = {
     "case-aisha": [
       {
         "text": "[Hesitant] Do you actually care about me or are you paid to?",
-        "suggestion": "I do care about you in this therapy relationship. The paid role gives the care boundaries; it does not make it fake. We can stay with both the relief and suspicion that may bring up."
+        "suggestion": "I care about you within this therapy relationship. Being paid is part of my professional role, and that role also sets limits on what I can offer. What is it like to hear those things together?"
       },
       {
         "text": "[Desperate] When I ask whether you will leave, I need to know if you already want distance.",
@@ -4393,7 +4398,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] When I get intense like this, do you think I am too much?",
-        "suggestion": "You do not feel like too much to me. I feel the size of the pain and care about helping you hold it, especially where you expect me to pull away."
+        "suggestion": "I take your pain seriously, and I want to understand it without making you hide how intense it is. I will also be clear about my limits. What do you hear in that?"
       },
       {
         "text": "[Desperate] When I ask if you like me, part of me already expects the answer to disappear.",
@@ -4423,7 +4428,7 @@ export const STATEMENT_SETS = {
     "case-david": [
       {
         "text": "[Controlled] When I say convince me, I am watching whether you get defensive.",
-        "suggestion": "When you ask me to convince you, I notice a pull to prove myself. I am choosing transparency instead of defensiveness, because proving myself would miss what you are testing in me. Let's look at that test together."
+        "suggestion": "I notice a pull to prove myself, and I do not want that to take over our conversation. I would rather understand what you need to know about me. What are you watching for?"
       },
       {
         "text": "[Challenging] Do you actually want to work with someone who can sound as arrogant as I do?",
@@ -4443,7 +4448,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Dismissive] I know I am late again. Work got away from me. Anyway, where should we start?",
-        "suggestion": "This is hard to say directly: when you come late repeatedly and move past it quickly, the work between us feels pushed aside, and I feel a little dismissed. Let's start there before we decide where to go next."
+        "suggestion": "I am concerned that repeated lateness leaves us less time for the work you came for. I want us to address that rather than brush past it. What gets in the way of arriving on time?"
       },
       {
         "text": "[Wounded but sharp] Do you ever feel ashamed of being wrong, or is that weakness just mine?",
@@ -4473,7 +4478,7 @@ export const STATEMENT_SETS = {
     "case-marcus": [
       {
         "text": "[Flat] When I ask if I am broken, I need to know what you see.",
-        "suggestion": "I do not see broken in you. I feel respect for how hard you have worked to survive, and you do not have to respond to that before you are ready."
+        "suggestion": "I do not see you as broken. I respect how much you have endured, and I want to understand what living with it is like for you. You do not have to agree with my view."
       },
       {
         "text": "[Slow and flat] When I sit here numb, are you frustrated that I cannot give you more?",
@@ -4493,7 +4498,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hesitant] Do you actually think I can change after being like this for years?",
-        "suggestion": "I do think change is possible, even after years of living this way, and I feel patient about how slowly it may need to happen. Let that possibility stay modest enough that it does not demand more from you."
+        "suggestion": "I think change is possible, but I cannot promise what it will look like for you. I am willing to work at your pace and look honestly at what helps. How does that sound to you?"
       },
       {
         "text": "[Low voice] Would you tell me if my silence was wasting your time?",
@@ -4553,7 +4558,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Hesitant] I imagine telling him, You left me alone with all of this, and then I stop myself. My throat closes and I think, Do not send that, do not be pathetic, he already chose to go.",
-        "suggestion": "There are two markers here, and the unfinished business with him gives us the clearest starting point. Let's place him in the empty chair and let you say only the first line, 'You left me alone with all of this,' stopping as soon as your throat begins to close."
+        "suggestion": "There are words you have not been able to say to him. Would you like to try one sentence with him imagined in the empty chair? If you choose to try, begin with 'You left me alone with all of this,' and we can stop if your throat begins to close."
       },
       {
         "text": "[Anxious] Before a date, I picture him noticing every needy thing about me. I hear, Do not relax, do not text too soon, do not let him see the mess. If he sees it, he will leave too.",
@@ -4575,7 +4580,7 @@ export const STATEMENT_SETS = {
     "case-michael": [
       {
         "text": "[Tense and ashamed] Whenever I feel hurt, especially when my wife says I look wounded, my father's words come back: Stop being weak and get control. Then I straighten up and start talking like nothing landed.",
-        "suggestion": "Your father's command has become an internal voice that shuts the hurt down. Would you be willing to give that command one chair and the wounded side the other? Start in the command chair and say, 'stop being weak and get control,' directly to him."
+        "suggestion": "Your father's command has become an internal voice that shuts the hurt down. Would you be willing to give that command one chair and the wounded side the other? If you agree, imagine yourself in the other chair. From the command chair, say 'stop being weak and get control' to that hurt side of yourself."
       },
       {
         "text": "[Tense and angry] I still want to tell my father what it cost me when he called every feeling weakness.",
@@ -4583,7 +4588,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] The second I start to soften, I hear, Get it together, and I start listing what I should have done better.",
-        "suggestion": "The softer feeling starts to appear, and the command cuts in. Let's make that interruption visible with two chairs: from this chair, say 'get it together' and list what he should have done better; then we will move to the softer side."
+        "suggestion": "The softer feeling starts to appear, and the command cuts in. Would you try two chairs to see how you stop that feeling? If you agree, picture the softer side of yourself opposite. From this chair, say 'get it together' and tell that side of yourself what he should have done better; then we will move to the softer side."
       },
       {
         "text": "[Ashamed] After I snap, everyone gets quiet, and later I sit in the car calling myself an idiot for losing control again. I do not say it out loud at home, but the words keep going: You are just like him, you never learn.",
@@ -4595,7 +4600,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] When my wife reaches for me after a fight, I make a joke or start talking about what needs fixing.",
-        "suggestion": "The joke and the fixing pull you away just as softness comes close. Could we give that steering-away side this chair? Show how it moves him into joking or fixing; then we will move to the softer side and let it answer."
+        "suggestion": "The joke and the fixing pull you away just as softness comes close. Would you try two chairs to see how you turn away? If you agree, picture the softer side of yourself opposite and show how you steer him into joking or fixing; then we will move to the softer side and let it answer."
       },
       {
         "text": "[Worried] Before a presentation, I check the deck all night because one mistake would prove I should not be in charge.",
@@ -4611,7 +4616,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] I start to say sorry, and then a voice says, Do not fold. It tells me that if I soften first, my wife wins and I lose the last bit of respect I have. So I swallow the apology and talk about what she did instead.",
-        "suggestion": "The 'do not fold' voice stops the apology by making repair feel like defeat. Let's give that voice this chair first: make its case for swallowing the apology. Then we will move to the side that wanted to repair and hear what gets blocked."
+        "suggestion": "The 'do not fold' voice stops the apology by making repair feel like defeat. Would you try two chairs to hear that voice and the side wanting to repair? If you agree, start as the 'do not fold' voice and tell the other side why he must swallow the apology. Then we will move to the side that wanted to repair and hear what gets blocked."
       },
       {
         "text": "[Scowling] My boss said 'good job' and I immediately thought, don't get comfortable. One decent week doesn't mean you're not a screw-up.",
@@ -4683,35 +4688,35 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and tearful] When my ex moved out, I did not cry. I cleaned the kitchen and felt nothing, like I should have been hurt but I was just blank.",
-        "suggestion": "The cleaning and blankness seem to stop the hurt before it reaches you. If it feels safe enough, let's give that blocking side one chair: show how you go blank and keep cleaning. Then we will move to the hurt side and let it have only a few words."
+        "suggestion": "The cleaning and blankness seem to stop the hurt before it reaches you. Would you look at that stopping with two chairs, without pushing past it? If you choose to try, give the blocking side one chair and the hurt side the other. From the blocking chair, show how you go blank and keep cleaning. Then we will move to the hurt side and let it have only a few words."
       },
       {
         "text": "[Distant] I keep wondering whether my ex knew what would happen after he left, that I would turn it all back on myself. I want to ask him, Did you know I would carry the blame for both of us?",
-        "suggestion": "He is the person you want to ask about being left with all the blame. If it feels manageable, we can put him in the empty chair and let the question go directly to him: 'Did you know I would carry the blame for both of us?'"
+        "suggestion": "He is the person you want to ask about being left with all the blame. Would you like to try asking him using the empty chair? If you choose to try, imagine him at a distance you choose and ask: 'Did you know I would carry the blame for both of us?' We can pause after that."
       },
       {
         "text": "[Flat and guarded] I still tell myself I am damaged goods. It comes up when someone is kind to me or when I think about dating again. I hear, They would leave if they knew enough, so do not let anyone get too close.",
-        "suggestion": "The 'damaged goods' voice warns you away from closeness before anyone can choose you. If it feels safe enough, we can put that voice in one chair and the part that hears it in the other. From this chair, say, 'they would leave if they knew enough'; then we will switch and hear what it is like to receive that warning."
+        "suggestion": "The 'damaged goods' voice warns you away from closeness before anyone can choose you. Would you try two chairs, one for that voice and one for the side hearing it? We can stop at any point. If you agree, from the first chair, say, 'they would leave if they knew enough'; then we will switch and hear what it is like to receive that warning."
       },
       {
         "text": "[Slow and flat] When anger starts, I wipe the counter, check the locks, or pour a drink until the feeling disappears. I do not decide to stop it; I just become busy and far away before it has words.",
-        "suggestion": "The wiping, checking, and pouring are how the anger gets carried away before it can speak. If it feels safe enough, we can put that busy, far-away side in this chair first; show how it makes the anger disappear. Then we will move to the anger side and give it a few words without forcing it."
+        "suggestion": "The wiping, checking, and pouring are how the anger gets carried away before it can speak. Would you try two chairs to see how you move away from the anger? If you choose to try, give the busy side one chair and the anger the other. From the first chair, show how it makes the anger disappear. Then we will move to the anger side and give it a few words without forcing it."
       },
       {
         "text": "[Ashamed] I tell myself I should have known better than to trust him. I go over little signs I ignored and make a case against myself, like I was stupid for wanting to believe he was safe.",
-        "suggestion": "The blame is building a case against the part that wanted safety. Can we put that case-making voice in this chair and have it speak directly: 'you should have known better; you were stupid to trust him'? Then we will switch to the trusting part that got hurt."
+        "suggestion": "The blame is building a case against the part that wanted safety. Would you try two chairs to hear that blame and its impact? If you choose to try, picture the trusting side of yourself opposite. From the blaming chair, say: 'you should have known better; you were stupid to trust him'. Then we will switch to the trusting part that got hurt."
       },
       {
         "text": "[Low voice] I never told the man who hurt me, You do not get to decide what I am worth.",
-        "suggestion": "That is unfinished business with the person who hurt you. If it feels safe enough and we go very slowly, we can place him in the empty chair and let you say only that sentence, with pauses and control."
+        "suggestion": "That is unfinished business with the person who hurt you. Would you try that one sentence with him imagined in the empty chair? You can choose the distance and stop at any point. If you want to try, picture him there and say only the words you just used."
       },
       {
         "text": "[Tense and ashamed] When I start to say I am angry, I hear, Do not make trouble. My shoulders go tight, my voice gets polite, and suddenly I am explaining why it was probably not a big deal.",
-        "suggestion": "The 'do not make trouble' voice stops anger before it has a chance to stand up. Let's give that voice this chair first: say the warning and make its case. Then we will move to the angry side and hear one or two plain sentences."
+        "suggestion": "The 'do not make trouble' voice stops anger before it has a chance to stand up. Would you try two chairs, one for that warning and one for the anger? If you agree, start as the warning voice and tell the angry side why she must not speak. Then we will move to the angry side and hear one or two plain sentences."
       },
       {
         "text": "[Distant] I still picture my bedroom door after it happened, waiting to hear my mother come down the hall. She never did. I want to ask her, Why did you never come to my room afterward?",
-        "suggestion": "Your mother is missing from the hallway after it happened, and the question is still there. If it feels manageable, we can bring her into the empty chair and ask, 'Why did you never come to my room afterward?' only as far as feels tolerable."
+        "suggestion": "Your mother is missing from the hallway after it happened, and the question is still there. Would you try asking her using the empty chair? If you want to, picture her at a distance you choose and begin with 'Why did you never come to my room afterward?' We can stop after that one sentence."
       },
       {
         "text": "[Eyes moisten; presses lips together] No. Not this. If I start wanting someone here, I won't be able to stop. Just swallow it. Go blank.",
@@ -4725,7 +4730,7 @@ export const STATEMENT_SETS = {
     "case-carlos": [
       {
         "text": "[Angry, clenching fists] After I punched the wall, I kept thinking, What kind of man scares his own family? I saw my son's face and then the attack started, like there was no father left, only some dangerous man in the kitchen.",
-        "suggestion": "The wall punch turns into an attack on the father in you. Can we work with that blame for a moment? Sit in this chair and say it directly to him: 'what kind of man scares his own family?' Then we will switch and hear what that does to him."
+        "suggestion": "The wall punch turns into an attack on the father in you. Would you try two chairs to hear the blame and its impact? This does not excuse frightening your family. If you agree, picture yourself opposite and, from the blaming chair, say: 'what kind of man scares his own family?' Then we will switch and hear what that does to him."
       },
       {
         "text": "[Tense and angry] I still want to tell my father the belt did not make me a man. It just made me scared of him.",
@@ -4733,7 +4738,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense and ashamed] I start to say sorry to my son, and my mouth shuts. I think, don't show weakness, and my face goes hard.",
-        "suggestion": "The apology starts, and the hard face closes over it before it reaches your son. Would you be willing to set up two chairs? From this chair, tell him not to show weakness and argue for staying hard; then we will move to the father who wanted to repair."
+        "suggestion": "The apology starts, and the hard face closes over it before it reaches your son. Would you be willing to set up two chairs? If you agree, picture the side wanting to repair in the other chair. From this chair, tell that side of yourself not to show weakness and argue for staying hard; then we will move to the father who wanted to repair."
       },
       {
         "text": "[Ashamed] After I yell, I call myself a monster and then get angry at myself for thinking that. Everyone goes quiet, I hear that word in my head, and then another part snaps back, Stop whining and fix it.",
@@ -4745,7 +4750,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Tense] When my voice shakes, I cough, sit up straighter, and make my face hard. I can almost hear my father saying, Do not let them see you like that, so I turn it into a stare.",
-        "suggestion": "The hard face turns the shaking into something no one can see. Let's use two chairs to show that process. From this chair, harden the face and say, 'do not let them see you like that'; then we will move to the side that was shaking."
+        "suggestion": "The hard face turns the shaking into something no one can see. Would you try two chairs to see how you stop the shaking? If you agree, give the hard-faced side one chair and the shaking side the other. From the first chair, harden the face and say, 'do not let them see you like that'; then we will move to the side that was shaking."
       },
       {
         "text": "[Worried] If I let my son talk back once, I imagine losing all respect in the house. First he rolls his eyes, then my wife sees I have no authority, then nobody listens and I am nothing there.",
@@ -4757,7 +4762,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Low voice] I wish I could tell my wife I get scared when she looks at me like she is afraid.",
-        "suggestion": "That sentence belongs directly with your wife, where the fear between you can be named. We can place her in the empty chair and let you say it slowly: 'I get scared when you look afraid of me,' without forcing more than one or two lines."
+        "suggestion": "That sentence belongs directly with your wife, where the fear between you can be named. Would you try saying it with her imagined in the empty chair? If you agree, picture her there and begin slowly with: 'I get scared when you look afraid of me,' without forcing more than one or two lines."
       },
       {
         "text": "[Tense and angry] When tears come up, I clench my jaw and turn them into heat before anyone can see. If the anger is there, nobody asks what hurt. They just back up, and that feels safer.",
@@ -4799,11 +4804,11 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Guilty] If dinner is not ready, I call myself useless. I can have worked all day, answered everyone's messages, helped the boys, and still one missed thing becomes proof that I am failing at the only job that matters.",
-        "suggestion": "The missed dinner becomes a voice saying your whole worth depends on constant care. We can put the 'useless' voice in one chair and the tired part in the other. From this chair, tell her the missed dinner proves she is failing; then we will switch and hear from the exhausted side carrying so much."
+        "suggestion": "The missed dinner becomes a voice saying your whole worth depends on constant care. Would you try two chairs, one for the 'useless' voice and one for the tired side? If you agree, from the first chair, tell her the missed dinner proves she is failing; then we will switch and hear from the exhausted side carrying so much."
       },
       {
         "text": "[Tearful] I still want to tell my ex, You left and somehow I am the one still apologizing. I handle the forms, the boys, the messages, and I still hear myself explaining why I am not doing enough.",
-        "suggestion": "Your ex belongs in the empty chair for the apology you are still carrying. We can place him there and let you say the sentence directly: 'You left, and somehow I am the one still apologizing.' Then we pause and notice what it brings up."
+        "suggestion": "The apology you are still carrying is directed toward your ex. Would you try saying it with him imagined in the empty chair? If you want to, picture him there and begin with: 'You left, and somehow I am the one still apologizing.' Then we pause and notice what it brings up."
       },
       {
         "text": "[Apologetic] I try to say no, then explain until the no turns into yes. I start with, I can't today, and before they even argue, I am listing reasons, softening my voice, and offering another way to help.",
@@ -4833,7 +4838,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Fearful and ashamed] After everything that happened to me, I call myself dirty and impossible to love. When someone touches me kindly, the first voice says they would leave if they knew the whole story.",
-        "suggestion": "The attack calls you dirty for what was done to you, and that leaves the wounded side alone with the shame. If it feels safe enough, we can put the attacking voice in one chair and the wounded side in the other. First let the attack say its exact words; then we will switch and hear the side that has carried them."
+        "suggestion": "The attack calls you dirty for what was done to you, and that leaves the wounded side alone with the shame. Would you try two chairs to hear that attack and its impact, one sentence at a time? We can stop at any point. If you choose to try, give the attack one chair and the hurt side the other. First let the attack say its exact words; then we will switch and hear the side that has carried them."
       },
       {
         "text": "[Ashamed] After I text someone too many times, I call myself crazy and disgusting. I delete the thread, then reopen it, then tell myself no normal person would need proof this badly. The attack feels almost safer than waiting.",
@@ -4841,7 +4846,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Furious] I still want to say to my mother, You left me with people who hurt me. I was a kid, and you kept choosing them, then acting shocked that I was angry.",
-        "suggestion": "There is unfinished business with your mother around being left unprotected and then having your anger treated as the problem. If it feels safe enough, we can bring her into the empty chair so the anger has a direct place to go. Begin with, 'You left me with people who hurt me,' and we will pause after that."
+        "suggestion": "There is unfinished business with your mother around being left unprotected and then having your anger treated as the problem. Would you try one sentence to her using the empty chair? You can choose the distance and stop. If you want to try, picture her there and begin with 'You left me with people who hurt me,' and we will pause after that."
       },
       {
         "text": "[Panicked] When I feel myself needing someone, I start accusing them before they can leave. I hear myself saying, Fine, go then, you never cared anyway, even while another part is begging them not to go.",
@@ -4879,7 +4884,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Dismissive] My wife says she might be done, and I tell myself only an idiot destroys his own family and still expects sympathy.",
-        "suggestion": "There is a harsh blaming voice turning the marriage pain into proof that you deserve no sympathy. Can we work with that attack for a moment? Sit in this chair as the hard side and tell him he is an idiot who destroyed his family; then we will switch and hear what that does to him."
+        "suggestion": "There is a harsh blaming voice turning the marriage pain into proof that you deserve no sympathy. Would you try two chairs to hear that attack and its impact? If you agree, picture yourself in the other chair. From the attacking chair, tell that side of yourself he is an idiot who destroyed his family; then we will switch and hear what that does to him."
       },
       {
         "text": "[Wounded but sharp] I hate how my father made everything a performance, but the second I say that I start defending him: he pushed me because he believed in me.",
@@ -4887,7 +4892,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Dismissive] I tell myself mediocre men lose their families and deserve it. The word mediocre is worse than cruel; it means I became ordinary, replaceable, the kind of man nobody has a reason to choose.",
-        "suggestion": "That sounds like a harsh self-evaluative voice tying your worth to exceptional performance and using mediocrity as a sentence. We can put that voice in one chair and the part of you it attacks in the other. From this chair, say exactly why mediocre men deserve to lose; then we will switch and let the attacked side respond."
+        "suggestion": "That sounds like a harsh self-evaluative voice tying your worth to exceptional performance and using mediocrity as a sentence. Would you give that voice one chair and the side it attacks the other? If you agree, from the first chair, say exactly why mediocre men deserve to lose; then we will switch and let the attacked side respond."
       },
       {
         "text": "[Controlled] I want to tell my father, I was your son, not a project. I still hear him reviewing my grades, my posture, my handshake, like everything about me was something to optimize. I never got to ask whether he ever saw me.",
@@ -4907,7 +4912,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] I tell myself the affair proves I am trash. Not just that I did something destructive, but that underneath the title, the money, all of it, this is who I actually am. Then I hate myself for sounding dramatic.",
-        "suggestion": "That is a severe self-attack around the affair, turning behavior into a verdict on your whole self. We can put the voice that says 'trash' in one chair and the ashamed side in the other. From this chair, let the attack say the whole verdict; then we will switch so you can hear and answer it rather than only endure it."
+        "suggestion": "That is a severe self-attack around the affair, turning behavior into a verdict on your whole self. Would you try two chairs, one for the voice saying 'trash' and one for the ashamed side? Understanding the attack does not excuse the affair. If you agree, from the first chair, let the attack say the whole verdict; then we will switch so you can hear and answer it rather than only endure it."
       },
       {
         "text": "[Dismissive] When sadness comes up, I analyze everyone's tone until the feeling is gone. I can turn a conversation with my wife into a transcript in my head, finding inconsistencies, proving my point, and by then the tightness in my throat is gone.",
@@ -4929,7 +4934,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Low voice] They locked me in the closet, and I still think I must have been impossible, or they would not have done it.",
-        "suggestion": "The blame turns what was done to you into a verdict on the child who was locked in. If it feels possible, we can use two chairs to see how that blame works. From this chair, tell him he must have been impossible; then we will switch and hear from the child who had no way out."
+        "suggestion": "The blame turns what was done to you into a verdict on the child who was locked in. Would you try two chairs to hear the blame and how it affects you? We can stop at any point. If you choose to try, imagine that younger side of yourself opposite and, from the blaming chair, tell him he must have been impossible; then we will switch and hear from the child who had no way out."
       },
       {
         "text": "[Furious] Even in here, imagining telling that foster father I hate him makes my jaw lock. I hear, Don't say that. Don't make it worse.",
@@ -4937,7 +4942,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Flat] I tell myself I should be over it by now; other people had it worse and still function. When I cannot sleep or fill out paperwork, the voice says I am using the past as an excuse.",
-        "suggestion": "The dismissing voice uses comparison to make the impact of trauma sound like an excuse. If it feels workable, we can put that voice in one chair and the part still carrying it in the other. Start as the dismissing voice: tell him he should be over it by now and that others function better."
+        "suggestion": "The dismissing voice uses comparison to make the impact of trauma sound like an excuse. Would you give that dismissing voice one chair and the side living with the trauma the other? You can stop. If you choose to try, start as the dismissing voice: tell him he should be over it by now and that others function better."
       },
       {
         "text": "[Low voice] I want to ask my foster mother why nobody came when I knocked. I remember keeping it quiet at first, then knocking harder, then stopping because I figured I was making it worse. I never got to ask if she heard me.",
@@ -4945,7 +4950,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quiet and guarded] When my voice shakes, I stop talking and stare at the floor. It is like a hand comes over my mouth from the inside: Do not give them more. Do not make it worse.",
-        "suggestion": "The inner hand over the mouth stops the shaking voice before anyone gets more access. If you are willing, we can make that stopper visible in two chairs. From this chair, put the hand over his mouth and say 'do not give them more'; then we will move to the shaking voice for a few words."
+        "suggestion": "The inner hand over the mouth stops the shaking voice before anyone gets more access. Would you try two chairs to see how you stop yourself from speaking? If you choose to try, imagine the part of yourself wanting to speak in the other chair. From the stopping chair, tell him 'do not give them more'; then we will move to the shaking voice for a few words."
       },
       {
         "text": "[Worried] If I sleep deeply, I worry I will wake up back there and not know where I am. So I keep the TV on and make myself stay half-alert, like the worry is standing guard.",
@@ -4957,7 +4962,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Ashamed] Needing help makes me tell myself I am useless. If I cannot handle paperwork, sleep, phone calls, normal things, then I hear, What are you even good for? So I stop asking and let things pile up.",
-        "suggestion": "The self-attack turns needing help into proof that you are useless, and then asking goes silent. If it feels workable, we can put that attack in one chair and the part needing help in the other. From this chair, say 'what are you even good for?'; then we will switch and let the needing side answer without being pushed."
+        "suggestion": "The self-attack turns needing help into proof that you are useless, and then asking goes silent. Would you try two chairs, one for the attack and one for the side needing help? We can stop at any point. If you agree, from the first chair, say 'what are you even good for?'; then we will switch and let the needing side answer without being pushed."
       },
       {
         "text": "[Tense and guarded] When my sister asks about the past, I hear, Shut it down, and I change the subject.",
@@ -4977,39 +4982,39 @@ export const STATEMENT_SETS = {
     "case-sara": [
       {
         "text": "[Embarrassed] Sometimes I think you get bored when I repeat the breakup again, and then I feel stupid for still bringing it here.",
-        "suggestion": "You are bringing me something important: when my attention seems thin, the grief can start to feel unwelcome here. I am sorry my presence has not felt steady enough. I am not bored, and I want you to tell me when I seem gone. What would help you test that I am still with you when this pain repeats?"
+        "suggestion": "Thank you for telling me. You worry that I am bored, and then feel ashamed of bringing the grief here. I want to understand when you lose the sense that I am listening. What have you noticed in those moments?"
       },
       {
         "text": "[Embarrassed] When you asked about work again, I felt like you did not get how much this hurts. I know I have to function, but in that moment it sounded like you wanted the practical version of me back too soon.",
-        "suggestion": "That was a miss from me: I reached for work when the pain needed attention, and it sounded like I wanted the practical version of you back too quickly. I am sorry. Before we talk about functioning again, what part of the loss do you need me to understand first?"
+        "suggestion": "My question about work made you feel I was moving past the pain too quickly. I am sorry. We can leave work aside for now. What do you need me to understand about how much this hurts?"
       },
       {
         "text": "[Anxious] When I apologized for crying, your silence made me worry I was too needy for therapy. I started scanning your face, trying to work out whether I should pull myself together before you got tired of me.",
-        "suggestion": "My silence left you alone with the fear that your need was too much, and I am sorry. I want tears to feel welcome here, not merely tolerated. When they come again, what could I say or do so you do not have to scan my face?"
+        "suggestion": "My silence left you wondering whether your tears were too much for me. I am sorry. I can let you know I am listening instead of leaving you to read my face. Would that help when the tears come?"
       },
       {
         "text": "[Embarrassed] When you keep calling it grief, I feel like you have already decided what this is. Some of it is grief, but some of it is anger, humiliation, missing him, and feeling foolish, and I do not want it flattened.",
-        "suggestion": "The word I chose flattened something more mixed, and I am sorry I moved too quickly. I do not want one label to erase anger, humiliation, missing him, or feeling foolish. What words, if any, help us stay with the whole mix?"
+        "suggestion": "I kept using \"grief\" when you were telling me there was more to it. I am sorry. I can set that word aside and listen to the anger, humiliation, and missing him without deciding it all means one thing."
       },
       {
         "text": "[Tearful] Last session ended while I was still crying, and I walked to the car feeling dropped. I know time was up, but I kept thinking I should not have let myself get that open so close to the end.",
-        "suggestion": "The ending left you exposed and dropped, and I am sorry I did not help us close more carefully. The time boundary is real, but I need to hold it without leaving you alone with shame. What would make endings feel safer when tears are still present?"
+        "suggestion": "We ended while you were still crying, and you felt dropped. I am sorry. We can leave some time before the end to check how you are and what you need for the next part of your day. How would that be for you?"
       },
       {
         "text": "[Hurt] When you asked whether I had thought about dating again, it felt like you wanted me to move on already.",
-        "suggestion": "My dating question skipped past the part of you that is not ready, and I am sorry. I do not want to rush grief into a timetable. What do you need me to understand about the part that cannot move on yet?"
+        "suggestion": "My question about dating made you feel rushed past the grief. I am sorry. We can set that question aside. What do you need me to understand about where you are now?"
       },
       {
         "text": "[Quietly] You mixed up his name last week, and I felt silly for caring so much. But his name is still everywhere in my head, so when you got it wrong, it felt like the relationship became less real here too.",
-        "suggestion": "Mixing up his name was careless with something still very alive for you, and I am sorry. It makes sense that the loss felt less real here when I got that wrong. What would help repair the lapse so this room feels more careful with what still matters?"
+        "suggestion": "I got his name wrong, and something important to you felt less real here. I am sorry. You should not have to repair that for me. I will be more careful with his name; is there more about that moment you want me to hear?"
       },
       {
         "text": "[Embarrassed] When I admitted I checked his profile, your face looked disappointed, and I wanted to take it back. I came here because I am already ashamed of doing it, so that look made me want to hide.",
-        "suggestion": "That look made honesty feel unsafe, and I am sorry for the impact my face had. You came here already ashamed; I do not want my response to add another reason to hide. What did you need from me in that moment instead?"
+        "suggestion": "You saw disappointment in my face and wanted to hide what you had just told me. I am sorry my expression had that effect. I want to understand what checking his profile is like for you. What did you need from me then?"
       },
       {
         "text": "[Anxious] When you asked who else supports me, it sounded like you were trying to pass me off to someone else.",
-        "suggestion": "My support question sounded like I was handing you off, and I am sorry I did not make my intention clear. I want support around you, not distance from you. How can I ask about support without making you feel unwanted here?"
+        "suggestion": "My question about support sounded like I wanted to send you elsewhere. I am sorry. I was asking who you can turn to between sessions. I want us to discuss that together, with room for what you need from me too."
       },
       {
         "text": "[Softly] When you look down at your notes while I talk about him, I feel like you leave for a second.",
@@ -5027,43 +5032,43 @@ export const STATEMENT_SETS = {
     "case-michael": [
       {
         "text": "[Wounded but sharp] When you said I sounded hurt, it felt like you were calling me weak. I know hurt is probably your therapy word, but in my head it sounded like you were stripping away the part of me that can handle things.",
-        "suggestion": "The word 'hurt' did not feel like understanding; it felt like I was taking strength away from you. I am sorry I chose words that made you brace. What language would let us name the hit without making you feel weakened or exposed in a way you did not choose?"
+        "suggestion": "My word \"hurt\" sounded as though I was calling you weak and taking your strength away. I am sorry. I want to hear how you would describe it, without putting my words on you."
       },
       {
         "text": "[Skeptical] Are you actually experienced enough with anger like mine, or are you just following the training manual? I need to know whether you can handle the consequences if this goes badly at home.",
-        "suggestion": "That is a fair question to put to me directly. If I am just following a manual, this could cost you time and affect what happens at home. I should have been clearer about my training, supervision, and limits, and I am sorry I left you guessing. What do you need to know from me, or see in how I work, to decide whether this room is steady enough for your anger?"
+        "suggestion": "You need to know whether I can help with something that has real consequences at home. That is a fair question. I can explain my training, supervision, and limits, and we can consider together whether the help I can offer fits what you need."
       },
       {
         "text": "[Wounded but sharp] When you paused and watched me after I got angry, I felt judged, like you were waiting to see if I would explode. I stopped hearing you and started proving I was still in control.",
-        "suggestion": "My pause and gaze landed as judgment and surveillance, and that impact matters more than my intention. I am sorry I made the room feel more adversarial. What would make my attention feel less like scrutiny and more like steadiness now?"
+        "suggestion": "My pause and the way I watched you felt like judgment. I am sorry. I can say what I am noticing instead of leaving you to wonder whether I expect an outburst. What was it like for you in that pause?"
       },
       {
         "text": "[Defensive] When you asked about my wife's fear first, it felt like you had already decided I was the problem. I could feel myself building a defense instead of listening to the question.",
-        "suggestion": "Starting with her fear made it sound as if I had already taken a side, and I am sorry I made your experience feel smaller. What part of your side needs to be understood before we look again at her fear?"
+        "suggestion": "I asked about her fear before hearing your experience, and you felt I had already taken a side. I am sorry. I want to hear what happened for you too, while taking seriously that she felt afraid. What did I miss?"
       },
       {
         "text": "[Skeptical] When you said anger protects hurt, it sounded like something from a textbook, like you had the model ready before you heard me. I know I get angry, but I do not want to be turned into a therapy example.",
-        "suggestion": "The model came between us there, and I am sorry. If I sounded textbook, I lost contact with the person in front of me and made you feel like an example. What would make this feel less like a formula and more like I am actually listening to what happens in you?"
+        "suggestion": "I offered an explanation before understanding how the anger actually feels for you. I am sorry. We can set that explanation aside. I want to hear what I missed, rather than make your experience fit the model."
       },
       {
         "text": "[Tense] You did not challenge me when I got loud, and now I wonder if you are scared of me.",
-        "suggestion": "My quiet when your voice got loud left you guessing whether I was scared, and I am sorry I did not make my stance clear. I do not want to shrink from you or control you. What would direct, steady contact from me look like when your voice gets loud?"
+        "suggestion": "I hear that my silence left you unsure whether I was afraid of you. I am sorry I left you guessing. I can be more direct about what I am noticing and when we need a pause. How would that be for you?"
       },
       {
         "text": "[Ashamed] When I mentioned drinking, your face changed for a second. Maybe I am reading into it, but I felt judged, like you had just put me in the bad husband category.",
-        "suggestion": "That shift in my face made judgment feel present, and I am sorry for that impact. I want us to be able to look honestly at drinking without turning you into a category. What do you need from me so alcohol can stay discussable without shame taking over?"
+        "suggestion": "You noticed my face change and felt judged as a husband. I am sorry my expression left you with that. I want to understand the drinking and its effect on your life without reducing you to a label. What did that moment make harder to tell me?"
       },
       {
         "text": "[Irritated] You keep asking about my father, and it feels like you are blaming him for everything. I get that he matters, but when you keep going there, it feels like my choices now disappear.",
-        "suggestion": "I kept steering us to your father without checking the impact, and I am sorry. That can make your choices now feel erased. Where should we place attention so your life is not reduced to one explanation?"
+        "suggestion": "I kept returning to your father, and your choices now seemed to disappear from the conversation. I am sorry. We can set that history aside and focus on what is happening in your life today. Where would you like us to begin?"
       },
       {
         "text": "[Wounded but sharp] After I swore, you went quiet and I felt like you were done with me. It was not the word that mattered; it was the feeling that one sharp edge from me was enough to make you leave.",
-        "suggestion": "My quiet after you swore felt like withdrawal, and I am sorry I left you with that. I want you to know I can stay in contact even when strong language is in the room. What would help repair that now?"
+        "suggestion": "I went quiet after you swore, and you felt I was pulling away. I am sorry. I can tell you what is happening for me rather than leave you guessing. What did you need me to hear when you used those words?"
       },
       {
         "text": "[Tense] When you say, Take a breath, it feels like you are trying to control me, like I am a kid about to be sent out of class. It makes me want to refuse just to keep my ground.",
-        "suggestion": "My breath cue sounded like control, and I am sorry I gave it in a way that took agency from you. What wording would make a pause feel like your choice rather than my command?"
+        "suggestion": "When I told you to take a breath, you felt controlled and treated like a child. I am sorry. I can ask whether a pause would help instead of telling you what to do. You can say no."
       },
       {
         "text": "[Frowning] You said I was 'defending myself' when I corrected you. You had the facts wrong. Am I allowed to disagree with you here?",
@@ -5077,35 +5082,35 @@ export const STATEMENT_SETS = {
     "case-jason": [
       {
         "text": "[Quietly] When I freeze and say I do not know, I worry I am doing therapy wrong and wasting the session.",
-        "suggestion": "Freezing started to feel like failing therapy, and I am sorry my silence may have added to that. You are not doing therapy wrong; freezing is part of what we need to understand. What would help you know I am with you when words disappear?"
+        "suggestion": "Thank you for telling me. I hear that losing the words makes this feel like a test you are failing. We can stop trying to force an answer and take the pause together. What would help you feel less under pressure here?"
       },
       {
         "text": "[Hesitant] When you looked at the clock while I was searching for words, I felt unimportant. I know sessions have time limits, but in that moment it felt like my slow words were using up too much space.",
-        "suggestion": "My glance at the clock made your pace feel like a problem, and I am sorry for that. Time limits are real, but I need to handle them without making you feel rushed or unimportant. How should I check the time in a way that keeps you included rather than watched?"
+        "suggestion": "I looked at the clock while you were finding words, and you felt unimportant. I am sorry. I can let you know when we are nearing the end, rather than leave you to read that from a glance. Would that help?"
       },
       {
         "text": "[Fearful] A previous therapist pushed me to talk about feelings until I panicked and ended up in the ER; when you asked about my body right away, I got scared this would be the same.",
-        "suggestion": "Given what happened with the previous therapist, my body question could easily feel like the beginning of another unsafe push. I am sorry I moved there too quickly. We can make permission explicit: you can stop me, and I will ask before going into feelings or sensations. What would show you, in the next few minutes, that this therapy will move at a different pace?"
+        "suggestion": "My question felt like the beginning of the pressure you experienced before. I am sorry I moved too quickly. We can stop the body questions now. I will ask before returning to them, and you can decline or stop at any point."
       },
       {
         "text": "[Quietly] You say it is okay to pause, but when I pause, I feel watched. Your face is kind, but it still feels like a spotlight, and then I rush to say anything so the pause will end.",
-        "suggestion": "The way I look during pauses can feel like pressure rather than protection, and I am sorry. What would help a pause feel less watched, so you do not have to rush out of it just to escape the spotlight?"
+        "suggestion": "You feel watched even when I say a pause is okay. I am sorry my attention adds pressure. I can give you more space and avoid holding my gaze on you. Would that make it easier to pause?"
       },
       {
         "text": "[Anxious] When you suggested practicing with a group, I felt like you did not understand how impossible that sounds. I left thinking you saw my fear as something I could just rehearse my way out of.",
-        "suggestion": "My group-practice suggestion jumped too far ahead and made your fear sound smaller than it is. I am sorry I missed how impossible that felt from inside your anxiety. What smaller step would show you I understand the size of this?"
+        "suggestion": "I suggested a group before understanding how impossible that felt to you. I am sorry. We can set that suggestion aside. I want to understand what makes it so frightening before we choose any practice step together."
       },
       {
         "text": "[Hesitant] When I went quiet, you said I seemed calm, but I was panicking. I was counting the seconds, trying not to look weird, and then I felt like you could not see what was actually happening.",
-        "suggestion": "You are right to correct me. I misread quiet as calm, and I am sorry I missed the panic underneath. What signs should I watch for, or ask about, so I do not mistake your survival strategy for ease?"
+        "suggestion": "I called you calm when you were panicking, and you felt unseen. I am sorry. I will check with you rather than assume what your quiet means. What do you need me to understand about that moment?"
       },
       {
         "text": "[Embarrassed] I was trying to find the word, and you finished the sentence for me. I know you were helping, but I felt stupid, like even here I am too slow to speak properly.",
-        "suggestion": "Finishing your sentence took over the exact place where you were trying to find words, and I am sorry. I can see how support became humiliating there. What would help me stay with you without stepping into your speech?"
+        "suggestion": "I finished your sentence while you were trying to find the word, and you felt stupid. I am sorry. I can wait and let you finish, unless you ask for help. How would that be for you?"
       },
       {
         "text": "[Ashamed] When you called it avoidance, it sounded like you were criticizing me. I already know I pull back; hearing that word made me feel like I was failing therapy too.",
-        "suggestion": "The word 'avoidance' became another failure label, not help, and I am sorry I used language that made you feel blamed. What words would help us talk about pulling back without making you wrong or failed?"
+        "suggestion": "I used \"avoidance\", and it sounded like criticism when you were already struggling. I am sorry. We can set that term aside and talk about what happens when you pull back, in words that fit your experience."
       },
       {
         "text": "[Fearful] When you asked me to look at you while I talked, I felt exposed, like I was being inspected. I know eye contact is supposed to be connection, but for me it made the words disappear.",
@@ -5113,7 +5118,7 @@ export const STATEMENT_SETS = {
       },
       {
         "text": "[Quietly] When you asked why I did not go to the party, I heard judgment in it. I know it was probably just a question, but it sounded like, Explain yourself, and I felt small.",
-        "suggestion": "My 'why' question sounded like judgment and put you in a position of defending yourself, and I am sorry. How can I ask about what happened in a way that feels curious rather than accusing?"
+        "suggestion": "My question sounded like a demand to explain yourself, and you felt small. I am sorry. We can put the party aside for a moment. I want to understand what that question was like to hear from me."
       },
       {
         "text": "[Very quiet] You said 'just tell them what you need.' If it was just that, I wouldn't be here. I felt a bit stupid after that.",
@@ -5127,43 +5132,43 @@ export const STATEMENT_SETS = {
     "case-laura": [
       {
         "text": "[Flat and guarded] When you asked about my childhood that quickly, I felt exposed and wanted to leave. I had only mentioned one piece, and suddenly it felt like the whole door was being opened.",
-        "suggestion": "You stayed and told me something important. My childhood question opened too much too fast, and I am sorry I did not check the edge with you. What would help you feel in charge before I ask anything like that again?"
+        "suggestion": "I moved too quickly with my question about your childhood. You felt exposed, and I am sorry. We can stop that topic now. I will ask before returning to it, and you can say no."
       },
       {
         "text": "[Distant] When I told you about my mother at the sink and you smiled for a second, I thought you were laughing at me.",
-        "suggestion": "If my face looked amused in that moment, I can understand why it felt humiliating and unsafe, and I am sorry for that impact. I was not laughing at you, but what matters here is how it landed. What would help you feel that I grasp the seriousness of what you told me?"
+        "suggestion": "You saw me smile while telling me something painful, and thought I was laughing at you. I am sorry my expression gave that impression. I want to hear what that moment was like for you, without asking you to dismiss what you saw."
       },
       {
         "text": "[Slow and flat] You are younger than me, and sometimes I wonder if you can really understand a life that has been shut down for this long.",
-        "suggestion": "The age difference is real, and if I act as if I automatically understand, I would miss the length and loneliness of what you have lived through. I am sorry for any moments I have moved past that. What would help you test whether I am understanding your life on your terms?"
+        "suggestion": "You wonder whether someone younger can understand how long you have lived this way. That is important to talk about. I cannot assume I know your life. I can listen carefully and let you correct me when I miss something. What feels hardest for me to understand?"
       },
       {
         "text": "[Flat and guarded] When you wrote notes while I talked about what happened, I felt recorded instead of met. I started wondering what sentence you were putting down and whether it would become the official version of me.",
-        "suggestion": "Writing notes while you described trauma made you feel recorded and defined instead of met, and I am sorry I did not protect contact. I can pause note-taking, tell you what I am writing, or ask first. Which of those, if any, would make this feel less like an official version being made of you?"
+        "suggestion": "My note-taking left you wondering whether I was deciding the official story about you. I am sorry. I can put the notes aside now, and we can discuss what I record and why before I write more. Would that help?"
       },
       {
         "text": "[Wary] When you asked whether I trust you, it felt like pressure to say yes. If I said no, I imagined you getting hurt or thinking I was difficult, so I gave a safer answer than the real one.",
-        "suggestion": "I hear that my trust question created pressure to protect me rather than tell the truth, and I am sorry. Trust should not be demanded from you. What would let us talk about mistrust without you having to reassure me or manage my reaction?"
+        "suggestion": "My question left you feeling you had to protect me instead of tell me the truth. I am sorry. You do not owe me a yes. I can ask about specific moments that feel difficult, without expecting you to reassure me about the relationship."
       },
       {
         "text": "[Tense] When you said I am safe now, my body felt like you did not believe the danger. I know I am sitting in your office, but the words made it sound like I should be over what my body is still doing.",
-        "suggestion": "You are correcting something important. Saying 'safe now' skipped over what your body still knows, and I am sorry. What would help me acknowledge the danger your body is carrying without implying you should be over it?"
+        "suggestion": "Saying \"safe now\" made it sound as though you should be over the reaction. I am sorry. I want to understand what it is actually like for you, rather than tell you how your body should feel."
       },
       {
         "text": "[Distant] When you suggested imagining my mother here, I felt pushed toward something too big. I know it might be useful someday, but in that moment it felt like being pulled into deep water before I had said yes.",
-        "suggestion": "You stopped me at a place where I needed to slow down. I moved toward chair work before I had your consent for how big it felt, and I am sorry. The fact that it might help later does not make it right now. What would be a safer edge where you still feel in charge?"
+        "suggestion": "I suggested that before checking whether you wanted to try it, and it felt too big. I am sorry. We can leave it aside. I will ask before suggesting we go further, and you can say no."
       },
       {
         "text": "[Flat] You moved from my ex to childhood so quickly that it felt like you were following a checklist. I had barely said what happened this week before it became about the past.",
-        "suggestion": "Moving quickly made the work feel like a checklist, and I am sorry I left this week's pain too soon. What connection between those places, if any, feels real enough to follow now?"
+        "suggestion": "I moved to childhood before hearing what happened this week. I am sorry. We can return to what you were telling me about your ex, without looking for a link to the past. What did I pass over?"
       },
       {
         "text": "[Ashamed] When you asked how much wine I drink, I heard that voice people use when they already know the answer and are disappointed. I shut down because I thought you were seeing me as another problem to manage.",
-        "suggestion": "I hear that my question about wine sounded like I had already judged you, and I am sorry. That would make something already shame-filled even harder to bring here. How can I ask about alcohol in a way that feels respectful and useful rather than managing or scolding you?"
+        "suggestion": "My tone made you feel I had already judged the drinking, and you shut down. I am sorry. I want to understand what it is like for you before making assumptions. Can we start with what made that question hard to hear?"
       },
       {
         "text": "[Low voice] When you said I survived, it sounded like you were saying I should be fine. I know you meant strength, but I heard, The worst is over, so why are you still like this?",
-        "suggestion": "If 'survived' sounded like 'you should be fine,' I missed the ongoing cost, and I am sorry. What do you need me to understand about surviving without implying that the pain should be finished?"
+        "suggestion": "I said \"survived\", and you heard that you should be fine by now. I am sorry. I want to understand what you are still living with, without treating survival as the end of the pain. What did my words leave out?"
       },
       {
         "text": "[Flat, guarded] You keep saying there's a lot underneath. Maybe there is. But it feels like whatever I tell you isn't the real answer you're waiting for.",
@@ -5177,39 +5182,39 @@ export const STATEMENT_SETS = {
     "case-carlos": [
       {
         "text": "[Defensive] Sometimes it feels like you hear respect as just ego, like you do not get what it meant where I grew up.",
-        "suggestion": "If I made respect sound like ego, I missed something important about your world and I am sorry. I want to understand what respect protected and cost you, not look down on it. What do I need to understand before we keep working with that word?"
+        "suggestion": "I hear that I have made your need for respect sound as though you only care about yourself. I am sorry. I want to understand what respect meant where you grew up before we decide what needs to change. What have I missed?"
       },
       {
         "text": "[Tense] When you kept saying 'slow down,' it sounded like you wanted me to act soft. I know you probably meant regulate, but in my head it became, Be smaller, be easier to handle.",
-        "suggestion": "The way I said 'slow down' sounded like I was asking you to become smaller or easier to handle, and I am sorry. That would make pausing feel like surrender instead of strength. What words would make a pause feel like command of yourself rather than backing down?"
+        "suggestion": "When I said \"slow down\", you heard \"make yourself smaller\". I am sorry. I can ask what is happening for you and whether a pause would help, without asking you to hide the anger or agree with me."
       },
       {
         "text": "[Angry] When I talked about my kid flinching from me, you looked away for a second. I know it might have been nothing, but it felt like even you did not want to look at what I did.",
-        "suggestion": "Looking away when you were facing your son's fear made it seem as if even I could not look at what happened, and I am sorry for that impact. I want to stay with both truths: the harm matters, and I am not turning away from you. What would help you sense that I can look steadily with you?"
+        "suggestion": "I looked away while you were telling me about your child flinching, and you felt I could not face it with you. I am sorry. I want to hear what happened and take your child’s fear seriously, without leaving you alone with it."
       },
       {
         "text": "[Angry] When I got loud, you flinched, and then I felt like the dangerous guy in the room. I was already ashamed of scaring people; seeing you react like that made me want to quit talking.",
-        "suggestion": "My flinch made you feel like the dangerous person in the room, which touches the shame you were already carrying. I am sorry I added to that. I need to take intensity seriously without making you carry my fear. What would help you trust my steadiness enough to keep talking?"
+        "suggestion": "You saw me flinch and felt reduced to the dangerous person in the room. I am sorry that added to your shame. I need to manage my reaction and be clear about any boundaries, rather than leave you to read them from my face."
       },
       {
         "text": "[Defensive] When you asked if I was afraid, it sounded like you were trying to make me admit I am weak. I felt my back go up, like you were taking respect from me.",
-        "suggestion": "My question about fear landed as taking respect from you, and I am sorry I did not protect that dignity. What language could let us approach fear without making you feel reduced, weak, or insulted?"
+        "suggestion": "My question about fear sounded as if I was calling you weak. I am sorry. I can set that word aside and ask what it was like for you, without deciding in advance which feeling you must admit to."
       },
       {
         "text": "[Tense] When you talk about repair with my son, I hear you saying I am a bad father. I know I need to face things, but if it starts with me being the villain, I shut down.",
-        "suggestion": "I hear that repair sounded like a verdict on you as a father, and I am sorry I did not make the care in it clearer. What part of your wish to be a good father should I hold while we talk about repair?"
+        "suggestion": "I hear that talking about repair sounded like judging you as a bad father. I am sorry. Taking responsibility for what happened should not mean reducing you to that label. What do you need me to understand before we continue?"
       },
       {
         "text": "[Wounded but sharp] You glanced at the door after I got angry, and I felt like you were checking an escape route.",
-        "suggestion": "My glance at the door looked like I needed an escape route, and I can see how humiliating and alarming that would feel. I am sorry I did that. I want to be clear about safety without treating you as someone to get away from. What would help restore enough trust in my steadiness right now?"
+        "suggestion": "You saw me look at the door and felt I wanted to get away from you. I am sorry my glance left you with that. I can speak directly about what I am noticing and any safety concerns, rather than leave you to guess."
       },
       {
         "text": "[Defensive] When you brought up drinking, you sounded exactly like my wife, like you already had the case built. I came in ready to be honest, and then I felt like I was on trial.",
-        "suggestion": "I hear that my wording put me in the prosecutor role instead of beside you, and I am sorry. That would make honesty feel dangerous. What is the difference, for you, between a question that helps you look honestly and one that feels like accusation?"
+        "suggestion": "My question about drinking sounded like an accusation, and you felt on trial. I am sorry. We can start again with what the drinking is like for you. I want to understand it before making assumptions."
       },
       {
         "text": "[Angry] When you used the word violence, I felt like you had already decided I am a criminal. I am not saying what I did was okay, but that word made it feel like there was no whole person left to talk to.",
-        "suggestion": "Using the word violence without enough care made it sound like I had reduced you to a criminal, and I am sorry. We still need language that is honest about harm, but not language that erases the whole person in front of me. What wording would let us speak plainly without making you feel written off?"
+        "suggestion": "When I said \"violence\", you felt written off as a criminal. I am sorry I left you feeling that. We need to speak honestly about the harm, and I also want to understand the whole person here. What did that word stop you from telling me?"
       },
       {
         "text": "[Defensive] When you ask about my family, it feels like you are blaming where I come from. There are things that hurt me there, but there is pride there too, and I do not want you looking at it like a pathology.",
@@ -5227,43 +5232,43 @@ export const STATEMENT_SETS = {
     "case-nina": [
       {
         "text": "[Tearful] When I cried, you were quiet for a long time. I know silence can be supportive, but I felt alone with it, like I was supposed to figure out how to stop crying by myself.",
-        "suggestion": "My quiet left you alone with the tears, and I am sorry I did not check how silence was landing. I want tears to feel accompanied here, not like a task you must manage alone. When tears come, would words, a softer check-in, or naming that I am here help?"
+        "suggestion": "My silence left you alone with the tears. I am sorry. I could have checked how you were doing instead of leaving you to guess. If the tears come again, I can let you know I am listening and ask what you need. Would that help?"
       },
       {
         "text": "[Apologetic] When you asked about his side of chores, it felt like you took my ex's side. I know there are two perspectives, but I came here because mine keeps disappearing.",
-        "suggestion": "My wording made it sound as if I had joined his side, and I apologize for that. Before I ask about both perspectives again, what part of your experience needs me firmly with you so your side does not disappear here too?"
+        "suggestion": "I asked about his side before hearing yours, and you felt overlooked again. I am sorry. We can stay with your experience now. What did you need me to hear about how the chores fall on you?"
       },
       {
         "text": "[Torn] Sometimes when I talk about chores and the kids, I see you look tired and wonder if even you are sick of this.",
-        "suggestion": "If tiredness showed on my face, I can see how it would confirm the fear that your daily load is too much for people, and I am sorry for that impact. I am interested in this. What helps you feel I am still with you in the ordinary details?"
+        "suggestion": "You notice tiredness in my face and wonder whether I am tired of hearing about your life. I am sorry my expression leaves you unsure. I can tell you what I am noticing rather than leave you to guess. What has been hardest to say when that happens?"
       },
       {
         "text": "[Apologetic] When you say boundaries, I hear it like you are saying I should already know how to do basic life. I sit here nodding, but inside I feel like a failing adult and mother.",
-        "suggestion": "The way I used 'boundaries' sounded like a correction or grade, and I am sorry it fed that failing feeling. What wording would help us talk about your limits without making you feel defective or behind?"
+        "suggestion": "I spoke about boundaries in a way that made you feel you were failing as a mother and adult. I am sorry. We can put that word aside and look at one situation you find difficult, without treating it as something you should already know how to handle."
       },
       {
         "text": "[Tearful] When I finally stopped crying last week, I saw your shoulders drop and your face soften, and I thought, Oh, she is relieved. Then I felt embarrassed for taking up so much space.",
-        "suggestion": "If my body looked relieved, I can understand how your tears could feel like a burden here, and I am sorry for that impact. I want your feelings to have room with me. What would help you sense I am not waiting for them to be over?"
+        "suggestion": "When my shoulders dropped, you thought I was relieved that your crying had stopped. I am sorry that left you feeling you had taken too much space. I want to hear how that moment was for you, without asking you to put your feelings away for my sake."
       },
       {
         "text": "[Lost] When you ask what I want, I feel abandoned, like I am supposed to know alone. I have spent years guessing what everyone else wants, so the question drops me into a blank place.",
-        "suggestion": "My question may have handed you too much responsibility too fast, and I am sorry. How can I help you find what you want without leaving you alone in that blank place?"
+        "suggestion": "My question left you feeling alone with something you do not yet know. I am sorry. We can take it more slowly and explore it together; you do not have to arrive with an answer."
       },
       {
         "text": "[Tired] When you suggested rest, it sounded like you do not understand my actual life. I went home thinking, She has no idea what the kitchen, the boys, my mother, and the messages look like by 9 p.m.",
-        "suggestion": "I hear that rest sounded unrealistic and out of touch, and I am sorry I offered it too simply. What do I need to understand about the load before rest can even be discussed in a way that fits your real life?"
+        "suggestion": "I suggested rest without understanding what your evening actually involves. I am sorry. We can set that suggestion aside and look at the demands on you before deciding what is possible. What had I not understood about that night?"
       },
       {
         "text": "[Ashamed] When you called it resentment, I felt like you had found something ugly in me. I know I complain about doing everything, but I do not want to be seen as bitter or mean.",
-        "suggestion": "The word 'resentment' landed as if I were naming something ugly in you, and I am sorry. I want the language to respect the hurt and exhaustion underneath. What word would let us stay with that without making you feel mean?"
+        "suggestion": "The word \"resentment\" made you feel I had found something ugly in you. I am sorry. We can set it aside and hear what it is like to be doing so much. You do not have to accept my label for your feeling."
       },
       {
         "text": "[Apologetic] I said sorry five times and you did not notice, so I felt invisible again. It is embarrassing to say, because I know you cannot catch everything, but it felt like the whole pattern was happening right in front of us.",
-        "suggestion": "I am sorry I missed the repeated apologies. That was an important signal, and missing it repeated the invisibility you are describing. What would help you feel seen in that pattern now, rather than having to apologize for pointing it out?"
+        "suggestion": "I missed the repeated apologies, and you felt invisible again. I am sorry. Thank you for pointing it out. We can pause here and notice what you were apologizing for; you do not need to apologize for bringing this to me."
       },
       {
         "text": "[Torn] When you focused on my ex, I felt like the kids disappeared from the room. I know he matters, but every choice I make goes through them first, and I felt like you missed that.",
-        "suggestion": "I hear that I narrowed the focus to your ex and lost the children, who are central to every choice you make. I am sorry. Where should we bring the kids back into the conversation now so the work fits your real priorities?"
+        "suggestion": "I focused on your ex and missed how much every decision involves the children. I am sorry. We can bring them into the conversation now. What do you need me to understand about their place in the choices you are facing?"
       },
       {
         "text": "[Apologetic, upset] You called me a 'natural carer.' I know you meant it kindly, but it's what everyone says before they ask for something. I felt tired just hearing it.",
@@ -5277,43 +5282,43 @@ export const STATEMENT_SETS = {
     "case-aisha": [
       {
         "text": "[Desperate] When you did not reply to my message fast, I panicked and felt abandoned. I know you have other clients and a life, but in my body it was just, She is gone, I did too much.",
-        "suggestion": "Thank you for telling me how that gap landed. Not hearing back quickly felt like abandonment and like proof you had done too much, and I am sorry I had not made the message frame clear enough before panic hit. What agreement about reply times and what to do in the waiting would help you feel less alone while keeping the frame predictable?"
+        "suggestion": "Thank you for telling me. Waiting for my reply felt like being left, and you thought you had asked too much. Let's be clear about when I can reply and what support is available when I cannot, rather than leave you guessing."
       },
       {
         "text": "[Desperate] When the session ended exactly on time, it felt like you dropped me. I know there has to be a clock, but the way it happened made me feel like the connection disappeared the second the hour was over.",
-        "suggestion": "Ending exactly on time felt like the connection disappeared with the clock, and I am sorry that my frame landed as abandonment. What would help endings feel more held while still being clear, predictable, and real?"
+        "suggestion": "When we ended, you felt the connection disappear. I am sorry the ending felt so abrupt. I need to keep the time limit, and we can leave room before it to check how you are and what support you need until we meet again."
       },
       {
         "text": "[Mistrustful] This is awkward, but after you asked so much about who I sleep with, I wondered if you were interested in me like that.",
-        "suggestion": "Thank you for asking directly, even though it feels awkward. My questions about sex left the purpose and boundary unclear, and I am sorry I put you in that position. I do not have romantic or sexual interest in you; this is a professional therapy relationship. What would help you feel that questions about sex are for understanding your experience, not about my interest?"
+        "suggestion": "Thank you for telling me. My questions left you wondering whether this was personal interest. I am sorry. This relationship is professional and will not become sexual or romantic. I can explain why I asked, and we can leave those questions aside while we talk about your concern."
       },
       {
         "text": "[Desperate] I emailed you and did not hear back, and I spiraled all night. I kept checking my phone and telling myself I had ruined the therapy too, even though part of me knew you probably had rules about email.",
-        "suggestion": "I hear that the lack of response left you alone with a spiral, and I am sorry I did not make the email frame clearer before it mattered. What agreement about messages would help you know what to expect without feeling abandoned or punished?"
+        "suggestion": "You waited for a reply and spent the night fearing you had ruined the therapy. I am sorry the wait was so painful. We need to be clear about when I can answer email and what support is available when I cannot. What did the silence mean to you that night?"
       },
       {
         "text": "[Hurt] When you said boundaries, I heard, Here is the rule for keeping you away. It felt less like care and more like punishment for needing too much.",
-        "suggestion": "I can hear how my boundary language sounded like punishment for needing, and I am sorry. The frame needs to be clear, but I also need to speak it in a way that carries care rather than rejection. What would help the boundary feel like steadiness instead of distance?"
+        "suggestion": "The way I spoke about boundaries made them sound like punishment for needing me. I am sorry. I can explain what each limit is and why it is there, and listen to how it affects you. Your needs still belong in that conversation."
       },
       {
         "text": "[Ashamed] When I mentioned cutting, your eyes got wide and I felt like I scared you. Then I wanted to take care of you instead of tell you how bad it had been.",
-        "suggestion": "My eyes widening put you in the position of feeling frightening and responsible for me, and I am sorry. I need to stay steady enough that cutting can be talked about without you managing my reaction. What would help you feel I can keep safety in view and still stay with you?"
+        "suggestion": "My reaction made you feel you had to take care of me. I am sorry. That is my responsibility. I want to hear how bad it has been for you and check how you are now, without you having to protect me from it."
       },
       {
         "text": "[Mistrustful] When you said you write notes, I wondered what version of me you are putting in there. I started imagining a file where I sound unstable, dramatic, or worse than I mean to be.",
-        "suggestion": "That uncertainty about my notes left you exposed to a version of you that might feel distorted, and I am sorry I did not explain it clearly enough. You should not have to imagine what I am writing about you. What would you need to know about my notes to feel less at the mercy of my version?"
+        "suggestion": "You are worried that my notes will describe someone you do not recognize as yourself. Thank you for telling me. I can explain what I record and why, and hear where my understanding misses yours, rather than leave you guessing about it."
       },
       {
         "text": "[Desperate] When you said we could not add an extra session this week, it felt like rejection. I heard the scheduling limit, but underneath it I heard, Your need is too much for me.",
-        "suggestion": "My no to an extra session landed as rejection and as if your need was too much, and I am sorry I did not speak to that part. I cannot add time this week, and I still want the plan to feel held rather than punitive. What would help you feel connected to the work until we meet next?"
+        "suggestion": "You heard my no as rejection, as though your need was too much. I am sorry. I cannot add a session this week. We can still talk about what feels hardest and make a plan for support until we meet again."
       },
       {
         "text": "[Panicked] You sounded so calm when I was falling apart that I thought you did not care. I know calm can be grounding, but it felt like you were on the other side of glass watching me lose it.",
-        "suggestion": "I can see how my calm became a sheet of glass between us instead of contact, and I am sorry. I do want to stay steady, but not in a way that leaves you feeling watched from far away. What kind of steadiness would feel caring rather than detached when you are panicking?"
+        "suggestion": "My calm sounded distant when you needed to feel me with you. I am sorry. I can be more direct about what I hear and check how you are, rather than sit quietly while you feel alone. Would that help us reconnect now?"
       },
       {
         "text": "[Angry] When you used that diagnosis word, I felt reduced to a problem. It was like all the reasons I react this way disappeared, and now I was just a label you knew how to handle.",
-        "suggestion": "I hear that the diagnosis word made you feel reduced and handled rather than understood, and I am sorry I used language that narrowed you. What words help us talk about patterns while still keeping your history, your reasons, and your whole person in the room?"
+        "suggestion": "I used a diagnosis word, and you felt reduced to a problem. I am sorry. We can set that word aside and talk about what happens for you and what you have lived through. I do not want a label to replace understanding you."
       },
       {
         "text": "[Angry, hurt] You said 'we've talked about this before.' I heard, 'I'm sick of you.' Now I don't want to tell you anything, and I want you to make it right.",
@@ -5327,43 +5332,43 @@ export const STATEMENT_SETS = {
     "case-david": [
       {
         "text": "[Stern and angry] I do not think this therapy is working. I keep coming here, saying the same things, and maybe we are both wasting time.",
-        "suggestion": "I appreciate you putting that so directly. It sounds frustrating and maybe humiliating to work this hard and not see enough change, and I am sorry I have not helped us make progress feel clear. We can look honestly at what is not working, including whether another approach or therapist would serve you better. For today, what would make this conversation feel worth your time rather than another repetition?"
+        "suggestion": "I hear how frustrating it is to keep coming without seeing the change you want. Thank you for saying it directly. We need to review what is helping and what is not, including whether a different approach would fit better. What change have you most wanted to see?"
       },
       {
         "text": "[Dismissive] When I asked for strategy, you kept returning to feelings, and I felt ignored. I came in asking for something I could actually do, and it felt like you kept taking the tool out of my hand.",
-        "suggestion": "I overcorrected toward depth and underdelivered on the strategy you asked for, and I apologize that it left you feeling ignored. What practical anchor would help the emotional work earn its place today rather than feel like I am taking the tool away?"
+        "suggestion": "You asked for something practical, and I kept taking us back to feelings. I am sorry I missed what you were asking for. We can begin with one situation you want to handle differently and agree on something concrete to try."
       },
       {
         "text": "[Wounded but sharp] When you named my wife's hurt first, it felt like you were siding with her. I know she is hurt, but I was trying to show you mine, and it felt like mine was already less important.",
-        "suggestion": "The order mattered: naming her hurt first made it seem as if I had joined her side and made yours less important, and I am sorry. Before we talk about her pain again, what part of yours do I need to understand so you do not feel outnumbered here?"
+        "suggestion": "I spoke about her hurt before hearing yours, and you felt yours mattered less. I am sorry. I want to hear what you were trying to show me too. We can make room for both without deciding that one cancels out the other."
       },
       {
         "text": "[Stern] When you challenged me in that tone, I felt humiliated, not helped. It reminded me of being dressed down in a meeting, and after that I stopped listening to the point you were making.",
-        "suggestion": "My tone turned challenge into humiliation, and I am sorry. I want challenge to serve the work, not repeat being dressed down. What would make challenge respectful enough that you could still hear it?"
+        "suggestion": "My tone left you humiliated and unable to hear what I was saying. I am sorry. I can put the challenge aside and hear how I spoke to you before we return to the issue. What did that moment bring up?"
       },
       {
         "text": "[Dismissive] When you called it self-protection, it sounded like a polite clinical way of saying narcissistic. I could hear the soft wording, but underneath it I still felt diagnosed and looked down on.",
-        "suggestion": "I hear that my wording sounded pathologizing even though it was dressed up, and I am sorry. What language would let us examine your defenses without making you feel diagnosed, insulted, or looked down on?"
+        "suggestion": "\"Self-protection\" sounded like a diagnosis hidden in softer words. I am sorry. We can leave that term aside and look at what actually happens in a difficult conversation, without deciding beforehand what it says about you."
       },
       {
         "text": "[Wounded but sharp] You took my wife's tears more seriously than mine. When I talk sharply, it seems like you hear arrogance; when she cries, you hear pain.",
-        "suggestion": "You are pointing to an important miss in my listening. If I heard her tears as pain and your sharpness only as arrogance, I missed you, and I am sorry. What did your pain need from me in that moment so it did not have to come wrapped in sharpness?"
+        "suggestion": "I hear that I have overlooked your pain when you spoke sharply, while taking her tears seriously. I am sorry. Your pain deserves my attention too. What did you need me to hear in that moment?"
       },
       {
         "text": "[Controlled] When you asked for details about the affair, I felt judged and exposed. I could not tell whether the questions were helping the work or whether I was being made to confess.",
-        "suggestion": "Those questions put you in a confession posture rather than a therapy conversation, and I am sorry I did not make the purpose and limits clear. I do not want this to become punitive. What details, if any, would serve the work, and where should I stop because it starts to feel like being judged?"
+        "suggestion": "My questions left you feeling judged and unsure why I needed those details. I am sorry. We can pause them now. I can explain what I was trying to understand, and we can agree on what is relevant before asking for more."
       },
       {
         "text": "[Irritated] When you said there are no quick fixes, it sounded condescending, like you were telling me I am naive for wanting movement. I am not asking for magic; I am asking whether this is actually going somewhere.",
-        "suggestion": "I hear how 'no quick fixes' sounded like I was talking down to you and dismissing your urgency, and I am sorry. How can I be honest that therapy takes time while also taking seriously your need to see whether this is going somewhere?"
+        "suggestion": "\"No quick fixes\" sounded as if I was dismissing your wish for change. I am sorry. You were asking whether the work is going anywhere. We can choose a concrete change to look for and agree on when to review whether our approach is helping."
       },
       {
         "text": "[Dismissive] You seemed impressed by my career, and then I felt like you missed the mess at home. I get enough people admiring the polished version; I need you not to be fooled by it.",
-        "suggestion": "I hear that my attention to your career may have reinforced the polished version of you and missed the pain at home. I am sorry. Where should I look now so I do not collude with the performance?"
+        "suggestion": "My attention to your career left you feeling I had missed what was happening at home. I am sorry. We can put the career aside and talk about what the polished version hides. What do you most need me to understand?"
       },
       {
         "text": "[Cold] When you mentioned referrals, it felt like you were done with me. I heard it as, If this is not working, maybe you should go somewhere else, and I shut down.",
-        "suggestion": "Mentioning referrals landed as if I were finished with you, and I am sorry I framed it in a way that felt like dismissal. I am willing to keep working, and I also want us to be honest if something else would help more. What would make that conversation feel like choice with me rather than being sent away?"
+        "suggestion": "When I mentioned a referral, you felt I was giving up on you. I am sorry. We can pause that discussion and talk about what is not working here. If we consider other help, I want us to discuss why and what it would mean, rather than leave you feeling sent away."
       },
       {
         "text": "[Controlled, stern] You described my explanation as 'intellectualising.' That's a convenient way to dismiss anything I say that doesn't fit your theory. Why should I continue?",
@@ -5377,43 +5382,43 @@ export const STATEMENT_SETS = {
     "case-marcus": [
       {
         "text": "[Slow and flat] When I said I felt nothing, you kept asking what was under it, and I shut down. Nothing was already the edge; it felt like you wanted me to produce something else.",
-        "suggestion": "I kept pressing after 'nothing' was already your edge, and I apologize for that. I do not want you to have to produce feeling for me. What would show you that I respect the edge while still staying present with you?"
+        "suggestion": "You told me there was nothing, and I kept asking you to find something else. I am sorry. We can stop that search. I want to take what you actually experience seriously, including feeling nothing."
       },
       {
         "text": "[Low voice] When you moved your chair closer, I felt trapped and on edge. I knew you probably meant it as warmth, but my body read it as someone taking up more space than I had agreed to.",
-        "suggestion": "Moving closer put you on edge and felt trapping, and I am sorry I changed the distance without checking. Your body should not have to manage my position in the room. Where would it feel safer for me to be?"
+        "suggestion": "I moved closer without checking, and you felt trapped. I am sorry. I can move back now. Where would you like me to sit? I will ask before changing the distance again."
       },
       {
         "text": "[Hypervigilant] When you ask about nightmares, I wonder if you actually know what to do with this or if it is too much for you.",
-        "suggestion": "That question deserves a direct answer. If I ask about nightmares without showing steadiness, consent, and competence, it makes sense you would wonder whether this is too much for me. I am sorry I moved before readiness was clear. I do have training and support for trauma work, and I want to earn trust by going at a pace you can stop. What would you need to see from me before we go near the nightmares again?"
+        "suggestion": "Thank you for telling me. My question left you unsure whether I could help with what might come up. Let's pause here. You deserve an honest answer about my experience, limits, and support before deciding whether to go further. What do you most need to know?"
       },
       {
         "text": "[Tense] When you asked me to close my eyes, my body went on alert. I know it was supposed to help me focus, but for me it felt like giving up the room.",
-        "suggestion": "Asking you to close your eyes ignored what safety and orientation require for you, and I am sorry. We do not need to do that. What grounding options let you keep enough control of the room while still staying connected here?"
+        "suggestion": "Closing your eyes meant losing track of the room, and I had not understood that. I am sorry. You can keep them open. We can find a way to focus that lets you stay aware of where we are."
       },
       {
         "text": "[Flat] When you called it a trauma response, I felt like a category. I know that might be accurate, but I stopped feeling like you were talking to me.",
-        "suggestion": "I hear that my language may have been accurate but still made you feel categorized rather than known, and I am sorry. What words help us name what happens without making you feel filed away or less like yourself?"
+        "suggestion": "I called it a \"trauma response\", and you felt I was speaking to a category instead of you. I am sorry. We can set that term aside. I want to hear how you would describe what happens."
       },
       {
         "text": "[Low voice] When I mentioned the violence at home, your face changed. Maybe I read it wrong, but it looked uncomfortable, and then I felt like I had to make it smaller so you could handle it.",
-        "suggestion": "If discomfort showed on my face, you were left making the violence smaller so I could handle it, and I am sorry. You should not have to protect me from your history. What would help you know I can hear it without turning away or needing you to manage me?"
+        "suggestion": "You saw my face change and felt you had to make the violence sound less serious. I am sorry. I need to take responsibility for my reactions; that is not your job. How did that moment affect your trust in me?"
       },
       {
         "text": "[Guarded] I said I did not want to talk about nightmares, and you asked one more question anyway. It was only one question, but it made my no feel weak in here.",
-        "suggestion": "I hear that I crossed a limit after you had already said no, and I am sorry. Even one extra question can make your stop signal feel weak here. What should I do now to repair that and make your no clearer between us?"
+        "suggestion": "You said no, and I asked another question anyway. I am sorry. I will stop that topic now. You do not have to say no more strongly for me to respect it."
       },
       {
         "text": "[Hypervigilant] You sat between me and the door, and I could not hear anything else. I kept nodding, but I was tracking the route out the whole time.",
-        "suggestion": "Sitting between you and the door shaped the whole session before we even had words for it, and I am sorry I did not check the room with you. Let's change that now. Where should I sit so your body can track the exit and still stay in contact with me?"
+        "suggestion": "I sat between you and the door, and you could not focus on anything else. I am sorry I did not ask about the seating. We can change it now. Where would you like me to sit so the way out stays clear?"
       },
       {
         "text": "[Stern] When you say, You are safe here, I feel like you do not know what safe means. It sounds too clean, like a phrase from a room where nothing bad has ever happened.",
-        "suggestion": "That phrase sounded too clean and made me seem naive about what safety means for you, and I am sorry. I do not want my words to erase what your body knows. What wording would feel more accurate for the kind of safety we can build in this room?"
+        "suggestion": "I said \"safe here\" as if I could decide how the room feels to you. I am sorry. I can ask what helps you feel less on guard instead of telling you that you are safe. What do I need to understand about this room right now?"
       },
       {
         "text": "[Flat] You ask about foster care almost every session, and after a while it feels like digging. I start wondering whether you are listening to me now, or only looking for the old story underneath everything.",
-        "suggestion": "Returning there repeatedly has felt like digging, and I am sorry I did not check that. I do not want your present to become only evidence for the past. What would make it feel like you control whether and when we go near that material?"
+        "suggestion": "I kept returning to foster care when you wanted me to hear your life now. I am sorry. We can leave that history aside. I will ask before returning to it, and I want to hear what matters to you today."
       },
       {
         "text": "[Flat, angry] I told you I hadn't slept after last time. You asked whether the memory was clearer. You didn't hear me. I'm not doing that again.",
@@ -5426,3 +5431,10 @@ export const STATEMENT_SETS = {
     ]
   }
 };
+
+Object.assign(STATEMENT_SETS, EXTENSION_STATEMENTS);
+for (const [skill, cases] of Object.entries(ARNE_STATEMENTS)) Object.assign(STATEMENT_SETS[skill], cases);
+for (const [skill, cases] of Object.entries(MIA_STATEMENTS)) Object.assign(STATEMENT_SETS[skill], cases);
+for (const [skill, cases] of Object.entries(NORA_STATEMENTS)) Object.assign(STATEMENT_SETS[skill], cases);
+
+for (const [skill, cases] of Object.entries(FIXED_CASE_EXTENSION_STATEMENTS)) Object.assign(STATEMENT_SETS[skill], cases);

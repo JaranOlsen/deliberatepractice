@@ -1,7 +1,7 @@
 "use strict";
 
-export const CONTENT_REVISION = "2026-10-02-v2";
-export const CONTENT_UPDATED_AT = "2026-10-02";
+export const CONTENT_REVISION = "2026-10-04-v4";
+export const CONTENT_UPDATED_AT = "2026-10-04";
 
 export const CONTENT_TRACKS = Object.freeze({
   CASE_MATRIX: "case_matrix",
@@ -59,7 +59,7 @@ export const CANONICAL_SKILL_ORDER = Object.freeze([
   "alliance-repair"
 ]);
 
-export const EXPERIMENTAL_SKILL_IDS = Object.freeze(["empathic-refocusing"]);
+export const EXPERIMENTAL_SKILL_IDS = Object.freeze([]);
 
 export const SKILL_EXERCISE_MAP = Object.freeze({
   "therapist-self-awareness": {

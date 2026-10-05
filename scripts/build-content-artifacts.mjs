@@ -1,3 +1,5 @@
+import {FOCUSING_SKILL_ID,FOCUSING_SOURCE} from '../src/data/experientialFocusing.js';
+import {EXTENSION_SKILL_ORDER, EXTENSION_CRITERIA, EXTENSION_SOURCE} from "../src/data/skillExtensions.js";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -26,42 +28,27 @@ const dataDir = path.join(rootDir, "src", "data");
 const mdDir = path.join(rootDir, "src", "md");
 
 const EXERCISE_1_DERIVED_RESPONSES = {
-  "beginner-1":
-    "Internally notice any softening, warmth, or rescuing impulse this tender story stirs in you, steady yourself, and respond with grounded appreciation without drifting away from the client's process.",
-  "beginner-2":
-    "Notice any urge to reassure quickly, slow your pace, and answer in a way that meets the nervousness directly while keeping therapy feelable and collaborative.",
-  "beginner-3":
-    "Track any pull to explain, advise, or fix the adaptation problem, re-center, and respond with curiosity about what feels most unsettling in the client's body and experience.",
-  "beginner-4":
-    "Notice your own surprise or discomfort with the dream material, stay steady, and respond in a way that welcomes the awkwardness without becoming defensive or interpretive too fast.",
-  "beginner-5":
-    "Monitor any wish to impress, perform, or compete with the previous therapist, and respond calmly by joining the hope while staying grounded in the client's present need.",
-  "intermediate-1":
-    "Notice any critic or competence-based reaction this shame statement triggers in you, soften it, and stay with the client's felt humiliation rather than moving to reassurance or analysis.",
-  "intermediate-2":
-    "Track defensiveness, cultural uncertainty, or pressure to prove yourself, and respond with respectful openness so the client can assess safety without you becoming self-protective.",
-  "intermediate-3":
-    "Notice sadness and any rescue urge, settle yourself, and stay emotionally available to the abandonment pain without hurrying the client past it.",
-  "intermediate-4":
-    "Monitor judgment, worry, or boundary anxiety about arriving high, ground yourself, and respond clearly enough to hold safety while remaining empathic and non-shaming.",
-  "intermediate-5":
-    "Track your own alarm around the violent fantasy, steady your body, and keep contact with the client's hurt and rage while assessing the emotional edge carefully.",
-  "advanced-1":
-    "Notice the anxiety, urgency, or fear this suicidal disclosure evokes in you, regulate first, and respond with calm presence so risk can be addressed without losing attunement.",
-  "advanced-2":
-    "Track any shame, pressure to prove competence, or wish to overexplain, and answer with transparent steadiness that keeps the focus on the client's fear of not being helped.",
-  "advanced-3":
-    "Notice attraction, discomfort, flattery, or alarm in yourself, bracket it, and respond with clear professional boundaries while staying warm and non-shaming.",
-  "advanced-4":
-    "Track defensiveness and the urge to justify the therapy, slow down, and receive the distrust openly enough that the alliance can be explored rather than argued about.",
-  "advanced-5":
-    "Notice reactions to the sexism, minimization, or coercion in the story, keep yourself grounded, and respond without shaming or colluding so the work can stay emotionally honest."
+  "beginner-1": "Notice any warmth, softening, or wish to rescue stirred by this tender story. Recognize the reaction as your own without needing to act on it or share it.",
+  "beginner-2": "Notice any urge to reassure quickly and what happens in your body as the client expresses nervousness. Pause with that reaction before following the urge.",
+  "beginner-3": "Notice any pull to advise, explain, or solve the adaptation problem. Stay aware of your own wish to make things easier, without turning this reflection into advice.",
+  "beginner-4": "Notice curiosity, surprise, embarrassment, or discomfort around the dream material. Hold those reactions privately rather than turning them into an interpretation.",
+  "beginner-5": "Notice any wish to impress, perform, or compete with the previous therapist. Track the pressure as your own without making a promise to relieve it.",
+  "intermediate-1": "Notice any judgment, tenderness, or pressure to demonstrate competence evoked by the shame statement. Recognize the impulse before letting it direct your response.",
+  "intermediate-2": "Notice defensiveness, uncertainty, or pressure to prove cultural understanding. Hold that reaction privately and recognize what you do not yet know.",
+  "intermediate-3": "Notice any sadness and urge to rescue evoked by the abandonment pain. Stay aware of the impulse without rushing to remove the client's pain.",
+  "intermediate-4": "Notice any judgment, worry, or urge to take control when the client arrives high. Track how it affects your body and attention without turning the reflection into a risk intervention.",
+  "intermediate-5": "Notice alarm, anger, or urgency evoked by the violent fantasy. Recognize that activation in yourself before acting on an impulse to take over.",
+  "advanced-1": "Notice anxiety, fear, or urgency evoked by the suicidal imagery. The practice target is awareness of your reaction, not performing or substituting for a risk assessment.",
+  "advanced-2": "Notice any shame, pressure to prove competence, or wish to overexplain. Keep the reaction private rather than requiring the client to settle your concern about being evaluated.",
+  "advanced-3": "Notice attraction, discomfort, flattery, or alarm without treating any of them as a required feeling. Hold private material privately and recognize any pull to blur the boundary.",
+  "advanced-4": "Notice defensiveness and an urge to justify the therapy. Pause with that reaction before allowing it to become an argument.",
+  "advanced-5": "Notice anger, judgment, discomfort, or urgency evoked by the sexism and minimization. Recognize the reaction as your own before choosing how to respond."
 };
 
 const DIFFICULTY_CASE_IDS = Object.freeze({
-  easy: CASES.filter((entry) => entry.difficulty === "easy").map((entry) => entry.id),
-  moderate: CASES.filter((entry) => entry.difficulty === "moderate").map((entry) => entry.id),
-  hard: CASES.filter((entry) => entry.difficulty === "hard").map((entry) => entry.id)
+  easy: CASES.filter((entry) => entry.difficulty === "easy" && !entry.supportedLevels).map((entry) => entry.id),
+  moderate: CASES.filter((entry) => entry.difficulty === "moderate" && !entry.supportedLevels).map((entry) => entry.id),
+  hard: CASES.filter((entry) => entry.difficulty === "hard" && !entry.supportedLevels).map((entry) => entry.id)
 });
 
 const CASE_VOICE_REVIEW_GROUPS = Object.freeze([
@@ -182,13 +169,15 @@ function buildRegistry() {
   const registry = {};
   let totalItems = 0;
 
-  CANONICAL_SKILL_ORDER.forEach((skillId) => {
+  [...CANONICAL_SKILL_ORDER, ...EXTENSION_SKILL_ORDER].forEach((skillId) => {
     const cases = STATEMENT_SETS[skillId] ?? {};
     registry[skillId] = {};
     Object.entries(cases).forEach(([caseId, items]) => {
+      const caseMeta = CASES.find(c => c.id === caseId);
+      const variableLevelCase = (caseMeta?.supportedLevels?.length ?? 1) > 1;
       registry[skillId][caseId] = items.map((entry, index) => {
         totalItems += 1;
-        const id = buildLegacyId(skillId, caseId, index);
+        const id = entry.id ?? buildLegacyId(skillId, caseId, index);
         const overrideMeta = CONTENT_ITEM_META_OVERRIDES[id] ?? {};
         const riskFlags = overrideMeta.riskFlags ?? inferRiskFlags(entry.text ?? "", entry.suggestion ?? "");
         const baseMeta = {
@@ -196,11 +185,11 @@ function buildRegistry() {
           skillId,
           caseId,
           track: CONTENT_TRACKS.CASE_MATRIX,
-          difficultyTier: caseDifficultyMap.get(caseId) ?? "unknown",
-          sourceRef: buildSourceRef(skillId, caseId),
+          difficultyTier: entry.difficulty ?? caseDifficultyMap.get(caseId) ?? "unknown",
+          sourceRef: skillId === FOCUSING_SKILL_ID ? {type:'original_extension',url:FOCUSING_SOURCE,caseDossier:caseMeta.dossier,section:'Single-response practice moments; not a complete focusing task'} : variableLevelCase ? {type:'original_case_variant',caseDossier:caseMeta.dossier,url:EXTENSION_SOURCE} : EXTENSION_SKILL_ORDER.includes(skillId) ? {type: "original_extension", url: EXTENSION_SOURCE, section: "3.1–3.4"} : buildSourceRef(skillId, caseId),
           riskFlags,
-          criteriaTags: [...(SKILL_EXERCISE_MAP[skillId]?.defaultCriteriaTags ?? []), "legacy_matrix_item"],
-          reviewStatus: REVIEW_STATUSES.LEGACY_IMPORTED,
+          criteriaTags: EXTENSION_CRITERIA[skillId] ?? [...(SKILL_EXERCISE_MAP[skillId]?.defaultCriteriaTags ?? []), ...(variableLevelCase?[]:["legacy_matrix_item"])],
+          reviewStatus: variableLevelCase || EXTENSION_SKILL_ORDER.includes(skillId) ? REVIEW_STATUSES.PENDING : REVIEW_STATUSES.LEGACY_IMPORTED,
           revision: CONTENT_REVISION
         };
         return {
@@ -420,7 +409,7 @@ function buildContentInventory(registry, registrySummary, benchmarkSummary) {
           id: meta.id,
           skillId,
           caseId,
-          caseDifficulty: caseMeta.difficulty ?? meta.difficultyTier,
+          caseDifficulty: meta.difficultyTier ?? caseMeta.difficulty,
           orderIndex: index,
           translationStatus: translationMap[meta.id] ? "translated" : "missing",
           feedbackStatus: "not_loaded",
@@ -447,7 +436,7 @@ function buildContentInventory(registry, registrySummary, benchmarkSummary) {
 }
 
 const VALIDATION_LEGITIMACY_CUE_PATTERN =
-  /(of course|makes .*sense|no wonder|understandabl[ey]|anyone would|sorry that happened|fits with|reasonable|legitimate|illegitimate|belongs to|can feel|can look like|can sound|has been treated|has meant|has protected|not proof|not a character flaw|trying to protect|trying to prevent|shows how much|matters to you|clear moral charge|grows out of)/i;
+  /(of course|makes .*sense|no wonder|understandabl[ey]|anyone would|sorry that happened|fits with|reasonable|legitimate|illegitimate|belongs to|can feel|can look like|can sound|has been treated|has meant|has protected|not proof|not a character flaw|trying to protect|trying to prevent|shows how much|matters to you|clear moral charge|grows out of|deserves? (care|attention|respect|room)|there is room for)/i;
 
 function lintSkillPurity(skillId, suggestion) {
   const text = `${suggestion ?? ""}`.trim();
@@ -474,7 +463,7 @@ function lintSkillPurity(skillId, suggestion) {
   }
   if (
     skillId === "providing-treatment-rationale" &&
-    !/(because|\bhelps?\b|in this|we go|we can|so that|learning|lets|allows|teach|build|turn|update|refine|target|goal|\baim\b|practice|map|learn)/i.test(text)
+    !/(because|\bhelps?\b|in this|we go|we can|so that|learning|lets|allows|teach|build|turn|update|refine|target|goal|\baim\b|\bpoint\b|\bpurpose\b|\bagree on\b|practice|map|learn)/i.test(text)
   ) {
     warnings.push("treatment_rationale_missing_explanatory_language");
   }
@@ -486,7 +475,7 @@ function lintSkillPurity(skillId, suggestion) {
   }
   if (
     skillId === "alliance-repair" &&
-    !/(sorry|apolog|thank you for telling me|thanks for telling me|i hear)/i.test(lower)
+    !/(sorry|apolog|thank you for telling me|thanks for telling me|i hear|that is a fair question|that is important to talk about)/i.test(lower)
   ) {
     warnings.push("alliance_repair_missing_ownership_or_receiving_language");
   }
@@ -626,7 +615,7 @@ function buildReviewItem(registry, skillId, caseId, index, caseLookup) {
     caseId,
     caseLabel: caseMeta.label ?? caseId,
     caseName: caseMeta.name ?? caseMeta.label ?? caseId,
-    difficulty: caseMeta.difficulty ?? meta.difficultyTier,
+    difficulty: meta.difficultyTier ?? caseMeta.difficulty,
     riskFlags: meta.riskFlags ?? [],
     en: {
       statement: contentItem.text,

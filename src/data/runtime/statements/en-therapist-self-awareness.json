@@ -3,31 +3,31 @@
     {
       "id": "dp_therapist-self-awareness_case-sara_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Loving] I was crying on the bed last night and my dog climbed up beside me like he always does. He put his head on my leg and stayed there while I talked to him about the breakup. It sounds silly, but he is the only one who never seems tired of me being sad. I do not know where I would be without him.",
-      "suggestion": "[Self-awareness] I notice warmth in my chest and a tender wish to comfort her; I would disclose the warmth if useful and keep the rescuing impulse for supervision."
+      "suggestion": "[Self-awareness] I notice warmth in my chest and a wish to comfort her. I can hold both privately while listening, without acting on the rescuing impulse."
     },
     {
       "id": "dp_therapist-self-awareness_case-sara_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Nervous] I am glad I booked this, but I am also nervous because I have never really done therapy before. Part of me worries I will just sit here and talk about him for an hour and you will think this is not a real problem. Another part of me is scared that if I start talking, I will cry and not be able to stop.",
-      "suggestion": "[Self-awareness] I feel a pull to reassure her quickly and organize the session for her; I would name the steadier breath I am taking rather than rush to fix the anxiety."
+      "suggestion": "[Self-awareness] I notice a pull to reassure her quickly and organize the session for her. I pause and notice my breathing before letting that urge decide what I do."
     },
     {
       "id": "dp_therapist-self-awareness_case-sara_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -39,19 +39,19 @@
     {
       "id": "dp_therapist-self-awareness_case-sara_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Uncomfortable] Last night I had a strange dream that I was back in the old apartment packing boxes. I could hear him in another room, but every time I opened a door it was empty. Then you were suddenly there helping me tape a box shut. I felt relieved in the dream, and then I woke up embarrassed that you were in it at all.",
-      "suggestion": "[Self-awareness] I notice curiosity, a little embarrassment, and a wish to interpret the dream; I would disclose only the immediate bodily reaction, not the interpretation."
+      "suggestion": "[Self-awareness] I notice curiosity, a little embarrassment, and a wish to interpret the dream. I can notice those reactions privately without turning them into an interpretation or a disclosure to her."
     },
     {
       "id": "dp_therapist-self-awareness_case-sara_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -63,7 +63,7 @@
     {
       "id": "dp_therapist-self-awareness_case-sara_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -75,7 +75,7 @@
     {
       "id": "dp_therapist-self-awareness_case-sara_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -87,7 +87,7 @@
     {
       "id": "dp_therapist-self-awareness_case-sara_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -99,7 +99,7 @@
     {
       "id": "dp_therapist-self-awareness_case-sara_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -111,19 +111,19 @@
     {
       "id": "dp_therapist-self-awareness_case-sara_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Quietly] I moved apartments after the breakup, and I thought unpacking would make me feel like I was starting over. Instead every box feels like proof that I am doing this alone. I found mugs we bought together and stood there for twenty minutes, then I felt ridiculous because people move on from breakups all the time.",
-      "suggestion": "[Self-awareness] I notice sadness and a pull to soften the loneliness for her; I would name the sadness in myself if I chose to disclose, without turning it into comfort."
+      "suggestion": "[Self-awareness] I notice sadness and a wish to soften her loneliness. I can stay aware of the sadness without rushing to comfort her or asking her to take care of my reaction."
     },
     {
       "id": "dp_therapist-self-awareness_case-sara_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -135,7 +135,7 @@
     {
       "id": "dp_therapist-self-awareness_case-sara_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -149,7 +149,7 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -161,19 +161,19 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Defensive] My last coach gave me breathing tools in two sessions, and at least that felt practical. I am not saying it fixed everything, but I knew what I was supposed to do. I hope this is not going to be a long tour through childhood while my wife is at home deciding whether she can stand me. I need to know you have a plan.",
-      "suggestion": "[Self-awareness] I notice defensiveness on behalf of the therapy and a wish to compete with the previous coach; I would keep that competitiveness private and name only my wish to stay grounded."
+      "suggestion": "[Self-awareness] I notice defensiveness on behalf of the therapy and a wish to compete with the previous coach. I keep that reaction private and notice the pressure to prove myself before responding."
     },
     {
       "id": "dp_therapist-self-awareness_case-michael_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -185,7 +185,7 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -197,19 +197,19 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Defensive] If I apologize first, my wife acts like that proves the whole fight was my fault. Maybe she does not say that directly, but that is how it feels. Then I look weak, and she gets to be the reasonable one again. I know that sounds petty, but I cannot stand handing someone proof that they won.",
-      "suggestion": "[Self-awareness] I notice an urge to persuade him toward apology and a slight tightening in my chest; I would mark that urge as mine and not disclose more than feels respectful."
+      "suggestion": "[Self-awareness] I notice an urge to persuade him to apologize and a tightening in my chest. I recognize the urge as mine and pause before letting it become pressure on him."
     },
     {
       "id": "dp_therapist-self-awareness_case-michael_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -221,7 +221,7 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -233,7 +233,7 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -245,7 +245,7 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -257,7 +257,7 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -269,7 +269,7 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -281,7 +281,7 @@
     {
       "id": "dp_therapist-self-awareness_case-michael_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -295,7 +295,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -307,7 +307,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -319,7 +319,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -331,7 +331,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -343,7 +343,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -355,7 +355,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -367,7 +367,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -379,7 +379,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -391,7 +391,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -403,7 +403,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -415,7 +415,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -427,7 +427,7 @@
     {
       "id": "dp_therapist-self-awareness_case-jason_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -441,7 +441,7 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -453,7 +453,7 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -465,19 +465,19 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Tense and guarded] I would rather not talk about the past today. I know it probably connects to why I am here, but even saying that makes my arms feel heavy and my vision go a little far away. If you push, I will answer politely and then disappear inside. I have done that with therapists before, and they usually do not notice until I stop coming.",
-      "suggestion": "[Self-awareness] I notice responsibility pressure and a wish to prove I will not push; I would disclose only my intention to slow down if it felt clinically useful."
+      "suggestion": "[Self-awareness] I notice pressure to take responsibility and prove I will not push her. I pause and notice that pressure in myself, rather than making a promise to ease my own discomfort."
     },
     {
       "id": "dp_therapist-self-awareness_case-laura_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -489,7 +489,7 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -501,7 +501,7 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -513,7 +513,7 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -525,7 +525,7 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -537,19 +537,19 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Tense and guarded] I think I am broken in a way people eventually get tired of. At first they are patient because the story sounds sad, and then they realize I still cannot do normal things like answer messages, sleep through the night, or believe someone is not angry. I am telling you now because I would rather know early if this is too much.",
-      "suggestion": "[Self-awareness] I notice sadness and a wish to promise endurance; I would keep the promise impulse visible to myself and disclose only what I can genuinely own."
+      "suggestion": "[Self-awareness] I notice sadness and a wish to promise I will always stay. I can hold that wish privately and recognize the pull to promise more than I can honestly offer."
     },
     {
       "id": "dp_therapist-self-awareness_case-laura_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -561,7 +561,7 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -573,7 +573,7 @@
     {
       "id": "dp_therapist-self-awareness_case-laura_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -587,7 +587,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -599,7 +599,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -611,7 +611,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -623,7 +623,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -635,7 +635,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -647,7 +647,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -659,19 +659,19 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Angry, clenching fists] After I lost the promotion, I pictured walking into the trailer and punching my supervisor hard enough that he would finally shut up. I am not saying I was going to do it, but the picture was there, clear as day. He kept talking to me like I was nothing, like all the extra hours meant nothing. I drove around for an hour before going home.",
-      "suggestion": "[Self-awareness] I notice alarm in my stomach and an urge to manage risk quickly; I would ground myself before deciding what, if anything, to disclose about that alarm."
+      "suggestion": "[Self-awareness] I notice alarm in my stomach and an urge to take control quickly. I pause to notice that urgency in myself so it does not decide my next response for me."
     },
     {
       "id": "dp_therapist-self-awareness_case-carlos_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -683,7 +683,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -695,7 +695,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -707,7 +707,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -719,7 +719,7 @@
     {
       "id": "dp_therapist-self-awareness_case-carlos_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -733,7 +733,7 @@
     {
       "id": "dp_therapist-self-awareness_case-nina_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -745,7 +745,7 @@
     {
       "id": "dp_therapist-self-awareness_case-nina_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -757,19 +757,19 @@
     {
       "id": "dp_therapist-self-awareness_case-nina_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Guilty] At church I learned that resentment means I am failing as a good person. I know not everyone sees it that way, and I am not asking you to agree with my faith. But if you do not understand that part of me, I worry you will just tell me to be selfish and call it boundaries. I do not want therapy to turn me into someone my family cannot recognize.",
-      "suggestion": "[Self-awareness] I notice assumptions about faith and a wish to show respect quickly; I would observe that pressure and disclose only what feels genuine."
+      "suggestion": "[Self-awareness] I notice assumptions about faith and pressure to show that I understand. I can hold those assumptions privately and recognize what I do not yet know about her experience."
     },
     {
       "id": "dp_therapist-self-awareness_case-nina_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -781,19 +781,19 @@
     {
       "id": "dp_therapist-self-awareness_case-nina_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Tearful] I can feel tears coming, and I want to apologize so you do not feel burdened. I know you are a therapist and this is probably normal for you, but I still imagine you getting tired of me. People have enough to carry without me adding my mess. So even when I cry, part of me is checking whether it is too much.",
-      "suggestion": "[Self-awareness] I notice the strange tenderness of being protected by the client and a wish to reassure her; I would name that internally before deciding what to share."
+      "suggestion": "[Self-awareness] I notice tenderness at being protected by her and a wish to reassure her. I recognize both as my reactions, without needing her to look after how I feel."
     },
     {
       "id": "dp_therapist-self-awareness_case-nina_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -805,7 +805,7 @@
     {
       "id": "dp_therapist-self-awareness_case-nina_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -817,19 +817,19 @@
     {
       "id": "dp_therapist-self-awareness_case-nina_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Ashamed] I hate needing help with forms and money. I can manage a classroom full of children, remember everyone's allergies, send birthday gifts, and still stare at one government form until I feel like a child. When I ask my husband for help, he is kind about it, which almost makes it worse. I feel like he sees how incapable I really am.",
-      "suggestion": "[Self-awareness] I notice a practical rescue impulse and a wish to restore her dignity; I would track the urge to help with the form rather than the feeling."
+      "suggestion": "[Self-awareness] I notice a practical rescue impulse and a wish to restore her dignity. I notice how quickly I want to solve the problem with the form instead of staying attentive to what I am feeling."
     },
     {
       "id": "dp_therapist-self-awareness_case-nina_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -841,19 +841,19 @@
     {
       "id": "dp_therapist-self-awareness_case-nina_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Softly] After the separation, I still set out a cup for him some mornings. It happens before I think, like my hands remember the old routine before my head catches up. Then I notice and feel foolish, so I put it back quickly before the boys see. I do not even know if I miss him or just miss the life making sense.",
-      "suggestion": "[Self-awareness] I notice sadness and a wish to protect her from embarrassment; I would disclose only the sadness if I chose to share anything."
+      "suggestion": "[Self-awareness] I notice sadness and a wish to protect her from embarrassment. I can hold both privately while listening, without letting my discomfort hurry her past what she is saying."
     },
     {
       "id": "dp_therapist-self-awareness_case-nina_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -865,7 +865,7 @@
     {
       "id": "dp_therapist-self-awareness_case-nina_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -879,7 +879,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -891,7 +891,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -903,7 +903,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -915,7 +915,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -927,7 +927,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -939,7 +939,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -951,7 +951,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -963,7 +963,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -975,7 +975,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -987,7 +987,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -999,7 +999,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1011,7 +1011,7 @@
     {
       "id": "dp_therapist-self-awareness_case-aisha_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1025,7 +1025,7 @@
     {
       "id": "dp_therapist-self-awareness_case-david_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1037,7 +1037,7 @@
     {
       "id": "dp_therapist-self-awareness_case-david_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1049,31 +1049,31 @@
     {
       "id": "dp_therapist-self-awareness_case-david_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Demanding] I need efficient solutions, not a slow tour through my feelings. I have a marriage problem, a reputation problem, and a time problem. If the method is to sit with discomfort until something magical happens, I am skeptical. I am willing to do difficult work, but I need to see that you can distinguish depth from inefficiency.",
-      "suggestion": "[Self-awareness] I notice pressure to make EFT sound efficient and impressive; I would track the performance demand in me and keep any self-disclosure boundaried."
+      "suggestion": "[Self-awareness] I notice pressure to make EFT sound efficient and impressive. I pause to notice that wish to perform, rather than acting on it to prove the therapy or myself."
     },
     {
       "id": "dp_therapist-self-awareness_case-david_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
         "legacy_matrix_item"
       ],
       "text": "[Skeptical] Are you actually experienced enough for someone like me, or is this just standard therapy with better branding? I am not trying to be difficult. I have serious issues on the table, including an affair and a marriage that may collapse. I do not want to be someone's learning experience. If you are out of your depth, I would prefer you say so.",
-      "suggestion": "[Self-awareness] I notice defensiveness, pride, and anxiety about being evaluated; I would ground before sharing anything, so I do not make him manage my competence worry."
+      "suggestion": "[Self-awareness] I notice defensiveness, pride, and anxiety about being evaluated. I can keep those reactions private and notice my breathing without making him manage my worry about competence."
     },
     {
       "id": "dp_therapist-self-awareness_case-david_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1085,7 +1085,7 @@
     {
       "id": "dp_therapist-self-awareness_case-david_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1097,7 +1097,7 @@
     {
       "id": "dp_therapist-self-awareness_case-david_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1109,7 +1109,7 @@
     {
       "id": "dp_therapist-self-awareness_case-david_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1121,7 +1121,7 @@
     {
       "id": "dp_therapist-self-awareness_case-david_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1133,7 +1133,7 @@
     {
       "id": "dp_therapist-self-awareness_case-david_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1145,7 +1145,7 @@
     {
       "id": "dp_therapist-self-awareness_case-david_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1157,7 +1157,7 @@
     {
       "id": "dp_therapist-self-awareness_case-david_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1171,7 +1171,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_01",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1183,7 +1183,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_02",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1195,7 +1195,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_03",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1207,7 +1207,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_04",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1219,7 +1219,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_05",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1231,7 +1231,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_06",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1243,7 +1243,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_07",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1255,7 +1255,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_08",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1267,7 +1267,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_09",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1279,7 +1279,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_10",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1291,7 +1291,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_11",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",
@@ -1303,7 +1303,7 @@
     {
       "id": "dp_therapist-self-awareness_case-marcus_12",
       "track": "case_matrix",
-      "revision": "2026-10-02-v2",
+      "revision": "2026-10-04-v4",
       "criteriaTags": [
         "self_regulation",
         "empathic_attunement",

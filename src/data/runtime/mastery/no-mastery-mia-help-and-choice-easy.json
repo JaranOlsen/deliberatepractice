@@ -1,0 +1,171 @@
+{
+  "id": "mastery-mia-help-and-choice-easy",
+  "type": "mastery",
+  "caseId": "case-mia",
+  "difficulty": "easy",
+  "supportedLevels": [
+    "easy"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Mia · Hjelp uten å ta over",
+  "orientation": "Tolv sammenhengende øyeblikk om hjelp, valg og å bli hørt. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "scenes": [
+    {
+      "id": "mastery_mia_easy_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-mia_easy_02",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Mia begynner med et øyeblikk av hjelp fra Alex.",
+      "prompt": "Speil valget hun ønsket.",
+      "text": "[Frustrert] Alex åpnet glasset før jeg hadde spurt. Jeg ville prøve selv.",
+      "suggestion": "Du ville få bestemme om du trengte hjelp."
+    },
+    {
+      "id": "mastery_mia_easy_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-mia_easy_05",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "bridge": "Hun spør hva det kan gi å jobbe med en forespørsel.",
+      "prompt": "Forklar en liten, praktisk nytte av utforskning.",
+      "text": "[Praktisk] Kan vi jobbe med å be Alex om hjelp?",
+      "suggestion": "Ja. Å undersøke hva som er vanskelig ved å spørre, kan hjelpe oss å finne ord som passer for deg."
+    },
+    {
+      "id": "mastery_mia_easy_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-mia_easy_04",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "bridge": "Et annet øyeblikk rommer omsorg og ønsket om å bli spurt.",
+      "prompt": "Valider begge uten å be henne velge mellom dem.",
+      "text": "[Skyldfull] Alex er snill, og jeg vil likevel at han spør først.",
+      "suggestion": "Både omsorgen hans og ønsket ditt om å bli spurt kan få betydning."
+    },
+    {
+      "id": "mastery_mia_easy_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-mia_easy_01",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "bridge": "Samtalen vender tilbake til at Alex strekker seg etter en veske.",
+      "prompt": "Still ett åpent spørsmål om den uklare opplevelsen.",
+      "text": "[Undrende] Det skjer noe når Alex strekker seg etter vesken.",
+      "suggestion": "Hva legger du merke til i det øyeblikket?"
+    },
+    {
+      "id": "mastery_mia_easy_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-mia_easy_02",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "bridge": "I dette øyeblikket er sinnet over å bli snakket over hodet på allerede til stede.",
+      "prompt": "Undersøk hva sinnet vil ha hørt.",
+      "text": "[Sint] Sinnet er her når jeg husker at de snakket over hodet på meg.",
+      "suggestion": "Kan vi høre hva det sinnet vil at de skal forstå?"
+    },
+    {
+      "id": "mastery_mia_easy_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-mia_easy_03",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "bridge": "Et annet tilbud om hjelp vekker en skarp reaksjon.",
+      "prompt": "Undersøk tentativt ønsket under reaksjonen.",
+      "text": "[Rynker pannen] Ella sier «ikke tenk på det, jeg gjør det», og jeg blir skarp.",
+      "suggestion": "Kan noe av det skarpe være et ønske om å få bestemme hvordan det gjøres?"
+    },
+    {
+      "id": "mastery_mia_easy_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-mia_easy_06",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "bridge": "Mia beskriver tidspunktet for hjelpen fra Alex på avstand.",
+      "prompt": "Bruk beskrivelsen hennes til å gjøre øyeblikket nærere, og undersøk om det passer.",
+      "text": "[Flatt] Hjelpen fra Alex kommer foran meg.",
+      "suggestion": "Er det som om han kommer til svaret mens du fortsatt bestemmer hva du vil?"
+    },
+    {
+      "id": "mastery_mia_easy_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-mia_easy_02",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "Et øyeblikk av sinne går over til en detalj om vesken.",
+      "prompt": "Undersøk om hun vil vende tilbake til å ikke bli spurt.",
+      "text": "[Sint, så saklig] Jeg ble ikke spurt. Vesken har faktisk to håndtak.",
+      "suggestion": "Jeg merket at vi gikk over til håndtakene. Kan vi vende tilbake til å ikke bli spurt, hvis det er nyttig?"
+    },
+    {
+      "id": "mastery_mia_easy_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-mia_easy_02",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "bridge": "Et senere emosjonelt øyeblikk trenger et roligere tempo.",
+      "prompt": "Behold kontakten uten å presse på for mer.",
+      "text": "[Skjelvende stemme] Jeg er sint. Jeg er her, jeg trenger bare et øyeblikk.",
+      "suggestion": "Ta det øyeblikket. Jeg er her, og vi trenger ikke gå videre ennå."
+    },
+    {
+      "id": "mastery_mia_easy_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-mia_easy_12",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Et annet øyeblikk gir forespørselen en tydeligere form.",
+      "prompt": "Speil hjelpen hun ønsker og valget hun beholder.",
+      "text": "[Stødig] Jeg vil ha hjelp til å bære vesken. Jeg vil ikke at noen bestemmer hva som skal i den.",
+      "suggestion": "Du vil ha hjelp med vekten, og fortsatt bestemme selv."
+    },
+    {
+      "id": "mastery_mia_easy_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-mia_easy_09",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Mia merker ord hun vil ta vare på.",
+      "prompt": "Hjelp henne å sette ord på det formuleringen fanger.",
+      "text": "[Ettertenksom] Jeg fant ordene: Jeg trenger hjelp med å bære, ikke bestemme.",
+      "suggestion": "Fanger de ordene det du vil ta med deg fra i dag?"
+    },
+    {
+      "id": "mastery_mia_easy_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-mia_easy_03",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "Den tenkte timen er snart over.",
+      "prompt": "Ta vare på ordene hun valgte og gi plass til å gå.",
+      "text": "[Ettertenksom] Jeg vil huske de ordene til Alex.",
+      "suggestion": "Kan vi skrive ned ordene du valgte, og så se at du har det du trenger for å gå?"
+    }
+  ]
+}

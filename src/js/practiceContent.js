@@ -11,8 +11,10 @@ export function hasPracticeContent(languageId, skillId) {
   return loaded.has(keyFor(languageId, skillId));
 }
 
-export function getPracticeStatements(languageId, skillId, caseId) {
-  return loaded.get(keyFor(languageId, skillId))?.[caseId] ?? [];
+export function getPracticeStatements(languageId, skillId, caseId, level) {
+  const entries = loaded.get(keyFor(languageId, skillId))?.[caseId] ?? [];
+  const meta = BASE_PRACTICE[skillId]?.cases[caseId];
+  return meta?.supportedLevels.length > 1 ? entries.filter(entry => entry.difficulty === (level ?? meta.difficulty)) : entries;
 }
 
 export async function loadPracticeContent(languageId, skillId) {
@@ -25,12 +27,15 @@ export async function loadPracticeContent(languageId, skillId) {
       const data = await response.json();
       for (const caseId of CASE_ORDER[skillId]) {
         const entries = data?.[caseId];
+        const meta = BASE_PRACTICE[skillId].cases[caseId];
         if (!Array.isArray(entries) || entries.length !== BASE_PRACTICE[skillId].cases[caseId].statementCount
           || entries.some(entry => typeof entry?.id !== 'string' || typeof entry.text !== 'string'
             || typeof entry.suggestion !== 'string' || entry.revision !== CONTENT_REVISION
             || typeof entry.track !== 'string' || !Array.isArray(entry.criteriaTags))) {
           throw new Error('Incomplete practice content');
         }
+        if (meta.supportedLevels.length > 1 && (entries.some(entry => !meta.supportedLevels.includes(entry.difficulty))
+          || meta.supportedLevels.some(level => entries.filter(entry => entry.difficulty === level).length !== 12))) throw new Error('Incomplete practice level');
       }
       loaded.set(key, data);
     });

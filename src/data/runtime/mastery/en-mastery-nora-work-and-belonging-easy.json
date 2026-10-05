@@ -1,0 +1,171 @@
+{
+  "id": "mastery-nora-work-and-belonging-easy",
+  "type": "mastery",
+  "caseId": "case-nora",
+  "difficulty": "easy",
+  "supportedLevels": [
+    "easy"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Nora · Work and belonging",
+  "orientation": "Twelve linked moments about exclusion, valued work and having a voice. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+  "scenes": [
+    {
+      "id": "mastery_nora_easy_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-nora_easy_01",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Nora begins with the comment about presenting her design.",
+      "prompt": "Reflect the exclusion alongside the wanted work.",
+      "text": "[Hurt] He wanted a more Norwegian face. I was sitting right there with my own drawings.",
+      "suggestion": "Your work was wanted, while you were treated as someone who didn’t belong in front of it."
+    },
+    {
+      "id": "mastery_nora_easy_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-nora_easy_01",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "bridge": "She asks what exploring the impact could offer.",
+      "prompt": "Give a modest rationale without promising workplace change.",
+      "text": "[Wary] Talking about my feelings won’t change what Ben said.",
+      "suggestion": "No. We could explore how it affected you, alongside any practical response you want to consider."
+    },
+    {
+      "id": "mastery_nora_easy_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-nora_easy_01",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "bridge": "Another moment brings self-judgment about still being upset.",
+      "prompt": "Make the reaction understandable in its concrete context.",
+      "text": "[Self-critical] I’m still upset about the “Norwegian face” comment.",
+      "suggestion": "That comment questioned your place in presenting your own work. Being upset is understandable."
+    },
+    {
+      "id": "mastery_nora_easy_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-nora_easy_04",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "bridge": "Nora recalls returning to the drawings after the meeting.",
+      "prompt": "Ask one open question about that unclear experience.",
+      "text": "[Quietly] I didn’t want to look at my drawings.",
+      "suggestion": "What was it like to see them after that meeting?"
+    },
+    {
+      "id": "mastery_nora_easy_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-nora_easy_01",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "bridge": "In this moment, the hurt from the comment is already present.",
+      "prompt": "Explore the hurt she is noticing now.",
+      "text": "[Hurt] It hurts when I remember him saying that about my face.",
+      "suggestion": "What is the most painful part as you remember it now?"
+    },
+    {
+      "id": "mastery_nora_easy_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-nora_easy_01",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "bridge": "Another moment at her desk has an unspoken meaning.",
+      "prompt": "Offer one tentative guess, leaving room for correction.",
+      "text": "[Quietly] I straightened the drawings after the meeting. I couldn’t start working.",
+      "suggestion": "I wonder if the comment had made it hard to feel at home with your own work?"
+    },
+    {
+      "id": "mastery_nora_easy_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-nora_easy_01",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "bridge": "She describes the exclusion at a distance.",
+      "prompt": "Use a close image and check whether it fits.",
+      "text": "[Distant] They wanted the design, just not me presenting it.",
+      "suggestion": "Is it like your work could enter the room while you were kept at the door?"
+    },
+    {
+      "id": "mastery_nora_easy_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-nora_easy_03",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "A wish to have her work seen shifts to a project detail.",
+      "prompt": "Check whether she wants to return to that wish.",
+      "text": "[Sad, then factual] I wanted my work seen. The project has three floors.",
+      "suggestion": "I noticed we moved to the floors. Would it help to return to wanting your work seen?"
+    },
+    {
+      "id": "mastery_nora_easy_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-nora_easy_01",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "bridge": "A later tearful moment needs company rather than a solution.",
+      "prompt": "Stay close without rushing to fix the hurt.",
+      "text": "[Crying] I need you to hear how much that hurt.",
+      "suggestion": "I’m listening. We can give the hurt room without rushing to a solution."
+    },
+    {
+      "id": "mastery_nora_easy_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-nora_easy_09",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Another moment gives the wish for recognition clearer words.",
+      "prompt": "Reflect the recognition she is asking for.",
+      "text": "[Angry] I don’t want my colleague punished. I want my work credited to me.",
+      "suggestion": "You’re asking for your contribution to be recognized as yours."
+    },
+    {
+      "id": "mastery_nora_easy_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-nora_easy_02",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Nora notices a clearer wish within the anger.",
+      "prompt": "Help her name what she wants to keep.",
+      "text": "[Quietly] The anger has a clearer point now: I want to present my own work.",
+      "suggestion": "What do you want to keep about that clearer wish?"
+    },
+    {
+      "id": "mastery_nora_easy_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-nora_easy_02",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "The imagined session is nearly over.",
+      "prompt": "End without claiming the problem is resolved.",
+      "text": "[Sad] I’m ready to stop, but I don’t want to call it resolved.",
+      "suggestion": "We can end the hour without calling it resolved. Shall we note where you want to return?"
+    }
+  ]
+}
