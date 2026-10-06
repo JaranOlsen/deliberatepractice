@@ -3,7 +3,7 @@ import {aiTestAccount} from './ai-test-account.mjs';
 // Reversible access fixture on the explicitly authorized fourth test account.
 // No model calls, ratings or messages. Restore the original row in finally.
 if(!process.argv.includes('--test-access'))throw Error('Use --test-access for the reversible dedicated-account access check');
-const identity=await aiTestAccount('jaran.olsen@hotmail.com'),base=`${identity.url}/functions/v1/ai-practice`;
+const identity=await aiTestAccount(3),base=`${identity.url}/functions/v1/ai-practice`;
 const saved=await identity.admin.from('ai_admin_access').select('*').eq('user_id',identity.userId).single();
 if(saved.error||!saved.data)throw Error('Existing dedicated admin permission required');
 let changed=false;
