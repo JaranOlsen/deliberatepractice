@@ -14,6 +14,7 @@ pnpm-debug.log*
 # Local browser checks can contain account details.
 .playwright-cli/
 output/playwright/
+supabase/functions/ai-practice/generated/
 
 # Local environment
 .env

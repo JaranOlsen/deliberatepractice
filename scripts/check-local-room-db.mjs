@@ -19,19 +19,29 @@ const read = name => readFile(new URL(name, root), 'utf8');
 const db = new PGlite({extensions: {pgcrypto}});
 try {
   // Only Supabase's Auth interface is stubbed; schema, room RPCs and constraints are real.
-  await db.exec(`create role anon; create role authenticated; create schema auth; create schema extensions;
+  await db.exec(`create role anon; create role authenticated; create role service_role bypassrls; create schema auth; create schema extensions;
     create table auth.users(id uuid primary key,aud text,role text,email text,raw_user_meta_data jsonb default '{}');
     create function auth.uid() returns uuid language sql stable as $$ select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid $$;
     create function auth.jwt() returns jsonb language sql stable as $$ select '{}'::jsonb $$;
     grant usage on schema public,auth to authenticated,anon;
     create publication supabase_realtime;`);
+  // PGlite has no background scheduler. Stub only cron registration; the
+  // cleanup SQL itself is exercised below, and the hosted job is checked live.
+  await db.exec(`create schema cron;
+    create table cron.job(jobid bigint generated always as identity primary key,jobname text unique,schedule text,command text);
+    create table cron.job_run_details(jobid bigint,end_time timestamptz);
+    create function cron.schedule(name text,timing text,sql text) returns bigint language sql as $$
+      insert into cron.job(jobname,schedule,command) values(name,timing,sql) on conflict(jobname) do update set schedule=excluded.schedule,command=excluded.command returning jobid $$;`);
   await db.exec(await read('supabase/auth-pairing-practice.sql'));
   for (const name of (await readdir(new URL('supabase/migrations/', root))).sort()) {
     const levelMigration=/_(?:(?:arne|mia|nora)_practice_levels|fixed_case_mastery|experiential_focusing)\.sql$/.test(name);
     const validator=levelMigration?(await db.query("select 'dp_private.validate_room_config(jsonb)'::regprocedure::oid as oid")).rows[0].oid:null;
-    await db.exec(await read('supabase/migrations/' + name));
+    const migration=await read('supabase/migrations/' + name);
+    await db.exec(name.endsWith('_ai_feedback_cleanup.sql')?migration.replace('create extension if not exists pg_cron;',''):migration);
     if(levelMigration)assert.equal((await db.query("select 'dp_private.validate_room_config(jsonb)'::regprocedure::oid as oid")).rows[0].oid,validator,'Existing room validator identity must survive the migration');
   }
+  const cleanup=(await db.query("select command from cron.job where jobname='ai-practice-cache-cleanup'")).rows[0];
+  assert.ok(cleanup,'AI cleanup job is registered');await db.exec(cleanup.command);
   for(const exercise of MASTERY_EXERCISES) {
     const row=(await db.query('select scenes from dp_private.exercise_catalog where exercise_id=$1 and revision=$2',[exercise.id,exercise.revision])).rows[0];
     assert.deepEqual(row?.scenes,exercise.scenes.map(({id,skillId,criteriaTags})=>({id,skillId,criteriaTags})),'Mastery catalog drift: '+exercise.id);
@@ -41,7 +51,7 @@ try {
     const expected=BASE_PRACTICE[skill].cases[caseId].statements.filter(e=>e.difficultyTier===level).map(({id,criteriaTags})=>({id,criteriaTags}));
     assert.deepEqual(row?.entries,expected,'Focused catalog drift: '+skill+'/'+level);
   }
-  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql', 'check-practice-goals.sql', 'check-rating-history.sql', 'check-mastery.sql','check-practice-levels.sql','check-fixed-case-mastery.sql','check-experiential-focusing.sql']) {
+  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql', 'check-practice-goals.sql', 'check-rating-history.sql', 'check-mastery.sql','check-practice-levels.sql','check-fixed-case-mastery.sql','check-experiential-focusing.sql','check-admin-ai.sql']) {
     await db.exec(await read('scripts/' + name));
     console.log('PASS ' + name);
   }

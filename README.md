@@ -35,6 +35,10 @@ The draft library contains **2,856 focused bilingual pairs** and **eighteen mast
 
 Backend metadata migrations must precede frontend publication. The [fixed-case release notes](src/md/mastery-release-4.md) record the draft stack, compatibility and verification. The [bilingual review packet](src/md/fixed-case-extension-content-review.md) includes extension samples and all eight new mastery sequences. No production deployment or real-account rating reset is part of this batch.
 
+## Admin AI practice
+
+Signed-in admins can open **Individual → AI guided practice · pilot** for all authored skill/case material. Speak or type for a wording score, replay recordings, and optionally request experimental feedback on vocal delivery. AI access is verified by Supabase on every request. Setup, deployment and bounded test commands are in [the AI practice guide](docs/ai-practice-pilot.md).
+
 ## Local Development
 
 ```sh

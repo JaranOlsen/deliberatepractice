@@ -56,7 +56,15 @@ export default defineConfig({
   publicDir: 'public',
   // Native file events can miss editor/agent writes on macOS, leaving the
   // preview on an older build even after a browser refresh.
-  server: { watch: { usePolling: true } },
+  server: { watch: { usePolling: true }, proxy: {
+    '/api/ai-practice': {target: 'http://127.0.0.1:5555', changeOrigin: false,
+      // Same-origin browser GETs omit Origin. Supply the observed frontend origin
+      // for the loopback-only pilot server, never a remote user-controlled URL.
+      configure(proxy) { proxy.on('proxyReq', (proxyReq, req) => {
+        if (!req.headers.origin && /^(localhost|127\.0\.0\.1):\d+$/.test(req.headers.host ?? ''))
+          proxyReq.setHeader('origin', `http://${req.headers.host}`);
+      }); }}
+  } },
   define: {
     __APP_VERSION__: JSON.stringify(packageJson.version),
     __BUILD_NUMBER__: JSON.stringify(getBuildNumber()),
