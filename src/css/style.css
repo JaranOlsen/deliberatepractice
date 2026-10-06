@@ -2569,6 +2569,18 @@ body .account-controls .header-pill {
 .ai-client-card blockquote { font-size: 1.2rem; line-height: 1.55; overflow-wrap: anywhere; }
 .ai-supervisor-card { background: var(--card-accent-faint, #eef5f3); border: 1px solid var(--card-accent-soft, #d8e6e2); }
 .ai-supervisor-card h4 { font-size: .8rem; color: #49635e; }
+.ai-attempt-rating { display: grid; gap: .5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--card-accent-soft, #d8e6e2); }
+.ai-rating-value { display: flex; flex-wrap: wrap; align-items: baseline; gap: .3rem .8rem; }
+.ai-rating-value strong { font-size: 1.65rem; color: #315f5b; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ai-rating-value span { font-size: .9rem; }
+.ai-rating-steps { display: grid; grid-template-columns: repeat(5, 1fr); gap: .25rem; max-width: 12rem; }
+.ai-rating-steps span { height: .3rem; border-radius: .5rem; background: #d9e5e2; }
+.ai-rating-steps .is-filled { background: #315f5b; }
+.ai-model-details { border-top: 1px solid var(--color-border); color: var(--color-muted); font-size: .85rem; }
+.ai-model-details > summary { min-height: 44px; padding-block: .7rem; cursor: pointer; font-weight: 650; }
+.ai-model-details dl { display: grid; gap: .65rem; margin: .4rem 0 0; }
+.ai-model-details dt { font-weight: 650; }
+.ai-model-details dd { margin: .2rem 0 0; overflow-wrap: anywhere; }
 .ai-counter { color: var(--color-muted); font-variant-numeric: tabular-nums; font-size: .85rem; }
 .ai-body textarea, .ai-body select { width: 100%; max-width: 100%; border: 1px solid #d7dee0; border-radius: .8rem; padding: .9rem; font: inherit; background: #fff; color: #14212a; box-sizing: border-box; }
 .ai-body textarea { resize: vertical; min-height: 8rem; }

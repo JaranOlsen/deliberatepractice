@@ -1,4 +1,4 @@
-import {AI_PROTOCOL, AI_SKILLS, AI_CASE, MAX_ATTEMPT_LENGTH, summarizeAiRound, spokenStatement} from './aiPracticeProtocol.js';
+import {AI_PROTOCOL, AI_SKILLS, AI_CASE, MAX_ATTEMPT_LENGTH, summarizeAiRound, spokenStatement, supervisorFeedbackText} from './aiPracticeProtocol.js';
 import {createAiPracticeApi} from './aiPracticeApi.js';
 import {createPracticeAudio} from './aiPracticeAudio.js';
 import {AI_COPY} from './aiPracticeCopy.js';
@@ -82,7 +82,7 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
     const payload = role === 'client' ? {role, languageId: language, skillId: round.skillId,
       statementId: currentItem.statement.id, revision: currentItem.statement.revision} : {role, attemptId: assessment.attemptId};
     const text = role === 'client' ? spokenStatement(currentItem.statement.text)
-      : `${assessment.result.strength} ${assessment.result.adjustment}`;
+      : supervisorFeedbackText(assessment, language);
     try {await audio.play({text, role, languageId: language, mode: round.mode, payload});}
     catch (e) {fail(new Error(e.message === 'assessment_expired' ? e.message : 'audio_unavailable')); render();}
   }
@@ -151,6 +151,37 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
     const blob = new Blob([JSON.stringify({...round, summary: summarizeAiRound(round.items)}, null, 2)], {type: 'application/json'});
     const url = URL.createObjectURL(blob), link = node('a'); link.href = url; link.download = `ai-practice-${round.roundId}.json`; link.click(); setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
+  function renderRating(feedback, assessment, currentItem) {
+    if (assessment.source !== 'ai') return;
+    const rating = node('div', '', 'ai-attempt-rating');
+    rating.append(node('h4', `${copy().rating} · ${assessment.kind === 'retry' ? copy().retryAttempt : copy().firstAttempt}`));
+    if (!assessment.result.assessable) rating.append(node('p', copy().notRated, 'ai-rating-value'));
+    else {
+      const score = assessment.result.score, value = node('div', '', 'ai-rating-value');
+      value.append(node('strong', `${score} / 5`), node('span', copy().ratingLabels[score - 1])); rating.append(value);
+      const steps = node('div', '', 'ai-rating-steps'); steps.setAttribute('aria-hidden', 'true');
+      for (let index = 1; index <= 5; index++) steps.append(node('span', '', index <= score ? 'is-filled' : ''));
+      rating.append(steps);
+    }
+    const first = currentItem.first;
+    if (assessment.kind === 'retry' && first?.source === 'ai' && first.result.assessable)
+      rating.append(node('p', `${copy().firstAttempt}: ${first.result.score} / 5`, 'response-hint'));
+    feedback.append(rating);
+  }
+  function renderAiDetails(body) {
+    if (round ? round.mode !== 'live' : status.mode !== 'live') return;
+    const assessment = phase.includes('feedback') ? item()?.[feedbackKind()] : null;
+    const assessedModels = phase === 'complete' ? [...new Set(round.items.flatMap(item =>
+      [item.first, item.retry].filter(attempt => attempt?.source === 'ai').map(attempt => attempt.model)))].join(', ') : null;
+    const models = status.models ?? {}, details = node('details', '', 'ai-model-details'); details.id = 'ai-details';
+    details.append(node('summary', copy().details)); const list = node('dl');
+    for (const [label, model] of [[copy().feedbackModel, assessment?.model || assessedModels || models.assessment],
+      [copy().speechModel, models.speech], [copy().transcriptionModel, models.transcription]]) {
+      if (!model) continue;
+      const row = node('div'); row.append(node('dt', label), node('dd', model)); list.append(row);
+    }
+    if (list.children.length) {details.append(list); body.append(details);}
+  }
   function renderSummary(body) {
     const summary = summarizeAiRound(round.items);
     if (round.mode === 'demo') body.append(node('p', copy().demoSummary));
@@ -163,9 +194,7 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
     }
     const label = node('label', copy().self); label.htmlFor = 'ai-self-score';
     const select = node('select'); select.id = 'ai-self-score'; select.append(new Option('—', ''));
-    const labels = language === 'no' ? ['Ikke vist ennå', 'På vei med veiledning', 'Tilfredsstillende i deler', 'Godt demonstrert', 'Svært godt demonstrert']
-      : ['Not yet demonstrated', 'Emerging with guidance', 'Adequate in parts', 'Well demonstrated', 'Skillfully demonstrated'];
-    labels.forEach((label, i) => select.append(new Option(`${i + 1} · ${label}`, String(i + 1)))); select.value = round.selfScore ? String(round.selfScore) : '';
+    copy().ratingLabels.forEach((label, i) => select.append(new Option(`${i + 1} · ${label}`, String(i + 1)))); select.value = round.selfScore ? String(round.selfScore) : '';
     select.addEventListener('change', () => {round.selfScore = select.value ? Number(select.value) : null;});
     body.append(label, select, node('p', copy().optional, 'response-hint'));
     const actions = node('div', '', 'ai-actions'); actions.append(btn(copy().export, exportRound, false, 'ai-export'), btn(copy().again, () => {
@@ -207,6 +236,7 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
         const assessment = currentItem[feedbackKind()], feedback = node('section', '', 'ai-supervisor-card');
         const response = node('details', '', 'ai-attempt-reference'); response.append(node('summary', copy().attempt), node('p', assessment.text)); body.append(response);
         feedback.append(node('h3', copy().supervisor));
+        renderRating(feedback, assessment, currentItem);
         for (const [label, text] of [[copy().strength, assessment.result.strength], [copy().adjustment, assessment.result.adjustment]]) {
           if (text) feedback.append(node('h4', label), node('p', text));
         }
@@ -218,7 +248,7 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
       const reference = createSkillFeedback({skillId: round.skillId, language, audience: 'self'}); body.append(reference);
       if (phase !== 'attempt') {const example = node('details', '', 'ai-example'); example.append(node('summary', copy().example), node('p', currentItem.statement.suggestion)); body.append(example);}
     }
-    element.replaceChildren(body); updateAudio();
+    renderAiDetails(body); element.replaceChildren(body); updateAudio();
   }
   function pause() {cancelPending(); home();}
   function goHome() {

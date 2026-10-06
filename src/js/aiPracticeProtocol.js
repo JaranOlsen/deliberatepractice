@@ -53,3 +53,10 @@ export function scriptedFeedback(languageId, skillId) {
 }
 
 export function spokenStatement(text) { return text.replace(/^\[[^\]]+\]\s*/, ''); }
+
+export function supervisorFeedbackText(assessment, languageId) {
+  const result = assessment.result;
+  const rating = assessment.source === 'ai' && result.assessable
+    ? languageId === 'no' ? `KI-vurdering: ${result.score} av 5. ` : `AI rating: ${result.score} out of 5. ` : '';
+  return `${rating}${result.strength} ${result.adjustment}`.trim();
+}

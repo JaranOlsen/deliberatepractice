@@ -25,15 +25,17 @@ async page => {
     let fails = live ? 1 : 0; const sent = [], speech = [];
     await p.route('**/api/ai-practice/**', async route => {
       const action = new URL(route.request().url()).pathname.split('/').at(-1);
-      if (action === 'status') return route.fulfill({json: {protocol: 'ai-practice-pilot-v1', mode: live ? 'live' : 'unconfigured'}});
+      if (action === 'status') return route.fulfill({json: {protocol: 'ai-practice-pilot-v1', mode: live ? 'live' : 'unconfigured',
+        ...(live ? {models: {assessment: 'configured-fixture', speech: 'gpt-4o-mini-tts', transcription: 'gpt-transcribe'}} : {})}});
       if (!live) throw new Error('Scripted preview must make no requests beyond status');
       if (action === 'transcribe') return route.fulfill({json: {text: language === 'no' ? 'Du savner ham.' : 'You miss him.'}});
       if (action === 'speech') {speech.push(route.request().postDataJSON()); return route.fulfill({contentType: 'audio/mpeg', body: Buffer.from([1, 2, 3])});}
       const value = route.request().postDataJSON(); sent.push(value);
       if (fails-- > 0) return route.fulfill({status: 502, json: {error: 'provider_failed'}});
+      const unassessable = value.text === 'Unassessable fixture';
       return route.fulfill({json: {protocol: 'ai-practice-pilot-v1', source: 'ai', attemptId: value.attemptId, kind: value.kind,
         contentRevision: value.revision, rubric: 'wording-coaching-v1', promptVersion: 'supervisor-wording-v1', model: 'test-fixture',
-        result: {assessable: true, score: value.kind === 'first' ? 3 : 5, evidence: [value.text.slice(0, 40)],
+        result: {assessable: !unassessable, score: unassessable ? null : value.kind === 'first' ? 3 : 5, evidence: unassessable ? [] : [value.text.slice(0, 40)],
           strength: language === 'no' ? 'Du speilet savnet i Saras egne ord.' : 'You reflected the missing him in Sara’s own words.',
           adjustment: language === 'no' ? 'Hold deg til én kort speiling, med rom for at hun kan korrigere.' : 'Keep one short reflection, with room for her to correct it.',
           limitation: language === 'no' ? 'Fremføring er ikke vurdert.' : 'Delivery was not assessed.'}}});
@@ -64,6 +66,7 @@ async page => {
       assert(await p.locator('#ai-response').inputValue() === text, 'Pause and resume preserve the draft');
       await p.locator('#ai-send').click(); await p.locator('#ai-retry').waitFor(); await fits(p);
       assert(await p.locator('.ai-preview-badge').isVisible(), 'Scripted preview is always clearly marked');
+      assert(await p.locator('.ai-attempt-rating, #ai-details').count() === 0, 'Scripted preview has no AI rating or model details');
       assert(await p.locator('.ai-supervisor-card').textContent().then(text => text.includes(language === 'no' ? 'demonstrasjon' : 'demonstration')), 'Preview does not claim to assess a response');
       await p.screenshot({path: `output/playwright/ai-feedback-${language}-${width}.png`});
       await p.locator('#ai-retry').click(); await p.locator('#ai-response').fill(text); await p.locator('#ai-send').click(); await p.locator('#ai-next').click();
@@ -83,6 +86,8 @@ async page => {
     }
     for (const language of ['en', 'no']) {
       const {p, context, sent, speech} = await contextFor(language, 390, true);
+      await p.locator('#ai-details > summary').click();
+      assert((await p.locator('#ai-details dd').allTextContents()).includes('configured-fixture'), 'Before assessment the configured model is visible');
       await p.locator('[data-ai-skill=empathic-understanding]').click(); await p.locator('#ai-begin').click();
       await p.locator('#ai-play-client').click(); await p.locator('#ai-stop-audio').waitFor();
       await p.locator('#ai-record').click();
@@ -96,10 +101,21 @@ async page => {
       assert(await p.locator('#ai-response').inputValue() === corrected, 'Failed assessment preserves corrected transcript');
       await p.locator('#ai-send').click(); await p.locator('#ai-retry').waitFor();
       assert(sent[0].attemptId === sent[1].attemptId && sent[1].text === corrected, 'Network retry keeps the same id and sends the corrected response');
+      assert(await p.locator('.ai-rating-value strong').textContent() === '3 / 5', 'The first feedback displays its AI score');
+      assert(await p.locator('.ai-rating-value span').textContent() === (language === 'no' ? 'Tilfredsstillende i deler' : 'Adequate in parts'), 'The AI score uses the self-assessment scale labels');
+      assert(await p.locator('.ai-rating-steps .is-filled').count() === 3, 'The visual rating matches the AI score');
+      await p.locator('#ai-details > summary').click();
+      assert((await p.locator('#ai-details dd').allTextContents()).join('|') === 'test-fixture|gpt-4o-mini-tts|gpt-transcribe', 'Feedback shows the actual responding model and the audio models');
+      await p.setViewportSize({width: 320, height: 844}); await fits(p);
+      await p.screenshot({path: `output/playwright/ai-rating-${language}-320.png`, fullPage: true});
+      await p.setViewportSize({width: 390, height: 844});
       await p.locator('#ai-play-supervisor').click(); await p.locator('#ai-stop-audio').waitFor();
       assert(speech[0].role === 'client' && speech[1].role === 'supervisor', 'Client and supervisor use distinct speech endpoints');
       await p.locator('#ai-retry').click(); await p.evaluate(() => {window.aiMicDenied = true;}); await p.locator('#ai-record').click(); await p.locator('#ai-status:not([hidden])').waitFor();
-      await p.locator('#ai-response').fill(corrected); await p.locator('#ai-send').click(); await p.locator('#ai-next').click();
+      await p.locator('#ai-response').fill(corrected); await p.locator('#ai-send').click(); await p.locator('#ai-next').waitFor();
+      assert(await p.locator('.ai-rating-value strong').textContent() === '5 / 5', 'The retry has its own AI score');
+      assert((await p.locator('.ai-attempt-rating').textContent()).includes(`${language === 'no' ? 'Første forsøk' : 'First attempt'}: 3 / 5`), 'The retry keeps the original score for comparison');
+      await fits(p); await p.locator('#ai-next').click();
       for (let index = 1; index < 12; index++) {
         await p.locator('#ai-response').fill(corrected); await p.locator('#ai-send').click(); await p.locator('#ai-retry').click();
         await p.locator('#ai-response').fill(corrected); await p.locator('#ai-send').click(); await p.locator('#ai-next').click();
@@ -108,7 +124,15 @@ async page => {
       assert((await p.locator('.ai-score-card strong').allTextContents()).join('|') === '3.0 / 5|5.0 / 5', 'First-attempt and coached scores stay separate');
       assert(sent.length === 25, 'Exactly 24 attempts plus one transport retry'); await fits(p);
       await p.screenshot({path: `output/playwright/ai-summary-${language}.png`});
-      checks.push({language, liveMock: true, speech: true, recording: true, correctedTranscript: true, permissionFallback: true, attempts: 24, summary: true}); await context.close();
+      await p.locator('#ai-details > summary').click();
+      assert(await p.locator('#ai-details dd').first().textContent() === 'test-fixture', 'Round details retain the actual responding model');
+      await p.locator('#ai-again').click(); await p.locator('[data-ai-skill=empathic-understanding]').click(); await p.locator('#ai-begin').click();
+      await p.locator('#ai-response').fill('Unassessable fixture'); await p.locator('#ai-send').click(); await p.locator('#ai-retry').waitFor();
+      assert(await p.locator('.ai-rating-value').textContent() === (language === 'no' ? 'Ikke vurdert' : 'Not rated'), 'An unassessable response explicitly has no score');
+      assert(await p.locator('.ai-rating-value strong, .ai-rating-steps').count() === 0, 'An unassessable response never appears as a zero or numeric rating');
+      for (let index = 0; index < 12; index++) await p.locator('#ai-pass').click();
+      assert((await p.locator('.ai-score-card strong').allTextContents()).join('|') === '—|—', 'Unassessable and passed items do not enter the averages');
+      checks.push({language, liveMock: true, speech: true, recording: true, correctedTranscript: true, permissionFallback: true, attempts: 24, summary: true, visibleRatings: true, modelDetails: true, unassessable: true}); await context.close();
     }
     assert(!errors.length, errors.join('; ')); assert(externalCalls === 0, 'No OpenAI requests permitted');
     return {status: 'passed', externalCalls, checks};

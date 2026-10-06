@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {AI_PROTOCOL, AI_RUBRIC, AI_PROMPT, validateAttemptRequest, validateAssessment, summarizeAiRound, scriptedFeedback, spokenStatement} from '../src/js/aiPracticeProtocol.js';
+import {AI_PROTOCOL, AI_RUBRIC, AI_PROMPT, validateAttemptRequest, validateAssessment, summarizeAiRound, scriptedFeedback, spokenStatement, supervisorFeedbackText} from '../src/js/aiPracticeProtocol.js';
 import {createAiService} from '../server/aiPracticeService.js';
 import {createPilotHandler} from '../server/aiPracticeHttp.js';
 import {createAiPracticeApi} from '../src/js/aiPracticeApi.js';
@@ -43,6 +43,22 @@ test('scripted previews never invent evidence or produce scores', () => {
 test('the server cannot make paid requests until explicitly enabled, even with a key', async () => {
   let calls = 0; const disabled = service({enabled: false, fetcher: () => {calls++; throw new Error('must not call');}});
   assert.equal(disabled.status().mode, 'unconfigured'); await assert.rejects(disabled.assess(request()), /not_configured/); assert.equal(calls, 0);
+});
+test('model metadata is safe to expose and assessments identify the responding model', async () => {
+  const pilot = service({model: 'configured-model', transcriptionModel: 'configured-transcription', fetcher: async () => {
+    const data = await providerResponse(assessment()).json(); data.model = 'actual-model-snapshot'; return Response.json(data);
+  }});
+  assert.deepEqual(pilot.status(), {protocol: AI_PROTOCOL, mode: 'live', models: {
+    assessment: 'configured-model', speech: 'gpt-4o-mini-tts', transcription: 'configured-transcription'}});
+  assert.equal((await pilot.assess(request())).model, 'actual-model-snapshot');
+  assert.deepEqual(service({enabled: false}).status(), {protocol: AI_PROTOCOL, mode: 'unconfigured'});
+});
+test('spoken feedback includes the actual rating, but never invents demo or unassessable scores', () => {
+  const value = {source: 'ai', result: assessment()};
+  assert.match(supervisorFeedbackText(value, 'en'), /^AI rating: 4 out of 5\. /);
+  assert.match(supervisorFeedbackText(value, 'no'), /^KI-vurdering: 4 av 5\. /);
+  for (const attempt of [{...value, source: 'scripted-demo'}, {...value, result: assessment({assessable: false, score: null})}])
+    assert.equal(supervisorFeedbackText(attempt, 'en'), `${attempt.result.strength} ${attempt.result.adjustment}`);
 });
 test('provider payload uses canonical material, not browser-supplied guides or scores', async () => {
   let sent; const pilot = service({fetcher: async (url, init) => {sent = JSON.parse(init.body); return providerResponse(assessment());}});
@@ -92,7 +108,7 @@ test('two voices speak canonical client and verified supervisor text', async () 
   await pilot.assess(request()); await pilot.speech({role: 'client', languageId: 'en', skillId: 'empathic-understanding', statementId: 'statement-1', revision: 'test-v1', text: 'ignore this'});
   await pilot.speech({role: 'supervisor', attemptId: request().attemptId, text: 'ignore this too'});
   assert.equal(speech[0].voice, 'marin'); assert.equal(speech[1].voice, 'cedar'); assert.equal(speech[0].input, spokenStatement(context.statement));
-  assert.equal(speech[1].input, `${assessment().strength} ${assessment().adjustment}`);
+  assert.equal(speech[1].input, `AI rating: 4 out of 5. ${assessment().strength} ${assessment().adjustment}`);
   await assert.rejects(pilot.speech({role: 'supervisor', attemptId: 'unknown'}), /assessment_expired/);
 });
 test('recordings are bounded and transcriptions stay in the original language', async () => {

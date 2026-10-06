@@ -1,5 +1,7 @@
-import {AI_PROTOCOL, AI_RUBRIC, AI_PROMPT, validateAttemptRequest, validateAssessment, spokenStatement} from '../src/js/aiPracticeProtocol.js';
+import {AI_PROTOCOL, AI_RUBRIC, AI_PROMPT, validateAttemptRequest, validateAssessment, spokenStatement, supervisorFeedbackText} from '../src/js/aiPracticeProtocol.js';
 import {AI_ANCHORS} from '../src/data/aiPracticeRubric.js';
+
+const SPEECH_MODEL = 'gpt-4o-mini-tts';
 
 export class PilotError extends Error {
   constructor(code, status = 400) { super(code); this.code = code; this.status = status; }
@@ -88,7 +90,7 @@ limitation names any missing evidence, briefly; it may be empty. Do not repeat b
         model: typeof data.model === 'string' ? data.model : model, rubric: AI_RUBRIC, promptVersion: AI_PROMPT,
         contentRevision: context.revision, createdAt: new Date(now()).toISOString()};
     })();
-    attempts.set(value.attemptId, {signature, promise, time: now()});
+    attempts.set(value.attemptId, {signature, promise, time: now(), languageId: value.languageId});
     try { return await promise; } catch (error) { attempts.delete(value.attemptId); throw error; }
   }
   async function transcribe(file, languageId) {
@@ -113,13 +115,14 @@ limitation names any missing evidence, briefly; it may be empty. Do not repeat b
     } else {
       const entry = attempts.get(input.attemptId);
       if (!entry || entry.time < now() - 900000) throw new PilotError('assessment_expired', 409);
-      const assessment = await entry.promise; text = `${assessment.result.strength} ${assessment.result.adjustment}`;
+      const assessment = await entry.promise; text = supervisorFeedbackText(assessment, entry.languageId);
     }
-    const response = await upstream('audio/speech', {model: 'gpt-4o-mini-tts', voice: input.role === 'client' ? 'marin' : 'cedar',
+    const response = await upstream('audio/speech', {model: SPEECH_MODEL, voice: input.role === 'client' ? 'marin' : 'cedar',
       input: text, response_format: 'mp3', instructions: input.role === 'client'
         ? 'Speak naturally and quietly in the language of the text, as a client expressing a difficult experience. Do not exaggerate or sound theatrical.'
         : 'Speak as a calm, concise practice supervisor, in the language of the text. Leave a short pause between the strength and practice adjustment.'});
     return new Uint8Array(await response.arrayBuffer());
   }
-  return {status: () => ({protocol: AI_PROTOCOL, mode: live ? 'live' : 'unconfigured'}), assess, transcribe, speech};
+  return {status: () => ({protocol: AI_PROTOCOL, mode: live ? 'live' : 'unconfigured',
+    ...(live ? {models: {assessment: model, speech: SPEECH_MODEL, transcription: transcriptionModel}} : {})}), assess, transcribe, speech};
 }
