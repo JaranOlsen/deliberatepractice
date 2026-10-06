@@ -1,13 +1,17 @@
+import {AI_ANCHORS} from '../data/aiPracticeRubric.js';
+import {getSkillFeedback} from '../data/skillFeedback.js';
+
 export const AI_PROTOCOL = 'ai-practice-pilot-v1';
-export const AI_SKILLS = ['empathic-understanding', 'exploratory-questions'];
+export const AI_SKILLS = Object.keys(AI_ANCHORS);
 export const AI_CASE = 'case-sara';
-export const AI_RUBRIC = 'wording-coaching-v1';
-export const AI_PROMPT = 'supervisor-wording-v1';
+export const AI_RUBRIC = 'wording-coaching-v2';
+export const AI_PROMPT = 'supervisor-wording-v2';
 export const MAX_ATTEMPT_LENGTH = 1600;
 
 export function validateAttemptRequest(value) {
   if (!value || value.protocol !== AI_PROTOCOL || !AI_SKILLS.includes(value.skillId)
-    || value.caseId !== AI_CASE || !['en', 'no'].includes(value.languageId)
+    || !/^case-[a-z0-9-]{1,48}$/.test(value.caseId ?? '') || !['en', 'no'].includes(value.languageId)
+    || (value.difficulty !== undefined && !['easy', 'moderate', 'hard'].includes(value.difficulty))
     || !['first', 'retry'].includes(value.kind)
     || !/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(value.attemptId ?? '')
     || typeof value.statementId !== 'string' || typeof value.revision !== 'string'
@@ -44,7 +48,9 @@ export function scriptedFeedback(languageId, skillId) {
   return {assessable: false, score: null, evidence: [], strength: no
     ? 'Her vil veilederen vise til noe konkret du gjorde i svaret.'
     : 'Here, the supervisor will point to something specific you did in your response.',
-  adjustment: no ? reflection ? 'Et eksempel på et øvingsmål: Speil følelsen og hva den betyr, med én kort setning.'
+  adjustment: !['empathic-understanding', 'exploratory-questions'].includes(skillId)
+    ? `${no ? 'Et eksempel på et øvingsmål' : 'An example practice target'}: ${getSkillFeedback(skillId, languageId).target}`
+    : no ? reflection ? 'Et eksempel på et øvingsmål: Speil følelsen og hva den betyr, med én kort setning.'
     : 'Et eksempel på et øvingsmål: Still ett åpent spørsmål om opplevelsen her og nå.'
     : reflection ? 'An example practice target: reflect the feeling and what it means in one short sentence.'
       : 'An example practice target: ask one open question about the experience right now.',

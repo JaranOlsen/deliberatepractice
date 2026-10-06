@@ -18,7 +18,7 @@ async page => {
       const value = route.request().postDataJSON(); attempts.push(value);
       if (attempts.length === 1) {seenFirst(); await held;}
       try {await route.fulfill({json: {protocol: 'ai-practice-pilot-v1', source: 'ai', attemptId: value.attemptId, kind: value.kind,
-        contentRevision: value.revision, model: 'mock', rubric: 'wording-coaching-v1', promptVersion: 'supervisor-wording-v1', result: {assessable: true, score: 4,
+        contentRevision: value.revision, model: 'mock', rubric: 'wording-coaching-v2', promptVersion: 'supervisor-wording-v2', result: {assessable: true, score: 4,
           evidence: [value.text], strength: 'You reflected the missing him.', adjustment: 'Keep the reflection close to Sara’s words.', limitation: ''}}});} catch { /* The paused request was aborted on purpose. */ }
     });
     await p.goto(url);
@@ -31,7 +31,7 @@ async page => {
     if (await pause.isVisible()) await pause.click(); else await p.locator('#practice-exit-pause').click();
     const existing = await p.evaluate(() => localStorage.getItem('dp_practice_session_v1'));
     assert(JSON.parse(existing).roundId === JSON.parse(started).roundId, 'Ordinary pause retains the original round');
-    await p.locator('#home-ai-practice').click(); await p.locator('[data-ai-skill=empathic-understanding]').click(); await p.locator('#ai-begin').click();
+    await p.locator('#home-ai-practice').click(); await p.locator('[data-ai-skill=empathic-understanding]').click(); await p.locator('[data-ai-case=case-sara]').click(); await p.locator('#ai-begin').click();
     await p.locator('#ai-response').fill('You held it together, and then missing him hit you.');
     await p.locator('#ai-send').click(); await firstSeen;
     await p.locator('#join-shared-room').click(); await p.locator('#practice-exit-pause').click(); await p.locator('#home-ai-practice').click();

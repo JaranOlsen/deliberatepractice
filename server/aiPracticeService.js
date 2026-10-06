@@ -1,5 +1,6 @@
 import {AI_PROTOCOL, AI_RUBRIC, AI_PROMPT, validateAttemptRequest, validateAssessment, spokenStatement, supervisorFeedbackText} from '../src/js/aiPracticeProtocol.js';
 import {AI_ANCHORS} from '../src/data/aiPracticeRubric.js';
+import {AI_CLIENT_VOICES, AI_SUPERVISOR_VOICE, clientSpeechInstructions} from '../src/data/aiPracticeVoices.js';
 
 const SPEECH_MODEL = 'gpt-4o-mini-tts';
 
@@ -50,7 +51,8 @@ export function createAiService({apiKey, enabled = false, model = 'gpt-6.1-sol',
   }
   async function contextFor(value) {
     const context = await loadContext(value.languageId, value.skillId, value.statementId);
-    if (!context || context.revision !== value.revision) throw new PilotError('content_changed', 409);
+    if (!context || context.revision !== value.revision || (value.caseId && context.case.id !== value.caseId)
+      || (value.difficulty && context.difficulty !== value.difficulty)) throw new PilotError('content_changed', 409);
     return context;
   }
   async function assess(input) {
@@ -58,7 +60,7 @@ export function createAiService({apiKey, enabled = false, model = 'gpt-6.1-sol',
     try { value = validateAttemptRequest(input); } catch { throw new PilotError('invalid_attempt'); }
     const context = await contextFor(value);
     for (const [id, entry] of attempts) if (entry.time < now() - 900000) attempts.delete(id);
-    const signature = JSON.stringify([value.languageId, value.skillId, value.statementId, value.revision, value.kind, value.text]);
+    const signature = JSON.stringify([value.languageId, value.skillId, value.caseId, value.difficulty, value.statementId, value.revision, value.kind, value.text]);
     const old = attempts.get(value.attemptId);
     if (old) {
       if (old.signature !== signature) throw new PilotError('attempt_conflict', 409);
@@ -76,6 +78,9 @@ For an off-topic or unassessable response set assessable=false, score=null; expl
 Evidence contains at most two exact short quotations from the therapist text. For assessable=true, include evidence.
 Do not show an example response or rewrite the therapist response before they retry.
 An assessed retry is coached performance; judge its wording by the same rubric without assuming independent ability.
+The difficulty names the client material, not a bonus or penalty; apply the same 1–5 skill anchors at every level.
+Therapist self-awareness is a reflection task, not a client intervention. Accept reported absence of a reaction and chosen privacy; never demand personal disclosure or infer the truth of internal experience.
+For chairwork, assess recognition and invitation only, not delivery of a full task. For focusing, accept correction, uncertainty, privacy and stopping; do not require a bodily sensation or change.
 limitation names any missing evidence, briefly; it may be empty. Do not repeat boilerplate in feedback.`,
         input: [{role: 'user', content: JSON.stringify({context, wordingAnchors: AI_ANCHORS[value.skillId], attemptKind: value.kind, therapistResponse: value.text})}],
         text: {format: {type: 'json_schema', name: 'practice_assessment', strict: true, schema: ASSESSMENT_SCHEMA}}});
@@ -108,19 +113,20 @@ limitation names any missing evidence, briefly; it may be empty. Do not repeat b
   }
   async function speech(input) {
     if (!input || !['client', 'supervisor'].includes(input.role)) throw new PilotError('invalid_speech');
-    let text;
+    let text, voice = AI_SUPERVISOR_VOICE, instructions;
     if (input.role === 'client') {
       if (!['en', 'no'].includes(input.languageId) || !AI_ANCHORS[input.skillId]) throw new PilotError('invalid_speech');
       const context = await contextFor(input); text = spokenStatement(context.statement);
+      voice = AI_CLIENT_VOICES[context.case.id]; if (!voice) throw new PilotError('invalid_speech');
+      instructions = clientSpeechInstructions(context, input.languageId);
     } else {
       const entry = attempts.get(input.attemptId);
       if (!entry || entry.time < now() - 900000) throw new PilotError('assessment_expired', 409);
       const assessment = await entry.promise; text = supervisorFeedbackText(assessment, entry.languageId);
     }
-    const response = await upstream('audio/speech', {model: SPEECH_MODEL, voice: input.role === 'client' ? 'marin' : 'cedar',
-      input: text, response_format: 'mp3', instructions: input.role === 'client'
-        ? 'Speak naturally and quietly in the language of the text, as a client expressing a difficult experience. Do not exaggerate or sound theatrical.'
-        : 'Speak as a calm, concise practice supervisor, in the language of the text. Leave a short pause between the strength and practice adjustment.'});
+    const response = await upstream('audio/speech', {model: SPEECH_MODEL, voice,
+      input: text, response_format: 'mp3', instructions: instructions
+        ?? 'Speak as a calm, concise practice supervisor, in the language of the text. Leave a short pause between the rating, strength and practice adjustment.'});
     return new Uint8Array(await response.arrayBuffer());
   }
   return {status: () => ({protocol: AI_PROTOCOL, mode: live ? 'live' : 'unconfigured',

@@ -4,6 +4,10 @@ import {AI_PROTOCOL, AI_RUBRIC, AI_PROMPT, validateAttemptRequest, validateAsses
 import {createAiService} from '../server/aiPracticeService.js';
 import {createPilotHandler} from '../server/aiPracticeHttp.js';
 import {createAiPracticeApi} from '../src/js/aiPracticeApi.js';
+import {loadPilotCatalog} from '../server/aiPracticeContent.js';
+import {AI_CLIENT_VOICES, AI_SUPERVISOR_VOICE} from '../src/data/aiPracticeVoices.js';
+import {AI_ANCHORS} from '../src/data/aiPracticeRubric.js';
+import {readFile} from 'node:fs/promises';
 
 const request = (overrides = {}) => ({protocol: AI_PROTOCOL, attemptId: '11111111-1111-4111-8111-111111111111', kind: 'first',
   languageId: 'en', skillId: 'empathic-understanding', caseId: 'case-sara', statementId: 'statement-1', revision: 'test-v1',
@@ -11,13 +15,13 @@ const request = (overrides = {}) => ({protocol: AI_PROTOCOL, attemptId: '1111111
 const assessment = (overrides = {}) => ({assessable: true, score: 4, evidence: ['missing him hit you hard'],
   strength: 'You reflected the missing him beneath the workday.', adjustment: 'Leave a little room for Sara to correct what fits.', limitation: 'Delivery was not assessed.', ...overrides});
 const context = {revision: 'test-v1', statement: '[Tearful] I got through work, then cried because I missed him.',
-  skill: {name: 'Empathic understanding'}, case: {name: 'Sara'}, difficulty: 'easy'};
+  skill: {name: 'Empathic understanding'}, case: {id: 'case-sara', name: 'Sara', style: 'Quiet and searching'}, difficulty: 'easy'};
 const providerResponse = result => new Response(JSON.stringify({status: 'completed', output: [{type: 'message', content: [{type: 'output_text', text: JSON.stringify(result)}]}]}));
 const service = (overrides = {}) => createAiService({apiKey: 'test-key-not-real', enabled: true,
   loadContext: async () => context, fetcher: async () => providerResponse(assessment()), ...overrides});
 
 test('pilot rejects unsupported content, malformed IDs, blank and oversized attempts', () => {
-  for (const value of [{skillId: 'self-disclosure'}, {caseId: 'case-nina'}, {languageId: 'fr'}, {kind: 'observer'},
+  for (const value of [{skillId: 'hypnotism'}, {caseId: 'not-a-case'}, {difficulty: 'extreme'}, {languageId: 'fr'}, {kind: 'observer'},
     {attemptId: '-'.repeat(36)}, {text: ' '}, {text: 'x'.repeat(1601)}, {protocol: 'other'}])
     assert.throws(() => validateAttemptRequest(request(value)));
   assert.equal(validateAttemptRequest(request({text: '  Hello Sara  '})).text, 'Hello Sara');
@@ -75,6 +79,44 @@ test('retries of the same attempt are idempotent, concurrent submissions share o
 test('stale content fails before any provider call', async () => {
   let calls = 0; const pilot = service({fetcher: async () => {calls++;}});
   await assert.rejects(pilot.assess(request({revision: 'old'})), /content_changed/); assert.equal(calls, 0);
+});
+test('an item cannot be assessed as belonging to a different case or level', async () => {
+  let calls = 0; const pilot = service({fetcher: async () => {calls++;}});
+  await assert.rejects(pilot.assess(request({caseId: 'case-nina'})), /content_changed/);
+  await assert.rejects(pilot.assess(request({difficulty: 'hard'})), /content_changed/);
+  assert.equal(calls, 0);
+});
+test('all authored skills, case combinations and levels have canonical context and a stable client voice', async () => {
+  const root = new URL('../src/data/runtime/', import.meta.url);
+  const manifest = JSON.parse(await readFile(new URL('manifest.json', root))), catalog = await loadPilotCatalog();
+  assert.equal(manifest.SKILL_ORDER.length, 16);
+  assert.deepEqual(Object.keys(AI_ANCHORS).sort(), [...manifest.SKILL_ORDER].sort());
+  for (const caseId of Object.keys(manifest.cases)) assert.ok(AI_CLIENT_VOICES[caseId]);
+  assert.equal(new Set(Object.values(AI_CLIENT_VOICES)).size, 12);
+  assert.ok(!Object.values(AI_CLIENT_VOICES).includes(AI_SUPERVISOR_VOICE));
+  for (const language of ['en', 'no']) for (const skillId of manifest.SKILL_ORDER) {
+    const data = JSON.parse(await readFile(new URL(`statements/${language}-${skillId}.json`, root)));
+    for (const caseId of manifest.CASE_ORDER[skillId]) for (const item of data[caseId]) {
+      const found = catalog(language, skillId, item.id);
+      assert.equal(found.case.id, caseId); assert.equal(found.statement, item.text); assert.equal(found.revision, item.revision);
+      assert.equal(found.difficulty, item.difficulty ?? manifest.cases[caseId].difficulty);
+      assert.ok(found.feedback && found.skill.practiceFocus && found.case.style);
+    }
+  }
+  assert.equal(catalog('en', 'experiential-focusing', 'dp_empathic-understanding_case-nina_01'), null);
+});
+test('client voice is stable across skills, languages and levels while canonical mood cues guide delivery', async () => {
+  const sent = [], pilot = service({loadContext: async (language, skill, id) => ({...context,
+    case: {...context.case, id: 'case-arne'}, difficulty: id === 'hard-item' ? 'hard' : 'easy',
+    statement: id === 'hard-item' ? '[Angry] I cannot bear this.' : '[Quietly] I miss her.'}),
+  fetcher: async (url, init) => {sent.push(JSON.parse(init.body)); return new Response(new Uint8Array([1, 2, 3]));}});
+  for (const [languageId, skillId, statementId] of [['en', 'empathic-understanding', 'easy-item'],
+    ['no', 'exploratory-questions', 'hard-item']]) await pilot.speech({role: 'client', languageId, skillId,
+    caseId: 'case-arne', statementId, revision: 'test-v1', voice: 'invented', mood: 'cheerful'});
+  assert.equal(sent[0].voice, 'verse'); assert.equal(sent[1].voice, 'verse');
+  assert.equal(sent[0].input, 'I miss her.'); assert.match(sent[0].instructions, /Quietly/);
+  assert.match(sent[1].instructions, /Angry/); assert.match(sent[1].instructions, /Norwegian Bokmål/);
+  assert.ok(!sent[1].instructions.includes('cheerful'));
 });
 test('invalid, refused and incomplete model results do not become ratings', async () => {
   for (const response of [providerResponse(assessment({evidence: ['not in attempt']})),

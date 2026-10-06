@@ -1,4 +1,7 @@
-import {AI_PROTOCOL, AI_SKILLS, AI_CASE, MAX_ATTEMPT_LENGTH, summarizeAiRound, spokenStatement, supervisorFeedbackText} from './aiPracticeProtocol.js';
+import {AI_PROTOCOL, AI_SKILLS, MAX_ATTEMPT_LENGTH, summarizeAiRound, spokenStatement, supervisorFeedbackText} from './aiPracticeProtocol.js';
+import {AI_CLIENT_VOICES, AI_SUPERVISOR_VOICE} from '../data/aiPracticeVoices.js';
+import {SKILL_ORDER} from './practiceData.js';
+import {createLevelChoice, preferredCaseLevel, rememberCaseLevel, levelLabel} from './practiceLevels.js';
 import {createAiPracticeApi} from './aiPracticeApi.js';
 import {createPracticeAudio} from './aiPracticeAudio.js';
 import {AI_COPY} from './aiPracticeCopy.js';
@@ -14,6 +17,9 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
   let draft = '', attemptId = null, attemptText = null, audio = null;
   const copy = () => AI_COPY[language];
   const item = () => round?.items[round.index];
+  const selfAwareness = () => skill?.id === 'therapist-self-awareness';
+  const responseLabel = () => selfAwareness() ? copy().reflection : copy().attempt;
+  const caseLabel = () => caseData.supportedLevels.length > 1 ? `${caseData.label} (${levelLabel(language, round.difficulty)})` : caseData.label;
   const btn = (label, action, primary = false, id) => {
     const button = node('button', label, primary ? 'primary-button' : 'ghost-button'); button.type = 'button';
     if (id) button.id = id; button.addEventListener('click', action); return button;
@@ -45,14 +51,14 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
     body.append(header);
     if (round?.mode === 'demo') body.append(node('p', copy().demo, 'ai-preview-badge'));
     else if (round) body.append(node('p', copy().disclosure, 'ai-disclosure'));
-    if (skill) body.append(node('p', phase === 'preparation' ? skill.name : `${skill.name} · ${caseData.label}`, 'room-case-heading'));
+    if (skill) body.append(node('p', ['cases', 'preparation'].includes(phase) ? skill.name : `${skill.name} · ${caseLabel()}`, 'room-case-heading'));
     const message = node('p', error, 'form-status'); message.id = 'ai-status'; message.setAttribute('role', 'status');
     body.append(message); message.hidden = !error; return body;
   }
   function background(body) {
     const strings = getStrings(language), card = node('section', '', 'case-brief case-brief-screen');
     const identity = node('div', '', 'case-brief-identity');
-    identity.append(node('h3', caseData.label, 'case-title'), node('p', caseData.teaser, 'case-teaser'));
+    identity.append(node('h3', caseLabel(), 'case-title'), node('p', caseData.teaser, 'case-teaser'));
     const voice = node('div', '', 'case-voice-section'); voice.append(node('h4', copy().voice, 'case-section-title'), node('p', caseData.voice));
     const details = node('details', '', 'case-background-details'); details.append(node('summary', copy().background));
     const facts = node('dl', '', 'case-role-list');
@@ -62,24 +68,32 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
     }
     details.append(facts); card.append(identity, voice, details); body.append(card);
   }
-  async function choose(skillId, mode) {
+  async function choose(skillId) {
     cancelPending(); const current = generation; busy = true; error = ''; render();
     try {
       await loadPracticeContent(language, skillId);
       if (current !== generation) return;
-      skill = localizeSkill(language, skillId, 'easy'); caseData = skill.cases.find(c => c.id === AI_CASE);
-      const statements = getPracticeStatements(language, skillId, AI_CASE, 'easy');
-      if (statements.length !== 12 || !caseData) throw new Error('content_changed');
-      round = {protocol: AI_PROTOCOL, roundId: crypto.randomUUID(), languageId: language, skillId, caseId: AI_CASE,
-        mode, index: 0, items: statements.map(statement => ({statement, skipped: false})), selfScore: null};
-      phase = 'preparation'; draft = ''; transcript = false; attemptId = null; theme?.(element, skillId, 'easy');
+      skill = localizeSkill(language, skillId, 'easy'); caseData = null; round = null;
+      phase = 'cases'; draft = ''; transcript = false; attemptId = null; theme?.(element, skillId, 'easy');
     } catch (e) {if (current === generation) fail(e);}
     finally {if (current === generation) {busy = false; render(); focus();}}
+  }
+  function chooseCase(caseId, requestedLevel, mode = status.mode === 'live' ? 'live' : 'demo') {
+    caseData = skill.cases.find(c => c.id === caseId); if (!caseData) return;
+    const difficulty = preferredCaseLevel(caseData, requestedLevel);
+    const statements = getPracticeStatements(language, skill.id, caseId, difficulty);
+    if (statements.length !== 12) {error = copy().errors.content_changed; render(); return;}
+    cancelPending(); rememberCaseLevel(caseData, difficulty);
+    round = {protocol: AI_PROTOCOL, roundId: crypto.randomUUID(), languageId: language, skillId: skill.id, caseId,
+      difficulty, clientVoice: mode === 'live' ? AI_CLIENT_VOICES[caseId] : 'device-preview', mode, index: 0,
+      items: statements.map(statement => ({statement, skipped: false})), selfScore: null};
+    phase = 'preparation'; error = ''; draft = ''; transcript = false; attemptId = null;
+    theme?.(element, skill.id, difficulty); render(); focus(); window.scrollTo({top: 0});
   }
   async function play(role) {
     error = '';
     const currentItem = item(), assessment = currentItem?.[feedbackKind()];
-    const payload = role === 'client' ? {role, languageId: language, skillId: round.skillId,
+    const payload = role === 'client' ? {role, languageId: language, skillId: round.skillId, caseId: round.caseId, difficulty: round.difficulty,
       statementId: currentItem.statement.id, revision: currentItem.statement.revision} : {role, attemptId: assessment.attemptId};
     const text = role === 'client' ? spokenStatement(currentItem.statement.text)
       : supervisorFeedbackText(assessment, language);
@@ -107,7 +121,7 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
     if (draft.trim().length < 2) {error = copy().responseEmpty; render(); focus('#ai-response'); return;}
     audio.stop(); error = ''; const current = ++generation, currentItem = item(), kind = phase === 'retry' ? 'retry' : 'first';
     if (!attemptId || attemptText !== draft.trim()) {attemptId = crypto.randomUUID(); attemptText = draft.trim();}
-    const value = {protocol: AI_PROTOCOL, attemptId, kind, skillId: round.skillId, caseId: AI_CASE,
+    const value = {protocol: AI_PROTOCOL, attemptId, kind, skillId: round.skillId, caseId: round.caseId, difficulty: round.difficulty,
       languageId: language, revision: currentItem.statement.revision, statementId: currentItem.statement.id, text: draft.trim()};
     busy = true; controller = new AbortController(); render();
     try {
@@ -126,9 +140,9 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
   function controls(body) {
     const actions = node('div', '', 'ai-actions');
     if (['attempt', 'retry'].includes(phase)) {
-      const label = node('label', phase === 'retry' ? copy().retry : copy().attempt); label.htmlFor = 'ai-response';
+      const label = node('label', phase === 'retry' ? copy().retry : responseLabel()); label.htmlFor = 'ai-response';
       const input = node('textarea'); input.id = 'ai-response'; input.rows = 4; input.maxLength = MAX_ATTEMPT_LENGTH;
-      input.value = draft; input.placeholder = copy().placeholder; input.disabled = busy || audio.isRecording();
+      input.value = draft; input.placeholder = selfAwareness() ? copy().reflectionPlaceholder : copy().placeholder.replace('{client}', caseData.label.replace(/\s*\([^)]*\)\s*$/, '')); input.disabled = busy || audio.isRecording();
       input.addEventListener('input', () => {draft = input.value;});
       body.append(label, input);
       if (transcript) {const hint = node('p', copy().review, 'response-hint'); hint.id = 'ai-transcript-hint'; body.append(hint); input.setAttribute('aria-describedby', hint.id);}
@@ -176,7 +190,8 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
     const models = status.models ?? {}, details = node('details', '', 'ai-model-details'); details.id = 'ai-details';
     details.append(node('summary', copy().details)); const list = node('dl');
     for (const [label, model] of [[copy().feedbackModel, assessment?.model || assessedModels || models.assessment],
-      [copy().speechModel, models.speech], [copy().transcriptionModel, models.transcription]]) {
+      [copy().speechModel, models.speech], [copy().transcriptionModel, models.transcription],
+      [copy().voice, round?.clientVoice], [copy().supervisorVoice, round ? AI_SUPERVISOR_VOICE : null]]) {
       if (!model) continue;
       const row = node('div'); row.append(node('dt', label), node('dd', model)); list.append(row);
     }
@@ -207,26 +222,41 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
       body.append(node('h3', copy().choose));
       if (busy) body.append(node('p', copy().preparing, 'form-status'));
       const grid = node('div', '', 'grid-list');
-      for (const id of AI_SKILLS) {
-        const localized = localizeSkill(language, id), card = node('div', '', 'ai-skill-card');
-        theme?.(card, id, 'easy'); card.append(node('h4', localized.name), node('p', localized.practiceFocus));
-        if (status.mode === 'live') {const start = btn(copy().start, () => void choose(id, 'live'), true); start.dataset.aiSkill = id; start.disabled = busy; card.append(start);}
-        const preview = btn(copy().preview, () => void choose(id, 'demo'), status.mode !== 'live'); preview.dataset.aiPreview = id; preview.disabled = busy; card.append(preview); grid.append(card);
+      for (const id of SKILL_ORDER.filter(id => AI_SKILLS.includes(id))) {
+        const localized = localizeSkill(language, id), card = btn('', () => void choose(id)); card.className = 'card-button ai-library-card';
+        theme?.(card, id, 'easy'); card.append(node('h3', localized.name), node('p', localized.description));
+        card.dataset.aiSkill = id; card.disabled = busy; grid.append(card);
       }
       if (status.mode !== 'live') body.append(node('p', copy().notReady, 'response-hint'));
       body.append(grid);
       const setup = node('details', '', 'ai-setup'); setup.append(node('summary', copy().setup), node('p', copy().setupText)); body.append(setup);
+    } else if (phase === 'cases') {
+      body.append(btn(copy().back, () => {skill = null; phase = 'choose'; render(); focus();}, false, 'ai-back-skills'), node('h3', copy().chooseCase));
+      const grid = node('div', '', 'grid-list');
+      for (const candidate of skill.cases) {
+        const card = btn('', () => chooseCase(candidate.id)); card.className = 'card-button ai-library-card'; card.dataset.aiCase = candidate.id;
+        theme?.(card, skill.id, candidate.difficulty);
+        card.append(node('h3', candidate.label), node('p', candidate.teaser));
+        if (candidate.supportedLevels.length > 1) {card.classList.add('ai-mixed-case'); card.append(node('span', copy().threeLevels, 'difficulty-pill'));}
+        grid.append(card);
+      }
+      body.append(grid);
     } else if (phase === 'preparation') {
-      body.append(btn(copy().back, () => {round = null; skill = null; phase = 'choose'; render(); focus();}));
+      body.append(btn(copy().backCases, () => {round = null; caseData = null; phase = 'cases'; render(); focus();}, false, 'ai-back-cases'));
+      const levelChoice = createLevelChoice({caseData, value: round.difficulty, language, onChange: level => chooseCase(caseData.id, level, round.mode)});
+      if (levelChoice) body.append(levelChoice);
       background(body); body.append(node('h3', copy().focus), node('p', skill.practiceFocus));
+      if (selfAwareness()) body.append(node('p', copy().reflectionNote, 'response-hint'));
       if (round.mode === 'live') body.append(node('p', copy().liveNote, 'response-hint'), node('p', copy().privacy, 'response-hint'));
       const actions = node('div', '', 'ai-actions'); actions.append(btn(copy().begin, () => {
         phase = 'attempt'; render(); focus();
-      }, true, 'ai-begin')); body.append(actions);
+      }, true, 'ai-begin'));
+      if (round.mode === 'live') actions.append(btn(copy().preview, () => {round.mode = 'demo'; round.clientVoice = 'device-preview'; phase = 'attempt'; render(); focus();}, false, 'ai-preview'));
+      body.append(actions);
     } else if (phase === 'complete') renderSummary(body);
     else {
       const currentItem = item(), counter = node('p', `${round.index + 1} / ${round.items.length}`, 'ai-counter'); body.append(counter);
-      const client = node('section', '', 'ai-client-card'); client.append(node('h3', copy().client), node('blockquote', currentItem.statement.text));
+      const client = node('section', '', 'ai-client-card'); client.append(node('h3', caseData.label.replace(/\s*\([^)]*\)\s*$/, '')), node('blockquote', currentItem.statement.text));
       const audioRow = node('div', '', 'ai-audio-actions');
       const playClient = btn(copy().play, () => void play('client'), false, 'ai-play-client'); playClient.disabled = busy || audio.isRecording();
       const stop = btn(copy().stop, () => audio.stop(), false, 'ai-stop-audio'); stop.hidden = !audio.isPlaying(); audioRow.append(playClient, stop);
@@ -234,7 +264,7 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
       client.append(audioRow, audioState); body.append(client);
       if (phase.includes('feedback')) {
         const assessment = currentItem[feedbackKind()], feedback = node('section', '', 'ai-supervisor-card');
-        const response = node('details', '', 'ai-attempt-reference'); response.append(node('summary', copy().attempt), node('p', assessment.text)); body.append(response);
+        const response = node('details', '', 'ai-attempt-reference'); response.append(node('summary', responseLabel()), node('p', assessment.text)); body.append(response);
         feedback.append(node('h3', copy().supervisor));
         renderRating(feedback, assessment, currentItem);
         for (const [label, text] of [[copy().strength, assessment.result.strength], [copy().adjustment, assessment.result.adjustment]]) {

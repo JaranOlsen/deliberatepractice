@@ -2562,8 +2562,11 @@ body .account-controls .header-pill {
 .ai-body .form-status { padding: .75rem; border-radius: .75rem; background: #fff4e5; }
 .ai-preview-badge { padding: .65rem .8rem; border-radius: .75rem; background: #fff4e5; color: #755820; font-size: .85rem; }
 .ai-disclosure { color: var(--color-muted); font-size: .85rem; }
-.ai-skill-card { display: grid; gap: .85rem; padding: 1.15rem; border: 1px solid var(--card-accent, #315f5b); border-radius: 1rem; background: #fff; }
-.ai-skill-card p { line-height: 1.5; }
+.ai-body .grid-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.ai-library-card { display: grid; gap: .65rem; text-align: left; align-content: start; min-width: 0; }
+.ai-library-card h3 { font-size: 1.05rem; color: var(--card-accent-strong); }
+.ai-library-card p { color: var(--color-muted); font-weight: 400; font-size: .9rem; line-height: 1.5; }
+.ai-mixed-case { background: linear-gradient(135deg, #fff 20%, var(--card-accent-faint) 60%, var(--card-accent-soft)); }
 .ai-client-card, .ai-supervisor-card { display: grid; gap: .85rem; padding: 1.15rem; border-radius: 1rem; min-width: 0; }
 .ai-client-card { border: 1px solid #e0e4e6; border-left: 4px solid var(--card-accent, #315f5b); background: #fff; }
 .ai-client-card blockquote { font-size: 1.2rem; line-height: 1.55; overflow-wrap: anywhere; }
@@ -2602,6 +2605,7 @@ body .account-controls .header-pill {
 .ai-score-bar { height: .4rem; border-radius: 1rem; background: #d9e5e2; overflow: hidden; }
 .ai-score-bar span { display: block; height: 100%; background: #315f5b; border-radius: inherit; }
 @media (max-width: 480px) {
+  .ai-body .grid-list { grid-template-columns: 1fr; }
   .ai-practice { padding: 1rem; }
   .ai-client-card, .ai-supervisor-card { padding: 1rem; }
   .ai-client-card blockquote { font-size: 1.1rem; }
