@@ -31,7 +31,19 @@ export function createAiService({apiKey, enabled = false, model = 'gpt-6.1-sol',
         headers: {Authorization: `Bearer ${apiKey}`, ...(json ? {'Content-Type': 'application/json'} : {})},
         body: json ? JSON.stringify(body) : body, signal: AbortSignal.timeout(60000)});
     } catch { throw new PilotError('connection_failed', 502); }
-    if (!response.ok) throw new PilotError(response.status === 429 ? 'provider_limit' : 'provider_failed', 502);
+    if (!response.ok) {
+      let code; try {code = (await response.json())?.error?.code;} catch {}
+      if (response.status === 401) throw new PilotError('provider_authentication', 502);
+      if (response.status === 403) throw new PilotError('provider_access', 502);
+      if (response.status === 404) throw new PilotError('provider_model_unavailable', 502);
+      if (response.status === 429) {
+        const billing = ['insufficient_quota', 'credit_balance_exhausted', 'organization_spend_limit_exceeded',
+          'project_spend_limit_exceeded', 'organization_usage_limit_exceeded'];
+        throw new PilotError(billing.includes(code) ? 'provider_billing' : 'provider_limit', 502);
+      }
+      if (response.status === 400) throw new PilotError('provider_request_invalid', 502);
+      throw new PilotError('provider_failed', 502);
+    }
     return response;
   }
   async function contextFor(value) {
@@ -73,7 +85,8 @@ limitation names any missing evidence, briefly; it may be empty. Do not repeat b
       let result;
       try { result = validateAssessment(JSON.parse(output), value.text); } catch { throw new PilotError('assessment_unavailable', 502); }
       return {protocol: AI_PROTOCOL, source: 'ai', attemptId: value.attemptId, kind: value.kind, result,
-        model, rubric: AI_RUBRIC, promptVersion: AI_PROMPT, contentRevision: context.revision, createdAt: new Date(now()).toISOString()};
+        model: typeof data.model === 'string' ? data.model : model, rubric: AI_RUBRIC, promptVersion: AI_PROMPT,
+        contentRevision: context.revision, createdAt: new Date(now()).toISOString()};
     })();
     attempts.set(value.attemptId, {signature, promise, time: now()});
     try { return await promise; } catch (error) { attempts.delete(value.attemptId); throw error; }

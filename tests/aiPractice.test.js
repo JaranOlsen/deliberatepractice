@@ -70,6 +70,15 @@ test('transient failure can retry without a cached error or exposing provider de
   let calls = 0; const pilot = service({fetcher: async () => ++calls === 1 ? new Response('private provider body', {status: 500}) : providerResponse(assessment())});
   await assert.rejects(pilot.assess(request()), /^Error: provider_failed$/); assert.equal((await pilot.assess(request())).result.score, 4);
 });
+test('provider setup errors are actionable without leaking provider messages or keys', async () => {
+  for (const [status, code, expected] of [[401, 'invalid_api_key', 'provider_authentication'],
+    [403, 'forbidden', 'provider_access'], [404, 'model_not_found', 'provider_model_unavailable'],
+    [400, 'invalid_request', 'provider_request_invalid'], [429, 'credit_balance_exhausted', 'provider_billing'],
+    [429, 'project_spend_limit_exceeded', 'provider_billing'], [429, 'rate_limit_exceeded', 'provider_limit']]) {
+    const pilot = service({fetcher: async () => new Response(JSON.stringify({error: {code, message: 'Never return this private provider message'}}), {status})});
+    await assert.rejects(pilot.assess(request()), error => error.code === expected && !error.message.includes('private'));
+  }
+});
 test('usage budget stops further paid calls and becomes available after the window', async () => {
   let time = 100000, calls = 0; const pilot = service({maxCalls: 1, now: () => time, fetcher: async () => {calls++; return providerResponse(assessment());}});
   await pilot.assess(request()); await assert.rejects(pilot.assess(request({attemptId: '22222222-2222-4222-8222-222222222222'})), /usage_limit/);

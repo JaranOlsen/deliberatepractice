@@ -30,7 +30,19 @@ npm run ai:server
 
 The Node 24 server binds to `127.0.0.1:5555`. Vite proxies `/api/ai-practice` to it. The server permits only the configured localhost origins, validates incoming material against the canonical catalog, bounds recordings and enforces a shared hourly call limit. If Vite uses a different port, update `AI_PRACTICE_ORIGINS` and restart the server. Changing the server port also requires updating the Vite proxy target.
 
-The default supervisor is GPT-6.1 Sol using low reasoning effort and structured output. Recorded speech uses `gpt-transcribe`. Client speech uses Marin, and supervisor speech uses Cedar through `gpt-4o-mini-tts`. These API paths are implemented and tested with mocked provider responses; actual account availability, voice quality, latency and model feedback have not yet been tested. [GPT-6.1 Sol](https://developers.openai.com/api/docs/models/gpt-6.1-sol), [file transcription](https://developers.openai.com/api/docs/guides/speech-to-text), [text to speech](https://developers.openai.com/api/docs/guides/text-to-speech)
+The default supervisor is GPT-6.1 Sol using low reasoning effort and structured output. Recorded speech uses `gpt-transcribe`. Client speech uses Marin, and supervisor speech uses Cedar through `gpt-4o-mini-tts`. The live API paths and a real typed response through the app were verified on 6 October 2026; voice quality, physical-device microphone behavior and scoring calibration still need human testing. [GPT-6.1 Sol](https://developers.openai.com/api/docs/models/gpt-6.1-sol), [file transcription](https://developers.openai.com/api/docs/guides/speech-to-text), [text to speech](https://developers.openai.com/api/docs/guides/text-to-speech)
+
+With the live server running, check the integration using:
+
+```sh
+npm run ai:check:live -- --live
+```
+
+This makes at most five provider requests: English/Norwegian assessment, client/supervisor speech and transcription. It stops at the first failure, records only synthetic case responses, and saves a report and two audio clips under the ignored `output/playwright/ai-live/` folder. It is excluded from ordinary tests and requires the explicit `--live` flag. Request attempts are counted, not billed charges. Key, access, model and billing errors return fixed error codes; provider error messages and credentials are never exposed.
+
+If the API reports a billing/quota error, check available credits and organization/project limits before retrying. Repeated retries cannot resolve a billing rejection. [OpenAI error guidance](https://developers.openai.com/api/docs/guides/error-codes#api-errors)
+
+The first funded live check passed all five requests. Assessment took 7.02 seconds in English and 13.60 seconds in Norwegian; speech generation took 1.92/2.48 seconds, and transcription took 1.45 seconds. Both assessment scores were 4 with valid quotations from the attempts, and the transcription matched the authored client line. These are single samples, not latency benchmarks or evidence of rating validity. A subsequent actual app response also reached supervisor feedback successfully. The key was verified absent from the browser build. Audio clips, the API report and the UI screenshot are kept only in the ignored local output folder.
 
 The local service is a development adapter, not a hosted production API. Hosted access would need authenticated users, per-user authorization and durable spending limits. This branch does not provision Supabase Edge Functions, alter the live database or expose an API key in a public client.
 

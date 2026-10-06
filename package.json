@@ -8,6 +8,7 @@
     "dev": "vite --host 0.0.0.0",
     "ai:server": "node --env-file-if-exists=.env.ai.local scripts/ai-practice-server.mjs",
     "ai:evaluate": "node --env-file-if-exists=.env.ai.local scripts/evaluate-ai-practice.mjs",
+    "ai:check:live": "node scripts/check-ai-practice-live.mjs",
     "build": "vite build",
     "preview": "vite preview",
     "test": "npm run validate:content && node --test tests/*.test.js && npm run test:rooms:db",
