@@ -1,6 +1,6 @@
 # Therapist speech feedback investigation
 
-Date: 6 October 2026. Branch: `codex/ai-practice-pilot`. No production or database changes.
+Date: 6 October 2026. Initial research on `codex/ai-practice-pilot`, followed by an admin-only production implementation.
 
 ## Current behavior and feasible API route
 
@@ -31,15 +31,17 @@ The reviewer suggested adding pauses in both samples. Its characterization of th
 
 Reports, synthetic audio and raw provider responses remain in the Git-ignored `output/playwright/ai-delivery-research/` directory, with owner-only file permissions. The application does not invoke this research script.
 
-## Recommended next implementation
+## Implemented admin pilot
 
-Keep the existing wording score separate. Add an explicitly experimental **Delivery** note for spoken attempts, initially with no delivery score:
+The app now keeps the existing wording score separate and offers an explicitly experimental **Delivery** note for spoken attempts, with no delivery score:
 
 1. Keep the recording available for replay while the attempt is open. Let the user choose audio review, with the destination and purpose explained before sending it.
 2. Convert browser WebM/MP4 recordings to a supported audio format, for example decoded mono PCM in a WAV container. Bound duration and size, handle permission denial, and clear local recordings on cancellation/end.
-3. Ground observations in measurable duration, speaking rate and pauses where reliably extractable. Treat these as descriptions, not a universal ideal speed. Transcript errors and silence detection must be accounted for.
+3. Ground observations in duration derived from the actual WAV bytes and approximate speaking rate derived from the corrected transcript. This estimate includes silence. Exact pause timing is not measured; the prompt must not invent it or prescribe a universal ideal speed.
 4. Ask an audio reviewer for brief observations with uncertainty and abstention on poor audio. Give it the current client statement and skill, without treating the recorded words as instructions.
-5. Let the wording supervisor combine those observations and metrics into one concrete delivery suggestion while retaining separate wording evidence and score. Preserve first-attempt/retry comparisons and model identifiers.
+5. Include the optional strength/adjustment in spoken supervisor feedback while retaining separate wording evidence and score. Preserve first-attempt/retry comparisons and model identifiers.
+
+Access is verified on the client and every server request. Hosted request budgets and a short-lived feedback cache survive function process changes; recordings are never cached. See [the operational guide](ai-practice-pilot.md). The earlier tempo findings remain relevant: quantitative grounding improves the prompt but is not evidence that subjective audio coaching is reliable. A subsequent application check passed seven live operations, including wording assessment, direct audio, both generated voices and transcription. With 7.1-second/136-word-per-minute and 2.6-second/375-word-per-minute samples supplied as measured context, the reviewer described the first as measured and the second as quick, recommending more space in the latter. This is an improvement on the ungrounded test, based on only two synthetic clips.
 
 A single therapist clip cannot establish response latency, interruption behavior or whether the client felt understood. Those require client audio/timing context and, for the client’s experience, direct feedback. “Authenticity” should not be a scored internal trait: the system can describe observable delivery or its possible listener effect without claiming the therapist’s feelings are genuine.
 

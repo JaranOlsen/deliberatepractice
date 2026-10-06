@@ -6,9 +6,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "ai:server": "node --env-file-if-exists=.env.ai.local scripts/ai-practice-server.mjs",
+    "ai:server": "node --env-file-if-exists=.env.local --env-file-if-exists=.env.ai.local scripts/ai-practice-server.mjs",
+    "ai:build:edge": "node scripts/build-ai-edge.mjs",
     "ai:evaluate": "node --env-file-if-exists=.env.ai.local scripts/evaluate-ai-practice.mjs",
-    "ai:check:live": "node scripts/check-ai-practice-live.mjs",
+    "ai:check:live": "node --env-file-if-exists=.env.local scripts/check-ai-practice-live.mjs",
+    "ai:check:admin": "node --env-file-if-exists=.env.local scripts/check-ai-admin-live.mjs",
     "ai:research:delivery": "node --env-file-if-exists=.env.ai.local scripts/check-ai-delivery-research.mjs",
     "build": "vite build",
     "preview": "vite preview",

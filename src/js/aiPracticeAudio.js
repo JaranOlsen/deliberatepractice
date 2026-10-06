@@ -1,12 +1,12 @@
 // One owner for audio and the microphone; leaving a screen always releases both.
 export function createPracticeAudio({api, changed = () => {}, failed = () => {}}) {
   let generation = 0, audio = null, objectUrl = null, controller = null;
-  let recorder = null, stream = null, timer = null, recordingDone = null, playing = false, loading = false;
+  let recorder = null, stream = null, timer = null, recordingDone = null, playing = false, loading = false, recordingPlayback = false;
   function stop() {
     generation++; controller?.abort(); controller = null;
     audio?.pause(); audio = null;
     if (objectUrl) URL.revokeObjectURL(objectUrl); objectUrl = null;
-    window.speechSynthesis?.cancel(); playing = false; loading = false;
+    window.speechSynthesis?.cancel(); playing = false; loading = false; recordingPlayback = false;
     clearTimeout(timer); timer = null;
     const active = recorder; recorder = null;
     if (active?.state === 'recording') active.stop();
@@ -60,8 +60,16 @@ export function createPracticeAudio({api, changed = () => {}, failed = () => {}}
     };
     current.start(500); timer = setTimeout(finishRecording, 90000); changed(); return result;
   }
+  async function playRecording(blob) {
+    stop();const id=generation;
+    objectUrl=URL.createObjectURL(blob);audio=new Audio(objectUrl);
+    audio.onended=()=>{if(id===generation)stop();};
+    audio.onerror=()=>{if(id===generation){stop();failed(new Error('audio_unavailable'));}};
+    try{await audio.play();if(id===generation){playing=true;recordingPlayback=true;changed();}}catch(error){if(id===generation)stop();throw error;}
+  }
   function finishRecording() {if (recorder?.state === 'recording') recorder.stop();}
   document.addEventListener('visibilitychange', () => {if (document.hidden) stop();});
   window.addEventListener('pagehide', stop);
-  return {play, record, finishRecording, stop, isRecording: () => recorder?.state === 'recording', isPlaying: () => playing, isLoading: () => loading};
+  return {play, playRecording, record, finishRecording, stop, isRecording: () => recorder?.state === 'recording', isPlaying: () => playing,
+    isRecordingPlaying:()=>recordingPlayback, isLoading: () => loading};
 }

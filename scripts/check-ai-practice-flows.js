@@ -1,10 +1,22 @@
 // Run with the Playwright CLI against localhost. All model calls are mocked.
 async page => {
   const url = page.url(); if (!['localhost', '127.0.0.1'].includes(new URL(url).hostname)) throw new Error('Local pilot only');
+
+  async function adminFixture(context) {
+    await context.addInitScript(() => {
+      const id='11111111-1111-4111-8111-111111111111',expires=Math.floor(Date.now()/1000)+3600;
+      const token=btoa(JSON.stringify({alg:'HS256',typ:'JWT'}))+'.'+btoa(JSON.stringify({sub:id,exp:expires,role:'authenticated'}))+'.fixture';
+      localStorage.setItem('sb-kpzmjnwwbxweevloiqiy-auth-token',JSON.stringify({access_token:token,refresh_token:'isolated-fixture-only',token_type:'bearer',expires_at:expires,expires_in:3600,user:{id,email:'fixture@example.invalid'}}));
+    });
+    await context.route('https://*.supabase.co/**',route=>{
+      const action=new URL(route.request().url()).pathname.split('/').at(-1),id='11111111-1111-4111-8111-111111111111';
+      return route.fulfill({json:action==='get_ai_access'?true:action==='ensure_user_profile'?[{id,display_name:'Fixture'}]:action==='list_practice_targets'?[{target_user_id:id,display_name:'Fixture',target_kind:'self'}]:action==='user'?{id,email:'fixture@example.invalid'}:[]});
+    });
+  }
   const contexts = [], checks = [], errors = []; let externalCalls = 0;
   const assert = (condition, message) => {if (!condition) throw new Error(message);};
   async function contextFor(language, width, live) {
-    const context = await page.context().browser().newContext({viewport: {width, height: 844}}); contexts.push(context);
+    const context = await page.context().browser().newContext({viewport: {width, height: 844}}); contexts.push(context); await adminFixture(context);
     await context.addInitScript(language => {
       localStorage.setItem('dp_app_tour_v1', JSON.stringify({disabled: true}));
       localStorage.setItem('dp_practice_preferences_v1', JSON.stringify({languageId: language, practiceMode: 'individual', groupUiVersion: 2}));

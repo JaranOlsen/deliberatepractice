@@ -2,6 +2,7 @@ import {mkdir, writeFile} from 'node:fs/promises';
 import {performance} from 'node:perf_hooks';
 import {AI_PROTOCOL, validateAssessment} from '../src/js/aiPracticeProtocol.js';
 import {loadPilotCatalog} from '../server/aiPracticeContent.js';
+import {aiTestAccount} from './ai-test-account.mjs';
 
 // Deliberately excluded from npm test. An explicit flag enables bounded paid requests.
 if (!process.argv.includes('--live')) {
@@ -9,10 +10,12 @@ if (!process.argv.includes('--live')) {
 }
 const base = process.env.AI_PRACTICE_SMOKE_BASE || 'http://127.0.0.1:5555/api/ai-practice';
 const address = new URL(base);
-if (address.protocol !== 'http:' || !['localhost', '127.0.0.1'].includes(address.hostname)) throw new Error('Local pilot server only');
+const hosted=address.origin==='https://kpzmjnwwbxweevloiqiy.supabase.co'&&address.pathname==='/functions/v1/ai-practice';
+if (!hosted && (address.protocol !== 'http:' || !['localhost', '127.0.0.1'].includes(address.hostname))) throw new Error('Known AI service only');
 const origin = process.env.AI_PRACTICE_SMOKE_ORIGIN || 'http://127.0.0.1:5173';
+const identity=await aiTestAccount();
 async function call(action, body) {
-  const response = await fetch(`${base}/${action}`, {method: body ? 'POST' : 'GET', headers: {Origin: origin,
+  const response = await fetch(`${base}/${action}`, {method: body ? 'POST' : 'GET', headers: {Origin: origin,Authorization:`Bearer ${identity.token}`,apikey:identity.publicKey,
     ...(body && !(body instanceof FormData) ? {'Content-Type': 'application/json'} : {})},
     body: body ? body instanceof FormData ? body : JSON.stringify(body) : undefined, signal: AbortSignal.timeout(65000)});
   if (!response.ok) {
@@ -63,7 +66,7 @@ try {
   let clientAudio;
   for (const role of ['client', 'supervisor']) {
     const {value, result} = results[0], payload = role === 'client' ? {role, languageId: value.languageId, skillId: value.skillId,
-      statementId: value.statementId, revision: value.revision} : {role, attemptId: result.attemptId};
+      caseId:value.caseId,difficulty:value.difficulty,statementId: value.statementId, revision: value.revision} : {role, attemptId: result.attemptId};
     const started = performance.now(); requestsAttempted++;
     const blob = await (await call('speech', payload)).blob();
     if (blob.size < 100 || !blob.type.includes('audio/')) throw new Error(`${role}: invalid speech audio`);

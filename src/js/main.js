@@ -31,6 +31,8 @@ import {
   isAccessExpired,
   logAccessCodeAttempt,
   getAuthSession,
+  getAiAccess,
+  aiApiOptions,
   onAuthStateChange,
   signInWithMagicLink,
   signOut,
@@ -177,7 +179,7 @@ function renderGroupEntry() {
   document.getElementById('home-library').textContent = strings.homeLibrary;
   document.getElementById('home-library').className = group ? 'ghost-button' : 'primary-button';
   const aiEntry = document.getElementById('home-ai-practice');
-  aiEntry.hidden = !aiPilotEnabled || group || state.sessionActive;
+  aiEntry.hidden = !aiPilotEnabled || !state.aiAdmin || group || state.sessionActive;
   aiEntry.textContent = no ? aiPractice.hasRound() ? 'Fortsett KI-øving' : 'Øv med KI · pilot'
     : aiPractice.hasRound() ? 'Resume AI practice' : 'AI guided practice · pilot';
   const languageButton = document.getElementById('home-language');
@@ -437,6 +439,7 @@ const state = {
   authConfigured: false,
   authResolving: true,
   authSession: null,
+  aiAdmin: false,
   authUser: null,
   authProfile: null,
   authTargets: [],
@@ -472,13 +475,13 @@ const mastery = createMasteryPractice({
   theme: (element,skillId,difficulty) => applyVisualProperties(element,getCaseVisual(skillId,difficulty))
 });
 sections.mastery=mastery.element;document.querySelector('main').append(mastery.element);
-// Disabled in release builds unless deliberately enabled for a private preview.
-const aiPilotEnabled = import.meta.env.VITE_AI_PRACTICE_ENABLED === 'true'
-  || (import.meta.env.DEV && import.meta.env.VITE_AI_PRACTICE_ENABLED !== 'false');
+// Visibility follows a server permission; paid endpoints enforce it independently.
+const aiPilotEnabled = import.meta.env.VITE_AI_PRACTICE_ENABLED !== 'false';
 const aiPractice = aiPilotEnabled ? createAiPractice({getLanguage: () => state.languageId ?? 'en', localizeSkill, getStrings: getUIStrings,
+  apiOptions:aiApiOptions(),
   show: () => showSection('ai'), home: () => showSection('home'), requestHome: actions => practiceExit.open(actions),
   theme: (element, skillId, difficulty) => applyVisualProperties(element, getCaseVisual(skillId, difficulty))})
-  : {hasRound: () => false, stopAudio() {}};
+  : {hasRound: () => false, stopAudio() {}, reset() {}};
 if (aiPilotEnabled) {sections.ai = aiPractice.element;document.querySelector('main').append(aiPractice.element);}
 function paintExerciseChoice(available, catalog = EXERCISE_CATALOG) {
  const no=state.languageId==='no',selected=exerciseType==='mastery' && available;
@@ -860,7 +863,7 @@ function saveAccessLevel(level, expiresAt = null) {
 }
 
 function hasProAccess() {
-  return (state.accessLevel === "pro" || state.accessLevel === "all") && !isAccessExpired(state.accessExpiresAt);
+  return state.aiAdmin || ((state.accessLevel === "pro" || state.accessLevel === "all") && !isAccessExpired(state.accessExpiresAt));
 }
 
 function readJsonStorage(key) {
@@ -1274,6 +1277,7 @@ function getSignedInLabel() {
 
 function formatAccessStatus() {
   const strings = getUIStrings();
+  if(state.aiAdmin)return state.languageId==='no'?'Administratortilgang':'Admin access';
   if (!hasProAccess()) {
     return strings.accessStatusFree ?? "Free access";
   }
@@ -1810,6 +1814,7 @@ function renderAuthUI() {
   }
   renderProfilePlacement();
   renderPracticeFormatUI();
+  renderGroupEntry();
   renderSelfRatingsChart();
   updateRatingPanel();
 
@@ -1829,12 +1834,16 @@ async function refreshPracticeTargets() {
   state.authTargets = targets.map(normalizePracticeTarget).filter(Boolean);
 }
 
+let authApplyGeneration=0;
 async function applyAuthSession(session) {
+  const current=++authApplyGeneration;
+  const wasAiAdmin = state.aiAdmin;
   state.authResolving = true;
   const userChanged = state.authUser?.id !== session?.user?.id;
   // INITIAL_SESSION and token refresh can repeat the current user while a
   // progress request is running. Only an account change invalidates that data.
   if (userChanged) {
+    aiPractice.reset();
     progressRequestId += 1;
     state.progressSource = "self";
     state.progressDifficulty = "all";
@@ -1846,6 +1855,7 @@ async function applyAuthSession(session) {
     state.progressRatingsError = "";
   }
   state.authSession = session ?? null;
+  state.aiAdmin = false;
   state.authUser = session?.user ?? null;
   state.authProfile = null;
   state.authTargets = [];
@@ -1858,11 +1868,15 @@ async function applyAuthSession(session) {
 
   renderAuthUI();
   try {
-    state.authProfile = await ensureUserProfile(null);
-    await refreshPracticeTargets();
+    const [profile,targets,admin]=await Promise.all([ensureUserProfile(null),listPracticeTargets(),getAiAccess()]);
+    if(current!==authApplyGeneration)return;
+    if (wasAiAdmin && !admin) aiPractice.reset();
+    state.authProfile=profile;state.authTargets=targets.map(normalizePracticeTarget).filter(Boolean);state.aiAdmin=admin;
     state.authResolving = false;
     renderAuthUI();
+    renderGroupEntry();updateLockedBanner();
   } catch (err) {
+    if(current!==authApplyGeneration)return;
     state.authResolving = false;
     setAuthStatus(err?.message ?? "Unable to load account.");
     renderAuthUI();
@@ -1932,6 +1946,7 @@ async function handleSignOut() {
   const strings = getUIStrings();
   try {
     await signOut();
+    authApplyGeneration++;state.aiAdmin=false;aiPractice.reset();
     progressRequestId += 1;
     state.progressRatingsLoading = false;
     state.authSession = null;
@@ -4062,7 +4077,7 @@ function registerEventListeners() {
   });
   document.getElementById('home-progress').addEventListener('click', showProgressPanel);
   document.getElementById('home-ai-practice').addEventListener('click', () => {
-    if (aiPilotEnabled && state.practiceMode === PRACTICE_MODES.INDIVIDUAL) void aiPractice.open();
+    if (aiPilotEnabled && state.aiAdmin && state.practiceMode === PRACTICE_MODES.INDIVIDUAL) void aiPractice.open();
   });
   document.getElementById('shared-pair').addEventListener('change', event => {
     if (state.sessionActive) return;

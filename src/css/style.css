@@ -2562,6 +2562,14 @@ body .account-controls .header-pill {
 .ai-body .form-status { padding: .75rem; border-radius: .75rem; background: #fff4e5; }
 .ai-preview-badge { padding: .65rem .8rem; border-radius: .75rem; background: #fff4e5; color: #755820; font-size: .85rem; }
 .ai-disclosure { color: var(--color-muted); font-size: .85rem; }
+.ai-recording-actions { display: flex; flex-wrap: wrap; gap: .6rem; }
+.ai-recording-actions button { flex: 1 1 10rem; }
+.ai-delivery-card { display: grid; gap: .6rem; border-top: 1px solid var(--color-border, #d4dddd); padding-top: 1rem; margin-top: .35rem; }
+.ai-delivery-heading { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; }
+.ai-delivery-badge { font-size: .75rem; border-radius: 1rem; padding: .2rem .55rem; background: #fff4e5; color: #755820; }
+.ai-delivery-card h5 { margin: .35rem 0 0; font-size: .85rem; color: var(--color-muted); }
+.ai-delivery-card > p { margin: 0; }
+.ai-delivery-card summary { min-height: 44px; padding-block: .75rem; cursor: pointer; }
 .ai-body .grid-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .ai-library-card { display: grid; gap: .65rem; text-align: left; align-content: start; min-width: 0; }
 .ai-library-card h3 { font-size: 1.05rem; color: var(--card-accent-strong); }

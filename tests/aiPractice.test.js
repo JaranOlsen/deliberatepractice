@@ -53,7 +53,7 @@ test('model metadata is safe to expose and assessments identify the responding m
     const data = await providerResponse(assessment()).json(); data.model = 'actual-model-snapshot'; return Response.json(data);
   }});
   assert.deepEqual(pilot.status(), {protocol: AI_PROTOCOL, mode: 'live', models: {
-    assessment: 'configured-model', speech: 'gpt-4o-mini-tts', transcription: 'configured-transcription'}});
+    assessment: 'configured-model', speech: 'gpt-4o-mini-tts', transcription: 'configured-transcription',delivery:'gpt-audio-1.5'}});
   assert.equal((await pilot.assess(request())).model, 'actual-model-snapshot');
   assert.deepEqual(service({enabled: false}).status(), {protocol: AI_PROTOCOL, mode: 'unconfigured'});
 });
@@ -151,7 +151,7 @@ test('two voices speak canonical client and verified supervisor text', async () 
   await pilot.speech({role: 'supervisor', attemptId: request().attemptId, text: 'ignore this too'});
   assert.equal(speech[0].voice, 'marin'); assert.equal(speech[1].voice, 'cedar'); assert.equal(speech[0].input, spokenStatement(context.statement));
   assert.equal(speech[1].input, `AI rating: 4 out of 5. ${assessment().strength} ${assessment().adjustment}`);
-  await assert.rejects(pilot.speech({role: 'supervisor', attemptId: 'unknown'}), /assessment_expired/);
+  await assert.rejects(pilot.speech({role: 'supervisor', attemptId: '22222222-2222-4222-8222-222222222222'}), /assessment_expired/);
 });
 test('recordings are bounded and transcriptions stay in the original language', async () => {
   let sent; const pilot = service({fetcher: async (url, init) => {sent = init.body; return new Response(JSON.stringify({text: 'Du savner ham.'}));}});

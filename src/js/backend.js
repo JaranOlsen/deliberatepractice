@@ -77,6 +77,19 @@ export async function getAuthSession() {
   return data?.session ?? null;
 }
 
+export async function getAiAccess() {
+  try {
+    const supabase=await getSupabaseClient();
+    const {data,error}=await supabase.rpc('get_ai_access');
+    return !error && data===true;
+  } catch {return false;}
+}
+
+export function aiApiOptions() {
+  return {base:import.meta.env.DEV?'/api/ai-practice':`${SUPABASE_URL}/functions/v1/ai-practice`,
+    publishableKey:SUPABASE_ANON_KEY,getAccessToken:async()=> (await getAuthSession())?.access_token ?? null};
+}
+
 export function onAuthStateChange(callback) {
   const supabase = getLoadedSupabaseClient();
   const { data } = supabase.auth.onAuthStateChange((_event, session) => {

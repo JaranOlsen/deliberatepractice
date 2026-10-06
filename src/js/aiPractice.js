@@ -7,14 +7,16 @@ import {createPracticeAudio} from './aiPracticeAudio.js';
 import {AI_COPY} from './aiPracticeCopy.js';
 import {loadPracticeContent, getPracticeStatements} from './practiceContent.js';
 import {createSkillFeedback} from './skillFeedbackUI.js';
+import {preparePracticeWav} from './aiPracticeDelivery.js';
 
 const node = (tag, text = '', className = '') => {const el = document.createElement(tag); el.textContent = text; el.className = className; return el;};
-export function createAiPractice({getLanguage, localizeSkill, getStrings, show, home, requestHome, theme}) {
+export function createAiPractice({getLanguage, localizeSkill, getStrings, show, home, requestHome, theme, apiOptions = {}}) {
   const element = node('section', '', 'panel ai-practice is-hidden'); element.id = 'ai-practice'; element.hidden = true;
-  const api = createAiPracticeApi();
+  const api = createAiPracticeApi(apiOptions);
   let status = {mode: 'unconfigured'}, round = null, language = 'en', skill = null, caseData = null;
   let phase = 'choose', busy = false, generation = 0, controller = null, error = '', transcript = false;
   let draft = '', attemptId = null, attemptText = null, audio = null;
+  let recorded = null;
   const copy = () => AI_COPY[language];
   const item = () => round?.items[round.index];
   const selfAwareness = () => skill?.id === 'therapist-self-awareness';
@@ -31,12 +33,13 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
     if (record) {record.textContent = audio?.isRecording() ? copy().done : copy().speak; record.setAttribute('aria-pressed', String(!!audio?.isRecording()));}
     const cancel = element.querySelector('#ai-cancel-recording'); if (cancel) cancel.hidden = !audio?.isRecording();
     const recording = element.querySelector('#ai-recording-state'); if (recording) recording.textContent = audio?.isRecording() ? copy().recording : '';
-    for (const id of ['ai-response', 'ai-send', 'ai-pass', 'ai-play-client']) {
+    const replay=element.querySelector('#ai-play-recording');if(replay)replay.textContent=audio?.isRecordingPlaying()?copy().stop:copy().replay;
+    for (const id of ['ai-response', 'ai-send', 'ai-pass', 'ai-play-client','ai-play-recording','ai-review-delivery','ai-retry','ai-next','ai-play-supervisor']) {
       const control = element.querySelector('#' + id); if (control) control.disabled = busy || audio?.isRecording();
     }
   }
   audio = createPracticeAudio({api, changed: updateAudio, failed: exception => {fail(exception); render();}});
-  function cancelPending() {generation++; controller?.abort(); controller = null; busy = false; audio.stop();}
+  function cancelPending() {generation++; controller?.abort(); controller = null; busy = false; recorded = null; audio.stop();}
   const feedbackKind = () => phase === 'retry-feedback' ? 'retry' : 'first';
   function fail(exception) {
     error = copy().errors[exception?.message] ?? copy().errors.connection_failed;
@@ -94,7 +97,7 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
     error = '';
     const currentItem = item(), assessment = currentItem?.[feedbackKind()];
     const payload = role === 'client' ? {role, languageId: language, skillId: round.skillId, caseId: round.caseId, difficulty: round.difficulty,
-      statementId: currentItem.statement.id, revision: currentItem.statement.revision} : {role, attemptId: assessment.attemptId};
+       statementId: currentItem.statement.id, revision: currentItem.statement.revision} : {role, attemptId: assessment.attemptId,includeDelivery:!!assessment.delivery};
     const text = role === 'client' ? spokenStatement(currentItem.statement.text)
       : supervisorFeedbackText(assessment, language);
     try {await audio.play({text, role, languageId: language, mode: round.mode, payload});}
@@ -105,9 +108,11 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
     if (busy) return;
     if (round.mode === 'demo') {error = copy().demoSpeech; render(); return;}
     const current = ++generation; error = ''; updateAudio();
+    recorded=null;
     try {
       const blob = await audio.record();
       if (current !== generation || !blob) return;
+      recorded={blob,attemptId:null};
       busy = true; transcript = false; render(); controller = new AbortController();
       const result = await api.transcribe(blob, language, controller.signal);
       if (current !== generation) return;
@@ -128,9 +133,52 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
       const result = await api.assess(value, round.mode, controller.signal);
       if (current !== generation) return;
       currentItem[kind] = {...result, text: value.text}; phase = kind === 'first' ? 'first-feedback' : 'retry-feedback';
+      if(recorded)recorded.attemptId=value.attemptId;
       draft = ''; attemptId = null; transcript = false;
     } catch (e) {if (current === generation && e.name !== 'AbortError') fail(e);}
     finally {if (current === generation) {busy = false; controller = null; render(); focus();}}
+  }
+  async function reviewDelivery() {
+    const assessment=item()?.[feedbackKind()];
+    if(busy||!recorded||recorded.attemptId!==assessment?.attemptId)return;
+    audio.stop();error='';const current=++generation,currentRecording=recorded;
+    busy=true;controller=new AbortController();render();
+    try {
+      const wav=currentRecording.wav??await preparePracticeWav(currentRecording.blob);
+      if(current!==generation)return;currentRecording.wav=wav;
+      const value={protocol:AI_PROTOCOL,attemptId:assessment.attemptId,kind:assessment.kind,skillId:round.skillId,
+        caseId:round.caseId,difficulty:round.difficulty,languageId:language,revision:item().statement.revision,
+        statementId:item().statement.id,text:assessment.text};
+      const result=await api.delivery(value,wav,controller.signal);
+      if(current!==generation)return;assessment.delivery=result;
+    }catch(e){if(current===generation&&e.name!=='AbortError')fail(e);}
+    finally{if(current===generation){busy=false;controller=null;render();focus('#ai-delivery');}}
+  }
+  function recordingControls(body,assessment=null) {
+    if(!recorded||(assessment&&recorded.attemptId!==assessment.attemptId))return;
+    const row=node('div','','ai-recording-actions');
+    row.append(btn(copy().replay,async()=>{
+      try{if(audio.isRecordingPlaying())audio.stop();else await audio.playRecording(recorded.blob);}catch{fail(new Error('audio_unavailable'));render();}
+    },false,'ai-play-recording'));
+    if(assessment && !assessment.delivery && !selfAwareness()) {
+      row.append(btn(busy?copy().deliveryBusy:copy().reviewDelivery,()=>void reviewDelivery(),false,'ai-review-delivery'));
+    }
+    body.append(row);
+    if(assessment&&!assessment.delivery&&!selfAwareness())body.append(node('p',copy().deliveryConsent,'response-hint'));
+  }
+  function renderDelivery(feedback,assessment) {
+    if(!assessment.delivery)return;
+    const delivery=assessment.delivery,card=node('section','','ai-delivery-card');card.id='ai-delivery';
+    const heading=node('div','','ai-delivery-heading');heading.append(node('h4',copy().delivery),node('span',copy().experimental,'ai-delivery-badge'));card.append(heading);
+    if(delivery.result.audibility==='clear') {
+      for(const [label,text] of [[copy().strength,delivery.result.strength],[copy().adjustment,delivery.result.adjustment]])
+        card.append(node('h5',label),node('p',text));
+    } else card.append(node('p',copy().deliveryUnclear));
+    const details=node('details');details.append(node('summary',copy().deliveryDetails));
+    details.append(node('p',`${delivery.metrics.durationSeconds.toLocaleString(language)} ${copy().seconds} · ≈ ${delivery.metrics.wordsPerMinute} ${copy().wordsPerMinute}`,'response-hint'));
+    for(const observation of delivery.result.observations)details.append(node('p',observation.description));
+    if(delivery.result.limitation)details.append(node('p',delivery.result.limitation,'response-hint'));
+    details.append(node('p',copy().deliveryEstimate,'response-hint'));card.append(details);feedback.append(card);
   }
   function advance(skipped = false) {
     if (busy || audio.isRecording() || !round) return;
@@ -144,7 +192,7 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
       const input = node('textarea'); input.id = 'ai-response'; input.rows = 4; input.maxLength = MAX_ATTEMPT_LENGTH;
       input.value = draft; input.placeholder = selfAwareness() ? copy().reflectionPlaceholder : copy().placeholder.replace('{client}', caseData.label.replace(/\s*\([^)]*\)\s*$/, '')); input.disabled = busy || audio.isRecording();
       input.addEventListener('input', () => {draft = input.value;});
-      body.append(label, input);
+      body.append(label, input);recordingControls(body);
       if (transcript) {const hint = node('p', copy().review, 'response-hint'); hint.id = 'ai-transcript-hint'; body.append(hint); input.setAttribute('aria-describedby', hint.id);}
       const row = node('div', '', 'ai-input-actions');
       const speak = btn(audio.isRecording() ? copy().done : copy().speak, () => void record(), false, 'ai-record');
@@ -155,7 +203,7 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
       const send = btn(busy ? copy().busy : copy().send, () => void assess(), true, 'ai-send'); send.disabled = busy || audio.isRecording(); actions.append(send);
     } else {
       if (phase === 'first-feedback') actions.append(btn(copy().retryButton, () => {
-        audio.stop(); phase = 'retry'; error = ''; draft = ''; attemptId = null; render(); focus('#ai-response');
+        cancelPending(); phase = 'retry'; error = ''; draft = ''; attemptId = null; render(); focus('#ai-response');
       }, true, 'ai-retry'));
       else actions.append(btn(copy().next, () => advance(), true, 'ai-next'));
     }
@@ -191,6 +239,7 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
     details.append(node('summary', copy().details)); const list = node('dl');
     for (const [label, model] of [[copy().feedbackModel, assessment?.model || assessedModels || models.assessment],
       [copy().speechModel, models.speech], [copy().transcriptionModel, models.transcription],
+      [copy().deliveryModel,assessment?.delivery?.model||models.delivery],
       [copy().voice, round?.clientVoice], [copy().supervisorVoice, round ? AI_SUPERVISOR_VOICE : null]]) {
       if (!model) continue;
       const row = node('div'); row.append(node('dt', label), node('dd', model)); list.append(row);
@@ -229,7 +278,9 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
       }
       if (status.mode !== 'live') body.append(node('p', copy().notReady, 'response-hint'));
       body.append(grid);
-      const setup = node('details', '', 'ai-setup'); setup.append(node('summary', copy().setup), node('p', copy().setupText)); body.append(setup);
+      if (import.meta.env.DEV) {
+        const setup = node('details', '', 'ai-setup'); setup.append(node('summary', copy().setup), node('p', copy().setupText)); body.append(setup);
+      }
     } else if (phase === 'cases') {
       body.append(btn(copy().back, () => {skill = null; phase = 'choose'; render(); focus();}, false, 'ai-back-skills'), node('h3', copy().chooseCase));
       const grid = node('div', '', 'grid-list');
@@ -271,6 +322,7 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
           if (text) feedback.append(node('h4', label), node('p', text));
         }
         const hear = btn(copy().hear, () => void play('supervisor'), false, 'ai-play-supervisor'); feedback.append(hear);
+        recordingControls(feedback,assessment);renderDelivery(feedback,assessment);
         if (assessment.result.limitation) {const details = node('details'); details.append(node('summary', copy().limitations), node('p', assessment.result.limitation)); feedback.append(details);}
         body.append(feedback);
       }
@@ -287,11 +339,20 @@ export function createAiPractice({getLanguage, localizeSkill, getStrings, show, 
     requestHome({descriptionLabel: copy().pauseNote, pause, end: () => {cancelPending(); round = null; skill = null; phase = 'choose'; home();}});
   }
   return {element, goHome, hasRound: () => Boolean(round && phase !== 'complete'), stopAudio: () => audio.stop(),
+    reset(){cancelPending();round=null;skill=null;caseData=null;draft='';attemptId=null;phase='choose';error='';if(document.body.dataset.section==='ai')home();},
     async open() {
       show();
       if (round && phase !== 'complete') {render(); focus(); return;}
       language = getLanguage() === 'no' ? 'no' : 'en'; phase = 'choose'; skill = null; round = null; error = ''; busy = true; render();
-      const current = ++generation; const result = await api.status();
-      if (current !== generation) return; status = result; busy = false; render(); focus();
+      const current = ++generation;
+      try {
+        const result = await api.status();
+        if (current !== generation) return;
+        status = result;
+      } catch (exception) {
+        if (current !== generation) return;
+        phase = 'unavailable'; fail(exception);
+      }
+      busy = false; render(); focus();
     }};
 }
