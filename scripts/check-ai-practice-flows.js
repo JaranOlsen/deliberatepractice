@@ -8,9 +8,19 @@ async page => {
       const token=btoa(JSON.stringify({alg:'HS256',typ:'JWT'}))+'.'+btoa(JSON.stringify({sub:id,exp:expires,role:'authenticated'}))+'.fixture';
       localStorage.setItem('sb-kpzmjnwwbxweevloiqiy-auth-token',JSON.stringify({access_token:token,refresh_token:'isolated-fixture-only',token_type:'bearer',expires_at:expires,expires_in:3600,user:{id,email:'fixture@example.invalid'}}));
     });
+    await context.route('**/api/account-services/**',async route=>{
+      const action=new URL(route.request().url()).pathname.split('/').at(-1);
+      if(action==='status')return route.fulfill({json:{protocol:'practice-billing-v1',mode:'off'}});
+      const input=route.request().postDataJSON(),kind=input.kind;
+      const file=kind==='skill'?`statements/${input.languageId}-${input.skillId}.json`:`mastery/${input.languageId}-${input.exerciseId}.json`;
+      const response=await context.request.get(new URL(`src/data/runtime/${file}`,url).href);
+      if(!response.ok())throw Error('Missing protected content fixture');
+      const data=await response.json(),revision=kind==='skill'?Object.values(data)[0][0].revision:data.revision;
+      return route.fulfill({json:{protocol:'practice-content-v1',revision,...(kind==='skill'?{bank:data}:{exercise:data})}});
+    });
     await context.route('https://*.supabase.co/**',route=>{
       const action=new URL(route.request().url()).pathname.split('/').at(-1),id='11111111-1111-4111-8111-111111111111';
-      return route.fulfill({json:action==='get_ai_access'?true:action==='ensure_user_profile'?[{id,display_name:'Fixture'}]:action==='list_practice_targets'?[{target_user_id:id,display_name:'Fixture',target_kind:'self'}]:action==='user'?{id,email:'fixture@example.invalid'}:[]});
+      return route.fulfill({json:action==='get_ai_access'?true:action==='get_account_access'?{full_content:true,ai_access:true,subscription:null}:action==='ensure_user_profile'?[{id,display_name:'Fixture'}]:action==='list_practice_targets'?[{target_user_id:id,display_name:'Fixture',target_kind:'self'}]:action==='user'?{id,email:'fixture@example.invalid'}:[]});
     });
   }
   const contexts = [], checks = [], errors = []; let externalCalls = 0;

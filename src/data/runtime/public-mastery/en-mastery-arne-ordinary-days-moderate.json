@@ -1,0 +1,171 @@
+{
+  "id": "mastery-arne-ordinary-days-moderate",
+  "type": "mastery",
+  "caseId": "case-arne",
+  "difficulty": "moderate",
+  "supportedLevels": [
+    "moderate"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Leo · Living the ordinary days",
+  "orientation": "Twelve linked moments about daily life after Eva’s death. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+  "scenes": [
+    {
+      "id": "mastery_arne_moderate_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-arne_moderate_01",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "An ordinary morning brings mixed feelings.",
+      "prompt": "Reflect the peace and guilt together.",
+      "text": "[Half-smile] Breakfast is peaceful now. I hate that I can like the quiet.",
+      "suggestion": "The quiet gives you a little peace, and liking it brings guilt alongside that."
+    },
+    {
+      "id": "mastery_arne_moderate_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-arne_moderate_02",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "bridge": "Leo wonders what relief says about his love.",
+      "prompt": "Explain exploration without making a moral verdict.",
+      "text": "[Careful] If I feel the relief properly, won’t that make me a worse husband?",
+      "suggestion": "Exploring relief doesn’t decide what kind of husband you were. It may help distinguish wanting rest from not loving Eva."
+    },
+    {
+      "id": "mastery_arne_moderate_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-arne_moderate_02",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "bridge": "In another moment, he distinguishes Eva from the hospital demands.",
+      "prompt": "Validate the distinction without erasing the love.",
+      "text": "[Self-critical] I miss her, but not the endless waiting at the hospital. I shouldn’t separate those.",
+      "suggestion": "You can miss Eva and not miss the strain of those visits. They aren’t the same thing."
+    },
+    {
+      "id": "mastery_arne_moderate_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-arne_moderate_03",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "bridge": "Relief and guilt are not yet easy to separate.",
+      "prompt": "Ask one question that clarifies the relief.",
+      "text": "[Quietly] The relief and guilt seem tangled.",
+      "suggestion": "If we take the relief first, what were you relieved from?"
+    },
+    {
+      "id": "mastery_arne_moderate_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-arne_moderate_05",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "bridge": "Saying he was exhausted brings a small ease and self-judgment.",
+      "prompt": "Make room for the ease before the judgment takes over.",
+      "text": "[Hesitant] Saying I was exhausted brings ease, then a voice calling me selfish.",
+      "suggestion": "Could we hear the ease first, before that judgment takes all the room?"
+    },
+    {
+      "id": "mastery_arne_moderate_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-arne_moderate_03",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "bridge": "Leo describes the care through its schedule.",
+      "prompt": "Tentatively check what is harder to share.",
+      "text": "[Quietly] I can explain the hospital schedule. The tiredness is harder to say.",
+      "suggestion": "Maybe the schedule feels safer to share than how much it cost you. Is that close?"
+    },
+    {
+      "id": "mastery_arne_moderate_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-arne_moderate_02",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "bridge": "He uses a practical phrase for life after caregiving.",
+      "prompt": "Bring the experience closer using his phrase, with room to disagree.",
+      "text": "[Flatly] I’m off duty now. Strange phrase for your wife, but there it is.",
+      "suggestion": "The watch has ended, while being her husband hasn’t simply ended inside you. Is that close?"
+    },
+    {
+      "id": "mastery_arne_moderate_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-arne_moderate_01",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "A wish for rest gives way to listing appointments.",
+      "prompt": "Check whether he wants to return to that wish.",
+      "text": "[Voice softens, then lists] I wanted rest. The appointments were Monday, Wednesday, sometimes Friday—",
+      "suggestion": "The schedule shows the demands. Would you like to pause with wanting rest before we list more?"
+    },
+    {
+      "id": "mastery_arne_moderate_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-arne_moderate_08",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "bridge": "Leo is emotional and asks for a bounded pause.",
+      "prompt": "Respect the pause without assuming he wants to end.",
+      "text": "[Voice catches] I need a pause, not to finish for the day.",
+      "suggestion": "A pause. We can slow down and check what you want after it."
+    },
+    {
+      "id": "mastery_arne_moderate_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-arne_moderate_05",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "In another moment, an enjoyable walk brings fear of leaving Eva out.",
+      "prompt": "Hear the enjoyment and its difficult meaning.",
+      "text": "[Quietly] Tom’s jokes helped. Then I felt I’d left Eva out of the afternoon.",
+      "suggestion": "Enjoying Tom’s company felt good, then seemed to put your connection with Eva at risk."
+    },
+    {
+      "id": "mastery_arne_moderate_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-arne_moderate_03",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Leo names a small change in how enjoyment can belong.",
+      "prompt": "Explore what shifted without promising it will last.",
+      "text": "[Quietly] Enjoying the workshop needn’t mean leaving Eva out. That feels new.",
+      "suggestion": "What has helped enjoyment and your connection with her fit alongside each other?"
+    },
+    {
+      "id": "mastery_arne_moderate_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-arne_moderate_01",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "Time is short, and the work is still unfinished.",
+      "prompt": "End the hour without claiming resolution.",
+      "text": "[Tearful, watchful] I’m okay to leave, but don’t call this resolved.",
+      "suggestion": "It isn’t resolved. We’re ending the hour, and can note what you want to return to."
+    }
+  ]
+}

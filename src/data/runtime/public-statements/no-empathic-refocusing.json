@@ -1,0 +1,1850 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_empathic-refocusing_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Da jeg sa at jeg savner å være den noen ringer først, kjente jeg noe i brystet. Uansett, jeg burde nok bytte mobilabonnement.",
+      "suggestion": "Mobilabonnementet kan også trenge en avklaring. Vil du stoppe litt ved det du kjente da du sa «den noen ringer først», før vi går videre?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Ler, med våte øyne] Det gjør vondt å komme hjem. Hør på meg — en hel tragedie over en takeaway-middag.",
+      "suggestion": "Du lo akkurat da du sa at det gjør vondt å komme hjem. Kan vi bli ved det vonde et øyeblikk, hvis du vil?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Raskt] Jeg ville at han skulle spørre hvordan dagen min hadde vært. Men han jobbet mye, og teamet hans var underbemannet, så det er jo klart—",
+      "suggestion": "Du var nettopp inne på hvor mye du ønsket at han skulle spørre. Kunne vi bli litt ved det ønsket før vi prøver å forstå grunnene hans?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Tar en pause, så lysere] Jeg følte meg veldig alene på søndag. Å, jeg glemte å fortelle om kampanjen på jobb.",
+      "suggestion": "Du stoppet litt da du sa «alene». Trenger det fortsatt litt plass, eller er det jobbhistorien du vil ta opp nå?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Ser ned] Det såret meg at han glemte det. Men det var jo bare en dato. Andre har ordentlige problemer.",
+      "suggestion": "Det var bare en dato, og det gjorde vondt å bli glemt. Vil du gi det vonde litt plass uten å sammenligne med andres problemer?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Sukker] Jeg skulle ønske jeg kunne si til ham at jeg var ensom. Kanskje jeg burde begynne med en liste over det jeg gjorde feil.",
+      "suggestion": "Før listen sa du at du skulle ønske du kunne fortelle ham at du var ensom. Er det noe du vil at vi blir ved?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Stemmen blir mykere, så raskere] Jeg ville bli holdt rundt. Forresten, hva sier forskningen om tilknytningsstiler?",
+      "suggestion": "Det kan jeg svare på. Jeg hørte også at stemmen din ble mykere ved «holdt rundt». Vil du helst ha en forklaring nå, eller et øyeblikk med hva det betyr for deg å bli holdt rundt?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Tårer, så ser hun på klokken] Jeg hater å spise alene. Unnskyld, sa jeg når toget mitt går?",
+      "suggestion": "Vi bør passe på at du rekker det. Når vi har sjekket tiden, vil du ha litt plass til hvordan det kjennes å spise alene?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Trekker på skuldrene] Jeg begynte å bli trist, så tenkte jeg: Dette er jo bare det som skjer når dopaminet faller etter et forhold.",
+      "suggestion": "Den forklaringen kan hjelpe deg å forstå det. Ville det også hjelpe å kjenne litt på tristheten som kom før den, eller vil du heller la det ligge i dag?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt, så spøkende] Jeg ville bety noe for ham. Vel, i det minste savner matleveringsappen meg.",
+      "suggestion": "Du gikk over til en spøk rett etter at du sa at du ville bety noe. Hvis det kjennes greit, kan vi vende tilbake til ordene «jeg ville bety noe»?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Ser bort] Jeg var sint fordi han aldri spurte hva jeg trengte. Men la meg forklare hele tidslinjen først.",
+      "suggestion": "Tidslinjen kan være nyttig. Før vi går gjennom den, vil du bli litt ved sinnet over at han ikke spurte hva du trengte?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Etter en pause] Den tomme følelsen er tilbake. Jeg vil ikke gå inn i den i dag; jeg trenger å snakke om å komme meg gjennom kvelden.",
+      "suggestion": "Da tar vi kvelden. Vi kan la den tomme følelsen ligge nå. Hva kjennes vanskeligst med å komme gjennom kvelden?"
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_empathic-refocusing_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Såret, så raskt] Jeg følte meg liten da hun rettet meg. Uansett, jeg fikset regnearket.",
+      "suggestion": "Vil du bli litt ved følelsen av å være liten før vi går til regnearket?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt, så ler] Jeg ville at hun hørte meg. Høres ut som en unge som sutrer.",
+      "suggestion": "Du ville bli hørt. Kan vi gi det ønsket et øyeblikk før vi vurderer det?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Sint, så forklarer] Det spørsmålet traff vondt. La meg forklare hvorfor forslaget deres var feil.",
+      "suggestion": "Forslaget kan også være viktig. Ville det hjelpe å gå tilbake til det som traff vondt i spørsmålet?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Stemmen mykner, så fastere] Jeg var redd jeg hadde skuffet henne. Men hun forventer for mye.",
+      "suggestion": "Kan vi stoppe ved den frykten før vi avgjør hva hun burde forvente?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Ser ned, så teller opp] Jeg hatet å se henne trekke seg unna. Jeg har gjort mye for denne familien.",
+      "suggestion": "Du merket at hun trakk seg unna. Er det det du vil ha hørt før du lister opp det du har gjort?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Trist, så avfeier] Jeg savner å le med henne. Lite poeng i å snakke om det.",
+      "suggestion": "Det hørtes viktig ut. Vil du gi det du savner litt plass?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Anspent, så praktisk] Jeg føler meg dømt her. Hvilken teknikk skal vi bruke nå?",
+      "suggestion": "Før en ny teknikk: Kan vi forstå det som har kjentes dømmende her?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Skamfull, så raskt] Jeg ropte. Jeg er ikke stolt av det. Så, møteagendaen ...",
+      "suggestion": "Vil du bli kort ved det du angrer på før vi går til agendaen?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg gikk over til jobb fordi jeg trengte en pause fra å snakke om kona.",
+      "suggestion": "Vi kan ta den pausen. Ekteskapet kan vente litt."
+    },
+    {
+      "id": "dp_empathic-refocusing_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lettet, så spøker] Det var bedre å si at jeg ble såret. Ikke si til gutta at jeg blir myk.",
+      "suggestion": "Vil du ha et øyeblikk med lettelsen før spøken tar oss videre?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Nøler, så analyserer] Jeg ville ha pappas anerkjennelse. Oppdragelse var annerledes da.",
+      "suggestion": "Den sammenhengen betyr noe. Kan vi også høre det du ønsket fra ham?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Bestemt] Jeg vet det er noe sårt. I dag vil jeg jobbe med å slutte å rope.",
+      "suggestion": "Vi følger den prioriteringen. Vi kan jobbe med ropingen uten mer utforskning først."
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_empathic-refocusing_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt, så raskt] Jeg ville være med dem. Puben var sikkert for bråkete uansett.",
+      "suggestion": "Bråket kan også bety noe. Kan vi stoppe litt ved at du ville være med?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Såret, så trekker på skuldrene] Ingen merket at jeg gikk. Det er jo ikke som om jeg er interessant.",
+      "suggestion": "Kan vi gi det såre litt plass før vi avgjør at du ikke er interessant?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Ser ned, så forklarer] Jeg skammet meg. Sosiale ferdigheter kan visst læres.",
+      "suggestion": "Vil du bli kort ved hvordan skammen kjentes før vi snakker om å lære ferdigheter?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Stemmen mykner, så stopper han] Jeg ville at noen spurte meg ... glem det.",
+      "suggestion": "Vi kan la det ligge eller gi det ønsket litt tid. Hva passer nå?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Engstelig, så praktisk] Jeg er redd de ser at jeg fryser. Burde jeg lære flere setninger utenat?",
+      "suggestion": "Det kan vi vurdere. Først, ville det hjelpe å høre det skremmende ved å bli sett?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Trist, så unnskylder] Jeg var ensom på fredag. Unnskyld, andre har verre problemer.",
+      "suggestion": "Fredag var ensom. Kan det få litt plass uten å sammenligne med andres fredag?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lettet, så bagatelliserer] Hun ventet på svaret mitt. Det er jo bare høflighet.",
+      "suggestion": "Det kan ha vært høflig og likevel betydd noe. Vil du bli ved det som var godt?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Anspent, så spør] Jeg følte meg dum da jeg sluttet å snakke. Hva er neste øvelse?",
+      "suggestion": "Før en ny øvelse: Kan vi høre det som kjentes dumt her?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg skiftet tema fordi spørsmålet var for stort.",
+      "suggestion": "Takk for at du sier det. Passer en mindre del, eller vil du heller stoppe der?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Såret, så lister opp] Det gjorde vondt å bli holdt utenfor. Jeg kom sent, og hadde ikke svart, og ...",
+      "suggestion": "De detaljene kan være med. Vil du ha et øyeblikk med det såre før vi samler flere grunner?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Varm, så ser bort] Jeg likte å snakke med ham. Han har sikkert glemt meg allerede.",
+      "suggestion": "Kan vi bli ved at du likte samtalen før vi prøver å vite hva han husker?"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Bestemt, lavt] Jeg trenger en pause. Jeg skjuler ikke en annen følelse.",
+      "suggestion": "Vi kan ta pausen uten å lete etter en annen følelse."
+    }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Mykt, så raskere] Jeg savner henne til frokost. Uansett, vannkokeren må avkalkes.",
+      "suggestion": "Vannkokeren kan også trenge oppmerksomhet. Vil du ha et øyeblikk med savnet før vi går videre?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Våte øyne, liten latter] Den kåpen lukter fortsatt som henne. Dumme gamle kåpe.",
+      "suggestion": "Du lo da den gjorde henne nær. Vil du bli ved det du merket?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Mykt, så oppramsende] Jeg ønsket selskap. Tom er opptatt, Emma jobber, naboene—",
+      "suggestion": "Før vi går gjennom alles planer, vil du høre litt mer av det ønsket om selskap?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Stemmen brister] Jeg trengte også hvile. Men parkeringen på sykehuset var dyr.",
+      "suggestion": "Vi kan snakke om parkeringen. Ville det hjelpe først å stoppe ved behovet for hvile?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Raskt] Jeg var sint. Alle mente jo det godt, så glem det.",
+      "suggestion": "Hensikten deres betyr noe, og sinnet ditt kom også. Vil du gi det litt plass?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Mykt, så teknisk] Det gjorde vondt å se oppskriften hennes. Blekket falmer nok av kjemiske grunner.",
+      "suggestion": "Det kan forklare blekket. Vil du bli ved det som gjorde vondt da du så oppskriften?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Pause, så raskere] Jeg er ensom. Ja, skal jeg fortelle om taket i stedet?",
+      "suggestion": "Vi kan velge begge veier. Vil du ha et øyeblikk med «ensom», eller er taket det du trenger i dag?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Med tårer, skifter tema] Latteren hennes. Jeg savner den. Regnet det her i går?",
+      "suggestion": "Vi kan snakke om i går. Jeg hørte også hvor mye du savner latteren hennes. Vil du vende tilbake til det?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Mykt, så selvkritisk] Jeg ville at Emma skulle bli. Nok klaging fra meg.",
+      "suggestion": "Å ønske at hun blir, trenger ikke være klaging. Vil du høre det ønsket før vi lar det ligge?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Usikkert] Du merket at jeg skiftet tema. Jeg vil helst holde meg til det nye i dag.",
+      "suggestion": "Da gjør vi det. Hva vil du at vi skal rette oppmerksomheten mot i stedet?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt, så hastig] Jeg hadde det hyggelig på verkstedet. Glem det, jeg glemte å betale en regning.",
+      "suggestion": "Haster regningen nå, eller vil du ha et øyeblikk med gleden fra verkstedet først?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Smiler gjennom tårer] Jeg vil gjerne huske at hun ertet meg. Men jeg blir sentimental.",
+      "suggestion": "Det minnet ser ut til å gi både varme og tårer. Vil du bli ved det uten å dømme det?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Stemmen blir mykere, så oppramsende] Jeg ønsket hvile. Timene var mandag, onsdag, noen ganger fredag—",
+      "suggestion": "Planen viser kravene. Vil du stoppe ved ønsket om hvile før vi ramser opp mer?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Våte øyne, spøker] Ingen å fortelle om dagen til. Vannkokeren lytter i det minste.",
+      "suggestion": "Spøken kom ved siden av ensomheten. Vil du bli ved en av dem, eller la det ligge?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt, så analyserende] Jeg likte stillheten. Nervesystemet tilpasser seg vel bare.",
+      "suggestion": "Det kan være en del av det. Ville det hjelpe også å høre hva det betyr for deg å like stillheten?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Stemmen brister, så raskere] Jeg ville at Emma skulle legge merke til det. Men hun er opptatt, la oss snakke om jobben hennes.",
+      "suggestion": "Jobben hennes betyr noe. Før vi går dit, vil du ha et øyeblikk med ønsket om at hun merker det?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Rynker pannen, så ler] Jeg blir sint når de snakker for Eva. Vel, alle er eksperter.",
+      "suggestion": "Det er humor og sinne her. Vil du høre hva sinnet ditt sier?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Mykt, så hastig] Jeg savner at hun ertet meg. Ja, skal jeg fortelle om rørene?",
+      "suggestion": "Er rørene det du trenger nå, eller ville det være godt å bli ved det varme minnet?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Nølende] Jeg skiftet tema fordi jeg trengte en pause. Ikke fordi jeg er redd.",
+      "suggestion": "Takk for at du tydeliggjør det. Vi tar pausen fremfor å dra deg tilbake.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt, så selvbebreidende] Jeg ønsket hjelp. Hør på meg, jeg gjør alt til å handle om meg.",
+      "suggestion": "Kan vi stoppe før den dommen og høre behovet for hjelp, hvis du vil?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Med tårer, så forklarende] Jeg er ensom. Statistisk bor jo mange alene.",
+      "suggestion": "Det stemmer. Vil du bli ved hvordan det kjennes for deg å bo alene, fremfor tallene?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Mykt, så praktisk] Hvile var godt. Men jeg trenger faktisk å få ordnet skjemaet om ytelsene i dag.",
+      "suggestion": "Da setter vi av tid til skjemaet. Vil du la følelsen ligge eller kort sette ord på den først?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Stemmen blir lavere, så raskere] Jeg vil ikke miste latteren hennes. Uansett, her er historien bak det bildet—",
+      "suggestion": "Vil du stoppe ved ønsket om å beholde latteren hennes før historien bak bildet?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt, lite smil] Jeg hadde det hyggelig. Ikke gjør noe stort ut av det.",
+      "suggestion": "Vi trenger ikke gjøre det stort. Vil du ha et lite øyeblikk med gleden, eller skal vi gå videre?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Ømt, så raskere] Latteren hennes berører meg. Men jeg vil ikke bli der i dag.",
+      "suggestion": "Vi drar deg ikke tilbake. Hvor vil du at samtalen går?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Stemmen blir mykere, så teknisk] Jeg ville at noen skulle legge merke til det. Omsorgsplanen var dårlig laget.",
+      "suggestion": "Planen kan bety noe. Vil du kort vende tilbake til ønsket om å bli sett, eller bli ved den praktiske svikten?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Våte øyne, spøker] Der er jeg sentimental igjen. Nå, været—",
+      "suggestion": "Ville du ønske et øyeblikk med det som berørte deg, eller er temaskiftet en pause du trenger?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Bestemt] Ja, jeg skiftet tema. Jeg velger det, ikke gjemmer meg.",
+      "suggestion": "Jeg hører det valget. Vi følger temaet du ønsker, uten å behandle det som å gjemme seg.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt, så oppramsende] Jeg savnet hjelp. Men vaktene til Emma er lange, kneet til Tom—",
+      "suggestion": "De begrensningene er virkelige. Før vi ser på dem, ville det være nyttig å høre hvilken hjelp du ønsket?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Varmt, så raskere] Verkstedet var godt. Ikke hold meg der; jeg trenger også å snakke om penger.",
+      "suggestion": "Vi kan gå til pengene. Vil du legge igjen ett ord om det gode øyeblikket først, eller gå rett videre?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Stemmen brister, så selvkritisk] Jeg ønsket hvile. Nå har jeg sagt det for mange ganger.",
+      "suggestion": "Kjennes gjentakelsen lite nyttig, eller kommer den dommen når behovet blir nært? Vi kan velge hvor vi går.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt, så forklarende] Jeg ville at Emma skulle bli. I vår familie har vi alltid gjort mye ut av å stille opp—",
+      "suggestion": "Vil du ha et øyeblikk med ditt eget ønske før den større forklaringen, eller hjelper historien deg i dag?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Bestemt] Den pausen var ikke unngåelse. Jeg lette etter ordene.",
+      "suggestion": "Takk for at du korrigerer meg. Ta tiden du trenger; jeg styrer ikke pausen et annet sted.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Mykt, så analyserende] Jeg er sint. Er det et av de sorgstadiene?",
+      "suggestion": "Vi trenger ikke plassere deg i noe stadium. Vil du høre akkurat dette sinnet, eller snakke om spørsmålet først?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Oppmerksom] Hvis vi vender tilbake til den følelsen, vil jeg ha ett minutt, ikke hele timen.",
+      "suggestion": "Ett minutt, med mulighet til å stoppe før. Så sjekker vi hvor du vil videre.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Stemmen blir mykere, så raskere] Jeg savner henne. Jeg vil også virkelig få ordnet dette skjemaet. Begge deler.",
+      "suggestion": "Begge deler betyr noe. Vil du helst ta skjemaet først, med mulighet til å vende tilbake til savnet senere?",
+      "difficulty": "hard"
+    }
+  ],
+  "case-mia": [
+    {
+      "id": "dp_empathic-refocusing_case-mia_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Trist, så rask] Jeg savner tegningen. Men jeg burde kjøpe et bedre pennal.",
+      "suggestion": "Før pennalet: Vil du bli ved det du savner, eller la det ligge i dag?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Sint, så saklig] Jeg ble ikke spurt. Vesken har faktisk to håndtak.",
+      "suggestion": "Jeg merket at vi gikk over til håndtakene. Kan vi vende tilbake til å ikke bli spurt, hvis det er nyttig?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Med tårer, så ler] Det gjorde vondt. Ja ja, alle har dårlige dager.",
+      "suggestion": "Er det greit å høre hva som gjorde vondt, før vi plasserer det sammen med alles dårlige dager?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt, skifter tema] Jeg trengte at han lyttet. Har du sett værmeldingen?",
+      "suggestion": "Kan vi stoppe ved ønsket om at han lyttet? Du kan også si fra hvis du trenger en pause.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Trist, så lister opp] Jeg følte meg alene. Tirsdag var møtet, onsdag var omvisningen ...",
+      "suggestion": "Kan vi vende tilbake til følelsen av å være alene, heller enn timeplanen, et øyeblikk?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Berørt, så avfeier] Det var fint å bli spurt. En liten ting, egentlig.",
+      "suggestion": "Det fine så ut til å bety noe. Vil du gi det litt mer plass?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Skyldfull, så generelt] Jeg mislikte hvordan jeg snakket. Par krangler, gjør de ikke?",
+      "suggestion": "Vi kan snakke generelt, eller gå tilbake til det som plaget deg ved egne ord. Hva ville hjelpe?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Trist, så praktisk] Jeg savner å holde omvisningen. Jeg kan heller se på vaktlisten.",
+      "suggestion": "Er det vaktlisten du trenger nå, eller vil du bli ved savnet etter omvisningen?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Redd, så smiler] Morgendagen skremmer meg. Glem det, det går sikkert fint.",
+      "suggestion": "Kan vi høre litt av det som skremmer deg, uten å måtte avgjøre hvordan morgendagen blir?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Bestemt] Jeg vil stoppe å snakke om tristheten og planlegge hvordan jeg ber om stolen.",
+      "suggestion": "Vi går over til å be om stolen. Vi trenger ikke føre deg tilbake til tristheten.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Sliten] Jeg skiftet tema fordi jeg trenger hvile.",
+      "suggestion": "Takk for at du sier det. Vi hviler heller enn å gå tilbake til temaet nå.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Varm, så trekker på skuldrene] Jeg likte å være til nytte. Men det er ikke så viktig.",
+      "suggestion": "Vil du bli litt ved at du likte det, før vi avgjør hvor viktig det er?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Trist, så rask] Jeg savner de gamle kveldene. Jeg burde finne mer egnede blyanter.",
+      "suggestion": "Ville det hjelpe å bli ved savnet etter kveldene før vi går over til utstyret?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Sint, så unnskylder] Jeg ville få bestemme. Men Alex hadde en travel dag, så glem det.",
+      "suggestion": "Dagen hans kan også bety noe. Vil du gå tilbake til hva det betydde å få bestemme der?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Berørt, så saklig] Sam ventet på meg. Møtet hadde seks saker på agendaen.",
+      "suggestion": "Jeg merket at vi gikk over til agendaen. Kan vi stoppe ved hva det betydde at han ventet?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Urolig, så smiler] Jeg følte meg overvåket. Jeg er nok heldig som har noen som bryr seg.",
+      "suggestion": "Før vi avgjør at du burde føle deg heldig: Vil du høre den ubehagelige delen?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Trist, så lister opp] Jeg savner å bidra. Det er fortsatt e-poster jeg kan svare på.",
+      "suggestion": "Er e-postene retningen du ønsker nå, eller kan vi bli litt ved det du savner?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Skyldfull, så generelt] Jeg angrer på at jeg glefset. Kommunikasjon er komplisert for alle.",
+      "suggestion": "Kan vi gå tilbake til din egen anger, heller enn kommunikasjon generelt, hvis du vil undersøke den?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lettet, så avfeier] Jeg likte å velge. Så ubetydelig å snakke om.",
+      "suggestion": "Lettelsen så ut til å bety noe før «ubetydelig» kom. Vil du bli ved den et øyeblikk?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg har gått over til det praktiske fordi jeg trenger noe konkret nå.",
+      "suggestion": "Vi følger det. Hvilken konkret del er mest nyttig med tiden og kreftene som er igjen?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Redd, så rask] Jeg er redd for å miste mer. Jeg burde lese nyhetsbrevet fra museet.",
+      "suggestion": "Vil du vende tilbake til den frykten, eller er nyhetsbrevet et nødvendig temposkifte?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Varm, så skifter tema] Det var godt å være søstre igjen. Har jeg nevnt kjøkkenet til Ella?",
+      "suggestion": "Kan vi bli litt ved «å være søstre igjen» før vi går over til kjøkkenet?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Sliten, bestemt] Jeg vet at følelsen er der. Det hjelper ikke å gå tilbake til den i dag.",
+      "suggestion": "Vi kan la den ligge. Vi velger noe som passer det du trenger i dag.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Trist, så spøker] Jeg følte meg utenfor samtalen. Teen var i det minste god.",
+      "suggestion": "Teen kan ha vært god. Er det greit å gå tilbake til følelsen av å være utenfor samtalen?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Trist, så presis] Jeg savner tegningen. Papiret har faktisk feil tykkelse.",
+      "suggestion": "Er papiret den delen du vil jobbe med, eller kan vi gå kort tilbake til savnet?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Sint, så nyanserer] Jeg ville at han ventet. Det gjør han vanligvis. Det er urettferdig å dvele ved dette.",
+      "suggestion": "Den vanlige omsorgen kan være med. Vil du gå tilbake til det som skjedde i akkurat dette øyeblikket?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Berørt, så rask] Jeg følte meg inkludert. Vi burde snakke om neste ukes plan.",
+      "suggestion": "Haster planen nå, eller kan følelsen av å være inkludert få litt plass først?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg skiftet tema fordi spørsmålet ikke passet, ikke fordi det kom nært.",
+      "suggestion": "Takk for at du retter det. Hvilken del vil du gå tilbake til med et bedre spørsmål?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Trist, så abstrakt] Jeg er trist. Tilpasning til sykdom er jo en sammensatt prosess.",
+      "suggestion": "Ville det være nyttig å vende tilbake fra den generelle prosessen til det som er trist for deg her?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Varm, så avfeier] Den samtalen kjentes som hjemme. Bare et uttrykk.",
+      "suggestion": "Vi trenger ikke gjøre det større. Vil du høre hva «hjemme» fanget i den samtalen?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Bestemt] Jeg vet du vil tilbake til det såre. Jeg må få orden på selve forespørselen først.",
+      "suggestion": "Vi følger forespørselen. Vi kan la det såre ligge uten å gjøre det valget til et problem.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Skyldfull, så lister opp] Jeg angrer på tonen. Vesken, plantene, klesvasken ... det er mye.",
+      "suggestion": "Kan vi bli ved ett øyeblikk av anger heller enn å legge til flere oppgaver, hvis du har plass til det?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Sliten, retter] Jeg gikk ikke bort fra følelsen. Jeg gikk tom for ord.",
+      "suggestion": "Vi kan la ordene ta slutt. Passer stille selskap bedre enn å vende tilbake med et nytt spørsmål?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Redd, så praktisk] Jeg vet ikke hva jeg vil klare. Jeg burde finne en bedre kalenderapp.",
+      "suggestion": "Kan vi høre usikkerheten før appen, eller er planlegging mer nyttig i dag?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Trist, så spøker] Der forsvant ettermiddagen. Jeg kjøper i det minste ikke dyre blyanter.",
+      "suggestion": "Spøken endrer tempoet. Vil du vende tilbake til å miste ettermiddagen, eller la det ligge her?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-mia_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg går ikke tilbake til det i dag. Jeg har sagt nok til å vite hva jeg trenger.",
+      "suggestion": "Vi kan respektere det. Vi blir ved det du nå vet at du trenger.",
+      "difficulty": "hard"
+    }
+  ],
+  "case-nora": [
+    {
+      "id": "dp_empathic-refocusing_case-nora_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Såret, så rask] Jeg orket ikke se på tegningene. Skriveren trengte uansett reparasjon.",
+      "suggestion": "Vil du gå tilbake til å ikke orke å se, før vi går over til skriveren?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Sint, så ler] Svaret mitt var ikke nok. Vanlig kontorprat, antar jeg.",
+      "suggestion": "Kan vi høre hva det gjorde med deg, før vi gjør det til vanlig kontorprat?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Trist, så saklig] Jeg ville at arbeidet ble sett. Prosjektet har tre etasjer.",
+      "suggestion": "Jeg merket at vi gikk over til etasjene. Ville det hjelpe å gå tilbake til ønsket om å bli sett?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Berørt, så avfeier] Lina lyttet. Det var ikke noe spesielt.",
+      "suggestion": "Det så ut til å bety noe i sted. Vil du bli ved det som var godt?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Redd, så praktisk] Jeg er redd for å ta det opp. Jeg burde ordne filene først.",
+      "suggestion": "Er filene det du trenger nå, eller kan vi stoppe ved frykten?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt, skifter tema] Jeg følte meg alene. Har jeg fortalt om det nye kameraet?",
+      "suggestion": "Kan vi bli litt ved å føle deg alene, eller ønsker du heller et temaskifte?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Sint, så unnskylder] Max snakket over meg. Men han prøvde å hjelpe.",
+      "suggestion": "Hensikten hans kan også bety noe. Vil du vende tilbake til hvordan det var for deg?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Trist, så generelt] Det gjorde vondt. Folk sier tankeløse ting.",
+      "suggestion": "Ville det være nyttig å gå fra folk generelt tilbake til det som såret her?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lettet, så trekker på skuldrene] Jeg likte å bli spurt. Ikke noe å snakke om, egentlig.",
+      "suggestion": "Kan vi gi lettelsen litt plass før vi avfeier den?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Bestemt] Jeg vil stoppe utforskningen og jobbe med hva jeg skal be Max om.",
+      "suggestion": "Vi går over til den forespørselen. Vi trenger ikke føre deg tilbake til følelsen.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Sliten] Jeg skiftet tema fordi jeg trenger en pause.",
+      "suggestion": "Vi kan ta pausen. Å gå tilbake til temaet kan vente.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Varm, så rask] Jeg likte bildene. Men tilbake til det fæle møtet.",
+      "suggestion": "Vil du at det hyggelige øyeblikket får litt plass før vi går tilbake til møtet?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Såret, så nyanserer] Jeg ville at arbeidet ble sett. Firmaet gjør godt arbeid, rett skal være rett.",
+      "suggestion": "Det kan fortsatt være sant. Vil du gå tilbake til det du ville ha sett i dette øyeblikket?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Sint, så unnskylder] Jeg ville at Max ventet. Han må også ha følt seg utilpass.",
+      "suggestion": "Det kan også bety noe. Kan vi vende tilbake til det ventingen ville gitt deg?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Trist, så lister opp] Det såret. Først møtet, så e-posten, så lunsjen ...",
+      "suggestion": "Ville det hjelpe å bli ved ett sårt øyeblikk heller enn å samle hele rekken?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Berørt, så spøker] Lina lyttet. Kanskje hun bare liker en dramatisk historie.",
+      "suggestion": "Før spøken: Kan vi høre hva lyttingen hennes betydde for deg?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Urolig, så abstrakt] Jeg ble urolig. Sosiale forhold er kompliserte.",
+      "suggestion": "Kan vi vende tilbake fra det generelle til det som gjorde deg urolig?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Varm, så avfeier] Jeg likte middagen. Det er neppe terapistoff.",
+      "suggestion": "Vil du gi den gleden en plass her før vi går videre?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Bestemt] Jeg må se på praktisk støtte før jeg går tilbake til følelsen.",
+      "suggestion": "Vi følger den prioriteringen. Hvilken støtte vil du vurdere?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Redd, så rask] Jeg er redd jeg blir redusert til en klage. Jeg burde ordne lysbildene.",
+      "suggestion": "Er lysbildene det du trenger nå, eller kan vi stoppe ved den frykten?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Skyldfull, så generelt] Jeg angrer på at jeg glefset til Adam. Forhold er vanskelige.",
+      "suggestion": "Vil du gå tilbake til din egen anger heller enn forhold generelt?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg gikk bort fordi jeg ikke ville ha det spørsmålet, ikke fordi jeg ikke ville ha temaet.",
+      "suggestion": "Takk for at du tydeliggjør. Hvilken del av temaet vil du gå tilbake til?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Sliten, bestemt] Jeg vet det er noe sårt. Jeg har ikke plass til mer av det i dag.",
+      "suggestion": "Vi kan la det ligge. Vi velger en retning som passer i dag.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lettet, så rask] Jeg likte å ha valget. Tilbake til det jeg burde ha sagt ...",
+      "suggestion": "Kan vi bli kort ved at du likte valget, før vi vurderer svaret?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Såret, så presis] Jeg orket ikke se på tegningene. Målene var feil på ett ark.",
+      "suggestion": "Er arket det du vil jobbe med, eller kan vi gå tilbake til det som gjorde det vanskelig å se?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Sint, så nyanserer] Jeg ville at Max ventet. Han gjør så mye annet riktig.",
+      "suggestion": "Det kan være med i bildet. Vil du vende tilbake til det du ønsket i dette øyeblikket?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Berørt, så rask] Jeg følte meg hørt. Vi burde lage en liste over alle mulighetene.",
+      "suggestion": "Trenger du listen nå, eller ville det hjelpe å bli kort ved følelsen av å bli hørt?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg skiftet tema fordi bildet ikke passet. Ikke fordi det kom for nært.",
+      "suggestion": "Takk for korrigeringen. Hvilken del vil du gå tilbake til uten det bildet?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Trist, så abstrakt] Jeg savner arbeidet. Inkludering i organisasjoner er et sammensatt tema.",
+      "suggestion": "Ville det være nyttig å komme tilbake fra det generelle til det du selv savner?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Varm, så avfeier] Jeg likte middagen. Det er ikke poenget med å være her.",
+      "suggestion": "Vi trenger ikke gjøre det til hele poenget. Vil du gi den vanlige gleden litt plass?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Bestemt] Jeg må velge praktisk støtte før vi går tilbake til det såre.",
+      "suggestion": "Vi følger det. Å gå tilbake til det såre trenger ikke komme først.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Skyldfull, så lister opp] Jeg angrer på at jeg glefset. Møtet, telefonen, middagen ... det er mye.",
+      "suggestion": "Kan vi bli ved ett øyeblikk av anger heller enn å legge til hele dagen, hvis du har plass?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Sliten, retter] Jeg forlot ikke følelsen. Jeg gikk tom for ord.",
+      "suggestion": "Vi kan la ordene ta slutt. Passer stille selskap bedre enn et nytt spørsmål?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Urolig, så praktisk] Jeg vet ikke hva dagen betydde. Jeg burde lage en ny lysbildemal.",
+      "suggestion": "Er malen en nyttig retning, eller vil du bli ved det som fortsatt er uklart?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Trist, så spøker] Arbeidet ble sett uten meg. Tegninger trenger i det minste ikke lunsj.",
+      "suggestion": "Spøken endrer tempoet. Vil du vende tilbake til tapet, eller la det ligge nå?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-refocusing_case-nora_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "text": "[Lavt] Jeg har sagt nok til å vite hva jeg trenger. Å gå tilbake ville koste mer enn det gir i dag.",
+      "suggestion": "Vi kan respektere det. Vi blir ved det du nå vet at du trenger.",
+      "difficulty": "hard"
+    }
+  ]
+}

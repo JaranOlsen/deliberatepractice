@@ -1,0 +1,171 @@
+{
+  "id": "mastery-mia-help-and-choice-hard",
+  "type": "mastery",
+  "caseId": "case-mia",
+  "difficulty": "hard",
+  "supportedLevels": [
+    "hard"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Mia · Help without taking over",
+  "orientation": "Twelve linked moments about help, choice and being heard. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+  "scenes": [
+    {
+      "id": "mastery_mia_hard_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-mia_hard_01",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Mia wants company without someone doing everything.",
+      "prompt": "Reflect both wishes without solving the wording.",
+      "text": "[Quietly] I wanted him there. I didn’t want him doing everything. I can’t make that come out kindly.",
+      "suggestion": "You want his company and room to choose, and struggle to say both without hurting him."
+    },
+    {
+      "id": "mastery_mia_hard_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-mia_hard_12",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "bridge": "She asks for usable words within her available energy.",
+      "prompt": "Offer a modest rationale for a short request.",
+      "text": "[Reflective] I want something I can use, not a beautiful sentence I’m too tired to say.",
+      "suggestion": "We can aim for a short request in your own words and check whether it is usable with the energy you have."
+    },
+    {
+      "id": "mastery_mia_hard_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-mia_hard_01",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "bridge": "Another well-meant offer still brings hurt.",
+      "prompt": "Validate the hurt without deciding the helper was wrong.",
+      "text": "[Ashamed] Ella asked properly. I still felt hurt. That makes me unfair, doesn’t it?",
+      "suggestion": "Hurt can remain even when someone asks well. We don’t have to blame her to make room for it."
+    },
+    {
+      "id": "mastery_mia_hard_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-mia_hard_07",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "bridge": "Knowing what should stop does not yet reveal what she wants instead.",
+      "prompt": "Ask one question that helps clarify an alternative.",
+      "text": "[Uneasy] I know what I wanted him to stop. I’m less sure what I wanted instead.",
+      "suggestion": "What would have felt different enough in that moment?"
+    },
+    {
+      "id": "mastery_mia_hard_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-mia_hard_03",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "bridge": "In another moment, room to choose feels warm and uncomfortable.",
+      "prompt": "Explore the discomfort without undoing the warmth.",
+      "text": "[Warm, uneasy] I felt close to Alex when he waited. Then I wanted to hurry him.",
+      "suggestion": "What became uncomfortable as you had that space to choose?"
+    },
+    {
+      "id": "mastery_mia_hard_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-mia_hard_04",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "bridge": "An offer leaves Mia needing time she has not asked for.",
+      "prompt": "Tentatively check whether time matters alongside choice.",
+      "text": "[Hesitates] I want Ella to ask. I don’t always know my answer when she does.",
+      "suggestion": "Maybe you need permission to take time, as well as permission to choose?"
+    },
+    {
+      "id": "mastery_mia_hard_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-mia_hard_12",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "bridge": "She describes the pause before her own answer.",
+      "prompt": "Offer a close image and check whether it fits.",
+      "text": "[Flatly] My own answer takes time. Someone usually puts an answer in that space.",
+      "suggestion": "Is it like the pause gets filled before your words have a chance to arrive?"
+    },
+    {
+      "id": "mastery_mia_hard_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-mia_hard_07",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "A real practical request takes priority over returning to hurt.",
+      "prompt": "Respect her chosen direction.",
+      "text": "[Firm] I know you want to return to the hurt. I need to sort out the actual request first.",
+      "suggestion": "Let’s follow the request. We can leave the hurt without treating that choice as a problem."
+    },
+    {
+      "id": "mastery_mia_hard_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-mia_hard_08",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "bridge": "A later shaken moment needs some contact, but no new question.",
+      "prompt": "Find a few plain words of company.",
+      "text": "[Quiet, trembling] I’m not ready for a question. I’m not ready for complete silence either.",
+      "suggestion": "I’m here, and I’m hearing how hard this is. We don’t need a question yet."
+    },
+    {
+      "id": "mastery_mia_hard_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-mia_hard_08",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Another moment shows that stopping all offers missed the request.",
+      "prompt": "Reflect what the stopping failed to give her.",
+      "text": "[Softly] Alex stopped offering. I got what I asked for, apparently.",
+      "suggestion": "The stopping didn’t give you the kind of help or choice you were trying to ask for."
+    },
+    {
+      "id": "mastery_mia_hard_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-mia_hard_02",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Mia finds words that fit only part of the experience.",
+      "prompt": "Hold the useful distinction and what remains unfinished.",
+      "text": "[Thoughtful] “Wait for my answer” fits. It doesn’t solve what happens when I don’t have one.",
+      "suggestion": "What part does that phrase capture, and what needs to remain open?"
+    },
+    {
+      "id": "mastery_mia_hard_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-mia_hard_01",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "The hour is ending, with no obligation to act on the words today.",
+      "prompt": "End without adding a plan she is not ready for.",
+      "text": "[Tired] I have clearer words. I’m not ready for a plan to use them.",
+      "suggestion": "We can leave them as words for now. What would help you end without adding another demand?"
+    }
+  ]
+}

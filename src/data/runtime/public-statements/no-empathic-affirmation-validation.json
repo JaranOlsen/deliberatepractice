@@ -1,0 +1,1598 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lavmælt] Før jeg legger meg, sjekker jeg kontoene hans på sosiale medier selv om det knuser meg.",
+      "suggestion": "Dragningen mot siden hans henger sammen med hvor ferskt tapet er; hvert spor gir kontakt og gjør vondt samtidig."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Jeg smilte meg gjennom hele teammøtet og gråt på toalettet etterpå.",
+      "suggestion": "Det er ikke rart at tårene trengte plass etter at du holdt deg samlet gjennom hele møtet; de fortjener plass, ikke skam."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Når jeg tenker på de siste ukene, lurer jeg på om han hadde blitt hvis jeg hadde vært morsommere eller enklere.",
+      "suggestion": "Når en du ønsket skulle bli, har gått, er det forståelig å lete etter hva du kunne gjort annerledes. Det er plass til smerten uten at alt må være din skyld."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lavmælt] Om natten blir det for stille, og jeg begynner å kjenne det som om jeg aldri egentlig var ønsket.",
+      "suggestion": "Når du har mistet en som betydde mye, kan en stille kveld vekke en vond ensomhet. At du føler deg uønsket da, gjør ikke behovet for selskap urimelig."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sint, så flau] En venninne sa at jeg måtte slutte å sjekke telefonen, og jeg freste til henne.",
+      "suggestion": "Det kan gjøre vondt å få beskjed om å slutte når du fortsatt strever med tapet. Det er plass til sinnet ditt, samtidig som det betyr noe hvordan du snakker til venninnen din."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Når jeg våkner, glemmer jeg det et sekund og så smeller det.",
+      "suggestion": "Det er forståelig at det å våkne rett inn i tapet igjen er en hard start på dagen; du rekker ikke å beskytte deg før det lander."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Jeg beklager når jeg begynner å gråte, som om sorgen min tar for mye plass.",
+      "suggestion": "Du sørger over en som var viktig, og det er forståelig at tårene kommer. Sorgen din kan få plass her. Du trenger ikke beklage at du kjenner den."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Jeg får dårlig samvittighet for å være så lei meg når dette bare er et brudd og andre har større problemer.",
+      "suggestion": "Å sammenligne tap kan få sorg til å kjennes illegitim, men det å bli forlatt er fortsatt et virkelig sår."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Vennene mine sier at jeg burde bli med ut og spise, men jeg er redd jeg kommer til å begynne å gråte ved bordet.",
+      "suggestion": "Middagen ville gjort en privat sorg synlig for alle; frykten for å gråte der er et forståelig ønske om å beskytte noe sårt."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lavmælt] Etter dette bruddet tenker en del av meg at kjærlighet må være for andre, ikke for meg.",
+      "suggestion": "Å bli forlatt kan gjøre det vondt å se for seg å stole på kjærligheten igjen. Smerten er forståelig. Det er plass til den uten at tanken må bli en dom over fremtiden din."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Flau] Jeg ba søsteren min bli til middag fordi jeg ikke ville ha enda en kveld alene. Jeg er voksen. Jeg burde ikke trenge noen bare for å komme meg gjennom en tirsdag.",
+      "suggestion": "Når du har mistet den du delte kveldene med, er det forståelig å ønske selskap på en helt vanlig tirsdag. Det er ikke noe å skamme seg over."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Skyldbetynget] Jeg hadde en fin ettermiddag uten å tenke på ham. Etterpå følte jeg meg illojal, som om det å ha det bra betydde at forholdet ikke hadde betydd noe.",
+      "suggestion": "En god ettermiddag visker ikke ut det forholdet betydde. Det er forståelig at du vil ta vare på noe som var så viktig for deg."
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skyldpreget] Jeg traff en syklist med bilen forrige uke. Veien var glatt, men han brakk likevel håndleddet, og jeg klarer ikke slutte å kjenne skyld.",
+      "suggestion": "Noen ble skadet i en ulykke du var involvert i, så skyldfølelsen er forståelig. Vi kan ta den på alvor uten å bruke følelsen alene til å avgjøre hvor stort ansvaret ditt var."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] I møter føler jeg meg avslørt hvis jeg ikke har svaret, og da bløffer jeg.",
+      "suggestion": "Å ikke ha et svar foran teamet kan kjennes sårbart, særlig når du vil bli sett som kompetent. Ubehaget er forståelig. Du trenger ikke late som du vet for å ha plass til det."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Når jeg beklager, kjennes det som å knele foran noen som kommer til å bruke det mot meg.",
+      "suggestion": "Hvis en unnskyldning kjennes som noe som kan brukes mot deg, er det forståelig å være på vakt. Det er plass til frykten samtidig som du tar ansvar for din del."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fast] Hjemme, når kona mi sukker eller himler med øynene, eksploderer jeg før jeg rekker å tenke.",
+      "suggestion": "Et sukk eller himling med øynene kan gjøre vondt når du opplever det som avvisning. Smerten og sinnet er forståelige. De unnskylder ikke at du skremmer kona di eller kjefter på henne."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Rasende] Når jeg ser på nyhetene, blir jeg så sint på folk med makt som later som konsekvenser er valgfritt.",
+      "suggestion": "Å se folk med makt slippe unna konsekvenser kan forståelig nok gjøre deg sint når rettferdighet betyr noe for deg. Det du reagerer på, fortjener å bli tatt på alvor."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Når barnet mitt spør hvorfor jeg er sint, føler jeg meg som verdens verste far.",
+      "suggestion": "Spørsmålet fra barnet ditt gjør vondt fordi det betyr noe for deg å være en trygg far. Smerten er forståelig. Å ta ansvar for sinnet betyr ikke at du må dømme deg selv som den verste faren."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fast] Å smelle med døra føles fælt etterpå, men i øyeblikket slipper jeg å føle meg liten.",
+      "suggestion": "Å føle seg liten kan gjøre vondt, og det er forståelig å ønske å komme bort fra den følelsen. Vi kan ta smerten på alvor uten at dørsmelling trenger å bli svaret på den."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] Hvis noen utfordrer meg foran teamet, dobler jeg innsatsen selv om jeg tar feil.",
+      "suggestion": "Å bli utfordret foran teamet kan kjennes pinlig når det betyr noe for deg å ha god dømmekraft. Ubehaget er forståelig, også når den andre har et godt poeng."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Jeg hater at jeg trenger hjelp med sinne; det får meg til å føle meg svak.",
+      "suggestion": "Hvis du har lært at det er svakt å trenge hjelp, kan det kjennes sårbart å be om den. Skammen er forståelig. Å trenge støtte gjør deg ikke mindre verdt å respektere."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Etter at jeg eksploderer hjemme, ligger jeg våken og ser ansiktene deres for meg mens jeg hater meg selv.",
+      "suggestion": "Å se at familien ble redd kan vekke vond anger, særlig når tryggheten deres betyr noe for deg. Smerten fortjener plass sammen med ansvaret for det som skjedde, fremfor bare å angripe deg selv."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Skamfull] Prosjektet gikk bra, men jeg ville likevel høre sjefen si at han var fornøyd. Jeg hater å trenge det. Jeg burde selv vite om jeg har gjort en ordentlig jobb.",
+      "suggestion": "Når andres godkjenning har vært så viktig, er det forståelig å ønske å høre at innsatsen din ble verdsatt. Det ønsket tar ikke fra deg evnen til å vurdere eget arbeid."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Utilpass] Jeg var redd før møtet, ikke sint. Det skjedde ikke noe galt engang. Det virker latterlig å være nervøs for folk jeg ser hver dag.",
+      "suggestion": "Hvis møtet kjennes som et sted der du kan bli kritisert, er nervøsiteten forståelig også blant folk du kjenner. Du trenger ikke avfeie den fordi møtet gikk bra."
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skjelvende] Hver presentasjon på jobb får hendene mine til å skjelve, og etterpå føler jeg meg patetisk for at jeg bryr meg så mye.",
+      "suggestion": "Å snakke mens andre ser på kan være skremmende når det betyr så mye hvordan de vurderer deg. Det er forståelig at du blir engstelig. At du skjelver, gjør deg ikke patetisk for å bry deg."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Jeg holder blikket på gulvet så ingen får en grunn til å se på meg.",
+      "suggestion": "Det er forståelig at det kjennes risikabelt å bli sett når du forventer at folk skal le av deg. Det er plass til frykten uten å dømme deg for å se ned."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Engstelig] På teamlunsjer later jeg som jeg tekster så jeg har et sted å gjemme meg under småprat.",
+      "suggestion": "Småprat kan kjennes sårbart når du er redd for å bli vurdert. Det er forståelig å ønske litt lettelse fra angsten. Den gjør deg ikke til et menneske det er noe galt med."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Når folk ler høflig etter at jeg har sagt noe, antar jeg at de prøver å komme seg unna meg.",
+      "suggestion": "Å ikke vite hva latteren betyr kan være ubehagelig når du er redd for å være uønsket. Bekymringen er forståelig, selv om latteren ikke sier sikkert hva de tenker."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Komplimenter preller av; en del av meg vil tro på dem, men den mistenksomme delen vinner.",
+      "suggestion": "Det kan være vanskelig å stole på ros når du er så vant til å finne feil ved deg selv. Nølingen er forståelig, selv om du ønsker å tro på komplimentet."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille og skamfull] Etter at jeg har snakket i en gruppe, spiller jeg av hver setning og skammer meg for å høres klein ut.",
+      "suggestion": "Å snakke i en gruppe kan kjennes sårbart når det betyr så mye å høre til. Det er forståelig å bli usikker på seg selv etterpå. Du fortjener ikke å bli angrepet for å prøve å delta."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille og skamfull] Jeg droppet enda en lunsj med teamet, og etterpå følte jeg meg patetisk som gjemte meg i leiligheten.",
+      "suggestion": "Når det er skremmende å være med andre, er det forståelig å ville bli hjemme. Det er plass til skuffelsen over å gå glipp av noe også. Ingen av følelsene gjør deg patetisk."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Jeg skanner hvert rom etter hvem som får til mer enn meg, og så føler jeg meg defekt.",
+      "suggestion": "Å sammenligne seg med alle i rommet kan gjøre vondt når du allerede tviler på om du hører til. Smerten er forståelig. Den er ikke et bevis på at det er noe galt med deg."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nervøs, nesten smilende] Noen inviterte meg på spillkveld, og jeg hadde lyst til å gå i omtrent ti sekunder før panikken tok over.",
+      "suggestion": "Ikke rart panikken kom raskt; den samme invitasjonen traff både de ti sekundene med håp om kontakt og frykten for blottstilling."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Noen netter ligger jeg der og er sikker på at jeg alltid kommer til å være alene fordi jeg er for klein til å elskes.",
+      "suggestion": "Å lengte etter selskap og samtidig frykte at du alltid vil være alene, kan gjøre nettene vonde. Ensomheten fortjener omsorg, fremfor å bli behandlet som et bevis på at du ikke kan bli elsket."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Unnskyldende] Jeg gikk tidlig fra lunsjen med teamet. Det var fint å bli invitert, men jeg ble utslitt av å følge med alle. Jeg føler meg utakknemlig som sier det.",
+      "suggestion": "Du kan sette pris på invitasjonen og likevel bli utslitt av samtalen. Når det koster så mye å kjenne seg til rette, er det forståelig å trenge en pause."
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context",
+        "case_matrix_expansion"
+      ],
+      "text": "[Lavmælt sint] De snakket over meg hele tiden. De la sikkert ikke merke til det, men jeg var sint etterpå. Det føles smålig når jeg knapt sa noe uansett.",
+      "suggestion": "Det kan gjøre vondt å bli snakket over selv når det ikke er med vilje. Det er forståelig at du ble sint over å ikke få plass til å snakke; det gjør ikke sinnet smålig."
+    }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skamfullt] Jeg gråt over håndskriften hennes på en handleliste. Hvor dumt er ikke det?",
+      "suggestion": "Den håndskriften tilhører en som var vevd inn i hverdagen din. Det er forståelig at den berører deg.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Selvkritisk] Jeg burde klare å spise alene nå.",
+      "suggestion": "Å spise sammen var en del av førtien år. Det er forståelig at det fortsatt kan gjøre vondt å spise alene.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skyldbetynget] Jeg likte å slippe å følge med på klokken for medisinen hennes. Det høres egoistisk ut.",
+      "suggestion": "De dagene krevde stadig oppmerksomhet. Å sette pris på en pause fra det kravet trenger ikke viske ut omsorgen din for henne.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Flau] Jeg ba Tom bli på te. Jeg følte meg masete.",
+      "suggestion": "Du ønsket selskap etter en ensom dag. Det er forståelig å be en venn bli litt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Selvkritisk] Emma har nok å gjøre. Jeg burde ikke savne besøkene hennes så mye.",
+      "suggestion": "Besøkene hennes betyr noe for deg. Å savne dem betyr ikke at du ber henne gi opp sitt eget liv.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skamfullt] Jeg ble sint da noen sa at Eva hadde det bedre nå.",
+      "suggestion": "De ordene møtte ikke tapet ditt. Det er forståelig at du ble sint fremfor trøstet.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skyldbetynget] Vi kranglet om vanlige ting. Jeg skulle ønske jeg kunne si at jeg alltid var snill.",
+      "suggestion": "Du husker et virkelig forhold, med kjærlighet og uenigheter. Det trenger ikke ha vært feilfritt for å ha betydd noe.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Flau] Jeg beholdt kåpen hennes. Folk må tro jeg har satt meg fast.",
+      "suggestion": "Den kåpen betyr fortsatt noe for deg. Du skylder ingen en frist for å bestemme hva du vil beholde.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Selvkritisk] Jeg var lei av å ha omsorgen, selv om jeg elsket henne.",
+      "suggestion": "Omsorgen kunne slite deg ut samtidig som du elsket henne. Begge deler fortjener å bli hørt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skyldbetynget] Å le på verkstedet kjentes nesten respektløst.",
+      "suggestion": "Den gleden kan høre til i dagen din sammen med kjærligheten og sorgen. Den trenger ikke være en dom over noen av delene.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skamfullt] Noen ganger vil jeg ha en stille dag uten at noen spør hvordan det går.",
+      "suggestion": "Du kan trenge en pause fra å forklare deg, selv når folk mener det godt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Usikkert] Jeg snakker fortsatt til bildet hennes. Er det galt?",
+      "suggestion": "Det høres ut som en måte du holder henne nær på. Vi kan være nysgjerrige på hva det betyr for deg, uten å kalle det galt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skamfullt] Jeg likte frokosten alene. Så tenkte jeg: Hva slags ektemann liker det?",
+      "suggestion": "En stille frokost kan være god etter krevende år. Det øyeblikket trenger ikke dømme hele ekteskapet ditt.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Selvkritisk] Jeg savner henne, men ikke den endeløse ventingen på sykehuset. Jeg burde ikke skille dem.",
+      "suggestion": "Du kan savne Eva og ikke savne belastningen ved de besøkene. Det er ikke det samme.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skyldbetynget] Tom hjalp, og så ville jeg at han skulle gå. Jeg er håpløs.",
+      "suggestion": "Du kan ønske selskap og senere trenge stillhet. Behov som endrer seg, gjør deg ikke håpløs.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Flau] Jeg er irritert på Emma fordi hun er opptatt. Jeg vet at det er urettferdig.",
+      "suggestion": "Du vil ikke gi Emma skylden, og du savner henne. Det vonde fortjener plass selv om du respekterer tiden hennes.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Lavt] Jeg smilte av et minne og så gråt jeg. Jeg klarer ikke engang holde én følelse på plass.",
+      "suggestion": "Et minne kan vekke varme og tap sammen. Du trenger ikke velge én følelse for at det skal gi mening.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Selvkritisk] Jeg vil at folk skal spørre, og så hater jeg å svare. Det er latterlig.",
+      "suggestion": "Du kan ønske å bli husket uten å måtte forklare alt hver gang. Det er et forståelig ønske.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skamfullt] Jeg er sint over avgjørelser vi tok under sykdommen hennes. Hun kan ikke svare nå.",
+      "suggestion": "Uferdig sinne kan bli igjen i et forhold som betydde noe. Å høre det trenger ikke bety å sette henne på tiltalebenken.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Nølende] Jeg vil endre soverommet, men ikke få det til å se ut som om hun aldri bodde der.",
+      "suggestion": "Du ser etter rom til å leve nå og samtidig beholde spor som betyr noe. Det er forståelig å ta seg tid til det.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skyldbetynget] Jeg er lei av å bli bedt om å fortelle glade historier om henne.",
+      "suggestion": "Du kan ha henne kjær og trenge en pause fra å fremføre glade minner for andre.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Selvkritisk] Den dårlige dagen kom etter en god. Jeg må ha lurt meg selv.",
+      "suggestion": "En vanskelig dag gjør ikke gårsdagens glede falsk. Begge deler kan høre til i disse dagene.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Flau] Jeg sa nei til besøk. Så ble jeg ensom likevel.",
+      "suggestion": "Å si nei kan ha møtt ett behov, mens ensomheten ble igjen. Det betyr ikke at valget var dumt.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Lavt] Jeg vil ha hjelp, men ikke at noen bestemmer hvordan jeg skal huske henne.",
+      "suggestion": "Du kan søke hjelp og beholde retten til å bestemme hvordan du husker Eva. Begge deler har plass her.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Bestemt] Jeg ber deg ikke si at alle valgene mine var riktige. Jeg trenger bare at slitenheten blir hørt.",
+      "suggestion": "Jeg kan høre hvor utmattende det var uten å avgjøre om alle valg var riktige. Den belastningen fortjener plass.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Oppmerksom] «Normal sorg» høres ut som å få beskjed om ikke å klage.",
+      "suggestion": "En generell merkelapp trenger ikke erstatte akkurat det som gjør vondt for deg. Opplevelsen din fortjener oppmerksomhet her.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Lavt] Jeg ønsket tid for meg selv mens hun var syk. Jeg vil ikke at du skynder deg å frikjenne meg.",
+      "suggestion": "Vi kan høre behovet for egen tid uten å skynde oss til en dom over deg.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Tørt] Jeg vet at jeg har lov til å glede meg. Det stanser ikke skylden.",
+      "suggestion": "Tillatelse alene når ikke det som skjer inni deg. Skylden er fortsatt verdt å forstå.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Avventende] Jeg vil ikke beholde kåpen hennes for alltid. Jeg vil heller ikke bestemme meg i dag.",
+      "suggestion": "Du kan la avgjørelsen være åpen i dag uten å love noe om alltid.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Bestemt] Jeg er sint på henne, og jeg elsker henne fortsatt. Ikke kall det bare smerte under.",
+      "suggestion": "Selve sinnet betyr noe sammen med kjærligheten. Vi trenger ikke erstatte det med noe enklere å høre.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Lavt] Jeg ønsker selskap, men er ikke klar til å fortelle venner hele historien.",
+      "suggestion": "Du kan be om selskap og holde deler av historien privat. Du skylder ikke hele fortellingen.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Forsiktig] Emma sørger også. Det betyr ikke at jeg alltid må se ut som om alt er fint.",
+      "suggestion": "Sorgen hennes betyr noe, og behovene dine også. Du trenger ikke forsvinne fra forholdet for å beskytte henne.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Nølende] Jeg tørket støv av bildet hennes uten å stoppe og se. Så gikk jeg tilbake for å kjenne om jeg følte noe.",
+      "suggestion": "Du tok deg i å lete etter en følelse. Du trenger ikke få frem en følelse her for at vi skal ta dette på alvor.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Rynker pannen] Jeg trenger råd om ytelsene. Jeg unngår ikke sorgen ved å si det.",
+      "suggestion": "Det er et virkelig praktisk behov. Det kan fortjene oppmerksomhet uten å måtte avdekke en annen følelse først.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Lavt] Jeg vil ikke ha en endelig avslutning. Jeg vil ha en torsdag jeg kan holde ut.",
+      "suggestion": "Vi kan begynne med hva som ville gjøre torsdagen til å holde ut. Du trenger ikke ønske en endelig løsning.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Oppmerksom] Jeg er takknemlig for de gode årene. Det opphever ikke de vanskelige.",
+      "suggestion": "Takknemligheten kan stå sammen med det vanskelige. Ingen av delene trenger å oppheve den andre.",
+      "difficulty": "hard"
+    }
+  ],
+  "case-mia": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Flau] Jeg gråt over å legge bort en blyant. Det høres så lite ut.",
+      "suggestion": "Den blyanten hører til noe du er glad i. Det kan gjøre vondt å måtte stoppe, selv om gjenstanden er liten.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Sint] Jeg burde ikke bli så opprørt over at Alex åpnet et glass.",
+      "suggestion": "Det er forståelig å ville ha hjelp som gir rom for ditt valg. Glasset var en del av det øyeblikket.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skamfull] Alle andre står gjennom omvisningen. Jeg føler meg utilpass når jeg sitter.",
+      "suggestion": "Du tar hensyn til en reell grense. At du trenger å sitte, gjør ikke bidraget ditt mindre verdifullt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skyldfull] Alex er snill, og jeg vil likevel at han spør først.",
+      "suggestion": "Både omsorgen hans og ønsket ditt om å bli spurt kan få betydning.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Frustrert] Jeg blir sint når folk sier at jeg ser frisk ut.",
+      "suggestion": "Når det betyr at de overser begrensningene dine, er sinnet forståelig.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Trist] Jeg vet at andre har det verre. Jeg savner likevel de gamle kveldene mine.",
+      "suggestion": "Andres vansker visker ikke ut kveldene du har mistet.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Selvkritisk] Jeg avlyste igjen. Jeg må være en skuffende venn.",
+      "suggestion": "Du ville dra og orket ikke. At du måtte avlyse, sier ikke hvor mye du bryr deg om dem.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Nølende] Er det egoistisk å ville bruke den rolige timen på tegning?",
+      "suggestion": "Det er forståelig å ønske å bruke noe av kreftene på noe du er glad i.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Urolig] Jeg sa til Sam at jeg trengte et kortere møte. Jeg føler meg kravstor.",
+      "suggestion": "Du fortalte hva du kunne klare. Det behovet fortjener å bli hørt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Med tårer] Jeg er lei av å være tapper med dette.",
+      "suggestion": "Her trenger du ikke gjøre det lettere for andre ved å høres tapper ut.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Usikker] Jeg var glad på jobb. Gjør det tristheten mindre virkelig?",
+      "suggestion": "Gleden i det øyeblikket opphever ikke det du er trist over.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Bestemt] I dag vil jeg ha praktisk hjelp, ikke en dyp samtale.",
+      "suggestion": "Det er forståelig å velge praktisk hjelp i dag. Du kan si hva slags arbeid som vil være nyttig.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skyldfull] Alex handlet. Jeg takket ham, men savnet å velge ting selv.",
+      "suggestion": "Du kan sette pris på innsatsen og savne et valg som betydde noe. Følelsene opphever ikke hverandre.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Flau] Jeg vil ha stolen, men hater at den får meg til å skille meg ut.",
+      "suggestion": "Det er forståelig å trenge tilpasningen og ville høre til uten å bli midtpunktet.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Selvkritisk] Jeg er lettet over å slippe festen. En god venn ville ikke vært det.",
+      "suggestion": "At du trenger lettelse fra kravene, betyr ikke at vennene dine ikke er viktige.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Sint] Jeg burde ikke måtte holde foredrag om sykdommen for å få et kortere møte.",
+      "suggestion": "Det er forståelig å ønske en tilpasning uten stadig å måtte bevise behovet.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Trist, smiler] Det er bare en tegning. Men jeg ville gjøre den ferdig selv.",
+      "suggestion": "Den rommer ønsket om å lage noe eget. Det ønsket fortjener plass sammen med begrensningen.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skamfull] Jeg ba Ella bli. Så ønsket jeg at jeg kunne være den som tok vare på henne.",
+      "suggestion": "Både ønsket om selskap og ønsket om å gi omsorg kan høre til i å være søsteren hennes.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Urolig] Jeg er glad Sam la merke til det, men vil ikke at han sjekker meg hele dagen.",
+      "suggestion": "At du verdsetter oppmerksomheten, tar ikke bort behovet for privatliv og valg.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skyldfull] Jeg snakket skarpt. Men jeg hadde et poeng.",
+      "suggestion": "Poenget kan fortjene å bli hørt, samtidig som du tar ansvar for måten du snakket på.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Med tårer] Jeg vil ikke at takknemlighet skal være prisen for å få hjelp.",
+      "suggestion": "Du kan trenge hjelp uten å måtte vise takknemlighet hver gang.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Bekymret] Jeg er redd for neste måned, selv om det ikke har skjedd noe nytt.",
+      "suggestion": "Å ikke vite hvilke krefter du vil ha, kan være skremmende uten at noe nytt har skjedd.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Nølende] Jeg likte å ha huset for meg selv, selv om Alex hjalp til ute.",
+      "suggestion": "At du likte litt plass, gjør ikke omsorgen hans uønsket eller deg likegyldig.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Bestemt, sliten] Jeg har følelser rundt det. Jeg kan bare ikke jobbe med dem i dag.",
+      "suggestion": "Du kan ha de følelsene og velge å ikke utforske dem med dagens krefter.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skamfull] Ella spurte på en ordentlig måte. Jeg ble likevel såret. Det gjør meg urettferdig, ikke sant?",
+      "suggestion": "Det såre kan være der selv når noen spør godt. Vi trenger ikke klandre henne for å gi det plass.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Bestemt] Jeg avviser ikke hjelp for å bevise noe. Den hjelpen passer ikke.",
+      "suggestion": "Du kan vurdere om tilbudet passer. Å avslå trenger ikke forklares som et forsøk på å bevise noe.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skyldfull] Jeg angrer på at jeg var skarp. Ikke si at smertene rettferdiggjorde alt.",
+      "suggestion": "Det er også forståelig å angre på tonen. Smertene fortjener omsorg uten å unnskylde hvert ord.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Lavt] Jeg ville at innsatsen ble sett. Jeg hater den vanlige rosen for den.",
+      "suggestion": "At du ønsker anerkjennelse, betyr ikke at du må like ros som bommer på det viktige.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Urolig] Den gode dagen var ekte. Det var også behovet for to rolige dager etterpå.",
+      "suggestion": "Begge deler hører til opplevelsen din. Gleden motbeviser ikke tiden du trengte til å hente deg inn.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Tørr latter] Jeg vil ha vanlige klager. Ikke at alt jeg sier blir «om sykdommen».",
+      "suggestion": "Du fortjener plass til vanlige frustrasjoner uten at hver av dem blir redusert til diagnosen.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Trist] Jeg er ikke klar for å kalle dette en ny begynnelse. Det er en mindre ettermiddag.",
+      "suggestion": "Du kan kalle det en mindre ettermiddag. Vi trenger ikke gi tapet et oppmuntrende navn.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Nølende] Jeg kan være takknemlig og ikke ville snakke om takknemlighet i dag.",
+      "suggestion": "Du kan velge hva som trenger plass i dag uten å måtte bevise at du verdsetter hjelpen.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Sint, usikker] Jeg er opprørt over et reelt problem. Jeg lar også noe av det gå ut over Alex.",
+      "suggestion": "Problemet kan være reelt, og det kan også være viktig å se hvordan du har behandlet Alex.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Lavt] Jeg ba om stolen uten å føle meg trygg. Jeg måtte likevel spørre.",
+      "suggestion": "Du trengte ikke trygghet for å be om en tilpasning du hadde behov for.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Sliten] Jeg vil la noe være uferdig uten at det blir kalt unngåelse.",
+      "suggestion": "Å stoppe ved grensen for kreftene dine kan være et valg å respektere, selv om noe er uferdig.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-mia_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Berørt, på vakt] Å bli trodd hjelper. Det fikser ikke hendene mine.",
+      "suggestion": "Begge deler er sant. Å bli hørt betyr noe uten å måtte endre den fysiske grensen.",
+      "difficulty": "hard"
+    }
+  ],
+  "case-nora": [
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Selvkritisk] Jeg er fortsatt opprørt over kommentaren om et «norsk ansikt».",
+      "suggestion": "Kommentaren stilte spørsmål ved plassen din foran eget arbeid. Det er forståelig å være opprørt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Sint] Jeg burde ikke måtte svare på hvor jeg egentlig kommer fra igjen.",
+      "suggestion": "Det er forståelig å ville at det første svaret blir godtatt, uten å forsvare tilhørigheten din.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skamfull] Jeg smilte i møtet. Kanskje det betyr at jeg ikke kan klage.",
+      "suggestion": "Å smile for å komme gjennom møtet gjør ikke kommentaren akseptabel eller det såre borte.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skyldfull] Max mener det godt. Jeg vil likevel at han spør før han snakker for meg.",
+      "suggestion": "Både støtten hans og ønsket om å snakke selv kan bety noe.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Flau] Jeg gråt etter jobb. Jeg skal jo være profesjonell.",
+      "suggestion": "Å være profesjonell betyr ikke at utestenging ikke kan såre deg.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Sliten] Jeg vil ikke gjøre forklaringsjobben i kveld.",
+      "suggestion": "Du kan velge hvile uten å måtte bortforklare det som skjedde.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Nølende] Jeg ville at noen la merke til tegningene, ikke beundret motstandskraften min.",
+      "suggestion": "Det er forståelig å ville bli sett for det du kan og arbeidet du gjør.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Usikker] Jeg hadde en fin kveld. Gjorde jeg for mye ut av møtet?",
+      "suggestion": "En fin kveld beviser ikke at møtet var harmløst. Begge opplevelsene kan være ekte.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Lavt] Jeg vil velge når jeg tar det opp.",
+      "suggestion": "Det valget fortjener plass. Du skylder ingen et umiddelbart svar.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Selvkritisk] Jeg trengte at Lina lyttet mer enn én gang.",
+      "suggestion": "En vanskelig opplevelse kan trenge mer enn én samtale. Det er forståelig å trenge å bli hørt igjen.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Sint] Jeg vil ha æren for arbeidet jeg faktisk gjorde.",
+      "suggestion": "Det er rimelig å be om anerkjennelse for bidraget ditt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Bestemt] Jeg vil ikke være den som forklarer alles erfaringer.",
+      "suggestion": "Du kan snakke for deg selv uten å representere en hel gruppe.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skyldfull] Max stilte opp for meg. Jeg ville likevel få bestemme hva han sa.",
+      "suggestion": "Støtten hans opphever ikke retten til å velge hvordan opplevelsen din blir omtalt.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Urolig] Jeg kan ikke bevise hvorfor den avbrytelsen kom. Jeg er fortsatt urolig.",
+      "suggestion": "Du kan være urolig uten å vite hva han mente. Det er plass til den usikkerheten også.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skamfull] Jeg fortsatte høflig. Etterpå ønsket jeg at jeg hadde sagt noe.",
+      "suggestion": "Både å komme gjennom øyeblikket og senere ønske et annet svar kan være forståelig.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Trist, så smiler] Jeg har fortsatt en god jobb. Så hvorfor betyr kommentaren så mye?",
+      "suggestion": "At jobben er viktig for deg, gjør ikke utestenging i den harmløs.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Selvkritisk] Jeg er lei av å forklare, men vil også bli forstått.",
+      "suggestion": "Å ønske forståelse betyr ikke at du har ubegrensede krefter til å få den til.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Lavt] Jeg vet ikke om jeg vil klage formelt. Jeg føler meg feig.",
+      "suggestion": "Valget har reelle kostnader å vurdere. Å ikke vite ennå er ikke bevis på feighet.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skyldfull] Jeg likte å glemme det en stund.",
+      "suggestion": "Å bruke litt tid på glede betyr ikke at du godtar det som skjedde.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Sint, angrende] Jeg glefset til Adam. Jeg hadde god grunn til å være opprørt, ikke til å glefse til ham.",
+      "suggestion": "Det opprørte fortjener omsorg, og angeren over hvordan du snakket fortjener også plass.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Nølende] Jeg vil ha anerkjennelse uten å bli mangfoldets suksesshistorie.",
+      "suggestion": "Du kan ønske vanlig anerkjennelse for bidraget uten å bli en fortelling for firmaet.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Selvkritisk] Lina trodde meg. Hvorfor fortsatte jeg å vise bevisene?",
+      "suggestion": "Etter stadig å få svaret ditt betvilt er trangen til å bevise det forståelig, selv når hun tror deg.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Bestemt] Jeg vil ha hjelp til å velge, ikke oppmuntring til å være modig.",
+      "suggestion": "Du kan be om den hjelpen. Et valg trenger ikke bli en demonstrasjon av mot.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Lavt] Jeg kan ikke snakke for alle med en bakgrunn som min.",
+      "suggestion": "At du deler noe av en bakgrunn, gjør deg ikke ansvarlig for å forklare alles erfaringer.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Lavt] Jeg er ikke forvirret om hvor jeg hører til. Jeg er lei av at det blir bestridt.",
+      "suggestion": "Du trenger ikke et identitetsproblem for at de gjentatte spørsmålene skal såre.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Nølende] Max hadde rett. Det gjorde ikke det å snakke for meg greit.",
+      "suggestion": "At ordene hans stemte, erstatter ikke valget ditt om hvem som snakker for deg.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Skyldfull] Jeg angrer på at jeg glefset til Adam. Ikke rettferdiggjør alt med møtet.",
+      "suggestion": "Det såre fortjener omsorg, og det kan også bety noe å ta ansvar for at du glefset.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Urolig] Jeg er usikker på i dag. Jeg trekker ikke tilbake det jeg sa om Ben.",
+      "suggestion": "Du kan beholde dagens usikkerhet uten å trekke tilbake den konkrete utestengingen.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Bestemt] Jeg valgte stillhet den gangen. Ikke si at jeg sviktet meg selv.",
+      "suggestion": "Stillhet kan være et gjennomtenkt valg. Kostnaden gjør det ikke til et svik mot deg selv.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Trist] Jeg vil ha arbeidet tilbake i forgrunnen. Det er ikke fornektelse.",
+      "suggestion": "Å ønske plass til faget betyr ikke at du benekter det som skjedde.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Lavt] Jeg ville ha anerkjennelse. Jeg mislikte oppmerksomheten da den kom.",
+      "suggestion": "Å ønske anerkjennelse betyr ikke at du må like hver form den får.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Sliten] Jeg har ingen lærdom fra dette. Bare mindre krefter i kveld.",
+      "suggestion": "Du skylder ingen en lærdom. Kostnaden for kvelden fortjener å bli hørt som den er.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Berørt, på vakt] Å bli trodd hjelper. Det gir meg ikke presentasjonen tilbake.",
+      "suggestion": "Begge deler kan være sant. Å bli hørt betyr noe uten å gi den tapte muligheten tilbake.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Tørr latter] Noen ganger er jeg irritert av grunner som ikke har noe med dette å gjøre.",
+      "suggestion": "Du fortjener vanlige frustrasjoner også, uten at alle reduseres til én fortelling om deg.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Nølende] Jeg ba om anerkjennelsen uten å føle meg modig.",
+      "suggestion": "Du trengte ikke føle deg modig for at beskjeden skulle være rimelig.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-affirmation-validation_case-nora_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "text": "[Lavt] Jeg vil ha hjelp til å velge. Jeg vil ikke at valget feires før jeg har tatt det.",
+      "suggestion": "Du kan trenge tid og støtte uten at et foretrukket resultat blir kunngjort for deg.",
+      "difficulty": "hard"
+    }
+  ]
+}

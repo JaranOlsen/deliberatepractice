@@ -1,0 +1,171 @@
+{
+  "id": "mastery-nora-work-and-belonging-moderate",
+  "type": "mastery",
+  "caseId": "case-nora",
+  "difficulty": "moderate",
+  "supportedLevels": [
+    "moderate"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Nora · Arbeid og tilhørighet",
+  "orientation": "Tolv sammenhengende øyeblikk om utestenging, viktig arbeid og en egen stemme. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "scenes": [
+    {
+      "id": "mastery_nora_moderate_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-nora_moderate_01",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Viktig arbeid og belastningen ved å bevise tilhørighet kommer sammen.",
+      "prompt": "Speil begge uten å redusere jobben til problemet.",
+      "text": "[Smiler svakt] Jeg elsker arbeidet. Jeg hater å øve på å bevise at jeg hører til før møtet.",
+      "suggestion": "Du vil gjøre arbeid du liker uten å forberede et forsvar for plassen din der."
+    },
+    {
+      "id": "mastery_nora_moderate_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-nora_moderate_01",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "bridge": "Nora spør om å undersøke forventninger betyr å tvile på utestengingen.",
+      "prompt": "Forklar forskjellen mellom et uklart øyeblikk og konkrete hendelser.",
+      "text": "[På vakt] Hvis vi ser på forventningene mine, ender vi med å si at diskrimineringen er i hodet mitt?",
+      "suggestion": "Vi kan skille dette uklare øyeblikket fra den konkrete utestengingen uten å tvile på det Ben sa."
+    },
+    {
+      "id": "mastery_nora_moderate_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-nora_moderate_04",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "bridge": "I et annet øyeblikk gjør det å verdsette jobben det vanskeligere å forsvare det såre.",
+      "prompt": "Valider det såre uten å avvise det hun verdsetter.",
+      "text": "[Trist, så smiler] Jeg har fortsatt en god jobb. Så hvorfor betyr kommentaren så mye?",
+      "suggestion": "At jobben er viktig for deg, gjør ikke utestenging i den harmløs."
+    },
+    {
+      "id": "mastery_nora_moderate_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-nora_moderate_02",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "bridge": "Hun kan si hva som var feil, men ikke virkningen ved pulten.",
+      "prompt": "Spør om opplevelsen uten å kreve en ferdig forklaring.",
+      "text": "[Lavt] Jeg vet at ordene var feil. Jeg vet mindre om hvorfor jeg ikke kunne jobbe etterpå.",
+      "suggestion": "Hva kom frem da du vendte tilbake til tegningene?"
+    },
+    {
+      "id": "mastery_nora_moderate_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-nora_moderate_02",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "bridge": "Det såre er til stede, fulgt av å forklare hvorfor det burde såre.",
+      "prompt": "Undersøk det såre uten å få henne til å forsvare det.",
+      "text": "[Såret] Det såret, og så begynte jeg å forsvare hvorfor det skulle såre.",
+      "suggestion": "Hvordan er det å la det såre være her uten å bygge et forsvar for det?"
+    },
+    {
+      "id": "mastery_nora_moderate_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-nora_moderate_10",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "bridge": "En annen fortelling stopper ved den personlige virkningen.",
+      "prompt": "Undersøk én liten gjetning om det som gjør deling vanskelig.",
+      "text": "[Raskt] Jeg kan forklare kommentaren tydelig. Jeg stopper ved det den gjorde med meg.",
+      "suggestion": "Jeg lurer på om det kjennes mer sårbart å gi det såre ord enn å sitere kommentaren?"
+    },
+    {
+      "id": "mastery_nora_moderate_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-nora_moderate_01",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "bridge": "Nora bruker en konkret beskrivelse av å forberede et møte.",
+      "prompt": "Gjør beskrivelsen nærere og undersøk om den passer.",
+      "text": "[På avstand] Jeg har en portefølje og en forklaring om tilhørighet. Begge kommer til møtet.",
+      "suggestion": "Er det som å bære to sett papirer når du bare ville drøfte tegningene?"
+    },
+    {
+      "id": "mastery_nora_moderate_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-nora_moderate_01",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "Et ønske om å få arbeidet sett går over til å forsvare firmaet.",
+      "prompt": "Behold det gode arbeidet i bildet mens du inviterer tilbake.",
+      "text": "[Såret, så nyanserer] Jeg ville at arbeidet ble sett. Firmaet gjør godt arbeid, rett skal være rett.",
+      "suggestion": "Det kan fortsatt være sant. Vil du gå tilbake til det du ville ha sett i dette øyeblikket?"
+    },
+    {
+      "id": "mastery_nora_moderate_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-nora_moderate_02",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "bridge": "Et senere emosjonelt øyeblikk rommer sinne og det såre sammen.",
+      "prompt": "Lytt etter begge og følg tempoet hennes.",
+      "text": "[Sint, skjelven] Jeg vil at du hører det såre også, ikke bare sinnet.",
+      "suggestion": "Jeg lytter etter begge deler. Vi kan gå langsomt nok til å høre det du vil si."
+    },
+    {
+      "id": "mastery_nora_moderate_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-nora_moderate_11",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Et annet øyeblikk gir et valg om å la temaet ligge i dag.",
+      "prompt": "Speil pausen uten å gjøre hendelsen mindre viktig.",
+      "text": "[Sliten] Jeg vil ikke si noe i dag. Ikke fordi det ikke er noe å si.",
+      "suggestion": "Du velger en pause fra å snakke, mens det som skjedde fortsatt fortjener å bli hørt."
+    },
+    {
+      "id": "mastery_nora_moderate_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-nora_moderate_01",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Nora merker plass til både å verdsette og protestere.",
+      "prompt": "Undersøk forskjellen hun vil ta med seg.",
+      "text": "[Ettertenksom] Jeg kan elske arbeidet og protestere mot hvordan jeg ble behandlet.",
+      "suggestion": "Hva hjalp deg å gi begge deler plass?"
+    },
+    {
+      "id": "mastery_nora_moderate_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-nora_moderate_03",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "Tiden er snart ute, med det såre fortsatt til stede.",
+      "prompt": "Avslutt timen uten å gjøre det å gå til det samme som å ha løst noe.",
+      "text": "[Trist, stødig] Jeg kan gå med det såre. Ikke si at det betyr at det er avklart.",
+      "suggestion": "Vi kaller det ikke avklart. Vi kan avslutte timen og notere hvor vi fortsetter."
+    }
+  ]
+}

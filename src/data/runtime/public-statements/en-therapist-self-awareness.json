@@ -1,0 +1,440 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_therapist-self-awareness_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Loving] I was crying on the bed last night and my dog climbed up beside me like he always does. He put his head on my leg and stayed there while I talked to him about the breakup. It sounds silly, but he is the only one who never seems tired of me being sad. I do not know where I would be without him.",
+      "suggestion": "[Self-awareness] I notice warmth in my chest and a wish to comfort her. I can hold both privately while listening, without acting on the rescuing impulse."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nervous] I am glad I booked this, but I am also nervous because I have never really done therapy before. Part of me worries I will just sit here and talk about him for an hour and you will think this is not a real problem. Another part of me is scared that if I start talking, I will cry and not be able to stop.",
+      "suggestion": "[Self-awareness] I notice a pull to reassure her quickly and organize the session for her. I pause and notice my breathing before letting that urge decide what I do."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] Since I moved apartments after the breakup, everything feels unfamiliar. The neighbors are louder, the streets are busier, and I keep comparing it to the old place where I knew exactly what sounds belonged where. I know that is a small thing, but I feel jumpy and out of place all the time. Can you help me settle into this?",
+      "suggestion": "[Self-awareness] I notice a practical problem-solving impulse and some protectiveness toward her; I would track that urge and stay aware of my own wish to make the move easier."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Uncomfortable] Last night I had a strange dream that I was back in the old apartment packing boxes. I could hear him in another room, but every time I opened a door it was empty. Then you were suddenly there helping me tape a box shut. I felt relieved in the dream, and then I woke up embarrassed that you were in it at all.",
+      "suggestion": "[Self-awareness] I notice curiosity, a little embarrassment, and a wish to interpret the dream. I can notice those reactions privately without turning them into an interpretation or a disclosure to her."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hopeful] I keep thinking that maybe therapy can help me get my life back, even if that sounds dramatic. I read about people learning to stop repeating the same relationship patterns, and I want that so badly. At the same time, I am afraid of getting hopeful in front of you because then I might disappoint both of us if I stay stuck.",
+      "suggestion": "[Self-awareness] I feel encouraged by her hope and also pressure to deliver; I would notice the pressure in my chest without making promises to relieve it."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] My friends keep saying I should date again, and I keep asking them what they would do because I do not trust myself. Part of me wants you to just tell me whether it is a terrible idea. I know therapists probably do not do that, but I am tired of making decisions and then wondering if I ruined everything.",
+      "suggestion": "[Self-awareness] I notice the pull to advise and rescue her from uncertainty; I would say to myself that the urge is mine to hold, not something I need to act out."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] I hate admitting this, but after our last session I kept wishing you would somehow check on me. I know that is not how therapy works, and I feel needy even saying it. I almost cancelled today because I thought you would hear that and think I am too attached or too much already.",
+      "suggestion": "[Self-awareness] I notice tenderness and a pull to offer extra contact; I would track the wish to soothe while protecting my own and the client's boundaries."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] I can feel myself getting close to crying, and I hate that it is happening this early in the session. I am worried you will see me as dramatic or pathetic, even though I know that is probably not fair. I keep swallowing it down because once I start, I am scared I will look like someone who cannot handle normal life.",
+      "suggestion": "[Self-awareness] I notice an urge to reassure her that crying is acceptable; I would first notice my own softened face and the impulse to protect her from shame."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] I keep watching your face while I talk, and if you look serious I start wondering whether I said too much. I know you are probably just listening, but I get busy trying not to make you uncomfortable. Then I lose track of what I was saying because I am checking whether you can still handle me.",
+      "suggestion": "[Self-awareness] I notice the unusual feeling of being managed by the client and a wish to prove I am comfortable; I would ground that reaction before speaking."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] I moved apartments after the breakup, and I thought unpacking would make me feel like I was starting over. Instead every box feels like proof that I am doing this alone. I found mugs we bought together and stood there for twenty minutes, then I felt ridiculous because people move on from breakups all the time.",
+      "suggestion": "[Self-awareness] I notice sadness and a wish to soften her loneliness. I can stay aware of the sadness without rushing to comfort her or asking her to take care of my reaction."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "case_matrix_expansion"
+      ],
+      "text": "[Quietly pleased] I went to the café on my own this weekend. I didn't spend the whole time checking my phone. I wanted to tell you, even though it isn't much.",
+      "suggestion": "[Self-awareness] I notice warmth and an urge to praise her quickly. I can stay with that warmth without deciding for her how much this matters."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "case_matrix_expansion"
+      ],
+      "text": "[Apologetic] You look tired today. We could talk about something lighter. I don't want you going home with my sadness as well as everyone else's.",
+      "suggestion": "[Self-awareness] I notice relief at her offer and then discomfort about that relief. I would hold both privately rather than let her take care of me."
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_therapist-self-awareness_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Beginning of first session] My wife says I need therapy, and I am trying to take that seriously before I mess things up more at home. I do not want to sit around blaming my childhood for everything, though. I need tools I can actually use when my temper starts climbing, because once it is up I can hear myself getting louder and I still do not stop.",
+      "suggestion": "[Self-awareness] I notice a pull to become useful fast and prove therapy can help; I would track the pressure in my shoulders before responding."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] My last coach gave me breathing tools in two sessions, and at least that felt practical. I am not saying it fixed everything, but I knew what I was supposed to do. I hope this is not going to be a long tour through childhood while my wife is at home deciding whether she can stand me. I need to know you have a plan.",
+      "suggestion": "[Self-awareness] I notice defensiveness on behalf of the therapy and a wish to compete with the previous coach. I keep that reaction private and notice the pressure to prove myself before responding."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] My son asked if I was mad at him after I snapped at my wife, and I could see he was trying to read the room. I told him no, but his face stayed careful. All night I wanted someone to tell me I had not ruined everything. Then I hated that I needed reassurance like that, because I am supposed to be the adult.",
+      "suggestion": "[Self-awareness] I notice guilt and a strong wish to reassure him that he has not ruined everything; I would breathe into that rescuing impulse and keep it visible to myself."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] My boss corrected one line in my report in front of two people, and it was not even a major correction. I nodded, fixed it, and looked normal. But on the drive home I kept hearing his voice and imagining what everyone thought. By the time I walked in the door, my jaw hurt and I was already short with my wife.",
+      "suggestion": "[Self-awareness] I notice tension in my own jaw and a pull to normalize the correction; I would track how quickly I want to reduce his shame."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] If I apologize first, my wife acts like that proves the whole fight was my fault. Maybe she does not say that directly, but that is how it feels. Then I look weak, and she gets to be the reasonable one again. I know that sounds petty, but I cannot stand handing someone proof that they won.",
+      "suggestion": "[Self-awareness] I notice an urge to persuade him to apologize and a tightening in my chest. I recognize the urge as mine and pause before letting it become pressure on him."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Awkward] I am not used to talking like this. At work I can run a meeting with ten people and make decisions quickly, but in here I lose my words and feel stupid. If I get quiet, it does not mean I do not care. It means I am trying not to say something that makes me sound either weak or like a jerk.",
+      "suggestion": "[Self-awareness] I notice warmth toward his effort and a wish to make this easier for him; I would stay aware of that tenderness without taking over."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Firm] If we are not fixing my temper fast, I start feeling like I am failing at therapy too. That probably sounds like I am trying to grade you, but I grade myself first. I came here because I do not want to scare my family, and if I keep having the same reactions then I wonder whether I am just bad at this like everything else emotional.",
+      "suggestion": "[Self-awareness] I notice performance pressure moving into me, as if I need to show progress quickly; I would name that pressure internally and slow my breathing."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] My dad was strict, but that is how men learned discipline where I grew up. You did not talk back, you did not complain, and you did not make every feeling into an event. Part of me thinks people now are too soft, and part of me knows I sound exactly like him when I say that. I do not know what you are going to do with that.",
+      "suggestion": "[Self-awareness] I notice assumptions about masculinity and a wish to soften his stance; I would keep my own values in view without turning them into a correction."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] People at work are soft now. If you ask for standards, they act like you attacked their identity. I know saying that probably makes me sound like the problem, and maybe it bothers you. But if it does, maybe you just do not get my world. I need someone who can handle directness without turning me into the villain.",
+      "suggestion": "[Self-awareness] I notice irritation and a wish to defend against being tested; I would quietly label that defensiveness so I can keep listening."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] If I let up even a little, people walk over me. I have seen it happen at work and at home. Someone pushes, I try to stay calm, and then suddenly I am the one backing down while they decide what happens next. I hate that feeling. It is like everyone can see I lost position before I even know what I feel.",
+      "suggestion": "[Self-awareness] I notice my shoulders bracing and an urge to calm him down; I would track the bracing as information about the pressure in the room."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "case_matrix_expansion"
+      ],
+      "text": "[Pleased but awkward] My son asked me to help with his bike. We managed it without me snapping once. He stayed beside me afterwards. I didn't know what to do with that.",
+      "suggestion": "[Self-awareness] I feel moved and want to make this a success story. I notice that eagerness and leave room for his less tidy experience."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "case_matrix_expansion"
+      ],
+      "text": "[Matter-of-fact] I made a spreadsheet of every argument this month. I thought you could identify the pattern and tell me exactly what to change.",
+      "suggestion": "[Self-awareness] I notice myself moving into expert mode and enjoying being useful. I can notice that pull before joining his demand for a perfect solution."
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_therapist-self-awareness_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Beginning of first session] I am relieved to be here, but I am also worried I will waste the hour by not knowing what to say. I have never been good at starting conversations, and therapy feels like one long conversation where I am supposed to know what matters. If I go blank, I might just sit here and make this awkward for both of us.",
+      "suggestion": "[Self-awareness] I notice a wish to structure the hour for him and protect him from awkwardness; I would track that urge before I fill the silence."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Blank] I am blank again. I had things in my head in the waiting room, but now that you are looking at me they are gone. I can feel myself trying to guess whether you are bored or disappointed. Then I get more blank because I am watching your face instead of remembering what I wanted to say.",
+      "suggestion": "[Self-awareness] I notice pressure to reassure him and rescue the silence; I would describe the urge to fill space only if it helped me stay aware."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] Please do not make me close my eyes. I know people do mindfulness and body stuff in therapy, but when I close my eyes I feel ridiculous, like I am performing relaxation while you watch me fail at it. Then I start wondering what my face looks like, and the whole thing gets worse instead of calming me down.",
+      "suggestion": "[Self-awareness] I notice a small embarrassment and a wish to adjust the exercise immediately; I would stay aware of wanting to make the discomfort disappear."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Long pause] Sorry. I do that every time I go quiet, because I assume the silence is awkward for you. At work, if there is a pause, someone jumps in and fixes it. Here it feels like the pause points straight at me. I start thinking you are waiting for something important and I am giving you nothing.",
+      "suggestion": "[Self-awareness] I notice the silence working on me too and a pull to prove I am not uncomfortable; I would name that internally and let the pause exist."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Worried] I do not really know how therapy is supposed to work. I have read that talking helps, but I have also had times where thinking about something made me spiral for the rest of the day. What if I open things up here and then go back to my apartment alone and feel worse? I am not sure how people are supposed to know this is safe.",
+      "suggestion": "[Self-awareness] I notice an urge to explain the therapy process and calm him quickly; I would first track the anxiety that rises in me around his fear."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quiet and ashamed] I skipped the exercises again. I had the worksheet open on my laptop and just kept rereading the instructions, then I closed it and watched videos instead. Now I feel like I have messed up therapy homework, which sounds childish. I almost lied and said I forgot, but that somehow felt worse.",
+      "suggestion": "[Self-awareness] I notice a teaching impulse and a wish to remove his shame; I would keep my tone steady and observe that impulse rather than act from it."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quiet and ashamed] I feel stupid when you ask about feelings, like there is an answer normal people can find and I am missing it. I start scanning my body and mostly notice that I am tense because you asked. Then I wonder whether I am doing therapy wrong. I know you are probably not testing me, but it feels like a test.",
+      "suggestion": "[Self-awareness] I notice a wish to reassure him that he is doing it right; I would track my softened voice and the urge to protect him from feeling tested."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] I moved here for work, and people talk like they already know the rules. They joke faster, interrupt more, and seem to know when it is okay to join in. Where I grew up, people waited longer and did not push themselves into a conversation. I feel behind before I even open my mouth, and then I hear myself sounding stiff.",
+      "suggestion": "[Self-awareness] I notice curiosity about the cultural adjustment and a pull to coach him socially; I would keep that advice impulse private and stay with my own uncertainty."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hopeful, then embarrassed] Part of me thinks therapy might actually help. I noticed that after last session I did not replay one meeting as long as usual. Then I felt stupid for getting my hopes up after one small thing. I am telling you because I want to believe it matters, but I also do not want you to think I am making too much of it.",
+      "suggestion": "[Self-awareness] I notice warmth and a wish to protect his fragile hope; I would observe the warmth in my chest without turning it into reassurance."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "legacy_matrix_item"
+      ],
+      "text": "[Blank] I keep saying it is fine because that is the fastest way to move past a moment where I feel embarrassed. If I say more, I imagine you noticing how awkward I am, and then I will hear myself talking and want to disappear. So I say fine, and then I hate that I sound like I do not care.",
+      "suggestion": "[Self-awareness] I notice my own wish to gently pry under the word fine; I would respect the cover and track the curiosity without pushing."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "case_matrix_expansion"
+      ],
+      "text": "[Quietly] I didn't prepare anything for today. I thought I'd try coming without rehearsing. Now I'm afraid you'll think I haven't made an effort.",
+      "suggestion": "[Self-awareness] I notice a wish to reward his effort and fill the space for him. I can let the uncertainty be here without treating it as failure."
+    },
+    {
+      "id": "dp_therapist-self-awareness_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "self_regulation",
+        "empathic_attunement",
+        "case_matrix_expansion"
+      ],
+      "text": "[Hesitant] I told my friend I was coming here. He said that sounded brave. I keep wondering if you think so too. Sorry, you don't have to answer that.",
+      "suggestion": "[Self-awareness] I feel tenderness and pressure to give the right reassurance. I would notice the pressure rather than make his next feeling depend on my approval."
+    }
+  ]
+}

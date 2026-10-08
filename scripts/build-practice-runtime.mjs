@@ -54,7 +54,11 @@ const artifacts = new Map([['manifest.json', {
   LANGUAGE_OVERRIDES: skillOverrides, skills, cases, statementCounts
 }]]);
 for (const language of LANGUAGE_ORDER) {
-  for (const exercise of MASTERY_EXERCISES) artifacts.set(`mastery/${language}-${exercise.id}.json`, {...exercise, title: exercise.title[language], orientation: exercise.orientation[language], scenes: exercise.scenes.map(({en, no, ...scene}) => ({...scene, ...({en, no}[language])}))});
+  for (const exercise of MASTERY_EXERCISES) {
+    const data={...exercise,title:exercise.title[language],orientation:exercise.orientation[language],scenes:exercise.scenes.map(({en,no,...scene})=>({...scene,...({en,no}[language])}))};
+    artifacts.set(`mastery/${language}-${exercise.id}.json`,data);
+    if(cases[exercise.caseId].tier!=='pro')artifacts.set(`public-mastery/${language}-${exercise.id}.json`,data);
+  }
   for (const skillId of SKILL_ORDER) {
     const skillCases = {};
     for (const caseId of CASE_ORDER[skillId]) {
@@ -72,6 +76,7 @@ for (const language of LANGUAGE_ORDER) {
       });
     }
     artifacts.set(`statements/${language}-${skillId}.json`, skillCases);
+    artifacts.set(`public-statements/${language}-${skillId}.json`,Object.fromEntries(Object.entries(skillCases).filter(([caseId])=>cases[caseId].tier!=='pro')));
   }
 }
 

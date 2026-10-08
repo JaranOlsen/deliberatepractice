@@ -2563,6 +2563,19 @@ body .account-controls .header-pill {
 .ai-preview-badge { padding: .65rem .8rem; border-radius: .75rem; background: #fff4e5; color: #755820; font-size: .85rem; }
 .ai-disclosure { color: var(--color-muted); font-size: .85rem; }
 .ai-recording-actions { display: flex; flex-wrap: wrap; gap: .6rem; }
+.auth-secondary-actions { display:flex; flex-wrap:wrap; gap:.6rem; margin-top:.75rem; }
+#auth-code-form { display:grid; gap:.6rem; }
+#auth-code-form[hidden], .auth-secondary-actions[hidden] { display:none; }
+#auth-code { font-size:1.25rem; letter-spacing:.25em; }
+#account-code-disclosure summary { min-height:44px; display:flex; align-items:center; cursor:pointer; font-weight:600; }
+#account-code-disclosure[open] form { margin-top:.5rem; }
+#auth-signin-status { margin-top:.65rem; }
+.subscription-section { display:grid; gap:.7rem; }
+.subscription-section[hidden] { display:none; }
+.subscription-options { display:flex; gap:.6rem; }
+.subscription-options button { flex:1; min-width:0; min-height:76px; display:grid; justify-items:center; gap:.2rem; }
+.subscription-options button[aria-pressed="true"] { border-color:var(--primary-color,#32615a); background:#eaf3ef; }
+.subscription-test-badge { justify-self:start; font-size:.8rem; border-radius:1rem; padding:.2rem .6rem; background:#fff4e5; color:#755820; }
 .ai-recording-actions button { flex: 1 1 10rem; }
 .ai-delivery-card { display: grid; gap: .6rem; border-top: 1px solid var(--color-border, #d4dddd); padding-top: 1rem; margin-top: .35rem; }
 .ai-delivery-heading { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; }

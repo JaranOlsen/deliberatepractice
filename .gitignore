@@ -15,6 +15,7 @@ pnpm-debug.log*
 .playwright-cli/
 output/playwright/
 supabase/functions/ai-practice/generated/
+supabase/functions/account-services/generated/
 
 # Local environment
 .env

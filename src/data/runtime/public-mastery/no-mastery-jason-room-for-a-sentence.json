@@ -1,0 +1,180 @@
+{
+  "id": "mastery-jason-room-for-a-sentence",
+  "type": "mastery",
+  "caseId": "case-jason",
+  "difficulty": "easy",
+  "supportedLevels": [
+    "easy"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Jason · Rom for en setning",
+  "orientation": "Små øyeblikk om å snakke, bli sett og ønske selskap. Pauser og korrigeringer kan være nyttige svar. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "scenes": [
+    {
+      "id": "mastery_jason_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-jason_01",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Jason begynner med angst i møter og følelsen av å være annerledes enn de andre.",
+      "prompt": "Speil presset i det øyeblikket.",
+      "text": "[Stille] Jeg er lei av å sitte i møter med hjertet i halsen mens alle andre virker normale.",
+      "suggestion": "Du er lei av å være så engstelig mens alle andre virker rolige."
+    },
+    {
+      "id": "mastery_jason_02",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-jason_01",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et annet øyeblikk legger til skam over skjelvende hender.",
+      "prompt": "Gjør angsten forståelig uten å dømme skjelvingen.",
+      "text": "[Skjelvende] Hver presentasjon på jobb får hendene mine til å skjelve, og etterpå føler jeg meg patetisk for at jeg bryr meg så mye.",
+      "suggestion": "Å snakke mens andre ser på kan være skremmende når det betyr så mye hvordan de vurderer deg. Det er forståelig at du blir engstelig. At du skjelver, gjør deg ikke patetisk for å bry deg."
+    },
+    {
+      "id": "mastery_jason_03",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-jason_01",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Han spør hva det kan gi å snakke om følelser.",
+      "prompt": "Knytt arbeidet til det vanskelige ved å snakke, uten store løfter.",
+      "text": "[Skeptisk] Hjelper dette faktisk sosial angst, eller lærer jeg bare å stirre på frykten?",
+      "suggestion": "Du vil vite hvordan dette hjelper utenfor terapirommet. Vi kan utforske hva som kjennes truende når folk ser på deg, og øve på å være i litt av den følelsen om gangen. Målet er at det å snakke skal bli mindre av en kamp med deg selv."
+    },
+    {
+      "id": "mastery_jason_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-jason_01",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Jason husker ansiktene som ventet.",
+      "prompt": "Still ett lite, åpent spørsmål.",
+      "text": "[Stille] Når det er min tur til å snakke, mister jeg setningen, og det virker som om alle venter.",
+      "suggestion": "Når det virker som om alle venter, hvilken følelse dukker opp?"
+    },
+    {
+      "id": "mastery_jason_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-jason_01",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Neste øyeblikk blir nær ordene som forsvinner.",
+      "prompt": "Undersøk langsomt uten å kreve en ny setning.",
+      "text": "[Stille] Når det er min tur til å snakke, mister jeg tråden i det jeg skulle si.",
+      "suggestion": "Ordene forsvinner når det er din tur. Kan vi ta det øyeblikket langsomt og merke hva som skjer inni deg før du prøver å finne setningen igjen?"
+    },
+    {
+      "id": "mastery_jason_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-jason_01",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Han beskriver at forberedelser viker for å bli blank.",
+      "prompt": "Tilby én tentativ betydning, ikke en diagnose.",
+      "text": "[Blank] Jeg øver på hver setning før et møte, og så blir hodet likevel blankt når folk vender seg mot meg.",
+      "suggestion": "Du forbereder deg nøye, og så blir det likevel tomt. Jeg lurer på om det å ha blikkene på deg kjennes som å bli vurdert."
+    },
+    {
+      "id": "mastery_jason_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-jason_01",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et annet møteøyeblikk beskrives på avstand.",
+      "prompt": "Gjør det nærere og respekter tempoet hans.",
+      "text": "[Stille] Når det er min tur i et møte, mister jeg tråden i det jeg skulle si.",
+      "suggestion": "Det er som om alle ansiktene vendes mot deg, og setningen du hadde klar, plutselig er borte."
+    },
+    {
+      "id": "mastery_jason_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-jason_05",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "Frykt går over til å lære flere ord utenat.",
+      "prompt": "Undersøk om han ønsker å vende tilbake før problemløsning.",
+      "text": "[Engstelig, så praktisk] Jeg er redd de ser at jeg fryser. Burde jeg lære flere setninger utenat?",
+      "suggestion": "Det kan vi vurdere. Først, ville det hjelpe å høre det skremmende ved å bli sett?"
+    },
+    {
+      "id": "mastery_jason_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-jason_01",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Et senere øyeblikk trenger færre krav når ordene blir uklare.",
+      "prompt": "Tilby kontakt uten å kreve en muntlig prestasjon.",
+      "text": "[Stille] Alt blir uklart og hjertet hamrer, som om alle kan se at jeg ikke får det til. Jeg hører deg fortsatt, men ordene flyter sammen og jeg begynner å prøve å se normal ut i stedet for å lytte.",
+      "suggestion": "La oss senke tempoet. Du trenger ikke finne ord akkurat nå. Jeg er her. Hvis det hjelper, kan du legge merke til stemmen min og hvor stolen støtter deg."
+    },
+    {
+      "id": "mastery_jason_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-jason_12",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "bridge": "En annen dag rommer å bli husket på jobb.",
+      "prompt": "Speil det gode øyeblikket uten å gjøre det større.",
+      "text": "[Glad] En på jobben husket noe jeg fortalte forrige uke. Jeg ble glad for at personen husket meg. Det gjorde dagen lettere.",
+      "suggestion": "Det gjorde deg glad å bli husket, og du kjente deg litt mer til rette."
+    },
+    {
+      "id": "mastery_jason_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-jason_08",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Jason merker at han husker mer enn feilen sin.",
+      "prompt": "Hjelp ham å si den delen han vil beholde.",
+      "text": "[Varm] Jeg husket delen av samtalen jeg likte, ikke bare feilen.",
+      "suggestion": "Hva vil du huske ved den delen du likte?"
+    },
+    {
+      "id": "mastery_jason_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-jason_12",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "Timen slutter med et vanlig godt øyeblikk i bildet.",
+      "prompt": "Behold det gode uten å viske ut det vanskelige.",
+      "text": "[Varm, sjenert] Jeg vil gå med den gode delen for en gangs skyld.",
+      "suggestion": "Hvilken del vil du beholde, uten at den må oppheve resten?"
+    }
+  ]
+}

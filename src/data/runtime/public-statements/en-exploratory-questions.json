@@ -1,0 +1,1742 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_exploratory-questions_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] You should have seen the way she looked at me; I felt so small.",
+      "suggestion": "What is it like inside when you feel that small?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] At brunch I kept saying I was fine, but I could tell I was trying too hard.",
+      "suggestion": "When you notice yourself trying that hard to seem fine, what feeling is closest?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Angry] I was angry he forgot my birthday, and then I felt silly for caring.",
+      "suggestion": "When you call yourself silly for caring, what feeling is underneath that?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] I want to ask him why he stopped trying, but I keep telling myself it is pointless.",
+      "suggestion": "When you imagine asking him that, what feeling comes up first?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Panicked] Sometimes I delete old photos and then look for them again ten minutes later.",
+      "suggestion": "When you cannot let the photos stay gone, what feeling comes up most strongly?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] When someone is kind to me, I suddenly do not know what to do with it.",
+      "suggestion": "When kindness leaves you unsure what to do, what feeling comes up?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] I wake up and forget for a second that he is gone, and then it hits me all over again.",
+      "suggestion": "In that first moment of remembering, what feeling arrives before you explain it?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] I feel embarrassed that I am still this sad, like grief should have expired by now.",
+      "suggestion": "When the embarrassment says grief should be over, what sadness is still asking to be noticed?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] Seeing couples at the market makes me leave before I cry.",
+      "suggestion": "When you leave before the tears come, what feeling are you trying not to show?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] I cross the street to avoid the cafe we used to call ours.",
+      "suggestion": "When you picture that cafe, what feeling rises before you decide to cross the street?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Unsure] I found a restaurant I wanted to try. I nearly booked a table, then closed the page. I can't quite tell what stopped me.",
+      "suggestion": "What happens inside as you imagine going there on your own?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Quietly] My friend said I seemed more like myself. I smiled, but something about that stayed with me. I'm not sure what.",
+      "suggestion": "What does hearing 'more like yourself' bring up in you?"
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_exploratory-questions_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] When someone corrects one detail, I get angry and embarrassed at the same time.",
+      "suggestion": "What do you notice inside as anger and embarrassment show up together?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] A sigh from my wife makes me assume she has already decided I am wrong.",
+      "suggestion": "When that sigh lands as judgment, what feeling comes first?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] My boss praised the team but not me, and I could not stop thinking about it.",
+      "suggestion": "When you replay not being named, what feeling keeps coming back?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] I scan meeting rooms for disrespect before I even know who has walked in.",
+      "suggestion": "When you are already scanning for disrespect, what feeling are you bracing for?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] When I apologize to my wife, it feels like I have handed her the win.",
+      "suggestion": "When apologizing feels like losing, what feeling is hardest to stay with?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] When I am unsure of an answer in front of the team, I start talking faster so nobody notices.",
+      "suggestion": "What does being unsure in front of the team feel like inside?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] I told my wife I was fine, but I was still angry hours later.",
+      "suggestion": "When the anger stays for hours, where do you notice it most?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] I slam doors at home so no one hears me say I was hurt.",
+      "suggestion": "Before the door slams, what feeling is there that is hard to say out loud?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] Being told to calm down makes me explode before I hear anything else.",
+      "suggestion": "When those words hit, what feeling comes before the explosion?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] I hate feeling weak in front of people, like everyone can see I failed.",
+      "suggestion": "When 'weak' shows up in front of people, what feeling comes with being seen?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Tense] The report was accepted without any changes. I should have been pleased. Instead I spent the evening checking whether I'd missed something.",
+      "suggestion": "What do you notice in yourself when there is nothing left to correct?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Hesitant] My son wanted me to sit with him, not help him fix anything. I stayed, but I didn't really know what to do.",
+      "suggestion": "What is it like for you to be wanted there without a job to do?"
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_exploratory-questions_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] When it is my turn to speak, I lose the sentence and everyone seems to be waiting.",
+      "suggestion": "When everyone seems to be waiting, what feeling shows up?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Voice shaking] My voice shakes when I say my name, and then I hear myself sounding pathetic.",
+      "suggestion": "When you hear the shake in your voice, what feeling comes up first?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] A friend did not reply, and I kept wondering what I did wrong.",
+      "suggestion": "When you wonder what you did wrong, what feeling comes with that question?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] If someone laughs across the room, I assume it is about me.",
+      "suggestion": "What happens inside when you think the laugh is about you?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] I keep my eyes on the table so people will not ask me anything.",
+      "suggestion": "When looking up feels risky, what feeling comes up around being seen?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] After meetings I replay one sentence for hours and feel my face heat up.",
+      "suggestion": "As that sentence comes back to you now, what do you notice inside?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] At parties I track the exit before I even know who is in the room.",
+      "suggestion": "When your attention goes to the exit, what feeling are you trying to get away from?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] Someone smiled at me in the hallway, and I could not tell if it was friendly or awkward.",
+      "suggestion": "When you cannot tell what the smile means, what do you notice inside?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] I say I am busy before small talk can show how awkward I am.",
+      "suggestion": "When small talk feels about to expose you, what feeling comes forward first?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] Sunday nights feel heavy, like everyone else has a life waiting for them.",
+      "suggestion": "When that Sunday heaviness arrives, what feeling comes with the thought of belonging?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Uncertain] A colleague saved me a seat. I felt something, but then I was too busy trying to sit down normally to notice it.",
+      "suggestion": "What do you notice now as you picture the seat they saved for you?"
+    },
+    {
+      "id": "dp_exploratory-questions_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "case_matrix_expansion"
+      ],
+      "text": "[Low voice] I typed a message to a friend, then deleted it. It only said I was having a rough day. Somehow that was too much.",
+      "suggestion": "What feels most difficult about letting your friend see that message?"
+    }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Hesitates] There’s a feeling when I see her empty chair. I can’t quite name it.",
+      "suggestion": "What do you notice as you look at that chair in your mind now?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Thoughtful] The workshop was good, then something changed on the way home.",
+      "suggestion": "What was happening when you first noticed the change?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] I say I’m fine when Emma asks. It comes out before I think.",
+      "suggestion": "What do you notice just before you tell her you’re fine?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Frowning] I get tight across here when they say I should move on.",
+      "suggestion": "What is that tightness like as you remember those words?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Unsure] I don’t know what I wanted Tom to do when I went quiet.",
+      "suggestion": "What would have felt helpful from him in that moment?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Puzzled] I can manage breakfast. Dinner is different somehow.",
+      "suggestion": "What feels different about sitting down to dinner?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] Hearing that song did something to me.",
+      "suggestion": "What did you notice when the song began?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Thoughtful] I felt good helping Emma. Not just distracted.",
+      "suggestion": "What was good about helping her?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Hesitates] I keep saying I should have done more.",
+      "suggestion": "When you say “more,” what are you picturing?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Uncertain] There was relief that night. I don’t really understand it.",
+      "suggestion": "What was the relief about, as far as you can tell?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] The house feels strange when I’ve had a nice day.",
+      "suggestion": "What feels strange about coming home after a nice day?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Pauses] I want something to be different, but I don’t know what.",
+      "suggestion": "If we take one ordinary evening, what would you want more room for?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Hesitant] When I say the quiet is nice, something in me objects.",
+      "suggestion": "What does that objection seem to say?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Thoughtful] I want Emma there, but not fussing. It’s hard to explain.",
+      "suggestion": "What kind of being together would feel right to you?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] The relief and guilt seem tangled.",
+      "suggestion": "If we take the relief first, what were you relieved from?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Dry laugh] I keep tidying a room nobody uses. Not sure what I’m doing.",
+      "suggestion": "What happens for you when you go into that room?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Frowning] “Moving on” sounds wrong. I can’t say exactly why.",
+      "suggestion": "What do those words seem to ask you to leave behind?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Unsure] I went quiet when Tom asked about the workshop.",
+      "suggestion": "What was going on in that quiet moment?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Pauses] I felt angry at the photograph. Then I felt absurd.",
+      "suggestion": "Before judging it, what was the anger about in that moment?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Hesitant] Sometimes company makes me lonelier.",
+      "suggestion": "What happens in the company that brings the loneliness closer?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] I don’t know if that tightness is guilt or just being tired.",
+      "suggestion": "What helps you tell them apart, if anything, as you notice it now?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Uncertain] Enjoying the walk felt fine until I thought of her.",
+      "suggestion": "What changed when Eva came to mind?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Thoughtful] The house feels both familiar and not mine.",
+      "suggestion": "What feels familiar, and what feels less yours now?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Pauses] I want things to change, but some changes feel wrong.",
+      "suggestion": "Which change are you thinking of when you say “wrong”?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Firmly] It isn’t guilt, not quite. Don’t offer me another name yet.",
+      "suggestion": "What would you like me to understand about it before we look for a name?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Watchful] The empty chair isn’t always sad. Sometimes it’s just a chair.",
+      "suggestion": "What is it like today, as you think of it?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] I want help, but questions can start feeling like an examination.",
+      "suggestion": "What would make our conversation feel less like an examination right now?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Careful] Relief from the care, relief from watching her suffer—they’re different.",
+      "suggestion": "Which part would you like us to understand first?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Dryly] Don’t ask where it is in my body. I’d rather use words.",
+      "suggestion": "What words come closest, even if they’re unfinished?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Hesitant] I’m not sure whether I miss her or the person I was with her.",
+      "suggestion": "What feels different between those two kinds of missing?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] I thought changing the bedroom would help. I slept better, but I don’t know how I feel about it.",
+      "suggestion": "What do you notice when you picture the changed room now?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] I said lonely. Now it feels less true. Maybe I was borrowing the word.",
+      "suggestion": "What is closer to your experience as you notice it now?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Watchful] You might see the workshop as a new beginning. I’m not sure I do.",
+      "suggestion": "What place does the workshop have for you, in your own terms?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Frowning] I wanted Emma there, and I hated being watched. Neither is the whole thing.",
+      "suggestion": "What would help us hear the part that’s missing from those two descriptions?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Careful] I can talk about that evening, but not the hospital today.",
+      "suggestion": "Where in the evening would you like to begin?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Uncertain] I’m not sure there is a feeling to uncover. I’m just tired.",
+      "suggestion": "What would be most useful with that tiredness today?",
+      "difficulty": "hard"
+    }
+  ],
+  "case-mia": [
+    {
+      "id": "dp_exploratory-questions_case-mia_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Puzzled] Something happens when Alex reaches for the bag.",
+      "suggestion": "What do you notice in that moment?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] Putting the pencil down feels different from stopping any other task.",
+      "suggestion": "What is different about stopping the drawing?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Unsure] I can’t quite say why “you look well” bothers me.",
+      "suggestion": "What do you hear in those words?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Thoughtful] Sam’s question stayed with me all evening.",
+      "suggestion": "What about his question stayed with you?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Hesitant] I want to ask Ella for something. I don’t know what.",
+      "suggestion": "What would you like to be different when she visits?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Confused] I was relieved to cancel, but it wasn’t only relief.",
+      "suggestion": "What else was there with the relief?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Pauses] I didn’t like how the meeting ended.",
+      "suggestion": "Which part of the ending stands out to you?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Unsure] I feel odd accepting help with the plants.",
+      "suggestion": "What feels odd about accepting that help?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] I miss work, but not every part of it.",
+      "suggestion": "Which part do you find yourself missing?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Frowning] I keep calling myself difficult.",
+      "suggestion": "What does “difficult” mean to you here?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Reflective] I want Alex nearby, but sometimes I move away.",
+      "suggestion": "What happens just before you move away?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Uncertain] I don’t know what a good day means anymore.",
+      "suggestion": "What would make a day feel good to you now?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Hesitates] I said thank you, but something tightened between us.",
+      "suggestion": "What was happening for you as you thanked him?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] I didn’t want the offer to stop. Just... something about how it came.",
+      "suggestion": "What about the way he offered felt difficult?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Half-smiles] I called the drawing “good enough” very quickly.",
+      "suggestion": "What was happening just before you called it good enough?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Uncertain] Being noticed at work felt good until it didn’t.",
+      "suggestion": "When did it stop feeling good?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Reflective] I’m not sure whether I wanted company or help that evening.",
+      "suggestion": "What did you most want Alex to understand about that evening?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Uneasy] I feel guilty after a good day, which makes no sense.",
+      "suggestion": "What do you find yourself saying to yourself after a good day?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Frowning] I can ask Sam for the chair. Asking Ella is different.",
+      "suggestion": "What changes when the person you ask is Ella?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Pauses] I said I didn’t mind handing over the tour. I’m not sure I meant it.",
+      "suggestion": "What part of handing it over did you mind?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] I want the help, but not that look.",
+      "suggestion": "What do you see in that look?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Unsure] Saying no felt right. Then it felt mean.",
+      "suggestion": "What made the no start to feel mean?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Thoughtful] I used to know what counted as contributing. Now it’s muddled.",
+      "suggestion": "What would feel like a real contribution to you now?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Hesitates] When they praise me for coping, I go quiet.",
+      "suggestion": "What happens inside that quiet?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Hesitates] He asked first. There was still something wrong in the moment.",
+      "suggestion": "Which part of the moment stands out, even if you don’t know why yet?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] I went quiet. Not to punish him. I don’t know what it was.",
+      "suggestion": "What do you remember just before the quiet came?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Corrects] “Losing independence” isn’t quite it. That phrase misses something.",
+      "suggestion": "What does that phrase leave out for you?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Thoughtful] I was glad Sam noticed. Later I wished he hadn’t.",
+      "suggestion": "What changed for you between those moments?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Tired] I can’t separate fatigue from sadness today. I don’t want to try hard at it.",
+      "suggestion": "What could we talk about without asking you to separate them?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Flatly] I left the drawing out. There isn’t a story to tell about it yet.",
+      "suggestion": "What, if anything, draws your attention to it now?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Uneasy] I know what I wanted him to stop. I’m less sure what I wanted instead.",
+      "suggestion": "What would have felt different enough in that moment?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] The anger isn’t all at Ella. I don’t know where the rest goes.",
+      "suggestion": "What else comes into view when you say it isn’t all at her?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Half-smiles] It felt like being me, but I can’t give you an inspiring account of it.",
+      "suggestion": "What ordinary detail made it feel like being you?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Hesitant] I want company tonight. I’m not sure I want conversation.",
+      "suggestion": "What kind of company are you picturing?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] The praise bothered me, although some of it was true.",
+      "suggestion": "Which part felt right, and where did it stop fitting?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-mia_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Corrects, then pauses] It wasn’t fear. Or not only fear.",
+      "suggestion": "How would you describe the part that “fear” doesn’t quite catch?",
+      "difficulty": "hard"
+    }
+  ],
+  "case-nora": [
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Puzzled] I went quiet afterwards. I don’t quite know why.",
+      "suggestion": "What do you remember from the moment the quiet came?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Unsure] Something about Max helping didn’t feel right.",
+      "suggestion": "What about the help felt wrong to you?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Thoughtful] The word “really” stayed with me.",
+      "suggestion": "What did that word add to the question for you?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] I didn’t want to look at my drawings.",
+      "suggestion": "What was it like to see them after that meeting?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Hesitant] I want Ben to understand something. I don’t know how to say it.",
+      "suggestion": "What would you most want him to understand?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Reflective] Lina listened differently.",
+      "suggestion": "What felt different in how she listened?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Uncertain] I keep calling myself oversensitive.",
+      "suggestion": "What are you judging yourself for when you use that word?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] I’m not sure what support I wanted from Adam.",
+      "suggestion": "What would have felt helpful when you came home?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Thoughtful] I liked talking about the photographs. It mattered somehow.",
+      "suggestion": "What mattered about that conversation?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Frowning] Speaking up feels risky.",
+      "suggestion": "What risk feels most important to you?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Hesitant] I want to belong there, but not like this.",
+      "suggestion": "What would belonging look like on terms you could accept?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Unsure] I can’t tell what I need today.",
+      "suggestion": "Which part of the day would you like us to understand first?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Hesitates] I was glad Max said something. Then I wanted to disappear.",
+      "suggestion": "What changed as he kept speaking?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] I know the words were wrong. I’m less sure why I couldn’t work afterwards.",
+      "suggestion": "What came up when you turned back to the drawings?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Unsure] I’m angry about the meeting and something else I can’t name.",
+      "suggestion": "What else is close as you remember the meeting?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Reflective] The interruption might have been ordinary. I didn’t feel ordinary in it.",
+      "suggestion": "What was happening for you in that moment?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] I said I didn’t need anything from Adam. That wasn’t quite true.",
+      "suggestion": "What did you want that was hard to ask for?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Half-smiles] I keep making the story funny. It wasn’t funny then.",
+      "suggestion": "What happens just before the joke arrives?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Uneasy] I want to be heard, but not in that meeting.",
+      "suggestion": "What makes that meeting the wrong place for you?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Thoughtful] I liked being asked about the photographs more than I expected.",
+      "suggestion": "What was different about being asked that?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Uncertain] I don’t know whether I’m protecting myself or giving up.",
+      "suggestion": "What does each of those possibilities mean to you?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Frowning] I want credit, but I get uneasy imagining the announcement.",
+      "suggestion": "Which part of the announcement feels uneasy?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] I’m less angry with Lina, but I’m still explaining to her.",
+      "suggestion": "What do you hope the next explanation will give you?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Hesitant] Leaving the job is a thought, not a plan. It means something, though.",
+      "suggestion": "What does that thought offer you when it comes?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Hesitates] I kept making the words softer. I’m not sure whom that helped.",
+      "suggestion": "What happened for you as you softened them?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Corrects] “Not belonging” isn’t quite it. I know I belong.",
+      "suggestion": "What does that phrase miss about your experience?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] I thanked Max and then avoided him. I don’t have a tidy reason.",
+      "suggestion": "What do you remember wanting just after you thanked him?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Unsure] Today’s interruption set something off. I can’t name it fairly yet.",
+      "suggestion": "Which part of the moment can you describe without deciding its cause?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Thoughtful] I want the work seen, but not every part of me seen.",
+      "suggestion": "What would you want kept private within that recognition?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Flatly] I left the drawings on the desk. There isn’t a story about it yet.",
+      "suggestion": "What, if anything, draws your attention to them now?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] I wanted Ben’s response. Then I didn’t want to hear it.",
+      "suggestion": "What changed as the possibility of a response got closer?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Tired] I know what happened. I can’t give you a feeling word today.",
+      "suggestion": "What could we use instead of a feeling word to understand today?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Hesitant] Staying and leaving both feel wrong in different ways.",
+      "suggestion": "Which cost would you like us to understand first?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Softly] I enjoyed dinner. The next feeling wasn’t exactly guilt.",
+      "suggestion": "How would you describe what “guilt” doesn’t quite capture?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Quietly] I want company tonight, but not a listener waiting for the story.",
+      "suggestion": "What kind of company are you picturing?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_exploratory-questions_case-nora_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "text": "[Corrects, pauses] I wasn’t afraid. Or not mainly afraid.",
+      "suggestion": "What was more central than fear in that moment?",
+      "difficulty": "hard"
+    }
+  ]
+}

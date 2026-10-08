@@ -429,30 +429,16 @@
           <button type="button" class="glossary-close" id="close-account" aria-label="Close account panel">×</button>
         </div>
 
-        <section class="account-section-block access-section" id="access-section">
-          <div>
-            <h4 id="access-title">Library access</h4>
-            <p class="account-value" id="access-status">Free access</p>
-          </div>
-          <form id="account-unlock-form">
-            <label class="form-label" for="account-unlock-code" id="account-unlock-label">Access code</label>
-            <div class="inline-form-row">
-              <input id="account-unlock-code" name="accessCode" type="text" autocomplete="one-time-code" placeholder="Enter code" />
-              <button type="submit" class="ghost-button ghost-button--small" id="account-unlock-submit">Unlock</button>
-            </div>
-            <p id="account-unlock-status" class="form-status" role="status"></p>
-          </form>
-        </section>
-
         <section class="account-section" id="auth-signed-out">
           <p id="auth-intro">
             Sign in to join group rooms, save ratings and see your progress.
           </p>
           <form id="auth-signin-form">
             <label class="form-label" for="auth-email" id="auth-email-label">Email</label>
-            <input id="auth-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" />
-            <button type="submit" class="primary-button" id="auth-submit">Send magic link</button>
+            <input id="auth-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+            <button type="submit" class="primary-button" id="auth-submit">Continue with email</button>
           </form>
+          <p id="auth-signin-status" class="form-status" role="status" hidden></p>
         </section>
 
         <section class="account-section is-hidden" id="auth-signed-in" hidden>
@@ -471,6 +457,21 @@
               <button type="submit" class="ghost-button ghost-button--small" id="profile-submit">Save</button>
             </div>
           </form>
+        </section>
+
+        <section class="account-section-block access-section" id="access-section">
+          <div>
+            <h4 id="access-title">Library access</h4>
+            <p class="account-value" id="access-status">Free access</p>
+          </div>
+          <details id="account-code-disclosure"><summary id="account-code-summary">Have an access code?</summary><form id="account-unlock-form">
+            <label class="form-label" for="account-unlock-code" id="account-unlock-label">Access code</label>
+            <div class="inline-form-row">
+              <input id="account-unlock-code" name="accessCode" type="text" autocomplete="off" placeholder="Enter code" />
+              <button type="submit" class="ghost-button ghost-button--small" id="account-unlock-submit">Unlock</button>
+            </div>
+            <p id="account-unlock-status" class="form-status" role="status"></p>
+          </form></details>
         </section>
 
         <button type="button" class="ghost-button" id="app-tour-open">Take the app tour</button>

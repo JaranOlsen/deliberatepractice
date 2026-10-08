@@ -1,0 +1,440 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_self-disclosure_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Når jeg sier at jeg fortsatt savner ham, tenker du egentlig at jeg høres latterlig ut?",
+      "suggestion": "Jeg ser ikke sorgen din som latterlig. Det berører meg at du kan ta den med hit, også når du er flau. Hvordan er det å høre meg si det?"
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Du blir sikkert lei av å høre meg gråte over ham hver uke.",
+      "suggestion": "Tårene dine gjør meg ikke lei av deg. Jeg kjenner omsorg for hvor alene dette blir for deg, og jeg vil at den alenheten skal få selskap her. Slipp det inn bare så mye som kjennes trygt."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Når jeg gråter og du blir stille, blir jeg redd for at tårene mine får deg til å trekke deg unna.",
+      "suggestion": "Tårene dine får meg ikke til å trekke meg unna. Når du gråter, kjenner jeg meg nær og varsom, ikke fjern. La oss legge merke til delen av deg som ventet at jeg skulle gå."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lavmælt] Dette er første gang jeg er i terapi. Forventer du at jeg skal vite hvor jeg skal begynne?",
+      "suggestion": "Nei. Jeg forventer ikke at du vet hvor du skal begynne. Jeg kan hjelpe oss å finne en start; du trenger ikke gjøre terapi riktig for meg."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Jeg synes det er flaut at du ser meg så rotete og trengende.",
+      "suggestion": "Jeg dømmer verken rotet eller behovet. Jeg kjenner respekt for motet det tar å la meg se dem, og jeg vil at vi legger merke til skammen som ventet noe hardere."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Tror du faktisk at jeg ikke fortsatt er alene om et år, eller prøver du bare å trøste meg?",
+      "suggestion": "Jeg kan ikke love hva et år vil bringe, og jeg vil ikke gi deg falsk sikkerhet. Jeg vil jobbe med ensomheten sammen med deg, fremfor å avfeie den. Hvordan er det å høre det?"
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Når jeg spør om jeg er for mye, er jeg redd du begynner å trekke deg unna.",
+      "suggestion": "Du kjennes ikke som for mye for meg. Jeg kjenner meg til stede og villig til å være nær denne frykten, uten å be deg tro meg raskere enn du kan."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Er du i et forhold? Får det deg til å dømme meg?",
+      "suggestion": "Detaljer om min relasjon holder jeg private her, og jeg kan si tydelig at jeg ikke dømmer deg. Jeg er interessert i hva det betyr for deg å spørre meg om dette, og hva du er redd jeg kan se i deg."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Jeg hater at jeg trenger noen, og å trenge deg gjør meg blottstilt.",
+      "suggestion": "Når jeg hører det, kjenner jeg ømhet for hvor risikabelt det er for deg å trenge noen. Jeg trekker meg ikke unna behovet; vi kan legge merke til delen av deg som forventer at det skal koste deg."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Bryr du deg egentlig om meg, eller er omsorg bare en del av jobben din?",
+      "suggestion": "Jeg bryr meg om deg i denne terapirelasjonen. Grensene er en del av å ta ansvar for omsorgen, ikke et tegn på at omsorgen er falsk. La oss legge merke til hva det vekker å høre begge deler."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Forsiktig] Når jeg forteller at jeg sjekket profilen hans igjen, tenker du da: «Nå begynner hun igjen, hun har ikke lært noe»?",
+      "suggestion": "Jeg ser ikke på det som at du ikke har lært noe. Jeg er opptatt av hva som trekker deg tilbake i de øyeblikkene. Det høres ut som du er redd for at jeg skal miste tålmodigheten når du forteller meg det."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Ser på terapeuten] Du smilte da jeg sa at jeg gikk på kino alene. Ble du glad, eller var det bare for å oppmuntre meg?",
+      "suggestion": "Jeg ble glad for å høre at du hadde en kveld du likte. Smilet var ekte; du trenger ikke fortsette å gjøre fremskritt for å fortjene det. Hvordan var det å legge merke til det?"
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_self-disclosure_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Utfordrende] Vær ærlig—høres jeg svak ut når jeg snakker om å være såret?",
+      "suggestion": "Jeg ser ikke det å fortelle at du er såret som svakhet. Jeg respekterer at du er villig til å si det direkte. Hva skjer i deg når du hører det?"
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Når jeg spør om du også blir sint, trenger jeg å vite at du ikke ser ned på mitt sinne.",
+      "suggestion": "Jeg kjenner sinne i meg selv også, og jeg ser ikke ned på ditt. Jeg kjenner meg stødig nok til å være med det her; jeg står ikke over følelsen du er redd jeg skal dømme."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Du tenker sikkert at det er jeg som er problemet hjemme, sånn som alle andre.",
+      "suggestion": "Jeg ser ikke på deg som problemet. Jeg kjenner hvor mye smerte som ligger under varmen, og jeg vil at vi holder oss nær det uten å gjøre deg til problemet."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Engstelig] Når jeg innrømmer at jeg ropte, leter jeg etter fordømmelse i ansiktet ditt.",
+      "suggestion": "Jeg dømmer deg ikke. Jeg blir bekymret for hva ropingen koster deg og menneskene du er glad i, og jeg kjenner også respekt for at du er villig til å se på det her."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Utfordrende] Blir terapeuter lei av å høre den samme historien om utbrudd igjen?",
+      "suggestion": "Jeg blir ikke lei av å høre det. Jeg blir fokusert når vi kommer tilbake til splitsekundet der det snur, fordi det er der kontrollen din kan vokse."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Utfordrende] Er du sterk nok til å tåle meg når jeg er sint?",
+      "suggestion": "Jeg er villig til å lytte til sinnet ditt, og jeg vil si tydelig fra hvis vi trenger en pause. Jeg ønsker ikke at dette blir en styrkeprøve. Hva ville hjelpe deg å kjenne at jeg tar deg på alvor?"
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fast] Du ser rolig ut mens jeg forteller om ropingen hjemme; går noe av dette egentlig inn på deg?",
+      "suggestion": "Ja, det går inn på meg. Jeg holder meg rolig med vilje, så vi kan fortsette å se på det uten at noen av oss trekker seg unna; roen min er stødighet, ikke avstand."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Utfordrende] Respekterer du det å jobbe med en som blir så opphetet som meg?",
+      "suggestion": "Jeg respekterer å jobbe med deg. Jeg kjenner alvoret bak direkteheten din og prisen du prøver å se på, og jeg vil gi rom til hvor vanskelig respekt fra meg kan være å ta inn."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nysgjerrig] Er du gift? Jeg lurer på om du tar med deg sinnet hjem.",
+      "suggestion": "Detaljer om min relasjon holder jeg private her, og jeg vet noe om arbeidet med å roe ned sinne før det renner over i relasjoner. Jeg ser ikke på ditt sinne fra avstand. La oss legge merke til hvorfor det er viktig for deg å vite."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Si at du skjønner hvorfor dette er så vanskelig, for jeg føler meg latterlig som trenger hjelp.",
+      "suggestion": "Jeg skjønner hvorfor dette er vanskelig. Jeg hører press og sårethet i det, ikke noe latterlig, og jeg vil snakke direkte til delen som forventer forakt fra meg."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Direkte] Når jeg blir så direkte, tar du det personlig? Jeg vil ikke at du skal gå på tå rundt meg.",
+      "suggestion": "Jeg merker kraften i stemmen din, og jeg ønsker å være direkte med deg fremfor å gå på tå. Jeg kan si fra hvis noe påvirker samtalen vår. Det betyr noe for deg at vi kan snakke ærlig uten at noen av oss trekker seg unna."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Bekymret] Hvis jeg forteller at jeg var sjalu på treneren til sønnen min, kan du fortsatt respektere meg? Det høres jo latterlig ut når jeg sier det.",
+      "suggestion": "Ja, jeg kan respektere deg også når du forteller om sjalusi. Jeg setter pris på at du viser meg noe du synes er ubehagelig. Du virker redd for at denne følelsen skal endre hvordan jeg ser deg."
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_self-disclosure_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Når jeg blir stille, bekymrer jeg meg for at du sitter der og skulle ønske jeg skyndte meg.",
+      "suggestion": "Jeg er fortsatt interessert når du er stille. Du trenger ikke skynde deg for min skyld. Hva merker du når jeg sier det?"
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Jeg spør om du noen gang føler deg utilpass fordi jeg føler meg som en fremmed her.",
+      "suggestion": "Jeg kjenner også til det å føle seg utilpass, og det gjør at jeg vil gå varsomt fram her sammen med deg. Kanskje gjør det dette litt mindre ensomt, eller kanskje ikke ennå."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lang pause] Når jeg pauser for lenge, ser jeg for meg at du tenker at jeg er kjedelig.",
+      "suggestion": "Jeg opplever deg ikke som kjedelig. Jeg kjenner meg nysgjerrig og sammen med deg, også i pausene; pausene får meg ikke til å forsvinne."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Er det greit at jeg ikke vet hva jeg skal si?",
+      "suggestion": "Det er greit å ikke vite hva du skal si. Jeg kjenner tålmodighet med deg her; det å ikke vite gjør ikke at du mislykkes med meg."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Da jeg droppet festen, ble du skuffet over meg eller tenkte at jeg unngikk for mye igjen?",
+      "suggestion": "Nei. Jeg kjenner ikke skuffelse. Jeg merker hvor mye den festen krevde av hele systemet ditt, og jeg vil at svaret mitt møter delen som venter på karakter."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Blir du utålmodig når jeg blir stille og ikke finner ord?",
+      "suggestion": "Jeg merker et ønske om å hjelpe deg å finne ordene, men jeg vil ikke at det ønsket blir til press. Jeg velger å gi pausen litt plass. Hvordan er det for deg?"
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Når jeg blir stille, dømmer du meg eller blir irritert inni deg?",
+      "suggestion": "Jeg dømmer ikke stillheten din, og jeg blir ikke irritert. Jeg respekterer innsatsen det tar å bli her. Stillheten kan være en del av arbeidet, ikke noe du må beklage."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Hvis jeg sier noe kleint her, ville du sagt fra, eller bare sittet og dømt det inni deg?",
+      "suggestion": "Jeg ville prøvd å være ærlig og vennlig, ikke sitte og dømme deg i det skjulte. Jeg kjenner meg beskyttende overfor delen som allerede venter latterliggjøring."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Blir du noen gang nervøs i grupper, eller er det bare meg?",
+      "suggestion": "Ja, jeg kan også bli nervøs i grupper iblant. Jeg sier det fordi jeg ikke ser frykten din som rar eller fremmed; den hører til et menneskelig register, selv om din er smertefull."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Når jeg spør om jeg noen gang blir mindre engstelig, trenger jeg å vite om du faktisk tror på det.",
+      "suggestion": "Jeg kjenner håp sammen med deg. Jeg kjenner det fordi jeg ser hvor hardt du fortsetter å strekke deg mot kontakt, selv når frykten trekker deg tilbake."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Nølende] Kan jeg si fra hvis jeg ikke skjønner et spørsmål? Jeg prøver vanligvis bare å svare likevel.",
+      "suggestion": "Ja. Jeg vil heller vite at spørsmålet mitt er uklart enn at du strever med å finne et svar for min skyld. Da prøver jeg å formulere det annerledes. Det høres ut som det krever litt mot å spørre om det her."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Stille] Du virker ikke flau når jeg ikke får frem en setning. Er det virkelig greit for deg å sitte her sånn?",
+      "suggestion": "Ja, det er greit for meg å sitte sammen med deg mens ordene er vanskelige å finne. Du trenger ikke snakke flytende for at denne tiden skal ha betydning. Hvordan er det å høre det?"
+    }
+  ]
+}

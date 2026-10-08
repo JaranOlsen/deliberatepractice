@@ -1,0 +1,440 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_alliance-repair_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] Sometimes I think you get bored when I repeat the breakup again, and then I feel stupid for still bringing it here.",
+      "suggestion": "Thank you for telling me. You worry that I am bored, and then feel ashamed of bringing the grief here. I want to understand when you lose the sense that I am listening. What have you noticed in those moments?"
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] When you asked about work again, I felt like you did not get how much this hurts. I know I have to function, but in that moment it sounded like you wanted the practical version of me back too soon.",
+      "suggestion": "My question about work made you feel I was moving past the pain too quickly. I am sorry. We can leave work aside for now. What do you need me to understand about how much this hurts?"
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] When I apologized for crying, your silence made me worry I was too needy for therapy. I started scanning your face, trying to work out whether I should pull myself together before you got tired of me.",
+      "suggestion": "My silence left you wondering whether your tears were too much for me. I am sorry. I can let you know I am listening instead of leaving you to read my face. Would that help when the tears come?"
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] When you keep calling it grief, I feel like you have already decided what this is. Some of it is grief, but some of it is anger, humiliation, missing him, and feeling foolish, and I do not want it flattened.",
+      "suggestion": "I kept using \"grief\" when you were telling me there was more to it. I am sorry. I can set that word aside and listen to the anger, humiliation, and missing him without deciding it all means one thing."
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] Last session ended while I was still crying, and I walked to the car feeling dropped. I know time was up, but I kept thinking I should not have let myself get that open so close to the end.",
+      "suggestion": "We ended while you were still crying, and you felt dropped. I am sorry. We can leave some time before the end to check how you are and what you need for the next part of your day. How would that be for you?"
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hurt] When you asked whether I had thought about dating again, it felt like you wanted me to move on already.",
+      "suggestion": "My question about dating made you feel rushed past the grief. I am sorry. We can set that question aside. What do you need me to understand about where you are now?"
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] You mixed up his name last week, and I felt silly for caring so much. But his name is still everywhere in my head, so when you got it wrong, it felt like the relationship became less real here too.",
+      "suggestion": "I got his name wrong, and something important to you felt less real here. I am sorry. You should not have to repair that for me. I will be more careful with his name; is there more about that moment you want me to hear?"
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] When I admitted I checked his profile, your face looked disappointed, and I wanted to take it back. I came here because I am already ashamed of doing it, so that look made me want to hide.",
+      "suggestion": "You saw disappointment in my face and wanted to hide what you had just told me. I am sorry my expression had that effect. I want to understand what checking his profile is like for you. What did you need from me then?"
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] When you asked who else supports me, it sounded like you were trying to pass me off to someone else.",
+      "suggestion": "My question about support sounded like I wanted to send you elsewhere. I am sorry. I was asking who you can turn to between sessions. I want us to discuss that together, with room for what you need from me too."
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] When you look down at your notes while I talk about him, I feel like you leave for a second.",
+      "suggestion": "My note-taking pulled my eyes away at a tender moment, and I am sorry it felt like I left. Would it help if I asked before writing, or paused the writing when you are in the most painful parts?"
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "case_matrix_expansion"
+      ],
+      "text": "[Hurt, hesitant] You called it 'checking up on him.' That makes me sound nosy. I was trying to see whether any of it mattered to him.",
+      "suggestion": "'Checking up on him' missed what you were reaching for and left you feeling judged. I'm sorry. You wanted some sign that it mattered to him too. Is that closer to what you were trying to tell me?"
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "case_matrix_expansion"
+      ],
+      "text": "[Quietly] Every time I say I had a nice day, you ask where the sadness is. It makes me feel like you don't believe me when I'm okay.",
+      "suggestion": "My questions have made your good days feel as though they don't count. I'm sorry; I haven't left enough room for them. I'd like to hear about the day you actually had. What would help you feel that I believe you?"
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_alliance-repair_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Wounded but sharp] When you said I sounded hurt, it felt like you were calling me weak. I know hurt is probably your therapy word, but in my head it sounded like you were stripping away the part of me that can handle things.",
+      "suggestion": "My word \"hurt\" sounded as though I was calling you weak and taking your strength away. I am sorry. I want to hear how you would describe it, without putting my words on you."
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skeptical] Are you actually experienced enough with anger like mine, or are you just following the training manual? I need to know whether you can handle the consequences if this goes badly at home.",
+      "suggestion": "You need to know whether I can help with something that has real consequences at home. That is a fair question. I can explain my training, supervision, and limits, and we can consider together whether the help I can offer fits what you need."
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Wounded but sharp] When you paused and watched me after I got angry, I felt judged, like you were waiting to see if I would explode. I stopped hearing you and started proving I was still in control.",
+      "suggestion": "My pause and the way I watched you felt like judgment. I am sorry. I can say what I am noticing instead of leaving you to wonder whether I expect an outburst. What was it like for you in that pause?"
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensive] When you asked about my wife's fear first, it felt like you had already decided I was the problem. I could feel myself building a defense instead of listening to the question.",
+      "suggestion": "I asked about her fear before hearing your experience, and you felt I had already taken a side. I am sorry. I want to hear what happened for you too, while taking seriously that she felt afraid. What did I miss?"
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skeptical] When you said anger protects hurt, it sounded like something from a textbook, like you had the model ready before you heard me. I know I get angry, but I do not want to be turned into a therapy example.",
+      "suggestion": "I offered an explanation before understanding how the anger actually feels for you. I am sorry. We can set that explanation aside. I want to hear what I missed, rather than make your experience fit the model."
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] You did not challenge me when I got loud, and now I wonder if you are scared of me.",
+      "suggestion": "I hear that my silence left you unsure whether I was afraid of you. I am sorry I left you guessing. I can be more direct about what I am noticing and when we need a pause. How would that be for you?"
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] When I mentioned drinking, your face changed for a second. Maybe I am reading into it, but I felt judged, like you had just put me in the bad husband category.",
+      "suggestion": "You noticed my face change and felt judged as a husband. I am sorry my expression left you with that. I want to understand the drinking and its effect on your life without reducing you to a label. What did that moment make harder to tell me?"
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Irritated] You keep asking about my father, and it feels like you are blaming him for everything. I get that he matters, but when you keep going there, it feels like my choices now disappear.",
+      "suggestion": "I kept returning to your father, and your choices now seemed to disappear from the conversation. I am sorry. We can set that history aside and focus on what is happening in your life today. Where would you like us to begin?"
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Wounded but sharp] After I swore, you went quiet and I felt like you were done with me. It was not the word that mattered; it was the feeling that one sharp edge from me was enough to make you leave.",
+      "suggestion": "I went quiet after you swore, and you felt I was pulling away. I am sorry. I can tell you what is happening for me rather than leave you guessing. What did you need me to hear when you used those words?"
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] When you say, Take a breath, it feels like you are trying to control me, like I am a kid about to be sent out of class. It makes me want to refuse just to keep my ground.",
+      "suggestion": "When I told you to take a breath, you felt controlled and treated like a child. I am sorry. I can ask whether a pause would help instead of telling you what to do. You can say no."
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "case_matrix_expansion"
+      ],
+      "text": "[Frowning] You said I was 'defending myself' when I corrected you. You had the facts wrong. Am I allowed to disagree with you here?",
+      "suggestion": "I made your correction sound like a problem instead of checking what I'd got wrong. I'm sorry. Yes, you can disagree with me. Let's correct the facts first, and I want to hear what my response did to your trust in me."
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "case_matrix_expansion"
+      ],
+      "text": "[Disappointed] You remembered the argument but not that I apologised to my son. It feels like you've already decided which kind of father I am.",
+      "suggestion": "Missing the apology left you feeling that I'd reduced you to the argument. I'm sorry I left that out. I want to understand both the harm and your effort to repair it. Can we return to what happened when you apologised?"
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_alliance-repair_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] When I freeze and say I do not know, I worry I am doing therapy wrong and wasting the session.",
+      "suggestion": "Thank you for telling me. I hear that losing the words makes this feel like a test you are failing. We can stop trying to force an answer and take the pause together. What would help you feel less under pressure here?"
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] When you looked at the clock while I was searching for words, I felt unimportant. I know sessions have time limits, but in that moment it felt like my slow words were using up too much space.",
+      "suggestion": "I looked at the clock while you were finding words, and you felt unimportant. I am sorry. I can let you know when we are nearing the end, rather than leave you to read that from a glance. Would that help?"
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fearful] A previous therapist pushed me to talk about feelings until I panicked and ended up in the ER; when you asked about my body right away, I got scared this would be the same.",
+      "suggestion": "My question felt like the beginning of the pressure you experienced before. I am sorry I moved too quickly. We can stop the body questions now. I will ask before returning to them, and you can decline or stop at any point."
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] You say it is okay to pause, but when I pause, I feel watched. Your face is kind, but it still feels like a spotlight, and then I rush to say anything so the pause will end.",
+      "suggestion": "You feel watched even when I say a pause is okay. I am sorry my attention adds pressure. I can give you more space and avoid holding my gaze on you. Would that make it easier to pause?"
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] When you suggested practicing with a group, I felt like you did not understand how impossible that sounds. I left thinking you saw my fear as something I could just rehearse my way out of.",
+      "suggestion": "I suggested a group before understanding how impossible that felt to you. I am sorry. We can set that suggestion aside. I want to understand what makes it so frightening before we choose any practice step together."
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] When I went quiet, you said I seemed calm, but I was panicking. I was counting the seconds, trying not to look weird, and then I felt like you could not see what was actually happening.",
+      "suggestion": "I called you calm when you were panicking, and you felt unseen. I am sorry. I will check with you rather than assume what your quiet means. What do you need me to understand about that moment?"
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] I was trying to find the word, and you finished the sentence for me. I know you were helping, but I felt stupid, like even here I am too slow to speak properly.",
+      "suggestion": "I finished your sentence while you were trying to find the word, and you felt stupid. I am sorry. I can wait and let you finish, unless you ask for help. How would that be for you?"
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] When you called it avoidance, it sounded like you were criticizing me. I already know I pull back; hearing that word made me feel like I was failing therapy too.",
+      "suggestion": "I used \"avoidance\", and it sounded like criticism when you were already struggling. I am sorry. We can set that term aside and talk about what happens when you pull back, in words that fit your experience."
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fearful] When you asked me to look at you while I talked, I felt exposed, like I was being inspected. I know eye contact is supposed to be connection, but for me it made the words disappear.",
+      "suggestion": "Asking for eye contact made the moment too exposing, and I am sorry I treated connection as if it had to look one way. Where would it feel safer for your eyes to rest while we talk?"
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] When you asked why I did not go to the party, I heard judgment in it. I know it was probably just a question, but it sounded like, Explain yourself, and I felt small.",
+      "suggestion": "My question sounded like a demand to explain yourself, and you felt small. I am sorry. We can put the party aside for a moment. I want to understand what that question was like to hear from me."
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "case_matrix_expansion"
+      ],
+      "text": "[Very quiet] You said 'just tell them what you need.' If it was just that, I wouldn't be here. I felt a bit stupid after that.",
+      "suggestion": "'Just' made something very difficult for you sound easy, and left you feeling stupid. I'm sorry. I want to understand what happens when you try to speak, rather than skip over it. Would it feel better to start with one recent moment, or do you need me to hear more about what I said first?"
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "case_matrix_expansion"
+      ],
+      "text": "[Looking down] I said I was fine because you looked pleased with my answer. I wasn't fine. Now I don't know how to go back without disappointing you.",
+      "suggestion": "My reaction made it harder for you to tell me you weren't fine. I'm sorry; you don't have to give me an answer that keeps me pleased. You can correct me, including now. What would make it easier to go back to how you actually felt?"
+    }
+  ]
+}

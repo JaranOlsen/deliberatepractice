@@ -193,12 +193,12 @@ export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, 
     if (configured && !ended) {
       if (next.content_revision !== CONTENT_REVISION && (mastery || !FOCUSED_CONTENT_COMPATIBILITY[next.content_revision]?.includes(next.skill_id))) throw new Error(strings().failedContent);
       if(mastery) {
-        exercise=await loadMasteryExercise(next.language_id,next.exercise_id,next.content_revision);
+        exercise=await loadMasteryExercise(next.language_id,next.exercise_id,next.content_revision,{roomId:next.id});
         entries=exercise.scenes;
         if(JSON.stringify(next.statement_ids)!==JSON.stringify(entries.map(e=>e.id)) || next.case_id!==exercise.caseId || next.difficulty!==exercise.difficulty)throw new Error(strings().failedContent);
       }else {
-        await loadPracticeContent(next.language_id, next.skill_id);
-        entries = getPracticeStatements(next.language_id, next.skill_id, next.case_id, next.difficulty);
+        await loadPracticeContent(next.language_id, next.skill_id,{roomId:next.id});
+        entries = getPracticeStatements(next.language_id, next.skill_id, next.case_id, next.difficulty,{roomId:next.id});
       }
       if (next.statement_ids.some(id => !entries.some(e => e.id === id))) throw new Error(strings().failedContent);
     }

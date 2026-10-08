@@ -1,0 +1,440 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_self-disclosure_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] When I say I still miss him, do you secretly think I sound ridiculous?",
+      "suggestion": "I do not see your grief as ridiculous. I am moved that you can bring it here, even when you feel embarrassed. What is it like to hear me say that?"
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] You probably get tired of hearing me cry about him every week.",
+      "suggestion": "Your tears do not tire me. I feel protective of how alone this gets for you, and I want that aloneness to have company here. Let that in only as much as feels safe."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] When I cry and you stay quiet, I worry my tears make you want to pull away.",
+      "suggestion": "Your tears do not make me pull away. When you cry, I feel close and careful, not distant. Let's notice the part of you that expected me to leave."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] This is my first time in therapy. Do you expect me to know where to start?",
+      "suggestion": "No. I do not expect you to know where to start. I can help us find a beginning; you do not have to perform therapy correctly for me."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] I am embarrassed that you see me this messy and needy.",
+      "suggestion": "I do not judge the mess or the need. I feel respect for the courage it takes to let me see them, and I want us to notice the shame that expected something harsher."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] Do you actually believe I will not still be alone a year from now, or are you just trying to comfort me?",
+      "suggestion": "I cannot promise what a year will bring, and I do not want to give you false certainty. I am willing to work with you on the loneliness rather than dismiss it. What is it like to hear that?"
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fearful] When I ask if I am too much, I am afraid you will start pulling away.",
+      "suggestion": "You do not feel like too much to me. I feel present and willing to stay close to this fear, without asking you to believe me faster than you can."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] Are you in a relationship? Does that make you judge me?",
+      "suggestion": "I keep details of my relationship private here, and I can say clearly that I am not judging you. I am interested in what it means to ask me that, and what you fear I might see in you."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] I hate that I need anyone, and needing you makes me feel exposed.",
+      "suggestion": "Hearing that, I feel tenderness for how risky needing is for you. I am not pulling away from the need; we can notice the part of you that expects it to cost you."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] Do you actually care about me, or is caring just part of your job?",
+      "suggestion": "I do care about you in this therapy relationship. The boundaries are part of caring responsibly, not a sign that the care is fake. Let's notice what hearing both brings up."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Tentative] When I tell you I checked his profile again, do you think, 'Here we go, she hasn't learned anything'?",
+      "suggestion": "I don't see that as a failure to learn. I'm interested in what draws you back at those moments. It sounds as though telling me brings a fear that I'll lose patience with you."
+    },
+    {
+      "id": "dp_self-disclosure_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Looking at the therapist] You smiled when I said I went to the cinema alone. Were you pleased, or was that just encouragement?",
+      "suggestion": "I was pleased to hear you found an evening you enjoyed. My smile was real; you don't have to keep making progress to earn it. What was it like to notice it?"
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_self-disclosure_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Challenging] Be honest—do I sound weak when I talk about being hurt?",
+      "suggestion": "I do not see acknowledging hurt as weakness. I respect your willingness to say it directly. What happens for you as you hear that?"
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] When I ask if you get angry too, I need to know you will not look down on mine.",
+      "suggestion": "I know anger in myself too, and I do not look down on yours. I feel steady enough to stay with it here; I am not above the feeling you are afraid I will judge."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] You probably think I am the problem at home, like everyone else does.",
+      "suggestion": "I do not see you as the problem. I feel how much pain is under the heat, and I want us to stay with that without turning you into the problem."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] When I admit I yelled, I look at your face for judgment.",
+      "suggestion": "I am not judging you. I feel concerned about what yelling costs you and the people you love, and also respectful that you are willing to look at it here."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Challenging] Do therapists get tired of hearing the same blowup story again?",
+      "suggestion": "I am not tired of hearing it. I feel focused when we come back to the split second it turns, because that is where your control can grow."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Challenging] Are you strong enough to handle me when I am mad?",
+      "suggestion": "I am willing to listen to your anger, and I will be clear if we need to pause. I do not want this to become a contest of strength. What would help you know I am taking you seriously?"
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Firm] You look calm while I describe yelling at home; does any of this actually get to you?",
+      "suggestion": "Yes, it does get to me. I stay calm on purpose so we can keep looking at it without either of us turning away; my calm is steadiness, not distance."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Challenging] Do you respect working with someone who gets as heated as I do?",
+      "suggestion": "I do respect working with you. I feel the seriousness behind your directness and the cost you are trying to face, and I want us to make room for how hard respect from me may be to take in."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Curious] Are you married? I wonder if you take your anger home.",
+      "suggestion": "I keep details of my relationship private here, and I do know the work of slowing anger before it spills into relationships. I am not looking at yours from a distance. Let's notice why that matters for you to know."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] Tell me you get why this is hard, because I feel ridiculous needing help.",
+      "suggestion": "I do get why this is hard. I hear pressure and hurt in it, not something ridiculous, and I want to speak directly to the part expecting contempt from me."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Direct] When I get blunt like this, do you take it personally? I don't want you tiptoeing around me.",
+      "suggestion": "I notice the force in your voice, and I want to stay direct with you rather than tiptoe. I can tell you if something affects our conversation. It matters to you that we can speak honestly without either of us pulling back."
+    },
+    {
+      "id": "dp_self-disclosure_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Concerned] If I tell you I was jealous of my son's coach, can you still respect me? It sounds ridiculous even saying it.",
+      "suggestion": "Yes, I can respect you while hearing about jealousy. I appreciate your willingness to show me something you're uncomfortable with. You seem worried this feeling will change how I see you."
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_self-disclosure_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] When I go quiet, I worry you are sitting there wishing I would hurry up.",
+      "suggestion": "I am still interested when you are quiet. I do not need you to hurry for my sake. What do you notice as I say that?"
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] I ask if you ever feel awkward because I feel like an alien here.",
+      "suggestion": "I do know awkwardness in myself, and it makes me want to move gently here with you. That may make this feel less alone, or it may not yet."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Long pause] When I pause too long, I imagine you are thinking I am boring.",
+      "suggestion": "I do not experience you as boring. I feel curious and with you, including in the pauses, and the pauses do not make me leave."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] Is it okay that I do not know what to say?",
+      "suggestion": "It is okay not to know what to say. I feel patient with you here; the not-knowing does not make you fail this with me."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] When I skipped the party, did you feel disappointed in me or think I avoided too much again?",
+      "suggestion": "No. I do not feel disappointed. I feel aware of how much that party demanded from your whole system, and I want my answer to meet the part expecting a grade."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] Do you get impatient when I go quiet and cannot find words?",
+      "suggestion": "I notice a wish to help you find the words, but I do not want that wish to become pressure. I am choosing to give the pause some room. How is that for you?"
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] When I get quiet, do you judge me or get annoyed inside?",
+      "suggestion": "I am not judging your quiet, and I do not feel annoyed. I respect the effort it takes to stay here. Your quiet can be part of the work, not something to apologize for."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] If I say something awkward here, would you tell me, or just sit there judging it?",
+      "suggestion": "I would try to be honest and kind, not secretly judging you. I feel protective of the part already braced for ridicule."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] Do you ever get nervous in groups, or is that just me?",
+      "suggestion": "Yes, I can get nervous in groups sometimes. I tell you that because I do not see your fear as strange or alien; it belongs to a human range, even if yours is painful."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] When I ask if I will ever be less anxious, I need to know if you actually believe that.",
+      "suggestion": "I do feel hope with you. I feel it because I see how hard you keep reaching for contact even while fear pulls you back."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Hesitant] Can I tell you if a question doesn't make sense? I usually just try to answer anyway.",
+      "suggestion": "Yes. I would rather know that my question doesn't make sense than have you struggle to give an answer for me. I'll try saying it differently. It sounds like it takes some courage to ask that here."
+    },
+    {
+      "id": "dp_self-disclosure_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "judicious_transparency",
+        "return_to_client",
+        "case_matrix_expansion"
+      ],
+      "text": "[Quietly] You don't seem embarrassed when I can't get a sentence out. Are you really okay sitting here like that?",
+      "suggestion": "Yes, I'm okay sitting with you while words are hard to find. I don't need you to speak smoothly for this time to matter. What is it like to hear that?"
+    }
+  ]
+}

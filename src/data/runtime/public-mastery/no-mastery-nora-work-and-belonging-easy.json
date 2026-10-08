@@ -1,0 +1,171 @@
+{
+  "id": "mastery-nora-work-and-belonging-easy",
+  "type": "mastery",
+  "caseId": "case-nora",
+  "difficulty": "easy",
+  "supportedLevels": [
+    "easy"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Nora · Arbeid og tilhørighet",
+  "orientation": "Tolv sammenhengende øyeblikk om utestenging, viktig arbeid og en egen stemme. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "scenes": [
+    {
+      "id": "mastery_nora_easy_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-nora_easy_01",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Nora begynner med kommentaren om å presentere tegningene.",
+      "prompt": "Speil utestengingen sammen med arbeidet de ønsket.",
+      "text": "[Såret] Han ville ha et mer norsk ansikt. Jeg satt der med mine egne tegninger.",
+      "suggestion": "Arbeidet ditt var ønsket, mens du ble behandlet som en som ikke hørte til foran det."
+    },
+    {
+      "id": "mastery_nora_easy_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-nora_easy_01",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "bridge": "Hun spør hva det kan gi å undersøke virkningen.",
+      "prompt": "Gi en beskjeden begrunnelse uten å love endring på jobben.",
+      "text": "[På vakt] Å snakke om følelsene mine endrer ikke det Ben sa.",
+      "suggestion": "Nei. Vi kan undersøke virkningen på deg, sammen med praktiske svar du vil vurdere."
+    },
+    {
+      "id": "mastery_nora_easy_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-nora_easy_01",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "bridge": "Et annet øyeblikk vekker selvkritikk over fortsatt å være opprørt.",
+      "prompt": "Gjør reaksjonen forståelig i den konkrete sammenhengen.",
+      "text": "[Selvkritisk] Jeg er fortsatt opprørt over kommentaren om et «norsk ansikt».",
+      "suggestion": "Kommentaren stilte spørsmål ved plassen din foran eget arbeid. Det er forståelig å være opprørt."
+    },
+    {
+      "id": "mastery_nora_easy_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-nora_easy_04",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "bridge": "Nora husker å vende tilbake til tegningene etter møtet.",
+      "prompt": "Still ett åpent spørsmål om den uklare opplevelsen.",
+      "text": "[Lavt] Jeg ville ikke se på tegningene mine.",
+      "suggestion": "Hvordan var det å se dem etter det møtet?"
+    },
+    {
+      "id": "mastery_nora_easy_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-nora_easy_01",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "bridge": "I dette øyeblikket er det såre fra kommentaren allerede til stede.",
+      "prompt": "Undersøk det såre hun merker nå.",
+      "text": "[Såret] Det gjør vondt når jeg husker at han sa det om ansiktet mitt.",
+      "suggestion": "Hva er den mest smertefulle delen når du husker det nå?"
+    },
+    {
+      "id": "mastery_nora_easy_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-nora_easy_01",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "bridge": "Et annet øyeblikk ved pulten har en usagt betydning.",
+      "prompt": "Tilby én tentativ gjetning med rom for korrigering.",
+      "text": "[Lavt] Jeg rettet på tegningene etter møtet. Jeg klarte ikke begynne å jobbe.",
+      "suggestion": "Jeg lurer på om kommentaren gjorde det vanskelig å kjenne deg hjemme i ditt eget arbeid?"
+    },
+    {
+      "id": "mastery_nora_easy_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-nora_easy_01",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "bridge": "Hun beskriver utestengingen på avstand.",
+      "prompt": "Bruk ett nært bilde og undersøk om det passer.",
+      "text": "[På avstand] De ville ha tegningene, bare ikke at jeg presenterte dem.",
+      "suggestion": "Er det som om arbeidet ditt fikk komme inn i rommet mens du ble holdt ved døren?"
+    },
+    {
+      "id": "mastery_nora_easy_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-nora_easy_03",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "Et ønske om å få arbeidet sett går over til en prosjektdetalj.",
+      "prompt": "Undersøk om hun vil vende tilbake til det ønsket.",
+      "text": "[Trist, så saklig] Jeg ville at arbeidet ble sett. Prosjektet har tre etasjer.",
+      "suggestion": "Jeg merket at vi gikk over til etasjene. Ville det hjelpe å gå tilbake til ønsket om å bli sett?"
+    },
+    {
+      "id": "mastery_nora_easy_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-nora_easy_01",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "bridge": "Et senere tårefylt øyeblikk trenger selskap heller enn en løsning.",
+      "prompt": "Bli nær uten å skynde deg å fikse det såre.",
+      "text": "[Gråter] Jeg trenger at du hører hvor vondt det gjorde.",
+      "suggestion": "Jeg lytter. Vi kan gi det såre plass uten å skynde oss til en løsning."
+    },
+    {
+      "id": "mastery_nora_easy_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-nora_easy_09",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Et annet øyeblikk gir ønsket om anerkjennelse tydeligere ord.",
+      "prompt": "Speil anerkjennelsen hun ber om.",
+      "text": "[Sint] Jeg vil ikke at kollegaen blir straffet. Jeg vil at de sier hvem som laget tegningene.",
+      "suggestion": "Du ber om at bidraget ditt blir anerkjent som ditt."
+    },
+    {
+      "id": "mastery_nora_easy_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-nora_easy_02",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Nora merker et tydeligere ønske i sinnet.",
+      "prompt": "Hjelp henne å sette ord på det hun vil ta vare på.",
+      "text": "[Lavt] Sinnet har et tydeligere poeng nå: Jeg vil presentere eget arbeid.",
+      "suggestion": "Hva vil du beholde ved det tydeligere ønsket?"
+    },
+    {
+      "id": "mastery_nora_easy_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-nora_easy_02",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "Den tenkte timen er snart over.",
+      "prompt": "Avslutt uten å hevde at problemet er løst.",
+      "text": "[Trist] Jeg er klar til å stoppe, men vil ikke kalle det løst.",
+      "suggestion": "Vi kan avslutte timen uten å kalle det løst. Skal vi notere hvor du vil vende tilbake?"
+    }
+  ]
+}

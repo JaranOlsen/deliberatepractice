@@ -36,3 +36,17 @@ if (missingBundledValues.length) {
 }
 
 console.log("Supabase build config verified.");
+
+const manifest=JSON.parse(readFileSync('src/data/runtime/manifest.json','utf8'));
+const premium=new Set(Object.entries(manifest.cases).filter(([,data])=>data.tier==='pro').map(([id])=>id));
+let banks=0;
+for(const file of readdirSync(assetsDir).filter(file=>file.endsWith('.json'))){
+  const value=JSON.parse(readFileSync(join(assetsDir,file),'utf8'));
+  if(value.scenes){if(premium.has(value.caseId))throw Error('Premium mastery was included in public build');banks++;}
+  else if(Object.values(value).some(Array.isArray)){
+    for(const [caseId,entries] of Object.entries(value))if(premium.has(caseId)&&Array.isArray(entries)&&entries.some(entry=>typeof entry.text==='string'))throw Error('Premium statements were included in public build');
+    banks++;
+  }
+}
+if(!banks)throw Error('Public practice banks are missing from build');
+console.log(`Public content distribution verified (${banks} banks).`);

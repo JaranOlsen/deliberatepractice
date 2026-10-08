@@ -1,0 +1,1598 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_empathic-understanding_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] I got through work today, answered emails, smiled in a meeting, and then cried in the car because I missed him so much.",
+      "suggestion": "You kept functioning, and then the missing him hit you hard."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hopeful] I want to believe I can feel better about myself, and for the first time it feels possible to work on that here.",
+      "suggestion": "You feel a little hope that this could be a place to work on how you feel about yourself."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sad] I found an old photo while deleting things from my phone, and it made the breakup feel fresh again.",
+      "suggestion": "Finding that photo brought the breakup pain right back."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Angry] I hate that I still check my phone at night, like some part of me is waiting for his name to show up.",
+      "suggestion": "You hate that part of you is still waiting for him."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sad] Mornings are the worst. I wake up for one second before remembering he is gone, and then everything feels heavy.",
+      "suggestion": "The morning starts with that heavy remembering that he is gone."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] My friends keep saying time helps, and I know they mean well, but I feel embarrassed that I am still crying this easily.",
+      "suggestion": "You feel embarrassed that the sadness is still so close to the surface."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] I fill the day with errands and little tasks so I do not think, and then at night there is nothing left to distract me.",
+      "suggestion": "The busyness holds things off, and the loneliness catches up at night."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] When friends ask how I am, I make a joke or change the subject because I do not want to be the heavy one again.",
+      "suggestion": "You hide the heaviness so you do not become the heavy one again."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] I passed a couple holding hands outside the grocery store, and it felt like everyone else got picked for a life I lost.",
+      "suggestion": "Seeing them touched that feeling of being left out of the life you wanted."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Softly] Part of me keeps going over conversations, trying to find the moment he decided I was not worth staying with.",
+      "suggestion": "You keep searching for the moment he stopped wanting to stay."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Sad] I still set out two plates sometimes. Then I put one back before I sit down. Dinner is the loneliest part of the day.",
+      "suggestion": "Sitting down to dinner brings home how much you miss having him there."
+    },
+    {
+      "id": "dp_empathic-understanding_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Relieved] I spent an afternoon with my sister and actually enjoyed it. For a few hours I wasn't trying to work out what I did wrong.",
+      "suggestion": "It was a relief to enjoy being with her without blaming yourself for a while."
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_empathic-understanding_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Firm] I spent the whole morning fixing other people's mistakes at work, and by lunch I was fed up with everyone needing me to clean things up.",
+      "suggestion": "You were tired and fed up with having to put everyone else's mistakes right."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] My wife said she is tired of walking on eggshells around me, and hearing that made me feel ashamed.",
+      "suggestion": "Hearing that she walks on eggshells left you ashamed."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] After I yelled last night, I saw her flinch, and then I felt sick with shame.",
+      "suggestion": "Seeing her flinch after you yelled left you sick with shame."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and angry] When someone questions my decision in a meeting, I can feel my anger come up before I have even answered.",
+      "suggestion": "Being questioned in front of others brings anger up fast."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Embarrassed] Someone asked a simple question I could not answer today, and I felt exposed in front of the whole room.",
+      "suggestion": "Not having the answer left you feeling exposed in front of everyone."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] I stayed up past midnight fixing slides because I could not stand the thought of someone catching me unsure in the morning.",
+      "suggestion": "You were afraid they would see you unsure, so it felt hard to stop preparing."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Firm] My wife's tone changes a little, and I am already bracing before I know what she is actually trying to say.",
+      "suggestion": "Her tone makes you brace before you even know what she means."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense and ashamed] I know I should apologize, but the second I do, it feels like I am handing her proof that I am weak.",
+      "suggestion": "Apologizing feels like exposing weakness."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tense] I tell myself I am only holding people to a standard, but underneath that I feel accused and cornered.",
+      "suggestion": "You call it holding standards, and underneath you feel accused."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Ashamed] At night I replay what I said to my wife, especially the look on her face, and I feel awful.",
+      "suggestion": "At night you replay her face and feel awful about what happened."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Frustrated] The deadline changed again. I spent the whole weekend finishing the report, and now it's as if that effort didn't count.",
+      "suggestion": "You're frustrated that you gave up your weekend and your effort seems to count for nothing."
+    },
+    {
+      "id": "dp_empathic-understanding_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Disappointed] My son asked his uncle to come to the school thing, not me. I know I've been busy. It still hurt being the one he didn't ask.",
+      "suggestion": "You understand that you've been busy, and it still hurts that he chose someone else."
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_empathic-understanding_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] I am tired of sitting in meetings with my heart racing while everyone else seems normal.",
+      "suggestion": "You are tired of feeling so anxious while everyone else seems at ease."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Sad] I ate lunch alone again today and watched people at another table laughing like it was easy.",
+      "suggestion": "Eating alone while others connected left you sad."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Fearful] I wanted to say yes to game night, and then the fear kept building until I made an excuse and cancelled.",
+      "suggestion": "You wanted to go, and the fear grew until you backed out."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] When someone compliments my work, I smile, but inside I wait for them to realize they were wrong.",
+      "suggestion": "The compliment does not land, and you expect it to be taken back."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] I rewrote a simple text six times today because every version sounded weird once I looked at it.",
+      "suggestion": "Even a simple text turns into anxiety and second-guessing."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anxious] I eat lunch at my desk because walking into the break room feels like stepping onto a stage.",
+      "suggestion": "Walking into the break room feels exposing, so you stay where you feel less on show."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Quietly] After I say something in a meeting, I spend the rest of the afternoon replaying it and cringing.",
+      "suggestion": "After speaking, you replay it and feel embarrassed."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Hesitant] In groups I go quiet so fast, and then I feel outside the circle even before anyone has left me out.",
+      "suggestion": "You go quiet and feel outside the group before anyone has said anything."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Trembling] When I had to introduce myself today, my hands shook, and I wanted the floor to open up.",
+      "suggestion": "Introducing yourself brought shaking and a wish to disappear."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "text": "[Tearful] Sunday nights are hard because I realize no one is expecting to hear from me before the week starts again.",
+      "suggestion": "Sunday nights leave you painfully aware that no one is waiting to hear from you."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Worried] There's a team lunch tomorrow. I'm already thinking about where to sit and whether anyone will talk to me.",
+      "suggestion": "You're worried about finding a place at the lunch and being left on your own."
+    },
+    {
+      "id": "dp_empathic-understanding_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "text": "[Pleased] Someone at work remembered something I'd told them last week. I felt glad they remembered me. It made the day easier.",
+      "suggestion": "Being remembered made you feel glad and helped you feel a little more at ease."
+    }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] I still put two cups out. Seeing hers empty makes me sad.",
+      "suggestion": "That empty cup brings home how much you miss having Eva beside you.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sighs] I fixed the gate yesterday. There was nobody to call outside and show it to.",
+      "suggestion": "Finishing it felt lonely without her there to share that little satisfaction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Tearful] I miss her ordinary voice. Even asking where I left the scissors.",
+      "suggestion": "You miss the everyday sound of her, even those small questions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Softly] Emma visits, but when her car leaves the house feels empty all over again.",
+      "suggestion": "Her visit brings company, and the quiet after she leaves hurts again.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Warmly] Tom made me laugh on our walk. For a while it was just good to be outside.",
+      "suggestion": "For that stretch, you could enjoy his company and being out there.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Frowning] I’m annoyed when people tell me to keep busy. I’m already doing that.",
+      "suggestion": "You’re working hard to get through the days, and that advice leaves you feeling unheard.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Hesitant] I felt relieved not to listen for her at night anymore. Then I felt guilty.",
+      "suggestion": "The constant listening could stop, and guilt arrived alongside that relief.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Softly] I’m proud Emma asks me for help. It’s good to still be useful to her.",
+      "suggestion": "Helping Emma gives you a welcome sense of having something to offer.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] Sunday dinner used to be our thing. Now I dread Sunday afternoons.",
+      "suggestion": "What used to be time together has become a lonely part of the week.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Frustrated] The paperwork makes me angry. Her name keeps turning into a reference number.",
+      "suggestion": "Those forms feel cold beside the person Eva was to you.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Tearful smile] Her old recipe has a grease mark where she always rested the spoon.",
+      "suggestion": "That little mark brings her way of being in the kitchen close again.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Tired] Some evenings I don’t need solutions. I just want someone sitting there.",
+      "suggestion": "You’re longing for company, without having to turn the evening into a problem to solve.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Half-smile] Breakfast is peaceful now. I hate that I can like the quiet.",
+      "suggestion": "The quiet gives you a little peace, and liking it brings guilt alongside that.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Briskly] I fixed the gate. Good job, really. Then I had nowhere to put the good feeling.",
+      "suggestion": "There was satisfaction in the work, and loneliness where sharing it with her used to be.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Looks down] I want Emma to visit, but I spend the visit telling her I’m managing.",
+      "suggestion": "You want her close, and showing you’re managing makes it hard to let her see that need.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Dry laugh] Forty-one years. Plenty of love, plenty of getting on each other’s nerves. I miss both.",
+      "suggestion": "You miss the whole familiar life together, including the things that used to irritate you.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] Tom’s jokes helped. Then I felt I’d left Eva out of the afternoon.",
+      "suggestion": "Enjoying Tom’s company felt good, then seemed to put your connection with Eva at risk.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Careful] I don’t miss those hospital nights. I miss her. I need that understood.",
+      "suggestion": "You miss Eva, while you don’t want those exhausting nights back. You want room for that distinction.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Frowning] People admire how I cared for her. I’m glad, but that’s not all I was.",
+      "suggestion": "You value that care being seen, and want to be known as more than her caregiver.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Hesitant] A day without thinking about her would frighten me. I also wish for one.",
+      "suggestion": "You want some ease, and worry that ease might mean losing something of her.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Softly] Her coat comforts me until someone asks why it’s still there.",
+      "suggestion": "It gives you closeness, and other people’s questions make that comfort feel judged.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sighs] I don’t want another dinner invitation where I’m the empty chair everyone notices.",
+      "suggestion": "You want company without your loss becoming the center of everyone’s attention.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Warm, then hesitant] Helping Emma felt like myself again. Saying that sounds as if Eva stopped me being myself.",
+      "suggestion": "You felt something familiar in helping Emma, and worry that naming it could sound unfair to Eva.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] Sometimes the sadness is easier than deciding what I want now.",
+      "suggestion": "Sadness is familiar; figuring out what you want in this changed life feels uncertain too.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Firmly] The quiet was good. Don’t turn that into wanting her gone.",
+      "suggestion": "The quiet gave you something you needed. That is different from wanting Eva gone, and you need the distinction heard.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Watchful] I moved the coat, then put it back. It felt wrong there. I can’t tell you why.",
+      "suggestion": "Something felt wrong about moving it, though the meaning isn’t clear yet. We can leave that open.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] I miss her. I’m also angry about some things. Don’t tidy that up for me.",
+      "suggestion": "You need room for the love and the anger without my smoothing either away.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Dryly] I know I matter to Emma. That doesn’t stop an empty Sunday being empty.",
+      "suggestion": "Knowing you matter doesn’t supply the company you miss on Sunday.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Hesitant] It’s not guilt exactly. More as though enjoying myself has nowhere to belong.",
+      "suggestion": "The enjoyment feels out of place in this changed life, rather than simply wrong. Is that closer?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Steady] I was tired of the care. I don’t need permission to say that, but I need you not to flinch.",
+      "suggestion": "You know the exhaustion was real. You need me to hear it plainly and stay with you.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Warm, then guarded] Tom and I laughed. It was ordinary. Please don’t make it a milestone.",
+      "suggestion": "An ordinary good moment with your friend, which you want left at its own size.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] I don’t want her back as ill as she was. I want her, and there’s no way to have that.",
+      "suggestion": "You want Eva, without that suffering. Neither is available, and the longing has nowhere simple to land.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Careful] I’m not lonely every time I’m alone. Sometimes it’s the visitors who leave me lonely.",
+      "suggestion": "Being alone can feel right; feeling unseen in company can be the lonelier part.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Flatly] I’m not sure I feel anything about the photograph today. That doesn’t frighten me.",
+      "suggestion": "Today there may be no clear feeling there, and you don’t need me to turn that into a concern.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Firmly] I want practical help. Calling it avoidance makes me want to leave.",
+      "suggestion": "The practical need is real. Having it explained away leaves you feeling unheard here.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] Yesterday I wanted company. Today Tom called and I let it ring. I don’t know what to make of myself.",
+      "suggestion": "What you want can feel different from one day to the next, and that leaves you unsure how to understand yourself.",
+      "difficulty": "hard"
+    }
+  ],
+  "case-mia": [
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sad] I used to draw all evening. Now I put the pencil down before I’m ready.",
+      "suggestion": "You still want to draw, and it hurts to stop before you’ve had enough.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Frustrated] Alex opened the jar before I’d even asked. I wanted to try.",
+      "suggestion": "You wanted a chance to decide whether you needed help.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Angry] They saw me laughing at lunch and assumed I could work the whole afternoon.",
+      "suggestion": "Being cheerful got mistaken for having energy you didn’t have.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] I’m frightened of making plans. I don’t know what tomorrow will be like.",
+      "suggestion": "You want something to look forward to, with no certainty that you can manage it.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Tearful] I miss being the person who offered to help.",
+      "suggestion": "You miss having that familiar way to contribute.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Relieved] Sam asked what would help instead of deciding for me.",
+      "suggestion": "It was a relief to have your own answer matter.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sad] Ella meant well. But when she said I looked fine, I felt completely alone.",
+      "suggestion": "Her reassurance left the hard part of your day unseen.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Tired] Explaining why I need the stool takes almost as much energy as standing.",
+      "suggestion": "Even getting the adjustment costs energy you need to save.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Guilty] I snapped at Alex. I was hurting, but I still hate how I spoke.",
+      "suggestion": "You were in pain, and you’re upset about hurting him with your words.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Warmly] Today I explained a painting to a visitor. For a while, I felt like myself.",
+      "suggestion": "Sharing what you know gave you a familiar sense of being yourself.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Disappointed] I wanted to go, and I needed to stay home. Both were true.",
+      "suggestion": "Staying home was necessary, and it still meant missing something you wanted.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Steady] I want help carrying the bag. I don’t want someone choosing what goes in it.",
+      "suggestion": "You want help with the weight while keeping the decisions yours.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Half-smiles] Alex means well. I’m grateful right up until he starts answering for me.",
+      "suggestion": "You welcome his care, and lose something important when your own answer gets replaced.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] I cancelled and felt relieved. Then I pictured them all laughing without me.",
+      "suggestion": "Staying home gave you needed relief, alongside the ache of being left out.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Brisk, voice catches] Three workdays is sensible. I know that. I hate needing it to be sensible.",
+      "suggestion": "You understand the adjustment, and still grieve having to make it.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Uneasy] When Sam notices I’m tired, I feel cared for and watched.",
+      "suggestion": "His attention can feel supportive and leave you exposed at the same time.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Dry laugh] I’m the reliable one. Except I can’t reliably say whether I’ll come.",
+      "suggestion": "Being dependable still matters to you, while your capacity won’t follow a promise.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Frustrated] Ella says I should ask. Then I feel like her whole visit becomes my needs.",
+      "suggestion": "You want to ask, without losing the give-and-take of being sisters.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sad, then shrugs] I still draw. Just less. So I shouldn’t complain, should I?",
+      "suggestion": "Drawing is still there, and the amount you’ve lost still hurts.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Angry, then guilty] I wanted Alex to leave the plants alone. Now he won’t offer at all.",
+      "suggestion": "You wanted a choice about that help, and now miss having the offer.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Hesitates] I like a good day. I almost don’t trust it.",
+      "suggestion": "Enjoying the day is harder when you can’t count on the next one being like it.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] They praised me for getting through the tour. I wanted them to notice the painting.",
+      "suggestion": "You wanted your work to be seen, rather than just your effort to endure it.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Tense] I’m angry about the chair, but I don’t want to become the angry person at work.",
+      "suggestion": "You need that limit respected and worry that speaking up will become all they see.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Warm, then unsure] Alex waited for me to choose. I liked it, but it felt strangely slow.",
+      "suggestion": "Having room to decide felt good and unfamiliar enough to be a little awkward.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] I wanted him there. I didn’t want him doing everything. I can’t make that come out kindly.",
+      "suggestion": "You want his company and room to choose, and struggle to say both without hurting him.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Corrects, then pauses] Not helpless. Tired of explaining. There’s a difference.",
+      "suggestion": "It’s the repeated explaining that wears you down, not a sense that you can’t do anything.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Dryly] I wanted the painting noticed. I also wanted someone to notice I’d managed to be there.",
+      "suggestion": "You wanted your work seen and the effort of being there understood, without one replacing the other.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Hesitates] Ella asked first. I still bristled. I don’t have a neat reason.",
+      "suggestion": "Even being asked didn’t make that moment easy, and you’re not yet sure what made it hard.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Flatly] Rest was right. It wasn’t good. Please don’t turn it into something good.",
+      "suggestion": "It was the needed choice, and you still lost an afternoon you wanted.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] I left the drawing out. Didn’t work on it, didn’t put it away.",
+      "suggestion": "You haven’t wanted to keep drawing or to close it away just yet.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Uneasy] I want them to believe the bad days. I don’t want that to be my whole introduction.",
+      "suggestion": "You need the limits believed without becoming only the person with limits.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Softly] Alex stopped offering. I got what I asked for, apparently.",
+      "suggestion": "The stopping didn’t give you the kind of help or choice you were trying to ask for.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Warm, guarded] The museum felt like home today. Don’t make me explain why I can’t stay longer there.",
+      "suggestion": "Today there was belonging. You want that heard without having to defend the limit on your time.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] I’m angry with Ella, and it isn’t all because she got it wrong.",
+      "suggestion": "The anger is real, and doesn’t fit a simple story of Ella having done something wrong.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Tired] I don’t know if I’m protecting myself or shutting everyone out tonight.",
+      "suggestion": "You need something different tonight, but aren’t sure what kind of distance would help.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-mia_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Almost whispers] I’m still me. Saying that feels true and not enough.",
+      "suggestion": "Being yourself still matters, and those words don’t cover everything you’ve lost.",
+      "difficulty": "hard"
+    }
+  ],
+  "case-nora": [
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Hurt] He wanted a more Norwegian face. I was sitting right there with my own drawings.",
+      "suggestion": "Your work was wanted, while you were treated as someone who didn’t belong in front of it.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Angry] I said Norway. They asked where I was really from.",
+      "suggestion": "Your answer wasn’t accepted, as if you couldn’t belong where you grew up.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Tired] I want an evening that doesn’t involve explaining that meeting.",
+      "suggestion": "You want some time that isn’t taken up by what happened at work.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Frustrated] Max started speaking for me. I hadn’t chosen my words yet.",
+      "suggestion": "You wanted help that left room for your own answer.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sad] I love designing. That afternoon I couldn’t even look at the drawings.",
+      "suggestion": "What happened put distance between you and work you usually love.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Worried] If I raise it, I’m scared they’ll only see a complaint.",
+      "suggestion": "You want the exclusion heard and fear losing the rest of who you are in their eyes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Relieved] Lina didn’t ask me to prove it. She listened.",
+      "suggestion": "You could tell her what happened without having to build a case first.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] I kept the meeting going. Nobody saw how much that cost.",
+      "suggestion": "You held the meeting together while carrying something they didn’t see.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Angry] I don’t want my colleague punished. I want my work credited to me.",
+      "suggestion": "You’re asking for your contribution to be recognized as yours.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Warm] Adam asked if I wanted company or a conversation. I wanted company.",
+      "suggestion": "It felt good to have company without needing to tell the whole story.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Steady] I don’t want to deal with it tonight. That doesn’t mean it was okay.",
+      "suggestion": "You can leave it for tonight without deciding it was acceptable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] I want to enjoy my photographs without turning them into something about belonging.",
+      "suggestion": "You want room for an ordinary pleasure on its own terms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Half-smiles] I love the work. I hate rehearsing how to prove I belong before the meeting.",
+      "suggestion": "You want to do work you love without preparing a defense of your place there.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Angry, hesitant] Max defended me. I was grateful and wanted him to stop.",
+      "suggestion": "His support mattered, and being spoken for took away something you wanted to choose.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] I enjoyed dinner. Then I felt guilty for letting the meeting go for an evening.",
+      "suggestion": "The evening gave you relief, followed by a worry that enjoying it meant letting something important pass.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Dry laugh] They call me confident. That’s not what was happening at my desk afterwards.",
+      "suggestion": "They saw the composed part, while the hurt afterwards remained yours to carry.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Unsure] I don’t know why I was interrupted today. I do know I’ve started expecting it.",
+      "suggestion": "This moment’s reason is unclear, and earlier experiences have made you watch for it.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Sad, then brisk] I want Ben to understand. I don’t want to spend my life getting him to understand.",
+      "suggestion": "You want him to hear you without the explaining becoming your whole job.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Uneasy] Lina believed me. Somehow I still wanted to give her all the evidence.",
+      "suggestion": "Being believed was welcome, while the habit of having to prove it kept going.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Angry, quieter] I snapped at Adam’s question. He wasn’t questioning whether it happened.",
+      "suggestion": "You heard another demand to explain, and now see that his question may have meant something else.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] I want the credit. I don’t want a ceremony about giving me the credit.",
+      "suggestion": "You want ordinary recognition for your work, without being turned into the occasion.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Warm, then guarded] I liked talking about the photographs. I almost expected the conversation to turn.",
+      "suggestion": "The ordinary pleasure was there, with part of you still waiting to be made an outsider.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Tired] I want to say nothing today. Not because there’s nothing to say.",
+      "suggestion": "You’re choosing a break from speaking, while what happened still deserves a hearing.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Thoughtful] Staying feels costly. Leaving would mean giving up work I care about.",
+      "suggestion": "Neither choice is simple: staying carries a cost, and leaving would bring a loss too.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] He wanted my design. Not me in front of it. I keep making that sentence sound less ugly.",
+      "suggestion": "Your contribution was wanted while your presence was rejected, and you keep softening how you say it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Corrects] I don’t feel between two cultures. I feel excluded from a meeting about my own work.",
+      "suggestion": "It’s that concrete exclusion you want heard, rather than a story about where you fit culturally.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Hesitates] I don’t know why today happened. Please don’t make that mean the other comment was unclear.",
+      "suggestion": "Today’s motive is uncertain. That doesn’t undo the clarity of what Ben said before.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Dryly] Max got the point right. Still wished he’d stopped speaking.",
+      "suggestion": "Even with the point right, you wanted the choice of how and when to speak to remain yours.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] The photographs were just enjoyable. Don’t turn that into me reclaiming anything.",
+      "suggestion": "You want that enjoyment kept ordinary, without a larger meaning added to it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Uneasy] I want a response from Ben. I don’t want another hour devoted to his response.",
+      "suggestion": "You want acknowledgment without it claiming more of your time and attention.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Flatly] I stayed quiet. It wasn’t helplessness. It was a decision with a cost.",
+      "suggestion": "You made a choice in that moment, and still paid something for making it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Softly] I was relieved someone noticed. Then I wanted the room to forget I was there.",
+      "suggestion": "Recognition felt relieving and exposing, close together.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Tired] I’ve explained it well. I haven’t said what it was like. I’m not sure I want to today.",
+      "suggestion": "The explanation is available, while sharing the personal impact is still a choice you haven’t made today.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Quietly] I’m angry with Max, but it isn’t all about Max.",
+      "suggestion": "The anger includes his part, without fitting entirely inside what he did.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Thoughtful] Staying isn’t loyalty. Leaving wouldn’t simply be freedom.",
+      "suggestion": "Neither choice fits a single label; each holds something you value and something you’d lose.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_empathic-understanding_case-nora_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "text": "[Almost whispers] I want to be believed. I don’t want agreement with every thought I’ve had since.",
+      "suggestion": "You want the event and its impact taken seriously, with room to examine your thoughts about it.",
+      "difficulty": "hard"
+    }
+  ]
+}

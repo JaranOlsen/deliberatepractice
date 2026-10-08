@@ -51,8 +51,15 @@ try {
     const expected=BASE_PRACTICE[skill].cases[caseId].statements.filter(e=>e.difficultyTier===level).map(({id,criteriaTags})=>({id,criteriaTags}));
     assert.deepEqual(row?.entries,expected,'Focused catalog drift: '+skill+'/'+level);
   }
-  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql', 'check-practice-goals.sql', 'check-rating-history.sql', 'check-mastery.sql','check-practice-levels.sql','check-fixed-case-mastery.sql','check-experiential-focusing.sql','check-admin-ai.sql']) {
+  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql', 'check-practice-goals.sql', 'check-rating-history.sql', 'check-mastery.sql','check-practice-levels.sql','check-fixed-case-mastery.sql','check-experiential-focusing.sql','check-admin-ai.sql','check-account-access.sql','check-sponsored-content.sql']) {
+    // Existing protocol suites isolate room behavior using entitled hosts.
+    // Access-specific suites create their own paid/free fixtures explicitly.
+    const protocolFixture=!['check-account-access.sql','check-admin-ai.sql','check-sponsored-content.sql'].includes(name);
+    if(protocolFixture)await db.exec(`create function auth.fixture_library_grant() returns trigger language plpgsql as $$ begin
+      insert into public.account_access_grants(user_id,grant_key) values(new.id,'protocol-fixture');return new;end $$;
+      create trigger fixture_library_grant after insert on auth.users for each row execute function auth.fixture_library_grant();`);
     await db.exec(await read('scripts/' + name));
+    if(protocolFixture)await db.exec('drop trigger fixture_library_grant on auth.users;drop function auth.fixture_library_grant();');
     console.log('PASS ' + name);
   }
   if (!process.argv.includes('--serve')) {
@@ -61,6 +68,7 @@ try {
     const users = Object.fromEntries(['o','t','c','p'].map(role => [role, randomUUID()]));
     for (const [role, id] of Object.entries(users)) {
       await db.query("insert into auth.users(id,email) values($1,$2)", [id, role + '@local.invalid']);
+      await db.query("insert into public.account_access_grants(user_id,grant_key) values($1,'browser-protocol-fixture')",[id]);
       await db.query('update public.profiles set display_name=$2 where id=$1', [id, 'Test ' + role]);
     }
     const signatures = {

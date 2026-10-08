@@ -1,0 +1,440 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_alliance-repair_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Av og til tror jeg du blir lei når jeg forteller om bruddet igjen, og da føler jeg meg dum som fortsatt tar det opp her.",
+      "suggestion": "Takk for at du sier fra. Du er redd jeg kjeder meg, og så skammer du deg over å ta sorgen med hit. Jeg vil forstå når du mister følelsen av at jeg lytter. Hva har du lagt merke til i de øyeblikkene?"
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Da du spurte om jobb igjen, føltes det som om du ikke skjønte hvor vondt dette er. Jeg vet at jeg må fungere, men akkurat da hørtes det ut som om du ville ha den praktiske versjonen av meg tilbake for fort.",
+      "suggestion": "Spørsmålet mitt om jobb fikk deg til å kjenne at jeg gikk for fort forbi det vonde. Unnskyld. Vi kan la jobb ligge nå. Hva trenger du at jeg forstår om hvor vondt dette er?"
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Engstelig] Da jeg beklaget at jeg gråt, gjorde stillheten din meg redd for at jeg var for trengende for terapi. Jeg begynte å skanne ansiktet ditt for å finne ut om jeg burde ta meg sammen før du ble lei av meg.",
+      "suggestion": "Stillheten min fikk deg til å lure på om tårene var for mye for meg. Unnskyld. Jeg kan si at jeg lytter, i stedet for å la deg prøve å lese ansiktet mitt. Ville det hjelpe når tårene kommer?"
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Når du stadig kaller det sorg, føles det som om du allerede har bestemt hva dette er. Noe av det er sorg, men noe er sinne, ydmykelse, savn og følelsen av å være dum, og jeg vil ikke at det skal flates ut.",
+      "suggestion": "Jeg fortsatte å si «sorg» mens du fortalte at det var mer enn det. Unnskyld. Jeg kan legge det ordet bort og lytte til sinnet, ydmykelsen og savnet uten å bestemme at alt betyr det samme."
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[På gråten] Forrige time sluttet mens jeg fortsatt gråt, og jeg gikk til bilen med følelsen av å være overlatt til meg selv. Jeg vet at tiden var ute, men jeg fortsatte å tenke at jeg ikke burde ha åpnet meg så mye så nær slutten.",
+      "suggestion": "Vi avsluttet mens du fortsatt gråt, og du kjente deg overlatt til deg selv. Unnskyld. Vi kan sette av litt tid før avslutningen til å høre hvordan du har det, og hva du trenger videre den dagen. Hvordan ville det være for deg?"
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Såret] Da du spurte om jeg hadde tenkt på å date igjen, føltes det som om du ville at jeg skulle gå videre allerede.",
+      "suggestion": "Da jeg spurte om dating, kjente du deg presset til å gå videre fra sorgen før du var klar. Unnskyld. Vi kan legge det spørsmålet bort. Hva trenger du at jeg forstår om hvordan du har det nå?"
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Du sa feil navn på ham forrige uke, og jeg følte meg dum som brydde meg så mye. Men navnet hans er fortsatt overalt i hodet mitt, så da du sa feil, kjentes det som om forholdet ble mindre virkelig her også.",
+      "suggestion": "Jeg sa feil navn, og noe viktig for deg kjentes mindre virkelig her. Unnskyld. Du skal ikke måtte ordne opp i det for meg. Jeg vil være mer nøye med navnet hans. Er det mer om det øyeblikket du vil at jeg skal høre?"
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Da jeg innrømmet at jeg sjekket profilen hans, så ansiktet ditt skuffet ut, og jeg fikk lyst til å ta det tilbake. Jeg kom hit fordi jeg allerede skammer meg over det, så det blikket fikk meg til å ville gjemme meg.",
+      "suggestion": "Du så skuffelse i ansiktet mitt og ville skjule det du nettopp hadde fortalt. Jeg beklager at uttrykket mitt virket slik på deg. Jeg vil forstå hvordan det er for deg å sjekke profilen hans. Hva trengte du fra meg da?"
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Engstelig] Da du spurte hvem andre som støtter meg, hørtes det ut som om du prøvde å sende meg videre til noen andre.",
+      "suggestion": "Spørsmålet mitt om støtte hørtes ut som om jeg ville sende deg videre. Unnskyld. Jeg spurte om hvem du kan vende deg til mellom timene. Jeg vil at vi snakker om det sammen, med plass til det du trenger fra meg også."
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Lavmælt] Når du ser ned på notatene mens jeg snakker om ham, føles det som om du forsvinner et øyeblikk.",
+      "suggestion": "Da jeg så ned på notatene i et sårt øyeblikk, kjente du at jeg forsvant. Det beklager jeg. Ville det hjelpe om jeg spurte før jeg skrev, eller la notatene bort når du snakker om det vondeste?"
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "case_matrix_expansion"
+      ],
+      "text": "[Såret, nølende] Du kalte det å «holde øye med ham». Da høres jeg nysgjerrig ut på en dårlig måte. Jeg prøvde å se om noe av det betydde noe for ham.",
+      "suggestion": "«Holde øye med ham» bommet på det du lette etter, og du følte deg dømt. Unnskyld. Du ønsket et tegn på at det betydde noe for ham også. Er det nærmere det du prøvde å fortelle meg?"
+    },
+    {
+      "id": "dp_alliance-repair_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "case_matrix_expansion"
+      ],
+      "text": "[Stille] Hver gang jeg sier at jeg hadde en fin dag, spør du hvor tristheten er. Det får meg til å føle at du ikke tror meg når jeg har det bra.",
+      "suggestion": "Spørsmålene mine har fått det til å virke som de gode dagene dine ikke teller. Unnskyld; jeg har ikke gitt dem nok plass. Jeg vil høre om dagen du faktisk hadde. Hva ville hjelpe deg å kjenne at jeg tror deg?"
+    }
+  ],
+  "case-michael": [
+    {
+      "id": "dp_alliance-repair_case-michael_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Såret, men skarp] Da du sa at jeg hørtes såret ut, føltes det som om du kalte meg svak. Jeg vet at såret sikkert er et terapiord for deg, men i hodet mitt hørtes det ut som om du tok bort den delen av meg som klarer ting.",
+      "suggestion": "Ordet «såret» hørtes ut som om jeg kalte deg svak og tok fra deg styrken. Unnskyld. Jeg vil høre hvordan du selv ville beskrive det, uten å legge mine ord på deg."
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skeptisk] Har du egentlig nok erfaring med sinne som mitt, eller følger du bare en manual? Jeg må vite om du tåler konsekvensene hvis dette går dårlig hjemme.",
+      "suggestion": "Du trenger å vite om jeg kan hjelpe med noe som får reelle følger hjemme. Det er et rimelig spørsmål. Jeg kan forklare hvilken opplæring og veiledning jeg har, og hvor grensene mine går. Så kan vi sammen vurdere om hjelpen jeg kan tilby, passer det du trenger."
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Såret, men skarp] Da du pauset og så på meg etter at jeg ble sint, følte jeg meg dømt, som om du ventet på å se om jeg kom til å eksplodere. Jeg sluttet å høre på deg og begynte å bevise at jeg fortsatt hadde kontroll.",
+      "suggestion": "Pausen min og måten jeg så på deg, kjentes dømmende. Unnskyld. Jeg kan si hva jeg legger merke til, i stedet for å la deg lure på om jeg venter et utbrudd. Hvordan var den pausen for deg?"
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Defensiv] Da du spurte om frykten til kona mi først, føltes det som om du allerede hadde bestemt at jeg var problemet. Jeg kjente at jeg begynte å bygge et forsvar i stedet for å høre på spørsmålet.",
+      "suggestion": "Jeg spurte om frykten hennes før jeg hadde hørt din opplevelse, og du kjente at jeg allerede hadde tatt side. Unnskyld. Jeg vil høre hva som skjedde for deg også, samtidig som jeg tar frykten hennes på alvor. Hva overså jeg?"
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skeptisk] Da du sa at sinne beskytter sårhet, hørtes det ut som noe fra en lærebok, som om du hadde modellen klar før du hadde hørt meg. Jeg vet at jeg blir sint, men jeg vil ikke bli gjort om til et terapieksempel.",
+      "suggestion": "Jeg ga en forklaring før jeg hadde forstått hvordan sinnet faktisk kjennes for deg. Unnskyld. Vi kan legge den forklaringen bort. Jeg vil høre hva jeg overså, fremfor å få opplevelsen din til å passe med modellen."
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Du utfordret meg ikke da jeg ble høylytt, og nå lurer jeg på om du er redd meg.",
+      "suggestion": "Jeg hører at stillheten min gjorde deg usikker på om jeg var redd for deg. Unnskyld for at jeg lot deg sitte og lure. Jeg kan si tydeligere hva jeg legger merke til, og når vi trenger en pause. Hvordan ville det være for deg?"
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Da jeg nevnte drikking, forandret ansiktet ditt seg et øyeblikk. Kanskje jeg overtolker, men jeg følte meg dømt, som om du nettopp hadde plassert meg i kategorien dårlig ektemann.",
+      "suggestion": "Du så at ansiktet mitt endret seg og kjente deg dømt som ektemann. Jeg beklager at uttrykket mitt ga deg den opplevelsen. Jeg vil forstå drikkingen og hvordan den påvirker livet ditt, uten å sette en merkelapp på deg. Hva ble vanskeligere å fortelle meg da?"
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Irritert] Du spør stadig om faren min, og det føles som om du skylder alt på ham. Jeg skjønner at han betyr noe, men når du stadig går dit, føles det som om valgene mine nå forsvinner.",
+      "suggestion": "Jeg fortsatte å vende tilbake til faren din, og valgene dine nå fikk ikke plass i samtalen. Unnskyld. Vi kan legge den historien til side og se på det som skjer i livet ditt i dag. Hvor vil du at vi skal begynne?"
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Såret, men skarp] Etter at jeg bannet, ble du stille, og jeg følte at du var ferdig med meg. Det var ikke ordet som betydde mest, men følelsen av at du trakk deg unna så snart jeg viste litt sinne.",
+      "suggestion": "Jeg ble stille etter at du bannet, og du kjente at jeg trakk meg unna. Unnskyld. Jeg kan si hva som skjer for meg, fremfor å la deg sitte og lure. Hva trengte du at jeg hørte da du brukte de ordene?"
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Anspent] Når du sier «ta et pust», føles det som om du prøver å kontrollere meg, som om jeg er en unge som snart blir sendt ut av klasserommet. Det får meg til å ville nekte bare for å beholde fotfestet.",
+      "suggestion": "Da jeg ba deg ta et pust, kjente du deg kontrollert og behandlet som et barn. Unnskyld. Jeg kan spørre om en pause ville hjelpe, i stedet for å fortelle deg hva du skal gjøre. Du kan si nei."
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "case_matrix_expansion"
+      ],
+      "text": "[Rynker pannen] Du sa at jeg «forsvarte meg» da jeg rettet på deg. Du hadde fakta feil. Har jeg lov til å være uenig med deg her?",
+      "suggestion": "Jeg fikk rettelsen din til å høres ut som et problem i stedet for å sjekke hva jeg hadde misforstått. Unnskyld. Ja, du kan være uenig med meg. La oss rette opp fakta først, og jeg vil høre hva svaret mitt gjorde med tilliten din til meg."
+    },
+    {
+      "id": "dp_alliance-repair_case-michael_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "case_matrix_expansion"
+      ],
+      "text": "[Skuffet] Du husket krangelen, men ikke at jeg ba sønnen min om unnskyldning. Det føles som du allerede har bestemt deg for hva slags far jeg er.",
+      "suggestion": "Da jeg ikke fikk med unnskyldningen, følte du at jeg reduserte deg til krangelen. Jeg er lei meg for at jeg utelot den. Jeg vil forstå både det som gjorde vondt, og forsøket ditt på å reparere. Kan vi gå tilbake til det som skjedde da du ba om unnskyldning?"
+    }
+  ],
+  "case-jason": [
+    {
+      "id": "dp_alliance-repair_case-jason_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Når jeg fryser og sier at jeg ikke vet, blir jeg redd for at jeg gjør terapi feil og kaster bort timen.",
+      "suggestion": "Takk for at du sier fra. Jeg hører at det å miste ordene får dette til å kjennes som en prøve du ikke består. Vi kan slutte å presse frem et svar og være i pausen sammen. Hva ville hjelpe deg å kjenne mindre press her?"
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Da du så på klokka mens jeg lette etter ord, følte jeg meg uviktig. Jeg vet at timer har tidsgrenser, men akkurat da føltes det som om de langsomme ordene mine tok for mye plass.",
+      "suggestion": "Jeg så på klokka mens du lette etter ord, og du kjente deg uviktig. Unnskyld. Jeg kan si fra når vi nærmer oss slutten, fremfor å la deg prøve å forstå det ut fra et blikk. Ville det hjelpe?"
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] En tidligere terapeut presset meg til å snakke om følelser til jeg fikk panikk og endte på legevakten; da du spurte om kroppen med en gang, ble jeg redd for at dette skulle bli likt.",
+      "suggestion": "Spørsmålet mitt kjentes som starten på det presset du opplevde tidligere. Jeg beklager at jeg gikk for raskt frem. Vi kan stoppe spørsmålene om kroppen nå. Jeg vil spørre før vi går tilbake til dem, og du kan si nei eller stoppe når som helst."
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Du sier at det er greit å ta pause, men når jeg tar pause, føler jeg meg sett på. Ansiktet ditt er vennlig, men det kjennes likevel som en spotlight, og så skynder jeg meg å si noe for at pausen skal ta slutt.",
+      "suggestion": "Du føler deg overvåket selv når jeg sier at det er greit med en pause. Jeg beklager at oppmerksomheten min øker presset. Jeg kan gi deg mer plass og la være å holde blikket festet på deg. Ville det gjøre det lettere å ta en pause?"
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Engstelig] Da du foreslo å øve i en gruppe, følte jeg at du ikke forstod hvor umulig det høres ut. Jeg gikk derfra og tenkte at du så frykten min som noe jeg bare kunne øve meg ut av.",
+      "suggestion": "Jeg foreslo en gruppe før jeg hadde forstått hvor umulig det kjentes for deg. Unnskyld. Vi kan legge det forslaget bort. Jeg vil forstå hva som gjør det så skremmende, før vi velger noe å øve på sammen."
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Nølende] Da jeg ble stille, sa du at jeg virket rolig, men jeg hadde panikk. Jeg telte sekundene, prøvde å ikke se rar ut, og så føltes det som om du ikke kunne se hva som faktisk skjedde.",
+      "suggestion": "Jeg kalte deg rolig mens du hadde panikk, og du følte deg oversett. Unnskyld. Jeg vil spørre deg fremfor å anta hva stillheten betyr. Hva trenger du at jeg forstår om det øyeblikket?"
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Flau] Jeg prøvde å finne ordet, og så fullførte du setningen for meg. Jeg vet at du prøvde å hjelpe, men jeg følte meg dum, som om jeg selv her er for treg til å snakke ordentlig.",
+      "suggestion": "Jeg fullførte setningen mens du prøvde å finne ordet, og du følte deg dum. Unnskyld. Jeg kan vente og la deg snakke ferdig, med mindre du ber om hjelp. Hvordan ville det være for deg?"
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Skamfull] Da du kalte det unngåelse, hørtes det ut som kritikk. Jeg vet allerede at jeg trekker meg unna; det ordet fikk meg til å føle at jeg mislykkes i terapi også.",
+      "suggestion": "Jeg brukte «unngåelse», og det hørtes ut som kritikk mens du allerede strevde. Unnskyld. Vi kan legge det uttrykket bort og snakke om det som skjer når du trekker deg unna, med ord som passer din opplevelse."
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Redd] Da du ba meg se på deg mens jeg snakket, følte jeg meg blottlagt, som om jeg ble undersøkt. Jeg vet at øyekontakt skal være kontakt, men for meg fikk det ordene til å forsvinne.",
+      "suggestion": "Da jeg ba deg se på meg, kjente du deg gransket. Unnskyld. Vi trenger ikke blikkontakt for å snakke sammen. Hvor ville det kjennes bedre for deg å se mens vi snakker?"
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "legacy_matrix_item"
+      ],
+      "text": "[Stille] Da du spurte hvorfor jeg ikke dro på festen, hørte jeg dom i det. Jeg vet at det sikkert bare var et spørsmål, men det hørtes ut som: Forklar deg, og da følte jeg meg liten.",
+      "suggestion": "Spørsmålet mitt hørtes ut som et krav om å forklare deg, og du kjente deg liten. Unnskyld. Vi kan la festen ligge et øyeblikk. Jeg vil forstå hvordan det var å høre det spørsmålet fra meg."
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "case_matrix_expansion"
+      ],
+      "text": "[Veldig stille] Du sa «bare si hva du trenger». Hvis det bare var det, hadde jeg ikke vært her. Jeg følte meg litt dum etterpå.",
+      "suggestion": "«Bare» fikk noe som er veldig vanskelig for deg, til å høres lett ut, og du følte deg dum. Unnskyld. Jeg vil forstå hva som skjer når du prøver å si noe, fremfor å hoppe over det. Ville det være bedre å begynne med et konkret øyeblikk, eller trenger du først at jeg hører mer om det jeg sa?"
+    },
+    {
+      "id": "dp_alliance-repair_case-jason_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "repair_rupture",
+        "own_impact",
+        "case_matrix_expansion"
+      ],
+      "text": "[Ser ned] Jeg sa at det gikk fint fordi du så fornøyd ut med svaret mitt. Det gikk ikke fint. Nå vet jeg ikke hvordan jeg skal ta det tilbake uten å skuffe deg.",
+      "suggestion": "Reaksjonen min gjorde det vanskeligere for deg å si at det ikke gikk fint. Unnskyld; du skal ikke måtte beskytte meg mot å bli skuffet over et svar. Du kan rette på meg, også nå. Hva ville gjøre det lettere å gå tilbake til hvordan du faktisk hadde det?"
+    }
+  ]
+}
