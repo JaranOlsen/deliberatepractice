@@ -9,7 +9,7 @@ do $$ declare r jsonb; config jsonb; code text; scope jsonb; before_version inte
 begin
  select jsonb_build_object('languageId','en','skillId',skill_id,'caseId',case_id,'difficulty',difficulty,
   'contentRevision',revision,'roundSize',12,'statements',entries) into config
-  from dp_private.focused_level_catalog where skill_id='experiential-focusing' and case_id='case-arne' and difficulty='hard' limit 1;
+ from dp_private.focused_level_catalog where skill_id='empathic-refocusing' and case_id='case-nina' and difficulty='moderate' limit 1;
  if config is null then raise exception 'Missing canonical premium fixture';end if;
  perform set_config('request.jwt.claim.sub','74000000-0000-4000-8000-000000000001',true);
  r:=public.create_practice_room('{"languageId":"en","hostRole":"therapist"}','74000000-0000-4000-8000-000000000005');code:=r->>'code';
@@ -24,7 +24,7 @@ begin
  perform set_config('request.jwt.claim.sub','74000000-0000-4000-8000-000000000003',true);
  r:=public.join_practice_room(code,'observer');
  scope:=public.get_content_access('74000000-0000-4000-8000-000000000005');
- if (scope->>'full_content')::boolean or scope->'room'->>'case_id'<>'case-arne'
+ if (scope->>'full_content')::boolean or scope->'room'->>'case_id'<>'case-nina'
   or jsonb_array_length(scope->'room'->'statement_ids')<>12 then raise exception 'Guest received incorrect material scope';end if;
  if (public.get_content_access()->>'full_content')::boolean then raise exception 'Room guest got independent premium access';end if;
  perform set_config('request.jwt.claim.sub','74000000-0000-4000-8000-000000000004',true);
@@ -35,5 +35,13 @@ begin
  perform set_config('request.jwt.claim.sub','74000000-0000-4000-8000-000000000001',true);
  begin perform public.prepare_practice_room('74000000-0000-4000-8000-000000000005',gen_random_uuid(),(r->>'version')::integer,config);
   raise exception 'Expired sponsorship created another premium round';exception when raise_exception then if sqlerrm<>'full_access_required' then raise;end if;end;
+ select jsonb_build_object('languageId','en','skillId',skill_id,'caseId',case_id,'difficulty',difficulty,
+  'contentRevision',revision,'roundSize',12,'statements',entries) into config
+  from dp_private.focused_level_catalog where skill_id='experiential-focusing' and case_id='case-arne' and difficulty='hard' limit 1;
+ r:=public.create_practice_room('{"languageId":"en","hostRole":"therapist"}','74000000-0000-4000-8000-000000000006');
+ r:=public.prepare_practice_room('74000000-0000-4000-8000-000000000006',gen_random_uuid(),(r->>'version')::integer,config);
+ if r->>'access_sponsor_id' is not null then raise exception 'An existing free case requires sponsorship';end if;
+ scope:=public.get_content_access('74000000-0000-4000-8000-000000000006');
+ if scope->'room'->>'case_id'<>'case-arne' then raise exception 'Free room material is inaccessible';end if;
 end $$;
 rollback;

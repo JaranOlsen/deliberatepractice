@@ -41,6 +41,8 @@ try {
     if(levelMigration)assert.equal((await db.query("select 'dp_private.validate_room_config(jsonb)'::regprocedure::oid as oid")).rows[0].oid,validator,'Existing room validator identity must survive the migration');
   }
   const cleanup=(await db.query("select command from cron.job where jobname='ai-practice-cache-cleanup'")).rows[0];
+  const contentCases=(await db.query('select case_id,premium from dp_private.content_cases order by case_id')).rows;
+  assert.deepEqual(contentCases,Object.entries(BASE_PRACTICE['empathic-understanding'].cases).map(([case_id,data])=>({case_id,premium:data.tier==='pro'})).sort((a,b)=>a.case_id.localeCompare(b.case_id)),'Room access tiers must match the published curriculum');
   assert.ok(cleanup,'AI cleanup job is registered');await db.exec(cleanup.command);
   for(const exercise of MASTERY_EXERCISES) {
     const row=(await db.query('select scenes from dp_private.exercise_catalog where exercise_id=$1 and revision=$2',[exercise.id,exercise.revision])).rows[0];
