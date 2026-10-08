@@ -11,9 +11,9 @@ try{
  const access=await account.user.rpc('get_account_access');assert.equal(access.error,null);assert.equal(access.data.full_content,true);assert.equal(access.data.ai_access,true);
  const status=await call('status');assert.equal(status.response.status,200);assert.equal(status.value.protocol,'practice-billing-v1');
  const denied=await call('content',{kind:'skill',skillId:'empathic-understanding',languageId:'en'},{...headers,Authorization:`Bearer ${account.publicKey}`});assert.equal(denied.response.status,401);
- const content=await call('content',{kind:'skill',skillId:'empathic-understanding',languageId:'en'});assert.equal(content.response.status,200);assert.equal(content.value.protocol,'practice-content-v1');
- const mastery=await call('content',{kind:'mastery',exerciseId:'mastery-arne-ordinary-days-easy',languageId:'no'});
- assert.equal(mastery.response.status,200);assert.equal(mastery.value.protocol,'practice-content-v1');
+ const content=await call('content',{kind:'skill',skillId:'empathic-understanding',languageId:'en'});assert.equal(content.response.status,200);assert.equal(content.value.protocol,'practice-content-v1');assert.equal(content.value.bank['case-nina'].length,12);
+ const mastery=await call('content',{kind:'mastery',exerciseId:'mastery-nina-a-need-of-her-own',languageId:'no'});
+ assert.equal(mastery.response.status,200);assert.equal(mastery.value.protocol,'practice-content-v1');assert.equal(mastery.value.exercise.caseId,'case-nina');
  let checkoutVerified=false;
  if(process.argv.includes('--test-checkout')){
   assert.equal(status.value.mode,'test');
