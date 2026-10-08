@@ -21,7 +21,7 @@ export function createEmailSignIn({container,form,email,submit,intro,status,getL
   const n=(tag,text='')=>{const e=document.createElement(tag);e.textContent=text;return e;};
   const codeForm=n('form');codeForm.id='auth-code-form';codeForm.hidden=true;
   const label=n('label');label.htmlFor='auth-code';label.className='form-label';
-  const code=n('input');code.id='auth-code';code.name='code';code.inputMode='numeric';code.autocomplete='one-time-code';code.pattern='[0-9]{6}';code.maxLength=6;code.required=true;code.setAttribute('aria-describedby','auth-signin-status');
+  const code=n('input');code.id='auth-code';code.name='code';code.inputMode='numeric';code.autocomplete='one-time-code';code.pattern='[0-9]{6}|[0-9]{8}';code.maxLength=8;code.required=true;code.setAttribute('aria-describedby','auth-signin-status');
   const button=n('button');button.type='submit';button.className='primary-button';button.id='auth-verify';codeForm.append(label,code,button);
   const actions=n('div');actions.className='auth-secondary-actions';actions.hidden=true;
   const resend=n('button'),change=n('button');resend.type=change.type='button';resend.id='auth-resend';change.id='auth-change-email';resend.className=change.className='ghost-button ghost-button--small';actions.append(resend,change);
@@ -53,15 +53,15 @@ export function createEmailSignIn({container,form,email,submit,intro,status,getL
   }
   async function check(event) {
     event.preventDefault();if(busy||!pending)return;
-    if(!/^\d{6}$/.test(code.value)){message='missing';paint();return;}
+    if(!/^(?:\d{6}|\d{8})$/.test(code.value)){message='missing';paint();return;}
     const current=++generation;busy=true;message='';paint();
     try{const session=await verify(pending.email,code.value);if(current!==generation)return;pending=null;persist();code.value='';await onVerified(session);}
     catch(error){if(current===generation){message=emailSignInError(error);code.focus();}}
     finally{if(current===generation){busy=false;paint();if(message)code.focus();}}
   }
   form.addEventListener('submit',request);resend.addEventListener('click',()=>void request());codeForm.addEventListener('submit',check);
-  code.addEventListener('input',()=>{code.value=code.value.replace(/\D/g,'').slice(0,6);});
-  code.addEventListener('paste',event=>{const digits=(event.clipboardData?.getData('text')||'').replace(/\D/g,'');if(digits){event.preventDefault();code.value=digits.slice(0,6);}});
+  code.addEventListener('input',()=>{code.value=code.value.replace(/\D/g,'').slice(0,8);});
+  code.addEventListener('paste',event=>{const digits=(event.clipboardData?.getData('text')||'').replace(/\D/g,'');if(digits){event.preventDefault();code.value=digits.slice(0,8);}});
   change.addEventListener('click',()=>{pending=null;persist();message='';code.value='';paint();email.focus();});
   return {render:paint,focus(){(pending?.mode==='code'?code:email).focus();},hasCode:()=>pending?.mode==='code',
     signedIn(){generation++;pending=null;busy=false;message='';code.value='';persist();clearTimeout(timer);paint();},
