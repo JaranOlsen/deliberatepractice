@@ -1,0 +1,180 @@
+{
+  "id": "mastery-michael-before-the-outburst",
+  "type": "mastery",
+  "caseId": "case-michael",
+  "difficulty": "easy",
+  "supportedLevels": [
+    "easy"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Michael · Before the outburst",
+  "orientation": "Linked moments about correction, shame and taking responsibility without condemning yourself. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+  "scenes": [
+    {
+      "id": "mastery_michael_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-michael_05",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Michael begins with not knowing an answer in a meeting.",
+      "prompt": "Reflect the exposure he describes.",
+      "text": "[Embarrassed] Someone asked a simple question I could not answer today, and I felt exposed in front of the whole room.",
+      "suggestion": "Not having the answer left you feeling exposed in front of everyone."
+    },
+    {
+      "id": "mastery_michael_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-michael_02",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "bridge": "He asks whether understanding anger means excusing it.",
+      "prompt": "Explain understanding alongside responsibility.",
+      "text": "[Defensive] Isn't looking for the trigger just making excuses for me blowing up?",
+      "suggestion": "Understanding what sets off the anger does not remove your responsibility for what you do. It can help us notice the reaction sooner and work on a different response. The aim is to change the behavior, not explain it away."
+    },
+    {
+      "id": "mastery_michael_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-michael_02",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Another meeting brings the urge to bluff.",
+      "prompt": "Validate the discomfort without endorsing bluffing.",
+      "text": "[Defensive] In meetings, if I don't have the answer, I feel exposed and I bluff.",
+      "suggestion": "Not having an answer in front of the team can feel exposing, especially when you want to be seen as capable. That discomfort is understandable; it does not require pretending to know."
+    },
+    {
+      "id": "mastery_michael_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-michael_01",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "bridge": "He notices anger and embarrassment arriving together.",
+      "prompt": "Ask one open question about that experience.",
+      "text": "[Tense and angry] When someone corrects one detail, I get angry and embarrassed at the same time.",
+      "suggestion": "What do you notice inside as anger and embarrassment show up together?"
+    },
+    {
+      "id": "mastery_michael_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-michael_06",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "bridge": "The next moment slows what happens before sounding certain.",
+      "prompt": "Explore the tension at that edge.",
+      "text": "[Tense] When I do not know the answer, I get tense and start talking like I know anyway.",
+      "suggestion": "You get tense just before you start sounding certain. Could we pause with that tension and notice what it is like not to have the answer?"
+    },
+    {
+      "id": "mastery_michael_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-michael_01",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Another account describes answering too quickly and loudly.",
+      "prompt": "Offer a tentative guess about what comes first.",
+      "text": "[Firm] If someone questions me in a meeting, I answer fast and louder than I meant to.",
+      "suggestion": "You answer quickly and loudly when someone questions you. I wonder if there is a moment of feeling exposed before you respond."
+    },
+    {
+      "id": "mastery_michael_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-michael_01",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Michael describes the heat when corrected in public.",
+      "prompt": "Bring the experience close without overstating it.",
+      "text": "[Firm] When someone corrects me in front of the team, I get hot and stop listening.",
+      "suggestion": "It sounds like the heat rises as though a spotlight has suddenly swung onto you in front of everyone."
+    },
+    {
+      "id": "mastery_michael_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-michael_01",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "A hurt moment shifts quickly to completing a task.",
+      "prompt": "Invite a small return, with room to decline.",
+      "text": "[Hurt, then brisk] I felt small when she corrected me. Anyway, I fixed the spreadsheet.",
+      "suggestion": "Would you like to stay with feeling small before we get to the spreadsheet?"
+    },
+    {
+      "id": "mastery_michael_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-michael_01",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "bridge": "In another moment the anger rises in the therapy room.",
+      "prompt": "Stay present without turning anger into action.",
+      "text": "[Firm] My jaw locks and heat blasts up my neck when someone questions me, even here. It is like my body hears disrespect before my head knows what was said.",
+      "suggestion": "I hear how quickly the anger rises, even with me. I am here listening. We can slow this down and put words to what feels disrespectful, without having to act on the anger."
+    },
+    {
+      "id": "mastery_michael_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-michael_10",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "A later account concerns the cost at home.",
+      "prompt": "Reflect his shame without removing responsibility.",
+      "text": "[Ashamed] At night I replay what I said to my wife, especially the look on her face, and I feel awful.",
+      "suggestion": "At night you replay her face and feel awful about what happened."
+    },
+    {
+      "id": "mastery_michael_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-michael_04",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Michael names responsibility and a wish to be heard together.",
+      "prompt": "Help him put both into his own words.",
+      "text": "[Steady] The shouting was mine. So was the wish to be listened to.",
+      "suggestion": "How would you put both into words without using one to excuse the other?"
+    },
+    {
+      "id": "mastery_michael_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-michael_06",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "The imagined hour ends with work still unfinished.",
+      "prompt": "End without claiming the problem is fixed.",
+      "text": "[Uneasy] Don’t send me out saying everything is fixed.",
+      "suggestion": "We won’t call it fixed. We can finish this hour with the work still unfinished."
+    }
+  ]
+}

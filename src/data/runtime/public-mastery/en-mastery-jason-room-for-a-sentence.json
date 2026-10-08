@@ -1,0 +1,180 @@
+{
+  "id": "mastery-jason-room-for-a-sentence",
+  "type": "mastery",
+  "caseId": "case-jason",
+  "difficulty": "easy",
+  "supportedLevels": [
+    "easy"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Jason · Room for a sentence",
+  "orientation": "Small moments about speaking, being seen and wanting company. Pauses and corrections can be useful responses. Use the prompted skill, give feedback and retry. Each scene is another moment, not a response to your exact words.",
+  "scenes": [
+    {
+      "id": "mastery_jason_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-jason_01",
+      "criteriaTags": [
+        "reflect_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Jason begins with anxiety in meetings and feeling unlike everyone else.",
+      "prompt": "Reflect the pressure in that moment.",
+      "text": "[Quietly] I am tired of sitting in meetings with my heart racing while everyone else seems normal.",
+      "suggestion": "You are tired of feeling so anxious while everyone else seems at ease."
+    },
+    {
+      "id": "mastery_jason_02",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-jason_01",
+      "criteriaTags": [
+        "validate_context",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Another moment adds shame about his shaking hands.",
+      "prompt": "Make the anxiety understandable without judging the shaking.",
+      "text": "[Trembling] Every presentation at work makes my hands shake, and then I feel pathetic for caring so much.",
+      "suggestion": "Speaking while others watch can feel frightening when their judgment matters so much. It is understandable that you feel anxious; shaking does not make you pathetic for caring."
+    },
+    {
+      "id": "mastery_jason_03",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-jason_01",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work",
+        "legacy_matrix_item"
+      ],
+      "bridge": "He asks what talking about feelings can offer.",
+      "prompt": "Connect the work to his difficulty speaking, modestly.",
+      "text": "[Skeptical] Does this actually help social anxiety, or am I just learning to stare at fear?",
+      "suggestion": "You want to know how this helps outside the room. We can explore what feels threatening when people look at you, and practice staying with a manageable amount of that feeling. The aim is to make speaking less of a battle with yourself."
+    },
+    {
+      "id": "mastery_jason_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-jason_01",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Jason recalls the waiting faces.",
+      "prompt": "Ask one small open question.",
+      "text": "[Quietly] When it is my turn to speak, I lose the sentence and everyone seems to be waiting.",
+      "suggestion": "When everyone seems to be waiting, what feeling shows up?"
+    },
+    {
+      "id": "mastery_jason_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-jason_01",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge",
+        "legacy_matrix_item"
+      ],
+      "bridge": "The next moment stays near the disappearing words.",
+      "prompt": "Explore slowly without requiring another sentence.",
+      "text": "[Quietly] When it is my turn to speak, I lose track of what I was going to say.",
+      "suggestion": "The words disappear when it is your turn. Could we take that moment slowly and notice what happens inside before you try to find the sentence again?"
+    },
+    {
+      "id": "mastery_jason_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-jason_01",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling",
+        "legacy_matrix_item"
+      ],
+      "bridge": "He describes preparation giving way to blankness.",
+      "prompt": "Offer one tentative meaning, not a diagnosis.",
+      "text": "[Blank] I rehearse every sentence before a meeting, and then my mind still blanks when people turn toward me.",
+      "suggestion": "You prepare carefully, and then the blankness takes over; I wonder if being looked at feels like being evaluated."
+    },
+    {
+      "id": "mastery_jason_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-jason_01",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense",
+        "legacy_matrix_item"
+      ],
+      "bridge": "Another meeting moment is described at a distance.",
+      "prompt": "Bring it closer while respecting his pace.",
+      "text": "[Quietly] When it's my turn in a meeting, I lose track of what I was going to say.",
+      "suggestion": "It is as if every face turns toward you and the sentence you had ready vanishes into thin air."
+    },
+    {
+      "id": "mastery_jason_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-jason_05",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "Fear shifts toward memorizing more words.",
+      "prompt": "Check whether he wants a return before problem-solving.",
+      "text": "[Anxious, then practical] I’m scared they’ll see me freeze. Should I memorize more sentences?",
+      "suggestion": "We can consider that. First, would it help to hear what scares you about being seen?"
+    },
+    {
+      "id": "mastery_jason_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-jason_01",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation",
+        "legacy_matrix_item"
+      ],
+      "bridge": "A later moment needs fewer demands as words blur.",
+      "prompt": "Offer contact without requiring verbal performance.",
+      "text": "[Quietly] Everything goes fuzzy and my heart races like I am failing out loud. I can still hear you, but the words blur together and I start trying to look normal instead of listening.",
+      "suggestion": "Let's slow down. You do not need to find words right now. I am here; if it helps, notice my voice and where the chair supports you."
+    },
+    {
+      "id": "mastery_jason_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-jason_12",
+      "criteriaTags": [
+        "reflect_feeling",
+        "case_matrix_expansion"
+      ],
+      "bridge": "Another day includes being remembered at work.",
+      "prompt": "Reflect that good moment at its actual size.",
+      "text": "[Pleased] Someone at work remembered something I'd told them last week. I felt glad they remembered me. It made the day easier.",
+      "suggestion": "Being remembered made you feel glad and helped you feel a little more at ease."
+    },
+    {
+      "id": "mastery_jason_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-jason_08",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Jason notices remembering more than his mistake.",
+      "prompt": "Help him name the part he wants to keep.",
+      "text": "[Warm] I remembered the part of the conversation I liked, not only the mistake.",
+      "suggestion": "What would you like to remember about the part you liked?"
+    },
+    {
+      "id": "mastery_jason_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-jason_12",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "The hour is ending with an ordinary good moment in view.",
+      "prompt": "Keep the good without erasing the difficult.",
+      "text": "[Warm, shy] I’d like to leave with the good bit for once.",
+      "suggestion": "Which bit would you like to keep, without needing it to cancel the rest?"
+    }
+  ]
+}

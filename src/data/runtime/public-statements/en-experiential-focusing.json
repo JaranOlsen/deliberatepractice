@@ -1,0 +1,666 @@
+{
+  "case-sara": [
+    {
+      "id": "dp_experiential-focusing_case-sara_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Searching] When I think about coming home tonight, there's something there. I can't tell whether it's sad or scared.",
+      "suggestion": "We don't have to choose a label yet. Would you like a quiet moment to sense how the whole idea of coming home tonight feels in your body?"
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Pauses] I can explain why I check my phone. But when I put it down, there's something I don't have words for. I feel it before I start explaining.",
+      "suggestion": "If you want, we can leave the explanation for a moment and make room for that wordless part of putting the phone down. Take your time; the words don't have to come straight away."
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Looking down] 'Lonely' is close, but it doesn't quite catch what evenings are like. There's more to it.",
+      "suggestion": "Lonely gets part of it. As you sense the whole evening, is there another word or image that comes closer?"
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Tentative] It's like being left standing in a doorway. I don't know why that picture came.",
+      "suggestion": "We don't need to explain the picture yet. When you set 'standing in a doorway' alongside what you feel, does it fit, or does some part of it need changing?"
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Correcting herself] Not empty. More like everything is waiting, and I can't settle anywhere.",
+      "suggestion": "Waiting, with nowhere to settle. Take a moment with that description and see whether it catches the feeling, or whether your own words want to change again."
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Quiet] When I say 'waiting,' I notice a little drop inside. That word seems right.",
+      "suggestion": "'Waiting' seems to fit. We can give it a little space without rushing to explain it. Is there anything about that waiting that begins to become clearer?"
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Hesitant] I keep trying words, but none of them feel right. I'm not doing this very well.",
+      "suggestion": "Not finding the word yet isn't getting it wrong. If it feels okay, we can stay with the unnamed sense for a moment without asking it to become clear."
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Thinking aloud] I have a sense of it when I say 'the whole breakup,' but when I try to describe it, I start explaining what happened.",
+      "suggestion": "Would you like to pause the account of what happened and return to that sense of the whole breakup? You can wait for a few words that describe it rather than explain it."
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Small frown] 'Shut out' sounds right in my head. But when I sit with it, it's not quite what I feel.",
+      "suggestion": "Let's trust that mismatch. You can let 'shut out' go and sense what is there again; no need to replace it immediately."
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Reflective] A room with the light still on. That's closer than 'abandoned.' It feels like I'm still expecting someone.",
+      "suggestion": "A room with the light still on, still expecting someone. Does that whole picture fit what you sense now, or is there something you would adjust?"
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Softly] It's changed a little. The waiting is still there, but now I can feel how tired I am of it.",
+      "suggestion": "Something about it has changed, and tiredness is clearer. Shall we make a little room for what the waiting feels like now, without needing it to go away?"
+    },
+    {
+      "id": "dp_experiential-focusing_case-sara_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Quiet, looking up] I don't have an answer. But 'trying to stay ready for him' is what comes, and it feels more like me than 'needy.'",
+      "suggestion": "'Trying to stay ready for him' is closer to your experience. Let's give your words a moment and see whether they still fit, without turning them into a judgment about you."
+    }
+  ],
+  "case-arne": [
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Pauses] Making one cup of coffee. There's a feeling to that whole little job, but 'sad' isn't quite enough.",
+      "suggestion": "Would you like a moment to sense how making that one cup feels in your body as a whole experience? We can leave 'sad' aside and see if your own description comes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Thoughtful] I call the house quiet. That's true, but there's something about the quiet I haven't caught.",
+      "suggestion": "You have a sense that 'quiet' leaves something out. If you want, take a little time with the whole feeling of the house and see what describes it more closely.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Searching] It's like a job with no one to tell when it's done. That's the nearest I can get.",
+      "suggestion": "A job with no one to tell when it's done. As you say that, does it match what you sense, or is there a part of it that isn't quite right?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Quiet] 'Missing her' is right. But today it has a different feel from yesterday, and I don't know the difference yet.",
+      "suggestion": "We don't have to know it yet. Would you like to make room for how missing Eva feels today and let a word or image come, if one does?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Small nod] 'Unfinished sentence.' That seems closer. I'm not talking about something I forgot to say to her, though.",
+      "suggestion": "An unfinished sentence, without meaning something you failed to say. Take a moment to check that description against the feeling; you can change it if it starts to suggest the wrong thing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Looking aside] When I think of going to the workshop tomorrow, I get something that isn't just glad or guilty. I'd like to know what it is.",
+      "suggestion": "We can give that mixed sense some time. As you hold the whole prospect of going tomorrow, what description, if any, begins to fit?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Reflective] A foot on the doorstep. Not leaving the house exactly. That's just the picture I get.",
+      "suggestion": "A foot on the doorstep. Shall we stay with your picture for a moment and check what fits, without deciding what it means?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Correcting] 'Heavy' isn't right for seeing Emma on Sunday. More like there's something I can't quite bring with me.",
+      "suggestion": "Heavy wasn't the right word. Take your time with 'something I can't quite bring with me' and see whether that comes closer to the whole feeling of seeing Emma.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Quiet] I don't get a picture. Just a sense that there's more here than the story I keep telling.",
+      "suggestion": "A picture isn't needed. If you'd like, we can make room for that sense of more, without asking you to turn it into a story or a feeling word yet.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Slowly] 'Nothing to report.' When I say that, something in me recognizes it. It's not quite the same as being alone.",
+      "suggestion": "'Nothing to report' feels recognizable, and different from being alone. Would you like to give those words a moment and sense what they catch?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Small sigh] It hasn't gone away. But I think 'nobody to turn to with the small things' fits better now.",
+      "suggestion": "Nobody to turn to with the small things. We can let that be your description for now and check how it sits, without needing the feeling to disappear.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_easy_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Gentle voice] I get a little warmth when I say 'our ordinary life.' There's sadness there too. I'd like a moment with that.",
+      "suggestion": "Of course. We can leave a quiet moment for the whole feel of 'our ordinary life,' with both the warmth and the sadness there.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Considering] Going out with Tom was good. Coming back was good too, in a different way. I can feel both in me. There's a whole tangle there I can't sort into feelings.",
+      "suggestion": "We don't have to sort it yet. Would you like a moment with the whole feel of that outing and coming home, and see if a description begins to come?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Frowning] I said 'relief,' but now that sounds as if I'm relieved Eva died. That's not what I was trying to say.",
+      "suggestion": "Then let's put 'relief' aside. As you return to what you were trying to describe, is there a word of your own that fits without saying something you don't mean?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Hesitates] An engine still running after the work is done. Maybe. But that makes it sound like I just need switching off.",
+      "suggestion": "The image catches something, and misses something. You can stay with the sense itself and let the image change; it doesn't have to imply a solution.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Pauses] My shoulders relax a bit when I say 'not on duty.' But then I feel wrong for saying it.",
+      "suggestion": "'Not on duty' fits something, and there's also that sense of wrongness. Which of those would you like to give space to first, without having to settle the other?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Dry laugh] I can give you a very sensible account of why Sundays are difficult. It doesn't get anywhere near the actual Sunday.",
+      "suggestion": "Would you like to set the sensible account down for a moment and sense how the whole Sunday feels in you? We can wait for words that come from that, rather than from explaining it.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Searching] 'Borrowed time' came into my head about the workshop. But when I check, that's an old phrase, not what this actually feels like.",
+      "suggestion": "You noticed the phrase didn't match. Let it go for now, and give the whole experience of being at the workshop another moment; a familiar phrase doesn't have to supply the answer.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Quietly] A loose thread. No, not loose. A thread with nobody at the other end. I don't want to pull it any harder.",
+      "suggestion": "A thread with nobody at the other end is closer, and you don't want to pull. We can leave it just as you've found it and check whether that feels like enough for now.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Reflective] I was trying to find something in my chest. But the whole thing is more like being slightly out of step with the day.",
+      "suggestion": "We don't have to locate it in your chest. Does 'out of step with the day' fit the experience as a whole, or does it need another word?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Uncertain] 'Permission' isn't right. Eva didn't keep me from doing things. I'm trying to catch the feeling when I enjoy myself now.",
+      "suggestion": "Let's leave 'permission' out; it suggests something that doesn't fit your life with Eva. If you want, return to that whole moment of enjoying yourself now and see what describes it more accurately.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Slowly] 'A place kept for her.' That feels closer. But it's not about leaving her chair untouched; I've moved the furniture.",
+      "suggestion": "A place kept for her, without it being about the furniture. Take a moment with your phrase and see what in the whole feeling it captures.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Looking up] Something eased when I found the phrase, but now it's gone fuzzy again. I can't produce it twice on demand.",
+      "suggestion": "You don't need to reproduce it. We can sense what's there now and let the description change, rather than try to get back to a particular result.",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_moderate_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Steady] 'Living a day that doesn't have her in it.' That fits today. It doesn't explain everything, and I don't want it to.",
+      "suggestion": "It fits today without explaining everything. Would you like a quiet moment with those words, or is this a good place to leave it?",
+      "difficulty": "moderate"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_01",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Guarded] If I say it feels like a weight, you'll call it grief. I'm trying to find out what it is, not have you name it for me.",
+      "suggestion": "I won't turn your description into a label. If you want to continue, we can stay with the whole sense you are trying to find and let you decide which words fit.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_02",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Firmly] I don't want to close my eyes or search my chest. I do want to understand this odd feeling when the phone rings and it isn't Eva.",
+      "suggestion": "We can keep your eyes open and leave your chest out of it. Would it suit you to take a moment with the whole experience of that ring, and see what words come without forcing them?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_03",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Correcting] Not an empty chair. I was the one left standing while everyone else got back to their lives. But even that isn't quite it.",
+      "suggestion": "Let's leave the empty chair behind. Your own 'left standing' comes closer but isn't exact yet; we can make room for what it still misses without deciding who was at fault.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_04",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Wry] 'Keeping a place for her' sounds touching. I can almost see you liking it. It doesn't fit what I feel today.",
+      "suggestion": "Then we won't keep it because it sounds touching. What you sense today matters more than the phrase; we can give that a moment without needing another attractive description.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_05",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Quiet, deliberate] Something about that final year feels stuck. Not because I need to say goodbye. Please don't take me there.",
+      "suggestion": "We won't make this a goodbye. If you want to explore the stuck sense, we can let the whole final year be there at a distance that suits you, and wait for your own description.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_06",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Impatient] You're waiting for something to soften. I'm not softening. I have an unclear feeling, and that's all I've got.",
+      "suggestion": "Nothing has to soften. We can give that unclear feeling room just as it is, if you still want to, without treating a change as the result you owe me.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_07",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Searching, tense] 'Free' is the word that came. Don't congratulate me. When I check it, there's something awful about the fit, and something right.",
+      "suggestion": "I won't turn 'free' into good news. Would you like to stay with the whole mixed sense and see whether the word needs changing, without having to defend either part?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_08",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Level voice] I can sense it, but I don't want to tell you the words yet. It's not a secret. They just don't feel ready to leave my mouth.",
+      "suggestion": "You can keep them to yourself. If you want, take your time checking them privately against what you sense; I don't need the words in order to sit with you.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_09",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Firm] No more looking inward today. I've found a phrase that fits, and I want to stop before it becomes another job to do properly.",
+      "suggestion": "We'll stop the inward work here. Your phrase can stay yours without any more checking or a better result to produce for me.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_10",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Dryly] I know the clever answer: love and exhaustion can both be true. I believe that. But it hasn't named the whole thing I carry from those months.",
+      "suggestion": "The explanation can be true and still leave that whole experience unnamed. Would you like to put the answer aside for a moment and see what description comes from sensing those months as they are for you now?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_11",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Slowly] 'Still listening for her.' That catches it. And now I don't know whether it's tender or miserable, and I don't want to have to choose.",
+      "suggestion": "You don't have to choose. We can leave a moment for the whole feel of 'still listening for her,' with whatever is there, without dividing it into the right feeling and the wrong one.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "dp_experiential-focusing_case-arne_hard_12",
+      "track": "case_matrix",
+      "revision": "2026-10-04-v4",
+      "criteriaTags": [
+        "sense_whole_situation",
+        "client_owned_description",
+        "check_fit",
+        "respect_choice"
+      ],
+      "text": "[Steady, a little wary] Something moved when I said that. Don't make it a turning point. It might be different when I go home.",
+      "suggestion": "We won't call it a turning point. If you'd like, we can give this moment a little space and let you check what has changed, without deciding what it will mean at home.",
+      "difficulty": "hard"
+    }
+  ]
+}

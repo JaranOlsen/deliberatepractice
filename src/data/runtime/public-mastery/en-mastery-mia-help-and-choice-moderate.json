@@ -1,0 +1,171 @@
+{
+  "id": "mastery-mia-help-and-choice-moderate",
+  "type": "mastery",
+  "caseId": "case-mia",
+  "difficulty": "moderate",
+  "supportedLevels": [
+    "moderate"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Mia · Help without taking over",
+  "orientation": "Twelve linked moments about help, choice and being heard. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+  "scenes": [
+    {
+      "id": "mastery_mia_moderate_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-mia_moderate_01",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Help from Alex brings gratitude and a lost chance to answer.",
+      "prompt": "Reflect both meanings of the help.",
+      "text": "[Half-smiles] Alex means well. I’m grateful right up until he starts answering for me.",
+      "suggestion": "You welcome his care, and lose something important when your own answer gets replaced."
+    },
+    {
+      "id": "mastery_mia_moderate_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-mia_moderate_03",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "bridge": "Mia asks how exploration could help with mixed feelings.",
+      "prompt": "Explain listening to both wishes without judging one away.",
+      "text": "[Unsure] Part of me wants help. Part of me hates being helped. How does talking untangle that?",
+      "suggestion": "We could hear what each part wants in one real moment, rather than decide that one is wrong."
+    },
+    {
+      "id": "mastery_mia_moderate_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-mia_moderate_01",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "bridge": "Another helpful act leaves a choice missing.",
+      "prompt": "Validate appreciation alongside the missing choice.",
+      "text": "[Guilty] Alex did the shopping. I thanked him, but I missed choosing things myself.",
+      "suggestion": "You can appreciate the effort and miss a choice that mattered. Those feelings don’t cancel each other."
+    },
+    {
+      "id": "mastery_mia_moderate_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-mia_moderate_02",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "bridge": "Mia distinguishes wanting the offer from how it arrived.",
+      "prompt": "Ask about the difficult part of the offer.",
+      "text": "[Quietly] I didn’t want the offer to stop. Just... something about how it came.",
+      "suggestion": "What about the way he offered felt difficult?"
+    },
+    {
+      "id": "mastery_mia_moderate_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-mia_moderate_02",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "bridge": "A wish for a say is present, followed by self-judgment.",
+      "prompt": "Make space for that wish before judging its tone.",
+      "text": "[Angry, hesitant] I want my say. Then I hear myself sounding ungrateful.",
+      "suggestion": "Could we give the wish for a say a moment, before judging its tone?"
+    },
+    {
+      "id": "mastery_mia_moderate_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-mia_moderate_01",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "bridge": "In another moment, Mia can describe the tasks but not her quiet.",
+      "prompt": "Offer one tentative meaning and leave room for correction.",
+      "text": "[Brisk] I can list exactly what Alex did. I can’t explain why I went quiet.",
+      "suggestion": "Perhaps the help was useful, while not being asked left you feeling less included?"
+    },
+    {
+      "id": "mastery_mia_moderate_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-mia_moderate_01",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "bridge": "She describes being behind the helpful action.",
+      "prompt": "Bring her description closer without enlarging it.",
+      "text": "[Distant] Alex does the helpful thing. I’m somewhere behind it, getting cross.",
+      "suggestion": "Is it like the task moves forward while your chance to choose gets left behind?"
+    },
+    {
+      "id": "mastery_mia_moderate_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-mia_moderate_02",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "A wish for a say shifts toward excusing Alex.",
+      "prompt": "Keep his care in view while inviting a return to her experience.",
+      "text": "[Angry, then excuses] I wanted a say. But Alex had a busy day, so never mind.",
+      "suggestion": "His day can matter too. Would you like us to return to what having a say meant there?"
+    },
+    {
+      "id": "mastery_mia_moderate_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-mia_moderate_02",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "bridge": "A later moment is angry and tearful, with Mia still present.",
+      "prompt": "Listen for what she wants heard without speeding up.",
+      "text": "[Angry, voice shaking] I want you to hear this. I’m worried you’ll hear only the anger.",
+      "suggestion": "I’m listening for what you want heard, not just the anger. We can take it slowly."
+    },
+    {
+      "id": "mastery_mia_moderate_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-mia_moderate_08",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Another moment shows the cost of the offers stopping altogether.",
+      "prompt": "Reflect the choice she wanted and the help she misses.",
+      "text": "[Angry, then guilty] I wanted Alex to leave the plants alone. Now he won’t offer at all.",
+      "suggestion": "You wanted a choice about that help, and now miss having the offer."
+    },
+    {
+      "id": "mastery_mia_moderate_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-mia_moderate_07",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Mia finds a distinction within the help she wants.",
+      "prompt": "Explore what her new words make clearer.",
+      "text": "[Relieved] “Ask, then wait” is what I meant. I don’t mean never help me.",
+      "suggestion": "What do those words make clearer about the help you want?"
+    },
+    {
+      "id": "mastery_mia_moderate_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-mia_moderate_02",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "Time is nearly over; using the words remains her choice.",
+      "prompt": "End without turning the request into homework.",
+      "text": "[Quietly] I found words for Alex, but I don’t know if I want to use them tonight.",
+      "suggestion": "You don’t need to use them tonight. Shall we note them and check what fits your evening instead?"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "mastery-arne-ordinary-days-easy",
+  "type": "mastery",
+  "caseId": "case-arne",
+  "difficulty": "easy",
+  "supportedLevels": [
+    "easy"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Leo · Å leve de vanlige dagene",
+  "orientation": "Tolv sammenhengende øyeblikk om hverdagen etter at Eva døde. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "scenes": [
+    {
+      "id": "mastery_arne_easy_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-arne_easy_01",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "En morgen på det kjente kjøkkenet.",
+      "prompt": "Speil tapet i dette vanlige øyeblikket.",
+      "text": "[Lavt] Jeg setter fortsatt frem to kopper. Jeg blir trist av å se hennes stå tom.",
+      "suggestion": "Den tomme koppen minner deg om hvor mye du savner å ha Eva ved siden av deg."
+    },
+    {
+      "id": "mastery_arne_easy_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-arne_easy_01",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "bridge": "Leo spør hva det kan gi å utforske en rutine.",
+      "prompt": "Forklar en liten, valgfri måte å undersøke øyeblikket på.",
+      "text": "[Undrende] Hvorfor snakke om den tomme koppen? Jeg vet godt at hun er borte.",
+      "suggestion": "Du vet at hun er borte. Å legge merke til hva koppen vekker, kan hjelpe oss å forstå det ensomme øyeblikket, hvis du vil prøve."
+    },
+    {
+      "id": "mastery_arne_easy_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-arne_easy_01",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "bridge": "Et annet lite spor av Eva vekker skam over tårene.",
+      "prompt": "Gjør reaksjonen hans forståelig i sammenhengen.",
+      "text": "[Skamfullt] Jeg gråt over håndskriften hennes på en handleliste. Hvor dumt er ikke det?",
+      "suggestion": "Den håndskriften tilhører en som var vevd inn i hverdagen din. Det er forståelig at den berører deg."
+    },
+    {
+      "id": "mastery_arne_easy_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-arne_easy_01",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "bridge": "Leo husker stolen ved bordet.",
+      "prompt": "Still ett åpent spørsmål om den uklare følelsen.",
+      "text": "[Nøler] Det kommer en følelse når jeg ser den tomme stolen hennes. Jeg klarer ikke helt å sette ord på den.",
+      "suggestion": "Hva legger du merke til når du ser for deg den stolen nå?"
+    },
+    {
+      "id": "mastery_arne_easy_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-arne_easy_01",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "bridge": "I dette øyeblikket er tristheten allerede tydelig.",
+      "prompt": "Undersøk varsomt tristheten han merker.",
+      "text": "[Mykt] Det er tristhet akkurat her når jeg ser for meg den tomme stolen.",
+      "suggestion": "Kan vi bli litt ved den tristheten og se hva du merker?"
+    },
+    {
+      "id": "mastery_arne_easy_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-arne_easy_02",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "bridge": "Samtalen går over til å dele en dag med Eva.",
+      "prompt": "Tilby en tentativ gjetning om hva ensomheten rommer.",
+      "text": "[Tar en pause] Jeg hadde en historie til henne etter turen. Den ble værende i hodet hele kvelden.",
+      "suggestion": "Kan en del av ensomheten være å ikke ha noen å dele de små historiene med?"
+    },
+    {
+      "id": "mastery_arne_easy_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-arne_easy_10",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "bridge": "Han beskriver på avstand de vanlige tingene han ville fortalt henne.",
+      "prompt": "Tilby ett nært bilde og undersøk om det passer.",
+      "text": "[Saklig] Jeg har små ting å fortelle henne. Været. Spøken til Tom.",
+      "suggestion": "De små bitene av dagen din vender seg fortsatt mot henne. Høres det riktig ut?"
+    },
+    {
+      "id": "mastery_arne_easy_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-arne_easy_01",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "En sår detalj fra morgenen skifter mot en praktisk oppgave.",
+      "prompt": "Undersøk skiftet; inviter tilbake uten å insistere.",
+      "text": "[Mykt, så raskere] Jeg savner henne til frokost. Uansett, vannkokeren må avkalkes.",
+      "suggestion": "Vannkokeren kan også trenge oppmerksomhet. Vil du ha et øyeblikk med savnet før vi går videre?"
+    },
+    {
+      "id": "mastery_arne_easy_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-arne_easy_01",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "bridge": "Et senere øyeblikk er tårefylt, mens Leo fortsatt er til stede.",
+      "prompt": "Følg ønsket hans om stille selskap.",
+      "text": "[Gråter, puster jevnt] Jeg savner henne så mye akkurat nå. Kan vi være stille?",
+      "suggestion": "Ja. Vi kan være stille sammen. Du trenger ikke finne ord."
+    },
+    {
+      "id": "mastery_arne_easy_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-arne_easy_07",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Et annet øyeblikk gir plass til slitenheten fra omsorgen.",
+      "prompt": "Speil lettelsen og skylden uten å avgjøre hva de beviser.",
+      "text": "[Nølende] Jeg var lettet over å slippe å lytte etter henne om natten. Så fikk jeg dårlig samvittighet.",
+      "suggestion": "Den stadige lyttingen kunne stoppe, og skylden kom sammen med lettelsen."
+    },
+    {
+      "id": "mastery_arne_easy_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-arne_easy_02",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Leo merker ord som lar kjærlighet og slitenhet finnes sammen.",
+      "prompt": "Hjelp ham å sette ord på det han vil ta vare på.",
+      "text": "[Mykt] Jeg kan si at jeg var sliten uten å ta bort kjærligheten.",
+      "suggestion": "Hvordan ville du si det med dine egne ord, så både kjærligheten og slitenheten får plass?"
+    },
+    {
+      "id": "mastery_arne_easy_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-arne_easy_12",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "Den tenkte timen er snart over.",
+      "prompt": "Gi plass til slitenheten og en håndterbar avslutning.",
+      "text": "[Reflektert] Jeg er glad vi snakket. Jeg er også utslitt.",
+      "suggestion": "Begge deler betyr noe når vi avslutter. Hva ville gjøre det lettere å gå herfra i dag, når du er så sliten?"
+    }
+  ]
+}

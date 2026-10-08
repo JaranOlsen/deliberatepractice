@@ -1,0 +1,159 @@
+{
+  "id": "mastery-sara-evenings",
+  "type": "mastery",
+  "caseId": "case-sara",
+  "difficulty": "easy",
+  "revision": "2026-10-04-v4",
+  "supportedLevels": [
+    "easy"
+  ],
+  "title": "Sara · Finding room for the evening",
+  "orientation": "Twelve linked practice moments. Use the prompted skill, then give feedback and retry. The next scene is a new moment, not a response to your exact words.",
+  "scenes": [
+    {
+      "id": "mastery_sara_evenings_01",
+      "skillId": "empathic-understanding",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Beginning with an ordinary evening.",
+      "prompt": "Reflect what coming home means to Sara.",
+      "text": "[Quietly] I put my keys down and reach for my phone before I've even taken my coat off. There's no one to tell about my day anymore.",
+      "suggestion": "Coming home means feeling that gap again — there's no one there to share your day with."
+    },
+    {
+      "id": "mastery_sara_evenings_02",
+      "skillId": "providing-treatment-rationale",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "bridge": "Sara questions the purpose of emotion work.",
+      "prompt": "Connect emotion work to her wish for more manageable evenings.",
+      "text": "[Puzzled] I know I miss him. How does talking about that help me stop spending the whole evening on my phone?",
+      "suggestion": "You want your evenings back, not just more talk about missing him. Looking at the moment you reach for the phone may help us understand what you're needing then. We can try a small piece and see whether it helps."
+    },
+    {
+      "id": "mastery_sara_evenings_03",
+      "skillId": "empathic-affirmation-validation",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "bridge": "The conversation turns to shame about the breakup.",
+      "prompt": "Make her sadness understandable without arguing her out of it.",
+      "text": "[Looks down] People break up all the time. I feel weak for still crying about it.",
+      "suggestion": "You lost someone you were used to turning to every day. It makes sense that you're hurting; the tears don't make you weak."
+    },
+    {
+      "id": "mastery_sara_evenings_04",
+      "skillId": "exploratory-questions",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "bridge": "Sara notices an unclear feeling while recalling the doorway.",
+      "prompt": "Ask one open question about what she notices now.",
+      "text": "[Hesitates] When I picture opening the door, there's something just under my ribs. I can't really name it.",
+      "suggestion": "As you picture opening the door, what do you notice about that feeling under your ribs?"
+    },
+    {
+      "id": "mastery_sara_evenings_05",
+      "skillId": "empathic-explorations",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "bridge": "In this moment, sadness has begun to take shape.",
+      "prompt": "Stay with the sadness already emerging.",
+      "text": "[Softly] It's sadness, I think. The door clicks shut, and no one asks how it went. That little click really gets to me.",
+      "suggestion": "That little click is where the sadness comes. Could we pause there and notice what it's like, if that feels okay?"
+    },
+    {
+      "id": "mastery_sara_evenings_06",
+      "skillId": "empathic-conjectures",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "bridge": "Sara describes an unsent message.",
+      "prompt": "Offer a small, tentative guess about the unspoken meaning.",
+      "text": "[Looks away] I type ‘How was your day?’ and delete it. I don't want him to think I'm pathetic. I still look to see if he's online, though.",
+      "suggestion": "I wonder if part of you is hoping for a sign that you still matter to him. Does that fit, or is it something else?"
+    },
+    {
+      "id": "mastery_sara_evenings_07",
+      "skillId": "empathic-evocations",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "bridge": "She describes the evening in a distant, matter-of-fact voice.",
+      "prompt": "Offer one image close to her experience; leave room to check fit.",
+      "text": "[Flatly] I come home with all these little things from my day. They don't go anywhere. I just make dinner and go to bed.",
+      "suggestion": "Almost as if you're carrying the day home and there's nowhere to set it down with someone. Is that how it feels?"
+    },
+    {
+      "id": "mastery_sara_evenings_08",
+      "skillId": "empathic-refocusing",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "A tender moment gives way to analyzing old messages.",
+      "prompt": "Check the shift and invite a return without insisting.",
+      "text": "[Voice softens, then speeds up] I wanted him to want to hear about my day. But if you look at his messages, on Tuesdays he always replied later, and—",
+      "suggestion": "You were just touching that wish to be heard. Would you like to stay there a moment before we look at the pattern in his replies?"
+    },
+    {
+      "id": "mastery_sara_evenings_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "bridge": "A later moment of sadness is stronger, but Sara remains present.",
+      "prompt": "Offer steady company and choice about the pace.",
+      "text": "[Crying, steady breath] I miss him so much right now. I don't need you to tell me it'll pass. Can we just sit for a bit?",
+      "suggestion": "Yes. We can sit with it for a bit. You don't have to talk or make it pass; let me know if you want to pause differently."
+    },
+    {
+      "id": "mastery_sara_evenings_10",
+      "skillId": "empathic-understanding",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "In another moment, Sara holds two truths about the relationship.",
+      "prompt": "Reflect both parts without choosing one for her.",
+      "text": "[Thoughtful] I can miss him without wanting that relationship back. I was lonely when we were together too.",
+      "suggestion": "You miss him, and you also remember how lonely you were with him. Both are part of what you're feeling now."
+    },
+    {
+      "id": "mastery_sara_evenings_11",
+      "skillId": "consolidating-emotional-change",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Sara notices a small shift, with uncertainty about tonight.",
+      "prompt": "Help her name the shift without promising it will last.",
+      "text": "[Softly] Being sad doesn't feel quite so weak now. I wanted company. But I might call myself pathetic again tonight.",
+      "suggestion": "‘I wanted company’ feels different from ‘I'm pathetic’, even with tonight uncertain. What about those words feels worth keeping?"
+    },
+    {
+      "id": "mastery_sara_evenings_12",
+      "skillId": "closing-after-emotional-work",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "There are a few minutes left in the imagined session.",
+      "prompt": "Acknowledge what remains and agree on a manageable ending.",
+      "text": "[Glances at clock, tearful] I know we're nearly out of time. I'm okay to go, but I don't want to rush straight from this into everything else.",
+      "suggestion": "We have a few minutes to make that transition. We can leave the work here for today without putting the sadness away. What would help you go at the pace you need?"
+    }
+  ]
+}

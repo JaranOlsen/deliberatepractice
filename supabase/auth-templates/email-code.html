@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="nb"><body style="font-family:system-ui,sans-serif;color:#183b37;max-width:480px;margin:32px auto;padding:0 20px">
+<h1 style="font-size:22px">Deliberate Practice Lab</h1>
+<p>Din innloggingskode / Your sign-in code</p>
+<p style="font-size:32px;font-weight:700;letter-spacing:6px">{{ .Token }}</p>
+<p>Skriv inn koden i nettleseren der du åpnet appen.</p>
+<p>Enter the code in the browser where you opened the app.</p>
+<p><a href="{{ if .RedirectTo }}{{ .RedirectTo }}{{ else }}{{ .SiteURL }}{{ end }}">Åpne appen / Open the app</a></p>
+<p style="font-size:13px;color:#687873">Du kan ignorere denne e-posten hvis du ikke ba om en kode.<br>You can ignore this email if you didn’t request a code.</p>
+</body></html>

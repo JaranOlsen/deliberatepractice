@@ -1,0 +1,171 @@
+{
+  "id": "mastery-nora-work-and-belonging-hard",
+  "type": "mastery",
+  "caseId": "case-nora",
+  "difficulty": "hard",
+  "supportedLevels": [
+    "hard"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Nora · Work and belonging",
+  "orientation": "Twelve linked moments about exclusion, valued work and having a voice. Use the prompted skill, give feedback and retry. Each next scene is a new moment, not a response to your exact words.",
+  "scenes": [
+    {
+      "id": "mastery_nora_hard_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-nora_hard_01",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Nora begins with plain facts and the habit of softening them.",
+      "prompt": "Reflect the exclusion without softening or enlarging it.",
+      "text": "[Quietly] He wanted my design. Not me in front of it. I keep making that sentence sound less ugly.",
+      "suggestion": "Your contribution was wanted while your presence was rejected, and you keep softening how you say it."
+    },
+    {
+      "id": "mastery_nora_hard_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-nora_hard_03",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "bridge": "She asks whether the event itself can be enough to hurt.",
+      "prompt": "Offer exploration without inventing a deeper cause.",
+      "text": "[Skeptical] Are we looking for the “real pain” underneath? The event itself hurt.",
+      "suggestion": "We don’t need a deeper explanation to legitimize that hurt. We can stay with what you recognize in the event."
+    },
+    {
+      "id": "mastery_nora_hard_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-nora_hard_01",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "bridge": "Another moment distinguishes disputed belonging from identity confusion.",
+      "prompt": "Validate her distinction rather than assigning an identity problem.",
+      "text": "[Quietly] I’m not confused about where I belong. I’m tired of having it disputed.",
+      "suggestion": "You don’t need an identity problem for that repeated questioning to hurt."
+    },
+    {
+      "id": "mastery_nora_hard_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-nora_hard_02",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "bridge": "Nora corrects a phrase that misses her experience.",
+      "prompt": "Ask what her correction makes important to understand.",
+      "text": "[Corrects] “Not belonging” isn’t quite it. I know I belong.",
+      "suggestion": "What does that phrase miss about your experience?"
+    },
+    {
+      "id": "mastery_nora_hard_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-nora_hard_01",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "bridge": "The hurt is present; Nora declines an older explanation for it.",
+      "prompt": "Explore this hurt on her terms.",
+      "text": "[Hurt, firm] The hurt is here. I don’t want you finding an older hurt to explain it.",
+      "suggestion": "We can stay with this hurt. What do you want heard in it?"
+    },
+    {
+      "id": "mastery_nora_hard_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-nora_hard_10",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "bridge": "She names a wish to be included and rejects a broader label.",
+      "prompt": "Offer one tentative distinction and check fit.",
+      "text": "[Thoughtful] I want the job to include me. I don’t want that wish called needing their approval.",
+      "suggestion": "Could it be a wish for a fair place at work, rather than for everyone to approve of you?"
+    },
+    {
+      "id": "mastery_nora_hard_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-nora_hard_01",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "bridge": "A concrete phrase connects the design table and her place there.",
+      "prompt": "Use her phrase to bring the experience close, without overstatement.",
+      "text": "[Distant] My work is on the table. My place at the table becomes the discussion.",
+      "suggestion": "Is it like the drawings wait while you have to justify the chair you’re sitting in?"
+    },
+    {
+      "id": "mastery_nora_hard_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-nora_hard_07",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "Practical support now takes priority over returning to hurt.",
+      "prompt": "Respect the direction she chooses.",
+      "text": "[Firm] I need to choose practical support before we return to the hurt.",
+      "suggestion": "Let’s follow that. Returning to the hurt needn’t come first."
+    },
+    {
+      "id": "mastery_nora_hard_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-nora_hard_04",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "bridge": "A later shaken moment needs some contact without another question.",
+      "prompt": "Offer a few plain words of company.",
+      "text": "[Quiet, trembling] Silence is too far away. More questions are too much.",
+      "suggestion": "I’m here. I hear how much this hurts. No new question yet."
+    },
+    {
+      "id": "mastery_nora_hard_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-nora_hard_03",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Another workplace moment is unclear without changing the earlier facts.",
+      "prompt": "Hold the uncertainty and the concrete exclusion separately.",
+      "text": "[Hesitates] I don’t know why today happened. Please don’t make that mean the other comment was unclear.",
+      "suggestion": "Today’s motive is uncertain. That doesn’t undo the clarity of what Ben said before."
+    },
+    {
+      "id": "mastery_nora_hard_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-nora_hard_08",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Nora notices a distinction between this moment and the earlier ones.",
+      "prompt": "Help her name that small distinction without enlarging it.",
+      "text": "[Reflective] I’m uncertain about one moment without retracting the others now.",
+      "suggestion": "What helped you give that uncertainty its own place?"
+    },
+    {
+      "id": "mastery_nora_hard_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-nora_hard_07",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "The hour ends with a correction she wants remembered.",
+      "prompt": "Keep her words as the starting point for another time.",
+      "text": "[Thoughtful] Remember my correction, not just the first interpretation.",
+      "suggestion": "Let’s note the correction in your words. Which wording should we keep for next time?"
+    }
+  ]
+}

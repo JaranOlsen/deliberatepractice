@@ -77,7 +77,7 @@ export function createMasteryPractice({getLanguage,getMode,getUser,getRoom,local
   const current=++generation;busy=true;session=null;
   element.replaceChildren(node('p',s().preparing));show();
   try {
-   const result=await loadMasteryExercise(getLanguage()??'en',id);
+   const result=await loadMasteryExercise(getLanguage()??'en',id,undefined,getRoom()?{roomId:getRoom().id}:{});
    if(current!==generation)return;exercise=result;
    const user=getUser();cloud=false;let capability=null;
    if(user && getMode()!=='triad') {try {capability=await getMasteryCapabilities();cloud=supportsMastery(capability,exercise);} catch {/* Downloaded local practice remains usable without a connection. */}}

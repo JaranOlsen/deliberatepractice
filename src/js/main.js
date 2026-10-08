@@ -22,19 +22,24 @@ import {
   CONTENT_UPDATED_AT,
   GLOSSARY
 } from "./practiceData.js";
-import { hasPracticeContent, getPracticeStatements, loadPracticeContent } from "./practiceContent.js";
+import {hasPracticeContent as hasContent,getPracticeStatements as getStatements,loadPracticeContent as loadContent,setContentIdentity} from './practiceContent.js';
+import {createEmailSignIn,authCallbackFailure,SIGNIN_COPY} from './emailSignIn.js';
+import {createBillingApi,createSubscriptionView} from './subscription.js';
 import {readRoomInvite} from './roomInvite.js';
 import {
   submitFeedback,
-  redeemAccessCode,
   isSupabaseReady,
-  isAccessExpired,
   logAccessCodeAttempt,
   getAuthSession,
   getAiAccess,
+  getAccountAccess,
+  getPublicAppConfig,
+  redeemAccountAccessCode,
+  accountServicesOptions,
   aiApiOptions,
   onAuthStateChange,
-  signInWithMagicLink,
+  sendEmailSignIn,
+  verifyEmailSignIn,
   signOut,
   ensureUserProfile,
   updateUserProfile,
@@ -95,6 +100,10 @@ const dialogs = createDialogManager();
 const practiceExit = createPracticeExit({dialogs,getLanguage:()=>state.languageId??'en'});
 let roomView = null;
 let roomSelection = null;
+const contentScope=()=>roomSelection&&state.practiceMode===PRACTICE_MODES.GROUP?{roomId:roomSelection.id}:{};
+const hasPracticeContent=(language,skill)=>hasContent(language,skill,contentScope());
+const getPracticeStatements=(language,skill,caseId,level)=>getStatements(language,skill,caseId,level,contentScope());
+const loadPracticeContent=(language,skill)=>loadContent(language,skill,contentScope());
 let languageDestination = 'home';
 async function selectedRoomConfig() {
   const skill = getCurrentSkill(), caseData = getCurrentCase(), languageId = state.languageId;
@@ -113,14 +122,14 @@ async function openSharedRoom(mode = "hub", {selectedCase = false, code = null, 
       onOpen: () => { roomSelection = null; showSection("room"); },
       onClose: () => { roomSelection = null; showSection("home"); },
       onChoose: room => {
-        roomSelection = {id: room.id, code: room.code, userId: state.authUser.id};
+        roomSelection = {id: room.id, code: room.code, userId: state.authUser.id,fullContent:room.full_content_access===true};
         state.practiceMode = PRACTICE_MODES.GROUP;
         if(room.exercise_type==='mastery')exerciseType='mastery';
         handleLanguageSelection(room.language_id);
         if (room.skill_id) handleSkillSelection(room.skill_id);
       },
       getUser: () => state.authUser, getLanguage: () => state.languageId ?? 'en', localizeSkill,
-      getStrings: getUIStrings, signIn: showAccountPanel,
+      getStrings: getUIStrings, signIn:()=>requestAccountSignIn('room'),
       onMaterialChange: room => {
         if(room.exercise_type==='mastery'){writeJsonStorage(LAST_SETUP_STORAGE_KEY,{exerciseType:'mastery',exerciseId:room.exercise_id,languageId:room.language_id,practiceMode:PRACTICE_MODES.GROUP});return;}
         writeJsonStorage(LAST_SETUP_STORAGE_KEY, {languageId:room.language_id, skillId:room.skill_id, caseId:room.case_id, difficulty:room.difficulty, practiceMode:PRACTICE_MODES.GROUP});
@@ -406,8 +415,6 @@ const state = {
   index: 0,
   suggestionVisible: false,
   view: "brief",
-  accessLevel: "free",
-  accessExpiresAt: null,
   currentStatement: null,
   unlocking: false,
   feedbackCollapsed: true,
@@ -440,6 +447,9 @@ const state = {
   authResolving: true,
   authSession: null,
   aiAdmin: false,
+  fullContent: false,
+  accountAccess: null,
+  authEmailMode: 'link',
   authUser: null,
   authProfile: null,
   authTargets: [],
@@ -462,7 +472,7 @@ let exerciseType = readJsonStorage('dp_exercise_type') === 'mastery' ? 'mastery'
 let masteryCapabilityRequest = 0;
 const mastery = createMasteryPractice({
   getLanguage: () => state.languageId ?? 'en', getMode: () => state.practiceMode,
-  getUser: () => state.authUser, getRoom: () => roomSelection, localizeSkill, getStrings:getUIStrings,
+  getUser: () => state.authUser, getRoom: () => state.practiceMode===PRACTICE_MODES.GROUP?roomSelection:null, localizeSkill, getStrings:getUIStrings,
   show: () => showSection('mastery'), home: () => showSection('home'),
   library: () => {renderSkillOptions();showSection('skill');},
   onBegin: session => {state.sessionActive=false;clearPracticeSession();writeJsonStorage(LAST_SETUP_STORAGE_KEY,{exerciseType:'mastery',exerciseId:session.exerciseId,languageId:session.languageId,practiceMode:session.practiceMode==='shared'?PRACTICE_MODES.TRIAD:PRACTICE_MODES.INDIVIDUAL});},
@@ -483,6 +493,17 @@ const aiPractice = aiPilotEnabled ? createAiPractice({getLanguage: () => state.l
   theme: (element, skillId, difficulty) => applyVisualProperties(element, getCaseVisual(skillId, difficulty))})
   : {hasRound: () => false, stopAudio() {}, reset() {}};
 if (aiPilotEnabled) {sections.ai = aiPractice.element;document.querySelector('main').append(aiPractice.element);}
+const emailSignIn=createEmailSignIn({container:elements.authSignedOut,form:elements.authSigninForm,
+  email:elements.authEmail,submit:elements.authSubmit,intro:elements.authIntro,status:document.getElementById('auth-signin-status'),
+  getLanguage:()=>state.languageId??'en',getMode:()=>state.authEmailMode,configured:()=>state.authConfigured,
+  send:sendEmailSignIn,verify:verifyEmailSignIn,onVerified:session=>applyAuthSession(session)});
+const subscriptionView=createSubscriptionView({container:document.getElementById('access-section'),
+  api:createBillingApi(accountServicesOptions()),getUser:()=>state.authUser,getLanguage:()=>state.languageId??'en',
+  getAccess:()=>state.accountAccess,isAiAdmin:()=>state.aiAdmin,refreshAccess:async()=>{
+    if(!state.authUser)return;const id=state.authUser.id,access=await getAccountAccess();if(state.authUser?.id!==id)return;
+    state.accountAccess=access;state.fullContent=access.full_content;setContentIdentity(id,state.fullContent||state.aiAdmin);renderAuthUI();updateLockedBanner();renderCaseOptions();
+    if(state.languageId&&state.skillId&&!state.sessionActive)void prepareSkillContent(state.languageId,state.skillId);
+  }});
 function paintExerciseChoice(available, catalog = EXERCISE_CATALOG) {
  const no=state.languageId==='no',selected=exerciseType==='mastery' && available;
  const single=document.getElementById('exercise-single'),mixed=document.getElementById('exercise-mastery');
@@ -501,7 +522,9 @@ function paintExerciseChoice(available, catalog = EXERCISE_CATALOG) {
   const title=document.createElement('strong');title.className='card-title';title.textContent=exercise.title[state.languageId??'en'];
   const description=document.createElement('span');description.className='case-levels';description.textContent=variants.length>1?(no?`${variants.length} nivåer`:`${variants.length} levels`):levelLabel(state.languageId??'en',exercise.difficulty);
   button.append(title,description);applyCaseLibraryVisual(button,'empathic-understanding',variants.map(e=>e.difficulty));
-  button.addEventListener('click',()=>void mastery.choose(exercise.id));host.append(button);
+  const locked=isCaseLocked(BASE_PRACTICE['empathic-understanding'].cases[caseId]);
+  if(locked){button.classList.add('is-locked');const mark=document.createElement('span');mark.className='lock-tag';mark.setAttribute('aria-label',getUIStrings().lockedLabel);button.append(mark);}
+  button.addEventListener('click',()=>{if(locked)showPaywall();else void mastery.choose(exercise.id);});host.append(button);
  }
 }
 async function renderExerciseChoice() {
@@ -523,7 +546,11 @@ let activeGlossaryChip = null;
 let contentRequestId = 0;
 let retryContentLoad = null;
 
-const ACCESS_STORAGE_KEY = "dp_access_level";
+const AUTH_INTENT_KEY='dp_auth_intent_v1';
+function requestAccountSignIn(intent='account') {
+  if(['account','progress','room'].includes(intent))writeJsonStorage(AUTH_INTENT_KEY,{intent,expires:Date.now()+30*60000});
+  showAccountPanel();
+}
 const PRACTICE_SESSION_STORAGE_KEY = "dp_practice_session_v1";
 const PROFILE_NAME_CONFIRMED_STORAGE_KEY = "dp_profile_name_confirmed_v1";
 const PRACTICE_SESSION_VERSION = SESSION_VERSION;
@@ -813,58 +840,10 @@ function applyVisualProperties(element, visual) {
   }
 }
 
-function normalizeAccessLevel(level) {
-  return level === "pro" || level === "all" ? level : "free";
-}
-
-function loadAccessState() {
-  try {
-    const stored = localStorage.getItem(ACCESS_STORAGE_KEY);
-    if (!stored) {
-      return { accessLevel: "free", accessExpiresAt: null };
-    }
-    if (stored.trim().startsWith("{")) {
-      const parsed = JSON.parse(stored);
-      const accessLevel = normalizeAccessLevel(parsed.accessLevel);
-      const accessExpiresAt = typeof parsed.expiresAt === "string" ? parsed.expiresAt : null;
-      if (accessLevel !== "free" && isAccessExpired(accessExpiresAt)) {
-        localStorage.removeItem(ACCESS_STORAGE_KEY);
-        return { accessLevel: "free", accessExpiresAt: null };
-      }
-      return { accessLevel, accessExpiresAt };
-    }
-    const accessLevel = normalizeAccessLevel(stored);
-    if (accessLevel !== "free") {
-      return { accessLevel, accessExpiresAt: null };
-    }
-  } catch (err) {
-    // ignore storage errors
-  }
-  return { accessLevel: "free", accessExpiresAt: null };
-}
-
-function saveAccessLevel(level, expiresAt = null) {
-  state.accessLevel = normalizeAccessLevel(level);
-  state.accessExpiresAt = typeof expiresAt === "string" ? expiresAt : null;
-  try {
-    localStorage.setItem(
-      ACCESS_STORAGE_KEY,
-      JSON.stringify({
-        accessLevel: state.accessLevel,
-        expiresAt: state.accessExpiresAt
-      })
-    );
-  } catch (err) {
-    // ignore storage errors
-  }
-  updateLockedBanner();
-  renderAccessUI();
-  renderProfilePlacement();
-}
-
 function hasProAccess() {
-  return state.aiAdmin || ((state.accessLevel === "pro" || state.accessLevel === "all") && !isAccessExpired(state.accessExpiresAt));
+  return hasPersonalAccess()||Boolean(roomSelection&&roomSelection.userId===state.authUser?.id&&state.practiceMode===PRACTICE_MODES.GROUP&&roomSelection.fullContent);
 }
+function hasPersonalAccess(){return Boolean(state.authUser)&&(state.fullContent||state.aiAdmin);}
 
 function readJsonStorage(key) {
   try {
@@ -1278,20 +1257,8 @@ function getSignedInLabel() {
 function formatAccessStatus() {
   const strings = getUIStrings();
   if(state.aiAdmin)return state.languageId==='no'?'Administratortilgang':'Admin access';
-  if (!hasProAccess()) {
+  if (!hasPersonalAccess()) {
     return strings.accessStatusFree ?? "Free access";
-  }
-  if (state.accessExpiresAt) {
-    const expires = new Date(state.accessExpiresAt);
-    if (!Number.isNaN(expires.getTime())) {
-      const formatted = expires.toLocaleDateString(document.documentElement.lang || undefined, {
-        day: "numeric",
-        month: "short",
-        year: "numeric"
-      });
-      return (strings.accessStatusExpires ?? "Full library unlocked until {date}")
-        .replace("{date}", formatted);
-    }
   }
   return strings.accessStatusUnlocked ?? "Full library unlocked";
 }
@@ -1301,11 +1268,8 @@ function renderAccessUI() {
   const configured = isSupabaseReady();
   if (elements.accessSection) {
     const parent = elements.accessSection.parentElement;
-    if (parent && hasProAccess() && elements.authStatus) {
-      parent.insertBefore(elements.accessSection, elements.authStatus);
-    } else if (parent && elements.authSignedOut) {
-      parent.insertBefore(elements.accessSection, elements.authSignedOut);
-    }
+    if(parent&&elements.authSignedIn)parent.insertBefore(elements.accessSection,elements.authSignedIn.nextSibling);
+    document.getElementById('account-code-disclosure').hidden=hasPersonalAccess();
   }
   if (elements.accessTitle) {
     elements.accessTitle.textContent = strings.accessTitle ?? "Library access";
@@ -1344,12 +1308,6 @@ function renderProfilePlacement() {
   elements.profileForm.hidden = !signedIn;
   elements.profileForm.classList.toggle("is-hidden", !signedIn);
   if (!signedIn) return;
-
-  if (hasEnteredDisplayName() && elements.accountModal && elements.authStatus) {
-    elements.accountModal.insertBefore(elements.profileForm, elements.authStatus);
-    elements.profileForm.classList.add("profile-form--bottom");
-    return;
-  }
 
   if (elements.authSignedIn) elements.authSignedIn.append(elements.profileForm);
   elements.profileForm.classList.remove("profile-form--bottom");
@@ -1721,7 +1679,7 @@ function setAuthStatus(message) {
 
 function showProgressPanel() {
   aiPractice.stopAudio();
-  if (!state.authUser) { showAccountPanel(); return; }
+  if (!state.authUser) { requestAccountSignIn('progress'); return; }
   hideAccountPanel();
   renderSelfRatingsChart();
   loadProgressRatings().catch(() => {});
@@ -1735,8 +1693,9 @@ function showAccountPanel() {
   aiPractice.stopAudio();
   if (!elements.accountOverlay) return;
   renderAuthUI();
+  void subscriptionView.refresh();
   dialogs.open(elements.accountOverlay, { onDismiss: hideAccountPanel,
-    initialFocus: state.authUser ? elements.closeAccountButton : elements.authEmail });
+    initialFocus: state.authUser ? elements.closeAccountButton : emailSignIn.hasCode()?document.getElementById('auth-code'):elements.authEmail });
 }
 
 function hideAccountPanel() {
@@ -1775,7 +1734,7 @@ function renderAuthUI() {
   }
   if (elements.accountHeading) {
     elements.accountHeading.textContent =
-      strings.accountHeading ?? "Account";
+      signedIn ? strings.accountHeading ?? "Account" : SIGNIN_COPY[no?'no':'en'].title;
   }
   renderAccessUI();
   if (elements.authIntro) {
@@ -1813,6 +1772,9 @@ function renderAuthUI() {
     elements.profileSubmit.textContent = strings.profileSave ?? "Save";
   }
   renderProfilePlacement();
+  document.getElementById('account-code-summary').textContent=SIGNIN_COPY[no?'no':'en'].access;
+  emailSignIn.render();
+  subscriptionView.render();
   renderPracticeFormatUI();
   renderGroupEntry();
   renderSelfRatingsChart();
@@ -1844,6 +1806,8 @@ async function applyAuthSession(session) {
   // progress request is running. Only an account change invalidates that data.
   if (userChanged) {
     aiPractice.reset();
+    state.fullContent=false;state.accountAccess=null;
+    subscriptionView.reset();
     progressRequestId += 1;
     state.progressSource = "self";
     state.progressDifficulty = "all";
@@ -1857,6 +1821,8 @@ async function applyAuthSession(session) {
   state.authSession = session ?? null;
   state.aiAdmin = false;
   state.authUser = session?.user ?? null;
+  if(userChanged)setContentIdentity(state.authUser?.id,false);
+  if(state.authUser)emailSignIn.signedIn();
   state.authProfile = null;
   state.authTargets = [];
 
@@ -1868,13 +1834,22 @@ async function applyAuthSession(session) {
 
   renderAuthUI();
   try {
-    const [profile,targets,admin]=await Promise.all([ensureUserProfile(null),listPracticeTargets(),getAiAccess()]);
+    const [profile,targets,admin,access]=await Promise.all([ensureUserProfile(null),listPracticeTargets(),getAiAccess(),getAccountAccess()]);
     if(current!==authApplyGeneration)return;
     if (wasAiAdmin && !admin) aiPractice.reset();
     state.authProfile=profile;state.authTargets=targets.map(normalizePracticeTarget).filter(Boolean);state.aiAdmin=admin;
+    state.accountAccess=access;state.fullContent=access.full_content;
+    setContentIdentity(state.authUser.id,state.fullContent||state.aiAdmin);
     state.authResolving = false;
     renderAuthUI();
     renderGroupEntry();updateLockedBanner();
+    renderCaseOptions();
+    if(state.languageId&&state.skillId&&!state.sessionActive)void prepareSkillContent(state.languageId,state.skillId);
+    const intent=readJsonStorage(AUTH_INTENT_KEY);writeJsonStorage(AUTH_INTENT_KEY,null);
+    if(intent?.expires>Date.now()) {
+      if(intent.intent==='progress')showProgressPanel();
+      else if(intent.intent==='room'){hideAccountPanel();void openSharedRoom('hub');}
+    }
   } catch (err) {
     if(current!==authApplyGeneration)return;
     state.authResolving = false;
@@ -1884,7 +1859,10 @@ async function applyAuthSession(session) {
 }
 
 async function initializeAuth() {
+  const callback=authCallbackFailure(window.location.href);
+  if(callback){history.replaceState(null,'',callback.cleanUrl);emailSignIn.recover(callback.code);showAccountPanel();}
   state.authConfigured = isSupabaseReady();
+  if(state.authConfigured){const config=await getPublicAppConfig();state.authEmailMode=config.email_mode;}
   renderAuthUI();
   if (!state.authConfigured) { state.authResolving = false; renderAuthUI(); return; }
   try {
@@ -1899,28 +1877,6 @@ async function initializeAuth() {
     setAuthStatus(err?.message ?? "Unable to load account.");
   } finally {
     state.authResolving = false;
-    renderAuthUI();
-  }
-}
-
-async function handleMagicLinkSubmit(event) {
-  event.preventDefault();
-  const strings = getUIStrings();
-  const email = elements.authEmail?.value ?? "";
-  if (!email.trim()) {
-    setAuthStatus(strings.authEmailMissing ?? "Enter your email address.");
-    return;
-  }
-  state.authLoading = true;
-  renderAuthUI();
-  setAuthStatus(strings.authSending ?? "Sending magic link...");
-  try {
-    await signInWithMagicLink(email);
-    setAuthStatus(strings.authSent ?? "Check your email for the sign-in link.");
-  } catch (err) {
-    setAuthStatus(err?.message ?? strings.authError ?? "Unable to send sign-in link.");
-  } finally {
-    state.authLoading = false;
     renderAuthUI();
   }
 }
@@ -1947,6 +1903,8 @@ async function handleSignOut() {
   try {
     await signOut();
     authApplyGeneration++;state.aiAdmin=false;aiPractice.reset();
+    state.fullContent=false;state.accountAccess=null;
+    setContentIdentity(null,false);
     progressRequestId += 1;
     state.progressRatingsLoading = false;
     state.authSession = null;
@@ -2820,17 +2778,7 @@ function updateLockedBanner() {
 }
 
 function showPaywall(caseItem) {
-  if (!elements.paywallOverlay || !elements.paywallMessage) return;
-  const strings = getUIStrings();
-  const caseLabel = caseItem?.label ? `: ${caseItem.label}` : "";
-  elements.paywallMessage.textContent = `${strings.paywallMessage ?? ""}${caseLabel}`;
-  dialogs.open(elements.paywallOverlay, { onDismiss: hidePaywall, initialFocus: elements.unlockCodeInput });
-  if (elements.unlockStatus) {
-    elements.unlockStatus.textContent = "";
-  }
-  if (elements.unlockCodeInput) {
-    elements.unlockCodeInput.focus();
-  }
+  showAccountPanel();
 }
 
 function hidePaywall() {
@@ -3069,7 +3017,7 @@ function hydratePracticeView() {
     return;
   }
 
-  const locked = isCaseLocked(caseData);
+  const locked = !state.sessionActive && isCaseLocked(caseData);
   if (locked) {
     elements.statementText.textContent = strings.lockedPlaceholder ?? strings.emptyPrompt;
     elements.statementCounter.textContent = "";
@@ -3803,13 +3751,16 @@ async function redeemAccessFromInput({
     setUnlockStatus(statusElement, strings.unlockMissing ?? "");
     return;
   }
+  if(!state.authUser){showAccountPanel();emailSignIn.focus();setUnlockStatus(statusElement,languageId==='no'?'Logg inn for å knytte tilgangen til kontoen din.':'Sign in to keep this access on your account.');return;}
   state.unlocking = true;
   renderAccessUI();
   setUnlockStatus(statusElement, strings.unlockWorking ?? "");
   try {
-    const result = await redeemAccessCode(code);
+    const result = await redeemAccountAccessCode(code);
     logAccessCodeAttempt({ code, status: "success", languageId }).catch(() => {});
-    saveAccessLevel(result.accessLevel ?? "pro", result.expiresAt ?? null);
+    state.accountAccess=result;state.fullContent=result.full_content===true;
+    setContentIdentity(state.authUser.id,state.fullContent||state.aiAdmin);
+    updateLockedBanner();renderAccessUI();renderProfilePlacement();
     setUnlockStatus(statusElement, strings.unlockSuccess ?? "");
     if (codeInput) {
       codeInput.value = "";
@@ -4290,9 +4241,6 @@ function registerEventListeners() {
     elements.closePaywallButton.addEventListener("click", hidePaywall);
   }
 
-  if (elements.authSigninForm) {
-    elements.authSigninForm.addEventListener("submit", handleMagicLinkSubmit);
-  }
   if (elements.profileForm) {
     elements.profileForm.addEventListener("submit", handleProfileSubmit);
   }
@@ -4308,12 +4256,10 @@ function registerEventListeners() {
 }
 
 function initialize() {
-  const accessState = loadAccessState();
+  const launchHref=window.location.href;
   const savedSession = loadPracticeSession();
   const preferences = readJsonStorage(PRACTICE_PREFERENCES_KEY);
   state.practiceMode = normalizePracticeMode(preferences?.groupUiVersion === 2 ? preferences.practiceMode : "group");
-  state.accessLevel = accessState.accessLevel;
-  state.accessExpiresAt = accessState.accessExpiresAt;
   state.resumeSession = savedSession;
   state.languageId = savedSession?.languageId ?? (LANGUAGE_METADATA[preferences?.languageId] ? preferences.languageId : null);
   const initialLanguageId = state.languageId ?? "en";
@@ -4332,10 +4278,18 @@ function initialize() {
   let inviteStorage;
   try { inviteStorage = localStorage; } catch { /* Invitations still work from their URL. */ }
   const inviteCode = readRoomInvite(window.location.href, inviteStorage);
-  initializeAuth().then(() => { if (inviteCode) void openSharedRoom('join', {code:inviteCode}); });
+  initializeAuth().then(() => {
+    if (inviteCode) void openSharedRoom('join', {code:inviteCode});
+    const url=new URL(window.location.href),billing=url.searchParams.get('billing');
+    if(['success','cancelled','account'].includes(billing)){
+      url.searchParams.delete('billing');history.replaceState(null,'',url.href);showAccountPanel();
+      if(billing==='success')void subscriptionView.checkReturn();else if(billing==='cancelled')subscriptionView.cancelled();
+    }
+  });
   if (state.languageId) renderSkillOptions();
   showSection("home");
-  appTour.start({automatic:true});
+  const entry=new URL(launchHref),fragment=new URLSearchParams(entry.hash.slice(1));
+  if(!authCallbackFailure(entry.href)&&!entry.searchParams.has('billing')&&!fragment.has('access_token'))appTour.start({automatic:true});
 }
 
 initialize();

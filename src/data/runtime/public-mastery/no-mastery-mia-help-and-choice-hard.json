@@ -1,0 +1,171 @@
+{
+  "id": "mastery-mia-help-and-choice-hard",
+  "type": "mastery",
+  "caseId": "case-mia",
+  "difficulty": "hard",
+  "supportedLevels": [
+    "hard"
+  ],
+  "revision": "2026-10-04-v4",
+  "title": "Mia · Hjelp uten å ta over",
+  "orientation": "Tolv sammenhengende øyeblikk om hjelp, valg og å bli hørt. Bruk ferdigheten som vises, gi tilbakemelding og prøv igjen. Hver neste scene er et nytt øyeblikk, ikke et svar på akkurat dine ord.",
+  "scenes": [
+    {
+      "id": "mastery_mia_hard_01",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-mia_hard_01",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Mia ønsker selskap uten at noen gjør alt.",
+      "prompt": "Speil begge ønsker uten å løse formuleringen.",
+      "text": "[Lavt] Jeg ville ha ham der. Jeg ville ikke at han gjorde alt. Jeg får det ikke sagt på en vennlig måte.",
+      "suggestion": "Du vil ha selskapet hans og rom til å velge, og strever med å si begge deler uten å såre ham."
+    },
+    {
+      "id": "mastery_mia_hard_02",
+      "skillId": "providing-treatment-rationale",
+      "sourceItemId": "dp_providing-treatment-rationale_case-mia_hard_12",
+      "criteriaTags": [
+        "offer_rationale",
+        "normalize_experiential_work"
+      ],
+      "bridge": "Hun ber om brukbare ord med de kreftene hun har.",
+      "prompt": "Tilby en beskjeden begrunnelse for en kort forespørsel.",
+      "text": "[Ettertenksom] Jeg vil ha noe jeg kan bruke, ikke en vakker setning jeg er for sliten til å si.",
+      "suggestion": "Vi kan sikte mot en kort beskjed med dine ord og se om den kan brukes med kreftene du har."
+    },
+    {
+      "id": "mastery_mia_hard_03",
+      "skillId": "empathic-affirmation-validation",
+      "sourceItemId": "dp_empathic-affirmation-validation_case-mia_hard_01",
+      "criteriaTags": [
+        "validate_context"
+      ],
+      "bridge": "Et annet velment tilbud vekker likevel noe sårt.",
+      "prompt": "Valider det såre uten å bestemme at den som hjalp, gjorde feil.",
+      "text": "[Skamfull] Ella spurte på en ordentlig måte. Jeg ble likevel såret. Det gjør meg urettferdig, ikke sant?",
+      "suggestion": "Det såre kan være der selv når noen spør godt. Vi trenger ikke klandre henne for å gi det plass."
+    },
+    {
+      "id": "mastery_mia_hard_04",
+      "skillId": "exploratory-questions",
+      "sourceItemId": "dp_exploratory-questions_case-mia_hard_07",
+      "criteriaTags": [
+        "explore_body",
+        "explore_meaning"
+      ],
+      "bridge": "Å vite hva som bør stoppe, sier ennå ikke hva hun vil ha i stedet.",
+      "prompt": "Still ett spørsmål som hjelper å tydeliggjøre et alternativ.",
+      "text": "[Urolig] Jeg vet hva jeg ville at han sluttet med. Jeg er mindre sikker på hva jeg ville ha i stedet.",
+      "suggestion": "Hva ville ha gjort øyeblikket annerledes nok?"
+    },
+    {
+      "id": "mastery_mia_hard_05",
+      "skillId": "empathic-explorations",
+      "sourceItemId": "dp_empathic-explorations_case-mia_hard_03",
+      "criteriaTags": [
+        "deepen_contact",
+        "follow_leading_edge"
+      ],
+      "bridge": "I et annet øyeblikk kjennes rom til å velge både varmt og ubehagelig.",
+      "prompt": "Undersøk ubehaget uten å oppheve varmen.",
+      "text": "[Varm, urolig] Jeg kjente meg nær Alex da han ventet. Så ville jeg få ham til å skynde seg.",
+      "suggestion": "Hva ble ubehagelig da du fikk den plassen til å velge?"
+    },
+    {
+      "id": "mastery_mia_hard_06",
+      "skillId": "empathic-conjectures",
+      "sourceItemId": "dp_empathic-conjectures_case-mia_hard_04",
+      "criteriaTags": [
+        "tentative_guess",
+        "name_underlying_feeling"
+      ],
+      "bridge": "Et tilbud lar Mia trenge tid hun ikke har bedt om.",
+      "prompt": "Undersøk tentativt om tid betyr noe ved siden av valg.",
+      "text": "[Nøler] Jeg vil at Ella spør. Jeg vet ikke alltid svaret når hun gjør det.",
+      "suggestion": "Kanskje du trenger lov til å ta tid, i tillegg til lov til å velge?"
+    },
+    {
+      "id": "mastery_mia_hard_07",
+      "skillId": "empathic-evocations",
+      "sourceItemId": "dp_empathic-evocations_case-mia_hard_12",
+      "criteriaTags": [
+        "evoke_image",
+        "heighten_felt_sense"
+      ],
+      "bridge": "Hun beskriver pausen før hennes eget svar.",
+      "prompt": "Tilby ett nært bilde og undersøk om det passer.",
+      "text": "[Flatt] Mitt eget svar tar tid. Noen legger vanligvis et svar inn i det rommet.",
+      "suggestion": "Er det som om pausen blir fylt før ordene dine rekker å komme?"
+    },
+    {
+      "id": "mastery_mia_hard_08",
+      "skillId": "empathic-refocusing",
+      "sourceItemId": "dp_empathic-refocusing_case-mia_hard_07",
+      "criteriaTags": [
+        "check_shift",
+        "invite_return",
+        "respect_choice"
+      ],
+      "bridge": "En konkret forespørsel får prioritet foran å vende tilbake til det såre.",
+      "prompt": "Respekter retningen hun har valgt.",
+      "text": "[Bestemt] Jeg vet du vil tilbake til det såre. Jeg må få orden på selve forespørselen først.",
+      "suggestion": "Vi følger forespørselen. Vi kan la det såre ligge uten å gjøre det valget til et problem."
+    },
+    {
+      "id": "mastery_mia_hard_09",
+      "skillId": "staying-in-contact-intense-affect",
+      "sourceItemId": "dp_staying-in-contact-intense-affect_case-mia_hard_08",
+      "criteriaTags": [
+        "titrate_affect",
+        "grounding",
+        "co_regulation"
+      ],
+      "bridge": "Et senere rystet øyeblikk trenger noe kontakt, men ikke et nytt spørsmål.",
+      "prompt": "Finn noen få vanlige ord som gir selskap.",
+      "text": "[Lavt, skjelver] Jeg er ikke klar for et spørsmål. Jeg er heller ikke klar for full stillhet.",
+      "suggestion": "Jeg er her, og hører hvor vanskelig dette er. Vi trenger ikke et spørsmål ennå."
+    },
+    {
+      "id": "mastery_mia_hard_10",
+      "skillId": "empathic-understanding",
+      "sourceItemId": "dp_empathic-understanding_case-mia_hard_08",
+      "criteriaTags": [
+        "reflect_feeling"
+      ],
+      "bridge": "Et annet øyeblikk viser at å stoppe alle tilbud bommet på forespørselen.",
+      "prompt": "Speil det stoppet ikke ga henne.",
+      "text": "[Mykt] Alex sluttet å tilby seg. Jeg fikk visst det jeg ba om.",
+      "suggestion": "At tilbudene stoppet, ga deg ikke den hjelpen eller valgfriheten du prøvde å be om."
+    },
+    {
+      "id": "mastery_mia_hard_11",
+      "skillId": "consolidating-emotional-change",
+      "sourceItemId": "dp_consolidating-emotional-change_case-mia_hard_02",
+      "criteriaTags": [
+        "recognize_client_shift",
+        "carry_meaning",
+        "avoid_forced_optimism"
+      ],
+      "bridge": "Mia finner ord som passer til bare en del av opplevelsen.",
+      "prompt": "Behold den nyttige forskjellen og det som fortsatt er uferdig.",
+      "text": "[Ettertenksom] «Vent på svaret mitt» passer. Det løser ikke det som skjer når jeg ikke har et.",
+      "suggestion": "Hvilken del fanger uttrykket, og hva må fortsatt være åpent?"
+    },
+    {
+      "id": "mastery_mia_hard_12",
+      "skillId": "closing-after-emotional-work",
+      "sourceItemId": "dp_closing-after-emotional-work_case-mia_hard_01",
+      "criteriaTags": [
+        "acknowledge_unfinished",
+        "bounded_transition",
+        "respect_choice"
+      ],
+      "bridge": "Timen slutter, uten plikt til å bruke ordene i dag.",
+      "prompt": "Avslutt uten å legge til en plan hun ikke er klar for.",
+      "text": "[Sliten] Jeg har tydeligere ord. Jeg er ikke klar for en plan om å bruke dem.",
+      "suggestion": "Vi kan la dem være ord nå. Hva ville hjelpe deg å avslutte uten å legge til et nytt krav?"
+    }
+  ]
+}

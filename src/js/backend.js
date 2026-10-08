@@ -85,9 +85,39 @@ export async function getAiAccess() {
   } catch {return false;}
 }
 
+export async function getPublicAppConfig() {
+  try{const data=await rpcJson('get_public_app_config',{});return {email_mode:data?.email_mode==='code'?'code':'link',billing_mode:['test','live'].includes(data?.billing_mode)?data.billing_mode:'off'};}
+  catch{return {email_mode:'link',billing_mode:'off'};}
+}
+
+export async function getAccountAccess() {
+  const client=await getSupabaseClient();const {data,error}=await client.rpc('get_account_access');
+  if(error)throw new Error('access_unavailable');
+  return {full_content:data?.full_content===true,ai_access:data?.ai_access===true,subscription:data?.subscription??null};
+}
+
+export async function redeemAccountAccessCode(code) {
+  const client=await getSupabaseClient();const {data,error}=await client.rpc('redeem_account_access_code',{input_code:String(code).trim()});
+  if(error){const value=['invalid_code','expired_code','sign_in_required'].includes(error.message)?error.message:'access_unavailable';throw new Error(value);}
+  return data;
+}
+
 export function aiApiOptions() {
   return {base:import.meta.env.DEV?'/api/ai-practice':`${SUPABASE_URL}/functions/v1/ai-practice`,
     publishableKey:SUPABASE_ANON_KEY,getAccessToken:async()=> (await getAuthSession())?.access_token ?? null};
+}
+
+export function accountServicesOptions() {
+  return {base:import.meta.env.DEV?'/api/account-services':`${SUPABASE_URL}/functions/v1/account-services`,
+    publishableKey:SUPABASE_ANON_KEY,getToken:async()=> (await getAuthSession())?.access_token??null};
+}
+
+export async function fetchAccountContent(value) {
+  const options=accountServicesOptions(),token=await options.getToken();if(!token)throw new Error('sign_in_required');
+  const response=await fetch(`${options.base}/content`,{method:'POST',headers:{apikey:options.publishableKey,Authorization:`Bearer ${token}`,'Content-Type':'application/json'},
+    body:JSON.stringify(value),signal:AbortSignal.timeout(30000)});
+  const data=await response.json();if(!response.ok)throw new Error(data.error||'content_unavailable');
+  if(data.protocol!=='practice-content-v1')throw new Error('content_unavailable');return data;
 }
 
 export function onAuthStateChange(callback) {
@@ -99,21 +129,32 @@ export function onAuthStateChange(callback) {
 }
 
 export async function signInWithMagicLink(email) {
+  return sendEmailSignIn(email,{mode:'link'});
+}
+
+export async function sendEmailSignIn(email,{mode='code',languageId='en'}={}) {
   const supabase = await getSupabaseClient();
   const normalizedEmail = String(email ?? "").trim().toLowerCase();
   const { error } = await supabase.auth.signInWithOtp({
     email: normalizedEmail,
     options: {
-      emailRedirectTo: getAuthRedirectTo()
+      emailRedirectTo: getAuthRedirectTo(),
+      data:{auth_email_mode:mode,auth_language:languageId==='no'?'no':'en'}
     }
   });
-  if (error) throw normalizeSupabaseError(error);
+  if (error) throw error;
   return true;
+}
+
+export async function verifyEmailSignIn(email,token) {
+  const client=await getSupabaseClient();
+  const {data,error}=await client.auth.verifyOtp({email:email.trim().toLowerCase(),token,type:'email'});
+  if(error)throw error;return data.session;
 }
 
 export async function signOut() {
   const supabase = await getSupabaseClient();
-  const { error } = await supabase.auth.signOut();
+  const { error } = await supabase.auth.signOut({scope:'local'});
   if (error) throw normalizeSupabaseError(error);
   return true;
 }
