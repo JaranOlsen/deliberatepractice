@@ -11,13 +11,13 @@ async page=>{
    localStorage.setItem('dp_access_level',JSON.stringify({accessLevel:'all',expiresAt:null}));
   },{language,expired});
   const uid='75000000-0000-4000-8000-000000000001',expires=Math.floor(Date.now()/1000)+3600;
-  const token=Buffer.from(JSON.stringify({alg:'HS256',typ:'JWT'})).toString('base64url')+'.'+Buffer.from(JSON.stringify({sub:uid,exp:expires,role:'authenticated'})).toString('base64url')+'.fixture';
+  const token=Buffer.from(JSON.stringify({alg:'HS256',typ:'JWT'})).toString('base64url')+'.'+Buffer.from(JSON.stringify({sub:uid,email:'review@example.invalid',exp:expires,role:'authenticated'})).toString('base64url')+'.fixture';
   const user={id:uid,email:'review@example.invalid',email_confirmed_at:'2026-10-08T00:00:00Z'};
   await context.route('https://*.supabase.co/**',route=>{
    const path=new URL(route.request().url()).pathname.split('/').at(-1);let json;
    if(path==='otp'){mails++;json={};}
    else if(path==='verify'){
-    if(route.request().postDataJSON().token!=='123456')return route.fulfill({status:403,json:{code:'otp_expired',msg:'Private provider diagnostic'}});
+    if(route.request().postDataJSON().token!=='12345678')return route.fulfill({status:403,json:{code:'otp_expired',msg:'Private provider diagnostic'}});
     json={access_token:token,refresh_token:'isolated-fixture',expires_in:3600,expires_at:expires,token_type:'bearer',user};
    }else json=path==='get_public_app_config'?{email_mode:'code',billing_mode:'live'}:path==='get_ai_access'?false:path==='get_account_access'?{full_content:false,ai_access:false,subscription:null}:
     path==='ensure_user_profile'?[{id:uid,display_name:'Fixture'}]:path==='list_practice_targets'?[{target_user_id:uid,target_kind:'self',display_name:'Fixture'}]:path==='user'?user:[];
@@ -49,8 +49,8 @@ async page=>{
    assert(await p.locator('#auth-code').evaluate(e=>document.activeElement===e),'Focus should move to the code');assert(await p.locator('#auth-resend').isDisabled(),'Resend needs cooldown');
    await p.locator('#auth-code').fill('111111');await p.locator('#auth-verify').click();await p.locator('#auth-signin-status:not([hidden])').waitFor();
    assert(!((await p.locator('#auth-signin-status').textContent()).includes('Private')),'Provider diagnostic must stay private');
-   await p.evaluate(()=>{const clipboard=new DataTransfer();clipboard.setData('text/plain','12 34 56');document.querySelector('#auth-code').dispatchEvent(new ClipboardEvent('paste',{clipboardData:clipboard,bubbles:true,cancelable:true}));});
-   assert(await p.locator('#auth-code').inputValue()==='123456','Spaced pasted code should work');await p.locator('#auth-verify').click();await p.locator('#auth-signed-in').waitFor({state:'visible'});
+   await p.evaluate(()=>{const clipboard=new DataTransfer();clipboard.setData('text/plain','12 34 56 78');document.querySelector('#auth-code').dispatchEvent(new ClipboardEvent('paste',{clipboardData:clipboard,bubbles:true,cancelable:true}));});
+   assert(await p.locator('#auth-code').inputValue()==='12345678','Spaced pasted code should work');await p.locator('#auth-verify').click();await p.locator('#auth-signed-in').waitFor({state:'visible'});
    await p.locator('#billing-subscribe').waitFor();assert((await p.locator('#access-status').textContent()).includes(language==='no'?'Gratis':'Free'),'Browser flag must not grant library access');
    await p.locator('[data-billing-interval=year]').click();assert(await p.locator('[data-billing-interval=year]').getAttribute('aria-pressed')==='true','Year selection must persist');
    await fits(p);await p.screenshot({path:`output/playwright/accounts-${language}-${width}.png`,fullPage:true});

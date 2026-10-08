@@ -2,7 +2,7 @@
 
 ## Behavior
 
-Sign-in and account creation share one email flow. Email verification uses a six-digit code in the browser that opened the app. The legacy link mode remains available during rollout. Wrong/expired codes, resend cooldown, change-email and expired callback recovery are localized in English and Norwegian. Signing out affects this device.
+Sign-in and account creation share one email flow. Email verification uses an email code (the current project sends eight digits; legacy six-digit codes are also accepted) in the browser that opened the app. The legacy link mode remains available during rollout. Wrong/expired codes, resend cooldown, change-email and expired callback recovery are localized in English and Norwegian. Signing out affects this device.
 
 Library access belongs to the verified account. Existing AI beta grants were preserved and backfilled as full-content grants. AI eligibility remains independent of buying a subscription. License codes now attach to the signed-in account; people with an old browser-only unlock must sign in and redeem their existing code once.
 
