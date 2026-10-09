@@ -3,7 +3,7 @@ async page=>{
  const url=page.url();if(!['localhost','127.0.0.1'].includes(new URL(url).hostname))throw Error('Local checks only');
  const contexts=[],checks=[],errors=[];let mails=0,stripeBlocked=0;
  const assert=(value,message)=>{if(!value)throw Error(message);};
- async function fixture(language,width,expired=false){
+ async function fixture(language,width,expired=false,subscription=null){
   const context=await page.context().browser().newContext({viewport:{width,height:844}});contexts.push(context);
   await context.addInitScript(({language,expired})=>{
    if(!expired)localStorage.setItem('dp_app_tour_v1',JSON.stringify({disabled:true}));
@@ -19,7 +19,7 @@ async page=>{
    else if(path==='verify'){
     if(route.request().postDataJSON().token!=='12345678')return route.fulfill({status:403,json:{code:'otp_expired',msg:'Private provider diagnostic'}});
     json={access_token:token,refresh_token:'isolated-fixture',expires_in:3600,expires_at:expires,token_type:'bearer',user};
-   }else json=path==='get_public_app_config'?{email_mode:'code',billing_mode:'live'}:path==='get_ai_access'?false:path==='get_account_access'?{full_content:false,ai_access:false,subscription:null}:
+   }else json=path==='get_public_app_config'?{email_mode:'code',billing_mode:'live'}:path==='get_ai_access'?false:path==='get_account_access'?{full_content:false,ai_access:false,subscription}:
     path==='ensure_user_profile'?[{id:uid,display_name:'Fixture'}]:path==='list_practice_targets'?[{target_user_id:uid,target_kind:'self',display_name:'Fixture'}]:path==='user'?user:[];
    return route.fulfill({json});
   });
@@ -57,6 +57,11 @@ async page=>{
    const navigation=p.waitForRequest('https://checkout.stripe.com/**');await p.locator('#billing-subscribe').click();await navigation;
    assert(checkout.length===1&&checkout[0].interval==='year'&&!('priceId'in checkout[0]),'Checkout sends plan, not client-selected prices');
    checks.push({language,width,otp:true,cooldown:true,localizedError:true,codePaste:true,accountAccess:true,billing:true});await context.close();
+  }
+  for(const value of [{status:'past_due',access_paused:false},{status:'active',access_paused:true}]){
+   const {p,context}=await fixture('en',320,false,{...value,paid_through:new Date(Date.now()+(value.access_paused?86400000:-86400000)).toISOString(),interval:'month',cancel_at_period_end:false,test:false});
+   await p.locator('#account-button').click();await p.locator('#auth-email').fill('review@example.invalid');await p.locator('#auth-submit').click();await p.locator('#auth-code').waitFor({state:'visible'});await p.locator('#auth-code').fill('12345678');await p.locator('#auth-verify').click();
+   await p.locator('#billing-manage').waitFor();assert(await p.locator('#billing-subscribe').count()===0,'An unresolved payment must use its existing subscription, not offer another');await fits(p);await context.close();
   }
   const {p}=await fixture('en',390,true);await p.locator('#account-modal').waitFor({state:'visible'});
   assert((await p.locator('#auth-signin-status').textContent()).includes('expired'),'Expired callback must offer recovery');

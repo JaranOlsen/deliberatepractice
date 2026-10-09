@@ -24,7 +24,9 @@ function fixture(options={}) {
   if(path.startsWith('subscriptions?'))return Response.json({data:[]});
   if(path.startsWith('subscriptions/'))return Response.json({id:'sub_Fixture',customer:'cus_Fixture',livemode:false,status:'active',cancel_at_period_end:true,
    items:{data:[{price:{id:'price_Month'},quantity:1,current_period_end:end}]},latest_invoice:{status:'paid',lines:{data:[{pricing:{price_details:{price:'price_Month'}},period:{end}}]}}});
-  if(path.startsWith('charges/'))return Response.json({id:'ch_Fixture',customer:'cus_Fixture',refunded:true,amount:9900,amount_refunded:9900});
+  if(path.startsWith('charges/'))return Response.json({id:'ch_Fixture',customer:'cus_Fixture',livemode:false,payment_intent:'pi_Fixture',refunded:true,amount:9900,amount_refunded:9900,...options.charge});
+  if(path.startsWith('invoice_payments?')){const query=new URLSearchParams(path.split('?')[1]);assert.equal(query.get('payment[type]'),'payment_intent');assert.equal(query.get('payment[payment_intent]'),'pi_Fixture');return Response.json({data:[{invoice:'in_Fixture'}]});}
+  if(path==='invoices/in_Fixture')return Response.json({id:'in_Fixture',customer:'cus_Fixture',livemode:false,parent:{subscription_details:{subscription:'sub_Fixture'}},lines:{data:[{pricing:{price_details:{price:'price_Month'}},period:{end}}]},...options.invoice});
   if(path.startsWith('disputes/'))return Response.json({id:'dp_Fixture',charge:'ch_Fixture',status:'won'});
   if(path==='billing_portal/sessions')return Response.json({url:'https://billing.stripe.com/session/fixture'});
   throw Error('Unexpected provider path');
@@ -38,6 +40,7 @@ test('checkout uses verified account, fixed NOK price, hosted return paths and s
  assert.deepEqual(checkout[0].form,checkout[1].form);assert.equal(checkout[0].headers['Idempotency-Key'],checkout[1].headers['Idempotency-Key']);
  assert.equal(f.calls.filter(c=>c.path==='customers').length,1);assert.equal(checkout[0].form['line_items[0][price]'],'price_Month');
  assert.equal(checkout[0].form['line_items[0][quantity]'],'1');assert.equal(checkout[0].form.locale,'nb');assert.equal(checkout[0].form.customer,'cus_Fixture');
+ assert.equal(checkout[0].form.currency,'nok');
  assert.equal(checkout[0].form.client_reference_id,user.id);assert.match(checkout[0].form.success_url,/billing=success/);
  assert.equal(checkout[0].form['customer_update[name]'],'auto');assert.equal(checkout[0].form['tax_id_collection[enabled]'],'true');
 });
@@ -82,7 +85,14 @@ test('full refund and resolved dispute update scoped payment holds; unrelated cu
   const raw=JSON.stringify({id:'evt_Risk'+index++,type,livemode:false,data:{object:{id}}});await f.service.webhook(raw,signature(raw));
  }
  assert.equal(f.risks[0].reason,'refund');assert.equal(f.risks[0].hold,true);assert.equal(f.risks[1].reason,'dispute');assert.equal(f.risks[1].hold,false);
+ assert.equal(f.risks[0].subscriptionId,'sub_Fixture');assert.equal(f.risks[0].sourceId,'ch_Fixture');assert.equal(f.risks[0].periodEnd,new Date(end*1000).toISOString());
  const unrelated=fixture({store:{...f.store,customerOwner:async()=>null}}),raw=JSON.stringify({id:'evt_Unrelated',type:'charge.refunded',livemode:false,data:{object:{id:'ch_Fixture'}}});
+ assert.equal((await unrelated.service.webhook(raw,signature(raw))).ignored,true);assert.equal(unrelated.risks.length,0);
+});
+test('partial refunds and payments outside the app subscription do not pause access',async()=>{
+ const raw=JSON.stringify({id:'evt_Partial',type:'charge.refunded',livemode:false,data:{object:{id:'ch_Fixture'}}});
+ const partial=fixture({charge:{refunded:false,amount_refunded:1000}});assert.equal((await partial.service.webhook(raw,signature(raw))).ignored,true);assert.equal(partial.risks.length,0);
+ const unrelated=fixture({invoice:{parent:{subscription_details:{subscription:'sub_Other'}},lines:{data:[{price:'price_Other',period:{end}}]}}});
  assert.equal((await unrelated.service.webhook(raw,signature(raw))).ignored,true);assert.equal(unrelated.risks.length,0);
 });
 test('payment endpoint authorization precedes providers, errors stay bounded and checkout return cannot grant access',async()=>{

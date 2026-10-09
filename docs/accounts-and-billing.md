@@ -47,7 +47,7 @@ Deploy all files under `supabase/functions/account-services`, including generate
 
 Only a paid, current **live** subscription grants purchased access. A success URL never grants access. Test payments cannot unlock production access for ordinary accounts. Cancellation retains the paid period; a failed renewal does not extend it. Manual grants remain independent.
 
-Events are deduplicated, and each event retrieves current provider state before changing account access. Full refunds and disputes place a hold on the customer's app subscriptions. Won/closed-warning disputes clear their hold; a new paid period can clear a refund hold. This conservative customer-level policy needs review before live sales, particularly refunds of old invoices after a later renewal.
+Events are deduplicated, and each event retrieves current provider state before changing account access. A full refund places a hold only on the affected subscription and paid period. Refunding an older invoice does not pause a newer paid period. Payment disputes are tracked by charge and subscription; resolving one does not clear other active disputes. Manual grants remain independent. The invoice is resolved from its charge or the current Invoice Payments API, rather than assuming that every charge on a customer belongs to the app.
 
 Checkout attempts are bounded and serialized per customer. Repeated requests reuse the open checkout. A plan change expires its predecessor. The backend also checks Stripe for existing active/unresolved subscriptions before creating another.
 
@@ -59,6 +59,18 @@ Checkout attempts are bounded and serialized per customer. Repeated requests reu
 - Four-device room regression against isolated Postgres: four sets, readiness, competing roles, reconnect/replay, host transfer and pair self-assessment.
 - Hosted protected-content authorization and real Stripe test checkout creation: concurrent attempts, retry reuse, monthly/yearly switch and portal creation.
 - A real Stripe **test** subscription payment and cancellation generated provider webhooks and updated account access. The test subscription is scheduled to end at its paid-period boundary. No real payment was made. Payment completion was tested through Stripe's test API; the hosted form was inspected and filled with fictitious details.
+
+## Live activation
+
+The seller confirmed VAT-exempt treatment. Live prices remain NOK 99/month and NOK 799/year with no VAT added. `STRIPE_AUTOMATIC_TAX=false` is the intended configuration for this confirmed treatment.
+
+Use `.env.billing.live.local` for live setup and `.env.billing.local` for sandbox development. Both are ignored. Never put a live key in the local test adapter configuration. `scripts/prepare-stripe-live.mjs --prepare-live` validates the specific merchant account, live prices and portal, creates the live webhook if needed, and stores its signing secret privately. It does not enable checkout or charge anyone.
+
+The live portal allows cancellation at period end, invoice history and payment-method changes. The terms and privacy pages contain Norwegian and English versions, public seller details and a withdrawal form. Checkout requires agreement to the subscription terms and states automatic renewal and cancellation. Invoice footers retain a concise copy of the subscription/refund information and policy links. AI remains separately enabled.
+
+Publish the reviewed customer-facing pages and backend first. Add the live Stripe key and live webhook signing secret to Supabase's server secrets, set `STRIPE_LIVE_ENABLED=true`, and keep automatic tax off. Set the live price/portal IDs and `billing_mode='live'` together in `app_public_config` as the final activation step. Until both gates agree, new live checkout remains disabled. Verify signed-webhook connectivity and hosted Checkout creation without entering a card or making a payment. Sandbox tests remain the place for simulated financial transactions.
+
+Ensure Stripe's public details link to `https://jaranolsen.github.io/deliberatepractice/terms.html` and `https://jaranolsen.github.io/deliberatepractice/privacy.html`, and show the approved support email. Configure customer receipt/subscription emails in the Dashboard. Restore a sandbox key in `.env.billing.local` if it was replaced while entering the live key; the live file is separate.
 
 ## Before accepting real payments
 

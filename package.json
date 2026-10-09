@@ -15,7 +15,7 @@
     "ai:check:live": "node --env-file-if-exists=.env.local scripts/check-ai-practice-live.mjs",
     "ai:check:admin": "node --env-file-if-exists=.env.local scripts/check-ai-admin-live.mjs",
     "ai:research:delivery": "node --env-file-if-exists=.env.ai.local scripts/check-ai-delivery-research.mjs",
-    "build": "vite build",
+    "build": "npm run build:billing && vite build",
     "preview": "vite preview",
     "test": "npm run validate:content && node --test tests/*.test.js && npm run test:rooms:db",
     "test:rooms:db": "node scripts/check-local-room-db.mjs",
@@ -26,7 +26,9 @@
     "feedback:list": "node scripts/supabase-feedback.mjs list",
     "feedback:resolve": "node scripts/supabase-feedback.mjs resolve",
     "feedback:delete": "node scripts/supabase-feedback.mjs delete",
-    "check:backend": "node scripts/check-backend.mjs"
+    "check:backend": "node scripts/check-backend.mjs",
+    "build:billing": "node scripts/build-billing-pages.mjs",
+    "billing:prepare:live": "node --env-file-if-exists=.env.billing.live.local scripts/prepare-stripe-live.mjs --prepare-live"
   },
   "devDependencies": {
     "@electric-sql/pglite": "^0.5.8",
