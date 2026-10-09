@@ -1,8 +1,8 @@
 # Proposed live subscription terms
 
-Prepared 9 October 2026 for review before publication.
+Prepared 9 October 2026. Refund policy approved by the seller on 10 October 2026; publication awaits a working customer support address.
 
-Seller: Psykolog Jaran de los Santos Olsen, organisation number 997170164, Hekkveien 1, 0571 Oslo, Norway. The name and address match the connected Stripe account and the public business register. A customer support email still needs to be selected.
+Seller: Psykolog Jaran de los Santos Olsen, organisation number 997170164, Hekkveien 1, 0571 Oslo, Norway. The name and address match the connected Stripe account and the public business register. Customer support will use support@eftdojo.no. Its Resend inbox is created; forwarding at the existing domain host and delivery/reply verification remain required before publication and activation.
 
 Full access includes the complete practice library and hosting group rooms. Participants joining a sponsored room do not need their own subscription. AI practice remains a separately enabled beta and is not included as an unlimited paid benefit.
 
@@ -10,7 +10,7 @@ The monthly subscription costs NOK 99, billed monthly. The yearly subscription c
 
 Access begins after payment is confirmed. Subscriptions renew automatically for the same billing period until cancelled. Cancel at any time in Account → Manage subscription. Cancellation stops the next renewal and retains access through the paid period. No minimum commitment beyond the chosen paid period applies.
 
-Proposed refund policy: a full refund may be requested within 14 days of the first paid subscription purchase, even if practice has begun. This is separate from cancellation. Contact customer support using the account's email; no special wording or form is required. A completed full refund ends access for the refunded period. Ordinary cancellation does not automatically refund an unused part of a paid period. Mandatory consumer rights are preserved.
+Approved refund policy: a full refund may be requested within 14 days of the first paid subscription purchase, even if practice has begun. This is separate from cancellation. Contact customer support using the account's email; no special wording or form is required. A completed full refund ends access for the refunded period. Ordinary cancellation does not automatically refund an unused part of a paid period. Mandatory consumer rights are preserved.
 
 The app is for professional skills training with fictional cases. It is not a clinical service or a place to enter identifiable patient information. Feedback and progress ratings are training aids, not professional certification or a guarantee of clinical competence.
 
