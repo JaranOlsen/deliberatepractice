@@ -1,5 +1,5 @@
 import {BILLING_PROTOCOL,FULL_ACCESS_PRICES} from '../src/data/subscriptionPlans.js';
-import {BILLING_BUSINESS,BILLING_LEGAL_URLS,BILLING_TERMS_VERSION} from '../src/data/billingBusiness.js';
+import {BILLING_BUSINESS,BILLING_LEGAL_URLS,BILLING_TERMS_VERSION,STRIPE_BILLING_API_VERSION,STRIPE_CHECKOUT_INTEGRATION} from '../src/data/billingBusiness.js';
 export {BILLING_PROTOCOL,FULL_ACCESS_PRICES};
 export class BillingError extends Error {constructor(code,status=400){super(code);this.code=code;this.status=status;}}
 const id=(value,prefix)=>typeof value==='string'&&new RegExp(`^${prefix}_[A-Za-z0-9]+$`).test(value);
@@ -20,7 +20,7 @@ export async function verifyStripeEvent(raw,signature,secret,{now=Date.now}={}) 
 }
 
 export function createBillingService({secretKey,webhookSecret,monthlyPrice,yearlyPrice,portalConfiguration,
- liveEnabled=false,taxEnabled=false,apiVersion=null,store,fetcher=fetch,now=Date.now,
+ liveEnabled=false,taxEnabled=false,apiVersion=STRIPE_BILLING_API_VERSION,store,fetcher=fetch,now=Date.now,
  appUrl='https://jaranolsen.github.io/deliberatepractice/'}) {
  const mode=/^(sk|rk)_test_/.test(secretKey||'')?'test':/^(sk|rk)_live_/.test(secretKey||'')?'live':'off';
  const live=mode==='live',prices={month:monthlyPrice,year:yearlyPrice},verifiedPrices=new Map();
@@ -94,7 +94,7 @@ export function createBillingService({secretKey,webhookSecret,monthlyPrice,yearl
    'line_items[0][price]':prices[input.interval],'line_items[0][quantity]':1,locale:input.languageId==='no'?'nb':'en',
    success_url:success.href,cancel_url:cancel.href,billing_address_collection:'required','customer_update[address]':'auto','customer_update[name]':'auto',
    'tax_id_collection[enabled]':true,'automatic_tax[enabled]':taxEnabled,'subscription_data[metadata][app_user_id]':user.id,
-   payment_method_types:['card'],'metadata[app]':'deliberatepractice','metadata[attempt_id]':input.attemptId,'metadata[terms_version]':BILLING_TERMS_VERSION,
+   integration_identifier:STRIPE_CHECKOUT_INTEGRATION,'metadata[app]':'deliberatepractice','metadata[attempt_id]':input.attemptId,'metadata[terms_version]':BILLING_TERMS_VERSION,
    ...(live?{'consent_collection[terms_of_service]':'required','custom_text[terms_of_service_acceptance][message]':input.languageId==='no'?`Jeg godtar [abonnementsvilkårene](${BILLING_LEGAL_URLS.terms}?lang=no).`:`I agree to the [subscription terms](${BILLING_LEGAL_URLS.terms}?lang=en).`,
    'custom_text[submit][message]':input.languageId==='no'?`Abonnementet fornyes automatisk ${input.interval==='month'?'hver måned':'hvert år'}. Si opp under Konto → Administrer abonnement. Full refusjon innen 14 dager etter første kjøp.`:`Your subscription renews ${input.interval==='month'?'monthly':'yearly'}. Cancel under Account → Manage subscription. Full refund within 14 days of your first purchase.`}: {})},`dp-checkout:${mode}:${user.id}:${input.attemptId}${lock.previous_session?`:${lock.previous_session}`:''}`);
   if(value.livemode!==live||new URL(value.url||'https://invalid.invalid').origin!=='https://checkout.stripe.com')throw new BillingError('billing_unavailable',503);
@@ -142,7 +142,7 @@ export function createBillingService({secretKey,webhookSecret,monthlyPrice,yearl
    if(!ends.length)return {received:true,ignored:true};
    await store.risk({eventId:event.id,live,eventType:event.type,customer,subscriptionId,sourceId:charge.id,reason,hold,periodEnd:secondsDate(Math.max(...ends)),observed});return {received:true};
   }
-  const supported=['invoice.paid','invoice.payment_failed','customer.subscription.created','customer.subscription.updated','customer.subscription.deleted','checkout.session.completed'];
+  const supported=['invoice.paid','invoice.payment_failed','customer.subscription.created','customer.subscription.updated','customer.subscription.deleted','checkout.session.completed','checkout.session.async_payment_succeeded','checkout.session.async_payment_failed'];
   if(!supported.includes(event.type))return {received:true,ignored:true};
   const object=event.data?.object;
   const subscriptionId=event.type.startsWith('customer.subscription.')?object?.id:providerId(object?.subscription||object?.parent?.subscription_details?.subscription);
@@ -156,7 +156,8 @@ export function createBillingService({secretKey,webhookSecret,monthlyPrice,yearl
   await price(interval);
   let paidThrough=null;
   const invoice=subscription.latest_invoice;
-  if(invoice&&typeof invoice==='object'&&(invoice.paid===true||invoice.status==='paid')) {
+  const checkoutPaid=!event.type.startsWith('checkout.session.')||['paid','no_payment_required'].includes(object?.payment_status);
+  if(checkoutPaid&&invoice&&typeof invoice==='object'&&(invoice.paid===true||invoice.status==='paid')) {
    const ends=(invoice.lines?.data||[]).filter(line=>providerId(line.price||line.pricing?.price_details?.price)===priceId).map(line=>line.period?.end).filter(Number.isFinite);
    paidThrough=secondsDate(ends.length?Math.max(...ends):item.current_period_end||subscription.current_period_end);
   }

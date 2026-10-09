@@ -1,7 +1,7 @@
 import {readFile,writeFile,chmod} from 'node:fs/promises';
 
 const endpoint='https://kpzmjnwwbxweevloiqiy.supabase.co/functions/v1/account-services/webhook';
-const events=['checkout.session.completed','customer.subscription.created','customer.subscription.updated','customer.subscription.deleted','invoice.paid','invoice.payment_failed','charge.refunded','charge.dispute.created','charge.dispute.closed'];
+const events=['checkout.session.completed','checkout.session.async_payment_succeeded','checkout.session.async_payment_failed','customer.subscription.created','customer.subscription.updated','customer.subscription.deleted','invoice.paid','invoice.payment_failed','charge.refunded','charge.dispute.created','charge.dispute.closed'];
 const key=process.env.STRIPE_SECRET_KEY;
 if(!process.argv.includes('--test-setup')||!/^sk_test_/.test(key||'')||process.env.STRIPE_LIVE_ENABLED==='true')throw Error('Test setup and a test key are required');
 async function call(path,body=null){

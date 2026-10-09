@@ -1,11 +1,12 @@
 import {readFile,writeFile,chmod} from 'node:fs/promises';
 import {FULL_ACCESS_PRICES} from '../src/data/subscriptionPlans.js';
+import {STRIPE_BILLING_API_VERSION} from '../src/data/billingBusiness.js';
 const key=process.env.STRIPE_SECRET_KEY;
 if(!process.argv.includes('--prepare-live')||!/^(sk|rk)_live_/.test(key||'')||process.env.STRIPE_LIVE_ENABLED==='true')throw Error('Live preparation requires a live key and disabled charging');
 const endpoint='https://kpzmjnwwbxweevloiqiy.supabase.co/functions/v1/account-services/webhook';
-const events=['checkout.session.completed','customer.subscription.created','customer.subscription.updated','customer.subscription.deleted','invoice.paid','invoice.payment_failed','charge.refunded','charge.dispute.created','charge.dispute.closed'];
+const events=['checkout.session.completed','checkout.session.async_payment_succeeded','checkout.session.async_payment_failed','customer.subscription.created','customer.subscription.updated','customer.subscription.deleted','invoice.paid','invoice.payment_failed','charge.refunded','charge.dispute.created','charge.dispute.closed'];
 async function call(path,body=null){
- const response=await fetch(`https://api.stripe.com/v1/${path}`,{method:body?'POST':'GET',headers:{Authorization:`Bearer ${key}`,...(body?{'Content-Type':'application/x-www-form-urlencoded'}:{})},...(body?{body:new URLSearchParams(body)}:{}),signal:AbortSignal.timeout(30000)});
+ const response=await fetch(`https://api.stripe.com/v1/${path}`,{method:body?'POST':'GET',headers:{Authorization:`Bearer ${key}`,'Stripe-Version':STRIPE_BILLING_API_VERSION,...(body?{'Content-Type':'application/x-www-form-urlencoded'}:{})},...(body?{body:new URLSearchParams(body)}:{}),signal:AbortSignal.timeout(30000)});
  if(!response.ok)throw Error(`Stripe live preparation failed (${response.status})`);return response.json();
 }
 const account=await call('account');

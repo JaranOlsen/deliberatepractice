@@ -3,4 +3,6 @@ export const BILLING_BUSINESS={
  address:'Hekkveien 1, 0571 Oslo, Norway',supportEmail:null,vatExempt:true
 };
 export const BILLING_TERMS_VERSION='2026-10-09';
+export const STRIPE_BILLING_API_VERSION='2026-09-30.endive';
+export const STRIPE_CHECKOUT_INTEGRATION='deliberate-practice-tffiezgf';
 export const BILLING_LEGAL_URLS={terms:'https://jaranolsen.github.io/deliberatepractice/terms.html',privacy:'https://jaranolsen.github.io/deliberatepractice/privacy.html'};

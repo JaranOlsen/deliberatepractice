@@ -41,6 +41,8 @@ test('checkout uses verified account, fixed NOK price, hosted return paths and s
  assert.equal(f.calls.filter(c=>c.path==='customers').length,1);assert.equal(checkout[0].form['line_items[0][price]'],'price_Month');
  assert.equal(checkout[0].form['line_items[0][quantity]'],'1');assert.equal(checkout[0].form.locale,'nb');assert.equal(checkout[0].form.customer,'cus_Fixture');
  assert.equal(checkout[0].form.currency,'nok');
+ assert.equal(checkout[0].form['payment_method_types[]'],undefined);assert.match(checkout[0].form.integration_identifier,/^deliberate-practice-[a-z]{8}$/);
+ assert.equal(checkout[0].headers['Stripe-Version'],'2026-09-30.endive');
  assert.equal(checkout[0].form.client_reference_id,user.id);assert.match(checkout[0].form.success_url,/billing=success/);
  assert.equal(checkout[0].form['customer_update[name]'],'auto');assert.equal(checkout[0].form['tax_id_collection[enabled]'],'true');
 });
@@ -79,6 +81,12 @@ test('webhook signatures bind exact bytes and reject stale or altered payloads',
  const raw='{"id":"evt_Fixture"}';assert.equal((await verifyStripeEvent(raw,signature(raw),'whsec_fixture',{now})).id,'evt_Fixture');
  await assert.rejects(verifyStripeEvent(raw+' ',signature(raw),'whsec_fixture',{now}),/invalid_signature/);
  await assert.rejects(verifyStripeEvent(raw,signature(raw),'whsec_fixture',{now:()=>now()+301000}),/invalid_signature/);
+});
+test('unpaid checkout cannot extend access, while confirmed delayed payment is handled',async()=>{
+ const f=fixture();for(const [i,type,payment_status] of [[0,'checkout.session.completed','unpaid'],[1,'checkout.session.async_payment_succeeded','paid'],[2,'checkout.session.async_payment_failed','unpaid']]){
+  const raw=JSON.stringify({id:'evt_Async'+i,type,livemode:false,data:{object:{subscription:'sub_Fixture',payment_status}}});await f.service.webhook(raw,signature(raw));
+ }
+ assert.equal(f.applied[0].paidThrough,null);assert.equal(f.applied[1].paidThrough,new Date(end*1000).toISOString());assert.equal(f.applied[2].paidThrough,null);
 });
 test('full refund and resolved dispute update scoped payment holds; unrelated customers are ignored',async()=>{
  const f=fixture();let index=0;for(const [type,id] of [['charge.refunded','ch_Fixture'],['charge.dispute.closed','dp_Fixture']]){
