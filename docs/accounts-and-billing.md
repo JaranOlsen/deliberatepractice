@@ -13,12 +13,13 @@ A room can use a paid participant as its sponsor. Free members get only that roo
 ## Current configuration
 
 - Full access: NOK 99/month or NOK 799/year, fixed server-selected prices.
-- Stripe **test mode only**, available to the existing AI beta accounts. No live key or live-payments flag is enabled.
+- Checkout is disabled during the live cutover. The live Stripe key and webhook signing secret are installed and signed-webhook connectivity is verified; the live checkout gates remain closed until the remaining customer-facing settings and support delivery are checked.
 - Checkout uses Norwegian or English according to the app language. Currency stays NOK; international card payments are supported by hosted Checkout.
-- Prices have inclusive tax behavior in the test catalog. Automatic tax is off pending the actual tax treatment and business setup.
+- Both catalogs use inclusive tax behavior. The seller confirmed VAT-exempt treatment; automatic tax remains off.
 - The portal supports invoices, payment-method updates and cancellation at the end of the paid period.
-- The production database migrations and `account-services` function are deployed. Stripe test key and webhook signing secret are server secrets; the nonsecret price/portal IDs are in `app_public_config`.
+- The production database migrations and `account-services` function are deployed. Live Stripe credentials are server secrets; the nonsecret live price/portal IDs are in `app_public_config`.
 - Custom SMTP is already enabled through Resend, with a 60-second per-user interval matching the app's resend cooldown.
+- Customer support uses a separate Resend inbox at `support@eftdojo.no`, forwarded through Domene AS. Outgoing delivery to the owner's chosen test address is verified; an incoming reply test remains pending. No inbox AI actions are enabled.
 
 ## Deployment and email activation
 
@@ -53,7 +54,7 @@ Checkout attempts are bounded and serialized per customer. Repeated requests reu
 
 ## Checks completed
 
-- Content validation, Node tests and 14 isolated Postgres suites, including grants, expiry, webhook replay, checkout leases, room sponsorship and role isolation.
+- Content validation, 128 Node tests and 15 isolated Postgres suites, including grants, expiry, webhook replay, checkout leases, room sponsorship, scoped payment holds and role isolation.
 - English/Norwegian phone flows at 320px and 390px, also with enlarged text: verification focus, wrong codes, pasted codes, resend cooldown, expired callbacks, forged browser unlock denial and plan selection.
 - AI practice regression with mocked model/audio calls: both languages, demo/live UI, ratings, recording fallback and export; no paid AI calls.
 - Four-device room regression against isolated Postgres: four sets, readiness, competing roles, reconnect/replay, host transfer and pair self-assessment.

@@ -2,7 +2,7 @@
 
 Prepared 9 October 2026. Refund policy approved by the seller on 10 October 2026; publication awaits a working customer support address.
 
-Seller: Psykolog Jaran de los Santos Olsen, organisation number 997170164, Hekkveien 1, 0571 Oslo, Norway. The name and address match the connected Stripe account and the public business register. Customer support will use support@eftdojo.no. Its Resend inbox is created; forwarding at the existing domain host and delivery/reply verification remain required before publication and activation.
+Seller: Psykolog Jaran de los Santos Olsen, organisation number 997170164, Hekkveien 1, 0571 Oslo, Norway. The name and address match the connected Stripe account and the public business register. Customer support will use support@eftdojo.no. Its Resend inbox and forwarding at Domene AS are configured, and outgoing delivery is verified. The incoming reply test remains required before publication and activation.
 
 Full access includes the complete practice library and hosting group rooms. Participants joining a sponsored room do not need their own subscription. AI practice remains a separately enabled beta and is not included as an unlimited paid benefit.
 
