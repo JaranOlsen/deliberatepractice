@@ -25,6 +25,8 @@ Capacitor can be added to an existing JavaScript project with an HTML entry poin
 
 Useful native additions would be opt-in practice reminders, better audio interruption handling, platform share sheets for room invitations and deliberately designed offline individual exercises. A wrapper alone does not guarantee faster rendering, uninterrupted background room synchronization or better AI feedback. Mobile operating systems can suspend native apps too.
 
+Notifications are not exclusive to store apps: Home Screen web apps support Web Push on iOS/iPadOS 16.4 and later. Adding opt-in push would require additional service-worker and server work, but does not require caching live rooms or billing responses. [WebKit Web Push](https://webkit.org/blog/13878/web-push-for-web-apps-on-ios-and-ipados/).
+
 ## Requirements before a store release
 
 1. Decide the subscription route for each storefront. Digital feature subscriptions generally fall under Apple/Google billing rules, with regional exceptions and programs. The current Stripe purchase button and license-code unlock cannot simply be assumed suitable for an unchanged store build. A free companion app with no in-app purchasing or purchase links is another route to assess under Apple's 3.1.3(f), subject to review. If store billing is used, support purchase restoration, cancellations, refunds and server-verified access across providers. [Apple payment guidelines](https://developer.apple.com/app-store/review/guidelines/#business), [Google Play payments](https://support.google.com/googleplay/android-developer/answer/9858738).
