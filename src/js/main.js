@@ -25,6 +25,7 @@ import {
 } from "./practiceData.js";
 import {hasPracticeContent as hasContent,getPracticeStatements as getStatements,loadPracticeContent as loadContent,setContentIdentity} from './practiceContent.js';
 import {createEmailSignIn,authCallbackFailure,SIGNIN_COPY} from './emailSignIn.js';
+import {createAiCreditView} from './aiCreditView.js';
 import {createBillingApi,createSubscriptionView} from './subscription.js';
 import {readRoomInvite} from './roomInvite.js';
 import {
@@ -189,7 +190,7 @@ function renderGroupEntry() {
   document.getElementById('home-library').textContent = strings.homeLibrary;
   document.getElementById('home-library').className = group ? 'ghost-button' : 'primary-button';
   const aiEntry = document.getElementById('home-ai-practice');
-  aiEntry.hidden = !aiPilotEnabled || !state.aiAdmin || group || state.sessionActive;
+  aiEntry.hidden = !aiPilotEnabled || !state.aiAllowed || group || state.sessionActive;
   aiEntry.textContent = no ? aiPractice.hasRound() ? 'Fortsett KI-øving' : 'Øv med KI · pilot'
     : aiPractice.hasRound() ? 'Resume AI practice' : 'AI guided practice · pilot';
   const languageButton = document.getElementById('home-language');
@@ -448,6 +449,7 @@ const state = {
   authResolving: true,
   authSession: null,
   aiAdmin: false,
+  aiAllowed: false,
   fullContent: false,
   accountAccess: null,
   authEmailMode: 'link',
@@ -488,7 +490,7 @@ const mastery = createMasteryPractice({
 sections.mastery=mastery.element;document.querySelector('main').append(mastery.element);
 // Visibility follows a server permission; paid endpoints enforce it independently.
 const aiPilotEnabled = import.meta.env.VITE_AI_PRACTICE_ENABLED !== 'false';
-const aiPractice = aiPilotEnabled ? createAiPractice({getLanguage: () => state.languageId ?? 'en', localizeSkill, getStrings: getUIStrings,
+const aiPractice = aiPilotEnabled ? createAiPractice({account:showAccountPanel,getLanguage: () => state.languageId ?? 'en', localizeSkill, getStrings: getUIStrings,
   apiOptions:aiApiOptions(),
   show: () => showSection('ai'), home: () => showSection('home'), requestHome: actions => practiceExit.open(actions),
   theme: (element, skillId, difficulty) => applyVisualProperties(element, getCaseVisual(skillId, difficulty))})
@@ -502,9 +504,14 @@ const subscriptionView=createSubscriptionView({container:document.getElementById
   api:createBillingApi(accountServicesOptions()),getUser:()=>state.authUser,getLanguage:()=>state.languageId??'en',
   getAccess:()=>state.accountAccess,isAiAdmin:()=>state.aiAdmin,refreshAccess:async()=>{
     if(!state.authUser)return;const id=state.authUser.id,access=await getAccountAccess();if(state.authUser?.id!==id)return;
-    state.accountAccess=access;state.fullContent=access.full_content;setContentIdentity(id,state.fullContent||state.aiAdmin);renderAuthUI();updateLockedBanner();renderCaseOptions();
+    state.accountAccess=access;state.fullContent=access.full_content;state.aiAllowed=access.ai_access;state.aiAdmin=access.ai_admin;setContentIdentity(id,state.fullContent||state.aiAdmin);renderAuthUI();updateLockedBanner();renderCaseOptions();
     if(state.languageId&&state.skillId&&!state.sessionActive)void prepareSkillContent(state.languageId,state.skillId);
   }});
+const aiCreditView=createAiCreditView({container:document.getElementById('access-section'),api:createBillingApi(accountServicesOptions()),
+ getUser:()=>state.authUser,getLanguage:()=>state.languageId??'en',refreshAccess:async()=>{
+  const id=state.authUser?.id;if(!id)return;const access=await getAccountAccess();if(id!==state.authUser?.id)return;
+  state.accountAccess=access;state.aiAllowed=access.ai_access;state.aiAdmin=access.ai_admin;state.fullContent=access.full_content;renderAuthUI();
+ }});
 function paintExerciseChoice(available, catalog = EXERCISE_CATALOG) {
  const no=state.languageId==='no',selected=exerciseType==='mastery' && available;
  const single=document.getElementById('exercise-single'),mixed=document.getElementById('exercise-mastery');
@@ -1694,7 +1701,7 @@ function showAccountPanel() {
   aiPractice.stopAudio();
   if (!elements.accountOverlay) return;
   renderAuthUI();
-  void subscriptionView.refresh();
+  void subscriptionView.refresh();void aiCreditView.refresh();
   dialogs.open(elements.accountOverlay, { onDismiss: hideAccountPanel,
     initialFocus: state.authUser ? elements.closeAccountButton : emailSignIn.hasCode()?document.getElementById('auth-code'):elements.authEmail });
 }
@@ -1776,7 +1783,7 @@ function renderAuthUI() {
   document.getElementById('account-code-summary').textContent=SIGNIN_COPY[no?'no':'en'].access;
   for(const [key,label] of [['terms',no?'Vilkår':'Terms'],['privacy',no?'Personvern':'Privacy']]){const link=document.getElementById('app-'+key);link.textContent=label;link.href=`${key}.html?lang=${no?'no':'en'}`;}
   emailSignIn.render();
-  subscriptionView.render();
+  subscriptionView.render();aiCreditView.render();
   renderPracticeFormatUI();
   renderGroupEntry();
   renderSelfRatingsChart();
@@ -1801,7 +1808,7 @@ async function refreshPracticeTargets() {
 let authApplyGeneration=0;
 async function applyAuthSession(session) {
   const current=++authApplyGeneration;
-  const wasAiAdmin = state.aiAdmin;
+  const wasAiAllowed = state.aiAllowed;
   state.authResolving = true;
   const userChanged = state.authUser?.id !== session?.user?.id;
   // INITIAL_SESSION and token refresh can repeat the current user while a
@@ -1809,7 +1816,7 @@ async function applyAuthSession(session) {
   if (userChanged) {
     aiPractice.reset();
     state.fullContent=false;state.accountAccess=null;
-    subscriptionView.reset();
+    subscriptionView.reset();aiCreditView.reset();
     progressRequestId += 1;
     state.progressSource = "self";
     state.progressDifficulty = "all";
@@ -1821,7 +1828,7 @@ async function applyAuthSession(session) {
     state.progressRatingsError = "";
   }
   state.authSession = session ?? null;
-  state.aiAdmin = false;
+  state.aiAdmin = false;state.aiAllowed=false;
   state.authUser = session?.user ?? null;
   if(userChanged)setContentIdentity(state.authUser?.id,false);
   if(state.authUser)emailSignIn.signedIn();
@@ -1836,11 +1843,11 @@ async function applyAuthSession(session) {
 
   renderAuthUI();
   try {
-    const [profile,targets,admin,access]=await Promise.all([ensureUserProfile(null),listPracticeTargets(),getAiAccess(),getAccountAccess()]);
+    const [profile,targets,allowed,access]=await Promise.all([ensureUserProfile(null),listPracticeTargets(),getAiAccess(),getAccountAccess()]);
     if(current!==authApplyGeneration)return;
-    if (wasAiAdmin && !admin) aiPractice.reset();
-    state.authProfile=profile;state.authTargets=targets.map(normalizePracticeTarget).filter(Boolean);state.aiAdmin=admin;
-    state.accountAccess=access;state.fullContent=access.full_content;
+    if (wasAiAllowed && !allowed) aiPractice.reset();
+    state.authProfile=profile;state.authTargets=targets.map(normalizePracticeTarget).filter(Boolean);
+    state.accountAccess=access;state.fullContent=access.full_content;state.aiAllowed=access.ai_access;state.aiAdmin=access.ai_admin;void aiCreditView.refresh();
     setContentIdentity(state.authUser.id,state.fullContent||state.aiAdmin);
     state.authResolving = false;
     renderAuthUI();
@@ -1904,7 +1911,7 @@ async function handleSignOut() {
   const strings = getUIStrings();
   try {
     await signOut();
-    authApplyGeneration++;state.aiAdmin=false;aiPractice.reset();
+    authApplyGeneration++;state.aiAdmin=false;state.aiAllowed=false;aiPractice.reset();
     state.fullContent=false;state.accountAccess=null;
     setContentIdentity(null,false);
     progressRequestId += 1;
@@ -4031,7 +4038,7 @@ function registerEventListeners() {
   });
   document.getElementById('home-progress').addEventListener('click', showProgressPanel);
   document.getElementById('home-ai-practice').addEventListener('click', () => {
-    if (aiPilotEnabled && state.aiAdmin && state.practiceMode === PRACTICE_MODES.INDIVIDUAL) void aiPractice.open();
+    if (aiPilotEnabled && state.aiAllowed && state.practiceMode === PRACTICE_MODES.INDIVIDUAL) void aiPractice.open();
   });
   document.getElementById('shared-pair').addEventListener('change', event => {
     if (state.sessionActive) return;
@@ -4285,7 +4292,8 @@ function initialize() {
   const inviteCode = readRoomInvite(window.location.href, inviteStorage);
   initializeAuth().then(() => {
     if (inviteCode) void openSharedRoom('join', {code:inviteCode});
-    const url=new URL(window.location.href),billing=url.searchParams.get('billing');
+    const url=new URL(window.location.href),billing=url.searchParams.get('billing'),creditReturn=url.searchParams.get('credits');
+    if(['success','cancelled'].includes(creditReturn)){url.searchParams.delete('credits');history.replaceState(null,'',url.href);showAccountPanel();void aiCreditView.checkReturn(creditReturn);}
     if(['success','cancelled','account'].includes(billing)){
       url.searchParams.delete('billing');history.replaceState(null,'',url.href);showAccountPanel();
       if(billing==='success')void subscriptionView.checkReturn();else if(billing==='cancelled')subscriptionView.cancelled();
@@ -4294,7 +4302,7 @@ function initialize() {
   if (state.languageId) renderSkillOptions();
   showSection("home");
   const entry=new URL(launchHref),fragment=new URLSearchParams(entry.hash.slice(1));
-  if(!authCallbackFailure(entry.href)&&!entry.searchParams.has('billing')&&!fragment.has('access_token'))appTour.start({automatic:true});
+  if(!authCallbackFailure(entry.href)&&!entry.searchParams.has('billing')&&!entry.searchParams.has('credits')&&!fragment.has('access_token'))appTour.start({automatic:true});
 }
 
 initialize();

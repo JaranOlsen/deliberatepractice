@@ -93,7 +93,7 @@ export async function getPublicAppConfig() {
 export async function getAccountAccess() {
   const client=await getSupabaseClient();const {data,error}=await client.rpc('get_account_access');
   if(error)throw new Error('access_unavailable');
-  return {full_content:data?.full_content===true,ai_access:data?.ai_access===true,subscription:data?.subscription??null};
+  return {full_content:data?.full_content===true,ai_access:data?.ai_access===true,ai_admin:(data?.ai_admin??data?.ai_access)===true,subscription:data?.subscription??null};
 }
 
 export async function redeemAccountAccessCode(code) {

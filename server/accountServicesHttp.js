@@ -17,6 +17,8 @@ export function createAccountServicesHandler({billing,content,authorize,origins=
    if(webhook)return json(await billing.webhook(text,request.headers.get('stripe-signature')));
    const user=await authorize(request);let input;try{input=JSON.parse(text);}catch{throw new BillingError('invalid_request');}
    if(action==='checkout')return json(await billing.checkout(user,input));
+   if(action==='credits')return json(await billing.credits(user));
+   if(action==='credit-checkout')return json(await billing.creditCheckout(user,input));
    if(action==='portal')return json(await billing.portal(user,input?.languageId));
    if(action==='content')return json(await content(user,input,request.headers.get('authorization')));
    return json({error:'not_found'},404);

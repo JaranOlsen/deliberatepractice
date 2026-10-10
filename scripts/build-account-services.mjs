@@ -5,7 +5,7 @@ import {gzipSync} from 'node:zlib';
 import {SKILL_ORDER} from '../src/data/index.js';
 const root=new URL('../',import.meta.url),target=new URL('supabase/functions/account-services/generated/',root);
 await rm(target,{recursive:true,force:true});
-const files=['server/billingService.js','server/accountServicesStore.js','server/accountServicesHttp.js','server/practiceContentService.js','src/data/subscriptionPlans.js','src/data/billingBusiness.js'];
+const files=['server/billingService.js','server/aiCreditsBilling.js','server/accountServicesStore.js','server/accountServicesHttp.js','server/practiceContentService.js','src/data/subscriptionPlans.js','src/data/billingBusiness.js','src/data/aiCredits.js'];
 for(const name of files){const out=new URL(name,target);await mkdir(dirname(fileURLToPath(out)),{recursive:true});await writeFile(out,await readFile(new URL(name,root)));}
 const manifest=JSON.parse(await readFile(new URL('src/data/runtime/manifest.json',root))),banks={},mastery={};
 for(const language of ['en','no']){

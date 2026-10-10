@@ -12,7 +12,7 @@ export function createBillingApi({base,getToken,publishableKey,fetcher=fetch}) {
   const value=await response.json();if(!response.ok)throw Error(value.error||'billing_unavailable');
   if(value.protocol!==BILLING_PROTOCOL)throw Error('billing_unavailable');return value;
  }
- return {status:()=>call('status'),checkout:body=>call('checkout',body),portal:languageId=>call('portal',{languageId})};
+ return {status:()=>call('status'),checkout:body=>call('checkout',body),portal:languageId=>call('portal',{languageId}),credits:()=>call('credits',{}),creditCheckout:body=>call('credit-checkout',body)};
 }
 export function createSubscriptionView({container,api,getUser,getLanguage,getAccess,isAiAdmin,refreshAccess}) {
  const node=(tag,text='',className='')=>{const e=document.createElement(tag);e.textContent=text;e.className=className;return e;};
@@ -36,7 +36,7 @@ export function createSubscriptionView({container,api,getUser,getLanguage,getAcc
    if(status?.portalAvailable){const manage=node('button',c().manage,'ghost-button');manage.type='button';manage.id='billing-manage';manage.disabled=busy;manage.addEventListener('click',()=>void openPortal());element.append(manage);}
   }
   if(!subscription || ['canceled','incomplete_expired'].includes(subscription.status)) {
-   element.append(node('p',c().benefit,'response-hint'));
+   element.append(node('p',status?.aiCreditsEnabled?`${c().benefit} · ${getLanguage()==='no'?'120 KI-kreditter hver måned':'120 AI credits each month'}`:c().benefit,'response-hint'));
    const options=node('div','','subscription-options');options.setAttribute('role','group');options.setAttribute('aria-label',c().title);
    for(const value of ['month','year']){const b=node('button','','ghost-button');b.type='button';b.dataset.billingInterval=value;b.setAttribute('aria-pressed',String(interval===value));
     b.append(node('span',c()[value]),node('strong',money(FULL_ACCESS_PRICES[value])));b.disabled=busy;b.addEventListener('click',()=>{interval=value;render();element.querySelector(`[data-billing-interval="${value}"]`).focus();});options.append(b);}

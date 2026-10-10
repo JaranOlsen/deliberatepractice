@@ -29,8 +29,8 @@ export function createHostedStore({url, secretKey, fetcher = fetch}) {
     catch {throw new PilotError('access_unavailable',503);}
     if (!response.ok) {
       let message; try {message=(await response.json()).message;} catch {}
-      const code = ['usage_limit','admin_required','attempt_conflict','invalid_attempt'].includes(message) ? message : 'access_unavailable';
-      throw new PilotError(code, code==='usage_limit'?429:code==='admin_required'?403:code==='attempt_conflict'?409:503);
+      const code = ['usage_limit','credits_exhausted','full_access_required','assessment_expired','admin_required','attempt_conflict','invalid_attempt'].includes(message) ? message : 'access_unavailable';
+      throw new PilotError(code, code==='usage_limit'?429:code==='credits_exhausted'?402:code==='admin_required'?403:['attempt_conflict','assessment_expired'].includes(code)?409:503);
     }
     // PostgREST can return an empty successful body for void RPCs.
     try {const text=await response.text();return text?JSON.parse(text):null;}
@@ -38,17 +38,19 @@ export function createHostedStore({url, secretKey, fetcher = fetch}) {
   }
   const args = (userId,attemptId,action) => ({input_user_id:userId,input_attempt_id:attemptId,input_action:action});
   return {
+    balance: userId=>rpc('get_ai_credit_balance',{input_user:userId}),
+    async contentAccess(userId,caseId){if(await rpc('check_ai_content_access',{input_user:userId,input_case:caseId})!==true)throw new PilotError('full_access_required',403);},
     reserve: userId => rpc('reserve_ai_call',{input_user_id:userId}),
-    begin: (userId,attemptId,action,signature) => rpc('begin_ai_attempt',{...args(userId,attemptId,action),input_signature:signature}),
+    begin: (userId,attemptId,action,signature) => rpc('begin_ai_credit_operation',{...args(userId,attemptId,action),input_signature:signature}),
     complete: async (userId,attemptId,action,lease,result) => {
-      if (await rpc('finish_ai_attempt',{...args(userId,attemptId,action),input_lease:lease,input_result:result}) !== true) throw new PilotError('attempt_pending',409);
+      if (await rpc('finish_ai_credit_operation',{...args(userId,attemptId,action),input_lease:lease,input_result:result}) !== true) throw new PilotError('attempt_pending',409);
     },
-    abort: (userId,attemptId,action,lease) => rpc('abort_ai_attempt',{...args(userId,attemptId,action),input_lease:lease}),
+    abort: (userId,attemptId,action,lease) => rpc('abort_ai_credit_operation',{...args(userId,attemptId,action),input_lease:lease}),
     async read(userId,attemptId,action) {
-      const query = new URLSearchParams({user_id:`eq.${userId}`,attempt_id:`eq.${attemptId}`,action:`eq.${action}`,
-        expires_at:`gt.${new Date().toISOString()}`,select:'result',limit:'1'});
+      const query = new URLSearchParams({user_id:`eq.${userId}`,request_id:`eq.${attemptId}`,action:`eq.${action}`,state:'eq.complete',
+        result_until:`gt.${new Date().toISOString()}`,select:'result',limit:'1'});
       let response;
-      try {response=await fetcher(`${url}/rest/v1/ai_attempt_cache?${query}`,{headers,signal:AbortSignal.timeout(10000)});}
+      try {response=await fetcher(`${url}/rest/v1/ai_credit_operations?${query}`,{headers,signal:AbortSignal.timeout(10000)});}
       catch {throw new PilotError('access_unavailable',503);}
       if (!response.ok) throw new PilotError('access_unavailable',503);
       return (await response.json())[0]?.result ?? null;

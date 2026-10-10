@@ -2716,3 +2716,15 @@ body:is([data-section="practice"], [data-section="room"], [data-section="mastery
     padding-bottom: calc(var(--practice-actions-height, 96px) + 16px);
   }
 }
+
+.ai-credit-section { display:grid; gap:.6rem; padding-top:1rem; border-top:1px solid var(--border-color,#dfe5e3); }
+.ai-credit-section[hidden] { display:none; }
+.ai-credit-section h4,.ai-credit-section p { margin:0; }
+.ai-credit-balance { font-size:1.35rem; font-variant-numeric:tabular-nums; }
+.ai-credit-pack-options { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.6rem; margin:.7rem 0; }
+.ai-credit-pack-options button { display:flex; flex-direction:column; gap:.25rem; white-space:normal; padding:.7rem .5rem; }
+.ai-credit-costs dl { display:grid; gap:.4rem; margin:.6rem 0; }
+.ai-credit-costs dl>div { display:flex; justify-content:space-between; gap:.7rem; }
+.ai-credit-costs dd { margin:0; font-variant-numeric:tabular-nums; }
+.ai-credit-counter { margin-left:auto; font-size:.85rem; white-space:nowrap; }
+.ai-practice .panel-header { flex-wrap:wrap; gap:.5rem; }
