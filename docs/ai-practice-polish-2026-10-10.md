@@ -95,9 +95,24 @@ spoken pipeline, free clip replay, explicit regeneration, pause/reload recovery,
 first/coached history, cancelled startup, enlarged text and checkout refresh.
 Existing sign-in/subscription and credit-exhaustion phone probes also pass.
 
-The final real Stripe sandbox paid lifecycle needs a sandbox key in ignored
-`.env.billing.polish.local`. The file currently has no key; the live key is not
-used for simulated payments, and no production Stripe/Supabase settings have
-been changed by this branch. Production release remains pending that check.
+Real Stripe sandbox lifecycle checks passed on October 11 using the production
+billing service and an isolated PGlite database. Annual hosted Checkout granted
+120 credits for the current month, and both 120/360-credit packs fulfilled from
+signed webhooks. Lost-response checkout replay reused the same session. Duplicate
+paid/refund events did not add or revoke credits twice. Non-admin spending used
+included credits first; purchased credits remained usable after cancellation.
+Partial and full refunds affected only their purchased pack. Stripe test clocks
+verified a successful monthly renewal extends paid access and a failed renewal
+does not grant an unpaid period. No live charges or production access changes
+were used for these tests. Test customers/subscriptions are deleted at cleanup.
+
+Repeat the checks with a test key in ignored `.env.billing.polish.local`:
+`node --env-file=.env.billing.polish.local scripts/check-billing-sandbox.mjs --sandbox`.
+Complete its three isolated hosted test Checkouts, then use its `/verify/*` routes
+in the documented sequence in the script. Automated renewals use the additional
+`--renewals` flag. The test harness forwards real signed Stripe CLI events and
+never connects to production Supabase. Live configuration and approved prices
+are unchanged. Release requires both new migrations and both Edge deployments
+with the matching frontend.
 
 Cost estimate and measured samples: [API cost of 100 credits](ai-credit-api-cost-2026-10-10.md).
