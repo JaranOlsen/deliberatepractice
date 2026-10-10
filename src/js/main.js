@@ -1,4 +1,5 @@
 import {setHeaderControl} from './headerUI.js';
+import {visibleScreenBounds, screenSafeInsets} from './screenViewport.js';
 import {createAppTour} from './appTour.js';
 import {createAiPractice} from './aiPractice.js';
 import {createMasteryPractice, supportsMastery} from "./masteryPractice.js";
@@ -2649,12 +2650,18 @@ function positionGlossaryCard(chip) {
   if (!elements.glossaryCard || !chip) return;
   const card = elements.glossaryCard;
   const rect = chip.getBoundingClientRect();
-  const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
-  const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+  const viewport = visibleScreenBounds();
+  const safe = screenSafeInsets();
+  const margin = 12;
+  const leftEdge = viewport.left + Math.max(margin, safe.left);
+  const rightEdge = viewport.right - Math.max(margin, safe.right);
+  const topEdge = Math.max(viewport.top + Math.max(margin, safe.top),
+    (document.querySelector('.app-header')?.getBoundingClientRect().bottom ?? 0) + 8);
+  const bottomEdge = viewport.bottom - Math.max(margin, safe.bottom);
 
   card.classList.add("is-floating");
   card.style.position = "fixed";
-  card.style.maxWidth = "min(360px, calc(100vw - 28px))";
+  card.style.maxWidth = `${Math.max(0, Math.min(360, rightEdge - leftEdge))}px`;
   card.style.visibility = "hidden";
 
   // Force layout to get size.
@@ -2662,19 +2669,14 @@ function positionGlossaryCard(chip) {
   const cardHeight = card.offsetHeight || 140;
 
   const horizontalCenter = rect.left + rect.width / 2;
-  let left = horizontalCenter - cardWidth / 2;
-  const margin = 12;
-  if (left < margin) left = margin;
-  if (left + cardWidth + margin > viewportWidth) {
-    left = viewportWidth - cardWidth - margin;
-  }
+  const left = Math.max(leftEdge, Math.min(horizontalCenter - cardWidth / 2, rightEdge - cardWidth));
 
   const preferredTop = rect.bottom + 8;
   let top = preferredTop;
-  if (preferredTop + cardHeight + margin > viewportHeight) {
+  if (preferredTop + cardHeight > bottomEdge) {
     top = rect.top - cardHeight - 8;
-    if (top < margin) top = margin;
   }
+  top = Math.max(topEdge, Math.min(top, bottomEdge - cardHeight));
 
   card.style.left = `${left}px`;
   card.style.top = `${top}px`;
@@ -4172,6 +4174,8 @@ function registerEventListeners() {
   }
 
   window.addEventListener("resize", refreshActiveGlossaryDefinition, { passive: true });
+  window.visualViewport?.addEventListener("resize", refreshActiveGlossaryDefinition, { passive: true });
+  window.visualViewport?.addEventListener("scroll", refreshActiveGlossaryDefinition, { passive: true });
   window.addEventListener("scroll", refreshActiveGlossaryDefinition, { passive: true });
 
   if (elements.statementPanel) {

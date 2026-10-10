@@ -16,6 +16,8 @@ async (page) => {
   for(const user of ['o','t','c','p']) {
     const context=await page.context().browser().newContext({viewport:{width:320,height:844}});contexts.push(context);
     const p=await context.newPage();pages.push(p);p.on('pageerror',e=>errors.push(e.message));
+    const device=await context.newCDPSession(p);
+    await device.send('Emulation.setSafeAreaInsetsOverride',{insets:{top:59,bottom:34,left:0,right:0}});
     await context.route('**/src/js/backend.js*',route=>route.fulfill({contentType:'text/javascript',body:`
       const user={id:'${users[user]}',email:'${user}@example.invalid'};
       export const getAiAccess=async()=>false;
@@ -96,7 +98,7 @@ async (page) => {
       await route.fulfill({status:response.status(),contentType:'application/json',body:await response.text()});
     });
     await context.addInitScript(()=>localStorage.setItem('dp_app_tour_v1',JSON.stringify({disabled:true})));
-    await p.goto(url);await p.waitForFunction(()=>document.querySelector('#account-button').textContent==='Account');
+    await p.goto(url);await p.waitForFunction(()=>document.querySelector('#account-button').getAttribute('aria-label')==='Account');
   }
   const [o,t,c,watcher]=pages;
   const click=async(p,id)=>{
@@ -127,6 +129,12 @@ async (page) => {
       await p.evaluate(()=>document.documentElement.style.fontSize='200%');
       const layout=await p.evaluate(()=>({width:document.documentElement.scrollWidth,viewport:innerWidth,overflow:[...document.querySelectorAll('body *')].filter(e=>e.getBoundingClientRect().width&&e.getBoundingClientRect().right>innerWidth+1).slice(0,10).map(e=>({id:e.id,class:e.className,parent:e.parentElement?.className}))}));
       assert(layout.width<=layout.viewport,stage+' fits 320px at 200% text: '+JSON.stringify(layout));
+      const safe=await p.evaluate(()=>{
+        const buttons=[...document.querySelectorAll('.room-actions button')].filter(e=>e.getClientRects().length);
+        const bottom=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--screen-safe-bottom'))||0;
+        return buttons.every(button=>button.getBoundingClientRect().bottom<=innerHeight-bottom+1);
+      });
+      assert(safe,stage+' action buttons clear the home indicator');
       await p.evaluate(()=>document.documentElement.style.fontSize='');
     }
   };
@@ -237,7 +245,7 @@ async (page) => {
       assert(rating.difficulty===level&&rating.case_id===caseId&&rating.skill_id===skillId,'Focused observer ratings retain the case, skill and room level');
       assert(JSON.stringify(rating.completed_statement_ids)===JSON.stringify(order.slice(set*3,set*3+3).filter((_,i)=>!(set===1&&i===1))),'Rating IDs exclude prior sets and passes');
       if(set===1) {
-        await o.reload();await o.waitForFunction(()=>document.querySelector('#account-button').textContent==='Account');
+        await o.reload();await o.waitForFunction(()=>document.querySelector('#account-button').getAttribute('aria-label')==='Account');
         await o.locator('input[name=practice-mode][value=individual]').check();
         assert(await o.locator('#group-resume').isVisible(),'Saved room recovery is available even with individual format selected');
         assert(await o.locator('#last-setup-card').isHidden(),'Saved room takes priority over repeat material');

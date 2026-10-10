@@ -1,6 +1,19 @@
 /* Base reset and variables */
 :root {
   color-scheme: light;
+  --screen-safe-top: env(safe-area-inset-top, 0px);
+  --screen-safe-right: env(safe-area-inset-right, 0px);
+  --screen-safe-bottom: env(safe-area-inset-bottom, 0px);
+  --screen-safe-left: env(safe-area-inset-left, 0px);
+  --screen-height: 100vh;
+  --visible-screen-height: var(--screen-height);
+  --visible-screen-top: 0px;
+  --visible-screen-bottom: 0px;
+  --dialog-gap: 16px;
+  --dialog-top: max(var(--dialog-gap), var(--screen-safe-top));
+  --dialog-bottom: max(var(--dialog-gap), var(--screen-safe-bottom));
+  --page-gutter: 20px;
+  --page-max-width: 720px;
   --color-bg: #f6f8f7;
   --color-panel: #ffffff;
   --color-text: #111827;
@@ -136,7 +149,7 @@ button {
   gap: 1.5rem;
   padding: 1.5rem 1.25rem 3.5rem;
   margin: 0 auto;
-  max-width: 720px;
+  max-width: var(--page-max-width);
   width: 100%;
 }
 
@@ -2477,8 +2490,13 @@ body[data-section="mastery"] .mastery-panel { padding-bottom:calc(9rem + env(saf
 }
 
 /* One compact navigation row remains available in every practice mode. */
+.app-header,
 body[data-section] .app-header {
-  padding: 12px;
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  padding: max(12px, var(--screen-safe-top)) max(12px, var(--screen-safe-right))
+    12px max(12px, var(--screen-safe-left));
 }
 body[data-section] .app-header-inner {
   display: flex;
@@ -2636,3 +2654,65 @@ body .account-controls .header-pill {
 .subscription-renewal{font-size:.9rem;color:var(--color-muted);margin:10px 0;line-height:1.45}
 .subscription-legal{display:flex;gap:16px;flex-wrap:wrap}
 .subscription-legal a{min-height:44px;display:inline-flex;align-items:center;color:var(--color-accent);text-underline-offset:3px}
+
+/* The browser supplies the device insets; ordinary rectangular screens keep their spacing. */
+@supports (height: 100dvh) {
+  :root { --screen-height: 100dvh; }
+}
+@media (min-width: 768px) {
+  :root { --page-gutter: 32px; }
+}
+@media (max-width: 520px) {
+  :root { --page-gutter: 12px; --dialog-gap: 12px; }
+}
+@media (max-height: 500px) and (orientation: landscape) {
+  :root { --page-gutter: 12px; --dialog-gap: 12px; }
+}
+html { scroll-padding-top: calc(var(--screen-header-height, 68px) + 12px); }
+body { height: auto; min-height: var(--screen-height); }
+.app-main,
+body:is([data-section="practice"], [data-section="room"], [data-section="mastery"]) .app-main {
+  /* Centered page margins may already clear the cutout in landscape. */
+  padding-left: max(var(--page-gutter), calc(var(--screen-safe-left) - max(0px, (100vw - var(--page-max-width)) / 2)));
+  padding-right: max(var(--page-gutter), calc(var(--screen-safe-right) - max(0px, (100vw - var(--page-max-width)) / 2)));
+}
+.app-footer {
+  padding-left: max(20px, var(--screen-safe-left));
+  padding-right: max(20px, var(--screen-safe-right));
+  padding-bottom: max(40px, var(--screen-safe-bottom));
+}
+.account-overlay, .rating-overlay, .paywall-overlay {
+  inset: var(--visible-screen-top) 0 auto;
+  height: var(--visible-screen-height);
+  padding: var(--dialog-top) max(var(--dialog-gap), var(--screen-safe-right))
+    var(--dialog-bottom) max(var(--dialog-gap), var(--screen-safe-left));
+}
+.account-modal, .rating-panel, .paywall-modal {
+  max-width: 100%;
+  max-height: calc(var(--visible-screen-height) - var(--dialog-top) - var(--dialog-bottom));
+  overscroll-behavior: contain;
+}
+.account-modal {
+  max-height: min(760px, calc(var(--visible-screen-height) - var(--dialog-top) - var(--dialog-bottom)));
+}
+.glossary-card.is-floating {
+  min-width: min(220px, calc(100vw - max(12px, var(--screen-safe-left)) - max(12px, var(--screen-safe-right))));
+  max-height: calc(var(--visible-screen-height) - var(--screen-header-height, 68px) - max(12px, var(--screen-safe-bottom)) - 12px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+@media (max-width: 640px) {
+  .room-actions {
+    bottom: var(--visible-screen-bottom);
+    padding-left: max(.9rem, var(--screen-safe-left));
+    padding-right: max(.9rem, var(--screen-safe-right));
+    padding-bottom: max(.65rem, var(--screen-safe-bottom));
+    max-height: calc(var(--visible-screen-height) - var(--screen-header-height, 68px));
+    overflow-y: auto;
+  }
+  .room-panel:has(#room-actions:not([hidden])),
+  .room-panel:has(#room-save:not([hidden])),
+  body[data-section="mastery"] .mastery-panel {
+    padding-bottom: calc(var(--practice-actions-height, 96px) + 16px);
+  }
+}
