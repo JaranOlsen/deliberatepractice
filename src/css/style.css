@@ -2633,3 +2633,6 @@ body .account-controls .header-pill {
   .ai-round-scores { gap: .6rem; }
   .ai-score-card { padding: .8rem; }
 }
+.subscription-renewal{font-size:.9rem;color:var(--color-muted);margin:10px 0;line-height:1.45}
+.subscription-legal{display:flex;gap:16px;flex-wrap:wrap}
+.subscription-legal a{min-height:44px;display:inline-flex;align-items:center;color:var(--color-accent);text-underline-offset:3px}

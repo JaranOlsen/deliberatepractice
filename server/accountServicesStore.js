@@ -23,8 +23,8 @@ export function createAccountStore({url,secretKey,fetcher=fetch}) {
   apply:value=>request('rpc/apply_billing_snapshot',{method:'POST',body:{input_event:value.eventId,input_live:value.live,input_type:value.eventType,
     input_subscription:value.subscriptionId,input_customer:value.customer,input_price:value.priceId,input_status:value.status,input_interval:value.interval,
     input_paid_through:value.paidThrough,input_cancel:value.cancelAtPeriodEnd,input_observed:value.observed}}),
-  risk:value=>request('rpc/apply_billing_risk',{method:'POST',body:{input_event:value.eventId,input_live:value.live,input_type:value.eventType,
-    input_customer:value.customer,input_reason:value.reason,input_hold:value.hold,input_observed:value.observed}})
+  risk:value=>request('rpc/apply_billing_payment_risk',{method:'POST',body:{input_event:value.eventId,input_live:value.live,input_type:value.eventType,
+    input_customer:value.customer,input_subscription:value.subscriptionId,input_source:value.sourceId,input_reason:value.reason,input_hold:value.hold,input_period_end:value.periodEnd,input_observed:value.observed}})
  };
 }
 

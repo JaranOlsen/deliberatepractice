@@ -1,4 +1,5 @@
 import {BILLING_PROTOCOL,FULL_ACCESS_PRICES} from '../data/subscriptionPlans.js';
+import {BILLING_LEGAL_URLS} from '../data/billingBusiness.js';
 
 const COPY={en:{title:'Full access',month:'Monthly',year:'Yearly',perMonth:'per month',perYear:'per year',benefit:'All cases and group hosting',subscribe:'Subscribe',manage:'Manage subscription',test:'Test checkout',working:'Opening checkout…',checking:'Checking your subscription…',pending:'Payment hasn’t been confirmed yet. Refresh your access in a moment.',refresh:'Refresh access',cancelled:'Checkout was cancelled.',signin:'Sign in above to subscribe.',renews:'Access until {date}',cancel:'Ends on {date}',error:'Checkout could not open. Try again.',notReady:'Subscriptions aren’t ready yet.',attention:'Your subscription needs attention.',active:'Subscription active'},
  no:{title:'Full tilgang',month:'Månedlig',year:'Årlig',perMonth:'per måned',perYear:'per år',benefit:'Alle kasus og vertstilgang for grupper',subscribe:'Abonner',manage:'Administrer abonnement',test:'Testbetaling',working:'Åpner betaling …',checking:'Sjekker abonnementet …',pending:'Betalingen er ikke bekreftet ennå. Oppdater tilgangen om litt.',refresh:'Oppdater tilgang',cancelled:'Betalingen ble avbrutt.',signin:'Logg inn ovenfor for å abonnere.',renews:'Tilgang til {date}',cancel:'Avsluttes {date}',error:'Kunne ikke åpne betalingen. Prøv igjen.',notReady:'Abonnement er ikke tilgjengelig ennå.',attention:'Abonnementet trenger oppfølging.',active:'Abonnementet er aktivt'}};
@@ -19,6 +20,9 @@ export function createSubscriptionView({container,api,getUser,getLanguage,getAcc
  let status=null,interval='month',busy=false,message='',generation=0;
  COPY.en.busyCheckout='Checkout is already opening. Try again in a moment.';
  COPY.no.busyCheckout='Betalingen er allerede på vei til å åpnes. Prøv igjen om litt.';
+ COPY.en.ended='Subscription ended.';COPY.no.ended='Abonnementet er avsluttet.';
+ COPY.en.paused='Subscription access is paused. Contact support.';COPY.no.paused='Abonnementstilgangen er satt på pause. Kontakt kundestøtte.';
+ COPY.en.payment='Manage your subscription to resolve the payment.';COPY.no.payment='Åpne abonnementsadministrasjonen for å ordne betalingen.';
  const c=()=>COPY[getLanguage()==='no'?'no':'en'];
  const money=amount=>new Intl.NumberFormat(getLanguage()==='no'?'nb-NO':'en-GB',{style:'currency',currency:'NOK',maximumFractionDigits:0}).format(amount/100);
  function render() {
@@ -27,19 +31,22 @@ export function createSubscriptionView({container,api,getUser,getLanguage,getAcc
   element.append(node('h4',c().title));
   if(status?.mode==='test')element.append(node('span',c().test,'subscription-test-badge'));
   if(subscription) {
-   const paid=Date.parse(subscription.paid_through)>Date.now(),date=paid?new Date(subscription.paid_through).toLocaleDateString(getLanguage()==='no'?'nb-NO':'en-GB'):'';
-   element.append(node('p',subscription.access_paused||!paid?c().attention:subscription.cancel_at_period_end?c().cancel.replace('{date}',date):c().renews.replace('{date}',date)));
+   const paid=Date.parse(subscription.paid_through)>Date.now()&&['active','past_due'].includes(subscription.status),date=paid?new Date(subscription.paid_through).toLocaleDateString(getLanguage()==='no'?'nb-NO':'en-GB'):'';
+   element.append(node('p',subscription.access_paused?c().paused:['past_due','unpaid','incomplete','paused'].includes(subscription.status)?c().payment:!paid?c().ended:subscription.cancel_at_period_end?c().cancel.replace('{date}',date):c().renews.replace('{date}',date)));
    if(status?.portalAvailable){const manage=node('button',c().manage,'ghost-button');manage.type='button';manage.id='billing-manage';manage.disabled=busy;manage.addEventListener('click',()=>void openPortal());element.append(manage);}
   }
-  if(!subscription || Date.parse(subscription.paid_through)<=Date.now() || ['canceled','unpaid','incomplete_expired'].includes(subscription.status)) {
+  if(!subscription || ['canceled','incomplete_expired'].includes(subscription.status)) {
    element.append(node('p',c().benefit,'response-hint'));
    const options=node('div','','subscription-options');options.setAttribute('role','group');options.setAttribute('aria-label',c().title);
    for(const value of ['month','year']){const b=node('button','','ghost-button');b.type='button';b.dataset.billingInterval=value;b.setAttribute('aria-pressed',String(interval===value));
     b.append(node('span',c()[value]),node('strong',money(FULL_ACCESS_PRICES[value])));b.disabled=busy;b.addEventListener('click',()=>{interval=value;render();element.querySelector(`[data-billing-interval="${value}"]`).focus();});options.append(b);}
    element.append(options);
+   element.append(node('p',getLanguage()==='no'?`Fornyes automatisk ${interval==='month'?'hver måned':'hvert år'}. Si opp når som helst.`:`Renews automatically ${interval==='month'?'monthly':'yearly'}. Cancel anytime.`,'subscription-renewal'));
    if(user){const b=node('button',busy?c().working:c().subscribe,'primary-button');b.type='button';b.id='billing-subscribe';b.disabled=busy;b.addEventListener('click',()=>void subscribe());element.append(b);}
    else element.append(node('p',c().signin,'response-hint'));
   }
+  const links=node('nav','','subscription-legal');links.setAttribute('aria-label',getLanguage()==='no'?'Vilkår og personvern':'Terms and privacy');
+  for(const [key,label] of [['terms',getLanguage()==='no'?'Vilkår':'Terms'],['privacy',getLanguage()==='no'?'Personvern':'Privacy']]){const link=node('a',label);link.href=`${BILLING_LEGAL_URLS[key]}?lang=${getLanguage()==='no'?'no':'en'}`;link.target='_blank';link.rel='noopener';links.append(link);}element.append(links);
   const note=node('p',c()[message]||'', 'form-status');note.id='billing-status';note.setAttribute('role','status');note.hidden=!message;element.append(note);
   if(message==='pending'){const b=node('button',c().refresh,'ghost-button');b.type='button';b.id='billing-refresh';b.addEventListener('click',()=>void checkReturn());element.append(b);}
  }

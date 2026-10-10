@@ -13,7 +13,7 @@ try{
  const customer=row.data.customer_id,list=await stripe(`subscriptions?customer=${customer}&status=all&limit=100`);
  let subscription=list.data.find(item=>item.status==='active'&&item.livemode===false&&item.items.data[0].price.id===process.env.STRIPE_PRICE_YEARLY);
  if(!subscription){
-  const setup=await stripe('setup_intents',{customer,payment_method:'pm_card_visa','payment_method_types[]':'card',usage:'off_session',confirm:'true'});assert.equal(setup.status,'succeeded');
+  const setup=await stripe('setup_intents',{customer,payment_method:'pm_card_visa','automatic_payment_methods[enabled]':'true','automatic_payment_methods[allow_redirects]':'never',usage:'off_session',confirm:'true'});assert.equal(setup.status,'succeeded');
   subscription=await stripe('subscriptions',{customer,'items[0][price]':process.env.STRIPE_PRICE_YEARLY,default_payment_method:setup.payment_method,payment_behavior:'error_if_incomplete','metadata[app_user_id]':account.userId});
  }
  assert.equal(subscription.livemode,false);assert.equal(subscription.status,'active');

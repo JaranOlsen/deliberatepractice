@@ -1773,6 +1773,7 @@ function renderAuthUI() {
   }
   renderProfilePlacement();
   document.getElementById('account-code-summary').textContent=SIGNIN_COPY[no?'no':'en'].access;
+  for(const [key,label] of [['terms',no?'Vilkår':'Terms'],['privacy',no?'Personvern':'Privacy']]){const link=document.getElementById('app-'+key);link.textContent=label;link.href=`${key}.html?lang=${no?'no':'en'}`;}
   emailSignIn.render();
   subscriptionView.render();
   renderPracticeFormatUI();
