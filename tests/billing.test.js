@@ -108,3 +108,9 @@ test('payment endpoint authorization precedes providers, errors stay bounded and
  const response=await handler(new Request('https://fixture.invalid/checkout',{method:'POST',headers:{Origin:'https://jaranolsen.github.io'},body:'{}'}));
  assert.equal(response.status,503);assert.deepEqual(await response.json(),{error:'request_failed'});assert.equal(calls,0);
 });
+
+test('a delayed token lookup cannot open checkout for a different signed-in account',async()=>{
+ const {createBillingApi}=await import('../src/js/subscription.js');let owner=user.id,resolve,calls=0;
+ const pending=new Promise(r=>resolve=r);const api=createBillingApi({base:'https://fixture.invalid',getUserId:()=>owner,getToken:()=>pending,publishableKey:'fixture',fetcher:async()=>{calls++;}});
+ const result=api.creditCheckout({pack:'small',attemptId:input.attemptId,languageId:'en'});owner='72000000-0000-4000-8000-000000000003';resolve('new-account-token');await assert.rejects(result,/sign_in_required/);assert.equal(calls,0);
+});

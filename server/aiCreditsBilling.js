@@ -23,6 +23,11 @@ export function createCreditBilling({store,provider,requireReady,configure,ensur
   return {protocol:BILLING_PROTOCOL,creditsProtocol:AI_CREDITS_PROTOCOL,...balance,
    packs:config.ai_credits_enabled?(await packs()).filter(p=>p.price).map(p=>({key:p.pack_key,credits:p.credits,amount:p.amount})):[]};
  }
+ async function usage(user){
+  if(!uuid(user?.id)||!user.email_confirmed_at||user.is_anonymous)throw new BillingError('sign_in_required',401);
+  if(!await store.isAiAdmin(user.id))throw new BillingError('admin_required',403);
+  return {protocol:BILLING_PROTOCOL,...await store.aiUsage()};
+ }
  async function checkout(user,input) {
   await requireReady(user);
   if(!input||Object.keys(input).some(k=>!['pack','attemptId','languageId'].includes(k))||!AI_CREDIT_PACKS[input.pack]||!uuid(input.attemptId)||!['en','no'].includes(input.languageId))throw new BillingError('invalid_plan');
@@ -81,5 +86,5 @@ export function createCreditBilling({store,provider,requireReady,configure,ensur
   await store.applyCreditRisk({eventId:event.id,live,eventType:event.type,customer:checked.customer,payment,source,reason,hold,
    refunded:reason==='refund'?Math.min(checked.pack.credits,Math.ceil(checked.pack.credits*charge.amount_refunded/charge.amount)):0,observed:new Date(now()).toISOString()});return true;
  }
- return {credits,checkout,fulfill,risk};
+ return {credits,checkout,fulfill,risk,usage};
 }

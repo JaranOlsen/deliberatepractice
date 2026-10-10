@@ -13,6 +13,7 @@ export function createPilotHandler(service, {origins = ['http://127.0.0.1:5173',
     try {
       const userId = authorize ? await authorize(request) : 'local';
       if (request.method === 'GET' && action === 'status') return json({...service.status(),credits:await service.creditBalance?.(userId)??null});
+      if(request.method==='GET'&&action==='history')return json(await service.history(userId));
       if (request.method !== 'POST') return json({error: 'not_found'}, 404);
       // Enforce the same bound in hosted runtimes before multipart/JSON parsing.
       if (Number(request.headers.get('content-length'))>6200000) throw new PilotError('request_too_large',413);
@@ -36,6 +37,8 @@ export function createPilotHandler(service, {origins = ['http://127.0.0.1:5173',
       }
       if (!request.headers.get('content-type')?.startsWith('application/json')) throw new PilotError('invalid_request');
       const value = await request.json();
+      if(action==='recover-transcript')return json(await service.recoverTranscript(userId,value?.requestId));
+      if(action==='delete-history')return json(await service.deleteHistory(userId,value?.roundId));
       if (action === 'assess') return json(await service.assess(value,userId));
       if (action === 'speech') return new Response(await service.speech(value,userId), {headers: {...headers, 'Content-Type': 'audio/mpeg'}});
       return json({error: 'not_found'}, 404);

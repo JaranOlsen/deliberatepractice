@@ -4,6 +4,7 @@ import {createHmac} from 'node:crypto';
 import {createBillingService} from '../server/billingService.js';
 import {createAiService,PilotError} from '../server/aiPracticeService.js';
 import {AI_PROTOCOL} from '../src/js/aiPracticeProtocol.js';
+import {encodePracticeWav} from '../src/js/aiPracticeDelivery.js';
 import {AI_CREDIT_PACKS,AI_CREDIT_COSTS} from '../src/data/aiCredits.js';
 const user={id:'85000000-0000-4000-8000-000000000001',email:'credits@example.invalid',email_confirmed_at:'2026-10-10T00:00Z'};
 const attemptId='85000000-0000-4000-8000-000000000002',now=()=>Date.parse('2026-10-10T12:00Z');
@@ -70,7 +71,7 @@ test('failed provider result releases credits; exhaustion prevents any provider 
 });
 test('transcription and synthetic voice replays carry durable request identities and debit once',async()=>{
  const f=creditStoreFixture(4);let calls=0;const create=()=>createAiService({apiKey:'fixture',enabled:true,loadContext:()=>context,attemptStore:f.store,fetcher:async(url)=>{calls++;return url.endsWith('transcriptions')?Response.json({text:'You miss him.'}):new Response(new Uint8Array([1,2,3]));}});
- const a=create(),b=create(),file=new Blob([new Uint8Array(200)],{type:'audio/mp4'});
+ const a=create(),b=create(),file=new Blob([encodePracticeWav(new Float32Array(32000),16000)],{type:'audio/wav'});
  await a.transcribe(file,'en',user.id,attemptId);await b.transcribe(file,'en',user.id,attemptId);
  const clip={role:'client',languageId:'en',skillId:attempt.skillId,caseId:attempt.caseId,statementId:'statement',revision:context.revision,requestId:attemptId};
  assert.deepEqual(await a.speech(clip,user.id),await b.speech(clip,user.id));assert.equal(calls,2);assert.equal(f.getBalance(),2);
@@ -81,4 +82,11 @@ test('credits never bypass premium case access or trigger a paid provider call f
  let calls=0;const f=creditStoreFixture(2);f.store.contentAccess=async()=>{throw new PilotError('full_access_required',403);};
  const pilot=createAiService({apiKey:'fixture',enabled:true,loadContext:()=>context,attemptStore:f.store,fetcher:async()=>{calls++;}});
  await assert.rejects(pilot.assess(attempt,user.id),/full_access_required/);assert.equal(calls,0);assert.equal(f.getBalance(),2);
+});
+
+test('expired supervisor speech is regenerated from own verified history, with the wording score and delivery note',async()=>{
+ let sent;const store={read:async()=>null,historyAttempt:async uid=>uid===user.id?{language_id:'en',kind:'retry',model:'fixture',assessable:true,score:5,strength:'Verified strength.',adjustment:'Verified target.',limitation:'',delivery_strength:'Audible strength.',delivery_adjustment:'Audible target.'}:null,begin:async()=>({state:'acquired',lease:attemptId}),complete:async()=>{},abort:async()=>{},reserve:async()=>{}};
+ const pilot=createAiService({apiKey:'fixture',enabled:true,loadContext:()=>context,attemptStore:store,fetcher:async(url,init)=>{sent=JSON.parse(init.body);return new Response(new Uint8Array([1,2,3]));}});
+ await pilot.speech({role:'supervisor',attemptId,requestId:attemptId,includeDelivery:true},user.id);assert.match(sent.input,/AI rating: 5 out of 5/);assert.match(sent.input,/Audible strength/);
+ await assert.rejects(pilot.speech({role:'supervisor',attemptId,requestId:attemptId},attemptId),/assessment_expired/);
 });

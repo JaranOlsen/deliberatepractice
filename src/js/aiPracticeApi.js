@@ -1,11 +1,11 @@
 import {AI_PROTOCOL, AI_RUBRIC, AI_PROMPT, scriptedFeedback, validateAssessment} from './aiPracticeProtocol.js';
 import {AI_DELIVERY_VERSION,validateDelivery} from './aiPracticeDelivery.js';
 
-export function createAiPracticeApi({base = '/api/ai-practice', fetcher = fetch, getAccessToken = null, publishableKey = null} = {}) {
+export function createAiPracticeApi({base = '/api/ai-practice', fetcher = fetch, getAccessToken = null, getUserId=null,publishableKey = null} = {}) {
   async function request(action, body, signal) {
     const headers={...(body && !(body instanceof FormData)?{'Content-Type':'application/json'}:{}),...(publishableKey?{apikey:publishableKey}:{})};
     if(getAccessToken) {
-      const token=await getAccessToken();if(!token)throw new Error('sign_in_required');headers.Authorization=`Bearer ${token}`;
+      const owner=getUserId?.(),token=await getAccessToken(owner);if(!token||getUserId&&owner!==getUserId())throw new Error('sign_in_required');headers.Authorization=`Bearer ${token}`;
     }
     const response = await fetcher(`${base}/${action}`, {method: body ? 'POST' : 'GET',
       headers,...(body ? {body: body instanceof FormData ? body : JSON.stringify(body)} : {}),
@@ -17,6 +17,9 @@ export function createAiPracticeApi({base = '/api/ai-practice', fetcher = fetch,
     return response;
   }
   return {
+    async recoverTranscript(requestId){const data=await(await request('recover-transcript',{requestId})).json();if(data.protocol!==AI_PROTOCOL)throw new Error('access_unavailable');return data;},
+    async history(){const data=await(await request('history')).json();if(data.protocol!==AI_PROTOCOL||!Array.isArray(data.attempts))throw new Error('access_unavailable');return data.attempts;},
+    async deleteHistory(roundId){return (await request('delete-history',{roundId})).json();},
     async status() {
       try {const data = await (await request('status')).json(); return data.protocol === AI_PROTOCOL ? data : {mode: 'unconfigured'};}
       catch (error) {
@@ -34,7 +37,7 @@ export function createAiPracticeApi({base = '/api/ai-practice', fetcher = fetch,
       validateAssessment(data.result, value.text); return data;
     },
     async transcribe(blob, languageId, signal, requestId=crypto.randomUUID()) {
-      const form = new FormData(); form.append('file', blob, blob.type.includes('mp4') ? 'attempt.mp4' : 'attempt.webm'); form.append('languageId', languageId);
+      const form = new FormData(); form.append('file', blob, blob.type.includes('wav')?'attempt.wav':blob.type.includes('mp4')?'attempt.mp4':'attempt.webm'); form.append('languageId', languageId);
       form.append('requestId',requestId);
       return (await request('transcribe', form, signal)).json();
     },

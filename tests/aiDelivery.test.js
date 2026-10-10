@@ -93,3 +93,9 @@ test('hosted storage accepts empty successful bodies for void RPCs',async()=>{
   assert.equal(await store.reserve(owner),null);
   assert.equal(await store.abort(owner,owner,'assess','lease'),null);
 });
+
+test('persisted rounds bind delivery review to the same round and history choice',async()=>{
+ const pilot=service();const linked={...attempt,roundId:other,saveHistory:true};await pilot.assess(linked,owner);
+ const note=await pilot.delivery(linked,wav(),owner);assert.equal(note.result.audibility,'clear');
+ await assert.rejects(pilot.delivery({...linked,roundId:owner},wav(),owner),/attempt_conflict/);
+});

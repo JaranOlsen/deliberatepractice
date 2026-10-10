@@ -3,21 +3,21 @@ import {BILLING_LEGAL_URLS} from '../data/billingBusiness.js';
 
 const COPY={en:{title:'Full access',month:'Monthly',year:'Yearly',perMonth:'per month',perYear:'per year',benefit:'All cases and group hosting',subscribe:'Subscribe',manage:'Manage subscription',test:'Test checkout',working:'Opening checkout…',checking:'Checking your subscription…',pending:'Payment hasn’t been confirmed yet. Refresh your access in a moment.',refresh:'Refresh access',cancelled:'Checkout was cancelled.',signin:'Sign in above to subscribe.',renews:'Access until {date}',cancel:'Ends on {date}',error:'Checkout could not open. Try again.',notReady:'Subscriptions aren’t ready yet.',attention:'Your subscription needs attention.',active:'Subscription active'},
  no:{title:'Full tilgang',month:'Månedlig',year:'Årlig',perMonth:'per måned',perYear:'per år',benefit:'Alle kasus og vertstilgang for grupper',subscribe:'Abonner',manage:'Administrer abonnement',test:'Testbetaling',working:'Åpner betaling …',checking:'Sjekker abonnementet …',pending:'Betalingen er ikke bekreftet ennå. Oppdater tilgangen om litt.',refresh:'Oppdater tilgang',cancelled:'Betalingen ble avbrutt.',signin:'Logg inn ovenfor for å abonnere.',renews:'Tilgang til {date}',cancel:'Avsluttes {date}',error:'Kunne ikke åpne betalingen. Prøv igjen.',notReady:'Abonnement er ikke tilgjengelig ennå.',attention:'Abonnementet trenger oppfølging.',active:'Abonnementet er aktivt'}};
-export function createBillingApi({base,getToken,publishableKey,fetcher=fetch}) {
+export function createBillingApi({base,getToken,getUserId,publishableKey,fetcher=fetch}) {
  async function call(action,body) {
-  const token=await getToken();if(body&&!token)throw Error('sign_in_required');
+  const owner=getUserId?.(),token=await getToken(owner);if(body&&(!token||getUserId&&owner!==getUserId()))throw Error('sign_in_required');
   const response=await fetcher(`${base}/${action}`,{method:body?'POST':'GET',headers:{apikey:publishableKey,
    ...(token?{Authorization:`Bearer ${token}`}:{Authorization:`Bearer ${publishableKey}`}),...(body?{'Content-Type':'application/json'}:{})},
    ...(body?{body:JSON.stringify(body)}:{}),signal:AbortSignal.timeout(65000)});
   const value=await response.json();if(!response.ok)throw Error(value.error||'billing_unavailable');
   if(value.protocol!==BILLING_PROTOCOL)throw Error('billing_unavailable');return value;
  }
- return {status:()=>call('status'),checkout:body=>call('checkout',body),portal:languageId=>call('portal',{languageId}),credits:()=>call('credits',{}),creditCheckout:body=>call('credit-checkout',body)};
+ return {status:()=>call('status'),checkout:body=>call('checkout',body),portal:languageId=>call('portal',{languageId}),credits:()=>call('credits',{}),aiUsage:()=>call('ai-usage',{}),creditCheckout:body=>call('credit-checkout',body)};
 }
 export function createSubscriptionView({container,api,getUser,getLanguage,getAccess,isAiAdmin,refreshAccess}) {
  const node=(tag,text='',className='')=>{const e=document.createElement(tag);e.textContent=text;e.className=className;return e;};
  const element=node('section','','subscription-section');element.id='billing-section';container.prepend(element);
- let status=null,interval='month',busy=false,message='',generation=0;
+ let status=null,interval='month',busy=false,message='',generation=0,statusGeneration=0;
  COPY.en.busyCheckout='Checkout is already opening. Try again in a moment.';
  COPY.no.busyCheckout='Betalingen er allerede på vei til å åpnes. Prøv igjen om litt.';
  COPY.en.ended='Subscription ended.';COPY.no.ended='Abonnementet er avsluttet.';
@@ -50,7 +50,7 @@ export function createSubscriptionView({container,api,getUser,getLanguage,getAcc
   const note=node('p',c()[message]||'', 'form-status');note.id='billing-status';note.setAttribute('role','status');note.hidden=!message;element.append(note);
   if(message==='pending'){const b=node('button',c().refresh,'ghost-button');b.type='button';b.id='billing-refresh';b.addEventListener('click',()=>void checkReturn());element.append(b);}
  }
- async function refresh(){const current=++generation;try{status=await api.status();}catch{status=null;}if(current===generation)render();}
+ async function refresh(){const current=generation,request=++statusGeneration;let next;try{next=await api.status();}catch{next=null;}if(current===generation&&request===statusGeneration){status=next;render();}}
  async function action(task){if(busy)return;const current=++generation;busy=true;message='';render();try{const result=await task();if(current!==generation)return;
   const target=new URL(result.url);if(!['https://checkout.stripe.com','https://billing.stripe.com'].includes(target.origin))throw Error('billing_unavailable');window.location.assign(target.href);
  }catch(error){if(current===generation){if(error.message==='already_subscribed'){try{await refreshAccess();message=getAccess()?.subscription?'':'pending';}catch{message='pending';}}else message=error.message==='checkout_pending'?'busyCheckout':['billing_unavailable','billing_configuration'].includes(error.message)?'notReady':'error';}}
@@ -69,5 +69,5 @@ export function createSubscriptionView({container,api,getUser,getLanguage,getAcc
    }await new Promise(resolve=>setTimeout(resolve,2500));}
   if(current===generation){message='pending';render();}
  }
- return {element,render,refresh,checkReturn,cancelled(){message='cancelled';render();},reset(){generation++;busy=false;message='';render();}};
+ return {element,render,refresh,checkReturn,cancelled(){message='cancelled';render();},reset(){generation++;statusGeneration++;busy=false;message='';render();}};
 }

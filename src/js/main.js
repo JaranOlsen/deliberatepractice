@@ -1,3 +1,4 @@
+import {createAiHistoryView} from './aiHistoryView.js';
 import {setHeaderControl} from './headerUI.js';
 import {visibleScreenBounds, screenSafeInsets} from './screenViewport.js';
 import {createAppTour} from './appTour.js';
@@ -190,9 +191,8 @@ function renderGroupEntry() {
   document.getElementById('home-library').textContent = strings.homeLibrary;
   document.getElementById('home-library').className = group ? 'ghost-button' : 'primary-button';
   const aiEntry = document.getElementById('home-ai-practice');
-  aiEntry.hidden = !aiPilotEnabled || !state.aiAllowed || group || state.sessionActive;
-  aiEntry.textContent = no ? aiPractice.hasRound() ? 'Fortsett KI-øving' : 'Øv med KI · pilot'
-    : aiPractice.hasRound() ? 'Resume AI practice' : 'AI guided practice · pilot';
+  aiEntry.hidden=!aiPilotEnabled||!aiPractice.hasSavedRound?.()||group||state.sessionActive;
+  aiEntry.textContent=no?'Fortsett KI-øving':'Resume AI practice';
   const languageButton = document.getElementById('home-language');
   languageButton.textContent = state.languageId ? LANGUAGE_METADATA[state.languageId].label : strings.homeLanguage;
   languageButton.setAttribute('aria-label', strings.homeChangeLanguage);
@@ -490,28 +490,29 @@ const mastery = createMasteryPractice({
 sections.mastery=mastery.element;document.querySelector('main').append(mastery.element);
 // Visibility follows a server permission; paid endpoints enforce it independently.
 const aiPilotEnabled = import.meta.env.VITE_AI_PRACTICE_ENABLED !== 'false';
-const aiPractice = aiPilotEnabled ? createAiPractice({account:showAccountPanel,getLanguage: () => state.languageId ?? 'en', localizeSkill, getStrings: getUIStrings,
-  apiOptions:aiApiOptions(),
+const aiPractice = aiPilotEnabled ? createAiPractice({getOwner:()=>state.authUser?.id??null,getSelectedSkill:()=>state.skillId,allowed:()=>state.aiAllowed,account:showAccountPanel,onOptionsChange:()=>renderPracticeFormatUI(),browse:()=>{renderSkillOptions();showSection('skill');},getLanguage: () => state.languageId ?? 'en', localizeSkill, getStrings: getUIStrings,
+  apiOptions:{...aiApiOptions(),getUserId:()=>state.authUser?.id},
   show: () => showSection('ai'), home: () => showSection('home'), requestHome: actions => practiceExit.open(actions),
   theme: (element, skillId, difficulty) => applyVisualProperties(element, getCaseVisual(skillId, difficulty))})
   : {hasRound: () => false, stopAudio() {}, reset() {}};
-if (aiPilotEnabled) {sections.ai = aiPractice.element;document.querySelector('main').append(aiPractice.element);}
+if(aiPilotEnabled){sections.ai=aiPractice.element;document.querySelector('main').append(aiPractice.element);document.getElementById('start-practice').before(aiPractice.optionsView.element);}
 const emailSignIn=createEmailSignIn({container:elements.authSignedOut,form:elements.authSigninForm,
   email:elements.authEmail,submit:elements.authSubmit,intro:elements.authIntro,status:document.getElementById('auth-signin-status'),
   getLanguage:()=>state.languageId??'en',getMode:()=>state.authEmailMode,configured:()=>state.authConfigured,
   send:sendEmailSignIn,verify:verifyEmailSignIn,onVerified:session=>applyAuthSession(session)});
 const subscriptionView=createSubscriptionView({container:document.getElementById('access-section'),
-  api:createBillingApi(accountServicesOptions()),getUser:()=>state.authUser,getLanguage:()=>state.languageId??'en',
+  api:createBillingApi({...accountServicesOptions(),getUserId:()=>state.authUser?.id}),getUser:()=>state.authUser,getLanguage:()=>state.languageId??'en',
   getAccess:()=>state.accountAccess,isAiAdmin:()=>state.aiAdmin,refreshAccess:async()=>{
     if(!state.authUser)return;const id=state.authUser.id,access=await getAccountAccess();if(state.authUser?.id!==id)return;
     state.accountAccess=access;state.fullContent=access.full_content;state.aiAllowed=access.ai_access;state.aiAdmin=access.ai_admin;setContentIdentity(id,state.fullContent||state.aiAdmin);renderAuthUI();updateLockedBanner();renderCaseOptions();
     if(state.languageId&&state.skillId&&!state.sessionActive)void prepareSkillContent(state.languageId,state.skillId);
   }});
-const aiCreditView=createAiCreditView({container:document.getElementById('access-section'),api:createBillingApi(accountServicesOptions()),
+const aiCreditView=createAiCreditView({container:document.getElementById('access-section'),api:createBillingApi({...accountServicesOptions(),getUserId:()=>state.authUser?.id}),
  getUser:()=>state.authUser,getLanguage:()=>state.languageId??'en',refreshAccess:async()=>{
   const id=state.authUser?.id;if(!id)return;const access=await getAccountAccess();if(id!==state.authUser?.id)return;
   state.accountAccess=access;state.aiAllowed=access.ai_access;state.aiAdmin=access.ai_admin;state.fullContent=access.full_content;renderAuthUI();
  }});
+const aiHistoryView=createAiHistoryView({container:document.getElementById('access-section'),apiOptions:{...aiApiOptions(),getUserId:()=>state.authUser?.id},getUser:()=>state.authUser,getLanguage:()=>state.languageId??'en',localizeSkill});
 function paintExerciseChoice(available, catalog = EXERCISE_CATALOG) {
  const no=state.languageId==='no',selected=exerciseType==='mastery' && available;
  const single=document.getElementById('exercise-single'),mixed=document.getElementById('exercise-mastery');
@@ -1783,7 +1784,7 @@ function renderAuthUI() {
   document.getElementById('account-code-summary').textContent=SIGNIN_COPY[no?'no':'en'].access;
   for(const [key,label] of [['terms',no?'Vilkår':'Terms'],['privacy',no?'Personvern':'Privacy']]){const link=document.getElementById('app-'+key);link.textContent=label;link.href=`${key}.html?lang=${no?'no':'en'}`;}
   emailSignIn.render();
-  subscriptionView.render();aiCreditView.render();
+  subscriptionView.render();aiCreditView.render();aiHistoryView.render();
   renderPracticeFormatUI();
   renderGroupEntry();
   renderSelfRatingsChart();
@@ -1816,7 +1817,7 @@ async function applyAuthSession(session) {
   if (userChanged) {
     aiPractice.reset();
     state.fullContent=false;state.accountAccess=null;
-    subscriptionView.reset();aiCreditView.reset();
+    subscriptionView.reset();aiCreditView.reset();aiHistoryView.reset();
     progressRequestId += 1;
     state.progressSource = "self";
     state.progressDifficulty = "all";
@@ -2164,6 +2165,7 @@ function showSection(sectionKey) {
     el.hidden = !shouldShow;
   });
   document.body.dataset.section = sectionKey;
+  updateLockedBanner();
   mastery.refreshResume();
   renderResumeCard();
   renderAuthUI();
@@ -2191,6 +2193,7 @@ function renderPracticeFormatUI() {
   const strings = getUIStrings();
   elements.practiceFormat.disabled = state.sessionActive || !!roomSelection;
   elements.practiceFormat.hidden = !!roomSelection;
+  if(aiPilotEnabled){aiPractice.optionsView.element.hidden=state.practiceMode!==PRACTICE_MODES.INDIVIDUAL||!!roomSelection||state.sessionActive;aiPractice.optionsView.render();}
   releaseElements["practice-format-note"].hidden = true;
   releaseElements["practice-format-note"].textContent = "";
   const waitingForAccount = !state.sessionActive && isPracticeAccountPending();
@@ -2200,7 +2203,7 @@ function renderPracticeFormatUI() {
     ? state.contentError ? strings.contentUnavailable : strings.contentLoading
     : waitingForAccount
     ? state.authResolving ? strings.accountLoading : strings.accountUnavailableShort
-    : roomSelection ? (state.languageId === "no" ? "Bruk dette i rommet" : "Use this in the room") : state.sessionActive ? strings.continuePractice : state.practiceMode === "group" ? (state.languageId === "no" ? "Opprett grupperom" : "Create group room") : strings.startPractice;
+    : aiPilotEnabled&&aiPractice.optionsView.selected()&&state.practiceMode===PRACTICE_MODES.INDIVIDUAL?(state.languageId==='no'?'Begynn med KI':'Begin with AI'):roomSelection ? (state.languageId === "no" ? "Bruk dette i rommet" : "Use this in the room") : state.sessionActive ? strings.continuePractice : state.practiceMode === "group" ? (state.languageId === "no" ? "Opprett grupperom" : "Create group room") : strings.startPractice;
   elements.startPracticeButton.setAttribute("aria-label", elements.startPracticeButton.textContent);
   Array.from(elements.practiceModeInputs ?? []).forEach((input) => {
     input.checked = input.value === (triad ? "group" : state.practiceMode);
@@ -2781,7 +2784,7 @@ function updateCaseSkillContext(skill) {
 function updateLockedBanner() {
   if (!elements.lockedBanner) return;
   const strings = getUIStrings();
-  const hidden = hasProAccess();
+  const hidden=hasProAccess()||['practice','ai','mastery','room'].includes(document.body.dataset.section);
   elements.lockedBanner.hidden = hidden;
   elements.lockedBanner.classList.toggle("is-hidden", hidden);
   elements.lockedBanner.textContent = strings.lockedBanner ?? "";
@@ -4038,7 +4041,7 @@ function registerEventListeners() {
   });
   document.getElementById('home-progress').addEventListener('click', showProgressPanel);
   document.getElementById('home-ai-practice').addEventListener('click', () => {
-    if (aiPilotEnabled && state.aiAllowed && state.practiceMode === PRACTICE_MODES.INDIVIDUAL) void aiPractice.open();
+    if(aiPilotEnabled&&state.practiceMode===PRACTICE_MODES.INDIVIDUAL)void aiPractice.resume();
   });
   document.getElementById('shared-pair').addEventListener('change', event => {
     if (state.sessionActive) return;
@@ -4114,7 +4117,7 @@ function registerEventListeners() {
   }
 
   if (elements.startPracticeButton) {
-    elements.startPracticeButton.addEventListener("click", () => { if (roomSelection) void prepareSelectedRoom(); else if (state.practiceMode === "group") void openSharedRoom("create", {selectedCase:true}); else showStatements(); });
+    elements.startPracticeButton.addEventListener("click", () => { if (roomSelection) void prepareSelectedRoom(); else if (state.practiceMode === "group") void openSharedRoom("create", {selectedCase:true}); else if(aiPilotEnabled&&aiPractice.optionsView.selected())void aiPractice.openSelected({languageId:state.languageId,skillId:state.skillId,caseId:state.caseId,difficulty:state.caseDifficulty??localizeSkill(state.languageId,state.skillId).cases.find(c=>c.id===state.caseId)?.difficulty});else showStatements(); });
   }
   if (elements.practiceFormat) {
     elements.practiceFormat.addEventListener("change", handlePracticeModeChange);

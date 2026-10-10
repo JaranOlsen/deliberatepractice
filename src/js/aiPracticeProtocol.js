@@ -17,6 +17,8 @@ export function validateAttemptRequest(value) {
     || typeof value.statementId !== 'string' || typeof value.revision !== 'string'
     || typeof value.text !== 'string' || value.text.trim().length < 2
     || value.text.length > MAX_ATTEMPT_LENGTH) throw new Error('invalid_attempt');
+  if(value.roundId!==undefined&&!/^[0-9a-f]{8}-(?:[0-9a-f]{4}-){3}[0-9a-f]{12}$/i.test(value.roundId))throw new Error('invalid_attempt');
+  if(value.saveHistory!==undefined&&typeof value.saveHistory!=='boolean')throw new Error('invalid_attempt');
   return {...value, text: value.text.trim()};
 }
 

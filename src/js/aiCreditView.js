@@ -4,13 +4,17 @@ const COPY={en:{title:'AI credits',balance:'{n} credits',included:'{n} included'
 export function createAiCreditView({container,api,getUser,getLanguage,refreshAccess}) {
  const node=(tag,text='',className='')=>{const e=document.createElement(tag);e.textContent=text;e.className=className;return e;};
  const element=node('section','','ai-credit-section');element.id='ai-credit-section';container.append(element);element.hidden=true;
- let data=null,busy=false,message='',generation=0;
+ let data=null,busy=false,message='',generation=0,balanceGeneration=0;
  const c=()=>COPY[getLanguage()==='no'?'no':'en'];
  const key=pack=>`dp_credit_checkout_${getUser()?.id}_${pack}`;
  function render() {
   element.replaceChildren();element.hidden=!getUser()||!data?.enabled;if(element.hidden)return;
   element.append(node('h4',c().title));
-  if(data.admin){element.append(node('p',c().admin,'response-hint'));return;}
+  if(data.admin){
+   element.append(node('p',c().admin,'response-hint'));
+   const detail=node('details');detail.append(node('summary',getLanguage()==='no'?'KI-bruk siste 7 dager':'AI usage in the last 7 days'));const stats=node('p');detail.append(stats);
+   detail.addEventListener('toggle',async()=>{if(!detail.open)return;const user=getUser()?.id;try{const value=await api.aiUsage();if(user!==getUser()?.id)return;stats.textContent=getLanguage()==='no'?`${value.calls} kall · ${value.failed} feil · ≈ $${value.costUsd.toFixed(2)} (${value.estimatedCalls} estimert; ${value.unknownCostCalls??0} uten pris)`:`${value.calls} calls · ${value.failed} failed · ≈ $${value.costUsd.toFixed(2)} (${value.estimatedCalls} estimated; ${value.unknownCostCalls??0} unpriced)`;}catch{stats.textContent=c().error;}});element.append(detail);return;
+  }
   const balance=node('strong',c().balance.replace('{n}',data.balance),'ai-credit-balance');balance.id='ai-credit-balance';element.append(balance);
   if(data.balance>0)element.append(node('p',`${c().included.replace('{n}',data.included)} · ${c().purchased.replace('{n}',data.purchased)}`,'response-hint'));
   element.append(node('p',data.refresh_at?c().refresh.replace('{date}',new Date(data.refresh_at).toLocaleDateString(getLanguage()==='no'?'nb-NO':'en-GB')):c().allowance,'response-hint'));
@@ -28,9 +32,9 @@ export function createAiCreditView({container,api,getUser,getLanguage,refreshAcc
   const refresh=node('button',c().check,'ghost-button');refresh.id='ai-credit-refresh';refresh.type='button';refresh.disabled=busy;refresh.addEventListener('click',()=>void refreshBalance());element.append(refresh);
  }
  async function refreshBalance() {
-  const user=getUser();if(!user){data=null;render();return;}const current=++generation;
-  try{const result=await api.credits();if(current!==generation||getUser()?.id!==user.id)return;if(result.creditsProtocol!==AI_CREDITS_PROTOCOL)throw Error();data=result;render();}
-  catch{if(current===generation){message='error';render();}}
+  const user=getUser();if(!user){data=null;render();return;}const current=generation,request=++balanceGeneration;
+  try{const result=await api.credits();if(current!==generation||request!==balanceGeneration||getUser()?.id!==user.id)return;if(result.creditsProtocol!==AI_CREDITS_PROTOCOL)throw Error();data=result;render();}
+  catch{if(current===generation&&request===balanceGeneration&&!busy){message='error';render();}}
  }
  async function buy(pack) {
   if(busy||!getUser())return;let attempt;
@@ -58,5 +62,5 @@ export function createAiCreditView({container,api,getUser,getLanguage,refreshAcc
  }
  // A balance refresh never touches a different signed-in account's view.
  window.addEventListener('dp-ai-credits-changed',()=>{if(!element.closest('[hidden]'))void refreshBalance();});
- return {element,render,refresh:refreshBalance,checkReturn,reset(){generation++;data=null;message='';busy=false;render();}};
+ return {element,render,refresh:refreshBalance,checkReturn,reset(){generation++;balanceGeneration++;data=null;message='';busy=false;render();}};
 }

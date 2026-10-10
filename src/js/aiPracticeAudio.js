@@ -1,5 +1,7 @@
 // One owner for audio and the microphone; leaving a screen always releases both.
 export function createPracticeAudio({api, changed = () => {}, failed = () => {}}) {
+  const clips=new Map();
+  const clipKey=payload=>`${payload.role}:${payload.requestId??payload.attemptId??''}`;
   let generation = 0, audio = null, objectUrl = null, controller = null;
   let recorder = null, stream = null, timer = null, recordingDone = null, playing = false, loading = false, recordingPlayback = false;
   function stop() {
@@ -28,14 +30,16 @@ export function createPracticeAudio({api, changed = () => {}, failed = () => {}}
     }
     controller = new AbortController(); loading = true; changed();
     try {
-      const blob = await api.speech(payload, controller.signal);
+      const key=clipKey(payload);
+      const blob = clips.get(key)??await api.speech(payload, controller.signal);
       if (id !== generation) return;
+      clips.set(key,blob);if(clips.size>64)clips.delete(clips.keys().next().value);
       objectUrl = URL.createObjectURL(blob); audio = new Audio(objectUrl);
       audio.onended = () => {if (id === generation) stop();};
       audio.onerror = () => {if (id === generation) {stop(); failed(new Error('audio_unavailable'));}};
       await audio.play();
       if (id === generation) {loading = false; playing = true; changed();}
-    } catch (error) {if (id === generation) {stop(); throw error;}}
+    } catch (error) {if (id === generation) {stop();throw error.name==='NotAllowedError'?new Error('playback_blocked'):error;}}
   }
   async function record() {
     stop(); const id = generation;
@@ -70,6 +74,6 @@ export function createPracticeAudio({api, changed = () => {}, failed = () => {}}
   function finishRecording() {if (recorder?.state === 'recording') recorder.stop();}
   document.addEventListener('visibilitychange', () => {if (document.hidden) stop();});
   window.addEventListener('pagehide', stop);
-  return {play, playRecording, record, finishRecording, stop, isRecording: () => recorder?.state === 'recording', isPlaying: () => playing,
+  return {play, playRecording, record, finishRecording, stop, hasClip:payload=>clips.has(clipKey(payload)),clearClips:()=>clips.clear(), isRecording: () => recorder?.state === 'recording', isPlaying: () => playing,
     isRecordingPlaying:()=>recordingPlayback, isLoading: () => loading};
 }

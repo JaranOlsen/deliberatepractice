@@ -12,6 +12,7 @@ export function createAccountStore({url,secretKey,fetcher=fetch}) {
   async config(){return (await rows('app_public_config',{select:'email_mode,billing_mode,stripe_monthly_price,stripe_yearly_price,stripe_portal_configuration,ai_credits_enabled',limit:'1'}))[0]||{email_mode:'link',billing_mode:'off'};},
   creditPacks:()=>rows('ai_credit_packs',{select:'pack_key,credits,amount,stripe_test_price,stripe_live_price,enabled'}),
   creditBalance:userId=>request('rpc/get_ai_credit_balance',{method:'POST',body:{input_user:userId}}),
+  aiUsage:()=>request('rpc/get_ai_usage_summary',{method:'POST',body:{}}),
   beginCreditCheckout:(userId,live,attemptId,pack)=>request('rpc/begin_ai_credit_checkout',{method:'POST',body:{input_user:userId,input_live:live,input_attempt:attemptId,input_pack:pack}}),
   finishCreditCheckout:(userId,live,attemptId,lease,session)=>request('rpc/finish_ai_credit_checkout',{method:'POST',body:{input_user:userId,input_live:live,input_attempt:attemptId,input_lease:lease,input_session:session}}),
   abortCreditCheckout:(userId,live,attemptId,lease)=>request('rpc/abort_ai_credit_checkout',{method:'POST',body:{input_user:userId,input_live:live,input_attempt:attemptId,input_lease:lease}}),
