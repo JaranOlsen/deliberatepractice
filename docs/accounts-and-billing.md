@@ -13,13 +13,13 @@ A room can use a paid participant as its sponsor. Free members get only that roo
 ## Current configuration
 
 - Full access: NOK 99/month or NOK 799/year, fixed server-selected prices.
-- Checkout is disabled during the live cutover. The live Stripe key and webhook signing secret are installed and signed-webhook connectivity is verified; the live checkout gates remain closed until the remaining customer-facing settings and support delivery are checked.
+- Production checkout uses live Stripe credentials and requires both `STRIPE_LIVE_ENABLED=true` and `billing_mode='live'`. The live key and webhook signing secret are installed, and signed-webhook connectivity is verified. Closing either gate disables new checkout.
 - Checkout uses Norwegian or English according to the app language. Currency stays NOK; international card payments are supported by hosted Checkout.
 - Both catalogs use inclusive tax behavior. The seller confirmed VAT-exempt treatment; automatic tax remains off.
 - The portal supports invoices, payment-method updates and cancellation at the end of the paid period.
 - The production database migrations and `account-services` function are deployed. Live Stripe credentials are server secrets; the nonsecret live price/portal IDs are in `app_public_config`.
 - Custom SMTP is already enabled through Resend, with a 60-second per-user interval matching the app's resend cooldown.
-- Customer support uses a separate Resend inbox at `support@eftdojo.no`, forwarded through Domene AS. Outgoing delivery to the owner's chosen test address is verified; an incoming reply test remains pending. No inbox AI actions are enabled.
+- Customer support uses a separate Resend inbox at `support@eftdojo.no`, forwarded through Domene AS. Outgoing delivery to the owner's chosen test address and incoming delivery through the public address are verified. No inbox AI actions are enabled.
 
 ## Deployment and email activation
 
