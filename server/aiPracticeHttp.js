@@ -12,7 +12,7 @@ export function createPilotHandler(service, {origins = ['http://127.0.0.1:5173',
     const action = new URL(request.url).pathname.split('/').at(-1);
     try {
       const userId = authorize ? await authorize(request) : 'local';
-      if (request.method === 'GET' && action === 'status') return json(service.status());
+      if (request.method === 'GET' && action === 'status') return json({...service.status(),credits:await service.creditBalance?.(userId)??null});
       if (request.method !== 'POST') return json({error: 'not_found'}, 404);
       // Enforce the same bound in hosted runtimes before multipart/JSON parsing.
       if (Number(request.headers.get('content-length'))>6200000) throw new PilotError('request_too_large',413);
@@ -28,7 +28,7 @@ export function createPilotHandler(service, {origins = ['http://127.0.0.1:5173',
         request=new Request(request.url,{method:request.method,headers:request.headers,body:bytes});
       }
       if (action === 'transcribe') {
-        const form = await request.formData(); return json(await service.transcribe(form.get('file'), form.get('languageId'),userId));
+        const form = await request.formData(); return json(await service.transcribe(form.get('file'), form.get('languageId'),userId,form.get('requestId')));
       }
       if(action==='delivery') {
         const form=await request.formData();

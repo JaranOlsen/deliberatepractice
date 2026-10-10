@@ -2,13 +2,13 @@ import {createServer} from 'node:http';
 import {createAiService} from '../server/aiPracticeService.js';
 import {createPilotHandler} from '../server/aiPracticeHttp.js';
 import {loadPilotCatalog} from '../server/aiPracticeContent.js';
-import {createAdminAuthorizer} from '../server/aiPracticeHosted.js';
+import {createAdminAuthorizer,createHostedStore} from '../server/aiPracticeHosted.js';
 if(!process.env.VITE_SUPABASE_URL||!process.env.VITE_SUPABASE_ANON_KEY)throw new Error('Local AI requires Supabase Auth configuration');
 const service = createAiService({apiKey: process.env.OPENAI_API_KEY,
   enabled: process.env.AI_PRACTICE_LIVE_ENABLED === 'true', model: process.env.AI_PRACTICE_MODEL || 'gpt-6.1-sol',
   transcriptionModel: process.env.AI_TRANSCRIPTION_MODEL || 'gpt-transcribe',
   maxCalls: Math.min(200, Math.max(1, Number(process.env.AI_PRACTICE_MAX_CALLS_PER_HOUR) || 120)),
-  loadContext: await loadPilotCatalog()});
+  loadContext: await loadPilotCatalog(),attemptStore:createHostedStore({url:process.env.VITE_SUPABASE_URL,secretKey:process.env.SUPABASE_SECRET_KEY||process.env.SUPABASE_SERVICE_ROLE_KEY})});
 const port = Number(process.env.AI_PRACTICE_PORT) || 5555;
 const origins = (process.env.AI_PRACTICE_ORIGINS || 'http://127.0.0.1:5173,http://localhost:5173,http://127.0.0.1:5174,http://localhost:5174').split(',').map(s => s.trim());
 if (origins.some(origin => !/^http:\/\/(localhost|127\.0\.0\.1):\d+$/.test(origin))) throw new Error('The local pilot accepts loopback origins only');

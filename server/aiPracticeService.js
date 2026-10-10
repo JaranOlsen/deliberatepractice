@@ -52,10 +52,11 @@ export function createAiService({apiKey, enabled = false, model = 'gpt-6.1-sol',
     }
     return response;
   }
-  async function contextFor(value) {
+  async function contextFor(value,userId) {
     const context = await loadContext(value.languageId, value.skillId, value.statementId);
     if (!context || context.revision !== value.revision || (value.caseId && context.case.id !== value.caseId)
       || (value.difficulty && context.difficulty !== value.difficulty)) throw new PilotError('content_changed', 409);
+    await attemptStore?.contentAccess?.(userId,context.case.id);
     return context;
   }
   const signatureFor = value => JSON.stringify([value.languageId,value.skillId,value.caseId,value.difficulty,value.statementId,value.revision,value.kind,value.text]);
@@ -91,7 +92,7 @@ export function createAiService({apiKey, enabled = false, model = 'gpt-6.1-sol',
   async function assess(input, userId = 'local') {
     let value;
     try { value = validateAttemptRequest(input); } catch { throw new PilotError('invalid_attempt'); }
-    const context = await contextFor(value);
+    const context = await contextFor(value,userId);
     const signature = await hash(signatureFor(value));
     const saved = await cached(userId,value.attemptId,'assess',signature,async () => {
       const response = await upstream('responses', {model, store: false, reasoning: {effort: 'low'}, max_output_tokens: 2500,
@@ -124,9 +125,12 @@ limitation names any missing evidence, briefly; it may be empty. Do not repeat b
     });
     return saved.response;
   }
-  async function transcribe(file, languageId, userId = 'local') {
+  async function transcribe(file, languageId, userId = 'local', requestId = null) {
     if (!['en', 'no'].includes(languageId) || !file || file.size < 100 || file.size > 6000000
       || !/^(audio\/(webm|mp4|mpeg|wav|x-wav)|video\/webm)(;.*)?$/.test(file.type)) throw new PilotError('invalid_audio');
+    if(attemptStore && !/^[0-9a-f-]{36}$/i.test(requestId??''))throw new PilotError('invalid_attempt');
+    const signature=await hash(new Uint8Array(await file.arrayBuffer()));
+    return cached(userId,requestId??crypto.randomUUID(),'transcribe',await hash(`${languageId}:${signature}`),async()=>{
     const form = new FormData();
     const extension = file.type.includes('mp4') ? 'mp4' : file.type.includes('mpeg') ? 'mp3' : file.type.includes('wav') ? 'wav' : 'webm';
     form.append('file', file, `attempt.${extension}`); form.append('model', transcriptionModel);
@@ -136,10 +140,11 @@ limitation names any missing evidence, briefly; it may be empty. Do not repeat b
     let data; try { data = await response.json(); } catch { throw new PilotError('transcription_failed', 502); }
     if (typeof data.text !== 'string' || !data.text.trim() || data.text.length > 1600) throw new PilotError('transcription_failed', 502);
     return {text: data.text.trim()};
+    });
   }
   async function delivery(input,file,userId = 'local') {
     let value;try{value=validateAttemptRequest(input);}catch{throw new PilotError('invalid_attempt');}
-    const context=await contextFor(value),original=await readAttempt(userId,value.attemptId);
+    const context=await contextFor(value,userId),original=await readAttempt(userId,value.attemptId);
     const wordingSignature=await hash(signatureFor(value));
     if(!original)throw new PilotError('assessment_expired',409);
     if(original.signature!==wordingSignature)throw new PilotError('attempt_conflict',409);
@@ -190,7 +195,7 @@ Use describe_delivery. If unavailable, return only JSON matching ${JSON.stringif
     let text, voice = AI_SUPERVISOR_VOICE, instructions;
     if (input.role === 'client') {
       if (!['en', 'no'].includes(input.languageId) || !AI_ANCHORS[input.skillId]) throw new PilotError('invalid_speech');
-      const context = await contextFor(input); text = spokenStatement(context.statement);
+      const context = await contextFor(input,userId); text = spokenStatement(context.statement);
       voice = AI_CLIENT_VOICES[context.case.id]; if (!voice) throw new PilotError('invalid_speech');
       instructions = clientSpeechInstructions(context, input.languageId);
     } else {
@@ -202,11 +207,19 @@ Use describe_delivery. If unavailable, return only JSON matching ${JSON.stringif
         if(note?.audibility==='clear')text+=` ${entry.languageId==='no'?'Om fremføringen':'For delivery'}: ${note.strength} ${note.adjustment}`;
       }
     }
+    if(attemptStore && !/^[0-9a-f-]{36}$/i.test(input.requestId??''))throw new PilotError('invalid_attempt');
+    const saved=await cached(userId,input.requestId??crypto.randomUUID(),`speech_${input.role}`,await hash(JSON.stringify([text,voice,instructions])),async()=>{
     const response = await upstream('audio/speech', {model: SPEECH_MODEL, voice,
       input: text, response_format: 'mp3', instructions: instructions
         ?? 'Speak as a calm, concise practice supervisor, in the language of the text. Leave a short pause between the rating, strength and practice adjustment.'},true,userId);
-    return new Uint8Array(await response.arrayBuffer());
+    const bytes=new Uint8Array(await response.arrayBuffer());
+    if(!bytes.length||bytes.length>280000)throw new PilotError('audio_unavailable',502);
+    let binary='';for(let i=0;i<bytes.length;i+=8192)binary+=String.fromCharCode(...bytes.subarray(i,i+8192));
+    return {audio:btoa(binary)};
+    });
+    return Uint8Array.from(atob(saved.audio),c=>c.charCodeAt(0));
   }
   return {status: () => ({protocol: AI_PROTOCOL, mode: live ? 'live' : 'unconfigured',
-    ...(live ? {models: {assessment: model, speech: SPEECH_MODEL, transcription: transcriptionModel,delivery:deliveryModel}} : {})}), assess, transcribe, speech, delivery};
+    ...(live ? {models: {assessment: model, speech: SPEECH_MODEL, transcription: transcriptionModel,delivery:deliveryModel}} : {})}),
+    creditBalance:userId=>attemptStore?.balance?.(userId)??null, assess, transcribe, speech, delivery};
 }

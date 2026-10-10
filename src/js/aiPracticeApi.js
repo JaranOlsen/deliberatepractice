@@ -33,8 +33,9 @@ export function createAiPracticeApi({base = '/api/ai-practice', fetcher = fetch,
         || typeof data.model !== 'string' || !data.model) throw new Error('assessment_unavailable');
       validateAssessment(data.result, value.text); return data;
     },
-    async transcribe(blob, languageId, signal) {
+    async transcribe(blob, languageId, signal, requestId=crypto.randomUUID()) {
       const form = new FormData(); form.append('file', blob, blob.type.includes('mp4') ? 'attempt.mp4' : 'attempt.webm'); form.append('languageId', languageId);
+      form.append('requestId',requestId);
       return (await request('transcribe', form, signal)).json();
     },
     async delivery(value,blob,signal) {

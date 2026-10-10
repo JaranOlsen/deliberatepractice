@@ -1,3 +1,4 @@
+import {createCreditBilling} from './aiCreditsBilling.js';
 import {BILLING_PROTOCOL,FULL_ACCESS_PRICES} from '../src/data/subscriptionPlans.js';
 import {BILLING_BUSINESS,BILLING_LEGAL_URLS,BILLING_TERMS_VERSION,STRIPE_BILLING_API_VERSION,STRIPE_CHECKOUT_INTEGRATION} from '../src/data/billingBusiness.js';
 export {BILLING_PROTOCOL,FULL_ACCESS_PRICES};
@@ -45,7 +46,7 @@ export function createBillingService({secretKey,webhookSecret,monthlyPrice,yearl
  async function status() {
   const config=await configure(),ready=mode!=='off'&&id(prices.month,'price')&&id(prices.year,'price')&&(!live||liveEnabled&&!!BILLING_BUSINESS.supportEmail&&/^whsec_/.test(webhookSecret||''));
   return {protocol:BILLING_PROTOCOL,currency:'nok',prices:FULL_ACCESS_PRICES,
-   mode:ready&&config.billing_mode===mode?mode:'off',portalAvailable:mode!=='off'&&!!portalConfiguration};
+   aiCreditsEnabled:config.ai_credits_enabled===true,mode:ready&&config.billing_mode===mode?mode:'off',portalAvailable:mode!=='off'&&!!portalConfiguration};
  }
  async function requireReady(user) {
   const settings=await status();if(settings.mode==='off')throw new BillingError('billing_unavailable',503);
@@ -60,6 +61,17 @@ export function createBillingService({secretKey,webhookSecret,monthlyPrice,yearl
    verifiedPrices.set(interval,value);
   }return verifiedPrices.get(interval);
  }
+ async function ensureCustomer(user,languageId) {
+  let customer=await store.customer(user.id,live);
+  if(!customer) {
+   const footer=`Deliberate Practice Lab. Renews each selected billing period until cancelled in Account / Manage subscription. Access continues through the paid period. A full refund can be requested within 14 days of the first purchase, even after practice begins: ${BILLING_BUSINESS.supportEmail}. To withdraw, email your name, account email and purchase date; no form is required. VAT exempt. Terms: ${BILLING_LEGAL_URLS.terms}. Privacy: ${BILLING_LEGAL_URLS.privacy}.`;
+   const value=await provider('customers',{email:user.email,'metadata[app_user_id]':user.id,...(BILLING_BUSINESS.supportEmail?{'invoice_settings[footer]':footer}:{}),'preferred_locales[]':languageId==='no'?'nb':'en'},`dp-customer:${mode}:${user.id}`);
+   if(!id(value.id,'cus')||value.livemode!==live)throw new BillingError('billing_configuration',503);
+   customer=await store.saveCustomer(user.id,live,value.id);
+   if(customer!==value.id)throw new BillingError('customer_conflict',409);
+  }
+  return customer;
+ }
  async function checkout(user,input) {
   await requireReady(user);
   if(!input||Object.keys(input).some(key=>!['interval','attemptId','languageId'].includes(key))||!['month','year'].includes(input.interval)||!uuid(input.attemptId)||!['en','no'].includes(input.languageId))throw new BillingError('invalid_plan');
@@ -68,14 +80,7 @@ export function createBillingService({secretKey,webhookSecret,monthlyPrice,yearl
   await price(input.interval);await store.reserve(user.id,live,input.attemptId,input.interval);
   const lock=await store.beginCheckout(user.id,live,input.attemptId,input.interval);if(lock.state!=='acquired')throw new BillingError('checkout_pending',409);
   try {
-  let customer=await store.customer(user.id,live);
-  if(!customer) {
-   const footer=`Deliberate Practice Lab. Renews each selected billing period until cancelled in Account / Manage subscription. Access continues through the paid period. A full refund can be requested within 14 days of the first purchase, even after practice begins: ${BILLING_BUSINESS.supportEmail}. To withdraw, email your name, account email and purchase date; no form is required. VAT exempt. Terms: ${BILLING_LEGAL_URLS.terms}. Privacy: ${BILLING_LEGAL_URLS.privacy}.`;
-   const value=await provider('customers',{email:user.email,'metadata[app_user_id]':user.id,...(BILLING_BUSINESS.supportEmail?{'invoice_settings[footer]':footer}:{}),'preferred_locales[]':input.languageId==='no'?'nb':'en'},`dp-customer:${mode}:${user.id}`);
-   if(!id(value.id,'cus')||value.livemode!==live)throw new BillingError('billing_configuration',503);
-   customer=await store.saveCustomer(user.id,live,value.id);
-   if(customer!==value.id)throw new BillingError('customer_conflict',409);
-  }
+  const customer=await ensureCustomer(user,input.languageId);
   const subscriptions=await provider(`subscriptions?customer=${customer}&status=all&limit=100`);
   if(subscriptions.data?.some(s=>['active','trialing','past_due','unpaid','paused'].includes(s.status)&&s.items?.data?.some(item=>Object.values(prices).includes(providerId(item.price)))))throw new BillingError('already_subscribed',409);
   if(lock.previous_session) {
@@ -113,11 +118,13 @@ export function createBillingService({secretKey,webhookSecret,monthlyPrice,yearl
   if(new URL(value.url||'https://invalid.invalid').origin!=='https://billing.stripe.com')throw new BillingError('billing_unavailable',503);
   return {protocol:BILLING_PROTOCOL,url:value.url,test:!live};
  }
+ const creditBilling=createCreditBilling({store,provider,requireReady,configure,ensureCustomer,mode,appUrl,taxEnabled,now});
  async function webhook(raw,signature) {
   const event=await verifyStripeEvent(raw,signature,webhookSecret,{now});
   if(!id(event.id,'evt')||event.livemode!==live)throw new BillingError('invalid_event');
   await configure();
   if(await store.eventExists(event.id))return {received:true};
+  if(event.type.startsWith('checkout.session.')&&['checkout.session.completed','checkout.session.async_payment_succeeded','checkout.session.async_payment_failed'].includes(event.type)&&store.creditCheckoutOwner&&await creditBilling.fulfill(event))return {received:true};
   if(['charge.refunded','charge.dispute.created','charge.dispute.closed'].includes(event.type)) {
    const observed=new Date(now()).toISOString(),object=event.data?.object;
    let charge,hold=true,reason='refund';
@@ -125,7 +132,10 @@ export function createBillingService({secretKey,webhookSecret,monthlyPrice,yearl
     if(!id(object?.id,'dp'))throw new BillingError('invalid_event');
     const dispute=await provider(`disputes/${object.id}`);reason='dispute';hold=!['won','warning_closed'].includes(dispute.status);
     const chargeId=providerId(dispute.charge);if(!id(chargeId,'ch'))throw new BillingError('invalid_event');charge=await provider(`charges/${chargeId}`);
-   } else {if(!id(object?.id,'ch'))throw new BillingError('invalid_event');charge=await provider(`charges/${object.id}`);if(!charge.refunded||charge.amount_refunded!==charge.amount||charge.amount<=0)return {received:true,ignored:true};}
+   } else {if(!id(object?.id,'ch'))throw new BillingError('invalid_event');charge=await provider(`charges/${object.id}`);}
+   if(charge.livemode!==live)throw new BillingError('billing_configuration',503);
+   if(store.creditCheckoutOwner&&await creditBilling.risk(event,charge,{source:reason==='refund'?charge.id:object.id,reason,hold}))return {received:true};
+   if(reason==='refund'){if(!charge.refunded||charge.amount_refunded!==charge.amount||charge.amount<=0)return {received:true,ignored:true};}
    if(charge.livemode!==live)throw new BillingError('billing_configuration',503);
    const customer=providerId(charge.customer);if(!await store.customerOwner(customer,live))return {received:true,ignored:true};
    let invoiceId=providerId(charge.invoice);
@@ -154,16 +164,18 @@ export function createBillingService({secretKey,webhookSecret,monthlyPrice,yearl
   const interval=Object.keys(prices).find(key=>prices[key]===priceId);
   if(!interval||subscription.livemode!==live||item.quantity!==1)throw new BillingError('billing_configuration',503);
   await price(interval);
-  let paidThrough=null;
+  let paidThrough=null,periodStart=null;
   const invoice=subscription.latest_invoice;
   const checkoutPaid=!event.type.startsWith('checkout.session.')||['paid','no_payment_required'].includes(object?.payment_status);
   if(checkoutPaid&&invoice&&typeof invoice==='object'&&(invoice.paid===true||invoice.status==='paid')) {
    const ends=(invoice.lines?.data||[]).filter(line=>providerId(line.price||line.pricing?.price_details?.price)===priceId).map(line=>line.period?.end).filter(Number.isFinite);
+   const starts=(invoice.lines?.data||[]).filter(line=>providerId(line.price||line.pricing?.price_details?.price)===priceId).map(line=>line.period?.start).filter(Number.isFinite);
+   periodStart=secondsDate(starts.length?Math.min(...starts):item.current_period_start||subscription.current_period_start);
    paidThrough=secondsDate(ends.length?Math.max(...ends):item.current_period_end||subscription.current_period_end);
   }
   await store.apply({eventId:event.id,live,eventType:event.type,subscriptionId,customer,priceId,status:subscription.status,interval,
-   paidThrough,cancelAtPeriodEnd:subscription.cancel_at_period_end===true,observed});
+   paidThrough,periodStart,cancelAtPeriodEnd:subscription.cancel_at_period_end===true,observed});
   return {received:true};
  }
- return {status,checkout,portal,webhook};
+ return {status,checkout,portal,webhook,credits:creditBilling.credits,creditCheckout:creditBilling.checkout};
 }

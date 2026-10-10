@@ -53,10 +53,10 @@ try {
     const expected=BASE_PRACTICE[skill].cases[caseId].statements.filter(e=>e.difficultyTier===level).map(({id,criteriaTags})=>({id,criteriaTags}));
     assert.deepEqual(row?.entries,expected,'Focused catalog drift: '+skill+'/'+level);
   }
-  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql', 'check-practice-goals.sql', 'check-rating-history.sql', 'check-mastery.sql','check-practice-levels.sql','check-fixed-case-mastery.sql','check-experiential-focusing.sql','check-admin-ai.sql','check-account-access.sql','check-sponsored-content.sql','check-billing-payment-holds.sql']) {
+  for (const name of ['check-four-set-rooms.sql', 'check-room-item-workflow.sql', 'check-practice-rooms.sql', 'check-room-lifecycle.sql', 'check-room-readiness.sql', 'check-practice-goals.sql', 'check-rating-history.sql', 'check-mastery.sql','check-practice-levels.sql','check-fixed-case-mastery.sql','check-experiential-focusing.sql','check-admin-ai.sql','check-account-access.sql','check-sponsored-content.sql','check-billing-payment-holds.sql','check-ai-credits.sql']) {
     // Existing protocol suites isolate room behavior using entitled hosts.
     // Access-specific suites create their own paid/free fixtures explicitly.
-    const protocolFixture=!['check-account-access.sql','check-admin-ai.sql','check-sponsored-content.sql','check-billing-payment-holds.sql'].includes(name);
+    const protocolFixture=!['check-account-access.sql','check-admin-ai.sql','check-sponsored-content.sql','check-billing-payment-holds.sql','check-ai-credits.sql'].includes(name);
     if(protocolFixture)await db.exec(`create function auth.fixture_library_grant() returns trigger language plpgsql as $$ begin
       insert into public.account_access_grants(user_id,grant_key) values(new.id,'protocol-fixture');return new;end $$;
       create trigger fixture_library_grant after insert on auth.users for each row execute function auth.fixture_library_grant();`);
