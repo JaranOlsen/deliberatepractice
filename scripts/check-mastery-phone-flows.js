@@ -18,7 +18,10 @@ async page => {
    stage=`${language}/${level}/${mode}`;
    const context=await page.context().browser().newContext({viewport:{width:320,height:844}});contexts.push(context);
    const p=await context.newPage();p.on('pageerror',e=>errors.push(e.message));
+   const device=await context.newCDPSession(p);
+   await device.send('Emulation.setSafeAreaInsetsOverride',{insets:{top:59,bottom:34,left:0,right:0}});
    await context.addInitScript(({language,mode})=>{
+    localStorage.setItem('dp_app_tour_v1',JSON.stringify({disabled:true}));
     localStorage.setItem('dp_access_level','all');
     localStorage.setItem('dp_exercise_type',JSON.stringify('task-episodes'));
     localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:language,practiceMode:mode!=='individual'?'triad':'individual',groupUiVersion:2}));
@@ -27,6 +30,19 @@ async page => {
    await context.route('**/src/js/backend.js*',route=>route.fulfill({contentType:'text/javascript',body:`
     const user=${mode.startsWith('anonymous')?'null':`{id:'${users.t}',email:'t@local.invalid'}`};
     export const isSupabaseReady=()=>true,isAccessExpired=()=>false;
+    export const getAiAccess=async()=>false,aiApiOptions=()=>({});
+    export const accountServicesOptions=()=>({base:'/__billing_test',getToken:async()=>null});
+    export const getPublicAppConfig=async()=>({email_mode:'link',billing_mode:'off'});
+    export const getAccountAccess=async()=>({full_content:true,ai_access:false,subscription:null});
+    export const sendEmailSignIn=async()=>{throw Error('Unexpected email');};
+    export const verifyEmailSignIn=async()=>{throw Error('Unexpected code');};
+    export const redeemAccountAccessCode=async()=>{throw Error('Unexpected redemption');};
+    export const fetchAccountContent=async input=>{
+      const file=input.kind==='skill'?'statements/'+input.languageId+'-'+input.skillId+'.json':'mastery/'+input.languageId+'-'+input.exerciseId+'.json';
+      const response=await fetch('src/data/runtime/'+file);if(!response.ok)throw Error('Missing content fixture');
+      const data=await response.json(),revision=input.kind==='skill'?Object.values(data)[0][0].revision:data.revision;
+      return {protocol:'practice-content-v1',revision,...(input.kind==='skill'?{bank:data}:{exercise:data})};
+    };
     export const getAuthSession=async()=>({user}),onAuthStateChange=()=>()=>{};
     export const ensureUserProfile=async()=>({id:user.id,display_name:'Test therapist'});
     export const listPracticeTargets=async()=>[{target_user_id:user.id,target_kind:'self',display_name:'Test therapist'}];
@@ -107,8 +123,10 @@ async page => {
    assert(rows.length===(mode==='individual'?4:0)&&rows.every(r=>r.source==='self'&&r.item_count===3&&r.difficulty===level&&r.practice_mode===(mode==='pair'?'shared':mode)),mode==='individual'?'Four correctly attributed mastery ratings at the selected level':'Shared practice never stores an account rating');
    assert(await p.evaluate(()=>JSON.parse(localStorage.getItem('dp_mastery_session')))===null,'Completed round is not resumable');
    if(mode==='individual'){cloudRounds++;
-   await p.locator('#home-progress').click();await p.locator('#progress-mastery').click();await p.locator('#mastery-history .mastery-history-list').waitFor();
-   assert((await p.locator('#mastery-history').textContent()).includes('4/4'),'Mastery history shows four checkpoints');
+   await p.locator('#home-progress').click();await p.locator('#progress-mastery').click();await p.locator('#mastery-history .mastery-round-card').first().waitFor();
+   const roundCard=p.locator('#mastery-history .mastery-round-card').first();
+   assert(await roundCard.locator('.mastery-set-bar').count()===4,'Mastery progress shows four checkpoint bars');
+   assert((await roundCard.locator('.mastery-set-bar > strong').allTextContents()).every(value=>value!=='—'),'Each practiced set has a visible rating');
    assert(await p.locator('#self-chart svg').count()===0,'Mastery records do not create a focused radar');
    await fits('progress');
    await p.screenshot({path:`output/playwright/mastery-${language}-${mode}-history-320.png`,fullPage:true});
