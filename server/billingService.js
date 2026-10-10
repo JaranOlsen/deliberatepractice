@@ -177,5 +177,5 @@ export function createBillingService({secretKey,webhookSecret,monthlyPrice,yearl
    paidThrough,periodStart,cancelAtPeriodEnd:subscription.cancel_at_period_end===true,observed});
   return {received:true};
  }
- return {status,checkout,portal,webhook,credits:creditBilling.credits,creditCheckout:creditBilling.checkout};
+ return {status,checkout,portal,webhook,credits:creditBilling.credits,creditCheckout:creditBilling.checkout,aiUsage:creditBilling.usage};
 }

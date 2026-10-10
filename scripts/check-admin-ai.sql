@@ -1,4 +1,5 @@
 begin;
+update public.ai_service_limits set user_hour=120;
 insert into auth.users(id,email) values('44444444-4444-4444-8444-444444444444','ai-admin@isolated.invalid'),('55555555-5555-4555-8555-555555555555','ai-user@isolated.invalid');
 insert into public.ai_admin_access(user_id) values('44444444-4444-4444-8444-444444444444');
 select set_config('request.jwt.claim.sub','55555555-5555-4555-8555-555555555555',true);

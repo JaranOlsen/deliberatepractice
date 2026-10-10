@@ -56,7 +56,7 @@ export default defineConfig({
   publicDir: 'public',
   // Native file events can miss editor/agent writes on macOS, leaving the
   // preview on an older build even after a browser refresh.
-  server: { watch: { usePolling: true }, proxy: {
+  server: { fs:{deny:['.env','.env.*','**/*.{crt,pem}','**/.git/**','**/*.local']},watch: { usePolling: true }, proxy: {
     '/api/account-services': {target:'http://127.0.0.1:5556',changeOrigin:false,
       configure(proxy){proxy.on('proxyReq',(proxyReq,req)=>{if(!req.headers.origin&&/^(localhost|127\.0\.0\.1):\d+$/.test(req.headers.host??''))proxyReq.setHeader('origin',`http://${req.headers.host}`);});}},
     '/api/ai-practice': {target: 'http://127.0.0.1:5555', changeOrigin: false,

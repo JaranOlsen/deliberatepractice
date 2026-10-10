@@ -104,12 +104,12 @@ export async function redeemAccountAccessCode(code) {
 
 export function aiApiOptions() {
   return {base:import.meta.env.DEV?'/api/ai-practice':`${SUPABASE_URL}/functions/v1/ai-practice`,
-    publishableKey:SUPABASE_ANON_KEY,getAccessToken:async()=> (await getAuthSession())?.access_token ?? null};
+    publishableKey:SUPABASE_ANON_KEY,getAccessToken:async expectedUser=>{const session=await getAuthSession();return expectedUser&&session?.user?.id!==expectedUser?null:session?.access_token??null;}};
 }
 
 export function accountServicesOptions() {
   return {base:import.meta.env.DEV?'/api/account-services':`${SUPABASE_URL}/functions/v1/account-services`,
-    publishableKey:SUPABASE_ANON_KEY,getToken:async()=> (await getAuthSession())?.access_token??null};
+    publishableKey:SUPABASE_ANON_KEY,getToken:async expectedUser=>{const session=await getAuthSession();return expectedUser&&session?.user?.id!==expectedUser?null:session?.access_token??null;}};
 }
 
 export async function fetchAccountContent(value) {

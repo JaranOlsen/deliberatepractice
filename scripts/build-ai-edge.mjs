@@ -6,7 +6,7 @@ import {AI_SKILLS} from '../src/js/aiPracticeProtocol.js';
 
 const root=new URL('../',import.meta.url),target=new URL('supabase/functions/ai-practice/generated/',root);
 await rm(target,{recursive:true,force:true});
-const modules=['server/aiPracticeService.js','server/aiPracticeHttp.js','server/aiPracticeHosted.js','server/aiPracticeCatalog.js',
+const modules=['server/aiPracticeService.js','server/aiUsageCost.js','server/aiPracticeHttp.js','server/aiPracticeHosted.js','server/aiPracticeCatalog.js',
   'src/data/aiPracticeRubric.js','src/data/aiPracticeVoices.js','src/data/skillFeedback.js','src/js/aiPracticeProtocol.js','src/js/aiPracticeDelivery.js'];
 const banks=[];
 for(const language of ['en','no'])for(const skill of AI_SKILLS)banks.push({name:`${language}-${skill}`,key:`${language}:${skill}`});

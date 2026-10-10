@@ -2728,3 +2728,18 @@ body:is([data-section="practice"], [data-section="room"], [data-section="mastery
 .ai-credit-costs dd { margin:0; font-variant-numeric:tabular-nums; }
 .ai-credit-counter { margin-left:auto; font-size:.85rem; white-space:nowrap; }
 .ai-practice .panel-header { flex-wrap:wrap; gap:.5rem; }
+
+.ai-practice-options { display:grid; gap:.75rem; margin:1rem 0; padding:1rem 0; border-top:1px solid var(--border-color,#dfe5e3); }
+.ai-practice-options[hidden],.ai-history[hidden] { display:none; }
+.ai-option-toggle { display:flex; gap:.65rem; align-items:center; min-height:44px; font-size:1rem; }
+.ai-input-mode { display:flex; gap:.6rem; }
+.ai-input-mode button { flex:1; }
+.ai-input-mode [aria-pressed=true] { border:2px solid var(--card-accent,#315f5b);background:var(--card-soft,#f4f7f6);font-weight:700; }
+.ai-practice-options details { padding:.4rem 0; }
+.ai-attempt-budget { color:var(--text-muted,#677477);font-size:.9rem; margin:.5rem 0; }
+.ai-history { margin-top:1rem; padding-top:1rem; border-top:1px solid var(--border-color,#dfe5e3); }
+.ai-history-card { border:1px solid var(--border-color,#dfe5e3);border-radius:16px;padding:1rem;margin-top:.8rem; }
+.ai-history-card h5 { font-size:1rem;margin:0 0 .3rem; }
+.ai-history-card .ai-round-scores { margin:.75rem 0; }
+.ai-history-card .ai-score-card { padding:.7rem; }
+.ai-history-target { border-left:3px solid var(--card-accent,#315f5b);padding-left:.75rem; }

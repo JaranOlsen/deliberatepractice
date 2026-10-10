@@ -2,6 +2,7 @@ import {AI_PROTOCOL, AI_RUBRIC, AI_PROMPT, validateAttemptRequest, validateAsses
 import {AI_ANCHORS} from '../src/data/aiPracticeRubric.js';
 import {AI_CLIENT_VOICES, AI_SUPERVISOR_VOICE, clientSpeechInstructions} from '../src/data/aiPracticeVoices.js';
 import {AI_DELIVERY_VERSION, DELIVERY_SCHEMA, validateDelivery, practiceAudioMetrics} from '../src/js/aiPracticeDelivery.js';
+import {aiUsageCost} from './aiUsageCost.js';
 
 const SPEECH_MODEL = 'gpt-4o-mini-tts';
 
@@ -30,13 +31,21 @@ export function createAiService({apiKey, enabled = false, model = 'gpt-6.1-sol',
   async function upstream(path, body, json = true, userId = 'local') {
     if (!live) throw new PilotError('not_configured', 503);
     if (attemptStore) await attemptStore.reserve(userId);
-    reserve();
+    if(!attemptStore)reserve();
+    const started=now();
     let response;
     try {
       response = await fetcher(`https://api.openai.com/v1/${path}`, {method: 'POST',
         headers: {Authorization: `Bearer ${apiKey}`, ...(json ? {'Content-Type': 'application/json'} : {})},
         body: json ? JSON.stringify(body) : body, signal: AbortSignal.timeout(60000)});
-    } catch { throw new PilotError('connection_failed', 502); }
+    } catch {await attemptStore?.recordUsage?.(userId,{action:path==='responses'?'assess':path==='chat/completions'?'delivery':path==='audio/transcriptions'?'transcribe':body.voice===AI_SUPERVISOR_VOICE?'speech_supervisor':'speech_client',model:json?body.model:transcriptionModel,outcome:'failed',error_code:'connection_failed',duration_ms:Math.max(0,now()-started)});throw new PilotError('connection_failed', 502); }
+    if(attemptStore?.recordUsage){
+      let data;try{if(path!=='audio/speech')data=await response.clone().json();}catch{}
+      const action=path==='responses'?'assess':path==='chat/completions'?'delivery':path==='audio/transcriptions'?'transcribe':body.voice===AI_SUPERVISOR_VOICE?'speech_supervisor':'speech_client';
+      const actualModel=data?.model||(json?body.model:transcriptionModel);
+      response.aiUsageId=crypto.randomUUID();
+      await attemptStore.recordUsage(userId,{id:response.aiUsageId,action,model:actualModel,outcome:response.ok?'success':'failed',error_code:response.ok?null:`http_${response.status}`,duration_ms:Math.max(0,now()-started),...aiUsageCost({action,model:actualModel,usage:data?.usage,characters:path==='audio/speech'?body.input.length:0}),...(!response.ok?{cost_usd:null}: {})});
+    }
     if (!response.ok) {
       let code; try {code = (await response.json())?.error?.code;} catch {}
       if (response.status === 401) throw new PilotError('provider_authentication', 502);
@@ -52,6 +61,7 @@ export function createAiService({apiKey, enabled = false, model = 'gpt-6.1-sol',
     }
     return response;
   }
+  async function invalidResult(response,userId,code){if(response.aiUsageId)await attemptStore?.markUsageFailed?.(userId,response.aiUsageId,code);return new PilotError(code,502);}
   async function contextFor(value,userId) {
     const context = await loadContext(value.languageId, value.skillId, value.statementId);
     if (!context || context.revision !== value.revision || (value.caseId && context.case.id !== value.caseId)
@@ -59,7 +69,7 @@ export function createAiService({apiKey, enabled = false, model = 'gpt-6.1-sol',
     await attemptStore?.contentAccess?.(userId,context.case.id);
     return context;
   }
-  const signatureFor = value => JSON.stringify([value.languageId,value.skillId,value.caseId,value.difficulty,value.statementId,value.revision,value.kind,value.text]);
+  const signatureFor=value=>JSON.stringify([value.languageId,value.skillId,value.caseId,value.difficulty,value.statementId,value.revision,value.kind,value.text,...(value.roundId?[value.roundId,value.saveHistory!==false]:[])]);
   const hash = async value => [...new Uint8Array(await crypto.subtle.digest('SHA-256',typeof value==='string'?new TextEncoder().encode(value):value))].map(byte=>byte.toString(16).padStart(2,'0')).join('');
   async function cached(userId,attemptId,action,signature,task) {
     for (const [id,entry] of attempts) if (entry.time<now()-900000) attempts.delete(id);
@@ -113,13 +123,13 @@ limitation names any missing evidence, briefly; it may be empty. Do not repeat b
         input: [{role: 'user', content: JSON.stringify({context, wordingAnchors: AI_ANCHORS[value.skillId], attemptKind: value.kind, therapistResponse: value.text})}],
         text: {format: {type: 'json_schema', name: 'practice_assessment', strict: true, schema: ASSESSMENT_SCHEMA}}},true,userId);
       let data;
-      try { data = await response.json(); } catch { throw new PilotError('assessment_unavailable', 502); }
-      if (data.status !== 'completed' || data.output?.some(item => item.content?.some(c => c.type === 'refusal')))
-        throw new PilotError('assessment_unavailable', 502);
-      const output = data.output?.flatMap(item => item.content ?? []).filter(c => c.type === 'output_text').map(c => c.text).join('');
+      try { data = await response.json(); } catch {throw await invalidResult(response,userId,'assessment_unavailable');}
+      if (!data || data.status !== 'completed' || !Array.isArray(data.output) || data.output.some(item=>Array.isArray(item.content)&&item.content.some(c=>c.type==='refusal')))
+        throw await invalidResult(response,userId,'assessment_unavailable');
+      const output = data.output.flatMap(item=>Array.isArray(item.content)?item.content:[]).filter(c => c.type === 'output_text').map(c => c.text).join('');
       let result;
-      try { result = validateAssessment(JSON.parse(output), value.text); } catch { throw new PilotError('assessment_unavailable', 502); }
-      return {languageId:value.languageId,signature,response:{protocol: AI_PROTOCOL, source: 'ai', attemptId: value.attemptId, kind: value.kind, result,
+      try { result = validateAssessment(JSON.parse(output), value.text); } catch {throw await invalidResult(response,userId,'assessment_unavailable');}
+      return {languageId:value.languageId,signature,...(value.roundId&&value.saveHistory!==false?{history:{roundId:value.roundId,skillId:value.skillId,caseId:context.case.id,difficulty:context.difficulty,statementId:value.statementId}}:{}),response:{protocol: AI_PROTOCOL, source: 'ai', attemptId: value.attemptId, kind: value.kind, result,
         model: typeof data.model === 'string' ? data.model : model, rubric: AI_RUBRIC, promptVersion: AI_PROMPT,
         contentRevision: context.revision, createdAt: new Date(now()).toISOString()}};
     });
@@ -129,7 +139,9 @@ limitation names any missing evidence, briefly; it may be empty. Do not repeat b
     if (!['en', 'no'].includes(languageId) || !file || file.size < 100 || file.size > 6000000
       || !/^(audio\/(webm|mp4|mpeg|wav|x-wav)|video\/webm)(;.*)?$/.test(file.type)) throw new PilotError('invalid_audio');
     if(attemptStore && !/^[0-9a-f-]{36}$/i.test(requestId??''))throw new PilotError('invalid_attempt');
-    const signature=await hash(new Uint8Array(await file.arrayBuffer()));
+    const recording=new Uint8Array(await file.arrayBuffer());
+    if(attemptStore){if(file.type!=='audio/wav')throw new PilotError('invalid_audio');try{practiceAudioMetrics(recording,'');}catch{throw new PilotError('invalid_audio');}}
+    const signature=await hash(recording);
     return cached(userId,requestId??crypto.randomUUID(),'transcribe',await hash(`${languageId}:${signature}`),async()=>{
     const form = new FormData();
     const extension = file.type.includes('mp4') ? 'mp4' : file.type.includes('mpeg') ? 'mp3' : file.type.includes('wav') ? 'wav' : 'webm';
@@ -137,8 +149,8 @@ limitation names any missing evidence, briefly; it may be empty. Do not repeat b
     if (transcriptionModel === 'gpt-transcribe') form.append('languages[]', languageId);
     else form.append('language', languageId);
     const response = await upstream('audio/transcriptions', form, false, userId);
-    let data; try { data = await response.json(); } catch { throw new PilotError('transcription_failed', 502); }
-    if (typeof data.text !== 'string' || !data.text.trim() || data.text.length > 1600) throw new PilotError('transcription_failed', 502);
+    let data; try { data = await response.json(); } catch {throw await invalidResult(response,userId,'transcription_failed');}
+    if (typeof data.text !== 'string' || !data.text.trim() || data.text.length > 1600) throw await invalidResult(response,userId,'transcription_failed');
     return {text: data.text.trim()};
     });
   }
@@ -184,7 +196,7 @@ Use describe_delivery. If unavailable, return only JSON matching ${JSON.stringif
         if(decoded && typeof decoded==='object' && !Array.isArray(decoded) && !Object.hasOwn(decoded,'limitation'))
           decoded.limitation=value.languageId==='no'?'Ett enkeltstående opptak kan ikke vise hvordan klienten opplevde svaret.':'An isolated recording cannot show how the client experienced the response.';
         result=validateDelivery(decoded);
-      } catch {throw new PilotError('delivery_unavailable',502);}
+      } catch {throw await invalidResult(response,userId,'delivery_unavailable');}
       return {response:{protocol:AI_PROTOCOL,attemptId:value.attemptId,version:AI_DELIVERY_VERSION,
         model:data.model||deliveryModel,result,metrics,createdAt:new Date(now()).toISOString()}};
     });
@@ -199,11 +211,12 @@ Use describe_delivery. If unavailable, return only JSON matching ${JSON.stringif
       voice = AI_CLIENT_VOICES[context.case.id]; if (!voice) throw new PilotError('invalid_speech');
       instructions = clientSpeechInstructions(context, input.languageId);
     } else {
-      const entry = await readAttempt(userId,input.attemptId);
+      let entry = await readAttempt(userId,input.attemptId);
+      if(!entry&&attemptStore?.historyAttempt){const old=await attemptStore.historyAttempt(userId,input.attemptId);if(old)entry={languageId:old.language_id,response:{source:'ai',kind:old.kind,model:old.model,result:{assessable:old.assessable,score:old.score,strength:old.strength,adjustment:old.adjustment,limitation:old.limitation}},historicalDelivery:old.delivery_strength?{audibility:'clear',strength:old.delivery_strength,adjustment:old.delivery_adjustment}:null};}
       if (!entry) throw new PilotError('assessment_expired', 409);
       text = supervisorFeedbackText(entry.response, entry.languageId);
       if(input.includeDelivery===true) {
-        const note=(await readAttempt(userId,input.attemptId,'delivery'))?.response.result;
+        const note=(await readAttempt(userId,input.attemptId,'delivery'))?.response.result??entry.historicalDelivery;
         if(note?.audibility==='clear')text+=` ${entry.languageId==='no'?'Om fremføringen':'For delivery'}: ${note.strength} ${note.adjustment}`;
       }
     }
@@ -213,7 +226,7 @@ Use describe_delivery. If unavailable, return only JSON matching ${JSON.stringif
       input: text, response_format: 'mp3', instructions: instructions
         ?? 'Speak as a calm, concise practice supervisor, in the language of the text. Leave a short pause between the rating, strength and practice adjustment.'},true,userId);
     const bytes=new Uint8Array(await response.arrayBuffer());
-    if(!bytes.length||bytes.length>280000)throw new PilotError('audio_unavailable',502);
+    if(!bytes.length||bytes.length>280000)throw await invalidResult(response,userId,'audio_unavailable');
     let binary='';for(let i=0;i<bytes.length;i+=8192)binary+=String.fromCharCode(...bytes.subarray(i,i+8192));
     return {audio:btoa(binary)};
     });
@@ -221,5 +234,8 @@ Use describe_delivery. If unavailable, return only JSON matching ${JSON.stringif
   }
   return {status: () => ({protocol: AI_PROTOCOL, mode: live ? 'live' : 'unconfigured',
     ...(live ? {models: {assessment: model, speech: SPEECH_MODEL, transcription: transcriptionModel,delivery:deliveryModel}} : {})}),
-    creditBalance:userId=>attemptStore?.balance?.(userId)??null, assess, transcribe, speech, delivery};
+    creditBalance:userId=>attemptStore?.balance?.(userId)??null,
+    history:async userId=>({protocol:AI_PROTOCOL,attempts:await attemptStore?.history?.(userId)??[]}),
+    recoverTranscript:async(userId,requestId)=>({protocol:AI_PROTOCOL,...await attemptStore?.recoverTranscript?.(userId,requestId)??{state:'expired'}}),
+    deleteHistory:async(userId,roundId)=>{await attemptStore?.deleteHistory?.(userId,roundId);return {protocol:AI_PROTOCOL,deleted:true};}, assess, transcribe, speech, delivery};
 }
