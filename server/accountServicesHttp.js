@@ -19,6 +19,10 @@ export function createAccountServicesHandler({billing,content,authorize,origins=
    if(action==='checkout')return json(await billing.checkout(user,input));
    if(action==='credits')return json(await billing.credits(user));
    if(action==='ai-usage')return json(await billing.aiUsage(user));
+   if(action==='redeem-promo')return json(await billing.promotions.redeem(user,input));
+   if(action==='promos')return json(await billing.promotions.list(user));
+   if(action==='create-promo')return json(await billing.promotions.create(user,input));
+   if(action==='disable-promo')return json(await billing.promotions.disable(user,input));
    if(action==='credit-checkout')return json(await billing.creditCheckout(user,input));
    if(action==='portal')return json(await billing.portal(user,input?.languageId));
    if(action==='content')return json(await content(user,input,request.headers.get('authorization')));

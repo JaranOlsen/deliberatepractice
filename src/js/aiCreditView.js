@@ -16,7 +16,7 @@ export function createAiCreditView({container,api,getUser,getLanguage,refreshAcc
    detail.addEventListener('toggle',async()=>{if(!detail.open)return;const user=getUser()?.id;try{const value=await api.aiUsage();if(user!==getUser()?.id)return;stats.textContent=getLanguage()==='no'?`${value.calls} kall · ${value.failed} feil · ≈ $${value.costUsd.toFixed(2)} (${value.estimatedCalls} estimert; ${value.unknownCostCalls??0} uten pris)`:`${value.calls} calls · ${value.failed} failed · ≈ $${value.costUsd.toFixed(2)} (${value.estimatedCalls} estimated; ${value.unknownCostCalls??0} unpriced)`;}catch{stats.textContent=c().error;}});element.append(detail);return;
   }
   const balance=node('strong',c().balance.replace('{n}',data.balance),'ai-credit-balance');balance.id='ai-credit-balance';element.append(balance);
-  if(data.balance>0)element.append(node('p',`${c().included.replace('{n}',data.included)} · ${c().purchased.replace('{n}',data.purchased)}`,'response-hint'));
+  if(data.balance>0)element.append(node('p',[c().included.replace('{n}',data.included),c().purchased.replace('{n}',data.purchased),data.gift?`${data.gift} ${getLanguage()==='no'?'fra koder':'from codes'}`:''].filter(Boolean).join(' · '),'response-hint'));
   element.append(node('p',data.refresh_at?c().refresh.replace('{date}',new Date(data.refresh_at).toLocaleDateString(getLanguage()==='no'?'nb-NO':'en-GB')):c().allowance,'response-hint'));
   if(data.packs.length) {
    const details=node('details','','ai-credit-topups');details.append(node('summary',c().topup));

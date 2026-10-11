@@ -1,6 +1,7 @@
 "use strict";
 
 import {collectRatingPages} from './ratingHistoryPages.js';
+import {aiProgressRatings} from './aiProgress.js';
 
 import {buildAuthRedirect} from './roomInvite.js';
 
@@ -221,12 +222,21 @@ export async function submitPracticeRating(payload) {
   return Array.isArray(data) ? data[0] ?? null : data ?? null;
 }
 
-export async function listPracticeRatings({source = 'self'} = {}) {
-  if (!['self','observer'].includes(source)) throw new Error('Unknown rating source');
+export async function listPracticeRatings({source = 'self',kind='first'} = {}) {
+  if (!['self','observer','ai'].includes(source)) throw new Error('Unknown rating source');
   const supabase = await getSupabaseClient();
   const {data:{user}, error:authError} = await supabase.auth.getUser();
   if (authError) throw new Error('Unable to load ratings');
   if (!user) return [];
+  if(source==='ai'){
+    if(!['first','retry'].includes(kind))throw new Error('Unknown AI attempt kind');
+    const rows=await collectRatingPages(async cursor=>{
+      let query=supabase.from('ai_practice_attempts').select('id:attempt_id,round_id,statement_id,kind,assessable,score,language_id,skill_id,case_id,difficulty,created_at,rubric')
+        .eq('user_id',user.id).eq('kind',kind).order('created_at',{ascending:false}).order('attempt_id',{ascending:false}).limit(250);
+      if(cursor)query=query.or(`created_at.lt.${cursor.created_at},and(created_at.eq.${cursor.created_at},attempt_id.lt.${cursor.id})`);
+      const {data,error}=await query.abortSignal(AbortSignal.timeout(15000));if(error)throw new Error('Unable to load AI ratings');return data??[];
+    });return aiProgressRatings(rows,kind);
+  }
   return collectRatingPages(async cursor => {
     const readPage = async withMetadata => {
       let query = supabase.from('practice_ratings')

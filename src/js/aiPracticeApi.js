@@ -42,9 +42,9 @@ export function createAiPracticeApi({base = '/api/ai-practice', fetcher = fetch,
       return (await request('transcribe', form, signal)).json();
     },
     async delivery(value,blob,signal) {
-      const form=new FormData();form.append('file',blob,'attempt.wav');form.append('attempt',JSON.stringify(value));
+      const form=new FormData();form.append('file',blob,'attempt.wav');form.append('attempt',JSON.stringify(value));form.append('deliveryVersion',AI_DELIVERY_VERSION);
       const data=await (await request('delivery',form,signal)).json();
-      if(data.protocol!==AI_PROTOCOL||data.attemptId!==value.attemptId||data.version!==AI_DELIVERY_VERSION
+      if(data.protocol!==AI_PROTOCOL||data.attemptId!==value.attemptId||![AI_DELIVERY_VERSION,'delivery-observations-v1'].includes(data.version)
         || typeof data.model!=='string' || !data.model || !Number.isFinite(data.metrics?.durationSeconds)
         || data.metrics.durationSeconds<1 || data.metrics.durationSeconds>90.5 || !Number.isInteger(data.metrics.wordsPerMinute)
         || data.metrics.wordsPerMinute<0 || data.metrics.wordsPerMinute>96000 || data.metrics.estimatedFromTranscript!==true)throw new Error('delivery_unavailable');

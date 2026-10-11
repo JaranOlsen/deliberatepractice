@@ -38,7 +38,7 @@ test('checkout uses verified account, fixed NOK price, hosted return paths and s
  const f=fixture();await f.service.checkout(user,input);await f.service.checkout(user,input);
  const checkout=f.calls.filter(c=>c.path==='checkout/sessions');assert.equal(checkout.length,2);
  assert.deepEqual(checkout[0].form,checkout[1].form);assert.equal(checkout[0].headers['Idempotency-Key'],checkout[1].headers['Idempotency-Key']);
- assert.equal(f.calls.filter(c=>c.path==='customers').length,1);assert.equal(checkout[0].form['line_items[0][price]'],'price_Month');
+ assert.equal(f.calls.filter(c=>c.path==='customers').length,1);assert.equal(checkout[0].form['line_items[0][price]'],'price_Month');assert.equal(checkout[0].form.allow_promotion_codes,'true');
  assert.equal(checkout[0].form['line_items[0][quantity]'],'1');assert.equal(checkout[0].form.locale,'nb');assert.equal(checkout[0].form.customer,'cus_Fixture');
  assert.equal(checkout[0].form.currency,'nok');
  assert.equal(checkout[0].form['payment_method_types[]'],undefined);assert.match(checkout[0].form.integration_identifier,/^deliberate-practice-[a-z]{8}$/);

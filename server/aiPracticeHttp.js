@@ -33,7 +33,12 @@ export function createPilotHandler(service, {origins = ['http://127.0.0.1:5173',
       }
       if(action==='delivery') {
         const form=await request.formData();
-        return json(await service.delivery(JSON.parse(form.get('attempt')),form.get('file'),userId));
+        const version=form.get('deliveryVersion');
+        if(version!==null&&version!=='delivery-observations-v2')throw new PilotError('invalid_request');
+        const result=await service.delivery(JSON.parse(form.get('attempt')),form.get('file'),userId);
+        // An already-open older app expects v1 and rejects new observation
+        // fields. Keep its transport compatible while new clients get anchors.
+        return json(version==='delivery-observations-v2'?result:{...result,version:'delivery-observations-v1',result:{...result.result,observations:result.result.observations.map(({anchor,...observation})=>observation)}});
       }
       if (!request.headers.get('content-type')?.startsWith('application/json')) throw new PilotError('invalid_request');
       const value = await request.json();

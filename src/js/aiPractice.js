@@ -207,7 +207,7 @@ export function createAiPractice({getLanguage, getOwner=()=>null, localizeSkill,
     } else card.append(node('p',copy().deliveryUnclear));
     const details=node('details');details.append(node('summary',copy().deliveryDetails));
     details.append(node('p',`${delivery.metrics.durationSeconds.toLocaleString(language)} ${copy().seconds} · ≈ ${delivery.metrics.wordsPerMinute} ${copy().wordsPerMinute}`,'response-hint'));
-    for(const observation of delivery.result.observations)details.append(node('p',observation.description));
+    for(const observation of delivery.result.observations){const p=node('p');if(observation.anchor)p.append(node('strong',`“${observation.anchor}” `));p.append(document.createTextNode(observation.description));details.append(p);}
     if(delivery.result.limitation)details.append(node('p',delivery.result.limitation,'response-hint'));
     details.append(node('p',copy().deliveryEstimate,'response-hint'));card.append(details);feedback.append(card);
   }
