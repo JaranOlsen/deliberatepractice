@@ -1,4 +1,5 @@
 import {createCreditBilling} from './aiCreditsBilling.js';
+import {createAiPromotions} from './aiPromotions.js';
 import {BILLING_PROTOCOL,FULL_ACCESS_PRICES} from '../src/data/subscriptionPlans.js';
 import {BILLING_BUSINESS,BILLING_LEGAL_URLS,BILLING_TERMS_VERSION,STRIPE_BILLING_API_VERSION,STRIPE_CHECKOUT_INTEGRATION} from '../src/data/billingBusiness.js';
 export {BILLING_PROTOCOL,FULL_ACCESS_PRICES};
@@ -64,7 +65,7 @@ export function createBillingService({secretKey,webhookSecret,monthlyPrice,yearl
  async function ensureCustomer(user,languageId) {
   let customer=await store.customer(user.id,live);
   if(!customer) {
-   const footer=`Deliberate Practice Lab. Renews each selected billing period until cancelled in Account / Manage subscription. Access continues through the paid period. A full refund can be requested within 14 days of the first purchase, even after practice begins: ${BILLING_BUSINESS.supportEmail}. To withdraw, email your name, account email and purchase date; no form is required. VAT exempt. Terms: ${BILLING_LEGAL_URLS.terms}. Privacy: ${BILLING_LEGAL_URLS.privacy}.`;
+   const footer=`EFT Dojo. Renews each selected billing period until cancelled in Account / Manage subscription. Access continues through the paid period. A full refund can be requested within 14 days of the first purchase, even after practice begins: ${BILLING_BUSINESS.supportEmail}. To withdraw, email your name, account email and purchase date; no form is required. VAT exempt. Terms: ${BILLING_LEGAL_URLS.terms}. Privacy: ${BILLING_LEGAL_URLS.privacy}.`;
    const value=await provider('customers',{email:user.email,'metadata[app_user_id]':user.id,...(BILLING_BUSINESS.supportEmail?{'invoice_settings[footer]':footer}:{}),'preferred_locales[]':languageId==='no'?'nb':'en'},`dp-customer:${mode}:${user.id}`);
    if(!id(value.id,'cus')||value.livemode!==live)throw new BillingError('billing_configuration',503);
    customer=await store.saveCustomer(user.id,live,value.id);
@@ -95,7 +96,7 @@ export function createBillingService({secretKey,webhookSecret,monthlyPrice,yearl
   }
   const success=new URL(appUrl);success.searchParams.set('billing','success');
   const cancel=new URL(appUrl);cancel.searchParams.set('billing','cancelled');
-  const value=await provider('checkout/sessions',{mode:'subscription',currency:'nok',customer,client_reference_id:user.id,
+  const value=await provider('checkout/sessions',{mode:'subscription',currency:'nok',customer,client_reference_id:user.id,allow_promotion_codes:true,
    'line_items[0][price]':prices[input.interval],'line_items[0][quantity]':1,locale:input.languageId==='no'?'nb':'en',
    success_url:success.href,cancel_url:cancel.href,billing_address_collection:'required','customer_update[address]':'auto','customer_update[name]':'auto',
    'tax_id_collection[enabled]':true,'automatic_tax[enabled]':taxEnabled,'subscription_data[metadata][app_user_id]':user.id,
@@ -119,6 +120,7 @@ export function createBillingService({secretKey,webhookSecret,monthlyPrice,yearl
   return {protocol:BILLING_PROTOCOL,url:value.url,test:!live};
  }
  const creditBilling=createCreditBilling({store,provider,requireReady,configure,ensureCustomer,mode,appUrl,taxEnabled,now});
+ const promotions=createAiPromotions({store,now});
  async function webhook(raw,signature) {
   const event=await verifyStripeEvent(raw,signature,webhookSecret,{now});
   if(!id(event.id,'evt')||event.livemode!==live)throw new BillingError('invalid_event');
@@ -177,5 +179,5 @@ export function createBillingService({secretKey,webhookSecret,monthlyPrice,yearl
    paidThrough,periodStart,cancelAtPeriodEnd:subscription.cancel_at_period_end===true,observed});
   return {received:true};
  }
- return {status,checkout,portal,webhook,credits:creditBilling.credits,creditCheckout:creditBilling.checkout,aiUsage:creditBilling.usage};
+ return {status,checkout,portal,webhook,credits:creditBilling.credits,creditCheckout:creditBilling.checkout,aiUsage:creditBilling.usage,promotions};
 }

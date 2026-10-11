@@ -32,6 +32,7 @@ test('audio review uses audio itself, measured grounding and canonical context w
   assert.equal(first.result.score,4);assert.equal(note.version,AI_DELIVERY_VERSION);assert.equal(note.model,'audio-model');assert.ok(!('score' in note.result));
   assert.equal(sent[1].body.messages[1].content[1].type,'input_audio');assert.equal(sent[1].body.store,false);
   assert.match(sent[1].body.messages[0].content,/Never infer authenticity/);assert.match(sent[1].body.messages[1].content[0].text,/durationSeconds/);
+  const context=JSON.parse(sent[1].body.messages[1].content[0].text);assert.equal(context.therapistTranscript,attempt.text);assert.match(context.listeningTarget.listenFor,/emotional word/);assert.match(sent[1].body.messages[0].content,/one small, testable change/);
   assert.deepEqual(await pilot.delivery(attempt,wav(),owner),note);assert.equal(sent.length,2);
 });
 test('delivery cannot review another owner’s attempt, changed wording or unsupported recordings',async()=>{
@@ -92,6 +93,14 @@ test('hosted storage accepts empty successful bodies for void RPCs',async()=>{
   const store=createHostedStore({url:'https://fixture.invalid',secretKey:'fixture',fetcher:async()=>new Response(null,{status:200})});
   assert.equal(await store.reserve(owner),null);
   assert.equal(await store.abort(owner,owner,'assess','lease'),null);
+});
+test('a saved v1 delivery remains readable while unknown versions are rejected',async()=>{
+ let version='delivery-observations-v1';const api=createAiPracticeApi({getAccessToken:async()=>'fixture',fetcher:async()=>Response.json({protocol:AI_PROTOCOL,attemptId:attempt.attemptId,version,model:'audio',result,metrics:{durationSeconds:3,wordsPerMinute:120,estimatedFromTranscript:true}})});
+ assert.equal((await api.delivery(attempt,wav())).version,version);version='unverified-version';await assert.rejects(api.delivery(attempt,wav()),/delivery_unavailable/);
+});
+test('a fabricated phrase anchor is removed instead of being presented as audible evidence',async()=>{
+ const pilot=service({fetcher:async(url,init)=>url.endsWith('/responses')?provider(url,init):Response.json({model:'audio',choices:[{message:{tool_calls:[{function:{name:'describe_delivery',arguments:JSON.stringify({...result,observations:[{dimension:'pace',description:'An observation.',anchor:'words never spoken'}]})}}]}}]})});
+ await pilot.assess(attempt,owner);assert.equal((await pilot.delivery(attempt,wav(),owner)).result.observations[0].anchor,undefined);
 });
 
 test('persisted rounds bind delivery review to the same round and history choice',async()=>{

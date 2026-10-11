@@ -1,0 +1,33 @@
+begin;
+insert into auth.users(id,email) values('20000000-0000-4000-8000-000000000001','admin@fixture.invalid'),('20000000-0000-4000-8000-000000000002','one@fixture.invalid'),('20000000-0000-4000-8000-000000000003','two@fixture.invalid');
+insert into public.promotion_admin_access(user_id) values('20000000-0000-4000-8000-000000000001');
+update public.app_public_config set ai_credits_enabled=true;
+do $$declare p jsonb;r jsonb;b jsonb;token uuid;begin
+ p:=public.create_ai_credit_promo('20000000-0000-4000-8000-000000000001','DOJO-RECIPIENT','Recipient',120,1,now()+interval '1 day','one@fixture.invalid');
+ if p ? 'code_hash' then raise exception 'Hash exposed';end if;
+ r:=public.redeem_ai_credit_promo('20000000-0000-4000-8000-000000000003','two@fixture.invalid','DOJO-RECIPIENT');if r->>'state'<>'unavailable' then raise exception 'Wrong recipient accepted';end if;
+ r:=public.redeem_ai_credit_promo('20000000-0000-4000-8000-000000000002','one@fixture.invalid','dojo-recipient');if r->>'state'<>'added' then raise exception 'Gift not granted';end if;
+ r:=public.redeem_ai_credit_promo('20000000-0000-4000-8000-000000000002','one@fixture.invalid','DOJO-RECIPIENT');if r->>'state'<>'already' then raise exception 'Gift replay not idempotent';end if;
+ b:=public.get_ai_credit_balance('20000000-0000-4000-8000-000000000002');if (b->>'balance')::int<>120 or (b->>'gift')::int<>120 or (b->>'purchased')::int<>0 then raise exception 'Gift balance incorrect';end if;
+ if not dp_private.ai_credit_eligible('20000000-0000-4000-8000-000000000002') then raise exception 'Gift recipient cannot use AI';end if;
+ if dp_private.has_full_content('20000000-0000-4000-8000-000000000002') then raise exception 'Gift unlocked paid library';end if;
+ r:=public.begin_ai_credit_operation('20000000-0000-4000-8000-000000000002','20000000-0000-4000-8000-000000000009','assess',repeat('f',64));token:=(r->>'lease')::uuid;
+ if not public.finish_ai_credit_operation('20000000-0000-4000-8000-000000000002','20000000-0000-4000-8000-000000000009','assess',token,'{}') then raise exception 'Gift consumption failed';end if;
+ if (public.get_ai_credit_balance('20000000-0000-4000-8000-000000000002')->>'balance')::int<>119 then raise exception 'Gift not debited';end if;
+ p:=public.create_ai_credit_promo('20000000-0000-4000-8000-000000000001','DOJO-ONEUSE00','Single use',12,1,now()+interval '1 day',null);
+ perform public.redeem_ai_credit_promo('20000000-0000-4000-8000-000000000002','one@fixture.invalid','DOJO-ONEUSE00');
+ r:=public.redeem_ai_credit_promo('20000000-0000-4000-8000-000000000003','two@fixture.invalid','DOJO-ONEUSE00');if r->>'state'<>'unavailable' then raise exception 'Redemption cap bypassed';end if;
+ p:=public.create_ai_credit_promo('20000000-0000-4000-8000-000000000001','DOJO-DISABLED','Disabled',12,2,now()+interval '1 day',null);
+ update public.ai_credit_promos set enabled=false where id=(p->>'id')::uuid;
+ r:=public.redeem_ai_credit_promo('20000000-0000-4000-8000-000000000003','two@fixture.invalid','DOJO-DISABLED');if r->>'state'<>'unavailable' then raise exception 'Disabled code accepted';end if;
+ p:=public.create_ai_credit_promo('20000000-0000-4000-8000-000000000001','DOJO-EXPIRED0','Expired',12,2,now()+interval '1 day',null);
+ update public.ai_credit_promos set expires_at=now()-interval '1 second' where id=(p->>'id')::uuid;
+ r:=public.redeem_ai_credit_promo('20000000-0000-4000-8000-000000000003','two@fixture.invalid','DOJO-EXPIRED0');if r->>'state'<>'unavailable' then raise exception 'Expired code accepted';end if;
+ for i in 1..10 loop perform public.redeem_ai_credit_promo('20000000-0000-4000-8000-000000000003','two@fixture.invalid','DOJO-NOTREAL');end loop;
+ r:=public.redeem_ai_credit_promo('20000000-0000-4000-8000-000000000003','two@fixture.invalid','DOJO-NOTREAL');if r->>'state'<>'limited' then raise exception 'Attempt limit missing';end if;
+end $$;
+do $$begin
+ if has_function_privilege('authenticated','public.redeem_ai_credit_promo(uuid,text,text)','execute') or has_table_privilege('authenticated','public.ai_credit_promos','select') then raise exception 'Promo inventory exposed';end if;
+ begin perform public.create_ai_credit_promo('20000000-0000-4000-8000-000000000002','DOJO-FORGED00','Bad',120,1,now()+interval '1 day',null);raise exception 'Ordinary user issued credits';exception when others then if sqlerrm<>'admin_required' then raise;end if;end;
+end $$;
+rollback;

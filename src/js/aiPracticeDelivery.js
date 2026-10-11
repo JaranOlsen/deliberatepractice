@@ -1,15 +1,16 @@
-export const AI_DELIVERY_VERSION = 'delivery-observations-v1';
+export const AI_DELIVERY_VERSION = 'delivery-observations-v2';
 export const DELIVERY_SCHEMA = {type:'object',additionalProperties:false,properties:{
   audibility:{type:'string',enum:['clear','limited','unusable']},
   observations:{type:'array',maxItems:2,items:{type:'object',additionalProperties:false,properties:{
-    dimension:{type:'string',enum:['pace','pauses','intonation','volume']},description:{type:'string'}},required:['dimension','description']}},
+    dimension:{type:'string',enum:['pace','pauses','intonation','volume']},description:{type:'string'},anchor:{type:'string'}},required:['dimension','description']}},
   strength:{type:'string'},adjustment:{type:'string'},limitation:{type:'string'}
 },required:['audibility','observations','strength','adjustment','limitation']};
 
 export function validateDelivery(value) {
   if (!value || Object.keys(value).some(key=>!DELIVERY_SCHEMA.required.includes(key))
     || !['clear','limited','unusable'].includes(value.audibility) || !Array.isArray(value.observations) || value.observations.length>2
-    || value.observations.some(item=>!item || Object.keys(item).some(key=>!['dimension','description'].includes(key))
+    || value.observations.some(item=>!item || Object.keys(item).some(key=>!['dimension','description','anchor'].includes(key))
+      || item.anchor!==undefined&&(typeof item.anchor!=='string'||item.anchor.length>120)
       || !['pace','pauses','intonation','volume'].includes(item.dimension) || typeof item.description!=='string' || !item.description.trim() || item.description.length>450)
     || ['strength','adjustment','limitation'].some(key=>typeof value[key]!=='string' || value[key].length>600)
     || (value.audibility==='clear' && (!value.strength.trim() || !value.adjustment.trim()))) throw new Error('delivery_unavailable');

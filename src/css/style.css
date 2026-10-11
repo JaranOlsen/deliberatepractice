@@ -2743,3 +2743,21 @@ body:is([data-section="practice"], [data-section="room"], [data-section="mastery
 .ai-history-card .ai-round-scores { margin:.75rem 0; }
 .ai-history-card .ai-score-card { padding:.7rem; }
 .ai-history-target { border-left:3px solid var(--card-accent,#315f5b);padding-left:.75rem; }
+/* AI setup costs sit beside their controls and remain readable on phones. */
+.ai-option-toggle{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:start;gap:.65rem;}
+.ai-option-toggle small,.ai-option-cost{font-size:.78rem;color:var(--color-muted);white-space:nowrap;}
+.ai-input-mode button{display:grid;place-content:center;align-self:stretch;gap:.15rem;white-space:nowrap;padding:.6rem .8rem;min-height:60px;}
+.ai-attempt-cost{font-weight:650;margin-bottom:.3rem;}
+.ai-delivery-focus{margin:.1rem 0 .8rem 2rem;}
+.brand-subtitle{display:none;margin:.3rem 0 0;max-width:36ch;font-size:.82rem;line-height:1.35;opacity:.85;}
+body:is([data-section="home"],[data-section="language"]) .brand-subtitle{display:block;}
+.promotion-section{border-top:1px solid var(--color-border);padding-top:1rem;margin-top:1rem;}
+.promotion-section details+details{margin-top:1rem;}
+.promotion-section summary{min-height:44px;display:list-item;cursor:pointer;font-weight:600;}
+.promotion-section form{display:grid;gap:.6rem;padding:.6rem 0;}
+.promotion-section input{width:100%;min-height:44px;box-sizing:border-box;padding:.65rem .8rem;border:1px solid var(--color-border);border-radius:12px;background:var(--color-panel);font:inherit;color:inherit;}
+.promotion-section form>div{display:grid;gap:.4rem;}
+.promotion-section label{font-size:.9rem;}
+.promo-list{padding:0;list-style:none;display:grid;gap:1rem;}
+.promo-list li{display:grid;gap:.3rem;padding:.7rem;border:1px solid var(--color-border);border-radius:12px;overflow-wrap:anywhere;}
+.promo-stripe-link{display:inline-flex;align-items:center;min-height:44px;color:inherit;}

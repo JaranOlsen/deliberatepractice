@@ -1,4 +1,5 @@
 import {createAiHistoryView} from './aiHistoryView.js';
+import {createPromotionView} from './promotionView.js';
 import {setHeaderControl} from './headerUI.js';
 import {visibleScreenBounds, screenSafeInsets} from './screenViewport.js';
 import {createAppTour} from './appTour.js';
@@ -458,6 +459,7 @@ const state = {
   authTargets: [],
   authLoading: false,
   progressSource: "self",
+  progressAiKind: "first",
   progressDifficulty: "all",
   progressPeriod: "recent",
   progressRatings: [],
@@ -513,6 +515,8 @@ const aiCreditView=createAiCreditView({container:document.getElementById('access
   state.accountAccess=access;state.aiAllowed=access.ai_access;state.aiAdmin=access.ai_admin;state.fullContent=access.full_content;renderAuthUI();
  }});
 const aiHistoryView=createAiHistoryView({container:document.getElementById('access-section'),apiOptions:{...aiApiOptions(),getUserId:()=>state.authUser?.id},getUser:()=>state.authUser,getLanguage:()=>state.languageId??'en',localizeSkill});
+const promotionView=createPromotionView({container:document.getElementById('access-section'),api:createBillingApi({...accountServicesOptions(),getUserId:()=>state.authUser?.id}),getUser:()=>state.authUser,getLanguage:()=>state.languageId??'en',refreshAccess:async()=>{const id=state.authUser?.id;if(!id)return;const access=await getAccountAccess();if(id!==state.authUser?.id)return;state.accountAccess=access;state.aiAllowed=access.ai_access;state.aiAdmin=access.ai_admin;state.fullContent=access.full_content;renderAuthUI();}});
+window.addEventListener('dp-ai-credits-changed',()=>{if(state.progressSource==='ai'){state.progressRatingsLoaded=false;if(!releaseElements['progress-overlay'].hidden)void loadProgressRatings({force:true});}});
 function paintExerciseChoice(available, catalog = EXERCISE_CATALOG) {
  const no=state.languageId==='no',selected=exerciseType==='mastery' && available;
  const single=document.getElementById('exercise-single'),mixed=document.getElementById('exercise-mastery');
@@ -1399,12 +1403,13 @@ function renderSelfRatingsChart() {
   releaseElements["progress-source-label"].textContent = strings.progressSourceLabel;
   releaseElements["progress-source-self"].textContent = strings.progressSelf;
   releaseElements["progress-source-observer"].textContent = strings.progressObserver;
+  document.getElementById('progress-source-ai').textContent=state.languageId==='no'?'KI-vurderinger':'AI ratings';
   releaseElements["progress-source"].value = state.progressSource;
   if (elements.selfChartTitle) {
     elements.selfChartTitle.textContent = strings.selfChartTitle ?? "Your progress";
   }
   if (elements.selfChartDescription) {
-    elements.selfChartDescription.textContent = state.progressSource === "observer" ? strings.progressObserverDescription : strings.selfChartDescription;
+    elements.selfChartDescription.textContent = state.progressSource==='ai'?(state.languageId==='no'?'KI vurderer ordvalg og mening. Stemmetilbakemelding inngår ikke i skåren.':'AI scores wording and meaning. Vocal feedback is separate.') : state.progressSource === "observer" ? strings.progressObserverDescription : strings.selfChartDescription;
   }
   if (elements.selfChartRefresh) {
     elements.selfChartRefresh.textContent = strings.selfChartRefresh ?? "Refresh";
@@ -1413,7 +1418,11 @@ function renderSelfRatingsChart() {
   if (!elements.selfChart || !elements.selfChartStatus) return;
 
   renderMasteryHistory({host:document.getElementById("mastery-history"),rows:state.masteryRatings,source:state.progressSource,language:state.languageId??"en",loading:state.progressRatingsLoading,error:state.masteryRatingsError,signedIn:!!state.authUser});
-  const mixed=state.progressExercise==='mastery',no=state.languageId==='no';
+  const ai=state.progressSource==='ai',mixed=!ai&&state.progressExercise==='mastery',no=state.languageId==='no';
+  document.getElementById('progress-exercise-choice').hidden=ai;
+  const kindChoice=document.getElementById('progress-ai-kind');kindChoice.hidden=!ai;
+  kindChoice.setAttribute('aria-label',no?'KI-forsøk':'AI attempt');
+  for(const b of kindChoice.querySelectorAll('button')){b.textContent=b.dataset.aiKind==='first'?(no?'Før tilbakemelding':'Before feedback'):(no?'Etter tilbakemelding':'After feedback');b.setAttribute('aria-pressed',String(b.dataset.aiKind===state.progressAiKind));}
   document.getElementById('progress-single').textContent=no?'Én ferdighet':'Single skill';
   document.getElementById('progress-mastery').textContent=no?'Mestringsøving':'Mastery practice';
   document.getElementById('progress-single').setAttribute('aria-pressed',String(!mixed));
@@ -1469,7 +1478,7 @@ function renderSelfRatingsChart() {
     formatChartTemplate(strings.selfChartCount, {count: visibleCount})
   ].join(' · ');
   if (!summary.overall.count) {
-    elements.selfChartStatus.textContent = state.progressRatings.length && state.progressPeriod === 'recent' ? strings.progressNoRecent : state.progressSource === 'observer' ? strings.progressObserverEmpty : strings.selfChartEmpty;
+    elements.selfChartStatus.textContent = state.progressRatings.length && state.progressPeriod === 'recent' ? strings.progressNoRecent : ai?(no?'Ingen lagrede KI-skårer ennå.':'No saved AI scores yet.') : state.progressSource === 'observer' ? strings.progressObserverEmpty : strings.selfChartEmpty;
     elements.selfChart.append(suggestion, renderProgressHistory());
     return;
   }
@@ -1627,7 +1636,7 @@ function renderSelfRatingsChart() {
   methodsTitle.textContent = strings.progressMethods;
   const explanation = document.createElement("p");
   explanation.className = "response-hint";
-  explanation.textContent = strings.progressMethodDescription;
+  explanation.textContent = strings.progressMethodDescription+(ai?(no?' KI-skårer vises separat før og etter tilbakemelding; ett utsagn teller én gang i hver profil. Bare skårer lagret i KI-historikken vises.':' AI scores before and after feedback are separate; each statement counts once in each profile. Only scores saved to AI history appear.'):'');
   methods.append(methodsTitle, explanation, difficultyList, matrix);
   elements.selfChart.append(levels, axisCount >= 3 ? radarMap : smallProfile, legend, suggestion, renderProgressHistory(), methods);
 }
@@ -1657,12 +1666,13 @@ async function loadProgressRatings({ force = false } = {}) {
   const requestId = ++progressRequestId;
   const userId = state.authUser.id;
   const source = state.progressSource;
-  const isCurrent = () => requestId === progressRequestId && state.authUser?.id === userId && state.progressSource === source;
+  const kind=state.progressAiKind;
+  const isCurrent = () => requestId === progressRequestId && state.authUser?.id === userId && state.progressSource === source&&state.progressAiKind===kind;
   state.progressRatingsLoading = true;
   state.progressRatingsError = "";
   renderSelfRatingsChart();
   try {
-    const [focused,mixed] = await Promise.allSettled([listPracticeRatings({source}),listMasteryRatings({source})]);
+    const [focused,mixed] = await Promise.allSettled([listPracticeRatings({source,kind}),source==='ai'?Promise.resolve([]):listMasteryRatings({source})]);
     if (!isCurrent()) return;
     state.masteryRatings = mixed.status==='fulfilled'?mixed.value:[];
     state.masteryRatingsError = mixed.status==='rejected';
@@ -1702,7 +1712,7 @@ function showAccountPanel() {
   aiPractice.stopAudio();
   if (!elements.accountOverlay) return;
   renderAuthUI();
-  void subscriptionView.refresh();void aiCreditView.refresh();
+  void subscriptionView.refresh();void aiCreditView.refresh();void promotionView.refresh();
   dialogs.open(elements.accountOverlay, { onDismiss: hideAccountPanel,
     initialFocus: state.authUser ? elements.closeAccountButton : emailSignIn.hasCode()?document.getElementById('auth-code'):elements.authEmail });
 }
@@ -1784,7 +1794,7 @@ function renderAuthUI() {
   document.getElementById('account-code-summary').textContent=SIGNIN_COPY[no?'no':'en'].access;
   for(const [key,label] of [['terms',no?'Vilkår':'Terms'],['privacy',no?'Personvern':'Privacy']]){const link=document.getElementById('app-'+key);link.textContent=label;link.href=`${key}.html?lang=${no?'no':'en'}`;}
   emailSignIn.render();
-  subscriptionView.render();aiCreditView.render();aiHistoryView.render();
+  subscriptionView.render();aiCreditView.render();aiHistoryView.render();promotionView.render();
   renderPracticeFormatUI();
   renderGroupEntry();
   renderSelfRatingsChart();
@@ -1817,7 +1827,7 @@ async function applyAuthSession(session) {
   if (userChanged) {
     aiPractice.reset();
     state.fullContent=false;state.accountAccess=null;
-    subscriptionView.reset();aiCreditView.reset();aiHistoryView.reset();
+    subscriptionView.reset();aiCreditView.reset();aiHistoryView.reset();promotionView.reset();
     progressRequestId += 1;
     state.progressSource = "self";
     state.progressDifficulty = "all";
@@ -2230,6 +2240,7 @@ function applyLanguageStrings(languageId) {
   document.title = strings.appTitle;
 
   elements.appTitle.textContent = strings.appTitle;
+  document.getElementById('app-subtitle').textContent=strings.brandSubtitle;
 
   elements.languagePanelTitle.textContent = strings.languageHeading;
   elements.languageList.setAttribute("aria-label", strings.languageListAria);
@@ -4067,11 +4078,12 @@ function registerEventListeners() {
     if (event.target === releaseElements["progress-overlay"]) dialogs.close(releaseElements["progress-overlay"]);
   });
   releaseElements["progress-source"].addEventListener("change", (event) => {
-    state.progressSource = event.target.value === "observer" ? "observer" : "self";
+    state.progressSource = ['self','observer','ai'].includes(event.target.value)?event.target.value:'self';
     state.progressRatings = [];
     state.progressRatingsLoaded = false;
     loadProgressRatings({ force: true });
   });
+  for(const button of document.querySelectorAll('[data-ai-kind]'))button.addEventListener('click',()=>{state.progressAiKind=button.dataset.aiKind;state.progressRatings=[];state.progressRatingsLoaded=false;void loadProgressRatings({force:true});});
   releaseElements["repeat-last-setup"].addEventListener("click", repeatLastPracticeSetup);
   releaseElements["retry-individual"].addEventListener("click", () => {
     resetSuggestionVisibility();

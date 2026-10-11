@@ -26,7 +26,7 @@ for(const interval of ['month','year']) {
 }
 const configs=await call('billing_portal/configurations?limit=100');
 let portal=configs.data.find(c=>c.metadata?.app==='deliberatepractice'&&c.livemode===false&&c.active);
-if(!portal)portal=await call('billing_portal/configurations',{'business_profile[headline]':'Deliberate Practice Lab',
+if(!portal)portal=await call('billing_portal/configurations',{'business_profile[headline]':'EFT Dojo',
  'features[subscription_cancel][enabled]':'true','features[subscription_cancel][mode]':'at_period_end',
  'features[payment_method_update][enabled]':'true','features[invoice_history][enabled]':'true','metadata[app]':'deliberatepractice'},'dp-test-portal-v1');
 if(portal.livemode!==false)throw Error('Unexpected live portal configuration');

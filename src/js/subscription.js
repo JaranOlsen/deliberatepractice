@@ -12,7 +12,7 @@ export function createBillingApi({base,getToken,getUserId,publishableKey,fetcher
   const value=await response.json();if(!response.ok)throw Error(value.error||'billing_unavailable');
   if(value.protocol!==BILLING_PROTOCOL)throw Error('billing_unavailable');return value;
  }
- return {status:()=>call('status'),checkout:body=>call('checkout',body),portal:languageId=>call('portal',{languageId}),credits:()=>call('credits',{}),aiUsage:()=>call('ai-usage',{}),creditCheckout:body=>call('credit-checkout',body)};
+ return {status:()=>call('status'),checkout:body=>call('checkout',body),portal:languageId=>call('portal',{languageId}),credits:()=>call('credits',{}),aiUsage:()=>call('ai-usage',{}),creditCheckout:body=>call('credit-checkout',body),redeemPromo:code=>call('redeem-promo',{code}),promos:()=>call('promos',{}),createPromo:body=>call('create-promo',body),disablePromo:id=>call('disable-promo',{id})};
 }
 export function createSubscriptionView({container,api,getUser,getLanguage,getAccess,isAiAdmin,refreshAccess}) {
  const node=(tag,text='',className='')=>{const e=document.createElement(tag);e.textContent=text;e.className=className;return e;};
@@ -41,6 +41,7 @@ export function createSubscriptionView({container,api,getUser,getLanguage,getAcc
    for(const value of ['month','year']){const b=node('button','','ghost-button');b.type='button';b.dataset.billingInterval=value;b.setAttribute('aria-pressed',String(interval===value));
     b.append(node('span',c()[value]),node('strong',money(FULL_ACCESS_PRICES[value])));b.disabled=busy;b.addEventListener('click',()=>{interval=value;render();element.querySelector(`[data-billing-interval="${value}"]`).focus();});options.append(b);}
    element.append(options);
+   element.append(node('p',getLanguage()==='no'?'Rabattkode? Legg den inn i betalingen.':'Discount code? Add it at checkout.','response-hint'));
    element.append(node('p',getLanguage()==='no'?`Fornyes automatisk ${interval==='month'?'hver måned':'hvert år'}. Si opp når som helst.`:`Renews automatically ${interval==='month'?'monthly':'yearly'}. Cancel anytime.`,'subscription-renewal'));
    if(user){const b=node('button',busy?c().working:c().subscribe,'primary-button');b.type='button';b.id='billing-subscribe';b.disabled=busy;b.addEventListener('click',()=>void subscribe());element.append(b);}
    else element.append(node('p',c().signin,'response-hint'));
