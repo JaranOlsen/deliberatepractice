@@ -98,7 +98,7 @@ async (page) => {
       const response=await p.request.post('http://127.0.0.1:5199/goal',{data:{...data,user:users[user],targetUserId:data.userId}});
       await route.fulfill({status:response.status(),contentType:'application/json',body:await response.text()});
     });
-    await context.addInitScript(language=>{localStorage.setItem('dp_access_level','all');localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:language,practiceMode:'group',groupUiVersion:2}));},language);
+    await context.addInitScript(language=>{localStorage.setItem('dp_app_tour_v1',JSON.stringify({disabled:true}));localStorage.setItem('dp_access_level','all');localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:language,practiceMode:'group',groupUiVersion:2}));},language);
     await p.goto(url);await p.waitForFunction(()=>['Account','Konto'].includes(document.querySelector('#account-button').getAttribute('aria-label')));
   }
   const [o,t,c,watcher]=pages;
