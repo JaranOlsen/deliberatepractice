@@ -1719,6 +1719,7 @@ function showAccountPanel() {
 
 function hideAccountPanel() {
   if (!elements.accountOverlay) return;
+  writeJsonStorage(AUTH_INTENT_KEY,null);
   dialogs.close(elements.accountOverlay);
 }
 

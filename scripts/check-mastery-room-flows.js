@@ -21,6 +21,21 @@ async (page) => {
     const p=await context.newPage();pages.push(p);p.on('pageerror',e=>errors.push(e.message));
     await context.route('**/src/js/backend.js*',route=>route.fulfill({contentType:'text/javascript',body:`
       const user={id:'${users[user]}',email:'${user}@example.invalid'};
+      export const getAiAccess=async()=>false;
+      export const aiApiOptions=()=>({});
+      export const accountServicesOptions=()=>({base:'/__billing_test',getToken:async()=>null});
+      export const getPublicAppConfig=async()=>({email_mode:'link',billing_mode:'off'});
+      export const getAccountAccess=async()=>({full_content:true,ai_access:false,subscription:null});
+      export const sendEmailSignIn=async()=>{throw Error('Unexpected email');};
+      export const verifyEmailSignIn=async()=>{throw Error('Unexpected code');};
+      export const redeemAccountAccessCode=async()=>{throw Error('Unexpected code redemption');};
+      export const fetchAccountContent=async input=>{
+        const file=input.kind==='skill'?'statements/'+input.languageId+'-'+input.skillId+'.json':'mastery/'+input.languageId+'-'+input.exerciseId+'.json';
+        const response=await fetch('src/data/runtime/'+file);if(!response.ok)throw Error('Missing content fixture');
+        const data=await response.json(),revision=input.kind==='skill'?Object.values(data)[0][0].revision:data.revision;
+        return {protocol:'practice-content-v1',revision,...(input.kind==='skill'?{bank:data}:{exercise:data})};
+      };
+
       export const isSupabaseReady=()=>true;
       export const isAccessExpired=()=>false;
       export const getAuthSession=async()=>({user});
@@ -84,7 +99,7 @@ async (page) => {
       await route.fulfill({status:response.status(),contentType:'application/json',body:await response.text()});
     });
     await context.addInitScript(language=>{localStorage.setItem('dp_access_level','all');localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:language,practiceMode:'group',groupUiVersion:2}));},language);
-    await p.goto(url);await p.waitForFunction(()=>['Account','Konto'].includes(document.querySelector('#account-button').textContent));
+    await p.goto(url);await p.waitForFunction(()=>['Account','Konto'].includes(document.querySelector('#account-button').getAttribute('aria-label')));
   }
   const [o,t,c,watcher]=pages;
   const click=async(p,id)=>{

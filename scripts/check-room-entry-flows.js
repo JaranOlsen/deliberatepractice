@@ -37,6 +37,10 @@ async page=>{
   assert(await p.locator('#room-change-role-submit').count()===0,'Role changes need no submit button');
   await p.evaluate(()=>window.scrollTo(0,0));await p.screenshot({path:'output/playwright/streamline-room-entry-320.png',fullPage:true});
   const before=creationIds.length;
+  await p.locator('#account-button').click();await p.locator('#auth-signout').click();await p.locator('#auth-email').waitFor();await p.locator('#close-account').click();
+  await p.locator('#group-create').click();await p.locator('#auth-email').waitFor();await p.locator('#close-account').click();
+  await p.locator('#account-button').click();await p.locator('#auth-email').fill(user.email);await p.locator('#auth-submit').click();await p.locator('#auth-code').waitFor();await p.locator('#auth-code').fill('12345678');await p.locator('#auth-verify').click();await p.locator('#auth-signed-in').waitFor();
+  assert(creationIds.length===before&&await p.locator('#room-panel').isHidden(),'Cancelling Create sign-in prevents a later ordinary sign-in from creating a room');await p.locator('#close-account').click();
   await p.evaluate(async uid=>{
    document.getElementById('room-panel').remove();document.getElementById('room-exit-overlay').remove();
    const {createPracticeRoomView}=await import('./src/js/practiceRoom.js'),{createDialogManager}=await import('./src/js/dialogs.js');
@@ -45,6 +49,6 @@ async page=>{
    view.goHome();window.releaseRoomEntry({languageId:'en'});await pending;
   },uid);
   assert(creationIds.length===before,'Leaving during preparation cannot create a late room');assert(!errors.length,errors.join('; '));
-  return{passed:true,signInThenCreate:true,creationReplay:true,immediateRole:true,roleReplay:true,cancelPending:true,productionWrites:0,emailsSent:0};
+  return{passed:true,signInThenCreate:true,creationReplay:true,immediateRole:true,roleReplay:true,cancelPending:true,cancelSignIn:true,productionWrites:0,emailsSent:0};
  }finally{await context.close();}
 }

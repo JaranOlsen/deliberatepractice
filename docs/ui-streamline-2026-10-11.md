@@ -17,7 +17,8 @@ Create room immediately creates and opens the room. A signed-out host goes
 through sign-in and then automatically continues creation. The host initially
 occupies Therapist and can choose another role inside the room. Creation uses
 the existing stable request UUID, with a retry shown only after an error.
-Leaving before asynchronous configuration completes cancels creation.
+Leaving before asynchronous configuration completes cancels creation. Closing
+the sign-in dialog also cancels its pending creation intent.
 
 The role dropdown sends its selection immediately. It stays disabled while a
 request is uncertain or the connection is stale. An occupied/rejected choice
