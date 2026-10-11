@@ -60,7 +60,7 @@ Giving another person AI access does not grant promotion management. API checks
 use verified identity and current roles, not editable metadata. Code inventory,
 recipient emails and grants are unavailable to browser database roles.
 
-Validation: 151 Node tests and 18 isolated Postgres suites; production build,
+Validation: 152 Node tests and 18 isolated Postgres suites; production build,
 public-content distribution check and both Edge bundles. EN/NO phone checks at
 320/390 px verify options stay open, costs, AI radar source separation, spoken
 practice/replay/resume, promo redemption replay, admin isolation, plain-text

@@ -102,6 +102,12 @@ test('a fabricated phrase anchor is removed instead of being presented as audibl
  const pilot=service({fetcher:async(url,init)=>url.endsWith('/responses')?provider(url,init):Response.json({model:'audio',choices:[{message:{tool_calls:[{function:{name:'describe_delivery',arguments:JSON.stringify({...result,observations:[{dimension:'pace',description:'An observation.',anchor:'words never spoken'}]})}}]}}]})});
  await pilot.assess(attempt,owner);assert.equal((await pilot.delivery(attempt,wav(),owner)).result.observations[0].anchor,undefined);
 });
+test('delivery transport negotiates phrase anchors without breaking an already-open v1 app',async()=>{
+ let calls=0;const handler=createPilotHandler({delivery:async()=>{calls++;return{version:AI_DELIVERY_VERSION,result:{...result,observations:[{...result.observations[0],anchor:'You miss him'}]}};}});
+ const send=async version=>{const f=new FormData();f.append('attempt',JSON.stringify(attempt));f.append('file',wav(),'attempt.wav');if(version)f.append('deliveryVersion',version);return handler(new Request('http://localhost/api/delivery',{method:'POST',headers:{origin:'http://localhost:5173'},body:f}));};
+ const legacy=await(await send()).json();assert.equal(legacy.version,'delivery-observations-v1');assert.equal(legacy.result.observations[0].anchor,undefined);
+ const current=await(await send(AI_DELIVERY_VERSION)).json();assert.equal(current.result.observations[0].anchor,'You miss him');assert.equal((await send('unknown')).status,400);assert.equal(calls,2);
+});
 
 test('persisted rounds bind delivery review to the same round and history choice',async()=>{
  const pilot=service();const linked={...attempt,roundId:other,saveHistory:true};await pilot.assess(linked,owner);
