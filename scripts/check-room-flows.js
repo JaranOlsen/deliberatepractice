@@ -17,6 +17,21 @@ async (page) => {
     const p = await context.newPage(); pages.push(p); p.on('pageerror', e => errors.push(e.message));
     await context.route('**/src/js/backend.js*', route => route.fulfill({contentType: 'text/javascript', body: `
       const user={id:'${user}',email:'${user}@example.invalid'};
+      export const getAiAccess=async()=>false;
+      export const aiApiOptions=()=>({});
+      export const accountServicesOptions=()=>({base:'/__billing_test',getToken:async()=>null});
+      export const getPublicAppConfig=async()=>({email_mode:'link',billing_mode:'off'});
+      export const getAccountAccess=async()=>({full_content:true,ai_access:false,subscription:null});
+      export const sendEmailSignIn=async()=>{throw Error('Unexpected email');};
+      export const verifyEmailSignIn=async()=>{throw Error('Unexpected code');};
+      export const redeemAccountAccessCode=async()=>{throw Error('Unexpected code redemption');};
+      export const fetchAccountContent=async input=>{
+        const file=input.kind==='skill'?'statements/'+input.languageId+'-'+input.skillId+'.json':'mastery/'+input.languageId+'-'+input.exerciseId+'.json';
+        const response=await fetch('src/data/runtime/'+file);if(!response.ok)throw Error('Missing content fixture');
+        const data=await response.json(),revision=input.kind==='skill'?Object.values(data)[0][0].revision:data.revision;
+        return {protocol:'practice-content-v1',revision,...(input.kind==='skill'?{bank:data}:{exercise:data})};
+      };
+
       export const isSupabaseReady=()=>true;
       export const isAccessExpired=()=>false;
       export const getAuthSession=async()=>({user});
@@ -84,7 +99,11 @@ async (page) => {
         else if (['start','finish_item','advance','pass','rotate'].includes(args.input_action) && !ackAll()) fail('Waiting for devices');
         else {
           receipts.set(args.input_command_id,{action:args.input_action});
-          if(args.input_action==='leave'){
+          if(args.input_action.startsWith('role_')) {
+            const role=args.input_action.slice(5);
+            for(const old of ['therapist','client','observer'])if(room[`${old}_id`]===user)room[`${old}_id`]=null;
+            if(role!=='passive')room[`${role}_id`]=user;
+          } else if(args.input_action==='leave'){
             room.member_ids=room.member_ids.filter(id=>id!==user);
             const active=['therapist','client','observer'].find(role=>room[`${role}_id`]===user);
             if(active){room[`${active}_id`]=null;room.phase='lobby';room.completed_ids=[];room.skipped_ids=[];room.item_index=0;room.round_interrupted=true;}
@@ -111,7 +130,7 @@ async (page) => {
       } else fail('Unexpected operation');
       await route.fulfill({status, contentType:'application/json',body:JSON.stringify(data)});
     });
-    await p.goto(url); await p.waitForFunction(() => document.querySelector('#account-button').textContent === 'Account');
+    await p.goto(url); await p.waitForFunction(() => document.querySelector('#account-button').getAttribute('aria-label') === 'Account');
   }
   const [o,t,c,watcher1,watcher2] = pages;
   const click = async (p,id) => {
@@ -121,10 +140,9 @@ async (page) => {
   const syncAll = async () => { for (let i=0;i<2;i++) for (const p of pages) {if(await p.locator('#room-session').isVisible())await click(p,'room-sync');} for(const p of pages)if(await p.locator('#room-session').isVisible() && !(disconnectClient && p===pages[2]))await p.waitForFunction(version=>Number(document.getElementById('room-panel').dataset.version)>=version,room.version,{timeout:15000}); };
   try {
     await click(o,'group-create');
-    assert((await o.locator('#room-title').textContent()).includes('Create'),'Entry heading matches the create action');
-    assert(await o.locator('#room-panel').evaluate(e=>parseFloat(getComputedStyle(e).paddingBottom)<48),'Room entry does not reserve space for a hidden action bar');
+    await o.locator('#room-share-code').waitFor();assert(await o.locator('#room-setup').isHidden(),'Create opens the room directly');
     await o.screenshot({path:'output/playwright/room-create-mobile.png',fullPage:true});
-    await o.locator('#room-host-options summary').click();await o.locator('#room-host-role').selectOption('observer');await click(o,'room-create');
+    await o.locator('#room-change-role:not(:disabled)').waitFor();await o.locator('#room-change-role').selectOption('observer');await o.waitForFunction(()=>document.querySelector('#room-panel').dataset.version===String(1));
     await o.locator('#room-share-code').waitFor();
     assert(await o.locator('#room-details').evaluate(e=>!e.open),'Setup keeps the roster and administration folded away');
     assert(await o.locator('#room-invite').isVisible(),'Setup keeps invitation controls visible');
@@ -299,7 +317,7 @@ async (page) => {
     await o.locator('#home-language').click();await o.locator('[data-language-id="no"]').click();
     await o.locator('[name="practice-mode"][value="group"]').check();await o.locator('#home-library').click();
     await o.locator('[data-skill-id="therapist-self-awareness"]').click(); await o.locator('[data-case-id="case-sara"]').click();
-    await click(o,'start-practice'); await o.locator('#room-host-options summary').click();await o.locator('#room-host-role').selectOption('observer'); await click(o,'room-create');
+    await click(o,'start-practice');await o.locator('#room-session').waitFor();await o.locator('#room-details summary').click();await o.locator('#room-change-role:not(:disabled)').waitFor();await o.locator('#room-change-role').selectOption('observer');await o.waitForFunction(()=>document.querySelector('#room-panel').dataset.version===String(1));
     for (const [p,role] of [[t,'therapist'],[c,'client'],[watcher1,'passive'],[watcher2,'passive']]) {
       await p.evaluate(() => {for(const key of Object.keys(localStorage)) if(key.startsWith('dp_shared_room:')) localStorage.removeItem(key);});
       await click(p,'group-join'); await p.locator('#room-code').fill(room.code);
@@ -346,7 +364,7 @@ async (page) => {
     await o.locator('#room-details summary').click();await click(o,'room-end');await click(o,'room-exit-confirm');await o.waitForFunction(()=>document.getElementById('room-panel').dataset.phase==='closed');await syncAll();
     for(const p of pages)if(await p.locator('#room-session').isVisible())await click(p,'room-done');
     // Pairs omit observer coaching, keep feedback per item and rate once at the end.
-    await click(o,'group-create');await o.locator('#room-host-options summary').click();await o.locator('#room-host-role').selectOption('therapist');await click(o,'room-create');
+    await click(o,'group-create');await o.locator('#room-share-code').waitFor();
     await t.evaluate(()=>{for(const key of Object.keys(localStorage))if(key.startsWith('dp_shared_room:'))localStorage.removeItem(key);});
     await click(t,'group-join');await t.locator('#room-code').fill(room.code);await click(t,'room-join');
     await click(o,'room-choose');await o.locator('[data-skill-id="empathic-understanding"]').click();await o.locator('[data-case-id="case-sara"]').click();await click(o,'start-practice');
@@ -390,10 +408,10 @@ async (page) => {
       const {createDialogManager}=await import('/deliberatepractice/src/js/dialogs.js');
       const view=createPracticeRoomView({dialogs:createDialogManager(),getUser:()=>({id:'o'}),
         getLanguage:()=> 'en',localizeSkill:()=>null,getStrings:()=>({}),signIn:()=>{}});
-      window.testRoomView=view;await view.show({resume:false,createConfig:()=>new Promise(resolve=>{window.releaseRoomSetup=resolve;})});
+      window.testRoomView=view;void view.show({resume:false,createConfig:()=>new Promise(resolve=>{window.releaseRoomSetup=resolve;})});
     });
     const beforeCanceledCreation=creations;
-    await click(o,'room-create');await o.evaluate(()=>window.testRoomView.goHome());
+    await o.evaluate(()=>window.testRoomView.goHome());
     await o.evaluate(config=>window.releaseRoomSetup(config),{languageId:room.language_id,
       skillId:room.skill_id,caseId:room.case_id,difficulty:room.difficulty,
       contentRevision:room.content_revision,statements:room.catalog});

@@ -29,9 +29,9 @@ Transcription uses `gpt-transcribe`; speech generation uses `gpt-4o-mini-tts`. C
 | Marcus | fable | Leo | verse |
 | Mia | shimmer | Nora | alloy |
 
-Leo retains the internal `case-arne` ID. The supervisor uses `cedar`. Bracketed cues such as `[Guarded]` join the case’s baseline style in the speech instructions, guide delivery and are removed from the spoken words. They never change voice identity. Browser voice/mood overrides are ignored. Voice parameters do not guarantee identical delivery between generations; pronunciation and mood adherence need listening review. [Speech instructions and voices](https://developers.openai.com/api/docs/guides/text-to-speech)
+Leo retains the internal `case-arne` ID. Supervisor feedback is text only. Bracketed cues such as `[Guarded]` join the case’s baseline style in the speech instructions, guide delivery and are removed from the spoken words. They never change voice identity. Browser voice/mood overrides are ignored. Voice parameters do not guarantee identical delivery between generations; pronunciation and mood adherence need listening review. [Speech instructions and voices](https://developers.openai.com/api/docs/guides/text-to-speech)
 
-**AI details** shows configured feedback, transcription, speech and delivery models plus both voices. After an assessment/review it shows the actual responding model. Completed rounds retain the assessment model identifiers.
+**AI details** shows configured feedback, transcription, speech and delivery models plus the client voice. After an assessment/review it shows the actual responding model. Completed rounds retain the assessment model identifiers.
 
 ## Production service and access
 

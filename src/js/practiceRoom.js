@@ -91,8 +91,6 @@ export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, 
             <select id="room-role"><option value="auto"></option><option value="therapist"></option><option value="client"></option><option value="observer"></option><option value="passive"></option></select></details>
           <details><summary id="room-privacy"></summary><p id="room-consent"></p></details><button id="room-join" class="primary-button" type="submit"></button>
         </form>
-        <details id="room-host-options"><summary id="room-host-options-label"></summary><label id="room-host-role-label" for="room-host-role"></label>
-          <select id="room-host-role"><option value="therapist"></option><option value="client"></option><option value="observer"></option></select></details>
         <button id="room-create" class="primary-button" hidden></button>
       </div>
     </div>
@@ -102,7 +100,7 @@ export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, 
       <details id="room-details" class="room-details"><summary><span id="room-people-label"></span><span id="room-people-count"></span></summary>
         <div id="room-invite" class="room-code-row"><strong id="room-share-code"></strong><button id="room-share" class="ghost-button"></button><button id="room-copy" class="ghost-button"></button></div>
         <p id="room-invite-note" class="response-hint"></p><ul id="room-members" class="room-members" aria-label="Participants"></ul>
-        <form id="room-change-role-form" hidden><label id="room-change-role-label" for="room-change-role"></label><select id="room-change-role"><option value="therapist"></option><option value="client"></option><option value="observer"></option><option value="passive"></option></select><button id="room-change-role-submit" class="ghost-button" type="submit"></button></form>
+        <form id="room-change-role-form" hidden><label id="room-change-role-label" for="room-change-role"></label><select id="room-change-role"><option value="therapist"></option><option value="client"></option><option value="observer"></option><option value="passive"></option></select></form>
         <form id="room-transfer-form" hidden><label id="room-transfer-label" for="room-transfer-target"></label><select id="room-transfer-target"><option value=""></option></select><button id="room-transfer" class="ghost-button" type="submit"></button></form>
         <button id="room-sync" class="ghost-button"></button><div class="room-exit-actions"><button id="room-leave" class="ghost-button" hidden></button><button id="room-end" class="ghost-button" hidden></button></div>
       </details>
@@ -174,12 +172,12 @@ export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, 
     overlay.querySelector('.room-dialog').setAttribute('aria-label', s.title);
     for (const key of ['title', 'consent', 'copy', 'sync', 'retry', 'pass', 'rotate', 'end']) text(key === 'consent' ? 'consent' : key, s[key]);
     text('code-label', s.code); text('role-label', s.role);
-    for (const id of ['role', 'host-role', 'change-role']) for (const option of el(id).options) option.textContent = s[option.value];
-    text('host-role-label', s.role); text('change-role-label', s.role); text('change-role-submit', s.changeRole);
+    for (const id of ['role', 'change-role']) for (const option of el(id).options) option.textContent = s[option.value];
+    text('change-role-label', s.role);
     text('join', getUser() ? s.join : s.signIn); text('create', getUser() ? s.create : s.signInCreate);
     text('another', s.newRoom); text('open-create', s.openCreate); text('open-join', s.openJoin); text('resume', s.resume);
     text('done', s.finish);
-    text('people-label', s.people); text('share', s.share); text('leave', s.leave); text('invite-note', s.invite); text('role-options', s.roleOptions); text('host-options-label', s.roleOptions); text('privacy', s.privacy);
+    text('people-label', s.people); text('share', s.share); text('leave', s.leave); text('invite-note', s.invite); text('role-options', s.roleOptions); text('privacy', s.privacy);
     text('roles-heading', s.roles); text('transfer-label', s.transferTo); text('transfer', s.transferHost); text('recover', s.recoverHost); text('host-away', s.hostAway);
     el('members').setAttribute('aria-label', language === 'no' ? 'Deltakere' : 'Participants');
   }
@@ -224,7 +222,6 @@ export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, 
     if (!role || (configured && !caseData && !ended)) throw new Error(strings().failedContent);
     const s = strings(), ui = getStrings(language);
     text('change-role-label', next.phase === 'choosing' && role === 'passive' ? s.chooseRole : s.role);
-    text('change-role-submit', next.phase === 'choosing' && role === 'passive' ? s.selectRole : s.changeRole);
     const set = groupSetProgress(next.statement_ids, next.item_index, next.completed_ids, next.skipped_ids);
     const self = next.skill_id === 'therapist-self-awareness';
     const active = ['practicing','first_attempt','client_feedback','observer_feedback','retry'].includes(next.phase);
@@ -406,9 +403,10 @@ export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, 
     } else if (el('change-role-form').parentElement !== el('details')) el('members').after(el('change-role-form'));
     el('change-role-form').hidden = !['choosing','lobby'].includes(snapshot.phase) || ended;
     for (const option of el('change-role').options) option.disabled = option.value !== 'passive' && !!snapshot[`${option.value}_id`] && snapshot[`${option.value}_id`] !== userId;
-    // A draft choice can become occupied while another device is choosing.
-    if (el('change-role').selectedOptions[0]?.disabled) el('change-role').value = role;
-    el('change-role-submit').disabled = commanding || !!pending || !fresh;
+    const pendingRole = pending?.action?.startsWith('role_') ? pending.action.slice(5) : null;
+    el('change-role').value = pendingRole && [...el('change-role').options].find(option => option.value === pendingRole)?.disabled === false ? pendingRole : role;
+    el('change-role').disabled = commanding || !!pending || !fresh;
+    el('change-role').setAttribute('aria-busy', String(commanding || !!pending));
     const hostControls = snapshot.host_id === userId && !ended;
     const controls = (snapshot.observer_id ?? snapshot.therapist_id) === userId && !ended;
     const candidates = ids.filter(id => id !== snapshot.host_id);
@@ -483,7 +481,7 @@ export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, 
         write(roomKey(), next.id);
         await sync.start(next);
       }
-    } catch (failure) { if (epoch === opening) { text('status', failure.message); if (!room && !config) { el('hub').hidden=false; el('entry').hidden=true; } } }
+    } catch (failure) { if (epoch === opening) { text('status', failure.message); if (!room) { el('setup').hidden=false; el('hub').hidden=!!config; el('entry').hidden=!config; if(config)text('create',language==='no'?'Prøv igjen':'Try again'); } } }
     finally { if (epoch === opening) { busy = false; el('join').disabled = false; el('create').disabled = false; } }
   }
   async function show({createConfig = null, resume = true, mode = createConfig ? 'create' : 'join', code = null} = {}) {
@@ -497,15 +495,14 @@ export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, 
     text('title', mode === 'hub' ? strings().hub : config ? strings().createTitle : strings().joinTitle);
     el('resume').hidden = !userId || !read(roomKey());
     el('create').hidden = !config; el('join-form').hidden = !!config;
-    el('host-options').hidden = !config;
-    el('host-options').open = false; el('join-options').open = false;
+    el('join-options').open = false;
     let inviteStorage;
     try { inviteStorage = localStorage; } catch { /* The invitation can remain in the URL. */ }
     el('code').value = code ?? readRoomInvite(window.location.href, inviteStorage) ?? '';
     if (code) rememberRoomInvite(code, inviteStorage);
     el('role').value = 'auto';
-    el('host-role').hidden = !config; el('host-role-label').hidden = !config;
     overlay.hidden = false; overlay.classList.remove('is-hidden'); onOpen?.();
+    if (config && mode === 'create') {el('setup').hidden = true; await createRoom(); return;}
     (mode === 'hub' ? el('resume').hidden ? el('open-create') : el('resume') : config ? el('create') : el('code')).focus();
     const last = userId && resume ? read(roomKey()) : null;
     if (last && mode !== 'hub') await request(async () => {
@@ -551,12 +548,13 @@ export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, 
     if (!getUser()) { dismiss(); signIn(); return; }
     void request(async () => { const next = await practiceRoomRpc('join_practice_room', {input_code: code, input_role: el('role').value}); clearInvite(); return next; });
   });
-  el('create').addEventListener('click', () => {
-    if (!getUser()) { dismiss(); signIn(); return; }
-    void request(async () => {
+  async function createRoom() {
+    if (!getUser()) { dismiss(); signIn('create'); return; }
+    if (!config) return;
+    await request(async () => {
       const epoch = opening;
       if (!creating) {
-        const selected = {...await config(), hostRole: el('host-role').value, preparationProtocol: 'ready-v1'};
+        const selected = {...await config(), hostRole: 'therapist', preparationProtocol: 'ready-v1'};
         if (epoch !== opening || !open || getUser()?.id !== userId) return;
         const previous = read(`dp_room_creation:${userId}`);
         const sameSetup = previous && ['languageId', 'skillId', 'caseId', 'contentRevision', 'hostRole'].every(key => previous.config?.[key] === selected[key]);
@@ -570,8 +568,14 @@ export function createPracticeRoomView({dialogs, requestHome, onChoose, onOpen, 
       if (creating === creation) creating = null;
       return next;
     });
+  }
+  el('create').addEventListener('click', () => { void createRoom(); });
+  el('change-role-form').addEventListener('submit', event => event.preventDefault());
+  el('change-role').addEventListener('change', () => {
+    const status = sync.status(), selected = el('change-role').value;
+    if (status.fresh && !status.commanding && !status.pending && ['choosing','lobby'].includes(status.snapshot?.phase)
+      && selected !== roomRole(status.snapshot, userId)) void sync.command(`role_${selected}`);
   });
-  el('change-role-form').addEventListener('submit', event => { event.preventDefault(); void sync.command(`role_${el('change-role').value}`); });
   el('ready').addEventListener('click', () => {
     void sync.command(room.ready_ids?.includes(userId) ? 'not_ready' : 'ready', null, {preparationId: room.preparation_id});
   });

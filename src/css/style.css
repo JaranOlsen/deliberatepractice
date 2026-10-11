@@ -2135,7 +2135,7 @@ button:focus-visible, summary:focus-visible, a:focus-visible {
 .room-exit-actions { display: grid; gap: .5rem; margin: .75rem 0; }
 .room-exit-actions button { min-height: 48px; }
 #room-end, #room-leave { color: #8a3830; border-color: #dbc2bd; }
-#room-change-role-form { grid-template-columns: 1fr auto; align-items: center; }
+#room-change-role-form { grid-template-columns: 1fr; }
 #room-change-role-label { grid-column: 1 / -1; }
 .room-sync-status { margin: 0; font-size: .8rem; color: var(--color-muted); line-height: 1.4; }
 #room-content { margin: 0; padding: 0; border-radius: 0; box-shadow: none; background: transparent; }
@@ -2749,7 +2749,7 @@ body:is([data-section="practice"], [data-section="room"], [data-section="mastery
 .ai-input-mode button{display:grid;place-content:center;align-self:stretch;gap:.15rem;white-space:nowrap;padding:.6rem .8rem;min-height:60px;}
 .ai-attempt-cost{font-weight:650;margin-bottom:.3rem;}
 .ai-delivery-focus{margin:.1rem 0 .8rem 2rem;}
-.brand-subtitle{display:none;margin:.3rem 0 0;max-width:36ch;font-size:.82rem;line-height:1.35;opacity:.85;}
+.brand-subtitle{display:none;margin:.3rem 0 0;max-width:36ch;font-size:.82rem;line-height:1.35;opacity:.85;white-space:pre-line;}
 body:is([data-section="home"],[data-section="language"]) .brand-subtitle{display:block;}
 .promotion-section{border-top:1px solid var(--color-border);padding-top:1rem;margin-top:1rem;}
 .promotion-section details+details{margin-top:1rem;}

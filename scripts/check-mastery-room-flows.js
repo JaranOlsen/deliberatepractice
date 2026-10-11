@@ -88,11 +88,17 @@ async (page) => {
   }
   const [o,t,c,watcher]=pages;
   const click=async(p,id)=>{
-    const waits=['room-next','room-pass','room-save','room-rotate','room-change-role-submit','room-ready'].includes(id) && !loseResponse;
+    const waits=['room-next','room-pass','room-save','room-rotate','room-ready'].includes(id) && !loseResponse;
     const v=waits?Number(await p.locator('#room-panel').getAttribute('data-version')):0;
     if(id==='room-pass')p.once('dialog',dialog=>dialog.accept());
     await p.locator('#'+id).click();
     if(waits)await p.waitForFunction(v=>Number(document.getElementById('room-panel').dataset.version)>v,v);
+  };
+  const selectRole=async(p,role)=>{
+    await p.locator('#room-change-role:not(:disabled)').waitFor();
+    const v=Number(await p.locator('#room-panel').getAttribute('data-version'));
+    await p.locator('#room-change-role').selectOption(role);
+    await p.waitForFunction(v=>Number(document.getElementById('room-panel').dataset.version)>v,v);
   };
   const sync=async()=>{
     // Leave returns only {left:true}; fetch the committed version before waiting on UI.
@@ -119,7 +125,7 @@ async (page) => {
     }
   };
   try {
-    await click(o,'group-create');await o.locator('#room-host-options summary').click();await o.locator('#room-host-role').selectOption('observer');await click(o,'room-create');await o.locator('#room-share-code').waitFor();
+    await click(o,'group-create');await o.locator('#room-share-code').waitFor();await selectRole(o,'observer');await o.locator('#room-share-code').waitFor();
     for(const [p,role] of [[t,'therapist'],[c,'client'],[watcher,'passive']]){
       await click(p,'group-join');await p.locator('#room-code').fill(room.code);await p.locator('#room-join-options summary').click();await p.locator('#room-role').selectOption(role);await click(p,'room-join');await p.locator('#room-share-code').waitFor();
     }

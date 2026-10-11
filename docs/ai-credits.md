@@ -23,11 +23,13 @@ The seller's existing VAT-exempt configuration is retained.
 | Wording feedback for one response | 1 |
 | Transcription of one recording | 1 |
 | Vocal delivery feedback | 3 |
-| Generate client or supervisor voice clip | 1 |
+| Generate client voice clip | 1 |
 
-A spoken response with both voices and delivery feedback uses 7 credits; a typed
+A spoken response with client voice and delivery feedback uses up to 6 credits; a typed
 response without generated voices uses 1. Each new response/retry is a new
 assessment. Replaying a cached voice or recovering the same request is free.
+Supervisor feedback is text only. Client voice defaults off in Write mode;
+transcript review defaults on in Speak mode.
 Action costs appear before submitting, with the balance in Account and AI
 practice. Exhaustion preserves the draft. Original recordings are never stored.
 

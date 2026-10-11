@@ -1,7 +1,7 @@
 import {createAiPracticeStore} from './aiPracticeState.js';
 import {createAiOptions,aiAttemptCredits} from './aiPracticeOptions.js';
-import {AI_PROTOCOL, AI_SKILLS, MAX_ATTEMPT_LENGTH, summarizeAiRound, spokenStatement, supervisorFeedbackText} from './aiPracticeProtocol.js';
-import {AI_CLIENT_VOICES, AI_SUPERVISOR_VOICE} from '../data/aiPracticeVoices.js';
+import {AI_PROTOCOL, AI_SKILLS, MAX_ATTEMPT_LENGTH, summarizeAiRound, spokenStatement} from './aiPracticeProtocol.js';
+import {AI_CLIENT_VOICES} from '../data/aiPracticeVoices.js';
 import {SKILL_ORDER} from './practiceData.js';
 import {createLevelChoice, preferredCaseLevel, rememberCaseLevel, levelLabel} from './practiceLevels.js';
 import {createAiPracticeApi} from './aiPracticeApi.js';
@@ -40,7 +40,6 @@ export function createAiPractice({getLanguage, getOwner=()=>null, localizeSkill,
   function updateAudio() {
     const notice=element.querySelector('#ai-status');if(notice){notice.hidden=!error;notice.textContent=error;}
     const clientPlay=element.querySelector('#ai-play-client');if(clientPlay)clientPlay.textContent=audio?.hasClip({role:'client',requestId:item()?.clientSpeechId})?copy().play:creditLabel(copy().play,'speech_client');
-    const assessment=item()?.[feedbackKind()];const hear=element.querySelector('#ai-play-supervisor');if(hear)hear.textContent=audio?.hasClip({role:'supervisor',requestId:assessment?.speechIds?.[assessment.delivery?'delivery':'wording']})?copy().hear:creditLabel(copy().hear,'speech_supervisor');
     const stop = element.querySelector('#ai-stop-audio'); if (stop) stop.hidden = !audio?.isPlaying() && !audio?.isLoading();
     const state = element.querySelector('#ai-audio-state'); if (state) state.textContent = audio?.isLoading() ? copy().preparing : audio?.isPlaying() ? copy().listen : '';
     const record = element.querySelector('#ai-record');
@@ -48,7 +47,7 @@ export function createAiPractice({getLanguage, getOwner=()=>null, localizeSkill,
     const cancel = element.querySelector('#ai-cancel-recording'); if (cancel) cancel.hidden = !audio?.isRecording();
     const recording = element.querySelector('#ai-recording-state'); if (recording) recording.textContent = audio?.isRecording() ? copy().recording : '';
     const replay=element.querySelector('#ai-play-recording');if(replay)replay.textContent=audio?.isRecordingPlaying()?copy().stop:copy().replay;
-    for (const id of ['ai-response', 'ai-send', 'ai-pass', 'ai-play-client','ai-play-recording','ai-review-delivery','ai-retry','ai-next','ai-play-supervisor']) {
+    for (const id of ['ai-response', 'ai-send', 'ai-pass', 'ai-play-client','ai-play-recording','ai-review-delivery','ai-retry','ai-next']) {
       const control = element.querySelector('#' + id); if (control) control.disabled = busy || audio?.isRecording();
     }
   }
@@ -108,15 +107,14 @@ export function createAiPractice({getLanguage, getOwner=()=>null, localizeSkill,
     roundOwner=getOwner();phase = 'preparation'; error = ''; draft = ''; transcript = false; attemptId = null;
     theme?.(element, skill.id, difficulty); render(); focus(); window.scrollTo({top: 0});
   }
-  async function play(role) {
+  async function play() {
     error = '';
-    const currentItem = item(), assessment = currentItem?.[feedbackKind()];
-    const payload = role === 'client' ? {role, languageId: language, skillId: round.skillId, caseId: round.caseId, difficulty: round.difficulty,
-       statementId: currentItem.statement.id, revision: currentItem.statement.revision,requestId:currentItem.clientSpeechId??=crypto.randomUUID()} : {role, attemptId: assessment.attemptId,includeDelivery:!!assessment.delivery,requestId:assessment.speechIds?.[assessment.delivery?'delivery':'wording']??((assessment.speechIds??={})[assessment.delivery?'delivery':'wording']=crypto.randomUUID())};
-    const text = role === 'client' ? spokenStatement(currentItem.statement.text)
-      : supervisorFeedbackText(assessment, language);
-    try {await audio.play({text, role, languageId: language, mode: round.mode, payload});if(role==='client')currentItem.clientSpeechReady=true;else (assessment.speechReady??={})[assessment.delivery?'delivery':'wording']=true;}
-    catch (e) {if(e.message==='assessment_expired'){if(role==='client'){currentItem.clientSpeechId=crypto.randomUUID();currentItem.clientSpeechReady=false;}else{assessment.speechIds={};assessment.speechReady={};}error=language==='no'?'Klippet er utløpt. Du kan lage et nytt for 1 kreditt.':'This clip expired. You can generate a new one for 1 credit.';}else fail(e);render();}
+    const currentItem = item(), role = 'client';
+    const payload = {role, languageId: language, skillId: round.skillId, caseId: round.caseId, difficulty: round.difficulty,
+       statementId: currentItem.statement.id, revision: currentItem.statement.revision,requestId:currentItem.clientSpeechId??=crypto.randomUUID()};
+    const text = spokenStatement(currentItem.statement.text);
+    try {await audio.play({text, role, languageId: language, mode: round.mode, payload});currentItem.clientSpeechReady=true;}
+    catch (e) {if(e.message==='assessment_expired'){currentItem.clientSpeechId=crypto.randomUUID();currentItem.clientSpeechReady=false;error=language==='no'?'Klippet er utløpt. Du kan lage et nytt for 1 kreditt.':'This clip expired. You can generate a new one for 1 credit.';}else fail(e);render();}
     finally{persist();if(round?.mode==='live')await refreshCredits();updateAudio();}
   }
   async function record() {
@@ -166,7 +164,7 @@ export function createAiPractice({getLanguage, getOwner=()=>null, localizeSkill,
       if(recorded)recorded.attemptId=value.attemptId;
       draft = ''; attemptId = null; transcript = false;
     } catch (e) {if (current === generation && e.name !== 'AbortError') fail(e);}
-    finally {if (current === generation) {busy = false; controller = null; render(); focus();if(round.mode==='live'){void refreshCredits();if(currentItem[kind]){if(recorded&&settings().delivery&&!selfAwareness())void reviewDelivery();else if(settings().voices)void play('supervisor');}}}}
+    finally {if (current === generation) {busy = false; controller = null; render(); focus();if(round.mode==='live'){void refreshCredits();if(currentItem[kind]&&recorded&&settings().delivery&&!selfAwareness())void reviewDelivery();}}}
   }
   async function reviewDelivery() {
     const assessment=item()?.[feedbackKind()];
@@ -182,7 +180,7 @@ export function createAiPractice({getLanguage, getOwner=()=>null, localizeSkill,
       const result=await api.delivery(value,wav,controller.signal);
       if(current!==generation)return;assessment.delivery=result;
     }catch(e){if(current===generation&&e.name!=='AbortError')fail(e);}
-    finally{if(current===generation){busy=false;controller=null;render();focus('#ai-delivery');void refreshCredits();if(settings().voices)void play('supervisor');}}
+    finally{if(current===generation){busy=false;controller=null;render();focus('#ai-delivery');void refreshCredits();}}
   }
   function recordingControls(body,assessment=null) {
     if(!recorded||(assessment&&recorded.attemptId!==assessment.attemptId))return;
@@ -239,7 +237,7 @@ export function createAiPractice({getLanguage, getOwner=()=>null, localizeSkill,
     } else {
       if (phase === 'first-feedback') actions.append(btn(copy().retryButton, () => {
         cancelPending(); phase = 'retry'; error = ''; draft = ''; attemptId = null; render(); focus('#ai-response');
-      if(settings().voices)void play('client');
+      if(settings().voices)void play();
       }, true, 'ai-retry'));
       else actions.append(btn(copy().next, () => advance(), true, 'ai-next'));
     }
@@ -276,7 +274,7 @@ export function createAiPractice({getLanguage, getOwner=()=>null, localizeSkill,
     for (const [label, model] of [[copy().feedbackModel, assessment?.model || assessedModels || models.assessment],
       [copy().speechModel, models.speech], [copy().transcriptionModel, models.transcription],
       [copy().deliveryModel,assessment?.delivery?.model||models.delivery],
-      [copy().voice, round?.clientVoice], [copy().supervisorVoice, round ? AI_SUPERVISOR_VOICE : null]]) {
+      [copy().voice, round?.clientVoice]]) {
       if (!model) continue;
       const row = node('div'); row.append(node('dt', label), node('dd', model)); list.append(row);
     }
@@ -342,7 +340,7 @@ export function createAiPractice({getLanguage, getOwner=()=>null, localizeSkill,
       const currentItem = item(), counter = node('p', `${round.index + 1} / ${round.items.length}`, 'ai-counter'); body.append(counter);
       const client = node('section', '', 'ai-client-card'); client.append(node('h3', caseLabel()), node('blockquote', currentItem.statement.text));
       const audioRow = node('div', '', 'ai-audio-actions');
-      const playClient = btn(audio.hasClip({role:'client',requestId:currentItem.clientSpeechId})?copy().play:creditLabel(copy().play,'speech_client'), () => void play('client'), false, 'ai-play-client'); playClient.disabled = busy || audio.isRecording();
+      const playClient = btn(audio.hasClip({role:'client',requestId:currentItem.clientSpeechId})?copy().play:creditLabel(copy().play,'speech_client'), () => void play(), false, 'ai-play-client'); playClient.disabled = busy || audio.isRecording();
       const stop = btn(copy().stop, () => audio.stop(), false, 'ai-stop-audio'); stop.hidden = !audio.isPlaying(); audioRow.append(playClient, stop);
       const audioState = node('span', '', 'ai-state'); audioState.id = 'ai-audio-state'; audioState.setAttribute('role', 'status');
       client.append(audioRow,audioState);body.append(client);
@@ -355,7 +353,6 @@ export function createAiPractice({getLanguage, getOwner=()=>null, localizeSkill,
         for (const [label, text] of [[copy().strength, assessment.result.strength], [copy().adjustment, assessment.result.adjustment]]) {
           if (text) feedback.append(node('h4', label), node('p', text));
         }
-        const hear = btn(audio.hasClip({role:'supervisor',requestId:assessment.speechIds?.[assessment.delivery?'delivery':'wording']})?copy().hear:creditLabel(copy().hear,'speech_supervisor'), () => void play('supervisor'), false, 'ai-play-supervisor'); feedback.append(hear);
         recordingControls(feedback,assessment);renderDelivery(feedback,assessment);
         if (assessment.result.limitation) {const details = node('details'); details.append(node('summary', copy().limitations), node('p', assessment.result.limitation)); feedback.append(details);}
         body.append(feedback);
@@ -376,7 +373,7 @@ export function createAiPractice({getLanguage, getOwner=()=>null, localizeSkill,
     try{status=await api.status();if(current!==generation||owner!==getOwner())return;
     if(status.mode!=='live'){phase='unavailable';busy=false;error=copy().notReady;show();render();return;}
     await loadPracticeContent(language,skillId);if(current!==generation||owner!==getOwner())return;skill=localizeSkill(language,skillId,difficulty);chooseCase(caseId,difficulty,'live');
-    phase='attempt';show();render();focus();if(settings().voices)void play('client');
+    phase='attempt';show();render();focus();if(settings().voices)void play();
     }catch(e){if(current===generation&&owner===getOwner()){phase='unavailable';busy=false;fail(e);show();render();}}
   }
   async function resume(){

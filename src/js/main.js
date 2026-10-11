@@ -133,7 +133,7 @@ async function openSharedRoom(mode = "hub", {selectedCase = false, code = null, 
         if (room.skill_id) handleSkillSelection(room.skill_id);
       },
       getUser: () => state.authUser, getLanguage: () => state.languageId ?? 'en', localizeSkill,
-      getStrings: getUIStrings, signIn:()=>requestAccountSignIn('room'),
+      getStrings: getUIStrings, signIn:mode=>requestAccountSignIn(mode==='create'?'room-create':'room'),
       onMaterialChange: room => {
         if(room.exercise_type==='mastery'){writeJsonStorage(LAST_SETUP_STORAGE_KEY,{exerciseType:'mastery',exerciseId:room.exercise_id,languageId:room.language_id,practiceMode:PRACTICE_MODES.GROUP});return;}
         writeJsonStorage(LAST_SETUP_STORAGE_KEY, {languageId:room.language_id, skillId:room.skill_id, caseId:room.case_id, difficulty:room.difficulty, practiceMode:PRACTICE_MODES.GROUP});
@@ -561,7 +561,7 @@ let retryContentLoad = null;
 
 const AUTH_INTENT_KEY='dp_auth_intent_v1';
 function requestAccountSignIn(intent='account') {
-  if(['account','progress','room'].includes(intent))writeJsonStorage(AUTH_INTENT_KEY,{intent,expires:Date.now()+30*60000});
+  if(['account','progress','room','room-create'].includes(intent))writeJsonStorage(AUTH_INTENT_KEY,{intent,expires:Date.now()+30*60000});
   showAccountPanel();
 }
 const PRACTICE_SESSION_STORAGE_KEY = "dp_practice_session_v1";
@@ -1869,6 +1869,7 @@ async function applyAuthSession(session) {
     if(intent?.expires>Date.now()) {
       if(intent.intent==='progress')showProgressPanel();
       else if(intent.intent==='room'){hideAccountPanel();void openSharedRoom('hub');}
+      else if(intent.intent==='room-create'){hideAccountPanel();void openSharedRoom('create');}
     }
   } catch (err) {
     if(current!==authApplyGeneration)return;

@@ -8,7 +8,7 @@ unassessable correction cannot revive an older score. History uses paginated,
 owner-filtered RLS queries. Only scores saved to AI history appear.
 
 AI setup preserves its expanded state and focus when options change. The base
-wording assessment costs one credit, speaking adds one, voices add up to two,
+wording assessment costs one credit, speaking adds one, client voice adds up to one,
 and delivery review adds three. Storage/transcript-review options are free.
 The maximum total is labelled per attempt; cached voice replay is free. Costs
 and the approved subscription/pack offer are unchanged.
@@ -54,8 +54,8 @@ Disabling or expiring a code stops new redemptions; credits already granted do
 not expire. Gift credits are a distinct ledger source and do not unlock premium
 cases or grant administrative permissions.
 
-Promotion management uses a separate server-only permission. Only the existing
-ipr, iCloud and Hotmail owner accounts receive that permission; Gmail stays free.
+Promotion management uses a separate server-only permission. Only the explicitly
+approved primary owner account receives that permission; Gmail stays free.
 Giving another person AI access does not grant promotion management. API checks
 use verified identity and current roles, not editable metadata. Code inventory,
 recipient emails and grants are unavailable to browser database roles.

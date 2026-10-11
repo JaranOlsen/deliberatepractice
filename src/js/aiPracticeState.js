@@ -1,12 +1,20 @@
 import {AI_PROTOCOL,AI_SKILLS,summarizeAiRound} from './aiPracticeProtocol.js';
 const UUID=/^[0-9a-f]{8}-(?:[0-9a-f]{4}-){3}[0-9a-f]{12}$/i;
-export const DEFAULT_AI_OPTIONS=Object.freeze({enabled:false,inputMode:'spoken',voices:true,delivery:true,reviewTranscript:false,saveHistory:true,keepWritten:true});
+export const DEFAULT_AI_OPTIONS=Object.freeze({enabled:false,inputMode:'spoken',voices:true,delivery:true,reviewTranscript:true,saveHistory:true,keepWritten:true});
 export function createAiPracticeStore({getOwner,storage,now=Date.now}) {
  if(storage===undefined){try{storage=globalThis.localStorage;}catch{storage=null;}}
  const key=()=>`dp_ai_round_v2:${getOwner()??'anonymous'}`,optionsKey=()=>`dp_ai_options_v1:${getOwner()??'anonymous'}`;
  const safeRead=k=>{try{return JSON.parse(storage.getItem(k));}catch{return null;}};
- function options(){const raw=safeRead(optionsKey());return {...DEFAULT_AI_OPTIONS,...Object.fromEntries(Object.keys(DEFAULT_AI_OPTIONS).flatMap(k=>k==='inputMode'?['written','spoken'].includes(raw?.[k])?[[k,raw[k]]]:[]:typeof raw?.[k]==='boolean'?[[k,raw[k]]]:[]))};}
- function saveOptions(value){try{storage.setItem(optionsKey(),JSON.stringify(value));}catch{}}
+ const voiceModes=raw=>({spoken:typeof raw?.voiceModes?.spoken==='boolean'?raw.voiceModes.spoken:typeof raw?.voices==='boolean'?raw.voices:true,written:typeof raw?.voiceModes?.written==='boolean'?raw.voiceModes.written:false});
+ function options(){const raw=safeRead(optionsKey());const value={...DEFAULT_AI_OPTIONS,...Object.fromEntries(Object.keys(DEFAULT_AI_OPTIONS).flatMap(k=>k==='inputMode'?['written','spoken'].includes(raw?.[k])?[[k,raw[k]]]:[]:typeof raw?.[k]==='boolean'?[[k,raw[k]]]:[]))};
+  value.voices=voiceModes(raw)[value.inputMode];
+  // Older settings stored the previous automatic-feedback default. Offer review
+  // once on upgrade; subsequent explicit opt-outs remain saved.
+  if(raw?.version!==2)value.reviewTranscript=true;
+  return value;
+ }
+ function saveOptions(value){const modes=voiceModes(safeRead(optionsKey()));modes[value.inputMode]=value.voices;try{storage.setItem(optionsKey(),JSON.stringify({...value,voiceModes:modes,version:2}));}catch{}}
+ function setInputMode(inputMode){if(!['written','spoken'].includes(inputMode))return;saveOptions({...options(),inputMode,voices:voiceModes(safeRead(optionsKey()))[inputMode]});}
  function save({round,phase,draft,attemptId,attemptText}){
   if(!round||!getOwner())return;
   const includeWritten=round.options?.keepWritten!==false;
@@ -23,7 +31,7 @@ export function createAiPracticeStore({getOwner,storage,now=Date.now}) {
   return s;
  }
  function clear(){try{storage.removeItem(key());}catch{}}
- return {options,saveOptions,save,read,clear};
+ return {options,saveOptions,setInputMode,save,read,clear};
 }
 export function groupAiHistory(attempts){
  const groups=new Map();

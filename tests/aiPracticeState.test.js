@@ -19,10 +19,25 @@ test('history separates first and coached performance and ignores invented asses
  const g=groupAiHistory([{...b,statement_id:'one',kind:'first',score:3},{...b,statement_id:'one',kind:'retry',score:5},{...b,statement_id:'two',kind:'first',score:4},{...b,statement_id:'three',kind:'invented',score:5}]);
  assert.equal(g.length,1);assert.equal(g[0].summary.firstScore,3.5);assert.equal(g[0].summary.retryScore,5);assert.equal(g[0].summary.firstCount,2);
 });
-test('attempt budget preserves approved per-action prices',()=>{assert.equal(aiAttemptCredits({inputMode:'spoken',delivery:true,voices:true}),7);assert.equal(aiAttemptCredits({inputMode:'spoken',delivery:true,voices:true},false,true),6);assert.equal(aiAttemptCredits({inputMode:'written',voices:false}),1);assert.equal(aiAttemptCredits({inputMode:'spoken',delivery:true,voices:true},true),4);});
+test('attempt budget preserves approved per-action prices',()=>{assert.equal(aiAttemptCredits({inputMode:'spoken',delivery:true,voices:true}),6);assert.equal(aiAttemptCredits({inputMode:'spoken',delivery:true,voices:true},false,true),5);assert.equal(aiAttemptCredits({inputMode:'written',voices:false}),1);assert.equal(aiAttemptCredits({inputMode:'spoken',delivery:true,voices:true},true),3);});
 test('cost calculation matches measured provider usage and marks speech estimates',()=>{
  assert.equal(aiUsageCost({action:'assess',model:'gpt-6.1-sol',usage:{input_tokens:970,output_tokens:162}}).cost_usd,.00356);
  assert.equal(aiUsageCost({action:'delivery',model:'gpt-audio-1.5',usage:{prompt_tokens:842,completion_tokens:138,prompt_tokens_details:{audio_tokens:44}}}).cost_usd,.004783);
  assert.equal(aiUsageCost({action:'transcribe',model:'gpt-transcribe',usage:{type:'duration',seconds:5}}).cost_usd,.000375);assert.equal(aiUsageCost({action:'speech_client',model:'gpt-4o-mini-tts',characters:300}).estimated,true);
  assert.equal(aiUsageCost({action:'assess',model:'unknown',usage:{input_tokens:100,output_tokens:100}}).cost_usd,null);
+});
+
+test('spoken and written client-voice preferences stay independent across reloads and accounts',()=>{
+ const f=fixture();assert.equal(f.store.options().reviewTranscript,true);assert.equal(f.store.options().voices,true);
+ f.store.setInputMode('written');assert.equal(f.store.options().voices,false);
+ f.store.saveOptions({...f.store.options(),voices:true});f.store.setInputMode('spoken');
+ f.store.saveOptions({...f.store.options(),voices:false,reviewTranscript:false});f.store.setInputMode('written');assert.equal(f.store.options().voices,true);
+ const reloaded=createAiPracticeStore({getOwner:()=>uid,storage:{getItem:k=>f.values.get(k),setItem:(k,v)=>f.values.set(k,v)}});
+ assert.equal(reloaded.options().voices,true);reloaded.setInputMode('spoken');assert.equal(reloaded.options().voices,false);assert.equal(reloaded.options().reviewTranscript,false);
+ f.change(other);assert.equal(f.store.options().voices,true);assert.equal(f.store.options().reviewTranscript,true);f.store.setInputMode('written');assert.equal(f.store.options().voices,false);
+});
+test('old automatic-feedback settings upgrade to transcript review and silent writing once',()=>{
+ const f=fixture();f.values.set('dp_ai_options_v1:'+uid,JSON.stringify({...DEFAULT_AI_OPTIONS,inputMode:'written',voices:true,reviewTranscript:false}));
+ assert.equal(f.store.options().voices,false);assert.equal(f.store.options().reviewTranscript,true);
+ f.store.saveOptions({...f.store.options(),reviewTranscript:false});assert.equal(f.store.options().reviewTranscript,false);
 });
