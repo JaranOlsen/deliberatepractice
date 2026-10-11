@@ -102,11 +102,17 @@ async (page) => {
   }
   const [o,t,c,watcher]=pages;
   const click=async(p,id)=>{
-    const waits=['room-next','room-pass','room-save','room-rotate','room-change-role-submit','room-ready'].includes(id) && !loseResponse;
+    const waits=['room-next','room-pass','room-save','room-rotate','room-ready'].includes(id) && !loseResponse;
     const v=waits?Number(await p.locator('#room-panel').getAttribute('data-version')):0;
     if(id==='room-pass')p.once('dialog',dialog=>dialog.accept());
     await p.locator('#'+id).click();
     if(waits)await p.waitForFunction(v=>Number(document.getElementById('room-panel').dataset.version)>v,v);
+  };
+  const selectRole=async(p,role)=>{
+    await p.locator('#room-change-role:not(:disabled)').waitFor();
+    const v=Number(await p.locator('#room-panel').getAttribute('data-version'));
+    await p.locator('#room-change-role').selectOption(role);
+    await p.waitForFunction(v=>Number(document.getElementById('room-panel').dataset.version)>v,v);
   };
   const sync=async()=>{
     // Leave returns only {left:true}; fetch the committed version before waiting on UI.
@@ -139,8 +145,7 @@ async (page) => {
     }
   };
   try {
-    await click(o,'group-create');await o.locator('#room-host-options summary').click();
-    await o.locator('#room-host-role').selectOption('observer');await click(o,'room-create');
+    await click(o,'group-create');await o.locator('#room-share-code').waitFor();await selectRole(o,'observer');
     await o.locator('#room-share-code').waitFor();
     for(const [p,role] of [[t,'therapist'],[c,'client'],[watcher,'passive']]) {
       await click(p,'group-join');await p.locator('#room-code').fill(room.code);
@@ -261,11 +266,9 @@ async (page) => {
     for(const p of pages)assert(await p.locator('#room-change-role-form').isVisible(),'New round exposes role selection without opening People');
     await o.screenshot({path:'output/playwright/four-sets-next-round-320.png',fullPage:true});
     stage='post-round role claims';
-    await t.locator('#room-change-role').selectOption('client');await click(o,'room-change-role-submit');await sync();
-    assert(await t.locator('#room-change-role').inputValue()==='client','A newer room snapshot preserves an unsubmitted role choice');
-    await c.locator('#room-change-role').selectOption('client');
+    assert(await o.locator('#room-change-role-submit').count()===0,'Role selection has no extra submit button');
     claimRace=true;
-    await Promise.all([t,c].map(p=>p.locator('#room-change-role-submit').click()));
+    await Promise.all([t,c].map(p=>p.locator('#room-change-role').selectOption('client')));
     for(let retry=0;claimResults.length<2&&retry<250;retry++)await new Promise(resolve=>setTimeout(resolve,20));
     assert(claimResults.length===2,'Both competing requests completed');
     await sync();
@@ -273,9 +276,9 @@ async (page) => {
     assert(claimResults.find(r=>!r.ok).data.code==='P0001','The competing claim receives a database rejection');
     const loser=room.client_id===users.t?c:t;
     assert(await loser.locator('#room-change-role option[value="client"]').isDisabled(),'Taken client role is disabled on the other phone');
-    assert(await loser.locator('#room-change-role').inputValue()==='passive','A taken draft role resets to the participant’s actual role');
+    assert(await loser.locator('#room-change-role').inputValue()==='passive','A rejected role claim resets to the participant’s actual role');
     assert((await loser.locator('#room-error').textContent()).includes('Room changed'),'The losing participant sees why their claim failed');
-    await o.locator('#room-change-role').selectOption('therapist');await click(o,'room-change-role-submit');await sync();
+    await selectRole(o,'therapist');await sync();
     await click(o,'room-choose');await o.locator('button[data-skill-id="therapist-self-awareness"]').click();
     await o.locator('[data-case-id="case-jason"]').click();await click(o,'start-practice');await o.locator('.room-preparation').waitFor();await sync();
     stage='missing observer';
@@ -285,7 +288,7 @@ async (page) => {
     assert(!bypass.ok()&&(await bypass.json()).message.includes('Choose an active observer'),'The database also refuses a direct missing-observer start');
     assert(await o.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Missing-role status fits 320px');
     await o.screenshot({path:'output/playwright/role-selection-missing-observer-320.png',fullPage:true});
-    await loser.locator('#room-details summary').click();await loser.locator('#room-change-role').selectOption('observer');await click(loser,'room-change-role-submit');await sync();
+    await loser.locator('#room-details summary').click();await selectRole(loser,'observer');await sync();
     assert(await loser.locator('#room-next').isVisible()&&await loser.locator('#room-next').isDisabled(),'Filling the observer role exposes Start but still waits for human readiness');
     assert(await o.locator('#room-next').isHidden(),'Filling the observer role transfers the start control to that phone');
     stage='two-person reselection';
@@ -342,7 +345,7 @@ async (page) => {
     assert(!(await o.locator('#room-next-attempt').textContent()).includes('Pause before the reflection.'),'New therapist/skill does not inherit the previous therapist’s note');
     assert(!(await ratings()).some(r=>JSON.stringify(r).includes('Pause before the reflection.')),'Ratings never contain private reminder text');
     assert(errors.length===0,'No browser errors: '+errors.join('; '));
-    return {passed:true,participants:4,checks:['safe Home, resume, end-room cancellation and completion','private therapist reminder across four sets','room peer RLS isolation','skill-specific observer anchors','no notes in snapshots or ratings','real local RPCs','twelve unique items','fixed roles','four distinct set ratings','passed items','lost-response replay','saved-checkpoint reconnect','320px role screens','explicit role/skill/case reselection','role selection survives polling','simultaneous client claims','taken draft choice resets','missing observer blocks UI and RPC','human readiness barrier','simultaneous readiness','visible role assignments','pair readiness','pair self-assessment','all-passed set','host transfer with lost-response replay','host recovery','returning host does not regain authority']};
+    return {passed:true,participants:4,checks:['safe Home, resume, end-room cancellation and completion','private therapist reminder across four sets','room peer RLS isolation','skill-specific observer anchors','no notes in snapshots or ratings','real local RPCs','twelve unique items','fixed roles','four distinct set ratings','passed items','lost-response replay','saved-checkpoint reconnect','320px role screens','explicit role/skill/case reselection','immediate role selection','simultaneous client claims','rejected role claim resets','missing observer blocks UI and RPC','human readiness barrier','simultaneous readiness','visible role assignments','pair readiness','pair self-assessment','all-passed set','host transfer with lost-response replay','host recovery','returning host does not regain authority']};
   } catch(error) {
     const ui=await o.locator('#room-panel').evaluate(e=>({phase:e.dataset.phase,version:e.dataset.version,error:document.getElementById('room-error').textContent})).catch(()=>null);
     const allUi=await Promise.all(pages.map(p=>p.locator('#room-panel').evaluate(e=>({hidden:e.hidden,phase:e.dataset.phase,version:e.dataset.version,section:document.body.dataset.section,error:document.getElementById('room-error').textContent})).catch(()=>null)));

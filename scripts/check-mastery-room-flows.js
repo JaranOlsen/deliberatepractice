@@ -21,6 +21,21 @@ async (page) => {
     const p=await context.newPage();pages.push(p);p.on('pageerror',e=>errors.push(e.message));
     await context.route('**/src/js/backend.js*',route=>route.fulfill({contentType:'text/javascript',body:`
       const user={id:'${users[user]}',email:'${user}@example.invalid'};
+      export const getAiAccess=async()=>false;
+      export const aiApiOptions=()=>({});
+      export const accountServicesOptions=()=>({base:'/__billing_test',getToken:async()=>null});
+      export const getPublicAppConfig=async()=>({email_mode:'link',billing_mode:'off'});
+      export const getAccountAccess=async()=>({full_content:true,ai_access:false,subscription:null});
+      export const sendEmailSignIn=async()=>{throw Error('Unexpected email');};
+      export const verifyEmailSignIn=async()=>{throw Error('Unexpected code');};
+      export const redeemAccountAccessCode=async()=>{throw Error('Unexpected code redemption');};
+      export const fetchAccountContent=async input=>{
+        const file=input.kind==='skill'?'statements/'+input.languageId+'-'+input.skillId+'.json':'mastery/'+input.languageId+'-'+input.exerciseId+'.json';
+        const response=await fetch('src/data/runtime/'+file);if(!response.ok)throw Error('Missing content fixture');
+        const data=await response.json(),revision=input.kind==='skill'?Object.values(data)[0][0].revision:data.revision;
+        return {protocol:'practice-content-v1',revision,...(input.kind==='skill'?{bank:data}:{exercise:data})};
+      };
+
       export const isSupabaseReady=()=>true;
       export const isAccessExpired=()=>false;
       export const getAuthSession=async()=>({user});
@@ -83,16 +98,22 @@ async (page) => {
       const response=await p.request.post('http://127.0.0.1:5199/goal',{data:{...data,user:users[user],targetUserId:data.userId}});
       await route.fulfill({status:response.status(),contentType:'application/json',body:await response.text()});
     });
-    await context.addInitScript(language=>{localStorage.setItem('dp_access_level','all');localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:language,practiceMode:'group',groupUiVersion:2}));},language);
-    await p.goto(url);await p.waitForFunction(()=>['Account','Konto'].includes(document.querySelector('#account-button').textContent));
+    await context.addInitScript(language=>{localStorage.setItem('dp_app_tour_v1',JSON.stringify({disabled:true}));localStorage.setItem('dp_access_level','all');localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:language,practiceMode:'group',groupUiVersion:2}));},language);
+    await p.goto(url);await p.waitForFunction(()=>['Account','Konto'].includes(document.querySelector('#account-button').getAttribute('aria-label')));
   }
   const [o,t,c,watcher]=pages;
   const click=async(p,id)=>{
-    const waits=['room-next','room-pass','room-save','room-rotate','room-change-role-submit','room-ready'].includes(id) && !loseResponse;
+    const waits=['room-next','room-pass','room-save','room-rotate','room-ready'].includes(id) && !loseResponse;
     const v=waits?Number(await p.locator('#room-panel').getAttribute('data-version')):0;
     if(id==='room-pass')p.once('dialog',dialog=>dialog.accept());
     await p.locator('#'+id).click();
     if(waits)await p.waitForFunction(v=>Number(document.getElementById('room-panel').dataset.version)>v,v);
+  };
+  const selectRole=async(p,role)=>{
+    await p.locator('#room-change-role:not(:disabled)').waitFor();
+    const v=Number(await p.locator('#room-panel').getAttribute('data-version'));
+    await p.locator('#room-change-role').selectOption(role);
+    await p.waitForFunction(v=>Number(document.getElementById('room-panel').dataset.version)>v,v);
   };
   const sync=async()=>{
     // Leave returns only {left:true}; fetch the committed version before waiting on UI.
@@ -119,7 +140,7 @@ async (page) => {
     }
   };
   try {
-    await click(o,'group-create');await o.locator('#room-host-options summary').click();await o.locator('#room-host-role').selectOption('observer');await click(o,'room-create');await o.locator('#room-share-code').waitFor();
+    await click(o,'group-create');await o.locator('#room-share-code').waitFor();await selectRole(o,'observer');await o.locator('#room-share-code').waitFor();
     for(const [p,role] of [[t,'therapist'],[c,'client'],[watcher,'passive']]){
       await click(p,'group-join');await p.locator('#room-code').fill(room.code);await p.locator('#room-join-options summary').click();await p.locator('#room-role').selectOption(role);await click(p,'room-join');await p.locator('#room-share-code').waitFor();
     }
