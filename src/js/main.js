@@ -108,7 +108,6 @@ const contentScope=()=>roomSelection&&state.practiceMode===PRACTICE_MODES.GROUP?
 const hasPracticeContent=(language,skill)=>hasContent(language,skill,contentScope());
 const getPracticeStatements=(language,skill,caseId,level)=>getStatements(language,skill,caseId,level,contentScope());
 const loadPracticeContent=(language,skill)=>loadContent(language,skill,contentScope());
-let languageDestination = 'home';
 async function selectedRoomConfig() {
   const skill = getCurrentSkill(), caseData = getCurrentCase(), languageId = state.languageId;
   if (!caseData || isCaseLocked(caseData)) throw new Error('Choose an available case first');
@@ -408,8 +407,10 @@ const releaseElements = Object.fromEntries([
   "rating-scale", "round-outcome", "repeat-round", "unlock-code-label"
 ].map((id) => [id, document.getElementById(id)]));
 
+const DEFAULT_LANGUAGE_ID = "no";
+
 const state = {
-  languageId: null,
+  languageId: DEFAULT_LANGUAGE_ID,
   skillId: null,
   caseId: null,
   caseDifficulty: null,
@@ -985,7 +986,7 @@ function getSessionResumeDetails(session) {
 
 function getLastPracticeSetup() {
   const saved = readJsonStorage(LAST_SETUP_STORAGE_KEY);
-  const languageId = state.languageId ?? saved?.languageId;
+  const languageId = state.languageId;
   if (!saved || !LANGUAGE_METADATA[languageId]) return null;
   if(saved.exerciseType==='mastery'){const exercise=EXERCISE_CATALOG.find(e=>e.id===saved.exerciseId);return exercise?{exercise,languageId}:null;}
   const skill = localizeSkill(languageId, saved.skillId, saved.difficulty);
@@ -1010,7 +1011,6 @@ function renderLastPracticeSetup() {
 function repeatLastPracticeSetup() {
   const setup = getLastPracticeSetup();
   if (!setup || state.sessionActive || state.ratingVisible || getSessionResumeDetails(state.resumeSession)) return;
-  if (!state.languageId) handleLanguageSelection(setup.languageId);
   if(setup.exercise){void mastery.choose(setup.exercise.id);return;}
   handleSkillSelection(setup.skill.id);
   handleCaseSelection(setup.caseData.id, setup.caseData.difficulty);
@@ -1644,7 +1644,6 @@ function renderSelfRatingsChart() {
 function startProgressPractice(skillId) {
   if (state.sessionActive || state.ratingVisible) return;
   dialogs.close(releaseElements['progress-overlay']);
-  if (!state.languageId) handleLanguageSelection('en');
   handleSkillSelection(skillId);
 }
 
@@ -2504,7 +2503,7 @@ function renderLanguageOptions() {
       <span class="card-title">${metadata.label}</span>
 
     `;
-    button.addEventListener("click", () => handleLanguageSelection(languageId, {destination:roomSelection ? 'skill' : languageDestination}));
+    button.addEventListener("click", () => handleLanguageSelection(languageId, {destination:roomSelection ? 'skill' : 'home'}));
     elements.languageList.appendChild(button);
     languageButtonMap.set(languageId, button);
   });
@@ -4040,7 +4039,7 @@ function handleBackNavigation(targetKey) {
 
 function registerEventListeners() {
   document.getElementById('app-tour-open').addEventListener('click',()=>{hideAccountPanel();elements.accountButton.focus({preventScroll:true});appTour.start();});
-  document.getElementById('home-language').addEventListener('click', () => { languageDestination = 'home'; showSection('language'); });
+  document.getElementById('home-language').addEventListener('click', () => showSection('language'));
   document.getElementById('language-home').addEventListener('click', () => showSection('home'));
   for (const [id,type] of [['progress-single','single-skill'],['progress-mastery','mastery']]) {
     document.getElementById(id).addEventListener('click',()=>{state.progressExercise=type;renderSelfRatingsChart();});
@@ -4049,8 +4048,8 @@ function registerEventListeners() {
     document.getElementById(id).addEventListener('click',()=>{exerciseType=type;writeJsonStorage('dp_exercise_type',type);void renderExerciseChoice();});
   }
   document.getElementById('home-library').addEventListener('click', () => {
-    if (state.languageId) { renderSkillOptions(); showSection('skill'); }
-    else { languageDestination = 'skill'; showSection('language'); }
+    renderSkillOptions();
+    showSection('skill');
   });
   document.getElementById('home-progress').addEventListener('click', showProgressPanel);
   document.getElementById('home-ai-practice').addEventListener('click', () => {
@@ -4290,14 +4289,15 @@ function initialize() {
   const preferences = readJsonStorage(PRACTICE_PREFERENCES_KEY);
   state.practiceMode = normalizePracticeMode(preferences?.groupUiVersion === 2 ? preferences.practiceMode : "group");
   state.resumeSession = savedSession;
-  state.languageId = savedSession?.languageId ?? (LANGUAGE_METADATA[preferences?.languageId] ? preferences.languageId : null);
-  const initialLanguageId = state.languageId ?? "en";
+  const recentLanguageId = readJsonStorage(LAST_SETUP_STORAGE_KEY)?.languageId;
+  const preferredLanguageId = [preferences?.languageId, recentLanguageId].find(languageId => LANGUAGE_ORDER.includes(languageId));
+  state.languageId = savedSession?.languageId ?? preferredLanguageId ?? DEFAULT_LANGUAGE_ID;
   renderAppVersion();
-  applyLanguageStrings(initialLanguageId);
+  applyLanguageStrings(state.languageId);
   renderLanguageOptions();
   highlightLanguageSelection(state.languageId);
   renderResumeCard();
-  elements.statementText.textContent = getUIStrings(initialLanguageId).emptyPrompt;
+  elements.statementText.textContent = getUIStrings().emptyPrompt;
   elements.statementCounter.textContent = "";
   resetSuggestionVisibility();
   updateLockedBanner();
@@ -4316,7 +4316,7 @@ function initialize() {
       if(billing==='success')void subscriptionView.checkReturn();else if(billing==='cancelled')subscriptionView.cancelled();
     }
   });
-  if (state.languageId) renderSkillOptions();
+  renderSkillOptions();
   showSection("home");
   const entry=new URL(launchHref),fragment=new URLSearchParams(entry.hash.slice(1));
   if(!authCallbackFailure(entry.href)&&!entry.searchParams.has('billing')&&!entry.searchParams.has('credits')&&!fragment.has('access_token'))appTour.start({automatic:true});

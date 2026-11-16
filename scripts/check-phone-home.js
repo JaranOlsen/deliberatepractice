@@ -18,7 +18,7 @@ async (page) => {
     await page.setViewportSize({width:390,height:844});
   };
   try {
-    await page.evaluate(()=>localStorage.clear());await page.reload();
+    await page.evaluate(()=>{localStorage.clear();localStorage.setItem('dp_app_tour_v1',JSON.stringify({disabled:true}));});await page.reload();
     assert(await page.locator('#practice-home').isVisible(),'First visit has a compact home');
     assert(await page.locator('#skill-selection').isHidden(),'Library is one deliberate action away');
     await fits('first home');
@@ -29,8 +29,9 @@ async (page) => {
     assert(await page.locator('#account-overlay').isVisible(),'Guest progress leads to sign-in without sending email');
     await page.keyboard.press('Escape');
     assert(await page.evaluate(()=>document.activeElement.id==='home-progress'),'Dialog returns focus to home action');
-    await click('home-library');await page.locator('[data-language-id=en]').click();
-    assert(await page.locator('#skill-selection').isVisible(),'First library visit asks for language then opens skills');
+    assert(await page.locator('html').getAttribute('lang')==='no','First visit starts in Norwegian');
+    await click('home-library');
+    assert(await page.locator('#skill-selection').isVisible(),'First library visit opens skills directly in Norwegian');
     await click('back-to-language');
     for(const language of ['en','no']){
       await click('home-language');await fits(language+' language');

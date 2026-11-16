@@ -6,7 +6,7 @@ async (page) => {
   const assert=(ok,message)=>{if(!ok)throw new Error(message);};
   const fresh=async()=>{
     const context=await page.context().browser().newContext({viewport:{width:320,height:844}});contexts.push(context);
-    await context.addInitScript(()=>localStorage.setItem('dp_app_tour_v1',JSON.stringify({disabled:true})));
+    await context.addInitScript(()=>{localStorage.setItem('dp_app_tour_v1',JSON.stringify({disabled:true}));localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:'en'}));});
     const p=await context.newPage();p.on('pageerror',e=>errors.push(e.message));
     await context.route('**/*',async route=>{
       const request=route.request(),address=new URL(request.url());

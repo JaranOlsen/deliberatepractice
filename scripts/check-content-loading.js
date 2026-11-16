@@ -35,8 +35,9 @@ async (page) => {
     await page.locator('input[name="practice-mode"][value="individual"]').check();
     await page.waitForLoadState('networkidle');
     assert(requests.length === 0, 'Opening the app must not download exercise files');
-    await click('home-library');
+    await click('home-language');
     await page.locator('[data-language-id="en"]').click();
+    await click('home-library');
     assert(requests.length === 0, 'Choosing a language must not download all its exercises');
     hold = true;
     const downloading = new Promise(resolve => { started = resolve; });
