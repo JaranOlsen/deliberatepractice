@@ -15,6 +15,7 @@ async (page) => {
   const readyWaiters=[],readyResults=[];
   for(const user of ['o','t','c','p']) {
     const context=await page.context().browser().newContext({viewport:{width:320,height:844}});contexts.push(context);
+    await context.addInitScript(()=>{localStorage.setItem('dp_practice_preferences_v1',JSON.stringify({languageId:'en'}));});
     const p=await context.newPage();pages.push(p);p.on('pageerror',e=>errors.push(e.message));
     const device=await context.newCDPSession(p);
     await device.send('Emulation.setSafeAreaInsetsOverride',{insets:{top:59,bottom:34,left:0,right:0}});

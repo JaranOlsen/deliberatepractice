@@ -242,10 +242,11 @@ async (page) => {
   holdProfile = true;
   await page.evaluate(() => localStorage.clear());
   await page.reload();
+  await click('home-language');
+  await page.locator('[data-language-id="en"]').click();
   await page.waitForFunction(() => document.querySelector('#account-button').textContent === 'Account');
   await page.locator('input[name="practice-mode"][value="individual"]').check();
   await click('home-library');
-  await page.locator('[data-language-id="en"]').click();
   await page.locator('button[data-skill-id="empathic-understanding"]').click();
   await page.locator('[data-case-id="case-sara"]').click();
   assert(await page.locator('#start-practice').isDisabled(), 'A signed-in round must wait for its therapist target');
